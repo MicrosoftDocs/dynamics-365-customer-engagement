@@ -11,7 +11,7 @@ items:
     items:
       - name: Sign up for free trial
         href: trial-signup.md
-      - name: Trial FAQs
+      - name: Field Service trial FAQ
         href: trial-faq.md
   - name: Buy a subscription
     href: buy-fs.md
@@ -32,7 +32,7 @@ items:
           href: field-service-version-history-resource-scheduling-optimization.md
         - name: Version history archive
           href: version-history-archive.md
-        - name: Microsoft 365 integrations for Field Service (preview)
+        - name: Microsoft 365 integrations for Field Service
           href: flw-whats-new.md
     - name: Deprecations
       href: deprecations-field-service.md
@@ -53,7 +53,7 @@ items:
     - name: Field Service settings
       href: configure-default-settings.md
     - name: Set up users and security roles
-      href: view-user-accounts-security-roles.md
+      href: users-licenses-permissions.md
     - name: Territories
       href: set-up-territories.md
     - name: Location and map settings
@@ -93,8 +93,12 @@ items:
   items: 
     - name: Work order recap with copilot
       href: work-order-recap.md
+    - name: Work order update
+      href: work-order-update.md
     - name: Work order creation in Outlook with copilot
-      href: flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service-preview
+      href: flw-outlook.md#create-a-work-order-with-copilot
+    - name: Microsoft Copilot for Field Service work orders (preview)
+      href: flw-m365-chat.md
 
 - name: Work orders
   items:
@@ -102,7 +106,7 @@ items:
       href: field-service-architecture.md
     - name: Lifecycle and system statuses
       href: work-order-status-booking-status.md
-    - name: Work order experience (preview)
+    - name: New work order experience
       href: work-order-experience.md
     - name: Create a new work order
       href: create-work-order.md
@@ -168,46 +172,48 @@ items:
     - name: Travel charges
       href: travel-charges.md
 
-- name: Microsoft 365 integrations for Field Service (preview)
+- name: Microsoft 365 integrations for Field Service
   items:
     - name: Overview
       href: flw-overview.md
     - name: Administrators
-      href: flw-admin.md
-    - name: Outlook add-in with Copilot for the Frontline Manager
+      items:
+        - name: Set up integrations for Field Service
+          href: flw-admin.md
+        - name: Customize views
+          href: flw-customization.md
+        - name: Set up the Field Service Plugin for Microsoft Copilot (preview)
+          href: flw-copilot-setup.md
+    - name: Work with Field Service in Outlook (frontline managers)
       href: flw-outlook.md
-    - name: Teams app for the Frontline Manager
+    - name: Work with Field Service in Teams (frontline managers)
       href: flw-teams-manager.md
-    - name: Teams app for the Frontline Worker
+    - name: Work with Field Service in Teams (frontline workers)
       href: flw-teams-worker.md
+    - name: Field Service Plugin for Microsoft Copilot (preview)
+      href: flw-m365-chat.md
 
 - name: Scheduling
   items:
   - name: Universal Resource Scheduling for Field Service overview
     href: universal-resource-scheduling-for-field-service.md
-  - name: Administration and configuration
+  - name: Schedule board
     items:
-      - name: Enable an entity for scheduling
-        href: schedule-new-entity.md
-      - name: Geocoding for travel time
-        href: turn-on-auto-geocoding.md
-      - name: Booking statuses
-        href: set-up-booking-statuses.md
-      - name: Booking timestamps + journals
-        href: booking-timestamps.md
-      - name: Include appointments in scheduling
-        href: appointment-scheduling.md
-      - name: Fulfillment preferences
-        href: set-up-time-groups.md
-      - name: Booking rules
-        href: set-up-booking-rules.md
-      - name: Edit work hours calendar with APIs
-        href: field-service-work-hours-calendar-api.md
-      - name: Analytics dashboard
-        href: scheduling-analytics-reports.md
-      - name: Scheduling parameters (Settings)
-        href: scheduling-parameters-settings.md
-  - name: Scheduling
+      - name: Use the schedule board
+        href: work-with-schedule-board.md
+      - name: Configure schedule board settings
+        href: schedule-board-tab-settings.md
+      - name: Manage booking alerts
+        href: booking-alert.md
+      - name: Review resource utilization
+        href: schedule-board-utilization.md
+      - name: Customize the schedule board
+        items:
+        - name: Use custom fields on the schedule board
+          href: extend-schedule-board-custom-resource-attribute.md
+        - name: Create custom booking templates
+          href: booking-template.md
+  - name: Scheduling assistant
     items:
       - name: Schedule assistant overview
         href: schedule-assistant.md
@@ -233,24 +239,28 @@ items:
         href: schedule-assistant-advanced-filters.md
       - name: Search resource availability API
         href: search-resource-availability-api.md
-      - name: Schedule board
-        items:
-          - name: Configure the schedule board
-            href: configure-schedule-board.md
-          - name: Share schedule board tabs
-            href: share-schedule-board-tab.md
-          - name: Utilization
-            href: schedule-board-utilization.md
-          - name: Schedule board custom resource attribute
-            href: extend-schedule-board-custom-resource-attribute.md
-          - name: Edit booking templates
-            href: booking-template.md
-          - name: Booking alerts
-            href: booking-alert.md
-          - name: Schedule board tab settings
-            href: schedule-board-tab-settings.md
-          - name: Next-generation schedule board experience
-            href: preview-schedule-board.md
+  - name: Administration and configuration
+    items:
+      - name: Enable an entity for scheduling
+        href: schedule-new-entity.md
+      - name: Geocoding for travel time
+        href: turn-on-auto-geocoding.md
+      - name: Booking statuses
+        href: set-up-booking-statuses.md
+      - name: Booking timestamps + journals
+        href: booking-timestamps.md
+      - name: Include appointments in scheduling
+        href: appointment-scheduling.md
+      - name: Fulfillment preferences
+        href: set-up-time-groups.md
+      - name: Booking rules
+        href: set-up-booking-rules.md
+      - name: Edit work hours calendar with APIs
+        href: field-service-work-hours-calendar-api.md
+      - name: Analytics dashboard
+        href: scheduling-analytics-reports.md
+      - name: Scheduling parameters (Settings)
+        href: scheduling-parameters-settings.md
 
 - name: Mobile app
   items:
@@ -466,11 +476,13 @@ items:
         - name: Overnight scheduling
           href: rso-overnight-scheduling.md
         - name: Single resource optimization
-          href: single-resource-optimization.md
+          href: rso-single-resource-optimization.md
         - name: Simulations
           href: rso-simulation.md
     - name: Lock options for bookings
       href: booking-lock-options.md
+    - name: Multi-day requirements
+      href: rso-multi-day.md
     - name: Resolving conflicts for bookings
       href: rso-handling-resolving-booking-conflicts.md
 
@@ -478,6 +490,8 @@ items:
   items:
     - name: Overview of integrations
       href: field-service-integration-overview.md
+    - name: Sync with finance and operations applications (preview)
+      href: finance-operations-integration.md
     - name: Collaborate with Microsoft Teams
       href: field-service-teams-collaboration.md
     - name: Dynamics 365 Supply Chain Management
@@ -506,31 +520,29 @@ items:
     - name: Write complex business logic (plugins + JavaScript)
       href: field-service-customize-scripts.md
 
-- name: Troubleshooting and FAQs
+- name: Troubleshooting and FAQ
   items:
   - name: Troubleshoot with Solution Health Hub
     href: troubleshoot-field-service-solution-health.md
-  - name: Field Service FAQs
-    href: troubleshoot-faq.yml
-  - name: Field Service Mobile FAQs
+  - name: Troubleshooting articles
+    href: /troubleshoot/dynamics-365/field-service/welcome-field-service
+  - name: FAQ about the Field Service mobile app
     href: mobile-power-app-faq.yml
-  - name: Connected Field Service FAQs
-    href: cfs-troubleshoot.md
-  - name: Resource Scheduling Optimization FAQs
-    href: rso-faq.yml
-  - name: Microsoft 365 integrations for Field Service (preview) troubleshooting
+  - name: Microsoft 365 integrations for Field Service troubleshooting
     href: flw-troubleshooting.md
-  - name: New Field Service mobile experience (preview) troubleshooting     
+  - name: New Field Service mobile experience (preview) troubleshooting
     href: troubleshooting-mobile-newux.md
 
 - name: Responsible AI
   items: 
     - name: Overview
       href: responsible-ai-overview.md
-    - name: FAQs for Outlook work order creation
+    - name: FAQ about Outlook work order creation
       href: faqs-wo-flw-copilot.md
-    - name: FAQs for work order recap
+    - name: FAQ about work order recap
       href: faqs-work-order-recap.md
+    - name: FAQ about work order update
+      href: faqs-work-order-update.md
 
 - name: More resources
   items:

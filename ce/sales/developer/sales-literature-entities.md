@@ -63,8 +63,6 @@ A *sales literature* item is the basic unit of the marketing encyclopedia in Dyn
 ## Related Sections  
 
  [Model your business data with Dataverse](/power-apps/maker/data-platform/data-platform-intro))  
-  
- [Schedule and Appointment Entities](/customerengagement/on-premises/developer/schedule-appointment-entities)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

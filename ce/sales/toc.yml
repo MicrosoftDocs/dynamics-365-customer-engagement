@@ -20,7 +20,7 @@
       href: print-records.md
     - name: Export sales records to PDF
       href: create-quote-pdf.md
-    - name: View and manage records in focused view  
+    - name: View and manage records in focused view
       href: focused-view.md
     - name: Set focused view as the default view
       href: set-focused-view-as-default.md
@@ -40,10 +40,10 @@
         href: sales-previews-in-trial.md
       - name: Explore features included in the trial
         href: features-in-trial.md
-      - name: Trial FAQs
+      - name: Trial FAQ
         href: sales-trial-faq.md
   - name: Buy
-    href: buy-dynamics-365-sales.md 
+    href: buy-dynamics-365-sales.md
   - name: Install and configure
     items:
     - name: Install and use the Sales apps
@@ -74,7 +74,7 @@
     - name: Configure your sales organization
       items:
         - name: Set up sales basics
-          href: sales-basics-setup.md 
+          href: sales-basics-setup.md
         - name: System Settings - Sales
           href: system-settings-sales-tab.md
         - name: Create business units
@@ -82,7 +82,7 @@
         - name: Predefined security roles for Sales
           href: security-roles-for-sales.md
         - name: Create users and assign security roles
-          href: manage-users.md
+          href: /power-platform/admin/create-users?context=/dynamics365/context/sales-context
         - name: Add or manage teams
           href: manage-teams.md
         - name: Set up sales territories
@@ -161,17 +161,17 @@
               href: customize-zoominfo-app.md
         - name: Set focused view as the default view
           href: set-focused-view-as-default.md
-    - name: Configure Copilot
+    - name: Set up Copilot
       items:
       - name: Copilot overview
         href: copilot-overview.md
-      - name: Enable and setup Copilot
+      - name: Turn on and set up Copilot in Dynamics 365 Sales
         href: enable-setup-copilot.md
-      - name: Configure Copilot capabilities
-        href: configure-sales-copilot.md
+      - name: Turn on Copilot preview features
+        href: copilot-preview-features.md
       - name: Copilot data movement across geographies
         href: sales-copilot-data-movement.md
-      - name: Copilot FAQs
+      - name: Copilot in Dynamics 365 Sales FAQ
         href: sales-copilot-faq.md
     - name: Collaboration
       items:
@@ -439,7 +439,7 @@
               href: add-upnext-widget-form.md
             - name: Add the sales accelerator site map entry to custom app
               href: add-sales-accelerator-sitemap-entry-custom-app.md
-        - name: Sequences
+        - name: Create conditional workflows with sequences
           href: create-manage-sequences.md
           items:
             - name: Create and activate a sequence
@@ -481,41 +481,46 @@
             - name: Understand the sequence stats page
               href: understand-sequence-stats.md
         - name: Work assignment
-          href: work-assignment-intro.md      
           items:
-            - name: Create and activate segments
-              href: wa-create-and-activate-a-segment.md
-            - name: Manage assignment rules
+            - name: Work assignment overview
+              href: work-assignment-intro.md
+            - name: Configure work assignment
+              href: wa-work-assignment-manage-settings.md
+              items:
+                - name: Select security roles to assign records to
+                  href: wa-manage-sales-teams.md
+                - name: Set seller attributes and capacity
+                  href: wa-manage-seller-attributes.md
+                - name: Let sellers set their availability
+                  href: wa-manage-seller-availability.md
+            - name: Group related records in segments
+              items:
+                - name: Create and activate segments
+                  href: wa-create-and-activate-a-segment.md
+                - name: Connect segments to sequences
+                  href: wa-connect-a-segment-to-sequence.md
+                - name: Edit segments
+                  href: wa-edit-a-segment.md
+                - name: Delete segments
+                  href: wa-delete-deactivate-a-segment.md
+            - name: Automatically assign records
               items:
                 - name: Create and activate assignment rules
                   href: wa-create-and-activate-assignment-rule.md
-                - name: Edit an assignment rule
+                - name: Prioritize assignment rules
+                  href: wa-change-priority-assignment-rule.md
+                - name: Edit assignment rules
                   href: wa-edit-assignment-rule.md
-                - name: Delete or deactivate an assignment rule
+                - name: Delete or deactivate assignment rules
                   href: wa-delete-deactivate-assignment-rule.md
-            - name: Connect a sequence to a segment
-              href: wa-connect-a-segment-to-sequence.md
-            - name: View and edit properties of a segment
-              href: wa-view-details-segment.md
-            - name: Edit a segment
-              href: wa-edit-a-segment.md  
-            - name: Delete segment
-              href: wa-delete-deactivate-a-segment.md
-            - name: Manage unassigned records
+                - name: Understand record distribution in assignment rules
+                  href: understand-lead-distributions-assignment-rules.md
+            - name: View and assign unassigned records
               href: wa-manage-unassigned-records.md
-            - name: Manage work assignment settings
-              href: wa-work-assignment-manage-settings.md
-              items:
-                - name: Configure security roles to assign records
-                  href: wa-manage-sales-teams.md
-                - name: Manage seller attributes
-                  href: wa-manage-seller-attributes.md
-                - name: Manage seller availability
-                  href: wa-manage-seller-availability.md
-            - name: Understand lead distributions
-              href: understand-lead-distributions-assignment-rules.md                  
+            - name: Examples for assignment rules and segments
+              href: wa-examples.md
         - name: Get seller insights to improve seller effectiveness
-          href: seller-insights-intro.md        
+          href: seller-insights-intro.md
           items:
             - name: Import custom insights model into Dataverse
               href: import-insights-model-into-dataverse.md
@@ -525,47 +530,13 @@
               href: manage-access-view-insights.md
             - name: Configure assignment rule to auto assign insights
               href: configure-assignment-rule-auto-assign-insights.md
-        - name: Manage segments
-          href: manage-segments.md
-          items:
-            - name: Create and activate a segment
-              href: create-and-activate-a-segment.md
-            - name: Connect a segment to sequence
-              href: connect-a-segment-to-sequence.md
-            - name: View details of a segment
-              href: view-details-segment.md
-            - name: Edit a segment
-              href: edit-a-segment.md
-            - name: Prioritize segment
-              href: prioritize-segment.md
-            - name: Delete or deactivate a segment
-              href: delete-deactivate-a-segment.md
-        - name: Manage assignment rules
-          href: create-manage-assignment-rules.md
-          items:
-            - name: Create and activate an assignment rule
-              href: create-and-activate-assignment-rule.md
-            - name: Understand lead distributions
-              href: understand-lead-distributions-assignment-rules.md
-            - name: Edit an assignment rule
-              href: edit-assignment-rule.md
-            - name: Delete or deactivate an assignment rule
-              href: delete-deactivate-assignment-rule.md
-            - name: Manage unassigned records
-              href: manage-unassigned-records.md
-            - name: Manage sales teams
-              href: manage-sales-teams.md
-            - name: Manage seller attributes
-              href: manage-seller-attributes.md
-            - name: Manage seller availability
-              href: manage-seller-availability.md
         - name: Engage with customers through text messages
           href: sms-intro.md
           items:
             - name: Configure SMS channel
               href: configure-sms-provider.md
             - name: Add custom SMS channel
-              href: add-custom-sms-provider-intro.md  
+              href: add-custom-sms-provider-intro.md
               items:
                 - name: Define an extended configuration entity for a channel instance
                   href: custom-define-sms-instance.md
@@ -593,11 +564,12 @@
               href: /power-automate/business-process-flows-overview?context=/dynamics365/context/sales-context
             - name: Create or customize a business process flow
               href: customize-business-process-flows.md
-        - name: Configure assistant
+        - name: Assistant
+          href: assistant.md
           items:
             - name: Configure the assistant
               href: configure-assistant.md
-            - name: Create insight cards
+            - name: Create custom insight cards
               href: create-insight-cards-flow.md
             - name: Edit insight cards
               href: edit-insight-cards.md
@@ -631,12 +603,18 @@
           items:
             - name: Set up conversation intelligence in Sales Hub app
               href: fre-setup-ci-sales-app.md
+            - name: Set up own storage for call recordings
+              href: create-azure-repo.md
             - name: Configure sales team level settings
               href: configure-sales-team-level-settings.md
             - name: Configure and view your team page in sales app
               href: configure-view-your-team-page-sales-app.md
             - name: Configure conversation content
               href: configure-keywords-competitors-sales-app.md
+            - name: Prepare for the migration to Dataverse
+              href: prepare-for-ci-migration-to-dataverse.md
+            - name: Manage conversation intelligence data in Dataverse
+              href: conversation-intelligence-data-storage.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
         - name: Configure in conversation intelligence app
@@ -651,12 +629,10 @@
               href: connect-dynamics365-sales-environment.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy.md
-        - name: Integrate third-party dialers (preview) 
+        - name: Integrate third-party dialers (preview)
           href: ci-third-party-sp-integration.md
         - name: Integrate with Twilio Flex (preview)
           href: Integrate-TwilioFlex-with-CI.md
-        - name: Create a call recording repository in Azure
-          href: create-azure-repo.md
         - name: Languages supported
           href: language-support-conversation-intelligence.md
     - name: Dashboards and reports
@@ -735,12 +711,20 @@
       - name: Copilot overview
         href: copilot-overview.md
       - name: Use Copilot in Dynamics 365
-        href: use-sales-copilot.md
+        items:
+          - name: Open Copilot
+            href: use-sales-copilot.md
+          - name: Get information
+            href: copilot-get-information.md
+          - name: Stay ahead
+            href: copilot-stay-ahead.md
+          - name: Ask questions
+            href: copilot-ask-questions.md
       - name: Compose and send email messages using Copilot
         href: compose-send-email-copilot.md
       - name: View and copy email summary
         href: view-copy-email-summary.md
-      - name: Copilot FAQs
+      - name: Copilot in Dynamics 365 Sales FAQ
         href: sales-copilot-faq.md
     - name: Collaboration
       items:
@@ -868,7 +852,7 @@
           items:
             - name: Add products to an opportunity
               items:
-              - name: Add product using Quick Create form 
+              - name: Add product using Quick Create form
                 href: add-products-opportunity.md
               - name: Add multiple products to an opportunity by using the enhanced experience
                 href: add-products-enhanced-experience.md
@@ -932,8 +916,10 @@
           href: view-and-manage-underlying-opportunities.md
         - name: Adjust values in a forecast
           href: adjust-values-in-forecast.md
-        - name: Maintain up to date forecast data
+        - name: Recalculate forecasts manually
           href: keep-forecast-data-up-to-date.md
+        - name: Forecast recalculation methods
+          href: forecast-recalculation-methods.md
         - name: Analyze revenue outcome using predictive forecasting
           href: analyze-revenue-outcome-using-predictive-forecasting.md
         - name: Understand forecast projection through trend chart
@@ -976,7 +962,7 @@
             - name: Manage text message communications
               href: manage-text-message-communications.md
         - name: Get seller insights to improve seller effectiveness
-          href: seller-insights-intro.md        
+          href: seller-insights-intro.md
           items:
             - name: View and work on seller insights
               href: view-understand-insights.md
@@ -999,10 +985,13 @@
     - name: Guided selling
       items:
         - name: Assistant
+          href: assistant.md
           items:
-            - name: Guide customer communications with assistant
-              href: assistant.md
-            - name: Stay updated with cards in assistant
+            - name: Use the assistant to guide customer communications
+              href: use-assistant-guide-customer-communications.md
+            - name: Turn on or off insight cards
+              href: turn-on-off-insight-cards.md
+            - name: Default insight cards
               href: action-cards-reference.md
     - name: Relationship intelligence
       items:
@@ -1239,6 +1228,36 @@
           href: developer/entities/metric.md
         - name: msdyn_callablecontext
           href: developer/entities/msdyn_callablecontext.md
+        - name: About Table/Entity Reference
+          href: developer/about-entity-reference.md
+        - name: msdyn_ConversationActionItem
+          href: developer/entities/msdyn_conversationactionitem.md
+        - name: msdyn_ConversationAggregatedInsights
+          href: developer/entities/msdyn_conversationaggregatedinsights.md
+        - name: msdyn_ConversationParticipantInsights
+          href: developer/entities/msdyn_conversationparticipantinsights.md
+        - name: msdyn_ConversationParticipantSentiment
+          href: developer/entities/msdyn_conversationparticipantsentiment.md
+        - name: msdyn_ConversationQuestion
+          href: developer/entities/msdyn_conversationquestion.md
+        - name: msdyn_ConversationSentiment
+          href: developer/entities/msdyn_conversationsentiment.md
+        - name: msdyn_ConversationSignal
+          href: developer/entities/msdyn_conversationsignal.md
+        - name: msdyn_ConversationSubject
+          href: developer/entities/msdyn_conversationsubject.md
+        - name: msdyn_ConversationSummarySuggestion
+          href: developer/entities/msdyn_conversationsummarysuggestion.md
+        - name: msdyn_ConversationSystemTag
+          href: developer/entities/msdyn_conversationsystemtag.md
+        - name: msdyn_ConversationTag
+          href: developer/entities/msdyn_conversationtag.md
+        - name: msdyn_ocrecording
+          href: developer/entities/msdyn_ocrecording.md
+        - name: msdyn_SCIConversation
+          href: developer/entities/msdyn_sciconversation.md
+        - name: msdyn_transcript
+          href: developer/entities/msdyn_transcript.md
         - name: Opportunity
           href: developer/entities/opportunity.md
         - name: OpportunityClose
@@ -1325,25 +1344,7 @@
       href: sales-privacy-faqs.md
     - name: Privacy notice
       href: privacy-notice.md
-- name: Learning Catalog
-  items:
-    - name: Learning Catalog
-      href: learning-catalog.md
-    - name: Business Decision Maker
-      href: learning-bdm.md
-    - name: Business User
-      href: learning-bus-user.md
-    - name: Implementation Project Manager
-      href: learning-project-manager.md
-    - name: Administrator
-      href: learning-administrator.md
-    - name: Developer
-      href: learning-developer.md
-    - name: Functional Consultant
-      href: learning-functional-consultant.md
-    - name: Partner Sales and Marketing
-      href: learning-sales.md
-- name: Troubleshooting and FAQs
+- name: Troubleshooting and FAQ
   items:
     - name: Dynamics 365 Sales Troubleshooting guide
       href: troubleshooting.md
@@ -1375,22 +1376,30 @@
       href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-premium-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting Sales Professional
       href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-professional-issues?context=/dynamics365/context/sales-context
-    - name: Sales FAQs
+    - name: Sales FAQ
       href: faq-sales.yml
-    - name: Sales premium FAQs
+    - name: Sales premium FAQ
       href: faqs-sales-insights.md
 - name: Removed or deprecated features
   href: deprecations-sales.md
+- name: License compliance
+  items:
+    - name: Verify license compliance
+      href: license-enforcement.md
+    - name: License checker rules
+      href: license-checker-rules.md
 - name: Known issues
   href: https://go.microsoft.com/fwlink/?linkid=2171768
 - name: Responsible AI
   items:
     - name: Overview
       href: responsible-ai-overview.md
-    - name: FAQ for summarization in Copilot
+    - name: FAQ about summarization in Copilot
       href: faqs-sales-copilot-for-summarization.md
-    - name: FAQ for email in Copilot
-      href: faqs-sales-copilot-for-email.md      
+    - name: FAQ about email in Copilot
+      href: faqs-sales-copilot-for-email.md
+    - name: FAQ for chat with Sales data on Microsoft 365 Copilot (preview)
+      href: Microsoft-365-Copilot-for-Sales.md
 - name: Resources for other Sales apps
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)

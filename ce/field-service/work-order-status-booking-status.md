@@ -1,7 +1,7 @@
 ---
 title: Work order lifecycle and system statuses
 description: Track the status of a work order in its lifecycle with system statuses, substatuses, and booking statuses.
-ms.date: 06/09/2023
+ms.date: 12/15/2023
 ms.topic: conceptual
 author: lmasieri
 ms.author: lmasieri
@@ -26,7 +26,7 @@ Work orders use system statuses, work order substatuses, and booking statuses to
 
 **Work Order Substatuses** are noted on the work order entity and relate to and provide more detail for work order system statuses. Work order substatuses are created custom for each organization.
 
-**Booking Statuses** are noted on the bookable resource booking entity and are updated by field technicians on the Field Service Mobile app to track their progress for a specific work order requirement. Additionally, booking statuses are visualized on the schedule board with a distinct color and icon, and a few booking statuses are part of the product by default, though more custom ones can be added. Out of the box, the booking statuses are:
+**Booking Statuses** are noted on the bookable resource booking entity and are updated by field technicians on the Field Service mobile app to track their progress for a specific work order requirement. Additionally, booking statuses are visualized on the schedule board with a distinct color and icon, and a few booking statuses are part of the product by default, though more custom ones can be added. Out of the box, the booking statuses are:
 
 - Scheduled
 - Traveling
@@ -70,7 +70,7 @@ The default work order and booking statuses map to the following stages of the w
 
 1. Once the work order is scheduled, the system creates a booking with a booking status of *Scheduled*. The creation of a booking automatically changes the work order system status to *Scheduled*.
 
-1. Technicians can see scheduled work orders it on the Field Service Mobile app. When they're on the way to the work site, they change the booking status to *Traveling*. Changing the booking status to *Traveling* automatically changes the work order system status to *In Progress*.
+1. Technicians can see scheduled work orders it on the Field Service mobile app. When they're on the way to the work site, they change the booking status to *Traveling*. Changing the booking status to *Traveling* automatically changes the work order system status to *In Progress*.
 
     > [!NOTE]
     > If there are multiple bookings for a single work order and one booking is in progress, the related work order status gets updated.
@@ -110,7 +110,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 
 #### Traveling
 
-- When a booking is updated to a *Traveling* booking status from Field Service Mobile, the **Start time** will be updated to the current time. When updated from web, the start time is not automatically updated.
+- When a booking is updated to a *Traveling* booking status from the mobile app, the **Start time** will be updated to the current time. When updated from web, the start time isn't automatically updated.
 
 #### In Progress
 
@@ -127,6 +127,41 @@ Every booking status change creates a booking timestamp to keep track of the upd
 - Updates **Total Cost**, calculated as the sum total of actual travel duration, total duration in progress, and the total break duration, multiplied by the resource's hourly rate.
 - Updates **Total Billable Duration**, calculated as the sum total of total duration in progress and total break duration.
 - Updates **Completed On (Work Order)** field on the related work order with the end time of the booking. Editing the booking end time updates the **Completed On** value.
+
+### Create follow-up work order for a completed booking
+
+Save time on work orders that require follow-up by returning them to an unscheduled state after completing a booking.
+
+By default, work orders are set to completed when the associated booking gets completed. To change the default logic, [create or edit a booking status](set-up-booking-statuses.md), go to the **Field Service** tab and set the **Status completes work order** toggle accordingly. On existing booking statuses, the setting only impacts future bookings. No changes are made to existing bookings.
+
+- **On** marks a work order *Completed* when the booking changes to that status.
+- **Off** applies the work order system status according to [status mapping table](#status-mapping-table) when the booking changes to that status.
+
+For work orders that have multiple bookings associated, the work order status depends on the status of all related bookings.
+
+Regardless of status settings, the booking status has no impact on the status of *Resource Requirements*.
+
+#### Status mapping table
+
+Review the following table to understand how the booking status maps to the work order system status. Work order statuses in bold indicate a change from the default behavior.
+
+| Booking Status   | Work order system status    |
+|---|:---|
+|  none  | Unscheduled  |
+|  Scheduled  |  Scheduled  |
+|  In Progress  |  In Progress  |
+|  Completed  | Completed  |
+|  Partially Completed  |  **Unscheduled**  |
+|  Canceled  | Unscheduled  |
+|  Booking1: Scheduled <br>Booking2: Scheduled    | Scheduled  |
+|  Booking1: Scheduled <br>Booking2: In Progress   | In Progress  |
+|  Booking1: Scheduled <br>Booking2: Completed   | In Progress  |
+|  Booking1: Scheduled <br>Booking2: Partially Completed   | **Scheduled**  |
+|  Booking1: Completed <br>Booking2: Completed    | Completed  |
+|  Booking1: Partially Completed <br>Booking2: Partially Completed | **Unscheduled**  |
+|  Booking1: In Progress <br>Booking2: Partially Completed   | In Progress  |
+|  Booking1: Completed <br>Booking2: Partially Completed  | Completed  |
+|  Booking1: Canceled <br>Booking2: Partially Completed   | **Unscheduled**  |
 
 ## Next steps
 

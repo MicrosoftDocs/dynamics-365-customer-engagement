@@ -23,12 +23,12 @@ If you are an upgrading user of Omnichannel for Customer Service, you can perfor
 
 ### See also
 
-[Unified routing](overview-unified-routing.md)  
-[Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
-[Create workstreams](create-workstreams.md)  
-[Create queues for conversations](queues-omnichannel.md)  
-[Set up record routing](set-up-record-routing.md)  
-[FAQs on unified routing](unified-routing-faqs.md)  
+[Unified routing](administer/overview-unified-routing.md)  
+[Manage users in Omnichannel for Customer Service](administer/users-user-profiles.md)  
+[Create workstreams](administer/create-workstreams.md)  
+[Create queues for conversations](administer/queues-omnichannel.md)  
+[Set up record routing](administer/set-up-record-routing.md)  
+[FAQs on unified routing](administer/unified-routing-faqs.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

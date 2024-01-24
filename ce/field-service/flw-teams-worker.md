@@ -1,7 +1,7 @@
 ---
-title: Field Service (Preview) Teams app for the Frontline Worker
-description: Learn about the Dynamics 365 Field Service (Preview) Teams and Viva Connections app to view and edit current work orders.
-ms.date: 07/31/2023
+title: Work with Field Service in Teams (frontline workers)
+description: Learn how field technicians and other frontline workers can use the Dynamics 365 Field Service Teams app to view and update work orders in Teams on their mobile devices.
+ms.date: 12/12/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -10,64 +10,100 @@ ms.custom: bap-template
 ms.subservice: m365-integrations
 ---
 
-# Field Service (Preview) Teams app for the Frontline Worker
+# Work with Field Service in Teams (frontline workers)
 
-[!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
+The Dynamics 365 Field Service app for Teams enables frontline workers to manage their work orders without disrupting their workflow. In a Viva Connections dashboard or directly in Teams, you can view and update work orders that are assigned to you on your mobile device.
 
-The Dynamics 365 Field Service Teams app enables frontline workers to view upcoming work orders and edit current work orders without disrupting their workflow. As a frontline worker, you can view work orders assigned to you and manage your current work order directly in Microsoft Viva Connections on your mobile device.
+## Prerequisite
 
-[!INCLUDE[us-uk-only](../includes/fsp-m365-us-uk-only.md)]
+Your environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
 
-## Select your environment to open your dashboard the first time
+> [!NOTE]
+> The supported language is based on your Teams' language. If you access Teams from the web, the language is based on the web browser. If you access Teams from Teams Desktop, the language is based on Teams Desktop's language.
 
-1. In Teams, select **Apps** and select the name of the Viva Connections app provided by your admin. Your dashboard displays.
+## Install the Field Service Teams app
 
-1. On a card that says **Get Started**, select **Settings**. The Team Settings page displays.
+Your admin might have installed the app for your organization. If you see the Field Service or Viva Connections icon in the Teams side rail or **Field Service** in the app list, you can skip this step.
 
-1. Select your Field Service environment.
+[!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
 
-   :::image type="content" source="media/fsp-environment-flw.png" alt-text="Screenshot of Field Service environment selection":::
+## Select your environment
 
-1. Once the environment is validated, select **Return to Viva Connections dashboard**.
+1. In Teams, select **Apps** and select **Field Service**.
 
-   :::image type="content" source="media/fsp-viva-mobile-dashboard.png" alt-text="Field Service (Preview) Viva Connections mobile dashboard":::
+1. Select the **Settings** tab.
 
-## View work orders assigned to me
+1. Select your Field Service environment. If you work in more than one environment, you can easily [switch environments](#switch-environments) when you need to.
 
-1. From your mobile device, access the Microsoft Viva dashboard.
+   :::image type="content" source="media/fsp-environment-flw.png" alt-text="Screenshot of Field Service environment selection for the frontline worker":::
 
-1. Under **Work Orders**, select **See all**.
+   [Look up your environment](/power-platform/admin/determine-org-id-name) if you're not sure which one to choose.
 
-   :::image type="content" source="media/fsp-flw-viva-work-orders.png" alt-text="Field Service (Preview) Viva Connections mobile list of work orders":::
+1. Once the environment is validated, select one of the following:
 
-1. To filter by **Booking status**, select **Filter**, make your selection, and then select **Apply**. For more information on booking status, see [Work order life cycle and statuses](work-order-status-booking-status.md).
+   - The **Home** tab to go to the Teams **Home** page.
 
-## View and manage your current work order
+     :::image type="content" source="media/fsp-flw-menu.png" alt-text="Mobile device rendering of the Field Service main menu for the frontline worker.":::
 
-1. From your mobile device, access the Microsoft Viva dashboard.
+   - **Open Viva Connections** to go to your Viva Connections dashboard.
 
-1. Under **Current Work Order**, if you only need to update the booking status, select **Update Status**. Otherwise, select **Details**.
+     :::image type="content" source="media/fsp-viva-dashboard-flw.png" alt-text="Screenshot of the Field Service dashboard in Viva Connections for the frontline worker.":::
 
-   :::image type="content" source="media/fsp-flw-work-order-details.png" alt-text="Field Service (Preview) Viva Connections mobile work order details":::
+## View a work order
+
+1. From your Viva dashboard, select **See all** under **Work Orders**.
+
+   From your Teams Field Service Home page, select **All work orders**, or select **My work orders** to view just the work orders that are assigned to you.
+
+   :::image type="content" source="media/fsp-flw-all-work-orders.png" alt-text="Mobile device rendering showing the list of all work orders in the Field Service Teams app":::
+
+1. Find the work order you want to view:
+
+   - Type the work order ID in the **Find by ID** box and select **Search**.
+
+   - To filter the list by status or priority, select **Filter**, make your choice, and then select **Apply**.
+
+   - To remove a filter, select **Filter**, clear each selection, and then select **Apply**.
+
+1. Select the work order to view or edit it.
+
+   :::image type="content" source="media/fsp-flw-work-order-details.png" alt-text="Field Service Frontline worker mobile work order details":::
+
+## Manage your current work order
+
+1. From the Teams Field Service **Home** page, select **My work orders**. Select your current work order for details.
+
+   In Viva, under **Current Work Order**, if you only need to update the [booking status](work-order-status-booking-status.md), select **Update Status** and then select the new status. Otherwise, select **Details**.
+
+   :::image type="content" source="media/fsp-flw-work-order-details.png" alt-text="Rendering of a mobile device, showing the details of a work order in the Field Service app for Teams.":::
 
 1. Within the details of the work order, you can:
 
-   - Open a map to locate the service address
+   - Change any fields except Service account and Work order type.
+
+   - Open a map to locate the service address.
+
+   - Open the work order in Dynamics 365 Field Service. Select the pop-out icon.
+
+     :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Mobile device rendering of Field Service Teams highlighting the pop-out icon to go to Field Service.":::
+
    - View tasks and products in Field Service
+
    - [Launch Remote Assist for remote collaboration](#call-for-remote-collaboration-through-remote-assist)
-   - Change the [Booking status](work-order-status-booking-status.md)
-   - Change the Actual arrival or end time
 
 1. If you made changes, select **Save**.
 
 ## Call for remote collaboration through Remote Assist
 
-1. From the work order details, under **Support contact**, select **Launch Remote Assist**.
+[!INCLUDE [fsp-launch-ra](../includes/fsp-launch-ra.md)]
 
-1. Search for and select the contact you want to call.
+## Enable the Microsoft Copilot for Field Service work orders
 
-1. Select **OK** for Remote Assist to access your camera and select **Launch call**.
+[!INCLUDE [fsp-m365-copilot](../includes/fsp-m365-copilot.md)]
 
-For more information about Dynamics 365 Remote Assist, see [Overview of Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/ra-overview).
+## Switch environments
+
+[!INCLUDE [fsp-switch-env](../includes/fsp-switch-env.md)]
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
