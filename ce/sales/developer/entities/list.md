@@ -123,7 +123,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Select the type of members that this marketing list will contain: accounts, contacts, or leads. Each list can have only one member type and this value can't be changed after the marketing list is created.|
+|Description|Select the type of members that this marketing list contains: accounts, contacts, or leads. Each list can have only one member type and this value can't be changed after the marketing list is created.|
 |DisplayName|Marketing List Member Type|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -162,7 +162,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Select whether to override the opt-out settings on leads, contacts, and accounts for the members of the target marketing lists of the campaign activity. If No is selected, those who have chosen to opt out won't be excluded from the list. This means they will receive marketing materials.|
+|Description|Select whether to override the opt-out settings on leads, contacts, and accounts for the members of the target marketing lists of the campaign activity. If No is selected, users who chose to opt out won't be excluded from the list. This means they receive marketing materials.|
 |DisplayName|Exclude Members Who Opt Out|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -271,7 +271,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Select whether the marketing list is locked. If Yes is selected, no additional members can be added to the marketing list.|
+|Description|Select whether the marketing list is locked. If Yes is selected, no more members can be added to the marketing list.|
 |DisplayName|Locked|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -311,7 +311,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Type of the members that can be stored in the marketing list. Please do not remove from form!|
+|Description|Type of the members that can be stored in the marketing list. Please don't remove from form!|
 |DisplayName|Member Type|
 |Format|None|
 |IsValidForForm|True|

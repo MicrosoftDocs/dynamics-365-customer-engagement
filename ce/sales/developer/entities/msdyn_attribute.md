@@ -142,7 +142,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|The data field that the attribute will use to associate the attribute with the lead. Eg. msdyn_countrycode.|
+|Description|The data field that the attribute uses to associate the attribute with the lead. For example msdyn_countrycode.|
 |DisplayName|Data field linked to attribute|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -190,7 +190,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Whether or not an automatically - generated attribute has been approved by your organanization's admin.|
+|Description|Whether or not an automatically generated attribute is approved by your organization's admin.|
 |DisplayName|Approval status|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -202,7 +202,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|Description|
 |-----|-----|--------|
-|0|Not approved|This means that the entity has not been reviewed by user|
+|0|Not approved|This value means that the entity isn't reviewed by a user|
 |1|Approved||
 |2|Dismissed||
 
@@ -213,7 +213,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Date and time that the record was migrated.|
+|Description|Date and time that the record was migrated|
 |DisplayName|Record Created On|
 |Format|DateOnly|
 |IsValidForForm|False|
@@ -226,7 +226,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -242,7 +242,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -360,7 +360,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -376,7 +376,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -394,7 +394,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -427,7 +427,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -443,7 +443,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -461,7 +461,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -479,7 +479,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -495,7 +495,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -513,7 +513,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -546,7 +546,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -562,7 +562,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -580,7 +580,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -598,7 +598,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -616,7 +616,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -634,7 +634,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -650,7 +650,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_OwningBusinessUnitName"></a> OwningBusinessUnitName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -668,7 +668,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -684,7 +684,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -700,7 +700,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
