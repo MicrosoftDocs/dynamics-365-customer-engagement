@@ -369,6 +369,8 @@
           href: customize-quote-closure.md
     - name: Forecast management
       items:
+        - name: Overview of sales forecasting
+          href: project-accurate-revenue-sales-forecasting.md      
         - name: Configure forecasts in your organization
           href: configure-forecast.md
         - name: Select a template
@@ -906,7 +908,7 @@
           href: add-products-qoi-enhanced.md
     - name: Forecast management
       items:
-        - name: Project accurate revenue with sales forecasting
+        - name: Overview of sales forecasting
           href: project-accurate-revenue-sales-forecasting.md
         - name: View a forecast
           href: view-forecasts.md

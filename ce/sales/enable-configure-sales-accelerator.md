@@ -1,10 +1,12 @@
 ---
-title: "Configure the sales accelerator"
-description: "Configure the sales accelerator to create sequences and connect records, and view daily work list items."
-ms.date: 04/06/2022
-ms.topic: article
+title: Configure the sales accelerator
+description: Configure the sales accelerator to create sequences and connect records, and view daily work list items.
+ms.date: 02/02/2024
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
+ms.owner: shujoshi
+ms.custom: bap-template
 ---
 # Configure the sales accelerator
 
@@ -17,7 +19,6 @@ Enable and configure the sales accelerator to create sequences and connect recor
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## How does the sales accelerator help a sales team?
 
@@ -126,6 +127,12 @@ By default, the **Up next** widget is displayed on the **Default Main** and **Sa
 
 [Learn more about how to add sales accelerator to the site map in your custom app](faqs-sales-insights.md#how-to-add-sales-accelerator-to-the-site-map-in-your-custom-app).
 
+## Add sales accelerator site map entry to custom app
+
+>[!NOTE]
+>Enable sales insights in your organization before you add the site map to your custom app.
+
+When you create a custom model-driven app and choose a default solution to create a sitemap for the app. However, the list contains solutions that are based on entity forms only. The sales accelerator option is based on URL custom control forms and do not appear in the solution list. You must manually add the option to the sitemap. After you add these options, users in your organization can see them on the app’s sitemap. To know how to add site map entry to your custom app, see [Add site map entry to custom app](add-custom-site-map.md).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
