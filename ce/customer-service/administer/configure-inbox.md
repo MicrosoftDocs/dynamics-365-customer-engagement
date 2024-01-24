@@ -1,15 +1,14 @@
 ---
-title: Configure the inbox | MicrosoftDocs
-description: Learn how to enable the inbox in Dynamics 365 Customer Service App profile manager and configure inbox settings in Customer Service admin center.
+title: Configure the inbox
+description: Use this article to enable and configure inbox settings in Customer Service admin center.
 ms.date: 1/24/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-search.audienceType: 
-  - admin
-  - enduser
-ms.custom: 
-  - dyn365-customerservice
+ms.collection:
+ms.topic: how-to
+ms.custom: bap-template
+---
 ---
 
 # Configure the inbox
