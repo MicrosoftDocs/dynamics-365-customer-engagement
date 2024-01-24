@@ -72,7 +72,7 @@ Keep in mind that these fields are configured at the organization level. Make su
 
 ## Get answers from SharePoint documents
 
-As a seller, you may have to refer to documents such as contracts, technical documents, amd marketing collateral to answer questions from your customers. These documents are typically stored in SharePoint. Copilot can help you find answers from these documents and summarize the answers for you.
+As a seller, you may have to refer to documents such as contracts, technical documents, amd marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you.
 
 1. In the Copilot side pane, type in your question in natural language, and select **Enter**. 
     You need not open a record to ask Copilot a question. For example, you can ask Copilot, **What is the warranty period for Contoso 3D printers?** or **What is the price of Contoso 3D printers?**.
@@ -80,7 +80,7 @@ As a seller, you may have to refer to documents such as contracts, technical doc
     Copilot searches for answers from the sales data stored in Dataverse first. After the result is displayed, you'll see a follow-up prompt.
 
 2. Select the follow-up prompt **Would you like me to search other sources**.  
-   If the answer is available in SharePoint, Copilot summarizes the answer and provides a link to the corresponding document in SharePoint.
+   If the answer is available in SharePoint, Copilot summarizes the answer and provides links to the corresponding documents in SharePoint.
 
 
 ### See also
