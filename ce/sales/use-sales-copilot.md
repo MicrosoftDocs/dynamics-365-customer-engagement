@@ -42,6 +42,17 @@ Your admin has [turned on and set up Copilot](enable-setup-copilot.md).
 
 ## Chat with Copilot
 
+You can chat with Copilot in natural language or use predefined prompts to get the most out of Copilot.
+
+### Chat with Copilot in natural language
+
+When you chat with Copilot in natural language, you can use the following types of requests:
+
+- Data requests: Simple data requests such as, What's the Contoso's annual revenue, who is the owner of Alpine Ski House, or show me all my opportunities that are closing this month. These requests are answered with the data for Dataverse.
+- Insight requests: 
+
+### Chat with Copilot using predefined prompts
+
 Use predefined prompts to get the most out of Copilot. The following table provides a quick reference to predefined prompts.
 
 | Prompt name | Prompt navigation | Description |
