@@ -6,8 +6,8 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.collection:bap-ai-copilot
-ms.date: 01/22/2024
+ms.collection: bap-ai-copilot
+ms.date: 01/24/2024
 search.app: salescopilot-docs
 ms.custom:
   - bap-template
