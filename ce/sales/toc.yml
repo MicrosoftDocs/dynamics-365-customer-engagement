@@ -415,8 +415,6 @@
           href: configure-premium-forecasting.md
         - name: View prediction model status
           href: view-prediction-model-status.md
-        - name: Add forecast grid and configuration options in site map
-          href: add-forecast-site-map.md
     - name: Goal management
       items:
         - name: Process for setting goals
@@ -441,8 +439,6 @@
               href: customize-workspace-sales-accelerator.md
             - name: Add the Up next widget to an entity form
               href: add-upnext-widget-form.md
-            - name: Add the sales accelerator site map entry to custom app
-              href: add-sales-accelerator-sitemap-entry-custom-app.md
         - name: Create conditional workflows with sequences
           href: create-manage-sequences.md
           items:

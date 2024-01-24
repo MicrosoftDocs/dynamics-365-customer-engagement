@@ -11,11 +11,13 @@ ms.custom: bap-template
 
 # Add site map entry to custom app
 
-Know how to add site map entry to your custom app.
+When you create a custom model-driven app, you can choose a default solution to create a sitemap for the app. However, the list contains solutions that are based on entity forms only. More information: [Create a model-driven app site map using the site map designer](/power-apps/maker/model-driven-apps/create-site-map-app).
 
-## Prerequisites
-
-Before you start adding site map entry to your custom app, make sure you have System administrator or similar role.
+## License and role requirements
+| Requirement type | You must have |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator or similar role<br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Add the site entry
 
@@ -40,8 +42,6 @@ In this procedure, we're using URL to add a site map entry.
 1. Save and publish the custom app.
 
 The site map entry is added to your custom app.
-
-To understand how to add site map entry to your custom app, see [Create a model-driven app site map using the site map designer](/power-apps/maker/model-driven-apps/create-site-map-app).
 
 ### See also
 
