@@ -74,7 +74,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
    :::image type="content" source="media/fsp-outlook-fsp-pane.png" alt-text="Field Service Outlook Create work order pane":::
 
    > [!TIP]
-   > Copy relevant information from the email into the **Summary** field. For general information about work orders, see [Work order architecture](field-service-architecture.md).
+   > Copy relevant information from the email into the **Summary** field, up to 8,000 characters. For general information about work orders, see [Work order architecture](field-service-architecture.md).
 
 1. Select **Save**.
 

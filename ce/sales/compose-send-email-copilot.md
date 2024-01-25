@@ -4,7 +4,8 @@ description: Get suggestions on email messages through Copilot in Dynamics 365 S
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
-search.app: salescopilot-docs 
+search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
 ms.topic: how-to 
 ms.date: 10/05/2023
 ms.custom: bap-template

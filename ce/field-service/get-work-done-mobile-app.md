@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:10/26/2023
   - bap-template
+ms.collection: bap-ai-copilot 
 ---
 
 # Complete work orders in the mobile app
