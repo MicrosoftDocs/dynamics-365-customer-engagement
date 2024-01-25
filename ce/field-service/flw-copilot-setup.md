@@ -8,6 +8,7 @@ ms.author: nandab
 ms.reviewer: v-wendysmith
 ms.custom: bap-template
 ms.subservice: m365-integrations
+ms.collection: bap-ai-copilot 
 ---
 
 # Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)
