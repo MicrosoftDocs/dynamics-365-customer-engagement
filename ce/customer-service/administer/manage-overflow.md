@@ -3,7 +3,7 @@ title: Manage overflow of work items in queues
 description: Learn how to manage overflow of work items in queues enabled for unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 08/10/2023
+ms.date: 01/25/2024
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -19,6 +19,10 @@ For work items, such as calls, conversations, and cases, you can address the fol
 - The wait time is high for customers and you want to reduce it.
 
 If you don't configure overflow, by default, the work item will stay in the queue until it gets routed based on the routing rules configured for the workstream.
+
+## Manage overflow of work items that are waiting in queue
+
+
 
 ## How queue overflow is evaluated
 
