@@ -59,7 +59,7 @@ Your admin might have installed the app for your organization. If you see the Fi
 
 1. Find the work order you want to view:
 
-   - Type the work order ID in the **Find by ID** box and select **Search**.
+   - Type the work order ID in the **Find by ID** box and select **Search**. Clear any filters first.
 
    - To filter the list by status or priority, select **Filter**, make your choice, and then select **Apply**.
 

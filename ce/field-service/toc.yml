@@ -544,7 +544,7 @@ items:
   - name: FAQ about the Field Service mobile app
     href: mobile-power-app-faq.yml
   - name: Microsoft 365 integrations for Field Service troubleshooting
-    href: flw-troubleshooting.md
+    href: /troubleshoot/dynamics-365/field-service/welcome-field-service
   - name: New Field Service mobile experience (preview) troubleshooting
     href: troubleshooting-mobile-newux.md
 
