@@ -41,7 +41,7 @@ Perform the browser-specific steps outlined here to automatically pass the magic
 
 **Firefox**
 
-1. In Firefox,enter "about:preferences#privacy" in the address bar.
+1. In Firefox, enter "about:preferences#privacy" in the address bar.
 1. On the page that appears, select **Custom**, and for **Cookies**, select **Cross-site tracking cookies**.
 
 **Safari**
