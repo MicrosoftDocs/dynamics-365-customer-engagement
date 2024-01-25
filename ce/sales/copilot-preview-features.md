@@ -20,6 +20,10 @@ ms.collection: bap-ai-copilot
 
 Instead of turning on Copilot preview features in Dynamics 365 Sales individually, you can turn them all on at once. This article describes how to do that, and lists the Copilot preview features that are available.
 
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+
 ## Copilot preview features
 
 Preview features aren't meant for production use and might have restricted functionality. These features are made available to get early feedback from customers.
