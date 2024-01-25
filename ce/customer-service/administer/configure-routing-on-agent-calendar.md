@@ -24,7 +24,7 @@ Configure assignment rules to route and assign cases and conversations based on 
 - [Custom assignment method](configure-assignment-rules.md) is configured for the queue.
 - You must have a third-party adapter configured to import agent schedules from an external system. Without an adapter in place, external schedules can't be surfaced in the agent calendar, and agents can't view their schedules in Dynamics 365 for Customer Service.
 - Shift-based routing is enabled.
-- Each agent ([bookableresource](../develop/reference/entities/bookableresource.md)) is opted into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to "True". The third party adapter should do this for you while importing the external schedules.
+- When you are importing external schedules using the third-party adapter, opt-in every agent ([bookableresource](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to "True".
 
 ## Enable shift-based routing
 
@@ -34,9 +34,9 @@ Configure assignment rules to route and assign cases and conversations based on 
 
 ## Import external schedule data
 
-You can use a third party adapter to import schedules from external workforce management systems into Dynamics 365 for Customer Service.
+You can use a third-party adapter to import schedules from external workforce management systems into Dynamics 365 for Customer Service.
 
-Alternatively, you may also use [Organization Service](/power-apps/developer/data-platform/org-service/overview) or [Dataverse OData Web API](/power-apps/developer/data-platform/webapi/overview) to import agent schedules from external systems into Dynamics 365. For a detailed overview of how to import external schedules and the entities in Customer Service that can represent these external schedules, see the [Schedule import integration](https://github.com/microsoft/dynamics365-customerservice-wem-samples/wiki/Schedule-import-integration) guide.
+Alternatively, you can also use [Organization Service](/power-apps/developer/data-platform/org-service/overview) or [Dataverse OData Web API](/power-apps/developer/data-platform/webapi/overview) to import agent schedules from external systems into Dynamics 365. For a detailed overview of how to import external schedules and the entities in Customer Service that can represent these external schedules, see the [Schedule import integration](https://github.com/microsoft/dynamics365-customerservice-wem-samples/wiki/Schedule-import-integration) guide.
 
 ## Configure an assignment rule
 
@@ -53,7 +53,7 @@ View the [routing diagnostics record](unified-routing-diagnostics.md) to underst
 
 ## How shift-based routing works
 
-The imported schedules from external systems are represented in Dynamics 365 as bookings. The [bookableresourcebooking](../develop/reference/entities/bookableresourcebooking.md) entity stores this information. Each booking is assigned to an agent. The agent is represented as a bookable resource. Every agent with one or more bookings has a corresponding entry in the [bookableresource](../develop/reference/entities/bookableresource.md) entity.
+The imported schedules from external systems are represented in Dynamics 365 as "bookings". The [bookableresourcebooking](../develop/reference/entities/bookableresourcebooking.md) entity stores this information. Each booking is assigned to an agent. The agent is represented as a bookable resource. Every agent with one or more bookings has a corresponding entry in the [bookableresource](../develop/reference/entities/bookableresource.md) entity.
 
 An automated process synchronizes the agent's imported schedules with the agent's work hour calendar. The following rules apply for the automatic synchronization:
 
