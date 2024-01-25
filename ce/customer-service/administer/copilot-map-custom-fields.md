@@ -6,7 +6,7 @@ author: gandhamm
 ms.author: mgandham 
 ms.reviewer: shujoshi 
 ms.topic: how-to 
-ms.collection: 
+ms.collection: bap-ai-copilot
 ms.date: 10/20/2023
 ms.custom:
   - bap-template

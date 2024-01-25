@@ -7,7 +7,7 @@ ms.reviewer: neeranelli
 ms.topic: how-to
 ms.date: 01/03/2024
 ms.custom: bap-template 
-ms.collection:
+ms.collection: bap-ai-copilot
 ---
 
 # Manage Copilot features in Customer Service 
