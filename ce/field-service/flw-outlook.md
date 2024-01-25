@@ -24,7 +24,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
 1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in). If the email was previously used to create a work order using Copilot, a message displays with a link to the work order.
 
-1. On the Home tab, select **Create a work order from email**.
+1. On the Home tab, select **Create work order from email**.
 
    :::image type="content" source="media/fsp-copilot-tab.png" alt-text="Field Service Outlook pane showing Home tab":::
 
@@ -48,12 +48,8 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
    The work order number displays at the top of the **Field Service** pane and the email is saved in the Field Service timeline.
 
-1. [Schedule the work order](#schedule-or-reschedule-a-work-order) or select the back arrow to return to the **Home** tab.
-
-   :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service":::
-
    > [!TIP]
-   > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon.
+   > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon ![pop-out icon.](media/fsp-pop-out-icon.png).
 
 ## Create a work order manually
 
@@ -91,9 +87,11 @@ Use Copilot to share proposed schedules for unscheduled work orders or provide s
 
 1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in).
 
-1. On the Home tab, select **Draft email based on work order**, and then select **Proposed schedules** or **Confirm schedule**.
+1. From an open work order, select **Draft email with scheduling suggestions** or **Draft email to confirm schedule**.
 
-   Or from an open work order, select **Draft email with scheduling suggestions** or **Draft email to confirm schedule**.
+   Or on the Home tab, select **Draft email based on work order**, and then select **Proposed schedules** or **Confirm schedule**.
+
+   :::image type="content" source="media/fsp-draft-email-scheduling.png" alt-text="Screenshot of the Field Service pane in Outlook, showing Draft email scheduling suggestion button":::
 
 1. After reviewing the generated email, select one of the following:
 
@@ -101,6 +99,8 @@ Use Copilot to share proposed schedules for unscheduled work orders or provide s
    - Copy to clipboard: Select the **Copy** icon to copy the response and paste it where needed.
    - Make adjustments: Select the **Adjust** icon to change the length or the tone of the email, and then select **Update**.
    - Regenerate: Select the **Regenerate** icon to generate a different email response.
+
+   :::image type="content" source="media/fsp-draft-email.png" alt-text="Screenshot of the Field Service pane in Outlook, showing a draft email with Action buttons highlighted.":::
 
 ## View a work order
 
@@ -126,7 +126,7 @@ Use Copilot to share proposed schedules for unscheduled work orders or provide s
 
 While you're viewing a work order, you can also:
 
-- [Draft an email with Copilot to propose or confirm schedules](#draft-an-email-with-copilot).
+- [Draft an email with Copilot to propose or confirm schedules](#draft-an-email-response-with-copilot).
 
 - [Schedule the work order](#schedule-or-reschedule-a-work-order).
 
