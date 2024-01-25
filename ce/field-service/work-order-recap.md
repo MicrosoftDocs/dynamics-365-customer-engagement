@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:10/30/2023
+ms.collection: bap-ai-copilot 
 ---
 
 # Work order recap with Copilot in Field Service (preview)
