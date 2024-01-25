@@ -1,36 +1,43 @@
 ---
-title: #Required; Keep the title body to 60-65 chars max including spaces and brand
-description: #Required; Keep the description within 100- and 165-characters including spaces 
-author: #Required; your GitHub user alias, with correct capitalization
-ms.author: #Required; microsoft alias of author
-ms.service: #Required; use the name-string related to slug in ms.product/ms.service
+title: Understand Copilot language support
+description: Understand how Copilot generates responses in different languages
+author: gandhamm
+ms.author: mgandham
+ms.service: 
 ms.topic: concept-article #Required; leave this attribute/value as-is.
-ms.date: #Required; mm/dd/yyyy format.
+ms.date: 01/25/2024
 
 ---
 
 # Understand Copilot language support
 
-Copilot detects your UI language and generates responses from cases and conversations in that language. When the input contains mixed languages, Copilot generates responses based on the language that is set for your UI.  For Copilot to generate responses from knowledge articles, the knowledge article must be tagged with the same language as the UI language.
+Copilot supports respond to questions, summarize cases and conversations features in the following languages:
+- English
+- Danish
+- Dutch
+- French
+- German
+- Spanish
+- Japanese
 
-This article describes Copilot behaviour for different UI input language scenarios.
+Copilot generates responses in different languages as follows:
+
+- Detects your UI language and generates responses from cases and conversations in that language. 
+- Generates responses from knowledge articles if the knowledge articles are tagged with the same language as the UI language.  
+- When the input contains mixed languages, Copilot generates responses based on the language that is set for your UI.
+- Copilot tries to generate responses in your preferred UI language even if that isn't an officially supported language.
 
 ## Scenarios
 
-| Scenarios | Expected outcome | 
-| --- | --- | --- |
-| **Summarization** | | |
-|A case has notes in Spanish, and the user's UI language is set to Spanish. | The Copilot generates the summary in Spanish. |
-| For a case, the description is in French, email thread is in Spanish, and the user's UI language is set to Spanish. |  The Copilot generates the case summary in Spanish. |
-| **Knowledge Base** | | |
-| The user's UI language is set to Spanish. The knowledge base articles are in Spanish. If the user asks a question in Spanish. | The knowledge base is filtered to articles authored in the user's UI language. Responses are returned in the user's UI language. |
-| The user's UI language is set to Spanish, and the user asks a question in French. | Copilot generates the response based on the UI language, so the response is in Spanish. |
-|  The user's UI language is set to Spanish. There are no knowledge base articles authored in Spanish, only English. The user asks a question in Spanish.| there will be no response returned. |
-| **Bing** | | |
-| The user's UI language is set to Japanese. The user asks a question where the source content is derived from the admin configured public web pages. The Bing Market is set based on the user's preferred language of Japanese and their current location of Japan to ja-JP | Content is returned from the restricted Bing search if it is available in the set market code. |
+| Scenarios | Copilot response | 
+| --- | --- | 
+|A case has notes in Spanish, and the UI language is set to Spanish. | Case summary is generated in Spanish. |
+| For a case, the description is in French, email thread is in Spanish, and the language is set to Spanish. | Case summary is generated in Spanish. |
+| The UI language is set to Spanish. The knowledge base articles are in Spanish. The agent asks a question in Spanish. | Results displayed are in Spanish. |
+| The  UI language is set to Spanish, and the agent asks a question in French. | Results displayed are in Spanish. |
+|  The UI language is set to Spanish. There knowledge base articles are only English. The agent asks a question in Spanish.| No response is generated. |
+| The UI language is set to Japanese. The Bing Market language is set to Japanese and current location to ja-JP. The agents asks a question where Copilot uses content from public web pages. | Responses are  returned from the restricted Bing search if results available in the set market code of ja-JP. More information: [Market and language codes used by Bing Web Search API](/bing/search-apis/bing-web-search/reference/market-codes). |
 
-> [!NOTE]
-> Copilot tries to generate responses in your preferred UI language even if that isn't an officially supported language.
 
 ## Next step
 TODO: Add your next step link(s)
