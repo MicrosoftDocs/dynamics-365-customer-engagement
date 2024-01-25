@@ -1,7 +1,7 @@
 ---
 title: Manage work orders with Field Service in Outlook (frontline managers) 
 description:  Learn how service managers and dispatchers can use the Dynamics 365 Field Service for Outlook add-in to create, view, update, and schedule work orders with AI assistance in Outlook.
-ms.date: 01/22/2024
+ms.date: 01/25/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -85,15 +85,15 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
    > [!TIP]
    > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon.
 
-## Draft an email with Copilot to propose schedules
+## Draft an email response with Copilot
 
-Use Copilot to share proposed schedules for any unscheduled work orders.
+Use Copilot to share proposed schedules for unscheduled work orders or provide schedule confirmations for scheduled work orders.
 
 1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in).
 
-1. On the Home tab, select **Draft email based on work order**, and then select **Proposed schedules**.
+1. On the Home tab, select **Draft email based on work order**, and then select **Proposed schedules** or **Confirm schedule**.
 
-   Or from an open work order, select **Draft email with scheduling suggestions**.
+   Or from an open work order, select **Draft email with scheduling suggestions** or **Draft email to confirm schedule**.
 
 1. After reviewing the generated email, select one of the following:
 
@@ -126,7 +126,7 @@ Use Copilot to share proposed schedules for any unscheduled work orders.
 
 While you're viewing a work order, you can also:
 
-- [Draft an email with Copilot to propose schedules](#draft-an-email-with-copilot-to-propose-schedules).
+- [Draft an email with Copilot to propose or confirm schedules](#draft-an-email-with-copilot).
 
 - [Schedule the work order](#schedule-or-reschedule-a-work-order).
 
@@ -179,23 +179,6 @@ If you don't need to change the assigned technician, just the date or time of th
 1. Select **Update**.
 
    The technician is booked. A confirmation displays at the top of the **Field Service** pane.
-
-## Draft an email with Copilot to confirm schedules
-
-Use Copilot to confirm schedules for any scheduled work orders.
-
-1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in).
-
-1. On the Home tab, select **Draft email based on work order**, and then select **Confirm schedule**.
-
-   Or from an open work order, select **Draft email to confirm schedule**.
-   
-1. After reviewing the generated email, select one of the following:
-
-   - **Add to email**: The generated response appears as a reply. Make any changes and select **Send**.
-   - Copy to clipboard: Select the **Copy** icon to copy the response and paste it where needed.
-   - Make adjustments: Select the **Adjust** icon to change the length or the tone of the email, and then select **Update**.
-   - Regenerate: Select the **Regenerate** icon to generate a different email response.
 
 ## Edit a work order
 
