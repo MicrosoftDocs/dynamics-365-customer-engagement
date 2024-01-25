@@ -1,12 +1,12 @@
 ---
-title: Enable focused view in your organization
-description: Enable focused view in the Power Platform admin center. This allows administrators to configure the focused view for entities in your organization.
+title: Enable focused view for all records
+description: Enable focused view in the Power Platform admin center. This displays the focused view for all entities in your organization.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 01/19/2024
+ms.date: 02/02/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -14,10 +14,11 @@ ms.custom:
   - ai-seo-date:01/19/2024
 ---
 
-# Enable focused view in your organization
+# Enable focused view for all records
 
-Enable the focused view for your organization to allow sellers to easily manage records and associated activities on one page. By default, the option is enabled. Further, you can configure entities to show the focused view.  
-When disabled, the focused view becomes unavailable for any entity within your organization. The configured entities won't display the focused view.
+Enable the focused view for all records in your organization to allow sellers to easily manage records and associated activities on one page. By default, the option is enabled and is displayed for all entities. Users can switch to the focused view by choosing the **Focused View** option from the command bar on the entity grid.
+
+When disabled, the focused view becomes unavailable for all entities within your organization and configured the entities won't display the focused view.
 
 You must have the **System Administrator** or similar security role to perform these configurations. 
 

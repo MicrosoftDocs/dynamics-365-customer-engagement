@@ -4,7 +4,7 @@ description: Configure focused view manually for entities other than contact, ac
 author: udaykirang
 ms.author: udag
 ms.topic: how-to 
-ms.date: 01/12/2024
+ms.date: 02/02/2024
 ms.custom: bap-template 
 ---
 
@@ -16,7 +16,7 @@ In focused view, sellers can view and manage their CRM records and their associa
 >
 > Focused view is not available for the **Activities** entity.
 
-Configuring the focused view as default is allowed only for the contact, lead, account, and opportunity entities. Also, if you want to configure focused view as default for custom and other entities, see [Configure focused view for other entities](#configure-focused-view-for-other-entities).
+Configuring the focused view as default is allowed only for the contact, lead, account, and opportunity entities. Also, if you want to configure focused view as default for custom and other entities, see [Configure as default for other entities](#configure-as-default-for-other-entities).
 
 You must have the **System Administrator** or similar security role to perform these configurations. 
 
@@ -24,7 +24,7 @@ You must have the **System Administrator** or similar security role to perform t
 
 Before you configure focused view, ensure that the [focused view is enabled for your organization](enable-focused-view.md).
 
-## Configure focused view as default
+## Configure as default for contact, account, lead, and opportunity entities
 
 > [!NOTE]
 > To view the **Default view** option, ensure that you have opted in for early access features. More information: [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates)
@@ -44,7 +44,7 @@ To configure focused view as default, follow these steps:
 
    Focused view is now set as the default view for the selected entities.  
 
-## Configure focused view for other entities
+## Configure as default for other entities
 
 To configure and enable focused view as default for custom and other entities, follow these steps:
 
