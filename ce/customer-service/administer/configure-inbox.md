@@ -4,6 +4,7 @@ description: Use this article to enable and configure inbox settings in Customer
 ms.date: 1/24/2024
 author: lalexms
 ms.author: laalexan
+ms.reviewer:
 ms.collection:
 ms.topic: how-to
 ms.custom: bap-template
