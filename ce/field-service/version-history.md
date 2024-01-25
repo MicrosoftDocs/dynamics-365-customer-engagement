@@ -18,13 +18,13 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.106.22](/dynamics365/field-service/version-history#8810622)  | TBD |01/24/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[8.8.105.46](/dynamics365/field-service/version-history#8810546)  | [8.8.106.22](/dynamics365/field-service/version-history#8810622)|01/19/2024 |
+|**Station 1** |  *First Release*| [8.8.106.22](/dynamics365/field-service/version-history#8810622)  | TBD |01/26/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[8.8.106.22](/dynamics365/field-service/version-history#8810622)  | TBD |02/02/2024 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.105.55](/dynamics365/field-service/version-history#8810555)  | [8.8.106.22](/dynamics365/field-service/version-history#8810622) |01/26/2024 |
-| | *USG* |[8.8.105.55](/dynamics365/field-service/version-history#8810555)  | [8.8.106.22](/dynamics365/field-service/version-history#8810622) |01/19/2024 |
-|**Station 4** |*Europe* |  [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.55](/dynamics365/field-service/version-history#8810555)  |01/19/2024 |
+| | *USG* |[8.8.106.22](/dynamics365/field-service/version-history#8810622)  | TBD |02/02/2024 |
+|**Station 4** |*Europe* |  [8.8.105.55](/dynamics365/field-service/version-history#8810555)  | [8.8.106.22](/dynamics365/field-service/version-history#8810622) |02/02/2024 |
 |**Station 5** | *North America*| [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.55](/dynamics365/field-service/version-history#8810555) |01/26/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.104.44](/dynamics365/field-service/version-history#8810444)  |[8.8.105.55](/dynamics365/field-service/version-history#8810555)  |01/26/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.105.55](/dynamics365/field-service/version-history#8810555)  | [8.8.106.22](/dynamics365/field-service/version-history#8810622) |02/09/2024 |
 | | *Dedicated Scale Groups* | [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.55](/dynamics365/field-service/version-history#8810555)  |02/02/2024 |
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ For information about older versions, see [Version history archive](version-hist
 
 
 ## 8.8.105.55
-(Includes Universal Resource Scheduling version [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) and Resource Scheduling controls version 1.2.59.233402).
+This release is a hotfix on Field Service version [8.8.105.46](/dynamics365/field-service/version-history#8810546).
 
 - Teaching bubbles will now render correctly when the "new look" is toggled off.
 - Field Service mobile: Fixed a bug causing an increased frequency of iOS “Webview Reset” errors in Field Service release [8.8.104.44](/dynamics365/field-service/version-history#8810444).
