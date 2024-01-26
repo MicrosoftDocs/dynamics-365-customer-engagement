@@ -24,7 +24,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
 1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in). If the email was previously used to create a work order using Copilot, a message displays with a link to the work order.
 
-1. On the **Home** tab, select **Create work order from email**.
+1. On the **Home** tab, select **Create a work order from email**.
 
    :::image type="content" source="media/fsp-copilot-tab.png" alt-text="Field Service Outlook pane showing Home tab":::
 
@@ -59,13 +59,13 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
    :::image type="content" source="media/fsp-outlook-create-button.png" alt-text="Field Service Outlook pane Work Orders tab highlighting the Create button":::
 
-1. Fill in the required information from the email.
-
-   If a value doesn't appear in the list, select **+ New item type** to create it in the Field Service app. Save and close the Field Service app. Type the new value or select **Refresh** to make it appear in the list.
+1. Fill in the required information from the email. For example:
 
    - [Service Account](accounts.md)
    - [Work Order Type](create-work-order-types.md)
    - [Price List](create-price-list.md)
+
+   If a value doesn't appear in the list, select **+ New item type** to create it in the Field Service app. Save and close the Field Service app. Type the new value or select **Refresh** to make it appear in the list.
 
    :::image type="content" source="media/fsp-outlook-fsp-pane.png" alt-text="Field Service Outlook Create work order pane":::
 
@@ -132,13 +132,13 @@ Use Copilot to share proposed schedules for unscheduled work orders or provide s
 
 While you're viewing a work order, depending on the **System Status**, you can also:
 
-- [Draft an email with Copilot to propose or confirm schedules](#draft-an-email-response-with-copilot).
+- [Draft an email with Copilot to propose or confirm schedules (preview)](#draft-an-email-response-with-copilot-preview).
 
 - [Schedule the work order or view the schedule](#schedule-or-reschedule-a-work-order).
 
-- Open a map to locate the service address. Select the **Open in Bing Maps** icon.
+- Open a map to locate the service address. Select the **Open in Bing Maps** :::image type="icon" source="media/fsp-flm-map-icon.png"::: icon.
 
-- Open the work order in Dynamics 365 Field Service. Select the pop-out icon :::image type="icon" source="media/fsp-pop-out-icon.png":::.
+- Open the work order in Dynamics 365 Field Service. Select the pop-out :::image type="icon" source="media/fsp-pop-out-icon.png"::: icon.
 
 ## Schedule or reschedule a work order
 
