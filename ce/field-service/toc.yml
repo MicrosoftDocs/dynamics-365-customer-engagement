@@ -224,6 +224,8 @@ items:
           href: extend-schedule-board-custom-resource-attribute.md
         - name: Create custom booking templates
           href: booking-template.md
+        - name: Show account names on booking details
+          href: account-names-booking-details.md
   - name: Scheduling assistant
     items:
       - name: Schedule assistant overview
