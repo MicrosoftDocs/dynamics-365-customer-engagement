@@ -83,7 +83,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
 Use Copilot to share proposed schedules for unscheduled work orders or provide schedule confirmations for scheduled work orders.
 
-Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faqs-flw-copilot.md). If you don't see the Copilot icon, your admin might have disabled this feature.
+Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faqs-flm-copilot-email.md). If you don't see the Copilot icon, your admin might have disabled this feature.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
