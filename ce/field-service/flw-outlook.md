@@ -57,8 +57,6 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
 1. Select the **Create work order (+)** button.
 
-   :::image type="content" source="media/fsp-outlook-create-button.png" alt-text="Field Service Outlook pane Work Orders tab highlighting the Create button":::
-
 1. Fill in the required information from the email. For example:
 
    - [Service Account](accounts.md)
@@ -84,6 +82,8 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 Use Copilot to share proposed schedules for unscheduled work orders or provide schedule confirmations for scheduled work orders.
+
+Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faqs-flw-copilot.md). If you don't see the Copilot icon, your admin might have disabled this feature.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 

@@ -558,6 +558,8 @@ items:
       href: responsible-ai-overview.md
     - name: FAQ about Outlook work order creation
       href: faqs-wo-flw-copilot.md
+    - name: FAQ about Outlook draft email responses
+      href: faqs-flm-copilot-email.md
     - name: FAQ about work order recap
       href: faqs-work-order-recap.md
     - name: FAQ about work order update
