@@ -24,11 +24,11 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
 1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in). If the email was previously used to create a work order using Copilot, a message displays with a link to the work order.
 
-1. On the Home tab, select **Create work order from email**.
+1. On the **Home** tab, select **Create work order from email**.
 
    :::image type="content" source="media/fsp-copilot-tab.png" alt-text="Field Service Outlook pane showing Home tab":::
 
-   If the email doesn't meet Microsoft Responsible AI guidelines, Copilot display an error. [Create the work order manually](#create-a-work-order-manually).
+   If the email doesn't meet Microsoft Responsible AI guidelines, Copilot displays an error. [Create the work order manually](#create-a-work-order-manually).
 
 1. Review the work order to ensure all AI-generated content is accurate.
 
@@ -36,20 +36,20 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
    We encourage you to use the like/dislike buttons to leave feedback. Your feedback helps us continually improve Copilot's responses.
 
-1. Fill in any required information that wasn't included in the email.
-
-   If a value doesn't appear in the list, select **+ New item type** to create it in the Field Service app. Save and close the Field Service app. Type the new value or select **Refresh** to make it appear in the list.
+1. Fill in any required information that wasn't included in the email. For example:
 
    - [Service Account](accounts.md)
    - [Work Order Type](create-work-order-types.md)
    - [Price List](create-price-list.md)
+
+   If a value doesn't appear in the list, select **+ New item type** to create it in the Field Service app. Save and close the Field Service app. Type the new value or select **Refresh** to make it appear in the list.
 
 1. Select **Save**.
 
    The work order number displays at the top of the **Field Service** pane and the email is saved in the Field Service timeline.
 
    > [!TIP]
-   > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon ![pop-out icon.](media/fsp-pop-out-icon.png).
+   > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon :::image type="icon" source="media/fsp-pop-out-icon.png":::.
 
 ## Create a work order manually
 
@@ -76,31 +76,37 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
    The work order number displays at the top of the **Field Service** pane and the email is saved in the Field Service timeline.
 
-   :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service":::
-
    > [!TIP]
-   > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon.
+   > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon :::image type="icon" source="media/fsp-pop-out-icon.png":::.
 
-## Draft an email response with Copilot
+## Draft an email response with Copilot (preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 Use Copilot to share proposed schedules for unscheduled work orders or provide schedule confirmations for scheduled work orders.
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in).
 
 1. From an open work order, select **Draft email with scheduling suggestions** or **Draft email to confirm schedule**.
 
-   Or on the Home tab, select **Draft email based on work order**, and then select **Proposed schedules** or **Confirm schedule**.
-
    :::image type="content" source="media/fsp-draft-email-scheduling.png" alt-text="Screenshot of the Field Service pane in Outlook, showing Draft email scheduling suggestion button":::
 
-1. After reviewing the generated email, select one of the following:
+   Or on the **Home** tab, select **Draft email based on work order**, and then select **Proposed schedules** or **Confirm schedule**.
+
+   :::image type="content" source="media/fsp-draft-email-based-wo.png" alt-text="Screenshot of the Field Service pane in Outlook, showing Draft email based on work order button":::
+
+1. After reviewing the generated email, select one of the following.
 
    - **Add to email**: The generated response appears as a reply. Make any changes and select **Send**.
    - Copy to clipboard: Select the **Copy** icon to copy the response and paste it where needed.
    - Make adjustments: Select the **Adjust** icon to change the length or the tone of the email, and then select **Update**.
    - Regenerate: Select the **Regenerate** icon to generate a different email response.
 
-   :::image type="content" source="media/fsp-draft-email.png" alt-text="Screenshot of the Field Service pane in Outlook, showing a draft email with Action buttons highlighted.":::
+     :::image type="content" source="media/fsp-draft-email.png" alt-text="Screenshot of the Field Service pane in Outlook, showing a draft email with Action buttons highlighted.":::
+
+1. After adding and sending the email, select the back arrow to return to the **Home** tab or the work order list.
 
 ## View a work order
 
@@ -124,33 +130,27 @@ Use Copilot to share proposed schedules for unscheduled work orders or provide s
 
    :::image type="content" source="media/fsp-work-order-details.png" alt-text="Field Service Outlook work order details":::
 
-While you're viewing a work order, you can also:
+While you're viewing a work order, depending on the **System Status**, you can also:
 
 - [Draft an email with Copilot to propose or confirm schedules](#draft-an-email-response-with-copilot).
 
-- [Schedule the work order](#schedule-or-reschedule-a-work-order).
+- [Schedule the work order or view the schedule](#schedule-or-reschedule-a-work-order).
 
 - Open a map to locate the service address. Select the **Open in Bing Maps** icon.
 
-   :::image type="content" source="media/fsp-map-icon.png" alt-text="Screenshot of a work order in Outlook, with the Open in Bing Maps icon highlighted.":::
-
-- [Open the schedule board in Field Service](work-with-schedule-board.md). Select the **Schedule board** link.
-
-- Open the work order in Dynamics 365 Field Service. Select the pop-out icon.
-
-  :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service":::
+- Open the work order in Dynamics 365 Field Service. Select the pop-out icon :::image type="icon" source="media/fsp-pop-out-icon.png":::.
 
 ## Schedule or reschedule a work order
 
 The Field Service add-in helps you schedule work orders in Outlook. Scheduling suggestions are based on technicians' availability and skills, proximity to the customer's location, promised time windows, and the business unit.
 
-1. Open the work order you need to schedule or reschedule.
+1. [View the work order](#view-a-work-order) you need to schedule or reschedule.
 
 1. To schedule, select **Schedule**. To reschedule, select **View schedule**, and then **Reschedule**.
 
    The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list.
 
-1. Review the list of suggestions. You can search for a technician by name, filter by dates, or sort the list by start time or travel time. 
+1. Review the list of suggestions. You can search for a technician by name, filter by dates, or sort the list by start time or travel time.
 
    If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
 
@@ -168,7 +168,7 @@ The Field Service add-in helps you schedule work orders in Outlook. Scheduling s
 
 If you don't need to change the assigned technician, just the date or time of the service appointment, you can move the booking. If needed, you can also assign the work order to a different resource.
 
-1. Open a scheduled work order and select **View schedule**.
+1. [View the work order](#view-a-work-order) and select **View schedule**.
 
 1. Select **Move booking**.
 

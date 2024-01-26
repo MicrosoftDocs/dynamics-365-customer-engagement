@@ -44,7 +44,7 @@ Your admin might have installed the add-in for your organization. If you see the
    > [!TIP]
    > If you can't find the add-in, it may appear in a different location. See [Use an add-in in Outlook](https://support.microsoft.com/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8)
 
-   :::image type="content" source="media/fsp-outlook-sign-in.png" alt-text="Screenshot of the Outlook message More actions menu, with the menu button and Field Service highlighted.":::
+   :::image type="content" source="media/fsp-outlook-sign-in.png" alt-text="Screenshot of the Outlook message More actions menu, with the menu button and Field Service highlighted." lightbox="media/fsp-outlook-sign-in.png":::
 
 1. Select **Sign in to get started**.
 
