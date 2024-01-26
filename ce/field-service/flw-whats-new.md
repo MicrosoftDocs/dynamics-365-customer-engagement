@@ -1,7 +1,7 @@
 ---
 title: What's new in Microsoft 365 integrations for Field Service
 description: Learn what's new in the Dynamics 365 Field Service integrations with Microsoft Outlook, Teams, and Viva Connections.
-ms.date: 11/28/2023
+ms.date: 01/26/2024
 ms.topic: conceptual
 author: jasonxian-msft
 ms.author: jasonxian
@@ -15,6 +15,10 @@ ms.subservice: m365-integrations
 See [supported geographies, regions, and languages](flw-overview.md#supported-geographies-regions-and-languages).
 
 This article summarizes public preview features, general availability enhancements, and feature updates.
+
+## Feruary 5, 2024
+
+This public preview release includes [draft email responses using Copilot for proposed schedules and schedule confirmations](flw-outlook.md#draft-an-email-response-with-copilot-preview).
 
 ## December 5, 2023
 
