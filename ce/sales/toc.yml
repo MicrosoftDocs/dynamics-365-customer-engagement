@@ -1317,13 +1317,13 @@
             - name: Table reference
               href: entity-reference.md
             - name: msdyn_PredictiveScore
-              href: developer-sp/msdyn_predictivescore.md
+              href: developer/entities/msdyn_predictivescore.md
             - name: msdyn_PredictiveModelScore
-              href: developer-sp/msdyn_predictivemodelscore.md
+              href: developer/entities/msdyn_predictivemodelscore.md
             - name: msdyn_wkwcolleaguesforcontact
-              href: developer-sp/msdyn_wkwcolleaguesforcontact.md
+              href: developer/entities/msdyn_wkwcolleaguesforcontact.md
             - name: msdyn_wkwcolleaguesforcompany
-              href: developer-sp/msdyn_wkwcolleaguesforcompany.md
+              href: developer/entities/msdyn_wkwcolleaguesforcompany.md
         - name: Create insight cards using solution
           href: extend-relationship-assistant-card.md
           items:
