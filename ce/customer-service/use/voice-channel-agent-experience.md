@@ -88,8 +88,8 @@ If you specify a rating between 1 and 4, the application displays a set of prede
 
 ### See also
 
-[Overview of the voice channel](voice-channel.md)  
-[Enable voice consult with Microsoft Teams users](voice-consult-microsoft-teams-user.md)  
+[Overview of the voice channel](../administer/voice-channel.md)  
+[Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md)  
 [Call a customer](voice-channel-call-customer.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
