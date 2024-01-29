@@ -1,7 +1,7 @@
 ---
 title: Customize live chat widgets using data tags
 description: Learn to customize chat widgets by using data tags in the widget script in Customer Service admin center.
-ms.date: 01/26/2024
+ms.date: 01/29/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
