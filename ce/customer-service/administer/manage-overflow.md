@@ -1,16 +1,16 @@
 ---
-title: Manage overflow of work items in queues
-description: Learn how to manage overflow of work items in queues enabled for unified routing in Customer Service.
+title: Manage overflow of work items
+description: Learn how to manage overflow of work items for queues enabled for unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 01/25/2024
+ms.date: 01/29/2024
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
-# Manage overflow of work items in queues
+# Manage overflow of work items
 
-When a new work item gets routed with unified routing, the system tries to find the best-suited agent to work on the work item. Sometimes all eligible agents are at maximum capacity. In scenarios like these, you can configure overflow conditions to handle the surge and unassigned work items to ensure customer satisfaction. You can also send notifications to the customer about their waiting state or when their query will be resolved.
+When a new work item gets routed with unified routing, the system tries to find the best-suited agent to work on the work item. Sometimes all eligible agents are at maximum capacity. In scenarios like these, you can configure overflow conditions to handle the surge. You can also send notifications to the customer about their waiting state or when their query will be resolved.
 
 For work items, such as calls, conversations, and cases, you can address the following scenarios:
 
@@ -18,13 +18,21 @@ For work items, such as calls, conversations, and cases, you can address the fol
 - Calls and conversations are received during non-business hours of the call center.
 - The wait time is high for customers and you want to reduce it.
 
-If you don't configure overflow, by default, the work item will stay in the queue until it gets routed based on the routing rules configured for the workstream.
+You can configure the following overflow handling options for a queue:
 
-## Manage overflow of work items that are waiting in queue
+- Before work item is queued
+- After work item is queued 
 
+If you don't configure overflow, by default, the work item stays in the queue until it's routed based on the routing rules configured for the workstream.
 
+## Prerequisites
 
-## How queue overflow is evaluated
+For overflow to work correctly, the following prerequisites must be met:
+
+- Agents should be configured for the queues.
+- To transfer calls to an external number, make sure that external phone numbers with outbound calling are available.
+
+## How queue overflow is evaluated before work item is queued
 
 The overflow conditions and actions are run only if the route-to-queues rule is configured. The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queues rules are evaluated. Any manual actions like agent transfer or supervisor assign won't trigger overflow actions.
 
@@ -61,14 +69,7 @@ The following table lists the condition and action pairs available for different
 | Live chat and other messaging channels | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li></ul> | <ul><li>End conversation</li><li>Transfer to a different queue</li><li>Assign to queue anyway</li></ul> |
 | Record | <ul><li> Out of operating hours</li></ul> | <ul><li>Assign to queue anyway</li><li>Transfer to a different queue</li></ul> |
 
-## Prerequisites
-
-For overflow to work correctly, the following prerequisites must be met:
-
-- Agents should be configured for the queues.
-- To transfer calls, make sure that external phone numbers with outbound calling are available.
-
-## Configure overflow conditions
+### Configure overflow conditions before work items are queued
 
 In the Customer Service admin center app, do the following steps:
 
@@ -119,7 +120,7 @@ In the Customer Service admin center app, do the following steps:
 
         :::image type="content" source="../media/overflow-condition-action.png" alt-text="A screenshot of the condition and action pairs configured for the queue.":::
 
-## Configure rule-specific overflows
+### Configure rule-specific overflows
 
 Sometimes, you might not want an overflow action to run for specific types of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing as "end call" or "keep waiting in queue". This action might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure rule-specific overflow conditions for those queues in the route-to-queue rules for a workstream.
 
@@ -132,6 +133,41 @@ Sometimes, you might not want an overflow action to run for specific types of wo
 1. Select **Handle rule-specific overflows**.
 
 1. Do the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section in this article.
+
+
+## Manage overflow of work items that are waiting in queue (preview)
+
+[This section is prerelease documentation and is subject to change.]
+
+After a work item is routed to a queue, if the waiting period is lengthy, the system can reroute the open work item to another queue with more agents who can address the customer request. You can configure an overflow action that's run when the wait time exceeds the configured time.
+
+1. In the Customer Service admin center site map, select **Queues** in **Customer support**.
+
+1. Navigate to the advanced queue  for which you want to manage overflow.
+
+1. In **Overflow handling**, select Edit.
+
+1. In the **Overflow handling** dailog, in the **When work items are queued** area, select **Add condition-action pair**. 
+
+1. For the **Waiting time in queue exceeds** condition, enter a number that denotes the wait time after which the overflow action runs, and select **Minutes**, **Hours**, or **Days**.
+
+1. In **Action**, select **Transfer to a different queue**, and then select a queue in the list that appears.
+
+1. Save and close.
+
+### Considerations for overflow of work items waiting in queue
+
+The following points are applicable:
+
+- In preview, the **Transfer to a different queue** action only is available for all channels.
+- You can configure the following wait times:
+    - **Voice channel**: One to 60 minutes
+    - **Messaging channel**: One minute to two days
+    - **Record channel**: One minute to two days
+
+  The wait time that you can specify must be more than one minute. For any other value, the time will be rounded off to the nearest 30 seconds.
+- If the queue to which the work item is transferred is in the overflow condition, and any overflow action is configured for the transferred queue, the action is run.
+- The overflow action runs on all types of routed work items that are open irrespective of how they are routed to the queue. For example, a work item can be transferred by a supervisor or routed from another overflowing queue.
 
 ## View diagnostics for overflow
 
