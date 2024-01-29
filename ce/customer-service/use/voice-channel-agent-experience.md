@@ -50,7 +50,7 @@ The conversation panel in the agent dashboard includes the following call contro
   > [!NOTE]
   > The **Link to conversation** button is disabled after you end the voice call. Open account or contact on a new tab and select **Link to conversation** to link record (customer or case) to conversation.
 
-- **Transcription**: When the transcription and recording service is enabled by your administrator, the conversation between you and the customer is automatically transcribed in real time, which means that you as an agent don't need to take notes during the call. This feature also helps your supervisor or agent (in a call transfer) to see the call history.
+- **Transcription**: When your administrator enables the transcription and recording service, the conversation between you and the customer is automatically transcribed in real time. This means that you don't need to take notes during the call. This feature also helps your supervisor or agent (in a call transfer) to see the call history.
 - **Sentiment analysis**: The transcript also powers *live* sentiment analysis. This means that you or your supervisor can instantly view and gauge the customer's mood and feeling via the sentiment icons.
 
 ## Report a phone number as spam
@@ -65,8 +65,8 @@ You can add notes to help your administrator review and block numbers. After you
 
 Avoid the following actions to prevent call drops:
 
-- Refresh your browser or select browser bookmark icons when you're in an active call. When you select refresh, and select leave on the confirm refresh dialog, the page unloads and you're disconnected from the call. The customer hears hold music until you rejoin the call from the **My work items** section of **Omnichannel Agent Dashboard**. If you're disconnected from your browser for more than 90 seconds the call is reassigned to another agent in the queue. The call won't be reassigned if you reconnect within 90 seconds.
-- Open other apps that need access to the microphone. It results in loss of your audio connection, and the customer won't be able to hear you.
+- Refresh your browser or select browser bookmark icons when you're in an active call. When you select refresh, and then select leave on the confirm refresh dialog, the page unloads and you're disconnected from the call. The customer hears hold music until you rejoin the call from the **My work items** section of **Omnichannel Agent Dashboard**. If you're disconnected from your browser for more than 90 seconds the call is reassigned to another agent in the queue. The call isn't reassigned if you reconnect within 90 seconds.
+- Open other apps that need access to the microphone. It results in loss of your audio connection, and the customer can't hear you.
 - Open the Customer Service workspace or Omnichannel for Customer Service app in more than one tab in the browser. It causes issues in agent presence.
 - Close the session directly to end call. If you do, the conversation moves from active to wrap up. Then if you close the session, the state goes from wrap up to closed. So, we recommend that you go through the conversation status route and select the **End** button and then close the session to take care of the wrap-up activities.
 
@@ -78,7 +78,7 @@ Avoid the following actions to prevent call drops:
 
 When you end a call, if your administrator has enabled the [end-of-call survey feature](../administer/configure-end-of-call-survey.md), the application displays a survey that asks you to rate the call quality on a scale of 1 to 5. The survey can appear after every call or at a frequency set by your administrator. A response of 1 indicates an imperfect call experience and 5 indicates a perfect call.
 
-If you specify a rating between 1 and 4, the application displays a set of predefined options such as "I couldn't hear any sound", "Volume was low", or "the call ended unexpectedly",  that you can use to provide additional feedback about the call quality.
+If you specify a rating between 1 and 4, the application displays a set of predefined options such as, "I couldn't hear any sound", "Volume was low", or "the call ended unexpectedly",  that you can use to provide additional feedback about the call quality
 
 ## Best practices
 
