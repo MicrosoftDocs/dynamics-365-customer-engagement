@@ -10,9 +10,9 @@ ms.custom: bap-template
 
 # Manage overflow of work items
 
-When a new work item gets routed with unified routing, the system tries to find the best-suited agent to work on the work item. Sometimes all eligible agents are at maximum capacity. In scenarios like these, you can configure overflow conditions to handle the surge. You can also send notifications to the customer about their waiting state or when their query will be resolved.
+When a new work item gets routed with unified routing, the system tries to find the best-suited agent to work on the work item. Sometimes all eligible agents are at maximum capacity. In scenarios like these, you can configure overflow conditions to handle the surge.
 
-For work items, such as calls, conversations, and cases, you can address the following scenarios:
+For work items, such as calls, conversations, and cases, you can handle multiple overflow scenarios:
 
 - When an incoming work item exceeds a defined number of conversations or calls that can wait in the queue.
 - Calls and conversations are received during non-business hours of the call center.
@@ -23,7 +23,7 @@ You can configure the following overflow handling options for a queue:
 - Before work item is queued
 - After work item is queued 
 
-If you don't configure overflow, by default, the work item stays in the queue until it's routed based on the routing rules configured for the workstream.
+If you don't configure overflow, by default, the work item is added to the identified queue for customers to wait in the queue and be connected to the right agent. You can send notifications to the customer about their waiting state or when their query will be resolved.
 
 ## Prerequisites
 
