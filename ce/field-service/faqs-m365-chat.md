@@ -1,13 +1,14 @@
 ---
 title: FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)
 description: This FAQ provides information about the AI technology used in the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview).
-ms.date: 11/28/2023
+ms.date: 01/22/2024
 ms.custom: 
   - responsible-ai-faqs
-ms.topic: article
+ms.topic: faq
 author: KishorIoT
 ms.author: nandab
-ms.reviewer: v-wendysmith@microsoft.com
+ms.reviewer: v-wendysmith
+ms.collection: bap-ai-copilot 
 ---
 
 # FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)
@@ -36,7 +37,7 @@ In addition, it's evaluated with embedded monitoring for Responsible AI. Specifi
 
 ## What are the limitations of the feature? How can users minimize the impact of the limitations when using the system?
 
-- Only questions related to Field Service work orders are supported.  
+- Only questions related to Field Service work orders are supported. Questions about information contained in documents, PDF files, or other sources other than the Field Service app aren't supported.
 
 - You can’t create, schedule, or close work orders.
 
