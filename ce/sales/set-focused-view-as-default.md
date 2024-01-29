@@ -54,6 +54,7 @@ To configure and enable focused view as default for custom and other entities, f
 1. On the **Controls** tab, select **Add Control**.  
 1. In the **Add Control** dialog box, select **Focused view**, and then select **Add**.  
 1. **Read-only grid** is the default option, so when users select a table from the site map, they see a read-only grid of invoice. To make the focused view the default view instead, select the corresponding Focused view option buttons.  
+
     :::image type="content" source="media/fv-settings-set-as-default-other-entities.png" alt-text="Screenshot of configuring focused view as default for other entities.":::  
 1. Save and publish the configurations.  
 
