@@ -18,14 +18,16 @@ ms.custom: bap-template
 
 Agents can rate and provide feedback on their voice calling experience after the call ends using the end-of-call survey. The survey helps you evaluate call quality beyond technical factors, enabling you to understand if the agent had a satisfactory experience. You can analyze the survey data in Azure logs to gain insights and identify areas that require improvement.
 
-## Enable end of call surveys
+## Enable end-of-call surveys
 
 Perform the following steps to enable end of call surveys:
 
-1. In Customer Service admin center, select **Workspaces** and then select **Agent call quality survey(preview)**.
-2. Set the **Agent call quality survey** toggle to **On**.
-3. Specify the frequency at which the survey should be presented to the agent. Optionally, you can also set **Set survey duration toggle** to **On** and specify the duration during which the survey must appear for the agent.
+1. In Customer Service admin center, select **Workspaces** and then select **Agent call quality survey(preview)**. 
+3. Set the **Agent call quality survey** toggle to **On**.
+4. Specify the frequency at which the survey should be presented to the agent. Optionally, you can also set **Set survey duration toggle** to **On** and specify the duration during which the survey must appear for the agent.
 
+> [!Note]
+> You can also enable end-of-call surveys from **Voice settings** in voice workstreams. 
 
 :::image type="content" source="../media/voice-configure-rating.png" alt-text="Screen shot of the Agent call quality survey page." :::
 
