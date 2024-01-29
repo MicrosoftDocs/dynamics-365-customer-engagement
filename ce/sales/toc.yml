@@ -22,7 +22,7 @@
       href: create-quote-pdf.md
     - name: View and manage records in focused view
       href: focused-view.md
-    - name: Set focused view as the default view
+    - name: Enable focused view and set it as default
       href: set-focused-view-as-default.md
     - name: Work with views
       href: work-with-views.md
@@ -161,8 +161,6 @@
               href: match-fields-between-dynamics365-zoominfo.md
             - name: Customize the ZoomInfo app
               href: customize-zoominfo-app.md
-        - name: Set focused view as the default view
-          href: set-focused-view-as-default.md
     - name: Set up Copilot
       items:
       - name: Copilot overview
@@ -175,6 +173,13 @@
         href: sales-copilot-data-movement.md
       - name: Copilot in Dynamics 365 Sales FAQ
         href: sales-copilot-faq.md
+    - name: Configure focused view
+      href: configure-focused-view.md
+      items:
+      - name: Configure focused view as default
+        href: set-focused-view-as-default.md
+      - name: Enable focused view for all records
+        href: enable-focused-view.md
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -281,8 +286,6 @@
               href: pls-duplicate-models.md
             - name: Add lead scoring widget to a form
               href: pls-add-widget.md
-        - name: Set focused view as the default view
-          href: set-focused-view-as-default.md
     - name: Opportunity management
       items:
         - name: Opportunity management overview
@@ -311,8 +314,6 @@
               href: pos-add-widget.md
         - name: Add the Kanban control to Opportunity or Activity entities
           href: add-kanban-control.md
-        - name: Set focused view as the default view
-          href: set-focused-view-as-default.md
     - name: Product and price list management
       items:
         - name: Set up a product catalog
@@ -499,7 +500,7 @@
                   href: wa-create-and-activate-a-segment.md
                 - name: Connect segments to sequences
                   href: wa-connect-a-segment-to-sequence.md
-                - name: Edit segments
+                - name: Copy and edit segments
                   href: wa-edit-a-segment.md
                 - name: Delete segments
                   href: wa-delete-deactivate-a-segment.md
@@ -517,6 +518,8 @@
                   href: understand-lead-distributions-assignment-rules.md
             - name: View and assign unassigned records
               href: wa-manage-unassigned-records.md
+            - name: Migrate assignment rules and segments
+              href: wa-migrate-assignment-rules-segments.md  
             - name: Examples for assignment rules and segments
               href: wa-examples.md
         - name: Get seller insights to improve seller effectiveness
@@ -811,8 +814,6 @@
               href: email-engagement.md
             - name: Send email messages
               href: create-send-email-message.md
-            - name: Understand email history
-              href: understand-email-history.md
             - name: Honor privacy preferences
               href: configure-individuals-privacy-preferences.md
         - name: How notes analysis assists you with suggestion
