@@ -16,7 +16,7 @@ ms.custom: bap-template
 > - This is an early access feature. 
 > - Early access features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can [get early access](/power-platform/admin/opt-in-early-access-updates) and provide feedback.
 
-End of call surveys allow agents to rate and provide feedback on their voice calling experience. This survey helps you evaluate call quality beyond technical factors, enabling you to understand if the agent had a satisfactory experience. You can analyze the survey data in Azure logs to gain insights and identify areas that require improvement.
+Agents can rate and provide feedback on their voice calling experience after the call ends using the end-of-call survey. The survey helps you evaluate call quality beyond technical factors, enabling you to understand if the agent had a satisfactory experience. You can analyze the survey data in Azure logs to gain insights and identify areas that require improvement.
 
 ## Enable end of call surveys
 
