@@ -4,26 +4,19 @@ description: Understand how Copilot generates responses in different languages
 author: gandhamm
 ms.author: mgandham
 ms.service: 
-ms.topic: concept-article #Required; leave this attribute/value as-is.
+ms.topic: concept-article 
 ms.date: 01/25/2024
 
 ---
 
 # Understand Copilot language support
 
-Copilot supports respond to questions, summarize cases and conversations features in the following languages:
-- English
-- Danish
-- Dutch
-- French
-- German
-- Spanish
-- Japanese
+Copilot supports respond to questions, summarize cases and conversations features in [multiple languages](../administer/cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
-Copilot generates responses in different languages as follows:
+The key features of copilot language support are as follows:
 
-- Detects your UI language and generates responses from cases and conversations in that language. 
-- Generates responses from knowledge articles if the knowledge articles are tagged with the same language as the UI language.  
+- Copilot detects your UI language and generates responses from cases and conversations in that language. 
+- Copilot uses knowledge articles that are tagged with the same language as the UI language to generate responses.
 - When the input contains mixed languages, Copilot generates responses based on the language that is set for your UI.
 - Copilot tries to generate responses in your preferred UI language even if that isn't an officially supported language.
 
@@ -39,19 +32,6 @@ Copilot generates responses in different languages as follows:
 | The UI language is set to Japanese. The Bing Market language is set to Japanese and current location to ja-JP. The agents asks a question where Copilot uses content from public web pages. | Responses are  returned from the restricted Bing search if results available in the set market code of ja-JP. More information: [Market and language codes used by Bing Web Search API](/bing/search-apis/bing-web-search/reference/market-codes). |
 
 
-## Next step
-TODO: Add your next step link(s)
-> [!div class="nextstepaction"]
-> [Write concepts](article-concept.md)
+### See also
 
-<!-- OR -->
-
-## Related content
-TODO: Add your next step link(s)
-- [Write concepts](article-concept.md)
-
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
-
--->
+[Use Copilot to solve customer issues](../use/use-copilot-features.md)
