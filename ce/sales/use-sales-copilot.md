@@ -48,8 +48,9 @@ You can chat with Copilot in natural language or use predefined prompts to get t
 
 When you chat with Copilot in natural language, you can use the following types of requests:
 
-- Data requests: Simple data requests such as, What's the Contoso's annual revenue, who is the owner of Alpine Ski House, or show me all my opportunities that are closing this month. These requests are answered with the data for Dataverse.
-- Insight requests: 
+- Data requests: Simple data requests such as, What's Contoso's annual revenue, who is the owner of Alpine Ski House, or show me all my opportunities that are closing this month. These requests are answered with the data from Dataverse. These questions are typically based on the data that you see in your app.
+
+- Contextual insights:  
 
 ### Chat with Copilot using predefined prompts
 
