@@ -1072,26 +1072,10 @@ Same as the [msdyn_msdyn_conversationsummarysuggestion_Conve](msdyn_conversation
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
-- [msdyn_msdyn_conversationparticipantinsights_account_msdyn_User](#BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User)
-- [msdyn_msdyn_conversationparticipantinsights_Con](#BKMK_msdyn_msdyn_conversationparticipantinsights_Con)
-- [msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User](#BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User)
-
-
-### <a name="BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User"></a> msdyn_msdyn_conversationparticipantinsights_account_msdyn_User
-
-**Added by**: System Solution Solution
-
-See the [msdyn_msdyn_conversationparticipantinsights_account_msdyn_User](account.md#BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User) one-to-many relationship for the [account](account.md) table/entity.
 
 ### <a name="BKMK_msdyn_msdyn_conversationparticipantinsights_Con"></a> msdyn_msdyn_conversationparticipantinsights_Con
 
 See the [msdyn_msdyn_conversationparticipantinsights_Con](msdyn_conversationaggregatedinsights.md#BKMK_msdyn_msdyn_conversationparticipantinsights_Con) one-to-many relationship for the [msdyn_conversationaggregatedinsights](msdyn_conversationaggregatedinsights.md) table/entity.
-
-### <a name="BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User"></a> msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User
-
-**Added by**: System Solution Solution
-
-See the [msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User](contact.md#BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User) one-to-many relationship for the [contact](contact.md) table/entity.
 
 ### See also
 

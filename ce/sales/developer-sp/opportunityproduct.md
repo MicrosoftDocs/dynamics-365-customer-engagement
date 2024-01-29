@@ -1420,9 +1420,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 Listed by **SchemaName**.
 
 - [opportunityproduct_parent_opportunityproduct](#BKMK_opportunityproduct_parent_opportunityproduct)
-- [OpportunityProduct_Dynamicpropertyinstance](#BKMK_OpportunityProduct_Dynamicpropertyinstance)
 - [opportunityproduct_parentref_opportunityproduct](#BKMK_opportunityproduct_parentref_opportunityproduct)
-- [msdyn_opportunityproduct_quotedetail_OpportunityProductID](#BKMK_msdyn_opportunityproduct_quotedetail_OpportunityProductID)
 
 
 ### <a name="BKMK_opportunityproduct_parent_opportunityproduct"></a> opportunityproduct_parent_opportunityproduct
@@ -1438,21 +1436,6 @@ Same as the [opportunityproduct_parent_opportunityproduct](opportunityproduct.md
 |ReferencedEntityNavigationPropertyName|opportunityproduct_parent_opportunityproduct|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_OpportunityProduct_Dynamicpropertyinstance"></a> OpportunityProduct_Dynamicpropertyinstance
-
-Same as the [OpportunityProduct_Dynamicpropertyinstance](dynamicpropertyinstance.md#BKMK_OpportunityProduct_Dynamicpropertyinstance) many-to-one relationship for the [dynamicpropertyinstance](dynamicpropertyinstance.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|dynamicpropertyinstance|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|OpportunityProduct_Dynamicpropertyinstance|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: Cascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_opportunityproduct_parentref_opportunityproduct"></a> opportunityproduct_parentref_opportunityproduct
@@ -1471,23 +1454,6 @@ Same as the [opportunityproduct_parentref_opportunityproduct](opportunityproduct
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-
-### <a name="BKMK_msdyn_opportunityproduct_quotedetail_OpportunityProductID"></a> msdyn_opportunityproduct_quotedetail_OpportunityProductID
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-Same as the [msdyn_opportunityproduct_quotedetail_OpportunityProductID](quotedetail.md#BKMK_msdyn_opportunityproduct_quotedetail_OpportunityProductID) many-to-one relationship for the [quotedetail](quotedetail.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|quotedetail|
-|ReferencingAttribute|msdyn_opportunityproductid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_opportunityproduct_quotedetail_OpportunityProductID|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
@@ -1495,42 +1461,16 @@ Same as the [msdyn_opportunityproduct_quotedetail_OpportunityProductID](quotedet
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
 - [opportunityproduct_parent_opportunityproduct](#BKMK_opportunityproduct_parent_opportunityproduct)
-- [opportunity_products](#BKMK_opportunity_products)
-- [productAssociation_opportunity_product](#BKMK_productAssociation_opportunity_product)
-- [unit_of_measurement_opportunity_products](#BKMK_unit_of_measurement_opportunity_products)
 - [opportunityproduct_parentref_opportunityproduct](#BKMK_opportunityproduct_parentref_opportunityproduct)
-- [product_opportunities](#BKMK_product_opportunities)
 
 
 ### <a name="BKMK_opportunityproduct_parent_opportunityproduct"></a> opportunityproduct_parent_opportunityproduct
 
 See the [opportunityproduct_parent_opportunityproduct](opportunityproduct.md#BKMK_opportunityproduct_parent_opportunityproduct) one-to-many relationship for the [opportunityproduct](opportunityproduct.md) table/entity.
 
-### <a name="BKMK_opportunity_products"></a> opportunity_products
-
-**Added by**: Product Management Solution
-
-See the [opportunity_products](product.md#BKMK_opportunity_products) one-to-many relationship for the [product](product.md) table/entity.
-
-### <a name="BKMK_productAssociation_opportunity_product"></a> productAssociation_opportunity_product
-
-**Added by**: Product Management Solution
-
-See the [productAssociation_opportunity_product](productassociation.md#BKMK_productAssociation_opportunity_product) one-to-many relationship for the [productassociation](productassociation.md) table/entity.
-
-### <a name="BKMK_unit_of_measurement_opportunity_products"></a> unit_of_measurement_opportunity_products
-
-**Added by**: Product Management Solution
-
-See the [unit_of_measurement_opportunity_products](uom.md#BKMK_unit_of_measurement_opportunity_products) one-to-many relationship for the [uom](uom.md) table/entity.
-
 ### <a name="BKMK_opportunityproduct_parentref_opportunityproduct"></a> opportunityproduct_parentref_opportunityproduct
 
 See the [opportunityproduct_parentref_opportunityproduct](opportunityproduct.md#BKMK_opportunityproduct_parentref_opportunityproduct) one-to-many relationship for the [opportunityproduct](opportunityproduct.md) table/entity.
-
-### <a name="BKMK_product_opportunities"></a> product_opportunities
-
-See the [product_opportunities](opportunity.md#BKMK_product_opportunities) one-to-many relationship for the [opportunity](opportunity.md) table/entity.
 
 ### See also
 
