@@ -1307,7 +1307,7 @@
         - name: Action Reference
           items:
             - name: msdyn_ConnectSequence
-              href: developer-sp/msdyn-ConnectSequence-action.md
+              href: msdyn-ConnectSequence-action.md
             - name: msdyn_WKWDeleteGDPRData
               href: developer/reference/custom-actions/msdyn_WKWDeletePrivacyData.md
             - name: msdyn_WKWGDPRDeleteStatus
