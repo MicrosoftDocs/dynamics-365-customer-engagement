@@ -1,5 +1,5 @@
 ---
-title: Configure end of call surveys (preview)
+title: Configure end-of-call surveys (preview)
 description: Learn how to configure end of call surveys.
 author: gandhamm
 ms.author: mgandham
@@ -7,10 +7,11 @@ ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection: 
 ms.date: 01/29/2024
+
 ms.custom: bap-template 
 ---
 
-# Configure end of call surveys (preview)
+# Configure end-of-call surveys (preview)
 
 > [!Important]
 > - This is an early access feature. 
@@ -20,7 +21,7 @@ Agents can rate and provide feedback on their voice calling experience after the
 
 ## Enable end-of-call surveys
 
-Perform the following steps to enable end of call surveys:
+Perform the following steps to enable end-of-call surveys:
 
 1. In Customer Service admin center, select **Workspaces** and then select **Agent call quality survey(preview)**. 
 3. Set the **Agent call quality survey** toggle to **On**.
