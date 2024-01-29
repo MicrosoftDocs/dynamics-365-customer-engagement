@@ -76,9 +76,9 @@ Avoid the following actions to prevent call drops:
 > - This is an early access feature. 
 > - Early access features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can [get early access](/power-platform/admin/opt-in-early-access-updates) and provide feedback.
 
-When you end a call, if your administrator has enabled the end of call survey feature, the application displays a survey that asks you to rate the call quality on a scale of 1 to 5. The frequency at which the survey appears is based on your administrator's configuration. A response of 1 indicates an imperfect call experience and 5 indicates a perfect call.
+When you end a call, if your administrator has enabled the [end-of-call survey feature](../administer/configure-end-of-call-survey.md), the application displays a survey that asks you to rate the call quality on a scale of 1 to 5. The survey can appear after every call or at a frequency set by your administrator. A response of 1 indicates an imperfect call experience and 5 indicates a perfect call.
 
-If you specify a rating between 1 and 4, the application displays a set of predefined options that you can use to provide additional feedback about the call quality.
+If you specify a rating between 1 and 4, the application displays a set of predefined options such as "I couldn't hear any sound", "Volume was low", or "the call ended unexpectedly",  that you can use to provide additional feedback about the call quality.
 
 ## Best practices
 
