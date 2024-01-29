@@ -1,5 +1,5 @@
 ---
-title: Configure the mobile offline profile
+title: Set up the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
 ms.date: 01/18/2024
 ms.topic: how-to
@@ -8,28 +8,27 @@ author: JonBaker007
 ms.author: jobaker
 ---
 
-# Configure the mobile offline profile
+# Set up the mobile offline profile
 
-Field Service provides an out-of-the-box offline profile called **Field Service Mobile - Offline Profile** with recommended default settings for Field Service record types. Administrators control what data the Field Service mobile app downloads with the offline profile. Within the offline profile, you can:
+Field Service comes with an offline profile that has default settings for Field Service record types. Administrators control what data the Field Service mobile app downloads with the offline profile. In the offline profile, you can:
 
-- Define record types that are available offline and their sync interval.
-- Define filters for each record type. For example, by default the offline profile downloads bookings that start within the next seven days to the device.
-- Set up item association by creating relationships between tables. Item association saves time because not every record type needs a filter. You can associate related record types that follow filters set on the related record type.
+- Define record types that are available offline and how often they sync.
+- Define filters for each record type. For example, by default the offline profile downloads bookings that start within the next seven days.
+- Set up item association by creating relationships between tables. Item association saves time because not every record type needs a filter. Associated records follow the filters that are set on the related record type.
 
 ## Prerequisites
 
 - You have admin privileges in Dynamics 365 Field Service.
 - You have access to Power Apps.
+- [Review the implementation guidance for the offline profile](mobile-power-app-system-offline.md#implementation-guidance-for-the-offline-profile).
 
-## Configure the default mobile offline profile
+## Set up the default mobile offline profile
 
-1. Review the [implementation guidance for the offline profile](mobile-power-app-system-offline.md#implementation-guidance-for-the-offline-profile).
+1. Sign in to Power Apps at [https://make.powerapps.com/](https://make.powerapps.com/), and select your environment.
 
-1. Go to Power Apps at [https://make.powerapps.com/](https://make.powerapps.com/), and select your environment.
+1. Select **Apps**, and then open **Field Service Mobile**.
 
-1. Select **Apps** and open **Field Service Mobile**.
-
-1. Select **Settings** and the **General** tab.
+1. Select **Settings**, and then select the **General** tab.
 
 1. Scroll to **Select offline mode and profile**.
 
@@ -38,56 +37,52 @@ Field Service provides an out-of-the-box offline profile called **Field Service 
    - **Default (recommended)**: All your users who have access to the app can also use it in offline mode.
    - **Restricted to selected users (requires admin privileges)**: Restrict access to the app in offline mode to certain users.
 
-1. Select the ellipsis next to the **Field Service Mobile - Offline Profile**, and then select **Edit selected profile**.
+1. Select the ellipsis (**&hellip;**) next to **Field Service Mobile - Offline Profile**, and then select **Edit selected profile**.
 
-   :::image type="content" source="media/fs-mobile-power-apps-edit-offline-profile.png" alt-text="Power Apps screenshot showing Settings for the Field Service Mobile app and edit the offline profile":::
+   :::image type="content" source="media/fs-mobile-power-apps-edit-offline-profile.png" alt-text="Screenshot of Power Apps Field Service mobile app settings, with the default offline profile selected and Edit selected profile highlighted.":::
 
-1. If you selected to restrict access to selected users, [add those users](/power-apps/mobile/setup-mobile-offline#add-users-to-an-offline-profile). Otherwise, go to the next step.
+1. If you chose to restrict access to selected users, [add those users now](/power-apps/mobile/setup-mobile-offline#add-users-to-an-offline-profile). Otherwise, go to the next step.
 
 1. Review the **Data for offline use**. For each table:
 
-   1. Select a table and select **Edit**.
+   - Select a table, and then select **Edit**.
 
-      :::image type="content" source="media/fs-mobile-power-apps-offline-table-edit.png" alt-text="Power Apps screenshot showing Settings for the Field Service Mobile app and a table from the offline profile":::
+      :::image type="content" source="media/fs-mobile-power-apps-offline-table-edit.png" alt-text="Screenshot of the Bookable Resource Booking table offline data settings in the Field Service mobile app offline profile.":::
 
-   1. View the filters, relationships, and sync interval.
+   - Select the rows or filters, relationships, files, and images to make available offline.
 
-      For example, the **Bookable Resource Booking** table has a data download filter set to **custom data filter** that downloads resource bookings that start or end in the next seven days or today.
+   - Select the sync frequency.
 
-      :::image type="content" source="media/fs-mobile-power-apps-filter-logic.png" alt-text="Power Apps screenshot showing Settings for the Field Service Mobile app and filter logic from the offline profile":::
+   - Select **Save**.
 
-   1. If necessary, make changes.
-
-   1. To add a table, see [Add a table to an offline profile](/power-apps/mobile/setup-mobile-offline#add-a-table-to-an-offline-profile-and-apply-filters).
-
-      > [!NOTE]
-      > The default offline profile is updated periodically as part of Field Service updates. If you edited the offline sync filter of a table, the table's sync filter won't receive updates; other table sync filters that haven't been edited will receive updates in an unpublished state. Administrators can review the updates and decide if they want to take the update or continue with the previous sync filters. This only applies to sync filters. Relationships will receive updates while keeping your specific changes.
+   - [Add a table to the offline profile](/power-apps/mobile/setup-mobile-offline#add-a-table-to-an-offline-profile-and-apply-filters) if needed.
 
 1. Save the offline profile.
 
-You can [create additional offline profiles](/power-apps/mobile/setup-mobile-offline#set-up-a-mobile-offline-profile) to enable scenarios where different user roles have different sync settings or tables available to them. For example, a Field Service manager may require seeing a broader scope of work orders that may not be assigned to the current operator of the mobile app. If you create a new offline profile, you'll need to add it to the Field Service mobile app in the app designer as well.
+The default offline profile is updated periodically as part of Field Service updates. If you edit a table's offline sync filter, the sync filter isn't updated. Table sync filters that haven't been edited are updated, but the updates are unpublished. Administrators can review the updates and decide to take them or continue with the previous sync filters. This only applies to sync filters. Relationships receive updates while keeping your specific changes.
+
+If you have user roles that need different sync settings or tables available offline, you can [create more offline profiles](/power-apps/mobile/setup-mobile-offline#set-up-a-mobile-offline-profile). For example, a Field Service manager might need to view a broader scope of work orders than the ones that are assigned to a field technician. If you create an offline profile, remember to add it to the Field Service mobile app in the app designer.
 
 ## Move a mobile offline profile between environments
 
-To control changes and keep your offline profiles in sync, your organization might require making changes to your mobile offline profile in one environment and then moving that profile into other environments.
+To control changes and keep your offline profiles in sync, your organization might require that you make changes to the profiles in one environment and then move them into other environments.
 
-1. Go to Power Apps at [https://make.powerapps.com/](https://make.powerapps.com/), and select your environment.
+1. Sign in to Power Apps at [https://make.powerapps.com/](https://make.powerapps.com/), and select your environment.
 
-1. Select **Apps** > **Field Service Mobile**.
+1. Select **Apps**, and then open **Field Service Mobile**.
 
-1. Select **Settings** and the **General** tab.
+1. Select **Settings**, and then select the **General** tab.
 
 1. Scroll to **Select offline mode and profile**.
 
-1. Select the ellipsis next to the **Field Service Mobile - Offline Profile**, and then select **Copy selected profile**.
+1. Select the ellipsis  (**&hellip;**) next to **Field Service Mobile - Offline Profile**, and then select **Copy selected profile**.
 
-1. Modify your copied profile as needed.
+1. Modify the copied profile as needed.
 
-1. Create a [managed solution](/power-platform/alm/solution-concepts-alm) that includes the mobile offline profile.  
+1. [Create a managed solution](/power-platform/alm/solution-concepts-alm) that includes the mobile offline profile.
 
-1. Export the managed solution containing the mobile offline profile from the original environment.
+1. Export the managed solution from the original environment.
 
 1. Import the managed solution into the new environment.
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]
