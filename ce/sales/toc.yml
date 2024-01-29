@@ -1190,8 +1190,6 @@
           href: developer/entities/account.md
         - name: BulkOperation
           href: developer/entities/bulkoperation.md
-        - name: BulkOperationLog
-          href: developer/entities/bulkoperationlog.md
         - name: Campaign
           href: developer/entities/campaign.md
         - name: CampaignActivity
