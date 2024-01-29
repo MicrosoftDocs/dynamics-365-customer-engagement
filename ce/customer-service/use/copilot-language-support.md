@@ -3,10 +3,10 @@ title: Understand Copilot language support
 description: Understand how Copilot generates responses in different languages
 author: gandhamm
 ms.author: mgandham
-ms.service: 
+ms.collection: bap-ai-copilot
 ms.topic: concept-article 
 ms.date: 01/25/2024
-
+ms.custom: bap-template 
 ---
 
 # Understand Copilot language support
