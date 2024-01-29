@@ -34,4 +34,4 @@ You must enable a [Diagnostic Setting](/azure/communication-services/concepts/an
 
 ## Next steps
 
-[Share feedback on call quality](../use/voice-channel-agent-experience.md#share-feedback-on-call-quality)
+[Share feedback on call quality](../use/voice-channel-agent-experience.md#share-feedback-on-call-quality-preview)

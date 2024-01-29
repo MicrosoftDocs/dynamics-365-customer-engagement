@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Use agent dashboard and call controls in the voice channel
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The voice channel in Omnichannel for Customer Service is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers you a consolidated view of the calling interface, the customer summary, case history, and timeline. The dashboard helps you provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
 
@@ -27,7 +27,7 @@ When a customer calls your business, an intelligent bot receives the incoming ca
 The conversation panel in the agent dashboard includes the following call controls that you can use when you call or answer phone calls from customers.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of call controls.](./media/voice-channel-call-controls.png)
+> ![Screenshot of call controls.](../media/voice-channel-call-controls.png)
 
 - **Mute**: Mute your microphone so your voice isn't audible to the customer.
 - **Hold**: Put the customer on hold; the customer will hear the hold music. You can keep only one caller on hold at a time.
@@ -37,7 +37,7 @@ The conversation panel in the agent dashboard includes the following call contro
   > When you initiate a consult, you are the primary agent and the new participant has a consult role. Select **Transfer** next to the participant to transfer the call to the consulting agent or supervisor. Once the call is transferred, you are the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call will end for the customer.
 
 - **Transfer**: Select this option is to transfer the call to an agent, queue, a Teams user, or an external phone number. After you transfer the call, the agent to whom the call is transferred is the primary agent and you'll no longer be on the call.
-    During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls will continue if the administrator has enabled the [option](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice). You can disable recording from the dashboard. See: [Transfer and consult scenarios](voice-channel-transfer-consult.md)
+    During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls will continue if the administrator has enabled the [option](../administer/voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice). You can disable recording from the dashboard. See: [Transfer and consult scenarios](voice-channel-transfer-consult.md)
 - **End**: End the call.
 - **Dialpad**: Select this option to dial an extension number. If you must use the dial pad to send a response while navigating an IVR, select the dial pad icon next to the external participant in the participant list.
 - **Mark spam**: [Report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
@@ -92,4 +92,4 @@ If you specify a rating between 1 and 4, the application displays a set of prede
 [Enable voice consult with Microsoft Teams users](voice-consult-microsoft-teams-user.md)  
 [Call a customer](voice-channel-call-customer.md)  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
