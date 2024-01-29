@@ -25,7 +25,7 @@ Perform the following steps to enable end-of-call surveys:
 3. Set the **Agent call quality survey** toggle to **On**.
 4. Specify the frequency at which the survey should be presented to the agent. Optionally, you can also set **Set survey duration** toggle to **On** and specify the duration during which the survey must appear for the agent.
 
-:::image type="content" source="../media/voice-configure-rating.png" alt-text="Screen shot of the Agent call quality survey page." :::
+ :::image type="content" source="../media/voice-configure-rating.png" alt-text="Screen shot of the Agent call quality survey page." :::
 
 ## Store and view survey data
 
