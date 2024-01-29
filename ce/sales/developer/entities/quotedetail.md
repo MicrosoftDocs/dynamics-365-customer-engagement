@@ -1,7 +1,7 @@
 ---
-title: "Quote Product (QuoteDetail)  table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "Quote Product (QuoteDetail)  table/entity reference"
 description: "Includes schema information and supported messages for the Quote Product (QuoteDetail)  table/entity."
-ms.date: 01/24/2024
+ms.date: 01/29/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -29,6 +29,7 @@ Product line item in a quote. The details include such information as product ID
 |Create|POST /quotedetails<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
 |Delete|DELETE /quotedetails(*quotedetailid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retrieve|GET /quotedetails(*quotedetailid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /quotedetails<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |Update|PATCH /quotedetails(*quotedetailid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
@@ -64,6 +65,38 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsProductOverridden](#BKMK_IsProductOverridden)
 - [LineItemNumber](#BKMK_LineItemNumber)
 - [ManualDiscountAmount](#BKMK_ManualDiscountAmount)
+- [msdyn_allowedoverdeliverypercentage](#BKMK_msdyn_allowedoverdeliverypercentage)
+- [msdyn_allowedunderdeliverypercentage](#BKMK_msdyn_allowedunderdeliverypercentage)
+- [msdyn_company](#BKMK_msdyn_company)
+- [msdyn_deliveryaddresscountyid](#BKMK_msdyn_deliveryaddresscountyid)
+- [msdyn_deliveryaddressdescription](#BKMK_msdyn_deliveryaddressdescription)
+- [msdyn_deliveryaddressdistrictname](#BKMK_msdyn_deliveryaddressdistrictname)
+- [msdyn_deliveryaddressdunsnumber](#BKMK_msdyn_deliveryaddressdunsnumber)
+- [msdyn_deliveryaddresslatitude](#BKMK_msdyn_deliveryaddresslatitude)
+- [msdyn_deliveryaddresslocationid](#BKMK_msdyn_deliveryaddresslocationid)
+- [msdyn_deliveryaddresslongitude](#BKMK_msdyn_deliveryaddresslongitude)
+- [msdyn_deliveryaddressname](#BKMK_msdyn_deliveryaddressname)
+- [msdyn_deliveryaddresspostbox](#BKMK_msdyn_deliveryaddresspostbox)
+- [msdyn_deliverybuildingcompliment](#BKMK_msdyn_deliverybuildingcompliment)
+- [msdyn_externalitemnumber](#BKMK_msdyn_externalitemnumber)
+- [msdyn_fixedpricecharges](#BKMK_msdyn_fixedpricecharges)
+- [msdyn_formatteddeliveryaddress](#BKMK_msdyn_formatteddeliveryaddress)
+- [msdyn_isdeliveryaddressprivate](#BKMK_msdyn_isdeliveryaddressprivate)
+- [msdyn_isdeliveryaddressspecific](#BKMK_msdyn_isdeliveryaddressspecific)
+- [msdyn_linedescription2](#BKMK_msdyn_linedescription2)
+- [msdyn_linediscountamount](#BKMK_msdyn_linediscountamount)
+- [msdyn_linediscountpercentage](#BKMK_msdyn_linediscountpercentage)
+- [msdyn_multilinediscountamount](#BKMK_msdyn_multilinediscountamount)
+- [msdyn_multilinediscountpercentage](#BKMK_msdyn_multilinediscountpercentage)
+- [msdyn_OpportunityProductID](#BKMK_msdyn_OpportunityProductID)
+- [msdyn_requestedreceiptdate](#BKMK_msdyn_requestedreceiptdate)
+- [msdyn_salespricequantity](#BKMK_msdyn_salespricequantity)
+- [msdyn_salesproductcategory](#BKMK_msdyn_salesproductcategory)
+- [msdyn_salesquotationpromisingmethod](#BKMK_msdyn_salesquotationpromisingmethod)
+- [msdyn_salesquotationstatus](#BKMK_msdyn_salesquotationstatus)
+- [msdyn_shippingsite](#BKMK_msdyn_shippingsite)
+- [msdyn_shippingwarehouse](#BKMK_msdyn_shippingwarehouse)
+- [msdyn_totalchargesamount](#BKMK_msdyn_totalchargesamount)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [ParentBundleId](#BKMK_ParentBundleId)
 - [ParentBundleIdRef](#BKMK_ParentBundleIdRef)
@@ -76,6 +109,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ProductTypeCode](#BKMK_ProductTypeCode)
 - [PropertyConfigurationStatus](#BKMK_PropertyConfigurationStatus)
 - [Quantity](#BKMK_Quantity)
+- [QuoteCreationMethod](#BKMK_QuoteCreationMethod)
 - [QuoteDetailId](#BKMK_QuoteDetailId)
 - [QuoteDetailName](#BKMK_QuoteDetailName)
 - [QuoteId](#BKMK_QuoteId)
@@ -192,7 +226,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1|Override Price||
 |0|Use Default||
 
-**DefaultValue**: 0
+**DefaultValue**: 1
 
 
 
@@ -240,17 +274,617 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Type the manual discount amount for the quote product to deduct any negotiated or other savings from the product total on the quote.|
+|Description|Type the manual discount amount for the quote product to deduct any negotiated or other savings from the product total on the quote. When the feature 'Make Supply Chain Management price master when integrated with Dynamics 365 Sales' is enabled then this field is being locked and represents the calculated line discount total amount. The field value is calculated in Finance and Operations and takes into account all the line discount fields including multiline discount multiplied by line quantity.|
 |DisplayName|Manual Discount|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|manualdiscountamount|
 |MaxValue|1000000000000|
-|MinValue|0|
-|Precision|2|
+|MinValue|-1000000000000|
+|Precision|4|
 |PrecisionSource|2|
 |RequiredLevel|None|
 |Type|Money|
+
+
+### <a name="BKMK_msdyn_allowedoverdeliverypercentage"></a> msdyn_allowedoverdeliverypercentage
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Allowed Overdelivery Percentage|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_allowedoverdeliverypercentage|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|6|
+|RequiredLevel|None|
+|Type|Decimal|
+
+
+### <a name="BKMK_msdyn_allowedunderdeliverypercentage"></a> msdyn_allowedunderdeliverypercentage
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Allowed Underdelivery Percentage|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_allowedunderdeliverypercentage|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|6|
+|RequiredLevel|None|
+|Type|Decimal|
+
+
+### <a name="BKMK_msdyn_company"></a> msdyn_company
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Company|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_company|
+|RequiredLevel|None|
+|Targets|cdm_company|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_deliveryaddresscountyid"></a> msdyn_deliveryaddresscountyid
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Delivery Address County Id|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deliveryaddresscountyid|
+|MaxLength|30|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_deliveryaddressdescription"></a> msdyn_deliveryaddressdescription
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Delivery Address Description|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deliveryaddressdescription|
+|MaxLength|60|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_deliveryaddressdistrictname"></a> msdyn_deliveryaddressdistrictname
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Delivery Address District Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deliveryaddressdistrictname|
+|MaxLength|60|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_deliveryaddressdunsnumber"></a> msdyn_deliveryaddressdunsnumber
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Delivery Address DUNS Number|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deliveryaddressdunsnumber|
+|MaxLength|9|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_deliveryaddresslatitude"></a> msdyn_deliveryaddresslatitude
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Delivery Address Latitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deliveryaddresslatitude|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|6|
+|RequiredLevel|None|
+|Type|Decimal|
+
+
+### <a name="BKMK_msdyn_deliveryaddresslocationid"></a> msdyn_deliveryaddresslocationid
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Delivery Address Location Id|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deliveryaddresslocationid|
+|MaxLength|30|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_deliveryaddresslongitude"></a> msdyn_deliveryaddresslongitude
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Delivery Address Longitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deliveryaddresslongitude|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|6|
+|RequiredLevel|None|
+|Type|Decimal|
+
+
+### <a name="BKMK_msdyn_deliveryaddressname"></a> msdyn_deliveryaddressname
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Delivery Address Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deliveryaddressname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_deliveryaddresspostbox"></a> msdyn_deliveryaddresspostbox
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Delivery Address PostBox|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deliveryaddresspostbox|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_deliverybuildingcompliment"></a> msdyn_deliverybuildingcompliment
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Delivery Building Compliment|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deliverybuildingcompliment|
+|MaxLength|60|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_externalitemnumber"></a> msdyn_externalitemnumber
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|External Item Number|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_externalitemnumber|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_fixedpricecharges"></a> msdyn_fixedpricecharges
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Fixed Price Charges|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_fixedpricecharges|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|6|
+|RequiredLevel|None|
+|Type|Decimal|
+
+
+### <a name="BKMK_msdyn_formatteddeliveryaddress"></a> msdyn_formatteddeliveryaddress
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Formatted Delivery Address|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_formatteddeliveryaddress|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_isdeliveryaddressprivate"></a> msdyn_isdeliveryaddressprivate
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Is Delivery Address Private|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_isdeliveryaddressprivate|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_isdeliveryaddressprivate Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
+
+
+
+### <a name="BKMK_msdyn_isdeliveryaddressspecific"></a> msdyn_isdeliveryaddressspecific
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Is Delivery Address Specific|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_isdeliveryaddressspecific|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_isdeliveryaddressspecific Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
+
+
+
+### <a name="BKMK_msdyn_linedescription2"></a> msdyn_linedescription2
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Line Description|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_linedescription2|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|Memo|
+
+
+### <a name="BKMK_msdyn_linediscountamount"></a> msdyn_linediscountamount
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Enter or update the line discount amount for each quantity of the line. If the line discount amount is 10, the quantity is 2, then this will result in a line discount amount of 20 (10x2) for the line. This field can also be found under the Integration tab.|
+|DisplayName|Line Discount Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_linediscountamount|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|6|
+|RequiredLevel|None|
+|Type|Decimal|
+
+
+### <a name="BKMK_msdyn_linediscountpercentage"></a> msdyn_linediscountpercentage
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Line Discount Percentage|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_linediscountpercentage|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|6|
+|RequiredLevel|None|
+|Type|Decimal|
+
+
+### <a name="BKMK_msdyn_multilinediscountamount"></a> msdyn_multilinediscountamount
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Multiline Discount Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_multilinediscountamount|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|6|
+|RequiredLevel|None|
+|Type|Decimal|
+
+
+### <a name="BKMK_msdyn_multilinediscountpercentage"></a> msdyn_multilinediscountpercentage
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Multiline Discount Percentage|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_multilinediscountpercentage|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|6|
+|RequiredLevel|None|
+|Type|Decimal|
+
+
+### <a name="BKMK_msdyn_OpportunityProductID"></a> msdyn_OpportunityProductID
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Opportunity Product ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_opportunityproductid|
+|RequiredLevel|None|
+|Targets|opportunityproduct|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_requestedreceiptdate"></a> msdyn_requestedreceiptdate
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|TimeZoneIndependent|
+|Description||
+|DisplayName|Requested Receipt Date|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_requestedreceiptdate|
+|RequiredLevel|None|
+|Type|DateTime|
+
+
+### <a name="BKMK_msdyn_salespricequantity"></a> msdyn_salespricequantity
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Sales Price Quantity|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_salespricequantity|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|10|
+|RequiredLevel|None|
+|Type|Decimal|
+
+
+### <a name="BKMK_msdyn_salesproductcategory"></a> msdyn_salesproductcategory
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Sales Product Category|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_salesproductcategory|
+|RequiredLevel|None|
+|Targets|msdyn_productcategory|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_salesquotationpromisingmethod"></a> msdyn_salesquotationpromisingmethod
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Sales Quotation Promising Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_salesquotationpromisingmethod|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_salesquotationpromisingmethod Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|192350000|None||
+|192350001|Sales Lead Time||
+|192350002|ATP||
+|192350003|ATP + Issue Margin||
+|192350004|CTP||
+
+
+
+### <a name="BKMK_msdyn_salesquotationstatus"></a> msdyn_salesquotationstatus
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Sales Quotation Status|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_salesquotationstatus|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_salesquotationstatus Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|192350000|Created||
+|192350001|Sent||
+|192350002|Confirmed||
+|192350003|Lost||
+|192350004|Cancelled||
+|192350005|Reset||
+|192350006|Modified||
+|192350007|Submitted||
+|192350008|Approved||
+|192350009|Revised||
+
+
+
+### <a name="BKMK_msdyn_shippingsite"></a> msdyn_shippingsite
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Shipping Site|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_shippingsite|
+|RequiredLevel|None|
+|Targets|msdyn_operationalsite|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_shippingwarehouse"></a> msdyn_shippingwarehouse
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Shipping Warehouse|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_shippingwarehouse|
+|RequiredLevel|None|
+|Targets|msdyn_warehouse|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_totalchargesamount"></a> msdyn_totalchargesamount
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Total Charges Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_totalchargesamount|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|6|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -495,6 +1129,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Precision|5|
 |RequiredLevel|ApplicationRequired|
 |Type|Decimal|
+
+
+### <a name="BKMK_QuoteCreationMethod"></a> QuoteCreationMethod
+
+**Added by**: Sales Patch Version 3 Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Creation Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|quotecreationmethod|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### QuoteCreationMethod Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|776160000|Unknown||
+|776160001|Revision||
+
 
 
 ### <a name="BKMK_QuoteDetailId"></a> QuoteDetailId
@@ -947,6 +1604,11 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_companyName](#BKMK_msdyn_companyName)
+- [msdyn_OpportunityProductIDName](#BKMK_msdyn_OpportunityProductIDName)
+- [msdyn_salesproductcategoryName](#BKMK_msdyn_salesproductcategoryName)
+- [msdyn_shippingsiteName](#BKMK_msdyn_shippingsiteName)
+- [msdyn_shippingwarehouseName](#BKMK_msdyn_shippingwarehouseName)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -1099,14 +1761,14 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|
+|Description|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money columns in the row from the local currency to the system's default currency.|
 |DisplayName|Exchange Rate|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|exchangerate|
 |MaxValue|100000000000|
-|MinValue|0.000000000001|
-|Precision|12|
+|MinValue|0.0000000001|
+|Precision|10|
 |RequiredLevel|None|
 |Type|Decimal|
 
@@ -1247,6 +1909,96 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_companyName"></a> msdyn_companyName
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_companyname|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_OpportunityProductIDName"></a> msdyn_OpportunityProductIDName
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_opportunityproductidname|
+|MaxLength|500|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_salesproductcategoryName"></a> msdyn_salesproductcategoryName
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_salesproductcategoryname|
+|MaxLength|254|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_shippingsiteName"></a> msdyn_shippingsiteName
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_shippingsitename|
+|MaxLength|60|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_shippingwarehouseName"></a> msdyn_shippingwarehouseName
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_shippingwarehousename|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
@@ -1655,6 +2407,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [quotedetail_parent_quotedetail](#BKMK_quotedetail_parent_quotedetail)
 - [unit_of_measurement_quote_details](#BKMK_unit_of_measurement_quote_details)
 - [quotedetail_parentref_quotedetail](#BKMK_quotedetail_parentref_quotedetail)
+- [msdyn_opportunityproduct_quotedetail_OpportunityProductID](#BKMK_msdyn_opportunityproduct_quotedetail_OpportunityProductID)
 - [quote_details](#BKMK_quote_details)
 
 
@@ -1683,6 +2436,10 @@ See the [unit_of_measurement_quote_details](uom.md#BKMK_unit_of_measurement_quot
 ### <a name="BKMK_quotedetail_parentref_quotedetail"></a> quotedetail_parentref_quotedetail
 
 See the [quotedetail_parentref_quotedetail](quotedetail.md#BKMK_quotedetail_parentref_quotedetail) one-to-many relationship for the [quotedetail](quotedetail.md) table/entity.
+
+### <a name="BKMK_msdyn_opportunityproduct_quotedetail_OpportunityProductID"></a> msdyn_opportunityproduct_quotedetail_OpportunityProductID
+
+See the [msdyn_opportunityproduct_quotedetail_OpportunityProductID](opportunityproduct.md#BKMK_msdyn_opportunityproduct_quotedetail_OpportunityProductID) one-to-many relationship for the [opportunityproduct](opportunityproduct.md) table/entity.
 
 ### <a name="BKMK_quote_details"></a> quote_details
 

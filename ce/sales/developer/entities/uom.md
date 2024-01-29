@@ -1,7 +1,7 @@
 ---
-title: "Unit (UoM)  table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "Unit (UoM)  table/entity reference"
 description: "Includes schema information and supported messages for the Unit (UoM)  table/entity."
-ms.date: 01/24/2024
+ms.date: 01/29/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -27,6 +27,7 @@ Unit of measure.
 |-|-|-|
 |Create|POST /uoms<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |Delete|DELETE /uoms(*uomid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retrieve|GET /uoms(*uomid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /uoms<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |Update|PATCH /uoms(*uomid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
@@ -55,6 +56,13 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [BaseUoM](#BKMK_BaseUoM)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_DecimalPrecision](#BKMK_msdyn_DecimalPrecision)
+- [msdyn_Description](#BKMK_msdyn_Description)
+- [msdyn_ExternalUnitClassName](#BKMK_msdyn_ExternalUnitClassName)
+- [msdyn_IsBaseUnit](#BKMK_msdyn_IsBaseUnit)
+- [msdyn_IsSystemUnit](#BKMK_msdyn_IsSystemUnit)
+- [msdyn_Symbol](#BKMK_msdyn_Symbol)
+- [msdyn_SystemOfUnits](#BKMK_msdyn_SystemOfUnits)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [Quantity](#BKMK_Quantity)
@@ -93,6 +101,152 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MinValue|-2147483648|
 |RequiredLevel|None|
 |Type|Integer|
+
+
+### <a name="BKMK_msdyn_DecimalPrecision"></a> msdyn_DecimalPrecision
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Decimal Precision|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_decimalprecision|
+|MaxValue|10|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_Description"></a> msdyn_Description
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Description|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_description|
+|MaxLength|60|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ExternalUnitClassName"></a> msdyn_ExternalUnitClassName
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Unit Class Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_externalunitclassname|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_IsBaseUnit"></a> msdyn_IsBaseUnit
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Is Base Unit|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_isbaseunit|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_IsBaseUnit Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
+
+
+
+### <a name="BKMK_msdyn_IsSystemUnit"></a> msdyn_IsSystemUnit
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Is System Unit|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_issystemunit|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_IsSystemUnit Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
+
+
+
+### <a name="BKMK_msdyn_Symbol"></a> msdyn_Symbol
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Symbol|
+|DisplayName|Symbol|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_symbol|
+|MaxLength|10|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_SystemOfUnits"></a> msdyn_SystemOfUnits
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|System Of Units|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_systemofunits|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_SystemOfUnits Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|192350000|None||
+|192350001|Metric||
+|192350002|US||
+
 
 
 ### <a name="BKMK_Name"></a> Name

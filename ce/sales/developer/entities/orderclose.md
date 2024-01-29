@@ -1,7 +1,7 @@
 ---
-title: "OrderClose table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "OrderClose table/entity reference"
 description: "Includes schema information and supported messages for the OrderClose table/entity."
-ms.date: 01/24/2024
+ms.date: 01/29/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -31,6 +31,7 @@ Activity generated automatically when an order is closed.
 |Delete|DELETE /ordercloses(*activityid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retrieve|GET /ordercloses(*activityid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /ordercloses<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
@@ -1796,20 +1797,14 @@ Same as the [CampaignResponse_OrderCloses](campaignresponse.md#BKMK_CampaignResp
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
-- [account_OrderCloses](#BKMK_account_OrderCloses)
 - [lead_OrderCloses](#BKMK_lead_OrderCloses)
 - [bulkoperation_OrderCloses](#BKMK_bulkoperation_OrderCloses)
 - [campaign_OrderCloses](#BKMK_campaign_OrderCloses)
 - [campaignactivity_OrderCloses](#BKMK_campaignactivity_OrderCloses)
 - [opportunity_OrderCloses](#BKMK_opportunity_OrderCloses)
+- [account_OrderCloses](#BKMK_account_OrderCloses)
 - [SalesOrder_OrderClose](#BKMK_SalesOrder_OrderClose)
 
-
-### <a name="BKMK_account_OrderCloses"></a> account_OrderCloses
-
-**Added by**: System Solution Solution
-
-See the [account_OrderCloses](account.md#BKMK_account_OrderCloses) one-to-many relationship for the [account](account.md) table/entity.
 
 ### <a name="BKMK_lead_OrderCloses"></a> lead_OrderCloses
 
@@ -1838,6 +1833,12 @@ See the [campaignactivity_OrderCloses](campaignactivity.md#BKMK_campaignactivity
 ### <a name="BKMK_opportunity_OrderCloses"></a> opportunity_OrderCloses
 
 See the [opportunity_OrderCloses](opportunity.md#BKMK_opportunity_OrderCloses) one-to-many relationship for the [opportunity](opportunity.md) table/entity.
+
+### <a name="BKMK_account_OrderCloses"></a> account_OrderCloses
+
+**Added by**: System Solution Solution
+
+See the [account_OrderCloses](account.md#BKMK_account_OrderCloses) one-to-many relationship for the [account](account.md) table/entity.
 
 ### <a name="BKMK_SalesOrder_OrderClose"></a> SalesOrder_OrderClose
 

@@ -1,7 +1,7 @@
 ---
-title: "LeadAddress table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "LeadAddress table/entity reference"
 description: "Includes schema information and supported messages for the LeadAddress table/entity."
-ms.date: 01/24/2024
+ms.date: 01/29/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -25,6 +25,7 @@ Address information for a lead.
 
 |Message|Web API Operation|SDK class or method|
 |-|-|-|
+|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retrieve|GET /leadaddresses(*leadaddressid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /leadaddresses<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 

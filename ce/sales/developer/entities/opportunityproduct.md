@@ -1,7 +1,7 @@
 ---
-title: "OpportunityProduct table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "OpportunityProduct table/entity reference"
 description: "Includes schema information and supported messages for the OpportunityProduct table/entity."
-ms.date: 01/24/2024
+ms.date: 01/29/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -29,6 +29,7 @@ Association between an opportunity and a product.
 |Create|POST /opportunityproducts<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
 |Delete|DELETE /opportunityproducts(*opportunityproductid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retrieve|GET /opportunityproducts(*opportunityproductid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /opportunityproducts<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |Update|PATCH /opportunityproducts(*opportunityproductid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
@@ -65,6 +66,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsProductOverridden](#BKMK_IsProductOverridden)
 - [LineItemNumber](#BKMK_LineItemNumber)
 - [ManualDiscountAmount](#BKMK_ManualDiscountAmount)
+- [msdyn_SalesProductCategory](#BKMK_msdyn_SalesProductCategory)
+- [msdyn_ShippingSite](#BKMK_msdyn_ShippingSite)
+- [msdyn_ShippingWarehouse](#BKMK_msdyn_ShippingWarehouse)
 - [OpportunityId](#BKMK_OpportunityId)
 - [OpportunityProductId](#BKMK_OpportunityProductId)
 - [OpportunityProductName](#BKMK_OpportunityProductName)
@@ -129,7 +133,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|The default image for the entity.|
+|Description|The default image for the table.|
 |DisplayName|Entity Image|
 |IsPrimaryImage|True|
 |IsValidForForm|False|
@@ -254,6 +258,54 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |PrecisionSource|2|
 |RequiredLevel|None|
 |Type|Money|
+
+
+### <a name="BKMK_msdyn_SalesProductCategory"></a> msdyn_SalesProductCategory
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Sales Product Category|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_salesproductcategory|
+|RequiredLevel|None|
+|Targets|msdyn_productcategory|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_ShippingSite"></a> msdyn_ShippingSite
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Shipping Site|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_shippingsite|
+|RequiredLevel|None|
+|Targets|msdyn_operationalsite|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_ShippingWarehouse"></a> msdyn_ShippingWarehouse
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Shipping Warehouse|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_shippingwarehouse|
+|RequiredLevel|None|
+|Targets|msdyn_warehouse|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OpportunityId"></a> OpportunityId
@@ -691,6 +743,9 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_SalesProductCategoryName](#BKMK_msdyn_SalesProductCategoryName)
+- [msdyn_ShippingSiteName](#BKMK_msdyn_ShippingSiteName)
+- [msdyn_ShippingWarehouseName](#BKMK_msdyn_ShippingWarehouseName)
 - [OpportunityIdName](#BKMK_OpportunityIdName)
 - [OpportunityStateCode](#BKMK_OpportunityStateCode)
 - [OwnerId](#BKMK_OwnerId)
@@ -884,14 +939,14 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|
+|Description|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money columns in the row from the local currency to the system's default currency.|
 |DisplayName|Exchange Rate|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|exchangerate|
 |MaxValue|100000000000|
-|MinValue|0.000000000001|
-|Precision|12|
+|MinValue|0.0000000001|
+|Precision|10|
 |RequiredLevel|None|
 |Type|Decimal|
 
@@ -1032,6 +1087,60 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_SalesProductCategoryName"></a> msdyn_SalesProductCategoryName
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_salesproductcategoryname|
+|MaxLength|254|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ShippingSiteName"></a> msdyn_ShippingSiteName
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_shippingsitename|
+|MaxLength|60|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ShippingWarehouseName"></a> msdyn_ShippingWarehouseName
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_shippingwarehousename|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
@@ -1313,6 +1422,7 @@ Listed by **SchemaName**.
 - [opportunityproduct_parent_opportunityproduct](#BKMK_opportunityproduct_parent_opportunityproduct)
 - [OpportunityProduct_Dynamicpropertyinstance](#BKMK_OpportunityProduct_Dynamicpropertyinstance)
 - [opportunityproduct_parentref_opportunityproduct](#BKMK_opportunityproduct_parentref_opportunityproduct)
+- [msdyn_opportunityproduct_quotedetail_OpportunityProductID](#BKMK_msdyn_opportunityproduct_quotedetail_OpportunityProductID)
 
 
 ### <a name="BKMK_opportunityproduct_parent_opportunityproduct"></a> opportunityproduct_parent_opportunityproduct
@@ -1360,6 +1470,23 @@ Same as the [opportunityproduct_parentref_opportunityproduct](opportunityproduct
 |ReferencedEntityNavigationPropertyName|opportunityproduct_parentref_opportunityproduct|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_opportunityproduct_quotedetail_OpportunityProductID"></a> msdyn_opportunityproduct_quotedetail_OpportunityProductID
+
+**Added by**: Dynamics 365 Supply Chain Extended Solution
+
+Same as the [msdyn_opportunityproduct_quotedetail_OpportunityProductID](quotedetail.md#BKMK_msdyn_opportunityproduct_quotedetail_OpportunityProductID) many-to-one relationship for the [quotedetail](quotedetail.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quotedetail|
+|ReferencingAttribute|msdyn_opportunityproductid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_opportunityproduct_quotedetail_OpportunityProductID|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 

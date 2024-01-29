@@ -1,6 +1,6 @@
 ---
-title: "msdyn_predictivemodelscore table/entity reference"
-description: "Includes schema information and supported messages for the msdyn_predictivemodelscore table/entity."
+title: "msdyn_wkwcolleaguesforcontact table/entity reference"
+description: "Includes schema information and supported messages for the msdyn_wkwcolleaguesforcontact table/entity."
 ms.date: 01/29/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
@@ -11,14 +11,14 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_predictivemodelscore table/entity reference
+# msdyn_wkwcolleaguesforcontact table/entity reference
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 
+Entity for storing contact introducer
 
-
-**Added by**: Predictive Scoring Common Solution
+**Added by**: Connection Graph Solution
 
 
 ## Messages
@@ -26,18 +26,18 @@ search.audienceType:
 |Message|Web API Operation|SDK class or method|
 |-|-|-|
 |BulkRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
-|Create|POST /msdyn_predictivemodelscores<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Create|POST /msdyn_wkwcolleaguesforcontacts<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-|Delete|DELETE /msdyn_predictivemodelscores(*msdyn_predictivemodelscoreid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Delete|DELETE /msdyn_wkwcolleaguesforcontacts(*msdyn_wkwcolleaguesforcontactid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |IsValidStateTransition|<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |PurgeRetainedContent|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
 |Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
-|Retrieve|GET /msdyn_predictivemodelscores(*msdyn_predictivemodelscoreid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET /msdyn_predictivemodelscores<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET /msdyn_wkwcolleaguesforcontacts(*msdyn_wkwcolleaguesforcontactid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /msdyn_wkwcolleaguesforcontacts<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RollbackRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
-|SetState|PATCH /msdyn_predictivemodelscores(*msdyn_predictivemodelscoreid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH /msdyn_predictivemodelscores(*msdyn_predictivemodelscoreid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH /msdyn_wkwcolleaguesforcontacts(*msdyn_wkwcolleaguesforcontactid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH /msdyn_wkwcolleaguesforcontacts(*msdyn_wkwcolleaguesforcontactid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 |ValidateRetentionConfig|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
 
@@ -45,17 +45,17 @@ search.audienceType:
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_predictivemodelscores|
-|DisplayCollectionName|Predictive Model Score|
-|DisplayName|Predictive Model Score|
-|EntitySetName|msdyn_predictivemodelscores|
+|CollectionSchemaName|msdyn_wkwcolleaguesforcontacts|
+|DisplayCollectionName|wkwcolleaguesforcontacts|
+|DisplayName|wkwcolleaguesforcontact|
+|EntitySetName|msdyn_wkwcolleaguesforcontacts|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_predictivemodelscores|
-|LogicalName|msdyn_predictivemodelscore|
+|LogicalCollectionName|msdyn_wkwcolleaguesforcontacts|
+|LogicalName|msdyn_wkwcolleaguesforcontact|
 |OwnershipType|OrganizationOwned|
-|PrimaryIdAttribute|msdyn_predictivemodelscoreid|
-|PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_predictivemodelscore|
+|PrimaryIdAttribute|msdyn_wkwcolleaguesforcontactid|
+|PrimaryNameAttribute|msdyn_introducer_emailaddress|
+|SchemaName|msdyn_wkwcolleaguesforcontact|
 
 <a name="writable-attributes"></a>
 
@@ -64,19 +64,15 @@ search.audienceType:
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_EntityId](#BKMK_msdyn_EntityId)
-- [msdyn_EntityType](#BKMK_msdyn_EntityType)
-- [msdyn_Grade](#BKMK_msdyn_Grade)
-- [msdyn_ModelName](#BKMK_msdyn_ModelName)
-- [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_PredictionID](#BKMK_msdyn_PredictionID)
-- [msdyn_predictivemodelscoreId](#BKMK_msdyn_predictivemodelscoreId)
-- [msdyn_PredictiveScoreId](#BKMK_msdyn_PredictiveScoreId)
-- [msdyn_Score](#BKMK_msdyn_Score)
-- [msdyn_ScoredOn](#BKMK_msdyn_ScoredOn)
-- [msdyn_ScoreHistory](#BKMK_msdyn_ScoreHistory)
-- [msdyn_ScoreReasons](#BKMK_msdyn_ScoreReasons)
-- [msdyn_ScoreTrend](#BKMK_msdyn_ScoreTrend)
+- [msdyn_computationaccuracy](#BKMK_msdyn_computationaccuracy)
+- [msdyn_introduced_entity_id](#BKMK_msdyn_introduced_entity_id)
+- [msdyn_introducer_emailaddress](#BKMK_msdyn_introducer_emailaddress)
+- [msdyn_introducer_systemuserid](#BKMK_msdyn_introducer_systemuserid)
+- [msdyn_last_interaction_dataflow](#BKMK_msdyn_last_interaction_dataflow)
+- [msdyn_last_interaction_datetime](#BKMK_msdyn_last_interaction_datetime)
+- [msdyn_last_interaction_type](#BKMK_msdyn_last_interaction_type)
+- [msdyn_score](#BKMK_msdyn_score)
+- [msdyn_wkwcolleaguesforcontactId](#BKMK_msdyn_wkwcolleaguesforcontactId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -101,221 +97,148 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_EntityId"></a> msdyn_EntityId
+### <a name="BKMK_msdyn_computationaccuracy"></a> msdyn_computationaccuracy
 
 |Property|Value|
 |--------|-----|
-|Description|Entity ID of primary entity.|
-|DisplayName|Entity ID|
+|Description||
+|DisplayName|Computation Accuracy|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_computationaccuracy|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_computationaccuracy Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|100000000|Complete||
+|100000001|Partial||
+
+
+
+### <a name="BKMK_msdyn_introduced_entity_id"></a> msdyn_introduced_entity_id
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Introduced Entity Id|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_entityid|
+|LogicalName|msdyn_introduced_entity_id|
 |MaxLength|100|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_EntityType"></a> msdyn_EntityType
-
-|Property|Value|
-|--------|-----|
-|Description|Entity type of primary entity.|
-|DisplayName|Entity type|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_entitytype|
-|MaxLength|128|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_Grade"></a> msdyn_Grade
-
-|Property|Value|
-|--------|-----|
-|Description|Grade of prediction score.|
-|DisplayName|Grade|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_grade|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_Grade Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|0|Grade A||
-|1|Grade B||
-|2|Grade C||
-|3|Grade D||
-
-
-
-### <a name="BKMK_msdyn_ModelName"></a> msdyn_ModelName
-
-|Property|Value|
-|--------|-----|
-|Description|Prediction model name.|
-|DisplayName|Model name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_modelname|
-|MaxLength|128|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_name"></a> msdyn_name
+### <a name="BKMK_msdyn_introducer_emailaddress"></a> msdyn_introducer_emailaddress
 
 |Property|Value|
 |--------|-----|
 |Description|The name of the custom entity.|
-|DisplayName|Name|
+|DisplayName|Introducer Email Address|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_name|
-|MaxLength|128|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_PredictionID"></a> msdyn_PredictionID
-
-|Property|Value|
-|--------|-----|
-|Description|Prediction model definition ID.|
-|DisplayName|Prediction ID|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_predictionid|
-|MaxLength|100|
+|LogicalName|msdyn_introducer_emailaddress|
+|MaxLength|200|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_predictivemodelscoreId"></a> msdyn_predictivemodelscoreId
+### <a name="BKMK_msdyn_introducer_systemuserid"></a> msdyn_introducer_systemuserid
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for entity instances.|
-|DisplayName|Predictive model score|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_predictivemodelscoreid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_PredictiveScoreId"></a> msdyn_PredictiveScoreId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for Predictive Score associated with Predictive Model Score.|
-|DisplayName|Predictive score|
+|Description||
+|DisplayName|Introducer systemuserid|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_predictivescoreid|
+|LogicalName|msdyn_introducer_systemuserid|
 |RequiredLevel|None|
-|Targets|msdyn_predictivescore|
+|Targets|systemuser|
 |Type|Lookup|
 
 
-### <a name="BKMK_msdyn_Score"></a> msdyn_Score
+### <a name="BKMK_msdyn_last_interaction_dataflow"></a> msdyn_last_interaction_dataflow
 
 |Property|Value|
 |--------|-----|
-|Description|Prediction score.|
-|DisplayName|Score|
-|Format|None|
+|Description||
+|DisplayName|Last Interaction Data flow|
+|FormatName|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_score|
-|MaxValue|2147483647|
-|MinValue|-2147483648|
+|LogicalName|msdyn_last_interaction_dataflow|
+|MaxLength|100|
 |RequiredLevel|None|
-|Type|Integer|
+|Type|String|
 
 
-### <a name="BKMK_msdyn_ScoredOn"></a> msdyn_ScoredOn
+### <a name="BKMK_msdyn_last_interaction_datetime"></a> msdyn_last_interaction_datetime
 
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Scored on.|
-|DisplayName|Scored on|
-|Format|DateOnly|
-|IsValidForForm|False|
+|Description||
+|DisplayName|Last Interaction datetime|
+|Format|DateAndTime|
+|IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_scoredon|
+|LogicalName|msdyn_last_interaction_datetime|
 |RequiredLevel|None|
 |Type|DateTime|
 
 
-### <a name="BKMK_msdyn_ScoreHistory"></a> msdyn_ScoreHistory
+### <a name="BKMK_msdyn_last_interaction_type"></a> msdyn_last_interaction_type
 
 |Property|Value|
 |--------|-----|
-|Description|Score history.|
-|DisplayName|Score history|
-|Format|Text|
+|Description||
+|DisplayName|Last Interaction type|
+|FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_scorehistory|
-|MaxLength|2000|
+|LogicalName|msdyn_last_interaction_type|
+|MaxLength|100|
 |RequiredLevel|None|
-|Type|Memo|
+|Type|String|
 
 
-### <a name="BKMK_msdyn_ScoreReasons"></a> msdyn_ScoreReasons
+### <a name="BKMK_msdyn_score"></a> msdyn_score
 
 |Property|Value|
 |--------|-----|
-|Description|Score reasons.|
-|DisplayName|Score reasons|
-|Format|Text|
-|IsLocalizable|False|
+|Description||
+|DisplayName|score|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_scorereasons|
-|MaxLength|10000|
-|RequiredLevel|None|
-|Type|Memo|
+|LogicalName|msdyn_score|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|2|
+|RequiredLevel|ApplicationRequired|
+|Type|Decimal|
 
 
-### <a name="BKMK_msdyn_ScoreTrend"></a> msdyn_ScoreTrend
+### <a name="BKMK_msdyn_wkwcolleaguesforcontactId"></a> msdyn_wkwcolleaguesforcontactId
 
 |Property|Value|
 |--------|-----|
-|Description|Score trend.|
-|DisplayName|Score trend|
-|IsValidForForm|True|
+|Description|Unique identifier for entity instances|
+|DisplayName|msdyn_wkwcolleaguesforcontact|
+|IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_scoretrend|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_ScoreTrend Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|0|Improving||
-|1|Steady||
-|2|Declining||
-|3|Not enough info||
-
+|IsValidForUpdate|False|
+|LogicalName|msdyn_wkwcolleaguesforcontactid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -338,7 +261,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Predictive Model Score.|
+|Description|Status of the msdyn_wkwcolleaguesforcontact|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -360,7 +283,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Predictive Model Score.|
+|Description|Reason for the status of the msdyn_wkwcolleaguesforcontact|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -428,7 +351,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_PredictiveScoreIdName](#BKMK_msdyn_PredictiveScoreIdName)
+- [msdyn_introducer_systemuseridName](#BKMK_msdyn_introducer_systemuseridName)
+- [msdyn_introducer_systemuseridYomiName](#BKMK_msdyn_introducer_systemuseridYomiName)
 - [OrganizationId](#BKMK_OrganizationId)
 - [OrganizationIdName](#BKMK_OrganizationIdName)
 - [VersionNumber](#BKMK_VersionNumber)
@@ -507,7 +431,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 |Property|Value|
 |--------|-----|
-|Description|Date and time when the record was created.|
+|Description|Unique identifier of the delegate user who created the record.|
 |DisplayName|Created By (Delegate)|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -672,7 +596,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
-### <a name="BKMK_msdyn_PredictiveScoreIdName"></a> msdyn_PredictiveScoreIdName
+### <a name="BKMK_msdyn_introducer_systemuseridName"></a> msdyn_introducer_systemuseridName
 
 |Property|Value|
 |--------|-----|
@@ -682,8 +606,24 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_predictivescoreidname|
-|MaxLength|128|
+|LogicalName|msdyn_introducer_systemuseridname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_introducer_systemuseridYomiName"></a> msdyn_introducer_systemuseridYomiName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_introducer_systemuseridyominame|
+|MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
 
@@ -694,7 +634,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for the organization.|
+|Description|Unique identifier for the organization|
 |DisplayName|Organization Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -738,16 +678,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="manytoone"></a>
 
-## Many-To-One Relationships
-
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
-
-
-### <a name="BKMK_msdyn_PS_PMS"></a> msdyn_PS_PMS
-
-See the [msdyn_PS_PMS](msdyn_predictivescore.md#BKMK_msdyn_PS_PMS) one-to-many relationship for the [msdyn_predictivescore](msdyn_predictivescore.md) table/entity.
 
 ### See also
 

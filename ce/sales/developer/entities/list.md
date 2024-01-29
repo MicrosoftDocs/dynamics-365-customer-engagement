@@ -1,7 +1,7 @@
 ---
-title: "Marketing List (List)  table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "Marketing List (List)  table/entity reference"
 description: "Includes schema information and supported messages for the Marketing List (List)  table/entity."
-ms.date: 01/24/2024
+ms.date: 01/29/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -40,6 +40,7 @@ Group of existing or potential customers created for a marketing campaign or oth
 |QualifyMemberList||<xref:Microsoft.Crm.Sdk.Messages.QualifyMemberListRequest>|
 |RemoveListMembersList||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = RemoveListMembersList|
 |RemoveMemberList||<xref:Microsoft.Crm.Sdk.Messages.RemoveMemberListRequest>|
+|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retrieve|GET /lists(*listid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /lists<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
@@ -123,7 +124,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Select the type of members that this marketing list contains: accounts, contacts, or leads. Each list can have only one member type and this value can't be changed after the marketing list is created.|
+|Description|Select the type of members that this marketing list will contain: accounts, contacts, or leads. Each list can have only one member type and this value can't be changed after the marketing list is created.|
 |DisplayName|Marketing List Member Type|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -162,7 +163,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Select whether to override the opt-out settings on leads, contacts, and accounts for the members of the target marketing lists of the campaign activity. If No is selected, users who chose to opt out won't be excluded from the list. This means they receive marketing materials.|
+|Description|Select whether to override the opt-out settings on leads, contacts, and accounts for the members of the target marketing lists of the campaign activity. If No is selected, those who have chosen to opt out won't be excluded from the list. This means they will receive marketing materials.|
 |DisplayName|Exclude Members Who Opt Out|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -271,7 +272,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Select whether the marketing list is locked. If Yes is selected, no more members can be added to the marketing list.|
+|Description|Select whether the marketing list is locked. If Yes is selected, no additional members can be added to the marketing list.|
 |DisplayName|Locked|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -311,7 +312,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Type of the members that can be stored in the marketing list. Please don't remove from form!|
+|Description|Type of the members that can be stored in the marketing list. Please do not remove from form!|
 |DisplayName|Member Type|
 |Format|None|
 |IsValidForForm|True|
@@ -929,7 +930,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|owningbusinessunit|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Targets|businessunit|
 |Type|Lookup|
 

@@ -1,7 +1,7 @@
 ---
-title: "OpportunityClose table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "OpportunityClose table/entity reference"
 description: "Includes schema information and supported messages for the OpportunityClose table/entity."
-ms.date: 01/24/2024
+ms.date: 01/29/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -31,6 +31,7 @@ Activity that is created automatically when an opportunity is closed, containing
 |Delete|DELETE /opportunitycloses(*activityid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retrieve|GET /opportunitycloses(*activityid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /opportunitycloses<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
@@ -1899,21 +1900,15 @@ Same as the [CampaignResponse_OpportunityCloses](campaignresponse.md#BKMK_Campai
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
-- [account_OpportunityCloses](#BKMK_account_OpportunityCloses)
 - [lead_OpportunityCloses](#BKMK_lead_OpportunityCloses)
 - [bulkoperation_OpportunityCloses](#BKMK_bulkoperation_OpportunityCloses)
 - [campaign_OpportunityCloses](#BKMK_campaign_OpportunityCloses)
 - [campaignactivity_OpportunityCloses](#BKMK_campaignactivity_OpportunityCloses)
 - [opportunity_OpportunityCloses](#BKMK_opportunity_OpportunityCloses)
+- [account_OpportunityCloses](#BKMK_account_OpportunityCloses)
 - [Opportunity_OpportunityClose](#BKMK_Opportunity_OpportunityClose)
 - [competitor_opportunity_activities](#BKMK_competitor_opportunity_activities)
 
-
-### <a name="BKMK_account_OpportunityCloses"></a> account_OpportunityCloses
-
-**Added by**: System Solution Solution
-
-See the [account_OpportunityCloses](account.md#BKMK_account_OpportunityCloses) one-to-many relationship for the [account](account.md) table/entity.
 
 ### <a name="BKMK_lead_OpportunityCloses"></a> lead_OpportunityCloses
 
@@ -1942,6 +1937,12 @@ See the [campaignactivity_OpportunityCloses](campaignactivity.md#BKMK_campaignac
 ### <a name="BKMK_opportunity_OpportunityCloses"></a> opportunity_OpportunityCloses
 
 See the [opportunity_OpportunityCloses](opportunity.md#BKMK_opportunity_OpportunityCloses) one-to-many relationship for the [opportunity](opportunity.md) table/entity.
+
+### <a name="BKMK_account_OpportunityCloses"></a> account_OpportunityCloses
+
+**Added by**: System Solution Solution
+
+See the [account_OpportunityCloses](account.md#BKMK_account_OpportunityCloses) one-to-many relationship for the [account](account.md) table/entity.
 
 ### <a name="BKMK_Opportunity_OpportunityClose"></a> Opportunity_OpportunityClose
 

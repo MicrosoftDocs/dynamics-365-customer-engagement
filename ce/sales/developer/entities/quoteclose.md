@@ -1,7 +1,7 @@
 ---
-title: "QuoteClose table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "QuoteClose table/entity reference"
 description: "Includes schema information and supported messages for the QuoteClose table/entity."
-ms.date: 01/24/2024
+ms.date: 01/29/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -31,6 +31,7 @@ Activity generated when a quote is closed.
 |Delete|DELETE /quotecloses(*activityid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retrieve|GET /quotecloses(*activityid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /quotecloses<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
@@ -1796,21 +1797,15 @@ Same as the [CampaignResponse_QuoteCloses](campaignresponse.md#BKMK_CampaignResp
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
-- [account_QuoteCloses](#BKMK_account_QuoteCloses)
 - [lead_QuoteCloses](#BKMK_lead_QuoteCloses)
 - [bulkoperation_QuoteCloses](#BKMK_bulkoperation_QuoteCloses)
 - [campaign_QuoteCloses](#BKMK_campaign_QuoteCloses)
 - [campaignactivity_QuoteCloses](#BKMK_campaignactivity_QuoteCloses)
 - [opportunity_QuoteCloses](#BKMK_opportunity_QuoteCloses)
 - [quote_QuoteCloses](#BKMK_quote_QuoteCloses)
+- [account_QuoteCloses](#BKMK_account_QuoteCloses)
 - [Quote_QuoteClose](#BKMK_Quote_QuoteClose)
 
-
-### <a name="BKMK_account_QuoteCloses"></a> account_QuoteCloses
-
-**Added by**: System Solution Solution
-
-See the [account_QuoteCloses](account.md#BKMK_account_QuoteCloses) one-to-many relationship for the [account](account.md) table/entity.
 
 ### <a name="BKMK_lead_QuoteCloses"></a> lead_QuoteCloses
 
@@ -1843,6 +1838,12 @@ See the [opportunity_QuoteCloses](opportunity.md#BKMK_opportunity_QuoteCloses) o
 ### <a name="BKMK_quote_QuoteCloses"></a> quote_QuoteCloses
 
 See the [quote_QuoteCloses](quote.md#BKMK_quote_QuoteCloses) one-to-many relationship for the [quote](quote.md) table/entity.
+
+### <a name="BKMK_account_QuoteCloses"></a> account_QuoteCloses
+
+**Added by**: System Solution Solution
+
+See the [account_QuoteCloses](account.md#BKMK_account_QuoteCloses) one-to-many relationship for the [account](account.md) table/entity.
 
 ### <a name="BKMK_Quote_QuoteClose"></a> Quote_QuoteClose
 

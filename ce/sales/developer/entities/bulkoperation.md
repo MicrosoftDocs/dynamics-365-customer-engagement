@@ -1,7 +1,7 @@
 ---
-title: "Quick Campaign (BulkOperation)  table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "Quick Campaign (BulkOperation)  table/entity reference"
 description: "Includes schema information and supported messages for the Quick Campaign (BulkOperation)  table/entity."
-ms.date: 01/24/2024
+ms.date: 01/29/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -1817,12 +1817,18 @@ Same as the [bulkoperation_QuoteCloses](quoteclose.md#BKMK_bulkoperation_QuoteCl
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
+- [lead_BulkOperations](#BKMK_lead_BulkOperations)
 - [account_BulkOperations](#BKMK_account_BulkOperations)
 - [contact_BulkOperations](#BKMK_contact_BulkOperations)
-- [lead_BulkOperations](#BKMK_lead_BulkOperations)
 - [CampaignActivity_BulkOperations](#BKMK_CampaignActivity_BulkOperations)
 - [List_BulkOperations](#BKMK_List_BulkOperations)
 
+
+### <a name="BKMK_lead_BulkOperations"></a> lead_BulkOperations
+
+**Added by**: Lead Management Solution
+
+See the [lead_BulkOperations](lead.md#BKMK_lead_BulkOperations) one-to-many relationship for the [lead](lead.md) table/entity.
 
 ### <a name="BKMK_account_BulkOperations"></a> account_BulkOperations
 
@@ -1835,12 +1841,6 @@ See the [account_BulkOperations](account.md#BKMK_account_BulkOperations) one-to-
 **Added by**: System Solution Solution
 
 See the [contact_BulkOperations](contact.md#BKMK_contact_BulkOperations) one-to-many relationship for the [contact](contact.md) table/entity.
-
-### <a name="BKMK_lead_BulkOperations"></a> lead_BulkOperations
-
-**Added by**: Lead Management Solution
-
-See the [lead_BulkOperations](lead.md#BKMK_lead_BulkOperations) one-to-many relationship for the [lead](lead.md) table/entity.
 
 ### <a name="BKMK_CampaignActivity_BulkOperations"></a> CampaignActivity_BulkOperations
 
