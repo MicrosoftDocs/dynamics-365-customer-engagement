@@ -1,15 +1,13 @@
 ---
-title: Configure the inbox | MicrosoftDocs
-description: Learn how to enable the inbox in Dynamics 365 Customer Service App profile manager and configure inbox settings in Customer Service admin center.
-ms.date: 01/24/2024
-ms.topic: article
+title: Configure the inbox
+description: Use this article to enable and configure inbox settings in Customer Service admin center.
+ms.date: 1/24/2024
 author: lalexms
 ms.author: laalexan
-search.audienceType: 
-  - admin
-  - enduser
-ms.custom: 
-  - dyn365-customerservice
+ms.reviewer:
+ms.collection:
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Configure the inbox
@@ -17,8 +15,6 @@ ms.custom:
 As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-agents) so that when your agents open Customer Service workspace or Omnichannel for Customer Service, they can select the inbox icon to show all the cases,  conversations, and records that are assigned to them. The inbox is designed to help agents efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
 
 You can configure the inbox settings for custom experiences only.
-
-You can also configure and enable the inbox in [app profile manager](/dynamics365/app-profile-manager/app-profile-manager?#configure-the-inbox-view).
 
 The following channels are supported in the inbox:
 
@@ -48,6 +44,10 @@ The following are things to note about live conversation settings in the inbox:
 - Live work item cards have a "live" visual indicator.
 - Live work item unread counts accrue to the unread count on the view.
 
+## Prerequisites
+
+Channel providers must have **All active channels** set to **On** to use and configure the chat setting in the inbox.
+
 ## Configure the inbox setting for agents
 
 You can configure the inbox in the Customer Service admin center by editing the agent experience profile to meet your preferred inbox settings.
@@ -59,9 +59,6 @@ You can configure the inbox in the Customer Service admin center by editing the 
 1. In **Agent experience profiles**, select **Manage**.
 
 1. Select the profile for which you want to configure the inbox.
-
-   > [!Note]
-   > Channel providers must have **All active channels** set to **On** to use and configure the chat setting in the inbox.
 
 1. In **Inbox**, select the **Settings** icon, and then turn on the **Inbox** toggle.
 
