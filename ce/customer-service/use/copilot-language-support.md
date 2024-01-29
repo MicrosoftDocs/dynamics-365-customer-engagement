@@ -31,7 +31,7 @@ The following scenarios can help you understand the language Copilot uses to gen
 | The UI language is set to Spanish. The knowledge base articles are in Spanish. The agent asks a question in Spanish. | Results displayed are in Spanish. |
 | The  UI language is set to Spanish, and the agent asks a question in French. | Results displayed are in Spanish. |
 |  The UI language is set to Spanish. The knowledge base articles are only English. The agent asks a question in Spanish.| No response is generated. |
-| The UI language is set to Japanese. The Bing Market language is set to Japanese and the location is set to ja-JP. The agents asks a question that Copilot responds to with content from public web pages. | Responses are returned from the restricted Bing search if results are available in the set market code of ja-JP. More information: [Market and language codes used by Bing Web Search API](/bing/search-apis/bing-web-search/reference/market-codes). |
+| The UI language is set to Japanese. The Bing Market language is set to Japanese and the location is set to ja-JP. The agents asks a question that Copilot responds to with content from public web pages. | Responses are returned if the restricted Bing search results are available in the set [market code](/bing/search-apis/bing-web-search/reference/market-codes) of ja-JP. |
 
 
 ### See also
