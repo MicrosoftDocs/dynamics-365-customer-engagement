@@ -1,7 +1,7 @@
 ---
 title: Manage presence in Omnichannel for Customer Service
 description: Learn how to view and update your presence status in Omnichannel for Customer Service.
-ms.date: 01/05/2023
+ms.date: 01/30/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -52,9 +52,9 @@ A presence status consists of two elements:
 - **Base presence**: The base presence status indicates an agent's status. The unified routing engine distributes work items to agents as per their base statuses. Among the out-of-the-box statuses, except inactive, all others are base statuses.
 - **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents.
 
-### Custom presence
+### Custom presence status
 
-Apart from the out-of-the-box presence statuses, Omnichannel for Customer Service also allows you to create custom presence statuses for your agents to use. The custom presence status is mapped to a base presence. 
+Apart from the out-of-the-box presence statuses, you can create custom presence statuses for your agents to use. The custom presence status is mapped to a base presence. 
 For example, if agents on your team want to attend a training, you can create a custom “Away–In Training” presence status. When you map a custom presence to a base presence, you must make sure that the configurations are logically viable. For example, if you map an available custom presence to offline base status, the application treats it as "offline" while the visual effect is "available".
 
 More information: [Configure custom presence](../administer/presence-custom-presence.md)
@@ -74,7 +74,7 @@ When the agent signs into Customer Service workspace, the system sets the agent�
 
 If you have set the default presence for the agent as “Offline” or “Away”, the agent signs in with the same presence. Otherwise, the system calculates the agent’s presence based on capacity utilization and sets it automatically.
 
-If you have set the default presence to a custom status, the base presence status for the custom presence is considered for calculating the presence.
+For custom presence status, the base status is considered for calculating the presence.
 
 
 ## How presence status is updated
@@ -97,12 +97,12 @@ The agent presence status is updated in the following two ways:
 
   - When capacity is fully used, then presence is set to **Do not disturb**.
   - When capacity is partially used, then your presence is set to **Busy**.
-  - When capacity is available, then your presence is set to **Available**.
+  - When capacity is unused, then your presence is set to **Available**.
   - If you already have 10 sessions open, which is the maximum multisession limit, and a new work item comes in, then your presence is set to **Do not disturb**.
   - When you miss a notification and the [missed notifications](../administer/manage-missed-notifications.md) setting is enabled, then the presence changes to **Inactive**.
   - When you reject a work notification and the [agent reject notification](../administer/enable-agent-reject-notifications.md) setting is enabled, then the presence changes to **Do not disturb**.
 
-    You can make sure that the "inactive" and "Do not disturb" statuses aren't included in the allowed presence setting of workstreams to avoid assignment of new work items to agents when they miss or reject notifications.
+    You can make sure that the "inactive" and "Do not disturb" statuses aren't included in the allowed presence setting of workstreams to avoid assignment of new work items to agents when they miss or reject notifications for work items that come through the live chat and voice channels.
 
   - If you are disconnected, the system captures your current presence status and immediately set your status as "Offline". If you sign back in within 2.5 minutes, the system restores your presence status. If you don't sign back in by 2.5 minutes, the system recalculates the presence that it needs to set for you. The following agent actions are considered for disconnection:
     - Closes the Customer Service workspace browser tab.
@@ -136,6 +136,12 @@ However, if the agent has manually set one of the following presence statuses, t
 ### Use presence in assignment rules
 
 The default assignment methods use the presence that's configured in the allowed presence setting of the workstreams to route to the most suitable agent for an incoming work item. You can also define conditions on presence in the assignment rules of custom assignment methods. More information: [Assignment methods in unified routing](../administer/assignment-methods.md)
+
+### View analytics for presence status
+
+See the [Agents report](realtime-agents-analytics.md) in Omnichannel real-time analytics dashboard that provides information on agent presence history.
+
+See the drill-down views in [Agent dashboard](agent-dashboard.md) in Omnichannel historical analytics dashboard to view the information on agent's presence and custom presence statuses.
 
 ### See also
 
