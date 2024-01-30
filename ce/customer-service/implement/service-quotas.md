@@ -3,9 +3,9 @@ title: Service quotas
 description: Get details about the service quotas for unified routing and omnichannel implementations in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer:
 ms.topic: conceptual
-ms.date: 10/18/2023
+ms.date: 30/01/2024
 ms.custom: bap-template
 ---
 
@@ -57,6 +57,11 @@ Service quotas are the limits on resources, configurations, and items that are p
 
 <sup>5</sup> If eligible agents aren't available to serve the default block size of top priority conversations, then the auto assignment process can appear to be paused. In such cases, we recommend that you use features like overflow management to manage high load or review agent availability, scheduling, and skill configuration to expand the eligible agent pool. If these options aren't adequate, contact Microsoft Support with your business scenario to check whether the block size can be increased.
 
+## Load test services in Omnichannel for Customer Service
+
+Microsoft regularly conducts scale and stress tests on the services that run Omnichannel for Customer Service. These tests are performed at multiples of the peak volume observed in customer production traffic. While the Omnichannel services can sustain high loads, we understand that you might want to verify your own load profile against the services. This can include customizations, integrations, local networks, or other bespoke solutions that you integrate. You can perform load tests according to the [Microsoft Cloud Penetration Testing Rules of Engagement](https://www.microsoft.com/msrc/pentest-rules-of-engagement).
+
+Load tests often generate synthetic traffic that targets specific endpoints or use cases and might approach or exceed quotas and limits for your environment. If you are concerned that your stress test might be flagged by the rules of engagement, we recommend that you work with Microsoft Support to have your tests reviewed before running them. For more information on Microsoft Cloud use rights, see [Licensing Use Rights](https://www.microsoft.com/licensing/docs/view/licensing-use-rights).
 
 ## Next steps
 
