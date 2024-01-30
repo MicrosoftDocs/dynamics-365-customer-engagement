@@ -62,7 +62,6 @@ Open the Copilot page in full-screen view when you want more space and focus to 
 2. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with.
 
 
-
 ## Chat with Copilot
 
 Use predefined prompts to get the most out of Copilot. The following table provides a quick reference to predefined prompts.
