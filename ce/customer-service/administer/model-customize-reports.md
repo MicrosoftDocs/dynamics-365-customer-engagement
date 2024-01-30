@@ -42,7 +42,7 @@ Enable data model customization for historical and real-time analytics reports i
 
 Before you begin, you must complete the following prerequisites:
 
-- Your organization must have the Power BI Professional or Power BI Premium license for all supervisors and administrators. If you're embedding the Power BI reports into apps, then you must have a Power BI Premium license. Otherwise, the embedded report will show a banner that prompts you to upgrade.
+- Your organization must have the Power BI Professional or Power BI Premium license for all supervisors and administrators. If you're embedding the Power BI reports into apps, then you must have a Power BI Premium license. Otherwise, the embedded report shows a banner that prompts you to upgrade.
 
 - Enable insights features in Customer Service:
 
