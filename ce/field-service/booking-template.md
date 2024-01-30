@@ -5,8 +5,8 @@ ms.date: 06/27/2023
 ms.reviewer: mhart 
 ms.topic: how-to
 ms.custom: bap-template
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Edit schedule board booking templates

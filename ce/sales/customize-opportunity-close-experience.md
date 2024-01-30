@@ -40,11 +40,12 @@ Customize the opportunity close form so that sellers can capture details about t
 The solution explorer page is where you can create and manage customizations.
 
 1. In the Sales Hub app, select the **Settings** icon, and then select **Advanced Settings**.
+
    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option in Sales Hub.":::
 
-2. On the navigation bar of the **Business Management** page, select **Settings** > **Customizations**.
+3. On the navigation bar of the **Business Management** page, select **Settings** > **Customizations**.
 
-3. On the **Customization** page, select **Customize the System**.
+4. On the **Customization** page, select **Customize the System**.
 
 ### Step 2: Create a custom field in the Opportunity Close entity
 
@@ -53,10 +54,9 @@ The Opportunity Close entity has certain out-of-the-box fields. If the informati
 > [!NOTE]
 > If your organization is using a custom app, ensure that the Opportunity Close entity is added to the custom app module. [Learn more about adding an entity to a custom app module](/power-apps/maker/model-driven-apps/add-edit-app-components)
 
-1. In the solution explorer, go to **Components** > **Entities** > **Opportunity** > **Opportunity Close** > **Fields**.
-   The out-of-the-box fields are displayed.
+1. In the solution explorer, go to **Components** > **Entities** > **Opportunity** > **Opportunity Close** > **Fields**. The out-of-the-box fields are displayed.
 
-1. On the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. [Learn more about how to create and edit columns)](/powerapps/maker/data-platform/create-edit-fields).
+1. On the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. [Learn more about how to create and edit columns](/powerapps/maker/data-platform/create-edit-fields).
 
 1. Save the changes.
 
@@ -76,12 +76,13 @@ The Opportunity Close entity has certain out-of-the-box fields. If the informati
 
 To pre-populate values in the Opportunity Close form from the corresponding opportunity, map the fields in the Opportunity entity to the corresponding fields in the Opportunity Close entity. For example, if you want to pre-populate the estimated revenue of the opportunity in the Opportunity Close form, you can do so by adding the estimated revenue field to the Opportunity Close form and then mapping the field to the corresponding field in the Opportunity entity. This mapping also ensures that the values are synchronized between the two entities.
 
-If you want to pre-populate or synchronize values from other entities, use a plugin or a [client-side script to pre-populate and synchronize the values](/power-apps/developer/model-driven-apps/clientapi/walkthrough-write-your-first-client-script).
+If you want to pre-populate or synchronize values from other entities, use a plug-in or a [client-side script to pre-populate and synchronize the values](/power-apps/developer/model-driven-apps/clientapi/walkthrough-write-your-first-client-script).
 
 1. In the solution explorer, go to **Components** > **Entities** > **Opportunity** > **1:N Relationships**.
-1. From the **Type** drop-down, select **Mappable**.
+1. From the **Type** drop-down list, select **Mappable**.
 1. Double-click the Schema name of the relationship **Opportunity_OpportunityClose**.
-    :::image type="content" source="media/mappable-opportunity-close.png" alt-text="Screenshot of the opportunity to opportunity close relationship mapping":::
+
+   :::image type="content" source="media/mappable-opportunity-close.png" alt-text="Screenshot of the Opportunity to Opportunity Close relationship mapping":::
 
 1. In the **Relationship** window, Select **Mappings**.
 1. Select **New** to create field mapping between the Opportunity and Opportunity Close fields.
