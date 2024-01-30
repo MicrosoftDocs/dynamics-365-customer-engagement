@@ -38,7 +38,7 @@ Conflicts are resolved based on what the administrator selects for the **Set con
 
 [Learn more about working offline](/power-apps/mobile/work-offline-mode-classic).
 
-Administrators can view past sync errors by going to **Settings** > **Sync Error**.<!-- EDITOR'S NOTE: Please confirm, is it "Sync Error" or "Sync Errors"? -->
+Administrators can view past sync errors by going to **Settings** > **Sync Errors**.
 
 ## Sync notifications
 
