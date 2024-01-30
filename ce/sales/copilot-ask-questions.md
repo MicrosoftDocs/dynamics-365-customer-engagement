@@ -74,4 +74,4 @@ Keep in mind that these fields are configured at the organization level. Make su
 
 - [Copilot overview](copilot-overview.md)  
 - [Enable and set up Copilot](enable-setup-copilot.md)  
-- [Chat with Copilot in natural language (preview)](use-sales-copilot.md#chat-with-copilot-in-natural-language)
+- [Chat with Copilot in natural language (preview)](use-sales-copilot.md#chat-with-copilot-in-natural-language-preview)
