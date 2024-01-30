@@ -1,11 +1,13 @@
 ---
 title: Customize live chat widgets using data tags
 description: Learn to customize chat widgets by using data tags in the widget script in Customer Service admin center.
-ms.date: 11/29/2023
+ms.date: 01/29/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
+ms.reviewer:
 ms.custom: bap-template
+ms.collection:
 ---
 # Customize live chat widgets using data tags
 
@@ -26,11 +28,28 @@ You can customize live chat widgets by using data tags in the widget script. You
 |`data-suggested-action-layout`| Use this data tag to display the suggested actions vertically. By default, the suggested actions are displayed horizontally. To display the suggested actions vertically, set the value of this data tag as `stacked`. | `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-suggested-action-layout="stacked"></script>`|
 |`data-enable-lcw-autofill`| Use this data tag to enable the chat widget to autofill the browser window in embedded mode. | `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-enable-lcw-autofill="true"></script>`|
 |`data-custom-close-button-text`| Use this data tag to customize the close button of the chat widget. The input is a text string that appears in place of the default ‘X’ close button. |  `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-custom-close-button-text="End Chat"></script>`|
-|`data-enable-sso-magic-code` |  Use this data tag to automatically send a magic code to the user after sign-in, either in the chat or silently through the client. This function is similar to multifactor authentication and helps prevent phishing attacks. You can set this tag to `true` (default value) or `false`. If set to `false`, the code is automatically sent through the client silently, after sign-in. If set to `true`, a magic code is displayed to the user to manually enter into the chat, after sign-in.| In this example, the magic code is automatically passed through the client after sign-in, without needing user input.  <br> `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-enable-sso-magic-code="false"></script>`|
-||||
+|`data-enable-sso-magic-code` |  Use this data tag to automatically send a magic code to the user after sign-in, either in the chat or silently through the client. This function is similar to multifactor authentication and helps prevent phishing attacks. You can set this tag to `true` (default value) or `false`. If set to `false`, the code is automatically sent through the client silently, after sign-in. If set to `true`, a magic code is displayed to the user to manually enter into the chat, after sign-in. See the **Additional settings for browsers** section in this article for more information. | In this example, the magic code is automatically passed through the client after sign-in, without needing user input.  <br> `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-enable-sso-magic-code="false"></script>`|
 
+### Additional settings for browsers
+
+Perform the browser-specific steps outlined here to automatically pass the magic code.
+
+**Chromium-based browsers**
+
+1. In Microsoft Edge, enter "edge://flags/#third-party-storage-partitioning" in the address bar. In Google Chrome, enter "chrome://flags/#third-party-storage-partitioning" in the address bar.
+1. On the page that appears, set the **Third-party Storage Partitioning** flag to **Disabled**.
+
+**Firefox**
+
+1. In Firefox, enter "about:preferences#privacy" in the address bar.
+1. On the page that appears, select **Custom**, and for **Cookies**, select **Cross-site tracking cookies**.
+
+**Safari**
+
+On the settings dialog, select **Feature Flags**, and clear the selection for **BroadcastChannel Origin Partitioning**.
 
 ## Next steps
+
 [Develop a custom live chat widget](develop-live-chat-widget.md)  
 
 ### See also
