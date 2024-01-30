@@ -29,7 +29,7 @@ The key capabilities of model customization include the ability to:
 
 - Customize the report site map and enable users to access the reports natively from Customer Service workspace.
 
-- Auto refresh reports as soon as source data is updated.
+- Auto-refresh reports as soon as source data is updated.
 
 Enable data model customization for historical and real-time analytics reports in Customer Service admin center, and then do the following tasks:
 
@@ -42,7 +42,7 @@ Enable data model customization for historical and real-time analytics reports i
 
 Before you begin, you must complete the following prerequisites:
 
-- Your organization must have the Power BI Professional or Power BI Premium license for all supervisors and administrators. If you are embedding the Power BI reports into apps, then you must have a Power BI Premium license. Otherwise, the embedded report will show a banner prompting you to upgrade.
+- Your organization must have the Power BI Professional or Power BI Premium license for all supervisors and administrators. If you're embedding the Power BI reports into apps, then you must have a Power BI Premium license. Otherwise, the embedded report will show a banner that prompts you to upgrade.
 
 - Enable insights features in Customer Service:
 
@@ -158,9 +158,9 @@ The customized reports site map in the Customer service workspace is shared betw
 > [!NOTE]
 > Automatic page refresh is available only for real-time reports.
 
-You can enable automatic page refresh for your reports at fixed intervals, so that you always see the latest data. More information: [Authoring reports with automatic page refresh in Power BI Desktop](/power-bi/create-reports/desktop-automatic-page-refresh#authoring-reports-with-automatic-page-refresh-in-power-bi-desktop)
+You can enable automatic page refresh for your reports at fixed intervals so that you always see the latest data. More information: [Authoring reports with automatic page refresh in Power BI Desktop](/power-bi/create-reports/desktop-automatic-page-refresh#authoring-reports-with-automatic-page-refresh-in-power-bi-desktop)
 
-As an administrator with Premium capacity, you must first enable [automatic page refresh](/power-bi/enterprise/service-admin-premium-workloads#automatic-page-refresh) from the [Power BI Admin portal](https://msit.powerbi.com/). You need to use the [fixed interval](/power-bi/create-reports/desktop-automatic-page-refresh#fixed-interval) refresh type, with either five or ten sec as the interval.
+As an administrator with Premium capacity, you must first enable [automatic page refresh](/power-bi/enterprise/service-admin-premium-workloads#automatic-page-refresh) from the [Power BI Admin portal](https://msit.powerbi.com/). You need to use the [fixed interval](/power-bi/create-reports/desktop-automatic-page-refresh#fixed-interval) refresh type with either five or ten sec as the interval.
 
 To enable automatic page refresh for specific reports:
 
