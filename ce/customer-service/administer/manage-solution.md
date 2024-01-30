@@ -12,13 +12,15 @@ ms.custom: bap-template
 
 # Manage solutions by adding SLAs
 
-After you have created solutions, you can add SLAs and import, export, or upgrade the solutions to suit your organizational requirements.
+After you have created solutions, you can add SLAs and import, export, or upgrade a solutions to suit your organizational requirements.
 
 ## Prerequisites
 
 You must have SLAs with associated SLA KPI Instances and SLA Items.
 
 ## Manage solutions by adding SLAs in Unified Interface
+
+This section provides a step-by-step guide on how to create, export, import, and upgrade a solution in Unified Interface.
 
 ### Create
 
@@ -41,7 +43,7 @@ In Unified Interface, you can create solutions and add SLAs to the solution.
 
 ### Export the solution
 
-After you have published the customizations that you have made while [creating the solution](#create-solutions-and-add-slas) on step 10, you can export the solution.
+After you have published the customizations that you have made while [creating the solution](#create) on step 10, you can export the solution.
 
 1. On the **Export System Settings (Advanced)** dialog, select the required features to add, and then select **Next**.
 1. On the **Package Type**, select the **Unmanaged** package type, and then select **Export**.
@@ -73,6 +75,8 @@ The base solution from the target org version increases and new components and S
 
 ## Create and manage solutions by adding SLAs in Power Apps
 
+This section provides a step-by-step guide on how to create, export, import, and upgrade a solution in Power Apps.
+
 ### Create
 
 1. Sign in to make.powerapps.com and select your environment.
@@ -91,12 +95,11 @@ The base solution from the target org version increases and new components and S
 
 ### Export
 
-1.	Go back to the Solution page and select the Solution and click on Export Solution.
-2.	On the Publish all changes dialog box, select Publish and then select Next. 
-3.	On the Export this solution dialog, the Current version automatically appears.
-4.	Select the Unmanaged solution and then select Export.
-5.	After export completion, select Download to download the solution zip.
-
+1. Go back to the Solution page and select the Solution and click on Export Solution.
+1. On the Publish all changes dialog box, select Publish and then select Next.
+1. On the Export this solution dialog, the Current version automatically appears.
+1. Select the Unmanaged solution and then select Export.
+1. After export completion, select Download to download the solution zip.
 
 ### Import
 1.	Open target org in Power Apps, go to Solutions and click on Import Solution.
