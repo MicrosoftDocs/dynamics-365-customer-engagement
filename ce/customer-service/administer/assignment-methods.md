@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing.
-ms.date: 01/16/2024
+ms.date: 01/31/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -33,10 +33,10 @@ When eligible agents aren't found for the work items, the assignment cycle keeps
 
 For digital messaging and voice, the default block size is 100 work items of top priority.
 
-For records channel, each assignment cycle prioritizes up to 2000 work items and processes them in a block size of 500.
+For records channel, each assignment cycle prioritizes up to 20,000 work items and processes them in a block size of 500.
 
 > [!NOTE]
-> Queue prioritization isn't available in unified routing.
+> Cross-queue prioritization isn't available in unified routing.
 
 For more information, see [best practices to manage queues](unified-routing-best-practices.md#manage-queues).
 
