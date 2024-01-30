@@ -44,13 +44,21 @@ Your admin has [turned on and set up Copilot](enable-setup-copilot.md).
 
 You can chat with Copilot in natural language or use predefined prompts to get the most out of Copilot.
 
-### Chat with Copilot in natural language
+### Chat with Copilot in natural language (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 When you chat with Copilot in natural language, you can use the following types of requests:
 
-- Data requests: Simple data requests such as, What's Contoso's annual revenue, who is the owner of Alpine Ski House, or show me all my opportunities that are closing this month. These requests are answered with the data from Dataverse. These questions are typically based on the data that you see in your app.
+- Data-based questions: Straightforward data requests such as, What's Contoso's annual revenue, who is the owner of Alpine Ski House, or show me all my opportunities that are closing this month. These requests are answered with the data from Dataverse. These questions are typically based on the data that you see in your app.
 
-- Contextual insights:  
+- Term-based questions: Questions that are based on terms that are specific to Sales organizations. Questions around the following topics are supported:
+    - Conversion rates. For example, What is my lead conversion rate for the last quarter?
+    - Deal cycle. For example, What is the average deal cycle for my opportunities?
+    - Pipeline with filters. For example, Show my pipeline with deals closing in next 30 days
+    - Deal sizes and values. For example, Display open deals with deal size greater than 10000
 
 ### Chat with Copilot using predefined prompts
 
