@@ -156,7 +156,7 @@ The customized reports site map in the Customer service workspace is shared betw
 ## Enable automatic page refresh for reports
 
 > [!NOTE]
-> Automatic page refresh is only available for real-time reports.
+> Automatic page refresh is available only for real-time reports.
 
 You can enable automatic page refresh for your reports at fixed intervals, so that you always see the latest data. More information: [Authoring reports with automatic page refresh in Power BI Desktop](/power-bi/create-reports/desktop-automatic-page-refresh#authoring-reports-with-automatic-page-refresh-in-power-bi-desktop)
 
