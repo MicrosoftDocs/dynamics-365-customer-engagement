@@ -1,12 +1,13 @@
 ---
-title: Add users to agent experience profiles | MicrosoftDocs 
-description: Learn about adding a default profile and mapping agent profiles to security roles
+title: Add users to agent experience profiles 
+description: Learn about adding a default profile and mapping agent profiles to security roles.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer:
 ms.topic: how-to
-ms.date: 07/13/2023 
-ms.custom: bap-template 
+ms.date: 01/31/2024 
+ms.custom: bap-template
+ms.collection:
 ---
 
 # Add users to agent experience profiles
@@ -38,9 +39,9 @@ You can't set multiple profiles as the default profile. If you must change the d
 
 ## Map security roles to agent experience profiles
 
-When you have multiple user groups with different roles and privileges, you can assign agent experience profiles to a security role to provide customized app experiences for each group. The application assigns the agent profile to all the users with the specified security role.
+When you have multiple user groups with different roles and privileges, you can assign agent experience profiles to a security role to provide customized app experiences for each group. The application assigns the agent profile to all the users with the specified security role. However, assignment of agent profiles based on team membership isn't allowed.
 
-If users have multiple security roles, the applications links the profile with the higher rank to the user. 
+If users have multiple security roles, the application links the profile with the higher rank to the user. 
 
 For example, your organization has both Customer Service Representative and Omnichannel agent roles to which users are assigned. The table summarizes the mapping of agent experience profiles to the corresponding roles.
 
