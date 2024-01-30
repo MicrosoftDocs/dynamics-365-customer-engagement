@@ -264,7 +264,7 @@ sections:
 
       - question: What are the filter capabilities available in focused view?
         answer: |
-          All filter options are available in focused view including the advanced filter option where you can create conditions to filter. More information: [Filter records in focused view](focused-view.md#understand-the-focused-view:~:text=list%20actions%3A-,Search%2C%20filter%2C%20and%20sort,-%3A%20These%20options%20are)
+          All filter options are available in focused view including the advanced filter option where you can create conditions to filter. More information: [Filter records in focused view](focused-view.md#understand-the-focused-view)
 
       - question: How can I disable focused view in my organization?
         answer: |
@@ -280,7 +280,7 @@ sections:
 
       - question: How can I see other views in an entity and change from the focused view?
         answer: |
-          If there are multiple views available for an entity, you can find them under the **Show As** option. However, if there's only one view available, you'll see the **Read Only Grid** option. More information: [Switching a view](focused-view.md#understand-the-focused-view:~:text=command%20bar%3A-,Switching%20a%20View,-%3A%20This%20action%20allows) 
+          If there are multiple views available for an entity, you can find them under the **Show As** option. However, if there's only one view available, you'll see the **Read Only Grid** option. More information: [Switching a view](focused-view.md#understand-the-focused-view) 
 
       - question: Why don't I see focused view even if it's default for an entity?
         answer: |
@@ -288,7 +288,7 @@ sections:
 
       - question: Why did the customization on ribbon command bar change for me?
         answer: |
-          The command bar is added to the focused view to perform bulk actions on the records. More information: [Command bar](focused-view.md#open-the-focused-view:~:text=the%20required%20view.-,Command%20bar,-%3A%20This%20feature%20contains)
+          The command bar is added to the focused view to perform bulk actions on the records. More information: [Command bar](focused-view.md#open-the-focused-view)
 
       - question: How can I change the **Show As** option position on the command bar or remove it from the ribbon bar?
         answer: |
