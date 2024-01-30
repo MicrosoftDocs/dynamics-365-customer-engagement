@@ -50,6 +50,9 @@ You can chat with Copilot in natural language or use predefined prompts to get t
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
+> [!NOTE]
+> This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
+
 When you chat with Copilot in natural language, you can use the following types of requests:
 
 - **Data-based questions:** Straightforward data requests such as, 
