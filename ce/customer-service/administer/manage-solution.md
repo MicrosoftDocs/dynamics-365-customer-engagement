@@ -1,16 +1,21 @@
 ---
-title: Manage SLAs for solutions
-description: 
+title: Add SLAs to manage solutions
+description: Manage solutions in Unified Interface and Power Apps by adding SLAs. Learn how to create, export, import, and upgrade solutions with detailed instructions.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi 
-ms.topic: how-to 
-ms.collection: 
+ms.reviewer: shujoshi
+ms.topic: how-to
+ms.collection:
 ms.date: 01/30/2024
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:01/30/2024
+  - ai-gen-title
 ---
 
-# Manage solutions by adding SLAs
+# Add SLAs to manage solutions
 
 After you have created solutions, you can add SLAs and import, export, or upgrade a solutions to suit your organizational requirements.
 
@@ -95,33 +100,36 @@ This section provides a step-by-step guide on how to create, export, import, and
 
 ### Export
 
-1. Go back to the Solution page and select the Solution and click on Export Solution.
-1. On the Publish all changes dialog box, select Publish and then select Next.
-1. On the Export this solution dialog, the Current version automatically appears.
-1. Select the Unmanaged solution and then select Export.
-1. After export completion, select Download to download the solution zip.
+1. Go back to the **Solution** page and select the **solution**, and then select **Export Solution**.
+1. On the **Publish all changes** dialog box, select **Publish** and then select **Next**.
+1. On the **Export this solution** dialog, the current version automatically appears.
+1. Select the **Unmanaged** solution and then select **Export**.
+1. After export completion, select **Download** to download the solution zip.
 
 ### Import
-1.	Open target org in Power Apps, go to Solutions and click on Import Solution.
-2.	Click on Browse and select locally saved solution zip file. 
-3.	Click on Next > and Import.
-4.	After export completion, refresh the org to view the imported solution in the list.
-Upgrade
-1.	Go to Source org in Power Apps and add one more SLA record to Solution zip and export it. 
-2.	Open Solution and click on Add existing > Rules > SLA and select SLA record and click on Add.
-3.	Select Publish all customizations.
-4.	From the Solutions page, Select the Solution and click on Export Solution.
-5.	Select Next and you will see the Current version which will be greater than the previous version.
-6.	Select Unmanaged and then select Next.
-7.	Select Export and Download the latest version of solution zip. 
-8.	Now go to Target org and click on Import solution.
-9.	Select the latest version of solution zip and click on Import.
-10.	After import completion, a new message will appear.
 
-> [!NOTE]
-> If you have calendars added to the SLA. Open org in classic view and go to SLA settings to Enable calendar export and import to Yes. You need to enable it to import or export the calendar with SLA’s for any orgs. 
+1. Open the target organization in Power Apps.
+1. Go to **Solutions** > **Import Solution**.
+1. Select **Browse** and select the locally saved solution zip file.
+1. Select **Next** and then on **Import**.
 
+After the import is complete, refresh the organization to view the imported solution in the list.
+
+#### Upgrade
+
+1. Go to the source organization in Power Apps and add one more SLA record to the solution zip, then export it.
+1. Open the solution, go to **Add existing** > **Rules** > **SLA**, select the SLA record, and then select **Add**.
+1. Select **Publish all customizations**.
+1. From the Solutions page, select the solution and select **Export Solution**.
+1. Select **Next** and you'll see the current version, which will be greater than the previous version.
+1. Select **Unmanaged** and then select **Next**.
+1. Select **Export** and download the latest version of the solution zip.
+1. Now go to the target organization and select **Import solution**.
+1. Select the latest version of the solution zip and select **Import**.
+After the import is complete, a new confirmation message appears.
 
 ## Next steps
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+If you have calendars added to the SLA, open the org in classic view and go to **SLA settings** to **Enable calendar export and import** to **Yes**.
+
+You need to enable it to import or export the calendar with SLA’s for any orgs.
