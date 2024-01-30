@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release scheudle and version history for Dynamics 365 Field Service.
-ms.date: 11/14/2023
+ms.date: 01/18/2024
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
@@ -18,18 +18,36 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.105.46](/dynamics365/field-service/version-history#8810546)  | TBD |01/12/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[8.8.105.46](/dynamics365/field-service/version-history#8810546)  | TBD |01/19/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |01/12/2024 |
-| | *USG* |[8.8.105.46](/dynamics365/field-service/version-history#8810546)  | TBD |01/19/2024 |
-|**Station 4** |*Europe* |  [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |01/19/2024 |
-|**Station 5** | *North America*| [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |01/26/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |01/26/2024 |
-| | *Dedicated Scale Groups* | [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |02/02/2024 |
+|**Station 1** |  *First Release*| [8.8.106.22](/dynamics365/field-service/version-history#8810622)  | TBD |01/26/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[8.8.106.22](/dynamics365/field-service/version-history#8810622)  | TBD |02/02/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.105.55](/dynamics365/field-service/version-history#8810555)  | [8.8.106.22](/dynamics365/field-service/version-history#8810622) |01/26/2024 |
+| | *USG* |[8.8.106.22](/dynamics365/field-service/version-history#8810622)  | TBD |02/02/2024 |
+|**Station 4** |*Europe* |  [8.8.105.55](/dynamics365/field-service/version-history#8810555)  | [8.8.106.22](/dynamics365/field-service/version-history#8810622) |02/02/2024 |
+|**Station 5** | *North America*| [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.55](/dynamics365/field-service/version-history#8810555) |01/26/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.105.55](/dynamics365/field-service/version-history#8810555)  | [8.8.106.22](/dynamics365/field-service/version-history#8810622) |02/09/2024 |
+| | *Dedicated Scale Groups* | [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.55](/dynamics365/field-service/version-history#8810555)  |02/02/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.106.22
+(Includes Universal Resource Scheduling version [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118) and Resource Scheduling controls version 1.2.60.240112).
+
+- Fixed an issue that caused bookings to lose their relationship with a work order during bulk imports.
+- Fixed cropping of images on the full screen "what's new" announcement.
+- Get started dialog stops showing on other browsers if the user selects the “Don’t show next time” checkbox.
+- Corrected the Arabic header positioning on Get Started page.
+- Fixed the community link on the Get Started page.
+- Field Service mobile: Improved accessibility of the pen input (signature) control to support text-based signatures.
+- Field Service mobile: Fixed a bug on the pen input (signature) control which impaired signatures on iOS devices.
+
+
+## 8.8.105.55
+This release is a hotfix on Field Service version [8.8.105.46](/dynamics365/field-service/version-history#8810546).
+
+- Teaching bubbles will now render correctly when the "new look" is toggled off.
+- Field Service mobile: Fixed a bug causing an increased frequency of iOS “Webview Reset” errors in Field Service release [8.8.104.44](/dynamics365/field-service/version-history#8810444).
 
 ## 8.8.105.46
 (Includes Universal Resource Scheduling version [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) and Resource Scheduling controls version 1.2.59.233402).
