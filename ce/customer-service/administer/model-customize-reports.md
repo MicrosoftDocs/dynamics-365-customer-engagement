@@ -29,7 +29,7 @@ The key capabilities of model customization include the ability to:
 
 - Customize the report site map and enable users to access the reports natively from Customer Service workspace.
 
-- Auto-refresh reports as soon as source data is updated.
+- Auto refresh reports as soon as source data is updated.
 
 Enable data model customization for historical and real-time analytics reports in Customer Service admin center, and then do the following tasks:
 
