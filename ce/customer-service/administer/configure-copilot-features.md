@@ -109,11 +109,7 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvReadmsdyn_copilotsummarizationsetting 
 - prvReadmsdyn_conversationinsight
 - prvWritemsdyn_copilottranscriptdata 
-- prvAppendTomsdyn_copilottranscriptdata 
-- prvReadmsdyn_copilottranscript 
-- prvCreatemsdyn_copilottranscript 
-- prvWritemsdyn_copilottranscript 
-- prvAppendTomsdyn_copilottranscript 
+- prvAppendTomsdyn_copilottranscriptdata  
 - prvReadmsdyn_copilottranscriptdata 
 - prvCreatemsdyn_copilottranscriptdata 
 - prvWritemsdyn_copilottranscriptdata 
