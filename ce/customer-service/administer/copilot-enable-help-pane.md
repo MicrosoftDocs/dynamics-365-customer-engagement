@@ -5,8 +5,8 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
-ms.collection: bap-ai-copilot
-ms.date: 12/18/2023
+ms.collection: 
+ms.date: 01/29/2024
 ms.custom: bap-template 
 ---
 
@@ -24,7 +24,6 @@ The Copilot help pane allows agents to use Copilot features such as respond to q
 - Your knowledge article parameters are as follows:
    - Updated with the latest version
    - The state is set to Published
-   - The locale is set to English
 - If you aren't in the North America region and you want to use the web search powered by Bing feature, you must enable data movement across regions and Bing search in Power Platform admin center. See [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot).
 
    :::image type="content" source="../media/ppac-gen-ai-features.png" alt-text="Power Platform Admin center bing chat.":::
