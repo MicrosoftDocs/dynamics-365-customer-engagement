@@ -1,11 +1,13 @@
 ---
-title: "Create and manage workstreams | MicrosoftDocs"
-description: "Use this article to understand how to create and manage workstreams in Customer Service and Omnichannel for Customer Service apps."
-ms.date: 05/05/2023
+title: Create and manage workstreams
+description: Learn about how to create and manage workstreams in Customer Service and Omnichannel for Customer Service.
+ms.date: 01/31/2024
 author: neeranelli
 ms.author: nenellim
-ms.topic: article
-ms.collection: get-started
+ms.reviewer:
+ms.topic: how-to
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Create and manage workstreams
@@ -27,7 +29,7 @@ The workstream can be one of the following types:
 > [!IMPORTANT]
 >
 > - Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md)
-> - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
+> - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center (deprecated) app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
 
 ## Create a workstream
 
@@ -39,7 +41,9 @@ You can create workstreams for unified routing in the Customer Service admin cen
 
     - In the site map, select **Workstreams** in **Customer support**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      - In the site map, select **Workstreams** in **General settings**.
     
@@ -116,7 +120,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
   > [!NOTE]
   > If you've selected **End of Day mode** in capacity profile, agent capacity won't be reset when the duration selected in the **Block capacity for wrap up** field is over.
 
-- **Allowed presences**: Select the presences in which agents will be assigned.
+- **Allowed presences**: Select the presence statuses in which agents can be assigned work. Don't select the **Inactive** and **Do not disturb** statuses if you don't want to assign new work items to agents when they [miss](manage-missed-notifications.md) or [reject](enable-agent-reject-notifications.md) notifications.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
 - **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned agent. More information: [Agent affinity](#agent-affinity)
 
@@ -132,14 +136,14 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 ### Add a bot to a workstream
 
-To add a bot to a workstream, the bot must be configured and available for selection.
+To add a bot to a workstream, you must configure the bot and make it available for selection.
 
 For Copilot Studio bots, see [Connect omnichannel to your Copilot Studio bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot).
 For Azure bots, see [Integrate Azure bots with Omnichannel for Customer Service](../configure-bot.md#integrate-azure-bots-with-omnichannel-for-customer-service).
 
 **To add the bot to the workstream**
 
-1. In Customer Service admin center or Omnichannel admin center, go to **Workstreams**, and select a workstream.
+1. In Customer Service admin center or Omnichannel admin center (deprecated), go to **Workstreams**, and select a workstream.
 2. For the selected workstream and channel, in the **Bot** area, select **Add bot**.
 3. In the **Add a bot** dialog, select the required bot from the **Name** dropdown list, and then select **Save and close**.
 

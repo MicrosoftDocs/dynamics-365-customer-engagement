@@ -74,12 +74,12 @@ The following table lists the regions in which Sales Premium features are availa
 | Premium forecasting | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes |
 | Predictive lead scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes|
-| Who knows whom | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No |
+| Relationship analytics (Basic) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Relationship analytics (Enhanced) | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No |
+| Who knows whom (Basic) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Who knows whom (Enhanced) | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No |
 
-> [!NOTE]
-> [Basic who knows whom](who-knows-whom.md#basic-who-knows-whom-information) information is available in all regions. However, [enhanced who knows whom](who-knows-whom.md#enhanced-who-knows-whom-information) information is available only in the regions listed in the table. 
 
 ### Which version of Exchange is supported for features in Sales Premium?
 
@@ -96,7 +96,7 @@ The following table shows the version of Exchange that's supported for Sales Pre
 >- The assistant and relationship analytics can work without Exchange. However, the information displayed in relationship analytics won't contain Exchange data and the assistant won't display cards that are based on Exchange data. 
 >- For relationship analytics, support for Exchange Online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
 >- For who knows whom, the organization's Office 365 data location must be in one of the following locations and not in your region specific data canter location:
->   - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
+>   - Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands).
 >   - Global Geography 2 – Asia Pacific	(Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
 >   - Global Geography 3 – Americas (Brazil, Chile, United States).<br>
 > To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).

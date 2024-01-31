@@ -1,10 +1,13 @@
 ---
-title: "Enable missed notification in Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about managing notifications that are missed in Omnichannel Administration app"
-ms.date: 04/04/2022
-ms.topic: article
+title: Enable missed notifications
+description: Learn about managing notifications that are missed by agents.
+ms.date: 01/31/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer:
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Enable missed notifications
@@ -26,7 +29,9 @@ With the missed notifications feature, you can choose to automatically set agent
      
      - In the site map, select **Workspaces** in **Agent experience**, and then select **Notification templates**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
 
      - In the site map, select **Notification templates** in **Agent Experience**.
 

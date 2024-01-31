@@ -78,10 +78,13 @@ You can add messages or questions to a Copilot Studio IVR bot to create a post-c
 
 To route the customer to the Power Voice Agent survey bot automatically after the agent hangs up, perform the following steps:
 
-1. In Customer Service admin center or Omnichannel admin center, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
-2. Under **Language**, scroll to the bottom of the dialog, and then toggle **Post-call survey** to **On**.
-3. From the dropdown menu, select the survey bot.
-4. Select **Confirm**.
+1. In the Customer Service admin center or Omnichannel admin center (deprecated) app, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
+1. Under **Language**, scroll to the bottom of the dialog, and then toggle **Post-call survey** to **On**.
+1. From the dropdown menu, select the survey bot.
+1. Select **Confirm**.
 
 ## Set up human agent initiated survey
 

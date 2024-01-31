@@ -43,7 +43,7 @@
       - name: Trial FAQ
         href: sales-trial-faq.md
   - name: Buy
-    href: buy-dynamics-365-sales.md 
+    href: buy-dynamics-365-sales.md
   - name: Install and configure
     items:
     - name: Install and use the Sales apps
@@ -74,7 +74,7 @@
     - name: Configure your sales organization
       items:
         - name: Set up sales basics
-          href: sales-basics-setup.md 
+          href: sales-basics-setup.md
         - name: System Settings - Sales
           href: system-settings-sales-tab.md
         - name: Create business units
@@ -161,12 +161,14 @@
               href: customize-zoominfo-app.md
         - name: Set focused view as the default view
           href: set-focused-view-as-default.md
-    - name: Configure Copilot
+    - name: Set up Copilot
       items:
       - name: Copilot overview
         href: copilot-overview.md
-      - name: Enable and configure Copilot in Dynamics 365 Sales
+      - name: Turn on and set up Copilot in Dynamics 365 Sales
         href: enable-setup-copilot.md
+      - name: Turn on Copilot preview features
+        href: copilot-preview-features.md
       - name: Copilot data movement across geographies
         href: sales-copilot-data-movement.md
       - name: Copilot in Dynamics 365 Sales FAQ
@@ -516,7 +518,7 @@
             - name: View and assign unassigned records
               href: wa-manage-unassigned-records.md
             - name: Examples for assignment rules and segments
-              href: wa-examples.md  
+              href: wa-examples.md
         - name: Get seller insights to improve seller effectiveness
           href: seller-insights-intro.md
           items:
@@ -534,7 +536,7 @@
             - name: Configure SMS channel
               href: configure-sms-provider.md
             - name: Add custom SMS channel
-              href: add-custom-sms-provider-intro.md  
+              href: add-custom-sms-provider-intro.md
               items:
                 - name: Define an extended configuration entity for a channel instance
                   href: custom-define-sms-instance.md
@@ -601,12 +603,18 @@
           items:
             - name: Set up conversation intelligence in Sales Hub app
               href: fre-setup-ci-sales-app.md
+            - name: Set up own storage for call recordings
+              href: create-azure-repo.md
             - name: Configure sales team level settings
               href: configure-sales-team-level-settings.md
             - name: Configure and view your team page in sales app
               href: configure-view-your-team-page-sales-app.md
             - name: Configure conversation content
               href: configure-keywords-competitors-sales-app.md
+            - name: Prepare for the migration to Dataverse
+              href: prepare-for-ci-migration-to-dataverse.md
+            - name: Manage conversation intelligence data in Dataverse
+              href: conversation-intelligence-data-storage.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
         - name: Configure in conversation intelligence app
@@ -621,12 +629,10 @@
               href: connect-dynamics365-sales-environment.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy.md
-        - name: Integrate third-party dialers (preview) 
+        - name: Integrate third-party dialers (preview)
           href: ci-third-party-sp-integration.md
         - name: Integrate with Twilio Flex (preview)
           href: Integrate-TwilioFlex-with-CI.md
-        - name: Create a call recording repository in Azure
-          href: create-azure-repo.md
         - name: Languages supported
           href: language-support-conversation-intelligence.md
     - name: Dashboards and reports
@@ -705,7 +711,15 @@
       - name: Copilot overview
         href: copilot-overview.md
       - name: Use Copilot in Dynamics 365
-        href: use-sales-copilot.md
+        items:
+          - name: Open Copilot
+            href: use-sales-copilot.md
+          - name: Get information
+            href: copilot-get-information.md
+          - name: Stay ahead
+            href: copilot-stay-ahead.md
+          - name: Ask questions
+            href: copilot-ask-questions.md
       - name: Compose and send email messages using Copilot
         href: compose-send-email-copilot.md
       - name: View and copy email summary
@@ -838,7 +852,7 @@
           items:
             - name: Add products to an opportunity
               items:
-              - name: Add product using Quick Create form 
+              - name: Add product using Quick Create form
                 href: add-products-opportunity.md
               - name: Add multiple products to an opportunity by using the enhanced experience
                 href: add-products-enhanced-experience.md
@@ -902,8 +916,10 @@
           href: view-and-manage-underlying-opportunities.md
         - name: Adjust values in a forecast
           href: adjust-values-in-forecast.md
-        - name: Maintain up to date forecast data
+        - name: Recalculate forecasts manually
           href: keep-forecast-data-up-to-date.md
+        - name: Forecast recalculation methods
+          href: forecast-recalculation-methods.md
         - name: Analyze revenue outcome using predictive forecasting
           href: analyze-revenue-outcome-using-predictive-forecasting.md
         - name: Understand forecast projection through trend chart
@@ -946,7 +962,7 @@
             - name: Manage text message communications
               href: manage-text-message-communications.md
         - name: Get seller insights to improve seller effectiveness
-          href: seller-insights-intro.md        
+          href: seller-insights-intro.md
           items:
             - name: View and work on seller insights
               href: view-understand-insights.md
@@ -974,7 +990,7 @@
             - name: Use the assistant to guide customer communications
               href: use-assistant-guide-customer-communications.md
             - name: Turn on or off insight cards
-              href: turn-on-off-insight-cards.md  
+              href: turn-on-off-insight-cards.md
             - name: Default insight cards
               href: action-cards-reference.md
     - name: Relationship intelligence
@@ -1212,6 +1228,36 @@
           href: developer/entities/metric.md
         - name: msdyn_callablecontext
           href: developer/entities/msdyn_callablecontext.md
+        - name: About Table/Entity Reference
+          href: developer/about-entity-reference.md
+        - name: msdyn_ConversationActionItem
+          href: developer/entities/msdyn_conversationactionitem.md
+        - name: msdyn_ConversationAggregatedInsights
+          href: developer/entities/msdyn_conversationaggregatedinsights.md
+        - name: msdyn_ConversationParticipantInsights
+          href: developer/entities/msdyn_conversationparticipantinsights.md
+        - name: msdyn_ConversationParticipantSentiment
+          href: developer/entities/msdyn_conversationparticipantsentiment.md
+        - name: msdyn_ConversationQuestion
+          href: developer/entities/msdyn_conversationquestion.md
+        - name: msdyn_ConversationSentiment
+          href: developer/entities/msdyn_conversationsentiment.md
+        - name: msdyn_ConversationSignal
+          href: developer/entities/msdyn_conversationsignal.md
+        - name: msdyn_ConversationSubject
+          href: developer/entities/msdyn_conversationsubject.md
+        - name: msdyn_ConversationSummarySuggestion
+          href: developer/entities/msdyn_conversationsummarysuggestion.md
+        - name: msdyn_ConversationSystemTag
+          href: developer/entities/msdyn_conversationsystemtag.md
+        - name: msdyn_ConversationTag
+          href: developer/entities/msdyn_conversationtag.md
+        - name: msdyn_ocrecording
+          href: developer/entities/msdyn_ocrecording.md
+        - name: msdyn_SCIConversation
+          href: developer/entities/msdyn_sciconversation.md
+        - name: msdyn_transcript
+          href: developer/entities/msdyn_transcript.md
         - name: Opportunity
           href: developer/entities/opportunity.md
         - name: OpportunityClose
@@ -1351,7 +1397,7 @@
     - name: FAQ about summarization in Copilot
       href: faqs-sales-copilot-for-summarization.md
     - name: FAQ about email in Copilot
-      href: faqs-sales-copilot-for-email.md      
+      href: faqs-sales-copilot-for-email.md
     - name: FAQ for chat with Sales data on Microsoft 365 Copilot (preview)
       href: Microsoft-365-Copilot-for-Sales.md
 - name: Resources for other Sales apps

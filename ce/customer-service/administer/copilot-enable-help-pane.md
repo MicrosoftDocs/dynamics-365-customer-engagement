@@ -5,8 +5,8 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
-ms.collection: 
-ms.date: 10/20/2023
+ms.collection: bap-ai-copilot
+ms.date: 12/18/2023
 ms.custom: bap-template 
 ---
 
@@ -17,6 +17,20 @@ The Copilot help pane allows agents to use Copilot features such as respond to q
 > [!NOTE]
 > Respond to questions and compose an email features are generally available in the North America region only. These features are in preview in the rest of the supported regions.
 
+## Prerequisites
+
+- See [Prerequisites](configure-copilot-features.md#prerequisites) for the list of prerequisites to enable and use the features in the Copilot pane.
+- You must have the [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) configured in your environment for write an email and ask a question features. 
+- Your knowledge article parameters are as follows:
+   - Updated with the latest version
+   - The state is set to Published
+   - The locale is set to English
+- If you aren't in the North America region and you want to use the web search powered by Bing feature, you must enable data movement across regions and Bing search in Power Platform admin center. See [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot).
+
+   :::image type="content" source="../media/ppac-gen-ai-features.png" alt-text="Power Platform Admin center bing chat.":::
+
+## Enable Copilot assist features
+
 Perform the following steps to enable the Copilot features in Customer Service admin center:
 
 1. Use one of the following navigation options:
@@ -24,15 +38,12 @@ Perform the following steps to enable the Copilot features in Customer Service a
       - **Operations** > **Insights** > **Copilot help pane**
 1. Select **Manage** in **Copilot help pane**. The **Copilot help pane** page appears. You can select the Copilot features you'd like to enable for agents on this page.
 
-  :::image type="content" source="../media/copilot-admin-email-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="../media/copilot-admin-email.png":::
+     :::image type="content" source="../media/copilot-admin-email-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="../media/copilot-admin-email.png":::
 
-## Prerequisites
-
-See [Prerequisites](configure-copilot-features.md#prerequisites) for the list of prerequisites to enable and use the features in the Copilot pane.
 
 ## Enable ask a question
 
-Select **Make Copilot available to agents** in the **Copilot help pane** page of Customer Service admin center. The **Ask a question** tab on the **Copilot help pane** appears when agents sign in to Customer Service workspace. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
+Select **Make Copilot available to agents** in the **Copilot help pane** page of Customer Service admin center. The **Ask a question** tab on the **Copilot help pane** appears when agents sign in to Customer Service workspace. Agents can ask questions conversationally, and Copilot answers the questions based on the internal knowledge base sources.
 
 ## Enable draft a response (Preview)
 
@@ -46,7 +57,7 @@ Select **For email** in the **Copilot help pane** page of Customer Service admin
 
 ## Add trusted webpages as sources
 
-You can select **Add web address** in **Web resources** to add trusted domains. You can add up to five trusted web domains for Copilot to search and generate responses from. Copilot searches for information up to two levels down from the configured domain.
+You can select **Add web address** in **Web resources** to add trusted domains. You can add up to five trusted web domains for Copilot to search and generate responses from. Copilot searches for information up to two levels down from the configured domain. You must enable the Bing Search in Power Platform admin center to add trusted web sources. See [Enable data across geographic locations](/microsoft-copilot-studio/manage-data-movement-outside-us#enable-data-across-geographic-locations).
 
 Copilot uses articles that are two nodes down the configured domain.
 

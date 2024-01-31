@@ -26,6 +26,8 @@
           href: extend-transformer-logic-template.md
         - name: Transform, map external source data to knowledge fields
           href: create-a-conversion-plugin.md  
+        - name: Configure the faceted search results web template from your portal
+          href: configure-faceted-search-results.md          
       - name: Chat
         items:  
         - name: Develop a custom live chat widget
@@ -88,7 +90,7 @@
               href: parse-activity-json-to-get-bot-context.md
           - name: Copilot Studio
             items:
-            - name: Enable bot context for Power Virtual Agents bots
+            - name: Enable bot context for Copilot Studio bots
               href: enable-bot-context-pva.md   
           - name: Code samples for parsing activity JSON 
             href: bot-context-json-samples.md

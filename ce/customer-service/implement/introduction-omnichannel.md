@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about Omnichannel for Customer Service, its features, and how they can be configured in your organization."
-ms.date: 08/09/2023
+ms.date: 12/19/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -35,6 +35,10 @@ You can enable the following channels in your organization with Omnichannel for 
 ### Chat
 
 Chat is an engagement channel that enables your agents to connect with customers in real-time. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a chat channel](../administer/set-up-chat-widget.md)
+
+> [!NOTE]
+>
+>  The live chat widget uses browser cookies for maintaining conversation states and improved performance, these cookies aren't utilized for profiling or collecting personally identifiable information (PII). 
 
 ### SMS
 

@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications (preview)
 description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
-ms.date: 11/14/2023
+ms.date: 11/29/2023
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -35,13 +35,16 @@ The following steps are only required while the feature is in preview.
 
    An email is sent to the contact provided during registration, once enabled. Allow up to two business days for the enablement process.
 
+> [!NOTE]
+> The integration isn't available in Field Service trials.
+
 1. After enablement, have a system administrator open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), navigate to the registered environment, open the Dynamics 365 apps, and [apply the update for Dynamics 365 Field Service](update-field-service.md).
 
 ## Enable the integration from finance and operations applications
 
 ### Prerequisites
 
-- Finance and operations apps that have build version 10.0.36 (10.0.1777.28) and platform update 62 or later
+- Finance and operations apps that have build version 10.0.38 (10.0.1777.28) and platform update 62 or later
 
 - Dynamics 365 Field Service version number 8.8.116+
 
@@ -50,8 +53,6 @@ The following steps are only required while the feature is in preview.
 1. Open **Feature Management**.
 
 1. Find and enable the **(Preview) Enable Field Service Integration** feature.
-
-1. Enable the dual-write feature from the **Feature management** workspace.
 
 1. For each legal entity that uses Field Service:
 
@@ -122,6 +123,10 @@ Administrators who manage the **Dynamics 365 Field Service integration parameter
 ### Configure default order settings
 
 To ensure that the integration can successfully create item journals, we strongly advise that all items you plan to use in Field Service use default order settings that automatically apply a site. Otherwise, all work order products where the product is a Field Service product type inventory require a warehouse value before the item journal can be created.
+
+### Configure inventory and warehouse management within warehouses
+
+To ensure that the integration can successfully integrate journals related to items which require location, we advise that all warehouses you plan to use with Field Service have **inventory and warehouse management** configured to define default locations. This allows all work order products where the product's storage dimensions are configured to require location to successfully synchronize, even when created offline.
 
 ### Grant Dataverse consent for user impersonation
 
@@ -314,7 +319,13 @@ For organizations using product variants, there are relevant views that show all
 > [!NOTE]
 > Different than normal tables, currently individual rows within these inventory tables (*mserp_inventorysiteonhandv2entity* and *mserp_inventwarehouseonhandv2entity*) don't receive a persistent GUID and don't support being opened within a form. The view control used in these views suppresses the ability for these records to be opened in a form.
 
-## Unsupported processes and functionality
+## Not supported processes and functionality
+
+This integration supports the use of [Microsoft-managed](/dynamics365/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview#customer-lifecycle-subscriptions-and-environment-types) environments. Customer-managed environments are not supported with this integration.
+
+At this time, [Project Operations resource/non-stocked integration](/dynamics365/project-operations/environment/resource-dual-write-overview) doesn't allow the Field Service integration to work within the same legal entities that have been enabled for the resource/non-stocked integrated scenario. However, it can work within the same environments for other legal entities.
+
+Offline virtual tables are currently not supported, which is why it is critical to [set up the defaulting logic for locations](#configure-inventory-and-warehouse-management-within-warehouses) so that transactions don't get blocked.
 
 The following processes or features available within the finance and operation apps aren't supported or aren't reflected within Field Service out-of-the-box for this integration:
 

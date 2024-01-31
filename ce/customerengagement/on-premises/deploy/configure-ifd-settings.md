@@ -3,7 +3,6 @@ title: "Configure IFD settings | Microsoft Docs"
 description: Learn how to configure internet-facing deployment settings in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,8 +15,6 @@ ms.author: matp
 author: Mattp123
 ---
 # Configure IFD settings
-
-
 
 Using the [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] `Get-CrmSetting` and `Set-CrmSetting` cmdlets you can update the settings in your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment. One of the types of settings you can change is for an Internet-facing deployment (IFD).  
   
@@ -76,11 +73,10 @@ if($RemoveSnapInWhenDone)
 }  
 ```  
   
-## See Also  
+## See Also
+
 [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md)  </br> 
 [Get and set deployment configuration settings](update-deployment-configuration-settings.md) </br>
-[Additional steps for clients unable to connect to the Dynamics 365 Server via IFD](post-installation-configuration-guidelines-dynamics-365.md#additional-steps-for-clients-unable-to-connect-to-the-dynamics-365-server-via-ifd)
-
-
+[Required steps after enabling OAuth for Dynamics 365 Server](post-installation-configuration-guidelines-dynamics-365.md#required-steps-after-enabling-oauth-for-dynamics-365-server)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

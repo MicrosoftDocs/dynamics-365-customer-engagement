@@ -156,32 +156,34 @@
             href: overview-cases.md
           - name: Define status reason transitions for case management
             href: define-status-reason-transitions-case-management.md
+          - name: Create and manage subjects
+            href: create-manage-subject-tree.md            
           - name: Define parent and child cases
             href: define-settings-parent-child-cases.md
+          - name: Enable AI suggestions for similar cases
+            href: csw-enable-ai-suggested-cases-knowledge-articles.md#enable-ai-suggestions-for-similar-cases
           - name: View similar case suggestions
-            href: suggest-similar-cases-for-a-case.md
-          - name: Create and manage subjects
-            href: create-manage-subject-tree.md
-          - name: Enable case grids
-            href: enable-case-grids.md
-          - name: Use Power Apps to customize the case management experience
-            href: add-enhanced-case-management.md
-          - name: Configure components to display customer details and recent records
-            href: add-display-components-to-case-form.md
-          - name: Configure components to display case associations
-            href: add-associated-grid-control.md 
-          - name: Enable enhanced case forms for multisession apps
-            href: case-enh-config.md    
-          - name: Use Attachment Control to customize forms
-            href: add-attachment-control.md
-          - name: Use the Due open activities control to customize forms
-            href: add-due-open-activities.md
+            href: suggest-similar-cases-for-a-case.md                
           - name: Allow updates for resolved and canceled cases
             href: update-resolved-canceled-cases.md
           - name: Modify case resolution dialog
             href: modify-case-resolution-dialog.md
+          - name: Customize the case resolution experience
+            href: add-enhanced-case-management.md          
+          - name: Enable enhanced case forms for multisession apps
+            href: case-enh-config.md    
+          - name: Configure components to display customer details and recent records
+            href: add-display-components-to-case-form.md
+          - name: Configure components to display case associations
+            href: add-associated-grid-control.md             
+          - name: Use Attachment Control to customize forms
+            href: add-attachment-control.md
+          - name: Use the Due open activities control to customize forms
+            href: add-due-open-activities.md               
+          - name: Enable case grids
+            href: enable-case-grids.md     
           - name: Remove validation on contact and customer for cases
-            href: remove-validation-contacts.md
+            href: remove-validation-contacts.md                  
           - name: FAQ on managing cases
             href: faq-case-mgmt.md
       - name: Automatically create or update records
@@ -202,6 +204,8 @@
         items:
           - name: Enable entities for service level agreements
             href: enable-entities-service-level-agreements.md
+          - name: Enable custom entities for service level agreements
+            href: enable-custom-entities-sla.md
           - name: Manage customer service schedules
             items: 
             - name: Create customer service schedules
@@ -216,6 +220,8 @@
             href: define-service-level-agreements.md
           - name: Apply service-level agreements
             href: apply-slas.md
+          - name: Configure pause conditions for SLA-enabled entities
+            href: set-pause-conditions-sla.md
           - name: Add timer control for SLA-enabled entities
             href: add-timer-control-case-form-track-time-against-sla.md
           - name: Export and import a solution with SLAs
@@ -253,13 +259,15 @@
           - name: Customize the email experience
             href: customer-service-hub-user-guide-email-font-admin.md
           - name: Configure the enhanced insert email template dialog
-            href: /power-apps/user/customize-insert-email-template?context=/dynamics365/context/customer-service-context
+            href: /power-apps/user/customize-insert-email-template?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
           - name: Configure the enhanced email template editor page
-            href: /power-apps/user/cs-email-template-builder/?context=/dynamics365/context/customer-service-context
+            href: /power-apps/user/cs-email-template-builder?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
+          - name: Enable enhanced experience for email attachments
+            href: add-enhanced-attachment-control.md                                  
           - name: Configure a default signature template for a queue
             href: add-signature-template-queue.md  
           - name: Email FAQ and known issues
-            href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
+            href: /power-apps/user/activities-known-issues?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml 
       - name: Inbox
         items:
           - name: Configure the inbox
@@ -267,7 +275,7 @@
       - name: Timeline
         items: 
           - name: Configure timeline
-            href: /powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context
+            href: /powerapps/maker/model-driven-apps/set-up-timeline-control?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
           - name: Turn on linking of timeline notes with other table records
             href: link-note-to-entity.md
           - name: FAQ about Activities and the Timeline Wall
@@ -296,7 +304,7 @@
             href: create-manage-categories.md
           - name: Create knowledge article templates in Power Apps
             href: /power-platform/admin/create-templates-articles
-          - name: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
+          - name: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
             href: integrate-KM-with-PVA.md
           - name: Configure the origin allowlist for knowledge articles
             href: configure-knowledge-article-origin-allow-list.md
@@ -304,6 +312,8 @@
             href: configure-knowledge-search-control-productivity-pane.md
           - name: Add the knowledge base search control to forms
             href: add-knowledge-base-search-control-forms.md
+          - name: Add a knowledge article rich text editor control to a form
+            href: rich-text-editor-ka.md
       - name: Microsoft Teams for collaboration
         items:
           - name: Introduction to collaboration
@@ -378,7 +388,7 @@
             href: configure-outbound-inbound-profiles.md  
           - name: Configure historical analytics for voice
             href: cs-voice-historical-analytics.md  
-          - name: Configure Power Virtual Agents bots for voice
+          - name: Configure Copilot Studio bots for voice
             href: voice-channel-pva-bots.md
           - name: View voice calls usage
             href: voice-channel-usage.md
@@ -388,13 +398,15 @@
             href: voice-channel-block-number.md
           - name: Configure call recording, transcription, and real-time translation
             href: voice-channel-configure-transcripts.md
+          - name:  Configure survey for call quality feedback (preview)
+            href: configure-end-of-call-survey.md           
           - name: Delete call recordings
             href: voice-channel-delete-calls.md
           - name: Enable voice consult with Microsoft Teams users
             href: voice-consult-microsoft-teams-user.md
           - name: Manage phone music
             href: voice-channel-music.md
-          - name: Set up a multilingual bot in Power Virtual Agents
+          - name: Set up a multilingual bot
             href: set-up-multilingual-pva-bot.md  
           - name: Set up a multilingual contact center
             href: voice-channel-multi-language-contact-center.md
@@ -562,24 +574,34 @@
         items: 
           - name: Manage Copilot features in Customer Service
             href: configure-copilot-features.md
-          - name: Enable case summaries
-            href: copilot-enable-summary.md#enable-case-summaries  
-          - name: Enable conversation summaries
-            href: copilot-enable-summary.md#enable-conversation-summaries
-          - name: Enable ask a question
-            href: copilot-enable-help-pane.md#enable-ask-a-question
-          - name: Enable draft a response (preview)
-            href: copilot-enable-help-pane.md#enable-draft-a-response-preview
-          - name: Enable write an email
-            href: copilot-enable-help-pane.md#enable-write-an-email
-          - name: View feedback data
-            href: configure-copilot-features.md#record-feedback        
           - name: Make Copilot available to agents
-            href: configure-copilot-features.md#make-copilot-available-to-agents
-          - name: Copilot data movement across geographies
-            href: copilot-data-movement.md
+            href: configure-copilot-features.md#make-copilot-available-to-agents            
+          - name: Case and conversation summaries
+            items:
+            - name: Enable summarization of cases and conversations
+              href: copilot-enable-summary.md
+            - name: Enable case summaries
+              href: copilot-enable-summary.md#enable-case-summaries  
+            - name: Enable conversation summaries
+              href: copilot-enable-summary.md#enable-conversation-summaries
+          - name: Enable Copilot help pane features
+            items:
+            - name: Enable features in Copilot pane
+              href: copilot-enable-help-pane.md            
+            - name: Enable ask a question
+              href: copilot-enable-help-pane.md#enable-ask-a-question
+            - name: Enable draft a response (preview)
+              href: copilot-enable-help-pane.md#enable-draft-a-response-preview
+            - name: Enable write an email
+              href: copilot-enable-help-pane.md#enable-write-an-email
+          - name: View feedback data
+            href: configure-copilot-features.md#record-agent-interactions-with-copilot
+          - name: Copilot architecture diagram
+            href: /digital-contact-center-platform/guidance/dynamics-365-customer-service-copilot-architecture?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
           - name: Manage fields Copilot uses for case summaries and emails
             href: copilot-map-custom-fields.md
+          - name: Customize Copilot conversation summaries
+            href: customize-copilot-conv-summary.md           
           - name: Configure copilot features for custom case forms and custom apps
             href: copilot-powerapps-settings.md
           - name: Display Copilot case summary on custom case forms
@@ -606,7 +628,7 @@
               href: configure-bot-azure.md
             - name: Sample configuration
               href: sample-config-azure-bot.md
-          - name: Integrate a Power Virtual Agents bot
+          - name: Integrate a Copilot Studio bot
             href: configure-bot-virtual-agent.md
       - name: Analytics dashboards and insights
         items: 
@@ -658,6 +680,10 @@
           items: 
           - name: Overview of Service scheduling
             href: basics-service-service-scheduling.md
+          - name: Set up the Service Scheduling experience
+            href: scheduling-experience.md
+          - name: Access scheduling in the Customer Service Hub and Customer Service workspace
+            href: access-scheduling.md
           - name: Install Service Scheduling from Power Platform admin center
             href: install-service-scheduling-from-power-platform.md
           - name: Manage security roles
@@ -677,7 +703,7 @@
             - name: Create or edit services
               href: create-edit-service-csh.md
             - name: Manage fulfillment preferences
-              href: /dynamics365/common-scheduler/fulfillment-preferences
+              href: ../../common-scheduler/fulfillment-preferences.md
         - name: Legacy Service Scheduling
           items: 
           - name: Create or change a service

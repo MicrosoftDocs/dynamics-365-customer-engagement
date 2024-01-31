@@ -12,7 +12,7 @@ ms.topic: article
 You can configure the ability for agents to chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
 
 > [!NOTE]
-> Teams chat is already enabled for Customer Service workspace and Customer Service Hub, and you can select other apps that you want to enable it for.
+> Teams chat is already enabled for Customer Service workspace and Customer Service Hub, and you can select other apps that you want to enable it for. 
 
 When the feature is enabled for an app, agents who work on customer records can start a new chat or connect an existing chat to a record. They can collaborate efficiently without switching context or leaving the application. Connecting the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating in Teams.
 
@@ -87,7 +87,9 @@ The following data security and privacy considerations apply for Teams chat func
     
     1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated) ](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     1. In the site map, select **Service Management**.
     
@@ -121,7 +123,7 @@ To enable Teams chat settings for a custom multisession user, complete the follo
     
     1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
 
     1. In the site map, select **Service Management**.
     2. In **Collaboration**, select **Embedded chat using Teams**.
@@ -151,7 +153,7 @@ After you enable Teams chats, you can connect the chats to different record type
     
     1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
 
     1. In the site map, select **Service Management**.
     2. In **Collaboration**, select **Embedded chat using Teams**.
@@ -173,7 +175,7 @@ To add a record type to connect chats to in Dynamics 365 records:
     
     1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
 
     1. In the site map, select **Service Management**.
     
@@ -234,7 +236,7 @@ You can assign the ability to disconnect chats to record owners or users who con
     
     1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
 
     1. In the site map, select **Service Management**.
     
@@ -267,7 +269,7 @@ The following table details the apps and security roles where the disconnect cha
     
     1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
 
     1. In the site map, select **Service Management**.
     
@@ -325,7 +327,7 @@ The ability for users to join existing chats related to cases is especially usef
     
     1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
 
     1. In the site map, select **Service Management**.
     
@@ -402,7 +404,7 @@ Additionally, if the agent assigned to the record changes, the new agent (who mi
     
     1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
     
     1. In the site map, select **Service Management**.
     

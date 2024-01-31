@@ -1,7 +1,7 @@
 ---
 title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
 description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service.
-ms.date: 11/08/2023
+ms.date: 12/18/2023
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
@@ -107,7 +107,7 @@ The following limitations apply to Customer Service workspace:
   - Subgrid controls don't retain the filter or sort conditions.
   - Web resources, form components, custom pages, and third-party websites don't retain the state of the page.
   - When changing the status record in a tab, the corresponding record open in a grid or subgrid of another tab doesn't refresh automatically.
-- Customer Service workspace isn't supported in mobile devices, Unified Service Desk, and with Dynamics 365 Customer Engagement (on-premises).
+- Customer Service workspace isn't supported in mobile devices, Unified Service Desk, Microsoft Teams, and with Dynamics 365 Customer Engagement (on-premises).
 
 ## Deprecated Customer Service workspace layout
 
@@ -150,8 +150,8 @@ You can enable the legacy layout in one of the following ways:
 
 ### Training resources
 
-![Next step.]((../media/right-arrow.png "Next step") Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180)  
-![Next step.]((../media/right-arrow.png "Next step") [Migrate from Unified Service Desk to Customer Service workspace](../../unified-service-desk/admin/migrate-to-csw.md). The Unified Service Desk to Customer Service workspace Migration Playbook helps you plan and execute the transition from Unified Service Desk to Customer Service workspace.
+- Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180) 
+- [Migrate from Unified Service Desk to Customer Service workspace](../../unified-service-desk/admin/migrate-to-csw.md). The Unified Service Desk to Customer Service workspace Migration Playbook helps you plan and execute the transition from Unified Service Desk to Customer Service workspace.
 
 ### See also
 

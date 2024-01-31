@@ -6,8 +6,8 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.collection:
-ms.date: 11/10/2023
+ms.collection: bap-ai-copilot
+ms.date: 01/04/2024
 search.app: salescopilot-docs
 ms.custom:
   - bap-template
@@ -23,12 +23,30 @@ Although Copilot is available in all geographic regions, it requires the Microso
 
 You need to opt in to allow your data to move outside of your region to an Azure OpenAI endpoint in North America or Europe. For orgs in Europe, a consent is required because Azure OpenAI endpoints may not be available in your specific region and hence data may be moved to another region in Europe for processing. Note that all data originating from customers in Europe is always processed in Europe only.
 
-> [!NOTE]
-> - If your environment is hosted in North America, Copilot will use an Azure OpenAI endpoint in North America to process your data.
-> - If your environment is hosted in Europe, Copilot will use an Azure OpenAI endpoint in Europe to process your data.
-> - If your environment is hosted anywhere else, Copilot will use an Azure OpenAI endpoint outside of the region in which the environment is hosted.
 
-To learn more about how Azure OpenAI protects your data, read [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#preventing-abuse-and-harmful-content-generation).
+The following table lists the geography of the Azure OpenAI service that Copilot uses for the different Dynamics 365 geographies, when you opt in.
+
+|Copilot availability|Dynamics 365 geography|Azure OpenAI geography|
+|----------|-------------|-----------------|
+| Yes | Asia Pacific | United States |
+| Yes | Australia | United States |
+| Yes | Canada | United States |
+| No | China | N/A|
+| Yes | Europe | Europe |
+| Yes | France | Europe |
+| Yes | Germany | Europe |
+| No | Government Community Cloud (GCC) | N/A |
+| Yes | India | United States |
+| Yes | Japan | United States |
+| Yes | Korea | United States |
+| Yes | Norway | Europe |
+| Yes | Singapore | United States |
+| Yes | South Africa | United States|
+| Yes | South America | United States |
+| Yes | Switzerland | Europe |
+| Yes | United Arab Emirates | United States |
+| Yes | United Kingdom | Europe |
+| Yes | United States | United States |
 
 ### See also
 

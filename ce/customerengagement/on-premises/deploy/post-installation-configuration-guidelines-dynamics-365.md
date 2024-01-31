@@ -2,7 +2,7 @@
 title: "Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: Understand the configuration needed after you install Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "08/09/2023"
+ms.date: "11/28/2023"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -145,27 +145,21 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
   
 3.  To register the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], in [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], go to **Settings** > **Dynamics 365 App for Outlook** and register the app there.  
   
-### Additional steps for clients unable to connect to the Dynamics 365 Server via IFD
-If clients experience issues connecting through the IFD after you have registered them, follow each step here to resolve the issue. 
+### Required steps after enabling OAuth for Dynamics 365 Server
+
+When OAuth is enabled, and you have registered your applications, it's required to complete the following steps:
 
 #### Remove site authentication providers
+
 1. On the Dynamics 365 Server where the web application server role is running, open Internet Information Services (IIS) Manager. 
 2. In the left pane, under the organization name, expand **Sites**, and then select **Microsoft Dynamics CRM**. 
 3. Double-click **Authentication** in the middle pane.
 4. Right-click **Windows Authentication**, and select **Providers**. For each provider in the list, select the provider, select **Remove**, and then select **OK**. 
-7. After all providers are removed, right-click **Windows Authentication**, and then select **Disable**.
+5. After all providers are removed, right-click **Windows Authentication**, and then select **Disable**.
 
    ![Remove site provider.](media/remove-site-provider.png)
 
-Repeat the previous steps to remove all Windows Authentication providers from the **nga** and **AppWebServices** site folders. 
-
-<!-- #### Disable integrated windows authentication to prevent client authentication prompts 
-1. On the AD FS server, open AD FS Management. 
-2. Select **Authentication Policies** on the left pane.
-3. In the middle pane, in **Global Settings**, locate **Authentication Methods** and then select **Edit**. 
-4. Clear **Windows Authentication** if it is checked, and then select **OK**.
-
-   ![Disable integrated windows authentication.](media/disable-windows-auth.png) -->
+6. Repeat the previous steps to remove all Windows Authentication providers from the **nga** and **AppWebServices** site folders.
 
 #### Add the AD FS address to the client local intranet zone to avoid client authentication prompts
 
@@ -200,6 +194,102 @@ net start adfssrv
 
 #### Enable Device Registration Service (DRS) on the federation server
 To make sure that devices can connect to your deployment, follow the instructions in this topic: [Configure a federation server with Device Registration Service](/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service). 
+
+## Request custom certificates using the Certificates MMC snap-in
+
+This section explains how to generate a custom certificate request (CSR) that can be used to obtain an SSL certificate for Microsoft Dynamics 365 Customer Engagement on-premises.
+
+> [!IMPORTANT]
+> For claim-based authentication and the internet-facing deployment to work, it's mandatory that the steps below are completed.
+
+1. Sign in to any Windows computer with an account that is a member of the local **Administrators** group.  
+1. Select **Start**, type *mmc.exe*, and then press ENTER.
+1. Select **File** on the command bar, and then select **Add/Remove Snap-in**.
+1. In the list of available snap-ins, **select Certificates**, and then select **Add**.
+1. Select **Computer account**, and then select **Next**.
+1. Select **Local computer**, select **Finish**, and then select **OK**.
+
+After you have added the Certificates snap-in for your local computer store open, create a custom certificate request.
+
+1. In the MMC console tree, expand **Certificates (Local Computer)**.
+1. Right-click **Personal**, point to **All Tasks**, point to **Advanced Operations**, and then select **Create Custom Request**.
+1. The **Certificate Enrollment** wizard opens. Select **Next**.
+1. On the **Select Certificate Enrollment Policy** page select **Proceed without enrollment policy** under **Custom Request**, and then select **Next**.
+1. On the **Custom Request** page next to the **Template** options select **(No template) Legacy key** and select the **PKCS #10** request format option, and then select **Next**.
+   :::image type="content" source="media/cert-custom-request.png" alt-text="Select options to create the custom certificate request":::
+
+   > [!IMPORTANT]
+   > CNG certificates aren't supported.
+1. On the **Certificate Information** page expand **Details**, and then select **Properties**.
+   :::image type="content" source="media/cert-properties.png" alt-text="Certificate properties":::
+1. On the **General** tab, enter the **Friendly name** (display name), and then select **Apply**.
+1. Select the **Subject** tab, and add the relevant subject names and alternative names for the certificate. Some public certificate authorities require various subject values. More information: [Certificate subject and alternative names examples](#certificate-subject-and-alternative-names-examples)
+1. After you've added all relevant values select **Apply**.
+1. Select the **Extensions** tab.
+   1. Expand **Key Usage** and then **Add** **Data encipherment**, **Digital signature**, and **Key encipherment** as the **Selected options**.
+   1. Expand **Extended Key Usage (application policies)** and then **Add** **Server Authentication** and **Client Authentication** as the **Selected options**.
+   1. Select **Apply**.
+1. Select the **Private Key** tab.
+   1. Expand **Cryptographic Servicer Provider** and then select **Microsoft RSA Schannel Cryptographic Provider (Encryption)**
+   1. Expand **Key options** then set **Key size** to *2048* (or higher) and select the **Make private key exportable** option.
+   1. Expand **Key type** and then select **Exchange**.
+   1. Select **Apply**.
+      :::image type="content" source="media/cert-properties2.png" alt-text="Certificated properties for key type":::
+1. Review all tabs to make sure all required options are selected or entered. After verification select **OK**.
+1. The **Certificate Enrollment** page is displayed. Select **Next**.
+1. On the **Where do you want to save the offline request** page, enter the full path to save the request file and ensure that **File format** is set to **Base 64**. Select **Finish**.
+
+Now you will have a CSR in BASE 64 format, which you can forward to an external or internal certificate authority for signing.
+
+> [!IMPORTANT]
+> There's no private key included. This avoids any compromise of the private key when transferring to a Certificate Authority.
+
+Your provider will provide a signed version of the certificate including the private key and the payload. That certificate you receive must be imported back on the same machine where you created the certificate request.
+
+### Import and then export the received certificate
+
+Import the certificate into the local certificate store (Personal) and the request will automatically be completed. Doing so merges the private and public key. From the Certificates MMC snap-in right-click the **Certificates** folder in the **Personal** folder, point to **All Tasks**, and then select **Import**. **Browse** to and select the certificate and follow the steps in the **Certificate Import Wizard** to import it.
+
+Finally, you export the certificate.
+
+1. In the Certificates MMC snap-in, right-click the certificate, point to **All Tasks**, and then select **Export**.
+1. On the **Certificate Export Wizard** select **Next**, and then select **Yes, export the private key**. Select **Next**.
+1. On the **Export File Format** page, leave all the default settings, and then select **Next**.
+   :::image type="content" source="media/cert-export-format.png" alt-text="Certificate export format":::
+1. On the **Security** page select **Password**.
+   1. Enter a password that will be your private key. Ensure to save that information in a secure place.
+   1. Select **Encryption** as **AES256-SHA256**.
+   1. Select **Next**.
+1. Enter the folder path where you want to save the certificate, that will be saved in PFX format. 
+1. Select **Next** and then select **Finish**.
+
+Now you can use the PFX certificate for Dynamics 365 Customer Engagement (on-premises) and other applications such as AD FS as well.
+
+> [!IMPORTANT]
+> If your certificate authority doesn't accept legacy type certificate requests, ensure to match all requirements except the Cryptographic Service Provider (CSP). You can run the below Certutil.exe in an elevated command shell to reimport the PFX with the required provider.
+>  
+> `certutil -csp "Microsoft RSA SChannel Cryptographic Provider" -importpfx <drive><name of cert>.pfx AT_KEYEXCHANGE`
+
+### Certificate subject and alternative names examples
+
+Subject name examples.
+
+|Type  |Value entered  |Subject name  |
+|---------|---------|---------|
+|Country     | DE        | C=DE     |
+|Locality     |  Munich       |  L=Munich       |
+|Organization     |  Contoso Ltd       | O=Contoso Ltd        |
+|Organizational unit     |  IT       | OU=IT        |
+|State     |  Bavaria       |  S=Bavaria       |
+|Common name     |  *.contoso.com<sup>1</sup>       |  CN=*.contoso.com<sup>1</sup>       |
+
+<sup>1</sup>Uses wildcard. A wildcard certificate is recommended as it covers all DNS values created for the domain.
+
+:::image type="content" source="media/cert-subject-names.png" alt-text="Certificate subject name examples":::
+
+For the subject alternative names (SAN) ensure to cover all DNS values you require. For example, alternative name DNS type values for the fictional company named Contoso might be: auth.contoso.com, dev.contoso.com, internalcrm.contoso.com, adfs.contoso.com, crmorg1.contoso.com, crmorg2.contoso.com, and so on.
+
+:::image type="content" source="media/cert-alt-names.png" alt-text="Certificate subject alternative name examples":::
 
 ## Configure databases for SQL Server AlwaysOn
 

@@ -134,3 +134,13 @@ The new experience (preview) currently doesn't support users or apps with offlin
 
 1. The user of the mobile app must not be part of the Mobile Offline Profile.
 1. The app itself shouldn't be set up for offline. In the app designer, open **Field Service Mobile**. Go to **Settings** > **Features** and set the **Offline setup from the app designer** toggle to **No**. For more information, see [Set up mobile offline](/power-apps/mobile/setup-mobile-offline#enable-your-app-for-offline-use-preview).
+
+## The new experience doesn’t show dashboards from the navigation
+
+### Symptoms
+
+Dashboards configured in the navigation aren't supported. Selecting a dashboard from the new UX results in an error. When a dashboard is configured as the first entity in the navigation for the new experience, the home experience doesn't render correctly.
+
+### Resolution
+
+Remove dashboards from the navigation until it's officially supported.
