@@ -6,7 +6,7 @@ ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer:
-ms.collection:
+ms.collection: bap-ai-copilot
 search.audienceType:
   - admin
 ms.custom: 
