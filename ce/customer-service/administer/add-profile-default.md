@@ -1,6 +1,6 @@
 ---
-title: Add users to agent experience profiles | MicrosoftDocs 
-description: Learn about adding a default profile and mapping agent profiles to security roles
+title: Add users to agent experience profiles
+description: Learn about adding a default profile and mapping agent profiles to security roles.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
