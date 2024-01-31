@@ -13,7 +13,7 @@ ms.custom:
   - ai-seo-date:01/12/2024
 ---
 
-<!-- Sentence in line 67 has an extra "are". You'll need to decide which one to remove. -->
+<!-- Sentence in line 67 has an extra "are". You'll need to decide which one to remove.  -->
 
 
 # Migrate assignment rules and segments
