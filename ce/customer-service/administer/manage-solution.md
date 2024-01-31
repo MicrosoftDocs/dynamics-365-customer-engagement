@@ -44,7 +44,7 @@ This section provides steps on how to create, export, import, and upgrade a solu
 9. Select **Save**, and then select **Publish All Customizations**.
 10. On the **Publish Customization** dialog box, select **Publish All customizations** and then select **Next**.
 
-### Export the solution
+### Export
 
 After you have published the customizations that you have made while [creating the solution](#create) on step 10, you can export the solution.
 
@@ -52,9 +52,9 @@ After you have published the customizations that you have made while [creating t
 1. On the **Package Type**, select the **Unmanaged** package type, and then select **Export**.
 The **Exported Solution** zip file is downloaded.
 
-### Import the solution
+### Import
 
-After you export the solution from the source organization, you need to import it to the target organization.
+After you export the solution from the source organization, you need to import the solution to the target organization.
 
 1. Go to **Advanced Settings** > **Settings** > **Solutions** in Dynamics 365.
 2. Select **Import**  and then select your solution zip file on the **Select solution package** dialog.
@@ -64,7 +64,7 @@ After you export the solution from the source organization, you need to import i
 
 Proceed with Upgrade as necessary.
 
-### Upgrade the solution
+### Upgrade
 
 You can add additional components to the pre-installed base solution in the target org and upgrade it.
 - The package type must be Unmanaged for an upgrade. 
@@ -77,7 +77,7 @@ You can add additional components to the pre-installed base solution in the targ
 5. Select **Import**, and then select **Publish All Customizations**.
 The base solution from the target org version increases and new components and SLA records are added to the target org.
 
-## Create and manage solutions by adding SLAs in Power Apps
+## Manage solutions with SLAs in Power Apps
 
 This section provides steps on how to create, export, import, and upgrade a solution in Power Apps.
 
