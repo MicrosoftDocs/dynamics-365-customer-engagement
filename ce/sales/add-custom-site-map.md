@@ -36,7 +36,7 @@ Add an entry to the site map from a Dataverse table, a dashboard, a URL, a web r
 
     You can also select the ellipsis (**&hellip;**) next to the group name, and then select **New page**.
 
-    :::image type="content" source="./media/add-custom-site-map-page.svg" alt-text="Screenshot of a custom app editing page, with options for adding a new page highlighted.":::
+    :::image type="content" source="./media/add-custom-site-map-entry.svg" alt-text="Screenshot of a custom app editing page, with options for adding a new page highlighted.":::
 
 1. Select a content type for the new page, and then select **Next**.
 
