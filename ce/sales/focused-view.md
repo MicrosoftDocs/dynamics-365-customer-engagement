@@ -16,7 +16,7 @@ ms.custom:
 
 # View and manage records in focused view
 
-Focused view allows you to view and manage account, contact, lead, opportunity, and other records and their associated activities on one page. This view makes it easier for you to stay focused on your tasks and reduces the need to navigate between multiple screens. It also allows you to better organize and prioritize your tasks thus saving time and effort.
+Focused view allows you to view and manage account, contact, lead, opportunity, and other records and their associated activities on one page. This view makes it easier for you to stay focused on your tasks and reduces the need to navigate between multiple screens. It also allows you to better organize and prioritize your tasks, thus saving time and effort.
 
 Focused view is now available for all entities, including custom entities. However, your administrator must enable it for you to access it. More information: [Enable focused view and set it as the default view](set-focused-view-as-default.md).
 
@@ -28,7 +28,7 @@ Focused view is now available for all entities, including custom entities. Howev
 
 Focused view is a centralized place to view all your open records that have activities that are due or pending, without having to navigate through multiple screens. By default, the lead entity grid opens in focused view. However, an administrator must enable and set other entities such as Account, Contact, Opportunity, and custom as default. More information: [Enable focused view and set it as the default view](set-focused-view-as-default.md).
 
-From the sitemap, select an entity such as, lead, account, contact, or opportunity. The entity grid opens in the focused view.
+From the sitemap, select an entity such as lead, account, contact, or opportunity. The entity grid opens in the focused view.
 
 If you open an entity grid in the focused or list view and then close it within the same view, the application will remember to open the grid in the same view when you access it the next time. For example, if you open the Account entity grid in the focused view and then close it, the next time you open the Account entity grid, it will open in the focused view.
 
@@ -59,7 +59,7 @@ Focused view is categorized into the following sections.
 1. **Records list**: All records for the selected entity, including records with no associated activities, are displayed in a card format. You can perform and complete the activities, whether manual or automated, on these cards from the current date and from previous dates. Each card displays information such as the name of the record, the primary contact name, and the next best action.
     - **Next best actions**: These include the top two activities with the latest due date. To complete the next best action, hover over the action and then select the action icon.
     - **No action items**: When no action items are available for the record, the record displays information such as the name and contact details.
-    - **Predictive scoring**: When predictive scoring is enabled in your organization, the list also displays the score for that lead or opportunity at the top-right corner of the card. Learn more about [prioritizing leads through scores](work-predictive-lead-scoring.md) and [prioritizing opportunities through scores](work-predictive-opportunity-scoring.md).
+    - **Predictive scoring**: When predictive scoring is enabled in your organization, the list also displays the score for that lead or opportunity at the upper-right corner of the card. Learn more about [prioritizing leads through scores](work-predictive-lead-scoring.md) and [prioritizing opportunities through scores](work-predictive-opportunity-scoring.md).
 
 1. **Record details**: Select a record in the work list to open a detailed view of the record on the same page.
 
