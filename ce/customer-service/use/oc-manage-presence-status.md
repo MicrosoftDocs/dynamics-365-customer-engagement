@@ -1,7 +1,7 @@
 ---
 title: Manage presence in Omnichannel for Customer Service
 description: Learn how to view and update your presence status in Omnichannel for Customer Service.
-ms.date: 01/30/2024
+ms.date: 01/31/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -25,12 +25,12 @@ For presence status to load correctly, the following prerequisites must be met:
 - The agent is assigned the [Omnichannel agent or Omnichannel supervisor role](../implement/add-users-assign-roles.md).
 - The agent is assigned an [experience profile](../administer/add-profile-default.md).
 - The ["All active channels"](../administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels) setting is enabled in the agent’s experience profile.
-- [Unified routing is provisioned](../administer/provision-unified-routing.md).
+- [Omnichannel for Customer Service is provisioned](../implement/omnichannel-provision-license.md) or [Unified routing is enabled](../administer/provision-unified-routing.md).
 - [Cookies are enabled in agent's browser](../implement/system-requirements-omnichannel.md#system-requirements-for-omnichannel-for-customer-service).
-- The following URL is allowlisted: https://*.service.signalr.net
+- The following URL is listed as allowed: https://*.service.signalr.net
 
 
-## Out-of-the-box presence statuses
+## View out-of-the-box presence statuses
 
 You can view your presence status on the navigation bar. You can select the presence icon to launch the presence dialog and update your presence.
 
@@ -45,7 +45,7 @@ You can view your presence status on the navigation bar. You can select the pres
 > - Inactive is a special status that isn’t available for the agent to select; it’s set by the system automatically when agents miss notifications.
 > - You can’t modify or delete the out-of-the-box presence statuses.
 
-## Presence elements
+## What are presence elements
 
 A presence status consists of two elements:
 
@@ -57,7 +57,7 @@ A presence status consists of two elements:
 Apart from the out-of-the-box presence statuses, you can create custom presence statuses for your agents to use. The custom presence status is mapped to a base presence. 
 For example, if agents on your team want to attend a training, you can create a custom “Away–In Training” presence status. When you map a custom presence to a base presence, you must make sure that the configurations are logically viable. For example, if you map an available custom presence to offline base status, the application treats it as "offline" while the visual effect is "available".
 
-More information: [Configure custom presence](../administer/presence-custom-presence.md)
+More information: [Configure custom presence status](../administer/presence-custom-presence.md)
 
 ### Default presence
 
@@ -69,6 +69,7 @@ More information: [Configure default presence for agents](../administer/users-us
 ## How presence is calculated when agents sign in
 
 When the agent signs into Customer Service workspace, the system sets the agent’s presence based on the following factors:
+
 - Default presence configuration
 - Agent capacity
 
@@ -89,22 +90,22 @@ The agent presence status is updated in the following two ways:
   - Busy
   - Available
   
-   You might also see other presence statuses that your administrator configured for you.
+   The agents might also see other presence statuses that you configured for them.
 
   :::image type="content" source="../media/oceh-presence.png" alt-text="Set your presence status.":::
 
-- **Automatically**: When the system assigns a work item to you, Omnichannel for Customer Service sets your presence status based on your capacity as follows:
+- **Automatically**: When agents start work, Omnichannel for Customer Service sets their presence status based on their capacity as follows:
 
   - When capacity is fully used, then presence is set to **Do not disturb**.
-  - When capacity is partially used, then your presence is set to **Busy**.
-  - When capacity is unused, then your presence is set to **Available**.
-  - If you already have 10 sessions open, which is the maximum multisession limit, and a new work item comes in, then your presence is set to **Do not disturb**.
-  - When you miss a notification and the [missed notifications](../administer/manage-missed-notifications.md) setting is enabled, then the presence changes to **Inactive**.
-  - When you reject a work notification and the [agent reject notification](../administer/enable-agent-reject-notifications.md) setting is enabled, then the presence changes to **Do not disturb**.
+  - When capacity is partially used, then presence is set to **Busy**.
+  - When capacity is unused, then presence is set to **Available**.
+  - If agents already have 10 sessions open, which is the maximum multisession limit, and a new work item comes in, then the presence is set to **Do not disturb**.
+  - When agents miss a notification and the [missed notifications](../administer/manage-missed-notifications.md) setting is enabled, then the presence changes to **Inactive**.
+  - When agents reject a work notification and the [agent reject notification](../administer/enable-agent-reject-notifications.md) setting is enabled, then the presence changes to **Do not disturb**.
 
-    You can make sure that the "inactive" and "Do not disturb" statuses aren't included in the allowed presence setting of workstreams to avoid assignment of new work items to agents when they miss or reject notifications for work items that come through the live chat and voice channels.
+    For live chat and voice channels, to avoid assigning new work items when agents miss or reject notifications, you can make sure that the "inactive" and "Do not disturb" statuses aren't included in the allowed presence setting of the corresponding channel workstream.
 
-  - If you are disconnected, the system captures your current presence status and immediately set your status as "Offline". If you sign back in within 2.5 minutes, the system restores your presence status. If you don't sign back in by 2.5 minutes, the system recalculates the presence that it needs to set for you. The following agent actions are considered for disconnection:
+  - If the agent is disconnected, the system captures the current presence status and immediately sets the status as "Offline". If the agent sign back in within 2.5 minutes, the system restores the presence status. If the agent don't sign back in by 2.5 minutes, the system recalculates the presence that it needs to set. The following agent actions are considered for disconnection:
     - Closes the Customer Service workspace browser tab.
     - Signs out of Customer Service workspace.
     - Closes or signs out of the device.
@@ -120,7 +121,7 @@ Presence changes automatically based on capacity utilization. The following scen
 
 ## How do manual and automatic presence updates work together
 
-When agents manually set their presence to "Available" or "Busy", the status persists until they accept a new conversation or close an in-progress conversation. The currently assigned work items remain assigned. The system recalculates the new presence based on capacity utilization.
+When agents manually set their presence to "Available" or "Busy", the status persists until they accept a new conversation or close an in-progress conversation. The system recalculates the new presence based on capacity utilization. The currently assigned work items remain assigned.
 
 However, if the agent has manually set one of the following presence statuses, the status persists until the agent logs out or changes it manually.
 - Offline
