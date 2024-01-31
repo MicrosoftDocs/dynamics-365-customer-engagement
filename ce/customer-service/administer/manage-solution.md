@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 01/30/2024
+ms.date: 01/31/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -39,7 +39,7 @@ This section provides steps on how to create, export, import, and upgrade a solu
     - **Version**: Enter a number for the version of your solution. This is only important if you export your solution. The version number will be included in the file name when you export the solution.
 5. Select **Save**. The **Components** page appears.
 6. From the **Add Existing** dropdown list, select **SLA**.
-7. Select the SLA that you want to add from the **Select solution components** dialog.
+7. Select the SLA records that you want to add from the **Select solution components** dialog.
 8. On the **Add Required Components** dialog, and select **OK**.
 9. Select **Save**, and then select **Publish All Customizations**.
 10. On the **Publish Customization** dialog box, select **Publish All customizations** and then select **Next**.
@@ -127,8 +127,15 @@ After the import is complete, refresh the organization to view the imported solu
 1. Select the latest version of the solution zip and select **Import**.
 After the import is complete, a confirmation message appears.
 
+> [!NOTE]
+> We recommend that you maintain a single solution for SLAs.
+
 ## Next steps
 
 If you have calendars added to the SLA, open the org in classic view and go to **SLA settings** to **Enable calendar export and import** to **Yes**.
 
 You need to enable it to import or export the calendar with SLAs for any orgs.
+
+## See Also
+
+[Upgrade solution troubleshooting](/troubleshoot/dynamics-365/customer-service/service-level-agreements/slaitem-changes-missing-upgrade)
