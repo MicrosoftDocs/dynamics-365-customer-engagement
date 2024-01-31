@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 12/08/2023
+ms.date: 01/30/2024
 ms.custom: bap-template 
 ms.collection:
 ---
@@ -35,14 +35,18 @@ However, for agents to use these features in Customer Service Hub and custom app
 
 You have the System Administrator role.
 
-## Region availability and supported languages
+## Region availability and data movement
 
 The option to enable Copilot AI features is available by default to customers with environments that have United States, Australia, and United Kingdom as their geography for data processing and storage. For all other regions, [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center app before you can opt in to use Copilot.
 
+  :::image type="content" source="../media/ppac-enable-gen-ai.png" alt-text="Screenshot of the power platform admin center generative ai features.":::
+
+The respond to questions, compose an email, and summarize cases and conversations features are generally available in the North America region only. These features are in preview in the rest of the supported regions. More information: [Region availability](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights).
+
+## Supported languages
 
 To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
-The respond to questions, compose an email, and summarize cases and conversations features are generally available in the North America region only. These features are in preview in the rest of the supported regions. More information: [Region availability](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights)
 
 ## Data sharing for copilot features
 
@@ -105,11 +109,7 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvReadmsdyn_copilotsummarizationsetting 
 - prvReadmsdyn_conversationinsight
 - prvWritemsdyn_copilottranscriptdata 
-- prvAppendTomsdyn_copilottranscriptdata 
-- prvReadmsdyn_copilottranscript 
-- prvCreatemsdyn_copilottranscript 
-- prvWritemsdyn_copilottranscript 
-- prvAppendTomsdyn_copilottranscript 
+- prvAppendTomsdyn_copilottranscriptdata  
 - prvReadmsdyn_copilottranscriptdata 
 - prvCreatemsdyn_copilottranscriptdata 
 - prvWritemsdyn_copilottranscriptdata 

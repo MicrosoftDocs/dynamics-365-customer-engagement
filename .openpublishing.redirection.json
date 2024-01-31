@@ -909,6 +909,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/develop/rich-text-editor-ka.md",
+      "redirect_url": "administer/rich-text-editor-ka",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/timeline-faqs.md",
       "redirect_url": "/powerapps/user/faq-for-timeline-and-activity",
       "redirect_document_id": "false"
@@ -32581,6 +32586,11 @@
     {
       "source_path": "ce/customer-service/set-up-search-providers.md",
       "redirect_url": "/dynamics365/customer-service/administer/set-up-search-providers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-troubleshooting.md",
+      "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
       "redirect_document_id": false
     }
   ]

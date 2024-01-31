@@ -5,21 +5,15 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 04/05/2023
+ms.date: 01/16/2024
 ms.custom: bap-template
 ---
 
 # Manage custom productivity tools (preview)
 
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
+[This article is prerelease documentation and is subject to change.]
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
 The productivity pane supports custom productivity tools developed as custom pages or Power Apps component framework controls. You can create multiple custom productivity tools and make them available to your users with agent experience profiles.
 
@@ -36,7 +30,7 @@ Ensure that the following prerequisites are met:
 1. In Dynamics 365, go to Customer Service admin center.
 1. In the site map, select **Productivity** in **Agent experience**.
 1. On the page that appears, select **Manage** for **Productivity tools (Preview)**.
-1. Select **New**, enter the following details on **New Pane tool configuration**:
+1. Select **New**, and enter the following details on **New Pane tool configuration**:
 
    - **Name**: The display name of the custom productivity tool.
    - **Unique Name**: A unique name.
@@ -44,6 +38,7 @@ Ensure that the following prerequisites are met:
      - **Custom Page Name**: The name of the custom page.
      - **Control Name**: The name of the control.
    - **Icon**: The web resource containing the target icon to be displayed in the productivity pane (optional).
+   - **Global**: Select **Yes**. The custom tool is globally available across sessions, including the home session.
    - **Description**: A description of the productivity pane (optional).
    - **Learn More Link**: A link to the help page for the custom productivity tool (optional).
 1. Save the changes.
@@ -52,8 +47,9 @@ Ensure that the following prerequisites are met:
 1. Enable the custom productivity tool, and save the changes.
 
  > [!NOTE]
- > - Custom productivity tools hosted in the productivity pane are not contextually bound to the session. 
- > - Custom productivity tools don't have a mechanism to retrieve information from the session context.
+ > Custom productivity tools,
+ > - hosted in the productivity pane aren't contextually bound to the session. 
+ > - don't have a mechanism to retrieve information from the session context.
 
 ### See also
 

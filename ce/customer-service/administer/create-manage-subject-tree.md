@@ -35,7 +35,9 @@ You can create or edit a subject in the Customer Service admin center or Custome
      1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
      1. In the **Subjects** section, select **Manage**.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
     
      1. In the site map, select **Service Management**.
      2. Select **Subjects** in **Case Settings**. 

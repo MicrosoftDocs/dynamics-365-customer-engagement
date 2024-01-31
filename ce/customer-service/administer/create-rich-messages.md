@@ -23,9 +23,11 @@ By creating and publishing channel-specific rich messages, your organization's c
      1. In the site map, select **Productivity** in **Agent experience**.
      2. On the **Productivity** page, select **Manage** for **Rich messages**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-
-    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Rich messages**.
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+    
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+    
+    - - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Rich messages**.
 
 1. Select **New**, and then enter the following information:
     - **Name**: A descriptive name that'll be used by agents to search for rich messages.

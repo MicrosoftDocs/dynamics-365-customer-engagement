@@ -27,6 +27,8 @@ The Copilot help pane allows agents to use Copilot features such as respond to q
    - The locale is set to English
 - If you aren't in the North America region and you want to use the web search powered by Bing feature, you must enable data movement across regions and Bing search in Power Platform admin center. See [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot).
 
+   :::image type="content" source="../media/ppac-gen-ai-features.png" alt-text="Power Platform Admin center bing chat.":::
+
 ## Enable Copilot assist features
 
 Perform the following steps to enable the Copilot features in Customer Service admin center:

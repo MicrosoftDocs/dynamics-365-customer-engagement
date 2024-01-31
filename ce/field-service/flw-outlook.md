@@ -125,7 +125,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
    :::image type="content" source="media/fsp-outlook-fsp-pane.png" alt-text="Field Service Outlook Create work order pane":::
 
    > [!TIP]
-   > Copy relevant information from the email into the **Summary** field. For general information about work orders, see [Work order architecture](field-service-architecture.md).
+   > Copy relevant information from the email into the **Summary** field, up to 8,000 characters. For general information about work orders, see [Work order architecture](field-service-architecture.md).
 
 1. Select **Save**.
 
@@ -190,7 +190,7 @@ If you don't need to change the assigned technician, just the date or time of th
 
 1. Find the work order you want to view:
 
-   - Type the work order ID in the **Find by ID** box and select **Search**.
+   - Type the work order ID in the **Find by ID** box and select **Search**. Clear any filters first.
 
    - To filter the list by status or priority, select **Filter**, make your choice, and then select **Apply**.
 

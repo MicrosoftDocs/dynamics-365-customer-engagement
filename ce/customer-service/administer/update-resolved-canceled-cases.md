@@ -26,7 +26,9 @@ Perform the following steps to enable modifications to cases that are in the res
      
      1. Select **Manage** for **Other settings**.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
    
      1. In the **Service Management** site map, select **Service Configuration Settings** in **Service Terms**. 
     

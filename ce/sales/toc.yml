@@ -606,12 +606,18 @@
           items:
             - name: Set up conversation intelligence in Sales Hub app
               href: fre-setup-ci-sales-app.md
+            - name: Set up own storage for call recordings
+              href: create-azure-repo.md
             - name: Configure sales team level settings
               href: configure-sales-team-level-settings.md
             - name: Configure and view your team page in sales app
               href: configure-view-your-team-page-sales-app.md
             - name: Configure conversation content
               href: configure-keywords-competitors-sales-app.md
+            - name: Prepare for the migration to Dataverse
+              href: prepare-for-ci-migration-to-dataverse.md
+            - name: Manage conversation intelligence data in Dataverse
+              href: conversation-intelligence-data-storage.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
         - name: Configure in conversation intelligence app
@@ -630,8 +636,6 @@
           href: ci-third-party-sp-integration.md
         - name: Integrate with Twilio Flex (preview)
           href: Integrate-TwilioFlex-with-CI.md
-        - name: Create a call recording repository in Azure
-          href: create-azure-repo.md
         - name: Languages supported
           href: language-support-conversation-intelligence.md
     - name: Dashboards and reports
@@ -1225,6 +1229,36 @@
           href: developer/entities/metric.md
         - name: msdyn_callablecontext
           href: developer/entities/msdyn_callablecontext.md
+        - name: About Table/Entity Reference
+          href: developer/about-entity-reference.md
+        - name: msdyn_ConversationActionItem
+          href: developer/entities/msdyn_conversationactionitem.md
+        - name: msdyn_ConversationAggregatedInsights
+          href: developer/entities/msdyn_conversationaggregatedinsights.md
+        - name: msdyn_ConversationParticipantInsights
+          href: developer/entities/msdyn_conversationparticipantinsights.md
+        - name: msdyn_ConversationParticipantSentiment
+          href: developer/entities/msdyn_conversationparticipantsentiment.md
+        - name: msdyn_ConversationQuestion
+          href: developer/entities/msdyn_conversationquestion.md
+        - name: msdyn_ConversationSentiment
+          href: developer/entities/msdyn_conversationsentiment.md
+        - name: msdyn_ConversationSignal
+          href: developer/entities/msdyn_conversationsignal.md
+        - name: msdyn_ConversationSubject
+          href: developer/entities/msdyn_conversationsubject.md
+        - name: msdyn_ConversationSummarySuggestion
+          href: developer/entities/msdyn_conversationsummarysuggestion.md
+        - name: msdyn_ConversationSystemTag
+          href: developer/entities/msdyn_conversationsystemtag.md
+        - name: msdyn_ConversationTag
+          href: developer/entities/msdyn_conversationtag.md
+        - name: msdyn_ocrecording
+          href: developer/entities/msdyn_ocrecording.md
+        - name: msdyn_SCIConversation
+          href: developer/entities/msdyn_sciconversation.md
+        - name: msdyn_transcript
+          href: developer/entities/msdyn_transcript.md
         - name: Opportunity
           href: developer/entities/opportunity.md
         - name: OpportunityClose
