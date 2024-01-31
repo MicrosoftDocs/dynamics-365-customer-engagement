@@ -132,7 +132,13 @@ By default, the **Up next** widget is displayed on the **Default Main** and **Sa
 >[!NOTE]
 >Enable sales insights in your organization before you add the site map to your custom app.
 
-When you create a custom model-driven app and choose a default solution to create a sitemap for the app. However, the list contains solutions that are based on entity forms only. The sales accelerator option is based on URL custom control forms and do not appear in the solution list. You must manually add the option to the sitemap. After you add these options, users in your organization can see them on the app’s sitemap. To know how to add site map entry to your custom app, see [Add site map entry to custom app](add-custom-site-map.md).
+When you create a custom model-driven app and choose a default solution to create a sitemap for the app. However, the list contains solutions that are based on entity forms only. The sales accelerator option is based on URL custom control forms and do not appear in the solution list. You must manually add the option to the sitemap. After you add these options, users in your organization can see them on the app’s sitemap.  
+Use the following URLs to add the sale accelerator site map to your custom app and perform the steps in [add site map entry to custom app](add-custom-site-map.md):
+
+| Feature name      | URL                                                                                         |
+|-------------------|---------------------------------------------------------------------------------------------|
+| Sales accelerator | `/main.aspx?pagetype=control&controlName=MscrmControls.AcceleratedSales.AnchorShellControl` |
+
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

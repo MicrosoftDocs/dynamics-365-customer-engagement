@@ -1,6 +1,6 @@
 ---
-title: Add site map entry to custom app
-description: Learn how to add a site map entry to your custom app in a few simple steps.
+title: Add pages to your app's site map
+description: Learn how to customize the navigation of your custom Dynamics 365 Sales app by adding pages to the site map.
 ms.date: 02/02/2024
 ms.topic: how-to
 author: udaykirang
@@ -9,37 +9,52 @@ ms.owner: shujoshi
 ms.custom: bap-template
 ---
 
-# Add site map entry to custom app
+# Add pages to your app's site map
 
-When you create a custom model-driven app, you can choose a default solution to create a sitemap for the app. However, the list contains solutions that are based on entity forms only. More information: [Create a model-driven app site map using the site map designer](/power-apps/maker/model-driven-apps/create-site-map-app).
+When you create a custom model-driven app, it comes with a default site map. You can [edit the default site map](/power-apps/maker/model-driven-apps/create-site-map-app#edit-the-default-site-map) to add or remove groups, areas, and subareas, or [create a site map from scratch](/power-apps/maker/model-driven-apps/create-site-map-app). Whether you use the default site map or a new one, you can add pages to easily customize your app's navigation.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or similar role<br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | [System Administrator or similar role](security-roles-for-sales.md) |
 
-## Add the site entry
+## Add pages to the site map
 
-In this procedure, we're using URL to add a site map entry.
+Add an entry to the site map from a Dataverse table, a dashboard, a URL, a web resource, or a custom page.
 
 1. Sign in to [Power Apps portal](https://make.preprod.powerapps.com/).
-1. On the left navigation pane, select **Apps**.
-1. Select the app and then select **Edit**.
-1. In the custom app edit page, from the **Navigation** section, hover over the group name for which you want to add the site map entry and then select **New page**.
-1. In the **New page** dialog box, select an option according to your requirement. Here, we are adding the site map entry using a **URL**.
-1. Select **Next**.
-1. Enter the following URL information and title depending on the feature:
-    
-    | Feature name                | URL                                                                                             |
-    |-----------------------------|-------------------------------------------------------------------------------------------------|
-    | Administrator settings overview page | `/main.aspx?pagetype=control&controlName=MscrmControls.FieldControls.CCFadminsettings` |
-    | Forecast grid               | `/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.ForecastGridPage` |
-    | Forecast configuration      | `/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.CCFForecastConfig` |
-    | Sales accelerator           | `/main.aspx?pagetype=control&controlName=MscrmControls.AcceleratedSales.AnchorShellControl` |
-    
+
+1. In the left pane, select **Apps**.
+
+1. Select your app, and then select **Edit**.
+
+    You can also select the app's name in the list to open it for editing.
+
+1. In the **Navigation** section, select the name of the group to add the page to, and then select **New**.
+
+    You can also select the ellipsis (**&hellip;**) next to the group name, and then select **New page**.
+
+    :::image type="content" source="./media/add-custom-site-map-page.svg" alt-text="Screenshot of a custom app editing page, with options for adding a new page highlighted.":::
+
+1. Select a content type for the new page, and then select **Next**.
+
+1. Select the content to add to the page.
+
+    | Content type | Description |
+    |--------------|-------------|
+    | **Dataverse table** | Search for and select a table from the list. You can also create a table from here. |
+    | **Dashboard** | Select a dashboard from the list. |
+    | **URL** | Enter a URL and a title. |
+    | **Web resource** | Select a web resource from the list and enter a title. |
+    | **Custom page** | Create a custom page or select an existing one. |
+
+    For example, to add the administrator settings overview page to the site map, select **URL** and enter the following URL: `/main.aspx?pagetype=control&controlName=MscrmControls.FieldControls.CCFadminsettings`.
+
 1. Select **Add**.
-1. Save and publish the custom app.
+
+1. Save and publish the app.
 
 The site map entry is added to your custom app.
 
