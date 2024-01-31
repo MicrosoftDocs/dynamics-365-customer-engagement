@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer:
 ms.topic: faq
 ms.collection:
-ms.date: 01/16/2024
+ms.date: 01/31/2024
 ms.custom: bap-template
 ---
 
@@ -44,7 +44,7 @@ See [how presence status is updated](oc-manage-presence-status.md#how-presence-s
 
 ## Does presence load when agents have custom roles
 
-See the [prerequisites](oc-manage-presence.md#prerequisites) that are required for the presence status to load correctly.
+See the [prerequisites](oc-manage-presence-status.md#prerequisites) that are required for the presence status to load correctly.
 
 ## Next steps
 
