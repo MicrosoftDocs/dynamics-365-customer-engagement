@@ -13,6 +13,9 @@ ms.custom:
   - ai-seo-date:01/12/2024
 ---
 
+<!-- Sentence in line 67 has an extra "are". You'll need to decide which one to remove. -->
+
+
 # Migrate assignment rules and segments
 
 Use the Configuration Migration tool to migrate assignment rules and segments from one organization to another.
@@ -49,16 +52,12 @@ The schema file (.xml) contains information about the data that you want to expo
    > Set the 'numberofinputthreads' parameter value to 1 in the **DataMigrationUtility.exe.config** file. If not set correctly, segment import may fail due to concurrency control on the segment attribute record.
 1. Define the schema of the source data to be exported into a .zip file. More information: [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)
 
-
-
-
-
 ## Import the schema file to the target environment
 
 After exporting the required data from the source environment, you're now ready to import it to the target environment.
 
 1. Open the Configuration Migration tool. Go to the folder where you downloaded the tool: `[your folder]\Tools\ConfigurationMigration\`, and double-click **DataMigrationUtility.exe**.
-1. Import the zipped schema file that you created in the previous section. More information: [Import configuration data](/power-platform/admin/import-configuration-data).
+1. Import the zipped schema file that you created in the previous section. More information: [Import configuration data](/power-platform/admin/import-configuration-data)
 1. After the import process is completed successfully, all the checks will turn green, as shown in the image: 
 
   :::image type="content" source="media/wa-import-schema-successful-import.png" alt-text="Screenshot of successful import of schema file to the target environment.":::
