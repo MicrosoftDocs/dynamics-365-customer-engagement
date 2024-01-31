@@ -15,6 +15,9 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+> [!NOTE]
+> This feature is currently available as early access in NAM (North America) region. To enable the early access for your organization, see [Turn on preview features for Copilot in Dynamics 365 Sales](copilot-preview-features.md).
+
 Copilot for email suggests content while composing or replying to emails, saving you time and effort. It provides AI-generated drafts based on your input, recent emails, and related information. You can select from predefined response categories or input your own text, and the AI generates the suggested content. You can use it as-is or modify it as per your requirements.
 
 > [!NOTE]
@@ -25,12 +28,17 @@ Copilot for email suggests content while composing or replying to emails, saving
 
 Ensure that the Copilot feature is enabled for your Dynamics 365 Sales organization. More information: [Enable and set up copilot capabilities](enable-setup-copilot.md)
 
-## View the Copilot composer
+## View the Copilot email composer
 
 Copilot is available for lead and opportunity records with the Dynamics 365 email experience.  
-Sign in to your sales app and the Copilot (:::image type="content" source="media/copilot-icon.png" alt-text="Image of the copilot icon.":::) icon appears on the upper-right corner of the page. The composer is inactive until you open the email.  
-Open an email from a record using the Up next widget, Timeline, or quick create email activity. The Copilot composer becomes active.  
-When opening an email from Timeline or quick create email activity, ensure that the Regarding field contains a lead or an opportunity.  
+Sign in to your sales app and the Copilot (:::image type="content" source="media/copilot-icon.png" alt-text="Image of the copilot icon.":::) icon appears on the upper-right corner of the page. The email composer is inactive until you open the email.  
+Open an email from a record using the Up next widget, Timeline, or quick create email activity. The Copilot email composer becomes active.  
+
+When opening an email from Timeline or quick create email activity, ensure that the **Regarding** field contains a lead or an opportunity.  
+
+> [!NOTE]
+> If you have opted in for the early access, you can see the Copilot email composer is active for account, contact, lead, and opportunity records and the Regarding field can contain any of the .
+
 
 ## Compose or reply to an email
 
@@ -38,7 +46,7 @@ When you're sending an email, you can provide the context for the email in the C
 
 1.	Open a new or an existing email from a lead or an opportunity record.
 
-1. On the **Copilot** pane, go to the **Compose** tab.
+1. On the **Copilot** pane, go to the **Email (preview)** tab.
 
 1. Select **Describe the email you want**.  
 
@@ -52,28 +60,43 @@ When you're sending an email, you can provide the context for the email in the C
     :::image type="content" source="media/copilot-draft-email-suggestion.png" alt-text="Screen shot of copilot pane with draft email suggestion.":::
 
     Do the following according to your needs:  
-    -	If you’re fine with the content, select Copy to email to paste the content in the email body. Edit the content according to your requirements and send the email.  
-    -	If you want to fine-tune the suggested content, enter the suggested statement in the **Describe the changes you want** textbox. To refine the draft, see [Refine suggested content](#refine-suggested-content).  
-    -	If you’re not satisfied with the draft and generate new content based on the same statement, select **Try again**. More information, see [Refine suggested content](#refine-suggested-content).  
+    - If the content meets your needs, select **Add to email** to insert it directly into the email body. Also, you can select the copy icon to copy the content and paste it into the email body. If required, edit the content according to your requirements and send the email.  
+    - If you want to fine-tune the suggested content, select the **Adjust draft** icon. Then, select your desired tone under the **Adjust tone** section and input your preferred statement into the **Add details** textbox. To refine the draft, see [Refine suggested content](#refine-suggested-content).  
+    - If you’re not satisfied with the draft and generate new content based on the same statement, select **More options** > **Try again**. More information, see [Refine suggested content](#refine-suggested-content).  
 
 ## Refine suggested content
 
 After you’ve generated the suggested content, you can refine the results further by providing a new prompt that builds upon the previous suggestion or generate new suggested content. This allows you to fine-tune your email replies according to the needs and preferences. 
 
-**To refine the content**:
+**To refine the suggested content**:
 
-1.	Enter a statement to refine the suggested content in the **Describe the changes you want** textbox. For example: Make it formal, make it shorter, or suggest a meeting next week. 
-1.	Press **Enter**.
-1.	Review the suggested content and select **Copy to email** to paste the content in the email body.
+1. Select the **Adjust draft** icon.  
+
+1. Choose the tone type under **Adjust tone**.  
+
+    The tone type is selected by default based on the statement you entered and it is grayed out. You can choose a different tone type if required. The following tone types are available: **Formal**, **Professional**, and **Friendly**.
+
+1. Enter a statement to refine the suggested content in the **Add details** textbox. For example: Make it formal, make it shorter, or suggest a meeting next week. 
+
+1. Select **Update**.
+
+1. Review the suggested content and select **Add to email** or the copy icon to paste the content in the email body.
 
 **To generate different suggestion based on the statement**:
 
-1.	Select **Try again**.  
-    New content is generated based on the statement. 
-1.	Review the suggested content and select **Copy to email** to paste the content in the email body.  
+1. Select **More options** > **Try again**.  
+    New content is generated based on the statement.  
+1. Review the suggested content and select  **Add to email** or the copy icon to paste the content in the email body.  
 
 > [!NOTE]
-> To restore the content to the previous version, select the undo (:::image type="content" source="media/undo-icon.png" alt-text="Image of the undo icon.":::) icon beside **Try again**. 
+> To restore the content to the previous version, select **More options** and then select **Restore last version**. 
+
+**To start a fresh draft**:
+
+1. Select **More options** > **Start over**.  
+
+    The Copilot email composer is cleared and you can start a new draft.
+
 
 ### See also
 
