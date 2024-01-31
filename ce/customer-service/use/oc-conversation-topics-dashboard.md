@@ -4,6 +4,7 @@ description: Learn about the Conversation topics dashboard in Omnichannel histor
 ms.date: 10/12/2022
 ms.topic: article
 author: gandhamm
+ms.collection: bap-ai-copilot
 ms.author: mgandham
 ---
 

@@ -6,7 +6,7 @@ ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.collection: 
+ms.collection: bap-ai-copilot
 ms.custom: bap-template
 ---
 
