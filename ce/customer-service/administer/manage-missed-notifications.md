@@ -1,10 +1,13 @@
 ---
 title: Enable missed notifications
 description: Learn about managing notifications that are missed by agents.
-ms.date: 04/04/2022
-ms.topic: article
+ms.date: 01/31/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer:
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Enable missed notifications

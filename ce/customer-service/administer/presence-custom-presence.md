@@ -1,7 +1,7 @@
 ---
 title: Configure custom presence
 description: Learn to configure custom presence in Omnichannel for Customer Service.
-ms.date: 01/05/2024
+ms.date: 01/31/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The presence status indicates an agent's availabilityn to take up work items. A presence status consists of two elements:
+The presence status indicates an agent's availability to take up work items. A presence status consists of two elements:
 
 - **Base status**: The base presence status that indicates an agent's status. The work distribution system distributes work items to agents according to the base statuses that you select as allowed presences at the time of creating a workstream. The base statuses are as follows:
   - Available
