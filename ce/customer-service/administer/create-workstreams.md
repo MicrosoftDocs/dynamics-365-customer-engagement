@@ -1,11 +1,13 @@
 ---
-title: "Create and manage workstreams | MicrosoftDocs"
-description: "Use this article to understand how to create and manage workstreams in Customer Service and Omnichannel for Customer Service apps."
-ms.date: 05/05/2023
+title: Create and manage workstreams
+description: Learn about how to create and manage workstreams in Customer Service and Omnichannel for Customer Service.
+ms.date: 01/31/2024
 author: neeranelli
 ms.author: nenellim
-ms.topic: article
-ms.collection: get-started
+ms.reviewer:
+ms.topic: how-to
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Create and manage workstreams
@@ -118,7 +120,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
   > [!NOTE]
   > If you've selected **End of Day mode** in capacity profile, agent capacity won't be reset when the duration selected in the **Block capacity for wrap up** field is over.
 
-- **Allowed presences**: Select the presences in which agents will be assigned.
+- **Allowed presences**: Select the presence statuses in which agents can be assigned work. Don't select the **Inactive** and **Do not disturb** statuses if you don't want to assign new work items to agents when they [miss](manage-missed-notifications.md) or [reject](enable-agent-reject-notifications.md) notifications.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
 - **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned agent. More information: [Agent affinity](#agent-affinity)
 
@@ -134,7 +136,7 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 ### Add a bot to a workstream
 
-To add a bot to a workstream, the bot must be configured and available for selection.
+To add a bot to a workstream, you must configure the bot and make it available for selection.
 
 For Copilot Studio bots, see [Connect omnichannel to your Copilot Studio bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot).
 For Azure bots, see [Integrate Azure bots with Omnichannel for Customer Service](../configure-bot.md#integrate-azure-bots-with-omnichannel-for-customer-service).
