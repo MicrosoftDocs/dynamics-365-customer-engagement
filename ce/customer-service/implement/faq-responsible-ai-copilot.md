@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: faq
-ms.collection: 
+ms.collection: bap-ai-copilot
 ms.date: 11/21/2023
 ms.custom: 
 - bap-template
