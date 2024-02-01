@@ -19,7 +19,15 @@ ms.custom:
 
 # Turn on and set up Copilot in Dynamics 365 Sales
 
-Copilot is turned on by default in all Sales apps for orgs in North America. If your org is in a different region, or you want to configure the Copilot features, follow the instructions in this article.
+For orgs in North America, 
+
+- Copilot chat is turned on by default in all Sales apps.
+
+- Copilot compose is turned on by default only if you've opted in for early access.
+
+For orgs in other regions, Copilot is turned off by default. 
+
+Use the instructions in this article to turn Copilot on or off and configure it for your business.
 
 ## License and role requirements
 
@@ -48,13 +56,15 @@ If you are in a region other than North America, provide consent for Copilot to 
 
     In some regions, you might see the consent terms in the **Set up Copilot in Dynamics 365 Sales** page. By selecting **Publish**, you provide consent for Copilot to process your data outside of your region. For these regions, separate consent in the Power Platform admin center isn't required.
 
-1. Under **Enable Copilot for**, select a global setting that you want to apply for all apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app.
+1. Under **Enable Copilot for**, select a global setting that you want to apply for all apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app. Select your option for the **Chat** and **Compose** Copilot features.
 
    :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub.":::  
 
-    By default, all Dynamics 365 Sales apps are set to **Default**. The Default setting has the following behavior:
+    The initial setting on this page depends on the setting for the org and the app. For example, if your Power Platform administrator had turned Copilot on for your org but your Power Apps administrator had turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
 
-    - For orgs in North America, Copilot is turned on for all Dynamics 365 Sales apps (with lead and opportunity tables), provided that the app is not in the exclusion list.
+    The **Default** setting has the following behavior:
+    
+    - For orgs in North America, Copilot Chat is turned on for all Dynamics 365 Sales apps (with lead and opportunity tables), provided that the app is not in the exclusion list. Copilot Compose is turned on only if you've opted in for early access.
 
     - For orgs in other regions, Copilot is turned on for all Dynamics 365 Sales apps that meet the following conditions:
 
@@ -63,12 +73,9 @@ If you are in a region other than North America, provide consent for Copilot to 
         - The [release channel](/power-apps/maker/model-driven-apps/channel-change) for the app is set to **Monthly release channel**.
 
         - The app is not in the exclusion list.
+        - For Copilot Compose, you've [opted in for preview features](copilot-preview-features.md).
+    
     - For apps that don't meet the above conditions, the **Default** settings turns Copilot off.
-
-    > [!NOTE]
-    > - You can turn Copilot on or off at the org-level in [Power Platform](/power-platform/admin/settings-features#copilot-preview) or at the app-level in Sales Hub (using instructions on this article) or [Power Apps](/power-apps/maker/model-driven-apps/add-ai-copilot).  
-    > - The app-level setting in Power Apps and Sales Hub are synchronized to match.  
-    > - The app-level setting overrides the org-level setting.  
 
 1. Select **Turn audit on** to turn on audit history for the lead and opportunity tables. If auditing is already turned on for the lead and opportunity tables or globally, the **Turn audit on** option isn't displayed.
 
@@ -78,6 +85,20 @@ If you are in a region other than North America, provide consent for Copilot to 
 1. Select **Publish**.
 
     The Welcome to Copilot pane opens in the right side pane with a quick tour.
+
+### Copilot settings in Power Platform and Power Apps
+
+You can turn Copilot on or off at multiple levels:
+
+- At the org-level in [Power Platform](/power-platform/admin/settings-features#copilot-preview). This setting applies to all apps in your org.
+- At the app-level in [Power Apps](/power-apps/maker/model-driven-apps/add-ai-copilot). This setting applies to a specific app.
+- At the Sales app-level in [Sales Hub](#turn-copilot-features-in-dynamics-365-apps-on-or-off). This setting applies to Sales apps.
+
+> [!NOTE]
+>- The app-level setting for Sales apps in both Power Apps and Sales Hub are synchronized to match. 
+>- The app-level setting overrides the org-level setting.
+
+The org-level setting in Power Platform is the default setting for all apps in your org. For example, if you turn Copilot on at the org-level, The **Enable Copilot for** setting in Sales Hub is set to **On** for the sales apps.  
 
 ## Configure fields for generating summaries and recent changes list
 
