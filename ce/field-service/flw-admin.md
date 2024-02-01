@@ -68,7 +68,7 @@ As an admin, you can enable or disable the use of copilot capabilities in Field 
 
    :::image type="content" source="media/fsp-fs-copilot-consent.png" alt-text="Field Service Settings page with Outlook Add-in Copilot highlighted.":::
 
-1. For **Copilot in Microsoft Outlook**, enable or disable the setting.
+1. For **Copilot in Microsoft Outlook**, enable the setting to give consent.
 
 1. Select **Save**.
 
