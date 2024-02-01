@@ -61,7 +61,9 @@ If you are in a region other than North America, provide consent for Copilot to 
     :::image type="content" source="media/enable-copilot-old.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub."::: 
 
     The settings page is different for following the following orgs:
+        
         - Orgs in North America that have opted in for early access.
+        
         - Orgs in other regions that have opted in for preview features.
 
     The new settings page contains an option to turn on Chat and Compose features at the global level for all Sales apps and individually for each Sales app. 
