@@ -13,6 +13,9 @@ search.audienceType:
 
 This sample shows how to add products to a bundle. You can download the sample from [here](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/AddProductsBundle).
 
+> [!NOTE]
+> You can add products only when the bundle is in draft or retired state.
+
 ## How to run this sample
 
 [!include[cc-how-to-run-samples](../../includes/cc-how-to-run-samples.md)]
