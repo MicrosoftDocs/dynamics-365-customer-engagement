@@ -22,11 +22,11 @@ Service request case associated with a contract.
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|ApplyRoutingRule|<xref href="Microsoft.Dynamics.CRM.ApplyRoutingRule?text=ApplyRoutingRule Action" />|Microsoft.Crm.Sdk.Messages.ApplyRoutingRuleRequest|
+|ApplyRoutingRule|Microsoft.Dynamics.CRM.ApplyRoutingRule?text=ApplyRoutingRule Action|Microsoft.Crm.Sdk.Messages.ApplyRoutingRuleRequest|
 |Assign|PATCH [*org URI*]/api/data/v9.0/incidents(*incidentid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|CalculateTotalTimeIncident|<xref href="Microsoft.Dynamics.CRM.CalculateTotalTimeIncident?text=CalculateTotalTimeIncident Function" />|Microsoft.Crm.Sdk.Messages.CalculateTotalTimeIncidentRequest|
-|CloseIncident|<xref href="Microsoft.Dynamics.CRM.CloseIncident?text=CloseIncident Action" />|Microsoft.Crm.Sdk.Messages.CloseIncidentRequest|
-|CloseQuote|<xref href="Microsoft.Dynamics.CRM.CloseQuote?text=CloseQuote Action" />|Microsoft.Crm.Sdk.Messages.CloseQuoteRequest|
+|CalculateTotalTimeIncident|Microsoft.Dynamics.CRM.CalculateTotalTimeIncident?text=CalculateTotalTimeIncident Function|Microsoft.Crm.Sdk.Messages.CalculateTotalTimeIncidentRequest|
+|CloseIncident|Microsoft.Dynamics.CRM.CloseIncident?text=CloseIncident Action|Microsoft.Crm.Sdk.Messages.CloseIncidentRequest|
+|CloseQuote|Microsoft.Dynamics.CRM.CloseQuote?text=CloseQuote Action|Microsoft.Crm.Sdk.Messages.CloseQuoteRequest|
 |Create|POST [*org URI*]/api/data/v9.0/incidents<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateMultiple|<xref href="Microsoft.Dynamics.CRM.CreateMultiple?text=CreateMultiple Action" />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
 |Delete|DELETE [*org URI*]/api/data/v9.0/incidents(*incidentid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
