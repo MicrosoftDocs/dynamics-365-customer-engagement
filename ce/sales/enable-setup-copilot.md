@@ -19,16 +19,11 @@ ms.custom:
 
 # Turn on and set up Copilot in Dynamics 365 Sales
 
-For orgs in North America, 
+For orgs in North America,
 
-- Copilot chat is turned on by default if the following conditions are met:
-    - The app includes lead and opportunity tables.
-    - The app is not in the exclusion list.
+- Copilot chat is turned on by default in all sales apps that include lead and opportunity tables and are not in the exclusion list.
 
-- Copilot compose is turned on by default if the following conditions are met: 
-    - Your org has opted in for early access.
-    - The app includes lead and opportunity tables.
-    - The app is not in the exclusion list.
+- Copilot compose is turned on by default in all sales apps that include lead and opportunity tables and are not in the exclusion list, and the org has opted in for early access. 
 
 For orgs in other regions, Copilot is turned off by default. 
 
