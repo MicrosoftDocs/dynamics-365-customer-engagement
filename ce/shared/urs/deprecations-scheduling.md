@@ -7,7 +7,7 @@ Features that have been deprecated in Universal Resource Scheduling are listed i
 
 Effective from 1 April 2023, the legacy schedule board control is deprecated and replaced with an updated schedule board control (located in the Resource Scheduling Controls solution). However, the control will be completely removed in a future release.
 
-Users who had previously accessed the schedule board through a hardcoded URL can add the Schedule Board Setting entity list view to their sitemap to launch the schedule board control by following the instructions listed [here](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/add-edit-app-components#add-a-component). 
+Users who had previously accessed the schedule board through a hardcoded URL can add the *Schedule Board Setting* entity list view to their sitemap to launch the schedule board control by [following the steps to add a component](/power-apps/maker/model-driven-apps/add-edit-app-components#add-a-component).
 
 ## Deprecated: Configuration to automatically create a booking when an appointment is created
 
