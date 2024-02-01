@@ -6,7 +6,6 @@ ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
 ---
-# Overview of admin settings  
 
 Admin settings provide an organized and unified experience for administrators to easily configure the Dynamics 365 Sales app from a single place.
 

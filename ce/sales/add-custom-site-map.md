@@ -56,8 +56,6 @@ Add an entry to the site map from a Dataverse table, a dashboard, a URL, a web r
 
 1. Save and publish the app.
 
-The site map entry is added to your custom app.
-
 ### See also
 
-[Customize the app](manage-app.md)
+- [Customize the Dynamics 365 Sales app](manage-app.md)

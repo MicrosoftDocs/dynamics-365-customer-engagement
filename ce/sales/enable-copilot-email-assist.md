@@ -5,7 +5,8 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to 
-search.app: salescopilot-docs 
+search.app: salescopilot-docs
+ms.collection: bap-ai-copilot 
 ms.date: 07/28/2023
 ms.custom: bap-template 
 ---

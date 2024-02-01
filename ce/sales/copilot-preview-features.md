@@ -13,6 +13,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
 ---
 
 # Turn on preview features for Copilot in Dynamics 365 Sales
