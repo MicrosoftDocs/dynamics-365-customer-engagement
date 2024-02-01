@@ -44,7 +44,22 @@ If you are in a region other than North America, provide consent for Copilot to 
 
 - [Turn on data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
-## Turn Copilot features in Dynamics 365 apps on or off
+
+### Connection between Copilot settings in Power Platform, Power Apps, and Sales Hub
+
+You can turn Copilot on or off at multiple levels:
+
+- At the org-level in [Power Platform](/power-platform/admin/settings-features#copilot-preview). Use this setting to turn Copilot on or off for all apps in your org. 
+- At the app-level in [Power Apps](/power-apps/maker/model-driven-apps/add-ai-copilot). Use this setting to turn Copilot on or off for a specific app.
+- At the Sales app-level in [Sales Hub](#turn-copilot-features-on-or-off-in-sales-hub). Use this setting to turn Copilot on or off for all Sales apps from a single page.
+
+> [!NOTE]
+>- The app-level setting for Sales apps in both Power Apps and Sales Hub are synchronized to match.  
+>- The app-level setting overrides the org-level setting.
+
+The org-level setting in Power Platform is the default setting for all apps in your org. For example, if you turn Copilot on at the org-level, the **Enable Copilot for** setting in Sales Hub is set to **On** for the sales apps.  
+
+## Turn Copilot features on or off in Sales Hub
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
@@ -96,19 +111,6 @@ If you are in a region other than North America, provide consent for Copilot to 
 
     The Welcome to Copilot pane opens in the right side pane with a quick tour.
 
-### Copilot settings in Power Platform and Power Apps
-
-You can turn Copilot on or off at multiple levels:
-
-- At the org-level in [Power Platform](/power-platform/admin/settings-features#copilot-preview). This setting applies to all apps in your org.
-- At the app-level in [Power Apps](/power-apps/maker/model-driven-apps/add-ai-copilot). This setting applies to a specific app.
-- At the Sales app-level in [Sales Hub](#turn-copilot-features-in-dynamics-365-apps-on-or-off). This setting applies to Sales apps.
-
-> [!NOTE]
->- The app-level setting for Sales apps in both Power Apps and Sales Hub are synchronized to match. 
->- The app-level setting overrides the org-level setting.
-
-The org-level setting in Power Platform is the default setting for all apps in your org. For example, if you turn Copilot on at the org-level, The **Enable Copilot for** setting in Sales Hub is set to **On** for the sales apps.  
 
 ## Configure fields for generating summaries and recent changes list
 
