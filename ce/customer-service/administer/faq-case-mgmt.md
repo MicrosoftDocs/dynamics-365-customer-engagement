@@ -74,7 +74,9 @@ A case is resolved only when you select **Resolve case** on the command bar. You
 
 ### I used the form selector on the Enhanced full case form to navigate to another form. Why can't I go back to the enhanced form?
 
-The **ShowInFormSelector** option in Enhanced full case form is set to **False**, by default.  Set **ShowInFormSelector** to **True**, to see the **Enhanced full case form** option in the form selector and navigate back to it.
+Starting Feb 1 2024, the **Enhanced case form** is available in the form selector by default as an [early access feature](/power-platform/admin/opt-in-early-access-updates).
+
+If you haven't opted in to the early access feature, you won't be able to navigate to Enhanced case form using form selector since the **ShowInFormSelector** option in Enhanced full case form is set to **False**. Set **ShowInFormSelector** to **True** through FormXML, to see the **Enhanced full case form** option in the form selector and navigate back to it.
 
 ### Why are agents seeing the Enhanced case form when they create a case even if I haven't enabled Enhanced case experience?
 
