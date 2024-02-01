@@ -1,7 +1,7 @@
 ---
 title: New work order experience
 description: Learn about the new work order experience in Dynamics 365 Field Service, including how to manage work orders and customize forms.
-ms.date: 07/14/2023
+ms.date: 02/01/2024
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -139,6 +139,32 @@ If trade coverage is set to not cover a trade, a warning is displayed in the wor
 ## Customization considerations
 
 For more information about customizing work orders, see [Customization considerations for the work order form](work-order-customization.md).
+
+## New work order as default experience
+
+In the near future, the new work order experience becomes the new default view for all organizations automatically. To opt out from the planned change, an admin needs to change a setting for your organization.
+
+> [!NOTE]
+> The update to the new work order experience won't override any of your custom logic to set default forms.
+
+### Opt out to get the new experience as default
+
+Before you install the 2024 release wave 1 early access update, complete the following steps to opt out from changing the default experience.
+
+1. In Field Service, open the Advanced settings.
+1. Go to **Customizations** > **Entities** > **Field Service Setting** > **Forms** > **Information (main form)**.
+1. In the **Other** tab on the form configuration, set the **Advanced Settings** field to be visible by default.
+1. In Field Service, change to the **Settings** area and select **Field Service Settings**.
+1. Select the **Other** tab and append the flag `workorderexperienceOptOut=true` in the **Advanced Settings** field.
+
+### Revert the change when the new experience is set as default
+
+You can change back to the classic work order experience if the new experience was updated for your organization.
+
+1. In Field Service, open the Advanced settings.
+1. Go to **Customizations** > **Solutions**.
+1. Uninstall the *msdyn_FieldServiceDefaultComponents* solution.
+1. [Opt out from the new experience](#opt-out-to-get-the-new-experience-as-default) and skip installing the solution in subsequent updates.
 
 ### See also
 
