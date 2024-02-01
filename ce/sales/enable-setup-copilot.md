@@ -21,9 +21,14 @@ ms.custom:
 
 For orgs in North America, 
 
-- Copilot chat is turned on by default in all Sales apps.
+- Copilot chat is turned on by default if the following conditions are met:
+    - The app includes lead and opportunity tables.
+    - The app is not in the exclusion list.
 
-- Copilot compose is turned on by default only if you've opted in for early access.
+- Copilot compose is turned on by default if the following conditions are met: 
+    - Your org has opted in for early access.
+    - The app includes lead and opportunity tables.
+    - The app is not in the exclusion list.
 
 For orgs in other regions, Copilot is turned off by default. 
 
@@ -52,17 +57,25 @@ If you are in a region other than North America, provide consent for Copilot to 
 
 1. In the **Set up Copilot in Dynamics 365 Sales** page, select **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.
 
-1. If you haven't provided consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot).
+1. If you haven't provided consent for data movement, you'll see the **Go to Power Platform admin center** option. Select it and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot).
 
     In some regions, you might see the consent terms in the **Set up Copilot in Dynamics 365 Sales** page. By selecting **Publish**, you provide consent for Copilot to process your data outside of your region. For these regions, separate consent in the Power Platform admin center isn't required.
 
-1. Under **Enable Copilot for**, select a global setting that you want to apply for all apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app. Select your option for the **Chat** and **Compose** Copilot features.
+1. Under **Enable Copilot for**, select a global setting that you want to apply for all Sales apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app. 
 
-   :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub.":::  
+    :::image type="content" source="media/enable-copilot-old.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub."::: 
 
-    The initial setting on this page depends on the setting for the org and the app. For example, if your Power Platform administrator had turned Copilot on for your org but your Power Apps administrator had turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
+    The settings page is different for following the following orgs:
+        - Orgs in North America that have opted in for early access.
+        - Orgs in other regions that have opted in for preview features.
 
-    The **Default** setting has the following behavior:
+    The new settings page contains an option to turn on Chat and Compose features at the global level for all Sales apps and individually for each Sales app. 
+
+    :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub.":::  
+
+    The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform administrator had turned Copilot on for your org but your Power Apps administrator had turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
+
+    By default, the **Enable Copilot for** option is set to **Default**. The **Default** setting has the following behavior:
     
     - For orgs in North America, Copilot Chat is turned on for all Dynamics 365 Sales apps (with lead and opportunity tables), provided that the app is not in the exclusion list. Copilot Compose is turned on only if you've opted in for early access.
 
