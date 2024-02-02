@@ -18,6 +18,12 @@ Dynamics 365 Field Service provides an Outlook add-in for frontline managers to 
 
 - You have completed [Get started with Field Service in Outlook](flw-outlook-get-started.md).
 
+To use copilot features:
+
+- Your administrator has [enabled Copilot in Microsoft Outlook](flw-admin.md#give-consent-to-use-copilot-in-field-service-for-outlook).
+- You must have a paid Field Service environment. Copilot isn't available in trial environments.
+- Your environment is [updated](update-field-service.md) to the latest 2023 wave 2 build.
+
 ## Create a work order with Copilot
 
 Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you don't see the Copilot icon, your admin might have disabled this feature.
