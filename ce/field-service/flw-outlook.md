@@ -1,7 +1,7 @@
 ---
 title: Manage work orders with Field Service in Outlook (frontline managers) 
 description:  Learn how service managers and dispatchers can use the Dynamics 365 Field Service for Outlook add-in to create, view, update, and schedule work orders with AI assistance in Outlook.
-ms.date: 01/25/2024
+ms.date: 02/02/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -12,7 +12,11 @@ ms.subservice: m365-integrations
 
 # Manage work orders with Field Service in Outlook (frontline managers)
 
-Dynamics 365 Field Service provides an Outlook add-in for frontline managers to create, view, and edit work orders directly from their email. Without leaving Outlook, you can quickly respond to requests for service or questions about existing requests. With Copilot, you can quickly create a work order with the information from the email, respond with proposed schedules, or confirm a schedule. You can quickly select and book a technician. You can also create a work order manually and use the [Field Service schedule board](work-with-schedule-board.md) for scheduling.
+Dynamics 365 Field Service provides an Outlook add-in for frontline managers to create, view, and edit work orders directly from their email. Without leaving Outlook, you can quickly respond to requests for service or questions about existing requests. With Copilot, you can quickly create a work order with the information from the email, respond with proposed schedules, or confirm a schedule. You can quickly select and book a technician. 
+
+   :::image type="content" source="media/fsp-outlook-copilot-flow.png" alt-text="Work order process flow with Copilot in Field Service for Outlook.":::
+
+You can also create a work order manually and use the [Field Service schedule board](work-with-schedule-board.md) for scheduling.
 
 ## Prerequisites
 
@@ -20,7 +24,7 @@ Dynamics 365 Field Service provides an Outlook add-in for frontline managers to 
 
 To use copilot features:
 
-- Your administrator has [enabled Copilot in Microsoft Outlook](flw-admin.md#give-consent-to-use-copilot-in-field-service-for-outlook).
+- Your administrator has [enabled Copilot in Microsoft Outlook](flw-admin.md#give-consent-to-use-copilot-in-field-service-for-outlook) and the email response setting.
 - You must have a paid Field Service environment. Copilot isn't available in trial environments.
 - Your environment is [updated](update-field-service.md) to the latest 2023 wave 2 build.
 
