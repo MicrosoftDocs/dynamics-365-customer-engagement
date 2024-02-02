@@ -16,16 +16,21 @@ ms.custom:
   - ai-seo-date:10/03/2023
 ---
 
-
 # Turn on and set up Copilot in Dynamics 365 Sales
 
-For orgs in North America,
+Effective February 5, 2024, the following changes are applicable to Copilot in Dynamics 365 Sales:
 
-- Copilot chat is turned on by default in all sales apps that include lead and opportunity tables and are not in the exclusion list.
+> [!IMPORTANT]
+> If you had previously updated your Copilot setting, it'll remain unchanged. For example, if you had turned Copilot off, it will remain turned off.  
 
-- Copilot compose is turned on by default in all sales apps that include lead and opportunity tables and are not in the exclusion list, and the org has opted in for early access. 
+- **For orgs in North America**,
 
-For orgs in other regions, Copilot is turned off by default. 
+    - [Copilot chat](use-sales-copilot.md) is turned on by default in all sales apps that include lead and opportunity tables and are not in the exclusion list.
+    
+    - [Copilot compose](compose-send-email-copilot.md) is turned on by default in all sales apps that include lead and opportunity tables and are not in the exclusion list, provided that the org has opted in for early access.
+    - [Copilot in email rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist) is also turned on by default in all sales apps, provided that the org has opted in for early access.
+    
+- **For orgs in other regions**, both Copilot chat and compose features are turned off by default. 
 
 Use the instructions in this article to turn Copilot on or off and configure it for your business.
 
@@ -43,21 +48,6 @@ If you are in a region other than North America, provide consent for Copilot to 
 - Read the [Copilot data movement](sales-copilot-data-movement.md) article carefully.
 
 - [Turn on data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
-
-
-### Connection between Copilot settings in Power Platform, Power Apps, and Sales Hub
-
-You can turn Copilot on or off at multiple levels:
-
-- At the org-level in [Power Platform](/power-platform/admin/settings-features#copilot-preview). Use this setting to turn Copilot on or off for all apps in your org. 
-- At the app-level in [Power Apps](/power-apps/maker/model-driven-apps/add-ai-copilot). Use this setting to turn Copilot on or off for a specific app.
-- At the Sales app-level in [Sales Hub](#turn-copilot-features-on-or-off-in-sales-hub). Use this setting to turn Copilot on or off for all Sales apps from a single page.
-
-> [!NOTE]
->- The app-level setting for Sales apps in both Power Apps and Sales Hub are synchronized to match.  
->- The app-level setting overrides the org-level setting.
-
-The org-level setting in Power Platform is the default setting for all apps in your org. For example, if you turn Copilot on at the org-level, the **Enable Copilot for** setting in Sales Hub is set to **On** for the sales apps.  
 
 ## Turn Copilot features on or off in Sales Hub
 
@@ -84,6 +74,9 @@ The org-level setting in Power Platform is the default setting for all apps in y
     The new settings page contains an option to turn on Chat and Compose features at the global level for all Sales apps and individually for each Sales app. 
 
     :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub.":::  
+
+    > [!NOTE]
+    > When you turn on the Compose feature, Copilot in email rich text editor is also turned on automatically. 
 
     The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform administrator had turned Copilot on for your org but your Power Apps administrator had turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
 
@@ -169,6 +162,9 @@ Copilot generates the list of recent changes for leads and opportunities from th
     - **View Audit Summary**
 
 1. Select **Save + close**.
+
+## FAQs about turning Copilot on or off
+
 
 
 ### See also
