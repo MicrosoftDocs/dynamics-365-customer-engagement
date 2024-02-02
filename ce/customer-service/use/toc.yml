@@ -288,6 +288,8 @@
           href: use-copilot-features.md#draft-a-chat-response-preview
         - name: Draft emails
           href: use-copilot-features.md#draft-emails
+        - name: Understand Copilot language support
+          href: copilot-language-support.md
         - name: View analytics for Copilot impact
           href: copilot-analytics-report.md
       - name: Analytics dashboards and insights
