@@ -191,7 +191,7 @@ additionalContent:
           url: /dynamics365/customer-insights/
         - title: Dynamics 365 Customer Insights - Journeys
           summary: Orchestrate personalized journeys across all touchpoints to strengthen customer relationships and earn their loyalty.
-          url: /dynamics365/marketing/help-hub
+          url: /dynamics365/customer-insights/journeys/index
         - title: LinkedIn Sales Navigator
           summary: Use LinkedIn Sales Navigator to enhance key application scenarios by connecting the system of record with the LinkedIn data graph and insights.
           url: /dynamics365/linkedin/integrate-sales-navigator
