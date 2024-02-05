@@ -112,53 +112,6 @@ If you're using the service account of WeChat, perform the following steps:
 
 3. Select **Submit**.
 
-#### Create a WeChat channel in Omnichannel Administration
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-1. In Omnichannel Administration, under **Channels**, select **WeChat**.
-
-2. Select **New**. The **New WeChat** page appears.
-
-3. On the **General** tab, in the **Step 1: Account details** area, enter the following details:
-
-    - **Name:** Specify a name for the channel.
-    - **Owner:** Accept the default owner, or change to specify a different owner.
-    - **Service Account:** Specify the WeChat service or sandbox account number.
-    - **Developer ID (AppID):** Specify the WeChat Developer ID.
-    - **Developer password (AppSecret):** Specify the WeChat Developer password.
-    - **Token:** Specify the WeChat token.
-    - **Message encryption key (EncodingAESKey):** Specify the WeChat Message encryption key for service account. If you're configuring a sandbox account, use a key of your choice.
-  
-4. In the **Step 2: Work distribution** area, for **Work Stream**, select the out-of-the-box workstream for WeChat. Alternatively, you can create a [work stream](../work-streams-introduction.md) for WeChat and associate it with the WeChat channel.
-
-5. Select **Save**. The details are saved, and data is populated in the **Step 3: Callback information** section.
-
-6. Copy the information that's displayed in the boxes. This step is required for only WeChat service account.
-
-
-#### Modify settings for a specific WeChat account
-
-
-1. In the Omnichannel Administration app, go to your WeChat application and select the WeChat account you want to modify.
-
-2. On the **General settings** tab, provide the following information:
-    
-    - **Language**: Select the preferred language for your WeChat account.
-    
-    - **Work stream**: Select an existing workstream or create a new one.
-
-    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
-
-    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app uploads the attachment to WeChat and captures the media ID. Otherwise, set **No**.
-    
-      To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
-       
-      To learn more about uploading media in WeChat, see [WeChat developer documentation](https://developers.weixin.qq.com/doc/offiaccount/en/Asset_Management/New_temporary_materials.html).
-
-3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
-4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
-
 ## Privacy notice
 
 By enabling this feature, your data will be shared with WeChat and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). Consult the feature technical documentation for more information [here](/azure/bot-service/bot-service-channel-connect-wechat).

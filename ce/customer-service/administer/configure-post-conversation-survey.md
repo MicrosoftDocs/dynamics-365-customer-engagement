@@ -6,7 +6,7 @@ ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.custom: bap-template
+ms.custom: bap-templatep
 ---
 
 # Configure a post-conversation survey
@@ -98,33 +98,6 @@ For Live chat conversations, customers can receive survey questions within the s
 
 > [!NOTE]
 > The surveys that you create and the survey data that's processed are not hosted or stored in Omnichannel for Customer Service.
-
-#### Configure the survey in Omnichannel Administration
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-1. Go to **Channels**, and select a channel for which you want to configure a post-conversation survey.
-
-2. On the page that appears, select the channel instance in which you want to configure the survey.
-
-3. Go to the **Surveys** tab.
-
-    > [!NOTE]
-    > The navigation to the **Surveys** tab varies for every channel. For example, for the Facebook channel, surveys can be configured at the page level.
-
-4. In the **Post-conversation survey** area, set the toggle for **Turn on** to **Yes**.
-
-5. In **Dynamics 365 Customer Voice survey**, search for a survey and select it.
-
-6. Optionally, if you want to create a survey, select **Open Dynamics 365 Customer Voice**. The Dynamics 365 Customer Voice page opens on a new tab. After you create the survey, it will be available for selection in the **Dynamics 365 Customer Voice survey** box in the **Post-conversation survey** area.
-
-7. In the **How should we send the survey** box, the following options are available depending on the channel you select:
-   - **Send survey link to conversation:** At runtime, the survey link is sent to the customers.
-
-       - In the **Message** box that appears, select the default message text or type a custom message. The personalized survey link will be appended to the message and displayed to the customer.
-   - **Insert survey in conversation:** At runtime, the agent can insert a survey link in an active conversation that results in the survey questions being displayed on the customer chat window. This option is available only for the Live chat channel.
-
-8. Select **Save**.
 
 ### See also
 
