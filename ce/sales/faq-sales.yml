@@ -290,9 +290,9 @@ sections:
         answer: |
           The command bar is added to the focused view to perform bulk actions on the records. More information: [Command bar](focused-view.md#open-the-focused-view)
 
-      - question: How can I change the **Show As** option position on the command bar or remove it from the ribbon bar?
+      - question: How can I change the Show As option position on the command bar or remove it from the ribbon bar?
         answer: |
-          No, you can't change the position of the **Show As** option on the command bar. However, you can remove it from the ribbon bar by disabling the focused view option. An administrator must sign into the Power Apps portal and turn off the toggle for the **Enable focused view for all records** option. More information: [Enable focused view](enable-focused-view.md#enable-focused-view)
+          You can't change the position of the **Show As** option on the command bar. However, you can remove it from the ribbon bar by disabling the focused view option. An administrator must sign into the Power Apps portal and turn off the toggle for the **Enable focused view for all records** option. More information: [Enable focused view](enable-focused-view.md#enable-focused-view)
 
       - question: How do I keep focused view only for the entities I want and make it the default view? 
         answer: |
