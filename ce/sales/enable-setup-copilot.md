@@ -18,12 +18,18 @@ ms.custom:
 
 # Turn on and set up Copilot in Dynamics 365 Sales
 
-Copilot chat is turned on by default in all the Dynamics 365 sales apps for orgs in North America. Effective February 5, 2024, the [Copilot for email](compose-send-email-copilot.md) and [Copilot in email rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist) features are rolled out for early access in North America. So, these two features are also turned on by default in all sales apps, for orgs in North America that have opted in for the 2024 release wave 1 update. Along with this, a new experience for the Copilot settings page is also available for early access in North America. [Learn about how to opt in for early access](/power-platform/admin/opt-in-early-access-updates#how-to-get-early-access-updates). This article covers both the old and new experiences for the Copilot settings page.
+Copilot chat is turned on by default in all the Dynamics 365 sales apps for orgs in North America. Effective February 5, 2024, the following features are turned on by default for orgs in North America that have opted in for the 2024 release wave 1 update (early access):
+
+ - [Copilot for email](compose-send-email-copilot.md) 
+ - [Copilot in email rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist)
+ - [A new experience for the Copilot settings page](#turn-copilot-features-on-or-off-in-sales-hub)
+ 
+[Learn about how to opt in for early access](/power-platform/admin/opt-in-early-access-updates#how-to-get-early-access-updates). 
 
 For orgs in other regions, Copilot chat and Copilot for email features are turned off by default. 
 
 > [!IMPORTANT]
->- If you had previously turned Copilot off, it remains turned off. In this case, Copilot for email is not turned on by default, even if you're in North America and have opted in for early access.
+>- If you had previously turned Copilot off, it remains turned off. In this case, Copilot for email is not turned on by default, even if your org is in North America and is opted in for early access.
 >- Throughout this article, the term sales apps refers to apps that have lead and opportunity tables and are not part of the [exclusion list](sales-copilot-faq.md#which-applications-are-in-the-exclusion-list-for-copilot-in-dynamics-365-sales).
 
 Read [this FAQ](sales-copilot-faq.md#what-are-the-early-access-changes-related-to-copilot-in-2024-release-wave-1) to understand the early access changes and its impact better.
