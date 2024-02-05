@@ -51,3 +51,15 @@ Microsoft Sales Copilot is a seller experience application that's available in M
 
 Copilot in Dynamics 365 Sales refers to the AI assistant that uses generative AI to summarize opportunities and leads, and generate meeting preparation notes. It's integrated with Dynamics 365 Sales apps. [Learn more about Copilot in Dynamics 365 Sales](copilot-overview.md).
 
+## Which applications are in the Copilot exclusion list?
+
+Copilot in Dynamics 365 Sales can't be turned on for the following applications:
+
+- msdyn_FSMobile
+- msdyn_FieldService
+- msdyn_ResourceScheduling
+- AppforOutlookModule
+- Customerservicehub
+- msdyn_CustomerServiceWorkspace
+- OmniChannelEngagementHub
+- msdyn_ProjectService
