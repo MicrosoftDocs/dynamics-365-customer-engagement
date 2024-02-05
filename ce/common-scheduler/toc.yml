@@ -74,3 +74,5 @@
     href: extend-schedule-board-custom-resource-attribute.md
   - name: Edit booking template
     href: booking-template.md
+  - name: Show account names on booking details
+    href: account-names-booking-details.md

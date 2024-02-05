@@ -42,7 +42,9 @@ Complete the following steps to enable Teams meeting integration.
     
     1. In **Meeting integration using Teams (preview)**, select **Manage**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     1. In the site map, select **Service Management**.
     2. On the site map, under **Collaboration**, select **Meeting integration using Teams (preview)**.

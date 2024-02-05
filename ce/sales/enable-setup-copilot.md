@@ -1,10 +1,11 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales so that your sales team can get summaries of their contact and lead records, catch up on recent changes, and prepare for meetings.
-ms.date: 12/15/2023
+ms.date: 01/03/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
@@ -18,7 +19,7 @@ ms.custom:
 
 # Turn on and set up Copilot in Dynamics 365 Sales
 
-Copilot is turned by default in all Sales apps for tenants in North America. If your tenant is in a different region, or to change the Copilot features that your sellers can use in their apps, follow the instructions in this article.
+Copilot is turned on by default in all Sales apps for orgs in North America. If your org is in a different region, or you want to configure the Copilot features, follow the instructions in this article.
 
 ## License and role requirements
 
@@ -29,7 +30,7 @@ Copilot is turned by default in all Sales apps for tenants in North America. If 
 
 ## Prerequisites
 
-Provide consent for Copilot to process your data outside of your geographic region, compliance boundary, or national cloud instance. Your consent is required for Copilot to work in your organization.
+If you are in a region other than North America, provide consent for Copilot to process your data outside of your geographic region, compliance boundary, or national cloud instance. 
 
 - Read the [Copilot data movement](sales-copilot-data-movement.md) article carefully.
 
@@ -37,19 +38,37 @@ Provide consent for Copilot to process your data outside of your geographic regi
 
 ## Turn Copilot features in Dynamics 365 apps on or off
 
-In the Sales Hub app, you can select the Copilot features that you want your sales teams to use in each of your organization's Dynamics 365 apps and custom apps.
-
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
 1. Under **General Settings**, select **Copilot**.
 
 1. In the **Set up Copilot in Dynamics 365 Sales** page, select **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.
 
-   :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub.":::
-
 1. If you haven't provided consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot).
 
     In some regions, you might see the consent terms in the **Set up Copilot in Dynamics 365 Sales** page. By selecting **Publish**, you provide consent for Copilot to process your data outside of your region. For these regions, separate consent in the Power Platform admin center isn't required.
+
+1. Under **Enable Copilot for**, select a global setting that you want to apply for all apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app.
+
+   :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub.":::  
+
+    By default, all Dynamics 365 Sales apps are set to **Default**. The Default setting has the following behavior:
+
+    - For orgs in North America, Copilot is turned on for all Dynamics 365 Sales apps (with lead and opportunity tables), provided that the app is not in the exclusion list.
+
+    - For orgs in other regions, Copilot is turned on for all Dynamics 365 Sales apps that meet the following conditions:
+
+        - Consent for data movement is provided for the org.
+
+        - The [release channel](/power-apps/maker/model-driven-apps/channel-change) for the app is set to **Monthly release channel**.
+
+        - The app is not in the exclusion list.
+    - For apps that don't meet the above conditions, the **Default** settings turns Copilot off.
+
+    > [!NOTE]
+    > - You can turn Copilot on or off at the org-level in [Power Platform](/power-platform/admin/settings-features#copilot-preview) or at the app-level in Sales Hub (using instructions on this article) or [Power Apps](/power-apps/maker/model-driven-apps/add-ai-copilot).  
+    > - The app-level setting in Power Apps and Sales Hub are synchronized to match.  
+    > - The app-level setting overrides the org-level setting.  
 
 1. Select **Turn audit on** to turn on audit history for the lead and opportunity tables. If auditing is already turned on for the lead and opportunity tables or globally, the **Turn audit on** option isn't displayed.
 
@@ -87,6 +106,17 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
     In the **Recent changes** tab, when you add a field from a related table that doesn't have audit history turned on, **Turn audit on** appears in the notification bar. Select it to turn on auditing for the table. If you remove the field later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the table manually.
 
 1. Save your changes.
+
+## Configure fields for generating what's new with my sales records list
+
+The **What's new with my sales records** prompt lists the sales records that were updated in the last seven days. The list is generated from the audit history of the lead, opportunity, and account tables. Depending on the record type, Copilot uses different fields to get the list of records updated: 
+
+- For the lead and opportunity records, Copilot uses the fields in the primary table (lead or opportunity) that you've [configured for generating the recent changes list](#configure-fields-for-generating-summaries-and-recent-changes-list). For example, if you've configured 4 fields from the lead table and 6 fields from related tables, Copilot monitors changes to only those 4 fields from the lead table to identify the lead records that have been updated.
+
+- For the account records, Copilot lists the following changes:
+  - Contacts, leads, and opportunities created for the account in the last seven days.
+  - Changes to the fields in the **Quick Find** view of the account table. If you'd like to see changes to other fields, add them to the **Quick Find** view of your account table. [Learn how to add fields to the Quick Find view](/power-apps/maker/model-driven-apps/create-edit-views#how-to-access-the-view-editor-to-create-or-edit-views).
+
 
 ## Grant audit access to your sellers
 

@@ -51,7 +51,9 @@ The requirements for unified routing are same as those that are applicable for O
 
 For the languages that are supported in unified routing, see [Supported languages](../implement/international-availability.md#language-availability).
 
-You can configure unified routing only through the Customer Service admin center, Omnichannel admin center, and Customer Service Hub apps. Agents must use the Customer Service workspace or Omnichannel for Customer Service app only to be assigned work through unified routing.
+You can configure unified routing only through the Customer Service admin center, Omnichannel admin center (deprecated), and Customer Service Hub apps. Agents must use the Customer Service workspace or Omnichannel for Customer Service app only to be assigned work through unified routing.
+
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 The intelligent skill finder depends upon the custom AI Builder category classification model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. The languages supported in the intelligent skill finder are determined by the languages that AI Builder supports. For more information, see the following:
 

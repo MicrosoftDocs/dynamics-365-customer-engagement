@@ -73,7 +73,9 @@ You must have removed [Omnichannel for Customer Service](remove-omnichannel.md).
 
 ## Uninstall Omnichannel historical analytics solutions
 
-1. Disable Omnichannel historical analytics in the Insights section of Omnichannel admin center. More information: [Configure Omnichannel historical analytics reports](/dynamics365/customer-service/oc-historical-analytics-reports)
+1. Disable Omnichannel historical analytics in the Insights section of Omnichannel admin center (deprecated). More information: [Configure Omnichannel historical analytics reports](/dynamics365/customer-service/oc-historical-analytics-reports)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 2. On the **Solutions** page, select and uninstall the following solutions, one at a time, in the following order:
    1. `msdyn_InsightsAnalyticsOCConfiguration`

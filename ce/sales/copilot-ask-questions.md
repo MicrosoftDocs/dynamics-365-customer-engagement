@@ -1,7 +1,7 @@
 ---
 title: Ask questions of Copilot
 description: Learn how to ask Copilot questions in Dynamics 365 Sales to know what's new with your leads, opportunities, and accounts and new records are assigned to you.
-ms.date: 10/23/2023
+ms.date: 01/17/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -13,6 +13,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
 ---
 
 # Ask questions of Copilot
@@ -21,19 +22,28 @@ Ask Copilot to update you on the latest changes to your sales records, get a lis
 
 ## What's new with my sales records
 
-With Copilot, quickly get up to speed on all the updates to your sales records, such as leads, opportunities, and accounts. Copilot lists the changes that happened in the last seven days to the records you own. The changes are fetched from the audit history of the respective records. 
+Use this prompt to get a list of sales records that were recently updated.  
 
 In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's new with my sales records**, and select Enter.
 
-Copilot displays a quick summary of the records that you own, grouped by the type of record.
-
 :::image type="content" source="media/whats-new-with-myrecords.png" alt-text="Screenshot of the Copilot response for What's new with my sales records.":::
+
+Copilot fetches the list based on the following conditions:
+
+- The records are of the following types: Opportunity, Lead, and Account.
+- The records were updated in the last seven days.
+- The records are owned by you. For account records, the records are owned by you or your team.
+- The fields that were updated are [configured by your administrator](enable-setup-copilot.md#configure-fields-for-generating-whats-new-with-my-sales-records-list). If you've updated fields other than the configured fields, those records aren't listed in the response.
+- If there are more than five records of a record type, Copilot picks the top five records that were most recently updated.
+
+Hover over a record in the list and select **Get updates** to view all changes to the record in the last seven days.
+
 
 ## What's newly assigned to me
 
 Copilot can help you stay on top of your pipeline by showing you a list of leads and opportunities that were assigned to you in the last 15 days.
 
-In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's newly assigned to me**, and select Enter.
+In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's newly assigned to me**, and select Enter.
 
 ## Get recent changes to a lead or opportunity
 

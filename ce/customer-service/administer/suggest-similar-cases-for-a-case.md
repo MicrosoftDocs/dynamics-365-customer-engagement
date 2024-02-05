@@ -1,9 +1,9 @@
 ---
-title: "Suggest similar cases for a case with Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to use the similarity rules and relevance search in Customer Service."
+title: Suggest similar cases for a case with Dynamics 365 Customer Service
+description: Learn how to use the similarity rules and relevance search in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/27/2022
+ms.date: 12/21/2023
 ms.topic: article
 search.audienceType: 
   - admin
@@ -55,7 +55,9 @@ Based on configured data input, the Relevance search mechanism filters the cases
 
      The **All Advanced Similarity Rules** page is displayed.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
     
      1. In the site map, select **Service Management**.
      2. Select **Advanced similarity rules** in **Similar Records Suggestion**. 
@@ -69,8 +71,8 @@ Based on configured data input, the Relevance search mechanism filters the cases
    - **Name** (required): The rule name.
    - **Source Entity** (required): Select Case entity for similar cases suggestions.
    - **Description**: A description of the similarity rule.
-   - **Noise Key phrases**: Provide noise key phrases separated by a semicolon (**;**). These phrases will be filtered out in the search for a similar case.
-   - **Filter Result by Status**: Filter records by status. If you set the value to **Active**, then only similar cases with active status will be retrieved. If you don’t set a value, then it will retrieve similar cases that are in all statuses.
+   - **Noise Key phrases**: Provide noise key phrases separated by a semicolon (**;**). These phrases are filtered out in the search for a similar case.
+   - **Filter Result by Status**: Filter records by status. If you set the value to **Active**, then only similar cases with active status are retrieved. If you don’t set a value, then it retrieves similar cases that are in all statuses.
 
 1. Select **Save** to save the rule.
 
@@ -102,7 +104,7 @@ See the below table to understand how search results are impacted when Relevance
 
 |Relevance search disabled  |Relevance search enabled  |
 |---------|---------|
-|Considering similarity rules, search is performed across primary field of an entity.  |   Considering attributes configured in similarity rules,  search is performed on entity attributes configured for relevance search.   |
+|Based on the similarity rules, search is performed across primary field of an entity.  |   Based on the attributes configured in similarity rules,  search is performed on entity attributes configured for relevance search.   |
 |For example,  if similarity rules are configured on Title and Category, comma-separated attribute text is passed to look for a match in the Case title of case entity.     |  For example,    if similarity rules are configured on Title and Category, and Relevance search is enabled on Description, the search is performed for Title and Category in the Description field of case entity.     |
 |  |         |
 

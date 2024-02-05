@@ -1,14 +1,13 @@
 ---
 title: Enable missed notifications
-description: Enable agents to automatically set their presence to inactive when they miss notifications for incoming chat requests.
-ms.date: 04/04/2022
-ms.topic: article
+description: Learn about managing notifications that are missed by agents.
+ms.date: 01/31/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.custom:
-  - ai-gen-docs-bap
-  - ai-gen-desc
-  - ai-seo-date:12/18/2023
+ms.reviewer:
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Enable missed notifications
@@ -30,7 +29,9 @@ With the missed notifications feature, you can choose to automatically set agent
      
      - In the site map, select **Workspaces** in **Agent experience**, and then select **Notification templates**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
 
      - In the site map, select **Notification templates** in **Agent Experience**.
 

@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli 
 ms.topic: how-to 
-ms.date: 10/31/2023 
+ms.date: 02/05/2024
 ms.custom: bap-template 
 ---
 
@@ -15,6 +15,10 @@ Enable the enhanced **Quick case form** and **Full case form**  options so that 
 
 > [!NOTE]
 > The enhanced case creation experience is available only in the Customer Service workspace app.
+
+Watch this video to understand enhanced case form and how to set it up:
+
+> [!VIDEO https://www.youtube.com/embed/u9uLwhuv1SA]
 
 ## Enable enhanced case experience
 
@@ -35,7 +39,8 @@ To enable the enhanced case forms, follow these steps:
 
 > [!NOTE]
 > - If the enhanced full case form has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than that of the default form. More information: [Set the form order](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order).
-> - Agents can use the form selector to navigate from **Enhanced case form** to other forms. For agents to go back to the enhanced case form, ensure that the **ShowInFormSelector** is set to **True**.
+> - Agents can use the form selector to navigate from **Enhanced case form** to other forms. For agents to go back to the enhanced case form, ensure that the **ShowInFormSelector** is set to **True** through FormXML.
+> - The **Enhanced case form** is available in the form selector by default as an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
 
 ## View and use default components available on enhanced full case form
 
@@ -48,8 +53,8 @@ Legend:
 |Number|Component   | Description   | Entity   |  Additional actions| Additional information|
 |------ |----------|-----------|----------|-----------|
 | 1 |**Associated Grid Control** | Displays the relevant records linked to the current record as subgrids. You can configure up to four subgrids using this component.| Available for all entities.| Not Applicable. | [Configure components to display case associations](add-associated-grid-control.md)|
-| 2 | **Attachment Control** | Enables you to upload and display attachments. | You can add this control on a case form to upload attachments to a case and to display attachments uploaded directly,through email, notes, and conversations.<br> For all other entities, add this component to display the attachments uploaded through email and notes. | For a case entity, set the **Table Column** in the component to **Pre Create Entity Attachment Id**. |[Use Attachment Control to customize forms](add-attachment-control.md)|
-| 3| **OptionSet Wrapper** | Displays the selected option set values as color-coded options on the form. For example, if you add **Priority** on a case, the application displays color-coded priority icons. If you add **Case Status**, color-coded status options are displayed.| Available for all entities. You can add this component to choices or option set field types and not to non-editable fields or fields that don't support option set type, such as single line of text. | Specify the required option set in **Table Column**.| 
+| 2 | **Attachment Control** | Enables you to upload and display attachments. | You can add this control on a case form to upload attachments to a case and to display attachments uploaded directly, through email, notes, and conversations.<br> For all other entities, add this component to display the attachments uploaded through email and notes. | For a case entity, set the **Table Column** in the component to **Pre Create Entity Attachment Id**. |[Use Attachment Control to customize forms](add-attachment-control.md)|
+| 3| **OptionSet Wrapper** | Displays the selected option set values as color-coded options on the form. For example, if you add **Priority** on a case, the application displays color-coded priority icons. If you add **Case Status**, color-coded status options are displayed.| Available for all entities. You can add this component to choices or option set field types but not to non editable fields or fields that don't support option set type, such as single line of text. | Specify the required option set in **Table Column**.| 
 | 4 | **Queue Item Control** |  Displays the current queue a record belongs to and the **Worked by** field. You can edit the **Worked by** and save the changes.| Available for queue enabled entities. | Specify a value in **Table Column**.| |
 |5 | **Due open activities control** |  Displays the activities that are due today or are overdue. | Available for all entities.| **Table** must be set to **Activities**.|[Use the Due open activities control to customize forms](add-due-open-activities.md) |
 | | **Notes Control** | Allows you to take notes on a form before saving a record. The rich text editor tool is enabled by default.| Available for case entity only.| - Set the **Table Column** in the component to **Pre Create Notes Id**. <br> - To configure advanced rich text configurations, specify the **Rich text editor configuration URL**. More information: [Create and use advanced configuration for the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#create-and-use-advanced-configuration-for-the-rich-text-editor-control)| |

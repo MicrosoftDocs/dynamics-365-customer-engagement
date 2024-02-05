@@ -65,7 +65,9 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
    
     1. Select **New account**.
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
 
     - In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **New account**.
 

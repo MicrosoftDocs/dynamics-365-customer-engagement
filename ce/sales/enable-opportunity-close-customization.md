@@ -1,7 +1,7 @@
 ---
 title: "Enable customization of Opportunity Close form | MicrosoftDocs"
 description: "Enable system customizers to customize the opportunity close experience so that sales reps can capture details about why an opportunity was closed."
-ms.date: 10/26/2021
+ms.date: 01/16/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -52,9 +52,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
     > ![Customize opportunity close option in System Settings.](media/system-setting-customize-close-opportunity-form.png "Customize opportunity close option in System Settings")
 
 4.  Select **OK**.
----
 
-If you're using a custom app, in addition to enabling the customization of opportunity close form, you must also add the Opportunity Close entity to the custom app in the app designer. For more information, see [Add Opportunity Close entity to the custom app module](customize-opportunity-close-experience.md#add-entity-to-app) to learn how to add to entity to the app.
 
 
 

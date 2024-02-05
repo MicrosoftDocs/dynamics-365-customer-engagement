@@ -41,8 +41,9 @@ This section lists the high-level steps you must perform to enable contextual ca
        
 5. Create context variables with the same names as the SIP UUI header.
 
-    1. In Customer Service admin center, go to **Customer support** > **Workstreams**. If you're using Omnichannel admin center, go to **General settings** > **Workstreams**.
+    1. In Customer Service admin center, go to **Customer support** > **Workstreams**. If you're using Omnichannel admin center (deprecated), go to **General settings** > **Workstreams**.
        A list of workstreams including voice workstreams is displayed.
+        [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     2. Select a voice workstream and then select **Edit** to configure the workstream.
     3. In the **Advanced settings** area, select **Add context variable**.
     4. In the **Edit** dialog that opens, select **Add**, and then select **Add context variable**.
