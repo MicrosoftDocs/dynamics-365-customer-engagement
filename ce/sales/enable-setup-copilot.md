@@ -18,7 +18,7 @@ ms.custom:
 
 # Turn on and set up Copilot in Dynamics 365 Sales
 
-Copilot chat is turned on by default in all the Dynamics 365 sales apps for orgs in North America. Effective February 5, 2024, the following features are turned on by default for orgs in North America that have opted in for the 2024 release wave 1 update (early access):
+For orgs in North America, Copilot chat is turned on by default in all the Dynamics 365 sales apps. Effective February 5, 2024, the following features are turned on by default for orgs in North America that have opted in for the 2024 release wave 1 update (early access):
 
  - [Copilot for email](compose-send-email-copilot.md) 
  - [Copilot in email rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist)
@@ -77,7 +77,7 @@ If you're in a region other than North America, provide consent for Copilot to p
 
     The **Default** setting has the following behavior:
     
-    - For orgs in North America, Copilot Chat is turned on for all Dynamics 365 Sales apps (with lead and opportunity tables). Copilot Compose is turned on only if you've opted in for early access.
+    - For orgs in North America, Copilot Chat is turned on for all Dynamics 365 Sales apps (with lead and opportunity tables). Copilot for email (compose) is turned on only if you've opted in for early access.
 
     - For orgs in other regions, Copilot is turned on for all Dynamics 365 Sales apps that meet the following conditions:
 
@@ -85,7 +85,7 @@ If you're in a region other than North America, provide consent for Copilot to p
 
         - The [release channel](/power-apps/maker/model-driven-apps/channel-change) for the app is set to **Monthly release channel**.
 
-        - For Copilot Compose, you've [opted in for preview features](copilot-preview-features.md).
+        - For Copilot for email, you've [opted in for preview features](copilot-preview-features.md).
     
     - For apps that don't meet the above conditions, the **Default** settings turns Copilot off.
 
