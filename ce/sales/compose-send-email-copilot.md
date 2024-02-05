@@ -16,7 +16,7 @@ ms.custom: bap-template
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!NOTE]
-> This feature is enabled as default from version number is 9.0.23123.10001 for early access in NAM (North America) region. To enable the early access for your organization, see [Turn on preview features for Copilot in Dynamics 365 Sales](copilot-preview-features.md).
+> This feature is enabled by default from 2024 release wave 1 for early access in NAM (North America) region. For more information, see [Enable and set up copilot capabilities](enable-setup-copilot.md).
 
 
 Copilot for email suggests content while composing or replying to emails, saving you time and effort. It provides AI-generated drafts based on your input, recent emails, and related information. You can select from predefined response categories or input your own text, and the AI generates the suggested content. You can use it as-is or modify it as per your requirements.

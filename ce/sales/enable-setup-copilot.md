@@ -71,9 +71,6 @@ If you're in a region other than North America, provide consent for Copilot to p
 
     :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub." lightbox="media/enable-copilot.svg":::  
 
-    > [!NOTE]
-    > When you turn on **Compose**, Copilot in email rich text editor is also turned on automatically. 
-
     The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform administrator had turned Copilot on for your org but your Power Apps administrator had turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
 
     By default, the **Enable Copilot for** option is set to **Default**. The **Default** setting has the following behavior:
