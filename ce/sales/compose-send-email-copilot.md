@@ -7,7 +7,7 @@ ms.reviewer: shujoshi
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ms.topic: how-to 
-ms.date: 10/05/2023
+ms.date: 02/05/2024
 ms.custom: bap-template
 ---
 

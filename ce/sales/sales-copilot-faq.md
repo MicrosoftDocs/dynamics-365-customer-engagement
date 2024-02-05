@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 10/05/2023
+ms.date: 02/05/2024
 ---
 
 # FAQs about Copilot in Dynamics 365 Sales
@@ -66,7 +66,7 @@ Copilot in Dynamics 365 Sales can't be turned on for the following applications:
 
 ## What are the early access changes related to Copilot in 2024 release wave 1?
 
-Some Copilot features are available for early access in the 2024 release wave 1. The following table summarizes the changes related to Copilot for early access.
+Some Copilot features are available for early access in the 2024 release wave 1. The following table summarizes the changes related to Copilot for early access. [Learn more about Copilot early access and enabling chat and compose](enable-setup-copilot.md) features.
 
 | Setting | Orgs in North America with early access | Orgs in North America without early access | Orgs in others regions | Additional info |
 |---------|-------------|----------------|--------|-----------------|
