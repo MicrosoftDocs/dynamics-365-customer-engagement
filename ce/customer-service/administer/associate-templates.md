@@ -32,34 +32,6 @@ After you create a workstream, you can modify the default templates that are att
 
 5. Select **Save and close**.
 
-## Associate templates with workstreams in Omnichannel Administration
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-You can attach only generic type of templates to work streams. By default, the out-of-the-box templates are associated based on the channel. However, you can replace the default templates with the ones that you create.
-
-1. Sign in to the Omnichannel Administration app.
-
-2. Select **Work Streams** under **Work Distribution Management**.
-
-3. Select a work stream for which you want to associate the templates.
-
-4. Select the **Templates** tab in the work stream. You can see the **Sessions** and **Notifications** sections.
-
-5. You can accept the default session template or select the search icon in **Look for Session Templates**.
-
-6. In the list of templates that you created, select a template.
-
-7. In the **Notifications** section, for each of the following fields, you can accept the default notification template or select the search icon in **Look for Notification Templates**, and select a template.
-
-    - Incoming authenticated
-    - Incoming unauthenticated
-    - Consult
-    - Transfer
-    - Supervisor Assign
-
-9. Select **Save** to save the changes to the work stream.
-
 ### See also
 
 [Manage session templates](session-templates.md)  

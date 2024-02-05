@@ -45,7 +45,7 @@ For supervisor users in your organization to access the report and dashboard, en
 
 To enable the preconfigured Power BI workspace:
 
-1. In the site map of Omnichannel admin center, select **Supervisor settings** under **Advanced settings**, and then select **Manage** for **Intraday insights**.
+1. In the site map of Omnichannel admin center (deprecated), select **Supervisor settings** under **Advanced settings**, and then select **Manage** for **Intraday insights**.
 
    The Power BI configuration view opens.
     

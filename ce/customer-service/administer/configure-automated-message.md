@@ -115,30 +115,6 @@ Use the following best practices when you configure automated messages for the v
 
 - Disable messages that announce the average wait times, unless your business requires that customers know this information. 
  
-### Add custom automated messages in Omnichannel Administration
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-1. In Omnichannel Administration, go to **Channels**, and select the channel you will use to send automated messages. This example uses WeChat.
-2. In the list of accounts, open the channel instance for which you want to configure an automated message.
-3. Select the **Automated messages** tab, and select **New message**.
-
-    > [!div class=mx-imgBorder]
-    > ![Configure automated messages.](../media/automated-messages.png "Configure automated messages")
-
-4. Enter the name of your message, select the message trigger, and then type your message. The **Language Code** field is determined by the language set in the **General settings** tab of the channel instance and cannot be modified. The **Message Trigger** field contains the system events that prompt an automated message to be sent.
-5. Select **Save**.
-
-    > [!div class=mx-imgBorder]
-    > ![Create automated messages.](../media/automated-messages-create.png "Create automated messages")
-    
-    The message is added to the list of channel instance-specific messages. To create localized versions of the message, repeat the steps for each language required.
-
-To deactivate messages at the channel instance level, select one or more messages, and select the **Deactivate** button.
-
-> [!div class=mx-imgBorder]
-> ![Deactivate automated messages.](../media/automated-messages-deactivate.png "Deactivate automated messages")
-
 ## Next steps
 
 [Add a chat widget](add-chat-widget.md)  

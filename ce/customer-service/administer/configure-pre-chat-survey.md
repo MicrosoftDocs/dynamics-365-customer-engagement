@@ -64,46 +64,6 @@ For the chat channel, you can configure a survey that users can respond to when 
 1. Optionally, you can change the order in which the questions are listed.
 
 
-#### Configure a pre-conversation survey in Omnichannel Administration
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-You can configure your chat widget to show users a survey that they must respond to before they start the conversation.
-
-1. Sign in to Omnichannel Administration.
-2. Go to **Channels** &gt; **Chat**.
-3. Open the chat widget in which you want to configure a pre-chat survey, and select **Surveys**.
-4. In the **Pre-conversation survey** area, set the **Turn on** toggle to **Yes**. The options to add questions and refresh the page appear.
-5. Select **Add question**.
-
-    > [!NOTE]
-    > - You can add only five questions to a pre-conversation survey. The length of each question should be less than or equal to 512 characters.
-    > - When you add a question to the pre-conversation survey, a corresponding context variable is created and is displayed in the  **Advanced settings** > **Context variables** section.
-
-6. In the **New Question** pane, provide the following information:
-
-    - **Question name**: Enter a name for the question.
-    - **Question text**: Enter the text of the question.
-    - **Question type**: Select one of the following options to indicate how users can respond:
-
-        - **Single line**: The user can enter a single line of text.
-        - **Multiple lines**: The user can enter multiple lines of text.
-        - **Option set**: The user can select an option in a drop-down list. You must enter options separated by a semicolon.
-        - **User consent**: Use this option to request user consent for the pre-chat survey. You can provide a ../link to a webpage, such as the privacy policy page. Links must be in the following format: [../link text](../link to the webpage). A checkbox appears for the question text in the pre-conversation survey.
-
-    - **Mandatory**: Select **Yes** or **No** to indicate whether the question is mandatory. If question type is **User Consent**, make sure you specify **Yes**.
-
-    > [!NOTE]
-    > Validations in pre-conversation surveys are available for mandatory fields only.
-    
-
-    > [!div class=mx-imgBorder]
-    > ![Add a question to the pre-chat survey.](../media/oc-add-chat-question.png "Add a question to the pre-chat survey")
-
-7. Select **Save and Close**. The questions are added in the **Pre-chat unauthenticated questions** area.
-  
-8. Optionally, select a question and select **Move up** or **Move down** in the right corner to change its order.
-
 ## Runtime view of survey questions
 
 The following screenshot is a sample of the pre-conversation survey that will be displayed for customers.

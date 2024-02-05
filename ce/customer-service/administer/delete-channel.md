@@ -15,7 +15,10 @@ You can delete an instance of a configured channel or SMS number in scenarios su
 
 ## Delete a configured channel
 
-You can delete a channel instance in Customer Service admin center or Omnichannel admin center.
+You can delete a channel instance in Customer Service admin center or Omnichannel admin center (deprecated) app.
+
+
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 1. Select a messaging channel such as Facebook.
 

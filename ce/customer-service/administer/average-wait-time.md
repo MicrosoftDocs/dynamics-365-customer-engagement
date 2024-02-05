@@ -35,16 +35,6 @@ If you're using the Customer Service admin center or Omnichannel admin center (d
 
 3. Select **Save and Close**.
 
-If you're using Omnichannel Administration, follow these steps:
-
-1. Go to **Channels** &gt; **Chat**, and open the chat widget in which you need to configure the settings.
-
-2. Select the **General settings** tab.
-
-3. In the **Customer waiting** area, change **Show average wait time** to **Yes**. By default, it's set to **No**.
-
-4. Select **Save**.
-
 ### See also
 
 [Show customers their position in a queue](show-queue.md) <br>
