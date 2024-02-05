@@ -1,25 +1,18 @@
 ---
-title: "Set up unified routing | MicrosoftDocs"
-description: "How to set up unified routing"
-ms.date: 08/23/2021
-ms.topic: article
+title: How to set up unified routing
+description: Learn about the high-level process for setting up unified routing in Customer Service.
+ms.date: 02/02/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer:
+ms.collection:
+ms.custom: bap-template
 ---
 
 # How to set up unified routing
 
-## Introduction
-
-You can set up unified routing in the Customer Service Hub or Omnichannel admin center (deprecated) app.
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-Typically, you'll use Customer Service Hub to set up routing of records, such as case.
-
-You'll use Omnichannel admin center to route work items that come through different channels, such as live chat or Microsoft Teams.
-
-In this article, we'll take you through the high-level process of configuring unified routing in both the apps.
+In this article, we'll take you through the high-level process of configuring unified routing in Customer Service admin center.
 
 > [!NOTE]
 > We recommend that you familiarize yourself with the UI because you'll perform the steps and procedures on different pages.
@@ -33,7 +26,7 @@ The following prerequisites are applicable:
 - To route records, you must enable the record for routing using the records channel configuration. More information: [Records routing](enable-entities-for-queues.md)
 
 
-## Set up unified routing for records in Customer Service Hub
+## Set up unified routing for records
 
 The sequence of the tasks that you'll need to perform for setting up unified routing are outlined in the following table.
 
@@ -54,18 +47,17 @@ Make sure that you have the Customer Service Representative role to try the runt
 1. Perform the steps in [Create a case](../use/customer-service-hub-user-guide-create-a-case.md).
 2. Go to the case details page, and select **Save & Route** on the window.
 
-## Set up unified routing for channels in Omnichannel admin center
+## Set up unified routing for channels
 
 The high-level process to set up unified routing for a channel is as follows.
 
 |Step|Task |Description|
 |----------|-----------|-------|
-|![Step 1 for configuring users in Omnichannel admin center.](../media/step-1.png "Step 1") |<ol><li>[Create users in Microsoft 365 admin center](/power-platform/admin/create-users)</li><li>[Set up the user as a bookable resource](users-user-profiles.md)</li></ol>| Create users in Microsoft 365 and configure them in Customer Service.|
+|![Step 1 for configuring users.](../media/step-1.png "Step 1") |<ol><li>[Create users in Microsoft 365 admin center](/power-platform/admin/create-users)</li><li>[Set up the user as a bookable resource](users-user-profiles.md)</li></ol>| Create users in Microsoft 365 and configure them in Customer Service.|
 |![Step 2.](../media/step-2.png "Step 2")|[Create a workstream for unified routing](create-workstreams.md)| Create a workstream for routing conversations|
 |![Step 3 for configuring queues.](../media/step-3.png "Step 3")|[Create and manage queues](queues-omnichannel.md)|Configure queues for conversations|
 |![Step 4 for configuring routing rules.](../media/step-4.png "Step 4") |[Configure routing rules](configure-work-classification.md)| Configure routing rules for conversations|
 |![Step 5 for assignment rules.](../media/step-5.png "Step 5") |[Configure assignment rules](assignment-methods.md)|Configure assignment rules for routing conversations.|
-||||
 
 ## Additional settings
 
@@ -83,6 +75,6 @@ Optionally, you can configure the following settings.
 [Set up skill-based routing](overview-skill-work-distribution.md)  
 [Manage capacity profiles](capacity-profiles.md)  
 [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)  
-[Export and import configuration data for the record channel](../export-import-config-data-for-records.md)  
-[Export import data for the live chat channel](../export-import-config-data-for-live-chat.md)  
+[Export and import configuration data for the record channel](migrate-config-data-for-records.md)  
+[Export import data for the live chat channel](migrate-config-data-for-live-chat.md)  
 [FAQ on unified routing](unified-routing-faqs.md)  
