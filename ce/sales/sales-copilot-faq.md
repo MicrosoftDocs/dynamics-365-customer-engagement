@@ -64,7 +64,7 @@ Copilot in Dynamics 365 Sales can't be turned on for the following applications:
 - OmniChannelEngagementHub
 - msdyn_ProjectService
 
-## What are the early access changes related to Copilot for 2024 release wave 1?
+## What are the early access changes related to Copilot in 2024 release wave 1?
 
 Some Copilot features are available for early access in the 2024 release wave 1. The following table summarizes the changes related to Copilot for early access.
 

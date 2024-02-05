@@ -18,15 +18,15 @@ ms.custom:
 
 # Turn on and set up Copilot in Dynamics 365 Sales
 
-Copilot chat is turned on by default in all the Dynamics 365 sales apps for orgs in North America. Effective February 5, 2024, The [Copilot for email](compose-send-email-copilot.md) and [Copilot in email rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist) features are rolled out for early access in North America. So, these two features are also turned on by default in all sales apps, for orgs in North America that have opted in for the 2024 release wave 1 update. Along with this, a new experience for the Copilot settings page is also available for early access in North America. [Learn about how to opt in for early access](/power-platform/admin/opt-in-early-access-updates#how-to-get-early-access-updates).
+Copilot chat is turned on by default in all the Dynamics 365 sales apps for orgs in North America. Effective February 5, 2024, the [Copilot for email](compose-send-email-copilot.md) and [Copilot in email rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist) features are rolled out for early access in North America. So, these two features are also turned on by default in all sales apps, for orgs in North America that have opted in for the 2024 release wave 1 update. Along with this, a new experience for the Copilot settings page is also available for early access in North America. [Learn about how to opt in for early access](/power-platform/admin/opt-in-early-access-updates#how-to-get-early-access-updates).
 
 For orgs in other regions, Copilot chat and Copilot for email features are turned off by default. 
 
 > [!IMPORTANT]
 >- If you had previously turned Copilot off, it remains turned off. In this case, Copilot for email is not turned on by default, even if you're in North America and have opted in for early access.
->- Throughout this article, the term sales apps refers to apps that have lead and opportunity tables and are not part of the [exclusion list](sales-copilot-faq.md#which-applications-are-in-the-copilot-exclusion-list).
+>- Throughout this article, the term sales apps refers to apps that have lead and opportunity tables and are not part of the [exclusion list](sales-copilot-faq.md#which-applications-are-in-the-exclusion-list-for-copilot-in-dynamics-365-sales).
 
-Understand the early access changes with the help of [this FAQ](sales-copilot-faq.md#what-are-the-early-access-changes-related-to-copilot-for-2024-release-wave-1).
+Read [this FAQ](sales-copilot-faq.md#what-are-the-early-access-changes-related-to-copilot-in-2024-release-wave-1) to understand the early access changes and its impact better.
 
 Use the instructions in this article to turn Copilot on or off and configure it for your business.
 
@@ -61,7 +61,7 @@ If you're in a region other than North America, provide consent for Copilot to p
 
     :::image type="content" source="media/enable-copilot-old.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub." lightbox="media/enable-copilot-old.svg"::: 
 
-    The settings page is different for following the following orgs:
+    The settings page is different for the following orgs:
         
     - Orgs in North America that have opted in for early access.
         
@@ -73,7 +73,7 @@ If you're in a region other than North America, provide consent for Copilot to p
 
     The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform administrator had turned Copilot on for your org but your Power Apps administrator had turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
 
-    By default, the **Enable Copilot for** option is set to **Default**. The **Default** setting has the following behavior:
+    The **Default** setting has the following behavior:
     
     - For orgs in North America, Copilot Chat is turned on for all Dynamics 365 Sales apps (with lead and opportunity tables). Copilot Compose is turned on only if you've opted in for early access.
 
