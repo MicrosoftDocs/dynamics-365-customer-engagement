@@ -49,7 +49,7 @@ The success of social media customer service, like all other customer service, d
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-To integrate a WhatsApp channel through Twilio with Omnichannel for Customer Service, you need to go to your Twilio account and fetch the **ACCOUNT SID** and **AUTH TOKEN** values. Save the values safely because they're required to create a WhatsApp channel configuration in the Omnichannel Administration app.
+To integrate a WhatsApp channel through Twilio with Omnichannel for Customer Service, you need to go to your Twilio account and fetch the **ACCOUNT SID** and **AUTH TOKEN** values. Save the values safely because they're required to configure a WhatsApp channel through Customer Service admin center.
 
 Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch the details.
 
