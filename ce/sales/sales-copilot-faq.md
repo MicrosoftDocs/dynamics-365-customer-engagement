@@ -70,8 +70,8 @@ Some Copilot features are available for early access in the 2024 release wave 1.
 
 | Setting | Orgs in North America with early access | Orgs in North America without early access | Orgs in others regions | Additional info |
 |---------|-------------|----------------|--------|-----------------|
-| Settings page | New | Old | Old | The new settings page has individual toggles for chat and compose. The old experience has a single toggle for both. |
-| Changes to Copilot setting | Retained | Retained | Retained | Any changes made to the settings prior to February 5th will be retained. |
+| Settings page | New | Old | Old | The new settings page has individual toggles for chat and compose. The old experience has a single toggle for Copilot. |
+| Changes to Copilot setting | Retained | Retained | Retained | Any changes made to the Copilot settings prior to February 5th will be retained. |
 | Chat turned on by default | Yes | Yes | No<sup>1</sup> | <sup>1</sup>Needs to be turned on manually. |
-| Compose turned on by default | Yes | No<sup>2</sup> | No | <sup>2</sup>Turned on only if Coplot preview toggle is enabled. |
-| Copilot in email rich text editor turned on by default | Yes | No<sup>3</sup> | No<sup>3</sup> | <sup>3</sup> Turned on only if the **Enable Copilot in Rich Text Editor (preview)** is turned on for the app. |
+| Compose turned on by default | Yes | No<sup>2</sup> | No<sup>2</sup> | <sup>2</sup>Turned on only if Coplot preview toggle is enabled. |
+| Copilot in email rich text editor turned on by default | Yes | No<sup>3</sup> | No<sup>3</sup> | <sup>3</sup> Turned on only if the **Enable Copilot in Rich Text Editor (preview)** is turned on for the app in the [Power Apps settings](/power-apps/maker/canvas-apps/working-with-experimental-preview?branch=main#controlling-which-features-are-enabled). |
