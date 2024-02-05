@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing.
-ms.date: 10/31/2023
+ms.date: 01/16/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -36,7 +36,7 @@ For digital messaging and voice, the default block size is 100 work items of top
 For records channel, each assignment cycle prioritizes up to 2000 work items and processes them in a block size of 500.
 
 > [!NOTE]
-> Queue prioritization isn't available in unified routing.
+> Cross-queue prioritization isn't available in unified routing.
 
 For more information, see [best practices to manage queues](unified-routing-best-practices.md#manage-queues).
 
@@ -54,7 +54,12 @@ The following assignment methods are available out of the box:
 
   If you need to distribute work fairly among agents, then you should consider switching to a round robin assignment strategy.
 
+> [!NOTE]
+> When you modify a rating model, the ongoing conversations or open work items that have skills with the rating model continue to have the existing rating. Sometimes, this might result in no agents who match the assignment criteria.
+
 - **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first.
+
+  The ordering for round robin assignment is maintained queue wise. Some agents can be a part of multiple queues. Therefore, depending on the agent's last assignment timestamp in a queue, the agents might be assigned back-to-back or concurrent work items but from different queues.
 
   In scenarios when multiple agents match the work item requirement, and there's a tie in the "order by", like, multiple matched agents with the same available capacity, the system resolves the assignment using round robin based on the earliest time of the last assignment.
 

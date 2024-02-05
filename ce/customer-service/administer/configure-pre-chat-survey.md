@@ -28,7 +28,9 @@ For the chat channel, you can configure a survey that users can respond to when 
 
     - In the site map, select **Workstreams** in **Customer support**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
     
      - In the site map, select **Workstreams** in **General settings**.
 

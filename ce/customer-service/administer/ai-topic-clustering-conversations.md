@@ -1,17 +1,18 @@
 ---
 title: "Configure AI topic clustering for conversations | MicrosoftDocs"
 description: "Configure topic cLustering for conversations using AI"
-ms.date: 06/01/2022
+ms.date: 12/21/2023
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.collection: bap-ai-copilot
 ---
 
 # Configure AI topic clustering for conversations
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
-Customer Service Insights uses AI to give you insights into your customer service data by grouping semantically related conversations and generating a topic. New incoming conversations that match this topic will be automatically added to the topic group. This can help you identify areas for improvement that can have the greatest impact on system performance.
+Customer Service Insights uses AI to give you insights into your customer service data by grouping semantically related conversations and generating a topic. New incoming conversations that match this topic are automatically added to the topic group. This can help you identify areas for improvement that impact system performance.
 
 The AI-driven technology empowers informed decision-making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system.
 

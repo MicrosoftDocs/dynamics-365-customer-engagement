@@ -7,7 +7,8 @@ ms.reviewer: shujoshi
 ms.topic: how-to
 ms.date: 10/05/2023
 ms.custom: bap-template 
-search.app: salescopilot-docs 
+search.app: salescopilot-docs
+ms.collection: bap-ai-copilot 
 ---
 
 # View and copy email summary

@@ -27,7 +27,7 @@ Enabling the self-service feature is a two-step process as follows:
 
 ## Enable self service
 
-You can enable the self service feature in the Customer Service admin center or Omnichannel admin center app.
+You can enable the self service feature in the Customer Service admin center or Omnichannel admin center (deprecated) app.
 
 1. Add the code snippet in the customer self-service portal.
 
@@ -40,7 +40,9 @@ You can enable the self service feature in the Customer Service admin center or 
 
      The **Omnichannel Configuration . Self service settings** page is displayed.      
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+      [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Self service** section, select **Manage**.

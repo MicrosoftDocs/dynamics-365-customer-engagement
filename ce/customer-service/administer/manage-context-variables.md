@@ -30,11 +30,15 @@ This article lists the considerations to use context variables and how you can c
 
     - In the site map, select **Workstreams** in **Customer support** and open a workstream from the list.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
     
      - In the site map, select **Workstreams** in **General settings** and open a workstream from the list.
     
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
      - In the **Service Management** area, select **Workstreams** in **Unified Routing**, and then open a workstream from the list.
      

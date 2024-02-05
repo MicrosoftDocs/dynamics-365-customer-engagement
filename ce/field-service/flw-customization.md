@@ -1,7 +1,7 @@
 ---
 title: Customize the Microsoft 365 integrations for Field Service
 description: Learn how to tailor the Microsoft 365 integrations for Dynamics 365 Field Service to your business
-ms.date: 12/05/2023
+ms.date: 01/18/2024
 ms.topic: how-to
 author: matthidinger
 ms.author: mahiding
@@ -30,6 +30,7 @@ We currently support customization of the **Work Orders** and **Bookable resourc
 - Global admin or Exchange admin permissions in the Microsoft 365 Admin Center.
 - Environment is in a [supported geography, region, and language.](flw-overview.md#supported-geographies-regions-and-languages)
 - One of more of the [Microsoft 365 integrations for Field Service is deployed.](flw-admin.md)
+- Field Service solution is version 8.8.98.36 or above. To update the solution, see [Update Field Service](update-field-service.md#dynamics-365-field-service).
 
 ## Create or edit a custom view
 
@@ -71,7 +72,7 @@ The following steps use work order as an example. You can use these steps to cre
    | System Status     | Resource                  |
    | Work Order Type   | Booking Status            |
    | Work Order Summary| Start Time                |
-   | Duration          | End Time                  |
+   |                   | End Time                  |
    |                   | Duration                  |
    |                   | Actual Arrival Time       |
 

@@ -40,20 +40,22 @@ You can create a category in the Customer Service admin center or Customer Servi
 
 1. Go to the **Categories** page.
 
-### [Customer Service admin center](#tab/customerserviceadmincenter)
+    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  1. In the **Categories** section, select **Manage**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
+      1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+      1. In the **Categories** section, select **Manage**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
 
-### [Customer Service Hub](#tab/customerservicehub)
+    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
-   * In the site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
+      [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+
+      - In the site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
   
 2. On the command bar, select **New** to create a new category record.  
  
 3. Enter the required information.
 
-   - In the **General** section, fill in the required details:
+   1. In the **General** section, fill in the required details:
   
      - **Title**: Provide a title for the category.
      - **Description**: Give a detailed description of the category.
@@ -61,10 +63,12 @@ You can create a category in the Customer Service admin center or Customer Servi
      - **Parent Category**: Select an existing category to become the parent category. You can create a new category by selecting **New**.
      - **Category Number**: The category number is displayed for category reference. To view this, first save the record by selecting **Save** on the command bar.
 
-   - In the **Associated Categories** section:
+   b. In the **Associated Categories** section:
 
      - View all the **Child Categories** for a particular category.
      - Create a new category by selecting **Add New Category**.
+
+---   
 
 ## Manage categories
 

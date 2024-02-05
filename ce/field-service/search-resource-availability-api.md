@@ -179,6 +179,69 @@ In this example, v3 of schedule assistant API, which allows for web API calls, i
                     "value": "cc19f004-4483-ee11-8178-000d3a5c32c3"
                 }
             ]
+```
+
+The following example demonstrates proper usage of entity collections. In this case, it specifies MustChooseFromResources.
+
+```json
+{
+    "Version": "3",
+    "IsWebApi": true,
+    "Requirement": {
+        "msdyn_fromdate": "2021-07-14T00:00:00Z",
+        "msdyn_todate": "2021-07-15T23:59:00Z",
+        "msdyn_remainingduration": 60,
+        "msdyn_duration": 60,
+        "msdyn_TimeGroup@odata.bind": "/msdyn_timegroups(c3dc79ea-d12f-ee11-9cc9-000d3a745a58)",
+        "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourcerequirement"
+    },
+    "Settings": {
+        "ConsiderSlotsWithProposedBookings": false,
+        "MovePastStartDateToCurrentDate": true,
+        "@odata.type": "Microsoft.Dynamics.CRM.expando"
+    },
+    "ResourceSpecification": {
+        "@odata.type": "Microsoft.Dynamics.CRM.expando",
+        "ResourceTypes@odata.type": "Collection(Microsoft.Dynamics.CRM.expando)",
+        "ResourceTypes": [
+            {
+                "@odata.type": "Microsoft.Dynamics.CRM.expando",
+                "value": "1"
+            },
+            {
+                "@odata.type": "Microsoft.Dynamics.CRM.expando",
+                "value": "2"
+            }
+        ],
+        "MustChooseFromResources@odata.type": "Collection(Microsoft.Dynamics.CRM.expando)",
+        "MustChooseFromResources": [
+            {
+                "@odata.type": "Microsoft.Dynamics.CRM.expando",
+                "value": "2145a982-f718-ed11-b83e-0022482d79c8",
+            }
+        ],
+        "Constraints": {
+            "@odata.type": "Microsoft.Dynamics.CRM.expando",
+            "Characteristics@odata.type": "Collection(Microsoft.Dynamics.CRM.expando)",
+            "Characteristics": [
+                {
+                    "@odata.type": "Microsoft.Dynamics.CRM.expando",
+                    "characteristic": {
+                        "@odata.type": "Microsoft.Dynamics.CRM.expando",
+                        "value": "67387f9f-12e2-ec11-bb43-000d3aed25f7"
+                    }
+                }
+            ],
+            "Territories@odata.type": "Collection(Microsoft.Dynamics.CRM.expando)",
+            "Territories": [
+                {
+                    "@odata.type": "Microsoft.Dynamics.CRM.expando",
+                    "value": "cc19f004-4483-ee11-8178-000d3a5c32c3"
+                }
+            ]
+        }
+    }
+}
         }
     }
 }

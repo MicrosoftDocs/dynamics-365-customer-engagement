@@ -1,7 +1,7 @@
 ---
-title: "setClickToAct (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Learn about setClickToAct (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 07/11/2023
+title: setClickToAct (JavaScript API Reference) for Channel Integration Framework 2.0 
+description: Learn about setClickToAct (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0.
+ms.date: 01/23/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -15,7 +15,7 @@ ms.custom:
 
 # setClickToAct (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-[!INCLUDE[setClickToAct](../../../../v1/develop/reference/microsoft-ciframework/Includes/setClickToAct-description.md)]
+[!INCLUDE[setClickToAct](../../../../v1/develop/reference/microsoft-ciframework/Includes/setClickToAct-description.md)] You must have the msdyn_writechannelprovider privilege to use this API. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 ## Syntax
 
