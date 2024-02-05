@@ -38,7 +38,7 @@ Open an email from a record using the Up next widget, Timeline, or quick create 
 When opening an email from Timeline or quick create email activity, ensure that the **Regarding** field contains a lead or an opportunity.  
 
 > [!NOTE]
-> If you have opted in for the early access, you can see the Copilot email composer is active for account, contact, lead, and opportunity records and the Regarding field can contain any of the .
+> If you have opted in for the early access, you can see the Copilot email composer is active for account, contact, lead, and opportunity records and the Regarding field can contain any of the entity.
 
 ## Compose or reply to an email
 
