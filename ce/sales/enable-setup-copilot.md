@@ -26,15 +26,7 @@ For orgs in other regions, Copilot chat and Copilot for email features are turne
 >- If you had previously turned Copilot off, it remains turned off. In this case, Copilot for email is not turned on by default, even if you're in North America and have opted in for early access.
 >- Throughout this article, the term sales apps refers to apps that have lead and opportunity tables and are not part of the [exclusion list](sales-copilot-faq.md#which-applications-are-in-the-copilot-exclusion-list).
 
-Let's use the following table to understand the different scenarios:
-
-| Setting | Orgs in North America with early access | Orgs in North America without early access | Orgs in others regions | Additional info |
-|---------|-------------|----------------|--------|-----------------|
-| Settings page | New | Old | Old | The new settings page has individual toggles for chat and compose. The old experience has a single toggle for both. |
-| Changes to Copilot setting | Retained | Retained | Retained | Any changes made to the settings prior to February 5th will be retained. |
-| Chat turned on by default | Yes | Yes | No<sup>1</sup> | <sup>1</sup>Needs to be turned on manually. |
-| Compose turned on by default | Yes | No<sup>2</sup> | No | <sup>2</sup>Turned on only if Coplot preview toggle is enabled. |
-| Copilot in email rich text editor turned on by default | Yes | No<sup>3</sup> | No<sup>3</sup> | <sup>3</sup> Turned on only if the **Enable Copilot in Rich Text Editor (preview)** is turned on for the app. |
+Understand the different scenarios with [this FAQs](sales-copilot-faq.md#what-are-the-early-access-changes-related-to-copilot-for-2024-release-wave-1).
 
 Use the instructions in this article to turn Copilot on or off and configure it for your business.
 
