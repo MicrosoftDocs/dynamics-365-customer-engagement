@@ -66,12 +66,12 @@ Copilot in Dynamics 365 Sales can't be turned on for the following applications:
 
 ## What are the early access changes related to Copilot in 2024 release wave 1?
 
-Some Copilot features are available for early access in the 2024 release wave 1. The following table summarizes the changes related to Copilot for early access. [Learn more about Copilot early access and enabling chat and compose](enable-setup-copilot.md) features.
+Some Copilot features are available for early access in the 2024 release wave 1. The following table summarizes the changes related to Copilot for early access. [Learn more about Copilot early access and enabling chat and email](enable-setup-copilot.md) features.
 
 | Setting | Orgs in North America with early access | Orgs in North America without early access | Orgs in others regions | Additional info |
 |---------|-------------|----------------|--------|-----------------|
-| Settings page | New | Old | Old | The new settings page has individual toggles for chat and compose. The old experience has a single toggle for Copilot. |
+| Settings page | New | Old | Old | The new settings page has individual toggles for chat and email. The old experience has a single toggle for Copilot. |
 | Changes to Copilot setting | Retained | Retained | Retained | Any changes made to the Copilot settings prior to February 5th will be retained. |
 | Chat turned on by default | Yes | Yes | No<sup>1</sup> | <sup>1</sup>Needs to be turned on manually. |
-| Compose turned on by default | Yes | No<sup>2</sup> | No<sup>2</sup> | <sup>2</sup>Turned on only if Copilot preview toggle is enabled. |
+| Copilot for email turned on by default | Yes | No<sup>2</sup> | No<sup>2</sup> | <sup>2</sup>Turned on only if Copilot preview toggle is enabled. |
 | Copilot in email rich text editor turned on by default | Yes | No<sup>3</sup> | No<sup>3</sup> | <sup>3</sup> Turned on only if the **Enable Copilot in Rich Text Editor (preview)** is turned on for the app in the [Power Apps settings](/power-apps/maker/canvas-apps/working-with-experimental-preview?branch=main#controlling-which-features-are-enabled). |

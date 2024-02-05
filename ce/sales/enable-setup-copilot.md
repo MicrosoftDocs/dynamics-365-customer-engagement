@@ -67,7 +67,7 @@ If you're in a region other than North America, provide consent for Copilot to p
 
     :::image type="content" source="media/enable-copilot-old.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub."::: 
 
-    The settings page looks different for orgs in North America that have opted in for early access. The new settings page contains an option to turn on Chat and Compose (Copilot for email) features at the global level for all Sales apps and individually for each Sales app. 
+    The settings page looks different for orgs in North America that have opted in for early access. The new settings page contains an option to turn on Copilot Chat and Email features at the global level for all Sales apps and individually for each Sales app. 
 
     :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the new settings page in Dynamics 365 Sales Hub.":::  
 
@@ -77,7 +77,7 @@ If you're in a region other than North America, provide consent for Copilot to p
 
     The **Default** setting has the following behavior:
     
-    - For orgs in North America, Copilot Chat is turned on for all Dynamics 365 Sales apps (with lead and opportunity tables). Copilot for email (compose) is turned on only if you've opted in for early access.
+    - For orgs in North America, Copilot Chat is turned on for all Dynamics 365 Sales apps (with lead and opportunity tables). Copilot for email is turned on only if you've opted in for early access.
 
     - For orgs in other regions, Copilot is turned on for all Dynamics 365 Sales apps that meet the following conditions:
 
