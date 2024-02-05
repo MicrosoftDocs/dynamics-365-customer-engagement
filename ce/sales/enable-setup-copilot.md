@@ -73,6 +73,8 @@ If you're in a region other than North America, provide consent for Copilot to p
 
     The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform administrator had turned Copilot on for your org but your Power Apps administrator had turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
 
+    <a name="default-setting-copilot"></a>
+
     The **Default** setting has the following behavior:
     
     - For orgs in North America, Copilot Chat is turned on for all Dynamics 365 Sales apps (with lead and opportunity tables). Copilot Compose is turned on only if you've opted in for early access.
