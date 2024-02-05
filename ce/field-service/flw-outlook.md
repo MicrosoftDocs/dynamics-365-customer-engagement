@@ -12,7 +12,9 @@ ms.subservice: m365-integrations
 
 # Manage work orders with Field Service in Outlook (frontline managers)
 
-Dynamics 365 Field Service provides an Outlook add-in for frontline managers to create, view, and edit work orders directly from their email. Without leaving Outlook, you can quickly respond to requests for service or questions about existing requests. With Copilot, you can quickly create a work order with the information from the email, respond with proposed schedules, or confirm a schedule. You can quickly select and book a technician. 
+Dynamics 365 Field Service provides an Outlook add-in for frontline managers to create, view, and edit work orders directly from their email. Without leaving Outlook, you can respond to requests for service or questions about existing requests.
+
+With Copilot, you can quickly create a work order with the information from the email, respond with proposed schedules, or confirm a schedule. You can select and book a technician.
 
    :::image type="content" source="media/fsp-outlook-copilot-flow.png" alt-text="Work order process flow with Copilot in Field Service for Outlook.":::
 
