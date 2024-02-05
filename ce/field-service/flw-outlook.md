@@ -42,13 +42,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
    If the email doesn't meet Microsoft Responsible AI guidelines, Copilot displays an error. [Create the work order manually](#create-a-work-order-manually).
 
-1. Review the work order to ensure all AI-generated content is accurate.
-
-   :::image type="content" source="media/fsp-copilot-review-work-order.png" alt-text="Field Service Outlook pane showing an auto-generated work order for review":::
-
-   We encourage you to use the like/dislike buttons to leave feedback. Your feedback helps us continually improve Copilot's responses.
-
-1. Fill in any required information that wasn't included in the email. For example:
+1. Review the work order to ensure all AI-generated content is accurate. Fill in any required information that wasn't included in the email. For example:
 
    - [Service Account](accounts.md)
    - [Work Order Type](create-work-order-types.md)
@@ -56,12 +50,18 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
    If a value doesn't appear in the list, select **+ New item type** to create it in the Field Service app. Save and close the Field Service app. Type the new value or select **Refresh** to make it appear in the list.
 
+   :::image type="content" source="media/fsp-copilot-review-work-order.png" alt-text="Field Service Outlook pane showing an auto-generated work order for review":::
+
+   We encourage you to use the like/dislike buttons to leave feedback. Your feedback helps us continually improve Copilot's responses.
+
 1. Select **Save**.
 
    The work order number displays at the top of the **Field Service** pane and the email is saved in the Field Service timeline.
 
    > [!TIP]
    > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon :::image type="icon" source="media/fsp-pop-out-icon.png":::.
+
+1. Choose from one of the **Suggested actions** or select the back arrow to return to the **Home** tab.
 
 ## Create a work order manually
 
@@ -118,7 +118,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
      :::image type="content" source="media/fsp-draft-email.png" alt-text="Screenshot of the Field Service pane in Outlook, showing a draft email with Action buttons highlighted.":::
 
-1. After adding and sending the email, select the back arrow to return to the **Home** tab or the work order list.
+1. After adding and sending the email, choose from one of the **Suggested actions** or select the back arrow to return to the **Home** tab or the work order list.
 
 ## View a work order
 
@@ -168,8 +168,9 @@ The Field Service add-in helps you schedule work orders in Outlook. Scheduling s
 
    :::image type="content" source="media/fsp-outlook-scheduling.png" alt-text="Screenshot of the Field Service pane in Outlook, Scheduling suggestions, with the search, filter, and sorting options highlighted.":::
 
+   <!--- Remove until adding back in.
    If the system doesn't find suggestions or you don't find the right technician, use the [schedule board in Field Service](work-with-schedule-board.md) instead.
-
+   --->
 1. To assign the work order to a technician, select the **Book resource** icon.
 
    The technician is booked and the status is changed to **Scheduled**. A confirmation displays at the top of the **Field Service** pane.
