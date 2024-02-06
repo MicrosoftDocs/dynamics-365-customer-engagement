@@ -1,7 +1,7 @@
 ---
 title: Use email engagement to view message interactions
 description: Learn how to use email engagement in Dynamics 365 Sales to track your customers' interactions with your messages, such as selected links, opened attachments, and replies, and to get alerts to help you remember to follow up.
-ms.date: 05/25/2023
+ms.date: 02/06/2024
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
@@ -40,6 +40,13 @@ Some features of email engagement might be visible even when the feature is turn
 - The **Followed Email** table always shows the **Opens**, **Last Opened Time**, **Attachment Views**, **Link Clicks**, and **Replies** columns.
 - The **Email Template** table always shows the **Reply Rate**, **Open Rate**, **Recommended**, and **Email Count** columns.
 - The out-of-the-box versions of the account, contact, and lead forms all include the **Follow Email** field.
+
+## Considerations
+
+Review the following considerations before you use email engagement:
+
+- An email is only followed if the recipients' list contains account, contact, and lead records in the To and CC fields. If other types of records are added to the To and CC fields, the email can't be followed. In such cases, a message is displayed stating that the email can't be followed as the recipient list doesn’t contain account, lead, or contact records.
+- 
 
 ## View email engagement history
 
