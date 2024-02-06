@@ -132,7 +132,7 @@ To ensure that the integration can successfully integrate journals related to it
 
 You must grant explicit consent for Dynamics 365 finance and operations apps to impersonate Dataverse users.
 
-1. In Power Platform admin center, select the Microsoft Power Platform environment where you installed the Copilot solution.
+1. In Power Platform admin center, select the Microsoft Power Platform environment.
 1. Select **Settings** at the top of the page.
 1. Expand **Product**, and select **Features**.
 1. Find **Finance and Operations in Dataverse**.
@@ -162,6 +162,15 @@ Before installing the solution from Field Service Settings, [enable Microsoft Da
 1. Select **Install the integration solution** from the **Install Finance and Operations** control. A notification appears when the installation completes.
 
 1. Enable **Finance and Operations Integration**.
+
+### Configure posting behaviors with Field Service Settings
+
+Depending on the nature of your organization's Field Service work, benefit from two potential posting behaviors of journals and lines.
+
+In **Field Service Settings**, on the **Work Order/Booking** tab, choose a value for **Post used for Finance and Operations**:
+
+- **When work order is posted**: For work orders of short duration, posting transactions to journals can likely wait until the work is completed. Inventory changes and financial updates will only post to the general ledger or inventory when the work order is posted. In this scenario, there's a smaller chance of posting a reversal for a given transaction. It only happens if a transaction changes after posting the work order is posted.
+- **When product or service is used**: For long-running work orders, posting transactions as soon as they occur helps track inventory consumption and financial impacts in real-time. It also enables invoicing without delays that can cause inventory and financial discrepancies. Changes to transactions after they were posted reverts the previously posted transaction and generates a new transaction.
 
 ### Security roles in Field Service
 
@@ -203,15 +212,6 @@ For hours journals, evaluate which project categories to use in Field Service wo
 
 > [!TIP]
 > All products can have an associated project category, even inventory products. Make sure that field is populated for non-inventory products and service products to ensure correct transactional alignment.
-
-### Configure posting behaviors with Field Service Settings
-
-Depending on the nature of your organization's Field Service work, benefit from two potential posting behaviors of journals and lines.
-
-In **Field Service Settings**, on the **Work Order/Booking** tab, choose a value for **Post used for Finance and Operations**:
-
-- **When work order is posted**: For work orders of short duration, posting transactions to journals can likely wait until the work is completed. Inventory changes and financial updates will only post to the general ledger or inventory when the work order is posted. In this scenario, there's a smaller chance of posting a reversal for a given transaction. It only happens if a transaction changes after posting the work order is posted.
-- **When product or service is used**: For long-running work orders, posting transactions as soon as they occur helps track inventory consumption and financial impacts in real-time. It also enables invoicing without delays that can cause inventory and financial discrepancies. Changes to transactions after they were posted reverts the previously posted transaction and generates a new transaction.
 
 ### Company alignment
 
