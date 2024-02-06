@@ -1,7 +1,7 @@
 ---
 title: Configure a WhatsApp channel through Twilio
 description: Use this article to learn how to configure the WhatsApp channel through Twilio in Omnichannel for Customer Service.
-ms.date: 12/14/2023
+ms.date: 02/06/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

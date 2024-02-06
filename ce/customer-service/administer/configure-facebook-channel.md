@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service.
-ms.date: 12/06/2023
+ms.date: 02/06/2024
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan

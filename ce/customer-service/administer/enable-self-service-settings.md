@@ -1,7 +1,7 @@
 ---
 title: "Enable self-service settings | MicrosoftDocs"
 description: "Enable self-service settings for customer actions in conversations to help agents understand customer issues and provide personalized service."
-ms.date: 04/04/2022
+ms.date: 02/06/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service.
-ms.date: 10/12/2023
+ms.date: 02/06/2024
 author: lalexms
 ms.author: laalexan
 ms.reviewer: nenellim
@@ -118,8 +118,6 @@ Use the following best practices when you configure automated messages for the v
 ## Next steps
 
 [Add a chat widget](add-chat-widget.md)  
-
-
 
 ### See also
 [Channels](../use/channels.md)  

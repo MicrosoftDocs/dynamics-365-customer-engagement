@@ -1,7 +1,7 @@
 ---
 title: "Set up visitor location detection | MicrosoftDocs"
 description: "Perform the steps to set up detection of visitor location and create a geo location provider record in Omnichannel for Customer Service."
-ms.date: 10/27/2022
+ms.date: 02/06/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan

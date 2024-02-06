@@ -1,7 +1,7 @@
 ---
 title: "Configure persistent chat | MicrosoftDocs"
 description: "Use this article to understand how persistent chat works and how you can configure it in Omnichannel for Customer Service."
-ms.date: 07/28/2022
+ms.date: 02/06/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

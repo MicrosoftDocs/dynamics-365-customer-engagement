@@ -1,7 +1,7 @@
 ---
 title: "Integrate a Copilot Studio bot | MicrosoftDocs"
 description: "Use this article to get instructions on how to integrate a Copilot Studio bot in Omnichannel for Customer Service."
-ms.date: 08/31/2023
+ms.date: 02/06/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

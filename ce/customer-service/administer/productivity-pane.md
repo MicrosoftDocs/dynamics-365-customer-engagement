@@ -1,7 +1,7 @@
 ---
 title: "Productivity pane | MicrosoftDocs"
 description: "Use the productivity pane settings in Power Apps to display agent scripts and smart-assist cards for your agents."
-ms.date: 10/09/2020
+ms.date: 02/06/2024
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -13,12 +13,6 @@ ms.author: nenellim
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The productivity pane in Customer Service workspace and Omnichannel for Customer Service enables you to display knowledge search, agent scripts, and smart-assist cards in a unified view. Configure knowledge search, agent scripts, and smart-assist cards, so these agent guidance tools will appear in Customer Service workspace and Omnichannel for Customer Service.
-
-If you have recently updated the Customer Service workspace and Omnichannel for Customer Service apps, you will no longer enable or disable the productivity pane in the app. On upgrade, an app profile would have been created for your environment through Power Apps. The app profile contains your existing settings and the ability to toggle each of the agent guidance components that are available in the productivity pane:
-
-- [Knowledge search](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management)
-- [Smart assist](smart-assist.md)
-- [Agent scripts](agent-scripts.md)
 
 You can set the productivity pane in collapsed mode or expanded mode, as shown in the following illustrations.
 

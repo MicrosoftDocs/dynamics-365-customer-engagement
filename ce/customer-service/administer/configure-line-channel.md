@@ -1,7 +1,7 @@
 ---
 title: "Configure a LINE channel | MicrosoftDocs"
 description: "Instructions to configure a LINE channel in Omnichannel for Customer Service."
-ms.date: 06/17/2022
+ms.date: 02/06/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
