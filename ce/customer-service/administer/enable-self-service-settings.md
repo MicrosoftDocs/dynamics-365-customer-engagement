@@ -1,11 +1,12 @@
 ---
-title: "Enable self-service settings | MicrosoftDocs"
-description: "Enable self-service settings for customer actions in conversations to help agents understand customer issues and provide personalized service."
+title: Enable self-service settings
+description: Enable self-service settings for customer actions in conversations to help agents understand customer issues and provide personalized service.
 ms.date: 02/06/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.custom:
+  - bap-template
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:12/18/2023
@@ -14,8 +15,6 @@ ms.custom:
 # Enable self-service settings for customer actions in a conversation summary
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-## Overview
 
 The self-service feature displays information about the recent actions that a customer performs before starting a conversation with an agent. This information helps agents understand customer issues and provide a personalized service for enhanced customer satisfaction.
 
