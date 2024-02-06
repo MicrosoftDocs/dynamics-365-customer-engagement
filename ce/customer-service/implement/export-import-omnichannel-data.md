@@ -1,7 +1,7 @@
 ---
 title: "Export and import app configuration data | MicrosoftDocs"
 description: "Export and import app configuration data for Omnichannel for Customer Service using the Configuration Migration tool."
-ms.date: 07/30/2023
+ms.date: 02/06/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

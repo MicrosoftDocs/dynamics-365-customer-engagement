@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Customer Service
 description: Overview of Dynamics 365 Customer Service.
-ms.date: 08/09/2023
+ms.date: 02/06/2024
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
