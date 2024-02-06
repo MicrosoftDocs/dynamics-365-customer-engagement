@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 04/06/2023
+ms.date: 02/06/2024
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -65,7 +65,7 @@ The reports refresh shows the following information.
 
 - **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. The **Last updated** timestamp in the report pages indicates when the latest data was included in the report, and the time reflects the time zone that's set in your user preferences. 
 - **Custom refresh:** Isn't available.
-- **Data refresh for inactive environments:** Data refresh is paused if the reports aren't used continuously for two weeks. When you access a report after a lengthy period of inactivity, the report will be refreshed in the next refresh cycle.
+- **Data refresh for inactive environments:** Data refresh is paused for organizations that aren't in use for 30 days. After the next 30 days of inactivity, the analytics feature is deprovisioned on the organization.
 - **Data retention:** Data is stored for 24 months.
 
 > [!NOTE]
