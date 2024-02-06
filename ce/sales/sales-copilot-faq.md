@@ -1,7 +1,7 @@
 ---
 title: FAQs about Copilot in Dynamics 365 Sales
 description: This article includes frequently asked questions about Copilot in Dynamics 365 Sales, covering various aspects such as privacy, data security, data management, and more.
-author: lavanyakr01 # GitHub alias
+author: lavanyakr01 
 ms.author: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
@@ -75,3 +75,19 @@ Some Copilot features are available for early access in the 2024 release wave 1.
 | Chat turned on by default | Yes | Yes | No<sup>1</sup> | <sup>1</sup>Needs to be turned on manually. |
 | Copilot for email turned on by default | Yes | No<sup>2</sup> | No<sup>2</sup> | <sup>2</sup>Turned on only if Copilot preview toggle is enabled. |
 | Copilot in email rich text editor turned on by default | Yes | No<sup>3</sup> | No<sup>3</sup> | <sup>3</sup> Turned on only if the **Enable Copilot in Rich Text Editor (preview)** is turned on for the app in the [Power Apps settings](/power-apps/maker/canvas-apps/working-with-experimental-preview?branch=main#controlling-which-features-are-enabled). |
+
+## Email copilot in Dynamics 365 Sales
+
+The following frequently asked questions are related to email copilot in Dynamics 365 Sales.
+
+### How do I enable or disable this feature?
+
+To enable or disable email copilot in Dynamics 365 Sales, see [Turn Copilot features on or off in Sales Hub](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub).
+
+### Can I enable this feature for specific team members?   
+
+
+
+### Why is the **Compose** tab disabled or not available in my organization?
+
+
