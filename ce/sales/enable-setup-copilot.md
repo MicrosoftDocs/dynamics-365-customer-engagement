@@ -157,11 +157,8 @@ Copilot generates the list of recent changes for leads and opportunities from th
 
 1. Select **Save + close**.
 
-## FAQs about turning Copilot on or off
-
-
-
 ### See also
 
 - [Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)
-- [Copilot data movement](sales-copilot-data-movement.md)
+- [Copilot data movement](sales-copilot-data-movement.md)  
+- [FAQs about Copilot in Dynamics 365 Sales](sales-copilot-faq.md)
