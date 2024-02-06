@@ -34,10 +34,10 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.111.14 (2024 wave 1 early access)
 (Includes Universal Resource Scheduling version [3.12.126.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121261---2024-wave-1-early-access-release) and Resource Scheduling controls version 1.2.65.240241).
 
--	Actuals generated through Agreements will now populate all the same fields as Actuals generated from invoices linked directly to a work order.
--	The new work order experience is now the default for all new orgs.
--	Fixed a bug causing script error while adding service task type to work order.
--	Added option in the maker portal to make work order preview grid lookups editable.
+-	Actuals generated through agreements populate the same fields as actuals generated from invoices that are linked directly to a work order.
+-	The new work order experience is now the default for all new organizations.
+-	Fixed a bug causing script error while adding service task type to a work order.
+-	Added option in the Power Apps portal to make work order preview grid lookups editable.
 -	Functional location hierarchy can now be visualized inline on the new work order location section.
 
 
