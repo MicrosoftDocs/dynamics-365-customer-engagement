@@ -154,15 +154,13 @@ The data input requirements for third-party providers are as follows: 
 
 These records (Conversation Action records, Conversation Action Locale records, Channel Capability records, Provider record, and Application Tab Template records) should be included as part of the solution you create as a third-party provider so that the end user doesn't need to create them manually.
 
-## Omnichannel administration experience for third-party co-browse and screen sharing  
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
+## Administrator experience for third-party co-browse and screen sharing  
 
 In the **Conversation Options** tab of the chat widget, in the **Remote assistance** section, the Omnichannel administrator can choose to enable or disable the third-party co-browse and screen sharing options per chat widget. If there are no co-browse and screen sharing providers installed in this organization, these two options are disabled as shown here.
 
 
 > [!div class="mx-imgBorder"]
-> ![Omnichannel administration for co-browse feature.](../media/co-browse-entity-relationship.PNG "Omnichannel administration for co-browse feature")
+> ![Administrator experience for co-browse feature.](../media/co-browse-entity-relationship.PNG "Administrator experience for co-browse feature")
 
 > [!div class="mx-imgBorder"]
 > ![No screen-sharing sessions installed for co-browse feature.](../media/no-screensharing-session-co-browse.PNG "No screen-sharing sessions installed for co-browse feature")
