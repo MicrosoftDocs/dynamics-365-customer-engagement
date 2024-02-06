@@ -22,7 +22,7 @@ The **Up next** widget displays activities that you can view and perform actions
 
 Using the **Up next** widget, you can view and perform actions on activities on a record. The widget displays the current activity, upcoming activity, and completed activities. You can add these activities to a record manually or by using a sequence:
 
-- When a sequence is connected to a record, the steps are displayed to the users who connected the sequence. If the sequence is connected by a team, the steps are displayed to all the users in that team. 
+- When a sequence is connected to a record, the steps are displayed to the owner of the record. If a team is the owwner of the record, the steps are displayed to all the users in that team. 
 - When you have access to a record, you can create manual activities. These activities are displayed in the **Up next** widget as a current, upcoming, or completed activity, depending on their due dates. These activities are available to both you and the owner of the record.  
 
 To do actions on activities, see [Connect with customers by using a record or the Up next widget](connect-with-customers.md).
