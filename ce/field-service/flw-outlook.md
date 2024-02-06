@@ -1,7 +1,7 @@
 ---
 title: Manage work orders with Field Service in Outlook (frontline managers) 
 description:  Learn how service managers and dispatchers can use the Dynamics 365 Field Service for Outlook add-in to create, view, update, and schedule work orders with AI assistance in Outlook.
-ms.date: 02/02/2024
+ms.date: 02/06/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian

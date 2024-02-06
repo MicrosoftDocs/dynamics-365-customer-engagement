@@ -68,9 +68,12 @@ As an admin, you can enable or disable the use of copilot capabilities in Field 
 
    :::image type="content" source="media/fsp-fs-copilot-consent.png" alt-text="Field Service Settings page with Outlook Add-in Copilot highlighted.":::
 
-1. For **Copilot in Microsoft Outlook**, enable the setting to give consent.
+1. To give consent to use copilot to create work orders, enable  **Copilot in Microsoft Outlook**.
+
+1. To use copilot to generate email responses, enable **Generate email responses in Microsoft Outlook**.
 
 1. Select **Save**.
+
 
 <!--- Tab 2 Teams --->
 
