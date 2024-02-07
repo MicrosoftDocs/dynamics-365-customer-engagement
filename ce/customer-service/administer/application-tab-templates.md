@@ -14,9 +14,9 @@ ms.custom: bap-template
 
 An application tab template in Customer Service lets you specify the type of applications that can be opened when agents start a session in Customer Service workspace.
 
-The vertical bar on the left panel shows the list of sessions. The panel always show the **Home** session that you can't close or customize.
+The vertical bar on the left panel shows the list of sessions. The panel always shows the **Home** session that you can't close or customize.
 
-In Customer Service workspace, every session has at least one application tab, called the "Anchor tab", that you can't close or customize. When you start a session, the corresponding application page and any other additional pages are opened based on your configuration settings.
+In Customer Service workspace, every session has at least one application tab, called the "Anchor tab", that you can't close or customize. When you start a session, the corresponding application page and any other additional pages open based on your configuration settings.
 
 Using the application tab template, you can define applications that are available for a session, and then associate those applications with the session. For example, you can create the **Active Conversation** page tab and associate it with a chat or SMS session. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and the **Active Conversation** page opens.
 
