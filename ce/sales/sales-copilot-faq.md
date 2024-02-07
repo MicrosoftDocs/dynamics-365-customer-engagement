@@ -152,7 +152,7 @@ To know about the feature enhancements that are coming soon, see [Copilot previe
 
 No. The system isn't reading your email to train the model. 
 
-## If I keep using this feature, will the system learn to write like me? 
+### If I keep using this feature, will the system learn to write like me? 
 
 No. The system doesn't learn to write like you. It uses the data to generate the content based on the context and the prompt you provide.
 
