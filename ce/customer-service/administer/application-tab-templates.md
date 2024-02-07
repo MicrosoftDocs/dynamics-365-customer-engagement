@@ -4,7 +4,7 @@ description: Learn how to create application tab templates in Customer Service. 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer:
-ms.date: 02/05/2024
+ms.date: 02/07/2024
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -111,18 +111,11 @@ The following parameters are available for the entity record page type when an e
 | `entityName` | Logical name of the entity | Yes | String <br><br> Slugs <br> <br> | account <br><br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}`<br><br> |
 | `entityId`  | GUID of the entity record | No | String <br><br> Slugs <br> <br> |  `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br><br> `{anchor._customerid_value}` <br><br> 
 | `formId` | GUID of the form instance | No | String   | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
+|`validateRecord`| Checks if the record exists in the organization database | No | Boolean | True |
 
-If the system doesn't match the entityId value to an existing record in Dataverse, then the form opens in create mode to create a record.
-
-If you want the system to load the form only when the record exists in Dataverse, then follow these steps to update the custom template:
-
-1. On the **Application Tab Template** page, select **New Template Parameter**.
-
-1. Set the following values:
-   - **Name**: validateRecord
-   - **Unique Name**: new_tabtemplateparam_validateRecord
-   - **Value**: true
-1. Save and close.
+> [!NOTE]
+> If the system doesn't match the entityId value to an existing record in Dataverse, then the form opens in create mode to create a record.
+> If you want the system to load the form only when the record exists in Dataverse, then set the validateRecord parameter to true.
 
 The following parameters are available for the entity record page type when an entity form is opened to create a record.
 
