@@ -18,7 +18,7 @@ System administrators define settings for work orders, bookings, agreements, and
 
    :::image type="content" source="media/settings-field-service-settings.png" alt-text="Screenshot of the Field Service Settings page in the Settings area.":::
 
-1. Select the settings you want to change and fill in the information, as required. Refer to the following sections for a description of the settings.
+1. Select tab for the settings you want to change and fill in the information, as required. Refer to the following sections for a description of the settings.
 
 1. Select **Save** to apply your changes.
 
@@ -54,7 +54,17 @@ During the initial opt-in process, creation of new records may fail. We recommen
    - Set the **Prefix**, **Number Length**, and **Starting Number**.
 
 1. Select **Apply**.
-  
+
+## Features settings
+
+This settings tab lets you enable toggles for preview and copilot features.
+
+|   Option     |   Description  |
+| ------------- | -------------- |
+| Enhanced characteristics | Enable [enhanced characteristics](set-up-characteristics.md) to add more details to a resource's characteristics |
+| Copilot for work order | Enable [work order recap with Copilot](work-order-recap.md) to provide a summary of a work order. |
+| Copilot in Microsoft Outlook | Enable Copilot in Outlook to create work orders based on the contents of an email. |
+
 ## Work Order / Booking settings
 
 This settings tab lets you define several default values and basic settings related to work orders and bookings.
