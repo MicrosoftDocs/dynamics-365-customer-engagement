@@ -3,7 +3,7 @@ title: Handle overflow of work items
 description: Learn how to handle overflow of work items for queues enabled for unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 02/07/2024
+ms.date: 02/08/2024
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -145,6 +145,10 @@ Whenever a work item is handled by the overflow action instead of being assigned
 
 [This section is prerelease documentation and is subject to change.]
 
+> [!IMPORTANT]
+> - This is a preview feature.
+> - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+
 After a work item is in a queue, if the waiting period is long, the system can reroute the open work item to another queue with more agents who can address the customer request. You can configure an overflow action that's run when the wait time exceeds the configured time.
 
 1. In the Customer Service admin center site map, select **Queues** in **Customer support**.
@@ -165,7 +169,9 @@ After a work item is in a queue, if the waiting period is long, the system can r
 
 The following points are applicable:
 
-- In preview, the **Transfer to a different queue** action only is available for voice channels. For the messaging channels, the option to end a conversation is also available.
+- In preview, the actions that are available for the channels are as follows:
+    - **Transfer to a different queue**: Messaging, record, and voice channels. 
+    - **End conversation**: Messaging channel.
 - You can configure the following wait times:
     - **Voice channel**: One to 60 minutes
     - **Messaging channel**: One minute to two days
