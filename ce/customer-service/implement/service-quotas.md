@@ -14,7 +14,7 @@ ms.custom: bap-template
 Service quotas are the limits on resources, configurations, and items that are provided as part of Omnichannel for Customer Service. The tables that follow describe the service quotas and whether they can be adjusted for Dynamics 365 Customer Service Voice Channel Add-in and Dynamics 365 Customer Service Digital Messaging and Voice Add-in subscriptions.
 
 > [!NOTE]
-> - All limits are at an organizational level.
+> - All limits are at an organization level unless otherwise specified.
 > - If you need a higher limit on a measure that's indicated as adjustable, contact Microsoft Support to check whether the limit can be increased.
 
 ## Configuration limits
