@@ -157,37 +157,14 @@ Copilot generates the list of recent changes for leads and opportunities from th
 
 1. Select **Save + close**.
 
-## Add the Copilot page to custom apps (preview)
+## Add the Copilot page site map entry to custom app
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+When you create a custom model-driven app, you can choose a default solution to create a sitemap for the app. However, the list contains solutions that are based on entity forms only. The Copilot page, the immersive, full-screen view, is based on a URL custom control and doesn't appear in the solution list. You must manually add this page to the sitemap. After you add the Copilot page, users in your organization can see it on the app’s sitemap.
+  
+Use the following URL to add the Copilot page sitemap entry to your custom app while following the steps in [add site map entry to custom app](add-custom-site-map.md):
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+`/main.aspx?&pagetype=control&controlName=PowerApps.Copilot`
 
-The Copilot page is available in the Sales Hub app by default. If you have a custom app and would like to use Copilot in the full-screen view, add the Copilot page to the sitemap in your custom app. The following example uses the Sales Sandbox custom app.
-
-1. Make sure that the [Copilot preview feature flag](copilot-preview-features.md#enable-all-preview-features-for-copilot) is turned on.
-
-1. On the Dynamics 365 Apps page, select the ellipses on your custom app tile and select **OPEN IN APP DESIGNER**.
-
-    :::image type="content" source="media/faq-sa-open-app-designer.png" alt-text="Screenshot of the Sales Sandbox custom app on the App page and in App Designer.":::
-
-1. Open the site map designer. Select the pencil icon for the Site Map section.
-
-    :::image type="content" source="media/faq-sa-open-site-map-designer.png" alt-text="Screenshot of the Sales Sandbox custom app in Sitemap Designer.":::
-
-1. Select the area in which you want to add the work list entry, and then select **Add** > **Subarea**.
-
-1. Select the new subarea, go to the **Properties** tab, and enter the following values:
-
-   - Select **Type** as **URL**.
-   - Enter the **URL value** as */main.aspx?&pagetype=control&controlName=PowerApps.Copilot*.
-   - Enter the **Title (1033)** as *Copilot*.
-   - Select the default **Icon** to use the default Copilot icon.
-   - Enter a unique ID; for example, *copilotpage*.
-
-1. Save and publish the sitemap.
-
-Sellers can now access the Copilot page in your custom app.
 
 ### See also
 

@@ -45,13 +45,13 @@ Open the Copilot side pane when you want to get quick insights about a record or
 
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with.
 
-### Open Copilot in full-screen view (preview)
+### Open Copilot in an immersive, full-screen view (preview)
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-Open the Copilot page in full-screen view when you want more space and focus to chat with Copilot and ask questions.
+Open the Copilot page in a full-screen view when you want more space and focus to chat with Copilot and ask questions.
 
 1. Select **Copilot** in your sitemap.
 
