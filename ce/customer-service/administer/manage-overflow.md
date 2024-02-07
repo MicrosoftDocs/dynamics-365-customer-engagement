@@ -1,14 +1,14 @@
 ---
-title: Manage overflow of work items
-description: Learn how to manage overflow of work items for queues enabled for unified routing in Customer Service.
+title: Handle overflow of work items
+description: Learn how to handle overflow of work items for queues enabled for unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 01/29/2024
+ms.date: 02/07/2024
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
-# Manage overflow of work items
+# Handle overflow of work items
 
 When a new work item gets routed with unified routing, the system tries to find the best-suited agent to work on the work item. Sometimes all eligible agents are at maximum capacity. In scenarios like these, you can configure overflow conditions to handle the surge.
 
@@ -31,10 +31,11 @@ For overflow to work correctly, the following prerequisites must be met:
 
 - Agents should be configured for the queues.
 - To transfer calls to an external number, make sure that external phone numbers with outbound calling are available.
+- For overflow evaluation to run before work items are queued, route-to-queue rules must be configured in the workstream.
 
-## How queue overflow is evaluated before work item is queued
+## How queue overflow is evaluated before work item are queued
 
-The overflow conditions and actions are run only if the route-to-queues rule is configured. The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queues rules are evaluated. Any manual actions like agent transfer or supervisor assign won't trigger overflow actions.
+The overflow evaluation takes place before a work item is routed to a queue and after the route-to-queues rules are evaluated. Overflow isn't triggered again for work items that are transferred to another queue as a result of an overflow action. Any manual actions like agent transfer or supervisor assign also won't trigger overflow actions.
 
 The following factors are considered during the overflow evaluation:
 
@@ -69,7 +70,7 @@ The following table lists the condition and action pairs available for different
 | Live chat and other messaging channels | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li></ul> | <ul><li>End conversation</li><li>Transfer to a different queue</li><li>Assign to queue anyway</li></ul> |
 | Record | <ul><li> Out of operating hours</li></ul> | <ul><li>Assign to queue anyway</li><li>Transfer to a different queue</li></ul> |
 
-### Configure overflow conditions before work items are queued
+### Configure overflow conditions
 
 In the Customer Service admin center app, do the following steps:
 
@@ -120,7 +121,7 @@ In the Customer Service admin center app, do the following steps:
 
         :::image type="content" source="../media/overflow-condition-action.png" alt-text="A screenshot of the condition and action pairs configured for the queue.":::
 
-### Configure rule-specific overflows
+### Configure rule-specific overflows 
 
 Sometimes, you might not want an overflow action to run for specific types of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing as "end call" or "keep waiting in queue". This action might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure rule-specific overflow conditions for those queues in the route-to-queue rules for a workstream.
 
@@ -134,12 +135,17 @@ Sometimes, you might not want an overflow action to run for specific types of wo
 
 1. Do the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section in this article.
 
+### View diagnostics for overflow
+
+Whenever a work item is handled by the overflow action instead of being assigned to an agent, you can view its status in the **Route to queue** stage of the diagnostic page.
+
+:::image type="content" source="../media/overflow-diagnostics.png" alt-text="View the diagnostic status of the overflow action triggered for the work item.":::
 
 ## Manage overflow of work items that are waiting in queue (preview)
 
 [This section is prerelease documentation and is subject to change.]
 
-After a work item is routed to a queue, if the waiting period is lengthy, the system can reroute the open work item to another queue with more agents who can address the customer request. You can configure an overflow action that's run when the wait time exceeds the configured time.
+After a work item is in a queue, if the waiting period is long, the system can reroute the open work item to another queue with more agents who can address the customer request. You can configure an overflow action that's run when the wait time exceeds the configured time.
 
 1. In the Customer Service admin center site map, select **Queues** in **Customer support**.
 
@@ -147,7 +153,7 @@ After a work item is routed to a queue, if the waiting period is lengthy, the sy
 
 1. In **Overflow handling**, select Edit.
 
-1. In the **Overflow handling** dailog, in the **When work items are queued** area, select **Add condition-action pair**. 
+1. In the **Overflow handling** dialog, in the **When work items are queued** area, select **Add condition-action pair**. 
 
 1. For the **Waiting time in queue exceeds** condition, enter a number that denotes the wait time after which the overflow action runs, and select **Minutes**, **Hours**, or **Days**.
 
@@ -159,28 +165,23 @@ After a work item is routed to a queue, if the waiting period is lengthy, the sy
 
 The following points are applicable:
 
-- In preview, the **Transfer to a different queue** action only is available for all channels.
+- In preview, the **Transfer to a different queue** action only is available for voice channels. For the messaging channels, the option to end a conversation is also available.
 - You can configure the following wait times:
     - **Voice channel**: One to 60 minutes
     - **Messaging channel**: One minute to two days
     - **Record channel**: One minute to two days
 
   The wait time that you can specify must be more than one minute. For any other value, the time will be rounded off to the nearest 30 seconds.
-- If the queue to which the work item is transferred is in the overflow condition, and any overflow action is configured for the transferred queue, the action is run.
-- The overflow action runs on all types of routed work items that are open irrespective of how they are routed to the queue. For example, a work item can be transferred by a supervisor or routed from another overflowing queue.
 
-## View diagnostics for overflow
+- If a work item is moved to another queue on account of long wait times and the new queue also has overflow handling, the system reevaluates and takes action if the wait time exceeds in the new queue.
+- The overflow action applies to all work items that are open, irrespective of how they're placed in the queue, including scenarios where a work item is transferred by an agent or supervisor, or it's routed from another overflowing queue.
 
-Whenever a work item is handled by the overflow action instead of being assigned to an agent, you can view its status in the **Route to queue** stage of the diagnostic page.
+## Edit automated messages for overflow action
 
-:::image type="content" source="../media/overflow-diagnostics.png" alt-text="View the diagnostic status of the overflow action triggered for the work item.":::
-
-### Edit automated messages for end call overflow action
-
-If you have set **End call** as an overflow action for the voice queue, an automated message will be delivered to the customer to let them know that the conversation will end. You can edit the message that the customer will hear.
+If you have set **End call** or **End conversation** as an overflow action, the customer receives and automated message that lets them know about no agents being available to serve. You can edit the message that the customer receives.
 
 1. In the Customer Service admin center site map, go to **Customer settings** in **Customer support**, and select **Automated messages**.
-2. Find the automated message for the **Voice** channel where the message trigger is "Voice call ended".
+2. Find the automated message for the channel where the message trigger is **End conversation due to overflow**.
 3. Edit the value in the **Localized text** column as needed.
 
 > [!div class="mx-imgBorder"]
