@@ -53,7 +53,7 @@ Copilot can help you stay on top of your pipeline by showing you a list of leads
 
 Copilot can help you catch up on any updates to your opportunity or lead records in the last seven days or since you last signed in.
 
-The list of recent changes is taken from the audit history of the record. If the list of changes doesn't appear, ask your administrator to [turn on auditing](enable-setup-copilot.md#turn-copilot-features-in-dynamics-365-apps-on-or-off) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
+The list of recent changes is taken from the audit history of the record. If the list of changes doesn't appear, ask your administrator to [turn on auditing](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 

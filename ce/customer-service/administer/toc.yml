@@ -398,6 +398,8 @@
             href: voice-channel-block-number.md
           - name: Configure call recording, transcription, and real-time translation
             href: voice-channel-configure-transcripts.md
+          - name:  Configure survey for call quality feedback (preview)
+            href: configure-end-of-call-survey.md           
           - name: Delete call recordings
             href: voice-channel-delete-calls.md
           - name: Enable voice consult with Microsoft Teams users
