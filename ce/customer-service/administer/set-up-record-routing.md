@@ -1,7 +1,7 @@
 ---
-title: "Set up unified routing for records | MicrosoftDocs"
-description: "Use this article to understand how to set up unified routing for records in Customer Service."
-ms.date: 09/20/2023
+title: Set up unified routing for records
+description: Use this article to understand how to set up unified routing for records in Customer Service.
+ms.date: 02/02/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,16 +11,16 @@ ms.author: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-You can configure routing for records in the Customer Service admin center, Customer Service Hub, or Omnichannel admin center (deprecated) app. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
+You can configure unified routing for records in the Customer Service admin center or Omnichannel admin center (deprecated) app.
 
 [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
-If you only have Dynamics 365 Customer Service, then the options to configure unified routing will be available only after you enable unified routing in the service configuration settings.
+If you have Dynamics 365 Customer Service only, then the options to configure unified routing will be available only after you enable unified routing in the service configuration settings.
 
 > [!IMPORTANT]
 > 
 > - After you enable the unified routing feature in **Service Configuration Settings**, you can't disable it. You'll need to contact Microsoft Support to disable the feature.
-> - Provisioning unified routing might impact runtime operations on account of solution import that can impact SQL load.
+> - Provisioning unified routing might affect runtime operations on account of solution import that can affect SQL load.
 > - If you're upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in your admin app.
 > - If you're an existing customer, we recommend that you configure and test unified routing in a test or development environment before configuring it in your production environment.
 > - If you're routing, updating, or deleting multiple records at a time, and facing any technical or performance-related issues with unified routing, we recommend that you contact Microsoft Support to troubleshoot the issues.
