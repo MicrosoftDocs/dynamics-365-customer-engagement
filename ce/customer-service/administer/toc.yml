@@ -548,8 +548,6 @@
         items: 
           - name: Productivity pane
             href: productivity-pane.md
-          - name: Enable productivity pane and smart assist
-            href: app-profile-manager.md#enable-prod-pane
           - name: Create quick replies
             href: create-quick-replies.md
           - name: Manage rich messages
