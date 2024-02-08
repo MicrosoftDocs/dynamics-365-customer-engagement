@@ -86,17 +86,17 @@ A related app, Sales Copilot Power Virtual Agents Bot, is also created for your 
 
 The following frequently asked questions are related to Copilot for emails.
 
-### How do I enable or disable this feature?
-
-To enable or disable email copilot in Dynamics 365 Sales, see [Turn Copilot features on or off in Sales Hub](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub).
-
-### Can I enable this feature for specific team members?  
-
-No, you can't enable this feature for specific team members. It's a global setting that applies to all users in your organization. 
-
 ### Why is the Email (preview) tab disabled or not available in my organization?
 
 This feature is available only for organizations in North America with early access to Copilot in 2024 release wave 1. If you're in a different region, you must enable the Copilot preview feature to use. More information: [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md).  
+
+### How I enable or disable this feature?
+
+To enable or disable Copilot for email in Dynamics 365 Sales, see [Turn Copilot features on or off in Sales Hub](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub).
+
+### Can I enable this feature for specific team members?  
+
+No, you can't enable this feature for specific team members. It's a global setting that applies to all users in your organization.  
 
 ### Is this the same as Sales Copilot in Outlook? How is it different?  
 
@@ -110,31 +110,31 @@ Copilot for email supports the following entities: Account, Contact, Lead, and O
 
 Yes. You can adjust the length and tone of the email. More information: [Refine email content with Copilot](/power-apps/maker/model-driven-apps/use-copilot-email-assist#refine-email-content-with-copilot?context=/dynamics365/context/sales-context)
 
-### Why is email thread summary not always appearing?  
+### Why doesn't email thread summary appear sometimes?  
 
-Email summary isn't always appearing because of the character limit. More information: [Considerations for email summary](view-copy-email-summary.md#considerations)
+Email summary doesn't appear sometimes due to character limitation. More information: [Considerations for email summary](view-copy-email-summary.md#considerations)
 
-### Why do I see only the **Describe the email** in some cases for email messages? 
+### Why do I see only the Describe the email in some cases?
 
-By design, we're showing only **Describe the email** for emails related to Account, Contact, and new email. For email reply regarding Lead and Opportunity, we show other options such as **Make a proposal**, **Reply to inquiry**, and **Address a concern**. 
+By design, emails related to **Account** and **Contact**, and new emails display only **Describe the email**. For emails related to **Lead** and **Opportunity**, you'll see additional options such as **Make a proposal**, **Reply to inquiry**, and **Address a concern**.
 
 ### Can I save my own prompts to write the emails?  
 
 Currently, you can't save your own prompts to write emails.
 
-### Can this work for both Outlook and Dynamics email as the default email experience?  
+### Can Copilot for email works for both Outlook and Dynamics 365 email as the default email experience?  
 
-Yes, this feature works for both Outlook and Dynamics email as the default email experience.
+Yes, Copilot for email works for both Outlook and Dynamics 365 email as the default email experience.
 
-### Can I use my own templates along with the email copilot?  
+### Can Copilot use a custom email template?  
 
-Currently, you can't use your own templates along with the email copilot.
+Currently, you can't use your own templates with Copilot for email.
 
-### Can I provide inputs to adjust the length or tone of the email being generated to improve the draft?  
+### To improve the generated draft email, can I provide inputs to adjust the length or tone?  
 
-Yes. You can provide inputs to adjust the length or tone of the email being generated to improve the draft. More information: [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content)  
+Yes. You can provide inputs to adjust the length or tone of the email that's being generated to improve the draft. More information: [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content)  
 
-### What languages are supported?  
+### What languages are supported by Copilot for email?  
 
 Currently, only English is supported.
 
@@ -142,17 +142,17 @@ Currently, only English is supported.
 
 Yes. You can regenerate the system suggested draft. For more information, see the **To start a fresh draft** section in [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content)
 
-### How can I share my feedback to the team?  
+### How can I share my feedback with you?  
 
 To share your feedback, use the thumbs up or down buttons in the **Email (preview)** pane.
 
-### I have some ideas or suggestions, how do I get in touch with you?  
+### How can I share my ideas or suggestions with you?
 
-You can use the **Connect and share** icon on the top right corner of the Sales Hub app to share your ideas and suggestions.
+You can use the **Connect and share** icon on the top-right corner of the Sales Hub app to share your ideas and suggestions.
 
 ### What are some feature enhancements coming soon? 
 
-To know about the feature enhancements that are coming soon, see [Copilot preview features](copilot-preview-features.md)
+If you have turned on the preview features, you can see the feature enhancements that are coming soon. To know about the feature enhancements that are coming soon, see [Copilot preview features](copilot-preview-features.md)
 
 ### Is the system reading my email to train the model?
 
@@ -166,6 +166,6 @@ No. The system doesn't learn to write like you. It uses the data to generate the
 
 For information about the privacy policy or transparency, see [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy?context=/dynamics365/context/sales-context).
 
-### Does the feature automatically send emails on my behalf?
+### Does Copilot automatically send emails on my behalf?
 
-No. The feature doesn't send the email automatically on your behalf. You have to review and send the email.
+No. Copilot doesn't send the email automatically on your behalf. You have to review and send the email.
