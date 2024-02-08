@@ -98,9 +98,9 @@ To enable or disable Copilot for email in Dynamics 365 Sales, see [Turn Copilot 
 
 No, you can't enable this feature for specific team members. It's a global setting that applies to all users in your organization.  
 
-### Is this the same as Sales Copilot in Outlook? How is it different?  
+### Is this the same as Microsoft Copilot for Sales in Outlook? How is it different?  
 
-No, there's no difference between Copilot in Dynamics 365 Sales and Sales Copilot in Outlook. Both features are the same and provide the same functionality. However, the interface for Copilot in Dynamics 365 Sales is accessible within the Sales Hub app and may have a version that is slightly older than the one in Outlook.
+No, there's no difference between Copilot in Dynamics 365 Sales and Microsoft Copilot for Sales in Outlook. Both features offer the same functionality. However, the interface for Copilot in Dynamics 365 Sales is accessible within the Dynamics 365 Sales apps and may have a version that is slightly older than the one in Outlook.
 
 ### What entities are supported for Copilot for emails?
 
@@ -122,17 +122,17 @@ By design, emails related to **Account** and **Contact**, and new emails display
 
 Currently, you can't save your own prompts to write emails.
 
-### Can Copilot for email works for both Outlook and Dynamics 365 email as the default email experience?  
+### Can Copilot for email work for both Outlook and Dynamics 365 email as the default email experience?  
 
-Yes, Copilot for email works for both Outlook and Dynamics 365 email as the default email experience.
+Yes, Copilot for email work for both Outlook and Dynamics 365 email as the default email experience.
 
 ### Can Copilot use a custom email template?  
 
 Currently, you can't use your own templates with Copilot for email.
 
-### To improve the generated draft email, can I provide inputs to adjust the length or tone?  
+### Can I provide inputs to adjust the length or tone?  
 
-Yes. You can provide inputs to adjust the length or tone of the email that's being generated to improve the draft. More information: [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content)  
+Yes. You can provide inputs to adjust the length or tone of the email being generated to improve the draft. More information: [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content)  
 
 ### What languages are supported by Copilot for email?  
 
@@ -142,17 +142,17 @@ Currently, only English is supported.
 
 Yes. You can regenerate the system suggested draft. For more information, see the **To start a fresh draft** section in [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content)
 
-### How can I share my feedback with you?  
+### How can I share my feedback?  
 
 To share your feedback, use the thumbs up or down buttons in the **Email (preview)** pane.
 
-### How can I share my ideas or suggestions with you?
+### How can I share my ideas or suggestions?
 
 You can use the **Connect and share** icon on the top-right corner of the Sales Hub app to share your ideas and suggestions.
 
-### What are some feature enhancements coming soon? 
+### What are feature enhancements coming soon? 
 
-If you have turned on the preview features, you can see the feature enhancements that are coming soon. To know about the feature enhancements that are coming soon, see [Copilot preview features](copilot-preview-features.md)
+If you have turned on the preview features, you can see the feature enhancements that are coming soon. To know more, see [Copilot preview features](copilot-preview-features.md)
 
 ### Is the system reading my email to train the model?
 
