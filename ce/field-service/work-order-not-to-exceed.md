@@ -31,9 +31,13 @@ A high-level work order process is outlined below.
   - Other Field Service roles: Read and use permissions for NTE records.
 - [Enable cost calculation or price calculation](configure-default-settings.md#work-order--booking-settings), depending on the NTE type you plan to use.
 
-## Activate not-to-exceed
+## Enable not-to-exceed
 
-An admin must [enable the NTE capability in Field Service Settings](configure-default-settings.md#work-order--booking-settings) before they can specify the logic for the NTE records.
+Before users can work with the NTE capability, a Field Service administrator has to enable the feature.
+
+1. In Field Service, change to the **Settings** area.
+1. Under **General**, select **Field Service Settings**.
+1. On the **Features** tab, set **Not-To-Exceed** to **On**.
 
 ## NTE types
 

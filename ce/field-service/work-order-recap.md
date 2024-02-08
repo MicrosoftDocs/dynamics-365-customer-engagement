@@ -1,7 +1,7 @@
 ---
 title: Work order recap with Copilot in Field Service (preview)
 description: Let AI generate a work order recap to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 11/28/2023
+ms.date: 02/08/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -32,7 +32,7 @@ Watch this brief video to learn more about the new work order experience in Fiel
 
 - Your environment must be in the United States or the United Kingdom.
 
-- The feature is disabled by default for environments in the United Kingdom. An administrator must enable **Copilot recap** in Field Service settings.
+- The feature is disabled by default for environments in the United Kingdom. An administrator must enable **Copilot for work order** in Field Service settings.
 
 - You must have a paid Field Service environment. The work order recap feature isn't available in trial environments.
 
@@ -42,11 +42,11 @@ Watch this brief video to learn more about the new work order experience in Fiel
 
 Open a [work order form (preview)](work-order-experience.md).
 
-- To generate a recap, select **Generate recap** in the **Copilot recap** control.
+- To generate a recap, select **Generate** in the **Copilot** control.
 
-- To refresh the recap, select **Regenerate recap** in the **Copilot recap** control.
+- To refresh the recap, select **Regenerate** in the **Copilot** control.
 
-Use the like/dislike buttons in the **Copilot recap** control to provide feedback and, optionally, more context about your preferences. Your feedback helps us understand if the recap is useful or not and why.
+Use the like/dislike buttons in the **Copilot** control to provide feedback and, optionally, more context about your preferences. Your feedback helps us understand if the recap is useful or not and why.
 
 ## Generate a work order recap in the mobile app
 
