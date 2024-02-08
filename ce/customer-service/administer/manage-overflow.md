@@ -95,7 +95,7 @@ In the Customer Service admin center app, do the following steps:
      - **End conversation**: For messaging queues only. The conversation is routed to the queue and ended.
      - **Transfer to a different queue**: Select a queue from the dropdown list that appears. The work item is transferred to the selected queue.
      - **Transfer to an external number**: For voice queues only. Enter the number to which the call must be transferred.
-     - **Voicemail**: For voice queues only. Customers can choose to leave a voicemail that the agents will receive to act upon.
+     - **Voicemail**: For voice queues only. Customers can choose to leave a voicemail that the agents receive to act upon.
 
 1. For the messaging and voice queues, you can set the following extra conditions and actions:
 
@@ -177,7 +177,7 @@ The following considerations are applicable:
     - **Messaging channel**: One minute to two days
     - **Record channel**: One minute to two days
 
-  The wait time that you specify must be more than one minute. For any other value, the time will be rounded off to the nearest 30 seconds.
+  The wait time that you specify must be more than one minute. For any other value, the time is rounded off to the nearest 30 seconds.
 
 - If a work item is moved to another queue because of long wait times and the new queue also has overflow handling, the system reevaluates and takes action if the wait time exceeds in the new queue.
 - The overflow action applies to all work items that are open, irrespective of how they're placed in the queue, including scenarios where a work item is transferred by an agent or supervisor, or it's routed from another overflowing queue.
