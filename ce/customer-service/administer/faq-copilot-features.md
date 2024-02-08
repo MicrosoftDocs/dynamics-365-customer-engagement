@@ -9,6 +9,7 @@ search.audienceType:
   - admin
 ms.custom: 
   - dyn365-customerservice
+ms.collection: bap-ai-copilot
 ---
 
 

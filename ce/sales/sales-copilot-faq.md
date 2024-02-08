@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 10/05/2023
+ms.date: 02/07/2024
 ---
 
 # FAQs about Copilot in Dynamics 365 Sales
@@ -51,3 +51,33 @@ Microsoft Sales Copilot is a seller experience application that's available in M
 
 Copilot in Dynamics 365 Sales refers to the AI assistant that uses generative AI to summarize opportunities and leads, and generate meeting preparation notes. It's integrated with Dynamics 365 Sales apps. [Learn more about Copilot in Dynamics 365 Sales](copilot-overview.md).
 
+## Which applications are in the exclusion list for Copilot in Dynamics 365 Sales?
+
+Copilot in Dynamics 365 Sales can't be turned on for the following applications:
+
+- msdyn_FSMobile
+- msdyn_FieldService
+- msdyn_ResourceScheduling
+- AppforOutlookModule
+- Customerservicehub
+- msdyn_CustomerServiceWorkspace
+- OmniChannelEngagementHub
+- msdyn_ProjectService
+
+## What are the early access changes related to Copilot in 2024 release wave 1?
+
+Some Copilot features are available for early access in the 2024 release wave 1. The following table summarizes the changes related to Copilot for early access. [Learn more about Copilot early access and enabling chat and email](enable-setup-copilot.md) features.
+
+| Setting | Orgs in North America with early access | Orgs in North America without early access | Orgs in others regions | Additional info |
+|---------|-------------|----------------|--------|-----------------|
+| Settings page | New | Old | Old | The new settings page has individual toggles for chat and email. The old experience has a single toggle for Copilot. |
+| Changes to Copilot setting | Retained | Retained | Retained | Any changes made to the Copilot settings prior to February 5th will be retained. |
+| Chat turned on by default | Yes | Yes | No<sup>1</sup> | <sup>1</sup>Needs to be turned on manually. |
+| Copilot for email turned on by default | Yes | No<sup>2</sup> | No<sup>2</sup> | <sup>2</sup>Turned on only if Copilot preview toggle is enabled. |
+| Copilot in email rich text editor turned on by default | Yes | No<sup>3</sup> | No<sup>3</sup> | <sup>3</sup> Turned on only if the **Enable Copilot in Rich Text Editor (preview)** is turned on for the app in the [Power Apps settings](/power-apps/maker/canvas-apps/working-with-experimental-preview?branch=main#controlling-which-features-are-enabled). |
+
+## Why does my tenant have Sales Copilot Power Virtual Agents Bot in Microsoft Copilot Studio? 
+
+Sales Copilot Power Virtual Agents Bot is part of the Dynamics 365 Sales solution and is deployed to all Dynamics 365 Sales environments, irrespective of whether Copilot in Dynamics 365 Sales is enabled or not. The bot is used to authenticate and authorize Copilot only when Copilot in Dynamics 365 Sales is enabled. If you've disabled Copilot in Dynamics 365 Sales, the bot remains dormant on your environment. The bot will be updated automatically. It can't be deleted or disabled either. [Learn more about Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
+
+A related app, Sales Copilot Power Virtual Agents Bot, is also created for your tenant in Azure for authentication and authorization purposes. The app will be renewed when it's nearing expiration. We recommend that you don't delete or disable the app.

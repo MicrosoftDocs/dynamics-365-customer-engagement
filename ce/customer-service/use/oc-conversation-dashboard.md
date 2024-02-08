@@ -5,6 +5,7 @@ ms.date: 11/24/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.collection: bap-ai-copilot
 ---
 
 # Conversation dashboard
