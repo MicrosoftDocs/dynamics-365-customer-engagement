@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 02/07/2024
+ms.date: 02/08/2024
 ---
 
 # FAQs about Copilot in Dynamics 365 Sales
@@ -94,7 +94,7 @@ This feature is available only for organizations in North America with early acc
 
 ### Is this the same as Sales Copilot in Outlook? How is it different?  
 
-No, there's no difference between Copilot in Dynamics 365 Sales and Sales Copilot in Outlook. Both features are the same and provide the same functionality. However, Copilot for Dynamics 365 Sales interface is available in the Sales Hub app.
+No, there's no difference between Copilot in Dynamics 365 Sales and Sales Copilot in Outlook. Both features are the same and provide the same functionality. However, the interface for Copilot in Dynamics 365 Sales is accessible within the Sales Hub app and may have a version that is slightly older than the one in Outlook.
 
 ### What entities are supported for Copilot for emails?
 
