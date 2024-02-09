@@ -780,6 +780,10 @@
           href: migrate-config-data-for-voice-channel.md
         - name: Migrate configuration data for SMS channel
           href: migrate-config-data-for-sms-channel.md
+        - name: Migrate configuration data for WhatsApp through Twilio
+          href: migrate-config-data-for-whatsapp-through-twilio.md
+        - name: Migrate configuration data for custom channel
+          href: migrate-config-data-for-custom-channel.md
         - name: Migrate workstreams created in Omnichannel Administration
           href: migrate-workstreams.md
         - name: Migrate automatic record creation rules and SLAs
