@@ -117,7 +117,7 @@ For information on the service protection limits for AI suggestions, see [Enable
 
 ## Microsoft Power Platform capacity impact
 
-Enabling the insights feature affects Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage)
+If you enable the insights feature, it affects Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
 ### See also
 
