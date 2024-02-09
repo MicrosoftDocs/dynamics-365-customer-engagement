@@ -151,7 +151,7 @@ In the near future, the new work order experience becomes the new default view f
 
 Before you install the 2024 release wave 1 early access update, complete the following steps to opt out from changing the default experience.
 
-1. In Field Service, select **Settings** (:::image type="content" source="media/settings-icon.svg" alt-text="Settings icon in Field Service.":::) and select **Advanced settings**.
+1. In Field Service, select **Settings** (:::image type="icon" source="media/settings-icon.svg" border="false":::) and select **Advanced settings**.
 1. Go to **Customizations** > **Customize the system** > **Entities** > **Field Service Setting** > **Forms** > **Information**.
 1. In the **Other** tab on the form configuration, double-click the **Advanced Settings** field and enable the **Visible by default** option.
 1. Save and publish the customization.
