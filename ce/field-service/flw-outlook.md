@@ -26,7 +26,7 @@ You can also create a work order manually and use the [Field Service schedule bo
 
 To use copilot features:
 
-- Your administrator has [enabled Copilot in Microsoft Outlook](flw-admin.md#give-consent-to-use-copilot-in-field-service-for-outlook) and the email response setting.
+- Your administrator has enabled the [Copilot in Microsoft Outlook and the Generate email response settings](flw-admin.md#give-consent-to-use-copilot-in-field-service-for-outlook).
 - You must have a paid Field Service environment. Copilot isn't available in trial environments.
 - Your environment is [updated](update-field-service.md) to the latest 2023 wave 2 build.
 

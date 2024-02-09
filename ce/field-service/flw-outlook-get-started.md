@@ -69,7 +69,7 @@ Open an email or view it in the Reading Pane, and then select the Field Service 
 > [!TIP]
 > By default, the **Field Service** pane closes when you switch to a different email. To keep the pane open across all emails, select the **Pin** icon.
 
-## View version number and session ID for Field Service in Outlook
+## View version number and session ID
 
 [Open the Field Service add-in](#open-the-field-service-add-in) and select the ellipsis (**&hellip;**).
 
