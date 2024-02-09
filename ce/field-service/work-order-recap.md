@@ -32,7 +32,7 @@ Watch this brief video to learn more about the new work order experience in Fiel
 
 - Your environment must be in the United States or the United Kingdom.
 
-- The feature is disabled by default for environments in the United Kingdom. An administrator must enable **Copilot for work order** in Field Service settings.
+- The feature is disabled by default for environments in the United Kingdom. An administrator must enable [**Copilot for work order**](configure-default-settings.md#features-settings).
 
 - You must have a paid Field Service environment. The work order recap feature isn't available in trial environments.
 
