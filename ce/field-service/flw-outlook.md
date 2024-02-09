@@ -105,7 +105,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
    :::image type="content" source="media/fsp-draft-email-scheduling.png" alt-text="Screenshot of the Field Service pane in Outlook, showing Draft email scheduling suggestion button":::
 
-   Or on the **Home** tab, select **Draft email based on work order**, and then select **Proposed schedules** or **Confirm schedule**.
+   Or on the **Home** tab, select **Draft email based on work order**, and then select **Proposed schedules** or **Confirm schedule**. If you don't see these options, select the original email.
 
    :::image type="content" source="media/fsp-draft-email-based-wo.png" alt-text="Screenshot of the Field Service pane in Outlook, showing Draft email based on work order button":::
 

@@ -1,7 +1,7 @@
 ---
 title: Get started with Field Service in Outlook (frontline managers) 
 description: Learn how service managers and dispatchers can install and get started with the Dynamics 365 Field Service for Outlook add-in.
-ms.date: 01/19/2024
+ms.date: 02/09/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -68,6 +68,14 @@ Open an email or view it in the Reading Pane, and then select the Field Service 
 
 > [!TIP]
 > By default, the **Field Service** pane closes when you switch to a different email. To keep the pane open across all emails, select the **Pin** icon.
+
+## View version number and session ID for Field Service in Outlook
+
+[Open the Field Service add-in](#open-the-field-service-add-in) and select the ellipsis (**&hellip;**).
+
+:::image type="content" source="media/fsp-outlook-about.png" alt-text="Field Service Outlook pane showing version number, session ID, and links to overview and privacy statement.":::
+
+In addition to the viewing the version number and session ID, you can sign out, or select a link to view the Field Service in Outlook overview or Microsoft Privacy Statement.
 
 ## Next steps
 
