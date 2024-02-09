@@ -11,13 +11,13 @@ ms.custom: bap-template
 
 # FAQ on managing cases
 
-A few answers to common questions on the various scenarios in managing cases are listed here.
+This article provides answers to frequently asked questions about managing cases.
 
 ## General
 
 ### How can I create a case when the contact isn't linked to the customer organization?
 
-Out of the box, agents can't create a case because the contact isn't associated with the customer organization. However, you can [customize case forms and remove the validation on contact](remove-validation-contacts.md) and allow unrelated contacts be linked with the case. 
+Out of the box, agents can't create a case because the contact isn't associated with the customer organization. However, you can [customize case forms and remove the validation on contact](remove-validation-contacts.md) and allow unrelated contacts to be linked with the case. 
 
 ### Why can I use only few columns to search in the Case view?
 
@@ -33,7 +33,7 @@ To resolve the error, ensure that role assigned to the agent has read access to 
 
 ### Why do I see a warning when I add and save case attributes that a child case must inherit from the parent case?
 
-If you see a warning once you select the case attributes that a child case must inherit from the parent case, it means that you haven't selected any of the mandatory attributes. You must select all of the mandatory fields whose values the child case will inherit. Select the mandatory case attributes whose values the child case will inherit. **Case Title** and **Customer** are mandatory attributes. More information: [Define settings for parent and child cases](define-settings-parent-child-cases.md).
+If you see a warning once you select the case attributes that a child case must inherit from the parent case, it means that you haven't selected any of the mandatory attributes. You must select all of the mandatory fields whose values the child case will inherit. Select the mandatory case attributes whose values the child case inherits. **Case Title** and **Customer** are mandatory attributes. More information: [Define settings for parent and child cases](define-settings-parent-child-cases.md)chan
 
 ## FAQ on resolving cases
 
@@ -80,7 +80,7 @@ If you haven't opted in to the early access feature, you won't be able to naviga
 
 ### When I navigate from the enhanced case form to another form and change the customer information, why isn't the customer details pane refreshed automatically?
 
-The customer details pane is available only for the enhanced case form. When you switch to any other form from the enhanced case form, the pane isn't automatically refreshed or closed. You will need to close it manually.
+The customer details pane is available only for the enhanced case form. When you switch to any other form from the enhanced case form, the pane isn't automatically refreshed or closed. You need to close it manually.
 
 ### Why are agents seeing the Enhanced case form when they create a case even if I haven't enabled Enhanced case experience?
 
