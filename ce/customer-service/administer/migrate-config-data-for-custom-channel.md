@@ -1,7 +1,7 @@
 ---
 title: Migrate unified routing data for custom messaging channel
 description: Learn to export and import data pertaining to custom messaging channel from source to target environments in Omnichannel for Customer Service.
-ms.date: 02/08/2024
+ms.date: 02/09/2024
 ms.topic: how-to
 author: kushagr-kishore
 ms.author: v-kuskishore
