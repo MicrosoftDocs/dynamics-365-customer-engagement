@@ -34,7 +34,7 @@ The forecast feature isn't supported on mobile devices.
 
 ## Open and view a forecast
 
-Bottoms-up forecasting is the projection of what a salesperson, team, or organization sells in a given predefined period (week, month, quarter, or annual). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.
+Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given predefined period (week, month, quarter, or annual). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.
 
 **To view a forecast**
 
@@ -97,7 +97,7 @@ To see the rolled-up forecast for everyone in the hierarchy, expand a specific f
 
 ## Select a currency
 
-When your sales teams are spread across different regions, it might be confusing for users in different regions to analyze and understand the forecast if viewing the forecast using the organization's base currency. The multi-currency selection option allows the sales teams to choose and convert the forecast data in real time based on the latest exchange rate to the currencies defined in your organization. This feature aids in better planning, organization, and understanding of the current forecast state.
+When your sales teams are spread across different regions, it might be confusing for users in different regions to analyze and understand the forecast in the organization's base currency. The multi-currency selection option allows the sales teams to choose and convert the forecast data in real time based on the latest exchange rate to the currencies defined in your organization. This feature aids in better planning, organization, and understanding of the current forecast state.
 
 The real time conversion of forecast data always takes place based on the latest exchange rate defined in your organization.
 
