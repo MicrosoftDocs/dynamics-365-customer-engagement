@@ -48,9 +48,6 @@ Open a [work order form (preview)](work-order-experience.md).
 
 Use the like/dislike buttons in the **Copilot recap** control to provide feedback and, optionally, more context about your preferences. Your feedback helps us understand if the recap is useful or not and why.
 
-## Generate a work order recap in the mobile app
-
-The recap feature is available for the new user experience in the Field Service mobile application. It provides frontline workers with a summary of the active booking. Open a booking form in the new mobile user experience and select the Copilot icon. Select **Summarize** to get a recap of the work order to which the booking relates.
 
 ## How recaps are generated
 
@@ -70,9 +67,22 @@ The recap focuses on the most relevant information based on the work order's lif
 
 Frontline workers can get valuable contextual information about their scheduled work using work order recaps in the Field Service mobile app. You can generate a recap on your mobile device and refresh it as you progress through the work order lifecycle. Your device must be connected to the Internet for the recap feature to work.
 
-To enable work order recaps in the mobile app, an administrator must turn on **Copilot Recap for Mobile Preview** in the Field Service mobile app settings > **Preview features**.
+To enable work order recaps in the Unified Client mobile app, an administrator must turn on **Copilot Recap for Mobile Preview** in the Field Service mobile app settings > **Preview features**.
 
-When the feature is enabled, the Copilot control is added to the **Bookable Resource Booking** form. You can use the control only on the **Bookable Resource Booking** and **Work Order** forms.
+When the feature is enabled, the Copilot control is added to the **Bookable Resource Booking** form. If your Bookable Resource Booking form is customized it may require configuring the work order recap control onto the form. 
+
+### Configuring Work Order Recap
+The work order recap control can be configured only on the **Bookable Resource Booking** and **Work Order** forms.
+To add the control:
+1. Enable **Copilot Recap for Mobile Preview** in the Field Service mobile app settings > **Preview features**.
+2. Navigate to the Field Service Mobile app module in make.powerapps.com and edit the Bookable Resoursce Booking or Work Order form.
+3. Select component nam "**Field Service Copilot - Recap** and add to the desired position on the form
+4. When prompted, set Table Column as **System Status (Choice)**.
+5. Hide the label from the display
+6. Save the form and publish the app module
+
+## Work Order Summary in the new mobile user experience
+The recap feature is available for the new user experience in the Field Service mobile application. When the new Mobile experience is enabled, Copilot Recap (Summarize) can be enabled from the Field Service Mobile app settings. Once enabled, the Copilot Summarize and [Copilot Update](work-order-update) features are available from the header area of the mobile booking within the new experience. Open a booking form in the new mobile user experience and select the Copilot icon. Select **Summarize** to get a recap of the work order to which the booking relates.
 
 ### See also
 
