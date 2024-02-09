@@ -78,6 +78,10 @@ Starting Feb 1 2024, the **Enhanced case form** is available in the form selecto
 
 If you haven't opted in to the early access feature, you won't be able to navigate to Enhanced case form using form selector since the **ShowInFormSelector** option in Enhanced full case form is set to **False**. Set **ShowInFormSelector** to **True** through FormXML, to see the **Enhanced full case form** option in the form selector and navigate back to it.
 
+### When I navigate from the enhanced case form to another form, and change the customer information, why isn't the customer details pane refreshed automatically?
+
+The customer details pane is available only for the enhanced case form. When you switch to any other form from the enhanced case form, the pane isn't automatically refreshed or closed. You will need to close it manually.
+
 ### Why are agents seeing the Enhanced case form when they create a case even if I haven't enabled Enhanced case experience?
 
 If the **Enhanced full case form** has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than the default form. More information: [Control access to model-driven app forms](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order).
