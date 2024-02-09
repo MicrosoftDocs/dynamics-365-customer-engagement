@@ -1,7 +1,7 @@
 ---
 title: Feature deprecations
 description: Learn about features that are being deprecated for Dynamics 365 Field Service.
-ms.date: 03/15/2023
+ms.date: 02/09/2024
 ms.topic: conceptual
 ms.custom: bap-template
 ms.author: vhorvath
@@ -30,6 +30,7 @@ Solution components related to the Field Service Mobile (Xamarin) application ar
 
 These solutions can be removed from an organization which is no longer using the Field Service Mobile - Xamarin application. While removing solutions, you may encounter dependencies. The system will inform you of these dependencies. You'll need to either delete the component or modify it to remove references to the solution you're trying to remove. For more information, see [Removing dependencies](/power-platform/alm/removing-dependencies).
 
+With the deprecation of the Field Service Mobile (Xamarin), drip scheduling is currently available in the Field Service mobile app. Drip scheduling controlled how many bookings appear on the Field Service mobile app at one time.
 
 ## Deprecations in the scheduling solution
 
