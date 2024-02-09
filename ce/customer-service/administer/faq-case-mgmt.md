@@ -78,7 +78,7 @@ Starting Feb 1 2024, the **Enhanced case form** is available in the form selecto
 
 If you haven't opted in to the early access feature, you won't be able to navigate to Enhanced case form using form selector since the **ShowInFormSelector** option in Enhanced full case form is set to **False**. Set **ShowInFormSelector** to **True** through FormXML, to see the **Enhanced full case form** option in the form selector and navigate back to it.
 
-### When I navigate from the enhanced case form to another form, and change the customer information, why isn't the customer details pane refreshed automatically?
+### When I navigate from the enhanced case form to another form and change the customer information, why isn't the customer details pane refreshed automatically?
 
 The customer details pane is available only for the enhanced case form. When you switch to any other form from the enhanced case form, the pane isn't automatically refreshed or closed. You will need to close it manually.
 
