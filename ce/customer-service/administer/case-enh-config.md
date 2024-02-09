@@ -40,7 +40,7 @@ To enable the enhanced case forms, follow these steps:
 > [!NOTE]
 > - If the enhanced full case form has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than that of the default form. More information: [Set the form order](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order).
 > -  The **Enhanced case form** option is available in the form selector by default as an early access feature. Using this option, you navigate from the enhanced case form to any other form. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).If you haven't opted in, ensure that the **ShowInFormSelector** is set to **True** through FormXML to see the **Enhanced case form** option.
->  - The customer details pane is available only for the enhanced case form. When you switch to any other form from the enhanced case form, the pane isn't automatically refreshed or closed. You will need to close it manually. 
+>     - The customer details pane is available only for the enhanced case form. When you switch to any other form from the enhanced case form, the pane isn't automatically refreshed or closed. You will need to close it manually. 
 
 ## View and use default components available on enhanced full case form
 
