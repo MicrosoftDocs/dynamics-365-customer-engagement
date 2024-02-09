@@ -10,7 +10,7 @@ ms.custom: bap-template
 
 # Set defaults for work orders, bookings, the schedule board, and agreements
 
-System administrators define settings for work orders, bookings, agreements, and more on the **Field Service Settings** page.
+System administrators define settings for features, work orders, bookings, agreements, and more on the **Field Service Settings** page.
 
 1. In Field Service, change to the **Settings** area.
   
@@ -18,7 +18,7 @@ System administrators define settings for work orders, bookings, agreements, and
 
    :::image type="content" source="media/settings-field-service-settings.png" alt-text="Screenshot of the Field Service Settings page in the Settings area.":::
 
-1. Select tab for the settings you want to change and fill in the information, as required. Refer to the following sections for a description of the settings.
+1. Select the tab for the settings you want to change and fill in the information, as required. Refer to the following sections for a description of the settings.
 
 1. Select **Save** to apply your changes.
 
@@ -57,17 +57,20 @@ During the initial opt-in process, creation of new records might fail. We recomm
 
 ## Features settings
 
-This settings tab lets you enable toggles for preview and copilot features.
+This settings tab lets you enable toggles for preview, copilot, and a few other features.
 
 |   Option     |   Description  |
 | ------------- | -------------- |
+|**Preview section**||
 | Enhanced characteristics | Enable [enhanced characteristics](set-up-characteristics.md) to add more details to a resource's characteristics. |
+|**Copilot in Field Service section**||
 | Copilot for work order | Enable [work order recap with Copilot](work-order-recap.md) to provide a summary of a work order. |
 | Copilot in Microsoft Outlook | Disable the use of copilot capabilities in Outlook for Field Service. If enabled, you agree that data might be stored and processed outside of your tenant's geographic region or compliance boundary. For more information, see [FAQ for Outlook using Copilot in Field Service.](faqs-wo-flw-copilot.md)|
+|Other settings section||
 | Insurance policies | Enable [insurance policies](insurance.md) to create an insurance policy. |
 | Trades | Enable [trades](trades.md) to create trades and trade coverages. |
 |Warranties | Enable [warranties](warranties.md) to create warranties and define coverage. |
-|Not-to-Exceed | Enables [not-to-exceed values to set an optional cost or price limit](work-order-not-to-exceed.md) for a work order. |
+|Not-to-Exceed | Enables [not-to-exceed values](work-order-not-to-exceed.md) to set an optional cost or price limit for a work order. |
 
 ## Work Order / Booking settings
 
