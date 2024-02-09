@@ -151,7 +151,7 @@ In the near future, the new work order experience becomes the new default view f
 
 Before you install the 2024 release wave 1 early access update, complete the following steps to opt out from changing the default experience.
 
-1. In Field Service, select **Settings** :::image type="icon" source="media/settings-icon.svg" border="false"::: and select **Advanced settings**.
+1. In Field Service, select **Settings** :::image type="icon" source="media/settings-icon.svg" border="false"::: in the header and select **Advanced settings**.
 1. Go to **Customizations** > **Customize the system** > **Entities** > **Field Service Setting** > **Forms** > **Information**.
 1. In the **Other** tab on the form configuration, double-click the **Advanced Settings** field and enable the **Visible by default** option.
 1. Save and publish the customization.
@@ -165,7 +165,7 @@ Before you install the 2024 release wave 1 early access update, complete the fol
 
 You can change back to the classic work order experience if the new experience was updated for your organization.
 
-1. In Field Service, open the Advanced settings.
+1. In Field Service, select **Settings** :::image type="icon" source="media/settings-icon.svg" border="false"::: in the header and select **Advanced settings**.
 1. Go to **Customizations** > **Solutions**.
 1. Uninstall the *msdyn_FieldServiceDefaultComponents* solution.
 1. [Opt out from the new experience](#opt-out-to-get-the-new-experience-as-default) and skip installing the solution in subsequent updates.
