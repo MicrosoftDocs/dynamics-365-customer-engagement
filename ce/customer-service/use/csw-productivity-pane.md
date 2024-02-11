@@ -1,10 +1,10 @@
 ---
 title: Overview of productivity pane | MicrosoftDocs
 description: Overview of productivity pane in Dynamics 365 Customer Service workspace.
-ms.date: 11/09/2021
+ms.date: 02/11/2024
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: kushagr-kishore
+ms.author: v-kuskishore
 search.audienceType: 
   - admin
   - customizer
@@ -19,8 +19,6 @@ ms.collection: get-started
 The productivity pane in the Customer Service workspace is an auxiliary work area that contains tools for supporting or expediting tasks when agents are resolving customer issues.
 
 Currently, the productivity pane includes controls to help agents quickly view and interact with relevant AI-generated knowledge articles and similar cases suggestions for the case they are working on, work with agent scripts and macros, and search for knowledge base articles.
-
-The productivity pane and the controls are enabled for agents through profiles that are managed in app profile manager. More information: [App profile manager](../administer/app-profile-manager.md)
 
 > [!Important]
 > The productivity pane displays information (for example, knowledge article and similar case suggestions) for the first tab (referred to as the anchor tab) of an active case session.
@@ -54,7 +52,7 @@ Smart assist displays the relevant suggestions as individual cards that are grou
 ## Agent scripts and macros
 
 > [!Important]
-> - In the out-of-box Customer Service workspace application, you must first create a custom profile before you can enable agent scripts. Only the Smart assist and knowledge article search functions are available in the out-of-box experience. For information about creating custom profiles, see [Overview of app profile manager](../administer/overview.md). 
+> - In the out-of-box Customer Service workspace application, you must first create a custom profile before you can enable agent scripts. Only the Smart assist and knowledge article search functions are available in the out-of-box experience.
 
 Agent scripts in Customer Service workspace help provide guidance for what you should do when you have a customer issue, and helps ensure that you share only accurate and company-endorsed information. These scripts help you be accurate, effective, and efficient in customer handling. For more information, see [Guide customer interaction with agent scripts](oc-agent-scripts.md). For administrator information about configuring scripts, see [Guide agents with scripts](../administer/agent-scripts.md).
 
