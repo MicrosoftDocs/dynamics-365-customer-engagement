@@ -21,11 +21,11 @@ As an admin, set up Microsoft Copilot for Field Service work orders for your use
 
 1. Log into the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
-1. Obtain the appropriate number of [Microsoft 365 Copilot licenses.](/microsoft-365-copilot/microsoft-365-copilot-setup#manage-licenses-for-copilot)
+1. Obtain the appropriate number of [Microsoft 365 Copilot licenses](/microsoft-365-copilot/microsoft-365-copilot-setup#manage-licenses-for-copilot).
 
 1. [Set up the plugin](/microsoft-copilot-studio/copilot-plugins-overview#use-plugins-in-microsoft-copilot), including deploying the app and enabling the Microsoft Copilot setting.
 
-1. Obtain access to the limited preview by submitting a Microsoft support ticket.
+1. [Obtain access to the limited preview](/microsoft-365-copilot/extensibility/prerequisites#requirements-for-plugin-development) by submitting a Microsoft support ticket.
 
 1. [Consent to moving data across regions.](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) For more information, see [How data movement across regions works.](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works)
 
