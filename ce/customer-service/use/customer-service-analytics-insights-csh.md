@@ -1,7 +1,7 @@
 ---
 title: Customer Service dashboards | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 02/06/2024
+ms.date: 02/12/2024
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -42,22 +42,11 @@ The Agent dashboard shows charts and KPIs for individual agents and overall agen
 
 The Case Topics dashboard shows a detailed breakdown of cases and their assigned topics. More information: [Topics dashboard](case-topics-dashboard-cs.md)
 
-## Information that you need to know about the analytics reports
+## Reports refresh and data retention
 
-### About this report
+See [Analytics reports refresh and data retention](info-analytics-reports.md#analytics-reports-refresh-and-data-retention)
 
-About this report is a link that you can select to view the corresponding documentation.
-
-### Reports refresh, data retention
-
-The reports refresh shows the following information.
-
-- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. The **Last updated** timestamp in the report pages indicates when the latest data was included in the report, and the time reflects the time zone that's set in your user preferences.
-- **Custom refresh:** Isn't available.
-- **Data refresh for inactive environments:** Data refresh is paused for organizations that aren't in use for 30 days. After the next 30 days of inactivity, the analytics feature is deprovisioned on the organization.
-- **Data retention:** Data is stored for 24 months.
-
-### Supported tables
+## Supported tables
 
 The following tables are used for Customer Service historical analytics:
 
@@ -77,7 +66,7 @@ The following tables are used for Customer Service historical analytics:
 - SystemUser
 
 > [!NOTE]
-> A report might be blank if you've customized any of the listed entities or are using out-of-the-box entities.
+> A report might be blank if you've customized any of the listed entities or aren't using out-of-the-box entities.
 
 ### See also
 
