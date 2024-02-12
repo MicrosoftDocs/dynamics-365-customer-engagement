@@ -1,6 +1,6 @@
 ---
-title: "Configure an SMS channel for TeleSign | MicrosoftDocs"
-description: "Get instructions for configuring an SMS channel for TeleSign in Omnichannel for Customer Service."
+title: Configure an SMS channel for TeleSign
+description: Get instructions for configuring an SMS channel for TeleSign in Omnichannel for Customer Service.
 ms.date: 02/06/2024
 ms.topic: article
 author: neeranelli
@@ -11,7 +11,7 @@ ms.author: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-An SMS channel allows your organization to connect to customers by using text messages. After you configure an SMS channel, your customers can send text messages and connect with a customer service agent. This provides your customers the flexibility to connect with their mobile devices when an internet connection is not available to connect to a chat channel.
+An SMS channel allows your organization to connect to customers by using text messages. After you configure an SMS channel, your customers can send text messages and connect with a customer service agent. This provides your customers the flexibility to connect with their mobile devices when an internet connection isn't available to connect to a chat channel.
 
 Agents can view incoming SMS requests on their dashboard and respond accordingly.
 
@@ -31,7 +31,7 @@ The tasks to add SMS support for TeleSign are as follows:
 
 ## Prerequisite
 
-Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
+Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns.](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ## Enable SMS channel in your Dynamics 365 organization
 
@@ -46,9 +46,9 @@ An SMS channel can be enabled within Omnichannel for Customer Service by integra
 
 2. Purchase support phone numbers through your TeleSign account.
 
-3. Get the customer ID and API key from your TeleSign account. You will need to provide these while setting up the SMS channel in Omnichannel for Customer Service.
+3. Get the customer ID and API key from your TeleSign account. You need to provide these while setting up the SMS channel in Omnichannel for Customer Service.
 
-4. You are provided with a callback URL that must be sent to [TeleSign support](mailto:support@telesign.com). This callback URL is specific to your organization and is available when you add SMS support for your organization. When you send an email to TeleSign support, include the callback URL, your customer ID, and enter the subject line as **Omnichannel for Customer Service callback URL update request**.
+4. You're provided with a callback URL that must be sent to [TeleSign support](mailto:support@telesign.com). This callback URL is specific to your organization and is available when you add SMS support for your organization. When you send an email to TeleSign support, include the callback URL, your customer ID, and enter the subject line as **Omnichannel for Customer Service callback URL update request**.
 
 ## Add SMS support
 
