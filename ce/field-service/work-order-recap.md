@@ -1,7 +1,7 @@
 ---
 title: Work order recap with Copilot in Field Service (preview)
 description: Let AI generate a work order recap to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 02/08/2024
+ms.date: 02/12/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -48,10 +48,19 @@ Open a [work order form (preview)](work-order-experience.md).
 
 Use the like/dislike buttons in the **Copilot** control to provide feedback and, optionally, more context about your preferences. Your feedback helps us understand if the recap is useful or not and why.
 
-
 ## How recaps are generated
 
-When you generate a recap, the system uses the work order ID and your security profile to determine whether relevant data exists and that you have access to it. If so, the system pulls contextual information directly from the work order and related records to generate the recap content. The summary might include booking details, activities, notes, products, services, and service tasks involved in the work order, and related information like requirements, asset details, and invoice data.
+When you generate a recap, the system uses the work order ID and your security profile to determine whether relevant data exists and that you have access to it. If so, the system pulls contextual information directly from the work order and related records to generate the recap content. 
+
+Copilot summarizes a work order based on the following related fields:  
+
+- Booking information
+- Activity details
+- Notes from the work order and bookings
+- Work order product details
+- Work order service details
+- Work order service tasks
+- Asset information and work order history
 
 The recap focuses on the most relevant information based on the work order's lifecycle stage.
 
