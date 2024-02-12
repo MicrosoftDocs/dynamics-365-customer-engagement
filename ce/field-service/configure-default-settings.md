@@ -66,7 +66,7 @@ This settings tab lets you enable toggles for preview, copilot, and a few other 
 |**Copilot in Field Service section**||
 | Copilot for work order | Enable [work order recap with Copilot](work-order-recap.md) to provide a summary of a work order. |
 | Copilot in Microsoft Outlook | Disable the use of copilot capabilities in Outlook for Field Service. If enabled, you agree that data might be stored and processed outside of your tenant's geographic region or compliance boundary. For more information, see [FAQ for Outlook using Copilot in Field Service.](faqs-wo-flw-copilot.md)|
-|Other settings section||
+|**Other settings section**||
 | Insurance policies | Enable [insurance policies](insurance.md) to create an insurance policy. |
 | Trades | Enable [trades](trades.md) to create trades and trade coverages. |
 |Warranties | Enable [warranties](warranties.md) to create warranties and define coverage. |
