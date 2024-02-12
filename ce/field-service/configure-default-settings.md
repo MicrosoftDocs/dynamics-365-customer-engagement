@@ -102,30 +102,6 @@ This settings tab lets you define several default values and basic settings rela
 |  **Mobile section**  |    |
 | Enable Booking Map for Field Service Mobile | Turn on an external service to enable the booking map in the Field Service Mobile app module. Review the terms of use and confirm to enable the booking map. |
 
-<!--- Waiting for confirmation these settings are no longer valid.
-## RMA settings
-
-Return merchandise authorization (RMA) is the return process for customers who have requested to return or exchange merchandise. For more information, go to [Process a return](process-return.md).
-
-This section won't show if you use the [new auto-numbering feature](#auto-numbering-settings) to manage record numbering.
-
-|  Option  | Description |
-|-----------|-------------|
-| RMA Prefix| Select a prefix for RMAs. The system adds the prefix before the RMA number.|
-| RMA Starting Number | Provide number from which the system starts the count of RMAs.  |
-  
-## RTV settings
-
-Return to vendor (RTV) is the return process for customers who have received unwanted or damaged goods. For more information, go to [Process a return](process-return.md).
-
-This section won't show if you use the [new auto-numbering feature](#auto-numbering-settings) to manage record numbering.
-  
-|  Option  | Description   |
-|-----------|---------------|
-| RTV Prefix| Select a prefix for RTVs. The system adds the prefix before the RTV number.|
-| RTV starting number |  Provide number from which the system starts the count of RTVs.  |
-
---->
 ## Agreement settings
 
 Field Service agreements allow organizations to automatically generate work orders and invoices. For more information, go to [Set up agreements](set-up-customer-agreements.md).
@@ -148,22 +124,7 @@ You can use purchase orders (POs) to add inventory to a warehouse, or to purchas
 |-----------|---------------|
 | Purchase Order Approval Required |  Choose if a purchase order needs approval before changing the status to *Submitted*. |
 | Use of Products Out of Stock   | Choose how the system reacts when a user adds a product to a work order that's currently not in stock. *Confirm* asks the user to decide whether to continue or not. *Restrict* doesn't allow using that product. |
- 
-<!--- Waiting for confirmation these settings are no longer valid. 
-## Inventory settings
 
-Inventory tracks the availability of products in a warehouse. For more information, go to [Overview of inventory, purchasing, and returns](inventory-purchasing-returns-overview.md).
-
-This section won't show if you use the [new auto-numbering feature](#auto-numbering-settings) to manage record numbering.
-  
-| Option | Description |  
-|-------------|-----------------|  
-| Inventory Transfer Prefix   |  Select a prefix for inventory transfers. The system adds the prefix before the inventory transfer number. |  
-| Inventory Transfer Starting Number | Provide number from which the system starts the count of inventory transfers. |  
-| Inventory Adjustment Prefix |Select a prefix for inventory adjustments. The system adds the prefix before the inventory adjustment number. |
-| Inventory Adjustment Starting Number |Provide number from which the system starts the count of inventory adjustments.|  
-  
---->
 ## Intelligence settings
 
 Predictive work duration lets dispatchers predict the duration of bookings. For more information, go to [Predictive work duration and resource proficiency suggestions](analytics-predictive-work-duration.md).
