@@ -46,7 +46,7 @@ You'll need one or more of the following security roles to access this app to pe
 
 - **CSR Manager**: To access the entities like queues for the email record, automatic record creation and update rules, and workstreams in Customer Service.
 
-- **App Profile Manager administrator and Basic User**: To access the app and edit app profile-related entities.
+- **App Profile administrator and Basic User**: To access the app and edit app profile-related entities.
 
 - **Omnichannel administrator and Basic User**: To access the app and edit all the omnichannel-related entities, like chat and voice and queues, and workstreams.
 

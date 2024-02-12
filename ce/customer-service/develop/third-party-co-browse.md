@@ -113,9 +113,7 @@ We encourage our integrated third-party co-browse providers to make their co-bro
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083) and select **Apps**.
 
-2. Select the ellipsis next to Omnichannel for Customer Service and select **App profile manager**.
-
-3. Select **App profiles**.
+2. Select the ellipsis next to Omnichannel for Customer Service and select **App profiles**.
 
 4. Expand **Omnichannel for Customer Service**.
 

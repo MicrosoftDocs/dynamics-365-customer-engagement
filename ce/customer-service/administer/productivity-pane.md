@@ -31,9 +31,3 @@ You can set the productivity pane in collapsed mode or expanded mode, as shown i
 
 > [!div class='mx-imgBorder']
 > ![Productivity pane.](../media/productivity-pane-expanded.png "Productivity pane in expanded mode")
-
-### See also
-
-[App profile manager](overview.md)  
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

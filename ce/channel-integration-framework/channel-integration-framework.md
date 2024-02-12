@@ -103,7 +103,6 @@ ms.custom:
 
 <h3> How to </h3>
 
-<li><a href="v2/administer/configure-channel-provider-app-profile-manager.md" data-raw-source="[Configure channel provider using app profile manager](v2/administer/configure-channel-provider-app-profile-manager.md)">Configure channel provider using app profile manager</a></li>
 <li><a href="v2/administer/enable-outbound-communication-clicktoact.md" data-raw-source="[Enable outbound communication (ClickTOAct)](v2/administer/enable-outbound-communication-clicktoact.md)">Enable outbound communication (ClickTOAct)</a></li>
 <li><a href="v2/administer/add-cif-solution-dependent-solution.md" data-raw-source="[Add a Dynamics 365 Channel Integration Framework solution as a dependent solution](v2/administer/add-cif-solution-dependent-solution.md)">Add a Dynamics 365 Channel Integration Framework solution as a dependent solution</a></li>
 <li><a href="v2/administer/authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](v2/administer/authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>

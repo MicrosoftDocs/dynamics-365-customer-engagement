@@ -18,9 +18,9 @@ Perform the following steps to create an app profile:
 1. Do one of the following:
    - On the **Home** page, go to **Your apps** section.
    - In the left pane, select **Apps**.
-1. Select **More commands** in **Omnichannel for Customer Service** or **Customer Service workspace**, and then select **App profile manager** on the menu that appears.
+1. Select **More commands** in **Omnichannel for Customer Service** on the menu that appears.
 1. In the left pane, select **App profiles**.
-1. On the **App profile manager** page, select **New profile**.
+1. Select **New profile**.
 1. On the **New profile** pane, specify the following:
    - **Name:** The app profile name.
    - **Unique name:** A unique identifier in the <*prefix*>_<*name*> format.
@@ -55,7 +55,7 @@ The settings that you enable for the app profile will be available for agents an
    > The toggle for channels will be enabled in the out-of-the-box app profile for Omnichannel for Customer Service.
 
 6. To add a third-party channel provider, in the **Voice channels** section, select **Add channel providers**, search for the configured channel, and select it.
-7. If a channel doesn't exist, select **Create a new channel provider in Unified Interface**. The channel configuration page opens on a new tab. More information: [Configure channel provider using app profile manager](../../channel-integration-framework/v2/administer/configure-channel-provider-app-profile-manager.md)
+7. If a channel doesn't exist, select **Create a new channel provider in Unified Interface**. The channel configuration page opens on a new tab.
 
    > [!NOTE]
    > - Only telephony or voice channels are supported.
@@ -90,8 +90,6 @@ When users are assigned roles corresponding to Customer Service workspace or Omn
 
 - **Customer Service workspace**: Users with the CSR Manager and Customer Service Representative roles.
 - **Omnichannel for Customer Service**: Users with the Omnichannel administrator, Omnichannel supervisor, and Omnichannel agent roles.
-
-More information: [Roles and privileges associated with app profile manager](security-roles.md)
 
 ### See also
 

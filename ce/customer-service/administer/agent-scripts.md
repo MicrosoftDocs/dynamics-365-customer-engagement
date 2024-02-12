@@ -30,14 +30,9 @@ Agent scripts reduce the human errors involved, because agents know which action
 
 ## Create agent scripts
 
-Create agent scripts in the Customer Service admin center, Omnichannel admin center (deprecated), Omnichannel Administration, or Customer Service Hub app. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
+Create agent scripts in the Customer Service admin center, Omnichannel admin center (deprecated), Omnichannel Administration, or Customer Service Hub app. The following procedure is an example of an 1agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
 
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
-2. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.
-
-3. On the page that appears, select **New**.
-
-4. On the **New Agent script** page, specify the following:
+1. On the **New Agent script** page, specify the following:
 
     | Field | Description | Value |
     |------------|------------------------------|-------------------|
@@ -46,11 +41,11 @@ Create agent scripts in the Customer Service admin center, Omnichannel admin cen
     | Language | A language from the list. The languages that are enabled in Microsoft Dataverse appear in the list. | English |
     | Description | Description for the agent script. | This agent script is used for chat sessions. |
 
-5. Select **Save**. The **Agent script steps** appears.
+2. Select **Save**. The **Agent script steps** appears.
 
-6. In the **Agent script steps** section, select **New Agent script step**. **Quick Create: Agent script step** appears.
+3. In the **Agent script steps** section, select **New Agent script step**. **Quick Create: Agent script step** appears.
 
-7. Specify the following fields in the quick-create form.
+4. Specify the following fields in the quick-create form.
  
     | Field | Description | Example Value |
     |--------------------|------------------------------|-------------------------------------------|

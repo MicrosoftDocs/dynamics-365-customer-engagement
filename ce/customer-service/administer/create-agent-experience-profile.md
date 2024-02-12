@@ -17,13 +17,11 @@ By default, the following agent experience profiles are available out of the box
 - Customer Service workspace - default profile
 - Customer Service workspace + channels - default profile
 
-You can configure agent experience profiles in Customer Service admin center or app profile manager. The app profile manager can be accessed through Power Apps. 
+You can configure agent experience profiles in Customer Service admin center. 
 
 ## Prerequisites
 
-Make sure you have the App Profile Manager Administrator role. More information: [Security roles](security-roles.md)
-
-The Basic User role is also required to create profiles in Customer Service admin center.
+The Basic User role is required to create profiles in Customer Service admin center.
 
 ## Create agent experience profiles in Customer Service admin center
 

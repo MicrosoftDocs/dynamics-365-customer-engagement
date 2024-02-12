@@ -1,6 +1,6 @@
 ---
 title: "Macros in the Customer Service workspace app | MicrosoftDocs"
-description: "This topic provides information about the different macros that can be made available to agents and how to configure them in app profile manager."
+description: "This topic provides information about the different macros that can be made available to agents and how to configure them ."
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -332,12 +332,6 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     1. In the site map, in **Advanced settings**, select **Agent experience**.
     
     1. For **Macros**, select **Manage**.
-
-   ### [App profile manager](#tab/appprofilemanager)
-
-    1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
-
-    1. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.
 
 1. On the page that appears, select **New**.
 

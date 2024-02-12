@@ -1,6 +1,6 @@
 ---
 title: "Configure channel providers in Dynamics 365 Channel Integration Framework 2.0| MicrosoftDocs"
-description: "Learn how to configure channel providers using the app profile manager or the Customer Service admin center in Dynamics 365 Channel Integration Framework 2.0."
+description: "Learn how to configure channel providers using the Customer Service admin center in Dynamics 365 Channel Integration Framework 2.0."
 author: gandhamm
 ms.author: mgandham
 ms.date: 02/22/2023
@@ -26,33 +26,14 @@ More information:
 
 ## Configure a third-party channel provider
 
-1. Go to one of the apps, and perform the following steps:
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. Go to one of the apps, and perform the following steps in [Customer Service admin center](#tab/customerserviceadmincenter)
    
     1. In the site map, select **Workspaces** in **Agent experience**. The **Workspaces** page opens.
     
     2. Select **Manage** for **Third party voice channel provider**.
     
     3. Select a provider from the **Active Channel Providers** list and select **Edit**, or select **New** to add a new channel provider.
-
-    ### [Power Apps](#tab/appprofilemanager)    
-    1. Sign in to the [Power Apps](https://make.powerapps.com) portal.
-
-    2. Under the available apps, select the ellipses next to **Omnichannel for Customer Service** or **Customer Service workspace**.
-
-    3. On the menu that appears, select **App profile manager**.
-
-    4. Select **App profiles** from the site map, and then select your app profile.
-
-    5. Select the **Channels** tab.
-
-      > ![Select app profiles.](../../media/channel-app-profile-manager.PNG "Select app profiles")
-
-    6. Select **Add channel providers**, and then select **Create a new channel provider in Unified Interface**. The **New Channel Provider** page opens in a new tab.
-
-      > ![Create new channel provider.](../../media/create-new-channel-provider-app-profile-manager.PNG "Create new channel provider")
-
+    
 2. Enter or update the following details:
 
 | Field | Description |
@@ -72,9 +53,8 @@ More information:
 
   > [!NOTE]
   > - The **Restore** button is available only for forms with the **Unique Name** set to **msdyn_omnichannel**.
-  > - The `Api Version` field is set to `2` when you navigate from the app profile manager.
 
-3. If you're using the app profile manager, add the channel provider to the app profile. If you're using Customer Service admin center, then select **Save & Close**.
+3. If you're using Customer Service admin center, then select **Save & Close**.
 
 ## Deactivate or delete a channel provider
 

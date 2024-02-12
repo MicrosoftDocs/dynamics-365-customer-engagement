@@ -26,6 +26,5 @@ More information:
 ### See also
 
 [Modes and locations for the communication widget](modes-communication-widget.md)  
-[App profile manager](../../../customer-service/administer/overview.md)   
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
