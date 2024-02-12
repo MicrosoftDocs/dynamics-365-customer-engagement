@@ -12,6 +12,7 @@ ms.topic: faq
 author: m-hartmann
 ms.author: mhart
 ms.reviewer: jacohen
+ms.collection: bap-ai-copilot 
 ---
 
 # FAQ about work order recap with Copilot (preview)
