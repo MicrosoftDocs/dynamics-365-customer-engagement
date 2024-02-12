@@ -1,7 +1,7 @@
 ---
 title: Migrate unified routing data for custom messaging channel
 description: Learn to export and import data pertaining to custom messaging channel from source to target environments in Omnichannel for Customer Service.
-ms.date: 02/09/2024
+ms.date: 02/12/2024
 ms.topic: how-to
 author: kushagr-kishore
 ms.author: v-kuskishore
@@ -119,7 +119,7 @@ For migrating queues for custom channel, perform the steps outlined in [Migrate 
 > 1. Import data for all entities including the decision ruleset entity (msdyn_decisionrulesets).
 > 2. Import data for the decision ruleset entity again. This step ensures that all dependency mappings for the decision rulesets are imported.
 
-For sample schema to get all the required records, see [Sample schema for custom channel workstream](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/kk-migrate-wa-custom/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20custom%20channel%20workstreams.xml).
+For sample schema to get all the required records, see [Sample schema for custom channel workstream](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/kk-migrate-wa-custom/customer-service/omnichannel/custom-channel-sample-schemas/sample-schema-custom-channel-workstreams.xml).
 
 ### FetchXML for workstream entity
 
@@ -546,7 +546,7 @@ The following assumptions are in place:
 
 1. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
-For sample schema to get all the required records, see [Sample schema for custom channel](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/kk-migrate-wa-custom/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20custom%20channel%20config.xml)
+For sample schema to get all the required records, see [Sample schema for custom channel](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/kk-migrate-wa-custom/customer-service/omnichannel/custom-channel-sample-schemas/sample-schema-custom-channel-config.xml)
 
 ### FetchXML for custom channel<a name="BKMKlive-chat"></a>
 
