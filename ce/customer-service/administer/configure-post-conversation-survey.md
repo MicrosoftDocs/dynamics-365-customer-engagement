@@ -6,7 +6,7 @@ ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.custom: bap-templatep
+ms.custom: bap-template
 ---
 
 # Configure a post-conversation survey

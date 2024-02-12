@@ -109,30 +109,21 @@ For third-party co-browse, ISVs need to input the conversation action data for t
 
 ## App Tab Template for third-party co-browse and screen sharing<a name="app-tab-template"> </a> 
 
-We encourage our integrated third-party co-browse providers to make their co-browse and screen sharing applications inside of an Omnichannel for Customer Service tab. When the agent selects the **Co-browse** button in the chat widget, it will open this tab.  Inside of this tab, the agent can start and end the co-browse sessions and share the session invitations with customers.  You can include the data in this form inside of your solution. Follow these steps to create the App Tab Template:
+We encourage our integrated third-party co-browse providers to make their co-browse and screen sharing applications inside of an Omnichannel for Customer Service tab. When the agent selects the **Co-browse** button in the chat widget, it will open this tab.  Inside of this tab, the agent can start and end the co-browse sessions and share the session invitations with customers. You can include the data in this form inside of your solution. Follow these steps to create the App Tab Template:
 
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083) and select **Apps**.
+1. In the Customer Service admin center site map, select **Workspaces** in **Agent experience**.
+1. On the **Workspaces** page, select **Manage** for **Application tab templates**.
+1. Select **New** on the **Active Application Tab Templates** page.
 
-2. Select the ellipsis next to Omnichannel for Customer Service and select **App profile manager**.
+1. Specify the following on the **New Application Tab Template** page.
 
-3. Select **App profiles**.
-
-4. Expand **Omnichannel for Customer Service**.
-
-5. Under **Templates**, select **Application tabs**. 
-
-6. Select **New** to create a channel application tab. 
-
-   See [Manage application tab templates](/dynamics365/app-profile-manager/application-tab-templates#create-an-application-tab-template) for more information about completing this form.
+   See [Manage application tab templates](../administer/application-tab-templates.md#manage-application-tab-templates) for more information about completing this form.
    
-7. In the Application type field, select **webresource**. 
+1. In the Application type field, select **webresource**.
 
-8. In the Parameters section, add the web resource URL and query parameters that are required for ISVs to open their web resources. 
+1. In the Parameters section, add the web resource URL and query parameters that are required for ISVs to open their web resources. 
 
     webresourcename: `<URL path to the web resource>`
-
-> [!div class="mx-imgBorder"]
-> ![Web resource for co-browse feature.](../media/web-resource-co-browse.PNG "Web resource for co-browse feature")
 
 You'll find a single URL parameter called `data` that'll contain a JSON object. This object when decoded and parsed will contain the `conversationId` field. This ID can be used to attach any data back to a conversation.
 
