@@ -120,7 +120,6 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 [Understand and create workstreams](create-workstreams.md)  
 [Configure automated messages](configure-automated-message.md)  
 [Configure a post-conversation survey](configure-post-conversation-survey.md)  
-[Create and manage routing rules](../routing-rules.md)  
 [Delete a configured channel](delete-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 

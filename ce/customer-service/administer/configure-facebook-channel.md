@@ -157,7 +157,7 @@ The customer can send attachments only if you enable them. When the option isn't
 > [!div class=mx-imgBorder]
 > ![Customer sending file.](../media/fb-customer1.png "Customer sending file")
 
-## Privacy notice
+### Privacy notice
 
 If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). More information: [Connect a bot to Facebook]/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
 
@@ -166,7 +166,6 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 ### See also
 
 [Understand and create workstreams](create-workstreams.md)  
-[Create and manage routing rules](../routing-rules.md)  
 [Configure automated messages](configure-automated-message.md)  
 [Configure a prechat survey](configure-pre-chat-survey.md)  
 [Configure a post conversation survey](configure-post-conversation-survey.md)  

@@ -84,7 +84,6 @@ You can select **Open old subject management page** to use the older experience.
 
 ### See also
 
-[Configure Customer Service](../configure-cs.md)  
 [Overview of case management](overview-cases.md)  
 [Enable search control for the subject entity](../search-control-for-subjects.md)  
 

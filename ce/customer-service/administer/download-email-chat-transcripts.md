@@ -1,6 +1,7 @@
 ---
-title: "Download and email chat transcripts | MicrosoftDocs"
+title: Download and email chat transcripts
 description: "This topic provides information on how to download or email chat transcripts in Dynamics 365 Customer Service."
+ms.topic: how-to
 ms.date: 02/06/2024
 author: lalexms
 ms.author: laalexan

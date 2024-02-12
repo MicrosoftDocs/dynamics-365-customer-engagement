@@ -151,8 +151,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
-[Create and manage workstreams](create-workstreams.md)  
-[Create multiple workstreams for records routing](../multiple-ws-entity-record-routing.md)  
+[Create and manage workstreams](create-workstreams.md)    
 [Configure routing for email records](configure-routing-for-email-records.md)  
 [Release agent capacity](capacity-profiles.md#release-capacity-for-agents)  
 [Assign roles and enable users](../implement/add-users-assign-roles.md)  

@@ -141,7 +141,6 @@ Perform the following steps:
 ### See also
 
 [Understand and create workstreams](../work-streams-introduction.md)  
-[Create and manage routing rules](../routing-rules.md)  
 [Configure automated messages](configure-automated-message.md)  
 [Configure a post-conversation survey](configure-post-conversation-survey.md)  
 [Skill-based routing](overview-skill-work-distribution.md)  
