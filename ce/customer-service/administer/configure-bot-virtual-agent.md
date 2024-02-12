@@ -165,7 +165,7 @@ You understand that your data may be transmitted and shared with external system
 
 ### Troubleshoot issues for bots
 
-[How to end a bot conversation in Omnichannel for Customer Service](../troubleshoot-omnichannel-customer-service.md#pvaendconv)
+[How to end a bot conversation in Omnichannel for Customer Service](../troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/pva-conversations-active-dashboard)
 
 ### See also
 
