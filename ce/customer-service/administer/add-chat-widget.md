@@ -13,7 +13,7 @@ ms.topic: article
 
 You can configure a live chat widget that can be displayed on your portal for customers to interact with bots and human agents.
 
-To add a chat widget, you need to have configured a workstream that defines how chat conversations are routed to queues. More information: [Create a workstream](create-workstreams.md)
+To add a chat widget, configure a workstream that defines how chat conversations are routed to queues. More information: [Create a workstream](create-workstreams.md)
 
 ## Configure a chat widget
 
@@ -36,7 +36,7 @@ To add a chat widget, you need to have configured a workstream that defines how 
     
     1. In the **All workstreams** view, select the workstream for which you want to configure the chat widget.
 
-    1. On the workstream page, select **Set up chat** if a chat channel hasn't been created, or select **Add chat channel** to add a chat widget.
+    1. On the workstream page, select **Set up chat** if a chat channel isn't created, or select **Add chat channel** to add a chat widget.
 
 1. On the **Channel details** page, enter a name and select a language in the **Name** and **Language** fields, respectively.
 
