@@ -111,13 +111,7 @@ For third-party co-browse, ISVs need to input the conversation action data for t
 
 We encourage our integrated third-party co-browse providers to make their co-browse and screen sharing applications inside of an Omnichannel for Customer Service tab. When the agent selects the **Co-browse** button in the chat widget, it will open this tab.  Inside of this tab, the agent can start and end the co-browse sessions and share the session invitations with customers. You can include the data in this form inside of your solution. Follow these steps to create the App Tab Template:
 
-1. In the Customer Service admin center site map, select **Workspaces** in **Agent experience**.
-1. On the **Workspaces** page, select **Manage** for **Application tab templates**.
-1. Select **New** on the **Active Application Tab Templates** page.
-
-1. Specify the following on the **New Application Tab Template** page.
-
-   See [Manage application tab templates](../administer/application-tab-templates.md#manage-application-tab-templates) for more information about completing this form.
+1. Perform the steps in [Manage application tab templates](../administer/application-tab-templates.md#manage-application-tab-templates) to create a web resource.
    
 1. In the Application type field, select **webresource**.
 
