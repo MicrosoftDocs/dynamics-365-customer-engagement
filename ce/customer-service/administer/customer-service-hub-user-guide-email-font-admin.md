@@ -38,11 +38,11 @@ Enabling the user configured settings to an email form consists of the following
 
 1. Access the web resource file by navigating to **Advanced settings** > **Customize the system** > **Web Resources**.
 
-1. Use the filter to search for the web resource files, as shown below:
+1. Use the filter to search for the web resource files, as shown in the following image.
 
    ![Filter to search for web resource files.](../media/email-custom-filters.png "Filter to search for web resource files.")
 
-   There may be more than one file named msdyn_EmailRTEconfig_reference.js. One is the default, out-of-the-box configuration file that isn't modifiable. The other can be opened and used as a reference to create a new web resource file that will host your configuration changes. 
+   There may be more than one file named msdyn_EmailRTEconfig_reference.js. One is the default, out-of-the-box configuration file that isn't modifiable. The other can be opened and used as a reference to create a new web resource file that hosts your configuration changes. 
 
 1. Select the editable file. A new window is displayed. 
    
@@ -62,7 +62,7 @@ Enabling the user configured settings to an email form consists of the following
    >  - There are a variety of properties that can be modified and will apply to the email form when you configure it. For more information, see [Rich Text Editor Properties](/power-apps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-properties).
    >  - Ensure that the **disableDefaultImageProcessing** property is set to **True** for inline images added to the editor to load properly in the recipient's email.
 
-3.  Save the URL to the new web resource because you'll need it to map the new web resource file to the **Enhanced Email** form.
+3.  Save the URL to the new web resource because you need it to map the new web resource file to the **Enhanced Email** form.
    
      ![Save web resource URL.](../media/email-web-resource-url.png "Save the web resource URL.")
 5.  Navigate to **Customization** > **Customize the system** > **Entity** > **Email** > **Forms**.
@@ -75,7 +75,7 @@ Enabling the user configured settings to an email form consists of the following
 
 1. Navigate to the email form properties: Select **Advanced settings** > **Customize the system** > **Entities** > **Email** > **Forms**.
 
-   In this example, we'll add the web resource file to the **Enhanced Email** form.
+   In this example, we add the web resource file to the **Enhanced Email** form.
    
     ![Add web resource file to Enhanced Email form.](../media/email-configure-enhanced-email.png "Add web resource file to Enhanced Email form.")
  
@@ -83,20 +83,20 @@ Enabling the user configured settings to an email form consists of the following
 
 1. If the RTE control isn't already added, select the **Controls** tab to add it.
 
-1. Select the **Custom configuration control** and replace **singleLine.URL** with the web resource URL for the web resource file you created in the steps above.
+1. Select the **Custom configuration control** and replace **singleLine.URL** with the web resource URL for the web resource file you created in the steps in the previous section.
 
    ![Replace singleLine.URL with the web resource URL.](../media/email-configure-custom-properties.png "Replace singleLine.URL with web resource URL.")
 
 1. Select **Save** > **Publish**.
    
-   The settings will now apply to the form when you create an email.
+   The settings now apply to the form when you create an email.
 
 >[!Note]
 >If you're using a workflow to populate email content in RTE fields that aren't in Timeline and you experience issues with inline images not rendering properly, you must use the msdyn_EmailRTEconfig_reference.js plugin.
 
 ### Add the language filter in the email template selection view
 
-Perform the following steps to enable the language filter for the [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window:
+To enable the language filter for the [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window, complete the following steps:
 
 1. Navigate to **Settings** > **Advanced Settings**.
 1. Select **Customizations** > **Customize the System**.
@@ -113,7 +113,7 @@ Perform the following steps to enable the language filter for the [enhanced emai
 
 ## Customize the enhanced email template selection view
 
-The [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window displays the **Select Record dialog** and allows agents to toggle between email template views. Perform the following steps to enable these features:
+The [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window displays the **Select Record dialog** and allows agents to toggle between email template views. To enable these features, complete the following steps.
 
 1. Navigate to **Advanced Settings** > **Email Configuration**.
 1. Select **Email Configuration** > **Email Configuration Settings**.
@@ -121,7 +121,7 @@ The [enhanced email template selection](/power-apps/user/insert-email-template#n
 
 ### Configure the default email template selection view
 
-Perform the following steps to configure the default view for the [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window:
+Perform the following steps to configure the default view for the [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window.
 
 1. Navigate to **Settings** > **Advanced Settings**.
 1. Select **Settings** > **Email Configuration** > **Email Configuration Settings**.
