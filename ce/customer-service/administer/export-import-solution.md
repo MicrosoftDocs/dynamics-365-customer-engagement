@@ -1,24 +1,26 @@
 ---
-title: "Export or import a solution in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to export or import a solution in Dynamics 365 Customer Service."
-ms.date: 05/11/2022
-ms.topic: article
+title: Enable calendar export and import with SLAs
+description: Enable the export or import of a calendar with its corresponding SLAs from the Customer Service admin center or Customer Service Hub app.
+ms.date: 02/13/2024
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-seo-date:02/13/2024
+  - ai-gen-desc
 ms.collection: get-started
 ---
 
-# Export and import a solution with SLAs
+# Enable calendar export and import with SLAs
 
-You can replicate the SLA settings in another environment by exporting the solution containing the SLAs. During the export, all the related components and their dependencies will also be exported.
-
-You can also export or import a calendar with its corresponding SLAs by enabling the calendar import and export option.
+You can replicate the SLA settings in another environment by exporting the solution containing the SLAs. During the export, all the related components and their dependencies will also be exported. You can export or import a calendar with its corresponding SLAs by enabling the calendar import and export option.
 
 ## Export or import a calendar with SLAs
 
