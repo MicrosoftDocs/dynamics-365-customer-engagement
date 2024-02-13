@@ -431,13 +431,13 @@ The following administrators can opt out users at different levels:
 
 ## Conversation intelligence
 
-### Which Conversation intelligence features are available in Dynamics 365 Sales versus Microsoft Sales Copilot?  
+### Which Conversation intelligence features are available in Dynamics 365 Sales versus Microsoft Copilot for Sales?  
 
-|Feature  |Microsoft Sales Copilot  |Sales Enterprise / Sales Premium  |
+|Feature  |Microsoft Copilot for Sales  |Sales Enterprise / Sales Premium  |
 |---------|---------|---------|
 | **Call processing**   |    |    |
 |Conversation intelligence for phone calls from Teams (Inbound / Outbound)     |  No       | Yes, unlimited access to conversation intelligence  |
-|Conversation intelligence for Teams meetings     | Yes (unlimited)        |  Yes<sup>12</sup> <br><sup>1</sup> Using the Microsoft Sales Copilot app for Teams <br> <sup>2</sup> Unlimited Microsoft Sales Copilot hours included with Sales Premium / Sales Enterprise license        |
+|Conversation intelligence for Teams meetings     | Yes (unlimited)        |  Yes<sup>12</sup> <br><sup>1</sup> Using the Microsoft Copilot for Sales app for Teams <br> <sup>2</sup> Unlimited Microsoft Copilot for Sales hours included with Sales Premium / Sales Enterprise license        |
 | **During the call**   |    |
 |Real-time conversation intelligence     |    No       |    Yes     |
 |Conversation intelligence for seller-only recordings (When customer is not recorded)     |   No      |   Yes      |
@@ -449,8 +449,8 @@ The following administrators can opt out users at different levels:
 |Manager Coaching tools     |   No      |   Yes      |
 | **Admin configurations**   |    |
 |Storage of call recording and conversation intelligence insights    |   Teams storage only      |   Option of Microsoft provided storage, or your own Azure storage       |
-|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Microsoft Sales Copilot](/viva/sales/supported-languages)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faqs-sales-insights.md#what-languages-are-supported)       |
-|Supported languages for UI      |   User interface languages listed in this article: [Supported languages in Microsoft Sales Copilot](/viva/sales/supported-languages)|   All languages supported in Dynamics 365 Sales       |
+|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Microsoft Copilot for Sales](/viva/sales/supported-languages)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faqs-sales-insights.md#what-languages-are-supported)       |
+|Supported languages for UI      |   User interface languages listed in this article: [Supported languages in Microsoft Copilot for Sales](/viva/sales/supported-languages)|   All languages supported in Dynamics 365 Sales       |
 
 
 ### How long does it take for data updates to reflect in the app?
@@ -458,9 +458,9 @@ The following administrators can opt out users at different levels:
 Conversation intelligence data is refreshed periodically and could take up to 12 hours to appear in the app. We continue to make improvements to reduce the delay.
 
 
-### How many hours of conversation intelligence are available with Microsoft Sales Copilot?
+### How many hours of conversation intelligence are available with Microsoft Copilot for Sales?
 
-You get unlimited call recording and processing hours with Microsoft Sales Copilot. You must create the meeting in Outlook and turn on the **Teams meeting** toggle to get conversation intelligence through Microsoft Sales Copilot. For more information, see [Use Microsoft Sales Copilot in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea).  
+You get unlimited call recording and processing hours with Microsoft Copilot for Sales. You must create the meeting in Outlook and turn on the **Teams meeting** toggle to get conversation intelligence through Microsoft Copilot for Sales. For more information, see [Use Microsoft Copilot for Sales in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea).  
 
 ### Can sellers (or non-managers) use this app?
 
