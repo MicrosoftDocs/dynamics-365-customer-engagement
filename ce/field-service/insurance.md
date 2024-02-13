@@ -16,7 +16,7 @@ In Dynamics 365 Field Service, insurance is an entity that relates to accounts a
 
 ## Prerequisites
 
-An administrator must enable [**Insurance policies**](configure-default-settings.md#features-settings) after [updating to the early access release](/dynamics365/get-started/release-schedule).
+An administrator must enable [**Insurance policies**](configure-default-settings.md#features-settings).
 
 ## Create an insurance
 
