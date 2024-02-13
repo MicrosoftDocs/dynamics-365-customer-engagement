@@ -21,7 +21,7 @@ ms.collection: get-started
 
 # Enable calendar export and import with SLAs
 
-You can replicate the SLA settings in another environment by exporting the solution containing the SLAs. During the export, all the related components and their dependencies will also be exported. You can export or import a calendar with its corresponding SLAs by enabling the calendar import and export option.
+You can replicate the SLA settings in another environment by exporting the solution containing the SLAs. During the export, all the related components and their dependencies are also exported. You can export or import a calendar with its corresponding SLAs by enabling the calendar import and export option.
 
 ## Export or import a calendar with SLAs
 
@@ -54,9 +54,9 @@ You can enable the export or import of a calendar either from the Customer Servi
 
 We recommend that you perform the following steps to upgrade a solution:
 
-1. Deactivate the SLAs that have been brought through the previous version of the solution. The status of these SLAs will change to Draft.
+1. Deactivate the SLAs that were brought through the previous version of the solution. The status of these SLAs changes to Draft.
 2. Upgrade your solution.
-3. After the solution has been successfully upgraded, activate the SLAs as required.
+3. After the solution is successfully upgraded, activate the SLAs as required.
 
 ### See also
 
