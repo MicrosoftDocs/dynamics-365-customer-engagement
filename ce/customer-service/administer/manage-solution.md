@@ -83,7 +83,7 @@ This section provides steps on how to create, export, import, and upgrade a solu
 
 ### Create
 
-1. Sign in to make.powerapps.com and select your environment.
+1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
 1. Select **Solutions** and then select  **New Solution**.
 1. Fill the required mandatory fields on the **New Solution** dialog box.
     - **Display Name**: The name shown in the list of solutions. You can change this later.
@@ -138,4 +138,6 @@ You need to enable it to import or export the calendar with SLAs for any orgs.
 
 ## See Also
 
-[Upgrade solution troubleshooting](/troubleshoot/dynamics-365/customer-service/service-level-agreements/slaitem-changes-missing-upgrade)
+[Upgrade solution troubleshooting](/troubleshoot/dynamics-365/customer-service/service-level-agreements/slaitem-changes-missing-upgrade)  
+
+[Enable calendar export and import with SLAs](export-import-solution.md#enable-calendar-export-and-import-with-slas)

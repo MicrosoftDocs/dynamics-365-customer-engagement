@@ -10,6 +10,7 @@ search.audienceType:
   - customizer
   - enduser
 ms.custom:
+  - bap-template
   - dyn365-customerservice
   - ai-gen-docs-bap
   - ai-gen-title
