@@ -72,11 +72,14 @@ In order for location tracking to work properly, please make sure you allow "Pre
 
 In order for location tracking to work properly, you need to correctly complete all the following steps when prompted. Depending on your Android OS version, some steps might not appear or they might look slightly different.
 
-1. Precise Location
-2. Always Allow
-3. Battery Optimization
-4. Alarms & Reminders
-5. Physical activity
+|   |   |
+|---|---|
+| Configure **Location Tracking**  |  ![Configure location tracking](./media/mobile-android-location-permission-prompt.png)  |
+| Select **Precise Location**   |  ![Set precise location](./media/mobile-android-location-permission-precise.png) |
+| Select **Allow all the time**  | ![Set Allow all the time](./media/mobile-android-location-permission-alwaysallow.png)  |
+| Set Battery Optimization to **Not optimized** <br/> this is needed to allow for background tracking  | ![Configure battery optimization](./media/mobile-android-location-permission-batteryoptimization.png)  |
+| Allow setting **alarms and reminders** <br/> this is needed to only track location during your work hours  | ![Configure alarms and reminders](./media/mobile-android-location-permission-alarmsreminders.png)  |
+| Allow access to your **Physical activity** <br/> this is needed to optimize tracking during movement  | ![Configure physical activity](./media/mobile-android-location-permission-physicalactivity.png)  |
 
 ---
 
