@@ -62,11 +62,21 @@ After enabling location tracking on the scheduler's side, make sure it's enabled
 On a mobile device, sign into the Dynamics 365 Field Service mobile app. When prompted, allow the Field Service app to access your location while using the app. You may need to launch and sign into the app again to be prompted for location. Ensure Location is toggled to *Yes* in the mobile app settings.
 
 ## [iOS](#tab/iOS)
+
+In order for location tracking to work properly, please make sure you allow "Precise Location" and you set the location tracking to "Always Allow" in the device settings.
+
 > [!div class="mx-imgBorder"]
 > ![Simulated device showing Field Service mobile app, with the "Allow Field Service to use your location" prompt.](./media/mobile-2020-location-auditing-enable.png)
 
 ## [Android](#tab/Android)
 
+In order for location tracking to work properly, you need to correctly complete all the following steps when prompted. Depending on your Android OS version, some steps might not appear or they might look slightly different.
+
+1. Precise Location
+2. Always Allow
+3. Battery Optimization
+4. Alarms & Reminders
+5. Physical activity
 
 ---
 
