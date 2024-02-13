@@ -350,6 +350,8 @@
               href: supervisor-sentiment-monitoring.md
         - name: View and understand Omnichannel Ongoing Conversations dashboard
           href: ongoing-conversations-dashboard.md
+        - name: Analytics reports refresh and data retention
+          href: info-analytics-reports.md
         - name: Use Omnichannel for Customer Service metrics
           href: oc-metrics-dimensions.md
         - name: Personalize analytics
