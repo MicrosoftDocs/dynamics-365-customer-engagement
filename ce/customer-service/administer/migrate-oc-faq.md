@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Omnichannel for Customer Service app deprecation and migration FAQ
 
-This article contains commonly asked questions about the deprecation of the Omnichannel for Customer Service app and migrating to Customer Service workspace.
+This article contains commonly asked questions about the deprecation of the Omnichannel for Customer Service agent-facing app and migrating to Customer Service workspace.
 
 ### Is the Omnichannel for Customer Service add-in product deprecated?
 
@@ -24,19 +24,15 @@ Continued investment in two multisession apps that are at feature-level parity l
 
 ### Is the omnichannel feature being deprecated?
 
-No, omnichannel is a platform feature that's accessed through applications. One of those applications for agents, Omnichannel for Customer Service, has been planned for deprecation.
+No, omnichannel is a platform feature you access through applications. One of those applications for agents, Omnichannel for Customer Service, is deprecated.
 
 ### What does deprecation mean?
 
-Deprecation means Microsoft plans to stop investing in a feature or app after the deprecation date. In this case, the Omnichannel for Customer Service app is deprecated as of April 1, 2023.
+Deprecation means that Microsoft stopped investing in a feature or app after the deprecation date. In this case, the Omnichannel for Customer Service app is deprecated as of April 1, 2023.
 
 ### Is the Omnichannel for Customer Service app still supported post-deprecation?
 
 Yes, support is available until June 2024.
-
-### Can I continue to use the Omnichannel for Customer Service app?
-
-Yes, you can. Omnichannel for Customer Service continues to be supported until June 2024. More information: [Enable the Omnichannel for Customer Service app and disable the Customer Service workspace app](enable-oc-disable-csw.md)
 
 ### What is the end-of-support date?
 
@@ -61,3 +57,7 @@ You can manage Customer Service workspace in the Customer Service admin center a
 ### How do I move my Omnichannel for Customer Service app configurations to the Customer Service workspace app?
 
 To migrate your Omnichannel for Customer Service app configuration to Customer Service workspace, follow the steps in the [migration guide](migrate-oc-to-csw.md).
+
+### Can I continue to use the Omnichannel for Customer Service app?
+
+Yes, you can, but we recommend you move to Customer Service workspace. Omnichannel for Customer Service is supported until June 2024. More information: [Enable the Omnichannel for Customer Service app and disable the Customer Service workspace app](enable-oc-disable-csw.md)
