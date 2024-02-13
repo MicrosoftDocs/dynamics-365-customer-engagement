@@ -72,8 +72,6 @@ In order for location tracking to work properly, please make sure you allow "Pre
 
 In order for location tracking to work properly, you need to correctly complete all the following steps when prompted. Depending on your Android OS version, some steps might not appear or they might look slightly different.
 
-|   |   |
-|---|---|
 | Configure **Location Tracking**  |  ![Configure location tracking](./media/mobile-android-location-permission-prompt.png)  |
 | Select **Precise Location**   |  ![Set precise location](./media/mobile-android-location-permission-precise.png) |
 | Select **Allow all the time**  | ![Set Allow all the time](./media/mobile-android-location-permission-alwaysallow.png)  |
