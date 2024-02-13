@@ -6,13 +6,17 @@ ms.author: laalexan
 ms.reviewer: shujoshi
 ms-service: dynamics-365
 ms.topic: conceptual
-ms.date: 06/27/2023
+ms.date: 02/12/2024
 ms.custom: bap-template
 ---
 
 # Omnichannel for Customer Service app deprecation and migration FAQ
 
 This article contains commonly asked questions about the deprecation of the Omnichannel for Customer Service app and migrating to Customer Service workspace.
+
+### Is the Omnichannel for Customer Service add-in product deprecated?
+
+No. The add-in product isn't deprecated. One of the agent-facing apps that carries the same name as the add-in is deprecated.
 
 ### Why is the Customer Service workspace app replacing Omnichannel for Customer Service?
 
@@ -26,7 +30,7 @@ No, omnichannel is a platform feature that's accessed through applications. One 
 
 Deprecation means Microsoft plans to stop investing in a feature or app after the deprecation date. In this case, the Omnichannel for Customer Service app is deprecated as of April 1, 2023.
 
-### Is the Omnichannel for Customer Service app still supported now that it's deprecated?
+### Is the Omnichannel for Customer Service app still supported post-deprecation?
 
 Yes, support is available until June 2024.
 
@@ -38,7 +42,7 @@ Yes, you can. Omnichannel for Customer Service continues to be supported until J
 
 End of support for the Omnichannel for Customer Service app is planned for June 2024.
 
-### Since Omnichannel for Customer Service is no longer being invested in now that it's deprecated, what app should I use?
+### Since Omnichannel for Customer Service is no longer being invested in, what app should I use?
 
 You can use the Customer Service workspace app, which has feature-level parity with the Omnichannel for Customer Service app.
 
@@ -46,7 +50,7 @@ You can use the Customer Service workspace app, which has feature-level parity w
 
 No, you don't need a different license. The Customer Service workspace app is available with your current licensing.
 
-### Will I lose functionality when I move from the Omnichannel for Customer Service app to the Customer Service workspace app?
+### Does my functionality stop when I move from the Omnichannel for Customer Service app to the Customer Service workspace app?
 
 No, the two applications are at feature parity.
 
