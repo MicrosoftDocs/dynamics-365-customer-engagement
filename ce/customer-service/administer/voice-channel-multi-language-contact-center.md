@@ -41,7 +41,8 @@ You can configure a phone number in a workstream that allows the customer to cho
 
 1. Select the type of hold and wait music you want the customer to hear.
   
-    [!IMPORTANT[Effective 31 August 2024, the standard voices option in Voice  won't be supported. We recommend you use neural voices for natural sounding speech output and  a better end-user experience.]]
+    > [!IMPORTANT]
+    > Effective 31 August 2024, the standard voices option in Voice  won't be supported. We recommend you use neural voices for natural sounding speech output and  a better end-user experience..
 
 1. In **Voice profile**, select a voice, voice style, speaking speed, and pitch for the bot.
 
