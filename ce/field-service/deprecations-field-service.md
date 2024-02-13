@@ -30,7 +30,7 @@ Solution components related to the Field Service Mobile (Xamarin) application ar
 
 These solutions can be removed from an organization which is no longer using the Field Service Mobile - Xamarin application. While removing solutions, you may encounter dependencies. The system will inform you of these dependencies. You'll need to either delete the component or modify it to remove references to the solution you're trying to remove. For more information, see [Removing dependencies](/power-platform/alm/removing-dependencies).
 
-With the deprecation of the Field Service Mobile (Xamarin), drip scheduling is currently available in the Field Service mobile app. Drip scheduling controlled how many bookings appear on the Field Service mobile app at one time.
+With the deprecation of the Field Service Mobile (Xamarin), drip scheduling is currently not available in the Field Service mobile app. Drip scheduling controlled how many bookings appear on the Field Service mobile app at one time.
 
 ## Deprecations in the scheduling solution
 
