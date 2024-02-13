@@ -30,7 +30,7 @@ A high-level work order process is outlined below.
   - Field Service – Administrator: All permissions to set up, configure, and edit NTE.
   - Other Field Service roles: Read and use permissions for NTE records.
 - Enable [**Not-To-Exceed**](configure-default-settings.md#features-settings) setting.
-- Enable [**Calculate cost** or **Calculate price**](configure-default-settings.md#work-order--booking-settings), depending on the NTE type you plan to use.
+- Enable [**Calculate cost** and/or **Calculate price**](configure-default-settings.md#work-order--booking-settings), depending on the NTE type you plan to use.
 
 ## NTE types
 
