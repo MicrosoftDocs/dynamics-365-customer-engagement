@@ -73,7 +73,7 @@ You can add more components to the pre-installed base solution in the target org
 1. In Power Apps, select **Select solution components**, and then select the SLA record.
 2. From **Settings** > **Solutions**, select the solution created earlier or any existing solution, and then select **Clone solution**.
 3. On the **Clone To Solution** dialog, add the version number.
-4. Save and [export](#export-the-solution) the higher version of the base solution.
+4. Save and [export](#export) the higher version of the base solution.
 5. Select **Import**, and then select **Publish All Customizations**.
 The base solution from the target org version increases, and new components and SLA records are added to the target org.
 
