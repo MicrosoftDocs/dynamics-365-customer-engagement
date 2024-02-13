@@ -1,9 +1,9 @@
 ---
 title: Set up a multilingual contact center in the voice channel
 description: Learn how to set up a multilingual contact center in the voice channel for Omnichannel for Customer Service.
-author: lalexms
-ms.author: laalexan
-ms.date: 11/22/2022
+author: kushagr-kishore
+ms.author: v-kuskishore
+ms.date: 02/13/2024
 ms.topic: how-to
 ms.reviewer:
 ms.collection:
@@ -40,6 +40,8 @@ You can configure a phone number in a workstream that allows the customer to cho
    The **Primary language** is the first language the bot uses to greet the customer. This allows your organization to have one phone number that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
 
 1. Select the type of hold and wait music you want the customer to hear.
+  
+   [!IMPORTANT[Since the neural voices provide more natural sounding speech output, and thus, a better end-user experience, we are retiring the standard voices on 31st August 2024 and they will no longer be supported after that date.]]
 
 1. In **Voice profile**, select a voice, voice style, speaking speed, and pitch for the bot.
 
