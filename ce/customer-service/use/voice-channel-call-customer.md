@@ -1,7 +1,7 @@
 ---
 title: Call a customer in the voice channel
 description: Use this article to understand how you can make customer calls in Omnichannel for Customer Service.
-ms.date: 09/21/2023
+ms.date: 02/13/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -14,6 +14,38 @@ ms.author: mgandham
 
 To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. More information: [Outbound calling](../administer/voice-channel-outbound-calling.md)
 
+If your administrator has enabled the  **Enhanced outbound dialer experience** setting definition in Power Apps, you will see the enhanced outbound dialer.
+> [!IMPORTANT]
+> - This is a preview feature.
+> - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+
+If your administrator hasn't enabled the early access feature, when you call a customer, on the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.
+
+## Test microphone, speaker, and make a test call
+
+[This section is prerelease documentation and is subject to change.]
+
+ In the enhanced outbound dialer, you can test your microphone and speaker before you make a call. You can also make a test call to check the quality of the call.
+
+To test your microphone and speaker, do the following steps:
+
+1. Select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
+1. In **Voice settings** you can either test speaker, microphone, or place a test call.
+1. The **Speaker** and **Microphone** sections display the speaker and microphone currently in use and a list of speakers and microphones that are available on your device. You can select the speaker and microphone that you want to test. 
+1. Select the following options:
+  - **Test speaker**. The application plays a sound. You can select **Stop** to stop the test. By default, the sound automatically stops after 15 seconds.
+  -  **Test microphone**: The microphone starts recording your voice. The recording automatically stops after 15 seconds and is played back to you.
+  - **Make a test call**: The following actions occur:
+    - The **Active Conversation** form opens with the message that a test call is in progress. 
+    - The **Communication Panel** displays the device settings and the **End call** button. 
+    - When you select device settings, you can see the speaker and microphone. A visual indicator is displayed, against the device to indicate that it is connected. You can also test the speaker and microphone level.
+    
+    :::image type="content" source="../media/make-test-call.png" alt-text="Outbound dialer make test call.":::
+
+## Make a call using the enhanced outbound dialer
+
+[This section is prerelease documentation and is subject to change.]
+
 1. In Customer Service workspace or Omnichannel for Customer Service, go to **Contacts**, and then select a customer to call.
 2. On the **Active Conversation** page, locate the **Mobile Phone** field, and then select the call icon to call the customer. You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer.
      The **Dial number** panel appears. You can perform the following actions:
@@ -23,16 +55,11 @@ To be able to call customers, your administrator must configure outbound calling
      - The dropdown displays the list of supported countries and regions from all the outbound profiles assigned to you. 
      - When you enter the number you'd like to call, the application identifies the outbound profile that has the dialed number's country or region configured.
      - By default, the number pad is hidden. To display the number pad, select the number pad icon.
-       > [!NOTE]
-       > - The enhanced outbound dialer is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). 
-       > - Your administrator must also enable the **Enhanced outbound dialer experience** setting definition in Power Apps.<br>
 
- If your administrator hasn't enabled the early access feature, when you call a customer, on the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.<br>
 3. Select **Call**. 
 
  > [!NOTE]
  > If you aren't assigned an outbound profile, you won't be able to make a call.
-
 
  :::image type="content" source="../media/outbound-dialer.png" alt-text="Outbound dialer for voice calls.":::
 
