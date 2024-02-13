@@ -25,9 +25,7 @@ If your administrator hasn't enabled the early access feature, when you call a c
 
 [This section is prerelease documentation and is subject to change.]
 
- In the enhanced outbound dialer, you can test your microphone and speaker before you make a call. You can also make a test call to check the quality of the call.
-
-    :::image type="content" source="../media/make-test-call.png" alt-text="Outbound dialer make test call.":::
+ In the enhanced outbound dialer, you can test your microphone and speaker before you make a call. You can also make a test call to check the quality of the call. More information: [Test microphone, speaker, and make a test call to troubleshoot device issues](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/troubleshoot-device-issues).
 
 ## Make a call using the enhanced outbound dialer
 
