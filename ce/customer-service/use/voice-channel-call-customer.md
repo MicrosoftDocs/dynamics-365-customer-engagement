@@ -19,7 +19,7 @@ If your administrator has enabled the  **Enhanced outbound dialer experience** s
 > - This is a preview feature.
 > - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 
-If your administrator hasn't enabled the early access feature, when you call a customer, on the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.
+If your administrator hasn't enabled the early access feature, when you call a customer from the outbound dialer, on the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.
 
 ## Test microphone, speaker, and make a test call
 
@@ -27,19 +27,6 @@ If your administrator hasn't enabled the early access feature, when you call a c
 
  In the enhanced outbound dialer, you can test your microphone and speaker before you make a call. You can also make a test call to check the quality of the call.
 
-To test your microphone and speaker, do the following steps:
-
-1. Select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
-1. In **Voice settings** you can either test speaker, microphone, or place a test call.
-1. The **Speaker** and **Microphone** sections display the speaker and microphone currently in use and a list of speakers and microphones that are available on your device. You can select the speaker and microphone that you want to test. 
-1. Select the following options:
-  - **Test speaker**. The application plays a sound. You can select **Stop** to stop the test. By default, the sound automatically stops after 15 seconds.
-  -  **Test microphone**: The microphone starts recording your voice. The recording automatically stops after 15 seconds and is played back to you.
-  - **Make a test call**: The following actions occur:
-    - The **Active Conversation** form opens with the message that a test call is in progress. 
-    - The **Communication Panel** displays the device settings and the **End call** button. 
-    - When you select device settings, you can see the speaker and microphone. A visual indicator is displayed, against the device to indicate that it is connected. You can also test the speaker and microphone level.
-    
     :::image type="content" source="../media/make-test-call.png" alt-text="Outbound dialer make test call.":::
 
 ## Make a call using the enhanced outbound dialer
