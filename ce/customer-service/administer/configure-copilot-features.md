@@ -5,9 +5,9 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 01/03/2024
+ms.date: 01/30/2024
 ms.custom: bap-template 
-ms.collection:
+ms.collection: bap-ai-copilot
 ---
 
 # Manage Copilot features in Customer Service 
@@ -109,11 +109,7 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvReadmsdyn_copilotsummarizationsetting 
 - prvReadmsdyn_conversationinsight
 - prvWritemsdyn_copilottranscriptdata 
-- prvAppendTomsdyn_copilottranscriptdata 
-- prvReadmsdyn_copilottranscript 
-- prvCreatemsdyn_copilottranscript 
-- prvWritemsdyn_copilottranscript 
-- prvAppendTomsdyn_copilottranscript 
+- prvAppendTomsdyn_copilottranscriptdata  
 - prvReadmsdyn_copilottranscriptdata 
 - prvCreatemsdyn_copilottranscriptdata 
 - prvWritemsdyn_copilottranscriptdata 
