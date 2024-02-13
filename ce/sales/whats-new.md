@@ -18,7 +18,7 @@ This article summarizes early access, public preview, and general availability f
 
 | Feature area | Feature | Description | Resources | Turned on by | Availability |
 |---|---|---|---|---|---|
-| Copilot | Customize lead and opportunity summary | You can configure up to 10 fields for generating summary and recent changes list. | [Documentation](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list) | Admin | GA |
+| Copilot | Customize fields for summary and recent changes list | You can configure up to 10 fields for generating summary and recent changes list. | [Documentation](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list) | Admin | GA |
 
 ## December 2023 release
 
