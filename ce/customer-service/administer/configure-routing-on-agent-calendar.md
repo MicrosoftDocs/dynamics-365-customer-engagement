@@ -44,6 +44,7 @@ Alternatively, you can also use [Organization Service](/power-apps/developer/dat
 1. Create a rule or modify an existing rule and do the following:
     1. In **Conditions**, select **Add row**, and then select **Calendar schedule**. The **Is working** value is automatically selected.
     1. Save and close.
+
        :::image type="content" source="../media/screenshot-of-calendar-schedule-condition.png" alt-text="Screenshot of assignment rule configured on calendar schedule.":::
 
 ## View routing diagnostics records
