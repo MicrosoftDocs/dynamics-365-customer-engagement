@@ -24,7 +24,7 @@ The agent must be a part of the outbound voice queue to make an outbound call. S
 
 ### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
 
-No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#how-queue-overflow-is-evaluated)
+No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#how-queue-overflow-is-evaluated-before-work-item-are-queued)
 
 ### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 

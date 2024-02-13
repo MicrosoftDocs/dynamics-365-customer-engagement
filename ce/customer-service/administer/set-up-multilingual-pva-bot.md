@@ -34,7 +34,7 @@ The process for setting up the multilingual bot in Copilot Studio is as follows:
 1. Verify the multilingual bot.
 
 > [!NOTE]
-> The [new multilingual chatbots](/power-virtual-agents/multilingual) (preview) aren't currently supported in Omnichannel for Customer Service.
+> The [new multilingual chatbots](/power-virtual-agents/multilingual) aren't currently supported in Omnichannel for Customer Service.
 
 ## Prerequisites
 

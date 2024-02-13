@@ -90,7 +90,7 @@ items:
       href: field-service-knowledge-management.md
 
 - name: Copilot in Field Service
-  items: 
+  items:
     - name: Work order recap with copilot
       href: work-order-recap.md
     - name: Work order update
@@ -285,12 +285,12 @@ items:
       href: mobile-power-app-get-started.md
     - name: Offline capabilities
       items:
-      - name: Mobile offline capabilities
-        href: mobile-power-app-system-offline.md
       - name: Offline data synchronization
         href: mobile-power-app-system-offline-sync.md
-      - name: Configure the mobile offline profile
+      - name: Set up the mobile offline profile
         href: mobile-power-app-system-offline-setup.md
+      - name: Best practices and limitations
+        href: mobile-power-app-system-offline.md
     - name: Use the mobile app
       items:
       - name: Download and get started
@@ -440,7 +440,7 @@ items:
           href: iot-parent-iot-alerts-workflow.md
       - name: Extend standard components or add Azure services
         href: extend-connected-field-service-solutions.md
-      
+
   - name: Analyze IoT data
     items:
       - name: Summary tiles
@@ -450,7 +450,7 @@ items:
       - name: Reports
         href: cfs-powerbi.md
 
-  
+
   - name: Administration
     items:
       - name: Security roles for Connected Field Service
@@ -551,7 +551,7 @@ items:
     href: troubleshooting-mobile-newux.md
 
 - name: Responsible AI
-  items: 
+  items:
     - name: Overview
       href: responsible-ai-overview.md
     - name: FAQ about Outlook work order creation

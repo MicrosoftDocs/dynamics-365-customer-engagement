@@ -228,6 +228,8 @@
           href: create-personal-quick-replies.md
         - name: Manage presence status
           href: oc-manage-presence-status.md
+        - name: FAQ on agent presence in Customer Service
+          href: presence-faq.md  
         - name: Search for transcripts
           href: oc-search-transcipts.md
         - name: View conversation and session forms
@@ -286,6 +288,8 @@
           href: use-copilot-features.md#draft-a-chat-response-preview
         - name: Draft emails
           href: use-copilot-features.md#draft-emails
+        - name: Understand Copilot language support
+          href: copilot-language-support.md
         - name: View analytics for Copilot impact
           href: copilot-analytics-report.md
       - name: Analytics dashboards and insights
@@ -346,6 +350,8 @@
               href: supervisor-sentiment-monitoring.md
         - name: View and understand Omnichannel Ongoing Conversations dashboard
           href: ongoing-conversations-dashboard.md
+        - name: Analytics reports refresh and data retention
+          href: info-analytics-reports.md
         - name: Use Omnichannel for Customer Service metrics
           href: oc-metrics-dimensions.md
         - name: Personalize analytics
