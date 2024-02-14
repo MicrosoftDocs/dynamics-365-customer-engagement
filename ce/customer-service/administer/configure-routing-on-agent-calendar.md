@@ -1,6 +1,6 @@
 ---
 title: Configure routing based on external schedules (preview)
-description: Learn about how to configure routing of work items to agents based on shift schedules generated in external WFM systems.
+description: Learn how to configure routing of work items to agents based on shift schedules generated in external WFM systems.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: 
@@ -9,12 +9,11 @@ ms.collection:
 ms.date: 01/31/2024
 ms.custom: bap-template
 ---
-
 # Configure routing based on external schedules (preview)
 
 [This article is prerelease documentation and is subject to change.]
 
-Configure assignment rules to route and assign cases and conversations based on agent's shift schedules imported from external workforce management (WFM) systems. By verifying agents' schedules in advance, organizations can avoid routing tasks to off-duty agents, and reduce the risk of delays. You can incorporate shift assignments and time-off considerations into the routing process to foster  employee-centric approach, and streamline operational workflows for productivity and improved retention rates.
+Configure assignment rules to route and assign cases and conversations based on agents' shift schedules imported from external workforce management (WFM) systems. By verifying agents' schedules in advance, organizations can avoid routing tasks to off-duty agents, and reduce the risk of delays. You can incorporate shift assignments and time-off considerations into the routing process to foster an employee-centric approach, and streamline operational workflows for productivity and improved retention rates.
 
 ## Prerequisites
 
@@ -22,9 +21,9 @@ Configure assignment rules to route and assign cases and conversations based on 
 - [Unified routing](provision-unified-routing.md) is provisioned and set up.
 - [Workstreams](create-workstreams.md) and [advanced queues](queues-omnichannel.md) are set up.
 - [Custom assignment method](configure-assignment-rules.md) is configured for the queue.
-- You must have a third-party adapter configured to import agent schedules from an external system. Without an adapter in place, external schedules can't be surfaced in the agent calendar, and agents can't view their schedules in Dynamics 365 for Customer Service.
+- You must have a third-party adapter configured to import agent schedules from an external system. Without an adapter in place, external schedules can't be surfaced in the agent calendar, and agents can't view their schedules in Dynamics 365 Customer Service.
 - Shift-based routing is enabled.
-- When you are importing external schedules using the third-party adapter, opt-in every agent ([bookableresource](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to "True".
+- When you are importing external schedules using the third-party adapter, opt in every agent ([bookableresource](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to **True**.
 
 ## Enable shift-based routing
 
@@ -41,10 +40,11 @@ Alternatively, you can also use [Organization Service](/power-apps/developer/dat
 ## Configure an assignment rule
 
 1. In the Customer Service admin center site map, select **Queues**, and then select **Manage** in the **Advanced queues** area.
-1. Select the queue that you want to configure the assignment rule, select the [custom assignment](configure-assignment-rules.md) method, and select **Edit**.
+1. Select the queue that you want to configure the assignment rule for, select the [custom assignment](configure-assignment-rules.md) method, and select **Edit**.
 1. Create a rule or modify an existing rule and do the following:
     1. In **Conditions**, select **Add row**, and then select **Calendar schedule**. The **Is working** value is automatically selected.
     1. Save and close.
+
        :::image type="content" source="../media/screenshot-of-calendar-schedule-condition.png" alt-text="Screenshot of assignment rule configured on calendar schedule.":::
 
 ## View routing diagnostics records
@@ -60,7 +60,7 @@ An automated process synchronizes the agent's imported schedules with the agent'
 - After you opt in the agent for shift-based routing, the first automated sync occurs after **180 minutes** to allow the external schedules to be imported for the agent.
 - After the first automated sync, the agent's bookings are synchronized with their work hour calendar every **180 minutes**.
 - Each automated run synchronizes the agent's bookings for the next **28 days**, starting from the time of the automated sync. Bookings beyond 28 days aren't synchronized.
-- Any updates to the booking, including deletion of the booking, is immediately reflected in the corresponding work hour entry for the booking. For example, if the end time for a synchronized booking is updated, then the end time of the corresponding work hour calendar entry is also updated immediately. Similarly, if a synchronized booking is deleted, then the corresponding work hour calendar entry is also removed.
+- Any updates to the booking, including deletion of the booking, are immediately reflected in the corresponding work hour entry for the booking. For example, if the end time for a synchronized booking is updated, then the end time of the corresponding work hour calendar entry is also updated immediately. Similarly, if a synchronized booking is deleted, then the corresponding work hour calendar entry is also removed.
 
 After the agent's bookings are synchronized with their work hour calendar, unified routing routes work items based on the work hour calendar entries.
 
