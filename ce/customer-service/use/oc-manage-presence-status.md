@@ -22,7 +22,7 @@ Presence is an indication of your agent’s availability or status to take up wo
 The prerequisites for presence status to load correctly are as follows:
 
 - The omnichannel provider URL is correct. Check using the [agent diagnostics tool](use-agent-diagnostics.md) in Customer Service workspace.
-- The agent is assigned the [Omnichannel agent or Omnichannel supervisor role](../implement/add-users-assign-roles.md).
+- The agent is assigned the [Omnichannel agent or Omnichannel supervisor role](../implement/add-users-assign-roles.md). If custom roles are used, the agent or supervisor [persona mapping](../administer/role-persona-mapping.md) must be configured.
 - The agent is assigned an [experience profile](../administer/add-profile-default.md).
 - The ["All active channels"](../administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels) setting is enabled in the agent’s experience profile.
 - [Omnichannel for Customer Service is provisioned](../implement/omnichannel-provision-license.md) or [Unified routing is enabled](../administer/provision-unified-routing.md).
