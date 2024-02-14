@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: 
 ms.topic: how-to
 ms.collection: 
-ms.date: 01/31/2024
+ms.date: 02/23/2024
 ms.custom: bap-template
 ---
 # Configure routing based on external schedules (preview)
