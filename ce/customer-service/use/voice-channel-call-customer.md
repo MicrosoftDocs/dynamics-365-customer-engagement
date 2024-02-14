@@ -1,7 +1,7 @@
 ---
 title: Call a customer in the voice channel
 description: Use this article to understand how you can make customer calls in Omnichannel for Customer Service.
-ms.date: 02/13/2024
+ms.date: 02/14/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -19,13 +19,25 @@ If your administrator has enabled the  **Enhanced outbound dialer experience** s
 > - This is a preview feature.
 > - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 
-If your administrator hasn't enabled the early access feature, when you call a customer from the outbound dialer, on the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.
+If your administrator hasn't enabled the early access feature,you can launch the outbound dialer from the menu bar, **Contacts** or **Active conversation** page. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.
 
 ## Test microphone, speaker, and make a test call
 
 [This section is prerelease documentation and is subject to change.]
 
- In the enhanced outbound dialer, you can test your microphone and speaker before you make a call. You can also make a test call to check the quality of the call. More information: [Test microphone, speaker, and make a test call to troubleshoot device issues](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/troubleshoot-device-issues).
+ In the enhanced outbound dialer, you can test your microphone and speaker before you make a call. You can also make a test call to check the quality of the call.
+
+To test your microphone and speaker, do the following steps:
+
+1. In Customer Service workspace, select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
+1. In the **Speaker** and **Microphone** sections, select the speaker and microphone to test. If you have multiple devices, the default devices that are currently in use appear.
+1. Select the following options:
+  - **Test speaker**. The application plays a sound that stops automatically after 15 seconds.
+  -  **Test microphone**: The microphone starts recording your voice. The recording automatically stops after 15 seconds and is played back to you.
+  - **Make a test call**: The following actions occur:
+    - The **Active Conversation** form opens with the message that a test call is in progress. 
+    - The **Communication Panel** displays the device settings and the **End call** button. 
+    - When you select device settings, you can see the speaker and microphone. A visual indicator is displayed against the device to indicate that it is connected. 
 
 ## Make a call using the enhanced outbound dialer
 
