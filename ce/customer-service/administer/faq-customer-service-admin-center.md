@@ -3,8 +3,8 @@ title: "Customer Service admin center FAQ | MicrosoftDocs"
 description: "FAQ pertaining to Customer Service admin center."
 ms.date: 02/11/2024
 ms.topic: article
-author: kushagr-kishore
-ms.author: v-kuskishore
+author: neeranelli
+ms.author: nenellim
 ---
 
 # FAQ about Customer Service admin center
