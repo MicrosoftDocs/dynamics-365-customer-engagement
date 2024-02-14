@@ -43,7 +43,7 @@ Your admin might have installed the app for your organization. If you see the Fi
 
    - The **Home** tab to go to the Teams **Home** page.
 
-     :::image type="content" source="media/fsp-flm-teams-home.png" alt-text="Field Service Teams Home page for the frontline manager":::
+     :::image type="content" source="media/fsp-flm-teams-home.png" alt-text="Field Service Teams Home page for the frontline manager.":::
 
    - **Open Viva Connections** to go to your Viva Connections dashboard.
 
@@ -55,7 +55,7 @@ Your admin might have installed the app for your organization. If you see the Fi
 
    From your Field Service Teams **Home** page, select the **Create work order** button.
 
-   :::image type="content" source="media/fsp-teams-create-button.png" alt-text="Screenshot of  the Field Service Teams app with the Create a work order button highlighted":::
+   :::image type="content" source="media/fsp-teams-create-button.png" alt-text="Screenshot of  the Field Service Teams app with the Create work order button highlighted.":::
 
 1. Fill in the required information.
 
