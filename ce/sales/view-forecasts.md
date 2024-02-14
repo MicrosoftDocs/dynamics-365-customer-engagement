@@ -1,7 +1,7 @@
 ---
 title: View a forecast 
 description: See a forecast in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target.
-ms.date: 09/15/2023
+ms.date: 02/14/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -78,10 +78,14 @@ The following columns are displayed by default in an org chart forecast.
 
 - **Lost**: Shows the aggregated (rolled-up) value of revenue that's lost for all lost opportunities that have the forecast category set as **Lost**.
 
-
 ## Out-of-the-box forecast
 
 You can take advantage of forecasts even if your administrator hasn't configured one. The out-of-the-box forecast is based on the org chart template and is available to all users. This forecast is based on the sales team hierarchy as defined by the **Manager** field on the **User** record. To learn more, see [Forecasts and sales hierarchy](#forecasts-and-sales-hierarchy).
+
+To view the out-of-the-box forecast, go to **Performance** > **Forecasts**. The forecast is available for the current month.
+
+> [!NOTE]
+> The out-of-the-box forecast is only a starting point. We recommend that you work with your administrator to configure a forecast that's tailored to your organization's needs. To learn more, see [Configure a forecast](configure-forecast.md).
 
 ## Difference between the out-of-the-box forecast and a configured forecast
 
@@ -89,10 +93,11 @@ The following table lists the differences between the out-of-the-box forecast an
 
 | Out-of-the-box forecast | Configured forecast |
 |-----------------------|---------|
-| Forecast based on the org chart template. | Forecast based on the template that your administrator has configured. |
-| Forecast is available to all users. | Forecast is available to users who have been granted access by the administrator. |
-| Forecast is available only for the current month. | Forecast is available for the number of periods defined in the forecast configuration. |
-| Forecast values are updated in real-time. | Forecast values are only updated every 24 hours or can be refreshed manually anytime.|
+| Based on the org chart template. | Based on the template that your administrator has configured. |
+| Uses opportunity as the rollup entity. | Uses a rollup entity that your administrator has configured. |
+| Is available to all users. | Is available to users who have been granted access by the administrator. |
+| Is available only for the current month. | Is available for the number of periods defined in the forecast configuration. |
+| Forecast values are updated in near real-time. | Forecast values are only updated every 24 hours or can be refreshed manually anytime.|
 | Quota value is based on previous month's won amount. | Quota value is based on the value defined in the forecast configuration. |
 | Updates to the underlying records are reflected in the forecast after the forecast page is refreshed.| Updates to the underlying records are reflected in the forecast after the forecast is recalculated. |
 | Can handle upto 50,000 records. | No limit on the number of records. |
