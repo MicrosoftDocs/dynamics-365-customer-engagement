@@ -27,7 +27,7 @@ As an admin, set up Microsoft Copilot for Field Service work orders for your use
 
 1. Obtain access to the limited preview. Contact the [Microsoft Help Desk](https://aka.ms/TechWeb) to have them submit a Microsoft support ticket using the sentence "enable plugins for Copilot for Microsoft 365" within the ticket.
 
-<!--- Include a link once the section is updated (/microsoft-365-copilot/extensibility/prerequisites#requirements-for-plugin-development) --->
+   <!--- Include a link once the section is updated (/microsoft-365-copilot/extensibility/prerequisites#requirements-for-plugin-development) --->
 
 1. [Consent to moving data across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions). For more information, see [How data movement across regions works](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works).
 
