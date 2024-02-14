@@ -16,12 +16,12 @@ To be able to call customers, your administrator must configure outbound calling
 
 If your administrator has enabled the  **Enhanced outbound dialer experience** setting definition in Power Apps, you will see the enhanced outbound dialer.
 > [!IMPORTANT]
-> - This is a preview feature.
+> - The enhanced outbound dialer is a preview feature.
 > - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 
 If your administrator hasn't enabled the early access feature,you can launch the outbound dialer from the menu bar, **Contacts** or **Active conversation** page. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.
 
-## Test microphone, speaker, and make a test call
+## Test call controls, make a test call (preview)
 
 [This section is prerelease documentation and is subject to change.]
 
