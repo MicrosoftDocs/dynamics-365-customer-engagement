@@ -224,7 +224,9 @@
             href: set-pause-conditions-sla.md
           - name: Add timer control for SLA-enabled entities
             href: add-timer-control-case-form-track-time-against-sla.md
-          - name: Export and import a solution with SLAs
+          - name: Manage solutions with SLAs
+            href: manage-solution.md
+          - name: Enable calendar export and import with SLAs
             href: export-import-solution.md
           - name: Manage service configuration settings
             href: ../../admin/system-settings-dialog-box-service-tab.md
@@ -398,7 +400,7 @@
             href: voice-channel-block-number.md
           - name: Configure call recording, transcription, and real-time translation
             href: voice-channel-configure-transcripts.md
-          - name:  Configure survey for call quality feedback (preview)
+          - name:  Configure agent call quality feedback survey (preview)
             href: configure-end-of-call-survey.md           
           - name: Delete call recordings
             href: voice-channel-delete-calls.md
