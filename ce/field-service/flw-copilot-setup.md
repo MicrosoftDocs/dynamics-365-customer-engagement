@@ -25,9 +25,27 @@ As an admin, set up Microsoft Copilot for Field Service work orders for your use
 
 1. [Set up the plugin](/microsoft-copilot-studio/copilot-plugins-overview#use-plugins-in-microsoft-copilot), including deploying the app and enabling the Microsoft Copilot setting.
 
-1. [Obtain access to the limited preview](/microsoft-365-copilot/extensibility/prerequisites#requirements-for-plugin-development) by submitting a Microsoft support ticket.
+1. Obtain access to the limited preview. Contact the [Microsoft Help Desk](https://aka.ms/TechWeb) to have them submit a Microsoft support ticket using the sentence "enable plugins for Copilot for Microsoft 365" within the ticket.
 
-1. [Consent to moving data across regions.](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) For more information, see [How data movement across regions works.](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works)
+<!--- Include a link once the section is updated (/microsoft-365-copilot/extensibility/prerequisites#requirements-for-plugin-development) --->
+
+1. [Consent to moving data across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions). For more information, see [How data movement across regions works](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works).
+
+## Verify the plugin and add plugin users
+
+Once the support ticket is complete, perform the following steps.
+
+1. Log into [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) and select **Plugins (preview)**.
+
+1. Verify the Dynamics 365 Field Service plugin is listed.
+
+   :::image type="content" source="media/fsp-copilot-studios-plugins.png" alt-text="Copilot Studio with Plugins (preview) and Dynamics 365 Field Service highlighted.":::
+
+1. Log into the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Settings** > **Integrated apps**.
+
+   :::image type="content" source="media/fsp-d365-copilot-app.png" alt-text="Microsoft 365 admin center showing the Dynamics 365 Copilot app.":::
+
+1. In the Dynamics 365 and Copilot Studio pane, select the **Users** tab. [Add the users who will use the plugin](/microsoft-365/admin/manage/manage-plugins-for-copilot-in-integrated-apps#manage-how-users-can-install-plugins-for-copilot).
 
 ## Enable the Microsoft Copilot for Field Service work orders
 
