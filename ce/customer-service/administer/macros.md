@@ -1,6 +1,6 @@
 ---
 title: "Macros in the Customer Service workspace app | MicrosoftDocs"
-description: "This topic provides information about the different macros that can be made available to agents and how to configure them ."
+description: "This topic provides information about the different macros that can be made available to agents and how to configure them."
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
