@@ -43,7 +43,7 @@ Open the Copilot side pane when you want to get quick insights about a record or
 
 1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) on the right side of your app. You can open the **Copilot** side pane from any page in your app except the **Copilot** page.
 
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with.
+1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot).
 
 ### Open Copilot in an immersive, full-screen view (preview)
 
@@ -59,7 +59,7 @@ Open the Copilot page in a full-screen view when you want more space and focus t
 
     If it isn't there, ask your admin to [turn on Copilot preview features](copilot-preview-features.md#enable-all-preview-features-for-copilot). If you're using a custom app, ask your admin to [add the Copilot page to your app's sitemap](enable-setup-copilot.md#add-the-copilot-page-to-custom-apps-preview).
 
-2. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with.
+2. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot).
 
 
 ## Chat with Copilot

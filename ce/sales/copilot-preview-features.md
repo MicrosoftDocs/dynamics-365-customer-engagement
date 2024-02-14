@@ -42,4 +42,6 @@ The following table lists the Copilot preview features that are available in Dyn
 
 1. In the **Set up Copilot in Dynamics 365 Sales** page, turn on **Try our newest preview features before they're rolled out to everyone**.
 
+    :::image type="content" source="media/enable-copilot-old.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub."::: 
+
 1. Select **Publish**.
