@@ -22,7 +22,7 @@ The Dynamics 365 users can access and perform different functions based on the r
 - **Omnichannel agent:** Required for performing agent tasks.
 - **Productivity tools user:** Required by users of Dynamics 365 Productivity Tools.
 - **Productivity tools administrator:** Required by administrator users of Dynamics 365 Productivity Tools.
-- **App Profile Administrator:** Required for creating and assigning app profiles to users of Customer Service and Omnichannel for Customer Service.
+- **App Profile Manager Administrator:** Required for creating and assigning app profiles to users of Customer Service and Omnichannel for Customer Service.
 - **App Profile User:** Required by users of Customer Service and Omnichannel for Customer Service.
 
 Ensure that the **Omnichannel API access** role isn't assigned to a supervisor or agent type of user.
