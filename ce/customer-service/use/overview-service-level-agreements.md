@@ -67,7 +67,7 @@ After you configure and apply your SLAs, you can manage the various aspects of y
 
 #### Export and import a solution with SLAs
 
-- You can export and import a solution with SLAs to another environment without having to create SLAs in the new environment all over again. More information: [Manage solutions with SLAs](manage-solution.md)
+- You can export and import a solution with SLAs to another environment without having to create SLAs in the new environment all over again. More information: [Manage solutions with SLAs](../administer/manage-solution.md)
 - Additionally, you can export or import a calendar with SLAs. SLA items are automatically inked to the corresponding imported calendars on import. More information: [Enable calendar export and import with SLAs](../administer/export-import-solution.md#enable-calendar-export-and-import-with-slas)
 
 #### Calculate SLA KPIs
