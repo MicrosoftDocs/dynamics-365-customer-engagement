@@ -34,7 +34,7 @@ The key capabilities of model customization include the ability to:
 Enable data model customization for historical and real-time analytics reports in Customer Service admin center, and then complete the following tasks:
 
 1. Select a Power BI workspace.
-1. Set aside the data models and copy of reports.
+1. Provision the data models and copy of reports.
 1. Grant permissions for dataset and reports.
 1. Embed customized reports back to Dynamics 365.
 
@@ -93,7 +93,7 @@ Specify the Power BI workspace where the Dynamics data model and reports are pro
 
 The specified workspace applies only to the customer's workspace. Microsoft creates a new managed workspace for historical and real-time reports each, when configured. For more information, see [How data model customization works](../use/datamodel-overview.md#how-data-model-customization-works). You can also specify the same workspace for both historical and real-time analytics reports.
 
-## Step 2: Set aside the data models
+## Step 2: Provision the data models
 
 It could take up to 24 hours for the provisioning to complete. You can leave the **Settings** page and check back after a few hours. Select **Refresh** to check the provisioning status.
 
