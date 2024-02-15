@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="ok_button_text">Ok</string>
+    <string name="track_consistently_message">In order to track your location consistently, this app needs to be set to \'Not Optimized\' for battery optimization.</string>
+    <string name="track_consistently_steps_message">\n\n- Click OK to open battery optimization settings.\n- Tap \'Not Optimized\' and change it to \'All Apps\'.\n- Find this app under \'All Apps\'.\n- Set it to \'Not Optimized\'.\n- Reopen the app.</string>
+    <string name="battery_optimization_title">Battery Optimization</string>
+    <string name="Background_Location_Tracking_Notification_Name">Location Tracking Notifications</string>
+    <string name="Location_Tracking_Notification_Text">This app is currently tracking your location</string>
+    <string name="exact_alarms_title">Alarms and Reminders</string>
+    <string name="exact_alarms_message">In order to schedule location tracking during your work hours, this app needs to be allowed to set alarms and reminders.</string>
+    <string name="location_disclosure_title">Update location settings</string>
+    <string name="location_disclosure_message_1">For best results, please "Always Allow" Microsoft Dynamics 365 Field Service to track your location. This will enable the app to work while you are on-site.</string>
+    <string name="location_disclosure_message_2">We will collect your location history to track address, latitude, and longitude only during working hours and days set by your organization.</string>
+    <string name="learn_more">Learn More</string>
+    <string name="privacy_statement">Privacy Statement</string>
+    <string name="no_thanks">No thanks</string>
+    <string name="update_settings">Update settings</string>
+</resources>
