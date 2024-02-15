@@ -1,7 +1,7 @@
 ---
 title: Model customization of historical and real-time analytics reports in Customer Service | MicrosoftDocs
 description: Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI.
-ms.date: 01/30/2024
+ms.date: 02/15/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -46,18 +46,19 @@ Before you begin, you must complete the following prerequisites:
 
 - Enable insights features in Customer Service:
 
-  - If you're enabling historical data model customization, you must enable at least one of the historical reports, such as Customer Service historical analytics, Omnichannel historical analytics, or knowledge analytics. For more information, see [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md)
+  - If you're enabling historical data model customization, you must enable at least one of the historical reports, such as Customer Service historical analytics, Omnichannel historical analytics, or knowledge analytics. For more information, see [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md).
   - If you're enabling real-time data model customization, you must enable real-time analytics for Omnichannel. For more information, see [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md).
 
 - Create a Microsoft Entra ID security group:
 
   - Your Microsoft Entra ID administrator must create a security group with your preferred name in Microsoft Entra ID and add **Dynamics 365 Analytics** service account as a member of this security group. For more information, see [Create a basic group and add members using Microsoft Entra ID](/entra/fundamentals/how-to-manage-groups).
 
-        The out-of-the-box **Service Principal Dynamics 365 Analytics** is used to deploy the data model and make changes to the Power BI workspace on behalf of Customer Service.
+      The out-of-the-box **Service Principal Dynamics 365 Analytics** is used to deploy the data model and make changes to the Power BI workspace on behalf of Customer Service.
 
-        Permissions within Power BI can be granted to groups only and not individual service principals, and therefore a group needs to be created.
+      Permissions within Power BI can be granted to groups only and not individual service principals, and therefore a group needs to be created.
 
-  In organizations where Dynamics 365 Analytics service account might not be available, you need to use the Dynamics Common Customer Attributes (CCA) Data Analytics service account.
+  > [!NOTE]
+  > Information the user should notice even if skimmingIn organizations where Dynamics 365 Analytics service account might not be available, you need to use the Dynamics Common Customer Attributes (CCA) Data Analytics service account.
 
 - Enable Power BI service features from the Power BI admin portal. The Power BI administrator must enable the following, either for the entire organization or for the security group created earlier:
 
@@ -130,30 +131,32 @@ After your report authors create and publish the customized reports, you can all
 
 ### [Historical data model customization](#tab/historicaldatamodelcustomization)
 
-- From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
+  - From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
     :::image type="content" source="../media/embed-historical.png" alt-text="Screenshot of the historical reports you want to view on the site map.":::
 
 ### [Real-time data model customization](#tab/realtimedatamodelcustomization)
 
-- From the **Embedded Power BI extensibility - Real-time data model customization** page, go to Step 4.
+  - From the **Embedded Power BI extensibility - Real-time data model customization** page, go to Step 4.
     :::image type="content" source="../media/embed-realtime.png" alt-text="Screenshot of the real-time reports you want to view on the site map.":::
 
 ---
-1. Select **Add report**. The **Add report** dialog appears.
-1. Enter a preferred name in the **Report name** text box.
-1. From the **Select Power BI report** dropdown list, select the Power BI report in the workspace.
-1. Select **Add** and **Save**.
+2. Select **Add report**. The **Add report** dialog appears.
+3. Enter a preferred name in the **Report name** text box.
+4. From the **Select Power BI report** dropdown list, select the Power BI report in the workspace.
+5. Select **Add** and **Save**.
 
 
 The dropdown list is populated with the reports in the workspace configured on Step 1. The preferred report name appears for your Dynamics users when they access the reports. You can add a maximum of 40 reports.
 
 The customized reports site map in the Customer service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real time admin pages. For both historical and real time, you can modify or delete reports added from the respective historical and real-time data model customization pages only.
 
-Supervisor actions like assign, transfer, monitor, and force close aren't available for model customized reports.
+> [!NOTE]
+> Supervisor actions like assign, transfer, monitor, and force close aren't available for model customized reports.
 
 ## Enable automatic page refresh for reports
 
-Automatic page refresh is available only for real-time reports.
+> [!NOTE]
+> Automatic page refresh is available only for real-time reports.
 
 You can enable automatic page refresh for your reports at fixed intervals so that you always see the latest data. For more information, see [Authoring reports with automatic page refresh in Power BI Desktop](/power-bi/create-reports/desktop-automatic-page-refresh#authoring-reports-with-automatic-page-refresh-in-power-bi-desktop).
 
