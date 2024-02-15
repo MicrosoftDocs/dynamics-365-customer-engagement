@@ -1,7 +1,7 @@
 ---
 title: Use trades to group services
 description: Learn how to configure and use trades in Dynamics 365 Field Service.
-ms.date: 08/04/2023
+ms.date: 02/09/2024
 ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template
@@ -13,9 +13,9 @@ ms.author: jasonshotts
 
 Trades let you group [incident types](configure-incident-types.md) in your preferred way. Configure trades and trade coverages to simplify the creation of [work orders](create-work-order.md) and the services that are provided in a functional location or for a service account, or for accounts at locations. Using trades adds another layer of details to create reports and filter charts on reports.
 
-## Activate Trade for your org
+## Prerequisites
 
-An admin must [enable the capability in Field Service Settings](configure-default-settings.md#work-order--booking-settings) before creating trades and trade coverages.
+An administrator must enable [**Trades**](configure-default-settings.md#features-settings).
 
 ## Create trades
 
