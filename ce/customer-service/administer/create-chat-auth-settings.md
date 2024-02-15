@@ -1,7 +1,7 @@
 ---
-title: "Configure authentication settings | MicrosoftDocs"
-description: "Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service."
-ms.date: 04/05/2023
+title: Configure authentication settings
+description: Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service.
+ms.date: 02/16/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -27,7 +27,7 @@ The agent will get a notification in the **Conversation summary** section whethe
 - Make sure your organization has working knowledge of OAuth 2.0 and JSON Web Tokens (JWTs).
 - Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
-### Create an authentication setting record for chat
+## Create an authentication setting record for chat
 
 You can create a chat authentication setting record in the admin app.
 
@@ -64,10 +64,29 @@ You can create a chat authentication setting record in the admin app.
 
 3. Select **Save**.
 
+## Create an authentication setting record for chat using OAuth 2.0
+
+1. Perform the steps 1 through 3 in **Create an authentication setting record for chat**, and enter the following details on the **Add authentication setting** page:
+
+   - **Name**: A name for the authentication setting.
+   - **Channel Type**: **Live chat**.
+   - **Authentication Type**: OAuth 2.0 implicit flow 
+1. Select **Next** and on the **Details** page, enter the following information:
+   - **Token Custom Action**: The custom code reference to validate the tokens that are provided by your identity provider and return the user ID of the authenticated user.
+   - **Token URL**: The URL that'll be used to exchange your authorization code for the token passed to your custom action to acquire the user ID.
+   - **Redirect URL**: The redirect URL that's passed to the original authorization code request, which is a required parameter in calls to the token exchange endpoint. 
+   - **Client ID**: The ID of the client that's passed to the token exchange endpoint.
+   - **Client secret**: The secret that authenticates the client that's passed to the token exchange endpoint.
+   - **Scope**: The scopes for which the user is authorized by the token acquired in the flow.
+1. Save the changes.
+
+An illustration of the OAuth 2.0 setup is as follows.
+
+:::image type="content" source="../media/overview-of-oauth2.0.png" alt-text="A screenshot of the high-level overview of OAuth 2.0 setup.":::
+
 ### Add authentication to chat widget
 
-1. Open the chat widget to which you want to add authentication and do one of the following steps:
-   - In Customer Service admin center or Omnichannel admin center app, go to the **Behaviors** tab.
+1. In Customer Service admin center, edit the chat widget in the workstream settings and go to the **Behaviors** tab.
    
 2. In the **Authentication settings** box, browse and select the chat authentication record.
 
