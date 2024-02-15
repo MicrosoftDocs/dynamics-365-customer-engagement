@@ -67,39 +67,47 @@ The following table lists the regions in which Sales Premium features are availa
 
 | Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA | SAM | ZAF | UAE |
 |---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| Assistant | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Auto capture | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Conversation intelligence | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Notes analysis | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Premium forecasting | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes |
-| Predictive lead scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes|
-| Relationship analytics (Basic) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Relationship analytics (Enhanced) | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No |
-| Who knows whom (Basic) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Who knows whom (Enhanced) | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No |
+| [Assistant](assistant.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Auto capture](free-auto-capture.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Conversation intelligence](dynamics365-sales-insights-app.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Notes analysis](notes-analysis.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Premium forecasting](configure-premium-forecasting.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes |
+| [Predictive lead scoring](work-predictive-lead-scoring.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Predictive opportunity](work-predictive-opportunity-scoring.md) scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Sales accelerator](digital-selling-sales-accelerator.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes|
+| [Relationship analytics (Basic)](relationship-analytics-overview.md#basic-relationship-insights) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Relationship analytics (Enhanced)](relationship-analytics-overview.md#enhanced-relationship-insights)** | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Who knows whom (Basic)](who-knows-whom.md#basic-who-knows-whom-information) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Who knows whom (Enhanced)](who-knows-whom.md#enhanced-who-knows-whom-information) | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No |
 
+** To use Exchange data for relationship analytics (enhanced), your organization's Office 365 data location must be in one of the [supported locations](#in-which-regions-is-exchange-integration-available). 
 
 ### Which version of Exchange is supported for features in Sales Premium?
 
 The following table shows the version of Exchange that's supported for Sales Premium features.
 
-| Feature | Exchange Online | Exchange Server 2013 and above | Is Exchange required? |
+| Feature | Exchange Online | Exchange Server 2013 and above | Is Exchange data mandatory? |
 |---------|-----------------|--------------------------------|-----------------------|
-| Relationship analytics and health | Yes | No | No |
+| Relationship analytics (Basic) | Yes | No | No |
+| Relationship analytics (Enhanced) | Yes | No | No* |
+| Who knows whom (Basic)| Yes | No | No |
+| Who knows whom (Enhanced)| Yes | No | Yes |
 | Assistant | Yes | No | No |
 | Email engagement | Yes | Yes | Yes |
-| Who knows whom | Yes | No | Yes |
 
->[!NOTE]
->- The assistant and relationship analytics can work without Exchange. However, the information displayed in relationship analytics won't contain Exchange data and the assistant won't display cards that are based on Exchange data. 
->- For relationship analytics, support for Exchange Online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
->- For who knows whom, the organization's Office 365 data location must be in one of the following locations and not in your region specific data canter location:
->   - Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands).
->   - Global Geography 2 – Asia Pacific	(Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
->   - Global Geography 3 – Americas (Brazil, Chile, United States).<br>
-> To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
+** Though Exchange data isn't mandatory for relationship analytics (enhanced), it's recommended to enable Exchange integration to get more accurate and complete relationship information. For example, the response time KPI is generated from the data in Exchange only. If you don't enable Exchange integration, the response time KPI will be blank.
+
+### In which regions is Exchange integration available?
+
+Exchange integration is only available in specific regions. To use Exchange data for who knows whom and relationship analytics, your organization's Office 365 data location must be in one of the following locations and not in your region-specific data canter location:
+
+- Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands).
+- Global Geography 2 – Asia Pacific	(Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
+- Global Geography 3 – Americas (Brazil, Chile, United States).<br>
+
+If your organization's Office 365 data is in any other region, who knows whom won't be available. However, relationship analytics will be available with the data in Dynamics 365.
+
+To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
 ### What languages are supported?
 
@@ -431,13 +439,13 @@ The following administrators can opt out users at different levels:
 
 ## Conversation intelligence
 
-### Which Conversation intelligence features are available in Dynamics 365 Sales versus Microsoft Sales Copilot?  
+### Which Conversation intelligence features are available in Dynamics 365 Sales versus Microsoft Copilot for Sales?  
 
-|Feature  |Microsoft Sales Copilot  |Sales Enterprise / Sales Premium  |
+|Feature  |Microsoft Copilot for Sales  |Sales Enterprise / Sales Premium  |
 |---------|---------|---------|
 | **Call processing**   |    |    |
 |Conversation intelligence for phone calls from Teams (Inbound / Outbound)     |  No       | Yes, unlimited access to conversation intelligence  |
-|Conversation intelligence for Teams meetings     | Yes (unlimited)        |  Yes<sup>12</sup> <br><sup>1</sup> Using the Microsoft Sales Copilot app for Teams <br> <sup>2</sup> Unlimited Microsoft Sales Copilot hours included with Sales Premium / Sales Enterprise license        |
+|Conversation intelligence for Teams meetings     | Yes (unlimited)        |  Yes<sup>12</sup> <br><sup>1</sup> Using the Microsoft Copilot for Sales app for Teams <br> <sup>2</sup> Unlimited Microsoft Copilot for Sales hours included with Sales Premium / Sales Enterprise license        |
 | **During the call**   |    |
 |Real-time conversation intelligence     |    No       |    Yes     |
 |Conversation intelligence for seller-only recordings (When customer is not recorded)     |   No      |   Yes      |
@@ -449,8 +457,8 @@ The following administrators can opt out users at different levels:
 |Manager Coaching tools     |   No      |   Yes      |
 | **Admin configurations**   |    |
 |Storage of call recording and conversation intelligence insights    |   Teams storage only      |   Option of Microsoft provided storage, or your own Azure storage       |
-|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Microsoft Sales Copilot](/viva/sales/supported-languages)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faqs-sales-insights.md#what-languages-are-supported)       |
-|Supported languages for UI      |   User interface languages listed in this article: [Supported languages in Microsoft Sales Copilot](/viva/sales/supported-languages)|   All languages supported in Dynamics 365 Sales       |
+|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Microsoft Copilot for Sales](/viva/sales/supported-languages)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faqs-sales-insights.md#what-languages-are-supported)       |
+|Supported languages for UI      |   User interface languages listed in this article: [Supported languages in Microsoft Copilot for Sales](/viva/sales/supported-languages)|   All languages supported in Dynamics 365 Sales       |
 
 
 ### How long does it take for data updates to reflect in the app?
@@ -458,9 +466,9 @@ The following administrators can opt out users at different levels:
 Conversation intelligence data is refreshed periodically and could take up to 12 hours to appear in the app. We continue to make improvements to reduce the delay.
 
 
-### How many hours of conversation intelligence are available with Microsoft Sales Copilot?
+### How many hours of conversation intelligence are available with Microsoft Copilot for Sales?
 
-You get unlimited call recording and processing hours with Microsoft Sales Copilot. You must create the meeting in Outlook and turn on the **Teams meeting** toggle to get conversation intelligence through Microsoft Sales Copilot. For more information, see [Use Microsoft Sales Copilot in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea).  
+You get unlimited call recording and processing hours with Microsoft Copilot for Sales. You must create the meeting in Outlook and turn on the **Teams meeting** toggle to get conversation intelligence through Microsoft Copilot for Sales. For more information, see [Use Microsoft Copilot for Sales in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea).  
 
 ### Can sellers (or non-managers) use this app?
 
