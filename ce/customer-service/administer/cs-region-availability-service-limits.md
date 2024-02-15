@@ -1,7 +1,7 @@
 ---
-title: "Supported regions and languages, and service limits for analytics and insights | MicrosoftDocs"
-description: "Learn about region availability, languages supported, and service limits for analytics and insights."
-ms.date: 12/11/2023
+title: Supported regions and languages, and service limits for analytics and insights
+description: Learn about region availability, languages supported, and service limits for analytics and insights.
+ms.date: 02/12/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -38,11 +38,11 @@ The following table lists the region availability of analytics and insights.
 | Copilot&mdash;Ask a question<sup>**1**</sup> | Yes | Yes | Yes | Yes | Yes | Yes | No |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	No |
 | Copilot&mdash;Draft a chat response<sup>**1**</sup> |	Yes |	Yes |	No | No |	No | No |	No | No |	No |	Yes |	No | No |	No | No |	No |
 |Copilot&mdash;Draft emails<sup>**1**</sup> |	Yes |	Yes	| Yes |	Yes |	Yes |	Yes |	No |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	No |
-| Customer Service historical analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Customer Service historical analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | Case topic clustering | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Omnichannel historical analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Omnichannel historical analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | Conversation topic clustering | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Omnichannel historical analytics - Voice | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Omnichannel historical analytics - Voice | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | Sentiment analysis | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | AI suggestions for cases and knowledge articles | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |
 | Intelligent skill finder for unified routing | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
@@ -77,9 +77,9 @@ The following table lists the language availability of the other Customer Servic
 | ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |--------|
 | Copilot&mdash;Summarize cases<sup>**2**</sup>  | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
 |Copilot&mdash;Summarize conversations<sup>**2**</sup>  | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
-| Copilot&mdash;Ask a question | Yes | No | No | No | No | No  | No | No | No | No | No |
+| Copilot&mdash;Ask a question | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
 | Copilot&mdash;Draft a chat response | Yes | No | No | No | No | No | No | No | No | No | No |
-|Copilot&mdash;Draft emails | Yes | No | No | No | No | No | No | No | No | No | No  |
+|Copilot&mdash;Draft emails | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
 | Intelligent skill finder for unified routing | Yes | No | No | No | Yes | Yes | Yes | Yes | No | No | Yes |
 | Effort estimation model for routing | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
 | AI suggestions for cases and knowledge articles | Yes | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
@@ -117,7 +117,7 @@ For information on the service protection limits for AI suggestions, see [Enable
 
 ## Microsoft Power Platform capacity impact
 
-Enabling the insights feature affects Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage)
+If you enable the insights feature, it affects Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
 ### See also
 

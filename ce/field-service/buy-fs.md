@@ -1,7 +1,7 @@
 ---
 title: Buy a Dynamics 365 Field Service license
 description: Learn how to purchase licenses for Dynamics 365 Field Service.
-ms.date: 11/01/2023
+ms.date: 02/01/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -10,7 +10,8 @@ ms.custom: bap-template
 
 # Buy a Dynamics 365 Field Service license
 
-Purchase a Dynamics 365 Field Service subscription. To purchase licenses, you need a [Microsoft 365 administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration).
+Purchase a Dynamics 365 Field Service subscription. To purchase licenses, you need a [Microsoft 365 administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration). 
+For the list of geographical regions supported in Field Service, see [Datacenter regions](/power-platform/admin/new-datacenter-regions).
 
 Try out Dynamics 365 Field Service before purchasing a subscription with [a free 30-day trial](trial-signup.md). You don't have to have administrator privileges to sign up for the trial.
 
