@@ -30,7 +30,7 @@ As an administrator, you can create multiple application tab templates.
 
 ## Create or manage application tab templates
 
-To create or manage an application tab template, go to the app profile manager. For more information, see [Create application tab templates](../../../customer-service/administer/application-tab-templates.md#create-application-tab-templates) in the app profile manager documentation.
+To create or manage an application tab template, go to the app profile manager. For more information, see [Create application tab templates](../../../customer-service/administer/application-tab-templates.md#create-application-tab-templates).
 
 ## See also
 
