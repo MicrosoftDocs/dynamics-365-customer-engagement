@@ -58,7 +58,7 @@ Before you begin, you must complete the following prerequisites:
       Permissions within Power BI can be granted to groups only and not individual service principals, and therefore a group needs to be created.
 
   > [!NOTE]
-  > Information the user should notice even if skimmingIn organizations where Dynamics 365 Analytics service account might not be available, you need to use the Dynamics Common Customer Attributes (CCA) Data Analytics service account.
+  > In organizations where Dynamics 365 Analytics service account might not be available, you need to use the Dynamics Common Customer Attributes (CCA) Data Analytics service account.
 
 - Enable Power BI service features from the Power BI admin portal. The Power BI administrator must enable the following, either for the entire organization or for the security group created earlier:
 
