@@ -19,7 +19,7 @@ As an admin, set up Microsoft Copilot for Field Service work orders for your use
 
 ## Obtain licenses and set up the plugin
 
-1. Log into the [Microsoft 365 admin center](https://admin.microsoft.com/).
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
 1. Obtain the appropriate number of [Microsoft 365 Copilot licenses](/microsoft-365-copilot/microsoft-365-copilot-setup#manage-licenses-for-copilot).
 
@@ -35,13 +35,15 @@ As an admin, set up Microsoft Copilot for Field Service work orders for your use
 
 Once the support ticket is complete, perform the following steps.
 
-1. Log into [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) and select **Plugins (preview)**.
+1. Sign in to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/).
+
+1. Make sure you have the Field Service environment selected and then select **Plugins (preview)**.
 
 1. Verify the Dynamics 365 Field Service plugin is listed.
 
    :::image type="content" source="media/fsp-copilot-studios-plugins.png" alt-text="Copilot Studio with Plugins (preview) and Dynamics 365 Field Service highlighted.":::
 
-1. Log into the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Settings** > **Integrated apps**.
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Settings** > **Integrated apps**.
 
    :::image type="content" source="media/fsp-d365-copilot-app.png" alt-text="Microsoft 365 admin center showing the Dynamics 365 Copilot app.":::
 
