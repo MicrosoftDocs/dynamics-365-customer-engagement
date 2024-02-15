@@ -16,6 +16,6 @@
     <string name="privacy_statement">Privacy Statement</string>
     <string name="no_thanks">No thanks</string>
     <string name="update_settings">Update settings</string>
-    <string name="activity_tracking_title"></string>
-    <string name="activity_tracking_message"></string>    
+    <string name="physical_activity_title"></string>
+    <string name="physical_activity_message"></string>    
 </resources>
