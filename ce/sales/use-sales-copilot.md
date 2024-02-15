@@ -43,7 +43,7 @@ Open the Copilot side pane when you want to get quick insights about a record or
 
 1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app. You can open the **Copilot** side pane from any page in your app except for the **Copilot** page.
 
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot).
+1. Select a prompt from the suggestion list or select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot).
 
 ### Open Copilot in an immersive, full-screen view (preview)
 
@@ -51,17 +51,19 @@ Open the Copilot side pane when you want to get quick insights about a record or
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-Open the Copilot page in a full-screen view when you want more space and focus to chat with Copilot and ask questions.
+Open the Copilot page in a full-screen view when you want more space and focus to chat with Copilot and ask questions. 
 
 1. Select **Copilot** in your sitemap.
 
+   If it isn't there, ask your admin to [turn on Copilot preview features](copilot-preview-features.md#enable-all-preview-features-for-copilot). If you're using a custom app, ask your admin to [add the Copilot page to your app's sitemap](enable-setup-copilot.md#add-the-copilot-page-to-custom-apps-preview).
+
+2. Select a prompt from the suggestion list or select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot). 
+
     :::image type="content" source="media/copilot-immersive.svg" alt-text="Screenshot of the Copilot page showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
 
-    If it isn't there, ask your admin to [turn on Copilot preview features](copilot-preview-features.md#enable-all-preview-features-for-copilot). If you're using a custom app, ask your admin to [add the Copilot page to your app's sitemap](enable-setup-copilot.md#add-the-copilot-page-to-custom-apps-preview).
+    The following screenshot is an example of how the Copilot immersive view displays the opportunity pipeline of a seller:
 
-2. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot). The following screenshot is an example of the Copilot page showing the opportunity pipeline of a seller: 
-
-    :::image type="content" source="media\copilot-immersive-pipeline-view.png" alt-text="Screenshot of the Copilot page showing the pipeline.":::
+    :::image type="content" source="media\copilot-immersive-pipeline-view.svg" alt-text="Screenshot of the Copilot page showing the pipeline.":::
 
 As you can see, the immersive experience provides more space to view the pipeline without any distractions and without you having to navigate to another page.
 
