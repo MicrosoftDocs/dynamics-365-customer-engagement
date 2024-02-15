@@ -15,6 +15,10 @@ ms.custom:
   - ai-gen-title
 ---
 
+<!-- check the wording in line 119. Something is missing - maybe "select" instead of "on"? -->
+
+
+
 # Manage solutions with SLAs
 
 After you create solutions, you can add SLAs and import, export, or upgrade a solution to suit your organizational requirements.
@@ -30,7 +34,7 @@ This section provides steps on how to create, export, import, and upgrade a solu
 ### Create
 
 1. Go to your Dynamics 365 organization.
-1. Go to **Advanced Settings** > **Settings** > **Customization** > **Solutions** .
+1. Go to **Advanced Settings** > **Settings** > **Customization** > **Solutions**.
 1. Select **New**. This takes you to the Power Apps portal.
 1. In the **General** tab, fill the required mandatory fields.
     - **Display Name**: The name shown in the list of solutions. You can change this later.
@@ -50,6 +54,7 @@ After you publish the customizations that you made while [creating the solution]
 
 1. On the **Export System Settings (Advanced)** dialog, select the required features to add, and then select **Next**.
 1. On the **Package Type**, select the **Unmanaged** package type, and then select **Export**.
+
 The **Exported Solution** zip file is downloaded.
 
 ### Import
@@ -66,7 +71,7 @@ Proceed with the upgrade as necessary.
 
 ### Upgrade
 
-You can add more components to the pre-installed base solution in the target org and upgrade it.
+You can add more components to the preinstalled base solution in the target org and upgrade it.
 - The package type must be Unmanaged for an upgrade. 
 - You need to add another SLA record to the base solution in the source org and then export and upgrade the solution in the target org.
 
@@ -75,6 +80,7 @@ You can add more components to the pre-installed base solution in the target org
 3. On the **Clone To Solution** dialog, add the version number.
 4. Save and [export](#export) the higher version of the base solution.
 5. Select **Import**, and then select **Publish All Customizations**.
+
 The base solution from the target org version increases, and new components and SLA records are added to the target org.
 
 ## Manage solutions with SLAs in Power Apps
@@ -114,7 +120,7 @@ This section provides steps on how to create, export, import, and upgrade a solu
 
 After the import is complete, refresh the organization to view the imported solution in the list.
 
-#### Upgrade
+### Upgrade
 
 1. Go to the source organization in Power Apps and add one more SLA record to the solution zip, and then export it.
 1. Open the solution, go to **Add existing** > **Rules** > **SLA**, select the SLA record, and then select **Add**.
@@ -125,6 +131,7 @@ After the import is complete, refresh the organization to view the imported solu
 1. Select **Export**, and then download the latest version of the solution zip.
 1. Go to the target organization, and then select **Import solution**.
 1. Select the latest version of the solution zip, and then select **Import**.
+
 After the import completes, a confirmation message is displayed.
 
 > [!NOTE]
