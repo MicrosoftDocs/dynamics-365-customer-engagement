@@ -32,7 +32,7 @@ Ensure that the Copilot feature is enabled for your Dynamics 365 Sales organizat
 ## View the Copilot email composer
 
 Copilot is available for lead and opportunity records with the Dynamics 365 email experience.  
-Sign in to your sales app and the Copilot (:::image type="content" source="media/copilot-icon.png" alt-text="Image of the copilot icon.":::) icon appears on the upper-right corner of the page. The email composer is inactive until you open the email.  
+Sign in to your sales app and the Copilot (:::image type="content" source="media/copilot-icon.svg" alt-text="Image of the copilot icon.":::) icon appears on the upper-right corner of the page. The email composer is inactive until you open the email.  
 Open an email from a record using the Up next widget, Timeline, or quick create email activity. The Copilot email composer becomes active.  
 
 When opening an email from Timeline or quick create email activity, ensure that the **Regarding** field contains a lead or an opportunity.  

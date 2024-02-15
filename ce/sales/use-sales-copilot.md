@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in Dynamics 365 apps
 description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, and enrich your leads with data from different sources.
-ms.date: 12/18/2023
+ms.date: 02/15/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -41,7 +41,7 @@ You can open Copilot in a [side pane](#open-copilot-in-a-side-pane)&mdash;side-b
 
 Open the Copilot side pane when you want to get quick insights about a record or ask Copilot to summarize other records, display recent changes, and prepare for meetings without leaving the current page.
 
-1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) on the right side of your app. You can open the **Copilot** side pane from any page in your app except the **Copilot** page.
+1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app. You can open the **Copilot** side pane from any page in your app except for the **Copilot** page.
 
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot).
 
@@ -55,12 +55,15 @@ Open the Copilot page in a full-screen view when you want more space and focus t
 
 1. Select **Copilot** in your sitemap.
 
-    :::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Copilot page showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
+    :::image type="content" source="media/copilot-immersive.svg" alt-text="Screenshot of the Copilot page showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
 
     If it isn't there, ask your admin to [turn on Copilot preview features](copilot-preview-features.md#enable-all-preview-features-for-copilot). If you're using a custom app, ask your admin to [add the Copilot page to your app's sitemap](enable-setup-copilot.md#add-the-copilot-page-to-custom-apps-preview).
 
-2. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot).
+2. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot). The following screenshot is an example of the Copilot page showing the opportunity pipeline of a seller: 
 
+    :::image type="content" source="media\copilot-immersive-pipeline-view.png" alt-text="Screenshot of the Copilot page showing the pipeline.":::
+
+As you can see, the immersive experience provides more space to view the pipeline without any distractions and without you having to navigate to another page.
 
 ## Chat with Copilot
 
