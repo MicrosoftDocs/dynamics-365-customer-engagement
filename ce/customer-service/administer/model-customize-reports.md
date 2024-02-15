@@ -150,13 +150,11 @@ The dropdown list is populated with the reports in the workspace configured on S
 
 The customized reports site map in the Customer service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real time admin pages. For both historical and real time, you can modify or delete reports added from the respective historical and real-time data model customization pages only.
 
-> [!NOTE]
-> Supervisor actions like assign, transfer, monitor, and force close aren't available for model customized reports.
+Supervisor actions like assign, transfer, monitor, and force close aren't available for model customized reports.
 
 ## Enable automatic page refresh for reports
 
-> [!NOTE]
-> Automatic page refresh is available only for real-time reports.
+Automatic page refresh is available only for real-time reports.
 
 You can enable automatic page refresh for your reports at fixed intervals so that you always see the latest data. For more information, see [Authoring reports with automatic page refresh in Power BI Desktop](/power-bi/create-reports/desktop-automatic-page-refresh#authoring-reports-with-automatic-page-refresh-in-power-bi-desktop).
 
