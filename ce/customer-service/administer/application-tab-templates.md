@@ -121,7 +121,7 @@ If the validateRecord parameter isn't present, create the parameter as follows:
 
 1. In the **Application Tab Template** form, select **New Template Parameter** and enter the following values:
    - **Name**: validateRecord
-   - **Unique Name**: **new_tabtemplateparam_validateRecord**
+   - **Unique Name**: new_tabtemplateparam_validateRecord
    - **Value**: True
 3.	Save and close.
 
