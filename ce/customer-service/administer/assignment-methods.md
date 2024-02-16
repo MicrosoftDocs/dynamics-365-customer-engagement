@@ -35,6 +35,11 @@ For digital messaging and voice, the default block size is 100 work items of top
 
 For records channel, each assignment cycle prioritizes up to 20,000 work items and processes them in a block size of 500.
 
+For the records channel,
+- The number of work items prioritized per queue are 10,000 
+- The number of work items processed for assignment are 2,000 by default
+- The block size per trigger is 500 by default
+
 > [!NOTE]
 > Cross-queue prioritization isn't available in unified routing.
 
