@@ -1,10 +1,12 @@
 ---
-title: "Manage text message conversations"
-description: "Manage customer conversations through incoming and outgoing text messages for your sales outreach."
+title: Manage text message conversations
+description: Manage customer conversations through incoming and outgoing text messages for your sales outreach.
 ms.date: 05/12/2023
-ms.topic: conceptual
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
+ms.owner: shujoshi
+ms.custom: bap-template
 ---
 
 # Manage text message conversations
