@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 01/19/2024
+ms.date: 02/16/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
