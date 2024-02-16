@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 01/19/2024
+ms.date: 02/16/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -68,6 +68,9 @@ Focused view is categorized into the following sections.
 You can customize the work list card to display the information that you want to see. When sales accelerator is enabled, the customizations you make here are also reflected in the sales accelerator work list items. More information: [Customize the appearance of work items in sales accelerator](customize-work-list-card.md)
 
 The customization that you make to the work list card is specific to the entity type. For example, if you customize the work list card for the Lead entity, the customization is applied only to the Lead entity. The customization isn't applied to the Account, Contact, Opportunity, or other entities. These customizations also affect the sales accelerator workspace view. 
+
+> [!NOTE]
+> To customize the work list card as a seller, you must have read permissions to the **msdyn_workqueueusersetting** entity. Contact your administrator to provide the required permissions.
 
 1. In the focused view page, on the work list pane, select **More options** and then select **Settings**.  
 
