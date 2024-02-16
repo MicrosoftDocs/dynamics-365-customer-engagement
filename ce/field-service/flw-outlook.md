@@ -71,7 +71,7 @@ Open an email or view it in the Reading Pane, and then select the Field Service 
 
 ## Create a work order with Copilot
 
-Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you don't see the Copilot icon, your admin might have disabled this feature.
+Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you don't see the Copilot icon, your admin might have [disabled the Copilot setting](configure-default-settings.md#features-settings).
 
 1. While you're viewing an email, [open the Field Service add-in](#open-the-field-service-add-in). If the email was previously used to create a work order using Copilot, a message displays with a link to the work order.
 

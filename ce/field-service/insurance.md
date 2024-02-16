@@ -1,7 +1,7 @@
 ---
 title: Create insurance policies
 description: Create an insurance in Field Service to protect from financial loss.
-ms.date: 11/07/2023
+ms.date: 02/09/2024
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -14,13 +14,9 @@ An insurance policy protects from financial loss in exchange for a fee. An insur
 
 In Dynamics 365 Field Service, insurance is an entity that relates to accounts and defines the policy holder, insurance carrier, policy number, and the start/end date of the insurance contract.
 
-## Enable insurances
+## Prerequisites
 
-Before users can work with insurance, a Field Service administrator has to enable the feature after [updating to the early access release](/dynamics365/get-started/release-schedule).
-
-1. In Field Service, change to the **Settings** area.
-1. Under **General**, select **Field Service Settings**.
-1. On the **Features** tab, set **Insurances** to **On**.
+An administrator must enable [**Insurance policies**](configure-default-settings.md#features-settings).
 
 ## Create an insurance
 
