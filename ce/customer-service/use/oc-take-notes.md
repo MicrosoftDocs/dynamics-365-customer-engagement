@@ -20,7 +20,7 @@ The communication panel allows you to capture information specific to the conver
 
 For an unauthenticated conversation request, you can capture notes only when you link the contact to the conversation. If the contact record isn't available in the system or not identified, you can't take notes unless you link to a conversation.
 
-When you select the notes option from the communication panel, the application launches the notes panel next to the communication panel. You can capture the points and select **Add note**. If no case is linked to the conversation, the note is linked to the customer account or contact. If a case is linked to the conversation, the note is linked to the case and is shown on the case timeline.
+When you select the notes option from the communication panel, the application launches the notes panel next to the communication panel. You can capture the points and select **Add note**. If a case is linked to the conversation, the note is linked to the case and is shown on the case timeline. If no case is linked to the conversation, the note is linked to the customer account or contact.
 
 :::image type="content" source="../media/oceh-cc-notes.png" alt-text="Screenshot of the Notes panel for agents to take the discussion points when they interact with customers.":::
 
