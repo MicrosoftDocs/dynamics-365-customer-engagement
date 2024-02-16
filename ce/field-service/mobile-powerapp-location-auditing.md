@@ -32,10 +32,6 @@ For a guided walkthrough, check out the following video.
 
 First, we need to make sure location tracking is enabled in Field Service. These settings allow a technician's location data to be sent to Dynamics 365 Field Service, which surfaces a technician’s location on the schedule board. The technician’s location data is stored in the geolocation tracking entity.
 
-> [!Note]
-> As of the 2021 wave 2 October Field Service update, location tracking is enabled by default for all new Field Service environments.
-
-
 In Field Service, go to **Geolocation Settings**.
 
 1. Set **Enable Location Tracking**  to *Yes*.
@@ -61,28 +57,28 @@ After enabling location tracking on the scheduler's side, make sure it's enabled
 
 On a mobile device, sign into the Dynamics 365 Field Service mobile app. When prompted, allow the Field Service app to access your location while using the app. You may need to launch and sign into the app again to be prompted for location. Ensure Location is toggled to *Yes* in the mobile app settings.
 
+The app requests several permissions which are needed to update the location consistently. Revoking the listed permissions can lead to poor performance or outdated location information.
+
 ## [iOS](#tab/iOS)
 
-In order for location tracking to work properly, please make sure you allow "Precise Location" and you set the location tracking to "Always Allow" in the device settings.
+To have location tracking work properly, allow the app to use **Precise Location** and set the location tracking to **Always allow** in the device settings.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated device showing Field Service mobile app, with the "Allow Field Service to use your location" prompt.](./media/mobile-2020-location-auditing-enable.png)
 
 ## [Android](#tab/Android)
 
-In order for location tracking to work properly, you need to correctly complete all the following steps when prompted. Depending on your Android OS version, some steps might not appear or might look slightly different.
+To have location tracking work properly, complete all the following steps when prompted. Depending on your Android OS version, some steps might not appear or look slightly different.
 
-|   |   |
+|Configuration step   | Screenshots  |
 |---|---|
-| Configure **Location Tracking**  |  ![Configure location tracking](./media/mobile-android-location-permission-prompt.png)  |
-| Select **Precise Location** and then **Allow all the time**   |  ![Set precise location](./media/mobile-android-location-permission-precise.png) |
-| Set Battery Optimization to **Not optimized** <br/> this is needed to allow for background tracking  | ![Configure battery optimization](./media/mobile-android-location-permission-batteryoptimization.png)  |
-| Allow setting **alarms and reminders** <br/> this is needed to only track location during your work hours  | ![Configure alarms and reminders](./media/mobile-android-location-permission-alarmsreminders.png)  |
-| Allow access to your **Physical activity** <br/> this is needed to optimize tracking during movement  | ![Configure physical activity](./media/mobile-android-location-permission-physicalactivity.png)  |
+| 1. In the Field Service app, select **Start location tracking**  |  :::image type="content" source="media/mobile-android-location-permission-prompt.png" alt-text="Dialog asking to update location settings.":::  |
+| 2. Select **Precise Location** and then **Allow all the time** to ensure the app uses the accurate location.    |  :::image type="content" source="media/mobile-android-location-permission-precise.png" alt-text="Dialog asking for location permissions."::: |
+| 3. Set **Battery optimization** to **Don't optimize** to allow the Field Service app to update your location consistently.  | :::image type="content" source="media/mobile-android-location-permission-batteryoptimization.png" alt-text="Dialog asking for battery optimization settings.":::  |
+| 4. Allow the Field Service app to set **Alarms and reminders**. The app uses this permission to ensure it only tracks your location during work hours.  | :::image type="content" source="media/mobile-android-location-permission-alarmsreminders.png" alt-text="Dialog asking for permissions to alarms and reminders.":::|
+| 5. Allow access to your **Physical activity** information. This settings helps optimize battery life by reducing the number of location updates sent if you're not moving.| :::image type="content" source="media//mobile-android-location-permission-physicalactivity.png" alt-text="Dialog asking for permissions to physical activity.":::  |
 
 ---
-
-
 
 ## Step 3. Verify location tracking
 
