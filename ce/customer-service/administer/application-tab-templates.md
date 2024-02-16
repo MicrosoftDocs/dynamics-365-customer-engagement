@@ -117,6 +117,15 @@ The following parameters are available for the entity record page type when an e
 > If the system doesn't match the entityId value to an existing record in Dataverse, then the form opens in create mode to create a record.
 > If you want the system to load the form only when the record exists in Dataverse, then set the validateRecord parameter to true.
 
+If the validateRecord parameter isn't present, create the parameter as follows:
+
+1. In the **Application Tab Template** form, select **New Template Parameter** and enter the following values:
+   - **Name**: validateRecord
+   - **Unique Name**: **new_tabtemplateparam_validateRecord**
+   - **Value**: True
+3.	Save and close.
+
+
 The following parameters are available for the entity record page type when an entity form is opened to create a record.
 
 |Parameter | Description | Required | Supported values |  Example |
@@ -143,7 +152,7 @@ This page type is used to display third-party websites as an application. You ca
 | `url` | The website URL to be displayed in the app tab <br> | Yes | String <br> | `https://www.bing.com/search?q=`  |
 | `data` | Additional data parameter to be parsed with the `url` parameter <br>  | No | String <br><br> Slugs <br><br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
->[!Note]
+>[!NOTE]
 > When an agent switches from the third-party website type of tab template to another tab, and then switches back to the third-party website tab template, the page is refreshed to the initial state. For more information, see the "Third-party application tab refreshes when focus is changed" section in the [Known issues document](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
 #### How parsing works
