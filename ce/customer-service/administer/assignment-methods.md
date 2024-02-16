@@ -33,8 +33,6 @@ When eligible agents aren't found for the work items, the assignment cycle keeps
 
 For digital messaging and voice, the default block size is 100 work items of top priority.
 
-For records channel, each assignment cycle prioritizes up to 20,000 work items and processes them in a block size of 500.
-
 For the records channel,
 - The number of work items prioritized per queue are 10,000 
 - The number of work items processed for assignment are 2,000 by default
