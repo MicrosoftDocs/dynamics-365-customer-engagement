@@ -28,7 +28,6 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:**  4.0.113.34
 
-
 ## 3.12.126.1 - 2024 Wave 1 Early Access
 
 **Resource Scheduling Controls:** 1.2.65.240241
