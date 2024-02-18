@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release scheudle and version history for Dynamics 365 Field Service.
-ms.date: 01/18/2024
+ms.date: 02/18/2024
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
@@ -34,10 +34,9 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.108.10
 (Includes Universal Resource Scheduling version [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334) and Resource Scheduling controls version 1.2.62.240451).
 
-Fixed several get started page carousal issues:
-- Carousal buttons now show in high contrast mode.
-- Carousal buttons lose focus while in side panels.
-- Carousal cars height no longer change when panning.
+Fixed several issues on thte Get Started page:
+- Buttons in cards now show in high contrast mode and lose focus while in side panes.
+- Card height no longer changes when panning.
 
 ## 8.8.111.14 (2024 wave 1 early access)
 (Includes Universal Resource Scheduling version [3.12.126.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121261---2024-wave-1-early-access-release) and Resource Scheduling controls version 1.2.65.240241).
