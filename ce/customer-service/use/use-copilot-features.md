@@ -131,17 +131,11 @@ Once you set a filter, the following actions are applicable:
 - A message indicating the filters are applied when Copilot generates new responses appears on the Copilot pane. This message also appears whenever you modify the filter configuration.
 - A visual indicator with the number of filter options selected is displayed next to **Filters**.
 - The filters set apply to the following Copilot features: ask a question, draft a chat, and email.
-- The filter is saved. You don't have to set the filter each time you log in.
+- The filter is saved. You don't have to set the filter each time you log in. 
 
-## Understand Copilot language support
-
-Copilot detects your UI language and generates responses from cases and conversations in that language. For example, if a case has notes in Spanish, and your UI language is set to Spanish, Copilot generates responses in Spanish. When the input contains mixed languages, Copilot generates responses based on the language  that is set for your UI. For example, if a case has a description in French, the email thread is in Spanish, and the UI language is set to Spanish, Copilot's response will be in Spanish. For Copilot to generate responses from knowledge articles, the knowledge article must be tagged with the same language as the UI language.
-
-> [!NOTE]
-> Copilot tries to generate responses in your preferred UI language even if that isn't an officially supported language.
- 
 ### See also
 
+[Understand Copilot language support](copilot-language-support.md)
 [Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  
 [Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
 [FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md) 
