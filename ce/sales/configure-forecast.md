@@ -1,6 +1,6 @@
 ---
 title: Configure forecasts in your organization
-description: Learn how to configure forecasts based on revenue or quantity to predict how much revenue your sales team generates in a given time frame.
+description: Learn how to configure forecasts based on revenue or quantity to predict how much revenue your sales team will generate in a given time frame.
 ms.date: 12/23/2022
 ms.topic: article
 author: lavanyakr01
@@ -16,7 +16,7 @@ searchScope:
 
 # Configure forecasts in your organization
 
-A forecast helps your organization predict how much revenue your sales team generates in a given time frame. When done correctly, forecasting can play a significant role in your company's success.  
+A forecast helps your organization predict how much revenue your sales team will generate in a given time frame. When done correctly, forecasting can play a significant role in your company's success.  
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
@@ -65,7 +65,7 @@ A ready-to-publish sample forecast configuration is available for you. Use the s
 
 1. Go to **App Settings** > **Performance management** > **Forecast configuration**.
 
-    You can directly activate the forecast if you'd like to use the default settings. After the status turns **Active**, you can [view the forecast](view-forecasts.md).
+    You can directly activate the sample forecast configuration if you'd like to use the default settings. After the status turns **Active**, you can [view the forecast](view-forecasts.md).
 
     :::image type="content" source="media/activate-sample-forecast.png" alt-text="Screenshot of the three-dot menu for activating the sample forecast.":::
 
