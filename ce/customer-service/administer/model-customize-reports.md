@@ -1,7 +1,7 @@
 ---
 title: Model customization of historical and real-time analytics reports in Customer Service | MicrosoftDocs
 description: Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI.
-ms.date: 02/15/2024
+ms.date: 02/19/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -110,17 +110,13 @@ You must be a **Workspace Administrator** on both managed and customer workspace
 
 Report authors connect to the specified data model to build custom reports. When you select the **Power BI Data model** link, the managed workspace opens up and the details of the data model are displayed. Use the **Share** dialog to provide access to users by entering their email address. For more information, see [Share access to a dataset](/power-bi/connect-data/service-datasets-share).
 
-You need to:
-
-- Provide report authors and viewers with **Allow recipients to build content with the data associated with this dataset** access.
-
-- For report viewers like supervisors, you might choose to share the dataset without providing any extra permissions.
+You need to provide report authors and viewers with **Allow recipients to build content with the data associated with this dataset** access.
 
 ### Grant permissions to the customized Power BI report (optional)
 
 When you select the **Customized Power BI Report** link, the Power BI workspace where the sample reports are provided appears in a lineage view. These reports are the copy of your out-of-the-box reports and can be edited and modified. You must provide access to the workspace only if your organization plans on using these copies to develop reports.
 
-From the lineage view, select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this workspace. For more information on data permissions, see [Manage dataset access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions). You must provide these permissions only if you plan to use these reports.  
+From the lineage view, select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this Power BI workspace. However, you must provide the **Member** access to view the embedded report in Dynamics.For more information on data permissions, see [Manage dataset access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions). You must provide these permissions only if you plan to use these reports.  
 
 ## Step 4: Embed customized reports back to Dynamics 365
 
