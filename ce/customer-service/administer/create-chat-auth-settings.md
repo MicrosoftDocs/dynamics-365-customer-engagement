@@ -1,7 +1,7 @@
 ---
 title: Configure authentication settings
 description: Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service.
-ms.date: 02/16/2024
+ms.date: 02/19/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -79,10 +79,6 @@ You can create a chat authentication setting record in the admin app.
    - **Client secret**: The secret that authenticates the client that's passed to the token exchange endpoint.
    - **Scope**: The scopes for which the user is authorized by the token acquired in the flow.
 1. Save the changes.
-
-An illustration of the OAuth 2.0 setup is as follows.
-
-:::image type="content" source="../media/overview-of-oauth2.0.png" alt-text="A screenshot of the high-level overview of OAuth 2.0 setup.":::
 
 ### Add authentication to chat widget
 
