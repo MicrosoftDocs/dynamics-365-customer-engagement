@@ -1,13 +1,15 @@
 ---
 title: View a forecast 
 description: See a forecast in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target.
-ms.date: 02/14/2024
+ms.date: 02/19/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.custom: 
   - dyn365-sales
   - bap-template
+content_well_notification:
+-	AI-contribution
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastinstance
@@ -80,9 +82,14 @@ The following columns are displayed by default in an org chart forecast.
 
 ## Out-of-the-box forecast
 
-You can take advantage of forecasts even if your administrator hasn't configured one. The out-of-the-box forecast is based on the org chart template and is available to all users. This forecast is based on the sales team hierarchy as defined by the **Manager** field on the **User** record. To learn more, see [Forecasts and sales hierarchy](#forecasts-and-sales-hierarchy).
+You can take advantage of forecasts even if your administrator hasn't configured one. 
 
-To view the out-of-the-box forecast, go to **Performance** > **Forecasts**. The forecast is available for the current month.
+- The out-of-the-box forecast is based on the org chart template and is available to all users. 
+
+- The forecast is based on the sales team hierarchy as defined by the **Manager** field on the **User** record. This means that the forecast reflects the structure of the sales team, providing insights that align with the organization's structure.  
+- The out-of-the-box forecast uses opportunity as the rollup entity and is available only for the current month.
+
+To view the out-of-the-box forecast, go to **Performance** > **Forecasts**. The forecast is available for the current month. The forecast is named after the current month and fiscal year, for example, **My FY2024 February forecast**.
 
 > [!NOTE]
 > The out-of-the-box forecast is only a starting point. We recommend that you work with your administrator to configure a forecast that's tailored to your organization's needs. To learn more, see [Configure a forecast](configure-forecast.md).

@@ -1,10 +1,12 @@
 ---
 title: Configure forecasts in your organization
 description: Configure forecasts based on revenue or quantity to predict how much revenue your sales team will generate in a given time frame.
-ms.date: 12/23/2022
+ms.date: 02/19/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+content_well_notification:
+-	AI-contribution
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastconfiguration
@@ -41,7 +43,7 @@ Using forecasts:
 
 ## Configure forecasting
 
-You can configure forecasts that are based on revenue or quantity. You define the type of forecast, the hierarchy, access permissions, and the details you want to see in the forecast grid. After a forecast is activated, your sales team can view the revenue, or quantity, and pipeline projections. Until you activate a forecast, your sales team can view an [out-of-the-box forecast](view-forecasts.md#out-of-the-box-forecast).
+You can configure forecasts that are based on revenue or quantity. You define the type of forecast, the hierarchy, access permissions, and the details you want to see in the forecast grid. After a forecast is activated, your sales team can view the revenue, or quantity, and pipeline projections. Until you activate a forecast, your sales team can view an [out-of-the-box forecast](view-forecasts.md#out-of-the-box-forecast) for the current month. The out-of-the-box forecast isn't available in the forecast configuration page and neither can it be deleted nor deactivated.
 
 1. Sign in to the **Sales Hub** app.
 1. In the site map, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.
