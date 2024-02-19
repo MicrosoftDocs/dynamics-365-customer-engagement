@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 01/30/2024
+ms.date: 02/19/2024
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
 ---
@@ -37,7 +37,7 @@ You have the System Administrator role.
 
 ## Region availability and data movement
 
-The option to enable Copilot AI features is available by default to customers with environments that have United States, Australia, and United Kingdom as their geography for data processing and storage. For all other regions, [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center app before you can opt in to use Copilot.
+The option to enable Copilot AI features is available by default to customers with environments that have United States, Australia, India, and United Kingdom as their geography for data processing and storage. For all other regions, [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center app before you can opt in to use Copilot.
 
   :::image type="content" source="../media/ppac-enable-gen-ai.png" alt-text="Screenshot of the power platform admin center generative ai features.":::
 
@@ -64,6 +64,10 @@ In Customer Service admin center, the [**Copilot help pane**](copilot-enable-hel
 - A link to review the terms and conditions. You can select **Opt in** to continue with the setup.  
 
   :::image type="content" source="../media/copilot-enable-opt-in-mini.png" alt-text="Screenshot of the Copilot Help Pane page." lightbox="../media/copilot-enable-opt-in.png":::
+
+## Opt out from using Copilot
+
+In Customer Service admin center, you can opt out from using the Copilot features from the [**Copilot help pane**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) page. When you opt out, the application erases the training data. If you want to use the features again, you must consent to the terms of use and opt in.
 
 ## Make Copilot available to agents
 
@@ -100,12 +104,20 @@ Out of the box, users with the Customer Service Representative role only can use
 
 - prvCreatemsdyn_copilotinteraction 
 - prvAppendmsdyn_copilotinteraction 
-- prvCreatemsdyn_copilotinteractiondata  
+- prvCreatemsdyn_copilotinteractiondata 
+- prvReadmsdyn_copilotinteraction
+- prvReadmsdyn_copilotinteractiondata
+- prvWritemsdyn_copilotinteractiondata
+- prvAppendTomsdyn_copilotinteractiondata
+- prvCreatemsdyn_copilotinteractiondata
 - prvReadmsdyn_copilotagentpreference
 - prvCreatemsdyn_copilotagentpreference
 - prvWritemsdyn_copilotagentpreference
 - prvReadmsdyn_appcopilotconfiguration
-- prvReadmsdyn_agentcopilotsetting 
+- prvReadmsdyn_agentcopilotsetting
+- prvReadmsdyn_aiconfiguration
+- prvReadmsdyn_aimodel
+- prvReadmsdyn_aitemplate
 - prvReadmsdyn_copilotsummarizationsetting 
 - prvReadmsdyn_conversationinsight
 - prvWritemsdyn_copilottranscriptdata 
@@ -115,7 +127,9 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvWritemsdyn_copilottranscriptdata 
 - prvAppendmsdyn_copilottranscriptdata
 - prvIntelligenceUsage
-
+- prvReadOrganizationSetting
+- prvReadmsdyn_panetabconfiguration 
+- prvReadmsdyn_paneconfiguration 
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
