@@ -46,7 +46,7 @@ Focused view is categorized into the following sections.
 
 1. **Switch view and command bar**: 
    - **Switching a View**: This action allows you to change from the focused view to the list view. To do this, select the **Read Only Grid** option. The **Read Only Grid** option is only available if you have one control for the entity. If you have multiple controls, the **Show As** option is displayed instead. Select **Show As** and then choose an option to change to the required view.  
-   If you have opted in for early access updates, the **Save as** option is displayed as first option on the command bar.  
+   If you have opted in for early access updates, the **Show As** option is displayed as first option on the command bar.  
    - **Command bar**: This feature contains actions that help you perform bulk actions on multiple records. To use it, select **More options**. You can then choose the records that you want to work with and perform the required actions.
 
 1. **Work list actions**:
