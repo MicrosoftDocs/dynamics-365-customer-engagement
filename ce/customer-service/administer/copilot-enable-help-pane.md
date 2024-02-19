@@ -26,7 +26,7 @@ The Copilot help pane allows agents to use Copilot features such as respond to q
    - The state is set to Published
 
 > [!NOTE]
-> Copilot uses only the content attribute in knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
+> Copilot uses the content attribute only in knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
 
 - If you aren't in the North America region and you want to use the web search powered by Bing feature, you must enable data movement across regions and Bing search in Power Platform admin center. See [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot).
 

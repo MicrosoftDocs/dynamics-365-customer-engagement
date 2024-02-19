@@ -71,14 +71,14 @@ With Copilot, you can draft email replies to customers quickly and be more effec
 
 When you start to draft an email, Copilot opens in the right side panel and presents five predefined prompts and one custom prompt:
 
-- **Suggest a call**: Drafts a reply that suggests a call with the customer today or tomorrow. T
+- **Suggest a call**: Drafts a reply that suggests a call with the same day or the next day.
 - **Request more information**: Drafts a reply that requests more details from the customer to help resolve the problem.
 - **Empathize with feedback**: Drafts a reply that provides an empathetic response to a customer who expresses a complaint.
 - **Provide product/service details**: Drafts a reply that offers details or answers customer questions about a particular product or service.
 - **Resolve the customer's problem**: Drafts a reply that provides a resolution&mdash;and resolution steps, if applicable&mdash;to the customer's problem.
 
 > [!NOTE]
-> Only the **Provide product/service details** and **Resolve the customer's problem** prompts use context from case, email, and knowledge base articles to generate email responses. 
+> The **Provide product/service details** and **Resolve the customer's problem** prompts only use context from case, email, and knowledge base articles to generate email responses. 
 
 - **Custom**: Allows you to provide your own prompt for the reply.
 

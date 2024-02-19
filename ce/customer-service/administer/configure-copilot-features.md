@@ -65,9 +65,9 @@ In Customer Service admin center, the [**Copilot help pane**](copilot-enable-hel
 
   :::image type="content" source="../media/copilot-enable-opt-in-mini.png" alt-text="Screenshot of the Copilot Help Pane page." lightbox="../media/copilot-enable-opt-in.png":::
 
-## Opt out from using Copilot
+## Opt out from using Copilot features
 
-In Customer Service admin center, you can opt out from using the Copilot features from the [**Copilot help pane**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) page. When you opt out, the application erases the training data. If you want to use the features again, you must consent to the terms of use and opt in.
+In Customer Service admin center, opt out from the copilot features on the **Copilot help pane** or **Summaries** page. When you opt out, the application erases the training data. If you want to use the features again, you must consent to the terms of use and opt in.
 
 ## Make Copilot available to agents
 
