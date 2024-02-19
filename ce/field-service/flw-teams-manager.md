@@ -1,7 +1,7 @@
 ---
 title: Work with Field Service in Teams (frontline managers)
 description: Learn how service managers and dispatchers can use the Dynamics 365 Field Service Teams app to create, view, update, and schedule work orders in Teams.
-ms.date: 12/11/2023
+ms.date: 02/19/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -69,7 +69,7 @@ Your admin might have installed the app for your organization. If you see the Fi
 
 1. Select **Save**.
 
-   The work order number displays.
+   The work order number appears. If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon :::image type="icon" source="media/fsp-pop-out-icon.png":::.
 
 ## Schedule or reschedule a work order
 
@@ -101,9 +101,9 @@ If you don't need to change the assigned technician, just the date or time of th
 
 1. Open a scheduled work order and select **View schedule**.
 
-1. Next to **Reschedule**, select the ellipsis (**&hellip;**) > **Move booking**. The system automatically displays the current resource, but you can change it.
+1. Select **Move booking**.
 
-   :::image type="content" source="media/fsp-flm-move-booking.png" alt-text="Screenshot of Field Service Teams ellipsis button to select Move booking":::
+   :::image type="content" source="media/fsp-flm-move-booking.png" alt-text="Screenshot of Field Service Teams with Move booking highlighted":::
 
 1. Select the new date and time and, if needed, a different resource.
 
@@ -147,13 +147,9 @@ While you're viewing a work order, you can also:
 
 - Reflect new or changed information. Select the **Refresh** icon.
 
-- Open the work order in Dynamics 365 Field Service. Select the pop-out icon.
+- Open the work order in Dynamics 365 Field Service. Select the pop-out :::image type="icon" source="media/fsp-pop-out-icon.png"::: icon.
 
-  :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service.":::
-
-- For unscheduled work orders, open a map to locate the service address. Select the **Open in Bing Maps** icon.
-
-   :::image type="content" source="media/fsp-map-icon.png" alt-text="Screenshot of a work order in Outlook, with the Open in Bing Maps icon highlighted.":::
+- Open a map to locate the service address. Select the **Open in Bing Maps** :::image type="icon" source="media/fsp-flm-map-icon.png"::: icon.
 
 ## Edit a work order in Teams
 

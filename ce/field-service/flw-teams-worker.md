@@ -83,9 +83,7 @@ Your admin might have installed the app for your organization. If you see the Fi
 
    - Open a map to locate the service address.
 
-   - Open the work order in Dynamics 365 Field Service. Select the pop-out icon.
-
-     :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Mobile device rendering of Field Service Teams highlighting the pop-out icon to go to Field Service.":::
+   - Open the work order in Dynamics 365 Field Service. Select the pop-out :::image type="icon" source="media/fsp-pop-out-icon.png"::: icon.
 
    - View tasks and products in Field Service
 
