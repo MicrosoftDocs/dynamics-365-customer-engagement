@@ -18,7 +18,7 @@ searchScope:
 
 # Configure forecasts in your organization
 
-A forecast helps your organization predict how much revenue your sales team will generate in a given time frame. When done correctly, forecasting can play a significant role in your company's success.  
+A forecast helps your organization predict how much revenue your sales team generates in a given time frame. When done correctly, forecasting can play a significant role in your company's success.  
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
@@ -48,8 +48,6 @@ You can configure forecasts that are based on revenue or quantity. You define th
 1. In the site map, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.
 1. Under **Performance management**, select **Forecast configuration**.
          :::image type="content" source="./media/forecast-enable-forecasting-enabled.png" alt-text="Screenshot of the forecast configuration page in Sales Hub Performance Management settings.":::
-
-    If you're getting started with forecasting, experiment with the [sample forecast configuration](#use-the-sample-forecast-configuration) before creating a new one.  
 
 1. [Select a template](./select-template-forecast.md).  
 1. [Define and schedule a forecast model](define-general-properties-scheduling-forecast.md).
@@ -94,7 +92,7 @@ After a forecast is activated, you can use the msdyn_ForecastApi custom action t
 
 In the **Sales** site map, find **Forecasts** under **Performance**.
 
-:::image type="content" source="./media/forecast-select-sales-performance-forecasts.png" alt-text="A screenshot of the Sales Hub site map that shows Forecasts under Performance.":::
+:::image type="content" source="./media/forecast-select-sales-performance-forecasts.png" alt-text="Screenshot of the Sales Hub site map that shows Forecasts under Performance.":::
 
 In the **Opportunity** form, **Forecast Category** appears above **Description**.
 
@@ -103,6 +101,7 @@ In the **Opportunity** form, **Forecast Category** appears above **Description**
  The categories define the confidence level of closing the opportunity. If you need to, you can add custom values for your organization. To learn more, see [Capture forecast category for opportunity](./capture-forecast-category-opportunity.md).
 
 - Forecast category options include **Won** and **Lost**. If an opportunity is closed as **Won** or **Lost**, the **Opportunity Forecast Category Mapping Process** out-of-the-box workflow automatically changes the forecast category to match.
+
 - To view the **Opportunity Forecast Category Mapping Process** workflow, go to **Settings** > **Process Center** > **Processes** and select the **All Processes** view. Search for and open the **Opportunity Forecast Category Mapping Process** workflow. You can customize or deactivate the workflow according to your organization's requirements.
 - Are you using a custom option set instead of forecast category? You need to create a workflow to automatically sync the opportunity status with your option set to make sure that the projection is accurate. To learn more, see [Create a cloud flow in Power Automate](/power-automate/get-started-logic-flow).
 

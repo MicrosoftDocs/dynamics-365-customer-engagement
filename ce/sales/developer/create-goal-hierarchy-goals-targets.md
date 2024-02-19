@@ -22,7 +22,7 @@ In preparation for goal management, you should specify a metric for a goal (amou
   
  ![Goals hierarchy.](../media/crm-v5s-em-goalshierarchy.png "Goals hierarchy")  
   
- The manager’s goal can be referred to as a parent goal, and the salesperson goals as child goals. A goal can have multiple child goals (one-to-many relationship) and be a child goal of another goal. The relationship between a parent goal record and a child goal record can also be described as a referential relationship, in which a child goal references the parent goal. If you delete a parent goal, the child goal is not deleted, only a reference to the parent goal is removed. For more information, see [Entity Relationship Behavior](/customerengagement/on-premises/developer/entity-relationship-behavior.md).  
+ The manager’s goal can be referred to as a parent goal, and the salesperson goals as child goals. A goal can have multiple child goals (one-to-many relationship) and be a child goal of another goal. The relationship between a parent goal record and a child goal record can also be described as a referential relationship, in which a child goal references the parent goal. If you delete a parent goal, the child goal is not deleted, only a reference to the parent goal is removed. For more information, see [Table relationship behavior](/power-apps/maker/data-platform/create-edit-entity-relationships#table-relationship-behavior).  
   
  The goal rollup is done from the bottom of the hierarchy to the top of the hierarchy. During rollup, the child goal totals are rolled into the parent goal totals. The ending total for the root goal at the top of hierarchy is a cumulative sum of all goal totals in the hierarchy.  
   

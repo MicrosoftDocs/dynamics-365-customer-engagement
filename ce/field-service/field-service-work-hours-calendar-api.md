@@ -211,6 +211,53 @@ This POST API deletes calendar rule records for the selected entity. Additionall
 |:--|:--|:--|
 |InnerCalendarIds|	String|	An array of **InnerCalendarIds** GUIDs that are a result of the POST operation.|
 
+## Load Calendar API
+
+### Input
+
+Name: msdyn_LoadCalendars    
+Type: Action    
+Description: Returns calendars for given LoadCalendarsInput.
+
+Name: msdyn_LoadCalendars.LoadCalendarsInput    
+Type: Parameter    
+Description: String in the following JSON format:
+
+```JSON
+{
+   StartDate: string,
+   EndDate: string,
+   CalendarIds: string[]
+}
+```
+
+Name: msdyn_LoadCalendarsResponse   
+Type: ComplexType   
+Description: Contains the response from the msdyn_loadCalendars action.
+
+
+Name: msdyn_LoadCalendarsResponse.CalendarEvents   
+Type: Property   
+Description: String in the following JSON format:
+
+```JSON
+{
+"calendarId": CalendarEventSlot[]
+}
+```
+
+Where calendarId is a proper guid representing Guid of the Calendar and CalendarEventSlot is an object of following format:
+
+```JSON
+{
+  CalendarId: string,
+  InnerCalendarId: string,
+  Start: string,
+  End: string,
+  Effort: double
+}
+```
+
 ## How to call the APIs
 
 These APIs can be called by using the browser.
@@ -277,6 +324,9 @@ Enter the following call to delete a calendar:
 
 See the following section for examples of how to make different calls based on your needs. Replace the `action` of the function call in step 3 with `msdyn_SaveCalendar` or `msdyn_DeleteCalendar`, and replace `data` with the relevant `CalendarEventInfo`.
 
+Also see the following screenshot for a Power Automate call for `msdyn_SaveCalendar` action:
+![Power Automate call for msdyn_SaveCalendar action.](media/msdyn_SaveCalendarPowerAutomateSample.png)
+
 ## Example scenarios for API usage
 
 Let's walk through some scenarios that you can use these APIs for.
@@ -290,17 +340,17 @@ Bob is scheduled to drive around to deliver packages from 9:00 AM to 5:00 PM on 
 **Request**
 
 ```
-> `{
+{
  "CalendarEventInfo": "{\"CalendarId\":\"d33263c7-c16b-4e3e-a56a-20f7a66cafc1\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-15T09:00:00.000Z\",\"EndTime\":\"2021-05-15T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}]}]}"
-}`
+}
 ```
 
 **Response**
 
 ```
->`{
+{
   "InnerCalendarIds": "[\"f76cc333-cbbe-eb11-a81d-000d3a6e4359\"]"
-}`
+}
 ```
 
 ### Edit a working hour occurrence.
@@ -310,18 +360,18 @@ Bob's schedule then changes to start at 10:00 AM on May 15, 2021. Debbie uses th
 **Request**
 
 ```
->  ` {
+{
  "CalendarEventInfo": "{\"CalendarId\":\"d33263c7-c16b-4e3e-a56a-20f7a66cafc1\",\"EntityLogicalName\":\"bookableresource\",\"IsEdit\":\"true\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-15T10:00:00.000Z\",\"EndTime\":\"2021-05-15T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}], \"InnerCalendarId\":\"f76cc333-cbbe-eb11-a81d-000d3a6e4359\"}]}"
-}`
+}
 
 ```
 
 **Response**
 
 ```
-> ` {
+{
   "InnerCalendarIds": "[\"f76cc333-cbbe-eb11-a81d-000d3a6e4359\"]"
-} `
+}
 ```
 
 ### Delete a working hour occurrence.
@@ -331,17 +381,17 @@ A family emergency comes up, and Bob needs to cancel an entire day of work. Debb
 **Request**
 
 ```
->  ` {
+{
  "CalendarEventInfo": "{\"CalendarId\":\"d33263c7-c16b-4e3e-a56a-20f7a66cafc1\",\"EntityLogicalName\":\"bookableresource\",\"InnerCalendarId\":\"f76cc333-cbbe-eb11-a81d-000d3a6e4359\"}"
-} `
+}
 ```
 
 **Response**
 
 ```
-> ` {
+{
   "InnerCalendarIds": "[\"f76cc333-cbbe-eb11-a81d-000d3a6e4359\"]"
-} `
+}
 ```
 
 
@@ -352,17 +402,17 @@ Starting May 20, 2021, Bob decides to work with Contoso all week from 8:00 AM to
 **Request**
 
 ```
-> `  {
+{
  "CalendarEventInfo": "{\"CalendarId\":\"d33263c7-c16b-4e3e-a56a-20f7a66cafc1\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RecurrenceEndDate\":\"2021-07-15T00:00:00.000Z\",\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-20T08:00:00.000Z\",\"EndTime\":\"2021-05-20T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA\"}]}"
-} `
+}
 ```
 
 **Response**
 
 ```
-> ` {
+{
   "InnerCalendarIds": "[\"20f6cfa7-cfbe-eb11-a81d-000d3a6e4359\"]"
-} `
+}
 ```
 
 
@@ -373,18 +423,18 @@ Bob decides to stop working for the entire week of June 15, 2021 to take a break
 **Request**
 
 ```
-> `  {
+{
  "CalendarEventInfo": "{\"CalendarId\":\"d33263c7-c16b-4e3e-a56a-20f7a66cafc1\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RecurrenceEndDate\":\"2021-06-15T00:00:00.000Z\",\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-20T08:00:00.000Z\",\"EndTime\":\"2021-05-20T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"InnerCalendarId\":\"20f6cfa7-cfbe-eb11-a81d-000d3a6e4359\",\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA\"}]}"
-} `
+}
 ```
 
 
 **Response**
 
 ```
-> ` {
+{
   "InnerCalendarIds": "[\"867a2461-cdbe-eb11-a81d-000d3a6e4359\"]"
-} `
+}
 ```
 
 ### Create a working hour weekly recurrence
@@ -394,17 +444,17 @@ Starting from June 16, 2021, Bob will work from 8:00 AM to 5:00 PM on Wednesdays
 **Request**
 
 ```
->  ` {
+{
   "CalendarEventInfo": "{\"CalendarId\":\"d33263c7-c16b-4e3e-a56a-20f7a66cafc1\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-06-16T08:00:00.000Z\",\"EndTime\":\"2021-06-16T12:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}, {\"StartTime\":\"2021-06-16T12:00:00.000Z\",\"EndTime\":\"2021-06-16T13:00:00.000Z\",\"Effort\":null,\"WorkHourType\":1}, {\"StartTime\":\"2021-06-16T13:00:00.000Z\",\"EndTime\":\"2021-06-16T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=WE,TH,FR\"}]}"
-}`
+}
 ```
 
 **Response**
 
 ```
-> ` {
+{
   "InnerCalendarIds": "[\"1f894441-d0be-eb11-a81d-000d3a6e4359\"]"
-} `
+}
 ```
 
 ### Edit a break from a working hour weekly recurrence
@@ -414,17 +464,17 @@ Debbie then corrects the mistake and changes the break to occur from 12:00 PM to
 **Request**
 
 ```
-> `  {
+{
   "CalendarEventInfo": "{\"CalendarId\":\"d33263c7-c16b-4e3e-a56a-20f7a66cafc1\",\"EntityLogicalName\":\"bookableresource\",\"IsEdit\":\"true\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-06-15T08:00:00.000Z\",\"EndTime\":\"2021-06-15T12:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}, {\"StartTime\":\"2021-06-15T12:00:00.000Z\",\"EndTime\":\"2021-06-15T12:30:00.000Z\",\"Effort\":null,\"WorkHourType\":1}, {\"StartTime\":\"2021-06-15T12:30:00.000Z\",\"EndTime\":\"2021-06-15T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"InnerCalendarId\":\"1f894441-d0be-eb11-a81d-000d3a6e4359\",\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=WE,TH,FR\"}]}"
-} `
+}
 ```
 
 **Response**
 
 ```
->  `{
+{
   "InnerCalendarIds": "[\"1f894441-d0be-eb11-a81d-000d3a6e4359\"]"
-}`
+}
 ```
 
 ### Create a working hour custom recurrence
@@ -434,17 +484,17 @@ Tim works for Contoso on Mondays from 8:00 AM to 5:00 PM, and Wednesdays from 11
 **Request**
 
 ```
-> `  {
+{
 "CalendarEventInfo": "{\"CalendarId\":\"a68245c9-ba2e-4496-9c18-3bee75fda396\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"IsVaried\":true,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-16T08:00:00.000Z\",\"EndTime\":\"2021-05-16T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"Action\":1,\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=MO\"},{\"Rules\":[{\"StartTime\":\"2021-05-16T11:00:00.000Z\",\"EndTime\":\"2021-05-16T15:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"Action\":1,\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=WE\"}]}"
-}`
+}
 ```
 
 **Response**
 
 ```
-> ` {
+{
   "InnerCalendarIds": "[\"9fb8c199-d1be-eb11-a81d-000d3a6e4359\", \"a2b8c199-d1be-eb11-a81d-000d3a6e4359\"]"
-}`
+}
 ```
 
 
@@ -455,17 +505,17 @@ Tim's schedule then changes to work hours from Wednesdays 5:00 PM to 8:00 PM, an
 **Request**
 
 ```
-> ` {
+{
 "CalendarEventInfo": "{\"CalendarId\":\"a68245c9-ba2e-4496-9c18-3bee75fda396\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"IsVaried\":true,\"IsEdit\":true,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-16T08:00:00.000Z\",\"EndTime\":\"2021-05-16T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"Action\":2,\"InnerCalendarId\":\"9fb8c199-d1be-eb11-a81d-000d3a6e4359\",\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=MO\"},{\"Rules\":[{\"StartTime\":\"2021-05-16T17:00:00.000Z\",\"EndTime\":\"2021-05-16T20:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"Action\":3,\"InnerCalendarId\":\"a2b8c199-d1be-eb11-a81d-000d3a6e4359\",\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=WE\"}, {\"Rules\":[{\"StartTime\":\"2021-05-16T10:00:00.000Z\",\"EndTime\":\"2021-05-16T12:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"Action\":1,\"InnerCalendarId\":null,\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=TH\"}]}"
-}`
+}
 ``` 
 
 **Response**
 
 ```
-> ` {
+{
   "InnerCalendarIds": "[\"a2b8c199-d1be-eb11-a81d-000d3a6e4359\", \"942bda0f-d3be-eb11-a81d-000d3a6e4359\"]"
-}`
+}
 ```
 
 
@@ -476,17 +526,17 @@ On May 26, 2021, Tim is only able to work from 1:00 PM to 7:00 PM. Debbie uses t
 **Request**
 
 ```
->  ` {
+{
  "CalendarEventInfo": "{\"CalendarId\":\"a68245c9-ba2e-4496-9c18-3bee75fda396\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-26T13:00:00.000Z\",\"EndTime\":\"2021-05-26T19:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}], \"InnerCalendarId\":\"a2b8c199-d1be-eb11-a81d-000d3a6e4359\"}]}"
-}`
+}
 ```
 
 **Response**
 
 ```
-> ` {
+{
   "InnerCalendarIds": "[\"a2b8c199-d1be-eb11-a81d-000d3a6e4359\"]"
-} `
+}
 ```
 
 
@@ -497,17 +547,17 @@ Tim has decided to leave the company and has to delete their entire schedule. De
 **Request**
 
 ```
->  ` {
+{
  "CalendarEventInfo": "{\"CalendarId\":\"a68245c9-ba2e-4496-9c18-3bee75fda396\",\"EntityLogicalName\":\"bookableresource\",\"InnerCalendarId\":\"34d2210c-9fb6-eb11-a820-000d3afb1dba\",\"IsVaried\":true}"
-} `
+}
 ```
 
 **Response**
 
 ```
-> ` {
+{
   "InnerCalendarIds": "[\"a2b8c199-d1be-eb11-a81d-000d3a6e4359\", \"942bda0f-d3be-eb11-a81d-000d3a6e4359\"]"
-} `
+}
 ```
 
 
@@ -518,17 +568,17 @@ Tim will be taking three days off for a family vacation starting on June 9, 2021
 **Request**
 
 ```
->  ` {
+{
  "CalendarEventInfo": "{\"CalendarId\":\"a68245c9-ba2e-4496-9c18-3bee75fda396\",\"InnerCalendarDescription\":\"Family Vacation\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-06-15T00:00:00.000Z\",\"EndTime\":\"2021-06-17T00:00:00.000Z\",\"Effort\":1,\"WorkHourType\":3}]}]}"
-} `
+}
 ```
 
 **Response**
 
 ```
-> ` {
+{
   "InnerCalendarIds": "[\"266c434e-d5be-eb11-a81d-000d3a6e4359\"]"
-} `
+}
 ```
 
 ### Create all-day working hours
@@ -538,17 +588,17 @@ Tim has a 72-hour shift starting May 20, 2021. Debbie uses the `msdyn_SaveCalend
 **Request**
 
 ```
-> `{
+{
  "CalendarEventInfo": "{\"CalendarId\":\"a68245c9-ba2e-4496-9c18-3bee75fda396\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-20T00:00:00.000Z\",\"EndTime\":\"2021-05-22T00:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}]}]}"
-}`
+}
 ``` 
 
 **Response**
 
 ```
-> ` {
+{
   "InnerCalendarIds": "[\"6e160a8e-d5be-eb11-a81d-000d3a6e4359\"]"
-}`
+}
 ``` 
 
 ## FAQs
@@ -574,11 +624,11 @@ We currently only support this pattern: `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE
 
 The `CalendarId` can be retrieved from resource attributes. Make this call to get this information: `[org-url]/api/data/v9.1/bookableresources([bookableresourceGUID])`. 
 
-An example of the previous call would be `http://aurorav69662.aurorav69662dom.extest.microsoft.com/CITTest/api/data/v9.1/bookableresources(7bb0224b-6712-ec11-94f9-000d3a6d888e)`.
+An example of the previous call would be `[org-url]/api/data/v9.1/bookableresources(7bb0224b-6712-ec11-94f9-000d3a6d888e)`.
 
 The `InnerCalendarId` can be retrieved from calendar attributes. Make this call to get this information: `[org-url]/api/data/v9.1/calendars([calendar-id-from-above-call])?$expand=calendar_calendar_rules`. 
 
-An example of the previous call is `http://aurorav69662.aurorav69662dom.extest.microsoft.com/CITTest/api/data/v9.1/calendars(02481736-1b6a-4d49-9ebd-a5bd041c1c99)?$expand=calendar_calendar_rules`.
+An example of the previous call is `[org-url]/api/data/v9.1/calendars(02481736-1b6a-4d49-9ebd-a5bd041c1c99)?$expand=calendar_calendar_rules`.
 
 ### What happens if there are overlapping rules?
 
@@ -586,12 +636,8 @@ There are a couple different ranks that rules fall under:
 
 - *Rank 1* - daily occurrence (working/non-working), and time off occurrence. 
 - *Rank 0* - weekly recurrence (working/non-working). 
- 
-#### V2 overlapping rules (preview)
 
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+#### V2 overlapping rules
 
 - The Rank 1 rules have a higher priority than Rank 0 rules. if there are two rules (one of each rank) on the same day, the daily occurrence or time-off occurrence take the priority over the weekly recurrence.
 - When there are multiple Rank 0 rules within the same date span:

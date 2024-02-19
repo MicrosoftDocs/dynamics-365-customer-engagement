@@ -1,13 +1,14 @@
 ---
 title: Responsible AI FAQs for Dynamics 365 Sales
 description: Responsible AI FAQs provide information about the AI technology used in Dynamics 365 Sales, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 07/26/2023
+ms.date: 10/05/2023
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
+ms.collection: bap-ai-copilot
 ---
 
 # Responsible AI FAQs for Dynamics 365 Sales
@@ -16,6 +17,6 @@ ms.reviewer: shujoshi
 
 [!INCLUDE[responsible-ai-features](../includes/responsible-ai-features.md)]
 
-- [FAQ for summarization in Sales Copilot](faqs-sales-copilot-for-summarization.md)
-- [FAQ for email in Sales Copilot](faqs-sales-copilot-for-email.md)
+- [FAQ for summarization in Copilot](faqs-sales-copilot-for-summarization.md)
+- [FAQ for email in Copilot](faqs-sales-copilot-for-email.md)
 

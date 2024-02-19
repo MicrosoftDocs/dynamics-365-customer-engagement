@@ -34,6 +34,7 @@ The forecasting feature isn't supported on mobile devices.
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>For more information, see [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/). |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  For more information, see [Primary sales roles](security-roles-for-sales.md#primary-sales-roles).|
 
+
 ## Open and view a forecast
 
 Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given predefined period (week, month, quarter, or year). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.
@@ -122,7 +123,7 @@ To see the rolled-up forecast for everyone in the hierarchy, expand a specific f
 
 ## Select a currency
 
-When your sales teams are distributed across different geographies and viewing the forecast with organization's base currency might cause confusion for users in other geographies to analyze and understand forecast. The multi-currency selection option helps the sales teams to choose and convert the forecast data in real time based on the latest exchange rate to their convenient currencies defined in your organization, which help in better planning, organizing, and understanding the current forecast state.
+When your sales teams are spread across different regions, it might be confusing for users in different regions to analyze and understand the forecast in the organization's base currency. The multi-currency selection option allows the sales teams to choose and convert the forecast data in real time based on the latest exchange rate to the currencies defined in your organization. This feature aids in better planning, organization, and understanding of the current forecast state.
 
 The real time conversion of forecast data always takes place based on the latest exchange rate defined in your organization.
 
@@ -135,7 +136,7 @@ Administrator or forecast manager must enable the option to select currency. For
 
 ## Tasks you can do on the forecast grid
 
-Using the forecast grid, you can do the following tasks:
+With the forecast grid, you can do the following tasks:
 
 - [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md)
 

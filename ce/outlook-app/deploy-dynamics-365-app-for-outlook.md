@@ -6,7 +6,7 @@ ms.date: 12/14/2021
 ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: get-started-article
+ms.topic: get-started
 applies_to: Dynamics 365 apps
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
@@ -146,7 +146,7 @@ App for Outlook also requires server-side synchronization to be properly configu
 
 
 > [!NOTE]
->  If you create a team and add the team to the **Dynamics 365 App for Outlook User** security role, this doesn't automatically propogate the privileges to the users within that team.
+>  If you create a team and add the team to the **Dynamics 365 App for Outlook User** security role, this doesn't automatically propogate the privileges to the users within that team. This applies to custom roles with the **Use Dynamics 365 Appf for Outlook** privilege, as well. 
 
 1. To add users to the App for Outlook security role, from your app, go to **Settings** > **Advanced Settings**.
 

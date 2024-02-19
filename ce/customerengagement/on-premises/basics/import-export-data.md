@@ -7,7 +7,6 @@ ms.reviewer:
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: index-page 
 ms.assetid: fe4feb5a-abd2-47d6-a210-0d31791c1e98
 caps.latest.revision: 4
 author: sericks007
@@ -15,6 +14,7 @@ ms.author: sericks
 search.audienceType: 
   - enduser
 
+  ms.topic: conceptual
 ---
 # Import and export data
 

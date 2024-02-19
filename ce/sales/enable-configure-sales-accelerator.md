@@ -1,10 +1,12 @@
 ---
-title: "Configure the sales accelerator"
-description: "Configure the sales accelerator to create sequences and connect records, and view daily work list items."
-ms.date: 04/06/2022
-ms.topic: article
+title: Configure the sales accelerator
+description: Configure the sales accelerator to create sequences and connect records, and view daily work list items.
+ms.date: 02/02/2024
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
+ms.owner: shujoshi
+ms.custom: bap-template
 ---
 # Configure the sales accelerator
 
@@ -17,7 +19,6 @@ Enable and configure the sales accelerator to create sequences and connect recor
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## How does the sales accelerator help a sales team?
 
@@ -96,7 +97,7 @@ Enable the sales accelerator by quickly providing access to security roles and s
     3. Repeat steps a and b to add more record types.
         
        >[!NOTE]
-       >- You can remove the record types that you no longer need to associate automated activities with. Select the **X** icon corresponding to the record type to remove it from the list. However, note that if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.   
+       >- You can remove the record types that you no longer need to associate automated activities with. Select the **X** icon corresponding to the record type to remove it from the list. However, note that if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.  
        >- To know how records are populated in the work list, go to [View my records by using the work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-through-work-list).
 
 7.	Select **Update**.
@@ -125,6 +126,18 @@ To configure the sales accelerator, go to [First-run setup](#first-run-set-up).
 By default, the **Up next** widget is displayed on the **Default Main** and **Sales Insight** forms. To add the **Up next** widget to other forms, follow the process specified in [How do I add the Up next widget to an entity form?](faqs-sales-insights.md#sales-accelerator)
 
 [Learn more about how to add sales accelerator to the site map in your custom app](faqs-sales-insights.md#how-to-add-sales-accelerator-to-the-site-map-in-your-custom-app).
+
+## Add sales accelerator site map entry to custom app
+
+>[!NOTE]
+>Enable sales insights in your organization before you add the site map to your custom app.
+
+When you create a custom model-driven app and choose a default solution to create a sitemap for the app. However, the list contains solutions that are based on entity forms only. The sales accelerator option is based on URL custom control forms and do not appear in the solution list. You must manually add the option to the sitemap. After you add these options, users in your organization can see them on the app’s sitemap.  
+Use the following URLs to add the sale accelerator site map to your custom app and perform the steps in [add site map entry to custom app](add-custom-site-map.md):
+
+| Feature name      | URL                                                                                         |
+|-------------------|---------------------------------------------------------------------------------------------|
+| Sales accelerator | `/main.aspx?pagetype=control&controlName=MscrmControls.AcceleratedSales.AnchorShellControl` |
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

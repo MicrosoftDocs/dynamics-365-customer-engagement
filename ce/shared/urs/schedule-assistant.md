@@ -1,6 +1,6 @@
-The schedule assistant is a semi-automated feature that helps dispatchers assign requirements to ideal resources.
+The schedule assistant helps dispatchers assign requirements to ideal resources.
 
-The schedule assistant recommends resources that match criteria, like availability or skills, for requirements. The system also estimates travel time for the recommended resources, which helps dispatchers plan work accordingly.
+It recommends resources that match criteria, like availability or skills, for requirements. The system also estimates travel time for the recommended resources, which helps dispatchers plan work accordingly.
 
 When the dispatcher identifies the right resource for the job, they book the resource.
 
@@ -14,7 +14,7 @@ If a requirement is ready for scheduling, you can launch the schedule assistant 
 
 Select the **Book** option:
 
-- On the record form of a [scheduling-enabled entity](../../field-service/schedule-new-entity.md).
+- On the record form of a [scheduling-enabled entity](../../field-service/schedule-new-entity.md). Schedule assistant uses that entity's associated time zone. You can view or change the time zone by opening the entity and selecting **Modify Calendar** in the command bar.
 - On the *resource requirement* form.
 - On the *[requirement group](../../field-service/multi-resource-scheduling-requirement-groups.md)* form.
 - From list view of a [scheduling-enabled entity](../../field-service/schedule-new-entity.md), after selecting a record.

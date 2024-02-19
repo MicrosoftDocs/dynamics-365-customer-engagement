@@ -1,10 +1,11 @@
 ---
-title: "Understand the up next widget on records"
-description: "Understand on how to use the up next widget to do activities on your records through sales accelerator."
-ms.date: 07/07/2023
-ms.topic: article
+title: Understand the up next widget on records
+description: Understand on how to use the up next widget to do activities on your records through sales accelerator.
+ms.date: 02/02/2024
 author: udaykirang
 ms.author: udag
+ms.topic: how-to 
+ms.custom: bap-template
 ---
 
 # Understand the Up next widget
@@ -21,8 +22,8 @@ The **Up next** widget displays activities that you can view and perform actions
 
 Using the **Up next** widget, you can view and perform actions on activities on a record. The widget displays the current activity, upcoming activity, and completed activities. You can add these activities to a record manually or by using a sequence:
 
-- In a sequence, a sales manager creates activities and applies them to the record according to business requirements. The activities in the sequence are displayed in the **Up next** widget.    
-- For manual activities, you or a sales manager can create an activity on the timeline. The activity is displayed in the **Up next** widget as a current, upcoming, or completed activity, depending on its due date. This activity is available to you and other sellers who have access to the record.
+- When a sequence is connected to a record, the steps are displayed to the owner of the record. If a team is the owwner of the record, the steps are displayed to all the users in that team. 
+- When you have access to a record, you can create manual activities. These activities are displayed in the **Up next** widget as a current, upcoming, or completed activity, depending on their due dates. These activities are available to both you and the owner of the record.  
 
 To do actions on activities, see [Connect with customers by using a record or the Up next widget](connect-with-customers.md).
 
@@ -47,6 +48,11 @@ The following image shows an example of the **Up next** widget.
 
      > [!div class="mx-imgBorder"]
      > ![View completed activities.](media/sa-view-completed-activities.png "View completed activities")   
+
+## Activity ownership  
+
+By default, activities are assigned to the owner of the record. When the owner of the record changes, the current active step remains with the previous owner, while the next steps in the sequence will be automatically assigned to the new owner.  
+The owner of the record can also assign a particular activity to a team or an individual. To do this, on the worklist card or the Up next widget, select **More options** > **Assign** and choose the user or team accordingly.
 
 ## Add manual activities to records
 

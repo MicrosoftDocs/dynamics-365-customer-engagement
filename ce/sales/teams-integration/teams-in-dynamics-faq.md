@@ -23,7 +23,7 @@ Consent is given at the tenant level. It applies to all Dynamics 365 instances u
 
 ## What happens when consent is provided?
 
-When the tenant admin provides consent, an enterprise application called **Dynamics 365 Microsoft Teams Collaboration Integration** is created in Azure Active Directory and permissions are given to the enterprise application. Also, a flag is set internally in Dynamics 365 to indicate that the feature is enabled. This flag controls the UI behavior, such as displaying the **Collaborate** menu in the command bar.
+When the tenant admin provides consent, an enterprise application called **Dynamics 365 Microsoft Teams Collaboration Integration** is created in Microsoft Entra ID and permissions are given to the enterprise application. Also, a flag is set internally in Dynamics 365 to indicate that the feature is enabled. This flag controls the UI behavior, such as displaying the **Collaborate** menu in the command bar.
 
 ## After consent is provided, is Teams integration enabled for all instances?
 
