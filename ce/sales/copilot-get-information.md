@@ -48,7 +48,7 @@ Copilot can enrich your leads with information from Dynamics 365 Sales, Dynamics
 
 - Possible contacts, based on the lead name, phone number, email address, and company name
 
-- Insights about customer sentiment, behavior, and interest generated based on unified activity data in Dynamics 365 Customer Insights, if configured. [Learn more](/dynamics365/customer-insights/data/faqs-profile-summary)  
+- Insights about customer sentiment, behavior, and interest generated based on unified activity data in Dynamics 365 Customer Insights, if configured. [Learn more](/dynamics365/customer-insights/data/lead-profile-summary)  
 
 - The latest news about the account, curated by Bing
 
