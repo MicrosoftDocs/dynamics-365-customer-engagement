@@ -37,7 +37,7 @@ If you have Dynamics 365 Customer Service only, then the options to configure un
 You must complete all the steps in this section for unified routing to route records.
 
 > [!NOTE]
-> After you enable unified routing, the basic routing rulesets aren't applied. For a workaround, see troubleshoot basic routing rulesets aren't working.
+> After you enable unified routing, the basic routing rulesets don't work as expected. For a workaround, see [Cases aren't being routed after unified routing is enabled](troubleshoot/dynamics-365/customer-service/unified-routing/basic-routing-not-working).
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps:
    
