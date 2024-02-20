@@ -33,7 +33,7 @@ You can do the following tasks for the voicemail that you open:
 - **Convert to Case**: Creates a case from a voicemail in open state. The application displays the case form and enables you to specify the relevant details required to create a case. 
 - **Call Recording**: Select the tab to view the original voice call recording that preceded the voicemail. If the call goes straight to voicemail and the customer didn't talk to a bot, a recording or transcript won't be available on this tab.  Additionally, if your voice workstream was set to  have transcription only and the customer talked to a bot, you won't see a call recording here, only the transcript will be available.
 - **Download audio**: Select to download the voicemail.
-- **Regarding**: Displays the case that's created from the voicemail.
+- **Regarding**: Displays the case that's created from the voicemail.  If you create more than one case from the same voicemail, only the latest case is shown. The previous cases are overwritten and no longer available.
 - **Share**: Select to email or copy the link to the voicemail. You can also manage the user access to the voicemail.
 
 ## Next steps
