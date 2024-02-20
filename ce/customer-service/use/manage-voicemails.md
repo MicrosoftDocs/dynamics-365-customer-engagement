@@ -30,8 +30,10 @@ You can do the following tasks for the voicemail that you open:
 - **Close Voicemail**: Moves the voicemail to the closed state.
 - **Return Call**: Displays a dialer with the customer number automatically filled in if you have outbound profiles configured. More information: [Outbound profiles](../administer/configure-outbound-inbound-profiles.md)
 - **Add to Queue**: Add the voicemail to a different queue. If the voicemail is routed to a pick workstream, it will be available as a pick item in the new queue.  If the voicemail is routed to a push workstream, it will be assigned to an agent in the new queue.
+- **Convert to Case**: Creates a case from a voicemail in open state. The application displays the case form and enables you to specify the relevant details required to create a case. 
 - **Call Recording**: Select the tab to view the original voice call recording that preceded the voicemail. If the call goes straight to voicemail and the customer didn't talk to a bot, a recording or transcript won't be available on this tab.  Additionally, if your voice workstream was set to  have transcription only and the customer talked to a bot, you won't see a call recording here, only the transcript will be available.
 - **Download audio**: Select to download the voicemail.
+- **Regarding**: Displays the case that's created from the voicemail.
 - **Share**: Select to email or copy the link to the voicemail. You can also manage the user access to the voicemail.
 
 ## Next steps
