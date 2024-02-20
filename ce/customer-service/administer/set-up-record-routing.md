@@ -34,6 +34,11 @@ If you have Dynamics 365 Customer Service only, then the options to configure un
 
 ## Configure unified routing for records
 
+You must complete all the steps in this section for unified routing to route records.
+
+> [!NOTE]
+> After you enable unified routing, the basic routing rulesets aren't applied. For a workaround, see troubleshoot basic routing rulesets aren't working.
+
 1. In Dynamics 365, go to one of the apps, and perform the following steps:
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
@@ -43,8 +48,7 @@ If you have Dynamics 365 Customer Service only, then the options to configure un
     1. Select **Manage** for **Record routing**.
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    
+ 
 
     - In the site map, select **Record routing** in **General settings**.
 
