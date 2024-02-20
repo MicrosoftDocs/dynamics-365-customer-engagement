@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in Dynamics 365 apps
 description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, and enrich your leads with data from different sources.
-ms.date: 02/15/2024
+ms.date: 02/23/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -35,7 +35,7 @@ Your admin has [turned on and set up Copilot](enable-setup-copilot.md).
 
 ## Open Copilot
 
-You can open Copilot in a [side pane](#open-copilot-in-a-side-pane)&mdash;side-by-side with a record such as, an opportunity or a lead&mdash;or in a [full-screen view](#open-copilot-in-full-screen-view-preview).
+You can open Copilot in a [side pane](#open-copilot-in-a-side-pane)&mdash;side-by-side with a record such as, an opportunity or a lead&mdash;or in a [full-screen view](#open-copilot-immersive).
 
 ### Open Copilot in a side pane
 
@@ -44,6 +44,8 @@ Open the Copilot side pane when you want to get quick insights about a record or
 1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app. You can open the **Copilot** side pane from any page in your app except for the **Copilot** page.
 
 1. Select a prompt from the suggestion list or select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot).
+
+<a name=open-copilot-immersive></a>
 
 ### Open Copilot in an immersive, full-screen view (preview)
 
@@ -55,7 +57,7 @@ Open the Copilot page in a full-screen view when you want more space and focus t
 
 1. Select **Copilot** in your sitemap.
 
-   If it isn't there, ask your admin to [turn on Copilot preview features](copilot-preview-features.md#enable-all-preview-features-for-copilot). If you're using a custom app, ask your admin to [add the Copilot page to your app's sitemap](enable-setup-copilot.md#add-the-copilot-page-to-custom-apps-preview).
+   If it isn't there, ask your admin to [turn on Copilot preview features](copilot-preview-features.md#turn-on-all-copilot-preview-features). If you're using a custom app, ask your admin to [add the Copilot page to your app's sitemap](enable-setup-copilot.md#add-the-copilot-page-site-map-entry-to-custom-app).
 
 2. Select a prompt from the suggestion list or select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot). 
 
