@@ -1,6 +1,6 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
-description: Learn how to turn on and set up Copilot in Dynamics 365 Sales so that your sales team can get summaries of their contact and lead records, catch up on recent changes, and prepare for meetings.
+description: Learn how to turn on and set up Copilot in Dynamics 365 Sales. Help your sales team can get summaries of their lead and opportunity records, catch up on recent changes, and prepare for meetings.
 ms.date: 02/23/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -32,7 +32,7 @@ For orgs in other regions, Copilot chat and Copilot for email features are turne
 >- If you had previously turned Copilot off, it remains turned off. In this case, Copilot for email is not turned on by default, even if your org is in North America and is opted in for early access.
 >- Throughout this article, the term sales apps refers to apps that have lead and opportunity tables and are not part of the [exclusion list](sales-copilot-faq.md#which-applications-are-in-the-exclusion-list-for-copilot-in-dynamics-365-sales).
 
-Read [this FAQ](sales-copilot-faq.md#what-are-the-early-access-changes-related-to-copilot-in-2024-release-wave-1) to understand the early access changes and its impact better.
+Read [this FAQ](sales-copilot-faq.md#what-are-the-early-access-changes-related-to-copilot-in-2024-release-wave-1) to understand the early access changes and its effect better.
 
 Use the instructions in this article to turn Copilot on or off and configure it for your business.
 
@@ -59,7 +59,7 @@ If you're in a region other than North America, provide consent for Copilot to p
 
 1. In the **Set up Copilot in Dynamics 365 Sales** page, select **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.
 
-1. If you haven't provided consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
+1. If you didn't provide consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
 1. Under **Enable Copilot for**, select a global setting that you want to apply for all Sales apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app. 
 
@@ -69,7 +69,7 @@ If you're in a region other than North America, provide consent for Copilot to p
 
     :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the new settings page in Dynamics 365 Sales Hub.":::  
 
-    The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform administrator had turned Copilot on for your org but your Power Apps administrator had turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
+    The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform administrator turned Copilot on for your org but your Power Apps administrator turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
 
     <a name="default-setting-copilot"></a>
 
@@ -85,7 +85,7 @@ If you're in a region other than North America, provide consent for Copilot to p
 
         - For Copilot for email, you've [opted in for preview features](copilot-preview-features.md).
     
-    - For apps that don't meet the above conditions, the **Default** settings turns Copilot off.
+    - For apps that don't meet the above conditions, the **Default** setting turns Copilot off.
 
 1. Select **Turn audit on** to turn on audit history for the lead and opportunity tables. If auditing is already turned on for the lead and opportunity tables or globally, the **Turn audit on** option isn't displayed.
 
@@ -117,7 +117,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
 1. Select **Add fields**.
 
-1. Select at least 4 fields, up to a maximum of 10.
+1. Select at least four fields, up to a maximum of 10.
 
     The **Save** button is disabled if you select fewer than 4 or more than 10 fields. If you added more than 10 fields, clear the checkbox, or select fields that you don't need and select **Delete**.
 
@@ -129,7 +129,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
 The **What's new with my sales records** prompt lists the sales records that were updated in the last seven days. The list is generated from the audit history of the lead, opportunity, and account tables. Depending on the record type, Copilot uses different fields to get the list of records updated: 
 
-- For the lead and opportunity records, Copilot uses the fields in the primary table (lead or opportunity) that you've [configured for generating the recent changes list](#configure-fields-for-generating-summaries-and-recent-changes-list). For example, if you've configured 4 fields from the lead table and 6 fields from related tables, Copilot monitors changes to only those 4 fields from the lead table to identify the lead records that have been updated.
+- For the lead and opportunity records, Copilot uses the fields in the primary table (lead or opportunity) that you've [configured for generating the recent changes list](#configure-fields-for-generating-summaries-and-recent-changes-list). For example, if you've configured four fields from the lead table and six fields from related tables, Copilot monitors changes to only those four fields from the lead table to identify the lead records that are updated.
 
 - For the account records, Copilot lists the following changes:
   - Contacts, leads, and opportunities created for the account in the last seven days.
