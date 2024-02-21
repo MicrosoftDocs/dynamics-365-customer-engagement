@@ -33,7 +33,7 @@ Configure assignment rules to route and assign cases and conversations based on 
 
 ## Import external schedule data
 
-You can use a third-party adapter to import schedules from external workforce management systems into Dynamics 365 for Customer Service.
+You can use a third-party adapter to import schedules from external WFM systems into Dynamics 365 for Customer Service.
 
 Alternatively, you can also use [Organization Service](/power-apps/developer/data-platform/org-service/overview) or [Dataverse OData Web API](/power-apps/developer/data-platform/webapi/overview) to import agent schedules from external systems into Dynamics 365. For a detailed overview of how to import external schedules and the entities in Customer Service that can represent these external schedules, see the [Schedule import integration](https://github.com/microsoft/dynamics365-customerservice-wem-samples/wiki/Schedule-import-integration) guide.
 
