@@ -32,7 +32,7 @@ As an administrator, you must provide the following permissions to users to use 
 ### View records in focused view
 
 - **Read** permission on the entity for which focused view is enabled.
-- Permissions are required for all columns in the view of the entity where the focused view is enabled.
+- Permissions are required for all columns in the view of the entity where the focused view is enabled. More information: [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views)
 
 ### View related activities and sequence steps in focused view
 

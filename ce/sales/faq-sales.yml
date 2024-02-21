@@ -2,7 +2,7 @@
 metadata:
   title: Frequently asked questions about Dynamics 365 Sales
   description: Find answers to frequently asked questions about Dynamics 365 Sales Enterprise.
-  ms.date: 02/05/2024
+  ms.date: 02/24/2024
   ms.topic: article
   author: udaykirang
   ms.author: udag
@@ -33,7 +33,42 @@ sections:
           No, the Sales Hub app is only for the Sales Enterprise and Sales Premium customers. Though this app may be visible in Sales Professional environments, the users aren't entitled to use it. Sales Professional users are entitled to use only the Sales Professional app. We recommend that you [hide](/power-apps/maker/model-driven-apps/deactivate-app) or [delete](/power-apps/maker/model-driven-apps/delete-model-driven-app) the Sales Hub app to avoid any accidental usage.
 
       - question: Where can I find the Sales Professional and Sales Insights documentation?
-        answer: We've merged the documentation for Sales Enterprise, Sales Professional, and Sales Insights into this unified Sales documentation. The license and role requirements section at the top of an article indicates whether the content applies to the license you have. Any bookmarks you have should automatically redirect to the corresponding pages in the new unified documentation.
+        answer: |
+          We've merged the documentation for Sales Enterprise, Sales Professional, and Sales Insights into this unified Sales documentation. The license and role requirements section at the top of an article indicates whether the content applies to the license you have. Any bookmarks you have should automatically redirect to the corresponding pages in the new unified documentation.
+
+  - name: Install the Sales Professional app
+    questions:
+      - question: Unable to install the Sales Professional app in my environment.
+        answer: |
+          You can't install the Sales Professional app in the following environments:  
+            - Dataverse eviroments
+            - A default environment
+            - An environment with Dynamics 365 apps enabled
+            - An environment without any database
+            More information: [Create and manage environments in the Power Platform admin center](/power-platform/admin/create-environment#create-an-environment-and-add-model-driven-apps)
+
+      - question: Unable to access the Sales Professional app after installation.
+        answer: |
+              Ensure that the Sales Professional app is installed properly. More information: [Install the Sales Professional app](provision-sales-professional-instance.md) 
+              Also, ensure that the you are added to the target environment and the Sales professional app access security role is assigned to you.
+
+      - question: How can I assign license to users?  
+        answer: |
+          You must have System administrator privileges with the [Sales professional license](https://www.microsoft.com/licensing/product-licensing/dynamics365). To assign licenses to users, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
+
+  - name: Sales Professional data
+    questions:
+      - question: What happens to my organization's data if switch from Sales Professional to Sales Enterprise or vice versa?
+        answer: |
+          Your organization's data is preserved when you switch from Sales Professional to Sales Enterprise or vice versa. More information: [Move from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise](upgrade-sales-professional-sales-enterprise.md) and [Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional](move-sales-enterprise-sales-professional.md)
+
+      - question: What happens to my organization's data if my Sales Professional license expires?
+        answer: |
+          The environment is disabled, users will not be able to access it, and the data will be deleted after 30 days. However, if there are any Dynamics 365 Sales related license available in the tenant, the data will be preserved.
+
+      - question: Unable to add extra storage capacity to users with Sales Professional license
+        answer: |
+          You can't add extra storage capacity to users with Sales Professional license.
 
   - name: Entity - Activity
     questions:
