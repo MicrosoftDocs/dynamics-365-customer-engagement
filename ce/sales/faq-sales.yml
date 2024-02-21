@@ -28,9 +28,17 @@ sections:
 
           For a detailed comparison of the capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
 
+      - question: How can I assign licenses to users?  
+        answer: |
+          You must have System administrator privileges. To assign licenses to users, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
+
       - question: Can I use the Sales Hub app with the Sales Professional license?
         answer: |
           No, the Sales Hub app is only for the Sales Enterprise and Sales Premium customers. Though this app may be visible in Sales Professional environments, the users aren't entitled to use it. Sales Professional users are entitled to use only the Sales Professional app. We recommend that you [hide](/power-apps/maker/model-driven-apps/deactivate-app) or [delete](/power-apps/maker/model-driven-apps/delete-model-driven-app) the Sales Hub app to avoid any accidental usage.
+
+      - question: Unable to add extra storage capacity to users with Sales Professional license
+        answer: |
+          You can't add extra storage capacity to users with Sales Professional license.
 
       - question: Where can I find the Sales Professional and Sales Insights documentation?
         answer: |
@@ -54,10 +62,6 @@ sections:
 
               Also, ensure that the you are added to the target environment and the Sales professional app access security role is assigned to you.
 
-      - question: How can I assign license to users?  
-        answer: |
-          You must have System administrator privileges with the [Sales professional license](https://www.microsoft.com/licensing/product-licensing/dynamics365). To assign licenses to users, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
-
   - name: Sales Professional data
     questions:
       - question: What happens to my organization's data if switch from Sales Professional to Sales Enterprise or vice versa?
@@ -69,10 +73,6 @@ sections:
       - question: What happens to my organization's data if my Sales Professional license expires?
         answer: |
           The environment is disabled, users will not be able to access it, and the data will be deleted after 30 days. However, if there are any Dynamics 365 Sales related license available in the tenant, the data will be preserved.
-
-      - question: Unable to add extra storage capacity to users with Sales Professional license
-        answer: |
-          You can't add extra storage capacity to users with Sales Professional license.
 
   - name: Entity - Activity
     questions:
