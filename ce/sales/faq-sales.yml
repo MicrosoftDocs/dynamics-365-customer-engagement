@@ -44,12 +44,14 @@ sections:
             - Dataverse eviroments
             - A default environment
             - An environment with Dynamics 365 apps enabled
-            - An environment without any database
+            - An environment without any database  
+
             More information: [Create and manage environments in the Power Platform admin center](/power-platform/admin/create-environment#create-an-environment-and-add-model-driven-apps)
 
       - question: Unable to access the Sales Professional app after installation.
         answer: |
-              Ensure that the Sales Professional app is installed properly. More information: [Install the Sales Professional app](provision-sales-professional-instance.md) 
+              Ensure that the Sales Professional app is installed properly. More information: [Install the Sales Professional app](provision-sales-professional-instance.md)  
+
               Also, ensure that the you are added to the target environment and the Sales professional app access security role is assigned to you.
 
       - question: How can I assign license to users?  
@@ -60,7 +62,9 @@ sections:
     questions:
       - question: What happens to my organization's data if switch from Sales Professional to Sales Enterprise or vice versa?
         answer: |
-          Your organization's data is preserved when you switch from Sales Professional to Sales Enterprise or vice versa. More information: [Move from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise](upgrade-sales-professional-sales-enterprise.md) and [Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional](move-sales-enterprise-sales-professional.md)
+          Your organization's data is preserved when you switch from Sales Professional to Sales Enterprise or vice versa.  
+          
+          More information: [Move from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise](upgrade-sales-professional-sales-enterprise.md) and [Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional](move-sales-enterprise-sales-professional.md)
 
       - question: What happens to my organization's data if my Sales Professional license expires?
         answer: |
