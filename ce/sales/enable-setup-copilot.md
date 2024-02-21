@@ -32,7 +32,7 @@ For orgs in other regions, Copilot chat and Copilot for email features are turne
 >- If you had previously turned Copilot off, it remains turned off. In this case, Copilot for email is not turned on by default, even if your org is in North America and is opted in for early access.
 >- Throughout this article, the term sales apps refers to apps that have lead and opportunity tables and are not part of the [exclusion list](sales-copilot-faq.md#which-applications-are-in-the-exclusion-list-for-copilot-in-dynamics-365-sales).
 
-Read [this FAQ](sales-copilot-faq.md#what-are-the-early-access-changes-related-to-copilot-in-2024-release-wave-1) to understand the early access changes and its effect better.
+Read [this FAQ](sales-copilot-faq.md#what-are-the-early-access-changes-related-to-copilot-in-2024-release-wave-1) to understand the changes in the early access preview and how they'll affect you and your sales teams.
 
 Use the instructions in this article to turn Copilot on or off and configure it for your business.
 
@@ -69,7 +69,7 @@ If you're in a region other than North America, provide consent for Copilot to p
 
     :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the new settings page in Dynamics 365 Sales Hub.":::  
 
-    The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform administrator turned Copilot on for your org but your Power Apps administrator turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
+    The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform admin turned Copilot on for your org but your Power Apps admin turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
 
     <a name="default-setting-copilot"></a>
 
@@ -117,7 +117,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
 1. Select **Add fields**.
 
-1. Select at least four fields, up to a maximum of 10.
+1. Select at least 4 fields, up to a maximum of 10.
 
     The **Save** button is disabled if you select fewer than 4 or more than 10 fields. If you added more than 10 fields, clear the checkbox, or select fields that you don't need and select **Delete**.
 
@@ -155,11 +155,11 @@ Copilot generates the list of recent changes for leads and opportunities from th
 
 1. Select **Save + close**.
 
-## Add the Copilot page site map entry to custom app
+## Add the Copilot page site map entry to custom sales app
 
-When you create a custom model-driven app, you can choose a default solution to create a sitemap for the app. However, the list contains solutions that are based on entity forms only. The Copilot page, the immersive, full-screen view, is based on a URL custom control and doesn't appear in the solution list. You must manually add this page to the sitemap. After you add the Copilot page, users in your organization can see it on the app’s sitemap.
-  
-Use the following URL to add the Copilot page sitemap entry to your custom app while following the steps in [add site map entry to custom app](add-custom-site-map.md):
+When you create a custom model-driven app, you can choose a default solution to create a sitemap for it. However, you can only choose solutions that are based on table forms. The immersive, full-screen Copilot page is based on a URL custom control and doesn't appear in the list of solutions. You must add it to the sitemap manually. 
+
+To add the Copilot page to your site map, [add site map entry to your custom app]((add-custom-site-map.md)) and enter or paste the following URL:
 
 `/main.aspx?&pagetype=control&controlName=PowerApps.Copilot`
 

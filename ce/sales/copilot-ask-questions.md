@@ -36,7 +36,7 @@ Copilot fetches the list based on the following conditions:
 - The records were updated in the last seven days.
 - The records are owned by you. For account records, the records are owned by you or your team.
 - The fields that were updated are [configured by your administrator](enable-setup-copilot.md#configure-fields-for-generating-whats-new-with-my-sales-records-list). If you've updated fields other than the configured fields, those records aren't listed in the response.
-- The top five records are listed if there are more than five records for a record type. Copilot picks the top five records that were most recently updated.
+- If a record type has more than five records, Copilot picks the five most recently updated ones.
 
 Hover over a record in the list and select **Get updates** to view all changes to the record in the last seven days.
 
@@ -74,7 +74,7 @@ The list of recent changes is taken from the audit history of the record. If the
 
 Copilot summarizes the last 10 updates to the record from the audit history, for the fields configured by your administrator. However, you may want to stay updated on changes to other fields that matter more to you. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
 
-Keep in mind that these fields are configured at the organization level. Make sure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
+Keep in mind that these fields are set at the organization level. Make sure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 ### See also
 
