@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 02/14/2024
+ms.date: 02/22/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -14,10 +14,6 @@ ms.custom:
   - ai-seo-date:01/30/2024
   - ai-gen-title
 ---
-
-<!-- check the wording in line 119. Something is missing - maybe "select" instead of "on"? -->
-
-
 
 # Manage solutions with SLAs
 
@@ -116,7 +112,7 @@ This section provides steps on how to create, export, import, and upgrade a solu
 1. Open the target organization in Power Apps.
 1. Go to **Solutions** > **Import Solution**.
 1. Select **Browse** and select the locally saved solution zip file.
-1. Select **Next** and then on **Import**.
+1. Select **Next** and then selct **Import**.
 
 After the import is complete, refresh the organization to view the imported solution in the list.
 
