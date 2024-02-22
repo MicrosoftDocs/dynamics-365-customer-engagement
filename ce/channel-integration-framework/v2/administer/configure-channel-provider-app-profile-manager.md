@@ -26,7 +26,7 @@ More information:
 
 ## Configure a third-party channel provider
 
-1. Go to one of the apps, and perform the following steps in [Customer Service admin center](#tab/customerserviceadmincenter)
+1. To configure, perform the following steps in [Customer Service admin center](#tab/customerserviceadmincenter)
    
     1. In the site map, select **Workspaces** in **Agent experience**. The **Workspaces** page opens.
     
