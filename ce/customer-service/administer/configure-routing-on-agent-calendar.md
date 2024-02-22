@@ -15,6 +15,8 @@ ms.custom: bap-template
 
 Configure assignment rules to route and assign cases and conversations based on agents' shift schedules imported from external workforce management (WFM) systems. By verifying agents' schedules in advance, organizations can avoid routing tasks to off-duty agents, and reduce the risk of delays. You can incorporate shift assignments and time-off considerations into the routing process to foster an employee-centric approach, and streamline operational workflows for productivity and improved retention rates.
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 ## Prerequisites
 
 - [Workforce Management for Customer Service](configure-agent-calendar.md#enable-workforce-management) is enabled in your environment.
