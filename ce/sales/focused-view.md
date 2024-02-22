@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 02/16/2024
+ms.date: 02/19/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -20,9 +20,9 @@ Focused view allows you to view and manage account, contact, lead, opportunity, 
 
 Focused view is now available for all entities, including custom entities. However, your administrator must enable it for you to access it. More information: [Enable focused view and set it as the default view](set-focused-view-as-default.md).
 
-> [!NOTE]
->
-> Focused view is similar to the sales accelerator workspace view. [Learn how to prioritize your sales pipeline through work lists](prioritize-sales-pipeline-through-work-list.md).
+>[!NOTE]
+>- Focused view is similar to the sales accelerator workspace view. [Learn how to prioritize your sales pipeline through work lists](prioritize-sales-pipeline-through-work-list.md).
+>- To view the latest updates and features of focused view, you must opt in for early access updates. Contact your administrator to enable early access updates for you. More information: [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
 
 ## Open the focused view  
 
@@ -45,7 +45,8 @@ The following image is an example of focused view for the Lead entity:
 Focused view is categorized into the following sections.
 
 1. **Switch view and command bar**: 
-   - **Switching a View**: This action allows you to change from the focused view to the list view. To do this, select the **Read Only Grid** option. The **Read Only Grid** option is only available if you have one control for the entity. If you have multiple controls, the **Show As** option is displayed instead. Select **Show As** and then choose an option to change to the required view.
+   - **Switching a View**: This action allows you to change from the focused view to the list view. To do this, select the **Read Only Grid** option. The **Read Only Grid** option is only available if you have one control for the entity. If you have multiple controls, the **Show As** option is displayed instead. Select **Show As** and then choose an option to change to the required view.  
+   If you have opted in for early access updates, the **Show As** option is displayed as first option on the command bar.  
    - **Command bar**: This feature contains actions that help you perform bulk actions on multiple records. To use it, select **More options**. You can then choose the records that you want to work with and perform the required actions.
 
 1. **Work list actions**:
