@@ -1,8 +1,8 @@
 ---
 title: Set up a multilingual contact center in the voice channel
 description: Learn how to set up a multilingual contact center in the voice channel for Omnichannel for Customer Service.
-author: kushagr-kishore
-ms.author: v-kuskishore
+author: lalexms
+ms.author: lalexms
 ms.date: 02/13/2024
 ms.topic: how-to
 ms.reviewer:
@@ -41,7 +41,7 @@ You can configure a phone number in a workstream that allows the customer to cho
 
 1. Select the type of hold and wait music you want the customer to hear.
   
-1. In Voice profile, select a voice, voice style, speaking speed, and pitch for the bot. Make sure that you select a neural voice because standard voice will be deprecated on August 31, 2024. More information: [Upgrade to Text-to-Speech Neural Voice  by 31 August 2024 | Azure updates | Microsoft Azure](https://azure.microsoft.com/en-us/updates/we-re-retiring-the-standard-voice-on-31-august-2024/)
+1. In Voice profile, select a voice, voice style, speaking speed, and pitch for the bot. Make sure that you select a neural voice because standard voice will be deprecated on August 31, 2024. More information: [Upgrade to Text-to-Speech Neural Voice  by 31 August 2024](https://azure.microsoft.com/updates/we-re-retiring-the-standard-voice-on-31-august-2024/)
 
 1. Turn on the **Post-call survey** toggle if you want the bot to present a survey to the customer at the end of the call. If this feature is turned on, the call will automatically get transferred to the survey bot after the agent hangs up.
 
