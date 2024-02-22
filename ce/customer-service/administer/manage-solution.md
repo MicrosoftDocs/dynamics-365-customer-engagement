@@ -112,7 +112,7 @@ This section provides steps on how to create, export, import, and upgrade a solu
 1. Open the target organization in Power Apps.
 1. Go to **Solutions** > **Import Solution**.
 1. Select **Browse** and select the locally saved solution zip file.
-1. Select **Next** and then selct **Import**.
+1. Select **Next** and then select **Import**.
 
 After the import is complete, refresh the organization to view the imported solution in the list.
 
