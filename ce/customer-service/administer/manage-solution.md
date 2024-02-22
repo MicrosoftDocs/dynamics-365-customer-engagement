@@ -46,7 +46,7 @@ This section provides steps on how to create, export, import, and upgrade a solu
 
 ### Export
 
-After you publish the customizations that you made while [creating the solution](#create) in step 10, you can export the solution.
+After you publish the customizations that you made while [creating the solution](#create), you can export the solution.
 
 1. On the **Export System Settings (Advanced)** dialog, select the required features to add, and then select **Next**.
 1. On the **Package Type**, select the **Unmanaged** package type, and then select **Export**.
