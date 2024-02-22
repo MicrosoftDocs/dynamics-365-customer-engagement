@@ -45,7 +45,7 @@ Some features of email engagement might be visible even when the feature is turn
 
 Review the following consideration before you use email engagement:
 
-- An email is only followed if the recipients' list contains account, contact, and lead records in the To and CC fields. If other types of records are added to the To and CC fields, the email can't be followed. In such cases, a message is displayed stating that the email can't be followed as the recipient list doesn’t contain account, lead, or contact records.
+- An email is followed only if the recipients' list contains account, contact, or lead records in the **To** or **CC** fields. If other types of records are added to the To and CC fields, the email can't be followed. In such cases, a message is displayed stating that the email can't be followed as the recipient list doesn’t contain account, lead, or contact records.
 
 ## View email engagement history
 
