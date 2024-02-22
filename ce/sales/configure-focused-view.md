@@ -1,5 +1,5 @@
 ---
-title: Configure focused view
+title: Overview of focused view
 description: Save time and improve task organization by enabling and configuring focused view, allowing sellers to easily manage CRM records and associated activities on one page.
 author: udaykirang
 ms.author: udag
@@ -14,20 +14,20 @@ ms.custom:
   - ai-seo-date:01/19/2024
 ---
 
-# Configure focused view
+# Overview of focused view
 
 In focused view, sellers can view and manage their CRM records and their associated activities on one page. This view makes it easier for sellers to stay focused on their tasks, saving time by eliminating the need to navigate through multiple screens. It also allows sellers to better organize and prioritize their tasks.
 
-As an administrator, you can do the following configuration for focused view:
+As an administrator, you can do the following configurations for focused view:
 
-- [Enable focused view in your organization](enable-focused-view.md)
 - [Configure focused view as default](set-focused-view-as-default.md)
+- [Enable focused view in your organization](enable-focused-view.md)
 
 To understand how users can view and manage records in focused view, see [View and manage records in focused view](focused-view.md).
 
-## Permissions required
+## Permissions required to use focused view
 
-As an administrator, you must provide the following permissions to users to use focused view.
+Provide the permissions to users as described in the following sections.
 
 ### View records in focused view
 
@@ -39,6 +39,6 @@ As an administrator, you must provide the following permissions to users to use 
 - At least **Read** permission for the activities, including any custom activities.
 - Ensure that the sequence related permissions are provided. More information: [Permission requirements to manage sequences](create-manage-sequences.md#permission-requirements-to-manage-sequences)
 
-### Work list card customization
+### Customize work list card
 
 - **Read**, **Write**, and **Append To** permissions to **msdyn_workqueueusersetting** entity.
