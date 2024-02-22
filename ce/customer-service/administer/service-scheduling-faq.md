@@ -1,19 +1,22 @@
 ---
 title: Service Scheduling Frequently Asked Questions (Dynamics 365 Customer Service) | MicrosoftDocs
-description: See some common questions about service scheduling and setting it up in Dynamics 365 Customer Service
+description: Find answers to common questions about service scheduling, including license requirements, availability, and resource selection.
 ms.date: 05/02/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:02/22/2024
 ---
 
-#  Service scheduling FAQ
+#  Service Scheduling FAQ
 
 Read this topic to find answers to some common questions regarding service scheduling, its legacy experience and new experience, setup, and other key concepts.
 

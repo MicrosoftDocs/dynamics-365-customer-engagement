@@ -715,9 +715,7 @@
           - name: Create resource groups
             href: create-edit-resource-group.md
         - name: Service Scheduling FAQ
-          items:
-          - name: Service Scheduling FAQ
-            href: service-scheduling-faq.md
+          href: service-scheduling-faq.md
       - name: Connected Customer Service (IoT) add-in
         items: 
         - name: Overview
