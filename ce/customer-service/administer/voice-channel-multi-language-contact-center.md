@@ -2,7 +2,7 @@
 title: Set up a multilingual contact center in the voice channel
 description: Learn how to set up a multilingual contact center in the voice channel for Omnichannel for Customer Service.
 author: lalexms
-ms.author: lalexms
+ms.author: laalexan
 ms.date: 02/13/2024
 ms.topic: how-to
 ms.reviewer:
