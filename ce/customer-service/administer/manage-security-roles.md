@@ -1,7 +1,7 @@
 ---
 title: Manage security roles in Service Scheduling | MicrosoftDocs
 description: This topic provides information on how to manage security roles in service scheduling in Dynamics 365 Customer Service.
-ms.date: 05/08/2020
+ms.date: 02/22/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -19,7 +19,7 @@ Security roles help to identify the privileges a user can exercise in the system
 
 The following standard security roles are leveraged in service scheduling:
   
-- **Scheduler Manager**. This role can set up the service scheduling experience. This role can access and set up all service scheduling entities in the system:
+- **Scheduler Manager**: This role can set up the service scheduling experience. This role can access and set up all service scheduling entities in the system:
 
    - Resources
    - Resource Categories
@@ -34,7 +34,7 @@ The following standard security roles are leveraged in service scheduling:
 
    To learn more about how to create users and assign roles to them, see [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles). 
 
-- **Scheduler**. This role can create and schedule service activities. 
+- **Scheduler**: This role can create and schedule service activities. 
 
   To ensure that all Scheduler users are able to schedule services using the new scheduling experience, they should also be assigned the **Customer Service Scheduler** and **Scheduler** roles. 
 
