@@ -46,7 +46,7 @@ For information about older versions, see [Version history archive](version-hist
 
 ## 3.4.0.882
 
-This release has improved diagnostic logging, as well as a fix for a bug where bookings [locked to a resource](booking-lock-options.md) would occasionally fail to get optimized to other time frames. In addition, this release prevents the install or upgrade of Resource Scheduling Optimization if the environment is set to [block unmanaged customizations](https://learn.microsoft.com/power-platform/alm/block-unmanaged-customizations). This flag must be disabled in order to install or upgrade Resource Scheduling Optimization.
+This release has improved diagnostic logging and fix for a bug where bookings [locked to a resource](booking-lock-options.md) would occasionally fail to get optimized to other time frames. In addition, this release prevents the install or upgrade of Resource Scheduling Optimization if the environment is set to [block unmanaged customizations](/power-platform/alm/block-unmanaged-customizations). This flag must be disabled in order to install or upgrade Resource Scheduling Optimization.
 
 
 ## 3.4.0.623
