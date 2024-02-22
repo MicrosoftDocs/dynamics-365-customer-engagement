@@ -31,14 +31,14 @@ The new scheduling experience is available to you if you have one of the followi
 
 ## Is the new scheduling experience automatically available with the next Dynamics 365 Customer Service upgrade?
 
-Scheduling in the Power Platform admin center is a customer-driven update. You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality.
+Scheduling in Customer Service workspace is a customer-driven update. You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up the scheduling experience](scheduling-experience.md)
 
 
 ## Is manual selection of resources supported in a service activity in the new scheduling experience?
 
-When you create a service activity, manual selection of resources isn't supported in the new scheduling experience in Customer Service admin center.
+When you create a service activity, manual selection of resources isn't supported in the new scheduling experience in Customer Service workspace.
 
 
 ## How do I install Core Service Scheduling from the Power Platform admin center?
