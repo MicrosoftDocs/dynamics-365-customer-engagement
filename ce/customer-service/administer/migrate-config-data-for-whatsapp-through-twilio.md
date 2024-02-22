@@ -172,7 +172,7 @@ For sample schema to get all the required records, see [Sample schema for WhatsA
     <entity name="msdyn_ocliveworkstreamcontextvariable" >
         <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa" >
             <filter type="and" >
-                <condition attribute="msdyn_streamsource" operator="eq" value="192360000" />
+                <condition attribute="msdyn_streamsource" operator="eq" value="192300000" />
                 <condition attribute="msdyn_mode" operator="eq" value="717210001" />
             </filter>
         </link-entity>
@@ -366,7 +366,7 @@ For sample schema to get all the required records, see [Sample schema for WhatsA
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah">
 			<filter type="and">
 				<condition attribute="msdyn_mode" operator="eq" value="717210001" />
-				<condition attribute="msdyn_streamsource" operator="eq" value="192360000" />
+				<condition attribute="msdyn_streamsource" operator="eq" value="192300000" />
 			</filter>
 		</link-entity>
 	</entity>
@@ -415,7 +415,7 @@ For sample schema to get all the required records, see [Sample schema for WhatsA
 			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="al">
 				<filter type="and">
 					<condition attribute="msdyn_mode" operator="eq" value="717210001" />
-					<condition attribute="msdyn_streamsource" operator="eq" value="192360000" />
+					<condition attribute="msdyn_streamsource" operator="eq" value="192300000" />
 				</filter>
 			</link-entity>
 		</link-entity>
@@ -468,7 +468,7 @@ For sample schema to get all the required records, see [Sample schema for WhatsA
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am">
 			<filter type="and">
 				<condition attribute="msdyn_mode" operator="eq" value="717210001" />
-				<condition attribute="msdyn_streamsource" operator="eq" value="192360000" />
+				<condition attribute="msdyn_streamsource" operator="eq" value="192300000" />
 			</filter>
 		</link-entity>
 	</entity>
