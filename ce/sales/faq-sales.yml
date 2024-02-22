@@ -49,7 +49,7 @@ sections:
       - question: Unable to install the Sales Professional app in my environment.
         answer: |
           You can't install the Sales Professional app in the following environments:  
-            - Dataverse eviroments
+            - Dataverse environments
             - A default environment
             - An environment with Dynamics 365 apps enabled
             - An environment without any database  
@@ -60,7 +60,7 @@ sections:
         answer: |
               Ensure that the Sales Professional app is installed properly. More information: [Install the Sales Professional app](provision-sales-professional-instance.md)  
 
-              Also, ensure that the you are added to the target environment and the Sales professional app access security role is assigned to you.
+              Also, ensure that the you are added to the target environment and the Sales Professional app access security role is assigned to you.
 
   - name: Sales Professional data
     questions:
