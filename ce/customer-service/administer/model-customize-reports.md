@@ -116,7 +116,7 @@ You need to provide report authors and viewers with **Allow recipients to build 
 
 When you select the **Customized Power BI Report** link, the Power BI workspace where the sample reports are provided appears in a lineage view. These reports are the copy of your out-of-the-box reports and can be edited and modified. You must provide access to the workspace only if your organization plans on using these copies to develop reports.
 
-Select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this Power BI workspace. If you plan to embed the report back to Dynamics 365 Customer Service, you must provide **Member** access to users to view the embedded report within the Customer Service workspace. For more information on data permissions, see [Manage dataset access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions).
+Select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this Power BI workspace. If you plan to embed the report back to Dynamics 365 Customer Service, you must provide **Member** access to users, so that supervisors can view the embedded report within the Customer Service workspace. For more information on data permissions, see [Manage dataset access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions).
 
 ## Step 4: Embed customized reports back to Dynamics 365
 
