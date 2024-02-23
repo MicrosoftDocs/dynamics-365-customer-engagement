@@ -16,6 +16,7 @@ ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
+ai-usage: ai-assisted
 ---
 
 # Copilot in Dynamics 365 Sales overview
