@@ -9,6 +9,7 @@ ms.collection:
 ms.date: 02/23/2024
 ms.custom: bap-template
 ---
+
 # Configure routing based on external schedules (preview)
 
 [This article is prerelease documentation and is subject to change.]
