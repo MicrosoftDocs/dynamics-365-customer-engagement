@@ -36,11 +36,11 @@ Supervisors can use the Agent forecasting for conversation report in the followi
 
 - Visualize forecasted conversation volumes and agent demand on a daily basis, for a time range up to six months depending on how many days of cases were created in the past. This forecast can be used to plan agent resourcing and recruitment, to meet future demand.
 
-- Visualize forecasted conversation volumes and agent demand on a 15-minute interval basis, for a time range up to 6 weeks depending on how many days of cases were created in the past. This forecast can be used to schedule agents to meet the near-term demand.
+- Visualize forecasted conversation volumes and agent demand on a 15-minute interval basis, for a time range up to six weeks depending on how many days of cases were created in the past. This forecast can be used to schedule agents to meet the near-term demand.
 
 - Slice forecasted volumes and agent demand by channel and queue.
 
-- View rollup of actual and forecasted volume by hourly, daily, weekly, monthly and yearly basis. For agent demand report, option to select the type of rollup from Maximum, Minimum, Average and Sum.
+- View rollup of actual and forecasted volume by hourly, daily, weekly, monthly, and yearly basis. For agent demand report, option to select the type of rollup from maximum, minimum, average, and sum.
 
 - Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This automatic detection helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
 
@@ -56,7 +56,7 @@ Supervisors can use the Agent forecasting for conversation report in the followi
 The forecast report for conversations uses an AI-backed forecasting model to predict conversation volumes based on historical conversation data. The model uses ensemble forecasting methodology with seasonality support (automatic detection and custom settings) to enhance the quality of forecasting.
 The forecast report for agents for conversations uses a statistical model to calculate the agent demand from the forecasted volumes.
 
-The report can forecast daily trends for a date range up to six months, and intra day (15-minute interval) trends for a date range up to six weeks, depending on how many days of historical data are available and used. In general, the model can forecast for a period that is half of the input date range, with the following conditions:
+The report can forecast daily trends for a date range up to six months, and intraday (15-minute interval) trends for a date range up to six weeks, depending on how many days of historical data are available and used. In general, the model can forecast for a period that is half of the input date range, with the following conditions:
 
 - For the daily conversation volume and agent demand forecast, if the historical data time range is less than 12 months, the forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for the next four months. If the historical range equals or is more than 12 months (up to 24 months), the report forecasts for the next six months.
 - For the intraday (15-minute interval) conversation volume and agent demand forecast, the model only analyzes the recent six weeks of historical data. The time range of forecast is half of the total input time range. For example, 12 weeks historical date range can forecast for the next six weeks (which is the maximum). Out of these 12 weeks of historical data, only the recent six weeks are analyzed to generate the forecast.
@@ -117,15 +117,15 @@ For users in your organization to be able to access the forecast reports, they m
    - **Shrinkage (%)**: The percentage of time agents are unavailable to handle conversations. If you increase this number, the percentage of time that the agents are unavailable goes up, which means you would need more agents to meet the service-level agreement.
    - **Concurrency (#)**: The number of simultaneous interactions per agent. For voice calls, this value should be set to one. For chats and messaging channels, this value can be set as desired.
 
-1. (Optional) If you want to override the values that are set in the **Global Forecasting configuration** for specific channels, you can use the settings in **Override Channel Forecasting configuration** to set values for each channel that's available in your organization. Any settings you don't change in the override remain as set at the global level. To specify overrides for one or more channels, do the following:
+1. (Optional) If you want to override the values that are set in the **Global Forecasting configuration** for specific channels, you can use the settings in **Override Channel Forecasting configuration** to set values for each channel that's available in your organization. Any settings you don't change in the override remain as set at the global level. To specify overrides for one or more channels, do the following actions:
 
     - Select the channels you want to specify overrides for in the **Select channels to override configuration** dropdown list. Once selected, click on the **Add to override** button.
     - An override section for each channel that you selected is added to the configuration page. Specify the overrides for the channel. You do not need to override all values. Any value that you don't override uses the value specified in the **Global Forecasting configuration** section.
-    - To remove a channel override, click on the **Remove this channel override** link in the override section for that channel. You'll be prompted to confirm the remove action.
+    - To remove a channel override, click on the **Remove this channel override** link in the override section for that channel. You're prompted to confirm the remove action.
 
    An example of when an override might be useful is if you have both voice and chat channels. The **Concurrency (#)** setting in **Global Forecasting configuration** would be set to one for the voice channel, but then you could use the **Live Chat-override** setting to change the chat concurrency to a higher frequency, such as three.
   
-1. Save your changes. If this is the first time you’ve enabled the forecast feature, it may take up to 24 hours until the forecasting data is ready to view in the forecast report.
+1. Save your changes. If you enabled the forecast feature for the first time, it may take up to 24 hours until the forecasting data is ready to view in the forecast report.
 
 ### See also
 
