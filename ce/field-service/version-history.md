@@ -19,12 +19,12 @@ For information about older versions, see [Version history archive](version-hist
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.108.10](/dynamics365/field-service/version-history#8810810)  | TBD |03/01/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[8.8.107.25](/dynamics365/field-service/version-history#8810725)  | [8.8.108.10](/dynamics365/field-service/version-history#8810810) |02/23/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.108.10](/dynamics365/field-service/version-history#8810810)  | TBD |03/08/2024 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.107.25](/dynamics365/field-service/version-history#8810725)  | [8.8.108.10](/dynamics365/field-service/version-history#8810810) |03/01/2024 |
-| | *USG* |[8.8.107.25](/dynamics365/field-service/version-history#8810622)  | [8.8.108.10](/dynamics365/field-service/version-history#8810810) |02/23/2024 |
+| | *USG* | [8.8.108.10](/dynamics365/field-service/version-history#8810810)  | TBD |03/08/2024 |
 |**Station 4** |*Europe* |  [8.8.107.25](/dynamics365/field-service/version-history#8810725)  | [8.8.108.10](/dynamics365/field-service/version-history#8810810) |03/08/2024 |
-|**Station 5** | *North America*|  [8.8.106.22](/dynamics365/field-service/version-history#8810622)  | [8.8.107.25](/dynamics365/field-service/version-history#8810725) |02/23/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.106.22](/dynamics365/field-service/version-history#8810622)  | [8.8.107.25](/dynamics365/field-service/version-history#8810725) |02/23/2024 |
+|**Station 5** | *North America*|  [8.8.107.25](/dynamics365/field-service/version-history#8810725)  | [8.8.108.10](/dynamics365/field-service/version-history#8810810) |03/15/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.107.25](/dynamics365/field-service/version-history#8810725)  | [8.8.108.10](/dynamics365/field-service/version-history#8810810) |03/15/2024 |
 | | *Dedicated Scale Groups* |   [8.8.106.22](/dynamics365/field-service/version-history#8810622)  | [8.8.107.25](/dynamics365/field-service/version-history#8810725) |03/01/2024 |
 >[!NOTE]
 >
