@@ -183,15 +183,15 @@ additionalContent:
     items:
         # Card
         
-        - title: Microsoft Sales Copilot
+        - title: Microsoft Copilot for Sales
           summary: Use Microsoft 365 applications to automatically capture, access, and register data into any CRM system. 
           url: /Viva/sales/introduction
         - title: Customer Insights
           summary: Connect data from various transactional, behavioral, and observational sources to create a 360-degree customer view.
           url: /dynamics365/customer-insights/
-        - title: Marketing
+        - title: Dynamics 365 Customer Insights - Journeys
           summary: Orchestrate personalized journeys across all touchpoints to strengthen customer relationships and earn their loyalty.
-          url: /dynamics365/marketing/help-hub
+          url: /dynamics365/customer-insights/journeys/index
         - title: LinkedIn Sales Navigator
           summary: Use LinkedIn Sales Navigator to enhance key application scenarios by connecting the system of record with the LinkedIn data graph and insights.
           url: /dynamics365/linkedin/integrate-sales-navigator

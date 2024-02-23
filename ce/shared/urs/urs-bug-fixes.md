@@ -1,3 +1,4 @@
+
 ## Release schedule
 
 When a new version of Universal Resource Scheduling releases, it becomes available in different geographic regions at different times. Use the table below to see estimates for when the next release will become available in the region of your environment.
@@ -7,20 +8,57 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016)  | TBD | 01/12/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |[3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 12/15/2023  |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 01/12/2024  |
-| | *USG* | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 12/15/2023  |
-|**Station 4** |*Europe* |  [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 01/19/2024  |
-|**Station 5** |  *North America*|  [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 01/26/2024  |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 01/26/2024  |
-| | *Dedicated Scale Groups* |[3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819) | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927) | 12/15/2023 |
-
+|**Station 1** |  *First Release*| [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | TBD | 03/01/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |[3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | 02/23/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | 03/01/2024 |
+| | *USG* | [3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | 02/23/2024 |
+|**Station 4** |*Europe* |   [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118)  | [3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | 03/08/2024 |
+|**Station 5** |  *North America*| [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118)  | [3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | 02/23/2024 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118)  | [3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | 02/23/2024 |
+| | *Dedicated Scale Groups* |[3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118)  | [3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | 03/01/2024 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.123.34
+
+**Resource Scheduling Controls:** 1.2.62.240451
+
+**Dataverse:**  4.0.113.34
+
+## 3.12.126.1 - 2024 Wave 1 Early Access
+
+**Resource Scheduling Controls:** 1.2.65.240241
+
+**Dataverse:** 4.0.116.1
+
+- Booking templates now feature updated colors and color picking tools.
+- Fixed a bug that was impacting requirement grid column filters for some users.
+
+
+## 3.12.122.50
+
+**Resource Scheduling Controls:** 1.2.61.240223
+
+**Dataverse:** 4.0.112.50
+
+- Minor user experience bug fixes for requirement groups, map pins, and service territories.
+
+## 3.12.121.18
+
+**Resource Scheduling Controls:** 1.2.60.240112
+
+**Dataverse:** 4.0.111.21
+
+- Released new **Specify Pattern** version to break down long-duration or complex requirements.
+- Bookings made in the Booking pane can now be set to any time granularity. 
+- Fixed a bug where resources marked to not show on the schedule board were listed in the *Move to* dropdown.
+- The number of child resources for pools and crews now show on the schedule board.
+- Additional capacity of a resource now shows on the schedule board when available. 
+- Booking rules now support HTML tags.
+- The *Service territory* field on the *Select resource* filter now supports free text.
 
 ## 3.12.120.16
 

@@ -1,11 +1,16 @@
 ---
-title: "Enable sentiment analysis | MicrosoftDocs"
-description: "How to enable sentiment analysis for Omnichannel Ongoing Conversation dashboard in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+title: Enable real-time customer sentiment with sentiment analysis
+description: Analyze real-time customer sentiment to improve team performance and customer satisfaction.
+ms.date: 12/21/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-seo-date:12/21/2023
+  - ai-gen-desc
 ---
 
 # Analyze real-time customer sentiment
@@ -29,7 +34,7 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
 
 ### Enable sentiment analysis
 
-You can enable the sentiment analysis feature in the Customer Service admin center or Omnichannel admin center app.
+You can enable the sentiment analysis feature in the Customer Service admin center or Omnichannel admin center (deprecated) app.
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -40,7 +45,9 @@ You can enable the sentiment analysis feature in the Customer Service admin cent
 
      The **Sentiment analysis** page is displayed.       
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      1. In the site map, select **Agent experience** in **Advanced settings**. The **Agent experience** page appears.
      2. In the **Sentiment analysis** section, select **Manage**.
@@ -56,7 +63,7 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 
 ## Agent settings
 
-Agents can view the customer sentiment in the communication panel for a conversation session that is active and in focus. For a session that is not in focus, the alert is shown on the session panel.
+Agents can view the customer sentiment in the communication panel for a conversation session that is active and in focus. For a session that isn't in focus, the alert is shown on the session panel.
 
 You can show alerts to the agents when a customer's sentiment decreases to or below a particular value. You can set the customer's sentiment to any of the following values:
 

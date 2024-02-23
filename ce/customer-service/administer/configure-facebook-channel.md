@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service.
-ms.date: 12/06/2023
+ms.date: 01/11/2024
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Many customers use social messaging channels for their personal communication needs. Many also prefer using messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of resolving their issues as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window closes.
+Many customers use social messaging channels like Facebook for their personal communication needs. Many also prefer using messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time. This ability contrasts with real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window closes.
 
 > [!NOTE]
 > If you use access tokens in Facebook, refresh them on a 60-day schedule or as required because the tokens might randomly expire. More information: [Facebook access tokens](https://developers.facebook.com/docs/pages/access-tokens)
@@ -25,9 +25,20 @@ Make sure that the following prerequisites are met:
 - Create a Facebook page. More information: [Create and Manage a Page](https://www.facebook.com/help/135275340210354/?helpref=hc_fnav)
 - Enable Messenger. More information: [Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav)
 - Create a Facebook application. More information: [App Development](https://developers.facebook.com/docs/apps/)
-- Add Messenger and Webhooks to the Facebook application. More information: [Setting Up Your Facebook App](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup/)
-- If you use a test environment, set up test accounts in Facebook so that agents can send and receive messages in Omnichannel for Customer Service.
+- Sign in to the [developer site on Facebook](https://developers.facebook.com/) or create an account, and then complete the following steps:
+   1. Select **My Apps**, and then select **Create app**.
+   1. On the **What do you want your app to do?** page, select **Other**, and then select **Next**.
+   1. On the **Select an app type** page, select **Business**, and then type your app's name and contact email address.
+   1. On the **Add products to your app** page, select **Messenger**, and then select **Set up**.
+   1. On the Messenger settings page, select **Add or remove Pages**, and then add the Facebook page you created. After you add the page, you see the Page ID and the option to generate a token.
+- If you're using a test environment, set up test accounts in Facebook so that agents can send and receive messages in Omnichannel for Customer Service: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
 - Values for application ID and application secret from the **App ID** and **App Secret** fields in the Facebook application > **Settings** > **Basic**.
+
+## Privacy notice
+
+If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). More information: [Connect a bot to Facebook]/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
+
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users might be monitored, recorded, or stored.
 
 ## Roles and permissions
 
@@ -35,7 +46,7 @@ The following Facebook roles and permissions are required for integrating your F
 
 - Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from Omnichannel for Customer Service. The app owner must provide the `pages_messaging` permission for users to be able to send messages. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
 
-- If the Facebook app that you’re using is in development mode, then only those Facebook users who have roles within the app can send messages to the Facebook page; the messages can be received by or forwarded to Omnichannel for Customer Service. More information: [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/)
+- If the Facebook app that you’re using is in development mode, only those Facebook users who have roles within the app can send messages to the Facebook page. The messages can be received by or forwarded to Omnichannel for Customer Service. More information: [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/)
 
 - For Omnichannel for Customer Service to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. More information: [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access)
 
@@ -57,7 +68,9 @@ To configure a Facebook channel, the following steps are required:
     
     1. In **Accounts**, for **Messaging accounts**, select **Manage**.
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
 
     - In the site map, in **General settings**, select **Channels**.
 
@@ -67,21 +80,31 @@ To configure a Facebook channel, the following steps are required:
 
    1. On the **Channel details** page, enter a name and select Facebook in **Channels**.
 
-   1. On the **Account details** page, in the **Application ID** and **Application secret** fields, specify the Facebook App ID and App secret that you copied from the Facebook application.
+   1. On the **Add account** page, in the **Application ID** and **Application secret** fields, specify the Facebook App ID and App secret that you copied from the Facebook application.
 
-   1. On the **Facebook pages** page, complete the following steps:
-      - Select **Add**, and then in the **Add Facebook Page** pane, enter the following details:
-        - **Page name:** Name of the Facebook page.
-        - **Page ID:** ID of the Facebook page. To get the page ID, go to your Facebook page, select About, and copy the value in the Page ID field.
-        - **Page access token:** Specify the Page access token of the Facebook application. To get the page access token, go to your Facebook application and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
+   1. On **Add Facebook Pages to this account**, do the following steps:
 
-   1. On the **Callback information** page, the **Callback URL** and **Verify token** fields are populated automatically when you save the settings. Use the information to configure webhooks in the Facebook application. The values for the fields aren't generated if the Facebook page is reused across multiple instances of the channel.
+   1. Select **Add**, and in the **Add Facebook Page** pane, enter the following details:
+      - **Page name:** Name of the Facebook page.
+      - **Page ID:** ID of the Facebook page. To get the page ID, go to your Facebook page, select About, and copy the value in the Page ID field.
+      - **Page access token:** Specify the Page access token of the Facebook application. To get the page access token, go to your Facebook application and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
+      - On the **Callback information** page, the **Callback URL** and **Verify token** fields are populated automatically when you save the settings. Use the information to configure webhooks in the Facebook application. The values for the fields aren't generated if the Facebook page is reused across multiple instances of the channel.
+
+1. Navigate back to the **Facebook Application Messenger settings** page, and then add the callback URL.
+
+1. Select **Add subscriptions for the page**, and then on the **Edit page subscriptions** page, select **messages**.
+
+1. Save your changes.
+
+1. Open Customer Service admin center, and then go to **Channels** > **Messaging Accounts** > **Your FB Account**.
+
+1. On the **Account settings** page, select the **Facebook Pages** tab, and then verify that the **Provisioning state** shows as **Running**.
 
 ### Create a Facebook workstream
 
 1. To configure routing and work distribution, perform the steps outlined in [create a workstream](create-workstreams.md).
 
-1. Select the workstream that you created for the Facebook channel and on the workstream page, select **Set up Facebook**, and do the following steps:
+1. Select the workstream you created for the Facebook channel and on the workstream page, select **Set up Facebook**, and do the following steps:
    
    1. In the **Facebook Page** area, select a page from the list.
    
@@ -92,7 +115,7 @@ To configure a Facebook channel, the following steps are required:
       - [Post-conversation survey](configure-post-conversation-survey.md)
    1. On the **User features** page, configure the following options:
       - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md). The availability and support of media is dependent on the Facebook application settings. More information: [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates)
-      - **Facebook message tag:** Set to **Yes** to enable your agents to message customers after 24 hours pass. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message.
+      - **Facebook message tag:** Set to **Yes** to enable your agents to message customers after 24 hours pass. When set to **No**, agents are unable to respond to customers after 24 hours unless the customer sends another message.
 
       If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
 
@@ -133,12 +156,6 @@ The customer can send attachments only if you enable them. When the option isn't
 
 > [!div class=mx-imgBorder]
 > ![Customer sending file.](../media/fb-customer1.png "Customer sending file")
-
-## Privacy notice
-
-If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). More information: [Connect a bot to Facebook]/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
-
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 ### Configure a Facebook channel in Omnichannel Administration
 
@@ -261,8 +278,8 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
 [Understand and create workstreams](create-workstreams.md)  
 [Create and manage routing rules](../routing-rules.md)  
 [Configure automated messages](configure-automated-message.md)  
-[Configure a pre-conversation survey](configure-pre-chat-survey.md)  
-[Configure a post-conversation survey](configure-post-conversation-survey.md)  
+[Configure a prechat survey](configure-pre-chat-survey.md)  
+[Configure a post conversation survey](configure-post-conversation-survey.md)  
 [Delete a configured channel](delete-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 

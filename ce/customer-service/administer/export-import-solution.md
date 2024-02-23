@@ -1,24 +1,27 @@
 ---
-title: "Export or import a solution in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to export or import a solution in Dynamics 365 Customer Service."
-ms.date: 05/11/2022
-ms.topic: article
+title: Enable calendar export and import with SLAs
+description: Enable the export or import of a calendar with its corresponding SLAs from the Customer Service admin center or Customer Service Hub app.
+ms.date: 02/14/2024
+ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
+  - bap-template
   - dyn365-customerservice
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-seo-date:02/13/2024
+  - ai-gen-desc
 ms.collection: get-started
 ---
 
-# Export and import a solution with SLAs
+# Enable calendar export and import with SLAs
 
-You can replicate the SLA settings in another environment by exporting the solution containing the SLAs. During the export, all the related components and their dependencies will also be exported.
-
-You can also export or import a calendar with its corresponding SLAs by enabling the calendar import and export option.
+You can replicate the SLA settings in another environment by exporting the solution containing the SLAs. During the export, all the related components and their dependencies are also exported. You can export or import a calendar with its corresponding SLAs by enabling the calendar import and export option.
 
 ## Export or import a calendar with SLAs
 
@@ -31,7 +34,9 @@ You can enable the export or import of a calendar either from the Customer Servi
     1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
     1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** page appears.
 
-    ### [Customer Service Hub](#tab/customerservicehub)
+    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     - In the site map, go to **Service Management** and select **Service Configuration Settings** in **Service Terms**. The **Service Configuration Settings** page appears.
    
@@ -49,9 +54,9 @@ You can enable the export or import of a calendar either from the Customer Servi
 
 We recommend that you perform the following steps to upgrade a solution:
 
-1. Deactivate the SLAs that have been brought through the previous version of the solution. The status of these SLAs will change to Draft.
+1. Deactivate the SLAs that were brought through the previous version of the solution. The status of these SLAs changes to Draft.
 2. Upgrade your solution.
-3. After the solution has been successfully upgraded, activate the SLAs as required.
+3. After the solution is successfully upgraded, activate the SLAs as required.
 
 ### See also
 

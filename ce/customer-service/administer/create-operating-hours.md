@@ -1,7 +1,7 @@
 ---
-title: "Create and manage operating hours | MicrosoftDocs"
-description: "Perform the steps mentioned in the article to create, manage, and define operating hours in Omnichannel for Customer Service."
-ms.date: 10/03/2022
+title: Create and manage operating hours | MicrosoftDocs
+description: Perform the steps mentioned in the article to create, manage, and define operating hours in Omnichannel for Customer Service.
+ms.date: 01/24/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,7 +25,9 @@ The operating hour schedules cater to the following scenarios:
 
 After you define the business hours for your organization and set up [automated messages](configure-automated-message.md) to be displayed to customers, when customers interact through a channel during non-business hours, they will see the messages that you've set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am and 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they'll receive responses that you've set.
 
-In Customer Service admin center and Omnichannel admin center, after you've created an operating hour record, you can do the following steps, depending on your requirement:
+In the Customer Service admin center or Omnichannel admin center (deprecated) app, after you've created an operating hour record, you can do the following steps, depending on your requirement:
+
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 - **Queues:** Configure the operating hour on the main page of the queue.
 - **Chat widget:** Add the operating hour record on the **Chat widget** tab.
@@ -33,13 +35,7 @@ In Customer Service admin center and Omnichannel admin center, after you've crea
 
 In Omnichannel Administration, you can add the operating hour record on the **Design** tab of the appropriate chat widget to control the display of the widget. For SMS channels and queues, the operating hour record will be available for selection on the **General** and **Summary** tabs respectively.
 
-## How work items are routed when operating hours are set
-
-When operating hours are in effect, work items during non-business hours are handled based on the channel they come through.
-
-For live chat and voice, the conversations and calls are routed to the queue and then closed.
-
-For asynchronous channels, such as SMS and WhatsApp, if pick-based option is configured, the conversations remain in the open state till agents sign in and take up the assignments. If push-based option is configured, the assignment method that's configured will be used to route the conversations.
+When operating hours are in effect, work items during non-business hours are handled based on the [overflow action that is set in overflow handling](manage-overflow.md#configure-overflow-conditions).
 
 ## Create a record to define operating hours
 
@@ -54,7 +50,7 @@ You can define operating hours in the Customer Service admin center or Customer 
 
        The **Active Operating Hours** view is displayed. You can switch between various system views using the drop-down list.  
 
-   ### [Omnichannel admin center](#tab/Omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/Omnichanneladmincenter)
 
     1. In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
     1. In the **Operating Hours** section, select **Manage**.
@@ -135,7 +131,7 @@ You can add operating hours to a queue that can later be configured for a social
 Do the following to specify operating hours for a queue:
 
 1. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
-
+   
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Queues** in **Customer Support**. The **Queues** page appears.
@@ -143,7 +139,7 @@ Do the following to specify operating hours for a queue:
 
        The **Queues** view is displayed.
 
-   ### [Omnichannel admin center](#tab/Omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/Omnichanneladmincenter)
 
     - In the site map, select **Queues** in **General settings**. The **Queues** page appears.
 

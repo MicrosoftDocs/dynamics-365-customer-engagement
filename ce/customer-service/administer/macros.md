@@ -325,7 +325,9 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     
     1. For **Macros**, select **Manage**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
     1. In the site map, in **Advanced settings**, select **Agent experience**.
     

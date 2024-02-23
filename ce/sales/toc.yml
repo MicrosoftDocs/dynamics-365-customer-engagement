@@ -22,7 +22,7 @@
       href: create-quote-pdf.md
     - name: View and manage records in focused view
       href: focused-view.md
-    - name: Set focused view as the default view
+    - name: Enable focused view and set it as default
       href: set-focused-view-as-default.md
     - name: Work with views
       href: work-with-views.md
@@ -109,6 +109,8 @@
           href: change-color-scheme-logo.md
         - name: Customize the app
           href: manage-app.md
+        - name: Add site map entry to custom app
+          href: add-custom-site-map.md  
   - name: Upgrade
     items:
       - name: Upgrade from Dynamics 365 Sales Professional
@@ -159,8 +161,6 @@
               href: match-fields-between-dynamics365-zoominfo.md
             - name: Customize the ZoomInfo app
               href: customize-zoominfo-app.md
-        - name: Set focused view as the default view
-          href: set-focused-view-as-default.md
     - name: Set up Copilot
       items:
       - name: Copilot overview
@@ -173,6 +173,13 @@
         href: sales-copilot-data-movement.md
       - name: Copilot in Dynamics 365 Sales FAQ
         href: sales-copilot-faq.md
+    - name: Overview of focused view
+      href: configure-focused-view.md
+      items:
+      - name: Configure focused view as default
+        href: set-focused-view-as-default.md
+      - name: Enable focused view for all records
+        href: enable-focused-view.md
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -279,8 +286,6 @@
               href: pls-duplicate-models.md
             - name: Add lead scoring widget to a form
               href: pls-add-widget.md
-        - name: Set focused view as the default view
-          href: set-focused-view-as-default.md
     - name: Opportunity management
       items:
         - name: Opportunity management overview
@@ -309,8 +314,6 @@
               href: pos-add-widget.md
         - name: Add the Kanban control to Opportunity or Activity entities
           href: add-kanban-control.md
-        - name: Set focused view as the default view
-          href: set-focused-view-as-default.md
     - name: Product and price list management
       items:
         - name: Set up a product catalog
@@ -367,6 +370,8 @@
           href: customize-quote-closure.md
     - name: Forecast management
       items:
+        - name: Overview of sales forecasting
+          href: project-accurate-revenue-sales-forecasting.md      
         - name: Configure forecasts in your organization
           href: configure-forecast.md
         - name: Select a template
@@ -411,8 +416,6 @@
           href: configure-premium-forecasting.md
         - name: View prediction model status
           href: view-prediction-model-status.md
-        - name: Add forecast grid and configuration options in site map
-          href: add-forecast-site-map.md
     - name: Goal management
       items:
         - name: Process for setting goals
@@ -437,8 +440,6 @@
               href: customize-workspace-sales-accelerator.md
             - name: Add the Up next widget to an entity form
               href: add-upnext-widget-form.md
-            - name: Add the sales accelerator site map entry to custom app
-              href: add-sales-accelerator-sitemap-entry-custom-app.md
         - name: Create conditional workflows with sequences
           href: create-manage-sequences.md
           items:
@@ -499,7 +500,7 @@
                   href: wa-create-and-activate-a-segment.md
                 - name: Connect segments to sequences
                   href: wa-connect-a-segment-to-sequence.md
-                - name: Edit segments
+                - name: Copy and edit segments
                   href: wa-edit-a-segment.md
                 - name: Delete segments
                   href: wa-delete-deactivate-a-segment.md
@@ -517,6 +518,8 @@
                   href: understand-lead-distributions-assignment-rules.md
             - name: View and assign unassigned records
               href: wa-manage-unassigned-records.md
+            - name: Migrate assignment rules and segments
+              href: wa-migrate-assignment-rules-segments.md  
             - name: Examples for assignment rules and segments
               href: wa-examples.md
         - name: Get seller insights to improve seller effectiveness
@@ -603,12 +606,18 @@
           items:
             - name: Set up conversation intelligence in Sales Hub app
               href: fre-setup-ci-sales-app.md
+            - name: Set up own storage for call recordings
+              href: create-azure-repo.md
             - name: Configure sales team level settings
               href: configure-sales-team-level-settings.md
             - name: Configure and view your team page in sales app
               href: configure-view-your-team-page-sales-app.md
             - name: Configure conversation content
               href: configure-keywords-competitors-sales-app.md
+            - name: Prepare for the migration to Dataverse
+              href: prepare-for-ci-migration-to-dataverse.md
+            - name: Manage conversation intelligence data in Dataverse
+              href: conversation-intelligence-data-storage.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
         - name: Configure in conversation intelligence app
@@ -627,8 +636,6 @@
           href: ci-third-party-sp-integration.md
         - name: Integrate with Twilio Flex (preview)
           href: Integrate-TwilioFlex-with-CI.md
-        - name: Create a call recording repository in Azure
-          href: create-azure-repo.md
         - name: Languages supported
           href: language-support-conversation-intelligence.md
     - name: Dashboards and reports
@@ -807,8 +814,6 @@
               href: email-engagement.md
             - name: Send email messages
               href: create-send-email-message.md
-            - name: Understand email history
-              href: understand-email-history.md
             - name: Honor privacy preferences
               href: configure-individuals-privacy-preferences.md
         - name: How notes analysis assists you with suggestion
@@ -900,7 +905,7 @@
           href: add-products-qoi-enhanced.md
     - name: Forecast management
       items:
-        - name: Project accurate revenue with sales forecasting
+        - name: Overview of sales forecasting
           href: project-accurate-revenue-sales-forecasting.md
         - name: View a forecast
           href: view-forecasts.md
@@ -912,8 +917,10 @@
           href: view-and-manage-underlying-opportunities.md
         - name: Adjust values in a forecast
           href: adjust-values-in-forecast.md
-        - name: Maintain up to date forecast data
+        - name: Recalculate forecasts manually
           href: keep-forecast-data-up-to-date.md
+        - name: Forecast recalculation methods
+          href: forecast-recalculation-methods.md
         - name: Analyze revenue outcome using predictive forecasting
           href: analyze-revenue-outcome-using-predictive-forecasting.md
         - name: Understand forecast projection through trend chart
@@ -1222,6 +1229,36 @@
           href: developer/entities/metric.md
         - name: msdyn_callablecontext
           href: developer/entities/msdyn_callablecontext.md
+        - name: About Table/Entity Reference
+          href: developer/about-entity-reference.md
+        - name: msdyn_ConversationActionItem
+          href: developer/entities/msdyn_conversationactionitem.md
+        - name: msdyn_ConversationAggregatedInsights
+          href: developer/entities/msdyn_conversationaggregatedinsights.md
+        - name: msdyn_ConversationParticipantInsights
+          href: developer/entities/msdyn_conversationparticipantinsights.md
+        - name: msdyn_ConversationParticipantSentiment
+          href: developer/entities/msdyn_conversationparticipantsentiment.md
+        - name: msdyn_ConversationQuestion
+          href: developer/entities/msdyn_conversationquestion.md
+        - name: msdyn_ConversationSentiment
+          href: developer/entities/msdyn_conversationsentiment.md
+        - name: msdyn_ConversationSignal
+          href: developer/entities/msdyn_conversationsignal.md
+        - name: msdyn_ConversationSubject
+          href: developer/entities/msdyn_conversationsubject.md
+        - name: msdyn_ConversationSummarySuggestion
+          href: developer/entities/msdyn_conversationsummarysuggestion.md
+        - name: msdyn_ConversationSystemTag
+          href: developer/entities/msdyn_conversationsystemtag.md
+        - name: msdyn_ConversationTag
+          href: developer/entities/msdyn_conversationtag.md
+        - name: msdyn_ocrecording
+          href: developer/entities/msdyn_ocrecording.md
+        - name: msdyn_SCIConversation
+          href: developer/entities/msdyn_sciconversation.md
+        - name: msdyn_transcript
+          href: developer/entities/msdyn_transcript.md
         - name: Opportunity
           href: developer/entities/opportunity.md
         - name: OpportunityClose

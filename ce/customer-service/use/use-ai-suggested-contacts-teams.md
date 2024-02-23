@@ -5,6 +5,7 @@ ms.date: 01/18/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.collection: bap-ai-copilot
 ---
 
 # Collaborate with AI-suggested contacts in Microsoft Teams

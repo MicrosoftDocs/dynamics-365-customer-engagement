@@ -3,7 +3,7 @@ title: Set up a multilingual contact center in the voice channel
 description: Learn how to set up a multilingual contact center in the voice channel for Omnichannel for Customer Service.
 author: lalexms
 ms.author: laalexan
-ms.date: 11/22/2022
+ms.date: 02/22/2024
 ms.topic: how-to
 ms.reviewer:
 ms.collection:
@@ -30,7 +30,9 @@ You can configure a phone number in a workstream that allows the customer to cho
    
 ## Add a phone number to the workstream and configure language settings
 
-1. In Customer Service admin center or Omnichannel admin center, go to the voice workstreams, and then select the workstream to configure the phone number.
+1. In the Customer Service admin center or Omnichannel admin center (deprecated) app, go to the voice workstreams, and then select the workstream to configure the phone number.
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 1. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select the number to add to the workstream, and then select **Next**.
 
@@ -38,8 +40,8 @@ You can configure a phone number in a workstream that allows the customer to cho
    The **Primary language** is the first language the bot uses to greet the customer. This allows your organization to have one phone number that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
 
 1. Select the type of hold and wait music you want the customer to hear.
-
-1. In **Voice profile**, select a voice, voice style, speaking speed, and pitch for the bot.
+  
+1. In Voice profile, select a voice, voice style, speaking speed, and pitch for the bot. Make sure that you select a neural voice because standard voice will be deprecated on August 31, 2024. More information: [Upgrade to Text-to-Speech Neural Voice  by 31 August 2024](https://azure.microsoft.com/updates/we-re-retiring-the-standard-voice-on-31-august-2024/)
 
 1. Turn on the **Post-call survey** toggle if you want the bot to present a survey to the customer at the end of the call. If this feature is turned on, the call will automatically get transferred to the survey bot after the agent hangs up.
 

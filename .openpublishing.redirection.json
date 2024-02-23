@@ -21,6 +21,16 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/add-sales-accelerator-sitemap-entry-custom-app.md",
+      "redirect_url": " /dynamics365/sales/enable-configure-sales-accelerator#add-sales-accelerator-site-map-entry-to-custom-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/add-forecast-site-map.md",
+      "redirect_url": "/dynamics365/sales/project-accurate-revenue-sales-forecasting#add-forecast-grid-and-configuration-site-map-entries-to-custom-app",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/learning-catalog.md",
       "redirect_url": "/training/dynamics365/sales",
       "redirect_document_id": "false"
@@ -906,6 +916,11 @@
     {
       "source_path": "ce/customer-service/administer/copilot-data-movement.md",
       "redirect_url": "/power-platform/admin/geographical-availability-copilot",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/develop/rich-text-editor-ka.md",
+      "redirect_url": "administer/rich-text-editor-ka",
       "redirect_document_id": "false"
     },
     {
@@ -32581,6 +32596,11 @@
     {
       "source_path": "ce/customer-service/set-up-search-providers.md",
       "redirect_url": "/dynamics365/customer-service/administer/set-up-search-providers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-troubleshooting.md",
+      "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
       "redirect_document_id": false
     }
   ]

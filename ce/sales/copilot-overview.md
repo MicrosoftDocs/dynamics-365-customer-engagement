@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 12/18/2023
+ms.date: 02/07/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -12,16 +12,18 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:10/02/2023
 search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
+ai-usage: ai-assisted
 ---
 
 # Copilot in Dynamics 365 Sales overview
 
 Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on recent changes to their records, prepare for meetings, and read the latest news about their accounts.
 
-Copilot is also available as an add-in in Outlook and an integrated app in Teams. With it, sellers can capture, view, and update their customer account data in the apps they use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Sales Copilot](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
+Copilot is also available as an add-in in Outlook and an integrated app in Teams. With it, sellers can capture, view, and update their customer account data in the apps they use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Copilot for Sales](/microsoft-sales-copilot/introduction)(formerly known as Microsoft Sales Copilot) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
 
 Copilot is turned on by default for tenants in North America, in all Sales apps that have lead and opportunity entities. If your tenant is in a different region, an admin needs to [turn on Copilot manually](enable-setup-copilot.md).
 
@@ -38,23 +40,24 @@ Copilot offers the following capabilities:
 
 ### Record summarization
 
-Record summarization gives you a quick summary of your opportunity and lead records. Copilot generates the summary from predefined fields. An admin can change the fields that Copilot uses to generate the summary. Your entire sales team should agree on the top 10 fields that are most relevant for your business.
+Record summarization gives you a quick summary of your opportunity and lead records. Copilot generates the summary from predefined fields. Your administrator can change the fields that Copilot uses to generate the summary. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 Learn more:
 
 - [Summarize a lead or opportunity](copilot-get-information.md#summarize-a-lead-or-opportunity)
-- [Change the fields in the record summary](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
+- [Change the fields in the record summary](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
 
 ### Recent changes
 
-To help you stay on top of your opportunities and leads, Copilot summarizes any changes that were made to your records since your last visit or in the last seven days, whichever is more recent. Copilot generates the list of recent changes from the records' audit history. An admin can change the columns that are included in the list. Your entire sales team should agree on the top 10 fields that are most relevant for your business.
+To help you stay on top of your sales records, Copilot summarizes any changes that were made to your lead, opportunity, and account records. Copilot generates the list of recent changes from the records' audit history. Your administrator can change the fields that are included in the recent changes list. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 Learn more:
 
-- [Get recent changes to a lead or opportunity](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity)
-- [Get recent changes to all your records](copilot-ask-questions.md#whats-new-with-my-sales-records)
-- [Get your recent assignments](copilot-ask-questions.md#whats-newly-assigned-to-me)
-- [Change the fields you want to catch up on](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
+- [View recent changes to your lead or opportunity](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity)
+- [Get a list of recently updated sales records](copilot-ask-questions.md#whats-new-with-my-sales-records)
+- [View the leads and opportunities assigned to you recently](copilot-ask-questions.md#whats-newly-assigned-to-me)
+- [Change the fields you want to view in the recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
+
 
 ### Meeting preparation
 

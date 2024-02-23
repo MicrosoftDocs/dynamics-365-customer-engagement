@@ -6,6 +6,7 @@ ms.topic: article
 author: lalexms
 ms.author: laalexan
 ms.reviewer: souravr
+ms.collection: bap-ai-copilot
 search.audienceType: 
   - admin
   - customizer
