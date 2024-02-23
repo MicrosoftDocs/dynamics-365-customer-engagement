@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 10/18/2023
+ms.date: 02/23/2024
 ms.custom: bap-template
 ---
 
@@ -33,8 +33,6 @@ The calendar view is a read-only visual that provides daily, weekly, and monthly
 1. In the Customer Service admin center site map, select **Workforce management**.
 
 1. In the **Agent calendar** section, select **Manage**. The **Agent calendar** page is displayed.
-
-   :::image type="content" source="../media/agent-calendar-manage-configuration.png" alt-text="Manage option for enabling the agent calendar view.":::
 
 1. Turn on the **Enable agent calendar** toggle.
 
