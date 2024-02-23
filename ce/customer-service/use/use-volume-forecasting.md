@@ -122,11 +122,11 @@ You can drill down the hierarchy by selecting the drill-down hierarchy button. E
 
 #### Select rollup mode (Agents for conversations report only)
 
-The **Agents for conversations** report allows you to select the rollup method that will be used in the number grid. The selected method is used to roll up data at higher levels in the date and time hierarchy. The following rollup methods are available:
+The **Agents for conversations** report allows you to select the rollup method that's in the number grid. The selected method is used to roll up data at higher levels in the date and time hierarchy. The following rollup methods are available:
 
 - **Average**: This method averages the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy.
 
-- **Maximum**: This method picks the maximum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy. *This is the default rollup that's selected when you access the report for the first time*.
+- **Maximum**: This method picks the maximum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy. *This method is the default rollup that's selected when you access the report for the first time*.
 
 - **Minimum**: This method picks the minimum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy.
 
@@ -150,4 +150,4 @@ You can export the report data by selecting **Export** on the command bar.
 [Configure agent forecasting for conversation](../administer/configure-agent-forecasting-conversation.md)  
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  
 [Regional availability and Service limits for Customer Service](../administer/cs-region-availability-service-limits.md)  
-[Manage report bookmarks](manage-bookmarks.md)
+[Manage report bookmarks](manage-bookmarks.md)  
