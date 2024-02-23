@@ -30,7 +30,7 @@ As a supervisor, you can use the forecast reports to help plan the right level o
 
 You can use the forecast reports for agent, case, and conversation volumes in the following ways:
 
-- Forecast upcoming case and conversation volumes based on historical traffic and the number of agents needed to meet the forecasted conversation volume. For conversation volume forecasting, if your administrator configured chatbots for your conversational channels, the system excludes conversations that chatbots handle without a human agent joined, so that you can rely on the predicted conversation volumes for human agent staffing.
+- Forecast upcoming case and conversation volumes based on historical traffic and the number of agents needed to meet the forecasted conversation volume. For conversation volume forecasting, if your administrator configured chatbots for your conversational channels, the system excludes conversations that chatbots handle without a human agent joined. This function ensures you can rely on the predicted conversation volumes for human agent staffing.
 
 - Visualize forecasted volumes and agent demand on a daily basis, for a time range up to six months depending on how many days of cases or conversations were created in the past. This forecast can be used to plan agent resourcing and recruitment, to meet future demand.
 
