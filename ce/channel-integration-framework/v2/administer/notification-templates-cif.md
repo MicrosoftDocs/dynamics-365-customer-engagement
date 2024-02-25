@@ -1,5 +1,5 @@
 ---
-title: "Manage notification templates using app profile manager | MicrosoftDocs"
+title: "Manage notification templates using agent experience | MicrosoftDocs"
 description: "Learn how to manage notification templates in Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 04/05/2021
 ms.topic: article
@@ -57,11 +57,11 @@ Also, as an administrator, you can set the browser notification permission by us
 
 ## Create a notification template
 
-To create or manage a notification template, go to the app profile manager. For more information, see [Manage templates](../../../customer-service/administer/notification-templates.md#manage-templates) in the app profile manager documentation.
+To create or manage a notification template, go to **Workspaces** in **Agent Experience**. For more information, see [Manage templates](../../../customer-service/administer/notification-templates.md#manage-templates).
 
 ## See also
 
-[App profile manager overview](../../../customer-service/administer/overview.md)
+[App experience manager overview](../../../customer-service/administer/overview.md)
 
 [Manage session templates](session-templates-cif.md)
 

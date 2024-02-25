@@ -53,6 +53,7 @@ More information:
 
   > [!NOTE]
   > - The **Restore** button is available only for forms with the **Unique Name** set to **msdyn_omnichannel**.
+  > - The `Api Version` field is set to `2` when you navigate from there.
 
 3. If you're using Customer Service admin center, then select **Save & Close**.
 
