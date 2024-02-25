@@ -42,7 +42,7 @@ An alternative to Microsoft calling plans is Azure direct routing that allows yo
 
 ### What are the applicable pricing scenarios for using the voice channel?
 
-To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](https://learn.microsoft.com/dynamics365/customer-service/administer/voice-channel-pricing-scenarios).
+To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](dynamics365/customer-service/administer/voice-channel-pricing-scenarios).
 
 ### What about countries or regions where Azure Communication Services doesn't provide native PSTN services?
 
