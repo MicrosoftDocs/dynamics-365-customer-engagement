@@ -135,13 +135,7 @@ There are three levels where auditing can be configured: an environment, table, 
 
 When the audit log search is turned on in the [Microsoft Purview compliance portal](/power-platform/admin/logging-powerapps), the Microsoft Purview audit log records the admin activity in your organization.
 
-You can use any of the following methods to search events in Microsoft Purview.
-
-- [Searches](/purview/audit-new-search.md#get-started-with-audit-new-search)
-
-- Wild card search: Search for contextual information in the Microsoft Purview user experience. You can narrow the search constructs that are specific to individual events.
-
-As you search, individual activities are shown. A common schema is enforced to enable search constructs across activities. The value in the PropertyCollection field is specific to each activity type.
+For more information on methods to search events in Microsoft Purview, see [View activities in Microsoft Purview](/power-platform/admin/admin-activity-logging)
 
 For more information about the Microsoft Purview audit log, data retention policies, and capabilities, see [Auditing solutions in Microsoft Purview](/purview/audit-solutions-overview).
 

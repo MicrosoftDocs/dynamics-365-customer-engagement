@@ -24,8 +24,8 @@
           href: role-persona-mapping.md
         - name: Delete historical data of agent capacity updates
           href: manage-historical-data-capacity-updates.md
-      - name: Search Customer Service audit log in Microsoft Purview 
-        items: enable-audit-tables.md
+      - name: Search Customer Service audit log in Microsoft Purview
+        href: enable-audit-tables.md
       - name: Unified routing and assignment
         items:
         - name: Overview of unified routing
