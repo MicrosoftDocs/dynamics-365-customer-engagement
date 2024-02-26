@@ -24,5 +24,5 @@ This rule runs on your solutions and checks for the plugin registrations with re
 
 ### Recommendation
 
-Ensure that you have the appropriate Dynamics 365 license to use the restricted SDK messages or remove them from your solution. For a list of SDK messages that require a Dynamics 365 license, see [Tables and operations that require a license](license-enforcement.md#tables-and-operations-that-require-a-license).
+Ensure that you have the appropriate Dynamics 365 license to use the restricted SDK messages or remove them from your solution. For a list of SDK messages that require a Dynamics 365 license, see [Tables and operations that require a license](license-compliance-overview.md#tables-and-operations-that-require-a-license).
 
