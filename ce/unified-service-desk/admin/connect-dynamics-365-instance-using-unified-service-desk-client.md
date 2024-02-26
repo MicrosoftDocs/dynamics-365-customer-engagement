@@ -180,7 +180,7 @@ To configure sign-in information, use the UnifiedServiceDesk.exe.config file tha
 If you need to modify the default sign-in information, you must repeat steps 1 through 6.  
 
 > [!NOTE]
-> - To avoid sign-in issues, we recommend that you set the [ChromeWebViewShowOutside](manage-options-unified-service-desk.md) UII option to TRUE. 
+> To avoid sign-in issues, we recommend that you set the [ChromeWebViewShowOutside](manage-options-unified-service-desk.md) UII option to TRUE. 
 
 <a name="LogFiles"></a>   
 ## Troubleshoot sign-in issues
