@@ -1,5 +1,5 @@
 ---
-title: Use Copilot in Dynamics 365 apps
+title: Use Copilot in Dynamics 365 Sales apps
 description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, and enrich your leads with data from different sources.
 ms.date: 12/18/2023
 ms.topic: how-to
@@ -18,7 +18,7 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ---
 
-# Use Copilot in Dynamics 365 apps
+# Use Copilot in Dynamics 365 Sales apps
 
 Copilot is an AI assistant that helps you be more productive and efficient in your daily work in Dynamics 365 Sales apps. Copilot can summarize information about your leads and opportunities, help you catch up on recent changes to your records, prepare for meetings, and enrich your leads with information from other sources.
 
@@ -31,14 +31,13 @@ Copilot is an AI assistant that helps you be more productive and efficient in yo
 
 ## Prerequisites
 
-Your admin has [turned on and set up Copilot](enable-setup-copilot.md).
+Your admin [turns on and sets up Copilot](enable-setup-copilot.md).
 
 ## Open Copilot
 
-1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) on the right side of your app. 
+1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) on the right side of your app.
 
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with.
-
 
 ## Chat with Copilot
 
@@ -50,27 +49,26 @@ You can chat with Copilot in natural language or use predefined prompts to get t
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-> [!NOTE]
-> This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
+This feature is only available if your administrator opted into the [Copilot preview features](copilot-preview-features.md).
 
 When you chat with Copilot in natural language, you can use the following types of requests:
 
-- **Data-based questions:** Straightforward data requests such as, 
-    
-    - What's Contoso's annual revenue
-    
-    - Who is the owner of Alpine Ski House
-    - Show me all my opportunities that are closing this month
-    
+- **Data-based questions:** Straightforward data requests such as:
+
+  - What's Contoso's annual revenue?
+
+  - Who is the owner of Alpine Ski House?
+  - Show me all my opportunities that are closing this month.
+
     These requests are answered with the data from Dataverse. These questions are typically based on the data that you see in your app.
 
 - **Term-based questions:** Questions that are based on terms that are specific to Sales organizations. Questions around the following topics are supported:
 
-    - **Conversion rates**. For example, what is my lead conversion rate for the last quarter?
+  - **Conversion rates**. For example, what is my lead conversion rate for the last quarter?
 
-    - **Deal cycle**. For example, what is the average deal cycle for my opportunities?
-    - **Pipeline with filters**. For example, show my pipeline with deals closing in next 30 days
-    - **Deal sizes and values**. For example, display open deals with deal size greater than 10000
+  - **Deal cycle**. For example, what is the average deal cycle for my opportunities?
+  - **Pipeline with filters**. For example, show my pipeline with deals closing in next 30 days.
+  - **Deal sizes and values**. For example, display open deals with deal size greater than 10000.
 
 ### Chat with Copilot using predefined prompts
 
@@ -79,14 +77,13 @@ Use predefined prompts to get the most out of Copilot. The following table provi
 | Prompt name | Prompt navigation | Description |
 |---------|---------|---------|
 | [Show my pipeline](copilot-get-information.md#show-my-pipeline) | **Get info** > **Show my pipeline** | Get a list of opportunities that you own, sorted by the estimated close date. |
-| [Summarize lead or summarize opportunity](copilot-get-information.md#summarize-a-lead-or-opportunity) | **Get info** > **Summarize lead** or **Summarize opportunity** | Get a list of opportunities that you own, sorted by the estimated close date. |
-| [Get latest news for account](copilot-get-information.md#show-the-latest-news-about-an-account) | **Get info** > **Get latest news for account** | Get a list of opportunities that you own, sorted by the estimated close date. |
+| [Summarize lead or summarize opportunity](copilot-get-information.md#summarize-a-lead-or-opportunity) | **Get info** > **Summarize lead** or **Summarize opportunity** | Get a summary of opportunities that you own, sorted by the estimated close date. |
+| [Get latest news for account](copilot-get-information.md#show-the-latest-news-about-an-account) | **Get info** > **Get latest news for account** | Get the latest news that mentions opportunities that you own, sorted by the estimated close date. |
 | [What's new with my sales records](copilot-ask-questions.md#whats-new-with-my-sales-records) | **Ask questions** > ****What's new with my sales records**** | Get a list of your sales records that were updated in the last seven days. |
 | [What's newly assigned to me](copilot-ask-questions.md#whats-newly-assigned-to-me) | **Ask questions** > ****What's newly assigned to me**** | Get a list of leads and opportunities that were assigned to you in the last 15 days. |
-| [Show recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) | **Ask questions** > ***Show recent changes for opportunity or Show recent changes for lead** | Get a list updates to your opportunity or lead records in the last seven days or since you last signed in. |
+| [Show recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) | **Ask questions** > ***Show recent changes for opportunity or Show recent changes for lead** | Get a list of updates to your opportunity or lead records in the last seven days or since you last signed in. |
 | [Prepare for sales appointments](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) | **Stay ahead** >  **Prepare for sales appointments** | Prepare better for your sales appointment with a summary of notes from the last three months and the most recent email thread on the timeline of the related record. |
-| [Show emails that need follow up](copilot-stay-ahead.md#show-emails-you-havent-replied-to) | **Stay ahead** >  **Show emails that need follow up** | Get a list of emails that you haven't replied to. |
-
+| [Show emails that need follow-up](copilot-stay-ahead.md#show-emails-you-havent-replied-to) | **Stay ahead** >  **Show emails that need follow up** | Get a list of emails that you haven't replied to. |
 
 ### See also
 

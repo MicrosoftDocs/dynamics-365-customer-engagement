@@ -1,6 +1,6 @@
 ---
-title: Ask questions of Copilot
-description: Learn how to ask Copilot questions in Dynamics 365 Sales to know what's new with your leads, opportunities, and accounts and new records are assigned to you.
+title: Ask Copilot questions
+description: Learn how to ask Copilot questions in Dynamics 365 Sales to receive the latest updates on your leads, opportunities, and accounts.
 ms.date: 01/17/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -38,7 +38,6 @@ Copilot fetches the list based on the following conditions:
 
 Hover over a record in the list and select **Get updates** to view all changes to the record in the last seven days.
 
-
 ## What's newly assigned to me
 
 Copilot can help you stay on top of your pipeline by showing you a list of leads and opportunities that were assigned to you in the last 15 days.
@@ -66,9 +65,9 @@ The list of recent changes is taken from the audit history of the record. If the
 
 ### Would you like to view recent changes to different fields?
 
-Copilot summarizes the last 10 updates to the record from the audit history, for the fields configured by your administrator. However, you may want to stay updated on changes to other fields that matter more to you. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
+Copilot summarizes the last 10 updates to the record from the audit history, for the fields configured by your administrator. However, you might want to stay updated on changes to other fields that matter more to you. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
 
-Keep in mind that these fields are configured at the organization level. Make sure that your entire sales team agrees on the top ten fields that are most relevant for your business.
+Keep in mind that these fields are configured at the organization level. Make sure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 ### See also
 

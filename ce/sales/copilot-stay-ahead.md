@@ -22,7 +22,7 @@ Stay ahead of your work by asking Copilot to help you prepare for meetings and c
 
 ## Prepare for upcoming sales appointments
 
-If you have meetings scheduled on your calendar in the next 24 hours, Copilot can help you prepare for them. Go into your meetings with a helpful summary of notes from the last three months and the most recent email thread on the timeline of the related record.
+If you have meetings scheduled on your calendar in the next 24 hours, Copilot can help you prepare for them. Go into your meetings with a helpful summary of notes from the last three months and the latest email thread related to the record's timeline.
 
 1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Prepare for sales appointments**.
 
@@ -35,9 +35,9 @@ If you have meetings scheduled on your calendar in the next 24 hours, Copilot ca
 
     :::image type="content" source="media/copilot-prepare-for-meetings.png" alt-text="Screenshot of Copilot's notes for an upcoming meeting.":::
 
-## Show emails you haven't replied to
+## Display unanswered emails
 
-Copilot can help make sure that you don't miss important emails by reminding you of any that you haven't replied to.
+Copilot can help make sure that you don't miss important emails by reminding you of messages that need a reply.
 
 In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**.
 
@@ -46,7 +46,7 @@ In the Copilot side pane, select the sparkle icon (:::image type="icon" source="
 
 To be included in the list, emails must meet the following criteria:
 
-- They've been in your mailbox, unanswered, for the past three to seven days. Email that's been unanswered for longer than seven days falls off the list.
+- They are in your mailbox, unanswered, for the past three to seven days. Emails that are unanswered for longer than seven days fall off the list.
 - They contain a buying intent, a question, a query, or an action item.
 - They have the **Regarding** field as a lead or an opportunity.
 
