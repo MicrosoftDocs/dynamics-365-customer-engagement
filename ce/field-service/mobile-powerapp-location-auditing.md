@@ -76,7 +76,7 @@ To have location tracking work properly, complete all the following steps when p
 | 2. Select **Precise Location** and then **Allow all the time** to ensure the app uses the accurate location.    |  :::image type="content" source="media/mobile-android-location-permission-precise.png" alt-text="Dialog asking for location permissions."::: |
 | 3. Set **Battery optimization** to **Don't optimize** to allow the Field Service app to update your location consistently.  | :::image type="content" source="media/mobile-android-location-permission-batteryoptimization.png" alt-text="Dialog asking for battery optimization settings.":::  |
 | 4. Allow the Field Service app to set **Alarms and reminders**. The app uses this permission to ensure it only tracks your location during work hours.  | :::image type="content" source="media/mobile-android-location-permission-alarmsreminders.png" alt-text="Dialog asking for permissions to alarms and reminders.":::|
-| 5. Allow access to your **Physical activity** information. This settings helps optimize battery life by reducing the number of location updates sent if you're not moving.| :::image type="content" source="media//mobile-android-location-permission-physicalactivity.png" alt-text="Dialog asking for permissions to physical activity.":::  |
+| 5. Allow access to your **Physical activity** information. This setting helps optimize battery life by reducing the number of location updates sent if you're not moving.| :::image type="content" source="media//mobile-android-location-permission-physicalactivity.png" alt-text="Dialog asking for permissions to physical activity.":::  |
 
 ---
 
