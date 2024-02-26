@@ -1,7 +1,7 @@
 ---
-title: "Connect to a model-driven app using Unified Service Desk client | MicrosoftDocs"
+title: Connect to a model-driven app using Unified Service Desk client 
 description: "Learn how to sign in to Unified Service Desk using the Unified Service Desk client. Also, learn how to use SSO for Unified Service Desk."
-ms.date: 02/25/2022
+ms.date: 02/26/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -178,6 +178,9 @@ To configure sign-in information, use the UnifiedServiceDesk.exe.config file tha
    - For a Customer Engagement (on-premises) installation with [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] authentication, if you've configured to automatically sign in the user without displaying the sign-in dialog (`<add key="UseDefaultCreds" value="True" />`), the sign-in dialog isn't displayed, but the Default_USD.config file is created in the C:\Users\\<USER_NAME\>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk directory to store the connection information (except username and password). Thereafter, the client application uses the Default_USD.config file to automatically sign in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 If you need to modify the default sign-in information, you must repeat steps 1 through 6.  
+
+> [!NOTE]
+> - To avoid sign-in issues, we recommend that you set the [ChromeWebViewShowOutside](manage-options-unified-service-desk.md) UII option to TRUE. 
 
 <a name="LogFiles"></a>   
 ## Troubleshoot sign-in issues
