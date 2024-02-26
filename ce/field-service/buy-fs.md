@@ -1,7 +1,7 @@
 ---
 title: Buy a Dynamics 365 Field Service license
 description: Learn how to purchase licenses for Dynamics 365 Field Service.
-ms.date: 02/01/2024
+ms.date: 02/26/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -10,7 +10,7 @@ ms.custom: bap-template
 
 # Buy a Dynamics 365 Field Service license
 
-Purchase a Dynamics 365 Field Service subscription. To purchase licenses, you need a [Microsoft 365 administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration). 
+Purchase a Dynamics 365 Field Service subscription. To purchase licenses, you need a [Microsoft 365 administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration).
 For the list of geographical regions supported in Field Service, see [Datacenter regions](/power-platform/admin/new-datacenter-regions).
 
 Try out Dynamics 365 Field Service before purchasing a subscription with [a free 30-day trial](trial-signup.md). You don't have to have administrator privileges to sign up for the trial.
@@ -21,21 +21,6 @@ There are two types of licenses for Field Service:
 
 - The standard Dynamics 365 Field Service license that includes all core features and capabilities.
 - The Dynamics 365 Field Service Contractor license that includes a subset of the core features and capabilities for third-party technicians (available beginning December 1, 2023).
-
-|Feature area |Dynamics 365 Field Service  |Dynamics 365 Field Service Contractor  |
-|---------|---------|---------|
-|Access the app from the web, mobile, and through Microsoft 365 integrations   |  Yes       | Yes        |
-|AI assistance from Copilot in Field Service for work order creation, scheduling, summarization, and work order updates    |  Yes       |  No       |
-|Access to Dynamics 365 Guides and Remote Assist    | Yes        | Guides in the Field Service mobile app       |
-|Technician performance analysis     | Yes        | No        |
-|Vendor and contractor management   | Yes        | Limited ~        |
-|Planned maintenance agreements    | Yes        | No        |
-|Returns processing    | Yes        | No        |
-|Scheduling and resource dispatching    | Yes        | Limited ~~        |
-
-~ Contractors are limited to managing their own staff.
-
-~~ Contractors can create bookings manually but don't have access to schedule optimization with the schedule board.
 
 For pricing information, see [Field Service pricing](https://dynamics.microsoft.com/field-service/pricing/). For detailed licensing information, see [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=2090495).
 
