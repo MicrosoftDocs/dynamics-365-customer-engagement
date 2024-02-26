@@ -1,7 +1,7 @@
 ---
 title: Check dynamics 365 license with solution checker
 description: Learn about the rules in the Power Apps solution checker that identify tables, operations, and UI components requiring a Dynamics 365 license.
-author: vhorvath-msft
+author: vhorvathms
 ms.author: vhorvath
 ms.reviewer: mhart
 ms.topic: conceptual

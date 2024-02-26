@@ -3,7 +3,7 @@ title: License compliance overview
 description: Verify license compliance for Dynamics 365 tables, operations, messages, and controls using Power Apps solution checker.
 ms.date: 03/30/2024
 ms.topic: overview
-author: vhorvath-msft
+author: vhorvathms
 ms.author: vhorvath
 ms.reviewer: mhart
 ms.custom:
