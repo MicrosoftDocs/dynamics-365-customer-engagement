@@ -1,7 +1,7 @@
 ---
 title: Connect with customers through your work list or the Up next widget
 description: Learn how to use the Up next widget or the My work list to connect with customers by phone, email, and Teams meeting in Dynamics 365 Sales.
-ms.date: 10/10/2023
+ms.date: 02/16/2024
 author: udaykirang
 ms.author: udag
 ms.topic: how-to 
@@ -98,7 +98,7 @@ To open an appointment from the **Up next** widget, select **Open** in the activ
 
 You can send a text message (SMS) to your customer from the record in the My work list or an activity in the **Up next** widget.  
 
-A phone number must be available for the contact you're sending the message to. If not, a warning message is displayed. When you send an SMS, the app creates an activity and links it to the record and updates the Timeline wall accordingly.
+A phone number must be available for the contact you're sending the message to. If not, a warning message is displayed. When you send an SMS, the app creates an activity and links it to the record and updates the Timeline wall accordingly. To ensure professional and secure communication, the application always prioritizes business phone numbers over personal ones when sending automated SMS.  
 
 You can select the text message option in the following ways:  
 

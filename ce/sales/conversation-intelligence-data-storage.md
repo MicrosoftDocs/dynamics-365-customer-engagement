@@ -14,6 +14,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # How to manage conversation intelligence data in Dataverse
@@ -49,20 +50,20 @@ The following table describes the tables and their purpose.
 
 | Table Name | Description |
 |-------------|-------------|
-| `msdyn_SCIConversation` | Contains data required to correlate between the conversation intelligence data, phone call activity, and audio recording files.
-`msdyn_ConversationTag` | Contains tags that users have manually added to a conversation.
-`msdyn_ConversationSystemTag` | Contains the automatic categorizations by the system, such as voicemail, wrong number, rain-check.
-`msdyn_recording` | Contains a link to the recording file in the Azure blob storage, or stores the recording file itself, according to the storage settings.
-`msdyn_transcript` | Contains the transcript of the conversation.
-`msdyn_conversationAggregatedInsights` | Contains Key Performance Indicators (KPIs) such as longest monologue, switch count throughout the conversation, meeting duration, and more. It also contains IDs to correlate the lower level insights.
-`msdyn_conversationSentiment` | Contains sentiment data for the conversation, such as overall percent of positive, negative, and neutral customer sentiments during the conversation.
-msdyn_conversationSubject | Contains the automatic categorization of segments of the conversation, such as introduction, negotiation, closure, and more.
-`msdyn_conversationParticipantInsights` | Contains identifiers for each participant, as well as their personal KPIs, such as average talking speed, own longest monologue, average pause before speaking, talk-to-listen ratio, and switch count. Each participant in a conversation, whether a seller or a customer, has their own instance of the participant table. This table also contains child nodes listed in the following rows.
-`msdyn_conversationSignal` | Contains all the tracked keywords such as brands, times, competitors, and names that were mentioned by participants during the conversation.
-`msdyn_conversationParticipantSentiment` | Contains the sentiment per each fragment of the participant’s speech.
-`msdyn_conversationActionItem` | Contains suggested action items for the participant.
-`msdyn_conversationSummarySuggestion` | Contains suggestions for the call summary which involves the participant or were a result of the participant’s communication.
-`msdyn_conversationQuestion` | Contains questions asked by the participant.
+| [`msdyn_sciconversation`](developer/entities/msdyn_sciconversation.md) | Contains data required to correlate between the conversation intelligence data, phone call activity, and audio recording files.
+| [`msdyn_ConversationTag`](developer/entities/msdyn_ConversationTag.md) | Contains tags that users have manually added to a conversation.
+| [`msdyn_conversationsystemtag`](developer/entities/msdyn_conversationsystemtag.md) | Contains the automatic categorizations by the system, such as voicemail, wrong number, rain-check.
+| [`msdyn_ocrecording`](developer/entities/msdyn_ocrecording.md) | Contains a link to the recording file in the Azure blob storage, or stores the recording file itself, according to the storage settings.
+| [`msdyn_transcript`](developer/entities/msdyn_transcript.md) | Contains the transcript of the conversation.
+| [`msdyn_conversationaggregatedinsights`](developer/entities/msdyn_conversationaggregatedinsights.md) | Contains Key Performance Indicators (KPIs) such as longest monologue, switch count throughout the conversation, meeting duration, and more. It also contains IDs to correlate the lower level insights.
+| [`msdyn_conversationsentiment`](developer/entities/msdyn_conversationsentiment.md) | Contains sentiment data for the conversation, such as overall percent of positive, negative, and neutral customer sentiments during the conversation.
+| [`msdyn_conversationSubject`](developer/entities/msdyn_conversationSubject.md) | Contains the automatic categorization of segments of the conversation, such as introduction, negotiation, closure, and more.
+| [`msdyn_conversationparticipantInsights`](developer/entities/msdyn_conversationparticipantInsights.md) | Contains identifiers for each participant, as well as their personal KPIs, such as average talking speed, own longest monologue, average pause before speaking, talk-to-listen ratio, and switch count. Each participant in a conversation, whether a seller or a customer, has their own instance of the participant table. This table also contains child nodes listed in the following rows.
+| [`msdyn_conversationsignal`](developer/entities/msdyn_conversationsignal.md) | Contains all the tracked keywords such as brands, times, competitors, and names that were mentioned by participants during the conversation.
+| [`msdyn_conversationparticipantsentiment`](developer/entities/msdyn_conversationparticipantsentiment.md) | Contains the sentiment per each fragment of the participant’s speech.
+| [`msdyn_conversationactionitem`](developer/entities/msdyn_conversationactionitem.md) | Contains suggested action items for the participant.
+| [`msdyn_conversationsummarysuggestion`](developer/entities/msdyn_conversationsummarysuggestion.md) | Contains suggestions for the call summary which involves the participant or were a result of the participant’s communication.
+| [`msdyn_conversationquestion`](developer/entities/msdyn_conversationquestion.md) | Contains questions asked by the participant.
 
 
 ## Grant access to conversation intelligence tables

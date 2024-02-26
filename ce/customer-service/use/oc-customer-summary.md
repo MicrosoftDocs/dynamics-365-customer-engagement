@@ -127,6 +127,8 @@ Depending on the settings that are enabled for you, you'll see one of the follow
  ---
 ## View Conversation summary
 
+Conversation summary changes.
+
 The **Conversation summary** section provides detailed information about the conversation between the agent and customer. The information shown in the **Conversation details** area includes the following:
 
 - **Engagement channel:** The channel, such as live chat or custom channel, through which the conversation is taking place.

@@ -14,6 +14,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Prepare your organization to store conversation intelligence data in Dataverse 
@@ -92,7 +93,7 @@ For all organizations:
 
         1. File storage (only relevant for orgs previously using Microsoft-provided storage): Multiply the number of calls by 0.93 MB. 
 
-        For example: if you had 20,000 calls, and you previously used the Microsoft-provided storage, you'll need to have 32 GB of DB storage and 18.6 GB of file storage for the migrated data. 
+        For example: if you had 20,000 calls, and you previously used the Microsoft-provided storage, you'll need to have 3.2 GB of DB storage and 18.6 GB of file storage for the migrated data. 
 
 > [!NOTE]
 > The above numbers are based on average call duration and number of insights per call. Actual sizes may vary. 

@@ -13,6 +13,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
 ---
 
 # Ask questions of Copilot
@@ -48,7 +49,7 @@ In the Copilot side pane, select the sparkle icon (:::image type="icon" source="
 
 Copilot can help you catch up on any updates to your opportunity or lead records in the last seven days or since you last signed in.
 
-The list of recent changes is taken from the audit history of the record. If the list of changes doesn't appear, ask your administrator to [turn on auditing](enable-setup-copilot.md#turn-copilot-features-in-dynamics-365-apps-on-or-off) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
+The list of recent changes is taken from the audit history of the record. If the list of changes doesn't appear, ask your administrator to [turn on auditing](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
 
 1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **Show recent changes for opportunity or Show recent changes for lead**, and select Enter.
 

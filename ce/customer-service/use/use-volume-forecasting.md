@@ -1,10 +1,12 @@
 ---
 title: "Forecast agent, case, and conversation volumes in Customer Service | Microsoft Docs"
-description: "Learn how to use the Forecast report for agent, case, and conversation volumes in Dynamics 365 Customer Service, Omnichannel for Customer Service, and Customer Service workspace."
-ms.date: 04/01/2023
+description: "Learn how to use the forecast reports for agent, case, and conversation volumes in Dynamics 365 Customer Service, Omnichannel for Customer Service, and Customer Service workspace."
+ms.date: 02/23/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: souravr
+ms.collection: bap-ai-copilot
 search.audienceType: 
   - admin
   - customizer
@@ -13,29 +15,22 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Forecast case and conversation volumes, and agents for conversations (preview)
+# Forecast case and conversation volumes, and agents for conversations
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
-
-## Introduction
+This article describes how to navigate the forecast reports in Customer Service so that you can successfully meet the staffing demands of your organization.
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-Customer service supervisors need to be able to ensure they have an adequate number of agents available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which in turn can negatively impact customer satisfaction.
+## Overview
 
-As a supervisor, you can use the forecast reports to help plan the right level of staffing for your business based on the predicted volume of cases and conversations, along with the predicted agent demand for conversations.
+Customer service supervisors need to be able to ensure that they have an adequate number of agents available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which in turn can negatively impact customer satisfaction.
+
+As a supervisor, you can use the forecast reports to help plan the right level of staffing for your business that's based on the predicted volume of cases and conversations, along with the predicted agent demand for conversations.
 
 You can use the forecast reports for agent, case, and conversation volumes in the following ways:
 
-- Forecast upcoming case and conversation volumes based on historical traffic and the number of agents needed to meet the forecasted conversation volume. For conversation volume forecasting, if your administrator has set up chatbots for your conversational channels, the system excludes conversations that chatbots handle without a human agent joined, so that you can rely on the predicted conversation volumes for human agent staffing.
+- Forecast upcoming case and conversation volumes based on historical traffic and the number of agents needed to meet the forecasted conversation volume. For conversation volume forecasting, if your administrator configured chatbots for your conversational channels, the system excludes conversations that chatbots handle without a human agent joined. This function ensures you can rely on the predicted conversation volumes for human agent staffing.
 
 - Visualize forecasted volumes and agent demand on a daily basis, for a time range up to six months depending on how many days of cases or conversations were created in the past. This forecast can be used to plan agent resourcing and recruitment, to meet future demand.
 
@@ -43,9 +38,9 @@ You can use the forecast reports for agent, case, and conversation volumes in th
 
 - Slice forecasted volumes and agent demand by channel and queue.
 
-- View a rollup of actual and forecasted volume by an hourly, daily, weekly, monthly and yearly basis. For the agent demand report, you can select the type of rollup from maximum, minimum, average and sum.
+- View a rollup of actual and forecasted volume by an hourly, daily, weekly, monthly, and yearly basis. For the agent demand report, you can select the type of rollup from maximum, minimum, average and sum.
 
-- Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case or conversation volumes during special, seasonal events.
+- Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This function helps the forecasting model to accurately predict case or conversation volumes during special, seasonal events.
 
 For details about how the forecast models work for this feature, see [How agent forecasting for conversation works](../administer/configure-agent-forecasting-conversation.md#how-agent-forecasting-for-conversation-works) and [How case volume forecasting works](../administer/configure-volume-forecasting.md#how-case-forecasting-works).
 
@@ -58,16 +53,16 @@ For details about how the forecast models work for this feature, see [How agent 
 
 ## Prerequisites
 
-Before you can use the forecast reports, ensure that your administrator has assigned a role to you that has **Read** privileges on the **msdyn_dataanalyticsreport_forecast** table. More information: [Configure case volume forecasting (preview)](../administer/configure-volume-forecasting.md#prerequisites) and [Configure agents for conversations forecasting (preview)](../administer/configure-agent-forecasting-conversation.md#prerequisites).
+Before you can use the forecast reports, ensure that your administrator assigned a role to you that has **Read** privileges on the **msdyn_dataanalyticsreport_forecast** table. More information: [Configure case volume forecasting](../administer/configure-volume-forecasting.md#prerequisites) and [Configure agents for conversations forecasting](../administer/configure-agent-forecasting-conversation.md#prerequisites).
 
-## View the Forecast reports in Customer Service
+## View the forecast reports in Customer Service
 
 ### Navigation
 
-You can view the forecast reports in the Customer Service workspace or Omnichannel for Customer Service apps. You can navigate to the **Forecast (preview)** dashboard as follows:
+You can view the forecast reports in the Customer Service workspace or Omnichannel for Customer Service apps. You can navigate to the **Forecast** dashboard as follows:
 
-- In the default view, select the plus (**+**) icon, and then select **Forecast (preview)**.
-- If the enhanced multisession workspace view is enabled, select **Forecast (preview)** on the site map.
+- In the default view, go to the hamburger menu, and then select **Forecast**.
+- If the enhanced multisession workspace view is enabled, select **Forecast** on the site map.
 
    :::image type="content" source="../media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
 
@@ -85,15 +80,15 @@ To change the report mode, select the **Daily** or **Intraday** toggle button on
 
 The **Case volumes**, **Conversation volumes** and **Agents for conversations** tabs of the forecast report display visual and numeric metrics for the filters you select. The difference between the tabs is based on the input data source. Case data is based on the case entity, whereas conversation data is based on the omnichannel conversations, such as live chat, digital messages, the voice channel, and so forth.
 
-Report data is refreshed on a monthly basis. Your administrator can configure which day of the month the report will be refreshed. More information: [Configure case volume forecasting (preview)](../administer/configure-volume-forecasting.md#enable-the-case-forecasting-preview-report) and [Configure agents for conversations forecasting (preview)](../administer/configure-agent-forecasting-conversation.md#enable-the-agent-forecasting-for-conversation-preview-reports).
+Report data is refreshed on a monthly basis. Your administrator can configure which day of the month the report is refreshed. More information: [Configure case volume forecasting](../administer/configure-volume-forecasting.md#enable-the-case-forecasting-report) and [Configure agents for conversations forecasting](../administer/configure-agent-forecasting-conversation.md#enable-the-agent-forecasting-for-conversation-reports).
 
 You can filter the data on each of the tabs by using any of the following options:
 
 |Filter |Description |
 |--------|-------------|
 |Duration|Input the date range or use the sliders to set the dates. |
-|Channel|Select the channel(s) for which you want data displayed. |
-|Queue|Select the queue(s) for which you want data displayed. |
+|Channel|Select one or more channels for which you want data displayed. |
+|Queue|Select one or more queues for which you want data displayed. |
 
 ### Data visualization
 
@@ -123,15 +118,15 @@ You can drill into the report data table by using the up or down arrows at the t
 
 :::image type="content" source="../media/volume-forecasting-drill-month.png" alt-text="View of the Forecast report data filters.":::
 
-You can drill down the hierarchy by selecting the drill down hierarchy button. Each time you select the drill down button, the data will drill down one level in the hierarchy. To drill up to the previous level, select the drill up button.
+You can drill down the hierarchy by selecting the drill-down hierarchy button. Each time you select the drill-down button, the data drills down one level in the hierarchy. To drill up to the previous level, select the drill up button.
 
 #### Select rollup mode (Agents for conversations report only)
 
-The Agents for conversations report allows you to select the rollup method that will be used in the number grid. The selected method is used to roll up data at higher levels in the date and time hierarchy. The following rollup methods are available:
+The **Agents for conversations** report allows you to select the rollup method that's in the number grid. The selected method is used to roll up data at higher levels in the date and time hierarchy. The following rollup methods are available:
 
 - **Average**: This method averages the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy.
 
-- **Maximum**: This method picks the maximum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy. *This is the default rollup that's selected when you access the report for the first time*.
+- **Maximum**: This method picks the maximum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy. *This method is the default rollup that's selected when you access the report for the first time*.
 
 - **Minimum**: This method picks the minimum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy.
 
@@ -151,8 +146,8 @@ You can export the report data by selecting **Export** on the command bar.
 
 ### See also
 
-[Configure case forecasting (preview)](../administer/configure-volume-forecasting.md)<br>
-[Configure agent forecasting for conversation (preview)](../administer/configure-agent-forecasting-conversation.md)<br>
-[Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)<br>
-[Regional availability and Service limits for Customer Service](../administer/cs-region-availability-service-limits.md)<br>
+[Configure case forecasting](../administer/configure-volume-forecasting.md)  
+[Configure agent forecasting for conversation](../administer/configure-agent-forecasting-conversation.md)  
+[Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  
+[Regional availability and Service limits for Customer Service](../administer/cs-region-availability-service-limits.md)  
 [Manage report bookmarks](manage-bookmarks.md)  

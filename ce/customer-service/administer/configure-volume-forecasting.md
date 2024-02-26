@@ -1,10 +1,12 @@
 ---
 title: "Configure case forecasting in Customer Service | Microsoft Docs"
-description: "Learn how to configure the Forecast report for cases in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 07/06/2023
+description: "Learn how to configure the Forecast report for cases in Dynamics 365 Customer Service workspace."
+ms.date: 02/23/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: souravr
+ms.collection: bap-ai-copilot
 search.audienceType: 
   - admin
   - customizer
@@ -13,21 +15,14 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Configure case volume forecasting (preview)
+# Configure case volume forecasting
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
-
-## Introduction
+This article describes how to set up case forecasting in Customer Service.
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+
+## Overview
 
 Customer service supervisors in your organization need to ensure that they have an adequate number of agents available to serve their customers. Overcapacity results in higher costs, while undercapacity results in longer customer wait times, which in turn can negatively impact customer satisfaction.
 
@@ -45,7 +40,7 @@ Supervisors can use the Case forecasting report in the following ways:
 
 - View a rollup of actual and forecasted volume by hourly, daily, weekly, monthly, and yearly basis.
 
-- Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case volume during special, seasonal events.
+- Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This detection helps the forecasting model to accurately predict case volume during special, seasonal events.
 
 > [!NOTE]
 > Be aware of the following when using the Case forecasting report:
@@ -61,7 +56,7 @@ The Forecast report uses an AI-backed forecasting model that predicts case volum
 The report can forecast daily trends for a date range up to six months, and intraday (15-minute interval) trends for a date range up to six weeks, depending on how many days of historical data are available and used. In general, the model can forecast for a period that is half of the input date range, with the following conditions:
 
 - For daily case volume forecasting, if the historical data time range is less than 12 months, the forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for the next four months. If the historical range equals or is more than 12 months (up to 24 months), the report forecasts for the next six months.
-- For intraday (15 minutes interval) case volume forecasting, the model only analyzes the recent six weeks of historical data. The time range of forecast is half of the total input time range. For example, 12 weeks historical date range can forecast for the next six weeks (which is the maximum). Out of these 12 weeks of historical data, only the recent six weeks are analyzed to generate the forecast.
+- For intraday (15-minute interval) case volume forecasting, the model only analyzes the recent six weeks of historical data. The time range of forecast is half of the total input time range. For example, 12 weeks historical date range can forecast for the next six weeks (which is the maximum). Out of these 12 weeks of historical data, only the recent six weeks are analyzed to generate the forecast.
 
 The historical data must meet the following minimum requirements for the models to generate forecasting. Otherwise, an error message is posted on the admin settings page.  
 
@@ -88,11 +83,11 @@ For users in your organization to be able to access the forecast reports, they m
 - Omnichannel administrator
 - Omnichannel supervisor
 
-## Enable the case forecasting (preview) report
+## Enable the case forecasting report
 
 1. In the Customer Service admin center app, under **Operations**, select **Insights**. The **Insights** page is displayed.
 
-1. Under the **Report settings** section, next to **Case forecasting (preview)**, select **Manage**. The **Case forecasting (preview)** page is displayed.
+1. Under the **Report settings** section, next to **Case forecasting**, select **Manage**. The **Case forecasting** page is displayed.
 
 1. Toggle **Enable case forecasting** to **On**.
 
@@ -112,11 +107,11 @@ For users in your organization to be able to access the forecast reports, they m
 
 1. If you want to specify seasonality, under **Seasonality**, select the **Use schedules from Holiday Calendar** check box. Selecting the **Holiday Calendar** link opens the **All Holiday Schedules** page, where you can create a new schedule or select an existing schedule.
 
-1. Save your changes. If this is the first time you’ve enabled the forecast feature, it may take up to 24 hours until the forecasting data is ready to view in the forecast report.
+1. Save your changes. If you enabled the forecast feature for the first time, it may take up to 24 hours until the forecasting data is ready to view in the forecast report.
 
 ### See also
 
-[Forecast case and conversation volumes, and agents for conversations (preview)](../use/use-volume-forecasting.md)<br>
-[Configure agents for conversations forecasting (preview)](configure-agent-forecasting-conversation.md)<br>
+[Forecast case and conversation volumes, and agents for conversations](../use/use-volume-forecasting.md)<br>
+[Configure agents for conversations forecasting](configure-agent-forecasting-conversation.md)<br>
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)<br>
 [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)
