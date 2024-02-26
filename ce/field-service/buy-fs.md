@@ -22,7 +22,7 @@ There are two types of licenses for Field Service:
 - The standard Dynamics 365 Field Service license that includes all core features and capabilities.
 - The Dynamics 365 Field Service Contractor license that includes a subset of the core features and capabilities for third-party technicians.
 
-For feature comparisons and pricing information, see [Field Service pricing](https://dynamics.microsoft.com/field-service/pricing/). For detailed licensing information, see [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=2090495).
+For feature comparisons and pricing information, see [Field Service pricing](https://dynamics.microsoft.com/field-service/pricing/). For detailed licensing information, see [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ## Buy a Field Service license
 
