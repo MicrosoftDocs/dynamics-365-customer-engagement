@@ -52,9 +52,9 @@ If you want to configure the sign in experience, such as by prepopulating values
 
 ::: moniker range=">=dynamics-usd-4.1"
 
-## Single sign on for Unified Service Desk
+## Single sign-on for Unified Service Desk
 
-Single sign on (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides an improved startup performance and user experience by authenticating users to access model-driven apps without the need for entering their credentials multiple times. This eliminates the need for entering the same password again, thereby minimizing the likelihood of sign in errors, and helps ensure a seamless user experience.
+Single sign-on (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides an improved startup performance and user experience by authenticating users to access model-driven apps without the need for entering their credentials multiple times. This eliminates the need for entering the same password again, thereby minimizing the likelihood of sign in errors, and helps ensure a seamless user experience.
 
 In Unified Service Desk 4.1.1.1433 and later, SSO is disabled by default.
 
@@ -117,9 +117,9 @@ To enable the SSO feature, you must the configure the **SingleSignOnEnabledBrows
 ::: moniker-end
 
 <a name="ConfigureSignIn"></a>   
-## Configure sign-in information
+## Configure sign in information
 
-If needed, administrators can configure the sign-in experience for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by prepopulating values (except username and password) in the sign-in dialog so users can connect to the specified Dataverse instance, or they can configure it to automatically sign in users to an on-premises Dataverse instance based on the user's [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] credentials without even displaying the sign in dialog.
+If needed, administrators can configure the sign in experience for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by prepopulating values (except username and password) in the sign in dialog so users can connect to the specified Dataverse instance, or they can configure it to automatically sign in users to an on-premises Dataverse instance based on the user's [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] credentials without even displaying the sign in dialog.
 
 > [!NOTE]
 > You can't add or remove the fields in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign in dialog. You can only specify the values that will appear in the fields when a user tries to sign in. However, users can change the prepopulated values in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign in dialog before signing in.
@@ -185,7 +185,7 @@ If you need to modify the default sign in information, you must repeat steps 1 t
 UII option to TRUE. See: [Manage global settings or options in Unified Service Desk](manage-options-unified-service-desk.md).
 
 <a name="LogFiles"></a>   
-## Troubleshoot sign-in issues
+## Troubleshoot sign in issues
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides logging support to log errors that can occur while signing in to Dataverse. A log file, Login_ErrorLog.log, is created at C:\Users\\<USER_NAME\>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\<Version\> the first time you encounter any sign in issues in the client application. Thereafter, the log file is used to record information about subsequent sign in issues. This information can be helpful for troubleshooting issues related to signing in to Dataverse from the client application.  
 
