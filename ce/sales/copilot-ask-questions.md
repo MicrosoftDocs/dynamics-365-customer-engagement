@@ -1,6 +1,6 @@
 ---
-title: Ask Copilot questions
-description: Learn how to ask Copilot questions in Dynamics 365 Sales to receive the latest updates on your leads, opportunities, and accounts.
+title: Ask a question to Copilot
+description: Learn how to ask questions to Copilot in Dynamics 365 Sales to receive the latest updates on your leads, opportunities, and accounts.
 ms.date: 01/17/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -16,7 +16,7 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ---
 
-# Ask questions of Copilot
+# Ask a question to Copilot
 
 Ask Copilot to update you on the latest changes to your sales records, get a list of records that were assigned to you, or list any changes to your leads and opportunities.
 
