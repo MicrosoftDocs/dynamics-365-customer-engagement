@@ -13,9 +13,8 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-## Overview
 
-This topic contains the FAQs that you as an administrator, supervisor, or agent might have about unified routing.
+This article contains the FAQs that you as an administrator, supervisor, or agent might have about unified routing.
 
 ## General
 

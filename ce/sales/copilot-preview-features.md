@@ -35,8 +35,9 @@ The following table lists the Copilot preview features that are available in Dyn
 | Preview feature | Description |
 |-----------------------|---------|
 | Copilot for Email | [Compose and send email messages using Copilot](compose-send-email-copilot.md). |
-| Content recommendations | [Get content recommendations from SharePoint (preview)](copilot-get-information.md#get-content-recommendations-from-sharepoint-preview) <br> The documents are fetched only from the SharePoint site associated with your tenant. |
 | Answers from SharePoint documents | [Get answers from SharePoint documents (preview)](copilot-ask-questions.md#get-answers-from-sharepoint-documents) <br> The answers are fetched only from the documents stored in the SharePoint site associated with your tenant. |
+| Content recommendations | [Get content recommendations from SharePoint](copilot-get-information.md#get-content-recommendations-from-sharepoint-preview) to fetch documents from the SharePoint site that's associated with your tenant. |
+| Immersive view | [Open Copilot in full-screen view (preview)](use-sales-copilot.md#open-copilot-immersive).|
 
 ## Turn on all Copilot preview features
 
@@ -45,5 +46,7 @@ The following table lists the Copilot preview features that are available in Dyn
 1. Under **General Settings**, select **Copilot**.
 
 1. In the **Set up Copilot in Dynamics 365 Sales** page, turn on **Try our newest preview features before they're rolled out to everyone**.
+
+    :::image type="content" source="media/enable-copilot-old.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub."::: 
 
 1. Select **Publish**.

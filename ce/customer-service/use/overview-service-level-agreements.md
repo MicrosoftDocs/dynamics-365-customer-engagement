@@ -1,7 +1,7 @@
 ---
 title: Overview of service-level agreements
 description: Configure and manage service-level agreements (SLAs) to track support policies and provide customers with measured and predictable service.
-ms.date: 12/29/2023
+ms.date: 02/14/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -67,8 +67,8 @@ After you configure and apply your SLAs, you can manage the various aspects of y
 
 #### Export and import a solution with SLAs
 
-- You can export and import a solution with SLAs to another environment without having to create SLAs in the new environment all over again. More information: [Export and import a solution with SLAs](../administer/export-import-solution.md#export-and-import-a-solution-with-slas) 
-- Additionally, you can export or import a calendar with SLAs. SLA items are automatically inked to the corresponding imported calendars on import. More information: [Export or import a calendar with SLAs](../administer/export-import-solution.md#export-or-import-a-calendar-with-slas)
+- You can export and import a solution with SLAs to another environment without having to create SLAs in the new environment all over again. More information: [Manage solutions with SLAs](../administer/manage-solution.md)
+- Additionally, you can export or import a calendar with SLAs. SLA items are automatically inked to the corresponding imported calendars on import. More information: [Enable calendar export and import with SLAs](../administer/export-import-solution.md#enable-calendar-export-and-import-with-slas)
 
 #### Calculate SLA KPIs
 

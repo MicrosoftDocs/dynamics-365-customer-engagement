@@ -1,11 +1,11 @@
 ---
-title: Add users to agent experience profiles | MicrosoftDocs 
-description: Learn about adding a default profile and mapping agent profiles to security roles
+title: Add users to agent experience profiles
+description: Learn about adding a default profile and mapping agent profiles to security roles.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 07/13/2023 
+ms.date: 02/02/2024
 ms.custom: bap-template 
 ---
 
@@ -38,9 +38,9 @@ You can't set multiple profiles as the default profile. If you must change the d
 
 ## Map security roles to agent experience profiles
 
-When you have multiple user groups with different roles and privileges, you can assign agent experience profiles to a security role to provide customized app experiences for each group. The application assigns the agent profile to all the users with the specified security role.
+When you have multiple user groups with different roles and privileges, you can assign agent experience profiles to a security role to provide customized app experiences for each group. The application assigns the agent profile to all the users with the specified security role. However, assignment of agent profiles based on [team membership](/power-platform/admin/create-edit-business-units#change-the-business-unit-for-a-team) isn't allowed.
 
-If users have multiple security roles, the applications links the profile with the higher rank to the user. 
+If users have multiple security roles, the application links the profile with the higher rank to the user. 
 
 For example, your organization has both Customer Service Representative and Omnichannel agent roles to which users are assigned. The table summarizes the mapping of agent experience profiles to the corresponding roles.
 
@@ -61,9 +61,9 @@ To add a security role and rank to an agent experience profile, perform the foll
 When you set a custom profile as the default, the following changes occur:
  - You can't set security roles and rank to the out-of-the-box profiles.
  - You no longer can assign security roles to the default profile.
- - Existing security roles will be removed.
+ - Existing security roles are removed.
 
-1. In **Profile rank and roles assignment** specify the following:
+1. In **Profile rank and roles assignment** specify the following details:
      - **Rank**: Used to determine the custom agent experience profile that must be mapped to a user when multiple roles are assigned to a user.
      - **Roles**: The user roles that the custom agent experience profile can be mapped to.
 

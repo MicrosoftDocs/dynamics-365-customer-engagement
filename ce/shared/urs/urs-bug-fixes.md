@@ -1,25 +1,55 @@
+
 ## Release schedule
 
-When a new version of Universal Resource Scheduling releases, it becomes available in different geographic regions at different times. Use the table below to see estimates for when the next release will become available in the region of your environment.
+When a new version of Universal Resource Scheduling releases, it becomes available in different geographic regions at different times. The table shows estimates for when the next release will become available in the region of your environment.
 
 For information about other updates to Universal Resource Scheduling, visit the Field Service section of the [Dynamics 365 release plans](/dynamics365/release-plans/).
 For information about older versions, see [Version history archive](../../field-service/version-history-archive.md#universal-resource-scheduling).
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118)  | TBD | 01/24/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |[3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016)  | [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118) | 01/19/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016)  | [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118) | 01/26/2024 |
-| | *USG* | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016)  | [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118) | 01/19/2024 |
-|**Station 4** |*Europe* |  [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 01/19/2024  |
-|**Station 5** |  *North America*|  [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 01/26/2024  |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 01/26/2024  |
-| | *Dedicated Scale Groups* |[3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 02/02/2024  |
+|**Station 1** |  *First Release*| [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | TBD | 03/01/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | TBD | 03/08/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | 03/01/2024 |
+| | *USG* |  [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | TBD | 03/08/2024 |
+|**Station 4** |*Europe* |   [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118)  | [3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | 03/08/2024 |
+|**Station 5** |  *North America*| [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118)  | [3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | 03/15/2024 |
+|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118)  | [3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | 03/15/2024 |
+| | *Dedicated Scale Groups* |[3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118)  | [3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | 03/01/2024 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.123.34
+
+**Resource Scheduling Controls:** 1.2.62.240451
+
+**Dataverse:**  4.0.113.34
+
+- Travel time calculates correctly for facility resources.
+- All relevant fields now link to their respective entities in the requirements pane on the schedule board.
+- The time zone setting in the schedule board settings is now reflected when moving a booking.
+- Performance improvements when switching between schedule board tabs.
+
+## 3.12.126.1 - 2024 Wave 1 Early Access
+
+**Resource Scheduling Controls:** 1.2.65.240241
+
+**Dataverse:** 4.0.116.1
+
+- Booking templates now feature updated colors and color picking tools.
+- Fixed a bug that was impacting requirement grid column filters for some users.
+
+
+## 3.12.122.50
+
+**Resource Scheduling Controls:** 1.2.61.240223
+
+**Dataverse:** 4.0.112.50
+
+- Minor user experience bug fixes for requirement groups, map pins, and service territories.
 
 ## 3.12.121.18
 
@@ -31,7 +61,7 @@ For information about older versions, see [Version history archive](../../field-
 - Bookings made in the Booking pane can now be set to any time granularity. 
 - Fixed a bug where resources marked to not show on the schedule board were listed in the *Move to* dropdown.
 - The number of child resources for pools and crews now show on the schedule board.
-- Additional capacity of a resource now shows on the schedule board when available. 
+- Extra capacity of a resource now shows on the schedule board when available. 
 - Booking rules now support HTML tags.
 - The *Service territory* field on the *Select resource* filter now supports free text.
 
@@ -46,11 +76,10 @@ For information about older versions, see [Version history archive](../../field-
 - Enabled free text in the service territory filter field.  
 - Booking rules now support HTML tags on the new schedule board.
 - When closing schedule assistant on the schedule board, users see their last open requirement tab.  
-- The schedule board supports Internet Explorer mode of the Edge browser. 
-- Resource Additional Capacity now shows on the Schedule Board when appropriate.
+- The schedule board supports Internet Explorer mode of the Microsoft Edge browser. 
 - Fixed a bug that caused an incorrect number of child resources to show on the schedule board for Crew and Pool resources.  
 - The move option on the schedule board now respects the resource selection of the schedule board.
-- Users can set specific times in the booking panel beyond the existing 15 minute granularity.
+- Users can set specific times in the booking panel beyond the existing 15-minute granularity.
 
 ## 3.12.119.27
 
@@ -80,7 +109,7 @@ For information about older versions, see [Version history archive](../../field-
 **Resource Scheduling Controls:** 1.2.57.232963
 
 - Fixed a bug where apostrophes were shown as undefined when part of a book template name
-- Fixed a bug where the Schedule Board requirements grid was not showing data. 
+- Fixed a bug where the Schedule Board requirements grid wasn't showing data. 
 
 ## 3.12.117.31
 
@@ -88,7 +117,7 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.107.30
 
-- **Proportional booking visualization on aggregated schedule board Vviews:** On daily, weekly, and monthly schedule board views, bookings are displayed as a proportion of their duration to the time block instead of filling the whole period.  
+- **Proportional booking visualization on aggregated schedule board views:** On daily, weekly, and monthly schedule board views, bookings are displayed as a proportion of their duration to the time block instead of filling the whole period.  
 - When schedule assistant fails to create a booking, an error message now shows more information. 
 - Fixed an issue that was causing the schedule board to load the wrong date when operating in specific time zones. 
 - Fixed an issue that was causing selected resources to be displayed as undefined when using client extensions.  
@@ -96,7 +125,7 @@ For information about older versions, see [Version history archive](../../field-
 **Resource Scheduling Controls:** 1.2.56.232963
 
 - Fixed a bug where apostrophes were shown as undefined when part of a book template name
-- Fixed a bug where the Schedule Board requirements grid was not showing data.  
+- Fixed a bug where the Schedule Board requirements grid wasn't showing data.  
 
 ## 3.12.112.5
 
@@ -104,8 +133,8 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.102.5
 
-- **Capacity for resource search**: Resource search is now supported for organizations with more than 5000 resources. 
-- **Accessibility**: Implemented a variety of accessibility improvements including increased support for screen readers, new visual labels, and additional ARIA attributes. 
+- **Capacity for resource search**: Resource search is now supported for organizations with more than 5,000 resources. 
+- **Accessibility**: Implemented various accessibility improvements including increased support for screen readers, new visual labels, and more ARIA attributes. 
 - Fixed an issue in the API where calling *msdyn_SearchResourceAvailability* consistently returned empty *AvailabilityIntervals* and *Characteristics*.
 - Fixed an issue that led to the schedule assistant returning no available slots when a user entered information in the *Time from promised* field.  
 - Fixed an issue where service territory filters were being reset when navigating through pages of a resource selection search.  
@@ -123,8 +152,8 @@ For information about older versions, see [Version history archive](../../field-
 - **Proportional bookings on multiday views:** Quickly determine a resource’s availability and utilization.
 - **Multiple recurrences in work hours calendar:** Greater flexibility in resource scheduling, helping you meet business demands while adjusting to your workforce’s needs.
 - Fixed an issue where rebooking and substituting on a requirement that got deleted was failing.
-- Fixed an issue where the schedule board color was not being applied when saving the board setting with a new color.
-- Fixed an issue where "Find Availability" in the new schedule board was not considering custom fields.
+- Fixed an issue where the schedule board color wasn't being applied when saving the board setting with a new color.
+- Fixed an issue where "Find Availability" in the new schedule board wasn't considering custom fields.
 
 ## 3.12.111.36
 
@@ -132,12 +161,12 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.101.36
 
-- Fixed an issue where filtering resources by name did not handle accented characters correctly.
-- Fixed an issue where the “Time From/To Promised” fields were not displayed during drag and drop operations on the schedule board if custom booking templates were enabled.
-- Fixed an issue where the resource search bar on the schedule board was limited to the client-side records and could not search for all records when there were more than 5000 resources.
-- Fixed an issue where the schedule board did not load completely after creating a new tab and switching back to the “Initial public view” tab. 
-- Fixed an issue where the calendar icons on the “From” and “To” fields in the requirement group form did not open the calendar picker. 
-- Fixed several accessibility issues in the “Edit Booking Alerts Template” dialog, button labels, ARIA attributes and screen reader compatibility.
+- Fixed an issue where filtering resources by name didn't handle accented characters correctly.
+- Fixed an issue where the “Time From/To Promised” fields weren't displayed during drag and drop operations on the schedule board if custom booking templates were enabled.
+- Fixed an issue where the resource search bar on the schedule board was limited to the client-side records and couldn't search for all records when there were more than 5,000 resources.
+- Fixed an issue where the schedule board didn't load completely after creating a new tab and switching back to the “Initial public view” tab. 
+- Fixed an issue where the calendar icons on the “From” and “To” fields in the requirement group form didn't open the calendar picker. 
+- Fixed several accessibility issues in the “Edit Booking Alerts Template” dialog, button labels, ARIA attributes, and screen reader compatibility.
 
 ## 3.12.110.18
 
@@ -145,10 +174,10 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.100.18
 
-- Fixed a bug where the schedule board color was not applied when saving the board setting with a new color.
-- Fixed a bug where the “Find Availability” feature in the new schedule board did not consider custom fields.
+- Fixed a bug where the schedule board color wasn't applied when saving the board setting with a new color.
+- Fixed a bug where the “Find Availability” feature in the new schedule board didn't consider custom fields.
 - Improved accessibility for the “New Filter Layout” dialog, the “New Schedule Board Tab” button in portrait mode, and the “New Schedule Board” navigation panel.
-- Fixed a bug where the schedule assistant requirement view was not picked up when the schedule assistant was launched from the book button.
+- Fixed a bug where the schedule assistant requirement view wasn't picked up when the schedule assistant was launched from the book button.
 - Fixed a bug where an incorrect “End Time” was populated on the booking custom entity when the “Default Booking Duration” had a Null value.
 - Fixed a bug where an incorrect “End Time” was populated in the “Create Booking Panel” in Schedule Assistant when creating a booking for a requirement for the second time.
 - Fixed a bug where the schedule board crashed when cold loading or creating a new tab in a small width window.
@@ -182,7 +211,7 @@ For information about older versions, see [Version history archive](../../field-
 **Dataverse:** 4.0.99.2
 
 - Resource Utilization now shows for schedule board tabs beyond the 10th tab.
-- If GPS tracking is enabled for a resource with a "location agnostic" location, a pin will be displayed on the schedule board map for the last known location.
+- If GPS tracking is enabled for a resource with a "location agnostic" location, a pin is displayed on the schedule board map for the last known location.
 
 ## 3.12.108.5
 
@@ -203,7 +232,7 @@ For information about older versions, see [Version history archive](../../field-
 **Dataverse:** 4.0.97.2
 
 - The duration field in the Create Booking pane now populates correctly when launched from the schedule assistant.
-- Characters no longer dropped when typing quickly in the filter field on the open requirements sub-grid on the schedule board.
+- Characters no longer dropped when typing quickly in the filter field on the open requirements subgrid on the schedule board.
 
 
 ## 3.12.106.7
@@ -214,7 +243,7 @@ For information about older versions, see [Version history archive](../../field-
 
 - Opening the map from Schedule Assistant now centers the viewing area correctly.
 - Using the "Select Resources" option on the filter panel on the schedule board applies the resource filter correctly. Additionally, corrected a performance regression with this control.
-- Selecting a resource in Schedule Assistant will populate the correct start date, end date, and duration in the Create Booking panel based on the resource availability and the requirement.
+- Selecting a resource in Schedule Assistant populates the correct start date, end date, and duration in the Create Booking panel based on the resource availability and the requirement.
 
 
 ## 3.12.105.25
@@ -223,7 +252,7 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.95.25
 
-- Additional performance improvements for loading daily/weekly/monthly views on the schedule board.
+- More performance improvements for loading daily/weekly/monthly views on the schedule board.
 - Bug fixes
 
     - Custom schedulable entities where the relationship to the requirement entity was created manually are no longer be blocked from scheduling on the legacy schedule board.
@@ -261,9 +290,9 @@ This release is a hotfix on Unified resource scheduling [3.12.103.12](/dynamics3
 
 **Dataverse:** 4.0.93.12
 
-- A board refresh on the schedule board refreshes all fields that have been added to the bookable resource cell template.
+- A board refresh on the schedule board refreshes all fields that were added to the bookable resource cell template.
 - The map on the schedule board now supports routes containing more than 25 stops.
-- Additional performance improvements when loading the schedule board, primarily focused on optimizing the number of API calls.
+- More performance improvements when loading the schedule board, primarily focused on optimizing the number of API calls.
 - Bug fixes:
      - Removing the organizational unit field from the default *Bookable Resource Booking* form no longer causes an error on the form.
      - Tooltips now work across all views when a *Bookable Resource Booking* doesn't have a parent *Resource Requirement*.

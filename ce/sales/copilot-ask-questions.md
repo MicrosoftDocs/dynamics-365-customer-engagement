@@ -24,9 +24,11 @@ Ask Copilot to update you on the latest changes to your sales records, get a lis
 
 Use this prompt to get a list of sales records that were recently updated.  
 
-In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's new with my sales records**, and select Enter.
+1. [Open Copilot](use-sales-copilot.md#open-copilot).
 
-:::image type="content" source="media/whats-new-with-myrecords.png" alt-text="Screenshot of the Copilot response for What's new with my sales records.":::
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's new with my sales records**, and select **Enter**.
+
+    :::image type="content" source="media/whats-new-with-myrecords.png" alt-text="Screenshot of the Copilot response for What's new with my sales records.":::
 
 Copilot fetches the list based on the following conditions:
 
@@ -34,7 +36,7 @@ Copilot fetches the list based on the following conditions:
 - The records were updated in the last seven days.
 - The records are owned by you. For account records, the records are owned by you or your team.
 - The fields that were updated are [configured by your administrator](enable-setup-copilot.md#configure-fields-for-generating-whats-new-with-my-sales-records-list). If you've updated fields other than the configured fields, those records aren't listed in the response.
-- If there are more than five records of a record type, Copilot picks the top five records that were most recently updated.
+- If a record type has more than five records, Copilot picks the five most recently updated ones.
 
 Hover over a record in the list and select **Get updates** to view all changes to the record in the last seven days.
 
@@ -42,15 +44,19 @@ Hover over a record in the list and select **Get updates** to view all changes t
 
 Copilot can help you stay on top of your pipeline by showing you a list of leads and opportunities that were assigned to you in the last 15 days.
 
-In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's newly assigned to me**, and select Enter.
+1. [Open Copilot](use-sales-copilot.md#open-copilot).
+
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's newly assigned to me**, and select **Enter**.
 
 ## Get recent changes to a lead or opportunity
 
 Copilot can help you catch up on any updates to your opportunity or lead records in the last seven days or since you last signed in.
 
-The list of recent changes is taken from the audit history of the record. If the list of changes doesn't appear, ask your administrator to [turn on auditing](enable-setup-copilot.md#turn-copilot-features-in-dynamics-365-apps-on-or-off) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
+The list of recent changes is taken from the audit history of the record. If the list of changes doesn't appear, ask your administrator to [turn on auditing](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
 
-1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **Show recent changes for opportunity or Show recent changes for lead**, and select Enter.
+1. [Open Copilot](use-sales-copilot.md#open-copilot).
+
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **Show recent changes for opportunity or Show recent changes for lead**, and select **Enter**.
 
     - If you have a record open, Copilot displays the list of recent changes to it.
     - If you're in the grid view, Copilot lists the records you own. Hover over a record and select **Get updates**.
@@ -67,7 +73,7 @@ The list of recent changes is taken from the audit history of the record. If the
 
 Copilot summarizes the last 10 updates to the record from the audit history, for the fields configured by your administrator. However, you might want to stay updated on changes to other fields that matter more to you. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
 
-Keep in mind that these fields are configured at the organization level. Make sure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
+Keep in mind that these fields are set at the organization level. Make sure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 ## Get answers from SharePoint documents (Preview)
 
