@@ -50,6 +50,8 @@ Do the following steps to add the SLA timer control for the case entity.
 4. On the page that appears, on the **Insert** tab, insert a section, and then insert a subgrid.
 5. Double-click the subgrid and in the **Set Properties** dialog, enter the necessary details. On the **Display** tab, **Data Source** section:
    1. For **Records**, select **Only Related Records**.
+    
+        Selecting **All Record Types** will retrieve all the SLA KPI instances present in the organization and might lead to performance issues.
    1. For **Entity**, select **SLA KPI Instances (Regarding)**.
    1. In **Default View**, add a view or edit an existing view to determine the SLA KPIs that need to be displayed for agents at runtime. For more information on views, see [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
 
