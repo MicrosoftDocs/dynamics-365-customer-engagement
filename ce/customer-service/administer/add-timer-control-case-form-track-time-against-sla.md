@@ -24,7 +24,7 @@ Add a timer control to a service-level agreement (SLA) enabled entity form to he
 
 After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. Some of the KPIs that agents can see include the different stages that KPIs go through.
 
-For information on how the SLA KPIs are displayed at runtime when agents view the case to work on in Customer Service Hub, go to [Timer for SLA-enabled entities](../use/customer-service-hub-user-guide-case-sla.md#timer-control-for-sla-enabled-entities).
+For information on how the SLA KPIs are displayed at runtime when agents view the case to work on in Customer Service Hub, see [Timer for SLA-enabled entities](../use/customer-service-hub-user-guide-case-sla.md#timer-control-for-sla-enabled-entities).
 
 > [!NOTE]
 > - The SLA Timer control displays SLA KPIs that are created in Unified Interface only.
@@ -35,7 +35,7 @@ A sample runtime view of the SLA Timer is as follows.
 ![Runtime view of the SLA timers.](../media/sla-timer-runtime.png "Runtime view of the SLA timers")
 
 However, SLA KPI Instances won't reach a **Nearing non-compliance** or **Non-complaint** state, if the **SLAWarningAndExpiryMonitoringFlow** isn't enabled and the SLA KPI Instance timer continues to run. The following warning message is displayed on the SLA Timers:
-"The SLA instances may be incorrect because workflow <*workflow ID*> is turned off. Please contact your admin to turn the workflow on." The workflow ID will vary from system to system as it corresponds to **SLAWarningAndExpiryMonitoringFlow**. For more information on how to enable **SLAWarningAndExpiryMonitoringFlow**, see [ Warning message appears on slakpiinstances](../troubleshoot-sla-issues.md#warning-message-appears-on-slakpiinstances).
+"The SLA instances may be incorrect because workflow <*workflow ID*> is turned off. Please contact your admin to turn the workflow on." The workflow ID varies from system to system as it corresponds to **SLAWarningAndExpiryMonitoringFlow**. For more information on how to enable **SLAWarningAndExpiryMonitoringFlow**, see [ Warning message appears on slakpiinstances](../troubleshoot-sla-issues.md#warning-message-appears-on-slakpiinstances).
 
 For more information on why an SLA KPI Instance doesn't reach **Nearing Non-compliance** or **Non-compliant** state and how you can resolve it, see [SLA KPI Instance doesn't reach Nearing Non-compliance or Non-compliant state, and the SLA KPI Instance timer continues to run](../troubleshoot-sla-issues.md#sla-kpi-instance-doesnt-reach-nearing-non-compliance-or-non-compliant-state-and-the-sla-kpi-instance-timer-continues-to-run).
 
@@ -51,7 +51,7 @@ Do the following steps to add the SLA timer control for the case entity.
 5. Double-click the subgrid and in the **Set Properties** dialog, enter the necessary details. On the **Display** tab, **Data Source** section:
    1. For **Records**, select **Only Related Records**.
     
-        Selecting **All Record Types** will retrieve all the SLA KPI instances present in the organization and might lead to performance issues.
+        Selecting **All Record Types** retrieves all the SLA KPI instances present in the organization and might lead to performance issues.
    1. For **Entity**, select **SLA KPI Instances (Regarding)**.
    1. In **Default View**, add a view or edit an existing view to determine the SLA KPIs that need to be displayed for agents at runtime. For more information on views, see [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
 
