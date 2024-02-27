@@ -1,7 +1,7 @@
 ---
 title: Connect to a model-driven app using Unified Service Desk client 
 description: Learn how to sign in to Unified Service Desk using the Unified Service Desk client. Also, learn how to use SSO for Unified Service Desk.
-ms.date: 02/26/2024
+ms.date: 02/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -182,8 +182,8 @@ If you need to modify the default sign-in information, you must repeat steps 1 t
 <a name="LogFiles"></a>   
 
 > [!NOTE]
-> To avoid issues when you sign-in with Chrome and have SSO enabled, we recommend that you set the **ChromeWebViewShowOutside**
-UII option to TRUE. See: [Manage global settings or options in Unified Service Desk](manage-options-unified-service-desk.md).
+> To avoid issues when you sign in with Chrome and have SSO enabled, we recommend that you set the **ChromeWebViewShowOutside**
+UII option to TRUE. More information: [Manage global settings or options in Unified Service Desk](manage-options-unified-service-desk.md).
 
 ## Troubleshoot sign-in issues
 
