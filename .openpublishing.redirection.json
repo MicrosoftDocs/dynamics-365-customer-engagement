@@ -2,17 +2,17 @@
   "redirections": [
     {
       "source_path": "ce/app-profile-manager/create-app-profiles-powerapps.md",
-      "redirect_url": "/previous-versions/dynamics365/app-profile-manager/create-app-profiles-powerapps",
+      "redirect_url": "/dynamics365/customer-service/administer/overview",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/app-profile-manager/csw-enable-channels.md",
-      "redirect_url": "/previous-versions/dynamics365/app-profile-manager/csw-enable-channels",
+      "redirect_url": "/dynamics365/customer-service/administer/overview",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/administer/app-profile-manager.md",
-      "redirect_url": "/previous-versions/dynamics365/customer-service/administer/app-profile-manager",
+      "redirect_url": "/dynamics365/customer-service/administer/overview",
       "redirect_document_id": false
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "source_path": "ce/customer-service/configure-cs.md",
-      "redirect_url": "/previous-versions/dynamics365/customer-service/configure-cs",
+      "redirect_url": "/dynamics365/customer-service/implement/overview",
       "redirect_document_id": false
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "source_path": "ce/customer-service/customer-service-hub-user-guide-manage-timeline-activities.md",
-      "redirect_url": "/previous-versions/dynamics365/customer-service/customer-service-hub-user-guide-manage-timeline-activities",
+      "redirect_url": "/power-apps/user/add-activities",
       "redirect_document_id": false
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "source_path": "ce/customer-service/find-knowledge-articles-within-record-dynamics-365.md",
-      "redirect_url": "/previous-versions/dynamics365/customer-service/find-knowledge-articles-within-record-dynamics-365",
+      "redirect_url": "/dynamics365/customer-service/use/overview-knowledge-management",
       "redirect_document_id": false
     },
     {
