@@ -1,16 +1,19 @@
 ---
-title: "Timer control for SLA-enabled entities | Microsoft Docs"
-description: "Learn how to add timer control in the case form to track time against a SLA in Dynamics 365 Customer Service."
-ms.date: 08/29/2023
+title: Add a timer control for SLA-enabled entities
+description: Add a timer control to SLA-enabled entity forms to help users track time and complete tasks within specified SLA time frames.
+ms.date: 02/27/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:02/27/2024
 ---
 
 # Add a timer control for SLA-enabled entities
@@ -45,14 +48,16 @@ Do the following steps to add the SLA timer control for the case entity.
 2. Select **Customize the System**, and in the **Solutions** page, expand **Entities** under **Components**.
 3. Select the entity for which you want to add the SLA Timer control, and in the **Forms** view, select the corresponding form. In this example, let us select the Case entity, and the **Case for interactive experience** form.
 4. On the page that appears, on the **Insert** tab, insert a section, and then insert a subgrid.
-5. Double-click the subgrid, and in the **Set Properties** dialog, enter the necessary details.
-   - In the **Data Source** area, in **Default View**, you can add a view or edit an existing view to determine the SLA KPIs that should be displayed for agents at runtime. For information on views, go to [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
+5. Double-click the subgrid and in the **Set Properties** dialog, enter the necessary details. On the **Display** tab, **Data Source** section:
+   1. For **Records**, select **Only Related Records**.
+   1. For **Entity**, select **SLA KPI Instances (Regarding)**.
+   1. In **Default View**, add a view or edit an existing view to determine the SLA KPIs that need to be displayed for agents at runtime. For more information on views, see [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
 
    > ![Configure SLA Timer in customizations.](../media/sla-timer-properties.png "Configure SLA Timer in customizations")
 
 6. On the **Controls** tab, enter the following information:
-   1. Select **Add Control**, and choose SLA Timer.
-   2. In the **SLA Timer** area, enter a value for **Update_Frequency_key** to set the timer refresh interval. For optimal performance, choose an interval that is not too short. The default interval is 30 minutes.
+   1. Select **Add Control**, and then select **SLA Timer**.
+   2. In the **SLA Timer** area, enter a value for **Update_Frequency_key** to set the timer refresh interval. For optimal performance, choose an interval that isn't too short. The default interval is 30 minutes.
 
    > ![Set refresh frequency for timer.](../media/sla-timer-update-frequency.png)
 
