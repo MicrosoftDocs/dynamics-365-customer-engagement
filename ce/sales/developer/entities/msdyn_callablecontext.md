@@ -1,7 +1,7 @@
 ---
 title: "msdyn_callablecontext table/entity reference"
 description: "Includes schema information and supported messages for the msdyn_callablecontext table/entity."
-ms.date: 01/29/2024
+ms.date: 02/27/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -34,7 +34,6 @@ search.audienceType:
 |IsValidStateTransition|<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 |PurgeRetainedContent|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
-|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
 |Retrieve|GET /msdyn_callablecontexts(*msdyn_callablecontextid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /msdyn_callablecontexts<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
@@ -221,9 +220,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |430|Entity Analytics Config|This entity contains information about which entities are enabled for Azure Data Lake Services integration|
 |431|Image Attribute Configuration|Store configuration for each image attribute|
 |432|Entity Image Configuration|Store image configuration for each entity|
-|500|Dual Write Entity Map||
-|501|Dual Write Runtime Configuration||
-|502|Dual Write Organization Configuration||
 |950|New Process|New Process Business Process Flow|
 |951|Translation Process|Translation Process Business Process Flow|
 |952|Phone To Case Process|Phone To Case Process Business Process Flow|
@@ -591,8 +587,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |10005|Solution History Data Source||
 |10006|Component Layer||
 |10007|Component Layer Data Source||
-|10008|Deployment Orchestration||
-|10009|Package||
+|10008|Package||
+|10009|Package History||
 |10011|StageSolutionUpload||
 |10012|ExportSolutionUpload||
 |10013|FeatureControlSetting|featurecontrolsetting|
@@ -691,70 +687,70 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |10109|Chatbot|Represents a Power Virtual Agents Chatbot. https://powerva.microsoft.com/|
 |10110|Chatbot subcomponent|Holds key authoring components of a Chatbot such a topics, entities, variables, etc.|
 |10118|Comment|A collaborative comment on a maker artifact|
-|10119|PDF Setting|PDF Settings to save enabled pdf entities|
-|10120|Activity File Attachment|Attachment entity with data stored in file type attribute|
-|10121|Teams chat|For internal use only. Entity which stores association data of Dynamics 365 records with Microsoft Teams chat|
-|10122|Service Configuration||
-|10123|SLA KPI||
-|10124|Integrated search provider|Ingest and search files, documents, or articles from data sources outside of your current Dynamics 365 organization with a unified ranking.|
-|10125|Knowledge Management Setting|Setup knowledge management for your organization.|
-|10126|Knowledge Federated Article||
-|10127|Knowledge Federated Article Incident||
-|10128|Search provider||
-|10129|Knowledge Article Image||
-|10130|Knowledge Configuration|Represents the possible settings used in Knowledge management|
-|10131|Knowledge Interaction Insight|Knowledge Interaction Insight|
-|10132|Knowledge Search Insight|Knowledge Search Insight|
-|10133|Favorite knowledge article|Entity for favorite knowledge articles|
-|10134|Knowledge article language setting|Allows you to select default language for knowledge authoring.|
-|10135|Knowledge Article Attachment||
-|10136|Knowledge personalization|Allows users to personalize their knowledge search filters and knowledge authoring language.|
-|10137|Knowledge Article Template|Organizational Knowledge Article Template for Internal and external creation of Knowledge Articles.|
-|10138|Knowledge search personal filter config|Allows you to configure and manage personal filter settings.|
-|10139|Knowledge search filter|Allows you to configure and manage filter settings.|
-|10141|SupportUserTable||
-|10142|FxExpression||
-|10143|PowerfxRule||
-|10144|Ms Graph Resource To Subscription|For internal use only. The mapping between Ms Graph Resources and Subscriptions.|
-|10145|Virtual Entity  Metadata|Holds  metadata values for virtual entities|
-|10146|Background Operation||
-|10147|MobileOfflineProfileExtension||
-|10148|MobileOfflineProfileItemFilter||
-|10149|TeamMobileOfflineProfileMembership||
-|10150|UserMobileOfflineProfileMembership||
-|10151|OrganizationDataSyncSubscription||
-|10152|OrganizationDataSyncSubscriptionEntity||
-|10153|OrganizationDataSyncSubscriptionFnoTable||
-|10154|OrganizationDataSyncFnoState|Information regarding data synchronization state|
-|10155|OrganizationDataSyncState|Information regarding data synchronization state|
-|10156|ArchiveCleanupInfo|This is Deprecated Entity.|
-|10157|ArchiveCleanupOperation|This is Deprecated Entity.|
-|10158|BulkArchiveConfig|This is Deprecated Entity.|
-|10159|BulkArchiveFailureDetail|This is Deprecated Entity.|
-|10160|BulkArchiveOperation|This is Deprecated Entity.|
-|10161|BulkArchiveOperationDetail|This is Deprecated Entity.|
-|10162|EnableArchivalRequest|For internal use only.|
-|10163|MetadataForArchival|Holds  metadata values of tables for retention|
-|10164|ReconciliationEntityInfo|Table level details of the data lake reconciliation process. For internal use only.|
-|10165|ReconciliationEntityStepInfo|Step level details of the data lake reconciliation process. For internal use only.|
-|10166|ReconciliationInfo|Information about data lake reconciliation operation. For internal use only.|
-|10167|RetentionCleanupInfo|Holds watermark information about retention cleanup operations. For internal use only.|
-|10168|RetentionCleanupOperation|Holds data of cleanup operations such as reconcile and purge.  For internal use only.|
-|10169|RetentionConfig|Holds retention policies for a table.|
-|10170|RetentionFailureDetail|Retention failure details.|
-|10171|RetentionOperation|Retention policy execution details.|
-|10172|RetentionOperationDetail|Table level details of retention execution.|
-|10173|App Insights Metadata|Metadata for App Insights Platform components|
-|10174|Dataflow Connection Reference|Intersecting table between Dataflow and Connection Reference|
-|10175|Schedule|Generic refresh schedule|
-|10176|Dataflow Template|An entity to store information about dataflow templates|
-|10177|Dataflow DatalakeFolder||
-|10178|Data Movement Service Request|Table for Data Movement Service Requests|
-|10179|Data Movement Service Request Status|Table for Data Movement Service Request Status|
-|10180|DMS Sync Request|An entity to save DMS sync requests.|
-|10181|DMS Sync Status|An entity to save DMS sync statuses.|
-|10182|Module Run Detail|Result of execution of a MEF model|
-|10183|Workflow Action Status|PA Workflows action processing status|
+|10119|App Insights Metadata|Metadata for App Insights Platform components|
+|10120|Dataflow Connection Reference|Intersecting table between Dataflow and Connection Reference|
+|10121|Schedule|Generic refresh schedule|
+|10122|Dataflow Template|An entity to store information about dataflow templates|
+|10123|Dataflow DatalakeFolder||
+|10124|Data Movement Service Request|Table for Data Movement Service Requests|
+|10125|Data Movement Service Request Status|Table for Data Movement Service Request Status|
+|10126|DMS Sync Request|An entity to save DMS sync requests.|
+|10127|DMS Sync Status|An entity to save DMS sync statuses.|
+|10128|Module Run Detail|Result of execution of a MEF model|
+|10129|Workflow Action Status|PA Workflows action processing status|
+|10130|PDF Setting|PDF Settings to save enabled pdf entities|
+|10131|Activity File Attachment|Attachment entity with data stored in file type attribute|
+|10132|Teams chat|For internal use only. Entity which stores association data of Dynamics 365 records with Microsoft Teams chat|
+|10133|Service Configuration||
+|10134|SLA KPI||
+|10135|Integrated search provider|Ingest and search files, documents, or articles from data sources outside of your current Dynamics 365 organization with a unified ranking.|
+|10136|Knowledge Management Setting|Setup knowledge management for your organization.|
+|10137|Knowledge Federated Article||
+|10138|Knowledge Federated Article Incident||
+|10139|Search provider||
+|10140|Knowledge Article Image||
+|10141|Knowledge Configuration|Represents the possible settings used in Knowledge management|
+|10142|Knowledge Interaction Insight|Knowledge Interaction Insight|
+|10143|Knowledge Search Insight|Knowledge Search Insight|
+|10144|Favorite knowledge article|Entity for favorite knowledge articles|
+|10145|Knowledge article language setting|Allows you to select default language for knowledge authoring.|
+|10146|Knowledge Article Attachment||
+|10147|Knowledge personalization|Allows users to personalize their knowledge search filters and knowledge authoring language.|
+|10148|Knowledge Article Template|Organizational Knowledge Article Template for Internal and external creation of Knowledge Articles.|
+|10149|Knowledge search personal filter config|Allows you to configure and manage personal filter settings.|
+|10150|Knowledge search filter|Allows you to configure and manage filter settings.|
+|10152|SupportUserTable||
+|10153|FxExpression||
+|10154|PowerfxRule||
+|10155|Ms Graph Resource To Subscription|For internal use only. The mapping between Ms Graph Resources and Subscriptions.|
+|10156|Virtual Entity  Metadata|Holds  metadata values for virtual entities|
+|10157|Background Operation||
+|10158|MobileOfflineProfileExtension||
+|10159|MobileOfflineProfileItemFilter||
+|10160|TeamMobileOfflineProfileMembership||
+|10161|UserMobileOfflineProfileMembership||
+|10162|OrganizationDataSyncSubscription||
+|10163|OrganizationDataSyncSubscriptionEntity||
+|10164|OrganizationDataSyncSubscriptionFnoTable||
+|10165|OrganizationDataSyncFnoState|Information regarding data synchronization state|
+|10166|OrganizationDataSyncState|Information regarding data synchronization state|
+|10167|ArchiveCleanupInfo|This is Deprecated Entity.|
+|10168|ArchiveCleanupOperation|This is Deprecated Entity.|
+|10169|BulkArchiveConfig|This is Deprecated Entity.|
+|10170|BulkArchiveFailureDetail|This is Deprecated Entity.|
+|10171|BulkArchiveOperation|This is Deprecated Entity.|
+|10172|BulkArchiveOperationDetail|This is Deprecated Entity.|
+|10173|EnableArchivalRequest|For internal use only.|
+|10174|MetadataForArchival|Holds  metadata values of tables for retention|
+|10175|ReconciliationEntityInfo|Table level details of the data lake reconciliation process. For internal use only.|
+|10176|ReconciliationEntityStepInfo|Step level details of the data lake reconciliation process. For internal use only.|
+|10177|ReconciliationInfo|Information about data lake reconciliation operation. For internal use only.|
+|10178|RetentionCleanupInfo|Holds watermark information about retention cleanup operations. For internal use only.|
+|10179|RetentionCleanupOperation|Holds data of cleanup operations such as reconcile and purge.  For internal use only.|
+|10180|RetentionConfig|Holds retention policies for a table.|
+|10181|RetentionFailureDetail|Retention failure details.|
+|10182|RetentionOperation|Retention policy execution details.|
+|10183|RetentionOperationDetail|Table level details of retention execution.|
 |10184|Notification|Notification to be provided to a user.|
 |10185|User Rating||
 |10186|Mobile App|Mobile App|
@@ -881,9 +877,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |10326|JobsState|Entity to store jobstate|
 |10327|Asset Category Template Association||
 |10328|Asset Template Association||
-|10329|Maintenance Asset|Specify customer asset.|
+|10329|Customer Asset|Specify Customer Asset.|
 |10332|Customer Asset Attachment|Attachments for Customer Asset|
-|10333|Maintenance Asset Type|The Category of Customer Asset.|
+|10333|Customer Asset Category|The Category of Customer Asset.|
 |10334|Functional Location||
 |10335|Property Definition||
 |10336|Property Asset Association||
@@ -1004,1016 +1000,320 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |10477|ODOSFeatureMetadata||
 |10478|ODOSMetadata||
 |10479|Recurring Sales Action||
-|10480|msdyn_relationshipinsightsunifiedconfig||
-|10481|siconfig||
-|10482|SI Key Value Config||
-|10483|Usage Metric||
-|10484|Action Card Regarding||
-|10485|Action Card Role Setting||
-|10486|EntityRankingRule||
-|10487|flowcardtype||
-|10488|salesinsightssettings|Storing settings for studio feature|
-|10489|Action Card Usage||
-|10490|Action Card Usage Aggregation||
-|10491|Auto Capture Rule|Auto Capture Rules|
-|10492|Auto Capture Settings|Auto Capture Settings|
-|10493|UntrackedAppointment|UntrackedAppointments|
-|10494|Suggested Activity|Activity suggestions|
-|10495|Suggested Activity Data Source|Suggested Activity Data Sources|
-|10496|Suggested Contact|Contact suggestions|
-|10497|Suggested Contacts Data Source|Suggested contacts data sources|
-|10498|Notes analysis Config||
-|10499|icebreakersconfig||
-|10500|dealmanageraccess||
-|10501|Deal manager settings|Deal manager settings|
-|10502|Account KPI Item||
-|10503|Activity Analysis CleanUp State||
-|10504|Relationship Analytics Config||
-|10505|Contact KPI Item||
-|10506|Daily Kpis for account||
-|10507|Daily kpis for contact||
-|10508|Daily kpis for lead||
-|10509|Daily kpis for Opportunity||
-|10510|Lead KPI Item||
-|10511|Most Contacted|Most Contacted|
-|10512|Most Contacted By|Most Contacted By|
-|10513|Opportunity KPI Item||
-|10514|Relationship Analytics Metadata||
-|10515|Similar entities feature importance||
-|10516|wkwcolleaguesforcompany||
-|10517|wkwcolleaguesforcontact|Entity for storing contact introducer|
-|10518|wkwconfig||
-|10519|Attribute Influence Statistics||
-|10520|Prediction Computation Operation||
-|10521|Prediction Model Status|Stores metadata about predictive models|
-|10522|Prediction Scheduled Operation|Contains meta-data about the scheduled operations.|
-|10523|Predictive Model Score||
-|10524|Predictive Score||
-|10525|Predictive Scoring Sync Status|Internal entity used to store sync status for predictive scoring core entities.|
-|10526|Real Time Scoring|Stores meta data information for real time scoring.|
-|10527|Real Time Scoring Operation|Stores metadata for real time scoring job.|
-|10528|Submodel Definition|Stores metadata about submodels|
-|10529|Time spent in BPF||
-|10530|Training Result|Stores Training results for the model|
-|10531|OpportunityModelConfig||
-|10532|LeadModelConfig||
-|10533|ModelPreviewStatus||
-|10534|Profile Album|Contains user profile images that are stored as attachments and displayed in posts.|
-|10535|Post Configuration|Enable or disable entities for Activity Feeds and Yammer collaboration.|
-|10536|Post Rule Configuration|Enable or disable system post rules for an entity for Activity Feeds and Yammer.|
-|10537|Wall View|Contains information regarding which views are available for users to display on their personal walls. Only an administrator can specify the views that users can choose from to display on their personal walls.|
-|10538|Filter|Contains user personalization information regarding which of the administrator’s selected views to display on a user’s personal wall.|
-|10539|Customer Voice alert||
-|10540|Customer Voice alert rule||
-|10541|Customer Voice survey email template|Template for an email message that contains the survey invitation link.|
-|10542|Customer Voice file response|Response to a file upload question.|
-|10543|Customer Voice localized survey email template|Stores localized data for email templates.|
-|10544|Customer Voice project|Set of surveys to collect feedback.|
-|10545|Customer Voice survey question|Question in a survey to collect feedback.|
-|10546|Customer Voice survey question response|Response to a question in a survey.|
-|10547|Customer Voice satisfaction metric|Satisfaction metric defined for a project.|
-|10548|Customer Voice survey|Set of questions to collect feedback.|
-|10549|Customer Voice survey invite|Activity that tracks a survey invitation sent to a person.|
-|10550|Customer Voice survey reminder|Email reminders for surveys created in Customer Voice.|
-|10551|Customer Voice survey response|Response to a survey.|
-|10552|Customer Voice unsubscribed recipient|Email address of an unsubscribed respondent.|
-|10553|AddToCalendar style||
-|10554|basestyle||
-|10555|Button style||
-|10556|Code style||
-|10557|Column style||
-|10558|Content Block||
-|10559|Divider style||
-|10560|General styles||
-|10561|imagestyle||
-|10562|Layout Style||
-|10563|QR code style||
-|10564|Text style||
-|10565|Video style||
-|10566|App state||
-|10567|CSAdminConfig||
-|10568|Custom API Ruleset Configuration|Configuration table for setting up custom APIs for usage inside the Unified routing system|
-|10569|Decision contract|Stores information about contract that will be required for ruleset definition|
-|10570|Decision rule set|Contains list of rules to define demand and assignment behavior|
-|10571|Rulesetentitymapping|For internal use only entity used to store an implicit mapping between a ruleset and polymorphic entity|
-|10572|Routing diagnostic item|The entity used to store unified routing diagnostic data.|
-|10573|Routing diagnostic||
-|10574|Inbox Configuration||
-|10575|Agent Copilot Setting||
-|10576|App Profile Copilot Configuration||
-|10577|Copilot Summarization Setting||
-|10578|Case Enrichment||
-|10579|Case Suggestion||
-|10580|Case Suggestion Request Payload||
-|10581|Case Suggestions Data Souce||
-|10582|Agent Preference For Copilot||
-|10583|Copilot Interaction||
-|10584|Copilot Interaction Data||
-|10585|Copilot Transcript||
-|10586|Copilot Transcript Data||
-|10587|KB Enrichment||
-|10588|Knowledge Article Suggestion||
-|10589|Knowledge Article Suggestion Data Source||
-|10590|Suggestion Interaction||
-|10591|Suggestion request payload||
-|10592|Suggestions Model Summary|Suggestions Model Summary entity|
-|10593|Suggestions Setting|Suggestions settings entity|
-|10594|Data Analytics Admin Settings (Deprecated)|Data Analytics Admin Settings (Deprecated)|
-|10595|Data Analytics User Customized Report|Data Analytics User Customized Report|
-|10596|Data Analytics Dataset|Data Analytics Power BI Datasets|
-|10597|Data Analytics Report|Data Analytics Reports|
-|10598|Data Analytics Workspace|Data Analytics Power BI Workspaces|
-|10599|Insights|Analytics and insights feature entity|
-|10600|Report Bookmark||
-|10601|Agent Resource Forecasting|Agent Resource Forecasting|
-|10602|[Deprecated] Dynamics Customer Service Analytics|[Deprecated] Controls access to Analytics Reporting Sitemap in Dynamics Customer Service App|
-|10603|Case Topic||
-|10604|Case Topic Setting|Case Topic Setting Entity|
-|10605|Case Topic Summary|Case Topic Summary Entity|
-|10606|Case topic Incident mapping|Cases mapping with the case topics|
-|10607|Customer Service historical analytics|Customer Service historical analytics|
-|10608|Forecast|Case, Conversation Volume Forecast analytics|
-|10609|Knowledge analytics|Knowledge analytics|
-|10610|Forecast Summary and Setting||
-|10611|Keywords Description Suggestion Setting|Keywords Description Suggestion settings entity|
-|10612|Swarm|Tracks the list of swarms created by agents to resolve the customer issues|
-|10613|Swarm participant|Stores the participants information of swarm|
-|10614|Swarm participant rule|Rules to fetch participants based on their role|
-|10615|Swarm role|Stores the different participant roles and associated role type defined|
-|10616|Swarm skill|Stores the skills required for the swarm|
-|10617|Swarm template|Entity which stores different templates for the swarm|
-|10618|Entity Attachment||
-|10619|Customer Service Key Value Configuration||
-|10620|Master Entity Routing Configuration|Defines master routing details for the entity.|
-|10621|Routing Rule Set Setting||
-|10622|Assignment Configuration||
-|10623|Assignment Configuration Step||
-|10624|Capacity Profile|Capacity Profiles|
-|10625|Overflow Action Config|Overflow action configurations.|
-|10626|Preferred Agent|Preferred Agent Table, table used to store the mapping between the system user and contact/account|
-|10627|Preferred Agent Customer Identity|Used for storing the table used to identify customer and the corresponding associated table|
-|10628|Preferred Agent Routed Entity|Preferred Agent Routed table used to store information for routed table name and customer identifying column on the table|
-|10629|Routing configuration|Defines routing details for the workstream|
-|10630|Routing configuration step|Links the routing configuration with ruleset|
-|10631|Bot Channel Registration|Bot channel registration used for channel integration|
-|10632|Channel Configuration|Channel Configuration|
-|10633|Channel State Configuration|Channel State Configuration|
-|10634|Provisioning State|Provisioning state|
-|10635|AdminAppState|State for each user in Admin App|
-|10636|Agent Status history|Agent status history entity records any changes to agent’s presence or available capacity.|
-|10637|Power BI Configuration|Stores the Power BI configurations for supervisor experience|
-|10638|Authentication Settings|Stores the settings for user authentication|
-|10639|Auth Settings Entry||
-|10640|Quick reply|Stores the quick replies that agents can use in the conversation control while interacting with the customers|
-|10641|Entity Routing Context|Entity Routing Contexts|
-|10642|Channel Capability|The capability that a channel can enable, such as co-browse, screen sharing.|
-|10643|Conversation Action|The action that can be performed in the conversation.|
-|10644|Conversation Action Locale|Localization information associated with the Conversation action.|
-|10645|Conversation Message Block|A Message Block would constitute a block of messages up till an agent responds (including the messages sent by the agent). A follow up message, after an agent responds, will create another message block, this block again ends with the messages from the agent|
-|10646|DeletedConversation|Holds id of deleted conversation|
-|10647|Deprecated Workstream Entity Configuration|Stores entity routing configuration per workstream|
-|10648|Entity|Entity Routing Configuration|
-|10649|Ongoing conversation (Deprecated)|Tracks the interactions between the agents and customer|
-|10650|Live work item event|This entity captures all events corresponding to a live work item.|
-|10651|Work Stream|Stores information about the properties of work items that are generated by a unique channel endpoint|
-|10652|Masking Rule|Masking Rules to apply to chat messages.|
-|10653|Auto block rule||
-|10654|Bot Channel Registration Secret||
-|10655|Omnichannel channel api conversation privilege|Entity for creating privilege for custom apis. The privileges for this entity will be used to restrict custom api access.|
-|10656|Omnichannel channel api message privilege|Entity for creating privilege for custom apis. The privileges for this entity will be used to restrict custom api access.|
-|10657|Channel api method mapping|OC channel api method mapping entity.|
-|10658|External context||
-|10659|Flagged spam||
-|10660|Language||
-|10661|Conversation|Tracks the interaction between the agents and customer|
-|10664|Context item value|Stores context item values for an engagement.|
-|10665|Live Work Item Participant (Deprecated)||
-|10666|Conversation Sentiment|Stores the machine learning generated customer sentiment of the communication  between the user and the customer|
-|10667|Context variable|Stores the context variables for a work stream.|
-|10668|Localization|Entity used for data localization on CRM org.|
-|10669|OC Payment Profile||
-|10670|Recording|Records the audio/video session|
-|10671|Omnichannel Request|Entity to store Requests across Omnichannel.|
-|10672|Rich message|Rich messages for Omnichannel integration|
-|10673|Rich message map|Rich messages map for Omnichannel integration|
-|10674|Rule Item|Stores the condition and destination including Omnichannel queues or agents|
-|10675|Sentiment daily topic|1. store properties regarding each topic cluster
-=======
-|10008|Package||
-|10010|StageSolutionUpload||
-|10011|ExportSolutionUpload||
-|10012|FeatureControlSetting|featurecontrolsetting|
-|10013|Solution Component Summary||
-|10014|Solution Component Count Summary||
-|10015|Solution Component Data Source||
-|10016|Solution Component Count Data Source||
-|10017|AAD User|Virtual entity that represents AAD user|
-|10018|Catalog|Entity for cataloging records to make it easier for your customers to find them on portals and through search.|
-|10019|Catalog Assignment|Entity for assigning records to a specific catalog |
-|10020|Internal Catalog Assignment||
-|10021|Custom API|Entity that defines a custom API|
-|10022|Custom API Request Parameter|Entity that defines a request parameter for a custom API|
-|10023|Custom API Response Property|Entity that defines a response property for a custom API |
-|10024|ProvisionLanguageForUser||
-|10025|Shared Object|A record that is being shared in a real time collaboration session.|
-|10026|Shared Workspace|References a container that stores real-time collaboration data.|
-|10027|Data Lake Folder|A folder is a place to store data in Azure Data Lake.|
-|10028|Data Lake Folder Permission||
-|10029|Data Lake Workspace|A workspace is a place to store data in Azure Data Lake.|
-|10030|Data Lake Workspace Permission||
-|10031|Data Processing configuration||
-|10032|Synapse Database|This entity represents an external Synapse database and its associated datalake folder link.|
-|10033|Synapse Link External Table State|Synapse Link external table states|
-|10034|Synapse Link Profile|Synapse Link Profile|
-|10035|Synapse Link Profile Entity|Entities associated with the Synapse Link profile|
-|10036|Synapse Link Profile Entity State|Runtime state of the Synapse Link entity|
-|10037|Synapse Link Schedule|Synapse link schedules|
-|10038|DataflowRefreshHistory||
-|10039|EntityRefreshHistory||
-|10040|Shared Link Setting|Shared Link Setting|
-|10041|CascadeGrantRevokeAccessRecordsTracker||
-|10042|CascadeGrantRevokeAccessVersionTracker||
-|10043|RevokeInheritedAccessRecordsTracker||
-|10044|TdsMetadata||
-|10045|Model-Driven App Element|Associates a model-driven app with its components.|
-|10046|Model-Driven App Component Node's Edge|Contains Model-Driven App Component Node's Edge Information.|
-|10047|Model-Driven App Component Node|Contains Model-Driven App Component Node Information|
-|10048|Model-Driven App Setting|Holds the value for the associated App Setting Definition.|
-|10049|Model-Driven App User Setting|Holds the value for the associated App User Setting Definition.|
-|10050|Organization Setting|Holds the value for the associated Organization Setting Definition.|
-|10051|Setting Definition|Contains Setting Definitions|
-|10052|CanvasApp Extended Metadata|Holds extended metadata values for canvas apps that are not solution aware|
-|10053|Service Plan Mapping|Service Plan Mapping|
-|10055|ApplicationUser|Application User that has non-interactive access to the CDS system|
-|10058|OData v4 Data Source|Data sources used by the OData v4 data provider to access data from an external web service.|
-|10059|Workflow Binary||
-|10060|Desktop Flow Module||
-|10061|Flow Machine||
-|10062|Flow Machine Group||
-|10063|Flow Machine Image||
-|10064|Flow Machine Image Version||
-|10065|Flow Machine Network||
-|10066|ProcessStageParameter||
-|10067|Desktop Flow Binary||
-|10068|Connection Reference||
-|10069|Help Page||
-|10070|Tour||
-|10071|BotContent||
-|10072|ConversationTranscript|Contains the transcripts of conversations between participants such as customers, Virtual Agents or Human agents.|
-|10073|Chatbot|Represents a Power Virtual Agents Chatbot. https://powerva.microsoft.com/|
-|10074|Chatbot subcomponent|Holds key authoring components of a Chatbot such a topics, entities, variables, etc.|
-|10081|Comment|A collaborative comment on a maker artifact|
-|10082|PDF Setting|PDF Settings to save enabled pdf entities|
-|10083|Activity File Attachment|Attachment entity with data stored in file type attribute|
-|10084|Teams chat|For internal use only. Entity which stores association data of Dynamics 365 records with Microsoft Teams chat|
-|10085|Service Configuration||
-|10086|SLA KPI||
-|10087|Knowledge Management Setting|Setup knowledge management for your organization.|
-|10088|Knowledge Federated Article||
-|10089|Knowledge Federated Article Incident||
-|10090|Integrated search provider|Ingest and search files, documents, or articles from data sources outside of your current Dynamics 365 organization with a unified ranking.|
-|10091|Search provider||
-|10092|Knowledge Article Image||
-|10093|Knowledge Interaction Insight|Knowledge Interaction Insight|
-|10094|Knowledge Search Insight|Knowledge Search Insight|
-|10095|Knowledge article language setting|Allows you to select default language for knowledge authoring.|
-|10096|Knowledge Article Attachment||
-|10097|Knowledge personalization|Allows users to personalize their knowledge search filters and knowledge authoring language.|
-|10098|Knowledge Article Template|Organizational Knowledge Article Template for Internal and external creation of Knowledge Articles.|
-|10099|Knowledge search personal filter config|Allows you to configure and manage personal filter settings.|
-|10100|Knowledge search filter|Allows you to configure and manage filter settings.|
-|10102|Plugin Package||
-|10103|PowerfxRule||
-|10104|SupportUserTable||
-|10105|Key Vault Reference|Contains data that refers to an Azure Key Vault containing credentials used to connect to secure web-hosted resources.|
-|10106|Managed Identity|Contains data to represent a Microsoft Entra ID Application used to connect to secure web-hosted resources.|
-|10107|Ms Graph Resource To Subscription|For internal use only. The mapping between Ms Graph Resources and Subscriptions.|
-|10108|Virtual Entity  Metadata|Holds  metadata values for virtual entities|
-|10109|MobileOfflineProfileExtension||
-|10110|MobileOfflineProfileItemFilter||
-|10111|TeamMobileOfflineProfileMembership||
-|10112|UserMobileOfflineProfileMembership||
-|10113|OrganizationDataSyncSubscription||
-|10114|OrganizationDataSyncSubscriptionEntity||
-|10115|OrganizationDataSyncState|Information regarding data synchronization state|
-|10116|App Insights Metadata|Metadata for App Insights Platform components|
-|10117|Workflow Action Status|PA Workflows action processing status|
-|10118|NonRelational Data Source||
-|10119|Notification|Notification to be provided to a user.|
-|10120|User Rating||
-|10121|Insights Store Data Source||
-|10122|Insights Store Virtual Entity|Insights Store Virtual Entity|
-|10123|RoleEditorLayout||
-|10124|App Action|Contains Modern Command Information|
-|10125|App Action Migration||
-|10126|App Action Rule||
-|10129|Card|Card|
-|10130|Entity link chat configuration||
-|10131|Rich Text Attachment|Image or file attached to a rich text field|
-|10132|Custom Control Extended Setting||
-|10133|SearchRelationshipSettings||
-|10134|Search Telemetry|Entity to log telemetry that used to improve search quality|
-|10135|Virtual Connector Data Source||
-|10136|Virtual Table Column Candidate||
-|10137|AI Builder Feedback Loop||
-|10138|AI Form Processing Document||
-|10139|AI Object Detection Image||
-|10140|AI Object Detection Label||
-|10141|AI Object Detection Bounding Box||
-|10142|AI Object Detection Image Mapping||
-|10144|AI Builder Dataset||
-|10145|AI Builder Dataset File||
-|10146|AI Builder Dataset Record||
-|10147|AI Builder Datasets Container||
-|10148|AI Builder File||
-|10149|AI Builder File Attached Data||
-|10150|PM Analysis History||
-|10151|PM Calendar||
-|10152|PM Calendar Version||
-|10153|PM Inferred Task||
-|10154|PM Process Extended Metadata Version||
-|10155|PM Process Template||
-|10156|PM Process User Settings||
-|10157|PM Process Version||
-|10158|PM Recording||
-|10159|PM Template||
-|10160|PM View||
-|10161|Analysis Component||
-|10162|Analysis Job||
-|10163|Analysis Result||
-|10164|Analysis Result Detail||
-|10165|Solution Health Rule||
-|10166|Solution Health Rule Argument||
-|10167|Solution Health Rule Set|Represents a set that owns a number of solution health rules.|
-|10168|Power BI Dataset||
-|10169|Power BI Mashup Parameter||
-|10170|Power BI Report||
-|10171|List Operation|System operation used to perform lengthy and asynchronous list operations on large data sets, such as adding members to a list.|
-|10172|Marketing Form Display Attributes|Setting to allow customized form for In-app Marketing Form|
-|10173|Database Version|Stores the latest database version for a solution, for internal use only.|
-|10174|Upgrade Run|Contains logging information about a run of a Package Deployer package that upgrades a solution|
-|10175|Upgrade Step|One step during an upgrade, such as a single method or stored procedure.|
-|10176|Upgrade Version|Information about upgrading from one release to the next release|
-|10177|Activity monitor|Entity that tracks ARC runtime information.|
-|10178|Unified Routing Setup Tracker|Unified Routing Setup Trackers|
-|10179|Available Times||
-|10180|Available Times Data Source||
-|10181|resource group data source||
-|10182|Virtual Resource Group Resource||
-|10183|Migration tracker|Entity that tracks the migration process of legacy to modern SLA/ARC items|
-|10184|Asset Category Template Association||
-|10185|Asset Template Association||
-|10186|Customer Asset|Specify Customer Asset.|
-|10189|Customer Asset Attachment|Attachments for Customer Asset|
-|10190|Customer Asset Category|The Category of Customer Asset.|
-|10191|Functional Location||
-|10192|Property Definition||
-|10193|Property Asset Association||
-|10194|Property Log||
-|10195|Property Template Association||
-|10196|Template For Properties||
-|10200|IoT Alert||
-|10201|IoT Device|Represents a connected device that can be registered with an IoT provider.|
-|10202|IoT Device Category|Used to categorize IoT devices.|
-|10203|IoT Device Command|Represents an outgoing message to a device connected to an IoT provider.|
-|10204|IoT Device Command Definition|Metadata for commands that a device or a device category supports.|
-|10205|IoT Device Data History|The name of the entity that holds the device data every time a device data pull occurs between Dynamics 365 and an IoT provider|
-|10206|IoT Device Property|Link entity between IoT Device Category and IoT Property Definition. This is used to model properties and tags for devices.|
-|10207|IoT Device Registration History|Tracks registration activities on an IoT device.|
-|10208|IoT Device Visualization Configuration|IoT Device Visualization Configuration|
-|10209|IoT Field Mapping||
-|10210|IoT Property Definition|Defines a device property or a parameter that can be used for one or more command definitions.|
-|10211|IoT Provider|The IoT Provider where a device is registered and through which all interactions with the device take place|
-|10212|IoT Provider Instance|An instance of an IoT Provider.|
-|10213|IoT Settings||
-|10216|IoT Alert to Case Process|Base entity for process IoT to Case Process|
-|10218|Playbook Callable Context||
-|10219|Playbook activity|Stores the details of the activities to be created when a playbook is launched.|
-|10220|Playbook activity attribute|Stores attribute names and values of the playbook activity.|
-|10221|Playbook category|List of categories for which a playbook can be created.|
-|10222|Playbook|Actual instance of a playbook template once it is launched.|
-|10223|Playbook template|Playbook templates contains the definition of the Playbook that helps to standardize a set of best practices or next best actions.|
-|10225|admin_settings_entity||
-|10226|Collab Space Team Association|Collab Space Team Association|
-|10227|CRM Connection||
-|10228|Tagged Record|Tagged Record - Microsoft Copilot for Sales|
-|10229|Microsoft Copilot for Sales customer list||
-|10230|msdyn_vivaentitysetting|Entity level settings for Microsoft Copilot for Sales|
-|10231|msdyn_vivaorgsetting|Org level settings for Viva apps|
-|10232|msdyn_vivausersetting|User level settings for Microsoft Copilot for Sales|
-|10233|App profile||
-|10234|Application Extension||
-|10235|Application Tab Template||
-|10236|App profile role mapping||
-|10237|Notification Field||
-|10238|Notification Template||
-|10239|Session Template||
-|10240|Template Parameter||
-|10246|Channel Integration Framework v2.0 Provider|Entity that holds the configuration data for a third-party voice channel provider based on Channel Integration Framework v2.0|
-|10248|Channel Integration Framework v1.0 Provider|Entity that holds the configuration data for a channel provider based on Channel Integration Framework v1.0|
-|10249|Notification Field (Deprecated)|Defines a field (key, templateValue) that needs to be populated in the notification body.|
-|10250|Notification Template (Deprecated)|Template for a notification|
-|10251|App Parameter Definition (Deprecated)||
-|10252|Session Templates (Deprecated)||
-|10253|Application Tab Template (Deprecated)|An application tab template with various template parameters defined.|
-|10254|Parameter (Deprecated)|Template parameter values for a given application template|
-|10255|Template Tag (Deprecated)|Tags associated with templates. Templates are discovered via tags|
-|10256|Application Type (Deprecated)|Define a UCI pagetype. For each pagetype, define the parameters that need to be a part of the template for this application type|
-|10265|Conversation Data (Deprecated)|Primary entity for a conversation|
-|10266|KPI Event Data|Primary entity for a kpi event|
-|10267|KPI Event Definition|Primary entity for defining a KPI event|
-|10268|Session Data (Deprecated)|Primary entity for session data|
-|10269|Session Participant Data (Deprecated)||
-|10270|Channel Definition|Stores details about a channel definition.|
-|10271|Channel Definition Consent||
-|10272|Channel Definition Locale||
-|10273|Channel Instance||
-|10274|Channel Instance Account||
-|10275|Channel Message Part||
-|10276|Consuming Application|Consuming Application that use Unified Channel|
-|10277|msdyn_DefExtendedChannelInstance||
-|10278|msdyn_DefExtendedChannelInstanceAccount||
-|10279|Productivity pane configuration||
-|10280|Pane tab configuration||
-|10281|Pane tool configuration||
-|10283|Agent script|Agent script v2|
-|10284|Agent script step||
-|10286|Action Input Parameter|Attributes of action input parameters|
-|10287|Action Output Parameter|Attributes of action output parameters|
-|10288|Macro Action Template|Attributes for macro action template|
-|10289|Macro Solution Configuration|Macro solution related configurations|
-|10290|Macro Connector|Attributes for macro connectors|
-|10291|Macro Run History|Stores history of macro runs|
-|10292|Parameter definition|Macro parameter definitions|
-|10295|Adaptive Card Configuration|Adaptive Card Configuration|
-|10296|Smartassist configuration|Stores Smartassist configurations|
-|10298|Microsoft Teams Graph resource Entity|Entity which stores collaboration data of Dynamics 365 with Microsoft Teams|
-|10299|msdyn_msteamssetting||
-|10300|msdyn_msteamssettingsv2||
-|10301|Microsoft Teams Collaboration entity|Entity which stores collaboration data of Dynamics 365 with Microsoft Teams|
-|10302|Teams Dialer Admin settings||
-|10303|Teams Contact Suggestion by AI||
-|10304|Contact suggestion rule||
-|10305|Contact suggestion ruleset||
-|10306|Microsoft Teams chat association entity|For internal use only. Entity which stores association data of Dynamics 365 records with Microsoft Teams chat|
-|10307|Microsoft Teams chat suggestion|For internal use only|
-|10308|Forecast Manual Adjustment History|Forecast Manual Adjustment History|
-|10309|Distributed Lock|Distributed Locks|
-|10310|Entity Delta Change|Entity Delta Changes|
-|10311|File Upload Status Tracker|File Upload Status Tracker|
-|10312|Forecast|Forecast|
-|10313|Forecast Configuration||
-|10314|Forecast definition|Defines the parameters used for forecasting.|
-|10315|Forecasting Cache|Forecasting Cache|
-|10316|Forecast Insights|Forecast Insights|
-|10317|Forecast|Stores sales predictions for your team or organization. For internal use.|
-|10318|Forecast Prediction Data|Forecast Prediction Data|
-|10319|Forecast Prediction Status|Forecast Prediction Status|
-|10320|Forecast recurrence|Stores recalculation information for each recurrence of the forecast hierarchy. For internal use.|
-|10321|Recompute Tracker||
-|10322|Forecast Recurrence|Forecast Recurrence|
-|10323|ShareAs Configuration|ShareAs Configuration|
-|10324|Customer email communication||
-|10326|Recurring Sales Action||
-|10327|msdyn_relationshipinsightsunifiedconfig||
-|10328|siconfig||
-|10329|SI Key Value Config||
-|10330|Usage Metric||
-|10331|Action Card Regarding||
-|10332|Action Card Role Setting||
-|10333|EntityRankingRule||
-|10334|flowcardtype||
-|10335|salesinsightssettings|Storing settings for studio feature|
-|10336|Auto Capture Rule||
-|10337|Auto Capture Settings||
-|10338|UntrackedAppointment||
-|10339|Suggested Activity||
-|10340|Suggested Activity Data Source||
-|10341|Suggested Contact||
-|10342|Suggested contacts data source||
-|10343|Notes analysis Config||
-|10344|icebreakersconfig||
-|10345|dealmanageraccess||
-|10346|Deal manager settings|Deal manager settings|
-|10347|Recording||
-|10348|Attribute Influence Statistics||
-|10349|Predictive Model Score||
-|10350|Predictive Score||
-|10351|Real Time Scoring|Stores meta data information for real time scoring.|
-|10352|Time spent in BPF||
-|10353|OpportunityModelConfig||
-|10354|LeadModelConfig||
-|10355|ModelPreviewStatus||
-|10356|Profile Album|Contains user profile images that are stored as attachments and displayed in posts.|
-|10357|Post Configuration|Enable or disable entities for Activity Feeds and Yammer collaboration.|
-|10358|Post Rule Configuration|Enable or disable system post rules for an entity for Activity Feeds and Yammer.|
-|10359|Wall View|Contains information regarding which views are available for users to display on their personal walls. Only an administrator can specify the views that users can choose from to display on their personal walls.|
-|10360|Filter|Contains user personalization information regarding which of the administrator’s selected views to display on a user’s personal wall.|
-|10361|Customer Voice alert||
-|10362|Customer Voice alert rule||
-|10363|Customer Voice survey email template|Template for an email message that contains the survey invitation link.|
-|10364|Customer Voice file response|Response to a file upload question.|
-|10365|Customer Voice localized survey email template|Stores localized data for email templates.|
-|10366|Customer Voice project|Set of surveys to collect feedback.|
-|10367|Customer Voice survey question|Question in a survey to collect feedback.|
-|10368|Customer Voice survey question response|Response to a question in a survey.|
-|10369|Customer Voice satisfaction metric|Satisfaction metric defined for a project.|
-|10370|Customer Voice survey|Set of questions to collect feedback.|
-|10371|Customer Voice survey invite|Activity that tracks a survey invitation sent to a person.|
-|10372|Customer Voice survey reminder|Email reminders for surveys created in Customer Voice.|
-|10373|Customer Voice survey response|Response to a survey.|
-|10374|Customer Voice unsubscribed recipient|Email address of an unsubscribed respondent.|
-|10375|AddToCalendar style||
-|10376|basestyle||
-|10377|Button style||
-|10378|Code style||
-|10379|Column style||
-|10380|Content Block||
-|10381|Divider style||
-|10382|General styles||
-|10383|imagestyle||
-|10384|Layout Style||
-|10385|QR code style||
-|10386|Text style||
-|10387|Video style||
-|10388|CSAdminConfig||
-|10389|Custom API Ruleset Configuration|Configuration table for setting up custom APIs for usage inside the Unified routing system|
-|10390|Decision contract|Stores information about contract that will be required for ruleset definition|
-|10391|Decision rule set|Contains list of rules to define demand and assignment behavior|
-|10392|Rulesetentitymapping|For internal use only entity used to store an implicit mapping between a ruleset and polymorphic entity|
-|10393|Routing diagnostic item|The entity used to store unified routing diagnostic data.|
-|10394|Routing diagnostic||
-|10395|Inbox Configuration||
-|10396|Case Enrichment||
-|10397|Case Suggestion||
-|10398|Case Suggestion Request Payload||
-|10399|Case Suggestions Data Souce||
-|10400|KB Enrichment||
-|10401|Knowledge Article Suggestion||
-|10402|Knowledge Article Suggestion Data Source||
-|10403|Suggestion Interaction||
-|10404|Suggestion request payload||
-|10405|Suggestions Model Summary|Suggestions Model Summary entity|
-|10406|Suggestions Setting|Suggestions settings entity|
-|10407|Data Analytics Admin Settings (Deprecated)|Data Analytics Admin Settings (Deprecated)|
-|10408|Data Analytics User Customized Report|Data Analytics User Customized Report|
-|10409|Data Analytics Dataset|Data Analytics Power BI Datasets|
-|10410|Data Analytics Report|Data Analytics Reports|
-|10411|Data Analytics Workspace|Data Analytics Power BI Workspaces|
-|10412|Insights|Analytics and insights feature entity|
-|10413|Report Bookmark||
-|10414|Agent Resource Forecasting|Agent Resource Forecasting|
-|10415|[Deprecated] Dynamics Customer Service Analytics|[Deprecated] Controls access to Analytics Reporting Sitemap in Dynamics Customer Service App|
-|10416|Case Topic||
-|10417|Case Topic Setting|Case Topic Setting Entity|
-|10418|Case Topic Summary|Case Topic Summary Entity|
-|10419|Case topic Incident mapping|Cases mapping with the case topics|
-|10420|Customer Service historical analytics|Customer Service historical analytics|
-|10421|Forecast (preview)|Case, Conversation Volume Forecast analytics|
-|10422|Knowledge analytics|Knowledge analytics|
-|10423|Forecast Summary and Setting||
-|10424|Keywords Description Suggestion Setting|Keywords Description Suggestion settings entity|
-|10425|Swarm|Tracks the list of swarms created by agents to resolve the customer issues|
-|10426|Swarm participant|Stores the participants information of swarm|
-|10427|Swarm participant rule|Rules to fetch participants based on their role|
-|10428|Swarm role|Stores the different participant roles and associated role type defined|
-|10429|Swarm skill|Stores the skills required for the swarm|
-|10430|Swarm template|Entity which stores different templates for the swarm|
-|10431|Master Entity Routing Configuration|Defines master routing details for the entity.|
-|10432|Routing Rule Set Setting||
-|10433|Assignment Configuration||
-|10434|Assignment Configuration Step||
-|10435|Capacity Profile|Capacity Profiles|
-|10436|Overflow Action Config|Overflow action configurations.|
-|10437|Preferred Agent|Preferred Agent Table, table used to store the mapping between the system user and contact/account|
-|10438|Preferred Agent Customer Identity|Used for storing the table used to identify customer and the corresponding associated table|
-|10439|Preferred Agent Routed Entity|Preferred Agent Routed table used to store information for routed table name and customer identifying column on the table|
-|10440|Routing configuration|Defines routing details for the workstream|
-|10441|Routing configuration step|Links the routing configuration with ruleset|
-|10442|Bot Channel Registration|Bot channel registration used for channel integration|
-|10443|Channel Configuration|Channel Configuration|
-|10444|Channel State Configuration|Channel State Configuration|
-|10445|Provisioning State|Provisioning state|
-|10446|AdminAppState|State for each user in Admin App|
-|10447|Agent Status history|Agent status history entity records any changes to agent’s presence or available capacity.|
-|10448|Power BI Configuration|Stores the Power BI configurations for supervisor experience|
-|10449|Authentication Settings|Stores the settings for user authentication|
-|10450|Auth Settings Entry||
-|10451|Quick reply|Stores the quick replies that agents can use in the conversation control while interacting with the customers|
-|10452|Entity Routing Context|Entity Routing Contexts|
-|10453|Channel Capability|The capability that a channel can enable, such as co-browse, screen sharing.|
-|10454|Conversation Action|The action that can be performed in the conversation.|
-|10455|Conversation Action Locale|Localization information associated with the Conversation action.|
-|10456|Conversation Message Block|A Message Block would constitute a block of messages up till an agent responds (including the messages sent by the agent). A follow up message, after an agent responds, will create another message block, this block again ends with the messages from the agent|
-|10457|DeletedConversation|Holds id of deleted conversation|
-|10458|Deprecated Workstream Entity Configuration|Stores entity routing configuration per workstream|
-|10459|Entity|Entity Routing Configuration|
-|10460|Ongoing conversation (Deprecated)|Tracks the interactions between the agents and customer|
-|10461|Live work item event|This entity captures all events corresponding to a live work item.|
-|10462|Work Stream|Stores information about the properties of work items that are generated by a unique channel endpoint|
-|10463|Masking Rule|Masking Rules to apply to chat messages.|
-|10464|Auto block rule||
-|10465|Bot Channel Registration Secret||
-|10466|Omnichannel channel api conversation privilege|Entity for creating privilege for custom apis. The privileges for this entity will be used to restrict custom api access.|
-|10467|Omnichannel channel api message privilege|Entity for creating privilege for custom apis. The privileges for this entity will be used to restrict custom api access.|
-|10468|Channel api method mapping|OC channel api method mapping entity.|
-|10469|External context||
-|10470|Flagged spam||
-|10471|Language||
-|10472|Conversation|Tracks the interaction between the agents and customer|
-|10475|Context item value|Stores context item values for an engagement.|
-|10476|Live Work Item Participant (Deprecated)||
-|10477|Conversation Sentiment|Stores the machine learning generated customer sentiment of the communication  between the user and the customer|
-|10478|Context variable|Stores the context variables for a work stream.|
-|10479|Localization|Entity used for data localization on CRM.|
-|10480|OC Payment Profile||
-|10481|Recording|Records the audio/video session|
-|10482|Omnichannel Request|Entity to store Requests across Omnichannel.|
-|10483|Rich message|Rich messages for Omnichannel integration|
-|10484|Rich message map|Rich messages map for Omnichannel integration|
-|10485|Rule Item|Stores the condition and destination including Omnichannel queues or agents|
-|10486|Sentiment daily topic|1. store properties regarding each topic cluster
-
+|10480|Recurring Sales Action V2||
+|10481|msdyn_relationshipinsightsunifiedconfig||
+|10482|siconfig||
+|10483|SI Key Value Config||
+|10484|Usage Metric||
+|10485|Action Card Regarding||
+|10486|Action Card Role Setting||
+|10487|EntityRankingRule||
+|10488|flowcardtype||
+|10489|salesinsightssettings|Storing settings for studio feature|
+|10490|Action Card Usage||
+|10491|Action Card Usage Aggregation||
+|10492|Auto Capture Rule|Auto Capture Rules|
+|10493|Auto Capture Settings|Auto Capture Settings|
+|10494|UntrackedAppointment|UntrackedAppointments|
+|10495|Suggested Activity|Activity suggestions|
+|10496|Suggested Activity Data Source|Suggested Activity Data Sources|
+|10497|Suggested Contact|Contact suggestions|
+|10498|Suggested Contacts Data Source|Suggested contacts data sources|
+|10499|Notes analysis Config||
+|10500|icebreakersconfig||
+|10501|dealmanageraccess||
+|10502|Deal manager settings|Deal manager settings|
+|10503|Account KPI Item||
+|10504|Activity Analysis CleanUp State||
+|10505|Relationship Analytics Config||
+|10506|Contact KPI Item||
+|10507|Daily Kpis for account||
+|10508|Daily kpis for contact||
+|10509|Daily kpis for lead||
+|10510|Daily kpis for Opportunity||
+|10511|Lead KPI Item||
+|10512|Most Contacted|Most Contacted|
+|10513|Most Contacted By|Most Contacted By|
+|10514|Opportunity KPI Item||
+|10515|Relationship Analytics Metadata||
+|10516|Similar entities feature importance||
+|10517|wkwcolleaguesforcompany||
+|10518|wkwcolleaguesforcontact|Entity for storing contact introducer|
+|10519|wkwconfig||
+|10520|Attribute Influence Statistics||
+|10521|Prediction Computation Operation||
+|10522|Prediction Model Status|Stores metadata about predictive models|
+|10523|Prediction Scheduled Operation|Contains meta-data about the scheduled operations.|
+|10524|Predictive Model Score||
+|10525|Predictive Score||
+|10526|Predictive Scoring Sync Status|Internal entity used to store sync status for predictive scoring core entities.|
+|10527|Real Time Scoring|Stores meta data information for real time scoring.|
+|10528|Real Time Scoring Operation|Stores metadata for real time scoring job.|
+|10529|Submodel Definition|Stores metadata about submodels|
+|10530|Time spent in BPF||
+|10531|Training Result|Stores Training results for the model|
+|10532|OpportunityModelConfig||
+|10533|LeadModelConfig||
+|10534|ModelPreviewStatus||
+|10535|Profile Album|Contains user profile images that are stored as attachments and displayed in posts.|
+|10536|Post Configuration|Enable or disable entities for Activity Feeds and Yammer collaboration.|
+|10537|Post Rule Configuration|Enable or disable system post rules for an entity for Activity Feeds and Yammer.|
+|10538|Wall View|Contains information regarding which views are available for users to display on their personal walls. Only an administrator can specify the views that users can choose from to display on their personal walls.|
+|10539|Filter|Contains user personalization information regarding which of the administrator’s selected views to display on a user’s personal wall.|
+|10540|Customer Voice alert||
+|10541|Customer Voice alert rule||
+|10542|Customer Voice survey email template|Template for an email message that contains the survey invitation link.|
+|10543|Customer Voice file response|Response to a file upload question.|
+|10544|Customer Voice localized survey email template|Stores localized data for email templates.|
+|10545|Customer Voice project|Set of surveys to collect feedback.|
+|10546|Customer Voice survey question|Question in a survey to collect feedback.|
+|10547|Customer Voice survey question response|Response to a question in a survey.|
+|10548|Customer Voice satisfaction metric|Satisfaction metric defined for a project.|
+|10549|Customer Voice survey|Set of questions to collect feedback.|
+|10550|Customer Voice survey invite|Activity that tracks a survey invitation sent to a person.|
+|10551|Customer Voice survey reminder|Email reminders for surveys created in Customer Voice.|
+|10552|Customer Voice survey response|Response to a survey.|
+|10553|Customer Voice unsubscribed recipient|Email address of an unsubscribed respondent.|
+|10554|AddToCalendar style||
+|10555|basestyle||
+|10556|Button style||
+|10557|Code style||
+|10558|Column style||
+|10559|Content Block||
+|10560|Divider style||
+|10561|General styles||
+|10562|imagestyle||
+|10563|Layout Style||
+|10564|QR code style||
+|10565|Text style||
+|10566|Video style||
+|10567|App state||
+|10568|CSAdminConfig||
+|10569|Custom API Ruleset Configuration|Configuration table for setting up custom APIs for usage inside the Unified routing system|
+|10570|Decision contract|Stores information about contract that will be required for ruleset definition|
+|10571|Decision rule set|Contains list of rules to define demand and assignment behavior|
+|10572|Rulesetentitymapping|For internal use only entity used to store an implicit mapping between a ruleset and polymorphic entity|
+|10573|Routing diagnostic item|The entity used to store unified routing diagnostic data.|
+|10574|Routing diagnostic||
+|10575|Inbox Configuration||
+|10576|Agent Copilot Setting||
+|10577|App Profile Copilot Configuration||
+|10578|Copilot Summarization Setting||
+|10579|Case Enrichment||
+|10580|Case Suggestion||
+|10581|Case Suggestion Request Payload||
+|10582|Case Suggestions Data Souce||
+|10583|Agent Preference For Copilot||
+|10584|Copilot Interaction||
+|10585|Copilot Interaction Data||
+|10586|Copilot Transcript||
+|10587|Copilot Transcript Data||
+|10588|KB Enrichment||
+|10589|Knowledge Article Suggestion||
+|10590|Knowledge Article Suggestion Data Source||
+|10591|Suggestion Interaction||
+|10592|Suggestion request payload||
+|10593|Suggestions Model Summary|Suggestions Model Summary entity|
+|10594|Suggestions Setting|Suggestions settings entity|
+|10595|Swarm|Tracks the list of swarms created by agents to resolve the customer issues|
+|10596|Swarm participant|Stores the participants information of swarm|
+|10597|Swarm participant rule|Rules to fetch participants based on their role|
+|10598|Swarm role|Stores the different participant roles and associated role type defined|
+|10599|Swarm skill|Stores the skills required for the swarm|
+|10600|Swarm template|Entity which stores different templates for the swarm|
+|10601|Entity Attachment||
+|10602|Customer Service Key Value Configuration||
+|10603|Master Entity Routing Configuration|Defines master routing details for the entity.|
+|10604|Routing Rule Set Setting||
+|10605|Assignment Configuration||
+|10606|Assignment Configuration Step||
+|10607|Capacity Profile|Capacity Profiles|
+|10608|Overflow Action Config|Overflow action configurations.|
+|10609|Preferred Agent|Preferred Agent Table, table used to store the mapping between the system user and contact/account|
+|10610|Preferred Agent Customer Identity|Used for storing the table used to identify customer and the corresponding associated table|
+|10611|Preferred Agent Routed Entity|Preferred Agent Routed table used to store information for routed table name and customer identifying column on the table|
+|10612|Routing configuration|Defines routing details for the workstream|
+|10613|Routing configuration step|Links the routing configuration with ruleset|
+|10614|Bot Channel Registration|Bot channel registration used for channel integration|
+|10615|Channel Configuration|Channel Configuration|
+|10616|Channel State Configuration|Channel State Configuration|
+|10617|Provisioning State|Provisioning state|
+|10618|AdminAppState|State for each user in Admin App|
+|10619|Agent Status history|Agent status history entity records any changes to agent’s presence or available capacity.|
+|10620|Power BI Configuration|Stores the Power BI configurations for supervisor experience|
+|10621|Authentication Settings|Stores the settings for user authentication|
+|10622|Auth Settings Entry||
+|10623|Quick reply|Stores the quick replies that agents can use in the conversation control while interacting with the customers|
+|10624|Entity Routing Context|Entity Routing Contexts|
+|10625|Channel Capability|The capability that a channel can enable, such as co-browse, screen sharing.|
+|10626|Conversation Action|The action that can be performed in the conversation.|
+|10627|Conversation Action Locale|Localization information associated with the Conversation action.|
+|10628|Conversation Message Block|A Message Block would constitute a block of messages up till an agent responds (including the messages sent by the agent). A follow up message, after an agent responds, will create another message block, this block again ends with the messages from the agent|
+|10629|DeletedConversation|Holds id of deleted conversation|
+|10630|Deprecated Workstream Entity Configuration|Stores entity routing configuration per workstream|
+|10631|Entity|Entity Routing Configuration|
+|10632|Ongoing conversation (Deprecated)|Tracks the interactions between the agents and customer|
+|10633|Live work item event|This entity captures all events corresponding to a live work item.|
+|10634|Work Stream|Stores information about the properties of work items that are generated by a unique channel endpoint|
+|10635|Masking Rule|Masking Rules to apply to chat messages.|
+|10636|Auto block rule||
+|10637|Bot Channel Registration Secret||
+|10638|Omnichannel channel api conversation privilege|Entity for creating privilege for custom apis. The privileges for this entity will be used to restrict custom api access.|
+|10639|Omnichannel channel api message privilege|Entity for creating privilege for custom apis. The privileges for this entity will be used to restrict custom api access.|
+|10640|Channel api method mapping|OC channel api method mapping entity.|
+|10641|External context||
+|10642|Flagged spam||
+|10643|Language||
+|10644|Conversation|Tracks the interaction between the agents and customer|
+|10647|Context item value|Stores context item values for an engagement.|
+|10648|Live Work Item Participant (Deprecated)||
+|10649|Conversation Sentiment|Stores the machine learning generated customer sentiment of the communication  between the user and the customer|
+|10650|Context variable|Stores the context variables for a work stream.|
+|10651|Localization|Entity used for data localization on CRM org.|
+|10652|OC Payment Profile||
+|10653|Recording|Records the audio/video session|
+|10654|Omnichannel Request|Entity to store Requests across Omnichannel.|
+|10655|Rich message|Rich messages for Omnichannel integration|
+|10656|Rich message map|Rich messages map for Omnichannel integration|
+|10657|Rule Item|Stores the condition and destination including Omnichannel queues or agents|
+|10658|Sentiment daily topic|1. store properties regarding each topic cluster
 2. used for dashboard visualization (like topic example) and calculation for topic mapping|
-|10676|Sentiment daily topic keyword|1. Store the keyword and frequency for topic clusters
+|10659|Sentiment daily topic keyword|1. Store the keyword and frequency for topic clusters
 2. Used for word cloud in the dashboard|
-|10677|Sentiment daily topic trending|1. Store the day to day topic mapping information
+|10660|Sentiment daily topic trending|1. Store the day to day topic mapping information
 2. Used for dashboard visualization|
-|10678|Session|Session for interacting with a customer|
-|10679|Session Participant Event|Session participant events|
-|10680|Session Sentiment|Stores the session level sentiment for customer interactions calculated using AI.|
-|10681|Message|Stores the system messages sent to the message receiver for various events.|
-|10682|Tag|Tags for quick categorization|
-|10683|Geo Location Provider|Geo Location Providers|
-|10684|Omnichannel Configuration|Configuration for Omnichannel|
-|10685|Omnichannel Personalization|Stores personalization information of Omnichannel Agent/Supervisor dashboards|
-|10686|Omnichannel Queue (Deprecated)|Stores omni-channel work items of a specific issue type or a specific team|
-|10687|Omnichannel Sync Config|Config for entities to be synced to Omnichannel|
-|10688|Operating Hour|Stores all the operating hours that are configured for an organization.|
-|10689|Personal quick reply|Omnichannel agents's personal quick replies|
-|10690|Personal sound setting|Entity to store personalized sound records for the users.|
-|10691|Persona Security Role Mapping||
-|10692|Presence|Stores presence status information|
-|10693|Provider|A list of third-party providers that bring capabilities into the application. |
-|10694|RoutingRequest|Routing request definition entity|
-|10695|Search Configuration|Configuration entity for agent search screen|
-|10696|Sentiment analysis|Sentiment analysis configuration|
-|10697|Session event|Stores the session events for a session|
-|10698|Session participant|Users in a session interacting with the customer|
-|10699|Audio File|Entity to store all audio files for Omnichannel|
-|10700|Sound notification setting|Entity to store the sound notification setting records for channels and other scenarios. |
-|10701|Transcript|Stores the transcript of the communication  between the user and the customer|
-|10702|UR notification template|The entity stores all the templates used for UR notification.|
-|10703|UR Notification Template Mapping|This entity stores the mapping for notification template and workstream.|
-|10704|User settings|Parent entity for Omnichannel personalizations|
-|10705|Self service|Stores each customer action as a record. The actions tracked are before an interaction is initiated. Agents will see the actions for an interaction in the Self Service section of the Customer Summary page, when enabled.|
-|10712|Agent capacity update history|Agent capacity update history entity records any changes to agent capacity against a capacity profile|
-|10713|Bookable Resource Capacity Profile|Bookable Resource Capacity Profile|
-|10714|Work stream capacity profile|Work stream capacity profile|
-|10715|Conversation Capacity profile|Conversation Capacity profile|
-|10716|Agent Capacity Profile Unit|Agent Capacity Profile Units holds agent’s available capacity for each capacity profile associated.|
-|10717|Agent Channel State||
-|10718|Agent Status|Agent Status holds agent’s status or presence details.|
-|10719|Conversation Characteristic|Characteristic associated to Omnichannel conversation|
-|10720|Session Characteristic|Characteristic associated to Omnichannel session|
-|10721|Skill Attachment Rule||
-|10722|Attach Skill||
-|10723|Model training details|Indicates model's training details|
-|10724|Training data import configuration|Indicates the training data import configuration|
-|10725|Characteristic mapping|Indicates the mapping of skills from training data to characteristics|
-|10726|Training record|Indicates individual training record to be used for model training|
-|10727|Skill finder model|Indicates the OmniChannel Model for the corresponding AI model|
-|10728|Effort estimate|Entity to persist effort model prediction results|
-|10729|Effort estimation model|Indicates the OmniChannel Model for the corresponding AI model|
-|10730|Effort model training details|Indicates model's training details|
-|10731|ConversationInsight||
-|10732|Active ICD Extension|This notes the currently active description and examples for given entity (queue/agent etc.) as selected by the C1 administrator.|
-|10733|Entity-Workstream Map|This notes the entity (queue, agent etc.) mapped to the workstreams.|
-|10734|ICD Extension|Contains ICD related fields that will be generated and kept.|
-|10735|Conversation Action Item||
-|10736|Conversation Aggregated Insights||
-|10737|Comment|A comment on a specific section in a transcript|
-|10738|Conversation Participant Insights||
-|10739|Conversation Participant Sentiment||
-|10740|Conversation Question||
-|10741|Conversation Segment Sentiment||
-|10742|Conversation Sentiment||
-|10743|Conversation Signal||
-|10744|Conversation Subject||
-|10745|Conversation Summary Suggestion||
-|10746|Conversation System Tag||
-|10747|Conversation Tag||
-|10748|Recording||
-|10749|SCI Conversation||
-|10750|Custom Email Highlight||
-|10751|Custom Highlight|Highlight of relevant conversation section|
-|10752|Custom Publisher|The publisher of the conversation highlight|
-|10753|EnvironmentSettings|SCI environment level settings|
-|10754|UserSettings|SCI user level settings|
-|10755|CatalogEventStatusConfiguration|Status configuration for events in a catalog.|
-|10756|Configuration||
-|10757|Trigger|Metadata for Cxp Events|
-|10758|Triggers To Sdk Message Processing Steps|Mapping between CJO Marketing Triggers and Sdk Message Processing Steps|
-|10759|EventParameterMetadata|Metadata for Cxp Event Parameters|
-|10760|TrackingContext||
-|10761|Marketing feature configuration||
-|10762|msdynmkt_experimentv2||
-|10763|ACS channel instance||
-|10764|ACS channel instance account||
-|10765|Infobip channel instance||
-|10766|Infobip channel instance account||
-|10767|Link mobility channel instance||
-|10768|Link mobility channel instance account||
-|10769|MockSmsProvider channel instance||
-|10770|MockSmsProvider channel instance account||
-|10771|TeleSign channel instance||
-|10772|TeleSign channel instance account||
-|10773|Twilio channel instance||
-|10774|Twilio channel instance account||
-|10775|Vibes channel instance||
-|10776|Vibes channel instance account||
-|10777|Predefined Placeholder||
-|10778|Metadata Entity Relationship||
-|10779|Metadata Item||
-|10780|Metadata Store State||
-|10781|DigitalSellingActiveTask||
-|10782|DigitalSellingCompletedTask||
-|10783|Sales Tag||
-|10784|Sequence||
-|10785|Sequence Stat||
-|10786|Sequence Target||
-|10787|Sequence Target Step||
-|10788|Sequence Template||
-|10790|sabackupdiagnostic||
-|10791|SABatchRunInstance||
-|10792|salesroutingdiagnostic||
-|10793|SARunInstance||
-|10794|Segment||
-|10795|segmentsetting||
-|10796|Segment property||
-|10797|SegmentsUtil||
-|10798|Assignment Rule|Defines criteria based on which Entities are routed to Users or Sales Team|
-|10799|Seller attribute|Sales Attribute|
-|10800|Seller attribute value|Attribute Value of sales person or sales team|
-|10801|Assignment Map||
-|10802|Sales Assignment Setting||
-|10803|Sales routing run||
-|10805|Extended User Setting||
-|10806|Sales acceleration insights|Sales acceleration insights|
-|10807|Sales Acceleration settings||
-|10808|Insight||
-|10809|Work List Suggestion||
-|10810|Work list suggestion source||
-|10811|Work List View Configuration|Entity to store work list view configurations on filter, icons, sort etc|
-|10812|Work Queue Record|Entity created to store WorkQueue Data Model Records|
-|10813|Work Queue Record State|Entity created to store WorkQueue Records state|
-|10814|Work list user setting|Entity created to store work list user setting|
-|10815|WQDataSource||
-|10816|Suggestion Assignment Rule||
-|10817|Suggestion Principal Object Access||
-|10818|Suggestion Seller Priority||
-|10819|Data Hygiene Setting Info|Data Hygiene Setting Info|
-|10820|Duplicate Detection Plugin Run|Duplicate Detection Plugin Run used to track successful and failure state of the Duplicate Detection Plugin|
-|10821|Duplicate Lead Mapping|This enity is used to connect base lead to duplicate leads|
-|10822|Lead Hygiene Setting|Lead Hygiene Setting|
-|10823|Linked Entity Attribute Validity||
-|10824|Sales provisioning request||
-|10825|SalesOmnichannel Message||
-|10826|Text message template||
-|10827|Sales acceleration reports|Sales acceleration reports|
-|10829|Bot Session|Bot specific sessions |
-|10830|conversationsuggestionrequestpayload|Conversation Suggestion Request Payload|
-|10940|Chart of accounts||
-|10941|Internal organization||
-|10942|Currency Exchange Rate Pair||
-|10943|Name Affix||
-|10944|Internal organization hierarchy purpose||
-|10945|Currency Exchange Rate Type||
-|10946|Internal organization hierarchy||
-|10947|Company|A legal entity formed to carry on a business.|
-|10948|Currency Exchange Rate||
-|10949|Internal organization hierarchy type||
-|10960|Dual Write Async Execution Error|AsyncExecutionError|
-|10961|Dual Write Async Execution Summary|DataSyncExecutionSummary|
-|10962|Dual Write Async Configuration||
-|10963|Dual Write Async Execution Partition Map Status||
-|10964|Dual Write Async Processing Range||
-|10965|Dual Write Async Project||
-|10966|DualWrite Async Reconciliation State||
-|10967|External Portal User Mapping||
-|10968|Finance and Operations Virtual Data Source Configuration||
-|10969|Available Finance and Operations Entity||
-|10970|Event||
-|10971|Finance and Operations Module||
-|10972|Finance and Operations Package||
-|10973|Finance and Operations Operation History|Finance and Operations Operation History which includes but not limited to Deploy/ DB Sync etc. Entity stores consolidated logs.|
-|10974|Unit Test Suite|Store configuration & test result of the unit test for F & O.|
-|10976|Electronic Reporting Configuration File||
-|10977|Electronic Reporting Configurations Index File||
-|10978|Globalization Feature File||
-|10979|Globalization Features Index File||
-|10980|Payment Term|Specify payment terms used for billing.|
-|10981|Purchase Order|Record Purchase Orders pertaining to Work Orders or otherwise|
-|10982|Purchase Order Product|Record products to be ordered on purchase order|
-|10983|Purchase Order Receipt|Specify purchase order receipt.|
-|10984|Purchase Order Receipt Product|Specify product for purchase order receipt.|
-|10985|Ship Via|Specify the different shipping methods used.|
-|10986|Tax Code|Store tax related information. Each tax code could contain multiple child tax codes, and in that case the tax rate will be determined by the total tax of all children.|
-|10987|Tax Code Detail|In this entity you can link multiple tax codes together to form a group of tax codes to be charged for the customer to form the total tax.|
-|10988|Warehouse|Warehouses where inventory products are stored and managed|
-|10989|Customer Group||
-|10990|Customer Payment Method|Customer Payment Method Table|
-|10991|Financial Dimension||
-|10992|Financial Dimension Format||
-|10993|Fiscal Calendar||
-|10994|Fiscal Calendar Period||
-|10995|Fiscal Calendar Year||
-|10996|Ledger||
-|10997|Main Account||
-|10998|Main Account Category||
-|10999|Payment Day||
-|11000|Payment Day Line||
-|11001|Payment Schedule|Contains information used to define payment schedules for documents that will be paid with multiple installments instead of one lump sum. This table maps to the F&O PaymentScheduleEntity table.|
-|11002|Payment Schedule Line|Contains information about each payment of a payment schedule. This table maps to the F&O PaymentScheduleLineEntity table.|
-|11003|Sales Tax Authority||
-|11004|Tax Exempt Code||
-|11005|Tax Group||
-|11006|Tax Item Group||
-|11007|Tax Posting Group||
-|11008|Vendor|"Vendor" is table to represent a vendor and maps to Dynamics365F&O's VendVendorV2Entity|
-|11009|Vendor Group|Vendor Group Table|
-|11010|Vendor Payment Method|Vendor Payment Method Table|
-|11011|Vendor Price Tolerance Group|Vendor price tolerance groups|
-|11012|Withholding Tax Code||
-|11013|Withholding Tax Group||
-|11014|Bank Account Disbursement|The bank account disbursements for direct deposit.|
-|11015|Benefit Calculation Frequency|The calculation frequencies for benefits.|
-|11016|Benefit Calculation Frequency Pay Period|Used to associate a calculation frequency to a pay period.|
-|11017|Benefit Calculation Rate|A calculation rate that can be used by benefits.|
-|11018|Benefit Calculation Rate Detail|The tier details for a benefit calculation rate.|
-|11019|Benefit Option|The options related to a particular plan.|
-|11020|Benefit Plan|The benefit plans that apply to benefit types.|
-|11021|Benefit Type|The type of the benefit.|
-|11022|Business Process Calendar|This entity contains calendars used when creating task checklists from a template task checklist. The selected calendar determines which days are available for scheduling tasks|
-|11023|Business Process Group Assignment|The group to be assigned to business process tasks.|
-|11024|Business Process Header|business process header|
-|11025|Business Process Library Task Group|This entity contains business process library task groups.|
-|11026|Business Process Stage|This table contains task stages that a task can belong to.|
-|11027|Business Process Task|Business process task entity|
-|11028|Checklist Template Header|The checklist template header for checklist template types.|
-|11029|Checklist Template Task||
-|11030|Compensation Fixed Plan|The fixed compensation plans.|
-|11031|Compensation Grid|A compensation grid defines the compensation type, compensation reference setup, and currency for a compensation structure.|
-|11032|Compensation Level|Compensation levels are used in a compensation structure and compensation setup on jobs.|
-|11033|Compensation Pay Frequency|The compensation pay frequencies and their conversion factors.|
-|11034|Compensation Reference Point Setup|The compensation reference point setup.|
-|11035|Compensation Reference Point Setup Line|The compensation reference point setup line.|
-|11036|Compensation Region|The regions associated with and used in compensation|
-|11037|Compensation Structure|A compensation structure contains compensation amounts. Each amount is related to a level and a reference point.|
-|11038|Compensation Variable Plan|The variable compensation plans.|
-|11039|Compensation Variable Plan Level|The variable compensation plan levels|
-|11040|Compensation Variable Plan Type|Variable compensation plan types.|
-|11041|Department|The department of a business unit.  A functional area within a company.|
-|11042|Employment|The employment details of a worker.|
-|11043|Ethnic Origin|The classification of an ethnic origin.|
-|11044|Fixed Compensation Event|An event that would cause a change in an employee's fixed compensation.|
-|11045|Job|A collection of duties, responsibilities, and tasks performed by a worker.|
-|11046|Job Function|The basic purpose of a job, such as sales, machine operator, or assembly.|
-|11047|Job Position|The position associated with a job|
-|11048|Job Position Dimension|The dimensions of a job position.|
-|11049|Job Type|Classifying the job as exempt or non-exempt.|
-|11050|Language|The preferred language of communication.|
-|11051|Leave Bank Transaction|The transactions that cumulatively represent the bank of time for a given leave enrollment.|
-|11052|Leave Enrollment|The enrollment details of a worker in a leave plan.|
-|11053|Leave Plan|The leave and absence plans.|
-|11054|Leave Plan Tier|Leave and absence plan tiers.|
-|11055|Leave Request|The request to take leave time off from a job by a worker.|
-|11056|Leave Request Detail|The details of the leave request.|
-|11057|Leave Request Workflow||
-|11058|Leave Type|The type of leave with respect to a leave request.|
-|11059|Leave Type Reason Code||
-|11060|Onboard Process Header|The onboarding process header table contains onboarding-specific information for business processes.|
-|11061|Onboard Process Task|This table contains details specific to an onboarding task.|
-|11062|Pay Cycle|The specific days when workers get paid and the definition of how often payroll is run.|
-|11063|Pay Period|The definition of the default payment date.|
-|11064|Payroll Earning Code|The payroll earning codes.|
-|11065|Payroll Position Detail|The payroll information associated with a position.|
-|11066|Person Identification Issuing Agency|The issuing agency for a person identification.|
-|11067|Position Type|Classifying the position as Full-time or Part-time.|
-|11068|Position Worker Assignment|The mapping of a worker to a position assigned to them for a given period of time.|
-|11069|Reason Code||
-|11070|Skill Type|The skill types.|
-|11071|Tax Region|Used to determine the appropriate tax that should be applied during payroll generation.|
-|11072|Title|Title for a Job Position|
-|11073|Vesting Rule|The vesting rules for variable compensation plans.|
-|11074|Veteran Status|The status of a veteran.|
-|11075|Work Calendar|The work calendar.|
-|11076|Work Calendar Day|The days of the work calendar.|
-|11077|Work Calendar Enrollment||
-|11078|Work Calendar Holiday|A list of holidays and closures.|
-|11079|Work Calendar Holiday Line|The holiday dates for a holiday calendar.|
-|11080|Work Calendar Time Interval|The work time interval of the work calendar day.|
-|11081|Worker|A person who is associated to a job within a company.|
-|11082|Worker Address|The postal address of a worker.|
-|11083|Worker Bank Account|The bank account for a worker.|
-|11084|Worker Fixed Compensation|Contains the fixed compensation records related to each worker.|
-|11085|Worker Personal Detail|The personal details of a worker.|
-|11086|Worker Person Identification Number|The person identification number for a worker.|
-|11087|Worker Person Identification Type|The type of a person's identification.|
-|11088|Disposition Code|Set up disposition codes to specify how to process a returned item|
-|11089|Global Product|Global product name and number - Cross Company|
-|11090|Inventory Counting Group||
-|11091|Inventory Counting Reason Code Policy||
-|11092|Inventory Location||
-|11093|Inventory On-hand Entry||
-|11094|Inventory On-hand Request||
-|11095|Loyalty Card|Loyalty Card|
-|11096|Loyalty Reward Point||
-|11097|Operational Site|Operational Site from F&O|
-|11098|Price Customer Group||
-|11099|Price Line Discount Customer Group||
-|11100|Price Line Discount Product Group||
-|11101|Price Line Discount Vendor Group||
-|11102|Price Multiline Discount Customer Group||
-|11103|Price Multiline Discount Product Group||
-|11104|Price Multiline Discount Vendor Group||
-|11105|Price Postage Discount Customer Group||
-|11106|Price Total Discount Customer Group||
-|11107|Price Total Discount Vendor Group||
-|11108|Price Vendor Group||
-|11109|Product Barcode|Product Barcode|
-|11110|Product Category||
-|11111|Product Category Assignment||
-|11112|Product Category Hierarchy||
-|11113|Product Category Hierarchy Role||
-|11114|Product Color|Color|
-|11115|Product Configuration|Product Configuration|
-|11116|Product Default Order Setting|Default order settings by product.|
-|11117|Product Dimension Group|The product dimension group.|
-|11118|Product Group||
-|11119|Product Size|Product Size|
-|11120|Product Specific Default Order Setting|Default order settings by product variant.|
-|11121|Product Specific Unit Conversion|Product Specific Unit of Measure Conversion|
-|11122|Product Storage Dimension Group|The product storage dimension groups.|
-|11123|Product Style|Product Style|
-|11124|Product Tracking Dimension Group|The product tracking dimension group.|
-|11125|Purchase Line Discount Journal Line|Purchase Line Discount Journal Line|
-|11126|Purchase Multi Line Discount Journal Line||
-|11127|Purchase Price Journal Line||
-|11128|Purchase Total Discount Journal Line||
-|11129|Purchase Requisition Business Justification||
-|11130|Return Order|Return Order to register Return Material Authorization|
-|11131|Return Order Product|Line item in a return order.|
-|11132|Return Reason|Return Reasons|
-|11133|Return Reason Group|This table consists of groups of reason codes for the classification of return reason codes.|
-|11134|Sales Line Discount Journal Line|Sales Line Discount Journal Line|
-|11135|Sales Multi Line Discount Journal Line||
-|11136|Sales Order Origin||
-|11137|Sales Order Pool||
-|11138|Sales Postage Discount Journal Line||
-|11139|Sales Price Journal Line||
-|11140|Sales Total Discount Journal Line||
-|11141|Shared Product Color|Product Color available for a given Product.|
-|11142|Shared Product Configuration|Shared Product Configuration|
-|11143|Shared Product Detail|Shared details for the product.|
-|11144|Shared Product Size|Shared Product Size|
-|11145|Shared Product Style|Shared Product Styles|
-|11146|Supply Chain Feature State||
-|11147|Terms Of Delivery||
-|11148|Trade Agreement Journal||
-|11149|Trade Agreement Journal Name||
-|11150|Transfer Order|Record Transfer Orders|
-|11151|Transfer Order Product|Record products on the transfer order|
-|11152|Unit Conversion|Unit of Measure Conversion for basic units|
-|11153|Warehouse Aisle||
-|11154|Warehouse Work Header||
-|11155|Warehouse Work Line||
-|11156|Warehouse Zone||
-|11157|Warehouse Zone Group||
-|11158|Functional Location Type||
-|11159|Location Template Association|Captures the relationship between a Property Template, which in turns captures a set of Properties, and a Functional Location.|
-|11160|Functional Location Type Template Association||
-|11161|Property Location Association|Captures the relationship between a Property and a Functional Location.|
-|11162|Warranty||
-|11166|Asset Lifecycle Model||
-|11167|Asset Lifecycle State||
-|11168|Functional Location Lifecycle Model||
-|11169|Functional Location Lifecycle State||
-|11170|Manufacturer||
-|11171|Model||
-|11221|Data Entity (mserp)||
-|11255|Sales usage telemetry reports|Sales usage telemetry reports|
-|11256|Sales usage reporting|Sales usage reporting|
-|11257|Recurring Sales Action V2||
-|11258|Conversation Summary Interaction|Conversation Summary Interaction Entity|
-|11259|Conversation Summary Setting|Conversation Summary Settings Entity|
-|11260|Conversation Topic||
-|11261|Conversation Topic Setting|Conversation Topic Setting Entity|
-|11262|Conversation Topic Summary|Conversation Topic Summary Entity|
-|11263|Conversation topic Conversation mapping|Conversation mapping with conversation topics|
-|11264|Omnichannel historical analytics|Omnichannel historical analytics|
-|11265|Omnichannel voice historical analytics (preview) (Deprecated)|Omnichannel voice historical analytics (preview) (Deprecated)|
-|11266|Omnichannel Realtime analytics|Omnichannel Realtime analytics|
+|10661|Session|Session for interacting with a customer|
+|10662|Session Participant Event|Session participant events|
+|10663|Session Sentiment|Stores the session level sentiment for customer interactions calculated using AI.|
+|10664|Message|Stores the system messages sent to the message receiver for various events.|
+|10665|Tag|Tags for quick categorization|
+|10666|Geo Location Provider|Geo Location Providers|
+|10667|Omnichannel Configuration|Configuration for Omnichannel|
+|10668|Omnichannel Personalization|Stores personalization information of Omnichannel Agent/Supervisor dashboards|
+|10669|Omnichannel Queue (Deprecated)|Stores omni-channel work items of a specific issue type or a specific team|
+|10670|Omnichannel Sync Config|Config for entities to be synced to Omnichannel|
+|10671|Operating Hour|Stores all the operating hours that are configured for an organization.|
+|10672|Personal quick reply|Omnichannel agents's personal quick replies|
+|10673|Personal sound setting|Entity to store personalized sound records for the users.|
+|10674|Persona Security Role Mapping||
+|10675|Presence|Stores presence status information|
+|10676|Provider|A list of third-party providers that bring capabilities into the application. |
+|10677|RoutingRequest|Routing request definition entity|
+|10678|Search Configuration|Configuration entity for agent search screen|
+|10679|Sentiment analysis|Sentiment analysis configuration|
+|10680|Session event|Stores the session events for a session|
+|10681|Session participant|Users in a session interacting with the customer|
+|10682|Audio File|Entity to store all audio files for Omnichannel|
+|10683|Sound notification setting|Entity to store the sound notification setting records for channels and other scenarios. |
+|10684|Transcript|Stores the transcript of the communication  between the user and the customer|
+|10685|UR notification template|The entity stores all the templates used for UR notification.|
+|10686|UR Notification Template Mapping|This entity stores the mapping for notification template and workstream.|
+|10687|User settings|Parent entity for Omnichannel personalizations|
+|10688|Self service|Stores each customer action as a record. The actions tracked are before an interaction is initiated. Agents will see the actions for an interaction in the Self Service section of the Customer Summary page, when enabled.|
+|10695|Agent capacity update history|Agent capacity update history entity records any changes to agent capacity against a capacity profile|
+|10696|Bookable Resource Capacity Profile|Bookable Resource Capacity Profile|
+|10697|Work stream capacity profile|Work stream capacity profile|
+|10698|Conversation Capacity profile|Conversation Capacity profile|
+|10699|Agent Capacity Profile Unit|Agent Capacity Profile Units holds agent’s available capacity for each capacity profile associated.|
+|10700|Agent Channel State||
+|10701|Agent Status|Agent Status holds agent’s status or presence details.|
+|10702|Conversation Characteristic|Characteristic associated to Omnichannel conversation|
+|10703|Session Characteristic|Characteristic associated to Omnichannel session|
+|10704|Skill Attachment Rule||
+|10705|Attach Skill||
+|10706|Model training details|Indicates model's training details|
+|10707|Training data import configuration|Indicates the training data import configuration|
+|10708|Characteristic mapping|Indicates the mapping of skills from training data to characteristics|
+|10709|Training record|Indicates individual training record to be used for model training|
+|10710|Skill finder model|Indicates the OmniChannel Model for the corresponding AI model|
+|10711|Effort estimate|Entity to persist effort model prediction results|
+|10712|Effort estimation model|Indicates the OmniChannel Model for the corresponding AI model|
+|10713|Effort model training details|Indicates model's training details|
+|10714|ConversationInsight||
+|10715|Active ICD Extension|This notes the currently active description and examples for given entity (queue/agent etc.) as selected by the C1 administrator.|
+|10716|Entity-Workstream Map|This notes the entity (queue, agent etc.) mapped to the workstreams.|
+|10717|ICD Extension|Contains ICD related fields that will be generated and kept.|
+|10718|Conversation Action Item||
+|10719|Conversation Aggregated Insights||
+|10720|Comment|A comment on a specific section in a transcript|
+|10721|Conversation Participant Insights||
+|10722|Conversation Participant Sentiment||
+|10723|Conversation Question||
+|10724|Conversation Segment Sentiment||
+|10725|Conversation Sentiment||
+|10726|Conversation Signal||
+|10727|Conversation Subject||
+|10728|Conversation Summary Suggestion||
+|10729|Conversation System Tag||
+|10730|Conversation Tag||
+|10731|Recording||
+|10732|SCI Conversation||
+|10733|Custom Email Highlight||
+|10734|Custom Highlight|Highlight of relevant conversation section|
+|10735|Custom Publisher|The publisher of the conversation highlight|
+|10736|EnvironmentSettings|SCI environment level settings|
+|10737|UserSettings|SCI user level settings|
+|10738|DigitalSellingActiveTask||
+|10739|DigitalSellingCompletedTask||
+|10740|Sales Tag||
+|10741|Sequence||
+|10742|Sequence Stat||
+|10743|Sequence Target||
+|10744|Sequence Target Step||
+|10745|Sequence Template||
+|10747|sabackupdiagnostic||
+|10748|SABatchRunInstance||
+|10749|salesroutingdiagnostic||
+|10750|SARunInstance||
+|10751|Segment||
+|10752|segmentsetting||
+|10753|Segment property||
+|10754|SegmentsUtil||
+|10755|Assignment Rule|Defines criteria based on which Entities are routed to Users or Sales Team|
+|10756|Seller attribute|Sales Attribute|
+|10757|Seller attribute value|Attribute Value of sales person or sales team|
+|10758|Assignment Map||
+|10759|Sales Assignment Setting||
+|10760|Sales routing run||
+|10762|Extended User Setting||
+|10763|Sales acceleration insights|Sales acceleration insights|
+|10764|Sales Acceleration settings||
+|10765|Insight||
+|10766|Work List Suggestion||
+|10767|Work list suggestion source||
+|10768|Work List View Configuration|Entity to store work list view configurations on filter, icons, sort etc|
+|10769|Work Queue Record|Entity created to store WorkQueue Data Model Records|
+|10770|Work Queue Record State|Entity created to store WorkQueue Records state|
+|10771|Work list user setting|Entity created to store work list user setting|
+|10772|WQDataSource||
+|10773|Suggestion Assignment Rule||
+|10774|Suggestion Principal Object Access||
+|10775|Suggestion Seller Priority||
+|10776|Data Hygiene Setting Info|Data Hygiene Setting Info|
+|10777|Duplicate Detection Plugin Run|Duplicate Detection Plugin Run used to track successful and failure state of the Duplicate Detection Plugin|
+|10778|Duplicate Lead Mapping|This enity is used to connect base lead to duplicate leads|
+|10779|Lead Hygiene Setting|Lead Hygiene Setting|
+|10780|Linked Entity Attribute Validity||
+|10782|Bot Session|Bot specific sessions |
+|10783|conversationsuggestionrequestpayload|Conversation Suggestion Request Payload|
+|10784|Data Analytics Admin Settings (Deprecated)|Data Analytics Admin Settings (Deprecated)|
+|10785|Data Analytics User Customized Report|Data Analytics User Customized Report|
+|10786|Data Analytics Dataset|Data Analytics Power BI Datasets|
+|10787|Data Analytics Report|Data Analytics Reports|
+|10788|Data Analytics Workspace|Data Analytics Power BI Workspaces|
+|10789|Insights|Analytics and insights feature entity|
+|10790|Report Bookmark||
+|10791|Agent Resource Forecasting|Agent Resource Forecasting|
+|10792|[Deprecated] Dynamics Customer Service Analytics|[Deprecated] Controls access to Analytics Reporting Sitemap in Dynamics Customer Service App|
+|10793|Case Topic||
+|10794|Case Topic Setting|Case Topic Setting Entity|
+|10795|Case Topic Summary|Case Topic Summary Entity|
+|10796|Case topic Incident mapping|Cases mapping with the case topics|
+|10797|Customer Service historical analytics|Customer Service historical analytics|
+|10798|Forecast (preview)|Case, Conversation Volume Forecast analytics|
+|10799|Knowledge analytics|Knowledge analytics|
+|10800|Forecast Summary and Setting||
+|10801|Keywords Description Suggestion Setting|Keywords Description Suggestion settings entity|
 |18085|Event Expander Breadcrumb|Table to store breadcrumb records of Event Expander pipeline.|
 
 

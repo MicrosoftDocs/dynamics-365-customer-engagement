@@ -1,7 +1,7 @@
 ---
 title: "Quick Campaign (BulkOperation)  table/entity reference"
 description: "Includes schema information and supported messages for the Quick Campaign (BulkOperation)  table/entity."
-ms.date: 01/29/2024
+ms.date: 02/27/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -1741,6 +1741,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 Listed by **SchemaName**.
 
 - [BulkOperation_CampaignResponse](#BKMK_BulkOperation_CampaignResponse)
+- [BulkOperation_logs](#BKMK_BulkOperation_logs)
 - [bulkoperation_OpportunityCloses](#BKMK_bulkoperation_OpportunityCloses)
 - [bulkoperation_OrderCloses](#BKMK_bulkoperation_OrderCloses)
 - [bulkoperation_QuoteCloses](#BKMK_bulkoperation_QuoteCloses)
@@ -1759,6 +1760,21 @@ Same as the [BulkOperation_CampaignResponse](campaignresponse.md#BKMK_BulkOperat
 |ReferencedEntityNavigationPropertyName|BulkOperation_CampaignResponse|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+
+
+### <a name="BKMK_BulkOperation_logs"></a> BulkOperation_logs
+
+Same as the [BulkOperation_logs](bulkoperationlog.md#BKMK_BulkOperation_logs) many-to-one relationship for the [bulkoperationlog](bulkoperationlog.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkoperationlog|
+|ReferencingAttribute|bulkoperationid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|BulkOperation_logs|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_bulkoperation_OpportunityCloses"></a> bulkoperation_OpportunityCloses

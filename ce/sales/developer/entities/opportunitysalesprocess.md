@@ -1,7 +1,7 @@
 ---
 title: "OpportunitySalesProcess table/entity reference"
 description: "Includes schema information and supported messages for the OpportunitySalesProcess table/entity."
-ms.date: 01/29/2024
+ms.date: 02/27/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c

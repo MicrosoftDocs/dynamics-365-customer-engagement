@@ -1,7 +1,7 @@
 ---
 title: "msdyn_ConversationParticipantInsights table/entity reference"
 description: "Includes schema information and supported messages for the msdyn_ConversationParticipantInsights table/entity."
-ms.date: 01/29/2024
+ms.date: 02/27/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -34,7 +34,6 @@ search.audienceType:
 |IsValidStateTransition|<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 |PurgeRetainedContent|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
-|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
 |Retrieve|GET /msdyn_conversationparticipantinsights(*msdyn_conversationparticipantinsightsid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /msdyn_conversationparticipantinsights<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
@@ -1072,10 +1071,26 @@ Same as the [msdyn_msdyn_conversationsummarysuggestion_Conve](msdyn_conversation
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
+- [msdyn_msdyn_conversationparticipantinsights_account_msdyn_User](#BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User)
+- [msdyn_msdyn_conversationparticipantinsights_Con](#BKMK_msdyn_msdyn_conversationparticipantinsights_Con)
+- [msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User](#BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User)
+
+
+### <a name="BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User"></a> msdyn_msdyn_conversationparticipantinsights_account_msdyn_User
+
+**Added by**: System Solution Solution
+
+See the [msdyn_msdyn_conversationparticipantinsights_account_msdyn_User](account.md#BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User) one-to-many relationship for the [account](account.md) table/entity.
 
 ### <a name="BKMK_msdyn_msdyn_conversationparticipantinsights_Con"></a> msdyn_msdyn_conversationparticipantinsights_Con
 
 See the [msdyn_msdyn_conversationparticipantinsights_Con](msdyn_conversationaggregatedinsights.md#BKMK_msdyn_msdyn_conversationparticipantinsights_Con) one-to-many relationship for the [msdyn_conversationaggregatedinsights](msdyn_conversationaggregatedinsights.md) table/entity.
+
+### <a name="BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User"></a> msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User
+
+**Added by**: System Solution Solution
+
+See the [msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User](contact.md#BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User) one-to-many relationship for the [contact](contact.md) table/entity.
 
 ### See also
 

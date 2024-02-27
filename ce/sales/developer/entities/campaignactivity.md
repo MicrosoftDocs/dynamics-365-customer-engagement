@@ -1,7 +1,7 @@
 ---
 title: "CampaignActivity table/entity reference"
 description: "Includes schema information and supported messages for the CampaignActivity table/entity."
-ms.date: 01/29/2024
+ms.date: 02/27/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -36,7 +36,6 @@ Task performed, or to be performed, by a user for planning or running a campaign
 |ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 |RemoveItemCampaign||<xref:Microsoft.Crm.Sdk.Messages.RemoveItemCampaignRequest>|
 |RemoveItemCampaignActivity||<xref:Microsoft.Crm.Sdk.Messages.RemoveItemCampaignActivityRequest>|
-|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retrieve|GET /campaignactivities(*activityid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /campaignactivities<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
@@ -1776,6 +1775,7 @@ Listed by **SchemaName**.
 
 - [campaignactivity_CampaignResponses](#BKMK_campaignactivity_CampaignResponses)
 - [CampaignActivity_BulkOperations](#BKMK_CampaignActivity_BulkOperations)
+- [CampaignActivity_logs](#BKMK_CampaignActivity_logs)
 - [campaignactivity_OpportunityCloses](#BKMK_campaignactivity_OpportunityCloses)
 - [campaignactivity_OrderCloses](#BKMK_campaignactivity_OrderCloses)
 - [campaignactivity_QuoteCloses](#BKMK_campaignactivity_QuoteCloses)
@@ -1807,6 +1807,23 @@ Same as the [CampaignActivity_BulkOperations](bulkoperation.md#BKMK_CampaignActi
 |IsHierarchical|False|
 |IsCustomizable|False|
 |ReferencedEntityNavigationPropertyName|CampaignActivity_BulkOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_CampaignActivity_logs"></a> CampaignActivity_logs
+
+**Added by**: Marketing Patch Solution
+
+Same as the [CampaignActivity_logs](bulkoperationlog.md#BKMK_CampaignActivity_logs) many-to-one relationship for the [bulkoperationlog](bulkoperationlog.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkoperationlog|
+|ReferencingAttribute|campaignactivityid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|CampaignActivity_logs|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 

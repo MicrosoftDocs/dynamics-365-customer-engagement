@@ -1,7 +1,7 @@
 ---
 title: "msdyn_segment table/entity reference"
 description: "Includes schema information and supported messages for the msdyn_segment table/entity."
-ms.date: 01/29/2024
+ms.date: 02/27/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -34,7 +34,6 @@ search.audienceType:
 |IsValidStateTransition|<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 |PurgeRetainedContent|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
-|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
 |Retrieve|GET /msdyn_segments(*msdyn_segmentid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /msdyn_segments<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
@@ -839,8 +838,6 @@ Listed by **SchemaName**.
 - [msdyn_msdyn_segment_msdyn_saruninstance](#BKMK_msdyn_msdyn_segment_msdyn_saruninstance)
 - [msdyn_msdyn_segment_msdyn_assignmentrule_segment](#BKMK_msdyn_msdyn_segment_msdyn_assignmentrule_segment)
 - [msdyn_msdyn_segment_msdyn_salesroutingrun_segment](#BKMK_msdyn_msdyn_segment_msdyn_salesroutingrun_segment)
-- [msdyn_msdyn_segment_account](#BKMK_msdyn_msdyn_segment_account)
-- [msdyn_msdyn_segment_contact](#BKMK_msdyn_msdyn_segment_contact)
 
 
 ### <a name="BKMK_msdyn_msdyn_segment_lead"></a> msdyn_msdyn_segment_lead
@@ -919,40 +916,6 @@ Same as the [msdyn_msdyn_segment_msdyn_salesroutingrun_segment](msdyn_salesrouti
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_msdyn_segment_msdyn_salesroutingrun_segment|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_msdyn_segment_account"></a> msdyn_msdyn_segment_account
-
-**Added by**: Active Solution Solution
-
-Same as the [msdyn_msdyn_segment_account](account.md#BKMK_msdyn_msdyn_segment_account) many-to-one relationship for the [account](account.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|account|
-|ReferencingAttribute|msdyn_segmentid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_segment_account|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_msdyn_segment_contact"></a> msdyn_msdyn_segment_contact
-
-**Added by**: Active Solution Solution
-
-Same as the [msdyn_msdyn_segment_contact](contact.md#BKMK_msdyn_msdyn_segment_contact) many-to-one relationship for the [contact](contact.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|contact|
-|ReferencingAttribute|msdyn_segmentid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_segment_contact|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 

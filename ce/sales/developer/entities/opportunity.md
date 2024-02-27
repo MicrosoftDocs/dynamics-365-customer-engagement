@@ -1,7 +1,7 @@
 ---
 title: "Opportunity table/entity reference"
 description: "Includes schema information and supported messages for the Opportunity table/entity."
-ms.date: 01/29/2024
+ms.date: 02/27/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -36,7 +36,6 @@ Potential revenue-generating event, or sale to an account, which needs to be tra
 |IsValidStateTransition|<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |LoseOpportunity||<xref:Microsoft.Crm.Sdk.Messages.LoseOpportunityRequest>|
 |ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retrieve|GET /opportunities(*opportunityid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /opportunities<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
@@ -105,14 +104,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [InitialCommunication](#BKMK_InitialCommunication)
 - [IsRevenueSystemCalculated](#BKMK_IsRevenueSystemCalculated)
 - [LastOnHoldTime](#BKMK_LastOnHoldTime)
-- [msdyn_Company](#BKMK_msdyn_Company)
 - [msdyn_forecastcategory](#BKMK_msdyn_forecastcategory)
 - [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [msdyn_OpportunityGrade](#BKMK_msdyn_OpportunityGrade)
 - [msdyn_opportunitykpiid](#BKMK_msdyn_opportunitykpiid)
 - [msdyn_OpportunityScore](#BKMK_msdyn_OpportunityScore)
 - [msdyn_OpportunityScoreTrend](#BKMK_msdyn_OpportunityScoreTrend)
-- [msdyn_OrderType](#BKMK_msdyn_OrderType)
 - [msdyn_PredictiveScoreId](#BKMK_msdyn_PredictiveScoreId)
 - [msdyn_ScoreHistory](#BKMK_msdyn_ScoreHistory)
 - [msdyn_ScoreReasons](#BKMK_msdyn_ScoreReasons)
@@ -808,22 +805,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|DateTime|
 
 
-### <a name="BKMK_msdyn_Company"></a> msdyn_Company
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Company|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_company|
-|RequiredLevel|ApplicationRequired|
-|Targets|cdm_company|
-|Type|Lookup|
-
-
 ### <a name="BKMK_msdyn_forecastcategory"></a> msdyn_forecastcategory
 
 **Added by**: Forecasting Solution
@@ -957,28 +938,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1|Steady||
 |2|Declining||
 |3|Not enough info||
-
-
-
-### <a name="BKMK_msdyn_OrderType"></a> msdyn_OrderType
-
-**Added by**: Field Service Common Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Whether the Opportunity is for an Item-based Opportunity or a different type of Opportunity|
-|DisplayName|Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_ordertype|
-|RequiredLevel|Recommended|
-|Type|Picklist|
-
-#### msdyn_OrderType Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|192350000|Item based||
 
 
 
@@ -2028,7 +1987,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_CompanyName](#BKMK_msdyn_CompanyName)
 - [msdyn_opportunitykpiidName](#BKMK_msdyn_opportunitykpiidName)
 - [msdyn_PredictiveScoreIdName](#BKMK_msdyn_PredictiveScoreIdName)
 - [msdyn_segmentidName](#BKMK_msdyn_segmentidName)
@@ -2542,24 +2500,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
-### <a name="BKMK_msdyn_CompanyName"></a> msdyn_CompanyName
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_companyname|
-|MaxLength|20|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_msdyn_opportunitykpiidName"></a> msdyn_opportunitykpiidName
 
 **Added by**: Relationship analytics Solution
@@ -3038,12 +2978,13 @@ Listed by **SchemaName**.
 - [lk_leadtoopportunitysalesprocess_opportunityid](#BKMK_lk_leadtoopportunitysalesprocess_opportunityid)
 - [opportunity_invoices](#BKMK_opportunity_invoices)
 - [Opportunity_OpportunityClose](#BKMK_Opportunity_OpportunityClose)
+- [opportunity_quotes](#BKMK_opportunity_quotes)
 - [opportunity_sales_orders](#BKMK_opportunity_sales_orders)
 - [lead_qualifying_opportunity](#BKMK_lead_qualifying_opportunity)
 - [lk_opportunitysalesprocess_opportunityid](#BKMK_lk_opportunitysalesprocess_opportunityid)
 - [product_opportunities](#BKMK_product_opportunities)
+- [CreatedOpportunity_BulkOperationLogs](#BKMK_CreatedOpportunity_BulkOperationLogs)
 - [msdyn_opportunity_msdyn_salesroutingrun_targetobject](#BKMK_msdyn_opportunity_msdyn_salesroutingrun_targetobject)
-- [opportunity_quotes](#BKMK_opportunity_quotes)
 
 
 ### <a name="BKMK_opportunity_OpportunityCloses"></a> opportunity_OpportunityCloses
@@ -3136,6 +3077,21 @@ Same as the [Opportunity_OpportunityClose](opportunityclose.md#BKMK_Opportunity_
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
+### <a name="BKMK_opportunity_quotes"></a> opportunity_quotes
+
+Same as the [opportunity_quotes](quote.md#BKMK_opportunity_quotes) many-to-one relationship for the [quote](quote.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quote|
+|ReferencingAttribute|opportunityid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|opportunity_quotes|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Sales<br />Label: <br />Order: 10|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
 ### <a name="BKMK_opportunity_sales_orders"></a> opportunity_sales_orders
 
 Same as the [opportunity_sales_orders](salesorder.md#BKMK_opportunity_sales_orders) many-to-one relationship for the [salesorder](salesorder.md) table/entity.
@@ -3196,6 +3152,23 @@ Same as the [product_opportunities](opportunityproduct.md#BKMK_product_opportuni
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
+### <a name="BKMK_CreatedOpportunity_BulkOperationLogs"></a> CreatedOpportunity_BulkOperationLogs
+
+**Added by**: Marketing Solution
+
+Same as the [CreatedOpportunity_BulkOperationLogs](bulkoperationlog.md#BKMK_CreatedOpportunity_BulkOperationLogs) many-to-one relationship for the [bulkoperationlog](bulkoperationlog.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkoperationlog|
+|ReferencingAttribute|createdobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|CreatedOpportunity_BulkOperationLogs|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
 ### <a name="BKMK_msdyn_opportunity_msdyn_salesroutingrun_targetobject"></a> msdyn_opportunity_msdyn_salesroutingrun_targetobject
 
 **Added by**: Assignment Rules Solution
@@ -3211,21 +3184,6 @@ Same as the [msdyn_opportunity_msdyn_salesroutingrun_targetobject](msdyn_salesro
 |ReferencedEntityNavigationPropertyName|msdyn_opportunity_msdyn_salesroutingrun_targetobject|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_opportunity_quotes"></a> opportunity_quotes
-
-Same as the [opportunity_quotes](quote.md#BKMK_opportunity_quotes) many-to-one relationship for the [quote](quote.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|quote|
-|ReferencingAttribute|opportunityid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|opportunity_quotes|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Sales<br />Label: <br />Order: 10|
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 

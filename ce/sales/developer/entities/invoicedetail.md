@@ -1,7 +1,7 @@
 ---
 title: "Invoice Product (InvoiceDetail)  table/entity reference"
 description: "Includes schema information and supported messages for the Invoice Product (InvoiceDetail)  table/entity."
-ms.date: 01/29/2024
+ms.date: 02/27/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -29,7 +29,6 @@ Line item in an invoice containing detailed billing information for a product.
 |Create|POST /invoicedetails<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
 |Delete|DELETE /invoicedetails(*invoicedetailid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retrieve|GET /invoicedetails(*invoicedetailid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /invoicedetails<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |Update|PATCH /invoicedetails(*invoicedetailid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
@@ -70,11 +69,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsProductOverridden](#BKMK_IsProductOverridden)
 - [LineItemNumber](#BKMK_LineItemNumber)
 - [ManualDiscountAmount](#BKMK_ManualDiscountAmount)
-- [msdyn_ConfirmedShippingDate](#BKMK_msdyn_ConfirmedShippingDate)
-- [msdyn_InventorySite](#BKMK_msdyn_InventorySite)
-- [msdyn_InventoryWarehouse](#BKMK_msdyn_InventoryWarehouse)
-- [msdyn_SalesProductCategory](#BKMK_msdyn_SalesProductCategory)
-- [msdyn_TotalChargeAmount](#BKMK_msdyn_TotalChargeAmount)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [ParentBundleId](#BKMK_ParentBundleId)
 - [ParentBundleIdRef](#BKMK_ParentBundleIdRef)
@@ -340,94 +334,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|manualdiscountamount|
 |MaxValue|1000000000000|
-|MinValue|-1000000000000|
-|Precision|4|
+|MinValue|0|
+|Precision|2|
 |PrecisionSource|2|
 |RequiredLevel|None|
 |Type|Money|
-
-
-### <a name="BKMK_msdyn_ConfirmedShippingDate"></a> msdyn_ConfirmedShippingDate
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|TimeZoneIndependent|
-|Description||
-|DisplayName|Confirmed Shipping Date|
-|Format|DateOnly|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_confirmedshippingdate|
-|RequiredLevel|None|
-|Type|DateTime|
-
-
-### <a name="BKMK_msdyn_InventorySite"></a> msdyn_InventorySite
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Inventory Site|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_inventorysite|
-|RequiredLevel|None|
-|Targets|msdyn_operationalsite|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_InventoryWarehouse"></a> msdyn_InventoryWarehouse
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Inventory Warehouse|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_inventorywarehouse|
-|RequiredLevel|None|
-|Targets|msdyn_warehouse|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_SalesProductCategory"></a> msdyn_SalesProductCategory
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Sales Product Category|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_salesproductcategory|
-|RequiredLevel|None|
-|Targets|msdyn_productcategory|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_TotalChargeAmount"></a> msdyn_TotalChargeAmount
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Total Charge Amount|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_totalchargeamount|
-|MaxValue|100000000000|
-|MinValue|-100000000000|
-|Precision|6|
-|RequiredLevel|None|
-|Type|Decimal|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -1117,9 +1028,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_InventorySiteName](#BKMK_msdyn_InventorySiteName)
-- [msdyn_InventoryWarehouseName](#BKMK_msdyn_InventoryWarehouseName)
-- [msdyn_SalesProductCategoryName](#BKMK_msdyn_SalesProductCategoryName)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -1479,60 +1387,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForRead|True|
 |LogicalName|modifiedonbehalfbyyominame|
 |MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_InventorySiteName"></a> msdyn_InventorySiteName
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_inventorysitename|
-|MaxLength|60|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_InventoryWarehouseName"></a> msdyn_InventoryWarehouseName
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_inventorywarehousename|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_SalesProductCategoryName"></a> msdyn_SalesProductCategoryName
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_salesproductcategoryname|
-|MaxLength|254|
 |RequiredLevel|None|
 |Type|String|
 

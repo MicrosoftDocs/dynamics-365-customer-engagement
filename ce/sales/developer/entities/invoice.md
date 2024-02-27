@@ -1,7 +1,7 @@
 ---
 title: "Invoice table/entity reference"
 description: "Includes schema information and supported messages for the Invoice table/entity."
-ms.date: 01/29/2024
+ms.date: 02/27/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -37,7 +37,6 @@ Order that has been billed.
 |GrantAccess|<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |LockInvoicePricing||<xref:Microsoft.Crm.Sdk.Messages.LockInvoicePricingRequest>|
 |ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Restore||Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = Restore|
 |Retrieve|GET /invoices(*invoiceid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET /invoices<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
@@ -96,16 +95,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsPriceLocked](#BKMK_IsPriceLocked)
 - [LastBackofficeSubmit](#BKMK_LastBackofficeSubmit)
 - [LastOnHoldTime](#BKMK_LastOnHoldTime)
-- [msdyn_Company](#BKMK_msdyn_Company)
-- [msdyn_ContactPerson](#BKMK_msdyn_ContactPerson)
-- [msdyn_InvoiceDate](#BKMK_msdyn_InvoiceDate)
-- [msdyn_InvoiceNumber](#BKMK_msdyn_InvoiceNumber)
-- [msdyn_LedgerVoucher](#BKMK_msdyn_LedgerVoucher)
-- [msdyn_OrderType](#BKMK_msdyn_OrderType)
-- [msdyn_PaymentTerms](#BKMK_msdyn_PaymentTerms)
-- [msdyn_totalamount](#BKMK_msdyn_totalamount)
-- [msdyn_totaldiscountamount](#BKMK_msdyn_totaldiscountamount)
-- [msdyn_totaltax](#BKMK_msdyn_totaltax)
 - [Name](#BKMK_Name)
 - [OpportunityId](#BKMK_OpportunityId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -377,7 +366,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|discountamount|
 |MaxValue|1000000000000|
-|MinValue|-1000000000000|
+|MinValue|0|
 |Precision|2|
 |PrecisionSource|2|
 |RequiredLevel|None|
@@ -459,8 +448,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|freightamount|
 |MaxValue|1000000000000|
-|MinValue|-1000000000000|
-|Precision|4|
+|MinValue|0|
+|Precision|2|
 |PrecisionSource|2|
 |RequiredLevel|None|
 |Type|Money|
@@ -566,186 +555,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|lastonholdtime|
 |RequiredLevel|None|
 |Type|DateTime|
-
-
-### <a name="BKMK_msdyn_Company"></a> msdyn_Company
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Company|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_company|
-|RequiredLevel|ApplicationRequired|
-|Targets|cdm_company|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_ContactPerson"></a> msdyn_ContactPerson
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Contact Person|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_contactperson|
-|RequiredLevel|None|
-|Targets|contact|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_InvoiceDate"></a> msdyn_InvoiceDate
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|TimeZoneIndependent|
-|Description||
-|DisplayName|Invoice Date|
-|Format|DateOnly|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_invoicedate|
-|RequiredLevel|ApplicationRequired|
-|Type|DateTime|
-
-
-### <a name="BKMK_msdyn_InvoiceNumber"></a> msdyn_InvoiceNumber
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Invoice Number|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_invoicenumber|
-|MaxLength|20|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_LedgerVoucher"></a> msdyn_LedgerVoucher
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Ledger Voucher|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_ledgervoucher|
-|MaxLength|20|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_OrderType"></a> msdyn_OrderType
-
-**Added by**: Field Service Common Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Whether the invoice is for an Item-based Invoice or a different type of Invoice|
-|DisplayName|Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_ordertype|
-|RequiredLevel|Recommended|
-|Type|Picklist|
-
-#### msdyn_OrderType Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|192350000|Item based||
-
-
-
-### <a name="BKMK_msdyn_PaymentTerms"></a> msdyn_PaymentTerms
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Payment Terms|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_paymentterms|
-|RequiredLevel|None|
-|Targets|msdyn_paymentterm|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_totalamount"></a> msdyn_totalamount
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Total Amount|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_totalamount|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_totaldiscountamount"></a> msdyn_totaldiscountamount
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Total Discount Amount|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_totaldiscountamount|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_totaltax"></a> msdyn_totaltax
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Total Tax|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_totaltax|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
 
 
 ### <a name="BKMK_Name"></a> Name
@@ -1502,13 +1311,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_CompanyName](#BKMK_msdyn_CompanyName)
-- [msdyn_ContactPersonName](#BKMK_msdyn_ContactPersonName)
-- [msdyn_ContactPersonYomiName](#BKMK_msdyn_ContactPersonYomiName)
-- [msdyn_PaymentTermsName](#BKMK_msdyn_PaymentTermsName)
-- [msdyn_totalamount_Base](#BKMK_msdyn_totalamount_Base)
-- [msdyn_totaldiscountamount_Base](#BKMK_msdyn_totaldiscountamount_Base)
-- [msdyn_totaltax_Base](#BKMK_msdyn_totaltax_Base)
 - [OnHoldTime](#BKMK_OnHoldTime)
 - [OpportunityIdName](#BKMK_OpportunityIdName)
 - [OwnerIdName](#BKMK_OwnerIdName)
@@ -1983,135 +1785,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
-### <a name="BKMK_msdyn_CompanyName"></a> msdyn_CompanyName
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_companyname|
-|MaxLength|20|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ContactPersonName"></a> msdyn_ContactPersonName
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_contactpersonname|
-|MaxLength|160|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ContactPersonYomiName"></a> msdyn_ContactPersonYomiName
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_contactpersonyominame|
-|MaxLength|450|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_PaymentTermsName"></a> msdyn_PaymentTermsName
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_paymenttermsname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_totalamount_Base"></a> msdyn_totalamount_Base
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Value of the Total Amount in base currency.|
-|DisplayName|Total Amount (Base)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_totalamount_base|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_totaldiscountamount_Base"></a> msdyn_totaldiscountamount_Base
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Value of the Total Discount Amount in base currency.|
-|DisplayName|Total Discount Amount (Base)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_totaldiscountamount_base|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_totaltax_Base"></a> msdyn_totaltax_Base
-
-**Added by**: Dynamics 365 Supply Chain Extended Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Value of the Total Tax in base currency.|
-|DisplayName|Total Tax (Base)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_totaltax_base|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|4|
-|PrecisionSource|2|
-|RequiredLevel|None|
-|Type|Money|
-
-
 ### <a name="BKMK_OnHoldTime"></a> OnHoldTime
 
 |Property|Value|
@@ -2492,7 +2165,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [opportunity_invoices](#BKMK_opportunity_invoices)
 - [price_level_invoices](#BKMK_price_level_invoices)
 - [order_invoices](#BKMK_order_invoices)
-- [msdyn_Invoice_ContactPerson_Contact](#BKMK_msdyn_Invoice_ContactPerson_Contact)
 
 
 ### <a name="BKMK_invoice_customer_accounts"></a> invoice_customer_accounts
@@ -2520,12 +2192,6 @@ See the [price_level_invoices](pricelevel.md#BKMK_price_level_invoices) one-to-m
 ### <a name="BKMK_order_invoices"></a> order_invoices
 
 See the [order_invoices](salesorder.md#BKMK_order_invoices) one-to-many relationship for the [salesorder](salesorder.md) table/entity.
-
-### <a name="BKMK_msdyn_Invoice_ContactPerson_Contact"></a> msdyn_Invoice_ContactPerson_Contact
-
-**Added by**: System Solution Solution
-
-See the [msdyn_Invoice_ContactPerson_Contact](contact.md#BKMK_msdyn_Invoice_ContactPerson_Contact) one-to-many relationship for the [contact](contact.md) table/entity.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
