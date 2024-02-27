@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Customer Service
 description: Overview of Dynamics 365 Customer Service.
-ms.date: 08/09/2023
+ms.date: 02/06/2024
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -49,8 +49,6 @@ You can configure and manage the different capabilities in Customer Service by u
 
 - **App profile manager** (Deprecated): Helps in creating and managing targeted app experiences for agents and supervisors as an alternative to building and maintaining custom apps. You can create custom profiles with specific session templates, conversation channels, and productivity tools. You can then assign these profiles to agents and supervisors who use the Customer Service workspace app. These capabilities are available in the new Customer Service admin center app also. We recommend that you use the new app.
 
-- **Omnichannel Administration** (Deprecated): Helps in setting up and managing the chat and digital messaging channels and other features in Omnichannel for Customer Service.
-  
   > [!NOTE]
   > Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated and will be removed in July 2023](deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
 
@@ -81,19 +79,19 @@ The following table provides the features that can be configured through the adm
 
 The following capabilities are available in the different app experiences, depending on your needs. In the following table, select the app of your choice to read more about the details of the user experience in each app.
 
-|  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service (Deprecated)](introduction-omnichannel.md) | [Customer Service Hub](../use/user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (Deprecated)](../user-guide-customer-service.md) |
-|---------------------------------------------------------------------|------------|------------|------------|------------|------------|
-| Multisession          | ✔ | ✔ | ✖ | ✖ | ✖ |
-| Case management  | ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
-| Conversations (with Chat or Digital Messaging Offers)  | ✔ | ✔ |✖  | ✖ |✖  |
-| Channels (with Digital Messaging Offer)  | ✔ | ✔ |✖  | ✖ |✖  |
-|Voice channel (with Voice Channel for Dynamics 365 Customer Service)| ✔ | ✔ |✖  | ✖ |✖  |
-| Knowledge management  |  ✔  |  ✔  |✔| Read-only | ✔ |
-| Insights, analytics, and dashboards | ✔ | ✔| ✔ | ✖ | ✖ |
-| Service scheduling  | ✔ | Not applicable | ✔ | ✖ | ✔ |
-| Connected Service with IoT  |✔  | ✖ | ✔  | ✖ |✖  |
-| Extensibility  | ✔ with Channel Integration Framework version 2.0, custom messaging channel | ✔ with Channel Integration Framework version 2.0, custom messaging channel, Mobile SDK | ✔ with Channel Integration Framework version 1.0 | ✖ | ✖ |
-| Unified Interface compliant  | ✔ | ✔ | ✔ | ✔ |✖  |
+|  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service (Deprecated)](introduction-omnichannel.md) | [Customer Service Hub](../use/user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) |
+|---------------------------------------------------------------------|------------|------------|------------|------------|
+| Multisession          | ✔ | ✔ | ✖ | ✖ |
+| Case management  | ✔ |  ✔  |  ✔  |  ✔  | 
+| Conversations (with Chat or Digital Messaging Offers)  | ✔ | ✔ |✖  | ✖ |
+| Channels (with Digital Messaging Offer)  | ✔ | ✔ |✖  | ✖ |
+|Voice channel (with Voice Channel for Dynamics 365 Customer Service)| ✔ | ✔ |✖  | ✖ |
+| Knowledge management  |  ✔  |  ✔  |✔| Read-only | 
+| Insights, analytics, and dashboards | ✔ | ✔| ✔ | ✖ | 
+| Service scheduling  | ✔ | Not applicable | ✔ | ✖ | 
+| Connected Service with IoT  |✔  | ✖ | ✔  | ✖ |
+| Extensibility  | ✔ with Channel Integration Framework version 2.0, custom messaging channel | ✔ with Channel Integration Framework version 2.0, custom messaging channel, Mobile SDK | ✔ with Channel Integration Framework version 1.0 | ✖ | 
+| Unified Interface compliant  | ✔ | ✔ | ✔ | ✔ |
 
 **Legend**
 

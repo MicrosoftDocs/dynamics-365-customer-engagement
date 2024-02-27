@@ -1,7 +1,7 @@
 ---
 title: "Integrate a Copilot Studio bot | MicrosoftDocs"
 description: "Use this article to get instructions on how to integrate a Copilot Studio bot in Omnichannel for Customer Service."
-ms.date: 08/31/2023
+ms.date: 02/06/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -165,56 +165,7 @@ You understand that your data may be transmitted and shared with external system
 
 ### Troubleshoot issues for bots
 
-[How to end a bot conversation in Omnichannel for Customer Service](../troubleshoot-omnichannel-customer-service.md#pvaendconv)
-
-#### Configure your Power Virtual Agents bot in Omnichannel Administration
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-In Omnichannel Administration, after the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup.
-
-1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel Administration app. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel)
-
-2. Assign the bot to an existing queue.
-
-3. Select **Done**. Now you're on the bot profile page and you can see that your bot is connected.
-
-    Your bot is ready to accept and respond to customer-initiated conversations.
-
-#### Create a bot queue and a human agent queue
-
-1. Select or create a workstream. More information: [Understand and create workstreams](create-workstreams.md)
-
-2. Create context variables.
-
-    You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. More information: [Contextual variables available upon hand-off](/dynamics365/ai/customer-service-virtual-agent/how-to-handoff#contextual-variables-available-upon-hand-off)
-
-3. Create a routing rule for the human agent and add it to the workstream.
-
-4. Create a routing rule for the virtual agent and add it to the workstream.
-
-Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using the context variable.
-
-Bots are developed to receive customer queries first, gain information of the query, and then pass the query to a human agent, if required. To achieve this behavior, you must add a bot user to the queue and configure routing rules in a way that the incoming customer queries are routed to the queue with bot user.
-
-Be sure to map the routing rules to the correct queues so that the queries are routed appropriately.
-
-> [!NOTE]
-> When you run a report on Copilot Studio activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
-
-#### Set escalation rules
-
-You can set escalation rules in one of the following ways so the bot can route the queries to the appropriate agent:
-
-- **Add the bot to an existing human agent queue**: If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Copilot Studio bot. When a handoff is triggered, customers will be transferred from the Copilot Studio bot to the human agent according to the escalation routing rules.
-
-- **Create a bot queue and a human agent queue**: If you create two queues, you must create workstreams that contain context variables and appropriate routing rules to route the customer queries. More information: [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
-
-### Videos
-
-[Copilot Studio integration with Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114716)
-
-To view more videos on Omnichannel for Customer Service, see [Videos](../use/videos.md).
+[How to end a bot conversation in Omnichannel for Customer Service](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/pva-conversations-active-dashboard)
 
 ### See also
 

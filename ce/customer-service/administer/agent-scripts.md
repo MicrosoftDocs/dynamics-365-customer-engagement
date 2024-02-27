@@ -3,7 +3,7 @@ title: "Manage agent scripts | MicrosoftDocs"
 description: "Follow the steps mentioned in the article to create and configure agent scripts that can be used by agents when they are interacting with customers."
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/09/2022
+ms.date: 02/06/2024
 ms.topic: article
 ---
 
@@ -30,7 +30,7 @@ Agent scripts reduce the human errors involved, because agents know which action
 
 ## Create agent scripts
 
-Create agent scripts in the Customer Service admin center, Omnichannel admin center (deprecated), Omnichannel Administration, or Customer Service Hub app. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
+Create agent scripts in the Customer Service admin center, Omnichannel admin center (deprecated), or Customer Service Hub app. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
 2. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.

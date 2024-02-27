@@ -1,7 +1,7 @@
 ---
 title: "Set idle time threshold | Microsoft Docs"
 description: "Learn how to set the idle time threshold."
-ms.date: 02/17/2022
+ms.date: 02/06/2024
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -15,7 +15,7 @@ You can configure the idle time threshold to pause the handle time computation o
 
 ## How to set the idle time threshold
 
-In the Omnichannel Administration app, select the **F12** key to open the command prompt, and then run the following:
+In the Customer Service admin center app, select the **F12** key to open the command prompt, and then run the following:
 
 ```JavaScript
 let entityName = "msdyn_channelprovider"

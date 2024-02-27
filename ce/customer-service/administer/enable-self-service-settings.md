@@ -1,17 +1,20 @@
 ---
-title: "Enable self-service settings | MicrosoftDocs"
-description: "Enable self service in the Omnichannel Administration app."
-ms.date: 04/04/2022
-ms.topic: article
+title: Enable self-service settings
+description: Enable self-service settings for customer actions in conversations to help agents understand customer issues and provide personalized service.
+ms.date: 02/06/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:12/18/2023
 ---
 
 # Enable self-service settings for customer actions in a conversation summary
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-## Overview
 
 The self-service feature displays information about the recent actions that a customer performs before starting a conversation with an agent. This information helps agents understand customer issues and provide a personalized service for enhanced customer satisfaction.
 
@@ -19,7 +22,7 @@ The data about the recent actions is stored in an entity for the conversation th
 
 Enabling the self-service feature is a two-step process as follows:
 1. Add a code snippet in the self-service portal that is configured for your organization. For the sample code and to learn more, see [Pass self service history as context](../develop/reference/methods/setContextProvider.md#pass-customers-self-service-as-context).
-2. Update the settings in the Omnichannel Administration app.
+2. Update the settings in the Customer Service admin center app.
 
 ## Enable self service
 

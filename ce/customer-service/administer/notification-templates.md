@@ -93,7 +93,6 @@ The application supports the following slugs.
 | `{visitorLanguage}` | The language in which the customer initiates the conversation. |
 | `{visitorDevice}` | The device of the customer who initiates the conversation. |
 | `{entityRoutingLogicalName}` | Name of the entity if the notification is for entity records. |
-| `{entityRoutingRecordId}` | GUID of the entity record if the notification is for entity records. To learn more, see [Entity records routing](../entity-channel.md). |
 | `{customerEntityName}` | Name of the entity (contact or account entity) if the customer is authenticated. |
 | `{customerRecordId}` | GUID of the entity (contact or account entity) if the customer is authenticated. |
 |`{<name of the pre-chat survey question>}` | All the pre-chat survey questions that are configured for a work stream can be used as the slug. The format is same as the question. |
