@@ -32,7 +32,7 @@ Microsoft.CIFramework.getEnvironment().then(
     });
 ```
 
- > UPDATE
+ > UPDATE:
  > We shall include organization geometry (orgGeo) and session navigation type (navigationType)
- 
+
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
