@@ -22,7 +22,7 @@ Stay ahead of your work by asking Copilot to help you prepare for meetings and c
 
 ## Prepare for upcoming sales appointments
 
-If you have meetings scheduled on your calendar in the next 24 hours, Copilot can help you prepare for them. Go into your meetings with a helpful summary of notes from the last three months and the latest email thread related to the record's timeline.
+If you have meetings scheduled on your calendar in the next 24 hours, Copilot can help you prepare for them. Go into your meetings with a helpful summary of notes from the last three months and the latest email thread in the related record's timeline.
 
 1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Prepare for sales appointments**.
 
