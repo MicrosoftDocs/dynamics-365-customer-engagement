@@ -20,13 +20,13 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 <a name="Signin"></a>
 ## Sign in to Unified Service Desk
 
-If you want to configure the sign in experience, such as by prepopulating values in the sign in dialog or by automatically signing in users without displaying the sign in dialog, go to [Configure sign in information](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#ConfigureSignIn).  
+If you want to configure the sign-in experience, such as by prepopulating values in the sign-in dialog or by automatically signing in users without displaying the sign-in dialog, go to [Configure sign-in information](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#ConfigureSignIn).  
 
 1. Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client by double-clicking the application shortcut on your desktop.  
 
-2. In the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign in dialog, provide authentication details to connect to your Dataverse server.
+2. In the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog, provide authentication details to connect to your Dataverse server.
 
-   ![Unified Service Desk client sign in screen.](../../unified-service-desk/media/usd-login.PNG "Unified Service Desk client sign in screen")  
+   ![Unified Service Desk client sign-in screen.](../../unified-service-desk/media/usd-login.PNG "Unified Service Desk client sign-in screen")  
 
    - For Dataverse, select **Microsoft 365**.  
 
@@ -44,9 +44,9 @@ If you want to configure the sign in experience, such as by prepopulating values
 
 4. The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] splash screen appears. This screen shows information about the configuration data being read by the client in the background. Next, the main window appears and prompts you to enter your Dataverse server credentials. Enter your credentials, and then sign in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.  
 
-   Any time you start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client and need to sign in again, you won't have to provide your connection information again. Your credentials are stored securely in the Windows Credential Manager, and other connection information is stored in the Default_USD.config file at C:\Users\\<USER_NAME\>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\<Version\> and used for subsequent sign in activities.  
+   Any time you start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client and need to sign in again, you won't have to provide your connection information again. Your credentials are stored securely in the Windows Credential Manager, and other connection information is stored in the Default_USD.config file at C:\Users\\<USER_NAME\>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\<Version\> and used for subsequent sign-in activities.  
 
-   If you want to change your connection information to sign in, select **Change Credentials** in the splash screen. You'll see the initial sign in dialog where you can enter different credentials.  
+   If you want to change your connection information to sign in, select **Change Credentials** in the splash screen. You'll see the initial sign-in dialog where you can enter different credentials.  
 
    ![Unified Service Desk Change Credentials screen.](../../unified-service-desk/media/usd-second-signin.png "Unified Service Desk Change Credentials screen")
 
@@ -54,7 +54,7 @@ If you want to configure the sign in experience, such as by prepopulating values
 
 ## Single sign-on for Unified Service Desk
 
-Single sign-on (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides an improved startup performance and user experience by authenticating users to access model-driven apps without the need for entering their credentials multiple times. This eliminates the need for entering the same password again, thereby minimizing the likelihood of sign in errors, and helps ensure a seamless user experience.
+Single sign-on (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides an improved startup performance and user experience by authenticating users to access model-driven apps without the need for entering their credentials multiple times. This eliminates the need for entering the same password again, thereby minimizing the likelihood of sign-in errors, and helps ensure a seamless user experience.
 
 In Unified Service Desk 4.1.1.1433 and later, SSO is disabled by default.
 
@@ -62,7 +62,7 @@ In versions preceding Unified Service Desk 4.1.1.1433, SSO is enabled by default
 
 If SSO is enabled and if your organization has enforced the inactivity session timeout for agents, then the agents won't be automatically signed out when the inactivity session timeout expires. So, to enforce an inactivity session timeout for agents in earlier versions of the product, be sure to disable the SSO feature.
 
-To enable or disable SSO, see [Enable or disable single sign on](#enable-or-disable-single-sign-on).
+To enable or disable SSO, see [Enable or disable single sign-on](#enable-or-disable-single-sign-on).
 
 > [!NOTE]
 > - The SSO feature is available only for model-driven apps and Unified Service Desk.
@@ -117,14 +117,14 @@ To enable the SSO feature, you must the configure the **SingleSignOnEnabledBrows
 ::: moniker-end
 
 <a name="ConfigureSignIn"></a>   
-## Configure sign in information
+## Configure sign-in information
 
-If needed, administrators can configure the sign in experience for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by prepopulating values (except username and password) in the sign in dialog so users can connect to the specified Dataverse instance, or they can configure it to automatically sign in users to an on-premises Dataverse instance based on the user's [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] credentials without even displaying the sign in dialog.
+If needed, administrators can configure the sign-in experience for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by prepopulating values (except username and password) in the sign-in dialog so users can connect to the specified Dataverse instance, or they can configure it to automatically sign in users to an on-premises Dataverse instance based on the user's [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] credentials without even displaying the sign-in dialog.
 
 > [!NOTE]
-> You can't add or remove the fields in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign in dialog. You can only specify the values that will appear in the fields when a user tries to sign in. However, users can change the prepopulated values in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign in dialog before signing in.
+> You can't add or remove the fields in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog. You can only specify the values that will appear in the fields when a user tries to sign in. However, users can change the prepopulated values in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog before signing in.
 
-To configure sign in information, use the UnifiedServiceDesk.exe.config file that's available in the client installation directory (typically C:\Program Files\Microsoft Dynamics CRM USD\USD).  
+To configure sign-in information, use the UnifiedServiceDesk.exe.config file that's available in the client installation directory (typically C:\Program Files\Microsoft Dynamics CRM USD\USD).  
 
 1. Run [!INCLUDE[pn_Notepad](../../includes/pn-notepad.md)] as an administrator.  
 
@@ -146,7 +146,7 @@ To configure sign in information, use the UnifiedServiceDesk.exe.config file tha
    <add key="CrmDomain" value="<DOMAIN_NAME>" />  
    ```  
 
-4. Provide an appropriate value for each key. Each key maps to an individual field in the sign in dialog. The following table shows valid key values.  
+4. Provide an appropriate value for each key. Each key maps to an individual field in the sign-in dialog. The following table shows valid key values.  
 
 
    |         Key         |                                                                                                                                                                                                                                             Value                                                                                                                                                                                                                                             |
@@ -156,38 +156,38 @@ To configure sign in information, use the UnifiedServiceDesk.exe.config file tha
    |      `CrmOrg`       |                                                                                                                                                                                                 Specify the Dataverse organization name.                                                                                                                                                                                                  |
    |      `CrmPort`      |                                                                                                                                                    Specify the Dataverse port number.<br /><br /> This key is applicable only if you specified `Prem` in the `CrmDeploymentType` key.                                                                                                                                                     |
    |   `CrmServerName`   |                                                                                                                                                    Specify the Dataverse server name.<br /><br /> This key is applicable only if you specified `Prem` in the `CrmDeploymentType` key.                                                                                                                                                     |
-   |  `UseDefaultCreds`  | `True` or `False`<br><br>**Note:**  For Customer Engagement (on-premises) installation `(<add key="CrmDeploymentType" value="Prem" />`) and Active Directory authentication `(<add key="AuthHomeRealm" value="Active Directory" />`), set the value of this key to `True` to directly sign in users to the specified Dataverse server or organization without even displaying the sign in dialog.  |
+   |  `UseDefaultCreds`  | `True` or `False`<br><br>**Note:**  For Customer Engagement (on-premises) installation `(<add key="CrmDeploymentType" value="Prem" />`) and Active Directory authentication `(<add key="AuthHomeRealm" value="Active Directory" />`), set the value of this key to `True` to directly sign in users to the specified Dataverse server or organization without even displaying the sign-in dialog.  |
    | `CacheCredentials`  | `True` or `False`<br><br> **Note:**  To force the connection dialog to be displayed every time the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is opened, set the value of this key to `False`. By default, the client caches the last connection information and uses it the next time to establish a connection to the Dataverse server (unless the user cancels and specifies a different connection). |
    |  `CrmOnlineRegion`  |                                                                                                     `NorthAmerica`, `EMEA`, `APAC`, `SouthAmerica`, `Oceania`, `JPN`, `CAN`, `IND`, or `NorthAmerica2`<br /><br /> If you don't know the online region, leave the value empty: `value=""`<br /><br /> This key is applicable only if you specified `O365` in the `CrmDeploymentType` key.                                                                                                     |
    |   `AuthHomeRealm`   |                                                                                                                                                                   `Active Directory` or `Internet-facing deployment(IFD)`<br /><br /> This key is applicable only if you specified `Prem` in the `CrmDeploymentType` key.                                                                                                                                                                    |
-   |     `AskForOrg`     |                                                                                                                                                                       `True` or `False`<br /><br /> Indicates whether the **Display list of available organizations** check box is selected in the sign in dialog.                                                                                                                                                                        |
+   |     `AskForOrg`     |                                                                                                                                                                       `True` or `False`<br /><br /> Indicates whether the **Display list of available organizations** check box is selected in the sign-in dialog.                                                                                                                                                                        |
    |     `CrmDomain`     |                                                                                                                                                  Specify the name of the [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)] domain.<br /><br /> This key is applicable only if you specified `Prem` in the `CrmDeploymentType` key.                                                                                                                                                   |
 
 5. Save the UnifiedServiceDesk.exe.config file.  
 
-6. Do the following on *each* user's computer where you want to configure sign in information:  
+6. Do the following on *each* user's computer where you want to configure sign-in information:  
 
    1. Copy the UnifiedServiceDesk.exe.config file that you just modified to the client installation directory (typically C:\Program Files\Microsoft Dynamics CRM USD\USD) to replace the existing file.  
 
-   2. Remove the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign in information from the roaming user profiles on the user's computer. If the user has signed in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] from the computer at least once, the following files were created in the C:\Users\\<USER_NAME\>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk directory: Default_USD.config and Default_USD. You must delete both these files for the configuration settings in the UnifiedServiceDesk.exe.config file to take effect.  
+   2. Remove the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in information from the roaming user profiles on the user's computer. If the user has signed in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] from the computer at least once, the following files were created in the C:\Users\\<USER_NAME\>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk directory: Default_USD.config and Default_USD. You must delete both these files for the configuration settings in the UnifiedServiceDesk.exe.config file to take effect.  
 
    When the user starts the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application on their computer:  
 
-   - The sign in dialog shows the values specified in the UnifiedServiceDesk.exe.config file and also creates the Default_USD.config file in the C:\Users\\<USER_NAME\>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk directory to store the connection information (except username and password; these are stored in [!INCLUDE[pn_Windows_Credential_Manager](../../includes/pn-windows-credential-manager.md)]). Thereafter, the client application uses the Default_USD.config file to display the sign in information or to automatically sign in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
+   - The sign-in dialog shows the values specified in the UnifiedServiceDesk.exe.config file and also creates the Default_USD.config file in the C:\Users\\<USER_NAME\>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk directory to store the connection information (except username and password; these are stored in [!INCLUDE[pn_Windows_Credential_Manager](../../includes/pn-windows-credential-manager.md)]). Thereafter, the client application uses the Default_USD.config file to display the sign-in information or to automatically sign in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
 
-   - For a Customer Engagement (on-premises) installation with [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] authentication, if you've configured to automatically sign in the user without displaying the sign in dialog (`<add key="UseDefaultCreds" value="True" />`), the sign in dialog isn't displayed, but the Default_USD.config file is created in the C:\Users\\<USER_NAME\>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk directory to store the connection information (except username and password). Thereafter, the client application uses the Default_USD.config file to automatically sign in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+   - For a Customer Engagement (on-premises) installation with [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] authentication, if you've configured to automatically sign in the user without displaying the sign-in dialog (`<add key="UseDefaultCreds" value="True" />`), the sign-in dialog isn't displayed, but the Default_USD.config file is created in the C:\Users\\<USER_NAME\>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk directory to store the connection information (except username and password). Thereafter, the client application uses the Default_USD.config file to automatically sign in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-If you need to modify the default sign in information, you must repeat steps 1 through 6.  
-
-
-> [!NOTE]
-> To avoid issues when you sign in with Chrome and have SSO enabled, we recommend that you set the **ChromeWebViewShowOutside**
-UII option to TRUE. See: [Manage global settings or options in Unified Service Desk](manage-options-unified-service-desk.md).
+If you need to modify the default sign-in information, you must repeat steps 1 through 6.  
 
 <a name="LogFiles"></a>   
-## Troubleshoot sign in issues
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides logging support to log errors that can occur while signing in to Dataverse. A log file, Login_ErrorLog.log, is created at C:\Users\\<USER_NAME\>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\<Version\> the first time you encounter any sign in issues in the client application. Thereafter, the log file is used to record information about subsequent sign in issues. This information can be helpful for troubleshooting issues related to signing in to Dataverse from the client application.  
+> [!NOTE]
+> To avoid issues when you sign-in with Chrome and have SSO enabled, we recommend that you set the **ChromeWebViewShowOutside**
+UII option to TRUE. See: [Manage global settings or options in Unified Service Desk](manage-options-unified-service-desk.md).
+
+## Troubleshoot sign-in issues
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides logging support to log errors that can occur while signing in to Dataverse. A log file, Login_ErrorLog.log, is created at C:\Users\\<USER_NAME\>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\<Version\> the first time you encounter any sign-in issues in the client application. Thereafter, the log file is used to record information about subsequent sign-in issues. This information can be helpful for troubleshooting issues related to signing in to Dataverse from the client application.  
 
 > [!NOTE]
 > [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] also creates another log file, UnifiedServiceDesk.log, at the same location to log operational errors in the client application. The log file is created the first time you encounter any issues in the client application. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure diagnostic logging in Unified Service Desk](../../unified-service-desk/admin/configure-client-diagnostic-logging-unified-service-desk.md)  
@@ -201,3 +201,4 @@ UII option to TRUE. See: [Manage global settings or options in Unified Service D
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
