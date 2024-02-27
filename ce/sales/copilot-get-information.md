@@ -22,7 +22,7 @@ Use Copilot to get information about your pipeline, summarize your opportunities
 
 ## Show my pipeline
 
-Copilot can get you the list of open opportunities that are assigned to you, sorted by the estimated close date.
+Copilot can provide a list of open opportunities assigned to you, sorted by the estimated close date.
 
 In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Show my pipeline**, and select Enter.
 
@@ -49,20 +49,18 @@ Keep in mind that the summary fields are configured at the organization level. M
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
  
-As a salesperson, you need to be aware of the latest product information, such as product brochures, pricing, sales pitch, and specifications, which are typically stored in SharePoint. You can ask Copilot to get you the list of SharePoint documents related to products in an opportunity.
+As a salesperson, you need to be aware of the latest product information, such as product brochures, pricing, sales pitch, and specifications, which are typically stored in SharePoint. You can ask Copilot to provide you with the list of SharePoint documents related to products in an opportunity.
 
-> [!NOTE]
->- This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
->- The documents are only fetched from the SharePoint site associated with your tenant.  
+This feature is available only if your administrator has opted into the [Copilot preview features](copilot-preview-features.md).
+The documents are only fetched from the SharePoint site associated with your tenant.  
 
 1. [Summarize an opportunity](#summarize-a-lead-or-opportunity).
     After the summary, Copilot displays a follow-up prompt **Get product-related files (preview)**. The prompt is displayed only if the opportunity has products associated with it. 
 
 2. Select **Get product-related files (preview)**. 
-   > [!NOTE]
-   > At the moment, this feature can be invoked only by selecting the prompt and not by typing in the Copilot chat. 
+   At the moment, this feature can be invoked only by selecting the prompt and not by typing in the Copilot chat. 
 
-    If the opportunity has multiple products, Copilot lists the products.
+   If the opportunity has multiple products, Copilot lists the products.
 
 3. Hover over a product and select **Get files**.
 

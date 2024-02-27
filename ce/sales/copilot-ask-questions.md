@@ -1,6 +1,6 @@
 ---
-title: Ask questions of Copilot
-description: Learn how to ask Copilot questions in Dynamics 365 Sales to know what's new with your leads, opportunities, and accounts and new records are assigned to you.
+title: Ask a question to Copilot
+description: Learn how to ask questions to Copilot in Dynamics 365 Sales to receive the latest updates on your leads, opportunities, and accounts.
 ms.date: 01/24/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -16,7 +16,7 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ---
 
-# Ask questions of Copilot
+# Ask a question to Copilot
 
 Ask Copilot to update you on the latest changes to your sales records, get a list of records that were assigned to you, or list any changes to your leads and opportunities.
 
@@ -37,7 +37,6 @@ Copilot fetches the list based on the following conditions:
 - If there are more than five records of a record type, Copilot picks the top five records that were most recently updated.
 
 Hover over a record in the list and select **Get updates** to view all changes to the record in the last seven days.
-
 
 ## What's newly assigned to me
 
@@ -66,9 +65,9 @@ The list of recent changes is taken from the audit history of the record. If the
 
 ### Would you like to view recent changes to different fields?
 
-Copilot summarizes the last 10 updates to the record from the audit history, for the fields configured by your administrator. However, you may want to stay updated on changes to other fields that matter more to you. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
+Copilot summarizes the last 10 updates to the record from the audit history, for the fields configured by your administrator. However, you might want to stay updated on changes to other fields that matter more to you. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
 
-Keep in mind that these fields are configured at the organization level. Make sure that your entire sales team agrees on the top ten fields that are most relevant for your business.
+Keep in mind that these fields are configured at the organization level. Make sure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 ## Get answers from SharePoint documents (Preview)
 
@@ -76,13 +75,13 @@ Keep in mind that these fields are configured at the organization level. Make su
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-As a seller, you may have to refer to documents such as contracts, technical documents, amd marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you.
+As a seller, you might have to refer to documents such as contracts, technical documents, and marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you.
 
-> [!NOTE]
->- This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
->- The answers are only fetched from documents in the SharePoint site associated with your tenant.  
+This feature is available only if your administrator opted in to the [Copilot preview features](copilot-preview-features.md).
 
-1. In the Copilot side pane, type in your question in natural language, and select **Enter**. 
+The answers are only fetched from documents in the SharePoint site associated with your tenant.  
+
+1. In the Copilot side pane, type in your question in natural language, and select **Enter**.
     You need not open a record to ask Copilot a question. For example, you can ask Copilot, **What is the warranty period for Contoso 3D printers?** or **What is the price of Contoso 3D printers?**.
 
     Copilot searches for answers from the sales data stored in Dataverse first. After the result is displayed, you'll see a follow-up prompt.
