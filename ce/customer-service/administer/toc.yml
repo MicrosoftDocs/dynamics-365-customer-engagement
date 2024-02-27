@@ -24,8 +24,6 @@
           href: role-persona-mapping.md
         - name: Delete historical data of agent capacity updates
           href: manage-historical-data-capacity-updates.md
-      - name: Search Customer Service admin logs in Microsoft Purview
-        href: enable-audit-tables.md
       - name: Unified routing and assignment
         items:
         - name: Overview of unified routing
@@ -806,6 +804,10 @@
             href: migrate-oc-faq.md
           - name: FAQ on Migration tool for automatic record creation rules and SLAs
             href: migrate-tool-faqs.md
+      - name: Audit
+        items:
+        - name: Search Customer Service admin logs in Microsoft Purview
+          href: enable-audit-tables.md
       - name: Known issues in Customer Service and Omnichannel for Customer Service
         href: https://go.microsoft.com/fwlink/p/?linkid=2165393
       - name: FAQ about Customer Service admin center

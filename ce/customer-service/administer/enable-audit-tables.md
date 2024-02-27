@@ -1,8 +1,8 @@
 ---
 title: Search Customer Service admin logs in Microsoft Purview
 description: View and search audited events in the Microsoft Purview audit log to track admin activity in your organization.
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
@@ -23,14 +23,14 @@ View administrative logs for Customer Service using auditing solutions in the Mi
 - You're an administrator.
 - To view audit results, you must have access to the Purview tool. More information: [Permissions in the Microsoft Purview portal (preview)](/purview/purview-permissions)
 
-## Enable auditing
+## Enable an audit
 
-There are three levels where auditing can be configured: an environment, table, and column.
+Auditing can be configured for an environment, a table, and a column.
 
-1. For table auditing to take place, auditing must be first enabled at the environment level. To enable auditing at the environment level, go to [Configure auditing for an environment](/power-platform/admin/manage-dataverse-auditing#configure-auditing-for-an-environment).
-2. To enable auditing at the table level, go to [Configure auditing for one or more tables and columns in Power Apps](/power-platform/admin/manage-dataverse-auditing#configure-auditing-for-one-or-more-tables-and-columns-in-power-apps).
+1. [Configure auditing for an environment](/power-platform/admin/manage-dataverse-auditing#configure-auditing-for-an-environment).
+2. [Configure auditing for one or more tables and columns in Power Apps](/power-platform/admin/manage-dataverse-auditing#configure-auditing-for-one-or-more-tables-and-columns-in-power-apps).
 
-## Activities that can be audited
+## Activities available for audit
 
 | Activity scope (object) | Description |
 | --------- | -------------- |
@@ -48,7 +48,7 @@ There are three levels where auditing can be configured: an environment, table, 
 | subject | Categorize cases for quick service to customers. |
 | convertrule | Automatically create or update records. |
 | incident | Track multiple issues for customers. |
-| advancedsimilarityrule | View similar cases in Customer Service Hub. |
+| advancedsimilarityrule | View similar cases in Customer Service admin center. |
 | SaveSettingValue | Simplify case experience for productivity. |
 | msdyn_integratedsearchprovider | Ingest knowledge search data into an organization. | 
 | msdyn_kmfederatedsearchconfig | Find and share knowledge from multiple resources. |
@@ -126,10 +126,10 @@ There are three levels where auditing can be configured: an environment, table, 
 | msdyn_businessclosure | Prevent scheduling resources on holidays. |
 | msdyn_timegroup | Customize how to show assistant results. |
 | bookableresourcecategory | Group bookable resources by type. |
-| organization | Provision omnichannel in an organization. | 
+| organization | Provision Omnichannel for Customer Service in an organization. |
 | organization | Upgrade omnichannel solutions in an organization. |
-| organization | Disable omnichannel in an organization. |
-| organization | Enable omnichannel in a trial organization. |
+| organization | Disable Omnichannel for Customer Service in an organization. |
+| organization | Enable Omnichannel for Customer Service in a trial organization. |
 
 ## Search audited events
 
@@ -141,6 +141,4 @@ For more information about the Microsoft Purview audit log, data retention polic
 
 ### See also
 
-- [Microsoft Purview compliance portal](/purview/microsoft-365-compliance-center)  
-- [Set up Microsoft Purview auditing solutions](/purview/audit-solutions-overview#set-up-microsoft-purview-auditing-solutions)  
-- [Audit New Search](/purview/audit-new-search)
+[Audit New Search](/purview/audit-new-search)
