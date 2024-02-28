@@ -1,10 +1,13 @@
 ---
-title: Create and manage operating hours | MicrosoftDocs
+title: Create and manage operating hours
 description: Perform the steps mentioned in the article to create, manage, and define operating hours in Omnichannel for Customer Service.
 ms.date: 01/24/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer:
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Create and manage operating hours
@@ -35,7 +38,7 @@ In the Customer Service admin center or Omnichannel admin center (deprecated) ap
 
 In Omnichannel Administration, you can add the operating hour record on the **Design** tab of the appropriate chat widget to control the display of the widget. For SMS channels and queues, the operating hour record will be available for selection on the **General** and **Summary** tabs respectively.
 
-When operating hours are in effect, work items during non-business hours are handled based on the [overflow action that is set in overflow handling](manage-overflow.md#configure-overflow-conditions).
+When operating hours are in effect, work items during non-business hours are handled based on the [overflow action that is set in overflow handling](manage-overflow.md#configure-overflow-conditions-for-before-a-work-item-is-queued).
 
 ## Create a record to define operating hours
 
