@@ -33,6 +33,6 @@ Microsoft.CIFramework.getEnvironment().then(
 ```
 
  > UPDATE:
- > We shall include organization geometry (orgGeo) and session navigation type (navigationType)
+ > We shall include application ID(appid), pageType(pageType), record ID(id), organization geometry (orgGeo) and session navigation type (navigationType).
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
