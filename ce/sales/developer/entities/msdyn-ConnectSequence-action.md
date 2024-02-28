@@ -17,7 +17,7 @@ This action is used to assign a lead and opportunity entity record to a sequence
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
+| **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../../security-roles-for-sales.md)|
 
 
 ## Parameters
@@ -42,4 +42,4 @@ POST [Organization URI]/api/data/v9.1/msdyn_ConnectSequence
 
 ## See also
 
-[Enable and configure the Sales accelerator](../enable-configure-sales-accelerator.md)
+[Enable and configure the Sales accelerator](../../enable-configure-sales-accelerator.md)
