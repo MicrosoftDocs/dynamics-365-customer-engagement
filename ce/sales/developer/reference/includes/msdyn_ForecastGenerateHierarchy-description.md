@@ -1,1 +1,0 @@
-Generates forecast hierarchies for the given forecast definition. <!--If `IsRefresh` is `true`, the forecast hierarchy is updated according to current user hierarchy for the given forecast definition and recurrence index.-->
