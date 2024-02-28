@@ -1,6 +1,6 @@
 ---
-title: "msdyn_ConversationSummarySuggestion table/entity reference"
-description: "Includes schema information and supported messages for the msdyn_ConversationSummarySuggestion table/entity."
+title: "msdyn_salesroutingrun table/entity reference"
+description: "Includes schema information and supported messages for the msdyn_salesroutingrun table/entity."
 ms.date: 02/27/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
@@ -11,38 +11,38 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_ConversationSummarySuggestion table/entity reference
+# msdyn_salesroutingrun table/entity reference
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 
 
 
-**Added by**: Conversation Intelligence Solution
+**Added by**: Assignment Rules Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK class or method|
 |-|-|-|
-|Assign|PATCH /msdyn_conversationsummarysuggestions(*msdyn_conversationsummarysuggestionid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Assign|PATCH /msdyn_salesroutingruns(*msdyn_salesroutingrunid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
 |BulkRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
-|Create|POST /msdyn_conversationsummarysuggestions<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Create|POST /msdyn_salesroutingruns<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-|Delete|DELETE /msdyn_conversationsummarysuggestions(*msdyn_conversationsummarysuggestionid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Delete|DELETE /msdyn_salesroutingruns(*msdyn_salesroutingrunid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 |PurgeRetainedContent|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
 |Retain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
-|Retrieve|GET /msdyn_conversationsummarysuggestions(*msdyn_conversationsummarysuggestionid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET /msdyn_conversationsummarysuggestions<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET /msdyn_salesroutingruns(*msdyn_salesroutingrunid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /msdyn_salesroutingruns<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref:Microsoft.Dynamics.CRM.RevokeAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
 |RollbackRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
-|SetState|PATCH /msdyn_conversationsummarysuggestions(*msdyn_conversationsummarysuggestionid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH /msdyn_conversationsummarysuggestions(*msdyn_conversationsummarysuggestionid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH /msdyn_salesroutingruns(*msdyn_salesroutingrunid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH /msdyn_salesroutingruns(*msdyn_salesroutingrunid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 |ValidateRetentionConfig|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
 
@@ -50,17 +50,17 @@ search.audienceType:
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_ConversationSummarySuggestions|
-|DisplayCollectionName|Conversation Summary Suggestions|
-|DisplayName|Conversation Summary Suggestion|
-|EntitySetName|msdyn_conversationsummarysuggestions|
+|CollectionSchemaName|msdyn_salesroutingruns|
+|DisplayCollectionName|Sales routing runs|
+|DisplayName|Sales routing run|
+|EntitySetName|msdyn_salesroutingruns|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_conversationsummarysuggestions|
-|LogicalName|msdyn_conversationsummarysuggestion|
+|LogicalCollectionName|msdyn_salesroutingruns|
+|LogicalName|msdyn_salesroutingrun|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_conversationsummarysuggestionid|
+|PrimaryIdAttribute|msdyn_salesroutingrunid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_ConversationSummarySuggestion|
+|SchemaName|msdyn_salesroutingrun|
 
 <a name="writable-attributes"></a>
 
@@ -69,17 +69,17 @@ search.audienceType:
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_Content](#BKMK_msdyn_Content)
-- [msdyn_ConversationParticipantInsights](#BKMK_msdyn_ConversationParticipantInsights)
-- [msdyn_ConversationSummarySuggestionId](#BKMK_msdyn_ConversationSummarySuggestionId)
-- [msdyn_ConversationSummarySuggestionType](#BKMK_msdyn_ConversationSummarySuggestionType)
-- [msdyn_DurationInMS](#BKMK_msdyn_DurationInMS)
-- [msdyn_FragmentEnd](#BKMK_msdyn_FragmentEnd)
-- [msdyn_FragmentStart](#BKMK_msdyn_FragmentStart)
-- [msdyn_Locale](#BKMK_msdyn_Locale)
-- [msdyn_Name](#BKMK_msdyn_Name)
-- [msdyn_OffsetInMS](#BKMK_msdyn_OffsetInMS)
-- [msdyn_Selected](#BKMK_msdyn_Selected)
+- [msdyn_assignmentruleid](#BKMK_msdyn_assignmentruleid)
+- [msdyn_isrecordassigned](#BKMK_msdyn_isrecordassigned)
+- [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_ownerassigned](#BKMK_msdyn_ownerassigned)
+- [msdyn_ownerassignedIdType](#BKMK_msdyn_ownerassignedIdType)
+- [msdyn_previousowner](#BKMK_msdyn_previousowner)
+- [msdyn_previousownerIdType](#BKMK_msdyn_previousownerIdType)
+- [msdyn_salesroutingrunId](#BKMK_msdyn_salesroutingrunId)
+- [msdyn_segmentid](#BKMK_msdyn_segmentid)
+- [msdyn_targetobject](#BKMK_msdyn_targetobject)
+- [msdyn_targetobjectIdType](#BKMK_msdyn_targetobjectIdType)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -106,167 +106,48 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_Content"></a> msdyn_Content
+### <a name="BKMK_msdyn_assignmentruleid"></a> msdyn_assignmentruleid
 
 |Property|Value|
 |--------|-----|
 |Description||
-|DisplayName|Content|
-|Format|Text|
-|IsLocalizable|False|
+|DisplayName|Assignment Rule|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_content|
-|MaxLength|1048576|
-|RequiredLevel|None|
-|Type|Memo|
-
-
-### <a name="BKMK_msdyn_ConversationParticipantInsights"></a> msdyn_ConversationParticipantInsights
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|ConversationParticipantInsights|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_conversationparticipantinsights|
-|RequiredLevel|None|
-|Targets|msdyn_conversationparticipantinsights|
+|LogicalName|msdyn_assignmentruleid|
+|RequiredLevel|ApplicationRequired|
+|Targets|msdyn_assignmentrule|
 |Type|Lookup|
 
 
-### <a name="BKMK_msdyn_ConversationSummarySuggestionId"></a> msdyn_ConversationSummarySuggestionId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the summary suggestion|
-|DisplayName|Conversation Summary Suggestion|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_conversationsummarysuggestionid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_ConversationSummarySuggestionType"></a> msdyn_ConversationSummarySuggestionType
+### <a name="BKMK_msdyn_isrecordassigned"></a> msdyn_isrecordassigned
 
 |Property|Value|
 |--------|-----|
 |Description||
-|DisplayName|Conversation Summary Suggestion Type|
-|FormatName|Text|
-|IsLocalizable|False|
+|DisplayName|Is record assigned|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_conversationsummarysuggestiontype|
-|MaxLength|100|
+|LogicalName|msdyn_isrecordassigned|
 |RequiredLevel|None|
-|Type|String|
+|Type|Boolean|
 
-
-### <a name="BKMK_msdyn_DurationInMS"></a> msdyn_DurationInMS
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|DurationInMS|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_durationinms|
-|MaxValue|2147483647|
-|MinValue|-1|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_FragmentEnd"></a> msdyn_FragmentEnd
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|FragmentEnd|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_fragmentend|
-|MaxValue|2147483647|
-|MinValue|0|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_FragmentStart"></a> msdyn_FragmentStart
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|FragmentStart|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_fragmentstart|
-|MaxValue|2147483647|
-|MinValue|0|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_Locale"></a> msdyn_Locale
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Locale|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_locale|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_Locale Choices/Options
+#### msdyn_isrecordassigned Choices/Options
 
 |Value|Label|Description|
 |-----|-----|--------|
-|0|en-us||
-|10|en-gb||
-|20|de-de||
-|30|fr-fr||
-|40|it-it||
-|50|es-es||
-|60|es-mx||
-|70|ja-jp||
-|80|pt-br||
-|90|zh-cn||
-|110|nl-nl||
-|120|fr-ca||
-|130|pt-pt||
-|140|ar-ae||
-|150|ar-bh||
-|160|ar-eg||
-|170|ar-iq||
-|180|ar-jo||
-|190|ar-kw||
-|200|ar-lb||
-|210|ar-om||
-|220|ar-qa||
-|230|ar-sa||
-|240|ar-sy||
-|250|he-il||
-|260|da-dk||
-|270|sv-se||
-|280|fi-fi||
-|290|nb-no||
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
 
 
 
-### <a name="BKMK_msdyn_Name"></a> msdyn_Name
+### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|The name of the custom entity.|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -278,43 +159,119 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|String|
 
 
-### <a name="BKMK_msdyn_OffsetInMS"></a> msdyn_OffsetInMS
+### <a name="BKMK_msdyn_ownerassigned"></a> msdyn_ownerassigned
+
+|Property|Value|
+|--------|-----|
+|Description|Assigned owner id|
+|DisplayName|Assigned owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_ownerassigned|
+|RequiredLevel|ApplicationRequired|
+|Targets|queue,systemuser,team|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_ownerassignedIdType"></a> msdyn_ownerassignedIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
 |Description||
-|DisplayName|OffsetInMS|
-|Format|None|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_ownerassignedidtype|
+|RequiredLevel|None|
+|Type|EntityName|
+
+
+### <a name="BKMK_msdyn_previousowner"></a> msdyn_previousowner
+
+|Property|Value|
+|--------|-----|
+|Description|Previous owner id|
+|DisplayName|Previous owner|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_offsetinms|
-|MaxValue|2147483647|
-|MinValue|-1|
+|LogicalName|msdyn_previousowner|
 |RequiredLevel|None|
-|Type|Integer|
+|Targets|queue,systemuser,team|
+|Type|Lookup|
 
 
-### <a name="BKMK_msdyn_Selected"></a> msdyn_Selected
+### <a name="BKMK_msdyn_previousownerIdType"></a> msdyn_previousownerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
 |Description||
-|DisplayName|Selected|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_previousowneridtype|
+|RequiredLevel|None|
+|Type|EntityName|
+
+
+### <a name="BKMK_msdyn_salesroutingrunId"></a> msdyn_salesroutingrunId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for entity instances|
+|DisplayName|Sales routing run|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_salesroutingrunid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_segmentid"></a> msdyn_segmentid
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Segment|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_selected|
+|LogicalName|msdyn_segmentid|
+|RequiredLevel|ApplicationRequired|
+|Targets|msdyn_segment|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_targetobject"></a> msdyn_targetobject
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Target Object|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_targetobject|
 |RequiredLevel|None|
-|Type|Boolean|
+|Targets|lead,msdyn_salessuggestion,opportunity|
+|Type|Lookup|
 
-#### msdyn_Selected Choices/Options
 
-|Value|Label|Description|
-|-----|-----|--------|
-|1|Yes||
-|0|No||
+### <a name="BKMK_msdyn_targetobjectIdType"></a> msdyn_targetobjectIdType
 
-**DefaultValue**: 0
+**Added by**: Active Solution Solution
 
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_targetobjectidtype|
+|RequiredLevel|None|
+|Type|EntityName|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -368,7 +325,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Conversation Summary Suggestion|
+|Description|Status of the Sales routing run|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -381,8 +338,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
-|0|Active|1|Active|
-|1|Inactive|2|Inactive|
+|0|Inprogress|1|Inprogress|
+|1|Succeeded|2|Succeeded|
+|2|Failed|3|Failed|
 
 
 
@@ -390,7 +348,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Conversation Summary Suggestion|
+|Description|Reason for the status of the Sales routing run|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -402,8 +360,21 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|State|
 |-----|-----|-----|
-|1|Active|0|
-|2|Inactive|1|
+|1|Run is in progress|0|
+|2|Owner assigned successfully|1|
+|3|There was an issue with the server|2|
+|4|Record doesn't meet any conditions|2|
+|5|No sellers meet the conditions|2|
+|6|Eligible sellers don't have availability|2|
+|7|Eligible sellers don't have capacity|2|
+|8|No assignment rule for this record's segment|2|
+|9|Owner assigned manually|1|
+|10|Record unassigned as seller lacks security role privileges|2|
+|11|Seller not assigned as record is older than the set timeframe|2|
+|12|Found multiple eligible teams|2|
+|13|Couldn't find eligible team|2|
+|14|Found multiple eligible queues|2|
+|15|Couldn't find eligible queue|2|
 
 
 
@@ -458,7 +429,14 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_ConversationParticipantInsightsName](#BKMK_msdyn_ConversationParticipantInsightsName)
+- [msdyn_assignmentruleidName](#BKMK_msdyn_assignmentruleidName)
+- [msdyn_ownerassignedName](#BKMK_msdyn_ownerassignedName)
+- [msdyn_ownerassignedYomiName](#BKMK_msdyn_ownerassignedYomiName)
+- [msdyn_previousownerName](#BKMK_msdyn_previousownerName)
+- [msdyn_previousownerYomiName](#BKMK_msdyn_previousownerYomiName)
+- [msdyn_segmentidName](#BKMK_msdyn_segmentidName)
+- [msdyn_targetobjectName](#BKMK_msdyn_targetobjectName)
+- [msdyn_targetobjectYomiName](#BKMK_msdyn_targetobjectYomiName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -645,7 +623,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |--------|-----|
 |DateTimeBehavior|UserLocal|
 |Description|Date and time when the record was modified.|
-|DisplayName|Modified On|
+|DisplayName|Assignment attempt|
 |Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -706,7 +684,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ConversationParticipantInsightsName"></a> msdyn_ConversationParticipantInsightsName
+### <a name="BKMK_msdyn_assignmentruleidName"></a> msdyn_assignmentruleidName
 
 |Property|Value|
 |--------|-----|
@@ -716,8 +694,120 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_conversationparticipantinsightsname|
+|LogicalName|msdyn_assignmentruleidname|
 |MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ownerassignedName"></a> msdyn_ownerassignedName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_ownerassignedname|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ownerassignedYomiName"></a> msdyn_ownerassignedYomiName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_ownerassignedyominame|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_previousownerName"></a> msdyn_previousownerName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_previousownername|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_previousownerYomiName"></a> msdyn_previousownerYomiName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_previousowneryominame|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_segmentidName"></a> msdyn_segmentidName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_segmentidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_targetobjectName"></a> msdyn_targetobjectName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_targetobjectname|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_targetobjectYomiName"></a> msdyn_targetobjectYomiName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_targetobjectyominame|
+|MaxLength|1000|
 |RequiredLevel|None|
 |Type|String|
 
@@ -846,10 +936,33 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
+- [msdyn_msdyn_assignmentrule_msdyn_salesroutingrun_assignmentrule](#BKMK_msdyn_msdyn_assignmentrule_msdyn_salesroutingrun_assignmentrule)
+- [msdyn_lead_msdyn_salesroutingrun_targetobject](#BKMK_msdyn_lead_msdyn_salesroutingrun_targetobject)
+- [msdyn_opportunity_msdyn_salesroutingrun_targetobject](#BKMK_msdyn_opportunity_msdyn_salesroutingrun_targetobject)
+- [msdyn_msdyn_segment_msdyn_salesroutingrun_segment](#BKMK_msdyn_msdyn_segment_msdyn_salesroutingrun_segment)
 
-### <a name="BKMK_msdyn_msdyn_conversationsummarysuggestion_Conve"></a> msdyn_msdyn_conversationsummarysuggestion_Conve
 
-See the [msdyn_msdyn_conversationsummarysuggestion_Conve](msdyn_conversationparticipantinsights.md#BKMK_msdyn_msdyn_conversationsummarysuggestion_Conve) one-to-many relationship for the [msdyn_conversationparticipantinsights](msdyn_conversationparticipantinsights.md) table/entity.
+### <a name="BKMK_msdyn_msdyn_assignmentrule_msdyn_salesroutingrun_assignmentrule"></a> msdyn_msdyn_assignmentrule_msdyn_salesroutingrun_assignmentrule
+
+See the [msdyn_msdyn_assignmentrule_msdyn_salesroutingrun_assignmentrule](msdyn_assignmentrule.md#BKMK_msdyn_msdyn_assignmentrule_msdyn_salesroutingrun_assignmentrule) one-to-many relationship for the [msdyn_assignmentrule](msdyn_assignmentrule.md) table/entity.
+
+### <a name="BKMK_msdyn_lead_msdyn_salesroutingrun_targetobject"></a> msdyn_lead_msdyn_salesroutingrun_targetobject
+
+**Added by**: Lead Management Solution
+
+See the [msdyn_lead_msdyn_salesroutingrun_targetobject](lead.md#BKMK_msdyn_lead_msdyn_salesroutingrun_targetobject) one-to-many relationship for the [lead](lead.md) table/entity.
+
+### <a name="BKMK_msdyn_opportunity_msdyn_salesroutingrun_targetobject"></a> msdyn_opportunity_msdyn_salesroutingrun_targetobject
+
+**Added by**: Sales Solution
+
+See the [msdyn_opportunity_msdyn_salesroutingrun_targetobject](opportunity.md#BKMK_msdyn_opportunity_msdyn_salesroutingrun_targetobject) one-to-many relationship for the [opportunity](opportunity.md) table/entity.
+
+### <a name="BKMK_msdyn_msdyn_segment_msdyn_salesroutingrun_segment"></a> msdyn_msdyn_segment_msdyn_salesroutingrun_segment
+
+**Added by**: Segment solution Solution
+
+See the [msdyn_msdyn_segment_msdyn_salesroutingrun_segment](msdyn_segment.md#BKMK_msdyn_msdyn_segment_msdyn_salesroutingrun_segment) one-to-many relationship for the [msdyn_segment](msdyn_segment.md) table/entity.
 
 ### See also
 
