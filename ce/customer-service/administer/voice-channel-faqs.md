@@ -145,10 +145,6 @@ More information:
 
 Yes, the voice channel supports emergency calling; agents can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
 
-### What are the applicable pricing scenarios for using the voice channel?
-
-To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
-
 ### Why do my customers sometimes hear "Sorry! We couldn't serve you" when they call the contact center number?
 
 Sometimes, when a Copilot Studio bot isn't added or an agent is unable to answer the call, your customers will hear the message that they couldn't be served. We recommend agents to refresh their presence regularly to ensure their availability to customers. If the problem persists, reconnect your Copilot Studio bot.
