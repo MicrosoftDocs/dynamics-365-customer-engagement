@@ -14,7 +14,7 @@ To enable outbound communication for your channel, you must perform the followin
 
 4. Select the mobile phone icon to trigger the `onclicktoact` event. More information: [Trigger the onclicktoact event](#trigger-the-onclicktoact-event)
 
-## Configure channel provider for outbound communication using Customer Service admin center:
+## Configure channel provider for outbound communication
    
 1. In the site map, select **Workspaces** in **Agent experience**. The **Workspaces** page opens.
     

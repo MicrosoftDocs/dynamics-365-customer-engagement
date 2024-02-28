@@ -4,6 +4,7 @@ description: "Perform the steps to assign roles to users and enable them in Omni
 author: neeranelli
 ms.author: nenellim
 ms.date: 05/05/2023
+ms.topic: article
 ---
 
 # Assign roles and enable users for Omnichannel for Customer Service

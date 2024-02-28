@@ -4,6 +4,7 @@ description: "Learn how to configure channel providers using the Customer Servic
 author: gandhamm
 ms.author: mgandham
 ms.date: 02/22/2023
+ms.topic: article
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -26,7 +27,7 @@ More information:
 
 ## Configure a third-party channel provider
 
-1. To configure, perform the following steps in [Customer Service admin center](#tab/customerserviceadmincenter)
+1. To configure, perform the following steps in Customer Service admin center:
    
     1. In the site map, select **Workspaces** in **Agent experience**. The **Workspaces** page opens.
     
