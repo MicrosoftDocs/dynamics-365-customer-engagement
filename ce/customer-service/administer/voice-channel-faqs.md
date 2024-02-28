@@ -40,10 +40,6 @@ To register as a calling provider is a legally complex and country- or region-sp
 
 An alternative to Microsoft calling plans is Azure direct routing that allows you to bring your own phone numbers. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
 
-### What are the applicable pricing scenarios for using the voice channel?
-
-To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](https://learn.microsoft.com/dynamics365/customer-service/administer/voice-channel-pricing-scenarios).
-
 ### What about countries or regions where Azure Communication Services doesn't provide native PSTN services?
 
 Azure Communication Services is available worldwide, even if it isn't acting as the calling provider in certain countries or regions. For these countries or regions, Azure Communication Services provides a direct routing for local carriers, such as AT&T and Verizon, to connect to Azure Communication Services. With this mechanism, you'll still be able to deploy and use all the features of the voice channel in Dynamics 365.
@@ -59,6 +55,10 @@ Yes, you can bring your existing numbers to Omnichannel for Customer Service in 
 - **Import numbers to Omnichannel for Customer Service**
     1. You must first port your existing phone numbers to Azure Communication Services. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
     2. You can then import the phone numbers from Azure Communication Services to Omnichannel for Customer Service. More information: [Sync from Azure Communication Services](voice-channel-sync-from-acs.md)
+
+### What are the applicable pricing scenarios for using the voice channel?
+
+To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](/customer-service/administer/voice-channel-pricing-scenarios).
 
 - **Configure Azure direct routing**
     1. Configure a Session Border Controller (SBC) that's connected to your local carrier with Azure Communication Services.
