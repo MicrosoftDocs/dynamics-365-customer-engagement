@@ -58,7 +58,7 @@ Yes, you can bring your existing numbers to Omnichannel for Customer Service in 
 
 ### What are the applicable pricing scenarios for using the voice channel?
 
-To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](/customer-service/administer/voice-channel-pricing-scenarios).
+To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
 
 - **Configure Azure direct routing**
     1. Configure a Session Border Controller (SBC) that's connected to your local carrier with Azure Communication Services.
