@@ -82,8 +82,7 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. [Ask Copilot to summarize a lead](#summarize-a-lead-or-opportunity).
 
-    If Copilot finds possible matching contact records, it lists them after the summary. Copilot tries to match the lead with contacts based on the lead name, phone number, email address, and company name. The matches are ordered based on the similarity of values in these fields. If you'd like Copilot to use other fields for matching, work with your administrator to [configure the Dataverse search fields](/power-platform/admin/configure-relevance-search-organization). Note that the fields configured by your administrator are used for all global search operations (Search box in the top navigation bar) in Dynamics 365.
-    
+    If Copilot finds possible matching contact records, it lists them after the summary. [How does Copilot match leads with contacts and can I customize the matching fields?](sales-copilot-faq.md#how-does-copilot-match-leads-with-contacts-and-can-i-customize-the-matching-fields)
 
 1. Select **Connect** to connect the lead with a matching record.
 
