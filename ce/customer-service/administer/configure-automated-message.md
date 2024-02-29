@@ -62,7 +62,10 @@ You can customize messages across instances within a channel. For example, you c
 
 ## Customize automated messages at the channel instance level
 
-You can customize automated messages at the channel instance level. For example, you can apply a change to a specific Facebook account or a specific SMS number. If you don't create customized automated messages at the channel instance level, each instance will inherit the channel-level settings. If you create customized automated messages at the channel instance level, then the channel-level settings are overwritten.
+You can customize automated messages at the channel instance level. For example, you can apply a change to a specific Facebook account or a specific SMS number. If you don't create customized automated messages at the channel instance level, each instance inherits the channel-level settings.
+
+> [!IMPORTANT]
+> If you create customized automated messages at the channel instance level, then the channel-level settings are overwritten.
 
 ### Add custom automated messages
 
