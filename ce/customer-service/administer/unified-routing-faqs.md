@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service.
-ms.date: 11/08/2023
+ms.date: 02/29/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -70,6 +70,10 @@ Yes, unified routing supports routing activities, including email.
 ### What happens to my existing queues after I migrate to unified routing?
 
 The existing queues will be automatically migrated to unified routing.
+
+### Why aren't the records being routed after unified routing is enabled?
+
+Verify whether you have [configured an intake rule](set-up-record-routing.md#configure-intake-rules) and mapped it to a basic routing rule that's active.
 
 ### Can I route any record type by using basic routing?
 

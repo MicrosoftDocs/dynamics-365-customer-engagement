@@ -37,7 +37,7 @@ If you have Dynamics 365 Customer Service only, then the options to configure un
 You must complete all the steps in this section to route records using unified routing.
 
 > [!NOTE]
-> After you enable unified routing, the active basic routing rule won't route records until you configure unified routing. For a workaround, see [Cases aren't being routed after unified routing is enabled](/troubleshoot/dynamics-365/customer-service/unified-routing/basic-routing-not-working).
+> After you enable unified routing, the active basic routing rule won't route records until you configure intake rules.
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps:
    
@@ -104,9 +104,11 @@ Perform the following steps:
 
 1. Select the workstream that you configured for routing records, such as the case.
 
-2. In the **Intake rules** area, select **Create rule**.
+1. In the **Intake rules** area, select **Create rule**.
 
-3. In the **Create intake rule** dialog, enter a name and define the conditions for the rule. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule. You can define conditions for up to two levels of the related records and attributes.
+1. In the **Create intake rule** dialog, enter a name and define the conditions for the rule. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule. You can define conditions for up to two levels of the related records and attributes.
+
+1. You can map the intake rule to a workstream or a basic routing rule that's active.
 
    :::image type="content" source="../media/ur-intake-rule.png" alt-text="Define conditions for an intake rule.":::
 
