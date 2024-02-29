@@ -82,7 +82,7 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. [Ask Copilot to summarize a lead](#summarize-a-lead-or-opportunity).
 
-    If Copilot finds possible matching records, it lists them after the summary.
+    If Copilot finds possible matching contact records, it lists them after the summary. [How does Copilot match leads with contacts and can I customize the matching fields?](sales-copilot-faq.md#how-does-copilot-match-leads-with-contacts-and-can-i-customize-the-matching-fields)
 
 1. Select **Connect** to connect the lead with a matching record.
 
