@@ -134,130 +134,6 @@
           href: faq-agent-experience-profile.md
       - name: Workforce management
         items:
-        - name: Troubleshoot and FAQs
-          href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Check your contact center health
-          href: check-contact-center-health.md
-      - name: Manage roles and personas
-        items: 
-        - name: Manage users
-          href: users-user-profiles.md
-        - name: Manage capacity profiles
-          href: capacity-profiles.md
-        - name: Manage personas and custom security roles
-          href: role-persona-mapping.md
-        - name: Delete historical data of agent capacity updates
-          href: manage-historical-data-capacity-updates.md
-      - name: Unified routing and assignment
-        items:
-        - name: Overview of unified routing
-          href: overview-unified-routing.md
-        - name: How to set up unified routing
-          href: set-up-routing-process.md
-        - name: Create and manage workstreams
-          href: create-workstreams.md
-        - name: Create and manage queues for unified routing
-          href: queues-omnichannel.md
-        - name: Configure work classification
-          items:  
-          - name: Configure work classification rules
-            href: configure-work-classification.md
-          - name: Configure route-to-queue rules
-            href: configure-route-to-queue-rules.md
-        - name: Assignment methods for queues
-          items:  
-          - name: Assignment methods in unified routing
-            href: assignment-methods.md
-          - name: Configure assignment methods for queues
-            href: configure-assignment-rules.md
-          - name: Configure routing to preferred agents
-            href: configure-preferred-agent.md
-          - name: Manage overflow of work items in queues
-            href: manage-overflow.md
-        - name: Set up record routing
-          items:
-          - name: Provision unified routing for Customer Service
-            href: provision-unified-routing.md
-          - name: Set up unified routing for records
-            href: set-up-record-routing.md
-          - name: Enable tables for queues in unified routing
-            href: enable-entities-for-queues.md
-          - name: Automatically route records using custom flow
-            href: routing-trigger-automatic.md
-          - name: Set up unified routing for email records
-            href: configure-routing-for-email-records.md
-        - name: Set up skill-based routing
-          items: 
-          - name: Overview of skill-based routing
-            href: overview-skill-work-distribution.md
-          - name: Set up skills, create rating model, assign skills to agents
-            href: setup-skills-assign-agents.md
-          - name: Enable agents to update skills
-            href: allow-agents-update-skills.md
-          - name: Set up skill-based routing in unified routing
-            href: set-up-skill-based-routing.md
-          - name: Set up intelligent skill finder model in unified routing
-            href: set-up-isf-model.md
-        - name: Model data tables as skills
-          href: model-tables-as-skills-ur.md
-        - name: Use sentiment prediction-based routing
-          href: use-sentiment-prediction-for-routing.md
-        - name: Use effort estimation model for routing
-          href: use-effort-estimation-for-routing.md
-        - name: Configure basic routing
-          items:
-            - name: Create and manage queues for cases
-              href: set-up-queues-manage-activities-cases.md
-            - name: Route cases using basic rulesets
-              href: create-rules-automatically-route-cases.md
-        - name: View diagnostics for unified routing
-          href: unified-routing-diagnostics.md
-        - name: Manage routing diagnostics data
-          href: manage-routing-diagnostics-data.md
-        - name: Use best practices to set up unified routing
-          href: unified-routing-best-practices.md
-        - name: FAQ about unified routing
-          href: unified-routing-faqs.md
-      - name: Agent experience profiles for Customer Service
-        items: 
-        - name: Overview of agent experience profiles
-          href: overview.md
-        - name: Roles and permissions
-          href: security-roles.md
-        - name: Create and use agent experience profiles
-          href: create-agent-experience-profile.md
-        - name: Add users to agent experience profiles
-          href: add-profile-default.md
-        - name: Configure the inbox for agents
-          href: configure-inbox.md     
-        - name: Templates
-          items: 
-          - name: Manage session templates
-            href: session-templates.md
-          - name: Manage application tab templates
-            href: application-tab-templates.md
-          - name: Manage notification templates
-            href: notification-templates.md
-          - name: Associate templates with workstreams
-            href: associate-templates.md
-        - name: Productivity tools
-          items: 
-          - name: Overview of productivity tools
-            href: productivity-tools.md
-          - name: Manage smart assist
-            href: smart-assist.md
-          - name: Manage agent scripts
-            href: agent-scripts.md
-          - name: Manage macros
-            href: macros.md
-          - name: Manage custom productivity tools
-            href: manage-custom-productivity-tools.md
-          - name: Use automation dictionary to pass parameters keys
-            href: automation-dictionary-keys.md
-          - name: FAQ about adding users to agent experience profile
-            href: faq-agent-experience-profile.md
-      - name: Workforce management
-        items:
         - name: Configure the agent calendar view
           href: configure-agent-calendar.md 
         - name: Configure routing based on agent calendar (preview)
@@ -926,45 +802,45 @@
             href: plan-migration.md
           - name: Migrate service scheduling
             href: migrate-entity-records.md
-        - name: Migration FAQ
-          items: 
+      - name: Migration FAQ
+        items: 
           - name: FAQ on migration from Omnichannel for Customer Service app
             href: migrate-oc-faq.md
           - name: FAQ on Migration tool for automatic record creation rules and SLAs
             href: migrate-tool-faqs.md
-      - name: Audit
-        items:
-        - name: Search Customer Service admin logs in Microsoft Purview
-          href: enable-audit-tables.md
-      - name: Known issues in Customer Service and Omnichannel for Customer Service
-        href: https://go.microsoft.com/fwlink/p/?linkid=2165393
-      - name: FAQ about Customer Service admin center
-        href: faq-customer-service-admin-center.md
-      - name: FAQ about Omnichannel for Customer Service
-        href: faqs.md
-    - name: Responsible AI
+    - name: Audit
       items:
-        - name: Overview
-          href: ../implement/responsible-ai-overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Responsible AI FAQ for Copilot in Customer Service
-          href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-    - name: Resources
-      items:
-        - name: Training
-          href: /training/dynamics365/customer-service
-        - name: Support
-          href: /dynamics365/get-started/support/
-        - name: Blog
-          href: https://cloudblogs.microsoft.com/dynamics365/it/product/dynamics-365-customer-service
-        - name: Community
-          href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
-    - name: Implement Dynamics 365 Customer Service
-      href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
-    - name: Manage your contact center
-      href: ../use/supervisor-historical-analytics.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-    - name: Develop Dynamics 365 Customer Service
-      href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
-    - name: Dynamics 365 Channel Integration Framework
-      href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
-    - name: Unified Service Desk
-      href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Search Customer Service admin logs in Microsoft Purview
+        href: enable-audit-tables.md
+    - name: Known issues in Customer Service and Omnichannel for Customer Service
+      href: https://go.microsoft.com/fwlink/p/?linkid=2165393
+    - name: FAQ about Customer Service admin center
+      href: faq-customer-service-admin-center.md
+    - name: FAQ about Omnichannel for Customer Service
+      href: faqs.md
+  - name: Responsible AI
+    items:
+    - name: Overview
+      href: ../implement/responsible-ai-overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Responsible AI FAQ for Copilot in Customer Service
+      href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Resources
+    items:
+    - name: Training
+      href: /training/dynamics365/customer-service
+    - name: Support
+      href: /dynamics365/get-started/support/
+    - name: Blog
+      href: https://cloudblogs.microsoft.com/dynamics365/it/product/dynamics-365-customer-service
+    - name: Community
+      href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
+  - name: Implement Dynamics 365 Customer Service
+    href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Manage your contact center
+    href: ../use/supervisor-historical-analytics.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Develop Dynamics 365 Customer Service
+    href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Dynamics 365 Channel Integration Framework
+    href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Unified Service Desk
+    href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
