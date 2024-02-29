@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 02/02/2023
+ms.date: 03/04/2023
 ms.custom: bap-template
 ---
 # Manage voicemails
@@ -24,7 +24,7 @@ You can view the voicemails in one of the following ways:
 
 You can do the following tasks for the voicemail that you open:
 
-- **Regarding**: Set the regarding of the voicemail.
+- **Regarding**: Set the regarding of the voicemail. If you create a case from the voicemail, the application displays the case in this field.
 - **Customer**: If the customer isn't automatically identified, set the customer of the voicemail.
 - **Save**: Save changes to the voicemail. Some settings require an explicit save action.
 - **Close Voicemail**: Moves the voicemail to the closed state.
