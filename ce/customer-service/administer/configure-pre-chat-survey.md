@@ -3,7 +3,7 @@ title: Configure a pre-conversation survey
 description: Configure a pre-conversation survey in Customer Service admin center to ask customers questions before they start a conversation.
 author: neeranelli
 ms.author: nenellim
-ms.date: 02/06/2024
+ms.date: 02/29/2024
 ms.topic: how-to
 ms.collection:
 ms.reviewer:

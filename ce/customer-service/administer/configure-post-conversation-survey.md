@@ -1,7 +1,7 @@
 ---
 title: Configure post-conversation survey
 description: Learn how to configure a post-conversation survey in Omnichannel for Customer Service.
-ms.date: 02/06/2024
+ms.date: 02/29/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

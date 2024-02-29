@@ -1,7 +1,7 @@
 ---
 title: "Delete a configured channel or page to stop receiving messages | MicrosoftDocs"
 description: "Deactivate or delete a channel to turn off and stop receiving messages on the channel in Omnichannel for Customer Service."
-ms.date: 02/06/2024
+ms.date: 02/29/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
