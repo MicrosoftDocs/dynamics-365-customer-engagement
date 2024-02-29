@@ -1,7 +1,7 @@
 ---
 title: "Configure a LINE channel | MicrosoftDocs"
 description: "Instructions to configure a LINE channel in Omnichannel for Customer Service."
-ms.date: 06/17/2022
+ms.date: 02/29/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -93,78 +93,6 @@ After completing the prerequisites, you can add the LINE channel for your organi
    - [Smart assist bots](../develop/smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-#### Create a LINE channel in Omnichannel Administration
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-1.	Go to **Channels** > **LINE**.
-
-2.	Select **New** to create a LINE channel.
-
-3.	On the **New LINE Application** page, provide the following account details:
-
-    - **Name**: Name of the LINE application. 
-
-    - **Channel ID**: ID of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Basic settings**, and then copy the value in the **Channel ID** field.
-
-    - **Channel secret**: Application secret of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Basic settings**, and then copy the value in the **Channel secret** field.
-    
-    - **Channel access token**: Token of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Messaging API**, and then copy the value in the **Channel access token (long-lived)** field.
-    
-    - **Enable Webhooks**: Webhooks in the LINE application must be enabled. Go to the [LINE account manager](https://manager.line.biz/account/) > **Settings** > **Response settings**. Under **Main settings**, select **Bot** for **Response mode**, and then under **Detailed Settings**, select **Enabled** for **Webhooks**.
-
-4. Browse to and select the out-of-the-box work stream for the LINE channel, and then select **Save**. After you save the record, the **LINE** channel is enabled. The Callback URL has been created. The next step is to save it.
-
-   To create a work stream, see [Create work streams](../work-streams-introduction.md).
- 
-5. The Callback URL might take a few minutes to generate. Select **Refresh**.
-
-6. Go to the the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (make sure it's a Messaging API) > **Messaging API**. Copy the **Webhook URL** from Omnichannel for Customer Service, and then paste it into the **Webhook URL** field in the LINE developer console.
-
-7. Make sure that **Use webhook** is enabled in the LINE app dashboard.
- 
-   > More information about the LINE app: [Setting up your LINE app](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
-
-8. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
-    
-9. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
-
-The LINE channel setup is complete.
-> [!NOTE]
-> You can only add one **LINE account** per **LINE Application** channel.
-
-#### Modify settings for a specific LINE account
-
-1. In the Omnichannel Administration app, go to your LINE application and select the LINE account you want to modify. 
-
-2. On the **General settings** tab, provide the following information:
-    
-    - **Language**: Select the preferred language for your LINE account.
-    
-    - **Work stream**: Select an existing work stream or create a new one.
-
-    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set to **No**. 
-
-    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app sends the blob storage URL to the channel. Otherwise, set to **No**. 
-    
-       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
-       
-       To learn more about uploading media in LINE, see [LINE developer documentation](https://developers.line.biz/en/docs/messaging-api/message-types/).
-
-3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
-    
-4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
-
-
-#### Create routing rules
-
-1.	Go to **Work Distribution Management** > **Work Streams**.
-
-2.	Open the out-of-the-box work stream or the one you created.
-
-3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **LINE Engagement Context**. For example, you can create a rule to transfer LINE chat from a customer named LINE to the default queue.
-
-
 ## Customer and agent experiences
 
 A customer can initiate a conversation in any of the following ways:
@@ -192,7 +120,6 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 [Understand and create workstreams](create-workstreams.md)  
 [Configure automated messages](configure-automated-message.md)  
 [Configure a post-conversation survey](configure-post-conversation-survey.md)  
-[Create and manage routing rules](../routing-rules.md)  
 [Delete a configured channel](delete-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 

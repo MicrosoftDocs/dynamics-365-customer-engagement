@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in Dynamics 365 apps
 description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, and enrich your leads with data from different sources.
-ms.date: 12/18/2023
+ms.date: 02/29/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -16,6 +16,7 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
 ---
 
 # Use Copilot in Dynamics 365 apps
@@ -35,10 +36,9 @@ Your admin has [turned on and set up Copilot](enable-setup-copilot.md).
 
 ## Open Copilot
 
-1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) on the right side of your app. 
+1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app. 
 
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with.
-
 
 ## Chat with Copilot
 
