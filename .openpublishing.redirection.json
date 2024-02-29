@@ -41,6 +41,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/create-queues-oca.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/create-queues-oca",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/create-workstreams-oca.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/create-workstreams-oca",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/customer-service/customer-service-hub-user-guide-manage-timeline-activities.md",
       "redirect_url": "/power-apps/user/add-activities",
       "redirect_document_id": false
@@ -83,6 +93,11 @@
     {
       "source_path": "ce/customer-service/routing-rules.md",
       "redirect_url": "/previous-versions/dynamics365/customer-service/routing-rules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/routing-work-distribution-oca.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/routing-work-distribution-oca",
       "redirect_document_id": false
     },
     {
