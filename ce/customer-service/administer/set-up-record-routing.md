@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for records
 description: Use this article to understand how to set up unified routing for records in Customer Service.
-ms.date: 02/02/2024
+ms.date: 02/29/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -34,10 +34,10 @@ If you have Dynamics 365 Customer Service only, then the options to configure un
 
 ## Configure unified routing for records
 
-You must complete all the steps in this section for unified routing to route records.
+You must complete all the steps in this section to route records using unified routing.
 
 > [!NOTE]
-> After you enable unified routing, the basic routing rulesets don't work as expected. For a workaround, see [Cases aren't being routed after unified routing is enabled](/troubleshoot/dynamics-365/customer-service/unified-routing/basic-routing-not-working).
+> After you enable unified routing, the active basic routing rule won't route records until you configure unified routing. For a workaround, see [Cases aren't being routed after unified routing is enabled](/troubleshoot/dynamics-365/customer-service/unified-routing/basic-routing-not-working).
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps:
    
@@ -62,7 +62,7 @@ You must complete all the steps in this section for unified routing to route rec
 
 1. In the **Add a record type** dialog, select a record from the **Record type** list, and select **Add**. The record is added and listed on the **Record routing** page.
 
-1. Configure the following:
+1. Configure the following settings:
    1. Workstreams
    1. Intake rules
 
