@@ -16,6 +16,36 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/developer-sp/msdyn_predictivemodelscore.md",
+      "redirect_url": "/dynamics365/sales/developer/entities/msdyn_predictivemodelscore",
+      "redirect_document_id": "false"
+    },
+    
+    {
+      "source_path": "ce/sales/developer-sp/msdyn_predictivescore.md",
+      "redirect_url": "/dynamics365/sales/developer/entities/msdyn_predictivescore",
+      "redirect_document_id": "false"
+    },
+    
+    {
+      "source_path": "ce/sales/developer-sp/msdyn_wkwcolleaguesforcompany.md",
+      "redirect_url": "/dynamics365/sales/developer/entities/msdyn_wkwcolleaguesforcompany",
+      "redirect_document_id": "false"
+    },
+    
+    {
+      "source_path": "ce/sales/developer-sp/msdyn_wkwcolleaguesforcontact.md",
+      "redirect_url": "/dynamics365/sales/developer/entities/msdyn_wkwcolleaguesforcontact",
+      "redirect_document_id": "false"
+    },
+    
+    {
+      "source_path": "ce/sales/developer-sp/msdyn-ConnectSequence-action.md",
+      "redirect_url": "/dynamics365/sales/developer/entities/msdyn-ConnectSequence-action.md",
+      "redirect_document_id": "false"
+    },
+    
+    {
       "source_path": "ce/sales/wa-view-details-segment.md",
       "redirect_url": "/dynamics365/sales/wa-edit-a-segment",
       "redirect_document_id": "false"

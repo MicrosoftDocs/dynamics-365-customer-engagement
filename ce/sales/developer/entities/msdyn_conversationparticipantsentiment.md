@@ -1,7 +1,7 @@
 ---
-title: "msdyn_ConversationParticipantSentiment table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+title: "msdyn_ConversationParticipantSentiment table/entity reference"
 description: "Includes schema information and supported messages for the msdyn_ConversationParticipantSentiment table/entity."
-ms.date: 01/22/2024
+ms.date: 02/27/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c

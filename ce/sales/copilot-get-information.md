@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 01/19/2024
+ms.date: 02/26/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -28,7 +28,9 @@ In the Copilot side pane, select the sparkle icon (:::image type="icon" source="
 
 ## Summarize a lead or opportunity
 
-1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** or **Summarize opportunity**, and select Enter.
+1. [Open Copilot](use-sales-copilot.md#open-copilot).
+
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** or **Summarize opportunity**, and select Enter.
 
     - If you have a record open, Copilot summarizes it.
     - If you're in the grid view, Copilot lists the records you own. Hover over a record and select **Summarize**.
@@ -80,7 +82,7 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. [Ask Copilot to summarize a lead](#summarize-a-lead-or-opportunity).
 
-    If Copilot finds possible matching records, it lists them after the summary.
+    If Copilot finds possible matching contact records, it lists them after the summary. [How does Copilot match leads with contacts and can I customize the matching fields?](sales-copilot-faq.md#how-does-copilot-match-leads-with-contacts-and-can-i-customize-the-matching-fields)
 
 1. Select **Connect** to connect the lead with a matching record.
 

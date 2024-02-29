@@ -173,7 +173,7 @@
         href: sales-copilot-data-movement.md
       - name: Copilot in Dynamics 365 Sales FAQ
         href: sales-copilot-faq.md
-    - name: Configure focused view
+    - name: Overview of focused view
       href: configure-focused-view.md
       items:
       - name: Configure focused view as default
@@ -1191,8 +1191,6 @@
           href: developer/entities/account.md
         - name: BulkOperation
           href: developer/entities/bulkoperation.md
-        - name: BulkOperationLog
-          href: developer/entities/bulkoperationlog.md
         - name: Campaign
           href: developer/entities/campaign.md
         - name: CampaignActivity
@@ -1231,6 +1229,14 @@
           href: developer/entities/msdyn_callablecontext.md
         - name: About Table/Entity Reference
           href: developer/about-entity-reference.md
+        - name: msdyn_assignmentmap
+          href: developer/entities/msdyn_assignmentmap.md
+        - name: msdyn_assignmentrule
+          href: developer/entities/msdyn_assignmentrule.md
+        - name: msdyn_attribute
+          href: developer/entities/msdyn_attribute.md
+        - name: msdyn_attributevalue
+          href: developer/entities/msdyn_attributevalue.md
         - name: msdyn_ConversationActionItem
           href: developer/entities/msdyn_conversationactionitem.md
         - name: msdyn_ConversationAggregatedInsights
@@ -1253,8 +1259,24 @@
           href: developer/entities/msdyn_conversationsystemtag.md
         - name: msdyn_ConversationTag
           href: developer/entities/msdyn_conversationtag.md
+        - name: msdyn_forecastdefinition
+          href: developer/entities/msdyn_forecastdefinition.md
+        - name: msdyn_forecastinstance
+          href: developer/entities/msdyn_forecastinstance.md
+        - name: msdyn_forecastrecurrence
+          href: developer/entities/msdyn_forecastrecurrence.md
         - name: msdyn_ocrecording
           href: developer/entities/msdyn_ocrecording.md
+        - name: msdyn_salesassignmentsetting
+          href: developer/entities/msdyn_salesassignmentsetting.md
+        - name: msdyn_salesroutingrun
+          href: developer/entities/msdyn_salesroutingrun.md
+        - name: msdyn_saruninstance
+          href: developer/entities/msdyn_saruninstance.md
+        - name: msdyn_segment
+          href: developer/entities/msdyn_segment.md
+        - name: msdyn_segmentattribute
+          href: developer/entities/msdyn_segmentattribute.md
         - name: msdyn_SCIConversation
           href: developer/entities/msdyn_sciconversation.md
         - name: msdyn_transcript
@@ -1308,7 +1330,7 @@
         - name: Action Reference
           items:
             - name: msdyn_ConnectSequence
-              href: developer-sp/msdyn-ConnectSequence-action.md
+              href: /dynamics365/sales/developer/entities/msdyn-ConnectSequence-action.md
             - name: msdyn_WKWDeleteGDPRData
               href: developer/reference/custom-actions/msdyn_WKWDeletePrivacyData.md
             - name: msdyn_WKWGDPRDeleteStatus
@@ -1318,13 +1340,13 @@
             - name: Table reference
               href: entity-reference.md
             - name: msdyn_PredictiveScore
-              href: developer-sp/msdyn_predictivescore.md
+              href: developer/entities/msdyn_predictivescore.md
             - name: msdyn_PredictiveModelScore
-              href: developer-sp/msdyn_predictivemodelscore.md
+              href: developer/entities/msdyn_predictivemodelscore.md
             - name: msdyn_wkwcolleaguesforcontact
-              href: developer-sp/msdyn_wkwcolleaguesforcontact.md
+              href: developer/entities/msdyn_wkwcolleaguesforcontact.md
             - name: msdyn_wkwcolleaguesforcompany
-              href: developer-sp/msdyn_wkwcolleaguesforcompany.md
+              href: developer/entities/msdyn_wkwcolleaguesforcompany.md
         - name: Create insight cards using solution
           href: extend-relationship-assistant-card.md
           items:

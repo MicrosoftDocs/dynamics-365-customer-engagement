@@ -1,53 +1,61 @@
 ---
-title: "msdyn_wkwcolleaguesforcontact table/entity reference (Microsoft Dataverse) | Microsoft Docs"
-description: "Includes schema information and supported messages for the msdyn_wkwcolleaguesforcontact table/entity."
-ms.date: 08/11/2022
-ms.service: "powerapps"
+title: msdyn_shiftplan table
+description: Includes schema information and supported messages for the msdyn_shiftplan table.
+ms.date: 01/18/2024
 ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: lavanyakr01
-ms.author: lavanyakr
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - developer
+search.app: 
+  - PowerApps
+  - D365CE
 ---
+# msdyn_shiftplan table
 
-# msdyn_wkwcolleaguesforcontact table/entity reference
-
-> [!NOTE]
-> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
-
-Entity for storing contact introducer
-
-**Added by**: Connection Graph Solution
+**Added by**: Workforce Engagement Management for Customer Service Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_wkwcolleaguesforcontacts<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_wkwcolleaguesforcontacts(*msdyn_wkwcolleaguesforcontactid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_shiftplans(*msdyn_shiftplanid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|BulkRetain|<xref href="Microsoft.Dynamics.CRM.BulkRetain?text=BulkRetain Action" />| Microsoft.Crm.Sdk.Messages.BulkRetainRequest|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_shiftplans<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref href="Microsoft.Dynamics.CRM.CreateMultiple?text=CreateMultiple Action" />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_shiftplans(*msdyn_shiftplanid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_wkwcolleaguesforcontacts(*msdyn_wkwcolleaguesforcontactid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_wkwcolleaguesforcontacts<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_wkwcolleaguesforcontacts(*msdyn_wkwcolleaguesforcontactid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_wkwcolleaguesforcontacts(*msdyn_wkwcolleaguesforcontactid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|PurgeRetainedContent|<xref href="Microsoft.Dynamics.CRM.PurgeRetainedContent?text=PurgeRetainedContent Action" />|Microsoft.Crm.Sdk.Messages.PurgeRetainedContentRequest|
+|Retain|<xref href="Microsoft.Dynamics.CRM.Retain?text=Retain Action" />|Microsoft.Crm.Sdk.Messages.RetainRequest|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_shiftplans(*msdyn_shiftplanid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_shiftplans<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|RollbackRetain|<xref href="Microsoft.Dynamics.CRM.RollbackRetain?text=RollbackRetain Action" />|Microsoft.Crm.Sdk.Messages.RollbackRetainRequest|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_shiftplans(*msdyn_shiftplanid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_shiftplans(*msdyn_shiftplanid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref href="Microsoft.Dynamics.CRM.UpdateMultiple?text=UpdateMultiple Action" />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+|ValidateRetentionConfig|<xref href="Microsoft.Dynamics.CRM.ValidateRetentionConfig?text=ValidateRetentionConfig Action" />|Microsoft.Crm.Sdk.Messages.ValidateRetentionConfigRequest|
 
 ## Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_wkwcolleaguesforcontacts|
-|DisplayCollectionName|wkwcolleaguesforcontacts|
-|DisplayName|wkwcolleaguesforcontact|
-|EntitySetName|msdyn_wkwcolleaguesforcontacts|
+|CollectionSchemaName|msdyn_shiftplans|
+|DisplayCollectionName|Shift Plans|
+|DisplayName|Shift Plan|
+|EntitySetName|msdyn_shiftplans|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_wkwcolleaguesforcontacts|
-|LogicalName|msdyn_wkwcolleaguesforcontact|
-|OwnershipType|OrganizationOwned|
-|PrimaryIdAttribute|msdyn_wkwcolleaguesforcontactid|
-|PrimaryNameAttribute|msdyn_introducer_emailaddress|
-|SchemaName|msdyn_wkwcolleaguesforcontact|
+|LogicalCollectionName|msdyn_shiftplans|
+|LogicalName|msdyn_shiftplan|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|msdyn_shiftplanid|
+|PrimaryNameAttribute|msdyn_name|
+|SchemaName|msdyn_shiftplan|
 
 <a name="writable-attributes"></a>
 
@@ -56,15 +64,11 @@ Entity for storing contact introducer
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_introduced_entity_id](#BKMK_msdyn_introduced_entity_id)
-- [msdyn_introducer_emailaddress](#BKMK_msdyn_introducer_emailaddress)
-- [msdyn_introducer_systemuserid](#BKMK_msdyn_introducer_systemuserid)
-- [msdyn_last_interaction_dataflow](#BKMK_msdyn_last_interaction_dataflow)
-- [msdyn_last_interaction_datetime](#BKMK_msdyn_last_interaction_datetime)
-- [msdyn_last_interaction_type](#BKMK_msdyn_last_interaction_type)
-- [msdyn_score](#BKMK_msdyn_score)
-- [msdyn_wkwcolleaguesforcontactId](#BKMK_msdyn_wkwcolleaguesforcontactId)
+- [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_shiftplanId](#BKMK_msdyn_shiftplanId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
+- [OwnerId](#BKMK_OwnerId)
+- [OwnerIdType](#BKMK_OwnerIdType)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
@@ -88,125 +92,32 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_introduced_entity_id"></a> msdyn_introduced_entity_id
+### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
 |--------|-----|
 |Description||
-|DisplayName|Introduced Entity Id|
+|DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_introduced_entity_id|
+|LogicalName|msdyn_name|
 |MaxLength|100|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_introducer_emailaddress"></a> msdyn_introducer_emailaddress
-
-|Property|Value|
-|--------|-----|
-|Description|The name of the custom entity.|
-|DisplayName|Introducer Email Address|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_introducer_emailaddress|
-|MaxLength|200|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_introducer_systemuserid"></a> msdyn_introducer_systemuserid
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Introducer systemuserid|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_introducer_systemuserid|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_last_interaction_dataflow"></a> msdyn_last_interaction_dataflow
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Last Interaction Data flow|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_last_interaction_dataflow|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_last_interaction_datetime"></a> msdyn_last_interaction_datetime
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description||
-|DisplayName|Last Interaction datetime|
-|Format|DateAndTime|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_last_interaction_datetime|
-|RequiredLevel|None|
-|Type|DateTime|
-
-
-### <a name="BKMK_msdyn_last_interaction_type"></a> msdyn_last_interaction_type
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Last Interaction type|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_last_interaction_type|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_score"></a> msdyn_score
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|score|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_score|
-|MaxValue|100000000000|
-|MinValue|-100000000000|
-|Precision|2|
-|RequiredLevel|ApplicationRequired|
-|Type|Decimal|
-
-
-### <a name="BKMK_msdyn_wkwcolleaguesforcontactId"></a> msdyn_wkwcolleaguesforcontactId
+### <a name="BKMK_msdyn_shiftplanId"></a> msdyn_shiftplanId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|msdyn_wkwcolleaguesforcontact|
+|DisplayName|Shift Plan|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_wkwcolleaguesforcontactid|
+|LogicalName|msdyn_shiftplanid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
@@ -227,11 +138,42 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|DateTime|
 
 
+### <a name="BKMK_OwnerId"></a> OwnerId
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Owner Id|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
+
+
+### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Owner Id Type|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
+
+
 ### <a name="BKMK_statecode"></a> statecode
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the msdyn_wkwcolleaguesforcontact|
+|Description|Status of the Shift Plan|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -253,7 +195,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the msdyn_wkwcolleaguesforcontact|
+|Description|Reason for the status of the Shift Plan|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -321,10 +263,12 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_introducer_systemuseridName](#BKMK_msdyn_introducer_systemuseridName)
-- [msdyn_introducer_systemuseridYomiName](#BKMK_msdyn_introducer_systemuseridYomiName)
-- [OrganizationId](#BKMK_OrganizationId)
-- [OrganizationIdName](#BKMK_OrganizationIdName)
+- [OwnerIdName](#BKMK_OwnerIdName)
+- [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
+- [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
+- [OwningBusinessUnitName](#BKMK_OwningBusinessUnitName)
+- [OwningTeam](#BKMK_OwningTeam)
+- [OwningUser](#BKMK_OwningUser)
 - [VersionNumber](#BKMK_VersionNumber)
 
 
@@ -566,70 +510,106 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
-### <a name="BKMK_msdyn_introducer_systemuseridName"></a> msdyn_introducer_systemuseridName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_introducer_systemuseridname|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_introducer_systemuseridYomiName"></a> msdyn_introducer_systemuseridYomiName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_introducer_systemuseridyominame|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_OrganizationId"></a> OrganizationId
+### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for the organization|
-|DisplayName|Organization Id|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|organizationid|
-|RequiredLevel|None|
-|Targets|organization|
-|Type|Lookup|
-
-
-### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
+|Description|Name of the owner|
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|organizationidname|
+|LogicalName|owneridname|
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
 |Type|String|
+
+
+### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Yomi name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
+
+
+### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the business unit that owns the record|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
+
+
+### <a name="BKMK_OwningBusinessUnitName"></a> OwningBusinessUnitName
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunitname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
+
+
+### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the team that owns the record.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
+
+
+### <a name="BKMK_OwningUser"></a> OwningUser
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the user that owns the record.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
@@ -648,3 +628,11 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |RequiredLevel|None|
 |Type|BigInt|
 
+
+### See also
+
+[Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
+[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
