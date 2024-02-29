@@ -1,6 +1,116 @@
 {
   "redirections": [
     {
+      "source_path": "ce/app-profile-manager/create-app-profiles-powerapps.md",
+      "redirect_url": "/dynamics365/customer-service/administer/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/csw-enable-channels.md",
+      "redirect_url": "/dynamics365/customer-service/administer/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/app-profile-manager.md",
+      "redirect_url": "/dynamics365/customer-service/administer/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/chat-dynamics365-customer-service-demo-data.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/implement/chat-dynamics365-customer-service-demo-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/analytics-insights-cs.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/analytics-insights-cs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/attach-skills.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/attach-skills",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/configure-cs.md",
+      "redirect_url": "/dynamics365/customer-service/implement/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/configure-live-chat.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/configure-live-chat",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/create-queues-oca.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/create-queues-oca",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/create-workstreams-oca.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/create-workstreams-oca",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-manage-timeline-activities.md",
+      "redirect_url": "/power-apps/user/add-activities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/entity-channel.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/entity-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/find-knowledge-articles-within-record-dynamics-365.md",
+      "redirect_url": "/dynamics365/customer-service/use/overview-knowledge-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/legacy-scheduling.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/legacy-scheduling",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/multiple-ws-entity-record-routing.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/multiple-ws-entity-record-routing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/oc-admin-center.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/oc-admin-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/omnichannel-administrator.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/omnichannel-administrator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/omnichannel-agent-overview.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/omnichannel-agent-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/routing-rules.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/routing-rules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/routing-work-distribution-oca.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/routing-work-distribution-oca",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/set-up-entity-workstream.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/set-up-entity-workstream",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/user-guide-customer-service.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/user-guide-customer-service",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/social-engagement/eol/discontinuation-faq.yml",
       "redirect_url": "/dynamics365/",
       "redirect_document_id": "false"
