@@ -36,7 +36,7 @@ In the Customer Service admin center or Omnichannel admin center (deprecated) ap
 - **Chat widget:** Add the operating hour record on the **Chat widget** tab.
 - **SMS channels:** Add the operating hour record on the **Behaviors** tab of the channel instance that can be accessed through the corresponding workstream.
 
-When operating hours are in effect, work items during non-business hours are handled based on the [overflow action that is set in overflow handling](manage-overflow.md#configure-overflow-conditions).
+When operating hours are in effect, work items during non-business hours are handled based on the [overflow conditions for before a work item is queued](manage-overflow.md#configure-overflow-conditions-for-before-a-work-item-is-queued)
 
 ## Create a record to define operating hours
 
