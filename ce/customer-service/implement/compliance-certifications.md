@@ -11,13 +11,13 @@ ms.collection:
 ---
 # Compliance certifications of Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Refer to the Microsoft Dynamics 365 [Cloud services compliance](https://aka.ms/d365-compliance-list) document and [Service Trust Portal](https://servicetrust.microsoft.com/) for information about the **Omnichannel for Customer Service** compliance certifications.
 
 ### See also
 
-[Prerequisites and system requirements of Omnichannel for Customer Service](implement/system-requirements-omnichannel.md)
+[Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
