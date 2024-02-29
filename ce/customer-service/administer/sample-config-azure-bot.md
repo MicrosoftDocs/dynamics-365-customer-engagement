@@ -22,7 +22,7 @@ In this sample configuration, three queues and three routing rules are created. 
 
 3. [Add a context variable](manage-context-variables.md#add-context-variables). Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
 
-4. [Create the following routing rules](../routing-rules.md) in the **ChatWorkStream** workstream in this order:
+4. Create the following routing rules in the **ChatWorkStream** workstream in this order:
     - **BotRule**: Specify the workstream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query to bot.](../media/bot-rule.png "Create a rule to send customer query to bot")

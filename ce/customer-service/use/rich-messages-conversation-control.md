@@ -60,7 +60,6 @@ The following rich messages support admin-enabled customization:
 [Retrieve and format rich messages](../develop/reference/methods/message-object.md)  
 [Manage rich messages](../administer/create-rich-messages.md)  
 [Understand and create workstreams](../work-streams-introduction.md)  
-[Create and manage routing rules](../routing-rules.md)  
 [Configure automated messages](../administer/configure-automated-message.md)  
 [Configure a post-conversation survey](../administer/configure-post-conversation-survey.md)  
 [Skill-based routing](../administer/overview-skill-work-distribution.md)  

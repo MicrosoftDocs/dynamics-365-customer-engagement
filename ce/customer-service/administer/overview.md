@@ -36,11 +36,10 @@ For existing orgs, only steps 4 and 5 are required.
 
 Thereafter, users with the required agent or supervisor role will be able to see and use the settings that are made available through the assigned agent experience profile. If you don't assign an agent experience profile, by default, the out-of-the-box agent experience profile will be assigned.
 
-You can create and manage agent experience profiles in the [Customer Service admin center app](create-agent-experience-profile.md) or in [Power Apps](../../app-profile-manager/create-app-profiles-powerapps.md).
+You can create and manage agent experience profiles in the [Customer Service admin center app](create-agent-experience-profile.md).
 
 ### See also
 [Create and use agent experience profiles](create-agent-experience-profile.md)    
-[Create app profiles](../../app-profile-manager/create-app-profiles-powerapps.md)  
 [System requirements](../implement/customer-service-workspace-system-requirements.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

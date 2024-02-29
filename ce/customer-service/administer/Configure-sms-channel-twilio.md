@@ -1,7 +1,7 @@
 ---
 title: Configure an SMS channel for Twilio
 description: Learn how to configure an SMS channel for Twilio in Omnichannel for Customer Service.
-ms.date: 10/25/2023
+ms.date: 02/29/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -128,61 +128,6 @@ For an outgoing message sent by an agent from within Dynamics 365, the message i
 
 When you validate the SMS settings while setting up the SMS channel, a call is made to Twilio to validate the Account SID and Auth Token.
 
-#### Configure the SMS for Twilio channel in the Omnichannel Administration app
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-The information in this section isn't applicable if you're using the new Omnichannel admin center app in the latest version of Omnichannel for Customer Service.
-
-Perform the following steps to create a work stream for the SMS channel for Twilio:
-
-1. In Omnichannel Administration, go to **Work Streams** under **Work Distribution Management**.
-
-2. Select **New**. The **New Work Stream** page appears.
-
-3. In the **General information** area, enter the following details:
-
-    - **Channel**: Select **SMS**.
-    - **Auto-close after inactivity**: Select a value that indicates a duration of eight hours or longer.
-    - **Allow automated messages**: Specify **Yes** to be able to define the business hours.
-
-4. In **Work distribution**, specify the necessary details. More information: [Create a work stream](../work-streams-introduction.md#create-a-work-stream)
-
-5. On the **SMS Settings** tab, enter the following details:
-
-    - **SMS Provider**: Select **Twilio**.
-    - **Account SID**: Enter the Twilio ACCOUNT SID.
-    - **Auth Token**: Enter the Twilio AUTH TOKEN.
-
-6. Select **Save**. The **Twilio inbound URL** is generated and displayed.
-
-7. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
-
-    - **Number**: Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
-    - **SMS number language**: The preferred language that's used when you configure automated messages on the **Automated messages** tab. 
-    - **Type**: Select **Long code**, **Short code**, or **Toll free**.
-    - **Description**: Specify a description for the number. (Optional) 
-    - **Operating Hours**: Specify the business hours when the customer support team is active and available to serve customers.
-
-    > [!NOTE]
-    > You can configure only one phone number per workstream.
-
-8. Select **Save**.
-
-9. (Optional). On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
-
-10. (Optional). On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
-
-11. On the command bar, select **Validate API Key**. The Twilio account and phone number are validated.
-
-12. Configure the routing rules on the **Routing rule items** tab. The routing rule for SMS works on **Mobile Phone** of the **Contact** entity. The customer is identified based on **Mobile Phone**, and the conversation is automatically linked to the contact record.
-
-    > [!NOTE]
-    > To configure routing rules and other options in the workstream for Twilio, see the following:
-    > - [Skill-based routing](overview-skill-work-distribution.md)
-    > - [Productivity tools](productivity-tools.md)
-    > - [Smart assist](smart-assist.md)
-    > - [Templates](/dynamics365/app-profile-manager/templates-overview)
 
 ### See also
 
