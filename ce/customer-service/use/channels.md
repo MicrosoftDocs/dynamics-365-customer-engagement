@@ -92,7 +92,5 @@ To learn more, see [Configure Microsoft Teams](../administer/configure-microsoft
 
 If you want to help your customers using standard entity records such as incident, quote, campaign, and so on, you can use the entity records channel.
 
-To learn more, see [Entity records channel](../entity-channel.md).
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
