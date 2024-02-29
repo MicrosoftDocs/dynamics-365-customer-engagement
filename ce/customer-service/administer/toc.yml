@@ -132,12 +132,12 @@
           href: automation-dictionary-keys.md
         - name: FAQ about adding users to agent experience profile
           href: faq-agent-experience-profile.md
-      - name: Workforce management
-        items:
-        - name: Configure the agent calendar view
-          href: configure-agent-calendar.md 
-        - name: Configure routing based on agent calendar (preview)
-          href: configure-routing-on-agent-calendar.md
+    - name: Workforce management
+      items:
+      - name: Configure the agent calendar view
+        href: configure-agent-calendar.md 
+      - name: Configure routing based on agent calendar (preview)
+        href: configure-routing-on-agent-calendar.md
     - name: Community
       items:
       - name: Overview of Community
