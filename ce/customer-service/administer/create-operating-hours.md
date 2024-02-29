@@ -1,10 +1,13 @@
 ---
-title: Create and manage operating hours | MicrosoftDocs
+title: Create and manage operating hours
 description: Perform the steps mentioned in the article to create, manage, and define operating hours in Omnichannel for Customer Service.
 ms.date: 02/06/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer:
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Create and manage operating hours

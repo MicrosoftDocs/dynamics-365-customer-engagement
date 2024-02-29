@@ -1,53 +1,60 @@
 ---
-title: "msdyn_wkwcolleaguesforcontact table/entity reference (Microsoft Dataverse) | Microsoft Docs"
-description: "Includes schema information and supported messages for the msdyn_wkwcolleaguesforcontact table/entity."
-ms.date: 08/11/2022
-ms.service: "powerapps"
+title: "msdyn_salesassignmentsetting table/entity reference"
+description: "Includes schema information and supported messages for the msdyn_salesassignmentsetting table/entity."
+ms.date: 02/27/2024
+ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: lavanyakr01
-ms.author: lavanyakr
+author: "lavanyakr01"
+ms.author: "lavanyakr"
 search.audienceType: 
   - developer
 ---
 
-# msdyn_wkwcolleaguesforcontact table/entity reference
+# msdyn_salesassignmentsetting table/entity reference
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 
-Entity for storing contact introducer
 
-**Added by**: Connection Graph Solution
+
+**Added by**: Assignment Rules Solution
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
+|Message|Web API Operation|SDK class or method|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_wkwcolleaguesforcontacts<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_wkwcolleaguesforcontacts(*msdyn_wkwcolleaguesforcontactid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_wkwcolleaguesforcontacts(*msdyn_wkwcolleaguesforcontactid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_wkwcolleaguesforcontacts<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_wkwcolleaguesforcontacts(*msdyn_wkwcolleaguesforcontactid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_wkwcolleaguesforcontacts(*msdyn_wkwcolleaguesforcontactid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|BulkRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Create|POST /msdyn_salesassignmentsettings<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE /msdyn_salesassignmentsettings(*msdyn_salesassignmentsettingid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|IsValidStateTransition|<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
+|PurgeRetainedContent|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Retain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Retrieve|GET /msdyn_salesassignmentsettings(*msdyn_salesassignmentsettingid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /msdyn_salesassignmentsettings<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RollbackRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|SetState|PATCH /msdyn_salesassignmentsettings(*msdyn_salesassignmentsettingid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH /msdyn_salesassignmentsettings(*msdyn_salesassignmentsettingid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+|ValidateRetentionConfig|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
 
 ## Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_wkwcolleaguesforcontacts|
-|DisplayCollectionName|wkwcolleaguesforcontacts|
-|DisplayName|wkwcolleaguesforcontact|
-|EntitySetName|msdyn_wkwcolleaguesforcontacts|
+|CollectionSchemaName|msdyn_salesassignmentsettings|
+|DisplayCollectionName|msdyn_salesassignmentsettings|
+|DisplayName|Sales Assignment Setting|
+|EntitySetName|msdyn_salesassignmentsettings|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_wkwcolleaguesforcontacts|
-|LogicalName|msdyn_wkwcolleaguesforcontact|
+|LogicalCollectionName|msdyn_salesassignmentsettings|
+|LogicalName|msdyn_salesassignmentsetting|
 |OwnershipType|OrganizationOwned|
-|PrimaryIdAttribute|msdyn_wkwcolleaguesforcontactid|
-|PrimaryNameAttribute|msdyn_introducer_emailaddress|
-|SchemaName|msdyn_wkwcolleaguesforcontact|
+|PrimaryIdAttribute|msdyn_salesassignmentsettingid|
+|PrimaryNameAttribute|msdyn_name|
+|SchemaName|msdyn_salesassignmentsetting|
 
 <a name="writable-attributes"></a>
 
@@ -56,14 +63,17 @@ Entity for storing contact introducer
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_introduced_entity_id](#BKMK_msdyn_introduced_entity_id)
-- [msdyn_introducer_emailaddress](#BKMK_msdyn_introducer_emailaddress)
-- [msdyn_introducer_systemuserid](#BKMK_msdyn_introducer_systemuserid)
-- [msdyn_last_interaction_dataflow](#BKMK_msdyn_last_interaction_dataflow)
-- [msdyn_last_interaction_datetime](#BKMK_msdyn_last_interaction_datetime)
-- [msdyn_last_interaction_type](#BKMK_msdyn_last_interaction_type)
-- [msdyn_score](#BKMK_msdyn_score)
-- [msdyn_wkwcolleaguesforcontactId](#BKMK_msdyn_wkwcolleaguesforcontactId)
+- [msdyn_customownerfield](#BKMK_msdyn_customownerfield)
+- [msdyn_defaultcapacity](#BKMK_msdyn_defaultcapacity)
+- [msdyn_enabledtime](#BKMK_msdyn_enabledtime)
+- [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_opportunityroutingenabled](#BKMK_msdyn_opportunityroutingenabled)
+- [msdyn_reassignmentbatchcount](#BKMK_msdyn_reassignmentbatchcount)
+- [msdyn_reassignmentbatchsize](#BKMK_msdyn_reassignmentbatchsize)
+- [msdyn_roundrobinscope](#BKMK_msdyn_roundrobinscope)
+- [msdyn_RuleInfoEnabled](#BKMK_msdyn_RuleInfoEnabled)
+- [msdyn_salesassignmentsettingId](#BKMK_msdyn_salesassignmentsettingId)
+- [msdyn_verboselogging](#BKMK_msdyn_verboselogging)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -88,127 +98,203 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_introduced_entity_id"></a> msdyn_introduced_entity_id
+### <a name="BKMK_msdyn_customownerfield"></a> msdyn_customownerfield
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Introduced Entity Id|
+|Description|The logical name of the custom owner field used for assignment|
+|DisplayName|Custom Owner Field|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_introduced_entity_id|
-|MaxLength|100|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_introducer_emailaddress"></a> msdyn_introducer_emailaddress
-
-|Property|Value|
-|--------|-----|
-|Description|The name of the custom entity.|
-|DisplayName|Introducer Email Address|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_introducer_emailaddress|
-|MaxLength|200|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_introducer_systemuserid"></a> msdyn_introducer_systemuserid
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Introducer systemuserid|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_introducer_systemuserid|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_last_interaction_dataflow"></a> msdyn_last_interaction_dataflow
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Last Interaction Data flow|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_last_interaction_dataflow|
+|LogicalName|msdyn_customownerfield|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_last_interaction_datetime"></a> msdyn_last_interaction_datetime
+### <a name="BKMK_msdyn_defaultcapacity"></a> msdyn_defaultcapacity
 
 |Property|Value|
 |--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description||
-|DisplayName|Last Interaction datetime|
+|Description|Defines default value indicating records a seller can work on at a given point in time.|
+|DisplayName|Default Capacity|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_defaultcapacity|
+|MaxValue|2147483647|
+|MinValue|1|
+|RequiredLevel|None|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_enabledtime"></a> msdyn_enabledtime
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|TimeZoneIndependent|
+|Description|The field  denotes the time when the feature was enabled|
+|DisplayName|EnabledTime|
 |Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_last_interaction_datetime|
+|LogicalName|msdyn_enabledtime|
 |RequiredLevel|None|
 |Type|DateTime|
 
 
-### <a name="BKMK_msdyn_last_interaction_type"></a> msdyn_last_interaction_type
+### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Last Interaction type|
+|Description|The name of the custom entity.|
+|DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_last_interaction_type|
+|LogicalName|msdyn_name|
 |MaxLength|100|
-|RequiredLevel|None|
+|RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_score"></a> msdyn_score
+### <a name="BKMK_msdyn_opportunityroutingenabled"></a> msdyn_opportunityroutingenabled
 
 |Property|Value|
 |--------|-----|
 |Description||
-|DisplayName|score|
+|DisplayName|Opportunity routing|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_score|
-|MaxValue|100000000000|
-|MinValue|-100000000000|
-|Precision|2|
+|LogicalName|msdyn_opportunityroutingenabled|
 |RequiredLevel|ApplicationRequired|
-|Type|Decimal|
+|Type|Boolean|
+
+#### msdyn_opportunityroutingenabled Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 1
 
 
-### <a name="BKMK_msdyn_wkwcolleaguesforcontactId"></a> msdyn_wkwcolleaguesforcontactId
+
+### <a name="BKMK_msdyn_reassignmentbatchcount"></a> msdyn_reassignmentbatchcount
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Reassignment batch count|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_reassignmentbatchcount|
+|MaxValue|1000|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_reassignmentbatchsize"></a> msdyn_reassignmentbatchsize
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Reassignment batch size|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_reassignmentbatchsize|
+|MaxValue|1000|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_roundrobinscope"></a> msdyn_roundrobinscope
+
+|Property|Value|
+|--------|-----|
+|Description|Round robin scope evaluated during distribution|
+|DisplayName|RoundRobinScope|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_roundrobinscope|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_roundrobinscope Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Organization||
+|1|AssingmentRule||
+
+
+
+### <a name="BKMK_msdyn_RuleInfoEnabled"></a> msdyn_RuleInfoEnabled
+
+|Property|Value|
+|--------|-----|
+|Description|RuleInfoEnabled|
+|DisplayName|RuleInfoEnabled|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_ruleinfoenabled|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_RuleInfoEnabled Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
+
+
+
+### <a name="BKMK_msdyn_salesassignmentsettingId"></a> msdyn_salesassignmentsettingId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|msdyn_wkwcolleaguesforcontact|
+|DisplayName|Sales Assignment Setting|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_wkwcolleaguesforcontactid|
+|LogicalName|msdyn_salesassignmentsettingid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_verboselogging"></a> msdyn_verboselogging
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Verbose Logging|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_verboselogging|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_verboselogging Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
+
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -231,7 +317,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the msdyn_wkwcolleaguesforcontact|
+|Description|Status of the Sales Assignment Setting|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -253,7 +339,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the msdyn_wkwcolleaguesforcontact|
+|Description|Reason for the status of the Sales Assignment Setting|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -321,8 +407,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_introducer_systemuseridName](#BKMK_msdyn_introducer_systemuseridName)
-- [msdyn_introducer_systemuseridYomiName](#BKMK_msdyn_introducer_systemuseridYomiName)
 - [OrganizationId](#BKMK_OrganizationId)
 - [OrganizationIdName](#BKMK_OrganizationIdName)
 - [VersionNumber](#BKMK_VersionNumber)
@@ -566,38 +650,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
-### <a name="BKMK_msdyn_introducer_systemuseridName"></a> msdyn_introducer_systemuseridName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_introducer_systemuseridname|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_introducer_systemuseridYomiName"></a> msdyn_introducer_systemuseridYomiName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_introducer_systemuseridyominame|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
 **Added by**: Active Solution Solution
@@ -648,3 +700,9 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |RequiredLevel|None|
 |Type|BigInt|
 
+
+
+### See also
+
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)
