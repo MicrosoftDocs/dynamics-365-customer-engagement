@@ -36,7 +36,7 @@ Your admin has [turned on and set up Copilot](enable-setup-copilot.md).
 
 ## Open Copilot
 
-1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) on the right side of your app. 
+1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app. 
 
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with.
 
