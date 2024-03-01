@@ -28,9 +28,6 @@ Watch this video to learn more about the Customer Service Hub:
 The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. 
 
 
-> [!NOTE]
-> This user guide covers the Customer Service Hub app which is built on the Unified Interface framework. To learn about the legacy Customer Service app, see [User Guide (Customer Service)](../user-guide-customer-service.md). To learn more, see [see the Basics Guide](../../customerengagement/on-premises/basics/basics-guide.md).
-
 To learn how to install and use the Customer Service Hub app on a mobile device, see [Install and use the Customer Service Hub app on your mobile device](use-customer-service-hub-on-dynamics-365-mobile.md).
 
 ## Know more about the Customer Service Hub
@@ -44,8 +41,6 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
 [Reduce call handling times with knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
   
 [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
-
-[Configure Customer Service](../configure-cs.md)
 
 ## Accessibility and privacy
 
