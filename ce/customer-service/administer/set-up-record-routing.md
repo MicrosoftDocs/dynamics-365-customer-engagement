@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for records
 description: Use this article to understand how to set up unified routing for records in Customer Service.
-ms.date: 02/29/2024
+ms.date: 03/01/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -108,7 +108,7 @@ Perform the following steps:
 
 1. In the **Create intake rule** dialog, enter a name and define the conditions for the rule. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule. You can define conditions for up to two levels of the related records and attributes.
 
-1. You can map the intake rule to a workstream or a basic routing rule that's active.
+1. You can map the intake rule to a workstream or basic routing rule that's active.
 
    :::image type="content" source="../media/ur-intake-rule.png" alt-text="Define conditions for an intake rule.":::
 
@@ -161,7 +161,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 [Configure routing for email records](configure-routing-for-email-records.md)  
 [Release agent capacity](capacity-profiles.md#release-capacity-for-agents)  
 [Assign roles and enable users](../implement/add-users-assign-roles.md)  
-[FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)
+[FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
