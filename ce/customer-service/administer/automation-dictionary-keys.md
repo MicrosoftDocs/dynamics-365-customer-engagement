@@ -111,7 +111,6 @@ Macros and agent scripts support the following slugs:
 | `${visitorLanguage}` | The language of the customer who initiated the conversation. |
 | `${visitorDevice}` | The device of the customer who initiated the conversation. |
 | `${entityRoutingLogicalName}` | The name of the entity, if the notification is for an entity record. |
-| `${entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. More information: [Entity records routing](../entity-channel.md) |
 | `${customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `${customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
 | `${<name of the pre-conversation survey questions>}` | All the pre-conversation survey questions that are configured for a workstream will have the slug name as the name of the question. |
@@ -179,8 +178,7 @@ The list of supported slugs are:
 | `{visitorLanguage}` | The language of the customer who initiated the conversation. |
 | `{visitorDevice}` | The device of the customer who initiated the conversation. |
 | `{entityRoutingLogicalName}` | The name of the entity, if the notification is for an entity record. |
-| `{entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. More information: [Entity records routing](../entity-channel.md) |
-| `{customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
+| `{entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. |
 | `{customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
 | `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
 

@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service.
-ms.date: 01/11/2024
+ms.date: 02/29/2024
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -33,12 +33,6 @@ Make sure that the following prerequisites are met:
    1. On the Messenger settings page, select **Add or remove Pages**, and then add the Facebook page you created. After you add the page, you see the Page ID and the option to generate a token.
 - If you're using a test environment, set up test accounts in Facebook so that agents can send and receive messages in Omnichannel for Customer Service: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
 - Values for application ID and application secret from the **App ID** and **App Secret** fields in the Facebook application > **Settings** > **Basic**.
-
-## Privacy notice
-
-If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). More information: [Connect a bot to Facebook]/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
-
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users might be monitored, recorded, or stored.
 
 ## Roles and permissions
 
@@ -157,126 +151,15 @@ The customer can send attachments only if you enable them. When the option isn't
 > [!div class=mx-imgBorder]
 > ![Customer sending file.](../media/fb-customer1.png "Customer sending file")
 
-### Configure a Facebook channel in Omnichannel Administration
+### Privacy notice
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
+If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Community Cloud region). More information: [Connect a bot to Facebook](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
 
-After completing the prerequisites, you can add the Facebook channel for your organization by following these steps:
-
-1. [Create a Facebook workstream](#create-a-facebook-workstream)  
-2. [Create a Facebook channel](#create-a-facebook-channel)
-3. [Create routing rules](#create-routing-rules)
-4. [Modify settings for a specific Facebook page](#modify-settings-for-a-specific-facebook-page)
-
-#### Create a Facebook workstream
-
-1. Sign in to Omnichannel Administration.
-
-2. Go to **Work Distribution Management** > **Work Streams**.
-
-3. Select **New** to create a Facebook workstream.
-
-4. On the **Work Distribution** tab, in the **Channel** field, select **Facebook**.
-
-5. Specify other details as required. More information: [Understand and create workstreams](../work-streams-introduction.md).
-
-6. Select **Save**.
-
-#### Create a Facebook channel
-
-1. Go to **Channels** > **Facebook**.
-
-2. Select **New** to create a Facebook channel.
-
-3. On the **New Facebook Application** page, provide the following information:
-
-    - **Name**: Name of the Facebook application. 
-
-    - **Application Id**: ID of the Facebook application. To get the application ID, go to your Facebook application, select **Settings** > **Basic**, and copy the value in the **App ID** field.
-
-    - **Application Secret**: Application secret of the Facebook application. To get the application secret, go to your Facebook application, select **Settings** > **Basic**, and copy the value in the **App Secret** field.
-
-
-4. Select **Save**. After you save the record, the **Facebook Pages** section is enabled, and it allows you to add the Facebook pages through which a customer can connect to an agent.
-
-    > [!NOTE]
-    > In this release, you can create only one Facebook application per organization. However, you can add multiple pages in a Facebook application.
-
-5. In the **Facebook Pages** section, select **Add New Facebook Page** to add a Facebook page.
-
-6. On the **New Facebook Page** page, **Account setup** tab, provide the following information:
-
-    - **Page Id**: ID of the Facebook page. To get the page ID, go to your Facebook page, select **About**, and copy the value in the **Page ID** field.
-
-    - **Page Name**: Name of the Facebook page.
-
-    - **Page Access Token**: Page access token from the Facebook application. To get the page access token, go to your Facebook application and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
-
-    - **Facebook Application**: The Facebook application record is auto filled from which you added a Facebook page.
-    
-    - **Work Stream**: Browse and select the workstream you created for the Facebook channel.
-
-7. Select **Save** to create the record.
-
-After you add a Facebook page, values for **Callback Uri** and **Verify Token** are generated automatically. These values are used to configure webhooks in the Facebook application.
-
-   > [!Note]
-   > You can add multiple Facebook **Page Id** (pages) to a **Facebook Application** channel. However, a Facebook **Page Id** can be linked to one **Facebook Application** only. If you link the same Facebook **Page Id** to multiple **Facebook Application** channels, then **Callback Uri** and **Verify Token** won't be generated automatically.
-
-
-#### Create routing rules
-
-1.	Go to **Work Distribution Management** > **Work Streams**.
-
-2.	Open the workstream you created in Step 1.
-
-3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **Facebook Engagement Context**.
-
-    For example, you can create a rule to transfer Facebook chat from a customer named Lesa to the default queue. 
-
-
-When you create conditions for routing rules, the **Facebook Engagement Context (Conversation)** entity enables you to set the following attributes:
-
-  - **Customer name**: The customer name is shown in the "first name, last name" format.
-  - **Locale**: For a list of locales, see the Facebook developer documentation.
-  - **Timezone**: Timezone is shown as a number relative to GMT. For example, “5.5”.
-  - **User Page Scoped Id**: This attribute is shown as a number string.
-
-#### Modify settings for a specific Facebook page
-
-1. In the Omnichannel Administration app, go to your Facebook application and select the Facebook page you want to modify. 
-
-2. On the **General settings** tab, provide the following information:
-    
-    - **Language**: Select the preferred language for your Facebook page.
-    
-    - **Work stream**: Select an existing workstream or create a new one.
-
-    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set to **No**.
-
-    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set to **No**.
-    
-    > [!NOTE]
-    >
-    > - To learn more about attachments, see [Enable file attachments](enable-file-attachments.md).
-    > - To learn about uploading media in Facebook, see the Facebook developer documentation. The availability and support of media is dependent on the Facebook application settings. More information: [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates)
-
-    - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours pass. When set to **No**, agents aren't able to respond to customers after 24 hours unless the customer sends another message. 
-    
-      If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
-    
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. More information: [Facebook Developer Tools](https://developers.facebook.com/tools/).
-
-3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
-
-4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
-
-
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 ### See also
 
 [Understand and create workstreams](create-workstreams.md)  
-[Create and manage routing rules](../routing-rules.md)  
 [Configure automated messages](configure-automated-message.md)  
 [Configure a prechat survey](configure-pre-chat-survey.md)  
 [Configure a post conversation survey](configure-post-conversation-survey.md)  

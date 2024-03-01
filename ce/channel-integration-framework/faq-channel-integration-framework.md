@@ -84,6 +84,10 @@ Dynamics 365 Channel Integration Framework 2.0 includes multiple enhancements ov
 
 No. There is no impact on Channel Integration Framework 1.0 users. You can continue to use the Channel Integration Framework app to configure channel providers for single session Dynamics 365 model-driven app.
 
+### Where do I configure voice channel provider for multisession apps?
+
+You can configure voice channel providers in [Customer Service admin center](../customer-service/implement/cs-admin-center.md#get-started-with-customer-service-admin-center).
+
 ### My organization is using voice channel configured using Channel Integration Framework 2.0. Does the change impact my organization?
 
 Yes. From your channel provider record, you'll not be able to see the following two grids:

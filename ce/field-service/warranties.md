@@ -1,7 +1,7 @@
 ---
 title: Create warranties and define coverage)
 description: Create warranties to define coverage for assets, locations, and accounts.
-ms.date: 11/07/2023
+ms.date: 02/09/2024
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -12,13 +12,9 @@ ms.custom: bap-template
 
 A warranty is a guarantee to repair or replace a product if it develops a failure within a specified period of time, or to do some work again if the service is not satisfactory. Dynamics 365 Field Service lets you define warranties and map them to assets, locations, or accounts to cover multiple warranty scenarios of your organization or your customers. For example, a temperature sensor at a customer site can have a two-year warranty period in which the manufacturer replaces for free in case it fails. Or, your organization installed equipment at a customer location and offers a warranty for the installation work.
 
-## Enable warranties
+## Prerequisites
 
-Before users can work with warranties, a Field Service administrator has to enable the feature.
-
-1. In Field Service, change to the **Settings** area.
-1. Under **General**, select **Field Service Settings**.
-1. On the **Features** tab, set **Warranties** to **On**.
+An administrator must enable [**Warranties**](configure-default-settings.md#features-settings).
 
 ## Create a warranty
 

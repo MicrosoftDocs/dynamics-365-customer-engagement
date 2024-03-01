@@ -20,6 +20,8 @@ The productivity pane in the Customer Service workspace is an auxiliary work are
 
 Currently, the productivity pane includes controls to help agents quickly view and interact with relevant AI-generated knowledge articles and similar cases suggestions for the case they are working on, work with agent scripts and macros, and search for knowledge base articles.
 
+The productivity pane and the controls are enabled for agents through profiles that are managed in Customer Service admin center.
+
 > [!Important]
 > The productivity pane displays information (for example, knowledge article and similar case suggestions) for the first tab (referred to as the anchor tab) of an active case session.
 

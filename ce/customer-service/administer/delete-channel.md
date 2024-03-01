@@ -1,7 +1,7 @@
 ---
 title: "Delete a configured channel or page to stop receiving messages | MicrosoftDocs"
 description: "Deactivate or delete a channel to turn off and stop receiving messages on the channel in Omnichannel for Customer Service."
-ms.date: 05/27/2022
+ms.date: 02/29/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,7 +15,8 @@ You can delete an instance of a configured channel or SMS number in scenarios su
 
 ## Delete a configured channel
 
-You can delete a channel instance in the Customer Service admin center, Omnichannel admin center (deprecated), or Omnichannel Administration app.
+You can delete a channel instance in Customer Service admin center or Omnichannel admin center (deprecated) app.
+
 
 [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
@@ -31,13 +32,13 @@ If you want to reconfigure your social channel or SMS number in Omnichannel for 
 
 If you no longer want to receive messages on a Facebook page that you've configured for your Facebook channel in Omnichannel for Customer Service, you can go to the page and delete it.
 
-1. In Omnichannel Administration, in the left pane under **Channels**, select **Facebook**.
+1. In the Customer Service admin center site map, select **Channels** in **Customer Support**.
 
-2. Select the channel that contains the page you want to delete. The ***<Channel_name>* Facebook Application** page appears.
-
-3. In the **Facebook Pages** area, do one of the following:
-   - Use **More Commands** to the right of the list to delete the required Facebook page.
-   - Select the required Facebook page, and then select **Delete** on the page that appears.
+1. Go to **Accounts** > **Messaging accounts** > **Manage**.
+1. From the **Accounts and channels** page, select the channel that you want to delete.
+1. On the **Account settings** dialog, go to the **Facebook Pages** tab, and select the workstream for the channel.
+1. From the **Workstreams** page, delete the required channel.
+1. Go to the **Accounts and channels** page, select and delete the required channel.
 
 ### See also
 

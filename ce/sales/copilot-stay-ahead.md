@@ -1,7 +1,7 @@
 ---
 title: Stay ahead with Copilot
 description: Learn how to prepare for upcoming meetings and catch up on emails with Copilot in Dynamics 365 Sales.
-ms.date: 12/18/2023
+ms.date: 02/29/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -39,7 +39,7 @@ If you have meetings scheduled on your calendar in the next 24 hours, Copilot ca
 
 Copilot can help make sure that you don't miss important emails by reminding you of any that you haven't replied to.
 
-In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**.
+1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**.
 
 - If you have a record open, Copilot lists unanswered emails that are related to that record.
 - If you're in the grid view, Copilot lists all your unanswered emails.
