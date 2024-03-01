@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for records
 description: Use this article to understand how to set up unified routing for records in Customer Service.
-ms.date: 02/02/2024
+ms.date: 03/01/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -34,6 +34,11 @@ If you have Dynamics 365 Customer Service only, then the options to configure un
 
 ## Configure unified routing for records
 
+You must complete all the steps in this section to route records using unified routing.
+
+> [!NOTE]
+> After you enable unified routing, the active basic routing rule won't route records until you configure intake rules.
+
 1. In Dynamics 365, go to one of the apps, and perform the following steps:
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
@@ -43,8 +48,7 @@ If you have Dynamics 365 Customer Service only, then the options to configure un
     1. Select **Manage** for **Record routing**.
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    
+ 
 
     - In the site map, select **Record routing** in **General settings**.
 
@@ -58,7 +62,7 @@ If you have Dynamics 365 Customer Service only, then the options to configure un
 
 1. In the **Add a record type** dialog, select a record from the **Record type** list, and select **Add**. The record is added and listed on the **Record routing** page.
 
-1. Configure the following:
+1. Configure the following settings:
    1. Workstreams
    1. Intake rules
 
@@ -100,9 +104,11 @@ Perform the following steps:
 
 1. Select the workstream that you configured for routing records, such as the case.
 
-2. In the **Intake rules** area, select **Create rule**.
+1. In **Intake rules**, select **Create rule**.
 
-3. In the **Create intake rule** dialog, enter a name and define the conditions for the rule. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule. You can define conditions for up to two levels of the related records and attributes.
+1. In the **Create intake rule** dialog, enter a name and define the conditions for the rule. By default, the root record is selected and displayed at the top of the condition builder. The record for which you are creating the rule is thus visible for your reference. You can define conditions for up to two levels of the related records and attributes.
+
+1. You can map the intake rule to a workstream or basic routing rule that's active.
 
    :::image type="content" source="../media/ur-intake-rule.png" alt-text="Define conditions for an intake rule.":::
 
@@ -155,7 +161,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 [Configure routing for email records](configure-routing-for-email-records.md)  
 [Release agent capacity](capacity-profiles.md#release-capacity-for-agents)  
 [Assign roles and enable users](../implement/add-users-assign-roles.md)  
-[FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)
+[FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
