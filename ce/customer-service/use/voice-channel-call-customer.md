@@ -18,9 +18,10 @@ You can launch the outbound dialer from the menu bar, **Contacts** or **Active c
 
 ## Test call controls, make a test call (preview)
 
-[This section is prerelease documentation and is subject to change.]
 
-[preview-banner](../../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
  In the outbound dialer, you can test your microphone and speaker before you make a call. You can also make a test call to check the quality of the call.
 
