@@ -1,7 +1,7 @@
 ---
 title: Ask questions of Copilot
 description: Learn how to ask Copilot questions to know what's new with your leads, opportunities, accounts, and records assigned to you.
-ms.date: 02/26/2024
+ms.date: 02/29/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -24,9 +24,7 @@ Ask Copilot to update you on the latest changes to your sales records, get a lis
 
 Use this prompt to get a list of sales records that were recently updated.  
 
-1. [Open Copilot](use-sales-copilot.md#open-copilot).
-
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's new with my sales records**, and select **Enter**.
+1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's new with my sales records**, and select **Enter**.
 
     :::image type="content" source="media/whats-new-with-myrecords.png" alt-text="Screenshot of the Copilot response for What's new with my sales records.":::
 
@@ -45,9 +43,7 @@ Hover over a record in the list and select **Get updates** to view all changes t
 
 Copilot can help you stay on top of your pipeline by showing you a list of leads and opportunities that were assigned to you in the last 15 days.
 
-1. [Open Copilot](use-sales-copilot.md#open-copilot).
-
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's newly assigned to me**, and select **Enter**.
+1. In the Copilot side pane select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's newly assigned to me**, and select **Enter**.
 
 ## Get recent changes to a lead or opportunity
 
@@ -55,9 +51,8 @@ Copilot can help you catch up on any updates to your opportunity or lead records
 
 The list of recent changes is taken from the audit history of the record. If the list of changes doesn't appear, ask your administrator to [turn on auditing](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
 
-1. [Open Copilot](use-sales-copilot.md#open-copilot).
 
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **Show recent changes for opportunity or Show recent changes for lead**, and select **Enter**.
+1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **Show recent changes for opportunity or Show recent changes for lead**, and select **Enter**.
 
     - If you have a record open, Copilot displays the list of recent changes to it.
     - If you're in the grid view, Copilot lists the records you own. Hover over a record and select **Get updates**.
