@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/compliance-certifications.md",
+      "redirect_url": "/dynamics365/customer-service/implement/compliance-certifications",
+      "redirect_document_id": false
+    },    
+    {
       "source_path": "ce/app-profile-manager/create-app-profiles-powerapps.md",
       "redirect_url": "/dynamics365/customer-service/administer/overview",
       "redirect_document_id": false
