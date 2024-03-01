@@ -1,7 +1,7 @@
 ---
 title: Supported regions and languages, and service limits for analytics and insights
 description: Learn about region availability, languages supported, and service limits for analytics and insights.
-ms.date: 02/12/2024
+ms.date: 03/01/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
