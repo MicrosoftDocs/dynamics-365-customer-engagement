@@ -73,7 +73,7 @@ Language availability for real-time message translation is dependent on your tra
 
 The following table lists the language availability of the other Customer Service Insights features.
 
-| Feature name | English | Arabic |  Danish | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish | Portugese (Brazilian) |Thai |
+| Feature name | English | Arabic |  Danish | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish | Portugese (Brazil) |Thai |
 | ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |--------|
 | Copilot&mdash;Summarize cases<sup>**2**</sup>  | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | No |
 |Copilot&mdash;Summarize conversations<sup>**2**</sup>  | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | No |
