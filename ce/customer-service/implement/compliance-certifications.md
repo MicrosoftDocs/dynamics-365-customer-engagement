@@ -1,7 +1,7 @@
 ---
 title: Compliance certification of Omnichannel for Customer Service
 description: This article provides information on compliance certification requirements for Omnichannel for Customer Service. Use the link in the topic to download the file that contains the compliance information.
-ms.date: 02/29/2024
+ms.date: 03/01/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
