@@ -166,7 +166,7 @@ If you grant roles to an existing Facebook user, make sure the user has a Meta D
 If you're creating a test user within the Facebook app, select to automatically install the app, and select the pages_messaging permission.​
 
 > [!div class=mx-imgBorder]
-> ![Create test user with pages_messaging permission in Facebook app.](../media/configure-test-account-configure.png "Create Facebook app test user with pages_messaging permission")
+> ![Create test user with pages_messaging permission in Facebook app.](../media/facebook-test-account-configure.png "Create Facebook app test user with pages_messaging permission")
 
 ### Privacy notice
 
