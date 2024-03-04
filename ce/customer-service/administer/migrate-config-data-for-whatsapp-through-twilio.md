@@ -130,7 +130,7 @@ For sample schema to get all the required records, see [Sample schema for WhatsA
 	<entity name="msdyn_liveworkstream">
 		<filter type="and">
 			<condition attribute="msdyn_mode" operator="eq" value="717210001" />
-			<condition attribute="msdyn_streamsource" operator="eq" value=" 192360000" />
+			<condition attribute="msdyn_streamsource" operator="eq" value=" 192300000" />
 		</filter>
 	</entity>
 </fetch>
@@ -218,11 +218,11 @@ For sample schema to get all the required records, see [Sample schema for WhatsA
         <filter type="or" >
             <filter type="and" >
                 <condition attribute="msdyn_mode" entityname="an" operator="eq" value="717210001" />
-                <condition attribute="msdyn_streamsource" entityname="an" operator="eq" value="192360000" />
+                <condition attribute="msdyn_streamsource" entityname="an" operator="eq" value="192300000" />
             </filter>
             <filter type="and" >
                 <condition attribute="msdyn_mode" entityname="bd" operator="eq" value="717210001" />
-                <condition attribute="msdyn_streamsource" entityname="bd" operator="eq" value="192360000" />
+                <condition attribute="msdyn_streamsource" entityname="bd" operator="eq" value="192300000" />
             </filter>
         </filter>
         <link-entity name="msdyn_liveworkstream" from="msdyn_routingcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="an" />
@@ -305,7 +305,7 @@ For sample schema to get all the required records, see [Sample schema for WhatsA
         <filter type="or" >
             <filter type="and" >
                 <condition attribute="msdyn_mode" entityname="af" operator="eq" value="717210001" />
-                <condition attribute="msdyn_streamsource" entityname="af" operator="eq" value="192360000" />
+                <condition attribute="msdyn_streamsource" entityname="af" operator="eq" value="192300000" />
             </filter>
         </filter>
         <link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="ad" >
