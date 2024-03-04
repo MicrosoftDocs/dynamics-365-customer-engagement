@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service.
-ms.date: 02/29/2024
+ms.date: 03/03/2024
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -150,6 +150,23 @@ The customer can send attachments only if you enable them. When the option isn't
 
 > [!div class=mx-imgBorder]
 > ![Customer sending file.](../media/fb-customer1.png "Customer sending file")
+
+## Facebook channel configuration FAQ
+
+### Why aren't messages that are sent on Facebook reaching Omnichannel for Customer Service agents? 
+
+If agents who use Omnichannel for Customer Service aren't receiving Facebook messages, it's likely because users lack the necessary roles or permissions. The assignment of roles or permissions may vary slightly, depending on whether the application is in production or development mode. 
+
+**App in production mode**: The customer needs to request pages_messaging permission from their Facebook app. After it gets approval, any Facebook user can send messages to their page. 
+
+**App in development mode**: If the Facebook app that you’re using is currently in development mode, then only those Facebook users who have roles within the app can send messages to the Facebook page. The messages can be received by or forwarded to Omnichannel for Customer Service. 
+
+If you grant roles to an existing Facebook user, make sure the user has a Meta Developer account. They'll need to sign in and accept the assigned role invitation to the app from their account. 
+
+If you're creating a test user within the Facebook app, select to automatically install the app, and select the pages_messaging permission.​
+
+> [!div class=mx-imgBorder]
+> ![Create test user with pages_messaging permission in Facebook app.](../media/configure-test-account-configure.png "Create Facebook app test user with pages_messaging permission")
 
 ### Privacy notice
 
