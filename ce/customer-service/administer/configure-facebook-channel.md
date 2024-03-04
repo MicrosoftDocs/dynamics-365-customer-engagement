@@ -161,7 +161,7 @@ If agents who use Omnichannel for Customer Service aren't receiving Facebook mes
 
 **App in development mode**: If the Facebook app that you’re using is currently in development mode, then only those Facebook users who have roles within the app can send messages to the Facebook page. The messages can be received by or forwarded to Omnichannel for Customer Service. 
 
-If you grant roles to an existing Facebook user, make sure the user has a Meta Developer account. They'll need to sign in and accept the assigned role invitation to the app from their account. 
+If you grant roles to an existing Facebook user, make sure the user has a Meta Developer account. They need to sign in and accept the assigned role invitation to the app from their account. 
 
 If you're creating a test user within the Facebook app, select to automatically install the app, and select the pages_messaging permission.​
 
@@ -172,15 +172,15 @@ If you're creating a test user within the Facebook app, select to automatically 
 
 If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Community Cloud region). More information: [Connect a bot to Facebook](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
 
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 ### See also
 
-[Understand and create workstreams](create-workstreams.md)  
-[Configure automated messages](configure-automated-message.md)  
-[Configure a prechat survey](configure-pre-chat-survey.md)  
-[Configure a post conversation survey](configure-post-conversation-survey.md)  
-[Delete a configured channel](delete-channel.md)  
-[Support for live chat and asynchronous channels](card-support-in-channels.md)  
+[Understand and create workstreams](create-workstreams.md)<br>  
+[Configure automated messages](configure-automated-message.md)<br> 
+[Configure a prechat survey](configure-pre-chat-survey.md)<br> 
+[Configure a post conversation survey](configure-post-conversation-survey.md)<br>
+[Delete a configured channel](delete-channel.md)<br>
+[Support for live chat and asynchronous channels](card-support-in-channels.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
