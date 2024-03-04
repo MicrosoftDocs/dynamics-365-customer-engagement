@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service.
-ms.date: 02/29/2024
+ms.date: 03/04/2024
 author: lalexms
 ms.author: laalexan
 ms.reviewer: nenellim
@@ -81,9 +81,9 @@ Do the following for the channel in which you want to create custom automated me
 
 ## Preconfigured automated message triggers
 
-| **Message trigger** | **Definition** | **When to trigger** |
-|-----------------|------------|-----------------|
-| Greeting Message for Async Channels and Voice | The automated message played for the customer as soon as the call is connected <br>**Note**<br> If the bot is enabled, ensure that the automated greeting message is different from the bot message. | You can set it up to be played as the first message that the customer should hear when they call the digital contact center. |
+| **Message trigger** | **Definition** | **When to trigger** | Message recipient
+|-----------------|------------|-----------------|-------------------|
+| Greeting Message for Async Channels and Voice | The automated message played for the customer as soon as the call is connected <br>**Note**<br> If the bot is enabled, ensure that the automated greeting message is different from the bot message. | You can set it up to be played as the first message that the customer should hear when they call the digital contact center. | Customer
 | Agent assigned to a conversation | Message displayed to the customer when the agent is assigned to the conversation | When the agent is assigned to the conversation.
 | Agent couldn’t be assigned to conversation   | Message displayed to the customer when agent assignment fails | When work distribution fails or when routing is unable to add the agent to the chat due to system (CBB/IC3) failure. For example, no agents are linked to the queue, or the default queue isn't found. <br>**Note**<br> This trigger isn't applicable to a scenario when a matching agent can't be identified based on the assignment configuration. |
 | Agent disconnected from conversation | Message displayed to the customer when the agent gets disconnected | When the agent gets disconnected due to browser tab closure, browser closure, offline agent presence, or network issue.  |
