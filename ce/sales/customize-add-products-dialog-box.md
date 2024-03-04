@@ -159,7 +159,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 ## Customize the fields to search  
 
-By default, the search field in the **Add products dialog** searches the product name, ID, and description. You can expand the search to include other text-based fields too. For example, you can add the hierarchy path field to the search scope.
+By default, the search field in the **Add products dialog** searches the product name, ID, and description. You can expand the search to include other text-based fields too. For example, you can add the hierarchy path field to the search scope. However, searching custom lookup fields isn't supported.
 
 **To customize the fields to search:**
 
