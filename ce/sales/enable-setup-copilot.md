@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales. Help your sales team can get summaries of their lead and opportunity records, catch up on recent changes, and prepare for meetings.
-ms.date: 02/26/2024
+ms.date: 03/04/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -154,14 +154,6 @@ Copilot generates the list of recent changes for leads and opportunities from th
     - **View Audit Summary**
 
 1. Select **Save + close**.
-
-## Add the Copilot page site map entry to custom sales app
-
-When you create a custom model-driven app, you can choose a default solution to create a sitemap for it. However, you can only choose solutions that are based on table forms. The immersive, full-screen Copilot page is based on a URL custom control and doesn't appear in the list of solutions. You must add it to the sitemap manually. 
-
-To add the Copilot page to your site map, [add site map entry to your custom app](add-custom-site-map.md) and enter or paste the following URL:
-
-`/main.aspx?&pagetype=control&controlName=PowerApps.Copilot`
 
 
 ### See also
