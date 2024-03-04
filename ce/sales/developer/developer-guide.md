@@ -49,7 +49,7 @@ Welcome to the Dynamics 365 Sales Developer Guide.
 </td>
 <td>
 <h2>Sales Premium</h2>
-<li><a href="../developer-sp/msdyn-connectsequence-action.md" data-raw-source="[msdyn_ConnectSequence Action](../developer-sp/msdyn-connectsequence-action.md)">msdyn_ConnectSequence Action</a></li>
+<li><a href="../developer/entities/msdyn-connectsequence-action.md" data-raw-source="[msdyn_ConnectSequence Action](../developer-sp/msdyn-connectsequence-action.md)">msdyn_ConnectSequence Action</a></li>
 <li><a href="../entity-reference.md" data-raw-source="[Entity reference](../entity-reference.md)">Entity reference</a></li>
 
 </td>
