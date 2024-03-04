@@ -1,7 +1,7 @@
 ---
 title: "Enable third-party co-browse and screen sharing | MicrosoftDocs"
 description: "Learn how to enable third-party co-browse and screen sharing escalation channels in Omnichannel for Customer Service."
-ms.date: 02/25/2022
+ms.date: 02/29/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -109,30 +109,15 @@ For third-party co-browse, ISVs need to input the conversation action data for t
 
 ## App Tab Template for third-party co-browse and screen sharing<a name="app-tab-template"> </a> 
 
-We encourage our integrated third-party co-browse providers to make their co-browse and screen sharing applications inside of an Omnichannel for Customer Service tab. When the agent selects the **Co-browse** button in the chat widget, it will open this tab.  Inside of this tab, the agent can start and end the co-browse sessions and share the session invitations with customers.  You can include the data in this form inside of your solution. Follow these steps to create the App Tab Template:
+We encourage our integrated third-party co-browse providers to make their co-browse and screen sharing applications inside of an Omnichannel for Customer Service tab. When the agent selects the **Co-browse** button in the chat widget, it will open this tab.  Inside of this tab, the agent can start and end the co-browse sessions and share the session invitations with customers. You can include the data in this form inside of your solution. Follow these steps to create the App Tab Template:
 
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083) and select **Apps**.
-
-2. Select the ellipsis next to Omnichannel for Customer Service and select **App profile manager**.
-
-3. Select **App profiles**.
-
-4. Expand **Omnichannel for Customer Service**.
-
-5. Under **Templates**, select **Application tabs**. 
-
-6. Select **New** to create a channel application tab. 
-
-   See [Manage application tab templates](/dynamics365/app-profile-manager/application-tab-templates#create-an-application-tab-template) for more information about completing this form.
+1. Perform the steps in [Manage application tab templates](../administer/application-tab-templates.md#manage-application-tab-templates) to create a web resource.
    
-7. In the Application type field, select **webresource**. 
+1. In the Application type field, select **webresource**.
 
-8. In the Parameters section, add the web resource URL and query parameters that are required for ISVs to open their web resources. 
+1. In the Parameters section, add the web resource URL and query parameters that are required for ISVs to open their web resources. 
 
     webresourcename: `<URL path to the web resource>`
-
-> [!div class="mx-imgBorder"]
-> ![Web resource for co-browse feature.](../media/web-resource-co-browse.PNG "Web resource for co-browse feature")
 
 You'll find a single URL parameter called `data` that'll contain a JSON object. This object when decoded and parsed will contain the `conversationId` field. This ID can be used to attach any data back to a conversation.
 
@@ -152,17 +137,15 @@ The data input requirements for third-party providers are as follows: 
 
 - Channel Capability record. (If you have both co-browse and screen sharing options, you can create two records, one for each.) 
 
-These records (Conversation Action records, Conversation Action Locale records, Channel Capability records, Provider record, and Application Tab Template records) should be included as part of the solution you create as a third-party provider so that the end user doesn't need to create them manually.   
+These records (Conversation Action records, Conversation Action Locale records, Channel Capability records, Provider record, and Application Tab Template records) should be included as part of the solution you create as a third-party provider so that the end user doesn't need to create them manually.
 
-## Omnichannel administration experience for third-party co-browse and screen sharing  
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
+## Administrator experience for third-party co-browse and screen sharing  
 
 In the **Conversation Options** tab of the chat widget, in the **Remote assistance** section, the Omnichannel administrator can choose to enable or disable the third-party co-browse and screen sharing options per chat widget. If there are no co-browse and screen sharing providers installed in this organization, these two options are disabled as shown here.
 
 
 > [!div class="mx-imgBorder"]
-> ![Omnichannel administration for co-browse feature.](../media/co-browse-entity-relationship.PNG "Omnichannel administration for co-browse feature")
+> ![Administrator experience for co-browse feature.](../media/co-browse-entity-relationship.PNG "Administrator experience for co-browse feature")
 
 > [!div class="mx-imgBorder"]
 > ![No screen-sharing sessions installed for co-browse feature.](../media/no-screensharing-session-co-browse.PNG "No screen-sharing sessions installed for co-browse feature")
