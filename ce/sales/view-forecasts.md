@@ -82,7 +82,11 @@ The following columns are displayed by default in an org chart forecast.
 
 - **Lost**: Shows the aggregated (rolled-up) value of revenue that's lost for all lost opportunities that have the forecast category set as **Lost**.
 
-## Out-of-the-box forecast
+## Out-of-the-box forecast (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 You can take advantage of forecasts even if your administrator hasn't configured one. 
 
