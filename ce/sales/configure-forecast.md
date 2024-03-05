@@ -1,7 +1,7 @@
 ---
 title: Configure forecasts in your organization
 description: Learn how to configure forecasts based on revenue or quantity to predict how much revenue your sales team will generate in a given time frame.
-ms.date: 02/19/2024
+ms.date: 03/05/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
