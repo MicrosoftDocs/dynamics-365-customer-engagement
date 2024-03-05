@@ -1,5 +1,5 @@
 ---
-title: View and understand call summary
+title: View and understand the call summary page
 description: Use the call summary to get a high-level view of how a conversation with a customer went, action items, keywords, the call timeline, and a transcript in the Dynamics 365 Sales Hub app.
 ms.date: 03/05/2024
 ms.topic: how-to
@@ -9,7 +9,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ---
 
-# View and understand call summary
+# View and understand the call summary page
 
 Sellers and their managers need an easy way to review their conversations with customers and quickly find talking points and insights. The call summary page provides that high-level view of how a conversation with a customer went. It includes action items and relevant keywords, a timeline, and a transcript of the call to help both sellers and managers.
 
@@ -27,7 +27,7 @@ Sellers and their managers need an easy way to review their conversations with c
 
 [Configure conversation intelligence to process call recordings](intro-admin-guide-sales-insights.md#administer-conversation-intelligence).
 
-## View the call summary
+## View the call summary page
 
 The call summary for a phone call activity is available after the call ends and the call recording is processed by conversation intelligence.  
 
