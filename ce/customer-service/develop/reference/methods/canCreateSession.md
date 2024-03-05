@@ -1,13 +1,13 @@
 ---
-title: "canCreateSession method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the canCreateSession API of app profile manager in Customer Service workspace."
+title: "canCreateSession method JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the canCreateSession API in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# canCreateSession (app profile manager)
+# canCreateSession
 
 Allows you to check whether a new session can be created.
 

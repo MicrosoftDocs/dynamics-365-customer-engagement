@@ -1,13 +1,13 @@
 ---
-title: "sessionId property (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the sessionId property of app profile manager in Customer Service workspace."
+title: "sessionId property JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the sessionId property in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# sessionId (app profile manager)
+# sessionId
 
 The ID of a session.
 

@@ -1,13 +1,13 @@
 ---
-title: "title property of the session (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the session title property of app profile manager in Customer Service workspace."
+title: "title property of the session JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the session title property in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# title (app profile manager session)
+# title
 
 The text label of a session.
 

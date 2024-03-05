@@ -1,13 +1,13 @@
 ---
-title: "requestFocus method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the requestFocus API of app profile manager in Customer Service workspace."
+title: "requestFocus method JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the requestFocus API in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# requestFocus (app profile manager)
+# requestFocus
 
 Shows a notification indicator on a session if the session is not in focus.
 

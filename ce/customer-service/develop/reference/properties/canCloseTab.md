@@ -1,13 +1,13 @@
 ---
-title: "canClose property of a tab (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the canClose tab property of app profile manager in Customer Service workspace."
+title: "canClose property of a tab JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the canClose tab property in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# canClose (app profile manager tab)
+# canClose
 
 A Boolean value indicating whether a tab can be closed.
 

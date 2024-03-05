@@ -1,13 +1,13 @@
 ---
-title: "focus method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the focus API of app profile manager in Customer Service workspace."
+title: "focus method JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the focus API in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# focus (app profile manager)
+# focus
 
 Sets the focus on a session.
 

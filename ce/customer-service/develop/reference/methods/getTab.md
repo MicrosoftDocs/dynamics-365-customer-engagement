@@ -1,13 +1,13 @@
 ---
-title: "getTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the getTab API of app profile manager in Customer Service workspace."
+title: "getTab method JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the getTab API in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# getTab (app profile manager)
+# getTab
 
 Returns the tab object for a tab identifier.
 
