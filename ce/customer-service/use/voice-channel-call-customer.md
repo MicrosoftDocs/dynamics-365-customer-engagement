@@ -1,7 +1,7 @@
 ---
 title: Call a customer in the voice channel
 description: Use this article to understand how you can make customer calls in Omnichannel for Customer Service.
-ms.date: 02/14/2024
+ms.date: 03/01/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -14,18 +14,16 @@ ms.author: mgandham
 
 To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. More information: [Outbound calling](../administer/voice-channel-outbound-calling.md)
 
-If your administrator has enabled the  **Enhanced outbound dialer experience** setting definition in Power Apps, you will see the enhanced outbound dialer.
-> [!IMPORTANT]
-> - The enhanced outbound dialer is a preview feature.
-> - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-
-If your administrator hasn't enabled the early access feature,you can launch the outbound dialer from the menu bar, **Contacts** or **Active conversation** page. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.
+You can launch the outbound dialer from the menu bar, **Contacts** or **Active conversation** page. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.
 
 ## Test call controls, make a test call (preview)
 
+
 [This section is prerelease documentation and is subject to change.]
 
- In the enhanced outbound dialer, you can test your microphone and speaker before you make a call. You can also make a test call to check the quality of the call.
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+
+ In the outbound dialer, you can test your microphone and speaker before you make a call. You can also make a test call to check the quality of the call.
 
 To test your microphone and speaker, do the following steps:
 
@@ -39,9 +37,7 @@ To test your microphone and speaker, do the following steps:
     - The **Communication Panel** displays the device settings and the **End call** button. 
     - When you select device settings, you can see the speaker and microphone. A visual indicator is displayed against the device to indicate that it is connected. 
 
-## Make a call using the enhanced outbound dialer
-
-[This section is prerelease documentation and is subject to change.]
+## Make a call using the  outbound dialer
 
 1. In Customer Service workspace or Omnichannel for Customer Service, go to **Contacts**, and then select a customer to call.
 2. On the **Active Conversation** page, locate the **Mobile Phone** field, and then select the call icon to call the customer. You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer.

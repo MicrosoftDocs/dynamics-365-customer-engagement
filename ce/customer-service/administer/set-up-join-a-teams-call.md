@@ -20,7 +20,7 @@ Join a Teams call is a feature that helps agents in your organization give their
 Ensure that the following prerequisites are met:
 
 - Agents in your organization must be able to access and use Teams.
-- Agents must be able to access the productivity pane to see the Join a Teams call app. More information: [Assign templates and enable the productivity pane and channels](app-profile-manager.md#assign-templates-and-enable-productivity-pane-and-channels)
+- Agents must be able to access the productivity pane to see the Join a Teams call app. More information: [Assign templates and enable the productivity pane and channels](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
 - If you want agents to be able to invite their customers to Teams meetings via email, agent email must be configured for outbound email.
 
 ## Set up the ability for agents to invite customers to join Teams calls
