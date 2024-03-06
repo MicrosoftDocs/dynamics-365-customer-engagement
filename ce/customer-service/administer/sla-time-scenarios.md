@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 12/21/2023
+ms.date: 02/27/2024
 ms.custom: bap-template
 ---
 
@@ -256,6 +256,8 @@ The active duration is 20 min and SLA expires at 12:30 AM. This is because SLA i
 - 12:40 AM- SLA expired
 
 The active duration is 30 min and SLA expires at 12:40 AM as the case was paused for 10 min. Though SLA is set as 30 min, it gets impacted when case is paused or resumed.
+
+When you use custom time calculation for SLA KPIs, the active duration isn't calculated cumulatively by default. You need to create a custom time calculation plug-in for active duration to be cumulative. More information: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis-1)
 
 > [!NOTE]
 > Active duration won't show any value when the SLA Instance is created in **Succeeded** or **Expired** state.

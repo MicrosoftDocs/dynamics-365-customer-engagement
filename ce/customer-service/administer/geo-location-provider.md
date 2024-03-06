@@ -1,7 +1,7 @@
 ---
 title: "Set up visitor location detection | MicrosoftDocs"
 description: "Perform the steps to set up detection of visitor location and create a geo location provider record in Omnichannel for Customer Service."
-ms.date: 10/27/2022
+ms.date: 02/29/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -69,19 +69,6 @@ If you're using Customer Service admin center or Omnichannel admin center app, d
 
 4. Save the settings.
 
-If you're using the Omnichannel Administration app, do the following:
-
-1. Open the chat widget in which you want to add geo location.
-
-2.	Go to the **Location** tab.
-
-3.	In the **Visitor location** section, select **Yes** in the **Request visitor location** field.
-
-4.	In the **Geo Location Provider** field, browse and select the geo location provider record.
-
-    > [!div class=mx-imgBorder]
-    > ![Configure visitor location in a chat widget.](../media/chat-widget-location-tab.png "Configure visitor location in a chat widget")
-    
 ## Privacy notice
 
 **Location data**: If a user approves the browser request for detecting location, the app or website may collect and use precise data about the user’s location. Precise location data can be Global Position System (GPS) data, as well as data identifying nearby cell towers and Wi-Fi hotspots. The app or website collects latitude and longitude information from the user’s browser and sends it to Bing Maps for converting it into precise location data such as street, city, state, country, and zip code of the user. The app or website may also send location data to Microsoft Dynamics 365. A user may disable the location detection by turning off the location settings in their web browser settings. All use of Bing Maps is governed by the Bing Maps End User Terms of Use available at https://go.microsoft.com/?linkid=9710837 and the Bing Maps Privacy Statement available at https://go.microsoft.com/fwlink/p/?LinkID=248686. An administrator can turn off this visitor location feature by setting the “Request visitor location” to “No”, so that no further information will be sent to Bing Map from the app or website.

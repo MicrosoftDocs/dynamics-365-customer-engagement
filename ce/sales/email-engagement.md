@@ -1,7 +1,7 @@
 ---
 title: Use email engagement to view message interactions
 description: Learn how to use email engagement in Dynamics 365 Sales to track your customers' interactions with your messages, such as selected links, opened attachments, and replies, and to get alerts to help you remember to follow up.
-ms.date: 02/06/2024
+ms.date: 02/14/2024
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
@@ -45,7 +45,7 @@ Some features of email engagement might be visible even when the feature is turn
 
 Review the following consideration before you use email engagement:
 
-- An email is only followed if the recipients' list contains account, contact, and lead records in the To and CC fields. If other types of records are added to the To and CC fields, the email can't be followed. In such cases, a message is displayed stating that the email can't be followed as the recipient list doesn’t contain account, lead, or contact records.
+- An email is followed only if the recipients' list contains account, contact, or lead records in the **To** or **CC** fields. If other types of records are added to the To and CC fields, the email can't be followed. In such cases, a message is displayed stating that the email can't be followed as the recipient list doesn’t contain account, lead, or contact records.
 
 ## View email engagement history
 
@@ -103,6 +103,14 @@ Actions that are performed on email are stored in Microsoft Azure Storage. Azure
 
 > [!IMPORTANT]
 > You should treat all email interaction data as approximations. The system can only register an email-open event if the recipient also downloads the message's images, including the invisible GIF. The actual number of opens could be larger than the number recorded in Dynamics 365 Sales. Similarly, if images are cached, which is typical for web-based email clients, then subsequent opens may not be reported to Sales.
+
+## Considerations for email count 
+
+Email engagement provides valuable insights into your emails, but false-positive might occur due to spam filters and other mechanisms that are implemented by your organization. Therefore, email count might not be accurate and should be used to determine the trends rather than an exact measure whether a prospect has read a specific message. Here are some considerations that you must know:  
+- For security reasons, your organization might configure outgoing mail scanning, and these scans may register as email opens, particularly for emails containing hyperlinks or attachments. This could be a reason why multiple emails appear to be opened simultaneously, especially when sent to various recipients across different organizations.  
+- Certain Email Service Providers (ESPs) scan outbound messages, primarily targeting new mailboxes, those with a recent increase in mailing activity, and mailboxes flagged for suspicious or spam-like behavior. Also, ESPs conduct random scans on a temporary basis for a portion of mailboxes. Typically, users cannot configure this process, which serves to deter spammers from exploiting their platform.
+- A third-party integration or extension scans your outbound messages for spam or internal reporting. Each time an email is opened, even by a scanning or tracking tool, it registers as an open event. 
+- Recipient spam filters might scan and open your emails that you send and this might be counted as open during the security scanning process.
 
 ### See also
 

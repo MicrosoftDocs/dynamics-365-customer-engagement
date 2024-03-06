@@ -1,8 +1,7 @@
 ---
 title: Configure outbound and inbound profiles
 description: Configure outbound and inbound profiles with various settings, such as caller ID, language, and wait music for the voice channel.
-ms.date: 11/06/2023
-ms.service: dynamics-365-customerservice
+ms.date: 03/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -75,8 +74,7 @@ You can define how agents use the outbound calls and which agents can make those
 1. In **Outbound behaviors**, do the following: 
     - **Allow list for countries/regions**: Select the countries or regions whose numbers your agents can call. If an agent has multiple outbound profiles, they'll see a list of countries or regions that are selected in all profiles.
       > [!NOTE]
-      > - The **Allow list for countries/regions** is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
-      > - In [Power Apps](https://make.powerapps.com/), add the **Enhanced outbound dialer experience** setting definition to enable the enhanced outbound dialer, and then set the **Setting environment value** to **Yes**. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-or-updating-a-setting-app-value-using-the-solution-explorer).
+      > The **Allow list for countries/regions** is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
     - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.
     - **Wait music**: Select a music file that you want played when the customer is waiting to get into a call.
     - **Call transfer to external phone number**: Set the toggle to **On** if you want the agents to transfer the call to a phone number outside of your organization.

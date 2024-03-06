@@ -45,11 +45,18 @@ Currently, the Azure OpenAI resources are only available in the North America an
 
 No. We don't use any customer data to train Azure OpenAI or any other language models.
 
-## What's the difference between Microsoft Sales Copilot and Copilot in Dynamics 365 Sales?
+## What's the difference between Microsoft Copilot for Sales and Copilot in Dynamics 365 Sales?
 
-Microsoft Sales Copilot is a seller experience application that's available in Microsoft 365 and Microsoft Teams applications. It lets sellers capture, access, and update CRM data from within Microsoft 365 and Microsoft Teams applications. It also has generative AI capabilities such as record summarization and email content generation. Microsoft Sales Copilot works with Dynamics 365 Sales and Salesforce CRM. [Learn more about Microsoft Sales Copilot](/microsoft-sales-copilot/introduction). 
+Microsoft Copilot for Sales is a seller experience application that's available in Microsoft 365 and Microsoft Teams applications. It lets sellers capture, access, and update CRM data from within Microsoft 365 and Microsoft Teams applications. It also has generative AI capabilities such as record summarization and email content generation. Microsoft Copilot for Sales works with Dynamics 365 Sales and Salesforce CRM. [Learn more about Microsoft Copilot for Sales](/microsoft-sales-copilot/introduction). 
 
 Copilot in Dynamics 365 Sales refers to the AI assistant that uses generative AI to summarize opportunities and leads, and generate meeting preparation notes. It's integrated with Dynamics 365 Sales apps. [Learn more about Copilot in Dynamics 365 Sales](copilot-overview.md).
+
+## How does Copilot match leads with contacts and can I customize the matching fields?
+
+Copilot matches leads with contacts based on the lead name, phone number, email address, and company name. The matches are ordered based on the similarity of values in these fields. If you want Copilot to use other fields for matching, you can work with your administrator to [configure the Dataverse search fields](/power-platform/admin/configure-relevance-search-organization). 
+
+> [!NOTE]
+> The fields configured by your administrator will be used for all global search operations (Search box in the top navigation bar) in Dynamics 365.
 
 ## Which applications are in the exclusion list for Copilot in Dynamics 365 Sales?
 
