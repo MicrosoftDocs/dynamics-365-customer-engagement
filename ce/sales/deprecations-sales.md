@@ -1,7 +1,7 @@
 ---
-title: Deprecations in Dynamics 365 Sales | MicrosoftDocs
+title: Deprecations in Dynamics 365 Sales
 description: Visit this page to see what's deprecated in Dynamics 365 Sales.
-ms.date: 07/21/2023
+ms.date: 03/08/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,6 +18,10 @@ The features that have been deprecated in  Dynamics 365 Sales are listed in this
 
 > [!Important]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Seller availability using Outlook calendar
+
+Starting from April 1, 2024, the feature allowing configuration of seller availability through the Outlook calendar in work assignments will be deprecated. This deprecations is to enhance the safety and security of your organization's data. Alternatively, you can use the Dynamics 365 CRM calendar to configure the seller availability. [Learn more](wa-manage-seller-availability.md)
 
 ## Exchange-based cards will be deprecated
 
@@ -63,7 +67,6 @@ You can switch to basic auto capture to get activity suggestions. However, no al
 Effective March 31, 2022, the Opportunity at Risk (sentiment detection) and Opportunity at Risk (phrase detection) cards are deprecated. After May 30, 2022, these cards will no longer be supported.     
 The Opportunity at Risk cards, both sentiment detection and phrase detection, have been disabled from the backend and insights are no longer generated. However, these cards are still visible through the Settings page. When users are trying to activate these cards, activation fails.
 
-
 ## Dynamics 365 Product Visualize is deprecated
 
 Effective October 04, 2021, Dynamics 365 Product Visualize is deprecated. After October 04, 2021 the product will cease to function and will no longer be supported.
@@ -79,7 +82,6 @@ Effective December 2020, Microsoft Internet Explorer 11 support for Microsoft Dy
 This will impact customers who use Dynamics 365 and Microsoft Power Platform products that are designed to be used through an Internet Explorer 11 interface. After August 2021, Internet Explorer 11 won't be supported for such Dynamics 365 and Microsoft Power Platform products. We recommend that customers transition to Microsoft Edge. 
 
 For the complete list of products impacted by this change or for information on transitioning from Internet Explorer 11 to a supported browser, see [FAQ: Internet Explorer 11 deprecation for Dynamics 365 and Microsoft Power Platform Products](https://aka.ms/IEsupportDeprecationBAG). If you've questions, contact your Microsoft Customer Service representative or Microsoft Partner.
-
 
 ## Dynamics 365 assistant application for Teams is deprecated
 
