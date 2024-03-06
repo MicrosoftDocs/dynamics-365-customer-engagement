@@ -47,5 +47,6 @@ You can now find the custom app module in the app picker screen after signing in
 > [!NOTE]
 > If you don't see the app module:
 >
+> - Users need to have a [predefined security role](/power-platform/admin/database-security) in the environment that the app is in. If a predefined security role is assigned to a user using a Dataverse team, you need to use a Microsoft Entra ID group team. Users will not see model-driven apps if a predefined security role is assigned using a Dataverse owner team.
 > - Check the roles assigned to the app module and ensure the user accessing the app module has the same role.
 > - In sandbox environments, ensure "Show non-production apps" is enabled in the mobile app.
