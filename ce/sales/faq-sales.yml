@@ -2,7 +2,7 @@
 metadata:
   title: Frequently asked questions about Dynamics 365 Sales
   description: Find answers to frequently asked questions about Dynamics 365 Sales Enterprise.
-  ms.date: 02/05/2024
+  ms.date: 02/22/2024
   ms.topic: article
   author: udaykirang
   ms.author: udag
@@ -28,12 +28,51 @@ sections:
 
           For a detailed comparison of the capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
 
+      - question: How can I assign licenses to users?  
+        answer: |
+          To assign licenses to users, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
+
       - question: Can I use the Sales Hub app with the Sales Professional license?
         answer: |
-          No, the Sales Hub app is only for the Sales Enterprise and Sales Premium customers. Though this app may be visible in Sales Professional environments, the users aren't entitled to use it. Sales Professional users are entitled to use only the Sales Professional app. We recommend that you [hide](/power-apps/maker/model-driven-apps/deactivate-app) or [delete](/power-apps/maker/model-driven-apps/delete-model-driven-app) the Sales Hub app to avoid any accidental usage.
+          No, the Sales Hub app is for the Sales Enterprise and Sales Premium customers only. Though this app may be visible in Sales Professional environments, the users aren't entitled to use it. Sales Professional users are entitled to use the Sales Professional app only.
+
+      - question: Can I add extra storage capacity to users with Sales Professional license?
+        answer: |
+          No. You can't add extra storage capacity to users with Sales Professional license.
 
       - question: Where can I find the Sales Professional and Sales Insights documentation?
-        answer: We've merged the documentation for Sales Enterprise, Sales Professional, and Sales Insights into this unified Sales documentation. The license and role requirements section at the top of an article indicates whether the content applies to the license you have. Any bookmarks you have should automatically redirect to the corresponding pages in the new unified documentation.
+        answer: |
+          We've merged the documentation for Sales Enterprise, Sales Professional, and Sales Insights into this unified Sales documentation. The license and role requirements section at the top of every article indicates whether the content applies to the license you have. Any bookmarks you have should automatically redirect to the corresponding pages in the new unified documentation.
+
+  - name: Install the Sales Professional app
+    questions:
+      - question: Why am I unable to install the Sales Professional app in my environment?
+        answer: |
+          Your environment might be one of the following because of which you are unable to install:  
+            - Has Dataverse only
+            - Is a default environment
+            - Dynamics 365 apps are disabled
+            - Doesn't have a database  
+
+            More information: [Create and manage environments in the Power Platform admin center](/power-platform/admin/create-environment#create-an-environment-and-add-model-driven-apps)
+
+      - question: Why am I unable to access the Sales Professional app after installation?
+        answer: |
+              To access the Sales Professional app, make sure that the app is installed properly. More information: [Install the Sales Professional app](provision-sales-professional-instance.md)  
+
+              Also, make sure that the you are added to the target environment and the Sales Professional app access security role is assigned to you.
+
+  - name: Sales Professional data
+    questions:
+      - question: What happens to my organization data if I switch from Sales Professional to Sales Enterprise or vice versa?
+        answer: |
+          Your organization data is preserved when you switch from Sales Professional to Sales Enterprise or vice versa.  
+          
+          More information: [Move from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise](upgrade-sales-professional-sales-enterprise.md) and [Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional](move-sales-enterprise-sales-professional.md)
+
+      - question: What happens to my organization data if my Sales Professional license expires?
+        answer: |
+          The environment is disabled, users will not be able to access it, and the data will be deleted after 30 days. However, if there are any Dynamics 365 Sales related license available in the tenant, the data will be preserved.
 
   - name: Entity - Activity
     questions:
@@ -210,7 +249,7 @@ sections:
           The following table shows the effect of changing the product price in **Price list** on the **Price Per Unit** of the **Order** product form.
 
           | Entity state | IsPriceLocked | Pricing | Does **Price Per Unit** change? |
-          |------------|-------------|-------|----------------------------------------------------------------------|
+          |--------------|---------------|---------|---------------------------------|
           | Editable | Yes | Default or Override | No |
           | Editable | No | Default | Yes |
           | Editable | No | Override | No |
@@ -248,7 +287,7 @@ sections:
     questions:
       - question: Is there any administration setup required to use focused view?
         answer: |
-          No. Focused view is available out-of-the-box and doesn't require any setup. However, if disabled, an administrator can enable it. More information: [Configure focused view as default](set-focused-view-as-default.md).
+          No. Focused view is available out of the box and doesn't require any setup. However, if it's disabled, an administrator can enable it. More information: [Configure focused view as default](set-focused-view-as-default.md).
 
       - question: Is focused view available on custom apps?
         answer: |

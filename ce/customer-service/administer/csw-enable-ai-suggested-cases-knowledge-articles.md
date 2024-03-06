@@ -75,12 +75,11 @@ If the language verification passes, the suggestions are displayed in the langua
 Make sure that the following requirements are met:
 
 - Customer Service workspace is installed and accessible. More information: [Customer Service workspace](../implement/csw-overview.md)
-- The	productivity pane is enabled. By default, the productivity pane is enabled out of the box. More information: [Enable productivity pane](app-profile-manager.md#enable-prod-pane).
+- The	productivity pane is enabled. More information: [Productivity pane](productivity-pane.md).
 - The System Administrator role is granted.
 - The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
 - If administration mode is enabled, make sure that background operations are also enabled. More information: [Administration Mode](/power-platform/admin/admin-mode).
 - For the AI suggestions to work, customer-managed keys should be disabled.
-
 
 ## Enable AI suggestions for similar cases
 

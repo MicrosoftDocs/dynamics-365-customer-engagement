@@ -159,8 +159,7 @@ For known issues in diagnostics, see [Known issues in Customer Service](https://
 ### See also
 
 [Overview of skill based routing](overview-skill-work-distribution.md)  
-[Assignment methods for Queues](assignment-methods.md)  
-[Create and manage routing rules](../routing-rules.md)  
+[Assignment methods for Queues](assignment-methods.md) 
 [Routing and assignment rules](../routing-workstream-queues.md)  
 [Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md)  
 [Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md)  

@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 02/19/2024
+ms.date: 02/22/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -71,7 +71,7 @@ You can customize the work list card to display the information that you want to
 The customization that you make to the work list card is specific to the entity type. For example, if you customize the work list card for the Lead entity, the customization is applied only to the Lead entity. The customization isn't applied to the Account, Contact, Opportunity, or other entities. These customizations also affect the sales accelerator workspace view. 
 
 > [!NOTE]
-> To customize the work list card as a seller, you must have read permissions to the **msdyn_workqueueusersetting** entity. Contact your administrator to provide the required permissions.
+> You need to have read permissions for the **msdyn_workqueueusersetting** entity to see the **Settings** icon and customize the work list card. Contact your administrator to provide the required permissions.
 
 1. In the focused view page, on the work list pane, select **More options** and then select **Settings**.  
 
@@ -100,12 +100,19 @@ The customization that you make to the work list card is specific to the entity 
         - To add an icon in the same row, hover over an existing attribute and select **More options** > **Add an icon**. You can show up to three icons in a row.
         - To add a row, select the add icon (**+**). You can show up to four rows of information in a work item.
         - To delete a field or an icon, hover over it and select **More options** > **Remove**.
-    
+        
+        >[!NOTE]
+        >Currently, the **Follow indicator** option doesn't work in focused view. 
+ 
     - To remove all customizations and restore work items to their original appearance, select **Reset to default**.
 
     The **Preview** section displays a preview of the work list card based on the customizations that you make.
 
 1. Select **Save**.
+
+## Increase the number of records displayed in focused view
+
+You can configure the number of records that are displayed per page in the focused view. By default, 50 records are displayed, but you can increase this number up to a maximum of 250. To do so, go to your personalization settings, and under the **General** tab configure the **Set the number of rows shown per page in any list of rows** option to increase the number of records displayed per page in focused view. More information: [Set personal options](/power-apps/user/set-personal-options)
 
 ### See also
 
