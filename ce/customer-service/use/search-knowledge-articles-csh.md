@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 07/21/2023
+ms.date: 03/06/2024
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -200,6 +200,8 @@ In Customer Service workspace and Omnichannel for Customer Service, the article 
 
 You can perform the following actions on knowledge articles you view in an app tab:
 
+- If the article has multiple sections, expand all the sections of the article to view the entire article and collapse all the sections, as required.
+
 - Select **Copy URL** to copy the external URL of the article to share with your customer in channels like chat or email.
 - If your administrator has turned on [feedback and ratings for knowledge articles](../../customerengagement/on-premises/customize/enable-entity-feedback.md#enable-an-entity-for-feedback-and-ratings), you can select the thumbs-up or thumbs-down icon to rate how helpful the article was. If you select the thumbs-down icon, a comment box appears, where you can enter the reason for your rating.
 
@@ -212,6 +214,8 @@ In Customer Service Hub, select an article title. The full article opens inline,
 If you see an error like this when you open an article: "Update your origins allow list if any iframe in the article doesn't work or displays error," ask your administrator to [update your origins allow list](../administer/configure-knowledge-article-origin-allow-list.md).
 
 You can perform the following actions on knowledge articles you view inline:
+
+- If the article has multiple sections, expand all the sections of the article to view the entire article and collapse all the sections, as required.
 
 - Link it to a record, or, if it's already linked, unlink it.
 - [Email it to a customer](email-articles.md#email-a-knowledge-article).
