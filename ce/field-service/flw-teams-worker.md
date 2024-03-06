@@ -79,9 +79,9 @@ Your admin might have installed the app for your organization. If you see the Fi
 
 1. Within the details of the work order, you can:
 
-   - Change any fields except Service account and Work order type.
+   - Change any fields except **Service account** and **Work order type**.
 
-   - Open a map to locate the service address.
+   - Open a map to locate the service address. Select the **Open in Bing Maps** :::image type="icon" source="media/fsp-flm-map-icon.png"::: icon.
 
    - Open the work order in Dynamics 365 Field Service. Select the pop-out :::image type="icon" source="media/fsp-pop-out-icon.png"::: icon.
 
