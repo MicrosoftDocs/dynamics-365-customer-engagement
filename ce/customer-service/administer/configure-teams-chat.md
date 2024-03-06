@@ -104,7 +104,6 @@ The following data security and privacy considerations apply for Teams chat func
 1. Save the changes.<br>
    Teams settings are now enabled for Dynamics 365 Customer Service Hub, Customer Service workspace, and your custom apps (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record.
     
-
 ### Add the Teams chat settings page for specific multisession users
 
 If you're using the default profile, once you complete the steps in [Add the Teams chat settings page to the sitemap of your app](#add-the-teams-collaboration-and-chat-settings-page-to-the-sitemap-of-your-app), Teams chat is enabled.
@@ -112,6 +111,8 @@ If you're using the default profile, once you complete the steps in [Add the Tea
 If you want Teams chat to work for specific users, you must enable the feature for your custom profile. For more information about creating custom profiles, see [Agent experience profiles](/dynamics365/customer-service/administer/overview).
 
 To enable Teams chat settings for a custom multisession user, complete the following steps:
+
+1. Create the custom profile from the default profile. More info: [Create and use agent experience profiles](/dynamics365/customer-service/administer/create-agent-experience-profile)
 
 1. In Dynamics 365, go to one of the apps, and then perform the following steps.
 

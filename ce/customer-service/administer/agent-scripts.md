@@ -30,7 +30,13 @@ Agent scripts reduce the human errors involved, because agents know which action
 
 ## Create agent scripts
 
-Create agent scripts in the Customer Service admin center. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
+Create agent scripts in the Customer Service admin center by following these steps:
+
+1. In the **Customer Service admin center** site map, select **Productivity** in **Agent experience**. 
+1. On the **Productivity** page, select **Manage** for **Agent scripts**. 
+1. On the **Agent scripts** page, select **New**.
+
+The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
 
 1. On the **New Agent script** page, specify the following:
 

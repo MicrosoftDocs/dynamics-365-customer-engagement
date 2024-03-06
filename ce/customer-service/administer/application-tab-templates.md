@@ -33,7 +33,7 @@ You need the System Administrator role to perform the tasks mentioned in this ar
 
 1. Select **Customer Service admin center**, and perform the steps.
 
-    1. In the site map, select **Workspaces** in **Agent experience**.
+    1. In the **Customer Service admin center** site map, select **Workspaces** in **Agent experience**.
     1. On the **Workspaces** page, select **Manage** for **Application tab templates**.
 
 1. Select **New** on the **Active Application Tab Templates** page.

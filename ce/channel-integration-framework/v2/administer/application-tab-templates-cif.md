@@ -30,11 +30,11 @@ As an administrator, you can create multiple application tab templates.
 
 ## Create or manage application tab templates
 
-To create or manage an application tab template, go to the agent experience manager. For more information, see [Create application tab templates](../../../customer-service/administer/application-tab-templates.md#create-application-tab-templates).
+To create or manage an application tab template, go to the agent experience profile. For more information, see [Create application tab templates](../../../customer-service/administer/application-tab-templates.md#create-application-tab-templates).
 
 ## See also
 
-[Agent experience manager overview](../../../customer-service/administer/overview.md)
+[Agent experience profile overview](../../../customer-service/administer/overview.md)
 
 [Manage session templates](session-templates-cif.md)
 
