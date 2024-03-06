@@ -19,7 +19,7 @@ The features that have been deprecated in  Dynamics 365 Sales are listed in this
 > [!Important]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
-## Seller availability using Outlook calendar
+## Set seller availability using Outlook calendar
 
 Starting from April 1, 2024, the feature allowing configuration of seller availability through the Outlook calendar in work assignments will be deprecated. This deprecations is to enhance the safety and security of your organization's data. Alternatively, you can use the Dynamics 365 CRM calendar to configure the seller availability. [Learn more](wa-manage-seller-availability.md)
 
