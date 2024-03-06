@@ -53,6 +53,7 @@ Focused view is categorized into the following sections.
    - **Search, filter, and sort**: These options are displayed at the top of the work list item view. You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between focused view and list view. Filters and sorting that are available here are similar to the list view. The attributes available in the view are displayed as filters. These filters include fields added through workspace customizations in the sales accelerator, any new fields added to the work list card through card customization, and all columns available on the grid.  
     If you want to add more filters to the view, you can create an advanced filter.
      - **Advanced filter**: Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view. Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options.  
+
     Attributes of type lookup are not displayed in the filters.  
     For lead and opportunity entities, filters might display deprecated attribute options. To remove these filters, go to work list card customization and remove the **Predictive scoring** field.  
     
