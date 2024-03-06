@@ -1,23 +1,23 @@
----  
+---
 title: Sign up for a free Dynamics 365 Sales trial
-description: Learn how to sign up for and start a free Dynamics 365 Sales trial. Explore the app with tours and videos and find more learning resources.
+description: Sign up for a free Sales trial and get access to key features, test the app with sample data, and try out your own customer data.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 02/06/2023
+ms.date: 03/05/2024
 ms.topic: how-to
-ms.custom: 
-    template-trial-setup
-    bap-template
 ms.reviewer: shujoshi
+ms.custom:
+  - template-trial-setup bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:03/05/2024
 ---
 
 # Sign up for a free Dynamics 365 Sales trial
 
 Dynamics 365 Sales offers a 30-day free trial with the Sales Premium license. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales features](overview.md).
 
-[!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
-
-To sign up for the trial:
+**To sign up for the trial:**
 
 1. Go to the [Sales overview page](https://dynamics.microsoft.com/sales/overview/) and select **Try for free**.
 
@@ -35,14 +35,14 @@ To sign up for the trial:
 
 ## What to try
 
-Your trial environment includes many of the same features as the paid version. The following links guide you through some of the key features:
+Your trial environment includes many of the same features as the paid version. [Learn the basics](user-guide-learn-basics.md) and then deep dive into the features that matter most to your business.
 
-- [Accelerate your sales](sales-accelerator-intro.md)
-  - [Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)
-  - [Manage sequences](create-manage-sequences.md)
 - [Nurture your sales from lead to order](nurture-sales-from-lead-order-sales.md)
   - [Preview: Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)
   - [Create an opportunity](create-edit-opportunity-sales.md)
+- [Accelerate your sales](sales-accelerator-intro.md)
+  - [Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)
+  - [Manage sequences](create-manage-sequences.md)
 - [Project your revenue](project-accurate-revenue-sales-forecasting.md)
   - [Configure forecasting](configure-forecast.md)
   - [View a forecast](view-forecasts.md)
