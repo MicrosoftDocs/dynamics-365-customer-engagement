@@ -28,8 +28,7 @@ The workstream can be one of the following types:
 
 > [!IMPORTANT]
 >
-> - Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md)
-> - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center (deprecated) app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
+> Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md)
 
 ## Create a workstream
 
@@ -185,8 +184,7 @@ You can keep the default templates for sessions and notifications or update to u
 [Configure persistent chat](persistent-chat.md)  
 [Set up record routing](set-up-record-routing.md)  
 [Configure routing for email records](configure-routing-for-email-records.md)  
-[Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
-[Create workstream for entity record routing in Omnichannel Administration](../set-up-entity-workstream.md)  
+[Manage users in Omnichannel for Customer Service](users-user-profiles.md)   
 [Work with queues](queues-omnichannel.md)  
 [Automatically identify customers using pre-chat responses](record-identification-rule.md)  
 

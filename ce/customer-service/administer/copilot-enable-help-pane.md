@@ -66,7 +66,7 @@ Copilot uses articles that are two nodes down the configured domain.
 
 > [!NOTE]
 > - The knowledge base content is refreshed every day.
-> - Web domains are used by Copilot to only draft emails and chat replies.
+> - External websites are used by Copilot to draft emails and chat replies only.
 
 ## Set up filters
 
