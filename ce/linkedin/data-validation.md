@@ -1,8 +1,8 @@
 ---
-title: "Data validation capabilities of LinkedIn Sales Navigator"
-description: "Learn how to access and use the data validation capabilities of LinkedIn Sales Navigator. The solution uses LinkedIn information to validate contact records."
-ms.date: 07/09/2019
-ms.topic: article
+title: Data validation capabilities of LinkedIn Sales Navigator
+description: Learn how to access and use the data validation capabilities of LinkedIn Sales Navigator. The solution uses LinkedIn information to validate contact records.
+ms.date: 03/08/2024
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 keywords: "installation, setup, sales navigator"
@@ -57,7 +57,9 @@ To update the org chart for a specific contact, perform the following steps in t
 
 ## Ignore the contact details
 
-To ignore a proposed update of an org chart, select **Ignore Update**  in the **Verify Contact Details** pane.
+To ignore a proposed update of an org chart, select **Ignore**  in the **Verify Contact Details** pane. This option ignore the contact's change only for that change. However, if the contact changes their company again, you'll get the notification again.  
+
+To ignore a suggested update to an org chart, choose **Ignore** in the **Verify Contact Details** pane. This action dismisses only the current company change made by the contact. However, if the contact changes their company again, you will receive the notification again.
 
 ### See also
 
