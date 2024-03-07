@@ -278,6 +278,8 @@
         items: 
         - name: Use Copilot to solve customer issues 
           href: use-copilot-features.md
+        - name: Use Copilot to summarize cases and conversations
+          href: copilot-use-summary.md
         - name: Summarize cases
           href: copilot-use-summary.md#summarize-cases
         - name: Summarize conversations
