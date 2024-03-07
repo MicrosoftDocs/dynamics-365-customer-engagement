@@ -18,13 +18,13 @@ The Copilot help pane allows agents to use Copilot features such as respond to q
 ## Prerequisites
 
 - See [Prerequisites](configure-copilot-features.md#prerequisites) for the list of prerequisites to enable and use the features in the Copilot pane.
-- You must have the [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) configured in your environment for write an email and ask a question features. 
+- You must have [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) configured in your environment for write an email and ask a question features. 
 - Your knowledge article parameters are as follows:
    - Updated with the latest version
    - The state is set to Published
 
-> [!NOTE]
-> Copilot uses the content attribute only in knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
+ > [!NOTE]
+ > Copilot uses the content attribute only in knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
 
 - If you aren't in the North America region and you want to use the web search powered by Bing feature, you must enable data movement across regions and Bing search in Power Platform admin center. See [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot).
 
