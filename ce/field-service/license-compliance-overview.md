@@ -22,6 +22,8 @@ The license checking rules are part of the Power Apps solution checker. As an ad
 
 The license checking rules don't have access to the licenses in your organization. They check for the presence of any Field Service-related tables, operations, messages, and controls in your solution that require a Dynamics 365 license, regardless of whether you have the license or not. If you have the appropriate license, you can safely ignore the messages from the solution checker. If you don't have the appropriate license, either buy it or remove the flagged tables, operations, messages, and controls from your solution.
 
+For more information, see [Objects validated by the solution checker](license-compliance-field-service.md).
+
 ## See also
 
 - [Use solution checker to validate your solutions](/power-apps/maker/data-platform/use-powerapps-checker)
