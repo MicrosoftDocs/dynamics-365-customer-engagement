@@ -23,7 +23,7 @@ Perform the following steps to enable agent call quality surveys:
 
 1. In Customer Service admin center, select **Workspaces** and then select **Agent call quality survey (preview)**. You can enable the survey from **Voice settings** in voice workstreams. 
 3. Switch the **Agent call quality survey** toggle to **On**.
-4. Specify the frequency at which the survey should be presented to the agent. Optionally, you can also switch **Set survey duration** toggle to **On** and specify the duration during which the survey must appear for the agent.
+4. Specify the frequency at which the survey should be presented to the agent. Optionally, you can also switch the **Set survey duration** toggle to **On** and specify the duration during which the survey must appear for the agent.
 
  :::image type="content" source="../media/voice-configure-rating.png" alt-text="Screen shot of the Agent call quality survey page." :::
 
