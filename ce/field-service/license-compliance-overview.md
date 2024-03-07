@@ -27,4 +27,3 @@ The license checking rules don't have access to the licenses in your organizatio
 - [Use solution checker to validate your solutions](/power-apps/maker/data-platform/use-powerapps-checker)
 - [Objects validated with solution checkers](license-compliance-field-service.md)
 - [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)
-- 
