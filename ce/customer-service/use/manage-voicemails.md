@@ -38,7 +38,7 @@ You can do the following tasks for the voicemail that you open:
   > - This is a preview feature. 
   > - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback. <br>
 
-  Creates a case from a voicemail in open state. The application displays the case form and enables you to specify the relevant details required to create a case. You can see the case in the **Regarding** field. The state of the voicemail doesn't change when you create a case. The voicemail remains in the open state until you close it. If you create more than one case from the same voicemail, only the latest case is shown. The previous cases are overwritten and no longer available.<br>
+  Creates a case from a voicemail in open state. The application displays the case form and enables you to specify the relevant details required to create a case. You can see the case in the **Regarding** field. The state of the voicemail doesn't change when you create a case. The voicemail remains in the open state until you close it. If you create more than one case from the same voicemail, only the latest case is shown.<br>
 
 - **Call Recording**: Select the tab to view the original voice call recording that preceded the voicemail. If the call goes straight to voicemail and the customer didn't talk to a bot, a recording or transcript won't be available on this tab.  Additionally, if your voice workstream was set to  have transcription only and the customer talked to a bot, you won't see a call recording here, only the transcript will be available.
 - **Download audio**: Select to download the voicemail.
