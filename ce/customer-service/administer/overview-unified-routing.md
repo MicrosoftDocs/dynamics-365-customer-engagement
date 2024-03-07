@@ -1,7 +1,7 @@
 ---
 title: Overview of unified routing
 description: Overview of unified routing in Customer Service.
-ms.date: 05/31/2023
+ms.date: 02/29/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -72,7 +72,6 @@ The intelligent skill finder depends upon the custom AI Builder category classif
 [Historical analytics for Unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md)  
 [Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md)  
 [FAQ on unified routing](unified-routing-faqs.md)  
-[Migrate workstreams created in Omnichannel Administration app](migrate-workstreams.md)  
 [Export and import configuration data for the record channel](../export-import-config-data-for-records.md)  
 [Export import data for the live chat channel](../export-import-config-data-for-live-chat.md)  
 
