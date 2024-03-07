@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/06/2024
+ms.date: 03/07/2024
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -213,14 +213,14 @@ In Customer Service Hub, select an article title. The full article opens inline,
 
 If you see an error like this when you open an article: "Update your origins allow list if any iframe in the article doesn't work or displays error," ask your administrator to [update your origins allow list](../administer/configure-knowledge-article-origin-allow-list.md).
 
+:::image type="content" source="../media/km-inline-article-view.png" alt-text="Screenshot of a knowledge article viewed inline in the search control.":::
+
 You can perform the following actions on knowledge articles you view inline:
 
 - If the article has multiple sections, expand all the sections of the article to view the entire article and collapse all the sections, as required.
 
 - Link it to a record, or, if it's already linked, unlink it.
 - [Email it to a customer](email-articles.md#email-a-knowledge-article).
-
-    :::image type="content" source="../media/km-inline-article-view.png" alt-text="Screenshot of a knowledge article viewed inline in the search control.":::
 
 - Select the **Copy Link** icon ![Copy knowledge article link button Dynamics 365 Customer Service](../media/copy-link-button.png "Copy knowledge article link button Dynamics 365 Customer Service") to copy the external URL of the article to share with your customer in channels like chat or email.
 
