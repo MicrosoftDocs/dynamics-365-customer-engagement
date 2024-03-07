@@ -52,7 +52,7 @@ Before you enable auto capture, perform the following tasks:
 
 - Use Exchange as the server and Outlook as the mail client. 
 - Approve the email addresses of users to allow queries against their Exchange data (this requires tenant-level admin privileges). To learn more, see [Approve email](/dynamics365/customer-engagement/admin/connect-exchange-online#approve-email). 
--	Set up server-side synchronization. To learn more, see [Set up server-side synchronization of email, appointments, contacts, and tasks](/dynamics365/customer-engagement/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
+-	[Set up server-side synchronization](/power-platform/admin/email-message-filtering-correlation).
 
 ### Enable auto capture
 
@@ -67,6 +67,22 @@ Before you enable auto capture, perform the following tasks:
 
 > [!NOTE]
 > For more information about auto capture and how it can help your users, see [Capture customer-related activities with auto capture](auto-capture.md).
+
+
+### Untracked emails and meetings
+
+From version 9.2.24031.0010, Dynamics 365 Sales follows the [principle of least privilege access](/entra/identity-platform/secure-least-privileged-access), which blocks access to untracked emails and meetings for users who have [conditional access policies](/entra/identity/conditional-access/concept-conditional-access-policy-common?tabs=secure-foundation) on their tenants. If a user is unable to see untracked emails and meetings, verify whether the issue is due to a conditional access policy. 
+
+1. Sign in to the Microsoft Entra admin center as at least a Conditional Access Administrator.
+2. Go to **Identity** > **Monitoring & health** > **Sign-in logs**.
+3. Switch to the **User sign-ins (non-interactive)** tab and add the following filters: 
+   - **Application** contains **Dataverse**
+   - **Resource** contains **Microsoft Graph** 
+   - **Status** equals **Failure** 
+    
+    If there are any results for the affected users, then the issue is due to a conditional access policy. As an alternative, users can use [Microsoft Copilot for Sales in Outlook](/microsoft-sales-copilot/save-outlook-activities-crm) or track all emails and meetings automatically using [server-side synchronization](/power-platform/admin/email-message-filtering-correlation).
+
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
