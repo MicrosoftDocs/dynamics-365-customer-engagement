@@ -31,8 +31,13 @@ You can do the following tasks for the voicemail that you open:
 - **Return Call**: Displays a dialer with the customer number automatically filled in if you have outbound profiles configured. More information: [Outbound profiles](../administer/configure-outbound-inbound-profiles.md)
 - **Add to Queue**: Add the voicemail to a different queue. If the voicemail is routed to a pick workstream, it will be available as a pick item in the new queue.  If the voicemail is routed to a push workstream, it will be assigned to an agent in the new queue.
 - **Convert to Case (preview)**: <br>
+
   [This option is in preview and is subject to change.] <br>
-  [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)] <br>
+
+  > [!IMPORTANT]
+  > - This is a preview feature. 
+  > - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback. <br>
+
   Creates a case from a voicemail in open state. The application displays the case form and enables you to specify the relevant details required to create a case. You can see the case in the **Regarding** field. The state of the voicemail doesn't change when you create a case. The voicemail remains in the open state until you close it. If you create more than one case from the same voicemail, only the latest case is shown. The previous cases are overwritten and no longer available.<br>
 
 - **Call Recording**: Select the tab to view the original voice call recording that preceded the voicemail. If the call goes straight to voicemail and the customer didn't talk to a bot, a recording or transcript won't be available on this tab.  Additionally, if your voice workstream was set to  have transcription only and the customer talked to a bot, you won't see a call recording here, only the transcript will be available.
