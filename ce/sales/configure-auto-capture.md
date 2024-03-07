@@ -80,7 +80,7 @@ From version 9.2.24031.0010, Dynamics 365 Sales follows the [principle of least 
    - **Resource** contains **Microsoft Graph** 
    - **Status** equals **Failure** 
     
-    If there are any results for the affected users, then the issue is due to a conditional access policy. As an alternative, users can use [Microsoft Copilot for Sales in Outlook](/microsoft-sales-copilot/save-outlook-activities-crm) or track all emails and meetings automatically using [server-side synchronization](/power-platform/admin/email-message-filtering-correlation).
+    If there are any results for the affected users, then the issue is due to a conditional access policy. As an alternative, users can use [Microsoft Copilot for Sales in Outlook](/microsoft-sales-copilot/save-outlook-activities-crm) or you can configure [server-side synchronization](/power-platform/admin/email-message-filtering-correlation) to track all emails and meetings automatically.
 
 
 
