@@ -69,28 +69,13 @@ Before you enable auto capture, perform the following tasks:
 > For more information about auto capture and how it can help your users, see [Capture customer-related activities with auto capture](auto-capture.md).
 
 
-### Untracked emails and meetings
-
-From version 9.2.24031.0010, Dynamics 365 Sales follows the [principle of least privilege access](/entra/identity-platform/secure-least-privileged-access), which blocks access to untracked emails and meetings for users who have [conditional access policies](/entra/identity/conditional-access/concept-conditional-access-policy-common?tabs=secure-foundation) on their tenants. If a user is unable to see untracked emails and meetings, verify whether the issue is due to a conditional access policy. 
-
-1. Sign in to the Microsoft Entra admin center as at least a Conditional Access Administrator.
-2. Go to **Identity** > **Monitoring & health** > **Sign-in logs**.
-3. Switch to the **User sign-ins (non-interactive)** tab and add the following filters: 
-   - **Application** contains **Dataverse**
-   - **Resource** contains **Microsoft Graph** 
-   - **Status** equals **Failure** 
-    
-    If there are any results for the affected users, then the issue is due to a conditional access policy. As an alternative, users can use [Microsoft Copilot for Sales in Outlook](/microsoft-sales-copilot/save-outlook-activities-crm) or you can configure [server-side synchronization](/power-platform/admin/email-message-filtering-correlation) to track all emails and meetings automatically.
-
-
-
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
 [Introduction to administering Sales Insights](intro-admin-guide-sales-insights.md)  
-[Auto capture FAQs](faqs-sales-insights.md#auto-capture)
-
+[Auto capture FAQs](faqs-sales-insights.md#auto-capture)  
+[Issue: Unable to view untracked emails and meetings in auto capture](/troubleshoot/dynamics-365/sales/troubleshoot-emails-issues#issue-unable-to-view-untracked-emails-and-meetings-in-auto-capture)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 
