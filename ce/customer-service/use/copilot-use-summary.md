@@ -14,9 +14,6 @@ ms.custom: bap-template
 
 You can use Copilot to summarize cases and conversations if your administrator has enabled this feature.
 
-> [!NOTE]
-> Copilot conversation and case summaries are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
-
 ## Prerequisites
 
 Your administrator has enabled the Copilot conversation summary feature.

@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 The Copilot help pane allows agents to use Copilot features such as respond to questions, compose an email, and draft a chat response in Customer Service workspace.
 
-> [!NOTE]
-> Respond to questions and compose an email features are generally available in the North America region only. These features are in preview in the rest of the supported regions.
 
 ## Prerequisites
 
