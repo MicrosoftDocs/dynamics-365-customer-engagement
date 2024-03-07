@@ -1,10 +1,11 @@
 ---
-title: "Set up the enhanced email experience in Dynamics 365 Sales"
-description: "Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on."
+title: Set up the enhanced email experience
+description: Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on.
 ms.date: 03/08/2024
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: shujoshi
 ---
 # Set up enhanced email 
 
@@ -18,7 +19,6 @@ Set up the enhanced email experience so sales reps can compose and send email wi
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Enable the enhanced email
 
