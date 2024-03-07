@@ -1,10 +1,11 @@
 ---
-title: "Disable LinkedIn Sales Navigator in Dynamics 365 | Microsoft Docs"
-description: "To disable LinkedIn Sales Navigator in Dynamics 365, go to Advanced Setting, select LinkedIn Sales Navigator, and turn off the integration."
-ms.date: 06/25/2020
-ms.topic: article
+title: Disable LinkedIn Sales Navigator in Dynamics 365
+description: To disable LinkedIn Sales Navigator in Dynamics 365, go to Advanced Setting, select LinkedIn Sales Navigator, and turn off the integration.
+ms.date: 03/07/2024
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
+ms.owner: shujoshi
 ms.custom: 
   - "dyn365-sales"
 ---
@@ -13,24 +14,15 @@ ms.custom:
 
 Disabling the integration will stop showing the Sales Navigator controls.
 
-1. In your app, select **Settings** ![Settings.](../sales/media/settings-icon.png), and then select **Advanced Settings**.
+1. In your app, at the lower-left, select the **Change area** icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
 
-    > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map.](../sales/media/advanced-settings-option.png "Advanced Settings link in the site map")
+1.	Under **General Settings**, select **LinkedIn integration**.  
 
-    The **Business Management settings** page opens in a new browser tab.
+1. Turn off the **Enable Sales Navigator integration** toggle.
 
-2. Select **LinkedIn Sales Navigator**.
+    :::image type="content" source="../sales/media/disable-linkedin-sales-navigator.png" alt-text="Screenshot of disabling LinkedIn Sales Navigator.":::
 
-    > [!div class="mx-imgBorder"]  
-    > ![Select LinkedIn Sales Navigator.](media/select-linkedin-sales-navigator-option-setting.png "Select LinkedIn Sales Navigator")
-
-3. Turn off the **Enable Sales Navigator integration** toggle.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Disable LinkedIn Sales Navigator.](media/disable-linkedin-sales-navigator.png "Disable LinkedIn Sales Navigator")
-
-4. Select **OK**.
+1. Select **Save**.
 
 ### See also
 
