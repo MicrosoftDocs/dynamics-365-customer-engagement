@@ -1,7 +1,7 @@
 ---
 title: Schedule a service activity in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to schedule a service activity in service scheduling in Dynamics 365 Customer Service
-ms.date: 02/22/2024
+ms.date: 03/07/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
