@@ -634,8 +634,10 @@
         href: configure-bot-virtual-agent.md
     - name: Analytics dashboards and insights
       items:
-      - name: Supported regions and languages, and service limits for analytics and insights
+      - name: Supported regions and languages for analytics and insights
         href: cs-region-availability-service-limits.md
+      - name: Service limits for analytics and insights
+        href: ana-ser-limits.md
       - name: Configure analytics and insights dashboards
         href: configure-customer-service-analytics-insights-csh.md
       - name: Manage real-time analytics dashboards
