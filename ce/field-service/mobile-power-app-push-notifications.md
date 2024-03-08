@@ -88,7 +88,7 @@ You can create push notification with custom triggers to match your business sce
 
     - Open app: Yes
     - Entity: Bookable Resource Booking
-    - Form or view:  Form – Booking and Work Order
+    - Form:  Form – Booking and Work Order
     - Record ID: Bookable Resource Booking
 
    To provide a custom message:
