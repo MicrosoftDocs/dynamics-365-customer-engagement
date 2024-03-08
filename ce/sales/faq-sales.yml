@@ -274,7 +274,6 @@ sections:
         answer: |
           By default, the forecast calculation for lost opportunities is based on the actual revenue. To change it to estimated revenue, go to the **Layout** step of the forecast configuration, select the **Lost** forecast category, and then  select **Est. Revenue** in the **Amount** field. For more information, go to [Choose layout and columns](choose-layout-and-columns-forecast.md).
 
-
       - question: Can I manually set the forecast category of an opportunity as Won or Lost?
         answer: |
           Technically, you can. The **Opportunity** form and editable grids, other than the grid in the forecast, allow the selection of **Won** or **Lost** as forecast categories.
@@ -291,13 +290,13 @@ sections:
 
       - question: Why isn't the focused view opening by default for leads?
         answer: |
-          The following are some of the reasons why the focused view isn't opening by default for leads:
+          The following list includes the possible reasons why the focused view isn't opening by default for leads:
 
             - Your administrator has set a custom data set as the default for the lead entity, and the focused view will not override this. If you want the focused view to be the default, you must update this customization to set the focused view as the default, or remove the existing customizations.
 
-            - After enabling early access, if you switch to a different grid using the **Show as** option, focused view remembers the most recently used grid for that entity type and opens it the next time. To resolve this, go back to focused view using the **Show as** option and then the grid opens in focused view.
+            - After enabling early access, if you switch to a different grid using the **Show as** option, focused view remembers the most recently used option for that entity type and opens it the next time. To resolve this, select **Show as** > **Focused view** to open the focused view.
 
-            - Your administrator would have disabled the option to open focused view for leads. To resolve this, enable focused view for leads. 
+            - Your administrator would have disabled focused view for leads. More information: [Enable focused view for all records](enable-focused-view.md)  
 
       - question: Is focused view available on custom apps?
         answer: |

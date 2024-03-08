@@ -73,9 +73,9 @@ The following considerations apply to the enhanced email experience:
 
 - The enhanced email popup requires a screen size of at least 600 x 840 pixels. If the screen size is smaller, the general email composer will be displayed. Also, the email popup with enhanced experience in not supported on mobile phones.
 
-- Navigate to other records is not possible when you open the enhanced email popup. 
+- Navigating to other records is not possible when you open the enhanced email popup. 
 
-- You can have up to three email popups open simultaneously. 
+- You can open up to three email popups simultaneously. 
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
