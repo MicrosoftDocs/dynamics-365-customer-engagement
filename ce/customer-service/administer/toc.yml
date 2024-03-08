@@ -506,6 +506,10 @@
         href: card-support-in-channels.md
       - name: Preconfigured automated message triggers for asynchronous channels
         href: preconfig-auto-message-triggers-async-channels.md
+      - name: Social channel setup FAQs
+        items:
+        - name: FAQ for Facebook channel setup
+          href: facebook-channel-setup-faq.md
     - name: Advanced settings for chat and channels
       items:
       - name: Configure operating hours
