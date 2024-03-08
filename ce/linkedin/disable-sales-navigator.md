@@ -14,7 +14,7 @@ ms.custom:
 
 Disabling the integration will stop showing the Sales Navigator controls.
 
-1. In your app, at the lower-left, select the **Change area** icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
+1. In your app, at the lower-left corner, select the **Change area** icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
 
 1.	Under **General Settings**, select **LinkedIn integration**.  
 
