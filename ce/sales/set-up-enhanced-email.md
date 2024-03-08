@@ -1,10 +1,11 @@
 ---
-title: "Set up the enhanced email experience in Dynamics 365 Sales"
-description: "Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on."
-ms.date: 10/26/2021
-ms.topic: article
+title: Set up the enhanced email experience
+description: Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on.
+ms.date: 03/08/2024
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: shujoshi
 ---
 # Set up enhanced email 
 
@@ -18,7 +19,6 @@ Set up the enhanced email experience so sales reps can compose and send email wi
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Enable the enhanced email
 
@@ -66,6 +66,17 @@ If you're using a custom app or Sales Professional app, you can enable or disabl
 
 5. Select **Ok**.
 ---
+
+## Considerations 
+
+The following considerations apply to the enhanced email experience:
+
+- The enhanced email popup requires a screen size of at least 600 x 840 pixels. If the screen size is smaller, the general email composer will be displayed. Also, the email popup with enhanced experience in not supported on mobile phones.
+
+- Navigating to other records is not possible when you open the enhanced email popup. 
+
+- You can open up to three email popups simultaneously. 
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
