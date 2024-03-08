@@ -12,7 +12,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Supported regions and languages for analytics and insights
 
-Depending on your location, certain features are available for in Dynamics 365 Customer Service insights. [Service limits ](ana-ser-limits.md#service-limits-for-analytics-and-insights) also apply.
+Depending on your location, certain features are available in Dynamics 365 Customer Service insights. [Service limits ](ana-ser-limits.md#service-limits-for-analytics-and-insights) also apply.
 
 ## Prerequisites
 
