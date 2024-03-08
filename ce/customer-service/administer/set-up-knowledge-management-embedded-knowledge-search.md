@@ -260,7 +260,7 @@ When an agent selects the record, the system displays the article inline on the 
 
 ##  View recently accessed knowledge articles for cases
 
-
+You can view a min of 1 to a max of 8 articles
 
 ### See also  
 
