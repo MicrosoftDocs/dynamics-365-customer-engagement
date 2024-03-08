@@ -29,9 +29,9 @@ If you're creating a test user within the Facebook app, select to automatically 
 ### See also
 
 [Configure a Facebook channel](configure-facebook-channel.md)<br>
-[Understand and create workstreams](create-workstreams.md)<br>  
-[Configure automated messages](configure-automated-message.md)<br> 
-[Configure a prechat survey](configure-pre-chat-survey.md)<br> 
+[Understand and create workstreams](create-workstreams.md)<br>
+[Configure automated messages](configure-automated-message.md)<br>
+[Configure a prechat survey](configure-pre-chat-survey.md)<br>
 [Configure a post conversation survey](configure-post-conversation-survey.md)<br>
 [Delete a configured channel](delete-channel.md)<br>
 [Support for live chat and asynchronous channels](card-support-in-channels.md)
