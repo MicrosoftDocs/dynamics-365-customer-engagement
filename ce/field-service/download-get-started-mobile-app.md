@@ -67,17 +67,19 @@ The first screen shows a calendar view of your scheduled work orders. At the bot
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
-The home screen lists today's scheduled work orders. Above the list, you have options to filter your bookings by work order status. To sort the list by account, incident type, time, or duration, select **Sort by** in the upper right.
+The home screen lists today's scheduled bookings. 
 
 Use the buttons below the list for easy access to the bookings home page (**Home**), the [embedded Guides feature](access-related-apps-mobile-app.md) (**Library**), and the [app navigation menu](#navigate-the-app) (**More**).
 
 To view and change the app settings, provide feedback, and change the environment, select your profile picture at the top of the screen.
 
-:::image type="content" source="./media/mobile-newux-bookings.png" alt-text="Renderings of three mobile devices showing the work orders list, filtering, sorting, and navigation options in the Field Service mobile app.":::
+Scroll up or down in Agenda View to see bookings in the future or the past. Tap **Home** to return to today.
+
+:::image type="content" source="./media/mobile-newux-bookings.png" alt-text="Rendering of a mobile device showing the Agenda View with today's and tomorrow's bookings in the Field Service mobile app.":::
 
 Swipe left or right on any work order in the list to use a quick action to change the booking status or get directions.
 
-:::image type="content" source="./media/mobile-newux-swipe.png" alt-text="Renderings of five mobile devices showing the use of work order quick actions in the Field Service mobile app.":::
+:::image type="content" source="./media/mobile-newux-bookings-quickaction-swipe.png" alt-text="Renderings of five mobile devices showing the use of work order quick actions in the Field Service mobile app.":::
 
 ---
 
