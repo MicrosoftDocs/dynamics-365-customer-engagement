@@ -21,6 +21,7 @@ The [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-buil
 ## Region availability of analytics and insights
 
 The following features are available in all geographic locations where the voice channel in Omnichannel for Customer Service is supported:
+
 - Call transcription
 - Call insights
 
