@@ -7,7 +7,7 @@ ms.author: mgandham
 ms.reviewer: shujoshi 
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 10/20/2023
+ms.date: 03/08/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -43,8 +43,8 @@ In Customer Service admin center, perform the following steps to map your prefer
 1. Complete the following steps.
     1. Select the attributes that Copilot uses to generate case summaries. Copilot considers only the selected fields when it's generating a summary.
       > [!NOTE]
-      > - You can set **Case Notes** to a custom entity that is related to the **Case** table..
-      > - Ensure that the Customer Service representative role has READ permissions configured for the related entities. 
+      > - You can set **Case Notes** to a custom entity that is related to the **Case** table.
+      > - Ensure that the Customer Service representative or any custom role has READ permissions configured for the related entities. Otherwise, Copilot won't be able to generate a summary.
       > - You can't modify the **Email Content**  and **Conversation Summary** values that Copilot uses to generate case summaries.
    1. To change the default attributes, select a different source table and column. For the **Customer** attribute, for example, you might select **Account** as the source table and **Account Name** as the column. When Copilot generates a summary, it uses the value in the **Account Name** column of the **Account** table as the customer contact instead of **Case** and **Contact**.
    1. Select **Save and Close**.
