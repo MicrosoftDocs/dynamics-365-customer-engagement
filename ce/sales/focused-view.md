@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 02/22/2024
+ms.date: 03/08/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -50,8 +50,16 @@ Focused view is categorized into the following sections.
    - **Command bar**: This feature contains actions that help you perform bulk actions on multiple records. To use it, select **More options**. You can then choose the records that you want to work with and perform the required actions.
 
 1. **Work list actions**:
-   - **Search, filter, and sort**: These options are displayed at the top of the work list item view. You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between focused view and list view. Filters and sorting that are available here are similar to the list view. The attributes that are available in the view are displayed as a filter. If you want to add more filters to the view, you can create an advanced filter.
-     - **Advanced filter**: Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view. Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options.
+   - **Search, filter, and sort**: These options are displayed at the top of the work list item view. You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between focused view and list view. The attributes available in the view are displayed as filters and sort. These attributes include fields added through [workspace customizations](customize-workspace-sales-accelerator.md#manage-filters) in the sales accelerator, and any new fields added to the work list card through card customization.  
+
+      > [!NOTE]
+      > The following attributes types are not supported in filter and sort&mdash;Owner, Lookup, Customer, Uniqueidentifier, and Lookup.
+
+      For lead and opportunity entities, filters might display deprecated attribute options. To remove these filters, go to work list card customization and remove the **Predictive scoring** field.  
+
+      If you want to add more filters to the view, you can create an advanced filter.
+      - **Advanced filter**: Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view. Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options.  
+
    - **Select multiple records**: To perform bulk actions on multiple records, select the **Select multiple records** option. You can choose the records that you want to work with and then perform the required actions. On the command bar, select **More options** to perform the bulk actions.
    - **Refresh and Settings**: Select **More options** to perform list refresh and configure the work list card through settings.
      - **Refresh**: Select **Refresh** to refresh the list of records.
