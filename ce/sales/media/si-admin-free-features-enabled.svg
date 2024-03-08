@@ -1,0 +1,1334 @@
+<svg width="791" height="514" aria-owns="html1" data-stacking-context="true" version="1.1" viewBox="472 88 791 514" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="dx">
+   <rect x="472" y="89.611" width="792.42" height="523.44" rx="1.6198" ry=".69235" fill="#999" opacity=".86"/>
+  </clipPath>
+ </defs>
+ <g clip-path="url(#dx)" data-stacking-context="true" data-tag="html" data-z-index="auto">
+  <g mask="url(#ak)" data-stacking-context="true" data-tag="body" data-z-index="auto" role="document">
+   <g data-stacking-layer="rootBackgroundAndBorders">
+    <rect width="1699.3" height="804" fill="#fff"/>
+   </g>
+   <mask id="ak">
+    <rect width="1699.3" height="804" fill="#fff"/>
+    <rect width="1699.3" height="804" fill="#fff"/>
+    <rect width="0" height="0" fill="#fff"/>
+    <rect y="-100" width="0" height="0" fill="#fff"/>
+   </mask>
+   <g mask="url(#d)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+    <g data-stacking-layer="rootBackgroundAndBorders">
+     <rect width="1699.3" height="804" fill="#f8f7f6"/>
+    </g>
+    <mask id="d">
+     <rect width="1699.3" height="804" fill="#fff"/>
+     <rect width="1699.3" height="804" fill="#fff"/>
+    </mask>
+    <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+     <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+      <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+       <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+        <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+         <g mask="url(#dv)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+          <mask id="dv">
+           <rect width="1699.3" height="804" fill="#fff"/>
+           <rect x="-1e3" width="163.63" height="48.01" fill="#fff"/>
+          </mask>
+          <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+           <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="banner">
+            <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+             <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+              <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+               <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                <g aria-expanded="false" aria-haspopup="dialog" aria-label="App launcher" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
+                 <g data-stacking-context="true" data-tag="span" data-z-index="auto" role="presentation">
+                  <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                   <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family="ShellFabricMDL2IconsLite, ShellFabricMDL2Icons" font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                  </g>
+                 </g>
+                </g>
+               </g>
+               <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                <g mask="url(#t)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                 <mask id="t">
+                  <rect x="48" width="125.17" height="48.01" fill="#fff"/>
+                 </mask>
+                 <g mask="url(#ac)" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                  <mask id="ac">
+                   <rect x="56" y="12" width="101.17" height="24" fill="#fff"/>
+                  </mask>
+                  <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI"' font-size="16.002px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                 </g>
+                </g>
+               </g>
+              </g>
+              <g mask="url(#n)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+               <mask id="n">
+                <rect x="173.17" width="95.15" height="48.01" fill="#fff"/>
+                <rect x="173.17" y="13.01" width="1" height="20" fill="#fff"/>
+               </mask>
+               <g mask="url(#ax)" aria-label="Sales Hub" data-stacking-context="true" data-tag="a" data-z-index="auto" role="button" tabindex="0">
+                <mask id="ax">
+                 <rect x="187.17" y="11.67" width="67.15" height="24.67" fill="#fff"/>
+                </mask>
+                <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                 <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                </g>
+               </g>
+              </g>
+             </g>
+             <g mask="url(#g)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+              <mask id="g">
+               <rect x="276.31" width="956.44" height="48.01" fill="#fff"/>
+               <rect x="520.53" y="24" width="0" height="0" fill="#fff"/>
+              </mask>
+              <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+               <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                <g aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                 <g aria-hidden="true" data-stacking-context="true" data-tag="i" data-z-index="auto">
+                  <text color="rgb(15, 108, 189)" dominant-baseline="text-after-edge" fill="rgb(15, 108, 189)" font-family="FabricMDL2Icons" font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(15, 108, 189)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                 </g>
+                </g>
+                <g mask="url(#do)" aria-labelledby="" aria-placeholder="Search" data-stacking-context="true" data-tag="input" data-z-index="auto" role="searchbox">
+                 <mask id="do">
+                  <rect x="555.2" y="9.67" width="432.67" height="28.67" fill="#fff"/>
+                 </mask>
+                </g>
+               </g>
+              </g>
+             </g>
+             <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+              <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+               <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                 <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                </g>
+                <g data-stacking-layer="inFlowNonInlineNonPositionedDescendants">
+                 <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                  <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                   <g aria-label="Global commands" data-stacking-context="true" data-tag="ul" data-z-index="auto" role="menubar">
+                    <g data-stacking-context="true" data-tag="li" data-z-index="auto" role="presentation">
+                     <g aria-describedby="id-4204" aria-expanded="false" aria-label="Assistant" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="menuitem" tabindex="0">
+                      <g aria-hidden="true" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                       <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                        <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                         <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                          <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                         </g>
+                        </g>
+                       </g>
+                       <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                      </g>
+                     </g>
+                     <g aria-describedby="flyoutButton_description_quickCreateLauncher_buttoncrm_header_global openflyout_description_quickCreateLauncher_buttoncrm_header_global" aria-expanded="false" aria-haspopup="true" aria-label="Create New Record. New" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="menuitem" tabindex="-1">
+                      <g aria-hidden="true" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                       <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                        <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                         <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                          <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                         </g>
+                        </g>
+                       </g>
+                       <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                      </g>
+                     </g>
+                     <g aria-describedby="id-4205" aria-label="Settings" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="menuitem" tabindex="-1">
+                      <g aria-hidden="true" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                       <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                        <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                         <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                          <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                         </g>
+                        </g>
+                       </g>
+                       <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                      </g>
+                     </g>
+                     <g aria-describedby="id-4206" aria-label="Help" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="menuitem" tabindex="-1">
+                      <g aria-hidden="true" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                       <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                        <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                         <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                          <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                         </g>
+                        </g>
+                       </g>
+                       <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                      </g>
+                     </g>
+                     <g aria-label="Copilot" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="menuitem" tabindex="-1">
+                      <g aria-hidden="true" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                       <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                        <g mask="url(#v)" aria-label="Copilot" data-stacking-context="true" data-tag="img" data-z-index="auto" role="img">
+                         <mask id="v">
+                          <rect x="1571.3" y="16" width="16" height="16" fill="#fff"/>
+                         </mask>
+                        </g>
+                       </g>
+                       <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                      </g>
+                     </g>
+                     <g aria-describedby="flyoutButton_description_Mscrm.Sales.GlobalTab.Tools.GatherCustomerFeedback_buttoncrm_header_global openflyout_description_Mscrm.Sales.GlobalTab.Tools.GatherCustomerFeedback_buttoncrm_header_global" aria-expanded="false" aria-haspopup="true" aria-label="Connect and share" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="menuitem" tabindex="-1">
+                      <g aria-hidden="true" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                       <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                        <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                         <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                          <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                         </g>
+                        </g>
+                       </g>
+                       <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                      </g>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                 <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                  <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                   <g aria-controls="mectrl_main_body" aria-expanded="false" aria-label="Account manager for Aurora User2" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
+                    <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                     <g mask="url(#ap)" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                      <mask id="ap">
+                       <rect x="1651.3" width="1" height="1" fill="#fff"/>
+                      </mask>
+                      <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                     </g>
+                     <g aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                      <text color="rgb(51, 51, 51)" dominant-baseline="text-after-edge" fill="rgb(51, 51, 51)" font-family='"Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif' font-size="13px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(51, 51, 51)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                      <g mask="url(#ar)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                       <mask id="ar">
+                        <rect x="1659.3" y="8" width="31.33" height="31.33" rx="15.67" ry="15.67" fill="#fff"/>
+                       </mask>
+                       <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif' font-size="13px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                      </g>
+                      <text color="rgb(51, 51, 51)" dominant-baseline="text-after-edge" fill="rgb(51, 51, 51)" font-family='"Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif' font-size="13px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(51, 51, 51)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                     </g>
+                    </g>
+                   </g>
+                   <g data-stacking-layer="childStackingContextsWithPositiveStackLevels">
+                    <g opacity="0" data-stacking-context="true" data-tag="div" data-z-index="1000000">
+                     <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                      <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                       <g mask="url(#an)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                        <mask id="an">
+                         <rect x="1379.3" y="63" width="145.97" height="17.33" fill="#fff"/>
+                        </mask>
+                       </g>
+                       <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                        <g mask="url(#au)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                         <mask id="au">
+                          <rect x="1395.3" y="117.33" width="88" height="88" rx="44" ry="44" fill="#fff"/>
+                         </mask>
+                         <g mask="url(#aq)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                          <mask id="aq">
+                           <rect x="1395.3" y="117.33" width="87.33" height="87.33" rx="43.67" ry="43.67" fill="#fff"/>
+                          </mask>
+                         </g>
+                        </g>
+                        <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                         <g mask="url(#at)" aria-label="Aurora User2" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                          <mask id="at">
+                           <rect x="1503.3" y="123.5" width="184" height="26" fill="#fff"/>
+                          </mask>
+                         </g>
+                         <g mask="url(#as)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                          <mask id="as">
+                           <rect x="1503.3" y="152.5" width="184" height="19.33" fill="#fff"/>
+                          </mask>
+                         </g>
+                         <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                          <g mask="url(#am)" aria-describedby="mectrl_viewAccount_desc" data-stacking-context="true" data-tag="a" data-z-index="auto" role="link">
+                           <mask id="am">
+                            <rect x="1504.3" y="176.83" width="76.34" height="17.33" fill="#fff"/>
+                           </mask>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g mask="url(#av)" aria-label="Sign out of this account" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
+                        <mask id="av">
+                         <rect x="1623.3" y="48" width="76.01" height="47.33" fill="#fff"/>
+                        </mask>
+                       </g>
+                      </g>
+                      <g mask="url(#ao)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                       <mask id="ao">
+                        <rect x="1379.3" y="227.33" width="320" height=".67" fill="#fff"/>
+                       </mask>
+                      </g>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+            <g data-stacking-layer="childStackingContextsWithPositiveStackLevels">
+             <g aria-label="Skip to main content" data-stacking-context="true" data-tag="a" data-z-index="1" role="link" tabindex="0">
+              <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+               <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+          <g mask="url(#aa)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+           <mask id="aa">
+            <rect y="48.01" width="1699.3" height="755.99" fill="#fff"/>
+           </mask>
+           <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+            <g aria-label="Navigate Dynamics 365" data-stacking-context="true" data-tag="div" data-z-index="auto" role="navigation">
+             <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+              <g aria-expanded="true" aria-label="Site Map" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
+               <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                 <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                  <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                   <text color="rgb(66, 66, 66)" dominant-baseline="text-after-edge" fill="rgb(66, 66, 66)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(66, 66, 66)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+             </g>
+             <g mask="url(#c)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+              <mask id="c">
+               <rect y="90.01" width="199.33" height="671.32" fill="#fff"/>
+              </mask>
+              <g aria-label="Navigate Dynamics 365" data-stacking-context="true" data-tag="ul" data-z-index="auto" role="tree">
+               <g aria-label="Home" data-stacking-context="true" data-tag="li" data-z-index="auto" role="treeitem" tabindex="0">
+                <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                 <g mask="url(#z)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                  <mask id="z">
+                   <rect y="90.01" width="199.33" height="35" fill="#fff"/>
+                  </mask>
+                  <g mask="url(#q)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                   <mask id="q">
+                    <rect x="14.49" y="90.01" width="184.84" height="35" fill="#fff"/>
+                   </mask>
+                   <g aria-hidden="true" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                    <g data-stacking-context="true" data-tag="span" data-z-index="auto" role="presentation">
+                     <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                      <text color="rgb(66, 66, 66)" dominant-baseline="text-after-edge" fill="rgb(66, 66, 66)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(66, 66, 66)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                     </g>
+                    </g>
+                   </g>
+                   <g mask="url(#l)" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                    <mask id="l">
+                     <rect x="44.49" y="98.18" width="37.53" height="18.67" fill="#fff"/>
+                    </mask>
+                    <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+               <g aria-expanded="false" aria-label="Recent" data-stacking-context="true" data-tag="li" data-z-index="auto" role="treeitem" tabindex="-1">
+                <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                 <g mask="url(#y)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                  <mask id="y">
+                   <rect y="125.01" width="169.33" height="35" fill="#fff"/>
+                  </mask>
+                  <g mask="url(#p)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                   <mask id="p">
+                    <rect x="14.49" y="125.01" width="154.84" height="35" fill="#fff"/>
+                   </mask>
+                   <g aria-hidden="true" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                    <g data-stacking-context="true" data-tag="span" data-z-index="auto" role="presentation">
+                     <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                      <text color="rgb(66, 66, 66)" dominant-baseline="text-after-edge" fill="rgb(66, 66, 66)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(66, 66, 66)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                     </g>
+                    </g>
+                   </g>
+                   <g mask="url(#k)" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                    <mask id="k">
+                     <rect x="44.49" y="133.18" width="41.75" height="18.67" fill="#fff"/>
+                    </mask>
+                    <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                   </g>
+                  </g>
+                 </g>
+                 <g aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                  <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                   <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                    <g data-stacking-context="true" data-tag="span" data-z-index="auto" role="presentation">
+                     <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                      <text color="rgb(66, 66, 66)" dominant-baseline="text-after-edge" fill="rgb(66, 66, 66)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(66, 66, 66)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+               <g aria-expanded="false" aria-label="Pinned" data-stacking-context="true" data-tag="li" data-z-index="auto" role="treeitem" tabindex="-1">
+                <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                 <g mask="url(#ad)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                  <mask id="ad">
+                   <rect y="160.01" width="169.33" height="35" fill="#fff"/>
+                  </mask>
+                  <g mask="url(#o)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                   <mask id="o">
+                    <rect x="14.49" y="160.01" width="154.84" height="35" fill="#fff"/>
+                   </mask>
+                   <g aria-hidden="true" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                    <g data-stacking-context="true" data-tag="span" data-z-index="auto" role="presentation">
+                     <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                      <text color="rgb(66, 66, 66)" dominant-baseline="text-after-edge" fill="rgb(66, 66, 66)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(66, 66, 66)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                     </g>
+                    </g>
+                   </g>
+                   <g mask="url(#j)" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                    <mask id="j">
+                     <rect x="44.49" y="168.18" width="42.65" height="18.67" fill="#fff"/>
+                    </mask>
+                    <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                   </g>
+                  </g>
+                 </g>
+                 <g aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                  <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                   <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                    <g data-stacking-context="true" data-tag="span" data-z-index="auto" role="presentation">
+                     <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                      <text color="rgb(66, 66, 66)" dominant-baseline="text-after-edge" fill="rgb(66, 66, 66)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(66, 66, 66)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+               <g aria-label="Sales Insights" data-stacking-context="true" data-tag="li" data-z-index="auto" role="treeitem">
+                <g aria-level="3" data-stacking-context="true" data-tag="h3" data-z-index="auto" role="heading">
+                 <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI"' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                </g>
+                <g aria-label="Sales Insights" data-stacking-context="true" data-tag="ul" data-z-index="auto" role="group">
+                 <g aria-current="page" aria-label="Global settings" aria-selected="true" data-stacking-context="true" data-tag="li" data-z-index="auto" role="treeitem" tabindex="-1">
+                  <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                   <g mask="url(#ab)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                    <mask id="ab">
+                     <rect y="237.99" width="199.33" height="35" fill="#fff"/>
+                    </mask>
+                    <g mask="url(#r)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                     <mask id="r">
+                      <rect x="14.49" y="237.99" width="184.84" height="35" fill="#fff"/>
+                     </mask>
+                     <g aria-hidden="true" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                      <g mask="url(#x)" data-stacking-context="true" data-tag="svg" data-z-index="auto" role="presentation">
+                       <mask id="x">
+                        <rect x="14.49" y="247.49" width="16" height="16" fill="#fff"/>
+                       </mask>
+                      </g>
+                     </g>
+                     <g mask="url(#i)" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                      <mask id="i">
+                       <rect x="44.49" y="246.16" width="92.03" height="18.67" fill="#fff"/>
+                      </mask>
+                      <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+             </g>
+             <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+              <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+               <g mask="url(#bs)" aria-expanded="false" aria-haspopup="true" aria-label="Sales Insights settings (change area)" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
+                <mask id="bs">
+                 <rect x="8" y="769" width="183.33" height="28" rx="3" ry="3" fill="#fff"/>
+                </mask>
+                <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                 <g data-stacking-context="true" data-tag="span" data-z-index="auto" role="presentation">
+                  <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Segoe UI"' font-size="12px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                 </g>
+                </g>
+                <g mask="url(#h)" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                 <mask id="h">
+                  <rect x="43" y="769" width="126.33" height="28" fill="#fff"/>
+                 </mask>
+                 <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI"' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                </g>
+                <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                 <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                  <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                   <text color="rgb(66, 66, 66)" dominant-baseline="text-after-edge" fill="rgb(66, 66, 66)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(66, 66, 66)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+           <g data-stacking-context="true" data-tag="div" data-z-index="auto" tabindex="-1">
+            <g data-stacking-layer="rootBackgroundAndBorders">
+             <defs>
+              <filter id="dw" x="0" y="0" width="1" height="1">
+               <feDropShadow dx="0" dy="8" flood-color="rgba(0, 0, 0, 0.26)" stdDeviation="16"/>
+              </filter>
+             </defs>
+             <rect x="200" y="48.01" width="1499.3" height="755.99" fill="#f0f0f0" filter="url(#dw)"/>
+            </g>
+            <g mask="url(#f)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+             <mask id="f">
+              <rect x="200" y="48.01" width="1499.3" height="755.99" fill="#fff"/>
+             </mask>
+             <g mask="url(#aw)" aria-label="Dynamics 365" data-stacking-context="true" data-tag="div" data-z-index="auto" role="main">
+              <mask id="aw">
+               <rect x="200" y="48.01" width="1452.3" height="755.99" fill="#fff"/>
+              </mask>
+              <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+               <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                 <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                  <g mask="url(#dk)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                   <g data-stacking-layer="rootBackgroundAndBorders">
+                    <rect x="200" y="48.01" width="1452.3" height="755.99" fill="#fff"/>
+                   </g>
+                   <mask id="dk">
+                    <rect x="200" y="48.01" width="1452.3" height="755.99" fill="#fff"/>
+                   </mask>
+                   <g mask="url(#db)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                    <mask id="db">
+                     <rect x="200" y="48.01" width="234.74" height="755.99" fill="#fff"/>
+                    </mask>
+                    <g data-stacking-context="true" data-tag="ul" data-z-index="auto" role="tablist">
+                     <g data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="0">
+                      <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                       <g data-stacking-layer="rootBackgroundAndBorders">
+                        <rect x="200" y="90.01" width="280" height="38.67" fill="#ebebeb"/>
+                       </g>
+                       <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                      </g>
+                     </g>
+                     <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                      <g data-stacking-layer="rootBackgroundAndBorders">
+                       <rect x="200" y="128.68" width="280" height="58.67" fill="#fff"/>
+                      </g>
+                      <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="700" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                     </g>
+                     <g data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
+                      <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                       <g data-stacking-layer="rootBackgroundAndBorders">
+                        <rect x="200" y="187.34" width="280" height="38.67" fill="#fff"/>
+                       </g>
+                       <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                       <g data-stacking-layer="rootBackgroundAndBorders">
+                        <rect x="200" y="226.01" width="280" height="38.67" fill="#fff"/>
+                       </g>
+                       <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                       <g data-stacking-layer="rootBackgroundAndBorders">
+                        <rect x="200" y="264.68" width="280" height="38.67" fill="#fff"/>
+                       </g>
+                       <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                      </g>
+                     </g>
+                     <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                      <g data-stacking-layer="rootBackgroundAndBorders">
+                       <rect x="200" y="303.34" width="280" height="58.67" fill="#fff"/>
+                      </g>
+                      <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="700" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                     </g>
+                     <g data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
+                      <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                       <g data-stacking-layer="rootBackgroundAndBorders">
+                        <rect x="200" y="362.01" width="280" height="38.67" fill="#fff"/>
+                       </g>
+                       <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                       <g data-stacking-layer="rootBackgroundAndBorders">
+                        <rect x="200" y="400.68" width="280" height="38.67" fill="#fff"/>
+                       </g>
+                       <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                      </g>
+                     </g>
+                     <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                      <g data-stacking-layer="rootBackgroundAndBorders">
+                       <rect x="200" y="439.34" width="280" height="58.67" fill="#fff"/>
+                      </g>
+                      <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="700" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                     </g>
+                     <g data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
+                      <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                       <g data-stacking-layer="rootBackgroundAndBorders">
+                        <rect x="200" y="498.01" width="280" height="38.67" fill="#fff"/>
+                       </g>
+                       <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                       <g data-stacking-layer="rootBackgroundAndBorders">
+                        <rect x="200" y="536.68" width="280" height="38.67" fill="#fff"/>
+                       </g>
+                       <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                       <g data-stacking-layer="rootBackgroundAndBorders">
+                        <rect x="200" y="575.34" width="280" height="38.67" fill="#fff"/>
+                       </g>
+                       <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                       <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                      </g>
+                     </g>
+                    </g>
+                   </g>
+                   <g mask="url(#dj)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                    <g data-stacking-layer="rootBackgroundAndBorders">
+                     <rect x="434.74" y="48.01" width="1217.6" height="755.99" fill="#fff"/>
+                    </g>
+                    <mask id="dj">
+                     <rect x="434.74" y="48.01" width="1217.6" height="755.99" fill="#fff"/>
+                    </mask>
+                    <g mask="url(#dl)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                     <mask id="dl">
+                      <rect x="434.74" y="48.01" width="1217.6" height="755.99" fill="#fff"/>
+                     </mask>
+                     <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                      <g data-stacking-layer="rootBackgroundAndBorders">
+                       <rect x="434.74" y="48.01" width="1199.6" height="755.99" fill="#fff"/>
+                      </g>
+                      <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                       <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                        <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                         <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                          <g aria-label="Sales Insights settings" aria-level="1" data-stacking-context="true" data-tag="h1" data-z-index="auto" role="heading">
+                           <text color="rgb(50, 49, 48)" dominant-baseline="text-after-edge" fill="rgb(50, 49, 48)" font-family='"Segoe UI"' font-size="24px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(50, 49, 48)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="482.74" y="126.01" lengthAdjust="spacingAndGlyphs" textLength="238.75" xml:space="preserve">Sales Insights settings</tspan></text>
+                          </g>
+                          <g aria-label="Sell smarter with AI-driven insights, or get Sales Insights to unlock our full suite of premium intelligent capabilites. {0}" data-stacking-context="true" data-tag="label" data-z-index="auto">
+                           <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                            <text color="rgb(102, 102, 102)" dominant-baseline="text-after-edge" fill="rgb(102, 102, 102)" font-family='"Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(102, 102, 102)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="482.74" y="158.34" lengthAdjust="spacingAndGlyphs" textLength="705.25" xml:space="preserve">Sell smarter with AI-driven insights, or get Sales Insights to unlock our full suite of premium intelligent capabilites. </tspan></text>
+                           </g>
+                           <g aria-label="Sales Insights settingsLearn more" data-stacking-context="true" data-tag="a" data-z-index="auto" role="link">
+                            <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="1187.99" y="158.34" lengthAdjust="spacingAndGlyphs" textLength="70.11" xml:space="preserve">Learn more</tspan></text>
+                           </g>
+                          </g>
+                          <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                           <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                            <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                             <g mask="url(#de)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                              <g data-stacking-layer="rootBackgroundAndBorders">
+                               <rect x="482.74" y="188.01" width="714.52" height="103.67" fill="#fff"/>
+                               <line x1="482.74" x2="1197.3" y1="291.68" y2="291.68" stroke="#d8d8d8" stroke-linecap="square" stroke-width=".66667px"/>
+                              </g>
+                              <mask id="de">
+                               <rect x="482.74" y="188.01" width="714.52" height="103.67" fill="#fff"/>
+                              </mask>
+                              <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                               <g aria-label="Sales accelerator setup" aria-level="3" data-stacking-context="true" data-tag="h3" data-z-index="auto" role="heading">
+                                <text color="rgb(0, 0, 0)" dominant-baseline="text-after-edge" fill="rgb(0, 0, 0)" font-family='"Segoe UI"' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(0, 0, 0)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="502.74" y="227.34" lengthAdjust="spacingAndGlyphs" textLength="144.92" xml:space="preserve">Sales accelerator setup</tspan></text>
+                               </g>
+                               <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                                <g mask="url(#df)" aria-label="Supercharge sales with a prioritized list of everything that needs to get done and seamlessly integrated tools for customer engagement." data-stacking-context="true" data-tag="label" data-z-index="auto">
+                                 <mask id="df">
+                                  <rect x="502.74" y="229.01" width="555.61" height="42" fill="#fff"/>
+                                 </mask>
+                                 <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                                  <text color="rgb(51, 51, 51)" dominant-baseline="text-after-edge" fill="rgb(51, 51, 51)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(51, 51, 51)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="502.74" y="248.34" lengthAdjust="spacingAndGlyphs" textLength="498.36" xml:space="preserve">Supercharge sales with a prioritized list of everything that needs to get done and </tspan><tspan x="502.74" y="269.34" lengthAdjust="spacingAndGlyphs" textLength="338.85" xml:space="preserve">seamlessly integrated tools for customer engagement. </tspan></text>
+                                 </g>
+                                 <g aria-label="Sales accelerator setupLearn more" data-stacking-context="true" data-tag="a" data-z-index="auto" role="link">
+                                  <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="841.59" y="269.34" lengthAdjust="spacingAndGlyphs" textLength="70.11" xml:space="preserve">Learn more</tspan></text>
+                                 </g>
+                                </g>
+                               </g>
+                              </g>
+                              <g aria-label="Manage Sales accelerator setup" data-stacking-context="true" data-tag="div" data-z-index="auto" role="link" tabindex="0">
+                               <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                                <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="1106.95" y="248.84" lengthAdjust="spacingAndGlyphs" textLength="50.31" xml:space="preserve">Manage</tspan></text>
+                               </g>
+                               <g aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                                 <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="1169.26" y="247.51" lengthAdjust="spacingAndGlyphs" textLength="16.00" xml:space="preserve"></tspan></text>
+                                </g>
+                               </g>
+                              </g>
+                             </g>
+                             <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                              <g data-stacking-layer="rootBackgroundAndBorders">
+                               <rect x="482.74" y="291.68" width="714.52" height="103.67" fill="#fff"/>
+                               <line x1="482.74" x2="1197.3" y1="395.34" y2="395.34" stroke="#d8d8d8" stroke-linecap="square" stroke-width=".66667px"/>
+                              </g>
+                              <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                               <g aria-label="Assistant (standard)" aria-level="3" data-stacking-context="true" data-tag="h3" data-z-index="auto" role="heading">
+                                <text color="rgb(0, 0, 0)" dominant-baseline="text-after-edge" fill="rgb(0, 0, 0)" font-family='"Segoe UI"' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(0, 0, 0)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="502.74" y="331.01" lengthAdjust="spacingAndGlyphs" textLength="125.72" xml:space="preserve">Assistant (standard)</tspan></text>
+                               </g>
+                               <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                                <g mask="url(#dg)" aria-label="Manage insight cards for the relationship assistant to empower your sales team with actionable, contextual insights.​ Learn more" data-stacking-context="true" data-tag="label" data-z-index="auto">
+                                 <mask id="dg">
+                                  <rect x="502.74" y="332.68" width="555.61" height="42" fill="#fff"/>
+                                 </mask>
+                                 <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                                  <text color="rgb(51, 51, 51)" dominant-baseline="text-after-edge" fill="rgb(51, 51, 51)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(51, 51, 51)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="502.74" y="352.01" lengthAdjust="spacingAndGlyphs" textLength="489.25" xml:space="preserve">Manage insight cards for the relationship assistant to empower your sales team </tspan><tspan x="502.74" y="373.01" lengthAdjust="spacingAndGlyphs" textLength="223.27" xml:space="preserve">with actionable, contextual insights.​ ​</tspan></text>
+                                 </g>
+                                 <g aria-label="Assistant (standard)Learn more" data-stacking-context="true" data-tag="a" data-z-index="auto" role="link">
+                                  <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="726.01" y="373.01" lengthAdjust="spacingAndGlyphs" textLength="70.11" xml:space="preserve">Learn more</tspan></text>
+                                 </g>
+                                </g>
+                               </g>
+                              </g>
+                              <g aria-label="Manage Assistant (standard)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="link" tabindex="0">
+                               <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                                <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="1106.95" y="352.51" lengthAdjust="spacingAndGlyphs" textLength="50.31" xml:space="preserve">Manage</tspan></text>
+                               </g>
+                               <g aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                                 <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="1169.26" y="351.18" lengthAdjust="spacingAndGlyphs" textLength="16.00" xml:space="preserve"></tspan></text>
+                                </g>
+                               </g>
+                              </g>
+                              <g data-stacking-layer="rootBackgroundAndBorders">
+                               <rect x="482.74" y="395.34" width="714.52" height="103.67" fill="#fff"/>
+                               <line x1="482.74" x2="1197.3" y1="499.01" y2="499.01" stroke="#d8d8d8" stroke-linecap="square" stroke-width=".66667px"/>
+                              </g>
+                              <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                               <g aria-label="Auto capture (standard)" aria-level="3" data-stacking-context="true" data-tag="h3" data-z-index="auto" role="heading">
+                                <text color="rgb(0, 0, 0)" dominant-baseline="text-after-edge" fill="rgb(0, 0, 0)" font-family='"Segoe UI"' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(0, 0, 0)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="502.74" y="434.68" lengthAdjust="spacingAndGlyphs" textLength="151.76" xml:space="preserve">Auto capture (standard)</tspan></text>
+                               </g>
+                               <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                                <g mask="url(#di)" aria-label="Capture emails and meetings automatically, to simplify data entry for your team. Learn more" data-stacking-context="true" data-tag="label" data-z-index="auto">
+                                 <mask id="di">
+                                  <rect x="502.74" y="436.34" width="555.61" height="42" fill="#fff"/>
+                                 </mask>
+                                 <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                                  <text color="rgb(51, 51, 51)" dominant-baseline="text-after-edge" fill="rgb(51, 51, 51)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(51, 51, 51)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="502.74" y="455.68" lengthAdjust="spacingAndGlyphs" textLength="494.89" xml:space="preserve">Capture emails and meetings automatically, to simplify data entry for your team. </tspan></text>
+                                 </g>
+                                 <g aria-label="Auto capture (standard)Learn more" data-stacking-context="true" data-tag="a" data-z-index="auto" role="link">
+                                  <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="502.74" y="476.68" lengthAdjust="spacingAndGlyphs" textLength="70.11" xml:space="preserve">Learn more</tspan></text>
+                                 </g>
+                                </g>
+                               </g>
+                               <g aria-label="Set up Auto capture (standard)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="link" tabindex="0">
+                                <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                                 <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="1117.76" y="456.18" lengthAdjust="spacingAndGlyphs" textLength="39.50" xml:space="preserve">Set up</tspan></text>
+                                </g>
+                                <g aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                 <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                                  <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="1169.26" y="454.84" lengthAdjust="spacingAndGlyphs" textLength="16.00" xml:space="preserve"></tspan></text>
+                                 </g>
+                                </g>
+                               </g>
+                              </g>
+                              <g data-stacking-layer="rootBackgroundAndBorders">
+                               <rect x="482.74" y="499.01" width="714.52" height="103.67" fill="#fff"/>
+                               <line x1="482.74" x2="1197.3" y1="602.68" y2="602.68" stroke="#d8d8d8" stroke-linecap="square" stroke-width=".66667px"/>
+                              </g>
+                              <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                               <g aria-label="Email engagement (standard)" aria-level="3" data-stacking-context="true" data-tag="h3" data-z-index="auto" role="heading">
+                                <text color="rgb(0, 0, 0)" dominant-baseline="text-after-edge" fill="rgb(0, 0, 0)" font-family='"Segoe UI"' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(0, 0, 0)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="502.74" y="538.34" lengthAdjust="spacingAndGlyphs" textLength="187.36" xml:space="preserve">Email engagement (standard)</tspan></text>
+                               </g>
+                               <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                                <g mask="url(#dh)" aria-label="RI_overview_EE_desLabel" data-stacking-context="true" data-tag="label" data-z-index="auto">
+                                 <mask id="dh">
+                                  <rect x="502.74" y="540.01" width="555.61" height="42" fill="#fff"/>
+                                 </mask>
+                                 <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                                  <text color="rgb(51, 51, 51)" dominant-baseline="text-after-edge" fill="rgb(51, 51, 51)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(51, 51, 51)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="502.74" y="559.34" lengthAdjust="spacingAndGlyphs" textLength="454.32" xml:space="preserve">Enable read receipts and follow-up reminders to help sellers keep track of </tspan><tspan x="502.74" y="580.34" lengthAdjust="spacingAndGlyphs" textLength="182.41" xml:space="preserve">engagement with customers. </tspan></text>
+                                 </g>
+                                 <g aria-label="Email engagement (standard)Learn more" data-stacking-context="true" data-tag="a" data-z-index="auto" role="link">
+                                  <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="685.15" y="580.34" lengthAdjust="spacingAndGlyphs" textLength="70.11" xml:space="preserve">Learn more</tspan></text>
+                                 </g>
+                                </g>
+                               </g>
+                               <g aria-label="Set up Email engagement (standard)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="link" tabindex="0">
+                                <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                                 <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="1117.76" y="559.84" lengthAdjust="spacingAndGlyphs" textLength="39.50" xml:space="preserve">Set up</tspan></text>
+                                </g>
+                                <g aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                 <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                                  <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Dyn CRM Symbol"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="1169.26" y="558.51" lengthAdjust="spacingAndGlyphs" textLength="16.00" xml:space="preserve"></tspan></text>
+                                 </g>
+                                </g>
+                               </g>
+                              </g>
+                             </g>
+                            </g>
+                            <g aria-label="Conversation intelligence" aria-level="2" data-stacking-context="true" data-tag="h2" data-z-index="auto" role="heading">
+                             <text color="rgb(50, 49, 48)" dominant-baseline="text-after-edge" fill="rgb(50, 49, 48)" font-family='"Segoe UI"' font-size="24px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(50, 49, 48)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                            </g>
+                            <g aria-label="Connect your organization's call data and Dynamics 365 for Sales data to empower your sales managers and sellers with conversation intelligence, so they can win more deals. Learn more" data-stacking-context="true" data-tag="label" data-z-index="auto">
+                             <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+                              <text color="rgb(102, 102, 102)" dominant-baseline="text-after-edge" fill="rgb(102, 102, 102)" font-family='"Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(102, 102, 102)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                             </g>
+                             <g aria-label="Conversation intelligenceLearn more" data-stacking-context="true" data-tag="a" data-z-index="auto" role="link">
+                              <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                             </g>
+                            </g>
+                           </g>
+                           <g mask="url(#dd)" data-stacking-context="true" data-tag="img" data-z-index="auto">
+                            <mask id="dd">
+                             <rect x="932.26" y="660.68" width="275" height="147" fill="#fff"/>
+                            </mask>
+                           </g>
+                           <g aria-label="Share your ideas" data-stacking-context="true" data-tag="div" data-z-index="auto" role="link" tabindex="0">
+                            <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                             <text color="rgb(50, 49, 48)" dominant-baseline="text-after-edge" fill="rgb(50, 49, 48)" font-family='"Dyn CRM Symbol"' font-size="20px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(50, 49, 48)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                            </g>
+                            <g aria-label="Share your ideas" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                             <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                            </g>
+                           </g>
+                           <g aria-label="Check out our blog" data-stacking-context="true" data-tag="div" data-z-index="auto" role="link" tabindex="0">
+                            <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                             <text color="rgb(50, 49, 48)" dominant-baseline="text-after-edge" fill="rgb(50, 49, 48)" font-family='"Dyn CRM Symbol"' font-size="20px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(50, 49, 48)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                            </g>
+                            <g aria-label="Check out our blog" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                             <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                            </g>
+                           </g>
+                           <g aria-label="Learn about Sales Insights" data-stacking-context="true" data-tag="div" data-z-index="auto" role="link" tabindex="0">
+                            <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                             <text color="rgb(50, 49, 48)" dominant-baseline="text-after-edge" fill="rgb(50, 49, 48)" font-family='"Dyn CRM Symbol"' font-size="20px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(50, 49, 48)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                            </g>
+                            <g aria-label="Learn about Sales Insights" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                             <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI Regular", SegoeUI, "Segoe UI"' font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                      </g>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+             </g>
+             <g aria-label="Copilot" data-stacking-context="true" data-tag="div" data-z-index="auto" role="complementary">
+              <g mask="url(#dm)" aria-label="Copilot" data-stacking-context="true" data-tag="div" data-z-index="auto" role="tabpanel" tabindex="-1">
+               <mask id="dm">
+                <rect width="0" height="0" fill="#fff"/>
+               </mask>
+               <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                <g mask="url(#s)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                 <mask id="s">
+                  <rect width="0" height="0" fill="#fff"/>
+                 </mask>
+                 <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                  <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                   <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                    <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                     <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                      <g mask="url(#br)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                       <mask id="br">
+                        <rect width="0" height="0" fill="#fff"/>
+                       </mask>
+                       <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                        <g mask="url(#cu)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                         <mask id="cu">
+                          <rect width="0" height="0" fill="#fff"/>
+                         </mask>
+                         <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                          <g mask="url(#da)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                           <mask id="da">
+                            <rect width="0" height="0" fill="#fff"/>
+                           </mask>
+                           <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                            <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                             <g mask="url(#b)" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+                              <mask id="b">
+                               <rect width="0" height="0" fill="#fff"/>
+                              </mask>
+                             </g>
+                            </g>
+                            <g mask="url(#ay)" aria-label="Copilot" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                             <mask id="ay">
+                              <rect width="0" height="0" fill="#fff"/>
+                             </mask>
+                            </g>
+                           </g>
+                          </g>
+                          <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                           <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                            <g mask="url(#bp)" aria-label="Start over" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
+                             <mask id="bp">
+                              <rect width="0" height="0" fill="#fff"/>
+                             </mask>
+                             <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                              <g mask="url(#bj)" aria-hidden="true" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+                               <mask id="bj">
+                                <rect width="0" height="0" fill="#fff"/>
+                               </mask>
+                              </g>
+                              <g mask="url(#be)" aria-hidden="true" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+                               <mask id="be">
+                                <rect width="0" height="0" fill="#fff"/>
+                               </mask>
+                              </g>
+                             </g>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                         <g aria-busy="true" aria-orientation="horizontal" data-stacking-context="true" data-tag="div" data-z-index="auto" role="tablist">
+                          <g aria-labelledby="" aria-selected="true" data-stacking-context="true" data-tag="button" data-z-index="auto" role="tab">
+                           <g mask="url(#az)" data-stacking-context="true" data-tag="span" data-z-index="auto">
+                            <mask id="az">
+                             <rect width="0" height="0" fill="#fff"/>
+                            </mask>
+                           </g>
+                          </g>
+                         </g>
+                         <g mask="url(#bk)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                          <mask id="bk">
+                           <rect width="0" height="0" fill="#fff"/>
+                          </mask>
+                          <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                           <g mask="url(#cv)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                            <mask id="cv">
+                             <rect width="0" height="0" fill="#fff"/>
+                            </mask>
+                            <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                             <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                              <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                               <g mask="url(#cx)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="list">
+                                <mask id="cx">
+                                 <rect width="0" height="0" fill="#fff"/>
+                                </mask>
+                                <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                 <g aria-label=", AI-generated content may be incorrect" data-stacking-context="true" data-tag="div" data-z-index="auto" role="listitem" tabindex="0">
+                                  <g mask="url(#bl)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="none">
+                                   <mask id="bl">
+                                    <rect width="0" height="0" fill="#fff"/>
+                                   </mask>
+                                   <g aria-live="polite" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                    <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+                                    <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                     <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                      <g data-stacking-context="true" data-tag="div" data-z-index="auto" tabindex="0">
+                                       <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                        <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                         <g mask="url(#ch)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <mask id="ch">
+                                           <rect width="0" height="0" fill="#fff"/>
+                                          </mask>
+                                         </g>
+                                         <g mask="url(#ct)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <mask id="ct">
+                                           <rect width="0" height="0" fill="#fff"/>
+                                          </mask>
+                                         </g>
+                                         <g mask="url(#al)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <mask id="al">
+                                           <rect width="0" height="0" fill="#fff"/>
+                                          </mask>
+                                         </g>
+                                        </g>
+                                       </g>
+                                       <g mask="url(#cs)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                        <mask id="cs">
+                                         <rect width="0" height="0" fill="#fff"/>
+                                        </mask>
+                                       </g>
+                                       <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="button" tabindex="0">
+                                        <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                         <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                           <g mask="url(#cl)" data-stacking-context="true" data-tag="img" data-z-index="auto" role="img">
+                                            <mask id="cl">
+                                             <rect width="0" height="0" fill="#fff"/>
+                                            </mask>
+                                           </g>
+                                          </g>
+                                         </g>
+                                         <g mask="url(#by)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <mask id="by">
+                                           <rect width="0" height="0" fill="#fff"/>
+                                          </mask>
+                                         </g>
+                                         <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <g mask="url(#cg)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                           <mask id="cg">
+                                            <rect width="0" height="0" fill="#fff"/>
+                                           </mask>
+                                           <g mask="url(#aj)" data-stacking-context="true" data-tag="p" data-z-index="auto">
+                                            <mask id="aj">
+                                             <rect width="0" height="0" fill="#fff"/>
+                                            </mask>
+                                           </g>
+                                          </g>
+                                          <g mask="url(#cr)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                           <mask id="cr">
+                                            <rect width="0" height="0" fill="#fff"/>
+                                           </mask>
+                                          </g>
+                                          <g mask="url(#cf)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                           <mask id="cf">
+                                            <rect width="0" height="0" fill="#fff"/>
+                                           </mask>
+                                           <g mask="url(#ai)" data-stacking-context="true" data-tag="p" data-z-index="auto">
+                                            <mask id="ai">
+                                             <rect width="0" height="0" fill="#fff"/>
+                                            </mask>
+                                           </g>
+                                          </g>
+                                         </g>
+                                        </g>
+                                       </g>
+                                       <g mask="url(#cq)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                        <mask id="cq">
+                                         <rect width="0" height="0" fill="#fff"/>
+                                        </mask>
+                                       </g>
+                                       <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="button" tabindex="0">
+                                        <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                         <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                           <g mask="url(#ck)" data-stacking-context="true" data-tag="img" data-z-index="auto" role="img">
+                                            <mask id="ck">
+                                             <rect width="0" height="0" fill="#fff"/>
+                                            </mask>
+                                           </g>
+                                          </g>
+                                         </g>
+                                         <g mask="url(#bx)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <mask id="bx">
+                                           <rect width="0" height="0" fill="#fff"/>
+                                          </mask>
+                                         </g>
+                                         <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <g mask="url(#ce)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                           <mask id="ce">
+                                            <rect width="0" height="0" fill="#fff"/>
+                                           </mask>
+                                           <g mask="url(#ah)" data-stacking-context="true" data-tag="p" data-z-index="auto">
+                                            <mask id="ah">
+                                             <rect width="0" height="0" fill="#fff"/>
+                                            </mask>
+                                           </g>
+                                          </g>
+                                          <g mask="url(#cp)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                           <mask id="cp">
+                                            <rect width="0" height="0" fill="#fff"/>
+                                           </mask>
+                                          </g>
+                                          <g mask="url(#cd)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                           <mask id="cd">
+                                            <rect width="0" height="0" fill="#fff"/>
+                                           </mask>
+                                           <g mask="url(#ag)" data-stacking-context="true" data-tag="p" data-z-index="auto">
+                                            <mask id="ag">
+                                             <rect width="0" height="0" fill="#fff"/>
+                                            </mask>
+                                           </g>
+                                          </g>
+                                         </g>
+                                        </g>
+                                       </g>
+                                       <g mask="url(#co)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                        <mask id="co">
+                                         <rect width="0" height="0" fill="#fff"/>
+                                        </mask>
+                                       </g>
+                                       <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="button" tabindex="0">
+                                        <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                         <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                           <g mask="url(#cj)" data-stacking-context="true" data-tag="img" data-z-index="auto" role="img">
+                                            <mask id="cj">
+                                             <rect width="0" height="0" fill="#fff"/>
+                                            </mask>
+                                           </g>
+                                          </g>
+                                         </g>
+                                         <g mask="url(#bw)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <mask id="bw">
+                                           <rect width="0" height="0" fill="#fff"/>
+                                          </mask>
+                                         </g>
+                                         <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <g mask="url(#cc)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                           <mask id="cc">
+                                            <rect width="0" height="0" fill="#fff"/>
+                                           </mask>
+                                           <g mask="url(#af)" data-stacking-context="true" data-tag="p" data-z-index="auto">
+                                            <mask id="af">
+                                             <rect width="0" height="0" fill="#fff"/>
+                                            </mask>
+                                           </g>
+                                          </g>
+                                          <g mask="url(#cn)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                           <mask id="cn">
+                                            <rect width="0" height="0" fill="#fff"/>
+                                           </mask>
+                                          </g>
+                                          <g mask="url(#cb)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                           <mask id="cb">
+                                            <rect width="0" height="0" fill="#fff"/>
+                                           </mask>
+                                           <g mask="url(#ae)" data-stacking-context="true" data-tag="p" data-z-index="auto">
+                                            <mask id="ae">
+                                             <rect width="0" height="0" fill="#fff"/>
+                                            </mask>
+                                           </g>
+                                          </g>
+                                         </g>
+                                        </g>
+                                       </g>
+                                       <g mask="url(#cm)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                        <mask id="cm">
+                                         <rect width="0" height="0" fill="#fff"/>
+                                        </mask>
+                                       </g>
+                                       <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                        <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                         <g mask="url(#ca)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <mask id="ca">
+                                           <rect width="0" height="0" fill="#fff"/>
+                                          </mask>
+                                         </g>
+                                        </g>
+                                        <g mask="url(#bv)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                         <mask id="bv">
+                                          <rect width="0" height="0" fill="#fff"/>
+                                         </mask>
+                                        </g>
+                                        <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                         <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <g mask="url(#ci)" data-stacking-context="true" data-tag="img" data-z-index="auto" role="img">
+                                           <mask id="ci">
+                                            <rect width="0" height="0" fill="#fff"/>
+                                           </mask>
+                                          </g>
+                                         </g>
+                                        </g>
+                                        <g mask="url(#bu)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                         <mask id="bu">
+                                          <rect width="0" height="0" fill="#fff"/>
+                                         </mask>
+                                        </g>
+                                        <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                         <g mask="url(#bz)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                          <mask id="bz">
+                                           <rect width="0" height="0" fill="#fff"/>
+                                          </mask>
+                                         </g>
+                                        </g>
+                                       </g>
+                                      </g>
+                                     </g>
+                                     <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                                      <g mask="url(#bo)" aria-label="Useful" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
+                                       <mask id="bo">
+                                        <rect width="0" height="0" fill="#fff"/>
+                                       </mask>
+                                       <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                                        <g mask="url(#bi)" aria-hidden="true" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+                                         <mask id="bi">
+                                          <rect width="0" height="0" fill="#fff"/>
+                                         </mask>
+                                        </g>
+                                        <g mask="url(#bd)" aria-hidden="true" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+                                         <mask id="bd">
+                                          <rect width="0" height="0" fill="#fff"/>
+                                         </mask>
+                                        </g>
+                                       </g>
+                                      </g>
+                                      <g mask="url(#bn)" aria-label="Not useful" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
+                                       <mask id="bn">
+                                        <rect width="0" height="0" fill="#fff"/>
+                                       </mask>
+                                       <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                                        <g mask="url(#bh)" aria-hidden="true" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+                                         <mask id="bh">
+                                          <rect width="0" height="0" fill="#fff"/>
+                                         </mask>
+                                        </g>
+                                        <g mask="url(#bc)" aria-hidden="true" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+                                         <mask id="bc">
+                                          <rect width="0" height="0" fill="#fff"/>
+                                         </mask>
+                                        </g>
+                                       </g>
+                                      </g>
+                                     </g>
+                                    </g>
+                                   </g>
+                                  </g>
+                                 </g>
+                                </g>
+                               </g>
+                              </g>
+                             </g>
+                            </g>
+                           </g>
+                           <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                            <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                             <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                              <g aria-label="SeeTermsAriaLabel" data-stacking-context="true" data-tag="div" data-z-index="auto" role="textbox" tabindex="-1">
+                               <g mask="url(#cz)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                <mask id="cz">
+                                 <rect width="0" height="0" fill="#fff"/>
+                                </mask>
+                                <g mask="url(#cy)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                 <mask id="cy">
+                                  <rect width="0" height="0" fill="#fff"/>
+                                 </mask>
+                                </g>
+                                <g mask="url(#cw)" aria-labelledby="" aria-placeholder="Ask a question about the data in this app, or tell me what you’re looking for" data-stacking-context="true" data-tag="textarea" data-z-index="auto" role="textbox">
+                                 <mask id="cw">
+                                  <rect width="0" height="0" fill="#fff"/>
+                                 </mask>
+                                </g>
+                               </g>
+                               <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                <g mask="url(#dp)" aria-haspopup="menu" aria-label="Prompt guide" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button" tabindex="0">
+                                 <mask id="dp">
+                                  <rect width="0" height="0" fill="#fff"/>
+                                 </mask>
+                                 <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                                  <g mask="url(#bg)" aria-hidden="true" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+                                   <mask id="bg">
+                                    <rect width="0" height="0" fill="#fff"/>
+                                   </mask>
+                                  </g>
+                                  <g mask="url(#bb)" aria-hidden="true" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+                                   <mask id="bb">
+                                    <rect width="0" height="0" fill="#fff"/>
+                                   </mask>
+                                  </g>
+                                 </g>
+                                </g>
+                                <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                                 <g mask="url(#bm)" aria-disabled="true" aria-label="Send" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
+                                  <mask id="bm">
+                                   <rect width="0" height="0" fill="#fff"/>
+                                  </mask>
+                                  <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                                   <g mask="url(#bf)" aria-hidden="true" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+                                    <mask id="bf">
+                                     <rect width="0" height="0" fill="#fff"/>
+                                    </mask>
+                                   </g>
+                                   <g mask="url(#ba)" aria-hidden="true" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+                                    <mask id="ba">
+                                     <rect width="0" height="0" fill="#fff"/>
+                                    </mask>
+                                   </g>
+                                  </g>
+                                 </g>
+                                </g>
+                               </g>
+                              </g>
+                             </g>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g mask="url(#bt)" data-stacking-context="true" data-tag="iframe" data-z-index="auto">
+                        <mask id="bt">
+                         <rect width="0" height="0" fill="#fff"/>
+                        </mask>
+                       </g>
+                      </g>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+              <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+               <g mask="url(#m)" aria-orientation="vertical" data-stacking-context="true" data-tag="div" data-z-index="auto" role="tablist">
+                <mask id="m">
+                 <rect x="1652.3" y="48.01" width="47" height="755.99" fill="#fff"/>
+                </mask>
+                <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+                 <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+                  <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="none">
+                   <g aria-controls="Microsoft.Copilot.Pane" aria-expanded="false" aria-label="Copilot" aria-labelledby="" aria-selected="false" data-stacking-context="true" data-tag="button" data-z-index="auto" role="tab" tabindex="0">
+                    <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                     <g mask="url(#w)" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+                      <mask id="w">
+                       <rect x="1667.8" y="64.01" width="16" height="16" fill="#fff"/>
+                      </mask>
+                     </g>
+                    </g>
+                   </g>
+                   <g mask="url(#a)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                    <mask id="a">
+                     <rect width="0" height="0" fill="#fff"/>
+                    </mask>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+              <g mask="url(#u)" aria-atomic="true" aria-live="polite" aria-relevant="all" data-stacking-context="true" data-tag="div" data-z-index="auto">
+               <mask id="u">
+                <rect x="1652.3" y="48.01" width="0" height="0" fill="#fff"/>
+               </mask>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g mask="url(#dr)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="dr">
+     <rect y="15.33" width="0" height="0" fill="#fff"/>
+    </mask>
+   </g>
+   <g mask="url(#du)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="du">
+     <rect y="34" width="0" height="0" fill="#fff"/>
+    </mask>
+   </g>
+   <g mask="url(#dt)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="dt">
+     <rect y="34" width="0" height="0" fill="#fff"/>
+    </mask>
+   </g>
+   <g mask="url(#bq)" data-stacking-context="true" data-tag="iframe" data-z-index="auto">
+    <mask id="bq">
+     <rect y="37.33" width="0" height="0" fill="#fff"/>
+    </mask>
+   </g>
+   <g mask="url(#dc)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto">
+    <mask id="dc">
+     <rect width="0" height="0" fill="#fff"/>
+    </mask>
+   </g>
+   <g mask="url(#e)" data-stacking-context="true" data-tag="iframe" data-z-index="auto">
+    <mask id="e">
+     <rect width="0" height="0" fill="#fff"/>
+    </mask>
+   </g>
+   <g aria-atomic="true" aria-live="assertive" data-stacking-context="true" data-tag="div" data-z-index="auto">
+    <text color="rgb(102, 102, 102)" dominant-baseline="text-after-edge" fill="rgb(102, 102, 102)" font-family='SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(102, 102, 102)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+   </g>
+   <g mask="url(#ds)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="ds">
+     <rect y="71.33" width="0" height="0" fill="#fff"/>
+    </mask>
+   </g>
+   <g mask="url(#dn)" aria-hidden="true" data-stacking-context="true" data-tag="div" data-z-index="auto">
+    <mask id="dn">
+     <rect y="-100" width="0" height="0" fill="#fff"/>
+    </mask>
+   </g>
+   <g mask="url(#dq)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="dq">
+     <rect y="90" width="0" height="0" fill="#fff"/>
+    </mask>
+   </g>
+  </g>
+ </g>
+ <style/>
+</svg>
