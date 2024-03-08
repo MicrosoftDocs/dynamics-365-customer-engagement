@@ -1,5 +1,5 @@
 ---
-title: "Manage notification templates using agent experience | MicrosoftDocs"
+title: "Manage notification templates using agent experience profile | MicrosoftDocs"
 description: "Learn how to manage notification templates in Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 04/05/2021
 ms.topic: article
@@ -61,7 +61,7 @@ To create or manage a notification template, go to **Workspaces** in **Agent Exp
 
 ## See also
 
-[App experience manager overview](../../../customer-service/administer/overview.md)
+[App experience profile overview](../../../customer-service/administer/overview.md)
 
 [Manage session templates](session-templates-cif.md)
 
