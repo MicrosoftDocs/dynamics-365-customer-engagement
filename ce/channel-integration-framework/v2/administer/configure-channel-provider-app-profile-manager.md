@@ -54,7 +54,7 @@ More information:
 
   > [!NOTE]
   > - The **Restore** button is available only for forms with the **Unique Name** set to **msdyn_omnichannel**.
-  > - The `Api Version` field is set to `2` when you navigate from there.
+  > - The `Api Version` field is set to `2` when you navigate from the Agent Experience Profile.
 
 3. Select **Save & Close**.
 
