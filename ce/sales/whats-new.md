@@ -3,7 +3,7 @@ title: What's new or changed in Dynamics 365 Sales
 description: This article points to articles that describe the new and changed features in each release of Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 02/13/2024
+ms.date: 03/08/2024
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
