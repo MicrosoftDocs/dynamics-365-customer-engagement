@@ -63,13 +63,15 @@ To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-do
 
 ## Draft emails 
 
-With Copilot, you can draft email replies to customers quickly and be more effective in solving customer issues.
+With Copilot, you can draft email replies to customers quickly and be more effective in solving customer issues. 
 
 :::image type="content" source="../media/copilot-email-draft.png" alt-text="Screenshot of the Copilot Write an email tab.":::
 
 ### Write an email with Copilot
 
-When you start to draft an email, Copilot opens in the right side panel and presents five predefined prompts and one custom prompt:
+When you open an email, and open the Copilot pane, you can use the **Write an email** tab to draft a response. You can also use the Copilot nudge when you respond to an email in the rich text editor.
+
+### Use prompts
 
 - **Suggest a call**: Drafts a reply that suggests a call with the customer the same day or the next day.
 - **Request more information**: Drafts a reply that requests more details from the customer to help resolve the problem.
@@ -83,18 +85,33 @@ When you start to draft an email, Copilot opens in the right side panel and pres
 - **Custom**: Allows you to provide your own prompt for the reply.
 
 
+### How Copilot uses knowledge base and web sources
 
-### Review and copy suggested replies
+If your agent has enabled Knowledge sources and set up trusted domains, Copilot uses internal knowledge base sources and searches the internal knowledge base and up to five trusted domains to produce the result. You can see the knowledge sources used to generate the email in **Check sources**.
 
-When you select one of the predefined prompts, Copilot generates a suggested reply. *Always review the response.* Make any necessary changes, and then select **Copy to email** to copy the entire response to your draft. Or, select part of the response and use the right-click menu to copy and paste the selection.
+Select **Filters** to choose the only the relevant knowledge articles that Copilot must use to generate the response.
 
-### Use the custom prompt
+- ### Use the custom prompt
 
 Use the custom prompt to include talking points, provide your objectives for the email, and determine its length and tone. Then select the **Create response** arrow to generate the response. *Always review the response* before sharing it with your customer. You can revise the custom prompt, if needed, above the reply and select **Refresh** to update the response.
 
-### How Copilot uses knowledge base and web sources
+### Review and refine suggested replies
 
-By default, Copilot uses internal knowledge base sources for generating responses. If your administrator has set up trusted domains, Copilot searches the internal knowledge base and up to five trusted domains to produce the result.
+When you select one of the prompts, Copilot generates a suggested reply. *Always review the response.* If any knowledge articles were used to generate the response, you can select **Check sources** to see articles which Copilot drew the response. 
+
+ If Copilot's response isn't immediately useful, you can ask follow-up questions and guide Copilot in a natural, conversational way. You can ask up to five follow-up questions. 
+
+### Adjust the length and tone of the response
+
+Select **Adjust** to change the length and tone of the response. 
+
+### Translate the response
+
+Select **Translate** to see translate the email response to a customer's language. Select **Show original** to see the response in its original language.
+
+### Use the responses
+
+To use the draft that Copilot has generated, select **Keep it** in the rich text editor or select **Copy** and then paste it to the email if you're using the feature from the Copilot pane. 
 
 ### Start over
 
