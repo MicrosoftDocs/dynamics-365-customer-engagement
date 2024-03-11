@@ -71,6 +71,7 @@ Legend:
 1. The article ID
 1. A card that displays search term matches from keywords, description, attachments, and other custom fields
 1. An attachment that includes the search term in its title or contents
+1. Favorite tag for frequently searched articles
 
 If your administrator hasn't turned on Dataverse search, the system uses the keywords you enter to perform a full-text search of the following knowledge article metadata: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**. If Dataverse search is turned on, your administrator can [select the columns that are searched](/power-platform/admin/configure-relevance-search-organization).
 
@@ -202,6 +203,8 @@ You can perform the following actions on knowledge articles you view in an app t
 
 - If the article has multiple sections, expand all the sections of the article to view the entire article and collapse all the sections, as required.
 
+- Mark the article you use most often as a favorite to get back to them quickly while you're working on a case.
+
 - Select **Copy URL** to copy the external URL of the article to share with your customer in channels like chat or email.
 - If your administrator has turned on [feedback and ratings for knowledge articles](../../customerengagement/on-premises/customize/enable-entity-feedback.md#enable-an-entity-for-feedback-and-ratings), you can select the thumbs-up or thumbs-down icon to rate how helpful the article was. If you select the thumbs-down icon, a comment box appears, where you can enter the reason for your rating.
 
@@ -218,6 +221,8 @@ If you see an error like this when you open an article: "Update your origins all
 You can perform the following actions on knowledge articles you view inline:
 
 - If the article has multiple sections, expand all the sections of the article to view the entire article and collapse all the sections, as required.
+
+- Mark the article you use most often as a favorite to get back to them quickly while you're working on a case.
 
 - Link it to a record, or, if it's already linked, unlink it.
 - [Email it to a customer](email-articles.md#email-a-knowledge-article).
