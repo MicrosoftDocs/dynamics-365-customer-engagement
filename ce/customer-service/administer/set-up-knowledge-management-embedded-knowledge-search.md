@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 07/03/2023
+ms.date: 03/11/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -247,7 +247,7 @@ More information: [Search across table data using Dataverse search](/power-platf
 
 ## Enable the suggest-as-you-type option
 
-You can help agents improve their productivity by setting the **Enable suggest as you type** toggle to **Yes**. This feature provides suggestions on the most relevant records as agents type keywords in the search box. The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword. 
+You can help agents improve their productivity by setting the **Enable suggest as you type** toggle to **Yes**. This feature provides suggestions on the most relevant records as agents type keywords in the search box. The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword.
 
 When an agent selects the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control. More information: [Use suggest-as-you-type](../use/search-knowledge-articles-csh.md#save-time-searching-with-suggest-as-you-type)
 
@@ -258,13 +258,19 @@ When an agent selects the record, the system displays the article inline on the 
 
 :::image type="content" source="../media/enable-suggest-as-you-type.png" alt-text="Screenshot shows toggle for the Enable-suggest-as-you-type option":::
 
-##  View recently accessed knowledge articles for cases
+## View recently accessed knowledge articles for cases
 
-You can view a min of 1 to a max of 8 articles
+Help agents find recently accessed knowledge articles across different cases, thereby reducing the amount of clicks and time spent during search otherwise. Knowledge search shows the recently accessed results for keyword searches made by agents across different cases without initiating any search. This helps agents directly review and use the articles across similar cases without searching for the keyword again.
+
+1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**.
+2. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
+3. In the **Knowledge search experience** section, set the **Show recently viewed knowledge articles** toggle to **Yes**.
+1. Select the number of articles you want displayed from the **Number of recently viewed articles shown** drop-down list. You can show a min of 1 to a max of 8 articles.
+1. Select **Save**.
 
 ### See also  
 
- [Add the Knowledge Base Search control to a form](add-knowledge-base-search-control-forms.md)   
+ [Add the Knowledge Base Search control to a form](add-knowledge-base-search-control-forms.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
