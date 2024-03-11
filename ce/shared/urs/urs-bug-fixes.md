@@ -9,10 +9,10 @@ For information about older versions, see [Version history archive](../../field-
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [3.12.124.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212411)  | TBD | 03/15/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | [3.12.124.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212411) | 03/08/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.124.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212411)  | TBD | 03/22/2024 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | [3.12.124.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212411)  | 03/15/2024 |
-| | *USG* |  [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | [3.12.124.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212411) | 03/08/2024 |
-|**Station 4** |*Europe* |   [3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | 03/08/2024 |
+| | *USG* |  [3.12.124.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212411)  | TBD | 03/22/2024 |
+|**Station 4** |*Europe* |   [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | [3.12.124.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212411)  | 03/22/2024 |
 |**Station 5** |  *North America*| [3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | 03/15/2024 |
 |**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | 03/15/2024 |
 | | *Dedicated Scale Groups* |[3.12.122.50](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212250)  | [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334)  | 03/15/2024 |
@@ -21,6 +21,13 @@ For information about older versions, see [Version history archive](../../field-
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.127.12 - 2024 Wave 1 Early Access update 1
+
+**Resource Scheduling Controls:** 1.2.66.240663
+
+**Dataverse:** 4.0.117.12
+
 
 ## 3.12.124.11
 
@@ -34,6 +41,8 @@ For information about older versions, see [Version history archive](../../field-
 - Fixed a bug that was impacting the Move Bookings feature for some users.
 - Various security enhancements.
 
+**Resource Scheduling Controls:** 1.2.63.240662
+
 ## 3.12.123.34
 
 **Resource Scheduling Controls:** 1.2.62.240451
@@ -44,6 +53,8 @@ For information about older versions, see [Version history archive](../../field-
 - All relevant fields now link to their respective entities in the requirements pane on the schedule board.
 - The time zone setting in the schedule board settings is now reflected when moving a booking.
 - Performance improvements when switching between schedule board tabs.
+
+**Resource Scheduling Controls:** 1.2.62.240661
 
 ## 3.12.126.1 - 2024 Wave 1 Early Access
 
