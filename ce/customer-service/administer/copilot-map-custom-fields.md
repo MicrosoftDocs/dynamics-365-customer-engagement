@@ -52,21 +52,3 @@ In Customer Service admin center, perform the following steps to map your prefer
  
 :::image type="content" source="../media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="../media/copilot-data-attributes.png":::|
 
-
-## Modify the fields used to draft emails
-
-Copilot uses the following out-of-the-box case fields to draft emails:
-
-- Case Title
-- Case Description
-- Customer Contact
-- Subject
-- Case Notes
-- Email Content
-
-In Customer Service admin center, go to **Copilot help pane** and perform the steps in the [Modify the fields used to generate case summaries](#modify-the-fields-used-to-generate-case-summaries) section to modify the source fields that Copilot uses to draft emails.
-
-> [!NOTE]
-> You can't modify the Case Notes and Email Content field values that Copilot uses to draft emails.
-
-   :::image type="content" source="../media/copilot-email-conv-mini.png" alt-text="Screenshot of the data attributes that copilot email  uses" lightbox="../media/copilot-email-conv.png":::

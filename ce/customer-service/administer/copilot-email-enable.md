@@ -14,9 +14,20 @@ ms.custom: bap-template
 
 Agents can draft emails faster with Copilot. Copilot provides predefined or custom prompts to draft responses, the ability to refine responses by adding on relevant information in a conversational manner, adjust the length and the tone of the response, and translate the response to the customer's language.
 
-Agents can use the draft an email experience either in the Copilot features side pane or inline the rich text editor. Based on your geographical location, these features are enabled by default. If the features are not enabled, you can enable them by following the steps in the sections below.
+Agents can use the draft an email experience either in the Copilot features side pane or inline the rich text editor. Based on your geographical location, these features are enabled by default. 
 
-## Enable draft an email in the side pane
+## Enable draft an email in the rich text editor
+
+For your agents to use the write an email feature inline in the rich text editor, do the following steps:
+
+1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
+1. Select **Apps** and then select the required app.
+1. Select **Settings** and then select **Upcoming**.
+1. Switch the **Turn on Write an email in the experience** toggle to **On**.
+
+## Enable write an email in the side pane
+
+To enable your agents to use the write an email feature from the Copilot side pane, perform the following steps in Customer Service admin center:
 
 1. Use one of the following navigation options:
       - **Agent Experience** > **Productivity** > **Copilot help pane**
@@ -24,14 +35,6 @@ Agents can use the draft an email experience either in the Copilot features side
 1. Select **Manage** in **Copilot help pane**. The **Copilot help pane** page appears. 
 1. Switch the **Email Copilot for sidecar** toggle to **On**.
 1. Select **Save**.
-
-## Enable draft an email in the rich text editor
-
-1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-1. Select **Apps** and then select the required app.
-1. Select **Settings** and then select **Upcoming**.
-1. Switch the **Turn on Write an email in the experience** toggle to **On**.
-
 
 ## Modify the fields used to draft emails
 
