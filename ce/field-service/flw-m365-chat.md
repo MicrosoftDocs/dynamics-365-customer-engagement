@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)
 description: Learn about the Dynamics 365 Field Service Plugin for Microsoft Copilot including the types of questions you can ask.
-ms.date: 02/12/2024
+ms.date: 03/11/2024
 ms.topic: overview
 author: KishorIoT
 ms.author: nandab
@@ -16,6 +16,8 @@ ms.collection: bap-ai-copilot
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 With the Dynamics 365 Field Service Plugin for Microsoft Copilot, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Microsoft Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
+
+Copilot can also parse through [work order attachments](get-work-done-mobile-app.md#add-notes-and-attachments) and provide answers to your questions. Attachments must be notes, Word, or PDF documents.
 
 To access this chat feature, and admin must [set up Microsoft Copilot for Field Service work orders](flw-copilot-setup.md).
 
@@ -69,7 +71,9 @@ Be specific about the expected outcomes. For example, if you want results in tab
 - What is the price list for {work order number}?
 - How many work orders for customer {name} and what is the status?
 - Can you find my work orders from last week?
-- Give me the details for my most recent work order.
+- How do I handle the battery of the Surface Laptop 4 safely?
+- What service tools are required to replace the non-skid foot pad on the Surface laptop?
+- How do I remove the non-skid foot pad on the Surface laptop?
 
 ## Next steps
 
