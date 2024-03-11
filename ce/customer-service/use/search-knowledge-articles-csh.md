@@ -93,9 +93,8 @@ Legend:
 1. Sorts the list of results
 1. Search box
 1. Unlinks the article from the current case or conversation
-1. Opens the article in a new browser window
-    To view the article in the reference pane, select its title in the search results.
-1. Opens a new email so that you can send the article to your customer
+1. Marks article as favorite
+1. Copies the article URL
 1. Rating
 1. The number of times the article has been viewed
 1. Links the article to the current case or conversation
@@ -104,6 +103,7 @@ Legend:
 1. A card that displays search term matches from keywords, description, attachments, and other custom fields
 1. The date the article was most recently updated
 1. The article ID
+
 
 ## Search for related articles in Customer Service workspace and Omnichannel for Customer Service
 
@@ -127,7 +127,7 @@ Legend:
 1. Links the article to the current case or conversation, or, if the article is already linked, unlinks it
 1. Status and visibility tags for the article
 1. An attachment that includes the search term in its title or contents
-
+1. Tag that indicates if the article has been marked as favorite.
 Select **More options** (**&hellip;**) to:
 
 - Select **Email Content** to open a new email so that you can send the article to your customer.
