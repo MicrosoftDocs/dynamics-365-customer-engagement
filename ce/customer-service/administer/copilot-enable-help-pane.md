@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
-ms.collection: 
+ms.collection: bap-ai-copilot
 ms.date: 03/07/2024
 ms.custom: bap-template 
 ---
@@ -14,17 +14,9 @@ ms.custom: bap-template
 
 The Copilot help pane allows agents to use Copilot features such as respond to questions, compose an email, and draft a chat response in Customer Service workspace.
 
-
 ## Prerequisites
 
 - See [Prerequisites](configure-copilot-features.md#prerequisites) for the list of prerequisites to enable and use the features in the Copilot pane.
-- You must have [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) configured in your environment for write an email and ask a question features. 
-- Your knowledge article parameters are as follows:
-   - Updated with the latest version
-   - The state is set to Published
-
- > [!NOTE]
- > Copilot uses the content attribute only in knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
 
 - If you aren't in the North America region and you want to use the web search powered by Bing feature, you must enable data movement across regions and Bing search in Power Platform admin center. See [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot).
 
@@ -50,13 +42,24 @@ Select **Make Copilot available to agents** in the **Copilot help pane** page of
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
-Select **For customer chat** in the **Copilot help pane** page of Customer Service admin center. The one-click response generation button appears on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane in Customer Service workspace. Copilot retrieves the context and drafts the response based on the knowledge resources configured for your organization.
+For customer chat** in the **Copilot help pane** page of Customer Service admin center. The one-click response generation button appears on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane in Customer Service workspace. Copilot retrieves the context and drafts the response based on the knowledge resources configured for your organization.
 
-## Enable write an email 
+## Configure knowledge sources
 
-Select **For email** in the **Copilot help pane** page of Customer Service admin center. The **Write an email** tab appears on **Copilot help pane** in Customer Service. Copilot helps agents create email responses based on the context of the case.
+You can configure the following knowledge sources for Copilot to generate responses.
 
-## Add trusted webpages as sources
+### Enable knowledge base
+
+Select **Knowledge base** for Copilot to use the internal knowledge base sources to generate responses for ask a question and draft an email feature in the Copilot help pane and in the rich text editor. By default, this option is disabled.
+
+Make sure that you have [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) configured in your environment and your knowledge article parameters are as follows:
+   - Updated with the latest version
+   - The state is set to Published
+ > [!NOTE]
+ > - Copilot uses the content attribute only in knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
+> - Even if you've disabled this option, agents will be able to use Copilot to draft an email using the**Suggest a call**, **Request more information**, **Empathize with feedback** and **Custom** prompts.
+
+### Add trusted webpages as sources
 
 You can select **Add web address** in **Web resources** to add trusted domains. You can add up to five trusted web domains for Copilot to search and generate responses from. Copilot searches for information up to two levels down from the configured domain. You must enable the Bing Search in Power Platform admin center to add trusted web sources. See [Enable data across geographic locations](/microsoft-copilot-studio/manage-data-movement-outside-us#enable-data-across-geographic-locations).
 
