@@ -69,7 +69,7 @@ With Copilot, you can draft email replies to customers quickly and be more effec
 
 ### Write an email with Copilot
 
-When you open an email, and open the Copilot pane, you can use the **Write an email** tab to draft a response. You can also use the Copilot nudge when you respond to an email in the rich text editor.
+When you open an email, and open the Copilot pane, you can use the **Write an email** tab to draft a response. You can also use Copilot to respond to an email inline in the rich text editor. 
 
 ### Use prompts
 
@@ -84,26 +84,21 @@ When you open an email, and open the Copilot pane, you can use the **Write an em
 
 - **Custom**: Allows you to provide your own prompt for the reply.
 
-
 ### How Copilot uses knowledge base and web sources
 
 If your agent has enabled Knowledge sources and set up trusted domains, Copilot uses internal knowledge base sources and searches the internal knowledge base and up to five trusted domains to produce the result. You can see the knowledge sources used to generate the email in **Check sources**.
 
 Select **Filters** to choose the only the relevant knowledge articles that Copilot must use to generate the response.
 
-- ### Use the custom prompt
-
-Use the custom prompt to include talking points, provide your objectives for the email, and determine its length and tone. Then select the **Create response** arrow to generate the response. *Always review the response* before sharing it with your customer. You can revise the custom prompt, if needed, above the reply and select **Refresh** to update the response.
-
-### Review and refine suggested replies
+### Review suggested replies
 
 When you select one of the prompts, Copilot generates a suggested reply. *Always review the response.* If any knowledge articles were used to generate the response, you can select **Check sources** to see articles which Copilot drew the response. 
 
- If Copilot's response isn't immediately useful, you can ask follow-up questions and guide Copilot in a natural, conversational way. You can ask up to five follow-up questions. 
+### Refine replies
 
-### Adjust the length and tone of the response
+If Copilot's response isn't immediately useful, you can ask follow-up questions and guide Copilot in a natural, conversational way. You can ask up to five follow-up questions. If your administrator has enabled knowledge base, Copilot will use those sources to refine the responses.
 
-Select **Adjust** to change the length and tone of the response. 
+You can also select **Adjust** to change the length and tone of the response.
 
 ### Translate the response
 
