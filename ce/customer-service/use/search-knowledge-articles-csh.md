@@ -235,6 +235,8 @@ The copy and email options are available only if the knowledge article is [publi
 
 In Customer Service Hub, in the **Knowledge Search** reference pane, select the pop-out option to view the article on a new window.
 
+If the article has multiple sections, expand all the sections of the article to view the entire article and collapse all the sections, as required.
+
 :::image type="content" source="../media/knowledge-search-pop-out-csh.png" alt-text="View knowledge article in a new window":::
 
 ### See also
