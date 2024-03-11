@@ -12,9 +12,9 @@ ms.custom: bap-template
 
 # Configure Copilot's draft an email feature
 
-Agents can draft emails faster with Copilot. Copilot provides predefined or custom prompts to draft responses, refine the response using the multiturn experience, adjust the length and the tone of the response, and translate the response to the customer's language.
+Agents can draft emails faster with Copilot. Copilot provides predefined or custom prompts to draft responses, the ability to refine responses by adding on relevant information in a conversational manner, adjust the length and the tone of the response, and translate the response to the customer's language.
 
-Agents can use the draft an email experience either in the Copilot features side pane or in the rich text editor. Based on your geographical location, these features are enabled by default. If the features are not enabled, you can enable them by following the steps in the sections below.
+Agents can use the draft an email experience either in the Copilot features side pane or inline the rich text editor. Based on your geographical location, these features are enabled by default. If the features are not enabled, you can enable them by following the steps in the sections below.
 
 ## Enable draft an email in the side pane
 
