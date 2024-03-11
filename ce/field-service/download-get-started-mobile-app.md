@@ -73,7 +73,7 @@ Use the buttons below the list for easy access to the bookings home page (**Home
 
 To view and change the app settings, provide feedback, and change the environment, select your profile picture at the top of the screen.
 
-Scroll up or down in Agenda View to see bookings in the future or the past. Tap **Home** to return to today.
+Scroll up or down in the agenda view to see bookings in the future or the past. Tap **Home** to return to today.
 
 :::image type="content" source="./media/mobile-newux-bookings.png" alt-text="Rendering of a mobile device showing the Agenda View with today's and tomorrow's bookings in the Field Service mobile app.":::
 
