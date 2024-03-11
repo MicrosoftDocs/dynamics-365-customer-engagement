@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 07/21/2023
+ms.date: 03/11/2024
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -227,6 +227,14 @@ The copy and email options are available only if the knowledge article is [publi
 In Customer Service Hub, in the **Knowledge Search** reference pane, select the pop-out option to view the article on a new window.
 
 :::image type="content" source="../media/knowledge-search-pop-out-csh.png" alt-text="View knowledge article in a new window":::
+
+## View recently accessed knowledge articles for cases
+
+You can find the most recently accessed knowledge articles across different cases without initiating any search. When you select the standalone search on Customer Service Hub, you see the recently accessed knowledge articles across cases. You can review and use them across similar cases without searching for any keyword.
+
+You can also view recently accessed articles on the Knowledge search control from the productivity pane of Customer Service workspace. By default, you will see the articles related to the case that you had searched for. You need to remove the keyword from the search bar to view recently accessed articles.
+
+Your administrator must enable this feature for you. More information: [View recently accessed knowledge articles for cases](../administer/set-up-knowledge-management-embedded-knowledge-search.md#view-recently-accessed-knowledge-articles-for-cases)
 
 ### See also
 
