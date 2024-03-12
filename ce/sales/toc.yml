@@ -1397,36 +1397,6 @@
       href: privacy-notice.md
 - name: Troubleshooting and FAQ
   items:
-    - name: Dynamics 365 Sales Troubleshooting guide
-      href: troubleshooting.md
-    - name: Troubleshooting leads
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-lead-form-auto-generated-contact-company-fields?context=/dynamics365/context/sales-context
-    - name: Troubleshooting opportunities
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-opportunities-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting orders
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-orders-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting products
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-products-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting common entities
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-multiple-tables-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting currency and price list
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-currency-and-price-lists-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting views
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-table-views-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting forecasts
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-forecast-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting in-app marketing
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-in-app-marketing-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting Unified Interface
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-unified-interface-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting the sales pipeline chart
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-pipeline-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting email
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-emails-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting Sales Premium
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-premium-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting Sales Professional
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-professional-issues?context=/dynamics365/context/sales-context
     - name: Sales premium FAQ
       href: faqs-sales-insights.md
 - name: Removed or deprecated features
