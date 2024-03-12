@@ -4,6 +4,8 @@ description: "This article provides information about agent experience in handli
 author: neeranelli
 ms.author: nenellim
 ms.collection: get-started
+ms.topic: article
+ms.date: 03/12/2024
 ---
 
 # Use Facebook channel
