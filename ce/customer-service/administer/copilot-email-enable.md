@@ -1,5 +1,5 @@
 ---
-title: Enable Copilot to draft an email
+title: Enable Copilot to draft emails 
 description: Learn how to enable the draft an email feature in Copilot to help agents draft emails faster.
 author: gandhamm 
 ms.author: mgandham 
@@ -10,11 +10,9 @@ ms.date: 04/01/2024
 ms.custom: bap-template 
 ---
 
-# Enable Copilot to draft an email 
+# Enable Copilot to draft emails 
 
-Agents can draft emails faster with Copilot. Copilot provides predefined or custom prompts to draft responses, the ability to refine responses by adding on relevant information in a conversational manner, adjust the length and the tone of the response, and translate the response to the customer's language.
-
-Agents can use the draft an email experience either in the Copilot features side pane or inline the rich text editor. 
+Agents can draft emails faster with Copilot. Enable agents to use Copilot to draft emails either in the Copilot side pane or  the inline from the rich text editor. 
 
 ## Prerequisites
 
