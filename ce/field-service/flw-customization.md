@@ -134,13 +134,15 @@ You can customize the labels used for work orders to better match your organizat
 
 1. Select **All** and then search for **work order**.
 
+   :::image type="content" source="media/fsp-power-apps-table-properties.png" alt-text="Power Apps Tables page with work order search highlighted.":::
+
 1. Select to the left of the Work Order table and select **Properties**. The **Edit table** pane displays.
 
 1. Enter the **Display name** and **Plural name** of your choice.
 
 1. Select **Save and publish**.
 
-1. Return to Teams and select **Refresh data**. Select the view under **Work orders**and select **Publish**.
+1. Return to Teams and select **Refresh data**. Select the view under **Work orders** and select **Publish**.
 
 ## Next steps
 
