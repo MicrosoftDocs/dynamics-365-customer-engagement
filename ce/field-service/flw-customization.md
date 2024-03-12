@@ -1,7 +1,7 @@
 ---
 title: Customize the Microsoft 365 integrations for Field Service
 description: Learn how to tailor the Microsoft 365 integrations for Dynamics 365 Field Service to your business
-ms.date: 03/08/2024
+ms.date: 03/12/2024
 ms.topic: how-to
 author: matthidinger
 ms.author: mahiding
@@ -12,7 +12,11 @@ ms.subservice: m365-integrations
 
 # Customize the Microsoft 365 integrations for Field Service
 
-Customize the work order and booking experiences to help frontline managers and workers accomplish their tasks faster by filling in and retrieving the specific pieces of information they need, when they need it. As an admin, customize the work order form with the most important information for your organization. Any fields you add to the form are readily available to your users when creating and updating a work order in Outlook or Teams. In Outlook, Copilot also attempts to populate those fields if there's relevant information provided in the email. Customize the booking experience with the key details for your organization so workers fill out that information when updating their bookings.
+Customize the work order and booking experiences to help frontline managers and workers accomplish their tasks faster by filling in and retrieving the specific pieces of information they need, when they need it.
+
+As an admin, you can customize the views of work orders and bookings. You can also customize the labels for work orders.
+
+Customize the work order form with the most important information for your organization. Any fields you add to the form are readily available to your users when creating and updating a work order in Outlook or Teams. In Outlook, Copilot also attempts to populate those fields if there's relevant information provided in the email. Customize the booking experience with the key details for your organization so workers fill out that information when updating their bookings.
 
 The Microsoft 365 integrations for Field Service utilize views in Power Apps to customize the forms for users creating and editing work orders and bookings. Any fields added to the view show on the forms, in the order specified in the view. Required field indicators show which fields are required in the table definition. We currently support customized views of the **Work Orders** and **Bookable resource booking** experiences.
 
@@ -115,6 +119,8 @@ If a column is required but has a default that will be provided after the table 
 
 ## Create custom labels
 
+You can customize the labels used for work orders to better match your organization's terminology.
+
 1. From your Teams Field Service **Home** page, select **Settings**, then **Customize views**.
 
 1. Select the environment you want to customize.
@@ -130,7 +136,7 @@ If a column is required but has a default that will be provided after the table 
 
 1. Select to the left of the Work Order table and select **Properties**. The **Edit table** pane displays.
 
-1. Enter the **Display name** and **Plural name** of your choice. 
+1. Enter the **Display name** and **Plural name** of your choice.
 
 1. Select **Save and publish**.
 
