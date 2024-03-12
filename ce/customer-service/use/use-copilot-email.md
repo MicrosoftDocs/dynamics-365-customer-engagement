@@ -50,14 +50,14 @@ You can select **Filters** to choose only the relevant knowledge articles that C
 
 ### How Copilot uses knowledge base and web sources
 
-If your administrator has enabled Knowledge sources and set up trusted domains, the following actions occur:
+If your administrator has enabled knowledge sources and set up trusted domains, the following actions occur:
 -  Copilot uses internal knowledge base sources and searches the internal knowledge base and up to five trusted domains to generate email drafts. 
 - The application displays the knowledge sources used to generate the draft when you select **Check sources**.
 - When you use a custom prompt to further refine the response, the application displays the **Use knowledge base** toggle that's set to **On**. You can switch the toggle to **Off** to disable knowledge base sources.
 
 ### Review suggested replies
 
-When you select one of the prompts, Copilot generates a suggested reply. *Always review the response.* 
+When you select one of the prompts, Copilot generates a suggested reply. The application starts to stream the draft as soon as Copilot begins generating the response instead of waiting for the entire draft to be generated before it is displayed.  *Always review the response.* You can select **Stop Responding** to stop Copilot from generating the email draft if it isn't accurate. The application displays the prompts for you to start over. 
 
 ### Refine replies
 
@@ -68,7 +68,7 @@ You can select **Adjust** to change the length and tone of the response as follo
 
 ### Use follow-up prompts
 
-If Copilot's response isn't immediately useful, you can use follow-up custom prompts and guide Copilot in a natural, conversational way. You can refine responses using up to five prompts. If your administrator has enabled knowledge base, Copilot will use those sources to refine the responses.
+If Copilot's response isn't immediately useful, you can use follow-up custom prompts and guide Copilot in a natural, conversational way. You can refine the email draft using up to five prompts. If your administrator has enabled knowledge base, Copilot will also use those sources.
 
 ### Translate the response
 
