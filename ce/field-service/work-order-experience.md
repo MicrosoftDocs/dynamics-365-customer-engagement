@@ -1,7 +1,7 @@
 ---
 title: New work order experience
 description: Learn about the new work order experience in Dynamics 365 Field Service, including how to manage work orders and customize forms.
-ms.date: 02/01/2024
+ms.date: 03/12/2024
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -147,9 +147,9 @@ In the near future, the new work order experience becomes the new default view f
 > [!NOTE]
 > The update to the new work order experience won't override any of your custom logic to set default forms.
 
-### Opt out to get the new experience as default
+### Opt out from the new experience
 
-Before you install the 2024 release wave 1 early access update, complete the following steps to opt out from changing the default experience.
+To opt out from changing the default experience.
 
 1. In Field Service, select **Settings** :::image type="icon" source="media/settings-icon.svg" border="false"::: in the header and select **Advanced settings**.
 1. Go to **Customizations** > **Customize the system** > **Entities** > **Field Service Setting** > **Forms** > **Information**.
@@ -168,7 +168,7 @@ You can change back to the classic work order experience if the new experience w
 1. In Field Service, select **Settings** :::image type="icon" source="media/settings-icon.svg" border="false"::: in the header and select **Advanced settings**.
 1. Go to **Customizations** > **Solutions**.
 1. Uninstall the *msdyn_FieldServiceDefaultComponents* solution.
-1. [Opt out from the new experience](#opt-out-to-get-the-new-experience-as-default) and skip installing the solution in subsequent updates.
+1. [Opt out from the new experience](#opt-out-from-the-new-experience) and skip installing the solution in subsequent updates.
 
 ### See also
 
