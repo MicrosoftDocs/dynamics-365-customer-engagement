@@ -15,7 +15,7 @@ ms.custom:
 
 # Enable entities for service-level agreements
 
-You can enable entities for service-level agreements (SLAs)either through the Power Apps portal or through your Dynamics 365 Customer Engagement (on-premises) organization.
+You can enable entities for service-level agreements (SLAs) either through the Power Apps portal or through your Dynamics 365 Customer Engagement (on-premises) organization.
   
 > [!IMPORTANT]
 > Only enhanced SLAs can be created for other entities. A standard SLA can be created only for the Case entity.
