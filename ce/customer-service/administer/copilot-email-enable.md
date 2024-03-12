@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Enable Copilot to draft emails 
 
-Agents can draft emails faster with Copilot. Enable agents to use Copilot to draft emails either in the Copilot side pane or  the inline from the rich text editor. 
+Agents can draft emails faster with Copilot. You can enable agents to use Copilot to draft emails in the Copilot side pane or inline from the rich text editor. 
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ Agents can draft emails faster with Copilot. Enable agents to use Copilot to dra
 
 ## Regional availabilty
 
-The draft an email feature is available in the Copilot help pane and rich text by default in the United States, India, Australia, and United Kingdom. You don't have to enable the feature in these regions. For other regions, you must perform the steps in the following sections to enable the feature.
+The draft an email feature is available in the Copilot help pane and rich text by default in the United States, India, Australia, and United Kingdom. You don't have to enable the draft an email feature in these regions. For other regions, you must perform the steps in the following sections for Copilot to assist agents with composing emails.
 
 ## Enable draft an email in the rich text editor
 
