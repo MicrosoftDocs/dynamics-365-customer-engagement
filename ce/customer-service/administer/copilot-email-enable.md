@@ -23,6 +23,11 @@ Agents can draft emails faster with Copilot. You can enable agents to use Copilo
 
 The draft an email feature is available in the Copilot help pane and rich text by default in the United States, India, Australia, and United Kingdom. You don't have to enable the draft an email feature in these regions. For other regions, you must perform the steps in the following sections for Copilot to assist agents with composing emails.
 
+## Enable knowledge sources for Copilot to draft emails
+
+By default, using knowledge sources to draft emails is disabled. If you want Copilot to use knowledge articles or trusted websites to draft emails, you must [enable knowledge sources for Copilot](copilot-enable-help-pane.md#enable-knowledge-base). 
+
+
 ## Enable draft an email in the rich text editor
 
 For your agents to use the write an email feature inline in the rich text editor, do the following steps:
