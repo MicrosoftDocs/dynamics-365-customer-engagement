@@ -51,16 +51,10 @@ You can create enhanced SLAs for entities that are enabled for an SLA. A system 
     1. On the **Edit table** dialog, expand **Advanced options**.
     1. Go to the **Make this table an option when** section and select the **Setting up service level agreements** checkbox.
     1. Select **Save**.
-1. On the entity, select **Schema** > **Columns**, and then select **New Column**. On the **New column** dialog,
-    1. Enter a **Display name**.
-    1. For **Data Type**, select **Lookup**.
-    1. For **Related table**, select **SLA KPI Instance**.  
-    1. Select **Save**.
 1. On the entity page, select **Advanced** > **Publish table**.
 1. Go back to **Solutions** and select **Publish all customizations**.
   
 > [!NOTE]
->
 > - You can have active SLAs for a maximum of seven entities.
 > - We recommend that you have a maximum of five SLA KPIs per entity.
 > - You can have a maximum of 100 SLA items per SLA entity, however we recommend that you have less than 15 SLA items per SLA entity.
