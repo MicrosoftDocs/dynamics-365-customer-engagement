@@ -67,7 +67,7 @@ You can create enhanced SLAs for entities that are enabled for an SLA. A system 
 1. Find the entity from the list and open it.
 1. In the **General** tab, **Communication & Collaboration** section, select the **Enable for SLA (Fields will be created)** checkbox.
 1. Select **Save and close**. SLA is enabled for the entity.
-1.	Select **Save and close**, and then select **Publish All Customizations**.
+1. Select **Save and close**, and then select **Publish All Customizations**.
   
 ## See Also
 
