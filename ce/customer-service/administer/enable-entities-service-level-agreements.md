@@ -15,7 +15,7 @@ ms.custom:
 
 # Enable entities for service-level agreements
 
-You can enable entities for service-level agreements (SLAs) either through the Power Apps portal or through your Dynamics 365 Customer Engagement (on-premises) organization.
+You can enable entities for service-level agreements (SLAs) either through the Power Apps portal or your Dynamics 365 Customer Engagement (on-premises) organization.
   
 > [!IMPORTANT]
 > Only enhanced SLAs can be created for other entities. A standard SLA can be created only for the Case entity.
@@ -47,7 +47,7 @@ You can create enhanced SLAs for entities that are enabled for an SLA. A system 
 1. Select **Solutions** > **Default Solution**.
 1. From **Objects**, select **Table**.
 1. Find the entity page name on the list and open it.
-1. On the entity page, **Table properties** section, select **Properties**.
+1. On the entity page, in the **Table properties** section, select **Properties**.
     1. On the **Edit table** dialog, expand **Advanced options**.
     1. Go to the **Make this table an option when** section and select the **Setting up service level agreements** checkbox.
     1. Select **Save**.
@@ -57,7 +57,7 @@ You can create enhanced SLAs for entities that are enabled for an SLA. A system 
 > [!NOTE]
 > - You can have active SLAs for a maximum of seven entities.
 > - We recommend that you have a maximum of five SLA KPIs per entity.
-> - You can have a maximum of 100 SLA items per SLA entity, however we recommend that you have less than 15 SLA items per SLA entity.
+> - You can have a maximum of 100 SLA items per SLA entity; however, we recommend that you have less than 15 SLA items per SLA entity.
 
 ## Enable from your Dynamics 365 Customer Engagement (on-premises) organization
 
@@ -65,7 +65,7 @@ You can create enhanced SLAs for entities that are enabled for an SLA. A system 
 1. Go to **Settings** > **Advanced Settings** > **Customizations** > **Customize the System** to open the default solution.
 1. Select **Entities**.
 1. Find the entity from the list and open it.
-1. In the **General** tab, **Communication & Collaboration** section, select the **Enable for SLA (Fields will be created)** checkbox.
+1. In the **General** tab, in the **Communication & Collaboration** section, select the **Enable for SLA (Fields will be created)** checkbox.
 1. Select **Save and close**. SLA is enabled for the entity.
 1. Select **Save and close**, and then select **Publish All Customizations**.
   
