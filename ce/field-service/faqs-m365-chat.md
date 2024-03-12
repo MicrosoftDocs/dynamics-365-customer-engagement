@@ -1,6 +1,6 @@
 ---
-title: FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)
-description: This FAQ provides information about the AI technology used in the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview).
+title: FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot
+description: This FAQ provides information about the AI technology used in the Dynamics 365 Field Service Plugin for Microsoft Copilot.
 ms.date: 03/11/2024
 ms.custom: 
   - responsible-ai-faqs
@@ -11,13 +11,13 @@ ms.reviewer: v-wendysmith
 ms.collection: bap-ai-copilot 
 ---
 
-# FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)
+# FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot
 
-This FAQ describes the AI impact of the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview) to generate questions about work orders.
+This FAQ describes the AI impact of the Dynamics 365 Field Service Plugin for Microsoft Copilot to generate questions about work orders.
 
-## What is Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)?
+## What is Dynamics 365 Field Service Plugin for Microsoft Copilot?
 
-Dynamics 365 Field Service Plugin for Microsoft Copilot (preview) utilizes the power of Microsoft 365 Copilot as your AI assistant. A [Microsoft 365 Copilot license](/microsoft-365-copilot/microsoft-365-copilot-setup#manage-licenses-for-copilot) enables authorized users to engage in a natural-language conversation about work orders with Field Service in Microsoft Teams.  
+Dynamics 365 Field Service Plugin for Microsoft Copilot utilizes the power of Microsoft 365 Copilot as your AI assistant. A [Microsoft 365 Copilot license](/microsoft-365-copilot/microsoft-365-copilot-setup#manage-licenses-for-copilot) enables authorized users to engage in a natural-language conversation about work orders with Field Service in Microsoft Teams.  
 
 ## What are the feature’s capabilities?
 
@@ -72,5 +72,5 @@ Feedback you provide on your satisfaction with generated topics is used to impro
 
 ## See also
 
-- [Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)](flw-m365-chat.md)
+- [Dynamics 365 Field Service Plugin for Microsoft Copilot](flw-m365-chat.md)
 - [Responsible AI FAQ for Dynamics 365 Field Service](responsible-ai-overview.md)
