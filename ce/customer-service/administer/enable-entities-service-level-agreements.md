@@ -1,6 +1,6 @@
 ---
 title: Enable entities for service level agreements
-description: Learn how to enable entities for service level agreements in Dynamics 365 Customer Service.
+description: Learn how to enable entities for service-level agreements in Dynamics 365 Customer Service.
 ms.date: 03/12/2024
 ms.topic: article
 author: Soumyasd27
@@ -48,7 +48,7 @@ You can create enhanced SLAs for entities that are enabled for an SLA. A system 
 1. From **Objects**, select **Table**.
 1. Find the entity page name on the list and open it.
 1. On the entity page, **Table properties** section, select **Properties**.
-    1. On the **Edit table** dialog, expand **Advance options**.
+    1. On the **Edit table** dialog, expand **Advanced options**.
     1. Go to the **Make this table an option when** section and select the **Setting up service level agreements** checkbox.
     1. Select **Save**.
 1. On the entity, select **Schema** > **Columns**, and then select **New Column**. On the **New column** dialog,
@@ -70,16 +70,9 @@ You can create enhanced SLAs for entities that are enabled for an SLA. A system 
 1. Sign in to your Dynamics 365 Customer Engagement (on-premises) instance.
 1. Go to **Settings** > **Advanced Settings** > **Customizations** > **Customize the System** to open the default solution.
 1. Select **Entities**.
-1. Find the custom entity from the list and open it.
+1. Find the entity from the list and open it.
 1. In the **General** tab, **Communication & Collaboration** section, select the **Enable for SLA (Fields will be created)** checkbox.
-1. Select **Save and close**. SLA is enabled for the custom entity.
-1. To create **SLA KPI Instance** fields for the custom entity, from **Entities**, search for the custom entity **Widget**.
-1. From **Widget**, select **Fields**, and then select **New**.
-1. In the **New for Widget** dialog, **General** tab, **Type** section, do the following steps:
-    1. For **Data Type**, select **Lookup**.
-    1. For **Target Record Type**, select **SLA KPI Instance**.
-    
-    **Relationship Name** automatically appears in the format: (Target Record Type)_ (Entity Name)_ (Field Name). For example, slakpiinstance_new_widget_Custom_Field_KPI.
+1. Select **Save and close**. SLA is enabled for the entity.
 1.	Select **Save and close**, and then select **Publish All Customizations**.
   
 ### Next steps
