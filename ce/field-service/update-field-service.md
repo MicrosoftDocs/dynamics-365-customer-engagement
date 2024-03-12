@@ -69,6 +69,12 @@ In the **RSO Deployment** dialog box, select **Upgrade to new version**.
 
 For more information, see [Manage the Resource Scheduling Optimization instance](rso-deployment.md#manage-the-resource-scheduling-optimization-instance).
 
+## Update model-driven apps
+
+In case you built your own model-driven app on top of Field Service tables, forms, and business logic, you can set the release channel for your environment or app. Microsoft regularly provides new and updated features for your model-driven apps. The release channel defines how quickly updates in Power Apps roll out in your organization.
+
+For more information, see [Release channels for your model-driven app](/power-apps/maker/model-driven-apps/channel-overview).
+
 ## Next steps
 
 - [Get started with Dynamics 365 Field Service](field-service-get-started.md)
