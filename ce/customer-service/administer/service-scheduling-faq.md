@@ -1,5 +1,5 @@
 ---
-title: Service Scheduling Frequently Asked Questions (Dynamics 365 Customer Service) | MicrosoftDocs
+title: Service Scheduling FAQ
 description: Find answers to common questions about service scheduling, including license requirements, availability, and resource selection.
 ms.date: 03/12/2024
 ms.topic: article
