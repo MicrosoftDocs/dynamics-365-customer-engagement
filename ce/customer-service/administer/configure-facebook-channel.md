@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service.
-ms.date: 02/29/2024
+ms.date: 03/07/2024
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -155,15 +155,16 @@ The customer can send attachments only if you enable them. When the option isn't
 
 If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Community Cloud region). More information: [Connect a bot to Facebook](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
 
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 ### See also
 
-[Understand and create workstreams](create-workstreams.md)  
-[Configure automated messages](configure-automated-message.md)  
-[Configure a prechat survey](configure-pre-chat-survey.md)  
-[Configure a post conversation survey](configure-post-conversation-survey.md)  
-[Delete a configured channel](delete-channel.md)  
-[Support for live chat and asynchronous channels](card-support-in-channels.md)  
+[Facebook channel setup FAQ](facebook-channel-setup-faq.md)<br>
+[Understand and create workstreams](create-workstreams.md)<br>  
+[Configure automated messages](configure-automated-message.md)<br> 
+[Configure a prechat survey](configure-pre-chat-survey.md)<br> 
+[Configure a post conversation survey](configure-post-conversation-survey.md)<br>
+[Delete a configured channel](delete-channel.md)<br>
+[Support for live chat and asynchronous channels](card-support-in-channels.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
