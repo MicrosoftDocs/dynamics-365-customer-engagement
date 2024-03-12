@@ -1,9 +1,9 @@
 ---  
-title: Sales Trial FAQ
+title: Dynamics 365 Sales trial FAQs
 description: Solutions to common questions related to Dynamics 365 Sales trial sign up and management. Learn how to resolve platform and app-specific issues.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 11/11/2022
+ms.date: 03/15/2024
 ms.topic: conceptual
 ms.custom: 
   - template-trial-faq
@@ -33,9 +33,10 @@ The following limitations apply for the trial:
 - The trial is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license, or sign up for a new trial.  
 - You can have only one active trial per app at a time. You can sign up again after your current trial for the app ends.
 
-## Dynamics 365 Sales-specific questions
+## Dynamics 365 Sales-specific
 
 This section contains answers to the following questions:
+
 - [How do I start using the trial?](#how-do-i-start-using-the-trial)
 - [What features are available in the trial?](#what-features-are-available-in-the-trial)
 - [Why am I not able to use conversation intelligence features?](#why-am-i-not-able-to-use-conversation-intelligence-features)
@@ -157,6 +158,3 @@ If you have modified the sample data and want to restore it back to original, th
 ### Is the Sales trial available in all geographical regions?
 
 Though you can sign up for the trial from any region, the Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](faqs-sales-insights.md#general). If you are not in a supported region, you can only access the Sales core functionalities.  
-
-### See also
-- [Sign up for a free trial](sign-up-for-sales-trial.md)
