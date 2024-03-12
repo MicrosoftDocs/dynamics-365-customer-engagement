@@ -134,7 +134,7 @@ You can customize the labels used for work orders to better match your organizat
 
 1. Select **All** and then search for **work order**.
 
-   :::image type="content" source="media/fsp-power-apps-table-properties.png" alt-text="Power Apps Tables page with work order search highlighted.":::
+   :::image type="content" source="media/fsp-power-apps-table-properties.png" alt-text="Power Apps Tables page with Properties highlighted.":::
 
 1. Select to the left of the Work Order table and select **Properties**. The **Edit table** pane displays.
 
