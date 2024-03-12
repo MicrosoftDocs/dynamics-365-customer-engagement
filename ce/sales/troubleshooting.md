@@ -44,7 +44,6 @@ The following FAQ articles discuss issues specific to Dynamics 365 Sales:
 - [Auto capture FAQs](faq-auto-capture.md)
 - [Who knows whom FAQs](faq-who-knows-whom.md)
 - [Copilot in Dynamics 365 Sales FAQ](sales-copilot-faq.md)
-- 
 
 ## Other support resources
 
