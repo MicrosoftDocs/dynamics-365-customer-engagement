@@ -13,6 +13,145 @@ applies_to:
 
 # Frequently asked questions about Sales Premium
 
+<<<<<<< HEAD
+=======
+## Licenses and storage
+
+### What's the difference between Sales Premium and Sales Insights?  
+
+Sales Premium refers to the license. Sales Insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and Sales Insights capabilities. Basic Sales Insights capabilities are also available with the Sales Enterprise license. 
+
+### Where can I find the comparison chart for Dynamics 365 Sales licenses?  
+
+The following license options are available for Dynamics 365 Sales:
+- Sales Premium
+- Sales Enterprise
+- Sales Professional
+
+For a detailed comparison of each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
+
+### After I installed Sales Insights, I see a spike in the data usage. How much storage data does Sales Insights need?  
+
+When you install Sales Insights, corresponding analytics tables are created for contacts, opportunities, leads, accounts, and activityparty tables. The storage requirement for these analytics tables is directly proportional to the amount of data in Dataverse. The tables are stored as files in the managed data lake and will be counted against your total file storage quota. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
+
+
+## General
+
+### In which region is Sales Premium available? 
+ 
+Sales Premium is available in the following countries or regions:
+
+-    Asia Pacific (APJ)
+-    Canada (CAN)
+-    Europe, the Middle East, and Africa (EMEA)
+-  France (FRA)
+-    Great Britain (GBR)
+-    India (IND)
+-    Japan (JPN)
+-    North America (NAM)
+-    Oceania (OCE)
+-    South Africa (ZAF)
+-    South America (SAM)
+-    Switzerland (CHE)  
+-    United Arab Emirates (UAE)
+
+Sales Premium isn't available in the following datacenters:
+- Germany
+- Korea
+- Norway
+- Government Community Cloud (GCC), including USG
+- Department of Defense (DoD)
+- China
+
+### In which region are the features available?
+
+The following table lists the regions in which Sales Premium features are available.
+
+| Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA | SAM | ZAF | UAE |
+|---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| [Assistant](assistant.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Conversation intelligence](dynamics365-sales-insights-app.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Notes analysis](notes-analysis.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Premium forecasting](configure-premium-forecasting.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes |
+| [Predictive lead scoring](work-predictive-lead-scoring.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Predictive opportunity](work-predictive-opportunity-scoring.md) scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Sales accelerator](digital-selling-sales-accelerator.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes|
+| [Relationship analytics (Basic)](relationship-analytics-overview.md#basic-relationship-insights) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Relationship analytics (Enhanced)](relationship-analytics-overview.md#enhanced-relationship-insights)** | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Who knows whom (Basic)](who-knows-whom.md#basic-who-knows-whom-information) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Who knows whom (Enhanced)](who-knows-whom.md#enhanced-who-knows-whom-information) | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No |
+
+** To use Exchange data for relationship analytics (enhanced), your organization's Office 365 data location must be in one of the [supported locations](#in-which-regions-is-exchange-integration-available). 
+
+### Which version of Exchange is supported for features in Sales Premium?
+
+The following table shows the version of Exchange that's supported for Sales Premium features.
+
+| Feature | Exchange Online | Exchange Server 2013 and above | Is Exchange data mandatory? |
+|---------|-----------------|--------------------------------|-----------------------|
+| Relationship analytics (Basic) | Yes | No | No |
+| Relationship analytics (Enhanced) | Yes | No | No* |
+| Who knows whom (Basic)| Yes | No | No |
+| Who knows whom (Enhanced)| Yes | No | Yes |
+| Assistant | Yes | No | No |
+| Email engagement | Yes | Yes | Yes |
+
+** Though Exchange data isn't mandatory for relationship analytics (enhanced), it's recommended to enable Exchange integration to get more accurate and complete relationship information. For example, the response time KPI is generated from the data in Exchange only. If you don't enable Exchange integration, the response time KPI will be blank.
+
+### In which regions is Exchange integration available?
+
+Exchange integration is only available in specific regions. To use Exchange data for who knows whom and relationship analytics, your organization's Office 365 data location must be in one of the following locations and not in your region-specific data canter location:
+
+- Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands).
+- Global Geography 2 – Asia Pacific	(Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
+- Global Geography 3 – Americas (Brazil, Chile, United States).<br>
+
+If your organization's Office 365 data is in any other region, who knows whom won't be available. However, relationship analytics will be available with the data in Dynamics 365.
+
+To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
+
+### What languages are supported?
+
+The following table shows which languages are supported for Sales Premium features.
+
+| Feature | Language supported |
+|---------|--------------------|
+| Assistant, Assistant studio, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, Sales accelerator, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
+| Notes analysis | English, French, German, Italian, and Dutch for machine learning models. |
+| Exchange insight cards in Assistant | Only English - United States (en-US) for machine learning models. |
+| Conversation intelligence | Go to [Languages supported for conversation intelligence](language-support-conversation-intelligence.md) |
+
+[Learn more about infrastructure availability (PDF)](https://aka.ms/dynamics_365_international_availability_deck).
+
+### Where is my organization's data stored?  
+
+The following table shows where your data is stored, depending on the region where your organization is hosted.
+
+| Region | Primary Azure datacenter location  | Secondary Azure datacenter location |
+|--------|-------------------------------------|--------------------------------------|
+| Asia Pacific (APJ) | South East Asia (Singapore) | East Asia (Hong Kong SAR) |
+| Canada (CAN) | Canada Central (Toronto) | Canada East (Quebec City) |
+| Europe, the Middle East, and Africa (EMEA) | West Europe (Netherlands) | North Europe (Ireland) |
+| France (FRA) | France Central (Paris) | -- |
+| Great Britain (GBR) | UK South (London) | UK West (Cardiff) |
+| India (IND) | Central India (Pune) | South India (Chennai) |
+| Japan (JPN) | Japan East (Tokyo, Saitama) | Japan West (Osaka) |
+| North America (NAM) | East US (Virginia) | West US 2 (Washington) |
+| Oceania (OCE) | Australia East (New South Wales) | Australia Southeast (Victoria) |
+| South America (SAM) | Brazil South | Brazil Southeast |
+| Switzerland (CHE) | Switzerland North | Switzerland West |
+
+More information: [Azure Regional Pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs)
+
+### Which users can push data from Dynamics 365 Sales to Dataverse?
+
+The Dynamics 365 Sales data is pushed to Dataverse to generate insights such as, predictive scoring, relationship analytics, who knows whom, and predictive forecasting. A set of predefined system and application users are used to push data from Dynamics 365 Sales to Dataverse. For more information, see [System and application users](/power-platform/admin/system-application-users).
+
+### Why are my entities updated by some application users?
+
+System and application users update certain entities with insights about the records. For example, lead and opportunity entities are updated by the application users to add predictive scores. Similarly, contact, opportunity, lead, and account entities are updated with relationship KPIs and analytics. More information: [Which users can push data from Dynamics 365 Sales to Dataverse?](#which-users-can-push-data-from-dynamics-365-sales-to-dataverse)
+
+>>>>>>> 6887833e0768083e75fe20c064b8f8f2ce2dc283
 
 ## Digital selling
 
@@ -155,6 +294,10 @@ Notes analysis looks at notes and posts on the timeline for the intent that may 
 ### How long does the application take to display captured suggestions?
 
 For activities, the suggestions are displayed immediately.  
+
+### Which languages are supported for auto capture?
+
+For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian.
 
 
 ## Who knows whom
