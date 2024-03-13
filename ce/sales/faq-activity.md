@@ -1,7 +1,7 @@
 ---
 title: Activity management FAQs
 description: Get answers to frequently asked questions about the Activity management.
-ms.date: 03/15/2024
+ms.date: 3/15/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
