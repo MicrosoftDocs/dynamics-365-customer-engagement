@@ -16,7 +16,7 @@ Multiple updates are released throughout the year.
 
 - **Minor updates** are released each month and include only minor bug fixes. Administrators receive a notification when an update is planned.
 
-- **Major updates** are released in April and October and include new features, enhancements, and bug fixes.
+- **Major updates** are released in April and October and include new features, enhancements, and bug fixes. Some changes to controls and user experiences can roll out more frequently. To get the latest updates to controls as soon as they are available, [enable the monthly release channel for your environment](#update-model-driven-apps). Changes to business logic and other backend-related items continue to roll out twice a year.
 
 - **Hot fixes** are rare, but occasionally a critical update is released outside the planned update schedule.
 
@@ -71,7 +71,7 @@ For more information, see [Manage the Resource Scheduling Optimization instance]
 
 ## Update model-driven apps
 
-In case you built your own model-driven app on top of Field Service tables, forms, and business logic, you can set the release channel for your environment or app. Microsoft regularly provides new and updated features for your model-driven apps. The release channel defines how quickly updates in Power Apps roll out in your organization.
+To get the latest updates to controls and other frontend items, you can set the release channel for your environment or app. Microsoft regularly provides new and updated features for your model-driven apps. The release channel defines how quickly updates in Power Apps roll out in your organization.
 
 For more information, see [Release channels for your model-driven app](/power-apps/maker/model-driven-apps/channel-overview).
 
