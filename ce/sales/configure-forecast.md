@@ -1,17 +1,21 @@
 ---
 title: Configure forecasts in your organization
-description: Learn how to configure forecasts based on revenue or quantity to predict how much revenue your sales team generates in a given time frame.
+description: Configure forecasts in your organization to predict revenue and track sales performance. Learn how to set up and customize forecast configurations.
 ms.date: 12/23/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-searchScope: 
+searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastconfiguration
   - D365-UI-*
   - Dynamics 365
   - Sales
   - Customer Engagement
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:03/12/2024
 ---
 
 # Configure forecasts in your organization
@@ -31,7 +35,7 @@ A forecast helps your organization predict how much revenue your sales team gene
 
 Using forecasts:
 
-- Sellers can track performance against targets and identify pipeline risks that might jeopardize their ability to hit them.
+- Sellers can track performance against targets and identify pipeline risks that might jeopardize their ability to hit the target.
 - Managers can track individual sales performance against quotas to proactively provide coaching.
 - Directors can use forecast trends to anticipate departmental sales and reallocate resources if necessary.
 - Organization leaders can use the projected estimates to change the product strategy or provide updated projections to investors.
