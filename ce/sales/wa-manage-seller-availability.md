@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 11/10/2023
+ms.date: 03/08/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -29,6 +29,9 @@ This article covers how to set your sales team's availability. Sellers can [set 
 | **Security roles** | [Sales Manager](security-roles-for-sales.md) |
 
 ## Let your sellers set their availability
+
+> [!NOTE]
+> Starting from  April 1, 2024, you can't set the seller's availability through Outlook. More information: [Deprecation of setting seller availability using Outlook calendar](deprecations-sales.md#set-seller-availability-using-outlook-calendar)
 
 1. Sign in to your Sales Hub app.
 
