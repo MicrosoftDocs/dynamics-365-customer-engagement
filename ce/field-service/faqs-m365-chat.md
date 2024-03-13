@@ -23,7 +23,7 @@ Dynamics 365 Field Service Plugin for Microsoft Copilot utilizes the power of Mi
 
 The feature allows you to enter a question about work orders and generate answers quickly. For example, frontline managers can ask for a list of all work orders for tomorrow. Or how many high priority work orders from last week that haven’t completed.  
 
-Frontline workers can ask how many work orders they have for next week or ask for detailed information on a specific work order.
+Frontline workers can ask how many work orders they have for next week or ask for detailed information on a specific work order. They can ask how to do something or what tools they need for the job.
 
 ## What is the feature’s intended use?
 
