@@ -1,7 +1,7 @@
 ---
 title: Understand conversation states 
 description: Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service.
-ms.date: 11/10/2023
+ms.date: 03/13/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -79,7 +79,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 > [!NOTE]
 > Waiting state applies only to asynchronous and persistent chats, and not live chats.
 
-A conversation in waiting doesn't block their capacity. The conversation gets transitioned to waiting when the agent closes the session without ending the conversation (that is, without selecting the **End** button on the communication panel) or when the customer closes the browser window without closing the chat widget. For example, the agent waits for some information from customer and doesn't want to end the conversation, or the customer's browser closes unexpectedly.
+A conversation in waiting doesn't block their capacity. The conversation gets transitioned to waiting when the agent closes the session without ending the conversation (that is, without selecting the **End** button on the communication panel). For example, the agent waits for some information from customer and doesn't want to end the conversation.
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** under the following scenarios.
 
