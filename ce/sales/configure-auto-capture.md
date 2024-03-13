@@ -1,6 +1,6 @@
 ---
-title: "Enable and configure auto capture"
-description: "Configure auto capture to helps your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook."
+title: Enable and configure auto capture
+description: Configure auto capture to help your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook.
 ms.date: 03/13/2024
 ms.custom: bap-template
 ms.topic: how-to
@@ -30,7 +30,7 @@ Configure auto capture to help your sellers to get suggestions on relevant custo
 
 ## Configure auto capture
 
-When you enable auto capture, you help salespeople in your organization by suggesting relevant customer activities in Microsoft Dynamics 365 Sales by capturing emails and meetings from Outlook.
+When you enable auto capture, you help your sellers get relevant customer activities from emails and meetings in Outlook.
 
 > [!IMPORTANT]
 > By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into Sales Insights are subject to the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=2116778).
