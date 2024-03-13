@@ -27,8 +27,8 @@ The following table lists the built-in limits for the embedded version of insigh
 | Topics | At least three related cases | Topics require at least three semantically related cases for the model to generate topics. |
 | Topics refresh | 100k per run | Refresh of topics uses up to 100,000 cases or conversations per run. |
 | Data refresh | Once every 24 hours | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes isn't guaranteed. More information: [Dashboard overview](../use/customer-service-analytics-insights-csh.md). |
-| AI suggestions for active cases | Each user license adds 30 active cases where agents can get AI suggested knowledge articles and similar cases in real time. ||
-| AI suggestions for conversations | 150 conversations per month per user license | Each user license adds 150 Omnichannel conversations where agents can get AI suggested knowledge articles and similar cases in real time. |
+| AI suggestions for active cases | Each user license adds 30 active cases where agents can get AI-suggested knowledge articles and similar cases in real time. ||
+| AI suggestions for conversations | 150 conversations per month per user license | Each user license adds 150 omnichannel conversations where agents can get AI-suggested knowledge articles and similar cases in real time. |
 
 ## Service protection limits for AI suggestions
 
@@ -40,6 +40,6 @@ For information on the service protection limits for AI suggestions, see [Enable
 
 If you enable the insights feature, it affects Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
-## See Also
+## See also
 
 [Supported regions and languages for analytics and insights](cs-region-availability-service-limits.md#supported-regions-and-languages-for-analytics-and-insights)
