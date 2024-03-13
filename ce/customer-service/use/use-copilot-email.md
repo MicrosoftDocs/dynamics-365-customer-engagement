@@ -15,7 +15,7 @@ ms.custom: bap-template
 When you draft customer emails, Copilot can offer suggestions to make them clearer, more concise, and more compelling. Based on your administrator's settings, you can launch the **Write an email** feature in Copilot as follows:
 
 - When you respond to an email in the rich text editor, select the Copilot control to view the capabilities inline.
-- When you open an email, select the **Copilot help pane** and then select **Write an email** tab.
+- When you open an email, and select the **Copilot** option from the side pane. The **Write an email** tab appears.
 
   ### [Draft an email in the rich text editor](#tab/richtexteditor)
 
@@ -69,10 +69,6 @@ You can select **Adjust** to change the length and tone of the response as follo
 ### Use follow-up prompts
 
 If Copilot's response isn't immediately useful, you can use follow-up custom prompts and guide Copilot in a natural, conversational way. You can refine the email draft using up to five prompts. If your administrator has enabled knowledge base, Copilot will also use those sources.
-
-### Translate the response
-
-Select **Translate** to see translate the email response to a customer's language. Select **Show original** to see the response in its original language.
 
 ### Use the responses
 

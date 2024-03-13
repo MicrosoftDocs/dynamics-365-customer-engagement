@@ -34,9 +34,16 @@ For your agents to use the write an email feature inline in the rich text editor
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. In **Apps**, select the required app to enable the Copilot control in the rich text editor.
-1. Select **Settings** and then select **Upcoming**.
-1. Switch the **Turn on write an email in the email experience** toggle to **Yes**.
+1. Select **Settings** and then select **Features**.
+1. Switch the **Turn on generative AI in emails** toggle to **Yes**.
 1. Select **Save**.
+
+### Rich text editor version support
+
+The following capabilities are supported based on the version of the rich text editor:
+
+- **RTE v2**: Agents will see both the Copilot and **Ajdust** option on the tool bar. 
+- **RTE v1**: Agents will only see the **Adjust** option on the tool bar.
 
 ## Enable write an email in the side pane
 
