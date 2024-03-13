@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/08/2024
+ms.date: 03/13/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -18,12 +18,12 @@ ms.custom:
 
 The built-in limits are designed to ensure reliability and stability of the service. Use the Ideas forum to request changes.
 
-The following table lists the built-in limits for the embedded version of insights that can be accessed through the Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service apps.
+The following table lists the built-in limits for the embedded version of insights that can be accessed through the Customer Service workspace and Omnichannel for Customer Service apps. This table explains the service limits for Customer Service historical analytics reports.
 
 | Area | Limits | Notes |
 | ------------ | ------------- | ----------------- |
 | Data age limit | 24-month period | Reports are limited to case data from the past 24 months. |
-| Dashboard interaction | No limit | No limits on the number of interactions or drill-throughs within reports. |
+| Dashboard interaction | No limit | No limits on the number of interactions or drill-through within reports. |
 | Topics | At least three related cases | Topics require at least three semantically related cases for the model to generate topics. |
 | Topics refresh | 100k per run | Refresh of topics uses up to 100,000 cases or conversations per run. |
 | Data refresh | Once every 24 hours | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes isn't guaranteed. More information: [Dashboard overview](../use/customer-service-analytics-insights-csh.md). |

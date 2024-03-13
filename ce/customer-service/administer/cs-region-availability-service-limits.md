@@ -1,7 +1,7 @@
 ---
 title: Supported regions and languages for analytics and insights
 description: Learn about region availability and the languages supported for analytics and insights.
-ms.date: 03/08/2024
+ms.date: 03/13/2024
 ms.topic: concept
 author: Soumyasd27
 ms.author: sdas
