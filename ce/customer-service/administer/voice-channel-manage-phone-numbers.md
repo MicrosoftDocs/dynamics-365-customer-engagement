@@ -15,7 +15,7 @@ ms.author: mgandham
 Omnichannel for Customer Service lets you enable and use voice and SMS services seamlessly within Dynamics 365. The voice channel comes with trial phone numbers with limited free calling time. More information: [Use trial phone numbers](voice-channel-trial-phone-numbers.md)
 
 
-As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and SMS services, and whether you'd like to set up inbound and outbound calling options for your business. You can also bring your own phone number via Azure direct routing. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
+As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and SMS services, and whether you want to set up inbound and outbound calling options for your business. You can also bring your own phone number via Azure direct routing. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
 ## Prerequisites
 
@@ -28,12 +28,12 @@ As an administrator, you can purchase phone numbers and calling plans, decide wh
 - Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 > [!IMPORTANT]
-> You can purchase one phone number per tenant for Azure Communication Services via the Azure Portal. However, if you'd like to acquire numbers in bulk or request a specific phone number, follow the instructions to create a special number request order [here](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
+> You can purchase one phone number per tenant for Azure Communication Services via the Azure Portal. However, if you want to acquire numbers in bulk or request a specific phone number, follow the instructions to create a special number request order [here](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
 
 
 ## View phone numbers
 
-1. To view the available phone numbers in your organization, go to one of the apps in Dynamics 365, and do the following:
+1. To view the available phone numbers in your organization, go to one of the apps in Dynamics 365, and do the following steps:
 
       ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -47,7 +47,7 @@ As an administrator, you can purchase phone numbers and calling plans, decide wh
 
       - In the site map, select **Phone numbers** in **General settings**.
 
-You'll see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
+You see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
 
    > [!div class="mx-imgBorder"]
    > ![View list of phone numbers.](../media/voice-channel-number-mgmt-view-phone-numbers.png "View list of phone numbers.")
@@ -59,7 +59,7 @@ If you don't have any phone numbers set up for your business, see **Acquire new 
 
 ## Acquire new phone numbers
 
-You can purchase new phone numbers for your organization after you've checked for the prerequisites, installed the voice channel, and have successfully connected to an Azure Communication Services resource.
+You can purchase new phone numbers for your organization after you check for the prerequisites, install the voice channel, and successfully connect to an Azure Communication Services resource.
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
@@ -108,7 +108,7 @@ You can purchase new phone numbers for your organization after you've checked fo
 
    > [!NOTE]
    >
-   >  - After you're allotted a new phone number, you must purchase it within the next 15 minutes. If the time elapses, you'll have to try purchasing again.
+   >  - After you're allotted a new phone number, you must purchase it within the next 15 minutes. If the time elapses, you have to try purchasing again.
    >  - After you select **Purchase phone number**, you can select **Close** and return to the **Phone numbers** page. The purchase happens in the background and the new phone number appears in the phone numbers list with the **Ready for setup** status.
 1. (Optional) Select **Setup Workstream** to [add the phone number to a voice workstream](#add-a-phone-number-to-a-voice-workstream).
 
@@ -120,9 +120,9 @@ You can purchase new phone numbers for your organization after you've checked fo
 
 ## Add a phone number to a voice workstream
 
-After you've acquired a phone number, you must add it to a voice workstream to be able to use it. You can associate a phone number with only one voice workstream.
+After you acquire a phone number, you must add it to a voice workstream to be able to use it. You can associate a phone number with only one voice workstream.
 
-1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page, and then select the phone number that's marked **Ready for setup** in the **Status** column.
+1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page, and then select the phone number marked **Ready for setup** in the **Status** column.
 2. Select **Setup workstream**. The **Workstreams** page with a list of all workstreams is displayed.
 3. If you want to create a new workstream, select **New workstream**, and then follow the steps to [set up a voice workstream](voice-channel-inbound-calling.md#set-up-a-voice-workstream).
 4. Select an existing workstream from the list.
@@ -130,11 +130,11 @@ After you've acquired a phone number, you must add it to a voice workstream to b
 
    The phone number is added to the workstream, and you can view the **Connected** status for the phone number on the **Phone numbers** page.
 
-## Configure phone numbers for outbound calling
+## Configure phone numbers for outbound calls
 
-After you've purchased phone numbers and associated them with voice workstreams, you can configure them for outbound calls so your agents can actually make calls to customers. More information: [Configure the phone number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling)
+After you purchase phone numbers and associated them with voice workstreams, you can configure them for outbound calls so your agents can actually make calls to customers. More information: [Configure the phone number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling)
 
-## Configure voice channel for inbound calling
+## Configure voice channel for inbound calls
 
 You can also enable your agents to receive customer calls, create queues for the voice channel, and set up routing rules. More information: [Set up workstreams and queues for the voice channel](voice-channel-inbound-calling.md)
 
@@ -144,7 +144,7 @@ You can also assign personal phone numbers to agents, so they're able to make an
 
 ## Edit phone numbers
 
-If you want to change the calling plan, or upgrade the calling or SMS plans on a particular number, you can do so by editing the phone number. For example, if you hadn't selected any SMS plans, you can upgrade to the **Send SMS** or **Send and receive SMS** plans; if you had selected only the **Send SMS** option, you can now upgrade to the **Send and receive SMS** plans.
+If you want to change the calling plan, or upgrade the calling or SMS plans on a particular number, you can do so by editing the phone number. For example, if you hadn't selected any SMS plans, you can upgrade to the **Send SMS** or **Send and receive SMS** plans; if you selected only the **Send SMS** option, you can now upgrade to the **Send and receive SMS** plans.
 
 1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
 1. Select a phone number and then select **Edit**. The **Edit phone number** dialog with the current plan type, calling plan, and SMS plan is displayed.
