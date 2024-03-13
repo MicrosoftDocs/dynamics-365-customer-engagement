@@ -30,6 +30,8 @@
   items:
     - name: What's new or changed in Dynamics 365 sales
       href: whats-new.md
+- name: Troubleshooting and FAQs
+  href: troubleshooting.md      
 - name: Try, buy, and install
   items:
     - name: Try
@@ -42,12 +44,8 @@
           href: features-in-trial.md
         - name: Dynamics 365 Sales trial FAQ
           href: sales-trial-faq.md
-    - name: Region and language FAQs
-      href: faq-region-language.md
     - name: Buy
       href: buy-dynamics-365-sales.md
-    - name: Licenses and storage FAQs
-      href: faq-licenses-storage.md
     - name: Install and configure
       items:
         - name: Install and use the Sales apps
@@ -125,6 +123,10 @@
           href: move-sales-enterprise-sales-professional.md
         - name: Upgrade to Sales Premium
           href: upgrade-sales-premium.md
+    - name: Region and language FAQs
+      href: faq-region-language.md
+    - name: Licenses and storage FAQs
+      href: faq-licenses-storage.md          
 - name: Administration guide
   items:
     - name: Administration overview
@@ -244,10 +246,10 @@
               href: manage-excel-templates.md
             - name: Create email templates
               href: /powerapps/user/email-template-create?context=/dynamics365/context/sales-context
-        - name: Enable auto capture
-          href: configure-auto-capture.md
         - name: Configure email engagement
           href: configure-email-engagement.md
+        - name: Enable auto capture
+          href: configure-auto-capture.md
         - name: Configure notes analysis
           href: configure-notes-analysis.md
         - name: Notes analysis and auto capture FAQs
@@ -1421,10 +1423,6 @@
       href: sales-privacy-faqs.md
     - name: Privacy notice
       href: privacy-notice.md
-- name: Troubleshooting and FAQ
-  items:
-    - name: Sales premium FAQ
-      href: faqs-sales-insights.md
 - name: Removed or deprecated features
   href: deprecations-sales.md
 - name: License compliance
