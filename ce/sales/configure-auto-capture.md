@@ -73,8 +73,6 @@ Before you enable auto capture, perform the following tasks:
 ### See also
 
 [Introduction to administering Sales Insights](intro-admin-guide-sales-insights.md)  
-[Auto capture FAQs](faqs-sales-insights.md#auto-capture)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 

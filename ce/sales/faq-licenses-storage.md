@@ -1,7 +1,7 @@
 ---
 title: Licenses and storage FAQs
 description: Discover answers to common questions about licenses and storage.
-ms.date: 03/29/2023
+ms.date: 03/15/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag

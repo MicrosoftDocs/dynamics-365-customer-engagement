@@ -143,6 +143,8 @@
           href: digital-selling-microsoft-teams-calls.md
         - name: Lead and opportunity scoring
           href: digital-selling-scoring.md
+        - name: Digital selling FAQs
+          href: faq-digital-selling.md  
     - name: Account and contact management
       items:
         - name: Enable or disable saving of business card image
@@ -248,6 +250,8 @@
           href: configure-email-engagement.md
         - name: Configure notes analysis
           href: configure-notes-analysis.md
+        - name: Notes analysis and auto capture FAQs
+          href: faq-notes-analysis-auto-capture.md           
         - name: Enable or disable PDF generation from sales records
           href: enable-pdf-generation-quote.md
         - name: Enable auto-generation of quote and invoice documents
@@ -297,7 +301,7 @@
             - name: Add lead scoring widget to a form
               href: pls-add-widget.md
         - name: Lead management FAQs
-          href: faqs-lead.md
+          href: faq-lead.md
     - name: Opportunity management
       items:
         - name: Opportunity management overview
@@ -458,6 +462,8 @@
               href: customize-workspace-sales-accelerator.md
             - name: Add the Up next widget to an entity form
               href: add-upnext-widget-form.md
+            - name: Sales accelerator FAQs
+              href: faq-sales-accelerator.md                
         - name: Create conditional workflows with sequences
           href: create-manage-sequences.md
           items:
@@ -622,6 +628,8 @@
           href: add-ri-widgets-to-custom-form.md
         - name: Grant access to who knows whom information
           href: grant-access-wkw.md
+        - name: Relationship intelligence FAQs
+          href: faq-relationship-intelligence.md  
     - name: Conversation intelligence
       items:
         - name: Configure in Dynamics 365 Sales Hub
@@ -799,7 +807,7 @@
               href: teams-integration/view-update-dynamics-records.md
             - name: Add chat messages to Dynamics 365 as notes or tasks
               href: teams-integration/add-chat-d365.md
-            - name: Frequently asked questions
+            - name: Teams integration FAQs
               href: teams-integration/message-extensions-faq.md
         - name: Microsoft Teams calls in Dynamics 365
           items:
@@ -813,6 +821,8 @@
               href: teams-integration/teams-collaboration.md
             - name: Enhanced Collaboration with Teams
               href: teams-integration/teams-collaboration-enhanced-experience.md
+            - name: Linking records to Microsoft Teams channels FAQs 
+              href: teams-integration/link-records-to-teams-faq.md
     - name: Productivity and document management
       items:
         - name: Activity management
@@ -829,11 +839,6 @@
               href: enhanced-email.md
             - name: Activity management FAQs
               href: faq-activity.md  
-        - name: Auto capture activities
-          href: auto-capture.md
-          items:
-            - name: Use auto capture
-              href: free-auto-capture.md
         - name: Email engagement
           items:
             - name: View message interactions
@@ -842,8 +847,15 @@
               href: create-send-email-message.md
             - name: Honor privacy preferences
               href: configure-individuals-privacy-preferences.md
+        - name: Auto capture activities
+          href: auto-capture.md
+          items:
+            - name: Use auto capture
+              href: free-auto-capture.md
         - name: How notes analysis assists you with suggestion
           href: notes-analysis.md
+        - name: Notes analysis and auto capture FAQs
+          href: faq-notes-analysis-auto-capture.md  
         - name: Manage sales literature
           href: create-sales-literature.md
         - name: Use OneDrive for Business
@@ -872,6 +884,8 @@
           href: re-open-lead-sales.md
         - name: Nurture sales from lead to order
           href: nurture-sales-from-lead-order-sales.md
+        - name: Lead management FAQs
+          href: faq-lead.md          
     - name: Opportunity management
       items:
         - name: Create or edit opportunities
@@ -977,6 +991,8 @@
               href: work-with-linkedin-activities.md
             - name: Personalize your sales accelerator
               href: personalize-sales-accelerator.md
+            - name: Sales accelerator FAQs
+              href: faq-sales-accelerator.md  
         - name: Sequences
           items:
             - name: Create and connect sequences for yourself
@@ -1038,6 +1054,8 @@
           href: relationship-analytics.md
         - name: Get introduced to leads and contacts
           href: who-knows-whom.md
+        - name: Relationship intelligence FAQs
+          href: faq-relationship-intelligence.md  
     - name: Conversation Intelligence
       items:
         - name: Overview of Conversation Intelligence

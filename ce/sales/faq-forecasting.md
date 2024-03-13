@@ -1,7 +1,7 @@
 ---
-title: Forecast management FAQs
-description: Get answers to frequently asked questions about Forecast management.
-ms.date: 03/29/2023
+title: Forecasting management FAQs
+description: Get answers to frequently asked questions about forecasting management.
+ms.date: 03/15/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -13,9 +13,9 @@ ms.custom:
   - ai-seo-date:03/11/2024
 ---
 
-# Forecast management FAQs
+# Forecasting management FAQs
 
-This article answers frequently asked questions about Forecast management in Dynamics 365 Sales, Sales premium, and Sales professional.
+This article answers frequently asked questions about forecasting management in Dynamics 365 Sales and Sales premium.
 
 ## Who owns the forecast?
   

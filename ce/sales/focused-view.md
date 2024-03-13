@@ -128,4 +128,4 @@ You can configure the number of records that are displayed per page in the focus
 [Prioritize sales pipeline with work lists](prioritize-sales-pipeline-through-work-list.md)   
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)   
 [Customize work items](customize-work-list-card.md#customize-work-items)   
-[Focused view FAQs](faq-sales.yml#focused-view)
+[Focused view FAQs](faq-focused-view.md)

@@ -1,7 +1,7 @@
 ---
-title: Activity FAQs
-description: Get answers to frequently asked questions about the Activity entity.
-ms.date: 03/29/2023
+title: Activity management FAQs
+description: Get answers to frequently asked questions about the Activity management.
+ms.date: 03/15/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -13,9 +13,9 @@ ms.custom:
   - ai-seo-date:03/11/2024
 ---
 
-# Activity FAQs
+# Activity management FAQs
 
-This article answers frequently asked questions about the Activity entity in Dynamics 365 Sales, Sales premium, and Sales professional.
+This article answers frequently asked questions about the Activity management in Dynamics 365 Sales, Sales premium, and Sales professional.
 
 ## I'm redirected to the default tab when I save an appointment from a non-default tab. Why?
 

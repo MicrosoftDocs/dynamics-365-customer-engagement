@@ -153,10 +153,9 @@ With the forecast grid, you can do the following tasks:
 
 ### See also
 
-[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
-[Configure a forecast](configure-forecast.md)<br>
-[Analyze revenue outcome by using predictive forecasting](/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)<br>
-[Forecasting FAQs](faqs-sales.md#forecasting)
+[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
+[Configure a forecast](configure-forecast.md)  
+[Analyze revenue outcome by using predictive forecasting](/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)  
 [Troubleshoot issues with forecasting](/troubleshoot/dynamics-365/sales/troubleshoot-forecast-issues)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

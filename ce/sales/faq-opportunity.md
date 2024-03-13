@@ -1,7 +1,7 @@
 ---
 title: Opportunity management FAQs
 description: Get answers to frequently asked questions about opportunity management.
-ms.date: 03/29/2023
+ms.date: 03/15/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag

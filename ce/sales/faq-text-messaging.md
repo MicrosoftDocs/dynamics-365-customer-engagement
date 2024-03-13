@@ -1,7 +1,7 @@
 ---
 title: Text messaging FAQs
 description: Get answers to frequently asked questions about text messaging.
-ms.date: 03/29/2023
+ms.date: 03/15/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag

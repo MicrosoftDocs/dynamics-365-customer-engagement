@@ -29,7 +29,7 @@ The following FAQ articles discuss issues specific to Dynamics 365 Sales:
 - [Dynamics 365 Sales trial FAQ](sales-trial-faq.md)
 - [Installation FAQs](faq-installation.md)
 - [Activity FAQs](faq-activity.md)
-- [Lead management FAQs](faqs-lead.md)
+- [Lead management FAQs](faq-lead.md)
 - [Opportunity management FAQs](faq-opportunity.md)
 - [Product and price list FAQs](faq-product-price-list.md)
 - [Forecasting FAQs](faq-forecasting.md)
@@ -39,11 +39,13 @@ The following FAQ articles discuss issues specific to Dynamics 365 Sales:
 - [Assistant FAQs](faq-assistant.md)
 - [Sales accelerator FAQs](faq-sales-accelerator.md)
 - [Digital selling FAQs](faq-digital-selling.md)
-- [Relationship analytics and health FAQs](faq-relationship-analytics.md)
-- [Notes analysis FAQs](faq-notes-analysis.md)
-- [Auto capture FAQs](faq-auto-capture.md)
-- [Who knows whom FAQs](faq-who-knows-whom.md)
+- [Relationship intelligence FAQs](faq-relationship-intelligence.md)
+- [Notes analysis FAQs](faq-notes-analysis-auto-capture.md)
+- [Teams integration FAQs](teams-integration/message-extensions-faq.md)
+- [Linking records to Microsoft Teams channels FAQs](teams-integration/link-records-to-teams-faq.md)
 - [Copilot in Dynamics 365 Sales FAQ](sales-copilot-faq.md)
+- [Summarization with Copilot FAQs](faqs-sales-copilot-for-summarization.md)
+- [Privacy and security FAQs](sales-privacy-faqs.md)
 
 ## Other support resources
 

@@ -1,7 +1,7 @@
 ---
 title: Focused view FAQs
-description: Get answers to frequently asked questions about Focused view.
-ms.date: 03/29/2023
+description: Get answers to frequently asked questions about focused view.
+ms.date: 03/15/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag

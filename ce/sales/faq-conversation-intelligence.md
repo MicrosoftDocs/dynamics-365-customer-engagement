@@ -1,7 +1,7 @@
 ---
 title: Conversation intelligence FAQs
 description: Get answers to frequently asked questions about conversation intelligence.
-ms.date: 03/29/2023
+ms.date: 03/15/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -35,7 +35,7 @@ This article answers frequently asked questions about conversation intelligence 
 |Manager Coaching tools     |   No      |   Yes      |
 | **Admin configurations**   |    |
 |Storage of call recording and conversation intelligence insights    |   Teams storage only      |   Option of Microsoft provided storage, or your own Azure storage       |
-|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Microsoft Copilot for Sales](/viva/sales/supported-languages)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faqs-sales-insights.md#what-languages-are-supported)       |
+|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Microsoft Copilot for Sales](/viva/sales/supported-languages)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faq-region-language.md#what-languages-are-supported)       |
 |Supported languages for UI      |   User interface languages listed in this article: [Supported languages in Microsoft Copilot for Sales](/viva/sales/supported-languages)|   All languages supported in Dynamics 365 Sales       |
 
 ## How long does it take for data updates to reflect in the app?

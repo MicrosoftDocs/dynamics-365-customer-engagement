@@ -48,7 +48,5 @@ To help users with intelligent suggestions when they enter an activity in the ti
 ### See also
 
 [How notes analysis assists you with intelligent suggestion](notes-analysis.md)    
-[Notes analysis FAQs](faqs-sales-insights.md#notes-analysis)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
