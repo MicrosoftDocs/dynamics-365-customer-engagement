@@ -43,7 +43,7 @@ Copilot generates the summary from a set of predefined fields. Other fields may 
 
 Keep in mind that the summary fields are configured at the organization level. Make sure that your entire sales team agrees on the **top 10** fields that are most relevant for your business.
 
-### Get content recommendations from SharePoint (preview)
+## Get content recommendations from SharePoint (preview)
  
 As a salesperson, you need to be aware of the latest product information, such as product brochures, pricing, sales pitch, and specifications, which are typically stored in SharePoint. You can ask Copilot to get you the list of SharePoint documents related to products in an opportunity.
 
@@ -68,7 +68,7 @@ As a salesperson, you need to be aware of the latest product information, such a
 
     :::image type="content" source="media/get-files-from-sharepoint.svg" alt-text="Screenshot of the list of files fetched from SharePoint.":::
 
-### Enrich leads with related information
+## Enrich leads with related information
 
 Copilot can enrich your leads with information from Dynamics 365 Sales, LinkedIn, and Bing, such as:
 
@@ -91,6 +91,21 @@ After you select a lead, Copilot suggests other records that might be associated
     Copilot also lists the fields that can be updated with information from the connected record, such as the city, state, phone numbers, and postal code.
 
 1. To update the lead record with the suggested values, select **Update all**.
+
+## Summarize documents associated with a record (preview)
+
+Often, you might have documents such as contracts, proposals, and reports associated with your records. Copilot can summarize the content of these documents and help you understand the key points quickly.
+
+> [!NOTE]
+> This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md). 
+
+1. Open a record that has documents associated with it such as an opportunity, lead, account, or contact. 
+
+1. In the Copilot side pane, enter **Summarize document /** and then enter the name of the document you want summarized. 
+
+   A minimum of three characters is required to start the search. You can search by the document name or the document type. For example, you can enter **Summarize document /pdf** to get a list of all PDF documents associated with the record and then select the document you want summarized.
+   Depending on the size of the document, it might take a few seconds to summarize the document.
+
 
 ## Show the latest news about an account
 
