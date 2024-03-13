@@ -1,7 +1,7 @@
 ---
 title: Manage phone numbers
 description: Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service.
-ms.date: 07/06/2023
+ms.date: 03/13/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -80,6 +80,10 @@ You can purchase new phone numbers for your organization after you've checked fo
 1. On the **Features** page, do the following:
 
    a. Select **Country/Region** from the dropdown list. The list of available plans for the selected country or region appears.
+
+      > [!NOTE]
+      > 
+      > You can only acquire United States-based phone numbers in Customer Service. If you want to acquire phone numbers from a different region, you must first purchase them through Azure Communication Services. Then once you’ve acquired the phone numbers, you must sync them to Omnichannel for Customer Service. More information: [Quickstart: Get and manage phone numbers](/azure/communication-services/quickstarts/telephony/get-phone-number)
 
    b. Select the **Number type**, whether **Toll-free** or **Geographic**. More information: [Number types and features](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility)
 
