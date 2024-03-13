@@ -4,6 +4,7 @@ description: "Perform the steps to assign roles to users and enable them in Omni
 author: neeranelli
 ms.author: nenellim
 ms.date: 05/05/2023
+ms.topic: article
 ---
 
 # Assign roles and enable users for Omnichannel for Customer Service
@@ -22,10 +23,8 @@ The Dynamics 365 users can access and perform different functions based on the r
 - **Omnichannel agent:** Required for performing agent tasks.
 - **Productivity tools user:** Required by users of Dynamics 365 Productivity Tools.
 - **Productivity tools administrator:** Required by administrator users of Dynamics 365 Productivity Tools.
-- **App Profile Manager Administrator:** Required for creating and assigning app profiles to users of Customer Service and Omnichannel for Customer Service.
+- **Agent Experience Profile Administrator:** Required for creating and assigning app profiles to users of Customer Service and Omnichannel for Customer Service.
 - **App Profile User:** Required by users of Customer Service and Omnichannel for Customer Service.
-
-For information on the App Profile Manager Administrator and App Profile User roles, see [Roles and privileges associated with app profile manager](../administer/security-roles.md)
 
 Ensure that the **Omnichannel API access** role isn't assigned to a supervisor or agent type of user.
 
@@ -135,7 +134,6 @@ The entities and their secret attributes are as follows. For more information on
 ### See also
 
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
-[Roles and privileges associated with app profile manager](../administer/security-roles.md)  
 [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md)  
 [Role personas for unified routing](../administer/role-persona-mapping.md)  
 [Guide agents with scripts](../administer/agent-scripts.md)  

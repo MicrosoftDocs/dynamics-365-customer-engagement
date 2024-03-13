@@ -23,15 +23,14 @@ To choose the applications the agents open for every session, according to your 
 - [Application tab templates](application-tab-templates-cif.md)
 - [Notification templates](notification-templates-cif.md)
 
-These templates are managed in the [App profile manager](../../../customer-service/administer/overview.md).
+These templates are managed in Customer Service admin center > Agent experiences > Workspaces.
 
 > [!WARNING]
 > It is recommended that you don’t edit the out-of-the-box sample templates in the package because it affects the functionality.
 
 ## See also
 
-[App profile manager overview](../../../customer-service/administer/overview.md)
-
+[Overview of agent experience profiles](../../../customer-service/administer/overview.md)
 [Associate templates with scenarios](associate-templates-cif.md)
 
 

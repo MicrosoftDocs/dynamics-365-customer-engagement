@@ -1,13 +1,13 @@
 ---
-title: "getAllSessions method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the getAllSessions API of app profile manager in Customer Service workspace."
+title: "getAllSessions method JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the getAllSessions API in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# getAllSessions (app profile manager)
+# getAllSessions
 
 Returns the unique identifier of all sessions.
 

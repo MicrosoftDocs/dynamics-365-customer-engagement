@@ -1,13 +1,13 @@
 ---
-title: "getFocusedTab method (app profile manager) JavaScript API Reference| MicrosoftDocs"
-description: "Learn about the getFocusedTab API of app profile manager in Customer Service workspace."
+title: "getFocusedTab method JavaScript API Reference| MicrosoftDocs"
+description: "Learn about the getFocusedTab API in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# getFocusedTab (app profile manager)
+# getFocusedTab
 
 Returns the tab object of the tab that is in focus.
 

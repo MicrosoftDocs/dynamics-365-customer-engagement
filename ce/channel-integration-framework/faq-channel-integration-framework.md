@@ -148,7 +148,7 @@ Yes, you can integrate custom messaging channels using Direct Line bot. More inf
 
 ### Is it possible to view the existing channel providers from Dynamics 365 Channel Integration Framework 2.0 model-driven app?
 
-No. You can use the Customer Service admin center app or navigate to the app profile manager on the Power Apps portal to view your existing channel providers. More information: [Configure channel provider](v2/administer/configure-channel-provider-app-profile-manager.md)
+No. You can use the Customer Service admin center app to view your existing channel providers.
 
 
 ## Dynamics 365 Channel Integration Framework 1.0

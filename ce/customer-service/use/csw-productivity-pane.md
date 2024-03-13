@@ -1,10 +1,10 @@
 ---
 title: Overview of productivity pane | MicrosoftDocs
 description: Overview of productivity pane in Dynamics 365 Customer Service workspace.
-ms.date: 11/09/2021
+ms.date: 02/11/2024
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: kushagr-kishore
+ms.author: v-kuskishore
 search.audienceType: 
   - admin
   - customizer
@@ -54,7 +54,7 @@ Smart assist displays the relevant suggestions as individual cards that are grou
 ## Agent scripts and macros
 
 > [!Important]
-> - In the out-of-box Customer Service workspace application, you must first create a custom profile before you can enable agent scripts. Only the Smart assist and knowledge article search functions are available in the out-of-box experience. For information about creating custom profiles, see [Overview of app profile manager](../administer/overview.md). 
+> - In the out-of-box Customer Service workspace application, you must first create a custom profile before you can enable agent scripts. Only the Smart assist and knowledge article search functions are available in the out-of-box experience.
 
 Agent scripts in Customer Service workspace help provide guidance for what you should do when you have a customer issue, and helps ensure that you share only accurate and company-endorsed information. These scripts help you be accurate, effective, and efficient in customer handling. For more information, see [Guide customer interaction with agent scripts](oc-agent-scripts.md). For administrator information about configuring scripts, see [Guide agents with scripts](../administer/agent-scripts.md).
 

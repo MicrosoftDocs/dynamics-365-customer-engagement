@@ -1,10 +1,10 @@
 ---
 title: "Introduction to Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about Omnichannel for Customer Service, its features, and how they can be configured in your organization."
-ms.date: 12/19/2023
+ms.date: 02/11/2024
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: kushagr-kishore
+ms.author: v-kuskishore
 ms.collection: get-started
 ---
 # Introduction to Omnichannel for Customer Service
@@ -67,8 +67,6 @@ The following image shows the inbox conversation view:
 The following image shows the inbox case view:
 
 :::image type="content" source="../media/inbox-case.png" alt-text="Customer Service workspace inbox case view" border="false":::
-
-For information on how to configure the inbox view, see [Configure the inbox view in App profile manager](/dynamics365/app-profile-manager/app-profile-manager#configure-the-inbox-view).
 
 ## Videos
 

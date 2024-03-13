@@ -3,6 +3,7 @@ title: "Integrate with multisession apps| MicrosoftDocs"
 description: "Integrate Dynamics 365 Channel Integration Framework 2.0 with multisession apps like Omnichannel for Customer Service and Customer Service workspace."
 author: gandhamm
 ms.date: 09/27/2022
+ms.topic: article
 ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
@@ -26,6 +27,5 @@ More information:
 ### See also
 
 [Modes and locations for the communication widget](modes-communication-widget.md)  
-[App profile manager](../../../customer-service/administer/overview.md)   
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

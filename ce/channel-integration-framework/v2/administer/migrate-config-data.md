@@ -20,7 +20,7 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 1. Open the Power Apps portals admin center and select your environment. More information: [Open Power Apps portals admin center](/powerapps/maker/portals/admin/admin-overview#open-power-apps-portals-admin-center)
 
-2. Open the app profile manager in [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), configure a new channel provider, and copy the channel URL and other attribute values from the Channel Integration Framework 1.0 provider. More information: [Configure channel provider using app profile manager](/dynamics365/app-profile-manager/overview)
+2. Open the agent experience profile in [Workspace](https://learn.microsoft.com/dynamics365/channel-integration-framework/v2/administer/configure-channel-provider-app-profile-manager?tabs=customerserviceadmincenter#configure-a-third-party-channel-provider), configure a new channel provider, and copy the channel URL and other attribute values from the Channel Integration Framework 1.0 provider.
 
 3. [Assign user to this profile](../../../customer-service/administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels).
 
@@ -34,11 +34,11 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 1. Open the Power Apps portals admin center and select your environment. More information: [Open Power Apps portals admin center](/powerapps/maker/portals/admin/admin-overview#open-power-apps-portals-admin-center)
 
-2. Copy the **Omnichannel** channel URL and other attribute values from the Channel Integration Framework 1.0 provider. If you need any other channel such as Twilio, create a new channel provider in PowerApps, and then copy the channel URL and attribute values. More information: [Configure channel provider using app profile manager](../../../customer-service/administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
+2. Copy the **Omnichannel** channel URL and other attribute values from the Channel Integration Framework 1.0 provider. If you need any other channel such as Twilio, create a new channel provider in Customer Service admin center, and then copy the channel URL and attribute values. More information: [Configure channel provider](../../../customer-service/administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
 
-3. Open the app profile manager in [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083) and do the following:
+3. Open the agent experience profile in Customer Service admin center and do the following:
 - If the **Omnichannel upgraded app profile** is available, then edit this app profile and attach the channel provider that you configured in the previous step.
-- If the **Omnichannel upgraded app profile** is not available, then create a new app profile and attach the channel provider that you configured in the previous step.
+- If the **Omnichannel upgraded app profile** is not available, then create a new agent experience profile and attach the channel provider that you configured in the previous step.
 
 4. [Assign user to this profile](../../../customer-service/administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels).
 5. Make sure that the **Active Channel Providers** view is enabled.
@@ -60,6 +60,6 @@ If either of the preceding validation steps fail, then it would mean that the ap
 
 ### See also
 
-[App profile manager](../../../customer-service/administer/overview.md)  
+[Agent experience profile](../../../customer-service/administer/create-agent-experience-profile.md)  
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
