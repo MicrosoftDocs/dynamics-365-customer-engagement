@@ -78,11 +78,11 @@ An incoming email from a customer might get converted to multiple cases. When an
     
     1. Select **Web resources** > **New**, and fill in the following information:
     
-        1. Name: fis_customers
+        1. **Name**: fis_customers
         
-        1. Type: Script
+        1. **Type**: Script
         
-        1. File: (See attached file named Fis_Customers.js)
+        1. **File**: (See attached file named Fis_Customers.js)
 
 1. Create an unmanaged solution and add the **Activities** entity, with no dependencies.
 
