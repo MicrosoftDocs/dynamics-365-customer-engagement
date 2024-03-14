@@ -145,7 +145,7 @@ To enable Bing Maps button in form designer, at least one of the attributes of t
 The new work order experience introduces several new code components for makers to use on their forms and views. The following sections list options and limitations for these code controls. For more information about working with code controls, see [Code controls in the Power Apps developer documentation](/power-apps/developer/component-framework/custom-controls-overview).
 
 > [!TIP]
-> Configure field level security to ensure users update only the intended fields. In some cases, for example if a form is set to read-only, users might still update some fields. However, the system won't save the updated form if the user doesn't have the correct field level security.
+> Configure field level security to ensure users update only the intended fields. In some cases, for example if a field in a form is set to read-only, users might still update some fields. However, the system won't save the updated form if the user doesn't have the correct field level security.
 
 ### Work order form
 
