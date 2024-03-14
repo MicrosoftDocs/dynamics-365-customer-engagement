@@ -83,7 +83,7 @@ You can purchase new phone numbers for your organization after you check for the
 
       > [!NOTE]
       > 
-      > You can only acquire United States-based phone numbers in Customer Service. If you want to acquire phone numbers from a different region, you must first purchase them through Azure Communication Services. After you’ve acquired the phone numbers, you must sync them to Omnichannel for Customer Service. For more information, see [Quickstart: Get and manage phone numbers](/azure/communication-services/quickstarts/telephony/get-phone-number) and [Sync from Azure Communication Services](../administer/voice-channel-sync-from-acs)
+      > You can only acquire United States-based phone numbers in Customer Service. If you want to acquire phone numbers from a different region, you must first purchase them through Azure Communication Services. After you’ve acquired the phone numbers, you must sync them to Omnichannel for Customer Service. For more information, see [Quickstart: Get and manage phone numbers](/azure/communication-services/quickstarts/telephony/get-phone-number) and [Sync from Azure Communication Services](voice-channel-sync-from-acs.md)
 
    b. Select the **Number type**, whether **Toll-free** or **Geographic**. More information: [Number types and features](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility)
 
