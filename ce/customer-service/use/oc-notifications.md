@@ -120,9 +120,9 @@ When you don't respond to an incoming conversation notification, you'll see an a
 
 ## Notification time-out and rerouting of conversations
 
-When you don't respond to an incoming conversation notification, the conversation will time out based on the time-out settings configured by your administrator and be rerouted.
+When you don't respond to an incoming conversation notification, the conversation will time out based on the timeout setting configured by your administrator in the [notification template](notification-templates.md#step-1-create-a-notification-template-with-the-following-values) and be rerouted.
 
-Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system but they aren't seen because you had either closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversations are then rerouted after eight minutes.
+Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system but they aren't seen because you closed the browser, navigated away from the app page, or lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversation is rerouted eight minutes after the timeout has expired.
 
 ## Maximum session limit notifications
 
