@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 02/16/2024
+ms.date: 03/08/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -20,9 +20,9 @@ Focused view allows you to view and manage account, contact, lead, opportunity, 
 
 Focused view is now available for all entities, including custom entities. However, your administrator must enable it for you to access it. More information: [Enable focused view and set it as the default view](set-focused-view-as-default.md).
 
-> [!NOTE]
->
-> Focused view is similar to the sales accelerator workspace view. [Learn how to prioritize your sales pipeline through work lists](prioritize-sales-pipeline-through-work-list.md).
+>[!NOTE]
+>- Focused view is similar to the sales accelerator workspace view. [Learn how to prioritize your sales pipeline through work lists](prioritize-sales-pipeline-through-work-list.md).
+>- To view the latest updates and features of focused view, you must opt in for early access updates. Contact your administrator to enable early access updates for you. More information: [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
 
 ## Open the focused view  
 
@@ -45,12 +45,21 @@ The following image is an example of focused view for the Lead entity:
 Focused view is categorized into the following sections.
 
 1. **Switch view and command bar**: 
-   - **Switching a View**: This action allows you to change from the focused view to the list view. To do this, select the **Read Only Grid** option. The **Read Only Grid** option is only available if you have one control for the entity. If you have multiple controls, the **Show As** option is displayed instead. Select **Show As** and then choose an option to change to the required view.
+   - **Switching a View**: This action allows you to change from the focused view to the list view. To do this, select the **Read Only Grid** option. The **Read Only Grid** option is only available if you have one control for the entity. If you have multiple controls, the **Show As** option is displayed instead. Select **Show As** and then choose an option to change to the required view.  
+   If you have opted in for early access updates, the **Show As** option is displayed as first option on the command bar.  
    - **Command bar**: This feature contains actions that help you perform bulk actions on multiple records. To use it, select **More options**. You can then choose the records that you want to work with and perform the required actions.
 
 1. **Work list actions**:
-   - **Search, filter, and sort**: These options are displayed at the top of the work list item view. You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between focused view and list view. Filters and sorting that are available here are similar to the list view. The attributes that are available in the view are displayed as a filter. If you want to add more filters to the view, you can create an advanced filter.
-     - **Advanced filter**: Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view. Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options.
+   - **Search, filter, and sort**: These options are displayed at the top of the work list item view. You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between focused view and list view. The attributes available in the view are displayed as filters and sort. These attributes include fields added through [workspace customizations](customize-workspace-sales-accelerator.md#manage-filters) in the sales accelerator, and any new fields added to the work list card through card customization.  
+
+      > [!NOTE]
+      > The following attributes types are not supported in filter and sort&mdash;Owner, Lookup, Customer, Uniqueidentifier, and Lookup.
+
+      For lead and opportunity entities, filters might display deprecated attribute options. To remove these filters, go to work list card customization and remove the **Predictive scoring** field.  
+
+      If you want to add more filters to the view, you can create an advanced filter.
+      - **Advanced filter**: Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view. Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options.  
+
    - **Select multiple records**: To perform bulk actions on multiple records, select the **Select multiple records** option. You can choose the records that you want to work with and then perform the required actions. On the command bar, select **More options** to perform the bulk actions.
    - **Refresh and Settings**: Select **More options** to perform list refresh and configure the work list card through settings.
      - **Refresh**: Select **Refresh** to refresh the list of records.
@@ -70,7 +79,7 @@ You can customize the work list card to display the information that you want to
 The customization that you make to the work list card is specific to the entity type. For example, if you customize the work list card for the Lead entity, the customization is applied only to the Lead entity. The customization isn't applied to the Account, Contact, Opportunity, or other entities. These customizations also affect the sales accelerator workspace view. 
 
 > [!NOTE]
-> To customize the work list card as a seller, you must have read permissions to the **msdyn_workqueueusersetting** entity. Contact your administrator to provide the required permissions.
+> You need to have read permissions for the **msdyn_workqueueusersetting** entity to see the **Settings** icon and customize the work list card. Contact your administrator to provide the required permissions.
 
 1. In the focused view page, on the work list pane, select **More options** and then select **Settings**.  
 
@@ -99,12 +108,19 @@ The customization that you make to the work list card is specific to the entity 
         - To add an icon in the same row, hover over an existing attribute and select **More options** > **Add an icon**. You can show up to three icons in a row.
         - To add a row, select the add icon (**+**). You can show up to four rows of information in a work item.
         - To delete a field or an icon, hover over it and select **More options** > **Remove**.
-    
+        
+        >[!NOTE]
+        >Currently, the **Follow indicator** option doesn't work in focused view. 
+ 
     - To remove all customizations and restore work items to their original appearance, select **Reset to default**.
 
     The **Preview** section displays a preview of the work list card based on the customizations that you make.
 
 1. Select **Save**.
+
+## Increase the number of records displayed in focused view
+
+You can configure the number of records that are displayed per page in the focused view. By default, 50 records are displayed, but you can increase this number up to a maximum of 250. To do so, go to your personalization settings, and under the **General** tab configure the **Set the number of rows shown per page in any list of rows** option to increase the number of records displayed per page in focused view. More information: [Set personal options](/power-apps/user/set-personal-options)
 
 ### See also
 

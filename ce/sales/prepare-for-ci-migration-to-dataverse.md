@@ -14,6 +14,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Prepare your organization to store conversation intelligence data in Dataverse 

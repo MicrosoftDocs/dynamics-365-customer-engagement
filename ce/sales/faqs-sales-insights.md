@@ -68,7 +68,6 @@ The following table lists the regions in which Sales Premium features are availa
 | Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA | SAM | ZAF | UAE |
 |---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | [Assistant](assistant.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Auto capture](free-auto-capture.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | [Conversation intelligence](dynamics365-sales-insights-app.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | [Notes analysis](notes-analysis.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | [Premium forecasting](configure-premium-forecasting.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes |
@@ -115,10 +114,9 @@ The following table shows which languages are supported for Sales Premium featur
 
 | Feature | Language supported |
 |---------|--------------------|
-| Assistant, Assistant studio, Auto capture, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, Sales accelerator, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
+| Assistant, Assistant studio, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, Sales accelerator, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
 | Notes analysis | English, French, German, Italian, and Dutch for machine learning models. |
 | Exchange insight cards in Assistant | Only English - United States (en-US) for machine learning models. |
-| Activity-content based Auto capture |- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
 | Conversation intelligence | Go to [Languages supported for conversation intelligence](language-support-conversation-intelligence.md) |
 
 [Learn more about infrastructure availability (PDF)](https://aka.ms/dynamics_365_international_availability_deck).
@@ -343,6 +341,10 @@ Notes analysis looks at notes and posts on the timeline for the intent that may 
 ### How long does the application take to display captured suggestions?
 
 For activities, the suggestions are displayed immediately.  
+
+### Which languages are supported for auto capture?
+
+For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian.
 
 
 ## Who knows whom
