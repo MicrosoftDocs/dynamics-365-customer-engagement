@@ -440,7 +440,7 @@
               href: customize-workspace-sales-accelerator.md
             - name: Add the Up next widget to an entity form
               href: add-upnext-widget-form.md
-        - name: Create conditional workflows with sequences
+        - name: Manage conditional workflows with sequences
           href: create-manage-sequences.md
           items:
             - name: Create and activate a sequence
