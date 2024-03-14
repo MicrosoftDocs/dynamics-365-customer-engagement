@@ -99,11 +99,12 @@ Often, you might have documents such as contracts, proposals, and reports associ
 > [!NOTE]
 > This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md). 
 
-1. Open a record that has documents associated with it such as an opportunity, lead, account, or contact. 
+1. Open a record, such as an opportunity, lead, account, or contact, that has documents associated with it. 
 
 1. In the Copilot side pane, enter **Summarize document /** and then enter the name of the document you want summarized. 
 
-   A minimum of three characters is required to start the search. You can search by the document name or the document type. For example, you can enter **Summarize document /pdf** to get a list of all PDF documents associated with the record and then select the document you want summarized.
+   A minimum of three characters is required to start the search. You can search by the file name. For example, you can enter **Summarize document /pdf** to get a list of documents that has pdf in the file name.
+
    Depending on the size of the document, it might take a few seconds to summarize the document.
 
 
