@@ -1,13 +1,17 @@
 ---
-title: 
-description: 
+title: How automatic record creation rule works in a customer scenario
+description: Understand how automatic record creation rules work in a customer scenario and learn how to customize them.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
 ms.date: 03/14/2024
-ms.custom: bap-template #Required; don't change.
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:03/14/2024
 ---
 
 
@@ -57,7 +61,7 @@ If the Wait for specific amount of time after the connected case has been resolv
 
 ## Customer forwards an email
 
-### Forward an agent’s reply email to the same queue from Inbox 
+### Forward an agent’s reply email to the same queue from Inbox
 
 When a customer forwards an email from their Inbox to the same queues, the response is sent by the customer to the same queue. So, automatic record creation skips case creation.
 
@@ -67,7 +71,7 @@ When a customer forwards the agent’s reply mail from the Inbox to a new queue,
 
 ### Forward an original email to same queue from Sent Items
 
-When a customer forwards the original email (E1) from Sent items to the same queues, automatic record creation skips case creation as the correlation still exists. 
+When a customer forwards the original email (E1) from Sent items to the same queues, automatic record creation skips case creation as the correlation still exists.
 
 ### Forward the original email to a new queue from Sent Items
 
@@ -87,26 +91,16 @@ When a customer forwards the original email (E1) from Sent items to another queu
 
 6. Select **Register New Step** and fill in the following details:
 
-    - Message: Create
-    
-    - Primary Entity: email
-    
-    - Secondary Entity: (Leave as blank)
-    
-    - Filtering Attributes: (Leave as blank)
-    
-    - Event Handler: (Leave as default)
-    
-    - Step Name: (Leave as default)
-    
-    - Run in User’s Context: Calling User
-    
-    - Execution Order: 1
-    
-    - Description: <Leave as default> 
-    
-    - Event Pipeline Stage of Execution: PostOperation
-    
-    - ExecutionMode: Synchronous
+   - Message: Create
+   - Primary Entity: email
+   - Secondary Entity: (Leave as blank)
+   - Filtering Attributes: (Leave as blank)
+   - Event Handler: (Leave as default)
+   - Step Name: (Leave as default)
+   - Run in User’s Context: Calling User
+   - Execution Order: 1
+   - Description: (Leave as default)
+   - Event Pipeline Stage of Execution: PostOperation
+   - ExecutionMode: Synchronous
 
 7. Select **Register New Step** and then test the plugin.
