@@ -104,7 +104,9 @@ Often, you might have documents such as contracts, proposals, and reports associ
 
 1. In the Copilot side pane, enter **Summarize document /** and then enter the name of the document you want summarized. 
 
-   A minimum of three characters is required to start the search. You can search by the file name. For example, you can enter **Summarize document /contract** to get a list of documents that has **contract** in the file name.
+   A minimum of three characters is required to start the search. You can search by the file name. For example, 
+    - Enter **Summarize document /contract** to get a list of documents that has **contract** in the file name.
+    - Enter **Summarize document /pdf** to get a list of documents that has **pdf** in the file name or extension.
 
    Depending on the size of the document, it might take a few seconds to summarize the document.
 
