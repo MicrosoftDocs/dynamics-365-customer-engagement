@@ -75,7 +75,7 @@ When a customer forwards the original email (E1) from Sent items to the same que
 
 ### Forward the original email to a new queue from Sent Items
 
-When a customer forwards the original email (E1) from Sent items to another queue Q4, automatic record creation creates a new case Case 4 for Q4. The forwarded email is related to all cases Case 1, Case 2, Case 3, and Case 4.  
+When a customer forwards the original email (E1) from Sent items to another queue Q4, automatic record creation creates a new case Case 4 for Q4. The forwarded email is related to all cases Case 1, Case 2, Case 3, and Case 4.
 
 ## Customizations steps
 
