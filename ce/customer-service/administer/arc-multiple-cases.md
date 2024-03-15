@@ -42,7 +42,7 @@ You can opt-in to enable the feature.
 1. Select **Save**.
 1. Go back to **Solutions** and select **Publish all customizations**.
 
-## Automatic record creation process flow
+## how automatic record creation rules work to create multiple cases from an email sent to multiple mailboxes
 
 After the feature is enabled, any new emails sent to multiple mailboxes get converted to multiple cases and a Related attribute (new attribute introduced on email activity to capture multiple records that an email can be associated with) is set for those cases. For more information on related attribute, see Enable users to associate activities to multiple records (preview). The existing Regarding attribute for such emails will be blank. However, once the feature is turned on, for any existing email records, you’ll see the following:
 

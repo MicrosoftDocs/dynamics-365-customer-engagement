@@ -31,15 +31,15 @@ For example, if email E1 was sent to Q1, Q2, and Q3 mailboxes which are configur
 
 ## Customer replies to an email
 
-### Reply to the original email from Sent items to same queue 
+### Replies to the original email from Sent items to same queue
 
-When a customer replies (ER1) to the original email E1 from the Sent Items folder to the same mailboxes (Q1, Q2, and Q3), the reply email is considered as a response to original email (E1). Automatic record creation rule  skips case creation. The reply email (ER1) is correlated with the original email E1 and displayed on the timeline for all cases with which the original email E1 is linked (Case 1, Case 2, and Case 3).
+When a customer replies (ER1) to the original email E1 from the Sent Items folder to the same mailboxes (Q1, Q2, and Q3), the reply email is considered as a response to original email (E1). Automatic record creation rule skips case creation. The reply email (ER1) is correlated with the original email E1 and displayed on the timeline for all cases with which the original email E1 is linked (Case 1, Case 2, and Case 3).
 
-### Reply to the original email from Sent items and adds a new queue
+### Replies to the original email from Sent items and adds a new queue
 
 When a customer adds a new mailbox Q4 to the already existing Q1, Q2, Q3 mailboxes in a replied email, automatic record creation rule creates a new case Case 4 for the additional mailbox Q4. Response email (ER1) is related to all cases Case 1, Case 2, Case 3, and Case 4. The response email appears as a threaded response for Case 1, Case 2, and Case 3. Case 4 displays the response email (ER1).
 
-### Reply to the original email from Sent items after removing a queue
+### Replies to the original email from Sent items after removing a queue
 
 When a customer replies to the original email E1 from the Sent Items folder but removes the mailbox Q1 and only sends it to Q2 and Q3, automatic record creation rule treats the reply email as a response to original email (E1). Automatic record creation skips case creation for Q2 and Q3.
 
@@ -47,33 +47,33 @@ Out of the box, the response email (ER1) is related to all cases Case 1, Case 2,
 
 We recommend using [customization](#customizations-steps) to ensure that the reply email isn’t related to the case that originated in the mailbox which was removed from the reply email. You’ll need to check for the correlated case that originated in the mailbox which was removed from the reply email and remove the identified case from the replied email’s related attribute.
 
-### Reply to an agent’s email from Inbox to the same queue  
+### Replies to an agent’s email from Inbox to the same queue  
 
 When a customer replies from the Inbox to the agent’s outbound email sent from Case 1 timeline (after removing other mailboxes Q2 and Q3), automatic record creation rule skips the case creation, and the reply gets linked to Case 1 and all the existing cases that originated in Q2 and Q3, unless the agent removes the cases that originated in the removed mailboxes Q2 and Q3, from the reply email’s related attribute before sending the outbound email to the customer. If you have performed timeline customization, the agent’s outbound email sent from Case 1 timeline will be associated with only Case 1 and the C2’s response to the agent’s email will only be associated with Case 1.  
 
-### Reply to an agent’s email from Inbox to a different queue
+### Replies to an agent’s email from Inbox to a different queue
 
 When a customer replies from the Inbox to the agent’s outbound email sent from Case 1 timeline, and adds a new queue, a new case gets created for that queue. The reply email is related to the existing cases that originated in the correlated email and the new case.
 
-### Reply to an agent’s email with the same queue on a closed case
+### Replies to an agent’s email with the same queue on a closed case
 
 If the Wait for specific amount of time after the connected case has been resolved toggle is set to Yes and the time configured in the setting hasn’t elapsed, no case gets created. If the time has elapsed, new cases get created for that queue.
 
 ## Customer forwards an email
 
-### Forward an agent’s reply email to the same queue from Inbox
+### Forwards an agent’s reply email to the same queue from Inbox
 
 When a customer forwards an email from their Inbox to the same queues, the response is sent by the customer to the same queue. So, automatic record creation skips case creation.
 
-### Forward an agent’s reply email to a new queue from Inbox
+### Forwards an agent’s reply email to a new queue from Inbox
 
 When a customer forwards the agent’s reply mail from the Inbox to a new queue, automatic record creation creates a new case Case 4 for Q4 (new queue). Email is tagged to all cases that originated in the old queues as well as to the new Case 4 that was created.
 
-### Forward an original email to same queue from Sent Items
+### Forwards an original email to same queue from Sent Items
 
 When a customer forwards the original email (E1) from Sent items to the same queues, automatic record creation skips case creation as the correlation still exists.
 
-### Forward the original email to a new queue from Sent Items
+### Forwards the original email to a new queue from Sent Items
 
 When a customer forwards the original email (E1) from Sent items to another queue Q4, automatic record creation creates a new case Case 4 for Q4. The forwarded email is related to all cases Case 1, Case 2, Case 3, and Case 4.
 

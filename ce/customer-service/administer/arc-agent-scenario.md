@@ -21,9 +21,9 @@ The following flowchart explains the agent scenario.
 
 :::image type="content" source="../media/arc_agent-scenario.png" alt-text="Flowchart explaining agent scenario.":::
 
-## Agent selects “reply”
+## Agent selects reply
 
-When an agent selects “reply” from the timeline of one of the cases (Case 1, Case2 or Case 3), the replied email gets correlated with all the records related to the previous email, such as cases, accounts or any other entity records. The To field is set to only the customer in this scenario, but the related attribute shows all the related records, Case 1, Case 2, and Case 3.  
+When an agent selects reply from the timeline of one of the cases (Case 1, Case2 or Case 3), the replied email gets correlated with all the records related to the previous email, such as cases, accounts or any other entity records. The To field is set to only the customer in this scenario, but the related attribute shows all the related records, Case 1, Case 2, and Case 3.  
 
 The replied email gets associated with all the cases related to the previous email and is displayed on the timeline of all the cases.  
 
@@ -40,15 +40,15 @@ If you perform timeline customization, then:
 
 - If C2 adds any mailboxes in response to the reply or forwarded email, duplicate cases are created for those mailboxes.
 
-## Agent selects “reply all”
+## Agent selects reply all
 
-When agents select “reply all” from Case 1 timeline and removes mailbox 3, the replied email gets associated with all the three cases (Case 1, Case 2 and Case 3). If the original email was related to any other entity records like account, the replied email will also be associated with that account. All these cases and related accounts see duplicate entries of the same email, one with the state as Sent and the other with the state as Received.  
+When agents select reply all from Case 1 timeline and removes mailbox 3, the replied email gets associated with all the three cases (Case 1, Case 2 and Case 3). If the original email was related to any other entity records like account, the replied email will also be associated with that account. All these cases and related accounts see duplicate entries of the same email, one with the state as Sent and the other with the state as Received.  
 
 If you don’t want the reply email to be shown on Case 3 (that originated in mailbox 3) since mailbox 3 was removed, you’ll need to manually remove the case that originated in mailbox 3 from the related attribute before sending the email.
 
 ## Agent forwards an email
 
-When an agent forwards an email to another mailbox 4, from Case 1 timeline, the forwarded email gets associated with the existing cases (Case 1, Case 2 and Case 3) and any other entity records (like account), if the original email is associated with the account. A new case gets created for mailbox 4 to which the email was forwarded, and the email gets displayed on the new case as well. 
+When an agent forwards an email to another mailbox 4, from Case 1 timeline, the forwarded email gets associated with the existing cases (Case 1, Case 2 and Case 3) and any other entity records (like account), if the original email is associated with the account. A new case gets created for mailbox 4 to which the email was forwarded, and the email gets displayed on the new case as well.
 
 > [!NOTE]
 > If you want the forwarded email to be associated with only Case 1 (since Case 1 timeline was used) and not with other cases (Case 2 and Case 3), you’ll need to perform timeline customization. The forwarded email will still be associated with the new case that’ll be created if the email was forwarded to mailbox 4.  
