@@ -34,7 +34,7 @@ Azure services and components, including the ones detailed in [Connected Field S
 ## Extend Connected Field Service
 
 > [!NOTE]
-> The Web API types and operations mentioned in this article/table are available in your environment and you can use the service document of your environment or Postman to explore these types and operations. More information: [Web API Service Documents](/power-apps/developer/data-platform/webapi/web-api-service-documents) and [Use Postman with Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/use-postman-web-api).
+> The Web API types and operations mentioned in this article/table are available in your environment and you can use the service document of your environment to explore these types and operations. More information: [Web API Service Documents](/power-apps/developer/data-platform/webapi/web-api-service-documents).
 
 The following table lists the custom entities and processes that Connected Field Service supplies to interface with the associated Azure services and components. These types are more fully described in `Microsoft.Dynamics.CRM.IoTConnector`.
   
