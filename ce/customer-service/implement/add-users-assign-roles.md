@@ -1,9 +1,12 @@
 ---
-title: "Assign roles, enable users for Omnichannel for Customer Service | MicrosoftDocs"
-description: "Perform the steps to assign roles to users and enable them in Omnichannel for Customer Service."
+title: Assign roles, enable users for Omnichannel for Customer Service
+description: Perform the steps to assign roles to users and enable them in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 05/05/2023
+ms.date: 03/15/2024
+ms.topic: how-to
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Assign roles and enable users for Omnichannel for Customer Service
@@ -98,6 +101,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 
 Administrator users will need column-level permissions on secure columns when they configure the following features and channels:
 
+- [Create workstreams](../administer/create-workstreams.md)  
 - [Authentication settings](../administer/create-chat-auth-settings.md)
 - [Azure Communication Services](../administer/voice-channel-manage-phone-numbers.md)
 - [Geographical location providers](../administer/geo-location-provider.md)

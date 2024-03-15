@@ -1,7 +1,7 @@
 ---
 title: Create and manage workstreams
 description: Learn about how to create and manage workstreams in Customer Service and Omnichannel for Customer Service.
-ms.date: 01/31/2024
+ms.date: 03/15/2024
 author: neeranelli
 ms.author: nenellim
 ms.reviewer:
@@ -29,6 +29,10 @@ The workstream can be one of the following types:
 > [!IMPORTANT]
 >
 > Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md)
+
+## Prerequisites
+
+The administrator who configures workstreams must be a system administrator or have [permissions to access and modify secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns).
 
 ## Create a workstream
 
