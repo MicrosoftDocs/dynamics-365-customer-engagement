@@ -44,7 +44,7 @@ You can opt-in to enable the feature.
 
 ## How automatic record creation rules work to create multiple cases from an email sent to multiple mailboxes
 
-After the feature is enabled, any new emails sent to multiple mailboxes get converted to multiple cases and a Related attribute (new attribute introduced on email activity to capture multiple records that an email can be associated with) is set for those cases. For more information on related attribute, see Enable users to associate activities to multiple records (preview). The existing Regarding attribute for such emails will be blank. However, once the feature is turned on, for any existing email records, you’ll see the following:
+After the feature is enabled, any new emails sent to multiple mailboxes get converted to multiple cases and a Related attribute (new attribute introduced on email activity to capture multiple records that an email can be associated with) is set for those cases. For more information on related attribute, see [Enable users to associate activities to multiple records (preview)](/power-apps/maker/data-platform/types-of-entities#enable-users-to-associate-activities-to-multiple-records-preview). The existing Regarding attribute for such emails will be blank. However, once the feature is turned on, for any existing email records, you’ll see the following:
 
 - If older email records have an existing Active case set as Regarding, no new case gets created when a reply email arrives even if a new mailbox is added. The replied email gets associated with an existing case and regarding is set to the existing active case. The Related field remains empty, as no case was created.  
 

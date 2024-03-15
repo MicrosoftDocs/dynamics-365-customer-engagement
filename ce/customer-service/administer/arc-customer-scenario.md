@@ -49,7 +49,7 @@ We recommend using [customization](#customizations-steps) to ensure that the rep
 
 ### Replies to an agent’s email from Inbox to the same queue  
 
-When a customer replies from the Inbox to the agent’s outbound email sent from Case 1 timeline (after removing other mailboxes Q2 and Q3), automatic record creation rule skips the case creation, and the reply gets linked to Case 1 and all the existing cases that originated in Q2 and Q3, unless the agent removes the cases that originated in the removed mailboxes Q2 and Q3, from the reply email’s related attribute before sending the outbound email to the customer. If you have performed timeline customization, the agent’s outbound email sent from Case 1 timeline will be associated with only Case 1 and the C2’s response to the agent’s email will only be associated with Case 1.  
+When a customer replies from the Inbox to the agent’s outbound email sent from Case 1 timeline (after removing other mailboxes Q2 and Q3), automatic record creation rule skips the case creation, and the reply gets linked to Case 1 and all the existing cases that originated in Q2 and Q3, unless the agent removes the cases that originated in the removed mailboxes Q2 and Q3, from the reply email’s related attribute before sending the outbound email to the customer. If you have performed [timeline customization](arc-agent-scenario.md#timeline-customization), the agent’s outbound email sent from Case 1 timeline will be associated with only Case 1 and the C2’s response to the agent’s email will only be associated with Case 1.  
 
 ### Replies to an agent’s email from Inbox to a different queue
 

@@ -32,7 +32,7 @@ If the previous email was manually linked to any other entity record like accoun
 This is the default behavior, irrespective of whether the agent replies to the email from a case timeline, Inbox, or by navigating to the email form from the My Activities view. Further communication between customer and agent is displayed in all cases that were created from the previous email.  
 
 > [!NOTE]
-> If you want the reply email to be related only to the case from which it was sent, so that agents working on other cases can’t view the email on their case timeline, you could opt for Timeline customization.  
+> If you want the reply email to be related only to the case from which it was sent, so that agents working on other cases can’t view the email on their case timeline, you could opt for [timeline customization](#timeline-customization).
 
 If you perform timeline customization, then:
 
@@ -51,13 +51,13 @@ If you don’t want the reply email to be shown on Case 3 (that originated in ma
 When an agent forwards an email to another mailbox 4, from Case 1 timeline, the forwarded email gets associated with the existing cases (Case 1, Case 2 and Case 3) and any other entity records (like account), if the original email is associated with the account. A new case gets created for mailbox 4 to which the email was forwarded, and the email gets displayed on the new case as well.
 
 > [!NOTE]
-> If you want the forwarded email to be associated with only Case 1 (since Case 1 timeline was used) and not with other cases (Case 2 and Case 3), you’ll need to perform timeline customization. The forwarded email will still be associated with the new case that’ll be created if the email was forwarded to mailbox 4.  
+> If you want the forwarded email to be associated with only Case 1 (since Case 1 timeline was used) and not with other cases (Case 2 and Case 3), you’ll need to perform [timeline customization](#timeline-customization). The forwarded email will still be associated with the new case that’ll be created if the email was forwarded to mailbox 4.  
 
 ## Agent initiates a new email
 
 Agents can also initiate a new email from the case timeline (by selecting the + button on timeline). When an agent sends a new email to a customer from the case timeline, the ‘related’ attribute of the email is set to the case only if the administrator has enabled the OrgDBOrg setting ‘AddParentEntityToRelatedOnNewActivityCreate’.  
 
-For steps on how to enable this setting, go to How to change default environment database settings - Power Platform | Microsoft Learn. This is applicable to only those scenarios where an agent adds a new email from the case timeline and doesn’t apply to scenarios where agent selects reply or reply all to an existing email from the case timeline.  
+For steps on how to enable this setting, go to [How to change default environment database settings](/power-platform/admin/environment-database-settings). This is applicable to only those scenarios where an agent adds a new email from the case timeline and doesn’t apply to scenarios where agent selects reply or reply all to an existing email from the case timeline.  
 
 ## Other scenarios
 
