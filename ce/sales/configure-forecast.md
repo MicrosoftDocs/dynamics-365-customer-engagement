@@ -1,8 +1,8 @@
 ---
 title: Configure forecasts in your organization
 description: Configure forecasts in your organization to predict revenue and track sales performance. Learn how to set up and customize forecast configurations.
-ms.date: 12/23/2022
-ms.topic: article
+ms.date: 03/15/2024
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 searchScope:
@@ -16,6 +16,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:03/12/2024
+  - bap-template
 ---
 
 # Configure forecasts in your organization
@@ -44,23 +45,28 @@ Forecasting isn't supported on Government Community Cloud (GCC) or mobile device
 
 ## Configure forecasting
 
-You can configure forecasts that are based on revenue or quantity. You define the type of forecast, the hierarchy, access permissions, and the details you want to see in the forecast grid. After a forecast is activated, your sales team can view the revenue, or quantity, and pipeline projections.
+You can configure forecasts that are based on revenue or quantity. You define the type of forecast, the hierarchy, access permissions, and the details you want sellers to see in their forecast view. After a forecast is activated, your sales team can view the revenue, or quantity, and pipeline projections.
 
-1. Sign in to the **Sales Hub** app.
-1. In the site map, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.
+1. In the Sales Hub app, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area") in the lower-left corner, and then select **App Settings**.  
+
 1. Under **Performance management**, select **Forecast configuration**.
-         :::image type="content" source="./media/forecast-enable-forecasting-enabled.png" alt-text="A screenshot of the forecast configuration page in Sales Hub Performance Management settings.":::
 
-    If you're getting started with forecasting, play around with the [sample forecast configuration](#use-the-sample-forecast-configuration) before creating a new one.  
+1. Follow the steps to configure a forecast from scratch or use the [sample forecast configuration](#use-the-sample-forecast-configuration) to get started quickly.  
 
-1. [Select a template](./select-template-forecast.md).  
-1. [Define and schedule a forecast model](define-general-properties-scheduling-forecast.md).
-1. [Provide access permissions](provide-permissions-forecast.md).
-1. [Configure columns and layouts](choose-layout-and-columns-forecast.md).
-1. [Configure and manage drill-down entities](configure-manage-drill-downs.md).
-1. [Configure advanced settings](forecast-configure-advanced-settings.md).
-1. [Activate the forecast and upload data](activate-upload-simple-columns-data-forecast.md).
+    1. [Select a template](./select-template-forecast.md).  
 
+    1. [Define and schedule a forecast model](define-general-properties-scheduling-forecast.md).
+
+    1. [Provide access permissions](provide-permissions-forecast.md).
+
+    1. [Configure columns and layouts](choose-layout-and-columns-forecast.md).
+
+    1. [Configure and manage drill-down entities](configure-manage-drill-downs.md).
+
+    1. [Configure advanced settings](forecast-configure-advanced-settings.md).
+
+    1. [Activate the forecast and upload data](activate-upload-simple-columns-data-forecast.md).
+    
 ### Use the sample forecast configuration
 
 A ready-to-publish sample forecast configuration is available to you. Use the sample forecast to experiment and discover how forecasting works.  Learn how to tweak  the parameters and filters to suit your organization's needs.  
@@ -84,9 +90,6 @@ A ready-to-publish sample forecast configuration is available to you. Use the sa
 1. Wait for the status to turn **Active**.
 1. [View the forecast](view-forecasts.md) to know the actual and forecasted values for your sales teams.
 
-### Use APIs to upload forecast data
-
-After a forecast is activated, you can use the msdyn_ForecastApi custom action to upload forecasting data to simple columns. For more information, go to [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md).
 
 ## Find your forecasts
 
