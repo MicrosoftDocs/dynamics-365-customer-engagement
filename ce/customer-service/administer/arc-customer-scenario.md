@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/14/2024
+ms.date: 03/15/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -77,6 +77,8 @@ When a customer forwards the original email (E1) from Sent items to the same que
 
 When a customer forwards the original email (E1) from Sent items to another queue Q4, automatic record creation creates a new case Case 4 for Q4. The forwarded email is related to all cases Case 1, Case 2, Case 3, and Case 4.
 
+However, if you don't want the forwarded email to be associated with existing cases, you can customize using the sample code.
+
 ## Customizations steps
 
 1. Extract the shared sample code (shared as a zip file).
@@ -104,3 +106,11 @@ When a customer forwards the original email (E1) from Sent items to another queu
    - ExecutionMode: Synchronous
 
 7. Select **Register New Step** and then test the plugin.
+
+## See also
+
+[Create multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#create-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
+
+[Enable creation of multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
+
+[How automatic record creation rule works in an agent scenario](arc-agent.md#how-automatic-record-creation-rule-works-in-an-agent-scenario)

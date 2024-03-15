@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/14/2024
+ms.date: 03/15/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -17,9 +17,9 @@ ms.custom:
 
 # Create multiple cases from an email sent to multiple mailboxes
 
-At present, when an email is sent to multiple mailboxes (To, CC, or BCC) which are queue-enabled in Customer Service, the email gets converted to only one case using automatic record creation rules. Multiple cases aren’t created for an email sent to multiple mailboxes.
+When an email is sent to multiple mailboxes (To, CC, or BCC) which are queue-enabled in Customer Service, the email gets converted to only one case using automatic record creation rules. Multiple cases aren’t created for an email sent to multiple mailboxes.
 
-As an administrator, by enabling this feature, you can ensure that multiple cases (one for each queue-enabled mailbox) get created when multiple mailboxes are added as recipients in the email. With the ability to create multiple cases from an email, agents can do the following:
+As an administrator, enable this feature to ensure that multiple cases (one for each queue-enabled mailbox) gets created when multiple mailboxes are added as recipients in the email. With the ability to create multiple cases from an email, agents can do the following:
 
 - With multiple cases being created, email appears in the timeline for all cases. So, agents can respond to customers’ issues independently.  
 
@@ -28,6 +28,19 @@ As an administrator, by enabling this feature, you can ensure that multiple case
 - Agents can see responses from the customer to outbound emails on the case timeline.
 
 - When a customer replies to the original email adding a new queue-enabled mailbox or forwards the original email to a new queue-enabled mailbox, a new case gets created for that queue.
+
+## Enable creation of multiple cases from an email sent to multiple mailboxes
+
+You can opt-in to enable the feature.
+
+1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
+1. Select **Solutions** > **Default Solution**.
+1. From **Objects**, select **Settings** > **Settings definition**.
+1. Select the **Email Multi Related for ARC** setting definition.
+1. On the **Edit Email Multi Related for ARC** setting dialog, **Setting environment value** section, select **New environment value**.
+1. Select **Yes** for the dropdown. The **Default Value** is **No**.
+1. Select **Save**.
+1. Go back to **Solutions** and select **Publish all customizations**.
 
 ## Automatic record creation process flow
 
@@ -89,6 +102,8 @@ Perform the following steps:
         
         1. Select **Save and Publish**.
 
-## Next steps
+## See Also
 
-Enable creation of multiple cases from an email sent to multiple mailboxes
+[How automatic record creation rule works in a customer scenario](arc-customer-scenarion.md#how-automatic-record-creation-rule-works-in-a-customer-scenario)
+
+[How automatic record creation rule works in an agent scenario](arc-agent.md#how-automatic-record-creation-rule-works-in-an-agent-scenario)

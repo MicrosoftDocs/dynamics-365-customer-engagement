@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/14/2024
+ms.date: 03/15/2024
 ms.custom: bap-template
 ---
 
@@ -97,3 +97,11 @@ An incoming email from a customer might get converted to multiple cases. When an
 1. Repeat steps 5-7 for **Forward**.
 
 1. Select **Publish** to save your changes.
+
+## See also
+
+[Create multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#create-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
+
+[Enable creation of multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
+
+[How automatic record creation rule works in a customer scenario](arc-customer-scenarion.md#how-automatic-record-creation-rule-works-in-a-customer-scenario)
