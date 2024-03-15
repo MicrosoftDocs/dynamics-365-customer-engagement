@@ -1,10 +1,11 @@
 ---
 title: "Configure sales accelerator settings for sellers to personalize"
 description: "Use personal settings to determine what happens when an activity is complete."
-ms.date: 02/10/2023
-ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: shujoshi
+ms.topic: how-to
+ms.date: 03/15/2024
 ---
 
 # Configure sales accelerator settings for sellers to personalize
@@ -42,49 +43,41 @@ For example, let’s look at the following scenarios and understand the enhanced
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** ![change area.](media/change-area-icon.png) > **Sales Insights settings**.    
 
-2. On the site map, under **Sales accelerator**, select **Sequences**.    
+1. On the site map, under **Sales accelerator**, select **Sequences**.    
 
-3. On the **Sequences** page, select **Settings**.    
+1. On the **Sequences** page, select **Settings**.    
 
     >[!div class="mx-imgBorder"]
     >![Select Settings.](media/sa-sequence-settings.png "Select Settings")        
 
-4. On the **Settings** page, select **Seller availability**.      
+1. On the **Settings** page, select **Seller availability**.      
 
-    >[!div class="mx-imgBorder"]
-    >![Select Seller availability on the settings page.](media/sa-configure-seller-availability.png "Select Seller availability on the settings page")   
+1.	Turn on the **Seller availability settings** toggle. 
 
-5.	Turn on the **Seller availability settings** toggle. 
+    :::image type="content" source="media/sa-configure-seller-availability-enable.svg" alt-text="Enable Seller availability settings.":::
 
-    >[!div class="mx-imgBorder"]
-    >![Enable Seller availability settings.](media/sa-configure-seller-availability-enable.png "Enable Seller availability settings")   
+    Sellers can configure work hours, time off, and non-working hours through the Dynamics 365 calendar in personal settings. To know more on configuring sellers’ work availability, see [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability).
 
-6.	Under the calendar selection, choose a calendar type and select **Wait time computation** from which the sequence steps will consider seller’s work week and working hours for the activities to be adjusted based on business days.    
+1.	Under the **Wait time computation** selection, select **Wait time computation** from which the sequence steps will consider seller’s work week and working hours for the activities to be adjusted based on business days.    
     >[!NOTE]
     >If you want the sequence steps to consider all days of the week, don’t select the Wait time computation option. 
-        
-    -	Choose the calendar type: 
-        -	**CRM calendar**: Allows sellers to configure work hours, time off, and non-working hours through the Dynamics 365 calendar in personal settings. To know more on configuring sellers’ work availability, see [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability).
-        -	**Outlook**: Allows sellers to configure work days and out of office through the Outlook calendar. Before you select this option, verify that [server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks?context=/dynamics365/context/sales-context) is configured for your organization.
-    -	Wait time computation: The option displayed here depends on the calendar you’ve selected:
-        -	CRM calendar: Skip non-working hours 
-        -	Outlook: Skip non-working days    
-        Select the option for wait time activity to skip non-work hours and move it to the following working day.
-        For example, a seller configures weekends as non-working hours, and the wait time activity falls on a Saturday. With the Wait time computation option enabled, the wait time activity scheduled Saturday (non-working hours) will be moved to the following working day (Monday) and subsequently, other activities will be moved in the order they are defined. 
-        When selected, the Wait time computation option is enabled for all sequences. However, if you want to disable the Wait time computation option for a sequence, do the following steps:   
 
-        1.	Open the sequence.
-        2.	On the sequence page, select **Options**.
-            
-            >[!NOTE]
-            >Deactivate the sequence before you edit the options.
+    Select the option for wait time activity to skip non-work hours and move it to the following working day.
+    For example, a seller configures weekends as non-working hours, and the wait time activity falls on a Saturday. With the Wait time computation option enabled, the wait time activity scheduled Saturday (non-working hours) will be moved to the following working day (Monday) and subsequently, other activities will be moved in the order they are defined. 
+    When selected, the Wait time computation option is enabled for all sequences. However, if you want to disable the Wait time computation option for a sequence, do the following steps:   
 
-        3.	On the **Sequence options** pane, under the **Wait time computation** section, clear the check box for **Skip non-working days**. 
+    1.	Open the sequence.
+    1.	On the sequence page, select **Options**.
 
-            >[!div class="mx-imgBorder"]
-            >![Disable wait time computation for a sequence.](media/sa-disable-wait-time-computation.png "Disable wait time computation for a sequence") 
+        >[!NOTE]
+        >Deactivate the sequence before you edit the options.
 
-7. Select **Save**.
+    1.	On the **Sequence options** pane, under the **Wait time computation** section, clear the check box for **Skip non-working days**. 
+
+        >[!div class="mx-imgBorder"]
+        >![Disable wait time computation for a sequence.](media/sa-disable-wait-time-computation.png "Disable wait time computation for a sequence") 
+
+1. Select **Save**.
 
 ## Sequence activities
 
