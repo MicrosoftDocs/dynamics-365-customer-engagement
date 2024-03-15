@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 09/28/2023
+ms.date: 03/08/2024
 ms.custom: bap-template
 ---
 
@@ -22,7 +22,10 @@ The following image is an example of an org chart:
 
 :::image type="content" source="media/org-chart-example.png" alt-text="Screenshot showing an example of an org chart for an account." lightbox="media/org-chart-example.png":::
 
-The contact card in the org chart provides high-level information about individuals in the org, such as the relationship health, a label, and contact details. The following image is an example of a contact card in an org chart:
+Adjust the view of the org chart by zooming in and out to display more or fewer levels of the organizational structure within the available screen space. You can also move the org chart around to focus on a specific area. Use the **Zoom in**, **Zoom out**, and **Reset zoom** options in the org chart to adjust the view. The current zoom selection will be remembered and applied the next time you open the org chart.
+
+The contact card in the org chart provides high-level information about individuals in the org, such as the relationship health, a label, and contact details. Select a contact and the card is highlighted in the org chart.  
+The following image is an example of a contact card in an org chart:
 
 :::image type="content" source="media/org-chart-contact-card.png" alt-text="Screenshot showing a contact card in an org chart." lightbox="media/org-chart-contact-card.png":::
 

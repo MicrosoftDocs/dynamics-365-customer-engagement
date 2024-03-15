@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 02/26/2024
+ms.date: 02/29/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -28,9 +28,7 @@ In the Copilot side pane, select the sparkle icon (:::image type="icon" source="
 
 ## Summarize a lead or opportunity
 
-1. [Open Copilot](use-sales-copilot.md#open-copilot).
-
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** or **Summarize opportunity**, and select Enter.
+1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** or **Summarize opportunity**, and select Enter.
 
     - If you have a record open, Copilot summarizes it.
     - If you're in the grid view, Copilot lists the records you own. Hover over a record and select **Summarize**.

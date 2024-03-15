@@ -1,7 +1,7 @@
 ---
 title: View notifications in Customer Service
 description: Learn about notifications and their types. Agents will see notifications and screen pops in Customer Service apps.
-ms.date: 10/16/2023
+ms.date: 03/15/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -120,9 +120,9 @@ When you don't respond to an incoming conversation notification, you'll see an a
 
 ## Notification time-out and rerouting of conversations
 
-When you don't respond to an incoming conversation notification, the conversation will time out based on the time-out settings configured by your administrator and be rerouted.
+When you don't respond to an incoming conversation notification, the notification gets timed out based on the time-out setting configured by your administrator in the [notification template](../administer/notification-templates.md#step-1-create-a-notification-template-with-the-following-values) and is rerouted.
 
-Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system but they aren't seen because you had either closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversations are then rerouted after eight minutes.
+Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system but they aren't seen because you closed the browser, navigated away from the app page, or lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it assigns the conversations to you. The conversation is rerouted eight minutes after the timeout has expired.
 
 ## Maximum session limit notifications
 

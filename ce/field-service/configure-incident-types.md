@@ -289,7 +289,7 @@ AI suggestions fall into three categories:
 
 For each suggestion, you have the following options:
 
-- **Apply Suggestion**: The system adds the product or service to the incident type. You've to manually apply suggestions for incident types.
+- **Apply Suggestion**: The system adds the product or service to the incident type. You have to manually apply suggestions for incident types.
 - **Dislike**: The suggestion is removed from the list. This option helps improve the AI suggestion model.
 
 ## Understand incident entities
