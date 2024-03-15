@@ -69,26 +69,30 @@ You can configure forecasts that are based on revenue or quantity. You define th
     
 ### Use the sample forecast configuration
 
-A ready-to-publish sample forecast configuration is available to you. Use the sample forecast to experiment and discover how forecasting works.  Learn how to tweak  the parameters and filters to suit your organization's needs.  
+A ready-to-publish sample forecast configuration is available to you. Use the sample forecast to experiment and discover how forecasting works.  Learn how to tweak the parameters and filters to suit your organization's needs.  
+
+**To view the sample forecast configuration**
 
 1. Go to **App Settings** > **Performance management** > **Forecast configuration**.
 
-    You see a sample forecast configuration in your first-run experience. You can directly activate the forecast if you'd like to use the default settings. After the status turns **Active**, you can [view the forecast](view-forecasts.md).
+    You can directly activate the sample forecast configuration if you'd like to use the default settings. After the status turns **Active**, you can [view the forecast](view-forecasts.md).
 
     :::image type="content" source="media/activate-sample-forecast.png" alt-text="Screenshot of the three-dot menu for activating the sample forecast.":::
 
-    If you want to know who has access to the forecast or restrict access to the forecast, continue with the following steps.
+  **To see who has access to the forecast**
 
 1. Select **Sample forecast**.
+1. In the **General** step, check the **Preview** section to see the users who are part of the forecast. By default, the displayed users have access to view the forecast after you activate it.
 
-1. In the **General** step, check the **Preview** section to see the users who are part of the forecast. By default, all these users will have access to view the forecast after you activate it.
+    :::image type="content" source="./media/forecast-general-tab-configuration-section.svg" alt-text="Screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
 
-    :::image type="content" source="./media/forecast-general-tab-configuration-section.svg" alt-text="A screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
+**To limit access to the forecast**
 
-1. If you want to limit access, go to the **Permissions** step and select the appropriate security roles.
-1. Go to the **Activate & add quotas** step and select **Activate forecast** to make the forecast available to users in the hierarchy.
-1. Wait for the status to turn **Active**.
-1. [View the forecast](view-forecasts.md) to know the actual and forecasted values for your sales teams.
+1. Go to **Permissions** and select the appropriate security roles.
+
+**To make the forecast available to users in the hierarchy**
+
+1. Go to **Activate & add quotas** and select **Activate forecast**.
 
 
 ## Find your forecasts
