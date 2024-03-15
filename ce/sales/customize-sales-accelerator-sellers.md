@@ -34,10 +34,10 @@ Configure sellers’ availability to optimize workload by considering only busin
 For example, let’s look at the following scenarios and understand the enhanced calendar and wait time computation work:   
 - With the calendar selection, the workflow works as:    
     -    Task 1: Send an introductory email to customer (Wednesday)
-    -    Task 2: Follow up with a call after 3 days (Task will be displayed on the following Monday, which is the subsequent working day).
+    -    Task 2: Follow up with a call after three days (Task will be displayed on the following Monday, which is the subsequent working day).
 - With the enhanced calendar and wait time calculation, the workflow works as:
     -    Task 1: Send an introductory email to customer (Wednesday)
-    -    Task 2: Follow up with a call after 3 days (Task will be displayed on the following Tuesday considering that the wait time takes weekends as non-working days).
+    -    Task 2: Follow up with a call after three days (Task will be displayed on the following Tuesday considering that the wait time takes weekends as non-working days).
 
 **Follow these steps:**
 
@@ -58,12 +58,12 @@ For example, let’s look at the following scenarios and understand the enhanced
 
     Sellers can configure work hours, time off, and non-working hours through the Dynamics 365 calendar in personal settings. To know more on configuring sellers’ work availability, see [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability).
 
-1.	Under the **Wait time computation** selection, select **Wait time computation** from which the sequence steps will consider seller’s work week and working hours for the activities to be adjusted based on business days.    
+1.	Under the **Wait time computation** selection, select **Wait time computation** from which the sequence steps consider seller’s work week and working hours for the activities to be adjusted based on business days.    
     >[!NOTE]
     >If you want the sequence steps to consider all days of the week, don’t select the Wait time computation option. 
 
     Select the option for wait time activity to skip non-work hours and move it to the following working day.
-    For example, a seller configures weekends as non-working hours, and the wait time activity falls on a Saturday. With the Wait time computation option enabled, the wait time activity scheduled Saturday (non-working hours) will be moved to the following working day (Monday) and subsequently, other activities will be moved in the order they are defined. 
+    For example, a seller configures weekends as non-working hours, and the wait time activity falls on a Saturday. With the Wait time computation option enabled, the wait time activity scheduled Saturday (non-working hours) will be moved to the following working day (Monday) and subsequently, other activities are moved in the order they're defined. 
     When selected, the Wait time computation option is enabled for all sequences. However, if you want to disable the Wait time computation option for a sequence, do the following steps:   
 
     1.	Open the sequence.
@@ -101,7 +101,7 @@ Follow these steps:
 
 5. Turn on the **Create linked activities** toggle.
 
-    Select the **Exclude phone call activities** checkbox to avoid creating a duplicate phone call activity when you're using Dynamics 365 Channel Integration Framework as your phone system. If you don't select this option, a duplicate phone call activity will be created on the timeline and a duplicate activity will be created when the step is waiting to be completed on the record.
+    Select the **Exclude phone call activities** checkbox to avoid creating a duplicate phone call activity when you're using Dynamics 365 Channel Integration Framework as your phone system. If you don't select this option, a duplicate phone call activity is created on the timeline and a duplicate activity is created when the step is waiting to be completed on the record.
 
     >[!div class="mx-imgBorder"]
     >![Enable Create linked activities.](media/sa-personal-settings-enable-precreate-linked-activities.png "Enable Create linked activities")
@@ -109,7 +109,7 @@ Follow these steps:
     >[!NOTE]
     >When turned off, activities will not be created automatically. However, activities are created on the timeline only when sellers select the activity in the **Up next** widget.   
  
-6. Configure activities and steps. You can choose how the actions that sellers perform on steps will affect linked activities and sequence steps.
+6. Configure activities and steps. You can choose how the actions that sellers perform on steps affect linked activities and sequence steps.
 
     | Action | Description |
     |--------|-------------|
