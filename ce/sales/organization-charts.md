@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: overview
 ms.collection: get-started
-ms.date: 09/28/2023
+ms.date: 03/08/2024
 ms.custom: bap-template 
 searchScope: 
   - D365-App-msdynce_saleshub
@@ -44,3 +44,9 @@ Salesperson and Sales Manager roles have permissions to view org charts by defau
 | Custom Entities | Microsoft Orgchart node entity | Organization | Create, Write, Read, and Delete |
 
 [Learn more about security role permissions](/power-platform/admin/security-roles-privileges).
+
+## Provide feedback on org charts
+
+First time when you save an org chart, the submit feedback dialog appears. You can provide feedback on the org chart feature and select **Submit** to send your feedback to Microsoft. You can choose to ignore the feedback and close the dialog. However, each time you save the org chart, the dialog appears until you submit feedback.  
+
+:::image type="content" source="media/org-chart-submit-feedback.png" alt-text="Screenshot showing the submit feedback dialog." lightbox="media/org-chart-example.png":::

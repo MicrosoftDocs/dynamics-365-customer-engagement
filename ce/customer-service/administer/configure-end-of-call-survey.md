@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.topic: how-to
 ms.collection: 
-ms.date: 01/29/2024
+ms.date: 03/07/2024
 ms.custom: bap-template 
 ---
 
@@ -22,14 +22,30 @@ Agents can rate and provide feedback on their voice calling experience after the
 Perform the following steps to enable agent call quality surveys:
 
 1. In Customer Service admin center, select **Workspaces** and then select **Agent call quality survey (preview)**. You can enable the survey from **Voice settings** in voice workstreams. 
-3. Set the **Agent call quality survey** toggle to **On**.
-4. Specify the frequency at which the survey should be presented to the agent. Optionally, you can also set **Set survey duration** toggle to **On** and specify the duration during which the survey must appear for the agent.
+3. Switch the **Agent call quality survey** toggle to **On**.
+4. Specify the frequency at which the survey should be presented to the agent. Optionally, you can also switch the **Set survey duration** toggle to **On** and specify the duration during which the survey must appear for the agent.
 
  :::image type="content" source="../media/voice-configure-rating.png" alt-text="Screen shot of the Agent call quality survey page." :::
 
 ## Store and view survey data
 
 You must enable the Call Survey Logs [Diagnostic Setting](/azure/communication-services/concepts/analytics/enable-logging) in Azure Monitor to send the [log data](/azure/communication-services/concepts/analytics/logs/end-of-call-survey-logs) of your surveys to a Log Analytics workspace, Event Hubs, or an Azure storage account to receive and analyze your survey data. If you don't send survey data to one of these options your survey data isn't stored and can be lost.
+
+**Sample query**
+
+You can modify any of the out-of-the-box queries to get the required call id information. Here's a sample query to see the audio issues column chart.
+
+```
+
+// Audio issues 
+// Query the call survey data and show the audio issues column chart. 
+ACSCallSurvey
+| where isempty(AudioIssues) == false
+//Comma separated issues when multiple issues are reported
+| project audio =  split(AudioIssues,','), CallId, TimeGenerated, VideoIssues, AudioIssues, ScreenshareIssues, OverallCallIssues
+| mv-expand audio to typeof(string)
+
+```
 
 ## Next steps
 

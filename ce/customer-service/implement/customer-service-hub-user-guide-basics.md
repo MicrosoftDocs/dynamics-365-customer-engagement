@@ -83,7 +83,6 @@ Here's what each entity record type is used for:
 
     [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
-   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure Customer Service](../configure-cs.md).
 4. Select **Favorites and Recent** button ![recent-button.](../media/fav-and-recent.png)  to see recently viewed records, or to see views that have been pinned as favorites.
 
    For a mobile device, the site map is displayed as illustrated in the following image:
@@ -113,7 +112,7 @@ When you're viewing a record:
 > [!NOTE]
 > The option Open Record Set will not be available on devices with comparatively smaller screen sizes.
 
-More information: [Create and manage queues](../administer/../administer/set-up-queues-manage-activities-cases.md) and [Create and manage a case](../user-guide-customer-service.md#create-and-manage-a-case).
+More information: [Create and manage queues](../administer/../administer/set-up-queues-manage-activities-cases.md)
 
 ## Quickly create new records
   

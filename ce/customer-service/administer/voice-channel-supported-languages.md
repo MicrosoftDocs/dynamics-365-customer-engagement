@@ -44,7 +44,7 @@ See the information in the following table to know about the supported languages
 | Arabic - Oman | `ar-OM` |x|x|✔|x|x|x|x|
 | Arabic - Palestinian Authority| `ar-PS` |x|x|✔|x|x|x|x|
 | Arabic - Qatar| `ar-QA` |x|x|✔|✔|x|x|x|
-| Arabic - Saudi Arabia| `ar-SA` |x|✔|✔|✔|✔|✔|✔|
+| Arabic - Saudi Arabia| `ar-SA` |✔|x|✔|✔|✔|✔|✔|
 | Arabic - Syria| `ar- SY` |x|x|✔|✔|x|x|x|
 | Arabic - Tunisia| `ar-TN` |x|x|✔|✔|x|x|x|
 | Arabic - United Arab Emirates| `ar-AE` |x|x|✔|✔|x|x|x|
