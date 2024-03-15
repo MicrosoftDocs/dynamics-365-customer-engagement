@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 Here are the various scenarios that explain how automatic record creation rule works, when agent sends a reply, reply all, forwards, or initiates a new mail.
 
-An agent can do a “reply all” or “reply only” to customer from each case Case 1, Case 2, or Case 3’s timeline, independently. Agents can also “reply” or “reply all” from Inbox or directly from the email by accessing it from the **My Activities** view. When the agent sends a “reply” or “reply all” or forwards an email from any of these entry points, the reply email is related to all cases and records that were related to the original email, unless they have removed them from the ‘related’ attribute manually.  
+An agent can do a reply all or reply only to the customer from each case - Case 1, Case 2, or Case 3’s timeline, independently. Agents can also reply or reply all from Inbox or directly from the email by accessing it from the **My Activities** view. When the agent sends a reply or reply all or forwards an email from any of these entry points, the reply email is related to all cases and records that were related to the original email, unless they have removed them from the related attribute manually.  
 
 The following flowchart explains the agent scenario.
 
@@ -57,7 +57,7 @@ When an agent forwards an email to another mailbox 4, from Case 1 timeline, the 
 
 Agents can also initiate a new email from the case timeline (by selecting the + button on timeline). When an agent sends a new email to a customer from the case timeline, the ‘related’ attribute of the email is set to the case only if the administrator has enabled the OrgDBOrg setting ‘AddParentEntityToRelatedOnNewActivityCreate’.  
 
-For steps on how to enable this setting, go to How to change default environment database settings - Power Platform | Microsoft Learn. This is applicable to only those scenarios where an agent adds a new email from the case timeline and doesn’t apply to scenarios where agent clicks on ‘reply’ or ‘reply all’ to an existing email from the case timeline.  
+For steps on how to enable this setting, go to How to change default environment database settings - Power Platform | Microsoft Learn. This is applicable to only those scenarios where an agent adds a new email from the case timeline and doesn’t apply to scenarios where agent selects reply or reply all to an existing email from the case timeline.  
 
 ## Other scenarios
 

@@ -42,7 +42,7 @@ You can opt-in to enable the feature.
 1. Select **Save**.
 1. Go back to **Solutions** and select **Publish all customizations**.
 
-## how automatic record creation rules work to create multiple cases from an email sent to multiple mailboxes
+## How automatic record creation rules work to create multiple cases from an email sent to multiple mailboxes
 
 After the feature is enabled, any new emails sent to multiple mailboxes get converted to multiple cases and a Related attribute (new attribute introduced on email activity to capture multiple records that an email can be associated with) is set for those cases. For more information on related attribute, see Enable users to associate activities to multiple records (preview). The existing Regarding attribute for such emails will be blank. However, once the feature is turned on, for any existing email records, you’ll see the following:
 
@@ -54,7 +54,7 @@ The following flowchart explains how automatic record creation rules work to cre
 
 :::image type="content" source="../media/arc_process_flow.png" alt-text="Screenshot of automatic record creation process flow":::
 
-### Considerations
+### Recommendations
 
 We recommend that you add a related attribute to your email form from the Power Apps Maker portal so that you can check which cases an email gets associated with, after it gets converted to multiple cases.
 
@@ -102,7 +102,7 @@ Perform the following steps:
         
         1. Select **Save and Publish**.
 
-## See Also
+## See also
 
 [How automatic record creation rule works in a customer scenario](arc-customer-scenario.md#how-automatic-record-creation-rule-works-in-a-customer-scenario)
 
