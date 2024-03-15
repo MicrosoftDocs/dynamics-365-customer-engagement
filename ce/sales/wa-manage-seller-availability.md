@@ -17,7 +17,8 @@ ms.custom:
 
 Assignment rules can assign new leads, opportunities, and insights to your sellers based on their availability, attributes, and capacity.
 
-This article covers how to set your sales team's availability. Sellers can [set their own availability](#let-your-sellers-set-their-availability) or you can [set their availability](#set-your-sellers-availability-yourself) yourself. [Learn how to set seller attributes and capacity](./wa-manage-seller-attributes.md).
+This article covers how to set your sales team's availability. You can [set sellers availability](#set-your-sellers-availability-yourself) yourself.
+[Learn how to set seller attributes and capacity](./wa-manage-seller-attributes.md).
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
