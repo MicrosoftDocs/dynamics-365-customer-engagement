@@ -104,4 +104,4 @@ An incoming email from a customer might get converted to multiple cases. When an
 
 [Enable creation of multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
 
-[How automatic record creation rule works in a customer scenario](arc-customer-scenarion.md#how-automatic-record-creation-rule-works-in-a-customer-scenario)
+[How automatic record creation rule works in a customer scenario](arc-customer-scenario.md#how-automatic-record-creation-rule-works-in-a-customer-scenario)

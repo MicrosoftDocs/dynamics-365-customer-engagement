@@ -113,4 +113,4 @@ However, if you don't want the forwarded email to be associated with existing ca
 
 [Enable creation of multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
 
-[How automatic record creation rule works in an agent scenario](arc-agent.md#how-automatic-record-creation-rule-works-in-an-agent-scenario)
+[How automatic record creation rule works in an agent scenario](arc-agent-scenario.md#how-automatic-record-creation-rule-works-in-an-agent-scenario)

@@ -104,6 +104,6 @@ Perform the following steps:
 
 ## See Also
 
-[How automatic record creation rule works in a customer scenario](arc-customer-scenarion.md#how-automatic-record-creation-rule-works-in-a-customer-scenario)
+[How automatic record creation rule works in a customer scenario](arc-customer-scenario.md#how-automatic-record-creation-rule-works-in-a-customer-scenario)
 
-[How automatic record creation rule works in an agent scenario](arc-agent.md#how-automatic-record-creation-rule-works-in-an-agent-scenario)
+[How automatic record creation rule works in an agent scenario](arc-agent-scenario.md#how-automatic-record-creation-rule-works-in-an-agent-scenario)
