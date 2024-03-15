@@ -39,7 +39,7 @@ Use the PDF generation capability to create and share read-only, professional-lo
 1. On the command bar, select **Export to PDF**.
     
     > [!NOTE]
-    > If you don't see the **Export to PDF** option, contact your administrator to [enable PDF file generation from sales record](enable-pdf-generation-quote.md).
+    > If you don't see the **Export to PDF** option, contact your administrator to [enable PDF file generation for the entity](enable-pdf-generation-quote.md).
 
     The **Export to PDF** dialog box appears.
 
@@ -57,70 +57,48 @@ Use the PDF generation capability to create and share read-only, professional-lo
    1. To download the PDF file to your computer, select **Download**.
    2. To send the PDF file to your customer in email, select **Email**. 
 
-      In the email form that opens, the following information is automatically populated.
-
-      |Field             |    Populated with                                 |
-      |------------------|-------------------------------------------------|  
-      |**To**                |    Potential customer, if applicable                |
-      |**From**                 |  The current user                                   |
-      |**Attachments**       |    The generated PDF file, added as an attachment         |
-      |**Regarding**           |  The record from which the email was triggered    | 
-      |**Subject**             |  The title of the record      |
+      The email form opens with the important fields automatically populated.
 
       ![Email form with a PDF file attached.](media/email-form-pdf-attachment.png "Email form with a PDF file attached")
 
       > [!NOTE]
-      > The **Regarding** field isn't populated if the **Sending email** flag in the primary entity isn't enabled in the **Customization** area. For more information about this flag, see [Entity options that can only be enabled](/powerapps/maker/common-data-service/edit-entities#entity-options-that-can-only-be-enabled). 
+      > The **Regarding** field is populated with the record from which the email was triggered. The **Sending email** flag in the primary entity must be enabled in the **Customization** area for the **Regarding** field to be populated. For more information about this flag, see [Entity options that can only be enabled](/powerapps/maker/common-data-service/edit-entities#entity-options-that-can-only-be-enabled).
 
     3. Select **Save to SharePoint** or **Save to Dynamics**.
-      - Use **Save to SharePoint** to save the PDF file to a SharePoint site. This button is available when SharePoint integration is enabled for your organization and the **Document Management** check box is selected on the entity page in the **Customization** area. If you don't see this button, contact your system administrator.
+      - Use **Save to SharePoint** to save the PDF file to a SharePoint site. This button is available only when SharePoint integration is enabled for your organization and the **Document Management** check box is selected on the entity page in the **Customization** area. If you don't see this button, contact your system administrator.
       - If SharePoint integration isn't enabled, you'll see the **Save to Dynamics** button. This command saves the PDF file as a note to the primary record. The **Save to Dynamics** button is available if notes are enabled for the primary entity. If you don't see this button, contact your system administrator.  
 
-## Steps for creating a PDF file if you're using Dynamics 365 for phones on a mobile device
+## Export to PDF from Dynamics 365 for phones mobile app
 
 If you're using Dynamics 365 for phones on a mobile device, the capability for generating PDF files is limited to the following entities: Account, Contact, Lead, Opportunity, Order, Quote, and Invoice. 
 
-1. Open the entity record for which you want to create a PDF file&mdash;in this example, a record for a Quote entity.
+1. Open the record that you want to export as a PDF. For example, if you want to create a PDF file for a quote, open the quote record.
 
-2. On the command bar, select **Create PDF**, and then select the template you want to use to create the PDF. 
+2. On the command bar, select **Create PDF** and then select the template you want to use to create the PDF. 
 
     > [!div class="mx-imgBorder"]
     > ![A quote form showing the Create PDF button on the command bar.](media/create-pdf.png "A quote form showing the Create PDF button on the command bar")
 
     > [!IMPORTANT]
-    > Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that don't have out-of-the-box templates, you can create new templates. You can't create a PDF file for an entity record if there's no template available for that entity. 
-
-    > [!TIP]
-    > To learn more about using Word templates, see [Create and manage Word templates in Dynamics 365 Sales](manage-word-templates.md). 
+    > Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that don't have out-of-the-box templates, you can create new templates. You can't create a PDF file for an entity record if there's no template available for that entity. [Learn more about creating Word templates](manage-word-templates.md). 
 
 3. In the dialog box that appears, save or download the PDF.
-
-    > [!div class="mx-imgBorder"]
-    > ![Option to save or download a PDF file.](media/save-or-download-pdf-document.png "Option to save or download a PDF file")
 
     - If you select **Save**, the PDF file is stored in the default SharePoint site if SharePoint is configured and enabled for the primary entity. If SharePoint isn't configured, the PDF is saved as a Notes attachment to the primary entity record in Dynamics 365 Sales.
 
     - If you select **Download**, the PDF is downloaded to your local drive. After it's downloaded, you can add this file to a note, send it as an attachment in an email, or upload it to SharePoint.
 
-### Steps for emailing a PDF file if you're using Dynamics 365 for phones on a mobile device
+### Email a PDF from Dynamics 365 for phones mobile app
 
 You can also generate a PDF file and directly email it to a customer.
 
-1. Open an entity record&mdash;in this example, a record for a Quote entity.
+1. Open the record that you want to export as a PDF.
 
 2. On the command bar, select **Email as PDF**, and then select a document template.
 
     ![A quote form showing the Email as PDF button on the command bar.](media/email-as-PDF.png "A quote form showing the Email as PDF button on the command bar")
 
-    In the email form that opens, the following information is automatically populated.
-
-    |Field             |    Populated with                                 |
-    |------------------|-------------------------------------------------|  
-    |**To**                |    Potential customer, if applicable                |
-    |**From**                 |  The current user                                   |
-    |**Attachments**       |    The generated PDF, added as an attachment         |
-    |**Regarding**           |  The record from which the email was triggered| 
-    |**Subject**             |  The title of the record                                    |
+    The email form opens with the important fields automatically populated.
 
 3. Verify or change any details in the email form as necessary, and then select **Send**.
 
