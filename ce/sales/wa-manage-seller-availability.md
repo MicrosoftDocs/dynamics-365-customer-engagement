@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/08/2024
+ms.date: 03/15/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -21,35 +21,15 @@ This article covers how to set your sales team's availability. Sellers can [set 
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
+> [!NOTE]
+> Starting from  April 1, 2024, you can't set the seller's availability through Outlook. More information: [Deprecation of setting seller availability using Outlook calendar](deprecations-sales.md#set-seller-availability-using-outlook-calendar)
+
 ## License and role requirements
 
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | [Sales Manager](security-roles-for-sales.md) |
-
-## Let your sellers set their availability
-
-> [!NOTE]
-> Starting from  April 1, 2024, you can't set the seller's availability through Outlook. More information: [Deprecation of setting seller availability using Outlook calendar](deprecations-sales.md#set-seller-availability-using-outlook-calendar)
-
-1. Sign in to your Sales Hub app.
-
-1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
-
-1. Under **Sales accelerator**, select **Work assignment**.
-
-1. Select **Settings**.
-
-1. In the **Availability and calendar** section, select **Manage**.
-
-1. Turn on **Seller availability settings**, and then select either **CRM Calendar** or **Outlook**.
-
-    :::image type="content" source="media/sa-ar-sales-team-define-seller-availability-configuration.png" alt-text="Screenshot of seller availability settings.":::
-
-1. Select **Save**.
-
-Sellers can then [enter their work schedule](./personalize-sales-accelerator.md#configure-your-work-availability) in Outlook, if they have an Exchange license, or in the Dynamics 365 calendar.
 
 ## Set your sellers' availability yourself
 
