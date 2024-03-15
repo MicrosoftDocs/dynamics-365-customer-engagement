@@ -48,6 +48,5 @@ With a multicloud strategy, you choose the cloud provider that best suits the re
 ### See also
 
 - [Microsoft Dataverse Developer Guide](/power-apps/developer/data-platform/overview)
-- [Use Postman with the Web API](/power-apps/developer/data-platform/webapi/use-postman-web-api)
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]
