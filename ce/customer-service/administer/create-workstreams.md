@@ -1,7 +1,7 @@
 ---
 title: Create and manage workstreams
 description: Learn about how to create and manage workstreams in Customer Service and Omnichannel for Customer Service.
-ms.date: 03/15/2024
+ms.date: 03/18/2024
 author: neeranelli
 ms.author: nenellim
 ms.reviewer:
