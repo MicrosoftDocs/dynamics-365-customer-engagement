@@ -31,6 +31,7 @@ As an administrator or sequence manager, you can configure sequences by using th
 ## Seller availability
 
 Configure sellers’ availability to optimize workload by considering only business days and excluding the non-working days for the work list activities. Also, you can select the calendar type to identify the weekdays or work hours for sellers. Further, the wait time step also considers weekends and computes the activity schedule accordingly.    
+
 For example, let’s look at the following scenarios and understand the enhanced calendar and wait time computation work:   
 - With the calendar selection, the workflow works as:    
     -    Task 1: Send an introductory email to customer (Wednesday)
@@ -38,6 +39,9 @@ For example, let’s look at the following scenarios and understand the enhanced
 - With the enhanced calendar and wait time calculation, the workflow works as:
     -    Task 1: Send an introductory email to customer (Wednesday)
     -    Task 2: Follow up with a call after three days (Task will be displayed on the following Tuesday considering that the wait time takes weekends as non-working days).
+
+> [!NOTE]
+> Starting from  April 1, 2024, you can't set the seller's availability through Outlook. More information: [Deprecation of setting seller availability using Outlook calendar](deprecations-sales.md#set-seller-availability-using-outlook-calendar)
 
 **Follow these steps:**
 

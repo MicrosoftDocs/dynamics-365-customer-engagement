@@ -45,6 +45,7 @@ Depending on the license you have in the organization, you use one of the follow
 >- Verify that the administrator has enabled the option to configure your availability: 
 >    - Through sequence settings. More information: [Seller availability](customize-sales-accelerator-sellers.md#seller-availability)
 >    - Through sales accelerator configuration. More information: step 4 in [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md)
+>- Starting from  April 1, 2024, you can't set the seller's availability through Outlook. More information: [Deprecation of setting seller availability using Outlook calendar](deprecations-sales.md#set-seller-availability-using-outlook-calendar)
 
 ### Through work list settings (Sales Premium)<a name="through-work-list-settings"></a>
 
