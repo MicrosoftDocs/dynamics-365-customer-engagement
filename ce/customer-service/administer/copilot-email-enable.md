@@ -53,7 +53,7 @@ To enable your agents to use the write an email feature from the Copilot side pa
       - **Agent Experience** > **Productivity** > **Copilot help pane**
       - **Operations** > **Insights** > **Copilot help pane**
 1. Select **Manage** in **Copilot help pane**. The **Copilot help pane** page appears. 
-1. Switch the **Email Copilot for sidecar** toggle to **On**.
+1. Switch the **Write an email - Help pane** toggle to **On**.
 1. Select **Save**.
 
 ### Modify the fields used to draft emails
