@@ -1,7 +1,7 @@
 ---
-title: Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)
+title: Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot
 description: Learn how to set up the Dynamics 365 Field Service Plugin for Microsoft Copilot.
-ms.date: 03/01/2024
+ms.date: 03/18/2024
 ms.topic: how-to
 author: KishorIoT
 ms.author: nandab
@@ -11,9 +11,7 @@ ms.subservice: m365-integrations
 ms.collection: bap-ai-copilot 
 ---
 
-# Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)
-
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+# Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot
 
 As an admin, set up Microsoft Copilot for Field Service work orders for your users.
 
@@ -29,8 +27,8 @@ As an admin, set up Microsoft Copilot for Field Service work orders for your use
 
 ## Next steps
 
-- [Overview of the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)](flw-m365-chat.md)
-- [FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)](faqs-m365-chat.md)
+- [Overview of the Dynamics 365 Field Service Plugin for Microsoft Copilot](flw-m365-chat.md)
+- [FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot](faqs-m365-chat.md)
 - [Field Service Teams app for the frontline manager](flw-teams-manager.md)
 - [Field Service Teams app for the frontline worker](flw-teams-worker.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ for Dynamics 365 Field Service
 description: Get answers to common questions about the AI technology used in Dynamics 365 Field Service, how it was tested and evaluated, and specific limitations.
-ms.date: 03/12/2024
+ms.date: 03/18/2024
 ms.topic: faq
 ms.custom:
   - responsible-ai-faqs

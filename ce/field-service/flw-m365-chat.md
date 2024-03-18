@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service Plugin for Microsoft Copilot
 description: Learn about the Dynamics 365 Field Service Plugin for Microsoft Copilot including the types of questions you can ask.
-ms.date: 03/11/2024
+ms.date: 03/18/2024
 ms.topic: overview
 author: KishorIoT
 ms.author: nandab
@@ -17,11 +17,11 @@ With the Dynamics 365 Field Service Plugin for Microsoft Copilot, Dynamics 365 F
 
 Copilot can also parse through a [work order's attachments](get-work-done-mobile-app.md#add-notes-and-attachments) and provide answers to your questions. Attachments must be notes, Word, or PDF documents.
 
-To access this chat feature, and admin must [set up Microsoft Copilot for Field Service work orders](flw-copilot-setup.md).
+To access this chat feature, an admin must [set up Microsoft Copilot for Field Service work orders](flw-copilot-setup.md).
 
 ## What do you want to know about work orders?
 
-Ask any straight-forward question about Field Service work orders. Ambiguous questions such as “What are the most important work orders” might not return results as "most important" isn't a defined status. Instead, ask "What are the high priority work orders?"
+Ask any straight-forward question about Field Service work orders. Ambiguous questions such as "What are the most important work orders" might not return results as "most important" isn't a defined status. Instead, ask "What are the high priority work orders?"
 
 Be specific about the expected outcomes. For example, if you want results in table format, then use the phrase "in table format." If you want a consolidated result or summary, be specific. For example, "What is the incident type and service account for work order 00041?"
 
