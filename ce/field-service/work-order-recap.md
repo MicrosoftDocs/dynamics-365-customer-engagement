@@ -1,7 +1,7 @@
 ---
 title: Work order recap with Copilot in Field Service (preview)
 description: Let AI generate a work order recap to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 02/12/2024
+ms.date: 03/18/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -50,9 +50,13 @@ Use the like/dislike buttons in the **Copilot** control to provide feedback and,
 
 ## How recaps are generated
 
-When you generate a recap, the system uses the work order ID and your security profile to determine whether relevant data exists and that you have access to it. If so, the system pulls contextual information directly from the work order and related records to generate the recap content. 
+When you generate a recap, the system uses the work order ID and your security profile to determine whether relevant data exists and that you have access to it. If so, the system pulls contextual information directly from the work order and related records to generate the summary.
 
-Copilot summarizes a work order based on the following related fields:  
+By default, Copilot provides summaries based based on a list of fields that Microsoft maintains. Administrators can [change the summary configuration](#configure-summary) to meet their business needs.
+
+<!-- list accurate for BRB and WO? consider removing if exposed through new summary config settings -->
+
+The default summary includes the following data fields from work orders and related records:  
 
 - Booking information
 - Activity details
@@ -71,6 +75,26 @@ The recap focuses on the most relevant information based on the work order's lif
 - **In Progress**: Information that's relevant to completing the work order and the current state of work, like asset information and the asset's work order history.
 
 - **Completed**, **Posted**, and **Canceled**: The core information in all recaps includes a summary of costs and prices and, for completed and posted work orders, invoice details.
+
+## Summary configuration (preview)
+
+Administrators can configure the information for the AI-generated summary to tailor the output to their business needs.
+
+### Configure summary
+
+1. In Field Service, change to the **Settings** area and go to **Copilot settings** > **Summary configuration**.
+1. Open the configuration template for the records you want to configure.
+1. Set the **Configure summary** setting to **On**.
+1. The summary includes data fields based on record types. You can change, remove, and add more mappings. Depending on the record type you choose, different data fields might be available.
+1. **Save** your changes when you are done making changes.
+
+### Test configuration
+
+In the **Sample summary** section, you can choose a record as sample data and select **Test** to see a sample output based on the summary configuration.
+
+### Reset to default configuration
+
+To reset an updated summary configuration to the recommended defaults, select **Reset to recommendation** on the summary configuration record and save the changes.
 
 ## Work order recaps in the mobile app
 
