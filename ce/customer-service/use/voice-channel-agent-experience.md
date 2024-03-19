@@ -30,7 +30,7 @@ The conversation panel in the agent dashboard includes the following call contro
 > ![Screenshot of call controls.](../media/voice-channel-call-controls.png)
 
 - **Mute**: Mute your microphone so your voice isn't audible to the customer.
-- **Hold**: Put the customer on hold; the customer hears the hold music. You can keep only one caller on hold at a time. If your administrator has enabled the **Allow automatic pause and resume when agents hole and un-hold the customer** option, the recording and transcription of the call are paused when you put the customer on hold and resume when you un-hold the customer. If the option is disabled, you must manually pause and resume the recording and transcription.
+- **Hold**: Put the customer on hold; the customer hears the hold music. You can keep only one caller on hold at a time. If your administrator has enabled the **Allow automatic pause and resume when agents hole and un-hold the customer** option, the recording and transcription of the call are paused when you put the customer on hold and resume when you remove the customer from hold. If the option is disabled, you must manually pause and resume the recording and transcription.
 - **Consult**: Select this option to consult with a participant. You can consult with or bring another agent or supervisor into the call. You can have a *public* consultation, where the customer is actively involved in the conversation. Or you can have a *private* consultation, where you can put the customer on hold before you talk to your peers or supervisor.
 
   > [!NOTE]
