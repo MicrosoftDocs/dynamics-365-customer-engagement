@@ -42,7 +42,12 @@ To test your microphone and speaker, do the following steps:
 1. In Customer Service workspace or Omnichannel for Customer Service, go to **Contacts**, and then select a customer to call.
 2. On the **Active Conversation** page, locate the **Mobile Phone** field, and then select the call icon to call the customer. You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer.
      The **Dial number** panel appears. You can perform the following actions:
-     - On the dial pad, you can copy, type in a number, or select a number from the recently dialled numbers. The country code dropdown displays the list of supported countries and regions that you can call. You can also view and call from the most recently dialed called numbers. By default, the last 20 calls that you’ve received or made are displayed.
+     - Search for a contact or account by name. Based on your administrator's configuration, you'll have to specify the first two or three words in the search. The results are displayed in a dropdown. Once you select the customer's name, the application displays the customer's phone number, name, country, country code, and outbound profile that you can use to make the call.
+      > [!NOTE]
+      > For a contact, you'll see the business number and the mobile number. For an account you'll see the main phone number.
+     - On the input box, you can copy, type in a number, or select a number from the recently dialled numbers. The country code dropdown displays the list of supported countries and regions that you can call. 
+     - View and call from the most recently dialed called numbers. By default, the last 20 calls that you’ve received or made are displayed.
+     - You can select the customer's name in **Recents** to view the customer's account or contact details in a new session.
      - In the profile dropdown, the outbound profile and the phone number that you're using to make the call is displayed. This is the outbound calling number that is displayed on the customer's phone when they receive your call.
      - You can call those phone numbers only whose regions are configured in the outbound profiles.
      - The dropdown displays the list of supported countries and regions from all the outbound profiles assigned to you. 
