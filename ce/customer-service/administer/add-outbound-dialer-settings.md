@@ -22,6 +22,7 @@ In the outbound dialer, agents can search for customer contacts or accounts by n
 ## Prerequisites
 
 - [Dataverse search](/power-platform/admin/configure-relevance-search-organization) must be enabled for your environment in Power Platform admin center. 
+- Configure the minimum number of characters that trigger the search. More information: [Lookup behavior](/power-platform/admin/settings-behavior#settings).
 
 ## Configure search by name, open records
 

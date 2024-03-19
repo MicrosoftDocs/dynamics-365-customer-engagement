@@ -42,7 +42,7 @@ To test your microphone and speaker, do the following steps:
 1. In Customer Service workspace or Omnichannel for Customer Service, go to **Contacts**, and then select a customer to call.
 2. On the **Active Conversation** page, locate the **Mobile Phone** field, and then select the call icon to call the customer. You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer.
      The **Dial number** panel appears. You can perform the following actions:
-     - Search for a contact or account by name. Based on your administrator's configuration, you'll have to specify the first two or three words in the search. The results are displayed in a dropdown. Once you select the customer's name, the application displays the customer's phone number, name, country, country code, and outbound profile that you can use to make the call.
+     - Search for a contact or account by name. The results are displayed in a dropdown. You can select **Account** or **Contact** to filter the results further. Once you select the customer's name, the application displays the customer's phone number, name, country, country code, and outbound profile that you can use to make the call.
       > [!NOTE]
       > For a contact, you'll see the business number and the mobile number. For an account you'll see the main phone number.
      - On the input box, you can copy, type in a number, or select a number from the recently dialled numbers. The country code dropdown displays the list of supported countries and regions that you can call. 
