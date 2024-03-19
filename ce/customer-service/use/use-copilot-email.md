@@ -67,7 +67,7 @@ You can select **Adjust** to change the length and tone of the response as follo
 **Tone**: Select Friendly, Professional, or Formal to adjust the tone of your text.
 
 > [!NOTE]
-> The **Adjust** feature is supported for English language responses only.
+> The **Adjust** feature is supported in English only.
 
 ### Use follow-up prompts
 
