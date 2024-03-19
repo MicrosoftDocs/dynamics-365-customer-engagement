@@ -32,7 +32,6 @@ For information about older versions, see [Version history archive](../../field-
 - Fixed a bug that was disabling the Delete button in a booking context menu in multiday views.
 - Travel times of existing bookings are now updated when previous bookings are deleted.
 - Booking statuses can now be updated while in multiday views in both List and Gantt modes.
-- Various security enhancements.
 
 ## 3.12.127.12 - 2024 Wave 1 Early Access update 1
 
@@ -43,8 +42,7 @@ For information about older versions, see [Version history archive](../../field-
 - Users can now select which days of the week are visible on the schedule board.
 - Added a vertical line to indicate current day while in aggregated views.
 - Fixed bug where Move Bookings was not functioning properly in some time zones.
-- Removed entry point to Schedule Board Settings from BSM ribbon button.
-- Various security enhancements.
+- Removed entry point to Schedule Board Settings from Booking Setup Metadata ribbon button.
 
 ## 3.12.124.11
 
@@ -71,7 +69,7 @@ For information about older versions, see [Version history archive](../../field-
 - All relevant fields now link to their respective entities in the requirements pane on the schedule board.
 - The time zone setting in the schedule board settings is now reflected when moving a booking.
 - Performance improvements when switching between schedule board tabs.
-- Various security improvements.
+- Various security enhancements.
 - Fixed a bug where double clicking on a booking was not opening the record while in the schedule board's hourly view.
 
 **Resource Scheduling Controls:** 1.2.62.240661
