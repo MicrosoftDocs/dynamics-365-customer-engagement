@@ -16,12 +16,12 @@ ms.custom:
 
 # Enable agents to search for contacts, open records from outbound dialer
 
-In the outbound dialer, agents can search for customer contacts or accounts by name. Agents can also select and open a customer's record from the recently dialled number list. This allows agents to quickly find and open records for the customer they are speaking with.
+In the outbound dialer, agents can search for customers by name. Agents can also select and open a customer's record from the recently dialled number list, allowing them to quickly find and open records for the customer they're speaking with.
 
 ## Prerequisites
 
 - [Dataverse search](/power-platform/admin/configure-relevance-search-organization) must be enabled for your environment in Power Platform admin center. 
-- Configure the minimum number of characters that trigger the search. More information: [Lookup behavior](/power-platform/admin/settings-behavior#settings).
+- Configure the minimum number of characters that should trigger the search. More information: [Lookup behavior](/power-platform/admin/settings-behavior#settings).
 
 ## Configure search by name, open records
 
@@ -36,6 +36,4 @@ Perform the following steps:
 1. Select the setting definitions, and set the **Setting environment value** option to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
 1. Save and publish the changes.
 
-## Next steps
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
