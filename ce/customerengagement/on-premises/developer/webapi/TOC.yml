@@ -12,13 +12,5 @@
     href: discover-url-organization-web-api.md
   - name: Use the Web API with metadata
     href: use-web-api-metadata.md
-  - name: Use Postman with Web API
-    items:
-    - name: Get started with Postman
-      href: use-postman-web-api.md
-    - name: Setup a Postman environment
-      href: setup-postman-environment.md
-    - name: Use Postman to perform operations
-      href: use-postman-perform-operations.md
   - name: Web API samples
     href: samples.md

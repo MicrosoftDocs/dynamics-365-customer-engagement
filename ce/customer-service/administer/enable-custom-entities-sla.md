@@ -29,7 +29,7 @@ Make sure that you have the System Administrator or System Customizer security r
 1. From **Objects**, select **Table**.
 1. Find the custom entity page name on the list and open it.
 1. On the custom entity page, **Table properties** section, select **Properties**.
-    1. On the **Edit table** dialog, expand **Advance options**.
+    1. On the **Edit table** dialog, expand **Advanced options**.
     1. Go to the **Make this table an option when** section and select the **Setting up service level agreements** checkbox.
     1. Select **Save**.
 1. On the custom entity, select **Schema** > **Columns**, and then select **New Column**. On the **New column** dialog,
