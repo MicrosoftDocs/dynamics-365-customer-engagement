@@ -66,6 +66,9 @@ You can select **Adjust** to change the length and tone of the response as follo
 **Length**: Select Short, Medium, or Long to condense or expand on your text.
 **Tone**: Select Friendly, Professional, or Formal to adjust the tone of your text.
 
+> [!NOTE]
+> The **Adjust** feature is supported for English language responses only.
+
 ### Use follow-up prompts
 
 If Copilot's response isn't immediately useful, you can use follow-up custom prompts and guide Copilot in a natural, conversational way. You can refine the email draft using up to five prompts. If your administrator has enabled knowledge base, Copilot will also use those sources.
