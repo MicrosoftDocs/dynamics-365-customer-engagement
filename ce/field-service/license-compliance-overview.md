@@ -1,7 +1,7 @@
 ---
 title: License compliance overview
 description: Verify license compliance for Dynamics 365 tables, operations, messages, and controls using Power Apps solution checker.
-ms.date: 03/07/2024
+ms.date: 03/19/2024
 ms.topic: overview
 author: vhorvathms
 ms.author: vhorvath
@@ -10,13 +10,13 @@ ms.reviewer: mhart
 
 # License compliance overview
 
-The solution checker in Power Apps lets makers and admins verify that you have the appropriate license for the Dynamics 365 tables, operations, messages, and controls that you use in your solutions. This feature helps provide clarity and accountability for businesses using Dynamics 365. It ensures that users are appropriately licensed and helps avoid any potential compliance issues.
+The solution checker in Power Apps lets makers verify that they have the appropriate license for the Dynamics 365 tables, operations, messages, and controls that are used across solutions. This feature helps provide clarity and accountability for businesses using Dynamics 365. Ensuring license compliance for Dynamics 365 apps provides makers and administrators with essential tools for self-management and improved licensing visibility to mitigate potential compliance risks.
 
 For more information about the Dynamics 365 licenses and entitlements, see the [Licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
 ## Use solution checker to validate your solutions
 
-The license checking rules are part of the Power Apps solution checker. As an administrator or customizer (maker), run the solution checker on your solutions before deploying them and regularly thereafter. This practice helps ensure that you have the appropriate license for the Dynamics 365 tables, operations, messages, and controls that you're using.
+The license checking rules are part of the Power Apps solution checker. As an administrator or customizer (maker), run the solution checker on your solutions before deploying them and regularly thereafter. Solution checker is an existing Power Apps capability empowering makers to analyze their solutions, and list potential issues and patterns against a predefined set of rules. It helps makers verify if a solution is accessing components that require a Dynamics 365 license to drive clarity around required licenses.
 
 [Learn more about solution checker and how to run it](/power-apps/maker/data-platform/use-powerapps-checker).
 
