@@ -1,6 +1,6 @@
 ---
-title:  Configure survey for call quality feedback (preview)
-description: Learn how to configure agent call quality feedback.
+title:  Enable voice call experiences
+description: Learn how to configure agent call quality feedback, automatically remove a customer from hold.
 author: gandhamm
 ms.author: mgandham
 ms.topic: how-to
@@ -9,7 +9,14 @@ ms.date: 03/07/2024
 ms.custom: bap-template 
 ---
 
-# Configure agent call quality feedback survey (preview)
+# Enable voice call experiences
+
+Use the **Voice call experiences** page in Customer Service admin center to configure the following features:
+
+- [Configure agent call quality feedback survey (preview)](#configure-agent-call-quality-feedback-survey-preview)
+- [Automatically remove a customer from hold](#automatically-remove-a-customer-from-hold)
+
+## Configure agent call quality feedback survey (preview)
 
 > [!Important]
 > - This is an early access feature. 
@@ -27,7 +34,7 @@ Perform the following steps to enable agent call quality surveys:
 
  :::image type="content" source="../media/voice-configure-rating.png" alt-text="Screen shot of the Agent call quality survey page." :::
 
-## Store and view survey data
+### Store and view survey data
 
 You must enable the Call Survey Logs [Diagnostic Setting](/azure/communication-services/concepts/analytics/enable-logging) in Azure Monitor to send the [log data](/azure/communication-services/concepts/analytics/logs/end-of-call-survey-logs) of your surveys to a Log Analytics workspace, Event Hubs, or an Azure storage account to receive and analyze your survey data. If you don't send survey data to one of these options your survey data isn't stored and can be lost.
 
@@ -46,6 +53,12 @@ ACSCallSurvey
 | mv-expand audio to typeof(string)
 
 ```
+
+## Automatically remove a customer from hold
+
+When you transfer a call to another agent, the customer is automatically put on hold. If the customer must be removed from hold automatically when the secondary agent accepts the transferred call, instead of the agent manually removing the customer from hold, perform the following steps:
+- In Customer Service admin center, select **Workspaces** and then select **Voice call experiences**.
+- Switch the **Un-hold customer after agent transfer is accepted** toggle to **On**. 
 
 ## Next steps
 

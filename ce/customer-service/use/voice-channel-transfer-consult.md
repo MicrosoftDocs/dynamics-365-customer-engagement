@@ -19,7 +19,7 @@ To familiarize yourself with the call controls, see [Understand how to use the a
 When you receive an incoming call, you can transfer the call to an agent, a queue, a public switched telephone network(PSTN) Teams user, or an external PSTN number. After you transfer the call, the following actions occur:
 
  - The customer is automatically put on hold. Hold music plays for the customer. 
- - The primary agent must manually remove the customer from hold.
+ - The customer is automatically removed from hold once a secondary agent accepts the transferred call, if the **Un-hold customer after agent transfer is accepted** setting is enabled. If not, the primary agent must manually remove the customer from hold.
 
 
 **Transfer the call**
