@@ -42,7 +42,7 @@ Watch this brief video to learn more about the new work order experience in Fiel
 
 When you generate a recap, the system uses the work order ID and your security profile to determine whether relevant data exists and that you have access to it. If so, the system pulls contextual information directly from the work order and related records to generate the summary.
 
-By default, Copilot provides summaries based on a list of fields that Microsoft maintains. Administrators can [change the summary configuration](#configure-summary) to meet their business needs.
+By default, Copilot provides summaries based on a list of fields that Microsoft maintains. Administrators can [change the summary configuration](#configure-the-summary) to meet their business needs.
 
 The default summary includes the following data fields from work orders and related records:  
 
