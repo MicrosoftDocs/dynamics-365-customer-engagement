@@ -35,14 +35,14 @@ For information about older versions, see [Version history archive](version-hist
 (Includes Universal Resource Scheduling version [3.12.125.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212530) and Resource Scheduling controls version 1.2.64.240721).
 
 - Updated translation of warnings when cancelling work orders.
-- Double clicking will now open work orders from the work order list.
+- Double clicking now opens work orders from the work order list.
 
 ## 8.8.111.25 (2024 wave 1 early access, update 1)
 (Includes Universal Resource Scheduling version [3.12.127.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212712---2024-wave-1-early-access-update1) and Resource Scheduling controls version 1.2.66.240663).
 
-- The new work order list view no longer shows inactive records
-- The booked resources column has several improvements and will now show by default. Note that his column is intended to only be used with the new work order grid control.
-- New Work order form and views are no longer ‘new’, older forms are labeled ‘legacy’.
+- The new work order list view no longer shows inactive records.
+- The booked resources column has several improvements and now shows by default. This column is intended to only be used with the new work order grid control.
+- New work order forms and views are no longer called ‘new’. Older forms are labeled ‘legacy’.
 
 ## 8.8.109.12
 This release is a hotfix on Field Service version [8.8.109.10](/dynamics365/field-service/version-history#8810910)
@@ -55,7 +55,7 @@ This release is a hotfix on Field Service version [8.8.109.10](/dynamics365/fiel
 This release is a hotfix on Field Service version [8.8.108.10](/dynamics365/field-service/version-history#8810810)
 (Includes Universal Resource Scheduling version [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334) and Resource Scheduling controls version 1.2.62.240661).
 
-- Fixed a problem making FS update fail on many orgs when mixed reality security roles are applied.
+- Fixed a problem with Field Service updates when mixed reality security roles are applied.
 
 ## 8.8.108.10
 (Includes Universal Resource Scheduling version [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334) and Resource Scheduling controls version 1.2.62.240451).
