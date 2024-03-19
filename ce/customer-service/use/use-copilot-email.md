@@ -57,7 +57,7 @@ If your administrator has enabled knowledge sources and set up trusted domains, 
 
 ### Review suggested replies
 
-When you select one of the prompts, Copilot generates a suggested reply. The application starts to stream the draft as soon as Copilot begins generating the response instead of waiting for the entire draft to be generated before it is displayed.  *Always review the response.* You can select **Stop Responding** to stop Copilot from generating the email draft if it isn't accurate. The application displays the prompts for you to start over. 
+When you select one of the predefined prompts, Copilot generates a suggested reply and it's displayed on the UI incrementally. You can also see the inline citations that show the knowledge base or website links from which Copilot drew the response. When you hover over the citation, you can see an inline link to the source.*Always review the response.* You can select **Stop Responding** to stop Copilot from generating the email draft if it isn't accurate. The application displays the prompts for you to start over. 
 
 ### Refine replies
 
