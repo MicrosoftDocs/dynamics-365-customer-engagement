@@ -3,7 +3,7 @@ title: Sign up for a free Dynamics 365 Sales trial
 description: Sign up for a free Sales trial and get access to key features, test the app with sample data, and try out your own customer data.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 03/05/2024
+ms.date: 03/19/2024
 ms.topic: how-to
 ms.reviewer: shujoshi
 ms.custom:
@@ -21,23 +21,24 @@ Dynamics 365 Sales offers a 30-day free trial with the Sales Premium license. Af
 
 1. Go to the [Sales overview page](https://dynamics.microsoft.com/sales/overview/) and select **Try for free**.
 
-1. Enter your work email ID or personal email ID.
+1. Follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) or your personal email ID, such as alansteiner@gmail.com.
     > [!NOTE]
-    > [Conversation intelligence](dynamics365-sales-insights-app.md) requires a work account.
+    > [Conversation intelligence](dynamics365-sales-insights-app.md) requires a Microsoft account.
 
-1. Follow the onscreen guidance to provide additional information about yourself, such as country and phone number.  
+1. Follow the onscreen guidance to provide additional information about yourself and your organization, such as country and phone number.  
 
-   It takes a few minutes to set up your trial environment. After the setup is complete, you'll be automatically redirected to the Dynamics 365 Sales Trial app. 
+   The trial takes a few minutes to set up and load.
 
-   The Sales Trial app opens the **Dashboards** page with helpful sales insights based on sample data. A product tour assistant also launches.
+3. Select **Launch Trial**.
+
+   The Sales trial app opens the **Dashboards** page with helpful sales insights based on sample data. A product tour assistant also launches.
 
     :::image type="content" source="media/trial-dashboard-page.png" alt-text="Screenshot of the Dashboards page in the Dynamics 365 Sales Trial app." lightbox="media/trial-dashboard-page.png":::
-
-1. To explore the app, select **Get started** on the product tour assistant. The assistant guides you through the app's key features and provides helpful tips.
 
 ## Additional resources
 
 - [Dynamics 365 Sales free trial sign-up page](https://dynamics.microsoft.com/sales/sales-tool/free-trial)
+- [Explore features included in the trial](features-in-trial.md)
 - [Explore Microsoft Learn training](/training/dynamics365/sales)
 - [Watch videos on the product playlist](https://www.youtube.com/watch?v=d1eOU8SCy_A&list=PLcakwueIHoT8Bkb8BvqgBKgJPUc3jSX3m)
 - [Trial FAQ](sales-trial-faq.md)
