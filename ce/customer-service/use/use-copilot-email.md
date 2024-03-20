@@ -88,7 +88,7 @@ To return to the prompts, select **Start over** at the bottom of the Copilot pan
 
 ### [Draft an email in the rich text editor](#tab/richtexteditor)
 
-   :::image type="content" source="../media/copilot-draft-inline-mini.png" alt-text="Screenshot of composing an email in rich text editor." lightbox="../media/copilot-draft-inline.png"::: 
+   :::image type="content" source="../media/copilot-draft-inline-mini.svg" alt-text="Screenshot of composing an email in rich text editor." lightbox="../media/copilot-draft-inline.svg"::: 
 
 
 ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
