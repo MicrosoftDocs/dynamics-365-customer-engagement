@@ -63,11 +63,11 @@ When you select one of the predefined prompts, Copilot generates a suggested rep
 
 You can select **Adjust** to change the length and tone of the response as follows:
 
-**Length**: Select Short, Medium, or Long to condense or expand on your text.
+**Length**: Select Short, Medium, or Long to condense or expand on your text. <br>
 **Tone**: Select Friendly, Professional, or Formal to adjust the tone of your text.
 
 > [!NOTE]
-> The **Adjust** feature is supported for English language responses only.
+> The **Adjust** feature supports responses in English only.
 
 ### Use follow-up prompts
 
