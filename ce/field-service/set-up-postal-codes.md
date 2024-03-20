@@ -1,7 +1,7 @@
 ---
 title: Set up postal codes
 description: Learn how to set up postal codes and relate them to territories in Dynamics 365 Field Service.
-ms.date: 03/13/2024
+ms.date: 03/20/2024
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
@@ -25,7 +25,7 @@ You can't assign a postal code to multiple territories.
 1. Select **New** to create a postal code record.
 
    - **Name**: Enter the postal code.
-   - **Country code**: Enter the country code to differentiate if the same postal code exists in different regions.
+   - **Country**: Enter a country code as a differentiator if the same postal code exists in different countries or regions.
    - **Service Territory**: Choose an existing territory or create one.
   
 1. Select **Save**.
