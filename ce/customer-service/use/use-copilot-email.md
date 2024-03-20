@@ -59,16 +59,6 @@ If your administrator has enabled knowledge sources and set up trusted domains, 
 
 When you select one of the predefined prompts, Copilot generates a suggested reply and it's displayed on the UI incrementally. You can also see the inline citations that show the knowledge base or website links from which Copilot drew the response. When you hover over the citation, you can see an inline link to the source.*Always review the response.* You can select **Stop Responding** to stop Copilot from generating the email draft if it isn't accurate. The application displays the prompts for you to start over. 
 
-### Refine replies
-
-You can select **Adjust** to change the length and tone of the response as follows:
-
-**Length**: Select Short, Medium, or Long to condense or expand on your text. <br>
-**Tone**: Select Friendly, Professional, or Formal to adjust the tone of your text.
-
-> [!NOTE]
-> The **Adjust** feature supports responses in English only.
-
 ### Use follow-up prompts
 
 If Copilot's response isn't immediately useful, you can use follow-up custom prompts and guide Copilot in a natural, conversational way. You can refine the email draft using up to five prompts. If your administrator has enabled knowledge base, Copilot will also use those sources.
