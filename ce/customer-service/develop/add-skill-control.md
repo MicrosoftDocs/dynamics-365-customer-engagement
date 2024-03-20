@@ -8,7 +8,7 @@ ms.author: nenellim
 ms.custom: 
   - dyn365-customerservice
   - bap-template
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
 ---
@@ -24,7 +24,7 @@ Dynamics 365 provides a custom control that you can embed in your forms to view 
 - [Omnichannel for Customer Service is provisioned](../implement/omnichannel-provision-license.md).
 - [Unified routing is enabled](../administer/provision-unified-routing.md).
 
-## Add skill control
+## Add a skill control
 
 In the following example, to add a skill control named **Skills** to the case form:
 
@@ -37,7 +37,7 @@ In the following example, to add a skill control named **Skills** to the case fo
     1. On the **Properties** tab, enter the details under **Display options**.
     1. Expand **Components**, and select **Component**.
     1. In **Add component**, select Get more components. 
-    1. Search **CC_OCRoutedEtnRelatedRecordsControl**, select, and then select **Add**. The component is added to the list.
+    1. Search **CC_OCRoutedEtnRelatedRecordsControl**, select **Components** and then select **Add**. The component is added to the list.
     1. Select the component again.
     1. To filter the skills based on the selected queue, on the **Add CC_OCRoutedEtnRelatedRecordsControl** pane, in the Static value field for CC_FetchXML, enter a fetch XML that you have defined to curate the relevant set of skills that match the queue requirements. You can use the [Sample Fetch XML](#sample-fetch-xml) listed in this article.
 
