@@ -19,12 +19,12 @@ When you draft customer emails, Copilot can offer suggestions to make them clear
 
   ### [Draft an email in the rich text editor](#tab/richtexteditor)
 
-    :::image type="content" source="../media/copilot-email-rte-mini.png" alt-text="Screenshot of draft an email in rich text editor." lightbox="../media/copilot-email-rte.png":::
+    :::image type="content" source="../media/draft-an-email-inline-mini.png" alt-text="Screenshot of draft an email in rich text editor." lightbox="../media/draft-an-email-inline.png":::
 
 
   ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
 
-    :::image type="content" source="../media/copilot-email-sidepane-mini.png" alt-text="Screenshot of draft an email in the side pane." lightbox="../media/copilot-email-sidepane-mini.png":::
+    :::image type="content" source="../media/draft-an-email-sidepane-mini.png" alt-text="Screenshot of draft an email in the side pane." lightbox="../media/draft-an-email-sidepane.png":::
 
    ---
 
@@ -88,12 +88,12 @@ To return to the prompts, select **Start over** at the bottom of the Copilot pan
 
 ### [Draft an email in the rich text editor](#tab/richtexteditor)
 
-   :::image type="content" source="../media/copilot-email-rte-gen-mini.png" alt-text="Screenshot of composing an email in rich text editor." lightbox="../media/copilot-email-rte-gen.png"::: 
+   :::image type="content" source="../media/copilot-draft-inline-mini.png" alt-text="Screenshot of composing an email in rich text editor." lightbox="../media/copilot-draft-inline.png"::: 
 
 
 ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
 
-   :::image type="content" source="../media/copilot-email-side-mini.png" alt-text="Screenshot of composing an email in the side pane." lightbox="../media/copilot-email-side-mini.png"::: 
+   :::image type="content" source="../media/copilot-draft-sidepane-mini.png" alt-text="Screenshot of composing an email in the side pane." lightbox="../media/copilot-draft-sidepane.png"::: 
 
   
   ---
