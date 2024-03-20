@@ -1,12 +1,16 @@
 ---
 title: Configure the assistant
-description: Configure assistant to help sellers track their daily actions and communications through a collection of actionable insight cards.
-ms.date: 03/15/2024
+description: Configure the assistant to help sellers track their daily actions and communications through actionable insight cards.
+ms.date: 03/29/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
-ms.owner: shujoshi
-ms.custom: bap-template
+ms.reviewer: shujoshi
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:03/19/2024
 ---
 
 # Configure the assistant
@@ -44,27 +48,21 @@ More information: [Security roles and privileges](/dynamics365/customer-engageme
 
 ### Configure and manage standard insight cards
 
-1. On the site map under **Assistant**, select **Insight cards**.
+1. On the site map under **Assistant studio**, select **Insight cards**.
 
-    :::image type="content" source="media/si-admin-assistant-card-list.png" alt-text="Screenshot showing the list of insight cards":::
+1. Do the following actions as described according to your requirements:  
 
-1. To turn on (enable) the insight cards, select the cards that are shaded, and then select **Turn on cards**.
+    - **To turn on (enable) the insight cards**, select the cards that are shaded, and then select **Turn on cards**.  
+        In this example, we've selected the cards **Recent Meetings (Exchange)** and **Email Opened**.  
+        :::image type="content" source="media/si-admin-assistant-turn-on-cards.png" alt-text="Screenshot showing the cards selected to turn on":::  
+        More information: [Turn on or off the insight cards](turn-on-off-insight-cards.md)
 
-    In this example, we've selected the cards **Recent Meetings (Exchange)** and **Email Opened**.
+    - **To turn off (disable) the insight cards**, select the cards that have been turned on, and then select **Turn off cards**.  
+        In this example, we've selected the cards **SuggestedContacts** and **Upcoming Flight**.  
+        :::image type="content" source="media/si-admin-assistant-turn-off-cards.png" alt-text="Screenshot showing the cards selected to turn off":::
 
-    :::image type="content" source="media/si-admin-assistant-turn-on-cards.png" alt-text="Screenshot showing the cards selected to turn on":::
-
-    More information: [Turn on or off the insight cards](turn-on-off-insight-cards.md)
-
-1. To turn off (disable) the insight cards, select the cards that have been turned on, and then select **Turn off cards**.
-
-    In this example, we've selected the cards **SuggestedContacts** and **Upcoming Flight**.
-
-    :::image type="content" source="media/si-admin-assistant-turn-off-cards.png" alt-text="Screenshot showing the cards selected to turn off":::
-
-1. To see a preview of a card, get more details about it&mdash;such as a description and the time it was last modified&mdash;or turn it on or off, select the card.
-
-    :::image type="content" source="media/si-admin-assistant-view-card-details.png" alt-text="Screenshot showing the details of a card":::
+    - **To see a preview of a card**, get more details about it&mdash;such as a description and the time it was last modified&mdash;or turn it on or off, select the card.  
+        :::image type="content" source="media/si-admin-assistant-view-card-details.png" alt-text="Screenshot showing the details of a card":::
 
     Sellers can also set their own personal preferences for their insight cards. They can't add cards that you disable here, but they can disable cards that you've enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. More information: [Turn on or off the insight cards](turn-on-off-insight-cards.md)
 
@@ -87,26 +85,18 @@ The premium assistant that's part of the Sales Premium license offers advanced c
 
 1. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
-1. On the site map under **Assistant**, select **Home**.
+1. On the site map under **Assistant studio**, select **Home**.
 
 1. On the **Home** tab (**Assistant Studio** page), you can perform actions as described in the following table.
 
-    :::image type="content" source="media/si-admin-assistant-full-studio-home-page.png" alt-text="Screenshot showing the home page of assistant studio":::
+    :::image type="content" source="media/si-admin-assistant-full-studio-home-page.svg" alt-text="Screenshot showing the home page of assistant studio":::
 
     | Number | Description |
     |--------|---------|
     | **1** | Create cards that are customized for your organization by using Power Automate. More information: [Creating custom insight cards](create-insight-cards-flow.md) |
-    | **2** | Quickly view cards by using tabs to view cards that are most popular, recently used, high in priority, and created by your organization. |
+    | **2** | Quickly view cards by using tabs to view cards that are most popular, recently used, high in priority, and created by your organization. Additionally, you can select the cards and turn on ot off as required. More information: [Turn cards on or off](edit-insight-cards.md#turn-cards-on-or-off) |
     | **3** | Table with card details displays the cards that are available in your organization. More information: [Edit insight cards](edit-insight-cards.md) |
-    | **4** | Search for cards that you want to view or manage. |
-
-1. On the **Optimize ranking** tab, you can create rules to prioritize cards to appear in the application.
-
-    The following is an example of the **Optimize ranking** tab:
-
-    :::image type="content" source="media/si-admin-assistant-optimize-ranking.png" alt-text="Screenshot showing the tab for Optimize ranking":::
-
-    To learn more, see [Optimize ranking of insight cards](optimize-ranking-insight-cards.md).
+    | **4** | Search for cards that you want to view or manage. Select a security role to filter the displayed cards. More information: [Turn cards on or off for a security role](edit-insight-cards.md#turn-cards-on-or-off-for-a-security-role)   |
 
 ## Disable teasers
 

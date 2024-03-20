@@ -1,13 +1,16 @@
 ---
 title: Manage conditional workflows with sequences
-description: Manage sequences in sales accelerator by creating, activating, connecting, viewing details, cloning, editing, and deleting.
-ms.date: 03/15/2024
+description: Manage conditional workflows with sequences. Help sales managers enforce best practices and prioritize activities for sellers.
+ms.date: 03/29/2024
 ms.topic: overview
 author: udaykirang
 ms.author: udag
-ms.owner: shujoshi
-ms.custom: bap-template
-
+ms.reviewer: shujoshi
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:03/19/2024
 ---
 # Manage conditional workflows with sequences
 
