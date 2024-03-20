@@ -1,7 +1,7 @@
 ---
-title: Manage fields Copilot uses for case summaries and emails
+title: Manage fields Copilot uses for case summaries
 
-description: Learn how to modify Copilot's default attributes to generate more accurate summaries and draft emails. 
+description: Learn how to modify Copilot's default attributes to generate more accurate summaries. 
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: shujoshi 
@@ -15,7 +15,7 @@ ms.custom:
   - ai-seo-date:10/13/2023
 ---
 
-# Manage fields Copilot uses for case summaries and emails
+# Manage fields Copilot uses for case summaries 
 
 You can modify the source case fields that Copilot uses to generate summaries or draft emails, thereby improving the context and accuracy of the results. You can also select a custom field that Copilot should use to generate responses.
 
