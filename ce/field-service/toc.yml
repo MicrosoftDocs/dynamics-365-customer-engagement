@@ -91,6 +91,8 @@ items:
 
 - name: Copilot in Field Service
   items:
+    - name: Copilot side pane
+      href: copilot-side-pane.md
     - name: Work order recap with copilot
       href: work-order-recap.md
     - name: Work order update
