@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Provision unified routing for Customer Service
 
-Perform the steps mentioned in this topic to provision unified routing in Customer Service. By default, unified routing is not enabled.
+Perform the steps mentioned in this topic to provision unified routing in Customer Service. By default, unified routing is not enabled if Customer Service only is installed.
 
 ## Prerequisites
 
