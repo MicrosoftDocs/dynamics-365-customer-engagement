@@ -10,19 +10,39 @@ ms.reviewer: mhart
 
 # License compliance overview
 
-The solution checker in Power Apps lets makers verify that they have the appropriate license for the Dynamics 365 tables, operations, messages, and controls that are used across solutions. This feature helps provide clarity and accountability for businesses using Dynamics 365. Ensuring license compliance for Dynamics 365 apps provides makers and administrators with essential tools for self-management and improved licensing visibility to mitigate potential compliance risks.
-
-For more information about the Dynamics 365 licenses and entitlements, see the [Licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
-
-## Use solution checker to validate your solutions
-
-The license checking rules are part of the Power Apps solution checker. As an administrator or customizer (maker), run the solution checker on your solutions before deploying them and regularly thereafter. Solution checker is an existing Power Apps capability empowering makers to analyze their solutions, and list potential issues and patterns against a predefined set of rules. It helps makers verify if a solution is accessing components that require a Dynamics 365 license to drive clarity around required licenses.
+[Solution checker](/power-apps/maker/data-platform/use-powerapps-checker) is an existing Power Apps capability that gives makers the ability to analyze their solutions, identifying potential issues and patterns against a predefined set of rules. With the latest enhancements, this tool now empowers makers to pinpoint tables, SDK operations, and UI controls requiring a Dynamics 365 license through a newly introduced category named "license." The license-checking rules are not aware of user licenses within your organization. Instead, solution checker simply verifies the presence of any Field Service-related components in your solution that require a Dynamics 365 license. Should your users possess the appropriate license, you may disregard the messages from the solution checker. However, if your users lack the necessary license, your options include acquiring the license or removing the flagged components from your solution. .
 
 [Learn more about solution checker and how to run it](/power-apps/maker/data-platform/use-powerapps-checker).
 
-The license checking rules don't have access to the licenses in your organization. They check for the presence of any Field Service-related tables, operations, messages, and controls in your solution that require a Dynamics 365 license, regardless of whether you have the license or not. If you have the appropriate license, you can safely ignore the messages from the solution checker. If you don't have the appropriate license, either buy it or remove the flagged tables, operations, messages, and controls from your solution.
+For more information about the Dynamics 365 licenses and entitlements, see the [Licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
-For more information, see [Objects validated by the solution checker](license-compliance-field-service.md).
+## Field Service rules  
+
+The rules provided below highlight those that are specific to Field Service. For more information on the tables, operations and UI controls, see [Objects validated by the solution checker](license-compliance-field-service.md).
+
+### meta-license-fieldservice-sdkmessages
+
+This rule runs on your solutions and checks for the plugin registrations with restricted SDK messages/operations that require an appropriate Dynamics 365 license.
+
+### Recommendation
+
+Ensure that you have the appropriate Dynamics 365 license to use the restricted SDK messages or remove them from your solution. For a list of SDK messages that require a Dynamics 365 license.
+
+### meta-license-fieldservice-entity-operations
+
+This rule runs on your solution and checks for the presence of tables with restricted SDK messages/operations that require a Dynamics 365 license.
+
+### Recommendation
+
+Ensure that you have the appropriate Dynamics 365 license to use the restricted operations on the tables or remove them from your solution. For a list of tables and operations that require a Dynamics 365 license. 
+
+### meta-license-fieldservice-customcontrols
+
+This rule runs on your solution and checks for the presence of the controls that require a Dynamics 365 Field Service license. 
+
+### Recommendation
+
+Ensure that you have the appropriate Dynamics 365 Field Service license to use the restricted controls or remove them from your solution. For a list of controls that require a Dynamics 365 Field Service license.
 
 ## See also
 
