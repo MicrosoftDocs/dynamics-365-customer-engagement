@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: 
 ms.topic: conceptual
 ms.collection: bap-ai-copilot
-ms.date: 03/11/2024
+ms.date: 03/22/2024
 ms.custom: bap-template 
 ---
 
@@ -19,12 +19,12 @@ When you draft customer emails, Copilot can offer suggestions to make them clear
 
   ### [Draft an email in the rich text editor](#tab/richtexteditor)
 
-    :::image type="content" source="../media/draft-an-email-inline-mini.svg" alt-text="Screenshot of draft an email in rich text editor." lightbox="../media/draft-an-email-inline.svg":::
+    :::image type="content" source="../media/draft-an-email-inline.svg" alt-text="Screenshot of draft an email in rich text editor.":::
 
 
   ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
 
-    :::image type="content" source="../media/draft-an-email-sidepane-mini.svg" alt-text="Screenshot of draft an email in the side pane." lightbox="../media/draft-an-email-sidepane.svg":::
+    :::image type="content" source="../media/draft-an-email-sidepane.svg" alt-text="Screenshot of draft an email in the side pane." :::
 
    ---
 
@@ -78,12 +78,12 @@ To return to the prompts, select **Start over** at the bottom of the Copilot pan
 
 ### [Draft an email in the rich text editor](#tab/richtexteditor)
 
-   :::image type="content" source="../media/copilot-draft-inline-mini.svg" alt-text="Screenshot of composing an email in rich text editor." lightbox="../media/copilot-draft-inline.svg"::: 
+   :::image type="content" source="../media/copilot-draft-inline.svg" alt-text="Screenshot of composing an email in rich text editor."::: 
 
 
 ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
 
-   :::image type="content" source="../media/copilot-draft-sidepane-mini.svg" alt-text="Screenshot of composing an email in the side pane." lightbox="../media/copilot-draft-sidepane.svg"::: 
+   :::image type="content" source="../media/copilot-draft-sidepane.svg" alt-text="Screenshot of composing an email in the side pane." ::: 
 
   
   ---
