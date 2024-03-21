@@ -41638,13 +41638,17 @@
                                 <g
                                    data-stacking-layer="rootBackgroundAndBorders"
                                    id="g1234">
+                                <g
+                                   id="g22"
+                                   transform="matrix(0.63070286,0,0,0.63070286,799.52832,17.733649)">
                                 <rect
-                                   width="340.00"
+                                   width="340"
                                    height="1269.98"
-                                   x="2165.00"
+                                   x="2165"
                                    y="48.02"
-                                   fill="rgb(250, 249, 248)"
+                                   fill="#faf9f8"
                                    id="rect1234" />
+                                </g>
                                 <line
                                    stroke-linecap="square"
                                    stroke="rgb(225, 223, 221)"
@@ -46946,4 +46950,11 @@ font-family: &quot;ＭＳ Ｐ明朝&quot;;
 src: local(&quot;ＭＳ Ｐ明朝&quot;);			
 }
     </style>
+  <rect
+     style="fill:#ffffff"
+     id="rect22"
+     width="130.77721"
+     height="32.694302"
+     x="2189.886"
+     y="926.57251" />
 </svg>
