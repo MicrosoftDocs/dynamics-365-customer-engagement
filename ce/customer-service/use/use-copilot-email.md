@@ -90,3 +90,15 @@ To return to the prompts, select **Start over** at the bottom of the Copilot pan
 
   
   ---
+
+## Next Step
+
+
+
+[Use Copilot to solve customer issues](use-copilot-features.md)
+
+### See also
+
+[Enable Copilot to draft emails](../administer/copilot-email-enable.md)
+[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
+[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md) 

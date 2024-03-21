@@ -70,3 +70,14 @@ In Customer Service admin center, go to **Copilot help pane** and perform the st
 > [!NOTE]
 > - You can modify the source fields that Copilot uses to draft emails in the Copilot help pane only and not in the rich text editor.
 > - You can't modify the Case Notes and Email Content field values that Copilot uses to draft emails.
+
+## Next Step
+
+[Write an email with Copilot](../use/use-copilot-email.md)
+
+### See also
+
+[Understand Copilot language support](copilot-language-support.md)
+[Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  
+[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
+[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md) 
