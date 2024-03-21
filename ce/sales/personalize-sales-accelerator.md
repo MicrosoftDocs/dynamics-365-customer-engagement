@@ -3,6 +3,7 @@ title: Personalize sales accelerator settings
 description: Use personal settings to determine how activities are scheduled based on work availability and decide what happens when an activity is complete.
 author: udaykirang
 ms.author: udag
+ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.date: 03/15/2023
 ms.custom: bap-template 
@@ -44,6 +45,7 @@ Depending on the license you have in the organization, you use one of the follow
 >- Verify that the administrator has enabled the option to configure your availability: 
 >    - Through sequence settings. More information: [Seller availability](customize-sales-accelerator-sellers.md#seller-availability)
 >    - Through sales accelerator configuration. More information: step 4 in [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md)
+>- Starting from  April 1, 2024, you can't set the seller's availability through Outlook. More information: [Deprecation of setting seller availability using Outlook calendar](deprecations-sales.md#set-seller-availability-using-outlook-calendar)
 
 ### Through work list settings (Sales Premium)<a name="through-work-list-settings"></a>
 
@@ -58,11 +60,6 @@ Depending on the license you have in the organization, you use one of the follow
 
     >[!div class="mx-imgBorder"]
     >![Select Availability under Personal settings.](media/sa-personal-settings-select-availability-settings.png "Select Availability under Personal settings")      
-
-    >[!NOTE]
-    >If your administrator has chosen the Outlook calendar option, a message is displayed to configure your work availability through Outlook.
-    >![Configure your work availability through Outlook message.](media/sa-personal-settings-select-availability-settings-outlook.png "Configure your work availability through Outlook message.")    
-    >Go to your Outlook calendar, set your work hours and vacation days, and then save the calendar events. Your availability will be automatically updated in the Dynamics 365 application calendar.
 
 4. Select **New**, and choose an option to configure your calendar according to your requirements:
 
@@ -123,11 +120,6 @@ Depending on the license you have in the organization, you use one of the follow
     > [!div class="mx-imgBorder"]
     > ![Work availability calendar page.](media/sales-accelerator-work-availability-calendar.png "Work availability calendar page")
 
-    >[!NOTE]
-    >If your administrator has chosen the **Outlook** option, a message is displayed to configure your work availability through your Outlook calendar.     
-    >![Configure your work availability through Outlook message.](media/sa-personal-settings-select-availability-settings-outlook.png "Configure your work availability through Outlook message.")    
-    >Go to your Outlook calendar, set your work hours and vacation time, and then save the calender events. Your availability will be automatically updated in the Dynamics 365 application calendar.
-
 3.	Configure your calendar according to your requirements as described in step 4 of the [Through work list settings](#through-work-list-settings) section, earlier in this topic.     
 
 ## Configure the auto advance steps
@@ -138,7 +130,7 @@ The **Auto advance** settings specify the next course of action to take when you
 2.	In the work list, select the settings icon.   
     >[!div class="mx-imgBorder"]
     >![Select settings in the work list to configure Auto advance steps.](media/sa-personal-settings-select-settings-icon-worklist.png "Select settings in the work list to configure Auto advance steps.")      
-3.	On the **Personal settings** page, select **Auto advance**.      
+3.	On the **Personal settings** page, select **Auto advance**.   
     >[!div class="mx-imgBorder"]   
     >![Select Auto advance settings.](media/sa-personal-settings-auto-advance-settings.png "Select Auto advance settings.")      
 
