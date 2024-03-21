@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 02/10/2024
+ms.date: 03/22/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -60,57 +60,6 @@ After a customer conversation has ended, or if you want Copilot to disregard the
 ### Provide feedback
 
 To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
-
-## Draft emails 
-
-With Copilot, you can draft email replies to customers quickly and be more effective in solving customer issues. 
-
-:::image type="content" source="../media/copilot-email-draft.png" alt-text="Screenshot of the Copilot Write an email tab.":::
-
-### Write an email with Copilot
-
-When you open an email, and open the Copilot pane, you can use the **Write an email** tab to draft a response. You can also use Copilot to respond to an email inline in the rich text editor. 
-
-### Use prompts
-
-- **Suggest a call**: Drafts a reply that suggests a call with the customer the same day or the next day.
-- **Request more information**: Drafts a reply that requests more details from the customer to help resolve the problem.
-- **Empathize with feedback**: Drafts a reply that provides an empathetic response to a customer who expresses a complaint.
-- **Provide product/service details**: Drafts a reply that offers details or answers customer questions about a particular product or service.
-- **Resolve the customer's problem**: Drafts a reply that provides a resolution&mdash;and resolution steps, if applicable&mdash;to the customer's problem.
-
-> [!NOTE]
-> The **Provide product/service details** and **Resolve the customer's problem** prompts only use context from case, email, and knowledge base articles to generate email responses. 
-
-- **Custom**: Allows you to provide your own prompt for the reply.
-
-### How Copilot uses knowledge base and web sources
-
-If your agent has enabled Knowledge sources and set up trusted domains, Copilot uses internal knowledge base sources and searches the internal knowledge base and up to five trusted domains to produce the result. You can see the knowledge sources used to generate the email in **Check sources**.
-
-Select **Filters** to choose the only the relevant knowledge articles that Copilot must use to generate the response.
-
-### Review suggested replies
-
-When you select one of the prompts, Copilot generates a suggested reply. *Always review the response.* If any knowledge articles were used to generate the response, you can select **Check sources** to see articles which Copilot drew the response. 
-
-### Refine replies
-
-If Copilot's response isn't immediately useful, you can ask follow-up questions and guide Copilot in a natural, conversational way. You can ask up to five follow-up questions. If your administrator has enabled knowledge base, Copilot will use those sources to refine the responses.
-
-You can also select **Adjust** to change the length and tone of the response.
-
-### Translate the response
-
-Select **Translate** to see translate the email response to a customer's language. Select **Show original** to see the response in its original language.
-
-### Use the responses
-
-To use the draft that Copilot has generated, select **Keep it** in the rich text editor or select **Copy** and then paste it to the email if you're using the feature from the Copilot pane. 
-
-### Start over
-
-To return to the choice of six prompts, select **Start over** at the bottom of the Copilot pane.
 
 ## Draft a chat response (Preview)
 
