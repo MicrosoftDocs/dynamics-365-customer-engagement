@@ -42,7 +42,9 @@ When you use Copilot to draft an email, you can use the following features to he
 - **Custom**: Allows you to provide your own prompt for the reply.
 
 > [!NOTE]
-> If your administrator has not enabled knowledge base, you will see the **Suggest a call**, **Request more information**, **Empathize with feedback**, and **Custom** prompts only.
+> - If your administrator has not enabled knowledge base, you will see the **Suggest a call**, **Request more information**, **Empathize with feedback**, and **Custom** prompts only.
+> - If you haven't specified anything in the **Regarding** field, you will see the **Suggest a call**, **Empathize with feedback**, and **Custom** prompts only.
+
 
 ### Use filters
 
