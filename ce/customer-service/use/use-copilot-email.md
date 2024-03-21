@@ -20,14 +20,14 @@ When you draft customer emails, Copilot can offer suggestions to make them clear
 
   ### [Draft an email in the rich text editor](#tab/richtexteditor)
 
-    :::image type="content" source="../media/draft-an-email-inline.svg" alt-text="Screenshot of draft an email in rich text editor.":::
+   :::image type="content" source="../media/draft-an-email-inline.svg" alt-text="Screenshot of draft an email in rich text editor.":::
 
 
   ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
 
-    :::image type="content" source="../media/draft-an-email-sidepane.svg" alt-text="Screenshot of draft an email in the side pane." :::
+   :::image type="content" source="../media/draft-an-email-sidepane.svg" alt-text="Screenshot of draft an email in the side pane." :::
 
-   ---
+  ---
 
 ## Use Copilot to draft an email
 
