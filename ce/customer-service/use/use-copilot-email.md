@@ -52,14 +52,14 @@ You can select **Filters** to choose only the relevant knowledge articles that C
 
 ### How Copilot uses knowledge base and web sources
 
-If your administrator has enabled knowledge sources and set up trusted domains, the following actions occur:
+If your administrator enabled knowledge sources and set up trusted domains, the following actions occur:
 -  Copilot uses internal knowledge base sources and searches the internal knowledge base and up to five trusted domains to generate email drafts. 
 - The application displays the knowledge sources used to generate the draft when you select **Check sources**.
 - When you use a custom prompt to further refine the response, the application displays the **Use knowledge base** toggle that's set to **On**. You can switch the toggle to **Off** to disable knowledge base sources.
 
 ### Review suggested replies
 
-When you select one of the predefined prompts, Copilot generates a suggested reply and it's displayed on the UI incrementally. You can also see the inline citations that show the knowledge base or website links from which Copilot drew the response. When you hover over the citation, you can see an inline link to the source.*Always review the response.* You can select **Stop Responding** to stop Copilot from generating the email draft if it isn't accurate. The application displays the prompts for you to start over. 
+When you select one of the predefined prompts, Copilot generates a suggested reply and it's displayed on the UI incrementally. You can also see the inline citations that show the knowledge base or website links from which Copilot drew the response. When you hover over the citation, you can see an inline link to the source. *Always review the response.* You can select **Stop Responding** to stop Copilot from generating the email draft if it isn't accurate. The application displays the prompts for you to start over. 
 
 ### Use follow-up prompts
 
