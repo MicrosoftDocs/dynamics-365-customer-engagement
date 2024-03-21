@@ -1,10 +1,12 @@
 ---
-title: "Bot sessions and licensing | MicrosoftDocs"
-description: "Use this article to learn about bot sessions and licensing in Omnichannel for Customer Service."
-ms.date: 11/18/2022
+title: Bot sessions and licensing
+description: Use this article to learn about bot sessions and licensing in Omnichannel for Customer Service.
+ms.date: 03/21/2024
 author: neeranelli
 ms.author: nenellim
-ms.collection: get-started
+ms.topic: conceptual
+ms.custom: bap-template
+ms.collection:
 ---
 
 # Bot sessions and licensing
