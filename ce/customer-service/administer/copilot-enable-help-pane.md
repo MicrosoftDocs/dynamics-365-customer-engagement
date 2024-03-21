@@ -42,22 +42,26 @@ Select **Make Copilot available to agents** in the **Copilot help pane** page of
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
-For customer chat** in the **Copilot help pane** page of Customer Service admin center. The one-click response generation button appears on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane in Customer Service workspace. Copilot retrieves the context and drafts the response based on the knowledge resources configured for your organization.
+Select **For customer chat** in the **Copilot help pane** page of Customer Service admin center. The one-click response generation button appears on both the communication panel for a conversation and on the **Ask a question** tab on the Copilot help pane in Customer Service workspace. Copilot retrieves the context and drafts the response based on the knowledge resources configured for your organization.
 
 ## Configure knowledge sources
 
 You can configure the following knowledge sources for Copilot to generate responses.
 
-### Enable knowledge base
+### Prerequisites
 
-Select **Knowledge base** to allow Copilot to utilize internal knowledge base resources for generating responses. This will be used for the 'ask a question' and 'draft an email' features, both in the Copilot help pane and the rich text editor. By default, this option is disabled.
-
-Make sure that you have [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) configured in your environment and your knowledge article parameters are as follows:
+Make sure that you have [knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) configured in your environment and your knowledge article parameters are as follows:
    - Updated with the latest version
    - The state is set to Published
- > [!NOTE]
- > - Copilot uses the content attribute only in knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
-> - Even if you've disabled this option, agents will be able to use Copilot to draft an email using the **Suggest a call**, **Request more information**, **Empathize with feedback** and **Custom** prompts.
+
+> [!NOTE]
+ > Copilot uses the content attribute only in knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
+
+### Enable knowledge base
+
+Select **Knowledge base** to allow Copilot to utilize internal knowledge base resources for generating responses. This will be used for the ask a question and draft an email features, both in the Copilot help pane and the rich text editor. By default, this option is disabled.
+
+If you've disabled the knowledge base option, agents will be able to use Copilot to draft an email using the **Suggest a call**, **Request more information**, **Empathize with feedback** and **Custom** prompts.
 
 ### Add trusted webpages as sources
 

@@ -1,7 +1,7 @@
 ---
 title: Manage fields Copilot uses for case summaries
 
-description: Learn how to modify Copilot's default attributes to generate more accurate summaries. 
+description: Learn how to modify the default attributes that Copilot uses to generate more accurate summaries. 
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: shujoshi 

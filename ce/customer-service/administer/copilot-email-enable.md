@@ -11,20 +11,20 @@ ms.custom: bap-template
 
 # Enable Copilot to draft emails 
 
-Agents can draft emails faster with Copilot. You can enable agents to use Copilot to draft emails in the Copilot side pane or inline from the rich text editor. 
+Agents can draft emails faster with Copilot. Agents can draft emails in the Copilot side pane or inline from the rich text editor. 
 
 ## Prerequisites
 
 - [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) in Power Platform admin center if your environment doesn't have United States, India, Australia, and United Kingdom as the geography for data processing and storage.
 - [Opt in to AI terms to continue with Copilot setup](configure-copilot-features.md#opt-in-to-continue-with-copilot-setup) in Customer Service admin center.
 
-## Regional availability
+## Region availability
 
-The draft an email feature is available in the Copilot help pane and rich text editor by default in the United States, India, Australia, and United Kingdom. You don't have to enable the draft an email feature in these regions. For other regions, you must perform the steps in the following sections for Copilot to assist agents with composing emails.
+The draft an email feature is enabled by default in the Copilot help pane and rich text editor by default in the United States, India, Australia, and United Kingdom. For other regions, you must perform the steps in the following sections for Copilot to assist agents with composing emails.
 
 ## Enable knowledge sources for Copilot to draft emails
 
-By default, using knowledge sources to draft emails is disabled. If you want Copilot to use knowledge articles or trusted websites to draft emails, you must [enable knowledge sources for Copilot](copilot-enable-help-pane.md#enable-knowledge-base). 
+By default, the option to use knowledge sources to draft emails is disabled. If you want Copilot to use knowledge articles or trusted websites to draft emails, you must [enable knowledge sources for Copilot](copilot-enable-help-pane.md#enable-knowledge-base).
 
 
 ## Enable draft an email in the rich text editor
@@ -39,7 +39,7 @@ For your agents to use the write an email feature inline in the rich text editor
 
 ### Rich text editor version support
 
-The Copilot control for rich text editors is available only for RTE v2.
+The Copilot control for rich text editors is available only for the latest version of the rich text editor.
 
 ## Enable write an email in the side pane
 
@@ -54,7 +54,7 @@ To enable your agents to use the write an email feature from the Copilot side pa
 
 ### Modify the fields used to draft emails
 
-You can modify the source case fields that Copilot uses to draft emails, improving the context and accuracy of the results. You can also select a custom field that Copilot should use to generate responses.
+You can modify the source case fields that Copilot uses to draft emails and improve the context and accuracy of the results. You can also select a custom field that Copilot uses to generate responses.
 
 Copilot uses the following out-of-the-box case fields to draft emails:
 
@@ -68,5 +68,5 @@ Copilot uses the following out-of-the-box case fields to draft emails:
 In Customer Service admin center, go to **Copilot help pane** and perform the steps in the [Modify the fields used to generate case summaries](copilot-map-custom-fields.md#modify-the-fields-used-to-generate-case-summaries) section to modify the source fields that Copilot uses to draft emails.
 
 > [!NOTE]
-> - You can modify the source fields that Copilot uses to draft emails only in the Copilot help pane. You can't modify the source fields that Copilot uses to draft emails in the rich text editor.
+> - You can modify the source fields that Copilot uses to draft emails in the Copilot help pane only and not in the rich text editor.
 > - You can't modify the Case Notes and Email Content field values that Copilot uses to draft emails.

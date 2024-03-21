@@ -11,10 +11,12 @@ ms.custom: bap-template
 
 # Write an email with Copilot
 
-When you draft customer emails, Copilot can offer suggestions to make them clearer, more concise, and more compelling. Based on your administrator's settings, you can launch the **Write an email** feature in Copilot as follows:
+When you draft customer emails, Copilot can offer suggestions to make them clearer, concise, and compelling. Based on your administrator settings, you can launch the **Write an email** feature in Copilot as follows:
 
 - When you respond to an email in the rich text editor, select the Copilot control to view the capabilities inline.
 - When you open an email, and select the **Copilot** option from the side pane. The **Write an email** tab appears.
+
+*Always review the response* Copilot generates before you send the email to the customer.
 
   ### [Draft an email in the rich text editor](#tab/richtexteditor)
 
@@ -47,7 +49,7 @@ When you use Copilot to draft an email, you can use the following features to he
 
 ### Use filters
 
-You can select **Filters** to choose only the relevant knowledge articles that Copilot must use to generate the response.
+You can select **Filters** to choose the relevant knowledge articles only that Copilot must use to generate the response.
 
 ### How Copilot uses knowledge base and web sources
 
@@ -58,11 +60,11 @@ If your administrator enabled knowledge sources and set up trusted domains, the 
 
 ### Review suggested replies
 
-When you select one of the predefined prompts, Copilot generates a suggested reply and it's displayed on the UI incrementally. You can also see the inline citations that show the knowledge base or website links from which Copilot drew the response. When you hover over the citation, you can see an inline link to the source. *Always review the response.* You can select **Stop Responding** to stop Copilot from generating the email draft if it isn't accurate. The application displays the prompts for you to start over. 
+When you select one of the predefined prompts, Copilot generates a suggested reply that's displayed on the UI incrementally. You can also see the inline citations that show the knowledge base or website links from which Copilot drew the response. When you hover over the citation, you can see an inline link to the source. You can select **Stop Responding** to stop Copilot from generating the email draft. The application displays the prompts for you to start over. 
 
 ### Use follow-up prompts
 
-If Copilot's response isn't immediately useful, you can use follow-up custom prompts and guide Copilot in a natural, conversational way. You can refine the email draft using up to five prompts. If your administrator has enabled knowledge base, Copilot will also use those sources.
+If you aren't satisfied with Copilot's response, you can use follow-up custom prompts and guide Copilot in a natural, conversational way. You can use up to five prompts at a time to refine the email draft. If your administrator has enabled knowledge base, Copilot will also use those sources.
 
 ### Use the responses
 
@@ -70,7 +72,7 @@ To use the draft that Copilot generates, do the following actions:
 - In the rich text editor, select **Keep it**. You'll see the draft in the rich text editor that you can use as-is or further edit before sending it to the customer.
 - In the Copilot pane, you can:
     - Select **Edit** to further refine the response.
-    - Select **Copy** to copy the response and then paste it to the email body.
+    - Select **Copy** to copy the response and then paste it in the email body.
 
 ### Start over
 
