@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing.
-ms.date: 01/31/2024
+ms.date: 03/21/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -36,7 +36,6 @@ For digital messaging and voice, the default block size is 100 work items of top
 For the records channel,
 - The number of work items prioritized per queue are 10,000 
 - The number of work items processed for assignment are 2,000 by default
-- The block size per trigger is 500 by default
 
 > [!NOTE]
 > Cross-queue prioritization isn't available in unified routing.
