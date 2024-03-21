@@ -67,7 +67,7 @@ If Copilot's response isn't immediately useful, you can use follow-up custom pro
 
 ### Use the responses
 
-To use the draft that Copilot has generated, do the following:
+To use the draft that Copilot generates, do the following actions:
 - In the rich text editor, select **Keep it**. You'll see the draft in the rich text editor that you can use as-is or further edit before sending it to the customer.
 - In the Copilot pane, you can:
     - Select **Edit** to further refine the response.
