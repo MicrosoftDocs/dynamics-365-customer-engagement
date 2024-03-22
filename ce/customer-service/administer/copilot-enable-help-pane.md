@@ -46,7 +46,7 @@ Select **For customer chat** in the **Copilot help pane** page of Customer Servi
 
 ## Configure knowledge sources
 
-You can configure the following knowledge sources for Copilot to generate responses.
+You can configure the knowledge base for Copilot to generate responses.
 
 ### Prerequisites
 
@@ -55,7 +55,7 @@ Make sure that you have [knowledge management](set-up-knowledge-management-embed
    - The state is set to Published
 
 > [!NOTE]
- > Copilot uses the content attribute only in knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
+ > Copilot uses the content attribute only in the knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
 
 ### Enable knowledge base
 

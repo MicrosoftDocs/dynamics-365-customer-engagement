@@ -39,7 +39,7 @@ For your agents to use the write an email feature inline in the rich text editor
 
 ### Rich text editor version support
 
-The Copilot control for rich text editors is available only for the latest version of the rich text editor.
+The Copilot control for rich text editors is available only for version two of the rich text editor.
 
 ## Enable write an email in the side pane
 
@@ -79,5 +79,5 @@ In Customer Service admin center, go to **Copilot help pane** and perform the st
 
 [Understand Copilot language support](copilot-language-support.md)
 [Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  
-[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
 [FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md) 
+[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
