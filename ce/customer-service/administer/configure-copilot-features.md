@@ -115,7 +115,6 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvWritemsdyn_copilotagentpreference
 - prvReadmsdyn_appcopilotconfiguration
 - prvReadmsdyn_agentcopilotsetting
-- prvReadmsdyn_aiconfiguration
 - prvReadmsdyn_aimodel
 - prvReadmsdyn_aitemplate
 - prvReadmsdyn_copilotsummarizationsetting 
