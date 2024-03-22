@@ -288,8 +288,8 @@
           href: use-copilot-features.md#ask-a-question
         - name: Draft a chat response (preview)
           href: use-copilot-features.md#draft-a-chat-response-preview
-        - name: Draft emails
-          href: use-copilot-features.md#draft-emails
+        - name: Write an email with Copilot
+          href: use-copilot-email.md
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
         - name: View analytics for Copilot impact
