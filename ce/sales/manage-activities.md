@@ -1,10 +1,11 @@
 ---
 title: Track and manage activities
 description: Track and manage customer communications with Sales activities such as emails, phone calls, tasks, and appointments.
-ms.date: 02/28/2023
+ms.date: 03/22/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: shujoshi
 ms.custom: 
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -16,6 +17,7 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
+
 # Track and manage activities 
 
 In Dynamics 365 Sales, you use activities to plan, track, and organize all your customer communications. For example, you can take notes, send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale or resolve a service case. These actions are all considered types of activities.
@@ -34,9 +36,6 @@ To get the most out of Dynamics 365 Sales, it's important for everyone in the or
 ## Find your activities
 
 You can find your activities under **My Work** in the site map. 
-
-> [!div class="mx-imgBorder"] 
-> ![Activities link in the site map.](media/activities-in-sitemap.png "Activities link in the site map")
 
 ## See activities in List, Calendar, or Kanban view
 
@@ -63,8 +62,6 @@ You can see the activities in three different views:
     > [!div class="mx-imgBorder"]  
     > ![Activities in the Kanban view.](media/activities-kanban-view.png "Activities in the Kanban view") 
 
-
-
 ## Change your activities view
 
 You can use views to see the activities you want. For example, you can use the **My Activities** view to see activities assigned to you and **My Team Members' Activities** view to see your team's activities. 
@@ -76,20 +73,13 @@ You can use views to see the activities you want. For example, you can use the *
 
 You can filter the list of activities to see only the ones you're interested in. For example, you can further limit the activities you are seeing in a view by using the activity type filter. The activity type filter allows you to filter activities based on the type, such as email, task, phone call, and so on.
 
-> [!div class="mx-imgBorder"] 
-> ![Activity type filter.](media/activity-type-filter.png "Activity type filter")
-
 You can also use the **Due** filter to see the activities that are due in a specified time, such as activities that are due today or earlier or activities that are due in the next seven days or earlier.
-
-> [!div class="mx-imgBorder"] 
-> ![Due filter.](media/due-filter-activity.png "Due filter")
 
 ## Create or edit a new activity
 
 You can create independent activities that aren't associated with any customer or sales record. To do so, in the site map, select **Activities** and then on the command bar, select **Email** or **Phone Call** or **Task**, depending on which activity you want to create.
 
 Or, to edit an existing activity record, open the activity by selecting its title.
-
 
 > [!NOTE]
 > With the April 2020 release of Dynamics 365 Sales, when you create or edit a new activity, the record opens in a Main form dialog. A Main form dialog is a Main form opening in a dialog (a pop-up window). Main form dialogs allow you to stay in context while working on one record with the ability to open a second or third record in dialog experience. This makes it easier to edit the records.
@@ -114,9 +104,9 @@ Otherwise, to keep a history of your interactions with a customer, you should ad
   
 **To add an activity for yourself:**
 
-1.  On the navigation bar, select **Create** and then select the icon or tile for the activity.  
+1. On the navigation bar, select **Create** and then select the icon or tile for the activity.  
   
-2.  Fill in the fields and then select **Save**.  
+2. Fill in the fields and then select **Save**.  
   
 ## Attach a document  
 
@@ -153,9 +143,9 @@ After you call someone, complete a task, send an email, or go to an appointment,
   
 ## Mark several activities complete at the same time  
 
-1.  On the list of activities, select all the activities that you want to mark complete.  
+1. On the list of activities, select all the activities that you want to mark complete.  
   
-2.  On the command bar, select **Mark Complete**.  
+2. On the command bar, select **Mark Complete**.  
   
 ## Best practices for activities  
 
