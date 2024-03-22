@@ -268,7 +268,7 @@
           href: oc-smart-assist.md
         - name: View the agent calendar
           href: use-agent-calendar.md
-        - name: Use agent diagnostics as a self-help tool (preview)
+        - name: Use agent diagnostics as a self-help tool
           href: use-agent-diagnostics.md
         - name: Use agent scripts for customer interactions
           href: oc-agent-scripts.md
@@ -288,8 +288,8 @@
           href: use-copilot-features.md#ask-a-question
         - name: Draft a chat response (preview)
           href: use-copilot-features.md#draft-a-chat-response-preview
-        - name: Draft emails
-          href: use-copilot-features.md#draft-emails
+        - name: Write an email with Copilot
+          href: use-copilot-email.md
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
         - name: View analytics for Copilot impact

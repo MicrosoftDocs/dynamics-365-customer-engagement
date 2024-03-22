@@ -1,5 +1,20 @@
 {
   "redirections": [
+   {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/use-postman-web-api.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/insomnia",
+      "redirect_document_id": "false"
+   },
+   {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/use-postman-perform-operations.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/insomnia",
+      "redirect_document_id": "false"
+   },
+   {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/setup-postman-environment.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/insomnia",
+      "redirect_document_id": "false"
+   },
     {
       "source_path": "ce/customer-service/implement/introduction-customer-service-analytics.md",
       "redirect_url": "/dynamics365/customer-service/administer/configure-customer-service-analytics-insights-csh",
