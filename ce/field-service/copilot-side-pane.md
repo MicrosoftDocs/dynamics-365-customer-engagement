@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE [preview-disclaimer](../includes/public-preview-banner.md)]
 
-Copilot is an next-generation AI assistant that helps you be more productive and efficient in your daily work the Dynamics 365 Field Service web app. Copilot can summarize information about your work order and service accounts, help you catch up on recent changes to your records, prepare for onsite visits, and answer questions about related information. It has a chat interface that dispatchers and technicians can use Copilot through conversation in natural language.
+Copilot is a next-generation AI assistant that helps you be more productive and efficient in your daily work the Dynamics 365 Field Service web app. Copilot can summarize information about your work order and service accounts, help you catch up on recent changes to your records, prepare for onsite visits, and answer questions about related information. It has a chat interface that dispatchers and technicians can use Copilot through conversation in natural language.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
@@ -31,7 +31,7 @@ An administrator has to enable the copilot feature for all users in the environm
 
 Use predefined prompts to get the most out of Copilot. The following list provides a quick reference to predefined prompts.
 
-- List open work orders for {service account name}.
+- List work orders for {service account name}.
 - Summarize work order {work order number}.
 - Who's the main contact for {service account name}?
 - When was the asset {asset name} last serviced?  
