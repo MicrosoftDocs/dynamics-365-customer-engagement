@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 02/19/2024
+ms.date: 03/22/2024
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
 ---
@@ -115,7 +115,6 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvWritemsdyn_copilotagentpreference
 - prvReadmsdyn_appcopilotconfiguration
 - prvReadmsdyn_agentcopilotsetting
-- prvReadmsdyn_aiconfiguration
 - prvReadmsdyn_aimodel
 - prvReadmsdyn_aitemplate
 - prvReadmsdyn_copilotsummarizationsetting 
