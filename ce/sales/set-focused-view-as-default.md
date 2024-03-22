@@ -63,4 +63,4 @@ Focused view is now set as the default view for the selected entity.
 ### See also
 
 [View and manage records in focused view](focused-view.md)  
-[Focused view FAQs](faq-sales.yml#focused-view)
+[Focused view FAQs](faq-focused-view.md)
