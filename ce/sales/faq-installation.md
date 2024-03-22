@@ -18,7 +18,7 @@ This article answers frequently asked questions about installation of Dynamics 3
 
 ## Why am I unable to install the Sales Professional app in my environment?
 
-Your environment might be one of the following because of which you are unable to install:  
+Your environment might be one of the following because of which you're unable to install:  
 
 - Has Dataverse only
 - Is a default environment
@@ -31,7 +31,7 @@ More information: [Create and manage environments in the Power Platform admin ce
 
 To access the Sales Professional app, make sure that the app is installed properly. More information: [Install the Sales Professional app](provision-sales-professional-instance.md)  
 
-Also, make sure that the you are added to the target environment and the Sales Professional app access security role is assigned to you.
+Also, make sure that you're added to the target environment and the Sales Professional app access security role is assigned to you.
 
 ## Why can't I see the What's new functionality in Unified Interface?
 
