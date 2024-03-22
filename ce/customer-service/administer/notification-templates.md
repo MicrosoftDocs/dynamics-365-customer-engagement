@@ -3,7 +3,7 @@ title: Manage notification settings and templates
 description: Manage notification settings and templates for optimal functioning and customizing of notifications for agents.
 author: neeranelli
 ms.author: nenellim
-ms.date: 10/16/2023
+ms.date: 03/22/2024
 ms.topic: article
 ms.custom:
   - ai-gen-docs-bap
@@ -30,8 +30,7 @@ Desktop notifications help ensure that agents won't miss any conversation reques
 - The agent is using two screens, and is on the screen that doesn't have either the Customer Service workspace or Omnichannel for Customer Service app.
 
 > [!Note]
-> - The **Always(preview)** option for **Show Desktop Notifications** is in preview. To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them).
-> - The legacy version of Microsoft Edge is not supported for desktop notifications.
+> The legacy version of Microsoft Edge is not supported for desktop notifications.
 
  > [!div class=mx-imgBorder]
  > ![Desktop notification.](../media/desktop-notification.png "Desktop notification")
@@ -159,7 +158,7 @@ The out-of-the-box templates are as follows.
    | General|Auto-accept voice/chat calls | This option is displayed only if **Auto-assign work items** is enabled. Set to **Yes** for an agent to automatically accept a conversation.| The default value is **No**. <br> **Note:** This setting is in preview. <br> More information: [Enable automatic acceptance of conversations](enable-auto-assign-conversations.md).|
    | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | The default value is **Accept** that changes to **Open** when the **Auto-assign work items** value is **Yes**. You can change the text as per your requirement. |
    | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to **Yes**, the default label for the button appears. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. The **Reject Button** is disabled when the **Auto-assign work items** value is **Yes**. |
-   | General | Show desktop notifications | Specify **Always(preview)** to show notifications always or **When app is in background** to show notifications only if the Customer Service workspace or Omnichannel for Customer Service is not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notifications](#desktop-notifications) and [Receive notifications when app is in background](../use/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
+   | General | Show desktop notifications | Specify **Always** to show notifications always or **When app is in background** to show notifications only if the Customer Service workspace or Omnichannel for Customer Service is not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notifications](#desktop-notifications) and [Receive notifications when app is in background](../use/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
 
     > [!div class=mx-imgBorder] 
     > ![Create notification template.](../media/notification-template-default-entity.png "Create notification template")
