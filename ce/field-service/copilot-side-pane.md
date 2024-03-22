@@ -9,9 +9,13 @@ ms.reviewer: mhart
 ms.collection: bap-ai-copilot
 ---
 
-# Use Copilot in the Dynamics 365 Field Service web application
+# Use Copilot in the Dynamics 365 Field Service web application (preview)
+
+[!INCLUDE [preview-disclaimer](../includes/public-preview-banner.md)]
 
 Copilot is an next-generation AI assistant that helps you be more productive and efficient in your daily work the Dynamics 365 Field Service web app. Copilot can summarize information about your work order and service accounts, help you catch up on recent changes to your records, prepare for onsite visits, and answer questions about related information. It has a chat interface that dispatchers and technicians can use Copilot through conversation in natural language.
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 ## Prerequisites
 
