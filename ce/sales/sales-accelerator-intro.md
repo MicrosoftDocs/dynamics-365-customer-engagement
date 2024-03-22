@@ -31,6 +31,6 @@ By using the Sales accelerator:
 ### See also
 
 [Enable and configure Sales accelerator](enable-configure-sales-accelerator.md)  
-[Sales accelerator FAQs](faqs-sales-insights.md#sales-accelerator)
+[Sales accelerator FAQs](faq-sales-accelerator.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
