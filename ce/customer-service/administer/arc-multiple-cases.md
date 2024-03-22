@@ -31,8 +31,6 @@ As an administrator, enable this feature to ensure that multiple cases (one for 
 
 ## Enable creation of multiple cases from an email sent to multiple mailboxes
 
-You can opt-in to enable the feature.
-
 1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
 1. Select **Solutions** > **Default Solution**.
 1. From **Objects**, select **Settings** > **Settings definition**.
