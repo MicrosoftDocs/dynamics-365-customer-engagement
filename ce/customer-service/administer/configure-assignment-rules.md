@@ -1,7 +1,7 @@
 ---
 title: Configure assignment methods for queues
 description: Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service.
-ms.date: 10/31/2023
+ms.date: 03/21/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -90,8 +90,7 @@ Follow the steps to create a custom assignment method:
    | ------------------ | --------------------------- | ------------- | ----------------------------------------- |
    | User skills        | Exact match                 |               | All skills                                |
    | Presence status    | Equals                      | Dynamic match | Conversation.Workstream.Allowed Presences |
-   | Available capacity | Is greater than             | Dynamic match | Conversation.Workstream.Capacity                                   |
-   |                    |                             |               |              |
+   | Available capacity | Is greater than             | Dynamic match | Conversation.Workstream.Capacity          |
 
    > [!NOTE]
    > If you want to define a condition on unit-based capacity of users, then use the Available capacity attribute only as suggested in the example. Use the "is greater than" operator to ensure that available capacity is more than the required capacity.
