@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in the Dynamics 365 Field Service web application
 description: Learn how to use Copilot to summarize records, catch up on recent changes, and prepare for onsite jobs.
-ms.date: 03/20/2024
+ms.date: 03/22/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -11,15 +11,15 @@ ms.collection: bap-ai-copilot
 
 # Use Copilot in the Dynamics 365 Field Service web application
 
-Copilot is an AI assistant that helps you be more productive and efficient in your daily work the Dynamics 365 Field Service web app. Copilot can summarize information about your work order and service accounts, help you catch up on recent changes to your records, prepare for onsite visits, and answer questions about related information. It has a chat interface that dispatchers and technicians can use to talk to Copilot.
+Copilot is an next-generation AI assistant that helps you be more productive and efficient in your daily work the Dynamics 365 Field Service web app. Copilot can summarize information about your work order and service accounts, help you catch up on recent changes to your records, prepare for onsite visits, and answer questions about related information. It has a chat interface that dispatchers and technicians can use Copilot through conversation in natural language.
 
 ## Prerequisites
 
-Your admin has turned on and set up Copilot?
+An administrator has to enable the copilot feature for all users in the environment from the Power Platform admin center. For more information, see [Enable copilot for model-driven apps feature for your environment](/power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment).
 
 ## Open Copilot
 
-1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app.
+1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app. Select the icon again to minimize the copilot pane.
 
 1. Select the sparkle icon (:::image type="icon" source="../sales/media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with.
 
@@ -34,6 +34,12 @@ Use predefined prompts to get the most out of Copilot. The following list provid
 
 ## Region availability and languages supported
 
-Copilot is available in all regions in English only. If you turn on the feature outside of North America, you need to opt in to share some data with the Azure OpenAI Service outside of your default geography? Learn more about how Copilot data moves across geographies.
+To use this capability, your environment must be in the US region and have its language set to en-US.
 
-### See also
+You must allow data movement across regions for Generative AI features as a prerequisite for running copilot in Power Apps. This step is especially important if your organization and your environment are in different regions. For more information, see [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
+
+## See also
+
+- [Enable copilots and generative AI features](/power-platform/admin/geographical-availability-copilot)
+- [Add copilot for app users in model-driven apps](/power-apps/maker/model-driven-apps/add-ai-copilot)
+- [FAQ for Copilot in model-driven apps](/power-apps/maker/common/faqs-copilot-model-driven-app)
