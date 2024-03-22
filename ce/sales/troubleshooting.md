@@ -20,9 +20,7 @@ These articles explain how to determine, diagnose, and fix issues that you might
 
 ## Frequently asked questions
 
-Collections of frequently asked questions (FAQs) are integrated into the Sales documentation. Each of these articles include multiple FAQs for a specific feature topic or area.
-
-The following FAQ articles discuss issues specific to Dynamics 365 Sales:
+Collections of frequently asked questions (FAQs) are integrated into the Sales documentation. Each of these articles includes multiple FAQs related to a specific feature topic or area in Dynamics 365 Sales:
 
 - [Licenses and storage FAQs](faq-licenses-storage.md)
 - [Region and language FAQs](faq-region-language.md)
