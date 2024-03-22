@@ -1386,7 +1386,7 @@
         - name: Action Reference
           items:
             - name: msdyn_ConnectSequence
-              href: /dynamics365/sales/developer/entities/msdyn-ConnectSequence-action.md
+              href: developer\entities\msdyn-ConnectSequence-action.md
             - name: msdyn_WKWDeleteGDPRData
               href: developer/reference/custom-actions/msdyn_WKWDeletePrivacyData.md
             - name: msdyn_WKWGDPRDeleteStatus
