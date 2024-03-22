@@ -45,6 +45,20 @@ Currently, the Azure OpenAI resources are only available in the North America an
 
 No. We don't use any customer data to train Azure OpenAI or any other language models.
 
+## Is Copilot in Dynamics 365 Sales available in all regions?
+
+No, Copilot in Dynamics 365 Sales is not available in the following regions: 
+
+- South Africa (ZAF)
+- Germany (GER) 
+- Norway (NOR)
+- Korea (KOR)
+- Singapore (SGP)
+- United Arab Emirates (UAE)
+- Government Community Cloud (GCC)
+- DoD
+- China
+
 ## What's the difference between Microsoft Copilot for Sales and Copilot in Dynamics 365 Sales?
 
 Microsoft Copilot for Sales is a seller experience application that's available in Microsoft 365 and Microsoft Teams applications. It lets sellers capture, access, and update CRM data from within Microsoft 365 and Microsoft Teams applications. It also has generative AI capabilities such as record summarization and email content generation. Microsoft Copilot for Sales works with Dynamics 365 Sales and Salesforce CRM. [Learn more about Microsoft Copilot for Sales](/microsoft-sales-copilot/introduction). 
