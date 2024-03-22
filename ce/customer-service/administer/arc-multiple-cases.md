@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/15/2024
+ms.date: 03/22/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -31,8 +31,7 @@ As an administrator, enable this feature to ensure that multiple cases (one for 
 
 ## Enable creation of multiple cases from an email sent to multiple mailboxes
 
-1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
-1. Select **Solutions** > **Default Solution**.
+1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select the environment that contains your solution.
 1. From **Objects**, select **Settings** > **Settings definition**.
 1. Select the **Email Multi Related for ARC** setting definition.
 1. On the **Edit Email Multi Related for ARC** setting dialog, **Setting environment value** section, select **New environment value**.
@@ -42,11 +41,11 @@ As an administrator, enable this feature to ensure that multiple cases (one for 
 
 ## How automatic record creation rules work to create multiple cases from an email sent to multiple mailboxes
 
-After the feature is enabled, any new emails sent to multiple mailboxes get converted to multiple cases and a Related attribute (new attribute introduced on email activity to capture multiple records that an email can be associated with) is set for those cases. For more information on related attribute, see [Enable users to associate activities to multiple records (preview)](/power-apps/maker/data-platform/types-of-entities#enable-users-to-associate-activities-to-multiple-records-preview). The existing Regarding attribute for such emails will be blank. However, once the feature is turned on, for any existing email records, you’ll see the following:
+After the feature is enabled, any new emails sent to multiple mailboxes get converted to multiple cases and a **Related**attribute (new attribute introduced on email activity to capture multiple records that an email can be associated with) is set for those cases. For more information on related attribute, see [Enable users to associate activities to multiple records (preview)](/power-apps/maker/data-platform/types-of-entities#enable-users-to-associate-activities-to-multiple-records-preview). The existing **Regarding** attribute for such emails will be blank. However, once the feature is turned on, for any existing email records, you’ll see the following:
 
-- If older email records have an existing Active case set as Regarding, no new case gets created when a reply email arrives even if a new mailbox is added. The replied email gets associated with an existing case and regarding is set to the existing active case. The Related field remains empty, as no case was created.  
+- If older email records have an existing **Active** case set as **Regarding**, no new case gets created when a reply email arrives even if a new mailbox is added. The replied email gets associated with an existing case and regarding is set to the existing active case. The **Related** field remains empty, as no case was created.  
 
-- If older email records have an existing Resolved case set as Regarding, and the Wait for a specific amount of time after the connected case has been resolved option is set to YES, and a reply email arrives after the time mentioned in the Select the amount of time setting, a new case gets created. The new email populates the related attribute for the reply email. If the reply email is sent to multiple mailboxes, multiple cases get created and the related field gets populated with multiple cases. The Regarding field for the reply email is set to blank.
+- If older email records have an existing **Resolved** case set as **Regarding**, and the **Wait for a specific amount of time after the connected case has been resolved** option is set to **YES**, and a reply email arrives after the time mentioned in the **Select the amount of time** setting, a new case gets created. The new email populates the related attribute for the reply email. If the reply email is sent to multiple mailboxes, multiple cases get created and the related field gets populated with multiple cases. The Regarding field for the reply email is set to blank.
 
 The following flowchart explains how automatic record creation rules work to create multiple cases from an email sent to multiple mailboxes.
 
@@ -54,11 +53,11 @@ The following flowchart explains how automatic record creation rules work to cre
 
 ### Recommendations
 
-We recommend that you add a related attribute to your email form from the Power Apps Maker portal so that you can check which cases an email gets associated with, after it gets converted to multiple cases.
+- We recommend that you add a related attribute to your email form from the Power Apps Maker portal so that you can check which cases an email gets associated with, after it gets converted to multiple cases. The related column isn't added to an email form by default. To enable users to use this new column, add the **Related** column to the email form. For information about how to add a column to a form, go to [add columns to a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
 
-When email gets converted to multiple cases, every case has the same case title by default, as the email subject gets copied to the case title. If you would like to see which case originated in which mailbox, it is advisable to add the originating queue entries on the case form which will help you identify which case got created in which queue.
+- When email gets converted to multiple cases, every case has the same case title by default, as the email subject gets copied to the case title. If you would like to see which case originated in which mailbox, it is advisable to add the originating queue entries on the case form which will help you identify which case got created in which queue.
 
-To achieve this, you may add a sub grid to list the originating queue entries to the case entity from the Power Apps Maker portal by customizing the case form.
+- To achieve this, you may add a sub grid to list the originating queue entries to the case entity from the Power Apps Maker portal by customizing the case form.
 
 Perform the following steps:
 

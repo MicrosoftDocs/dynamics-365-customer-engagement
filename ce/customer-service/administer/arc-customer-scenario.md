@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/15/2024
+ms.date: 03/22/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -17,9 +17,9 @@ ms.custom:
 
 # How automatic record creation rule works in a customer scenario
 
-Here are the various scenarios that explain how automatic record creation rule works in a customer scenario.
+With automatic record creation, you can create multiple cases from an email sent to multiple mailboxes. As an administrator, you can [enable this feature](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes) to ensure that multiple cases (one for each queue-enabled mailbox) gets created when multiple mailboxes are added as recipients in the email.
 
-Customer sends a new mail, replies to an email, or forwards an agent’s email. The following flowchart explains the customer scenario.
+This topic lists the various customer scenarios and explains how automatic record creation rule works when a customer sends a new mail, replies to an email, or forwards an agent’s email. The following flowchart explains the customer scenario.
 
 :::image type="content" source="../media/arc_customer-scenario.png" alt-text="Flowchart explaining the customer scenario.":::
 
@@ -57,7 +57,7 @@ When a customer replies from the Inbox to the agent’s outbound email sent from
 
 ### Replies to an agent’s email with the same queue on a closed case
 
-If the Wait for specific amount of time after the connected case has been resolved toggle is set to Yes and the time configured in the setting hasn’t elapsed, no case gets created. If the time has elapsed, new cases get created for that queue.
+If the **Wait for specific amount of time after the connected case has been resolved** toggle is set to **Yes** and the time configured in the setting hasn’t elapsed, no case gets created. If the time has elapsed, new cases get created for that queue.
 
 ## Customer forwards an email
 
@@ -69,6 +69,8 @@ When a customer forwards an email from their Inbox to the same queues, the respo
 
 When a customer forwards the agent’s reply mail from the Inbox to a new queue, automatic record creation creates a new case Case 4 for Q4 (new queue). Email is tagged to all cases that originated in the old queues as well as to the new Case 4 that was created.
 
+However, if you don't want the forwarded email to be associated with the existing cases that originated in the earlier queues, you'll need to perform [customization](#customization).
+
 ### Forwards an original email to same queue from Sent Items
 
 When a customer forwards the original email (E1) from Sent items to the same queues, automatic record creation skips case creation as the correlation still exists.
@@ -77,11 +79,11 @@ When a customer forwards the original email (E1) from Sent items to the same que
 
 When a customer forwards the original email (E1) from Sent items to another queue Q4, automatic record creation creates a new case Case 4 for Q4. The forwarded email is related to all cases Case 1, Case 2, Case 3, and Case 4.
 
-However, if you don't want the forwarded email to be associated with existing cases, you can customize using the sample code.
+However, if you don't want the forwarded email to be associated with the existing cases that originated in the earlier queues, you'll need to perform [customization](#customization).
 
-## Customizations steps
+## Customization
 
-1. Extract the shared sample code (shared as a zip file).
+1. Extract the sample code.
 
 2. [Build the plugin](/power-apps/developer/data-platform/tutorial-write-plug-in#build-plug-in).
 

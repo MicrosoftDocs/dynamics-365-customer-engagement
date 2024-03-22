@@ -6,16 +6,18 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/15/2024
+ms.date: 03/22/2024
 ms.custom: bap-template
 ---
 
 
 # How automatic record creation rule works in an agent scenario
 
-Here are the various scenarios that explain how automatic record creation rule works, when agent sends a reply, reply all, forwards, or initiates a new mail.
+With automatic record creation, you can create multiple cases from an email sent to multiple mailboxes. As an administrator, you can [enable this feature](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes) to ensure that multiple cases (one for each queue-enabled mailbox) gets created when multiple mailboxes are added as recipients in the email.
 
-An agent can do a reply all or reply only to the customer from each case - Case 1, Case 2, or Case 3’s timeline, independently. Agents can also reply or reply all from Inbox or directly from the email by accessing it from the **My Activities** view. When the agent sends a reply or reply all or forwards an email from any of these entry points, the reply email is related to all cases and records that were related to the original email, unless they have removed them from the related attribute manually.  
+This topic lists the various agent scenarios and explains how automatic record creation rule works when an agent does a reply all or reply only to the customer from each case - Case 1, Case 2, or Case 3’s timeline, independently.
+
+Agents can also reply or reply all from Inbox or directly from the email by accessing it from the **My Activities** view. When the agent sends a reply or reply all or forwards an email from any of these entry points, the reply email is related to all cases and records that were related to the original email, unless they have removed them from the related attribute manually.  
 
 The following flowchart explains the agent scenario.
 
@@ -23,13 +25,13 @@ The following flowchart explains the agent scenario.
 
 ## Agent selects reply
 
-When an agent selects reply from the timeline of one of the cases (Case 1, Case2 or Case 3), the replied email gets correlated with all the records related to the previous email, such as cases, accounts or any other entity records. The To field is set to only the customer in this scenario, but the related attribute shows all the related records, Case 1, Case 2, and Case 3.  
+When an agent selects reply from the timeline of one of the cases (Case 1, Case2 or Case 3), the replied email gets correlated with all the records related to the previous email, such as cases, accounts or any other entity records. The **To** field is set to only the customer in this scenario, but the related attribute shows all the related records, Case 1, Case 2, and Case 3.  
 
 The replied email gets associated with all the cases related to the previous email and is displayed on the timeline of all the cases.  
 
 If the previous email was manually linked to any other entity record like account, by adding an account in the related attribute, the reply email would also be correlated with that account and show up on the timeline of the account. The agent can remove the records from the related attribute from the email form manually before sending the email, if they want the replied email to be associated to only the case from which the reply email was sent.
 
-This is the default behavior, irrespective of whether the agent replies to the email from a case timeline, Inbox, or by navigating to the email form from the My Activities view. Further communication between customer and agent is displayed in all cases that were created from the previous email.  
+This is the default behavior, irrespective of whether the agent replies to the email from a case timeline, Inbox, or by navigating to the email form from the **My Activities** view. Further communication between customer and agent is displayed in all cases that were created from the previous email.  
 
 > [!NOTE]
 > If you want the reply email to be related only to the case from which it was sent, so that agents working on other cases can’t view the email on their case timeline, you could opt for [timeline customization](#timeline-customization).
@@ -42,7 +44,7 @@ If you perform timeline customization, then:
 
 ## Agent selects reply all
 
-When agents select reply all from Case 1 timeline and removes mailbox 3, the replied email gets associated with all the three cases (Case 1, Case 2 and Case 3). If the original email was related to any other entity records like account, the replied email will also be associated with that account. All these cases and related accounts see duplicate entries of the same email, one with the state as Sent and the other with the state as Received.  
+When agents select reply all from Case 1 timeline and removes mailbox 3, the replied email gets associated with all the three cases (Case 1, Case 2 and Case 3). If the original email was related to any other entity records like account, the replied email will also be associated with that account. All these cases and related accounts see duplicate entries of the same email, one with the state as **Sent** and the other with the state as **Received**.  
 
 If you don’t want the reply email to be shown on Case 3 (that originated in mailbox 3) since mailbox 3 was removed, you’ll need to manually remove the case that originated in mailbox 3 from the related attribute before sending the email.
 
@@ -55,7 +57,7 @@ When an agent forwards an email to another mailbox 4, from Case 1 timeline, the 
 
 ## Agent initiates a new email
 
-Agents can also initiate a new email from the case timeline (by selecting the + button on timeline). When an agent sends a new email to a customer from the case timeline, the ‘related’ attribute of the email is set to the case only if the administrator has enabled the OrgDBOrg setting ‘AddParentEntityToRelatedOnNewActivityCreate’.  
+Agents can also initiate a new email from the case timeline (by selecting the + button on timeline). When an agent sends a new email to a customer from the case timeline, the **Related** attribute of the email is set to the case only if the administrator has enabled the OrgDBOrg setting ‘AddParentEntityToRelatedOnNewActivityCreate’.  
 
 For steps on how to enable this setting, go to [How to change default environment database settings](/power-platform/admin/environment-database-settings). This is applicable to only those scenarios where an agent adds a new email from the case timeline and doesn’t apply to scenarios where agent selects reply or reply all to an existing email from the case timeline.  
 
@@ -64,13 +66,13 @@ For steps on how to enable this setting, go to [How to change default environmen
 When a customer replies (ER1) to the original email E1 from the Sent Items folder and to the same mailboxes (Q1, Q2, Q3), and automatic record creation rule finds that the original email E1 is only set to Case 2 and Case 3 currently, as the agent had removed Case 1 from the Related field of original email, automatic record creation rule creates a duplicate case for Q1, as it didn’t find any case that was created in Q1 and associated to the original email E1.
 
 > [!NOTE]
-> We recommend that agents shouldn’t remove the case from the Related field for the original email even if the case is irrelevant and instead mark it as duplicate and resolve it.
+> We recommend that agents shouldn’t remove the case from the **Related** field for the original email even if the case is irrelevant and instead mark it as duplicate and resolve it.
 
 ## Timeline customization
 
 An incoming email from a customer might get converted to multiple cases. When an agent replies to a customer from the timeline of a particular case or forwards an email from a particular case, you might want the response email to be associated with that case only. In such cases, you must update the ribbon buttons by performing the following steps:
 
-1. Download and install Ribbon Workbench: https://www.develop1.net/public/rwb/ribbonworkbench.aspx 
+1. Download and install [Ribbon Workbench](https://www.develop1.net/public/rwb/ribbonworkbench.aspx).
 
 1. Create a web resource with the code to replace the ribbon button actions:  
 
