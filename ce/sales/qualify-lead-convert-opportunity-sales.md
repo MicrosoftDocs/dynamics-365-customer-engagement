@@ -48,9 +48,9 @@ After you've identified the time frame, budget, and purchase process for a lead,
       ![Select which records to create in the Qualify lead dialog box.](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
      
     **More information:** 
-    - [What happens when a lead is qualified](#what-happens-when-a-lead-is-qualified)
-    - [What happens when duplicates are found while qualifying leads?](#what-happens-when-duplicates-are-found-while-qualifying-leads)
-    - [How do I handle lead qualification errors?](#how-do-i-handle-lead-qualification-errors)
+    - [What happens when a lead is qualified](faq-lead.md#what-happens-when-a-lead-is-qualified)
+    - [What happens when duplicates are found while qualifying leads?](faq-lead.md#what-happens-when-duplicates-are-found-while-qualifying-leads)
+    - [How do I handle lead qualification errors?](faq-lead.md#how-do-i-handle-lead-qualification-errors)
     
 The lead moves to the next stage in the business process. The lead is also removed from the **My Open Leads** view and gets added to the **Closed Leads** view.
   

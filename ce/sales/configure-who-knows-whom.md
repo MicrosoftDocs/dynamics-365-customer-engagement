@@ -16,7 +16,7 @@ The who knows whom feature helps your sales organization quickly identify collea
 
 >[!NOTE]
 >- [Basic who knows whom information](who-knows-whom.md#basic-who-knows-whom-information) is available out-of-the-box in all regions for Sales Enterprise users and doesn't require any setup.
->- [Enhanced who knows whom information](who-knows-whom.md#enhanced-who-knows-whom-information) is available for Sales Premium users and is available only in [specific regions](faq-region-language.md#in-which-region-are-the-features-available).
+>- [Enhanced who knows whom information](who-knows-whom.md#enhanced-who-knows-whom-information) is available for Sales Premium users and is available only in [specific regions](faq-region-language.md#in-which-region-are-sales-premium-features-available).
 >- For Office 365 data, your organization's data location must be in one of the following locations and not in your region-specific datacenter location:
 >    - Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands)
 >    - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
@@ -63,11 +63,10 @@ After you enable who knows whom, you must complete the [next steps](#next-steps)
 
 - [Add relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for leads or contacts.
 
- 
-
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
+
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Get introduced to a lead](../sales/who-knows-whom.md)  
 

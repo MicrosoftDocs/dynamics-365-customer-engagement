@@ -13,7 +13,7 @@ ms.custom:
   - ai-seo-date:03/11/2024
 ---
 
-# Lead management FAQs
+# Sales accelerator FAQs
 
 This article answers frequently asked questions about sales accelerator in Dynamics 365 Sales and Sales premium.
 
