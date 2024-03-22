@@ -155,6 +155,7 @@ You can create up to 10 models, both published and unpublished, for different se
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md#edit-a-model)  
 [Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)  
+[Opportunity management FAQs](faq-opportunity.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
