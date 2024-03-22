@@ -19,7 +19,7 @@ This article answers frequently asked questions about relationship analytics and
 
 ## Relationship analytics and health
 
-### Which data is used to generate basic relationship insights?
+### Which data is used to generate relationship insights?
 
 **Basic insights:**
 

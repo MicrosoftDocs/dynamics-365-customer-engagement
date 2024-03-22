@@ -102,7 +102,7 @@ If the [duplicate detection rules](/power-platform/admin/set-up-duplicate-detect
 
     1. Publish the rule.
 
-##  Duplicate detection when improved duplicate detection and merge experience is disabled
+## What happens when the improved duplicate detection and merge experience is disabled
 
 When the improved duplicate detection experience is disabled, you'll see the **Duplicate warning** dialog box.
 
@@ -113,7 +113,7 @@ In the **Account** and **Contact** fields, select the matching account and conta
 
 The **Account** and **Contact** lookup fields are filtered with matched results and shown along with additional information to precisely identify the record to which the lead should be linked. For example, when you select the **Contact** lookup search icon, you'll see only matched contact records.
 
-##  Duplicate detection when improved duplicate detection and merge experience is enabled
+## What happens when the improved duplicate detection and merge experience is enabled
 
 When the improved duplicate detection and merge experience is enabled, you'll see the **Account or Contact may already exist** dialog box.
 

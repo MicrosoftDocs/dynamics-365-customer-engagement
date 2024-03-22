@@ -43,7 +43,7 @@ Sales Premium isn't available in the following datacenters:
 - Department of Defense (DoD)
 - China
 
-## In which region are the features available?
+## In which region are Sales Premium features available?
 
 The following table lists the regions in which Sales Premium features are available.
 
@@ -90,7 +90,7 @@ If your organization's Office 365 data is in any other region, who knows whom wo
 
 To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
-## What languages are supported?
+## What languages are supported for Sales Premium features?
 
 The following table shows which languages are supported for Sales Premium features.
 
