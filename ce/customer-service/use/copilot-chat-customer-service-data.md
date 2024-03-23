@@ -4,13 +4,10 @@ description: Learn how to use Copilot for Microsoft 365 to chat with service dat
 ms.date: 03/22/2024
 ms.custom:
   - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-desc
-  - ai-seo-date:03/22/2024
-ms.topic: article
+ms.topic: faq
 author: lalexms
 ms.author: laalexan
-ms.reviewer: mgandham
+ms.reviewer:
 ms.collection: bap-ai-copilot
 ---
 
@@ -31,7 +28,7 @@ The Customer Service plugin works together with Copilot for Microsoft 365 to hel
 
 ## Prerequisites 
 
-You must meet the following prerequisites to use the Copilot for Service plugin for Microsoft 365 Chat.
+You must meet the following prerequisites to use the Customer Service plugin with Copilot for Microsoft 365.
 
 - Your administrator must deploy the Dynamics 365 app. More information: [Build plugins using Microsoft business applications](/microsoft-365-copilot/extensibility/overview-business-applications#known-limitations)
 
