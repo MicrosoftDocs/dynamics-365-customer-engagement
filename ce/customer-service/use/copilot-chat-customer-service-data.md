@@ -1,6 +1,6 @@
 ---
-title: FAQ for chat with Customer Service data on Microsoft 365 Copilot (preview)
-description: Discover how to use Microsoft 365 Copilot to chat with Customer Service data and ask questions in natural language.
+title: FAQ for chat with Customer Service data in Microsoft 365 Copilot (preview)
+description: Discover how to use Copilot for Microsoft 365 to chat with Customer Service data and ask questions in natural language.
 ms.date: 03/22/2024
 ms.custom:
   - bap-template
@@ -15,7 +15,7 @@ ms.collection: bap-ai-copilot
 ms.custom: bap-template
 ---
 
-# FAQ for chat with Customer Service data on Copilot for Microsoft 365 (preview)
+# FAQ for chat with Customer Service data in Copilot for Microsoft 365 (preview)
 
 > [!IMPORTANT]
 > Some or all of the functionality noted in this article is available as part of a preview release. The content and the functionality are subject to change.
