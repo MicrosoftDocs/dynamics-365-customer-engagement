@@ -12,7 +12,6 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: mgandham
 ms.collection: bap-ai-copilot
-ms.custom: bap-template
 ---
 
 # FAQ for chat with Customer Service data in Copilot for Microsoft 365 (preview)
@@ -34,7 +33,7 @@ The Customer Service plugin works together with Copilot for Microsoft 365 to hel
 
 You must meet the following prerequisites to use the Copilot for Service plugin for Microsoft 365 Chat.
 
-- Your administrator must deploy the Dynamics 365 app. More information: [Build plugins using Microsoft business applications](../microsoft-365-copilot/extensibility/overview-business-applications#known-limitations)
+- Your administrator must deploy the Dynamics 365 app. More information: [Build plugins using Microsoft business applications](../../microsoft-365-copilot/extensibility/overview-business-applications#known-limitations)
 
 - To engage in a natural-language conversation with Dynamics 365 service data, you need a Copilot for Microsoft 365 license. 
 
