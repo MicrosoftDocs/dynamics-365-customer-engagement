@@ -49,12 +49,12 @@ If you have access to Dynamics 365 Customer Service data, you can turn on the pl
 Some examples of prompts are as follows:
 
 - Show me the high-priority support tickets for Contoso coffee in the past 30 days.
-- Tell me if Contoso Coffee has active escalated cases in the past 3 months. If yes, show me the list.
-- What are the cases missed SLA in the past 7 days.
+- Tell me if Contoso Coffee has active escalated cases in the past three months. If yes, show me the list.
+- What are the cases missed SLA in the past seven days.
 - Show me all my active cases.
 - Show my cases due tomorrow.
-- Tell me about the details for Case Number CAS-01006-W8H5Q.
-- What is the resolution for Case #abc.
+- Tell me about the details for case number CAS-01006-W8H5Q.
+- What is the resolution for case #abc?
 - Show me active high priority support tickets for *AgentName* in the past 30 days.
 - Show me active escalated support tickets for *AgentName* in past 30 days.
 
