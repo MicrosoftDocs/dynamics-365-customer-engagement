@@ -1,6 +1,6 @@
 ---
 title: FAQ for chat with Customer Service data in Microsoft 365 Copilot (preview)
-description: Discover how to use Copilot for Microsoft 365 to chat with Customer Service data and ask questions in natural language.
+description: Learn how to use Copilot for Microsoft 365 to chat with service data and ask questions in natural language.
 ms.date: 03/22/2024
 ms.custom:
   - bap-template
@@ -50,12 +50,12 @@ Some examples of prompts are as follows:
 
 - Show me the high-priority support tickets for Contoso coffee in the past 30 days.
 - Tell me if Contoso Coffee has active escalated cases in the past three months. If yes, show me the list.
-- What are the cases missed SLA in the past seven days.
+- What are the cases that have missed SLA in the past seven days?
 - Show me all my active cases.
-- Show my cases due tomorrow.
+- Show me my cases due tomorrow.
 - Tell me about the details for case number CAS-01006-W8H5Q.
 - What is the resolution for case #abc?
-- Show me active high priority support tickets for *AgentName* in the past 30 days.
+- Show me active high-priority support tickets for *AgentName* in the past 30 days.
 - Show me active escalated support tickets for *AgentName* in past 30 days.
 
 > [!IMPORTANT]
@@ -64,8 +64,8 @@ Some examples of prompts are as follows:
 
 ### See also
 
-[Use Copilot to solve customer issues](use-copilot-features.md)  
-[Understand Copilot language support](copilot-language-support.md)  
-[Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  
-[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
+[Use Copilot to solve customer issues](use-copilot-features.md)<br>
+[Understand Copilot language support](copilot-language-support.md)<br>
+[Manage copilot features in Customer Service](../administer/configure-copilot-features.md)<br>
+[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)<br> 
 [FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md)
