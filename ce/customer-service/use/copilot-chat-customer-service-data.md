@@ -1,17 +1,17 @@
 ---
-title: FAQ for chat with Customer Service data in Microsoft 365 Copilot (preview)
+title: Chat with Customer Service data in Microsoft 365 Copilot (preview)
 description: Learn how to use Copilot for Microsoft 365 to chat with service data and ask questions in natural language.
-ms.date: 03/22/2024
+ms.date: 03/25/2024
 ms.custom:
   - bap-template
-ms.topic: faq
+ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
 ms.reviewer:
 ms.collection: bap-ai-copilot
 ---
 
-# FAQ for chat with Customer Service data in Copilot for Microsoft 365 (preview)
+# Chat with Customer Service data in Copilot for Microsoft 365 (preview)
 
 > [!IMPORTANT]
 > Some or all of the functionality noted in this article is available as part of a preview release. The content and the functionality are subject to change.
@@ -34,11 +34,11 @@ You must meet the following prerequisites to use the Customer Service plugin wit
 
 - To engage in a natural-language conversation with Dynamics 365 service data, you need a Copilot for Microsoft 365 license. 
 
-## What types of data are supported? 
+## Supported data types
 
-Data that resides inside tables is referred to as *structured data*. Data that's present in static documents, such as Word files, PDF files, and publicly available content, is referred to as *unstructured data*. The Customer Service plugin mainly supports structured data for now.
+Data that resides inside tables is referred to as *structured data*. Data that's present in static documents, such as Word and PDF files, is referred to as *unstructured data*. The Customer Service plugin mainly supports structured data for now.
 
-## What scenarios are available out of the box?
+## Avaiable out-of-box scenarios
 
 If you have access to Dynamics 365 Customer Service data, you can turn on the plugin in Copilot for Microsoft 365 and query the data without leaving the tool.
 
