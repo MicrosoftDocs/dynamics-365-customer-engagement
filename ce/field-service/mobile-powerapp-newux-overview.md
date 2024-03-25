@@ -41,6 +41,8 @@ The following articles contain preview content alongside the current content in 
 
 To enable the preview features, sign in as a Field Service Administrator to Dynamics 365 in a web browser. Select the Field Service Mobile app module. In the app settings, select the toggle to enable the preview features for all users in your organization.
 
+If you use a custom app module and don't see the settings area, [review the troubleshooting guide to show the settings area](/dynamics365/field-service/troubleshooting-mobile-newux#settings-area-is-missing-in-the-field-service-mobile-app-module-navigation).
+
 ## Limitations of preview features
 
 The preview features have the following limitations:

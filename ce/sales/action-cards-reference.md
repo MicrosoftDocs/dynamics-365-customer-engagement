@@ -15,7 +15,7 @@ Insight cards help keep you up to date with your work in Dynamics 365 Sales, let
 
 > [!NOTE]
 > - Your system administrator must enable the assistant before you can try it out. For prerequisites, how to enable the feature, and how to set it up, see [Configure Sales Insights Assistant](configure-assistant.md).  
-> - Some of the Exchange-based cards will be deprecated starting from Sunday, October 1, 2023. [Learn more](deprecations-sales.md#exchange-based-cards-will-be-deprecated).
+> - Some of the Exchange-based cards will be deprecated starting from Sunday, October 1, 2023. [Learn more](deprecations-sales.md#exchange-based-cards-are-deprecated).
 
 The assistant displays cards in the following categories:
 

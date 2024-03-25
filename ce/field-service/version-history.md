@@ -18,26 +18,49 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.109.10](/dynamics365/field-service/version-history#8810910)  | TBD |03/15/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.108.10](/dynamics365/field-service/version-history#8810810)  | [8.8.109.10](/dynamics365/field-service/version-history#8810910) |03/08/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.108.10](/dynamics365/field-service/version-history#8810810)  | [8.8.109.10](/dynamics365/field-service/version-history#8810910) |03/15/2024 |
-| | *USG* | [8.8.108.10](/dynamics365/field-service/version-history#8810810)  | [8.8.109.10](/dynamics365/field-service/version-history#8810910) |03/08/2024 |
-|**Station 4** |*Europe* |  [8.8.107.25](/dynamics365/field-service/version-history#8810725)  | [8.8.108.10](/dynamics365/field-service/version-history#8810810) |03/08/2024 |
-|**Station 5** | *North America*|  [8.8.107.25](/dynamics365/field-service/version-history#8810725)  | [8.8.108.10](/dynamics365/field-service/version-history#8810810) |03/15/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.107.25](/dynamics365/field-service/version-history#8810725)  | [8.8.108.10](/dynamics365/field-service/version-history#8810810) |03/15/2024 |
-| | *Dedicated Scale Groups* |   [8.8.107.25](/dynamics365/field-service/version-history#8810725)  | [8.8.108.10](/dynamics365/field-service/version-history#8810810) |03/15/2024 |
+|**Station 1** |  *First Release*| [8.8.110.18](/dynamics365/field-service/version-history#8811018)  | TBD |03/29/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.110.18](/dynamics365/field-service/version-history#8811018)  | TBD |03/29/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.109.12](/dynamics365/field-service/version-history#8810912)  | [8.8.110.18](/dynamics365/field-service/version-history#8811018) |03/29/2024 |
+| | *USG* | [8.8.110.18](/dynamics365/field-service/version-history#8811018)  | TBD |04/03/2024 |
+|**Station 4** |*Europe* |  [8.8.109.12](/dynamics365/field-service/version-history#8810912)  | [8.8.110.18](/dynamics365/field-service/version-history#8811018) |04/05/2024 |
+|**Station 5** | *North America*|  [8.8.108.12](/dynamics365/field-service/version-history#8810812)  | [8.8.109.12](/dynamics365/field-service/version-history#8810912) |03/29/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.108.12](/dynamics365/field-service/version-history#8810812)  | [8.8.109.12](/dynamics365/field-service/version-history#8810912) |03/27/2024 |
+| | *Dedicated Scale Groups* |   [8.8.108.12](/dynamics365/field-service/version-history#8810812)  | [8.8.109.12](/dynamics365/field-service/version-history#8810912) |04/05/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.110.18
+(Includes Universal Resource Scheduling version [3.12.125.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212530) and Resource Scheduling controls version 1.2.64.240721).
+
+- Updated translation of warnings when cancelling work orders.
+- Double clicking now opens work orders from the work order list.
+
+## 8.8.111.25 (2024 wave 1 early access, update 1)
+(Includes Universal Resource Scheduling version [3.12.127.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212712---2024-wave-1-early-access-update1) and Resource Scheduling controls version 1.2.66.240663).
+
+- The new work order list view no longer shows inactive records.
+- The booked resources column has several improvements and now shows by default. This column is intended to only be used with the new work order grid control.
+- New work order forms and views are no longer called ‘new’. Older forms are labeled ‘legacy’.
+
+## 8.8.109.12
+This release is a hotfix on Field Service version [8.8.109.10](/dynamics365/field-service/version-history#8810910)
+(Includes Universal Resource Scheduling version [3.12.124.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212411) and Resource Scheduling controls version 1.2.63.240662).
+
 ## 8.8.109.10
-(Includes Universal Resource Scheduling version [3.12.124.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212411) and Resource Scheduling controls version 1.2.62.240451).
+(Includes Universal Resource Scheduling version [3.12.124.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212411) and Resource Scheduling controls version 1.2.63.240602).
+
+## 8.8.108.12
+This release is a hotfix on Field Service version [8.8.108.10](/dynamics365/field-service/version-history#8810810)
+(Includes Universal Resource Scheduling version [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334) and Resource Scheduling controls version 1.2.62.240661).
+
+- Fixed a problem with Field Service updates when mixed reality security roles are applied.
 
 ## 8.8.108.10
-(Includes Universal Resource Scheduling version [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334) and Resource Scheduling controls version 1.2.63.240602).
+(Includes Universal Resource Scheduling version [3.12.123.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212334) and Resource Scheduling controls version 1.2.62.240451).
 
-Fixed several issues on thte Get Started page:
+Fixed several issues on the Get Started page:
 - Buttons in cards now show in high contrast mode and lose focus while in side panes.
 - Card height no longer changes when panning.
 

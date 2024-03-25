@@ -71,11 +71,9 @@ Before you can configure these features, you must accept the privacy notice. To 
  
 4. In the **Terms of service** section, select **I agree**.
 
-   :::image type="content" source="media/si-admin-accept-privacy-notice.png" alt-text="Agree to the terms of service":::
-
     The standard Sales Insights features are enabled for your organization and you can configure features such as the standard assistant, auto capture (standard), and email engagement (standard).
 
-    :::image type="content" source="media/si-admin-free-features-enabled.png" alt-text="Standard Sales Insights features enabled":::
+    :::image type="content" source="media/si-admin-free-features-enabled.svg" alt-text="Standard Sales Insights features enabled":::
 
 
 ### Configure standard Sales Insights features
