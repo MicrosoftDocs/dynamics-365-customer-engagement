@@ -33,6 +33,14 @@ Do the following steps in Customer Service admin center:
 1. In **User experience data**, select the checkbox for the system to record user interactions with AI and their feedback on AI suggestions. The information can then be used to analyze knowledge sources and build usage reports.
 1. Save and close.
 
+## Region availability and data movement
+
+See [Region availability of analytics and insights](cs-region-availability-service-limits.md) for information on supported regions.
+
+## Supported languages
+
+To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
+
 ### See also
 
 [Use Copilot to generate knowledge drafts from cases](../use/use-copilot-knowledge-from-cases.md)  

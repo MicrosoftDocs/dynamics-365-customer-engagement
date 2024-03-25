@@ -34,7 +34,7 @@ Copilot provides the following main features:
 
 - **Summarize a conversation**: Copilot provides agents with a summary of a conversation at key points throughout the customer journey such as virtual agent handoffs, transfers and on demand.
 
-- **Generate knowledge draft from case (preview)**: When agents resolve a case, Copilot generates a draft of the case as a proposal. Agents can review and refine the draft by giving revision instructions to Copilot.
+- **Generate knowledge draft from case (preview)**: Copilot generates a knowledge article draft as a proposal that's based on information from the case. Agents can review and refine the draft by giving revision instructions to Copilot and then save the draft as a knowledge article.
 
 ## What is the system’s intended use?
 
