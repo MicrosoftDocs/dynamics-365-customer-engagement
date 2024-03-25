@@ -1,7 +1,7 @@
 ---
 title: Manage work orders with Field Service in Outlook (frontline managers) 
 description:  Learn how service managers and dispatchers can use the Dynamics 365 Field Service for Outlook add-in to create, view, update, and schedule work orders with AI assistance in Outlook.
-ms.date: 02/06/2024
+ms.date: 03/25/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -89,15 +89,11 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
    > [!TIP]
    > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon :::image type="icon" source="media/fsp-pop-out-icon.png":::.
 
-## Draft an email response with Copilot (preview)
-
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+## Draft an email response with Copilot
 
 Use Copilot to share proposed schedules for unscheduled work orders or provide schedule confirmations for scheduled work orders.
 
 Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faqs-flm-copilot-email.md). If you don't see the Copilot icon, your admin might have disabled this feature.
-
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in).
 
@@ -144,7 +140,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
 While you're viewing a work order, depending on the **System Status**, you can also:
 
-- [Draft an email with Copilot to propose or confirm schedules (preview)](#draft-an-email-response-with-copilot-preview).
+- [Draft an email with Copilot to propose or confirm schedules](#draft-an-email-response-with-copilot).
 
 - [Schedule the work order or view the schedule](#schedule-or-reschedule-a-work-order).
 

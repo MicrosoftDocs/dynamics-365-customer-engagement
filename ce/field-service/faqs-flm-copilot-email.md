@@ -1,7 +1,7 @@
 ---
 title: FAQ about draft email responses using Copilot in Field Service for Outlook
 description:  Get answers to common questions about the AI technology used to draft email responses in the Dynamics 365 Field Service for Outlook.
-ms.date: 01/26/2024
+ms.date: 03/25/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -11,9 +11,9 @@ ms.reviewer: v-wendysmith
 ms.collection: bap-ai-copilot 
 ---
 
-# FAQ about draft email responses using Copilot in Field Service for Outlook (preview)
+# FAQ about draft email responses using Copilot in Field Service for Outlook
 
-This article answers common questions about the AI technology used to draft email responses in Dynamics 365 Field Service for Outlook (preview). It also includes key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
+This article answers common questions about the AI technology used to draft email responses in Dynamics 365 Field Service for Outlook. It also includes key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
 
 ## What is draft email responses using Copilot in Outlook?
 
@@ -42,5 +42,5 @@ This feature was evaluated using both conventional performance testing and metho
 
 ## See also
 
-- [Draft an email response with Copilot (preview)](flw-outlook.md#draft-an-email-response-with-copilot-preview)
+- [Draft an email response with Copilot](flw-outlook.md#draft-an-email-response-with-copilot)
 - [FAQs for Dynamics 365 Field Service](responsible-ai-overview.md)
