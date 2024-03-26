@@ -52,12 +52,14 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
     > [!NOTE]
     > The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.
 
+
 ## How you can use consult to collaborate with other agents or supervisors
 
 You can collaborate with another agent, a supervisor, or an external participant (PSTN number or a Teams PSTN number) by using the consult option.  
 
 When you initiate a consult, the following actions occur:
 - You're the primary agent. 
+- You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays only those agents whose skills match the selected criteria along with their name, and current presence status.
 - The customer is automatically put on hold. Hold music plays for the customer.
 - When the invited collaborator joins the call, they have a consult role.
 - The primary agent must manually remove the customer from hold. During a consult, the primary agent can choose to transfer the call to the new participant. 

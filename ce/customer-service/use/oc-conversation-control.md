@@ -93,7 +93,9 @@ You can consult with other agents or supervisors using the consult option. You c
 
 The following events occur when you select the **Consult** button:
 
-1. The agent can search for agents to consult within the same queue or other queues, select and invite an agent, and then start a consultation.
+1. You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays only those agents whose skills match the selected criteria along with their name, and current presence status.
+
+1. Select and invite an agent, and then start a consultation.
 
 1. The secondary agent receives a notification for the consult request.
 
