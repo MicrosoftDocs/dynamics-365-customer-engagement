@@ -107,8 +107,6 @@ The following events occur when you select the **Consult** button:
 
 1. The secondary agent sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary agent and customer.
    
-   :::image type="content" source="../media/consultee-agent-view.png" alt-text="View of consult pane for the agent.":::
-
 2. The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
 
 
