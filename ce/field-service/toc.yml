@@ -509,8 +509,14 @@ items:
   items:
     - name: Overview of integrations
       href: field-service-integration-overview.md
-    - name: Sync with finance and operations applications (preview)
-      href: finance-operations-integration.md
+    - name: Sync with finance and operations applications
+      items:
+        - name: Field Service integration with finance and operations applications
+          href: finance-operations-integration.md
+        - name: Set up Field Service integration with finance and operations applications
+          href: finance-operations-integration-setup.md
+        - name: Create a work order
+          href: finance-operations-integration-create-wo.md
     - name: Dynamics 365 Supply Chain Management
       href: supply-chain-field-service-integration.md
     - name: Dynamics 365 Remote Assist
