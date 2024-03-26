@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Deprecations in Customer Service
 
-The features that have been deprecated in Customer Service are listed in this article.
+The features that are deprecated in Customer Service are listed in this article.
 
 Administrators and IT professionals can use this information to prepare for future releases.
 
@@ -54,7 +54,7 @@ Effective April 2023, the Omnichannel for Customer Service agent-facing app is d
 
 ## setContextProvider method for authenticated chat is deprecated
 
-The setContextProvider method for authenticated chat has been deprecated and isn't supported as of October 1, 2021. We recommend that you use the JWT token for authenticated chat. More information: [Send authentication tokens](../develop/send-auth-token-starting-chat.md)
+The setContextProvider method for authenticated chat is deprecated and isn't supported as of October 1, 2021. We recommend that you use the JWT token for authenticated chat. More information: [Send authentication tokens](../develop/send-auth-token-starting-chat.md)
 
 ## Support for some knowledge management entities is deprecated <a name="deprecatedkmentities"></a>
 
@@ -62,7 +62,7 @@ The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management enti
 
 ## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated
  
-Effective October 31, 2022, Dynamics 365 Customer Service and Power Platform are blocked in Internet Explorer. As of early October 2022, users are redirected to Microsoft Edge if it's installed on their device. Otherwise, they'll receive a non-dismissible message informing them why they're blocked and to use Customer Service on [Microsoft Edge](https://www.microsoft.com/edge). More information: [Support end for Internet Explorer](/power-platform/admin/support-end-internet-explorer) <br>
+Effective October 31, 2022, Dynamics 365 Customer Service and Power Platform are blocked in Internet Explorer. As of early October 2022, users are redirected to Microsoft Edge if it's installed on their device. Otherwise, they receive a non-dismissible message informing them why they're blocked and to use Customer Service on [Microsoft Edge](https://www.microsoft.com/edge). More information: [Support end for Internet Explorer](/power-platform/admin/support-end-internet-explorer) <br>
 
 For any questions, contact your Microsoft Customer Service representative or Microsoft Partner.
 
@@ -84,7 +84,7 @@ Effective October 1, 2020, the service-level agreements (SLAs) are deprecated in
 
 The existing service scheduling functionality is deprecated, and is no longer available as of December 1, 2020. The new scheduling experience, built on Universal Resource Scheduling, is available in Unified Interface.
 
-Existing service scheduling users will be provided advance notice for a time bound migration to the new scheduling capabilities.
+Existing service scheduling users are provided with advance notice for a time-bound migration to the new scheduling capabilities.
 
 There are two approaches to migrate to the scheduling experience:
 
@@ -94,7 +94,7 @@ If your organization requires features that rely on legacy APIs, the product tea
 
 ## Contracts, Contract Line Items, and Contract Templates entities are deprecated
 
-The Contracts, Contract Line Items, and Contract Templates entities are deprecated and aren't supported as of April 1, 2022. They'll be removed in a future major release of Dynamics 365. This functionality has been replaced by [entitlements](../administer/create-entitlement-define-support-terms-customer.md) in Unified Interface. The [web client](/power-platform/important-changes-coming#legacy-web-client-is-deprecated) will not be available after Tuesday, December 1, 2020, and you must migrate to Unified Interface by this date. We recommend that you migrate your contracts to entitlements at the earliest to avoid any loss in functionality. For information on the migration strategy, see [Strategy for migrating from contracts to entitlements](../administer/contract-to-entitlement-migration.md).
+The Contracts, Contract Line Items, and Contract Templates entities are deprecated and aren't supported as of April 1, 2022. They'll be removed in a future major release of Dynamics 365. This functionality is replaced with [entitlements](../administer/create-entitlement-define-support-terms-customer.md) in Unified Interface. The [web client](/power-platform/important-changes-coming#legacy-web-client-is-deprecated) will not be available after Tuesday, December 1, 2020, and you must migrate to Unified Interface by this date. We recommend that you migrate your contracts to entitlements at the earliest to avoid any loss in functionality. For information on the migration strategy, see [Strategy for migrating from contracts to entitlements](../administer/contract-to-entitlement-migration.md).
 
 ## Standard SLAs in Dynamics 365 Customer Service are deprecated
 
