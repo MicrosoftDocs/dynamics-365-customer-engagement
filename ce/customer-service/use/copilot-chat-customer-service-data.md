@@ -15,9 +15,9 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
-This article explains how to use Copilot for Microsoft 365 to chat with Dynamics 365 Customer Service data.
+This article explains how to use Microsoft Copilot for Microsoft 365 to chat with Dynamics 365 Customer Service data by using the Customer Service plugin.
 
-Copilot for Microsoft 365 works across Microsoft 365 apps to help you unlock business scenarios in your organization. The Customer Service plugin connects the experience for you and your customers.
+Copilot for Microsoft 365 works across Microsoft 365 apps to help you unlock business scenarios in your organization.
 
 The Customer Service plugin works together with Copilot for Microsoft 365 to help you:
 
@@ -37,7 +37,7 @@ You must meet the following prerequisites to use the Customer Service plugin wit
 
 Data that resides inside tables is referred to as *structured data*. Data that's present in static documents, such as Word and PDF files, is referred to as *unstructured data*. The Customer Service plugin mainly supports structured data for now.
 
-## Avaiable out-of-box scenarios
+## Available out-of-the-box scenarios
 
 If you have access to Dynamics 365 Customer Service data, you can turn on the plugin in Copilot for Microsoft 365 and query the data without leaving the tool.
 
