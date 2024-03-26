@@ -84,7 +84,7 @@ Effective October 1, 2020, the service-level agreements (SLAs) are deprecated in
 
 The existing service scheduling functionality is deprecated, and is no longer available as of December 1, 2020. The new scheduling experience, built on Universal Resource Scheduling, is available in Unified Interface.
 
-Existing service scheduling users are provided with advance notice for a time-bound migration to the new scheduling capabilities.
+Existing service scheduling users are provided with advanced notice for a time-bound migration to the new scheduling capabilities.
 
 There are two approaches to migrate to the scheduling experience:
 
