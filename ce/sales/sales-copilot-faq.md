@@ -56,7 +56,7 @@ No, Copilot in Dynamics 365 Sales is not available in the following regions:
 - Singapore (SGP)
 - United Arab Emirates (UAE)
 - Government Community Cloud (GCC)
-- DoD
+- Department of Defence (DoD)
 - China
 
 ## What's the difference between Microsoft Copilot for Sales and Copilot in Dynamics 365 Sales?
