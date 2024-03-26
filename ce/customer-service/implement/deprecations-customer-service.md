@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 11/03/2023
+ms.date: 03/26/2024
 ms.custom: bap-template
 ---
 
@@ -18,9 +18,13 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+## Omnichannel for Customer Service on Unified Service Desk to be deprecated
+
+Effective April 4, 2024, Omnichannel for Customer Service on Unified Service Desk will be deprecated. Support is available until October 2025.
+
 ## Microsoft Power BI template reports for Customer Service Analytics and Omnichannel Insights are deprecated
 
-Effective November 6, 2023, Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) will be deprecated. We recommend that you start using the out-of-box [Omnichannel historical analytics](../use/omnichannel-analytics-insights.md) and [Customer Service historical analytics](../use/customer-service-analytics-insights-csh.md).  
+Effective November 6, 2023, Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) is deprecated. We recommend that you start using the out-of-box [Omnichannel historical analytics](../use/omnichannel-analytics-insights.md) and [Customer Service historical analytics](../use/customer-service-analytics-insights-csh.md).  
 
 The deprecated features will be supported and there will be no change in product availability until Feb 28, 2024. Starting April 30, 2024, deprecated features won’t be available to download.  
 
@@ -36,7 +40,7 @@ With the release of the Customer Service admin center app that consolidates admi
 
 - Service Management area in the Customer Service Hub app
 - Omnichannel admin center
-- **App profile manager:** Is removed in April 2023.
+- **App profile manager:** Was removed in April 2023.
 
 Also, as of October 2022, the Omnichannel admin center and the service management area in Customer Service Hub are hidden by default in newly created organizations and environments. You can bring them back, but we recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
@@ -66,8 +70,6 @@ For any questions, contact your Microsoft Customer Service representative or Mic
 
 Effective October 01, 2020, the automatic record creation and update rules are deprecated in the web client. We recommend that you migrate your automatic record creation rules that were created in the web client to the new Unified Interface experience. For information on how to migrate the rules, see [Migrate automatic record creation rules and service-level agreements](../administer/migrate-automatic-record-creation-and-sla-agreements.md). You can also refer to the migration playbook, which includes all the information you need to work on the migration. More information: [Dynamics 365 SLA and ARC Migration Playbook](https://www.d365implementationguide.com/books/aiij/).
 
-Microsoft will continue to provide support and critical security updates for these features in the web client until April 01, 2023.
-
 > [!NOTE]
 > The deprecation isn't applicable to the features in Dynamics 365 Customer Engagement (on-premises).
 
@@ -75,14 +77,12 @@ Microsoft will continue to provide support and critical security updates for the
 
 Effective October 1, 2020, the service-level agreements (SLAs) are deprecated in the web client. We recommend that you migrate your SLAs that were created in the web client to the new Unified Interface experience. For information on how to migrate the items, see [Migrate automatic record creation rules and service-level agreements](../administer/migrate-automatic-record-creation-and-sla-agreements.md). You can also refer to the migration playbook, which includes all the information you need to work on the migration. More information: [Dynamics 365 SLA and ARC Migration Playbook](https://www.d365implementationguide.com/books/aiij/).
 
-Microsoft will continue to provide support and critical security updates for these features in the web client until April 1, 2023.
-
 > [!NOTE]
 > The deprecation isn't applicable to the features in Dynamics 365 Customer Engagement (on-premises).
 
 ## Service scheduling in Dynamics 365 Customer Service is deprecated
 
-The existing service scheduling functionality is deprecated, and is longer available as of December 1, 2020. The new scheduling experience, built on Universal Resource Scheduling, is now available in Unified Interface.
+The existing service scheduling functionality is deprecated, and is no longer available as of December 1, 2020. The new scheduling experience, built on Universal Resource Scheduling, is available in Unified Interface.
 
 Existing service scheduling users will be provided advance notice for a time bound migration to the new scheduling capabilities.
 
@@ -106,7 +106,7 @@ The Customer Service Insights standalone app is deprecated. We recommend that yo
 
 ## Customer Service workspace legacy layout is deprecated
 
-The Customer Service workspace legacy layout is deprecated as of April 2023, and won't be supported after October 2023. For more information, see [Deprecated Customer Service workspace layout](csw-overview.md#deprecated-customer-service-workspace-layout)
+The Customer Service workspace legacy layout is deprecated as of April 2023, and is no longer supported as of October 2023. For more information, see [Deprecated Customer Service workspace layout](csw-overview.md#deprecated-customer-service-workspace-layout)
 
 ## ResponsibleContactId lookup attribute is deprecated
 
