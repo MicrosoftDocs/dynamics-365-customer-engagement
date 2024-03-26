@@ -17,6 +17,12 @@ ms.custom:
 
 This article answers frequently asked questions about licenses and storage in Dynamics 365 Sales, Sales premium, and Sales professional.
 
+<a name="license-compliance"></a>
+## How do I ensure that my organization is compliant with the Dynamics 365 licensing terms and conditions?
+
+Review the [Licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409) to ensure that you have the appropriate licenses for all the Dynamics 365 features and functionalities that you're using.
+
+ 
 ## What's the difference between Sales Premium and Sales Insights?
 
 Sales Premium, like Sales Enterprise, is a type of license. Sales Insights is an add-in for Dynamics 365 Sales. Sales Premium includes all Sales Enterprise capabilities and premium Sales Insights capabilities. Sales Enterprise includes basic Sales Insights capabilities. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
