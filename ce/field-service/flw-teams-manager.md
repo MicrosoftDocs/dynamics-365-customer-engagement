@@ -1,7 +1,7 @@
 ---
 title: Work with Field Service in Teams (frontline managers)
 description: Learn how service managers and dispatchers can use the Dynamics 365 Field Service Teams app to create, view, update, and schedule work orders in Teams.
-ms.date: 03/06/2024
+ms.date: 03/26/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -151,11 +151,15 @@ While you're viewing a work order, you can also:
 
 - Open a map to locate the service address. Select the **Open in Bing Maps** :::image type="icon" source="media/fsp-flm-map-icon.png"::: icon.
 
-## Edit a work order in Teams
+## Edit a work order
 
 1. [View the work order](#view-a-work-order) you want to edit.
 
 1. Make the necessary changes and select **Save**.
+
+## Share work order information
+
+[!INCLUDE [fsp-share-wo](../includes/fsp-share-wo.md)]
 
 ## Call for remote collaboration through Remote Assist
 

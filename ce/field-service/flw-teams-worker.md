@@ -1,7 +1,7 @@
 ---
 title: Work with Field Service in Teams (frontline workers)
 description: Learn how field technicians and other frontline workers can use the Dynamics 365 Field Service Teams app to view and update work orders in Teams on their mobile devices.
-ms.date: 03/06/2024
+ms.date: 03/26/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -90,6 +90,10 @@ Your admin might have installed the app for your organization. If you see the Fi
    - [Launch Remote Assist for remote collaboration](#call-for-remote-collaboration-through-remote-assist)
 
 1. If you made changes, select **Save**.
+
+## Share work order information
+
+[!INCLUDE [fsp-share-wo](../includes/fsp-share-wo.md)]
 
 ## Call for remote collaboration through Remote Assist
 
