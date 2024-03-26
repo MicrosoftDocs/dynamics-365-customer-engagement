@@ -30,7 +30,7 @@ Perform the following steps:
 1. In [Power Apps](https://make.powerapps.com/), select the required solution.
 1.  Select and [add the following setting definitions](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition):
 
- - **Enhanced outbound dialer April 2024 improvements**: Enables agents to select and open customers records from the recently dialled number list in the outbound dialer.
+ - **Enhanced outbound dialer April 2024 improvements**: Enables agents to select and open customers records from the recently dialed number list in the outbound dialer.
  - **Enhanced outbound dialer contact search experience**: Agents can search for contacts and accounts by name.
 
 1. Select the setting definitions, and set the **Setting environment value** option to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).

@@ -37,7 +37,7 @@ As an administrator, you can enable live translation, transcription and recordin
 
 1. Set **Allow agents to pause and resume** if you want to allow agents to control the portions of conversations that they record and transcribe.
 
-1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** if recording and transcription must be paused when the agent puts the customer on hold and resume when the agents takes the customer off hold.
+1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** if recording and transcription must be paused when the agent puts the customer on hold and resumed when the agents takes the customer off hold.
 
 1. Select **Save**.
 

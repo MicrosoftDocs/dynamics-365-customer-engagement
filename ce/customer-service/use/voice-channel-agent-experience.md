@@ -30,12 +30,12 @@ The conversation panel in the agent dashboard includes the following call contro
 > ![Screenshot of call controls.](../media/voice-channel-call-controls.png)
 
 - **Mute**: Mute your microphone so your voice isn't audible to the customer.
-- **Hold**: Put the customer on hold; the customer hears the hold music. You can keep only one caller on hold at a time. If your administrator has enabled the **Allow automatic pause and resume when agents hold and un-hold the customer** option, the recording and transcription of the call are paused when you put the customer on hold and resume when you remove the customer from hold. If the option is disabled, you must manually pause and resume the recording and transcription.
+- **Hold**: Put the customer on hold; the customer hears the hold music. You can keep only one caller on hold at a time. 
+To avoid the recording and transcription of what you say while the customer is on hold, your administrator can enable the **Allow automatic pause and resume when agents hold and un-hold the customer** option. With this option, recording and transcription are paused when you put the customer on hold and resumed when you remove the customer from hold. If the option is disabled, you must manually pause and resume the recording and transcription.
 - **Consult**: Select this option to consult with a participant. You can consult with or bring another agent or supervisor into the call. You can have a *public* consultation, where the customer is actively involved in the conversation. Or you can have a *private* consultation, where you can put the customer on hold before you talk to your peers or supervisor.
 
   > [!NOTE]
   > When you initiate a consult, you are the primary agent and the new participant has a consult role. Select **Transfer** next to the participant to transfer the call to the consulting agent or supervisor. Once the call is transferred, you are the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call will end for the customer.
-
 - **Transfer**: Select this option is to transfer the call to an agent, queue, a Teams user, or an external phone number. After you transfer the call, the agent to whom the call is transferred is the primary agent and you'll no longer be on the call.
     During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls continue if the administrator enabled the [option](../administer/voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice). You can disable recording from the dashboard. See: [Transfer and consult scenarios](voice-channel-transfer-consult.md)
 - **End**: End the call.

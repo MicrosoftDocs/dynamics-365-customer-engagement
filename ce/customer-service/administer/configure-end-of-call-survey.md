@@ -54,11 +54,11 @@ ACSCallSurvey
 
 ```
 
-## Automatically remove a customer from hold
+## Disable automatically taking a customer off hold
 
-When you transfer a call to another agent, the customer is automatically put on hold. If the customer must be removed from hold automatically when the secondary agent accepts the transferred call, instead of the agent manually removing the customer from hold, perform the following steps:
+When you transfer a call to another agent, the customer is automatically put on hold. The customer is removed from hold automatically when the secondary agent accepts the transferred call. To disable this behavior, and manually take the customer off hold, perform the following steps:
 - In Customer Service admin center, select **Workspaces** and then select **Voice call experiences**.
-- Switch the **Un-hold customer after agent transfer is accepted** toggle to **On**. 
+- Turn off the **Un-hold customer after agent transfer is accepted** toggle. 
 
 ## Next steps
 
