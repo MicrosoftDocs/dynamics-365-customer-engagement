@@ -1,15 +1,16 @@
 ---
-title: "Authenticate channel users in Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Learn how to authenticate channel users in Dynamics 365 Channel Integration Framework 2.0."
+title: Authenticate channel users in Dynamics 365 Channel Integration Framework 2.0
+description: Learn how to authenticate channel users in Dynamics 365 Channel Integration Framework 2.0.
 author: gandhamm
 ms.author: mgandham
-ms.date: 09/27/2022
+ms.topic: article
+ms.date: 03/21/2024
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# Authenticate users to log in to the channel
+# Authenticate users to sign in to the channel
 
 [!INCLUDE[token-authenticate-channel-users](../../shared/token-authenticate-channel-users.md)]
 

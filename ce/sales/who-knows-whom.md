@@ -75,7 +75,6 @@ You can choose to opt out if you don't want Dynamics 365 to collect and analyze 
 ### See also
 
 [Configure who knows whom](configure-who-knows-whom.md)  
-[Who knows whom FAQs](faqs-sales-insights.md#who-knows-whom)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 
