@@ -86,7 +86,5 @@ For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../
 ### See also
 
 [Configure Notes analysis](configure-notes-analysis.md)  
-[Notes analysis FAQs](faqs-sales-insights.md#notes-analysis)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

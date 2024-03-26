@@ -13,7 +13,7 @@ ms.author: lavanyakr
 Configure relationship analytics to specify whether you want to use Exchange data for enhanced insights. You can also configure parameters that would determine the customer relationship health. These configurations are only supported for Sales Premium customers.
 
 >- [Basic relationship analytics](relationship-analytics-overview.md#basic-relationship-insights) is available out-of-the-box in all regions for Sales Enterprise users and doesn't require any setup.
->- [Enhanced relationship analytics](relationship-analytics-overview.md#enhanced-relationship-insights) is available for Sales Premium users and is available only in [specific regions](faqs-sales-insights.md#in-which-region-are-the-features-available).
+>- [Enhanced relationship analytics](relationship-analytics-overview.md#enhanced-relationship-insights) is available for Sales Premium users and is available only in [specific regions](faq-region-language.md#in-which-region-are-sales-premium-features-available).
 >- For Office 365 data, your organization's data location must be in one of the following locations and not in your region-specific datacenter location:
 >    - Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands)
 >    - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
@@ -81,6 +81,5 @@ For more information about how to view the analytics, see [Use relationship anal
 [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)  
 [Sales Insights and privacy](embedded-intelligence-privacy.md)  
 [View and export KPI data](view-export-KPI-data.md)  
-[Relationship analytics and health FAQ](faqs-sales-insights.md#relationship-analytics-and-health)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
