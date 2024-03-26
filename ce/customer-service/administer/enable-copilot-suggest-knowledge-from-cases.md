@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: 
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 03/22/2024
+ms.date: 04/05/2024
 ms.custom: bap-template
 ---
 
@@ -44,6 +44,8 @@ To learn about supported languages for Copilot, see [Language support for AI-bas
 ### See also
 
 [Use Copilot to generate knowledge drafts from cases](../use/use-copilot-knowledge-from-cases.md)  
+[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)  
+[FAQ for Copilot in Customer Service](faq-copilot-features.md)  
 
 
 
