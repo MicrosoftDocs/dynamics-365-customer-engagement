@@ -59,8 +59,8 @@ Some examples of prompts are as follows:
 
 ### See also
 
-[Use Copilot to solve customer issues](use-copilot-features.md)<br>
-[Understand Copilot language support](copilot-language-support.md)<br>
-[Manage copilot features in Customer Service](../administer/configure-copilot-features.md)<br>
-[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)<br> 
-[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md)
+[Use Copilot to solve customer issues](use-copilot-features.md)  
+[Understand Copilot language support](copilot-language-support.md)  
+[Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  
+[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
+[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md)  
