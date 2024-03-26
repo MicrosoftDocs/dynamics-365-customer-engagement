@@ -16,10 +16,6 @@ See [supported geographies, regions, and languages](flw-overview.md#supported-ge
 
 This article summarizes public preview features, general availability enhancements, and feature updates.
 
-## Feruary 5, 2024
-
-This public preview release includes [draft email responses using Copilot for proposed schedules and schedule confirmations](flw-outlook.md#draft-an-email-response-with-copilot).
-
 ## December 5, 2023
 
 This release includes the following changes:

@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft 365 integration for Field Service
 description: Learn how to integrate Dynamics 365 Field Service with Outlook, Teams, and Viva Connections for your organization, including setting up user groups, deploying apps, and assigning security roles.
-ms.date: 02/01/2024
+ms.date: 03/26/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
