@@ -95,6 +95,8 @@ The following events occur when you select the **Consult** button:
 
 1. You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays only those agents whose skills match the selected criteria along with their name, and current presence status.
 
+   :::image type="content" source="../media/add-to-consult.png" alt-text="Select the people icon to add the secondary agent to the conversation.":::
+
 1. Select and invite an agent, and then start a consultation.
 
 1. The secondary agent receives a notification for the consult request.
@@ -109,7 +111,6 @@ The following events occur when you select the **Consult** button:
 
 2. The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
 
-   :::image type="content" source="../media/add-to-consult.png" alt-text="Select the people icon to add the secondary agent to the conversation.":::
 
 Additionally, the following considerations apply:
 
