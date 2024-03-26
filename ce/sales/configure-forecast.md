@@ -136,6 +136,6 @@ If you don't want to see the forecast category in the opportunity form, you need
 [View forecasts](view-forecasts.md)  
 [About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)
 [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)  
-[Forecasting FAQs](faqs-sales.md#forecasting)
+[Forecasting FAQs](faq-forecasting.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
