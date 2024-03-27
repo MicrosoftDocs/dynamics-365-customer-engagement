@@ -70,7 +70,7 @@ Avoid the following actions to prevent call drops:
 - Open the Customer Service workspace or Omnichannel for Customer Service app in more than one tab in the browser. It causes issues in agent presence.
 - Close the session directly to end call. If you do, the conversation moves from active to wrap up. Then if you close the session, the state goes from wrap up to closed. So, we recommend that you go through the conversation status route and select the **End** button and then close the session to take care of the wrap-up activities.
 
-## Share feedback on call quality (preview)
+## Share feedback on call quality
 
 > [!Important]
 > - This is an early access feature. 

@@ -16,7 +16,7 @@ Use the **Voice call experiences** page in Customer Service admin center to conf
 - [Configure agent call quality feedback survey (preview)](#configure-agent-call-quality-feedback-survey-preview)
 - [Automatically remove a customer from hold](#automatically-remove-a-customer-from-hold)
 
-## Configure agent call quality feedback survey (preview)
+## Configure agent call quality feedback survey 
 
 > [!Important]
 > - This is an early access feature. 
