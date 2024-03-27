@@ -37,8 +37,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 4. On the **Convert to PDF** page, select the entities for which you want to enable the PDF generation capability.
 
-    > [!div class="mx-imgBorder"]
-    > ![Convert to PDF settings.](media/convert-to-pdf-setting-enhanced "Convert to PDF settings")
+    :::image type="content" source="media/convert-to-pdf-setting-enhanced.png" alt-text="Screenshot of the Convert to PDF page":::
 
     1. To see only the entities on which PDF generation is currently enabled, turn on the **Show only enabled entities** toggle.  
     2. To filter the list of entities and find a specific entity on which you want to enable PDF generation, use the **Filter by entity name** field. For example, to enable PDF generation on the Opportunity entity, enter **opp** and you'll see the entity name list filtered to show the entity names starting with *opp*.  
@@ -66,8 +65,7 @@ After you enable PDF generation, sellers will be able to generate a PDF, downloa
 
 3. On the **Convert to PDF** page, select the entities for which you want to enable the PDF generation capability.
 
-    > [!div class="mx-imgBorder"]
-    > ![Convert to PDF settings.](../sales/media/convert-to-pdf-setting-enhanced.png "Convert to PDF settings")
+    :::image type="content" source="media/convert-to-pdf-setting-enhanced.png" alt-text="Screenshot of the Convert to PDF page":::
 
     1. To see only the entities on which PDF generation is currently enabled, set the **Show only enabled entities** option to **Yes**.  
     2. To filter the list of entities and find a specific entity on which you want to enable PDF generation, use the **Filter by entity name** field. For example, to enable PDF generation on the Opportunity entity, enter **opp** and you'll see the entity name list filtered to show the entity names starting with *opp*.  
