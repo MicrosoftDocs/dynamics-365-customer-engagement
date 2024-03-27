@@ -27,7 +27,7 @@ Dynamics 365 Sales offers a 30-day free trial with the Sales Premium license. Af
 
 1. Follow the onscreen guidance to provide additional information about yourself and your organization, such as country and phone number.  
 
-   The trial takes a few minutes to set up and load.
+   The trial takes a few minutes to set up and load. When it's ready, you'll see **Launch trial**.
 
 3. Select **Launch Trial**.
 
