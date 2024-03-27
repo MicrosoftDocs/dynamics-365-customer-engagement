@@ -18,7 +18,6 @@ To familiarize yourself with the call controls, see [Understand how to use the a
 
 When you receive an incoming call, you can transfer the call to an agent, a queue, a public switched telephone network(PSTN) Teams user, or an external PSTN number. After you transfer the call, the following actions occur:
 
-
  - The customer is automatically put on hold. Hold music plays for the customer. 
  - By default, the customer is automatically removed from hold once a secondary agent accepts the transferred call. If the **Un-hold customer after agent transfer is accepted** setting is disabled, the primary agent must manually remove the customer from hold.
 
@@ -40,7 +39,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
     - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The agent who picks up the transferred call becomes the primary agent and you become the secondary agent and are removed from the call. The primary agent must manually remove the customer from hold.<br>
 
         > [!div class="mx-imgBorder"]
-        > ![Screenshot of queue transfer](../media/oc-transfer-q.png)<br>
+        > ![Screenshot of queue transfer](../media/oceh-cc-transfer-queue.png)<br>
     
     - **Transfer to an external PSTN number**: Select **Number pad**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. <br>
 
@@ -56,7 +55,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
 
 ## How you can use consult to collaborate with other agents or supervisors
 
-You can collaborate with another agent, a supervisor, or an external participant (PSTN number or a Teams PSTN number) by using the consult option.  
+You can collaborate with another agent, a supervisor, or an external participant (PSTN number or a Teams PSTN number) by using the consult option. You can initiate a chat or call consult or both.
 
 When you initiate a consult, the following actions occur:
 - You're the primary agent. 
