@@ -45,6 +45,9 @@ To test your microphone and speaker, do the following steps:
      - Search for a contact or account by name. The results are displayed in a dropdown. You can select **Account** or **Contact** to filter the results further. Once you select the customer's name, the application displays the customer's phone number, name, country, country code, and outbound profile that you can use to make the call.
       > [!NOTE]
       > For a contact, you'll see the business number and the mobile number. For an account you'll see the main phone number.
+
+      [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+
      - On the input box, you can copy, type in a number, or select a number from the recently dialled numbers. The country code dropdown displays the list of supported countries and regions that you can call. 
      - View and call from the most recently dialed called numbers. By default, the last 20 calls that you’ve received or made are displayed.
      - You can select the customer's name in **Recents** to view the customer's account or contact details in a new session.
