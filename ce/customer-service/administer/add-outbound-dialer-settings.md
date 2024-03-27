@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-In the outbound dialer, agents can search for customers by name. Agents can also select and open a customer's record from the recently dialled number list, allowing them to quickly find and open records for the customer they're speaking with.
+In the outbound dialer, agents can search for customers by name. Agents can also select and open a customer's record from the recently dialed number list, allowing them to quickly find and open records for the customer they're speaking with.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
@@ -32,7 +32,7 @@ In the outbound dialer, agents can search for customers by name. Agents can also
 Perform the following steps:
 
 1. In [Power Apps](https://make.powerapps.com/), select the required solution.
-1.  Select and [add the following setting definitions](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition):
+1.  Select and [edit the following setting definitions](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition):
 
  - **Enhanced outbound dialer April 2024 improvements**: Enables agents to select and open customers records from the recently dialed number list in the outbound dialer.
  - **Enhanced outbound dialer contact search experience**: Agents can search for contacts and accounts by name.
