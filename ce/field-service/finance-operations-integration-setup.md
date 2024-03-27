@@ -35,7 +35,7 @@ Set up the integration between Dynamics 365 Field Service and finance and operat
 
 1. Open the **Dynamics 365 Field Service integration parameters** tab. For each legal entity that uses Field Service, provide the required values.
 
-    ![A screenshot of the "Dynamics 365 Field Service integration parameters" tab in finance and operations applications.](./media/image2.png)
+   :::image type="content" source="media/fno-fs-project-mgmt-accouting.svg" alt-text="Screenshot of Finance and operations Project management and account parameters page for Field Service integration.":::
 
 ### Enable and map dual-write
 
@@ -45,7 +45,7 @@ The integration depends on [dual-write](/dynamics365/fin-ops-core/dev-itpro/data
 
 1. Select **Dual-write**.
 
-1. Select **Apply solution** and apply the following solutions:
+1. Select **Apply solution** in the command bar and apply the following solutions:
 
     - Dual-write applications core entity maps
 
@@ -53,20 +53,39 @@ The integration depends on [dual-write](/dynamics365/fin-ops-core/dev-itpro/data
 
     - Dynamics 365 Supply Chain Management extended entity maps
 
-1. For each of the following required table mappings, select **Run** and select **Initial Sync**:
+   :::image type="content" source="media/fno-dual-write-table-maps.svg" alt-text="Screenshot of Finance and operations Dual write  page for Field Service integration.":::
 
-   | Table maps | | |
-   | ---------- | ------------- | ---------------- |
-   | All products | Customer payment method  | Storage dimensions groups  |
-   | CDS Contacts V2  | Customers V3 (accounts)   | Styles  |
-   | CDS Contacts V2 | Customers V3 (contacts) | Terms of payment |
-   | CDS Customer Contacts | Payment days CDS | Tracking dimensions groups |
-   | CDS Released distinct products | Payment schedule | Units |
-   | CDS Vendor Contacts | Product dimensions groups | Vendor groups |
-   | Colors   | Released products V2      | Vendor payment method      |
-   | Configurations | Sales tax groups | Vendors V2  |
-   | Currencies  | Sites   | Warehouses   |
-   | Customer groups  | Sizes    |   |
+1. Select each of the following required table mappings. Then select **Run** and **Initial Sync**.
+
+   - All products
+   - CDS Contacts V2
+   - CDS Contacts V2
+   - CDS Customer Contacts
+   - CDS Released distinct products
+   - CDS Vendor Contacts
+   - Colors
+   - Configurations
+   - Currencies
+   - Customer groups
+   - Customer payment method
+   - Customers V3 (accounts)
+   - Customers V3 (contacts)
+   - Payment days CDS
+   - Payment schedule
+   - Product dimensions groups
+   - Released products V2
+   - Sales tax groups
+   - Sites
+   - Sizes
+   - Storage dimensions groups
+   - Styles
+   - Terms of payment
+   - Tracking dimensions groups
+   - Units
+   - Vendor groups
+   - Vendor payment method
+   - Vendors V2
+   - Warehouses
 
 ### Assign security roles
 
@@ -110,7 +129,7 @@ To ensure that the integration can successfully integrate journals related to it
 
 1. Select **Install the integration solution** from the **Install Finance and Operations** control. A notification appears when the installation completes.
 
-1. Enable **Finance and Operations Integration**.
+1. Enable **Finance and Operations Integration** and confirm.
 
 ### Configure posting behaviors
 
