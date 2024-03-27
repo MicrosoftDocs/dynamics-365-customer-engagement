@@ -73,7 +73,7 @@ The following table lists the channels and the associated procedures to configur
 | WhatsApp                     | [Configure a new WhatsApp channel](../administer/configure-whatsapp-channel.md).|
 | Facebook                     | [Configure a new Facebook channel](../administer/configure-facebook-channel.md). <br> **Note:** Delete the existing channel only to remove it from the workstream. |
 | LINE                         | [Configure a LINE channel](../administer/configure-line-channel.md)                 |
-| Apple Messages for Business  | [Configure an Apple Messages for Business channel](../administer/configure-apple-business-messages-channel.md) |
+| Apple Messages for Business  | [Configure an Apple Messages for Business channel](../administer/configure-apple-messages-for-business-channel.md) |
 | Google’s Business Messages   | [Configure a Google’s Business Messages channel](../administer/configure-google-business-messages-channel.md) |
 | Microsoft Teams   | [Configure a Microsoft Teams channel](../administer/configure-microsoft-teams.md) |
 | WeChat   | [Configure a WeChat channel](../administer/configure-wechat-channel.md) |
