@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in the Dynamics 365 Field Service web application
 description: Learn how to use Copilot to summarize records, catch up on recent changes, and prepare for onsite jobs.
-ms.date: 03/22/2024
+ms.date: 03/27/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE [preview-disclaimer](../includes/public-preview-banner.md)]
 
-Copilot is a next-generation AI assistant that helps you be more productive and efficient in your daily work the Dynamics 365 Field Service web app. Copilot can summarize information about your work order and service accounts, help you catch up on recent changes to your records, prepare for onsite visits, and answer questions about related information. It has a chat interface that dispatchers and technicians can use Copilot through conversation in natural language.
+Copilot is a next-generation AI assistant that helps you be more productive and efficient in your daily work the Dynamics 365 Field Service web app. Copilot can summarize information about your work order and service accounts, help you catch up on recent changes to your records, prepare for onsite visits, and answer questions about related information. It has a chat interface that dispatchers and technicians can use to interact with Copilot in natural language.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
@@ -23,18 +23,19 @@ An administrator has to enable the copilot feature for all users in the environm
 
 ## Open Copilot
 
-1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app. Select the icon again to minimize the copilot pane.
+To open the copilot pane, select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the app header.
 
-1. Select the sparkle icon (:::image type="icon" source="../sales/media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with.
+Select the icon again to minimize the copilot pane.
+
+:::image type="content" source="media/copilot-side-pane-web.svg" alt-text="Copilot in Field Service answering questions of a user in the Field Service web app.":::
 
 ## Chat with Copilot
 
 Use predefined prompts to get the most out of Copilot. The following list provides a quick reference to predefined prompts.
 
 - List work orders for {service account name}.
-- Summarize work order {work order number}.
-- Who's the main contact for {service account name}?
-- When was the asset {asset name} last serviced?  
+- Who is booked for work order {work order number}?
+- What are the products used on work order {work order number}?
 
 ## Region availability and languages supported
 
