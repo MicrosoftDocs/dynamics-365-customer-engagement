@@ -105,8 +105,9 @@ Do the following for the channel in which you want to create custom automated me
 | Transfer to agent accepted  | Message displayed to the customer when the conversation is transferred successfully. | When another agent accepts the transfer request.| Customer |
 |Offer customer callback |The callback message played for the customer when the wait times are longer than expected.| When the customer calls and wait time is long.| Customer |
 | Customer callback response | When the customer presses 1 on the call menu, a confirmation message is played to indicate the customer choice.| Customer presses 1 on the call menu. The response to offer customer callback message is played.| Customer |
+| Queue overflow conditions where the corresponding action is direct callback| The system presents an automated message to the customer that asks if they prefer a callback by the agent instead of waiting in the queue.| The first automated message plays after the customer waits for 30 seconds and then repeats after every 120 seconds until the customer selects the option, ends the call, or is connected to an agent.| Customer |
 
-## Best practices for using automated messages 
+## Best practices for using automated messages
 
 Use the following best practices when you configure automated messages for the voice channel:
 
