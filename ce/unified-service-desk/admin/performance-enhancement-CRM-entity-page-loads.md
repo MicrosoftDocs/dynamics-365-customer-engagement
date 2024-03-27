@@ -10,6 +10,7 @@ search.audienceType:
 ms.custom:
   - dyn365-USD
   - dyn365-admin
+ai.usage: ai-assisted
 ---
 
 # Load app pages faster with pooling in Unified Service Desk
