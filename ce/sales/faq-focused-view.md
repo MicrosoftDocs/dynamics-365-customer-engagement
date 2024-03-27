@@ -19,13 +19,13 @@ This article answers frequently asked questions about focused view in Dynamics 3
 
 ## Is there any administration setup required to use focused view?
 
-No. Focused view is available out of the box and doesn't require any setup. However, if it's disabled, an administrator can enable it. More information: [Configure focused view as default](set-focused-view-as-default.md).
+ No. Focused view is available out of the box and doesn't require any setup. However, if it's disabled, an administrator can enable it. More information: [Configure focused view as default](set-focused-view-as-default.md).
 
 ## Why isn't the focused view opening by default for leads?
 
 The following list includes the possible reasons why the focused view isn't opening by default for leads:
 
-- Your administrator has set a custom data set as the default for the lead entity, and the focused view will not override this. If you want the focused view to be the default, you must update this customization to set the focused view as the default, or remove the existing customizations.
+- Your administrator has set a custom data set as the default for the lead entity, and the focused view won't override this. If you want the focused view to be the default, you must update this customization to set the focused view as the default, or remove the existing customizations.
 - After enabling early access, if you switch to a different grid using the **Show as** option, focused view remembers the most recently used option for that entity type and opens it the next time. To resolve this, select **Show as** > **Focused view** to open the focused view.
 - Your administrator would have disabled focused view for leads. More information: [Enable focused view for all records](enable-focused-view.md)  
 
@@ -57,13 +57,13 @@ Yes, focused view is available for all entities. To configure focused view as th
 
 By default, the lead entity grid opens in focused view. Also, your administrator can configure to set focused view as default for other entities such as Account, Contact, Opportunity, and custom. More information: [Open the focused view](focused-view.md#open-the-focused-view).
 
-## Why can't I see the focused view option in dashboards and sub-grids?
+## Why can't I see the focused view option in dashboards and subgrids?
 
-Focused view is available only on main grids and not supported in dashboards and sub-grids.
+Focused view is available only on main grids and not supported in dashboards and subgrids.
 
 ## How can I see other views in an entity and change from the focused view?
 
-If there are multiple views available for an entity, you can find them under the **Show As** option. However, if there's only one view available, you'll see the **Read Only Grid** option. More information: [Switching a view](focused-view.md#understand-the-focused-view) 
+If there are multiple views available for an entity, you can find them under the **Show As** option. However, if there's only one view available, you see the **Read Only Grid** option. More information: [Switching a view](focused-view.md#understand-the-focused-view) 
 
 ## Why don't I see focused view even if it's default for an entity?
 
