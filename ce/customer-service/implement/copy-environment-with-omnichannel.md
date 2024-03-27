@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: 
 ms.topic: how-to
 ms.collection: 
-ms.date: 03/26/2024
+ms.date: 03/28/2024
 ms.custom: bap-template
 ---
 
@@ -62,7 +62,7 @@ The Live Chat widget snippets are regenerated in the target environment to match
 
 For the channels that exist in your target environment, perform the steps as follows:
 
-1. Delete the existing channel or page and dissociate the channel from the corresponding channel-specific workstream.
+1. [Delete the existing channel or page](../administer/delete-channel.md) and dissociate the channel from the corresponding channel-specific workstream.
 1. Configure the channel again and update the channel-specific workstream with the newly configured channel.
 
 The following table lists the channels and the associated procedures to configure them.
