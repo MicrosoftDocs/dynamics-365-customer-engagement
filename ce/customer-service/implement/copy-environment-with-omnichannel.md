@@ -86,7 +86,7 @@ The following table lists the channels and the associated procedures to configur
 ### Review Copilot Studio bots
 
 1.	Delete the Copilot Studio bots from all existing workstreams and the environment.
-2.	Create a bot or connect a previously configured bot specific to the target environment and configure with channel workstreams.
+2.	[Create a bot](../administer/manage-your-bots.md#add-a-bot) or connect a previously configured bot specific to the target environment and configure with channel workstreams.
 3.	Make sure that you update the existing workstreams to use the new bot.
 
 > [!NOTE]
