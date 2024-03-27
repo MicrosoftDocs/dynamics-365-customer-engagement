@@ -9,7 +9,7 @@ ms.author: lavanyakr
 
 # Install the Sales Professional app
 
-The Sales Professional app provides essential sales force automation for organizations that have straightforward sales processes. With Sales Professional, your sellers can automate common, repetitive, daily tasks and focus on what matters. Before your organization can start using Sales Professional, you need to install the app in a Power Platform environment that has Dynamics 365 apps enabled.
+The Sales Professional app provides essential automation for sales organizations. With Sales Professional, your sellers can automate common, repetitive, and daily tasks. Before your organization can start using Sales Professional, you need to install the app in a Power Platform environment that has Dynamics 365 apps enabled.
 
 - If you have a Power Platform environment, [install the Sales Professional app](#install-the-sales-professional-app-in-an-existing-environment).
 - If you don't have a Power Platform environment already, [create one and install the Sales Professional app](#create-an-environment-for-sales-professional).

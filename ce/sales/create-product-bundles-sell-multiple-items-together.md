@@ -80,7 +80,9 @@ Here are some things to know about bundles:
   
 6. On the **Bundle Products** tab, select **Add New Product Association**.  
   
-    The **Product Association** page opens.  
+    The **Product Association** page opens. 
+    > [!NOTE]
+    > You can add or delete product associations only when the product bundle is in draft or retired state. To add or delete products in a bundle that is in active or under revision state, clone the product bundle. This creates a new bundle with a new ID in draft state. You can then add or delete products in the new bundle.
   
 7. Select products that you want to add to the bundle.  
   

@@ -1,10 +1,12 @@
 ---
 title: Microsoft Teams calls with conversation intelligence
 description: Learn how to use Microsoft Teams dialer and conversation intelligence with the Dynamics 365 Sales Enterprise license.
-ms.date: 09/12/2023
-ms.topic: article
+ms.date: 02/02/2024
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.owner: shujoshi
+ms.custom: bap-template
 ---
 
 # Microsoft Teams calls with conversation intelligence
@@ -32,13 +34,7 @@ With the Sales Enterprise license, you get unlimited number of conversation inte
 
 ## Set up Microsoft Teams calls with conversation intelligence
 
-1. On the **Get started with digital sales** page, under **Microsoft Teams calls with conversation intelligence**, select **Quick setup**.
-
-    :::image type="content" source="media/ds-get-started.png" alt-text="Get started page for setting up digital sales.":::
-
-    The **Teams calls + conversation intelligence quick setup** panel is displayed.
-
-    :::image type="content" source="media/ds-ci-setup.png" alt-text="Teams calls + conversation intelligence quick setup panel.":::
+1. On the **Sales settings** page, under **Conversation intelligence**, select **Quick setup**.
 
     > [!NOTE]
     > To use Teams calls, sellers will need valid licenses for Microsoft Teams, Phone System, and Calling Plan or Direct Routing, in addition to assigned phone numbers. [Learn more](https://go.microsoft.com/fwlink/?linkid=2180901)
@@ -50,8 +46,6 @@ With the Sales Enterprise license, you get unlimited number of conversation inte
         Allows sellers to receive Teams calls in Dynamics 365 Sales. If you turn it off, sellers can only make outgoing Teams calls from within Dynamics 365.
     - **Internal call will ring only in the Teams app, not in Dynamics 365**
         Indicates that calls from internal users won't ring and won't be tracked in Dynamics 365. In this case, calls from external contacts will ring in Dynamics 365 and internal calls will ring only in Teams. You can clear the checkbox if you want sellers to receive both external and internal calls in Dynamics 365.  
- 
-
     - In the **Enable for** section, select one of the following options to provide permissions to users to view Microsoft Teams dialer:
         - **All security roles**: Select this option to provide access to view Microsoft Teams dialer to users in all the security roles in your organization.
         - **Specific security roles**: Select this option to specify security roles when you want to give access to view Microsoft Teams dialer to specific users.
@@ -78,7 +72,6 @@ After settings are enabled, sellers can make Teams calls to their customers from
 If you want to make advanced configurations for Teams calls and conversation intelligence settings, select **Go to advanced conversation intelligence settings** at the top of the quick setup panel. For information about advanced configurations, go to [First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md).
 
 :::image type="content" source="media/ds-ci-advanced-setup.png" alt-text="Advanced settings link in quick setup panel for Teams calls + conversation intelligence.":::
-
 
 ## Turn off Teams calls and conversation intelligence
 

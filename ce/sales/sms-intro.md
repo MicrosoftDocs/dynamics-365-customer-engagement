@@ -1,7 +1,7 @@
 ---
 title: Engage with customers through text messages
 description: Enable your sellers to send text messages (SMS) to customers and refer previous communications in context without leaving the application or losing view of customers' details.
-ms.date: 06/23/2023
+ms.date: 02/16/2024
 ms.topic: overview
 ms.custom: bap-template
 author: udaykirang
@@ -13,7 +13,7 @@ ms.reviewer: shujoshi
 
 Sending and receiving text messages through SMS is an effective way for sellers to reach out to potential customers. It's fast, convenient, and allows for quick responses. Sellers use SMS to stay in touch with their customers, by responding to questions or concerns, and providing updates and information on products and services.  
 
-Dynamics 365 Sales enables your sellers to send and receive SMS from customers through the text message feature. Also, sellers can refer to their past communication in context without leaving the application or losing their view of their customers' details.   
+Dynamics 365 Sales enables your sellers to send and receive SMS from customers through the text message feature. Also, sellers can refer to their past communication in context without leaving the application or losing their view of their customers' details. To ensure professional and secure communication, the application always prioritizes business phone numbers over personal ones when sending automated SMS.  
 
 In the sequences, SMS can be included as a step to send reminders or updates about key events. 
 

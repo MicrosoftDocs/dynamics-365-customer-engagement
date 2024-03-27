@@ -1,7 +1,7 @@
 ---
-title: "Set up unified routing for records | MicrosoftDocs"
-description: "Use this article to understand how to set up unified routing for records in Customer Service."
-ms.date: 09/20/2023
+title: Set up unified routing for records
+description: Use this article to understand how to set up unified routing for records in Customer Service.
+ms.date: 03/01/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,16 +11,16 @@ ms.author: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-You can configure routing for records in the Customer Service admin center, Customer Service Hub, or Omnichannel admin center (deprecated) app. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
+You can configure unified routing for records in the Customer Service admin center or Omnichannel admin center (deprecated) app.
 
 [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
-If you only have Dynamics 365 Customer Service, then the options to configure unified routing will be available only after you enable unified routing in the service configuration settings.
+If you have Dynamics 365 Customer Service only, then the options to configure unified routing will be available only after you [enable unified routing](provision-unified-routing.md) in the service configuration settings.
 
 > [!IMPORTANT]
 > 
 > - After you enable the unified routing feature in **Service Configuration Settings**, you can't disable it. You'll need to contact Microsoft Support to disable the feature.
-> - Provisioning unified routing might impact runtime operations on account of solution import that can impact SQL load.
+> - Provisioning unified routing might affect runtime operations on account of solution import that can affect SQL load.
 > - If you're upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in your admin app.
 > - If you're an existing customer, we recommend that you configure and test unified routing in a test or development environment before configuring it in your production environment.
 > - If you're routing, updating, or deleting multiple records at a time, and facing any technical or performance-related issues with unified routing, we recommend that you contact Microsoft Support to troubleshoot the issues.
@@ -34,6 +34,11 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 
 ## Configure unified routing for records
 
+You must complete all the steps in this section to route records using unified routing.
+
+> [!NOTE]
+> After you enable unified routing, the active basic routing rule won't route records until you configure intake rules.
+
 1. In Dynamics 365, go to one of the apps, and perform the following steps:
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
@@ -43,8 +48,7 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
     1. Select **Manage** for **Record routing**.
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    
+ 
 
     - In the site map, select **Record routing** in **General settings**.
 
@@ -58,7 +62,7 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 
 1. In the **Add a record type** dialog, select a record from the **Record type** list, and select **Add**. The record is added and listed on the **Record routing** page.
 
-1. Configure the following:
+1. Configure the following settings:
    1. Workstreams
    1. Intake rules
 
@@ -73,8 +77,6 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
    1. Select **New workstream**.
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-   
 
     - In the site map, select **Workstreams** in **General settings**, and then select **New workstream**.
 
@@ -100,9 +102,11 @@ Perform the following steps:
 
 1. Select the workstream that you configured for routing records, such as the case.
 
-2. In the **Intake rules** area, select **Create rule**.
+1. In **Intake rules**, select **Create rule**.
 
-3. In the **Create intake rule** dialog, enter a name and define the conditions for the rule. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule. You can define conditions for up to two levels of the related records and attributes.
+1. In the **Create intake rule** dialog, enter a name and define the conditions for the rule. By default, the root record is selected and displayed at the top of the condition builder. The record for which you are creating the rule is thus visible for your reference. You can define conditions for up to two levels of the related records and attributes.
+
+1. You can map the intake rule to a workstream or basic routing rule that's active.
 
    :::image type="content" source="../media/ur-intake-rule.png" alt-text="Define conditions for an intake rule.":::
 
@@ -151,12 +155,11 @@ Routing rules for a workstream consists of work classification rules and route-t
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
-[Create and manage workstreams](create-workstreams.md)  
-[Create multiple workstreams for records routing](../multiple-ws-entity-record-routing.md)  
+[Create and manage workstreams](create-workstreams.md)    
 [Configure routing for email records](configure-routing-for-email-records.md)  
 [Release agent capacity](capacity-profiles.md#release-capacity-for-agents)  
 [Assign roles and enable users](../implement/add-users-assign-roles.md)  
-[FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)
+[FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

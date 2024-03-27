@@ -1,12 +1,12 @@
 ---
 title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 01/08/2024
+ms.date: 03/22/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.collection: 
+ms.collection: bap-ai-copilot
 ms.custom: bap-template
 ---
 
@@ -61,39 +61,6 @@ After a customer conversation has ended, or if you want Copilot to disregard the
 
 To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
 
-## Draft emails 
-
-With Copilot, you can draft email replies to customers quickly and be more effective in solving customer issues.
-
-:::image type="content" source="../media/copilot-email-draft.png" alt-text="Screenshot of the Copilot Write an email tab.":::
-
-### Write an email with Copilot
-
-When you start to draft an email, Copilot opens in the right side panel and presents five predefined prompts and one custom prompt:
-
-- **Suggest a call**: Drafts a reply that suggests a call with the customer today or tomorrow.
-- **Request more information**: Drafts a reply that requests more details from the customer to help resolve the problem.
-- **Empathize with feedback**: Drafts a reply that provides an empathetic response to a customer who expresses a complaint.
-- **Provide product/service details**: Drafts a reply that offers details or answers customer questions about a particular product or service.
-- **Resolve the customer's problem**: Drafts a reply that provides a resolution&mdash;and resolution steps, if applicable&mdash;to the customer's problem.
-- **Custom**: Allows you to provide your own prompt for the reply.
-
-### Review and copy suggested replies
-
-When you select one of the predefined prompts, Copilot generates a suggested reply. *Always review the response.* Make any necessary changes, and then select **Copy to email** to copy the entire response to your draft. Or, select part of the response and use the right-click menu to copy and paste the selection.
-
-### Use the custom prompt
-
-Use the custom prompt to include talking points, provide your objectives for the email, and determine its length and tone. Then select the **Create response** arrow to generate the response. *Always review the response* before sharing it with your customer. You can revise the custom prompt, if needed, above the reply and select **Refresh** to update the response.
-
-### How Copilot uses knowledge base and web sources
-
-By default, Copilot uses internal knowledge base sources for generating responses. If your administrator has set up trusted domains, Copilot searches the internal knowledge base and up to five trusted domains to produce the result.
-
-### Start over
-
-To return to the choice of six prompts, select **Start over** at the bottom of the Copilot pane.
-
 ## Draft a chat response (Preview)
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
@@ -125,17 +92,11 @@ Once you set a filter, the following actions are applicable:
 - A message indicating the filters are applied when Copilot generates new responses appears on the Copilot pane. This message also appears whenever you modify the filter configuration.
 - A visual indicator with the number of filter options selected is displayed next to **Filters**.
 - The filters set apply to the following Copilot features: ask a question, draft a chat, and email.
-- The filter is saved. You don't have to set the filter each time you log in.
+- The filter is saved. You don't have to set the filter each time you log in. 
 
-## Understand Copilot language support
-
-Copilot detects your UI language and generates responses from cases and conversations in that language. For example, if a case has notes in Spanish, and your UI language is set to Spanish, Copilot generates responses in Spanish. When the input contains mixed languages, Copilot generates responses based on the language  that is set for your UI. For example, if a case has a description in French, the email thread is in Spanish, and the UI language is set to Spanish, Copilot's response will be in Spanish. For Copilot to generate responses from knowledge articles, the knowledge article must be tagged with the same language as the UI language.
-
-> [!NOTE]
-> Copilot tries to generate responses in your preferred UI language even if that isn't an officially supported language.
- 
 ### See also
 
+[Understand Copilot language support](copilot-language-support.md)
 [Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  
 [Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
 [FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md) 

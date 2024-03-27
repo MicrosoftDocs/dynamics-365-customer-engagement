@@ -13,6 +13,9 @@ search.audienceType:
 
 This sample shows how to add products to a bundle. You can download the sample from [here](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/AddProductsBundle).
 
+> [!NOTE]
+> You can add or delete products only when the bundle is in draft or retired state. To add or delete products in a bundle that is in active or under revision state, clone the product bundle. This creates a new bundle with a new ID in draft state. You can then add or delete products in the new bundle.
+
 ## How to run this sample
 
 [!include[cc-how-to-run-samples](../../includes/cc-how-to-run-samples.md)]

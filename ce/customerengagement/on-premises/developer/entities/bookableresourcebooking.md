@@ -1,16 +1,18 @@
 ---
-title: "BookableResourceBooking entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
-description: "Includes schema information and supported messages for the BookableResourceBooking entity."
-ms.date: 08/30/2022
+title: BookableResourceBooking entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs
+description: Includes schema information and supported messages for the BookableResourceBooking entity.
+ms.date: 01/18/2024
 ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "KumarVivek"
-ms.author: "kvivek"
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - developer
+search.app: 
+  - PowerApps
+  - D365CE
 ---
 
-# BookableResourceBooking entity reference
+# BookableResourceBooking
 
 Represents the line details of a resource booking.
 
@@ -1388,5 +1390,6 @@ See the [TransactionCurrency_bookableresourcebooking](transactioncurrency.md#BKM
 
 ### See also
 
-[About the Entity Reference](../about-entity-reference.md)<br />
-[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)
+[Introduction to Omnichannel for Customer Service](../../../../customer-service/implement/introduction-omnichannel.md)<br />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

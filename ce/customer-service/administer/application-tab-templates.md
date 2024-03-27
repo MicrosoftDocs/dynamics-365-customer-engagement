@@ -1,26 +1,33 @@
 ---
-title: "Manage application tab templates | MicrosoftDocs"
-description: "Learn how to create application tab templates in Customer Service. Find information on the various page types and their corresponding parameters."
-author: "gandhamm"
+title: Manage application tab templates
+description: Learn how to create application tab templates in Customer Service. Find information on the various page types and their corresponding parameters.
+author: gandhamm
 ms.author: mgandham
-ms.date: 10/20/2023
-ms.topic: article
+ms.reviewer:
+ms.date: 02/07/2024
+ms.topic: how-to
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Manage application tab templates
 
-An application tab template in Customer Service lets you specify the type of applications that can be opened when agents start a session in the Customer Service workspace or Omnichannel for Customer Service app.
+An application tab template in Customer Service lets you specify the type of applications that can be opened when agents start a session in Customer Service workspace.
 
-The vertical bar on the left panel shows the list of sessions. The panel will always show the **Home** session that can't be closed or customized.
+The vertical bar on the left panel shows the list of sessions. The panel always shows the **Home** session that you can't close or customize.
 
-Every session has at least one application tab, called the "Anchor tab", that can't be closed or customized. When you start a session, the corresponding application page and any other additional pages are opened based on your configuration settings.
+In Customer Service workspace, every session has at least one application tab, called the "Anchor tab", that you can't close or customize. When you start a session, the corresponding application page and any other additional pages open based on your configuration settings.
 
 Using the application tab template, you can define applications that are available for a session, and then associate those applications with the session. For example, you can create the **Active Conversation** page tab and associate it with a chat or SMS session. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and the **Active Conversation** page opens.
 
 As an administrator, you can create multiple application tab templates.
 
-> [!Note]
+> [!NOTE]
 > You can't customize the out-of-the-box templates, but can create your own custom templates.
+
+## Prerequisites
+
+You need the System Administrator role to perform the tasks mentioned in this article.
 
 ## Create application tab templates
 
@@ -36,9 +43,9 @@ As an administrator, you can create multiple application tab templates.
     1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
     1. In the left pane, under **Templates**, select **Application tabs**. The Unified Interface page opens in a new tab.
 
-2. Select **New** on the **Active Application Tab Templates** page.
+1. Select **New** on the **Active Application Tab Templates** page.
 
-3. Specify the following on the **New Application Tab Template** page.
+1. Specify the following on the **New Application Tab Template** page.
 
     | Tab | Name | Description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
@@ -48,18 +55,18 @@ As an administrator, you can create multiple application tab templates.
     | General | Page type | Select a page type from the list. |  Web resource |
     | General | Description | Provide a description for your reference. | The page type is used to display a knowledge base search page. |
 
-4. Select **Save**. The **Parameters** section displays the parameters for the page type that you selected.
+1. Select **Save**. The **Parameters** section displays the parameters for the page type that you selected.
 
     > [!Note]
     > Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
-5. Select the **Value** field of a parameter that you want to edit and provide the value.
+1. Select the **Value** field of a parameter that you want to edit and provide the value.
 
-6. Select **Save**.
+1. Select **Save**.
 
 ## Page types
 
-The following page types are available.
+The following page types are available:
 
 - Dashboard
 - Entity list
@@ -104,8 +111,22 @@ The following parameters are available for the entity record page type when an e
 | `entityName` | Logical name of the entity | Yes | String <br><br> Slugs <br> <br> | account <br><br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}`<br><br> |
 | `entityId`  | GUID of the entity record | No | String <br><br> Slugs <br> <br> |  `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br><br> `{anchor._customerid_value}` <br><br> 
 | `formId` | GUID of the form instance | No | String   | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
+|`validateRecord`| Checks if the record exists in the organization database | No | Boolean | True |
 
-The following parameters are available for the entity record page type when an entity form is opened to create a new record:
+> [!NOTE]
+> If the system doesn't match the entityId value to an existing record in Dataverse, then the form opens in create mode to create a record.
+> If you want the system to load the form only when the record exists in Dataverse, then set the validateRecord parameter to true.
+
+If the validateRecord parameter isn't present, create the parameter as follows:
+
+1. In the **Application Tab Template** form, select **New Template Parameter** and enter the following values:
+   - **Name**: validateRecord
+   - **Unique Name**: new_tabtemplateparam_validateRecord
+   - **Value**: True
+3.	Save and close.
+
+
+The following parameters are available for the entity record page type when an entity form is opened to create a record.
 
 |Parameter | Description | Required | Supported values |  Example |
 |---------|--------------|------------------|--------- |---------|
@@ -131,8 +152,8 @@ This page type is used to display third-party websites as an application. You ca
 | `url` | The website URL to be displayed in the app tab <br> | Yes | String <br> | `https://www.bing.com/search?q=`  |
 | `data` | Additional data parameter to be parsed with the `url` parameter <br>  | No | String <br><br> Slugs <br><br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
->[!Note]
-> When an agent switches from the third-party website type of tab template to another tab, and then switches back to the third-party website tab template, the page will be refreshed to the initial state. For more information, see the "Third-party application tab refreshes when focus is changed" section in the [Known issues document](https://go.microsoft.com/fwlink/p/?linkid=2165393).
+>[!NOTE]
+> When an agent switches from the third-party website type of tab template to another tab, and then switches back to the third-party website tab template, the page is refreshed to the initial state. For more information, see the "Third-party application tab refreshes when focus is changed" section in the [Known issues document](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
 #### How parsing works
 
@@ -158,12 +179,12 @@ This page type is used to display web resources that represent files, which are 
 | `webresourceName` | Name of the web resource to open | Yes | String | `new_myresource.html`|
 | `data` | Provide string or key value pair, according to the requirement of the web resource. | No | String <br><br> Slugs <br> <br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
->[!Note]
-> When an agent switches from the web resource type of tab template to another tab, and then switches back to the web resource type of tab template, the page will be refreshed to the initial state. For more information, see the "Third-party application tab refreshes when focus is changed" section in the [Known issues document](https://go.microsoft.com/fwlink/p/?linkid=2165393).
+>[!NOTE]
+> When an agent switches from the web resource type of tab template to another tab, and then switches back to the web resource type of tab template, the page is refreshed to the initial state. For more information, see the "Third-party application tab refreshes when focus is changed" section in the [Known issues document](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
 ### Custom 
 
-This page type is used to display custom pages on the application tab. You can use this tab template type to host custom pages that are available in the corresponding app module. For more information about custom pages, see [Overview of custom pages for model-driven apps](/powerapps/maker/model-driven-apps/model-app-page-overview).
+This page type is used to display custom pages on the application tab. You can use this tab template type to host custom pages that are available in the corresponding app. For more information about custom pages, see [Overview of custom pages for model-driven apps](/powerapps/maker/model-driven-apps/model-app-page-overview).
 
 The following parameters are available for custom pages.
 
@@ -186,7 +207,7 @@ The following out-of-the-box application tab templates are available.
 | Omnichannel Intraday Insights       | Displays a Power BI report in the tab.         | Control  |
 | Quick Reply Preview                 | Displays a quick reply in the tab.             | Control  |
 | Rich Message Preview                | Displays a rich message in the tab.            | Control |
-| Search                              | Displays the Omnichannel search page in the tab.                    | Control |
+| Search                              | Displays the Omnichannel search page in the tab. | Control |
 
 ### See also
 

@@ -31,7 +31,7 @@ You can start using Customer Service admin center immediately if you don't have 
 
 ### Why do I see deprecated apps in the organization?
 
-The Omnichannel Administration and Omnichannel admin center apps have been deprecated and therefore are hidden by default. However, the apps will be visible in Power Apps.
+The Omnichannel admin center app has been deprecated and therefore is hidden by default. However, the app will be visible in Power Apps.
 
 ### See also
 

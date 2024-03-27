@@ -9,6 +9,7 @@ ms.reviewer: shujoshi
 ms.custom: bap-template
 content_well_notification:
   - AI-contribution
+ai-usage: ai-assisted
 ---
 # Close opportunities as won or lost 
 

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Microsoft Teams integration with Dynamics 365 app"
 description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, and possible resolutions."
-ms.date: 08/09/2023
+ms.date: 02/08/2024
 ms.topic: article
 applies_to: 
   - Dynamics 365 apps
@@ -21,7 +21,7 @@ This article provides information about the error messages you might face with p
 
 Microsoft Teams integration uses SharePoint integration at the backend, so if there's a failure with SharePoint integration or OneDrive configuration, it will also fail when you enable Microsoft Teams integration.
 
-If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the following pre-requisites aren't met.
+If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the following prerequisites aren't met.
 
 - SharePoint Integration isn't configured, and OneDrive Integration is enabled. To Fix the issue, disable OneDrive.
 
@@ -29,7 +29,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 - SharePoint Integration isn't configured, but there's SharePoint document locations created with an absolute URL in your organization. To fix the issue, delete locations with an absolute URL.
 
-- If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on an app page. For more information, see [Control access from unmanaged devices](/sharepoint/control-access-from-unmanaged-devices). 
+- If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions are applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on an app page. For more information, see [Control access from unmanaged devices](/sharepoint/control-access-from-unmanaged-devices). 
 
 - If you get this error: **You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises**, this means that you're currently configured to use SharePoint on-premises for document management. You need to set up document management for customer engagement apps to use SharePoint Online. For more information, see [Set up apps to use SharePoint Online](/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
@@ -37,7 +37,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 Error: **The admin has not consented to use user sync feature, you can add them manually**.
 
-When you turn on enhanced Microsoft Teams Integration, there are two dialog boxes that you need to accept. On the second dialog box, when you don't check the **Consent on behalf of organization** check box, then users will get this error when they try to pin an entity record or view to Microsoft Teams and share the tab with another user.
+When you turn on enhanced Microsoft Teams Integration, there are two dialog boxes that you need to accept. On the second dialog box, when you don't check the **Consent on behalf of organization** check box, then users get this error when they try to pin an entity record or view to Microsoft Teams and share the tab with another user.
 
    > [!div class="mx-imgBorder"] 
   > ![Error message, the admin has not consented to use user sync feature, you can add them manually.](media/error1.png "Error message, the admin has not consented to use user sync feature, you can add them manually")
@@ -56,9 +56,9 @@ To fix the issue, disable the Enhanced Microsoft Teams integration feature.
 
 Error: **User does not have permissions to create SharePoint Site or Document Location. This record is not connected to Dynamics 365**.
 
-This means the user that is getting this error doesn't have sufficient permissions such as Create, Read, Write, Append, AppendTo and Delete for the user role to pin an entity to a Microsoft Teams channel; however, changes made to the record in Microsoft Teams will update in customer engagement apps in Dynamics 365.
+This means the user that is getting this error doesn't have sufficient permissions such as Create, Read, Write, Append, AppendTo, and Delete for the user role to pin an entity to a Microsoft Teams channel; however, changes made to the record in Microsoft Teams will update in customer engagement apps in Dynamics 365.
 
-When the user tries to pin an entity to a Microsoft Teams channel, this error will display in the notification bar:
+When the user tries to pin an entity to a Microsoft Teams channel, this error is displayed in the notification bar:
 
    > [!div class="mx-imgBorder"]
    > ![Microsoft Teams permission error.](media/teams_permission_error.png "Microsoft Teams permission error")
@@ -78,14 +78,14 @@ To fix the issue, do the following:
 5. Navigate to **Settings** > **Security** > **Security Roles**.
 6. Open the security role identified above.
 7. Go to the **Core Records** tab.
-8. Give Create, Read, Write, Append, AppendTo and Delete permissions to **SharePoint Site** and **Document Location**.
+8. Give Create, Read, Write, Append, AppendTo, and Delete permissions to **SharePoint Site** and **Document Location**.
 9. Select **Save and Close**.
 
 Now, when the user tries to pin the entity to the required Microsoft Teams channel, it should work.
 
 ### Dynamics 365 app for Teams doesn't connect to Dynamics 365 organization when two-factor authentication is enabled
 
-If the Dynamics 365 organization has two-factor authentication enabled, but Microsoft Teams does not, the **Dynamics 365** app for Teams will be unable to communicate with Dynamics 365. This is intended to prevent security incidents. When Dynamics 365 has two-factor authentication enabled, any communication from users that logged into an app without two-factor authentication will be considered as untrusted. 
+If the Dynamics 365 organization has two-factor authentication enabled, but Microsoft Teams doesn't, the **Dynamics 365** app for Teams will be unable to communicate with Dynamics 365. This is intended to prevent security incidents. When Dynamics 365 has two-factor authentication enabled, any communication from users that logged into an app without two-factor authentication will be considered as untrusted. 
 
 To solve this problem, you must perform one of the following actions:
 
@@ -94,14 +94,14 @@ To solve this problem, you must perform one of the following actions:
 
 ### Dynamics 365 app doesn't populate environment list in settings
 
-This issue might occur if two-factor authentication is enabled in either Dynamics 365 or Teams. For more information, see [Dynamics 365 app for Teams doesn't connect to Dynamics 365 organization when two-factor authentication is enabled](#dynamics-365-app-for-teams-doesnt-connect-to-dynamics-365-organization-when-two-factor-authentication-is-enabled)
+This issue might occur if two-factor authentication is enabled in either Dynamics 365 or Teams. For more information, see [Dynamics 365 app for Teams doesn't connect to Dynamics 365 organization when two-factor authentication is enabled.](#dynamics-365-app-for-teams-doesnt-connect-to-dynamics-365-organization-when-two-factor-authentication-is-enabled)
 
 > [!div class="mx-imgBorder"] 
 > ![Environment not getting populated.](media/teams-env-troubleshoot.png "Environment not getting populated")
 
 ### Disconnected Teams channel keeps showing as a connected channel in Dynamics 365
 
-This behavior is by design where deleting a tab from Teams does not unlink the channel from Dynamics 365 record.
+This behavior is by design where deleting a tab from Teams doesn't unlink the channel from Dynamics 365 record.
 
 To resolve the issue, manually delete the association row.
 
@@ -113,7 +113,11 @@ To resolve the issue, manually delete the association row.
 6. On the **Microsoft Teams Collaboration entity** page, select **Edit**.
 7. Find the name of team and channel you want to disconnect from Dynamics 365.
 8. Select the record, and then select **Delete**.
-9. Go to Dynamics 365 and refres the page. The team and channel will not be listed as connected channels.
+9. Go to Dynamics 365 and refresh the page. The team and channel won't be listed as connected channels.
+
+### Error: I see a blank screen when accessing Dynamics 365 records from Teams.
+
+When you access a Dynamics 365 record from classic version of Teams, a blank screen is displayed. To resolve this issue, you must use the new version of Teams.
 
 ## Troubleshoot errors in Microsoft Teams
 
@@ -234,18 +238,18 @@ To work around this issue, open Teams on the web and close the desktop version.
 
 ### Error while creating a team or channel. The property is missing a required prefix/suffix per your organization's Group naming requirements. 
 
-A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in a customer engagement app in Dynamics 365. This happens if your tenant admin has configured group level naming policy from Azure portal with a prefix and suffix condition 
+A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in a customer engagement app in Dynamics 365. This happens if your tenant admin has configured group level naming policy from Azure portal with a prefix and suffix condition. 
 
    > [!div class="mx-imgBorder"] 
    > ![Prefix error.](media/azure_portal_error.png "Prefix error")
 
-To work around this issue, your tenant admin will need to remove this policy from Azure portal.
+To work around this issue, your tenant admin needs to remove this policy from Azure portal.
 
 ### Error while creating a team or channel. The displayName can't contain the blocked word 'blocked' as per company policy.
 
 A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in a customer engagement app in Dynamics 365. This happens when your tenant admin creates a custom blocked word list on Azure portal.
 
-To work around this issue, your tenant admin will need to remove this policy from Azure portal.
+To work around this issue, your tenant admin needs to remove this policy from Azure portal.
 
 
 ### Error: Blocked a frame with origin from accessing a cross-origin frame
@@ -264,11 +268,11 @@ To disable the user from accessing to the documents in the record from the custo
 
 ### Dynamics 365 app doesn't work on mobile devices
 
-The Dynamics 365 app is not supported on mobile devices.
+The Dynamics 365 app isn't supported on mobile devices.
 
-### Rich text fields in adaptive cards are not displayed correctly
+### Rich text fields in adaptive cards aren't displayed correctly
 
-Rich text fields are not supported in adaptive cards and will not render correctly in Microsoft Teams. You can modify a field's format to rich text to format text using HTML, but it will not be displayed correctly in Teams. Teams does not support rich text formatting on fields in adaptive cards.
+Rich text fields aren't supported in adaptive cards and won't render correctly in Microsoft Teams. You can modify a field's format to rich text to format text using HTML, but it will not be displayed correctly in Teams. Teams doesn't support rich text formatting on fields in adaptive cards.
 
 
 

@@ -48,6 +48,6 @@ The Conversation intelligence app is now ready to use. Managers and sellers can 
 ### See also
 
 [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
-[Conversation Intelligence FAQs](faqs-sales-insights.md#conversation-intelligence)
+[Conversation Intelligence FAQs](faq-conversation-intelligence.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

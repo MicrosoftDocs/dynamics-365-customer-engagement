@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Sales
 description: Transform your sales organization with Dynamics 365 Sales to build strong relationships with customers, take actions based on insights, and close deals faster.
-ms.date: 07/28/2023
+ms.date: 02/07/2024
 ms.topic: overview
 author: udaykirang
 ms.author: udag
@@ -32,11 +32,11 @@ There's a Dynamics 365 Sales offering to fit every need of a business:
 
 - **Sales Enterprise**: Ideal for enterprises that need a sales automation solution with contextual insights and advanced customization capabilities. [Learn more about Dynamics 365 Sales Enterprise](#dynamics-365-sales-enterprise).
 
-- **Relationship sales**: Ideal for enterprises that need to connect sales records with LinkedIn to enhance business processes with data about people, organizations, and relationships. [Learn more about Microsoft Relationship Sales](#microsoft-relationship-sales).
-
 - **Sales Professional**: Ideal for enterprises that need a sales automation solution. [Learn more about Dynamics 365 Sales Professional](#dynamics-365-sales-professional).
 
-- **Microsoft Sales Copilot:** Ideal for enterprises that wants sellers to use Microsoft 365 and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Learn more about Microsoft Sales Copilot](#microsoft-sales-copilot)
+- **Relationship sales**: Ideal for enterprises that need to connect sales records with LinkedIn to enhance business processes with data about people, organizations, and relationships. [Learn more about Microsoft Relationship Sales](#microsoft-relationship-sales).
+
+- **Microsoft Copilot for Sales:** Ideal for enterprises that wants sellers to use Outlook and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Learn more about Microsoft Copilot for Sales](#microsoft-copilot-for-sales). 
 
 ### Dynamics 365 Sales Premium
 
@@ -64,7 +64,7 @@ With your Dynamics 365 Sales Enterprise license, you can take advantage of Sales
 
 ### Microsoft Relationship Sales
 
-Microsoft Relationship Sales combines LinkedIn Sales Navigator with Dynamics 365 Sales Enterprise or Sales Premium. With Sales Navigator embedded in Dynamics 365 Sales, sellers are empowered to have more personalized and valuable interactions with customers. Activities and Smart Links sync between Sales and Sales Navigator, and sellers can save accounts, leads, and contacts to Sales Navigator from the Sales app.
+Microsoft Relationship Sales helps sales professionals build the relationships they need to harness the power of relationship selling. This license includes Sales Enterprise and LinkedIn Sales Navigator Advanced Plus. [Learn more about LinkedIn Sales Navigator](/linkedin/sales/).
 
 ### Dynamics 365 Sales Professional
 
@@ -74,9 +74,11 @@ Here's a short video to help you understand how Dynamics 365 Sales Professional 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2OJXb]
 
-### Microsoft Sales Copilot
+### Microsoft Copilot for Sales
 
-By enriching the data set with customer engagement data from Microsoft 365 and the power of AI, Microsoft Sales Copilot (formerly known as Viva Sales) empowers sellers with sales intelligence that helps them deeply understand their customers for faster deal closure. Microsoft Sales Copilot is designed to help sellers boost productivity, lighten workloads, save time, and help salespeople sell more. [Go to Microsoft Sales Copilot documentation](/viva/sales/introduction)
+Dynamics 365 Sales customers have limited capabilities included within the Sales Enterprise, Sales Premium, and Relationship Sales licenses. The standard functionality showcases capabilities such as email replies and conversation intelligence in Teams. With the purchase of Copilot for Sales customers can access the full functionality which includes the combined experience with Microsoft Copilot for Microsoft 365. Microsoft Dynamics 365 Sales Premium users only need to purchase Microsoft Copilot for Microsoft 365 to activate Copilot for Sales. 
+
+For more information about the Copilot for Sales licensing options for Dynamics 365 Sales customers, see [this FAQ](/microsoft-sales-copilot/sales-copilot-faq#will-copilot-for-sales-be-included-in-dynamics-365-sales-subscriptions).
 
 ## Compare solutions
 

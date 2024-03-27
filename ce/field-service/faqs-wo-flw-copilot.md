@@ -7,7 +7,8 @@ ms.custom:
 ms.topic: faq
 author: KishorIoT
 ms.author: nandab
-ms.reviewer: v-wendysmith@microsoft.com
+ms.reviewer: v-wendysmith
+ms.collection: bap-ai-copilot 
 ---
 
 # FAQ about work order creation using Copilot in Field Service for Outlook 

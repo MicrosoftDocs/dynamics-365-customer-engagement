@@ -7,7 +7,8 @@ ms.custom:
 ms.topic: faq
 author: KishorIoT
 ms.author: nandab
-ms.reviewer: v-wendysmith@microsoft.com
+ms.reviewer: v-wendysmith
+ms.collection: bap-ai-copilot 
 ---
 
 # FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)

@@ -3,9 +3,9 @@ title: Service quotas
 description: Get details about the service quotas for unified routing and omnichannel implementations in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer:
 ms.topic: conceptual
-ms.date: 10/18/2023
+ms.date: 03/21/2024
 ms.custom: bap-template
 ---
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 Service quotas are the limits on resources, configurations, and items that are provided as part of Omnichannel for Customer Service. The tables that follow describe the service quotas and whether they can be adjusted for Dynamics 365 Customer Service Voice Channel Add-in and Dynamics 365 Customer Service Digital Messaging and Voice Add-in subscriptions.
 
 > [!NOTE]
-> - All limits are at an organizational level for licensed organizations. The limits don't apply to trial or other non-licensed organizations.
+> - All limits are at an organization level unless otherwise specified.
 > - If you need a higher limit on a measure that's indicated as adjustable, contact Microsoft Support to check whether the limit can be increased.
 
 ## Configuration limits
@@ -44,7 +44,7 @@ Service quotas are the limits on resources, configurations, and items that are p
 | Bulk user calendar or schedule updates  | Number of users whose calendars can be updated in bulk  |  500 per 15 minutes<sup>2</sup>   | Yes   |
 | Dataverse Storage Entitlement (aggregated at tenant level)  |  Microsoft Dataverse storage entitlement based on license; includes SQL/DB, file, and log storage in Dataverse <br><br>More information: [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544) |  32 GB of base storage per tenant<sup>3</sup><br><br>2.25 GB of extra storage per Customer Service license per user<sup>4</sup><br><br>35 GB of extra file storage for the Voice Channel Add-in per user<br>| Other Dataverse storage can be purchased     |
 | Time for configuration updates to take effect, including channel and routing settings and updates to agent skills, capacity profile, and calendar  | Maximum time for configuration changes to reflect in the user experience |   15 minutes |    No.  |
-| Block size per assignment cycle | Maximum number of unassigned conversations or work items picked per assignment cycle per queue | <ul><li> 100 digital messaging or voice conversations<sup>5</sup></li><li>2000 records-related work items prioritized and assigned in blocks of 500<sup>5</sup></li></ul>   |  Yes. |
+| Block size per assignment cycle | Maximum number of unassigned conversations or work items picked per assignment cycle per queue | <ul><li> 100 digital messaging or voice conversations<sup>5</sup></li><li>10,000 records-related work items prioritized and assigned in a block size of 2,000. </li></ul>   |  Yes. |
 | Updates to routed records | Number of actions per minute like resolve a case, queue transfer, agent transfer, queue item delete that can be done for routed records. | 25 updates per minute per organization. | Yes. |
 
 <sup>1</sup> To get quality service in a channel, ensure that you don't exceed the defined limit for that channel. When multiple channels are in use, the total conversations per minute should remain under the overall limit of 25. For example, with 5 voice calls per minute, 15 live chat sessions per minute, and 10 digital messages, the total limit is considered to be 25. Any conversation coming in after the 25<sup>th</sup> item, irrespective of the channel, might reduce the service quality.
@@ -57,6 +57,11 @@ Service quotas are the limits on resources, configurations, and items that are p
 
 <sup>5</sup> If eligible agents aren't available to serve the default block size of top priority conversations, then the auto assignment process can appear to be paused. In such cases, we recommend that you use features like overflow management to manage high load or review agent availability, scheduling, and skill configuration to expand the eligible agent pool. If these options aren't adequate, contact Microsoft Support with your business scenario to check whether the block size can be increased.
 
+## Load test the services in Omnichannel for Customer Service
+
+Microsoft regularly conducts scale and stress tests on the services that run Omnichannel for Customer Service. These tests are performed at multiples of the peak volume observed in customer production traffic. While the services can sustain high loads, we understand that you might want to verify your own load profile against the services. Your load profile can include customizations, integrations, local networks, or other bespoke solutions that you integrate. Make sure that you perform load tests according to the [Microsoft Cloud Penetration Testing Rules of Engagement](https://www.microsoft.com/msrc/pentest-rules-of-engagement).
+
+Load tests often generate synthetic traffic that targets specific endpoints or use cases and might approach or exceed quotas and limits for your environment. If you are concerned that your stress test might be flagged by the rules of engagement, we recommend that you work with Microsoft Support to have your tests reviewed before running them. For more information on Microsoft Cloud use rights, see [Licensing Use Rights](https://www.microsoft.com/licensing/docs/view/licensing-use-rights).
 
 ## Next steps
 

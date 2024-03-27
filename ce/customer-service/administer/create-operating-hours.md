@@ -1,10 +1,13 @@
 ---
-title: "Create and manage operating hours | MicrosoftDocs"
-description: "Perform the steps mentioned in the article to create, manage, and define operating hours in Omnichannel for Customer Service."
-ms.date: 10/03/2022
+title: Create and manage operating hours
+description: Perform the steps mentioned in the article to create, manage, and define operating hours in Omnichannel for Customer Service.
+ms.date: 02/29/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer:
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Create and manage operating hours
@@ -33,15 +36,7 @@ In the Customer Service admin center or Omnichannel admin center (deprecated) ap
 - **Chat widget:** Add the operating hour record on the **Chat widget** tab.
 - **SMS channels:** Add the operating hour record on the **Behaviors** tab of the channel instance that can be accessed through the corresponding workstream.
 
-In Omnichannel Administration, you can add the operating hour record on the **Design** tab of the appropriate chat widget to control the display of the widget. For SMS channels and queues, the operating hour record will be available for selection on the **General** and **Summary** tabs respectively.
-
-## How work items are routed when operating hours are set
-
-When operating hours are in effect, work items during non-business hours are handled based on the channel they come through.
-
-For live chat and voice, the conversations and calls are routed to the queue and then closed.
-
-For asynchronous channels, such as SMS and WhatsApp, if pick-based option is configured, the conversations remain in the open state till agents sign in and take up the assignments. If push-based option is configured, the assignment method that's configured will be used to route the conversations.
+When operating hours are in effect, work items during non-business hours are handled based on the [overflow conditions for before a work item is queued](manage-overflow.md#configure-overflow-conditions-for-before-a-work-item-is-queued)
 
 ## Create a record to define operating hours
 
@@ -62,9 +57,6 @@ You can define operating hours in the Customer Service admin center or Customer 
     1. In the **Operating Hours** section, select **Manage**.
 
        The **Active Operating Hours** view is displayed. You can switch between various system views using the drop-down list.
-
-    > [!Note]
-    > If you are using Omnichannel Administration, under **Settings**, select **Operating Hours**.
 
 1. Select **New**. The **New Operating Hour** page is displayed.
 
