@@ -1,7 +1,7 @@
 ---
 title: Personas and privileges
 description: Learn about the privileges and recommended access levels for administrator, supervisor, and agent personas in Customer Service and Omnichannel for Customer Service.
-ms.date: 05/31/2023
+ms.date: 03/27/2024
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -19,11 +19,13 @@ For more information about how personas are mapped to roles, see [Manage persona
 
 > [!NOTE]
 > If custom plug-ins and workflows are used in the system, then you must ensure that the required privileges are granted to the personas, otherwise your plug-ins won't work.
-> If table name starts with *, you need to add the privilege if that table name with out * exists. Based on channel provisioned, table may or may not exist.
+
+Based on the channel provisioned, an entity may or may not exist. You'll need to add privileges for entities that exist.
 
 ## Persona: Administrator
 
 The following table lists the privileges and recommended access levels for the admin persona.
+
 
 |	Table name                            |	Table unique name	                  |	Privilege name                |Recommended access level	|
 |	   -----                              |------  |	------                          |	  ---              	|
@@ -40,7 +42,7 @@ The following table lists the privileges and recommended access levels for the a
 |	App Profile	                          |	msdyn_appconfiguration	              |	Append, Append To, Create, Delete, Read, Update	 |	Global	|
 |	App Configuration	                  |	AppConfig	                          |	Read	                               |	Global	|
 | App Parameter Definition<br>(Deprecated)</br>| msdyn_consoleappparameterdefinition | Append, Append To, Create, Delete, Read, Update | Global	|
-|	*Apple messages for business acount             	|	msdyn_ocapplebusinessaccount	        |	Read	                                         |	Global	|
+|	Apple messages for business acount             	|	msdyn_ocapplebusinessaccount	        |	Read	                                         |	Global	|
 |	Application Extension	              |	msdyn_applicationextension	          |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Application Tab Template	          |	msdyn_applicationtabtemplate	      |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Application Tab Template <br>(Deprecated)</br> |	msdyn_consoleapplicationtemplate | Append, Append To, Create, Delete, Read, Update   |	Global	|
@@ -48,7 +50,7 @@ The following table lists the privileges and recommended access levels for the a
 |	Assignment Configuration	          |	msdyn_assignmentconfiguration	      |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Assignment Configuration Step	      |	msdyn_assignmentconfigurationstep     |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Audio File	                          |	msdyn_soundfile	                |	Append, Append To, Create, Delete, Read, Update	      |	Global	|
-|	*Authentication Settings             	|	msdyn_authenticationsettings	        |	Read	                                         |	Global	|
+|	Authentication Settings             	|	msdyn_authenticationsettings	        |	Read	                                         |	Global	|
 |	Bookable Resource	                  |	BookableResource	            |	Append, Append To, Create, Delete, Read, Update	      |	Global	|
 | Bookable Resource Capacity<br>Profile</br>| msdyn_bookableresourcecapacityprofile | Append, Append To, Assign, Create, Delete, Read, Share, Update| Global |
 |	Bookable Resource Characteristic	  |	BookableResourceCharacteristic	      |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
@@ -72,7 +74,7 @@ The following table lists the privileges and recommended access levels for the a
 |	Conversation Characteristic	          |	msdyn_ocliveworkitemcharacteristic	  |	Append, Append To, Create, Delete, Read, Update   |	Global	|
 |	Conversation Sentiment	              |	msdyn_ocliveworkitemsentiment	  |	Create, Delete, Read, Update	                      |	Global	|
 |	Custom messaging account	          |	msdyn_ocbotchannelregistration | Append, Append To, Create, Delete, Read, Update  	      |	Global	|
-|	*Custom messaging channel             	|	msdyn_occustommessagingchannel	        |	Read	                                         |	Global	|
+|	Custom messaging channel             	|	msdyn_occustommessagingchannel	        |	Read	                                         |	Global	|
 |	Customization	                      |	Customization	              |	Publish, Read, Update	                                  |	Global	|
 
 
@@ -83,13 +85,13 @@ The following table lists the privileges and recommended access levels for the a
 |	Deprecated Workstream<br>Entity Configuration</br>	 |	msdyn_entityconfig	  |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Entity	                              |	msdyn_entityroutingconfiguration	  |	Append, Append To, Create, Delete, Read, Update  |	Global	|
 |	Entity Routing Context	              |	msdyn_cdsentityengagementctx	      |	Create, Delete, Read, Update	         |	Global	|
-|	*Facebook Page             	|	msdyn_ocfbpage	        |	Read	                                         |	Global	|
+|	Facebook Page             	|	msdyn_ocfbpage	        |	Read	                                         |	Global	|
 |	Forms	                              |	SystemForm	                          |	Read	                                  |	Global	|
 |	Geo Location Provider	              |	msdyn_oc_geolocationprovider	      |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
-|	*Google's Business Messages agent account             	|	msdyn_ocgooglebusinessmessagesagentaccount	        |	Read	                                         |	Global	|
+|	Google's Business Messages agent account             	|	msdyn_ocgooglebusinessmessagesagentaccount	        |	Read	                                         |	Global	|
 |	KPI Event Definition	              |	msdyn_kpieventdefinition	          |	Read	                                  |	Global	|
 |	Language	                          |	msdyn_oclanguage	                  |	Read, Append To	                          |	Global	|
-|	*LINE account             	|	msdyn_oclinechannelconfig	        |	Read	                                         |	Global	|
+|	LINE account             	|	msdyn_oclinechannelconfig	        |	Read	                                         |	Global	|
 |	Live work item event	              |	msdyn_liveworkitemevent	              |	Create, Delete, Read, Update		      |	Global	|
 |	Live Work Item Participant<br>(Deprecated)</br> |	msdyn_ocliveworkitemparticipant	  |	Create, Delete, Read, Update	  |	Global	|
 |	Localization	                      |	msdyn_oclocalizationdata	          |	Append, Append To, Create, Delete, Read, Update	 |	Global	|
@@ -98,7 +100,7 @@ The following table lists the privileges and recommended access levels for the a
 |		                                  |		                                  |	Append, Append To, Assign, Read, Share, Update	  |	Global	|
 |		                                  |		                                  |	Delete	                                  |	Deep	|
 |	Message	                              |	msdyn_ocsystemmessage	      |	Append, Append To, Create, Delete, Read, Update	       |	Global	|
-|	*Microsoft Teams             	|	msdyn_octeamschannelconfig	        |	Read	                                         |	Global	|
+|	Microsoft Teams             	|	msdyn_octeamschannelconfig	        |	Read	                                         |	Global	|
 |	Model training details	              |	msdyn_ocsimltraining	      |	Append, Append To, Create, Delete, Read, Update	          |	Global	|
 |	Notification Field	           |	msdyn_notificationfield	          |	Append, Append To, Create, Delete, Read, Update	          |	Global	|
 |	Notification Template	          |	msdyn_notificationtemplate	          |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
@@ -158,7 +160,7 @@ The following table lists the privileges and recommended access levels for the a
 |	SharePoint Data	                      |	SharePointData	                      |	Create, Read, Update 	                          |	Global	|
 |	SharePointDocument	                  |	SharePointDocument	                  |	Read	                                  |	Global	|
 |	Skill finder model	                  |	msdyn_ocskillidentmlmodel	          |	Append, Append To, Create, Delete, Read, Update   |	Global	|
-|	*SMS Number settings             	|	msdyn_ocsmschannelsetting	        |	Read	                                         |	Global	|
+|	SMS Number settings             	|	msdyn_ocsmschannelsetting	        |	Read	                                         |	Global	|
 |	Solution	                          |	Solution	                          |	Read, Update	                                  |	Global	|
 |	Sound notification setting	          |	msdyn_soundnotificationsetting	      |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	System User	                          |	User	                              |	Append, Append To, Create, Read, Update	  |	Global	|
@@ -169,16 +171,16 @@ The following table lists the privileges and recommended access levels for the a
 |	Training data import<br>configuration</br> |	msdyn_ocsitdimportconfig	  |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Training record	                      |	msdyn_ocsitrainingdata	              |	Append, Append To, Create, Delete, Read, Update   |	Global	|
 |	Transcript	                          |	msdyn_transcript	                  |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
-|	*Twitter handle             	|	msdyn_octwitterhandle	        |	Read	                                         |	Global	|
+|	Twitter handle             	|	msdyn_octwitterhandle	        |	Read	                                         |	Global	|
 |	Unified routing diagnostic	          |	msdyn_unifiedroutingdiagnostic	      |	Delete, Read, Update	                          |	Global	|
 |	Unified routing run	                  |	msdyn_unifiedroutingrun	              |	Delete, Read	                                  |	Global	|
 |	UR notification template	          |	msdyn_urnotificationtemplate	      |	Append, Append To, Create, Delete, Read, Update   |	Global	|
 |	UR Notification Template <br>Mapping</br>|	msdyn_urnotificationtemplatemapping	| Append, Append To, Create, Delete, Read, Update | Global  |
 |	User Setting	                      |	msdyusd_usersettings                  |	Append, Append To, Read, Update	                  |	Global	|
 |	User settings	                      |	msdyn_usersetting                     |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
-|	*Voice Channel Setting             	|	msdyn_ocvoicechannelsetting	        |	Read	                                         |	Global	|
-|	*WeChat account             	|	msdyn_ocwechatchannelconfig	        |	Read	                                         |	Global	|
-|	*WhatsApp number             	|	msdyn_ocwhatsappchannelnumber	        |	Read	                                         |	Global	|
+|	Voice Channel Setting             	|	msdyn_ocvoicechannelsetting	        |	Read	                                         |	Global	|
+|	WeChat account             	|	msdyn_ocwechatchannelconfig	        |	Read	                                         |	Global	|
+|	WhatsApp number             	|	msdyn_ocwhatsappchannelnumber	        |	Read	                                         |	Global	|
 | Work stream capacity<br>profile</br> | msdyn_liveworkstreamcapacityprofile | Append, Append To, Assign, Create, Delete, Read, Share, Update | Global |
 |	Workstream	                          | msdyn_liveworkstream |	Append, Append To, Assign, Create, Delete, Read, Share, Update  | Global	|
 
@@ -197,13 +199,13 @@ The following table lists the privileges and recommended access levels for the s
 |	App Module	                    |	AppModule	                                        |	Read	                           |	Global	|
 |	App Profile	                    |	msdyn_appconfiguration	                            | 	Read	                            |	Global	|
 |	App Parameter Definition<br> (Deprecated)</br>	|	msdyn_consoleappparameterdefinition	|	Read	                           |	Global	|
-|	*Apple messages for business acount             	|	msdyn_ocapplebusinessaccount	        |	Read	                                         |	Global	|
+|	Apple messages for business acount             	|	msdyn_ocapplebusinessaccount	        |	Read	                                         |	Global	|
 |	Application Extension	        |	msdyn_applicationextension	                        |	Read                               |	Global	|
 |	Application Tab Template	    |	msdyn_applicationtabtemplate          	            |	Read	                           |	Global	|
 |	Application Tab Template <br>(Deprecated)</br>	|	msdyn_consoleapplicationtemplate	|	Read                             |	Global	|
 |	Application Type (Deprecated)	|	msdyn_consoleapplicationtype	                    |	Read	                |	Global	|
 |	Audio File                    	|	msdyn_soundfile	                         |	Append, Append To, Create, Delete, Read, Update	|	Global	|
-|	*Authentication Settings             	|	msdyn_authenticationsettings	        |	Read	                                         |	Global	|
+|	Authentication Settings             	|	msdyn_authenticationsettings	        |	Read	                                         |	Global	|
 |	Bookable Resource            	|	BookableResource	                                |	Read	                              |	Global	|
 |	Bookable Resource <br>Characteristic</br>	|	BookableResourceCharacteristic	        |	Read	                              |	Global	|
 |	channel	                        |	msdyn_channel	                                    |	Read                                  |	Global	|
@@ -220,22 +222,22 @@ The following table lists the privileges and recommended access levels for the s
 |	Conversation Characteristic	    |	msdyn_ocliveworkitemcharacteristic     	      |	Read	                                      |	Global	|
 |	Conversation Sentiment        	|	msdyn_ocliveworkitemsentiment                 |	Read	                                      |	Global	|
 |	Custom messaging account       	|	msdyn_ocbotchannelregistration               |	Read	                                      |	Global	|
-|	*Custom messaging channel             	|	msdyn_occustommessagingchannel	        |	Read	                                         |	Global	|
+|	Custom messaging channel             	|	msdyn_occustommessagingchannel	        |	Read	                                         |	Global	|
 |	Deprecated Workstream <br>Entity Configuration</br>	|	msdyn_entityconfig     	|	Read	                                      |	Global	|
 |	Entity	                        |	msdyn_entityroutingconfiguration    	      |	Read	                                      |	Global	|
 |	Entity Routing Context	        |	msdyn_cdsentityengagementctx                	|	Read	                                 |	Global	|
-|	*Facebook Page             	|	msdyn_ocfbpage	        |	Read	                                         |	Global	|
+|	Facebook Page             	|	msdyn_ocfbpage	        |	Read	                                         |	Global	|
 |	Geo Location Provider        	|	msdyn_oc_geolocationprovider	              |	Read	                                      |	Global	|
-|	*Google's Business Messages agent account             	|	msdyn_ocgooglebusinessmessagesagentaccount	        |	Read	                                         |	Global	|
+|	Google's Business Messages agent account             	|	msdyn_ocgooglebusinessmessagesagentaccount	        |	Read	                                         |	Global	|
 |	Language	                    |	msdyn_oclanguage	                         |	Read	                                      |	Global	|
-|	*LINE account             	|	msdyn_oclinechannelconfig	        |	Read	                                         |	Global	|
+|	LINE account             	|	msdyn_oclinechannelconfig	        |	Read	                                         |	Global	|
 |	Live work item event          	|	msdyn_liveworkitemevent	                     |	Read	                                      |	Global	|
 |	Live Work Item Participant <br>(Deprecated)</br>	|	msdyn_ocliveworkitemparticipant	|	Read	                         |	Global	|
 |	Localization	                |	msdyn_oclocalizationdata	                 |	Create, Delete, Read, Update	              |	Global	|
 |	Masking Rule	                |	msdyn_maskingrule	                                |	Read	                           |	Global	|
 |	Master Entity Routing <br>Configuration</br>	|	msdyn_masterentityroutingconfiguration	|	Read                      	  |	Global	|
 |	Message                        	|	msdyn_ocsystemmessage	                            |	Create, Delete, Read, Update    |	Global	|
-|	*Microsoft Teams             	|	msdyn_octeamschannelconfig	        |	Read	                                         |	Global	|
+|	Microsoft Teams             	|	msdyn_octeamschannelconfig	        |	Read	                                         |	Global	|
 |	Notification Field            	|	msdyn_notificationfield	                            |	Read	                           |	Global	|
 |	Notification Template	        |	msdyn_notificationtemplate	                        |	Read	                            |	Global	|
 |	Notification Field (Deprecated)	|	msdyn_consoleapplicationnotificationfield        	|	Read                                  |	Global	|
@@ -284,7 +286,7 @@ The following table lists the privileges and recommended access levels for the s
 |	Session Templates (Deprecated)    	|	msdyn_consoleapplicationsessiontemplate        	|	Read	|	Global	|
 |	SharePoint Data	                    |	SharePointData                                	|	Create, Read, Update            	|	Global	|
 |	SharePointDocument                 	|	SharePointDocument	                            |	Read	                            |	Global	|
-|	*SMS Number settings             	|	msdyn_ocsmschannelsetting	        |	Read	                                         |	Global	|
+|	SMS Number settings             	|	msdyn_ocsmschannelsetting	        |	Read	                                         |	Global	|
 |	Solution	                        |	Solution                                    	|	Read	                            |	Global	|
 |	Sound notification setting        	|	msdyn_soundnotificationsetting     |	Append, Append To, Create, Delete, Read, Update	| Global|
 |	System User	                        |	User	                           |	Append, Append To, Create, Read, Update	|	Local	|
@@ -292,14 +294,14 @@ The following table lists the privileges and recommended access levels for the s
 |	Template Parameter                 	|	msdyn_templateparameter	                        |	Read	                            |	Global	|
 |	Template Tag (Deprecated)        	|	msdyn_templatetags                            	|	Read	                            |	Global	|
 |	Transcript                        	|	msdyn_transcript                            	|	Read	                            |	Global	|
-|	*Twitter handle             	|	msdyn_octwitterhandle	        |	Read	                                         |	Global	|
+|	Twitter handle             	|	msdyn_octwitterhandle	        |	Read	                                         |	Global	|
 |	UR notification template          	|	msdyn_urnotificationtemplate                	|	Read	                            |	Global	|
 |	UR Notification Template Mapping	|	msdyn_urnotificationtemplatemapping	            |	Read	                            |	Global	|
 |	User Setting                    	|	msdyusd_usersettings	                        |	Append, Append To, Read, Update		|	Global	|
 |	User settings	                    |	msdyn_usersetting	           |	Append, Append To, Create, Delete, Read, Update	|	Global	|
-|	*Voice Channel Setting             	|	msdyn_ocvoicechannelsetting	        |	Read	                                         |	Global	|
-|	*WeChat account             	|	msdyn_ocwechatchannelconfig	        |	Read	                                         |	Global	|
-|	*WhatsApp number             	|	msdyn_ocwhatsappchannelnumber	        |	Read	                                         |	Global	|
+|	Voice Channel Setting             	|	msdyn_ocvoicechannelsetting	        |	Read	                                         |	Global	|
+|	WeChat account             	|	msdyn_ocwechatchannelconfig	        |	Read	                                         |	Global	|
+|	WhatsApp number             	|	msdyn_ocwhatsappchannelnumber	        |	Read	                                         |	Global	|
 |	Workstream                        	|	msdyn_liveworkstream	                        |	Read	                            |	Global	|
 
 ## Persona: Agent
@@ -316,7 +318,7 @@ The following table lists the privileges and recommended access levels for the a
 |	App Module                    	|	AppModule	                    |	Read                                            	|	Global	|
 |	App Profile                    	|	msdyn_appconfiguration        	|	Read	                                            |	Global	|
 |	App Parameter Definition <br>(Deprecated)</br>	|	msdyn_consoleappparameterdefinition	|	Read	                        |	Global	|
-|	*Apple messages for business acount             	|	msdyn_ocapplebusinessaccount	        |	Read	                                         |	Global	|
+|	Apple messages for business acount             	|	msdyn_ocapplebusinessaccount	        |	Read	                                         |	Global	|
 |	Application Extension	        |	msdyn_applicationextension    	|	Read                                            	|   Global	|
 |	Application Tab Template	    |	msdyn_applicationtabtemplate	|	Read                                            	|	Global	|
 |	Application Tab Template <br>(Deprecated)</br>	|	msdyn_consoleapplicationtemplate	|	Read                        	|	Global	|
@@ -324,7 +326,7 @@ The following table lists the privileges and recommended access levels for the a
 |	Assignment Configuration    	|	msdyn_assignmentconfiguration	|	Read                                            	|	Global	|
 |	Assignment Configuration<br> Step</br>	|	msdyn_assignmentconfigurationstep	|	Read	                                |	Global	|
 |	Audio File                    	|	msdyn_soundfile	                |	Append, Append To, Read	                            |	Global	|
-|	*Authentication Settings             	|	msdyn_authenticationsettings	        |	Read	                                         |	Global	|
+|	Authentication Settings             	|	msdyn_authenticationsettings	        |	Read	                                         |	Global	|
 |	Bookable Resource          	    |	BookableResource	|	Read		                                                    |   Global	|
 |	Bookable Resource Capacity<br> Profile</br>	|	msdyn_bookableresourcecapacityprofile	|	Read	                        |	Local	|
 |	Bookable Resource <br>Characteristic</br>	|	BookableResourceCharacteristic	|	Read	                                |	Global	|
@@ -345,7 +347,7 @@ The following table lists the privileges and recommended access levels for the a
 |	Conversation Characteristic    	|	msdyn_ocliveworkitemcharacteristic    	|	Read                                       	|	Global	|
 |	Conversation Sentiment        	|	msdyn_ocliveworkitemsentiment	        |	Read	                                    |	Global	|
 |	Custom messaging account    	|	msdyn_ocbotchannelregistration	        |	Read	                                    |	Global	|
-|	*Custom messaging channel             	|	msdyn_occustommessagingchannel	        |	Read	                                         |	Global	|
+|	Custom messaging channel             	|	msdyn_occustommessagingchannel	        |	Read	                                         |	Global	|
 |	Decision contract	            |	msdyn_decisioncontract	                |	Append, Append To, Read	                    |	Global	|
 |	                            	|		                                    |	Assign, Share	                            |	Basic	|
 |	Decision rule set	            |	msdyn_decisionruleset	                |	Append, Append To, Read	                    |	Global	|
@@ -353,14 +355,14 @@ The following table lists the privileges and recommended access levels for the a
 |	Deprecated Workstream <<br>Entity Configuration</br>	|	msdyn_entityconfig	|	Read	                                |	Global	|
 |	Entity	                        |	msdyn_entityroutingconfiguration	        |	Read	                                |	Global	|
 |	Entity Routing Context	        |	msdyn_cdsentityengagementctx	            |	Read	                                |	Global	|
-|	*Facebook Page             	|	msdyn_ocfbpage	        |	Read	                                         |	Global	|
-|	*Google's Business Messages agent account             	|	msdyn_ocgooglebusinessmessagesagentaccount	        |	Read	                                         |	Global	|
+|	Facebook Page             	|	msdyn_ocfbpage	        |	Read	                                         |	Global	|
+|	Google's Business Messages agent account             	|	msdyn_ocgooglebusinessmessagesagentaccount	        |	Read	                                         |	Global	|
 
 |	Table name                            |	Table unique name	                  |	Privilege name                |	Recommended access level	|
 |	   -----                              |------	                              |	------                          |	  ---              	|
 |	KPI Event Definition	        |	msdyn_kpieventdefinition	                |	Read	                                |	Global	|
 |	Language	                    |	msdyn_oclanguage	                        |	Read	                                |	Global	|
-|	*LINE account             	|	msdyn_oclinechannelconfig	        |	Read	                                         |	Global	|
+|	LINE account             	|	msdyn_oclinechannelconfig	        |	Read	                                         |	Global	|
 |	Live work item event	        |	msdyn_liveworkitemevent                    	|	Read	                                |	Global	|
 |	Live Work Item Participant <br>(Deprecated)</br>	|	msdyn_ocliveworkitemparticipant	|	Read	                        |	Global	|
 |	Localization	                |	msdyn_oclocalizationdata	                        |	Read	                        |	Global	|
@@ -368,7 +370,7 @@ The following table lists the privileges and recommended access levels for the a
 |	Master Entity Routing <br>Configuration</br>	|	msdyn_masterentityroutingconfiguration	|	Append, Append To, Read      |	Global	|
 |		                                            |		                                    |	Assign, Share	            |	Basic	|
 |	Message                        	|	msdyn_ocsystemmessage	                                |	Read	                    |	Global	|
-|	*Microsoft Teams             	|	msdyn_octeamschannelconfig	        |	Read	                                         |	Global	|
+|	Microsoft Teams             	|	msdyn_octeamschannelconfig	        |	Read	                                         |	Global	|
 |	Model training details         	|	msdyn_ocsimltraining                                	|	Read	                    |	Global	|
 |	Notification Field	            |	msdyn_notificationfield	                                |	Read	                    |	Global	|
 |	Notification Template	        |	msdyn_notificationtemplate	                            |	Read	                    |	Global	|
@@ -421,7 +423,7 @@ The following table lists the privileges and recommended access levels for the a
 |	SharePoint Data                            	|	SharePointData                        	|	Create, Read, Update	|	Global	|
 |	SharePointDocument	                        |	SharePointDocument                    	|	Read	|	Global	|
 |	Skill finder model                        	|	msdyn_ocskillidentmlmodel            	|	Read	|	Global	|
-|	*SMS Number settings             	|	msdyn_ocsmschannelsetting	        |	Read	                                         |	Global	|
+|	SMS Number settings             	|	msdyn_ocsmschannelsetting	        |	Read	                                         |	Global	|
 |	Solution	                                |	Solution	                            |	Read	|	Global	|
 |	Sound notification setting                  |	msdyn_soundnotificationsetting	        |	Append, Append To, Read	|	Global	|
 |	System User                        	        |	User	                                |	Read	|	Local	|
@@ -431,13 +433,13 @@ The following table lists the privileges and recommended access levels for the a
 |	Training data import configuration	        |	msdyn_ocsitdimportconfig	            |	Read	|	Global	|
 |	Training record	                            |	msdyn_ocsitrainingdata                	|	Read	|	Global	|
 |	Transcript                                	|	msdyn_transcript	                    |	Read	|	Global	|
-|	*Twitter handle             	|	msdyn_octwitterhandle	        |	Read	                                         |	Global	|
+|	Twitter handle             	|	msdyn_octwitterhandle	        |	Read	                                         |	Global	|
 |	UR notification template	                |	msdyn_urnotificationtemplate	        |	Read	|	Global	|
 |	UR Notification Template Mapping	        |	msdyn_urnotificationtemplatemapping	    |	Read	|	Global	|
 |	User settings	                            |	msdyn_usersetting	         |	Append, Append To, Create, Delete, Read, Update	|	Global	|
-|	*Voice Channel Setting             	|	msdyn_ocvoicechannelsetting	        |	Read	                                         |	Global	|
-|	*WeChat account             	|	msdyn_ocwechatchannelconfig	        |	Read	                                         |	Global	|
-|	*WhatsApp number             	|	msdyn_ocwhatsappchannelnumber	        |	Read	                                         |	Global	|
+|	Voice Channel Setting             	|	msdyn_ocvoicechannelsetting	        |	Read	                                         |	Global	|
+|	WeChat account             	|	msdyn_ocwechatchannelconfig	        |	Read	                                         |	Global	|
+|	WhatsApp number             	|	msdyn_ocwhatsappchannelnumber	        |	Read	                                         |	Global	|
 |	Workstream capacity profile	            |	msdyn_liveworkstreamcapacityprofile	    |	Read	                |	Local	|
 |	Workstream                                	|	msdyn_liveworkstream	                |	Append, Append To, Read	|	Global	|
 |	                                        	|		                                    |	Assign, Share	        |	Basic	|
