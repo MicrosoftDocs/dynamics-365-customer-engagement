@@ -55,7 +55,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
 
 ## How you can use consult to collaborate with other agents or supervisors
 
-You can collaborate with another agent, a supervisor, or an external participant (PSTN number or a Teams PSTN number) by using the consult option. You can initiate a chat or call consult or both.
+The consult option allows you to collaborate with another agent, a supervisor, or an external participant (either a PSTN number or a Teams PSTN number). You can initiate a chat, a call consult, or both.
 
 When you initiate a consult, the following actions occur:
 - You're the primary agent. 
