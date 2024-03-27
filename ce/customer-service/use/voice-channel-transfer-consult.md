@@ -80,8 +80,6 @@ When you initiate a consult, the following actions occur:
 3. Based on your requirement, perform one of the following steps.
 4
     - **Consult with an internal agent or supervisor**: Select **Agent**. You can either have a call or chat with an internal agent. Select the conversation channel and then search for the agent you'd like to consult with.<br>
-         > [!div class="mx-imgBorder"]
-         > ![Screenshot of external PSTN transfer](../media/oc-consult-agent.png)<br>
     - **Consult, then transfer**: The primary agent who initiated the consult can transfer the call to any participant involved in the consult. To transfer a conversation to the consulting agent in the conversation, perform the following steps:
        - If the consult is with an external participant (PSTN or Teams through PSTN), select **Transfer** next to the external phone number in the call window.
        - If the consult is with an internal agent or a supervisor, select  **Transfer** on the call controls.
