@@ -36,7 +36,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
 
 3. Based on your requirement, perform one of the following steps.
 
-    - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The agent who picks up the transferred call becomes the primary agent and you become the secondary agent and are removed from the call. The primary agent must manually remove the customer from hold.<br>
+    - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The agent who picks up the transferred call becomes the primary agent and you become the secondary agent and are removed from the call. <br>
 
         > [!div class="mx-imgBorder"]
         > ![Screenshot of queue transfer](../media/oceh-cc-transfer-queue-list.png)<br>
