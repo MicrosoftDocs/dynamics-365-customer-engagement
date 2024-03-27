@@ -48,7 +48,7 @@ To test your microphone and speaker, do the following steps:
 
       [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-     - On the input box, you can copy, type in a number, or select a number from the recently dialled numbers. The country code dropdown displays the list of supported countries and regions that you can call. 
+     - On the input box, you can copy, type in a number, or select a number from the recently dialed numbers. The country code dropdown displays the list of supported countries and regions that you can call. 
      - View and call from the most recently dialed called numbers. By default, the last 20 calls that you’ve received or made are displayed.
      - You can select the customer's name in **Recents** to view the customer's account or contact details in a new session.
      - In the profile dropdown, the outbound profile and the phone number that you're using to make the call is displayed. This is the outbound calling number that is displayed on the customer's phone when they receive your call.
