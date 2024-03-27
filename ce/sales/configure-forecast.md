@@ -1,7 +1,7 @@
 ---
 title: Configure forecasts in your organization
 description: Learn how to configure forecasts based on revenue or quantity to predict how much revenue your sales team will generate in a given time frame.
-ms.date: 03/05/2024
+ms.date: 03/27/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -117,15 +117,11 @@ In the **Opportunity** form, **Forecast Category** appears above **Description**
 If you don't want to see the forecast category in the opportunity form, you need to customize the form. You can't use the **Visible by default** option to hide it. To learn more, see [Unable to hide forecast category field in opportunity forms](./ts-forecasts.md#hide_forecast_category_field).
 
 >[!IMPORTANT]
->
 >- The forecasting feature is intended to help sales managers or supervisors enhance their team’s performance.
->
-- The forecasting feature isn't intended for use in making decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements.
->
+>- The forecasting feature isn't intended for use in making decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements.
 >- Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with users.
 >- Customers should notify users that their communications with salespersons might be monitored, recorded, or stored and, obtain consent from users before using the feature with them (as required by applicable laws).
->
-- Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with users might be monitored, recorded, or stored.
+>- Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with users might be monitored, recorded, or stored.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

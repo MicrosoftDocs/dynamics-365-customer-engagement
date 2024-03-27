@@ -26,6 +26,11 @@ Share sales records with your customers in a professional, read-only PDF format,
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
+## Prerequisites
+
+Your administrator must, 
+- [Enable PDF generation from sales records](enable-pdf-generation-quote.md).
+- Ensure that word templates are available for the entities you want to generate PDF files for. Out-of-the-box templates are available for the Account, Opportunity, Order, Quote, and Invoice entities. To enable PDF generation for other entities, your administrator must [create new word templates](manage-word-templates.md).
 
 ## Export to PDF
 
@@ -48,9 +53,8 @@ Use the PDF generation capability to create and share read-only, professional-lo
     A preview based on the selected template is shown, and the PDF file name is populated. If you'd like to use a different template than the one selected, search for and select it in the **Select a template to generate PDF document** box. After you select the template, the preview will be refreshed.
 
     > [!IMPORTANT]
-    > - Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that don't have out-of-the-box templates, you can create new templates. You can't create a PDF file for an entity record if there's no template available for that entity. To learn more about using Word templates, see [Create and manage Word templates in Dynamics 365 Sales](manage-word-templates.md).  
-    > - If there are multiple Word templates available for the entity, by default the first template in the list is selected. 
-    > - If the setting to view or download a PDF file automatically is disabled in your browser settings, the preview functionality won't work. 
+    >- If there are multiple Word templates available for the entity, by default the first template in the list is selected. 
+    >- If the setting to view or download a PDF file automatically is disabled in your browser settings, the preview functionality won't work. 
 
 3. In the **Save as** field, change the PDF file name if you want.
 4. Do one of the following:
@@ -79,16 +83,13 @@ If you're using Dynamics 365 for phones on a mobile device, the capability for g
     > [!div class="mx-imgBorder"]
     > ![A quote form showing the Create PDF button on the command bar.](media/create-pdf.png "A quote form showing the Create PDF button on the command bar")
 
-    > [!IMPORTANT]
-    > Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that don't have out-of-the-box templates, you can create new templates. You can't create a PDF file for an entity record if there's no template available for that entity. [Learn more about creating Word templates](manage-word-templates.md). 
-
 3. In the dialog box that appears, save or download the PDF.
 
     - If you select **Save**, the PDF file is stored in the default SharePoint site if SharePoint is configured and enabled for the primary entity. If SharePoint isn't configured, the PDF is saved as a Notes attachment to the primary entity record in Dynamics 365 Sales.
 
     - If you select **Download**, the PDF is downloaded to your local drive. After it's downloaded, you can add this file to a note, send it as an attachment in an email, or upload it to SharePoint.
 
-### Email a PDF from Dynamics 365 for phones mobile app
+## Email a PDF from Dynamics 365 for phones mobile app
 
 You can also generate a PDF file and directly email it to a customer.
 
