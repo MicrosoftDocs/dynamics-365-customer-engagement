@@ -53,8 +53,6 @@ The integration depends on [dual-write](/dynamics365/fin-ops-core/dev-itpro/data
 
     - Dynamics 365 Supply Chain Management extended entity maps
 
-   :::image type="content" source="media/fno-dual-write-table-maps.svg" alt-text="Screenshot of Finance and operations Dual write  page for Field Service integration.":::
-
 1. Select each of the following required table mappings. Then select **Run** and **Initial Sync**.
 
    - All products
@@ -91,7 +89,7 @@ The integration depends on [dual-write](/dynamics365/fin-ops-core/dev-itpro/data
 
 The integration relies on virtual tables and process execution in each user's context.
 
-[Set up the following security roles](/fin-ops-core/dev-itpro/data-entities/dual-write/security-roles).
+[Set up the following security roles](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/security-roles).
 
 <!--- Is this the correct link? --->
 
