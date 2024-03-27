@@ -144,8 +144,9 @@ Teasers will be disabled in your organization.
 [Edit insight cards](edit-insight-cards.md)  
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)  
 [Create custom cards in Assistant](extend-relationship-assistant-card.md)  
-[Assistant FAQs](faqs-sales-insights.md#assistant)  
+[Assistant FAQs](faq-assistant.md)  
 [Sales Insights privacy notice](privacy-notice.md)  
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

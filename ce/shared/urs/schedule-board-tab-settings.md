@@ -138,7 +138,7 @@ Makers can customize icons by [creating web resources](/power-apps/developer/mod
 
 ### Board colors
 
-Board colors represent a resource's utilization on the schedule board. These colors only apply to daily, weekly, and monthly views and on the currently selected schedule board.
+Board colors represent a resource's utilization on the schedule board. Most colors only apply to daily, weekly, and monthly views and on the currently selected schedule board. The hourly view shows bookings colored by their status. The color for non-working hours applies to the hourly view too.
 
 ### Other settings
 
