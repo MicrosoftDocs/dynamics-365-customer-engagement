@@ -9,16 +9,13 @@ author: jasonccohen
 
 # Create a work order using the integration
 
-With the finance and operations integration, more fields are required when creating a work order in Field Service.
+Once the [finance and operations integration is setup](finance-operations-integration-setup.md), Field Service automatically requires fields related to finance and operations when creating a work order.
 
-## Prerequisites
-
-- [Set up Field Service integration with finance and operations applications](finance-operations-integration-setup.md)
+## Create a work order
 
 1. [Create a work order](create-work-order.md) in Field Service and fill in the required fields.
 
-   > [!NOTE]
-   > After selecting the **Service Account**, the system filters the finance and operations projects to show projects where the customer and company are relevant to the work order. It also filters the product, service, warehouse, location, and line property fields based on the company of the selected service account.
+   After selecting the **Service Account**, the system filters the finance and operations projects to show projects where the customer and company are relevant to the work order. It also filters the product, service, warehouse, location, and line property fields based on the company of the selected service account.
 
 1. Select a **Finance and Operations project**. This field aligns Field Service work orders with finance and operations projects. Once populated, this field can't be changed.
 
