@@ -20,7 +20,7 @@ This article provides answers to frequently asked questions (FAQs) about configu
 If agents who use Omnichannel for Customer Service aren't receiving Facebook messages, it's likely because users lack the necessary roles or permissions. The assignment of roles or permissions might vary slightly, depending on whether the application is in production or development mode. 
 
 **App in production mode**: 
-- If this is the first time the Facebook page is being used for messaging, the customer needs to request pages_messaging permission from their Facebook app. After the request is approved, any Facebook user can send messages to their page.
+- If this is the first time the customer is using the Facebook page for messaging, they must request pages_messaging permission from their Facebook app. After the request is approved, any Facebook user can send messages to their page.
 
 - If the Facebook page is currently used for messaging with another provider and you're onboarding the page to Omnichannel for Customer Service for the first time, you must have an existing Facebook page that's linked to two Facebook apps: One that's connected to your existing provider, and the other that you want to set up with Omnichannel for Customer Service.<br>
 
@@ -33,7 +33,7 @@ If agents who use Omnichannel for Customer Service aren't receiving Facebook mes
   1. Resend messages from your Facebook page to verify that messages are received in Omnichannel for Customer Service.
 
 
-**App in development mode**: If the Facebook app that you’re using is currently in development mode, then only those Facebook users who have roles within the app can send messages to the Facebook page. The messages can be received by or forwarded to Omnichannel for Customer Service. 
+**App in development mode**: If the Facebook app that you’re using is currently in development mode, then only those Facebook users who have roles within the app can send messages to the Facebook page. Omnichannel for Customer Service can receive and forward the messages. 
 
 If you grant roles to an existing Facebook user, make sure the user has a Meta Developer account. They need to sign in and accept the assigned role invitation to the app from their account. 
 
