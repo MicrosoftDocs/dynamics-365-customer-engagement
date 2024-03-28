@@ -1,7 +1,7 @@
 ---
 title: Work order recap with Copilot in Field Service (preview)
 description: Let AI generate a work order recap to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 03/19/2024
+ms.date: 03/38/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -66,25 +66,22 @@ The recap focuses on the most relevant information based on the work order's lif
 
 ## Summary configuration (preview)
 
-Administrators can configure the information for the AI-generated summary to tailor the output to their business needs.
+Copilot in Field Service provides predefined summaries that are optimized for specific tables. Administrators can replace these summaries by configuring their own to tailor to their business needs.
 
-:::image type="content" source="media/configure-summary-settings.svg" alt-text="Screenshot of the summary configuration for the copilot-based summary control.":::
+:::image type="content" source="media/configure-summary-configuration.png" alt-text="Screenshot of the summary configuration for the copilot-based summary control.":::
 
 ### Configure the summary
 
-1. In Field Service, change to the **Settings** area and go to **Copilot settings** > **Summary configuration**.
-1. Open the configuration template for the records you want to configure. Currently, the summary supports two entity templates: work orders and bookable resource bookings.
-1. Set the **Configure summary** setting to **On**.
-1. The summary includes data fields based on record types. You can change, remove, and add more mappings. Depending on the record type you choose, different data fields might be available.
+1. In Field Service, change to the **Settings** area and go to **Copilot settings** > **Summary Configuration**.
+1. From the list, choose the table for which you want to configure the summary. Currently, you can configure two out-of-the-box tables: work orders and bookable resource bookings.
+1. Enable the **Configure summary** setting.
+1. You can add, remove, and change the data columns that Copilot uses to generate the summary. Under **Record type**, open the drop down to search or select the table by navigating through relationships. After choosing a table, the columns of the table will be available under **Data field**.
+1. In the **Sample summary** section, you can test this configuration using a row from the Dataverse table and preview the summary that Copilot generates based on real data.
 1. **Save** your changes when you're done making changes.
 
-### Test configuration
+### Revert to the predefined summary
 
-In the **Sample summary** section, you can choose a record from your system as sample data and select **Test** to see a sample output based on the summary configuration.
-
-### Reset to default configuration
-
-To reset an updated summary configuration to the recommended defaults, select **Reset to recommendation** on the summary configuration record and save the changes. If you want to use the summary configured by Microsoft, turn off the **Configure summary** setting.
+To use the default summary provided by Field Service, disable the **Configure summary** setting.
 
 ## Generate a summary in the web app
 
