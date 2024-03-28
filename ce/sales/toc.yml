@@ -733,8 +733,6 @@
               href: manage-org-charts.md
             - name: View and understand the org charts
               href: view-understand-org-charts.md
-        - name: View and manage records in focused view
-          href: focused-view.md
         - name: Work with invalid email addresses
           href: work-invalid-email-addresses.md
         - name: Use the LinkedIn Sales Insights tab
@@ -763,6 +761,13 @@
           href: view-copy-email-summary.md
         - name: Copilot in Dynamics 365 Sales FAQ
           href: sales-copilot-faq.md
+    - name: Overview of focused view
+      href: configure-focused-view.md
+      items:
+        - name: View and manage records in focused view
+          href: focused-view.md
+        - name: Focused view FAQs
+          href: faq-focused-view.md
     - name: Collaboration
       items:
         - name: Microsoft Teams chat in Dynamics 365
@@ -872,8 +877,6 @@
           href: lead-management-overview.md
         - name: Create or edit leads
           href: create-edit-lead-sales.md
-        - name: View and manage records in focused view
-          href: focused-view.md
         - name: Manage duplicate leads
           href: manage-duplicate-leads.md
         - name: Work with invalid email addresses
@@ -905,8 +908,6 @@
               href: add-stakeholder.md
             - name: Move the opportunity through different stages
               href: move-opportunity-stages.md
-        - name: View and manage records in focused view
-          href: focused-view.md
         - name: Prioritize opportunities using predictive scores
           href: work-predictive-opportunity-scoring.md
         - name: Opportunity pipeline view
@@ -1425,12 +1426,6 @@
       href: privacy-notice.md
 - name: Removed or deprecated features
   href: deprecations-sales.md
-- name: License compliance
-  items:
-    - name: Verify license compliance
-      href: license-enforcement.md
-    - name: License checker rules
-      href: license-checker-rules.md
 - name: Known issues
   href: https://go.microsoft.com/fwlink/?linkid=2171768
 - name: Responsible AI
