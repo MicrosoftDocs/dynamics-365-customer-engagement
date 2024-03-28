@@ -14,7 +14,7 @@ ms.custom: bap-template
 Use the **Voice call experiences** page in Customer Service admin center to configure the following features:
 
 - [Configure agent call quality feedback survey](#configure-agent-call-quality-feedback-survey)
-- [Automatically remove a customer from hold](#automatically-remove-a-customer-from-hold)
+- [Automatically remove a customer from hold](#disable-taking-a-customer-off-hold-automatically)
 
 ## Configure agent call quality feedback survey 
 
@@ -54,7 +54,7 @@ ACSCallSurvey
 
 ```
 
-## Disable automatically taking a customer off hold
+## Disable taking a customer off hold automatically
 
 When you transfer a call to another agent, the customer is automatically put on hold. The customer is removed from hold automatically when the secondary agent accepts the transferred call. To disable this behavior, and manually take the customer off hold, perform the following steps:
 - In Customer Service admin center, select **Workspaces** and then select **Voice call experiences**.
