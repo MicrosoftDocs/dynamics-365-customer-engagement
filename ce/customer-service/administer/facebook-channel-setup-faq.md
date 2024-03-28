@@ -15,9 +15,9 @@ ms.custom: bap-template
 
 This article provides answers to frequently asked questions (FAQs) about configuring the Facebook channel in Omnichannel for Customer Service.
 
-## Why aren't agents able to receive messages that are sent on Facebook? 
+## Why aren't agents able to receive messages that are sent from Facebook? 
 
-If agents who use Omnichannel for Customer Service aren't receiving Facebook messages, it's likely because users lack the necessary roles or permissions. The assignment of roles or permissions might vary slightly, depending on whether the application is in production or development mode. 
+If agents who use Omnichannel for Customer Service aren't receiving Facebook messages, it's likely because users lack the necessary roles or permissions. The assignment of roles or permissions might vary slightly, depending on whether the Facebook app is in production or development mode. 
 
 **App in production mode**: 
 - If the customer is using the Facebook page for messaging for the first time, they must request pages_messaging permission from their Facebook app. After the request is approved, any Facebook user can send messages to their page.
