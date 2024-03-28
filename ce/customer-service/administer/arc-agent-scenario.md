@@ -1,6 +1,6 @@
 ---
 title: How automatic record creation rule works in an agent scenario
-description: 
+description: Understand how automatic record creation rules work in agent scenarios and learn how to customize them.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
