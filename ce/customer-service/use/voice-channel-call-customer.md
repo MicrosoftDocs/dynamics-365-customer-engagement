@@ -1,7 +1,7 @@
 ---
 title: Call a customer in the voice channel
 description: Use this article to understand how you can make customer calls in Omnichannel for Customer Service.
-ms.date: 03/01/2024
+ms.date: 04/01/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -16,12 +16,7 @@ To be able to call customers, your administrator must configure outbound calling
 
 You can launch the outbound dialer from the menu bar, **Contacts** or **Active conversation** page. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.
 
-## Test call controls, make a test call (preview)
-
-
-[This section is prerelease documentation and is subject to change.]
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+## Test call controls, make a test call 
 
  In the outbound dialer, you can test your microphone and speaker before you make a call. You can also make a test call to check the quality of the call.
 

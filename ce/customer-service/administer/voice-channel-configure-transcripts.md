@@ -1,10 +1,11 @@
 ---
-title: "Configure call recording, transcription, and real-time translation | MicrosoftDocs"
-description: "Learn how to configure call recording, transcription, and real-time translation in the voice channel in Omnichannel for Customer Service."
+title: Configure call recording, transcription, and real-time translation 
+description: Learn how to configure call recording, transcription, and real-time translation in the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 02/16/2023
-ms.topic: article
+ms.date: 04/01/2024
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Configure call recording, transcription, and real-time translation
@@ -36,6 +37,8 @@ As an administrator, you can enable live translation, transcription and recordin
 1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want agents to record and transcribe their calls.
 
 1. Set **Allow agents to pause and resume** if you want to allow agents to control the portions of conversations that they record and transcribe.
+
+1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** if recording and transcription must be paused when the agent puts the customer on hold and resumed when the agents takes the customer off hold.
 
 1. Select **Save**.
 
