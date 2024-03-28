@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/22/2024
+ms.date: 03/28/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -45,7 +45,7 @@ When a customer replies to the original email E1 from the Sent Items folder but 
 
 Out of the box, the response email (ER1) is related to all cases Case 1, Case 2, Case 3, since email correlation doesn’t break. As the original email was set to all cases, the reply email is also set to all cases Case 1, Case 2, and Case 3, even though mailbox Q1 is removed from the reply email.  
 
-We recommend using [customization](#customizations-steps) to ensure that the reply email isn’t related to the case that originated in the mailbox which was removed from the reply email. You’ll need to check for the correlated case that originated in the mailbox which was removed from the reply email and remove the identified case from the replied email’s related attribute.
+We recommend using customization to ensure that the reply email isn’t related to the case that originated in the mailbox which was removed from the reply email. You’ll need to check for the correlated case that originated in the mailbox which was removed from the reply email and remove the identified case from the replied email’s related attribute.
 
 ### Replies to an agent’s email from Inbox to the same queue  
 
@@ -69,7 +69,7 @@ When a customer forwards an email from their Inbox to the same queues, the respo
 
 When a customer forwards the agent’s reply mail from the Inbox to a new queue, automatic record creation creates a new case Case 4 for Q4 (new queue). Email is tagged to all cases that originated in the old queues as well as to the new Case 4 that was created.
 
-However, if you don't want the forwarded email to be associated with the existing cases that originated in the earlier queues, you'll need to perform [customization](#customization).
+However, if you don't want the forwarded email to be associated with the existing cases that originated in the earlier queues, you'll need to perform customization.
 
 ### Forwards an original email to same queue from Sent Items
 
@@ -79,35 +79,7 @@ When a customer forwards the original email (E1) from Sent items to the same que
 
 When a customer forwards the original email (E1) from Sent items to another queue Q4, automatic record creation creates a new case Case 4 for Q4. The forwarded email is related to all cases Case 1, Case 2, Case 3, and Case 4.
 
-However, if you don't want the forwarded email to be associated with the existing cases that originated in the earlier queues, you'll need to perform [customization](#customization).
-
-## Customization
-
-1. Extract the sample code.
-
-2. [Build the plugin](/power-apps/developer/data-platform/tutorial-write-plug-in#build-plug-in).
-
-3. [Sign the plugin](/power-apps/developer/data-platform/tutorial-write-plug-in#sign-the-plug-in).
-
-4. [Register](/power-apps/developer/data-platform/tutorial-write-plug-in#register-plug-in) the attached plugin with the [Plug-in Registration Tool](/power-apps/developer/data-platform/download-tools-nuget).  
-
-5. While registering the plugin, in the Plug-in Registration Tool, expand **Assembly** and right-click on **Plugin**.
-
-6. Select **Register New Step** and fill in the following details:
-
-   - Message: Create
-   - Primary Entity: email
-   - Secondary Entity: (Leave as blank)
-   - Filtering Attributes: (Leave as blank)
-   - Event Handler: (Leave as default)
-   - Step Name: (Leave as default)
-   - Run in User’s Context: Calling User
-   - Execution Order: 1
-   - Description: (Leave as default)
-   - Event Pipeline Stage of Execution: PostOperation
-   - ExecutionMode: Synchronous
-
-7. Select **Register New Step** and then test the plugin.
+However, if you don't want the forwarded email to be associated with the existing cases that originated in the earlier queues, you'll need to perform customization.
 
 ## See also
 

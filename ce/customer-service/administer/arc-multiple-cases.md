@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/22/2024
+ms.date: 03/28/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -31,7 +31,7 @@ As an administrator, you can enable this feature to ensure that multiple cases (
 
 ## Enable creation of multiple cases from an email sent to multiple mailboxes
 
-1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select the environment that contains your solution.
+1. Sign in to [powerapps.com](https://make.powerapps.com) and select the environment that contains your solution.
 1. From **Objects**, select **Settings** > **Settings definition**.
 1. Select the **Email Multi Related for ARC** setting definition.
 1. On the **Edit Email Multi Related for ARC** setting dialog, **Setting environment value** section, select **New environment value**.
@@ -59,11 +59,11 @@ The following flowchart explains how automatic record creation rules work to cre
 
 - To achieve this, you may add a sub grid to list the originating queue entries to the case entity from the Power Apps Maker portal by customizing the case form.
 
-Perform the following steps:
+    Perform the following steps:
 
 1. Create a new view on the msdyn_originatingqueue table. We recommend you show the msdyn_queueid and msdyn_emailid fields in the view.  
 
-      1. Sign in to https://make.powerapps.com and select your environment.  
+      1. Sign in to [powerapps.com](https://make.powerapps.com) and select your environment.  
     
       1. Go to **Tables** > **Originating Queue Mapping** table.  
         

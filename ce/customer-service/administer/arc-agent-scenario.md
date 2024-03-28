@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/22/2024
+ms.date: 03/28/2024
 ms.custom: bap-template
 ---
 
@@ -76,7 +76,7 @@ An incoming email from a customer might get converted to multiple cases. When an
 
 1. Create a web resource with the code to replace the ribbon button actions:  
 
-    1. In Power Apps, go to **Advanced Settings** > **Customizations** > **Customize the System**.
+    1. In [Power Apps](https://make.powerapps.com), go to **Advanced Settings** > **Customizations** > **Customize the System**.
     
     1. Select **Web resources** > **New**, and fill in the following information:
     
