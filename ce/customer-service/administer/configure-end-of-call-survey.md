@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 Use the **Voice call experiences** page in Customer Service admin center to configure the following features:
 
-- [Configure agent call quality feedback survey (preview)](#configure-agent-call-quality-feedback-survey-preview)
+- [Configure agent call quality feedback survey](#configure-agent-call-quality-feedback-survey)
 - [Automatically remove a customer from hold](#automatically-remove-a-customer-from-hold)
 
 ## Configure agent call quality feedback survey 
@@ -62,4 +62,4 @@ When you transfer a call to another agent, the customer is automatically put on 
 
 ## Next steps
 
-[Share feedback on call quality](../use/voice-channel-agent-experience.md#share-feedback-on-call-quality-preview)
+[Share feedback on call quality](../use/voice-channel-agent-experience.md#share-feedback-on-call-quality)
