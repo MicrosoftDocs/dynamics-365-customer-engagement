@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 Use the information in this article to learn how to copy a Dynamics 365 Customer Service environment in which Omnichannel for Customer Service is provisioned. The environment with Omnichannel for Customer Service integrates with several external services and channels like WhatsApp, Twilio, and Azure Communication Services. The endpoints and other parameters for these integrations are stored in Dataverse entities. These parameters are also copied when you copy the environment into another environment.
 
-You can use the environment management operations like copy, which is a standard feature of model-driven apps. However, you'll need to perform specific steps to make sure that the copied environment in the target works correctly. For example, if you have digital messaging channels, you'll need to delete them and provision again.
+You can use the environment management operations like copy, which is a standard feature of model-driven apps. However, you need to perform specific steps to make sure that the copied environment in the target works correctly. For example, if you have digital messaging channels, you need to delete them and provision again.
 
 
 ## Prerequisites
@@ -23,7 +23,7 @@ The source and target environments must have the same configurations as follows:
 
 - [Omnichannel for Customer Service is provisioned in both environments](omnichannel-provision-license.md).
 - The source and target environments have the same set of channels enabled.
-- [If unified routing is in use, make sure that it's turned on in both the source and target environments](../administer/provision-unified-routing.md).
+- [If unified routing is in use, make sure that you have turned on in both the source and target environments](../administer/provision-unified-routing.md).
 
 ## Copy the environment from source
 
@@ -41,11 +41,11 @@ After the copy environment process is complete, the target environment is access
 
 ### Manage users
 
-[Review and update the users, role mappings, and capacity profiles](../administer/users-user-profiles.md) in the target environment if required.
+[Review and update the users, role mappings, and capacity profiles](../administer/users-user-profiles.md) in the target environment if necessary.
 
 ### Review queues
 
-Review the queues and update the agent memberships for agent assignments to happen as required. For more information, see the following articles:
+Review the queues and update the agent memberships for agent assignments to happen as necessary. For more information, see the following articles:
 
 - [Create and manage queues for cases](../administer/set-up-queues-manage-activities-cases.md)
 - [Create and manage queues for unified routing](../administer/queues-omnichannel.md)
@@ -54,7 +54,7 @@ Review the queues and update the agent memberships for agent assignments to happ
 
 The Live Chat widget snippets are regenerated in the target environment to match the parameters in the target environment.
 
-- If you want to configure your website or portal to send chats to the target environment, make sure that you copy the newly-generated scripts from the target environment and update your website code to use the new scripts.
+- If you want to configure your website or portal to send chats to the target environment, make sure that you copy the newly generated scripts from the target environment and update your website code to use the new scripts.
 - Review and make sure that the user features and chat settings are updated for the chat channel configuration in the target.
  
 
@@ -63,7 +63,7 @@ The Live Chat widget snippets are regenerated in the target environment to match
 For the channels that exist in your target environment, perform the steps as follows:
 
 1. [Delete the existing channel or page](../administer/delete-channel.md) and dissociate the channel from the corresponding channel-specific workstream.
-1. Configure the channel again and update the channel-specific workstream with the newly-configured channel.
+1. Configure the channel again and update the channel-specific workstream with the newly configured channel.
 
 The following table lists the channels and the associated procedures to configure them.
 
