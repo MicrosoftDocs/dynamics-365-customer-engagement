@@ -79,9 +79,9 @@ After you have configured knowledge management on your app, you must also set up
      
      d. In the **Knowledge search experience** section, enable the following as required:
       
-        - **Enable suggest as you type**: Agents get suggestions on the most relevant records as they type keywords in the search box. More information: [Enable the suggest-as-you-type option](#enable-the-suggest-as-you-type-option)
-        - **Set search mode as all**: Applies knowledge search logic for your knowledge articles to help agents find only the articles they need. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
-        - **Show recently viewed knowledge articles**: Agents see a list of recently viewed articles for cases in the knowledge search pane. More information: [Show recently accessed knowledge articles for cases](#show-recently-accessed-knowledge-articles-for-cases)
+        -  [Enable suggest-as-you-type](#enable-the-suggest-as-you-type-option)
+        - **Set search mode as all**: More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
+        - [Show recently accessed knowledge articles for cases](#show-recently-accessed-knowledge-articles-for-cases)
         * Select **Save**.
   4. Optionally, in the **Categories** section, select **Manage**. The **Categories System Views** page appears. You can create and manage a logical structure of categories for your records. More information: [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
   5. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to save the the search filters according to their areas, set the **Allow agent to personalize** toggle to **Yes**.
