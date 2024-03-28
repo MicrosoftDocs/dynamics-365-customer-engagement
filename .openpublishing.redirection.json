@@ -1,5 +1,25 @@
 {
   "redirections": [
+   {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/use-postman-web-api.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/insomnia",
+      "redirect_document_id": "false"
+   },
+   {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/use-postman-perform-operations.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/insomnia",
+      "redirect_document_id": "false"
+   },
+   {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/setup-postman-environment.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/insomnia",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/customer-service/implement/introduction-customer-service-analytics.md",
+      "redirect_url": "/dynamics365/customer-service/administer/configure-customer-service-analytics-insights-csh",
+      "redirect_document_id": false
+    },
     {
       "source_path": "ce/customer-service/compliance-certifications.md",
       "redirect_url": "/dynamics365/customer-service/implement/compliance-certifications",
@@ -126,6 +146,16 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/license-checker-rules.md",
+      "redirect_url": "/dynamics365/sales/faq-licenses-storage#license-compliance",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/license-enforcement.md",
+      "redirect_url": "/dynamics365/sales/faq-licenses-storage#license-compliance",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/configure-sales-copilot.md",
       "redirect_url": "/dynamics365/sales/enable-setup-copilot",
       "redirect_document_id": "false"
@@ -159,7 +189,16 @@
       "redirect_url": "/dynamics365/sales/developer/entities/msdyn-ConnectSequence-action.md",
       "redirect_document_id": "false"
     },
-    
+    {
+      "source_path": "ce/sales/faq-sales.yml",
+      "redirect_url": "/dynamics365/sales/troubleshooting",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/faqs-sales-insights.md",
+      "redirect_url": "/dynamics365/sales/troubleshooting",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/sales/wa-view-details-segment.md",
       "redirect_url": "/dynamics365/sales/wa-edit-a-segment",
