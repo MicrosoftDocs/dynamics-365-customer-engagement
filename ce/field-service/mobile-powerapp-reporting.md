@@ -36,7 +36,7 @@ For a guided walkthrough, check out the following video.
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyFjo]
 
 > [!NOTE]
-> This sample report is provided a sample to start developing your own custom report using Power Apps Composition Framework. This report is considered a custom control and is not supported directly by Microsoft. 
+> This report is provided as a sample to help develop your own custom report using the Power Apps Composition Framework. This report is considered a custom control and Microsoft doesn't provide support for it. 
 
 ## Import the reporting solution
 
