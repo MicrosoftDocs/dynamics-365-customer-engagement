@@ -1,7 +1,7 @@
 ---
 title: Work order recap with Copilot in Field Service (preview)
 description: Let AI generate a work order recap to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 03/38/2024
+ms.date: 03/28/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -68,7 +68,7 @@ The recap focuses on the most relevant information based on the work order's lif
 
 Copilot in Field Service provides predefined summaries that are optimized for specific tables. Administrators can replace these summaries by configuring their own to tailor to their business needs.
 
-:::image type="content" source="media/configure-summary-configuration.png" alt-text="Screenshot of the summary configuration for the copilot-based summary control.":::
+:::image type="content" source="media/copilot-summary-configuration.png" alt-text="Screenshot of the summary configuration for the copilot-based summary control.":::
 
 ### Configure the summary
 
