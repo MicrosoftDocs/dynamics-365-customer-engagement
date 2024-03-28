@@ -19,13 +19,13 @@ search.audienceType:
 
 Search and view knowledge articles to help answer a customer's question or solve an issue.
 
-Knowledge base search is available in Customer Service Hub, Customer Service workspace, Omnichannel for Customer Service, and some versions of [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities). Customers can search your knowledge base on their own if your organization has provided a [self-service portal](knowledge-base-search-methods.md).
+Knowledge base search is available in Customer Service Hub, Customer Service workspace, Omnichannel for Customer Service, and some versions of [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities). Customers can search your knowledge base on their own if your organization provided a [self-service portal](knowledge-base-search-methods.md).
 
 ## Prerequisites
 
-- Your administrator has [turned on Dataverse search](/power-platform/admin/configure-relevance-search-organization).
+- Your administrator [turned on Dataverse search](/power-platform/admin/configure-relevance-search-organization).
 
-- Your administrator has set up the following columns in the **Quick Find View** by navigating to **Tables** > **Knowledge Article** > **Views** > **Quick Find Active Knowledge Articles**:
+- Your administrator set up the following columns in the **Quick Find View** by navigating to **Tables** > **Knowledge Article** > **Views** > **Quick Find Active Knowledge Articles**:
 
   - Article Public Number
   - Content  
@@ -43,11 +43,11 @@ Knowledge base search is available in Customer Service Hub, Customer Service wor
 
 - You have access to knowledge article entities, such as Knowledge Article, Knowledge Article Views, Knowledge Article Attachment, Favorite Knowledge Article, and Knowledge Article Image.
 
-- Your administrator has granted **Create**, **Read**, **Write**, **Delete**, **Append**, and **Appendto** privileges to any new custom roles you created.
+- Your administrator granted **Create**, **Read**, **Write**, **Delete**, **Append**, and **Appendto** privileges to any new custom roles you created.
 
-- In Customer Service workspace and Omnichannel for Customer Service, your administrator has turned on the app side pane and knowledge search in agent experience profiles.
+- In Customer Service workspace and Omnichannel for Customer Service, your administrator turned on the app side pane and knowledge search in agent experience profiles.
 
-- You're dealing with a case or a conversation, or your administrator has [turned on the ability](../administer/set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) to open the knowledge pane for other entities.
+- You're dealing with a case or a conversation, or your administrator [turned on the ability](../administer/set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) to open the knowledge pane for other entities.
 
 ## Tips for search results
 
@@ -143,7 +143,7 @@ In the app side pane, select the **Smart assist** (light bulb) icon to view sugg
 
 ## Save time searching with suggest-as-you-type
 
-If your administrator has [turned on suggest-as-you-type](../administer/set-up-knowledge-management-embedded-knowledge-search.md#enable-the-suggest-as-you-type-option), the system suggests related knowledge articles as you type in the search box.
+If your administrator [turned on suggest-as-you-type](../administer/set-up-knowledge-management-embedded-knowledge-search.md#enable-the-suggest-as-you-type-option), the system suggests related knowledge articles as you type in the search box.
 
 Your search term is matched against article titles, and the matching results appear in a flyout menu. If your search term consists of more than one word, only titles that contain the full string, not individual words, are matched. For example, if you search for **Cheque Book Reissue**, articles with "Cheque Book Reissue" in the title are returned. Articles with the individual words "Cheque," "Book," or "Reissue" in the title aren't.
 
@@ -153,7 +153,7 @@ Suggest-as-you-type suggests up to six knowledge articles. Text that matches you
 
 ## Search using favorites
 
-If your administrator has provided [privileges to custom roles](#prerequisites), you can mark the knowledge articles you use most often as favorites to get back to them quickly while you're working on a case. You can mark up to 50 articles as favorites.
+If your administrator provided [privileges to custom roles](#prerequisites), you can mark the knowledge articles you use most often as favorites to get back to them quickly while you're working on a case. You can mark up to 50 articles as favorites.
 
 1. Select an article from the list of search results.
 1. Select the **Favorite** (heart) icon to add the article to your favorites list, or, if it's already a favorite, remove it.
@@ -170,7 +170,7 @@ In Customer Service workspace and Omnichannel for Customer Service, when you sel
 
 ## Search across external search providers
 
-In Customer Service Hub and Customer Service workspace, you can search for files, documents, and articles from data sources outside your Dynamics 365 organization, if your administrator has configured this option. To view those results, select the source in the list under **Knowledge**.
+In Customer Service Hub and Customer Service workspace, you can search for files, documents, and articles from data sources outside your Dynamics 365 organization, if your administrator configured this option. To view those results, select the source in the list under **Knowledge**.
 
 In Customer Service Hub:
 
@@ -183,10 +183,10 @@ For more information on setting up search providers, see [Set up external search
 
 ## Search across integrated providers in Customer Service Hub and Customer Service workspace
 
-In Customer Service Hub and Customer Service workspace, view and sort search results from [any providers your administrator has added](../administer/add-search-provider.md) for you. The name of the search provider the article was pulled from appears on the knowledge article card. If it's truncated, hover over it to view the full name.
+In Customer Service Hub and Customer Service workspace, view and sort search results from [any providers your administrator added](../administer/add-search-provider.md) for you. The name of the search provider the article was pulled from appears on the knowledge article card. If it's truncated, hover over it to view the full name.
 
 1. In the Customer Service workspace site map, select a case and then select **Knowledge search** on the app side pane.
-1. Enter the search keyword. You'll see search results along with the search provider.
+1. Enter the search keyword. You see search results along with the search provider.
 1. Select **Show more** to view more results.
 
 ## View knowledge articles
@@ -206,7 +206,7 @@ You can perform the following actions on knowledge articles you view in an app t
 - Mark the articles you use most often as a favorite to get back to them quickly while you're working on a case.
 
 - Select **Copy URL** to copy the external URL of the article to share with your customer in channels like chat or email.
-- If your administrator has turned on [feedback and ratings for knowledge articles](../../customerengagement/on-premises/customize/enable-entity-feedback.md#enable-an-entity-for-feedback-and-ratings), you can select the thumbs-up or thumbs-down icon to rate how helpful the article was. If you select the thumbs-down icon, a comment box appears, where you can enter the reason for your rating.
+- If your administrator turned on [feedback and ratings for knowledge articles](../../customerengagement/on-premises/customize/enable-entity-feedback.md#enable-an-entity-for-feedback-and-ratings), you can select the thumbs-up or thumbs-down icon to rate how helpful the article was. If you select the thumbs-down icon, a comment box appears, where you can enter the reason for your rating.
 
     Customer service agents and customer service managers can create or view feedback based on their role and privileges. Unless your administrator allows it, you can create, view, or edit only your own feedback. Customer service managers and knowledge managers can view your feedback.
 
