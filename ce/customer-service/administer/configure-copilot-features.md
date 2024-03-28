@@ -125,7 +125,7 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvCreatemsdyn_copilottranscriptdata 
 - prvWritemsdyn_copilottranscriptdata 
 - prvAppendmsdyn_copilottranscriptdata
-- prvIntelligenceUsage: This privilege is required to access the Copilot case summary. By default, this privilege is available for out of the box security roles. Make sure that your users have  [**Miscellaneous privileges**](/power-platform/admin/security-roles-privileges#define-the-privileges-and-properties-of-a-security-role) > **prvIntelligenceUsage** assigned to the required custom security roles.
+- prvIntelligenceUsage: This privilege is required to access the Copilot case summary. By default, this privilege is available for out-of-the-box security roles. Make sure that your users have  [**Miscellaneous privileges**](/power-platform/admin/security-roles-privileges#define-the-privileges-and-properties-of-a-security-role) > **prvIntelligenceUsage** assigned to the required custom security roles.
 - prvReadOrganizationSetting
 - prvReadmsdyn_panetabconfiguration 
 - prvReadmsdyn_paneconfiguration 
