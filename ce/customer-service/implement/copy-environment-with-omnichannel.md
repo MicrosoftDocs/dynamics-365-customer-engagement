@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 Use the information in this article to learn how to copy a Dynamics 365 Customer Service environment in which Omnichannel for Customer Service is provisioned. The environment with Omnichannel for Customer Service integrates with several external services and channels like WhatsApp, Twilio, and Azure Communication Services. The endpoints and other parameters for these integrations are stored in Dataverse entities. These parameters are also copied when you copy the environment into another environment.
 
-You can use the environment management operations like copy, which is a standard feature of model-driven apps. However, you need to perform specific steps to make sure that the copied environment in the target works correctly. For example, if you have digital messaging channels, you need to delete them and provision again.
+You can use the environment management operations like copy, which is a standard feature of model-driven apps. However, you need to perform specific steps to make sure that the copied environment in the target works correctly. For example, if you have digital messaging channels, you need to delete and provision them again.
 
 
 ## Prerequisites
@@ -23,21 +23,21 @@ The source and target environments must have the same configurations as follows:
 
 - [Omnichannel for Customer Service is provisioned in both environments](omnichannel-provision-license.md).
 - The source and target environments have the same set of channels enabled.
-- [If unified routing is in use, make sure that you have turned on in both the source and target environments](../administer/provision-unified-routing.md).
+- [If unified routing is in use, make sure that you have turned it on in both the source and target environments](../administer/provision-unified-routing.md).
 
 ## Copy the environment from source
 
 Do the steps in [Copy an environment](/power-platform/admin/copy-environment) by choosing one of the following options:
 
-- Copy option&mdash;minimal copy. Schemas and customizations only are copied. The source data isn't copied to target. You can create the channels and workstreams and no corrections are needed.
-- Copy option&mdash;full copy. A few corrections are needed in the target environment before you can start using it. More information: **Configure target environment after copying from source**
+- Copy option&mdash;minimal copy. Only schemas and customizations are copied. The source data isn't copied to target. You can create the channels and workstreams, and no corrections are needed.
+- Copy option&mdash;full copy. A few corrections are needed in the target environment before you can start using it. More information: **Configure the target environment after copying from source**
 
 ## Configure the target environment after copying from the source
 
 After the copy environment process is complete, the target environment is accessible, and the presence loads, perform the steps outlined in this section in the target environment.
 
 > [!NOTE]
-> The system can take up to one hour for updating the Omnichannel for Customer Service data in the target environment.
+> The system can take up to one hour to update the Omnichannel for Customer Service data in the target environment.
 
 ### Manage users
 
@@ -60,7 +60,7 @@ The Live Chat widget snippets are regenerated in the target environment to match
 
 ### Review and recreate channel configurations
 
-For the channels that exist in your target environment, perform the steps as follows:
+For the channels that exist in your target environment, perform the following steps:
 
 1. [Delete the existing channel or page](../administer/delete-channel.md) and dissociate the channel from the corresponding channel-specific workstream.
 1. Configure the channel again and update the channel-specific workstream with the newly configured channel.
@@ -87,10 +87,10 @@ The following table lists the channels and the associated procedures to configur
 
 1.	Delete the Copilot Studio bots from all existing workstreams and the environment.
 2.	[Create a bot](../administer/manage-your-bots.md#add-a-bot) or connect a previously configured bot specific to the target environment and configure with channel workstreams.
-3.	Make sure that you update the existing workstreams to use the new bot.
+3.	Update the existing workstreams to use the new bot.
 
 > [!NOTE]
-> If you want to continue to use the same Copilot Studio bot in the new target environment, reconnect the Copilot Studio bot in the new environment and then follow [the configuration steps](/microsoft-copilot-studio/configuration-hand-off-omnichannel?tabs=webApp#manage-your-copilots-omnichannel-capabilities) to disconnect and reconnect Omnichannel for Customer Service. If you reconnect the Copilot with another environment, it will break the source environment.
+> If you want to continue to use the same Copilot Studio bot in the new target environment, reconnect the Copilot Studio bot in the new environment, and then follow [the configuration steps](/microsoft-copilot-studio/configuration-hand-off-omnichannel?tabs=webApp#manage-your-copilots-omnichannel-capabilities) to disconnect and reconnect Omnichannel for Customer Service. If you reconnect the Copilot with another environment, it will break the source environment.
 
 ### Azure Bots
 
