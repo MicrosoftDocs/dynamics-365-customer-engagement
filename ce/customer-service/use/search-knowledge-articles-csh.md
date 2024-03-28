@@ -93,7 +93,7 @@ Legend:
 1. Sorts the list of results
 1. Search box
 1. Unlinks the article from the current case or conversation
-1. Marks article as favorite
+1. Marks the article as a favorite
 1. Copies the article URL
 1. Rating
 1. The number of times the article has been viewed
@@ -203,7 +203,7 @@ You can perform the following actions on knowledge articles you view in an app t
 
 - If the article has multiple sections, expand all the sections to view the entire article and collapse the sections, as required.
 
-- Mark the article you use most often as a favorite to get back to them quickly while you're working on a case.
+- Mark the articles you use most often as a favorite to get back to them quickly while you're working on a case.
 
 - Select **Copy URL** to copy the external URL of the article to share with your customer in channels like chat or email.
 - If your administrator has turned on [feedback and ratings for knowledge articles](../../customerengagement/on-premises/customize/enable-entity-feedback.md#enable-an-entity-for-feedback-and-ratings), you can select the thumbs-up or thumbs-down icon to rate how helpful the article was. If you select the thumbs-down icon, a comment box appears, where you can enter the reason for your rating.
@@ -222,7 +222,7 @@ You can perform the following actions on knowledge articles you view inline:
 
 - If the article has multiple sections, expand all the sections to view the entire article and collapse the sections, as required.
 
-- Mark the article you use most often as a favorite to get back to them quickly while you're working on a case.
+- Mark the articles you use most often as a favorite to get back to them quickly while you're working on a case.
 
 - Link it to a record, or, if it's already linked, unlink it.
 - [Email it to a customer](email-articles.md#email-a-knowledge-article).
