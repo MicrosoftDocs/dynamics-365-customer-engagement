@@ -238,6 +238,8 @@ Your administrator must enable this feature for you. More information: [View rec
 
 ### See also
 
+[Configure knowledge management](../administer/set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management)
+
 [Filter knowledge articles](filter-articles.md#filter-knowledge-articles)
 
 [Link and unlink knowledge articles](link-articles.md#link-and-unlink-knowledge-articles)

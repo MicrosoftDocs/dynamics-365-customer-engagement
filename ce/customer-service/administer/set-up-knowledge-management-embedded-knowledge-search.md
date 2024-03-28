@@ -72,7 +72,7 @@ After you have configured knowledge management on your app, you must also set up
       1. In the **Authoring language** section, set the **Enable default authoring language** for your users to **Yes**.
       
         * If you want to select a default knowledge authoring language for your organization, then select the **Organization's UI language** radio button.
-        * If you want to use the organizations' s UI language as the default knowledge authoring language, select the **Other language** radio button, and then select a language from the **Language** dropdown.
+        * If you want to use the organizations's UI language as the default knowledge authoring language, select the **Other language** radio button, and then select a language from the **Language** dropdown.
         * If you also want to allow users to set their default knowledge authoring language, set the **Allow users to set default knowledge authoring language** toggle to **Yes**. More information: [Configure a default knowledge article authoring language for your organization](../use/set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
 
      c. In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allowlist for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles)
