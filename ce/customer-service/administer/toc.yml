@@ -372,6 +372,8 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Enable agents to search for contacts, open records from outbound dialer (preview)
+        href: add-outbound-dialer-search.md  
       - name: Support emergency calls made by agents
         href: voice-channel-emergency-calling.md
       - name: Integrate Nuance Gatekeeper (preview)
