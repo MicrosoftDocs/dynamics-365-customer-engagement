@@ -20,9 +20,9 @@ This article provides answers to frequently asked questions (FAQs) about configu
 If agents who use Omnichannel for Customer Service aren't receiving Facebook messages, it's likely because users lack the necessary roles or permissions. The assignment of roles or permissions might vary slightly, depending on whether the application is in production or development mode. 
 
 **App in production mode**: 
-- If this is the first time the customer is using the Facebook page for messaging, they must request pages_messaging permission from their Facebook app. After the request is approved, any Facebook user can send messages to their page.
+- If the cusotmer is using the Facebook page for messaging for the first time, they must request pages_messaging permission from their Facebook app. After the request is approved, any Facebook user can send messages to their page.
 
-- If the Facebook page is currently used for messaging with another provider and you're onboarding the page to Omnichannel for Customer Service for the first time, you must have an existing Facebook page linked to two Facebook apps: One connected to your existing provider, and the other set up with Omnichannel for Customer Service.<br>
+- If the Facebook page is currently used for messaging with another provider and you're onboarding the page to Omnichannel for Customer Service for the first time, you must have an existing Facebook page that's linked to two Facebook apps: One being connected to your existing provider, and the other being set up with Omnichannel for Customer Service.<br>
 
   Complete the following steps:
   1. Open the Facebook app that has the Omnichannel for Customer service webhook.
