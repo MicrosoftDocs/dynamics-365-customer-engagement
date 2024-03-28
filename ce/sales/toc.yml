@@ -30,95 +30,103 @@
   items:
     - name: What's new or changed in Dynamics 365 sales
       href: whats-new.md
+- name: Troubleshooting and FAQs
+  href: troubleshooting.md      
 - name: Try, buy, and install
   items:
-  - name: Try
-    items:
-      - name: Sign up for a free trial
-        href: sign-up-for-sales-trial.md
-      - name: Preview features in the trial
-        href: sales-previews-in-trial.md
-      - name: Explore features included in the trial
-        href: features-in-trial.md
-      - name: Trial FAQ
-        href: sales-trial-faq.md
-  - name: Buy
-    href: buy-dynamics-365-sales.md
-  - name: Install and configure
-    items:
-    - name: Install and use the Sales apps
-      href: install-overview.md
-    - name: System requirements
-      href: system-requirements-for-sales-apps.md
-    - name: Use the Sales Hub app
-      href: intro-saleshub.md
+    - name: Try
       items:
-        - name: Grant or revoke access
-          href: grant-access-saleshub.md
-        - name: Sales Hub app versus custom app
-          href: saleshub-customapp.md
-    - name: Install Sales Professional app
-      href: provision-sales-professional-instance.md
-    - name: Use the Sales Team Member App
-      href: sales-team-member.md
-    - name: Add sample data
+        - name: Sign up for a free trial
+          href: sign-up-for-sales-trial.md
+        - name: Preview features in the trial
+          href: sales-previews-in-trial.md
+        - name: Explore features included in the trial
+          href: features-in-trial.md
+        - name: Dynamics 365 Sales trial FAQ
+          href: sales-trial-faq.md
+    - name: Buy
+      href: buy-dynamics-365-sales.md
+    - name: Install and configure
       items:
-        - name: Add or remove sample data in Sales Hub
-          href: /power-platform/admin/add-remove-sample-data?context=/dynamics365/context/sales-context
-        - name: Add or remove sample data in Sales accelerator
-          href: manage-sample-data.md
-        - name: Add or remove sample data in Sales Professional
-          href: install-sample-data.md
-    - name: Uninstall Sales Premium Add-ons
-      href: uninstall-sales-insights.md
-    - name: Configure your sales organization
-      items:
-        - name: Set up sales basics
-          href: sales-basics-setup.md
-        - name: System Settings - Sales
-          href: system-settings-sales-tab.md
-        - name: Create business units
-          href: /power-platform/admin/create-edit-business-units?context=/dynamics365/context/sales-context
-        - name: Predefined security roles for Sales
-          href: security-roles-for-sales.md
-        - name: Create users and assign security roles
-          href: /power-platform/admin/create-users?context=/dynamics365/context/sales-context
-        - name: Add or manage teams
-          href: manage-teams.md
-        - name: Set up sales territories
-          href: set-up-sales-territories.md
-        - name: Hierarchy security to control access
-          href: /power-platform/admin/hierarchy-security?context=/dynamics365/context/sales-context
-        - name: Define fiscal and currency settings
+        - name: Install and use the Sales apps
+          href: install-overview.md
+        - name: System requirements
+          href: system-requirements-for-sales-apps.md
+        - name: Use the Sales Hub app
+          href: intro-saleshub.md
           items:
-            - name: Manage transactions with multiple currencies
-              href: /power-platform/admin/manage-transactions-with-multiple-currencies?context=/dynamics365/context/sales-context
-            - name: Work with fiscal year settings
-              href: /power-platform/admin/work-fiscal-year-settings?context=/dynamics365/context/sales-context
-            - name: Import data
-              href: import-data.md
-        - name: Enable and administer Sales Insights features
-          href: intro-admin-guide-sales-insights.md
-    - name: Customize your sales app
+            - name: Grant or revoke access
+              href: grant-access-saleshub.md
+            - name: Sales Hub app versus custom app
+              href: saleshub-customapp.md
+        - name: Install Sales Professional app
+          href: provision-sales-professional-instance.md
+        - name: Use the Sales Team Member App
+          href: sales-team-member.md
+        - name: Add sample data
+          items:
+            - name: Add or remove sample data in Sales Hub
+              href: /power-platform/admin/add-remove-sample-data?context=/dynamics365/context/sales-context
+            - name: Add or remove sample data in Sales accelerator
+              href: manage-sample-data.md
+            - name: Add or remove sample data in Sales Professional
+              href: install-sample-data.md
+        - name: Uninstall Sales Premium Add-ons
+          href: uninstall-sales-insights.md
+        - name: Configure your sales organization
+          items:
+            - name: Set up sales basics
+              href: sales-basics-setup.md
+            - name: System Settings - Sales
+              href: system-settings-sales-tab.md
+            - name: Create business units
+              href: /power-platform/admin/create-edit-business-units?context=/dynamics365/context/sales-context
+            - name: Predefined security roles for Sales
+              href: security-roles-for-sales.md
+            - name: Create users and assign security roles
+              href: /power-platform/admin/create-users?context=/dynamics365/context/sales-context
+            - name: Add or manage teams
+              href: manage-teams.md
+            - name: Set up sales territories
+              href: set-up-sales-territories.md
+            - name: Hierarchy security to control access
+              href: /power-platform/admin/hierarchy-security?context=/dynamics365/context/sales-context
+            - name: Define fiscal and currency settings
+              items:
+                - name: Manage transactions with multiple currencies
+                  href: /power-platform/admin/manage-transactions-with-multiple-currencies?context=/dynamics365/context/sales-context
+                - name: Work with fiscal year settings
+                  href: /power-platform/admin/work-fiscal-year-settings?context=/dynamics365/context/sales-context
+                - name: Import data
+                  href: import-data.md
+            - name: Enable and administer Sales Insights features
+              href: intro-admin-guide-sales-insights.md
+        - name: Installation FAQs
+          href: faq-installation.md
+        - name: Customize your sales app
+          items:
+            - name: Create and customize a form
+              href: customize-forms.md
+            - name: Create and customize a view
+              href: customize-views.md
+            - name: Set up branding and theming
+              href: change-color-scheme-logo.md
+            - name: Customize the app
+              href: manage-app.md
+            - name: Add site map entry to custom app
+              href: add-custom-site-map.md
+    - name: Upgrade
       items:
-        - name: Create and customize a form
-          href: customize-forms.md
-        - name: Create and customize a view
-          href: customize-views.md
-        - name: Set up branding and theming
-          href: change-color-scheme-logo.md
-        - name: Customize the app
-          href: manage-app.md
-        - name: Add site map entry to custom app
-          href: add-custom-site-map.md  
-  - name: Upgrade
-    items:
-      - name: Upgrade from Dynamics 365 Sales Professional
-        href: upgrade-sales-professional-sales-enterprise.md
-      - name: Move from Dynamics 365 Sales Enterprise to Professional
-        href: move-sales-enterprise-sales-professional.md
-      - name: Upgrade to Sales Premium
-        href: upgrade-sales-premium.md
+        - name: Upgrade from Dynamics 365 Sales Professional
+          href: upgrade-sales-professional-sales-enterprise.md
+        - name: Move from Dynamics 365 Sales Enterprise to Professional
+          href: move-sales-enterprise-sales-professional.md
+        - name: Upgrade to Sales Premium
+          href: upgrade-sales-premium.md
+    - name: Region and language FAQs
+      href: faq-region-language.md
+    - name: Licenses and storage FAQs
+      href: faq-licenses-storage.md          
 - name: Administration guide
   items:
     - name: Administration overview
@@ -137,6 +145,8 @@
           href: digital-selling-microsoft-teams-calls.md
         - name: Lead and opportunity scoring
           href: digital-selling-scoring.md
+        - name: Digital selling FAQs
+          href: faq-digital-selling.md  
     - name: Account and contact management
       items:
         - name: Enable or disable saving of business card image
@@ -163,53 +173,55 @@
               href: customize-zoominfo-app.md
     - name: Set up Copilot
       items:
-      - name: Copilot overview
-        href: copilot-overview.md
-      - name: Turn on and set up Copilot in Dynamics 365 Sales
-        href: enable-setup-copilot.md
-      - name: Turn on Copilot preview features
-        href: copilot-preview-features.md
-      - name: Copilot data movement across geographies
-        href: sales-copilot-data-movement.md
-      - name: Copilot in Dynamics 365 Sales FAQ
-        href: sales-copilot-faq.md
+        - name: Copilot overview
+          href: copilot-overview.md
+        - name: Turn on and set up Copilot in Dynamics 365 Sales
+          href: enable-setup-copilot.md
+        - name: Turn on Copilot preview features
+          href: copilot-preview-features.md
+        - name: Copilot data movement across geographies
+          href: sales-copilot-data-movement.md
+        - name: Copilot in Dynamics 365 Sales FAQ
+          href: sales-copilot-faq.md
     - name: Overview of focused view
       href: configure-focused-view.md
       items:
-      - name: Configure focused view as default
-        href: set-focused-view-as-default.md
-      - name: Enable focused view for all records
-        href: enable-focused-view.md
+        - name: Configure focused view as default
+          href: set-focused-view-as-default.md
+        - name: Enable focused view for all records
+          href: enable-focused-view.md
+        - name: Focused view FAQs
+          href: faq-focused-view.md
     - name: Collaboration
       items:
-      - name: Microsoft Teams chat in Dynamics 365
-        items:
-        - name: Configure Teams chat
-          href: teams-integration/enable-teams-chat.md
-        - name: Configure contact suggestions
-          href: teams-integration/enable-contact-suggest.md
-        - name: Configure join chat
-          href: teams-integration/enable-join-chat.md
-      - name: Microsoft Teams meeting integration
-        items:
-        - name: Enable Microsoft Teams meeting integration
-          href: teams-integration/enable-teams-meeting-integration.md
-        - name: Customize record details in the side panel
-          href: teams-integration/customize-record-side-panel.md
-      - name: Share and update Dynamics 365 records within Microsoft Teams conversation
-        items:
-        - name: Overview
-          href: teams-integration/share-d365-record-admin.md
-      - name: Microsoft Teams calls in Dynamics 365
-        items:
-        - name: Configure Microsoft Teams dialer
-          href: configure-microsoft-teams-dialer.md
-      - name: Link Dynamics 365 records to Microsoft Teams channels
-        items:
-        - name: Enable linking of Dynamics 365 records to Teams channels
-          href: teams-integration/enable-record-linking.md
-        - name: Enable Sensitivity labels
-          href: teams-integration/sensitivity-labels.md
+        - name: Microsoft Teams chat in Dynamics 365
+          items:
+            - name: Configure Teams chat
+              href: teams-integration/enable-teams-chat.md
+            - name: Configure contact suggestions
+              href: teams-integration/enable-contact-suggest.md
+            - name: Configure join chat
+              href: teams-integration/enable-join-chat.md
+        - name: Microsoft Teams meeting integration
+          items:
+            - name: Enable Microsoft Teams meeting integration
+              href: teams-integration/enable-teams-meeting-integration.md
+            - name: Customize record details in the side panel
+              href: teams-integration/customize-record-side-panel.md
+        - name: Share and update Dynamics 365 records within Microsoft Teams conversation
+          items:
+            - name: Overview
+              href: teams-integration/share-d365-record-admin.md
+        - name: Microsoft Teams calls in Dynamics 365
+          items:
+            - name: Configure Microsoft Teams dialer
+              href: configure-microsoft-teams-dialer.md
+        - name: Link Dynamics 365 records to Microsoft Teams channels
+          items:
+            - name: Enable linking of Dynamics 365 records to Teams channels
+              href: teams-integration/enable-record-linking.md
+            - name: Enable Sensitivity labels
+              href: teams-integration/sensitivity-labels.md
     - name: Productivity and document management
       items:
         - name: Activity management
@@ -224,6 +236,8 @@
               href: /powerapps/maker/model-driven-apps/app-for-outlook-customize?context=/dynamics365/context/sales-context
             - name: Add the Kanban control to Opportunity or Activity entities
               href: add-kanban-control.md
+            - name: Activity management FAQs
+              href: faq-activity.md
         - name: Work with templates
           items:
             - name: Create and manage Word templates
@@ -232,12 +246,14 @@
               href: manage-excel-templates.md
             - name: Create email templates
               href: /powerapps/user/email-template-create?context=/dynamics365/context/sales-context
-        - name: Enable auto capture
-          href: configure-auto-capture.md
         - name: Configure email engagement
           href: configure-email-engagement.md
+        - name: Enable auto capture
+          href: configure-auto-capture.md
         - name: Configure notes analysis
           href: configure-notes-analysis.md
+        - name: Notes analysis and auto capture FAQs
+          href: faq-notes-analysis-auto-capture.md           
         - name: Enable or disable PDF generation from sales records
           href: enable-pdf-generation-quote.md
         - name: Enable auto-generation of quote and invoice documents
@@ -286,6 +302,8 @@
               href: pls-duplicate-models.md
             - name: Add lead scoring widget to a form
               href: pls-add-widget.md
+        - name: Lead management FAQs
+          href: faq-lead.md
     - name: Opportunity management
       items:
         - name: Opportunity management overview
@@ -314,6 +332,8 @@
               href: pos-add-widget.md
         - name: Add the Kanban control to Opportunity or Activity entities
           href: add-kanban-control.md
+        - name: Opportunity management FAQs
+          href: faq-opportunity.md  
     - name: Product and price list management
       items:
         - name: Set up a product catalog
@@ -364,6 +384,8 @@
           href: enable-enhanced-add-product-experience.md
         - name: Customize the Add Products dialog box
           href: customize-add-products-dialog-box.md
+        - name: Product and price list FAQs
+          href: faq-product-price-list.md          
     - name: Quote management
       items:
         - name: Customize the quote closure experience
@@ -371,7 +393,7 @@
     - name: Forecast management
       items:
         - name: Overview of sales forecasting
-          href: project-accurate-revenue-sales-forecasting.md      
+          href: project-accurate-revenue-sales-forecasting.md
         - name: Configure forecasts in your organization
           href: configure-forecast.md
         - name: Select a template
@@ -416,6 +438,8 @@
           href: configure-premium-forecasting.md
         - name: View prediction model status
           href: view-prediction-model-status.md
+        - name: Forecasting FAQs
+          href: faq-forecasting.md  
     - name: Goal management
       items:
         - name: Process for setting goals
@@ -440,6 +464,8 @@
               href: customize-workspace-sales-accelerator.md
             - name: Add the Up next widget to an entity form
               href: add-upnext-widget-form.md
+            - name: Sales accelerator FAQs
+              href: faq-sales-accelerator.md                
         - name: Create conditional workflows with sequences
           href: create-manage-sequences.md
           items:
@@ -519,7 +545,7 @@
             - name: View and assign unassigned records
               href: wa-manage-unassigned-records.md
             - name: Migrate assignment rules and segments
-              href: wa-migrate-assignment-rules-segments.md  
+              href: wa-migrate-assignment-rules-segments.md
             - name: Examples for assignment rules and segments
               href: wa-examples.md
         - name: Get seller insights to improve seller effectiveness
@@ -557,6 +583,8 @@
               href: edit-phone-numbers.md
             - name: Add text message option to custom forms
               href: add-sms-option-custom-forms.md
+            - name: Text messaging FAQs
+              href: faq-text-messaging.md  
         - name: Manage Campaigns
           href: configure-inapp-marketing.md
     - name: Guided selling
@@ -580,6 +608,8 @@
               href: optimize-ranking-insight-cards.md
             - name: Add the assistant widget to custom forms
               href: add-assistant-widget-custom-forms.md
+            - name: Assistant FAQs
+              href: faq-assistant.md  
     - name: Relationship intelligence
       items:
         - name: Relationship intelligence overview
@@ -600,6 +630,8 @@
           href: add-ri-widgets-to-custom-form.md
         - name: Grant access to who knows whom information
           href: grant-access-wkw.md
+        - name: Relationship intelligence FAQs
+          href: faq-relationship-intelligence.md  
     - name: Conversation intelligence
       items:
         - name: Configure in Dynamics 365 Sales Hub
@@ -638,6 +670,8 @@
           href: Integrate-TwilioFlex-with-CI.md
         - name: Languages supported
           href: language-support-conversation-intelligence.md
+        - name: Conversation intelligence FAQs
+          href: faq-conversation-intelligence.md          
     - name: Dashboards and reports
       items:
         - name: Dashboards
@@ -695,12 +729,10 @@
         - name: Organization charts
           href: organization-charts.md
           items:
-          - name: Manage org charts
-            href: manage-org-charts.md
-          - name: View and understand the org charts
-            href: view-understand-org-charts.md
-        - name: View and manage records in focused view
-          href: focused-view.md
+            - name: Manage org charts
+              href: manage-org-charts.md
+            - name: View and understand the org charts
+              href: view-understand-org-charts.md
         - name: Work with invalid email addresses
           href: work-invalid-email-addresses.md
         - name: Use the LinkedIn Sales Insights tab
@@ -711,84 +743,93 @@
           href: scan-business-cards.md
     - name: Use Copilot
       items:
-      - name: Copilot overview
-        href: copilot-overview.md
-      - name: Use Copilot in Dynamics 365
-        items:
-          - name: Open Copilot
-            href: use-sales-copilot.md
-          - name: Get information
-            href: copilot-get-information.md
-          - name: Stay ahead
-            href: copilot-stay-ahead.md
-          - name: Ask questions
-            href: copilot-ask-questions.md
-      - name: Compose and send email messages using Copilot
-        href: compose-send-email-copilot.md
-      - name: View and copy email summary
-        href: view-copy-email-summary.md
-      - name: Copilot in Dynamics 365 Sales FAQ
-        href: sales-copilot-faq.md
+        - name: Copilot overview
+          href: copilot-overview.md
+        - name: Use Copilot in Dynamics 365
+          items:
+            - name: Open Copilot
+              href: use-sales-copilot.md
+            - name: Get information
+              href: copilot-get-information.md
+            - name: Stay ahead
+              href: copilot-stay-ahead.md
+            - name: Ask questions
+              href: copilot-ask-questions.md
+        - name: Compose and send email messages using Copilot
+          href: compose-send-email-copilot.md
+        - name: View and copy email summary
+          href: view-copy-email-summary.md
+        - name: Copilot in Dynamics 365 Sales FAQ
+          href: sales-copilot-faq.md
+    - name: Overview of focused view
+      href: configure-focused-view.md
+      items:
+        - name: View and manage records in focused view
+          href: focused-view.md
+        - name: Focused view FAQs
+          href: faq-focused-view.md
     - name: Collaboration
       items:
-      - name: Microsoft Teams chat in Dynamics 365
-        items:
-        - name: Use Teams chat in Sales Hub
-          href: teams-integration/using-teams-chat-in-dynamics.md
-        - name: Join an existing linked chat
-          href: teams-integration/join-chat.md
-        - name: Teams chat integration FAQ
-          href: teams-integration/teams-in-dynamics-faq.md
-      - name: Microsoft Teams meeting integration
-        items:
-        - name: Overview
-          href: teams-integration/teams-meeting-integration.md
-        - name: Create a Teams meeting
-          href: teams-integration/create-teams-meeting.md
-        - name: Add the Dynamics 365 app to a Teams meeting
-          href: teams-integration/add-d365-app.md
-        - name: Work with the Dynamics 365 app
-          href: teams-integration/work-with-d365-app.md
-        - name: Join a Teams meeting
-          href: teams-integration/join-teams-meeting.md
-        - name: Work with notes during a meeting
-          href: teams-integration/work-with-notes.md
-        - name: Work with tasks during a meeting
-          href: teams-integration/work-with-tasks.md
-        - name: Work with activities during a meeting
-          href: teams-integration/work-with-activities.md
-      - name: Share and update Dynamics 365 records within Microsoft Teams conversation
-        items:
-        - name: Overview
-          href: teams-integration/share-d365-record-overview.md
-        - name: Work with the Dynamics 365 app
+        - name: Microsoft Teams chat in Dynamics 365
           items:
-          - name: Access the Dynamics 365 app through messaging extensions
-            href: teams-integration/access-d365-app.md
-          - name: Edit settings of the Dynamics 365 app
-            href: teams-integration/edit-d365-app.md
-          - name: Share feedback
-            href: teams-integration/share-feedback-d365-app.md
-        - name: Share a record in Teams conversation
-          href: teams-integration/share-dynamics-records-in-teams.md
-        - name: View and update record details
-          href: teams-integration/view-update-dynamics-records.md
-        - name: Add chat messages to Dynamics 365 as notes or tasks
-          href: teams-integration/add-chat-d365.md
-        - name: Frequently asked questions
-          href: teams-integration/message-extensions-faq.md
-      - name: Microsoft Teams calls in Dynamics 365
-        items:
-        - name: Make and receive Teams calls in Dynamics 365
-          href: call-using-microsoft-teams.md
-      - name: Link Dynamics 365 records to Microsoft Teams channels
-        items:
-        - name: Basic vs Enhanced Collaboration Experience
-          href: teams-integration/teams-basic-vs-enhanced-collaboration.md
-        - name: Basic Collaboration with Teams
-          href: teams-integration/teams-collaboration.md
-        - name: Enhanced Collaboration with Teams
-          href: teams-integration/teams-collaboration-enhanced-experience.md
+            - name: Use Teams chat in Sales Hub
+              href: teams-integration/using-teams-chat-in-dynamics.md
+            - name: Join an existing linked chat
+              href: teams-integration/join-chat.md
+            - name: Teams chat integration FAQ
+              href: teams-integration/teams-in-dynamics-faq.md
+        - name: Microsoft Teams meeting integration
+          items:
+            - name: Overview
+              href: teams-integration/teams-meeting-integration.md
+            - name: Create a Teams meeting
+              href: teams-integration/create-teams-meeting.md
+            - name: Add the Dynamics 365 app to a Teams meeting
+              href: teams-integration/add-d365-app.md
+            - name: Work with the Dynamics 365 app
+              href: teams-integration/work-with-d365-app.md
+            - name: Join a Teams meeting
+              href: teams-integration/join-teams-meeting.md
+            - name: Work with notes during a meeting
+              href: teams-integration/work-with-notes.md
+            - name: Work with tasks during a meeting
+              href: teams-integration/work-with-tasks.md
+            - name: Work with activities during a meeting
+              href: teams-integration/work-with-activities.md
+        - name: Share and update Dynamics 365 records within Microsoft Teams conversation
+          items:
+            - name: Overview
+              href: teams-integration/share-d365-record-overview.md
+            - name: Work with the Dynamics 365 app
+              items:
+                - name: Access the Dynamics 365 app through messaging extensions
+                  href: teams-integration/access-d365-app.md
+                - name: Edit settings of the Dynamics 365 app
+                  href: teams-integration/edit-d365-app.md
+                - name: Share feedback
+                  href: teams-integration/share-feedback-d365-app.md
+            - name: Share a record in Teams conversation
+              href: teams-integration/share-dynamics-records-in-teams.md
+            - name: View and update record details
+              href: teams-integration/view-update-dynamics-records.md
+            - name: Add chat messages to Dynamics 365 as notes or tasks
+              href: teams-integration/add-chat-d365.md
+            - name: Teams integration FAQs
+              href: teams-integration/message-extensions-faq.md
+        - name: Microsoft Teams calls in Dynamics 365
+          items:
+            - name: Make and receive Teams calls in Dynamics 365
+              href: call-using-microsoft-teams.md
+        - name: Link Dynamics 365 records to Microsoft Teams channels
+          items:
+            - name: Basic vs Enhanced Collaboration Experience
+              href: teams-integration/teams-basic-vs-enhanced-collaboration.md
+            - name: Basic Collaboration with Teams
+              href: teams-integration/teams-collaboration.md
+            - name: Enhanced Collaboration with Teams
+              href: teams-integration/teams-collaboration-enhanced-experience.md
+            - name: Linking records to Microsoft Teams channels FAQs 
+              href: teams-integration/link-records-to-teams-faq.md
     - name: Productivity and document management
       items:
         - name: Activity management
@@ -803,11 +844,8 @@
               href: activity-kanban-view.md
             - name: Send email using the enhanced email experience
               href: enhanced-email.md
-        - name: Auto capture activities
-          href: auto-capture.md
-          items:
-            - name: Use auto capture
-              href: free-auto-capture.md
+            - name: Activity management FAQs
+              href: faq-activity.md  
         - name: Email engagement
           items:
             - name: View message interactions
@@ -816,8 +854,15 @@
               href: create-send-email-message.md
             - name: Honor privacy preferences
               href: configure-individuals-privacy-preferences.md
+        - name: Auto capture activities
+          href: auto-capture.md
+          items:
+            - name: Use auto capture
+              href: free-auto-capture.md
         - name: How notes analysis assists you with suggestion
           href: notes-analysis.md
+        - name: Notes analysis and auto capture FAQs
+          href: faq-notes-analysis-auto-capture.md  
         - name: Manage sales literature
           href: create-sales-literature.md
         - name: Use OneDrive for Business
@@ -832,8 +877,6 @@
           href: lead-management-overview.md
         - name: Create or edit leads
           href: create-edit-lead-sales.md
-        - name: View and manage records in focused view
-          href: focused-view.md
         - name: Manage duplicate leads
           href: manage-duplicate-leads.md
         - name: Work with invalid email addresses
@@ -846,6 +889,8 @@
           href: re-open-lead-sales.md
         - name: Nurture sales from lead to order
           href: nurture-sales-from-lead-order-sales.md
+        - name: Lead management FAQs
+          href: faq-lead.md          
     - name: Opportunity management
       items:
         - name: Create or edit opportunities
@@ -853,18 +898,16 @@
           items:
             - name: Add products to an opportunity
               items:
-              - name: Add product using Quick Create form
-                href: add-products-opportunity.md
-              - name: Add multiple products to an opportunity by using the enhanced experience
-                href: add-products-enhanced-experience.md
-              - name: How the search works on Add Products dialog
-                href: add-products-search.md
+                - name: Add product using Quick Create form
+                  href: add-products-opportunity.md
+                - name: Add multiple products to an opportunity by using the enhanced experience
+                  href: add-products-enhanced-experience.md
+                - name: How the search works on Add Products dialog
+                  href: add-products-search.md
             - name: Add stakeholders, sales team, and competitors
               href: add-stakeholder.md
             - name: Move the opportunity through different stages
               href: move-opportunity-stages.md
-        - name: View and manage records in focused view
-          href: focused-view.md
         - name: Prioritize opportunities using predictive scores
           href: work-predictive-opportunity-scoring.md
         - name: Opportunity pipeline view
@@ -885,6 +928,8 @@
           href: close-opportunity-won-lost-sales.md
         - name: Create or edit competitor records
           href: create-edit-competitor-record-sales.md
+        - name: Opportunity management FAQs
+          href: faq-opportunity.md            
     - name: Quote, order, and invoice management
       items:
         - name: Understand sales transactions
@@ -929,6 +974,8 @@
           href: analyze-deals-flow-between-snapshots.md
         - name: View snapshots
           href: view-snapshots.md
+        - name: Forecasting FAQs
+          href: faq-forecasting.md            
     - name: Sales engagement
       items:
         - name: Sales accelerator
@@ -947,6 +994,8 @@
               href: work-with-linkedin-activities.md
             - name: Personalize your sales accelerator
               href: personalize-sales-accelerator.md
+            - name: Sales accelerator FAQs
+              href: faq-sales-accelerator.md  
         - name: Sequences
           items:
             - name: Create and connect sequences for yourself
@@ -962,6 +1011,8 @@
               href: create-text-message-templates.md
             - name: Manage text message communications
               href: manage-text-message-communications.md
+            - name: Text messaging FAQs
+              href: faq-text-messaging.md  
         - name: Get seller insights to improve seller effectiveness
           href: seller-insights-intro.md
           items:
@@ -994,6 +1045,8 @@
               href: turn-on-off-insight-cards.md
             - name: Default insight cards
               href: action-cards-reference.md
+            - name: Assistant FAQs
+              href: faq-assistant.md              
     - name: Relationship intelligence
       items:
         - name: Relationship analytics and KPIs overview
@@ -1004,6 +1057,8 @@
           href: relationship-analytics.md
         - name: Get introduced to leads and contacts
           href: who-knows-whom.md
+        - name: Relationship intelligence FAQs
+          href: faq-relationship-intelligence.md  
     - name: Conversation Intelligence
       items:
         - name: Overview of Conversation Intelligence
@@ -1026,6 +1081,8 @@
               href: view-and-understand-call-summary-sales-app.md
             - name: Get real-time call data through Teams call
               href: get-real-time-call-data-through-teams-call.md
+        - name: Conversation intelligence FAQs
+          href: faq-conversation-intelligence.md      
     - name: Dynamics 365 Sales mobile
       items:
         - name: Overview
@@ -1052,10 +1109,10 @@
           href: sales-mobile/app-settings.md
         - name: Dynamics 365 for phones and tablets app
           items:
-          - name: Use the sales apps on your mobile device
-            href: use-sales-hub-on-dynamics-365-mobile.md
-          - name: Actions supported in online and offline mode
-            href: Features-in-mobile-offline.md
+            - name: Use the sales apps on your mobile device
+              href: use-sales-hub-on-dynamics-365-mobile.md
+            - name: Actions supported in online and offline mode
+              href: Features-in-mobile-offline.md
 
 - name: Developer guide
   items:
@@ -1330,7 +1387,7 @@
         - name: Action Reference
           items:
             - name: msdyn_ConnectSequence
-              href: /dynamics365/sales/developer/entities/msdyn-ConnectSequence-action.md
+              href: developer\entities\msdyn-ConnectSequence-action.md
             - name: msdyn_WKWDeleteGDPRData
               href: developer/reference/custom-actions/msdyn_WKWDeletePrivacyData.md
             - name: msdyn_WKWGDPRDeleteStatus
@@ -1367,50 +1424,8 @@
       href: sales-privacy-faqs.md
     - name: Privacy notice
       href: privacy-notice.md
-- name: Troubleshooting and FAQ
-  items:
-    - name: Dynamics 365 Sales Troubleshooting guide
-      href: troubleshooting.md
-    - name: Troubleshooting leads
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-lead-form-auto-generated-contact-company-fields?context=/dynamics365/context/sales-context
-    - name: Troubleshooting opportunities
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-opportunities-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting orders
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-orders-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting products
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-products-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting common entities
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-multiple-tables-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting currency and price list
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-currency-and-price-lists-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting views
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-table-views-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting forecasts
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-forecast-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting in-app marketing
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-in-app-marketing-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting Unified Interface
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-unified-interface-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting the sales pipeline chart
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-pipeline-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting email
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-emails-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting Sales Premium
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-premium-issues?context=/dynamics365/context/sales-context
-    - name: Troubleshooting Sales Professional
-      href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-professional-issues?context=/dynamics365/context/sales-context
-    - name: Sales FAQ
-      href: faq-sales.yml
-    - name: Sales premium FAQ
-      href: faqs-sales-insights.md
 - name: Removed or deprecated features
   href: deprecations-sales.md
-- name: License compliance
-  items:
-    - name: Verify license compliance
-      href: license-enforcement.md
-    - name: License checker rules
-      href: license-checker-rules.md
 - name: Known issues
   href: https://go.microsoft.com/fwlink/?linkid=2171768
 - name: Responsible AI

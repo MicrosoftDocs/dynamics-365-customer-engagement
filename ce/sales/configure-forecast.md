@@ -1,7 +1,7 @@
 ---
 title: Configure forecasts in your organization
 description: Learn how to configure forecasts based on revenue or quantity to predict how much revenue your sales team will generate in a given time frame.
-ms.date: 03/05/2024
+ms.date: 03/27/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -14,6 +14,11 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:03/12/2024
+  - bap-template
 ---
 
 # Configure forecasts in your organization
@@ -44,24 +49,31 @@ Forecasting isn't supported on Government Community Cloud (GCC) or mobile device
 
 You can configure forecasts that are based on revenue or quantity. You define the type of forecast, the hierarchy, access permissions, and the details you want to see in the forecast grid. After a forecast is activated, your sales team can view the revenue, or quantity, and pipeline projections. Until you activate a forecast, your sales team can view an [out-of-the-box forecast (preview)](view-forecasts.md#out-of-the-box-forecast-preview) for the current month. The out-of-the-box forecast isn't available in the forecast configuration page and neither can it be deleted nor deactivated.
 
-1. Sign in to the **Sales Hub** app.
-1. In the site map, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.
+1. In the Sales Hub app, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area") in the lower-left corner, and then select **App Settings**.  
+
 1. Under **Performance management**, select **Forecast configuration**.
-         :::image type="content" source="./media/forecast-enable-forecasting-enabled.png" alt-text="Screenshot of the forecast configuration page in Sales Hub Performance Management settings.":::
 
-1. [Select a template](./select-template-forecast.md).  
-1. [Define and schedule a forecast model](define-general-properties-scheduling-forecast.md).
-1. [Provide access permissions](provide-permissions-forecast.md).
-1. [Configure columns and layouts](choose-layout-and-columns-forecast.md).
-1. [Configure and manage drill-down entities](configure-manage-drill-downs.md).
-1. [Configure advanced settings](forecast-configure-advanced-settings.md).
-1. [Activate the forecast and upload data](activate-upload-simple-columns-data-forecast.md).
+1. Follow the steps to configure a forecast from scratch or use the [sample forecast configuration](#use-the-sample-forecast-configuration) to get started quickly.  
 
+    1. [Select a template](./select-template-forecast.md).  
+
+    1. [Define and schedule a forecast model](define-general-properties-scheduling-forecast.md).
+
+    1. [Provide access permissions](provide-permissions-forecast.md).
+
+    1. [Configure columns and layouts](choose-layout-and-columns-forecast.md).
+
+    1. [Configure and manage drill-down entities](configure-manage-drill-downs.md).
+
+    1. [Configure advanced settings](forecast-configure-advanced-settings.md).
+
+    1. [Activate the forecast and upload data](activate-upload-simple-columns-data-forecast.md).
+    
 ### Use the sample forecast configuration
 
-A ready-to-publish sample forecast configuration is available for you. Use the sample forecast to experiment and discover how forecasting works and learn how to tweak the parameters and filters to suit your organization's needs.
+A ready-to-publish sample forecast configuration is available to you. Use the sample forecast to experiment and discover how forecasting works.  Learn how to tweak the parameters and filters to suit your organization's needs.  
 
-**To view the sample forecast**
+**To view the sample forecast configuration**
 
 1. Go to **App Settings** > **Performance management** > **Forecast configuration**.
 
@@ -84,9 +96,6 @@ A ready-to-publish sample forecast configuration is available for you. Use the s
 
 1. Go to **Activate & add quotas** and select **Activate forecast**.
 
-### Use APIs to upload forecast data
-
-After a forecast is activated, you can use the msdyn_ForecastApi custom action to upload forecasting data to simple columns. For more information, see [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md).
 
 ## Find your forecasts
 
@@ -108,15 +117,11 @@ In the **Opportunity** form, **Forecast Category** appears above **Description**
 If you don't want to see the forecast category in the opportunity form, you need to customize the form. You can't use the **Visible by default** option to hide it. To learn more, see [Unable to hide forecast category field in opportunity forms](./ts-forecasts.md#hide_forecast_category_field).
 
 >[!IMPORTANT]
->
 >- The forecasting feature is intended to help sales managers or supervisors enhance their team’s performance.
->
-- The forecasting feature isn't intended for use in making decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements.
->
+>- The forecasting feature isn't intended for use in making decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements.
 >- Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with users.
 >- Customers should notify users that their communications with salespersons might be monitored, recorded, or stored and, obtain consent from users before using the feature with them (as required by applicable laws).
->
-- Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with users might be monitored, recorded, or stored.
+>- Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with users might be monitored, recorded, or stored.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
@@ -136,6 +141,6 @@ If you don't want to see the forecast category in the opportunity form, you need
 [View forecasts](view-forecasts.md)  
 [About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)
 [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)  
-[Forecasting FAQs](faqs-sales.md#forecasting)
+[Forecasting FAQs](faq-forecasting.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
