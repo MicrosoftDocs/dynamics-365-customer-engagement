@@ -230,11 +230,11 @@ In Customer Service Hub, in the **Knowledge Search** reference pane, select the 
 
 ## View recently accessed knowledge articles for cases
 
-You can find the most recently accessed knowledge articles across different cases without initiating any search. When you select the standalone search on Customer Service Hub, you see the recently accessed knowledge articles across cases. You can review and use them across similar cases without searching for any keyword.
+You can find the most recently accessed knowledge articles across different cases without initiating any search if your administrator has enabled the [feature](../administer/set-up-knowledge-management-embedded-knowledge-search.md#show-recently-accessed-knowledge-articles-for-cases) for you.
 
-You can also view recently accessed articles on the Knowledge search control from the productivity pane of Customer Service workspace. By default, you will see the articles related to the case that you had searched for. You need to remove the keyword from the search bar to view recently accessed articles.
+You can view recently accessed articles on the Knowledge search control from the productivity pane of Customer Service workspace. By default, you will see the articles related to the case that you had searched for. You need to remove the keyword from the search bar to view recently accessed articles.
 
-Your administrator must enable this feature for you. More information: [View recently accessed knowledge articles for cases](../administer/set-up-knowledge-management-embedded-knowledge-search.md#view-recently-accessed-knowledge-articles-for-cases)
+In Customer Service Hub, select the standalone search to see the recently accessed knowledge articles across cases. You can review and use the search results across similar cases without searching for any keywords.
 
 ### See also
 

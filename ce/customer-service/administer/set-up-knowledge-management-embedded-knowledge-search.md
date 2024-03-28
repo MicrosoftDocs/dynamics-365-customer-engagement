@@ -71,17 +71,17 @@ After you have configured knowledge management on your app, you must also set up
       b. In the **Feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](../use/submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles).
       1. In the **Authoring language** section, set the **Enable default authoring language** for your users to **Yes**.
       
-        * If you want to select a default knowledge authoring language for your organization, then select the **Organization's UI language** radio button.
-        * If you want to use the organizations's UI language as the default knowledge authoring language, select the **Other language** radio button, and then select a language from the **Language** dropdown.
+        * If you want to select a default knowledge authoring language for your organization, then select the **Organization's UI language** option.
+        * If you want to use the organizations's UI language as the default knowledge authoring language, select the **Other language** option, and then select a language from the **Language** dropdown.
         * If you also want to allow users to set their default knowledge authoring language, set the **Allow users to set default knowledge authoring language** toggle to **Yes**. More information: [Configure a default knowledge article authoring language for your organization](../use/set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
 
      c. In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allowlist for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles)
      
-     d. In the **Knowledge search experience** section, do the following:
+     d. In the **Knowledge search experience** section, enable the following as required:
       
-        - If you want your agents to get suggestions on the most relevant records as they type keywords in the search box, then switch the **Enable suggest as you type** toggle to **Yes**. More information: [Enable the suggest-as-you-type option](#enable-the-suggest-as-you-type-option)
-        - If you want to apply knowledge search logic for your knowledge articles to help agents find only the articles they need, then switch the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
-        - If you want your agents to get a list of recently viewed articles for cases in the knowledge search pane, then switch the **Show recently viewed knowledge articles** toggle to Yes. More information: [ View recently accessed knowledge articles for cases](#view-recently-accessed-knowledge-articles-for-cases)
+        - **Enable suggest as you type**: Agents get suggestions on the most relevant records as they type keywords in the search box. More information: [Enable the suggest-as-you-type option](#enable-the-suggest-as-you-type-option)
+        - **Set search mode as all**: Applies knowledge search logic for your knowledge articles to help agents find only the articles they need. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
+        - **Show recently viewed knowledge articles**: Agents see a list of recently viewed articles for cases in the knowledge search pane. More information: [Show recently accessed knowledge articles for cases](#show-recently-accessed-knowledge-articles-for-cases)
         * Select **Save**.
   4. Optionally, in the **Categories** section, select **Manage**. The **Categories System Views** page appears. You can create and manage a logical structure of categories for your records. More information: [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
   5. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to save the the search filters according to their areas, set the **Allow agent to personalize** toggle to **Yes**.
@@ -258,9 +258,9 @@ When an agent selects the record, the system displays the article inline on the 
 
 :::image type="content" source="../media/enable-suggest-as-you-type.png" alt-text="Screenshot shows toggle for the Enable-suggest-as-you-type option":::
 
-## View recently accessed knowledge articles for cases
+## Show recently accessed knowledge articles for cases
 
-Help agents find recently accessed knowledge articles across different cases, thereby reducing the amount of clicks and time spent during search. Knowledge search shows the recently accessed results for keyword searches made by agents across different cases without initiating any search. This helps agents directly review and use the articles across similar cases without searching for the keyword again.
+Knowledge search shows the recently accessed results for keyword searches made by agents across different cases without initiating any search. This helps agents directly review and use the articles across similar cases without searching for the keyword again.
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**.
 2. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
