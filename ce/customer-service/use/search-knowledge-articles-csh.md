@@ -201,7 +201,7 @@ In Customer Service workspace and Omnichannel for Customer Service, the article 
 
 You can perform the following actions on knowledge articles you view in an app tab:
 
-- If the article has multiple sections, expand all the sections of the article to view the entire article and collapse all the sections, as required.
+- If the article has multiple sections, expand all the sections to view the entire article and collapse the sections, as required.
 
 - Mark the article you use most often as a favorite to get back to them quickly while you're working on a case.
 
@@ -220,7 +220,7 @@ If you see an error like this when you open an article: "Update your origins all
 
 You can perform the following actions on knowledge articles you view inline:
 
-- If the article has multiple sections, expand all the sections of the article to view the entire article and collapse all the sections, as required.
+- If the article has multiple sections, expand all the sections to view the entire article and collapse the sections, as required.
 
 - Mark the article you use most often as a favorite to get back to them quickly while you're working on a case.
 
@@ -235,7 +235,7 @@ The copy and email options are available only if the knowledge article is [publi
 
 In Customer Service Hub, in the **Knowledge Search** reference pane, select the pop-out option to view the article on a new window.
 
-If the article has multiple sections, expand all the sections of the article to view the entire article and collapse all the sections, as required.
+If the article has multiple sections, expand all the sections to view the entire article and collapse the sections, as required.
 
 :::image type="content" source="../media/knowledge-search-pop-out-csh.png" alt-text="View knowledge article in a new window":::
 
