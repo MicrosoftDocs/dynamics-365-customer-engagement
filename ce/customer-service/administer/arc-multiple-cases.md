@@ -101,6 +101,6 @@ The following flowchart explains how automatic record creation rules work to cre
 
 ## See also
 
-[How the automatic record creation rule works in a customer scenario](arc-customer-scenario.md#how-automatic-record-creation-rule-works-in-a-customer-scenario)
+[How the automatic record creation rule works in a customer scenario](arc-customer-scenario.md#how-the-automatic-record-creation-rule-works-in-a-customer-scenario)
 
 [How the automatic record creation rule works in an agent scenario](arc-agent-scenario.md#how-the-automatic-record-creation-rule-works-in-an-agent-scenario)
