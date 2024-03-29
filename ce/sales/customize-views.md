@@ -38,9 +38,9 @@ The records that are visible in individual views are displayed in a list, someti
 
 There are two types of views in Dynamics 365 Sales:
 
-- **System or public views**
+- **System and public views**
 
-     System or public views are views that are included with the app or that are created by customizers and made available to some or all users. As a system administrator or system customizer, you can edit the views. System or public views are special views the application depends on, which exist for system entities or are automatically created when you create custom entities. These views have specific purposes and some additional capabilities.
+     System and public views are views that are included with the app or that are created by customizers and made available to some or all users. As a system administrator or system customizer, you can edit these views. System or public views are special views the application depends on, which exist for system entities or are automatically created when you create custom entities.
 
 - **Personal views**
 
@@ -220,5 +220,3 @@ More information:
 
 [Customize forms](customize-forms.md)  
 [Customize business process flows](customize-business-process-flows.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
