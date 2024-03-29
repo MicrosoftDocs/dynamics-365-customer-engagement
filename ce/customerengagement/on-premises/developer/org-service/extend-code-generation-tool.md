@@ -102,7 +102,7 @@ public sealed class BasicFilteringService : ICodeWriterFilterService
 
 ```
 
-Download the sample: [CrmSvcUtilExtensions](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BasicFilteringService) and  [GeneratePickListEnums](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/GeneratePicklistEnums). 
+Download the sample: [CrmSvcUtilExtensions](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BasicFilteringService) and  [GeneratePickListEnums](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/GeneratePicklistEnums).
 
 The **GeneratePicklistEnums** sample extension outputs a source code file that contains enumerations for all option sets, state codes, and status codes.
 
