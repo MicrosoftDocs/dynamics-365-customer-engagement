@@ -24,7 +24,7 @@ The agent must be a part of the outbound voice queue to make an outbound call. S
 
 ### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
 
-No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#how-queue-overflow-is-evaluated-before-work-item-are-queued)
+No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#handle-overflow-before-work-item-is-queued)
 
 ### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 
@@ -55,6 +55,10 @@ Yes, you can bring your existing numbers to Omnichannel for Customer Service in 
 - **Import numbers to Omnichannel for Customer Service**
     1. You must first port your existing phone numbers to Azure Communication Services. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
     2. You can then import the phone numbers from Azure Communication Services to Omnichannel for Customer Service. More information: [Sync from Azure Communication Services](voice-channel-sync-from-acs.md)
+
+### What are the applicable pricing scenarios for using the voice channel?
+
+To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
 
 - **Configure Azure direct routing**
     1. Configure a Session Border Controller (SBC) that's connected to your local carrier with Azure Communication Services.
@@ -140,10 +144,6 @@ More information:
 ### Does the voice channel support emergency calling?
 
 Yes, the voice channel supports emergency calling; agents can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
-
-### What are the applicable pricing scenarios for using the voice channel?
-
-To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
 
 ### Why do my customers sometimes hear "Sorry! We couldn't serve you" when they call the contact center number?
 

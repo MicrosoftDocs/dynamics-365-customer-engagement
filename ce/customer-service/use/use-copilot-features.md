@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 02/10/2024
+ms.date: 03/22/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -60,45 +60,6 @@ After a customer conversation has ended, or if you want Copilot to disregard the
 ### Provide feedback
 
 To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
-
-## Draft emails 
-
-With Copilot, you can draft email replies to customers quickly and be more effective in solving customer issues.
-
-:::image type="content" source="../media/copilot-email-draft.png" alt-text="Screenshot of the Copilot Write an email tab.":::
-
-### Write an email with Copilot
-
-When you start to draft an email, Copilot opens in the right side panel and presents five predefined prompts and one custom prompt:
-
-- **Suggest a call**: Drafts a reply that suggests a call with the customer the same day or the next day.
-- **Request more information**: Drafts a reply that requests more details from the customer to help resolve the problem.
-- **Empathize with feedback**: Drafts a reply that provides an empathetic response to a customer who expresses a complaint.
-- **Provide product/service details**: Drafts a reply that offers details or answers customer questions about a particular product or service.
-- **Resolve the customer's problem**: Drafts a reply that provides a resolution&mdash;and resolution steps, if applicable&mdash;to the customer's problem.
-
-> [!NOTE]
-> The **Provide product/service details** and **Resolve the customer's problem** prompts only use context from case, email, and knowledge base articles to generate email responses. 
-
-- **Custom**: Allows you to provide your own prompt for the reply.
-
-
-
-### Review and copy suggested replies
-
-When you select one of the predefined prompts, Copilot generates a suggested reply. *Always review the response.* Make any necessary changes, and then select **Copy to email** to copy the entire response to your draft. Or, select part of the response and use the right-click menu to copy and paste the selection.
-
-### Use the custom prompt
-
-Use the custom prompt to include talking points, provide your objectives for the email, and determine its length and tone. Then select the **Create response** arrow to generate the response. *Always review the response* before sharing it with your customer. You can revise the custom prompt, if needed, above the reply and select **Refresh** to update the response.
-
-### How Copilot uses knowledge base and web sources
-
-By default, Copilot uses internal knowledge base sources for generating responses. If your administrator has set up trusted domains, Copilot searches the internal knowledge base and up to five trusted domains to produce the result.
-
-### Start over
-
-To return to the choice of six prompts, select **Start over** at the bottom of the Copilot pane.
 
 ## Draft a chat response (Preview)
 

@@ -44,7 +44,7 @@ See the information in the following table to know about the supported languages
 | Arabic - Oman | `ar-OM` |x|x|✔|x|x|x|x|
 | Arabic - Palestinian Authority| `ar-PS` |x|x|✔|x|x|x|x|
 | Arabic - Qatar| `ar-QA` |x|x|✔|✔|x|x|x|
-| Arabic - Saudi Arabia| `ar-SA` |x|✔|✔|✔|✔|✔|✔|
+| Arabic - Saudi Arabia| `ar-SA` |✔|x|✔|✔|✔|✔|✔|
 | Arabic - Syria| `ar- SY` |x|x|✔|✔|x|x|x|
 | Arabic - Tunisia| `ar-TN` |x|x|✔|✔|x|x|x|
 | Arabic - United Arab Emirates| `ar-AE` |x|x|✔|✔|x|x|x|
@@ -61,7 +61,7 @@ See the information in the following table to know about the supported languages
 | Burmese - Myanmar| `my-MM` |x|x|x|x|x|x|x|
 | Catalan | `ca` |✔|x|✔|✔|✔|x|✔|
 | Chinese - China - Mandarin| `zh-CN` |✔|✔|✔|✔|✔|x|✔|
-| Chinese - Hong Kong SAR - Cantonese | `zh-HK` |✔|✔|✔|✔|✔|x|✔|
+| Chinese - Hong Kong SAR - Cantonese | `zh-HK` |✔|x|✔|✔|✔|x|✔|
 | Chinese - Taiwan - Traditional | `zh-TW` |✔|✔|✔|✔|✔|x|✔|
 | Chinese - Literary | `lzh` |x|x|x|x|x|x|x|
 | Croatian - Croatia | `hr-HR` |✔|x|✔|✔|✔|x|✔|

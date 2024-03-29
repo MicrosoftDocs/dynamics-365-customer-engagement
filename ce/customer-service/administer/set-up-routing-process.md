@@ -12,12 +12,12 @@ ms.custom: bap-template
 
 # How to set up unified routing
 
-In this article, we'll take you through the high-level process of configuring unified routing in Customer Service admin center.
+In this article, we'll take you through the high-level process of configuring unified routing in Customer Service.
 
 > [!NOTE]
 > We recommend that you familiarize yourself with the UI because you'll perform the steps and procedures on different pages.
 
-### Prerequisites
+## Prerequisites
 
 The following prerequisites are applicable:
 
@@ -38,7 +38,6 @@ The sequence of the tasks that you'll need to perform for setting up unified rou
 |![Step 4.](../media/step-4.png "Step 4") |[Set up unified routing for records](set-up-record-routing.md#configure-unified-routing-for-records)|Configure a record for routing.|
 |![Step 5.](../media/step-5.png "Step 5") |[Create workstreams for record routing](set-up-record-routing.md#create-workstreams-for-record-routing)|Configure a workstream for record routing|
 |![Step 6.](../media/step-6.png "Step 6") |[Enable routing diagnostics](unified-routing-diagnostics.md#manage-routing-diagnostics)|Turn on routing diagnostics|
-||||
 
 ### Try the runtime experience in Customer Service workspace
 
@@ -74,7 +73,6 @@ Optionally, you can configure the following settings.
 [Set up unified routing for records](set-up-record-routing.md)  
 [Set up skill-based routing](overview-skill-work-distribution.md)  
 [Manage capacity profiles](capacity-profiles.md)  
-[Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)  
 [Export and import configuration data for the record channel](migrate-config-data-for-records.md)  
 [Export import data for the live chat channel](migrate-config-data-for-live-chat.md)  
 [FAQ on unified routing](unified-routing-faqs.md)  
