@@ -1,5 +1,5 @@
 ---
-title: Enable agents to search for contacts, open records from outbound dialer #Required; page title displayed in search results. 
+title: Enable agents to search for contacts, open records from outbound dialer
 description: Enable agents to search for customer contacts or accounts by name, open records from Recents tab in the outbound dialer. 
 author: gandhamm
 ms.author: mgandham
