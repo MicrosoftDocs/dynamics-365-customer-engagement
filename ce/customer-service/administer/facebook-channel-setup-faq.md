@@ -22,7 +22,7 @@ If agents who use Omnichannel for Customer Service aren't receiving Facebook mes
 **App in production mode**: 
 - If the customer is using the Facebook page for messaging for the first time, they must request pages_messaging permission from their Facebook app. After the request is approved, any Facebook user can send messages to their page.
 
-- If the Facebook page is currently used for messaging with another provider and you're onboarding the page to Omnichannel for Customer Service for the first time, you must have an existing Facebook page that's linked to two Facebook apps: One being connected to your existing provider, and the other being set up with Omnichannel for Customer Service.<br>
+- If the Facebook page is currently used for messaging with another provider and you're onboarding the page to Omnichannel for Customer Service for the first time, you must have an existing Facebook page that's linked to two Facebook apps: One that's connected to your existing provider, and the other one set up with Omnichannel for Customer Service.<br>
 
   Complete the following steps:
   1. Open the Facebook app that has the Omnichannel for Customer service webhook.
