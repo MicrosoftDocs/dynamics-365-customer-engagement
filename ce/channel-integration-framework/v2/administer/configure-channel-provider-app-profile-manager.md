@@ -55,7 +55,6 @@ More information:
 
   > [!NOTE]
   > - Sandbox attributes such as allow-forms, allow-popups, allow-scripts, allow-same-origin, allow-modals, allow-downloads are configured by default.
-The Restore button is available only for forms with the Unique Name set to msdyn_omnichannel.
   > - The **Restore** button is available only for forms with the **Unique Name** set to **msdyn_omnichannel**.
   > - The `Api Version` field is set to `2` when you navigate from the app profile manager.
 
