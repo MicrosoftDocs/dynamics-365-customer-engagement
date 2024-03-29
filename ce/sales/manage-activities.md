@@ -44,7 +44,7 @@ You can find your activities under **My Work** in the site map.
 
 1. In the site map, select **Activities**.
 
-1. On the command bar, select **Show As**, and then the view type such as, **Kanban** or **Calendar Control**.
+1. On the command bar, select **Show As**, and then the view type such as, **Kanban** or **Calendar**.
 
     :::image type="content" source="media/activity-show-as-kanban-view.png" alt-text="Screenshot of different views available in the activity grid.":::
   

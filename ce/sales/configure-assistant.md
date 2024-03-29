@@ -48,7 +48,7 @@ More information: [Security roles and privileges](/dynamics365/customer-engageme
 
 ### Configure and manage standard insight cards
 
-1. On the site map under **Assistant studio**, select **Insight cards**.
+1. On the **Sales insights settings** site map, under **Assistant studio**, select **Insight cards**.
 
 1. Do the following actions as described according to your requirements:  
 
