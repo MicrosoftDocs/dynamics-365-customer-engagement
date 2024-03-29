@@ -4,7 +4,7 @@ description: Use Microsoft Teams mobile to annotate in a Dynamics 365 Field Serv
 author:  annitachow
 ms.date: 03/28/2024
 ms.topic: how-to
-ms.author: anchose
+ms.author: anchow
 ms.reviewer: v-wendysmith
 ms.custom: bap-template
 ---

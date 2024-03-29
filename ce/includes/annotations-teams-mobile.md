@@ -6,17 +6,17 @@ You can annotate in calls with Microsoft Teams mobile users if you have a Dynami
 
 1. While in a call, access the **Share Spatial Annotations** toolbar by. <!--- Add --->
 
-   :::image type="content" source="../guides/media/calling-annotations-spatial-annotation-toolbar.png" alt-text="Screenshot of the Teams Share Spatial Annotations toolbar":::
+   :::image type="content" source="../field-service/media/calling-annotations-spatial-annotation-toolbar.png" alt-text="Screenshot of the Teams Share Spatial Annotations toolbar":::
 
 1. Use the **Share Spatial Annotations** toobar to place arrows or draw in your space for other callers to see or annotate in another user's space.
 
    |Button|Description|
    |---------|----------------------------------------------------|
-   |:::image type="icon" source="../guides/media/calling-annotations-teams-arrow-button.png":::| Add an arrow. To add an arrow, tap where you want to place the arrow. To control the direction of the arrow, tap, hold, and rotate the arrow until it's facing the desired direction. To change the size of the arrow, tap, hold, and drag to the size you want. Release to lock the arrow in place.|
-   |:::image type="icon" source="../guides/media/calling-annotations-teams-ink-button.png":::|Add ink (draw).|
-   |:::image type="icon" source="../guides/media/calling-annotations-teams-color-button.png":::|Change the arrow or ink color.|
-   |:::image type="icon" source="../guides/media/calling-annotations-teams-undo-button.png":::|Undo the most recent annotation you added.|
-   |:::image type="icon" source="../guides/media/calling-annotations-teams-erase-all-button.png":::|To delete all annotations that you added, select this button, and then select **Delete Annotations**. This action doesn't clear the annotations your user added.|
+   |:::image type="icon" source="../field-service/media/calling-annotations-teams-arrow-button.png":::| Add an arrow. To add an arrow, tap where you want to place the arrow. To control the direction of the arrow, tap, hold, and rotate the arrow until it's facing the desired direction. To change the size of the arrow, tap, hold, and drag to the size you want. Release to lock the arrow in place.|
+   |:::image type="icon" source="../field-service/media/calling-annotations-teams-ink-button.png":::|Add ink (draw).|
+   |:::image type="icon" source="../field-service/media/calling-annotations-teams-color-button.png":::|Change the arrow or ink color.|
+   |:::image type="icon" source="../field-service/media/calling-annotations-teams-undo-button.png":::|Undo the most recent annotation you added.|
+   |:::image type="icon" source="../field-service/media/calling-annotations-teams-erase-all-button.png":::|To delete all annotations that you added, select this button, and then select **Delete Annotations**. This action doesn't clear the annotations your user added.|
 
    > [!NOTE]
    > Each call participant can only undo and delete their own annotations.
