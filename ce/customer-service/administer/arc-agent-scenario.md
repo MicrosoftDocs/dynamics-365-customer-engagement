@@ -1,5 +1,5 @@
 ---
-title: How automatic record creation rule works in an agent scenario
+title: How the automatic record creation rule works in an agent scenario
 description: Understand how automatic record creation rules work in agent scenarios and learn how to customize them.
 author: Soumyasd27
 ms.author: sdas
@@ -15,9 +15,9 @@ ms.custom: bap-template
 
 With automatic record creation, you can create multiple cases from an email sent to multiple mailboxes. As an administrator, you can [enable this feature](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes) to ensure that multiple cases (one for each queue-enabled mailbox) are created when multiple mailboxes are added as recipients in the email.
 
-This article lists the various agent scenarios and explains how automatic record creation rule works when an agent does a reply all or reply only to the customer from each case - Case 1, Case 2, or Case 3’s timeline, independently.
+This article lists the various agent scenarios and explains how the automatic record creation rule works when an agent uses reply all or replies only to the customer from each case - Case 1, Case 2, or Case 3’s timeline, independently.
 
-Agents can also reply or reply all from Inbox or directly from the email by accessing it from the **My Activities** view. When the agent sends a reply or replies all or forwards an email from any of these entry points, the reply email is related to all cases and records that were related to the original email, unless removed from the related attribute manually.  
+Agents can also reply or reply all from the Inbox or directly from the email by accessing it from the **My Activities** view. When the agent sends a reply or replies all or forwards an email from any of these entry points, the reply email is related to all cases and records that were related to the original email, unless removed from the related attribute manually.  
 
 The following flowchart explains the agent scenario.
 
@@ -25,16 +25,16 @@ The following flowchart explains the agent scenario.
 
 ## Agent selects reply
 
-When an agent selects reply from the timeline of one of the cases (Case 1, Case 2, or Case 3), the replied email gets correlated with all the records related to the previous email, such as cases, accounts, or any other entity records. The **To** field is set to only the customer in this scenario, but the related attribute shows all the related records, Case 1, Case 2, and Case 3.  
+When an agent selects reply from the timeline of one of the cases (Case 1, Case 2, or Case 3), the replied email gets correlated with all the records related to the previous email, such as cases, accounts, or any other entity records. The **To** field is set to only the customer in this scenario, but the related attribute shows all the related records: Case 1, Case 2, and Case 3.  
 
 The replied email gets associated with all the cases related to the previous email and is displayed on the timeline of all the cases.  
 
-If the previous email was manually linked to any other entity record like account, by adding an account in the related attribute, the reply email would also be correlated with that account and show up on the timeline of the account. The agent can remove the records from the related attribute from the email form manually before sending the email if they want the replied email to be associated to only the case from which the reply email was sent.
+If the previous email was manually linked to any other entity record like account, by adding an account in the related attribute, the reply email is also correlated with that account and shows on the timeline of the account. The agent can remove the records from the related attribute from the email form manually before sending the email if they want the replied email to be associated to only the case from which the reply email was sent.
 
 This is the default behavior, irrespective of whether the agent replies to the email from a case timeline, Inbox, or by navigating to the email form from the **My Activities** view. Further communication between the customer and agent is displayed in all cases that were created from the previous email.  
 
 > [!NOTE]
-> If you want the reply email to be related only to the case from which it was sent, so that agents working on other cases can’t view the email on their case timeline, you could opt for [timeline customization](#timeline-customization).
+> If you want the reply email to be related only to the case from which it was sent so that agents working on other cases can’t view the email on their case timeline, you could opt for [timeline customization](#timeline-customization).
 
 If you perform timeline customization, then:
 
@@ -44,29 +44,29 @@ If you perform timeline customization, then:
 
 ## Agent selects reply all
 
-When agents select reply all from Case 1 timeline and removes mailbox 3, the replied email gets associated with all the three cases (Case 1, Case 2, and Case 3). If the original email was related to any other entity records like account, the replied email is associated with that account. All these cases and related accounts see duplicate entries of the same email, one with the state as **Sent**, and the other with the state as **Received**.  
+When an agent selects reply all from Case 1's timeline and removes mailbox 3, the replied email gets associated with all the three cases: Case 1, Case 2, and Case 3. If the original email was related to any other entity records like account, the replied email is associated with that account. All these cases and related accounts see duplicate entries of the same email: one with the state as **Sent**, and the other with the state as **Received**.  
 
 If you don’t want the reply email to be shown on Case 3 (that originated in mailbox 3) since mailbox 3 was removed, you need to manually remove the case that originated in mailbox 3 from the related attribute before sending the email.
 
 ## Agent forwards an email
 
-When an agent forwards an email to another mailbox 4, from the Case 1 timeline, the forwarded email gets associated with the existing cases (Case 1, Case 2, and Case 3) and any other entity records (like account), if the original email is associated with the account. A new case gets created for mailbox 4 to which the email was forwarded, and the email gets displayed on the new case as well.
+When an agent forwards an email to another mailbox 4, from the Case 1 timeline, the forwarded email gets associated with the existing cases (Case 1, Case 2, and Case 3) and any other entity records (like account), if the original email is associated with the account. A new case is created for mailbox 4 to which the email was forwarded, and the email is displayed on the new case as well.
 
 > [!NOTE]
 > If you want the forwarded email to be associated with only Case 1 (since the Case 1 timeline was used) and not with other cases (Case 2 and Case 3), you’ll need to perform [timeline customization](#timeline-customization). The forwarded email will still be associated with the new case that’s created if the email was forwarded to mailbox 4.  
 
 ## Agent initiates a new email
 
-Agents can also initiate a new email from the case timeline (by selecting the + button on the timeline). When an agent sends a new email to a customer from the case timeline, the **Related** attribute of the email is set to the case only if the administrator has enabled the OrgDBOrg setting ‘AddParentEntityToRelatedOnNewActivityCreate’.  
+Agents can also initiate a new email from the case timeline (by selecting the + button on the timeline). When an agent sends a new email to a customer from the case timeline, the **Related** attribute of the email is set to the case only if the administrator has enabled the 'OrgDBOrg' setting ‘AddParentEntityToRelatedOnNewActivityCreate’.  
 
-For steps on how to enable this setting, go to [How to change default environment database settings](/power-platform/admin/environment-database-settings). This is applicable to only those scenarios where an agent adds a new email from the case timeline and doesn’t apply to scenarios where agent selects reply or reply all to an existing email from the case timeline.  
+For steps on how to enable the setting, go to [How to change default environment database settings](/power-platform/admin/environment-database-settings). This is applicable to only those scenarios where an agent adds a new email from the case timeline and doesn’t apply to scenarios where agent selects reply or reply all to an existing email from the case timeline.  
 
 ## Other scenarios
 
-When a customer replies (ER1) to the original email E1 from the Sent Items folder and to the same mailboxes (Q1, Q2, Q3), and automatic record creation rule finds that the original email E1 is only set to Case 2 and Case 3 currently, as the agent removed Case 1 from the Related field of original email, automatic record creation rule creates a duplicate case for Q1, as it didn’t find any case that was created in Q1 and associated to the original email E1.
+When a customer replies (ER1) to the original email E1 from the Sent items folder and to the same mailboxes (Q1, Q2, Q3), and the automatic record creation rule finds that the original email E1 is only set to Case 2 and Case 3 currently, as the agent removed Case 1 from the Related field of original email, the automatic record creation rule creates a duplicate case for Q1 since it didn’t find any case that was created in Q1 and associated to the original email, E1.
 
 > [!NOTE]
-> We recommend that agents shouldn’t remove the case from the **Related** field for the original email even if the case is irrelevant. Instead, the should mark it as duplicate and resolve it.
+> We recommend that agents shouldn’t remove the case from the **Related** field for the original email even if the case is irrelevant. Instead, they should mark it as a duplicate and resolve it.
 
 ## Timeline customization
 
