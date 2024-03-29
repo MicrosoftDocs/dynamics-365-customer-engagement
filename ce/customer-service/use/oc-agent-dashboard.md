@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 09/22/2023
+ms.date: 03/29/2024
 ms.custom: bap-template
 ---
 
@@ -48,6 +48,16 @@ On the dashboard, you can sort work items by the following categories:
 - Work stream
 - Created On
 - Transfer Count
+
+## View conversations on multiple browsers
+
+You can view conversations on multiple browsers, without having to switch tabs in the same browser. Additionally, you can also split your screen to view conversations side by side, thereby improving your ability to serve customer requests.
+
+For example, when you select an active or open work item or monitor a conversation, it will open on the same browser and will not open a new session on a different browser.
+
+When multiple browsers are open, you'll see incoming conversation request on all the browsers. However, the browser that you select **Accept** from will be the browser that will load that conversation. All other browsers will remain as-is, with incoming notifications dismissed.
+
+For example, for incoming or outbound calls, the conversation gets accepted only on one browser and the notification gets dismissed on other browsers.
 
 ### See also
 
