@@ -18,8 +18,8 @@ In Dynamics 365 Sales, use views to define how a list of records for a specific 
 
 ## License and role requirements
 
-| Requirement type | You must have |  
-|-----------------------|---------|
+| Requirement type | You must have |
+|------------------|---------------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
@@ -63,7 +63,9 @@ This topic covers how to create system views as a customizer.
 
 1. In the Sales Professional site map, select **Sales Settings**.
 2. Under **Customization**, select **Views**.
+
     :::image type="content" source="media/sales-settings-views.svg" alt-text="Screenshot of the Sales Settings page for Views":::
+
 3. In the **Name** column, select a view to open it or search for a view in the **Filter by keyword** box.
 
 ### Create a system view
@@ -74,13 +76,16 @@ You can create your own views, specific to your organization's practices and pro
 2. Under **Customization**, select **Views**.
 3. On the **Views** page, select **Create a view**.
 4. Select the entity to use for the view.
-    :::image type="content" source="media/select-entity-drop-down-list.png" alt-text="Select entity":::
+
+    :::image type="content" source="media/select-entity-drop-down-list.png" alt-text="Screenshot of Select entity drop-down list":::
+
 5. Select **Go to View Designer** at the bottom of the pane.
-    :::image type="content" source="media/go-to-view-designer.png" alt-text="Go to View Designer":::
+
+    :::image type="content" source="media/go-to-view-designer.png" alt-text="Screenshot of Go to View Designer button":::
+
 6. To specify the view name:
     1. Expand the **Columns** section and select **Click to Add View Name**.
-    2. Enter the name for your view.
-        The name is set when you click or tab outside the text box. You can change the name later by clicking it again, or by changing it in the **Properties** tab.
+    2. Enter the name for your view. The name is set when you click or tab outside the text box. You can change the name later by clicking it again, or by changing it in the **Properties** tab.
 
 ### Add a column to your view
 
@@ -111,7 +116,8 @@ When a view is opened, the records displayed are sorted based on the order you s
 
 1. Select the column to use as the primary or secondary sort.
 2. In the drop-down menu, select **Primary Sort** or **Secondary Sort**.
-    :::image type="content" source="media/set-sort-order.png" alt-text="Set sort order":::
+
+    :::image type="content" source="media/set-sort-order.png" alt-text="Screenshot of Set sort order":::
 
 >[!NOTE]
 >If you remove the column defined as the primary sort, the column defined as the secondary sort becomes the primary sort.
@@ -122,7 +128,8 @@ You can set the sort order to ascending or descending for the column defined as 
 
 1. Select the column set as the primary sort.
 2. Choose the arrow next to the name to change the order.
-    :::image type="content" source="media/set-ascending-descending.png" alt-text="Set ascending or descending":::
+
+    :::image type="content" source="media/set-ascending-descending.png" alt-text="Screenshot of Set ascending or descending":::
 
 When the arrow is pointing up, the sort order is ascending. When the arrow is pointing down, the sort order is descending.
 
@@ -131,9 +138,9 @@ When the arrow is pointing up, the sort order is ascending. When the arrow is po
 You can change the order of the columns already included in your view.
 
 1. Select the column you want to move.
-2. Drag the column to the position you want to move it to.
-    You will see a visual indicator when you hold the column over an allowed position.
-    :::image type="content" source="media/rearrange-columns.png" alt-text="Rear
+2. Drag the column to the position you want to move it to. You will see a visual indicator when you hold the column over an allowed position.
+
+    :::image type="content" source="media/rearrange-columns.png" alt-text="Screenshot of the view designer with columns being rearranged":::
 
 >[!NOTE]
 >You can also rearrange columns by using the Ctrl+X and Ctrl+V keyboard shortcuts.
@@ -152,7 +159,9 @@ You can set filter criteria so that only a subset of the records is displayed in
 2. Select **Add Filter**.
 3. In the **Select** drop-down, select the field you want to filter on.
 4. In the drop-down list in the second column, select the operator to use for the filter. The available operators depend on the selected field.
-    :::image type="content" source="media/select-operator.png" alt-text="Select operator":::
+
+    :::image type="content" source="media/select-operator.png" alt-text="Screenshot of Select operator":::
+
 5. Enter a value to filter on in the field in the third column.
 
 ### Group multiple filters
@@ -162,7 +171,9 @@ You can add multiple filters to your view if you want to filter records using mo
 1. Select **Add Filter** to add an additional filter to your view.
 2. Select the operator to use and enter a value to filter on.
 3. Select the check box next to each row of filter criteria.
-    :::image type="content" source="media/group-filters.png" alt-text="Group filters":::
+
+    :::image type="content" source="media/group-filters.png" alt-text="Screenshot of Group filters":::
+
 4. Select **Group And** or **Group Or** to group the filters.
 
 When you select **Group And**, records that meet both criteria are displayed in the view. When you select **Group Or**, records that meet any of the filter criteria are displayed. For example, in the preceding example, to show records for contacts with an address in Seattle or Portland, select **Group Or**.
@@ -171,7 +182,8 @@ When you select **Group And**, records that meet both criteria are displayed in 
 
 1. Select the check box for the group.
 2. Choose **Ungroup**.
-    :::image type="content" source="media/ungroup-filters.png" alt-text="Ungroup filters":::
+
+    :::image type="content" source="media/ungroup-filters.png" alt-text="Screenshot of Ungroup filters":::
 
 ### Save a view
 
