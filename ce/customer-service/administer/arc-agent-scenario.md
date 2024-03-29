@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 # How the automatic record creation rule works in an agent scenario
 
-With automatic record creation, you can create multiple cases from an email sent to multiple mailboxes. As an administrator, you can [enable this feature](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes) to ensure that multiple cases (one for each queue-enabled mailbox) are created when multiple mailboxes are added as recipients in the email.
+With automatic record creation, you can create multiple cases from an email sent to multiple mailboxes. As an administrator, you can [enable this feature](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes) to ensure that [multiple cases (one for each queue-enabled mailbox) get created when multiple mailboxes are added as recipients in the email](arc-multiple-cases.md#how-automatic-record-creation-rules-work-to-create-multiple-cases-from-an-email-sent-to-multiple-mailboxes).
 
 This article lists the various agent scenarios and explains how automatic record creation rule works when an agent does a reply all or reply only to the customer using a case timeline. For example, for cases created from an email sent to multiple mailboxes Q1, Q2, and Q3, agents can reply to Case 1, Case 2, or Case 3’s timeline, independently.
 
