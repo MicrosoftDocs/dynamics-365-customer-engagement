@@ -1,7 +1,7 @@
 ---
 title: Create and customize views
 description: Explore how to customize views in Sales, create system views and personal views, and adjust column widths and filters for tailored data presentation.
-ms.date: 03/28/2024
+ms.date: 03/29/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
