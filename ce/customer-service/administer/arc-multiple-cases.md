@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/28/2024
+ms.date: 03/29/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -21,7 +21,7 @@ When an email is sent to multiple mailboxes (To, CC, or BCC) which are queue-ena
 
 As an administrator, you can enable this feature to ensure that multiple cases (one for each queue-enabled mailbox) gets created when multiple mailboxes are added as recipients in the email. With the ability to create multiple cases from an email, agents can do the following:
 
-- With multiple cases being created, email appears in the timeline for all cases. So, agents can respond to customers’ issues using any case timeline.  
+- With multiple cases being created, email appears in the timeline for all cases. So, agents can respond to customers’ issues using any case timeline.
 
 - Replies to the original email are linked to the appropriate cases.  
 
@@ -41,11 +41,11 @@ As an administrator, you can enable this feature to ensure that multiple cases (
 
 ## How automatic record creation rules work to create multiple cases from an email sent to multiple mailboxes
 
-After the feature is enabled, any new emails sent to multiple mailboxes get converted to multiple cases and a **Related**attribute (new attribute introduced on email activity to capture multiple records that an email can be associated with) is set for those cases. For more information on related attribute, see [Enable users to associate activities to multiple records (preview)](/power-apps/maker/data-platform/types-of-entities#enable-users-to-associate-activities-to-multiple-records-preview). The existing **Regarding** attribute for such emails will be blank. However, once the feature is turned on, for any existing email records, you’ll see the following:
+After the feature is enabled, any new emails sent to multiple mailboxes get converted to multiple cases and a **Related** attribute (new attribute introduced on email activity to capture multiple records that an email can be associated with) is set for those cases. For more information on related attribute, see [Enable users to associate activities to multiple records (preview)](/power-apps/maker/data-platform/types-of-entities#enable-users-to-associate-activities-to-multiple-records-preview). The existing **Regarding** attribute for such emails will be blank. However, once the feature is turned on, for any existing email records, you’ll see the following:
 
 - If older email records have an existing **Active** case set as **Regarding**, no new case gets created when a reply email arrives even if a new mailbox is added. The replied email gets associated with an existing case and regarding is set to the existing active case. The **Related** field remains empty, as no case was created.  
 
-- If older email records have an existing **Resolved** case set as **Regarding**, and the **Wait for a specific amount of time after the connected case has been resolved** option is set to **YES**, and a reply email arrives after the time mentioned in the **Select the amount of time** setting, a new case gets created. The new email populates the related attribute for the reply email. If the reply email is sent to multiple mailboxes, multiple cases get created and the related field gets populated with multiple cases. The Regarding field for the reply email is set to blank.
+- If older email records have an existing **Resolved** case set as **Regarding**, and the **Wait for a specific amount of time after the connected case has been resolved** option is set to **YES**, and a reply email arrives after the time mentioned in the **Select the amount of time** setting, a new case gets created. The related attribute of the reply email gets populated with the newly created case. If the reply email is sent to multiple mailboxes, multiple cases get created and the related field gets populated with multiple cases. The Regarding field for the reply email is set to blank.
 
 The following flowchart explains how automatic record creation rules work to create multiple cases from an email sent to multiple mailboxes.
 
@@ -57,7 +57,7 @@ The following flowchart explains how automatic record creation rules work to cre
 
 - When email gets converted to multiple cases, every case has the same case title by default, as the email subject gets copied to the case title. If you would like to see which case originated in which mailbox, it is advisable to add the originating queue entries on the case form which will help you identify which case got created in which queue.
 
-- To achieve this, you may add a sub grid to list the originating queue entries to the case entity from the Power Apps Maker portal by customizing the case form.
+    To achieve this, you may add a sub grid to list the originating queue entries to the case entity from the Power Apps Maker portal by customizing the case form.
 
     Perform the following steps:
 
@@ -95,7 +95,7 @@ The following flowchart explains how automatic record creation rules work to cre
         
         1. Select **originatingqueue (Case)** from the **Table** drop-down list.  
         
-        1. Select **the view you created in Step i**.  
+        1. Select the view you created in Step 1.  
         
         1. Select **Save and Publish**.
 
@@ -103,4 +103,4 @@ The following flowchart explains how automatic record creation rules work to cre
 
 [How automatic record creation rule works in a customer scenario](arc-customer-scenario.md#how-automatic-record-creation-rule-works-in-a-customer-scenario)
 
-[How automatic record creation rule works in an agent scenario](arc-agent-scenario.md#how-automatic-record-creation-rule-works-in-an-agent-scenario)
+[How the automatic record creation rule works in an agent scenario](arc-agent-scenario.md#how-the-automatic-record-creation-rule-works-in-an-agent-scenario)

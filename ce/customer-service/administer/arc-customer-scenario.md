@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/28/2024
+ms.date: 03/29/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -19,7 +19,7 @@ ms.custom:
 
 With automatic record creation, you can create multiple cases from an email sent to multiple mailboxes. As an administrator, you can [enable this feature](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes) to ensure that multiple cases (one for each queue-enabled mailbox) gets created when multiple mailboxes are added as recipients in the email.
 
-This topic lists the various customer scenarios and explains how automatic record creation rule works when a customer sends a new mail, replies to an email, or forwards an agent’s email. The following flowchart explains the customer scenario.
+This article lists the various customer scenarios and explains how automatic record creation rule works when a customer sends a new mail, replies to an email, or forwards an agent’s email. The following flowchart explains the customer scenario.
 
 :::image type="content" source="../media/arc_customer-scenario.png" alt-text="Flowchart explaining the customer scenario.":::
 
@@ -87,4 +87,4 @@ However, if you don't want the forwarded email to be associated with the existin
 
 [Enable creation of multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
 
-[How automatic record creation rule works in an agent scenario](arc-agent-scenario.md#how-automatic-record-creation-rule-works-in-an-agent-scenario)
+[How the automatic record creation rule works in an agent scenario](arc-agent-scenario.md#how-the-automatic-record-creation-rule-works-in-an-agent-scenario)
