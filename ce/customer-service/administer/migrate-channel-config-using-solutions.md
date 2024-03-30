@@ -59,7 +59,7 @@ If skill-based routing rulesets are used in your unified routing setup, perform 
 If you have configured new capacity profiles in your routing setup for channels, perform the steps outlined in [Export and import data for capacity profiles](migrate-config-data-for-records.md#migrate-configuration-for-capacity-profiles).  Make sure to adjust any filtering fetch xml appropriately for all channels.
 
 > [!TIP]
->> Once a new capacity profile is migrated using Configuration Migration Tool, updates can be migrated using solutions.
+> Once a new capacity profile is migrated using Configuration Migration Tool, updates can be migrated using solutions.
 
 ## Migrate configuration for queues
 
@@ -104,7 +104,7 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
    - **Entity display name**: When you create the schema, select the entities in the same sequence as mentioned in the table.
    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes like Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes, if necessary.
-   - **Use FetchXML to filter records**: For each entity, use the appropriate FetchXML query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the ADVANCED FIND menu item to construct the appropriate FetchXML query.
+   - **Use FetchXML to filter records**: For each entity, use the appropriate FetchXML query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
    - **Configure import settings**: For the Work Stream entity, ensure that you only add the key fields and select the **Do not update existing records** checkbox to prevent updates to records in a table migrated through solutions.
 
    |S.No.|Channel(s)|Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
@@ -457,4 +457,4 @@ After you import the unified routing-related configuration data successfully fro
 
 ### See also
 
-[Migrate configuration for records based on unified routing](migrate-config-data-for-records-overview.md)  
+[Migrate configurations for record routing using solutions](migrate-record-routing-config-using-solutions.md)  
