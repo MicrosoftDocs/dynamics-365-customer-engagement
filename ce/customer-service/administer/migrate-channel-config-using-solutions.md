@@ -4,7 +4,7 @@ description: Learn to use solutions for exporting and importing configuration pe
 ms.date: 03/29/2024
 ms.topic: how-to
 author: mjfjesus
-ms.author: mjfjesus
+ms.author: marcoje
 ms.reviewer:
 ms.collection:
 ms.custom: bap-template
