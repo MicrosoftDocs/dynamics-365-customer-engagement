@@ -3,8 +3,8 @@ title: Migrate configurations for channels using solutions
 description: Learn to use solutions for exporting and importing configuration pertaining channels from source to target environments in Omnichannel for Customer Service.
 ms.date: 03/29/2024
 ms.topic: how-to
-author: marcoje
-ms.author: marcoje
+author: mjfjesus
+ms.author: mjfjesus
 ms.reviewer:
 ms.collection:
 ms.custom: bap-template
