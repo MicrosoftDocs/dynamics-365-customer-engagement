@@ -35,14 +35,11 @@ The following prerequisites must be met:
 
 You must perform the steps in the order they're listed to migrate your configuration data successfully:
 
-1. Configuration via solution
-1. Skill-based routing rulesets
-1. Capacity profiles
-1. Queues
-1. Intake rules
-1. Workstreams
-
-The procedures include tables with entity information and corresponding sample schemas for each configuration.
+1. Migrate configuration for session templates and notification templates
+1. Migrate configuration for skill-based routing rulesets
+1. Migrate configuration for new capacity profiles
+1. Migrate configuration for queues
+1. Migrate configuration for intake rules and  workstreams
 
 ## Migrate configuration for session templates and notification templates
 
@@ -200,7 +197,7 @@ For sample schema to get all the required records, see [Sample schema for record
 
 The following table summarizes the entities and corresponding FetchXML samples.
 
-|S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+|S. No.|Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
 |-----|---------|---------|---------|
 | 1. |  Decision ruleset with selection criteria (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Decision ruleset for all record queues with selection criteria defined**](#BKMK1sc-ur-rls) <br> <br> [**Sample 2: Decision ruleset for a single record queue with selection criteria defined**](#BKMK2sc-ur-rls) <br> <br> [**Sample 3: Decision ruleset for multiple record queues with selection criteria defined**](#BKMK3sc-ur-rls) <br>  |
 | 2. |  Assignment Configuration Step with selection criteria (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Assignment configuration step for all record queues with selection criteria defined**](#BKMK1sc-ur-acs) <br> <br> [**Sample 2: Assignment configuration step for a single record queue with selection criteria defined**](#BKMK2sc-ur-acs) <br> <br> [**Sample 3: Assignment configuration step for multiple record queues with selection criteria defined**](#BKMK3sc-ur-acs) <br>   |
