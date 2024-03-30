@@ -1,4 +1,3 @@
-
 ---
 title: Migrate configurations for record routing using solutions
 description: Learn to migrate configuration data pertaining for routing, capacity profiles, queues, intake rules, and workstreams in Customer Service using solutions.
