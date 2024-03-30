@@ -40,30 +40,30 @@ The following prerequisites must be met:
 You must perform the steps in the order they're listed to migrate your configuration data successfully:
 
 1. Migrate configuration for session templates and notification templates
-1. Migrate configuration for skill-based routing
-1. Migrate configuration for channel queues
+1. Migrate configuration for skill-based routing rulesets
 1. Migrate configuration for new capacity profiles
+1. Migrate configuration for queues
 1. Migrate configuration for channel workstreams and channel settings
 1. Verify your migration
 
 ## Migrate configuration for session templates and notification templates
 
-If you use custom session templates and notifications in your WhatsApp routing setup, perform the steps outlined in [Migrate configuration for session templates and notification templates](migrate-config-data-for-records.md#migrate-configuration-using-a-solution).
+If you use custom session templates and notifications in your WhatsApp routing setup, perform the steps outlined in [Migrate configuration for session templates and notification templates](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-session-temlates-and-notification-templates).
 
 ## Migrate configuration for skill-based routing rulesets
 
-If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Migrate configurations for skill-based routing rulesets](migrate-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering fetch xml appropriately for the channels you want to migrate.
+If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Migrate configurations for skill-based routing rulesets](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering fetch xml appropriately for the channels you want to migrate.
 
 ## Migrate configuration for new capacity profiles
 
-If you have configured new capacity profiles in your routing setup for channels, perform the steps outlined in [Export and import data for capacity profiles](migrate-config-data-for-records.md#migrate-configuration-for-capacity-profiles).  Make sure to adjust any filtering fetch xml appropriately for all channels.
+If you have configured new capacity profiles in your routing setup for channels, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles).  Make sure to adjust any filtering fetch xml appropriately for all channels.
 
 > [!TIP]
 > Once a new capacity profile is migrated using Configuration Migration Tool, updates can be migrated using solutions.
 
 ## Migrate configuration for queues
 
-For migrating channel queues, perform the steps outlined in [Migrate configuration for queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues).  Make sure to adjust any filtering fetch xml appropriately for all channels you want to migrate.
+For migrating channel queues, perform the steps outlined in [Migrate configuration for queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues).  Make sure to adjust any filtering fetch xml appropriately for all channels you want to migrate.
 
 ## Migrate configuration for channel workstreams and channel settings
 
@@ -88,7 +88,7 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
    |Channel  |Tables automatically added to solution  |
    |---------|----------------------------------------|
-   |All channels|Work stream (msdyn_liveworkstream)<br>Capacity profile (msdyn_capacityprofile) – new records must be [migrated using Configuration Migration Tool](#_Migrate_configuration_for)<br>Work stream capacity profile (msdyn_liveworkstreamcapacityprofile)<br>Context variable (msdyn_ocliveworkstreamcontextvariable)<br>Decision contract (msdyn_decisioncontract)<br>Decision rule set (msdyn_decisionruleset)<br>Routing configuration (msdyn_routingconfiguration)<br>Routing configuration step (msdyn_routingconfigurationstep)<br>Language (msdyn_oclanguage) – except voice and custom channel|
+   |All channels|Work stream (msdyn_liveworkstream)<br>Capacity profile (msdyn_capacityprofile) – new records must be [migrated using Configuration Migration Tool](#migrate-configuration-for-new-capacity-profiles)<br>Work stream capacity profile (msdyn_liveworkstreamcapacityprofile)<br>Context variable (msdyn_ocliveworkstreamcontextvariable)<br>Decision contract (msdyn_decisioncontract)<br>Decision rule set (msdyn_decisionruleset)<br>Routing configuration (msdyn_routingconfiguration)<br>Routing configuration step (msdyn_routingconfigurationstep)<br>Language (msdyn_oclanguage) – except voice and custom channel|
    |Live chat|Chat widget (msdyn_livechatconfig)<br>Authentication settings (msdyn_authenticationsettings)<br>Survey Answer Option (msdyn_chatansweroption)<br>Survey Question (msdyn_surveyquestion)<br>Survey Question Sequence (msdyn_questionsequence)<br>Geo Location Provider (msdyn_oc_geolocationprovider)<br>Operating Hour (msdyn_operatinghour)|
    |Voice|Voice channel setting (msdyn_ocvoicechannelsetting)<br>Authentication settings (msdyn_authenticationsettings)<br>Voice (msdyn_ocvoice)<br>Voice channel language setting (msdyn_ocvoicechannellanguagesetting)<br>Phone Number (msdyn_ocphonenumber)<br>Communication Provider Setting (msdyn_occommunicationprovidersetting)<br>Carrier (msdyn_occarrier)<br>Phone music (msdyn_ocphonemusic)<br>Operating Hour (msdyn_operatinghour)|
    |SMS|SMS number settings (msdyn_ocsmschannelsetting)<br>Phone Number (msdyn_ocphonenumber)<br>Communication Provider Setting (msdyn_occommunicationprovidersetting)<br>Carrier (msdyn_occarrier)<br>Operating Hour (msdyn_operatinghour)|
