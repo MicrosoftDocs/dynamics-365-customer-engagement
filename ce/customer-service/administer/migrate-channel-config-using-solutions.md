@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Migrate configurations for channels using solutions
 
-Use solutions and the Configuration Migration tool to migrate the configurations from the source organization to the target organization for channels.
+Use solutions and the Configuration Migration tool to migrate the configurations from the source environment to the target environment for channels.
 
 For information on how to use solutions or the Configuration Migration tool, see [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
 
@@ -21,15 +21,15 @@ For information on how to use solutions or the Configuration Migration tool, see
 The following prerequisites must be met:
 
 - Ensure that the user who performs the channel configuration migration has the required privileges below:
-  - Export solutions in the source environment
-  - Import solutions in the destination environment
+  - Export solutions from the source environment
+  - Import solutions to the destination environment
   - Read privilege on all tables migrated from the source environment using Configuration Migration Tool
   - Full privileges on all tables migrated to the destination environment using Configuration Migration Tool 
-- In the source environment, if a ruleset refers to the following, then ensure that they exist in the target organization before you proceed with the migration:
+- In the source environment, if any table or column refers to the following, then ensure that they exist in the target environment before you proceed with the migration:
   - Custom entities
-  - Attributes
+  - Columns (fields/attributes)
   - Relationships
-  - Option sets
+  - Choices (option sets)
   - Lookup values
 
 > [!IMPORTANT]
@@ -48,27 +48,27 @@ You must perform the steps in the order they're listed to migrate your configura
 
 ## Migrate configuration for session templates and notification templates
 
-If you use custom session templates and notifications in your WhatsApp routing setup, perform the steps outlined in [Migrate configuration for session templates and notification templates](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-session-temlates-and-notification-templates).
+If you use custom session templates and notifications in your channel routing setup, perform the steps outlined in [Migrate configuration for session templates and notification templates](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-session-temlates-and-notification-templates).
 
 ## Migrate configuration for skill-based routing rulesets
 
-If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Migrate configurations for skill-based routing rulesets](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering fetch xml appropriately for the channels you want to migrate.
+If skill-based routing rulesets are used in your channel routing setup, perform the steps outlined in [Migrate configurations for skill-based routing rulesets](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering FetchXML appropriately for the channels you want to migrate.
 
 ## Migrate configuration for new capacity profiles
 
-If you have configured new capacity profiles in your routing setup for channels, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles).  Make sure to adjust any filtering fetch xml appropriately for all channels.
+If you have configured new capacity profiles in your channel routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles).  Make sure to adjust any filtering FetchXML appropriately for all channels.
 
 > [!TIP]
 > Once a new capacity profile is migrated using Configuration Migration Tool, updates can be migrated using solutions.
 
 ## Migrate configuration for queues
 
-For migrating channel queues, perform the steps outlined in [Migrate configuration for queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues).  Make sure to adjust any filtering fetch xml appropriately for all channels you want to migrate.
+For migrating channel queues, perform the steps outlined in [Migrate configuration for queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues).  Make sure to adjust any filtering FetchXML appropriately for all channels you want to migrate.
 
 ## Migrate configuration for channel workstreams and channel settings
 
-1. Create a solution to export configurations from the source organization for all workstreams and the channels that can be migrated via solution.
-2. Add the required records to the solution using the Add existing button in the command bar and selecting the starting table for each channel you need to export, as defined in the following table:
+1. Create a solution to export configurations from the source environment for all workstreams and the channels that can be migrated via solution.
+2. Add the required records to the solution using the **Add existing** button in the command bar and selecting the starting table for each channel you need to export, as follows:
 
    |Channel  |Starting table  |
    |---------|----------------|
@@ -97,63 +97,66 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
    |Apple Messages for Business|Apple messages for business account (msdyn_ocapplebusinessaccount)|
 
   > [!IMPORTANT]
-  > - Please carefully review solution components before exporting solution. Take note of records that contain information regarding Azure Communication Services or 3rd party channels or other Microsoft components like Copilot Studio copilots or Customer Voice surveys, so you make required configurations in the destination environment.
+  > - Please carefully review solution components before exporting solution. Take note of records that contain information regarding Azure Communication Services or third-party channels or other Microsoft components like Copilot Studio copilots or Customer Voice surveys, so you make required configurations in the destination environment.
   > - If one or more work streams share the same Capacity Profile, when adding tables from one channel/workstream, tables from other channels/workstreams sharing the same Capacity Profile will also be added to the solution.
 
-4. Use the Configuration Migration tool to create the schema and migrate the remaining configuration data from the source organization for workstreams and channels.
+4. Use the Configuration Migration tool to create the schema and migrate the remaining configuration data from the source environment for workstreams and channels.
 
-   - **Entity display name**: When you create the schema, select the entities in the same sequence as mentioned in the table.
-   - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes like Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes, if necessary.
-   - **Use FetchXML to filter records**: For each entity, use the appropriate FetchXML query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
-   - **Configure import settings**: For the Work Stream entity, ensure that you only add the key fields and select the **Do not update existing records** checkbox to prevent updates to records in a table migrated through solutions.
+   - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the table below.
+   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the following table. You don't need to select the out-of-the-box system defined attributes like Created By, Created On, Modified By, Modified On, and Owner. You can select custom columns, if necessary.
+   - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table below to get single, multiple, or all rows based on your requirement. For single or multiple rows, you need to use source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
+   - **Configure import settings**: For the Work Stream table, ensure that you only add the key columns and select the **Do not update existing records** checkbox to prevent updates to records in a table migrated through solutions.
 
-   |S.No.|Channel(s)|Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
-   |-----|----------|-----------|-----------|-----------|
-   |1.|All channels|Workstream (msdyn_liveworkstream)|<ul><li>Channel (msdyn_streamsource)</li><li>Mode (msdyn_mode)</li><li>Name (msdyn_name)</li>Work Stream (msdyn_liveworkstreamid) </li></ul>|[**Sample 1: All workstreams of a channel**](#WS1All)<br><br>[**Sample 2: Single workstream**](#WS2Simple)<br><br>[**Sample 3: Multiple workstreams**](#WS3Multiple)|
-   |2.|All messaging channels|Quick Reply (msdyn_cannedmessage)|<ul><li>Locale (msdyn_locale_field)</li><li>Message (msdyn_message)</li><li>Quick reply (msdyn_cannedmessageid)</li><li>TagsControlField (msdyn_tagscontrolfield)</li><li> Title (msdyn_title) </li></ul>|[**Sample 1: All workstreams of a channel**](#QR1All)<br><br>[**Sample 2: Single workstream**](#QR2Simple)<br><br>[**Sample 3: Multiple workstreams**](#QR3Multiple)|
+  > [!IMPORTANT]
+  > For **Facebook Page**, **Google’s Business Messages agent account**, **LINE account**, **Custom messaging channel** and **Microsoft Teams account** tables, do NOT include Survey (msdyn_postconversationsurvey) and Survey (msdyn_postconversationsurveyseparatebotsurvey) columns as survey records are synced with Dynamics 365 Customer Voice in each environment, so they can’t be migrated across environments.
+
+   |S.No.|Channel(s)|Entity display name (Logical name)|Attribute display name (Logical name)|Use FetchXML to filter records|
+   |-----|--------|---------|---------|-------|
+   |1.|All channels|Workstream (msdyn_liveworkstream)|<ul><li>Channel (msdyn_streamsource)</li><li>Mode (msdyn_mode)</li><li>Name (msdyn_name)</li><li>Work Stream (msdyn_liveworkstreamid)</li></ul>|[**Sample 1: All workstreams of a channel**](#WS1All)<br><br>[**Sample 2: Single workstream**](#WS2Simple)<br><br>[**Sample 3: Multiple workstreams**](#WS3Multiple)|
+   |2.|All messaging channels|Quick Reply (msdyn_cannedmessage)|<ul><li>Locale (msdyn_locale_column)</li><li>Message (msdyn_message)</li><li>Quick reply (msdyn_cannedmessageid)</li><li>TagsControlField (msdyn_tagscontrolfield)</li><li>Title (msdyn_title)</li></ul>|[**Sample 1: All workstreams of a channel**](#QR1All)<br><br>[**Sample 2: Single workstream**](#QR2Simple)<br><br>[**Sample 3: Multiple workstreams**](#QR3Multiple)|
    |3.|All messaging channels|Tag (msdyn_octag)|<ul><li>Name (msdyn_name)</li><li>Tag (msdyn_octagid)</li></ul>|[**Sample 1: All workstreams of a channel**](#Tag1All)<br><br>[**Sample 2: Single workstream**](#Tag2Simple)<br><br>[**Sample 3: Multiple workstreams**](#Tag3Multiple)|
    |4.|All channels|Message (msdyn_ocsystemmessage)|<ul><li>Channel (msdyn_streamsource)</li><li>Default language (msdyn_defaultlanguage)</li><li>Instance ID (msdyn_instanceid)</li><li>Message (msdyn_ocsystemmessageid)</li><li>Message description (msdyn_messagedescription)</li><li>Message recipient (msdyn_messagereceiver)</li><li>Message template trigger (msdyn_messagetemplatetrigger)</li><li>Message Text (msdyn_messagetext)</li><li>Message trigger (msdyn_systemmessageeventtype)</li><li>Message type (msdyn_messagetype)</li><li>Name (msdyn_name)</li><li> Widget (msdyn_widgetid) </li></ul>||
    |5.|All channels|Localization (msdyn_oclocalizationdata)|<ul><li>Automated message (msdyn_systemmessageid)</li><li>Default Localized Text (msdyn_defaultlocalizedtext)</li><li>Entity Column Name (msdyn_entitycolumnname)</li><li>Entity Name (msdyn_entityname)</li><li>Entity Record ID (msdyn_entityrecordid)</li><li>Is default (msdyn_isdefault)</li><li>Language code (msdyn_customerlanguageid)</li><li>Language Code (msdyn_languagecode)</li><li>Localization (msdyn_oclocalizationdataid)</li><li>Localized text (msdyn_localizedtext)</li></ul>|[**FetchXML to filter records for channel localizations**](#CLAll)|
    |6.|Facebook|Facebook Application (msdyn_ocfbapplication)|<ul><li>Application Id (msdyn_fbapplicationid)</li><li>Application Secret (msdyn_fbapplicationsecret)</li><li>Callback Uri (msdyn_fbcallbackuri)</li><li>Facebook Application (msdyn_ocfbapplicationid)</li><li>Name (msdyn_name)</li><li>Verify Token (msdyn_fbverifytoken)</li></ul>|[**FetchXML to filter records for Facebook applications**](#FBAppAll)|
-   |7.|Facebook|Facebook Page (msdyn_ocfbpage)|**Note**<br>Do NOT include Survey (msdyn_postconversationsurvey) and Survey (msdyn_postconversationsurveyseparatebotsurvey) columns as survey records are synced with Dynamics 365 Customer Voice in each environment, so they can’t be migrated.<br><br><ul><li>Bot Survey (msdyn_postconversationsurveybotsurvey)</li><li>Enable (msdyn_postconversationsurveyenable)</li><li>Enable file attachments for agents (msdyn_enablefileattachmentforagents)</li><li>Enable file attachments for customers (msdyn_enablefileattachmentforcustomers)</li><li>Facebook Application (msdyn_ocfbapplicationid)</li><li>Facebook Page (msdyn_ocfbpageid)</li><li>Facebook page language (msdyn_ocwidgetlanguage)</li><li>Message (msdyn_postconversationsurveybotsurveymessagetext)</li><li>Message (msdyn_postconversationsurveymessagetext)</li><li>Name (msdyn_fbpagename)</li><li>Page Access Token (msdyn_fbpageaccesstoken)</li><li>Page Id (msdyn_fbpageid)</li><li>Survey Mode (msdyn_postconversationsurveybotsurveymode)</li><li>Survey Mode (msdyn_postconversationsurveymode)</li><li>Turn on your Facebook human agent message tag (msdyn_enablehumanagenttag)</li><li>Work stream (msdyn_liveworkstreamid)</li></ul>|[**FetchXML to filter records for Facebook pages**](#FBPageAll)|
+   |7.|Facebook|Facebook Page (msdyn_ocfbpage)|<ul><li>Bot Survey (msdyn_postconversationsurveybotsurvey)</li><li>Enable (msdyn_postconversationsurveyenable)</li><li>Enable file attachments for agents (msdyn_enablefileattachmentforagents)</li><li>Enable file attachments for customers (msdyn_enablefileattachmentforcustomers)</li><li>Facebook Application (msdyn_ocfbapplicationid)</li><li>Facebook Page (msdyn_ocfbpageid)</li><li>Facebook page language (msdyn_ocwidgetlanguage)</li><li>Message (msdyn_postconversationsurveybotsurveymessagetext)</li><li>Message (msdyn_postconversationsurveymessagetext)</li><li>Name (msdyn_fbpagename)</li><li>Page Access Token (msdyn_fbpageaccesstoken)</li><li>Page Id (msdyn_fbpageid)</li><li>Survey Mode (msdyn_postconversationsurveybotsurveymode)</li><li>Survey Mode (msdyn_postconversationsurveymode)</li><li>Turn on your Facebook human agent message tag (msdyn_enablehumanagenttag)</li><li>Work stream (msdyn_liveworkstreamid)</li></ul>|[**FetchXML to filter records for Facebook pages**](#FBPageAll)|
    |8.|Google Business Messages|Google's Business Messages partner account (msdyn_ocgooglebusinessmessagespartneraccount)|<ul><li>Base 64 credential file string (msdyn_base64credentialfilestring)</li><li>Base 64 credential file string - Continued (msdyn_base64credentialfilestringcontd)</li><li>Credential file name (msdyn_credentialfilename)</li><li>Google’s Business Messages callback URL (msdyn_googlebusinessmessagescallbackurl)</li><li>Google’s Business Messages partner account ID (msdyn_ocgooglebusinessmessagespartneraccountid)</li><li>Name (msdyn_name)</li><li>Partner account client token (msdyn_partneraccountclienttoken)</li><li>Partner account ID (msdyn_partneraccountid)</li></ul>|[**FetchXML to filter records for Google's Business Messages partner accounts**](#GBMPtAccAll)|
-   |9.|Google Business Messages|Google's Business Messages agent account (msdyn_ocgooglebusinessmessagesagentaccount)|**Note**<br>Do NOT include Survey (msdyn_postconversationsurvey) and Survey (msdyn_postconversationsurveyseparatebotsurvey) columns as survey records are synced with Dynamics 365 Customer Voice in each environment, so they can’t be migrated.<br><br><ul><li>Agent account client token (msdyn_agentaccountclienttoken)</li><li>Agent ID (msdyn_agentid)</li><li>Bot Survey (msdyn_postconversationsurveybotsurvey)</li><li>Brand ID (msdyn_brandid)</li><li>Enable agent override (msdyn_enableagentoverride)</li><li>Enable file attachments for agents (msdyn_enablefileattachmentforagents)</li><li>Enable file attachments for customers (msdyn_enablefileattachmentforcustomers)</li><li>Google’s Business Messages agent account (msdyn_googlebusinessmessagesagentaccountid)</li><li>Google’s Business Messages callback URL (msdyn_googlebusinessmessagescallbackurl)</li><li>Google’s Business Messages partner account ID (msdyn_ocgbmpartneraccount)</li><li>Live work stream ID (msdyn_liveworkstreamid)</li><li>Message (msdyn_postconversationsurveybotsurveymessagetext)</li><li>Name (msdyn_name)</li><li>Post conversation survey enable (msdyn_postconversationsurveyenable)</li><li>Post conversation summary message text (msdyn_postconversationsurveymessagetext)</li><li>Post conversation survey mode (msdyn_postconversationsurveymode)</li><li>Survey Mode (msdyn_postconversationsurveybotsurveymode)</li><li>Widget language (msdyn_ocwidgetlanguage)</li></ul>|[**FetchXML to filter records for Google's Business Messages agent accounts**](#GBMAgAccAll)|
-   |10.|LINE|LINE account (msdyn_oclinechannelconfig)|**Note**<br>Do NOT include Survey (msdyn_postconversationsurvey) and Survey (msdyn_postconversationsurveyseparatebotsurvey) columns as survey records are synced with Dynamics 365 Customer Voice in each environment, so they can’t be migrated.<br><br><ul><li>Bot Survey (msdyn_postconversationsurveybotsurvey)</li><li>Channel Access Token (msdyn_channelaccesstoken)</li><li>Channel Secret (msdyn_channelsecret)</li><li>Enable (msdyn_postconversationsurveyenable)</li><li>Enable file attachments for agents (msdyn_enablefileattachmentforagents)</li><li>Enable file attachments for customers (msdyn_enablefileattachmentforcustomers)</li><li>LINE account language (msdyn_ocwidgetlanguage)</li><li>LINE Channel identifies Line Channel (msdyn_oclinechannelconfigid)</li><li>Message (msdyn_postconversationsurveybotsurveymessagetext)</li><li>Message (msdyn_postconversationsurveymessagetext)</li><li>Name (msdyn_name)</li><li>Survey Mode (msdyn_postconversationsurveybotsurveymode)</li><li>Survey Mode (msdyn_postconversationsurveymode)</li><li>Webhook URL (msdyn_webhookurl)</li><li>Work stream (msdyn_liveworkstreamid)</li></ul>|[**FetchXML to filter records for LINE accounts**](#LINEAll)|
-   |11.|Custom channel|Custom messaging channel (msdyn_occustommessagingchannel)|**Note**<br>Do NOT include Survey (msdyn_postconversationsurvey) and Survey (msdyn_postconversationsurveyseparatebotsurvey) columns as survey records are synced with Dynamics 365 Customer Voice in each environment, so they can’t be migrated.<br><br><ul><li>Bot Survey (msdyn_postconversationsurveybotsurvey)</li><li>Channel ID (msdyn_occustomchannelid)</li><li>Custom messaging account (msdyn_custombotchannelregistration)</li><li>Custom Messaging Channel (msdyn_occustommessagingchannelid)</li><li>Custom messaging channel language (msdyn_ocwidgetlanguage)</li><li>Enable (msdyn_postconversationsurveyenable)</li><li>Enable file attachments for agents (msdyn_enablefileattachmentforagents)</li><li>Enable file attachments for customers (msdyn_enablefileattachmentforcustomers)</li><li>Message (msdyn_postconversationsurveybotsurveymessagetext)</li><li>Message (msdyn_postconversationsurveymessagetext)</li><li>Name (msdyn_name)</li><li>Survey Mode (msdyn_postconversationsurveybotsurveymode)</li><li>Survey Mode (msdyn_postconversationsurveymode)</li><li>Work stream (msdyn_liveworkstreamid)</li></ul>|[**FetchXML to filter records for custom messaging channels**](#CustomAll)|
-   |12.|Microsoft Teams|Microsoft Teams account (msdyn_octeamschannelconfig)|**Note**<br>Do NOT include Survey (msdyn_postconversationsurvey) and Survey (msdyn_postconversationsurveyseparatebotsurvey) columns as survey records are synced with Dynamics 365 Customer Voice in each environment, so they can’t be migrated.<br><br><ul><li>Bot ID (msdyn_botid)</li><li>Bot Survey (msdyn_postconversationsurveybotsurvey)</li><li>Calling options (msdyn_callingoptions)</li><li>Enable (msdyn_postconversationsurveyenable)</li><li>Enable file attachments for agents (msdyn_enablefileattachmentforagents)</li><li>Enable file attachments for customers (msdyn_enablefileattachmentforcustomers)</li><li>Message (msdyn_postconversationsurveybotsurveymessagetext)</li><li>Message (msdyn_postconversationsurveymessagetext)</li><li>Name (msdyn_name)</li><li>Survey Mode (msdyn_postconversationsurveybotsurveymode)</li><li>Survey Mode (msdyn_postconversationsurveymode)</li><li>Teams account language (msdyn_ocwidgetlanguage)</li><li>Teams App Name (msdyn_octeamsappname)</li><li>Teams Channel (msdyn_octeamschannelconfigid)</li><li>Work stream (msdyn_liveworkstreamid)</li></ul>|[**FetchXML to filter records for Microsoft Teams accounts**](#TeamsAll)|
+   |9.|Google Business Messages|Google's Business Messages agent account (msdyn_ocgooglebusinessmessagesagentaccount)|<ul><li>Agent account client token (msdyn_agentaccountclienttoken)</li><li>Agent ID (msdyn_agentid)</li><li>Bot Survey (msdyn_postconversationsurveybotsurvey)</li><li>Brand ID (msdyn_brandid)</li><li>Enable agent override (msdyn_enableagentoverride)</li><li>Enable file attachments for agents (msdyn_enablefileattachmentforagents)</li><li>Enable file attachments for customers (msdyn_enablefileattachmentforcustomers)</li><li>Google’s Business Messages agent account (msdyn_googlebusinessmessagesagentaccountid)</li><li>Google’s Business Messages callback URL (msdyn_googlebusinessmessagescallbackurl)</li><li>Google’s Business Messages partner account ID (msdyn_ocgbmpartneraccount)</li><li>Live work stream ID (msdyn_liveworkstreamid)</li><li>Message (msdyn_postconversationsurveybotsurveymessagetext)</li><li>Name (msdyn_name)</li><li>Post conversation survey enable (msdyn_postconversationsurveyenable)</li><li>Post conversation summary message text (msdyn_postconversationsurveymessagetext)</li><li>Post conversation survey mode (msdyn_postconversationsurveymode)</li><li>Survey Mode (msdyn_postconversationsurveybotsurveymode)</li><li>Widget language (msdyn_ocwidgetlanguage)</li></ul>|[**FetchXML to filter records for Google's Business Messages agent accounts**](#GBMAgAccAll)|
+   |10.|LINE|LINE account (msdyn_oclinechannelconfig)|<ul><li>Bot Survey (msdyn_postconversationsurveybotsurvey)</li><li>Channel Access Token (msdyn_channelaccesstoken)</li><li>Channel ID (msdyn_channelid)</li><li>Channel Secret (msdyn_channelsecret)</li><li>Enable (msdyn_postconversationsurveyenable)</li><li>Enable file attachments for agents (msdyn_enablefileattachmentforagents)</li><li>Enable file attachments for customers (msdyn_enablefileattachmentforcustomers)</li><li>LINE account language (msdyn_ocwidgetlanguage)</li><li>LINE Channel identifies Line Channel (msdyn_oclinechannelconfigid)</li><li>Message (msdyn_postconversationsurveybotsurveymessagetext)</li><li>Message (msdyn_postconversationsurveymessagetext)</li><li>Name (msdyn_name)</li><li>Survey Mode (msdyn_postconversationsurveybotsurveymode)</li><li>Survey Mode (msdyn_postconversationsurveymode)</li><li>Webhook URL (msdyn_webhookurl)</li><li>Work stream (msdyn_liveworkstreamid)</li></ul>|[**FetchXML to filter records for LINE accounts**](#LINEAll)|
+   |11.|Custom channel|Custom messaging channel (msdyn_occustommessagingchannel)|<ul><li>Bot Survey (msdyn_postconversationsurveybotsurvey)</li><li>Channel ID (msdyn_occustomchannelid)</li><li>Custom messaging account (msdyn_custombotchannelregistration)</li><li>Custom Messaging Channel (msdyn_occustommessagingchannelid)</li><li>Custom messaging channel language (msdyn_ocwidgetlanguage)</li><li>Enable (msdyn_postconversationsurveyenable)</li><li>Enable file attachments for agents (msdyn_enablefileattachmentforagents)</li><li>Enable file attachments for customers (msdyn_enablefileattachmentforcustomers)</li><li>Message (msdyn_postconversationsurveybotsurveymessagetext)</li><li>Message (msdyn_postconversationsurveymessagetext)</li><li>Name (msdyn_name)</li><li>Survey Mode (msdyn_postconversationsurveybotsurveymode)</li><li>Survey Mode (msdyn_postconversationsurveymode)</li><li>Work stream (msdyn_liveworkstreamid)</li></ul>|[**FetchXML to filter records for custom messaging channels**](#CustomAll)|
+   |12.|Microsoft Teams|Microsoft Teams account (msdyn_octeamschannelconfig)|<ul><li>Bot ID (msdyn_botid)</li><li>Bot Survey (msdyn_postconversationsurveybotsurvey)</li><li>Calling options (msdyn_callingoptions)</li><li>Enable (msdyn_postconversationsurveyenable)</li><li>Enable file attachments for agents (msdyn_enablefileattachmentforagents)</li><li>Enable file attachments for customers (msdyn_enablefileattachmentforcustomers)</li><li>Message (msdyn_postconversationsurveybotsurveymessagetext)</li><li>Message (msdyn_postconversationsurveymessagetext)</li><li>Name (msdyn_name)</li><li>Survey Mode (msdyn_postconversationsurveybotsurveymode)</li><li>Survey Mode (msdyn_postconversationsurveymode)</li><li>Teams account language (msdyn_ocwidgetlanguage)</li><li>Teams App Name (msdyn_octeamsappname)</li><li>Teams Channel (msdyn_octeamschannelconfigid)</li><li>Work stream (msdyn_liveworkstreamid)</li></ul>|[**FetchXML to filter records for Microsoft Teams accounts**](#TeamsAll)|
    |13.|Facebook, Google Business Messages, LINE, Custom Channel, Microsoft Teams|Custom messaging account (msdyn_ocbotchannelregistration)|<ul><li>Bot Channel Registration (msdyn_ocbotchannelregistrationid)</li><li>Client secret (msdyn_msappsecret)</li><li>Facebook Application (msdyn_ocfbapplicationid)</li><li>Google’s Business Messages agent account id (msdyn_ocgbmagentaccount)</li><li>Google’s Business Messages partner account id (msdyn_ocgbmpartneraccount)</li><li>Is Custom Messaging BCR (msdyn_iscustommessagingbcr)</li><li>Last validated (msdyn_lastvalidateddate)</li><li>LINE channel (msdyn_oclinechannelconfigid)</li><li>MS Application Id (msdyn_msappid)</li><li>Name (msdyn_name)</li><li>Secure Client secret (msdyn_securemsappsecret)</li><li>Teams Channel (msdyn_octeamschannelconfigid)</li><li>Validation status (msdyn_validationstatus)</li></ul>|[**FetchXML to filter records for custom messaging accounts**](#BotRegAll)|
 
 5. Generate the schema and save it.
 6. Export the data and generate the compressed (zip) file.
 7. Use the Configuration Migration tool, select the option to import data, and select the compressed file.
 
-### FetchXML for workstream entity
+### FetchXML for workstreams
 
 **Sample 1: All workstreams of a channel**<a name="WS1All"></a>
 
 ```XML
 <fetch>
-	<entity name="msdyn_liveworkstream">
+	<table name="msdyn_liveworkstream">
 		<filter type="and">
 			<condition attribute="msdyn_mode" operator="eq" value="717210001" />
 			<condition attribute="msdyn_streamsource" operator="eq" value="<CHANNEL_ID>" />
 		</filter>
-	</entity>
+	</table>
 </fetch> 
 ```
->[!NOTE]
->>To find <CHANNEL_ID> values for each channel you want to migrate work streams for, please go to Power Apps Maker Portal, select your source environment, go to Choices then open the Stream Source (msdyn_streamsource) choice. For example, the value for Voice channel is 192440000.
+>[!TIP]
+>To find <CHANNEL_ID> values for each channel you want to migrate work streams for, please go to [Power Apps Maker Portal](https://make.powerapps.com), select your source environment, go to **Choices** then open the **Stream Source** (msdyn_streamsource) choice. For example, the value for Voice channel is 192440000.
 
 
 **Sample 2: Single workstream**<a name="WS2Single"></a>
 
 ```XML
 <fetch>
-	<entity name="msdyn_liveworkstream">
+	<table name="msdyn_liveworkstream">
 		<filter type="and">
 			<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="Test workstream 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}" />
 		</filter>
-	</entity>
+	</table>
 </fetch> 
 ```
 
@@ -161,33 +164,33 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_liveworkstream">
+	<table name="msdyn_liveworkstream">
 		<filter type="and">
 			<condition attribute="msdyn_liveworkstreamid" operator="in">
 				<value uiname="Test workstream 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}</value>
 				<value uiname="Test workstream 2" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44098}</value>
 			</condition>
 		</filter>
-	</entity>
+	</table>
 </fetch> 
 ```
 
-### FetchXML for quick reply entity
+### FetchXML for quick replies
 
 **Sample 1: Quick replies for all workstreams of a channel**<a name="QR1All"></a>
 
 ```XML
 <fetch>
-	<entity name="msdyn_cannedmessage">
-		<link-entity name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
-			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
+	<table name="msdyn_cannedmessage">
+		<link-table name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
+			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
 				<filter type="and">
 					<condition attribute="msdyn_mode" operator="eq" value="717210001" />
 					<condition attribute="msdyn_streamsource" operator="eq" value="<CHANNEL_ID>" />
 				</filter>
-			</link-entity>
-		</link-entity>
-	</entity>
+			</link-table>
+		</link-table>
+	</table>
 </fetch> 
 ```
 
@@ -195,16 +198,16 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_cannedmessage">
-		<link-entity name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
-			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
+	<table name="msdyn_cannedmessage">
+		<link-table name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
+			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
 				<filter type="and">
 					<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname=" workstream 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}" />
 />
 				</filter>
-			</link-entity>
-		</link-entity>
-	</entity>
+			</link-table>
+		</link-table>
+	</table>
 </fetch> 
 ```
 
@@ -212,39 +215,39 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_cannedmessage">
-		<link-entity name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
-			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
+	<table name="msdyn_cannedmessage">
+		<link-table name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
+			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
 				<filter type="and">
 					<condition attribute="msdyn_liveworkstreamid" operator="in">
 						<value uiname="Test Workstream 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}</value>
 						<value uiname="Test Workstream 2" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44098}</value>
 					</condition>
 				</filter>
-			</link-entity>
-		</link-entity>
-	</entity>
+			</link-table>
+		</link-table>
+	</table>
 </fetch> 
 ```
 
-### FetchXML for tag entity
+### FetchXML for tags
 
 **Sample 1: Tags of quick replies for all workstreams of a channel**<a name="Tag1All"></a>
 
 ```XML
 <fetch>
-	<entity name="msdyn_octag">
-		<link-entity name="msdyn_msdyn_cannedmessage_msdyn_octag" from="msdyn_octagid" to="msdyn_octagid" visible="false" intersect="true">
-			<link-entity name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
-				<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
+	<table name="msdyn_octag">
+		<link-table name="msdyn_msdyn_cannedmessage_msdyn_octag" from="msdyn_octagid" to="msdyn_octagid" visible="false" intersect="true">
+			<link-table name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
+				<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
 					<filter type="and">
 						<condition attribute="msdyn_mode" operator="eq" value="717210001" />
 						<condition attribute="msdyn_streamsource" operator="eq" value="<CHANNEL_ID>" />
 					</filter>
-				</link-entity>
-			</link-entity>
-		</link-entity>
-	</entity>
+				</link-table>
+			</link-table>
+		</link-table>
+	</table>
 </fetch> 
 ```
 
@@ -252,17 +255,17 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_octag">
-		<link-entity name="msdyn_msdyn_cannedmessage_msdyn_octag" from="msdyn_octagid" to="msdyn_octagid" visible="false" intersect="true">
-			<link-entity name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
-				<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
+	<table name="msdyn_octag">
+		<link-table name="msdyn_msdyn_cannedmessage_msdyn_octag" from="msdyn_octagid" to="msdyn_octagid" visible="false" intersect="true">
+			<link-table name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
+				<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
 					<filter type="and">
 						<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname=" workstream 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}" />
 					</filter>
-				</link-entity>
-			</link-entity>
-		</link-entity>
-	</entity>
+				</link-table>
+			</link-table>
+		</link-table>
+	</table>
 </fetch> 
 ```
 
@@ -270,20 +273,20 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_octag">
-		<link-entity name="msdyn_msdyn_cannedmessage_msdyn_octag" from="msdyn_octagid" to="msdyn_octagid" visible="false" intersect="true">
-			<link-entity name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
-				<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
+	<table name="msdyn_octag">
+		<link-table name="msdyn_msdyn_cannedmessage_msdyn_octag" from="msdyn_octagid" to="msdyn_octagid" visible="false" intersect="true">
+			<link-table name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
+				<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
 					<filter type="and">
 						<condition attribute="msdyn_liveworkstreamid" operator="in">
 							<value uiname="Test Workstream 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}</value>
 							<value uiname="Test Workstream 2" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44098}</value>
 						</condition>
 					</filter>
-				</link-entity>
-			</link-entity>
-		</link-entity>
-	</entity>
+				</link-table>
+			</link-table>
+		</link-table>
+	</table>
 </fetch> 
 ```
 
@@ -291,13 +294,13 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_oclocalizationdata">
-		<link-entity name="msdyn_ocsystemmessage" from="msdyn_ocsystemmessageid" to="msdyn_systemmessageid" link-type="inner" alias="ab">
+	<table name="msdyn_oclocalizationdata">
+		<link-table name="msdyn_ocsystemmessage" from="msdyn_ocsystemmessageid" to="msdyn_systemmessageid" link-type="inner" alias="ab">
 			<filter type="and">
 				<condition attribute="msdyn_streamsource" operator="eq" value="<CHANNEL_ID>" />
 			</filter>
-		</link-entity>
-	</entity>
+		</link-table>
+	</table>
 </fetch>		
 ```
 
@@ -305,15 +308,15 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_ocfbapplication">
-		<link-entity name="msdyn_ocfbpage" from="msdyn_ocfbapplicationid" to="msdyn_ocfbapplicationid" link-type="inner" alias="ab">
-			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ac">
+	<table name="msdyn_ocfbapplication">
+		<link-table name="msdyn_ocfbpage" from="msdyn_ocfbapplicationid" to="msdyn_ocfbapplicationid" link-type="inner" alias="ab">
+			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ac">
 				<filter type="and">
 					<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM Facebook Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 				</filter>
-			</link-entity>
-		</link-entity>
-	</entity>
+			</link-table>
+		</link-table>
+	</table>
 </fetch>
 ```
 
@@ -321,13 +324,13 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_ocfbpage">
-		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
+	<table name="msdyn_ocfbpage">
+		<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
 			<filter type="and">
 				<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM Facebook Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 			</filter>
-		</link-entity>
-	</entity>
+		</link-table>
+	</table>
 </fetch>
 ```
 
@@ -335,15 +338,15 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_ocgooglebusinessmessagespartneraccount">
-		<link-entity name="msdyn_ocgooglebusinessmessagesagentaccount" from=" msdyn_ocgooglebusinessmessagespartneraccountid" to="msdyn_ocgbmpartneraccount" link-type="inner" alias="ab">
-			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ac">
+	<table name="msdyn_ocgooglebusinessmessagespartneraccount">
+		<link-table name="msdyn_ocgooglebusinessmessagesagentaccount" from=" msdyn_ocgooglebusinessmessagespartneraccountid" to="msdyn_ocgbmpartneraccount" link-type="inner" alias="ab">
+			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ac">
 				<filter type="and">
 					<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM Google Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 				</filter>
-			</link-entity>
-		</link-entity>
-	</entity>
+			</link-table>
+		</link-table>
+	</table>
 </fetch>
 ```
 
@@ -351,13 +354,13 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_ocgooglebusinessmessagesagentaccount">
-		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
+	<table name="msdyn_ocgooglebusinessmessagesagentaccount">
+		<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
 			<filter type="and">
 				<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM Google Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 			</filter>
-		</link-entity>
-	</entity>
+		</link-table>
+	</table>
 </fetch>
 ```
 
@@ -365,13 +368,13 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_oclinechannelconfig">
-		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
+	<table name="msdyn_oclinechannelconfig">
+		<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
 			<filter type="and">
 				<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM LINE Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 			</filter>
-		</link-entity>
-	</entity>
+		</link-table>
+	</table>
 </fetch>
 ```
 
@@ -379,13 +382,13 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_occustommessagingchannel">
-		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
+	<table name="msdyn_occustommessagingchannel">
+		<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
 			<filter type="and">
 				<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM Custom Channel Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 			</filter>
-		</link-entity>
-	</entity>
+		</link-table>
+	</table>
 </fetch>
 ```
 
@@ -393,13 +396,13 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_octeamschannelconfig">
-		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
+	<table name="msdyn_octeamschannelconfig">
+		<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
 			<filter type="and">
 				<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM Teams Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 			</filter>
-		</link-entity>
-	</entity>
+		</link-table>
+	</table>
 </fetch>
 ```
 
@@ -407,43 +410,43 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<entity name="msdyn_ocbotchannelregistration">
+	<table name="msdyn_ocbotchannelregistration">
 		<filter type="or">
-			<condition attribute="msdyn_liveworkstreamid" entityname="ac" operator="eq" uiname="ALM Custom Channel Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
-			<condition attribute="msdyn_liveworkstreamid" entityname="bd" operator="eq" uiname="ALM Facebook Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
-			<condition attribute="msdyn_liveworkstreamid" entityname="cc" operator="eq" uiname="ALM Google Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
-			<condition attribute="msdyn_liveworkstreamid" entityname="dc" operator="eq" uiname="ALM LINE Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
-			<condition attribute="msdyn_liveworkstreamid" entityname="ec" operator="eq" uiname="ALM Teams Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
+			<condition attribute="msdyn_liveworkstreamid" tablename="ac" operator="eq" uiname="ALM Custom Channel Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
+			<condition attribute="msdyn_liveworkstreamid" tablename="bd" operator="eq" uiname="ALM Facebook Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
+			<condition attribute="msdyn_liveworkstreamid" tablename="cc" operator="eq" uiname="ALM Google Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
+			<condition attribute="msdyn_liveworkstreamid" tablename="dc" operator="eq" uiname="ALM LINE Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
+			<condition attribute="msdyn_liveworkstreamid" tablename="ec" operator="eq" uiname="ALM Teams Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 		</filter>
-		<link-entity name="msdyn_occustommessagingchannel" from="msdyn_custombotchannelregistration" to="msdyn_ocbotchannelregistrationid" link-type="outer" alias="ab">
-			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="ac">
-			</link-entity>
-		</link-entity>
-		<link-entity name="msdyn_ocfbapplication" from="msdyn_ocfbapplicationid" to="msdyn_ocfbapplicationid" link-type="outer" alias="bb">
-			<link-entity name="msdyn_ocfbpage" from="msdyn_ocfbapplicationid" to="msdyn_ocfbapplicationid" link-type="outer" alias="bc">
-				<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="bd">
-				</link-entity>
-			</link-entity>
-		</link-entity>
-		<link-entity name="msdyn_ocgooglebusinessmessagesagentaccount" from="msdyn_ocgbmagentaccount" to="msdyn_ocgooglebusinessmessagesagentaccountid" link-type="outer" alias="cb">
-			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="cc">
-			</link-entity>
-		</link-entity>
-		<link-entity name="msdyn_oclinechannelconfig" from="msdyn_oclinechannelconfigid" to="msdyn_oclinechannelconfigid" link-type="outer" alias="db">
-			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="dc">
-			</link-entity>
-		</link-entity>
-		<link-entity name="msdyn_octeamschannelconfig" from="msdyn_octeamschannelconfigid" to="msdyn_octeamschannelconfigid" link-type="outer" alias="eb">
-			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="ec">
-			</link-entity>
-		</link-entity>
-	</entity>
+		<link-table name="msdyn_occustommessagingchannel" from="msdyn_custombotchannelregistration" to="msdyn_ocbotchannelregistrationid" link-type="outer" alias="ab">
+			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="ac">
+			</link-table>
+		</link-table>
+		<link-table name="msdyn_ocfbapplication" from="msdyn_ocfbapplicationid" to="msdyn_ocfbapplicationid" link-type="outer" alias="bb">
+			<link-table name="msdyn_ocfbpage" from="msdyn_ocfbapplicationid" to="msdyn_ocfbapplicationid" link-type="outer" alias="bc">
+				<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="bd">
+				</link-table>
+			</link-table>
+		</link-table>
+		<link-table name="msdyn_ocgooglebusinessmessagesagentaccount" from="msdyn_ocgbmagentaccount" to="msdyn_ocgooglebusinessmessagesagentaccountid" link-type="outer" alias="cb">
+			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="cc">
+			</link-table>
+		</link-table>
+		<link-table name="msdyn_oclinechannelconfig" from="msdyn_oclinechannelconfigid" to="msdyn_oclinechannelconfigid" link-type="outer" alias="db">
+			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="dc">
+			</link-table>
+		</link-table>
+		<link-table name="msdyn_octeamschannelconfig" from="msdyn_octeamschannelconfigid" to="msdyn_octeamschannelconfigid" link-type="outer" alias="eb">
+			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="ec">
+			</link-table>
+		</link-table>
+	</table>
 </fetch>
 ```
 
 ## Verify your migration
 
-After you import the unified routing-related configuration data successfully from the source to target organization, perform the following steps in the target organization:
+After you import the unified routing-related configuration data successfully from the source to target environment, perform the following steps in the target environment:
 
 1. In the UI, make sure that the unified routing configuration and rulesets are rendered properly and don't display errors.
 
