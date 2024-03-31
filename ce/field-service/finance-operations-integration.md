@@ -147,7 +147,7 @@ Modify the environment to align with the integration scenarios.
 
 ### Prerequisites for the installation
 
-Before installing the solution from Field Service Settings, [install [*Dynamics 365 HR Integration to URS*](/dynamics365/human-resources/hr-admin-integration-hr-rm).
+Before installing the solution from Field Service Settings, [install the Dynamics 365 Human Resources integration with the Universal Resource Scheduling solution](/dynamics365/human-resources/hr-admin-integration-hr-rm).
 
 #### Install and enable the solution
 
