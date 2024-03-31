@@ -11,9 +11,9 @@ ms.custom: bap-template
 
 # Migrate configurations for record routing using solutions
 
-Use solutions and the Configuration Migration tool to migrate the configurations from the source environment to the target environment for record routing.
+Use solutions and the Configuration Migration Tool to migrate the configurations from the source environment to the target environment for record routing.
 
-For information on how to use solutions or the Configuration Migration tool, see [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
+For information on how to use solutions or the Configuration Migration Tool, see [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
 
 ## Prerequisites
 
@@ -45,17 +45,17 @@ You must perform the steps in the order they're listed to migrate your configura
 
 If there is configuration added in your setup in the list below these can be moved using a solution. Add the following components to a solution, export the solution and import it into the target environment:
 
-1. Add the components to a solution and export
-   1. Agent Script (msdyn_productivityagentscripts)
-   1. Agent Script Step (msdyn_productivityagentscriptsteps)
-   1. Application Tab Template (msdyn_applicationtabtemplates)
-   1. Notification Field (msdyn_notificationfields)
-   1. Notification Template (msdyn_notificationtemplates)
-   1. Macro (processes)
-   1. Session Templates (msdyn_sessiontemplates)
-   1. Template Parameter (msdyn_templateparameters)
+1. Add the following components to a solution and export it from the source environment:
+   - Agent Script (msdyn_productivityagentscripts)
+   - Agent Script Step (msdyn_productivityagentscriptsteps)
+   - Application Tab Template (msdyn_applicationtabtemplates)
+   - Notification Field (msdyn_notificationfields)
+   - Notification Template (msdyn_notificationtemplates)
+   - Macro (processes)
+   - Session Templates (msdyn_sessiontemplates)
+   - Template Parameter (msdyn_templateparameters)
 
-1. Import the solution into the target environment
+1. Import the solution into the target environment.
 
 For more information on solutions see [Solutions in Power Apps](/power-apps/maker/data-platform/solutions-overview).
 
@@ -65,13 +65,13 @@ If skill-based routing rulesets are used in your setup, perform the steps to mig
 
 For sample schema to get all the required records, see [Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml).
 
-1. Use the Configuration Migration tool to create the schema and export data from the source environment (organization) for skill-based routing configuration.
+1. Use the Configuration Migration Tool to create the schema and export data from the source environment (organization) for skill-based routing configuration.
   
    - **Entity display name**: When you create the schema, select the tables (entities) in the sequence as mentioned in the table below.
    - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table below. You don't need to select the out-of-the-box system-defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns if necessary.
 
-   > [!IMPORTANT]
-   > You must manually create **bookableresourcecharacteristictype** (Global choice value) in the target environment, if necessary.
+> [!IMPORTANT]
+> For **Characteristic** table, you must manually create **bookableresourcecharacteristictype** Global choice value in the target environment, or use a solution to migrate it from the source environment, if necessary.
 
    |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
    |---------|---------|---------|
@@ -79,11 +79,11 @@ For sample schema to get all the required records, see [Sample schema for skill-
    |Rating Model (ratingmodel)     |<ul><li>Max Rating Value (maxratingvalue)</li><li>Min Rating Value (minratingvalue)</li><li>Name (name)</li><li>Rating Model (ratingmodelid)</li></ul>         |         |
    |Rating Value (ratingvalue)     | <ul><li>Name (name)</li><li>Rating Model (ratingmodel)</li><li>Rating Value (ratingvalueid)</li><li>Value (value)</li></ul> |         |
 
-1. Generate the schema and save it.
+2. Generate the schema and save it.
 
-1. Export the data and generate the compressed (zip) file.
+2. Export the data and generate the compressed (zip) file.
 
-1. Use the Configuration Migration tool and select the option to import data into the target environment using the compressed file.
+2. Use the Configuration Migration Tool and select the option to import data into the target environment using the compressed file.
 
 ## Migrate configuration for new capacity profiles
 
@@ -101,7 +101,7 @@ For sample schema to get all the required records, see [Sample schema for capaci
 
     |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |---------|---------|---------|
-    |Capacity Profile (msdyn_capacityprofile)     | <ul><li>Block Assignment (msdyn_blockassignment)</li><li>Capacity Profile (msdyn_capacityprofileid)</li><li>Default Max Units (msdyn_defaultmaxunits)</li>Name (msdyn_name)</li><li>Reset Duration(msdyn_resetduration)</li><li>Unique Name (msdyn_uniquename)</li></ul> | **Sample 1: For all capacity profile records**<br>`  <fetch>` <br>  `<entity name="msdyn_capacityprofile">` <br>`<filter type="and">`<br>`<condition attribute="ismanaged" operator="eq" value="0" />`<br>`</filter>`<br>`</entity>`<br>  `</fetch>`<br><br> **Sample 2: For a single capacity profile record** <br> `<fetch>` <br>`<entity name="msdyn_capacityprofile">`<br>`<filter type="and">`<br>`<condition attribute="msdyn_capacityprofileid" operator="eq" uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile" value="{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}" />`<br> `</filter>`<br> `</entity>`<br> `</fetch>` <br><br> **Sample 3: For multiple capacity profile records** <br> `<fetch>`<br> `<entity name="msdyn_capacityprofile">`<br> `<filter type="and">` <br> `<condition attribute="msdyn_capacityprofileid" operator="in">`<br>`<value uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile">{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}</value>`<br> `<value uiname="Demo Capacity Profile 2" uitype="msdyn_capacityprofile">{D0B8ABFB-4A9F-0B1F-6FF4-8003E29A623C}</value>`<br>`</condition>`<br>`</filter>`<br>`</entity>`<br>`</fetch>` |
+    |Capacity Profile (msdyn_capacityprofile)     | <ul><li>Block Assignment (msdyn_blockassignment)</li><li>Capacity Profile (msdyn_capacityprofileid)</li><li>Default Max Units (msdyn_defaultmaxunits)</li>Name (msdyn_name)</li><li>Reset Duration(msdyn_resetduration)</li><li>Unique Name (msdyn_uniquename)</li></ul> | **Sample 1: For all capacity profile records**<br>`<fetch>` <br>  `  <entity name="msdyn_capacityprofile">` <br>`    <filter type="and">`<br>`      <condition attribute="ismanaged" operator="eq" value="0" />`<br>`    </filter>`<br>`  </entity>`<br>  `</fetch>`<br><br> **Sample 2: For a single capacity profile record** <br> `<fetch>` <br>`  <entity name="msdyn_capacityprofile">`<br>`    <filter type="and">`<br>`      <condition attribute="msdyn_capacityprofileid" operator="eq" uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile" value="{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}" />`<br> `    </filter>`<br> `  </entity>`<br> `</fetch>` <br><br> **Sample 3: For multiple capacity profile records** <br> `<fetch>`<br> `  <entity name="msdyn_capacityprofile">`<br> `    <filter type="and">` <br> `      <condition attribute="msdyn_capacityprofileid" operator="in">`<br>`        <value uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile">{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}</value>`<br> `        <value uiname="Demo Capacity Profile 2" uitype="msdyn_capacityprofile">{D0B8ABFB-4A9F-0B1F-6FF4-8003E29A623C}</value>`<br>`      </condition>`<br>`    </filter>`<br>`  </entity>`<br>`</fetch>` |
 
 2. Generate the schema and save it.
 
@@ -122,7 +122,7 @@ If you're using the out-of-the-box assignment methods for queues, such as highes
    - Assignment configuration
    - Assignment configuration step
 
-The assignment rulesets must be available in the system before the Configuration Migration tool imports the selection criteria. Hence, you need to perform the following steps in the specified order to migrate configuration for record queues:
+The assignment rulesets must be available in the system before the Configuration Migration Tool imports the selection criteria. Hence, you need to perform the following steps in the specified order to migrate configuration for record queues:
 
 > [!IMPORTANT]
 >
@@ -186,7 +186,7 @@ Perform the following steps to export and import the rulesets:
 
 4. Package the extracted content again.
 
-5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
+5. Use the Configuration Migration Tool, select the option to import data, and then select the compressed file.
 
 > [!NOTE]
 > Set the Calendar Item associated with the Operating Hour table correctly after you import the Operating Hour table into the target environment.
@@ -224,7 +224,7 @@ Perform the following steps to export and import the rulesets:
 
 4. Package the extracted content again.
 
-5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
+5. Use the Configuration Migration Tool, select the option to import data, and then select the compressed file.
 
 For sample schema to get all the required records, see [Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml).
 
