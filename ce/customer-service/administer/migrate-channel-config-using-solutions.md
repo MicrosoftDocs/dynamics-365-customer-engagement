@@ -26,8 +26,8 @@ The following prerequisites must be met:
   - Read privilege on all tables migrated from the source environment using Configuration Migration Tool
   - Full privileges on all tables migrated to the destination environment using Configuration Migration Tool 
 - In the source environment, if any table or column refers to the following, then ensure that they exist in the target environment before you proceed with the migration:
-  - Custom entities
-  - Columns (fields/attributes)
+  - Custom tables (entities)
+  - Columns (attributes)
   - Relationships
   - Choices (option sets)
   - Lookup values
@@ -100,11 +100,11 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
   > - Please carefully review solution components before exporting solution. Take note of records that contain information regarding Azure Communication Services or third-party channels or other Microsoft components like Copilot Studio copilots or Customer Voice surveys, so you make required configurations in the destination environment.
   > - If one or more work streams share the same Capacity Profile, when adding tables from one channel/workstream, tables from other channels/workstreams sharing the same Capacity Profile will also be added to the solution.
 
-4. Use the Configuration Migration tool to create the schema and migrate the remaining configuration data from the source environment for workstreams and channels.
+4. Use the Configuration Migration Tool to create the schema and migrate the remaining configuration data from the source environment (organization) for workstreams and channels.
 
    - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the table below.
-   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the following table. You don't need to select the out-of-the-box system defined attributes like Created By, Created On, Modified By, Modified On, and Owner. You can select custom columns, if necessary.
-   - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table below to get single, multiple, or all rows based on your requirement. For single or multiple rows, you need to use source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
+   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table below. You don't need to select the out-of-the-box system defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owne**r. You can select custom columns, if necessary.
+   - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table below to get single, multiple, or all records based on your requirement. For single or multiple rows, you need to use source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
    - **Configure import settings**: For the Work Stream table, ensure that you only add the key columns and select the **Do not update existing records** checkbox to prevent updates to records in a table migrated through solutions.
 
   > [!IMPORTANT]
@@ -113,7 +113,7 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
    |S.No.|Channel(s)|Entity display name (Logical name)|Attribute display name (Logical name)|Use FetchXML to filter records|
    |-----|--------|---------|---------|-------|
    |1.|All channels|Workstream (msdyn_liveworkstream)|<ul><li>Channel (msdyn_streamsource)</li><li>Mode (msdyn_mode)</li><li>Name (msdyn_name)</li><li>Work Stream (msdyn_liveworkstreamid)</li></ul>|[**Sample 1: All workstreams of a channel**](#WS1All)<br><br>[**Sample 2: Single workstream**](#WS2Simple)<br><br>[**Sample 3: Multiple workstreams**](#WS3Multiple)|
-   |2.|All messaging channels|Quick Reply (msdyn_cannedmessage)|<ul><li>Locale (msdyn_locale_column)</li><li>Message (msdyn_message)</li><li>Quick reply (msdyn_cannedmessageid)</li><li>TagsControlField (msdyn_tagscontrolfield)</li><li>Title (msdyn_title)</li></ul>|[**Sample 1: All workstreams of a channel**](#QR1All)<br><br>[**Sample 2: Single workstream**](#QR2Simple)<br><br>[**Sample 3: Multiple workstreams**](#QR3Multiple)|
+   |2.|All messaging channels|Quick Reply (msdyn_cannedmessage)|<ul><li>Locale (msdyn_locale_field)</li><li>Message (msdyn_message)</li><li>Quick reply (msdyn_cannedmessageid)</li><li>TagsControlField (msdyn_tagscontrolfield)</li><li>Title (msdyn_title)</li></ul>|[**Sample 1: All workstreams of a channel**](#QR1All)<br><br>[**Sample 2: Single workstream**](#QR2Simple)<br><br>[**Sample 3: Multiple workstreams**](#QR3Multiple)|
    |3.|All messaging channels|Tag (msdyn_octag)|<ul><li>Name (msdyn_name)</li><li>Tag (msdyn_octagid)</li></ul>|[**Sample 1: All workstreams of a channel**](#Tag1All)<br><br>[**Sample 2: Single workstream**](#Tag2Simple)<br><br>[**Sample 3: Multiple workstreams**](#Tag3Multiple)|
    |4.|All channels|Message (msdyn_ocsystemmessage)|<ul><li>Channel (msdyn_streamsource)</li><li>Default language (msdyn_defaultlanguage)</li><li>Instance ID (msdyn_instanceid)</li><li>Message (msdyn_ocsystemmessageid)</li><li>Message description (msdyn_messagedescription)</li><li>Message recipient (msdyn_messagereceiver)</li><li>Message template trigger (msdyn_messagetemplatetrigger)</li><li>Message Text (msdyn_messagetext)</li><li>Message trigger (msdyn_systemmessageeventtype)</li><li>Message type (msdyn_messagetype)</li><li>Name (msdyn_name)</li><li> Widget (msdyn_widgetid) </li></ul>||
    |5.|All channels|Localization (msdyn_oclocalizationdata)|<ul><li>Automated message (msdyn_systemmessageid)</li><li>Default Localized Text (msdyn_defaultlocalizedtext)</li><li>Entity Column Name (msdyn_entitycolumnname)</li><li>Entity Name (msdyn_entityname)</li><li>Entity Record ID (msdyn_entityrecordid)</li><li>Is default (msdyn_isdefault)</li><li>Language code (msdyn_customerlanguageid)</li><li>Language Code (msdyn_languagecode)</li><li>Localization (msdyn_oclocalizationdataid)</li><li>Localized text (msdyn_localizedtext)</li></ul>|[**FetchXML to filter records for channel localizations**](#CLAll)|
@@ -136,12 +136,12 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_liveworkstream">
+	<entity name="msdyn_liveworkstream">
 		<filter type="and">
 			<condition attribute="msdyn_mode" operator="eq" value="717210001" />
 			<condition attribute="msdyn_streamsource" operator="eq" value="<CHANNEL_ID>" />
 		</filter>
-	</table>
+	</entity>
 </fetch> 
 ```
 >[!TIP]
@@ -152,11 +152,11 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_liveworkstream">
+	<entity name="msdyn_liveworkstream">
 		<filter type="and">
 			<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="Test workstream 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}" />
 		</filter>
-	</table>
+	</entity>
 </fetch> 
 ```
 
@@ -164,14 +164,14 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_liveworkstream">
+	<entity name="msdyn_liveworkstream">
 		<filter type="and">
 			<condition attribute="msdyn_liveworkstreamid" operator="in">
 				<value uiname="Test workstream 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}</value>
 				<value uiname="Test workstream 2" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44098}</value>
 			</condition>
 		</filter>
-	</table>
+	</entity>
 </fetch> 
 ```
 
@@ -181,16 +181,16 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_cannedmessage">
-		<link-table name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
-			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
+	<entity name="msdyn_cannedmessage">
+		<link-entity name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
+			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
 				<filter type="and">
 					<condition attribute="msdyn_mode" operator="eq" value="717210001" />
 					<condition attribute="msdyn_streamsource" operator="eq" value="<CHANNEL_ID>" />
 				</filter>
-			</link-table>
-		</link-table>
-	</table>
+			</link-entity>
+		</link-entity>
+	</entity>
 </fetch> 
 ```
 
@@ -198,16 +198,16 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_cannedmessage">
-		<link-table name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
-			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
+	<entity name="msdyn_cannedmessage">
+		<link-entity name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
+			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
 				<filter type="and">
 					<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname=" workstream 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}" />
 />
 				</filter>
-			</link-table>
-		</link-table>
-	</table>
+			</link-entity>
+		</link-entity>
+	</entity>
 </fetch> 
 ```
 
@@ -215,18 +215,18 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_cannedmessage">
-		<link-table name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
-			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
+	<entity name="msdyn_cannedmessage">
+		<link-entity name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
+			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
 				<filter type="and">
 					<condition attribute="msdyn_liveworkstreamid" operator="in">
 						<value uiname="Test Workstream 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}</value>
 						<value uiname="Test Workstream 2" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44098}</value>
 					</condition>
 				</filter>
-			</link-table>
-		</link-table>
-	</table>
+			</link-entity>
+		</link-entity>
+	</entity>
 </fetch> 
 ```
 
@@ -236,18 +236,18 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_octag">
-		<link-table name="msdyn_msdyn_cannedmessage_msdyn_octag" from="msdyn_octagid" to="msdyn_octagid" visible="false" intersect="true">
-			<link-table name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
-				<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
+	<entity name="msdyn_octag">
+		<link-entity name="msdyn_msdyn_cannedmessage_msdyn_octag" from="msdyn_octagid" to="msdyn_octagid" visible="false" intersect="true">
+			<link-entity name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
+				<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
 					<filter type="and">
 						<condition attribute="msdyn_mode" operator="eq" value="717210001" />
 						<condition attribute="msdyn_streamsource" operator="eq" value="<CHANNEL_ID>" />
 					</filter>
-				</link-table>
-			</link-table>
-		</link-table>
-	</table>
+				</link-entity>
+			</link-entity>
+		</link-entity>
+	</entity>
 </fetch> 
 ```
 
@@ -255,17 +255,17 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_octag">
-		<link-table name="msdyn_msdyn_cannedmessage_msdyn_octag" from="msdyn_octagid" to="msdyn_octagid" visible="false" intersect="true">
-			<link-table name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
-				<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
+	<entity name="msdyn_octag">
+		<link-entity name="msdyn_msdyn_cannedmessage_msdyn_octag" from="msdyn_octagid" to="msdyn_octagid" visible="false" intersect="true">
+			<link-entity name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
+				<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
 					<filter type="and">
 						<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname=" workstream 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}" />
 					</filter>
-				</link-table>
-			</link-table>
-		</link-table>
-	</table>
+				</link-entity>
+			</link-entity>
+		</link-entity>
+	</entity>
 </fetch> 
 ```
 
@@ -273,20 +273,20 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_octag">
-		<link-table name="msdyn_msdyn_cannedmessage_msdyn_octag" from="msdyn_octagid" to="msdyn_octagid" visible="false" intersect="true">
-			<link-table name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
-				<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
+	<entity name="msdyn_octag">
+		<link-entity name="msdyn_msdyn_cannedmessage_msdyn_octag" from="msdyn_octagid" to="msdyn_octagid" visible="false" intersect="true">
+			<link-entity name="msdyn_msdyn_cannedmessage_liveworkstream" from="msdyn_cannedmessageid" to="msdyn_cannedmessageid" visible="false" intersect="true">
+				<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa">
 					<filter type="and">
 						<condition attribute="msdyn_liveworkstreamid" operator="in">
 							<value uiname="Test Workstream 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}</value>
 							<value uiname="Test Workstream 2" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44098}</value>
 						</condition>
 					</filter>
-				</link-table>
-			</link-table>
-		</link-table>
-	</table>
+				</link-entity>
+			</link-entity>
+		</link-entity>
+	</entity>
 </fetch> 
 ```
 
@@ -294,13 +294,13 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_oclocalizationdata">
-		<link-table name="msdyn_ocsystemmessage" from="msdyn_ocsystemmessageid" to="msdyn_systemmessageid" link-type="inner" alias="ab">
+	<entity name="msdyn_oclocalizationdata">
+		<link-entity name="msdyn_ocsystemmessage" from="msdyn_ocsystemmessageid" to="msdyn_systemmessageid" link-type="inner" alias="ab">
 			<filter type="and">
 				<condition attribute="msdyn_streamsource" operator="eq" value="<CHANNEL_ID>" />
 			</filter>
-		</link-table>
-	</table>
+		</link-entity>
+	</entity>
 </fetch>		
 ```
 
@@ -308,15 +308,15 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_ocfbapplication">
-		<link-table name="msdyn_ocfbpage" from="msdyn_ocfbapplicationid" to="msdyn_ocfbapplicationid" link-type="inner" alias="ab">
-			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ac">
+	<entity name="msdyn_ocfbapplication">
+		<link-entity name="msdyn_ocfbpage" from="msdyn_ocfbapplicationid" to="msdyn_ocfbapplicationid" link-type="inner" alias="ab">
+			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ac">
 				<filter type="and">
 					<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM Facebook Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 				</filter>
-			</link-table>
-		</link-table>
-	</table>
+			</link-entity>
+		</link-entity>
+	</entity>
 </fetch>
 ```
 
@@ -324,13 +324,13 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_ocfbpage">
-		<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
+	<entity name="msdyn_ocfbpage">
+		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
 			<filter type="and">
 				<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM Facebook Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 			</filter>
-		</link-table>
-	</table>
+		</link-entity>
+	</entity>
 </fetch>
 ```
 
@@ -338,15 +338,15 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_ocgooglebusinessmessagespartneraccount">
-		<link-table name="msdyn_ocgooglebusinessmessagesagentaccount" from=" msdyn_ocgooglebusinessmessagespartneraccountid" to="msdyn_ocgbmpartneraccount" link-type="inner" alias="ab">
-			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ac">
+	<entity name="msdyn_ocgooglebusinessmessagespartneraccount">
+		<link-entity name="msdyn_ocgooglebusinessmessagesagentaccount" from=" msdyn_ocgooglebusinessmessagespartneraccountid" to="msdyn_ocgbmpartneraccount" link-type="inner" alias="ab">
+			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ac">
 				<filter type="and">
 					<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM Google Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 				</filter>
-			</link-table>
-		</link-table>
-	</table>
+			</link-entity>
+		</link-entity>
+	</entity>
 </fetch>
 ```
 
@@ -354,13 +354,13 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_ocgooglebusinessmessagesagentaccount">
-		<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
+	<entity name="msdyn_ocgooglebusinessmessagesagentaccount">
+		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
 			<filter type="and">
 				<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM Google Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 			</filter>
-		</link-table>
-	</table>
+		</link-entity>
+	</entity>
 </fetch>
 ```
 
@@ -368,13 +368,13 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_oclinechannelconfig">
-		<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
+	<entity name="msdyn_oclinechannelconfig">
+		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
 			<filter type="and">
 				<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM LINE Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 			</filter>
-		</link-table>
-	</table>
+		</link-entity>
+	</entity>
 </fetch>
 ```
 
@@ -382,13 +382,13 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_occustommessagingchannel">
-		<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
+	<entity name="msdyn_occustommessagingchannel">
+		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
 			<filter type="and">
 				<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM Custom Channel Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 			</filter>
-		</link-table>
-	</table>
+		</link-entity>
+	</entity>
 </fetch>
 ```
 
@@ -396,13 +396,13 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_octeamschannelconfig">
-		<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
+	<entity name="msdyn_octeamschannelconfig">
+		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
 			<filter type="and">
 				<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="ALM Teams Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 			</filter>
-		</link-table>
-	</table>
+		</link-entity>
+	</entity>
 </fetch>
 ```
 
@@ -410,37 +410,37 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ```XML
 <fetch>
-	<table name="msdyn_ocbotchannelregistration">
+	<entity name="msdyn_ocbotchannelregistration">
 		<filter type="or">
-			<condition attribute="msdyn_liveworkstreamid" tablename="ac" operator="eq" uiname="ALM Custom Channel Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
-			<condition attribute="msdyn_liveworkstreamid" tablename="bd" operator="eq" uiname="ALM Facebook Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
-			<condition attribute="msdyn_liveworkstreamid" tablename="cc" operator="eq" uiname="ALM Google Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
-			<condition attribute="msdyn_liveworkstreamid" tablename="dc" operator="eq" uiname="ALM LINE Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
-			<condition attribute="msdyn_liveworkstreamid" tablename="ec" operator="eq" uiname="ALM Teams Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
+			<condition attribute="msdyn_liveworkstreamid" entityname="ac" operator="eq" uiname="ALM Custom Channel Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
+			<condition attribute="msdyn_liveworkstreamid" entityname="bd" operator="eq" uiname="ALM Facebook Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
+			<condition attribute="msdyn_liveworkstreamid" entityname="cc" operator="eq" uiname="ALM Google Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
+			<condition attribute="msdyn_liveworkstreamid" entityname="dc" operator="eq" uiname="ALM LINE Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
+			<condition attribute="msdyn_liveworkstreamid" entityname="ec" operator="eq" uiname="ALM Teams Test Workstream" uitype="msdyn_liveworkstream" value="{87bf4384-a02f-4802-8be7-1d6884a7e73f}" />
 		</filter>
-		<link-table name="msdyn_occustommessagingchannel" from="msdyn_custombotchannelregistration" to="msdyn_ocbotchannelregistrationid" link-type="outer" alias="ab">
-			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="ac">
-			</link-table>
-		</link-table>
-		<link-table name="msdyn_ocfbapplication" from="msdyn_ocfbapplicationid" to="msdyn_ocfbapplicationid" link-type="outer" alias="bb">
-			<link-table name="msdyn_ocfbpage" from="msdyn_ocfbapplicationid" to="msdyn_ocfbapplicationid" link-type="outer" alias="bc">
-				<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="bd">
-				</link-table>
-			</link-table>
-		</link-table>
-		<link-table name="msdyn_ocgooglebusinessmessagesagentaccount" from="msdyn_ocgbmagentaccount" to="msdyn_ocgooglebusinessmessagesagentaccountid" link-type="outer" alias="cb">
-			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="cc">
-			</link-table>
-		</link-table>
-		<link-table name="msdyn_oclinechannelconfig" from="msdyn_oclinechannelconfigid" to="msdyn_oclinechannelconfigid" link-type="outer" alias="db">
-			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="dc">
-			</link-table>
-		</link-table>
-		<link-table name="msdyn_octeamschannelconfig" from="msdyn_octeamschannelconfigid" to="msdyn_octeamschannelconfigid" link-type="outer" alias="eb">
-			<link-table name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="ec">
-			</link-table>
-		</link-table>
-	</table>
+		<link-entity name="msdyn_occustommessagingchannel" from="msdyn_custombotchannelregistration" to="msdyn_ocbotchannelregistrationid" link-type="outer" alias="ab">
+			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="ac">
+			</link-entity>
+		</link-entity>
+		<link-entity name="msdyn_ocfbapplication" from="msdyn_ocfbapplicationid" to="msdyn_ocfbapplicationid" link-type="outer" alias="bb">
+			<link-entity name="msdyn_ocfbpage" from="msdyn_ocfbapplicationid" to="msdyn_ocfbapplicationid" link-type="outer" alias="bc">
+				<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="bd">
+				</link-entity>
+			</link-entity>
+		</link-entity>
+		<link-entity name="msdyn_ocgooglebusinessmessagesagentaccount" from="msdyn_ocgbmagentaccount" to="msdyn_ocgooglebusinessmessagesagentaccountid" link-type="outer" alias="cb">
+			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="cc">
+			</link-entity>
+		</link-entity>
+		<link-entity name="msdyn_oclinechannelconfig" from="msdyn_oclinechannelconfigid" to="msdyn_oclinechannelconfigid" link-type="outer" alias="db">
+			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="dc">
+			</link-entity>
+		</link-entity>
+		<link-entity name="msdyn_octeamschannelconfig" from="msdyn_octeamschannelconfigid" to="msdyn_octeamschannelconfigid" link-type="outer" alias="eb">
+			<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="ec">
+			</link-entity>
+		</link-entity>
+	</entity>
 </fetch>
 ```
 
