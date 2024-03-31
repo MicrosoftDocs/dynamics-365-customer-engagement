@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Migrate configurations for record routing using solutions
 
-Use solutions and the Configuration Migration tool to migrate the configurations from the source organization to the target organization for channels.
+Use solutions and the Configuration Migration tool to migrate the configurations from the source environment to the target environment for record routing.
 
 For information on how to use solutions or the Configuration Migration tool, see [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
 
@@ -20,15 +20,15 @@ For information on how to use solutions or the Configuration Migration tool, see
 The following prerequisites must be met:
 
 - Ensure that the user who performs the channel configuration migration has the required privileges below:
-  - Export solutions in the source environment
-  - Import solutions in the destination environment
+  - Export solutions from the source environment
+  - Import solutions to the destination environment
   - Read privilege on all tables migrated from the source environment using Configuration Migration Tool
   - Full privileges on all tables migrated to the destination environment using Configuration Migration Tool 
-- In the source environment, if a ruleset refers to the following, then ensure that they exist in the target organization before you proceed with the migration:
-  - Custom entities
-  - Attributes
+- In the source environment, if any table or column refers to the following, then ensure that they exist in the target environment before you proceed with the migration:
+  - Custom tables (entities)
+  - Columns (attributes)
   - Relationships
-  - Option sets
+  - Choices (option sets)
   - Lookup values
 
 ## Record routing configuration migration steps
@@ -65,13 +65,13 @@ If skill-based routing rulesets are used in your setup, perform the steps to mig
 
 For sample schema to get all the required records, see [Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml).
 
-1. Use the Configuration Migration tool to create the schema and export data from the source organization for skill-based routing configuration.
+1. Use the Configuration Migration tool to create the schema and export data from the source environment (organization) for skill-based routing configuration.
   
-   - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
-   - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes like Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if necessary.
+   - **Entity display name**: When you create the schema, select the tables (entities) in the sequence as mentioned in the table below.
+   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table below. You don't need to select the out-of-the-box system-defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns if necessary.
 
    > [!IMPORTANT]
-   > You must manually create bookableresourcecharacteristictype (Global option set value) in the target organization, if necessary.
+   > You must manually create **bookableresourcecharacteristictype** (Global choice value) in the target environment, if necessary.
 
    |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
    |---------|---------|---------|
@@ -83,7 +83,7 @@ For sample schema to get all the required records, see [Sample schema for skill-
 
 1. Export the data and generate the compressed (zip) file.
 
-1. Use the Configuration Migration tool and select the option to import data into the target organization using the compressed file.
+1. Use the Configuration Migration tool and select the option to import data into the target environment using the compressed file.
 
 ## Migrate configuration for new capacity profiles
 
@@ -94,10 +94,10 @@ For sample schema to get all the required records, see [Sample schema for capaci
 > [!TIP]
 > Once a new capacity profile is migrated using Configuration Migration Tool, updates can be migrated using solutions.
 
-1. Use the Configuration Migration tool to create the schema and export data in source organization for capacity profiles configuration.
-   - **Entity display name**: When you create the schema, select the entities in the same sequence as mentioned in the table.
-   - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes like Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes, if necessary.
-   - **Use FetchXML to filter records**: For each entity, use the appropriate FetchXML query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
+1. Use the Configuration Migration Tool to create the schema and export data in source environment for capacity profiles configuration.
+   - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the table below.
+   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table below. You don't need to select the out-of-the-box system defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owne**r. You can select custom columns, if necessary.
+   - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table below to get single, multiple, or all records based on your requirement. For single or multiple rows, you need to use source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
 
     |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |---------|---------|---------|
@@ -107,15 +107,15 @@ For sample schema to get all the required records, see [Sample schema for capaci
 
 3. Export the data and generate the compressed (zip) file.
 
-4. Use the Configuration Migration tool, and select the option to import data into the target organization.
+4. Use the Configuration Migration Tool, and select the option to import data into the target environment.
 
 ## Migrate configuration for queues
 
-1. Use the Configuration Migration tool to create the schema and export data from the source organization for the queues configuration.
-   - **Entity display name**: When you create the schema, select the entities in the same sequence as mentioned in the table.
-   - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes like Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes, if necessary.
-   - **Use FetchXML to filter records**: For each entity, use the appropriate FetchXML query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
-   - Configure import settings: For the **Decision contract** entity, ensure that you select the **Do not update existing records** checkbox.
+1. Use the Configuration Migration Tool to create the schema and export data from the source environment for the queues configuration.
+   - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the table below.
+   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table below. You don't need to select the out-of-the-box system defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owne**r. You can select custom columns, if necessary.
+   - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table below to get single, multiple, or all records based on your requirement. For single or multiple rows, you need to use source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
+   - Configure import settings: For the **Decision contract** table, ensure that you select the **Do not update existing records** checkbox.
 
 If you're using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities:
    - Decision rule set
@@ -127,8 +127,8 @@ The assignment rulesets must be available in the system before the Configuration
 > [!IMPORTANT]
 >
 > - For every import of queue records, you must either create new queue records or update existing queue records. You must not mix the actions in the same data import.
-> - When all records in the data.xml of queue entity are for creation, ensure that the following line is present in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>` and correspondingly data will also have the field for msdyn_queuetype.
-> - When all records in the data.xml of queue entity are for update, ensure that you remove the following line in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>` and correspondingly data will also not have that field for msdyn_queuetype.
+> - When all records in the data.xml of queue table are for creation, ensure that the following line is present in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>` and correspondingly data will also have the field for msdyn_queuetype.
+> - When all records in the data.xml of queue table are for update, ensure that you remove the following line in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>` and correspondingly data will also not have that field for msdyn_queuetype.
 > - When the queue that you want to migrate has an overflow condition set, then you must export and import the decision ruleset first. The migration sequence should look as follows:
 >   - Decision contract
 >   - Decision ruleset
@@ -137,7 +137,7 @@ The assignment rulesets must be available in the system before the Configuration
 >   - Assignment Configuration Step without selection criteria
 >   - Operating Hour
 >   - Overflow Action
-> - You can't migrate the Calendar item associated with the Operating Hour entity. You'll need to set it correctly after you import the Operating Hour entity into the target environment.
+> - You can't migrate the Calendar item associated with the Operating Hour table. You'll need to set it correctly after you import the Operating Hour table into the target environment.
 
 ### Step 1: Export and import rulesets without selection criteria
 
@@ -151,7 +151,7 @@ The following table summarizes the entities and corresponding FetchXML samples.
 | 4. |  Assignment Configuration (msdyn_assignmentconfiguration)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Description (msdyn_description)</li><li>Is Active Configuration (msdyn_isactiveconfiguration)</li><li>Name (msdyn_name)</li><li>Queue (msdyn_queueid)</li><li>Unique Name (msdyn_uniquename)</li></ul>  | [**Sample 1: Assignment configuration for all record queues**](#BKMK1all-ur-ac) <br> <br>[**Sample 2: Assignment configuration for a single record queue**](#BKMK2single-ur-ac) <br> <br>[**Sample 3: Assignment configuration for multiple record queues**](#BKMK3multiple-ur-ac) <br>   |
 | 5. |  Assignment Configuration Step without selection criteria (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Assignment configuration step for all record queues without selection criteria defined**](#BKMK1nsc-ur-acs) <br> <br> [**Sample 2: Assignment configuration step for a single record queue without selection criteria defined**](#BKMK2nsc-ur-acs) <br> <br> [**Sample 3: Assignment configuration step for multiple record queues without selection criteria defined**](#BKMK3nsc-ur-acs) <br>   |
 |6.|Operating Hour (msdyn_operatinghour)|<ul><li>Description (msdyn_description)</li><li>Name (msdyn_name)</li><li>Operating Hour (msdyn_operatinghourid)</li><li>Status (statecode)</li><li>Status Reason (statuscode)</li></ul>|[**Sample 1: Operating Hours for all record queues**](#BKMK1-oh)<br><br>[**Sample 2: Operating Hours for a single record queue**](#BKMK2-oh) <br><br>[**Sample 3: Operating Hours for multiple record queues**](#BKMK3-oh) |
-|7.|Overflow Action Config(msdyn_overflowactionconfig)|<ul><li> Name (msdyn_name)</li><li>Overflow Action Config (msdyn_overflowactionconfigid)</li><li>Overflow Action Data (msdyn_overflowactiondata)</li><li>Overflow Action Type(msdyn_overflowactiontype)</li><li>Status (statecode)</li><li>Status Reason (statuscode)</li></ul>|[**Sample 1: Overflow Action Config filtered to specific records**](#BKMK1-ov)|
+|7.|Overflow Action Config (msdyn_overflowactionconfig)|<ul><li> Name (msdyn_name)</li><li>Overflow Action Config (msdyn_overflowactionconfigid)</li><li>Overflow Action Data (msdyn_overflowactiondata)</li><li>Overflow Action Type(msdyn_overflowactiontype)</li><li>Status (statecode)</li><li>Status Reason (statuscode)</li></ul>|[**FetchXML for overflow action configurations**](#BKMK1-ov)|
 
 Perform the following steps to export and import the rulesets:
 
@@ -161,35 +161,35 @@ Perform the following steps to export and import the rulesets:
 
 3. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
 
-   - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+   - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_assignmentoutput'`
 
-     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.
 
-   - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+   - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_selectionruleoutput'`
 
-     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.
    
-   - In the source and target organizations, run the following OData API call and note the GUID of msdyn_decisioncontractid.
+   - In the source and target environments, run the following OData API call and note the GUID of msdyn_decisioncontractid.
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetinput'`
 
-     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.
 
-   - In the source and target organizations, run the following OData API call and note the GUID of msdyn_decisioncontractid.
+   - In the source and target environment, run the following OData API call and note the GUID of msdyn_decisioncontractid.
       
     `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetoutput'`
     
-     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.  
+     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.  
 
 4. Package the extracted content again.
 
 5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
 > [!NOTE]
-> Set the Calendar Item associated with the Operating Hour entity correctly after you import the Operating Hour entity into the target environment.
+> Set the Calendar Item associated with the Operating Hour table correctly after you import the Operating Hour table into the target environment.
 
 For sample schema to get all the required records, see [Sample schema for record queues step 1](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%201.xml).
 
@@ -210,17 +210,17 @@ Perform the following steps to export and import the rulesets:
 
 3. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
 
-   - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+   - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_assignmentoutput'`
 
-     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.
 
-   - In the source and target organizations, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
+   - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_selectionruleoutput'`
 
-     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source environment with the msdyn_decisioncontractid GUID of the target environment.
 
 4. Package the extracted content again.
 
@@ -228,10 +228,9 @@ Perform the following steps to export and import the rulesets:
 
 For sample schema to get all the required records, see [Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml).
 
-
 ### FetchXML for queues
 
-**Sample 1: All queues for records**<a name="BKMK1all-ur-qs"></a>
+**Sample 1: All queues**<a name="BKMK1all-ur-qs"></a>
 
 ```XML
 <fetch> 
@@ -245,36 +244,36 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch>
 ```
 
-**Sample 2: Single queue for records**<a name="BKMK2single-ur-qs"></a>
+**Sample 2: Single queue**<a name="BKMK2single-ur-qs"></a>
 
 ```XML
 <fetch> 
    <entity name="queue"> 
     <filter type="and"> 
-      <condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" /> 
+      <condition attribute="queueid" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" /> 
     </filter> 
    </entity> 
 </fetch>
 ```
 
-**Sample 3: Multiple queues for records**<a name="BKMK3multiple-ur-qs"></a>
+**Sample 3: Multiple queues**<a name="BKMK3multiple-ur-qs"></a>
 
 ```XML
 <fetch> 
    <entity name="queue"> 
     <filter type="and"> 
      <condition attribute="queueid" operator="in"> 
-      <value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value> 
-      <value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value> 
+      <value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value> 
+      <value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value> 
      </condition> 
     </filter> 
    </entity> 
 </fetch> 
 ```
 
-### FetchXML for decision contract entity
+### FetchXML for decision contracts
 
-**Sample 1: Decision contract for all record queues**<a name="BKMK1all-ur-dc"></a>
+**Sample 1: Decision contracts for all queues**<a name="BKMK1all-ur-dc"></a>
 
 ```XML
 <fetch distinct="true">
@@ -315,20 +314,20 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch>  
 ```
 
-**Sample 2: Decision contract for a single record queue**<a name="BKMK2single-ur-dc"></a>
+**Sample 2: Decision contracts for a single queue**<a name="BKMK2single-ur-dc"></a>
 
 ```XML
 <fetch distinct="true">
 	<entity name="msdyn_decisioncontract">
 		<filter type="or">
 			<filter type="and">
-				<condition attribute="queueid" entityname="aw" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+				<condition attribute="queueid" entityname="aw" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
 			</filter>
 			<filter type="and">
-				<condition attribute="queueid" entityname="be" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+				<condition attribute="queueid" entityname="be" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
 			</filter>
 			<filter type="and">
-				<condition attribute="queueid" entityname="bm" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+				<condition attribute="queueid" entityname="bm" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
 			</filter>
 		</filter>
 		<link-entity name="queue" from="msdyn_assignmentinputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="aw"></link-entity>
@@ -350,7 +349,7 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch> 
 ```
 
-**Sample 3: Decision contract for multiple record queues**<a name="BKMK3multiple-ur-dc"></a>
+**Sample 3: Decision contracts for multiple queues**<a name="BKMK3multiple-ur-dc"></a>
 
 ```XML
 <fetch distinct="true">
@@ -358,20 +357,20 @@ For sample schema to get all the required records, see [Sample schema for record
 		<filter type="or">
 			<filter type="and">
 				<condition attribute="queueid" entityname="aw" operator="in">
-					<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
-					<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+					<value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+					<value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
 				</condition>
 			</filter>
 			<filter type="and">
 				<condition attribute="queueid" entityname="be" operator="in">
-					<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
-					<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+					<value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+					<value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
 				</condition>
 			</filter>
 			<filter type="and">
 				<condition attribute="queueid" entityname="bm" operator="in">
-					<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
-					<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+					<value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+					<value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
 				</condition>
 			</filter>
 		</filter>
@@ -394,9 +393,9 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch> 
 ```
 
-### FetchXML for decision ruleset entity for queues
+### FetchXML for decision rulesets for queues
 
-**Sample 1: Decision ruleset for all record queues without selection criteria**<a name="BKMK1nsc-ur-rls"></a>
+**Sample 1: Decision rulesets for all queues without selection criteria**<a name="BKMK1nsc-ur-rls"></a>
 
 ```XML
 		<fetch distinct="true">
@@ -419,7 +418,7 @@ For sample schema to get all the required records, see [Sample schema for record
 		</fetch>
 ```
 
-**Sample 2: Decision ruleset for a single record queue without selection criteria**<a name="BKMK2nsc-ur-rls"></a>
+**Sample 2: Decision rulesets for a single queue without selection criteria**<a name="BKMK2nsc-ur-rls"></a>
 
 ```XML
 		<fetch distinct="true">
@@ -431,7 +430,7 @@ For sample schema to get all the required records, see [Sample schema for record
 					<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
 						<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
 							<filter type="and">
-								<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+								<condition attribute="queueid" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
 							</filter>
 						</link-entity>
 					</link-entity>
@@ -440,7 +439,7 @@ For sample schema to get all the required records, see [Sample schema for record
 		</fetch>
 ```
 
-**Sample 3: Decision ruleset for multiple record queues without selection criteria**<a name="BKMK3nsc-ur-rls"></a>
+**Sample 3: Decision rulesets for multiple queues without selection criteria**<a name="BKMK3nsc-ur-rls"></a>
 
 ```XML
 		<fetch distinct="true">
@@ -453,8 +452,8 @@ For sample schema to get all the required records, see [Sample schema for record
 						<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
 							<filter type="and">
 								<condition attribute="queueid" operator="in">
-									<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
-									<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+									<value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+									<value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
 								</condition>
 							</filter>
 						</link-entity>
@@ -464,9 +463,9 @@ For sample schema to get all the required records, see [Sample schema for record
 		</fetch>
 ```
 
-### FetchXML for assignment configuration entity
+### FetchXML for assignment configurations
 
-**Sample 1: Assignment configuration for all record queues**<a name="BKMK1all-ur-ac"></a>
+**Sample 1: Assignment configurations for all queues**<a name="BKMK1all-ur-ac"></a>
 
 ```XML
 <fetch>
@@ -482,21 +481,21 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch> 
 ```
 
-**Sample 2: Assignment configuration for a single record queue**<a name="BKMK2single-ur-ac"></a>
+**Sample 2: Assignment configurations for a single queue**<a name="BKMK2single-ur-ac"></a>
 
 ```XML
 <fetch>
 	<entity name="msdyn_assignmentconfiguration">
 		<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="bi">
 			<filter type="and">
-				<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+				<condition attribute="queueid" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
 			</filter>
 		</link-entity>
 	</entity>
 </fetch> 
 ```
 
-**Sample 3: Assignment configuration for multiple record queues**<a name="BKMK3multiple-ur-ac"></a>
+**Sample 3: Assignment configurations for multiple queues**<a name="BKMK3multiple-ur-ac"></a>
 
 ```XML
 <fetch>
@@ -504,8 +503,8 @@ For sample schema to get all the required records, see [Sample schema for record
 		<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="bi">
 			<filter type="and">
 				<condition attribute="queueid" operator="in">
-					<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
-					<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+					<value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+					<value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
 				</condition>
 			</filter>
 		</link-entity>
@@ -513,9 +512,9 @@ For sample schema to get all the required records, see [Sample schema for record
 </fetch> 
 ```
 
-### FetchXML for assignment configuration step entity
+### FetchXML for assignment configuration steps
 
-**Sample 1: Assignment configuration step for all record queues without selection criteria**<a name="BKMK1nsc-ur-acs"></a>
+**Sample 1: Assignment configuration steps for all queues without selection criteria**<a name="BKMK1nsc-ur-acs"></a>
 
 ```XML
 		<fetch>
@@ -536,7 +535,7 @@ For sample schema to get all the required records, see [Sample schema for record
 		</fetch>
 ```
 
-**Sample 2: Assignment configuration step for a single record queue without selection criteria**<a name="BKMK2nsc-ur-acs"></a>
+**Sample 2: Assignment configuration steps for a single queue without selection criteria**<a name="BKMK2nsc-ur-acs"></a>
 
 ```XML
 		<fetch>
@@ -547,7 +546,7 @@ For sample schema to get all the required records, see [Sample schema for record
 				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
 					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
 						<filter type="and">
-							<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+							<condition attribute="queueid" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
 						</filter>
 					</link-entity>
 				</link-entity>
@@ -555,7 +554,7 @@ For sample schema to get all the required records, see [Sample schema for record
 		</fetch>
 ```
 
-**Sample 3: Assignment configuration step for multiple record queues without selection criteria**<a name="BKMK3nsc-ur-acs"></a>
+**Sample 3: Assignment configuration steps for multiple queues without selection criteria**<a name="BKMK3nsc-ur-acs"></a>
 
 ```XML
 		<fetch>
@@ -567,8 +566,8 @@ For sample schema to get all the required records, see [Sample schema for record
 					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
 						<filter type="and">
 							<condition attribute="queueid" operator="in">
-								<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
-								<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+								<value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+								<value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
 							</condition>
 						</filter>
 					</link-entity>
@@ -577,9 +576,9 @@ For sample schema to get all the required records, see [Sample schema for record
 ```
 
 
-### FetchXML for decision ruleset entity for queues
+### FetchXML for decision rulesets for queues
 
-**Sample 1: Decision ruleset for all record queues with selection criteria**<a name="BKMK1sc-ur-rls"></a>
+**Sample 1: Decision rulesets for all queues with selection criteria**<a name="BKMK1sc-ur-rls"></a>
 ```XML
 		<fetch distinct="true">
 			<entity name="msdyn_decisionruleset">
@@ -601,7 +600,7 @@ For sample schema to get all the required records, see [Sample schema for record
 		</fetch>
 ```
 
-**Sample 2: Decision ruleset for a single record queue with selection criteria**<a name="BKMK2sc-ur-rls"></a>
+**Sample 2: Decision rulesets for a single queue with selection criteria**<a name="BKMK2sc-ur-rls"></a>
 
 ```XML
 		<fetch distinct="true">
@@ -613,7 +612,7 @@ For sample schema to get all the required records, see [Sample schema for record
 					<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
 						<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
 							<filter type="and">
-								<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+								<condition attribute="queueid" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
 							</filter>
 						</link-entity>
 					</link-entity>
@@ -622,7 +621,7 @@ For sample schema to get all the required records, see [Sample schema for record
 		</fetch>
 ```
 
-**Sample 3: Decision ruleset for multiple record queues with selection criteria**<a name="BKMK3sc-ur-rls"></a>
+**Sample 3: Decision rulesets for multiple queues with selection criteria**<a name="BKMK3sc-ur-rls"></a>
 
 ```XML
 		<fetch distinct="true">
@@ -635,8 +634,8 @@ For sample schema to get all the required records, see [Sample schema for record
 						<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
 							<filter type="and">
 								<condition attribute="queueid" operator="in">
-									<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
-									<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+									<value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+									<value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
 								</condition>
 							</filter>
 						</link-entity>
@@ -646,9 +645,9 @@ For sample schema to get all the required records, see [Sample schema for record
 		</fetch>
 ```
 
-### FetchXML for assignment configuration step entity
+### FetchXML for assignment configuration steps
 
-**Sample 1: Assignment configuration step for all record queues with selection criteria**<a name="BKMK1sc-ur-acs"></a>
+**Sample 1: Assignment configuration steps for all queues with selection criteria**<a name="BKMK1sc-ur-acs"></a>
 
 ```XML
 		<fetch>
@@ -669,7 +668,7 @@ For sample schema to get all the required records, see [Sample schema for record
 		</fetch>
 ```
 
-**Sample 2: Assignment configuration step for a single record queue with selection criteria**<a name="BKMK2sc-ur-acs"></a>
+**Sample 2: Assignment configuration steps for a single queue with selection criteria**<a name="BKMK2sc-ur-acs"></a>
 
 ```XML
 		<fetch>
@@ -680,7 +679,7 @@ For sample schema to get all the required records, see [Sample schema for record
 				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
 					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
 						<filter type="and">
-							<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+							<condition attribute="queueid" operator="eq" uiname="Test Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
 						</filter>
 					</link-entity>
 				</link-entity>
@@ -688,7 +687,7 @@ For sample schema to get all the required records, see [Sample schema for record
 		</fetch>
 ```
 
-**Sample 3: Assignment configuration step for multiple record queues with selection criteria**<a name="BKMK3sc-ur-acs"></a>
+**Sample 3: Assignment configuration steps for multiple queues with selection criteria**<a name="BKMK3sc-ur-acs"></a>
 
 ```XML
 		<fetch>
@@ -700,8 +699,8 @@ For sample schema to get all the required records, see [Sample schema for record
 					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
 						<filter type="and">
 							<condition attribute="queueid" operator="in">
-								<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
-								<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+								<value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+								<value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
 							</condition>
 						</filter>
 					</link-entity>
@@ -710,9 +709,9 @@ For sample schema to get all the required records, see [Sample schema for record
 		</fetch>
 ```
 
-### FetchXML for operating hour configuration step entity
+### FetchXML for operating hours
 
-**Sample 1: Operating Hour configuration step for all record queues**<a name="BKMK1-oh"></a>
+**Sample 1: Operating hours for all queues**<a name="BKMK1-oh"></a>
 
 ```xml
 XMLCopy
@@ -729,7 +728,7 @@ XMLCopy
         </fetch>
 ```
 
-**Sample 2: Operating Hour configuration step for a single record queue**<a name="BKMK2-oh"></a>
+**Sample 2: Operating hours for a single queue**<a name="BKMK2-oh"></a>
 
 ```xml
 XMLCopy
@@ -738,7 +737,7 @@ XMLCopy
                 <link-entity name="queue" from="msdyn_operatinghourid" to="msdyn_operatinghourid" link-type="inner" alias="ab">
                 <filter type="and">
                     <condition attribute="queueid" operator="in">
-                        <value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value> 
+                        <value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value> 
                     </condition>
                 </filter>
                 </link-entity>
@@ -746,7 +745,7 @@ XMLCopy
         </fetch>
 ```
 
-**Sample 3: Operating Hour configuration step for multiple record queues**<a name="BKMK3-oh"></a>
+**Sample 3: Operating hours for multiple queues**<a name="BKMK3-oh"></a>
 
 ```xml
 XMLCopy
@@ -755,8 +754,8 @@ XMLCopy
                 <link-entity name="queue" from="msdyn_operatinghourid" to="msdyn_operatinghourid" link-type="inner" alias="ab">
                 <filter type="and">
                     <condition attribute="queueid" operator="in">
-                        <value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value> 
-                        <value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value> 
+                        <value uiname="Test Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value> 
+                        <value uiname="Test Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value> 
                     </condition>
                 </filter>
                 </link-entity>
@@ -764,9 +763,7 @@ XMLCopy
         </fetch>
 ```
 
-### FetchXML for overflow action configuration step entity
-
-**Sample 1: Overflow Action Config configuration step filter for a specific record**<a name="BKMK1-ov"></a>
+### FetchXML for overflow action configurations<a name="BKMK1-ov"></a>
 
 ```xml
 XMLCopy
@@ -783,7 +780,7 @@ XMLCopy
 
 Take the following steps to migrate intake rules and record workstreams from the source environment to the destination environment.
 
-1. Create a solution to export configurations from the source organization for record routing workstreams.
+1. Create a solution to export configurations from the source environment for record routing workstreams.
 1. Add the required records to the solution using the **Add existing button** in the command bar.
 1. Select the **Work Stream (msdyn_liveworkstream)** table. Related records from the following tables are automatically added to the solution:
    - Capacity Profile (msdyn_capacityprofile) – new records must be migrated using Configuration Migration Tool
