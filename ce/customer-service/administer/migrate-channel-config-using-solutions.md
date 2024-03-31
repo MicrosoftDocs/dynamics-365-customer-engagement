@@ -98,7 +98,7 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
   > [!IMPORTANT]
   > - Please carefully review solution components before exporting solution. Take note of records that contain information regarding Azure Communication Services or third-party channels or other Microsoft components like Copilot Studio copilots or Customer Voice surveys, so you make required configurations in the destination environment.
-  > - If one or more work streams share the same Capacity Profile, when adding tables from one channel/workstream, tables from other channels/workstreams sharing the same Capacity Profile will also be added to the solution.
+  > - If one or more workstreams share the same Capacity Profile, when adding tables from one channel/workstream, records and tables from other channels/workstreams sharing the same Capacity Profile will also be added to the solution.
 
 4. Use the Configuration Migration Tool to create the schema and migrate the remaining configuration data from the source environment (organization) for workstreams and channels.
 
