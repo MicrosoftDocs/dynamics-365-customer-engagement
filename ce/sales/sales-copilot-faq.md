@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 02/08/2024
+ms.date: 04/01/2024
 ---
 
 # Copilot in Dynamics 365 Sales FAQs
@@ -39,7 +39,7 @@ All data continues to be handled according to [Microsoft privacy guidelines](/co
 
 ## Where are the Azure OpenAI endpoints hosted?
 
-Currently, the Azure OpenAI resources are only available in the North America and Europe regions. If your Dynamics 365 environment is in any other geography, your data will be moved outside of your geography to handle copilot requests. You'll be prompted to consent to this data movement when you enable Copilot in Dynamics 365 Sales. More information: [Copilot data movement](sales-copilot-data-movement.md)
+Currently, the Azure OpenAI endpoints are only available in specific regions. For a list of regions where Azure OpenAI endpoints are available, see [this article](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works).
 
 ## Do you use my company data to train any of the models?
 
@@ -47,7 +47,7 @@ No. We don't use any customer data to train Azure OpenAI or any other language m
 
 ## Is Copilot in Dynamics 365 Sales available in all regions?
 
-No, Copilot in Dynamics 365 Sales is not available in the following regions: 
+No, Copilot in Dynamics 365 Sales is not available in the following regions, even if Azure OpenAI endpoints are available in those regions:
 
 - South Africa (ZAF)
 - Germany (GER) 
@@ -84,18 +84,6 @@ Copilot in Dynamics 365 Sales can't be turned on for the following applications:
 - msdyn_CustomerServiceWorkspace
 - OmniChannelEngagementHub
 - msdyn_ProjectService
-
-## What are the early access changes related to Copilot in 2024 release wave 1?
-
-Some Copilot features are available for early access in the 2024 release wave 1. The following table summarizes the changes related to Copilot for early access. [Learn more about Copilot early access and enabling chat and email](enable-setup-copilot.md) features.
-
-| Setting | Orgs in North America with early access | Orgs in North America without early access | Orgs in others regions | Additional info |
-|---------|-------------|----------------|--------|-----------------|
-| Settings page | New | Old | Old | The new settings page has individual toggles for chat and email. The old experience has a single toggle for Copilot. |
-| Changes to Copilot setting | Retained | Retained | Retained | Any changes made to the Copilot settings prior to February 5th will be retained. |
-| Chat turned on by default | Yes | Yes | No<sup>1</sup> | <sup>1</sup>Needs to be turned on manually. |
-| Copilot for email turned on by default | Yes | No<sup>2</sup> | No<sup>2</sup> | <sup>2</sup>Turned on only if Copilot preview toggle is enabled. |
-| Copilot in email rich text editor turned on by default | Yes | No<sup>3</sup> | No<sup>3</sup> | <sup>3</sup> Turned on only if the **Enable Copilot in Rich Text Editor (preview)** is turned on for the app in the [Power Apps settings](/power-apps/maker/canvas-apps/working-with-experimental-preview?branch=main#controlling-which-features-are-enabled). |
 
 ## Why does my tenant have Sales Copilot Power Virtual Agents Bot in Microsoft Copilot Studio? 
 
