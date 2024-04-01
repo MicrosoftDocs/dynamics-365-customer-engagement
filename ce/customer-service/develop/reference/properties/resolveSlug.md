@@ -1,9 +1,9 @@
 ---
-title: "updateContext method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the updateContext API of app profile manager in Customer Service workspace."
+title: resolveSlug method (app profile manager) JavaScript API Reference
+description: Learn about the resolveSlug API of app profile manager in Customer Service workspace.
 author: gandhamm
 ms.author: mgandham
-ms.date: 11/21/2023
+ms.date: 04/01/2024
 ms.topic: reference
 ---
 
