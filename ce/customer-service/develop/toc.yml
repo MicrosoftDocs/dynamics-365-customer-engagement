@@ -595,7 +595,9 @@
           - name: Context management    
             items:                
             - name: updateContext
-              href: reference/properties/updateContext.md                  
+              href: reference/properties/updateContext.md      
+            - name: resolveSlug
+              href: reference/properties/resolveSlug.md              
           - name: Readme
             href: https://go.microsoft.com/fwlink/p/?linkid=2141982
     - name: Responsible AI
