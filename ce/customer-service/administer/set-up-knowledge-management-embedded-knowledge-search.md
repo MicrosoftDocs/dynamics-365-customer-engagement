@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management
 description: Learn how to configure the settings for knowledge management in Dynamics 365 Customer Service.
-ms.date: 03/28/2024
+ms.date: 04/01/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
