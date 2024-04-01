@@ -1,17 +1,16 @@
 ---
-title: "WhatsApp channel agent experience in Omnichannel for Customer Service | MicrosoftDocs"
-description: "This topic provides information about agent experience for conversations that come through WhatsApp channel in Omnichannel for Customer Service."
-ms.date: 07/09/2021
+title: WhatsApp channel agent experience in Omnichannel for Customer Service
+description: Learn about the agent experience for conversations that come through WhatsApp channel in Omnichannel for Customer Service.
+ms.date: 03/21/2024
 author: neeranelli
 ms.author: nenellim
+ms.topic: article
 ms.collection: get-started
 ---
 
 # Use WhatsApp channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-## WhatsApp channel overview
 
 When you sign in to Omnichannel for Customer Service, you can see your work items in Omnichannel Agent Dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 

@@ -35,6 +35,9 @@ For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyFjo]
 
+> [!NOTE]
+> This report is provided as a sample to help develop your own custom report using the Power Apps Composition Framework. This report is considered a custom control and Microsoft doesn't provide support for it. 
+
 ## Import the reporting solution
 
 1. Download the [reporting solution](https://aka.ms/fsmreporting-solution).

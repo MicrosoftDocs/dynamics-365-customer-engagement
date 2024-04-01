@@ -146,6 +146,16 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/license-checker-rules.md",
+      "redirect_url": "/dynamics365/sales/faq-licenses-storage#license-compliance",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/license-enforcement.md",
+      "redirect_url": "/dynamics365/sales/faq-licenses-storage#license-compliance",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/configure-sales-copilot.md",
       "redirect_url": "/dynamics365/sales/enable-setup-copilot",
       "redirect_document_id": "false"
@@ -179,7 +189,16 @@
       "redirect_url": "/dynamics365/sales/developer/entities/msdyn-ConnectSequence-action.md",
       "redirect_document_id": "false"
     },
-    
+    {
+      "source_path": "ce/sales/faq-sales.yml",
+      "redirect_url": "/dynamics365/sales/troubleshooting",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/faqs-sales-insights.md",
+      "redirect_url": "/dynamics365/sales/troubleshooting",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/sales/wa-view-details-segment.md",
       "redirect_url": "/dynamics365/sales/wa-edit-a-segment",
@@ -235,6 +254,11 @@
       "redirect_url": "/training/dynamics365/sales",
       "redirect_document_id": "false"
     },
+    {
+      "source_path": "ce/sales/optimize-ranking-insight-cards.md",
+      "redirect_url": "/dynamics365/sales/edit-insight-cards",
+      "redirect_document_id": "false"
+    },    
     {
       "source_path": "ce/field-service/single-resource-optimization.md",
       "redirect_url": "/dynamics365/field-service/rso-single-resource-optimization",
