@@ -202,6 +202,14 @@
         href: automatically-create-case-from-email.md
       - name: Create a new case when email subject changes
         href: arc-email-sub-chg.md
+      - name: Create multiple cases from an email sent to multiple mailboxes
+        items:
+        - name: Create multiple cases from an email sent to multiple mailboxes
+          href: arc-multiple-cases.md
+        - name: How the automatic record creation rule works in a customer scenario
+          href: arc-customer-scenario.md
+        - name: How the automatic record creation rule works in an agent scenario
+          href: arc-agent-scenario.md
       - name: FAQ about automatic record creation
         href: arc-faqs.md
     - name: Service-level agreements
