@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 07/21/2023
+ms.date: 04/01/2024
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -19,13 +19,13 @@ search.audienceType:
 
 Search and view knowledge articles to help answer a customer's question or solve an issue.
 
-Knowledge base search is available in Customer Service Hub, Customer Service workspace, Omnichannel for Customer Service, and some versions of [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities). Customers can search your knowledge base on their own if your organization has provided a [self-service portal](knowledge-base-search-methods.md).
+Knowledge base search is available in Customer Service Hub, Customer Service workspace, Omnichannel for Customer Service, and some versions of [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities). Customers can search your knowledge base on their own if your organization provided a [self-service portal](knowledge-base-search-methods.md).
 
 ## Prerequisites
 
-- Your administrator has [turned on Dataverse search](/power-platform/admin/configure-relevance-search-organization).
+- Your administrator [turned on Dataverse search](/power-platform/admin/configure-relevance-search-organization).
 
-- Your administrator has set up the following columns in the **Quick Find View** by navigating to **Tables** > **Knowledge Article** > **Views** > **Quick Find Active Knowledge Articles**:
+- Your administrator set up the following columns in the **Quick Find View** by navigating to **Tables** > **Knowledge Article** > **Views** > **Quick Find Active Knowledge Articles**:
 
   - Article Public Number
   - Content  
@@ -43,11 +43,11 @@ Knowledge base search is available in Customer Service Hub, Customer Service wor
 
 - You have access to knowledge article entities, such as Knowledge Article, Knowledge Article Views, Knowledge Article Attachment, Favorite Knowledge Article, and Knowledge Article Image.
 
-- Your administrator has granted **Create**, **Read**, **Write**, **Delete**, **Append**, and **Appendto** privileges to any new custom roles you created.
+- Your administrator granted **Create**, **Read**, **Write**, **Delete**, **Append**, and **Appendto** privileges to any new custom roles you created.
 
-- In Customer Service workspace and Omnichannel for Customer Service, your administrator has turned on the app side pane and knowledge search in agent experience profiles.
+- In Customer Service workspace and Omnichannel for Customer Service, your administrator turned on the app side pane and knowledge search in agent experience profiles.
 
-- You're dealing with a case or a conversation, or your administrator has [turned on the ability](../administer/set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) to open the knowledge pane for other entities.
+- You're dealing with a case or a conversation, or your administrator [turned on the ability](../administer/set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) to open the knowledge pane for other entities.
 
 ## Tips for search results
 
@@ -71,6 +71,7 @@ Legend:
 1. The article ID
 1. A card that displays search term matches from keywords, description, attachments, and other custom fields
 1. An attachment that includes the search term in its title or contents
+1. Favorite tag for frequently searched articles
 
 If your administrator hasn't turned on Dataverse search, the system uses the keywords you enter to perform a full-text search of the following knowledge article metadata: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**. If Dataverse search is turned on, your administrator can [select the columns that are searched](/power-platform/admin/configure-relevance-search-organization).
 
@@ -92,9 +93,8 @@ Legend:
 1. Sorts the list of results
 1. Search box
 1. Unlinks the article from the current case or conversation
-1. Opens the article in a new browser window
-    To view the article in the reference pane, select its title in the search results.
-1. Opens a new email so that you can send the article to your customer
+1. Marks the article as a favorite
+1. Copies the article URL
 1. Rating
 1. The number of times the article has been viewed
 1. Links the article to the current case or conversation
@@ -103,6 +103,7 @@ Legend:
 1. A card that displays search term matches from keywords, description, attachments, and other custom fields
 1. The date the article was most recently updated
 1. The article ID
+
 
 ## Search for related articles in Customer Service workspace and Omnichannel for Customer Service
 
@@ -126,7 +127,7 @@ Legend:
 1. Links the article to the current case or conversation, or, if the article is already linked, unlinks it
 1. Status and visibility tags for the article
 1. An attachment that includes the search term in its title or contents
-
+1. Tag that indicates if the article has been marked as favorite.
 Select **More options** (**&hellip;**) to:
 
 - Select **Email Content** to open a new email so that you can send the article to your customer.
@@ -142,7 +143,7 @@ In the app side pane, select the **Smart assist** (light bulb) icon to view sugg
 
 ## Save time searching with suggest-as-you-type
 
-If your administrator has [turned on suggest-as-you-type](../administer/set-up-knowledge-management-embedded-knowledge-search.md#enable-the-suggest-as-you-type-option), the system suggests related knowledge articles as you type in the search box.
+If your administrator [turned on suggest-as-you-type](../administer/set-up-knowledge-management-embedded-knowledge-search.md#enable-the-suggest-as-you-type-option), the system suggests related knowledge articles as you type in the search box.
 
 Your search term is matched against article titles, and the matching results appear in a flyout menu. If your search term consists of more than one word, only titles that contain the full string, not individual words, are matched. For example, if you search for **Cheque Book Reissue**, articles with "Cheque Book Reissue" in the title are returned. Articles with the individual words "Cheque," "Book," or "Reissue" in the title aren't.
 
@@ -152,7 +153,7 @@ Suggest-as-you-type suggests up to six knowledge articles. Text that matches you
 
 ## Search using favorites
 
-If your administrator has provided [privileges to custom roles](#prerequisites), you can mark the knowledge articles you use most often as favorites to get back to them quickly while you're working on a case. You can mark up to 50 articles as favorites.
+If your administrator provided [privileges to custom roles](#prerequisites), you can mark the knowledge articles you use most often as favorites to get back to them quickly while you're working on a case. You can mark up to 50 articles as favorites.
 
 1. Select an article from the list of search results.
 1. Select the **Favorite** (heart) icon to add the article to your favorites list, or, if it's already a favorite, remove it.
@@ -169,7 +170,7 @@ In Customer Service workspace and Omnichannel for Customer Service, when you sel
 
 ## Search across external search providers
 
-In Customer Service Hub and Customer Service workspace, you can search for files, documents, and articles from data sources outside your Dynamics 365 organization, if your administrator has configured this option. To view those results, select the source in the list under **Knowledge**.
+In Customer Service Hub and Customer Service workspace, you can search for files, documents, and articles from data sources outside your Dynamics 365 organization, if your administrator configured this option. To view those results, select the source in the list under **Knowledge**.
 
 In Customer Service Hub:
 
@@ -182,10 +183,10 @@ For more information on setting up search providers, see [Set up external search
 
 ## Search across integrated providers in Customer Service Hub and Customer Service workspace
 
-In Customer Service Hub and Customer Service workspace, view and sort search results from [any providers your administrator has added](../administer/add-search-provider.md) for you. The name of the search provider the article was pulled from appears on the knowledge article card. If it's truncated, hover over it to view the full name.
+In Customer Service Hub and Customer Service workspace, view and sort search results from [any providers your administrator added](../administer/add-search-provider.md) for you. The name of the search provider the article was pulled from appears on the knowledge article card. If it's truncated, hover over it to view the full name.
 
 1. In the Customer Service workspace site map, select a case and then select **Knowledge search** on the app side pane.
-1. Enter the search keyword. You'll see search results along with the search provider.
+1. Enter the search keyword. You see search results along with the search provider.
 1. Select **Show more** to view more results.
 
 ## View knowledge articles
@@ -200,8 +201,12 @@ In Customer Service workspace and Omnichannel for Customer Service, the article 
 
 You can perform the following actions on knowledge articles you view in an app tab:
 
+- If the article has multiple sections, expand all the sections to view the entire article and collapse the sections, as required.
+
+- Mark the articles you use most often as a favorite to get back to them quickly while you're working on a case.
+
 - Select **Copy URL** to copy the external URL of the article to share with your customer in channels like chat or email.
-- If your administrator has turned on [feedback and ratings for knowledge articles](../../customerengagement/on-premises/customize/enable-entity-feedback.md#enable-an-entity-for-feedback-and-ratings), you can select the thumbs-up or thumbs-down icon to rate how helpful the article was. If you select the thumbs-down icon, a comment box appears, where you can enter the reason for your rating.
+- If your administrator turned on [feedback and ratings for knowledge articles](../../customerengagement/on-premises/customize/enable-entity-feedback.md#enable-an-entity-for-feedback-and-ratings), you can select the thumbs-up or thumbs-down icon to rate how helpful the article was. If you select the thumbs-down icon, a comment box appears, where you can enter the reason for your rating.
 
     Customer service agents and customer service managers can create or view feedback based on their role and privileges. Unless your administrator allows it, you can create, view, or edit only your own feedback. Customer service managers and knowledge managers can view your feedback.
 
@@ -211,12 +216,16 @@ In Customer Service Hub, select an article title. The full article opens inline,
 
 If you see an error like this when you open an article: "Update your origins allow list if any iframe in the article doesn't work or displays error," ask your administrator to [update your origins allow list](../administer/configure-knowledge-article-origin-allow-list.md).
 
+:::image type="content" source="../media/km-inline-article-view.png" alt-text="Screenshot of a knowledge article viewed inline in the search control.":::
+
 You can perform the following actions on knowledge articles you view inline:
+
+- If the article has multiple sections, expand all the sections to view the entire article and collapse the sections, as required.
+
+- Mark the articles you use most often as a favorite to get back to them quickly while you're working on a case.
 
 - Link it to a record, or, if it's already linked, unlink it.
 - [Email it to a customer](email-articles.md#email-a-knowledge-article).
-
-    :::image type="content" source="../media/km-inline-article-view.png" alt-text="Screenshot of a knowledge article viewed inline in the search control.":::
 
 - Select the **Copy Link** icon ![Copy knowledge article link button Dynamics 365 Customer Service](../media/copy-link-button.png "Copy knowledge article link button Dynamics 365 Customer Service") to copy the external URL of the article to share with your customer in channels like chat or email.
 
@@ -225,6 +234,8 @@ The copy and email options are available only if the knowledge article is [publi
 ### View the knowledge article on a new window
 
 In Customer Service Hub, in the **Knowledge Search** reference pane, select the pop-out option to view the article on a new window.
+
+If the article has multiple sections, expand all the sections to view the entire article and collapse the sections, as required.
 
 :::image type="content" source="../media/knowledge-search-pop-out-csh.png" alt-text="View knowledge article in a new window":::
 
