@@ -36,9 +36,9 @@ As an administrator, you can enable live translation, transcription and recordin
 
 1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want agents to record and transcribe their calls.
 
-1. Set **Allow agents to pause and resume** if you want to allow agents to control the portions of conversations that they record and transcribe.
+1. Set **Allow agents to pause and resume** toggle to **Yes** if you want to allow agents to control the portions of conversations that they record and transcribe.
 
-1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** if recording and transcription must be paused when the agent puts the customer on hold and resumed when the agents takes the customer off hold.
+1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** toggle to **Yes** if recording and transcription must be paused when the agent puts the customer on hold and resumed when the agents takes the customer off hold.
 
 1. Select **Save**.
 

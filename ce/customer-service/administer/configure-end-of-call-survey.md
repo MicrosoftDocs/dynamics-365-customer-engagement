@@ -1,6 +1,6 @@
 ---
 title:  Enable voice call experiences
-description: Learn how to configure agent call quality feedback, automatically remove a customer from hold.
+description: Learn how to configure agent call quality feedback and automatically remove a customer from hold.
 author: gandhamm
 ms.author: mgandham
 ms.topic: how-to

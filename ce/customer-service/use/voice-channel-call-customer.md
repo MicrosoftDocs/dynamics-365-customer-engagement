@@ -37,9 +37,12 @@ To test your microphone and speaker, do the following steps:
 1. In Customer Service workspace or Omnichannel for Customer Service, go to **Contacts**, and then select a customer to call.
 2. On the **Active Conversation** page, locate the **Mobile Phone** field, and then select the call icon to call the customer. You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer.
      The **Dial number** panel appears. You can perform the following actions:
+       > [!NOTE]
+       > - Searching for a contact by name and opening records from the **Recents** are preview features.
+       > - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
      - Search for a contact or account by name. The results are displayed in a dropdown. You can select **Account** or **Contact** to filter the results further. Once you select the customer's name, the application displays the customer's phone number, name, country, country code, and outbound profile that you can use to make the call.
-      > [!NOTE]
-      > For a contact, you'll see the business number and the mobile number. For an account you'll see the main phone number.   
+       > [!NOTE]
+       > For a contact, you'll see the business number and the mobile number. For an account you'll see the main phone number.   
      - On the input box, you can copy, type in a number, or select a number from the recently dialed numbers. The country code dropdown displays the list of supported countries and regions that you can call. 
      - View and call from the most recently dialed called numbers. By default, the last 20 calls that you’ve received or made are displayed.
      - You can select the customer's name in **Recents** to view the customer's account or contact details in a new session.
@@ -48,15 +51,11 @@ To test your microphone and speaker, do the following steps:
      - The dropdown displays the list of supported countries and regions from all the outbound profiles assigned to you. 
      - When you enter the number you'd like to call, the application identifies the outbound profile that has the dialed number's country or region configured.
      - By default, the number pad is hidden. To display the number pad, select the number pad icon.
-     
-       > [!NOTE]
-       > - Searching for a contact by name and opening records from the **Recents** are preview features.
-       > - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 
 3. Select **Call**. 
 
- > [!NOTE]
- > If you aren't assigned an outbound profile, you won't be able to make a call.
+  > [!NOTE]
+  > If you aren't assigned an outbound profile, you won't be able to make a call.
 
  :::image type="content" source="../media/outbound-dialer.png" alt-text="Outbound dialer for voice calls.":::
 
