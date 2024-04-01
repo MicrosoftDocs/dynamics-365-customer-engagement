@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/29/2024
+ms.date: 04/01/2024
 ms.custom: bap-template
 ---
 
@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 With automatic record creation, you can create multiple cases from an email sent to multiple mailboxes. As an administrator, you can [enable this feature](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes) to ensure that [multiple cases (one for each queue-enabled mailbox) get created when multiple mailboxes are added as recipients in the email](arc-multiple-cases.md#how-automatic-record-creation-rules-work-to-create-multiple-cases-from-an-email-sent-to-multiple-mailboxes).
 
-This article lists the various agent scenarios and explains how automatic record creation rule works when an agent does a reply all or reply only to the customer using a case timeline. For example, for cases created from an email sent to multiple mailboxes Q1, Q2, and Q3, agents can reply to Case 1, Case 2, or Case 3’s timeline, independently.
+This article lists the various agent scenarios and explains how automatic record creation rule works when an agent does a reply all or reply only to the customer using a case timeline. For example, when an email is sent to multiple mailboxes Q1, Q2, and Q3 and cases get created for each mailbox Case 1, Case 2, and Case 3, an agent can respond from the timeline of any of the cases (Case 1, Case 2, or Case 3).
 
 Agents can also reply or reply all from Inbox or directly from the email by accessing it from the **My Activities** view. When the agent sends a reply, replies all or forwards an email from any of these entry points, the reply email is related to all cases and records that were related to the original email, unless removed from the related attribute manually.  
 
