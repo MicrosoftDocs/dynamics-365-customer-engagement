@@ -28,7 +28,7 @@ Ensure that the following prerequisites are met:
 
 By default, the Join a Teams call feature is turned on out of the box in Customer Service workspace for agent profiles that have Omnichannel for Customer Service enabled.  
 
-If you’ve previously disabled it and need to turn it back on, start with Step 1.  
+If you previously disabled it and need to turn it back on, start with Step 1.  
 
 If you want to complete the configuration for custom agent profiles, start with Step 4. 
    
