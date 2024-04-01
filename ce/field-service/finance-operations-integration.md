@@ -79,6 +79,10 @@ The integration depends on dual-write to create a common understanding for prima
     - Dynamics 365 Finance extended entity maps
 
     - Dynamics 365 Supply Chain Management extended entity maps
+  
+    - Dynamics 365 Human Resources entity maps
+
+    - HCM Scheduling
 
 1. Enable the following required table mappings with **Initial Sync** turned on:
 
@@ -111,6 +115,7 @@ The integration depends on dual-write to create a common understanding for prima
     - Sites
     - Warehouses
     - Released products V2
+    - Worker
 
 ### Security in finance and operations applications
 
