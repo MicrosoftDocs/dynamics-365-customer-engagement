@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications (preview)
 description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
-ms.date: 02/07/2024
+ms.date: 04/01/2024
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -79,6 +79,10 @@ The integration depends on dual-write to create a common understanding for prima
     - Dynamics 365 Finance extended entity maps
 
     - Dynamics 365 Supply Chain Management extended entity maps
+  
+    - Dynamics 365 Human Resources entity maps
+
+    - HCM Scheduling
 
 1. Enable the following required table mappings with **Initial Sync** turned on:
 
@@ -111,6 +115,7 @@ The integration depends on dual-write to create a common understanding for prima
     - Sites
     - Warehouses
     - Released products V2
+    - Worker
 
 ### Security in finance and operations applications
 
@@ -127,19 +132,6 @@ To ensure that the integration can successfully create item journals, we strongl
 ### Configure inventory and warehouse management within warehouses
 
 To ensure that the integration can successfully integrate journals related to items which require location, we advise that all warehouses you plan to use with Field Service have **inventory and warehouse management** configured to define default locations. This allows all work order products where the product's storage dimensions are configured to require location to successfully synchronize, even when created offline.
-
-### Grant Dataverse consent for user impersonation
-
-You must grant explicit consent for Dynamics 365 finance and operations apps to impersonate Dataverse users.
-
-1. In Power Platform admin center, select the Microsoft Power Platform environment.
-1. Select **Settings** at the top of the page.
-1. Expand **Product**, and select **Features**.
-1. Find **Finance and Operations in Dataverse**.
-1. Set the **Enable finance and operations user impersonation in Dataverse** option to **On**.
-
-> [!NOTE]
-> For more information, see [Managed feature settings](/power-platform/admin/settings-features#finance-and-operations-in-dataverse).
 
 ## Enable the integration from Field Service
 
