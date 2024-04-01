@@ -66,7 +66,7 @@ The recap focuses on the most relevant information based on the work order's lif
 
 ## Summary configuration (preview)
 
-Copilot in Field Service provides predefined summaries that are optimized for specific tables. Administrators can replace these summaries by configuring their own to tailor to their business needs.
+Copilot in Field Service provides predefined summaries that are optimized for specific tables. With summary configuration, administrators can replace the default summaries by configuring their own to tailor to their business needs. The optimization used in the generation of default summaries is not applied to administrator-configured summaries.
 
 :::image type="content" source="media/copilot-summary-configuration.png" alt-text="Screenshot of the summary configuration for the copilot-based summary control.":::
 
@@ -75,7 +75,7 @@ Copilot in Field Service provides predefined summaries that are optimized for sp
 1. In Field Service, change to the **Settings** area and go to **Copilot settings** > **Summary Configuration**.
 1. From the list, choose the table for which you want to configure the summary. Currently, you can configure two out-of-the-box tables: work orders and bookable resource bookings.
 1. Enable the **Configure summary** setting.
-1. You can add, remove, and change the data columns that Copilot uses to generate the summary. Under **Record type**, open the drop-down to search or select the table by navigating through relationships. After you choose a table, the columns of the table will be available under **Data field**.
+1. You can add, remove, and change the data columns that Copilot uses to generate the summary. Under **Table name**, open the drop-down to search or select the table by navigating through relationships. After you choose a table, the columns of the table will be available under **Column name**.
 1. In the **Sample summary** section, you can test this configuration using a row from the Dataverse table and preview the summary that Copilot generates based on real data.
 1. **Save** your changes when you're done making changes.
 
