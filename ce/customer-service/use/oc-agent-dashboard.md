@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 03/29/2024
+ms.date: 04/01/2024
 ms.custom: bap-template
 ---
 
@@ -49,9 +49,9 @@ On the dashboard, you can sort work items by the following categories:
 - Created On
 - Transfer Count
 
-## View conversations on multiple browsers
+## View multiple conversations at the same time
 
-You can view conversations on multiple browsers, without having to switch tabs in the same browser. Additionally, you can also split your screen to view conversations side by side, thereby improving your ability to serve customer requests.
+You can have multiple conversations open on multiple browsers and view the conversations in a split screen. Viewing multiple conversations side by side improves your ability to serve customer requests, without the need to switch between sessions.
 
 For example, when you select an active or open work item or monitor a conversation, it will open on the same browser and will not open a new session on a different browser.
 
