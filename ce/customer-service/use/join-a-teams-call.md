@@ -25,7 +25,7 @@ Ensure that the following prerequisites are met:
 
 ## Use Join a Teams call
 
-You can use the Join a Teams call feature when you’re in an active, ongoing conversation by doing the  steps:
+You can use the Join a Teams call feature when you’re in an active, ongoing conversation by doing the following steps:
 
 1.	On the productivity pane, select the **Join a Teams call** icon. The option to **Start a Teams meeting** is displayed with the customer’s name.
 
