@@ -18,17 +18,13 @@ Use the **Voice call experiences** page in Customer Service admin center to conf
 
 ## Configure agent call quality feedback survey 
 
-> [!Important]
-> - This is an early access feature. 
-> - Early access features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can [get early access](/power-platform/admin/opt-in-early-access-updates) and provide feedback.
-
 Agents can rate and provide feedback on their voice calling experience after the call ends using the agent call quality survey. The survey helps you evaluate call quality beyond technical factors such as audio and video bitrate, jitter, and latency, enabling you to understand if the agent had a satisfactory experience. You can analyze the survey data in Azure logs to gain insights and identify areas that require improvement.
 
 ## Enable agent call quality surveys
 
 Perform the following steps to enable agent call quality surveys:
 
-1. In Customer Service admin center, select **Workspaces** and then select **Agent call quality survey (preview)**. You can enable the survey from **Voice settings** in voice workstreams. 
+1. In Customer Service admin center, select **Workspaces** and then select **Voice call experiences**. You can enable the survey from **Voice settings** in voice workstreams. 
 3. Switch the **Agent call quality survey** toggle to **On**.
 4. Specify the frequency at which the survey should be presented to the agent. Optionally, you can also switch the **Set survey duration** toggle to **On** and specify the duration during which the survey must appear for the agent.
 

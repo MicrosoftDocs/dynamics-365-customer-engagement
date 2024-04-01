@@ -32,7 +32,7 @@ To test your microphone and speaker, do the following steps:
        - The **Communication Panel** displays the device settings and the **End call** button. 
        - When you select device settings, you can see the speaker and microphone. A visual indicator is displayed against the device to indicate that it is connected. 
 
-## Make a call using the  outbound dialer
+## Make a call using the outbound dialer
 
 1. In Customer Service workspace or Omnichannel for Customer Service, go to **Contacts**, and then select a customer to call.
 2. On the **Active Conversation** page, locate the **Mobile Phone** field, and then select the call icon to call the customer. You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer.
