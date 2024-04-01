@@ -15,7 +15,7 @@ ms.collection: bap-ai-copilot
 
 With the Dynamics 365 Field Service Plugin for Microsoft Copilot, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Microsoft Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
 
-Copilot can also parse through a [work order's attachments](get-work-done-mobile-app.md#add-notes-and-attachments) and provide answers to your questions. Attachments must be notes, Word, or PDF documents.
+Copilot can also parse through a [work order's attachments](flw-teams-manager-setup.md#add-attachments-to-the-work-order) to provide answers to your questions. Frontline managers can upload information pertinent to the work order before a technician is scheduled to arrive. Frontline workers can upload history, common issues, and other information that would help technicians for future work orders.
 
 To access this chat feature, an admin must [set up Microsoft Copilot for Field Service work orders](flw-copilot-setup.md).
 
@@ -53,12 +53,19 @@ Be specific about the expected outcomes. For example, if you want results in tab
 
 ## Frontline workers
 
-### Get information about your work orders
+### Get specific information about a work order
+
+   :::image type="content" source="media/fsp-m365-chat-flw.png" alt-text="Microsoft Copilot chat showing the address of a work order and the type of another work order":::
+
+### Ask for detailed information from documents
 
    :::image type="content" source="media/fsp-m365-chat-flw.png" alt-text="Microsoft Copilot chat showing the address of a work order and the type of another work order":::
 
 ### More sample questions
 
+- How do I handle the battery of the Surface Laptop 4 safely?
+- What service tools are required to replace the non-skid foot pad on the Surface laptop?
+- How do I remove the non-skid foot pad on the Surface laptop?
 - What are the details for {work order number}? Can you summarize? Can you summarize in a paragraph?
 - Give me the full details for my most recent work order.
 - Are there any work orders with priority set to high?
@@ -67,9 +74,6 @@ Be specific about the expected outcomes. For example, if you want results in tab
 - What is the price list for {work order number}?
 - How many work orders for customer {name} and what is the status?
 - Can you find my work orders from last week?
-- How do I handle the battery of the Surface Laptop 4 safely?
-- What service tools are required to replace the non-skid foot pad on the Surface laptop?
-- How do I remove the non-skid foot pad on the Surface laptop?
 
 ## Next steps
 
