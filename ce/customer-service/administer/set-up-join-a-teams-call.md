@@ -1,6 +1,6 @@
 ---
-title: Configure Join a Teams call feature for agents
-description: Learn how to set up the Join a Teams call feature in Dynamics 365 Customer Service.
+title: Set up Join a Teams call for agents
+description: Learn how to set up Join a Teams call in Dynamics 365 Customer Service.
 ms.date: 04/01/2024
 ms.topic: how-to
 author: lalexms
@@ -9,7 +9,7 @@ ms.reviewer: shujoshi
 ms.custom: bap-template
 ---
 
-# Set up Join a Teams call feature for agent conversations with customers
+# Set up Join a Teams call for agents
 
 Join a Teams call is a feature that helps agents in your organization give their customers a more personalized support experience by using Teams to share their screen, connect through video, and offer remote control assistance. Customers don’t need to have a Teams license or previous experience using Teams.
 
