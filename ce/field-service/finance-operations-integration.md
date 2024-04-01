@@ -44,7 +44,7 @@ The following steps are only required while the feature is in preview.
 
 ### Prerequisites
 
-- Finance and operations apps that have build version 10.0.38 (10.0.1777.28) and platform update 62 or later
+- Finance and operations apps that have build version 10.0.39 (10.0.1860.56) and platform update 63 or later
 
 - Dynamics 365 Field Service version number 8.8.116+
 
@@ -147,11 +147,7 @@ Modify the environment to align with the integration scenarios.
 
 ### Prerequisites for the installation
 
-Before installing the solution from Field Service Settings, [enable Microsoft Dataverse virtual tables](/dynamics365/fin-ops-core/dev-itpro/power-platform/enable-virtual-entities) for:
-
-- *mserp_inventorysiteonhandv2entity*
-
-- *mserp_inventwarehouseonhandv2entity*
+Before installing the solution from Field Service Settings, [install the Dynamics 365 Human Resources integration with the Universal Resource Scheduling solution](/dynamics365/human-resources/hr-admin-integration-hr-rm).
 
 #### Install and enable the solution
 
