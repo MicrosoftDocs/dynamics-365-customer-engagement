@@ -38,9 +38,9 @@ If you want to complete the configuration for custom agent profiles, start with 
 
 1. On the **Join a Teams call** page, turn on the setting for **Join a Teams call**.
 
-1. If you want to enable custom agent profiles that aren't set by default to invite customers to join Teams calls, you must manually enable them. Select **Manage** next to **Turn on for specific multisession users.** More information: [Add the Teams chat setting page for specific multisession users](configure-teams-chat.md#add-the-teams-chat-settings-page-for-specific-multisession-users)
+1. If you want to enable custom agent profiles that aren't set by default to invite customers to join Teams calls, you must manually enable it for those profiles. Select **Manage** next to **Turn on for specific multisession users.** More information: [Add the Teams chat setting page for specific multisession users](configure-teams-chat.md#add-the-teams-chat-settings-page-for-specific-multisession-users)
 
-1. Save the changes. The Join a Teams call feature is now enabled in Customer Service workspace.
+1. Save the changes. The Join a Teams call feature is now enabled for users in Customer Service workspace.
 
 ### See also
 
