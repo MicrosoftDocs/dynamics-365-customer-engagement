@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 02/19/2024
+ms.date: 03/28/2024
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
 ---
@@ -115,7 +115,6 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvWritemsdyn_copilotagentpreference
 - prvReadmsdyn_appcopilotconfiguration
 - prvReadmsdyn_agentcopilotsetting
-- prvReadmsdyn_aiconfiguration
 - prvReadmsdyn_aimodel
 - prvReadmsdyn_aitemplate
 - prvReadmsdyn_copilotsummarizationsetting 
@@ -126,7 +125,7 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvCreatemsdyn_copilottranscriptdata 
 - prvWritemsdyn_copilottranscriptdata 
 - prvAppendmsdyn_copilottranscriptdata
-- prvIntelligenceUsage
+- prvIntelligenceUsage: This privilege is required to access the Copilot case summary. By default, this privilege is available for out-of-the-box security roles. Make sure that your users have  [**Miscellaneous privileges**](/power-platform/admin/security-roles-privileges#define-the-privileges-and-properties-of-a-security-role) > **prvIntelligenceUsage** assigned to the required custom security roles.
 - prvReadOrganizationSetting
 - prvReadmsdyn_panetabconfiguration 
 - prvReadmsdyn_paneconfiguration 

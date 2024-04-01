@@ -1,5 +1,5 @@
 ---
-title: FAQs about Copilot in Dynamics 365 Sales
+title: Copilot in Dynamics 365 Sales FAQs
 description: This article includes frequently asked questions about Copilot in Dynamics 365 Sales, covering various aspects such as privacy, data security, data management, and more.
 author: lavanyakr01 
 ms.author: lavanyakr
@@ -9,7 +9,7 @@ ms.collection: bap-ai-copilot
 ms.date: 02/08/2024
 ---
 
-# FAQs about Copilot in Dynamics 365 Sales
+# Copilot in Dynamics 365 Sales FAQs
 
 This article includes frequently asked questions about Copilot in Dynamics 365 Sales.
 
@@ -44,6 +44,20 @@ Currently, the Azure OpenAI resources are only available in the North America an
 ## Do you use my company data to train any of the models?
 
 No. We don't use any customer data to train Azure OpenAI or any other language models.
+
+## Is Copilot in Dynamics 365 Sales available in all regions?
+
+No, Copilot in Dynamics 365 Sales is not available in the following regions: 
+
+- South Africa (ZAF)
+- Germany (GER) 
+- Norway (NOR)
+- Korea (KOR)
+- Singapore (SGP)
+- United Arab Emirates (UAE)
+- Government Community Cloud (GCC)
+- Department of Defence (DoD)
+- China
 
 ## What's the difference between Microsoft Copilot for Sales and Copilot in Dynamics 365 Sales?
 
