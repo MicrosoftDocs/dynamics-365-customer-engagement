@@ -202,6 +202,14 @@
         href: automatically-create-case-from-email.md
       - name: Create a new case when email subject changes
         href: arc-email-sub-chg.md
+      - name: Create multiple cases from an email sent to multiple mailboxes
+        items:
+        - name: Create multiple cases from an email sent to multiple mailboxes
+          href: arc-multiple-cases.md
+        - name: How the automatic record creation rule works in a customer scenario
+          href: arc-customer-scenario.md
+        - name: How the automatic record creation rule works in an agent scenario
+          href: arc-agent-scenario.md
       - name: FAQ about automatic record creation
         href: arc-faqs.md
     - name: Service-level agreements
@@ -372,6 +380,8 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Enable agents to search for contacts and open records from outbound dialer (preview)
+        href: add-outbound-dialer-settings.md  
       - name: Support emergency calls made by agents
         href: voice-channel-emergency-calling.md
       - name: Integrate Nuance Gatekeeper (preview)
@@ -404,7 +414,7 @@
         href: voice-channel-block-number.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
-      - name: Configure agent call quality feedback survey (preview)
+      - name: Enable voice call experiences
         href: configure-end-of-call-survey.md
       - name: Delete call recordings
         href: voice-channel-delete-calls.md
