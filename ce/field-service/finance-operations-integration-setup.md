@@ -1,7 +1,7 @@
 ---
 title: Set up Field Service integration with finance and operations applications
 description: Set up the Dynamics 365 Field Service integration with finance and operations to synchronize inventories and budgeting items between the applications.
-ms.date: 03/26/2024
+ms.date: 04/01/2024
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -15,7 +15,7 @@ Set up the integration between Dynamics 365 Field Service and finance and operat
 
 ## Prerequisites
 
-- Finance and operations apps that have build version 10.0.38 (10.0.1777.28) and platform update 62 or later
+- Finance and operations apps that have build version 10.0.39 (10.0.1860.56) and platform update 63 or later
 
 - Dynamics 365 Field Service version number 8.8.116+
 
@@ -52,6 +52,10 @@ The integration depends on [dual-write](/dynamics365/fin-ops-core/dev-itpro/data
     - Dynamics 365 Finance extended entity maps
 
     - Dynamics 365 Supply Chain Management extended entity maps
+
+    - Dynamics 365 Human Resources entity maps
+
+    - HCM Scheduling
 
 1. Select each of the following required table mappings. Then select **Run** and **Initial Sync**.
 
@@ -113,21 +117,7 @@ To ensure that the integration can successfully integrate journals related to it
 
 ### Prerequisites
 
-[Enable Microsoft Dataverse virtual tables](/dynamics365/fin-ops-core/dev-itpro/power-platform/enable-virtual-entities) for:
-
-- *mserp_inventorysiteonhandv2entity*
-
-- *mserp_inventwarehouseonhandv2entity*
-
-### Install and enable the solution
-
-1. In Field Service, change to the **Settings** area.
-
-1. Select the **Features** tab.
-
-1. Select **Install the integration solution** from the **Install Finance and Operations** control. A notification appears when the installation completes.
-
-1. Enable **Finance and Operations Integration** and confirm.
+The Dynamics 365 Human Resources integration with the Universal Resource Scheduling solution is [installed](/dynamics365/human-resources/hr-admin-integration-hr-rm).
 
 ### Configure posting behaviors
 
@@ -142,6 +132,21 @@ Depending on the nature of your organization's Field Service work, benefit from 
    - **When product or service is used**: For long-running work orders, posting transactions as soon as they occur helps track inventory consumption and financial impacts in real-time. It also enables invoicing without delays that can cause inventory and financial discrepancies. Changes to transactions after they were posted reverts the previously posted transaction and generates a new transaction.
 
 1. Select **Save & Close**.
+
+### Create products with project categories
+
+Update the products in Field Service with the project categories from finance and operations applications to map to the correct journal lines.
+
+1. In **Field Service Settings**, select **Products and services**.
+
+1. For each product, select the product and select the **Project Category**.
+
+1. Select **Save & Close**.
+
+For hours journals, evaluate which project categories to use in Field Service work orders. [Create a product record in Field Service](create-product-or-service.md) that allows users to transact on the category. The integration creates an hours journal and hours journal line according to the selected project category.
+
+> [!TIP]
+> All products can have an associated project category, even inventory products. Make sure that field is populated for non-inventory products and service products to ensure correct transactional alignment.
 
 ### Update security roles
 

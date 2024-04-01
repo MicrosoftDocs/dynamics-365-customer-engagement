@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications
 description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
-ms.date: 03/26/2024
+ms.date: 04/01/2024
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -45,18 +45,7 @@ In Field Service, the concept of category transactions doesn't exist. Even the s
 
 In finance and operations applications, all journal types that aren't item journals are category-based transactions. For example, expense journal lines, hours journal lines, and fee journal lines. These journal lines don't relate to an item and require a category.
 
-To bridge this conceptual gap, capture the *Project Category* value that Field Service uses for work order transactions. It's a lookup to the *Project Category* table in the finance and operations database. Dual-write doesn't automatically populate this value. Updating the products in Field Service with the project categories from finance and operations applications helps the integration map to the correct journal lines.
-
-<!--- How? --->
-
-### Create products with project categories
-
-For hours journals, evaluate which project categories to use in Field Service work orders. Create a product record in Field Service that allows users to transact on the category. The integration creates an hours journal and hours journal line according to the selected project category.
-
-<!--- How? --->
-
-> [!TIP]
-> All products can have an associated project category, even inventory products. Make sure that field is populated for non-inventory products and service products to ensure correct transactional alignment.
+To bridge this conceptual gap, [capture the **Project Category** value](finance-operations-integration-setup.md#create-products-with-project-categories) that Field Service uses for work order transactions. It's a lookup to the **Project Category** table in the finance and operations database. Dual-write doesn't automatically populate this value.
 
 ## Company alignment
 
@@ -109,7 +98,7 @@ Depending on the inventory product selected when creating a work order product, 
 The warehouse and location fields in Field Service are related to the warehouse and location concepts in finance and operations applications, which are used to track the physical and logical locations of the inventory items.
 
 > [!NOTE]
-> The solution doesn't require population of the **Site** value and will instead populate site based on the selected warehouse, which has a hierarchical relationship with site. We recommend to configure default order settings to minimize errors when a work order product with an inventory product is created.
+> The solution doesn't require population of the **Site** value and will instead populate site based on the selected warehouse, which has a hierarchical relationship with site. We recommend configuring default order settings to minimize errors when a work order product with an inventory product is created.
 
 ## Inventory
 
@@ -135,7 +124,7 @@ These new inventory items use [virtual tables](/dynamics365/fin-ops-core/dev-itp
 
 When the integration is enabled, the inventory views have a version for organizations that don't use product variants. This inventory view removes several columns and simplifies inventory visibility.
 
-For organizations using product variants, there are relevant views that show all of the details of the inventory levels including columns for size, color, style, and configuration. If necessary, organizations are able to modify the default views as they can with any table.
+For organizations using product variants, there are relevant views that show all of the details of the inventory levels including columns for size, color, style, and configuration. If necessary, organizations can modify the default views as they can with any table.
 
 > [!NOTE]
 > Different than normal tables, currently individual rows within these inventory tables (*mserp_inventorysiteonhandv2entity* and *mserp_inventwarehouseonhandv2entity*) don't receive a persistent GUID and don't support being opened within a form. The view control used in these views suppresses the ability for these records to be opened in a form.
@@ -144,13 +133,13 @@ For organizations using product variants, there are relevant views that show all
 
 This integration supports the use of [Microsoft-managed](/dynamics365/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview#customer-lifecycle-subscriptions-and-environment-types) environments. Customer-managed environments are not supported with this integration.
 
-At this time, [Project Operations resource/non-stocked integration](/dynamics365/project-operations/environment/resource-dual-write-overview) doesn't allow the Field Service integration to work within the same legal entities that have been enabled for the resource/non-stocked integrated scenario. However, it can work within the same environments for other legal entities.
+[Project Operations resource/non-stocked integration](/dynamics365/project-operations/environment/resource-dual-write-overview) doesn't allow the Field Service integration to work within the same legal entities that have been enabled for the resource/non-stocked integrated scenario. However, it can work within the same environments for other legal entities.
 
 Offline virtual tables are currently not supported, which is why it is critical to [set up the defaulting logic for locations](finance-operations-integration-setup.md#configure-inventory-and-warehouse-management-within-warehouses) so that transactions don't get blocked.
 
 The following processes or features available within the finance and operation apps aren't supported or aren't reflected within Field Service out-of-the-box for this integration:
 
-- [Reserving inventory feature](/dynamics365/supply-chain/inventory/reserve-inventory-quantities) to reserve  inventory quantities for certain orders.
+- [Reserving inventory feature](/dynamics365/supply-chain/inventory/reserve-inventory-quantities) to reserve inventory quantities for certain orders.
 
 - Tracking dimensions to define the granularity of an item's tracking in subsequent transactions. This feature is useful for tracking items by batch or serial number.
 
