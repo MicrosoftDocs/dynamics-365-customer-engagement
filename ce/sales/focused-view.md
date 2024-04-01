@@ -53,7 +53,7 @@ Focused view is categorized into the following sections.
    - **Search, filter, and sort**: These options are displayed at the top of the work list item view. You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between focused view and list view. The attributes available in the view are displayed as filters and sort. These attributes include fields added through [workspace customizations](customize-workspace-sales-accelerator.md#manage-filters) in the sales accelerator, and any new fields added to the work list card through card customization.  
 
       > [!NOTE]
-      > The following attributes types are not supported in filter and sort&mdash;Owner, Lookup, Customer, Uniqueidentifier, and Lookup.
+      > The following attributes types are not supported in filter and sort&mdash;Owner, Lookup, Customer, Uniqueidentifier, related entities, and advanced filter that are created through workspace customizations.
 
       For lead and opportunity entities, filters might display deprecated attribute options. To remove these filters, go to work list card customization and remove the **Predictive scoring** field.  
 
@@ -79,7 +79,7 @@ You can customize the work list card to display the information that you want to
 The customization that you make to the work list card is specific to the entity type. For example, if you customize the work list card for the Lead entity, the customization is applied only to the Lead entity. The customization isn't applied to the Account, Contact, Opportunity, or other entities. These customizations also affect the sales accelerator workspace view. 
 
 > [!NOTE]
-> You need to have read permissions for the **msdyn_workqueueusersetting** entity to see the **Settings** icon and customize the work list card. Contact your administrator to provide the required permissions.
+> You need to have read permissions for the **Work list user setting** entity to see the **Settings** icon and customize the work list card. Contact your administrator to provide the required permissions.
 
 1. In the focused view page, on the work list pane, select **More options** and then select **Settings**.  
 
