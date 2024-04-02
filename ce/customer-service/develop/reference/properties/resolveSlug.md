@@ -3,7 +3,7 @@ title: resolveSlug method (app profile manager) JavaScript API Reference
 description: Learn about the resolveSlug API of app profile manager in Customer Service workspace.
 author: gandhamm
 ms.author: mgandham
-ms.date: 04/01/2024
+ms.date: 04/02/2024
 ms.topic: reference
 ---
 
@@ -37,7 +37,7 @@ These examples use the 'resolveSlug' method to retrieve the value of a session c
 Retrieves the value from a variable in an entity session.
 
 ```JavaScript
-var caseTitle = Microsoft.Apm.getFocusedSession().resolveSlug(“{anchor.title}”}
+var caseTitle = Microsoft.Apm.getFocusedSession().resolveSlug("{anchor.title}")
 ```
 
 **Generic session template**
@@ -45,7 +45,7 @@ var caseTitle = Microsoft.Apm.getFocusedSession().resolveSlug(“{anchor.title}�
 Retrieves the value from a variable in a generic session.
 
  ```JavaScript
-var customerName = Microsoft.Apm.getFocusedSession().resolveSlug(“{customerName}”}
+var customerName = Microsoft.Apm.getFocusedSession().resolveSlug("{customerName}")
 ```
 > [!NOTE]
 > Make sure that you include the variable between brackets {}.
