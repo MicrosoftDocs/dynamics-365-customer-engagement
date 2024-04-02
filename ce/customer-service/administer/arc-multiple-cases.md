@@ -17,7 +17,7 @@ ms.custom:
 
 # Create multiple cases from an email sent to multiple mailboxes
 
-When an email is sent to multiple mailboxes (To, Cc, or Bcc) that are queue-enabled in Customer Service, the email gets converted to only one case using automatic record creation rules. Sometimes, [multiple cases do get created for an email sent to multiple mailboxes](arc-faqs.md#why-do-multiple-cases-get-created-from-a-single-email) but the email gets associated only to one case and is displayed on one of the case timeline only.
+When an email is sent to multiple mailboxes (To, Cc, or Bcc) that are queue-enabled in Customer Service, the email gets converted to only one case using automatic record creation rules. Sometimes, [multiple cases do get created for an email sent to multiple mailboxes](arc-faqs.md#why-do-multiple-cases-get-created-from-a-single-email) but the email gets associated only to one case and is displayed on one of the case timelines only.
 
 As an administrator, you can enable this feature to ensure that multiple cases (one for each queue-enabled mailbox) are created when multiple mailboxes are added as recipients in the email. With the ability to create multiple cases from an email, agents can do the following:
 
@@ -53,7 +53,7 @@ The following flowchart explains how automatic record creation rules work to cre
 
 ### Recommendations
 
-- We recommend that you add a related attribute to your email form from the Power Apps Maker portal so that you can check which cases an email gets associated with after it gets converted to multiple cases. The related column isn't added to an email form by default. To enable users to use this new column, add the **Related** column to the email form. For information about how to add a column to a form, go to [add columns to a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
+- We recommend that you add a related attribute to your email form from the Power Apps Maker portal, so that you can check which cases an email gets associated with after it gets converted to multiple cases. The related column isn't added to an email form by default. To enable users to use this new column, add the **Related** column to the email form. For information about how to add a column to a form, go to [add columns to a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
 
 - When email gets converted to multiple cases, every case has the same case title by default, as the email subject gets copied to the case title. If you want to see which case originated in which mailbox, it's advisable to add the originating queue entries on the case form, which helps you identify which case got created in which queue.
 
