@@ -15,32 +15,16 @@ In the customer service industry, agents have to click often to perform simple t
 
 Macros are a set of sequential actions that are performed by a user. They enable users to perform daily operations efficiently in a fast and process-compliant manner. You can reuse macros with different sessions based on the context parameters that are specific to the session.
 
-The value propositions of the macros are as follows:
-
-- Automate repetitive and monotonous tasks with a single click.
-
-- Minimize human errors.
-
-- Adhere to business processes.
-
-- Lower average handling time.
-
-- Improve customer satisfaction.
-
-- Create contextual and reusable macros.
-
-The macros in Customer Service workspace have the following:
-
-- [Predefined automation actions](#predefined-automation-actions)
-- [Built-in control](#built-in)
 
 ## Prerequisites
 
-- Install Dynamics 365 Productivity Tools solution.
+- Make sure that you have the **Productivity tools administrator**  or **System Administrator** security role to design macros.
 
-- Ensure that you have the **Productivity tools administrator** security role. More information: [Assign roles and enable users](../implement/add-users-assign-roles.md)
+- Make sure that agents and supervisors are assigned the **Productivity tools user** or **Customer Service representative** security role to execute macros.
 
-- Ensure that agents and supervisors are assigned the **Productivity tools user** security role. More information: [Assign roles and enable users](../implement/add-users-assign-roles.md)
+More information: [Assign roles and enable users](../implement/add-users-assign-roles.md)
+
+## Create a Macro
 
 ## Predefined automation actions
 
