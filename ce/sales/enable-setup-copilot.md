@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales. Help your sales team can get summaries of their lead and opportunity records, catch up on recent changes, and prepare for meetings.
-ms.date: 04/01/2024
+ms.date: 04/02/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -39,7 +39,7 @@ For all the other orgs, an admin must provide consent in the Power Platform admi
 
 ## Prerequisites
 
-- Verify whether your org is in a region where Copilot in Dynamics 365 Sales is available. For a list of unsupported regions, see [this FAQ](sales-copilot-faq.md#is-copilot-in-dynamics-365-sales-available-in-all-regions) 
+- Verify whether your org is in a region where Copilot in Dynamics 365 Sales is available. For a list of unsupported regions, see [this FAQ](sales-copilot-faq.md#is-copilot-in-dynamics-365-sales-available-in-all-regions).
 - Verify whether your region has an Azure Open AI Service endpoint. If not, you must [provide consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to use Copilot in Dynamics 365 Sales. For more information, see [Copilot data movement](sales-copilot-data-movement.md).
 
  
@@ -53,7 +53,7 @@ For all the other orgs, an admin must provide consent in the Power Platform admi
 
 1. If your org is in a region where Azure Open AI Service endpoint isn't available but you haven't yet provided consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
-1. Under *All Dynamics 365 Sales apps**, select a global setting that you want to apply to all Sales apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app.  
+1. Under **All Dynamics 365 Sales apps**, select a global setting that you want to apply to all Sales apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app.  
 
     :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the new settings page in Dynamics 365 Sales Hub.":::  
 

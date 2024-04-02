@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 04/01/2024
+ms.date: 04/02/2024
 ---
 
 # Copilot in Dynamics 365 Sales FAQs
