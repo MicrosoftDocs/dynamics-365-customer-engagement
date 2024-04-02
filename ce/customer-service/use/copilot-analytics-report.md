@@ -66,6 +66,10 @@ The Copilot report displays the following metrics.
 | -------|---------|
 | Agent ratings | The number of times agents rated a Copilot response positively or negatively |
 
+## Next Steps
+
+You can view the transcripts of interactions between agents and Copilot. More information: [Download Copilot transcripts](../develop/download-copilot-transcript-data.md).
+
 ### See also
 
 [Use copilot features](use-copilot-features.md)  
