@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: 
 ms.topic: how-to
 ms.collection: 
-ms.date: 03/28/2024
+ms.date: 04/01/2024
 ms.custom: bap-template
 ---
 
@@ -69,7 +69,7 @@ The following table lists the channels and the associated procedures to configur
 
 | Channel                      | Action         |
 |------------------------------|----------------|
-| Voice                        | [Configure a new voice channel](../administer/voice-channel-inbound-calling.md) |
+| Voice                        | [Configure a new voice channel](../administer/voice-channel-inbound-calling.md). <br> <ol><li>[Disconnect from Azure Communication Services resources](../administer/voice-channel-disconnect-from-acs.md).</li><li>[Connect to a different Azure Communication Services resource](../administer/voice-channel-acs-resource.md).</li></ol> |
 | WhatsApp                     | [Configure a new WhatsApp channel](../administer/configure-whatsapp-channel.md).|
 | Facebook                     | [Configure a new Facebook channel](../administer/configure-facebook-channel.md). <br> **Note:** Delete the existing channel only to remove it from the workstream. |
 | LINE                         | [Configure a LINE channel](../administer/configure-line-channel.md)                 |
@@ -94,7 +94,8 @@ The following table lists the channels and the associated procedures to configur
 
 ### Azure Bots
 
-[Configure the Bot user in the Omnichannel for Customer Service environment](../administer/configure-bot-azure.md#integrate-azure-bots-with-omnichannel-for-customer-service).
+1. Delete the Azure bot from all existing workstreams and environment.
+1. Make sure to reconnect your bot by following the steps in [Configure the Bot user in the Omnichannel for Customer Service environment](../administer/configure-bot-azure.md#integrate-azure-bots-with-omnichannel-for-customer-service).
  
 ### Review real-time analytics
 
