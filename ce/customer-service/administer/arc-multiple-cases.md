@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/01/2024
+ms.date: 04/02/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -53,7 +53,7 @@ The following flowchart explains how automatic record creation rules work to cre
 
 ### Recommendations
 
-- We recommend that you add a related attribute to your email form from the Power Apps Maker portal so that you can check which cases an email gets associated with after it gets converted to multiple cases. The related column isn't added to an email form by default. To enable users to use this new column, add the **Related** column to the email form. For information about how to add a column to a form, go to [add columns to a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
+- We recommend that you add a related attribute to your email form from the Power Apps Maker portal, so that you can check which cases an email gets associated with after it gets converted to multiple cases. The related column isn't added to an email form by default. To enable users to use this new column, add the **Related** column to the email form. For information about how to add a column to a form, go to [add columns to a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
 
 - When email gets converted to multiple cases, every case has the same case title by default, as the email subject gets copied to the case title. If you want to see which case originated in which mailbox, it's advisable to add the originating queue entries on the case form, which helps you identify which case got created in which queue.
 
