@@ -116,19 +116,25 @@ While you're viewing a work order, you can also:
 
 - Open a map to locate the service address. Select the **Open in Bing Maps** :::image type="icon" source="media/fsp-flm-map-icon.png"::: icon.
 
-## Add attachments to the work order
-
-Add installation manuals, maintenance documents, specifications, or troubleshooting tips relevant to a work order. Attachments enables technicians to ask Copilot questions and quickly obtain answers allowing for quicker diagnostics and problem-solving. As technicians work on jobs, they can interact with Copilot for real-time advice. Attachments must be notes, Word, or PDF documents.
-
-[Add attachments to the work order](work-order-experience.md#timeline-tab).
-
-:::image type="content" source="media/timeline-tab.svg" alt-text="Field Service Work Order page, Timeline tab.":::
-
 ## Edit a work order in Teams
 
 1. [View the work order](#view-a-work-order) you want to edit.
 
 1. Make the necessary changes and select **Save**.
+
+## Add attachments to the work order
+
+Add installation manuals, maintenance documents, specifications, or troubleshooting tips relevant to a work order. Attachments enable technicians to ask Copilot questions and quickly obtain answers allowing for quicker diagnostics and problem-solving. As technicians work on jobs, they can interact with Copilot for real-time advice. Attachments must be notes, Word, or PDF documents.
+
+1. [View the work order](#view-a-work-order).
+
+1. Select the pop-out :::image type="icon" source="media/fsp-pop-out-icon.png"::: icon to open the work order in Dynamics 365 Field Service.
+
+1. Select the **Timeline tab**.
+
+1. Select the **Attachment** icon. Browse and select the item, and then select **Add note and close**.
+
+   :::image type="content" source="media/timeline-tab.svg" alt-text="Field Service Work Order page, Timeline tab.":::
 
 ## Call for remote collaboration through Remote Assist
 

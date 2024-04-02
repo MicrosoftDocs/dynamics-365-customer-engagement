@@ -15,7 +15,7 @@ ms.collection: bap-ai-copilot
 
 With the Dynamics 365 Field Service Plugin for Microsoft Copilot, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Microsoft Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
 
-Copilot can also parse through a [work order's attachments](flw-teams-manager.md#add-attachments-to-the-work-order) to provide answers to your questions. Frontline managers can upload information pertinent to the work order before a technician is scheduled to arrive. Frontline workers can quickly obtain answers such as required tools or step-by-step instructions from Copilot while in Teams.
+Copilot can also parse through a [work order's attachments](flw-teams-manager.md#add-attachments-to-the-work-order) to provide answers to questions. Frontline managers can upload information pertinent to the work order before a technician is scheduled to arrive. Frontline workers can quickly obtain answers such as required tools or step-by-step instructions from Copilot.
 
 To access this chat feature, an admin must [set up Microsoft Copilot for Field Service work orders](flw-copilot-setup.md).
 
@@ -69,9 +69,10 @@ Answers that come from an attachment show under **reference** at the bottom of t
 
 ### More sample questions
 
-- How do I handle the battery of the Surface Laptop 4 safely?
+- How do I handle the battery of the Surface Laptop safely? Please provide a list of recommendations
+- What temperatures are in the Surface Laptop battery's operating range?
+- How do I separate the C-cover from the Surface Laptop?
 - What service tools are required to replace the non-skid foot pad on the Surface laptop?
-- How do I remove the non-skid foot pad on the Surface laptop?
 - What are the details for {work order number}? Can you summarize? Can you summarize in a paragraph?
 - Give me the full details for my most recent work order.
 - Are there any work orders with priority set to high?

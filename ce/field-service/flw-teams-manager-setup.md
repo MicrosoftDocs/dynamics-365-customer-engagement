@@ -39,7 +39,7 @@ Your admin might have installed the app for your organization. If you see the Fi
 
    [Look up your environment](/power-platform/admin/determine-org-id-name) if you're not sure which one to choose.
 
-1. Once the environment is validated, select one of the following:
+1. Once the environment is validated, select one of the following options:
 
    - The **Home** tab to go to the Teams **Home** page.
 
