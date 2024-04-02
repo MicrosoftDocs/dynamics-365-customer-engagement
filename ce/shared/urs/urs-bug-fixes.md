@@ -32,8 +32,8 @@ For information about older versions, see [Version history archive](../../field-
 - Unchecked working days are no longer shown in the schedule board's list view.
 - Various bug fixes to working days selection.
 - Fixed a bug that was casing discrepancies between values on bookings made using the Create panel and how they were displayed in Map view.
-- Requirement Details are now shown properly in the Edit Booking panel. 
-- Users can now changing booking status in the Create Booking panel.
+- Requirement details are now shown properly in the Edit Booking panel. 
+- Users can now change booking status in the Create Booking panel.
 
 ## 3.12.125.30
 
