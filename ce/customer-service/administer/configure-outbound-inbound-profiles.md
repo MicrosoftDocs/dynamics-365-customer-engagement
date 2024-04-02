@@ -1,7 +1,7 @@
 ---
 title: Configure outbound and inbound profiles
 description: Configure outbound and inbound profiles with various settings, such as caller ID, language, and wait music for the voice channel.
-ms.date: 03/01/2024
+ms.date: 04/02/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -41,14 +41,14 @@ Make sure that the following prerequisites are in place:
 
 1. In **Inbound behaviors**, configure the following settings:
 
-  - **Language**: Accept the default language as **English - United States** or select a language from the list.
-  - **Hold music**: Select a music file to play when the call is on hold.
-  - **Wait music**: Select a music file to play when the call is in waiting.
-  - **Call transfer to external phone number**: Set the toggle to **On** if you want the agents to transfer the call to a phone number outside of your organization.
-  - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the agents to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
-  - **Transcription and recording**: Select whether you want to transcript the call and record it. Select **None** if you don't want to.
-    - **Start setting**: Is enabled when you select transcript or transcription and recording. Set to Automatic if the call recording and transcription needs to start immediately.
-      - **Allow agents to pause and resume**: Is enabled when you set the **Start setting** to Automatic. Set to **Yes** to let agents pause and resume the recording and transcription.
+   - **Language**: Accept the default language as **English - United States** or select a language from the list.
+   - **Hold music**: Select a music file to play when the call is on hold.
+   - **Wait music**: Select a music file to play when the call is in waiting.
+   - **Call transfer to external phone number**: Set the toggle to **On** if you want the agents to transfer the call to a phone number outside of your organization.
+   - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the agents to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
+   - **Transcription and recording**: Select whether you want to transcript the call and record it. Select **None** if you don't want to.
+     - **Start setting**: Is enabled when you select transcript or transcription and recording. Set to **Automatic** if the call recording and transcription needs to start immediately.
+      - **Allow agents to pause and resume**: Is enabled when you set the **Start setting** to **Automatic**. Set to **Yes** to let agents pause and resume the recording and transcription.
 
 1. Select **Next**, verify the settings, and select **Save and close**.
 
@@ -70,7 +70,8 @@ You can define how agents use the outbound calls and which agents can make those
     - **Number label**: Enter a label to denote the business context, like Billing, that's displayed with the phone number at the agent end when they call a customer. This value is automatically populated with the phone name string on the agent dialer that the agent can edit.
     - **Queue**: Select a queue from the dropdown list.
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
-    - **Caller ID number**: Select a number from the list. The **(Profile Number)** label against the number indicates that the caller ID displays the same number as the profile number. It's also the default setting.
+    - **Caller ID number**: Select a number from the list. The **(Profile Number)** label against the number indicates that the caller ID displays the same number as the profile number. It's also the default setting.<br>
+      If you select a caller ID that's different from the profile number, make sure the number has an outbound profile so that bot settings are created.
 1. In **Outbound behaviors**, do the following: 
     - **Allow list for countries/regions**: Select the countries or regions whose numbers your agents can call. If an agent has multiple outbound profiles, they'll see a list of countries or regions that are selected in all profiles.
       > [!NOTE]
