@@ -1,7 +1,7 @@
 ---
 title: Skill control for routed records
 description: Learn how to add a skill control on forms to view skills of any record that's routed through unified routing.
-ms.date: 04/04/2024
+ms.date: 04/02/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -15,7 +15,7 @@ search.audienceType:
 
 # Add a skill control for routed records
 
-Dynamics 365 provides a custom control that you can embed in your forms to view the skills of any routed record. To display the skill control for the routed record in the Customer Service workspace or Omnichannel for Customer Service app, add the control to the multisession form.
+Dynamics 365 provides a custom control that you can embed in your forms to view the skills of any routed record. To display the skill control for the routed record in the Customer Service workspace or Omnichannel for Customer Service (deprecated) app, add the control to the multisession form.
 
 ## Prerequisites
 
@@ -26,7 +26,7 @@ Dynamics 365 provides a custom control that you can embed in your forms to view 
 
 ## Add a skill control
 
-In the following example, to add a skill control named **Skills** to the case form:
+In the following example, to add a skill control named **Skills** to the **Case for Interactive experience** form:
 
 1. In Power Apps, select the required environment, and then select the solution that you want to customize.
 1. Go to **Tables**, and select **Case** > **Forms**.
