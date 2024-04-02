@@ -25,7 +25,7 @@ The following channels are supported in the inbox:
 - Voice
 - Unified routing enabled records
 
-The following asynchronized channels are available in the conversation inbox.
+The following asynchronized channels are available in the conversation inbox:
 
 - SMS
 - Persistent chat
@@ -37,7 +37,7 @@ The following asynchronized channels are available in the conversation inbox.
 
 ## Live chat and voice channel in inbox
 
-The following are things to note about live conversation settings in the inbox:
+Note the following about live conversation settings in the inbox:
 
 - When an agent accepts a live work item, that item is then added to the relevant view in the inbox, whether or not the agent is using the inbox at the time of the live work item.
 - Voice calls always open as a new session with the card added to the inbox for awareness.
@@ -74,7 +74,7 @@ You can configure the inbox in the Customer Service admin center by editing the 
      - Assigned to me:
        - Emails sent to me
        - Emails assigned to me
-     - Unassigned**:
+     - Unassigned:
        - Emails in my team
        - Emails in my queue(s)
        - Emails in a shared mailbox
@@ -142,10 +142,10 @@ The following simple settings are available out of the box for the record types.
 
 You can configure a customized sort option for the inbox so that users can choose their desired attributes to sort by.
 
-1. In Customer Service admin center, select **Workspaces** in the sitemap.
+1. In Customer Service admin center site map, select **Workspaces**.
 1. On the **Workspaces** page, next to **Agent experience profiles**, select **Manage**.
 1. On the **Agent experience profiles** page, select the profile you want to edit.
-1. On the profile page, in **Inbox**, select **Edit**.
+1. On the **Profile** page, in **Inbox**, select **Edit**.
 1. In the **Edit view** pane, in the **Sort** section, select the entity and attributes, along with sort order.
 
       :::image type="content" source="../media/custom-sort-inbox.png" alt-text="Custom sort option in the Edit view pane for inbox."::: 
