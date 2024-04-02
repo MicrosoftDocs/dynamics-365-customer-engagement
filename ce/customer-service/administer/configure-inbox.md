@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox
 description: Use this article to enable and configure inbox settings in Customer Service admin center.
-ms.date: 04/01/2024
+ms.date: 04/02/2024
 author: lalexms
 ms.author: laalexan
 ms.reviewer:
