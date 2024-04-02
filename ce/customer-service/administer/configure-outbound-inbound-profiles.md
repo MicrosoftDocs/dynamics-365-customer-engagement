@@ -41,14 +41,14 @@ Make sure that the following prerequisites are in place:
 
 1. In **Inbound behaviors**, configure the following settings:
 
-  - **Language**: Accept the default language as **English - United States** or select a language from the list.
-  - **Hold music**: Select a music file to play when the call is on hold.
-  - **Wait music**: Select a music file to play when the call is in waiting.
-  - **Call transfer to external phone number**: Set the toggle to **On** if you want the agents to transfer the call to a phone number outside of your organization.
-  - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the agents to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
-  - **Transcription and recording**: Select whether you want to transcript the call and record it. Select **None** if you don't want to.
-    - **Start setting**: Is enabled when you select transcript or transcription and recording. Set to Automatic if the call recording and transcription needs to start immediately.
-      - **Allow agents to pause and resume**: Is enabled when you set the **Start setting** to Automatic. Set to **Yes** to let agents pause and resume the recording and transcription.
+   - **Language**: Accept the default language as **English - United States** or select a language from the list.
+   - **Hold music**: Select a music file to play when the call is on hold.
+   - **Wait music**: Select a music file to play when the call is in waiting.
+   - **Call transfer to external phone number**: Set the toggle to **On** if you want the agents to transfer the call to a phone number outside of your organization.
+   - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the agents to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
+   - **Transcription and recording**: Select whether you want to transcript the call and record it. Select **None** if you don't want to.
+     - **Start setting**: Is enabled when you select transcript or transcription and recording. Set to **Automatic** if the call recording and transcription needs to start immediately.
+      - **Allow agents to pause and resume**: Is enabled when you set the **Start setting** to **Automatic**. Set to **Yes** to let agents pause and resume the recording and transcription.
 
 1. Select **Next**, verify the settings, and select **Save and close**.
 
