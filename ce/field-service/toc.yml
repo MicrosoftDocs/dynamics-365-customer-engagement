@@ -187,7 +187,11 @@ items:
     - name: Field Service in Outlook for frontline managers
       href: flw-outlook.md
     - name: Field Service in Teams for frontline managers
-      href: flw-teams-manager.md
+      items:
+        - name: Get started with Field Service in Teams
+          href: flw-teams-manager-setup.md
+        - name: Manage work orders with Field Service in Teams
+          href: flw-teams-manager.md
     - name: Field Service in Teams for frontline workers
       href: flw-teams-worker.md
     - name: Field Service Plugin for Microsoft Copilot

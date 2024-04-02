@@ -116,6 +116,14 @@ While you're viewing a work order, you can also:
 
 - Open a map to locate the service address. Select the **Open in Bing Maps** :::image type="icon" source="media/fsp-flm-map-icon.png"::: icon.
 
+## Add attachments to the work order
+
+Add installation manuals, maintenance documents, specifications, or troubleshooting tips relevant to a work order. Attachments enables technicians to ask Copilot questions and quickly obtain answers allowing for quicker diagnostics and problem-solving. As technicians work on jobs, they can interact with Copilot for real-time advice. Attachments must be notes, Word, or PDF documents.
+
+[Add attachments to the work order](work-order-experience.md#timeline-tab).
+
+:::image type="content" source="media/timeline-tab.svg" alt-text="Field Service Work Order page, Timeline tab.":::
+
 ## Edit a work order in Teams
 
 1. [View the work order](#view-a-work-order) you want to edit.

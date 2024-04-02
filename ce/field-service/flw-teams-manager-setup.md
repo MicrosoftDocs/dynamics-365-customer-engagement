@@ -52,11 +52,3 @@ Your admin might have installed the app for your organization. If you see the Fi
 ## Enable the Microsoft Copilot for Field Service work orders
 
 [!INCLUDE [fsp-m365-copilot](../includes/fsp-m365-copilot.md)]
-
-## Add attachments to the work order
-
-Add installation manuals, maintenance documents, specifications, or troubleshooting tips relevant to the work order. Attachments enables technicians to ask Copilot questions and quickly obtain answers allowing for quicker diagnostics and problem-solving. As technicians work on jobs, they can interact with Copilot for real-time advice. Attachments must be notes, Word, or PDF documents.
-
-[Add attachments to the work order](work-order-experience.md#timeline-tab).
-
-:::image type="content" source="media/timeline-tab.svg" alt-text="Field Service Work Order page, Timeline tab.":::

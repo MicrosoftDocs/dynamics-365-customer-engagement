@@ -1,7 +1,7 @@
 ---
 title: FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot
 description: This FAQ provides information about the AI technology used in the Dynamics 365 Field Service Plugin for Microsoft Copilot.
-ms.date: 03/18/2024
+ms.date: 04/02/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 
 # FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot
 
-This FAQ describes the AI impact of the Dynamics 365 Field Service Plugin for Microsoft Copilot to generate questions about work orders.
+This FAQ describes the AI impact of the Dynamics 365 Field Service Plugin for Microsoft Copilot to ask questions about work orders.
 
 ## What is Dynamics 365 Field Service Plugin for Microsoft Copilot?
 
@@ -21,7 +21,7 @@ Dynamics 365 Field Service Plugin for Microsoft Copilot utilizes the power of Mi
 
 ## What are the feature’s capabilities?
 
-The feature allows you to enter a question about work orders and generate answers quickly. For example, frontline managers can ask for a list of all work orders for tomorrow. Or how many high priority work orders from last week that haven’t completed.  
+The feature allows you to ask questions about work orders and generate answers quickly. For example, frontline managers can ask for a list of all work orders for tomorrow. Or how many high priority work orders from last week that haven’t completed.  
 
 Frontline workers can ask how many work orders they have for next week or ask for detailed information on a specific work order. They can ask how to do something or what tools they need for the job.
 
@@ -43,7 +43,7 @@ In addition, it's evaluated with embedded monitoring for Responsible AI. Specifi
 
 - Educational and government environments or other highly regulated organizations aren’t supported.
 
-### Types of data that are supported
+## What types of data are supported?
 
 The feature supports:
 
@@ -53,16 +53,7 @@ The feature supports:
 
 ## What are the supported geographies and languages?
 
-This feature is available in the following countries, regions, and languages:
-
-- English (United States, Great Britain, Australia, Canada, and India)
-- Spanish (Spain and Mexico)
-- Japanese
-- French (France and Canada)
-- German
-- Portuguese (Brazil)
-- Italian
-- Chinese Simplified
+This feature is available in English (United States, Great Britain, Australia, Canada, and India).
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

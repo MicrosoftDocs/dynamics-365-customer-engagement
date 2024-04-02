@@ -15,15 +15,15 @@ ms.collection: bap-ai-copilot
 
 With the Dynamics 365 Field Service Plugin for Microsoft Copilot, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Microsoft Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
 
-Copilot can also parse through a [work order's attachments](flw-teams-manager-setup.md#add-attachments-to-the-work-order) to provide answers to your questions. Frontline managers can upload information pertinent to the work order before a technician is scheduled to arrive. Frontline workers can upload history, common issues, and other information that would help technicians for future work orders.
+Copilot can also parse through a [work order's attachments](flw-teams-manager.md#add-attachments-to-the-work-order) to provide answers to your questions. Frontline managers can upload information pertinent to the work order before a technician is scheduled to arrive. Frontline workers can quickly obtain answers such as required tools or step-by-step instructions from Copilot while in Teams.
 
 To access this chat feature, an admin must [set up Microsoft Copilot for Field Service work orders](flw-copilot-setup.md).
 
-## What do you want to know about work orders?
+## Best practices
 
-Ask any straight-forward question about Field Service work orders. Ambiguous questions such as "What are the most important work orders" might not return results as "most important" isn't a defined status. Instead, ask "What are the high priority work orders?"
+- Ask any straight-forward question about Field Service work orders. Ambiguous questions such as "What are the most important work orders" might not return results as "most important" isn't a defined status. Instead, ask "What are the high priority work orders?"
 
-Be specific about the expected outcomes. For example, if you want results in table format, then use the phrase "in table format." If you want a consolidated result or summary, be specific. For example, "What is the incident type and service account for work order 00041?"
+- Be specific about the expected outcomes. For example, if you want results in table format, then use the phrase "in table format." If you want a consolidated result or summary, be specific. For example, "What is the incident type and service account for work order 00041?"
 
 ## Frontline managers and dispatchers
 
@@ -57,9 +57,15 @@ Be specific about the expected outcomes. For example, if you want results in tab
 
    :::image type="content" source="media/fsp-m365-chat-flw.png" alt-text="Microsoft Copilot chat showing the address of a work order and the type of another work order":::
 
-### Ask for detailed information from documents
+### Ask for instructions for a work order
 
-   :::image type="content" source="media/fsp-m365-chat-flw.png" alt-text="Microsoft Copilot chat showing the address of a work order and the type of another work order":::
+To ask for information from uploaded attachments such as installation manuals, maintenance documents, or troubleshooting notes, tell Copilot to search through documents.
+
+   :::image type="content" source="media/fsp-m365-chat-flw2.png" alt-text="Microsoft Copilot chat showing the list of tools needed for the work order":::
+
+   :::image type="content" source="media/fsp-m365-chat-flw3.png" alt-text="Microsoft Copilot chat showing step-by-step instructions for the work order":::
+
+Answers that come from an attachment show under **reference** at the bottom of the answer.
 
 ### More sample questions
 
