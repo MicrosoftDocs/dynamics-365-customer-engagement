@@ -10,7 +10,7 @@ ms.date: 04/01/2024
 ms.custom: bap-template
 ---
 
-# Copy an environment with Omnichannel for Customer Service
+# Copy an environment with Omnichannel for Customer Service RHANA
 
 Use the information in this article to learn how to copy a Dynamics 365 Customer Service environment in which Omnichannel for Customer Service is provisioned. The environment with Omnichannel for Customer Service integrates with several external services and channels like WhatsApp, Twilio, and Azure Communication Services. The endpoints and other parameters for these integrations are stored in Dataverse entities. These parameters are also copied when you copy the environment into another environment.
 
@@ -74,7 +74,7 @@ The following table lists the channels and the associated procedures to configur
 | Facebook                     | [Configure a new Facebook channel](../administer/configure-facebook-channel.md). <br> **Note:** Delete the existing channel only to remove it from the workstream. |
 | LINE                         | [Configure a LINE channel](../administer/configure-line-channel.md)                 |
 | Apple Messages for Business  | [Configure an Apple Messages for Business channel](../administer/configure-apple-messages-for-business-channel.md) |
-| Google’s Business Messages   | [Configure a Google’s Business Messages channel](../administer/configure-google-business-messages-channel.md) |
+| Google's Business Messages   | [Configure a Google's Business Messages channel](../administer/configure-google-business-messages-channel.md) |
 | Microsoft Teams              | [Configure a Microsoft Teams channel](../administer/configure-microsoft-teams.md) |
 | WeChat                       | [Configure a WeChat channel](../administer/configure-wechat-channel.md) |
 | Custom channels              | [Configure a custom channel](../develop/bring-your-own-channel.md) |
@@ -85,9 +85,9 @@ The following table lists the channels and the associated procedures to configur
 
 ### Review Copilot Studio bots
 
-1.	Delete the Copilot Studio bots from all existing workstreams and the environment.
-2.	[Create a bot](../administer/manage-your-bots.md#add-a-bot) or connect a previously configured bot specific to the target environment and configure with channel workstreams.
-3.	Update the existing workstreams to use the new bot.
+1.  Delete the Copilot Studio bots from all existing workstreams and the environment.
+2.  [Create a bot](../administer/manage-your-bots.md#add-a-bot) or connect a previously configured bot specific to the target environment and configure with channel workstreams.
+3.  Update the existing workstreams to use the new bot.
 
 > [!NOTE]
 > If you want to continue to use the same Copilot Studio bot in the new target environment, reconnect the Copilot Studio bot in the new environment, and then follow [the configuration steps](/microsoft-copilot-studio/configuration-hand-off-omnichannel?tabs=webApp#manage-your-copilots-omnichannel-capabilities) to disconnect and reconnect Omnichannel for Customer Service. If you reconnect the Copilot with another environment, it will break the source environment.
@@ -110,4 +110,3 @@ To make sure that [historical analytics reports](../administer/oc-historical-ana
 ### See also
 
 [Export and import app configuration data](export-import-omnichannel-data.md)  
-
