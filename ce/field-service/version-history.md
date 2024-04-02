@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release scheudle and version history for Dynamics 365 Field Service.
-ms.date: 02/18/2024
+ms.date: 04/02/2024
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
@@ -34,17 +34,17 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.112.23
 (Includes Universal Resource Scheduling version [3.12.129.28](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212928) and Resource Scheduling controls version 1.2.68.240862).
 
-- Work order copilot branding updated.
+- Copilot in Field Service branding updates.
 - Custom booking statuses no longer extend past their dropdown container.
-- The quantity to bill will now be updated for work order products when editing the quantity via grid control on work order form.
+- The quantity to bill updates for work order products when editing the quantity via grid control on the work order form.
 - Customer phone number now populates in bookings created via work order form.
-- The Functional Location list is now scrollable when viewing large hierarchies on work order form.
-- Work order summary card will no longer show a completion bar when the work order has 0 estimated duration.
+- The functional location list is now scrollable when viewing large hierarchies on work order form.
+- Work order summary card no longer shows a completion bar when the work order has an estimated duration of 0.
 - Work order status column now extends to the end of the details card on work order form.
-- Work order priority will no longer allow drop-down selection when set to read-only.
-- Long functional location names will now wrap around when selecting a location on work order from.
+- Work order priority no longer allows drop-down selection when set to read-only.
+- Long functional location names will now wrap around when selecting a location on the work order from.
 - Long work order statuses now truncate.
-- Long Work order service tasks names now truncate in list view on work order form.
+- Long work order service tasks names now truncate in the list view on the work order form.
 
 ## 8.8.110.18
 (Includes Universal Resource Scheduling version [3.12.125.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212530) and Resource Scheduling controls version 1.2.64.240721).
