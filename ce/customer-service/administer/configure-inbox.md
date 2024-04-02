@@ -71,13 +71,13 @@ You can configure the inbox in the Customer Service admin center by editing the 
      -  **Unassigned**
      -  **Resolved**
    - **Email**: Is available if you select the record type as Email. Select all the options that you want to enable.
-     - **Assigned to me**:
-       - **Emails sent to me**
-       - **Emails assigned to me**
-     - **Unassigned**:
-       - **Emails in my team**
-       - **Emails in my queue(s)**
-       - **Emails in a shared mailbox**
+     - Assigned to me:
+       - Emails sent to me
+       - Emails assigned to me
+     - Unassigned**:
+       - Emails in my team
+       - Emails in my queue(s)
+       - Emails in a shared mailbox
     - **Agent Visibility**: Select one of the following options to show or hide the view to agents:
       - **Show**
       - **Hide**
