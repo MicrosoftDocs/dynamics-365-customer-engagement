@@ -77,7 +77,7 @@ The integration uses a reliable asynchronous transaction framework to make sure 
 
   - If the transaction fails to complete, the status in Field Service indicates the failure. The system [retries the transaction several times](/dynamics365/fin-ops-core/dev-itpro/sysadmin/retryable-batch#retry-the-batch-job-task-regardless-of-the-error-type).
 
-  - If the transaction still fails to synchronize, the error and transaction details are preserved in the finance and operations transaction record, allowing users to troubleshoot the issue and re-sync the transaction.
+  - If the transaction still fails to synchronize, the error and transaction details are preserved in the finance and operations transaction record, allowing users to troubleshoot the issue and resync the transaction.
 
     - While important, with correct system configuration, this level of intervention into specific transactions are the exception; however, enabling this type of issue resolution is critical to making sure that transactional consistency can be maintained between the two platforms.
 
@@ -109,9 +109,9 @@ Field Service hides the following navigation items:
 - Product Inventory
 - Transfers
 - Adjustments
-- RMAs
+- Return merchandise authorizations (RMAs)
 - RMA Receipts
-- RTVs
+- Return to vendor (RTVs)
 
 Field Service shows the following items:
 
@@ -131,11 +131,11 @@ For organizations using product variants, there are relevant views that show all
 
 ## Limitations
 
-This integration supports the use of [Microsoft-managed](/dynamics365/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview#customer-lifecycle-subscriptions-and-environment-types) environments. Customer-managed environments are not supported with this integration.
+This integration supports the use of [Microsoft-managed](/dynamics365/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview#customer-lifecycle-subscriptions-and-environment-types) environments. Customer-managed environments aren't supported with this integration.
 
 [Project Operations resource/non-stocked integration](/dynamics365/project-operations/environment/resource-dual-write-overview) doesn't allow the Field Service integration to work within the same legal entities that have been enabled for the resource/non-stocked integrated scenario. However, it can work within the same environments for other legal entities.
 
-Offline virtual tables are currently not supported, which is why it is critical to [set up the defaulting logic for locations](finance-operations-integration-setup.md#configure-inventory-and-warehouse-management-within-warehouses) so that transactions don't get blocked.
+Offline virtual tables are currently not supported, which is why it's critical to [set up the defaulting logic for locations](finance-operations-integration-setup.md#configure-inventory-and-warehouse-management-within-warehouses) so that transactions don't get blocked.
 
 The following processes or features available within the finance and operation apps aren't supported or aren't reflected within Field Service out-of-the-box for this integration:
 
