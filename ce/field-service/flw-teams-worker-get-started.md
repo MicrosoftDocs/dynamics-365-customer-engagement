@@ -31,7 +31,7 @@ Your environment is in a [supported geography, region, and language](flw-overvie
 
 1. Select the **Settings** tab.
 
-1. Select your Field Service environment. If you work in more than one environment, you can easily [switch environments](#switch-environments) when you need to.
+1. Select your Field Service environment. If you work in more than one environment, you can easily [switch environments](flw-teams-worker.md#switch-environments) when you need to.
 
    :::image type="content" source="media/fsp-environment-flw.png" alt-text="Screenshot of Field Service environment selection for the frontline worker":::
 
@@ -51,5 +51,8 @@ Your environment is in a [supported geography, region, and language](flw-overvie
 
 [!INCLUDE [fsp-m365-copilot](../includes/fsp-m365-copilot.md)]
 
+## Next steps
+
+- [Manage work orders with Field Service in Teams](flw-teams-worker.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

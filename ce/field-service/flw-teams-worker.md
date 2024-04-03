@@ -16,7 +16,7 @@ The Dynamics 365 Field Service app for Teams enables frontline workers to manage
 
 ## Prerequisites
 
-- You have completed [Get started with Field Service in Teams](flw-teams-worker-setup.md).
+- You have completed [Get started with Field Service in Teams](flw-teams-worker-get-started.md).
 
 ## View a work order
 

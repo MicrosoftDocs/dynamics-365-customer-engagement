@@ -14,11 +14,15 @@ ms.subservice: m365-integrations
 
 Dynamics 365 Field Service provides an Outlook add-in for frontline managers to create, view, and edit work orders directly from their email. Without leaving Outlook, you can quickly respond to requests for service or questions about existing requests. The add-in provides copilot AI assistance to quickly create a work order with the information from the email. Then you can see suggested schedules so you can quickly select and book a technician. You can also create a work order manually and use the [Field Service schedule board](work-with-schedule-board.md) for scheduling.
 
+## Prerequisites
+
+- You have completed [Get started with Field Service in Outlook](flw-outlook-get-started.md).
+
 ## Create a work order with Copilot
 
 Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you don't see the Copilot icon, your admin might have [disabled the Copilot setting](configure-default-settings.md#features-settings).
 
-1. While you're viewing an email, [open the Field Service add-in](#open-the-field-service-add-in). If the email was previously used to create a work order using Copilot, a message displays with a link to the work order.
+1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in). If the email was previously used to create a work order using Copilot, a message displays with a link to the work order.
 
 1. On the Home tab, select **Create a work order from email**.
 
@@ -53,7 +57,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
 ## Create a work order manually in Outlook
 
-1. While you're viewing an email, [open the Field Service add-in](#open-the-field-service-add-in), and then select the **Work orders** tab.
+1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in), and then select the **Work orders** tab.
 
 1. Select the **Create work order (+)** button.
 
@@ -125,7 +129,7 @@ If you don't need to change the assigned technician, just the date or time of th
 
 ## View a work order
 
-1. While you're viewing an email, [open the Field Service add-in](#open-the-field-service-add-in), and then select the **Work orders** tab.
+1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in), and then select the **Work orders** tab.
 
    The list shows up to 50 work orders, with the most recent one listed first.
 

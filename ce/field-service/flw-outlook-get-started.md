@@ -68,14 +68,6 @@ Open an email or view it in the Reading Pane, and then select the Field Service 
 > [!TIP]
 > By default, the **Field Service** pane closes when you switch to a different email. To keep the pane open across all emails, select the **Pin** icon.
 
-## View version number and session ID
-
-[Open the Field Service add-in](#open-the-field-service-add-in) and select the ellipsis (**&hellip;**).
-
-:::image type="content" source="media/fsp-outlook-about.png" alt-text="Field Service Outlook pane showing version number, session ID, and links to overview and privacy statement.":::
-
-In addition to the viewing the version number and session ID, you can sign out, or select a link to view the Field Service in Outlook overview or Microsoft Privacy Statement.
-
 ## Next steps
 
 - [Manage work orders with Field Service in Outlook](flw-outlook.md)
