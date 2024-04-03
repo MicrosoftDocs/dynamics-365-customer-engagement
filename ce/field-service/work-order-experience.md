@@ -1,7 +1,7 @@
 ---
 title: New work order experience
 description: Learn about the new work order experience in Dynamics 365 Field Service, including how to manage work orders and customize forms.
-ms.date: 02/01/2024
+ms.date: 04/01/2024
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -28,7 +28,7 @@ The view called **Work Orders** displays columns you often need to update quickl
 
 ### Editable work order grid
 
-The new editable grid lets you update the status and priority of work orders inline. You can [quickly update other fields in a side pane](#side-pane). To switch between the legacy read-only grid and the new editable grid, select **Show As** in the command bar.
+The new editable grid shows key information, such as status, service account, priority, and booked resources for your work orders. You can update the status and priority of work orders directly on the grid. [Update more more fields in a side pane](#side-pane). To find information quickly, apply filters to the grid. To switch between the legacy read-only grid and the new editable grid, select **Show As** in the command bar.
 
 :::image type="content" source="media/work-order-list-grid.png" alt-text="Screenshot of the new Work Orders view in the refreshed Field Service user experience, with the Show As button highlighted.":::
 
@@ -70,7 +70,9 @@ The **Details** card contains a high-level overview of the work order. Here you 
 
 #### Location or Functional location card
 
-The **Location** or **Functional location** card contains the service address, information about where to find the asset at the address (the functional location), and a map. If no functional location is available, the card shows only the service address. If no service address is available, the card shows the address of the contact who reported the issue that initiated the work order.
+The **Location** or **Functional location** card contains the service address, information about where to find the asset at the address (the functional location), and a map. To help you find a functional location more easily, the card includes the hierarchy breadcrumb. For example, Room 1 is on Floor 2 of Building A at Campus Z.
+
+If no functional location is available, the card shows only the service address. If no service address is available, the card shows the address of the contact who reported the issue that initiated the work order.
 
 #### Financial card
 
@@ -147,9 +149,9 @@ In the near future, the new work order experience becomes the new default view f
 > [!NOTE]
 > The update to the new work order experience won't override any of your custom logic to set default forms.
 
-### Opt out to get the new experience as default
+### Opt out from the new experience
 
-Before you install the 2024 release wave 1 early access update, complete the following steps to opt out from changing the default experience.
+To opt out from changing the default experience.
 
 1. In Field Service, select **Settings** :::image type="icon" source="media/settings-icon.svg" border="false"::: in the header and select **Advanced settings**.
 1. Go to **Customizations** > **Customize the system** > **Entities** > **Field Service Setting** > **Forms** > **Information**.
@@ -168,7 +170,7 @@ You can change back to the classic work order experience if the new experience w
 1. In Field Service, select **Settings** :::image type="icon" source="media/settings-icon.svg" border="false"::: in the header and select **Advanced settings**.
 1. Go to **Customizations** > **Solutions**.
 1. Uninstall the *msdyn_FieldServiceDefaultComponents* solution.
-1. [Opt out from the new experience](#opt-out-to-get-the-new-experience-as-default) and skip installing the solution in subsequent updates.
+1. [Opt out from the new experience](#opt-out-from-the-new-experience) and skip installing the solution in subsequent updates.
 
 ### See also
 

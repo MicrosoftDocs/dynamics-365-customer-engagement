@@ -100,7 +100,7 @@ Conversation intelligence for your Teams calls is available from the following a
 [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   
 
 [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)  
-[Conversation Intelligence FAQs](faqs-sales-insights.md#conversation-intelligence)
+[Conversation Intelligence FAQs](faq-conversation-intelligence.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

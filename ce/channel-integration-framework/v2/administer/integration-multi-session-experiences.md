@@ -1,10 +1,10 @@
 ---
-title: "Integrate with multisession apps| MicrosoftDocs"
-description: "Integrate Dynamics 365 Channel Integration Framework 2.0 with multisession apps like Omnichannel for Customer Service and Customer Service workspace."
+title: Integrate with multisession apps
+description: Integrate Dynamics 365 Channel Integration Framework 2.0 with multisession apps like Omnichannel for Customer Service and Customer Service workspace.
 author: gandhamm
-ms.date: 09/27/2022
-ms.topic: article
+ms.date: 03/21/2024
 ms.author: mgandham
+ms.topic: article
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
