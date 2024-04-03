@@ -25,7 +25,7 @@ When you draft customer emails, Copilot can offer suggestions to make them clear
 
   ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
 
-   :::image type="content" source="../media/draft-an-email-sidepane.svg" alt-text="Screenshot of draft an email in the side pane." :::
+    :::image type="content" source="../media/copilot-email-sidepane-mini.png" alt-text="Screenshot of draft an email in the side pane." lightbox="../media/copilot-email-sidepane.png":::
 
   ---
 
@@ -66,8 +66,8 @@ When you select one of the predefined prompts, Copilot generates a suggested rep
 
 You can select **Adjust** to change the length and tone of the response as follows:
 
-**Length**: Select Short, Medium, or Long to condense or expand on your text. <br>
-**Tone**: Select Friendly, Professional, or Formal to adjust the tone of your text.
+**Length**: Select **Short**, **Medium**, or **Long** to condense or expand on your text. <br>
+**Tone**: Select **Friendly**, **Professional**, or **Formal** to adjust the tone of your text.
 
 > [!NOTE]
 > The **Adjust** feature supports responses in English only.
