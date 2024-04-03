@@ -29,7 +29,7 @@ If agents who use Omnichannel for Customer Service aren't receiving Facebook mes
   1. In **Messenger API Settings**, find the webhook subscription properties, and then for **Page Subscriptions**, select **Messages**, and **Standby**.
   1. For messages to show in omnichannel, sign in to your Facebook Page account: Go to **Manage** > **Page Access** > **Advanced Messaging**.
   1. In **Messenger receiver at Handover protocol**, set the receiver as the Facebook app that's set up with the Omnichannel for Customer Service-provided webhook.
-  1. Reopen the Facebook app that has the omnichannel webhook. In **Messenger API Settings**, in the webhook subscription properties, deselect **Standby**.
+  1. Reopen the Facebook app that has the omnichannel webhook. In **Messenger API Settings**, in the webhook subscription properties, clear the **Standby** checkbox.
   1. Resend messages from your Facebook page to verify that messages are received in Omnichannel for Customer Service.
 
 
