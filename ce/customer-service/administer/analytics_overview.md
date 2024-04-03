@@ -23,11 +23,11 @@ Customer Service offers you many dashboards and reports by default. These dashbo
 ### Dashboards
 - [Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md#customer-service-historical-analytics-reports)
 
-- [Omnichannel historical analytics dashboards](../use/omnichannel-analytics-insights)
+- [Omnichannel historical analytics dashboards](../use/omnichannel-analytics-insights.md)
 
 - [Omnichannel real-time analytics dashboards](../use/intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard)
 
-- [Knowledge analytics reports](../use/knowledge-search-analytics-cs)
+- [Knowledge analytics reports](../use/knowledge-search-analytics-cs.md)
 
 ## Customizations
 
