@@ -4,6 +4,7 @@ description: "Learn how to configure customer summary pages for agents  using Om
 author: neeranelli
 ms.topic: overview
 ms.author: nenellim
+ms.date: 03/12/2024
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
