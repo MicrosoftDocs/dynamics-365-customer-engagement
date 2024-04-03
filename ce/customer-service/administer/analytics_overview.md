@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Overview of Analytics and Insights
 
-You can enable and configure the Customer Service Insights features and services and share them with service managers, who can then view and analyze different activities. You can configure the features and services in Customer Service admin center app, and they can be viewed on both the Customer Service Hub and Customer Service workspace apps.
+You can enable and configure the Customer Service Insights features and services and share them with service managers, who can then view and analyze different activities. You can configure the features and services in Customer Service admin center app, and they can be viewed on the Customer Service workspace app.
 
 ## Out-of-the-box features
 
