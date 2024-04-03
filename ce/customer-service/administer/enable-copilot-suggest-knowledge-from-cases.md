@@ -26,7 +26,7 @@ Make sure that the user has the System Administrator role.
 
 Do the following steps in Customer Service admin center:
 
-1. In the site map, under Agent experience, select **Knowledge**, and on the Knowledge page, select **Manage** for **Knowledge creation from cases**.
+1. In the site map, under Agent experience, select **Knowledge**, and on the Knowledge page, select **Manage** for **Knowledge creation**.
 1. On the **Knowledge creation (preview)** page, in **Case-based knowledge creation**, select the following checkboxes to let agents use Copilot:
     - **Let agents use Copilot to propose new knowledge based on case information during or after case resolution**
        - **In the case resolution step, keep the option to propose a knowledge article selected by default** 
