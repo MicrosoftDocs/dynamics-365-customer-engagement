@@ -5,7 +5,7 @@ ms.date: 03/14/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer:
 ms.custom: bap-template
 ---
 
@@ -46,6 +46,10 @@ The conversation (work item) transitions from **Open** to **Active** or **Closed
 ## Active
 
 The conversation that an agent picks or is assigned to the agent is classified under **Active**. In **Active**, the agent capacity is consumed.
+
+> [!NOTE]
+> - When you use the transfer to external number option for a voice call, the conversation remains in active state with the agent on the external number as the new primary agent.  The capacity of the original agent is immediately freed upon transfer to external number.
+> - When you transfer the voice call to another internal agent, the conversation remains in active state with the other internal agent as primary, and the original agent’s capacity is immediately freed.  When you transfer to another queue, the conversation goes into open state while waiting in the new queue, and the original primary agent’s capacity is immediately freed.
 
 The conversation (work item) transitions from **Active** to **Closed**, **Open**, **Waiting**, or **Wrap-up** under the following scenarios.
 
