@@ -25,7 +25,7 @@ When you draft customer emails, Copilot can offer suggestions to make them clear
 
   ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
 
-    :::image type="content" source="../media/copilot-email-sidepane-mini.png" alt-text="Screenshot of draft an email in the side pane." lightbox="../media/copilot-email-sidepane.png":::
+   :::image type="content" source="../media/copilot-email-sidepane-mini.png" alt-text="Screenshot of draft an email in the side pane." lightbox="../media/copilot-email-sidepane.png":::
 
   ---
 
