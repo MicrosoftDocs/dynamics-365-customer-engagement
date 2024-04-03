@@ -1,7 +1,7 @@
 ---
 title: FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot
 description: This FAQ provides information about the AI technology used in the Dynamics 365 Field Service Plugin for Microsoft Copilot.
-ms.date: 04/02/2024
+ms.date: 04/03/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -21,9 +21,9 @@ Dynamics 365 Field Service Plugin for Microsoft Copilot utilizes the power of Mi
 
 ## What are the feature’s capabilities?
 
-The feature allows you to ask questions about work orders and generate answers quickly. For example, frontline managers can ask for a list of all work orders for tomorrow. Or how many high priority work orders from last week that haven’t completed.  
+The feature allows you to ask questions about work orders and generate answers quickly. For example, frontline managers can ask for a list of all work orders for tomorrow or how many high priority work orders from last week that haven’t completed.  
 
-Frontline workers can ask how many work orders they have for next week or ask for detailed information on a specific work order. They can ask how to do something or what tools they need for the job.
+Frontline workers can ask how many work orders they have for next week or ask for detailed information on a specific work order. They can ask how to do a task or what tools they need for the job.
 
 ## What is the feature’s intended use?
 
