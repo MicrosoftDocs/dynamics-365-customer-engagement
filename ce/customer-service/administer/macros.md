@@ -26,149 +26,92 @@ More information: [Assign roles and enable users](../implement/add-users-assign-
 
 ## Create a Macro
 
+Perform the following steps to create a macro in Customer Service admin center:
+1. Go to **Productivity** in **Agent experience**. 
+2.  Select **Manage** for **Macros**. 
+3. Select **New**. In the **Macros** page, specify a name and description for the macro. The first step for the macro is always **Start macro execution**.
+
+### Trigger macros
+
+A macro can be triggered as follows:
+
+- Agents can run [macros](../use/oc-agent-scripts.md#macro) from the **Productivity** pane in the Customer Service workspace app.
+- Through an [API](../develop/reference/methods/runMacro.md)
+
+For more information on agent experience profiles, session templates, agent script, agent script steps and macros, download the Customer Service workspace in a day training.
+
+
 ## Predefined automation actions
 
 In Customer Service, macros provide three connectors:
 
-- [Productivity automation](#productivity-automation): Provides actions to perform model-driven app operations.
+- [Productivity automation](#productivity-automation): Provides actions to perform model-driven app operations. Productivity automation macros allow you to automate tasks such as opening and updating records, opening views, resolving cases, searching the knowledge base, record cloning, setting focus to another agent script, opening email templates, auto filling form fields, setting and retrieving variables and values in the session context.
 
-- [Session connector](#session-connector): Provides actions to perform session-related operations.
+- [Session connector](#session-connector): Provides actions to perform session-related operations. Session connector macros enables you to add actions such as getting the ID of a tab, refreshing a tab, passing the tab id, setting focus to a tab based on the tab id, opening a tab template, and refreshing session context.
 
-- [Omnichannel connector](#omnichannel-connector): Provides actions to perform Omnichannel for Customer Service&ndash;related operations.
+- [Omnichannel connector](#omnichannel-connector): Provides actions to perform Omnichannel for Customer Service&ndash;related operations.  Omnichannel connector macros allow you to link and unlink records to conversations.
 
-### Productivity automation
+- Flow connector: Allows you to execute a Power Automate flow.
 
-As an administrator, you can use the actions any number of times across different macros to automate and perform model-driven app operations.
+## Pass session context variables to macros
 
-The following screenshot shows the actions that are explained in the subsequent sections.
-   :::image type="content" source="../media/macro-actions.png" alt-text="Macro actions for productivity automation.":::
+In a macro, you can pass dynamic values such as customer name or customer id as parameters during the macro execution. The information is stored in the session context as a key value pair. A session context variable is also known as a [slug](automation-dictionary-keys.md#slugs). 
+ 
 
-#### Open a new form to create a record
+### Records 
 
-This action is used to open a new form to create a record. The action contains the following fields.
+When you open a case as a session, the case is the "anchor tab" or the first tab of the session. The session context is populated with the attributes and values from the case record and is stored in the browser memory. For example, if a case is open as the anchor tab, the session context variables are populated as follows:  
 
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity logical name |  Specify the logical name of the entity that you want to open.<br> This is a mandatory field. | incident |
-   | Entity form ID | Specify the form ID.<br> This is an optional field. |
-   | Attribute Name | Specify the attribute logical name. You need to provide the attribute name to prepopulate the field with a value.| |
-   | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. | |
-  
-#### Open an existing record
+`${anchor.incidentid} : 6194b723-7e5f-eb11-a812-000d3a1a658a `
+`${anchor.ticketnumber} : CAS-47732-V4V6K6 `
+`${anchor.title} : A Mineral Build Up in Water Supply` 
+`${anchor.createdon} : 2022-12-14T23:03:24Z `
+`${anchor.prioritycode} : 2` 
+`${anchor.prioritycode@OData.Community.Display.V1.FormattedValue} : Normal` 
+`${anchor._customerid_value} : f5973462-768e-eb11-b1ac-000d3ae92b46 `
+`${anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname} : contact `
+`${anchor._customerid_value@OData.Community.Display.V1.FormattedValue} : Claudia Mazzanti `
 
-This action is used to open an existing record form. The action contains the following fields.
 
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity logical name |  Specify the logical name of the entity that you want to open. <br> This is a mandatory field. | incident |
-   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Entity form ID | Specify the form ID. <br>This is an optional field. | |
-  
-#### Open a record grid
+> [!NOTE]
+> The session context is populated with values from the anchor tab only.
 
-This action is used to open a record grid. The action contains the following fields.
+You can also retrieve a value from a related record using an oData query. For example, you can use the following oData query to retrieve the email address from the customer record on a case: 
+ 
+`${$odata.contact.emailaddress1.?$filter=contactid eq '{anchor._customerid_value}'} `
 
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity logical name |  Specify the logical name of the entity for which you want to open the grid. <br> This is a mandatory field. | incident |
-   | View ID| Specify the ID of the view that you want to open.<br> This is a mandatory field. | |
-   | View type | Specify the view type. <br>This is a mandatory field. | |
-   |||
+### Conversations 
 
-#### Search the knowledge base for the populated phrase
+When an agent accepts an incoming call or chat, the session context is populated with the conversation attributes from the channel provider and stored in the browser cache. For example, the session context variables are populated as follows for an incoming chat conversation:  
 
-This action is used for searching knowledge articles based on the populated phrase. The action contains the following field.
+`${Email} : claudiamazzanti@crmdemo.dynamics.com `
 
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Search string |  Provide the phrase based on which you want to search for knowledge articles. You can provide the context data. For example, the context data parameter can be a case title. |  |
-   |Tab Label| Specify the tab label.|
+`${LiveWorkItemId} : 57e4323e-a93f-4c30-b8e8-b075ab5d71cc `
+`${customerEntityName} : contact `
+`${customerName} : Claudia Mazzanti `
+`${customerRecordId} : f5973462-768e-eb11-b1ac-000d3ae92b46 `
+`${queueId} : 6b189e87-e09b-eb11-b1ac-000d3af4e3f9 `
 
-#### Do a relevance search based on the phrase
+`${visitorLanguage} : en-us `
 
-This action is used for searching knowledge articles based on the populated phrase. The action contains the following field.
+ 
 
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br> This is a mandatory field.  |  |
+You can also retrieve a value from a related record using oData query. For example, you can retrieve the email address from the customer record on a case as follows:
 
-#### Update an existing record
+`${$odata.contact.emailaddress1.?$filter=contactid eq '{customerRecordId}'} `
 
-This action is used to update an existing record. The action contains the following fields.
 
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity logical name |  Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
-   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Attribute Name | Specify the attribute logical name you want to update.| |
-   | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
+### Additional tabs 
 
-#### Set Agent Script focus
+When an agent opens an entity record, the session context is populated with attributes from the record in the anchor tab. Records open in the additional tabs of the same session aren't used in the session context. However, you can access the name of the entity and the entity record id as fillows: 
+ 
+`${Session.CurrentTab.entityId} : 0e8642d7-c2ae-ea11-a812-000d3a1b14a2 `
+`${Session.CurrentTab.entityName} : account `
+With the entity id, you can retrieve other values in the record through the following oData query: 
+ 
+`${$odata.account.name.?$filter=accountid eq '{Session.CurrentTab.entityId}'}`
 
-This action is used to set the focus on an agent script that needs to run next. The agent script will be set in focus in the **Agent scripts** dropdown on the app side pane. For example, if the agent needs to process a refund complaint. The agent will use different scripts to greet, initiate a complaint request, and process the refund. You can define macros that will set the focus on the agent scripts that need to be run for each stage of the refund process. The action contains the following field.
 
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Agent Script Unique Name   |  Specify the agent script that needs to be in focus.  |  The unique name of the agent script.  |
-
-#### Open an email form with predefined template
-
-This action is used to open an email with a predefined template. The action contains the following fields.
-
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity logical name |  Specify the logical name of the entity. <br> This is a mandatory field. | incident |
-   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | |
-   | Template ID | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | |
-
-#### Resolve a case
-
-This action is used to resolve a case. The action contains the following fields.
-
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Billable time |  Specify the time that is billable. <br> This is a mandatory field. | incident |
-   | Incident ID| Specify the ID of the case that you want to close. <br>This is a mandatory field.| |
-   | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
-
-#### Autofill form fields
-
-This action is used for updating the form attribute (field). The action updates the attribute of a form if that form is currently in focus and has the same entity type as mentioned in action. If the action is run for any other entity, then the action will fail. Also, the action only updates the field and doesn't save the record. The action contains the following field.
-
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity logical name | Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
-
-#### Clone current record
-
-This action is used for cloning an existing record that is open in the current tab. The action only copies the fields and does not save the record. The action contains the following field.
-
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Record title | Specify the title of the record that you want to clone. <br> This is a mandatory field. | |
-
-#### Open knowledge base article
-
-This action is used to open the knowledge base article. The action contains the following field.
-
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity record ID  | Specify the entity ID of the knowledge base article that you want to open. <br> This is a mandatory field.|  |
-
-#### Save the record
-
-This action saves the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or are left blank.
-
-#### Clone input record
-
-This action clones an existing record. The action only copies the fields and does not save the record. The action contains the following fields.
-
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity logical name | Specify the logical name of the entity that you want to clone. <br> This is a mandatory field. |
-   | Entity record ID | Specify the ID of the entity record. <br> This is a mandatory field.|
-   |Record title| Specify the record title.
 
 ### Session connector
 
