@@ -3,7 +3,7 @@ title: FAQ about the voice channel
 description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 04/03/2024
+ms.date: 04/04/2024
 ms.topic: conceptual
 ms.reviewer:
 ms.collection:
@@ -18,7 +18,7 @@ ms.custom: bap-template
 
 This article includes frequently asked questions (FAQ) about the voice channel.
 
-## General 
+## General
 
 ### Why is the agent unable to make an outbound call?
 
@@ -31,6 +31,12 @@ No, overflow settings aren't applicable to fallback queues. The settings are ign
 ### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 
 Yes, features such as sentiment analysis, agent suggestions for similar cases or knowledge articles, are available in the voice channel.
+
+### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app, such as, by adding omnichannel capabilities to a customer's Dynamics 365 app?
+
+No, the voice channel isn't supported in the other apps of Dynamics 365. It's supported in the Customer Service workspace and Omnichannel for Customer Service (deprecated) apps only.
+
+## Setup
 
 ### Is the voice channel PCI DSS compliant?
 
@@ -91,9 +97,9 @@ If you've already brought numbers from another carrier into Microsoft Teams via 
 > [!NOTE]
 > Currently, you can't bring native Teams phone numbers to use in the voice channel.
 
-### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app, such as, by adding omnichannel capabilities to a customer's Dynamics 365 app?
+### Can I recover data and phone numbers from a voice trial organization after it has expired?
 
-No, the voice channel isn't supported in the other apps of Dynamics 365. It's supported in the Customer Service workspace and Omnichannel for Customer Service apps only.
+No, you can't recover your data and phone numbers after the voice trial organization has expired and been deprovisioned. 
 
 ## Pricing
 
@@ -113,7 +119,7 @@ See the following articles to set up the interactive voice response (IVR) bot in
 
 Sometimes, when a Copilot Studio bot isn't added or an agent is unable to answer the call, your customers will hear the message that they couldn't be served. We recommend agents to refresh their presence regularly to ensure their availability to customers. If the problem persists, reconnect your Copilot Studio bot.
 
-## Languages
+## Language
 
 ### Should the language of the bot be the same as the primary language configured in the voice workstream?
 
@@ -122,11 +128,7 @@ Yes, the primary language of the bot must be the same as that of the voice works
 You can transfer conversations from one bot to another with different primary languages. For example, you can transfer conversations from an English bot to a Spanish bot. But, if you configure different locales:
 - The bot's accuracy will depend on the similarities between the two locales. 
 - The preconfigured entities for the bot such as postal code might not be accurate. 
-- A bot-to-bot transfer of the conversation with the same language but two different locales isn't possible. For example, the transfer of a conversation  from an **English-UK** bot to an **English-US** bot can't happen. As a workaround, you can make the **English-UK** bot transfer the conversation to another phone number attached to a workstream to which the **English-US** bot is attached. 
-
-### Can I recover data and phone numbers from a voice trial organization after it has expired?
-
-No, you can't recover your data and phone numbers after the voice trial organization has expired and been deprovisioned. 
+- A bot-to-bot transfer of the conversation with the same language but two different locales isn't possible. For example, the transfer of a conversation  from an **English-UK** bot to an **English-US** bot can't happen. As a workaround, you can make the **English-UK** bot transfer the conversation to another phone number attached to a workstream to which the **English-US** bot is attached.
 
 ## Disaster recovery
 
@@ -137,7 +139,7 @@ No, you can't recover your data and phone numbers after the voice trial organiza
 
 ## Call quality
 
-### Do you provide voice quality SLA for voice in Omnichannel for Customer Service?
+### Do you provide voice quality SLA for the voice channel?
 
 No, we don't publish a voice quality SLA as many factors related to voice quality like network connectivity, speed, and bandwidth, can't be controlled. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
 
