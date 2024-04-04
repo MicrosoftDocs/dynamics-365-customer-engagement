@@ -15,7 +15,7 @@ ms.custom:
 
 # Download Copilot transcripts and interaction data
 
-When an agents use Copilot, agent actions such as copying summary presented, using a suggested reply from Copilot, agent feedback, and transcripts from when agents chat with Copilot are stored in the [**msdyn_copilotinteraction**](msdyn_copilotinteraction.md), [**msdyn_copilotinteractiondata**](msdyn_copilotinteractiondata.md), [**msdyn_copilottranscript**](msdyn_copilottranscript.md), and [**msdyn_copilottranscriptdata**](msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Web API requests.
+When an agents use Copilot, agent actions such as copying summary presented, using a suggested reply from Copilot, agent feedback, and transcripts from when agents chat with Copilot are stored in the [**msdyn_copilotinteraction**](/reference/entities/msdyn_copilotinteraction.md), [**msdyn_copilotinteractiondata**](/reference/entities/msdyn_copilotinteractiondata.md), [**msdyn_copilottranscript**](/reference/entities/msdyn_copilottranscript.md), and [**msdyn_copilottranscriptdata**](/reference/entities/msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Web API requests.
 
 ## Prerequisites
 
