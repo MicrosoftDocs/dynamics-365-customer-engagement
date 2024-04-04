@@ -647,7 +647,9 @@
       - name: Integrate a Copilot Studio bot
         href: configure-bot-virtual-agent.md
     - name: Analytics dashboards and insights
-      items:
+      items: 
+      - name: Enable and customize analytics and insights
+        href: analytics_overview.md
       - name: Supported regions and languages for analytics and insights
         href: cs-region-availability-service-limits.md
       - name: Service limits for analytics and insights
