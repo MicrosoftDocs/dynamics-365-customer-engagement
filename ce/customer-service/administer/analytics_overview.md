@@ -1,24 +1,24 @@
 ---
-title: Overview of Analytics and Insights
-description: 
-author: rhanajoy 
-ms.author: rhcassid 
-ms.reviewer: kfend 
+title: Enable and customize analytics and insights
+description: Learn how to activate and customize analytics and insights in Customer Service to boost contact center efficiency and improve customer satisfaction.
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: shujoshi 
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 04/03/2024
+ms.date: 04/04/2024
 ms.custom: bap-template
 ---
 
-# Overview of Analytics and Insights
+# Enable and customize analytics and insights
 
-As an administrator, you can enable Customer Service analytics and insights features and services and share them with supervisors, who can then view and analyze  activities at the contact center. Getting information about your contact center helps you mitigate issues and help agents enhance efficiency, thereby leading to productivity and customer satisfaction.
+As an administrator, you have the ability to enable analytics and insights features within Customer Service. These can then be shared with supervisors for review and analysis of contact center activities. This valuable information can help identify and address issues, improve agent efficiency, and ultimately enhance productivity and customer satisfaction.
 
-You can configure the features and services in the Customer Service admin center app, and then let your supervisors view them on the Customer Service workspace app.
+You can configure these features and services in the Customer Service admin center app. Once set up, supervisors can access and view them from the Customer Service workspace app.
 
 ## Out-of-the-box features
 
-Customer Service offers you many dashboards and reports by default. These dashboards show various charts, metrics, and key performance indicators to help you gain insights into your contact center activities. Here's what's already available to you.
+Customer Service provides a variety of default dashboards and reports. These dashboards display a range of charts, metrics, and key performance indicators, offering valuable insights into your contact center operations. Here's an overview of what's readily available to you.
 
 ### Dashboards
 - [Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md#customer-service-historical-analytics-reports)
@@ -31,13 +31,14 @@ Customer Service offers you many dashboards and reports by default. These dashbo
 
 ## Customizations
 
-Here are the customizations that you can leverage.
+Here are the customizations that you can utilize.
 
-- [Visualize key performance indicators](../use/customize-reports.md#customize-visual-display): If you want to change the visual display of the dashboards, you can use an embedded Power BI editor to customize the out-of-the-box reports and meet your organizational requirements.
-- Personalize analytics
-    - [Report filters and groups](../use/report-filters-groups.md#report-filters-and-groups): You can set one or more filters to a report group and save time trying to set filters each time you access those reports.
-    - [Manage bookmarks for reports](../use/manage-bookmarks.md#manage-bookmarks-for-reports): You can use bookmarks to save the filters that you might have set and easily view specific data every time you open the report.
-- [Use Omnichannel for Customer Service metrics](../use/oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics): You can use metrics to do a quantitative assessment of the data that is shown on the Omnichannel for Customer Service dashboards. You can use these metrics to [customize the visual display](../use/customize-reports.md#customize-visual-display) of your reports.
+- [Customize Key Performance Indicators](../use/customize-reports.md#customize-visual-display): Use the embedded Power BI editor to modify the visual display of dashboards, tailoring the out-of-the-box reports to your organization's needs.
+- Personalize analytics:
+    - [Report Filters and Groups](../use/report-filters-groups.md#report-filters-and-groups): Save time by setting one or more filters to a report group, eliminating the need to set filters each time you access the reports.
+    - [Manage Bookmarks for Reports](../use/manage-bookmarks.md#manage-bookmarks-for-reports): Utilize bookmarks to save the filters you've set, allowing for easy viewing of specific data each time you open the report.
+- [Utilize Omnichannel for Customer Service Metrics](../use/oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics): Perform a quantitative assessment of the data displayed on the Omnichannel for Customer Service dashboards. Use these metrics to [customize the visual display](../use/customize-reports.md#customize-visual-display) of your reports.
+
 
 ## See Also
 
