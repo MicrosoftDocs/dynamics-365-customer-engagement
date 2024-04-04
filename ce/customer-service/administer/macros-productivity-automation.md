@@ -38,18 +38,64 @@ This action is used to open a new form to create a record. The action contains t
    | Create a new task from an existing case | <ul><li>subject field will be populated using a data parameter retrieving the case number</li><li> the regarding field will be populated with the customer record</li><li>the description field will be populated with a combination of a text string and the customer email address retrieved via oData query</li><li> The macro will also save the record.</li></ul>  | <ul><li>Attribute Name - 1: subject, Value: Follow up task regrading `$(anchor.ticketnumber)`</li><li> Attribute Name - 2: description, Value: Review customer email: `{$odata.contact.emailaddress1.?$filter=contactid eq '{anchor._customerid_value}'}`</li><li>Attribute Name - 3: regardingobjectid, Value: `${anchor.incidentid}`</li><li> Attribute Name - 4: regardingobjectidtype, Value: `incident`</li><li>Attribute Name - 5: regardingobjectidname, Value: `${anchor.title}`</li></ul> |
    | Create a new case from a conversation | <ul><li>The subject field will be populated using a data parameter retrieving the conversation</li><li> the regarding field will be populated with the customer record</li><li>the description field will be populated with a combination of a text string and the customer email address retrieved via oData query</li><li> The macro will also save the record.</li></ul>  | <ul><li>Attribute Name - 1: subject, Value: Follow up with `$(customerName)`</li><li> Attribute Name - 2: description, Value: Review customer email: `{$odata.contact.emailaddress1.?$filter=contactid eq '{customerRecordid}'}`</li><li>Attribute Name - 3: regardingobjectid, Value: `${customerRecordid}`</li><li> Attribute Name - 4: regardingobjectidtype, Value: `${customerEntityName}`</li><li>Attribute Name - 5: regardingobjectidname, Value: `${customerName}`</li></ul> |
 
-
-If you have to create a macro to create a task from a case, with the subject field using the case number, refar 
-
-#### Open an existing record
+## Open an existing record
 
 This action is used to open an existing record form. The action contains the following fields.
 
-   | Field | Description | Parameter |
+   | Field | Description | 
    |-----------------|-----------------------------|--------------------------|
-   | Entity logical name |  Specify the logical name of the entity that you want to open. <br> This is a mandatory field. | incident |
-   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Entity form ID | Specify the form ID. <br>This is an optional field. | |
+   | Entity logical name |  Specify the logical name of the entity that you want to open. <br> This is a mandatory field. | 
+   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| 
+   | Entity form ID | Specify the form ID. <br>This is an optional field. |
+
+### Examples
+
+ | Scenarios | Description | Attribute|
+   |-----------------|-----------------------------|---------------------------------|
+   | Open a product record from an existing case | open the customer record from a conversation passing the customer id using data parameters. | <ul><li>Entity logical name: `product`</li><li>Entity record ID: `${anchor._productid_value}` </li></ul> |
+    | Open a a customer record from a conversation | open the product record from an existing case passing the product id using data parameters. | <ul><li>Entity record ID: `${customerEntityName}` </li><li>Entity logical name: `${customerRecordid}`</li></ul> |
+
+## Autofill form fields
+
+This action is used for updating the form fields.The macro doesn't automatically save the new values in Dataverse until the form triggers the auto-save if enabled. You can use another macro action to save the record. Alternatively, you can use the "Update existing record" macro based on your business requirements. This action applies to the form in focused tab and has the same entity type as mentioned in action.  
+
+
+   | Field | Description | 
+   |-----------------|-----------------------------|--------------------------|
+   | Entity logical name | Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | 
+
+> [!NOTE]
+> This macro requires a specific pattern to set lookup values. You will need to pass the related record id, related record type, and related record name as separate attributes for a single lookup.
+
+### Examples
+
+ | Scenarios | Description | Attribute|
+   |-----------------|-----------------------------|---------------------------------|
+   |Open a task form and populating form fields from case |  open a task form with empty values, then populating the form with fields based on values from the anchor tab using data parameters.  | <ol><li>Add a new action: Open a new form to create a record with **Entity logical name** set to `task`.</li><<li>Add a new step: Autofill form fields<ul><li>Entity logical name: `task`</li><li>Attribute Name -1 : subject, Value: Follow up task regarding `${anchor.ticketnumber}`</li><li>Attribute Name - 2: regrdingobjectid, Value: `{{"id":"${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}}`</li></ul></li></ol> |
+    | open a task form with empty values, then populating the form with fields based on values from the customer using data parameters. | <ol><li>Add a new action: Open a new form to create a record with **Entity logical name** set to `task`.</li><<li>Add a new step: Autofill form fields<ul><li>Entity logical name: `task`</li><li>Attribute Name -1 : subject, Value: Follow up with `${customerName}`</li><li>Attribute Name - 2: regrdingobjectid, Value: `{{"id":"${customerRecordid}","name":"${customerName}","entitytype":"${xustomerEntityName}"}}`</li></ul></li></ol>|
+
+#### Update an existing record
+
+This action is used to update an existing record. The action contains the following fields.
+
+   | Field | Description |
+   |-----------------|-----------------------------|
+   | Entity logical name |  Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | 
+   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| 
+   | Attribute Name | Specify the attribute logical name you want to update.|
+   | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. |
+
+> [!NOTE]
+> This macro requires a specific pattern to set lookup values. You will need to pass the related record id, related record type, and related record name as separate attributes for a single lookup.
+
+### Examples
+
+ | Scenarios | Description | Attribute|
+   |-----------------|-----------------------------|---------------------------------|
+   | Open a task form, create the task, then update the record. |  open a task form with a basic subject, then updating the record passing the record id and logical name from the dynamics content (obtained after the save record action) and the correct regarding object based on values from the anchor tab using data parameters. The update record macro performs a back-end operation and it doesn't automatically refresh the tab. For that reason, adding a macro step to refresh the tab.  | <ol><li>Add a new action: Open a new form to create a record with **Entity logical name** set to `task`.</li><li>Add a step to save the record</li><li>Add a new step: Update an existing record<ul><li>Entity record ID: `Entity recird ID`</li><li>Entity logical name: `Entity logical name`</li><li>Attribute Name -1 : regardingobjectid_incident@odata.bind, Value: `/incidents{${anchor.incidentid}}`</li></ul></li></ol> |
+
+> [!NOTE]
+> This macro will cause the form to refresh after the "Save the record" action and after the "Refresh the tab" action but it was provided for illustration purposes to get familiar with specific patterns for lookups, how to use dynamics content, and differences between macros to open form, autofill form fields and update fields from the back-end. Design your macros to reduce form loading. 
   
 #### Open a record grid
 
@@ -79,16 +125,7 @@ This action is used for searching knowledge articles based on the populated phra
    |-----------------|-----------------------------|--------------------------|
    | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br> This is a mandatory field.  |  |
 
-#### Update an existing record
 
-This action is used to update an existing record. The action contains the following fields.
-
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity logical name |  Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
-   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Attribute Name | Specify the attribute logical name you want to update.| |
-   | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
 
 #### Set Agent Script focus
 
@@ -119,13 +156,7 @@ This action is used to resolve a case. The action contains the following fields.
    | Incident ID| Specify the ID of the case that you want to close. <br>This is a mandatory field.| |
    | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
 
-#### Autofill form fields
 
-This action is used for updating the form attribute (field). The action updates the attribute of a form if that form is currently in focus and has the same entity type as mentioned in action. If the action is run for any other entity, then the action will fail. Also, the action only updates the field and doesn't save the record. The action contains the following field.
-
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity logical name | Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
 
 #### Clone current record
 
