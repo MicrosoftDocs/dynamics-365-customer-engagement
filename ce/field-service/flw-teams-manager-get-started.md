@@ -1,7 +1,7 @@
 ---
 title: Get started with Field Service in Teams (frontline managers)
 description: Learn how to set up Field Service in Teams for service managers and dispatchers to manage work orders.
-ms.date: 04/01/2024
+ms.date: 04/04/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -12,7 +12,7 @@ ms.subservice: m365-integrations
 
 # Get started with Field Service in Teams (frontline managers)
 
-To get started using Field Service in Teams, install the app, then sign-in.
+The Dynamics 365 Field Service app for Teams is designed to help frontline managers create and manage work orders. To get started using Field Service in Teams, install the app, sign-in and select your environment.
 
 ## Prerequisites
 
@@ -22,8 +22,6 @@ Your environment is in a [supported geography, region, and language](flw-overvie
 > The supported language is based on your Teams' language. If you access Teams from the web, the language is based on the web browser. If you access Teams from Teams Desktop, the language is based on Teams Desktop's language.
 
 ## Install the Field Service Teams app
-
-Your admin might have installed the app for your organization. If you see the Field Service or Viva Connections icon in the Teams side rail or **Field Service** in the app list, you can skip this step.
 
 [!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
 
@@ -52,3 +50,10 @@ Your admin might have installed the app for your organization. If you see the Fi
 ## Enable the Microsoft Copilot for Field Service work orders
 
 [!INCLUDE [fsp-m365-copilot](../includes/fsp-m365-copilot.md)]
+
+## Next steps
+
+- [Manage work orders with Field Service in Teams](flw-teams-manager.md)
+
+
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

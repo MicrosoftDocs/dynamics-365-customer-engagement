@@ -14,6 +14,10 @@ ms.subservice: m365-integrations
 
 The Dynamics 365 Field Service app for Teams enables frontline managers to manage work orders without disrupting their workflow. Without leaving Teams, you can create, view, and edit work orders and quickly respond to requests for service or questions about existing requests.
 
+## Prerequisites
+
+- You have completed [Get started with Field Service in Teams](flw-teams-manager-get-started.md).
+
 ## Create a work order in Teams
 
 1. From your Viva Connections dashboard, select **Create work order** on the **Work orders all in one place** tile.

@@ -189,7 +189,7 @@ items:
     - name: Field Service in Teams for frontline managers
       items:
         - name: Get started with Field Service in Teams
-          href: flw-teams-manager-setup.md
+          href: flw-teams-manager-get-started.md
         - name: Manage work orders with Field Service in Teams
           href: flw-teams-manager.md
     - name: Field Service in Teams for frontline workers
