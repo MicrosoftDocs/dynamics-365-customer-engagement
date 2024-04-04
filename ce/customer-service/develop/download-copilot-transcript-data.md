@@ -15,32 +15,37 @@ ms.custom:
 
 # Download Copilot transcripts and interaction data
 
-When an agents use Copilot, agent actions such as copying summary presented, using a suggested reply from Copilot, agent feedback, and transcripts from when agents chat with Copilot are stored in the **msdyn_copilotinteraction**, **msdyn_copilotinteractiondata**, **msdyn_copilottranscript**, and **msdyn_copilottranscriptdata** tables in Dataverse. You can download the transcripts and interaction data using Web API requests.
+When an agents use Copilot, agent actions such as copying summary presented, using a suggested reply from Copilot, agent feedback, and transcripts from when agents chat with Copilot are stored in the [**msdyn_copilotinteraction**](../develop/msdyn_copilotinteraction), [**msdyn_copilotinteractiondata**](../develop/msdyn_copilotinteractiondata), [**msdyn_copilottranscript**](../develop/msdyn_copilottranscript), and [**msdyn_copilottranscriptdata**](../develop/msdyn_copilottranscriptdata) tables in Dataverse. You can download the transcripts and interaction data using Web API requests.
 
 ## Prerequisites
 
 - Make sure that the **Agent experience data** checkbox is selected in **Copilot help pane**, for the transaction and interaction data to be stored in the Dataverse.
-- You are logged in with the Administrator or Supervisor role.
+- Make sure you are logged in with the Administrator or Supervisor role.
 
-## Download chat transcripts
+## Get interaction id
 
-When an agent asks the Copilot a question, the interactions between the agent and Copilot are saved as a transcript in base64 encoded format in the msdyn_transcriptdata table in Microsoft Dataverse. You can download the transcripts to review the conversation and the responses provided by Copilot by performing the following steps:
-
-The following Web API request retrieves all the transactions between the agent and Copilot:
+When the agent interacts with the Copilot, the interaction is stored in the `msdyn_copilotinteraction` table with a unique interaction ID. You can get the interaction ID by using the following Web API call:
 
 ```http
-GET [Organization URI]/api/data/v9.1/annotations?$filter=objecttypecode eq 'msdyn_copilotinteractions'
+[Organization URI]/api/data/v9.1/msdyn_copilotinteractions
 Accept: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
 ```
 
- For the required transaction, copy the `msdyn_copilotinteractionid`.
+Copy the `msdyn_copilotinteractionid` for the required interaction.
 
-The following Web API request retrieves the required transaction with the JSON context:
+## Download chat transcripts
+
+When an agent asks the Copilot a question, the interactions between the agent and Copilot are saved as a transcript in base64 encoded format in the `msdyn_transcriptdata` table in Microsoft Dataverse. You can download the transcripts to review the conversation and the responses provided by Copilot.
+
+For example, an agent asks the Copilot “How can I book a trip?” while working on a case. Copilot generates a response based on a KB article. If you want to download that chat transcript, perform the following steps:
+
+1. Get the interaction ID by using the Web API call mentioned in the previous section. 
+1. Filter the msdyn_copilotinteractions with the required interaction ID to get to the DataID. Use the following Web API request to filter the data by interaction id:
 
 ```http
-GET [Organization URI]/api/data/v9.1/annotations?$filter=objecttypecode eq 'msdyn_copilotinteractions(<msdyn_copilotinteractionid>)'
+[Organization URI]/api/data/v9.1/'msdyn_copilotinteractions(<msdyn_copilotinteractionid>)'
 Accept: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
@@ -67,51 +72,40 @@ Copy the value of the **DataId**. Here's a sample JSON context:
    }
 
   ```
-The following Web API request retrieves the base64 encoded transcript:
+3. The following Web API request retrieves the transcript in the base64 encoded transcript:
 
 ```http
-GET [Organization URI]/api/data/v9.1/annotations?$filter=objecttypecode eq 'msdyn_copilottranscriptdatas(<Trascript: DataID>)/msdyn_transcriptdata)'
+[Organization URI]/api/data/v9.1/'msdyn_copilottranscriptdatas(<Trascript: DataID>)/msdyn_transcriptdata)'
 Accept: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
 ```
 
-Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data.
+Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our example, the decoded transcript is displayed as follows:
 
 
-## Download  request/response details of interactions
-
-Perform the following steps: 
+   :::image type="content" source="../media/copilot-transcript-mini.png" alt-text="Screenshot of the decoded transcript data." lightbox="../media/copilot-transcript.png":::
 
 
-The following Web API request retrieves all the interactions between the agent and Copilot:
+
+## Download interaction data
+
+When an agent interacts with the Copilot, the interaction data is stored in the `msdyn_copilotinteractiondata` table in Microsoft Dataverse. 
+
+For example, an interaction can be an agent using the Copilot to generate an email or a case summary. You can download the data from this interaction as follows:
+
+1. Get the interaction ID by using the Web API call mentioned in the previous section.
+1. The following Web API request retrieves the interactions data from the msdyn_interaction table in the base64 encoded format:
 
 ```http
-GET [Organization URI]/api/data/v9.1/annotations?$filter=objecttypecode eq 'msdyn_copilottranscripts'
+[Organization URI]/api/data/v9.1/'msdyn_copilotinteractiondatas(<msdyn_interactiondataid>)/ msdyn_interactiondata'
 Accept: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
 ```
+ Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our email example, the decoded interaction data is displayed as follows:
 
- For the required interaction, copy the `msdyn_copilotinteractionid`.
+   :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded transcript data." lightbox="../media/copilot-interactions.png":::
 
-The following Web API request retrieves the required transaction with the JSON context:
-
-```http
-GET [Organization URI]/api/data/v9.1/annotations?$filter=objecttypecode eq 'msdyn_copilottranscripts(<msdyn_copilotinteractionid>)'
-Accept: application/json  
-OData-MaxVersion: 4.0  
-OData-Version: 4.0  
-```
-Copy the value of the **msdyn_interactiondataid**. 
-
-The following Web API request retrieves the interactions:
-
-```http
-GET [Organization URI]/api/data/v9.1/annotations?$filter=objecttypecode eq 'msdyn_copilotinteractiondatas(<interactiondataid>)/ msdyn_interactiondata'
-Accept: application/json  
-OData-MaxVersion: 4.0  
-OData-Version: 4.0  
-```
- Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data.
+If you want to download the feedback provided by the agent, follow the same steps. If an agent has provided verbatim feedback, you'll find it in the `msdyn_verbatim` attribute in `msdyn_interactiondata`.
 
