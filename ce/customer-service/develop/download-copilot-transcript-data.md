@@ -15,7 +15,7 @@ ms.custom:
 
 # Download Copilot transcripts and interaction data
 
-When an agents use Copilot, agent actions such as copying summary presented, using a suggested reply from Copilot, agent feedback, and transcripts from when agents chat with Copilot are stored in the [**msdyn_copilotinteraction**](../develop/msdyn_copilotinteraction), [**msdyn_copilotinteractiondata**](../develop/msdyn_copilotinteractiondata), [**msdyn_copilottranscript**](../develop/msdyn_copilottranscript), and [**msdyn_copilottranscriptdata**](../develop/msdyn_copilottranscriptdata) tables in Dataverse. You can download the transcripts and interaction data using Web API requests.
+When an agents use Copilot, agent actions such as copying summary presented, using a suggested reply from Copilot, agent feedback, and transcripts from when agents chat with Copilot are stored in the [**msdyn_copilotinteraction**](../develop/msdyn_copilotinteraction.md), [**msdyn_copilotinteractiondata**](../develop/msdyn_copilotinteractiondata.md), [**msdyn_copilottranscript**](../develop/msdyn_copilottranscript.md), and [**msdyn_copilottranscriptdata**](../develop/msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Web API requests.
 
 ## Prerequisites
 
@@ -105,7 +105,7 @@ OData-Version: 4.0
 ```
  Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our email example, the decoded interaction data is displayed as follows:
 
-   :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded transcript data." lightbox="../media/copilot-interactions.png":::
+   :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
 
 If you want to download the feedback provided by the agent, follow the same steps. If an agent has provided verbatim feedback, you'll find it in the `msdyn_verbatim` attribute in `msdyn_interactiondata`.
 
