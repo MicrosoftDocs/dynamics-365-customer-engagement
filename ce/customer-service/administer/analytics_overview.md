@@ -1,5 +1,5 @@
 ---
-title: Overview: Use and customize analytics and insights
+title: Use and customize analytics and insights
 description: Learn how to activate and customize analytics and insights in Customer Service to boost contact center efficiency and improve customer satisfaction.
 author: Soumyasd27
 ms.author: sdas
@@ -10,7 +10,7 @@ ms.date: 04/04/2024
 ms.custom: bap-template
 ---
 
-# Overview: Use and customize analytics and insights
+# Use and customize analytics and insights
 
 As an administrator, you have the ability to [enable analytics and insights](configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards) features within Customer Service. These can then be shared with supervisors for review and analysis of contact center activities. This valuable information can help identify and address issues, improve agent efficiency, and ultimately enhance productivity and customer satisfaction.
 
