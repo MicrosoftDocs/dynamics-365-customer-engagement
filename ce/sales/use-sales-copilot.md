@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in Dynamics 365 apps
 description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, and enrich your leads with data from different sources.
-ms.date: 04/03/2024
+ms.date: 04/04/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -48,7 +48,7 @@ Open the Copilot side pane when you want to get quick insights about a record or
 
 <a name=open-copilot-immersive></a>
 
-### Open Copilot in an immersive (preview)
+### Open Copilot in full-screen view (preview)
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
@@ -64,7 +64,7 @@ Open the Copilot page in a full-screen view when you want more space and focus t
 
     :::image type="content" source="media/copilot-immersive.svg" alt-text="Screenshot of the Copilot page showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
 
-    The following screenshot is an example of how the Copilot immersive view displays the opportunity pipeline view:
+    The following screenshot is an example of how the Copilot full-screen view displays the opportunity pipeline view:
 
     :::image type="content" source="media\copilot-immersive-pipeline-view.svg" alt-text="Screenshot of the Copilot page showing an opportunity pipeline in a full-screen view.":::
 
