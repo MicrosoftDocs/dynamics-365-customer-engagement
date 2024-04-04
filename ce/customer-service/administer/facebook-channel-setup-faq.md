@@ -17,10 +17,10 @@ This article provides answers to frequently asked questions (FAQs) about configu
 
 ## Why aren't agents able to receive messages that are sent from Facebook? 
 
-If agents who use Omnichannel for Customer Service aren't receiving Facebook messages, it's likely because users lack the necessary roles or permissions. The assignment of roles or permissions might vary slightly, depending on whether the Facebook app is in production or development mode. 
+If agents who use Omnichannel for Customer Service aren't receiving Facebook messages, it's likely because their customers lack the necessary roles or permissions. The assignment of roles or permissions might vary slightly, depending on whether the Facebook app is in production or development mode. 
 
 **App in production mode**: 
-- If the customer is using the Facebook page for messaging for the first time, they must request pages_messaging permission from their Facebook app. After the request is approved, any Facebook user can send messages to their page.
+- If the customer is using the Facebook page for messaging for the first time, they must request pages_messaging permission from their Facebook app. After the request is approved, any Facebook user can send messages to your business page.
 
 - If the Facebook page is currently used for messaging with another provider and you're onboarding the page to Omnichannel for Customer Service for the first time, you must have an existing Facebook page that's linked to two Facebook apps: One that's connected to your existing provider, and the other one set up with Omnichannel for Customer Service.<br>
 
@@ -38,9 +38,6 @@ If agents who use Omnichannel for Customer Service aren't receiving Facebook mes
 If you grant roles to an existing Facebook user, make sure the user has a Meta Developer account. They need to sign in and accept the assigned role invitation to the app from their account. 
 
 If you're creating a test user within the Facebook app, select to automatically install the app, and select the pages_messaging permission.​
-
-> [!div class=mx-imgBorder]
-> ![Create test user with pages_messaging permission in Facebook app.](../media/facebook-test-account-configure.png "Create Facebook app test user with pages_messaging permission")
 
 ### See also
 
