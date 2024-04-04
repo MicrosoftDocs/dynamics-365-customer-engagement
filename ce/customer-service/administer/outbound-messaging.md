@@ -1,18 +1,19 @@
 ---
-title: "Configure outbound messaging in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about how to configure outbound messaging in Omnichannel for Customer Service."
-ms.date: 05/05/2023
-ms.topic: article
+title: Configure outbound messaging in Omnichannel for Customer Service
+description: Learn about how to configure outbound messaging in Omnichannel for Customer Service.
+ms.date: 04/05/2024
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: 
+ms.custom: bap-template
 ---
 
 # Configure outbound messaging
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for only SMS and WhatsApp channels.
+Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for SMS and WhatsApp channels only.
 
 As an administrator, you can do the following tasks:
 
@@ -147,6 +148,7 @@ Power Automate provides a low-code platform for workflow and process automation.
    | **locale** | Chosen by default | Enable dynamic message languages, by replacing the default variable with a locale column reference, such as the customer's preferred language. If the locale value is missing, the fallback locale in the omnichannel message template will be applied. |
    | **context items** | NA | Contains values to be processed with individual messages as they're sent. |
    | **entityrelationshipname** | Not required | This field refers to the **ActivityRelationship** that was previously defined. Although this field isn't required, it's essential for being able to track outbound activities in the timeline. So, if **show in timeline** in the outbound configuration is set to **Yes**, this field will have to be added to the flow for it to work. |
+   | **msdyn_ocoutboundconfigurationid** | Not Required | To fill the config ID in the outbound message activity records. The value should be the same that's used in the msdyn_InvokeOUtboundAPI.|
    | **CustomerName** | Required | The name of the customer. This value isn't case-sensitive and can throw an error if the customer name values are different. |
    | **CaseName** | Required | The name of the case. |
 
