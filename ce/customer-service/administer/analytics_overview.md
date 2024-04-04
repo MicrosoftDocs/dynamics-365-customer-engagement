@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Overview: Use and customize analytics and insights
 
-As an administrator, you have the ability to [enable analytics](configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards) and insights features within Customer Service. These can then be shared with supervisors for review and analysis of contact center activities. This valuable information can help identify and address issues, improve agent efficiency, and ultimately enhance productivity and customer satisfaction.
+As an administrator, you have the ability to [enable analytics and insights](configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards) features within Customer Service. These can then be shared with supervisors for review and analysis of contact center activities. This valuable information can help identify and address issues, improve agent efficiency, and ultimately enhance productivity and customer satisfaction.
 
 You can configure these features and services in the Customer Service admin center app. Once set up, supervisors can access and view them from the Customer Service workspace app.
 
