@@ -34,7 +34,7 @@ The Dynamics 365 Field Service app for Teams enables frontline managers to manag
 
 1. Select **Save**.
 
-   The work order number appears. If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon :::image type="icon" source="media/fsp-pop-out-icon.png":::.
+   The work order number appears. If you want to open the work order in the Dynamics 365 Field Service app, select the open web app icon :::image type="icon" source="media/fsp-open-web-app-icon.png":::.
 
 ## Schedule or reschedule a work order
 
@@ -112,7 +112,7 @@ While you're viewing a work order, you can also:
 
 - Reflect new or changed information. Select the **Refresh** icon.
 
-- Open the work order in Dynamics 365 Field Service. Select the pop-out :::image type="icon" source="media/fsp-pop-out-icon.png"::: icon.
+- Open the work order in Dynamics 365 Field Service. Select the open web app :::image type="icon" source="media/fsp-open-web-app-icon.png"::: icon.
 
 - Open a map to locate the service address. Select the **Open in Bing Maps** :::image type="icon" source="media/fsp-flm-map-icon.png"::: icon.
 
@@ -124,11 +124,11 @@ While you're viewing a work order, you can also:
 
 ## Add attachments to the work order
 
-Add installation manuals, maintenance documents, specifications, or troubleshooting tips relevant to a work order. Attachments enable technicians to ask Copilot questions and quickly obtain answers allowing for quicker diagnostics and problem-solving. As technicians work on jobs, they can interact with Copilot for real-time advice. Attachments must be notes, Word, or PDF documents.
+Add installation manuals, maintenance documents, specifications, or troubleshooting tips relevant to a work order. Attachments enable technicians to ask Copilot questions and quickly obtain answers allowing for quicker diagnostics and problem-solving. As technicians work on jobs, they can interact with Copilot for real-time advice. Attachments must be notes, Microsoft Word, or PDF documents.
 
 1. [View the work order](#view-a-work-order).
 
-1. Select the pop-out :::image type="icon" source="media/fsp-pop-out-icon.png"::: icon to open the work order in Dynamics 365 Field Service.
+1. Select the open web app :::image type="icon" source="media/fsp-open-web-app-icon.png"::: icon to open the work order in Dynamics 365 Field Service.
 
 1. Select the **Timeline tab**.
 

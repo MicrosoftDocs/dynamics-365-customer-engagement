@@ -15,7 +15,7 @@ ms.collection: bap-ai-copilot
 
 With the Dynamics 365 Field Service Plugin for Microsoft Copilot, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Microsoft Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
 
-Copilot can also parse through a [work order's attachments](flw-teams-manager.md#add-attachments-to-the-work-order) to provide answers to questions. Frontline managers can upload information pertinent to the work order before a technician is scheduled to arrive. Frontline workers can quickly obtain answers such as required tools or step-by-step instructions from Copilot.
+Copilot can also parse through a [work order's attachments](flw-teams-manager.md#add-attachments-to-the-work-order) to provide answers to questions. Frontline managers can upload information relevant to the work order before a technician is scheduled to arrive. Frontline workers can quickly get answers such as required tools or step-by-step instructions from Copilot.
 
 To access this chat feature, an admin must [set up Microsoft Copilot for Field Service work orders](flw-copilot-setup.md).
 

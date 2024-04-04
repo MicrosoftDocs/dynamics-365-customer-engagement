@@ -17,7 +17,7 @@ As an admin, set up Microsoft Copilot for Field Service work orders for your use
 
 ## Obtain licenses and set up the plugin
 
-1. [Get Copilot for Microsoft 365 licenses and enable the Copilot plug-in](/microsoft-365-copilot/extensibility/overview-business-applications##get-copilot-for-microsoft-365-licenses-and-enable-plugins).
+1. [Get Copilot for Microsoft 365 licenses and enable the Copilot plugin](/microsoft-365-copilot/extensibility/overview-business-applications##get-copilot-for-microsoft-365-licenses-and-enable-plugins).
 
 1. [Deploy the plugin](/microsoft-365-copilot/extensibility/overview-business-applications#deploy-a-plugin).
 

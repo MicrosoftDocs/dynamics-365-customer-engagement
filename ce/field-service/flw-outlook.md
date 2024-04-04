@@ -101,10 +101,10 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
 1. [Schedule the work order](#schedule-or-reschedule-a-work-order) or select the back arrow to return to the **Home** tab.
 
-   :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service":::
+   :::image type="content" source="media/fsp-copilot-open-web-app-icon.png" alt-text="Field Service Outlook pane highlighting the open-web-app icon to go to Field Service":::
 
    > [!TIP]
-   > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon.
+   > If you want to open the work order in the Dynamics 365 Field Service app, select the open web app icon.
 
 ## Create a work order manually in Outlook
 
@@ -133,10 +133,10 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
 1. [Schedule the work order](#schedule-or-reschedule-a-work-order) or select the back arrow to return to the **Home** tab.
 
-   :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service":::
+   :::image type="content" source="media/fsp-copilot-open-web-app-icon.png" alt-text="Field Service Outlook pane highlighting the open web app icon to go to Field Service":::
 
    > [!TIP]
-   > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon.
+   > If you want to open the work order in the Dynamics 365 Field Service app, select the open web app icon.
 
 ## Schedule or reschedule a work order
 
@@ -208,9 +208,9 @@ While you're viewing a work order, you can also:
 
 - [Open the schedule board in Field Service](work-with-schedule-board.md). Select the **Schedule board** link.
 
-- Open the work order in Dynamics 365 Field Service. Select the pop-out icon.
+- Open the work order in Dynamics 365 Field Service. Select the open web app icon.
 
-  :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service":::
+  :::image type="content" source="media/fsp-copilot-open-web-app-icon.png" alt-text="Field Service Outlook pane highlighting the open web app icon to go to Field Service":::
 
 ## Edit a work order in Outlook
 
