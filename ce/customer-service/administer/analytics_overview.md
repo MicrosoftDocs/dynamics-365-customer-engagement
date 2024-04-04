@@ -1,5 +1,5 @@
 ---
-title: Enable and customize analytics and insights
+title: Overview: Use and customize analytics and insights
 description: Learn how to activate and customize analytics and insights in Customer Service to boost contact center efficiency and improve customer satisfaction.
 author: Soumyasd27
 ms.author: sdas
@@ -10,17 +10,20 @@ ms.date: 04/04/2024
 ms.custom: bap-template
 ---
 
-# Enable and customize analytics and insights
+# Overview: Use and customize analytics and insights
 
-As an administrator, you have the ability to enable analytics and insights features within Customer Service. These can then be shared with supervisors for review and analysis of contact center activities. This valuable information can help identify and address issues, improve agent efficiency, and ultimately enhance productivity and customer satisfaction.
+As an administrator, you have the ability to [enable analytics](configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards) and insights features within Customer Service. These can then be shared with supervisors for review and analysis of contact center activities. This valuable information can help identify and address issues, improve agent efficiency, and ultimately enhance productivity and customer satisfaction.
 
 You can configure these features and services in the Customer Service admin center app. Once set up, supervisors can access and view them from the Customer Service workspace app.
 
-## Out-of-the-box features
+## Use out-of-the-box features
 
 Customer Service provides a variety of default dashboards and reports. These dashboards display a range of charts, metrics, and key performance indicators, offering valuable insights into your contact center operations. Here's an overview of what's readily available to you.
 
-### Dashboards
+### Access dashboards
+
+Supervisors can access and view these dashboards from the Customer Service workspace app.
+
 - [Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md#customer-service-historical-analytics-reports)
 
 - [Omnichannel historical analytics dashboards](../use/omnichannel-analytics-insights.md)
@@ -29,7 +32,7 @@ Customer Service provides a variety of default dashboards and reports. These das
 
 - [Knowledge analytics reports](../use/knowledge-search-analytics-cs.md)
 
-## Customizations
+## Customize features
 
 Here are the customizations that you can utilize.
 
