@@ -4,10 +4,10 @@ description: Learn about productivity automation macros in Dynamics 365 Customer
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: 
-ms.topic: conceptual #Required; don't change.
+ms.topic: conceptual 
 ms.collection: 
 ms.date: 04/04/2024
-ms.custom: bap-template #Required; don't change.
+ms.custom: bap-template 
 ---
 
 
@@ -113,7 +113,28 @@ This action is used to resolve a case. The action contains the following fields.
 
  | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
-   |resolve a case |  resolve the case passing billable time as a numeric value, resolution can be a string, Incident ID will be the record id that needs to be resolved. When resolving a case via macro, the tab is not automatically refreshed, so additional steps are recommended for a better user experience | <ul><li>Add a new action: Open a new form to create a record with **Entity logical name** set to `task`.</li><li>Add a step to save the record</li><li>Add a new step: Update an existing record<li>Entity record ID: `Entity recird ID`</li><li>Entity logical name: `Entity logical name`</li><li>Attribute Name -1 : regardingobjectid_incident@odata.bind, Value: `/incidents{${anchor.incidentid}}`</li></ul> |
+   |resolve a case |  resolve the case passing billable time as a numeric value, resolution can be a string, Incident ID will be the record id that needs to be resolved. When resolving a case via macro, the tab is not automatically refreshed, so additional steps are recommended for a better user experience | <ol><li>New step: Resolve case with the following attributes:<ul><li>Incident ID: `${anchor.incidentid}`</li><li>Billable time: 0</li><li>Resolution: `Case${anchor.ticketnumber}` resolved via macros</li></ul></li><li>New step: Get the current tab</li><li>New step: Refresh the tab with Tab ID set to `Tab ID`</li><ol> |
+
+## Open an email form with predefined template
+
+This action is used to open an email with a predefined template. The action contains the following fields.
+
+   | Field | Description |
+   |-----------------|-----------------------------|
+   | Entity logical name |  Specify the logical name of the entity. <br> This is a mandatory field. | 
+   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| 
+   | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | 
+   | Template ID | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | 
+
+
+> [!NOTE]
+> Due to a known product limitation, the Email recipients field requires a parameter but it doesn't automatically map to a user in the form. For this reason, the recommendation is to use the autofill form fields macro to populate the values accordingly. 
+
+### Examples
+
+ | Scenarios | Description | Attribute|
+   |-----------------|-----------------------------|---------------------------------|
+   |Open an email template from a case |  The macro opens the template based on the template id and populate the email form with To and Regarding fields.  | <ol><li>New step: Resolve case with the following attributes:<ul><li>Incident ID: `${anchor.incidentid}`</li><li>Billable time: 0</li><li>Resolution: `Case${anchor.ticketnumber}` resolved via macros</li></ul></li><li>New step: Get the current tab</li><li>New step: Refresh the tab with Tab ID set to `Tab ID`</li><ol> |
 
 #### Open a record grid
 
@@ -152,18 +173,6 @@ This action is used to set the focus on an agent script that needs to run next. 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Agent Script Unique Name   |  Specify the agent script that needs to be in focus.  |  The unique name of the agent script.  |
-
-#### Open an email form with predefined template
-
-This action is used to open an email with a predefined template. The action contains the following fields.
-
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity logical name |  Specify the logical name of the entity. <br> This is a mandatory field. | incident |
-   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | |
-   | Template ID | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | |
-
 
 
 
