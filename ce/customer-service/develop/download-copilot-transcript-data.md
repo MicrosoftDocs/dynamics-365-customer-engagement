@@ -39,7 +39,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
    OData-MaxVersion: 4.0  
    OData-Version: 4.0  
   ```
-Copy the value of the **DataId**. Here's a sample JSON context:
+Copy the value of the **DataId**. Here's a sample JSON context.
 
   ```json
   
