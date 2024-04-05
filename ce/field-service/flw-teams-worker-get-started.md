@@ -16,7 +16,7 @@ The Dynamics 365 Field Service app for Teams is designed to help frontline worke
 
 ## Prerequisite
 
-Your environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
+Your environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages).
 
 > [!NOTE]
 > The supported language is based on your Teams' language. If you access Teams from the web, the language is based on the web browser. If you access Teams from Teams Desktop, the language is based on Teams Desktop's language.
@@ -37,7 +37,7 @@ Your environment is in a [supported geography, region, and language](flw-overvie
 
    [Look up your environment](/power-platform/admin/determine-org-id-name) if you're not sure which one to choose.
 
-1. Once the environment is validated, select one of the following:
+1. Once the environment is validated, select one of the following options:
 
    - The **Home** tab to go to the Teams **Home** page.
 
