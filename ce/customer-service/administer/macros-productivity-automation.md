@@ -97,6 +97,24 @@ This action is used to update an existing record. The action contains the follow
 > [!NOTE]
 > This macro will cause the form to refresh after the "Save the record" action and after the "Refresh the tab" action but it was provided for illustration purposes to get familiar with specific patterns for lookups, how to use dynamics content, and differences between macros to open form, autofill form fields and update fields from the back-end. Design your macros to reduce form loading. 
   
+
+## Resolve a case
+
+This action is used to resolve a case. The action contains the following fields.
+
+   | Field | Description | 
+   |-----------------|-----------------------------|--------------------------|
+   | Billable time |  Specify the time that is billable. <br> This is a mandatory field. | 
+   | Incident ID| Specify the ID of the case that you want to close. <br>This is a mandatory field.| 
+   | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | 
+
+
+### Examples
+
+ | Scenarios | Description | Attribute|
+   |-----------------|-----------------------------|---------------------------------|
+   |resolve a case |  resolve the case passing billable time as a numeric value, resolution can be a string, Incident ID will be the record id that needs to be resolved. When resolving a case via macro, the tab is not automatically refreshed, so additional steps are recommended for a better user experience | <ul><li>Add a new action: Open a new form to create a record with **Entity logical name** set to `task`.</li><li>Add a step to save the record</li><li>Add a new step: Update an existing record<li>Entity record ID: `Entity recird ID`</li><li>Entity logical name: `Entity logical name`</li><li>Attribute Name -1 : regardingobjectid_incident@odata.bind, Value: `/incidents{${anchor.incidentid}}`</li></ul> |
+
 #### Open a record grid
 
 This action is used to open a record grid. The action contains the following fields.
@@ -146,15 +164,6 @@ This action is used to open an email with a predefined template. The action cont
    | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | |
    | Template ID | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | |
 
-#### Resolve a case
-
-This action is used to resolve a case. The action contains the following fields.
-
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Billable time |  Specify the time that is billable. <br> This is a mandatory field. | incident |
-   | Incident ID| Specify the ID of the case that you want to close. <br>This is a mandatory field.| |
-   | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
 
 
 
