@@ -16,7 +16,7 @@ The features that are deprecated in Customer Service are listed in this article.
 Administrators and IT professionals can use this information to prepare for future releases.
 
 > [!IMPORTANT]
-> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
 ## Omnichannel for Customer Service on Unified Service Desk is deprecated
 
@@ -24,7 +24,7 @@ Effective April 4, 2024, Omnichannel for Customer Service on Unified Service Des
 
 ## Microsoft Power BI template reports for Customer Service Analytics and Omnichannel Insights are deprecated
 
-Effective November 6, 2023, Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) is deprecated. We recommend that you start using the out-of-box [Omnichannel historical analytics](../use/omnichannel-analytics-insights.md) and [Customer Service historical analytics](../use/customer-service-analytics-insights-csh.md).  
+Effective November 6, 2023, Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) are deprecated. We recommend that you start using the out-of-box [Omnichannel historical analytics](../use/omnichannel-analytics-insights.md) and [Customer Service historical analytics](../use/customer-service-analytics-insights-csh.md) reports.  
 
 The deprecated features are no longer supported and product availability ended on February 28, 2024. Starting April 30, 2024, deprecated features won’t be available to download.  
 
@@ -98,7 +98,7 @@ The Contracts, Contract Line Items, and Contract Templates entities are deprecat
 
 ## Standard SLAs in Dynamics 365 Customer Service are deprecated
 
-Standard service level agreements (SLA Type field is set to Standard) are deprecated and will be removed in a future major release. Standard SLAs are replaced by enhanced SLAs. More information: [Enhanced service level agreements](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn887187(v=crm.8))
+Standard service-level agreements (SLA Type field is set to Standard) are deprecated and will be removed in a future major release. Standard SLAs are replaced by enhanced SLAs. More information: [Enhanced service level agreements](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn887187(v=crm.8))
 
 ## Customer Service Insights standalone app is deprecated
 
