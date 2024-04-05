@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales. Help your sales team can get summaries of their lead and opportunity records, catch up on recent changes, and prepare for meetings.
-ms.date: 03/04/2024
+ms.date: 04/04/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -18,23 +18,17 @@ ms.custom:
 
 # Turn on and set up Copilot in Dynamics 365 Sales
 
-For orgs in North America, Copilot chat is turned on by default in all the Dynamics 365 sales apps. Effective February 5, 2024, the following features are turned on by default for orgs in North America that have opted in for the 2024 release wave 1 update (early access):
+Effective April 1, 2024, Copilot in Dynamics 365 Sales is turned on by default for the following orgs:
 
- - [Copilot for email](compose-send-email-copilot.md) 
- - [Copilot in email rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist)
- - [A new experience for the Copilot settings page](#turn-copilot-features-on-or-off-in-sales-hub)
- 
-[Learn about how to opt in for early access](/power-platform/admin/opt-in-early-access-updates#how-to-get-early-access-updates). 
+- Orgs in North America.
+- Orgs in other [regions where an Open AI Service endpoint is available](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works). 
+- Orgs that have [provided consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
-For orgs in other regions, Copilot chat and Copilot for email features are turned off by default. 
+For all the other orgs, an admin must provide consent in the Power Platform admin center and then turn on Copilot in the Sales Hub app. This article provides instructions for turning Copilot on or off, providing consent for data movement, and configuring Copilot for your business.
 
 > [!IMPORTANT]
->- If you had previously turned Copilot off, it remains turned off. In this case, Copilot for email is not turned on by default, even if your org is in North America and is opted in for early access.
+>- If you had previously turned Copilot off, it remains turned off. 
 >- Throughout this article, the term sales apps refers to apps that have lead and opportunity tables and are not part of the [exclusion list](sales-copilot-faq.md#which-applications-are-in-the-exclusion-list-for-copilot-in-dynamics-365-sales).
-
-Read [this FAQ](sales-copilot-faq.md#what-are-the-early-access-changes-related-to-copilot-in-2024-release-wave-1) to understand the changes in the early access preview and how they'll affect you and your sales teams.
-
-Use the instructions in this article to turn Copilot on or off and configure it for your business.
 
 ## License and role requirements
 
@@ -45,12 +39,10 @@ Use the instructions in this article to turn Copilot on or off and configure it 
 
 ## Prerequisites
 
-If you're in a region other than North America, provide consent for Copilot to process your data outside of your geographic region, compliance boundary, or national cloud instance. 
+- Verify whether your org is in a region where Copilot in Dynamics 365 Sales is available. For a list of unsupported regions, see [this FAQ](sales-copilot-faq.md#is-copilot-in-dynamics-365-sales-available-in-all-regions).
+- Verify whether your region has an Azure Open AI Service endpoint. If not, you must [provide consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to use Copilot in Dynamics 365 Sales. For more information, see [Copilot data movement](sales-copilot-data-movement.md).
 
-- Read the [Copilot data movement](sales-copilot-data-movement.md) article carefully.
 
-- [Turn on data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
- 
 ## Turn Copilot features on or off in Sales Hub
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
@@ -59,13 +51,9 @@ If you're in a region other than North America, provide consent for Copilot to p
 
 1. In the **Set up Copilot in Dynamics 365 Sales** page, select **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.
 
-1. If you didn't provide consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
+1. If your org is in a region where Azure Open AI Service endpoint isn't available but you haven't yet provided consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
-1. Under **Enable Copilot for**, select a global setting that you want to apply for all Sales apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app. 
-
-    :::image type="content" source="media/enable-copilot-old.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub."::: 
-
-    The settings page looks different for orgs in North America that have opted in for early access. The new settings page contains an option to turn on Copilot Chat and Email features at the global level for all Sales apps and individually for each Sales app. 
+1. Under **All Dynamics 365 Sales apps**, select a global setting that you want to apply to all Sales apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app.  
 
     :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the new settings page in Dynamics 365 Sales Hub.":::  
 
@@ -92,7 +80,7 @@ If you're in a region other than North America, provide consent for Copilot to p
     - Audit history is required for Copilot to display recent changes to leads and opportunities.
     - If you configure Copilot to [show recent changes from tables other than leads and opportunities](#configure-fields-for-generating-summaries-and-recent-changes-list), turning on auditing turns on audit history for those tables as well. However, if you remove those fields later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for those tables manually.
 
-1. Select **Publish**.
+1. Select **Save**.
 
     The Welcome to Copilot pane opens in the right side pane with a quick tour.
 
@@ -155,6 +143,13 @@ Copilot generates the list of recent changes for leads and opportunities from th
 
 1. Select **Save + close**.
 
+## Add the Copilot page site map entry to custom sales app
+
+When you create a custom model-driven app, you can choose a default solution to create a site map for it. However, you can choose solutions that are based on table forms only. The full-screen Copilot page is based on a URL custom control and doesn't appear in the list of solutions. You must add it to the site map manually.  
+
+To add the Copilot page to your site map, [add site map entry to your custom app](add-custom-site-map.md) and enter or paste the following URL:
+
+`/main.aspx?&pagetype=control&controlName=PowerApps.Copilot`
 
 ### See also
 

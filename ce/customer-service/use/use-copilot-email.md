@@ -25,7 +25,7 @@ When you draft customer emails, Copilot can offer suggestions to make them clear
 
   ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
 
-   :::image type="content" source="../media/draft-an-email-sidepane.svg" alt-text="Screenshot of draft an email in the side pane." :::
+   :::image type="content" source="../media/copilot-email-sidepane-mini.png" alt-text="Screenshot of draft an email in the side pane." lightbox="../media/copilot-email-sidepane.png":::
 
   ---
 
@@ -61,6 +61,16 @@ If your administrator enabled knowledge sources and set up trusted domains, the 
 ### Review suggested replies
 
 When you select one of the predefined prompts, Copilot generates a suggested reply that's displayed on the UI incrementally. You can also see the inline citations that show the knowledge base or website links from which Copilot drew the response. When you hover over the citation, you can see an inline link to the source. You can select **Stop Responding** to stop Copilot from generating the email draft. The application displays the prompts for you to start over. 
+
+### Refine replies
+
+You can select **Adjust** to change the length and tone of the response as follows:
+
+**Length**: Select **Short**, **Medium**, or **Long** to condense or expand on your text. <br>
+**Tone**: Select **Friendly**, **Professional**, or **Formal** to adjust the tone of your text.
+
+> [!NOTE]
+> The **Adjust** feature supports responses in English only.
 
 ### Use follow-up prompts
 

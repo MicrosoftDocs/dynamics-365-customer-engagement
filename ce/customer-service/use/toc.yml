@@ -294,6 +294,8 @@
           href: copilot-language-support.md
         - name: View analytics for Copilot impact
           href: copilot-analytics-report.md
+        - name: Chat with Customer Service data in Copilot for Microsoft 365 (preview)
+          href: copilot-chat-customer-service-data.md
       - name: Analytics dashboards and insights
         items: 
         - name: Use Omnichannel real-time analytics dashboards
