@@ -1,7 +1,7 @@
 ---
 title: Integrate Guides with Field Service
 description: Learn how to integrate Dynamics 365 Field Service with Dynamics 365 Guides so technicians can follow a guide while addressing a work order.
-ms.date: 10/11/2023
+ms.date: 04/05/2024
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
@@ -10,6 +10,8 @@ ms.author: jshum
 # Integrate Guides with Field Service
 
 Integration with Dynamics 365 Guides lets Field Service users attach mixed reality guides to Field Service tasks. When work orders are assigned to technicians, the technicians can use a dedicated Field Service tab in the Dynamics 365 Guides HoloLens app to launch the guide and get their work done.
+
+To collaborate with other users including annotating in their environment, see [Use Teams mobile to annotate in a user's environment (preview)](annotate-teams-mobile.md).
 
 ## Prerequisites
 
