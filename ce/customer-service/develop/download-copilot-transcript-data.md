@@ -15,16 +15,16 @@ ms.custom:
 
 # Download Copilot transcripts and interaction data
 
-When an agents use Copilot, agent actions such as copying summary presented, using a suggested reply from Copilot, agent feedback, and transcripts from when agents chat with Copilot are stored in the [**msdyn_copilotinteraction**](../develop/reference/entities/msdyn_copilotinteraction.md), [**msdyn_copilotinteractiondata**](../develop/reference/entities/msdyn_copilotinteractiondata.md), [**msdyn_copilottranscript**](../develop/reference/entities/msdyn_copilottranscript.md), and [**msdyn_copilottranscriptdata**](../develop/reference/entities/msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Web API requests.
+When agents use Copilot, agent interactions with Copilot such as copying summaries, using a suggested reply, feedback, and chat transcripts are stored in the [**msdyn_copilotinteraction**](../develop/reference/entities/msdyn_copilotinteraction.md), [**msdyn_copilotinteractiondata**](../develop/reference/entities/msdyn_copilotinteractiondata.md), [**msdyn_copilottranscript**](../develop/reference/entities/msdyn_copilottranscript.md), and [**msdyn_copilottranscriptdata**](../develop/reference/entities/msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Web API requests.
 
 ## Prerequisites
 
 - Make sure that the **Agent experience data** checkbox is selected in [**Copilot help pane**](../administer/copilot-enable-help-pane.md), for the transaction and interaction data to be stored in the Dataverse.
-- Make sure you are logged in with the Administrator or Supervisor role.
+- Make sure you're logged in with the Administrator or Supervisor role.
 
-## Get interaction id
+## Get interaction ID
 
-When the agent interacts with the Copilot, the interaction is stored in the `msdyn_copilotinteraction` table with a unique interaction ID. You can get the interaction ID by using the following Web API call:
+Each agent interaction with Copilot is stored in the `msdyn_copilotinteraction` table with a unique interaction ID. You can get the interaction ID by using the following Web API call:
 
 ```http
 [Organization URI]/api/data/v9.1/msdyn_copilotinteractions
@@ -33,7 +33,8 @@ OData-MaxVersion: 4.0
 OData-Version: 4.0  
 ```
 
-The interaction are displayed in the response as follows:
+The interactions are displayed in the response as follows:
+
   ```json
   
 {
@@ -100,12 +101,12 @@ Copy the `msdyn_copilotinteractionid` for the required interaction.
 
 ## Download chat transcripts
 
-When an agent [asks the Copilot a question](../develop/copilot-enable-help-pane.md#enable-ask-a-question), the interactions between the agent and Copilot are saved as a transcript in base64 encoded format in the `msdyn_transcriptdata` table in Microsoft Dataverse. You can download the transcripts to review the conversation and the responses provided by Copilot.
+When an agent [asks the Copilot a question](../develop/copilot-enable-help-pane.md#enable-ask-a-question), the chat is saved as a transcript encoded in the base64 encoded format in the `msdyn_transcriptdata` table in Dataverse. You can download the transcripts to review the conversation and the responses provided by Copilot.
 
-For example, an agent asks the Copilot “How can I book a trip?” while working on a case. Copilot generates a response based on a KB article. If you want to download that chat transcript, perform the following steps:
+For example, an agent asks the Copilot, 'How can I book a trip?' while working on a case. Copilot generates a response based on a KB article. If you want to download that chat transcript, perform the following steps:
 
-1. Get the interaction ID using the Web API call in [get interaction id](#get-interaction-id).
-1. Filter the msdyn_copilotinteractions with the required interaction ID to get to the DataID. Use the following Web API request to filter the data by interaction id:
+1. Get the interaction ID using the Web API call in [get interaction ID](#get-interaction-id).
+1. Filter the msdyn_copilotinteractions with the required interaction ID to get to the DataID. Use the following Web API request to filter the data by interaction ID:
 
 ```http
 [Organization URI]/api/data/v9.1/msdyn_copilotinteractions(<msdyn_copilotinteractionid>)
@@ -191,14 +192,13 @@ Decode the base64 encoded data to get the transcript. You can use an online base
 } 
   ```
 
-
 ## Download interaction data
 
-For all other interactions between agents and Copilot, the interaction data is stored in the `msdyn_copilotinteractiondata` table in Dataverse. 
+For all other interactions between agents and Copilot, data is stored in the `msdyn_copilotinteractiondata` table in Dataverse. 
 
-For example, an interaction can be an agent using the Copilot to generate an email or a case summary. You can download the data from this interaction as follows:
+For example, an interaction can be an agent using the Copilot to generate an email or a case summary. You can download the interaction data as follows:
 
-1. Get the interaction ID using the Web API call in [get interaction id](#get-interaction-id).
+1. Get the interaction ID using the Web API call in [get interaction ID](#get-interaction-id).
 1. The following Web API request retrieves the interactions data from the `msdyn_copilotinteraction` table in the base64 encoded format:
 
 ```http
@@ -211,5 +211,5 @@ OData-Version: 4.0
 
    :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
 
-If you want to download the feedback provided by the agent, follow the same steps. If an agent has provided verbatim feedback, you'll find it in the `msdyn_verbatim` attribute in `msdyn_copilotinteractiondata`.
+If you want to download the feedback provided by the agent, follow the same steps. Verbatim feedback provided by agents is stored in the `msdyn_verbatim` attribute in `msdyn_copilotinteractiondata`.
 
