@@ -68,10 +68,10 @@
             href: test-custom-channel-sample-html.md
           - name: Markdown formats in custom channels that use Direct Line
             href: markdown-formats-dev.md   
-      - name: Chat
+      - name: Copilot
         items:  
         - name: Download Copilot transcripts and interaction data
-          href: donwload-copilot-transcript-data.md                 
+          href: download-copilot-transcript-data.md               
       - name: Agent productivity tools
         items: 
         - name: Build a smart assist bot

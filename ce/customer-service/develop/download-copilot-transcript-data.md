@@ -101,7 +101,7 @@ Copy the `msdyn_copilotinteractionid` for the required interaction.
 
 ## Download chat transcripts
 
-When an agent [asks the Copilot a question](../develop/copilot-enable-help-pane.md#enable-ask-a-question), the chat is saved as a transcript encoded in the base64 encoded format in the `msdyn_transcriptdata` table in Dataverse. You can download the transcripts to review the conversation and the responses provided by Copilot.
+When an agent [asks the Copilot a question](../administer/copilot-enable-help-pane.md#enable-ask-a-question), the chat is saved as a transcript encoded in the base64 encoded format in the `msdyn_transcriptdata` table in Dataverse. You can download the transcripts to review the conversation and the responses provided by Copilot.
 
 For example, an agent asks the Copilot, 'How can I book a trip?' while working on a case. Copilot generates a response based on a KB article. If you want to download that chat transcript, perform the following steps:
 
