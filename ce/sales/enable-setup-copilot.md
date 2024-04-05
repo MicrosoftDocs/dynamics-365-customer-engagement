@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales. Help your sales team can get summaries of their lead and opportunity records, catch up on recent changes, and prepare for meetings.
-ms.date: 04/02/2024
+ms.date: 04/04/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -42,7 +42,7 @@ For all the other orgs, an admin must provide consent in the Power Platform admi
 - Verify whether your org is in a region where Copilot in Dynamics 365 Sales is available. For a list of unsupported regions, see [this FAQ](sales-copilot-faq.md#is-copilot-in-dynamics-365-sales-available-in-all-regions).
 - Verify whether your region has an Azure Open AI Service endpoint. If not, you must [provide consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to use Copilot in Dynamics 365 Sales. For more information, see [Copilot data movement](sales-copilot-data-movement.md).
 
- 
+
 ## Turn Copilot features on or off in Sales Hub
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
@@ -143,6 +143,13 @@ Copilot generates the list of recent changes for leads and opportunities from th
 
 1. Select **Save + close**.
 
+## Add the Copilot page site map entry to custom sales app
+
+When you create a custom model-driven app, you can choose a default solution to create a site map for it. However, you can choose solutions that are based on table forms only. The full-screen Copilot page is based on a URL custom control and doesn't appear in the list of solutions. You must add it to the site map manually.  
+
+To add the Copilot page to your site map, [add site map entry to your custom app](add-custom-site-map.md) and enter or paste the following URL:
+
+`/main.aspx?&pagetype=control&controlName=PowerApps.Copilot`
 
 ### See also
 
