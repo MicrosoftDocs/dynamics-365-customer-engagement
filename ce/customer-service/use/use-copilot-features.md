@@ -12,7 +12,6 @@ ms.custom: bap-template
 
 # Use Copilot to solve customer issues
 
-
 Copilot is an AI-powered tool that revolutionizes the agent experience in Dynamics 365 Customer Service. It provides real-time assistance to resolve issues faster, handle cases more efficiently, and automate time-consuming tasks so you can focus on delivering high-quality service to your customers.
 
 > [!IMPORTANT]
