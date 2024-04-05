@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: 
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 04/05/2024
+ms.date: 04/08/2024
 ms.custom: bap-template
 ---
 
@@ -20,7 +20,8 @@ One of the powerful features of Copilot is its ability to generate knowledge art
 
 ## Prerequisites
 
-Make sure that the user has the System Administrator role.
+- The user who configures has the System Administrator role.
+- You have enabled and configured knowledge management.
 
 ## Enable Copilot to generate knowledge
 
@@ -31,6 +32,9 @@ Do the following steps in Customer Service admin center:
     - **Let agents use Copilot to propose new knowledge based on case information during or after case resolution**
        - **In the case resolution step, keep the option to propose a knowledge article selected by default** 
 1. In **User experience data**, select the checkbox for the system to record user interactions with AI and their feedback on AI suggestions. The information can then be used to analyze knowledge sources and build usage reports.
+
+    :::image type="content" source="../media/screenshot-of-set-up-knowledge-from-case.png" alt-text="Screenshot of settings to enable Copilot to create knowledge proposals from case.":::
+
 1. Save and close.
 
 ## Region availability and data movement

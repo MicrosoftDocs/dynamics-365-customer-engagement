@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: 
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 04/05/2024
+ms.date: 04/08/2024
 ms.custom: bap-template
 ---
 
@@ -35,7 +35,7 @@ Use the following steps to generate a knowledge draft while you are resolving a 
     - Use the Revise with instructions field to modify and refine the proposed draft. You can propose up to five revisions.
     - Use **Create proposal** after reviewing the draft. The system saves the Copilot generated knowledge draft as a proposal.
 
-
+    :::image type="content" source="../media/screenshot-of-propose-knowledge-draft-from-case.png" alt-text="A screenshot of knowledge from case proposed by Copilot.":::
 ### See also
 
 [Enable Copilot to suggest knowledge from cases](../administer/enable-copilot-suggest-knowledge-from-cases.md)  
