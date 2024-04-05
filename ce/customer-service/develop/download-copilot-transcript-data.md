@@ -4,7 +4,7 @@ description: Download Copilot transcripts to review agent interactions and respo
 author: gandhamm
 ms.author: mgandham
 ms.topic: how-to 
-ms.collection: get-started 
+ms.collection: bap-ai-copilot
 ms.date: 04/05/2024
 ms.custom:
   - bap-template
@@ -25,9 +25,9 @@ When agents use Copilot, agent interactions with Copilot such as copying summari
 
 ## Download chat transcripts
 
-When an agent [asks Copilot a question](../administer/copilot-enable-help-pane.md#enable-ask-a-question), the chat is saved as a transcript encoded in the base64 encoded format in the `msdyn_transcriptdata` table in Dataverse. You can download the transcripts to review the conversation and the responses provided by Copilot.
+When an agent [asks Copilot a question](../administer/copilot-enable-help-pane.md#enable-ask-a-question), the chat is saved as a transcript encoded in the base64 encoded format in the `msdyn_transcriptdata` table in Dataverse. You can download the transcripts to review the conversation and responses provided by Copilot.
 
-For example, while working on a case, the agent asks Copilot "How can I book a trip?" Copilot generates a response based on a knowledge base article. If you want to download that chat transcript, perform the following steps:
+For example, while working on a case, the agent asks Copilot "How can I book a trip?". Copilot generates a response based on a knowledge base article. If you want to download the chat transcript, perform the following steps:
 
 1. Use the web API call to [get the interaction id](#get-interaction-id).
 1. Filter the msdyn_copilotinteractions table with the required interaction ID to get to the DataID. Use the following Web API request to filter the data by interaction ID.
