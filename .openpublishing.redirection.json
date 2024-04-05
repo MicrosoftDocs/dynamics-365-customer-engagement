@@ -255,6 +255,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/optimize-ranking-insight-cards.md",
+      "redirect_url": "/dynamics365/sales/edit-insight-cards",
+      "redirect_document_id": "false"
+    },    
+    {
       "source_path": "ce/field-service/single-resource-optimization.md",
       "redirect_url": "/dynamics365/field-service/rso-single-resource-optimization",
       "redirect_document_id": "false"

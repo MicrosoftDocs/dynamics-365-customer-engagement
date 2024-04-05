@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 02/29/2024
+ms.date: 04/03/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -24,11 +24,12 @@ Use Copilot to get information about your pipeline, summarize your opportunities
 
 Copilot can get you the list of open opportunities that are assigned to you, sorted by the estimated close date.
 
-In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Show my pipeline**, and select Enter.
+[Open Copilot](use-sales-copilot.md#open-copilot), select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Show my pipeline**, and select **Enter**.
 
 ## Summarize a lead or opportunity
 
-1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** or **Summarize opportunity**, and select Enter.
+1. [Open Copilot](use-sales-copilot.md#open-copilot).  
+1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** or **Summarize opportunity**, and then select **Enter**.
 
     - If you have a record open, Copilot summarizes it.
     - If you're in the grid view, Copilot lists the records you own. Hover over a record and select **Summarize**.
@@ -54,13 +55,13 @@ As a salesperson, you need to be aware of the latest product information, such a
 1. [Summarize an opportunity](#summarize-a-lead-or-opportunity).
     After the summary, Copilot displays a follow-up prompt **Get product-related files (preview)**. The prompt is displayed only if the opportunity has products associated with it. 
 
-2. Select **Get product-related files (preview)**. 
+1. Select **Get product-related files (preview)**. 
    > [!NOTE]
    > At the moment, this feature can be invoked only by selecting the prompt and not by typing in the Copilot chat. 
 
     If the opportunity has multiple products, Copilot lists the products.
 
-3. Hover over a product and select **Get files**.
+1. Hover over a product and select **Get files**.
 
     Copilot displays related Microsoft Word, Excel, PowerPoint, and PDF files for the product. Copilot lists only those files that the user has access to in SharePoint.
 
@@ -84,7 +85,7 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. Select **Connect** to connect the lead with a matching record.
 
-    :::image type="content" source="media/copilot-lead-enrichment.png" alt-text="Screenshot of a lead card in the Copilot chat pane, with a matching account highlighted.":::
+    :::image type="content" source="media/copilot-lead-enrichment.png" alt-text="Screenshot of a lead card in the Copilot chat, with a matching account highlighted.":::
 
 1. After Copilot connects the records, select **Get updated lead summary** to generate a new summary that includes information from the connected record.
 
@@ -100,7 +101,7 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 
-1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Get latest news for account**, and select Enter.
+1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Get latest news for account**, and select Enter.
 
     - If you have a record open, Copilot lists the news articles related to that account.
     - If you're in the grid view, Copilot lists news articles for the top 10 accounts you work with, sorted by the revenue associated with them.
