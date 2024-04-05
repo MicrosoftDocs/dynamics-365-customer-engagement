@@ -16,7 +16,7 @@ The features that are deprecated in Customer Service are listed in this article.
 Administrators and IT professionals can use this information to prepare for future releases.
 
 > [!IMPORTANT]
-> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. Were notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
 ## Omnichannel for Customer Service on Unified Service Desk is deprecated
 
