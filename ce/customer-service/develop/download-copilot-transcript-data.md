@@ -19,12 +19,127 @@ When agents use Copilot, agent interactions with Copilot such as copying summari
 
 ## Prerequisites
 
-- Make sure that the **Agent experience data** checkbox is selected in [**Copilot help pane**](../administer/copilot-enable-help-pane.md), for the transaction and interaction data to be stored in the Dataverse.
+- Make sure that the **Agent experience data** checkbox is selected in [**Copilot help pane**](../administer/copilot-enable-help-pane.md), so that the transaction and interaction data is stored by the system in Dataverse.
 - Make sure you're logged in with the Administrator or Supervisor role.
+- [Get the interaction id](#get-interaction-id).
 
-## Get interaction ID
+## Download chat transcripts
 
-Each agent interaction with Copilot is stored in the `msdyn_copilotinteraction` table with a unique interaction ID. You can get the interaction ID by using the following Web API call:
+When an agent [asks Copilot a question](../administer/copilot-enable-help-pane.md#enable-ask-a-question), the chat is saved as a transcript encoded in the base64 encoded format in the `msdyn_transcriptdata` table in Dataverse. You can download the transcripts to review the conversation and the responses provided by Copilot.
+
+For example, while working on a case, the agent asks Copilot "How can I book a trip?" Copilot generates a response based on a knowledge base article. If you want to download that chat transcript, perform the following steps:
+
+1. Use the web API call to [get the interaction id](#get-interaction-id).
+1. Filter the msdyn_copilotinteractions table with the required interaction ID to get to the DataID. Use the following Web API request to filter the data by interaction ID.
+
+  ```http
+ 
+     [Organization URI]/api/data/v9.1/msdyn_copilotinteractions(<msdyn_copilotinteractionid>)
+   Accept: application/json  
+   OData-MaxVersion: 4.0  
+   OData-Version: 4.0  
+  ```
+Copy the value of the **DataId**. Here's a sample JSON context:
+
+  ```json
+  
+     { 
+       "ResponseStatusCode": 20000, 
+       "Plugins": { 
+        }, 
+        "Transcript": { 
+        "Id": "c477c6dd-d877-c6d1-9337-31e5b54e4a1b", 
+        "DataId": "0a7a438f-c2a5-58d7-e03d-c932812b3095"  
+        }, 
+        "Filters": { 
+          "AgentContextFilters": [ 
+         ], 
+         "DynamicFilters": { 
+           "IsApplied": false 
+        } 
+     } 
+   }
+
+  ```
+3. The following Web API request retrieves the transcript in the base64 encoded transcript.
+
+   ```http
+    [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(<Trascript:DataID>)/msdyn_transcriptdata)
+    Accept: application/json  
+    OData-MaxVersion: 4.0  
+    OData-Version: 4.0  
+  ```
+
+4. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our example, the decoded transcript is displayed as follows.
+
+```json
+      { 
+     "messages": [ 
+    { 
+      "id": "283c2269-b131-dac2-3aed-847bd99402e7", 
+      "requestId": "93893746-e203-e9b6-18b9-887d68d18daf", 
+      "message": "How can I book a trip?", 
+      "sequence": 0, 
+      "user": "user", 
+      "timestamp": 1711052758750, 
+      "isActivityError": false, 
+      "context": {   
+
+      } 
+    }, 
+    { 
+      "id": "eba9e9d5-71e2-9502-0bca-9387246fb094", 
+      "requestId": "93893746-e203-e9b6-18b9-887d68d18daf", 
+      "message": "To book a trip, follow these steps:\n\n1. Go to the travel portal.\n2. Click on \"Travel\" and then select \"Book a Trip\".\n3. Fill in your name, contact information, and the dates of your trip.\n4. Choose your destination from the drop-down menu.\n5. Select a hotel from the drop-down menu and specify the check-in and check-out dates. If you don't want to book a hotel, you can check the \"I do not want to book a hotel\" box.\n6. Choose the type of rental car you want. If you don't want to rent a car, you can check the \"I do not want to rent a car\" box.\n7. Click \"Submit\".\n\nOnce you've submitted your booking request, you will receive a follow-up communication from an agent with a quote. You can also add any notes or additional information by clicking on the case from the My Bookings screen.", 
+      "sequence": 1, 
+      "user": "bot", 
+      "timestamp": 1711052776968, 
+      "isActivityError": false, 
+      "sources": [ 
+        { 
+          "id": "56d56813-04f5-ed11-8849-000d3a35dbfc", 
+          "title": "Booking Travel", 
+          "source": "internal_kb" 
+        } 
+      ], 
+      "context": { 
+        "customerIntent": "How to book a trip?" 
+      } 
+    } 
+  ], 
+  "context": { 
+    "chatId": "21b27e83-299d-a639-3e4a-8dcd6332e184", 
+    "sessionId": "session-id-2", 
+    "entityId": "56d56813-04f5-ed11-8849-000d3a35dbfc", 
+    "entityName": "knowledgearticle" 
+  } 
+} 
+  ```  
+
+## Download interaction data
+
+For all other interactions between agents and Copilot, data is stored in the `msdyn_copilotinteractiondata` table in Dataverse. 
+
+For example, an interaction can be an agent using Copilot to generate an email or a case summary. You can download the interaction data as follows:
+
+1. Use the web API call to [get the interaction id](#get-interaction-id).
+1. The following Web API request retrieves the interactions data from the `msdyn_copilotinteraction` table in the base64 encoded format:
+
+  ```http
+   [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_interactiondataid>)/msdyn_copilotinteractiondata
+   Accept: application/json  
+   OData-MaxVersion: 4.0  
+   OData-Version: 4.0  
+  ```
+ 3. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our email example, the decoded interaction data is displayed as follows.
+
+   :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
+
+If you want to download the feedback provided by the agent, follow the same steps. Verbatim feedback provided by agents is stored in the `msdyn_verbatim` attribute in the `msdyn_copilotinteractiondata` table.
+
+### Get interaction ID
+
+Each agent interaction with Copilot is stored in the `msdyn_copilotinteraction` table with a unique interaction ID. You can use the following Web API call to obtain the interaction ID in the `msdyn_copilotinteractionid` field.
 
 ```http
 [Organization URI]/api/data/v9.1/msdyn_copilotinteractions
@@ -33,7 +148,7 @@ OData-MaxVersion: 4.0
 OData-Version: 4.0  
 ```
 
-The interactions are displayed in the response as follows:
+The interactions are displayed in the response as follows.
 
   ```json
   
@@ -96,120 +211,3 @@ The interactions are displayed in the response as follows:
     },
 
   ```
-
-Copy the `msdyn_copilotinteractionid` for the required interaction.
-
-## Download chat transcripts
-
-When an agent [asks the Copilot a question](../administer/copilot-enable-help-pane.md#enable-ask-a-question), the chat is saved as a transcript encoded in the base64 encoded format in the `msdyn_transcriptdata` table in Dataverse. You can download the transcripts to review the conversation and the responses provided by Copilot.
-
-For example, an agent asks the Copilot, 'How can I book a trip?' while working on a case. Copilot generates a response based on a KB article. If you want to download that chat transcript, perform the following steps:
-
-1. Get the interaction ID using the Web API call in [get interaction ID](#get-interaction-id).
-1. Filter the msdyn_copilotinteractions with the required interaction ID to get to the DataID. Use the following Web API request to filter the data by interaction ID:
-
-```http
-[Organization URI]/api/data/v9.1/msdyn_copilotinteractions(<msdyn_copilotinteractionid>)
-Accept: application/json  
-OData-MaxVersion: 4.0  
-OData-Version: 4.0  
-```
-Copy the value of the **DataId**. Here's a sample JSON context:
-
-  ```json
-  
-     { 
-       "ResponseStatusCode": 20000, 
-       "Plugins": { 
-        }, 
-        "Transcript": { 
-        "Id": "c477c6dd-d877-c6d1-9337-31e5b54e4a1b", 
-        "DataId": "0a7a438f-c2a5-58d7-e03d-c932812b3095"  
-        }, 
-        "Filters": { 
-          "AgentContextFilters": [ 
-         ], 
-         "DynamicFilters": { 
-           "IsApplied": false 
-        } 
-     } 
-   }
-
-  ```
-3. The following Web API request retrieves the transcript in the base64 encoded transcript:
-
-```http
-[Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(<Trascript:DataID>)/msdyn_transcriptdata)
-Accept: application/json  
-OData-MaxVersion: 4.0  
-OData-Version: 4.0  
-```
-
-Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our example, the decoded transcript is displayed as follows:
-
-
-  ```json
-    { 
-  "messages": [ 
-    { 
-      "id": "283c2269-b131-dac2-3aed-847bd99402e7", 
-      "requestId": "93893746-e203-e9b6-18b9-887d68d18daf", 
-      "message": "How can I book a trip?", 
-      "sequence": 0, 
-      "user": "user", 
-      "timestamp": 1711052758750, 
-      "isActivityError": false, 
-      "context": {   
-
-      } 
-    }, 
-    { 
-      "id": "eba9e9d5-71e2-9502-0bca-9387246fb094", 
-      "requestId": "93893746-e203-e9b6-18b9-887d68d18daf", 
-      "message": "To book a trip, follow these steps:\n\n1. Go to the travel portal.\n2. Click on \"Travel\" and then select \"Book a Trip\".\n3. Fill in your name, contact information, and the dates of your trip.\n4. Choose your destination from the drop-down menu.\n5. Select a hotel from the drop-down menu and specify the check-in and check-out dates. If you don't want to book a hotel, you can check the \"I do not want to book a hotel\" box.\n6. Choose the type of rental car you want. If you don't want to rent a car, you can check the \"I do not want to rent a car\" box.\n7. Click \"Submit\".\n\nOnce you've submitted your booking request, you will receive a follow-up communication from an agent with a quote. You can also add any notes or additional information by clicking on the case from the My Bookings screen.", 
-      "sequence": 1, 
-      "user": "bot", 
-      "timestamp": 1711052776968, 
-      "isActivityError": false, 
-      "sources": [ 
-        { 
-          "id": "56d56813-04f5-ed11-8849-000d3a35dbfc", 
-          "title": "Booking Travel", 
-          "source": "internal_kb" 
-        } 
-      ], 
-      "context": { 
-        "customerIntent": "How to book a trip?" 
-      } 
-    } 
-  ], 
-  "context": { 
-    "chatId": "21b27e83-299d-a639-3e4a-8dcd6332e184", 
-    "sessionId": "session-id-2", 
-    "entityId": "56d56813-04f5-ed11-8849-000d3a35dbfc", 
-    "entityName": "knowledgearticle" 
-  } 
-} 
-  ```
-
-## Download interaction data
-
-For all other interactions between agents and Copilot, data is stored in the `msdyn_copilotinteractiondata` table in Dataverse. 
-
-For example, an interaction can be an agent using the Copilot to generate an email or a case summary. You can download the interaction data as follows:
-
-1. Get the interaction ID using the Web API call in [get interaction ID](#get-interaction-id).
-1. The following Web API request retrieves the interactions data from the `msdyn_copilotinteraction` table in the base64 encoded format:
-
-```http
-[Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_interactiondataid>)/msdyn_copilotinteractiondata
-Accept: application/json  
-OData-MaxVersion: 4.0  
-OData-Version: 4.0  
-```
- Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our email example, the decoded interaction data is displayed as follows:
-
-   :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
-
-If you want to download the feedback provided by the agent, follow the same steps. Verbatim feedback provided by agents is stored in the `msdyn_verbatim` attribute in `msdyn_copilotinteractiondata`.
-

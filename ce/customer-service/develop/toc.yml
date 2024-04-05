@@ -68,7 +68,7 @@
             href: test-custom-channel-sample-html.md
           - name: Markdown formats in custom channels that use Direct Line
             href: markdown-formats-dev.md   
-      - name: Copilot
+      - name: Copilot in Customer Service
         items:  
         - name: Download Copilot transcripts and interaction data
           href: download-copilot-transcript-data.md               
