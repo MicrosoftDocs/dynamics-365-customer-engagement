@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 03/22/2024
+ms.date: 04/08/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -28,7 +28,6 @@ Copilot is an AI-powered tool that revolutionizes the agent experience in Dynami
 
 Make sure that your administrator has turned on the copilot features.
 
-
 ## Ask a question 
 
 When you sign in to any of the Customer Service agent apps, Copilot opens in the right side panel with the **Ask a question** tab ready. Copilot acts as your partner, helping to answer questions without your having to search for the information.
@@ -44,6 +43,15 @@ With Copilot, you can take the following actions:
 - **Ask a direct question**: Copilot shows the most relevant answer from the knowledge sources your organization has made available.
 - **Ask follow-up turn by turn questions**: If Copilot's response isn't immediately useful, you can ask follow-up questions and guide Copilot in a natural, conversational way.
 - **Ask Copilot to attempt a better response**: Copilot can also rephrase responses based on more guidance such as, "Can you summarize your response?" or "Can you attempt a response providing details for each of the steps you mentioned?"
+
+### Use targeted questions for Copilot to get responses from plugins (preview)
+
+If your administrator has configured prompt plugins, you can use targeted keywords to gather quick information about the case that you are working on.
+
+1. Open the case that you need to work on and then enter **Get account summary** in the Copilot **Ask a question** pane. Copilot summarizes the account details of the customer whose case you have opened and displays it.
+1. Select **Check sources**. The plugin that's used for generating the summary is displayed.
+1. You can use the options on the Copilot pane to edit or copy, and provide feedback on the response.
+    :::image type="content" source="../media/screenshot-of-prompt-plugin-response-in-copilot.png" alt-text="A screenshot of the Copilot response that's generated through the prompt plugin.":::
 
 ### Use the responses
 
