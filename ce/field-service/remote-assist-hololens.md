@@ -1,7 +1,7 @@
 ---
 title: Collaborate in mixed reality with Field Service and Remote Assist
 description: Learn how to collaborate in mixed reality by integrating Dynamics 365 Field Service with Dynamics 365 Remote Assist.
-ms.date: 10/10/2023
+ms.date: 04/05/2024
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
@@ -18,6 +18,8 @@ By integrating Field Service and Dynamics 365 Remote Assist, you can:
 - Post the Remote Assist call information to the associated work order's timeline.
 
 In this article, we explore how a field technician can use the Remote Assist mobile app to call an expert for help with completing a work order. We also explore the requirements to set up and use Remote Assist and Field Service on a HoloLens.
+
+To collaborate with other users including annotating in their environment, see [Use Teams mobile to annotate in a user's environment (preview)](annotate-teams-mobile.md).
 
 <!--
 For a guided walkthrough, see the following video.
