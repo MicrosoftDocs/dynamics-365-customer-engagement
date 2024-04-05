@@ -41,7 +41,7 @@ Your customer service representatives rely on data and information from a wide v
 
 ## Next steps
 
-Use [Use targeted questions for Copilot to get responses from plugins (preview)](../use/use-copilot-features.md#use-targeted-questions-for-copilot-to-get-responses-from-plugins-preview) in the Copilot help pane to see how the plugin works.
+Use [Use targeted phrases for Copilot to get responses from plugins (preview)](../use/use-copilot-features.md#use-targeted-phrases-for-copilot-to-get-responses-from-plugins-preview) in the Copilot help pane to see how the plugin works.
 
 ### See also
 

@@ -43,7 +43,7 @@ With Copilot, you can take the following actions:
 - **Ask follow-up turn by turn questions**: If Copilot's response isn't immediately useful, you can ask follow-up questions and guide Copilot in a natural, conversational way.
 - **Ask Copilot to attempt a better response**: Copilot can also rephrase responses based on more guidance such as, "Can you summarize your response?" or "Can you attempt a response providing details for each of the steps you mentioned?"
 
-### Use targeted questions for Copilot to get responses from plugins (preview)
+### Use targeted phrases for Copilot to get responses from plugins (preview)
 
 If your administrator has configured prompt plugins, you can use targeted keywords to gather quick information about the case that you are working on.
 
