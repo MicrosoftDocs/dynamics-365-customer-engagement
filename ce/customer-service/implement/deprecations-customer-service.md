@@ -18,9 +18,9 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
-## Omnichannel for Customer Service on Unified Service Desk is deprecated
+## Omnichannel for Customer Service on Unified Service Desk is deprecated and will be removed in October 2025
 
-Effective April 4, 2024, Omnichannel for Customer Service on Unified Service Desk is deprecated. Support is available until October 2025.
+Effective April 4, 2024, Omnichannel for Customer Service on Unified Service Desk is deprecated. Support is available until April 2025. The app will be removed from all environments by October 2025.
 
 ## Microsoft Power BI template reports for Customer Service Analytics and Omnichannel Insights are deprecated
 
