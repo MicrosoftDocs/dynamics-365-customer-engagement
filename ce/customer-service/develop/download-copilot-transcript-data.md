@@ -39,28 +39,29 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
       OData-MaxVersion: 4.0  
       OData-Version: 4.0  
    ```
-  Copy the value of the **DataId**. Here's a sample JSON context.
 
-    ```json
+   Copy the value of the **DataId**. Here's a sample JSON context.
+
+     ```json
   
-       { 
-         "ResponseStatusCode": 20000, 
-         "Plugins": { 
-          }, 
-          "Transcript": { 
-          "Id": "c477c6dd-d877-c6d1-9337-31e5b54e4a1b", 
-          "DataId": "0a7a438f-c2a5-58d7-e03d-c932812b3095"  
-          }, 
-          "Filters": { 
-           "AgentContextFilters": [ 
-           ], 
-           "DynamicFilters": { 
-             "IsApplied": false 
-          } 
-       } 
-     }
+        { 
+          "ResponseStatusCode": 20000, 
+          "Plugins": { 
+           }, 
+           "Transcript": { 
+           "Id": "c477c6dd-d877-c6d1-9337-31e5b54e4a1b", 
+           "DataId": "0a7a438f-c2a5-58d7-e03d-c932812b3095"  
+           }, 
+           "Filters": { 
+            "AgentContextFilters": [ 
+            ], 
+            "DynamicFilters": { 
+              "IsApplied": false 
+           } 
+        } 
+      }
 
-    ```
+     ```
 3. The following Web API request retrieves the transcript in the base64 encoded transcript.
 
    ```http
@@ -68,9 +69,9 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
     Accept: application/json  
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
-  ```
+   ```
 
-4. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our example, the decoded transcript is displayed as follows.
+4. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our example, the decoded transcript is displayed as follows.<br>
 
 ```json
       { 
