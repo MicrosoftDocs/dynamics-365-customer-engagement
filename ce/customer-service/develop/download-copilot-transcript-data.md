@@ -126,15 +126,15 @@ For example, an interaction can be an agent using Copilot to generate an email o
 1. Use the web API call to [get the interaction id](#get-interaction-id).
 1. The following Web API request retrieves the interactions data from the `msdyn_copilotinteraction` table in the base64 encoded format:
 
-  ```http
-   [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_interactiondataid>)/msdyn_copilotinteractiondata
-   Accept: application/json  
-   OData-MaxVersion: 4.0  
-   OData-Version: 4.0  
-  ```
+   ```http
+    [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_interactiondataid>)/msdyn_copilotinteractiondata
+    Accept: application/json  
+    OData-MaxVersion: 4.0  
+    OData-Version: 4.0  
+   ```
  3. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our email example, the decoded interaction data is displayed as follows.
 
-   :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
+    :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
 
 If you want to download the feedback provided by the agent, follow the same steps. Verbatim feedback provided by agents is stored in the `msdyn_verbatim` attribute in the `msdyn_copilotinteractiondata` table.
 
