@@ -73,49 +73,49 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
 
 4. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our example, the decoded transcript is displayed as follows.<br>
 
-  ```json
-      { 
-      "messages": [ 
-      { 
-      "id": "283c2269-b131-dac2-3aed-847bd99402e7", 
-      "requestId": "93893746-e203-e9b6-18b9-887d68d18daf", 
-      "message": "How can I book a trip?", 
-      "sequence": 0, 
-      "user": "user", 
-      "timestamp": 1711052758750, 
-      "isActivityError": false, 
-      "context": {   
+   ```json
+       { 
+       "messages": [ 
+       { 
+       "id": "283c2269-b131-dac2-3aed-847bd99402e7", 
+       "requestId": "93893746-e203-e9b6-18b9-887d68d18daf", 
+       "message": "How can I book a trip?", 
+       "sequence": 0, 
+       "user": "user", 
+       "timestamp": 1711052758750, 
+       "isActivityError": false, 
+       "context": {   
 
-      } 
-    }, 
-    { 
-      "id": "eba9e9d5-71e2-9502-0bca-9387246fb094", 
-      "requestId": "93893746-e203-e9b6-18b9-887d68d18daf", 
-      "message": "To book a trip, follow these steps:\n\n1. Go to the travel portal.\n2. Click on \"Travel\" and then select \"Book a Trip\".\n3. Fill in your name, contact information, and the dates of your trip.\n4. Choose your destination from the drop-down menu.\n5. Select a hotel from the drop-down menu and specify the check-in and check-out dates. If you don't want to book a hotel, you can check the \"I do not want to book a hotel\" box.\n6. Choose the type of rental car you want. If you don't want to rent a car, you can check the \"I do not want to rent a car\" box.\n7. Click \"Submit\".\n\nOnce you've submitted your booking request, you will receive a follow-up communication from an agent with a quote. You can also add any notes or additional information by clicking on the case from the My Bookings screen.", 
-      "sequence": 1, 
-      "user": "bot", 
-      "timestamp": 1711052776968, 
-      "isActivityError": false, 
-      "sources": [ 
-        { 
-          "id": "56d56813-04f5-ed11-8849-000d3a35dbfc", 
-          "title": "Booking Travel", 
-          "source": "internal_kb" 
-        } 
-      ], 
-      "context": { 
-        "customerIntent": "How to book a trip?" 
-      } 
-    } 
-  ], 
-  "context": { 
-    "chatId": "21b27e83-299d-a639-3e4a-8dcd6332e184", 
-    "sessionId": "session-id-2", 
-    "entityId": "56d56813-04f5-ed11-8849-000d3a35dbfc", 
-    "entityName": "knowledgearticle" 
-  } 
-} 
-    ```  
+        } 
+       }, 
+       { 
+        "id": "eba9e9d5-71e2-9502-0bca-9387246fb094", 
+        "requestId": "93893746-e203-e9b6-18b9-887d68d18daf", 
+        "message": "To book a trip, follow these steps:\n\n1. Go to the travel portal.\n2. Click on \"Travel\" and then select \"Book a Trip\".\n3. Fill in your name, contact information, and the dates of your trip.\n4. Choose your destination from the drop-down menu.\n5. Select a hotel from the drop-down menu and specify the check-in and check-out dates. If you don't want to book a hotel, you can check the \"I do not want to book a hotel\" box.\n6. Choose the type of rental car you want. If you don't want to rent a car, you can check the \"I do not want to rent a car\" box.\n7. Click \"Submit\".\n\nOnce you've submitted your booking request, you will receive a follow-up communication from an agent with a quote. You can also add any notes or additional information by clicking on the case from the My Bookings screen.", 
+        "sequence": 1, 
+        "user": "bot", 
+        "timestamp": 1711052776968, 
+        "isActivityError": false, 
+        "sources": [ 
+         { 
+           "id": "56d56813-04f5-ed11-8849-000d3a35dbfc", 
+           "title": "Booking Travel", 
+           "source": "internal_kb" 
+        }  
+       ], 
+       "context": { 
+       "customerIntent": "How to book a trip?" 
+       } 
+      } 
+   ], 
+   "context": { 
+     "chatId": "21b27e83-299d-a639-3e4a-8dcd6332e184", 
+     "sessionId": "session-id-2", 
+     "entityId": "56d56813-04f5-ed11-8849-000d3a35dbfc", 
+     "entityName": "knowledgearticle" 
+   } 
+ } 
+     ```  
 
 ## Download interaction data
 
