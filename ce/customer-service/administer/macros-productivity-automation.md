@@ -134,7 +134,7 @@ This action is used to open an email with a predefined template. The action cont
 
  | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
-   |Open an email template from a case |  The macro opens the template based on the template id and populate the email form with To and Regarding fields.  | <ol><li>New step: Resolve case with the following attributes:<ul><li>Incident ID: `${anchor.incidentid}`</li><li>Billable time: 0</li><li>Resolution: `Case${anchor.ticketnumber}` resolved via macros</li></ul></li><li>New step: Get the current tab</li><li>New step: Refresh the tab with Tab ID set to `Tab ID`</li><ol> |
+   |Open an email template from a case |  The macro opens the template based on the template id and populate the email form with To and Regarding fields.  | <ol><li>New step: Open an email form with predefined template with the following attributes:<ul><li>Template Id</li><li>Entity Record ID: `${anchor.incidentid}`</li><li>Email recipients: `${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}`</li><li>Entity Logical Name: `incident` </li></ul></li><li>New step: Autofill form fields with the following attributes: <ul<li>Entity logical name: `Email`</li><li>Attribute Name 1: to Value: ``</li></ul></li></ol> |
 
 #### Open a record grid
 
