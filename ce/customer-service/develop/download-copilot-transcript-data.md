@@ -44,7 +44,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
 
      ```json
   
-        { 
+         { 
           "ResponseStatusCode": 20000, 
           "Plugins": { 
            }, 
@@ -73,10 +73,10 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
 
 4. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our example, the decoded transcript is displayed as follows.<br>
 
-```json
+  ```json
       { 
       "messages": [ 
-    { 
+      { 
       "id": "283c2269-b131-dac2-3aed-847bd99402e7", 
       "requestId": "93893746-e203-e9b6-18b9-887d68d18daf", 
       "message": "How can I book a trip?", 
@@ -115,7 +115,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
     "entityName": "knowledgearticle" 
   } 
 } 
-  ```  
+    ```  
 
 ## Download interaction data
 
