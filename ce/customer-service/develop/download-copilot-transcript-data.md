@@ -32,35 +32,35 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
 1. Use the web API call to [get the interaction id](#get-interaction-id).
 1. Filter the msdyn_copilotinteractions table with the required interaction ID to get to the DataID. Use the following Web API request to filter the data by interaction ID.
 
-  ```http
+   ```http
  
-     [Organization URI]/api/data/v9.1/msdyn_copilotinteractions(<msdyn_copilotinteractionid>)
-   Accept: application/json  
-   OData-MaxVersion: 4.0  
-   OData-Version: 4.0  
-  ```
-Copy the value of the **DataId**. Here's a sample JSON context.
+      [Organization URI]/api/data/v9.1/msdyn_copilotinteractions(<msdyn_copilotinteractionid>)
+      Accept: application/json  
+      OData-MaxVersion: 4.0  
+      OData-Version: 4.0  
+   ```
+  Copy the value of the **DataId**. Here's a sample JSON context.
 
-  ```json
+    ```json
   
-     { 
-       "ResponseStatusCode": 20000, 
-       "Plugins": { 
-        }, 
-        "Transcript": { 
-        "Id": "c477c6dd-d877-c6d1-9337-31e5b54e4a1b", 
-        "DataId": "0a7a438f-c2a5-58d7-e03d-c932812b3095"  
-        }, 
-        "Filters": { 
-          "AgentContextFilters": [ 
-         ], 
-         "DynamicFilters": { 
-           "IsApplied": false 
-        } 
-     } 
-   }
+       { 
+         "ResponseStatusCode": 20000, 
+         "Plugins": { 
+          }, 
+          "Transcript": { 
+          "Id": "c477c6dd-d877-c6d1-9337-31e5b54e4a1b", 
+          "DataId": "0a7a438f-c2a5-58d7-e03d-c932812b3095"  
+          }, 
+          "Filters": { 
+           "AgentContextFilters": [ 
+           ], 
+           "DynamicFilters": { 
+             "IsApplied": false 
+          } 
+       } 
+     }
 
-  ```
+    ```
 3. The following Web API request retrieves the transcript in the base64 encoded transcript.
 
    ```http
@@ -74,7 +74,7 @@ Copy the value of the **DataId**. Here's a sample JSON context.
 
 ```json
       { 
-     "messages": [ 
+      "messages": [ 
     { 
       "id": "283c2269-b131-dac2-3aed-847bd99402e7", 
       "requestId": "93893746-e203-e9b6-18b9-887d68d18daf", 
