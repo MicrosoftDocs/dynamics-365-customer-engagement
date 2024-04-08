@@ -9,6 +9,9 @@ ms.author: jshum
 
 # Collaborate in mixed reality with Field Service and Remote Assist
 
+> [!TIP]
+> To collaborate with other users including annotating in their environment, see [Use Teams mobile to annotate in a user's environment (preview)](annotate-teams-mobile.md).
+
 If your organization uses Dynamics 365 Field Service to manage field service work orders, your frontline workers can see their Field Service bookings and quickly call a remote collaborator using Dynamics 365 Remote Assist.
 
 By integrating Field Service and Dynamics 365 Remote Assist, you can:
@@ -18,8 +21,6 @@ By integrating Field Service and Dynamics 365 Remote Assist, you can:
 - Post the Remote Assist call information to the associated work order's timeline.
 
 In this article, we explore how a field technician can use the Remote Assist mobile app to call an expert for help with completing a work order. We also explore the requirements to set up and use Remote Assist and Field Service on a HoloLens.
-
-To collaborate with other users including annotating in their environment, see [Use Teams mobile to annotate in a user's environment (preview)](annotate-teams-mobile.md).
 
 <!--
 For a guided walkthrough, see the following video.
@@ -61,7 +62,7 @@ The remote collaborator receives the call, like any other Teams call.
 
 The technician can share what they see through their mobile device's camera, making annotations as needed. The remote collaborator can make annotations in Teams. For more information, see [Annotate the technician's shared environment](/dynamics365/mixed-reality/remote-assist/mobile-app/annotate-shared-environment).
 
-For more information about making calls, see [Make calls between Dynamics 365 Remote Assist mobile and Microsoft Teams](/dynamics365/mixed-reality/remote-assist/mobile-app/remote-assist-mobile-to-teams-calls)
+For more information about making calls, see [Make calls between Dynamics 365 Remote Assist mobile and Microsoft Teams](/dynamics365/mixed-reality/remote-assist/mobile-app/remote-assist-mobile-to-teams-calls).
 
 ## Post a Remote Assist call log
 
