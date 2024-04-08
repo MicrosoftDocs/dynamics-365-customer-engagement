@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: 
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 04/04/2024
+ms.date: 04/08/2024
 ms.custom: bap-template 
 ---
 
@@ -31,7 +31,6 @@ This action is used to open a new form to create a record. The action contains t
 
 ### Examples
   
-
 
    | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
