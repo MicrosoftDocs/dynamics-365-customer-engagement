@@ -212,3 +212,8 @@ The interactions are displayed in the response as follows.
     },
 
   ```
+
+### See Also
+
+[Use Copilot to solve customer issues]((../use/use-copilot-features.md) 
+[View copilot analytics report](../use/copilot-analytics-report.md)
