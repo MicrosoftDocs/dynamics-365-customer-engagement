@@ -14,13 +14,13 @@ ms.custom: bap-template
 
 [This article is prerelease documentation and is subject to change.]
 
-One of the powerful features of Copilot is its ability to generate knowledge articles from resolved cases. By using Copilot, you can streamline the process of creating and updating knowledge base content based on real-world customer interactions. You can review and edit these suggestions before publishing them as knowledge articles.
+Copilot can generate knowledge articles from resolved cases. By using Copilot, you can streamline the process of creating and updating knowledge base content based on real-world customer interactions. You can review and edit these suggestions before publishing them as knowledge articles.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 ## Prerequisites
 
-- The user who configures has the System Administrator role.
+- The System Administrator role.
 - You have enabled and configured knowledge management.
 
 ## Enable Copilot to generate knowledge

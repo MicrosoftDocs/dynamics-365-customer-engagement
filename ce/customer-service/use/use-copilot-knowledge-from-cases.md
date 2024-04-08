@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [This article is prerelease documentation and is subject to change.]
 
-If you have selected the option to propose knowledge article for the case on the resolve case dialog, Copilot starts generating a knowledge draft when you select resolve.
+If you select the option to propose knowledge article for the case on the resolve case dialog, Copilot generates a knowledge draft when you select resolve.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
