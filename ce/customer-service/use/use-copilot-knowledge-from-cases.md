@@ -32,10 +32,11 @@ Use the following steps to generate a knowledge draft while you are resolving a 
 1. While Copilot is drafting the proposal, you have the option to select **stop drafting**.
 1. You can do the following actions with the draft proposal:
     - Use the editor to format the content.
-    - Use the Revise with instructions field to modify and refine the proposed draft. You can propose up to five revisions.
+    - Use **Revise with instructions** to modify and refine the proposed draft. You can propose up to five revisions.
     - Use **Create proposal** after reviewing the draft. The system saves the Copilot generated knowledge draft as a proposal.
 
     :::image type="content" source="../media/screenshot-of-propose-knowledge-draft-from-case.png" alt-text="A screenshot of knowledge from case proposed by Copilot.":::
+
 ### See also
 
 [Enable Copilot to suggest knowledge from cases](../administer/enable-copilot-suggest-knowledge-from-cases.md)  
