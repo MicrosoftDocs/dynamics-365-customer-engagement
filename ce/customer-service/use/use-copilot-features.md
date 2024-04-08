@@ -45,7 +45,7 @@ With Copilot, you can take the following actions:
 
 ### Use targeted phrases for Copilot to get responses from plugins (preview)
 
-If your administrator has configured prompt plugins, you can use targeted keywords to gather quick information about the case that you are working on.
+If your administrator has configured prompt plugins, you can use targeted keywords to gather quick information about the case that you are working on. For example, you can use the following steps to get the account summary of a case. If Copilot doesn't find any details that match the term, then it falls back to the knowledge source to display the resolution from the configured knowledge articles.
 
 1. Open the case that you need to work on and then enter **Get account summary** in the Copilot **Ask a question** pane. Copilot summarizes the account details of the customer whose case you have opened and displays it.
 1. Select **Check sources**. The plugin that's used for generating the summary is displayed.

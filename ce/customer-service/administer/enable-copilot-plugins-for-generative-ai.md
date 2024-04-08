@@ -22,7 +22,7 @@ Your customer service representatives rely on data and information from a wide v
 
 - You are assigned the System Administrator role.
 - Copilot Studio is available.
-- [Configure a Copilot prompt plugin in Copilot Studio](/microsoft-copilot-studio/copilot-ai-plugins).
+- [Configure a prompt plugin in Copilot Studio](/microsoft-copilot-studio/copilot-ai-plugins). The prompt plugin only is supported currently.
 - Copilot is enabled in Customer Service
 
 ## Configure settings for the prompt plugin
@@ -31,7 +31,7 @@ Your customer service representatives rely on data and information from a wide v
    - Select **Productivity** > **Plugins for generative AI (Preview)** under **Agent experience**.
    - Select **Insights** > **Plugins for generative AI (Preview)** under **Operations**. 
 2. Select **Manage**.
-1. On the **Plugins for generative AI (Preview)** page, select the plugin that you need to enable and select **Turn on** on the command bar.
+1. On the **Plugins for generative AI (Preview)** page, select the plugin that you need to enable and then select **Turn on** on the command bar.
 1. On the **Manage user access** side pane, select one of the following access types:
    - **All agents who have Copilot**: Agents who have Copilot enabled for them through their agent experience profiles.
    - **Specific user roles**: Select the roles in the list.
@@ -47,3 +47,4 @@ Use [Use targeted phrases for Copilot to get responses from plugins (preview)](.
 
 [FAQ for Copilot](faq-copilot-features.md)  
 [Configure Copilot in Customer Service](configure-copilot-features.md)  
+[Responsible AI FAQ for Copilot in Customer Service](../implement/faq-responsible-ai-copilot.md)  
