@@ -39,6 +39,6 @@ Use the following steps to generate a knowledge draft while you are resolving a 
 ### See also
 
 [Enable Copilot to suggest knowledge from cases](../administer/enable-copilot-suggest-knowledge-from-cases.md)  
+[Use Copilot to summarize cases and conversations](copilot-use-summary.md)  
 [Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)  
 [FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md)  
-

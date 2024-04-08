@@ -48,6 +48,7 @@ To learn about supported languages for Copilot, see [Language support for AI-bas
 ### See also
 
 [Use Copilot to generate knowledge drafts from cases](../use/use-copilot-knowledge-from-cases.md)  
+[Manage Copilot features in Customer Service](configure-copilot-features.md)  
 [Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)  
 [FAQ for Copilot in Customer Service](faq-copilot-features.md)  
 
