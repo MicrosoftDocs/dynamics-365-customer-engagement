@@ -97,7 +97,7 @@ items:
       href: work-order-update.md
     - name: Work order creation in Outlook with copilot
       href: flw-outlook.md#create-a-work-order-with-copilot
-    - name: Microsoft Copilot for Field Service work orders (preview)
+    - name: Microsoft Copilot for Field Service work orders
       href: flw-m365-chat.md
 
 - name: Work orders
@@ -182,15 +182,19 @@ items:
           href: flw-admin.md
         - name: Customize views
           href: flw-customization.md
-        - name: Set up the Field Service Plugin for Microsoft Copilot (preview)
+        - name: Set up the Field Service Plugin for Microsoft Copilot
           href: flw-copilot-setup.md
     - name: Field Service in Outlook for frontline managers
       href: flw-outlook.md
     - name: Field Service in Teams for frontline managers
-      href: flw-teams-manager.md
+      items:
+        - name: Get started with Field Service in Teams
+          href: flw-teams-manager-get-started.md
+        - name: Manage work orders with Field Service in Teams
+          href: flw-teams-manager.md
     - name: Field Service in Teams for frontline workers
       href: flw-teams-worker.md
-    - name: Field Service Plugin for Microsoft Copilot (preview)
+    - name: Field Service Plugin for Microsoft Copilot
       href: flw-m365-chat.md
 
 - name: Collaborate with Microsoft Teams
@@ -562,6 +566,8 @@ items:
       href: faqs-work-order-recap.md
     - name: FAQ about work order update
       href: faqs-work-order-update.md
+    - name: FAQ about Field Service Plugin for Microsoft Copilot
+      href: faqs-m365-chat.md
 
 - name: More resources
   items:
