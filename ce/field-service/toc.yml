@@ -90,14 +90,16 @@ items:
       href: field-service-knowledge-management.md
 
 - name: Copilot in Field Service
-  items:
-    - name: Work order recap with copilot
+  items: 
+    - name: Work order recap with Copilot
       href: work-order-recap.md
     - name: Work order update
       href: work-order-update.md
-    - name: Work order creation in Outlook with copilot
+    - name: Work order creation in Outlook with Copilot
       href: flw-outlook.md#create-a-work-order-with-copilot
-    - name: Microsoft Copilot for Field Service work orders
+    - name: Draft email response with Copilot
+      href: flw-outlook.md#draft-an-email-response-with-copilot
+    - name: Microsoft Copilot for Field Service work orders (preview)
       href: flw-m365-chat.md
 
 - name: Work orders
@@ -185,7 +187,11 @@ items:
         - name: Set up the Field Service Plugin for Microsoft Copilot
           href: flw-copilot-setup.md
     - name: Field Service in Outlook for frontline managers
-      href: flw-outlook.md
+      items:
+        - name: Get started with Field Service in Outlook
+          href: flw-outlook-get-started.md
+        - name: Manage work orders with Field Service in Outlook
+          href: flw-outlook.md
     - name: Field Service in Teams for frontline managers
       items:
         - name: Get started with Field Service in Teams
@@ -562,6 +568,8 @@ items:
       href: responsible-ai-overview.md
     - name: FAQ about Outlook work order creation
       href: faqs-wo-flw-copilot.md
+    - name: FAQ about Outlook draft email responses
+      href: faqs-flm-copilot-email.md
     - name: FAQ about work order recap
       href: faqs-work-order-recap.md
     - name: FAQ about work order update
