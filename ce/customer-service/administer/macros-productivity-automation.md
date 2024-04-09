@@ -52,7 +52,7 @@ This action is used to open an existing record form. The action contains the fol
  | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
    | Open a product record from an existing case | Macro opens the product record from an existing case. | Add the **Open an existing record** action that reads the product id from the case, with the following attributes: <ul><li>**Entity logical name**: `product`</li><li>**Entity record ID**: `${anchor._productid_value}` </li></ul> |
-    | Open a a customer record from a conversation |  Macro opens a customer record from an ongoing conversation.| Add the **Ope an existing case** action that reads passing the customer id from the conversation, with the following attributes:<ul><li>**Entity record ID**: `${customerEntityName}` </li><li>**Entity logical name**: `${customerRecordid}`</li></ul> |
+    | Open a a customer record from a conversation |  Macro opens a customer record from an ongoing conversation.| Add the **Open an existing record** action that reads passing the customer id from the conversation, with the following attributes:<ul><li>**Entity record ID**: `${customerEntityName}` </li><li>**Entity logical name**: `${customerRecordid}`</li></ul> |
 
 ## Autofill form fields
 
@@ -114,7 +114,7 @@ This action is used to resolve a case. The action contains the following fields.
 
  | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
-   |resolve a case |  resolve the case passing billable time as a numeric value, resolution can be a string, Incident ID will be the record id that needs to be resolved. When resolving a case via macro, the tab is not automatically refreshed, so additional steps are recommended for a better user experience | <ol><li>New step: Resolve case with the following attributes:<ul><li>Incident ID: `${anchor.incidentid}`</li><li>Billable time: 0</li><li>Resolution: `Case${anchor.ticketnumber}` resolved via macros</li></ul></li><li>New step: Get the current tab</li><li>New step: Refresh the tab with Tab ID set to `Tab ID`</li><ol> |
+   | Resolve a case |  Macro resolves the case passing . When resolving a case via macro, the tab is not automatically refreshed, so additional steps are recommended for a better user experience |<ol><li>Add the **Action to resolve case** action to pass the billable time as a numeric value and the Incident ID is the record id that needs to be resolved, with the following attributes:<ul><li>**Incident ID**: `${anchor.incidentid}`</li><li>**Billable time**: 0</li><li>**Resolution**: `Case${anchor.ticketnumber}` resolved via macros</li></ul></li><li>Add the **Get the current tab** session connector.</li><li>Add the **Refresh the tab** session action to refresh the tab with the following attributes:<br> **Tab ID**: Tab ID</li><ol> |
 
 ## Open an email form with predefined template
 
@@ -129,16 +129,15 @@ This action is used to open an email with a predefined template. The action cont
 
 
 > [!NOTE]
-> Due to a known product limitation, the Email recipients field requires a parameter but it doesn't automatically map to a user in the form. For this reason, the recommendation is to use the autofill form fields macro to populate the values accordingly. 
+> The **Email recipients** field requires a parameter but doesn't automatically map to a user in the form. We recommend that you use the **autofill form fields** macro to populate the values accordingly. 
 
 ### Examples
 
    | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
-   |Open an email template from a case |  The macro opens the template based on the template id and populate the email form with To and Regarding fields.  | <ol><li>New step: Open an email form with predefined template with the following attributes:<ul><li>Template Id</li><li>Entity Record ID: `${anchor.incidentid}`</li><li>Email recipients: `${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}`</li><li>Entity Logical Name: `incident` </li></ul></li><li>New step: Autofill form fields with the following attributes: <ul<li>Entity logical name: `Email`</li><li>Attribute Name 1: to Value: `[{"id":"${anchor._customerid_value}","entitytype":"contact","name":"${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}"}]`</li><li>Attribute Name- 2: regardingobjectid, Value: `[{"id":"${anchor.incidentid}"},"name":"${anchor.title}","entitytype":"incident"}]`</li></ul></li></ol> |
-   |Open an email template from an Omnichannel conversation | The macro opens the template based on the template id and populate the email form with To and Regarding fields.  | <ol><li>New step: Open an email form with predefined template with the following attributes:<ul><li>Template Id</li><li>Entity Record ID: `${customerRecordId}`</li><li>Email recipients: `${customerName}`</li><li>Entity Logical Name: `${customerEntityName}` </li></ul></li><li>New step: Autofill form fields with the following attributes: <ul<li>Entity logical name: `Email`</li><li>Attribute Name 1: to Value: `[{"id":"${customerRecordId}", "entitytype":"contact","name":"${customerName}"}]`</li><li>Attribute Name- 2: regardingobjectid, Value: `[{"id":"${customerRecordId}"},"entitytype":"contact","name": "${customerName}"}]`</li></ul></li></ol> |
-    |Open an email template from a case with multiple recipients |   The macro opens the template based on the template id and populate the email form with To and Regarding field. The email form needs to populate the To field with the customer and a custom field named "Secondary contact".  
-This macro illustrates the process to set multiple recipients in the To field. | <ol><li>New step: Open a new fowm to create a record</li><li>New step: Autofill form fields with the following attributes:<ul><li>Entity logical name: `phonecall`</li><li>Attribute Name 1: subject Value: Follow-up task regarding case `${anchor.ticketnumber}`</li><li> Attribute Name 2: to Value: `[{"id":"${anchor._customerid_value}","type":"${anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}","name":"${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}", {"id":"${anchor._cr27b_secondarycontact_value}","type":"contact","name":"${anchor._cr27b_secondarycontact_value@OData.Community.Display.V1.FormattedValue}"}]`</li><li>Attribute Name- 3: regardingobjectid, Value: `[{"id":"${anchor.incidentid}"},"name":"${anchor.title}","entitytype":"incident"}]`</li></ul></li></ol> |
+   |Open an email template from a case |  The macro opens an email template of category case.| <ol><li>Add the **Open an email form with predefined template** action that adds the template based on the template id and populates the email form with **To** and **Regarding** fields. The attributes are as follows:<ul><li>**Template Id** : Specify the ID of the required email template.</li><li>**Entity Record ID**: `${anchor.incidentid}`</li><li>**Email recipients**: `${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}`</li><li>**Entity Logical Name**: `incident` </li></ul></li><li>Add the **autofill form fields** action to populate the To and Regarding fields. The attributes are as follows: <ul<li>**Entity logical name**: `Email`</li><li>**Attribute Name**: to, **Attribute Value**: `[{"id":"${anchor._customerid_value}","entitytype":"contact","name":"${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}"}]`</li><li>**Attribute Name**: regardingobjectid, **Attribute Value**: `[{"id":"${anchor.incidentid}"},"name":"${anchor.title}","entitytype":"incident"}]`</li></ul></li></ol> |
+   |Open an email template from a conversation | The macro opens an email template of category contact.| <ol><li>Add the **Open an email form with predefined template** action that adds the template based on the template id and populates the email form with **To** and **Regarding** fields. The attributes are as follows:<ul><li>**Template Id** : Specify the ID of the required email template.</li><li>**Entity Record ID**: `${customerRecordId}`</li><li>**Email recipients**: `${customerName}`</li><li>**Entity Logical Name**: `${customerEntityName}` </li></ul></li><li>Add the **autofill form fields** action to populate the To and Regarding fields. The attributes are as follows: <ul<li>**Entity logical name**: `Email`</li><li>**Attribute Name**: to, **Attribute Value**: `[{"id":"${customerRecordId}", "entitytype":"contact","name":"${customerName}"}]`</li><li>**Attribute Name**: regardingobjectid, **Attribute Value**: `[{"id":"${customerRecordId}"},"entitytype":"contact","name": "${customerName}"}]`</li></ul></li></ol> |
+  |Open an email template from a case with multiple recipients | The macro opens an email template of category case, and sets multiple recipients in the To field of the email.| <ol><li>Add the **Open an email form with predefined template** action that adds the template based on the template id and populates the email form with **To** and **Regarding** fields. The attributes are as follows:<ul><li>**Template Id** : Specify the ID of the required email template.</li><li>**Entity Record ID**: `${customerRecordId}`</li><li>**Email recipients**: `${customerName}`</li><li>**Entity Logical Name**: `${customerEntityName}` </li></ul></li><li>Add the **autofill form fields** action to populate the To and Regarding fields. The To field must be populated with tht customer's email id and a custom field, **Secondary contact**.  The attributes are as follows: <ul<li>**Entity logical name**: `phonecall`</li><li>**Attribute Name**: subject, **Attribute Value**: Follow-up task regarding case `${anchor.ticketnumber}`</li><li>**Attribute Name**: to, **Attribute Value**: `[{"id":"${anchor._customerid_value}","type":"${anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}","name":"${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}", {"id":"${anchor._cr27b_secondarycontact_value}","type":"contact","name":"${anchor._cr27b_secondarycontact_value@OData.Community.Display.V1.FormattedValue}"}]`</li><li>**Attribute Name**: regardingobjectid, **Attribute Value**: `[{"id":"${anchor.incidentid}"},"name":"${anchor.title}","entitytype":"incident"}]`</li></ul></li></ol>|
 
 ## Search the knowledge base for the populated phrase
 
@@ -153,7 +152,7 @@ This action is used for searching knowledge articles based on the populated phra
 
  | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
-   |Search an article based on a string |  a macro to perform a search based on phrase passing the case title via data parameter.| New step: Search the knowledge base for the populated phrase with the following attributes: <ul><li>Tab Level: `Searching for ${anchor.title}`</li><li>Search string : `${anchor.title}`</li></ul> |
+   |Search an article based on a string | The macro performs a search based on a phrase. |Add the **Search the knowledge base for the populated phrase** action that picks up the case title as the search phrase. The following are the attributes : <ul><li>**Tab Label**: Searching for `${anchor.title}`</li><li>**Search string**: `${anchor.title}`</li></ul> |
 
 ## Open knowledge base article
 
@@ -167,7 +166,7 @@ This action is used to open the knowledge base article. The action contains the 
 
  | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
-   |Open a knowledge base article passing a GUID |   a macro to open a knowledge base article based on the knowledge article ID. This macro opens the form of the knowledge article typically used by Knowledge Base Authors for article revision. | New step: Open knowledge base article with the Entity record ID.|
+   |Open a knowledge base article passing a GUID | The macro opens a knowledge base article based on the knowledge article ID. | Add the **Open knowledge base article** action to open the knowledge article and is used by Knowledge Base Authors for article revision. The attributes are as follows:<br> **Entity record ID**: Specify the knowledge base article's entity ID.|
 
 ## Open a record grid
 
@@ -184,7 +183,8 @@ This action is used to open a record grid. The action contains the following fie
 
  | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
-   |Open a specific list of incidents| a macro to open a list of incidents passing the view ID and specifying the view type (personal saved views). | New step: Open a record grid with the following attributes: <ul><li>Entity logical name: `incident`</li><li>View type</li><li>View ID</li></ul>|
+   |Open a list of products| Macro opens a list of products| Add the **Open a record grid** action to open the user's default view, as the view type and id aren't specified. The following are the attributes: <br> **Entity logical name**: `incident`|
+   |Open a specific list of incidents| Macro opens a list of incidents  | Add the **Open a record grid** action to open the specified view typw. The following are the attributes: <ul><li>**Entity logical name**: `incident`</li><li>**View type**: Specify the view type.</li><li>**View ID**: Specify the ID of the view you want the incidents to open in.</li></ul>|
 
 
 ## Do a relevance search based on the phrase
@@ -199,7 +199,7 @@ This action is used for searching knowledge articles based on the populated phra
 
  | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
-   |Search for cases with same case title| a macro to pass the case title from the anchor tab as the parameter for the relevance search. | New step: Do a search based on the phrase with the following attributes: <ul><li>Search string: `${anchor.title}`</li></ul>|
+   |Search for cases with same case title| The macro searches for the case title to search for similar cases.| Add the **Do a relevance search based on the phrase** action to use the case title from the anchor tab as the parameter for the relevance search. The following are the attributes:<br>Search string: `${anchor.title}`|
 
 ## Clone current record
 
@@ -213,7 +213,7 @@ This action is used for cloning an existing record that is open in the current t
 
  | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
-   |Create a child case using clone current record | The following example is a macro to open clone a case record but setting the parent case so it becomes a child case and setting the ticket number as null to be created when the save record action is executed. | New step: Clone current record with the following attributes: <ul><li>Record title: Child case of `${anchor.ticketnumber}`</li><li>New step: Autofill form fields with the following attributes: <ul><li>Entity logical name: `incident`</li><li>Attribute Name-1: parentcaseid Value: `[{"id": "${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`</li><li>Attribute Name - 2: ticketnumber Value: `---`</li></ul></li></ul>|
+   |Create a child case using clone current record | The macro creates a clone of the existing case and makes it the parent case. The original case is set as a child case. |<ol><li>Add the **Clone current record** action that clones the original case, and then sets the cloned case as the parent. The original case is set as the child case. The following are the attributes:<br>**Record title**: Child case of `${anchor.ticketnumber}`</li><li>Add the **Autofill form fields** that populates the child case with the attributes specified. The ticketnumber will be set when the record is saved. The following attributes: <ul><li>**Entity logical name**: `incident`</li><li>**Attribute Name**: parentcaseid, **Attribute Value**: `[{"id": "${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`</li><li>**Attribute Name**: ticketnumber, **Attribute Value**: </li></ul></li><li> Add the **Save the record** action to generate and set the ticketnumber for the child case.</li></ol>|
 
 #### Clone input record
 
@@ -230,7 +230,7 @@ This action clones an existing record. The action only copies the fields and doe
 
  | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
-   |Create a child case using clone input record | The following example is a macro to open clone a case record but setting the parent case so it becomes a child case and setting the ticketnumber as null to be created when the save record action is executed. | New step: Clone input record with the following attributes: <ul><li>Entity record ID: `${anchor.incidentid}`</li><li>Entity logical name: `incident`</li><li>Record title: Child case of `${anchor.title}`</li><li>New step: Autofill form fields with the following attributes: <ul><li>Entity logical name: `Entity logical name`</li><li>Attribute Name-1: parentcaseid Value: `[{"id": "${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`</li><li>Attribute Name - 2: ticketnumber Value: `---`</li></ul></li></ul>|
+   |Create a child case using clone input record | The  macro to clone an existing case. The existing case is set as the parent case and the cloned case is set as the child case.|<ol><li>Add the **Clone current record** action that clones the original case, and then sets the cloned case as the child. The original case is set as the parent case. The following are the attributes:<ul><li>**Entity record ID**:`${anchor.incidentid}`</li><li>**Entity logical name**: `incident`</li><li>**Record title**: Child case of `${anchor.title}`</li></ul></li><li>Add the **Autofill form fields** that populates the child case with the specified attributes. The ticketnumber is set when the record is saves. The following are the attributes: <ul><li>**Entity logical name**: `Entity logical name`</li><li>**Attribute Name**: parentcaseid, **Attribute Value**: `[{"id": "${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`</li><li>**Attribute Name**: ticketnumber, **Attribute Value**:  </li></ul></li><li> Add the **Save the record** action to generate and set the ticketnumber for the child case.</li></ol>|
 
 ## Set Agent Script focus
 
@@ -244,8 +244,7 @@ This action is used to set the focus on an agent script that needs to run next. 
 
  | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
-   |Update the priority of a case and set focus to another agent script | The following example is a macro to update the priority of a case to high and then switch to another agent script. | New step: Update an existing record with the following attributes: <ul><li>Entity record ID: `${anchor.incidentid}`</li><li>Entity logical name: `incident`</li><li>Attribute Name 1: prioritycode Value: 1</li></ul><li>New step: Set focus to an agent script: <ul><li>Agent Script Unique Name: `new_agentscript_highpriority`</li></ul></li><li>New step: Get the current tab</li><li>New step: Refresh the tab</li></ul>|
-
+   |Update the priority of a case and set focus to another agent script | The macro updates the priority of a case to high and then switches to another agent script. |<ol><li>Add the **Update an existing record** action with the following attributes:<ul><li>**Entity record ID**: `${anchor.incidentid}`</li><li>**Entity logical name**: `incident`</li><li>**Attribute Name**: prioritycode **Attribute Value**: 1</li></ul></li><li>Add the **Set Agent Script focus** action with the following attributes:<br> **Agent Script Unique Name**: `new_agentscript_highpriority`</li>Add the **Get the current tab** session connector.</li><li> Add the **Refresh tab** session connector.</li></ol>|
 
 ## Save the record
 
