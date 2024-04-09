@@ -22,11 +22,11 @@ You can also create a work order manually and use the [Field Service schedule bo
 
 ## Prerequisites
 
-- You have completed [Get started with Field Service in Outlook](flw-outlook-get-started.md).
+- You completed [Get started with Field Service in Outlook](flw-outlook-get-started.md).
 
 To use copilot features:
 
-- Your administrator has enabled the [Copilot in Microsoft Outlook and the Generate email response settings](flw-admin.md#give-consent-to-use-copilot-in-field-service-for-outlook).
+- Your administrator enabled the [Copilot in Microsoft Outlook and the Generate email response settings](flw-admin.md#give-consent-to-use-copilot-in-field-service-for-outlook).
 - You must have a paid Field Service environment. Copilot isn't available in trial environments.
 - Your environment is [updated](update-field-service.md) to the latest 2023 wave 2 build.
 
@@ -160,7 +160,7 @@ The Field Service add-in helps you schedule work orders in Outlook. Scheduling s
 
 1. Review the list of suggestions. You can search for a technician by name, filter by dates, or sort the list by start time or travel time.
 
-   If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
+   If the **Estimated Duration** isn't set up in the resource requirements, 30 minutes is used as a default.
 
    :::image type="content" source="media/fsp-outlook-scheduling.png" alt-text="Screenshot of the Field Service pane in Outlook, Scheduling suggestions, with the search, filter, and sorting options highlighted.":::
 
