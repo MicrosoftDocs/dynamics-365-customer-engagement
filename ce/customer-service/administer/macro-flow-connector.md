@@ -32,7 +32,7 @@ This action triggers Power Automate flows using macros in agent scripts. This ac
   
 ## Power Automate flow permissions
 
-Referenced flows require valid connection and run permissions for the orgnanization tenant and agents that run the flow from within agent scripts. For more information: https://learn.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/guidance/manage-list-flows  
+Referenced flows require valid connection and run permissions for the orgnanization tenant and agents that run the flow from within agent scripts. For more information: [Manage owners and users in your Microsoft list flows with Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/manage-list-flows).  
  
  
 ### Limitations with Run Flow macro 
