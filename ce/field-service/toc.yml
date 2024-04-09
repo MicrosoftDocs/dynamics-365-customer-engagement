@@ -30,10 +30,10 @@ items:
           href: field-service-version-history-resource-scheduling.md
         - name: Resource Scheduling Optimization
           href: field-service-version-history-resource-scheduling-optimization.md
-        - name: Version history archive
-          href: version-history-archive.md
         - name: Microsoft 365 integrations for Field Service
           href: flw-whats-new.md
+        - name: Version history archive
+          href: version-history-archive.md
     - name: Deprecations
       href: deprecations-field-service.md
 
