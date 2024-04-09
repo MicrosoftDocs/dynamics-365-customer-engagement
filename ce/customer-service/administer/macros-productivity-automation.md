@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 # Productivity automation
 
- Productivity automation macros allow you to automate tasks such as opening and updating records, opening views, resolving cases, searching the knowledge base, record cloning, setting focus to another agent script, opening email templates, auto filling form fields, setting and retrieving variables and values in the session context. As an administrator, you can use the actions any number of times across different macros to automate and perform model-driven app operations.
+ Productivity automation macros allow you to automate tasks such as opening and updating records and views, resolving cases, searching the knowledge base, record cloning, setting focus to another agent script, opening email templates, auto filling form fields, setting and retrieving variables and values in the session context. As an administrator, you can use the productivity automation actions any number of times across different macros to automate and perform model-driven app operations.
 
 ## Open a new form to create a record
 
@@ -27,15 +27,15 @@ This action is used to open a new form to create a record. The action contains t
    | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. |
 
 > [!NOTE]
-> This macro requires a specific pattern to set lookup values. You will need to pass the related record id, related record type, and related record name as separate attributes for a single lookup.
+> This macro requires a specific pattern to set lookup values. You will need to pass the related record id, record type, and record name as separate attributes for a single lookup.
 
 ### Examples
   
 
-   | Scenarios | Description | Attribute|
+   | Scenarios | Description | Steps|
    |-----------------|-----------------------------|---------------------------------|
-   | Create a new task from an existing case | <ul><li>subject field will be populated using a data parameter retrieving the case number</li><li> the regarding field will be populated with the customer record</li><li>the description field will be populated with a combination of a text string and the customer email address retrieved via oData query</li><li> The macro will also save the record.</li></ul>  | <ul><li>Attribute Name - 1: subject, Value: Follow up task regrading `$(anchor.ticketnumber)`</li><li> Attribute Name - 2: description, Value: Review customer email: `{$odata.contact.emailaddress1.?$filter=contactid eq '{anchor._customerid_value}'}`</li><li>Attribute Name - 3: regardingobjectid, Value: `${anchor.incidentid}`</li><li> Attribute Name - 4: regardingobjectidtype, Value: `incident`</li><li>Attribute Name - 5: regardingobjectidname, Value: `${anchor.title}`</li></ul> |
-   | Create a new case from a conversation | <ul><li>The subject field will be populated using a data parameter retrieving the conversation</li><li> the regarding field will be populated with the customer record</li><li>the description field will be populated with a combination of a text string and the customer email address retrieved via oData query</li><li> The macro will also save the record.</li></ul>  | <ul><li>Attribute Name - 1: subject, Value: Follow up with `$(customerName)`</li><li> Attribute Name - 2: description, Value: Review customer email: `{$odata.contact.emailaddress1.?$filter=contactid eq '{customerRecordid}'}`</li><li>Attribute Name - 3: regardingobjectid, Value: `${customerRecordid}`</li><li> Attribute Name - 4: regardingobjectidtype, Value: `${customerEntityName}`</li><li>Attribute Name - 5: regardingobjectidname, Value: `${customerName}`</li></ul> |
+   | Create a new task from an existing case | Create a macro to open a task from the case.| <ol><li> Add the **Open a new form to create a record** action with the following attributes:<ul><li>The Subject field is populated using a data parameter that retrieves the case number.<br>Attribute Name - 1: subject, Value: Follow up task regrading `$(anchor.ticketnumber)`</li><li>The Description field is populated with a combination of a text string and the customer email address retrieved using a oData query.<br>Attribute Name - 2: Description, Value: Review customer email: `{$odata.contact.emailaddress1.?$filter=contactid eq '{anchor._customerid_value}'}`</li><li> The Regarding field is populated with the customer record.<ul><li>Attribute Name - 3: regardingobjectid, Value: `${anchor.incidentid}`</li><li> Attribute Name - 4: regardingobjectidtype, Value: `incident`</li><li>Attribute Name - 5: regardingobjectidname, Value: `${anchor.title}`</li></ul> </li></ul><li> Add the **Save the record** action.  </li></ol> | 
+   | Create a new case from a conversation | Create a macro to open a case from a conversation.|<ol><li> Add the **Open a new form to create a record** action with the following attributes:<ul><li>The Subject field is populated using a data parameter that retrieves the conversation.<br>Attribute Name - 1: subject, Value: Follow up with `$(customerName)`</li><li>The Description field will be populated with a combination of a text string and the customer email address retrieved via oData query.<br>Attribute Name - 2: Description, Value: Review customer email: `{$odata.contact.emailaddress1.?$filter=contactid eq '{customerRecordid}'}`</li><li> The Regarding field is populated with the customer record.<ul></li><li>Attribute Name - 3: regardingobjectid, Value: `${customerRecordid}`</li><li> Attribute Name - 4: regardingobjectidtype, Value: `${customerEntityName}`</li><li>Attribute Name - 5: regardingobjectidname, Value: `${customerName}`</li></ul><li> Add the **Save the record** action.  </li></ol> | 
 
 ## Open an existing record
 
