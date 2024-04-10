@@ -35,7 +35,7 @@ This action links a record to the conversation when the customer is communicatin
 
  | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
-   | Create a case from a Omnichannel conversation. | The following example is a macro to create a case and then link the case to the current conversation.| <ol><li> New step: Open a new form to create a record</li> <li>Save the record</li><li> New step: Link record to the conversation with the following attributes: <ul><li>Entity record ID: `Entity record ID`</li><li>Entity primary name: `Entity primary name` </li></li>Entity logical name: `Entity logical name`</li></ul></li></ol> |
+   | Create a case from a Omnichannel conversation. | The macro creates a case and then links it to the current conversation.| <ol><li> Add the **Open a new form to create a record** productivity action.</li> <li>Add the **Save the record** action.</li><li> Add the **Link record to the conversation** action with the following attributes: <ul><li>**Entity record ID**: `Entity record ID`</li><li>**Entity primary name**: `Entity primary name` </li></li>**Entity logical name**: `Entity logical name`</li></ul></li></ol> |
  
 ## Unlink record from the conversation
 
@@ -51,7 +51,7 @@ This action unlinks a record from the conversation when the customer is communic
 
  | Scenarios | Description | Attribute|
    |-----------------|-----------------------------|---------------------------------|
-   | Unlinks the case from the Omnichannel conversation. | The following example is a macro to unlink a case from an Omnichannel conversation. This macro is considering the following variables present in the session context.| <ol><li> New step: Unlink record from the conversation with the following attributes: <ul><li>Entity record ID: `${caseId}`</li><li>Entity primary name: `${caseTitle}` </li></li>Entity logical name: `incident`</li></ul></li></ul> |
+   | Unlinks the case from the Omnichannel conversation. | The macro unlinks a case from a conversation. This macro considers the variables present in the session context.| <ol><li> Add the **Unlink record from the conversation** action with the following attributes: <ul><li>**Entity record ID**: `${caseId}`</li><li>**Entity primary name**: `${caseTitle}` </li></li>**Entity logical name**: `incident`</li></ul></li></ul> |
 
 #### Send knowledge base article link in chat
 
