@@ -1,5 +1,5 @@
 ---
-title: "Macros in the Customer Service workspace app | MicrosoftDocs"
+title: Configure macros to improve agent productivity
 description: "This topic provides information about the different macros that can be made available to agents and how to configure them in app profile manager."
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.custom: bap-template
 ---
 
-# Automate tasks with macros
+# Configure macros to improve agent productivity
 
 In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greeting and verifying a customer, sending acknowledgment mail, and taking notes. These clicks and repetitive tasks can lead to human errors when agents copy and paste the data across different operations.
 

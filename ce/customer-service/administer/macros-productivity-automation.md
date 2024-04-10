@@ -197,9 +197,9 @@ This action is used for searching knowledge articles based on the populated phra
 
 ### Examples
 
-   | Scenarios | Description | Attribute|
-   |-----------------|-----------------------------|---------------------------------|
-   |Search for cases with same case title| The macro searches for the case title to search for similar cases.| Add the **Do a relevance search based on the phrase** action to use the case title from the anchor tab as the parameter for the relevance search. The following are the attributes:<br>Search string: `${anchor.title}`|
+   | Scenarios |  Attribute|
+   |-----------------|---------------------------------|
+   |Create the macro that searches for the case title to search for similar cases.| Add the **Do a relevance search based on the phrase** action to use the case title from the anchor tab as the parameter for the relevance search. The following are the attributes:<br>Search string: `${anchor.title}`|
 
 ## Clone current record
 
@@ -211,9 +211,9 @@ This action is used for cloning an existing record that is open in the current t
 
 ### Examples
 
- | Scenarios | Description | Attribute|
-   |-----------------|-----------------------------|---------------------------------|
-   |Create a child case using clone current record | The macro creates a clone of the existing case and makes it the parent case. The original case is set as a child case. |<ol><li>Add the **Clone current record** action that clones the original case, and then sets the cloned case as the parent. The original case is set as the child case. The following are the attributes:<br>**Record title**: Child case of `${anchor.ticketnumber}`</li><li>Add the **Autofill form fields** that populates the child case with the attributes specified. The ticketnumber will be set when the record is saved. The following attributes: <ul><li>**Entity logical name**: `incident`</li><li>**Attribute Name**: parentcaseid, **Attribute Value**: `[{"id": "${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`</li><li>**Attribute Name**: ticketnumber, **Attribute Value**: </li></ul></li><li> Add the **Save the record** action to generate and set the ticketnumber for the child case.</li></ol>|
+ | Scenarios | Attribute|
+   |-----------------|---------------------------------|
+   |Create a macro that creates a clone of the existing case and makes it the parent case. The original case is set as a child case. |<ol><li>Add the **Clone current record** action that clones the original case, and then sets the cloned case as the parent. The original case is set as the child case. The following are the attributes:<br>**Record title**: Child case of `${anchor.ticketnumber}`</li><li>Add the **Autofill form fields** that populates the child case with the attributes specified. The ticketnumber will be set when the record is saved. The following attributes: <ul><li>**Entity logical name**: `incident`</li><li>**Attribute Name**: parentcaseid, **Attribute Value**: `[{"id": "${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`</li><li>**Attribute Name**: ticketnumber, **Attribute Value**: </li></ul></li><li> Add the **Save the record** action to generate and set the ticketnumber for the child case.</li></ol>|
 
 #### Clone input record
 
