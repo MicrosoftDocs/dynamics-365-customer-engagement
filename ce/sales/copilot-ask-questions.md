@@ -1,7 +1,7 @@
 ---
 title: Ask questions of Copilot
 description: Learn how to ask Copilot in Dynamics 365 Sales questions to know what's new with your leads, opportunities, accounts, and records assigned to you.
-ms.date: 02/29/2024
+ms.date: 04/10/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -70,15 +70,9 @@ Copilot summarizes the last 10 updates to the record from the audit history, for
 
 Keep in mind that these fields are set at the organization level. Make sure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
-## Get answers from SharePoint documents (Preview)
-
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+## Get answers from SharePoint documents
 
 As a seller, you might have to refer to documents such as contracts, technical documents, and marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you.
-
-This feature is available only if your administrator opted in to the [Copilot preview features](copilot-preview-features.md).
 
 The answers are only fetched from documents in the SharePoint site associated with your tenant.  
 

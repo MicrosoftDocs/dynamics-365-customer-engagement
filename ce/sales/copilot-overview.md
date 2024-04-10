@@ -33,6 +33,7 @@ Copilot offers the following capabilities:
 
 - [Record summarization](#record-summarization)
 - [Recent changes](#recent-changes)
+- [Information assistance]
 - [Meeting preparation](#meeting-preparation)
 - [Email assistance](#email-assistance)
 - [News updates](#news-updates)
@@ -56,6 +57,15 @@ Learn more:
 - [Get a list of recently updated sales records](copilot-ask-questions.md#whats-new-with-my-sales-records)
 - [View the leads and opportunities assigned to you recently](copilot-ask-questions.md#whats-newly-assigned-to-me)
 - [Change the fields you want to view in the recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
+
+### Information assistance
+
+With Copilot, you can get information at your fingertips. You don't have to switch between apps to find the information you need. Copilot can get product-related documents and fetch answers to sales-related questions from documents stored in SharePoint.
+
+Learn more:
+
+- [Get content recommendations from SharePoint](copilot-get-information.md#get-content-recommendations-from-sharepoint)
+- [Get answers from SharePoint documents](copilot-ask-questions.md#get-answers-from-sharepoint-documents)
 
 
 ### Meeting preparation
