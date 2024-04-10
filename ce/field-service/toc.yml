@@ -199,8 +199,12 @@ items:
         - name: Manage work orders with Field Service in Teams
           href: flw-teams-manager.md
     - name: Field Service in Teams for frontline workers
-      href: flw-teams-worker.md
-    - name: Field Service Plugin for Microsoft Copilot
+      items:
+        - name: Get started with Field Service in Teams
+          href: flw-teams-worker-get-started.md
+        - name: Manage work orders with Field Service in Teams
+          href: flw-teams-worker.md
+    - name: Field Service Plugin for Microsoft Copilot (preview)
       href: flw-m365-chat.md
 
 - name: Collaborate with Microsoft Teams

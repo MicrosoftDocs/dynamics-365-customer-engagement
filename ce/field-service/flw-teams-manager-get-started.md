@@ -1,7 +1,7 @@
 ---
 title: Get started with Field Service in Teams (frontline managers)
-description: Learn how to set up Field Service in Teams for service managers and dispatchers to manage work orders.
-ms.date: 04/04/2024
+description: Learn how to set up the Dynamics 365 Field Service app in Teams for service managers and dispatchers to manage work orders.
+ms.date: 04/03/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
