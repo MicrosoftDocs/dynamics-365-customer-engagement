@@ -24,19 +24,19 @@ When you sign in to the Customer Service workspace or Omnichannel for Customer S
 
 ## My work items
 
-In the **My work items** section, you can see the conversations (work items) that you are actively working on. Select the ellipsis and select the **Open** option to open the work item in a session.
+In the **My work items** section, you can see the conversations (work items) that you're actively working on. Select the ellipsis and select the **Open** option to open the work item in a session.
 
 ## Open work items
 
-In the **Open work items** section, you can see the conversations (work items) that are in an open state from all queues in which you are added as  member. Select the ellipsis and select the **Assign to me** option to assign the work item to yourself. A session starts for the pick action. When you select a work item, you get a notification, and when you accept it, a session starts and the **Active Conversation** or case page loads.
+In the **Open work items** section, you can see the conversations (work items) that are in an open state from all queues in which you're added as member. Select the ellipsis, and then select the **Assign to me** option to assign the work item to yourself. A session starts for the pick action. When you select a work item, you get a notification, and when you accept it, a session starts and the **Active Conversation** or case page loads.
 
 The work item that you pick is moved from the **Open work items** section to the **My work items** section. If you reject the request, then the work item remains in the **Open work items** section.
 
 ## Closed work items
 
-In the **Closed work items** section, you can see all the conversations that you've closed on the same day. To view a closed work item, select its ellipsis button (**...**), and then select **Open** to view the details.
+In the **Closed work items** section, you can see all the conversations that you closed on the same day. To view a closed work item, select its ellipsis button (**...**), and then select **Open** to view the details.
 
-When you open a record from the **Closed work items** section, you can view the attributes of the closed conversation record. This will not reopen or reactivate the conversation.
+When you open a record from the **Closed work items** section, you can view the attributes of the closed conversation record. This action won't reopen or reactivate the conversation.
 
 ## Sort work items
 
@@ -53,9 +53,9 @@ On the dashboard, you can sort work items by the following categories:
 
 You can have multiple conversations open on multiple browsers and view the conversations in a split screen. Viewing multiple conversations side by side improves your ability to serve customer requests without the need to switch between sessions.
 
-For example, when you select an active work item or monitor a conversation, it will open on the same browser. All other browsers will remain as-is.
+For example, when you select an active work item or monitor a conversation, it opens on the same browser. All other browsers remain as-is.
 
-When multiple browsers are open, you see incoming conversation request on all the browsers. However, the browser that you select **Accept** from will be the browser that will load that conversation. All other browsers will remain as-is, with incoming notifications dismissed.
+When multiple browsers are open, you see incoming conversation request on all the browsers. However, the browser that you select **Accept** from is the browser that loads that conversation. All other browsers remain as-is, with incoming notifications dismissed.
 
 For example, for incoming calls, the conversation gets accepted only on one browser and the notification gets dismissed on other browsers.
 
