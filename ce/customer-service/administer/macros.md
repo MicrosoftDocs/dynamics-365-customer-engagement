@@ -45,11 +45,11 @@ For more information on agent experience profiles, session templates, agent scri
 
 In Customer Service, macros provide three connectors:
 
-- [Productivity automation](#productivity-automation): Provides actions to perform model-driven app operations. Productivity automation macros allow you to automate tasks such as opening and updating records, opening views, resolving cases, searching the knowledge base, record cloning, setting focus to another agent script, opening email templates, auto filling form fields, setting and retrieving variables and values in the session context.
+- [Productivity automation](macros-productivity-automation.md): Provides actions to perform model-driven app operations. Productivity automation macros allow you to automate tasks such as opening and updating records, opening views, resolving cases, searching the knowledge base, record cloning, setting focus to another agent script, opening email templates, auto filling form fields, setting and retrieving variables and values in the session context.
 
-- [Session connector](#session-connector): Provides actions to perform session-related operations. Session connector macros enables you to add actions such as getting the ID of a tab, refreshing a tab, passing the tab id, setting focus to a tab based on the tab id, opening a tab template, and refreshing session context.
+- [Session connector](macros-session-action.md): Provides actions to perform session-related operations. Session connector macros enables you to add actions such as getting the ID of a tab, refreshing a tab, passing the tab id, setting focus to a tab based on the tab id, opening a tab template, and refreshing session context.
 
-- [Omnichannel connector](#omnichannel-connector): Provides actions to perform Omnichannel for Customer Service&ndash;related operations.  Omnichannel connector macros allow you to link and unlink records to conversations.
+- [Omnichannel connector](macros-omnichannel-action.md): Provides actions to perform Omnichannel for Customer Service&ndash;related operations.  Omnichannel connector macros allow you to link and unlink records to conversations.
 
 - Flow connector: Allows you to execute a Power Automate flow.
 
@@ -111,8 +111,12 @@ With the entity id, you can retrieve other values in the record through the foll
  
 `${$odata.account.name.?$filter=accountid eq '{Session.CurrentTab.entityId}'}`
 
-
-
+## Next Steps
+[Use Productivity automation to create macros](macros-productivity-automation.md)  
+[Use session connector to create macros](macros-session-action.md)  
+[Use omnichannel connector to create macros](macros-omnichannel-action.md)    
+[Flow connector](macro-flow-connector.md)  
+    
 
 
 ### See also
