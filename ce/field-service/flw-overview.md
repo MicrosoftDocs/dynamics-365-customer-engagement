@@ -1,7 +1,7 @@
 ---
 title: Manage Field Service work orders with Microsoft 365 overview 
 description: Learn about integrations for Dynamics 365 Field Service with Microsoft Outlook and Teams.
-ms.date: 11/28/2023
+ms.date: 04/10/2024
 ms.topic: overview
 author: jasonxian-msft
 ms.author: jasonxian
@@ -28,7 +28,7 @@ As an organization, you can use the capabilities in Microsoft Outlook, Microsoft
 - [Work with Field Service in Teams (frontline managers)](flw-teams-manager.md)
 - [Work with Field Service in Teams (frontline workers)](flw-teams-worker.md)
 
-Administrators enable these features for end users in their organization. See [Set up Microsoft 365 integrations for Field Service](flw-admin.md) and [Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)](flw-copilot-setup.md). Frontline managers and workers can set up the Outlook add-in or Teams home page on their own.
+Administrators enable these features for end users in their organization. See [Set up Microsoft 365 integrations for Field Service](flw-admin.md) and [Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot](flw-copilot-setup.md). Frontline managers and workers can set up the Outlook add-in or Teams home page on their own.
 
 Administrators and users can access and share content outside of Microsoft 365 after they give consent to link their Microsoft work or school account with their Dynamics 365 account.
 

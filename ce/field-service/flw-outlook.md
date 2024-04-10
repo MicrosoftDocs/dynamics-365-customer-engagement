@@ -189,40 +189,6 @@ If you don't need to change the assigned technician, just the date or time of th
 
    The technician is booked. A confirmation displays at the top of the **Field Service** pane.
 
-## View a work order
-
-1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in), and then select the **Work orders** tab.
-
-   The list shows up to 50 work orders, with the most recent one listed first.
-
-1. To view more work orders in the Field Service app, select **See more** at the bottom of the list.
-
-   :::image type="content" source="media/fsp-work-order-list.png" alt-text="Screenshot of the Field Service pane in Outlook, with four work orders listed":::
-
-1. Find the work order you want to view:
-
-   - Type the work order ID in the **Find by ID** box and select **Search**. Clear any filters first.
-
-   - To filter the list by status or priority, select **Filter**, make your choice, and then select **Apply**.
-
-   - To remove a filter, select **Filter**, clear each selection, and then select **Apply**.
-
-1. Select the work order to view or edit it.
-
-   :::image type="content" source="media/fsp-work-order-details.png" alt-text="Field Service Outlook work order details":::
-
-While you're viewing a work order, you can also:
-
-- Open a map to locate the service address. Select the **Open in Bing Maps** icon.
-
-   :::image type="content" source="media/fsp-map-icon.png" alt-text="Screenshot of a work order in Outlook, with the Open in Bing Maps icon highlighted.":::
-
-- [Open the schedule board in Field Service](work-with-schedule-board.md). Select the **Schedule board** link.
-
-- Open the work order in Dynamics 365 Field Service. Select the open web app icon.
-
-  :::image type="content" source="media/fsp-copilot-open-web-app-icon.png" alt-text="Field Service Outlook pane highlighting the open web app icon to go to Field Service":::
-
 ## Edit a work order
 
 1. [View the work order](#view-a-work-order) you want to edit.

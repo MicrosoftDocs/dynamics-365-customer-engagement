@@ -53,6 +53,6 @@ Your environment is in a [supported geography, region, and language](flw-overvie
 
 ## Next steps
 
-- [Manage work orders with Field Service in Teams](flw-teams-worker.md)
+- [Manage work orders with Field Service in Teams (frontline workers)](flw-teams-worker.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
