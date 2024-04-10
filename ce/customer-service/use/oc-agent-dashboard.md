@@ -51,11 +51,11 @@ On the dashboard, you can sort work items by the following categories:
 
 ## View multiple conversations at the same time
 
-You can have multiple conversations open on multiple browsers and view the conversations in a split screen. Viewing multiple conversations side by side improves your ability to serve customer requests, without the need to switch between sessions.
+You can have multiple conversations open on multiple browsers and view the conversations in a split screen. Viewing multiple conversations side by side improves your ability to serve customer requests without the need to switch between sessions.
 
 For example, when you select an active work item or monitor a conversation, it will open on the same browser. All other browsers will remain as-is.
 
-When multiple browsers are open, you'll see incoming conversation request on all the browsers. However, the browser that you select **Accept** from will be the browser that will load that conversation. All other browsers will remain as-is, with incoming notifications dismissed.
+When multiple browsers are open, you see incoming conversation request on all the browsers. However, the browser that you select **Accept** from will be the browser that will load that conversation. All other browsers will remain as-is, with incoming notifications dismissed.
 
 For example, for incoming calls, the conversation gets accepted only on one browser and the notification gets dismissed on other browsers.
 
