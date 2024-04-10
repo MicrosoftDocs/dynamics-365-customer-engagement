@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 04/08/2024
+ms.date: 04/10/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -25,7 +25,7 @@ Copilot is an AI-powered tool that revolutionizes the agent experience in Dynami
 
 ## Prerequisites
 
-Make sure that your administrator has turned on the copilot features.
+Make sure that your administrator has turned on the Copilot features.
 
 ## Ask a question 
 
@@ -44,6 +44,8 @@ With Copilot, you can take the following actions:
 - **Ask Copilot to attempt a better response**: Copilot can also rephrase responses based on more guidance such as, "Can you summarize your response?" or "Can you attempt a response providing details for each of the steps you mentioned?"
 
 ### Use targeted phrases for Copilot to get responses from plugins (preview)
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
 If your administrator has configured prompt plugins, you can use targeted keywords to gather quick information about the case that you are working on. For example, you can use the following steps to get the account summary of a case. If Copilot doesn't find any details that match the term, then it falls back to the knowledge source to display the resolution from the configured knowledge articles.
 
