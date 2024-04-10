@@ -612,6 +612,8 @@
           href: copilot-email-enable.md
       - name: Enable Copilot plugins for generative AI (preview)
         href: enable-copilot-plugins-for-generative-ai.md
+      - name: Enable Copilot to create knowledge from cases
+        href: enable-copilot-suggest-knowledge-from-cases.md
       - name: View feedback data
         href: configure-copilot-features.md#record-agent-interactions-with-copilot
       - name: Copilot architecture diagram

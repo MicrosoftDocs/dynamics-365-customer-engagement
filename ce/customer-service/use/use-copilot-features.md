@@ -103,7 +103,7 @@ Once you set a filter, the following actions are applicable:
 
 ### See also
 
-[Understand Copilot language support](copilot-language-support.md)
+[Understand Copilot language support](copilot-language-support.md)  
 [Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  
 [Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
 [FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md) 
