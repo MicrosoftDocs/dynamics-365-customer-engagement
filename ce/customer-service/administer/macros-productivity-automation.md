@@ -150,9 +150,9 @@ This action is used for searching knowledge articles based on the populated phra
 
 ### Examples
 
- | Scenarios |  Attribute|
+   | Scenarios |  Attribute|
    |-----------------|---------------------------------|
-   |Search an article based on a string | The macro performs a search based on a phrase. |Add the **Search the knowledge base for the populated phrase** action that picks up the case title as the search phrase. The following are the attributes : <ul><li>**Tab Label**: Searching for `${anchor.title}`</li><li>**Search string**: `${anchor.title}`</li></ul> |
+   |Create a macro tha macro performs a search based on a phrase.| Add the **Search the knowledge base for the populated phrase** action that picks up the case title as the search phrase. The following are the attributes : <ul><li>**Tab Label**: Searching for `${anchor.title}`</li><li>**Search string**: `${anchor.title}`</li></ul> |
 
 ## Open knowledge base article
 

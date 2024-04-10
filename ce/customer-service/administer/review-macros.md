@@ -23,7 +23,7 @@ Macros offer a log of executions that you can review and identify causes of fail
 **View macro run history**
 
 Consider the following agent script step that fails to execute:
-    :::image type="content" source="../media/  agent-script-failure.png" alt-text="Agent script failing.":::
+    :::image type="content" source="../media/agent-script-failure.png" alt-text="Agent script failing.":::
 To view the run history for the macro that failed, follow these steps:
 
 1. Go to Customer Service admin center, select **Productivity** > **Agent scripts**.  
@@ -39,7 +39,7 @@ In certain scenarios, a step fails because a previous step incorrectly set value
 
 ### Review session context variables 
  
-As an administrator, you can review the macro execution history to validate if the session context variables are configured correctly in the macro design. You can also validate if the session context variable is correct and returning the expected value using the [Microsoft.Apm APIs](../develop/microsoft-apm). 
+As an administrator, you can review the macro execution history to validate if the session context variables are configured correctly in the macro design. You can also validate if the session context variable is correct and returning the expected value using the [Microsoft.Apm APIs](../develop/microsoft-apm.md). 
  
 1. Open Customer Service workspace.
 2. Open a session that executes a macro. For example, open a case from the Home session. 
