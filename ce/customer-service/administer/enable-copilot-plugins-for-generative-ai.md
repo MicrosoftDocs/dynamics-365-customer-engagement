@@ -22,8 +22,8 @@ Your customer service representatives rely on data and information from a wide v
 
 - You are assigned the System Administrator role.
 - Copilot Studio is available.
-- [Configure a prompt plugin in Copilot Studio](/microsoft-copilot-studio/copilot-ai-plugins). The prompt plugin only is supported currently.
-- Copilot is enabled in Customer Service
+- [A prompt plugin is configured in Copilot Studio](/microsoft-copilot-studio/copilot-ai-plugins). The prompt plugin only is supported currently.
+- Copilot in Customer Service is enabled.
 
 ## Configure settings for the prompt plugin
 
