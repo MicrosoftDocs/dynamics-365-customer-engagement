@@ -16,7 +16,7 @@ You can annotate in calls with Microsoft Teams mobile users if you have a Dynami
    |:::image type="icon" source="../field-service/media/calling-annotations-teams-ink-button.png":::|Add ink (draw).|
    |:::image type="icon" source="../field-service/media/calling-annotations-teams-color-button.png":::|Change the arrow or ink color.|
    |:::image type="icon" source="../field-service/media/calling-annotations-teams-undo-button.png":::|Undo the most recent annotation you added.|
-   |:::image type="icon" source="../field-service/media/calling-annotations-teams-erase-all-button.png":::|To delete all annotations that you added, select this button, and then select **Delete Annotations**. This action doesn't clear the annotations your user added.|
+   |:::image type="icon" source="../field-service/media/calling-annotations-teams-erase-all-button.png":::|To delete all annotations that you added, select this button, and then select **Delete Annotations**. This action doesn't clear annotations made by other users.|
 
    > [!NOTE]
    > Each call participant can only undo and delete their own annotations.
