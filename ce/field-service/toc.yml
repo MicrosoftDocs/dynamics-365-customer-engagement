@@ -99,7 +99,7 @@ items:
       href: flw-outlook.md#create-a-work-order-with-copilot
     - name: Draft email response with Copilot
       href: flw-outlook.md#draft-an-email-response-with-copilot
-    - name: Microsoft Copilot for Field Service work orders (preview)
+    - name: Microsoft Copilot for Field Service work orders
       href: flw-m365-chat.md
 
 - name: Work orders
