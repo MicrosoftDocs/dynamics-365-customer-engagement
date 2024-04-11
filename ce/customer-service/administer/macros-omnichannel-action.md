@@ -31,11 +31,15 @@ This action links a record to the conversation when the customer is communicatin
    | Entity primary Name | Specify the primary name of the entity that you want to link. <br>This is a mandatory field.| 
 
 
-### Examples
+### Example: Create a case from a Omnichannel conversation
 
- | Scenarios | Description | Attribute|
-   |-----------------|-----------------------------|---------------------------------|
-   | Create a case from a Omnichannel conversation. | The macro creates a case and then links it to the current conversation.| <ol><li> Add the **Open a new form to create a record** productivity action.</li> <li>Add the **Save the record** action.</li><li> Add the **Link record to the conversation** action with the following attributes: <ul><li>**Entity record ID**: `Entity record ID`</li><li>**Entity primary name**: `Entity primary name` </li></li>**Entity logical name**: `Entity logical name`</li></ul></li></ol> |
+Perform the following steps to create a case from a Omnichannel conversation. The macro creates a case and then links it to the current conversation.
+1. Add the **Open a new form to create a record** productivity action.
+1. Add the **Save the record** action.
+1. Add the **Link record to the conversation** action with the following attributes:
+     - **Entity record ID**: `Entity record ID`
+     - **Entity primary name**: `Entity primary name` 
+     - **Entity logical name**: `Entity logical name`
  
 ## Unlink record from the conversation
 
@@ -47,11 +51,13 @@ This action unlinks a record from the conversation when the customer is communic
    | Entity record id| Specify the entity record ID of the entity that you want to unlink. <br>This is a mandatory field.| 
    | Entity primary Name | Specify the primary name of the entity that you want to unlink. <br>This is a mandatory field.| 
 
-### Examples
+### Example: Unlink the case from the conversation
 
- | Scenarios | Description | Attribute|
-   |-----------------|-----------------------------|---------------------------------|
-   | Unlinks the case from the Omnichannel conversation. | The macro unlinks a case from a conversation. This macro considers the variables present in the session context.| <ol><li> Add the **Unlink record from the conversation** action with the following attributes: <ul><li>**Entity record ID**: `${caseId}`</li><li>**Entity primary name**: `${caseTitle}` </li></li>**Entity logical name**: `incident`</li></ul></li></ul> |
+Perform the following tasks to create a macro that unlinks a case from a conversation. This macro considers the variables present in the session context.
+Add the **Unlink record from the conversation** action with the following attributes: 
+  - **Entity record ID**: `${caseId}`
+  - **Entity primary name**: `${caseTitle}`
+  - **Entity logical name**: `incident`
 
 #### Send knowledge base article link in chat
 
@@ -64,9 +70,6 @@ The action contains the following field.
    | Entity record ID  | Specify the ID of the entity record. <br> This is a mandatory field. |
 
 
-
-
-
 ## Next steps
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+[Flow connector](macro-flow-connector.md)  

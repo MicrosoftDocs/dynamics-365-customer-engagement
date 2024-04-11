@@ -23,11 +23,21 @@ This action triggers Power Automate flows using macros in agent scripts. This ac
 | Entity record id     | Specify the entity record ID of the entity that you want to link. This is a mandatory field. Ids or slugs, such as {customerRecordId}, can be used. While this field is labeled as entity record id, any value to be processed can be passed. While the field is required, values do not have to be functional unless required for the flow logic. | 
 | Select flow      | Specify or select the Power Automate flow to be run by this action. Requires instant cloud flows with *When a record is selected* flow triggers. Existing flows with proper permissions will be detected and displayed in the drop-down list. | 
 
-### Examples
+### Example: Execute a flow that uses a Power Platform connector 
 
- | Scenarios | Attribute|
-   |-----------------|---------------------------------|
-   | Create a macro that passes the contact record from a case to a Power Automate flow. The flow captures the city of the contact and passes to MSN Weather to retrieve the weather. Once the weather is retrieved, the flow creates a task in Dataverse with the name of the city and weather in Fahrenheit. | <ol><li>Add the **run flow** action with the following attributes: <ul><li>**Entity logical name**:`Contact`</li><li>**Entity record id**: `${anchor._customerid_value}`</li><li> **SelectFlow**: Weatherflow</li></ul></li><li>Flow with the following steps:<ul><li>When a record is selected</li><li>Get current weather</li><li>Add a new row</li></ul></li></ol> |
+Perform the following steps to create a macro that passes the contact record from a case to a Power Automate flow. The flow captures the city of the contact and passes to MSN Weather to retrieve the weather. Once the weather is retrieved, the flow creates a task in Dataverse with the name of the city and weather in Fahrenheit. 
+
+1. Add the **run flow** action with the following attributes: 
+    - **Entity logical name**:`Contact`
+    - **Entity record id**: `${anchor._customerid_value}`
+    - **SelectFlow**: Weatherflow
+1. Add the **When a record is selected** flow definition with the following attributes:
+     - **Environment**: Default
+     - **Table Name**: Contact
+1. Add **Get current weather** with the **Location** set to `Address 1: City` and **Units** set to `Imperial`.
+1. Add a new row with the following attributes:
+    - **Table name**: Tasks
+    - **Subject**: The current temperature today in `Address 1: City` is `Temperature` F.
   
 ## Power Automate flow permissions
 

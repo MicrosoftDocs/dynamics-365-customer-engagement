@@ -27,11 +27,16 @@ This action refreshes a tab in the Customer Service workspace session. This acti
    |-----------------|-----------------------------|
    | Tab ID | Specify the ID of the tab that you want to refresh. <br> This is a mandatory field.| 
 
-### Examples
+### Example: Resolve a case, the get the tab ID and then refresh the tab
 
-| Scenarios | Attribute |
-|-----------|-----------|
-| Create a macro to resolve a case, get the ID, and then refresh the tab. | <ol><li> Add the **Resolve case** productivity action with the following attributes: <ul><li>**Incident ID**: `${anchor.incidentid}`</li><li>**Billable time**: 0</li><li>**Resolution**: `Case ${anchor.ticketnumber} resolved via macros`</li></ul></li><li> Add the **Get the current tab** action to get the current tab and store the tab id as a dynamic value.</li><li>Add the **Refresh the tab** action to set the Tab ID to the dynamic value obtained in the previous step. The following are the attributes: <br> **Tab ID**: `Tab ID`</li></ol> |
+Perform the following steps to create a macro to resolve a case, get the ID, and then refresh the tab.
+
+1. Add the **Resolve case** productivity action with the following attributes: 
+    - **Incident ID**: `${anchor.incidentid}`
+    - **Billable time**: 0
+    - **Resolution**: `Case ${anchor.ticketnumber} resolved via macros`
+1. Add the **Get the current tab** action to get the current tab and store the tab id as a dynamic value.
+1. Add the **Refresh the tab** action to set the Tab ID to the dynamic value obtained in the previous step with the **Tab ID** set to `Tab ID`.
  
 ## Focus on the tab
 
@@ -41,11 +46,13 @@ This action focuses on a tab in the Customer Service workspace session. This act
    |-----------------|-----------------------------|
    | Tab ID | Specify the identifier of the tab that you want to give focus to. <br> This is a mandatory field.|
 
-### Examples
+### Example: Create a task from a case, then set focus back to the case form
 
-   | Scenarios | Attribute|
-   |-----------------|---------------------------------|
-   | Create a macro that creates a task from a case and sets focus back to the case form  | <ol><li> Add the **Get the current tab** action. This action copies the Tab ID of the case.</li><li>Add the **Open a new form to create a record** productivity action to create a new task from the case. </li><li>Add the **Save the record** productivity action</li><li> Add the **Focus on the tab** action with Tab ID set to `Tab ID`. This sets the focus back to the original tab, that is the case.</li></ol> |
+Perform the following steps to create a macro that creates a task from a case and sets focus back to the case form.
+1. Add the **Get the current tab** action. This action copies the Tab ID of the case.
+1. Add the **Open a new form to create a record** productivity action to create a new task from the case. 
+1. Add the **Save the record** productivity action.
+1. Add the **Focus on the tab** action with Tab ID set to `Tab ID`. This sets the focus back to the original tab, that is the case.
 
 
 #### Open application tab
@@ -59,11 +66,11 @@ This action opens the specified application in a new tab with the attributes tha
    | Attribute Name | Specify the attribute logical name you want to update.| 
    | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | 
 
-### Examples
+### Example: Open a tab template based on the tab template unique name
 
- | Scenarios | Attribute|
-   |-----------------|---------------------------------|
-   | Create a macro that opens a tab template passing the tab template's unique name as a parameter and open a tab template based on the tab template's unique name.  | Add the **Open application tab** action with the following attributes: <ul><li>**Page type**: `Entity Record`</li><li>**Application Template ID** :`new_tabtemplate_customer`</li></ul> |
+To create a macro that opens a tab template passing the tab template's unique name as a parameter and open a tab template based on the tab template's unique name, Add the **Open application tab** action with the following attributes: 
+ - **Page type**: `Entity Record`
+ - **Application Template ID** :`new_tabtemplate_customer`
 
 
 > [!NOTE]
@@ -73,10 +80,19 @@ This action opens the specified application in a new tab with the attributes tha
 
 This action refreshes the session context in Customer Service workspace for entity sessions. For example, if you launch an entity session for a case record, the session context variables will be defined when the session starts. However, if you update the case title, the session context will not be updated. Therefore, macros will use the cached information. You can add the **Refresh the session context** step after starting the macro run to use the latest information.
 
+### Example: Update the case title and then create a task with the updated case title 
 
- | Scenarios | Attribute|
-   |-----------------|---------------------------------|
-   |Create a macro that updates the case title and then creates a task using the new updated case title.| <ol><li> Add the **Update an existing record** productivity action with the following attributes: </li><ul><li>**Entity record ID**: `#{anchor.incidentid}`</li><li>**Entity logical name**: `incident`</li><li>**Attribute Name**: title, **Attribute Value**: `[Backlog]${anchor.title}`</li></ul></li><li>Add the **Refresh the session context** action to refresh the session context cache after the case title is updated.</li><li> Add the **Open a new form to create a record** action with the following attributes:<ul><li>**Entity logical name**: `task`</li><li>**Attribute Name**: subject, **Attribute Value**: Task regarding case: `${anchor.title}`</li></ul></li></ol>|
+Perform the following steps to create a macro that updates the case title and then creates a task using the new updated case title:
+1. Add the **Update an existing record** productivity action with the following attributes:
+    - **Entity record ID**: `#{anchor.incidentid}`
+    - **Entity logical name**: `incident`
+    - **Attribute Name**: title
+    - **Attribute Value**: `[Backlog]${anchor.title}`
+1. Add the **Refresh the session context** action to refresh the session context cache after the case title is updated.
+1. Add the **Open a new form to create a record** action with the following attributes:
+      - **Entity logical name**: `task`
+      - **Attribute Name**: subject
+      - **Attribute Value**: Task regarding case: `${anchor.title}`
 
 ## Set session context 
 
@@ -87,11 +103,17 @@ This action creates a variable in the session context. This is useful when you w
    | Attribute Name | Specify the name of the session context variable. This is a mandatory field. | 
    | Attribute Value | Specify the value of the session context variable. This is a mandatory field. | 
 
-### Examples
+### Example: Create a session context variable to track the agent script path 
 
-   | Scenarios | Attribute|
-   |-----------------|---------------------------------|
-   |Create a macro that creates a session context variable when a user switches from one agent script to another and then, uses this session variable context for further macro execution. | <ol><li> Add the **Set focus to an agent script** with following attributes:<ul>**Agent Script Unique Name**: `new_agentscript_highpriority`</ul></li><li> Add the **Set session context** action with the following attributes:<ul><li>**Attribute Name**: `firstProcess`</li><li>**Attribute Value**: High priority cases</li></ul></li><li>Add the **Autofill form** action with the following attributes:<ul><li>**Entity logical name**: `incident`</li><li>**Attribute Name**: description, **Attribute Value**: `{firstProcess}`</li></ul></li></ol> |
+Perform the following tasks to create a macro that creates a session context variable when a user switches from one agent script to another and then, uses this session variable context for further macro execution.
+1. Add the **Set focus to an agent script** with the **Agent Script Unique Name** attribute set to `new_agentscript_highpriority`.
+1. Add the **Set session context** action with the following attributes:
+    - **Attribute Name**: `firstProcess`
+    - **Attribute Value**: High priority cases
+1. Add the **Autofill form** action with the following attributes:
+     - **Entity logical name**: `incident`
+     - **Attribute Name**: description
+     - **Attribute Value**: `{firstProcess}`
 
 
 ## Next steps
