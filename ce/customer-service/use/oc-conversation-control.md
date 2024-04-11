@@ -93,7 +93,7 @@ You can consult with other agents or supervisors using the consult option. You c
 
 The following events occur when you select the **Consult** button:
 
-1. You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays only those agents whose skills match the selected criteria along with their name, and current presence status.
+1. You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays the agents whose skills match the selected criteria either in full along with their name, and current presence status. The application also displays agents whose skills match the selected criteria partially.
 
    :::image type="content" source="../media/add-to-consult.png" alt-text="Select the people icon to add the secondary agent to the conversation.":::
 

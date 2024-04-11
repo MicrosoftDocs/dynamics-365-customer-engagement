@@ -59,7 +59,7 @@ The consult option allows you to collaborate with another agent, a supervisor, o
 
 When you initiate a consult, the following actions occur:
 - You're the primary agent. 
-- You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays only those agents whose skills match the selected criteria along with their name, and current presence status.
+- You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays the agents whose skills match the selected criteria either in full along with their name, and current presence status. The application also displays agents whose skills match the selected criteria partially.
 - The customer is automatically put on hold. Hold music plays for the customer.
 - When the invited collaborator joins the call, they have a consult role.
 - The primary agent must manually remove the customer from hold. During a consult, the primary agent can choose to transfer the call to the new participant. 
@@ -82,7 +82,7 @@ When you initiate a consult, the following actions occur:
     - **Consult with an internal agent or supervisor**: Select **Agent**. You can either have a call or chat with an internal agent. Select the conversation channel and then search for the agent you'd like to consult with.<br>
     - **Consult, then transfer**: The primary agent who initiated the consult can transfer the call to any participant involved in the consult. To transfer a conversation to the consulting agent in the conversation, perform the following steps:
        - If the consult is with an external participant (PSTN or Teams through PSTN), select **Transfer** next to the external phone number in the call window.
-       - If the consult is with an internal agent or a supervisor, select  **Transfer** on the call controls.
+       - If the consult is with an internal agent or a supervisor, select **Transfer** on the call controls. The application displays the **Agent** tab with the agent or supervisor in the consult. 
        - After the call is transferred, the primary agent becomes the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call ends for the customer. 
 
    - **Consult with external PSTN number**: Select the **Number Pad**. On the number pad that appears, enter the customer's country code, phone number, and then select Call to make your call. 
