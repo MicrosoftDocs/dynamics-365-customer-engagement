@@ -31,7 +31,7 @@ Use the following question names to create pre-conversation questions. To know h
 | Entity   |     Mapping    | Answer type |
 |---------|----------------|-------------|
 | Account |	Question context key: Name <br> Attribute logical name: name <br><br> Question context key: Email <br> Attribute logical name: emailaddress1 <br><br> Question context key: Phone <br> Attribute logical name: telephone1 (**Phone** field on the **Account Summary** page) | Single line |
-| Contact | Question context key: Name <br> Attribute logical name: `fullname` <br><br> Question context key: Email <br> Attribute logical name: emailaddress1 <br><br> Question context key: Phone <br> Attribute logical name: telephone1 (**Mobile Phone** field on the **Contact Summary** page) |Single line |
+| Contact | Question context key: Name <br> Attribute logical name: `fullname` <br><br> Question context key: Email <br> Attribute logical name: emailaddress1 <br><br> Question context key: Phone <br> Attribute logical name: mobilephone (**Mobile Phone** field on the **Contact Summary** page) |Single line |
 | Incident | Question context key: CaseNumber <br> Attribute logical name: `ticketnumber` |Single line |
 ||||
 
@@ -53,7 +53,7 @@ To link the customer or case, set the values for the associated attributes, such
 | Entity to be linked | Variable name to be set by bot | Attribute for Dynamics 365 entity to match with corresponding variable name in bot |
 |------------|----------------|----------------------|
 |Account|<ul><li> Name</li><li> Email </li><li> Phone</li></ul> |<ul><li> name</li><li>emailaddress1</li><li>telephone1</li></ul> |
-|Contact|<ul><li> Name</li><li> Email </li><li> Phone</li></ul>|<ul><li> name</li><li>emailaddress1</li><li>telephone1</li></ul>|
+|Contact|<ul><li> Name</li><li> Email </li><li> Phone</li></ul>|<ul><li> name</li><li>emailaddress1</li><li>mobilephone</li></ul>|
 |Case|CaseNumber|`ticketnumber`|
 
 For information about creating context variables for Azure and Copilot Studio bots, see [Configure context variables for the bot](context-variables-for-bot.md#configure-context-variables-for-copilot-studio-bot).
