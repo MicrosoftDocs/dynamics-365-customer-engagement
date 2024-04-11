@@ -326,7 +326,7 @@ For example, see a recurrence in the following screenshot, and related XML below
 - You can edit active agreements; the edits are immediately eligible and will update the agreement after a short time.
 - Editing the booking recurrence of an active agreement will update booking dates asynchronously.
 - You can copy existing agreements and choose which parameters you want to apply to the resulting copy.
-- When you change the owner of an agreement, change the agreement into draft status and activate it again keep workflows running.
+- When you change the owner of an Agreement, you should also change the Agreement status to Draft/Estimate, save, wait up to 5 minutes to allow all asynchronous processes to run, and then set the status to Active again to keep its workflows running in good order.
 - If **Auto Generate Work Order** is set to **No** but **Auto Generate Booking** is set to **Yes**, then the booking will automatically be created when the work order is manually generated from the booking date.
 - An agreement is intended to be executed at a single location represented by the service account. Work at multiple locations should be configured with multiple agreements.
 - In scenarios where you want to use agreements solely for invoice generation and not for work order generation, consider using the quote entity as part of the Field Service solution, which has similar capabilities.
