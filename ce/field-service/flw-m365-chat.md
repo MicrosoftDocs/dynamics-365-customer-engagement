@@ -66,7 +66,7 @@ To ask for information from uploaded attachments such as installation manuals, m
 
    :::image type="content" source="media/fsp-m365-chat-flw3.png" alt-text="Microsoft Copilot chat showing step-by-step instructions for the work order":::
 
-Answers that come from an attachment show under **reference** at the bottom of the answer.
+Answers that came from an attachment are listed under **reference** at the bottom of the answer.
 
 ### More sample questions
 

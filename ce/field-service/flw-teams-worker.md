@@ -54,9 +54,9 @@ The Dynamics 365 Field Service app for Teams enables frontline workers to manage
 
    - Open the work order in Dynamics 365 Field Service. Select the open web app :::image type="icon" source="media/fsp-open-web-app-icon.png"::: icon.
 
-   - View tasks and products in Field Service
+   - View tasks and products in Field Service.
 
-   - [Launch Remote Assist for remote collaboration](#call-for-remote-collaboration-through-remote-assist)
+   - [Launch Remote Assist for remote collaboration](#call-for-remote-collaboration-through-remote-assist).
 
 1. If you made changes, select **Save**.
 

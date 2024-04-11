@@ -57,9 +57,9 @@ This feature is available in English (United States, Great Britain, Australia, C
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
-Admins can choose to [block the Microsoft Copilot plugin.](/microsoft-365-copilot/extensibility/overview-business-applications#deploy-a-plugin)
+Admins can choose to [block the Microsoft Copilot plugin](/microsoft-365-copilot/extensibility/overview-business-applications#deploy-a-plugin) from certain users or not deploy it.
 
-Feedback you provide on your satisfaction with generated topics is used to improve system quality. To provide feedback on responses generated through Copilot, select thumbs up or thumbs down icon.
+Feedback you provide on your satisfaction with generated articles is used to improve system quality. To provide feedback on responses generated through Copilot, select thumbs up or thumbs down icon.
 
 ## See also
 

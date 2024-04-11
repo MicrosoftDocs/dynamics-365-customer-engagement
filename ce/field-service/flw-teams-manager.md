@@ -140,6 +140,10 @@ Add installation manuals, maintenance documents, specifications, or troubleshoot
 
    :::image type="content" source="media/timeline-tab.svg" alt-text="Field Service Work Order page, Timeline tab.":::
 
+## Share work order information
+
+[!INCLUDE [fsp-share-wo](../includes/fsp-share-wo.md)]
+
 ## Call for remote collaboration through Remote Assist
 
 [!INCLUDE [fsp-launch-ra](../includes/fsp-launch-ra.md)]
