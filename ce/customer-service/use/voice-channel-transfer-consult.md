@@ -1,7 +1,7 @@
 ---
 title: "Transfer calls and consult with users | MicrosoftDocs"
 description: "Use this article to understand how the agent can use the transfer and consult options to make and receive customer calls in Omnichannel for Customer Service."
-ms.date: 08/23/2023
+ms.date: 04/01/2024
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -16,7 +16,7 @@ To familiarize yourself with the call controls, see [Understand how to use the a
 
 ## How you can transfer calls
 
-When you receive an incoming call, you can transfer the call to an agent, a queue, a public switched telephone network(PSTN) Teams user, or an external PSTN number. After you transfer the call, the following actions occur:
+When you receive an incoming call, you can transfer the call to an agent, a queue, a public switched telephone network (PSTN) Teams user, or an external PSTN number. After you transfer the call, the following actions occur:
 
  - The customer is automatically put on hold. Hold music plays for the customer. 
  - By default, the customer is automatically removed from hold once a secondary agent accepts the transferred call. If the **Un-hold customer after agent transfer is accepted** setting is disabled, the primary agent must manually remove the customer from hold.
@@ -36,7 +36,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
 
 3. Based on your requirement, perform one of the following steps.
 
-    - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The agent who picks up the transferred call becomes the primary agent and you become the secondary agent and are removed from the call. <br>
+    - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The agent who picks up the transferred call becomes the primary agent and you become the secondary agent and are removed from the call.<br>
 
         > [!div class="mx-imgBorder"]
         > ![Screenshot of queue transfer](../media/oceh-cc-transfer-queue-list.png)<br>

@@ -290,10 +290,14 @@
           href: use-copilot-features.md#draft-a-chat-response-preview
         - name: Write an email with Copilot
           href: use-copilot-email.md
+        - name: Use Copilot to generate knowledge drafts from cases
+          href: use-copilot-knowledge-from-cases.md  
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
         - name: View analytics for Copilot impact
           href: copilot-analytics-report.md
+        - name: Chat with Customer Service data in Copilot for Microsoft 365 (preview)
+          href: copilot-chat-customer-service-data.md
       - name: Analytics dashboards and insights
         items: 
         - name: Use Omnichannel real-time analytics dashboards

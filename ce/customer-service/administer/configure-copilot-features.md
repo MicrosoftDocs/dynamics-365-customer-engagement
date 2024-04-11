@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 03/22/2024
+ms.date: 03/28/2024
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
 ---
@@ -95,7 +95,7 @@ Perform the following steps to add the Copilot features to an agent experience p
 
 ## Record agent interactions with Copilot
 
-In the **Summaries** and **Copilot help pane** configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record and understand how agents are interacting with Copilot and how Copilot is performing in a support organization. Agents can also share feedback about Copilot actions, which helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
+In the **Summaries** and **Copilot help pane** configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record and understand how agents are interacting with Copilot and how Copilot is performing in a support organization. Agents can also share feedback about Copilot actions, which helps Copilot perform better. You can also [download](../develop/download-copilot-transcript-data.md) and use the data to analyze knowledge sources, and build usage reports.
 
 
 ## Assign roles and privileges
@@ -125,7 +125,7 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvCreatemsdyn_copilottranscriptdata 
 - prvWritemsdyn_copilottranscriptdata 
 - prvAppendmsdyn_copilottranscriptdata
-- prvIntelligenceUsage
+- prvIntelligenceUsage: This privilege is required to access the Copilot case summary. By default, this privilege is available for out-of-the-box security roles. Make sure that your users have  [**Miscellaneous privileges**](/power-platform/admin/security-roles-privileges#define-the-privileges-and-properties-of-a-security-role) > **prvIntelligenceUsage** assigned to the required custom security roles.
 - prvReadOrganizationSetting
 - prvReadmsdyn_panetabconfiguration 
 - prvReadmsdyn_paneconfiguration 
