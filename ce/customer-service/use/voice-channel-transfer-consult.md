@@ -41,7 +41,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
         > [!div class="mx-imgBorder"]
         > ![Screenshot of queue transfer](../media/oceh-cc-transfer-queue-list.png)<br>
     
-    - **Transfer to an external PSTN number**: Select **External number**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. <br>
+    - **Transfer to an external PSTN number**: Select **Number pad**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. <br>
 
     - **Transfer to Teams user via PSTN**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
         > [!div class="mx-imgBorder"]
@@ -85,7 +85,7 @@ When you initiate a consult, the following actions occur:
        - If the consult is with an internal agent or a supervisor, select **Transfer** on the call controls. The application displays the **Agent** tab with the agent or supervisor in the consult. 
        - After the call is transferred, the primary agent becomes the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call ends for the customer. 
 
-   - **Consult with external PSTN number**: Select the **External number**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. 
+   - **Consult with external PSTN number**: Select the **Number Pad**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. 
     By default, the consultation is private, the customer is on hold while the primary agent speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation. <br>
     To make the consultation public, select **Hold** to put the call on hold. When the secondary agent joins the conversation, remove the customer from hold to continue the consultation.<br>
 
