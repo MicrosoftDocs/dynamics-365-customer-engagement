@@ -26,5 +26,3 @@ Detailed instructions on how to run the sample and its functionality can be foun
 [Write a plug-in](/power-apps/developer/data-platform/write-plug-in?tabs=pluginbase)
 
 [Register a plug-in](/power-apps/developer/data-platform/register-plug-in)
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
