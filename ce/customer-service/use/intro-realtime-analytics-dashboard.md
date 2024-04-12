@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 11/08/2023
+ms.date: 04/12/2024
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -64,6 +64,9 @@ The **Omnichannel real-time analytics** dashboard consists of the following repo
 - **Voice**: This report provides an overview of conversations for the Omnichannel for Customer Service voice channel. [Learn more about the Voice report.](realtime-voice-dashboard.md)
 - **Agents**: This report provides an overview of the health and KPIs of agents in your organization. The information that is shown on this report is based on the conversations. [Learn more about the Agents report.](realtime-agents-analytics.md)
 - **Ongoing conversation**: This report provides information about the conversations that agents are handling that are in active, open, wrap-up, or waiting status. Use it to monitor, assign, transfer, and forcibly close conversations for an agent, after reviewing their skill set and capacity profiles. [Learn more about the Ongoing conversation report.](realtime-ongoing.md)
+
+> [!NOTE]
+> The reports don't include work items of the channel entity.
 
 ## Filter information displayed on dashboard
 
