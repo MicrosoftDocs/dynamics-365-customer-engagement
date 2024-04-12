@@ -29,7 +29,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Transfer icon](../media/oc-transfer-scn.png)<br>
    
-   The **Transfer** dialog box appears. The **Queue**, **Teams**, and **External number** tabs are displayed.
+   The **Transfer** dialog box appears. The **Queue**, **Teams**, and **Number pad** tabs are displayed.
   
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Transfer options](../media/oc-transfer-options.png)
