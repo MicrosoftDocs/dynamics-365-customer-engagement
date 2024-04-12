@@ -94,21 +94,21 @@ You can consult with other agents or supervisors using the consult option. You c
 
 The following events occur when you select the **Consult** button:
 
-1. You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays the agents whose skills match the selected criteria in full or partially, along with their name, and current presence status.
+- You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays the agents whose skills match the selected criteria in full or partially, along with their name, and current presence status.
 
    :::image type="content" source="../media/add-to-consult.png" alt-text="Select the people icon to add the secondary agent to the conversation.":::
 
-1. Select and invite an agent, and then start a consultation.
+- Select and invite an agent, and then start a consultation.
 
-1. The secondary agent receives a notification for the consult request.
+- The secondary agent receives a notification for the consult request.
 
-1. When the secondary agent accepts the consult request, a separate pane with an option to end opens beside the communication panel for the primary agent.
+- When the secondary agent accepts the consult request, a separate pane with an option to end opens beside the communication panel for the primary agent.
  
    :::image type="content" source="../media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary agent.":::
 
-1. The secondary agent sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary agent and customer.
+- The secondary agent sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary agent and customer.
    
-2. The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
+- The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
 
 
 Additionally, the following considerations apply:
