@@ -16,7 +16,7 @@
           href: add-skill-control.md
         - name: Close live work items or deactivate queue items
           href: deactivate-queue-items.md
-        - name: Route non-case records using a plug-in
+        - name: Route noncase records using a plug-in
           href: trigger-routing-non-case-records.md 
       - name: Knowledge management
         items:
@@ -40,7 +40,7 @@
           href: download-transcripts-bulk.md
         - name: Add a web resource for real-time translation
           href: add-web-resource-real-time-translation.md
-        - name: Enable third-party co-browse and screen sharing
+        - name: Enable third-party cobrowse and screen sharing
           href: third-party-co-browse.md
         - name: Live chat widget telemetry
           href: live-chat-telemetry.md 
@@ -67,7 +67,11 @@
           - name: Test the custom messaging channel
             href: test-custom-channel-sample-html.md
           - name: Markdown formats in custom channels that use Direct Line
-            href: markdown-formats-dev.md        
+            href: markdown-formats-dev.md   
+      - name: Copilot in Customer Service
+        items:  
+        - name: Download Copilot transcripts and interaction data
+          href: download-copilot-transcript-data.md               
       - name: Agent productivity tools
         items: 
         - name: Build a smart assist bot
@@ -474,7 +478,7 @@
               href: reference/events/lcw-ready.md
             - name: "lcw:startChat"
               href: reference/events/lcw-startchat.md          
-            - name: "lcw:closeChat"
+            - name: "lcw: closeChat"
               href: reference/events/lcw-closeChat.md
             - name: "lcw:onClose"
               href: reference/events/lcw-onClose.md          
@@ -595,7 +599,9 @@
           - name: Context management    
             items:                
             - name: updateContext
-              href: reference/properties/updateContext.md                  
+              href: reference/properties/updateContext.md      
+            - name: resolveSlug
+              href: reference/properties/resolveSlug.md              
           - name: Readme
             href: https://go.microsoft.com/fwlink/p/?linkid=2141982
     - name: Responsible AI

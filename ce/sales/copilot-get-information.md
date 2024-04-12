@@ -24,11 +24,12 @@ Use Copilot to get information about your pipeline, summarize your opportunities
 
 Copilot can provide a list of open opportunities assigned to you, sorted by the estimated close date.
 
-In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Show my pipeline**, and select Enter.
+[Open Copilot](use-sales-copilot.md#open-copilot), select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Show my pipeline**, and select **Enter**.
 
 ## Summarize a lead or opportunity
 
-1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** or **Summarize opportunity**, and select Enter.
+1. [Open Copilot](use-sales-copilot.md#open-copilot).  
+1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** or **Summarize opportunity**, and then select **Enter**.
 
     - If you have a record open, Copilot summarizes it.
     - If you're in the grid view, Copilot lists the records you own. Hover over a record and select **Summarize**.
@@ -58,7 +59,7 @@ As a salesperson, you need to be aware of the latest product information, such a
 
    If the opportunity has multiple products, Copilot lists the products.
 
-3. Hover over a product and select **Get files**.
+1. Hover over a product and select **Get files**.
 
     Copilot fetches a list of Word, Excel, PowerPoint, and PDF files that are related to the product from SharePoint. Copilot lists only those files that you have access to in SharePoint.
 
@@ -82,7 +83,7 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. Select **Connect** to connect the lead with a matching record.
 
-    :::image type="content" source="media/copilot-lead-enrichment.png" alt-text="Screenshot of a lead card in the Copilot chat pane, with a matching account highlighted.":::
+    :::image type="content" source="media/copilot-lead-enrichment.png" alt-text="Screenshot of a lead card in the Copilot chat, with a matching account highlighted.":::
 
 1. After Copilot connects the records, select **Get updated lead summary** to generate a new summary that includes information from the connected record.
 
@@ -98,7 +99,7 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 
-1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Get latest news for account**, and select Enter.
+1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Get latest news for account**, and select Enter.
 
     - If you have a record open, Copilot lists the news articles related to that account.
     - If you're in the grid view, Copilot lists news articles for the top 10 accounts you work with, sorted by the revenue associated with them.
