@@ -14,7 +14,7 @@ You can transfer calls or consult with other agents or supervisors to collaborat
 
 To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](voice-channel-agent-experience.md).
 
-## How you can transfer calls
+## Transfer calls
 
 When you receive an incoming call, you can transfer the call to an agent, a queue, a public switched telephone network (PSTN) Teams user, or an external PSTN number. After you transfer the call, the following actions occur:
 
@@ -29,7 +29,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Transfer icon](../media/oc-transfer-scn.png)<br>
    
-   The **Transfer** dialog box appears. The **Queue**, **Teams**, and **Number pad** tabs are displayed.
+   The **Transfer** dialog box appears. The **Queue**, **Teams**, and **External number** tabs are displayed.
   
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Transfer options](../media/oc-transfer-options.png)
@@ -53,7 +53,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
     > The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.
 
 
-## How you can use consult to collaborate with other agents or supervisors
+## Use consult to collaborate with other agents or supervisors
 
 The consult option allows you to collaborate with another agent, a supervisor, or an external participant (either a PSTN number or a Teams PSTN number). You can initiate a chat, a call consult, or both.
 
@@ -78,14 +78,14 @@ When you initiate a consult, the following actions occur:
     > ![Available Consult options](../media/oc-consult-optns.png)<br>
 
 3. Based on your requirement, perform one of the following steps.
-4
-    - **Consult with an internal agent or supervisor**: Select **Agent**. You can either have a call or chat with an internal agent. Select the conversation channel and then search for the agent you'd like to consult with.<br>
+
+    - **Consult with an internal agent or supervisor**: Select **Agent**. You can either have a call or chat with an internal agent or supervisor. Select the conversation channel and then search for the agent you'd like to consult with.<br>
     - **Consult, then transfer**: The primary agent who initiated the consult can transfer the call to any participant involved in the consult. To transfer a conversation to the consulting agent in the conversation, perform the following steps:
        - If the consult is with an external participant (PSTN or Teams through PSTN), select **Transfer** next to the external phone number in the call window.
        - If the consult is with an internal agent or a supervisor, select **Transfer** on the call controls. The application displays the **Agent** tab with the agent or supervisor in the consult. 
        - After the call is transferred, the primary agent becomes the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call ends for the customer. 
 
-   - **Consult with external PSTN number**: Select the **Number Pad**. On the number pad that appears, enter the customer's country code, phone number, and then select Call to make your call. 
+   - **Consult with external PSTN number**: Select the **Number Pad**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. 
     By default, the consultation is private, the customer is on hold while the primary agent speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation. <br>
     To make the consultation public, select **Hold** to put the call on hold. When the secondary agent joins the conversation, remove the customer from hold to continue the consultation.<br>
 

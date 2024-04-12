@@ -26,12 +26,13 @@ You can do the following tasks in the communication panel:
 - Use the consult option if you need help with resolving the work item.
 - Generate a summary of the conversation. More information: [View and share auto-summarized conversations](cs-ai-generated-summary.md)
 
- > [!div class=mx-imgBorder]
- > ![Omnichannel communication panel chat interface.](../media/oceh-conversation-control-chat-interface.png "Omnichannel communication panel chat interface")  
 
 ## Enhance agent productivity using keyboard commands
 
 The communication panel has options that you can use to perform actions, such as see quick replies, consult, and transfer, and launch notes control. You can also use keyboard commands to perform these actions.
+
+ > [!div class=mx-imgBorder]
+ > ![Omnichannel communication panel chat interface.](../media/oceh-conversation-control-chat-interface.png "Omnichannel communication panel chat interface")  
 
 The following table lists the options and the keyboard shortcuts that you can use.
  
@@ -93,7 +94,7 @@ You can consult with other agents or supervisors using the consult option. You c
 
 The following events occur when you select the **Consult** button:
 
-1. You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays the agents whose skills match the selected criteria either in full along with their name, and current presence status. The application also displays agents whose skills match the selected criteria partially.
+1. You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays the agents whose skills match the selected criteria in full or partially, along with their name, and current presence status.
 
    :::image type="content" source="../media/add-to-consult.png" alt-text="Select the people icon to add the secondary agent to the conversation.":::
 
@@ -101,7 +102,7 @@ The following events occur when you select the **Consult** button:
 
 1. The secondary agent receives a notification for the consult request.
 
-1. When the secondary agent accepts the consult request, a separate pane with an option to end will open beside the communication panel for the primary agent.
+1. When the secondary agent accepts the consult request, a separate pane with an option to end opens beside the communication panel for the primary agent.
  
    :::image type="content" source="../media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary agent.":::
 
@@ -143,7 +144,8 @@ When skill-based routing is enabled, then during the transfer, the **Transfer** 
 
 When a conversation needs to be transferred from one queue to another, the matching criteria that were used in the conversation will be reused to find an agent in the new queue. For example, if exact match had been used to attach the skills to the conversation, the same criteria is used to find the agent in the new queue.
 
-![Transfer queue list.](../media/oceh-cc-transfer-queue-list.png "Transfer queue list")
+> [!div class="mx-imgBorder"]
+> ![Transfer queue list.](../media/oceh-cc-transfer-queue-list.png "Transfer queue list")
 
 ### Search agents or queues for transfer of conversation requests
 
