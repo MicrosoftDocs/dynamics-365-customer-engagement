@@ -1,7 +1,7 @@
 ---
 title: Ask questions of Copilot
 description: Learn how to ask Copilot in Dynamics 365 Sales questions to know what's new with your leads, opportunities, accounts, and records assigned to you.
-ms.date: 04/10/2024
+ms.date: 04/26/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -81,7 +81,7 @@ The answers are only fetched from documents in the SharePoint site associated wi
 
     Copilot searches for answers from the sales data stored in Dataverse first. After the result is displayed, you'll see a follow-up prompt.
 
-2. Select the follow-up prompt **Would you like me to search other sources**.  
+2. Select the follow-up prompt **Search for the answer in SharePoint**.  
    If the answer is available in SharePoint, Copilot summarizes the answer and provides links to the corresponding documents in SharePoint.
 
 ### See also

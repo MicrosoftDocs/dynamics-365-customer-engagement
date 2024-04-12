@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 02/26/2024
+ms.date: 04/26/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -33,7 +33,7 @@ Copilot offers the following capabilities:
 
 - [Record summarization](#record-summarization)
 - [Recent changes](#recent-changes)
-- [Information assistance]
+- [Information assistance](#information-assistance)
 - [Meeting preparation](#meeting-preparation)
 - [Email assistance](#email-assistance)
 - [News updates](#news-updates)
