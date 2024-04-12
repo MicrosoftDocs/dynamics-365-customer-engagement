@@ -202,6 +202,14 @@
         href: automatically-create-case-from-email.md
       - name: Create a new case when email subject changes
         href: arc-email-sub-chg.md
+      - name: Create multiple cases from an email sent to multiple mailboxes
+        items:
+        - name: Create multiple cases from an email sent to multiple mailboxes
+          href: arc-multiple-cases.md
+        - name: How the automatic record creation rule works in a customer scenario
+          href: arc-customer-scenario.md
+        - name: How the automatic record creation rule works in an agent scenario
+          href: arc-agent-scenario.md
       - name: FAQ about automatic record creation
         href: arc-faqs.md
     - name: Service-level agreements
@@ -336,7 +344,7 @@
         href: configure-rules-based-suggested-contacts.md
       - name: Configure auto-summarization of conversations
         href: cs-enable-ai-generated-summary.md
-      - name: Enable Join a Teams call for agents
+      - name: Set up Join a Teams call for agents
         href: set-up-join-a-teams-call.md
       - name: Configure customer support swarming
         href: configure-customer-support-swarming.md
@@ -372,6 +380,8 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Enable agents to search for contacts and open records from outbound dialer (preview)
+        href: add-outbound-dialer-settings.md  
       - name: Support emergency calls made by agents
         href: voice-channel-emergency-calling.md
       - name: Integrate Nuance Gatekeeper (preview)
@@ -404,7 +414,7 @@
         href: voice-channel-block-number.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
-      - name: Configure agent call quality feedback survey (preview)
+      - name: Enable voice call experiences
         href: configure-end-of-call-survey.md
       - name: Delete call recordings
         href: voice-channel-delete-calls.md
@@ -598,13 +608,17 @@
           href: copilot-enable-help-pane.md#enable-ask-a-question
         - name: Enable draft a response (preview)
           href: copilot-enable-help-pane.md#enable-draft-a-response-preview
-        - name: Enable write an email
-          href: copilot-enable-help-pane.md#enable-write-an-email
+        - name: Enable Copilot to draft emails 
+          href: copilot-email-enable.md
+      - name: Enable Copilot plugins for generative AI (preview)
+        href: enable-copilot-plugins-for-generative-ai.md
+      - name: Enable Copilot to create knowledge from cases
+        href: enable-copilot-suggest-knowledge-from-cases.md
       - name: View feedback data
         href: configure-copilot-features.md#record-agent-interactions-with-copilot
       - name: Copilot architecture diagram
         href: /digital-contact-center-platform/guidance/dynamics-365-customer-service-copilot-architecture?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Manage fields Copilot uses for case summaries and emails
+      - name: Manage fields Copilot uses for case summaries
         href: copilot-map-custom-fields.md
       - name: Customize Copilot conversation summaries
         href: customize-copilot-conv-summary.md
@@ -638,8 +652,10 @@
         href: configure-bot-virtual-agent.md
     - name: Analytics dashboards and insights
       items:
-      - name: Supported regions and languages, and service limits for analytics and insights
+      - name: Supported regions and languages for analytics and insights
         href: cs-region-availability-service-limits.md
+      - name: Service limits for analytics and insights
+        href: ana-ser-limits.md
       - name: Configure analytics and insights dashboards
         href: configure-customer-service-analytics-insights-csh.md
       - name: Manage real-time analytics dashboards

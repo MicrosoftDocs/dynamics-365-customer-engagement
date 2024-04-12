@@ -1,7 +1,7 @@
 ---
-title: Manage fields Copilot uses for case summaries and emails
+title: Manage fields Copilot uses for case summaries
 
-description: Learn how to modify Copilot's default attributes to generate more accurate summaries and draft emails. 
+description: Learn how to modify the default attributes that Copilot uses to generate more accurate summaries. 
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: shujoshi 
@@ -15,7 +15,7 @@ ms.custom:
   - ai-seo-date:10/13/2023
 ---
 
-# Manage fields Copilot uses for case summaries and emails
+# Manage fields Copilot uses for case summaries 
 
 You can modify the source case fields that Copilot uses to generate summaries or draft emails, thereby improving the context and accuracy of the results. You can also select a custom field that Copilot should use to generate responses.
 
@@ -52,21 +52,3 @@ In Customer Service admin center, perform the following steps to map your prefer
  
 :::image type="content" source="../media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="../media/copilot-data-attributes.png":::|
 
-
-## Modify the fields used to draft emails
-
-Copilot uses the following out-of-the-box case fields to draft emails:
-
-- Case Title
-- Case Description
-- Customer Contact
-- Subject
-- Case Notes
-- Email Content
-
-In Customer Service admin center, go to **Copilot help pane** and perform the steps in the [Modify the fields used to generate case summaries](#modify-the-fields-used-to-generate-case-summaries) section to modify the source fields that Copilot uses to draft emails.
-
-> [!NOTE]
-> You can't modify the Case Notes and Email Content field values that Copilot uses to draft emails.
-
-   :::image type="content" source="../media/copilot-email-conv-mini.png" alt-text="Screenshot of the data attributes that copilot email  uses" lightbox="../media/copilot-email-conv.png":::
