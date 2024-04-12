@@ -1,7 +1,7 @@
 ---
 title: Set up Field Service integration with finance and operations applications
 description: Set up the Dynamics 365 Field Service integration with finance and operations to synchronize inventories and budgeting items between the applications.
-ms.date: 04/01/2024
+ms.date: 04/12/2024
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -16,6 +16,8 @@ Set up the integration between Dynamics 365 Field Service and finance and operat
 ## Prerequisites
 
 - Finance and operations apps that have build version 10.0.39 (10.0.1860.56) and platform update 63 or later
+
+- Human resources to bookable resource integration installed
 
 - Dynamics 365 Field Service version number 8.8.116+
 
@@ -62,9 +64,7 @@ The integration depends on [dual-write](/dynamics365/fin-ops-core/dev-itpro/data
    - All products
    - CDS Contacts V2
    - CDS Contacts V2
-   - CDS Customer Contacts
    - CDS Released distinct products
-   - CDS Vendor Contacts
    - Colors
    - Configurations
    - Currencies
@@ -89,13 +89,13 @@ The integration depends on [dual-write](/dynamics365/fin-ops-core/dev-itpro/data
    - Vendors V2
    - Warehouses
 
+For maps and initial syncs against global entities that fail with permissions errors, you might need to specify the owning team.
+
 ### Assign security roles
 
 The integration relies on virtual tables and process execution in each user's context.
 
-[Set up the following security roles](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/security-roles).
-
-<!--- Is this the correct link? --->
+[Set up the following security roles](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 - **Field Service Integration User**: For each user that creates or updates work orders which sync data with finance and operations applications. Users with this role can only interact with finance and operations data through the integration. They aren't entitled to access the finance and operations applications unless they have a full license.
 
@@ -117,7 +117,7 @@ To ensure that the integration can successfully integrate journals related to it
 
 ### Prerequisites
 
-The Dynamics 365 Human Resources integration with the Universal Resource Scheduling solution is [installed](/dynamics365/human-resources/hr-admin-integration-hr-rm).
+[Install the Dynamics 365 Human Resources integration with the Universal Resource Scheduling solution](/dynamics365/human-resources/hr-admin-integration-hr-rm).
 
 ### Configure posting behaviors
 
@@ -127,7 +127,7 @@ Depending on the nature of your organization's Field Service work, benefit from 
 
 1. Choose a value for **Post used for Finance and Operations**:
 
-   - **When work order is posted**: For work orders of short duration, posting transactions to journals can likely wait until the work is completed. Inventory changes and financial updates only post to the general ledger or inventory when the work order is posted. In this scenario, there's a smaller chance of posting a reversal for a given transaction. It only happens if a transaction changes after posting the work order is posted.
+   - **When work order is posted**: For work orders of short duration, posting transactions to journals can likely wait until the work is completed. Inventory changes and financial updates only post to the general ledger or inventory when the work order is posted. In this scenario, there's a smaller chance of posting a reversal for a given transaction. It only happens if a transaction changes after the work order is posted.
 
    - **When product or service is used**: For long-running work orders, posting transactions as soon as they occur helps track inventory consumption and financial impacts in real-time. It also enables invoicing without delays that can cause inventory and financial discrepancies. Changes to transactions after they were posted reverts the previously posted transaction and generates a new transaction.
 
