@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 02/29/2024
+ms.date: 04/26/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -92,9 +92,9 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. To update the lead record with the suggested values, select **Update all**.
 
-## Summarize documents associated with a record (preview)
+## Summarize documents or proposals associated with a record (preview)
 
-Often, you might have documents such as contracts, proposals, and reports associated with your records. Copilot can summarize the content of these documents and help you understand the key points quickly.
+Often, you might have documents such as contracts, proposals, and reports associated with your records. Copilot can summarize the content of these documents and help you understand the key points quickly. For example, you can ask Copilot to summarize a proposal document to understand the budget, authority (decision maker), need, and timeline (BANT) of the opportunity.
 
 > [!NOTE]
 >- This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
