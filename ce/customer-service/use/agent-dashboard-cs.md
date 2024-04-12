@@ -1,7 +1,7 @@
 ---
 title: Agent dashboard | Microsoft Docs
 description: Learn about the Agent dashboard insights to better understand agent performance in your organization.
-ms.date: 04/05/2021
+ms.date: 04/12/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -75,6 +75,8 @@ To access the drill down report, select any metric value for the required agent,
 > [!div class="mx-imgBorder"]
 > ![Agent drill down view table.](../media/agent-drill-down-view.png "Agent drill down view table")
 
+> [!NOTE]
+> Agent availability (start and end time) is only available in UTC, and isn't affected by the user's time zone.
 
 ### See also
 
