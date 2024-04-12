@@ -15,7 +15,7 @@ search.audienceType:
 
 # Sample - ARC Multi-Related - Remove Unreferenced Queue
 
-The sample shows how automatic record creation for Dynamics 365 Customer Service can be customized to remove unreferenced queues from emails.
+The sample shows how automatic record creation rules for Dynamics 365 Customer Service can be customized to remove unreferenced queues from emails. This customization is applicable when you enable the multiple cases are created from email sent to multiple mailboxes feature.
 
 This sample is a Microsoft Visual Studio Solution File, Format Version 12.00.
 
