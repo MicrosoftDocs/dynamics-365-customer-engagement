@@ -45,7 +45,7 @@ Some examples of prompts are as follows:
 
 - Show me the high-priority support tickets for Contoso coffee in the past 30 days.
 - Tell me if Contoso Coffee has active escalated cases in the past three months. If yes, show me the list.
-- What are the cases that have missed SLA in the past seven days?
+- What are the cases that missed their SLA in the past seven days?
 - Show me all my active cases.
 - Show me my cases due tomorrow.
 - Tell me about the details for case number CAS-01006-W8H5Q.
