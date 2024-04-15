@@ -21,7 +21,7 @@ As an administrator, you can enable live translation, transcription and recordin
 > - If you use Copilot Studio bots as the interactive voice response (IVR) with the voice channel, the calls are transcribed in Copilot Studio even if the transcription and recording setting isn't enabled in the voice workstream.
 
 ## Enable call recording and transcription for voice
-1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. More information: [Enable call recording and SMS services](voice-channel-connect-existing-resource#enable-call-recording-and-sms-services)
+1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. More information: [Enable call recording and SMS services](/voice-channel-connect-existing-resource#enable-call-recording-and-sms-services)
    
 1. In the Customer Service admin center or Omnichannel admin center (deprecated) app, select the workstream for which you want to enable recording and transcription.
 
