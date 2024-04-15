@@ -44,30 +44,6 @@ Copilot generates the summary from a set of predefined fields. Other fields may 
 
 Keep in mind that the summary fields are configured at the organization level. Make sure that your entire sales team agrees on the **top 10** fields that are most relevant for your business.
 
-<a name="copilot-content-recommendation"></a>
-### Get content recommendations from SharePoint
- 
-As a salesperson, you need to be aware of the latest product information, such as product brochures, pricing, sales pitch, and specifications, which are typically stored in SharePoint. You can ask Copilot to provide you with the list of SharePoint documents related to products in an opportunity.
-
-> [!NOTE]
-> The documents are only fetched from the SharePoint site associated with your tenant.  
-
-1. [Summarize an opportunity](#summarize-a-lead-or-opportunity).
-    After the summary, Copilot displays a follow-up prompt **Get product-related files**. The prompt is displayed only if the opportunity has products associated with it.
-
-2. Select **Get product-related files**.
-   At the moment, this feature can be invoked only by selecting the prompt and not by typing in the Copilot chat.
-
-   If the opportunity has multiple products, Copilot lists the products.
-
-1. Hover over a product and select **Get files**.
-
-    Copilot fetches a list of Word, Excel, PowerPoint, and PDF files that are related to the product from SharePoint. Copilot lists only those files that you have access to in SharePoint.
-
-    The documents are listed in the ranking order of SharePoint search results.
-
-    :::image type="content" source="media/get-files-from-sharepoint.svg" alt-text="Screenshot of the list of files fetched from SharePoint.":::
-
 ### Enrich leads with related information
 
 Copilot can enrich your leads with information from Dynamics 365 Sales, LinkedIn, and Bing, such as:
@@ -111,4 +87,4 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 
 - [Copilot overview](copilot-overview.md)
 - [Enable and set up Copilot](enable-setup-copilot.md)
-
+- [Get document recommendations from SharePoint](copilot-get-doc-suggestions.md#get-document-recommendations-from-sharepoint)

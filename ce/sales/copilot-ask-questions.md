@@ -71,22 +71,8 @@ Copilot summarizes the last 10 updates to the record from the audit history, for
 
 Keep in mind that these fields are set at the organization level. Make sure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
-<a name="copilot-content-qa"></a>
-## Get answers from SharePoint documents
-
-As a seller, you might have to refer to documents such as contracts, technical documents, and marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you.
-
-The answers are only fetched from documents in the SharePoint site associated with your tenant.  
-
-1. In the Copilot side pane, type in your question in natural language, and select **Enter**.
-    You need not open a record to ask Copilot a question. For example, you can ask Copilot, **What is the warranty period for Contoso 3D printers?** or **What is the price of Contoso 3D printers?**.
-
-    Copilot searches for answers from the sales data stored in Dataverse first. After the result is displayed, you'll see a follow-up prompt.
-
-2. Select the follow-up prompt **Search for the answer in SharePoint**.  
-   If the answer is available in SharePoint, Copilot summarizes the answer and provides links to the corresponding documents in SharePoint.
-
 ### See also
 
 - [Copilot overview](copilot-overview.md)
 - [Enable and set up Copilot](enable-setup-copilot.md)
+- [Get answers from SharePoint documents](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents)
