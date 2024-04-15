@@ -17,11 +17,11 @@ With Microsoft 365 integrations for Field Service, frontline workers and manager
 
 ## Integrate with Dynamics 365 Business Central
 
-Service organizations require a front-to-back application in which financials, inventory, and procurement are tightly coupled with service delivery. Field Service organizations generate financial data with every transaction of their system. Every work order represents cost and revenue. Every resource generates profit and loss. Every customer interaction adds entries on the general ledger. The integration between Dynamics 365 Business Central and Field Service greatly reduces the effort required to connect the two apps. For more information, see [Integrate with Dynamics 365 Business Central](business-central-integration.md).
+Service organizations require a front-to-back application in which financials, inventory, and procurement are tightly coupled with service delivery. Field Service organizations generate financial data with every transaction of their system. Every work order represents cost and revenue. Every resource generates profit and loss. Every customer interaction adds entries on the general ledger. The integration between Dynamics 365 Business Central and Field Service greatly reduces the effort required to connect the two apps. [Learn more about Integrate with Dynamics 365 Business Central](business-central-integration.md).
 
 ## Integrate with finance and operations applications (preview)
 
-Seamless financial and inventory data flow between Dynamics 365 Field Service and Dynamics 365 Finance and Supply Chain Management helps ensure the frontline and back office stay in sync. By syncing real-time price and cost information from work orders and automatically updating financial and inventory data as work orders are executed, this integration reduces the effort required to connect data between these Dynamics 365 apps. For more information, see [Field Service integration with finance and operations applications (preview)](finance-operations-integration.md).
+Seamless financial and inventory data flow between Dynamics 365 Field Service and Dynamics 365 Finance and Supply Chain Management helps ensure the frontline and back office stay in sync. By syncing real-time price and cost information from work orders and automatically updating financial and inventory data as work orders are executed, this integration reduces the effort required to connect data between these Dynamics 365 apps. [Learn more about  Field Service integration with finance and operations applications (preview)](finance-operations-integration.md).
 
 ## Integrate with Dynamics 365 Supply Chain Management
 
@@ -42,4 +42,3 @@ With Teams integration, frontline workers can chat with team members in the cont
 ## Integrate with SAP
 
 Integrate Dynamics 365 Field Service with SAP C-4Hana and SAP S-4Hana to connect your work order scheduling system to your ERP system and Dataverse. Microsoft offers guidance for integrating Field Service with the SAP Planned Maintenance and SAP Industry-Specific Utility (IS-U) modules. [Learn more about integrating Field Service and SAP](field-service-sap-integration.md).
-
