@@ -93,19 +93,23 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. To update the lead record with the suggested values, select **Update all**.
 
-## Summarize documents or proposals associated with a record (preview)
+## Summarize proposals associated with a record (preview)
 
-Often, you might have documents such as contracts, proposals, and reports associated with your records. Copilot can summarize the content of these documents and help you understand the key points quickly. For example, you can ask Copilot to summarize a proposal document to understand the budget, authority (decision maker), need, and timeline (BANT) of the opportunity.
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+
+Often, you might have documents such as proposals and contracts associated with your records. Copilot can summarize the content of these documents and help you understand the key points quickly. For example, you can ask Copilot to summarize a proposal document to understand the budget, authority (decision maker), need, and timeline (BANT) of the opportunity.
 
 > [!NOTE]
 >- This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
->- Currently, Copilot can summarize only PDF and Word documents. 
+>- Currently, Copilot can summarize only PDF and Word documents.
 
-1. Open a record, such as an opportunity, lead, account, or contact, that has documents associated with it. 
+1. Open a record, such as an opportunity, lead, account, or contact, that has documents associated with it.
 
-1. In the Copilot side pane, enter **Summarize document /** and then enter the name of the document you want summarized. 
+1. In the Copilot side pane, enter **Summarize document /** and then enter the name of the document you want summarized.
 
-   A minimum of three characters is required to start the search. You can search by the file name. For example, 
+   A minimum of three characters is required to start the search. You can search by the file name. For example,
     - Enter **Summarize document /contract** to get a list of documents that has **contract** in the file name.
     - Enter **Summarize document /pdf** to get a list of documents that has **pdf** in the file name or extension.
 
