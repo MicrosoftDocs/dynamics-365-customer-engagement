@@ -1,7 +1,7 @@
 ---
 title: FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot
 description: This FAQ provides information about the AI technology used in the Dynamics 365 Field Service Plugin for Microsoft Copilot.
-ms.date: 04/03/2024
+ms.date: 04/16/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -49,7 +49,7 @@ The feature supports:
 
 - Structured data from the Field Service work order tables in Dataverse, typically managed in tables and columns.
 
-- Unstructured data in the form of text within documents and PDFs attached to the Field Service work order.
+- Unstructured data in the form of text within documents and PDFs attached to the Field Service work order. Support of unstructured data is public preview.
 
 ## What are the supported geographies and languages?
 

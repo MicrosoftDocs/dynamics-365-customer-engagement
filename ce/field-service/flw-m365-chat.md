@@ -58,7 +58,7 @@ To access this chat feature, an admin must [set up Microsoft Copilot for Field S
 
    :::image type="content" source="media/fsp-m365-chat-flw.png" alt-text="Microsoft Copilot chat showing the address of a work order and the type of another work order":::
 
-### Ask for instructions for a work order
+### Ask for instructions for a work order (preview)
 
 To ask for information from uploaded attachments such as installation manuals, maintenance documents, or troubleshooting notes, tell Copilot to search through documents.
 
