@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 08/08/2023
+ms.date: 04/16/2024
 ms.custom: bap-template 
 ---
 
@@ -19,7 +19,7 @@ If you previously configured the deal manager workspace, learn about the [differ
 
 | Requirement type | You must have |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Video: Opportunity pipeline view
@@ -51,6 +51,9 @@ The **Read-only Grid view** is the default view for opportunities. You can set t
 ## Open the opportunity pipeline view settings page
 
 Open the settings page to configure and customize the opportunity pipeline view experience for your sellers. You'll be accessing the settings page in all the procedures explained in this article.
+
+> [!NOTE]
+> If you only have the Sales Professional license, append the following URL after the base URL of your Sales Professional app: `&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`. Example: `https://contoso.crm.dynamics.com/main.aspx?appid=9f1002bf-ce2d-ed11-9db1-0022480a772e&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`.
 
 1. In the Sales Hub Change area, select **App Settings**.
 

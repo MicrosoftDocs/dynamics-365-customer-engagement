@@ -1,7 +1,7 @@
 ---
 title: Personalize the opportunity pipeline view
 description: Personalize the pipeline view to see what you want to see and organize opportunities in a way that makes sense to you.
-ms.date: 06/23/2023
+ms.date: 04/16/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -23,7 +23,7 @@ You can also ask your administrator to customize the experience further to impro
 
 | Requirement type | You must have |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson or higher<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Personalize metrics
