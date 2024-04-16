@@ -60,7 +60,7 @@ The Dynamics 365 Field Service app for Teams enables frontline workers to manage
 
 1. If you made changes, select **Save**.
 
-## Share work order information
+## Share work order information 
 
 [!INCLUDE [fsp-share-wo](../includes/fsp-share-wo.md)]
 

@@ -22,7 +22,7 @@ This release includes the following changes:
 
 - General availability in asking Copilot in Outlook to [draft email responses to customers with proposed schedules or schedule confirmation](flw-outlook.md#draft-an-email-response-with-copilot) for work orders.
 - General availability in asking the Dynamics 365 Field Service Plugin for Microsoft Copilot for [key work order information](flw-m365-chat.md). In public preview, frontline workers can ask Microsoft Copilot to [search through lengthy product manuals](flw-m365-chat.md#ask-for-instructions-for-a-work-order-preview) and find relevant answers to questions.
-- General availability in Microsoft Teams that enables frontline workers to [share links to work orders](flw-teams-worker.md#share-work-order-information) that automatically expand providing key details.
+- General availability in Microsoft Teams that enables frontline workers to [share links to work orders](flw-teams-worker.md#share-work-order-information) that automatically expand providing key details. This feature will be available April 30, 2024.
 - Public preview that enables frontline workers to use [Dynamics 365 Remote Assist capabilities in Microsoft Teams mobile](annotate-teams-mobile.md).
 
 ## December 5, 2023
