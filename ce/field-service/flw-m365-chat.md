@@ -29,11 +29,11 @@ To access this chat feature, an admin must [set up Microsoft Copilot for Field S
 
 ### Get summarized information about key work orders that are important to you
 
-   :::image type="content" source="media/fsp-m365-chat-flm1.png" alt-text="Microsoft Copilot chat showing work orders in progress in a table format":::
+:::image type="content" source="media/fsp-m365-chat-flm1.png" alt-text="Microsoft Copilot chat showing work orders in progress in a table format":::
 
 ### Ask for detailed work order information
 
-   :::image type="content" source="media/fsp-m365-chat-flm2.png" alt-text="Microsoft Copilot chat showing the status of a work order and details of another work order":::
+:::image type="content" source="media/fsp-m365-chat-flm2.png" alt-text="Microsoft Copilot chat showing the status of a work order and details of another work order":::
 
 ### More sample questions
 
@@ -56,15 +56,19 @@ To access this chat feature, an admin must [set up Microsoft Copilot for Field S
 
 ### Get specific information about a work order
 
-   :::image type="content" source="media/fsp-m365-chat-flw.png" alt-text="Microsoft Copilot chat showing the address of a work order and the type of another work order":::
+:::image type="content" source="media/fsp-m365-chat-flw.png" alt-text="Microsoft Copilot chat showing the address of a work order and the type of another work order":::
 
 ### Ask for instructions for a work order (preview)
 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
 To ask for information from uploaded attachments such as installation manuals, maintenance documents, or troubleshooting notes, tell Copilot to search through documents.
 
-   :::image type="content" source="media/fsp-m365-chat-flw2.png" alt-text="Microsoft Copilot chat showing the list of tools needed for the work order":::
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
-   :::image type="content" source="media/fsp-m365-chat-flw3.png" alt-text="Microsoft Copilot chat showing step-by-step instructions for the work order":::
+:::image type="content" source="media/fsp-m365-chat-flw2.png" alt-text="Microsoft Copilot chat showing the list of tools needed for the work order":::
+
+:::image type="content" source="media/fsp-m365-chat-flw3.png" alt-text="Microsoft Copilot chat showing step-by-step instructions for the work order":::
 
 Answers that came from an attachment are listed under **reference** at the bottom of the answer.
 
