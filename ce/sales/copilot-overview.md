@@ -63,8 +63,8 @@ With Copilot, you can get information at your fingertips. You don't have to swit
 
 Learn more:
 
-- [Get content recommendations from SharePoint](copilot-get-information.md#get-content-recommendations-from-sharepoint)
-- [Get answers from SharePoint documents](copilot-ask-questions.md#get-answers-from-sharepoint-documents)
+- [Get content recommendations from SharePoint](copilot-get-doc-suggestions.md#get-content-recommendations-from-sharepoint)
+- [Get answers from SharePoint documents](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents)
 
 
 ### Meeting preparation

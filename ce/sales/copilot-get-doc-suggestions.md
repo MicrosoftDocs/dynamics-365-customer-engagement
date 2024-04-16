@@ -33,7 +33,7 @@ If you have integrated SharePoint with Dynamics 365 Sales, Copilot can recommend
  
 As a salesperson, you need to be aware of the latest product information, such as product brochures, pricing, sales pitch, and specifications, which are typically stored in SharePoint. You can ask Copilot to provide you with the list of SharePoint documents related to products in an opportunity.
 
-1. [Summarize a lead or opportunity](#summarize-a-lead-or-opportunity). 
+1. [Summarize a lead or opportunity](copilot-get-information.md#summarize-a-lead-or-opportunity). 
     
     After the summary, Copilot displays a follow-up prompt **Show product-related files**. The prompt is displayed only if the sales record has products associated with it.
 
