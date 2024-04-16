@@ -1,7 +1,7 @@
 ---
 title: Set up Field Service integration with finance and operations applications
 description: Set up the Dynamics 365 Field Service integration with finance and operations to synchronize inventories and budgeting items between the applications.
-ms.date: 04/12/2024
+ms.date: 04/16/2024
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -17,7 +17,7 @@ Set up the integration between Dynamics 365 Field Service and finance and operat
 
 - Finance and operations apps that have build version 10.0.39 (10.0.1860.56) and platform update 63 or later
 
-- Human resources to bookable resource integration installed
+- [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm) installed
 
 - Dynamics 365 Field Service version number 8.8.116+
 
@@ -114,10 +114,6 @@ To ensure that the integration can successfully integrate journals related to it
 <!--- Where/how is this done? https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sales-marketing/synchronize-warehouse --->
 
 ## Enable the integration from Field Service
-
-### Prerequisites
-
-[Install the Dynamics 365 Human Resources integration with the Universal Resource Scheduling solution](/dynamics365/human-resources/hr-admin-integration-hr-rm).
 
 ### Configure posting behaviors
 

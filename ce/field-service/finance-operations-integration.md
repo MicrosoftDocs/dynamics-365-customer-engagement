@@ -124,9 +124,9 @@ Field Service shows the following items:
 
 These new inventory items use [virtual tables](/dynamics365/fin-ops-core/dev-itpro/power-platform/virtual-entities-overview) to expose inventory data directly from Supply Chain Management inside Field Service. The true inventory levels from the system of record are available to users once the integration is enabled.
 
-The inventory validation function against Field Service’s native inventory is disabled when this integration is enabled. The Field Service setting for **Use of Products Out of Stock** is hidden and repressed to ensure users don’t receive irrelevant inventory validations or blocking behavior.
+The inventory validation function against Field Service's default inventory is disabled when this integration is enabled. The Field Service setting for **Use of Products Out of Stock** is hidden and repressed to ensure users don't receive irrelevant inventory validations or blocking behavior.
 
-This integration solution doesn't autovalidate a work order’s inventory transactions based on Supply Chain Management inventory levels.
+This integration solution doesn't autovalidate a work order's inventory transactions based on Supply Chain Management inventory levels.
 
 ### Inventory views with and without variant details
 
@@ -143,13 +143,13 @@ The Field Service integration with finance and operations applications extends t
 
 - Allow a worker to be captured on a work order product or work order service.
 
-- Autopopulate the worker value on the work order product or work order service based on the worker of the bookable resource on the transaction’s associated booking. This value can be manually populated or overridden.
+- Autopopulate the worker value on the work order product or work order service based on the worker of the bookable resource on the transaction's associated booking. This value can be manually populated or overridden.
 
-- Require the worker on non-inventory related work order products or work order services. The requirement is based on whether the company’s associated project management and accounting parameters are configured to require a worker value in hours journal lines or expense journal lines.
+- Require the worker on non-inventory related work order products or work order services. The requirement is based on whether the company's associated project management and accounting parameters are configured to require a worker value in hours journal lines or expense journal lines.
 
   If the worker requirement is configured in finance and operations apps, Field Service only requires a value when the work order product or service is set to used. So that it doesn't block creating estimated records without knowing the eventual worker. The transaction fails to sync unless the worker is recorded.
 
-The worker field isn't filtered based on eligibility of the worker to perform work on the related project. Eligibility of a bookable resource’s related worker to perform work for a given company or project isn't considered as a scheduling parameter when determining the bookable resource to schedule on a work order. As a best practice, organizations might consider using security roles and business units or introduce resource characteristics to ensure workers are only schedulable against relevant work orders. Consider these options if it's a critical consideration for an organization’s implementation of finance and operations applications.
+The worker field isn't filtered based on eligibility of the worker to perform work on the related project. Eligibility of a bookable resource's related worker to perform work for a given company or project isn't considered as a scheduling parameter when determining the bookable resource to schedule on a work order. As a best practice, organizations might consider using security roles and business units or introduce resource characteristics to ensure workers are only schedulable against relevant work orders. Consider these options if it's a critical consideration for an organization's implementation of finance and operations applications.
 
 ## Work order field changes
 
@@ -168,7 +168,7 @@ The integration solution introduces several fields to the work order product tab
 - **Line Property**
 
   - A virtual table lookup that is filtered based on the relevant company/legal entity.
-  - The integration hides the **Quantity to Bill** field since there’s no equivalent concept on journal lines. Instead, line property defines whether a transaction is billable or not.
+  - The integration hides the **Quantity to Bill** field since there's no equivalent concept on journal lines. Instead, line property defines whether a transaction is billable or not.
 
 - **Location**
 
@@ -182,7 +182,7 @@ The integration solution introduces several fields to the work order product tab
 - **Worker**
 
   - Only required based on project management and accounting parameters configured on the relevant company.
-  - Autopopulated if the work order product’s booking value is populated based on the worker of the bookable resource set on the booking.
+  - Autopopulated if the work order product's booking value is populated based on the worker of the bookable resource set on the booking.
 
 ## Work order service field changes
 
@@ -196,7 +196,7 @@ The integration solution introduces several fields to the work order service tab
 - **Line Property**
 
   - A virtual table lookup that is filtered based on the relevant company/legal entity.
-  - The integration hides the **Duration to Bill** field since there’s no equivalent concept on journal lines. Instead, line property defines whether a transaction is billable or not.
+  - The integration hides the **Duration to Bill** field since there's no equivalent concept on journal lines. Instead, line property defines whether a transaction is billable or not.
 
 - **Transaction Date**
 
@@ -204,7 +204,7 @@ The integration solution introduces several fields to the work order service tab
 
   - Only required based on project management and accounting parameters configured on the relevant company.
 
-  - Autopopulated if the work order service’s booking value is populated based on the worker of the bookable resource set on the booking.
+  - Autopopulated if the work order service's booking value is populated based on the worker of the bookable resource set on the booking.
 
 ## Product field additions
 
