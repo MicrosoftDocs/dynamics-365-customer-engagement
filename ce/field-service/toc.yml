@@ -88,6 +88,12 @@ items:
       href: work-order-resolutions.md
     - name: Knowledge articles
       href: field-service-knowledge-management.md
+    - name: License compliance
+      items: 
+        - name: License compliance overview
+          href: license-compliance-overview.md
+        - name: License compliance for Field Service
+          href: license-compliance-field-service.md  
 
 - name: Copilot in Field Service
   items:
