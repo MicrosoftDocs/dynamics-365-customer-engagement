@@ -93,6 +93,7 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. To update the lead record with the suggested values, select **Update all**.
 
+<a name="copilot-doc-summarization"></a>
 ## Summarize proposals associated with a record (preview)
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
