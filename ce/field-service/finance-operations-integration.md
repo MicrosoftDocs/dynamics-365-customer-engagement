@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications
 description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
-ms.date: 04/12/2024
+ms.date: 04/16/2024
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -75,7 +75,7 @@ The integration uses a reliable asynchronous transaction framework to make sure 
 
 - Each transaction on a work order is committed within Field Service before creating an update in finance and operations applications.
 
-  - When the transaction is finalized in Field Service, it creates a record in the transactions table that shows the status of each transaction.
+  - When the transaction is finalized in Field Service, it creates a record in a transaction log table that shows the status of each transaction.
 
   - The integration monitors the transaction statuses of the work orders and projects. The transaction statuses indicate the synchronization state of the data, such as unsynchronized, processing, synchronizing, and failed. The integration also provides error handling and retry mechanisms to resolve any synchronization issues.
 
@@ -83,7 +83,7 @@ The integration uses a reliable asynchronous transaction framework to make sure 
 
   - If the transaction still fails to synchronize, the error and transaction details are preserved in the finance and operations transaction record. Users can troubleshoot the issue and resync the transaction ensuring no loss of financial and inventory transactional data.
 
-    - While important, with correct system configuration, this level of intervention into specific transactions are the exception; however, enabling this type of issue resolution is critical to making sure that transactional consistency can be maintained between the two platforms.
+    With correct system configuration, transaction failures are exceptions. Resolving this type of issue is critical to making sure that transactional consistency is maintained between the two systems if there are synchronization issues.
 
 ## Hierarchical finance and operations projects
 
@@ -95,11 +95,11 @@ The integration supports storage dimensions when correctly configured. Storage d
 
 Depending on the inventory product selected when creating a work order product, the defined storage dimensions determines whether location is required within the work order product.
 
-- When you add a product inventory transaction in Field Service, you can select a warehouse and a location from the lookup fields on the transaction form. The warehouse and location fields are filtered to show the values from finance and operations applications, based on the legal entity to which the work order's service account belongs. The configuration of the finance and operations product and its tracking dimensions determine if the work order product location field is required when marking a product as used.
+- When a user adds a work order product where the chosen product has a **Field Service Product Type** of inventory in Field Service, they can select a warehouse and a location from the lookup fields on the transaction form. The warehouse and location fields are filtered to show the values from finance and operations applications, based on the legal entity to which the work order's service account belongs. The configuration of the finance and operations product and its storage dimensions determine if the work order product location field is required when marking a product as used.
 
-- When a user modifies or deletes the corresponding transaction in Field Service, the integration updates or deletes the journal and journal line.
+- When a user modifies or deletes the corresponding work order product record in Field Service, the integration updates the relevant journal line.
 
-The warehouse and location fields in Field Service are related to the warehouse and location concepts in finance and operations applications, which are used to track the physical and logical locations of the inventory items.
+The warehouse and location fields in Field Service are related to the warehouse and location concepts in finance and operations applications, which are used to track the physical locations of the inventory items.
 
 > [!NOTE]
 > The solution doesn't require population of the **Site** value and will instead populate site based on the selected warehouse, which has a hierarchical relationship with site. We recommend configuring default order settings to minimize errors when a work order product with an inventory product is created.
@@ -135,11 +135,11 @@ When the integration is enabled, the inventory views have a version for organiza
 For organizations using product variants, there are relevant views that show all of the details of the inventory levels including columns for size, color, style, and configuration. If necessary, organizations can modify the default views as they can with any table.
 
 > [!NOTE]
-> Different than normal tables, currently individual rows within these inventory tables (*mserp_inventorysiteonhandv2entity* and *mserp_inventwarehouseonhandv2entity*) don't receive a persistent GUID and don't support being opened within a form. The view control used in these views suppresses the ability for these records to be opened in a form.
+> Different than normal tables, currently individual rows within these inventory tables (*mserp_inventorysiteonhandv2entity* and *mserp_inventwarehouseonhandv2entity*) don't support being opened within a form. The view control used in these views suppresses the ability for these records to be opened in a form.
 
 ## Worker alignment
 
-The Field Service integration with finance and operations applications extends the Dynamics 365  Human Resources to bookable resource integration that introduces the concept of the worker to the bookable resource. In addition, the Field Service integration extends to:
+The Field Service integration with finance and operations applications extends the Dynamics 365 Human Resources to bookable resource integration that introduces the concept of the worker to the bookable resource. In addition, the Field Service integration extends to:
 
 - Allow a worker to be captured on a work order product or work order service.
 
@@ -154,6 +154,12 @@ The worker field isn't filtered based on eligibility of the worker to perform wo
 ## Work order field changes
 
 The integration introduces a virtual table lookup field called **F&O Project** which is filtered based on the relevant company/legal entity and whether the project is in a transactable lifecycle state. This solution hides the **Billing Account** field since it isn't relevant when a finance and operations integration is selected.
+
+When a users is selecting a project, the project lookup filters show projects with the following parameters:
+
+- The project must be for the same customer as the work order's service account.
+- The project must be for the same legal entity as the work order’s service account.
+- The project must be in a stage which allows journal creation.
 
 ## Work order product field changes
 
@@ -224,7 +230,7 @@ The following processes or features available within the finance and operation a
 
 - Tracking dimensions to define the granularity of an item's tracking in subsequent transactions. This feature is useful for tracking items by batch or serial number.
 
-- The **Require Activity On Journals** settings in a Project set to "Yes" isn't supported. If activities for Hours, Expenses, or Items are configured as required, the transactions from Field Service doesn't succeed.
+- The **Require Activity On Journals** settings in a Project set to "Yes" isn't supported. If activities for Hours, Expenses, or Items are configured as required, the transactions from Field Service don't succeed.
 
 - The integration currently supports limited alignment of data updates from project journals back to its respective work order transaction. When a Field Service user creates or updates a work order product or service, those updates sync with the respective journal. However, expense journal lines, hours journal lines, or item journal lines only sync the defaulted line property and a reference to the active journal line for the record. Other changes to the respective Field Service transaction record aren't synced from their respective line journals.
 
