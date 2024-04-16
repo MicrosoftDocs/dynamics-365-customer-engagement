@@ -44,7 +44,7 @@ The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Accoun
 
 - **Connections**: shows relevant connections for this company that can establish a first contact. 
 
-- **Recommended Leads**: shows the recommended potential leads in this company that may be opportunities open for the next deal. 
+- **Find people**: Shows the recommended leads or contacts in the company who can help you connect with the customer and establish a relationship.  
 
 Both controls also provide an alternate version, which takes a lookup (entity reference) attribute instead of the attributes described above. 
 
