@@ -41,4 +41,4 @@ Provide the permissions to users as described in the following sections.
 
 ### Customize work list card
 
-- **Read**, **Write**, and **Append To** permissions to **msdyn_workqueueusersetting** entity.
+- **Read**, **Write**, and **Append To** permissions to **Work list user setting** entity.

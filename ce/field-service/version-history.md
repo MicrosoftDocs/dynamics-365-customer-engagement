@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release scheudle and version history for Dynamics 365 Field Service.
-ms.date: 02/18/2024
+ms.date: 04/02/2024
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
@@ -18,18 +18,44 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.110.18](/dynamics365/field-service/version-history#8811018)  | TBD |03/29/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.109.12](/dynamics365/field-service/version-history#8810912)  | [8.8.110.18](/dynamics365/field-service/version-history#8811018) |03/22/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.109.12](/dynamics365/field-service/version-history#8810912)  | [8.8.110.18](/dynamics365/field-service/version-history#8811018) |03/29/2024 |
-| | *USG* | [8.8.109.12](/dynamics365/field-service/version-history#8810912)  | [8.8.110.18](/dynamics365/field-service/version-history#8811018) |03/29/2024 |
-|**Station 4** |*Europe* |  [8.8.108.12](/dynamics365/field-service/version-history#8810812)  | [8.8.109.12](/dynamics365/field-service/version-history#8810912) |03/22/2024 |
-|**Station 5** | *North America*|  [8.8.108.12](/dynamics365/field-service/version-history#8810812)  | [8.8.109.12](/dynamics365/field-service/version-history#8810912) |03/29/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.107.25](/dynamics365/field-service/version-history#8810725)  | [8.8.108.12](/dynamics365/field-service/version-history#8810812) |03/22/2024 |
-| | *Dedicated Scale Groups* |   [8.8.107.25](/dynamics365/field-service/version-history#8810725)  | [8.8.108.12](/dynamics365/field-service/version-history#8810812) |03/22/2024 |
+|**Station 1** |  *First Release*| [8.8.113.25](/dynamics365/field-service/version-history#8811325)  | TBD |04/26/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.112.23](/dynamics365/field-service/version-history#8811223)  |  [8.8.113.25](/dynamics365/field-service/version-history#8811325) |04/19/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.112.24](/dynamics365/field-service/version-history#8811224)  |  [8.8.113.25](/dynamics365/field-service/version-history#8811325) | 04/26/2024 |
+| | *USG* | [8.8.112.24](/dynamics365/field-service/version-history#8811224)  |  [8.8.113.25](/dynamics365/field-service/version-history#8811325) |04/26/2024 |
+|**Station 4** |*Europe* | [8.8.112.24](/dynamics365/field-service/version-history#8811224)  |  [8.8.113.25](/dynamics365/field-service/version-history#8811325) | 05/03/2024 |
+|**Station 5** | *North America*|  [8.8.110.18](/dynamics365/field-service/version-history#8811018)  | [8.8.112.24](/dynamics365/field-service/version-history#8811224) |05/10/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.109.12](/dynamics365/field-service/version-history#8810912)  | [8.8.110.18](/dynamics365/field-service/version-history#8811018) |04/19/2024 |
+| | *Dedicated Scale Groups* |   [8.8.109.12](/dynamics365/field-service/version-history#8810912)  | [8.8.110.18](/dynamics365/field-service/version-history#8811018) |04/19/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.113.25
+(Includes Universal Resource Scheduling version [3.12.130.10](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213010) and Resource Scheduling controls version 1.2.69.240991).
+
+-  No updates were made to Dynamics 365 Field Service in this release.
+
+## 8.8.112.24
+(Includes Universal Resource Scheduling version [3.12.129.28](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212928) and Resource Scheduling controls version 1.2.68.240862).
+
+- Fixed a problem that prevented sub-status from appearing as a column in the work order grid view in the absence of a status column.
+- Fixed a problem preventing 'Exports to Excel' command from the focused view when any column is filtered.
+
+## 8.8.112.23
+(Includes Universal Resource Scheduling version [3.12.129.28](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212928) and Resource Scheduling controls version 1.2.68.240862).
+
+- Copilot in Field Service branding updates.
+- Custom booking statuses no longer extend past their dropdown container.
+- The quantity to bill updates for work order products when editing the quantity via grid control on the work order form.
+- Customer phone number now populates in bookings created via work order form.
+- The functional location list is now scrollable when viewing large hierarchies on work order form.
+- Work order summary card no longer shows a completion bar when the work order has an estimated duration of 0.
+- Work order status column now extends to the end of the details card on work order form.
+- Work order priority no longer allows drop-down selection when set to read-only.
+- Long functional location names will now wrap around when selecting a location on the work order from.
+- Long work order statuses now truncate.
+- Long work order service tasks names now truncate in the list view on the work order form.
 
 ## 8.8.110.18
 (Includes Universal Resource Scheduling version [3.12.125.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212530) and Resource Scheduling controls version 1.2.64.240721).
