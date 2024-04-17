@@ -15,11 +15,11 @@ Set up the integration between Dynamics 365 Field Service and finance and operat
 
 - You have system administrator permissions
 
-- Finance and operations applications that have build version 10.0.39 (10.0.1860.56) and platform update 63 or later
+- Finance and operations applications have build version 10.0.39 (10.0.1860.56) and platform update 63 or later
 
-- [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm) installed
+- [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm) is installed
 
-- Dynamics 365 Field Service version number 8.8.116+
+- Dynamics 365 Field Service version number is 8.8.116 or later
 
 ## Enable the integration from finance and operations applications
 
@@ -103,15 +103,13 @@ The integration relies on virtual tables and process execution in each user's co
 
 ## Configure default order settings
 
-To ensure that the integration can successfully create item journals, use default order settings that automatically apply a site to all items you plan to use in Field Service. Otherwise, all work order products where the product is a Field Service product type inventory require a warehouse value before the item journal can be created.
-
-<!--- Where/how is this done? https://learn.microsoft.com/en-us/dynamics365/supply-chain/production-control/default-order-settings --->
+To ensure that the integration can successfully create item journals, [use default order settings that automatically apply a site](/dynamics365/supply-chain/production-control/default-order-settings) to all items you plan to use in Field Service. Otherwise, all work order products where the product is a Field Service product type inventory require a warehouse value before the item journal can be created. Once a work order product is marked as used, since Field Service requires a value in the Warehouse field, the integration can set the site. However, without default order settings, estimated work order products might not synchronize.
 
 ### Configure inventory and warehouse management within warehouses
 
 To ensure that the integration can successfully integrate journals related to items that require location, we advise that all warehouses you plan to use with Field Service have **inventory and warehouse management** configured to define default locations. This configuration allows all work order products where the product's storage dimensions are configured to require location to successfully synchronize, even when created offline.
 
-<!--- Where/how is this done? https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sales-marketing/synchronize-warehouse --->
+<!--- Where/how is this done? https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sales-marketing/synchronize-warehouse isn't the right one. --->
 
 ## Enable the integration from Field Service
 
@@ -164,7 +162,7 @@ If your environment has custom security roles, add new table permissions. Update
 
 The **Finance and Operations project** field in Dynamics 365 Field Service is a required field when the work order's **System Status** is **Posted**. This field defines what project the work order is aligned with. Your organization can capture this value manually or can build automated logic to populate a value, which aligns with that organization's business processes.
 
-Once populated, the integration synchronizes the work order with the selected project, creating a subproject in the finance and operations applications. The work order/subproject alignment is essential to ensure all work order transactions are correctly placed in the Enterprise resource planning (ERP). By default, the subproject name is based on the work order number. Once the subproject is created through the synchronization transaction, the subproject is associated with the work order in Field Service.
+Once populated, the integration synchronizes the work order with the selected project, creating a subproject in the finance and operations applications. The work order and subproject alignment is essential to ensure all work order transactions are correctly placed in the Enterprise resource planning (ERP). By default, the subproject name is based on the work order number. Once the subproject is created through the synchronization transaction, the subproject is associated with the work order in Field Service.
 
 ## See also
 
