@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 07/10/2023
+ms.date: 03/21/2024
 ms.custom: bap-template
 ---
 
@@ -70,11 +70,11 @@ You can also create a custom report per your business requirements to monitor th
 - Use skill-based routing to distribute work items to the most qualified agents.
 - Set up single or multiple queues with skill-matching to manage different types of work.
 
-### Manage auto-assignment if top 100 work items have extended wait times
+### Manage auto-assignment if work items have extended wait times
 
 The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. For information about the auto-assignment process, see [How auto assignment works](assignment-methods.md#how-auto-assignment-works).
 
-If you have a scenario in which agents aren't available to be assigned the top 100 work items for an extended time, we recommend the following options:
+If you have a scenario in which agents aren't available to be assigned the work items for an extended time, we recommend the following options:
 
 - To minimize the wait time, use features like overflow management to manage high load or custom assignment rules to gradually relax rules to expand the eligible agent pool.
 - Review agent availability and schedules to evaluate staffing more agents.

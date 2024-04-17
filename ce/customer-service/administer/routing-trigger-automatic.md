@@ -1,16 +1,13 @@
 ---
-title: "Route records automatically using custom flow | MicrosoftDocs"
-description: "Learn how to route records automatically by setting up custom flow in Dynamics 365 Customer Service and Omnichannel for Customer Service."
-ms.date: 06/21/2021
-ms.service: dynamics-365-customerservice
-ms.topic: article
+title: Route records automatically using custom flow
+description: Learn how to route records automatically by setting up custom flow in Dynamics 365 Customer Service and Omnichannel for Customer Service.
+ms.date: 03/21/2024
+ms.topic: how-to
 author: "neeranelli"
 ms.author: nenellim
 ---
 
 # Route records automatically using custom flow
-
-
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -42,9 +39,9 @@ To enable automatic routing of records:
 
     - **Scope**: Organization
 
-6. Select **New step**. The **Choose an operation** dialog box appears.
+6. Select **New step**. The **Choose an operation** dialog appears.
 
-7. Select **Perform an unbound action** from the **Actions** list. The **Perform an unbound action** dialog box appears.
+7. Select **Perform an unbound action** from the **Actions** list. The **Perform an unbound action** dialog appears.
 
 8. Enter **msdyn_ApplyRoutingRuleEntityRecord** in the **Action Name** field as a custom value.
 
@@ -61,7 +58,7 @@ To enable automatic routing of records:
 
 10. Select **Save**.
 
-Now, based on the flow that is defined, whenever a record (in this example, an email) is created, the flow applies the **msdyn_ApplyRoutingRuleEntityRecord** action to the record. Similarly, you can create a custom flow based on your business scenarios. 
+Now, based on the flow that is defined, whenever a record, in this example, an email, is created, the flow applies the **msdyn_ApplyRoutingRuleEntityRecord** action to the record. Similarly, you can create a custom flow based on your business scenarios. 
 
 You can also perform other actions in the flow, such as filtering out certain records that you don't want to route and performing data transformation.
 

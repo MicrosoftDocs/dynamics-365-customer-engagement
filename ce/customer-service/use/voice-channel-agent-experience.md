@@ -1,7 +1,7 @@
 ---
 title: Use agent dashboard and call controls in the voice channel
 description: Learn how you can use the agent dashboard, call controls, and make and receive customer calls in Omnichannel for Customer Service.
-ms.date: 01/29/2024
+ms.date: 04/01/2024
 ms.service: dynamics-365-customerservice
 ms.topic: how-to
 author: gandhamm
@@ -30,12 +30,12 @@ The conversation panel in the agent dashboard includes the following call contro
 > ![Screenshot of call controls.](../media/voice-channel-call-controls.png)
 
 - **Mute**: Mute your microphone so your voice isn't audible to the customer.
-- **Hold**: Put the customer on hold; the customer hears the hold music. You can keep only one caller on hold at a time.
+- **Hold**: Puts the customer on hold. The customer hears the hold music. You can keep only one caller on hold at a time. 
+To avoid the recording and transcription of what you say while the customer is on hold, your administrator can enable the **Allow automatic pause and resume when agents hold and un-hold the customer** option. With this option, recording and transcription are paused when you put the customer on hold and resumed when you remove the customer from hold. If the option is disabled, you must manually pause and resume the recording and transcription.
 - **Consult**: Select this option to consult with a participant. You can consult with or bring another agent or supervisor into the call. You can have a *public* consultation, where the customer is actively involved in the conversation. Or you can have a *private* consultation, where you can put the customer on hold before you talk to your peers or supervisor.
 
   > [!NOTE]
   > When you initiate a consult, you are the primary agent and the new participant has a consult role. Select **Transfer** next to the participant to transfer the call to the consulting agent or supervisor. Once the call is transferred, you are the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call will end for the customer.
-
 - **Transfer**: Select this option is to transfer the call to an agent, queue, a Teams user, or an external phone number. After you transfer the call, the agent to whom the call is transferred is the primary agent and you'll no longer be on the call.
     During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls continue if the administrator enabled the [option](../administer/voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice). You can disable recording from the dashboard. See: [Transfer and consult scenarios](voice-channel-transfer-consult.md)
 - **End**: End the call.
@@ -70,11 +70,7 @@ Avoid the following actions to prevent call drops:
 - Open the Customer Service workspace or Omnichannel for Customer Service app in more than one tab in the browser. It causes issues in agent presence.
 - Close the session directly to end call. If you do, the conversation moves from active to wrap up. Then if you close the session, the state goes from wrap up to closed. So, we recommend that you go through the conversation status route and select the **End** button and then close the session to take care of the wrap-up activities.
 
-## Share feedback on call quality (preview)
-
-> [!Important]
-> - This is an early access feature. 
-> - Early access features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can [get early access](/power-platform/admin/opt-in-early-access-updates) and provide feedback.
+## Share feedback on call quality
 
 When you end a call, if your administrator has enabled the [agent call quality feedback survey](../administer/configure-end-of-call-survey.md), the application displays a survey that asks you to rate the call quality on a scale of 1 to 5. The survey can appear after every call or at a frequency set by your administrator. A response of 1 indicates an imperfect call experience and 5 indicates a perfect call.
 

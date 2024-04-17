@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 02/12/2024
+ms.date: 04/16/2024
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -56,6 +56,9 @@ The Bot dashboard shows charts and KPIs that you can use to understand how bots 
 ### Conversation Topics
 
 The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. More information: [Topics dashboard](oc-conversation-topics-dashboard.md)
+
+> [!NOTE]
+> The reports don't include work items of the Entity Record channel.
 
 ## Reports refresh and data retention
 
