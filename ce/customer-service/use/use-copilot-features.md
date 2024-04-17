@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 02/10/2024
+ms.date: 04/10/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -11,7 +11,6 @@ ms.custom: bap-template
 ---
 
 # Use Copilot to solve customer issues
-
 
 Copilot is an AI-powered tool that revolutionizes the agent experience in Dynamics 365 Customer Service. It provides real-time assistance to resolve issues faster, handle cases more efficiently, and automate time-consuming tasks so you can focus on delivering high-quality service to your customers.
 
@@ -26,8 +25,7 @@ Copilot is an AI-powered tool that revolutionizes the agent experience in Dynami
 
 ## Prerequisites
 
-Make sure that your administrator has turned on the copilot features.
-
+Make sure that your administrator has turned on the Copilot features.
 
 ## Ask a question 
 
@@ -45,6 +43,18 @@ With Copilot, you can take the following actions:
 - **Ask follow-up turn by turn questions**: If Copilot's response isn't immediately useful, you can ask follow-up questions and guide Copilot in a natural, conversational way.
 - **Ask Copilot to attempt a better response**: Copilot can also rephrase responses based on more guidance such as, "Can you summarize your response?" or "Can you attempt a response providing details for each of the steps you mentioned?"
 
+### Use targeted phrases in Copilot to get responses from plugins (preview)
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+
+If your administrator has configured prompt plugins, you can use targeted keywords to gather quick information about the case that you are working on. For example, you can use the following steps to get the account summary of a case. If Copilot doesn't find any details that match the term, then it falls back to the knowledge source to display the resolution from the configured knowledge articles.
+
+1. Open the case that you need to work on and then enter **Get account summary** in the Copilot **Ask a question** pane. Copilot summarizes the account details of the customer whose case you have opened and displays it.
+1. Select **Check sources**. The plugin that's used for generating the summary is displayed.
+1. You can use the options on the Copilot pane to edit or copy, and provide feedback on the response.
+
+    :::image type="content" source="../media/screenshot-of-prompt-plugin-response-in-copilot.png" alt-text="A screenshot of the Copilot response that's generated through the prompt plugin.":::
+
 ### Use the responses
 
 If you're satisfied with the response Copilot provides, you can use the whole thing or a part of it to answer the customer's question:
@@ -60,45 +70,6 @@ After a customer conversation has ended, or if you want Copilot to disregard the
 ### Provide feedback
 
 To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
-
-## Draft emails 
-
-With Copilot, you can draft email replies to customers quickly and be more effective in solving customer issues.
-
-:::image type="content" source="../media/copilot-email-draft.png" alt-text="Screenshot of the Copilot Write an email tab.":::
-
-### Write an email with Copilot
-
-When you start to draft an email, Copilot opens in the right side panel and presents five predefined prompts and one custom prompt:
-
-- **Suggest a call**: Drafts a reply that suggests a call with the customer the same day or the next day.
-- **Request more information**: Drafts a reply that requests more details from the customer to help resolve the problem.
-- **Empathize with feedback**: Drafts a reply that provides an empathetic response to a customer who expresses a complaint.
-- **Provide product/service details**: Drafts a reply that offers details or answers customer questions about a particular product or service.
-- **Resolve the customer's problem**: Drafts a reply that provides a resolution&mdash;and resolution steps, if applicable&mdash;to the customer's problem.
-
-> [!NOTE]
-> The **Provide product/service details** and **Resolve the customer's problem** prompts only use context from case, email, and knowledge base articles to generate email responses. 
-
-- **Custom**: Allows you to provide your own prompt for the reply.
-
-
-
-### Review and copy suggested replies
-
-When you select one of the predefined prompts, Copilot generates a suggested reply. *Always review the response.* Make any necessary changes, and then select **Copy to email** to copy the entire response to your draft. Or, select part of the response and use the right-click menu to copy and paste the selection.
-
-### Use the custom prompt
-
-Use the custom prompt to include talking points, provide your objectives for the email, and determine its length and tone. Then select the **Create response** arrow to generate the response. *Always review the response* before sharing it with your customer. You can revise the custom prompt, if needed, above the reply and select **Refresh** to update the response.
-
-### How Copilot uses knowledge base and web sources
-
-By default, Copilot uses internal knowledge base sources for generating responses. If your administrator has set up trusted domains, Copilot searches the internal knowledge base and up to five trusted domains to produce the result.
-
-### Start over
-
-To return to the choice of six prompts, select **Start over** at the bottom of the Copilot pane.
 
 ## Draft a chat response (Preview)
 
@@ -135,7 +106,7 @@ Once you set a filter, the following actions are applicable:
 
 ### See also
 
-[Understand Copilot language support](copilot-language-support.md)
+[Understand Copilot language support](copilot-language-support.md)  
 [Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  
 [Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
 [FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md) 
