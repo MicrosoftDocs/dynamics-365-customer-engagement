@@ -178,7 +178,7 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
 > [!IMPORTANT]
 > For environments in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) an administrator can get the App for Outlook solution from Microsoft AppSource. After signing in to AppSource, choose the the environment that you want to install App for Outlook. For more information, see [Microsoft Dynamics 365 App for Outlook](https://appsource.microsoft.com/product/dynamics-365/mscrm.fa50aa98-e8bb-4757-83ce-6d607959b985).
 >
-> Your Dataverse organization has to have a Dataverse store for the Appsource install to succeed.
+> Your Dataverse organization has to have a Dataverse store for the AppSource install to succeed.
 
 1. To push the app to your users, from your app, go to **Settings** > **Advanced Settings**.
 
