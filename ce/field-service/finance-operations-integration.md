@@ -151,9 +151,13 @@ The Field Service integration with finance and operations applications extends t
 
 The worker field isn't filtered based on eligibility of the worker to perform work on the related project. Eligibility of a bookable resource's related worker to perform work for a given company or project isn't considered as a scheduling parameter when determining the bookable resource to schedule on a work order. As a best practice, organizations might consider using security roles and business units or introduce resource characteristics to ensure workers are only schedulable against relevant work orders. Consider these options if it's a critical consideration for an organization's implementation of finance and operations applications.
 
-## Work order field changes
+## Field Service field changes
 
-The integration introduces a virtual table lookup field called **F&O Project** which is filtered based on the relevant company/legal entity and whether the project is in a transactable lifecycle state. This solution hides the **Billing Account** field since it isn't relevant when a finance and operations integration is selected.
+The integration introduces some new fields and hides other fields.
+
+### Work order field changes
+
+The integration adds a virtual table lookup field called **F&O Project** that's filtered based on the relevant company/legal entity and whether the project is in a transactable lifecycle state. The integration hides the **Billing Account** field since it isn't relevant when a finance and operations integration is selected.
 
 When a user is selecting a project, the project lookup filters show projects with the following parameters:
 
@@ -161,9 +165,9 @@ When a user is selecting a project, the project lookup filters show projects wit
 - The project must be for the same legal entity as the work order’s service account.
 - The project must be in a stage that allows journal creation.
 
-## Work order product field changes
+### Work order product field changes
 
-The integration solution introduces several fields to the work order product table. These fields are visible if the integration is installed and enabled.
+The integration introduces several fields to the work order **Product** table. These fields are visible if the integration is installed and enabled.
 
 - **Journal Description**
 
@@ -190,9 +194,9 @@ The integration solution introduces several fields to the work order product tab
   - Only required based on project management and accounting parameters configured on the relevant company.
   - Autopopulated if the work order product's booking value is populated based on the worker of the bookable resource set on the booking.
 
-## Work order service field changes
+### Work order service field changes
 
-The integration solution introduces several fields to the work order service table. These fields are visible if the integration is installed and enabled.
+The integration introduces several fields to the work order **Service** table. These fields are visible if the integration is installed and enabled.
 
 - **Journal Description**
 
@@ -212,7 +216,7 @@ The integration solution introduces several fields to the work order service tab
 
   - Autopopulated if the work order service's booking value is populated based on the worker of the bookable resource set on the booking.
 
-## Product field additions
+### Product field additions
 
 The integration introduces a virtual table lookup field called **Project Category** which is filtered based on the relevant company/legal entity and whether it's an inventory (for item categories), non-inventory (for expense categories), or service (for hours categories) product.
 
