@@ -96,7 +96,9 @@ items:
           href: license-compliance-field-service.md  
 
 - name: Copilot in Field Service
-  items: 
+  items:
+    - name: Copilot side pane
+      href: copilot-side-pane.md
     - name: Work order recap with Copilot
       href: work-order-recap.md
     - name: Work order update
