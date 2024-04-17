@@ -1,22 +1,23 @@
 ---
 title: Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)
 description: Learn about the Dynamics 365 Field Service Plugin for Microsoft Copilot including the types of questions you can ask.
-ms.date: 12/01/2023
+ms.date: 02/12/2024
 ms.topic: overview
 author: KishorIoT
 ms.author: nandab
 ms.reviewer: v-wendysmith
 ms.custom: bap-template
 ms.subservice: m365-integrations
+ms.collection: bap-ai-copilot 
 ---
 
 # Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-With the Dynamics 365 Field Service Plugin for Microsoft Copilot, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Microsoft Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. To access this chat feature, [Set up Microsoft Copilot for Field Service work orders (admin).](flw-copilot-setup.md)
+With the Dynamics 365 Field Service Plugin for Microsoft Copilot, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Microsoft Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
 
-This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
+To access this chat feature, and admin must [set up Microsoft Copilot for Field Service work orders](flw-copilot-setup.md).
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
@@ -73,3 +74,4 @@ Be specific about the expected outcomes. For example, if you want results in tab
 ## Next steps
 
 - [FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)](faqs-m365-chat.md)
+- [Set up Microsoft Copilot for Field Service work orders](flw-copilot-setup.md)

@@ -1,10 +1,12 @@
 ---
-title: "Digital selling | MicrosoftDocs"
-description: "Enable digital selling capabilities with the Dynamics 365 Sales Enterprise license."
-ms.date: 08/07/2023
-ms.topic: article
+title: Digital selling capabilities in Sales Enterprise
+description: Enable digital selling capabilities with the Dynamics 365 Sales Enterprise license.
+ms.date: 02/02/2024
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.owner: shujoshi
+ms.custom: bap-template
 ---
 
 # Digital selling capabilities in Sales Enterprise
@@ -23,7 +25,7 @@ Use selected Dynamics 365 Sales Premium features&mdash;sales accelerator, conver
 
 Dynamics 365 digital selling capabilities spearhead the digital transformation of sales organizations and constitute the data and productivity first revolution. You can enhance your digital selling programs with Sales Premium features such as the sales accelerator, conversation intelligence, relationship intelligence, and predictive scoring that are available with the Dynamics 365 Sales Enterprise license. The premium features are available with a limited monthly capacity. If you'd like access to all the [premium features](overview.md#dynamics-365-sales-premium), upgrade to Dynamics 365 Sales Premium.
 
-In the Sales Hub app, you can set up digital selling capabilities from the **Get started with digital sales** page under **App Settings**.
+In the Sales Hub app, you can view digital selling capabilities in the **Sales settings** page. Go to **App Settings** > **Overview**.
 
 > [!NOTE]
 > If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there's no monthly capacity limit. 
@@ -44,27 +46,22 @@ When you set up digital sales with Sales Enterprise license, you get to explore 
 |Predictive lead and opportunity scoring     | 1,500 records per month        | No limit        |
 |Relationship intelligence | Basic [relationship insights](relationship-analytics-overview.md#basic-relationship-insights) and [who knows whom information](who-knows-whom.md#basic-who-knows-whom-information), generated from Dynamics 365 data.| Advanced [relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights) and [who knows whom information](who-knows-whom.md#enhanced-who-knows-whom-information), generated from Dynamics 365 and Exchange data. | 
 
-1. In the lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
-
-    The **Get started with digital sales** page is displayed.
-
-    :::image type="content" source="media/ds-get-started.png" alt-text="Get started page for setting up digital sales.":::
-
-2. Use the **Quick setup** button to quickly set up the features as described in the following sections:
-
+1. In the lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.  
+1. from the left navigation pane, select **Overview**.  
+    The **Sales overview** page is displayed with the list of digital selling capabilities. Here is the list of digital selling capabilities that you can set up:  
     - [Sales accelerator](digital-selling-sales-accelerator.md)
     - [Microsoft Teams collaboration](digital-selling-teams-collab.md)
-    - [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
+    - [Conversation intelligence](digital-selling-microsoft-teams-calls.md)
     - [Lead and opportunity scoring](digital-selling-scoring.md)
         > [!NOTE]
         > Basic relationship insights and who knows whom information are available for early access to Sales Enterprise customers out-of-the-box and does not require any setup. More information: [View relationship analytics and KPIs](relationship-analytics.md).
 
-    After you've set up the features, the **Quick setup** button changes to **Edit settings**. Select **Edit settings** to update the settings as required.
+1. Select the feature and then select **Quick setup**.
 
-    :::image type="content" source="media/ds-all-setup.png" alt-text="All features enabled in digital sales":::
-
-    > [!NOTE]
-    > If you need to make advanced configurations, you can go to the advanced settings page for each of the Sales Premium features. The settings you update in one place will be reflected in both quick setup and advanced settings.
+> [!NOTE]
+>
+> - If you need to make advanced configurations, you can go to the advanced settings page for each of the Sales Premium features. The settings you update in one place will be reflected in both quick setup and advanced settings.
+> - After you've set up the features, the **Quick setup** button changes to **Edit settings**. Select **Edit settings** to update the settings as required.
 
 ### See also
 

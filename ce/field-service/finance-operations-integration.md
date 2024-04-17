@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications (preview)
 description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
-ms.date: 11/29/2023
+ms.date: 04/01/2024
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -44,7 +44,7 @@ The following steps are only required while the feature is in preview.
 
 ### Prerequisites
 
-- Finance and operations apps that have build version 10.0.38 (10.0.1777.28) and platform update 62 or later
+- Finance and operations apps that have build version 10.0.39 (10.0.1860.56) and platform update 63 or later
 
 - Dynamics 365 Field Service version number 8.8.116+
 
@@ -79,6 +79,10 @@ The integration depends on dual-write to create a common understanding for prima
     - Dynamics 365 Finance extended entity maps
 
     - Dynamics 365 Supply Chain Management extended entity maps
+  
+    - Dynamics 365 Human Resources entity maps
+
+    - HCM Scheduling
 
 1. Enable the following required table mappings with **Initial Sync** turned on:
 
@@ -111,6 +115,7 @@ The integration depends on dual-write to create a common understanding for prima
     - Sites
     - Warehouses
     - Released products V2
+    - Worker
 
 ### Security in finance and operations applications
 
@@ -128,30 +133,13 @@ To ensure that the integration can successfully create item journals, we strongl
 
 To ensure that the integration can successfully integrate journals related to items which require location, we advise that all warehouses you plan to use with Field Service have **inventory and warehouse management** configured to define default locations. This allows all work order products where the product's storage dimensions are configured to require location to successfully synchronize, even when created offline.
 
-### Grant Dataverse consent for user impersonation
-
-You must grant explicit consent for Dynamics 365 finance and operations apps to impersonate Dataverse users.
-
-1. In Power Platform admin center, select the Microsoft Power Platform environment where you installed the Copilot solution.
-1. Select **Settings** at the top of the page.
-1. Expand **Product**, and select **Features**.
-1. Find **Finance and Operations in Dataverse**.
-1. Set the **Enable finance and operations user impersonation in Dataverse** option to **On**.
-
-> [!NOTE]
-> For more information, see [Managed feature settings](/power-platform/admin/settings-features#finance-and-operations-in-dataverse).
-
 ## Enable the integration from Field Service
 
 Modify the environment to align with the integration scenarios.
 
 ### Prerequisites for the installation
 
-Before installing the solution from Field Service Settings, [enable Microsoft Dataverse virtual tables](/dynamics365/fin-ops-core/dev-itpro/power-platform/enable-virtual-entities) for:
-
-- *mserp_inventorysiteonhandv2entity*
-
-- *mserp_inventwarehouseonhandv2entity*
+Before installing the solution from Field Service Settings, [install the Dynamics 365 Human Resources integration with the Universal Resource Scheduling solution](/dynamics365/human-resources/hr-admin-integration-hr-rm).
 
 #### Install and enable the solution
 
@@ -162,6 +150,15 @@ Before installing the solution from Field Service Settings, [enable Microsoft Da
 1. Select **Install the integration solution** from the **Install Finance and Operations** control. A notification appears when the installation completes.
 
 1. Enable **Finance and Operations Integration**.
+
+### Configure posting behaviors with Field Service Settings
+
+Depending on the nature of your organization's Field Service work, benefit from two potential posting behaviors of journals and lines.
+
+In **Field Service Settings**, on the **Work Order/Booking** tab, choose a value for **Post used for Finance and Operations**:
+
+- **When work order is posted**: For work orders of short duration, posting transactions to journals can likely wait until the work is completed. Inventory changes and financial updates will only post to the general ledger or inventory when the work order is posted. In this scenario, there's a smaller chance of posting a reversal for a given transaction. It only happens if a transaction changes after posting the work order is posted.
+- **When product or service is used**: For long-running work orders, posting transactions as soon as they occur helps track inventory consumption and financial impacts in real-time. It also enables invoicing without delays that can cause inventory and financial discrepancies. Changes to transactions after they were posted reverts the previously posted transaction and generates a new transaction.
 
 ### Security roles in Field Service
 
@@ -203,15 +200,6 @@ For hours journals, evaluate which project categories to use in Field Service wo
 
 > [!TIP]
 > All products can have an associated project category, even inventory products. Make sure that field is populated for non-inventory products and service products to ensure correct transactional alignment.
-
-### Configure posting behaviors with Field Service Settings
-
-Depending on the nature of your organization's Field Service work, benefit from two potential posting behaviors of journals and lines.
-
-In **Field Service Settings**, on the **Work Order/Booking** tab, choose a value for **Post used for Finance and Operations**:
-
-- **When work order is posted**: For work orders of short duration, posting transactions to journals can likely wait until the work is completed. Inventory changes and financial updates will only post to the general ledger or inventory when the work order is posted. In this scenario, there's a smaller chance of posting a reversal for a given transaction. It only happens if a transaction changes after posting the work order is posted.
-- **When product or service is used**: For long-running work orders, posting transactions as soon as they occur helps track inventory consumption and financial impacts in real-time. It also enables invoicing without delays that can cause inventory and financial discrepancies. Changes to transactions after they were posted reverts the previously posted transaction and generates a new transaction.
 
 ### Company alignment
 

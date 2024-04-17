@@ -1,7 +1,7 @@
 ---
 title: IoT data connections overview
 description: Learn about options to integrate your IoT solution with Connected Field Service using Azure IoT Hub, service endpoints, or a multicloud strategy.
-ms.date: 06/21/2023
+ms.date: 03/15/2024
 ms.subservice: connected-field-service
 ms.topic: overview
 ms.author: vhorvath
@@ -48,6 +48,6 @@ With a multicloud strategy, you choose the cloud provider that best suits the re
 ### See also
 
 - [Microsoft Dataverse Developer Guide](/power-apps/developer/data-platform/overview)
-- [Use Postman with the Web API](/power-apps/developer/data-platform/webapi/use-postman-web-api)
+- [Use Insomnia with the Web API](/power-apps/developer/data-platform/webapi/insomnia)
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]

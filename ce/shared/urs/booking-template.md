@@ -21,6 +21,8 @@ In the **Booking Template** field, override the booking template by entering HTM
 > Fields from the *Bookable Resource Booking* entity can be referenced directly using the field name in curly brackets. Example: `{duration}`.
 >
 > To display a field from a linked entity, find the name of the N:1 relationship and add a period (.) followed by the field name of the target entity. For example, the work order relationship path is *msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder* and the primary incident type field is *msdyn_primaryincidenttype*. This results in field reference `{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}`. Add more relationship hops by connecting them with an additional period.
+>
+> Custom templates only apply to tooltips on the schedule board's hourly view and will not impact daily, weekly, or monthly views. 
 
 ## Custom booking template example
 

@@ -73,6 +73,4 @@ The following method allows you to manage the session context in Customer Servic
 |||
 ### See also
 
-[App profile manager](../administer/app-profile-manager.md)  
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

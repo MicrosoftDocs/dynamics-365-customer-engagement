@@ -11,6 +11,8 @@ ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
+search.app: salescopilot-docs
+ms.collection: bap-ai-copilot 
 ---
 
 # FAQ for chat with Sales data on Microsoft 365 Copilot (preview)

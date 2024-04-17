@@ -5,7 +5,8 @@ ms.date: 10/05/2023
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
-search.app: salescopilot-docs 
+search.app: salescopilot-docs
+ms.collection: bap-ai-copilot 
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi

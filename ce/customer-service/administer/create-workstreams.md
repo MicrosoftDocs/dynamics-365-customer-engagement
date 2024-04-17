@@ -1,11 +1,13 @@
 ---
-title: "Create and manage workstreams | MicrosoftDocs"
-description: "Use this article to understand how to create and manage workstreams in Customer Service and Omnichannel for Customer Service apps."
-ms.date: 05/05/2023
+title: Create and manage workstreams
+description: Learn about how to create and manage workstreams in Customer Service and Omnichannel for Customer Service.
+ms.date: 03/18/2024
 author: neeranelli
 ms.author: nenellim
-ms.topic: article
-ms.collection: get-started
+ms.reviewer:
+ms.topic: how-to
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Create and manage workstreams
@@ -26,8 +28,11 @@ The workstream can be one of the following types:
 
 > [!IMPORTANT]
 >
-> - Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md)
-> - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center (deprecated) app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
+> Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md)
+
+## Prerequisite
+
+The administrator who configures workstreams must be a system administrator or have [permissions to access and modify secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns).
 
 ## Create a workstream
 
@@ -118,7 +123,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
   > [!NOTE]
   > If you've selected **End of Day mode** in capacity profile, agent capacity won't be reset when the duration selected in the **Block capacity for wrap up** field is over.
 
-- **Allowed presences**: Select the presences in which agents will be assigned.
+- **Allowed presences**: Select the presence statuses in which agents can be assigned work. Don't select the **Inactive** and **Do not disturb** statuses if you don't want to assign new work items to agents when they [miss](manage-missed-notifications.md) or [reject](enable-agent-reject-notifications.md) notifications.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
 - **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned agent. More information: [Agent affinity](#agent-affinity)
 
@@ -134,7 +139,7 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 ### Add a bot to a workstream
 
-To add a bot to a workstream, the bot must be configured and available for selection.
+To add a bot to a workstream, you must configure the bot and make it available for selection.
 
 For Copilot Studio bots, see [Connect omnichannel to your Copilot Studio bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot).
 For Azure bots, see [Integrate Azure bots with Omnichannel for Customer Service](../configure-bot.md#integrate-azure-bots-with-omnichannel-for-customer-service).
@@ -183,8 +188,7 @@ You can keep the default templates for sessions and notifications or update to u
 [Configure persistent chat](persistent-chat.md)  
 [Set up record routing](set-up-record-routing.md)  
 [Configure routing for email records](configure-routing-for-email-records.md)  
-[Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
-[Create workstream for entity record routing in Omnichannel Administration](../set-up-entity-workstream.md)  
+[Manage users in Omnichannel for Customer Service](users-user-profiles.md)   
 [Work with queues](queues-omnichannel.md)  
 [Automatically identify customers using pre-chat responses](record-identification-rule.md)  
 

@@ -1,7 +1,7 @@
 ---
-title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Includes reference information about the Microsoft.CIFramework JavaScript methods for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 11/18/2022
+title: Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework 2.0
+description: Includes reference information about the Microsoft.CIFramework JavaScript methods for Dynamics 365 Channel Integration Framework 2.0.
+ms.date: 02/07/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -17,7 +17,7 @@ Microsoft CIFramework provides methods to use JavaScript API to manage the commu
 > [!Important]
 > - The APIs are supported only from the active channel providers configured in your organization.
 > - The [CIFInitDone event handler](../../../v1/develop/reference/events/cifinitdone.md) must be invoked before calling the other APIs.
-> - The time-out limit for the APIs is 10 seconds. If the APIs don't run within 10 seconds, they must be run again with changed parameters or scope.
+> - The time-out limit for the APIs is 100 seconds. If the APIs don't run within 100 seconds, they must be run again with changed parameters or scope.
 
 ## Communication panel management APIs
 

@@ -1,7 +1,7 @@
 ---
 title: Work with Field Service in Teams (frontline workers)
 description: Learn how field technicians and other frontline workers can use the Dynamics 365 Field Service Teams app to view and update work orders in Teams on their mobile devices.
-ms.date: 12/12/2023
+ms.date: 03/06/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -59,7 +59,7 @@ Your admin might have installed the app for your organization. If you see the Fi
 
 1. Find the work order you want to view:
 
-   - Type the work order ID in the **Find by ID** box and select **Search**.
+   - Type the work order ID in the **Find by ID** box and select **Search**. Clear any filters first.
 
    - To filter the list by status or priority, select **Filter**, make your choice, and then select **Apply**.
 
@@ -79,13 +79,11 @@ Your admin might have installed the app for your organization. If you see the Fi
 
 1. Within the details of the work order, you can:
 
-   - Change any fields except Service account and Work order type.
+   - Change any fields except **Service account** and **Work order type**.
 
-   - Open a map to locate the service address.
+   - Open a map to locate the service address. Select the **Open in Bing Maps** :::image type="icon" source="media/fsp-flm-map-icon.png"::: icon.
 
-   - Open the work order in Dynamics 365 Field Service. Select the pop-out icon.
-
-     :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Mobile device rendering of Field Service Teams highlighting the pop-out icon to go to Field Service.":::
+   - Open the work order in Dynamics 365 Field Service. Select the pop-out :::image type="icon" source="media/fsp-pop-out-icon.png"::: icon.
 
    - View tasks and products in Field Service
 

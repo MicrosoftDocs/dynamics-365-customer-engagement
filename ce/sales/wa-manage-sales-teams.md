@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 08/11/2023
+ms.date: 01/12/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -98,7 +98,12 @@ The following permissions are required to perform tasks on work assignment entit
   - Segment: Read, Write, Create, Delete
 - **View segments**
   - Segment: Read
-
+- **Copy segment**
+  - Segment: Read, Write, Create
+  - Assignment Rule: Read, write, and Create
+    >[!NOTE]
+    >Assignment rules permissions are required only when assignment rule is selected for migration.
+  
 ### Assignment rules
 
 - **Create, modify, delete assignment rules**

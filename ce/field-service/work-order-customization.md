@@ -144,6 +144,9 @@ To enable Bing Maps button in form designer, at least one of the attributes of t
 
 The new work order experience introduces several new code components for makers to use on their forms and views. The following sections list options and limitations for these code controls. For more information about working with code controls, see [Code controls in the Power Apps developer documentation](/power-apps/developer/component-framework/custom-controls-overview).
 
+> [!TIP]
+> Configure field level security to ensure users update only the intended fields. In some cases, for example if a field in a form is set to read-only, users might still update some fields. However, the system won't save the updated form if the user doesn't have the correct field level security.
+
 ### Work order form
 
 #### Form header and command bar
@@ -291,6 +294,7 @@ Known issues and limitations:
 - If you customized the work order grid, the new control doesn't render due to solution layering rules. Remove such customizations first to see the control.
 - The new grid experience doesn't support column filtering. Change to the **Read-Only Grid** to filter columns.
 - If you remove the new grid control from the environment, you can't install it again. Contact support for help.
+- The Booked Resources column (msdyn_bookingsummary) works only with the new work order experience. It's not supported on the classic grid view.
 
 #### Context menu
 
@@ -306,7 +310,7 @@ You can't change the items in the context menu.
 There are multiple forms that can be loaded inline for further edits from the work order form.
 
 - Work order: You can edit the information it the side pane shows by modifying the *Work Order Light* form.
-- Assets: u can edit the information it the side pane shows by modifying the *Customer Assets – Simple* form.
+- Assets: You can edit the information it the side pane shows by modifying the *Customer Assets – Simple* form.
 
 The following side panes render the same form as if you opened the full record:
 

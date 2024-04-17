@@ -1,5 +1,5 @@
 ---
-title: FAQ about summarization in Copilot
+title: Summarization with Copilot FAQs
 description: Get answers to frequently asked questions about Copilot's AI-powered summarization feature, which quickly summarizes important lead and opportunity information in an easy-to-consume format.
 ms.date: 12/01/2023
 ms.custom:
@@ -10,12 +10,13 @@ ms.custom:
  - bap-template
 ms.topic: faq
 search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ---
 
-# FAQ about summarization in Copilot
+# Summarization with Copilot FAQs
 
 These frequently asked questions (FAQ) are intended to help you understand the impact of AI on the summarization feature in Copilot in Dynamics 365 Sales.
 

@@ -159,7 +159,7 @@ Scheduled messages appear as such in the **Activities** list for the **Regarding
 
 ## Set a message follow-up reminder <a name="FollowUpAlert"></a>
 
-If you want to make sure you don't forget to follow up on an important email, set a reminder.
+If you want to make sure you don't forget to follow up on an important email, set a reminder. This feature is available only for sent email.
 
 1. [Create a message](#NewMessage).
 
@@ -189,7 +189,7 @@ If you want to make sure you don't forget to follow up on an important email, se
 
 1. Select **Send**, or select **Save** to save the message as a draft and finish it later.
 
-When the reminder is triggered, the system creates an action card in the assistant. The card is given high priority, so you should see it right away. The card includes links to the message and related records and action buttons to snooze or dismiss the alert. [Learn more about guided customer communications with assistant](assistant.md).
+When the reminder is triggered, the system creates an action card in the assistant. The card is given high priority, so you should see it right away. The card includes links to the message and related records and action buttons to snooze or dismiss the alert. [Learn more about email reminder card](action-cards-reference.md#EmailReminder).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

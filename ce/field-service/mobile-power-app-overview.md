@@ -39,7 +39,7 @@ With the 2023 release wave 2, we're releasing a new user experience for mobile u
 | [Scan to find asset (Global search)](mobile-power-app-system-barcode-scanning.md) | Technician | Yes |  Not applicable |
 | [Location sharing and auditing](mobile-powerapp-location-auditing.md) | Admin | Yes* | Enable real-time sharing of the technician's location with the back office. |
 | [Enhanced offline sync filters](work-offline-mobile-app.md) | Admin | Yes |  Data available offline by default and the data available offline can be customized. For example, offline data available by location or by accounts for scheduled bookings. |
-| [Offline by default](mobile-power-app-system-offline.md#understanding-offline-vs-online-capabilities) | Technician | Yes |  The app is offline by default, so the technician is always ready. |
+| [Offline by default](mobile-power-app-system-offline-sync.md) | Technician | Yes |  The app is offline by default, so the technician is always ready. |
 | [Allow technician to force data sync](work-offline-mobile-app.md) | Technician | Yes |  The technician can manually force data sync. |
 | Bulk-add users  | Admin | Yes|  Quickly assign an offline data sync profile to users. |
 | Checklist for service tasks  | Technician | Yes |  Use a checklist to quickly mark a task as complete. |

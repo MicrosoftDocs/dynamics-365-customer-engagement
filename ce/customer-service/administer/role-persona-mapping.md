@@ -1,21 +1,20 @@
 ---
-title: "Roles and personas | MicrosoftDocs"
-description: "Get information about how custom security roles can be mapped to personas in Customer Service and Omnichannel for Customer Service."
-ms.date: 04/04/2022
-ms.topic: article
+title: Manage personas and custom security roles
+description: Get information about how custom security roles can be mapped to personas in Customer Service and Omnichannel for Customer Service.
+ms.date: 02/14/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer:
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Manage personas and custom security roles in Customer Service
 
-## Introduction
-
 You can map security roles to personas to define user permissions for unified routing. Persona mapping gives your organization the option to add custom security roles alongside existing security roles in Customer Service and Omnichannel for Customer Service. The admin, supervisor, and agent personas are user archetypes that security roles can be mapped to. By mapping custom security roles to these personas, you can fine-tune data access and security across users and business units.
 
-You can create and assign custom security roles in the Microsoft Dynamics 365 admin center. Persona mapping can be found in the Omnichannel admin center (deprecated) or Customer Service Hub in the **User attributes** section. 
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+You can create and assign custom security roles in the Microsoft Dynamics 365 admin center. Persona mapping settings are available in the Customer Service admin center > **User Management** section.
 
 For the custom security roles to be functional, perform the following steps:
 
@@ -23,6 +22,10 @@ For the custom security roles to be functional, perform the following steps:
 2. Map roles to personas.
 3. Enable access to applications.
 4. Enable access to forms and dashboards.
+
+## Prerequisite
+
+System Administrator role to manage the personas.
 
 ## Personas for unified routing
 
@@ -82,23 +85,24 @@ For example, if your organization is expecting a large seasonal increase in chat
 
 ## Map roles to personas
 
-After persona mapping is enabled, it'll automatically assign default roles depending on the Dynamics 365 services that're enabled for your environment. For an environment with Customer Service Enterprise license, the default mapping includes Customer Service Representative and CSR manager roles. For an environment with Omnichannel for Customer Service, the three primary security roles are mapped to personas. If both services are enabled, both sets of default mappings are included. The following table contains the mapping information for the roles in Customer Service and Omnichannel for Customer Service.
+After you enable persona mapping, the system automatically assigns default roles depending on the Dynamics 365 services that're enabled for your environment. For an environment with Customer Service Enterprise license, the default mapping includes Customer Service Representative and CSR manager roles. For an environment with Omnichannel for Customer Service, the three primary security roles are mapped to personas. If both services are enabled, both sets of default mappings are included. The following table contains the mapping information for the roles in Customer Service and Omnichannel for Customer Service.
 
 | Service | Admin persona default mapping | Supervisor persona default mapping | Agent persona default mapping |
 | ------------- | ---------------- | ------------------- | --------------- |
 | Customer Service Enterprise | CSR Manager | CSR Manager | Customer Service Representative |
 | Omnichannel for Customer Service | Omnichannel Administrator | Omnichannel supervisor | Omnichannel agent |  
 | Customer Service Enterprise + Omnichannel for Customer Service | CSR Manager + Omnichannel Administrator | CSR Manager + Omnichannel supervisor | Customer Service Representative + Omnichannel agent |
-|||||
 
 > [!NOTE]
 >
-> - Customized mappings won't be reset if one of the services is added later.
-> - Make sure that the roles you want to map to personas have been assigned to the users directly and not through team memberships.
+> - Customized mappings aren't reset if one of the services is added later.
+> - Make sure that the roles you want to map to personas are assigned to the users directly and not through team memberships.
 
 ### Manage personas
 
 You can customize the roles to persona mapping in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
+
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 **To customize the role to persona mapping**
 
@@ -134,21 +138,19 @@ To assign a persona to the "seasonal service rep" role mentioned in the example,
 
 ## Enable access to applications
 
-Users with security roles mapped to personas do not get automatic access to associated dashboards or applications. Access needs to be provided by administrators.
+Users with security roles mapped to personas don't get automatic access to associated dashboards or applications. Perform the following steps to provide access and privileges to users:
 
-Perform the following steps to ensure that access and privileges are provided to users.
+1. Create the user role. More information: [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 
-1. Create the required user role. More information: [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
-
-2. Add and edit user permissions and privileges as required.
+2. Add and edit user permissions and privileges.
 
 3. Sign in to Dynamics 365.
 
-4. Select the ellipsis in the application tile.
+4. On the **Apps** page, select the ellipsis in the application tile.
 
-5. Select **Manage roles**.
+5. Select **MANAGE ROLES**.
 
-6. In the dialog that appears, select the custom role that you want to grant permission to and select **Save**.
+6. In the **Manage Roles - `<app_name>`** dialog that appears, select the custom role that you want to grant permission to and select **Save**.
 
 ## Enable access to forms and dashboards
 

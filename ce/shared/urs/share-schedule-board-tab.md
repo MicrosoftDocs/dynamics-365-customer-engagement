@@ -2,7 +2,7 @@ You can have multiple schedule board tabs configured for your business needs. As
 
 ## Share a schedule board tab
 
-Use the schedule board tab settings to share a tab.
+By default, a new schedule board tab is visible only to the user who creates it, as well as users with higher access levels such as org administators. Use the schedule board tab settings to share a tab.
 
 1. On the schedule board, select the vertical ellipsis &vellip; next to a schedule board tab name and select **Board settings**.
 
@@ -14,8 +14,8 @@ Use the schedule board tab settings to share a tab.
    - **Just Me** restricts the tab to you only.
    - **Specific People** shares the tab with other users that you choose.
 
-   > [!TIP]
-   >  Every user with a Field Service security role gets access. Admins can also [create custom security roles](/power-platform/admin/security-roles-privileges) with the **Schedule Board Setting** privilege.
+   > [!NOTE]
+   >  Every user with the Schedule Board Setting read privilege set to User can see tabs shared with them. Admins can create custom security roles. Users with higher privileges to Schedule Board Setting records can access schedule board tabs even if they aren't shared with them directly. 
 
 ## Choose users to share the schedule board tab
 
