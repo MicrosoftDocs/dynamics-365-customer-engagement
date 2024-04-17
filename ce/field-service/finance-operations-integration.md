@@ -57,11 +57,11 @@ If the service account and the company don't match on a work order and the work 
 
 Field Service highlights company misalignment in multiple places:
 
-- On the work order
+- on the work order,
 
-- On the work order product or work order service
+- on the work order product or work order service,
 
-- On the finance and operations transaction
+- on the finance and operations transaction.
 
 As a best-practice, organizations that implement this integration should consider creating incident type records with products and services with company alignment in mind. And use the right incident type based on the company of the service account on the work order.
 
@@ -143,7 +143,7 @@ The Field Service integration with finance and operations applications extends t
 
 - Allow a worker to be captured on a work order product or work order service.
 
-- Autopopulate the worker value on the work order product or work order service based on the worker of the bookable resource on the transaction's associated booking. This value can be manually populated or overridden.
+- Autopopulate the worker value on the work order product or service based on the bookable resource's worker in the transaction's associated booking. This value can be manually populated or overridden.
 
 - Require the worker on non-inventory related work order products or work order services. The requirement is based on whether the company's associated project management and accounting parameters are configured to require a worker value in hours journal lines or expense journal lines.
 
@@ -167,7 +167,7 @@ The integration solution introduces several fields to the work order product tab
 
 - **Journal Description**
 
-  - Only visible for expense transactions (non-inventory products). It's hidden for inventory products (which result in item journals).
+  - Only visible for expense transactions (non-inventory products). Hidden for inventory products (which result in item journals).
   - Autopopulates with the product name of the applied product though users are encouraged to override the value with a more meaningful description.
   - Limited to 60 characters. It flows from the record in Field Service to the journal line to the invoice generated in Finance.
 
@@ -218,7 +218,7 @@ The integration introduces a virtual table lookup field called **Project Categor
 
 ## Work order transaction handling
 
-Based on events in Field Service with a work order’s product and service records, corresponding transactions are triggered in their respective journal and journal line records.
+Based on events with a Field Service work order’s product and service records, corresponding transactions are triggered in their respective journal and journal line records.
 
 ### Create
 
@@ -231,18 +231,18 @@ Based on events in Field Service with a work order’s product and service recor
 
 ### Update
 
-- When a work order product or service is updated and the related journal and journal line is unposted, the integration updates the transaction appropriately.
+- When a work order product or service is updated and the related journal and journal line are unposted, the integration updates the transaction appropriately.
 
-- When a work order product or service is updated and the related journal and journal line is posted, the integration:
+- When a work order product or service is updated and the related journal and journal line are posted, the integration:
 
   - Creates a reverse transaction against the original journal and journal line.
   - Creates a new journal and journal line reflecting the updates transaction.
 
 ### Delete
 
-- When a work order product or service is deleted and the related journal and journal line is unposted, the integration deletes the journal and journal line.
+- When a work order product or service is deleted and the related journal and journal line are unposted, the integration deletes the journal and journal line.
 
-- When a work order product or service is deleted and the related journal and journal line is posted, the integration creates a reverse transaction against the original journal and journal line.
+- When a work order product or service is deleted and the related journal and journal line are posted, the integration creates a reverse transaction against the original journal and journal line.
 
 ## Work order system status impact
 
