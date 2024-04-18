@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales. Help your sales team can get summaries of their lead and opportunity records, catch up on recent changes, and prepare for meetings.
-ms.date: 04/02/2024
+ms.date: 04/04/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -42,7 +42,7 @@ For all the other orgs, an admin must provide consent in the Power Platform admi
 - Verify whether your org is in a region where Copilot in Dynamics 365 Sales is available. For a list of unsupported regions, see [this FAQ](sales-copilot-faq.md#is-copilot-in-dynamics-365-sales-available-in-all-regions).
 - Verify whether your region has an Azure Open AI Service endpoint. If not, you must [provide consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to use Copilot in Dynamics 365 Sales. For more information, see [Copilot data movement](sales-copilot-data-movement.md).
 
- 
+
 ## Turn Copilot features on or off in Sales Hub
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
@@ -51,7 +51,7 @@ For all the other orgs, an admin must provide consent in the Power Platform admi
 
 1. In the **Set up Copilot in Dynamics 365 Sales** page, select **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.
 
-1. If your org is in a region where Azure Open AI Service endpoint isn't available but you haven't yet provided consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
+1. If your org is in a region where Azure Open AI Service endpoint isn't available but you didn't provide the consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
 1. Under **All Dynamics 365 Sales apps**, select a global setting that you want to apply to all Sales apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app.  
 
@@ -63,7 +63,7 @@ For all the other orgs, an admin must provide consent in the Power Platform admi
 
     The **Default** setting has the following behavior:
     
-    - For orgs in North America, Copilot Chat is turned on for all Dynamics 365 Sales apps (with lead and opportunity tables). Copilot for email is turned on only if you've opted in for early access.
+    - For orgs in North America, Copilot Chat is turned on for all Dynamics 365 Sales apps (with lead and opportunity tables). Copilot for email is turned on only if you had opted in for early access.
 
     - For orgs in other regions, Copilot is turned on for all Dynamics 365 Sales apps that meet the following conditions:
 
@@ -71,7 +71,7 @@ For all the other orgs, an admin must provide consent in the Power Platform admi
 
         - The [release channel](/power-apps/maker/model-driven-apps/channel-change) for the app is set to **Monthly release channel**.
 
-        - For Copilot for email, you've [opted in for preview features](copilot-preview-features.md).
+        - For Copilot for email, you had [opted in for preview features](copilot-preview-features.md).
     
     - For apps that don't meet the above conditions, the **Default** setting turns Copilot off.
 
@@ -105,7 +105,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
 1. Select **Add fields**.
 
-1. Select at least 4 fields, up to a maximum of 10.
+1. Select at least four fields, up to a maximum of 10.
 
     The **Save** button is disabled if you select fewer than 4 or more than 10 fields. If you added more than 10 fields, clear the checkbox, or select fields that you don't need and select **Delete**.
 
@@ -117,7 +117,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
 The **What's new with my sales records** prompt lists the sales records that were updated in the last seven days. The list is generated from the audit history of the lead, opportunity, and account tables. Depending on the record type, Copilot uses different fields to get the list of records updated: 
 
-- For the lead and opportunity records, Copilot uses the fields in the primary table (lead or opportunity) that you've [configured for generating the recent changes list](#configure-fields-for-generating-summaries-and-recent-changes-list). For example, if you've configured four fields from the lead table and six fields from related tables, Copilot monitors changes to only those four fields from the lead table to identify the lead records that are updated.
+- For the lead and opportunity records, Copilot uses the fields in the primary table (lead or opportunity) that you had [configured for generating the recent changes list](#configure-fields-for-generating-summaries-and-recent-changes-list). For example, if you had configured four fields from the lead table and six fields from related tables, Copilot monitors changes to only those four fields from the lead table to identify the lead records that are updated.
 
 - For the account records, Copilot lists the following changes:
   - Contacts, leads, and opportunities created for the account in the last seven days.
@@ -142,6 +142,14 @@ Copilot generates the list of recent changes for leads and opportunities from th
     - **View Audit Summary**
 
 1. Select **Save + close**.
+
+## Add the Copilot page site map entry to custom sales app
+
+When you create a custom model-driven app, you can choose a default solution to create a site map for it. However, you can choose solutions that are based on table forms only. The full-screen Copilot page is based on a URL custom control and doesn't appear in the list of solutions. You must add it to the site map manually.  
+
+Add the Copilot page to your site map by following the instructions in [add site map entry to your custom app](add-custom-site-map.md) and enter or paste the following URL:
+
+`/main.aspx?&pagetype=control&controlName=PowerApps.Copilot`
 
 
 ### See also
