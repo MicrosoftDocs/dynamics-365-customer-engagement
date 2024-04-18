@@ -1,7 +1,7 @@
 ---
 title: Customize the Microsoft 365 integrations for Field Service
 description: Learn how to tailor the Microsoft 365 integrations for Dynamics 365 Field Service to your business
-ms.date: 03/12/2024
+ms.date: 04/18/2024
 ms.topic: how-to
 author: matthidinger
 ms.author: mahiding
@@ -141,8 +141,6 @@ You can customize the labels used for work orders to better match your organizat
 1. Enter the **Display name** and **Plural name** of your choice.
 
 1. Select **Save and publish**.
-
-1. Return to Teams and select **Refresh data**. Select the view under **Work orders** and select **Publish**.
 
 ## Next steps
 
