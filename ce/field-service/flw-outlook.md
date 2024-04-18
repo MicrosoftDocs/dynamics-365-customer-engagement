@@ -1,7 +1,7 @@
 ---
 title: Manage work orders with Field Service in Outlook (frontline managers) 
 description: Learn how service managers and dispatchers can use the Dynamics 365 Field Service for Outlook add-in to create, view, update, and schedule work orders with AI assistance in Outlook.
-ms.date: 04/03/2024
+ms.date: 04/18/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -34,7 +34,9 @@ To use copilot features:
 
 Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you don't see the Copilot icon, your admin might have [disabled the Copilot setting](configure-default-settings.md#features-settings).
 
-1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in). If the email was previously used to create a work order using Copilot, a message displays with a link to the work order.
+1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in).
+
+   If the email was previously used to create a work order using Copilot, a message displays with a link to the work order, unless the email was moved. If the email was moved to another folder, for example from Inbox to Archive, a message or link doesn't display.
 
 1. On the **Home** tab, select **Create a work order from email**.
 

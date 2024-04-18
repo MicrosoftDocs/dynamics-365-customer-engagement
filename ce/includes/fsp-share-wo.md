@@ -1,4 +1,5 @@
-This feature will be available April 30, 2024.
+> [!NOTE]
+> This feature will be available April 30, 2024.
 
 You can share links to work orders that automatically expand to provide key details. Copy the work order link from the Field Service web app or select the **Copy** icon when [viewing the work order](#view-a-work-order) in Teams.
 
