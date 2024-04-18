@@ -44,7 +44,7 @@ The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Accoun
 
 - **Connections**: Shows relevant connections for this company that can establish a first contact. 
 
-- **Find people**: Shows the recommended leads or contacts in the company who can help you connect with the customer and establish a relationship. With the LinkedIn Sales Navigator Advanced Plus license, you can see enhanced insights and search based on personas as well. For more information about integrating this control, see [Account module reference](/linkedin/sales/display-services/accounts-screenshots_full#find-people). The following image shows the enhanced insights available with the Advanced Plus license.
+- **Find Key People**: Shows the recommended leads or contacts in the company who can help you connect with the customer and establish a relationship. With the LinkedIn Sales Navigator Advanced Plus license, you can uncover leads that more closely match your selected target buyer's persona and you can access more insights about the leads. For Sales Navigator Advanced users, this control shows only lead recommendations without the ability to tune your buyer persona. For more information about integrating this control, see [Account module reference](/linkedin/sales/display-services/accounts-screenshots_full#find-people). The following image shows the enhanced insights available with the Advanced Plus license.
 
     :::image type="content" source="media/find-people-linkedin.png" alt-text="Screenshot of Find People section in the LinkedIn Sales Navigator control":::  
   
