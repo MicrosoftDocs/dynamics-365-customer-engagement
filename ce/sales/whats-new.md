@@ -3,7 +3,7 @@ title: What's new or changed in Dynamics 365 Sales
 description: This article points to articles that describe the new and changed features in each release of Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 03/08/2024
+ms.date: 04/08/2024
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
@@ -14,6 +14,10 @@ Wondering about upcoming and recently released capabilities in Dynamics 365 Sale
 
 This article summarizes early access, public preview, and general availability features that were released in the last three months. The monthly release sections contain only those features that were deployed in all regions in that month. For example, if your Dynamics 365 org is in Canada, you'll receive the feature updates a few weeks earlier than the orgs in North America but the monthly release section will list that feature only after it's deployed in North America. For more information about the release schedule, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales#latest-version-availability).  
 
+
+## March 2024 release
+
+No new features or enhancements were released in March 2024. We'll be back with more updates next month.
 
 ## February 2024 release
 
@@ -35,11 +39,6 @@ This article summarizes early access, public preview, and general availability f
 | Feature area | Feature | Description | Resources | Turned on by | Availability |
 |---|---|---|---|---|---|
 | Copilot | Customize fields for summary and recent changes list | You can configure up to 10 fields for generating summary and recent changes list. | [Documentation](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list) | Admin | GA |
-
-
-## December 2023 release
-
-No new features or enhancements were released in December 2023.
 
 
 ## Get the latest version

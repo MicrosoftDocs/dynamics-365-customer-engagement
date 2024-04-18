@@ -15,7 +15,7 @@ You can configure unified routing for records in the Customer Service admin cent
 
 [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
-If you have Dynamics 365 Customer Service only, then the options to configure unified routing will be available only after you enable unified routing in the service configuration settings.
+If you have Dynamics 365 Customer Service only, then the options to configure unified routing will be available only after you [enable unified routing](provision-unified-routing.md) in the service configuration settings.
 
 > [!IMPORTANT]
 > 
@@ -77,8 +77,6 @@ You must complete all the steps in this section to route records using unified r
    1. Select **New workstream**.
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-   
 
     - In the site map, select **Workstreams** in **General settings**, and then select **New workstream**.
 

@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/19/2023
+ms.date: 04/12/2024
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -31,7 +31,8 @@ The conversation list shows current ongoing conversations from the last 24 hours
 
 - **Assign**: Assign an incoming or unassigned conversation filtered by either a queue or an agent, after reviewing the skill set and capacity profile of agents.
 - **Transfer**: Transfer an ongoing conversation from one agent to another after reviewing the skill set and capacity profile of an agent.
-- **Monitor**: Listen to an ongoing conversation. When you select **Monitor**, you receive a message that states that monitoring has begun. This action is applicable only to active conversations with agent acceptance, conversations that are in a wrap-up state, and conversations that are in a waiting state.
+- **Monitor**: Listen to an ongoing conversation. When you select **Monitor**, you receive a message that states that monitoring has begun. This action is applicable only to active conversations with agent acceptance, conversations that are in a wrap-up state, and conversations that are in a waiting state. The browser that you select **Monitor** from loads that conversation. Other browsers remain as-is.
+
 - **Force close**: Forcibly close a conversation by closing the work item. When you select **Force close**, a confirmation message box appears. You must select **Proceed** to close the work item. When you forcibly close a conversation, the conversation immediately ends for the customer too. We recommend that you use this action with caution.
 
 ### See also

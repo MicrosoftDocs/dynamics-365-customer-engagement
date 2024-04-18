@@ -1,9 +1,10 @@
 ---
-title: Work with knowledge articles | MicrosoftDocs
-description: "This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service"
+title: Work with knowledge articles
+description: This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service.
 ms.date: 03/05/2021
 author: Soumyasd27
 ms.author: sdas
+ms.topic: article
 search.audienceType: 
   - developer
 searchScope: 
