@@ -82,13 +82,13 @@ The integration depends on [dual-write](/dynamics365/fin-ops-core/dev-itpro/data
    - All products
    - CDS Contacts V2
    - CDS Contacts V2
-   - Customers V3 (accounts)   
+   - Customers V3 (accounts)
    - Vendors V2
    - Sites
-   - Warehouses   
+   - Warehouses
    - Released products V2
    - Worker
-   
+
 For maps and initial syncs against global entities that fail with permissions errors, you might need to specify the owning team.
 
 ### Assign security roles
