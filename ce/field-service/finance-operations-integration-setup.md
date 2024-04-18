@@ -61,33 +61,33 @@ The integration depends on [dual-write](/dynamics365/fin-ops-core/dev-itpro/data
 
 1. Select each of the following required table mappings. Then select **Run** and **Initial Sync**.
 
+   - Styles
+   - Colors
+   - Configurations
+   - Sizes
+   - Units
+   - Currencies
+   - CDS Released distinct products
+   - Customer payment method
+   - Payment days CDS
+   - Vendor payment method
+   - Sales tax groups
+   - Terms of payment
+   - Customer groups
+   - Vendor groups
+   - Customers V3 (contacts)
+   - Tracking dimensions groups
+   - Storage dimensions groups
+   - Product dimensions groups
    - All products
    - CDS Contacts V2
    - CDS Contacts V2
-   - CDS Released distinct products
-   - Colors
-   - Configurations
-   - Currencies
-   - Customer groups
-   - Customer payment method
    - Customers V3 (accounts)
-   - Customers V3 (contacts)
-   - Payment days CDS
-   - Payment schedule
-   - Product dimensions groups
-   - Released products V2
-   - Sales tax groups
-   - Sites
-   - Sizes
-   - Storage dimensions groups
-   - Styles
-   - Terms of payment
-   - Tracking dimensions groups
-   - Units
-   - Vendor groups
-   - Vendor payment method
    - Vendors V2
+   - Sites
    - Warehouses
+   - Released products V2
+   - Worker
 
 For maps and initial syncs against global entities that fail with permissions errors, you might need to specify the owning team.
 
