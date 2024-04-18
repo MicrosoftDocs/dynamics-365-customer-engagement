@@ -30,7 +30,7 @@ As an organization, you can use the capabilities in Microsoft Outlook, Microsoft
 
 Administrators enable these features for end users in their organization. See [Set up Microsoft 365 integrations for Field Service](flw-admin.md) and [Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot](flw-copilot-setup.md). Frontline managers and workers can set up the Outlook add-in or Teams home page on their own.
 
-Administrators can [customize the views and labels](flw-customization.md) of the the experience for their organization.
+Administrators can [customize the views and labels](flw-customization.md) of the experience for their organization.
 
 Administrators and users can access and share content outside of Microsoft 365 after they give consent to link their Microsoft work or school account with their Dynamics 365 account.
 
@@ -100,7 +100,7 @@ Microsoft 365 integrations for Field Service are available in environments that 
 | Romanian (Romania)                     | ro-RO      |
 | Russian (Russia)                       | ru-RU      |
 | Serbian (Cyrillic, Serbian)            | sr-Cyrl-RS |
-| Serbian (Latin, Serbia and Montenegro) | sr-Latn-RS |
+| Serbian (Latin, Serbia, and Montenegro) | sr-Latn-RS |
 | Slovak (Slovakia)                      | sk-SK      |
 | Slovenian (Slovenia)                   | sl-SI      |
 | Spanish (Spain)                        | es-ES      |

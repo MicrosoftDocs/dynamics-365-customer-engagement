@@ -1,6 +1,6 @@
 ---
 title: Customize the Microsoft 365 integrations for Field Service
-description: Learn how to tailor the Microsoft 365 integrations for Dynamics 365 Field Service to your business
+description: Learn how to tailor the Microsoft 365 integrations for Dynamics 365 Field Service to your business.
 ms.date: 04/18/2024
 ms.topic: how-to
 author: matthidinger
@@ -145,7 +145,7 @@ You can customize the labels used for work orders to better match your organizat
 ## Next steps
 
 - [General customization best practices](field-service-customization-best-practices.md)
-- [Creating and editing views in Power Apps](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view)
+- [Create and edit views in Power Apps](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
