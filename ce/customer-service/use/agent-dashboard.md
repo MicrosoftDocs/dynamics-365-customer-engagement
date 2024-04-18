@@ -1,6 +1,6 @@
 ---
-title: "Agent dashboard in Omnichannel historical analytics  | Microsoft Docs"
-description: "Learn about the Agent dashboard in Omnichannel historical analytics to better understand agent performance in your organization."
+title: Agent dashboard in Omnichannel historical analytics
+description: Learn about the Agent dashboard in Omnichannel historical analytics to better understand agent performance in your organization.
 ms.date: 11/24/2022
 ms.topic: article
 author: gandhamm
@@ -121,7 +121,7 @@ Select the **Availability** tab. In **Aggregated view**, the duration of the pre
 
 The agent custom presence drill-down view provides insight into the out-of-the-box presence status metrics and custom presence metrics.
 
-Select the **Availability** tab and then select **Aggregated view** to view the hourly details of the various statuses. The **Presence status** column shows metrics for both out-of-the-box and custom-state metrics. For example, on April 5, 2022, the specific agent spent 0.7h in the custom state of **Inactive** and 0.6h in the out-of-the-box status of **Busy - DND**.
+Select the **Availability** tab and then select **Aggregated view** to view the hourly details of the various statuses. The **Presence status** column shows metrics for both out-of-the-box and custom-state metrics. For example, on April 5, 2022, the specific agent spent 0.7h in the custom state of **Training** and 0.6h in the out-of-the-box status of **Busy - DND**.
 
 :::image type="content" source="../media/agent-custom-presence-drill-down.png" alt-text="Screenshot shows a drill-down view of an agent custom presence":::
 

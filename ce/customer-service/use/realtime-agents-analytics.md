@@ -3,7 +3,7 @@ title: View and understand the Agents report in Omnichannel real-time analytics
 description: Understand agent performance and optimize allocation in real-time with the Omnichannel Agents report.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 04/18/2024
@@ -46,7 +46,7 @@ You can drill down from the **Agent list** section on the dashboard to view key 
 
 You'll see the following tabs:
 
-- **Agent online**: Shows agents who are online at the moment.
+- **Agent online**: Shows agents who are online at the moment. Also shows custom presence statuses, configured by you and used by your agents.
 
 - **Agent offline**: Shows agents who logged in earlier but are offline at the moment.
 

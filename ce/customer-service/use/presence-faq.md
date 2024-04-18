@@ -3,7 +3,7 @@ title: FAQ on agent presence in Customer Service
 description: Find answers to the most commonly asked questions on agent presence and how presence is calculated.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: neeranelli
 ms.topic: faq
 ms.collection:
 ms.date: 04/18/2024
@@ -52,4 +52,4 @@ Yes, you can view agent custom presence statuses, such Lunch break or Training i
 
 ## Next steps
 
-[Manage presence in Customer Service](oc-manage-presence-status.md)  
+[Manage presence in Customer Service](oc-manage-presence-status.md)
