@@ -91,7 +91,7 @@ Complete the following steps for the channel in which you want to create custom 
 | Agent joined conversation | Message displayed to the customer when the agent joins a conversation. | When the agent accepts the notification. | Customer |
 | Agent joined customer conversation | Message displayed to the customer when the agent joins a customer conversation. | When the agent joins a customer conversation.  | Customer |
 | Agent left customer conversation | Message displayed to the customer when the agent leaves a customer conversation. | When the agent leaves a customer conversation. | Customer |
-| Average wait time for customers: Hours <br> (applies to live chat and voice channels only) | Message displayed to the customer with the average wait time displayed in hours.  |  When customer is waiting in queue. | Customer |
+| Average wait time for customers: Hours <br> (applies to live chat and voice channels only) | Message displayed to the customer with the average wait time displayed in hours.  |  When the customer is waiting in queue. | Customer |
 | Average wait time for customers: Hours and minutes <br> (applies to live chat and voice channels only) | Message displayed when the customer is waiting in queue with average wait time being displayed in both minutes and hours. | When customer is waiting in queue. | Customer |
 | Average wait time for customers: Minutes <br> (applies to live chat and voice channels only)  | Message displayed to the customer with the average wait time displayed in minutes.  | When customer is waiting in queue. | Customer |
 | Consult accepted  | Message displayed to the customer when another agent is consulted successfully.  | When another agent accepts the consult request.  | Customer |
@@ -115,7 +115,7 @@ Use the following best practices when you configure automated messages for the v
 
 - Consider configuring **Greeting Message for Async Channels and Voice** instead of **Agent assigned to a conversation**.
 
-- If you've configured both **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice**, consider configuring **Greeting Message for Async Channels and Voice** to avoid the accumulation of messages in the queue.
+- If you configured both **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice**, consider configuring **Greeting Message for Async Channels and Voice** to avoid the accumulation of messages in the queue.
 
 - Disable messages that announce the average wait times, unless your business requires that customers know this information. 
  
