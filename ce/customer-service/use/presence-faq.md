@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer:
 ms.topic: faq
 ms.collection:
-ms.date: 01/31/2024
+ms.date: 04/18/2024
 ms.custom: bap-template
 ---
 
@@ -45,6 +45,10 @@ See [how presence status is updated](oc-manage-presence-status.md#how-presence-s
 ## Does presence load when agents have custom roles?
 
 See the [prerequisites](oc-manage-presence-status.md#prerequisites) that are required for the presence status to load correctly.
+
+## Can I view agent custom presence statuses in reports?
+
+Yes, you can view agent custom presence statuses, such Lunch break or Training in the agent report for Omnichannel real-time analytics and Omnichannel historical analytics.
 
 ## Next steps
 
