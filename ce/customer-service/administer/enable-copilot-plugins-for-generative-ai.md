@@ -36,7 +36,7 @@ Your customer service representatives rely on data and information from a wide v
    - **All agents who have Copilot**: Agents who have Copilot enabled for them through their agent experience profiles.
    - **Specific user roles**: Select the roles in the list.
 1. Select **Next**, and optionally define an input on the **Define inputs(optional)** screen to improve the answers agents get from Copilot.
-1. Select **Next** and on the **Plugin data** screen, select **Store this plugin's data**. The data is stored in  your Dataverse database as part of your agent Copilot chat transcripts.
+1. Select **Next** and on the **Plugin data** screen, select **Store this plugin's data**. The data is stored in  your Dataverse database as part of your agent interactions with Copilot as chat transcripts. More information: [Copilot transcripts and interaction data](../develop/download-copilot-transcript-data)
 1. Select **Turn on plugin**.
 
 ## Next steps
