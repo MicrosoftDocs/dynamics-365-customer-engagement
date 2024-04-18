@@ -119,6 +119,9 @@ Use Advanced Find to add new records to the Language entity. You can then associ
 
 To filter resources in the Schedule Board with the new Language constraint, we'll update the Retrieve Resources Query and the Filter Layout configuration records.
 
+> [!NOTE]
+> These schedule board customizations will apply too all tabs uniformly and cannot be set individually per tab. This applies to **Schedule Assistant Filter Layout**, **"Schedule Assistant Retrieve Resources Query**, **Schedule Assistant Resource Cell Template**, and **Schedule Assistant Retrieve Constraints Query**.
+
 ### Filter Layout Configuration
 
 > [!TIP]
