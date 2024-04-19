@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: sample
 ms.collection:
-ms.date: 04/12/2024
+ms.date: 04/19/2024
 ms.custom: bap-template
 search.audienceType:
   - developer
@@ -16,8 +16,6 @@ search.audienceType:
 # Sample - ARC Multi-Related - Remove Unreferenced Queue
 
 The sample shows how automatic record creation rules for Dynamics 365 Customer Service can be customized to remove unreferenced queues from emails. This customization is applicable when you enable the [create multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#create-multiple-cases-from-an-email-sent-to-multiple-mailboxes) feature.
-
-This sample is a Microsoft Visual Studio Solution File, Format Version 12.00.
 
 Detailed instructions on how to run the sample and its functionality can be found in the [README.md file](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/automatic-record-creation/RemoveUnreferencedQueues/README.md).
 
