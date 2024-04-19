@@ -310,7 +310,7 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
 
 ## Additional notes
 
-The bookable resource booking is enabled to use booking rules to create warnings or error messages that users see when creating or editing a resource booking record, based on custom conditions. The system uses [`preventDefault` in booking rules](/power-apps/developer/model-driven-apps/clientapi/reference/save-event-arguments/preventdefaultBusiness). Therefore, business process flows and other custom scripts bond to the `onSave`event can't be used on the bookable resource booking entity with booking rules enabled.
+The bookable resource booking is enabled to use booking rules to create warnings or error messages that users see when creating or editing a resource booking record, based on custom conditions. The system uses [`preventDefault` in booking rules](/power-apps/developer/model-driven-apps/clientapi/reference/save-event-arguments/preventdefault). Therefore, business process flows and other custom scripts bond to the `onSave`event can't be used on the bookable resource booking entity with booking rules enabled.
 
 However, the processing of booking rules can be disabled on the save of the Booking form by enabling the below setting, which would let the users use the business process flows. The client side APIs can be used to enable this setting at an environment level.
 
