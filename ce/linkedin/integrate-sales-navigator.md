@@ -51,7 +51,7 @@ The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Accoun
     > [!NOTE]
     > Features that connect to the CRM such as Add to CRM require [CRM sync to be enabled](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback).
 
-Both **Connections** and **Find Key People** also provide an alternate version, which takes a lookup (entity reference) attribute and allows users to search for LinkedIn profiles instead of displaying recommended profiles.
+Both **Sales Navigator Lead** and **Sales Navigator Account** controls also provide an alternate version, which takes a lookup (entity reference) attribute that allow users to search for LinkedIn profiles.
 
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead lookup** control: the name of the referenced entity is used as the member's first name and last name. The string is separated by white spaces and the first component is considered the first name while the remaining components are considered last names.
 
