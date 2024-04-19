@@ -58,7 +58,7 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 
     - **AppSource page**
 
-        Go to the [LinkedIn Sales Navigator for Dynamics 365](https://appsource.microsoft.com/product/dynamics-365/mscrm.5ba43194-adc5-4c13-b40d-af04f549d5da) AppSource page, and then select **Get it now**.
+        Go to the [LinkedIn Sales Navigator for Dynamics 365](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.5ba43194-adc5-4c13-b40d-af04f549d5da) AppSource page, and then select **Get it now**.
 
         :::image type="content" source="media/appsource-select-getitnow.png" alt-text="Screenshot of LinkedIn Sales Navigator AppSource page.":::
 
