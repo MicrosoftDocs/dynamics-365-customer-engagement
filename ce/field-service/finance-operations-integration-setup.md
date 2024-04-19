@@ -97,7 +97,7 @@ The integration relies on virtual tables and process execution in each user's co
 
 [Set up the following security roles](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
-- **Field Service Integration User**: For each user that creates or updates work orders which sync data with finance and operations applications. Users with this role can only interact with finance and operations data through the integration. They aren't entitled to access the finance and operations applications unless they have a full license. For more information, see the [Dynamics 365 Licensing Guide](https://www.microsoft.com/en-us/licensing/product-licensing/dynamics365).
+- **Field Service Integration User**: For each user that creates or updates work orders which sync data with finance and operations applications. Users with this role can only interact with finance and operations data through the integration. They aren't entitled to access the finance and operations applications unless they have a full license. For more information, see the [Dynamics 365 Licensing Guide](https://www.microsoft.com/licensing/product-licensing/dynamics365).
 
 - **Field Service Integration Admin**: For administrators who manage the Dynamics 365 Field Service integration parameters settings tab.
 
@@ -162,7 +162,7 @@ If your environment has custom security roles, add new table permissions. Update
 
 The **Finance and Operations project** field in Dynamics 365 Field Service is a required field when the work order's **System Status** is **Posted**. This field defines what project the work order is aligned with. Your organization can capture this value manually or can build automated logic to populate a value, which aligns with that organization's business processes.
 
-Once populated, the integration synchronizes the work order with the selected project, creating a subproject in the finance and operations applications. The work order and subproject alignment is essential to ensure all work order transactions are correctly placed in the Enterprise resource planning (ERP). By default, the subproject name is based on the work order number. Once the subproject is created through the synchronization transaction, the subproject is associated with the work order in Field Service.
+Once populated, the integration synchronizes the work order with the selected project, creating a subproject in the finance and operations applications. The work order and subproject alignment is essential to ensure all work order transactions are correctly placed in the enterprise resource planning (ERP). By default, the subproject name is based on the work order number. Once the subproject is created through the synchronization transaction, the subproject is associated with the work order in Field Service.
 
 ## See also
 
