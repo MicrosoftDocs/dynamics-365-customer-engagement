@@ -27,13 +27,13 @@ This topic lists the various customer scenarios and explains how the automatic r
 
 When a customer sends a new email (and the email isn’t a reply or forward to any previous email) to queue-enabled mailboxes (irrespective of the mailboxes being in To, Cc, or Bcc), automatic record creation rule creates cases for each mailbox.  
 
-For example, if email E1 was sent to Q1, Q2, and Q3 mailboxes which are configured as queues, three cases are created Case 1, Case 2, Case 3 which originated in queues Q1, Q2, and Q3, respectively. The original email E1 is related to all the three cases (Case 1, Case 2, and Case 3) and displayed in each case’s timeline.
+For example, if email E1 was sent to Q1, Q2, and Q3 mailboxes, which are configured as queues, three cases are created Case 1, Case 2, Case 3, which originated in queues Q1, Q2, and Q3, respectively. The original email E1 is related to all the three cases (Case 1, Case 2, and Case 3) and displayed in each case’s timeline.
 
 ## Customer replies to an email
 
 ### Replies to the original email from Sent items to same queue
 
-When a customer replies (ER1) to the original email E1 from the Sent items folder to the same mailboxes (Q1, Q2, and Q3), the reply email is considered as a response to the original email (E1). The automatic record creation rule skips case creation. The reply email (ER1) is correlated with the original email E1 and displayed on the timeline for all cases with which the original email E1 is linked (Case 1, Case 2, and Case 3).
+When a customer replies (ER1) to the original email E1 from the Sent items folder to the same mailboxes (Q1, Q2, and Q3), the reply email is considered as a response to the original email (E1). The automatic record creation rule skips case creation. The reply email (ER1) is correlated with the original email E1 and displays on the timeline for all cases in which the original email E1 is linked (Case 1, Case 2, and Case 3).
 
 ### Replies to the original email from Sent items and adds a new queue
 
@@ -49,7 +49,7 @@ We recommend using [customization](#customization) to ensure that the reply emai
 
 ### Replies to an agent’s email from Inbox to the same queue  
 
-When a customer replies from the Inbox to the agent’s outbound email sent from Case 1 timeline (after removing other mailboxes Q2 and Q3), the automatic record creation rule skips the case creation, and the reply gets linked to Case 1 and all the existing cases that originated in Q2 and Q3, unless the agent removes the cases that originated in the removed mailboxes Q2 and Q3, from the reply email’s related attribute before sending the outbound email to the customer. If you have performed [timeline customization](arc-agent-scenario.md#timeline-customization), the agent’s outbound email sent from Case 1 timeline will be associated with only Case 1 and the C2’s response to the agent’s email will only be associated with Case 1.  
+When a customer replies from the Inbox to the agent’s outbound email sent from Case 1 timeline (after removing other mailboxes Q2 and Q3), the automatic record creation rule skips the case creation, and the reply gets linked to Case 1 and all the existing cases that originated in Q2 and Q3, unless the agent removes the cases that originated in the removed mailboxes Q2 and Q3, from the reply email’s related attribute before sending the outbound email to the customer. If you performed [timeline customization](arc-agent-scenario.md#timeline-customization), the agent’s outbound email sent from Case 1 timeline is associated with only Case 1, and the C2’s response to the agent’s email is only associated with Case 1.  
 
 ### Replies to an agent’s email from Inbox to a different queue
 
@@ -57,7 +57,7 @@ When a customer replies from the Inbox to the agent’s outbound email sent from
 
 ### Replies to an agent’s email with the same queue on a closed case
 
-If the **Wait for specific amount of time after the connected case has been resolved** toggle is set to **Yes** and the time configured in the setting hasn’t elapsed, no case gets created. If the time has elapsed, new cases get created for that queue.
+If the **Wait for specific amount of time after the connected case has been resolved** toggle is set to **Yes** and the time configured in the setting hasn’t elapsed, no case gets created. If the time has elapsed, new cases are created for that queue.
 
 ## Customer forwards an email
 
@@ -67,9 +67,9 @@ When a customer forwards an email from their Inbox to the same queues, the respo
 
 ### Forwards an agent’s reply email to a new queue from Inbox
 
-When a customer forwards the agent’s reply mail from the Inbox to a new queue, automatic record creation creates a new case Case 4 for Q4 (the new queue). Email is tagged to all cases that originated in the old queues as well as to the new Case 4 that was created.
+When a customer forwards the agent’s reply mail from the Inbox to a new queue, automatic record creation creates a new case Case 4 for Q4 (the new queue). Email is tagged to all cases that originated in the old queues and to the new Case 4 that was created.
 
-However, if you don't want the forwarded email to be associated with the existing cases that originated in the earlier queues, you'll need to perform [customization](#customization).
+However, if you don't want the forwarded email to be associated with the existing cases that originated in the earlier queues, you need to perform [customization](#customization).
 
 ### Forwards an original email to same queue from Sent Items
 
