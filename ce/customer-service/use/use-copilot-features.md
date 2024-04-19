@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 04/10/2024
+ms.date: 04/19/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
