@@ -18,7 +18,7 @@ As an admin, you can customize the views of work orders and bookings. You can al
 
 Customize the work order form with the most important information for your organization. Any fields you add to the form are readily available to your users when creating and updating a work order in Outlook or Teams. In Outlook, Copilot also attempts to populate those fields if there's relevant information provided in the email. Customize the booking experience with the key details for your organization so workers fill out that information when updating their bookings.
 
-The Microsoft 365 integrations for Field Service utilize views in Power Apps to customize the forms for users creating and editing work orders and bookings. Any fields added to the view show on the forms, in the order specified in the view. Required field indicators show which fields are required in the table definition. We currently support customized views of the **Work Orders** and **Bookable resource booking** experiences.
+The Microsoft 365 integrations for Field Service use views in Power Apps to customize the forms for users creating and editing work orders and bookings. Any fields added to the view show on the forms, in the order specified in the view. Required field indicators show which fields are required in the table definition. We currently support customized views of the **Work Orders** and **Bookable resource booking** experiences.
 
 Use views to:
 1. Reorder and remove fields
@@ -27,7 +27,7 @@ Use views to:
 
 :::image type="content" source="media/fsp-flw-customize-overview.png" alt-text="Example of a customized work order form in Field Service Outlook and Teams":::
 
-The Microsoft 365 integrations for Field Service utilize table properties in Power Apps to customize work order labels. For example, if you prefer to call work orders jobs, you can customize these labels in the UI. We currently support customized labels for work orders.
+The Microsoft 365 integrations for Field Service use table properties in Power Apps to customize work order labels. For example, if you prefer to call work orders jobs, you can customize these labels. We currently support customized labels for work orders.
 
 ## Prerequisites
 
