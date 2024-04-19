@@ -1,7 +1,7 @@
 ---
 title: Ask questions of Copilot
 description: Learn how to ask Copilot in Dynamics 365 Sales questions to know what's new with your leads, opportunities, accounts, and records assigned to you.
-ms.date: 04/26/2024
+ms.date: 04/19/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
