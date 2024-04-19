@@ -23,7 +23,7 @@ No new features or enhancements were released in March 2024. We'll be back with 
 
 | Feature area | Feature | Description | Resources | Turned on | Availability |
 |---|---|---|---|---|---|
-| Copilot | Get content recommendations from SharePoint  | Ask Copilot to get you the list of SharePoint documents related to products in an opportunity. | [Documentation](copilot-get-doc-suggestions.md#get-content-recommendations-from-sharepoint) | By Admin | Public preview |
+| Copilot | Get content recommendations from SharePoint  | Ask Copilot to get you the list of SharePoint documents related to products in an opportunity. | [Documentation](copilot-get-doc-suggestions.md#copilot-content-recommendation) | By Admin | Public preview |
 | Forecasting | Out-of-the-box forecasting | Explore forecasting with zero configuration using the out-of-the-box forecasting | [Documentation](view-forecasts.md#out-of-the-box-forecast-preview) | For all users | Public preview |
 | Seller experience | New look with refreshed styling | Experience the new look by default as it’ll be auto-enabled. | None | For all users | Early access |
 | Opportunity management | Pre-populate values in the Opportunity Close form | Close opportunities effortlessly by prepopulating attributes from the corresponding opportunity | [Documentation](customize-opportunity-close-experience.md#step-4-pre-populate-values-in-the-opportunity-close-form-from-the-corresponding-opportunity) | By admins | GA |
