@@ -1,7 +1,7 @@
 ---
 title: Set up Field Service integration with finance and operations applications
 description: Set up the Dynamics 365 Field Service integration with finance and operations to synchronize inventories and budgeting items between the applications.
-ms.date: 04/16/2024
+ms.date: 04/19/2024
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
