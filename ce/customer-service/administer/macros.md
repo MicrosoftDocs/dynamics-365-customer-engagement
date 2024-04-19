@@ -1,6 +1,6 @@
 ---
 title: Configure macros to improve agent productivity
-description: "This topic provides information about the different macros that can be made available to agents and how to configure them in app profile manager."
+description: "This article provides information about the different macros that can be made available to agents and how to configure them in app profile manager."
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -24,38 +24,39 @@ Macros are a set of sequential actions that are performed by a user. They enable
 
 More information: [Assign roles and enable users](../implement/add-users-assign-roles.md)
 
-## Create a Macro
+## Create macros
 
 Perform the following steps to create a macro in Customer Service admin center:
 1. Go to **Productivity** in **Agent experience**. 
-2.  Select **Manage** for **Macros**. 
-3. Select **New**. In the **Macros** page, specify a name and description for the macro. The first step for the macro is always **Start macro execution**.
+2. Select **Manage** for **Macros**. 
+3. Select **New**. 
+1. In the **Macros** page, specify a name and description for the macro.
+
+Make sure you always begin the creation of any macro with the **Start macro execution** step.
 
 ### Trigger macros
 
-A macro can be triggered as follows:
+The following actions can trigger a macro:
 
 - Agents can run [macros](../use/oc-agent-scripts.md#macro) from the **Productivity** pane in the Customer Service workspace app.
-- Through an [API](../develop/reference/methods/runMacro.md)
-
-For more information on agent experience profiles, session templates, agent script, agent script steps and macros, download the Customer Service workspace in a day training.
+- Through an [API](../develop/reference/methods/runMacro.md) call
 
 
 ## Predefined automation actions
 
-In Customer Service, macros provide three connectors:
+You can use the following predefined automation actions to create macros:
 
 - [Productivity automation](macros-productivity-automation.md): Provides actions to perform model-driven app operations. Productivity automation macros allow you to automate tasks such as opening and updating records, opening views, resolving cases, searching the knowledge base, record cloning, setting focus to another agent script, opening email templates, auto filling form fields, setting and retrieving variables and values in the session context.
 
-- [Session connector](macros-session-action.md): Provides actions to perform session-related operations. Session connector macros enables you to add actions such as getting the ID of a tab, refreshing a tab, passing the tab id, setting focus to a tab based on the tab id, opening a tab template, and refreshing session context.
+- [Session connector](macros-session-action.md): Provides actions to perform session-related operations. Session connector macros enable you to add actions such as getting the ID of a tab, refreshing a tab, passing the tab id, setting focus to a tab based on the tab id, opening a tab template, and refreshing session context.
 
-- [Omnichannel connector](macros-omnichannel-action.md): Provides actions to perform Omnichannel for Customer Service&ndash;related operations.  Omnichannel connector macros allow you to link and unlink records to conversations.
+- [Omnichannel connector](macros-omnichannel-action.md): Provides actions to perform Omnichannel for Customer Service&ndash;related operations. Omnichannel connector macros allow you to link and unlink records to conversations.
 
 - Flow connector: Allows you to execute a Power Automate flow.
 
 ## Pass session context variables to macros
 
-In a macro, you can pass dynamic values such as customer name or customer id as parameters during the macro execution. The information is stored in the session context as a key value pair. A session context variable is also known as a [slug](automation-dictionary-keys.md#slugs). 
+In a macro, you can pass dynamic values such as customer name or customer id as parameters during macro execution. The information is stored in the session context as a key value pair. A session context variable is also known as a [slug](automation-dictionary-keys.md#slugs). 
  
 
 ### Records 
@@ -103,7 +104,7 @@ You can also retrieve a value from a related record using oData query. For examp
 
 ### Additional tabs 
 
-When an agent opens an entity record, the session context is populated with attributes from the record in the anchor tab. Records open in the additional tabs of the same session aren't used in the session context. However, you can access the name of the entity and the entity record id as fillows: 
+When an agent opens an entity record, the session context is populated with attributes from the record in the anchor tab. Records open in the additional tabs of the same session aren't used in the session context. However, you can access the name of the entity and the entity record id as follows: 
  
 `${Session.CurrentTab.entityId} : 0e8642d7-c2ae-ea11-a812-000d3a1b14a2 `
 `${Session.CurrentTab.entityName} : account `
