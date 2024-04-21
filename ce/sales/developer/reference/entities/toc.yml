@@ -1,0 +1,150 @@
+items:
+- name: "About Microsoft Dynamics 365 Sales Table/Entity Reference"
+  href: ../about-entity-reference.md
+- name: "ActionCard"
+  displayName: "ActionCard entity"
+  href: actioncard.md
+- name: "ActivityParty"
+  displayName: "ActivityParty entity"
+  href: activityparty.md
+- name: "ActivityPointer"
+  displayName: "ActivityPointer entity"
+  href: activitypointer.md
+- name: "adx_inviteredemption"
+  displayName: "adx_inviteredemption entity"
+  href: adx_inviteredemption.md
+- name: "adx_portalcomment"
+  displayName: "adx_portalcomment entity"
+  href: adx_portalcomment.md
+- name: "Annotation"
+  displayName: "Annotation entity"
+  href: annotation.md
+- name: "Appointment"
+  displayName: "Appointment entity"
+  href: appointment.md
+- name: "AsyncOperation"
+  displayName: "AsyncOperation entity"
+  href: asyncoperation.md
+- name: "botcontentpack"
+  displayName: "botcontentpack entity"
+  href: botcontentpack.md
+- name: "BulkDeleteFailure"
+  displayName: "BulkDeleteFailure entity"
+  href: bulkdeletefailure.md
+- name: "chat"
+  displayName: "chat entity"
+  href: chat.md
+- name: "Connection"
+  displayName: "Connection entity"
+  href: connection.md
+- name: "DuplicateRecord"
+  displayName: "DuplicateRecord entity"
+  href: duplicaterecord.md
+- name: "DuplicateRule"
+  displayName: "DuplicateRule entity"
+  href: duplicaterule.md
+- name: "Email"
+  displayName: "Email entity"
+  href: email.md
+- name: "Fax"
+  displayName: "Fax entity"
+  href: fax.md
+- name: "Feedback"
+  displayName: "Feedback entity"
+  href: feedback.md
+- name: "FileAttachment"
+  displayName: "FileAttachment entity"
+  href: fileattachment.md
+- name: "flowevent"
+  displayName: "flowevent entity"
+  href: flowevent.md
+- name: "ImportMap"
+  displayName: "ImportMap entity"
+  href: importmap.md
+- name: "Letter"
+  displayName: "Letter entity"
+  href: letter.md
+- name: "MailboxTrackingFolder"
+  displayName: "MailboxTrackingFolder entity"
+  href: mailboxtrackingfolder.md
+- name: "msdyn_callablecontext"
+  displayName: "msdyn_callablecontext entity"
+  href: msdyn_callablecontext.md
+- name: "msdyn_connectordatasource"
+  displayName: "msdyn_connectordatasource entity"
+  href: msdyn_connectordatasource.md
+- name: "msdyn_federatedarticleincident"
+  displayName: "msdyn_federatedarticleincident entity"
+  href: msdyn_federatedarticleincident.md
+- name: "msdyn_playbookactivity"
+  displayName: "msdyn_playbookactivity entity"
+  href: msdyn_playbookactivity.md
+- name: "msdyn_richtextfile"
+  displayName: "msdyn_richtextfile entity"
+  href: msdyn_richtextfile.md
+- name: "msdyn_sequencetarget"
+  displayName: "msdyn_sequencetarget entity"
+  href: msdyn_sequencetarget.md
+- name: "NewProcess"
+  displayName: "NewProcess entity"
+  href: newprocess.md
+- name: "PhoneCall"
+  displayName: "PhoneCall entity"
+  href: phonecall.md
+- name: "PostFollow"
+  displayName: "PostFollow entity"
+  href: postfollow.md
+- name: "PostRegarding"
+  displayName: "PostRegarding entity"
+  href: postregarding.md
+- name: "PrincipalObjectAttributeAccess"
+  displayName: "PrincipalObjectAttributeAccess entity"
+  href: principalobjectattributeaccess.md
+- name: "ProcessSession"
+  displayName: "ProcessSession entity"
+  href: processsession.md
+- name: "QueueItem"
+  displayName: "QueueItem entity"
+  href: queueitem.md
+- name: "RecurringAppointmentMaster"
+  displayName: "RecurringAppointmentMaster entity"
+  href: recurringappointmentmaster.md
+- name: "SharePointDocumentLocation"
+  displayName: "SharePointDocumentLocation entity"
+  href: sharepointdocumentlocation.md
+- name: "SimilarityRule"
+  displayName: "SimilarityRule entity"
+  href: similarityrule.md
+- name: "SLA"
+  displayName: "SLA entity"
+  href: sla.md
+- name: "SLAKPIInstance"
+  displayName: "SLAKPIInstance entity"
+  href: slakpiinstance.md
+- name: "SocialActivity"
+  displayName: "SocialActivity entity"
+  href: socialactivity.md
+- name: "SocialProfile"
+  displayName: "SocialProfile entity"
+  href: socialprofile.md
+- name: "SyncError"
+  displayName: "SyncError entity"
+  href: syncerror.md
+- name: "SystemUser"
+  displayName: "SystemUser entity"
+  href: systemuser.md
+- name: "Task"
+  displayName: "Task entity"
+  href: task.md
+- name: "Team"
+  displayName: "Team entity"
+  href: team.md
+- name: "Template"
+  displayName: "Template entity"
+  href: template.md
+- name: "Territory"
+  displayName: "Territory entity"
+  href: territory.md
+- name: "Workflow"
+  displayName: "Workflow entity"
+  href: workflow.md
