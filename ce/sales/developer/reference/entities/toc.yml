@@ -16,12 +16,6 @@ items:
 - name: "adx_portalcomment"
   displayName: "adx_portalcomment entity"
   href: adx_portalcomment.md
-- name: "adx_webformsession"
-  displayName: "adx_webformsession entity"
-  href: adx_webformsession.md
-- name: "AIPlugin"
-  displayName: "AIPlugin entity"
-  href: aiplugin.md
 - name: "Annotation"
   displayName: "Annotation entity"
   href: annotation.md
@@ -79,15 +73,21 @@ items:
 - name: "msdyn_connectordatasource"
   displayName: "msdyn_connectordatasource entity"
   href: msdyn_connectordatasource.md
-- name: "msdyn_consoleappparameterdefinition"
-  displayName: "msdyn_consoleappparameterdefinition entity"
-  href: msdyn_consoleappparameterdefinition.md
+- name: "msdyn_copilotinteraction"
+  displayName: "msdyn_copilotinteraction entity"
+  href: msdyn_copilotinteraction.md
+- name: "msdyn_copilotinteractiondata"
+  displayName: "msdyn_copilotinteractiondata entity"
+  href: msdyn_copilotinteractiondata.md
+- name: "msdyn_copilottranscript"
+  displayName: "msdyn_copilottranscript entity"
+  href: msdyn_copilottranscript.md
+- name: "msdyn_copilottranscriptdata"
+  displayName: "msdyn_copilottranscriptdata entity"
+  href: msdyn_copilottranscriptdata.md
 - name: "msdyn_federatedarticleincident"
   displayName: "msdyn_federatedarticleincident entity"
   href: msdyn_federatedarticleincident.md
-- name: "msdyn_ocsentimentdailytopic"
-  displayName: "msdyn_ocsentimentdailytopic entity"
-  href: msdyn_ocsentimentdailytopic.md
 - name: "msdyn_playbookactivity"
   displayName: "msdyn_playbookactivity entity"
   href: msdyn_playbookactivity.md

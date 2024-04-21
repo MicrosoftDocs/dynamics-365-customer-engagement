@@ -50,51 +50,51 @@ Changes from [Record1ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer
 
 |Value|Label|
 |---|---|
-|123|**Competitor**|
-|10537|**Profile Album**|
-|1084|**Quote**|
-|1088|**Order**|
-|10552|**Customer Voice survey invite**|
-|10554|**Customer Voice survey response**|
-|10542|**Customer Voice alert**|
-|10344|**IoT Device**|
-|10345|**IoT Device Category**|
-|10329|**Customer Asset**|
-|10343|**IoT Alert**|
-|1090|**Invoice**|
-|3|**Opportunity**|
-|10346|**IoT Device Command**|
-|10350|**IoT Device Registration History**|
-|10590|**Copilot Transcript**|
-|1010|**Contract**|
-|9700|**Entitlement**|
-|10806|**Suggestion Principal Object Access**|
-|4007|**Resource Group**|
-|4005|**Scheduling Group**|
-|4214|**Service Activity**|
-|4000|**Facility/Equipment**|
-|112|**Case**|
-|10667|**Session**|
-|10773|**Sequence**|
-|10638|**Ongoing conversation (Deprecated)**|
-|10650|**Conversation**|
-|10790|**Assignment Map**|
-|10797|**Insight**|
-|10775|**Sequence Target**|
-|10787|**Assignment Rule**|
-|1024|**Product**|
 |4400|**Campaign**|
-|4|**Lead**|
-|1022|**Price List**|
+|10350|**IoT Device Registration History**|
 |9701|**Entitlement Channel**|
-|9703|**Entitlement Template Channel**|
-|4402|**Campaign Activity**|
-|4300|**Marketing List**|
-|10261|**Invitation**|
-|10283|**Shortcut**|
-|10295|**Website**|
-|10262|**Invite Redemption**|
+|10787|**Assignment Rule**|
+|10790|**Assignment Map**|
+|4000|**Facility/Equipment**|
+|4|**Lead**|
+|10346|**IoT Device Command**|
+|10344|**IoT Device**|
+|3|**Opportunity**|
+|112|**Case**|
+|10775|**Sequence Target**|
+|10650|**Conversation**|
+|10773|**Sequence**|
 |10281|**Publishing State Transition Rule**|
+|10261|**Invitation**|
+|10329|**Customer Asset**|
+|10552|**Customer Voice survey invite**|
+|4007|**Resource Group**|
+|10283|**Shortcut**|
+|4214|**Service Activity**|
+|1024|**Product**|
+|9700|**Entitlement**|
+|10797|**Insight**|
+|10345|**IoT Device Category**|
+|1010|**Contract**|
+|1022|**Price List**|
+|10667|**Session**|
+|4402|**Campaign Activity**|
+|10638|**Ongoing conversation (Deprecated)**|
+|10537|**Profile Album**|
+|123|**Competitor**|
+|1088|**Order**|
+|4300|**Marketing List**|
+|10343|**IoT Alert**|
+|10554|**Customer Voice survey response**|
+|1084|**Quote**|
+|9703|**Entitlement Template Channel**|
+|10262|**Invite Redemption**|
+|10590|**Copilot Transcript**|
+|4005|**Scheduling Group**|
+|1090|**Invoice**|
+|10806|**Suggestion Principal Object Access**|
+|10295|**Website**|
+|10542|**Customer Voice alert**|
 
 ### <a name="BKMK_Record2Id"></a> Record2Id
 
@@ -114,51 +114,51 @@ Changes from [Record2ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer
 
 |Value|Label|
 |---|---|
-|10537|**Profile Album**|
-|1088|**Order**|
-|123|**Competitor**|
-|10552|**Customer Voice survey invite**|
-|10554|**Customer Voice survey response**|
-|10542|**Customer Voice alert**|
-|10345|**IoT Device Category**|
-|10346|**IoT Device Command**|
-|10343|**IoT Alert**|
-|10344|**IoT Device**|
-|3|**Opportunity**|
-|1084|**Quote**|
-|10350|**IoT Device Registration History**|
-|1090|**Invoice**|
-|10590|**Copilot Transcript**|
-|1010|**Contract**|
-|9700|**Entitlement**|
-|10806|**Suggestion Principal Object Access**|
-|4007|**Resource Group**|
-|4005|**Scheduling Group**|
-|4214|**Service Activity**|
-|4000|**Facility/Equipment**|
-|112|**Case**|
-|10667|**Session**|
-|10773|**Sequence**|
-|10638|**Ongoing conversation (Deprecated)**|
-|10650|**Conversation**|
-|10790|**Assignment Map**|
-|10797|**Insight**|
-|10775|**Sequence Target**|
-|10787|**Assignment Rule**|
-|4400|**Campaign**|
-|4402|**Campaign Activity**|
 |1022|**Price List**|
-|1024|**Product**|
-|9703|**Entitlement Template Channel**|
-|10329|**Customer Asset**|
-|4300|**Marketing List**|
-|9701|**Entitlement Channel**|
-|10261|**Invitation**|
-|10262|**Invite Redemption**|
-|10295|**Website**|
-|4|**Lead**|
-|10281|**Publishing State Transition Rule**|
 |10283|**Shortcut**|
+|1024|**Product**|
+|10806|**Suggestion Principal Object Access**|
+|10295|**Website**|
+|4007|**Resource Group**|
+|10650|**Conversation**|
+|9703|**Entitlement Template Channel**|
+|10537|**Profile Album**|
+|10345|**IoT Device Category**|
+|10590|**Copilot Transcript**|
+|4400|**Campaign**|
+|9701|**Entitlement Channel**|
+|10343|**IoT Alert**|
+|10797|**Insight**|
+|10554|**Customer Voice survey response**|
+|10281|**Publishing State Transition Rule**|
+|4402|**Campaign Activity**|
+|10261|**Invitation**|
+|1088|**Order**|
+|10638|**Ongoing conversation (Deprecated)**|
+|123|**Competitor**|
+|10790|**Assignment Map**|
+|10350|**IoT Device Registration History**|
+|10775|**Sequence Target**|
+|10346|**IoT Device Command**|
+|4005|**Scheduling Group**|
+|4000|**Facility/Equipment**|
+|10329|**Customer Asset**|
+|4|**Lead**|
+|10787|**Assignment Rule**|
+|10542|**Customer Voice alert**|
+|10667|**Session**|
+|10262|**Invite Redemption**|
+|112|**Case**|
+|4214|**Service Activity**|
+|1084|**Quote**|
+|10344|**IoT Device**|
+|10773|**Sequence**|
+|1090|**Invoice**|
+|9700|**Entitlement**|
+|3|**Opportunity**|
+|10552|**Customer Voice survey invite**|
+|1010|**Contract**|
+|4300|**Marketing List**|
 
 
 

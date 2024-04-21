@@ -27,19 +27,6 @@ Record that was not deleted during a bulk deletion job.
 Microsoft Dynamics 365 Sales
 modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
 
-- [OwningUser](#BKMK_OwningUser)
-- [RegardingObjectId](#BKMK_RegardingObjectId)
-
-### <a name="BKMK_OwningUser"></a> OwningUser
-
-Changes from [OwningUser (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/bulkdeletefailure#BKMK_OwningUser):
-
-|Property|Value|
-|---|---|
-|Description|Unique identifier of the user who owns the bulk deletion failure record.
-|
-
-
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
 Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/bulkdeletefailure#BKMK_RegardingObjectId):
