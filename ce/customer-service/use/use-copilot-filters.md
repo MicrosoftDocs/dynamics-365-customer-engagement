@@ -23,7 +23,7 @@ For example, your organization has several departments and you work only on cred
 
 If your administrator has enabled automated filters for the case based on the location of the customer's account, Copilot applies the filter automatically when you open the case. You can change the filter as required.
 
-When both the filters are applied, Copilot generates responses based on the credit card filter and the automated filter.
+When both the filters are applied, Copilot generates responses based on both the filters.
 
 To apply a filter, perform the following steps:
 
