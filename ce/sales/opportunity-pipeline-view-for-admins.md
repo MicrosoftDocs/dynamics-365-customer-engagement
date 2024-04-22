@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 04/16/2024
+ms.date: 04/22/2024
 ms.custom: bap-template 
 ---
 
@@ -55,12 +55,15 @@ Open the settings page to configure and customize the opportunity pipeline view 
 > [!NOTE]
 > If you only have the Sales Professional license, append the following URL after the base URL of your Sales Professional app: `&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`. Example: `https://contoso.crm.dynamics.com/main.aspx?appid=9f1002bf-ce2d-ed11-9db1-0022480a772e&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`.
 
-1. In the Sales Hub Change area, select **App Settings**.
+1. Do one of the following depending on your license:
 
-1. Under **General Settings**, select **Opportunity pipeline view**.
+    - If you have the Sales Enterprise or Sales Premium license, select **App Settings** from the Sales Hub Change area and then select **Opportunity pipeline view** under **General Settings**. 
 
-    :::image type="content" source="media/pipeline-view-settings-small.png" alt-text="Screenshot of the opportunity pipeline view settings page." lightbox="media/pipeline-view-settings.png"::: 
+    - If you have the Sales Professional license, append the following URL after the base URL of your Sales Professional app: `&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`. Example: `https://contoso.crm.dynamics.com/main.aspx?appid=9f1002bf-ce2d-ed11-9db1-0022480a772e&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`.
+  
 
+    :::image type="content" source="media/pipeline-view-settings-small.png" alt-text="Screenshot of the opportunity pipeline view settings page." lightbox="media/pipeline-view-settings.png":::
+  
 ## Set the default form for side panel
 
 When sellers open an opportunity from the pipeline view, the side panel displays the opportunity details in the Sales Insights form. You can change the default form to the main opportunity form or a custom form for your organization. For example, you can create a custom form specifically for the side panel and set that as default. Sellers can switch to a different form if they prefer and their selection will be remembered and set as a default for them.  
