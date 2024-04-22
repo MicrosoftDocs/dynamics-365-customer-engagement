@@ -1,7 +1,7 @@
 ---
-title: "Integrate LinkedIn Sales Navigator with Dynamics 365 Sales"
-description: "Learn how to integrate the Sales Navigator solutions with Dynamics 365 Sales to enhance your business processes with data about people and organizations."
-ms.date: 04/30/2019
+title: Integrate LinkedIn Sales Navigator with Dynamics 365 Sales
+description: Learn how to integrate the Sales Navigator solutions with Dynamics 365 Sales to enhance your business processes with data about people and organizations.
+ms.date: 04/19/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -28,25 +28,30 @@ Two flavors of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigat
 
 The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead** control shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. This control has the following sections, which you can choose to show or hide: 
 
-- **Top Card**: shows information about the person like name, headline, and more. Additionally, it provides capabilities to message or save the person as a lead in Sales Navigator. 
+- **Top Card**: Shows information about the person like name, headline, and more. Additionally, it provides capabilities to message or save the person as a lead in Sales Navigator. 
 
-- **News (Icebreakers)**: shows the person’s highlights, activities, conversation starters, and more.
+- **News (Icebreakers)**: Shows the person’s highlights, activities, conversation starters, and more.
 
-- **Connections (Get Introduced)**: shows the mutual connections and allows for a warm introduction to the person. 
+- **Connections (Get Introduced)**: Shows the mutual connections and allows for a warm introduction to the person. 
 
-- **Related Leads**: shows potential Sales Navigator leads who are similar to the target person and might represent the relevant stakeholders around them. On a sales scenario, this insight is crucial to identify the potential decision-makers for a deal. 
+- **Related Leads**: Shows potential Sales Navigator leads who are similar to the target person and might represent the relevant stakeholders around them. On a sales scenario, this insight is crucial to identify the potential decision-makers for a deal. 
 
 The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account** control shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] company profile. This control has four modules, which you can choose to show or hide: 
 
-- **Top Card**: shows information about the company like company name, industry, location, and more. Additionally, provides capabilities to view the related account and save it in Sales Navigator. 
+- **Top Card**: Shows information about the company like company name, industry, location, and more. Additionally, provides capabilities to view the related account and save it in Sales Navigator. 
 
-- **News**: shows the latest news of this company. 
+- **News**: Shows the latest news of this company. 
 
-- **Connections**: shows relevant connections for this company that can establish a first contact. 
+- **Connections**: Shows relevant connections for this company that can establish a first contact. 
 
-- **Recommended Leads**: shows the recommended potential leads in this company that may be opportunities open for the next deal. 
+- **Find Key People**: Shows the recommended leads or contacts in the company who can help you connect with the customer and establish a relationship. With the LinkedIn Sales Navigator Advanced Plus license, you can uncover leads that closely match your selected target buyer's persona and access more insights about the leads. For Sales Navigator Advanced users, this control shows only lead recommendations without the ability to search based on buyer persona. For more information about integrating this control, see [Account module reference](/linkedin/sales/display-services/accounts-screenshots_full#find-people). The following image shows the enhanced insights, such as TeamLink and mutual connection details, available with the Advanced Plus license.
 
-Both controls also provide an alternate version, which takes a lookup (entity reference) attribute instead of the attributes described above. 
+    :::image type="content" source="media/find-people-linkedin.png" alt-text="Screenshot of Find People section in the LinkedIn Sales Navigator control" lightbox="media/find-people-linkedin.png":::
+  
+    > [!NOTE]
+    > Features that connect to the CRM such as Add to CRM require [CRM sync to be enabled](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback).
+
+Both **Sales Navigator Lead** and **Sales Navigator Account** controls also provide an alternate version, which takes a lookup (entity reference) attribute that allow users to search for LinkedIn profiles.
 
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead lookup** control: the name of the referenced entity is used as the member's first name and last name. The string is separated by white spaces and the first component is considered the first name while the remaining components are considered last names.
 
