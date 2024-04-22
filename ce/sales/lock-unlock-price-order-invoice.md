@@ -1,12 +1,11 @@
 ---
-title: Lock or unlock the price for an order or invoice 
-description: Define whether the prices on orders and invoices in Dynamics 365 Sales will be locked.
+title: Lock or unlock the price for an order or invoice
+description: Enable or disable price updates for finalized orders or invoices in Sales Hub, ensuring control over pricing changes.
 ms.date: 04/22/2024
 author: lavanyakr01
 ms.author: lavanyakr
-ms.topic: how-to 
-ms.custom: bap-template 
-searchScope: 
+ms.topic: how-to
+searchScope:
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
   - D365-Entity-salesorder
@@ -15,6 +14,11 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:04/22/2024
 ---
 # Lock or unlock the price for an order or invoice (Sales Hub) 
 
