@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greeting and verifying a customer, sending acknowledgment mail, and taking notes. These clicks and repetitive tasks can lead to human errors when agents copy and paste the data across different operations.
 
-Macros are a set of sequential actions that are performed by a user. They enable users to perform daily operations efficiently in a fast and process-compliant manner. You can reuse macros with different sessions based on the context parameters that are specific to the session.
+Macros are a set of sequential actions that a user performs. They enable users to perform daily operations efficiently in a fast and process-compliant manner. You can reuse macros with different sessions based on the context parameters that are specific to the session.
 
 
 ## Prerequisites
@@ -46,9 +46,9 @@ The following actions can trigger a macro:
 
 You can use the following predefined automation actions to create macros:
 
-- [Productivity automation](macros-productivity-automation.md): Provides actions to perform model-driven app operations. Productivity automation macros allow you to automate tasks such as opening and updating records, opening views, resolving cases, searching the knowledge base, record cloning, setting focus to another agent script, opening email templates, auto filling form fields, setting and retrieving variables and values in the session context.
+- [Productivity automation](macros-productivity-automation.md): Provides actions to perform model-driven app operations. You can use these actions to automates tasks such as opening and updating records, opening views, resolving cases, searching the knowledge base, record cloning, setting focus to another agent script, opening email templates, auto filling form fields, setting and retrieving variables and values in the session context.
 
-- [Session connector](macros-session-action.md): Provides actions to perform session-related operations. Session connector macros enable you to add actions such as getting the ID of a tab, refreshing a tab, passing the tab id, setting focus to a tab based on the tab id, opening a tab template, and refreshing session context.
+- [Session connector](macros-session-action.md): Provides actions to perform session-related operations. You can use these actions to get the ID of a tab, refresh a tab, pass the tab id, set focus to a tab based on the tab id, open a tab template, and refresh session context.
 
 - [Omnichannel connector](macros-omnichannel-action.md): Provides actions to perform Omnichannel for Customer Service&ndash;related operations. Omnichannel connector macros allow you to link and unlink records to conversations.
 
@@ -58,7 +58,7 @@ You can use the following predefined automation actions to create macros:
 
 In a macro, you can pass dynamic values such as customer name or customer id as parameters during macro execution. The information is stored in the session context as a key-value pair. A session context variable is also known as a [slug](automation-dictionary-keys.md#slugs). 
 
-When an agent opens a case, conversation, or an additional tab in the session, the session context is populated as follows:
+When an agent opens a case, conversation, or another tab in the session, the session context is populated as follows:
  
 - **Case**: The case is the anchor tab or the first tab of the session. The session context is populated with the attributes and values from the case record and is stored in the browser memory. Examples of session context variables populated from the case record as follows:  
 

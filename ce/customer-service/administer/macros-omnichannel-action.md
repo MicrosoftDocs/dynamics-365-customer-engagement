@@ -22,7 +22,7 @@ You can use the actions any number of times across different macros to automate 
 
 ## Link record to the conversation
 
-This action links a record to the conversation when the customer is communicating with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
+Links a record to the conversation when the customer communicates with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|
@@ -43,7 +43,7 @@ Perform the following steps to create a case from an Omnichannel conversation. T
  
 ## Unlink record from the conversation
 
-This action unlinks a record from the conversation when the customer is communicating with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
+Unlinks a record from the conversation when the customer is communicating with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|
@@ -61,7 +61,7 @@ Add the **Unlink record from the conversation** action with the following attrib
 
 #### Send knowledge base article link in chat
 
-This action sends a knowledge base article link to the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. Make sure that you switch the **Use an external portal** toggle to **Yes**. More information: [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management)
+Sends a knowledge base article link to the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. Make sure that you switch the **Use an external portal** toggle to **Yes**. More information: [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management)
 
 The action contains the following field.
 

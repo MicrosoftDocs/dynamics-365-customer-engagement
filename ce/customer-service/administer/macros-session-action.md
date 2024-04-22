@@ -1,6 +1,6 @@
 ---
 title: Use session connector macros
-description: Learn how to use session connector to create macros
+description: Learn how to use session connector to create macros.
 author: gandhamm
 ms.author: mgandham
 ms.topic: conceptual 
@@ -21,7 +21,7 @@ This action gets the details of the current tab in Customer Service. The action 
 
 ## Refresh the tab
 
-This action refreshes a tab in the Customer Service workspace session. This action contains the following field.
+Refreshes a tab in the Customer Service workspace session. This action contains the following field.
 
    | Field | Description |
    |-----------------|-----------------------------|
@@ -40,7 +40,7 @@ Perform the following steps to create a macro to resolve a case, get the ID, and
  
 ## Focus on the tab
 
-This action focuses on a tab in the Customer Service workspace session. This action contains the following field.
+Enables you to focus on a tab in the Customer Service workspace session. This action contains the following field.
 
    | Field | Description | 
    |-----------------|-----------------------------|
@@ -57,7 +57,7 @@ Perform the following steps to create a macro that creates a task from a case an
 
 #### Open application tab
 
-This action opens the specified application in a new tab with the attributes that you define. The action contains the following fields.
+Opens the specified application in a new tab with the attributes you define. The action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|
@@ -77,7 +77,7 @@ To create a macro that opens a tab template passing the tab template's unique na
 
 ## Refresh the session context
 
-This action refreshes the session context in Customer Service workspace for entity sessions. For example, if you launch an entity session for a case record, the session context variables are defined when the session starts. However, if you update the case title, the session context won't be updated. Therefore, macros use the cached information. You can add the **Refresh the session context** step after starting the macro run to use the latest information.
+Refreshes the session context in Customer Service workspace for entity sessions. For example, if you launch an entity session for a case record, the session context variables are defined when the session starts. However, if you update the case title, the session context isn't updated. Therefore, macros use the cached information. You can add the **Refresh the session context** step after starting the macro run to use the latest information.
 
 ### Example: Update the case title and then create a task with the updated case title 
 
@@ -95,7 +95,7 @@ Perform the following steps to create a macro that updates the case title and th
 
 ## Set session context 
 
-This action creates a variable in the session context. This is useful when you want to create your own session variables for validating conditions or tracking the navigation of the agent through the agent scripts. 
+Creates a variable in the session context. Use the action to create your own session variables to validate conditions or track how agents navigate through agent scripts. 
 
    | Field | Description | 
    |-----------------|-----------------------------|
