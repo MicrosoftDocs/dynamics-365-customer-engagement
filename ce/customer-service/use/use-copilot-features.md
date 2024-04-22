@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 03/22/2024
+ms.date: 04/19/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -11,7 +11,6 @@ ms.custom: bap-template
 ---
 
 # Use Copilot to solve customer issues
-
 
 Copilot is an AI-powered tool that revolutionizes the agent experience in Dynamics 365 Customer Service. It provides real-time assistance to resolve issues faster, handle cases more efficiently, and automate time-consuming tasks so you can focus on delivering high-quality service to your customers.
 
@@ -26,8 +25,7 @@ Copilot is an AI-powered tool that revolutionizes the agent experience in Dynami
 
 ## Prerequisites
 
-Make sure that your administrator has turned on the copilot features.
-
+Make sure that your administrator has turned on the Copilot features.
 
 ## Ask a question 
 
@@ -37,13 +35,43 @@ When you sign in to any of the Customer Service agent apps, Copilot opens in the
 
 You can ask free-form questions just as you'd ask your colleague or supervisor who might know the answers.
 
-:::image type="content" source="../media/copilot-ask-question.png" alt-text="Screenshot of the Ask a question tab in Copilot.":::
+ :::image type="content" source="../media/copilot-ask-question-mini.png" alt-text="Screenshot of the Ask a question tab in Copilot." lightbox="../media/copilot-ask-question.png":::
+
 
 With Copilot, you can take the following actions:
 
 - **Ask a direct question**: Copilot shows the most relevant answer from the knowledge sources your organization has made available.
 - **Ask follow-up turn by turn questions**: If Copilot's response isn't immediately useful, you can ask follow-up questions and guide Copilot in a natural, conversational way.
 - **Ask Copilot to attempt a better response**: Copilot can also rephrase responses based on more guidance such as, "Can you summarize your response?" or "Can you attempt a response providing details for each of the steps you mentioned?"
+
+### Use auto-prompts
+
+When you have an active case or conversation open, Copilot suggests prompts based on the context of the case or the conversation. Copilot generates prompts only for the first question and not for follow-up questions. Copilot generates the prompts as follows:
+
+- For a case, Copilot considers the title, description, notes, and emails linked to the case.
+- For a conversation, Copilot considers the intent in the first three messages to generate a prompt, and then every third message to refresh the prompts. You can select a prompt to generate a response.
+
+### View responses
+
+Copilot streams the generated responses on the UI incrementally, and you can view the responses as they are generated. You can also select **Stop responding** for Copilot to stop generating responses, allowing you to start afresh.
+
+In the Copilot's response you can see citation numbers that show the knowledge base or website links from which Copilot drew the response. When you select the citation, you can see an inline link to the source.
+
+### Translate responses
+
+If your administrator has enabled translation, you can select **Translate** and then select your preferred language to translate the response to that language. You can also select **Show original** to translate the response back to the original language.
+
+### Use targeted phrases in Copilot to get responses from plugins (preview)
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+
+If your administrator has configured prompt plugins, you can use targeted keywords to gather quick information about the case that you are working on. For example, you can use the following steps to get the account summary of a case. If Copilot doesn't find any details that match the term, then it falls back to the knowledge source to display the resolution from the configured knowledge articles.
+
+1. Open the case that you need to work on and then enter **Get account summary** in the Copilot **Ask a question** pane. Copilot summarizes the account details of the customer whose case you have opened and displays it.
+1. Select **Check sources**. The plugin that's used for generating the summary is displayed.
+1. You can use the options on the Copilot pane to edit or copy, and provide feedback on the response.
+
+    :::image type="content" source="../media/screenshot-of-prompt-plugin-response-in-copilot.png" alt-text="A screenshot of the Copilot response that's generated through the prompt plugin.":::
 
 ### Use the responses
 
