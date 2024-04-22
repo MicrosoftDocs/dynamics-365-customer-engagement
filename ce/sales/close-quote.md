@@ -38,6 +38,7 @@ When you [create an order from a quote](create-edit-order-sales.md#create-an-ord
     >- You can close a quote only when it's in the **Active** state. If you have quotes in **Draft** state, you can either delete them or activate and then close them.
     >- If you'd like to customize the quote closure experience, contact your Dynamics 365 Sales administrator. [Learn more about supported customizations](customize-quote-closure.md).
     >- If you've modified the maximum character limit for the Description attribute in the Quote entity, ensure that you make a corresponding change in the Quote Close entity as well. This is necessary to prevent potential errors or data truncation when the system copies the Description from the Quote entity to the Quote Close entity.
+
 2. Open the quote that you want to close and select **Close Quote** on the command bar. 
 3. In the **Close Quote** dialog box, enter the following information:
    - **Status Reason:** Select the status of the item. The choices available by default are Lost, Canceled, and Revised.

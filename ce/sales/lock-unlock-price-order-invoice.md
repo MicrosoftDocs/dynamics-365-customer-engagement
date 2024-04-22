@@ -34,6 +34,7 @@ After you've finalized an order or invoice for a specific price, you can lock th
 ## Lock prices or use current pricing
 
 1. In the site map, select **Orders** or **Invoices**.
+
 2. Open the order or invoice you want to edit.
 3. To lock prices, on the command bar, select the **More Commands** icon :::image type="icon" source="media/more-commands-icon.png" alt-text="Screenshot of More Commands icon" border="false":::, and then select **Lock Pricing**.
     

@@ -41,6 +41,7 @@ One way that can help you increase your sales is to add all products that your c
 Typically, you convert a quote that you have won into an order. Start with an active quote. Note that after a quote is accepted, you won't be able to revise it.
 
 1. Select the Site map icon :::image type="icon" source="media/site-map-icon.png" alt-text="Screenshot of Site map icon" border="false":::, and then select **Quotes**.
+
 2. Select the quote you want to create an order for.
 3. On the command bar, select **Activate Quote**.
 4. At the top of the **Quote** form, select **Create Order**.
@@ -64,6 +65,7 @@ Typically, you convert a quote that you have won into an order. Start with an ac
 You can create an order that is based on your communication with a customer instead of an accepted quote.
 
 1. Select the Site map icon :::image type="icon" source="media/site-map-icon.png" alt-text="Screenshot of Site map icon" border="false":::, and then select **Orders**.
+
 2. Select **New**.
 3. On the **Order** form, enter data in the following required fields:
    - **Name**. You must enter a name with a length of 100 characters or fewer. The information should be meaningful and unique. By default, these records are sorted by Name in the records list.
