@@ -1,6 +1,6 @@
 ---
-title: Omnichannel connector
-description: Learn about using SOmnichannel connector to create macros
+title: Use Omnichannel connector macros
+description: Learn about using Omnichannel connector to create macros.
 author: gandhamm
 ms.author: mgandham
 ms.topic: conceptual 
@@ -9,11 +9,11 @@ ms.date: 04/08/2024
 ms.custom: bap-template 
 ---
 
-# Omnichannel connector
+# Use Omnichannel connector macros
 
-You can use omnichannel connector to use actions to perform Omnichannel for Customer Service&ndash;related operations.  Omnichannel connector macros allow you to link and unlink records to conversations.
+You can use Omnichannel connector to use actions to perform Omnichannel for Customer Service&ndash;related operations. Omnichannel connector macros allow you to link and unlink records to conversations.
 
-As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
+You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
 
 > [!NOTE]
 > Macro actions for the Omnichannel connector is available if Customer Service workspace in Omnichannel for Customer Service is installed.
@@ -26,17 +26,17 @@ This action links a record to the conversation when the customer is communicatin
 
    | Field | Description | 
    |-----------------|-----------------------------|
-   | Entity Logical Name |  Specify the logical name of the entity that you want to link. <br> This is a mandatory field. |
-   | Entity record id| Specify the entity record ID of the entity that you want to link. <br>This is a mandatory field.| 
-   | Entity primary Name | Specify the primary name of the entity that you want to link. <br>This is a mandatory field.| 
+   | Entity Logical Name |  Specify the logical name of the entity. |
+   | Entity record id| Specify the entity record ID of the entity.| 
+   | Entity primary Name | Specify the primary name of the entity.| 
 
 
-### Example: Create a case from a Omnichannel conversation
+### Example: Create a case from conversations
 
-Perform the following steps to create a case from a Omnichannel conversation. The macro creates a case and then links it to the current conversation.
-1. Add the **Open a new form to create a record** productivity action.
-1. Add the **Save the record** action.
-1. Add the **Link record to the conversation** action with the following attributes:
+Perform the following steps to create a case from an Omnichannel conversation. The macro creates a case and then links it to the current conversation. Add the following actions:
+1. **Open a new form to create a record** 
+1. **Save the record**
+1. **Link record to the conversation** with the following attributes:
      - **Entity record ID**: `Entity record ID`
      - **Entity primary name**: `Entity primary name` 
      - **Entity logical name**: `Entity logical name`
@@ -47,9 +47,9 @@ This action unlinks a record from the conversation when the customer is communic
 
    | Field | Description | 
    |-----------------|-----------------------------|
-   | Entity Logical Name |  Specify the logical name of the entity that you want to unlink. <br> This is a mandatory field. |
-   | Entity record id| Specify the entity record ID of the entity that you want to unlink. <br>This is a mandatory field.| 
-   | Entity primary Name | Specify the primary name of the entity that you want to unlink. <br>This is a mandatory field.| 
+   | Entity Logical Name |  Specify the logical name of the entity. |
+   | Entity record id| Specify the entity record ID of the entity. | 
+   | Entity primary Name | Specify the primary name of the entity.| 
 
 ### Example: Unlink the case from the conversation
 
@@ -61,13 +61,13 @@ Add the **Unlink record from the conversation** action with the following attrib
 
 #### Send knowledge base article link in chat
 
-This action sends a knowledge base article link to the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. Make sure that your admin has switched the **Use an external portal** toggle to **Yes**. More information: [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management)
+This action sends a knowledge base article link to the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. Make sure that you switch the **Use an external portal** toggle to **Yes**. More information: [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management)
 
 The action contains the following field.
 
    | Field | Description | 
    |-----------------|-----------------------------|
-   | Entity record ID  | Specify the ID of the entity record. <br> This is a mandatory field. |
+   | Entity record ID  | Specify the ID of the entity record.|
 
 
 ## Next steps

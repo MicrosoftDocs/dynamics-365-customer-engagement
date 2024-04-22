@@ -1,6 +1,6 @@
 ---
-title: Session connector
-description: Learn about using Session connector to create macros
+title: Use session connector macros
+description: Learn how to use session connector to create macros
 author: gandhamm
 ms.author: mgandham
 ms.topic: conceptual 
@@ -9,11 +9,11 @@ ms.date: 04/08/2024
 ms.custom: bap-template 
 ---
 
-# Session connector
+# Use session connector macros
 
 You can use session connector actions to perform session-related operations. Session connector macros enable you to add actions such as getting the ID, refreshing a tab, passing the tab id, setting focus to a tab based on the tab id, opening a tab template, and refreshing session context.
 
-As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to a session in Customer Service workspace.
+You can use the actions any number of times across different macros to automate and perform operations related to a session in Customer Service workspace.
 
 ## Get the current tab 
 
@@ -27,16 +27,16 @@ This action refreshes a tab in the Customer Service workspace session. This acti
    |-----------------|-----------------------------|
    | Tab ID | Specify the ID of the tab that you want to refresh. <br> This is a mandatory field.| 
 
-### Example: Resolve a case, the get the tab ID and then refresh the tab
+### Example: Resolve a case, get tab ID, and refresh the tab
 
-Perform the following steps to create a macro to resolve a case, get the ID, and then refresh the tab.
+Perform the following steps to create a macro to resolve a case, get the ID, and then refresh the tab. Add the following actions to the macro:
 
-1. Add the **Resolve case** productivity action with the following attributes: 
+1. **Resolve case** with the following attributes: 
     - **Incident ID**: `${anchor.incidentid}`
     - **Billable time**: 0
     - **Resolution**: `Case ${anchor.ticketnumber} resolved via macros`
-1. Add the **Get the current tab** action to get the current tab and store the tab id as a dynamic value.
-1. Add the **Refresh the tab** action to set the Tab ID to the dynamic value obtained in the previous step with the **Tab ID** set to `Tab ID`.
+1. **Get the current tab** to get the current tab and store the tab id as a dynamic value.
+1. **Refresh the tab** to set the Tab ID to the dynamic value obtained in the previous step with the **Tab ID** set to `Tab ID`.
  
 ## Focus on the tab
 
@@ -48,11 +48,11 @@ This action focuses on a tab in the Customer Service workspace session. This act
 
 ### Example: Create a task from a case, then set focus back to the case form
 
-Perform the following steps to create a macro that creates a task from a case and sets focus back to the case form.
-1. Add the **Get the current tab** action. This action copies the Tab ID of the case.
-1. Add the **Open a new form to create a record** productivity action to create a new task from the case. 
-1. Add the **Save the record** productivity action.
-1. Add the **Focus on the tab** action with Tab ID set to `Tab ID`. This sets the focus back to the original tab, that is the case.
+Perform the following steps to create a macro that creates a task from a case and sets focus back to the case form. Add the following actions to the macro:
+1. **Get the current tab** to copy the Tab ID of the case.
+1. **Open a new form to create a record** to create a new task from the case. 
+1. **Save the record** 
+1. **Focus on the tab** with Tab ID set to `Tab ID`. This sets the focus back to the original tab, that is the case.
 
 
 #### Open application tab
@@ -61,10 +61,10 @@ This action opens the specified application in a new tab with the attributes tha
 
    | Field | Description | 
    |-----------------|-----------------------------|
-   | Page type | Specify  the application type to be opened. More information: [Page types](application-tab-templates.md#page-types) <br> This is a mandatory field.  |
-   | Application Template ID  | Specify the ID of the application template. <br> This is a mandatory field. |
+   | Page type | Specify  the application type to be opened. More information: [Page types](application-tab-templates.md#page-types).  |
+   | Application Template ID  | Specify the ID of the application template.|
    | Attribute Name | Specify the attribute logical name you want to update.| 
-   | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | 
+   | Attribute Value | Specify the attribute value that is updated for the above-mentioned attribute. | 
 
 ### Example: Open a tab template based on the tab template unique name
 
@@ -72,13 +72,12 @@ To create a macro that opens a tab template passing the tab template's unique na
  - **Page type**: `Entity Record`
  - **Application Template ID** :`new_tabtemplate_customer`
 
-
 > [!NOTE]
 > We recommend you use the unique name because it doesn't change when you use solutions to move components from different environments. 
 
 ## Refresh the session context
 
-This action refreshes the session context in Customer Service workspace for entity sessions. For example, if you launch an entity session for a case record, the session context variables will be defined when the session starts. However, if you update the case title, the session context will not be updated. Therefore, macros will use the cached information. You can add the **Refresh the session context** step after starting the macro run to use the latest information.
+This action refreshes the session context in Customer Service workspace for entity sessions. For example, if you launch an entity session for a case record, the session context variables are defined when the session starts. However, if you update the case title, the session context won't be updated. Therefore, macros use the cached information. You can add the **Refresh the session context** step after starting the macro run to use the latest information.
 
 ### Example: Update the case title and then create a task with the updated case title 
 
@@ -100,8 +99,8 @@ This action creates a variable in the session context. This is useful when you w
 
    | Field | Description | 
    |-----------------|-----------------------------|
-   | Attribute Name | Specify the name of the session context variable. This is a mandatory field. | 
-   | Attribute Value | Specify the value of the session context variable. This is a mandatory field. | 
+   | Attribute Name | Specify the name of the session context variable.  | 
+   | Attribute Value | Specify the value of the session context variable. | 
 
 ### Example: Create a session context variable to track the agent script path 
 

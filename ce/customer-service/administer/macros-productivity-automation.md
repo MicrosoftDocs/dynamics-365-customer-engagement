@@ -1,6 +1,6 @@
 ---
-title: Productivity automation 
-description: Learn about productivity automation macros in Dynamics 365 Customer Service.
+title: Use productivity automation macros 
+description: Learn about how to use productivity automation macros in Dynamics 365 Customer Service.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: 
@@ -11,9 +11,11 @@ ms.custom: bap-template
 ---
 
 
-# Productivity automation
+# Use productivity automation macros
 
  Productivity automation macros allow you to automate tasks such as opening and updating records and views, resolving cases, searching the knowledge base, record cloning, setting focus to another agent script, opening email templates, auto filling form fields, setting and retrieving variables and values in the session context. As an administrator, you can use the productivity automation actions any number of times across different macros to automate and perform model-driven app operations.
+
+The following sections describe the different productivity automation actions that you can use to create macros.
 
 ## Open a new form to create a record
 
@@ -27,19 +29,20 @@ This action is used to open a new form to create a record. The action contains t
    | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. |
 
 > [!NOTE]
-> This macro requires a specific pattern to set lookup values. You will need to pass the related record id, record type, and record name as separate attributes for a single lookup.
+> This action requires a specific pattern to set lookup values. You must pass the related record id, record type, and record name as separate attributes for a single lookup.
 
 ### Example 1: Create a new task from an existing case
   
-Perform the following steps to create a macro to open a task from the case.:
- 1. Add the **Open a new form to create a record** action with the following attributes:
-    - The Subject field is populated using a data parameter that retrieves the case number.
+Perform the following steps to create a macro to open a task from the case:
+
+ 1. Add the **Open a new form to create a record** action which creates a task with the following attributes:
+    -The task's subject is populated using a data parameter that retrieves the case number.
        - **Attribute Name**: subject
        - **Attribute Value**: Follow up task regrading `$(anchor.ticketnumber)`
-    - The Description field is populated with a combination of a text string and the customer email address retrieved using a oData query.
+    - The task's description is populated with a combination of a text string and the customer email address retrieved using a oData query.
        - **Attribute Name**: Description
        - **Attribute Value**: Review customer email: `{$odata.contact.emailaddress1.?$filter=contactid eq '{anchor._customerid_value}'}`
-    - The Regarding field is populated with the customer record.
+    -  is populated with the customer record.
        - **Attribute Name**: regardingobjectid
        - **Attribute Value**: `${anchor.incidentid}`
        - **Attribute Name**: regardingobjectidtype
@@ -55,17 +58,17 @@ Perform the following steps to create a macro to open a case from a conversation
     - The Subject field is populated using a data parameter that retrieves the conversation.
       - **Attribute Name**: subject
       - **Attribute Value**: Follow up with `$(customerName)`
-    - The Description field will be populated with a combination of a text string and the customer email address retrieved via oData query.
+    - The Description field is populated with a combination of a text string and the customer email address retrieved via oData query.
       - **Attribute Name**: Description
       -  **Attribute Value**: Review customer email: `{$odata.contact.emailaddress1.?$filter=contactid eq '{customerRecordid}'}`
    - The Regarding field is populated with the customer record.
       - **Attribute Name**: regardingobjectid
       -  **Attribute Value**: `${customerRecordid}`
       - **Attribute Name**: regardingobjectidtype
-      - **Attribute Valye**: `${customerEntityName}`
+      - **Attribute Value**: `${customerEntityName}`
       - **Attribute Name**: regardingobjectidname
       - **Attribute Value**: `${customerName}`
-2. Add the **Save the record** action.   
+2. Add the **Save the record** action.
 
 ## Open an existing record
 
@@ -91,7 +94,7 @@ To create a macro to open a customer record from an ongoing conversation, add th
 
 ## Autofill form fields
 
-This action is used for updating the form fields.The macro doesn't automatically save the new values in Dataverse until the form triggers the auto-save if enabled. You can use another macro action to save the record. Alternatively, you can use the "Update existing record" macro based on your business requirements. This action applies to the form in focused tab and has the same entity type as mentioned in action.  
+This action is used for updating the form fields. The macro doesn't automatically save the new values in Dataverse until the form triggers the auto-save if enabled. You can use another macro action to save the record. Alternatively, you can use the "Update existing record" macro based on your business requirements. This action applies to the form in focused tab and has the same entity type as mentioned in action.  
 
 
    | Field | Description | 
@@ -134,7 +137,7 @@ This action is used to update an existing record. The action contains the follow
    | Entity logical name |  Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | 
    | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| 
    | Attribute Name | Specify the attribute logical name you want to update.|
-   | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. |
+   | Attribute Value | Specify the attribute value that is updated for the above-mentioned attribute. |
 
 > [!NOTE]
 > This macro requires a specific pattern to set lookup values. You will need to pass the related record id, record type, and record name as separate attributes for a single lookup.
@@ -170,7 +173,7 @@ This action is used to resolve a case. The action contains the following fields.
 
 ### Example: Macro to resolve a case
 
-Perform the following steps to create a macro that resolves a case. When resolving a case via macro, the tab is not automatically refreshed, so additional steps are recommended for a better user experience.
+Perform the following steps to create a macro that resolves a case. When agents resolve a case using macro, the tab isn't automatically refreshed, so additional steps are recommended for a better user experience.
 
 1. Add the **Action to resolve case** action to pass the billable time as a numeric value and the Incident ID is the record id that needs to be resolved, with the following attributes:
   - **Incident ID**: `${anchor.incidentid}`
@@ -189,7 +192,7 @@ This action is used to open an email with a predefined template. The action cont
    | Entity logical name |  Specify the logical name of the entity. <br> This is a mandatory field. | 
    | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| 
    | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | 
-   | Template ID | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | 
+   | Template ID | Specify the ID of the template that must be displayed in the email. <br> This is a mandatory field. | 
 
 
 > [!NOTE]
@@ -254,9 +257,9 @@ This action is used for searching knowledge articles based on the populated phra
 
 ### Example: Search an article based on a string
 
-Perform the following steps to create a macro tha macro performs a search based on a phrase:
+Perform the following steps to create a macro that performs a search based on a phrase:
 
-1. Add the **Search the knowledge base for the populated phrase** action that picks up the case title as the search phrase. The following are the attributes : 
+1. Add the **Search the knowledge base for the populated phrase** action that picks up the case title as the search phrase. The following are the attributes: 
    - **Tab Label**: Searching for `${anchor.title}`
    - **Search string**: `${anchor.title}`
 
@@ -315,21 +318,21 @@ This action is used for cloning an existing record that is open in the current t
    |-----------------|-----------------------------|
    | Record title | Specify the title of the record that you want to clone. <br> This is a mandatory field. | 
 
-### Example : Create a child case using clone current record 
+### Example: Create a child case using clone current record 
 
 Perform the following steps to create a macro that creates a clone of the existing case and makes it the parent case. The original case is set as a child case:
  1. Add the **Clone current record** action that clones the original case, and then sets the cloned case as the parent. The original case is set as the child case. Set the **Record title** attribute to Child case of `${anchor.ticketnumber}`.
- 1. Add the **Autofill form fields** that populates the child case with the attributes specified. The ticketnumber will be set when the record is saved. The following are the attributes: 
+ 1. Add the **Autofill form fields** that populates the child case with the attributes specified. The ticket number is set when the record is saved. The following are the attributes: 
     - **Entity logical name**: `incident`
     - **Attribute Name**: parentcaseid
     - **Attribute Value**: `[{"id": "${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`
     - **Attribute Name**: ticketnumber
     - **Attribute Value**: 
-1. Add the **Save the record** action to generate and set the ticketnumber for the child case.</li></ol>|
+1. Add the **Save the record** action to generate and set the ticket number for the child case.</li></ol>|
 
 #### Clone input record
 
-This action clones an existing record. The action only copies the fields and does not save the record. The action contains the following fields.
+This action clones an existing record. The action only copies the fields and doesn't save the record. The action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|
@@ -355,7 +358,7 @@ Perform the following steps to create a macro to clone an existing case. The exi
 
 ## Set Agent Script focus
 
-This action is used to set the focus on an agent script that needs to run next. The agent script will be set in focus in the **Agent scripts** dropdown on the app side pane. For example, if the agent needs to process a refund complaint. The agent will use different scripts to greet, initiate a complaint request, and process the refund. You can define macros that will set the focus on the agent scripts that need to be run for each stage of the refund process. The action contains the following field.
+This action is used to set the focus on an agent script that needs to run next. The agent script is set in focus in the **Agent scripts** dropdown on the app side pane. For example, if the agent needs to process a refund complaint. The agent uses different scripts to greet, initiate a complaint request, and process the refund. You can define macros that set the focus on the agent scripts that need to be run for each stage of the refund process. The action contains the following field.
 
    | Field | Description |
    |-----------------|-----------------------------|
@@ -367,7 +370,7 @@ Perform the following steps to create a macro that updates the priority of a cas
 1. Add the **Update an existing record** action with the following attributes:
     - **Entity record ID**: `${anchor.incidentid}`
     - **Entity logical name**: `incident`
-    - **Attribute Name**: prioritycode
+    - **Attribute Name**: priority code
     -  **Attribute Value**: 1
 1. Add the **Set Agent Script focus** action with **Agent Script Unique Name** set to `new_agentscript_highpriority`.
 1. Add the **Get the current tab** session connector.</li><li> Add the **Refresh tab** session connector.

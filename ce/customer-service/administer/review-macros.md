@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-Macros offer a log of executions that you can review and identify causes of failure. As an administrator, you can view the macro run history, which shows how many times a macro has been run, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred.
+Macros offer a log of executions that you can review and identify causes of failure. As an administrator, you can view the macro run history, which shows how many times a macro ran, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred.
 
 **View macro run history**
 
@@ -33,27 +33,25 @@ To view the run history for the macro that failed, follow these steps:
 1. Select **View history**. Each record in the list represents a macro execution. 
 1. Open the macro execution that failed and identify the step that failed.  
  
-In certain scenarios, a step fails because a previous step incorrectly set values or has missing values. Review your macro actions, attributes names and attribute values from the clicking on a step from the macro history log:
+In certain scenarios, a step fails because a previous step incorrectly set values or has missing values. Select a step from the macro history to review your macro actions, attribute names, and attribute values.
 
    :::image type="content" source="../media/macro-history-log.png" alt-text="View the run history for a macro.":::
 
 ### Review session context variables 
  
-As an administrator, you can review the macro execution history to validate if the session context variables are configured correctly in the macro design. You can also validate if the session context variable is correct and returning the expected value using the [Microsoft.Apm APIs](../develop/microsoft-apm.md). 
+You can review the macro execution history to validate if the session context variables are configured correctly in the macro design. You can also validate if the session context variable is correct and returning the expected value using the [Microsoft.Apm APIs](../develop/microsoft-apm.md). 
  
 1. Open Customer Service workspace.
 2. Open a session that executes a macro. For example, open a case from the Home session. 
 3. Press the F12 key to open the developer tools window. 
-4. In the console window, specify the following command and press Enter: `Microsoft.Apm.getFocusedSession().resolveSlug("{anchor.title")`. 
-
+4. In the console window, specify the following command and press Enter: `Microsoft.Apm.getFocusedSession().resolveSlug("{anchor.title")`
 5. Replace the session variable based on your preference. Remove the $ sign typically used in the macro designer. 
 
 Review the results in the browser console. 
  
 ## Working with lookups and session context 
 
-Configuring lookup values have different patterns based on the macro being utilized. You can review the patterns from the examples below and replace the session context variable based on your requirement.  
-
+You can use multiple patterns to configure lookup based on the macros you want to use. You can review the patterns from the following examples and replace the session context variable based on your requirement.  
 
 - For macros that populate form fields, such as **Autofill form** fields, you can use the following patterns:
   - lookup fields:
@@ -62,7 +60,7 @@ Configuring lookup values have different patterns based on the macro being utili
   - activity party fields: 
       - Attribute name:  `to `
      - Attribute value: `[ {"id":"${anchor._customerid_value}","type":"${anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}","name":"${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}"}, {"id":"${anchor._cr27b_secondarycontact_value}","type":"contact","name":"${anchor._cr27b_secondarycontact_value@OData.Community.Display.V1.FormattedValue}"}] `
-- For macros that open forms by pre-populating the field such as **Open a new form to create a record**, you can use the following patterns for lookup: 
+- For macros that open forms by prepopulating the field such as **Open a new form to create a record**, you can use the following patterns for lookup: 
 
   - Attribute name: `regardingobjectid `
   - Attribute value: `${anchor.incidentid}` 
@@ -76,4 +74,5 @@ Configuring lookup values have different patterns based on the macro being utili
 
 ## Reporting 
 
-Macros execution is logged in a table in Dataverse that is utilized for troubleshooting purposes. If your organization needs to create reports to capture metrics such as usage of each macro by user in a given time frame or success/failure rate, you can create reports based on the following table: [msdyn_macrosession](../develop/reference/entities/msdyn_macrosession.md)  
+Macros execution is logged in a table in Dataverse that is utilized for troubleshooting purposes. You can use the [msdyn_macrosession](../develop/reference/entities/msdyn_macrosession.md) table to create reports that capture metrics such as macro usage in a given time frame or success and failure rate.
+
