@@ -112,7 +112,7 @@ meaningful and unique. By default, these records are sorted by Name in the recor
 >- You close an order by either fulfilling the order or canceling the order. Products or services that are shipped are fulfilled. You should cancel orders for any products or services that are not shipped.
 >- If you've modified the maximum character limit for the Description attribute in the Order entity, ensure that you make a corresponding change in the Order Close entity as well. This is necessary to prevent potential errors or data truncation when the system copies the Description from the Order entity to the Order Close entity.
 >- You can't set the status of multiple orders to fulfilled at one go.  
->- You can't update or change an order after it has been closed, or if it has been partially or completely fulfilled.  
+>- You can't update or change an order after it's closed, or if it's partially or completely fulfilled.  
   
   
 <a name="bkmk3"></a>   
