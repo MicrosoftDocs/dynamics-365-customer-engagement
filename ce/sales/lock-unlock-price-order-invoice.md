@@ -1,7 +1,7 @@
 ---
 title: Lock or unlock the price for an order or invoice 
 description: Define whether the prices on orders and invoices in Dynamics 365 Sales will be locked.
-ms.date: 08/01/2023
+ms.date: 04/22/2024
 author: lavanyakr01
 ms.author: lavanyakr
 ms.topic: how-to 
@@ -34,7 +34,7 @@ After you've finalized an order or invoice for a specific price, you can lock th
 
 2. Open the order or invoice you want to edit.
 
-3. To lock prices, on the command bar, select the More Commands icon ![More Commands icon.](media/more-commands-icon.png "More Commands icon"), and then select **Lock Pricing**.
+3. To lock prices, on the command bar, select the **More Commands** icon ![More Commands icon.](media/more-commands-icon.png "More Commands icon"), and then select **Lock Pricing**.
     
     When you lock the price, the following happens:
 

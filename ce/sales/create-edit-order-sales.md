@@ -1,7 +1,7 @@
 ---
 title: Create or edit sales orders in Dynamics 365 Sales
 description: Use orders to track details of the products or services that your customers want to place an order for.
-ms.date: 04/19/2024
+ms.date: 04/22/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -44,7 +44,7 @@ Create an order when the customer is ready to buy your products or services. In 
   
 1. Select the Site map icon ![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Quotes**. 
   
-2. Select the quote you want to create an order from.  
+2. Select the quote you want to create an order for.  
 
 3. On the command bar, select **Activate Quote**.
   
@@ -54,11 +54,10 @@ Create an order when the customer is ready to buy your products or services. In 
   
 5. In the **Create Order** dialog box, the **Date Won** field is set to the current date. Select a different date if required.
 
-6. Add a description, and select **OK**.  
-  
-7. To add products from your opportunity to your quote, select **Get Products** at the top of the screen, select your opportunity, and select **OK**.  
-  
-8. Select **Save** in the lower-right corner of the screen.  
+6. Add a description, and select **OK**.
+   The order is created and all products from the quote are added to the order.
+ 
+8. Save the changes.
 
 > [!NOTE]
 > Your base record and all its line items must use the same currency. For example, if your order has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the order. You can't change the currency of the base record (in this case, an order), unless you remove all the line items associated with the record.
@@ -88,13 +87,13 @@ meaningful and unique. By default, these records are sorted by Name in the recor
         > [!NOTE]
         > By default, selecting a price list is required to be able to add products to an order. However, your administrator can change your organization settings to make the Price list field optional.
 
-   -  **Prices Locked**. This field is read-only. You set **Prices Locked** by selecting **Lock Pricing** on the command bar. More information: [Lock or unlock the price for an order or invoice](lock-unlock-price-order-invoice.md), [Sales transactions in Dynamics 365 Sales](sales-transactions.md) 
+   -  **Prices Locked**. This field is read-only. You can change it after you save the order. More information: [Lock or unlock the price for an order or invoice](lock-unlock-price-order-invoice.md), [Sales transactions in Dynamics 365 Sales](sales-transactions.md) 
 
 4. In the **Sales Information** section, in **Potential Customer**, select the customer you're creating this order for.
 
-5. On the command bar, select **Save**.
+5. Save the changes.
 
-6. To add products from a previously created opportunity to your order, select **Get Products** at the top of the screen, select your opportunity, and then select **OK**.  
+6. To add products from a previously created opportunity to your order, select the **More commands** icon ![More commands icon](media/more-commands-button.png "More commands icon") in the **PRODUCTS** section and select **Get Products**. Select the corresponding opportunity, and then select **OK**.  
 
     -OR-
 

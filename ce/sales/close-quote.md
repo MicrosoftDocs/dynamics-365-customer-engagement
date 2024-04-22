@@ -1,7 +1,7 @@
 ---
 title: Close a quote
 description: Learn how to manually close a quote in Dynamics 365 Sales as Lost, Canceled, or Revised when it's not accepted.
-ms.date: 04/19/2024
+ms.date: 04/22/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
