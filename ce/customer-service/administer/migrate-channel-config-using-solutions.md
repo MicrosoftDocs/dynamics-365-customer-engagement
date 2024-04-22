@@ -1,11 +1,11 @@
 ---
 title: Migrate configurations for channels using solutions
-description: Learn to use solutions for exporting and importing configuration pertaining channels from source to target environments in Omnichannel for Customer Service.
-ms.date: 03/29/2024
+description: Learn to use solutions for exporting and importing configurations pertaining to channels from source to target environments in Omnichannel for Customer Service.
+ms.date: 04/23/2024
 ms.topic: how-to
 author: mjfjesus
 ms.author: marcoje
-ms.reviewer:
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
@@ -20,12 +20,12 @@ For information on how to use solutions or the Configuration Migration tool, see
 
 The following prerequisites must be met:
 
-- Ensure that the user who performs the channel configuration migration has the required privileges below:
+- Make sure that the user who performs the channel configuration migration has the following privileges:
   - Export solutions from the source environment
   - Import solutions to the destination environment
-  - Read privilege on all tables migrated from the source environment using Configuration Migration Tool
-  - Full privileges on all tables migrated to the destination environment using Configuration Migration Tool 
-- In the source environment, if any table or column refers to the following, then ensure that they exist in the target environment before you proceed with the migration:
+  - Read permission on all tables migrated from the source environment using Configuration Migration Tool.
+  - Full permission on all tables migrated to the destination environment using Configuration Migration Tool.
+- In the source environment, if any table or column refers to the following, then make sure that they exist in the target environment before you proceed with the migration:
   - Custom tables (entities)
   - Columns (attributes)
   - Relationships
@@ -59,7 +59,7 @@ If skill-based routing rulesets are used in your channel routing setup, perform 
 If you have configured new capacity profiles in your channel routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles).  Make sure to adjust any filtering FetchXML appropriately for all channels.
 
 > [!TIP]
-> Once a new capacity profile is migrated using Configuration Migration Tool, updates can be migrated using solutions.
+> After you migrate a new capacity profile using Configuration Migration Tool, updates can be migrated using solutions.
 
 ## Migrate configuration for queues
 
@@ -97,18 +97,18 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
    |Apple Messages for Business|Apple messages for business account (msdyn_ocapplebusinessaccount)|
 
   > [!IMPORTANT]
-  > - Please carefully review solution components before exporting solution. Take note of records that contain information regarding Azure Communication Services or third-party channels or other Microsoft components like Copilot Studio copilots or Customer Voice surveys, so you make required configurations in the destination environment.
-  > - If one or more workstreams share the same Capacity Profile, when adding tables from one channel/workstream, records and tables from other channels/workstreams sharing the same Capacity Profile will also be added to the solution.
+  > - Carefully review solution components before exporting a solution. Take note of records that contain information regarding Azure Communication Services, third-party channels, or other Microsoft components like Copilot Studio copilots or Customer Voice surveys, so that you can make required configurations in the destination environment.
+  > - If one or more workstreams share the same capacity profile, when you add tables from one channel or workstream, records and tables from other channels or workstreams sharing the same capacity profile are also added to the solution.
 
 4. Use the Configuration Migration Tool to create the schema and migrate the remaining configuration data from the source environment (organization) for workstreams and channels.
 
-   - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the table below.
-   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table below. You don't need to select the out-of-the-box system defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owne**r. You can select custom columns, if necessary.
+   - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the following table.
+   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owne**r. You can select custom columns, if necessary.
    - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table below to get single, multiple, or all records based on your requirement. For single or multiple rows, you need to use source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
-   - **Configure import settings**: For the Work Stream table, ensure that you only add the key columns and select the **Do not update existing records** checkbox to prevent updates to records in a table migrated through solutions.
+   - **Configure import settings**: For the workstream table, make sure that you add the key columns only and select the **Do not update existing records** checkbox to prevent updates to records in a table migrated through solutions.
 
   > [!IMPORTANT]
-  > For **Facebook Page**, **Google’s Business Messages agent account**, **LINE account**, **Custom messaging channel** and **Microsoft Teams account** tables, do NOT include Survey (msdyn_postconversationsurvey) and Survey (msdyn_postconversationsurveyseparatebotsurvey) columns as survey records are synced with Dynamics 365 Customer Voice in each environment, so they can’t be migrated across environments.
+  > For **Facebook Page**, **Google’s Business Messages agent account**, **LINE account**, **Custom messaging channel** and **Microsoft Teams account** tables, don't include Survey (msdyn_postconversationsurvey) and Survey (msdyn_postconversationsurveyseparatebotsurvey) columns because survey records are synced with Dynamics 365 Customer Voice in each environment, so they can’t be migrated across environments.
 
    |S.No.|Channel(s)|Entity display name (Logical name)|Attribute display name (Logical name)|Use FetchXML to filter records|
    |-----|--------|---------|---------|-------|
@@ -144,8 +144,8 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 	</entity>
 </fetch> 
 ```
->[!TIP]
->To find <CHANNEL_ID> values for each channel you want to migrate work streams for, please go to [Power Apps Maker Portal](https://make.powerapps.com), select your source environment, go to **Choices** then open the **Stream Source** (msdyn_streamsource) choice. For example, the value for Voice channel is 192440000.
+> [!TIP]
+> To find <CHANNEL_ID> values for each channel you want to migrate work streams for, please go to [Power Apps Maker Portal](https://make.powerapps.com), select your source environment, go to **Choices** then open the **Stream Source** (msdyn_streamsource) choice. For example, the value for voice channel is 192440000.
 
 
 **Sample 2: Single workstream**<a name="WS2Single"></a>
