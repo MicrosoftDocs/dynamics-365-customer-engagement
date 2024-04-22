@@ -1,16 +1,16 @@
 ---
-title: How-to topic template #Required; page title displayed in search results. Don't enclose in quotation marks.
-description: How-to description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: rhanajoy #Required; your GitHub user alias, with correct capitalization.
-ms.author: rhcassid #Required; your Microsoft alias; optional team alias.
-ms.reviewer: kfend #Required; Microsoft alias of content publishing team member.
-ms.topic: how-to #Required; don't change.
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
+title: Use Copilot filters
+description: Learn how to use filters in Copilot to generate responses.
+author: gandhamm
+ms.author: mgandham
+ms.reviewer: mgandham
+ms.topic: how-to 
+ms.collection: bap-ai-copilot
 ms.date: 04/22/2024
-ms.custom: bap-template #Required; don't change.
+ms.custom: bap-template 
 ---
 
-# Apply filters
+# Use Copilot filters
 
 Copilot filters help you generate responses based on a specific set of topics. Filters provide immediate context and reduce the chance of getting irrelevant responses.
  
