@@ -156,7 +156,9 @@ The _state field has the following values:
   
 - A rollup over the rollup field is not supported.  
   
-- A rollup can't reference a calculated field that uses another calculated field, even if all the fields of the other calculated field are on the current entity.  
+- A rollup can't reference a calculated field that uses another calculated field, even if all the fields of the other calculated field are on the current entity.
+
+- A rollup field doesn't update automatically if it uses a formula field which is dependent on time bound functions `Now(), UTCNow(), IsUTCToday(), UTCToday()`. Online recalculation option (manual refresh on the form) - Recalculate button has to be used to calculate latest rollup field's value.
   
 - The rollup can only apply filters to the source entity or related entities, simple fields or non-complex calculated fields.  
   
