@@ -25,8 +25,8 @@ This action is used to open a new form to create a record. The action contains t
    |-----------------|-----------------------------|
    | Entity logical name |  Specify the logical name of the entity that you want to open.<br> This is a mandatory field. |  
    | Entity form ID | Specify the form ID.<br> This is an optional field. |
-   | Attribute Name | Specify the attribute logical name. You need to provide the attribute name to prepopulate the field with a value.| 
-   | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. |
+   | Attribute Name | Specify the attribute logical name. You need to provide the attribute name for the application to populate the field with a value.| 
+   | Attribute Value | Specify the attribute value. You need to provide the attribute value for the application to populate the attribute field. |
 
 > [!NOTE]
 > This action requires a specific pattern to set lookup values. You must pass the related record id, record type, and record name as separate attributes for a single lookup.

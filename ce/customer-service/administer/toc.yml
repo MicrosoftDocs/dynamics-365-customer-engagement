@@ -128,15 +128,15 @@
           items:  
           - name: Manage macros
             href: macros.md
-          - name: Productivity automation
+          - name: Use productivity automation macros
             href: macros-productivity-automation.md
-          - name: Session macros
+          - name: Use session connector macros
             href: macros-session-action.md
-          - name: Omnichannel connector
+          - name: Use Omnichannel connector macros
             href: macros-omnichannel-action.md
-          - name: Flow connector
+          - name: Use flow connectors
             href: macro-flow-connector.md
-          - name: Review macros
+          - name: Review macro execution history
             href: review-macros.md                                                  
         - name: Manage custom productivity tools
           href: manage-custom-productivity-tools.md
