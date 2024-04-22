@@ -31,8 +31,6 @@ When you [create an order from a quote](create-edit-order-sales.md#create-an-ord
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
-
-
 ## Close a quote
 
 1. In the sitemap, select **Quotes** to view all the quotes. Alternatively, you can open an opportunity and select the **Quotes** tab to view the quotes associated with the opportunity.
@@ -40,22 +38,14 @@ When you [create an order from a quote](create-edit-order-sales.md#create-an-ord
     >- You can close a quote only when it's in the **Active** state. If you have quotes in **Draft** state, you can either delete them or activate and then close them.
     >- If you'd like to customize the quote closure experience, contact your Dynamics 365 Sales administrator. [Learn more about supported customizations](customize-quote-closure.md).
     >- If you've modified the maximum character limit for the Description attribute in the Quote entity, ensure that you make a corresponding change in the Quote Close entity as well. This is necessary to prevent potential errors or data truncation when the system copies the Description from the Quote entity to the Quote Close entity.
-
-1. Open the quote that you want to close and select **Close Quote** on the command bar. 
-
-2. In the **Close Quote** dialog box, enter the following information:
-
-   - **Status Reason:** Select the status of the item. The choices available by default are Lost, Canceled, and
-Revised.
+2. Open the quote that you want to close and select **Close Quote** on the command bar. 
+3. In the **Close Quote** dialog box, enter the following information:
+   - **Status Reason:** Select the status of the item. The choices available by default are Lost, Canceled, and Revised.
    - **Close Date:** Enter the date that the quote was closed. The current date is selected by default. 
-   
    - **Description:** Enter details about why the quote is being closed. 
-   
-   - **Create a revised quote:** You may be closing the quote because you need to create a new, revised quote. If this is the
-case, select **Yes**. If you don't want to revise the quote, set this field to **No**.  
+   - **Create a revised quote:** You may be closing the quote because you need to create a new, revised quote. If this is the case, select **Yes**. If you don't want to revise the quote, set this field to **No**.  
     - **Close the associated opportunity:** This field appears only when you close the last quote associated with an opportunity and the **Create a revised quote field** is set to No.  
-
-3. Select **OK**.
+4. Select **OK**.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
@@ -63,5 +53,4 @@ case, select **Yes**. If you don't want to revise the quote, set this field to *
 
 [Create or edit quotes](create-edit-quote-sales.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)] 
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
