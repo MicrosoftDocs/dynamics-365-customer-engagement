@@ -63,7 +63,7 @@ When you configure this feature, the system picks a queue from the available lis
 1. Optionally, after you create the required rules, reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
 
 > [!NOTE]
-> We recommend that you use less than 15 link-entity elements in the routing rule conditions to avoid timeout errors. More information: [Join tables using FetchXml](/power-apps/developer/data-platform/fetchxml/join-tables?view=dataverse-latest&tabs=fetchxml#limitations)
+> We recommend that you use less than 15 link-entity elements in the routing rule conditions to avoid timeout errors. More information: [Join tables using FetchXml](/power-apps/developer/data-platform/fetchxml/join-tables#limitations)
 
 ## Options available for rules
 

@@ -1,10 +1,12 @@
 ---
-title: "Identify customers automatically | MicrosoftDocs"
-description: "Learn how to automatically identify customers by using pre-conversation responses in Omnichannel for Customer Service."
-ms.date: 02/15/2023
-ms.topic: article
+title: Identify customers automatically
+description: Learn how to automatically identify customers by using pre-conversation responses in Omnichannel for Customer Service.
+ms.date: 04/23/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 
 # Identify customers automatically
@@ -33,7 +35,6 @@ Use the following question names to create pre-conversation questions. To know h
 | Account |	Question context key: Name <br> Attribute logical name: name <br><br> Question context key: Email <br> Attribute logical name: emailaddress1 <br><br> Question context key: Phone <br> Attribute logical name: telephone1 (**Phone** field on the **Account Summary** page) | Single line |
 | Contact | Question context key: Name <br> Attribute logical name: `fullname` <br><br> Question context key: Email <br> Attribute logical name: emailaddress1 <br><br> Question context key: Phone <br> Attribute logical name: mobilephone (**Mobile Phone** field on the **Contact Summary** page) |Single line |
 | Incident | Question context key: CaseNumber <br> Attribute logical name: `ticketnumber` |Single line |
-||||
 
 > [!Note]
 > If you'd like other fields to be recognized for phone number lookup, contact [Microsoft Support](https://dynamics.microsoft.com/support/).
