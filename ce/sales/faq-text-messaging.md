@@ -39,10 +39,6 @@ No. Currently, group SMS isn't supported as part of the SMS capability. However,
 
 ## Who can see an incoming SMS notification if the number is assigned to a team?​
 
-In this case, all the users see the notification and can choose to respond to the customer. If a message comes from an unknown number, only the team admin gets the notification. Team members can view the message only in the **Activities** page.
-
-## Who will receive the incoming SMS if the number is assigned to a team?​
-
 Notifications are sent to the top 20 sellers when a new incoming message is received. The top 20 sellers are selected based on the following criteria:
 
 1. Sellers who are already part of the conversation. If the conversation has at least one seller associated with it, the application skips criteria 2 and 3 to avoid spamming.
