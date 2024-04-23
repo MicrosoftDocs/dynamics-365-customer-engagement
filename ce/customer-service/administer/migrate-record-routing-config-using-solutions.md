@@ -785,8 +785,8 @@ Use the following steps to migrate intake rules and record workstreams from the 
 1. Select the **Work Stream (msdyn_liveworkstream)** table. Related records from the following tables are automatically added to the solution:
    - Capacity Profile (msdyn_capacityprofile) – new records must be migrated using Configuration Migration tool
    - Master entity routing configuration (msdyn_masterentityroutingconfiguration)
-   - Decision contract (msdyn_decisioncontract) – for both intake rules and record work streams
-   - Decision rule set (msdyn_decisionruleset) – for both intake rules and record work streams
+   - Decision contract (msdyn_decisioncontract) – for both intake rules and record workstreams
+   - Decision rule set (msdyn_decisionruleset) – for both intake rules and record workstreams
    - Routing configuration (msdyn_routingconfiguration)
    - Routing configuration step (msdyn_routingconfigurationstep)
    - Operating Hour (msdyn_operatinghour)
