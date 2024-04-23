@@ -3,7 +3,7 @@ title: Migrate configuration data for records
 description: Learn to migrate configuration data pertaining for routing, capacity profiles, queues, intake rules, and workstreams in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.date: 01/11/2024
 ms.custom: bap-template

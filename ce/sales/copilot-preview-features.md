@@ -1,7 +1,7 @@
 ---
 title: Turn on preview features for Copilot in Dynamics 365 Sales
-description: Learn how to turn on all preview features in Dynamics 365 Sales to access preview features before their official release.
-ms.date: 02/29/2024
+description: Learn how to turn on all Copilot preview features in Dynamics 365 Sales to access preview features before their official release.
+ms.date: 04/19/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -20,6 +20,10 @@ ms.collection: bap-ai-copilot
 
 Instead of turning on Copilot preview features in Dynamics 365 Sales individually, you can turn them all on at once. This article describes how to do that, and lists the Copilot preview features that are available.
 
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+
 ## Copilot preview features
 
 Preview features aren't intended for production use and might have limited functionality. These features are made available to get early feedback from customers.
@@ -31,9 +35,8 @@ The following table lists the Copilot preview features that are available in Dyn
 | Preview feature | Description |
 |-----------------------|---------|
 | Copilot for Email | [Compose and send email messages using Copilot](compose-send-email-copilot.md). |
-| Content recommendations | [Get content recommendations from SharePoint (preview)](copilot-get-information.md#get-content-recommendations-from-sharepoint-preview) <br> The documents are only fetched from the SharePoint site associated with your tenant. |
 | Natural language chat | [Chat with Copilot in natural language (preview)](use-sales-copilot.md#chat-with-copilot-in-natural-language-preview) <br> Copilot can understand natural language and respond to your questions. |
-
+| Full-screen, immersive view | [Open Copilot in full-screen view (preview)](use-sales-copilot.md#open-copilot-in-full-screen-view-preview) when you want more space and focus to chat with Copilot and ask questions. |
 
 ## Turn on all Copilot preview features
 

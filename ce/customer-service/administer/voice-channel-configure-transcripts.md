@@ -1,10 +1,11 @@
 ---
-title: "Configure call recording, transcription, and real-time translation | MicrosoftDocs"
-description: "Learn how to configure call recording, transcription, and real-time translation in the voice channel in Omnichannel for Customer Service."
+title: Configure call recording, transcription, and real-time translation 
+description: Learn how to configure call recording, transcription, and real-time translation in the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 02/16/2023
-ms.topic: article
+ms.date: 04/15/2024
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Configure call recording, transcription, and real-time translation
@@ -20,7 +21,8 @@ As an administrator, you can enable live translation, transcription and recordin
 > - If you use Copilot Studio bots as the interactive voice response (IVR) with the voice channel, the calls are transcribed in Copilot Studio even if the transcription and recording setting isn't enabled in the voice workstream.
 
 ## Enable call recording and transcription for voice
-
+1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. More information: [Enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-call-recording-and-sms-services)
+   
 1. In the Customer Service admin center or Omnichannel admin center (deprecated) app, select the workstream for which you want to enable recording and transcription.
 
     [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
@@ -35,7 +37,9 @@ As an administrator, you can enable live translation, transcription and recordin
 
 1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want agents to record and transcribe their calls.
 
-1. Set **Allow agents to pause and resume** if you want to allow agents to control the portions of conversations that they record and transcribe.
+1. Set **Allow agents to pause and resume** toggle to **Yes** if you want to allow agents to control the portions of conversations that they record and transcribe.
+
+1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** toggle to **Yes** if recording and transcription must be paused when the agent puts the customer on hold and resumed when the agents takes the customer off hold.
 
 1. Select **Save**.
 

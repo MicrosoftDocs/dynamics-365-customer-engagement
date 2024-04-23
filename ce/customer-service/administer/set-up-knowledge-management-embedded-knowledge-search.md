@@ -1,7 +1,7 @@
 ---
-title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
-description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 07/03/2023
+title: Configure knowledge management
+description: Learn how to configure the settings for knowledge management in Dynamics 365 Customer Service.
+ms.date: 04/01/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -68,13 +68,20 @@ After you have configured knowledge management on your app, you must also set up
       1. On the **Record Types** page, add and configure the record types for which you want to turn on knowledge management. More information: [Configure knowledge search control on app side pane for an entity record](configure-knowledge-search-control-productivity-pane.md). By default, knowledge management is enabled for **Case** and **Conversation** record types. The ability to set up knowledge search control for app side pane is available only in the Customer Service admin center app.
   3. In the **General Settings** section, select **Manage**. The **General Settings** page appears.
       1. In the **Search results display count** section, select the display count from the dropdown. This option is only available for the app side pane knowledge base search control, and standalone knowledge base search control in single session and multisession apps.
-      1. In the **Feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](../use/submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles).
+      b. In the **Feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](../use/submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles).
       1. In the **Authoring language** section, set the **Enable default authoring language** for your users to **Yes**.
-        * If you want to select a default knowledge authoring language for your organization, then select the **Organization's UI language** radio button. 
-        *    If you want to use the organizations' s UI language as the default knowledge authoring language, select the **Other language** radio button, and then select a language from the **Language** dropdown.
-        *    If you also want to allow users to set their default knowledge authoring language, set the **Allow users to set default knowledge authoring language** toggle to **Yes**. More information: [Configure a default knowledge article authoring language for your organization](../use/set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
-      *    In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allowlist for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles).
-      *    In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
+      
+        * If you want to select a default knowledge authoring language for your organization, then select the **Organization's UI language** option.
+        * If you want to use the organizations's UI language as the default knowledge authoring language, select the **Other language** option, and then select a language from the **Language** dropdown.
+        * If you also want to allow users to set their default knowledge authoring language, set the **Allow users to set default knowledge authoring language** toggle to **Yes**. More information: [Configure a default knowledge article authoring language for your organization](../use/set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
+
+     c. In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allowlist for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles)
+     
+     d. In the **Knowledge search experience** section, enable the following as required:
+      
+        -  [Enable suggest-as-you-type](#enable-the-suggest-as-you-type-option)
+        - **Set search mode as all**: More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
+        - [Show recently accessed knowledge articles for cases](#show-recently-accessed-knowledge-articles-for-cases)
         * Select **Save**.
   4. Optionally, in the **Categories** section, select **Manage**. The **Categories System Views** page appears. You can create and manage a logical structure of categories for your records. More information: [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
   5. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to save the the search filters according to their areas, set the **Allow agent to personalize** toggle to **Yes**.
@@ -240,7 +247,7 @@ More information: [Search across table data using Dataverse search](/power-platf
 
 ## Enable the suggest-as-you-type option
 
-You can help agents improve their productivity by setting the **Enable suggest as you type** toggle to **Yes**. This feature provides suggestions on the most relevant records as agents type keywords in the search box. The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword. 
+You can help agents improve their productivity by setting the **Enable suggest as you type** toggle to **Yes**. This feature provides suggestions on the most relevant records as agents type keywords in the search box. The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword.
 
 When an agent selects the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control. More information: [Use suggest-as-you-type](../use/search-knowledge-articles-csh.md#save-time-searching-with-suggest-as-you-type)
 
@@ -251,10 +258,19 @@ When an agent selects the record, the system displays the article inline on the 
 
 :::image type="content" source="../media/enable-suggest-as-you-type.png" alt-text="Screenshot shows toggle for the Enable-suggest-as-you-type option":::
 
+## Show recently accessed knowledge articles for cases
+
+Knowledge search shows the recently accessed results for keyword searches made by agents across different cases without initiating any search. This helps agents directly review and use the articles across similar cases without searching for the keyword again.
+
+1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**.
+2. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
+3. In the **Knowledge search experience** section, set the **Show recently viewed knowledge articles** toggle to **Yes**.
+1. Select the number of articles you want displayed from the **Number of recently viewed articles shown** drop-down list. You can show a min of one to a max of eight articles.
+1. Select **Save**.
 
 ### See also  
 
- [Add the Knowledge Base Search control to a form](add-knowledge-base-search-control-forms.md)   
+ [Add the Knowledge Base Search control to a form](add-knowledge-base-search-control-forms.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

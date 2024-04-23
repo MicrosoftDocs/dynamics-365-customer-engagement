@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 02/26/2024
+ms.date: 04/19/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -21,18 +21,18 @@ ai-usage: ai-assisted
 
 # Copilot in Dynamics 365 Sales overview
 
-Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on recent changes to their records, prepare for meetings, and read the latest news about their accounts.
+Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on recent changes to their records, prepare for meetings, and read the latest news about their accounts. [Learn more about region availability and languages supported](#region-availability-and-languages-supported)
 
 Copilot is also available as an add-in in Outlook and an integrated app in Teams. With it, sellers can capture, view, and update their customer account data in the apps they use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Copilot for Sales](/microsoft-sales-copilot/introduction)(formerly known as Microsoft Sales Copilot) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
 
-Copilot is turned on by default for tenants in North America, in all Sales apps that have lead and opportunity entities. If your tenant is in a different region, an admin needs to [turn on Copilot manually](enable-setup-copilot.md).
 
-## Copilot capabilities
+## Copilot in Dynamics 365 Sales capabilities
 
 Copilot offers the following capabilities:
 
 - [Record summarization](#record-summarization)
 - [Recent changes](#recent-changes)
+- [Information assistance](#information-assistance)
 - [Meeting preparation](#meeting-preparation)
 - [Email assistance](#email-assistance)
 - [News updates](#news-updates)
@@ -56,6 +56,15 @@ Learn more:
 - [Get a list of recently updated sales records](copilot-ask-questions.md#whats-new-with-my-sales-records)
 - [View the leads and opportunities assigned to you recently](copilot-ask-questions.md#whats-newly-assigned-to-me)
 - [Change the fields you want to view in the recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
+
+### Information assistance
+
+With Copilot, you can get information at your fingertips. You don't have to switch between apps to find the information you need. Copilot can get product-related documents and fetch answers to sales-related questions from documents stored in SharePoint.
+
+Learn more:
+
+- [Get content recommendations from SharePoint](copilot-get-doc-suggestions.md#copilot-content-recommendation)
+- [Get answers from SharePoint documents](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents)
 
 
 ### Meeting preparation
@@ -82,4 +91,6 @@ Copilot can help you stay current with the latest news about your accounts. News
 
 ## Region availability and languages supported
 
-Copilot is available in all regions in English only. If you turn on the feature outside of North America, you need to opt in to share some data with the Azure OpenAI Service outside of your default geography. [Learn more about how Copilot data moves across geographies](./sales-copilot-data-movement.md).
+Copilot in Dynamics 365 Sales is available only in English language and is supported only in specific regions. For a list of regions where Copilot in Dynamics 365 Sales isn't supported, see [this FAQ](sales-copilot-faq.md#is-copilot-in-dynamics-365-sales-available-in-all-regions). 
+
+Effective April 1, 2024, Copilot in Dynamics 365 Sales is turned on by default for tenants in North America and other regions where an Open AI Service endpoint is available. If your tenant is in a region where Copilot is supported but an Azure Open AI Service endpoint isn't available, an admin needs to opt in to share some data with the Azure OpenAI Service outside of your default geography. [Learn more about regions where Azure Open AI Service endpoints are available](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works).
