@@ -11,17 +11,21 @@ ms.reviewer: v-wendysmith
 ms.collection: bap-ai-copilot 
 ---
 
+
+<!-- Request from editor: I thought the sentence in line 20 was confusing and reworded it, so please review. -->
+
+
 # FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot
 
-This FAQ describes the AI impact of the Dynamics 365 Field Service Plugin for Microsoft Copilot to ask questions about work orders.
+This FAQ answers questions about the AI impact of the Dynamics 365 Field Service Plugin for Microsoft Copilot and how the plugin helps with work orders.
 
 ## What is Dynamics 365 Field Service Plugin for Microsoft Copilot?
 
-Dynamics 365 Field Service Plugin for Microsoft Copilot utilizes the power of Microsoft 365 Copilot as your AI assistant. A [Copilot for Microsoft 365 license](/microsoft-365-copilot/extensibility/overview-business-applications##get-copilot-for-microsoft-365-licenses-and-enable-plugins) enables authorized users to engage in a natural-language conversation about work orders with Field Service in Microsoft Teams.  
+Dynamics 365 Field Service Plugin for Microsoft Copilot uses the power of Microsoft 365 Copilot as your AI assistant. A [Copilot for Microsoft 365 license](/microsoft-365-copilot/extensibility/overview-business-applications#get-copilot-for-microsoft-365-licenses-and-enable-plugins) enables authorized users to engage in a natural-language conversation about work orders with Field Service in Microsoft Teams.  
 
 ## What are the feature’s capabilities?
 
-The feature allows you to ask questions about work orders and generate answers quickly. For example, frontline managers can ask for a list of all work orders for tomorrow or how many high priority work orders from last week that didn’t complete.  
+The feature allows you to ask questions about work orders and generate answers quickly. For example, frontline managers can ask for a list of all work orders for tomorrow or how many high-priority work orders from last week that didn’t complete.  
 
 Frontline workers can ask how many work orders they have for next week or ask for detailed information on a specific work order. They can ask how to do a task or what tools they need for the job.
 
@@ -49,7 +53,7 @@ The feature supports:
 
 - Structured data from the Field Service work order tables in Dataverse, typically managed in tables and columns.
 
-- Unstructured data in the form of text within documents and PDFs attached to the Field Service work order. Support of unstructured data is public preview.
+- Unstructured data in the form of text within documents and PDFs attached to the Field Service work order. Support of unstructured data is in public preview.
 
 ## What are the supported geographies and languages?
 
@@ -59,7 +63,7 @@ This feature is available in English (United States, Great Britain, Australia, C
 
 Admins can choose to [block the Microsoft Copilot plugin](/microsoft-365-copilot/extensibility/overview-business-applications#deploy-a-plugin) from certain users or not deploy it.
 
-Feedback you provide on your satisfaction with generated articles is used to improve system quality. To provide feedback on responses generated through Copilot, select thumbs up or thumbs down icon.
+Feedback you provide on your satisfaction with generated articles is used to improve system quality. To provide feedback on responses generated through Copilot, select the thumbs-up or thumbs-down icon.
 
 ## See also
 
