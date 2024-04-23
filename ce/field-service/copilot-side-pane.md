@@ -23,7 +23,7 @@ To open the copilot pane, select the **Copilot** icon (:::image type="icon" sour
 
 Select the icon again to minimize the copilot pane.
 
-:::image type="content" source="media/copilot-side-pane-web.svg" alt-text="Copilot in Field Service answering questions of a user in the Field Service web app.":::
+:::image type="content" source="media/copilot-side-pane-web.svg" alt-text="Screenshot of Copilot in Field Service answering questions of a user in the Field Service web app.":::
 
 ## Chat with Copilot
 
