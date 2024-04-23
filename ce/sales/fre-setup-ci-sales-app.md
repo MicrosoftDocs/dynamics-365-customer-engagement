@@ -11,6 +11,9 @@ ms.author: lavanyakr
 
 # Set up conversation intelligence in Sales Hub app
 
+> [!IMPORTANT]
+> Starting June 2024, Conversation intelligence will use Microsoft Azure OpenAI Service to process call data and transcripts. [Learn more](ci-data-movement.md)
+
 Using Microsoft Teams or other third-party dialers together with conversation intelligence in Dynamics 365 Sales helps organizations transform customer interactions into revenue. Calling with these dialers allows sellers to view business-critical insights both during the call&mdash;in real-time&mdash;and after.
 
 As an administrator, configure conversation intelligence for the dialer that your sellers use.  

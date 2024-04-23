@@ -19,11 +19,6 @@ ms.custom:
 
 # Conversation intelligence data movement across geographies
 
-Starting June 2024, Conversation intelligence will only be available in specific regions and requires a Microsoft Azure OpenAI Service endpoint. For a list of regions where Conversation intelligence isn't supported, see [this FAQ](sales-copilot-faq.md#is-copilot-in-dynamics-365-sales-available-in-all-regions).
+Starting June 2024, Conversation intelligence will only be available in specific regions and requires a Microsoft Azure OpenAI Service endpoint. For a list of regions where Azure OpenAI Service is available, see [Azure OpenAI Service models](/azure/ai-services/openai/concepts/models). 
 
-If your Dynamics 365 environment is in a region where Conversation intelligence is supported but an Azure Open AI Service endpoint isn't available, your call data and transcripts might be transmitted outside of the geographic locations that you've selected for your primary data residency. [Learn more about how data movement across regions works](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works).
-
-You need to opt in to allow your data to move outside of your region to an Azure OpenAI endpoint in a different region. You can opt in by providing consent in the Power Platform admin center. Learn more about [how data movement across region works](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works) and [how to provide consent](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
-
-
-
+If your Dynamics 365 Sales organization is in a region where Azure OpenAI Service isn't available, your call data and transcripts will be processed in the nearest region where Azure OpenAI Service is available.
