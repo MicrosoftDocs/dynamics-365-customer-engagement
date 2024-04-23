@@ -30,7 +30,7 @@ Your admin might have installed the add-in for your organization. If you see the
 
 1. Go to [Microsoft AppSource](https://aka.ms/fieldserviceaddin) and select **Dynamics 365 Field Service for Outlook**.
 
-   :::image type="content" source="media/fsp-outlook-add-in.png" alt-text="Field Service add-in card":::
+   :::image type="content" source="media/fsp-outlook-add-in.png" alt-text="Screenshot of Field Service add-in card":::
 
 1. Select **Add**, **Get it now**, or **Update** and confirm your information.
 
@@ -42,7 +42,7 @@ Your admin might have installed the add-in for your organization. If you see the
 1. Open an email or view it in the Reading Pane, select **More actions (...)**, and then select **Field Service**.
 
    > [!TIP]
-   > If you can't find the add-in, it may appear in a different location. See [Use an add-in in Outlook](https://support.microsoft.com/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8)
+   > If you can't find the add-in, it may appear in a different location. See [Use an add-in in Outlook](https://support.microsoft.com/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8).
 
    :::image type="content" source="media/fsp-outlook-sign-in.png" alt-text="Screenshot of the Outlook message More actions menu, with the menu button and Field Service highlighted." lightbox="media/fsp-outlook-sign-in.png":::
 
@@ -73,7 +73,7 @@ Open an email or view it in the Reading Pane, and then select the Field Service 
 
 [Open the Field Service add-in](#open-the-field-service-add-in) and select the ellipsis (**&hellip;**).
 
-:::image type="content" source="media/fsp-outlook-about.png" alt-text="Field Service Outlook pane showing version number, session ID, and links to overview and privacy statement.":::
+:::image type="content" source="media/fsp-outlook-about.png" alt-text="Screenshot of Field Service Outlook pane showing version number, session ID, and links to overview and privacy statement.":::
 
 In addition to the viewing the version number and session ID, you can sign out, or select a link to view the Field Service in Outlook overview or Microsoft Privacy Statement.
 
