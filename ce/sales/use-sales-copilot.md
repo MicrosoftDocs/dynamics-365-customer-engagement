@@ -61,15 +61,17 @@ When you chat with Copilot in natural language, you can use the following types 
   - Who is the owner of Alpine Ski House?
   - Show me all my opportunities that are closing this month.
 
-    These requests are answered with the data from Dataverse. These questions are typically based on the data that you see in your app.
+    These requests are answered with the data from Dataverse. These questions are typically based on the data that you see in your app. For more such questions, see [Questions about sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data)
 
-- **Term-based questions:** Questions that are based on terms that are specific to Sales organizations. Questions around the following topics are supported:
+- **Questions with sales-specific terminology:** Questions that are based on terms that are specific to Sales organizations. Questions around the following topics are supported:
 
   - **Conversion rates**. For example, what is my lead conversion rate for the last quarter?
 
   - **Deal cycle**. For example, what is the average deal cycle for my opportunities?
   - **Pipeline with filters**. For example, show my pipeline with deals closing in next 30 days.
   - **Deal sizes and values**. For example, display open deals with deal size greater than 10000.
+  
+For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology)
 
 ### Chat with Copilot using predefined prompts
 
