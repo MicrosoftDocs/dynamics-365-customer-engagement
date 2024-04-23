@@ -638,6 +638,8 @@
           items:
             - name: Set up conversation intelligence in Sales Hub app
               href: fre-setup-ci-sales-app.md
+            - name: Data movement across geographies
+              href: ci-data-movement.md
             - name: Set up own storage for call recordings
               href: create-azure-repo.md
             - name: Configure sales team level settings
