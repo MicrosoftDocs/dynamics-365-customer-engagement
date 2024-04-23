@@ -1,6 +1,6 @@
 ---
 title: Manage work orders with Field Service in Outlook (frontline managers) 
-description:  Learn how service managers and dispatchers can use the Dynamics 365 Field Service for Outlook add-in to create, view, update, and schedule work orders with AI assistance in Outlook.
+description:  Learn how frontline managers can use Dynamics 365 Field Service to create, view, update, and schedule work orders with AI assistance in Outlook. 
 ms.date: 03/25/2024
 ms.topic: how-to
 author: jasonxian-msft
@@ -12,22 +12,19 @@ ms.subservice: m365-integrations
 
 # Manage work orders with Field Service in Outlook (frontline managers)
 
-Dynamics 365 Field Service provides an Outlook add-in for frontline managers to create, view, and edit work orders directly from their email. Without leaving Outlook, you can respond to requests for service or questions about existing requests.
+Dynamics 365 Field Service provides an add-in for frontline managers to create, view, and edit work orders directly from their email without leaving Outlook.
 
-With Copilot, you can quickly create a work order with the information from the email, respond with proposed schedules, or confirm a schedule. You can select and book a technician.
+With Copilot, you can quickly create a work order with information from the email, respond with proposed schedules, or confirm a schedule.
 
-   :::image type="content" source="media/fsp-outlook-copilot-flow.png" alt-text="Work order process flow with Copilot in Field Service for Outlook.":::
+   :::image type="content" source="media/fsp-outlook-copilot-flow.png" alt-text="Screenshot of work order process flow with Copilot in Field Service for Outlook.":::
 
 You can also create a work order manually and use the [Field Service schedule board](work-with-schedule-board.md) for scheduling.
 
 ## Prerequisites
 
-- You have completed [Get started with Field Service in Outlook](flw-outlook-get-started.md).
-
-To use copilot features:
-
-- Your administrator has enabled the [Copilot in Microsoft Outlook and the Generate email response settings](flw-admin.md#give-consent-to-use-copilot-in-field-service-for-outlook).
-- You must have a paid Field Service environment. Copilot isn't available in trial environments.
+- Complete [Get started with Field Service in Outlook](flw-outlook-get-started.md).
+- Your administrator enables the [Copilot in Microsoft Outlook and the Generate email response settings](flw-admin.md#give-consent-to-use-copilot-in-field-service-for-outlook).
+- You have a paid Field Service environment. Copilot isn't available in trial environments.
 - Your environment is [updated](update-field-service.md) to the latest 2023 wave 2 build.
 
 ## Create a work order with Copilot
@@ -38,7 +35,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
 1. On the **Home** tab, select **Create a work order from email**.
 
-   :::image type="content" source="media/fsp-copilot-tab.png" alt-text="Field Service Outlook pane showing Home tab":::
+   :::image type="content" source="media/fsp-copilot-tab.png" alt-text="Screenshot of Field Service Outlook pane showing Home tab":::
 
    If the email doesn't meet Microsoft Responsible AI guidelines, Copilot displays an error. [Create the work order manually](#create-a-work-order-manually).
 
@@ -50,9 +47,9 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
    If a value doesn't appear in the list, select **+ New item type** to create it in the Field Service app. Save and close the Field Service app. Type the new value or select **Refresh** to make it appear in the list.
 
-   :::image type="content" source="media/fsp-copilot-review-work-order.png" alt-text="Field Service Outlook pane showing an auto-generated work order for review":::
+   :::image type="content" source="media/fsp-copilot-review-work-order.png" alt-text="Screenshot of Field Service Outlook pane showing an auto-generated work order for review":::
 
-   We encourage you to use the like/dislike buttons to leave feedback. Your feedback helps us continually improve Copilot's responses.
+   We encourage you to use the like/dislike buttons to leave feedback. Your feedback helps us to continually improve Copilot's responses.
 
 1. Select **Save**.
 
@@ -77,7 +74,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
    If a value doesn't appear in the list, select **+ New item type** to create it in the Field Service app. Save and close the Field Service app. Type the new value or select **Refresh** to make it appear in the list.
 
-   :::image type="content" source="media/fsp-outlook-fsp-pane.png" alt-text="Field Service Outlook Create work order pane":::
+   :::image type="content" source="media/fsp-outlook-fsp-pane.png" alt-text="Screenshot of Field Service Outlook Create work order pane":::
 
    > [!TIP]
    > Copy relevant information from the email into the **Summary** field, up to 8,000 characters. For general information about work orders, see [Work order architecture](field-service-architecture.md).
@@ -136,7 +133,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
 1. Select the work order to view or edit it.
 
-   :::image type="content" source="media/fsp-work-order-details.png" alt-text="Field Service Outlook work order details":::
+   :::image type="content" source="media/fsp-work-order-details.png" alt-text="Screenshot of Field Service Outlook work order details":::
 
 While you're viewing a work order, depending on the **System Status**, you can also:
 
