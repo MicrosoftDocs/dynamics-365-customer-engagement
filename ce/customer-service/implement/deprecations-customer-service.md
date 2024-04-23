@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 03/26/2024
+ms.date: 04/05/2024
 ms.custom: bap-template
 ---
 
@@ -16,35 +16,35 @@ The features that are deprecated in Customer Service are listed in this article.
 Administrators and IT professionals can use this information to prepare for future releases.
 
 > [!IMPORTANT]
-> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
-## Omnichannel for Customer Service on Unified Service Desk to be deprecated
+## Omnichannel for Customer Service on Unified Service Desk is deprecated and will be removed in October 2025
 
-Effective April 4, 2024, Omnichannel for Customer Service on Unified Service Desk will be deprecated. Support is available until October 2025.
+Effective April 4, 2024, Omnichannel for Customer Service on Unified Service Desk is deprecated. Support is available until April 2025. The app will be removed from all environments by October 2025.
 
 ## Microsoft Power BI template reports for Customer Service Analytics and Omnichannel Insights are deprecated
 
-Effective November 6, 2023, Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) is deprecated. We recommend that you start using the out-of-box [Omnichannel historical analytics](../use/omnichannel-analytics-insights.md) and [Customer Service historical analytics](../use/customer-service-analytics-insights-csh.md).  
+Effective November 6, 2023, Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) are deprecated. We recommend that you start using the out-of-box [Omnichannel historical analytics](../use/omnichannel-analytics-insights.md) and [Customer Service historical analytics](../use/customer-service-analytics-insights-csh.md) reports.  
 
-The deprecated features will be supported and there will be no change in product availability until February 28, 2024. Starting April 30, 2024, deprecated features won’t be available to download.  
+The deprecated features are no longer supported and product availability ended on February 28, 2024. Starting April 30, 2024, deprecated features won’t be available to download.  
 
 ## Intraday insights reports in Omnichannel for Customer Service are deprecated
 
-The [Omnichannel intraday insights reports](intro-intraday-insights-dashboard.md) are deprecated as of May 1, 2023. Support will continue to be available for the deprecated intraday insights reports until October 31, 2023. However, no new functionalities for intraday insights will be released henceforth.
+The [Omnichannel intraday insights reports](intro-intraday-insights-dashboard.md) are deprecated as of May 1, 2023. However, no new functionalities for intraday insights will be released henceforth.
 
 Effective April 30, 2024, Omnichannel intraday insights reports won't be available for existing organizations. Reports won’t be available for new organizations or tenants onboarded after May 01, 2023, or for those organizations that haven’t used the reports in the last 30 days.
 
 ## Some admin apps are deprecated
 
-With the release of the Customer Service admin center app that consolidates admin experiences across the Customer Service suite, we announce that the following admin experiences are deprecated and no longer supported after April 2023.
+With the release of the Customer Service admin center app that consolidates admin experiences across the Customer Service suite, the following admin experiences are deprecated and no longer supported as of April 2023.
 
 - Service Management area in the Customer Service Hub app
 - Omnichannel admin center
-- **App profile manager:** Was removed in April 2023.
+- **App profile manager**: Removed as of April 2023.
 
 Also, as of October 2022, the Omnichannel admin center and the service management area in Customer Service Hub are hidden by default in newly created organizations and environments. You can bring them back, but we recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
-## Omnichannel Administration app is deprecated and removed in July 2023
+## Omnichannel Administration app is deprecated and removed as of July 2023
 
 Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
@@ -54,7 +54,7 @@ Effective April 2023, the Omnichannel for Customer Service agent-facing app is d
 
 ## setContextProvider method for authenticated chat is deprecated
 
-The setContextProvider method for authenticated chat is deprecated and isn't supported as of October 1, 2021. We recommend that you use the JWT token for authenticated chat. More information: [Send authentication tokens](../develop/send-auth-token-starting-chat.md)
+The setContextProvider method for authenticated chat is deprecated and no longer supported as of October 1, 2021. We recommend that you use the JWT token for authenticated chat. More information: [Send authentication tokens](../develop/send-auth-token-starting-chat.md)
 
 ## Support for some knowledge management entities is deprecated <a name="deprecatedkmentities"></a>
 
@@ -98,7 +98,7 @@ The Contracts, Contract Line Items, and Contract Templates entities are deprecat
 
 ## Standard SLAs in Dynamics 365 Customer Service are deprecated
 
-Standard service level agreements (SLA Type field is set to Standard) are deprecated and will be removed in a future major release. Standard SLAs are replaced by enhanced SLAs. More information: [Enhanced service level agreements](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn887187(v=crm.8))
+Standard service-level agreements (SLA Type field is set to Standard) are deprecated and will be removed in a future major release. Standard SLAs are replaced by enhanced SLAs. More information: [Enhanced service level agreements](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn887187(v=crm.8))
 
 ## Customer Service Insights standalone app is deprecated
 

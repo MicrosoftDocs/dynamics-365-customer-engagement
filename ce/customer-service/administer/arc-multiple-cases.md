@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/01/2024
+ms.date: 04/02/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -41,9 +41,9 @@ As an administrator, you can enable this feature to ensure that multiple cases (
 
 ## How automatic record creation rules work to create multiple cases from an email sent to multiple mailboxes
 
-After the feature is enabled, any new emails sent to multiple mailboxes are converted to multiple cases, and a **Related** attribute (new attribute introduced on email activity to capture multiple records that an email can be associated with) is set for those cases. For more information on related attribute, see [Enable users to associate activities to multiple records (preview)](/power-apps/maker/data-platform/types-of-entities#enable-users-to-associate-activities-to-multiple-records-preview). The existing **Regarding** attribute for such emails will be blank. However, once the feature is turned on, for any existing email records, you’ll see the following:
+After the feature is enabled, any new emails sent to multiple mailboxes are converted to multiple cases, and a **Related** attribute (new attribute introduced on email activity to capture multiple records that an email can be associated with) is set for those cases. For more information on related attributes, see [Enable users to associate activities to multiple records (preview)](/power-apps/maker/data-platform/types-of-entities#enable-users-to-associate-activities-to-multiple-records-preview). The existing **Regarding** attribute for such emails are blank. However, once the feature is turned on, for any existing email records, you see the following actions:
 
-- If older email records have an existing **Active** case set as **Regarding**, no new case gets created when a reply email arrives, even if a new mailbox is added. The replied email gets associated with an existing case, and Regarding is set to the existing active case. The **Related** field remains empty, as no case was created.  
+- If older email records have an existing **Active** case set as **Regarding**, no new case gets created when a reply email arrives, even if a new mailbox is added. The replied email gets associated with an existing case, and **Regarding** is set to the existing active case. The **Related** field remains empty, as no case was created.  
 
 - If older email records have an existing **Resolved** case set as **Regarding**, and the **Wait for a specific amount of time after the connected case has been resolved** option is set to **YES**, and a reply email arrives after the time mentioned in the **Select the amount of time** setting, a new case is created. The related attribute of the reply email is populated with the newly created case. If the reply email is sent to multiple mailboxes, multiple cases are created and the related field is populated with multiple cases. The Regarding field for the reply email is set to blank.
 
@@ -53,7 +53,7 @@ The following flowchart explains how automatic record creation rules work to cre
 
 ### Recommendations
 
-- We recommend that you add a related attribute to your email form from the Power Apps Maker portal so that you can check which cases an email gets associated with after it gets converted to multiple cases. The related column isn't added to an email form by default. To enable users to use this new column, add the **Related** column to the email form. For information about how to add a column to a form, go to [add columns to a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
+- We recommend that you add a related attribute to your email form from the Power Apps Maker portal, so that you can check which cases an email gets associated with after it gets converted to multiple cases. The related column isn't added to an email form by default. To enable users to use this new column, add the **Related** column to the email form. For information about how to add a column to a form, go to [add columns to a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
 
 - When email gets converted to multiple cases, every case has the same case title by default, as the email subject gets copied to the case title. If you want to see which case originated in which mailbox, it's advisable to add the originating queue entries on the case form, which helps you identify which case got created in which queue.
 
@@ -104,3 +104,5 @@ The following flowchart explains how automatic record creation rules work to cre
 [How the automatic record creation rule works in a customer scenario](arc-customer-scenario.md#how-the-automatic-record-creation-rule-works-in-a-customer-scenario)
 
 [How the automatic record creation rule works in an agent scenario](arc-agent-scenario.md#how-the-automatic-record-creation-rule-works-in-an-agent-scenario)
+
+[Sample - ARC Multi-Related - Remove Unreferenced Queue](sample-arc-multiple-cases.md#sample---arc-multi-related---remove-unreferenced-queue)

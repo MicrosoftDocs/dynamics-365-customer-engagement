@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 09/28/2023
+ms.date: 04/12/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,12 +26,13 @@ You can do the following tasks in the communication panel:
 - Use the consult option if you need help with resolving the work item.
 - Generate a summary of the conversation. More information: [View and share auto-summarized conversations](cs-ai-generated-summary.md)
 
- > [!div class=mx-imgBorder]
- > ![Omnichannel communication panel chat interface.](../media/oceh-conversation-control-chat-interface.png "Omnichannel communication panel chat interface")  
 
 ## Enhance agent productivity using keyboard commands
 
 The communication panel has options that you can use to perform actions, such as see quick replies, consult, and transfer, and launch notes control. You can also use keyboard commands to perform these actions.
+
+ > [!div class=mx-imgBorder]
+ > ![Omnichannel communication panel chat interface.](../media/oceh-conversation-control-chat-interface.png "Omnichannel communication panel chat interface")  
 
 The following table lists the options and the keyboard shortcuts that you can use.
  
@@ -93,21 +94,22 @@ You can consult with other agents or supervisors using the consult option. You c
 
 The following events occur when you select the **Consult** button:
 
-1. The agent can search for agents to consult within the same queue or other queues, select and invite an agent, and then start a consultation.
+- You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays the agents whose skills match the selected criteria in full or partially, along with their name, and current presence status.
 
-1. The secondary agent receives a notification for the consult request.
+   :::image type="content" source="../media/add-to-consult.png" alt-text="Select the people icon to add the secondary agent to the conversation.":::
 
-1. When the secondary agent accepts the consult request, a separate pane with an option to end will open beside the communication panel for the primary agent.
+- Select and invite an agent, and then start a consultation.
+
+- The secondary agent receives a notification for the consult request.
+
+- When the secondary agent accepts the consult request, a separate pane with an option to end opens beside the communication panel for the primary agent.
  
    :::image type="content" source="../media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary agent.":::
 
-1. The secondary agent sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary agent and customer.
+- The secondary agent sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary agent and customer.
    
-   :::image type="content" source="../media/consultee-agent-view.png" alt-text="View of consult pane for the agent.":::
+- The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
 
-2. The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
-
-   :::image type="content" source="../media/add-to-consult.png" alt-text="Select the people icon to add the secondary agent to the conversation.":::
 
 Additionally, the following considerations apply:
 
@@ -142,7 +144,8 @@ When skill-based routing is enabled, then during the transfer, the **Transfer** 
 
 When a conversation needs to be transferred from one queue to another, the matching criteria that were used in the conversation will be reused to find an agent in the new queue. For example, if exact match had been used to attach the skills to the conversation, the same criteria is used to find the agent in the new queue.
 
-![Transfer queue list.](../media/oceh-cc-transfer-queue-list.png "Transfer queue list")
+> [!div class="mx-imgBorder"]
+> ![Transfer queue list.](../media/oceh-cc-transfer-queue-list.png "Transfer queue list")
 
 ### Search agents or queues for transfer of conversation requests
 

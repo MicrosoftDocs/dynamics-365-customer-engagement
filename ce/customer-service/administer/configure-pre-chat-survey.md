@@ -3,7 +3,7 @@ title: Configure a pre-conversation survey
 description: Configure a pre-conversation survey in Customer Service admin center to ask customers questions before they start a conversation.
 author: neeranelli
 ms.author: nenellim
-ms.date: 02/29/2024
+ms.date: 04/23/2024
 ms.topic: how-to
 ms.collection:
 ms.reviewer:
@@ -56,7 +56,7 @@ For the chat channel, you can configure a survey that users can respond to when 
 
 1. Select **Confirm**. The survey question with its details is listed in the **Survey questions** area.
 
-1. Repeat the steps pertaining to creating questions. You can add up to five questions only.
+1. Repeat the steps pertaining to creating questions. You can add up to 10 questions only.
 
       :::image type="content" source="../media/ocac-pre-conversation-questions.png" alt-text="Screenshot of the pre-conversation survey questions that you can configure.":::
     

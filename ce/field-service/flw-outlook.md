@@ -1,7 +1,7 @@
 ---
 title: Manage work orders with Field Service in Outlook (frontline managers) 
-description:  Learn how frontline managers can use Dynamics 365 Field Service to create, view, update, and schedule work orders with AI assistance in Outlook. 
-ms.date: 03/25/2024
+description: Learn how service managers and dispatchers can use the Dynamics 365 Field Service for Outlook add-in to create, view, update, and schedule work orders with AI assistance in Outlook.
+ms.date: 04/18/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -16,7 +16,7 @@ Dynamics 365 Field Service provides an add-in for frontline managers to create, 
 
 With Copilot, you can quickly create a work order with information from the email, respond with proposed schedules, or confirm a schedule.
 
-   :::image type="content" source="media/fsp-outlook-copilot-flow.png" alt-text="Screenshot of work order process flow with Copilot in Field Service for Outlook.":::
+:::image type="content" source="media/fsp-outlook-copilot-flow.png" alt-text="Screenshot of work order process flow with Copilot in Field Service for Outlook.":::
 
 You can also create a work order manually and use the [Field Service schedule board](work-with-schedule-board.md) for scheduling.
 
@@ -31,7 +31,9 @@ You can also create a work order manually and use the [Field Service schedule bo
 
 Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you don't see the Copilot icon, your admin might have [disabled the Copilot setting](configure-default-settings.md#features-settings).
 
-1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in). If the email was previously used to create a work order using Copilot, a message displays with a link to the work order.
+1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in).
+
+   If the email was previously used to create a work order using Copilot, a message displays with a link to the work order, unless the email was moved. If the email was moved to another folder, for example from Inbox to Archive, a message or link doesn't display.
 
 1. On the **Home** tab, select **Create a work order from email**.
 
@@ -56,7 +58,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
    The work order number displays at the top of the **Field Service** pane and the email is saved in the Field Service timeline.
 
    > [!TIP]
-   > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon :::image type="icon" source="media/fsp-pop-out-icon.png":::.
+   > If you want to open the work order in the Dynamics 365 Field Service app, select the open web app :::image type="icon" source="media/fsp-open-web-app-icon.png"::: icon.
 
 1. Choose from one of the **Suggested actions** or select the back arrow to return to the **Home** tab.
 
@@ -84,7 +86,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
    The work order number displays at the top of the **Field Service** pane and the email is saved in the Field Service timeline.
 
    > [!TIP]
-   > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon :::image type="icon" source="media/fsp-pop-out-icon.png":::.
+   > If you want to open the work order in the Dynamics 365 Field Service app, select the open web app icon :::image type="icon" source="media/fsp-open-web-app-icon.png":::.
 
 ## Draft an email response with Copilot
 
@@ -143,7 +145,7 @@ While you're viewing a work order, depending on the **System Status**, you can a
 
 - Open a map to locate the service address. Select the **Open in Bing Maps** :::image type="icon" source="media/fsp-flm-map-icon.png"::: icon.
 
-- Open the work order in Dynamics 365 Field Service. Select the pop-out :::image type="icon" source="media/fsp-pop-out-icon.png"::: icon.
+- Open the work order in Dynamics 365 Field Service. Select the open web app :::image type="icon" source="media/fsp-open-web-app-icon.png"::: icon.
 
 ## Schedule or reschedule a work order
 
@@ -157,7 +159,7 @@ The Field Service add-in helps you schedule work orders in Outlook. Scheduling s
 
 1. Review the list of suggestions. You can search for a technician by name, filter by dates, or sort the list by start time or travel time.
 
-   If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
+   If the **Estimated Duration** isn't set up in the resource requirements, 30 minutes is used as a default.
 
    :::image type="content" source="media/fsp-outlook-scheduling.png" alt-text="Screenshot of the Field Service pane in Outlook, Scheduling suggestions, with the search, filter, and sorting options highlighted.":::
 
