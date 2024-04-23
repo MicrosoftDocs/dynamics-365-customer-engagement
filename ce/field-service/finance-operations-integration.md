@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications
 description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
-ms.date: 04/12/2024
+ms.date: 04/16/2024
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -57,11 +57,11 @@ If the service account and the company don't match on a work order and the work 
 
 Field Service highlights company misalignment in multiple places:
 
-- On the work order
+- on the work order,
 
-- On the work order product or work order service
+- on the work order product or work order service,
 
-- On the finance and operations transaction
+- on the finance and operations transaction.
 
 As a best-practice, organizations that implement this integration should consider creating incident type records with products and services with company alignment in mind. And use the right incident type based on the company of the service account on the work order.
 
@@ -75,7 +75,7 @@ The integration uses a reliable asynchronous transaction framework to make sure 
 
 - Each transaction on a work order is committed within Field Service before creating an update in finance and operations applications.
 
-  - When the transaction is finalized in Field Service, it creates a record in the transactions table that shows the status of each transaction.
+  - When the transaction is finalized in Field Service, it creates a record in a transaction log table that shows the status of each transaction.
 
   - The integration monitors the transaction statuses of the work orders and projects. The transaction statuses indicate the synchronization state of the data, such as unsynchronized, processing, synchronizing, and failed. The integration also provides error handling and retry mechanisms to resolve any synchronization issues.
 
@@ -83,7 +83,7 @@ The integration uses a reliable asynchronous transaction framework to make sure 
 
   - If the transaction still fails to synchronize, the error and transaction details are preserved in the finance and operations transaction record. Users can troubleshoot the issue and resync the transaction ensuring no loss of financial and inventory transactional data.
 
-    - While important, with correct system configuration, this level of intervention into specific transactions are the exception; however, enabling this type of issue resolution is critical to making sure that transactional consistency can be maintained between the two platforms.
+    With correct system configuration, transaction failures are exceptions. Resolving this type of issue is critical to making sure that transactional consistency is maintained between the two systems.
 
 ## Hierarchical finance and operations projects
 
@@ -95,18 +95,18 @@ The integration supports storage dimensions when correctly configured. Storage d
 
 Depending on the inventory product selected when creating a work order product, the defined storage dimensions determines whether location is required within the work order product.
 
-- When you add a product inventory transaction in Field Service, you can select a warehouse and a location from the lookup fields on the transaction form. The warehouse and location fields are filtered to show the values from finance and operations applications, based on the legal entity to which the work order's service account belongs. The configuration of the finance and operations product and its tracking dimensions determine if the work order product location field is required when marking a product as used.
+- When a user adds a work order product where the chosen product has **Inventory** for the **Field Service Product Type** in Field Service, they can select a warehouse and a location from the lookup fields on the transaction form. The warehouse and location fields are filtered to show the values from finance and operations applications, based on the legal entity to which the work order's service account belongs. The configuration of the finance and operations product and its storage dimensions determine if the work order product location field is required when marking a product as used.
 
-- When a user modifies or deletes the corresponding transaction in Field Service, the integration updates or deletes the journal and journal line.
+- When a user modifies or deletes the corresponding work order product record in Field Service, the integration updates the relevant journal line.
 
-The warehouse and location fields in Field Service are related to the warehouse and location concepts in finance and operations applications, which are used to track the physical and logical locations of the inventory items.
+The warehouse and location fields in Field Service are related to the warehouse and location concepts in finance and operations applications, which are used to track the physical locations of the inventory items.
 
 > [!NOTE]
-> The solution doesn't require population of the **Site** value and will instead populate site based on the selected warehouse, which has a hierarchical relationship with site. We recommend configuring default order settings to minimize errors when a work order product with an inventory product is created.
+> The integration doesn't require population of the **Site** value and instead, populates site based on the selected warehouse, which has a hierarchical relationship with site. We recommend configuring default order settings to minimize errors when a work order product with an inventory product is created.
 
 ## Inventory
 
-When the finance and operations integration is [enabled from the Field Service Settings](finance-operations-integration-setup.md#enable-the-integration-from-field-service), the system of record for inventory is Dynamics 365 Supply Chain Management. When enabled, Field Service's native inventory functionality is suppressed.
+When the finance and operations integration is [enabled from the Field Service Settings](finance-operations-integration-setup.md#enable-the-integration-from-field-service), the system of record for inventory is Dynamics 365 Supply Chain Management, and Field Service's default inventory functionality is suppressed.
 
 Field Service hides the following navigation items:
 
@@ -122,11 +122,11 @@ Field Service shows the following items:
 - Inventory By Site
 - Inventory By Warehouse
 
-These new inventory items use [virtual tables](/dynamics365/fin-ops-core/dev-itpro/power-platform/virtual-entities-overview) to expose inventory data directly from Supply Chain Management inside Field Service. The true inventory levels from the system of record are available to users once the integration is enabled.
+These new inventory items use [virtual tables](/dynamics365/fin-ops-core/dev-itpro/power-platform/virtual-entities-overview) to expose inventory data directly from Supply Chain Management inside Field Service. The true inventory levels from the system of record are available to users.
 
-The inventory validation function against Field Service's default inventory is disabled when this integration is enabled. The Field Service setting for **Use of Products Out of Stock** is hidden and repressed to ensure users don't receive irrelevant inventory validations or blocking behavior.
+The inventory validation function against Field Service's default inventory is disabled when the integration is enabled. The Field Service setting for **Use of Products Out of Stock** is hidden and repressed to ensure users don't receive irrelevant inventory validations or blocking behavior.
 
-This integration solution doesn't autovalidate a work order's inventory transactions based on Supply Chain Management inventory levels.
+The integration doesn't autovalidate a work order's inventory transactions based on Supply Chain Management inventory levels.
 
 ### Inventory views with and without variant details
 
@@ -135,15 +135,15 @@ When the integration is enabled, the inventory views have a version for organiza
 For organizations using product variants, there are relevant views that show all of the details of the inventory levels including columns for size, color, style, and configuration. If necessary, organizations can modify the default views as they can with any table.
 
 > [!NOTE]
-> Different than normal tables, currently individual rows within these inventory tables (*mserp_inventorysiteonhandv2entity* and *mserp_inventwarehouseonhandv2entity*) don't receive a persistent GUID and don't support being opened within a form. The view control used in these views suppresses the ability for these records to be opened in a form.
+> Different than normal tables, currently individual rows within these inventory tables (*mserp_inventorysiteonhandv2entity* and *mserp_inventwarehouseonhandv2entity*) don't support being opened within a form. The view control used in these views suppresses the ability for these records to be opened in a form.
 
 ## Worker alignment
 
-The Field Service integration with finance and operations applications extends the Dynamics 365  Human Resources to bookable resource integration that introduces the concept of the worker to the bookable resource. In addition, the Field Service integration extends to:
+The Field Service integration with finance and operations applications extends the [Dynamics 365 Human Resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm) that introduces the concept of the worker to the bookable resource. In addition, the Field Service integration extends to:
 
 - Allow a worker to be captured on a work order product or work order service.
 
-- Autopopulate the worker value on the work order product or work order service based on the worker of the bookable resource on the transaction's associated booking. This value can be manually populated or overridden.
+- Autopopulate the worker value on the work order product or service based on the bookable resource's worker in the transaction's associated booking. This value can be manually populated or overridden.
 
 - Require the worker on non-inventory related work order products or work order services. The requirement is based on whether the company's associated project management and accounting parameters are configured to require a worker value in hours journal lines or expense journal lines.
 
@@ -151,17 +151,27 @@ The Field Service integration with finance and operations applications extends t
 
 The worker field isn't filtered based on eligibility of the worker to perform work on the related project. Eligibility of a bookable resource's related worker to perform work for a given company or project isn't considered as a scheduling parameter when determining the bookable resource to schedule on a work order. As a best practice, organizations might consider using security roles and business units or introduce resource characteristics to ensure workers are only schedulable against relevant work orders. Consider these options if it's a critical consideration for an organization's implementation of finance and operations applications.
 
-## Work order field changes
+## Field Service field changes
 
-The integration introduces a virtual table lookup field called **F&O Project** which is filtered based on the relevant company/legal entity and whether the project is in a transactable lifecycle state. This solution hides the **Billing Account** field since it isn't relevant when a finance and operations integration is selected.
+The integration introduces some new fields and hides other fields.
 
-## Work order product field changes
+### Work order field changes
 
-The integration solution introduces several fields to the work order product table. These fields are visible if the integration is installed and enabled.
+The integration adds a virtual table lookup field called **F&O Project** that's filtered based on the relevant company/legal entity and whether the project is in a transactable lifecycle state. The integration hides the **Billing Account** field since it isn't relevant when a finance and operations integration is selected.
+
+When a user is selecting a project, the project lookup filters show projects with the following parameters:
+
+- The project must be for the same customer as the work order's service account.
+- The project must be for the same legal entity as the work order’s service account.
+- The project must be in a stage that allows journal creation.
+
+### Work order product field changes
+
+The integration introduces several fields to the work order **Product** table. These fields are visible if the integration is installed and enabled.
 
 - **Journal Description**
 
-  - Only visible for expense transactions (non-inventory products). It's hidden for inventory products (which result in item journals).
+  - Only visible for expense transactions (non-inventory products). Hidden for inventory products (which result in item journals).
   - Autopopulates with the product name of the applied product though users are encouraged to override the value with a more meaningful description.
   - Limited to 60 characters. It flows from the record in Field Service to the journal line to the invoice generated in Finance.
 
@@ -184,9 +194,9 @@ The integration solution introduces several fields to the work order product tab
   - Only required based on project management and accounting parameters configured on the relevant company.
   - Autopopulated if the work order product's booking value is populated based on the worker of the bookable resource set on the booking.
 
-## Work order service field changes
+### Work order service field changes
 
-The integration solution introduces several fields to the work order service table. These fields are visible if the integration is installed and enabled.
+The integration introduces several fields to the work order **Service** table. These fields are visible if the integration is installed and enabled.
 
 - **Journal Description**
 
@@ -206,9 +216,45 @@ The integration solution introduces several fields to the work order service tab
 
   - Autopopulated if the work order service's booking value is populated based on the worker of the bookable resource set on the booking.
 
-## Product field additions
+### Product field additions
 
 The integration introduces a virtual table lookup field called **Project Category** which is filtered based on the relevant company/legal entity and whether it's an inventory (for item categories), non-inventory (for expense categories), or service (for hours categories) product.
+
+## Work order transaction handling
+
+Based on events with a Field Service work order’s product and service records, corresponding transactions are triggered in their respective journal and journal line records.
+
+### Create
+
+- **Product**: When a work order product record is created, the integration creates an item journal and journal line or an expense journal and journal line. The product's **Field Service Product Type** determines whether the transaction triggers and item or expense transaction.
+
+  - Inventory products trigger items
+  - Non-inventory products trigger expenses
+
+- **Service**: When a work order service record is created, the integration creates an hours transaction.
+
+### Update
+
+- When a work order product or service is updated and the related journal and journal line are unposted, the integration updates the transaction appropriately.
+
+- When a work order product or service is updated and the related journal and journal line are posted, the integration:
+
+  - Creates a reverse transaction against the original journal and journal line.
+  - Creates a new journal and journal line reflecting the updates transaction.
+
+### Delete
+
+- When a work order product or service is deleted and the related journal and journal line are unposted, the integration deletes the journal and journal line.
+
+- When a work order product or service is deleted and the related journal and journal line are posted, the integration creates a reverse transaction against the original journal and journal line.
+
+## Work order system status impact
+
+Based on the **System Status** value of a work order, the integration adds or deletes journal lines that are related to work order product or work order service records that are still in an estimated state.
+
+- When a work order is updated to **Canceled** or **Posted**, all unposted journals and journal lines are deleted.
+
+- When a work order is updated from **Canceled** or **Posted** to any other system status, estimated lines that were removed automatically get new lines recreated.
 
 ## Limitations
 
@@ -224,7 +270,7 @@ The following processes or features available within the finance and operation a
 
 - Tracking dimensions to define the granularity of an item's tracking in subsequent transactions. This feature is useful for tracking items by batch or serial number.
 
-- The **Require Activity On Journals** settings in a Project set to "Yes" isn't supported. If activities for Hours, Expenses, or Items are configured as required, the transactions from Field Service doesn't succeed.
+- The **Require Activity On Journals** settings in a Project set to "Yes" isn't supported. If activities for Hours, Expenses, or Items are configured as required, the transactions from Field Service don't succeed.
 
 - The integration currently supports limited alignment of data updates from project journals back to its respective work order transaction. When a Field Service user creates or updates a work order product or service, those updates sync with the respective journal. However, expense journal lines, hours journal lines, or item journal lines only sync the defaulted line property and a reference to the active journal line for the record. Other changes to the respective Field Service transaction record aren't synced from their respective line journals.
 

@@ -1,7 +1,7 @@
 ---
 title: Use the schedule board in Field Service
 description: Learn about the schedule board experience in Dynamics 365 Field Service.
-ms.date: 10/09/2023
+ms.date: 04/19/2024
 ms.topic: how-to
 author: clearab
 ms.author: anclear
