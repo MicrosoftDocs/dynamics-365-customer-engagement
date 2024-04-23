@@ -70,14 +70,14 @@ For sample schema to get all the required records, see [Sample schema for skill-
    - **Entity display name**: When you create the schema, select the tables (entities) in the sequence as mentioned in the following table.
    - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system-defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns if necessary.
 
-  > [!IMPORTANT]
-  > For **Characteristic** table, you must manually create **bookableresourcecharacteristictype** Global choice value in the target environment, or use a solution to migrate it from the source environment, if necessary.
+    > [!IMPORTANT]
+    > For **Characteristic** table, you must manually create **bookableresourcecharacteristictype** Global choice value in the target environment, or use a solution to migrate it from the source environment, if necessary.
 
-   |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
-   |---------|---------|---------|
-   |Characteristic (characteristic)    | <ul><li>Characteristic Type (characteristictype)</li><li>Characteristic (characteristicid)</li><li>Description (description)</li><li>Name (name)</li></ul> |         |
-   |Rating Model (ratingmodel)     |<ul><li>Max Rating Value (maxratingvalue)</li><li>Min Rating Value (minratingvalue)</li><li>Name (name)</li><li>Rating Model (ratingmodelid)</li></ul>         |         |
-   |Rating Value (ratingvalue)     | <ul><li>Name (name)</li><li>Rating Model (ratingmodel)</li><li>Rating Value (ratingvalueid)</li><li>Value (value)</li></ul> |         |
+    |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+    |---------|---------|---------|
+    |Characteristic (characteristic)    | <ul><li>Characteristic Type (characteristictype)</li><li>Characteristic (characteristicid)</li><li>Description (description)</li><li>Name (name)</li></ul> |         |
+    |Rating Model (ratingmodel)     |<ul><li>Max Rating Value (maxratingvalue)</li><li>Min Rating Value (minratingvalue)</li><li>Name (name)</li><li>Rating Model (ratingmodelid)</li></ul>         |         |
+    |Rating Value (ratingvalue)     | <ul><li>Name (name)</li><li>Rating Model (ratingmodel)</li><li>Rating Value (ratingvalueid)</li><li>Value (value)</li></ul> |         |
 
 1. Generate the schema and save it.
 
