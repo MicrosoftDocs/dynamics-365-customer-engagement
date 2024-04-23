@@ -129,9 +129,11 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvReadOrganizationSetting
 - prvReadmsdyn_panetabconfiguration 
 - prvReadmsdyn_paneconfiguration 
+- msdyn_appconfiguration
+- msdyn_panetoolconfiguration
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
-
+ 
 
 ## Next steps
 
