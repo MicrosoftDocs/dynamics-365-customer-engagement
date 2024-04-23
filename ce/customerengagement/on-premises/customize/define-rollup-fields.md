@@ -2,7 +2,7 @@
 title: "Create rollup fields in Dynamics 365 Customer Engagement (on-premises)"
 description: "Rollup fields are designed to offer insights into data by aggregating values. Learn about the capabilities of rollup fields and things to consider."
 ms.custom: 
-ms.date: 01/08/2024
+ms.date: 04/23/2024
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -158,7 +158,7 @@ The _state field has the following values:
   
 - A rollup can't reference a calculated field that uses another calculated field, even if all the fields of the other calculated field are on the current entity.
 
-- A rollup field doesn't update automatically if it uses a formula field which is dependent on time bound functions `Now(), UTCNow(), IsUTCToday(), UTCToday()`. Online recalculation option (manual refresh on the form) - Recalculate button has to be used to calculate latest rollup field's value.
+- A rollup field doesn't update automatically if it uses a formula field that's dependent on time bound functions, such as `NOW()`, `UTCNOW()`, `ISUTCTODAY()`, or `UTCTODAY()`. The online recalculation option (manual refresh on the form) or **Recalculate** button must be used to calculate the latest rollup field value.
   
 - The rollup can only apply filters to the source entity or related entities, simple fields or non-complex calculated fields.  
   
