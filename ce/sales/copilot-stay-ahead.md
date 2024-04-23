@@ -1,7 +1,7 @@
 ---
 title: Stay ahead with Copilot
 description: Learn how to prepare for upcoming meetings and catch up on emails with Copilot in Dynamics 365 Sales.
-ms.date: 04/04/2024
+ms.date: 04/30/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -22,19 +22,29 @@ Stay ahead of your work by asking Copilot to help you prepare for meetings and c
 
 ## Prepare for upcoming sales appointments
 
-If you have meetings scheduled on your calendar in the next 24 hours, Copilot can help you prepare for them. Go into your meetings with a helpful summary of notes from the last three months and the most recent email thread on the timeline of the related record.
+If you have meetings scheduled on your Outlook calendar in the next seven days, Copilot can help you prepare for them. Go into your meetings with a helpful summary of notes from the last three months and the most recent email thread on the timeline of the related record.
+
+>[!NOTE]
+>Currently, meeting preparation is available only for opportunities.
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Prepare for sales appointments**.
 
-    - If you have a record open, Copilot lists sales appointments in the next 24 hours that are related to that record.
-    - If you're in the grid view, Copilot lists all your sales appointments in the next 24 hours.
+    >[!NOTE]
+    >You're prompted to grant access to your Outlook calendar the first time you open Copilot. Copilot uses this access to show upcoming meetings and schedules.
 
-1. From the list of sales appointments, hover over the meeting that you'd like to prepare for and select **Prepare**.
+1. Under **Stay ahead**, select **Prepare for sales appointments**. The Copilot lists the meetings that are scheduled for today and the next seven days.  
 
-    If you only have one meeting coming up in the next 24 hours, it's summarized automatically.
+    - If you have a record open, Copilot lists sales appointments in the next seven days that are related to that record.  
+    - If you're in the grid view, Copilot lists all your sales appointments in the next seven days.
 
-    :::image type="content" source="media/copilot-prepare-for-meetings.png" alt-text="Screenshot of Copilot's notes for an upcoming meeting.":::
+1. From the list of sales appointments, hover over the meeting that you'd like to prepare for and select **Prepare**.  
+    A list of meeting insights are displayed in the chat pane. The insights are generated based on the [fields selected for generating summaries](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).  
+    Select **Source** corresponding to the insight to view the record from which the insight is created.  
+
+    :::image type="content" source="media/copilot-prepare-for-meetings.svg" alt-text="Screenshot of Copilot's notes for an upcoming meeting.":::
+
+1. (Optional) To view the meeting in Outlook, select **Open Meeting**.  
+1. (Optional) To provide feedback on the insights, select the Thumps Up or Down icon.
 
 ## Show emails you haven't replied to
 

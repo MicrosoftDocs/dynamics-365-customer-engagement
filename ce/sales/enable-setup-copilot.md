@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales. Help your sales team can get summaries of their lead and opportunity records, catch up on recent changes, and prepare for meetings.
-ms.date: 04/04/2024
+ms.date: 04/30/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -84,16 +84,15 @@ For all the other orgs, an admin must provide consent in the Power Platform admi
 
     The Welcome to Copilot pane opens in the right side pane with a quick tour.
 
-
 ## Configure fields for generating summaries and recent changes list
 
-By default, Copilot uses a set of predefined fields to generate [summaries](copilot-get-information.md#summarize-a-lead-or-opportunity) and a list of [recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) for opportunities and leads. You can add other lead and opportunity fields and fields from related tables to make the summaries and recent changes list more relevant for your business.
+By default, Copilot uses a set of predefined fields to generate [summaries](copilot-get-information.md#summarize-a-lead-or-opportunity), a list of [recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) for leads, opportunities, and accounts and prepare . You can add other fields from lead, opportunity, account, and related tables to make the summaries and recent changes list more relevant for your business.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
 1. Under **General Settings**, select **Copilot**.
 
-1. Select **Opportunities** or **Leads**. The following screenshot shows the Opportunity settings page. The Lead settings page is similar.
+1. Select **Opportunities**, **Leads**, or **Accounts**. The following screenshot shows the **Opportunity** settings page. The **Lead** and **Account** settings page is similar.
 
     :::image type="content" source="media/copilot-summary-settings.svg" alt-text="Screenshot of the Opportunity settings page for record summaries in Copilot.":::
 
