@@ -10,7 +10,7 @@ ms.topic: reference
 # ON_SESSION_CLOSED event (app profile manager)
 
 
-Invoked by the client when a session is closed. This event provides an opportunity to perform clean-up tasks or update the application state in response to session closure. ON_SESSION_CLOSED event takes the following eventData:
+This event is invoked when the client when a session is closed. This event provides an opportunity to perform clean-up tasks or update the application state in response to session closure. ON_SESSION_CLOSED event takes the following eventData:
  
 
 
