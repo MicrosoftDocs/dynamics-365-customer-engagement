@@ -5,6 +5,7 @@ ms.date: 05/05/2023
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Personalize text messages through templates

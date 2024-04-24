@@ -6,7 +6,7 @@ ms.custom: bap-template
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ---
 
 # Create custom insight cards 

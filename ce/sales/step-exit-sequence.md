@@ -5,6 +5,7 @@ ms.date: 07/29/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Exit a sequence during the flow

@@ -3,7 +3,7 @@ title: Forecast recalculation methods
 description: Learn about different forecast recalculation methods and when and how the forecast data is updated with an example.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: conceptual
 ms.collection: get-started
 ms.date: 12/21/2023
