@@ -22,7 +22,7 @@ Stay ahead of your work by asking Copilot to help you prepare for meetings and c
 
 ## Prepare for upcoming sales appointments
 
-If you have meetings scheduled on your Outlook calendar in the next seven days, Copilot can help you prepare for them. Go into your meetings with a helpful summary of notes from the last three months and the most recent email thread on the timeline of the related record.
+If you have meetings scheduled on your Outlook calendar in the next seven days, Copilot can help you prepare for them.  
 
 >[!NOTE]
 >Currently, meeting preparation is available only for opportunities.
@@ -30,12 +30,10 @@ If you have meetings scheduled on your Outlook calendar in the next seven days, 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 
     >[!NOTE]
-    >You're prompted to grant access to your Outlook calendar the first time you open Copilot. Copilot uses this access to show upcoming meetings and schedules.
+    >You're prompted to grant access to your Outlook calendar the first time you open Copilot. Copilot uses this access to gather data from your sales contacts (external) from Outlook and shows upcoming meetings and schedules.
 
-1. Under **Stay ahead**, select **Prepare for sales appointments**. The Copilot lists the meetings that are scheduled for today and the next seven days.  
-
-    - If you have a record open, Copilot lists sales appointments in the next seven days that are related to that record.  
-    - If you're in the grid view, Copilot lists all your sales appointments in the next seven days.
+1. Under **Stay ahead**, select **Prepare for sales appointments**.  
+    The Copilot lists the meetings scheduled for the current day and the upcoming seven days from the records you have access to.  
 
 1. From the list of sales appointments, hover over the meeting that you'd like to prepare for and select **Prepare**.  
     A list of meeting insights are displayed in the chat pane. The insights are generated based on the [fields selected for generating summaries](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).  
@@ -43,7 +41,8 @@ If you have meetings scheduled on your Outlook calendar in the next seven days, 
 
     :::image type="content" source="media/copilot-prepare-for-meetings.svg" alt-text="Screenshot of Copilot's notes for an upcoming meeting.":::
 
-1. (Optional) To view the meeting in Outlook, select **Open Meeting**.  
+1. (Optional) To view the meeting in Outlook, select **Open Meeting**. 15 minutes before the start time, the option changes to join teams meeting. You can join the meeting directly by selecting this option.  
+
 1. (Optional) To provide feedback on the insights, select the Thumps Up or Down icon.
 
 ## Show emails you haven't replied to
