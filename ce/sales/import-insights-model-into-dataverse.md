@@ -3,7 +3,7 @@ title: Import a custom insights model into Dataverse
 description: Learn how to import your custom insights model into Dataverse to display insights.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.collection: 
 ms.date: 06/09/2023

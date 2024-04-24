@@ -5,6 +5,7 @@ ms.date: 06/29/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # View and understand call summary page in Conversation Intelligence app
 

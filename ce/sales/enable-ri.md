@@ -5,6 +5,7 @@ ms.date: 08/19/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Enable relationship intelligence  
 

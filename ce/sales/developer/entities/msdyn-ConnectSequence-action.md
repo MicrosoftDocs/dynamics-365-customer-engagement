@@ -7,6 +7,7 @@ ms.custom:
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # msdyn_ConnectSequence Action

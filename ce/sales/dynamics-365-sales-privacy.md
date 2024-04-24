@@ -5,6 +5,7 @@ ms.date: 07/06/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Dynamics 365 Sales and privacy laws and regulations 
 

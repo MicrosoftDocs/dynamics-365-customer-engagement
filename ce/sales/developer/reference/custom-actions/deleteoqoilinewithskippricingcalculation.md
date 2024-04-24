@@ -5,6 +5,7 @@ ms.date: 10/26/2021
 ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
 ms.reviewer: susikka
