@@ -29,11 +29,11 @@ For information about older versions, see [Version history archive](../../field-
 **Dataverse:** 4.0.120.10
 
 - Inactive organizational units are no longer displayed on the map
-- Fixed a bug that was causing new some new tabs on the requirements panel to be unclickable. 
-- Fixed a bug that was not syncing changes to a booking in the schedule assistant grid
-- Fixed a bug that was causing schedule board to crash when maximizing from a very small window
+- Custom color setting for working/non-working hours are now used in aggregated views and the hourly view.
+- Fixed a bug that prevented the selection of new some new tabs on the requirement pane. 
+- Fixed a bug with syncing changes to a booking in the schedule assistant grid.
+- Fixed a bug that was causing schedule board to crash when maximizing it from a very small window.
 - Fixed a bug that was causing the details panel to not respect customized requirements detail view for resource type.
-- Custom color setting for working/non-working hours are now utilized in aggregated views as well as hourly view.
 
 
 ## 3.12.129.28
