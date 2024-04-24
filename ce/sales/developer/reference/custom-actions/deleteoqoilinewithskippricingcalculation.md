@@ -8,7 +8,6 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
-ms.reviewer: susikka
 ---
 # DeleteOQOILineWithSkipPricingCalculation custom action 
 
