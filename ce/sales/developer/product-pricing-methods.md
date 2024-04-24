@@ -2,7 +2,6 @@
 title: Product pricing methods (Dynamics 365 Sales)
 description: Use the ProductPriceLevel.PricingMethodCode column to determine product prices.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales

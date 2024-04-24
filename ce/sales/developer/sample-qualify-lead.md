@@ -3,7 +3,6 @@ title: "Sample: Qualify a lead (Dynamics 365 Sales)"
 description: The sample demonstrates how to qualify a lead and create an account, contact, or opportunity.
 ms.custom: 
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales

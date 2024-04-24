@@ -2,7 +2,6 @@
 title: "Sample: Create and publish products (Dynamics 365 Sales)"
 description: Sample demonstrates how to create a product family, override a product property, publish a product hierarchy, and revise a overridden property.
 ms.date: 03/01/2023
-ms.reviewer: 
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales

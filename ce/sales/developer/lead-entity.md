@@ -2,7 +2,6 @@
 title: Lead table (Dynamics 365 Sales)
 description: Learn about lead table that represents an individual who is interested in receiving specific information about products or services offered by the company.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 author: udaykirang
 ms.author: udag

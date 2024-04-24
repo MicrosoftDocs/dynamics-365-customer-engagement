@@ -2,7 +2,6 @@
 title: Sales tables (lead, opportunity, competitor, quote, order, invoice)(Dynamics 365 Sales)
 description: Learn about sales entities to manage tracking leads, opportunities, competitors, and managing quotes, orders, products, and sales goals of a sales process.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales

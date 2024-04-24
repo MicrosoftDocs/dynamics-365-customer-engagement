@@ -2,7 +2,6 @@
 title: "Sample: Distribute a quick campaign (Dynamics 365 Sales)"
 description: The sample code demonstrates how to create and distribute a quick campaign.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
