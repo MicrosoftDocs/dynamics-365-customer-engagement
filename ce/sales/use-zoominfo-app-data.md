@@ -67,5 +67,6 @@ To understand more about each component of the ZoomInfo home page, see [Dynamics
 ### See also
 
 [Install ZoomInfo app](install-zoominfo-app.md)   
+[ZoomInfo Native App for Microsoft Dynamics 365 Implementation Guide](https://tech-docs.zoominfo.com/microsoft-dynamics-native-app-implementation-guide.pdf)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

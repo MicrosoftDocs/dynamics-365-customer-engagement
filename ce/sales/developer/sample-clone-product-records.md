@@ -3,8 +3,6 @@ title: "Sample: Clone product records (Dynamics 365 Sales)"
 description: "Sample demonstrates how to clone a product record."
 ms.custom: 
 ms.date: 01/02/2020
-ms.reviewer: 
-
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: sample
