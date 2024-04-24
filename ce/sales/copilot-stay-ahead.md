@@ -30,14 +30,19 @@ If you have meetings scheduled on your Outlook calendar in the next seven days, 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 
     >[!NOTE]
-    >You're prompted to grant access to your Outlook calendar the first time you open Copilot. Copilot uses this access to gather data from your sales contacts (external) from Outlook and shows upcoming meetings and schedules.
+    >- You're prompted to grant access to your Outlook calendar the first time you open Copilot. Copilot uses this access to gather data from your sales contacts (external) from Outlook and shows upcoming meetings and schedules.
+    >- If you don't want the Copilot to access your Outlook calendar, select the information icon in the meetings section and select **Change preferences**. In the **Disconnect Copilot and Outlook?** dialog box, select **Disconnect**.
 
 1. Under **Stay ahead**, select **Prepare for sales appointments**.  
-    The Copilot lists the meetings scheduled for the current day and the upcoming seven days from the records you have access to.  
+    The Copilot lists the meetings scheduled for the current day and the upcoming seven days from the records you have access to. The meetings listed here have an external participant whose email address is added to your organization in Dynamics 365, and this email address must be associated with an opportunity.
 
 1. From the list of sales appointments, hover over the meeting that you'd like to prepare for and select **Prepare**.  
-    A list of meeting insights are displayed in the chat pane. The insights are generated based on the [fields selected for generating summaries](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).  
+    A list of meeting insights are displayed. The first point of the meeting insights always shows the short summary of the opportunity.  
     Select **Source** corresponding to the insight to view the record from which the insight is created.  
+    The insights are generated based on the following considerations for the opportunity:  
+    - Notes added to the timeline.
+    - All related open activities.
+    - Any related open opportunity and cases of the associated account.  
 
     :::image type="content" source="media/copilot-prepare-for-meetings.svg" alt-text="Screenshot of Copilot's notes for an upcoming meeting.":::
 
