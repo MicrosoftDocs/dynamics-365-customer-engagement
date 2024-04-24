@@ -2,8 +2,8 @@
 title: Languages supported for conversation intelligence 
 description: This article lists the native and non-native language support for conversation intelligence.
 author: lavanyakr01 
-ms.author: lavanyakr 
-ms.reviewer: shujoshi 
+ms.author: lavanyakr
+ms.reviewer: lavanyakr  
 ms.service: dynamics-365-sales
 ms.topic: conceptual 
 ms.date: 05/15/2023

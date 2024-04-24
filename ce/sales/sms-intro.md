@@ -6,7 +6,7 @@ ms.topic: overview
 ms.custom: bap-template
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ---
 
 # Engage with customers through text messages

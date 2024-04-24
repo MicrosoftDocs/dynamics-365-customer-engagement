@@ -3,7 +3,7 @@ title: Configure the opportunity pipeline view
 description: Learn how to configure the opportunity pipeline view, formerly known as deal manager, to help sellers visualize their pipeline and manage opportunities better.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: how-to 
 ms.date: 04/22/2024
 ms.custom: bap-template 

@@ -5,6 +5,7 @@ ms.date: 09/02/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Manage tags for sequences

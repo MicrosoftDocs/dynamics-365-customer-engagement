@@ -4,6 +4,7 @@ description: Enable or disable price updates for finalized orders or invoices in
 ms.date: 04/22/2024
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 searchScope:
   - D365-App-msdynce_saleshub

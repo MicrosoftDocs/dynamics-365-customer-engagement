@@ -3,7 +3,7 @@ title: Enable address suggestions
 description: Learn how to enable the address suggestion feature in Dynamics 365 Sales to help sellers save time and reduce errors when they enter address information.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
 ms.date: 06/26/2023
