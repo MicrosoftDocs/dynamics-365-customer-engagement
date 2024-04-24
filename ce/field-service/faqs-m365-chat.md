@@ -11,10 +11,6 @@ ms.reviewer: v-wendysmith
 ms.collection: bap-ai-copilot 
 ---
 
-
-<!-- Request from editor: I thought the sentence in line 20 was confusing and reworded it, so please review. -->
-
-
 # FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot
 
 This FAQ answers questions about the AI impact of the Dynamics 365 Field Service Plugin for Microsoft Copilot and how the plugin helps with work orders.
