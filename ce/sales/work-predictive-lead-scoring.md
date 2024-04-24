@@ -4,6 +4,7 @@ description: Use the predictive lead scoring feature to prioritize your leads ba
 ms.date: 05/10/2023
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 ms.topic: conceptual
 ms.service: dynamics-365-sales

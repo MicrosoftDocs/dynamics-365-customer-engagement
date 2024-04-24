@@ -3,7 +3,7 @@ title: Honor individuals' privacy preferences
 description: Learn how to set the email following options for contact, lead, and account records to address your customers' privacy and security concerns. 
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.date: 05/25/2023
 ms.custom: bap-template

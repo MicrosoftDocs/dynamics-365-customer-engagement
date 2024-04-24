@@ -3,12 +3,12 @@ title: Dynamics 365 Sales trial FAQs
 description: Solutions to common questions related to Dynamics 365 Sales trial sign up and management. Learn how to resolve platform and app-specific issues.
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.date: 03/15/2024
 ms.topic: conceptual
 ms.custom: 
   - template-trial-faq
   - bap-template
-ms.reviewer: shujoshi
 ---
 # Dynamics 365 Sales trial FAQs  
 

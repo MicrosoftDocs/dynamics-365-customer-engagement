@@ -3,7 +3,7 @@ title: Manage opportunities using pipeline view
 description: Learn how to use the opportunity pipeline view, formerly known as deal manager, to visualize, prioritize, and manage the opportunities in your pipeline.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: how-to 
 ms.date: 04/22/2024
 ms.custom: bap-template 

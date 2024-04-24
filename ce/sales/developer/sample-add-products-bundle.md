@@ -2,10 +2,10 @@
 title: "Sample: Add products to a bundle (Dynamics 365 Sales)"
 description: Sample demonstrates how to add products to a product bundle.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: sample
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 ---

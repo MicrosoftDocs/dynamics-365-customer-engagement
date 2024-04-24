@@ -3,6 +3,7 @@ title: Enable the detection of duplicate leads
 description: Enable duplicate lead detection to help sellers identify and address potential duplicate leads and keep the leads database clean.
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 manager: shujoshi
 ms.topic: how-to
 ms.date: 04/13/2023
