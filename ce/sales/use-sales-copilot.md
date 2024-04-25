@@ -90,7 +90,7 @@ When you chat with Copilot in natural language, you can use the following types 
   - Who is the owner of Alpine Ski House?
   - Show me all my opportunities that are closing this month.
 
-    These requests are answered with the data from Dataverse. These questions are typically based on the data that you see in your app. For more such questions, see [Questions about sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data)
+These questions are answered using the data stored in Dataverse, which is the underlying data platform for Dynamics 365 Sales. For more such questions, see [Questions about sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data).
 
 - **Questions with sales-specific terminology:** Questions that are based on terms that are specific to Sales organizations. Questions around the following topics are supported:
 
