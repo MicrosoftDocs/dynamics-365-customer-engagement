@@ -1,7 +1,7 @@
 ---
 title: Set up Field Service integration with finance and operations applications
 description: Set up the Dynamics 365 Field Service integration with finance and operations to synchronize inventories and budgeting items between the applications.
-ms.date: 04/16/2024
+ms.date: 04/19/2024
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -11,15 +11,15 @@ author: jasonccohen
 
 Set up the integration between Dynamics 365 Field Service and finance and operations applications.
 
-<!--- Does this have to be done by an admin? If so, what kind? --->
-
 ## Prerequisites
 
-- Finance and operations apps that have build version 10.0.39 (10.0.1860.56) and platform update 63 or later
+- You have system administrator permissions
 
-- [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm) installed
+- Finance and operations applications have build version 10.0.39 (10.0.1860.56) and platform update 63 or later
 
-- Dynamics 365 Field Service version number 8.8.116+
+- [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm) is installed
+
+- Dynamics 365 Field Service version number is 8.8.116 or later
 
 ## Enable the integration from finance and operations applications
 
@@ -61,33 +61,33 @@ The integration depends on [dual-write](/dynamics365/fin-ops-core/dev-itpro/data
 
 1. Select each of the following required table mappings. Then select **Run** and **Initial Sync**.
 
+   - Styles
+   - Colors
+   - Configurations
+   - Sizes
+   - Units
+   - Currencies
+   - CDS Released distinct products
+   - Customer payment method
+   - Payment days CDS
+   - Vendor payment method
+   - Sales tax groups
+   - Terms of payment
+   - Customer groups
+   - Vendor groups
+   - Customers V3 (contacts)
+   - Tracking dimensions groups
+   - Storage dimensions groups
+   - Product dimensions groups
    - All products
    - CDS Contacts V2
    - CDS Contacts V2
-   - CDS Released distinct products
-   - Colors
-   - Configurations
-   - Currencies
-   - Customer groups
-   - Customer payment method
    - Customers V3 (accounts)
-   - Customers V3 (contacts)
-   - Payment days CDS
-   - Payment schedule
-   - Product dimensions groups
-   - Released products V2
-   - Sales tax groups
-   - Sites
-   - Sizes
-   - Storage dimensions groups
-   - Styles
-   - Terms of payment
-   - Tracking dimensions groups
-   - Units
-   - Vendor groups
-   - Vendor payment method
    - Vendors V2
+   - Sites
    - Warehouses
+   - Released products V2
+   - Worker
 
 For maps and initial syncs against global entities that fail with permissions errors, you might need to specify the owning team.
 
@@ -97,29 +97,37 @@ The integration relies on virtual tables and process execution in each user's co
 
 [Set up the following security roles](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
-- **Field Service Integration User**: For each user that creates or updates work orders which sync data with finance and operations applications. Users with this role can only interact with finance and operations data through the integration. They aren't entitled to access the finance and operations applications unless they have a full license.
+- **Field Service Integration User**: For each user that creates or updates work orders which sync data with finance and operations applications. Users with this role can only interact with finance and operations data through the integration. They aren't entitled to access the finance and operations applications unless they have a full license. For more information, see the [Dynamics 365 Licensing Guide](https://www.microsoft.com/licensing/product-licensing/dynamics365).
 
 - **Field Service Integration Admin**: For administrators who manage the Dynamics 365 Field Service integration parameters settings tab.
 
 ## Configure default order settings
 
-To ensure that the integration can successfully create item journals, we strongly advise that all items you plan to use in Field Service use default order settings that automatically apply a site. Otherwise, all work order products where the product is a Field Service product type inventory require a warehouse value before the item journal can be created.
-
-<!--- Where/how is this done? https://learn.microsoft.com/en-us/dynamics365/supply-chain/production-control/default-order-settings --->
+To ensure that the integration can successfully create item journals, [use default order settings that automatically apply a site](/dynamics365/supply-chain/production-control/default-order-settings) to all items you plan to use in Field Service. Otherwise, all work order products where the product is a Field Service product type inventory require a warehouse value before the item journal can be created. Once a work order product is marked as used, since Field Service requires a value in the Warehouse field, the integration can set the site. However, without default order settings, estimated work order products might not synchronize.
 
 ### Configure inventory and warehouse management within warehouses
 
 To ensure that the integration can successfully integrate journals related to items that require location, we advise that all warehouses you plan to use with Field Service have **inventory and warehouse management** configured to define default locations. This configuration allows all work order products where the product's storage dimensions are configured to require location to successfully synchronize, even when created offline.
 
-<!--- Where/how is this done? https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sales-marketing/synchronize-warehouse --->
+<!--- Where/how is this done? https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sales-marketing/synchronize-warehouse isn't the right one. --->
 
 ## Enable the integration from Field Service
 
+## Install and enable the solution
+
+1. In Field Service, change to the **Settings** area.
+
+1. Select the **Features** tab.
+
+1. Select **Install** for **Install Finance and Operations**. A notification appears when installation completes.
+
+1. Enable **Finance and Operations Integration** and confirm.
+
 ### Configure posting behaviors
 
-Depending on the nature of your organization's Field Service work, benefit from two potential posting behaviors of journals and lines.
+Depending on the nature of your organization's Field Service work, select a posting behavior for journals and lines. The behavior applies across the Field Service environment.
 
-1. In **Field Service Settings**, select the **Work Order/Booking** tab
+1. In **Field Service Settings**, select the **Work Order/Booking** tab.
 
 1. Choose a value for **Post used for Finance and Operations**:
 
@@ -152,7 +160,9 @@ If your environment has custom security roles, add new table permissions. Update
 
 ### Align the work order to projects
 
-The **Finance and Operations project** field in Dynamics 365 Field Service is a required field when [creating a work order](finance-operations-integration-create-wo.md). This field defines what project the work order is aligned with. Your organization can capture this value manually or can build automated logic to populate a value, which aligns with that organization's business processes.
+The **Finance and Operations project** field in Dynamics 365 Field Service is a required field when the work order's **System Status** is **Posted**. This field defines what project the work order is aligned with. Your organization can capture this value manually or can build automated logic to populate a value, which aligns with that organization's business processes.
+
+Once populated, the integration synchronizes the work order with the selected project, creating a subproject in the finance and operations applications. The work order and subproject alignment is essential to ensure all work order transactions are correctly placed in the enterprise resource planning (ERP). By default, the subproject name is based on the work order number. Once the subproject is created through the synchronization transaction, the subproject is associated with the work order in Field Service.
 
 ## See also
 

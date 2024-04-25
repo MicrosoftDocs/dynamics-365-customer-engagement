@@ -5,6 +5,7 @@ ms.date: 05/09/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Microsoft Teams chat integration FAQs

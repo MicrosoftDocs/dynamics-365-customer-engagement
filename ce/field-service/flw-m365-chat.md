@@ -21,7 +21,7 @@ To access this chat feature, an admin must [set up Microsoft Copilot for Field S
 
 ## Best practices
 
-- Ask any straight-forward question about Field Service work orders. Ambiguous questions such as "What are the most important work orders" might not return results as "most important" isn't a defined status. Instead, ask "What are the high priority work orders?"
+- Ask any straightforward question about Field Service work orders. Ambiguous questions such as "What are the most important work orders" might not return results because "most important" isn't a defined status. Instead, ask "What are the high-priority work orders?"
 
 - Be specific about the expected outcomes. For example, if you want results in table format, then use the phrase "in table format." If you want a consolidated result or summary, be specific. For example, "What is the incident type and service account for work order 00041?"
 
@@ -74,9 +74,9 @@ Answers that came from an attachment are listed under **reference** at the botto
 
 ### More sample questions
 
-- How do I handle the battery of the Surface Laptop safely? Provide a list of recommendations.
-- What temperatures are in the Surface Laptop battery's operating range?
-- How do I separate the C-cover from the Surface Laptop?
+- How do I handle the battery of the Surface laptop safely? Provide a list of recommendations.
+- What temperatures are in the Surface laptop battery's operating range?
+- How do I separate the C-cover from the Surface laptop?
 - What service tools are required to replace the non-skid foot pad on the Surface laptop?
 - What are the details for work order {work order number}? Can you summarize?
 - Give me the full details for my most recent work order.

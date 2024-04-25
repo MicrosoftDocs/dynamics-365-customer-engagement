@@ -6,6 +6,7 @@ ms.collection: get-started
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 # Analyze your sales data with Power BI
 

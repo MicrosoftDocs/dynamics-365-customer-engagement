@@ -210,6 +210,8 @@
           href: arc-customer-scenario.md
         - name: How the automatic record creation rule works in an agent scenario
           href: arc-agent-scenario.md
+        - name: Sample - ARC Multi-Related - Remove Unreferenced Queue
+          href: sample-arc-multiple-cases.md
       - name: FAQ about automatic record creation
         href: arc-faqs.md
     - name: Service-level agreements
@@ -784,6 +786,10 @@
           href: migrate-oc-to-csw.md
         - name: Enable Omnichannel for Customer Service and disable Customer Service workspace
           href: enable-oc-disable-csw.md
+      - name: Migrate configuration data for records channel using solutions
+        href: migrate-record-routing-config-using-solutions.md
+      - name: Migration configuration data for channels using solutions
+        href: migrate-channel-config-using-solutions.md  
       - name: Migrate configuration data for the record channel
         items:
         - name: Overview of data migration for records

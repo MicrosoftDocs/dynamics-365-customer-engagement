@@ -5,6 +5,7 @@ ms.date: 12/10/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # View details of a sequence and its connected records 
 

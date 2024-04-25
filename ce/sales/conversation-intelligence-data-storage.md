@@ -3,7 +3,7 @@ title: How to manage conversation intelligence data in Dataverse
 description: Learn about the data structure, storage, access, and deletion of conversation intelligence insights in Dataverse.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: conceptual 
 ms.collection: 
 ms.date: 01/16/2024
