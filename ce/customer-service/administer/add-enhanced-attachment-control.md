@@ -17,7 +17,7 @@ ms.custom:
 
 # Enable email controls
 
-Enhanced email controls enable you to streamline the email experience for agents. Use the information in this article to configure **Email Recipient control** and **Attachments control** to improve agent productivity.
+Enhanced email components enable you to streamline the email experience for agents. Use the information in this article to configure **Email Recipient control** and **Attachments control** to improve agent productivity.
 
 ## Enable recipient control
 
@@ -25,7 +25,7 @@ You can enable the recipient control for agents to drag and drop recipients acro
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables**> **Email**> **Forms** and then select the required form.
-1. Add the **Email Recipient control** component. For more information: [Add components to a form]((/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#add-components-for-a-column-on-the-form)).  
+1. Add the **Email Recipient control** component. For more information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#add-components-for-a-column-on-the-form).  
 1. In the Add Email Recipient control, perform the following actions:
    - Make sure you map the From, To, CC, and BCC fields in the component to the appropriate email fields.
    - Set the **Static Value** for **Show Email address** to **True** to display the email address along with the name of the recipient.
@@ -69,5 +69,7 @@ You can enable the drag and drop feature for files to be added as attachments fo
 1. Save and publish the form.
 
 ## Next steps
+
+[Enhanced recipient handling](/power-apps/user/view-compose-email#enhanced-recipient-handling)
 
 [Use the enhanced email attachment experience across email forms](../use/enhanced-email-attachment-control.md)
