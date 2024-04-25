@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in Dynamics 365 Sales apps
 description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, and enrich your leads with data from different sources.
-ms.date: 04/17/2024
+ms.date: 04/26/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -72,6 +72,7 @@ Open the Copilot page in a full-screen view when you want more space and focus t
 
 You can chat with Copilot in natural language or use predefined prompts to get the most out of Copilot.
 
+<a name=chat-with-copilot-in-NL></a>
 ### Chat with Copilot in natural language (preview)
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
@@ -101,9 +102,11 @@ When you chat with Copilot in natural language, you can use the following types 
   
 For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology)
 
+You can also access some of these question from the Prompt guide that appears when you select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) in the Copilot side pane or Copilot page.
+
 ### Chat with Copilot using predefined prompts
 
-Use predefined prompts to get the most out of Copilot. The following table provides a quick reference to predefined prompts.
+Use predefined prompts to get the most out of Copilot. The following table includes some of the predefined prompts that you can use to get information, ask questions, and stay ahead with Copilot. More prompts are added regularly to help you be more productive and efficient in your daily work.
 
 | Prompt name | Prompt navigation | Description |
 |---------|---------|---------|

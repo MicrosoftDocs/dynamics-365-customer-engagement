@@ -1,7 +1,7 @@
 ---
 title: Stay ahead with Copilot
 description: Learn how to prepare for upcoming meetings and catch up on emails with Copilot in Dynamics 365 Sales.
-ms.date: 04/04/2024
+ms.date: 04/26/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -18,7 +18,7 @@ ms.collection: bap-ai-copilot
 
 # Stay ahead with Copilot
 
-Stay ahead of your work by asking Copilot to help you prepare for meetings and catch up on emails that need your attention.
+Stay ahead of your work by asking Copilot to help you prepare for meetings and catch up on emails that need your attention. You can either use predefined prompts or ask questions in natural language. This article describes some of the predefined prompts you can use to stay ahead with Copilot. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
 ## Prepare for upcoming sales appointments
 
