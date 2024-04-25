@@ -5,6 +5,7 @@ ms.date: 03/31/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Configure tables for quick creation of records and activities 

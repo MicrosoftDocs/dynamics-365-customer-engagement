@@ -11,7 +11,7 @@ ms.custom:
   - ai-seo-date:04/15/2024
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ---

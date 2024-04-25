@@ -2,10 +2,10 @@
 title: Sales literature entities (Dynamics 365 Sales)
 description: Create and manage sales literature items to associate attachments and articles to enrich an organization’s sales information.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 

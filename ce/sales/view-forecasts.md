@@ -5,6 +5,7 @@ ms.date: 03/05/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
   - bap-template

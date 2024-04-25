@@ -3,9 +3,9 @@ title: Sign up for a free Dynamics 365 Sales trial
 description: Sign up for a free Sales trial and get access to key features, test the app with sample data, and try out your own customer data.
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.date: 03/19/2024
 ms.topic: how-to
-ms.reviewer: shujoshi
 ms.custom:
   - template-trial-setup bap-template
   - ai-gen-docs-bap

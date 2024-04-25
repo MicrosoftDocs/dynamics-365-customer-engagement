@@ -3,7 +3,7 @@ title: Forecast period rules and scheduling formats
 description: Learn about the rules and calendar templates to set forecast periods, including duration, number of occurrences and scheduling format.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
 ms.date: 09/01/2023

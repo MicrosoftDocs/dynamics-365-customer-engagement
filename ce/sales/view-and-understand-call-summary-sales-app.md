@@ -7,6 +7,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # View and understand the call summary page

@@ -3,7 +3,7 @@ title: Buy Dynamics 365 Sales
 description: This article describes the process of buying Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi 
+ms.reviewer: lavanyakr 
 ms.topic: conceptual 
 ms.date: 02/09/2024
 ms.custom: bap-template

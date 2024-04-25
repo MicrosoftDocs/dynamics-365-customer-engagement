@@ -5,7 +5,7 @@ ms.date: 03/08/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ---
 # Set up enhanced email 
 

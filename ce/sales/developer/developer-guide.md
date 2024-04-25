@@ -5,6 +5,7 @@ ms.date: 03/29/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Developer Guide for Dynamics 365 Sales 
 

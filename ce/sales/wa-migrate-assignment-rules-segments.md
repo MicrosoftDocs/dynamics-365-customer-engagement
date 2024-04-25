@@ -3,7 +3,7 @@ title: Migrate assignment rules and segments
 description: Migrate assignment rules and segments using the Configuration Migration tool.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.date: 02/02/2024
 ms.custom:

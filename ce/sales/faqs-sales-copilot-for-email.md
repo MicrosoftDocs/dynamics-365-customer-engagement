@@ -9,7 +9,7 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot 
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ---
 
 # FAQ for Copilot for emails
