@@ -56,7 +56,7 @@ We didn't find any cases where the recap made up information that wasn't in the 
 
 ## What are the limitations of the feature and how can I minimize their impact?
 
-The work order recap nd summary configuration features are still in preview, and we're working on improving them. You can help us by giving us feedback using the like/dislike buttons on the recap. We use this data to evaluate and improve the quality of the content.
+The work order recap and summary configuration features are still in preview, and we're working on improving them. You can help us by giving us feedback using the like/dislike buttons on the recap. We use this data to evaluate and improve the quality of the content.
 
 The feature only works online. You can't use it when you're offline.
 
