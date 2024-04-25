@@ -19,7 +19,7 @@ ms.custom:
 
 With automatic record creation, you can create multiple cases from an email sent to multiple mailboxes. As an administrator, you can [enable this feature](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes) to ensure that [multiple cases (one for each queue-enabled mailbox) get created when multiple mailboxes are added as recipients in the email](arc-multiple-cases.md#how-automatic-record-creation-rules-work-to-create-multiple-cases-from-an-email-sent-to-multiple-mailboxes).
 
-This topic lists the various customer scenarios and explains how the automatic record creation rule works when a customer sends a new mail, replies to an email, or forwards an agent’s email. The following flowchart explains the customer scenario.
+This topic lists the various customer scenarios and explains how the automatic record creation rule works when a customer sends a new email, replies to an email, or forwards an agent’s email. The following flowchart explains the customer scenario.
 
 :::image type="content" source="../media/arc_customer-scenario.png" alt-text="Flowchart explaining the customer scenario.":::
 
@@ -38,6 +38,9 @@ When a customer replies (ER1) to the original email E1 from the Sent items folde
 ### Replies to the original email from Sent items and adds a new queue
 
 When a customer adds a new mailbox, Q4, to the already existing Q1, Q2, Q3 mailboxes in a replied email, the automatic record creation rule creates a new case, Case 4, for the additional mailbox Q4. The response email, ER1, is related to all cases: Case 1, Case 2, Case 3, and Case 4. The response email appears as a threaded response for Case 1, Case 2, and Case 3. Case 4 displays the response email, ER1.
+
+
+
 
 ### Replies to the original email from Sent items after removing a queue
 
