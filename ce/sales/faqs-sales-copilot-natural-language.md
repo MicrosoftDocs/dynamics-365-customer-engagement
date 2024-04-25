@@ -37,7 +37,7 @@ This feature helps sellers be more efficient and effective. Sellers can use ever
 
 ### Questions about sales data
 
-A user can enquire about sales records that are available within Dynamics 365, such as Accounts, Contacts, Leads and Opportunities. For example, the following questions can be asked to generate answers.
+A user can inquire about sales records that are available within Dynamics 365, such as Accounts, Contacts, Leads, and Opportunities. For example, the following questions can be asked to generate answers.
 
 - Who is the primary contact for Adventure Works?
 - What are the opportunities for account Adventure Works?
@@ -53,22 +53,22 @@ A user can enquire about sales records that are available within Dynamics 365, s
 - What is the address of account Adventure Works?
 - Show me the opportunity of Coho Winery?
 - Show me all opportunities owned by Amanda Donnelly
-- How many accounts have fifty or less employees with an annual revenue of more than two million dollars.
-- What are the accounts that do not have any opportunities?
+- How many accounts have 50 or less employees with an annual revenue of more than two million dollars.
+- What are the accounts that don't have any opportunities?
 - What opportunities are expected to close this quarter with an estimated revenue of less than two million.
 
-You aren't limited to the questions or scenarios listed above. Think of the scenarios as patterns that Copilot  in Dynamics 365 Sales can process. All Dynamics 365 Sales tables that follow these patterns have been enabled for this functionality.
+You aren't limited to the questions or scenarios in the preceding list. Think of the scenarios as patterns that Copilot  in Dynamics 365 Sales can process. All Dynamics 365 Sales tables that follow these patterns are enabled for this functionality.
 
 ### Questions with sales-specific terminology
 
-One of the key features of Copilot in Dynamics 365 Sales is the sales-specific chat experience that empowers sellers to get productive by providing any information required from CRM through a simple natural language chat interface. Sellers can use common sales terms and phrases to ask questions and get answers from the system, without having to navigate through multiple screens, exporting data and analyzing. This saves time and effort for sellers, allowing them to focus on their customers and prospects. The sales terms that Copilot supports are conversion rate, deal cycle, pipeline, deal size, win rate, and deal value. Here are some sample questions you could ask:
+One of the key features of Copilot in Dynamics 365 Sales is the sales-specific chat experience that empowers sellers to get productive by providing any information required from CRM through a simple natural language chat interface. Sellers can use common sales terms and phrases to ask questions and get answers from the system, without having to navigate through multiple screens, exporting data and analyzing. This feature saves time and effort for sellers, allowing them to focus on their customers and prospects. The sales terms that Copilot supports are conversion rate, deal cycle, pipeline, deal size, win rate, and deal value. Here are some sample questions you could ask:
 
 - What is the conversion rate for opportunities belonging to the customer ‘Adventure Works’
 - What is the win rate for 'Kenny Smith’
 - Which account has the highest conversion rate
 - Which lead source has the highest conversion rate
 - Which marketing campaigns have generated leads that have highest conversion rates
-- What are top 3 campaigns sorted by conversion rates
+- What are top three campaigns sorted by conversion rates
 - What is the pipeline for ‘Adventure Works’
 - Show my current pipeline
 - What is the average deal size for successful opportunities
@@ -76,7 +76,7 @@ One of the key features of Copilot in Dynamics 365 Sales is the sales-specific c
 - What is the average time to close an opportunity having a revenue of more than 2 million
 - Which product SKU has the longest conversion days
 - Show me my top 10 accounts by value
-- Which products are selling the most this month compared to last month
+- Which products were selling the most this month compared to last month
 - Which products are selling the most for customers having an annual revenue of more than 20 million
 
 ## How was the feature evaluated? What metrics are used to measure performance?
@@ -85,7 +85,7 @@ The ability was tested on a set of question-and-answer datasets that were carefu
 
 ## What are the limitations of natural language chat? How can users minimize the impact of these limitations?
 
-The chat feature only works in English which will affect customers who use localized content.
+The chat feature only works in English, which will affect customers who use localized content.
 
 ## What operational factors and settings allow for effective and responsible use of the natural language feature?
 
