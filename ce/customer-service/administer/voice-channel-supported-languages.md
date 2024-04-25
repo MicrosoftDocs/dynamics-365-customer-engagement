@@ -1,11 +1,12 @@
 ---
 title: Supported languages and locale codes for voice channel
-description: Use this article to know about the supported languages and locale codes for the voice channel in Omnichannel for Customer Service.
+description: Know about the supported languages and locale codes for the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 12/11/2023
+ms.date: 02/14/2024
 ms.topic: conceptual
+ms.collection:
 ms.custom: bap-template
 ---
 # Supported languages and locale codes for voice channel
@@ -43,7 +44,7 @@ See the information in the following table to know about the supported languages
 | Arabic - Oman | `ar-OM` |x|x|✔|x|x|x|x|
 | Arabic - Palestinian Authority| `ar-PS` |x|x|✔|x|x|x|x|
 | Arabic - Qatar| `ar-QA` |x|x|✔|✔|x|x|x|
-| Arabic - Saudi Arabia| `ar-SA` |✔|✔|✔|✔|x|✔|✔|
+| Arabic - Saudi Arabia| `ar-SA` |✔|x|✔|✔|✔|✔|✔|
 | Arabic - Syria| `ar- SY` |x|x|✔|✔|x|x|x|
 | Arabic - Tunisia| `ar-TN` |x|x|✔|✔|x|x|x|
 | Arabic - United Arab Emirates| `ar-AE` |x|x|✔|✔|x|x|x|
@@ -60,7 +61,7 @@ See the information in the following table to know about the supported languages
 | Burmese - Myanmar| `my-MM` |x|x|x|x|x|x|x|
 | Catalan | `ca` |✔|x|✔|✔|✔|x|✔|
 | Chinese - China - Mandarin| `zh-CN` |✔|✔|✔|✔|✔|x|✔|
-| Chinese - Hong Kong SAR - Cantonese | `zh-HK` |✔|✔|✔|✔|✔|x|✔|
+| Chinese - Hong Kong SAR - Cantonese | `zh-HK` |✔|x|✔|✔|✔|x|✔|
 | Chinese - Taiwan - Traditional | `zh-TW` |✔|✔|✔|✔|✔|x|✔|
 | Chinese - Literary | `lzh` |x|x|x|x|x|x|x|
 | Croatian - Croatia | `hr-HR` |✔|x|✔|✔|✔|x|✔|

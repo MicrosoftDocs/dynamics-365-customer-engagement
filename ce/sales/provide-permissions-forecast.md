@@ -5,6 +5,7 @@ ms.date: 08/17/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
 ---
@@ -57,7 +58,7 @@ A message under the security roles gives more information about how the forecast
 
 ## Enable or disable forecast sharing
 
-By default, forecasts can't be shared. If you turn on forecast sharing, users can share only the forecasts that they own. For more information, see [Who owns the forecast?](./faqs-sales.md#who-owns-the-forecast)
+By default, forecasts can't be shared. If you turn on forecast sharing, users can share only the forecasts that they own. For more information, see [Who owns the forecast?](faq-forecasting.md#who-owns-the-forecast)
 
 In the **Share forecast** section, select one of the following options:
 

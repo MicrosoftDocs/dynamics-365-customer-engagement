@@ -1,9 +1,10 @@
 ---
 title: Connect with customers through your work list or the Up next widget
 description: Learn how to use the Up next widget or the My work list to connect with customers by phone, email, and Teams meeting in Dynamics 365 Sales.
-ms.date: 10/10/2023
+ms.date: 04/23/2024
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.topic: how-to 
 ms.custom: bap-template
 ---
@@ -98,7 +99,7 @@ To open an appointment from the **Up next** widget, select **Open** in the activ
 
 You can send a text message (SMS) to your customer from the record in the My work list or an activity in the **Up next** widget.  
 
-A phone number must be available for the contact you're sending the message to. If not, a warning message is displayed. When you send an SMS, the app creates an activity and links it to the record and updates the Timeline wall accordingly.
+A phone number must be available for the contact you're sending the message to. If not, a warning message is displayed. When you send an SMS, the app creates an activity and links it to the record and updates the Timeline wall accordingly. To ensure professional and secure communication, the application always prioritizes business phone numbers over personal ones when sending automated SMS.  
 
 You can select the text message option in the following ways:  
 
@@ -106,9 +107,9 @@ You can select the text message option in the following ways:
 
 -	From the **Up next** widget, select **Text message** in the activity.
 
-When the text message is selected, the conversation pane opens, allowing you to compose your message or select a template through the text box to send. Additionally, if you have multiple phone numbers associated, you can choose which number to use for sending the message. 
+When the text message is selected, the conversation pane opens, allowing you to compose your message or select a template through the text box to send. Additionally, if you and your customer have multiple associated phone numbers, you can select a specific number from which to send the message, as well as a specific number for the customer to receive it.
 
-:::image type="content" source="media/sms-text-message-pane.png" alt-text="Screenshot of the conversation pane.":::
+:::image type="content" source="media/sms-text-message-pane.svg" alt-text="Screenshot of the conversation pane.":::
 
 The message history is linked to the record and available for you or other sellers who work on the record for reference. Also, you can view replies from the customers and respond to them through the conversation pane. More information: [Manage text message conversations](manage-text-message-communications.md)
 

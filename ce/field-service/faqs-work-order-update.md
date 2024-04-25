@@ -9,6 +9,7 @@ ms.topic: faq
 author: JonBaker007
 ms.author: jobaker
 ms.reviewer: mhart
+ms.collection: bap-ai-copilot 
 ---
 
 # FAQs for work order update (preview)

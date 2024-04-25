@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 12/18/2023
+ms.date: 04/19/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -11,8 +11,9 @@ ms.custom:
   - bap-template
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
 ---
 
 # Get information from Copilot
@@ -21,13 +22,14 @@ Use Copilot to get information about your pipeline, summarize your opportunities
 
 ## Show my pipeline
 
-Copilot can get you the list of open opportunities that are assigned to you, sorted by the estimated close date.
+Copilot can provide a list of open opportunities assigned to you, sorted by the estimated close date.
 
-In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Show my pipeline**, and select Enter.
+[Open Copilot](use-sales-copilot.md#open-copilot), select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Show my pipeline**, and select **Enter**.
 
 ## Summarize a lead or opportunity
 
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** or **Summarize opportunity**, and select Enter.
+1. [Open Copilot](use-sales-copilot.md#open-copilot).  
+1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** or **Summarize opportunity**, and then select **Enter**.
 
     - If you have a record open, Copilot summarizes it.
     - If you're in the grid view, Copilot lists the records you own. Hover over a record and select **Summarize**.
@@ -44,21 +46,25 @@ Keep in mind that the summary fields are configured at the organization level. M
 
 ### Enrich leads with related information
 
-Copilot can enrich your leads with information from Dynamics 365 Sales, LinkedIn, and Bing, such as:
+Copilot can enrich your leads with information from Dynamics 365 Sales, Dynamics 365 Customer Insights, LinkedIn, and Bing, such as:
 
 - Possible contacts, based on the lead name, phone number, email address, and company name
+
+- Insights about customer sentiment, behavior, and interest generated based on unified activity data in Dynamics 365 Customer Insights, if configured. [Learn more](/dynamics365/customer-insights/data/lead-profile-summary)  
+
 - The latest news about the account, curated by Bing
+
 - Suggested LinkedIn profiles for the contact, if you have the LinkedIn Sales Navigator license
 
 After you select a lead, Copilot suggests other records that might be associated with the lead and from which it can glean more information.
 
 1. [Ask Copilot to summarize a lead](#summarize-a-lead-or-opportunity).
 
-    If Copilot finds possible matching records, it lists them after the summary.
+    If Copilot finds possible matching contact records, it lists them after the summary. [How does Copilot match leads with contacts and can I customize the matching fields?](sales-copilot-faq.md#how-does-copilot-match-leads-with-contacts-and-can-i-customize-the-matching-fields)
 
 1. Select **Connect** to connect the lead with a matching record.
 
-    :::image type="content" source="media/copilot-lead-enrichment.png" alt-text="Screenshot of a lead card in the Copilot chat pane, with a matching account highlighted.":::
+    :::image type="content" source="media/copilot-lead-enrichment.png" alt-text="Screenshot of a lead card in the Copilot chat, with a matching account highlighted.":::
 
 1. After Copilot connects the records, select **Get updated lead summary** to generate a new summary that includes information from the connected record.
 
@@ -74,7 +80,7 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Get latest news for account**, and select Enter.
+1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Get latest news for account**, and select Enter.
 
     - If you have a record open, Copilot lists the news articles related to that account.
     - If you're in the grid view, Copilot lists news articles for the top 10 accounts you work with, sorted by the revenue associated with them.
@@ -85,4 +91,4 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 
 - [Copilot overview](copilot-overview.md)
 - [Enable and set up Copilot](enable-setup-copilot.md)
-
+- [Get document recommendations from SharePoint](copilot-get-doc-suggestions.md#get-document-recommendations-from-sharepoint)

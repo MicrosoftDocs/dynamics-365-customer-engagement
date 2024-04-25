@@ -5,6 +5,7 @@ ms.date: 10/03/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.collection: bap-ai-copilot
 search.audienceType: 
   - admin
   - customizer

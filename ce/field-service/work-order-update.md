@@ -8,6 +8,7 @@ ms.author: jobaker
 ms.reviewer: mhart
 ms.custom:
   - bap-template
+ms.collection: bap-ai-copilot 
 ---
 
 # AI-powered work order update (preview)

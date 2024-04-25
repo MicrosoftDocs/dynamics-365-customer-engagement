@@ -1,12 +1,13 @@
 ---
 title: View and understand the call summary page
 description: Use the call summary to get a high-level view of how a conversation with a customer went, action items, keywords, the call timeline, and a transcript in the Dynamics 365 Sales Hub app.
-ms.date: 01/06/2023
+ms.date: 03/05/2024
 ms.topic: how-to
 ms.custom: bap-template
 ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # View and understand the call summary page
@@ -15,8 +16,6 @@ Sellers and their managers need an easy way to review their conversations with c
 
 - Sellers can quickly review past conversations with a customer and highlight important topics and commitments.
 - Managers can get a high-level view of how their sales team is managing their relationships with customers.
-
-Call summaries are available from the conversation intelligence capabilities of the Sales Insights Add-in for Dynamics 365 Sales.
 
 ## License and role requirements
 
@@ -27,14 +26,13 @@ Call summaries are available from the conversation intelligence capabilities of 
 
 ## Prerequisites
 
-- [Configure conversation intelligence to process call recordings](intro-admin-guide-sales-insights.md#administer-conversation-intelligence).
-- To display the **Call summary** tab in Sales Hub, make sure that [the latest version of Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) is installed in your organization.
+[Configure conversation intelligence to process call recordings](intro-admin-guide-sales-insights.md#administer-conversation-intelligence).
 
 ## View the call summary page
 
-The **Call Summary** page is a tab that's available under activities for leads and opportunities.
+The call summary for a phone call activity is available after the call ends and the call recording is processed by conversation intelligence.  
 
-1. In Dynamics 365, select **Change area** > **Sales**, and then select **Activities**.
+1. In the Sales Hub app, select **Change area** > **Sales**, and then select **Activities**.
 
 1. Select a phone call activity for which you want to view the call summary.
 
@@ -245,8 +243,8 @@ The timeline shows how the conversation was segmented and the topics that were d
 ### See also
 
 [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)  
-[Track and manage activities](/dynamics365/sales-enterprise/manage-activities)  
+[Track and manage activities](manage-activities.md)  
 [View call recordings and transcripts in Dynamics 365 Customer Service](../customer-service/use/voice-channel-call-recordings-transcripts.md)  
-[View and share auto-summarized conversations in Dynamics 365 Customer Service](/dynamics365/customer-service/cs-ai-generated-summary)
+[View and share auto-summarized conversations in Dynamics 365 Customer Service](../customer-service/cs-ai-generated-summary.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,6 +5,7 @@ ms.date: 02/03/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Enable sales usage reports

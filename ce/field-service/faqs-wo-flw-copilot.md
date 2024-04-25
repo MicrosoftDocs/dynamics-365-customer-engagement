@@ -1,18 +1,19 @@
 ---
 title: FAQ about work order creation using Copilot in Field Service for Outlook
-description:  Get answers to common questions about the AI technology used in the Dynamics 365 Field Service for Outlook add-in, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
+description:  Get answers to common questions about the AI technology used in Dynamics 365 Field Service for Outlook, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 12/07/2023
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
 author: KishorIoT
 ms.author: nandab
-ms.reviewer: v-wendysmith@microsoft.com
+ms.reviewer: v-wendysmith
+ms.collection: bap-ai-copilot 
 ---
 
 # FAQ about work order creation using Copilot in Field Service for Outlook 
 
-This article answers common questions about the AI technology used in the Dynamics 365 Field Service for Outlook (Preview) add-in to create work orders from emails with Copilot. It also includes key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
+This article answers common questions about the AI technology used in the Dynamics 365 Field Service for Outlook to create work orders from emails with Copilot. It also includes key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
 
 ## What is work order creation using Copilot in Outlook?
 

@@ -5,6 +5,7 @@ ms.date: 09/08/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -48,6 +49,6 @@ The Conversation intelligence app is now ready to use. Managers and sellers can 
 ### See also
 
 [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
-[Conversation Intelligence FAQs](faqs-sales-insights.md#conversation-intelligence)
+[Conversation Intelligence FAQs](faq-conversation-intelligence.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

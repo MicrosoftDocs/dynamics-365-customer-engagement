@@ -7,6 +7,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.custom: bap-template
+ms.collection: bap-ai-copilot
 ---
 
 # View smart assist suggestions

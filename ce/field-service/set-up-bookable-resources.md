@@ -1,7 +1,7 @@
 ---
 title: Set up bookable resources (contains video)
 description: Learn how to create a bookable resource and add details to distinguish it from other resources.
-ms.date: 10/30/2023
+ms.date: 02/09/2024
 ms.topic: article
 author: mkelleher-msft
 ms.author: mkelleher
@@ -59,10 +59,7 @@ Frontline workers are people in your organization who are primarily scheduled fo
 
    - For **Time Off Approval Required**, choose if someone needs to approve a resource's time off. A *time off request* blocks the configured time frame and you can't book the resource during that time.
 
-   - **Enable Drip Scheduling** controls how many bookings can appear on the Field Service mobile app at one time. Set to **No** to allow all bookings for a resource to display based on mobile settings (view and sync filters). Set to **Yes** to display a new field titled **Bookings to Drip**, where you can enter the total number of bookings displayed at one time. As a resource completes bookings (sets booking status to completed), more bookings appear in the bookings tab of the Field Service mobile app.
-
-   > [!NOTE]
-   > The Field Service mobile app currently doesn't support drip scheduling.
+   - **Enable Drip Scheduling** is no longer supported in the Field Service mobile app. For more information, see [Feature deprecations](deprecations-field-service.md).
 
 1. **Save** the record.
   

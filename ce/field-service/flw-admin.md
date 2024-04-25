@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft 365 integration for Field Service
 description: Learn how to integrate Dynamics 365 Field Service with Outlook, Teams, and Viva Connections for your organization, including setting up user groups, deploying apps, and assigning security roles.
-ms.date: 12/08/2023
+ms.date: 04/11/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -58,14 +58,7 @@ Users might need to relaunch Microsoft 365 to view the add-in icon on the app ri
 
 ### Give consent to use Copilot in Field Service for Outlook
 
-As an admin, you can enable or disable the use of copilot capabilities in Field Service for Outlook. When enabled, you agree that data may be stored and processed outside of your tenant's geographic region or compliance boundary. The process for giving consent depends on whether your Power Platform environment is inside or outside of the United States.
-
-#### For customers with Power Platform environments outside the US
-
-- To opt in: fill out the Opt In Form at https://go.microsoft.com/fwlink/?linkid=2250794.
-- To opt out: fill out the Opt Out form at https://go.microsoft.com/fwlink/?linkid=2240475.
-
-#### For customers with Power Platform environments in the US
+As an admin, you can enable or disable the use of copilot capabilities in Field Service for Outlook. When enabled, you agree that data may be stored and processed outside of your tenant's geographic region or compliance boundary.
 
 1. In the Field Service app, change to the **Settings** area.
 
@@ -75,9 +68,12 @@ As an admin, you can enable or disable the use of copilot capabilities in Field 
 
    :::image type="content" source="media/fsp-fs-copilot-consent.png" alt-text="Field Service Settings page with Outlook Add-in Copilot highlighted.":::
 
-1. For **Copilot in Microsoft Outlook**, enable or disable the setting.
+1. To give consent to use copilot to create work orders, enable  **Copilot in Microsoft Outlook**.
+
+1. To use copilot to generate email responses, enable **Generate email responses in Microsoft Outlook**.
 
 1. Select **Save**.
+
 
 <!--- Tab 2 Teams --->
 
@@ -229,6 +225,6 @@ If some of the user's permissions are inadequate to view or create work orders, 
 ## Next steps
 
 - [Customize the experience](flw-customization.md)
-- [Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)](flw-copilot-setup.md)
+- [Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot](flw-copilot-setup.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

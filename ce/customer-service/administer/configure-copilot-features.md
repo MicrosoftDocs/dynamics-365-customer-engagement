@@ -5,9 +5,9 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 01/03/2024
+ms.date: 03/28/2024
 ms.custom: bap-template 
-ms.collection:
+ms.collection: bap-ai-copilot
 ---
 
 # Manage Copilot features in Customer Service 
@@ -37,7 +37,7 @@ You have the System Administrator role.
 
 ## Region availability and data movement
 
-The option to enable Copilot AI features is available by default to customers with environments that have United States, Australia, and United Kingdom as their geography for data processing and storage. For all other regions, [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center app before you can opt in to use Copilot.
+The option to enable Copilot AI features is available by default to customers with environments that have United States, Australia, India, and United Kingdom as their geography for data processing and storage. For Europe, data movement for copilot features is enabled by default. For all other regions, [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center app before you can opt in to use Copilot.
 
   :::image type="content" source="../media/ppac-enable-gen-ai.png" alt-text="Screenshot of the power platform admin center generative ai features.":::
 
@@ -65,6 +65,10 @@ In Customer Service admin center, the [**Copilot help pane**](copilot-enable-hel
 
   :::image type="content" source="../media/copilot-enable-opt-in-mini.png" alt-text="Screenshot of the Copilot Help Pane page." lightbox="../media/copilot-enable-opt-in.png":::
 
+## Opt out from using Copilot features
+
+In Customer Service admin center, opt out from the copilot features on the **Copilot help pane** or **Summaries** page. When you opt out, the application erases the training data. If you want to use the features again, you must consent to the terms of use and opt in.
+
 ## Make Copilot available to agents
 
 For agents to be able to use the copilot features in Customer Service workspace, you need to enable the copilot features in [agent experience profiles](add-profile-default.md). By default, agents added to the out-of-the-box agent experience profiles can use the Copilot features.
@@ -91,7 +95,7 @@ Perform the following steps to add the Copilot features to an agent experience p
 
 ## Record agent interactions with Copilot
 
-In the **Summaries** and **Copilot help pane** configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record and understand how agents are interacting with Copilot and how Copilot is performing in a support organization. Agents can also share feedback about Copilot actions, which helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
+In the **Summaries** and **Copilot help pane** configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record and understand how agents are interacting with Copilot and how Copilot is performing in a support organization. Agents can also share feedback about Copilot actions, which helps Copilot perform better. You can also [download](../develop/download-copilot-transcript-data.md) and use the data to analyze knowledge sources, and build usage reports.
 
 
 ## Assign roles and privileges
@@ -100,29 +104,36 @@ Out of the box, users with the Customer Service Representative role only can use
 
 - prvCreatemsdyn_copilotinteraction 
 - prvAppendmsdyn_copilotinteraction 
-- prvCreatemsdyn_copilotinteractiondata  
+- prvCreatemsdyn_copilotinteractiondata 
+- prvReadmsdyn_copilotinteraction
+- prvReadmsdyn_copilotinteractiondata
+- prvWritemsdyn_copilotinteractiondata
+- prvAppendTomsdyn_copilotinteractiondata
+- prvCreatemsdyn_copilotinteractiondata
 - prvReadmsdyn_copilotagentpreference
 - prvCreatemsdyn_copilotagentpreference
 - prvWritemsdyn_copilotagentpreference
 - prvReadmsdyn_appcopilotconfiguration
-- prvReadmsdyn_agentcopilotsetting 
+- prvReadmsdyn_agentcopilotsetting
+- prvReadmsdyn_aimodel
+- prvReadmsdyn_aitemplate
 - prvReadmsdyn_copilotsummarizationsetting 
 - prvReadmsdyn_conversationinsight
 - prvWritemsdyn_copilottranscriptdata 
-- prvAppendTomsdyn_copilottranscriptdata 
-- prvReadmsdyn_copilottranscript 
-- prvCreatemsdyn_copilottranscript 
-- prvWritemsdyn_copilottranscript 
-- prvAppendTomsdyn_copilottranscript 
+- prvAppendTomsdyn_copilottranscriptdata  
 - prvReadmsdyn_copilottranscriptdata 
 - prvCreatemsdyn_copilottranscriptdata 
 - prvWritemsdyn_copilottranscriptdata 
 - prvAppendmsdyn_copilottranscriptdata
-- prvIntelligenceUsage
-
+- prvIntelligenceUsage: This privilege is required to access the Copilot case summary. By default, this privilege is available for out-of-the-box security roles. Make sure that your users have  [**Miscellaneous privileges**](/power-platform/admin/security-roles-privileges#define-the-privileges-and-properties-of-a-security-role) > **prvIntelligenceUsage** assigned to the required custom security roles.
+- prvReadOrganizationSetting
+- prvReadmsdyn_panetabconfiguration 
+- prvReadmsdyn_paneconfiguration 
+- msdyn_appconfiguration
+- msdyn_panetoolconfiguration
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
-
+ 
 
 ## Next steps
 

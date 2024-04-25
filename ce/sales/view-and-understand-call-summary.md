@@ -5,6 +5,7 @@ ms.date: 06/29/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # View and understand call summary page in Conversation Intelligence app
 
@@ -19,14 +20,14 @@ The information on the call summary page helps both sellers and managers:
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 
 ## Prerequisites
 
-- Configure conversation intelligence to process call recordings. More information: [Set up Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
-- To display the **Call Insights** tab in Sales Hub, ensure that [the latest version of Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) is installed in your organization.
+Configure conversation intelligence to process call recordings. More information: [Set up Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
+
 
 
 ## View the call summary page

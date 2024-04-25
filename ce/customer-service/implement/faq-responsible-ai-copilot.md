@@ -5,8 +5,8 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: faq
-ms.collection: 
-ms.date: 11/21/2023
+ms.collection: bap-ai-copilot
+ms.date: 04/05/2024
 ms.custom: 
 - bap-template
 - responsible-ai-faq
@@ -32,7 +32,9 @@ Copilot provides the following main features:
 
 - **Summarize a case**: Copilot provides agents with a summary of a case right on the case form, so they can quickly catch up on the important details of a case.  
 
-- **Summarize a conversation**: Copilot provides agents with a summary of a conversation at key points throughout the customer journey such as virtual agent handoffs, transfers and on demand. 
+- **Summarize a conversation**: Copilot provides agents with a summary of a conversation at key points throughout the customer journey such as virtual agent handoffs, transfers and on demand.
+
+- **Generate knowledge draft from case (preview)**: Copilot generates a knowledge article draft as a proposal that's based on information from the case. Agents can review and refine the draft by giving revision instructions to Copilot and then save it.
 
 ## What is the system’s intended use?
 
@@ -103,5 +105,6 @@ Copilot is not calling the public OpenAI service that powers ChatGPT. Copilot in
 ### See also
 
 [Use copilot features](../use/use-copilot-features.md)  
+[Use Copilot to generate knowledge drafts from cases](../use/use-copilot-knowledge-from-cases.md)  
 [Region availability of Copilot](../administer/cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights)  
-[FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy)
+[FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy)  

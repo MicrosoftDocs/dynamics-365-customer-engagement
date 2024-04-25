@@ -7,7 +7,7 @@ ms.topic: article
 ms.assetid: 08662c5d-1809-44fd-81d9-dc12774eb5e8
 author: udaykirang
 ms.author: udag
-ms.reviewer: 
+ms.reviewer: udag
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
@@ -47,8 +47,7 @@ To help users with intelligent suggestions when they enter an activity in the ti
 
 ### See also
 
-[How notes analysis assists you with intelligent suggestion](notes-analysis.md)    
-[Notes analysis FAQs](faqs-sales-insights.md#notes-analysis)
-
+[How notes analysis assists you with intelligent suggestion](notes-analysis.md)  
+[Notes analysis and auto capture FAQs](faq-notes-analysis-auto-capture.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

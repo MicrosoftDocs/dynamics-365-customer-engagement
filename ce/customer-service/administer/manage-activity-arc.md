@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.topic: how-to
 ms.collection:
-ms.date: 10/03/2023
+ms.date: 01/24/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -23,7 +23,7 @@ You can review and track the health of the automatic record creation rules and r
 > - The activity monitor tracks the rules until they're evaluated in Customer Service only and before the rule runs in Power Automate.
 
 
-In Customer Service admin center, the Customer support overview page displays the number of activity monitor events that ran in the past week along with their status. You can use either the **Activity monitor events for last 7 days** or **All activity monitor events** to view the activity monitor details.
+In Customer Service admin center, **Customer support** > **Overview** > **Case settings** displays the number of activity monitor events that ran in the past week along with their status. You can use either the **Activity monitor events for last 7 days** or **All activity monitor events** to view the activity monitor details.
 
 1. Navigate to the views as follows:<br>
     - Select **Activity monitor events(past 7 days)** on Customer support overview to view the activity events for the last 7 days on the **Activity monitor events for last 7 days** page.
@@ -40,11 +40,11 @@ In Customer Service admin center, the Customer support overview page displays th
      > [!NOTE]
      > The text in the **Recommendation** field doesn't display hyperlinks. Select the activity record to see the hyperlinks in the recommended resolution in the **Activity monitor** page.
    - **Evaluated on:** Displays the date and time of the issue.
-3. Select a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** <rule_name> page.
-  - If you navigate to an active rule from the activity monitor page, a message appears stating that the rule is active and therefore is read-only.
-  - The legacy rules will also be monitored and listed on the activity monitor view.
-:::image type="content" source="../media/activity-monitor-page.png" alt-text="A screenshot of the Activity monitor rule_name page.":::
-4. If you don't want to monitor any of the following states, you can clear the selection on the **Monitor options** dialog.
+1. Select a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** <rule_name> page.
+   - If you navigate to an active rule from the activity monitor page, a message appears stating that the rule is active and therefore is read-only.
+   - The legacy rules will also be monitored and listed on the activity monitor view.
+ :::image type="content" source="../media/activity-monitor-page.png" alt-text="A screenshot of the Activity monitor rule_name page.":::
+1. If you don't want to monitor any of the following states, you can clear the selection on the **Monitor options** dialog.
    - Ready for Power Automate / workflow
    - Failed
    - Skipped

@@ -5,6 +5,7 @@ ms.date: 06/27/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Move from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise 
 

@@ -1,10 +1,11 @@
 ---
 title: "Configure Microsoft Teams collaboration | MicrosoftDocs"
 description: "Learn how to configure collaboration with Microsoft Teams in Customer Service."
-ms.date: 09/19/2022
+ms.date: 01/25/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.collection: bap-ai-copilot
 ---
 
 # Configure AI suggestions for contacts in Microsoft Teams
