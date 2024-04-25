@@ -117,7 +117,7 @@ Use predefined prompts to get the most out of Copilot. The following table inclu
 | [What's newly assigned to me](copilot-ask-questions.md#whats-newly-assigned-to-me) | **Ask questions** > ****What's newly assigned to me**** | Get a list of leads and opportunities that were assigned to you in the last 15 days. |
 | [Show recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) | **Ask questions** > ***Show recent changes for opportunity or Show recent changes for lead** | Get a list of updates to your opportunity or lead records in the last seven days or since you last signed in. |
 | [Prepare for sales appointments](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) | **Stay ahead** >  **Prepare for sales appointments** | Prepare better for your sales appointment with a summary of notes from the last three months and the most recent email thread on the timeline of the related record. |
-| [Show emails that need follow up](copilot-stay-ahead.md#show-emails-you-havent-replied-to) | **Stay ahead** >  **Show emails that need follow up** | Get a list of emails that you haven't replied to. |
+| [Display unanswered emails](copilot-stay-ahead.md#display-unanswered-emails) | **Stay ahead** >  **Show emails that need follow up** | Get a list of emails that you haven't replied to. |
 
 ### See also
 

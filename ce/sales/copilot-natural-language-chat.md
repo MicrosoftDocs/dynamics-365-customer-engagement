@@ -30,9 +30,9 @@ This feature is available only if your administrator opts into the [Copilot prev
 
 Data-based questions are straightforward data requests that are based on the data shown in your app. To ask Copilot a data-based question, use the same field names that you see in your app. Examples of data-based questions are:
 
-    - What's Contoso's annual revenue?
-    - Who is the owner of Alpine Ski House?
-    - Show me all my opportunities that are closing this month.
+- What's Contoso's annual revenue?
+- Who is the owner of Alpine Ski House?
+- Show me all my opportunities that are closing this month.
 
 ## Term-based questions
 
