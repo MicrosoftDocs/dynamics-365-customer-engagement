@@ -124,7 +124,7 @@
         "AshleyWoodruff"
       ],
       "feedback_system": "Standard",
-            "feedback_product_url": "https://ideas.dynamics.com",
+      "feedback_product_url": "https://ideas.dynamics.com",
       "search.appverid": "met150",
       "recommendations": true,
       "breadcrumb_path": "/dynamics365/breadcrumb/toc.json"
