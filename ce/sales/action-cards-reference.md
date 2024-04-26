@@ -3,7 +3,8 @@ title: Default insight cards
 description: Discover default insight cards that help you stay updated with your work in Dynamics 365 Sales, providing relevant information for your tasks.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
+
 ms.topic: conceptual
 ms.date: 03/21/2024
 ms.custom:

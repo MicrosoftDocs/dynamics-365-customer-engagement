@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 caps.latest.revision: 13
 searchScope: 
   - D365-App-msdynce_saleshub

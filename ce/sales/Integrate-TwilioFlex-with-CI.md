@@ -7,6 +7,7 @@ ms.topic: how-to
 ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Integrate Twilio Flex with Dynamics 365 conversation intelligence (preview)

@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in Dynamics 365 apps
 description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, and enrich your leads with data from different sources.
-ms.date: 04/04/2024
+ms.date: 04/17/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -13,7 +13,7 @@ ms.custom:
  - bap-template
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
@@ -82,7 +82,6 @@ Use predefined prompts to get the most out of Copilot. The following table provi
 | [Show recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) | **Ask questions** > ***Show recent changes for opportunity or Show recent changes for lead** | Get a list updates to your opportunity or lead records in the last seven days or since you last signed in. |
 | [Prepare for sales appointments](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) | **Stay ahead** >  **Prepare for sales appointments** | Prepare better for your sales appointment with a summary of notes from the last three months and the most recent email thread on the timeline of the related record. |
 | [Show emails that need follow up](copilot-stay-ahead.md#show-emails-you-havent-replied-to) | **Stay ahead** >  **Show emails that need follow up** | Get a list of emails that you haven't replied to. |
-
 
 ### See also
 

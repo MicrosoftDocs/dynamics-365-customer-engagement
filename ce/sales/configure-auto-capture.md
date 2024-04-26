@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.assetid: d4d130c5-3494-4677-9093-0a0e0124d953
 author: udaykirang
 ms.author: udag
-ms.reviewer: 
+ms.reviewer: udag
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 1

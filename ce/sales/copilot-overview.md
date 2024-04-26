@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 04/02/2024
+ms.date: 04/19/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -15,7 +15,7 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
@@ -32,6 +32,7 @@ Copilot offers the following capabilities:
 
 - [Record summarization](#record-summarization)
 - [Recent changes](#recent-changes)
+- [Information assistance](#information-assistance)
 - [Meeting preparation](#meeting-preparation)
 - [Email assistance](#email-assistance)
 - [News updates](#news-updates)
@@ -55,6 +56,15 @@ Learn more:
 - [Get a list of recently updated sales records](copilot-ask-questions.md#whats-new-with-my-sales-records)
 - [View the leads and opportunities assigned to you recently](copilot-ask-questions.md#whats-newly-assigned-to-me)
 - [Change the fields you want to view in the recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
+
+### Information assistance
+
+With Copilot, you can get information at your fingertips. You don't have to switch between apps to find the information you need. Copilot can get product-related documents and fetch answers to sales-related questions from documents stored in SharePoint.
+
+Learn more:
+
+- [Get content recommendations from SharePoint](copilot-get-doc-suggestions.md#copilot-content-recommendation)
+- [Get answers from SharePoint documents](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents)
 
 
 ### Meeting preparation

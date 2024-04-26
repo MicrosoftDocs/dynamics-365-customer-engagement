@@ -7,6 +7,7 @@ ms.custom: "dyn365-ai-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 

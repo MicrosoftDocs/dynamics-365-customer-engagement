@@ -11,7 +11,7 @@ ms.custom:
   - bap-template
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ---
@@ -22,7 +22,7 @@ Use Copilot to get information about your pipeline, summarize your opportunities
 
 ## Show my pipeline
 
-Copilot can get you the list of open opportunities that are assigned to you, sorted by the estimated close date.
+Copilot can provide a list of open opportunities assigned to you, sorted by the estimated close date.
 
 [Open Copilot](use-sales-copilot.md#open-copilot), select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Show my pipeline**, and select **Enter**.
 
@@ -44,37 +44,16 @@ Copilot generates the summary from a set of predefined fields. Other fields may 
 
 Keep in mind that the summary fields are configured at the organization level. Make sure that your entire sales team agrees on the **top 10** fields that are most relevant for your business.
 
-### Get content recommendations from SharePoint (preview)
- 
-As a salesperson, you need to be aware of the latest product information, such as product brochures, pricing, sales pitch, and specifications, which are typically stored in SharePoint. You can ask Copilot to get you the list of SharePoint documents related to products in an opportunity.
-
-> [!NOTE]
->- This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
->- The documents are only fetched from the SharePoint site associated with your tenant.  
-
-1. [Summarize an opportunity](#summarize-a-lead-or-opportunity).
-    After the summary, Copilot displays a follow-up prompt **Get product-related files (preview)**. The prompt is displayed only if the opportunity has products associated with it. 
-
-1. Select **Get product-related files (preview)**. 
-   > [!NOTE]
-   > At the moment, this feature can be invoked only by selecting the prompt and not by typing in the Copilot chat. 
-
-    If the opportunity has multiple products, Copilot lists the products.
-
-1. Hover over a product and select **Get files**.
-
-    Copilot displays related Microsoft Word, Excel, PowerPoint, and PDF files for the product. Copilot lists only those files that the user has access to in SharePoint.
-
-    The documents are listed in the ranking order of SharePoint search results.
-
-    :::image type="content" source="media/get-files-from-sharepoint.svg" alt-text="Screenshot of the list of files fetched from SharePoint.":::
-
 ### Enrich leads with related information
 
-Copilot can enrich your leads with information from Dynamics 365 Sales, LinkedIn, and Bing, such as:
+Copilot can enrich your leads with information from Dynamics 365 Sales, Dynamics 365 Customer Insights, LinkedIn, and Bing, such as:
 
 - Possible contacts, based on the lead name, phone number, email address, and company name
+
+- Insights about customer sentiment, behavior, and interest generated based on unified activity data in Dynamics 365 Customer Insights, if configured. [Learn more](/dynamics365/customer-insights/data/lead-profile-summary)  
+
 - The latest news about the account, curated by Bing
+
 - Suggested LinkedIn profiles for the contact, if you have the LinkedIn Sales Navigator license
 
 After you select a lead, Copilot suggests other records that might be associated with the lead and from which it can glean more information.
@@ -112,4 +91,4 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 
 - [Copilot overview](copilot-overview.md)
 - [Enable and set up Copilot](enable-setup-copilot.md)
-
+- [Get document recommendations from SharePoint](copilot-get-doc-suggestions.md#get-document-recommendations-from-sharepoint)

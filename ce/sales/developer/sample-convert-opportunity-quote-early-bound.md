@@ -2,12 +2,12 @@
 title: "Sample: Convert an opportunity to a quote (early bound) (Dynamics 365 Sales)"
 description: The sample demonstrates how to convert an opportunity that contains products from the product catalog and a write-in product to a quote. 
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 ---

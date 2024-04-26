@@ -5,6 +5,7 @@ ms.date: 10/20/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Assign a sequence to a user or a team

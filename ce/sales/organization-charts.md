@@ -3,7 +3,7 @@ title: Understand organization charts
 description: Learn how organization charts help sellers to gain insights into their customers' organizational structure and identify key decision-makers.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: overview
 ms.collection: get-started
 ms.date: 03/08/2024
