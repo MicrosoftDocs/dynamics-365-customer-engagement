@@ -11,7 +11,7 @@ ms.custom:
   - bap-template
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ---
@@ -20,11 +20,15 @@ ms.collection: bap-ai-copilot
 
 Instead of turning on Copilot preview features in Dynamics 365 Sales individually, you can turn them all on at once. This article describes how to do that, and lists the Copilot preview features that are available.
 
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+
 ## Copilot preview features
 
-Preview features aren't meant for production use and might have restricted functionality. These features are made available to get early feedback from customers.
+Preview features aren't intended for production use and might have limited functionality. These features are made available to get early feedback from customers.
 
-Typically, you turn on Dynamics 365 preview features individually in [Power Platform](/power-platform/admin/what-are-preview-features-how-do-i-enable-them). To make it easier, we added an option that turns on all the Copilot preview features in Dynamics 365 Sales with a single click.
+Typically, you turn on Dynamics 365 preview features individually in [Power Platform](/power-platform/admin/what-are-preview-features-how-do-i-enable-them). To make it easier, we added an option that turns on all the Copilot preview features in Dynamics 365 Sales with a single selection.
 
 The following table lists the Copilot preview features that are available in Dynamics 365 Sales.
 
@@ -32,6 +36,7 @@ The following table lists the Copilot preview features that are available in Dyn
 |-----------------------|---------|
 | Copilot for Email | [Compose and send email messages using Copilot](compose-send-email-copilot.md). |
 | Document summarization | [Summarize documents or proposals associated with a record](copilot-get-information.md#copilot-doc-summarization) to understand the key points. |
+| Natural language chat | [Chat with Copilot in natural language (preview)](use-sales-copilot.md#chat-with-copilot-in-natural-language-preview) <br> Copilot can understand natural language and respond to your questions. |
 | Full-screen, immersive view | [Open Copilot in full-screen view (preview)](use-sales-copilot.md#open-copilot-in-full-screen-view-preview) when you want more space and focus to chat with Copilot and ask questions. |
 
 ## Turn on all Copilot preview features

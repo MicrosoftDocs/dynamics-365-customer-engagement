@@ -2,12 +2,12 @@
 title: "Sample: Fulfill a sales order (Dynamics 365 Sales)"
 description: "The sample demonstrates how to create a sales order and then close it by fulfilling it."
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 ---

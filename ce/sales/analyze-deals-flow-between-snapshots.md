@@ -4,6 +4,7 @@ description: Use snapshots to visualize and analyze how deals are trending betwe
 ms.date: 02/23/2023
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.custom: bap-template
 ---

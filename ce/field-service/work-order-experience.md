@@ -126,7 +126,9 @@ The **Reference** tab is the hub for information that's associated with either h
 
 ### Timeline tab
 
-The **Timeline** tab contains a log of the activity that's associated with the work order, such as phone calls, emails, and notes.
+The **Timeline** tab contains a log of the activity that's associated with the work order, such as phone calls, emails, and notes. This tab can also contain attachments such as repair manuals, troubleshooting tips, photos, images, or other documents pertinent to the work order.
+
+To add attachments, select the **Attachment** icon. Browse and select the item, and then select **Add note and close**.
 
 ### Related tab
 

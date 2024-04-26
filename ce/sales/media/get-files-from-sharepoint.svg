@@ -4355,7 +4355,7 @@ Quickly generate Word documents or create a new template.
                                                                 <rect width="300" height="52" x="1768" y="260" fill="rgb(207, 228, 250)" rx="8" ry="8"/>
                                                             </g>
                                                             <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" font-family="&quot;Segoe UI&quot;, &quot;Segoe UI Web (West European)&quot;, -apple-system, BlinkMacSystemFont, Roboto, &quot;Helvetica Neue&quot;, sans-serif" font-size="14px" font-stretch="100%" font-style="normal" font-variant="normal" font-weight="400" direction="ltr" letter-spacing="normal" text-decoration="none solid rgb(36, 36, 36)" text-anchor="start" text-rendering="auto" unicode-bidi="normal" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto" fill="rgb(36, 36, 36)">
-                                                                <tspan xml:space="preserve" x="1780" y="285.6770935058594" textLength="261.6771240234375" lengthAdjust="spacingAndGlyphs">Get product-related files for product "Cafe </tspan>
+                                                                <tspan xml:space="preserve" x="1780" y="285.6770935058594" textLength="261.6771240234375" lengthAdjust="spacingAndGlyphs">Show product-related files for product "Cafe </tspan>
                                                                 <tspan xml:space="preserve" x="1780" y="305.6770935058594" textLength="47.78125" lengthAdjust="spacingAndGlyphs">Mocha"</tspan>
                                                             </text>
                                                             <g data-stacking-layer="rootBackgroundAndBorders">

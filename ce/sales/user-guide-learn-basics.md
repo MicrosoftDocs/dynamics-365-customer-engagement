@@ -5,6 +5,7 @@ ms.date: 11/15/2022
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] 
 

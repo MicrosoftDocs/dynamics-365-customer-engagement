@@ -2,12 +2,12 @@
 title: Product catalog tables (Dynamics 365 Sales)
 description: "Enables the creation of rich product classification systems that support the definition of: hierarchical structures, product bundles, or related products, multiple pricing or discounting models, automatic price lists, and localized names and descriptions."
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 

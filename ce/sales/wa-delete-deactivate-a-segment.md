@@ -4,6 +4,7 @@ description: Learn how to remove segments that you don't need anymore in Dynamic
 ms.date: 03/28/2023
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.topic: how-to
 ms.custom:
   - bap-template
