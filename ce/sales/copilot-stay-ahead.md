@@ -18,7 +18,7 @@ ms.collection: bap-ai-copilot
 
 # Stay ahead with Copilot
 
-Stay ahead of your work by asking Copilot to help you prepare for meetings and catch up on emails that need your attention.
+Stay ahead of your work by asking Copilot to help you prepare for meetings and catch up on emails that need your attention. You can either use predefined prompts or ask questions in natural language. This article describes some of the predefined prompts you can use to stay ahead with Copilot. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
 ## Prepare for upcoming sales appointments
 
@@ -49,9 +49,9 @@ If you have meetings scheduled on your Outlook calendar in the next seven days, 
 
 1. (Optional) To view the meeting in Outlook, select **Open Meeting**. 15 minutes before the start time, the option changes to join teams meeting. You can join the meeting directly by selecting this option.  
 
-## Show emails you haven't replied to
+## Display unanswered emails
 
-Copilot can help make sure that you don't miss important emails by reminding you of any that you haven't replied to.
+Copilot can help make sure that you don't miss important emails by reminding you of messages that need a reply.
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**.
@@ -61,7 +61,7 @@ Copilot can help make sure that you don't miss important emails by reminding you
 
 To be included in the list, emails must meet the following criteria:
 
-- They've been in your mailbox, unanswered, for the past three to seven days. Email that's been unanswered for longer than seven days falls off the list.
+- They are in your mailbox, unanswered, for the past three to seven days. Emails that are unanswered for longer than seven days fall off the list.
 - They contain a buying intent, a question, a query, or an action item.
 - They have the **Regarding** field as a lead or an opportunity.
 
@@ -71,3 +71,4 @@ To be included in the list, emails must meet the following criteria:
 
 - [Copilot overview](copilot-overview.md)
 - [Enable and set up Copilot](enable-setup-copilot.md)
+- [Chat with Copilot in natural language (preview)](use-sales-copilot.md#chat-with-copilot-in-natural-language-preview)

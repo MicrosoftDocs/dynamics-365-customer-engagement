@@ -18,7 +18,7 @@ ms.collection: bap-ai-copilot
 
 # Ask a question to Copilot
 
-Ask Copilot to update you on the latest changes to your sales records, get a list of records that were assigned to you, or list any changes to your leads and opportunities.
+Ask Copilot to update you on the latest changes to your sales records, get a list of records that were assigned to you, or list any changes to your leads and opportunities. You can either use predefined prompts or ask questions in natural language. This article describes some of the predefined prompts you can use to ask Copilot questions. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
 ## What's new with my sales records
 
@@ -73,6 +73,7 @@ Keep in mind that these fields are set at the organization level. Make sure that
 
 ### See also
 
-- [Copilot overview](copilot-overview.md)
-- [Enable and set up Copilot](enable-setup-copilot.md)
+- [Copilot overview](copilot-overview.md)  
+- [Enable and set up Copilot](enable-setup-copilot.md)  
+- [Chat with Copilot in natural language (preview)](use-sales-copilot.md#chat-with-copilot-in-natural-language-preview)
 - [Get answers from SharePoint documents](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents)
