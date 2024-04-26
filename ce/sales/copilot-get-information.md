@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 04/19/2024
+ms.date: 04/26/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -18,7 +18,7 @@ ms.collection: bap-ai-copilot
 
 # Get information from Copilot
 
-Use Copilot to get information about your pipeline, summarize your opportunities and leads, and get the latest news about your accounts.
+Use Copilot to get information about your pipeline, summarize your opportunities and leads, and get the latest news about your accounts. You can either use predefined prompts or ask questions in natural language. This article describes some of the predefined prompts you can use to get information from Copilot. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
 ## Show my pipeline
 
@@ -40,7 +40,7 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 
 ### Would you like to view a summary of different fields?
 
-Copilot generates the summary from a set of predefined fields. Other fields may be more important to you, however. For example, estimated revenue, close date, contact, pipeline stage, and proposed solution may be the first things you look for in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
+Copilot generates the summary from a set of predefined fields. Other fields might be more important to you, however. For example, estimated revenue, close date, contact, pipeline stage, and proposed solution might be the first things you look for in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
 
 Keep in mind that the summary fields are configured at the organization level. Make sure that your entire sales team agrees on the **top 10** fields that are most relevant for your business.
 
@@ -91,4 +91,5 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 
 - [Copilot overview](copilot-overview.md)
 - [Enable and set up Copilot](enable-setup-copilot.md)
+- [Chat with Copilot in natural language (preview)](use-sales-copilot.md#chat-with-copilot-in-natural-language-preview)
 - [Get document recommendations from SharePoint](copilot-get-doc-suggestions.md#get-document-recommendations-from-sharepoint)
