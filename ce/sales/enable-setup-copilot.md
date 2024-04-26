@@ -86,7 +86,7 @@ For all the other orgs, an admin must provide consent in the Power Platform admi
 
 ## Configure fields for generating summaries and recent changes list
 
-By default, Copilot uses a set of predefined fields to generate [summaries](copilot-get-information.md#summarize-a-lead-or-opportunity), a list of [recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) for leads, opportunities, and accounts and [prepare for meetings](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) . You can add other fields from lead, opportunity, account, and related tables to make the summaries and recent changes list more relevant for your business.
+By default, Copilot uses a set of predefined fields to generate [summaries](copilot-get-information.md#summarize-a-lead-or-opportunity), a list of [recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) for leads, opportunities, and accounts and [prepare for meetings](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments). You can add other fields from lead, opportunity, account, and related tables to make the summaries and recent changes list more relevant for your business.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
