@@ -31,8 +31,8 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** or **Summarize opportunity**, and then select **Enter**.
 
-    - If you have a record open, Copilot summarizes it.
-    - If you're in the grid view, Copilot lists the records you own. Hover over a record and select **Summarize**.
+    - When a record is opened, Copilot summarizes it.
+    - When in grid view, Copilot lists the records for which you have read access. Hover over a record and select **Summarize**.
 
 1. To get a list of changes for a specific lead or opportunity, type **/** after the prompt, and then start typing the name of the opportunity or lead.
 
