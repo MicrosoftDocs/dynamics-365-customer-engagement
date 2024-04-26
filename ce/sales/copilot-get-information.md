@@ -87,7 +87,7 @@ Often, you might have documents such as proposals and contracts associated with 
 
 1. Open a record, such as an opportunity, lead, account, or contact, that has documents associated with it.
 
-1. In the Copilot side pane, enter **Summarize document /** and then enter the name of the document you want summarized.
+1. In the Copilot side pane, enter the prompt **Summarize document /** and then enter the name of the document you want summarized.
 
    A minimum of three characters is required to start the search. You can search by the file name. For example,
     - Enter **Summarize document /contract** to get a list of documents that has **contract** in the file name.
