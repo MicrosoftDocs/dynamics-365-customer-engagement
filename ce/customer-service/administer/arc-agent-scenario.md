@@ -10,14 +10,15 @@ ms.date: 04/02/2024
 ms.custom: bap-template
 ---
 
+<!-- In line 61, do you want back ticks instead of single quote marks? -->
 
 # How the automatic record creation rule works in an agent scenario
 
 With automatic record creation, you can create multiple cases from an email sent to multiple mailboxes. As an administrator, you can [enable this feature](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes) to ensure that [multiple cases (one for each queue-enabled mailbox) get created when multiple mailboxes are added as recipients in the email](arc-multiple-cases.md#how-automatic-record-creation-rules-work-to-create-multiple-cases-from-an-email-sent-to-multiple-mailboxes).
 
-This article lists the various agent scenarios and explains how automatic record creation rule works when an agent does a reply all or reply only to the customer using a case timeline. For example, when an email is sent to multiple mailboxes Q1, Q2, and Q3 and cases get created for each mailbox Case 1, Case 2, and Case 3, an agent can respond from the timeline of any of the cases (Case 1, Case 2, or Case 3).
+This article lists the various agent scenarios and explains how automatic record creation rule works when an agent does a reply-all or reply-only to the customer using a case timeline. For example, when an email is sent to multiple mailboxes Q1, Q2, and Q3 and cases get created for each mailbox Case 1, Case 2, and Case 3, an agent can respond from the timeline of any of the cases (Case 1, Case 2, or Case 3).
 
-Agents can also reply or reply all from Inbox or directly from the email by accessing it from the **My Activities** view. When the agent sends a reply, replies all or forwards an email from any of these entry points, the reply email is related to all cases and records that were related to the original email, unless removed from the related attribute manually.  
+Agents can also reply or reply-all from Inbox or directly from the email by accessing it from the **My Activities** view. When the agent sends a reply, replies-all or forwards an email from any of these entry points, the reply email is related to all cases and records that were related to the original email, unless removed from the related attribute manually.  
 
 The following flowchart explains the agent scenario.
 
@@ -42,9 +43,9 @@ If you perform timeline customization, then:
 
 - If Case 2 adds any mailboxes in response to the reply email, duplicate cases are created for those mailboxes.
 
-## Agent selects reply all
+## Agent selects reply-all
 
-When an agent selects reply all from Case 1's timeline and removes mailbox 3, the replied email gets associated with all the three cases: Case 1, Case 2, and Case 3. If the original email was related to any other entity records like account, the replied email is associated with that account. All these cases and related accounts see duplicate entries of the same email: one with the state as **Sent**, and the other with the state as **Received**.  
+When an agent selects reply-all from Case 1's timeline and removes mailbox 3, the replied email gets associated with all the three cases: Case 1, Case 2, and Case 3. If the original email was related to any other entity records like account, the replied email is associated with that account. All these cases and related accounts see duplicate entries of the same email: one with the state as **Sent**, and the other with the state as **Received**.  
 
 If you don’t want the reply email to be shown on Case 3 (that originated in mailbox 3) since mailbox 3 was removed, you need to manually remove the case that originated in mailbox 3 from the related attribute before sending the email.
 
@@ -59,7 +60,7 @@ When an agent forwards an email to another mailbox 4, from the Case 1 timeline, 
 
 Agents can also initiate a new email from the case timeline (by selecting the + button on the timeline). When an agent sends a new email to a customer from the case timeline, the **Related** attribute of the email is set to the case only if the administrator has enabled the 'OrgDBOrg' setting ‘AddParentEntityToRelatedOnNewActivityCreate’.  
 
-For steps on how to enable the setting, go to [How to change default environment database settings](/power-platform/admin/environment-database-settings). This is applicable to only those scenarios where an agent adds a new email from the case timeline and doesn’t apply to scenarios where agent selects reply or reply all to an existing email from the case timeline.  
+For steps on how to enable the setting, go to [How to change default environment database settings](/power-platform/admin/environment-database-settings). This is applicable to only those scenarios where an agent adds a new email from the case timeline. It doesn’t apply to scenarios where an agent selects reply or reply-all to an existing email from the case timeline.  
 
 ## Other scenarios
 
@@ -80,17 +81,17 @@ An incoming email from a customer might get converted to multiple cases. When an
     
     1. Select **Web resources** > **New**, and fill in the following information:
     
-        1. **Name**: fis_customers
+        - **Name**: fis_customers
         
-        1. **Type**: Script
+        - **Type**: Script
         
-        1. **File**: (See attached file named Fis_Customers.js)
+        - **File**: (See attached file named Fis_Customers.js)
 
 1. Create an unmanaged solution and add the **Activities** entity, with no dependencies.
 
 1. Open **Ribbon Workbench** from **Solutions** and open the solution created in Step 3.
 
-1. Select **Reply** in the sub grid ribbon.
+1. Select **Reply** in the subgrid ribbon.
 
 1. Select **Customize Command**.
 
@@ -102,7 +103,7 @@ An incoming email from a customer might get converted to multiple cases. When an
 
 ## See also
 
-[Create multiple cases from an email sent to multiple mailboxes.](arc-multiple-cases.md#create-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
+[Create multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#create-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
 
 [Enable creation of multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
 
