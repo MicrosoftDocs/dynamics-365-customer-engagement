@@ -79,7 +79,7 @@ After you select a lead, Copilot suggests other records that might be associated
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-Often, you might have documents such as proposals and contracts associated with your records. Copilot can summarize the content of these documents and help you understand the key points quickly. For example, you can ask Copilot to summarize a proposal document to understand the budget, authority (decision maker), need, and timeline (BANT) of the opportunity.
+Often, you might have documents such as proposals and contracts associated with your records. Copilot can summarize the content of these documents and help you understand the key points. For example, you can ask Copilot to summarize a proposal document to understand the budget, authority (decision maker), need, and timeline (BANT) of the opportunity.
 
 > [!NOTE]
 >- This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
