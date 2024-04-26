@@ -32,8 +32,6 @@ If your organization has [opted in to early access updates](/power-platform/admi
 
 - Vice President of Sales
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
-
 To hide the app from all users and roles, follow the instructions in [Hide a model-driven app from users](/powerapps/maker/model-driven-apps/deactivate-app).
 
 ## Grant or revoke access

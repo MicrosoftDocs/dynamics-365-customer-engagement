@@ -70,7 +70,9 @@ The **Overview** tab displays the following information about the conversation:
 
 ##### View categorization tag for short duration calls (Preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Conversation intelligence can detect and tag short duration calls for the following categories:
 
@@ -212,7 +214,9 @@ If the transcript is in a language other than English and the language is one th
 
 Credit card details that were shared during the call are visible in the transcript unless your administrator has turned on the [**Hide personal data (preview)** setting](fre-setup-ci-sales-app.md#hide-personal-data-preview) to comply with Payment Card Industry regulations. If that setting is turned on, the account number, expiration date, and CVV are masked in the transcript.
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 #### Comment on the transcript
 
