@@ -1,7 +1,7 @@
 ---
 title: Ask questions of Copilot
 description: Learn how to ask Copilot questions to know what's new with your leads, opportunities, accounts, and records assigned to you.
-ms.date: 04/03/2024
+ms.date: 04/26/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -54,8 +54,8 @@ The list of recent changes is taken from the audit history of the record. If the
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **Show recent changes for opportunity or Show recent changes for lead**, and select **Enter**.
 
-    - If you have a record open, Copilot displays the list of recent changes to it.
-    - If you're in the grid view, Copilot lists the records you own. Hover over a record and select **Get updates**.
+    - When a record is opened, Copilot displays the list of recent changes to it.
+    - When in grid view, Copilot lists the records for which you have read access. Hover over a record and select **Get updates**.
 
 1. To get the list of changes to a specific lead or opportunity, type **/** and then start typing the name of the opportunity or lead.
 

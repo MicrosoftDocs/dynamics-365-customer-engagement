@@ -1,7 +1,7 @@
 ---
 title: Stay ahead with Copilot
 description: Learn how to prepare for upcoming meetings and catch up on emails with Copilot in Dynamics 365 Sales.
-ms.date: 04/30/2024
+ms.date: 04/26/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -34,14 +34,14 @@ If you have meetings scheduled on your Outlook calendar in the next seven days, 
     >- If you don't want the Copilot to access your Outlook calendar, select the information icon in the meetings section and select **Change preferences**. In the **Disconnect Copilot and Outlook?** dialog box, select **Disconnect**.
 
 1. Under **Stay ahead**, select **Prepare for sales appointments**.  
-    The Copilot lists the meetings scheduled for the current day and the upcoming seven days from the records you have access to. The meetings listed here have an external participant whose email address is added to your organization in Dynamics 365, and this email address must be associated with an opportunity.
+    The Copilot lists the meetings scheduled for the current day and the upcoming seven days from the records you have access to. The meetings listed here have an external participant whose email address is linked to a contact in Dynamics 365, and this email address must be associated with an opportunity.
 
 1. From the list of sales appointments, hover over the meeting that you'd like to prepare for and select **Prepare**.  
     A list of meeting insights are displayed. The first point of the meeting insights always shows the short summary of the opportunity.  
     Select **Source** corresponding to the insight to view the record from which the insight is created.  
     The insights are generated based on the following considerations for the opportunity:  
     - Notes added to the timeline.
-    - All related open activities.
+    - All open tasks.
     - Any related open opportunity and cases of the associated account.  
 
     :::image type="content" source="media/copilot-prepare-for-meetings.svg" alt-text="Screenshot of Copilot's notes for an upcoming meeting.":::
