@@ -1,7 +1,7 @@
 ---
 title: "Virtual Connector Data Source (msdyn_connectordatasource) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Virtual Connector Data Source (msdyn_connectordatasource) table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 04/21/2024
+ms.date: 04/27/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly

@@ -1,7 +1,7 @@
 ---
 title: "Field Sharing (PrincipalObjectAttributeAccess) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Field Sharing (PrincipalObjectAttributeAccess) table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 04/21/2024
+ms.date: 04/27/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -21,19 +21,6 @@ Defines CRM security principals (users and teams) access rights to secured field
 > See the [Field Sharing (PrincipalObjectAttributeAccess) table (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/principalobjectattributeaccess) and [Field Sharing (PrincipalObjectAttributeAccess) table (Microsoft Dynamics 365)](/dynamics365/developer/reference/dataverse/entities/principalobjectattributeaccess) reference documentation for more information.
 
 
-
-## Customized columns/attributes
-
-Microsoft Dynamics 365 Sales
-modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
-
-### <a name="BKMK_ObjectId"></a> ObjectId
-
-Changes from [ObjectId (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/principalobjectattributeaccess#BKMK_ObjectId):
-
-|Property|Value|
-|---|---|
-|Targets|accountleads|
 
 
 ## Customized relationships

@@ -1,7 +1,7 @@
 ---
 title: "Mailbox Auto Tracking Folder (MailboxTrackingFolder) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Mailbox Auto Tracking Folder (MailboxTrackingFolder) table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 04/21/2024
+ms.date: 04/27/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -26,18 +26,6 @@ Stores data about what folders for a mailbox are auto tracked
 
 Microsoft Dynamics 365 Sales
 modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
-
-- [RegardingObjectId](#BKMK_RegardingObjectId)
-- [RegardingObjectIdName](#BKMK_RegardingObjectIdName)
-
-### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
-
-Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/mailboxtrackingfolder#BKMK_RegardingObjectId):
-
-|Property|Value|
-|---|---|
-|Targets|accountleads|
-
 
 ### <a name="BKMK_RegardingObjectIdName"></a> RegardingObjectIdName
 

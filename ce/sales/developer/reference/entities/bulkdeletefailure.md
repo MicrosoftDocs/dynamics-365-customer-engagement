@@ -1,7 +1,7 @@
 ---
 title: "Bulk Delete Failure (BulkDeleteFailure) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Bulk Delete Failure (BulkDeleteFailure) table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 04/21/2024
+ms.date: 04/27/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -21,19 +21,6 @@ Record that was not deleted during a bulk deletion job.
 > See the [Bulk Delete Failure (BulkDeleteFailure) table (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/bulkdeletefailure) and [Bulk Delete Failure (BulkDeleteFailure) table (Microsoft Dynamics 365)](/dynamics365/developer/reference/dataverse/entities/bulkdeletefailure) reference documentation for more information.
 
 
-
-## Customized columns/attributes
-
-Microsoft Dynamics 365 Sales
-modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
-
-### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
-
-Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/bulkdeletefailure#BKMK_RegardingObjectId):
-
-|Property|Value|
-|---|---|
-|Targets|accountleads|
 
 
 ## Customized relationships
