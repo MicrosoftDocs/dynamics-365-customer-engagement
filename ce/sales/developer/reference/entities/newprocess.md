@@ -33,7 +33,7 @@ Changes from [lk_newprocess_knowledgearticleid (Microsoft Dataverse)](/power-app
 
 |Property|Value|
 |--------|-----|
-|CascadeConfiguration|Delete: `NoCascade`|
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ### See also

@@ -1,18 +1,12 @@
 items:
 - name: "About Microsoft Dynamics 365 Sales Table/Entity Reference"
   href: ../about-entity-reference.md
-- name: "AsyncOperation"
-  displayName: "AsyncOperation entity"
-  href: asyncoperation.md
 - name: "backgroundoperation"
   displayName: "backgroundoperation entity"
   href: backgroundoperation.md
 - name: "botcontentpack"
   displayName: "botcontentpack entity"
   href: botcontentpack.md
-- name: "BulkDeleteFailure"
-  displayName: "BulkDeleteFailure entity"
-  href: bulkdeletefailure.md
 - name: "Connection"
   displayName: "Connection entity"
   href: connection.md
@@ -43,12 +37,6 @@ items:
 - name: "NewProcess"
   displayName: "NewProcess entity"
   href: newprocess.md
-- name: "PrincipalObjectAttributeAccess"
-  displayName: "PrincipalObjectAttributeAccess entity"
-  href: principalobjectattributeaccess.md
-- name: "ProcessSession"
-  displayName: "ProcessSession entity"
-  href: processsession.md
 - name: "SimilarityRule"
   displayName: "SimilarityRule entity"
   href: similarityrule.md
