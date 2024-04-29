@@ -39,7 +39,7 @@ Once you set a filter, the following actions are applicable:
 - A visual indicator with the number of filter options selected is displayed next to **Filters**.
 - A visual indicator for the automated filter is displayed.
 - The filters set apply to the following Copilot features: ask a question, draft a chat, and email.
-- The filter is saved. You don't have to set the filter each time you log in. 
+- The filter is saved. You don't have to set the filter each time you sign in. 
 
 
 
