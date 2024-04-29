@@ -611,9 +611,9 @@
               - name: ON_SESSION_CLOSED
                 href: reference/events/on_session_closed.md     
             - name: Methods
-              items: reference/methods/getEventPublisherTopic.md 
+              items: 
                - name: getEventPublisherTopic
-                 href:         
+                 href: reference/methods/getEventPublisherTopic.md       
           - name: Readme
             href: https://go.microsoft.com/fwlink/p/?linkid=2141982
     - name: Responsible AI
