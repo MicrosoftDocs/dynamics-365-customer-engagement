@@ -90,30 +90,27 @@ You can apply the filters in the following sections.
 Specify filters that are applied by default in the background to filter knowledge base articles. Agents can't see these filters. You can set predefined filters for ask a question and draft a response features as follows:
  1. Select **Manage rules** in **Preset filters** for the required feature.
  1. Specify the required conditions for the filter.
- 1. Select **Finish editing**.<br>
+ 1. Select **Finish editing**.
     
 ### Agent filters
- Specify the filters that agents can apply to further filter and refine Copilot responses. Agents can see and select or unselect these filters in the Copilot help pane for the ask a question feature.  
-
-> [!NOTE]
-> If a filter isn't configured as an agent filter, it operates in the background and isn't visible to agents.
+ Specify the filters that agents can apply to further filter and refine Copilot responses. Agents can see and select or deselect these filters in the Copilot help pane for the ask a question feature.  If a filter isn't configured as an agent filter, it operates in the background and isn't visible to agents.
 
 To configure an agent filter, do the following steps:
 1. Select **Add Filter** for **Agent Filters**.
 1. Specify the required knowledge base field that agents can use. You can also specify the display name and add the values from the field that the agent can select.
 1. Turn on the **Filter status** toggle. This toggle must be turned on for the agent to see the filter.
-1. Select **Finish editing**. <br>
+1. Select **Finish editing**. 
 
 ### Automated filters
 
-Specify the filters that are automatically applied without the agents having to select them in the Copilot help pane.  To configure automated filters, do the following steps:
+Specify the filters that are automatically applied. The agents don't need to explicitly set them in the Copilot help pane. To configure automated filters, do the following steps:
 
 1. Select **Add Filter** for **Automated Filters**.
 1. Specify the required knowledge base field and the rules that correspond to the field's value. The filter rule is applied only on the record type the agent is currently working on.
 1. Turn on the **Use untagged content if the field value is null** toggle to view all the content if the field value doesn't match the specified value.
 1. Turn on the **Allow agents to view or change this filter** toggle for agents to see a visual cue that the automated filter is applied and change the filtering options. Based on your setting, the following actions apply: 
-   - **On**: The application prompts you to create a corresponding agent filter for the same Knowledge attribute in **Agent Filters** for the filter to be displayed to the agents.
-   -  **Off**: Agents won't be able to see the filter on the Copilot help pane. The filters operate in the background without any agent notifications.
+   - **On**: The application prompts you to create a corresponding agent filter for the same knowledge attribute in **Agent Filters**. Agents then see the filters on the Copilot help pane.
+   -  **Off**: Agents can't see the filter on the Copilot help pane. The filters operate in the background without any agent notifications.
 1. Select **Finish editing**.
 
 > [!NOTE]
