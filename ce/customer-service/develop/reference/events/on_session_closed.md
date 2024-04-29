@@ -3,7 +3,7 @@ title: ON_SESSION_CLOSED event (app profile manager) JavaScript API Reference
 description: Learn about the ON_SESSION_CLOSED event of app profile manager in Customer Service workspace.
 author: gandhamm
 ms.author: mgandham
-ms.date: 04/23/2024
+ms.date: 04/29/2024
 ms.topic: reference
 ---
 
@@ -25,19 +25,22 @@ This event is invoked by the client when a session is closed. This event provide
 
 ```JavaScript
 
-let sessionClosedhandlerFunction = function(eventInput)
-{
-console.log("SessionClosed: closedSession -" + eventInput.data.sessionId);
-}
-
-let sessionCloseSubscriber = new BroadcastChannel(sessionCloseTopic);
+// Define a handler function that is triggered when a session is closed
+let sessionClosedHandlerFunction = function(eventInput) {
+    // Log the ID of the closed session to the console
+    console.log("Session closed: " + eventInput.data.sessionId);
+};
+// Retrieve the event topic specific to session closing from the API
 let sessionCloseTopic = Microsoft.Apm.getEventPublisherTopic("ON_SESSION_CLOSED");
-
-sessionCloseSubscriber.onmessage = sessionClosedhandlerFunction;
-
+// Create a new broadcast channel for subscribing to the session close events
+let sessionCloseSubscriber = new BroadcastChannel(sessionCloseTopic);
+// Attach the session closed handler function to the message event of the subscriber
+sessionCloseSubscriber.onmessage = sessionClosedHandlerFunction;
 
 ```
 
+> [!NOTE]
+> The code sample utilizes the [Broadcast Channel API - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API), to communicate between different documents such as pages or iframes that are on the same origin. Make sure it is compatible with your customization as support for this API can vary.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: ON_SESSION_SWITCH event (app profile manager) JavaScript API Reference
 description: Learn about the ON_SESSION_SWITCH event of app profile manager in Customer Service workspace.
 author: gandhamm
 ms.author: mgandham
-ms.date: 04/23/2024
+ms.date: 04/29/2024
 ms.topic: reference
 ---
 
@@ -23,19 +23,24 @@ This event is invoked by the client when a session is switched to another sessio
 
 ```JavaScript
 
-let sessionSwitchedhandlerFunction = function(eventInput)
-{
-console.log("SessionSwitched: previousSession -" + eventInput.data.previousSessionId + " newSession -" + eventInput.data.newSessionId);
-}
+// Define a handler function that is triggered when the session is switched
+let sessionSwitchedHandlerFunction = function(eventInput) {
+    // Log the previous and new session IDs to the console
+    console.log("Previous session:  " + eventInput.data.previousSessionId +
+                " - Current session: " + eventInput.data.newSessionId);
 
+}; 
+// Retrieve the event topic specific to session switching from the API
 let sessionSwitchTopic = Microsoft.Apm.getEventPublisherTopic("ON_SESSION_SWITCH");
-
+// Create a new broadcast channel for subscribing to the session switch events
 let sessionSwitchSubscriber = new BroadcastChannel(sessionSwitchTopic);
-
-sessionSwitchSubscriber.onmessage = sessionSwitchedhandlerFunction;
+// Attach the session switched handler function to the message event of the subscriber
+sessionSwitchSubscriber.onmessage = sessionSwitchedHandlerFunction;
 
 ```
 
+> [!NOTE]
+> The code sample utilizes the [Broadcast Channel API - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API), to communicate between different documents such as pages or iframes that are on the same origin. Make sure it is compatible with your customization as support for this API can vary.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
