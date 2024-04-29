@@ -20,7 +20,7 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 1. Open the Power Apps portals admin center and select your environment. More information: [Open Power Apps portals admin center](/powerapps/maker/portals/admin/admin-overview#open-power-apps-portals-admin-center)
 
-2. Open the agent experience profile in [Customer Service admin center](configure-channel-provider-app-profile-manager), configure a new channel provider, and copy the channel URL and other attribute values from the Channel Integration Framework 1.0 provider.
+2. Open the agent experience profile in [Customer Service admin center](configure-channel-provider-app-profile-manager.md), configure a new channel provider, and copy the channel URL and other attribute values from the Channel Integration Framework 1.0 provider.
 
 3. [Assign user to this profile](../../../customer-service/administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels).
 
