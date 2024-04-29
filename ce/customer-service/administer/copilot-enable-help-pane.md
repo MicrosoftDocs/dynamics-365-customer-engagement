@@ -78,21 +78,21 @@ Select **Let agents translate responses** to allow agents to translate responses
 
 ## Set up filters
 
-Filters enable Copilot to generate responses based on a specific set of topics. You can set up filters for ask a question and draft a response features.
+Filters enable Copilot to generate responses based on a specific set of topics. You can set up filters for ask a question and draft a response.
 
 > [!NOTE]
->  If the knowledge articles are insufficient for Copilot filters to generate responses, agents might not see the expected responses. We recommend that you make sure that the appropriate knowledge content is available for the filters you've set. 
+> We recommend that the appropriate knowledge content is available for the filters you have set so that agents can see the expected responses. 
 
-The following filters are available:
+You can apply the filters in the following sections.
 
-**Preset filters**
+### Preset filters
 
 Specify filters that are applied by default in the background to filter knowledge base articles. Agents can't see these filters. You can set predefined filters for ask a question and draft a response features as follows:
  1. Select **Manage rules** in **Preset filters** for the required feature.
  1. Specify the required conditions for the filter.
  1. Select **Finish editing**.<br>
     
-**Agent filters**
+### Agent filters
  Specify the filters that agents can apply to further filter and refine Copilot responses. Agents can see and select or unselect these filters in the Copilot help pane for the ask a question feature.  
 
 > [!NOTE]
@@ -100,11 +100,11 @@ Specify filters that are applied by default in the background to filter knowledg
 
 To configure an agent filter, do the following steps:
 1. Select **Add Filter** for **Agent Filters**.
-1. Specify the required knowledge base field that agents can use. You can also specify the Display name and add the values from the field that the agent can select.
+1. Specify the required knowledge base field that agents can use. You can also specify the display name and add the values from the field that the agent can select.
 1. Turn on the **Filter status** toggle. This toggle must be turned on for the agent to see the filter.
 1. Select **Finish editing**. <br>
 
-**Automated filters**
+### Automated filters
 
 Specify the filters that are automatically applied without the agents having to select them in the Copilot help pane.  To configure automated filters, do the following steps:
 
