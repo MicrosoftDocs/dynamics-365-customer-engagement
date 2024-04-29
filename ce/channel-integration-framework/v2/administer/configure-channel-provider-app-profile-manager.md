@@ -34,7 +34,6 @@ More information:
     2. Select **Manage** for **Third party voice channel provider**.
     
     3. Select a provider from the **Active Channel Providers** list and select **Edit**, or select **New** to add a new channel provider.
-
 2. Enter or update the following details:
 
 | Field | Description |
@@ -48,7 +47,7 @@ More information:
 |Api Version|The version of the Channel Integration Framework APIs.|
 |Trusted Domain| An additional domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
 |Custom Parameters|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` will return this as value of key `customParams`.|
-|Sandbox Configuration| Channel URL loads as an iFrame webresource in the sandbox mode. Use this field to configure the list of sandbox attributes for the Channel URL. You can add multiple attributes seperated by commas.|
+|Sandbox Configuration| Channel URL loads as an iFrame webresource in the sandbox mode. Use this field to configure the list of sandbox attributes for the Channel URL. You can add multiple attributes separated by commas.|
 |Enable Analytics|Select `Yes` if you'd like to enable analytics for your channel provider.|
 
   > ![Configure channel provider.](../../media/channel-provider-app-profile.png "Configure channel provider")
@@ -56,9 +55,9 @@ More information:
   > [!NOTE]
   > - Sandbox attributes such as allow-forms, allow-popups, allow-scripts, allow-same-origin, allow-modals, allow-downloads are configured by default.
   > - The **Restore** button is available only for forms with the **Unique Name** set to **msdyn_omnichannel**.
-  > - The `Api Version` field is set to `2` when you navigate from the app profile manager.
+  > - The `Api Version` field is set to `2` when you navigate from the agent experience profile.
 
-3. If you're using the app profile manager, add the channel provider to the app profile. If you're using Customer Service admin center, then select **Save & Close**.
+3. Select **Save & Close**.
 
 ## Deactivate or delete a channel provider
 
