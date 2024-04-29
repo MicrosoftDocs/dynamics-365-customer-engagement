@@ -25,7 +25,7 @@ Cobrowse and screen sharing can be enabled in the chat channel by integrating wi
 - An active digital messaging or chat subscription. 
 - Updated Omnichannel base and Omnichannel chat solution with third-party cobrowse externalities enabled.
 
-## Third-party cobrowse and screen sharing extensibility framework<a name="third-party-co-browse"> </a>
+## Third-party cobrowse and screen sharing extensibility framework<a name="third-party-cobrowse"> </a>
 
 To enable third-party cobrowse and screen sharing, the Omnichannel for Customer Service application provides an extensibility system to support this feature. In this system, a few entities are available in the Omnichannel for Customer Service solution that the screen share providers can use. The following graph explains the basic entity relationships that support the third-party cobrowse and screen sharing feature.
 
