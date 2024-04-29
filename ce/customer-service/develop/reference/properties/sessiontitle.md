@@ -7,7 +7,7 @@ ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# title (app profile manager)
+# title (app profile manager session)
 
 The text label of a session.
 

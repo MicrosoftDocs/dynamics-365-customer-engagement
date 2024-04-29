@@ -7,7 +7,7 @@ ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# canClose (app profile manager)
+# canClose (app profile manager session)
 
 Boolean value indicating whether a session can be closed.
 

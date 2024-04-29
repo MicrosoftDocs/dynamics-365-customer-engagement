@@ -7,7 +7,7 @@ ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# canClose (app profile manager)
+# canClose (app profile manager tab)
 
 A Boolean value indicating whether a tab can be closed.
 
