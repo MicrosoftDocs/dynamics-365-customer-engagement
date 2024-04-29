@@ -1,13 +1,13 @@
 ---
-title: "canCreateTab method JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the canCreateTab API in Customer Service workspace."
+title: "canCreateTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the canCreateTab API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# canCreateTab
+# canCreateTab (app profile manager)
 
 Allows you to check whether a new tab can be created in a session.
 

@@ -21,9 +21,9 @@ You can configure agent experience profiles in Customer Service admin center.
 
 ## Prerequisites
 
-Make sure you have the Agent Experience Profile Administrator role. More information: [Security roles](security-roles.md)
+- Make sure you have the App Profile Manager Administrator role. More information: [Security roles](security-roles.md)
 
-The Basic User role is required to create profiles in Customer Service admin center.
+- The Basic User role is required to create profiles in Customer Service admin center.
 
 ## Create agent experience profiles in Customer Service admin center
 

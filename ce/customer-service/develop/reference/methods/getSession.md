@@ -1,13 +1,13 @@
 ---
-title: "getSession method JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the getSession API in Customer Service workspace."
+title: "getSession method (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the getSession API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# getSession
+# getSession (app profile manager)
 
 Returns the session object for a session ID.
 

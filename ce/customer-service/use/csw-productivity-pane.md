@@ -1,15 +1,16 @@
 ---
 title: Overview of productivity pane | MicrosoftDocs
 description: Overview of productivity pane in Dynamics 365 Customer Service workspace.
-ms.date: 02/11/2024
-ms.topic: article
-author: kushagr-kishore
-ms.author: v-kuskishore
+ms.date: 04/29/2024
+ms.topic: overview
+author: neeranelli
+ms.author: nenellim
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
+  - bap-template
   - dyn365-customerservice
 ms.collection: get-started
 ---

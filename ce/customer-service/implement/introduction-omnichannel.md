@@ -1,11 +1,12 @@
 ---
-title: "Introduction to Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about Omnichannel for Customer Service, its features, and how they can be configured in your organization."
-ms.date: 02/11/2024
-ms.topic: article
-author: kushagr-kishore
-ms.author: v-kuskishore
+title: Introduction to Omnichannel for Customer Service
+description: Learn about Omnichannel for Customer Service, its features, and how they can be configured in your organization.
+ms.date: 04/29/2024
+ms.topic: overview
+author: neeranelli
+ms.author: nenellim
 ms.collection: get-started
+ms.custom: bap-template
 ---
 # Introduction to Omnichannel for Customer Service
 

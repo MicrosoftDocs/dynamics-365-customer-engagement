@@ -1,13 +1,13 @@
 ---
-title: "createSession method JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the createSession API in Customer Service workspace."
+title: "createSession method (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the createSession API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# createSession
+# createSession (app profile manager)
 
 Creates a session based on a session template and returns the unique identifier of the session.
 

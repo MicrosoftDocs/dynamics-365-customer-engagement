@@ -1,13 +1,13 @@
 ---
-title: "focusTab method JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the focusTab API in Customer Service workspace."
+title: "focusTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the focusTab API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# focusTab
+# focusTab (app profile manager)
 
 Sets the focus on a specified tab in the current session.
 

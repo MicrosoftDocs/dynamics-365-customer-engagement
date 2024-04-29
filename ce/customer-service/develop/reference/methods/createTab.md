@@ -1,13 +1,13 @@
 ---
-title: "createTab method JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the createTab API in Customer Service workspace."
+title: "createTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the createTab API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/09/2023
 ms.topic: reference
 ---
 
-# createTab
+# createTab (app profile manager)
 
 Creates an app tab in a focused session and returns the unique identifier of the tab.
 

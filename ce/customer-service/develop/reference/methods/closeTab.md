@@ -1,13 +1,13 @@
 ---
-title: "closeTab method JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the closeTab API in Customer Service workspace."
+title: "closeTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the closeTab API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# closeTab
+# closeTab (app profile manager)
 
 Closes the specified app tab in the current session.
 

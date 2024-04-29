@@ -1,13 +1,13 @@
 ---
-title: "getAllTabs method JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the getAllTabs API in Customer Service workspace."
+title: "getAllTabs method (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the getAllTabs API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# getAllTabs
+# getAllTabs (app profile manager)
 
 Returns the unique identifiers of all tabs for a specified session.
 

@@ -13,10 +13,10 @@ ms.custom: bap-template
 
 The following roles are available:
 
-- Agent Experience Profile Administrator
+- App Profile Manager Administrator
 - App Profile User
 
-If your organization uses custom roles, and you want a user with the custom role to manage app profiles, then you can either assign the Agent Experience Profile Administrator role or manually add the privileges that pertain to the Agent Experience Profile Administrator role to the custom role.
+If your organization uses custom roles, and you want a user with the custom role to manage app profiles, then you can assign the App Profile Manager Administrator role or manually add the privileges that pertain to the App Profile Manager Administrator role to the custom role.
 
 ## Roles for Customer Service workspace
 
@@ -24,15 +24,15 @@ By default, the privileges that pertain to the App Profile User role are added t
 
 ## Roles for Omnichannel for Customer Service
 
-Out of the box, for the Omnichannel administrator role, the privileges that pertain to the Agent Experience Profile Administrator role are added. Out of the box, for the Omnichannel agent and Omnichannel supervisor roles, the privileges that pertain to the App Profile User role are added.
+Out of the box, for the Omnichannel administrator role, the privileges that pertain to the App Profile Manager Administrator role are added. Out of the box, for the Omnichannel agent and Omnichannel supervisor roles, the privileges that pertain to the App Profile User role are added.
 
 ## Roles and their privileges
 
 The actions and privileges for the roles are as follows.
 
-### Role: Agent Experience Profile Administrator
+### Role: App Profile Manager Administrator
 
-The Agent Experience Profile Administrator has the following privileges.
+The App Profile Manager Administrator has the following privileges.
 
 | Action | Privileges|
 |----|--------|

@@ -1,7 +1,7 @@
 ---
-title: "Migrate third-party channel configuration data | MicrosoftDocs "
-description: "Use this topic to learn how to migrate third-party channel configuration data from Dynamics 365 Channel Integration Framework 1.0 to Channel Integration Framework 2.0 in Customer Service workspace and Omnichannel for Customer Service."
-ms.date: 10/21/2022
+title: Migrate third-party channel configuration data
+description: Use this topic to learn how to migrate third-party channel configuration data from Dynamics 365 Channel Integration Framework 1.0 to Channel Integration Framework 2.0 in Customer Service workspace and Omnichannel for Customer Service.
+ms.date: 04/29/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -20,7 +20,7 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 1. Open the Power Apps portals admin center and select your environment. More information: [Open Power Apps portals admin center](/powerapps/maker/portals/admin/admin-overview#open-power-apps-portals-admin-center)
 
-2. Open the agent experience profile in [Workspace](https://learn.microsoft.com/dynamics365/channel-integration-framework/v2/administer/configure-channel-provider-app-profile-manager?tabs=customerserviceadmincenter#configure-a-third-party-channel-provider), configure a new channel provider, and copy the channel URL and other attribute values from the Channel Integration Framework 1.0 provider.
+2. Open the agent experience profile in [Customer Service admin center](https://learn.microsoft.com/dynamics365/channel-integration-framework/v2/administer/configure-channel-provider-app-profile-manager?tabs=customerserviceadmincenter#configure-a-third-party-channel-provider), configure a new channel provider, and copy the channel URL and other attribute values from the Channel Integration Framework 1.0 provider.
 
 3. [Assign user to this profile](../../../customer-service/administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels).
 
