@@ -3,7 +3,7 @@ title: Create segments and connect them to sequences
 description: Learn how to use work assignment in Dynamics 365 Sales to group records based on conditions, and then connect these segments to sequences of automated actions.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.collection:
 ms.date: 08/11/2023

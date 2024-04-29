@@ -1,5 +1,5 @@
 ---
-title: View and understand Customer Service Analytics | Microsoft Docs
+title: View and understand Customer Service Analytics
 description: This topic provides information about the Customer Service Analytics dashboard and the different metrics that the dashboard displays.
 ms.date: 11/01/2023
 ms.topic: article
@@ -17,7 +17,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # View and understand Customer Service Analytics
 
 > [!NOTE]
-> Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) will be deprecated as of November 6, 2023. We recommend that you start using the out-of-box [Omnichannel historical analytics](../use/omnichannel-analytics-insights.md) and [Customer Service historical analytics](../use/customer-service-analytics-insights-csh.md), which don’t need additional Microsoft Power BI licenses. You can [visually customize](../use/customize-reports.md) and extend these reports to add additional data sources and metrics through [data model customization](../use/customize-reports.md). For details on the deprecation, go to [Deprecations in Customer Service](deprecations-customer-service.md).
+> Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) are deprecated as of November 6, 2023. We recommend that you use the out-of-box [Omnichannel historical analytics](../use/omnichannel-analytics-insights.md) and [Customer Service historical analytics](../use/customer-service-analytics-insights-csh.md), which don’t need additional Microsoft Power BI licenses. You can [visually customize](../use/customize-reports.md) and extend these reports to add additional data sources and metrics through [data model customization](../use/customize-reports.md). For details on the deprecation, go to [Deprecations in Customer Service](deprecations-customer-service.md).
 
 ## Customer Service Analytics dashboard
 

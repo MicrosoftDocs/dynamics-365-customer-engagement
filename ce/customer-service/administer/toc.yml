@@ -210,6 +210,8 @@
           href: arc-customer-scenario.md
         - name: How the automatic record creation rule works in an agent scenario
           href: arc-agent-scenario.md
+        - name: Sample - ARC Multi-Related - Remove Unreferenced Queue
+          href: sample-arc-multiple-cases.md
       - name: FAQ about automatic record creation
         href: arc-faqs.md
     - name: Service-level agreements
@@ -610,6 +612,10 @@
           href: copilot-enable-help-pane.md#enable-draft-a-response-preview
         - name: Enable Copilot to draft emails 
           href: copilot-email-enable.md
+      - name: Enable Copilot plugins for generative AI (preview)
+        href: enable-copilot-plugins-for-generative-ai.md
+      - name: Enable Copilot to create knowledge from cases
+        href: enable-copilot-suggest-knowledge-from-cases.md
       - name: View feedback data
         href: configure-copilot-features.md#record-agent-interactions-with-copilot
       - name: Copilot architecture diagram
@@ -780,6 +786,10 @@
           href: migrate-oc-to-csw.md
         - name: Enable Omnichannel for Customer Service and disable Customer Service workspace
           href: enable-oc-disable-csw.md
+      - name: Migrate configuration data for records channel using solutions
+        href: migrate-record-routing-config-using-solutions.md
+      - name: Migration configuration data for channels using solutions
+        href: migrate-channel-config-using-solutions.md  
       - name: Migrate configuration data for the record channel
         items:
         - name: Overview of data migration for records

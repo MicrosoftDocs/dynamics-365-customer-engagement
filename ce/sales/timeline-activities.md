@@ -3,7 +3,7 @@ title: Track activities in timeline
 description: Use the timeline control in a record to create and view activities related to the record. 
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: overview 
 ms.date: 06/23/2023
 ms.custom: bap-template

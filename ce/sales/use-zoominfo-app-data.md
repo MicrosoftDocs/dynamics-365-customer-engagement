@@ -5,6 +5,7 @@ ms.date: 06/27/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Use ZoomInfo app data 
 
@@ -59,12 +60,12 @@ To access and understand the ZoomInfo data, follow these steps:
     > ![ZoomInfo home page with account details](media/zoominfo-account-details-home-page.png "ZoomInfo home page with account details")
 
  
-To understand more about each component of the ZoomInfo home page, see [Dynamics Native Application](https://university.zoominfo.com/learn/article/implementation-guide-dynamics-native-application).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
 [Install ZoomInfo app](install-zoominfo-app.md)   
+[ZoomInfo Native App for Microsoft Dynamics 365 Implementation Guide](https://tech-docs.zoominfo.com/microsoft-dynamics-native-app-implementation-guide.pdf)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,6 +5,7 @@ ms.date: 10/12/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Send email using the enhanced email experience 
 

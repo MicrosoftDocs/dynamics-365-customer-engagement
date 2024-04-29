@@ -5,6 +5,7 @@ ms.date: 09/30/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Configure sales team&ndash;level settings 
 

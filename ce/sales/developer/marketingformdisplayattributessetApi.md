@@ -5,6 +5,7 @@ ms.date: 09/07/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Customize quick campaign and campaign activity distribution forms 
 
