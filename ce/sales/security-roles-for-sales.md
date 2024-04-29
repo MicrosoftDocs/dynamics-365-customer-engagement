@@ -5,6 +5,7 @@ ms.date: 10/18/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Predefined security roles for Sales
 

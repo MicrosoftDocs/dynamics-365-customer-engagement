@@ -3,7 +3,7 @@ title: Turn on or off insight cards
 description: You can decide which insight cards you'd like to see or hide in the application.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to 
 ms.date: 09/08/2023
 ms.custom: bap-template

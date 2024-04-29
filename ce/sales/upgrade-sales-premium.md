@@ -6,6 +6,7 @@ ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Upgrade to Dynamics 365 Sales Premium

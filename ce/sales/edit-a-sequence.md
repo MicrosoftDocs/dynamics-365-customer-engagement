@@ -5,6 +5,7 @@ ms.date: 08/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Clone and edit a sequence 
 

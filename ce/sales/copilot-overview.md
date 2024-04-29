@@ -15,7 +15,7 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
@@ -81,7 +81,8 @@ Learn more:
 
 - [Compose and send email messages using Copilot (preview)](compose-send-email-copilot.md)  
 - [View and copy an email summary](view-copy-email-summary.md)  
-- [View emails you haven't replied to](copilot-stay-ahead.md#show-emails-you-havent-replied-to)
+- [Display unanswered emails](copilot-stay-ahead.md#display-unanswered-emails)
+
 
 ### News updates
 

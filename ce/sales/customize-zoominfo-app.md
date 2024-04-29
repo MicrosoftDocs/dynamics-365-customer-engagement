@@ -5,6 +5,7 @@ ms.date: 06/27/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Customize the ZoomInfo app     
 

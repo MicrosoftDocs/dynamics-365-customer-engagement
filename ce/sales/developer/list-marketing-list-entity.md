@@ -3,12 +3,12 @@ title: List (marketing list) table (Dynamics 365 Sales)
 description: Learn about list management and the list (marketing list) table that help you create lists of potential customers or existing customers for marketing purposes.
 ms.custom: 
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 
