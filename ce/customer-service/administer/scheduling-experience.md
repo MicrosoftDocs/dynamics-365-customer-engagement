@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 04/25/2024
+ms.date: 04/30/2024
 ms.custom: bap-template 
 ---
 
@@ -15,7 +15,7 @@ ms.custom: bap-template
 You can set up service scheduling from the Power Platform admin center.
 
 > [!NOTE]
-> Scheduling in Customer Service Hub is a customer-driven update. You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality.
+> Scheduling in Customer Service Hub is a [customer-driven update](#set-up-scenarios). You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality. For information on released versions, see [Released Versions of Dynamics 365 Core Service Scheduling](/dynamics365/released-versions/dynamics365-css).
 
 ## Prerequisites
 

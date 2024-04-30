@@ -1,7 +1,7 @@
 ---
 title: Overview of Service Scheduling and Scheduling experience in Dynamics 365 Customer Service
 description: This article provides information on the basics of service and service scheduling in Dynamics 365 Customer Service.
-ms.date: 04/25/2024
+ms.date: 04/30/2024
 author: lalexms
 ms.author: laalexan
 ms.topic: overview
@@ -15,7 +15,7 @@ Avoid disruptions in service by making sure that your resources are scheduled op
 
 Scheduling in Customer Service Hub is a customer-driven update. You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality.
 
-Scheduling, which is built on top of **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
+Scheduling, which is built on top of URS, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
 
 ### Scheduling scenario
 
