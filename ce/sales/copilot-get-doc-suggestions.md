@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to get suggestions and answers from SharePoint
 description: Discover how integrating SharePoint with Sales allows Copilot to recommend product-related documents and answer queries from stored files.
-ms.date: 04/19/2024
+ms.date: 04/30/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -58,7 +58,16 @@ As a salesperson, you need to be aware of the latest product information, such a
 
 As a seller, you might have to refer to documents such as contracts, technical documents, and marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you.
 
-1. In the Copilot side pane, type in your question in natural language, and select **Enter**.
+**To get answers from SharePoint documents**
+
+1. [Open Copilot](use-sales-copilot.md#open-copilot) and select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::).
+
+1. Select **Get info** > **Get info from SharePoint about** and type in your question.
+   If the answer is available in SharePoint, Copilot summarizes the answer and provides links to the corresponding documents in SharePoint.
+
+**To get answers from Dataverse and SharePoint**
+
+1. [Open Copilot](use-sales-copilot.md#open-copilot) and type in your question in natural language, and select **Enter**.
     You need not open a record to ask Copilot a question. For example, you can ask Copilot, **What is the warranty period for Contoso 3D printers?** or **What is the price of Contoso 3D printers?**.
 
     Copilot searches for answers from the sales data stored in Dataverse first. After the result is displayed, you'll see a follow-up prompt.
