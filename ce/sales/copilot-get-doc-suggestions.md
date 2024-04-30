@@ -14,6 +14,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
 ---
 
 # Use Copilot to get suggestions and answers from SharePoint
@@ -24,33 +25,27 @@ If you have integrated SharePoint with Dynamics 365 Sales, Copilot can recommend
 
 - Your organization must have integrated SharePoint with Dynamics 365 Sales.
 - The SharePoint site must be associated with your tenant.
-- The sales records must have products associated with them.
 - You must have the required permissions to access SharePoint documents.
 
 
 <a name="copilot-content-recommendation"></a>
 ## Get document recommendations from SharePoint
  
-As a salesperson, you need to be aware of the latest product information, such as product brochures, pricing, sales pitch, and specifications, which are typically stored in SharePoint. You can ask Copilot to provide you with the list of SharePoint documents related to products in an opportunity.
+As a salesperson, you need to be aware of the latest product and account-related information, such as product brochures, pricing, sales pitch, and specifications, which are typically stored in SharePoint. You can ask Copilot to provide you with the list of SharePoint documents related to the your sales records, such as accounts, contacts, leads, opportunities, quotes, orders, and invoices. You can also view related files when you're using Copilot to prepare for a meeting.
 
-1. [Summarize a lead or opportunity](copilot-get-information.md#summarize-a-lead-or-opportunity). 
-    
-    After the summary, Copilot displays a follow-up prompt **Show product-related files**. The prompt is displayed only if the sales record has products associated with it.
+To get document recommendations, use one of the following methods in the Copilot chat window:
 
-    For quote, order, and invoice records, the prompt is displayed when you open a record.
+- Use natural language chat. For example, you can ask Copilot, **Show me the product-related files for Contoso 3D printers**.
+- Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) in the chat window and selecting **Get info** > **Show related files**.
+- Select the follow-up prompt **Show related files** if available. The follow-up prompt is displayed depending on the type of record and whether products or accounts are associated with the record. For example, if you have associated products with an opportunity, you'll see the follow-up prompt **Show related files**. The follow-up prompt is also displayed when you use Copilot to [prepare for a meeting](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments).
 
-2. Select **Show product-related files**.
-   At the moment, this feature can be invoked only by selecting the prompt and not by typing in the Copilot chat.
+**Files supported**
 
-   If the record has multiple products, Copilot lists the products.
+Copilot fetches a list of Word, Excel, PowerPoint, and PDF files that are related to the product from SharePoint. Copilot lists only those files that you have access to in SharePoint.
 
-1. Hover over a product and select **Show files**.
+The documents are listed in the ranking order of SharePoint search results.
 
-    Copilot fetches a list of Word, Excel, PowerPoint, and PDF files that are related to the product from SharePoint. Copilot lists only those files that you have access to in SharePoint.
-
-    The documents are listed in the ranking order of SharePoint search results.
-
-    :::image type="content" source="media/get-files-from-sharepoint.svg" alt-text="Screenshot of the list of files fetched from SharePoint.":::
+:::image type="content" source="media/get-files-from-sharepoint.svg" alt-text="Screenshot of the list of files fetched from SharePoint.":::
 
 
 <a name="copilot-content-qa"></a>
