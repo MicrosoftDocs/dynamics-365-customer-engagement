@@ -6,6 +6,7 @@ ms.collection: get-started
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Enable and configure Sales Insights features 
 

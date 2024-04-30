@@ -3,7 +3,7 @@ title: Manage org charts
 description: Learn how to create and edit org charts, add contacts and labels, and create a hierarchy to help sellers gain insights into their customers' organizational structure and identify key decision-makers.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.date: 09/28/2023
 ms.custom: bap-template

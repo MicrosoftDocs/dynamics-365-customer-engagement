@@ -5,6 +5,7 @@ ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # System Settings dialog box - Sales tab 
 

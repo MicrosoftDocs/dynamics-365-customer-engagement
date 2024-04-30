@@ -2,8 +2,8 @@
 title: Manage opportunities
 description: Learn about how the opportunity management process works in Dynamics 365 Sales. 
 author: lavanyakr01
-ms.author: lavanyakr 
-ms.reviewer: shujoshi
+ms.author: lavanyakr
+ms.reviewer: lavanyakr 
 ms.topic: overview
 ms.collection: get-started 
 ms.date: 04/08/2023

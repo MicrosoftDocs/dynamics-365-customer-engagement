@@ -5,6 +5,7 @@ ms.date: 02/02/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Connect a sequence to records 
 

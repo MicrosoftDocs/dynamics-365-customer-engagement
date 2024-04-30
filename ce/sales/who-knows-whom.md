@@ -5,6 +5,7 @@ ms.date: 08/07/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # How to get introduced to leads or contacts  

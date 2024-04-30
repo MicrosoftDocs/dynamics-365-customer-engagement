@@ -5,6 +5,7 @@ ms.date: 04/30/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Sequence templates

@@ -2,12 +2,12 @@
 title: Product discounting methods (Dynamics 365 Sales)
 description: "The Organization.DiscountCalculationMethod column specifies the discount method: either line item or unit level."
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 

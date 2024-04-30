@@ -3,7 +3,7 @@ title: View and understand the org charts
 description: Learn how to use the org charts to gain insights into your customers' organizational structure and identify key decision-makers.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.date: 03/08/2024
 ms.custom: bap-template

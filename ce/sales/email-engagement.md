@@ -5,6 +5,7 @@ ms.date: 02/14/2024
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Use email engagement to view message interactions

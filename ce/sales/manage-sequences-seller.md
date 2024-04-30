@@ -5,6 +5,7 @@ ms.date: 12/09/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Manage sequences 

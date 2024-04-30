@@ -3,7 +3,7 @@ title: Create and activate assignment rules
 description: Learn how to create and use assignment rules in Dynamics 365 Sales to automatically route new leads, opportunities, and insights to the right sellers or sales teams.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.date: 08/11/2023
 ms.custom:

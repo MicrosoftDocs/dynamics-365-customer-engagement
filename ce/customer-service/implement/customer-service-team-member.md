@@ -1,8 +1,8 @@
 ---
-title: Customer Service Team Member app | Microsoft Docs
-description: Customer Service Team Member app
-ms.date: 12/28/2020
-ms.topic: article
+title: Customer Service Team Member app 
+description: Learn about the Customer Service Team Member app and how to install and use it.
+ms.date: 04/23/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 search.audienceType: 
@@ -11,6 +11,7 @@ search.audienceType:
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - bap-template
 ---
 # Customer Service Team Member app
 
@@ -62,7 +63,7 @@ In the Customer Service Team Member app, you can perform the following tasks:
    - **Description:** Specify a description that summarizes the problem.
 
     > [!NOTE]
-    > The **Customer** value is not available for editing; it is mapped to the "Default account" that is configured by your administrator.
+    > The **Customer** value is not available for editing; it's mapped to the "Default account" that is configured by your administrator.
 
 5. Select **Save**. The **Comments** section appears on the page that can be used to provide additional information.
 6. Select **New Comment**. The **New Comment** page appears.
@@ -83,7 +84,7 @@ In the Customer Service Team Member app, you can perform the following tasks:
 
 ### See also
 
-[Dynamics 365 Team Members license](/dynamics365/get-started/team-members-license)
+[Dynamics 365 Team Members license](/dynamics365/get-started/team-members-license)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
