@@ -196,9 +196,3 @@ Extend Universal Resource Scheduling with Universal FetchXML Universal FetchXML 
 Customize the schedule board with a custom resource attribute Customize the schedule board with a custom resource attribute - Dynamics 365 Field Service | Microsoft Learn 
 
  
-
-Tags 
-
-Industries: Services (70-89) 
-
-Products: Dynamics 365 Field Service, Schedule Board, Schedule Assistant, Universal Resource Scheduling 
