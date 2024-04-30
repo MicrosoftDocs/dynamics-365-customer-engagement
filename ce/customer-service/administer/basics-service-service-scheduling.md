@@ -13,13 +13,13 @@ Avoid disruptions in service by making sure that your resources are scheduled op
 
 ## Understand the scheduling experience
 
-Scheduling in Customer Service Hub is a customer-driven update. You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality.
+Scheduling in Customer Service Hub is a [customer-driven update](scheduling-experience.md#set-up-scenarios). You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality.
 
 Scheduling, which is built on top of URS, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
 
 ### Scheduling scenario
 
-The following scenario helps to understand how the scheduling capability lets you manage your service activities seamlessly: 
+The following scenario helps to understand how the scheduling capability lets you manage your service activities seamlessly:
 
 Contoso bike repair schedules repair services for their customers. To facilitate this process, Contoso needs to bring together the following information:
 
