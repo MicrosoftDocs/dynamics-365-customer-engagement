@@ -44,7 +44,7 @@ When you select a component in a chart, the data is filtered accordingly. In thi
 
 You can drill down from the **Agent list** section on the dashboard to view key metrics about agent details and specific insights about individual agents' performance.
 
-You'll see the following tabs. The tabs also shows custom presence statuses, configured by you and used by your agents. 
+You'll see the following tabs. The tabs also show custom presence statuses, configured by you and used by your agents. 
 
 - **Agent online**: Shows agents who are online at the moment.
 
