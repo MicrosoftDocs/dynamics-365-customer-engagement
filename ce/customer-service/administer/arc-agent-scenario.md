@@ -6,11 +6,9 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/02/2024
+ms.date: 04/30/2024
 ms.custom: bap-template
 ---
-
-<!-- In line 61, do you want back ticks instead of single quote marks? -->
 
 # How the automatic record creation rule works in an agent scenario
 
