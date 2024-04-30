@@ -1,5 +1,5 @@
 ---
-title: FAQ for Copilot for emails
+title: FAQ about Copilot for emails
 description: This FAQ provides information about the AI technology that's used in Dynamics 365 Sales for emails. This FAQ also includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 10/05/2023
 ms.custom: 
@@ -12,7 +12,7 @@ ms.author: udag
 ms.reviewer: udag
 ---
 
-# FAQ for Copilot for emails
+# FAQ about Copilot for emails
 
 These frequently asked questions (FAQ) describe the AI impact of the email capabilities in Copilot in Dynamics 365 Sales.
 
