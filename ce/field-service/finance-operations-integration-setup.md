@@ -132,7 +132,7 @@ Depending on the nature of your organization's Field Service work, select a post
 
 ### Create products with project categories
 
-To map to the correct journal lines, uUpdate the products in Field Service with the project categories from finance and operations applications.
+To map to the correct journal lines, update the products in Field Service with the project categories from finance and operations applications.
 
 1. In **Field Service Settings**, select **Products and services**.
 
