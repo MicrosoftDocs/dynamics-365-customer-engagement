@@ -35,27 +35,25 @@ As a salesperson, you need to be aware of the latest product and account-related
 
 To get document recommendations, use one of the following methods in the Copilot chat window:
 
-- Use natural language chat. For example, you can ask Copilot, **Show me the product-related files for Contoso 3D printers**.
+- Use natural language chat. For example, you can ask Copilot, **Show me the product-related files for Contoso opportunity** to get the list of documents related to the products associated with the opportunity. Or, you can ask **Show me the related files for Contoso** to get the list of documents related to the account.
 
 - Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) in the chat window, select **Get info** > **Show related files**, and enter the record name.
 
-- Select the follow-up prompt **Show related files** if available. The follow-up prompt is displayed depending on the type of record and whether products or accounts are associated with the record. For example, if you have associated products with an opportunity, you'll see the follow-up prompt **Show related files**. The follow-up prompt is also displayed when you use Copilot to [prepare for a meeting](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments).
+- Select the follow-up prompt **Show related files** if available. The follow-up prompt is displayed depending on the type of record and whether products or accounts are associated with the record. For example, if you have associated products with an opportunity, you'll see the follow-up prompt **Show related files**. The follow-up prompt is also displayed when you use Copilot to [prepare for a meeting](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments). 
 
-The documents are listed in the ranking order of SharePoint search results.
+The documents are listed in the ranking order of SharePoint search results. [Learn more about which files are listed](#which-files-are-listed)
 
 :::image type="content" source="media/get-files-from-sharepoint.svg" alt-text="Screenshot of the list of files fetched from SharePoint.":::
 
 ### Which records are supported?
 
-The **Show related files** prompt is supported for the account, contact, lead, opportunity, quote, order, and invoice records. 
+The **Show related files** prompt is supported for the account, contact, lead, opportunity, quote, order, and invoice records.
 
 ### Which files are listed?
 
 The **Show related files** prompt lists the files that meet the following criteria:
 
 - The file must be of type Word, Excel, PowerPoint, or PDF.
-
-- You must have access to the file in SharePoint.
 
 - The file must be related to a product or account. 
 
