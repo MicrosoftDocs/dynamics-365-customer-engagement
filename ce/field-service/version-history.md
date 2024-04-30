@@ -18,22 +18,29 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.113.25](/dynamics365/field-service/version-history#8811325)  | TBD |04/26/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.113.28](/dynamics365/field-service/version-history#8811328)  |  TBD | 05/03/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.112.24](/dynamics365/field-service/version-history#8811224)  |  [8.8.113.28](/dynamics365/field-service/version-history#8811328) |04/26/2024 |
-| | *USG* | [8.8.113.28](/dynamics365/field-service/version-history#8811328)  |  TBD | 05/03/2024 |
+|**Station 1** |  *First Release*| [8.8.114.26](/dynamics365/field-service/version-history#8811426)  | TBD |05/17/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.113.28](/dynamics365/field-service/version-history#8811328)  |  [8.8.114.26](/dynamics365/field-service/version-history#8811426) | 05/03/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.113.28](/dynamics365/field-service/version-history#8811328)  |  [8.8.114.26](/dynamics365/field-service/version-history#8811426) | 05/10/2024 |
+| | *USG* | [8.8.113.28](/dynamics365/field-service/version-history#8811328)  |  [8.8.114.26](/dynamics365/field-service/version-history#8811426) | 05/03/2024 |
 |**Station 4** |*Europe* | [8.8.112.24](/dynamics365/field-service/version-history#8811224)  |  [8.8.113.28](/dynamics365/field-service/version-history#8811328) | 05/03/2024 |
 |**Station 5** | *North America*|  [8.8.112.28](/dynamics365/field-service/version-history#8811228)  |  [8.8.113.28](/dynamics365/field-service/version-history#8811328) | 05/10/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.110.18](/dynamics365/field-service/version-history#8811018)   | [8.8.112.28](/dynamics365/field-service/version-history#8811228) | 04/26/2024 |
-| | *Dedicated Scale Groups* |   [8.8.110.18](/dynamics365/field-service/version-history#8811018)  | [8.8.112.28](/dynamics365/field-service/version-history#8811228) |04/26/2024  |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.112.28](/dynamics365/field-service/version-history#8811228)  |  [8.8.113.28](/dynamics365/field-service/version-history#8811328) | 05/10/2024 |
+| | *Dedicated Scale Groups* |   [8.8.112.28](/dynamics365/field-service/version-history#8811228)  |  [8.8.113.28](/dynamics365/field-service/version-history#8811328) | 05/17/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.114.24
+(Includes Universal Resource Scheduling version [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311) and Resource Scheduling controls version 1.2.70.241042).
+
 ## 8.8.113.28
 
 This release is a hotfix on Field Service version [8.8.113.25](/dynamics365/field-service/version-history#8811325)
+
+- Copilot summary control will no longer hide the system status drop down.
+- The new work order grid control will now only evaluate ribbon rules for the selected row instead of for every row rendered all at once.
+
 
 ## 8.8.113.25
 (Includes Universal Resource Scheduling version [3.12.130.10](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213010) and Resource Scheduling controls version 1.2.69.240991).
@@ -44,8 +51,11 @@ This release is a hotfix on Field Service version [8.8.113.25](/dynamics365/fiel
 
 This release is a hotfix on Field Service version [8.8.112.24](/dynamics365/field-service/version-history#8811224)
 
+- Copilot summary control will no longer hide the system status drop down.
+- The new work order grid control will now only evaluate ribbon rules for the selected row instead of for every row rendered all at once.
+
 ## 8.8.112.24
-(Includes Universal Resource Scheduling version [3.12.129.28](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212928) and Resource Scheduling controls version 1.2.68.240862).
+ This release is a hotfix on Field Service version [8.8.112.23](/dynamics365/field-service/version-history#8811223)
 
 - Fixed a problem that prevented sub-status from appearing as a column in the work order grid view in the absence of a status column.
 - Fixed a problem preventing 'Exports to Excel' command from the focused view when any column is filtered.
