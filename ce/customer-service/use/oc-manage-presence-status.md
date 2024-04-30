@@ -1,7 +1,7 @@
 ---
 title: Manage presence in Omnichannel for Customer Service
 description: Learn how to view and update your presence status in Omnichannel for Customer Service.
-ms.date: 01/31/2024
+ms.date: 04/30/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -54,8 +54,10 @@ A presence status consists of two elements:
 
 ### Custom presence status
 
-Apart from the out-of-the-box presence statuses, you can create custom presence statuses for your agents to use. The system matches the custom presence status to a base presence. 
+Apart from the out-of-the-box presence statuses, you can create custom presence statuses for your agents to use. The system matches the custom presence status to a base presence.
 For example, if agents on your team want to attend a training, you can create a custom “Away–In Training” presence status. When you map a custom presence to a base presence, you must make sure that the configurations are logically viable. For example, if you map an available custom presence to offline base status, the application treats it as "offline" while the visual effect is "available".
+
+You can view agent custom presence statuses in Omnichannel real-time analytics and Omnichannel historical analytics reports.
 
 More information: [Configure custom presence status](../administer/presence-custom-presence.md)
 
