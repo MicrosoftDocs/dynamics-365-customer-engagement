@@ -17,6 +17,8 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE[responsible-ai-features](../includes/responsible-ai-features.md)]
 
-- [FAQ for summarization in Copilot](faqs-sales-copilot-for-summarization.md)
-- [FAQ for email in Copilot](faqs-sales-copilot-for-email.md)
+- [FAQ about summarization in Copilot](faqs-sales-copilot-for-summarization.md)
+- [FAQ about Copilot for email](faqs-sales-copilot-for-email.md)
+- [FAQ about natural language chat in Copilot](faqs-sales-copilot-natural-language.md)
+- [FAQ about chat with Sales data on Microsoft 365 Copilot (preview)](microsoft-365-copilot-for-sales.md)
 
