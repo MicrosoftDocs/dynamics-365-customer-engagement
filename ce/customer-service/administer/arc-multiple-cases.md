@@ -15,8 +15,6 @@ ms.custom:
   - ai-gen-desc
 ---
 
-<!-- On line 91, should it be **New Case form** or **New Case** form ? -->
-
 
 # Create multiple cases from an email sent to multiple mailboxes
 
