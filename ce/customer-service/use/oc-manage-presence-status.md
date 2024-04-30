@@ -1,7 +1,7 @@
 ---
 title: Manage presence in Omnichannel for Customer Service
 description: Learn how to view and update your presence status in Omnichannel for Customer Service.
-ms.date: 04/18/2024
+ms.date: 04/30/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
