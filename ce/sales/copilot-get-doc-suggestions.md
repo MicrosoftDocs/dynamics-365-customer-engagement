@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to get suggestions and answers from SharePoint
 description: Discover how integrating SharePoint with Sales allows Copilot to recommend product-related documents and answer queries from stored files.
-ms.date: 04/30/2024
+ms.date: 05/01/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -35,11 +35,15 @@ As a salesperson, you need to be aware of the latest product and account-related
 
 To get document recommendations, use one of the following methods in the Copilot chat window:
 
-- Use natural language chat. For example, you can ask Copilot, **Show me the product-related files for Contoso opportunity** to get the list of documents related to the products associated with the opportunity. Or, you can ask **Show me the related files for Contoso** to get the list of documents related to the account.
-
 - Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) in the chat window, select **Get info** > **Show related files**, and enter the record name.
 
-- Select the follow-up prompt **Show related files** if available. The follow-up prompt is displayed depending on the type of record and whether products or accounts are associated with the record. For example, if you have associated products with an opportunity, you'll see the follow-up prompt **Show related files**. The follow-up prompt is also displayed when you use Copilot to [prepare for a meeting](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments). 
+- Use natural language chat. For example, you can ask Copilot, **Show me the product-related files** or **Get files related to this** or **Display documents for the *opportunity name***.
+
+- Select the follow-up prompt **Show related files** if available. 
+
+    - The follow-up prompt is displayed depending on the type of record and whether products or accounts are associated with the record. For example, if you have associated products with an opportunity, you'll see the follow-up prompt **Show product-related files**. 
+
+    - The follow-up prompt also appears after Copilot responds to the [prepare for a meeting](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) prompt to help you gather relevant files for the meeting based on the account or product involved.
 
 The documents are listed in the ranking order of SharePoint search results. [Learn more about which files are listed](#which-files-are-listed)
 
@@ -47,7 +51,7 @@ The documents are listed in the ranking order of SharePoint search results. [Lea
 
 ### Which records are supported?
 
-The **Show related files** prompt is supported for the account, contact, lead, opportunity, quote, order, and invoice records.
+The SharePoint document recommendation capability is supported for the account, contact, lead, opportunity, quote, order, and invoice records.
 
 ### Which files are listed?
 
