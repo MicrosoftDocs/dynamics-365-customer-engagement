@@ -59,11 +59,12 @@ The **Show related files** prompt lists the files that meet the following criter
 
 - The file must be of type Word, Excel, PowerPoint, or PDF.
 
-- The file must be related to the product or account associated with the record, or any other keyword provided in the prompt.
+- The file must be related to the product or account associated with the record, or any other keywords provided in the prompt.
 
     - For the records that have associated products, such as opportunity and quote, files related to the associated products are listed. If there are no product associations in the record or no product-related files in SharePoint, the files related to the account are listed.
 
     - For the records that don't have associated products, such as accounts, contacts and leads, the files related to the account are listed.
+    - Apart from product and account-related files, you can also ask Copilot to get files related to any keyword. For example, you can ask **Show files related to marketing strategy**.
 
 
 <a name="copilot-content-qa"></a>
