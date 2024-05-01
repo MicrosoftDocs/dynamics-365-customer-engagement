@@ -290,6 +290,10 @@
           href: use-copilot-features.md#draft-a-chat-response-preview
         - name: Write an email with Copilot
           href: use-copilot-email.md
+        - name: Use Copilot filters
+          href: use-copilot-filters.md
+        - name: Use Copilot to generate knowledge drafts from cases
+          href: use-copilot-knowledge-from-cases.md  
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
         - name: View analytics for Copilot impact

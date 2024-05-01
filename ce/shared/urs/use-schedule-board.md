@@ -74,6 +74,8 @@ On each resource pin associated with a user, there is an indicator icon in the l
 
 ### Refresh board
 
+The schedule board refreshes automatically if there are changes in the start date, end date, resource assignment, or status of a booking. Automated refresh only considers changes to bookings in the current week.
+
 Select **Refresh** to manually refresh the schedule board.
 
 ### Focus mode

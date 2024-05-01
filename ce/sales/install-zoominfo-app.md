@@ -5,6 +5,7 @@ ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
   
 # Install ZoomInfo app   
@@ -46,6 +47,6 @@ As a Dynamics 365 administrator, you install the ZoomInfo app for administrators
 [Match fields between Dynamics 365 and ZoomInfo](match-fields-between-dynamics365-zoominfo.md)   
 [Customize the ZoomInfo app](customize-zoominfo-app.md)         
 [Use ZoomInfo app data](use-zoominfo-app-data.md)   
-[Dynamics Native Application](https://university.zoominfo.com/learn/article/implementation-guide-dynamics-native-application)
+[ZoomInfo Native App for Microsoft Dynamics 365 Implementation Guide](https://tech-docs.zoominfo.com/microsoft-dynamics-native-app-implementation-guide.pdf)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

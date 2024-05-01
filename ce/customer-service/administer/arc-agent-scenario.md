@@ -6,10 +6,9 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/02/2024
+ms.date: 04/30/2024
 ms.custom: bap-template
 ---
-
 
 # How the automatic record creation rule works in an agent scenario
 
@@ -57,9 +56,9 @@ When an agent forwards an email to another mailbox 4, from the Case 1 timeline, 
 
 ## Agent initiates a new email
 
-Agents can also initiate a new email from the case timeline (by selecting the + button on the timeline). When an agent sends a new email to a customer from the case timeline, the **Related** attribute of the email is set to the case only if the administrator has enabled the 'OrgDBOrg' setting ‘AddParentEntityToRelatedOnNewActivityCreate’.  
+Agents can also initiate a new email from the case timeline (by selecting the + button on the timeline). When an agent sends a new email to a customer from the case timeline, the **Related** attribute of the email is set to the case only if the administrator has enabled the "OrgDBOrg" setting "AddParentEntityToRelatedOnNewActivityCreate".  
 
-For steps on how to enable the setting, go to [How to change default environment database settings](/power-platform/admin/environment-database-settings). This is applicable to only those scenarios where an agent adds a new email from the case timeline and doesn’t apply to scenarios where agent selects reply or reply all to an existing email from the case timeline.  
+For steps on how to enable the setting, go to [How to change default environment database settings](/power-platform/admin/environment-database-settings). This is applicable to only those scenarios where an agent adds a new email from the case timeline. It doesn’t apply to scenarios where an agent selects reply or reply all to an existing email from the case timeline.  
 
 ## Other scenarios
 
@@ -80,17 +79,17 @@ An incoming email from a customer might get converted to multiple cases. When an
     
     1. Select **Web resources** > **New**, and fill in the following information:
     
-        1. **Name**: fis_customers
+        - **Name**: fis_customers
         
-        1. **Type**: Script
+        - **Type**: Script
         
-        1. **File**: (See attached file named Fis_Customers.js)
+        - **File**: (See attached file named Fis_Customers.js)
 
 1. Create an unmanaged solution and add the **Activities** entity, with no dependencies.
 
 1. Open **Ribbon Workbench** from **Solutions** and open the solution created in Step 3.
 
-1. Select **Reply** in the sub grid ribbon.
+1. Select **Reply** in the subgrid ribbon.
 
 1. Select **Customize Command**.
 
@@ -102,8 +101,10 @@ An incoming email from a customer might get converted to multiple cases. When an
 
 ## See also
 
-[Create multiple cases from an email sent to multiple mailboxes.](arc-multiple-cases.md#create-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
+[Create multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#create-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
 
 [Enable creation of multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
 
 [How the automatic record creation rule works in a customer scenario](arc-customer-scenario.md#how-the-automatic-record-creation-rule-works-in-a-customer-scenario)
+
+[Sample - ARC Multi-Related - Remove Unreferenced Queue](sample-arc-multiple-cases.md#sample---arc-multi-related---remove-unreferenced-queue)

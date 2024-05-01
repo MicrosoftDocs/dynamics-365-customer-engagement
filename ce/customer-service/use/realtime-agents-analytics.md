@@ -3,10 +3,10 @@ title: View and understand the Agents report in Omnichannel real-time analytics
 description: Understand agent performance and optimize allocation in real-time with the Omnichannel Agents report.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 01/18/2024
+ms.date: 04/30/2024
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -44,7 +44,7 @@ When you select a component in a chart, the data is filtered accordingly. In thi
 
 You can drill down from the **Agent list** section on the dashboard to view key metrics about agent details and specific insights about individual agents' performance.
 
-You'll see the following tabs:
+You'll see the following tabs. The tabs also show custom presence statuses, configured by you and used by your agents. 
 
 - **Agent online**: Shows agents who are online at the moment.
 

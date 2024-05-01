@@ -7,6 +7,7 @@ ms.topic: how-to
 ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Set up conversation intelligence in Sales Hub app
@@ -112,7 +113,9 @@ The following preview features are available for conversation intelligence:
 
 To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as credit card number, expiry date, and CVV will be masked before saving a transcript.  Learn more about [call transcripts](view-and-understand-call-summary-sales-app.md#call-transcript-and-translation). 
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 To comply with Payment Card Industry regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as the account number, expiration date, and CVV are masked before the call transcript is saved.
 
@@ -124,7 +127,9 @@ To comply with Payment Card Industry regulations, organizations must protect per
 
 ### Enable call categorization for short calls (preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 If you have chosen **Automatic recording** to record all customer calls, you can enable call categorization to help your sales team to quickly identify calls that don't have useful content such as calls that went to voicemail and calls that were not answered. More information: [View categorization tag for short duration calls (Preview)](view-and-understand-call-summary-sales-app.md#view-categorization-tag-for-short-duration-calls-preview)
 

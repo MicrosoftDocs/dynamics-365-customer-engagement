@@ -5,6 +5,7 @@ ms.date: 03/15/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastconfiguration
@@ -29,7 +30,9 @@ If your organization has configured multiple forecasts, save your users time and
 
 ## To select a default forecast
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]]
 
 ## Select a forecast to be displayed by default
   

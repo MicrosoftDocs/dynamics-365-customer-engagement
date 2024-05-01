@@ -1,7 +1,7 @@
 ---
 title: "onmodechanged (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Learn about the onmodechanged event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
-ms.date: 02/14/2023
+ms.date: 04/23/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -14,7 +14,15 @@ ms.custom:
 
 # onmodechanged event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
-[!INCLUDE[token-onmodechanged](../../../../shared/token-onmodechanged.md)]
+The `onmodechanged` event is invoked when the panel mode is manually toggled between **Minimized (0)** and **Docked (1)**.
+
+## eventData
+
+The `onmodechanged` event takes the following eventData:
+
+| eventData | Example |
+|-----------|---------|
+| ```{"value": <number>}``` | ```{"value": 0"}``` |
 
 ### See also
 

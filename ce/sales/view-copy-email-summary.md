@@ -3,7 +3,7 @@ title: View and copy email summary
 description: View the summary of email through Copilot in Dynamics 365 Sales.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.date: 10/05/2023
 ms.custom: bap-template 

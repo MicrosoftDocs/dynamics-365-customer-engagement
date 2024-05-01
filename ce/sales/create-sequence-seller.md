@@ -5,6 +5,7 @@ ms.date: 08/17/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Create and connect sequences for yourself
