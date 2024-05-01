@@ -259,7 +259,7 @@ This integration supports the use of [Microsoft-managed](/dynamics365/fin-ops-co
 
 [Project Operations resource/non-stocked integration](/dynamics365/project-operations/environment/resource-dual-write-overview) doesn't allow the Field Service integration to work with the same legal entities that have are enabled for the resource/non-stocked integrated scenario. However, it can work in the same environments for other legal entities.
 
-Offline virtual tables are currently not supported, which is why it's critical to [set up the defaulting logic for locations](finance-operations-integration-setup.md#configure-inventory-and-warehouse-management-within-warehouses) so that transactions don't get blocked.
+Offline virtual tables are currently not supported, which is why it's critical to [set up the defaulting logic for locations](finance-operations-integration-setup.md#configure-inventory-and-warehouse-management-in-warehouses) so that transactions don't get blocked.
 
 The following processes or features available in the finance and operation apps aren't supported or aren't reflected in Field Service out-of-the-box for this integration:
 
