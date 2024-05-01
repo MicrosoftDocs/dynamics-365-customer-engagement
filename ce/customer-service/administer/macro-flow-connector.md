@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 04/08/2024
+ms.date: 05/01/2024
 ms.custom: bap-template 
 ---
 # Use flow connectors
@@ -52,11 +52,11 @@ You can use the built-in control condition to implement logic in macros. You can
 
 ### Example: Check if priority of the case is high 
  
-The following example is a macro that checks if the priority of the case is high. If true, the macro updates the **Escalated** field is set to **Yes**. If **False**, the macro updates the description of the case. 
+The following example is a macro that checks if the priority of the case is high. If true, the macro updates the **Escalated** field to **Yes**. If **False**, the macro updates the description of the case.
 
   :::image type="content" source="../media/built-in-mini.png" alt-text="Screenshot of case priority example." lightbox="../media/built-in.png":::
 
 ### Limitations with Run Flow macro 
  
 - The Run Flow macro doesn't return an output parameter as a dynamic value that can be used in the macro. 
-- You must login to the flow for every macro execution. 
+- You must login to the flow for every time a macro executes. 

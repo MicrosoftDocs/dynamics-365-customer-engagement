@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-Macros offer a log of executions that you can review and identify causes of failure. As an administrator, you can view the macro run history, which shows how many times a macro ran, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred.
+You can view the macro run history, which shows how many times a macro ran, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred, allowing you to identify why the failures occured.
 
 **View macro run history**
 
@@ -30,8 +30,8 @@ To view the run history for the macro that failed, follow these steps:
 1. On the Agent scripts page, select the required agent script.
 1. In the list of **Agent scripts steps**, open the required target **agent script step**. 
 1. In the Target macro, select the macro. 
-1. Select **View history**. Each record in the list represents a macro execution. 
-1. Open the macro execution that failed and identify the step that failed.  
+1. Select **View history**. Each record in the list represents a macro run. 
+1. Open the macro that failed and identify the step that failed.  
  
 In certain scenarios, a step fails because a previous step incorrectly set values or has missing values. Select a step from the macro history to review your macro actions, attribute names, and attribute values.
 
@@ -39,7 +39,7 @@ In certain scenarios, a step fails because a previous step incorrectly set value
 
 ### Review session context variables 
  
-You can review the macro execution history to validate if the session context variables are configured correctly in the macro design. You can also validate if the session context variable is correct and returning the expected value using the [Microsoft.Apm APIs](../develop/microsoft-apm.md). 
+You can review the macro run history to validate if the session context variables are configured correctly in the macro design. You can also validate if the session context variable is correct and returning the expected value using the [Microsoft.Apm APIs](../develop/microsoft-apm.md). 
  
 1. Open Customer Service workspace.
 2. Open a session that executes a macro. For example, open a case from the Home session. 

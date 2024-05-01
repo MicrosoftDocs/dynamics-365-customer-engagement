@@ -1,15 +1,10 @@
 ---
-<<<<<<< HEAD
-title: "Macros in the Customer Service workspace app | MicrosoftDocs"
-description: "This topic provides information about the different macros that can be made available to agents and how to configure them."
-=======
 title: Configure macros to improve agent productivity
 description: "This article provides information about the different macros that can be made available to agents and how to configure them in app profile manager."
->>>>>>> 03435e323ead16a1d45c3e815bdc09ca8af593cf
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 06/16/2023
+ms.date: 05/01/2024
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -61,7 +56,7 @@ You can use the following predefined automation actions to create macros:
 
 ## Pass session context variables to macros
 
-In a macro, you can pass dynamic values such as customer name or customer id as parameters during macro execution. The information is stored in the session context as a key-value pair. A session context variable is also known as a [slug](automation-dictionary-keys.md#slugs). 
+In a macro, you can pass dynamic values such as customer name or customer id as parameters when the macro executes. The information is stored in the session context as a key-value pair. A session context variable is also known as a [slug](automation-dictionary-keys.md#slugs). 
 
 When an agent opens a case, conversation, or another tab in the session, the session context is populated as follows:
  

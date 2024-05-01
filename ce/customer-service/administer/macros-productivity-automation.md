@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: 
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 04/08/2024
+ms.date: 05/01/2024
 ms.custom: bap-template 
 ---
 
@@ -248,7 +248,7 @@ Perform the following steps to create a macro that opens an email template of ca
 
 ## Search the knowledge base for the populated phrase
 
-Searches for knowledge articles based on the populated phrase. The action contains the following field.
+The macro searches for knowledge articles based on the populated phrase. The action contains the following field.
 
    | Field | Description | 
    |-----------------|-----------------------------|
