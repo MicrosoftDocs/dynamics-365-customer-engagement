@@ -25,14 +25,14 @@ This event is invoked by the client when a session is closed. This event provide
 
 ```JavaScript
 
-// Define a handler function that is triggered when a session is closed
+// Define a handler function that's triggered when a session is closed
 let sessionClosedHandlerFunction = function(eventInput) {
     // Log the ID of the closed session to the console
     console.log("Session closed: " + eventInput.data.sessionId);
 };
 // Retrieve the event topic specific to session closing from the API
 let sessionCloseTopic = Microsoft.Apm.getEventPublisherTopic("ON_SESSION_CLOSED");
-// Create a new broadcast channel for subscribing to the session close events
+// Create a new broadcast channel to subscribe to session close events
 let sessionCloseSubscriber = new BroadcastChannel(sessionCloseTopic);
 // Attach the session closed handler function to the message event of the subscriber
 sessionCloseSubscriber.onmessage = sessionClosedHandlerFunction;
@@ -40,7 +40,7 @@ sessionCloseSubscriber.onmessage = sessionClosedHandlerFunction;
 ```
 
 > [!NOTE]
-> The code sample utilizes the [Broadcast Channel API - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API), to communicate between different documents such as pages or iframes that are on the same origin. Make sure it is compatible with your customization as support for this API can vary.
+> The code sample utilizes the [Broadcast Channel API - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API), to communicate between different documents such as pages or iframes that are of the same origin. Make sure it is compatible with your customization as support for this API can vary.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

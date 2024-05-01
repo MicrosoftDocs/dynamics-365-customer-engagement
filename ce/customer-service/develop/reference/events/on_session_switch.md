@@ -16,14 +16,14 @@ This event is invoked by the client when a session is switched to another sessio
 | eventData            | Description  | 
 |------------------|----------|
 | previousSessionId           | The session ID of the previous session.  | 
-| newSessionId           | The ID of the session that is now focused.  | 
+| newSessionId           | The ID of the session that's now focused.  | 
 
 
 ## Example
 
 ```JavaScript
 
-// Define a handler function that is triggered when the session is switched
+// Define a handler function that's triggered when the session is switched
 let sessionSwitchedHandlerFunction = function(eventInput) {
     // Log the previous and new session IDs to the console
     console.log("Previous session:  " + eventInput.data.previousSessionId +
@@ -32,7 +32,7 @@ let sessionSwitchedHandlerFunction = function(eventInput) {
 }; 
 // Retrieve the event topic specific to session switching from the API
 let sessionSwitchTopic = Microsoft.Apm.getEventPublisherTopic("ON_SESSION_SWITCH");
-// Create a new broadcast channel for subscribing to the session switch events
+// Create a new broadcast channel to subscribe to session switch events
 let sessionSwitchSubscriber = new BroadcastChannel(sessionSwitchTopic);
 // Attach the session switched handler function to the message event of the subscriber
 sessionSwitchSubscriber.onmessage = sessionSwitchedHandlerFunction;
@@ -40,7 +40,7 @@ sessionSwitchSubscriber.onmessage = sessionSwitchedHandlerFunction;
 ```
 
 > [!NOTE]
-> The code sample utilizes the [Broadcast Channel API - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API), to communicate between different documents such as pages or iframes that are on the same origin. Make sure it is compatible with your customization as support for this API can vary.
+> The code sample utilizes the [Broadcast Channel API - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API), to communicate between different documents such as pages or iframes that are of the same origin. Make sure it is compatible with your customization as support for this API can vary.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
