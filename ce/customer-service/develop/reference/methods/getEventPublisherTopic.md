@@ -3,7 +3,7 @@ title:  getEventPublisherTopic (app profile manager)
 description: Learn about the  getEventPublisherTopic method of app profile manager in Customer Service workspace.
 author: gandhamm
 ms.author: mgandham
-ms.date: 04/29/2024
+ms.date: 05/01/2024
 ms.topic: reference
 ---
 
@@ -26,7 +26,7 @@ let topic = `Microsoft.Apm.getEventPublisherTopic(eventName);`
 
 ## Return value
 
-A string that represents the unique topic name for the specified event.
+A string that represents the unique topic name for the specified event in the current Customer Service workspace session.
 
 ## Example
 
@@ -34,7 +34,7 @@ A string that represents the unique topic name for the specified event.
 // Retrieving the event topic for the "ON_SESSION_CLOSED" event
 const sessionCloseTopic = Microsoft.Apm.getEventPublisherTopic("ON_SESSION_CLOSED");
 
-// Output example (this would appear in logs or console outputs when used)
+// Output example 
 console.log(sessionCloseTopic);
 ```
 
