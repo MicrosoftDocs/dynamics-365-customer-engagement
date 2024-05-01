@@ -59,7 +59,7 @@ The **Show related files** prompt lists the files that meet the following criter
 
 - The file must be of type Word, Excel, PowerPoint, or PDF.
 
-- The file must be related to a product or account. 
+- The file must be related to the product or account associated with the record, or any other keyword provided in the prompt.
 
     - For the records that have associated products, such as opportunity and quote, files related to the associated products are listed. If there are no product associations in the record or no product-related files in SharePoint, the files related to the account are listed.
 
