@@ -1,15 +1,15 @@
 ---
-title: Create a work order using the integration
-description: Create a work order in Dynamics 365 Field Service when using the finance and operations integration.
+title: Create a work order using the finance and operations integration
+description: Discover how to create a work order in Dynamics 365 Field Service when using the finance and operations integration.
 ms.date: 03/26/2024
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
 ---
 
-# Create a work order using the integration
+# Create a work order using the finance and operations integration
 
-Once the [finance and operations integration is setup](finance-operations-integration-setup.md), Field Service automatically requires fields related to finance and operations when creating a work order.
+Once the [finance and operations integration is setup](finance-operations-integration-setup.md), Field Service automatically prompts the entry of specific fields related to finance and operations when creating a work order.
 
 ## Create a work order
 
@@ -31,7 +31,7 @@ Once the [finance and operations integration is setup](finance-operations-integr
 
 1. Select **Save**. The system creates a corresponding subproject under the selected finance and operations project. This subproject is the record against which all transactional journals are created.
 
-When products or services are added, journals and journal lines on the subproject for the work order are automatically created.
+    When products or services are added, journals and journal lines on the subproject for the work order are automatically created.
 
 ## See also
 

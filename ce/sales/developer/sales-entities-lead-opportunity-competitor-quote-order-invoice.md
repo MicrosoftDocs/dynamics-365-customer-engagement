@@ -10,13 +10,14 @@ ms.author: udag
 ms.reviewer: udag
 search.audienceType: 
   - developer
-
 ---
 # Sales tables (lead, opportunity, competitor, quote, order, and invoice)
 
 You use the entities described in this section to manage various phases of a sales process. They include tracking leads, opportunities, competitors, and managing quotes, orders, products, and sales goals.  
-  
-## In This Section  
+
+
+## In This Section
+
  [Competitor table](competitor-entity.md)  
   
  [Lead table](lead-entity.md)  

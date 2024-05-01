@@ -46,7 +46,9 @@ For example, your organization has sales teams in the United States, Canada, and
 
 ## Set Kanban as the default view for underlying records (preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 The underlying records of a forecast can be displayed in a table view or a Kanban (swimlane) view. Table view is the default. To change it, turn on **Set kanban as default**.
 

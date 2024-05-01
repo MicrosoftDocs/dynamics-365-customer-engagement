@@ -54,7 +54,9 @@ The **Overview** tab displays the names of the people who participated in a conv
 
 ##### View categorization tag for short duration calls (Preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Conversation intelligence can detect and tag short duration calls for the following categories:
 
