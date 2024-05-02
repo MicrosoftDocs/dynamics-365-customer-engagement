@@ -1,7 +1,7 @@
 ---
 title: Close conversations automatically
 description: Use this article to understand how to configure the auto-close duration of conversations.
-ms.date: 02/05/2024
+ms.date: 05/02/2024
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -18,7 +18,7 @@ The Omnichannel for Customer Service scheduler checks conversations every 5 minu
 > [!IMPORTANT]
 > - The scheduler checks the [modifiedon](../develop/reference/entities/msdyn_ocliveworkitem.md#BKMK_msdyn_modifiedon) field in msdyn_ocliveworkitem table to identity the conversations that are eligible for automatic closure.
 > - To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
-> - For any actions performed on the conversations such as monitor, consult, or transfer, the scheduler will automatically recalculate the time to close the conversation.
+> - For any actions performed on the conversations such as monitor, consult, or transfer, the scheduler automatically recalculates the time to close the conversation.
 
 
 ### Default time for automatic closure of conversations
