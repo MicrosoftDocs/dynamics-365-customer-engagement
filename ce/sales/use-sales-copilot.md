@@ -1,7 +1,7 @@
 ---
-title: Use Copilot in Dynamics 365 Sales apps
+title: Use Copilot in Dynamics 365 Sales
 description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, and enrich your leads with data from different sources.
-ms.date: 04/26/2024
+ms.date: 05/02/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -19,7 +19,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Use Copilot in Dynamics 365 Sales apps
+# Use Copilot in Dynamics 365 Sales
 
 Copilot is an AI assistant that helps you be more productive and efficient in your daily work in Dynamics 365 Sales apps. Copilot can summarize information about your leads and opportunities, help you catch up on recent changes to your records, prepare for meetings, and enrich your leads with information from other sources.
 
