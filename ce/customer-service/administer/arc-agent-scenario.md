@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/30/2024
+ms.date: 05/02/2024
 ms.custom: bap-template
 ---
 
@@ -58,7 +58,7 @@ When an agent forwards an email to another mailbox 4, from the Case 1 timeline, 
 
 Agents can also initiate a new email from the case timeline (by selecting the + button on the timeline). When an agent sends a new email to a customer from the case timeline, the **Related** attribute of the email is set to the case only if the administrator has enabled the "OrgDBOrg" setting "AddParentEntityToRelatedOnNewActivityCreate".  
 
-For steps on how to enable the setting, go to [How to change default environment database settings](/power-platform/admin/environment-database-settings). This is applicable to only those scenarios where an agent adds a new email from the case timeline. It doesn’t apply to scenarios where an agent selects reply or reply all to an existing email from the case timeline.  
+For steps on how to enable the setting, go to [OrgDBOrgSettings tool for Microsoft Dynamics CRM](https://support.microsoft.com/en-us/topic/orgdborgsettings-tool-for-microsoft-dynamics-crm-20a10f46-2a24-a156-7144-365d49b842ba). This is applicable to only those scenarios where an agent adds a new email from the case timeline. It doesn’t apply to scenarios where an agent selects reply or reply all to an existing email from the case timeline.  
 
 ## Other scenarios
 
