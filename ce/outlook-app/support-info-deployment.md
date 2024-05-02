@@ -85,7 +85,7 @@ To learn more on Azure datacenters, see the [Azure documentation](/azure/?produc
 > [!Note]
 > The following list may change over time.
 
-| **Region** | **URL**                  |
+| Region     | URL                      |
 |------------|--------------------------|
 | NAM        | crm.dynamics.com         |
 | DEU        | crm.microsoftdynamics.de |
