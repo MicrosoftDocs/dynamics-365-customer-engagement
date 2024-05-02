@@ -16,7 +16,7 @@ Omnichannel for Customer Service has a default time set for the conversation to 
 The Omnichannel for Customer Service scheduler checks conversations every 5 minutes to identify conversations that don't transition for more than the default configured time. Such conversations become eligible for automatic closure, so the next time the scheduler runs, the conversations are moved from the existing state to the **Closed** state.
 
 > [!IMPORTANT]
-> - The scheduler checks the [modifiedon](../develop/reference/entities/msdyn_ocliveworkitem.md#modifiedon) field in msdyn_ocliveworkitem table to identity the conversations that are eligible for automatic closure.
+> - The scheduler checks the [modifiedon](../develop/reference/entities/msdyn_ocliveworkitem.md#BKMK_msdyn_modifiedon) field in msdyn_ocliveworkitem table to identity the conversations that are eligible for automatic closure.
 > - To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
 > - For any actions performed on the conversations such as monitor, consult, or transfer, the scheduler will automatically recalculate the time to close the conversation.
 
