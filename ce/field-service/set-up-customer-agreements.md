@@ -1,8 +1,8 @@
 ---
 title: "Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about customer agreements and how to set them up in Dynamics 365 Field Service
-ms.date: 10/07/2022
-ms.topic: article
+ms.date: 05/02/2024
+ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
 ---
@@ -19,12 +19,12 @@ Here are a few different ways agreements can be configured and used. The agreeme
 - Multiple work orders each year to inspect multiple assets at a customer location.
 - Quarterly invoices to bill customers for predefined products and services.
 
-To use agreements, you'll need to:  
+To use agreements, perform the following steps:  
 
 1. Create the **Agreement**. Define high-level details such as the customer, date range, and price list.
-2. Create an **Agreement Booking Setup** where you'll define how often work orders should be created for the agreement, along with basic details of the eventual work orders like **Work Order Type**.
-3. Add **Agreement Incidents**, **Products**, **Services**, and **Service Tasks** that define the specific details of the work to be performed as part of each work order that is generated.
-4. **Activate** the agreement and **Agreement Booking Dates** will be created along with work orders as the dates approach.
+1. Create an **Agreement Booking Setup** where you'll define how often work orders should be created for the agreement, along with basic details of the eventual work orders like **Work Order Type**.
+1. Add **Agreement Incidents**, **Products**, **Services**, and **Service Tasks** that define the specific details of the work to be performed as part of each work order that is generated.
+1. **Activate** the agreement and **Agreement Booking Dates** will be created along with work orders as the dates approach.
 
 Let's walk through two scenarios to show how agreements can create work orders and invoices.
 
@@ -40,24 +40,24 @@ Let's walk through two scenarios to show how agreements can create work orders a
 
 An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next two years. They want to use Dynamics 365 Field Service to automatically generate the maintenance jobs in the middle of each month, with *some* flexibility. They want dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work at an agreed upon price.
 
-We'll use agreements - along with customer assets, incident types, and price lists - to configure this scenario.
+To configure this scenario, use agreements, customer assets, incident types, and price lists.
 
 ### Step 1: Create an agreement
 
 From the main menu, go to **Field Services** > **Agreements** > **+New**.  
 
-Fill in your information. Use the handy tooltips as a guide.  
+Fill in your information. Use the tooltips as a guide.  
 
 - **Service Account & Billing Account**: The service account defines where the agreement work orders will take place, while the billing account defines who the invoice should be sent to. For more information, go to [Create and manage accounts](accounts.md).
 
-- **System Status**: Defines if the agreement is currently being executed. Set to **Estimate** while building a new agreement and adding details. We'll set to **Active** later when we're ready to begin performing work orders and sending invoices.
-
-- **Start & End dates**: Defines the duration of the agreement.
+- **System Status**: Defines if the agreement is currently being executed. Set to **Estimate** while building a new agreement and adding details. You'll set to **Active** later when you're ready to begin performing work orders and sending invoices.
   
 - **Price list**: Specifies the price of all products and services related to an agreement and controls the price list populated on work orders and invoices generated from this agreement. Add all products and services that will be used during the agreement to the agreement price list. Agreements usually contain a negotiated price for goods and services that are reflected in an entirely new price list. The price list on resulting work orders and invoices can be manually updated as needed.
 
+- **Start & End dates**: Defines the duration of the agreement.
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an agreement showing all the fields.](./media/agreement-create.png)
+> ![Screenshot of an agreement showing all the fields.](./media/agreement-create.svg)
 
 In the **Other** tab, you can enter more details such as the **Service Territory** resulting work orders should be part of, and **Record Generation Time**, which dictates the time of day work orders, invoices, and other records related to this agreement should be generated. This definition is important because some organizations don't want agreements creating work orders in the middle of the working day. If no value is set, it defaults to the value in Field Service **Settings**.
 
