@@ -2,8 +2,8 @@
 title: "System requirements, limits, and configuration values for Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
 description: System requirements, limits, and configuration values for Dynamics 365 App for Outlook.
-ms.date: 11/02/2022
-ms.reviewer: jimholtz
+ms.date: 05/02/2024
+ms.reviewer: sericks
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started
@@ -14,6 +14,8 @@ ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
+ms.contributors:
+- nimagen
 ---
 
 
@@ -72,6 +74,39 @@ This topic contains requirements, limits, and configuration values for Dynamics 
 |French - 1036|Malaysian - 1086|Turkish - 1055|  
 |German - 1031|Norwegian - 1044|Ukrainian - 1058|  
 |Greek - 1032|Polish - 1045|Vietnamese - 1066|  
+
+
+## Supported geographies and datacenters 
+
+Currently, the application is available in the following list of datacenters.
+
+To learn more on Azure datacenters, see the [Azure documentation](/azure/?product=databases).
+
+> [!Note]
+> The following list may change over time.
+
+| **Region** | **URL**                  |
+|------------|--------------------------|
+| NAM        | crm.dynamics.com         |
+| DEU        | crm.microsoftdynamics.de |
+| SAM        | crm2.dynamics.com        |
+| CAN        | crm3.dynamics.com        |
+| EUR        | crm4.dynamics.com        |
+| APJ        | crm5.dynamics.com        |
+| OCE        | crm6.dynamics.com        |
+| JPN        | crm7.dynamics.com        |
+| IND        | crm8.dynamics.com        |
+| GCC        | crm9.dynamics.com        |
+| GCC High   | crm.microsoftdynamics.us |
+| GBR        | crm11.dynamics.com       |
+| FRA        | crm12.dynamics.com       |
+| ZAF        | crm14.dynamics.com       |
+| UAE        | crm15.dynamics.com       |
+| GER        | crm16.dynamics.com       |
+| CHE        | crm17.dynamics.com       |
+| CHN        | crm.dynamics.cn          |
+| NOR        | crm19.dynamics.com       |
+| SGP        | crm20.dynamics.com       |
 
 ## Synchronization and tracking 
 
