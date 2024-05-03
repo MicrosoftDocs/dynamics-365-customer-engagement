@@ -20,7 +20,7 @@ This article summarizes public preview features, general availability enhancemen
 
 This release includes the following new features:
 
-- In Outlook, [shared mailboxes](https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd) are supported.
+- In Outlook, [shared mailboxes](https://support.microsoft.com/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd) are supported.
 - In Microsoft Teams, frontline managers and workers can [share links to work orders](flw-teams-worker.md#share-work-order-information) that automatically expand providing key details.
 
 ## April 22, 2024
