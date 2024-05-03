@@ -16,7 +16,7 @@ Set up the integration between Dynamics 365 Field Service and finance and operat
 - You have system administrator permissions.
 - Finance and operations applications have build version 10.0.39 (10.0.1860.56) and platform update 63 or later.
 - [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm) is installed.
-- Dynamics 365 Field Service version number is 8.8.116 or later.
+- Dynamics 365 Field Service version number is 8.8.114.26 or later.
 
 ## Enable the integration from finance and operations applications
 
