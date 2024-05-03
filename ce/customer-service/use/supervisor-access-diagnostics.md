@@ -1,7 +1,7 @@
 ---
-title: Access diagnostics for unified routing | MicrosoftDocs
+title: Access diagnostics for unified routing
 description: Learn how supervisors can access diagnostics for unified routing.
-ms.date: 10/07/2021
+ms.date: 05/03/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,8 @@ ms.custom:
 
 # Access diagnostics for unified routing
 
-## Introduction
+> [!IMPORTANT]
+> The [diagnostics](../implement/deprecations-customer-service.md) feature is deprecated as on May 03, 2024, and will be removed by July 01, 2024.
 
 Supervisors can access the routing diagnostics for records and conversations that are handled through unified routing.
 
