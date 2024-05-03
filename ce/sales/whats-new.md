@@ -15,6 +15,11 @@ Wondering about upcoming and recently released capabilities in Dynamics 365 Sale
 
 This article summarizes early access, public preview, and general availability features that were released in the last three months. The monthly release sections contain only those features that were deployed in all regions in that month. For example, if your Dynamics 365 org is in Canada, you'll receive the feature updates a few weeks earlier than the orgs in North America but the monthly release section will list that feature only after it's deployed in North America. For more information about the release schedule, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales#latest-version-availability).  
 
+## April 2024 release
+
+| Feature area | Feature | Description | Resources | Turned on | Availability |
+|---|---|---|---|---|---|
+| Copilot | Get content recommendations from SharePoint  | Ask Copilot to get you the list of SharePoint documents related to products in an opportunity. | [Documentation](copilot-get-doc-suggestions.md#copilot-content-recommendation) | By Admin | Public preview |
 
 ## March 2024 release
 
@@ -24,7 +29,7 @@ No new features or enhancements were released in March 2024. We'll be back with 
 
 | Feature area | Feature | Description | Resources | Turned on | Availability |
 |---|---|---|---|---|---|
-| Copilot | Get content recommendations from SharePoint  | Ask Copilot to get you the list of SharePoint documents related to products in an opportunity. | [Documentation](copilot-get-doc-suggestions.md#copilot-content-recommendation) | By Admin | Public preview |
+| Copilot | Immersive experience for Copilot | View Copilot in a full screen, immersive view, in addition to the side pane. | [Documentation](use-sales-copilot.md#open-copilot-in-full-screen-view-preview) | By Admin | Public preview |
 | Forecasting | Out-of-the-box forecasting | Explore forecasting with zero configuration using the out-of-the-box forecasting | [Documentation](view-forecasts.md#out-of-the-box-forecast-preview) | For all users | Public preview |
 | Seller experience | New look with refreshed styling | Experience the new look by default as it’ll be auto-enabled. | None | For all users | Early access |
 | Opportunity management | Pre-populate values in the Opportunity Close form | Close opportunities effortlessly by prepopulating attributes from the corresponding opportunity | [Documentation](customize-opportunity-close-experience.md#step-4-pre-populate-values-in-the-opportunity-close-form-from-the-corresponding-opportunity) | By admins | GA |
@@ -34,12 +39,6 @@ No new features or enhancements were released in March 2024. We'll be back with 
 | Sales app settings | Admin settings overview page enhancements | The admin settings now features an overview page with new enhancements including notifications and a search function to improve navigation efficiency. |  [Documentation](admin-settings-overview.md?tabs=SE#sales-app-settings) | By admins | GA |
 | Focused view | Set focused view as default for all entities | The focused view option is moved under to the **Show As** menu on the command bar. Also, the application now remembers the user's choice of working in focused view for the configured entities, making it their default view upon the next sign-in. | [Documentation](configure-focused-view.md) | By admin | Early access |
 | Focused view | Focused view is available as default for lead entity | The key capabilities that users access in the grid layout are now brought into focused view, with the option to set the focused view as default for the lead entity. |  [Documentation](set-focused-view-as-default.md) | By admin | Early access |
-
-## January 2024 release
-
-| Feature area | Feature | Description | Resources | Turned on by | Availability |
-|---|---|---|---|---|---|
-| Copilot | Customize fields for summary and recent changes list | You can configure up to 10 fields for generating summary and recent changes list. | [Documentation](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list) | Admin | GA |
 
 
 ## Get the latest version
