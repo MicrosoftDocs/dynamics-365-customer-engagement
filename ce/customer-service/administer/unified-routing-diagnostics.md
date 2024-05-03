@@ -17,7 +17,7 @@ ms.custom:
 
 # View diagnostics for unified routing
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > The [diagnostics](../implement/deprecations-customer-service.md) feature is deprecated as on May 03, 2024, and will be removed by July 01, 2024.
 
 Unified routing helps you assign a work item to the best suited agent or queue to handle it, based on the agent skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and diagnose issues that occur in the classification and assignment of work items.
