@@ -19,20 +19,32 @@ For information about older versions, see [Version history archive](version-hist
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.114.26](/dynamics365/field-service/version-history#8811426)  | TBD |05/17/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.113.28](/dynamics365/field-service/version-history#8811328)  |  [8.8.114.26](/dynamics365/field-service/version-history#8811426) | 05/03/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.113.28](/dynamics365/field-service/version-history#8811328)  |  [8.8.114.26](/dynamics365/field-service/version-history#8811426) | 05/10/2024 |
-| | *USG* | [8.8.113.28](/dynamics365/field-service/version-history#8811328)  |  [8.8.114.26](/dynamics365/field-service/version-history#8811426) | 05/03/2024 |
-|**Station 4** |*Europe* | [8.8.112.24](/dynamics365/field-service/version-history#8811224)  |  [8.8.113.28](/dynamics365/field-service/version-history#8811328) | 05/03/2024 |
-|**Station 5** | *North America*|  [8.8.112.28](/dynamics365/field-service/version-history#8811228)  |  [8.8.113.28](/dynamics365/field-service/version-history#8811328) | 05/10/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.112.28](/dynamics365/field-service/version-history#8811228)  |  [8.8.113.28](/dynamics365/field-service/version-history#8811328) | 05/10/2024 |
-| | *Dedicated Scale Groups* |   [8.8.112.28](/dynamics365/field-service/version-history#8811228)  |  [8.8.113.28](/dynamics365/field-service/version-history#8811328) | 05/17/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.114.29](/dynamics365/field-service/version-history#8811429)  | TBD  | 05/24/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.113.28](/dynamics365/field-service/version-history#8811328)  | [8.8.114.29](/dynamics365/field-service/version-history#8811429) | 05/10/2024 |
+| | *USG* | [8.8.114.29](/dynamics365/field-service/version-history#8811429)  | TBD  | 05/24/2024 |
+|**Station 4** |*Europe* | [8.8.113.29](/dynamics365/field-service/version-history#8811329)  |  [8.8.114.29](/dynamics365/field-service/version-history#8811429) | 05/17/2024 |
+|**Station 5** | *North America*|  [8.8.112.28](/dynamics365/field-service/version-history#8811228)  |  [8.8.113.29](/dynamics365/field-service/version-history#8811329) | 05/10/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.112.28](/dynamics365/field-service/version-history#8811228)  |  [8.8.113.29](/dynamics365/field-service/version-history#8811329) | 05/10/2024 |
+| | *Dedicated Scale Groups* |   [8.8.112.28](/dynamics365/field-service/version-history#8811228)  |  [8.8.113.29](/dynamics365/field-service/version-history#8811329) | 05/17/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.114.29
+
+This release is a hotfix on Field Service version [8.8.114.24](/dynamics365/field-service/version-history#8811424)
+
 ## 8.8.114.24
 (Includes Universal Resource Scheduling version [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311) and Resource Scheduling controls version 1.2.70.241042).
+
+- The “Use of Products Out of Stock” setting in Field Service Settings will no longer have its value cleared when toggling the “Finance and Operations Integration” toggle.
+- Fixed a regression in 4.1 release: Tax exempt and Sales Tax Code fields on Account will be hidden again with the ‘Calculate Tax’ setting disabled.
+- Inspections: Fixed a bug that caused some images to be corrupt when exporting inspection responses to PDF.
+
+## 8.8.113.29
+
+This release is a hotfix on Field Service version [8.8.113.28](/dynamics365/field-service/version-history#8811328)
 
 ## 8.8.113.28
 
