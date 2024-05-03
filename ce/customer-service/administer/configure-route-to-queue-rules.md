@@ -134,11 +134,9 @@ You can configure routing rule conditions for the social channels, such as Faceb
 
 - **SMS**: Use the **SMS Engagement Context** entity to set conditions on the following attributes:  
 
-  - Customer phone number
-  - Org phone number
-  - Locale
-  - Provider
-  - Provider display name
+  - Customer Phone Number
+  - Organization Phone Number
+  - SMS Provider
 
 ### See also
 
