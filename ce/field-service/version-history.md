@@ -38,9 +38,9 @@ This release is a hotfix on Field Service version [8.8.114.24](/dynamics365/fiel
 ## 8.8.114.24
 (Includes Universal Resource Scheduling version [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311) and Resource Scheduling controls version 1.2.70.241042).
 
-- The “Use of Products Out of Stock” setting in Field Service Settings will no longer have its value cleared when toggling the “Finance and Operations Integration” toggle.
-- Fixed a regression in 4.1 release: Tax exempt and Sales Tax Code fields on Account will be hidden again with the ‘Calculate Tax’ setting disabled.
-- Inspections: Fixed a bug that caused some images to be corrupt when exporting inspection responses to PDF.
+- The Use of Products Out of Stock setting in Field Service Settings keeps its value when enabling or disabling the Finance and Operations Integration setting.
+- Tax Exempt and Sales Tax Code fields on Account will be hidden when disabling the Calculate Tax setting.
+- Fixed a bug that caused some images to be corrupted when exporting inspection responses to PDF.
 
 ## 8.8.113.29
 
