@@ -1,15 +1,15 @@
 ---
-title: 
-description:
-ms.date: 04/30/2024
+title: Extend Universal Resource Scheduling to filter bookable resources by territory hierarchy
+description: Update queries in the schedule board and schedule assistant configuration to use territory hierarchies.
+ms.date: 05/06/2024
 searchScope: 
   - Field Service
   - Project Service
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: conceptual
-author: mkelleher-msft
-ms.author: mkelleher
+author: ryanchen8
+ms.author: chenryan
 ---
 
 # Extend Universal Resource Scheduling to filter bookable resources by territory hierarchy
@@ -34,165 +34,77 @@ By default, the territory field lets you choose multiple territory values. To co
 
 1. Change the territory field configuration to disallow multiple values:
 
-   `<control type="combo" source="entity" key="Territories" unspecified-key="UnspecifiedTerritory" label-id="ScheduleAssistant.West.Territories" entity="territory" multi="false"  />`
+  `<control type="combo" source="entity" key="Territories" unspecified-key="UnspecifiedTerritory" label-id="ScheduleAssistant.West.Territories" entity="territory" multi="false"  />`
 
 1. Change the filter layout to use the one you just created and save your changes.
 
-### Update Retrieve resources queries
-<!--continue here-->
-In order to to get the territorries in the hierachy and to consider resources from Parent or child territories we need to modifiy the query 
+### Update retrieve resources queries
 
-To not lose the default configuration copy the previous retrieve resource query and create a new query for the retrieve resources 
+To get the territory hierarchy and to consider resources from parent or child territories, modify the Retrieve Resources Query.
 
-Update the new query: 
+1. [Open the schedule board settings](../schedule-board-tab-settings.md#board-settings) and go to the **Other** section.
 
-OOB: 
+1. In the **Retrieve resources query** section, create a new query and name it.
 
- 
+1. Insert the following code snipped in the new query definition:
 
-        <!-- Territory join --> 
+      ```XML
+      
+      <!-- Territory join --> 
 
-        <link-entity ufx:if="$input/Territories/bag | $input/UnspecifiedTerritory[. = 'true']" name="msdyn_resourceterritory" from="msdyn_resource" to="bookableresourceid" alias="territory" link-type="outer"> 
+      <link-entity  name="msdyn_resourceterritory" from="msdyn_resource" to="bookableresourceid"  link-type="outer"> 
 
-          <filter> 
+      <link-entity ufx:if="$input/Territories" name="territory" alias="territory" link-type="inner" to="msdyn_territory" from="territoryid"> 
 
-            <condition attribute="statecode" operator="eq" value="0" /> 
+      <!-- Get the territory name --> 
 
-            <condition attribute="msdyn_territory" operator="not-null" /> 
+      <attribute name="name" alias="territoryname" groupby="true" /> 
 
-          </filter> 
+      <filter> 
 
-        </link-entity> 
+          <condition attribute="territoryid" operator="not-null" /> 
 
-        <!-- Territory filter --> 
+      </filter> 
 
-        <filter type="or"> 
+      </link-entity> 
 
-          <condition ufx:if="$input/UnspecifiedTerritory[. = 'true']" entityname="territory" attribute="msdyn_territory" operator="null" /> 
+      </link-entity> 
 
-          <condition ufx:if="$input/Territories/bag" entityname="territory" attribute="msdyn_territory" operator="in"> 
+      <!-- Territory filter --> 
 
-            <ufx:apply select="$input/Territories/bag"> 
+      <filter type="or" ufx:if="$input/Territories"> 
 
-              <value> 
+          <condition ufx:if="$input/UnspecifiedTerritory[. = 'true']" entityname="territory" attribute="territoryid" operator="null" /> 
 
-                <ufx:value select="@ufx-id" /> 
+          <condition  entityname="territory" attribute="territoryid" operator="eq-or-under"> 
 
-              </value> 
-
-            </ufx:apply> 
+              <ufx:value select="$input/Territories" attribute="value" /> 
 
           </condition> 
 
-        </filter> 
+      </filter>
+      ```
 
- 
+   Change the directions of the hierarchy relationship by using `eq-or-under` or `eq-or-above` operator in the `<condition  entityname="territory" attribute="territoryid" operator="eq-or-under">` element. It defines if the query looks for resources from parent to child on the other way around.
 
- 
+1. Change the retrieve resources query to use the one you just created and save your changes.
 
-Modified: 
-
- 
-
-        <!-- Territory join --> 
-
-        <link-entity  name="msdyn_resourceterritory" from="msdyn_resource" to="bookableresourceid"  link-type="outer"> 
-
-        <link-entity ufx:if="$input/Territories" name="territory" alias="territory" link-type="inner" to="msdyn_territory" from="territoryid"> 
-
-        <!-- Get the territory name --> 
-
-        <attribute name="name" alias="territoryname" groupby="true" /> 
-
-        <filter> 
-
-           <condition attribute="territoryid" operator="not-null" /> 
-
-        </filter> 
-
-        </link-entity> 
-
-        </link-entity> 
-
-        <!-- Territory filter --> 
-
-        <filter type="or" ufx:if="$input/Territories"> 
-
-            <condition ufx:if="$input/UnspecifiedTerritory[. = 'true']" entityname="territory" attribute="territoryid" operator="null" /> 
-
-            <condition  entityname="territory" attribute="territoryid" operator="eq-or-under"> 
-
-                <ufx:value select="$input/Territories" attribute="value" /> 
-
-            </condition> 
-
-        </filter> 
-
- 
-
-The hierarchy relationship direction can be change choosing between “eq-or-under” or “eq-or-above” on <condition  entityname="territory" attribute="territoryid" operator="eq-or-under">. This way we will set the hierarch behavior from looking for resources from parent to child on the other way around. 
-
-Make sure that the the new query is the one slected in Filter layout and select save 
-
- 
-
- 
-
- 
-
-Extend Schedule Assistant to filter by territory considering hierarchy.  
+## Extend the schedule assistant to filter by territory considering hierarchy 
 
 Using Schedule assistant we can retrieve the service territory from the requirement, so for schedule assistant we also must modify “Schedule assistant retrieve constraints query” as responsible to define resource filtering based on the requirement. 
 
 [Note: Schedule Assistant configuration is only available on default configuration and not on custom tabs / views. This means that territory filtering will only be available when book button is used as only in this scenario, the default configuration will be used.} 
 
- 
+1. [Open the schedule board settings](../schedule-board-tab-settings.md#board-settings) and go to the **Schedule types** > **Work orders**.
 
-On Board settings: “<<tab/view name>>” Select Schedule types to expand and slect Work Order 
+1. Select **Edit defaults** to update the schedule assistant configuration. You can reuse the previously created configuration or create new ones in the **Schedule assistant filter layout** and **Schedule assistant retrieve resources query**.  
 
-Select Edit defaults to make Schedule assistant configuration visible. 
+1. Change the territories element from `<Territories ufx:select="lookup-to-list(Requirement/msdyn_territory)" />` to `<Territories ufx:select="Requirement/msdyn_territory"/>`.
 
-A screenshot of a computer
+1. Make sure that the updated query is selected and save your changes.
 
-Description automatically generated 
+## See also
 
-It is possible to reuse the previously created configuration and query selecting those on Schedule Assistant filter layout and Schedule assistant retrieve resources query.  
-
-To not lose the default configuration, copy the previous Schedule assistant retrieve constraints query and create a new query for the Schedule assistant retrieve constraints 
-
-OOB: 
-
- 
-<Territories ufx:select="lookup-to-list(Requirement/msdyn_territory)" /> 
-
- 
-
-Modified: 
-
- 
-
-   <Territories ufx:select="Requirement/msdyn_territory"/> 
-
- 
-
-This change allows us to continue to retrieve the territory from the requirement after we change from multi / list to single entry 
-
-Make sure that the the new query is the one slected in Filter layout and select save 
-
- 
-
- 
-
- 
-
-Related resources 
-
-You can use the following resources to learn more about Territories and extend Universal Resource Scheduling 
-
-Configure Parent territory: Set up Sales territories | Microsoft Learn 
-
-Extend Universal Resource Scheduling with Universal FetchXML Universal FetchXML to extend Universal Resource Scheduling | Microsoft Learn 
-
-Customize the schedule board with a custom resource attribute Customize the schedule board with a custom resource attribute - Dynamics 365 Field Service | Microsoft Learn 
-
- 
+- [Territories for accounts, work orders, and resources](../../field-service/set-up-territories.md)
+- [Customize the schedule board with a custom resource attribute](../../field-service/extend-schedule-board-custom-resource-attribute.md)
+- [Extend Universal Resource Scheduling with Universal FetchXML](universal-fetchxml.md)
