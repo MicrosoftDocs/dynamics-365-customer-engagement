@@ -36,7 +36,7 @@ By default, the territory field lets you choose multiple territory values. To co
 
   `<control type="combo" source="entity" key="Territories" unspecified-key="UnspecifiedTerritory" label-id="ScheduleAssistant.West.Territories" entity="territory" multi="false"  />`
 
-1. Change the filter layout to use the one you just created and save your changes.
+1. Change the filter layout to use the one you created and save your changes.
 
 ### Update retrieve resources queries
 
@@ -87,24 +87,22 @@ To get the territory hierarchy and to consider resources from parent or child te
 
    Change the directions of the hierarchy relationship by using `eq-or-under` or `eq-or-above` operator in the `<condition  entityname="territory" attribute="territoryid" operator="eq-or-under">` element. It defines if the query looks for resources from parent to child on the other way around.
 
-1. Change the retrieve resources query to use the one you just created and save your changes.
+1. Change the **Retrieve resources query** to use the one you created and save your changes.
 
-## Extend the schedule assistant to filter by territory considering hierarchy 
+## Extend the schedule assistant to filter by territory considering hierarchy
 
-Using Schedule assistant we can retrieve the service territory from the requirement, so for schedule assistant we also must modify “Schedule assistant retrieve constraints query” as responsible to define resource filtering based on the requirement. 
-
-[Note: Schedule Assistant configuration is only available on default configuration and not on custom tabs / views. This means that territory filtering will only be available when book button is used as only in this scenario, the default configuration will be used.} 
+The schedule assistant retrieves the service territory from the requirement. The configuration for the schedule assistant doesn't work on custom tabs or views. 
 
 1. [Open the schedule board settings](../schedule-board-tab-settings.md#board-settings) and go to the **Schedule types** > **Work orders**.
 
 1. Select **Edit defaults** to update the schedule assistant configuration. You can reuse the previously created configuration or create new ones in the **Schedule assistant filter layout** and **Schedule assistant retrieve resources query**.  
 
-1. Change the territories element from `<Territories ufx:select="lookup-to-list(Requirement/msdyn_territory)" />` to `<Territories ufx:select="Requirement/msdyn_territory"/>`.
+1. In the **Schedule assistant retrieve constraints query** section, change the territories element from `<Territories ufx:select="lookup-to-list(Requirement/msdyn_territory)" />` to `<Territories ufx:select="Requirement/msdyn_territory"/>`.
 
 1. Make sure that the updated query is selected and save your changes.
 
 ## See also
 
-- [Territories for accounts, work orders, and resources](../../field-service/set-up-territories.md)
+- [Create territories for accounts, work orders, and resources](../../field-service/set-up-territories.md)
 - [Customize the schedule board with a custom resource attribute](../../field-service/extend-schedule-board-custom-resource-attribute.md)
 - [Extend Universal Resource Scheduling with Universal FetchXML](universal-fetchxml.md)
