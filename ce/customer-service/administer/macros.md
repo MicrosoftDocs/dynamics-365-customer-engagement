@@ -110,8 +110,6 @@ When an agent opens a case, conversation, or another tab in the session, the ses
 [Use omnichannel connector to create macros](macros-omnichannel-action.md)    
 [Flow connector](macro-flow-connector.md)  
     
-
-
 ### See also
 
 [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md)  

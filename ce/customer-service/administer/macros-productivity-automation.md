@@ -86,7 +86,7 @@ Perform the following steps to create a macro to open a case from a conversation
 Opens an existing record form. The action contains the following fields.
 
    | Field | Description | 
-   |-----------------|-----------------------------|--------------------------|
+   |-----------------|-----------------------------|
    | Entity logical name |  Specify the logical name of the entity that you want to open.| 
    | Entity record ID| Specify the entity record ID. | 
    | Entity form ID | Specify the form ID. |
@@ -109,7 +109,7 @@ Updates form fields. The macro action doesn't automatically save new values in D
 
 
    | Field | Description | 
-   |-----------------|-----------------------------|--------------------------|
+   |-----------------|-----------------------------|
    | Entity logical name | Specify the logical name of the entity that you want to update. | 
 
 > [!NOTE]
@@ -176,7 +176,7 @@ Perform the following steps to create a macro that opens the task form and creat
 Use the action to resolve a case. The action contains the following fields.
 
    | Field | Description | 
-   |-----------------|-----------------------------|--------------------------|
+   |-----------------|-----------------------------|
    | Billable time |  Specify the time that is billable. <br> This is a mandatory field. | 
    | Incident ID| Specify the ID of the case that you want to close. <br>This is a mandatory field.| 
    | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | 
