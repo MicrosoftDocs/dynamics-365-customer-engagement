@@ -1,7 +1,7 @@
 ---
 title: Manage work orders with Field Service in Teams (frontline managers)
 description: Learn how service managers and dispatchers can use the Dynamics 365 Field Service Teams app to create, view, update, and schedule work orders in Teams.
-ms.date: 04/18/2024
+ms.date: 05/06/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -128,7 +128,15 @@ While you're viewing a work order, you can also:
 
 ## Add attachments to the work order
 
-Add installation manuals, maintenance documents, specifications, or troubleshooting tips relevant to a work order. Attachments enable technicians to ask Copilot questions and quickly obtain answers allowing for quicker diagnostics and problem-solving. As technicians work on jobs, they can interact with Copilot for real-time advice. Attachments must be notes, Microsoft Word, or PDF documents.
+Add installation manuals, maintenance documents, specifications, or troubleshooting tips relevant to a work order. Attachments enable technicians to ask Copilot questions and quickly obtain answers allowing for quicker diagnostics and problem-solving. As technicians work on jobs, they can interact with Copilot for real-time advice.
+
+<!---
+
+To add knowledge articles, go to [Create knowledge articles](field-service-knowledge-management.md#create-knowledge-articles) and [Add a file attachment to a knowledge article](/dynamics365/customer-service/use/customer-service-hub-user-guide-knowledge-article#add-a-file-attachment-to-a-knowledge-article).
+
+--->
+
+To add notes, Microsoft Word, or PDF documents, perform the following steps.
 
 1. [View the work order](#view-a-work-order).
 
