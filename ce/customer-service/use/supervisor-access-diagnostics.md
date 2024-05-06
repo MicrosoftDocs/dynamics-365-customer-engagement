@@ -1,7 +1,7 @@
 ---
 title: Access diagnostics for unified routing
 description: Learn how supervisors can access diagnostics for unified routing.
-ms.date: 05/03/2024
+ms.date: 05/06/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
