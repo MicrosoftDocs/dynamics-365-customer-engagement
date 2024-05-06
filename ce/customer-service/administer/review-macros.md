@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/08/2024
+ms.date: 05/06/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -20,7 +20,7 @@ ms.custom:
 
 You can view the macro run history, which shows how many times a macro ran, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred, allowing you to identify why the failures occurred.
 
-**View macro run history**
+## View macro run history
 
 Consider the following agent script step that fails.
     :::image type="content" source="../media/agent-script-failure.png" alt-text="Agent script failing.":::
@@ -35,7 +35,7 @@ To view the run history for the macro that failed, follow these steps:
  
 In certain scenarios, a step fails because a previous step incorrectly set values or has missing values. Select a step from the macro history to review your macro actions, attribute names, and attribute values.
 
-   :::image type="content" source="../media/macro-history-log.png" alt-text="View the run history for a macro.":::
+ :::image type="content" source="../media/macro-history-log.png" alt-text="View the run history for a macro.":::
 
 ### Review session context variables 
  
@@ -49,7 +49,7 @@ You can review the macro run history to validate if the session context variable
 
 Review the results in the browser console. 
  
-## Working with lookups and session context 
+## Use lookups and session context 
 
 You can use multiple patterns to configure lookup based on the macros you want to use. You can review the patterns from the following examples and replace the session context variable based on your requirement.  
 

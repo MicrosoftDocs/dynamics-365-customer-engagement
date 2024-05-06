@@ -136,7 +136,7 @@
             href: macros-omnichannel-action.md
           - name: Use flow connectors
             href: macro-flow-connector.md
-          - name: Review macro execution history
+          - name: Review macro run history
             href: review-macros.md                                                  
         - name: Manage custom productivity tools
           href: manage-custom-productivity-tools.md

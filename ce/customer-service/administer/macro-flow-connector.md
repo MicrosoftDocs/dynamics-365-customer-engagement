@@ -5,12 +5,21 @@ author: gandhamm
 ms.author: mgandham
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 05/01/2024
+ms.date: 05/06/2024
 ms.custom: bap-template 
 ---
 # Use flow connectors
 
 Flow connectors allow you to trigger Power Automate flows. You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service and Customer Service workspace.
+
+## Power Automate flow permissions
+
+When you use Power Automate flows, make sure that there's a valid connection and agents have adequate permissions to run the flow. See: [Manage owners and users in your Microsoft list flows with Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/manage-list-flows).  
+ 
+
+> [!NOTE]
+> - The **Run Flow** macro doesn't return an output parameter as a dynamic value that can be used in the macro. 
+> - You must log in to the flow for each macro run. 
 
 ## Run Flow
 
@@ -37,26 +46,16 @@ Perform the following steps to create a macro that passes the contact informatio
 1. Add a new row with the following attributes:
     - **Table name**: Tasks
     - **Subject**: The current temperature today in `Address 1: City` is `Temperature` F.
-  
-## Power Automate flow permissions
-
-When you use Power Automate flows, make sure that there's a valid connection and agents have adequate permissions to run the flow. See: [Manage owners and users in your Microsoft list flows with Power Automate](/sharepoint/dev/business-apps/power-automate/guidance/manage-list-flows).  
- 
  
 ## Use the condition control to implement logic 
 
-You can use the built-in control condition to implement logic in macros. You can select the Condition control from the group Built-in category.
+You can use the **Condition** control to implement logic in macros. You can select the **Condition** control from the group Built-in category.
 
   :::image type="content" source="../media/built-in-condition.png" alt-text="Screenshot of Condition.":::
  
-
 ### Example: Check if priority of the case is high 
  
-The following example is a macro that checks if the priority of the case is high. If true, the macro updates the **Escalated** field to **Yes**. If **False**, the macro updates the description of the case.
+The following example is a macro that uses the Condition control to check if the priority of the case is high. If true, the macro updates the **Escalated** field to **Yes**. If **False**, the macro updates the description of the case.
 
   :::image type="content" source="../media/built-in-mini.png" alt-text="Screenshot of case priority example." lightbox="../media/built-in.png":::
 
-### Limitations with Run Flow macro 
- 
-- The Run Flow macro doesn't return an output parameter as a dynamic value that can be used in the macro. 
-- You must log in to the flow for each macro run. 
