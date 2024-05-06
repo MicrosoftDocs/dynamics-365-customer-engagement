@@ -22,7 +22,7 @@ You can view the macro run history, which shows how many times a macro ran, alon
 
 **View macro run history**
 
-Consider the following agent script step that fails to execute:
+Consider the following agent script step that fails.
     :::image type="content" source="../media/agent-script-failure.png" alt-text="Agent script failing.":::
 To view the run history for the macro that failed, follow these steps:
 
@@ -42,7 +42,7 @@ In certain scenarios, a step fails because a previous step incorrectly set value
 You can review the macro run history to validate if the session context variables are configured correctly in the macro design. You can also validate if the session context variable is correct and returning the expected value using the [Microsoft.Apm APIs](../develop/microsoft-apm.md). 
  
 1. Open Customer Service workspace.
-2. Open a session that executes a macro. For example, open a case from the Home session. 
+2. Open a session that triggers a macro run. For example, open a case from the **Home** session. 
 3. Press the F12 key to open the developer tools window. 
 4. In the console window, specify the following command and press Enter: `Microsoft.Apm.getFocusedSession().resolveSlug("{anchor.title")`
 5. Replace the session variable based on your preference. Remove the $ sign typically used in the macro designer. 

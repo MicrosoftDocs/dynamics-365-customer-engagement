@@ -20,7 +20,7 @@ Macros are a set of sequential actions that a user performs. They enable users t
 
 - Make sure that you have the **Productivity tools administrator**  or **System Administrator** security role to design macros.
 
-- Make sure that agents and supervisors are assigned the **Productivity tools user** or **Customer Service representative** security role to execute macros.
+- Make sure that agents and supervisors are assigned the **Productivity tools user** or **Customer Service representative** security role.
 
 More information: [Assign roles and enable users](../implement/add-users-assign-roles.md)
 
@@ -61,11 +61,11 @@ You can use the following predefined automation actions to create macros:
 
 - [Omnichannel connector](macros-omnichannel-action.md): Provides actions to perform Omnichannel for Customer Service&ndash;related operations. Omnichannel connector macros allow you to link and unlink records to conversations.
 
-- [Flow connector](macro-flow-connector.md): Allows you to execute a Power Automate flow.
+- [Flow connector](macro-flow-connector.md): Allows you to trigger a Power Automate flow.
 
 ## Pass session context variables to macros
 
-In a macro, you can pass dynamic values such as customer name or customer ID as parameters when the macro executes. The information is stored in the session context as a key-value pair. A session context variable is also known as a [slug](automation-dictionary-keys.md#slugs). 
+In a macro, you can pass dynamic values such as customer name or customer ID as parameters to the macro. The information is stored in the session context as a key-value pair. A session context variable is also known as a [slug](automation-dictionary-keys.md#slugs). 
 
 When an agent opens a case, conversation, or another tab in the session, the session context is populated as follows:
  

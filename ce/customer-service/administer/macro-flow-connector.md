@@ -10,7 +10,7 @@ ms.custom: bap-template
 ---
 # Use flow connectors
 
-Flow connectors allow you to execute Power Automate flows. You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service and Customer Service workspace.
+Flow connectors allow you to trigger Power Automate flows. You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service and Customer Service workspace.
 
 ## Run Flow
 
@@ -22,7 +22,7 @@ This action triggers Power Automate flows using macros in agent scripts and has 
 | Entity record id     | Specify the entity record ID of the entity that you want to link. IDs or slugs, such as `{customerRecordId}`, can be used. While this field is labeled as entity record id, any value to be processed can be passed. While the field is required, values don't have to be functional unless required for the flow logic. | 
 | Select flow      | Specify the required Power Automate flow. Requires instant cloud flows with *When a record is selected* flow triggers. Existing flows with proper permissions are displayed in the drop-down list. | 
 
-### Example: Execute a flow that uses a Power Platform connector 
+### Example: Trigger a Power Platform flow
 
 Perform the following steps to create a macro that passes the contact information from a case to a Power Automate flow. The flow retrieves the contact's city and passes it to MSN Weather. Once the weather data is retrieved, the flow creates a task with the name of the city and weather in Fahrenheit. 
 
@@ -59,4 +59,4 @@ The following example is a macro that checks if the priority of the case is high
 ### Limitations with Run Flow macro 
  
 - The Run Flow macro doesn't return an output parameter as a dynamic value that can be used in the macro. 
-- You must log in to the flow for every time a macro executes. 
+- You must log in to the flow for each macro run. 
