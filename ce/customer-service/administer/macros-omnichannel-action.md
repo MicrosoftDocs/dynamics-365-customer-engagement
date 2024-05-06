@@ -27,7 +27,7 @@ Links a record to the conversation when the customer communicates with the agent
    | Field | Description | 
    |-----------------|-----------------------------|
    | Entity Logical Name |  Specify the logical name of the entity. |
-   | Entity record id| Specify the entity record ID of the entity.| 
+   | Entity record ID| Specify the entity record ID of the entity.| 
    | Entity primary Name | Specify the primary name of the entity.| 
 
 
@@ -48,7 +48,7 @@ Unlinks a record from the conversation when the customer is communicating with t
    | Field | Description | 
    |-----------------|-----------------------------|
    | Entity Logical Name |  Specify the logical name of the entity. |
-   | Entity record id| Specify the entity record ID of the entity. | 
+   | Entity record ID| Specify the entity record ID of the entity. | 
    | Entity primary Name | Specify the primary name of the entity.| 
 
 ### Example: Unlink the case from the conversation

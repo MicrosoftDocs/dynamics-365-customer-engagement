@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Use session connector macros
 
-You can use session connector actions to perform session-related operations. Session connector macros enable you to add actions such as getting the ID, refreshing a tab, passing the tab id, setting focus to a tab based on the tab id, opening a tab template, and refreshing session context.
+You can use session connector actions to perform session-related operations. Session connector macros enable you to add actions such as getting the ID, refreshing a tab, passing the tab ID, setting focus to a tab based on the tab ID, opening a tab template, and refreshing session context.
 
 You can use the actions any number of times across different macros to automate and perform operations related to a session in Customer Service workspace.
 
@@ -36,7 +36,7 @@ Perform the following steps to create a macro to resolve a case, get the ID, and
     - **Billable time**: 0
     - **Resolution**: `Case ${anchor.ticketnumber} resolved via macros`
 1. **Get the current tab** to get the current tab and store the tab id as a dynamic value.
-1. **Refresh the tab** to set the Tab ID to the dynamic value obtained in the previous step with the **Tab ID** set to `Tab ID`.
+1. **Refresh the tab** to set the tab ID to the dynamic value obtained in the previous step with the **Tab ID** set to `Tab ID`.
  
 ## Focus on the tab
 
@@ -52,7 +52,7 @@ Perform the following steps to create a macro that creates a task from a case an
 1. **Get the current tab** to copy the Tab ID of the case.
 1. **Open a new form to create a record** to create a new task from the case. 
 1. **Save the record** 
-1. **Focus on the tab** with Tab ID set to `Tab ID`. This sets the focus back to the original tab, that is the case.
+1. **Focus on the tab** with Tab ID set to `Tab ID`. This sets the focus back to the original case tab.
 
 
 #### Open application tab
@@ -104,8 +104,8 @@ Creates a variable in the session context. Use the action to create your own ses
 
 ### Example: Create a session context variable to track the agent script path 
 
-Perform the following tasks to create a macro that creates a session context variable when a user switches from one agent script to another and then, uses this session variable context for further macro runs:
-1. Add the **Set focus to an agent script** with the **Agent Script Unique Name** attribute set to `new_agentscript_highpriority`.
+Perform the following tasks to add a workflow that creates a session context variable when a user switches from one agent script to another and then, uses the session variable context for further macro runs:
+1. Add **Set focus to an agent script** with the **Agent Script Unique Name** attribute set to `new_agentscript_highpriority`.
 1. Add the **Set session context** action with the following attributes:
     - **Attribute Name**: `firstProcess`
     - **Attribute Value**: High priority cases
@@ -113,7 +113,6 @@ Perform the following tasks to create a macro that creates a session context var
      - **Entity logical name**: `incident`
      - **Attribute Name**: description
      - **Attribute Value**: `{firstProcess}`
-
 
 ## Next steps
 

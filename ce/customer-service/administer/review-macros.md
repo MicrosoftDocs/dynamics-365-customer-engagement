@@ -1,6 +1,6 @@
 ---
-title: Review macro execution history
-description: Review macro execution history to identify causes of failure and view exact action step at which failure occurred.
+title: Review macro run history
+description: Review macro run history to identify causes of failure and view exact action step at which failure occurred.
 author: gandhamm
 ms.author: mgandham
 ms.topic: conceptual
@@ -14,11 +14,11 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# Review macro execution history
+# Review macro run history
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-You can view the macro run history, which shows how many times a macro ran, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred, allowing you to identify why the failures occured.
+You can view the macro run history, which shows how many times a macro ran, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred, allowing you to identify why the failures occurred.
 
 **View macro run history**
 
@@ -74,5 +74,5 @@ You can use multiple patterns to configure lookup based on the macros you want t
 
 ## Reporting 
 
-Macros execution is logged in a table in Dataverse that is utilized for troubleshooting purposes. You can use the [msdyn_macrosession](../develop/reference/entities/msdyn_macrosession.md) table to create reports that capture metrics such as macro usage in a given time frame or success and failure rate.
+Macro runs are logged in the [msdyn_macrosession](../develop/reference/entities/msdyn_macrosession.md) table. You can use this table to create reports that capture metrics such as macro usage in a given time frame or success and failure rate.
 

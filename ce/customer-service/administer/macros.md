@@ -39,24 +39,33 @@ Make sure you always begin the creation of any macro with the **Start macro exec
 The following actions can trigger a macro:
 
 - Agents can run [macros](../use/oc-agent-scripts.md#macro) from the **Productivity** pane in the Customer Service workspace app.
-- Through an [API](../develop/reference/methods/runMacro.md) call
+- An [API](../develop/reference/methods/runMacro.md) call
 
 
 ## Predefined automation actions
 
 You can use the following predefined automation actions to create macros:
 
-- [Productivity automation](macros-productivity-automation.md): Provides actions to perform model-driven app operations. You can use these actions to automates tasks such as opening and updating records, opening views, resolving cases, searching the knowledge base, record cloning, setting focus to another agent script, opening email templates, auto filling form fields, setting and retrieving variables and values in the session context.
+- [Productivity automation](macros-productivity-automation.md): Provides actions to perform model-driven app operations. You can use these actions to automate the following tasks:
+- open and update records
+- open views
+- resolve cases
+- search knowledge base
+- clone records
+- set focus to another agent script
+- open email templates
+- auto fill form fields
+- set and retrieve variables and values in the session context
 
-- [Session connector](macros-session-action.md): Provides actions to perform session-related operations. You can use these actions to get the ID of a tab, refresh a tab, pass the tab id, set focus to a tab based on the tab id, open a tab template, and refresh session context.
+- [Session connector](macros-session-action.md): Provides actions to perform session-related operations. You can use these actions to get the ID of a tab, refresh a tab, pass the tab ID, set focus to a tab based on the tab ID, open a tab template, and refresh session context.
 
 - [Omnichannel connector](macros-omnichannel-action.md): Provides actions to perform Omnichannel for Customer Service&ndash;related operations. Omnichannel connector macros allow you to link and unlink records to conversations.
 
-- Flow connector: Allows you to execute a Power Automate flow.
+- [Flow connector](macro-flow-connector.md): Allows you to execute a Power Automate flow.
 
 ## Pass session context variables to macros
 
-In a macro, you can pass dynamic values such as customer name or customer id as parameters when the macro executes. The information is stored in the session context as a key-value pair. A session context variable is also known as a [slug](automation-dictionary-keys.md#slugs). 
+In a macro, you can pass dynamic values such as customer name or customer ID as parameters when the macro executes. The information is stored in the session context as a key-value pair. A session context variable is also known as a [slug](automation-dictionary-keys.md#slugs). 
 
 When an agent opens a case, conversation, or another tab in the session, the session context is populated as follows:
  
@@ -89,11 +98,11 @@ When an agent opens a case, conversation, or another tab in the session, the ses
 
  You can also retrieve a value from a related record using oData query. For example, you can retrieve the email address from the customer record on a case with this query,`${$odata.contact.emailaddress1.?$filter=contactid eq '{customerRecordId}'} `.
 
-- **Additional tabs**: Records open in the additional tabs of the same session aren't used in the session context. However, you can access the name of the entity and the entity record id as follows: 
+- **Additional tabs**: Records open in the additional tabs of the same session aren't used in the session context. However, you can access the name of the entity and the entity record ID as follows: 
  
     `${Session.CurrentTab.entityId}` : 0e8642d7-c2ae-ea11-a812-000d3a1b14a2 
     `${Session.CurrentTab.entityName}` : account 
-  With the entity id, you can retrieve other values in the record through the following oData query `${$odata.account.name.?$filter=accountid eq '{Session.CurrentTab.entityId}'}`
+  With the entity ID, you can retrieve other values in the record through the following oData query `${$odata.account.name.?$filter=accountid eq '{Session.CurrentTab.entityId}'}`
 
 ## Next Steps
 [Use Productivity automation to create macros](macros-productivity-automation.md)  

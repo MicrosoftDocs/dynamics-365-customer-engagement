@@ -18,8 +18,8 @@ This action triggers Power Automate flows using macros in agent scripts and has 
 
 | Field                | Description                             | 
 |----------------------|-----------------------------------------|
-| Entity logical name | Specify the logical name of the entity that you want to link. This is a mandatory field. Any Microsoft Dataverse entity, such as Account, can be used based on business needs. | 
-| Entity record id     | Specify the entity record ID of the entity that you want to link. This is a mandatory field. Ids or slugs, such as {customerRecordId}, can be used. While this field is labeled as entity record id, any value to be processed can be passed. While the field is required, values don't have to be functional unless required for the flow logic. | 
+| Entity logical name | Specify the logical name of the entity that you want to link. Any Microsoft Dataverse entity, such as Account, can be used based on business needs. | 
+| Entity record id     | Specify the entity record ID of the entity that you want to link. IDs or slugs, such as `{customerRecordId}`, can be used. While this field is labeled as entity record id, any value to be processed can be passed. While the field is required, values don't have to be functional unless required for the flow logic. | 
 | Select flow      | Specify the required Power Automate flow. Requires instant cloud flows with *When a record is selected* flow triggers. Existing flows with proper permissions are displayed in the drop-down list. | 
 
 ### Example: Execute a flow that uses a Power Platform connector 
@@ -59,4 +59,4 @@ The following example is a macro that checks if the priority of the case is high
 ### Limitations with Run Flow macro 
  
 - The Run Flow macro doesn't return an output parameter as a dynamic value that can be used in the macro. 
-- You must login to the flow for every time a macro executes. 
+- You must log in to the flow for every time a macro executes. 

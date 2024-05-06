@@ -13,7 +13,19 @@ ms.custom: bap-template
 
 # Use productivity automation macros
 
- You can automate tasks such as opening and updating records and views, resolving cases, searching the knowledge base, cloning records, setting focus to another agent script, opening email templates, autofilling form fields, and setting and retrieving variables and values in the session context with productivity automation macros. You can use the productivity automation actions any number of times across different macros to automate and perform model-driven app operations.
+ You can automate the following tasks with productivity automation macros: 
+
+- open and update records
+- open views
+- resolve cases
+- search knowledge base
+- clone records
+- set focus to another agent script
+- open email templates
+- auto fill form fields
+- set and retrieve variables and values in the session context
+
+ You can use the productivity automation actions any number of times across different macros to automate and perform model-driven app operations.
 
 The following sections describe the different productivity automation actions that you can use to create macros.
 
