@@ -3,7 +3,7 @@ title: Overview of Resource Scheduling Optimization for Dynamics 365 Field Servi
 description: Learn about Resource Scheduling Optimization for Dynamics 365 Field Service.
 author: FeifeiQiu
 ms.author: feiqiu
-ms.date: 09/07/2022
+ms.date: 05/06/2024
 ms.topic: overview
 ms.subservice: resource-scheduling-optimization
 ---
@@ -19,24 +19,24 @@ Resource Scheduling Optimization is a more advanced form of scheduling for field
 
 ## Benefits
 
-Automated scheduling is often required because scheduling a high volume of jobs manually takes much time. Resource Scheduling Optimization assists dispatcher with job matching and helps free up their time to focus on other tasks. More reasons that organizations use the Resource Scheduling Optimization add-in:
+Automated scheduling is often required because scheduling a high volume of jobs manually takes time. Resource Scheduling Optimization assists dispatchers with job matching and helps free up their time to focus on other tasks. Benefits of the Resource Scheduling Optimization add-in include:
 
-- **Achieve scale**: Allows dispatchers to manage more resources, enabling the
+- **Achieve scale**: Allowing dispatchers to manage more resources, enables the
 business to scale to new territories or service offerings.
 
-- **Customer satisfaction**: Improved efficiency drives more predictable arrival and completion times and seamlessly schedules technicians for urgent situations.
+- **Improve customer satisfaction**: Improving efficiency drives more predictable arrival and completion times and seamlessly schedules technicians for urgent situations.
 
-- **Technician efficiencies**: Fitting more appointments into working hours drives revenue and reduces overtime costs. Matching work orders and technician skills reduces inefficient time allocation.
+- **Efficient technicians**: Fitting more appointments into working hours drives revenue and reduces overtime costs. Matching work orders and technician skills reduces inefficient time allocation.
 
-- **Minimized travel time**: Ensuring your technicians are taking the shortest possible route with turn-by-turn directions reduces fuel consumption and wear and tear on vehicles. Savings likely surpass the cost of the add-in licenses.
+- **Minimize travel time**: Ensuring your technicians are taking the shortest possible route with turn-by-turn directions reduces fuel consumption and wear and tear on vehicles. Savings likely surpass the cost of the add-in licenses.
 
-- **Improved customer retention**: Giving preference to higher-priority work orders helps avoid service level agreement penalties and helps you meet customer service commitments.
+- **Improve customer retention**: Giving preference to higher-priority work orders helps avoid service level agreement penalties and helps you meet customer service commitments.
 
 ## Scenarios
 
-Configure Resource Scheduling Optimization for your business needs based on jobs, resources, and other factors. Scenarios where Resource Scheduling Optimization can help:
+Configure Resource Scheduling Optimization for your business needs based on jobs, resources, and other factors. Scenarios where Resource Scheduling Optimization can help include:
 
-- **Overnight scheduling**: Resource Scheduling Optimization runs automatically each night, schedules new jobs and optimizes existing bookings for the next day.
+- **Overnight scheduling**: Resource Scheduling Optimization runs automatically each night. It schedules new jobs and optimizes existing bookings for the next day.
 
 - **Single Resource Optimization**: A dispatcher gets the schedule [optimized for a single technician](rso-single-resource-optimization.md) for the rest of today to recalculate an optimal travel route after a cancellation.
 
@@ -46,21 +46,21 @@ Configure Resource Scheduling Optimization for your business needs based on jobs
 
 - **Emergency scheduling**: When an urgent job is created, a Resource Scheduling Optimization run schedules the high priority job as soon as possible before lower priority jobs.
 
-## Glossary
+## Key terms
 
 - **Jobs**: Work that needs to be completed like work orders, cases, and projects. There's no "jobs" entity in Field Service or Resource Scheduling Optimization.
 - **Resources**: Anyone or anything that needs to be scheduled to a job including people, equipment, and facilities.
 - **Schedules, bookings**: Schedules and bookings are used interchangeably and refer to the appointment time slot when a resource is assigned to a job.
-- **Requirements**: The entity related to a job that defines what type of resource is needed to complete the work. It's also the entity that will ultimately be scheduled via Resource Scheduling Optimization.
-- **Run**: When Resource Scheduling Optimization performs its scheduling and optimization functions, it's called a run. A run usually leads to schedules on the Schedule Board.
-- **Optimize**: Attempt to find the best schedules to reduce travel time and maximize utilization.
-- **Scope**: The jobs and resources that Resource Scheduling Optimization considers. For example, you may not have the schedule for every job in the system to every resource. You'll most likely partition the jobs and resources into a scope.  
-- **Goal**: Defines the ideal outcome of a run. For example, minimize travel time, maximize utilization, handle high priority jobs, or scheduling jobs as soon as possible. Multiple goals are ranked because sometimes there are trade-offs.
+- **Requirements**: The entity related to a job that defines what type of resource is needed to complete the work. It's also the entity that is scheduled via Resource Scheduling Optimization.
+- **Run**: A run is when Resource Scheduling Optimization performs its scheduling and optimization functions. A run usually leads to schedules on the Schedule Board.
+- **Optimize**: An attempt to find the best schedules to reduce travel time and maximize utilization.
+- **Scope**: The jobs and resources that Resource Scheduling Optimization considers. For example, you might not have the schedule for every job in the system to every resource. You'll most likely partition the jobs and resources into a scope.  
+- **Goal**: The ideal outcome of a run. For example, minimize travel time, maximize utilization, handle high priority jobs, or scheduling jobs as soon as possible. Multiple goals are ranked because sometimes there are trade-offs.
 
 ## System requirements
 
 - Dynamics 365 online
-- Resource Scheduling Optimization is a paid add-on to [Universal Resource Scheduling (URS)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md) and is built on top of its entities. Organizations that use either Dynamics 365 Field Service, Customer Service, and Project Service Automation are entitled to URS. If you want to use Resource Scheduling Optimization to automatically schedule Dynamics 365 Sales opportunities to sales reps, you need Dynamics 365 Field Service, Customer Service, or Project Service Automation too.
+- Resource Scheduling Optimization is a paid add-on to [Universal Resource Scheduling (URS)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md) and is built on top of its entities. Organizations that use either Dynamics 365 Field Service, Customer Service, and Project Service Automation are entitled to URS. If you want to use Resource Scheduling Optimization to automatically schedule Dynamics 365 Sales opportunities to sales reps, you need Dynamics 365 Field Service, Customer Service, or Project Service Automation.
 
 ## How it works
 
@@ -72,7 +72,7 @@ Here's how it works:
 
 1. Create a list of jobs that need to be completed. Jobs are generally work orders for onsite service, cases for remote service, or project tasks.
 
-1. For each job, list the required resources and when it needs to be completed. For example, for a work order you may need someone nearby with repair skills and the work order needs to be completed by the end of the week.
+1. For each job, list the required resources and when it needs to be completed. For example, for a work order you need someone nearby with repair skills and the work order needs to be completed by the end of the week.
 
 1. Choose a list of resources that are eligible to be considered for your list of jobs. Each resource has different attributes like location, role, type, and skills.
 
@@ -86,27 +86,27 @@ Here's how it works:
 
 Resource Scheduling Optimization optimizes schedules in addition to automatically scheduling bookings. To help understand the optimized results, here are three examples:
 
-### Clustered routes
+### Clustered routes example
 
-In the following screenshot shows an optimized schedule board. The left pane contains a map view of the optimized bookings.
+The following screenshot shows an optimized schedule board. The left pane contains a map view of the optimized bookings.
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of an optimized schedule board.](media/rso-optimized-schedule-board-routes-with-annotation.png)
 
   One way you can see Resource Scheduling Optimization working effectively is the travel routes are clustered around each resource's starting location where each color represents a different technician's route. When dispatchers manually schedule jobs, travel routes are often spread across the map.
 
-### Sequential bookings at the same location
+### Sequential bookings at the same location example
 
-In the screenshot, some bookings are scheduled back-to-back without travel time in between. So Resource Scheduling Optimization scheduled a job and understood there was another job at the same location for the same customer and decided to schedule them together. Overseeing and scheduling all the jobs at once is a challenge for dispatchers to do manually.
+Some bookings are scheduled back-to-back without travel time in between. So Resource Scheduling Optimization scheduled a job and understood there was another job at the same location for the same customer and decided to schedule them together. Overseeing and scheduling all the jobs at once is a challenge for dispatchers to do manually.
 
-### Travel time vs working time
+### Travel time vs working time example
 
-Every time Resource Scheduling Optimization runs, it keeps track of the total travel time. It's compared to working time in a graph as shown in the screenshot below. Use the visuals to understand how the add-in reduces the total travel time across all of your field technicians.
+Every time Resource Scheduling Optimization runs, it keeps track of the total travel time. It's compared to working time in a graph as shown in the following screenshot. Use the visuals to understand how the add-in reduces the total travel time across all of your field technicians.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of active optimization request bookings.](media/rso-working-vs-travel-time.png)
 
-## Get started
+## Next steps
 
 - [Get Resource Scheduling Optimization](rso-get-install.md)
 
