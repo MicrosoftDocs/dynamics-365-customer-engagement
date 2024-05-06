@@ -1446,3 +1446,5 @@
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)
       href: ../sales-professional/help-hub.md
+- name: Contribute to documentation
+  href: /dynamics365/get-started/contribute?context=/dynamics365/context/sales-context
