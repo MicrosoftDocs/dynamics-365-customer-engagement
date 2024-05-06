@@ -30,8 +30,8 @@ For information about older versions, see [Version history archive](../../field-
 
 - Horizontal scroll location is now maintained when switching views on the schedule board.
 - List view on the schedule assistant now sorts all results instead of just the current page.
-- Various tooltips have been improved
-- Fixed a bug that was cancelling all related bookings when a Project Ops user canceled a project requirement in an interday view. 
+- Various tooltips have been improved.
+- Fixed a bug that was cancelling all related bookings when a Project Operations user canceled a project requirement in an interday view. 
 - Fixed a bug that was causing the requirement panel to crash when reordering tabs with active filters applied. 
 - Fixed a bug that was mislabeling or and duplicating certain entities in the Related tab of a bookable resource form. 
 
