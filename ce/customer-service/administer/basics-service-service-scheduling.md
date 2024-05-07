@@ -1,7 +1,7 @@
 ---
-title: "Overview of Service Scheduling and Scheduling experience in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "This article provides information on the basics of service and service scheduling in Dynamics 365 Customer Service."
-ms.date: 12/11/2023
+title: Overview of Service Scheduling and Scheduling experience in Dynamics 365 Customer Service
+description: This article provides information on the basics of service and service scheduling in Dynamics 365 Customer Service.
+ms.date: 05/07/2024
 author: lalexms
 ms.author: laalexan
 ms.topic: overview
@@ -11,13 +11,17 @@ ms.topic: overview
 
 Avoid disruptions in service by making sure that your resources are scheduled optimally and efficiently. Using Scheduling in Customer Service Hub, you can plan and schedule service activities for your customers by bringing together all your resources.
 
+## Prerequisites
+
+Scheduling in Customer Service Hub is a [customer-driven update](scheduling-experience.md#set-up-scenarios). You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality.
+
 ## Understand the scheduling experience
 
-Scheduling, which is built on top of **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
+Scheduling, which is built on top of URS, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
 
 ### Scheduling scenario
 
-The following scenario helps to understand how the scheduling capability lets you manage your service activities seamlessly: 
+The following scenario helps to understand how the scheduling capability lets you manage your service activities seamlessly:
 
 Contoso bike repair schedules repair services for their customers. To facilitate this process, Contoso needs to bring together the following information:
 
