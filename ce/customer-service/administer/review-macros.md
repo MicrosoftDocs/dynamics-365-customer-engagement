@@ -21,7 +21,7 @@ You can view the macro run history, which shows how many times a macro ran, alon
 ## View macro run history
 
 Consider the following agent script step that fails.
-    :::image type="content" source="../media/agent-script-failure.png" alt-text="Agent script failing.":::
+:::image type="content" source="../media/agent-script-failure.png" alt-text="Agent script failing.":::
 To view the run history for the macro that failed, follow these steps:
 
 1. Go to Customer Service admin center, select **Productivity** > **Agent scripts**.  
@@ -70,7 +70,7 @@ You can use multiple patterns to configure lookup based on the macros you want t
   - Attribute name: `regardingobjectid_incident@odata.bind `
   - Attribute value: `/incidents(${anchor.incidentid}) `
 
-## Reporting 
+## Macro run reports
 
 Macro runs are logged in the [msdyn_macrosession](../develop/reference/entities/msdyn_macrosession.md) table. You can use this table to create reports that capture metrics such as macro usage in a given time frame or success and failure rate.
 
