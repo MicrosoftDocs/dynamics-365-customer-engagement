@@ -18,12 +18,12 @@ ms.collection: get-started
 
 # Recalculate service-level agreements in terminal status
 
-The terminal states for SLA KPI Instances are succeeded, cancelled, and non-compliant. SLAs in terminal status are recalculated in the following scenarios:
+The terminal states for SLA KPI Instances are succeeded, cancelled, and non-compliant. The recalculation of SLAs in terminal states is as follows:
 
-- If the SLA KPI instance is in an expired state and the applicable when or success condition changes, the SLAs are recalculated if the recalculate flag is on.
-- If the SLA KPI instance is in a cancelled state, SLAs aren't recalculated.
-- If the recalculate SLA option is set to no, SLA KPI instances that are in succeeded terminal states remain in the same state irrespective of changes to the applicable from or when conditions. Changes occur only if the recalculated SLA option is set to yes.
-- When a SLA KPI instance is in an expired state and changes are made to its applicable SLA item, the SLAs are recalculated. A new slakpiinstance is created, and its status depends on the failure time. Failure time is calculated from the **Applicable from** field. If the SLA KPI Instance crosses the specified failure time, it creates a new slakpiinstance in an expired state.
+- If the SLA KPI Instance is in an expired state and the applicable when or success condition changes, the SLAs are recalculated if the recalculate flag is on.
+- If the SLA KPI Instance is in a cancelled state, SLAs aren't recalculated.
+- If the recalculate SLA option is set to no, SLA KPI Instances that are in the succeeded terminal state remain in the same state irrespective of changes to the applicable from or when conditions. Changes occur only if the recalculated SLA option is set to yes.
+- When a SLA KPI Instance is in an expired state and changes are made to its applicable SLA item, the SLAs are recalculated. A new SLA KPI Instance is created, and its status depends on the failure time. Failure time is calculated from the **Applicable from** field. If the SLA KPI Instance crosses the specified failure time, it creates a new SLA KPI Instance in an expired state.
 - By default, SLAs in the succeeded and noncompliant terminal statuses aren't reevaluated when the success condition changes or can't be paused or resumed. However, you can recalculate such SLAs when the applicable when and success criteria of the target entity changes by enabling the recalculate SLA setting in the **Service Configuration Settings** view.
 
 ## Enable recalculation of SLAs on reaching terminal status
