@@ -69,7 +69,7 @@ Create relationships between knowledge articles and other records, like incident
    - Select **New article** and create the knowledge article.
    - Select **Save & Close**. The article is created and appears on the Work order's Reference tab.
 
-:::image type="content" source="media/knowledge-article-associate-asset.svg" alt-text="Screenshot of a Field Service work order, showing the related knowledge article.":::
+:::image type="content" source="media/knowledge-article-associate-wo.svg" alt-text="Screenshot of a Field Service work order, showing the related knowledge article.":::
 
 ## Next steps
 
