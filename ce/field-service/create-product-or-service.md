@@ -39,11 +39,11 @@ In this article, we'll explain how to create products and services, add them to 
 
    - The **Valid From** and **Valid To** fields define how long a product is valid for. There's no business logic associated with these fields, except that the *Valid To* date must be later than the *Valid From* date. If necessary, you can implement your own business logic. For example, run a scheduled job to automatically retire last season's products using the date selected in the *Valid To* field.
    - **Unit Group**: A unit group is a collection of units in which a product is sold, and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you may have created a unit group called "Seeds", and defined its primary unit as "packet."  
-   - **Unit**: Units are the quantities or measurements that you sell your products in. For example, if you've added seeds as a product, you can sell them in packets, boxes, or pallets. Each becomes a unit of the product. If seeds are mostly sold in packets, select packets as the unit.  
+   - **Default Unit**: Units are the quantities or measurements that you sell your products in. For example, if you've added seeds as a product, you can sell them in packets, boxes, or pallets. Each becomes a unit of the product. If seeds are mostly sold in packets, select packets as the unit.  
 
    For more information on units and unit groups, visit the article: [Create a unit group and add units to that group (Sales app)](../sales-enterprise/create-unit-group-add-units-that-group.md)  
 
-   :::image type="content" source="media/work-order-product-create.png" alt-text="Screenshot of a product in the product details section.":::
+   :::image type="content" source="media/work-order-product-create.svg" alt-text="Screenshot of a product in the product details section.":::
 
 1. In the **Field Service** section, choose a **Field Service Product Type** which is required to add a product or service to a work order.
 
