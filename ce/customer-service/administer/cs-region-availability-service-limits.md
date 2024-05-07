@@ -94,7 +94,7 @@ The following table lists the language availability of the other Customer Servic
 Yes: Available  
 No: Not available
 
-<sup>**2**</sup> Copilot generates summaries in the agents' UI language.
+<sup>**2**</sup> Copilot might [generate summaries](../use/copilot-language-support.md) in the agents' UI language even if that isn't an officially supported language.
 
 
 ## Microsoft Power Platform capacity impact

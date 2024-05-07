@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 04/19/2024
+ms.date: 05/02/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -21,7 +21,7 @@ ai-usage: ai-assisted
 
 # Copilot in Dynamics 365 Sales overview
 
-Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on recent changes to their records, prepare for meetings, and read the latest news about their accounts. [Learn more about region availability and languages supported](#region-availability-and-languages-supported)
+Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on recent changes to their records, prepare for meetings, and read the latest news about their accounts. Sellers can chat with Copilot in natural language or use predefined prompts to get the information they need. [Learn more about how to use Copilot in Dynamics 365 Sales](use-sales-copilot.md)
 
 Copilot is also available as an add-in in Outlook and an integrated app in Teams. With it, sellers can capture, view, and update their customer account data in the apps they use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Copilot for Sales](/microsoft-sales-copilot/introduction)(formerly known as Microsoft Sales Copilot) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
 
@@ -81,7 +81,8 @@ Learn more:
 
 - [Compose and send email messages using Copilot (preview)](compose-send-email-copilot.md)  
 - [View and copy an email summary](view-copy-email-summary.md)  
-- [View emails you haven't replied to](copilot-stay-ahead.md#show-emails-you-havent-replied-to)
+- [Display unanswered emails](copilot-stay-ahead.md#display-unanswered-emails)
+
 
 ### News updates
 

@@ -1,7 +1,7 @@
 ---
 title: Manage work orders with Field Service in Outlook (frontline managers) 
 description: Learn how service managers and dispatchers can use the Dynamics 365 Field Service for Outlook add-in to create, view, update, and schedule work orders with AI assistance in Outlook.
-ms.date: 04/18/2024
+ms.date: 05/01/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -12,7 +12,7 @@ ms.subservice: m365-integrations
 
 # Manage work orders with Field Service in Outlook (frontline managers)
 
-Dynamics 365 Field Service provides an add-in for frontline managers to create, view, and edit work orders directly from their email without leaving Outlook.
+Dynamics 365 Field Service provides an Outlook add-in for frontline managers to create, view, and edit work orders directly from their email. Without leaving Outlook, you can respond to requests for service or questions about existing requests. The Outlook add-in supports [shared mailboxes](https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd). The Outlook add-in uses the Microsoft account credentials of the individual that was signed in for the shared mailbox.
 
 With Copilot, you can quickly create a work order with information from the email, respond with proposed schedules, or confirm a schedule.
 

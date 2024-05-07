@@ -26,8 +26,6 @@ Agents spend a significant amount of time using email to communicate with custom
 
 Agents spend a significant amount of time using email to communicate with customers. Simple and intuitive email experiences help improve agent productivity and quality of service to customers. In this release, we are bringing the following modern email capabilities to the agent experience:
 
--   Author emails using a complete rich text experience, including the ability to send, receive, and manage images inline.
-
 -   Use a modern toolbar and can cut and paste formatted content from Office documents such as Word and Excel, while maintaining formatting.
 
 -   Preview email templates prior to applying them to email.
@@ -51,8 +49,6 @@ Agents spend a significant amount of time using email to communicate with custom
 Email templates enable scale, efficiency, and consistency of email communication between agents and customers for support centers. In this release, we are bringing the following template-authoring capabilities to the agent and administrator experience:
 
 -   Create templates with an intuitive and easy-to-understand experience.
-
--   Author templates using a complete rich text experience, including the ability to manage images inline.
 
 -   Use a modern toolbar and can cut and paste formatted content from Office documents such as Word and Excel, while maintaining formatting.
 
