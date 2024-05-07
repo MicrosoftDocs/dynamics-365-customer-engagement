@@ -65,7 +65,7 @@
     - name: Understanding and customizing resource matching
       href: developer/understanding-and-customizing-resource-matching-in-urs.md
     - name: Match resources with territory hierarchy
-      hred: developer/territory-hierarchies.md
+      href: developer/territory-hierarchies.md
     - name: Find resources by language - A step by step guide
       href: developer/extending-urs-step-by-step.md
     - name: Universal FetchXML
