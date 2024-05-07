@@ -20,7 +20,7 @@ Use queues to organize, prioritize, and monitor the progress of your work. In Dy
 
 The option for agents to manage their queues and items is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md#enhancements-in-the-queue-page)
 
-## Find and pick queue items
+## Pick queue items
 
 Use the view list and queue list to filter and find items in queues.
 
@@ -82,8 +82,7 @@ Use the view list and queue list to filter and find items in queues.
 ## Remove a record from a queue  
   
 1. In the **View** list, select one of the views that show the items you want to remove.  
-  
-2. Select the activity or case, and on the command bar, select **Remove**.
+1. Select the activity or case, and on the command bar, select **Remove**.
 
  
 ## Assign an activity to a user or queue
@@ -93,10 +92,8 @@ If you want another person in your organization to work on an activity, you can 
 ### Assign to another user or team  
   
 1. Go to **Activities**.  
-  
-2. Select the activity you want, and on the command bar and then select **Assign**.
-  
-3. In the **Assign To** field select **User or team**, and then select the user or team you want to assign the activity to.  
+1. Select the activity you want, and on the command bar and then select **Assign**.
+1. In the **Assign To** field select **User or team**, and then select the user or team you want to assign the activity to.  
   
    If you don’t see the user or team you're looking for, select **Lookup**, and then select **Look Up More Records**. From the **Look for** dropdown list, select **User** or **Team**. In the **Search** box, type the name, select the search button, select the name, and then select **Add**.  
   
@@ -105,11 +102,8 @@ If you want another person in your organization to work on an activity, you can 
 ### Add to queue
   
 1. Go to **Activities**.
-  
-2. Select the activity you want, and then select **Add to Queue**.
-  
-3. The **Queue** field displays the queue the activity belongs to. The queue lookup displays only the queues that the activity can be added to.
-
+1. Select the activity you want, and then select **Add to Queue**.
+1. The **Queue** field displays the queue the activity belongs to. The queue lookup displays only the queues that the activity can be added to.
 1. Select the queue you want to route the activity to, and then select **Add**. 
 
 ### Pick a view for your queues
