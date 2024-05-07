@@ -15,9 +15,10 @@ ms.custom:
   - ai-gen-desc
 ---
 
+
 # Create multiple cases from an email sent to multiple mailboxes
 
-When an email is sent to multiple mailboxes (To, Cc, or Bcc) that are queue-enabled in Customer Service, the email gets converted to only one case using automatic record creation rules. Sometimes, [multiple cases do get created for an email sent to multiple mailboxes](arc-faqs.md#why-do-multiple-cases-get-created-from-a-single-email) but the email gets associated only to one case and is displayed on one of the case timeline only.
+When an email is sent to multiple mailboxes (To, Cc, or Bcc) that are queue-enabled in Customer Service, the email gets converted to only one case using automatic record creation rules. Sometimes, [multiple cases do get created for an email sent to multiple mailboxes](arc-faqs.md#why-do-multiple-cases-get-created-from-a-single-email) but the email gets associated only to one case and is displayed on one of the case timelines only.
 
 As an administrator, you can enable this feature to ensure that multiple cases (one for each queue-enabled mailbox) are created when multiple mailboxes are added as recipients in the email. With the ability to create multiple cases from an email, agents can do the following:
 
@@ -35,7 +36,7 @@ As an administrator, you can enable this feature to ensure that multiple cases (
 1. From **Objects**, select **Settings** > **Settings definition**.
 1. Select the **Email Multi Related for ARC** setting definition.
 1. On the **Edit Email Multi Related for ARC** setting dialog, in the **Setting environment value** section, select **New environment value**.
-1. Select **Yes** for the dropdown. The **Default Value** is **No**.
+1. Select **Yes** for the dropdown list. The **Default Value** is **No**.
 1. Select **Save**.
 1. Go back to **Solutions** and select **Publish all customizations**.
 
@@ -57,47 +58,47 @@ The following flowchart explains how automatic record creation rules work to cre
 
 - When email gets converted to multiple cases, every case has the same case title by default, as the email subject gets copied to the case title. If you want to see which case originated in which mailbox, it's advisable to add the originating queue entries on the case form, which helps you identify which case got created in which queue.
 
-    To achieve this, you can add a sub grid to list the originating queue entries to the case entity from the Power Apps Maker portal by customizing the case form.
+    To achieve this, you can add a subgrid to list the originating queue entries to the case entity from the Power Apps Maker portal by customizing the case form.
 
     Perform the following steps:
 
-1. Create a new view on the msdyn_originatingqueue table. We recommend you show the msdyn_queueid and msdyn_emailid fields in the view.  
+    1. Create a new view on the msdyn_originatingqueue table. We recommend you show the msdyn_queueid and msdyn_emailid fields in the view.  
 
-      1. Sign in to [powerapps.com](https://make.powerapps.com), and then select your environment.  
+       1. Sign in to [powerapps.com](https://make.powerapps.com), and then select your environment.  
     
-      1. Go to **Tables** > **Originating Queue Mapping**.  
+       1. Go to **Tables** > **Originating Queue Mapping**.  
         
-      1. Select **Views** from the **Data experiences** tab.  
+       1. Select **Views** from the **Data experiences** tab.  
         
-      1. Select **New view**.
+       1. Select **New view**.
     
-      1. On the **New view** dialog box, provide the **Name** and **Description**, and then select **Create**.
+       1. On the **New view** dialog box, provide the **Name** and **Description**, and then select **Create**.
   
     We recommend you show the **Queue** and **Email** fields in the view.
 
-1. Add a new sub-grid component to the case form for the originating queue entity.
+    1. Add a new subgrid component to the case form for the originating queue entity.
 
-    1. Go to **Tables** > **Case**.
+       1. Go to **Tables** > **Case**.
     
-    1. Select **Forms** from the **Data experiences** tab.
+       1. Select **Forms** from the **Data experiences** tab.
     
-    1. Select the case form available in your environment.
+       1. Select the case form available in your environment.
     
-    1. On the **Case** form, go to **Component** > **Grid** > **Subgrid**.  
+       1. On the **Case** form, go to **Component** > **Grid** > **Subgrid**.  
     
-    1. On the **New Case form**, **Properties** > **Display options**, fill in the following information.  
+       1. On the **New Case form**, **Properties** > **Display options**, fill in the following information:  
 
-        1. **Label**: Provide a meaningful label.
+          - **Label**: Provide a meaningful label.
         
-        1. **Name**: Provide a name.  
+          - **Name**: Provide a name.  
         
-        1. Select the **Show related records** checkbox.  
+          - Select the **Show related records** checkbox.  
         
-        1. Select **originatingqueue (Case)** from the **Table** drop-down list.  
+          - Select **originatingqueue (Case)** from the **Table** dropdown list.  
         
-        1. Select the view you created in Step 1.  
+          - Select the view you created in Step 1.  
         
-        1. Select **Save and Publish**.
+          - Select **Save and Publish**.
 
 ## See also
 

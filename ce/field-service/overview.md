@@ -1,7 +1,7 @@
 ---
 title: Overview of Dynamics 365 Field Service (contains video)
 description: Learn about Dynamics 365 Field Service and its features.
-ms.date: 02/03/2023
+ms.date: 05/03/2024
 ms.topic: overview
 ms.custom: bap-template
 author: jshotts
@@ -12,7 +12,7 @@ ms.author: jasonshotts
 
 The Dynamics 365 Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set up mobile workers for success when they're onsite with customers fixing issues.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs4Cu]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1kIXq]
 
 The Field Service application enables you to:
 
