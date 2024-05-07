@@ -64,9 +64,12 @@ To access this chat feature, an admin must [set up Microsoft Copilot for Field S
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-To ask for information from [uploaded attachments](flw-teams-manager.md#add-attachments-to-the-work-order) such as installation manuals, maintenance documents, or troubleshooting notes, tell Copilot to search through documents.
-
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
+To ask for information from uploaded attachments such as installation manuals, maintenance documents, or troubleshooting notes, tell Copilot to search through documents.
+
+> [!NOTE]
+> Frontline managers must [upload attachments](flw-teams-manager.md#add-attachments-to-the-work-order) so Copilot can search through them and provide answers.
 
 :::image type="content" source="media/fsp-m365-chat-flw2.png" alt-text="Microsoft Copilot chat showing the list of tools needed for the work order":::
 
