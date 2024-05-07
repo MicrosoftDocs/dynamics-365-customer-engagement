@@ -1436,6 +1436,8 @@
       href: responsible-ai-overview.md
     - name: FAQ about summarization in Copilot
       href: faqs-sales-copilot-for-summarization.md
+    - name: FAQ about natural language chat in Copilot
+      href: faqs-sales-copilot-natural-language.md
     - name: FAQ about email in Copilot
       href: faqs-sales-copilot-for-email.md
     - name: FAQ for chat with Sales data on Microsoft 365 Copilot (preview)
@@ -1444,3 +1446,5 @@
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)
       href: ../sales-professional/help-hub.md
+- name: Contribute to documentation
+  href: /dynamics365/get-started/contribute?context=/dynamics365/context/sales-context

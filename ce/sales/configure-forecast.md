@@ -5,6 +5,7 @@ ms.date: 03/27/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 content_well_notification:
 -	AI-contribution
 searchScope: 
@@ -47,7 +48,7 @@ Forecasting isn't supported on Government Community Cloud (GCC) or mobile device
 
 ## Configure forecasting
 
-You can configure forecasts that are based on revenue or quantity. You define the type of forecast, the hierarchy, access permissions, and the details you want to see in the forecast grid. After a forecast is activated, your sales team can view the revenue, or quantity, and pipeline projections. Until you activate a forecast, your sales team can view an [out-of-the-box forecast (preview)](view-forecasts.md#out-of-the-box-forecast-preview) for the current month. The out-of-the-box forecast isn't available in the forecast configuration page and neither can it be deleted nor deactivated.
+You can configure forecasts that are based on revenue or quantity. You define the type of forecast, the hierarchy, access permissions, and the details you want to see in the forecast grid. After a forecast is activated, your sales team can view the revenue, or quantity, and pipeline projections. Until you activate a forecast, your sales team can view an [out-of-the-box forecast](view-forecasts.md#out-of-the-box-forecast) for the current month. The out-of-the-box forecast isn't available in the forecast configuration page and neither can it be deleted nor deactivated.
 
 1. In the Sales Hub app, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area") in the lower-left corner, and then select **App Settings**.  
 

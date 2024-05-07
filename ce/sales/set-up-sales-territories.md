@@ -3,7 +3,7 @@ title: Set up Sales territories
 description: Define sales territories to organize customer and market segments, assign salespeople, and simplify business analysis.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
 ms.date: 09/13/2023

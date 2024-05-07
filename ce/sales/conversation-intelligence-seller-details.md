@@ -6,6 +6,7 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # View a seller’s performance to identify best practices and coaching opportunities 
 

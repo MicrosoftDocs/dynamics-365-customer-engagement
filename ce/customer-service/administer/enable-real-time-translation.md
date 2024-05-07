@@ -1,10 +1,12 @@
 ---
-title: "Enable real-time translation of conversations  | MicrosoftDocs"
-description: "Steps for enabling language translation for customer chats in the Omnichannel for Customer Service app."
-ms.date: 04/04/2022
-ms.topic: article
+title: Enable real-time translation of conversations
+description: Use the steps for enabling language translation for customer chats in the Omnichannel for Customer Service app.
+ms.date: 04/23/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 
 # Enable real-time translation of conversations

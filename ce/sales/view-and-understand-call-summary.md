@@ -5,6 +5,7 @@ ms.date: 06/29/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # View and understand call summary page in Conversation Intelligence app
 
@@ -25,8 +26,8 @@ The information on the call summary page helps both sellers and managers:
 
 ## Prerequisites
 
-- Configure conversation intelligence to process call recordings. More information: [Set up Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
-- To display the **Call Insights** tab in Sales Hub, ensure that [the latest version of Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) is installed in your organization.
+Configure conversation intelligence to process call recordings. More information: [Set up Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
+
 
 
 ## View the call summary page
@@ -53,7 +54,9 @@ The **Overview** tab displays the names of the people who participated in a conv
 
 ##### View categorization tag for short duration calls (Preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Conversation intelligence can detect and tag short duration calls for the following categories:
 

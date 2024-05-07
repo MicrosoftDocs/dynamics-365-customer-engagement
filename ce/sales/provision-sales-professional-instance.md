@@ -5,6 +5,7 @@ ms.date: 09/08/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Install the Sales Professional app

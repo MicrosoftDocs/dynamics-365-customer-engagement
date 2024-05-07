@@ -1,6 +1,6 @@
 ---
 title: Set up Field Service integration with finance and operations applications
-description: Set up the Dynamics 365 Field Service integration with finance and operations to synchronize inventories and budgeting items between the applications.
+description: Set up Dynamics 365 Field Service integration with finance and operations to synchronize inventories and budgeting items between the applications.
 ms.date: 04/19/2024
 ms.topic: overview
 ms.author: jacoh
@@ -13,13 +13,10 @@ Set up the integration between Dynamics 365 Field Service and finance and operat
 
 ## Prerequisites
 
-- You have system administrator permissions
-
-- Finance and operations applications have build version 10.0.39 (10.0.1860.56) and platform update 63 or later
-
-- [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm) is installed
-
-- Dynamics 365 Field Service version number is 8.8.116 or later
+- You have system administrator permissions.
+- Finance and operations applications have build version 10.0.39 (10.0.1860.56) and platform update 63 or later.
+- [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm) is installed.
+- Dynamics 365 Field Service version number is 8.8.114.26 or later.
 
 ## Enable the integration from finance and operations applications
 
@@ -37,11 +34,11 @@ Set up the integration between Dynamics 365 Field Service and finance and operat
 
 1. Open the **Dynamics 365 Field Service integration parameters** tab. For each legal entity that uses Field Service, provide the required values.
 
-   :::image type="content" source="media/fno-fs-project-mgmt-accouting.svg" alt-text="Screenshot of Finance and operations Project management and account parameters page for Field Service integration.":::
+   :::image type="content" source="media/fno-fs-project-mgmt-accouting.svg" alt-text="Screenshot of Finance and Operations Project management and account parameters page for Field Service integration.":::
 
 ### Enable and map dual-write
 
-The integration depends on [dual-write](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) to create a common understanding for primary tables. The work order transactional integration uses virtual tables and logic within Field Service and finance and operations applications to ensure transactional level alignment and transactional consistency. For more information about setting up dual-write, see [Guidance for dual-write setup](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/connection-setup).
+The integration depends on [dual-write](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) to create a common understanding for primary tables. The work order transactional integration uses virtual tables and logic in Field Service and finance and operations applications to ensure transactional level alignment and transactional consistency. For more information about setting up dual-write, see [Guidance for dual-write setup](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/connection-setup).
 
 1. Access **Workspaces** and select the **Data management** workspace.
 
@@ -50,13 +47,9 @@ The integration depends on [dual-write](/dynamics365/fin-ops-core/dev-itpro/data
 1. Select **Apply solution** in the command bar and apply the following solutions:
 
     - Dual-write applications core entity maps
-
     - Dynamics 365 Finance extended entity maps
-
     - Dynamics 365 Supply Chain Management extended entity maps
-
     - Dynamics 365 Human Resources entity maps
-
     - HCM Scheduling
 
 1. Select each of the following required table mappings. Then select **Run** and **Initial Sync**.
@@ -105,7 +98,7 @@ The integration relies on virtual tables and process execution in each user's co
 
 To ensure that the integration can successfully create item journals, [use default order settings that automatically apply a site](/dynamics365/supply-chain/production-control/default-order-settings) to all items you plan to use in Field Service. Otherwise, all work order products where the product is a Field Service product type inventory require a warehouse value before the item journal can be created. Once a work order product is marked as used, since Field Service requires a value in the Warehouse field, the integration can set the site. However, without default order settings, estimated work order products might not synchronize.
 
-### Configure inventory and warehouse management within warehouses
+### Configure inventory and warehouse management in warehouses
 
 To ensure that the integration can successfully integrate journals related to items that require location, we advise that all warehouses you plan to use with Field Service have **inventory and warehouse management** configured to define default locations. This configuration allows all work order products where the product's storage dimensions are configured to require location to successfully synchronize, even when created offline.
 
@@ -139,7 +132,7 @@ Depending on the nature of your organization's Field Service work, select a post
 
 ### Create products with project categories
 
-Update the products in Field Service with the project categories from finance and operations applications to map to the correct journal lines.
+To map to the correct journal lines, update the products in Field Service with the project categories from finance and operations applications.
 
 1. In **Field Service Settings**, select **Products and services**.
 
@@ -160,7 +153,7 @@ If your environment has custom security roles, add new table permissions. Update
 
 ### Align the work order to projects
 
-The **Finance and Operations project** field in Dynamics 365 Field Service is a required field when the work order's **System Status** is **Posted**. This field defines what project the work order is aligned with. Your organization can capture this value manually or can build automated logic to populate a value, which aligns with that organization's business processes.
+The **Finance and Operations project** field in Dynamics 365 Field Service is a required field when the work order's **System Status** is **Posted**. This field specifies the project associated with the work order. Your organization can capture this value manually or can build automated logic to populate a value, which aligns with that organization's business processes.
 
 Once populated, the integration synchronizes the work order with the selected project, creating a subproject in the finance and operations applications. The work order and subproject alignment is essential to ensure all work order transactions are correctly placed in the enterprise resource planning (ERP). By default, the subproject name is based on the work order number. Once the subproject is created through the synchronization transaction, the subproject is associated with the work order in Field Service.
 

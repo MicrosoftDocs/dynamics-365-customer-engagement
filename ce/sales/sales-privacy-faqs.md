@@ -5,6 +5,7 @@ ms.date: 07/31/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Privacy and security FAQs

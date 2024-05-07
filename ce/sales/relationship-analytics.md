@@ -5,7 +5,7 @@ ms.date: 04/21/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 ---
 
