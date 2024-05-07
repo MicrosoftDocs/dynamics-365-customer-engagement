@@ -32,19 +32,17 @@ Use the view list and queue list to filter and find items in queues.
 3. From the **All items** dropdown list, select the pin icon to pin the view that you want to appear on your dashboard. 
 
 1. The following options are available for view lists:
-
-  - **All Items in Selected Queues**: Displays all the cases from a selected queue.
-  - **Cases Available to Work On**: Displays cases that no one else is working on.
-  - **Cases I'm Working On**: Cases that you're currently working on.
-  -  **Items available to work on**: Activities and cases no one else is working on.
-  - **Items I am working on**: Items that you're currently working on.
- 
+   - **All Items in Selected Queues**: Displays all the cases from a selected queue.
+   - **Cases Available to Work On**: Displays cases that no one else is working on.
+   - **Cases I'm Working On**: Cases that you're currently working on.
+   -  **Items available to work on**: Activities and cases no one else is working on.
+   - **Items I am working on**: Items that you're currently working on.
 1. In the queue list, choose one of the following options to filter cases based on queues:
-   - \<Individual queues>
-   - All Queues
-   - All Public Queues
-   - Queues I'm a member of
-5. Select the checkbox next to the required item, and then select **Pick** from the command menu. The **Pick** dialog appears.
+    - \<Individual queues>
+    - All Queues
+    - All Public Queues
+    - Queues I'm a member of
+1. Select the checkbox next to the required item, and then select **Pick** from the command menu. The **Pick** dialog appears.
    > ![Pick a work item.](../media/pick-work-item-csh.png "Pick a work item")
 
 8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected **Yes** for the **Also remove the item(s) from the Queue** dropdown. If the item is in an advanced queue and is tracked through unified routing, the following actions occur:
@@ -74,13 +72,12 @@ Use the view list and queue list to filter and find items in queues.
   
 2. To move an activity or case to a different queue, select one of the following:
      - **Route**, and then select a queue
-     - **User/Team** and then select the user or team. When you assign the activity or case to someone else to work on, the **Worked By** field is set to that user or team. You also have the option to remove the item from the queue.
+     - **User/Team** and then select the user or team. When you assign the activity or case to someone else to work on, the **Worked By** field is set to that user or team. You also have the option to remove the item from the queue.<br>
 
-If the item is in the advanced queue and tracked through unified routing, the following actions occur:
+   If the item is in the advanced queue and tracked through unified routing, the following actions occur:
 
-- Your capacity is updated based on whether capacity profile or capacity units are configured.
-
-- Your presence is set to "Busy" or "Available" based on your available capacity.
+     - Your capacity is updated based on whether capacity profile or capacity units are configured.
+     - Your presence is set to "Busy" or "Available" based on your available capacity.
 
 ## Remove a record from a queue  
   
@@ -144,6 +141,5 @@ You can also select a view for your queues by navigating through Queues. You mus
 ### See also
 
 [Work with cases](customer-service-hub-user-guide-create-a-case.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
