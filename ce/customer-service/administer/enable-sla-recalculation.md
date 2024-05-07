@@ -1,6 +1,6 @@
 ---
 title: Recalculate service-level agreements
-description: Learn how to configure the recalculation of SLAs that reach the terminal status in Dynamics 365 Customer Service.
+description: Learn how to configure the recalculation of SLAs in Dynamics 365 Customer Service.
 ms.date: 05/07/2024
 ms.topic: how-to
 author: Soumyasd27
@@ -18,7 +18,7 @@ ms.collection: get-started
 
 # Recalculate service-level agreements
 
-The terminal states for SLA KPI Instances are succeeded, cancelled, and non-compliant. The recalculation of SLAs is as follows:
+The terminal states for SLA KPI Instances are succeeded, cancelled, and non-compliant. The recalculation of SLAs happens as follows:
 
 - If the SLA KPI Instance is in an expired state and the applicable when or success condition changes, the SLAs are recalculated if the recalculate flag is on.
 - If the SLA KPI Instance is in a cancelled state, SLAs aren't recalculated.
