@@ -70,11 +70,9 @@ Opens the specified application in a new tab with the attributes you define. The
 
 To create a macro that opens a tab template passing the tab template's unique name as a parameter and open a tab template based on the tab template's unique name, Add the **Open application tab** action with the following attributes: 
  - **Page type**: `Entity Record`
- - **Application Template ID** :`new_tabtemplate_customer`
+ - **Application Template ID** : bde86e2f-6bd1-48a9-baf9-dae720aa9f45
 
-> [!NOTE]
-> We recommend you use the unique name because it doesn't change when you use solutions to move components from different environments. 
-
+ 
 ## Refresh the session context
 
 Refreshes the session context in Customer Service workspace for entity sessions. For example, if you launch an entity session for a case record, the session context variables are defined when the session starts. However, if you update the case title, the session context isn't updated. Therefore, macros use the cached information. You can add the **Refresh the session context** step after starting the macro run to use the latest information.
