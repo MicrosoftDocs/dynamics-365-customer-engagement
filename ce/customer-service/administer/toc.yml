@@ -258,7 +258,7 @@
         href: ../../admin/system-settings-dialog-box-service-tab.md
       - name: Calculate SLA KPIs
         items:
-        - name: Recalculate SLAs in terminal status
+        - name: Recalculate service-level agreements
           href: enable-sla-recalculation.md
         - name: Enable custom time calculation of SLA KPIs
           href: enable-sla-custom-time-calculation.md
