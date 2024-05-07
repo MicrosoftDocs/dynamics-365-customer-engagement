@@ -12,7 +12,7 @@ author: ryanchen8
 ms.author: chenryan
 ---
 
-<!-- In line 51, do you mean snippet instead of snipped? -->
+<!-- In line 51, do you mean snippet instead of snipped? Also, I fixed the numbering with the indent change in line 39. -->
 
 # Extend Universal Resource Scheduling to filter bookable resources by territory hierarchy
 
