@@ -15,7 +15,9 @@ ms.collection: bap-ai-copilot
 
 With the Dynamics 365 Field Service Plugin for Microsoft Copilot, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Microsoft Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
 
-Copilot can also search through a work order's attachments to provide answers to questions. Attachments can be knowledge articles, manuals, or any documentation that can assist the technician in completing the work order. Frontline managers can upload information relevant to the work order before a technician is scheduled to arrive. Go to [Add attachments](flw-teams-manager.md#add-attachments-to-the-work-order). Frontline workers can quickly get answers such as required tools or step-by-step instructions from Copilot.
+Copilot can also search through a work order's attachments to provide answers to questions. Attachments can be knowledge articles, manuals, or any documentation that can assist the technician in completing the work order. Frontline managers must first upload the information relevant to the work order so that Copliot can access the information. Go to [Add attachments to a work order](flw-teams-manager.md#add-attachments-to-the-work-order).
+
+After a frontline manager has uploaded any relevant information to the work order, frontline workers can quickly get answers such as required tools or step-by-step instructions from Copilot.
 
 To access this chat feature, an admin must [set up Microsoft Copilot for Field Service work orders](flw-copilot-setup.md).
 
@@ -62,7 +64,7 @@ To access this chat feature, an admin must [set up Microsoft Copilot for Field S
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-To ask for information from uploaded attachments such as installation manuals, maintenance documents, or troubleshooting notes, tell Copilot to search through documents.
+To ask for information from [uploaded attachments](flw-teams-manager.md#add-attachments-to-the-work-order) such as installation manuals, maintenance documents, or troubleshooting notes, tell Copilot to search through documents.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 

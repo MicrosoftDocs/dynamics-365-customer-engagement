@@ -62,12 +62,14 @@ Create relationships between knowledge articles and other records, like incident
 1. To add an existing knowledge article to the work order:
 
    - Select **Add existing article** and search for the specific article.
-   - Select the link icon for the article and then select **Done**.
+   - Select the link icon for the article and then select **Done**. The article appears on the Work order's Reference tab.
 
 1. To add a new knowledge article to the work order:
 
    - Select **New article** and create the knowledge article.
    - Select **Save & Close**. The article is created and appears on the Work order's Reference tab.
+
+:::image type="content" source="media/knowledge-article-associate-asset.svg" alt-text="Screenshot of a Field Service work order, showing the related knowledge article.":::
 
 ## Next steps
 
