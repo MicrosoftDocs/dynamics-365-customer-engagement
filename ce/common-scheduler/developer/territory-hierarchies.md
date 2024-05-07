@@ -12,6 +12,8 @@ author: ryanchen8
 ms.author: chenryan
 ---
 
+<!-- In line 51, do you mean snippet instead of snipped? -->
+
 # Extend Universal Resource Scheduling to filter bookable resources by territory hierarchy
 
 The article discusses how to extend Universal Resource Scheduling to filter bookable resources and consider the territory hierarchical relationship. As a result when searching with a territory constraint, the system finds bookable resources matching child service territories that relate to the constraint.
@@ -34,13 +36,13 @@ By default, the territory field lets you choose multiple territory values. To co
 
 1. Change the territory field configuration to disallow multiple values:
 
-  `<control type="combo" source="entity" key="Territories" unspecified-key="UnspecifiedTerritory" label-id="ScheduleAssistant.West.Territories" entity="territory" multi="false"  />`
+   `<control type="combo" source="entity" key="Territories" unspecified-key="UnspecifiedTerritory" label-id="ScheduleAssistant.West.Territories" entity="territory" multi="false"  />`
 
 1. Change the filter layout to use the one you created and save your changes.
 
 ### Update retrieve resources queries
 
-To get the territory hierarchy and to consider resources from parent or child territories, modify the Retrieve Resources Query.
+To get the territory hierarchy and to consider resources from parent or child territories, modify the Retrieve resources query.
 
 1. [Open the schedule board settings](../schedule-board-tab-settings.md#board-settings) and go to the **Other** section.
 
@@ -85,7 +87,7 @@ To get the territory hierarchy and to consider resources from parent or child te
       </filter>
       ```
 
-   Change the directions of the hierarchy relationship by using `eq-or-under` or `eq-or-above` operator in the `<condition  entityname="territory" attribute="territoryid" operator="eq-or-under">` element. It defines if the query looks for resources from parent to child on the other way around.
+   Change the directions of the hierarchy relationship by using `eq-or-under` or `eq-or-above` operator in the `<condition  entityname="territory" attribute="territoryid" operator="eq-or-under">` element. It defines if the query looks for resources from parent to child or the other way around.
 
 1. Change the **Retrieve resources query** to use the one you created and save your changes.
 
@@ -93,13 +95,13 @@ To get the territory hierarchy and to consider resources from parent or child te
 
 The schedule assistant retrieves the service territory from the requirement. The configuration for the schedule assistant doesn't work on custom tabs or views. 
 
-1. [Open the schedule board settings](../schedule-board-tab-settings.md#board-settings) and go to the **Schedule types** > **Work orders**.
+1. [Open the schedule board settings](../schedule-board-tab-settings.md#board-settings) and go to **Schedule types** > **Work orders**.
 
 1. Select **Edit defaults** to update the schedule assistant configuration. You can reuse the previously created configuration or create new ones in the **Schedule assistant filter layout** and **Schedule assistant retrieve resources query**.  
 
 1. In the **Schedule assistant retrieve constraints query** section, change the territories element from `<Territories ufx:select="lookup-to-list(Requirement/msdyn_territory)" />` to `<Territories ufx:select="Requirement/msdyn_territory"/>`.
 
-1. Make sure that the updated query is selected and save your changes.
+1. Make sure to select the updated query and save your changes.
 
 ## See also
 
