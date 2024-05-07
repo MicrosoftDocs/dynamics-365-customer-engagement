@@ -61,5 +61,5 @@ No. Copilot supports knowledge articles published in the English language only.
 
 ### See also
 
-[Responsible AI FAQ for Copilot in Customer Service](../implement/faq-responsible-ai-copilot.md)
-[FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy)
+[Responsible AI FAQ for Copilot in Customer Service](../implement/faq-responsible-ai-copilot.md)  
+[FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy)  

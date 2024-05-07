@@ -2,12 +2,12 @@
 title: Define goal metric and rollup fields (Dynamics 365 Sales)
 description: To specify the goal metric type, participating tables, and whether you track actuals, custom or in-progress data, use the goal metric table (Metric) and the rollup field (RollupField) table
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 

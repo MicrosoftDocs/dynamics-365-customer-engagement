@@ -1,6 +1,6 @@
 ---
 title: Objects validated by the solution checker
-description: Learn about the rules in the Power Apps solution checker that identify tables, operations, and UI components requiring a Dynamics 365 license.
+description: Discover the rules in the Power Apps solution checker that identify tables, operations, and UI components requiring a Dynamics 365 license.
 author: vhorvathms
 ms.author: vhorvath
 ms.reviewer: mhart
@@ -11,13 +11,13 @@ ms.date: 03/19/2024
 
 # Objects validated by the solution checker
 
-The Power Apps solution checker identifies tables, operations, and UI components/controls that require a Dynamics 365 license. Refer to the following lists to understand, which objects it validates for a Dynamics 365 Field Service license.  For more information about the required license, see the [Licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+The Power Apps solution checker identifies tables, operations, and UI components/controls that require a Dynamics 365 license. Refer to the following lists to understand, which objects it validates for a Dynamics 365 Field Service license. For more information about the required license, see the [Licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
 The lists are subject to change as we add more tables, operations, and controls to the licensed usage list.
 
 ## Tables that require a license
 
-Create, update, and delete operations on the following tables require a Dynamics 365 Field Service license. Reading from these tables doesn't require a license. When you run the solution checker on your solution, it checks for the presence of restricted tables.
+To create, update, and delete operations on the following tables require a Dynamics 365 Field Service license. Reading from these tables doesn't require a license. When you run the solution checker on your solution, it checks for the presence of restricted tables.
 
 - msdyn_purchaseorder
 - msdyn_purchaseorderreceipt
@@ -33,7 +33,7 @@ Create, update, and delete operations on the following tables require a Dynamics
 - msdyn_inventorytransfer
 - msdyn_rmaproduct
 - msdyn_rmareceiptproduct
-- msdyn_rmasubstatus 
+- msdyn_rmasubstatus
 - msdyn_rtvproduct
 - msdyn_rtvsubstatus
 - msdyn_workorder

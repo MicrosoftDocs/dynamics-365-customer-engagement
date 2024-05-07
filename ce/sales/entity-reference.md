@@ -5,6 +5,7 @@ ms.date: 08/19/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Sales insights table/entity reference 
 

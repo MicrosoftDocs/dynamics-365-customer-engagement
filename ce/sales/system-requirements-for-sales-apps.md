@@ -3,7 +3,7 @@ title: System requirements for Sales Hub and Sales Professional apps
 description: Learn about the system requirements for using the Sales Hub and Sales Professional apps.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: conceptual 
 ms.date: 01/02/2023
 ms.custom: bap-template 

@@ -1,7 +1,7 @@
 ---
-title: "Channel analytics in Dynamics 365 Channel Integration Framework 2.0| MicrosoftDocs"
-description: "Read about the APIs that enable you to log analytics in Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 11/18/2022
+title: Channel analytics in Dynamics 365 Channel Integration Framework 2.0
+description: Learn about the APIs that enable you to log analytics in Dynamics 365 Channel Integration Framework 2.0.
+ms.date: 04/29/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -65,27 +65,15 @@ The `updateConversation` API can be invoked if the channel provider wants to enr
 
 ## How to enable analytics for your organization
 
-Channel Analytics can be enabled at a Dynamics 365 Channel Integration Framework provider level. It can be enabled using both the user interface and the Web API.
+Channel Analytics can be enabled at a Dynamics 365 Channel Integration Framework provider level. It can be enabled using the Web API.
 
-### Using app profile manager
+### Use Customer Service admin center
 
-1. Sign in to your [Power Apps](https://make.powerapps.com) portal.
+1. Navigate to **Workspaces**.
+1. Select **Third Party Provider**.
+1. Select **Enable Analytics**.
 
-2. Under the available apps, select the ellipses to the right of **Omnichannel for Customer Service** or **Customer Service workspace**.
-
-3. On the menu that appears, select **App profile manager**.
-
-4. Select **App profiles** from the site map, and then select your app profile.
-
-5. Select the **Channels** tab.
-
-6. Select **+ New** to add a new provider.
-
-7. In the **New Channel** page, set **Enable Analytics** field to **Yes**.
-
-![Enable channel analytics using user interface.](../../media/enable-channel-analytics.PNG "Enable channel analytics")
-
-### Using Web API
+### Use Web API
 
 1. Query for the provider record ID by using the following Web API request:
 

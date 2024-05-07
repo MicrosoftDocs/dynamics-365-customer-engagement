@@ -4,9 +4,9 @@ description: Configure who knows whom to help sellers quickly identify colleague
 ms.date: 08/07/2023
 ms.custom: 
 ms.topic: article
-ms.reviewer: shujoshi
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Configure who knows whom

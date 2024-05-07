@@ -6,6 +6,7 @@ ms.custom: bap-template
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Edit and retrain a lead scoring model

@@ -5,9 +5,9 @@ ms.date: 03/01/2023
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
-ms.reviewer: lavanyakr
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 

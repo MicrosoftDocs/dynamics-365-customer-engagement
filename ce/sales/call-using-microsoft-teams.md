@@ -5,6 +5,7 @@ ms.date: 10/17/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.collection:
 ms.custom:
   - bap-template
@@ -115,7 +116,9 @@ If you've missed a call, a notification is displayed in the in-app notification 
 
 ## Transfer a Teams call (preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 You can transfer a customer's call to a colleague's Teams line or their phone number.
 
@@ -136,7 +139,9 @@ You can transfer a customer's call to a colleague's Teams line or their phone nu
 
 ## Consult and transfer a Teams call (preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 You can consult a colleague before you transfer a customer's call to them. You can also consult a colleague and then answer the customer directly, without transferring the call.
 

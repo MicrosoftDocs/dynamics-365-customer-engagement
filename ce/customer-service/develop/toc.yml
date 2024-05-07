@@ -601,7 +601,19 @@
             - name: updateContext
               href: reference/properties/updateContext.md      
             - name: resolveSlug
-              href: reference/properties/resolveSlug.md              
+              href: reference/properties/resolveSlug.md    
+          - name: Event management
+            items:
+            - name: Events
+              items:
+              - name: ON_SESSION_SWITCH
+                href: reference/events/on_session_switch.md  
+              - name: ON_SESSION_CLOSED
+                href: reference/events/on_session_closed.md     
+            - name: Methods
+              items: 
+               - name: getEventPublisherTopic
+                 href: reference/methods/getEventPublisherTopic.md       
           - name: Readme
             href: https://go.microsoft.com/fwlink/p/?linkid=2141982
     - name: Responsible AI
