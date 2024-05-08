@@ -76,25 +76,17 @@ For outbound calls, set the capacity profile fields as follows:
 
 ## Assign personal phone numbers to agents
 
-You can assign personal phone numbers to agents to make outbound calls to customers.
+Personal Numbers allow agents to exclusively make calls from the chosen number. These are different from outbound profile numbers as personal numbers are linked to specific user records, not profiles. 
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-   
-    1. In the site map, select **Channels** in **Customer support**.
-    1. On the **Channels** page, select **Manage** for **Phone numbers**.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+You can assign personal phone numbers to agents to make outbound calls to customers as long as the number is not toll-free. To configure a personal phone number:
 
-   - In the site map, select **Phone numbers** in **General settings**.
+1. Acquire a Geographic Phone Number in Customer Service admin center. For details on how to acquire a phone number, please see Manage phone numbers | Microsoft Learn
 
 1. On the **Phone numbers** page, select **Setup** in **Ready for setup**, and in the dialog that appears, select **Assign to user**. The **Omnichannel Users** page displays a list of all agents.
 
 1. Select an agent to open the agent details page.
 
-1. Select the **Omnichannel** tab and select a phone number from the **Omnichannel Phone** field.
-   The phone number is now assigned exclusively to the agent to call customers.
+1. Select the **Omnichannel** tab and under the Omnichannel Phone section, search for your geographic number. Please use +1 when searching for the phone number. Click Save. The phone number is now assigned exclusively to the agent to call customers.
 
 > [!NOTE]
 > - You can assign to agents local phone numbers only as personal phone numbers; toll-free numbers can’t be assigned. Personal agent phone number calls always apply the default scoped outbound profile.
