@@ -12,8 +12,6 @@ author: ryanchen8
 ms.author: chenryan
 ---
 
-<!-- In line 51, do you mean snippet instead of snipped? Also, I fixed the numbering with the indent change in line 39. -->
-
 # Extend Universal Resource Scheduling to filter bookable resources by territory hierarchy
 
 The article discusses how to extend Universal Resource Scheduling to filter bookable resources and consider the territory hierarchical relationship. As a result when searching with a territory constraint, the system finds bookable resources matching child service territories that relate to the constraint.
@@ -48,7 +46,7 @@ To get the territory hierarchy and to consider resources from parent or child te
 
 1. In the **Retrieve resources query** section, create a new query and name it.
 
-1. Insert the following code snipped in the new query definition:
+1. Insert the following code snippet in the new query definition:
 
       ```XML
       
