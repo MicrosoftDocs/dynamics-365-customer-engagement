@@ -1,7 +1,7 @@
 ---
 title: Create and manage customer accounts
 description: Learn how to create and use service account and billing accounts in Dynamics 365 Field Service.
-ms.date: 01/24/2023
+ms.date: 05/08/2024
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -26,7 +26,7 @@ For example, a wine producer corporation owns several vineyards. Each vineyard i
 
 1. Select **Geo Code** at the top of the form to get the latitude and longitude of the service address, and then select **OK**.
 
-    You can also [turn on auto-geocoding](turn-on-auto-geocoding.md) to automatically get the coordinates of a service address.
+    You can also [turn on autogeocoding](turn-on-auto-geocoding.md) to automatically get the coordinates of a service address.
 
 1. (Optional) Enter as much of the information in the **Summary** tab as you like.
 
@@ -34,7 +34,7 @@ For example, a wine producer corporation owns several vineyards. Each vineyard i
 
 1. (Optional) Select the **Details** tab and enter the account's company profile information, contact preferences, and billing and shipping defaults.
 
-1. (Optional) Select the **Service** tab and enter accounting and service defaults for work orders associated with the account.
+1. (Optional) Select the **Servicing** tab and enter accounting and service defaults for work orders associated with the account.
 
     - **Billing Account**: Sets the billing account on the work order when this account is selected as the service account. If no billing account is specified, the service account acts as both the service account and the billing account.
 
@@ -46,13 +46,13 @@ For example, a wine producer corporation owns several vineyards. Each vineyard i
 
     - **Travel Charge Type**: Determines pricing and billing for [travel cost charged for a field technician](travel-charges.md) as a work order product.
 
-    - **Hourly**: A quantity that represents the **Actual Travel Duration** on the booking for a work order for every 60 minutes. For example, if the unit amount price of the travel charge is `60` and the actual travel duration is 30 minutes, the travel charge work order product will be priced as $30.
+      - **Hourly**: A quantity that represents the **Actual Travel Duration** on the booking for a work order for every 60 minutes. For example, if the unit amount price of the travel charge is `60` and the actual travel duration is 30 minutes, the travel charge work order product is priced as $30.
 
-    - **Mileage**: A quantity that represents the **Miles Traveled** on the booking for a work order. For example, if the unit amount price of the travel charge is `1` and the miles traveled is 20, the travel charge work order product will be priced as $20.
+      - **Mileage**: A quantity that represents the **Miles Traveled** on the booking for a work order. For example, if the unit amount price of the travel charge is `1` and the miles traveled is 20, the travel charge work order product is priced as $20.
 
-    - **Fixed**: This quantity is `1`. For example, if the unit amount price of the **Travel Charge** is `50`, the travel charge work order product will be priced as $50, regardless of the distance or the travel time.
+      - **Fixed**: This quantity is `1`. For example, if the unit amount price of the **Travel Charge** is `50`, the travel charge work order product is priced as $50, regardless of the distance or the travel time.
 
-    - **None**: No travel charge will be added to the work order.
+      - **None**: No travel charge is added to the work order.
 
     - **Work Hour Template**: Work template to use for this account.
 

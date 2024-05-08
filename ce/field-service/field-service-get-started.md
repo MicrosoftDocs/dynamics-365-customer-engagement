@@ -1,7 +1,7 @@
 ---
 title: Get started
 description: Learn how to get started with Dynamics 365 Field Service.
-ms.date: 03/14/2023
+ms.date: 05/08/2024
 author: jshotts
 ms.author: jasonshotts
 ms.custom: get-started
@@ -38,7 +38,7 @@ Field Service needs latitude and longitude values for service account records to
 
 1. Enable **Auto Geo Code Addresses** to let the system help assign coordinates to an address. For more information, go to [Turn on auto geocoding to calculate estimated travel time](turn-on-auto-geocoding.md).
 
-1. Enable map and location settings on work orders and other relevant records. For more information, see [Location and map settings](field-service-maps-address-locations.md).
+1. Enable map and location settings on work orders and other relevant records. For more information, go to [Location and map settings](field-service-maps-address-locations.md).
 
 1. Enable resource scheduling for entities. Go to **Resource Scheduling** > **Administration** > **Enable Resource Scheduling for Entities**. Verify that work orders are enabled for resource scheduling. For more information, go to [Enable an entity for scheduling in Dynamics 365 Field Service](schedule-new-entity.md).
 
@@ -46,9 +46,9 @@ Field Service needs latitude and longitude values for service account records to
 
 ## Assign Field Service licenses to users
 
-Create users or select existing users and assign them a license for Field Service. Users with a license can access the Field Service application, according to their user role. For more information, see [Set up Dynamics 365 Field Service users and security profiles](users-licenses-permissions.md).
+Create users or select existing users and assign them a license for Field Service. Users with a license can access the Field Service application, according to their user role. For more information, go to [Set up Dynamics 365 Field Service users and security profiles](users-licenses-permissions.md).
 
-Set up at least a dispatcher and a frontline worker. Dispatchers manage work orders for your organization. They schedule the work and assign it to a frontline worker, who will then complete the work for the customer.
+Set up at least a dispatcher and a frontline worker. Dispatchers manage work orders for your organization. They schedule the work and assign it to a frontline worker, who completes the work for the customer.
 
 ## Create customer accounts
 
@@ -67,7 +67,7 @@ Every customer of your company usually has its own account record. It lists thei
 
 ## Schedule a work order
 
-Schedule the work order to a frontline worker who will complete the work.
+Schedule the work order to a frontline worker to complete the work.
 
 There are [several ways to schedule a work order](universal-resource-scheduling-for-field-service.md). For manual scheduling, open the **Schedule Board** in the **Scheduling** section of the **Service** area.
 
@@ -85,6 +85,6 @@ For more information, see [Install and set up the Field Service mobile app](mobi
 
 ## Analyze your operations
 
-Back in the Field Service web application, service managers can [analyze day-to-day operations with Power BI reports](reports.md).
+In the Field Service web application, service managers can [analyze day-to-day operations with Power BI reports](reports.md).
 
-You'll see reports under **Analytics and Insights**.
+Reports appear under **Analytics and Insights**.
