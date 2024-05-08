@@ -33,16 +33,16 @@ The migration tool doesn't change the functioning of the existing rules or items
 
 ## Things to consider
 
-After you run the migration tool, you can view detailed results only for rules or items that have failed the premigration check or those items that were partially migrated or are incomplete.
+After you run the migration tool, you can view detailed results only for rules or items that failed the premigration check or those items that were partially migrated or are incomplete.
 
-When you rerun the migration tool, it picks up any updates or edits in the web client if the rule or item has been edited in the web client:
+When you rerun the migration tool, it picks up any updates or edits in the web client if the rule or item was edited in the web client:
 
-  - Prior to the actual migration.
+  - Before the actual migration.
   - To resolve errors after a failed migration attempt.
 
 The following updates or edits to a rule or item made in the web client aren't considered if:
 
-  - You edit the rule in the web client after it's successfully migrated to Unified Interface. For the edits to be visible in Unified Interface, you must delete the successfully migrated rule or item in Unified Interface and migrate it again from the web client.
+  - You edit the rule in the web client after it successfully migrates to Unified Interface. For the edits to be visible in Unified Interface, you must delete the successfully migrated rule or item in Unified Interface and migrate it again from the web client.
   - You edit the migrated rules in Unified Interface as well.
 
 To learn about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md) and [Define service-level agreements](define-service-level-agreements.md).
@@ -54,11 +54,11 @@ The migration progress is indicated on the page as follows; the colored circle i
 
 1. **Category to migrate:** Allows you to pick and choose the rules you want to migrate.
 
-2. **Pre-migration checkup:** Provides insights into any potential migration failures you might incur prior to beginning your migration.
+2. **Pre-migration checkup:** Provides insights into any potential migration failures you might incur before beginning your migration.
 
 3. **Rules and items to migrate:** Allows you to select the rules you want to migrate. 
 
-4. **Review** Provides you with the opportunity to go through any rules identified as having errors or issues, and fix them prior to migration.
+4. **Review** Provides you with the opportunity to go through any rules identified as having errors or issues, and fix them before migration.
 
 5. **Migration:** Post-migration, allows you to review the successfully migrated rules and rules that failed migration.
 
@@ -98,8 +98,8 @@ The annotations are explained as follows.
 |1|**Category**: An overview of the automatic record creation rules and SLAs.|
 |2|**Total**: Displays the number of rules available overall in the web client.|
 |3|**Migrated**: Displays the number of rules you migrated.|
-|4|**Pending**: Displays the number of rules in the web client that are pending migration, and includes failed rules, partially or incomplete migrated rules, and rules that haven't been attempted.|
-|5|**Migration status**: Displays whether migration has started.|
+|4|**Pending**: Displays the number of rules in the web client that are pending migration, and includes failed rules, partially or incomplete migrated rules, and rules that weren't attempted.|
+|5|**Migration status**: Displays whether the migration started.|
 |6|**Refresh**: Allows you to update migration status.|
 |7|**Start migration**: Allows you to begin the migration process.|
 
@@ -123,7 +123,7 @@ The annotations are explained as follows.
 
 ### Premigration checkup
 
-The **Step 2** page provides a premigration check that displays what the actual migration results will look like so you can mitigate potential migration failures before you begin.  
+The **Step 2** page provides a premigration check that displays what the actual migration results look like so you can mitigate potential migration failures before you begin.  
 
 The check can be done on automatic record creation rules and or SLAs, depending on your selection on the previous screen.
 
@@ -265,7 +265,7 @@ Select a rule with the **\_migrated** suffix to view its details. On the **Migra
 
 ### View successfully migrated rules
 
-By default, the status of a successfully migrated rule displays as "Migrated".
+By default, the status of a successfully migrated rule displays as **Migrated**.
 
 ![Migration tool - Step 6 - Migration status.](../media/migration-tool-step-6-first-time-users-3a.png "Migration tool - Step 6 - Migration status")
 
