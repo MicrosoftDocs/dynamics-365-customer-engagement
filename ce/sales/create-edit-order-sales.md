@@ -1,7 +1,7 @@
 ---
-title: Create or edit sales orders in Dynamics 365 Sales
+title: Create or edit sales orders
 description: Use orders to track details of the products or services that your customers want to place an order for.
-ms.date: 04/22/2024
+ms.date: 05/08/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -45,7 +45,7 @@ Typically, you convert a quote that you have won into an order. Start with an ac
 
 2. Select the quote you want to create an order for.
 3. On the command bar, select **Activate Quote**.
-4. At the top of the **Quote** form, select **Create Order**.
+4. After the quote is activate, select **Create Order** on the command bar.
     > [!NOTE]
     > In the Sales Professional app, the **Create Order** option is available only if your administrator has [enabled creation of orders from quotes](enable-creation-of-orders-from-quotes.md)
 5. In the **Create Order** dialog box, the **Date Won** field is set to the current date. Select a different date if required.
@@ -73,14 +73,19 @@ You can create an order that is based on your communication with a customer inst
    - **Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices.
     > [!NOTE]
     > By default, selecting a price list is required to be able to add products to an order. However, your administrator can change your organization settings to make the Price list field optional.
-   - **Prices Locked**. This field is read-only. You can change it after you save the order. More information: [Lock or unlock the price for an order or invoice](lock-unlock-price-order-invoice.md), [Sales transactions in Dynamics 365 Sales](sales-transactions.md)
+   - **Prices Locked**. This field is read-only. You can change it after you save the order. For more information, see [Lock or unlock the price for an order or invoice](lock-unlock-price-order-invoice.md).
+
 4. In the **Sales Information** section, in **Potential Customer**, select the customer you're creating this order for.
-5. Save the changes.
-6. To add products from a previously created opportunity to your order, select the **More commands** icon :::image type="icon" source="media/more-commands-button.png" alt-text="Screenshot of More commands icon" border="false"::: in the **PRODUCTS** section and select **Get Products**. Select the corresponding opportunity, and then select **OK**.
+  
+5. On the command bar, select **Save** to create the order record.  
+  
+6. To add products from your opportunity to your order, select the **More options** icon ![More commands icon](media/more-commands-button.png "More commands icon") and then choose **Get Products**, select your opportunity, and select **OK**.  
+  
     -OR-
-    To manually add other products, in the **Products** section, select the **More commands** icon :::image type="icon" source="media/more-commands-button.png" alt-text="Screenshot of More commands icon" border="false":::, and then select **Add New Order Product**. More information: [Add products to Quote, invoice, or order records](add-product-quote-order-invoice.md)
+    To manually add other products, in the **Products** section, select **Add Product**. For more information, see [Add products to Quote, invoice, or order records](add-product-quote-order-invoice.md). If your administrator has configured the enhanced experience for adding products, you'll see the **Add Products** button. For more information about adding products using the enhanced experience, see [Find and add multiple products to quotes, orders, or invoices](add-products-qoi-enhanced.md). 
    > [!NOTE]
    > You need to enter the tax amount when you add a product to a quote, order, or invoice. Dynamics 365 Sales does not automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.
+
 7. In the **Shipping Information** area, enter shipping details.
 8. In the **Addresses** area, enter shipping and billing addresses.
 9. Select **Save** in the lower-right corner of the screen.
