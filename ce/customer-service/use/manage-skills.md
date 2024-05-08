@@ -1,7 +1,7 @@
 ---
 title: Manage skills
 description: Learn how to view or remove existing skills, and add new skills using the skill control in Omnichannel for Customer Service.
-ms.date: 03/08/2023
+ms.date: 05/10/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

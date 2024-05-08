@@ -1,7 +1,7 @@
 ---
-title: "Agent scripts in the Omnichannel for Customer Service app | MicrosoftDocs"
-description: "The information mentioned in this article can help you learn how to use agent scripts in the Omnichannel for Customer Service app."
-ms.date: 05/26/2022
+title: Agent scripts in the Omnichannel for Customer Service app
+description: Learn how to use agent scripts in Customer Service workspace and serve customers faster.
+ms.date: 05/10/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -37,7 +37,7 @@ Each of the steps can be identified with the actionable icon. When you expand a 
 
 ## Prerequisite
 
-Ensure you (agent and supervisor) have the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](../implement/add-users-assign-roles.md).
+Make sure you (agent and supervisor) have the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](../implement/add-users-assign-roles.md).
 
 ## Text instructions
 
@@ -106,7 +106,7 @@ Similarly, the administrator can create more agent scripts as per your business 
 
 ### See also
 
-[Guide agents with scripts](../administer/agent-scripts.md)
+[Guide agents with scripts](../administer/agent-scripts.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 06/07/2023 
+ms.date: 05/10/2024 
 ms.custom: bap-template 
 ---
 
@@ -20,7 +20,7 @@ To turn on call forwarding:
 
 ## How call forwarding in Teams works
 
-When a Teams call is forwarded to the digital contact center, the contact center agent sees the phone number the customer called from. If the customer is in Dynamics 365, more contact details are provided.
+When a Teams call is forwarded to the digital contact center, the contact center agent sees the phone number the customer called from. If the customer is in Dynamics 365, more contact details are available.
 
 Call forwarding is supported in the following scenarios:
 
