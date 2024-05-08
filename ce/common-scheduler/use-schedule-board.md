@@ -1,7 +1,7 @@
 ---
 title: Experience the schedule board in Universal Resource Scheduling
 description: The new schedule board is faster, with better usability and additional capabilities."
-ms.date: 10/20/2023
+ms.date: 05/08/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: article
