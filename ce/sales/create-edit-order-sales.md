@@ -45,7 +45,7 @@ Typically, you convert a quote that you have won into an order. Start with an ac
 
 2. Select the quote you want to create an order for.
 3. On the command bar, select **Activate Quote**.
-4. After the quote is activate, select **Create Order** on the command bar.
+4. After the quote is activated, select **Create Order** on the command bar.
     > [!NOTE]
     > In the Sales Professional app, the **Create Order** option is available only if your administrator has [enabled creation of orders from quotes](enable-creation-of-orders-from-quotes.md)
 5. In the **Create Order** dialog box, the **Date Won** field is set to the current date. Select a different date if required.
