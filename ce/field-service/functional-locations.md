@@ -127,6 +127,10 @@ The following video offers a guided walk-through of using functional locations i
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
 
+> [!NOTE]
+> Filtering Functional Locations by Service Account is not supported in the offline-enabled Field Service Mobile application. 
+>
+
 ## Functional locations for cases
 
 If your organization's service workflow starts with a **Case**, you can associate functional locations there as well, in the case record's **Field Service** tab.
