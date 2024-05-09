@@ -28,7 +28,7 @@ For example, a wine producer corporation owns several vineyards. Each vineyard i
 
     You can also [turn on autogeocoding](turn-on-auto-geocoding.md) to automatically get the coordinates of a service address.
 
-1. (Optional) Enter as much of the information in the **Summary** tab as you like.
+1. (Optional) Enter information in the **Summary** tab.
 
     Adding or updating an account's summary information won't update existing work orders, but will be reflected in future work orders.
 
@@ -42,7 +42,7 @@ For example, a wine producer corporation owns several vineyards. Each vineyard i
 
     - **Tax Exempt**: Determines whether sales tax is added to the price of work orders. Set to **Yes** to *not* add sales tax. Set to **No** to [specify a sales tax code](set-up-tax-codes.md) for the work order price and invoice.
 
-    - **Service Territory**: [Territories for accounts, work orders, and resources](set-up-territories.md) are geographical regions, which are used in work orders and resource scheduling.
+    - **Service Territory**: Sets the [geographical regions for accounts, work orders, and resources](set-up-territories.md), which are used in work orders and resource scheduling.
 
     - **Travel Charge Type**: Determines pricing and billing for [travel cost charged for a field technician](travel-charges.md) as a work order product.
 

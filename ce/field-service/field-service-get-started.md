@@ -4,12 +4,13 @@ description: Learn how to get started with Dynamics 365 Field Service.
 ms.date: 05/08/2024
 author: jshotts
 ms.author: jasonshotts
-ms.custom: get-started
+ms.topic: overview
+ms.custom: bap-template
 ---
 
 # Get started
 
-This article helps organizations to get started. It guides you through the first steps with the application and the scenario of creating and scheduling a work order to resolve a customer's service request.
+This article guides you through the first steps with the application and the scenario of creating and scheduling a work order to resolve a customer's service request.
 
 :::image type="content" source="media/get-started-page.png" alt-text="Screenshot of the Get Started page in Dynamics 365 Field Service with a highlight on the navigation item.":::
 

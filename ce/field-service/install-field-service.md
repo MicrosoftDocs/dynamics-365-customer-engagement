@@ -12,13 +12,13 @@ ms.search.app:
 
 # Install Dynamics 365 Field Service
 
-After getting a trial or purchasing Dynamics 365 Field Service, the Field Service application is automatically installed. Verify the installation is complete.
+Once a trial or license for Dynamics 365 Field Service is purchased, the Field Service application installs automatically. Verify the installation is complete.
 
 If the installation is complete, the "Field Service" and "Field Service Mobile" apps appear in the list of apps when you sign in to your Dynamics 365 organization. You can find these apps by going to:
 
 ```https://[your-environment-name].crm.dynamics.com/apps```
 
-:::image type="content" source="media/admin-apps.png" alt-text="Screenshot of Field Service apps.":::
+:::image type="content" source="media/admin-apps.svg" alt-text="Screenshot of Field Service apps.":::
 
 ## Install and set up the Dynamics 365 Field Service mobile app
 
