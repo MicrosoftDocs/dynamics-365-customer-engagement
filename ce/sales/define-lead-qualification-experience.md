@@ -1,8 +1,9 @@
 ---
 title: Define lead qualification experience in Dynamics 365 Sales
 description: Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified.
-ms.date: 10/11/2022
-ms.topic: article
+ms.date: 05/09/2024
+ms.topic: how-to
+ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -17,9 +18,10 @@ searchScope:
 ---
 # Define the lead qualification experience  
 
-Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified. 
+Give your salespeople the flexibility to choose which records to create&mdash;account, contact, or opportunity&mdash;when a lead is qualified. 
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -28,34 +30,14 @@ Give your salespeople the flexibility to choose which records to create—accoun
 
 ## Define the experience  
 
-1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
+1. In the Sales Hub app, select the Change area icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") at the bottom of the site map, and then select **App Settings**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+2. Under **General Settings**, select **Lead + Opportunity management** > **Lead Qualification**.
 
-    The **Business Management** page opens.
+3. Turn on **Auto-create records for newly qualified leads** and save the changes.
+   When sellers qualify a lead, the system automatically creates the corresponding account, contact, and opportunity records. For information about the fields that are automatically mapped from the lead to other entities, see [Field mappings to other entities](#field-mappings-to-other-entities).
 
-2.    Select **Settings**, then **Administration**, and then **System Settings**.
-
-3.    Select the **Sales** tab.
-
-4.    Under **Qualify lead experience**, set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No**.
-
-This prompts salespeople to select which record types to be created once a lead is qualified. 
-
-If you set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **Yes**, Account, Contact, and Opportunity records are created by default. 
-
-This behavior is applicable on all the leads that are qualified after this setting is updated.
-
-With the April 2020 release, this setting is also available in the **App Settings** area of the Sales Hub app itself. 
-
-To go to this setting:
-
-1. At the bottom of the site map, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
-
-2. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Auto-create records for newly qualified leads**.
-
-## Field mappings to other entities 
+## Field mappings to other entities
 
 When a lead is qualified, values of some fields from leads are automatically mapped to the corresponding fields in accounts, contacts, and opportunities.  
 
@@ -74,13 +56,13 @@ When a lead is qualified, values of some fields from leads are automatically map
 | Company | Account name |
 | Website | Website |
 | Business Phone | Phone |
-| Street 1 | Adress 1: Street 1 |
-| Street 2 | Adress 1: Street 2 |
-| Street 3 | Adress 1: Street 3 |
-| City | Adress 1: City |
-| State/Province | Adress 1: State/Province |
-| ZIP/Postal Code | Adress 1: ZIP/Postal Code |
-| Country/Region | Adress 1: Country/Region |
+| Street 1 | Address 1: Street 1 |
+| Street 2 | Address 1: Street 2 |
+| Street 3 | Address 1: Street 3 |
+| City | Address 1: City |
+| State/Province | Address 1: State/Province |
+| ZIP/Postal Code | Address 1: ZIP/Postal Code |
+| Country/Region | Address 1: Country/Region |
 
 **Fields mapped to contact**
 
@@ -92,13 +74,13 @@ When a lead is qualified, values of some fields from leads are automatically map
 | Business Phone | Phone |
 | Mobile phone | Mobile phone |
 | Email | Email |
-| Street 1 | Adress 1: Street 1 |
-| Street 2 | Adress 1: Street 2 |
-| Street 3 | Adress 1: Street 3 |
-| City | Adress 1: City |
-| State/Province | Adress 1: State/Province |
-| ZIP/Postal Code | Adress 1: ZIP/Postal Code |
-| Country/Region | Adress 1: Country/Region |
+| Street 1 | Address 1: Street 1 |
+| Street 2 | Address 1: Street 2 |
+| Street 3 | Address 1: Street 3 |
+| City | Address 1: City |
+| State/Province | Address 1: State/Province |
+| ZIP/Postal Code | Address 1: ZIP/Postal Code |
+| Country/Region | Address 1: Country/Region |
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
