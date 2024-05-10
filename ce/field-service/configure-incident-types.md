@@ -21,9 +21,9 @@ For example, an incident type can be:
 
 Organizations benefit from using incident types because they codify issues, procedures, and resolutions, and help standardize processes across geographies and business lines. Incident types ensure all field technicians are performing the same actions to resolve work orders. If you discover better procedures, update the incident type, and it's immediately available to the entire organization.
 
-Incident types are also helpful for reporting. They let you discover trends for specific issues. Rather than reporting on work order types to understand the number of repair work orders, an incident type lets you report on the number of power failures for a specific asset category.
+Incident types help with reporting. They let you discover trends for specific issues. Rather than reporting on work order types to understand the number of repair work orders, an incident type lets you report on the number of power failures for a specific asset category.
 
-Other important incident type features include:
+With incident type, you can:
 
 - Add multiple incident types per work order to define multiple issues or procedures that need to be completed.
 
@@ -33,11 +33,9 @@ Other important incident type features include:
 
 ## Prerequisites
 
-Because incident types represent a grouping of [service tasks](set-up-service-task-types.md), [products](create-product-or-service.md), and [services](create-product-or-service.md), we recommend you create these records first.
+- Because incident types represent a grouping of [service tasks](set-up-service-task-types.md), [products](create-product-or-service.md), and [services](create-product-or-service.md), we recommend you create these records first. The service tasks, products, and services can be associated to multiple incident types. For example, "Put on safety equipment" is a service task that needs to be completed frequently. Create this service task once and associate it to the relevant incident types. There will then be one list of unique service tasks that are added to incident types, which create **Incident Type Service Task** records. The same is true for products, services, and characteristics.
 
-The service tasks, products, and services can be associated to multiple incident types. For example, "Put on safety equipment" is a service task that needs to be completed frequently. Create this service task once and associate it to the relevant incident types. There will then be one list of unique service tasks that are added to incident types, which create **Incident Type Service Task** records. The same is true for products, services, and characteristics.
-
-You need the *Field Service - Administrator* security role to create incident types.
+- You have the **Field Service - Administrator** security role.
 
 ## Create an incident type from a work order form
 
@@ -45,15 +43,15 @@ Capture a work order quickly as a template.
 
 1. In Field Service, change to the **Service** area.
 
-1. Open a work order record and select **Create Incident Type** in the command bar.
+1. Open a work order and select the **Incident type** field and select **+New Incident Type**.
 
 1. Provide an **Incident Type Name** and an optional **Description**.
 
-   :::image type="content" source="media/work-order-create-from-incident-type.png" alt-text="Screenshot of the create incident type form.":::
+   :::image type="content" source="media/work-order-create-from-incident-type.svg" alt-text="Screenshot of the create incident type form.":::
 
-1. Update other values as needed. Remove related records that you don't want to copy. The estimated duration is read-only if the value is derived from related tasks.
+1. Select other tabs and update other values as needed.
 
-1. Select **Create Incident Type** to save the template.
+1. Select **Save & Close**.
 
 ## Create an incident type from scratch
 
@@ -67,11 +65,11 @@ Create incident types from the incident types form.
 
 1. On the **General** tab, provide a **Name** and an optional **Description**.
 
-   :::image type="content" source="media/work-order-incident-type-general.png" alt-text="Screenshot of a new incident type.":::
+   :::image type="content" source="media/work-order-incident-type-general.svg" alt-text="Screenshot of a new incident type.":::
 
 1. On the **Details** tab, set the values.
 
-   :::image type="content" source="media/work-order-incident-type-details.png" alt-text="Screenshot of incident type entity showing the details tab.":::
+   :::image type="content" source="media/work-order-incident-type-details.svg" alt-text="Screenshot of incident type entity showing the details tab.":::
 
    - **Default Work Order Type**: The work order type that applies to a work order when a user chooses this incident type.
 
@@ -86,7 +84,7 @@ Create incident types from the incident types form.
 
      - Add incidents to agreements for recurring work to generate work orders with related work order incidents. However, incident types can be updated as processes and procedures change. Since agreements can span multiple months or years, changes on the incident types can result in different work being performed than originally intended. Set the option to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation. Set to **No** to use the latest incident type details when the [agreement generates work orders](configure-default-settings.md#agreement-settings).
 
-1. Select **Save** to create the *Incident Type* record.
+1. Select **Save**.
 
 1. Add related records:
 
