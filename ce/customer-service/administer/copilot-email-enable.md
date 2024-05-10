@@ -77,7 +77,7 @@ In Customer Service admin center, go to **Copilot help pane** and perform the st
 
 ### See also
 
-[Understand Copilot language support](../use/copilot-language-support.md)
-[Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  
-[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md) 
+[Understand Copilot language support](../use/copilot-language-support.md)  
+[Manage copilot features in Customer Service](../administer/configure-copilot-features.md)   
+[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md)    
 [Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
