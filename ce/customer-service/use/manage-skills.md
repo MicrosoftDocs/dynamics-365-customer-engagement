@@ -18,14 +18,14 @@ search.audienceType:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Dynamics 365 comes with an out-of-the box skill control for messaging channels. When added to the case or conversation forms, the skill control enables you to view and update skills. Your administrator can enable the setting that allows you to update skills at runtime.
+Dynamics 365 comes with an out-of-the-box skill control for messaging channels. When your administrator adds the skill control to the case or conversation forms and enables it for you, you can view and update skills at runtime.
 
 > [!NOTE]
-> For the record type entity, you'll need to customize the case form to add the skill control. More information: [Add a skill control for routed records](../develop/add-skill-control.md)
+> For the record type table, customize the case form to add the skill control. More information: [Add a skill control for routed records](../develop/add-skill-control.md)
 
-When you receive a work item in your queue, you can view the skills required to do the work in the **Skills** field of your case or conversation record. For each work item, you can view skills that have been attached by the manual skill classification rules and those that were identified by the machine-learning skill finder models.
+When you receive a work item in your queue, you can view the skills required by the work in the **Skills** field of your case or conversation record. For each work item, you can view skills that have been attached by the manual skill classification rules and those that were identified by the machine-learning skill finder models.
 
-In the following screenshot, **Refund** is a skill attached by the manual skill classification rules, whereas skills with percentage rating such as **99% Heating** and **99% Electrical** are those that have been identified by the machine-learning model.
+In the following screenshot, **Refund** is a skill attached by the manual skill classification rules, whereas skills with percentage rating such as **99% Heating** and **99% Electrical** are identified by the machine-learning model.
 
 > [!div class="mx-imgBorder"]
 > ![Add skills.](../media/skill-control.png "Add skills.")
@@ -37,7 +37,7 @@ In the following screenshot, **Refund** is a skill attached by the manual skill 
 
 If upon assessing the work item, you think that the relevant skills are missing or incorrect, you can choose to update the skills.
 
-To add skills, select the **Add skill** field and enter a skill name. As you enter one or more letters, a list of skill names are suggested in the dropdown list; select the relevant skill from the dropdown list. Add as many skills as you think are appropriate for the work item.
+To add skills, select the **Add skill** field and enter a skill name. As you enter one or more letters, the application suggests a list of skill names in the dropdown list; select the relevant skill. Add as many skills as you think are appropriate for the work item.
 
 To remove skills, select **X** next to each skill that you want to delete.
 
