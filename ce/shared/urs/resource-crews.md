@@ -77,6 +77,7 @@ Assign a single requirement to the crew resource to create a booking for the ent
 You can't manually schedule requirement groups to crews, only single requirements.
 
 The [schedule assistant](../../field-service/schedule-assistant.md) shows each crew member as individual resources. If booked, only that single resource gets a booking. The crew resource can also return in the results if the working hours and other constraints match. Booking a crew books all crew members and the crew under the following conditions:
+
 1. The booking falls within the "FromDate" and the "ToDate" configured for the bookable resource group belonging to the crew member.
 2. There are work hours confiugred for the crew member on the day(s) of the booking and the booking falls within those work hours.
 
@@ -108,3 +109,39 @@ You can still book a crew with excess resources. All of the bookings will link t
 Sometimes when searching for availability, the crew may need more resources in order to meet the requirements.
 
 The schedule assistant will combine crews and individual resources to fulfill a requirement group and even note which resources are part of the crew.
+
+## Quickly change a resource's crew membership for a day
+
+You can quickly make membership changes for crew resources by changing the crew allocation. Swap a resource from one crew to another, add an unassigned resource to a crew, or remove a resource from a crew. These changes apply for a single day in the crew's time zone. All future bookings for that day reflect the changes on the members' schedules.
+
+> [!NOTE]
+> To make changes to crews for longer than a day, edit the crew configuration directly.
+
+To access the crew allocation tool, go to the the **Resources** page and open a view that has at least one crew type resource. Select **Crew Allocation** in the command bar. Crews show in the tool according to their order in the view. You can edit up to fifteen crews simultaneously.
+
+### Crew allocation tool features
+
+- Crew membership grid: Each crew has information about the number of resources that are available and expected for that crew, and the crew's time zone. An added resource is a member of that crew that from 12:00am to 12:00am in the crew's time zone. Resources that are assigned to the crew is listed alphabetically if they have a membership range that includes the majority of the given day in the crew's time zone.
+- Bookings grid: Beneath the members, there is a collapsible grid section of all the bookings that crew has for the day. These bookings are not manipulable in the Crew Allocation tool but can be clicked to open the record for more details.
+Available Resources Panel
+Beneath the crews grid is the Available Resources panel. This is a list of resources that have working hours and are not members of  any crew for the active day. As they cannot be assigned to crews, resources with types Crew, Pool, or Generic will also not be listed. Note that this list does not factor in any bookings the resource may have for the day or their open capacity, simply that they are working on this day.  This list is based on the views defined in the Resources page and the view can be changed by using the dropdown/search at the top of the panel.  Users can also search for resources by name using the search box. Note that prior to saving any resources removed from a crew using the view will appear at the top of the first page of the list, regardless of the selected view. 
+TIP: Note that the size of the Crews Grid and the Available Resources panels can be adjusted by manipulating the grab point on the bottom right corner of the last crew. 
+Using the Crew Allocation Tool
+By default, the tool opens to the current day based on the computer’s local time. This can be changed using the date picker in the command bar. Note that any changes already made must be either saved or discarded before changing the active day.
+Unsaved changes are noted by a blue flag in the corner of added resources’ cards and a blue icon next to a removed resource’s name in the Available Resources panel. No changes will be implemented until users click the Save or Save and Close button. 
+Assign Members
+The Crew Allocation Tool’s primary modality is drag and drop. Resources can be dragged from one crew to another or dragged up from the Available resource panel. Users can also use the Assign to Crew modal accessed through the button on the command bar or through the hover menu on each resource. This opens a drop down menu to select the target crew. 
+Remove Members
+To remove a resource, either select it and click Remove on the command bar or click remove on the three dot hover menu next to the resource name. You can also use the Remove All button in the command bar to clear the Crews grid. 
+Multi-Select
+To move multiple resources at a time from the Crews grid, hold the control/command key (depending on your operating system) while making your selection. To move multiple resources from the Available Resources panel, either hold control/command or use the check boxes next to the resources to define your selection. To multi-select from both components, make your selection in the Available Resources panel first, and then add resources from the Crews grid while holding control/command.  This multi-selection will apply to drag/drop, remove, and Assign to Crew. 
+After the Save
+Membership Changes
+Immediately after saving, the membership changes will take effect. New members will get a full day membership in the target crew’s time zone. If this abuts an existing membership on either or both ends, the memberships will be merge. Removed members will have their existing memberships split, with a full day gap, if the existing membership spans longer than the crew's day on either end or shortened so as not to include the active day. If there are small overlaps without bookings, such as when moving a resource from a crew in one time zone to an adjacent time zone, the conflicting memberships will be resolved in favor of the target crew. While this action is in progress, no further changes can be made. 
+Bookings Cascade
+After the membership changes conclude, bookings will begin to cascade asynchronously. New members will have all active, non-cancelled bookings that take place entirely in the future and end on the given day added to their schedule. This means that if a booking has already begun, it will not be added to the new crew member’s schedule even it occurs on the active day. Similarly, if a booking ends after the active day, it will not be added. Members who are removed from a crew will have that days future crew bookings change status to cancelled. This may take up to a few minutes to finish processing in the background depending on the number of bookings and resources impacted. 
+No changes will be made to an added/removed resource’s existing individual bookings for the day. 
+
+TIP: For field service users working Crew Leader Managed crew strategies, note that when a resource that was previously a leader is added to a crew using the Crew Allocation tool, it will lose its leadership status. To make them a leader on their new temporary crew, please use the existing crew management system. 
+
+
