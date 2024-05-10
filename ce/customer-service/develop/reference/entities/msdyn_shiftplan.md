@@ -629,14 +629,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|BigInt|
 
 
-<<<<<<< HEAD
-
-### See also
-
-[About the Entity Reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_shiftplan?text=msdyn_shiftplan EntityType" />
-=======
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
@@ -644,4 +636,3 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
->>>>>>> e68454937d941dea8ea172d74e4a59e9ef90e778
