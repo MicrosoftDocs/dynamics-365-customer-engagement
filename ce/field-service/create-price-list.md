@@ -51,7 +51,7 @@ Add products and services as price list items to the price list. For more inform
    - **Pricing Method**: **Currency Amount**
    - **Amount**: The price of the product or service or the hourly rate for services.
 
-1. Select **Save** to create the **Price List Item*** record.
+1. Select **Save**.
 
 ## Add Field Service price list items
 
@@ -65,12 +65,12 @@ You can add more pricing options for products and services by creating **Field S
 
 1. On the **General** tab, enter the following information:
 
-   - **Name**
-   - **Duration Rounding Policy**
+   - **Name**: Name for the item.
+   - **Duration Rounding Policy**: How the system should round the Duration To Bill.
    - **Flat Fee**: **Yes** applies a fixed price to a service, regardless of duration. The fixed price is derived first from the price list item amount, and then the list price on the product record.
    - **Minimum Charge Duration**: The time *not billed* before charging the customer.
    - **Product/Service**: If you don't add a product or service, the options apply to all services added to a work order when selecting the parent price list. For example, if you want to add a minimum charge amount to all services in the price list, don't add a product or service. It saves time because you don't need to add all services as Field Service Price List Items.
-   - **Duration Round To**
+   - **Duration Round To**: The rounding duration.
    - **Minimum Charge Amount**: A base fee for a service. The amount is added on to the final price regardless of the amount charged.
   
    :::image type="content" source="media/price-list-field-service-price-list-item.png" alt-text="Screenshot of a Field Service price list item.":::

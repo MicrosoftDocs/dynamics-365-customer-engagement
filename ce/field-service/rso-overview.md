@@ -26,7 +26,7 @@ business to scale to new territories or service offerings.
 
 - **Improve customer satisfaction**: Improving efficiency drives more predictable arrival and completion times and seamlessly schedules technicians for urgent situations.
 
-- **Efficient technicians**: Fitting more appointments into working hours drives revenue and reduces overtime costs. Matching work orders and technician skills reduces inefficient time allocation.
+- **Improve technician efficiencies**: Fitting more appointments into working hours drives revenue and reduces overtime costs. Matching work orders and technician skills reduces inefficient time allocation.
 
 - **Minimize travel time**: Ensuring your technicians are taking the shortest possible route with turn-by-turn directions reduces fuel consumption and wear and tear on vehicles. Savings likely surpass the cost of the add-in licenses.
 
