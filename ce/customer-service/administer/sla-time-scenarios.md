@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 02/27/2024
+ms.date: 05/07/2024
 ms.custom: bap-template
 ---
 
@@ -264,5 +264,8 @@ When you use custom time calculation for SLA KPIs, the active duration isn't cal
 
 ## See Also
 
+[Warning and failure duration times are incorrect for SLA](/troubleshoot/dynamics-365/customer-service/service-level-agreements/warning-failure-times-incorrect-sla)
+
 [Manage changes to customer service and holiday schedules of existing SLA KPIs](../administer/change-schedules.md#manage-changes-to-customer-service-and-holiday-schedules-of-existing-sla-kpis)  
+
 [Create and manage holiday schedules](../administer/set-up-holiday-schedule.md#create-and-manage-holiday-schedules)

@@ -1,7 +1,7 @@
 ---
 title: Ask questions of Copilot
 description: Learn how to ask Copilot in Dynamics 365 Sales questions to know what's new with your leads, opportunities, accounts, and records assigned to you.
-ms.date: 04/19/2024
+ms.date: 04/26/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -18,7 +18,7 @@ ms.collection: bap-ai-copilot
 
 # Ask a question to Copilot
 
-Ask Copilot to update you on the latest changes to your sales records, get a list of records that were assigned to you, or list any changes to your leads and opportunities.
+Ask Copilot to update you on the latest changes to your sales records, get a list of records that were assigned to you, or list any changes to your leads and opportunities. You can either use predefined prompts or ask questions in natural language. This article describes some of the predefined prompts you can use to ask Copilot questions. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
 ## What's new with my sales records
 
@@ -54,8 +54,8 @@ The list of recent changes is taken from the audit history of the record. If the
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **Show recent changes for opportunity or Show recent changes for lead**, and select **Enter**.
 
-    - If you have a record open, Copilot displays the list of recent changes to it.
-    - If you're in the grid view, Copilot lists the records you own. Hover over a record and select **Get updates**.
+    - When a record is opened, Copilot displays the list of recent changes to it.
+    - When in grid view, Copilot lists the records for which you have read access. Hover over a record and select **Get updates**.
 
 1. To get the list of changes to a specific lead or opportunity, type **/** and then start typing the name of the opportunity or lead.
 
@@ -73,6 +73,7 @@ Keep in mind that these fields are set at the organization level. Make sure that
 
 ### See also
 
-- [Copilot overview](copilot-overview.md)
-- [Enable and set up Copilot](enable-setup-copilot.md)
+- [Copilot overview](copilot-overview.md)  
+- [Enable and set up Copilot](enable-setup-copilot.md)  
+- [Chat with Copilot in natural language (preview)](use-sales-copilot.md#chat-with-copilot-in-natural-language-preview)
 - [Get answers from SharePoint documents](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents)
