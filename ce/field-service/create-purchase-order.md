@@ -1,8 +1,8 @@
 ---
 title: Create a purchase order
 description: Learn about creating purchase orders in Dynamics 365 Field Service.
-ms.date: 09/05/2022
-ms.topic: article
+ms.date: 05/08/2024
+ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
 ---
@@ -27,18 +27,17 @@ In Dynamics 365 Field Service, a purchase order (PO) is created to add inventory
   
 1. When you're done, **Save**.  
   
-  > [!NOTE]
-  > On the **Details** tab, you can specify a lookup to a work order. You can also do that on the work order from **Related** > **Purchase Orders**.
+1. On the **Details** tab, specify a lookup to a work order. You can also do that on the work order from **Related** > **Purchase Orders**.
 
 :::image type="content" source="media/inventory-purchase-order.png" alt-text="Screenshot of a purchase order in draft state.":::
 
 ### Ship via
 
-When you create a purchase order, you can track how the order is shipped. The **ship-via** field lets you specify different shipping methods used by your company. You can create new options in **Field Service** > **Settings** > **Inventory** > **Ship Via**. Common examples include freight shipping, private delivery, or postal services.
+When you create a purchase order, you can track how the order is shipped. The **Ship Via** field on the **Details** tab lets you specify different shipping methods used by your company. To create new options, go to **Field Service** > **Settings** > **Inventory** > **Ship Via**. Common examples include freight shipping, private delivery, or postal services.
 
 ## Step 2: Add products to the purchase order
   
-1. On the **Products** tab, select **+New** to create a product related to the purchase order.  
+1. On the **Products** tab, select **+New Purchase Order Product** to create a product related to the purchase order.  
   
 1. Use the tooltips to help you fill in your information.  
   
@@ -46,7 +45,7 @@ When you create a purchase order, you can track how the order is shipped. The **
 
 :::image type="content" source="media/inventory-purchase-order-products.png" alt-text="Screenshot of purchase order products.":::
 
-Back on the purchase order, change the **System Status** to **Submitted**.
+1. Go back to the purchase order and change the **System Status** to **Submitted**.
 
 ## Step 3: Get the purchase order approved
   
@@ -71,7 +70,7 @@ When the order arrives, you can create a receipt.
   
 From the purchase order receipt, add related purchase order receipt products.
 
-A purchase order receipt doesn't need to contain all products requested or all quantities requested. Products will often be received as they arrive. Some products may arrive sooner and larger quantity shipments may arrive in multiple shipments. In these situations, multiple purchase order receipts can be created for a single purchase order.
+A purchase order receipt doesn't need to contain all products requested or all quantities requested. Products are often received as they arrive. Some products might arrive sooner and larger quantity shipments might arrive in multiple shipments. In these situations, multiple purchase order receipts can be created for a single purchase order.
 
 ## Step 6: Create purchase order bill
 
