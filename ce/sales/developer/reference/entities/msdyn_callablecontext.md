@@ -1,7 +1,7 @@
 ---
 title: "Playbook Callable Context (msdyn_callablecontext) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Playbook Callable Context (msdyn_callablecontext) table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 04/27/2024
+ms.date: 05/12/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -15,10 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Sales Playbook Callable Context (msdyn_callablecontext) table extends [Playbook Callable Context (msdyn_callablecontext) table (Microsoft Dynamics 365)](/dynamics365/developer/reference/dataverse/entities/msdyn_callablecontext).
->
-> This reference contains only the changes added by Microsoft Dynamics 365 Sales.
-> See the [Playbook Callable Context (msdyn_callablecontext) table (Microsoft Dynamics 365)](/dynamics365/developer/reference/dataverse/entities/msdyn_callablecontext) reference documentation for more information.
+> The Microsoft Dynamics 365 Sales Playbook Callable Context (msdyn_callablecontext) table extends the [Microsoft Dynamics 365 Playbook Callable Context (msdyn_callablecontext) table](/dynamics365/developer/reference/dataverse/entities/msdyn_callablecontext).
 
 
 
@@ -35,6 +32,7 @@ Changes from [msdyn_EntityOTC (Microsoft Dynamics 365)](/dynamics365/developer/r
 
 |Value|Label|
 |---|---|
+|1204|**Application**|
 |10912|**Chatbot content pack**|
 |11012|**Conversation Summary Interaction**|
 |11013|**Conversation Summary Setting**|
@@ -49,8 +47,24 @@ Changes from [msdyn_EntityOTC (Microsoft Dynamics 365)](/dynamics365/developer/r
 |11022|**Sales usage reporting**|
 |11023|**Sales Copilot User Setting**|
 |11024|**SearchResultsCache**|
+|11026|**Bank Account**|
 |11032|**Flow Credential Application**|
 |11040|**Omnichannel agent assignment custom api privilege **|
+|11041|**Flow Log**|
+|11042|**Planner Business Scenario**|
+|11043|**Planner Sync Action**|
+|11044|**CopilotGlossaryTerm**|
+|11045|**CopilotSynonyms**|
+|11056|**Chatbot component collection**|
+|11069|**Shared Workspace Non-Relational**|
+|11071|**AICopilot**|
+|11072|**AI Plugin Conversation Starter**|
+|11073|**AI Plugin Conversation Starter Mapping**|
+|11074|**AI Plugin Governance**|
+|11075|**AI Plugin Governance Extended**|
+|11076|**AIPluginOperationResponseTemplate**|
+|11077|**AIPluginTitle**|
+|11078|**SideloadedAIPlugin**|
 
 
 

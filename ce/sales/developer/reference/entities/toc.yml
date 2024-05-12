@@ -1,54 +1,141 @@
 items:
 - name: "About Microsoft Dynamics 365 Sales Table/Entity Reference"
   href: ../about-entity-reference.md
-- name: "backgroundoperation"
-  displayName: "backgroundoperation entity"
-  href: backgroundoperation.md
-- name: "botcontentpack"
+- name: "Account"
+  displayName: "Account entity"
+  href: account.md
+- name: "Activity (ActivityPointer)"
+  displayName: "ActivityPointer entity"
+  href: activitypointer.md
+- name: "AICopilot"
+  displayName: "AICopilot entity"
+  href: aicopilot.md
+- name: "AIPluginTitle"
+  displayName: "AIPluginTitle entity"
+  href: aiplugintitle.md
+- name: "Appointment"
+  displayName: "Appointment entity"
+  href: appointment.md
+- name: "Bank Account (sample_BankAccount)"
+  displayName: "sample_BankAccount entity"
+  href: sample_bankaccount.md
+- name: "Bulk Delete Failure (BulkDeleteFailure)"
+  displayName: "BulkDeleteFailure entity"
+  href: bulkdeletefailure.md
+- name: "Business Unit (BusinessUnit)"
+  displayName: "BusinessUnit entity"
+  href: businessunit.md
+- name: "Chatbot content pack (botcontentpack)"
   displayName: "botcontentpack entity"
   href: botcontentpack.md
-- name: "Connection"
-  displayName: "Connection entity"
-  href: connection.md
-- name: "DuplicateRule"
-  displayName: "DuplicateRule entity"
-  href: duplicaterule.md
-- name: "EventExpanderBreadcrumb"
-  displayName: "EventExpanderBreadcrumb entity"
-  href: eventexpanderbreadcrumb.md
-- name: "flowevent"
-  displayName: "flowevent entity"
-  href: flowevent.md
-- name: "ImportMap"
+- name: "Contact"
+  displayName: "Contact entity"
+  href: contact.md
+- name: "Conversation (msdyn_ocliveworkitem)"
+  displayName: "msdyn_ocliveworkitem entity"
+  href: msdyn_ocliveworkitem.md
+- name: "Copilot Transcript (msdyn_copilottranscript)"
+  displayName: "msdyn_copilottranscript entity"
+  href: msdyn_copilottranscript.md
+- name: "Currency (TransactionCurrency)"
+  displayName: "TransactionCurrency entity"
+  href: transactioncurrency.md
+- name: "Customer Voice alert (msfp_alert)"
+  displayName: "msfp_alert entity"
+  href: msfp_alert.md
+- name: "Customer Voice survey invite (msfp_surveyinvite)"
+  displayName: "msfp_surveyinvite entity"
+  href: msfp_surveyinvite.md
+- name: "Customer Voice survey response (msfp_surveyresponse)"
+  displayName: "msfp_surveyresponse entity"
+  href: msfp_surveyresponse.md
+- name: "Data Map (ImportMap)"
   displayName: "ImportMap entity"
   href: importmap.md
-- name: "MailboxTrackingFolder"
+- name: "Duplicate Detection Rule (DuplicateRule)"
+  displayName: "DuplicateRule entity"
+  href: duplicaterule.md
+- name: "Email"
+  displayName: "Email entity"
+  href: email.md
+- name: "Fax"
+  displayName: "Fax entity"
+  href: fax.md
+- name: "Field Sharing (PrincipalObjectAttributeAccess)"
+  displayName: "PrincipalObjectAttributeAccess entity"
+  href: principalobjectattributeaccess.md
+- name: "Invite Redemption (adx_inviteredemption)"
+  displayName: "adx_inviteredemption entity"
+  href: adx_inviteredemption.md
+- name: "Letter"
+  displayName: "Letter entity"
+  href: letter.md
+- name: "Mailbox Auto Tracking Folder (MailboxTrackingFolder)"
   displayName: "MailboxTrackingFolder entity"
   href: mailboxtrackingfolder.md
-- name: "msdyn_callablecontext"
-  displayName: "msdyn_callablecontext entity"
-  href: msdyn_callablecontext.md
-- name: "msdyn_connectordatasource"
-  displayName: "msdyn_connectordatasource entity"
-  href: msdyn_connectordatasource.md
-- name: "msdyn_playbookactivity"
+- name: "Owner"
+  displayName: "Owner entity"
+  href: owner.md
+- name: "Phone Call (PhoneCall)"
+  displayName: "PhoneCall entity"
+  href: phonecall.md
+- name: "Playbook activity (msdyn_playbookactivity)"
   displayName: "msdyn_playbookactivity entity"
   href: msdyn_playbookactivity.md
-- name: "NewProcess"
-  displayName: "NewProcess entity"
-  href: newprocess.md
-- name: "SimilarityRule"
+- name: "Playbook Callable Context (msdyn_callablecontext)"
+  displayName: "msdyn_callablecontext entity"
+  href: msdyn_callablecontext.md
+- name: "Portal Comment (adx_portalcomment)"
+  displayName: "adx_portalcomment entity"
+  href: adx_portalcomment.md
+- name: "Process Session (ProcessSession)"
+  displayName: "ProcessSession entity"
+  href: processsession.md
+- name: "Recurring Appointment (RecurringAppointmentMaster)"
+  displayName: "RecurringAppointmentMaster entity"
+  href: recurringappointmentmaster.md
+- name: "RoleEditorLayout"
+  displayName: "RoleEditorLayout entity"
+  href: roleeditorlayout.md
+- name: "Secured Masking Rule (MaskingRule)"
+  displayName: "MaskingRule entity"
+  href: maskingrule.md
+- name: "Service Activity (ServiceAppointment)"
+  displayName: "ServiceAppointment entity"
+  href: serviceappointment.md
+- name: "Session (msdyn_ocsession)"
+  displayName: "msdyn_ocsession entity"
+  href: msdyn_ocsession.md
+- name: "Shared Workspace Access Token (sharedworkspaceaccesstoken)"
+  displayName: "sharedworkspaceaccesstoken entity"
+  href: sharedworkspaceaccesstoken.md
+- name: "Similarity Rule (SimilarityRule)"
   displayName: "SimilarityRule entity"
   href: similarityrule.md
 - name: "SLA"
   displayName: "SLA entity"
   href: sla.md
-- name: "SystemUser"
+- name: "Social Activity (SocialActivity)"
+  displayName: "SocialActivity entity"
+  href: socialactivity.md
+- name: "Sync Error (SyncError)"
+  displayName: "SyncError entity"
+  href: syncerror.md
+- name: "System Job (AsyncOperation)"
+  displayName: "AsyncOperation entity"
+  href: asyncoperation.md
+- name: "Task"
+  displayName: "Task entity"
+  href: task.md
+- name: "Team"
+  displayName: "Team entity"
+  href: team.md
+- name: "Teams chat (chat)"
+  displayName: "chat entity"
+  href: chat.md
+- name: "User (SystemUser)"
   displayName: "SystemUser entity"
   href: systemuser.md
-- name: "Template"
-  displayName: "Template entity"
-  href: template.md
-- name: "Territory"
-  displayName: "Territory entity"
-  href: territory.md
+- name: "Virtual Connector Data Source (msdyn_connectordatasource)"
+  displayName: "msdyn_connectordatasource entity"
+  href: msdyn_connectordatasource.md

@@ -1,7 +1,7 @@
 ---
 title: "User (SystemUser) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the User (SystemUser) table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 04/27/2024
+ms.date: 05/12/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -15,36 +15,76 @@ search.audienceType:
 Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Sales User (SystemUser) table extends [User (SystemUser) table (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/systemuser) and [User (SystemUser) table (Microsoft Dynamics 365)](/dynamics365/developer/reference/dataverse/entities/systemuser).
->
-> This reference contains only the changes added by Microsoft Dynamics 365 Sales.
-> See the [User (SystemUser) table (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/systemuser) and [User (SystemUser) table (Microsoft Dynamics 365)](/dynamics365/developer/reference/dataverse/entities/systemuser) reference documentation for more information.
+> The Microsoft Dynamics 365 Sales User (SystemUser) table extends the [Microsoft Dataverse User (SystemUser) table](/power-apps/developer/data-platform/reference/entities/systemuser).
 
 
 
 
-## Customized relationships
+## One-to-Many relationships
 
-### Customized One-to-many relationships
+These relationships are one-to-many. Listed by **SchemaName**.
 
-- [lk_territory_createdonbehalfby](#BKMK_lk_territory_createdonbehalfby)
-- [lk_territory_modifiedonbehalfby](#BKMK_lk_territory_modifiedonbehalfby)
+- [lk_sample_bankaccount_createdby](#BKMK_lk_sample_bankaccount_createdby)
+- [lk_sample_bankaccount_createdonbehalfby](#BKMK_lk_sample_bankaccount_createdonbehalfby)
+- [lk_sample_bankaccount_modifiedby](#BKMK_lk_sample_bankaccount_modifiedby)
+- [lk_sample_bankaccount_modifiedonbehalfby](#BKMK_lk_sample_bankaccount_modifiedonbehalfby)
+- [user_sample_bankaccount](#BKMK_user_sample_bankaccount)
 
-#### <a name="BKMK_lk_territory_createdonbehalfby"></a> lk_territory_createdonbehalfby
+### <a name="BKMK_lk_sample_bankaccount_createdby"></a> lk_sample_bankaccount_createdby
 
-Changes from [lk_territory_createdonbehalfby (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/systemuser#BKMK_lk_territory_createdonbehalfby):
-
-|Property|Value|
-|--------|-----|
-|ReferencedEntityNavigationPropertyName|lk_territory_createdonbehalfby|
-
-#### <a name="BKMK_lk_territory_modifiedonbehalfby"></a> lk_territory_modifiedonbehalfby
-
-Changes from [lk_territory_modifiedonbehalfby (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/systemuser#BKMK_lk_territory_modifiedonbehalfby):
+Many-To-One Relationship: [sample_bankaccount lk_sample_bankaccount_createdby](sample_bankaccount.md#BKMK_lk_sample_bankaccount_createdby)
 
 |Property|Value|
 |--------|-----|
-|ReferencedEntityNavigationPropertyName|lk_territory_modifiedonbehalfby|
+|ReferencingEntity|`sample_bankaccount`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_sample_bankaccount_createdby`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_sample_bankaccount_createdonbehalfby"></a> lk_sample_bankaccount_createdonbehalfby
+
+Many-To-One Relationship: [sample_bankaccount lk_sample_bankaccount_createdonbehalfby](sample_bankaccount.md#BKMK_lk_sample_bankaccount_createdonbehalfby)
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|`sample_bankaccount`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_sample_bankaccount_createdonbehalfby`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_sample_bankaccount_modifiedby"></a> lk_sample_bankaccount_modifiedby
+
+Many-To-One Relationship: [sample_bankaccount lk_sample_bankaccount_modifiedby](sample_bankaccount.md#BKMK_lk_sample_bankaccount_modifiedby)
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|`sample_bankaccount`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_sample_bankaccount_modifiedby`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_sample_bankaccount_modifiedonbehalfby"></a> lk_sample_bankaccount_modifiedonbehalfby
+
+Many-To-One Relationship: [sample_bankaccount lk_sample_bankaccount_modifiedonbehalfby](sample_bankaccount.md#BKMK_lk_sample_bankaccount_modifiedonbehalfby)
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|`sample_bankaccount`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_sample_bankaccount_modifiedonbehalfby`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_user_sample_bankaccount"></a> user_sample_bankaccount
+
+Many-To-One Relationship: [sample_bankaccount user_sample_bankaccount](sample_bankaccount.md#BKMK_user_sample_bankaccount)
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|`sample_bankaccount`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_sample_bankaccount`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 
 
 ### See also

@@ -1,6 +1,6 @@
 ---
-title: "Mailbox Auto Tracking Folder (MailboxTrackingFolder) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
-description: "Includes schema information and supported messages for the Mailbox Auto Tracking Folder (MailboxTrackingFolder) table/entity with Microsoft Dynamics 365 Sales."
+title: "Sync Error (SyncError) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Sync Error (SyncError) table/entity with Microsoft Dynamics 365 Sales."
 ms.date: 05/12/2024
 ms.service: powerapps
 ms.topic: reference
@@ -10,12 +10,12 @@ search.audienceType:
   - developer
 ---
 
-# Mailbox Auto Tracking Folder (MailboxTrackingFolder) table/entity reference
+# Sync Error (SyncError) table/entity reference
 
-Stores data about what folders for a mailbox are auto tracked
+Failure reason and other detailed information for a record that failed to sync.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Sales Mailbox Auto Tracking Folder (MailboxTrackingFolder) table extends the [Microsoft Dataverse Mailbox Auto Tracking Folder (MailboxTrackingFolder) table](/power-apps/developer/data-platform/reference/entities/mailboxtrackingfolder).
+> The Microsoft Dynamics 365 Sales Sync Error (SyncError) table extends the [Microsoft Dataverse Sync Error (SyncError) table](/power-apps/developer/data-platform/reference/entities/syncerror).
 
 
 
@@ -26,7 +26,7 @@ modifies the definition of columns/attributes defined in other solutions. Listed
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/mailboxtrackingfolder#BKMK_RegardingObjectId):
+Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/syncerror#BKMK_RegardingObjectId):
 
 |Property|Value|
 |---|---|
@@ -37,9 +37,9 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
-### <a name="BKMK_sample_bankaccount_MailboxTrackingFolders"></a> sample_bankaccount_MailboxTrackingFolders
+### <a name="BKMK_sample_bankaccount_SyncErrors"></a> sample_bankaccount_SyncErrors
 
-One-To-Many Relationship: [sample_bankaccount sample_bankaccount_MailboxTrackingFolders](sample_bankaccount.md#BKMK_sample_bankaccount_MailboxTrackingFolders)
+One-To-Many Relationship: [sample_bankaccount sample_bankaccount_SyncErrors](sample_bankaccount.md#BKMK_sample_bankaccount_SyncErrors)
 
 |Property|Value|
 |--------|-----|
@@ -61,4 +61,4 @@ One-To-Many Relationship: [sample_bankaccount sample_bankaccount_MailboxTracking
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
-<xref:Microsoft.Dynamics.CRM.mailboxtrackingfolder?displayProperty=fullName>
+<xref:Microsoft.Dynamics.CRM.syncerror?displayProperty=fullName>

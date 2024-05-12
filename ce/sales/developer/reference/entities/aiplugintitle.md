@@ -1,6 +1,6 @@
 ---
-title: "Chatbot content pack (botcontentpack) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
-description: "Includes schema information and supported messages for the Chatbot content pack (botcontentpack) table/entity with Microsoft Dynamics 365 Sales."
+title: "AIPluginTitle table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
+description: "Includes schema information and supported messages for the AIPluginTitle table/entity with Microsoft Dynamics 365 Sales."
 ms.date: 05/12/2024
 ms.service: powerapps
 ms.topic: reference
@@ -10,17 +10,17 @@ search.audienceType:
   - developer
 ---
 
-# Chatbot content pack (botcontentpack) table/entity reference
+# AIPluginTitle table/entity reference
 
-
+AIPlugin Title
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Sales Chatbot content pack (botcontentpack) table extends the [Microsoft Dataverse Chatbot content pack (botcontentpack) table](/power-apps/developer/data-platform/reference/entities/botcontentpack).
+> The Microsoft Dynamics 365 Sales AIPluginTitle table extends the [Microsoft Dataverse AIPluginTitle table](/power-apps/developer/data-platform/reference/entities/aiplugintitle).
 
 
 ## Events
 
-The following table lists the events for the Chatbot content pack (botcontentpack) table.
+The following table lists the events for the AIPluginTitle table.
 Events are messages that exist so that you can subscribe to them. Unless you added the event, you shouldn't invoke the message, only subscribe to it.
 
 |Name|Web API Operation |SDK for .NET |
