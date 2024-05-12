@@ -1,10 +1,12 @@
 ---
-title: "Configure route-to-queue rules"
-description: "Learn about how to configure a route-to-queue ruleset for a workstream in unified routing."
-ms.date: 02/24/2023
-ms.topic: article
+title: Configure route-to-queue rules
+description: Follow the steps in this article to configure a route-to-queue ruleset for a workstream in unified routing.
+ms.date: 04/23/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.custom: bap-template
 searchScope:
 - D365-App-customerservicehub
 - D365-Entity-queueitem
@@ -13,13 +15,14 @@ searchScope:
 - Dynamics 365
 - Customer Service
 ---
+
 # Configure route-to-queues rules for a workstream
 
 Queue routing rules send the work item to the right queue. The rules are written in the format of, "If defined condition satisfies, then route the work item to the defined queue." If no rules are defined or no rules match, then the incoming work item will be routed to the fallback queue of the respective workstream.
 
 The route-to-queue ruleset is run after all the work classification rulesets are run.
 
-A workstream can have only one route-to-queues ruleset.
+A workstream can have one route-to-queues ruleset only.
 
 After you configure the rules, the system matches the rule conditions, and overflow handling of the corresponding queue to assign a work item to a queue. If more than one rule matches the required condition and the corresponding queues aren't overflowing, then the queue corresponding to the first rule in the list is selected for assignment. If all the queues corresponding to the rules are overflowing, the work item is assigned to the queue that will be available first.
 
@@ -58,6 +61,9 @@ When you configure this feature, the system picks a queue from the available lis
 1. Repeat **Steps 2 through 6** to define the rules to cater to your business needs.
 
 1. Optionally, after you create the required rules, reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
+
+> [!NOTE]
+> We recommend that you use less than 15 link-entity elements in the routing rule conditions to avoid timeout errors. More information: [Join tables using FetchXml](/power-apps/developer/data-platform/fetchxml/join-tables#limitations)
 
 ## Options available for rules
 
@@ -128,11 +134,9 @@ You can configure routing rule conditions for the social channels, such as Faceb
 
 - **SMS**: Use the **SMS Engagement Context** entity to set conditions on the following attributes:  
 
-  - Customer phone number
-  - Org phone number
-  - Locale
-  - Provider
-  - Provider display name
+  - Customer Phone Number
+  - Organization Phone Number
+  - SMS Provider
 
 ### See also
 

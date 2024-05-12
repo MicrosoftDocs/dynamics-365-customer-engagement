@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham 
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 03/22/2024
+ms.date: 05/10/2024
 ms.custom: bap-template 
 ---
 
@@ -34,7 +34,7 @@ For your agents to use the write an email feature inline in the rich text editor
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. In **Apps**, select the required app to enable the Copilot control in the rich text editor.
 1. Select **Settings** and then select **Features**.
-1. Switch the **Turn on generative AI in emails** toggle to **Yes**.
+1. Switch the **Contextual email drafting with AI** toggle to **Yes**.
 1. Select **Save**.
 
 ### Rich text editor version support
@@ -77,7 +77,7 @@ In Customer Service admin center, go to **Copilot help pane** and perform the st
 
 ### See also
 
-[Understand Copilot language support](../use/copilot-language-support.md)
-[Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  
-[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md) 
+[Understand Copilot language support](../use/copilot-language-support.md)  
+[Manage copilot features in Customer Service](../administer/configure-copilot-features.md)   
+[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md)    
 [Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   

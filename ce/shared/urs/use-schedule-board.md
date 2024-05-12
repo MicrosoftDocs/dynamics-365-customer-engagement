@@ -78,6 +78,9 @@ The schedule board refreshes automatically if there are changes in the start dat
 
 Select **Refresh** to manually refresh the schedule board.
 
+> [!TIP]
+> Availabilities in the scheduling assistant don't refresh when the schedule board gets refreshed. Search for availabilities again or refresh the browser to have the latest updates on the schedule board reflected in the availabilities.
+
 ### Focus mode
 
 Focus on the details of the schedule board and hide all other navigation items.

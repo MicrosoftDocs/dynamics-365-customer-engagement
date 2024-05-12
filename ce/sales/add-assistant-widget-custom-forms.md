@@ -5,6 +5,7 @@ ms.date: 02/08/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Add the assistant widget to custom forms

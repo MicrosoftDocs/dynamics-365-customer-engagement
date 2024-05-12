@@ -140,9 +140,9 @@ The following simple settings are available out of the box for the record types.
 
 ## Configure custom sort in the inbox
 
-You can configure a customized sort option for the inbox so that users can choose their desired attributes to sort by.
+You can configure a customized sort option for the inbox so that users can choose their desired attributes to sort by, beyond just customer and date.
 
-1. In Customer Service admin center site map, select **Workspaces**.
+1. In the Customer Service admin center app site map, select **Workspaces**.
 1. On the **Workspaces** page, next to **Agent experience profiles**, select **Manage**.
 1. On the **Agent experience profiles** page, select the profile you want to edit.
 1. On the **Profile** page, in **Inbox**, select **Edit**.
@@ -151,6 +151,30 @@ You can configure a customized sort option for the inbox so that users can choos
       :::image type="content" source="../media/custom-sort-inbox.png" alt-text="Custom sort option in the Edit view pane for inbox."::: 
 
 1. Select **Save**.
+
+## Bring your own entity to the inbox
+
+By default, the inbox supports entities such as case, emails, conversations, and voicemails. You can also bring your own entities into the inbox to create a more customized experience, tailored to the needs of your users.
+
+1. In the Customer Service admin center site map, select **Workspaces**.
+1. On the **Workspaces** page, next to **Agent experience profiles**, select the profile you want to edit.
+1. On the **Profile** page, in **Inbox**, select **Edit**.
+1. In the **Inbox settings** pane, select the **Inbox record types** tab.
+1. Select **+Add**, and then chose the record type you want to add.
+1. Select **Save and close**.
+
+## Custom card configuration
+
+You can help users personalize how their information displays in the inbox by customizing the card configuration.
+
+1. 1. In the Customer Service admin center site map, select **Workspaces**.
+1. On the **Workspaces** page, next to **Agent experience profiles**, select the profile you want to edit.
+1. On the **Profile** page, in **Inbox**, select **Edit**.
+1. In the **Inbox settings** pane, select the **Inbox record types** tab.
+1. Select the attribute you want to edit. The **Edit record type** pane is displayed, showing the inbox preview of the work item.
+1. Rearrange the attributes if desired.
+1. To add new attributes, select the plus sign (**+**), and then use the dropdown menu to select a field.
+1. When finished, select **Save and close**.
 
 ## Real-time translation
 

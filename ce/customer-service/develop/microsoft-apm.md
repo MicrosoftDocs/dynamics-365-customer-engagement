@@ -3,7 +3,7 @@ title: "App profile manager JavaScript API Reference | MicrosoftDocs"
 description: "Learn about the app profile manager methods and properties to manage tabs and sessions in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
-ms.date: 02/12/2023
+ms.date: 04/23/2024
 ms.topic: reference
 ---
 
@@ -71,6 +71,14 @@ The following method allows you to manage the session context in Customer Servic
 |--------|-------------|
 | [updateContext](../develop/reference/properties/updateContext.md) | Sets the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for invoking macros in the future. |
 |||
+
+## Client-side events
+
+| Event | Description |
+|--------|-------------|
+| [ON_SESSION_SWITCH](../develop/reference/events/on_session_switch.md) | Invoked when the session is switched. |
+| [ON_SESSION_CLOSED](../develop/reference/events/on_session_closed.md) | Invoked when a session is closed. |
+
 ### See also
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

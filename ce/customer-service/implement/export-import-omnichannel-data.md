@@ -1,8 +1,8 @@
 ---
-title: "Export and import app configuration data | MicrosoftDocs"
-description: "Export and import app configuration data for Omnichannel for Customer Service using the Configuration Migration tool."
-ms.date: 02/06/2024
-ms.topic: article
+title: Export and import app configuration data
+description: Export and import app configuration data for Omnichannel for Customer Service using the Configuration Migration tool.
+ms.date: 05/10/2024
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -10,28 +10,24 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:12/18/2023
+  - bap-template
 ---
 
 # Export and import app configuration data
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 After you've used Omnichannel for Customer Service in a test environment, you can export some of your app configuration data to a live production environment. Use the configuration management tool to export and import the data. More information: [Download the Configuration Migration tool from NuGet using the PowerShell script](/powerapps/developer/data-platform/download-tools-nuget)
 
 > [!IMPORTANT]
-> Channel configurations are specific to the environment in which they're created, so exporting and importing complete configurations as-is won't work. We recommend that you create them using the Customer Service admin center app.
+> Channel configurations are specific to the environment in which they're created, so exporting and importing complete configurations as-is won't work. We recommend that you create the configurations using the Customer Service admin center app.
 
 While you can use the Configuration Migration tool to export and import entity data, omnichannel-related configurations contain different entities that have internal dependencies. Therefore, you must bring together the required data by following a very specific process. For example, if you've already imported the context variables and then try to import preconversation configuration, which also creates context variables, the import might not work. Similarly, you must import all the internal entities, such as ruleset configurations that contain decision rulesets and contracts, for the import of workstreams and record queues to be successful.
 
-> [!NOTE]
->
-> - To export and import record type of channel across environments, contact [Microsoft Support](https://dynamics.microsoft.com/support/).
-> - Environment lifecycle operations, such as copy and restore of environment, aren't supported.
-> - However, if you do copy an environment, Omnichannel for Customer Service in the target environment must be [uninstalled](../implement/remove-omnichannel.md) and [provisioned](../implement/omnichannel-provision-license.md) again.
-> - We recommend that you don't export the msdyn_analytics entity. Because the entity contains org-specific configuration data for intraday insights in Omnichannel for Customer Service, exporting it might lead to an incorrect configuration of your intraday insights data.
+You can [copy an environment](copy-environment-with-omnichannel.md) with Omnichannel for Customer Service and it should load successfully in the target environment. However, other environment lifecycle operations such as restore aren't supported. If you restore an environment, we recommend that you [uninstall](remove-omnichannel.md) and [provision](omnichannel-provision-license.md) Omnichannel for Customer Service in the target environment.
 
+> [!NOTE]
+> We recommend that you don't export the msdyn_analytics entity. Because the entity contains org-specific configuration data for intraday insights in Omnichannel for Customer Service, exporting it might lead to an incorrect configuration of your intraday insights data.
 
 ### See also
 

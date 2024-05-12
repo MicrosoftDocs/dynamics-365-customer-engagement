@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service Plugin for Microsoft Copilot
 description: Learn about the Dynamics 365 Field Service Plugin for Microsoft Copilot including the types of questions you can ask.
-ms.date: 04/03/2024
+ms.date: 05/08/2024
 ms.topic: overview
 author: KishorIoT
 ms.author: nandab
@@ -15,13 +15,15 @@ ms.collection: bap-ai-copilot
 
 With the Dynamics 365 Field Service Plugin for Microsoft Copilot, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Microsoft Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
 
-Copilot can also search through a [work order's attachments](flw-teams-manager.md#add-attachments-to-the-work-order) to provide answers to questions. Frontline managers can upload information relevant to the work order before a technician is scheduled to arrive. Frontline workers can quickly get answers such as required tools or step-by-step instructions from Copilot.
+Copilot can also search through a work order's attachments to provide answers to questions. Attachments can be knowledge articles, manuals, or any documentation that can assist the technician in completing the work order. Frontline managers must first upload the information relevant to the work order so that Copilot can access the information. Go to [Add attachments to a work order](flw-teams-manager.md#add-attachments-to-a-work-order).
+
+After a frontline manager uploads any relevant information to the work order, frontline workers can quickly get answers such as required tools or step-by-step instructions from Copilot.
 
 To access this chat feature, an admin must [set up Microsoft Copilot for Field Service work orders](flw-copilot-setup.md).
 
 ## Best practices
 
-- Ask any straight-forward question about Field Service work orders. Ambiguous questions such as "What are the most important work orders" might not return results as "most important" isn't a defined status. Instead, ask "What are the high priority work orders?"
+- Ask any straightforward question about Field Service work orders. Ambiguous questions such as "What are the most important work orders" might not return results because "most important" isn't a defined status. Instead, ask "What are the high-priority work orders?"
 
 - Be specific about the expected outcomes. For example, if you want results in table format, then use the phrase "in table format." If you want a consolidated result or summary, be specific. For example, "What is the incident type and service account for work order 00041?"
 
@@ -62,9 +64,12 @@ To access this chat feature, an admin must [set up Microsoft Copilot for Field S
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
 To ask for information from uploaded attachments such as installation manuals, maintenance documents, or troubleshooting notes, tell Copilot to search through documents.
 
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+> [!NOTE]
+> Frontline managers must [add documents to the work order timeline or add knowledge articles](flw-teams-manager.md#add-attachments-to-a-work-order) so Copilot can search through them and provide answers.
 
 :::image type="content" source="media/fsp-m365-chat-flw2.png" alt-text="Microsoft Copilot chat showing the list of tools needed for the work order":::
 
@@ -74,9 +79,9 @@ Answers that came from an attachment are listed under **reference** at the botto
 
 ### More sample questions
 
-- How do I handle the battery of the Surface Laptop safely? Provide a list of recommendations.
-- What temperatures are in the Surface Laptop battery's operating range?
-- How do I separate the C-cover from the Surface Laptop?
+- How do I handle the battery of the Surface laptop safely? Provide a list of recommendations.
+- What temperatures are in the Surface laptop battery's operating range?
+- How do I separate the C-cover from the Surface laptop?
 - What service tools are required to replace the non-skid foot pad on the Surface laptop?
 - What are the details for work order {work order number}? Can you summarize?
 - Give me the full details for my most recent work order.

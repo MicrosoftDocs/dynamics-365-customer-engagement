@@ -5,6 +5,7 @@ ms.date: 10/17/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.collection:
 ms.custom:
   - bap-template
@@ -90,7 +91,9 @@ Additionally, you must grant the following permissions to your users:
 
     - **Transfer calls (preview)**
 
-        [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+        [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+        [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
         Allows sellers to transfer a Teams call to another colleague or their phone number, either directly or after consultation with the recipient.
 

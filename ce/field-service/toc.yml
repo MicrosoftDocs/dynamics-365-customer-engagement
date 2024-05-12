@@ -190,7 +190,7 @@ items:
       items:
         - name: Set up integrations for Field Service
           href: flw-admin.md
-        - name: Customize views
+        - name: Customize views, columns, and labels
           href: flw-customization.md
         - name: Set up the Field Service Plugin for Microsoft Copilot
           href: flw-copilot-setup.md
@@ -492,6 +492,8 @@ items:
       href: rso-get-install.md
     - name: Quickstart
       href: rso-quickstart.md
+    - name: Administration overview
+      href: rso-administration.md
     - name: Deployment
       href: rso-deployment.md
     - name: Configuration and setup
