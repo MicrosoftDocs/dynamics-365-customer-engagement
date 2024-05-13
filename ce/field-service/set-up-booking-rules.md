@@ -105,6 +105,24 @@ The following screenshot shows an example custom CRM action.  This sample is che
 
 The JavaScript function you created can accept a single parameter, which is considered the booking context. The passed in booking context parameter isn't* a typical CRM context used in client-side scripting.
 
+This is the booking context schema:
+```
+export type BookingRuleContext = {
+    oldValues: BookingRuleBookingRecord;
+    newValues: BookingRuleBookingRecord;
+    isCreate: boolean;
+    isUpdate: boolean;
+};
+ 
+export type BookingRuleBookingRecord = {
+    ResourceRequirementId?: string;
+    ResourceId?: string;
+    StartTime?: Date;
+    EndTime?: Date;
+    ResourceScheduleSource?: string;
+};
+```
+
 The booking context parameter will have the following JavaScript definition. 
 
 >[!NOTE]
