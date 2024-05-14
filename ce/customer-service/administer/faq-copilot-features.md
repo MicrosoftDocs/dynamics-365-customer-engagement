@@ -1,7 +1,7 @@
 ---
 title: FAQ for copilot features
 description: FAQ for copilot features in Dynamics 365 Customer Service.
-ms.date: 11/21/2023
+ms.date: 05/14/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -51,7 +51,8 @@ You can add up to five trusted domains as web sources, and the domains must be p
 
 ## Does Copilot support knowledge articles published in all languages? 
 
-No. Copilot supports knowledge articles published in the English language only. 
+Yes. Copilot supports knowledge articles published in the supported languages. See: 
+[Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service)
 
 ## What are the best practices for configuring copilot?
  
