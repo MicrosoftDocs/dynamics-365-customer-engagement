@@ -52,7 +52,7 @@ Open the Copilot side pane when you want to get quick insights about a record or
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
 
 Open the Copilot page in a full-screen view when you want more space and focus to chat with Copilot and ask questions. 
 
@@ -77,7 +77,7 @@ You can chat with Copilot in natural language or use predefined prompts to get t
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
 
 This feature is only available if your administrator opted into the [Copilot preview features](copilot-preview-features.md).
 
