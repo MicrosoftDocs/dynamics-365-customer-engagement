@@ -1,7 +1,7 @@
 ---
-title: Configure the email experience in customer engagement apps | MicrosoftDocs
+title: Configure the email experience in customer engagement apps 
 description: Learn how to configure the email experience in customer engagement apps.
-ms.date: 02/12/2024
+ms.date: 05/14/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -96,7 +96,7 @@ Enabling the user configured settings to an email form consists of the following
 
 ### Add the required permissions for related entities
 
-Make sure that your agents have the required permissions to the related entities when they have to create an email template based on an entity. For example, if an agent must create an email template based on a case, the agent must have the required permissions to the Account entity.
+Make sure that your agents have the required permissions to the related entities when they have to create an email template based on an entity. For example, if an agent must create an email template based on a case, the agent must have the required permissions to the **Account** table.
 
 ### Add the language filter in the email template selection view
 
