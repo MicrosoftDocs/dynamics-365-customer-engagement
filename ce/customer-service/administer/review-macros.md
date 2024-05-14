@@ -33,7 +33,7 @@ To view the run history for the macro that failed, follow these steps:
 1. Select **View history**. Each record in the list represents a macro run. 
 1. Open the macro that failed and identify the step that failed.  
  
-In certain scenarios, a step fails because a previous step incorrectly set values or has missing values. Select a step from the macro history to review your macro actions, attribute names, and attribute values.
+In certain scenarios, a step fails because a previous step has set values incorrectly or has missing values. Select a step from the macro history to review your macro actions, attribute names, and attribute values.
 
  :::image type="content" source="../media/macro-history-log.png" alt-text="View the run history for a macro.":::
 
