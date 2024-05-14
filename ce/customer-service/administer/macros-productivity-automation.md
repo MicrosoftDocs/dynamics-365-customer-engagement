@@ -137,7 +137,7 @@ Perform the following steps to create a macro that opens the task form and then 
    - **Attribute Name**: subject
    - **Attribute Value**: Follow up task regarding `${anchor.customerName}`
    - **Attribute Name**: regrdingobjectid
-   - **Attribute Value**: `"${customerName}","entitytype":"${xustomerEntityName}"}}`
+   - **Attribute Value**: `"${customerName}","entitytype":"${customerEntityName}"}}`
 
 #### Update an existing record
 
