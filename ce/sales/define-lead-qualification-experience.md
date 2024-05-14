@@ -1,7 +1,7 @@
 ---
 title: Define lead qualification experience in Dynamics 365 Sales
 description: Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified.
-ms.date: 05/09/2024
+ms.date: 05/14/2024
 ms.topic: how-to
 ms.custom: bap-template
 author: lavanyakr01
@@ -18,33 +18,40 @@ searchScope:
 ---
 # Define the lead qualification experience  
 
-Give your salespeople the flexibility to choose which records to create&mdash;account, contact, or opportunity&mdash;when a lead is qualified. 
+Give your salespeople the flexibility to choose which records to create&mdash;account, contact, or opportunity&mdash;when a lead is qualified.
 
 ## License and role requirements
 
 | Requirement type | You must have |
-|-----------------------|---------|
+|:-----------------|:--------------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
+## Define the experience using Sales Hub app
 
-## Define the experience  
-
-1. In the Sales Hub app, select the Change area icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") at the bottom of the site map, and then select **App Settings**.
-
+1. In the Sales Hub app, select the Change area icon :::image type="icon" source="media/change-area-icon.png" border="false"::: at the bottom of the site map, and then select **App Settings**.
 2. Under **General Settings**, select **Lead + Opportunity management** > **Lead Qualification**.
+3. Turn on **Auto-create records for newly qualified leads** to automatically create account, contact, and opportunity records when a lead is qualified. Turn the setting off if you want salespeople to choose which records to create when a lead is qualified. For information about the fields that are automatically mapped from the lead to other entities, see [Field mappings to other entities](#field-mappings-to-other-entities).
 
-3. Turn on **Auto-create records for newly qualified leads** and save the changes.
-   When sellers qualify a lead, the system automatically creates the corresponding account, contact, and opportunity records. For information about the fields that are automatically mapped from the lead to other entities, see [Field mappings to other entities](#field-mappings-to-other-entities).
+## Define the experience using legacy web client
+
+If you aren't using the Sales Hub app, you can define the lead qualification experience by using the legacy web client.
+
+1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
+   :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of Advanced Settings option on the Settings menu":::
+   The **Business Management** page opens.
+2. Select **Settings**, then **Administration**, and then **System Settings**.
+3. Select the **Sales** tab.
+4. Under **Qualify lead experience**, set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No** to allow salespeople to choose which records to create when a lead is qualified. Set it to **Yes** to automatically create account, contact, and opportunity records when a lead is qualified.
 
 ## Field mappings to other entities
 
-When a lead is qualified, values of some fields from leads are automatically mapped to the corresponding fields in accounts, contacts, and opportunities.  
+When a lead is qualified, values of some fields from leads are automatically mapped to the corresponding fields in accounts, contacts, and opportunities.
 
 **Fields mapped to opportunity**
 
 | Field name in lead | Field name in opportunity |
-|--------------------|---------------------------|
+|:-------------------|:--------------------------|
 | Topic | Topic |
 | Contact | Contact |
 | Account | Account |
@@ -52,7 +59,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 **Fields mapped to account**
 
 | Field name in lead | Field name in account |
-|--------------------|-----------------------|
+|:-------------------|:----------------------|
 | Company | Account name |
 | Website | Website |
 | Business Phone | Phone |
@@ -67,7 +74,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 **Fields mapped to contact**
 
 | Field name in lead | Field name in contact |
-|--------------------|-----------------------|
+|:-------------------|:----------------------|
 | First name | First name |
 | Last name | Last name |
 | Job title | Job title |
@@ -88,6 +95,5 @@ When a lead is qualified, values of some fields from leads are automatically map
 [Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)  
 [Create or edit leads](create-edit-lead-sales.md)  
 [Troubleshoot issues with lead qualification](/troubleshoot/dynamics-365/sales/troubleshoot-lead-qualification-issues-for-system-admin)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
