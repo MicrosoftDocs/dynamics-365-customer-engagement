@@ -93,19 +93,19 @@ Opens an existing record form. The action contains the following fields.
 
 ### Example 1: Open the product record from an existing case
 
-To create a macro to open the product record from an existing case, add the **Open an existing record** action that reads the product id from the case, with the following attributes: 
+To create a macro to open the product record from an existing case, add the **Open an existing record** action that reads the product ID from the case, with the following attributes: 
    - **Entity logical name**: `product`
    - **Entity record ID**: `${anchor._productid_value}` 
  
 ### Example 2: Open the customer record from a conversation 
 
-To create a macro to open a customer record from an ongoing conversation, add the **Open an existing record** action that reads the customer id from the conversation, with the following attributes:
+To create a macro to open a customer record from an ongoing conversation, add the **Open an existing record** action that reads the customer ID from the conversation, with the following attributes:
   - **Entity record ID**: `${customerEntityName}` 
   - **Entity logical name**: `${customerRecordid}`
 
 ## Autofill form fields
 
-Updates form fields. The macro action doesn't automatically save new values in Dataverse until the form triggers the auto-save. You can use another macro action to save the record. Alternatively, you can use the **Update existing record** macro based on your business requirements. This action applies to the form in focused tab and has the same entity type mentioned in action.  
+Updates form fields. The macro action doesn't automatically save new values in Dataverse until the form triggers the autosave. You can use another macro action to save the record. Alternatively, you can use the **Update existing record** macro based on your business requirements. This action applies to the form in focused tab and has the same entity type mentioned in action.  
 
 
    | Field | Description | 
@@ -113,7 +113,7 @@ Updates form fields. The macro action doesn't automatically save new values in D
    | Entity logical name | Specify the logical name of the entity that you want to update. | 
 
 > [!NOTE]
-> This macro requires a specific pattern to set lookup values. You will need to pass the related record id, record type, and record name as separate attributes for a single lookup.
+> This macro requires a specific pattern to set lookup values. You will need to pass the related record ID, record type, and record name as separate attributes for a single lookup.
 
 ### Example 1: Open a task form and populate form fields from case
 
@@ -151,7 +151,7 @@ Updates an existing record. The action contains the following fields.
    | Attribute Value | Specify the attribute value that's updated for the above-mentioned attribute. |
 
 > [!NOTE]
-> This macro requires a specific pattern to set lookup values. You will need to pass the related record id, record type, and record name as separate attributes for a single lookup.
+> This macro requires a specific pattern to set lookup values. You will need to pass the related record ID, record type, and record name as separate attributes for a single lookup.
 
 ### Example 1: Open a task form, create the task, then update the record
 
@@ -160,7 +160,7 @@ Perform the following steps to create a macro that opens the task form and creat
 1. Add the **Open a new form to create a record** action that opens a task record, with the following parameters:
      - **Entity logical name**:`task`
 1. Add the **Save the record** action.
-1. Add the **Update an existing record** that populates the new task record with record id and logical name from the dynamics content (obtained after the save record action) and the regarding object based on values from the anchor tab, with the following attributes: 
+1. Add the **Update an existing record** that populates the new task record with record ID and logical name from the dynamics content (obtained after the save record action) and the regarding object based on values from the anchor tab, with the following attributes: 
    - **Entity record ID**: `Entity record ID`
    - **Entity logical name**: `Entity logical name`
    - **Attribute Name**: regardingobjectid_incident@odata.bind
@@ -186,7 +186,7 @@ Use the action to resolve a case. The action contains the following fields.
 
 Perform the following steps to create a macro that resolves a case. When agents resolve a case using macro, the tab isn't automatically refreshed, so more steps are recommended for a better user experience.
 
-1. Add the **Action to resolve case** action to pass the billable time as a numeric value and the Incident ID is the record id that needs to be resolved, with the following attributes:
+1. Add the **Action to resolve case** action to pass the billable time as a numeric value and the Incident ID is the record ID that needs to be resolved, with the following attributes:
   - **Incident ID**: `${anchor.incidentid}`
   - **Billable time**: 0
   - **Resolution**: `Case${anchor.ticketnumber}` resolved via macros
@@ -322,7 +322,7 @@ To create a macro that uses a case title to search for similar cases, add the **
 
 ## Clone current record
 
-Clones an existing record that's open in the current tab. The action only copies the fields and does not save the record. The action contains the following field.
+Clones an existing record that's open in the current tab. The action only copies the fields and doesn't save the record. The action contains the following field.
 
    | Field | Description |
    |-----------------|-----------------------------|
