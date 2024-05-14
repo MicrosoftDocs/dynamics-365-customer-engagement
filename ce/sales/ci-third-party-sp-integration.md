@@ -114,7 +114,7 @@ The following metadata are required for conversation intelligence:
 
 | **Header Name** | **Description**                                                                                                                                                            | **Value Example**                  |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
-| Call-ID         | Unique identifier of the call. This UD is used to correlate SIP signals and user actions such as start/stop recording.                                                       | efxxxxxxxxxxxxx   |
+| Call-ID         | Unique identifier of the call. This ID is used to correlate SIP signals and user actions such as start/stop recording.                                                       | efxxxxxxxxxxxxx   |
 | X-AccountId     | Unique identifier of the account the call belongs to. This ID is used for authentication and authorization. This is the same account ID registered in the API for the tenant. | ACxxxxxxxxxxxxxxxxxxxxxxx |
 
 
