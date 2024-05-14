@@ -1,7 +1,7 @@
 ---
 title: Overview of admin features in the Resource Scheduling Optimization add-in
 description: Learn about key features to administer the Resource Scheduling Optimization add-in.
-ms.date: 05/08/2024
+ms.date: 05/14/2024
 ms.subservice: resource-scheduling-optimization
 ms.topic: overview
 author: AnilMur
@@ -27,6 +27,8 @@ Resource Scheduling Optimization includes two built-in system jobs:
 - Delete Resource Scheduling Optimization Requests
 - Delete Resource Scheduling Optimization Simulation Bookings
 
-These [system jobs](/power-apps/developer/data-platform/asynchronous-service?tabs=webapi#retrieve-system-jobs) run daily and delete tables related to Resource Scheduling Optimization that are older than two weeks. Each time an optimization job runs, the service creates records that help with [monitoring](./rso-schedule-optimization.md#monitoring-optimization-requests) them. These records are meant to be purged periodically. While a system administrator or users with sufficient privilege can modify system jobs, we advise against doing so. Changed system jobs could lead to accumulated stale records that decrease system performance and delay or block updates.
+These [system jobs](/power-apps/developer/data-platform/asynchronous-service?tabs=webapi#retrieve-system-jobs) run daily and delete tables related to Resource Scheduling Optimization that are older than two weeks. Each time an optimization job runs, the service creates records that help with [monitoring](./rso-schedule-optimization.md#monitoring-optimization-requests) them. These records are meant to be purged periodically. 
+
+While a system administrator or users with sufficient privilege can modify system jobs, we advise against doing so. Changed system jobs could lead to accumulated stale records that decrease system performance and delay or block updates.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
