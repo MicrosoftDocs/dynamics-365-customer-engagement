@@ -9,12 +9,12 @@ For information about older versions, see [Version history archive](../../field-
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311)  | TBD | 05/17/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.130.10](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213010)  | [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311) | 05/03/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [3.12.130.10](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213010)  | [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311) | 05/10/2024 |
-| | *USG* |   [3.12.130.10](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213010)  | [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311) | 05/03/2024 |
-|**Station 4** |*Europe* |    [3.12.129.28](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212928)  | [3.12.130.10](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213010)  | 05/03/2024 |
-|**Station 5** |  *North America*|  [3.12.129.28](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212928)  | [3.12.130.10](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213010)  | 05/10/2024 |
-|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.129.28](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212928)  | [3.12.130.10](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213010)  | 05/10/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |  [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311)  | TBD | 05/24/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311)  | TBD | 05/31/2024 |
+| | *USG* |   [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311)  | TBD | 05/24/2024 |
+|**Station 4** |*Europe* |   [3.12.130.10](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213010)  | [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311) | 05/17/2024 |
+|**Station 5** |  *North America*|  [3.12.130.10](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213010)  | [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311) | 05/24/2024 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.130.10](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213010)  | [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311) | 05/24/2024 |
 | | *Dedicated Scale Groups* |[3.12.129.28](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212928)  | [3.12.130.10](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213010)  | 05/17/2024 |
 
 >[!NOTE]
@@ -27,6 +27,13 @@ For information about older versions, see [Version history archive](../../field-
 **Resource Scheduling Controls:** 1.2.70.241042
 
 **Dataverse:** 4.0.121.1
+
+- Horizontal scroll location is now maintained when switching views on the schedule board.
+- List view on the schedule assistant now sorts all results instead of just the current page.
+- Various tooltips have been improved.
+- Fixed a bug that was cancelling all related bookings when a Project Operations user canceled a project requirement in an interday view. 
+- Fixed a bug that was causing the requirement panel to crash when reordering tabs with active filters applied. 
+- Fixed a bug that was mislabeling or and duplicating certain entities in the Related tab of a bookable resource form. 
 
 
 ## 3.12.130.10

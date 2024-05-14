@@ -1,14 +1,17 @@
 ---
-title: "Ongoing Conversations dashboard for supervisor | MicrosoftDocs"
-description: "This topic provides information about the Ongoing Conversations dashboard for supervisors to view information about the conversations handled by agents."
-ms.date: 07/07/2021
-ms.topic: how-to
-author: neeranelli
-ms.author: nenellim
+title: Ongoing Conversations dashboard for supervisor
+description: As supervisors, use the Ongoing Conversations Dashboard to view information about the conversations handled by agents.
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
+ms.topic: conceptual
+ms.date: 05/10/2024
+ms.custom: bap-template
+ms.collection: 
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# View and understand Omnichannel Ongoing Conversations dashboard
+# View and understand Omnichannel Ongoing Conversations Dashboard
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -26,7 +29,7 @@ Further, you can filter the conversations using the **Filter by queues** or **Fi
 The **Omnichannel Ongoing Conversations** dashboard is available in:
 
 - [Unified Service Desk](#unified-service-desk)
-- [Omnichannel for Customer Service](#omnichannel-for-customer-service)
+- [Omnichannel for Customer Service](#customer-service-workspace)
 
 ### Unified Service Desk
 
@@ -44,9 +47,9 @@ The **Omnichannel Ongoing Conversations** dashboard is available in:
     > [!div class=mx-imgBorder]
     > ![Ongoing Conversations dashboard in Unified service desk.](../media/supervisor-usd-ongoing-conversations-dashboard.png "Ongoing Conversations dashboard in Unified service desk")
   
-### Omnichannel for Customer Service
+### Customer Service workspace
 
-1. Go to *https://**YourOrganization**.dynamics.com/apps* and select **Omnichannel for Customer Service**.
+1. Go to *https://**YourOrganization**.dynamics.com/apps* and select **Customer Service workspace** on the **Apps** page.
 
 2. Select the **Omnichannel Ongoing Conversations Dashboard** tab.
 

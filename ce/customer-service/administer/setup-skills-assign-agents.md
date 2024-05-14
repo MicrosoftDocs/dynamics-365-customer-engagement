@@ -19,7 +19,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 1. Sign in to the Dynamics 365 instance.
 
-2. Select **Settings** > **Customizations** >  **Customize the System**.
+2. Select **Settings** > **Advanced Settings** > **Customizations** >  **Customize the system**.
 
 3. Select **Option Sets** from the left pane.
 
