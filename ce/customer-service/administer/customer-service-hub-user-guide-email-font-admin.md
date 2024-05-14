@@ -94,9 +94,9 @@ Enabling the user configured settings to an email form consists of the following
 >[!Note]
 >If you're using a workflow to populate email content in RTE fields that aren't in Timeline and you experience issues with inline images not rendering properly, you must use the msdyn_EmailRTEconfig_reference.js plugin.
 
-### Add the required permissions for related entities
+### Add the required permissions for related tables
 
-Make sure that your agents have the required permissions to the related entities when they have to create an email template based on an entity. For example, if an agent must create an email template based on a case, the agent must have the required permissions to the **Account** table.
+ When agents have to create an email template based on a table, make sure that they have the required permissions to the related tables, such as **Account** table for the email template based on a case
 
 ### Add the language filter in the email template selection view
 
