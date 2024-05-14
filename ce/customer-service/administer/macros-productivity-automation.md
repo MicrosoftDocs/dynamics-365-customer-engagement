@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: 
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 05/06/2024
+ms.date: 05/14/2024
 ms.custom: bap-template 
 ---
 
@@ -200,11 +200,10 @@ This action is used to open an email with a predefined template. The action cont
 
    | Field | Description |
    |-----------------|-----------------------------|
-   | Entity logical name |  Specify the logical name of the entity. <br> This is a mandatory field. | 
-   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| 
-   | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | 
-   | Template ID | Specify the ID of the template that must be displayed in the email. <br> This is a mandatory field. | 
-
+   | Entity logical name | The logical name of the entity to which email is being sent. | 
+   | Entity record ID | The record ID of the entity record to which email is being sent.| 
+   | Email recipients | The display name of the record to which email is being sent. | 
+   | Template ID | The email template ID of the type of entity to which email is being sent and that must be displayed in the email. |
 
 > [!NOTE]
 > The **Email recipients** field requires a parameter but doesn't automatically map to a user in the form. We recommend that you use the **autofill form fields** macro to populate the values accordingly. 
