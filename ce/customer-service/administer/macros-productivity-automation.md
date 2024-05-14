@@ -211,8 +211,8 @@ This action is used to open an email with a predefined template. The action cont
 ### Example 1: Open an email template from a case
 
 Perform the following steps to create a macro that opens an email template of category case:
-1. Add the **Open an email form with predefined template** action that adds the template based on the template id and populates the email form with **To** and **Regarding** fields. The attributes are as follows:
-   - **Template Id** : Specify the ID of the required email template.
+1. Add the **Open an email form with predefined template** action that adds the template based on the template ID and populates the email form with **To** and **Regarding** fields. The attributes are as follows:
+   - **Template Id**: Specify the ID of the required email template.
    - **Entity Record ID**: `${anchor.incidentid}`
    - **Email recipients**: `${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}`
    - **Entity Logical Name**: `incident` 
@@ -226,8 +226,8 @@ Perform the following steps to create a macro that opens an email template of ca
 ### Example 2: Open an email template from a conversation
 
 Perform the following steps to create a macro that opens an email template of category contact:
-1. Add the **Open an email form with predefined template** action that adds the template based on the template id and populates the email form with **To** and **Regarding** fields. The attributes are as follows:
-   - **Template Id** : Specify the ID of the required email template.
+1. Add the **Open an email form with predefined template** action that adds the template based on the template ID and populates the email form with **To** and **Regarding** fields. The attributes are as follows:
+   - **Template Id**: Specify the ID of the required email template.
    - **Entity Record ID**: `${customerRecordId}`
    - **Email recipients**: `${customerName}`
    - **Entity Logical Name**: `${customerEntityName}` 
@@ -242,8 +242,8 @@ Perform the following steps to create a macro that opens an email template of ca
 
 Perform the following steps to create a macro that opens an email template of category case, and sets multiple recipients in the To field of the email:
 
-1. Add the **Open an email form with predefined template** action that adds the template based on the template id and populates the email form with **To** and **Regarding** fields. The attributes are as follows:
-   - **Template Id** : Specify the ID of the required email template.
+1. Add the **Open an email form with predefined template** action that adds the template based on the template ID and populates the email form with **To** and **Regarding** fields. The attributes are as follows:
+   - **Template Id**: Specify the ID of the required email template.
    - **Entity Record ID**: `${customerRecordId}`
    - **Email recipients**: `${customerName}`
    - **Entity Logical Name**: `${customerEntityName}` 
