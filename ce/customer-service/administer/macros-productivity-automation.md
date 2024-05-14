@@ -145,10 +145,10 @@ Updates an existing record. The action contains the following fields.
 
    | Field | Description |
    |-----------------|-----------------------------|
-   | Entity logical name |  Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | 
-   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| 
+   | Entity logical name |  Specify the logical name of the entity that you want to update. <br> This field is mandatory. | 
+   | Entity record ID| Specify the entity record ID. <br>This field is mandatory.| 
    | Attribute Name | Specify the attribute logical name you want to update.|
-   | Attribute Value | Specify the attribute value that is updated for the above-mentioned attribute. |
+   | Attribute Value | Specify the attribute value that's updated for the above-mentioned attribute. |
 
 > [!NOTE]
 > This macro requires a specific pattern to set lookup values. You will need to pass the related record id, record type, and record name as separate attributes for a single lookup.
@@ -177,14 +177,14 @@ Use the action to resolve a case. The action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|
-   | Billable time |  Specify the time that is billable. <br> This is a mandatory field. | 
-   | Incident ID| Specify the ID of the case that you want to close. <br>This is a mandatory field.| 
-   | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | 
+   | Billable time |  Specify the time that is billable. <br> This field is mandatory. | 
+   | Incident ID| Specify the ID of the case that you want to close. <br>This field is mandatory.| 
+   | Resolution | Specify the reason to resolve the case. <br>This field is mandatory. | 
 
 
 ### Example: Macro to resolve a case
 
-Perform the following steps to create a macro that resolves a case. When agents resolve a case using macro, the tab isn't automatically refreshed, so additional steps are recommended for a better user experience.
+Perform the following steps to create a macro that resolves a case. When agents resolve a case using macro, the tab isn't automatically refreshed, so more steps are recommended for a better user experience.
 
 1. Add the **Action to resolve case** action to pass the billable time as a numeric value and the Incident ID is the record id that needs to be resolved, with the following attributes:
   - **Incident ID**: `${anchor.incidentid}`
@@ -200,10 +200,10 @@ This action is used to open an email with a predefined template. The action cont
 
    | Field | Description |
    |-----------------|-----------------------------|
-   | Entity logical name | The logical name of the entity to which email is being sent. | 
-   | Entity record ID | The record ID of the entity record to which email is being sent.| 
-   | Email recipients | The display name of the record to which email is being sent. | 
-   | Template ID | The email template ID of the type of entity to which email is being sent and that must be displayed in the email. |
+   | Entity logical name | Specify the logical name of the entity to which email is being sent. <br>This field is mandatory.| 
+   | Entity record ID | Specify the record ID of the entity record to which email is being sent.<br>This field is mandatory.| 
+   | Email recipients | Specify the display name of the record to which email is being sent. <br>This field is mandatory.| 
+   | Template ID | Specify the email template ID of the type of entity to which email is being sent and that must be displayed in the email. <br>This field is mandatory.|
 
 > [!NOTE]
 > The **Email recipients** field requires a parameter but doesn't automatically map to a user in the form. We recommend that you use the **autofill form fields** macro to populate the values accordingly. 
@@ -279,7 +279,7 @@ Opens a knowledge base article. The action contains the following field.
 
    | Field | Description | 
    |-----------------|-----------------------------|
-   | Entity record ID  | Specify the entity ID of the knowledge base article that you want to open. <br> This is a mandatory field.|  
+   | Entity record ID  | Specify the entity ID of the knowledge base article that you want to open. <br>This field is mandatory.|  
 
 ### Example: Open a knowledge base article passing a GUID
 
@@ -291,9 +291,9 @@ This action is used to open a record grid. The action contains the following fie
 
    | Field | Description |
    |-----------------|-----------------------------|
-   | Entity logical name |  Specify the logical name of the entity for which you want to open the grid. <br> This is a mandatory field. | 
-   | View ID| Specify the ID of the view that you want to open.<br> This is a mandatory field. | 
-   | View type | Specify the view type. <br>This is a mandatory field. | 
+   | Entity logical name |  Specify the logical name of the entity for which you want to open the grid. <br>This field is mandatory. | 
+   | View ID| Specify the ID of the view that you want to open.<br>This field is mandatory. | 
+   | View type | Specify the view type. <br>This field is mandatory. | 
   
 
 ### Example 1: Open a list of products
@@ -314,7 +314,7 @@ Searches knowledge articles based on the populated phrase. The action contains t
 
    | Field | Description |
    |-----------------|-----------------------------|
-   | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br> This is a mandatory field.  |  
+   | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br>This field is mandatory..  |  
 
 ### Example 1: Search for cases with same case title
 
@@ -326,7 +326,7 @@ Clones an existing record that's open in the current tab. The action only copies
 
    | Field | Description |
    |-----------------|-----------------------------|
-   | Record title | Specify the title of the record that you want to clone. <br> This is a mandatory field. | 
+   | Record title | Specify the title of the record that you want to clone. <br>This field is mandatory. | 
 
 ### Example: Create a child case using clone current record 
 
@@ -347,8 +347,8 @@ Clones an existing record. The action only copies the fields and doesn't save th
    | Field | Description | 
    |-----------------|-----------------------------|
    |Record title| Specify the record title.|
-   | Entity record ID | Specify the ID of the entity record. <br> This is a mandatory field.|
-   | Entity logical name | Specify the logical name of the entity that you want to clone. <br> This is a mandatory field. |
+   | Entity record ID | Specify the ID of the entity record. <br>This field is mandatory.|
+   | Entity logical name | Specify the logical name of the entity that you want to clone. <br>This field is mandatory. |
  
  
 ### Example: Create a child case using clone input record
@@ -387,7 +387,7 @@ Perform the following steps to create a macro that updates the priority of a cas
 
 ## Save the record
 
-Saves the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or are left blank.
+Saves the record after you entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or are left blank.
 
 ## Next Steps
 
