@@ -1,7 +1,7 @@
 ﻿---
 title: Integrate third-party dialers with Dynamics 365 conversation intelligence (preview)
 description: Learn how to configure third-party dialers and Dynamics 365 to get conversation intelligence for calls made or received from third-party dialers.
-ms.date: 08/09/2023
+ms.date: 05/14/2024
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -20,7 +20,7 @@ With this integration, Dynamics 365 users can use dialers provided by third-part
 
 ## How the integration works
 
-At a high-level, the integration consists of 3 parts:
+At a high-level, the integration consists of three parts:
 
 1. **Register the provider:** Register the provider details and get the users list to be recorded by using the conversation intelligence API.
 
@@ -40,7 +40,7 @@ The following diagram illustrates how the integration works:
 
 2. Add API permission for media recording:
 
-    1. In the Microsoft Entra ID application that you've created, go to **API permissions**.
+    1. In the Microsoft Entra ID application that you created, go to **API permissions**.
 
     2. Select **Add a permission**.
 
@@ -56,7 +56,7 @@ The following diagram illustrates how the integration works:
 
     ```curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token -d 'client_id=<your app id>' -d 'grant_type=client_credentials' -d 'scope=f448d7e5-e313-4f90-a3eb-5dbb3277e4b3/.default' -d 'client_secret=<your app secret>'```
 
-   The `scope` parameter specifies the application ID of the Conversation intelligence app. Do not change this value.
+   The `scope` parameter specifies the application ID of the Conversation intelligence app. Don't change this value.
 
     For more information about the curl command, see [Get Microsoft Entra ID tokens for service principals](/azure/databricks/dev-tools/api/latest/aad/service-prin-aad-token).
 
@@ -93,8 +93,6 @@ The following diagram illustrates how the integration works:
  
 
     For more information about the API, see the [Swagger documentation](https://api.media.recording.dynamics.com/api/specification.providers.json).
- 
-    <<Editor's note: Need info about the parameters and where they can get it from. Also, the request body in swagger doc is different from the above.>>
 
 3. Call the following conversation intelligence API to get the list of users to record:  
     ```GET /api/v1.0/providers/users```
@@ -105,7 +103,7 @@ After the Dynamics 365 Sales admin creates the recording policy, the provider ca
 
 Conversation Intelligence recorders implement the standard [SIPREC protocol](https://www.rfc-editor.org/rfc/rfc7866.html).
 
-The communication is secured using SIPS (port 5061) and SRTP protocols. The authentication is done using [mTLS](https://www.cloudflare.com/learning/access-management/what-is-mutual-tls) in the SIPS message connection, and is based on the certificate provided to the API – this means that the provider must be registered for a tenant to establish SIPS connection.
+The communication is secured using SIPS (port 5061) and SRTP protocols. The authentication is done using [mTLS](https://www.cloudflare.com/learning/access-management/what-is-mutual-tls) in the SIPS message connection, and is based on the certificate provided to the API – which means that the provider must be registered for a tenant to establish SIPS connection.
 
 The following screenshot illustrates the communication between the SIPREC client and SIPREC server:
 
@@ -117,15 +115,15 @@ The following metadata are required for conversation intelligence:
 
 | **Header Name** | **Description**                                                                                                                                                            | **Value Example**                  |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
-| Call-ID         | Unique identifier of the call. This is used to correlate SIP signals and user actions such as start/stop recording.                                                       | efxxxxxxxxxxxxx   |
-| X-AccountId     | Unique identifier of the account the call belongs to. This is used for authentication and authorization. This is the same account Id registered in the API for the tenant. | ACxxxxxxxxxxxxxxxxxxxxxxx |
+| Call-ID         | Unique identifier of the call. This ID is used to correlate SIP signals and user actions such as start/stop recording.                                                       | efxxxxxxxxxxxxx   |
+| X-AccountId     | Unique identifier of the account the call belongs to. This ID is used for authentication and authorization. This is the same account ID registered in the API for the tenant. | ACxxxxxxxxxxxxxxxxxxxxxxx |
 
 
 **Metadata**
 
 | **Metadata key name** | **Description**                                                        | **Value Example**         |
 |-----------------------|------------------------------------------------------------------------|---------------------------|
-| Role                  | Indicates whether it is an inbound or outbound call for the seller.    | ["inbound", "outbound"] |
+| Role                  | Indicates whether it's an inbound or outbound call for the seller.    | ["inbound", "outbound"] |
 | CallerDisplayName     | Caller display name. If not available, phone number is displayed.      | Kenny Smith               |
 | CalleeDisplayName     | Recipient's display name. If not available, phone number is displayed. | Alex Baker                |
 
