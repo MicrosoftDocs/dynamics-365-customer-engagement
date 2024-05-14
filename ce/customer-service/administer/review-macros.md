@@ -21,7 +21,9 @@ You can view the macro run history, which shows how many times a macro ran, alon
 ## View macro run history
 
 Consider the following agent script step that fails.
-:::image type="content" source="../media/agent-script-failure.png" alt-text="Agent script failing.":::
+
+ :::image type="content" source="../media/agent-script-failure.png" alt-text="Agent script failing.":::
+
 To view the run history for the macro that failed, follow these steps:
 
 1. Go to Customer Service admin center, select **Productivity** > **Agent scripts**.  
