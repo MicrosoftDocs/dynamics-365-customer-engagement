@@ -39,7 +39,7 @@ This release is a hotfix on Field Service version [8.8.114.29](/dynamics365/fiel
 
 This release is a hotfix on Field Service version [8.8.114.26](/dynamics365/field-service/version-history#8811426)
 
-- fixed an issue that cause the booking control on the new work order form to break when changing time zones.
+- Fixed an issue that caused issues with the booking control on the new work order form when changing time zones.
 
 ## 8.8.114.26
 (Includes Universal Resource Scheduling version [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311) and Resource Scheduling controls version 1.2.70.241042).
