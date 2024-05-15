@@ -30,7 +30,7 @@ Your customer service representatives rely on data and information from a wide v
 
 In Power Automate, you can create a custom connector plugin, such as a connector for order management. Then you can import this connector plugin in Copilot Studio and publish. You can then configure the plugin in Customer Service to use it with Copilot. Copilot can help fetch details pertaining to a particular order from the third-party order management system when an agent provides the order ID as the input.
 
-## Prompt plugin connector
+## Prompt plugin
 
 With prompt plugins for Copilot in Customer Service, you can connect Dataverse to Copilot, and let your agents securely access data from those systems using Copilot.
 
