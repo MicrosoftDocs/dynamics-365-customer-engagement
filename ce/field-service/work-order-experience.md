@@ -146,6 +146,9 @@ If trade coverage is set to not cover a trade, a warning is displayed in the wor
 
 For more information about customizing work orders, see [Customization considerations for the work order form](work-order-customization.md).
 
+> [!IMPORTANT]
+> The components that the new work order experience introduces are not supported for mobile or tablet devices. While they are built to adapt to the screen size of the form factor, features like offline profiles or undo actions don't work.
+
 ## New work order as default experience
 
 In the near future, the new work order experience becomes the new default view for all organizations automatically. To opt out from the planned change, an admin needs to change a setting for your organization.
