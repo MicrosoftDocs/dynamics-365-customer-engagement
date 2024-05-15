@@ -40,7 +40,7 @@ If you aren't using the Sales Hub app, you can define the lead qualification exp
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of Advanced Settings option on the Settings menu":::
    The **Business Management** page opens.
-2. Select **Settings**, then **Administration**, and then **System Settings**.
+2. Select **Settings** > **Administration** > **System Settings**.
 3. Select the **Sales** tab.
 4. Under **Qualify lead experience**, set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No** to allow salespeople to choose which records to create when a lead is qualified. Set it to **Yes** to automatically create account, contact, and opportunity records when a lead is qualified.
 
