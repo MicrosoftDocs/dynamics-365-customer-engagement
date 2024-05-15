@@ -46,7 +46,7 @@ Use the view list and queue list to filter and find items in queues.
      :::image type="content" source="../media/private-queues-members-after.png" alt-text="Worked by field displaying only members of the private queue" lightbox="../media/private-queues-members.png":::
         
     
-   - Your capacity is updated. If the work item indicates capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, your available capacity units in that profile is deducted by one.
+   - Your capacity is updated. If the work item indicates capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, your available capacity units in that profile are deducted by one.
    - Your work schedule, assignment rules, skills, presence, or capacity constraints aren't evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item. This ability to manually override pre-configured capacity is to ensure that you're able to pick up work beyond your normal capacity during contingencies. More information: [Capacity profiles](../administer/capacity-profiles.md)
    - Your presence will be updated. If you have further capacity left, your presence will be set to **Busy**. If you have no capacity left, your presence will be set to **Do not disturb**.
 
