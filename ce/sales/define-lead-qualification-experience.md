@@ -39,6 +39,8 @@ If you aren't using the Sales Hub app, you can define the lead qualification exp
 
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of Advanced Settings option on the Settings menu":::
+   
+
    The **Business Management** page opens.
 2. Select **Settings** > **Administration** > **System Settings**.
 3. Select the **Sales** tab.
