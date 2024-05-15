@@ -13,9 +13,9 @@ ms.reviewer: nenellim
 
 The `lcw:onMessageReceived` event is triggered when the chat widget gets a new message. You can use this event to create custom experiences for the user. For example, play a sound notification or update the page title to catch the user eye for the new message.
 
-Users such as an agent in Dynamics 365 can send the message or the system can send an automated message. So, the possible values for `messageType` are "user" and "system".
+Users such as an agent in Dynamics 365 can send the message or the system can send an automated message. So, the possible values for `messageType` are user and system.
 
-This event will contain data in the payload to explain the source of the message.
+This event contains data in the payload to explain the source of the message.
 
 ## Sample payload
 
