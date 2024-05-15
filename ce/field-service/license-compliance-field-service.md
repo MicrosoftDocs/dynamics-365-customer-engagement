@@ -6,7 +6,7 @@ ms.author: vhorvath
 ms.reviewer: mhart
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 03/19/2024
+ms.date: 05/15/2024
 ---
 
 # Objects validated by the solution checker
