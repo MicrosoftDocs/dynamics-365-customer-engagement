@@ -1,7 +1,7 @@
 ---
-title: "lcw:onMessageReceived | MicrosoftDocs"
+title: lcw:onMessageReceived 
 description: lcw onMessageReceived event (Omnichannel for Customer Service JavaScript API reference)
-ms.date: 11/10/2021
+ms.date: 05/15/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -108,6 +108,24 @@ This event will contain data in the payload to explain the source of the message
 
 } 
 ```
+**Agent assignment accepted**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "system",
+    "agentaccepted"
+],
+
+},
+"messageType": "system"
+
+} 
+```
+
 
 **Agent assignment failed**
 
