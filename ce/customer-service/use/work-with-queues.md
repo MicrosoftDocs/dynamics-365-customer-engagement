@@ -1,17 +1,12 @@
 ---
 title: Work with queues
-description: Use this article to learn how to work with queues, find queue items, and pick work items from queues.
-ms.date: 05/07/2024
-ms.topic: article
+description: Learn how to work with queues, find queue items, and pick work items from queues.
+ms.date: 05/15/2024
+ms.topic: how-to 
 author: gandhamm
 ms.author: mgandham
-searchScope:
-- D365-App-customerservicehub
-- D365-Entity-queueitem
-- D365-UI-*
-- Customer Engagement
-- Dynamics 365
-- Customer Service
+ms.collection: 
+ms.custom: bap-template 
 ---
 
 # Work with queues

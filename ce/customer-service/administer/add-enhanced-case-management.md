@@ -1,11 +1,11 @@
 ---
-title: Customize the case resolution experience | MicrosoftDocs
+title: Customize the case resolution experience
 description: Use this article to learn how to configure enhanced case management.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
-ms.date: 05/14/2024 
+ms.date: 05/15/2024 
 ms.custom: bap-template 
 ---
 
