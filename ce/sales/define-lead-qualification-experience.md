@@ -1,7 +1,7 @@
 ---
 title: Define lead qualification experience in Dynamics 365 Sales
 description: Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified.
-ms.date: 05/14/2024
+ms.date: 05/15/2024
 ms.topic: how-to
 ms.custom: bap-template
 author: lavanyakr01
@@ -38,11 +38,13 @@ Give your salespeople the flexibility to choose which records to create&mdash;ac
 If you aren't using the Sales Hub app, you can define the lead qualification experience by using the legacy web client.
 
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
+
    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of Advanced Settings option on the Settings menu":::
+
    The **Business Management** page opens.
-2. Select **Settings**, then **Administration**, and then **System Settings**.
-3. Select the **Sales** tab.
-4. Under **Qualify lead experience**, set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No** to allow salespeople to choose which records to create when a lead is qualified. Set it to **Yes** to automatically create account, contact, and opportunity records when a lead is qualified.
+1. Select **Settings**, then **Administration**, and then **System Settings**.
+1. Select the **Sales** tab.
+1. Under **Qualify lead experience**, set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No** to allow salespeople to choose which records to create when a lead is qualified. Set it to **Yes** to automatically create account, contact, and opportunity records when a lead is qualified.
 
 ## Field mappings to other entities
 
