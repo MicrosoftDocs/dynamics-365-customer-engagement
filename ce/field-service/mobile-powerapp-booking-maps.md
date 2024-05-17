@@ -17,7 +17,7 @@ Frontline workers can view their scheduled work orders on a map from the Field S
 
 ## Prerequisites
 
-To use booking maps, your administrator must enable booking maps for mobile in Field Service settings. Within the Field Service app module in Dynamics 365, go to **Settings** > **Field Service Settings** > **Work Order / Booking**. Scroll to find the toggle **Enable Booking Map for Field Service Mobile**. By switching this toggle **On**, you enable the booking maps feature for mobile users.
+To use booking maps, your administrator must [enable booking maps for mobile in the **Work Order/Booking** section of the **Field Service Settings** page](configure-default-settings.md#work-order--booking-settings).
 
 ## Schedule work orders
 
