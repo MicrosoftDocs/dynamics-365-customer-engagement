@@ -1,9 +1,9 @@
 ---
 title: Add a custom app module to the Field Service mobile app
 description: Learn how to create a custom app module for the Dynamics 365 Field Service mobile app.
-ms.date: 11/17/2023
+ms.date: 05/17/2024
 ms.subservice: field-service-mobile
-ms.topic: article
+ms.topic: how-to
 author: Andrea-Orimoto
 ms.author: andreo
 ---
@@ -28,7 +28,7 @@ Create a custom app module based on the Field Service Mobile app module. Reuse c
 
 ## Make the custom app module available in the mobile app
 
-Once the custom app module is created, you need update the mobile app player that can access the app module.
+Once the custom app module is created, you need to update the mobile app player that can access the app module.
 
 To make the app module available to the Field Service mobile app:
 
@@ -47,6 +47,6 @@ You can now find the custom app module in the app picker screen after signing in
 > [!NOTE]
 > If you don't see the app module:
 >
-> - Users need to have a [predefined security role](/power-platform/admin/database-security) in the environment that the app is in. If a predefined security role is assigned to a user using a Dataverse team, you need to use a Microsoft Entra ID group team. Users will not see model-driven apps if a predefined security role is assigned using a Dataverse owner team.
+> - Make sure users have a [predefined security role](/power-platform/admin/database-security) in the environment that the app is in. If a predefined security role is assigned to a user using a Dataverse team, you need to use a Microsoft Entra ID group team. Users don't see model-driven apps if a predefined security role is assigned using a Dataverse owner team.
 > - Check the roles assigned to the app module and ensure the user accessing the app module has the same role.
 > - In sandbox environments, ensure "Show non-production apps" is enabled in the mobile app.
