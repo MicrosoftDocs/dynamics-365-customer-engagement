@@ -149,8 +149,17 @@ sections:
         answer: |
          This error is commonly caused by a timing issue when using synchronous OnSave events. Starting with version 8.8.88.56 of the Field Service Mobile app module, it uses AsyncOnSave to mitigate validation errors for out-of-box scripts. If users continue to see this error, evaluate custom validations and use OnChange events.
 
+      - question: |
+         After modifying my Work Order Product form, why can I no longer save updates while in Offline mode?
+        answer: |
+         While working with customized forms there can be several causes for functional issues. You should review any new business logic added to the form, in addition to ensuring any fields required by out of the box business logic are persisted on the form. For example a required field on Work Order Product is the Work Order field. This field must be present in order to save and pass all client-side validation while running offline.
+         
   - name: Other
     questions:       
+
+  - question: How do I view feedback from users of the Field Service Mobile application in my organization?
+       answer: |
+          Within the mobile application users can submit feedback from the left navigation. Admins can view that feedback via the [Microsoft Admin Center](https://admin.microsoft.com) by navigating to Health > Product feedback. Feedback will be from the "Dynamics 365 Field Service Mobile" app. For more information on in product feedback [Learn about Microsoft feedback for your organization](https://learn.microsoft.com/microsoft-365/admin/misc/feedback-user-control)
 
      - question: How do I enable native mobile date and time picker, and input-specific keyboards for my app module? 
        answer: |
