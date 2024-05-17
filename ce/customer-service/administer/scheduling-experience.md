@@ -4,7 +4,6 @@ description: Learn about how to set up the Service Scheduling experience in Dyna
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.service: dynamics-365 
 ms.topic: how-to 
 ms.date: 05/07/2024
 ms.custom: bap-template 
