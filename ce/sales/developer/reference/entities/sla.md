@@ -46,9 +46,8 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 |11022|**Sales usage reporting**|
 |11023|**Sales Copilot User Setting**|
 |11024|**SearchResultsCache**|
-|11026|**Bank Account**|
 |11032|**Flow Credential Application**|
-|11040|**Omnichannel agent assignment custom api privilege **|
+|11040|**Omnichannel agent assignment custom api privilege**|
 |11041|**Flow Log**|
 |11042|**Planner Business Scenario**|
 |11043|**Planner Sync Action**|
