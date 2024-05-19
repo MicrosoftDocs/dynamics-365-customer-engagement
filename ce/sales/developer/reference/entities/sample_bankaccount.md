@@ -1,7 +1,7 @@
 ---
 title: "Bank Account (sample_BankAccount) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Bank Account (sample_BankAccount) table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 05/12/2024
+ms.date: 05/19/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -22,19 +22,19 @@ Messages represent operations that can be performed on the table. They may also 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
 | ---- | ----- |----- |
 | `Assign`<br />Event: True |`PATCH` /sample_bankaccounts(*sample_bankaccountid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `ownerid` property. |<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-| `Create`<br />Event: True |`POST` /sample_bankaccounts<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api) |[IOrganizationService.Create method](xref:Microsoft.Xrm.Sdk.IOrganizationService.Create%2A) or <br /><xref:Microsoft.Xrm.Sdk.Messages.CreateRequest>|
+| `Create`<br />Event: True |`POST` /sample_bankaccounts<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api) |[Create records](/power-apps/developer/data-platform/org-service/entity-operations-create#basic-create)|
 | `CreateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-| `Delete`<br />Event: True |`DELETE` /sample_bankaccounts(*sample_bankaccountid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[IOrganizationService.Delete method](xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete%2A) or <br /><xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest>|
+| `Delete`<br />Event: True |`DELETE` /sample_bankaccounts(*sample_bankaccountid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[Delete records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete)|
 | `GrantAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-| `Retrieve`<br />Event: True |`GET` /sample_bankaccounts(*sample_bankaccountid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[IOrganizationService.Retrieve method](xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve%2A) or <br /><xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest>|
-| `RetrieveMultiple`<br />Event: True |`GET` /sample_bankaccounts<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[IOrganizationService.RetrieveMultiple method](xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple%2A) or <br /><xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest>|
+| `Retrieve`<br />Event: True |`GET` /sample_bankaccounts(*sample_bankaccountid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
+| `RetrieveMultiple`<br />Event: True |`GET` /sample_bankaccounts<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Retrieve multiple records](/power-apps/developer/data-platform/org-service/query-data)|
 | `RetrievePrincipalAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 | `RetrieveSharedPrincipalsAndAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 | `RevokeAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RevokeAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
 | `SetState`<br />Event: True |`PATCH` /sample_bankaccounts(*sample_bankaccountid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `statecode` and `statuscode` properties. |<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-| `Update`<br />Event: True |`PATCH` /sample_bankaccounts(*sample_bankaccountid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) |[IOrganizationService.Update method](xref:Microsoft.Xrm.Sdk.IOrganizationService.Update%2A) or <br /><xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest>|
+| `Update`<br />Event: True |`PATCH` /sample_bankaccounts(*sample_bankaccountid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) |[Update records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-update)|
 | `UpdateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 | `Upsert`<br />Event: False |`PATCH` /sample_bankaccounts(*sample_bankaccountid*)<br />See [Upsert a table row](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#upsert-a-table-row) |<xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest>|
 | `UpsertMultiple`<br />Event: False |<xref:Microsoft.Dynamics.CRM.UpsertMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpsertMultipleRequest>|
@@ -994,12 +994,8 @@ One-To-Many Relationship: [businessunit business_unit_sample_bankaccount](busine
 |ReferencedEntity|`businessunit`|
 |ReferencedAttribute|`businessunitid`|
 |ReferencingAttribute|`owningbusinessunit`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 
@@ -1012,12 +1008,8 @@ One-To-Many Relationship: [systemuser lk_sample_bankaccount_createdby](systemuse
 |ReferencedEntity|`systemuser`|
 |ReferencedAttribute|`systemuserid`|
 |ReferencingAttribute|`createdby`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 
@@ -1030,12 +1022,8 @@ One-To-Many Relationship: [systemuser lk_sample_bankaccount_createdonbehalfby](s
 |ReferencedEntity|`systemuser`|
 |ReferencedAttribute|`systemuserid`|
 |ReferencingAttribute|`createdonbehalfby`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 
@@ -1048,12 +1036,8 @@ One-To-Many Relationship: [systemuser lk_sample_bankaccount_modifiedby](systemus
 |ReferencedEntity|`systemuser`|
 |ReferencedAttribute|`systemuserid`|
 |ReferencingAttribute|`modifiedby`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 
@@ -1066,12 +1050,8 @@ One-To-Many Relationship: [systemuser lk_sample_bankaccount_modifiedonbehalfby](
 |ReferencedEntity|`systemuser`|
 |ReferencedAttribute|`systemuserid`|
 |ReferencingAttribute|`modifiedonbehalfby`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 
@@ -1084,12 +1064,8 @@ One-To-Many Relationship: [owner owner_sample_bankaccount](owner.md#BKMK_owner_s
 |ReferencedEntity|`owner`|
 |ReferencedAttribute|`ownerid`|
 |ReferencingAttribute|`ownerid`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 
@@ -1102,12 +1078,8 @@ One-To-Many Relationship: [account sample_Account_BankAccounts](account.md#BKMK_
 |ReferencedEntity|`account`|
 |ReferencedAttribute|`accountid`|
 |ReferencingAttribute|`sample_relatedaccountid`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `Cascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 
@@ -1120,12 +1092,8 @@ One-To-Many Relationship: [account sample_BankAccount_Customer_Account](account.
 |ReferencedEntity|`account`|
 |ReferencedAttribute|`accountid`|
 |ReferencingAttribute|`sample_customerid`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `Cascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 
@@ -1138,12 +1106,8 @@ One-To-Many Relationship: [contact sample_BankAccount_Customer_Contact](contact.
 |ReferencedEntity|`contact`|
 |ReferencedAttribute|`contactid`|
 |ReferencingAttribute|`sample_customerid`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `Cascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 
@@ -1156,12 +1120,8 @@ One-To-Many Relationship: [team team_sample_bankaccount](team.md#BKMK_team_sampl
 |ReferencedEntity|`team`|
 |ReferencedAttribute|`teamid`|
 |ReferencingAttribute|`owningteam`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 
@@ -1174,12 +1134,8 @@ One-To-Many Relationship: [transactioncurrency TransactionCurrency_sample_BankAc
 |ReferencedEntity|`transactioncurrency`|
 |ReferencedAttribute|`transactioncurrencyid`|
 |ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 
@@ -1192,12 +1148,8 @@ One-To-Many Relationship: [systemuser user_sample_bankaccount](systemuser.md#BKM
 |ReferencedEntity|`systemuser`|
 |ReferencedAttribute|`systemuserid`|
 |ReferencingAttribute|`owninguser`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 

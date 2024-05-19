@@ -1,7 +1,7 @@
 ---
 title: "Owner table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Owner table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 05/12/2024
+ms.date: 05/19/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly

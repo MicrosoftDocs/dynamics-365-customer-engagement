@@ -1,7 +1,7 @@
 ---
 title: "Contact table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Contact table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 05/12/2024
+ms.date: 05/19/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -71,12 +71,8 @@ One-To-Many Relationship: [sample_bankaccount sample_BankAccount_Contacts](sampl
 |ReferencedEntity|`sample_bankaccount`|
 |ReferencedAttribute|`sample_bankaccountid`|
 |ReferencingAttribute|`sample_bankaccountid`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 

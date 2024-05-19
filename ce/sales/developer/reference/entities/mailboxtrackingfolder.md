@@ -1,7 +1,7 @@
 ---
 title: "Mailbox Auto Tracking Folder (MailboxTrackingFolder) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Mailbox Auto Tracking Folder (MailboxTrackingFolder) table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 05/12/2024
+ms.date: 05/19/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -46,12 +46,8 @@ One-To-Many Relationship: [sample_bankaccount sample_bankaccount_MailboxTracking
 |ReferencedEntity|`sample_bankaccount`|
 |ReferencedAttribute|`sample_bankaccountid`|
 |ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 

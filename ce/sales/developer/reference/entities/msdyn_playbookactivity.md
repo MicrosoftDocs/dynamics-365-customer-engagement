@@ -1,7 +1,7 @@
 ---
 title: "Playbook activity (msdyn_playbookactivity) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Playbook activity (msdyn_playbookactivity) table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 05/12/2024
+ms.date: 05/19/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -32,7 +32,6 @@ Changes from [msdyn_activityType (Microsoft Dynamics 365)](/dynamics365/develope
 
 |Value|Label|
 |---|---|
-|1204|**Application**|
 |10912|**Chatbot content pack**|
 |11012|**Conversation Summary Interaction**|
 |11013|**Conversation Summary Setting**|
@@ -65,6 +64,9 @@ Changes from [msdyn_activityType (Microsoft Dynamics 365)](/dynamics365/develope
 |11076|**AIPluginOperationResponseTemplate**|
 |11077|**AIPluginTitle**|
 |11078|**SideloadedAIPlugin**|
+|11089|**Power Pages Scan Report**|
+|11090|**Power Pages Log**|
+|11092|**PM Simulation**|
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Session (msdyn_ocsession) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Session (msdyn_ocsession) table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 05/12/2024
+ms.date: 05/19/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -23,6 +23,36 @@ Session for interacting with a customer
 
 Microsoft Dynamics 365 Sales
 modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
+
+- [msdyn_queueassignedreason](#BKMK_msdyn_queueassignedreason)
+- [msdyn_sessioncreationreason](#BKMK_msdyn_sessioncreationreason)
+- [RegardingObjectId](#BKMK_RegardingObjectId)
+
+### <a name="BKMK_msdyn_queueassignedreason"></a> msdyn_queueassignedreason
+
+Changes from [msdyn_queueassignedreason (Microsoft Dynamics 365)](/dynamics365/developer/reference/dataverse/entities/msdyn_ocsession#BKMK_msdyn_queueassignedreason):
+
+#### msdyn_queueassignedreason Choices/Options
+
+|Value|Label|
+|---|---|
+|192350024|**BotTransferSession **|
+|192350025|**BotEndConversation **|
+|192350026|**AssignToAgentBySupervisor  **|
+|192350027|**AssignToQueueBySupervisor  **|
+
+### <a name="BKMK_msdyn_sessioncreationreason"></a> msdyn_sessioncreationreason
+
+Changes from [msdyn_sessioncreationreason (Microsoft Dynamics 365)](/dynamics365/developer/reference/dataverse/entities/msdyn_ocsession#BKMK_msdyn_sessioncreationreason):
+
+#### msdyn_sessioncreationreason Choices/Options
+
+|Value|Label|
+|---|---|
+|192350024|**BotTransferSession **|
+|192350025|**BotEndConversation **|
+|192350026|**AssignToAgentBySupervisor  **|
+|192350027|**AssignToQueueBySupervisor  **|
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
@@ -46,12 +76,8 @@ One-To-Many Relationship: [sample_bankaccount sample_bankaccount_msdyn_ocsession
 |ReferencedEntity|`sample_bankaccount`|
 |ReferencedAttribute|`sample_bankaccountid`|
 |ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|``|
+|ReferencedEntityNavigationPropertyName|``|
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
-|DenormalizedAttributeName|null|
-|EntityKey|null|
-|IsCustomizable||
-|IsDenormalizedLookup|null|
 |IsHierarchical||
 |IsRelationshipAttributeDenormalized||
 

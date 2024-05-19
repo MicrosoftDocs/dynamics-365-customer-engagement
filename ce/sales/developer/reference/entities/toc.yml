@@ -7,18 +7,18 @@ items:
 - name: "Activity (ActivityPointer)"
   displayName: "ActivityPointer entity"
   href: activitypointer.md
-- name: "AICopilot"
-  displayName: "AICopilot entity"
-  href: aicopilot.md
-- name: "AIPluginTitle"
-  displayName: "AIPluginTitle entity"
-  href: aiplugintitle.md
+- name: "Activity monitor (activitymonitor)"
+  displayName: "activitymonitor entity"
+  href: activitymonitor.md
 - name: "Appointment"
   displayName: "Appointment entity"
   href: appointment.md
 - name: "Bank Account (sample_BankAccount)"
   displayName: "sample_BankAccount entity"
   href: sample_bankaccount.md
+- name: "BgJobLedger (msdyn_BgJobLedger)"
+  displayName: "msdyn_BgJobLedger entity"
+  href: msdyn_bgjobledger.md
 - name: "Bulk Delete Failure (BulkDeleteFailure)"
   displayName: "BulkDeleteFailure entity"
   href: bulkdeletefailure.md
@@ -64,15 +64,36 @@ items:
 - name: "Field Sharing (PrincipalObjectAttributeAccess)"
   displayName: "PrincipalObjectAttributeAccess entity"
   href: principalobjectattributeaccess.md
+- name: "File Upload (msdyn_FileUpload)"
+  displayName: "msdyn_FileUpload entity"
+  href: msdyn_fileupload.md
 - name: "Invite Redemption (adx_inviteredemption)"
   displayName: "adx_inviteredemption entity"
   href: adx_inviteredemption.md
+- name: "Invoice"
+  displayName: "Invoice entity"
+  href: invoice.md
+- name: "Invoice Product (InvoiceDetail)"
+  displayName: "InvoiceDetail entity"
+  href: invoicedetail.md
 - name: "Letter"
   displayName: "Letter entity"
   href: letter.md
 - name: "Mailbox Auto Tracking Folder (MailboxTrackingFolder)"
   displayName: "MailboxTrackingFolder entity"
   href: mailboxtrackingfolder.md
+- name: "Opportunity"
+  displayName: "Opportunity entity"
+  href: opportunity.md
+- name: "Opportunity Product (OpportunityProduct)"
+  displayName: "OpportunityProduct entity"
+  href: opportunityproduct.md
+- name: "Order (SalesOrder)"
+  displayName: "SalesOrder entity"
+  href: salesorder.md
+- name: "Order Product (SalesOrderDetail)"
+  displayName: "SalesOrderDetail entity"
+  href: salesorderdetail.md
 - name: "Owner"
   displayName: "Owner entity"
   href: owner.md
@@ -91,24 +112,27 @@ items:
 - name: "Process Session (ProcessSession)"
   displayName: "ProcessSession entity"
   href: processsession.md
+- name: "Quote"
+  displayName: "Quote entity"
+  href: quote.md
+- name: "Quote Product (QuoteDetail)"
+  displayName: "QuoteDetail entity"
+  href: quotedetail.md
 - name: "Recurring Appointment (RecurringAppointmentMaster)"
   displayName: "RecurringAppointmentMaster entity"
   href: recurringappointmentmaster.md
-- name: "RoleEditorLayout"
-  displayName: "RoleEditorLayout entity"
-  href: roleeditorlayout.md
-- name: "Secured Masking Rule (MaskingRule)"
-  displayName: "MaskingRule entity"
-  href: maskingrule.md
+- name: "Recurring Sales Action V2 (msdyn_recurringsalesactionv2)"
+  displayName: "msdyn_recurringsalesactionv2 entity"
+  href: msdyn_recurringsalesactionv2.md
 - name: "Service Activity (ServiceAppointment)"
   displayName: "ServiceAppointment entity"
   href: serviceappointment.md
 - name: "Session (msdyn_ocsession)"
   displayName: "msdyn_ocsession entity"
   href: msdyn_ocsession.md
-- name: "Shared Workspace Access Token (sharedworkspaceaccesstoken)"
-  displayName: "sharedworkspaceaccesstoken entity"
-  href: sharedworkspaceaccesstoken.md
+- name: "Session event (msdyn_sessionevent)"
+  displayName: "msdyn_sessionevent entity"
+  href: msdyn_sessionevent.md
 - name: "Similarity Rule (SimilarityRule)"
   displayName: "SimilarityRule entity"
   href: similarityrule.md
@@ -133,6 +157,9 @@ items:
 - name: "Teams chat (chat)"
   displayName: "chat entity"
   href: chat.md
+- name: "Territory"
+  displayName: "Territory entity"
+  href: territory.md
 - name: "User (SystemUser)"
   displayName: "SystemUser entity"
   href: systemuser.md

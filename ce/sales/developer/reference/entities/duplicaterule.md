@@ -1,7 +1,7 @@
 ---
 title: "Duplicate Detection Rule (DuplicateRule) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Duplicate Detection Rule (DuplicateRule) table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 05/12/2024
+ms.date: 05/19/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -67,6 +67,9 @@ Changes from [BaseEntityTypeCode (Microsoft Dataverse)](/power-apps/developer/da
 |11076|**AIPluginOperationResponseTemplate**|
 |11077|**AIPluginTitle**|
 |11078|**SideloadedAIPlugin**|
+|11089|**Power Pages Scan Report**|
+|11090|**Power Pages Log**|
+|11092|**PM Simulation**|
 
 ### <a name="BKMK_MatchingEntityTypeCode"></a> MatchingEntityTypeCode
 
@@ -108,6 +111,9 @@ Changes from [MatchingEntityTypeCode (Microsoft Dataverse)](/power-apps/develope
 |11076|**AIPluginOperationResponseTemplate**|
 |11077|**AIPluginTitle**|
 |11078|**SideloadedAIPlugin**|
+|11089|**Power Pages Scan Report**|
+|11090|**Power Pages Log**|
+|11092|**PM Simulation**|
 
 
 
