@@ -4,7 +4,6 @@ description: Learn about scheduling entities in Dynamics 365 Customer Service.
 author: lalexms 
 ms.author: laalexan
 ms.reviewer: shujoshi
-ms.service: dynamics-365 
 ms.topic: how-to 
 ms.date: 12/07/2023
 ms.custom: bap-template 

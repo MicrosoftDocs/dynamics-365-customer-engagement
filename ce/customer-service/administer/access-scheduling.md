@@ -4,7 +4,6 @@ description: Learn how to access scheduling the Customer Service Hub and Custome
 author: lalexms 
 ms.author: laalexan
 ms.reviewer: shujoshi
-ms.service: dynamics-365 
 ms.topic: how-to 
 ms.date: 12/07/2023
 ms.custom: bap-template 

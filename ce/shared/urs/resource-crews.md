@@ -77,6 +77,7 @@ Assign a single requirement to the crew resource to create a booking for the ent
 You can't manually schedule requirement groups to crews, only single requirements.
 
 The [schedule assistant](../../field-service/schedule-assistant.md) shows each crew member as individual resources. If booked, only that single resource gets a booking. The crew resource can also return in the results if the working hours and other constraints match. Booking a crew books all crew members and the crew under the following conditions:
+
 1. The booking falls within the "FromDate" and the "ToDate" configured for the bookable resource group belonging to the crew member.
 2. There are work hours confiugred for the crew member on the day(s) of the booking and the booking falls within those work hours.
 
@@ -108,3 +109,24 @@ You can still book a crew with excess resources. All of the bookings will link t
 Sometimes when searching for availability, the crew may need more resources in order to meet the requirements.
 
 The schedule assistant will combine crews and individual resources to fulfill a requirement group and even note which resources are part of the crew.
+
+## Quickly change a resource's crew membership for a day
+
+You can quickly make membership changes for crew resources by changing the crew allocation. Swap a resource from one crew to another, add an unassigned resource to a crew, or remove a resource from a crew. These changes apply for a single day in the crew's time zone. All future bookings for that day reflect the changes on the members' schedules.
+
+> [!NOTE]
+> To make changes to crews for longer than a day, edit the crew configuration directly.
+
+To access the crew allocation tool, go to the the **Resources** page and open a view that has at least one crew type resource. Select **Crew Allocation** in the command bar. The tool opens the current day based on your local time and you change it using the date picker. Crews show in the tool according to their order in the view. You can edit up to fifteen crews simultaneously.
+
+Use drag and drop to move resources between crews or assign available resources to a crew. To remove a resource from a crew, select the resource and select **Remove** in the command bar. You can select multiple resources by holding the Control/Command key while making your selection.
+
+Save your changes to update a crew. After saving, the system processes membership changes. New members get a full day membership in the crew's time zone. Removed members get their existing crew memberships split with a full day gap. If there are small overlaps without bookings, the conflicting memberships will be resolved in favor of the target crew. For example, when moving a resource from a crew in one time zone to an adjacent time zone. During processing, the system doesn't allow further changes.
+
+After the membership changes conclude, bookings begin to cascade asynchronously. New members get active bookings moved until after the day of they assignment in the crew. Members who are removed from a crew have their crew bookings cancelled. This may a few minutes to process, depending on the number of bookings and resources.
+
+### Crew allocation tool components
+
+- Crew membership grid: Each crew has information about the number of resources that are available and expected for that crew, and the crew's time zone. An added resource is a member of that crew that from 12:00am to 12:00am in the crew's time zone. Resources that are assigned to the crew is listed alphabetically if they have a membership range that includes the majority of the given day in the crew's time zone.
+- Bookings grid: A section shows all bookings that the crew has for the day. You can open the booking records for more details but you can't change them in the crew allocation tool.
+- Available resources pane: It lists resources that are available for work but not members of a crew for the selected day. This list doesn't consider the resource capacity. It only shows resources that are working on this day. You can change the view and search for resources by name.
