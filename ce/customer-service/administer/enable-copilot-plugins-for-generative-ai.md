@@ -41,6 +41,9 @@ With prompt plugins for Copilot in Customer Service, you can connect Dataverse t
    - Select **Insights** > **Plugins for generative AI (Preview)** under **Operations**. 
 1. Select **Manage**.
 1. On the **Plugins for generative AI (Preview)** page, select the plugin that you need to enable and then select **Turn on** on the command bar.
+   - If you select a custom connector plugin, then do the following steps for the plugin to connect with the data source.
+        1. On the Connect plugin to data pane, select the ellipses, and then select the required connection. A green check mark indicates that the data source is successfully connected.
+        1. Select **Next**.
 1. On the **Manage user access** side pane, select one of the following access types:
    - **All agents who have Copilot**: Agents who have Copilot enabled for them through their agent experience profiles.
    - **Specific user roles**: Select the roles in the list.
