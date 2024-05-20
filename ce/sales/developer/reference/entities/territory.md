@@ -33,21 +33,33 @@ Territory represents sales regions.
 
 Changes from [Territory_AsyncOperations (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/territory#BKMK_Territory_AsyncOperations):
 
+|Property|Value|
+|--------|-----|
+|IsCustomizable|False|
 
 #### <a name="BKMK_Territory_BulkDeleteFailures"></a> Territory_BulkDeleteFailures
 
 Changes from [Territory_BulkDeleteFailures (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/territory#BKMK_Territory_BulkDeleteFailures):
 
+|Property|Value|
+|--------|-----|
+|IsCustomizable|False|
 
 #### <a name="BKMK_territory_principalobjectattributeaccess"></a> territory_principalobjectattributeaccess
 
 Changes from [territory_principalobjectattributeaccess (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/territory#BKMK_territory_principalobjectattributeaccess):
 
+|Property|Value|
+|--------|-----|
+|IsCustomizable|False|
 
 #### <a name="BKMK_Territory_ProcessSessions"></a> Territory_ProcessSessions
 
 Changes from [Territory_ProcessSessions (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/territory#BKMK_Territory_ProcessSessions):
 
+|Property|Value|
+|--------|-----|
+|IsCustomizable|False|
 
 
 ### See also
