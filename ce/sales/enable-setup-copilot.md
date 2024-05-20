@@ -56,7 +56,7 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 
 1. Under **All Dynamics 365 Sales apps**, select a global setting that you want to apply to all Sales apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app.  
 
-    :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the new settings page in Dynamics 365 Sales Hub." lightbox="media/enable-copilot.svg":::  
+    :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the new settings page in Dynamics 365 Sales Hub." lightbox="media/enable-copilot.svg":::  
 
     The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform admin turned Copilot on for your org but your Power Apps admin turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
 
@@ -99,7 +99,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
 1. Select **Opportunities**, **Leads**, or **Accounts (preview)**. The following screenshot shows the **Opportunity** settings page. The **Lead** and **Account** settings page is similar.
 
-    :::image type="content" source="media/copilot-summary-settings.svg" alt-text="Screenshot of the Opportunity settings page for record summaries in Copilot.":::
+    :::image type="content" source="media/copilot-summary-settings.png" alt-text="Screenshot of the Opportunity settings page for record summaries in Copilot.":::
 
 1. To choose fields for generating summaries, select the **Summary** tab. To choose fields for generating the recent changes list, select the **Recent changes** tab.
 
