@@ -59,7 +59,7 @@ ms.custom:
 
 ## Understand the priority of rule for unassigned records  
 
-When a record fails to assign, it can be due to several reasons, each is categorized into specific rule failures. The failure to assign is prioritized in the following order of importance when deciding which failure to display in the **Monitoring** grid for unassigned records:
+A record can remain unassigned due to several reasons. These reasons are categorized as failure rules and prioritized in the following order of importance. The highest priority failure is displayed in the **Monitoring** grid for unassigned records:
 
 1. **Distribution to seller failed**: This is the highest priority failure. The rule was unable to assign the record to the seller and this could be due to reasons such as seller lacks security role privileges or eligible sellers don't have capacity.  
 1. **Seller match failed**: This is the second highest priority. It means that the system couldn't find a suitable seller to assign the record.
