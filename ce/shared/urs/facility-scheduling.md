@@ -154,6 +154,40 @@ In the preceding screenshot, two separate requirements for a facility were both 
 > Capacity scheduling is not intended for booking the same requirement multiple times, but rather to book multiple requirements. Rebooking a previously booked requirement will cancel the existing booking and create a new one.
 
 
+### 3. Create a requirement for a facility 
+
+Next, create a requirement that calls for a facility resource.
+
+Navigate to **Universal Resource Scheduling > Requirement Groups > +New**. Configure the following fields.
+
+  1. Enter a **Name**
+  2. Enter **From** and **To** dates
+  3. Set a **Duration**
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of requirement group with one requirement for a facility.](../../field-service/media/scheduling-facility-create-requirement.png)
+
+  4. Highlight the requirement and select **Open Form**, then set the **Resource Type** field to **Facility**, which accomplishes the following:
+     1. It filters schedule assistant results by only showing resources with the chosen types (User, Account, Contact, Equipment, Pool, Crew, or in this case, **Facility**).
+     2. This means the requirement requires a facility resource to be fulfilled and ensures the schedule assistant search results return facility type resources (as opposed to personnel or equipment).
+     3. It maps to the resource type field on the resource entity.
+     4. Note that if this field is left empty, all resources are searched.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of resource type field on requirement.](../../field-service/media/scheduling-facility-resource-type.png)
+
+
+  5. Set **Work Location** to **Facility**, which means:
+     1. The interaction will take place at the scheduled facility and factors into travel time and distance calculations. Find more details in the configuration considerations section of this article.
+  6. Enter **latitude and longitude**. 
+     1. These values are typically entered manually or through workflows.
+     2. These values represent the customer's location and are used to display facilities relative to the customer's location in schedule assistant results. This is not the facility's location, as that is taken from the organizational unit of the facility type resource.  
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of work location and latitude and longitude on requirement.](../../field-service/media/scheduling-facility-requirement-lat-long.png)
+
+
+
 ## Scenario 3: Schedule a facility and related resource
 
 In this scenario, schedulers want to schedule a doctor's office and a related doctor at the same facility during the same timeslot.
