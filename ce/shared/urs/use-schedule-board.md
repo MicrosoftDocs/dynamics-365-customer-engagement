@@ -104,6 +104,11 @@ Right-click a resource's name and to show more options about the resource.
 
 ## Requirement pane
 
+The requirement pane is where you find unscheduled requirements. Each column can be sorted and filtered by accessing a drop down menu next to each column header. 
+
+> [!NOTE]
+> Filtering is not supported on the **Owner** column on the *Unscheduled Work Orders* tab
+
 Select a single requirement from the requirement pane and select **Find availability** to launch the [schedule assistant](../../common-scheduler/schedule-assistant.md).
 
 The schedule assistant lists available and matching resources that you can book for the requirement.
