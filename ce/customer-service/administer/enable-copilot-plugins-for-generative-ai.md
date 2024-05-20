@@ -28,7 +28,7 @@ Your customer service representatives rely on data and information from a wide v
 
 ## Custom connector plugin
 
-In Power Automate, you can create a custom connector plugin, such as a connector for order management. Then you can import this connector plugin in Copilot Studio and publish. You can then configure the plugin in Customer Service to use it with Copilot. Copilot can help fetch details pertaining to a particular order from the third-party order management system when an agent provides the order ID as the input.
+In Power Automate, you can create a custom connector plugin, such as a connector for order management. Then you can import this connector plugin in Copilot Studio and publish. You can then publish as plugin in Copilot Studio. You can configure this plugin in Customer Service to use it with Copilot. When an agent provides the order ID as the input, Copilot can help fetch details pertaining to the order from the third-party order management system.
 
 ## Prompt plugin
 
@@ -39,7 +39,7 @@ With prompt plugins for Copilot in Customer Service, you can connect Dataverse t
 1. In the Customer Service admin center site map, do one of the following steps to access the plugins:
    - Select **Productivity** > **Plugins for generative AI (Preview)** under **Agent experience**.
    - Select **Insights** > **Plugins for generative AI (Preview)** under **Operations**. 
-2. Select **Manage**.
+1. Select **Manage**.
 1. On the **Plugins for generative AI (Preview)** page, select the plugin that you need to enable and then select **Turn on** on the command bar.
 1. On the **Manage user access** side pane, select one of the following access types:
    - **All agents who have Copilot**: Agents who have Copilot enabled for them through their agent experience profiles.
