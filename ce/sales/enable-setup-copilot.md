@@ -44,7 +44,6 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 - Verify whether your org is in a region where Copilot in Dynamics 365 Sales is available. For a list of unsupported regions, see [this FAQ](sales-copilot-faq.md#is-copilot-in-dynamics-365-sales-available-in-all-regions).
 - Verify whether your region has an Azure Open AI Service endpoint. If not, you must [provide consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to use Copilot in Dynamics 365 Sales. For more information, see [Copilot data movement](sales-copilot-data-movement.md).
 
-
 ## Turn Copilot features on or off in Sales Hub
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
@@ -90,11 +89,16 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 
 By default, Copilot uses a set of predefined fields to generate [summaries](copilot-get-information.md#summarize-a-lead-or-opportunity), a list of [recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) for leads, opportunities, and accounts and [prepare for meetings](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments). You can add other fields from lead, opportunity, account, and related tables to make the summaries and recent changes list more relevant for your business.
 
+> [!NOTE]
+> The Account summary feature is in preview.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
 1. Under **General Settings**, select **Copilot**.
 
-1. Select **Opportunities**, **Leads**, or **Accounts**. The following screenshot shows the **Opportunity** settings page. The **Lead** and **Account** settings page is similar.
+1. Select **Opportunities**, **Leads**, or **Accounts (preview)**. The following screenshot shows the **Opportunity** settings page. The **Lead** and **Account** settings page is similar.
 
     :::image type="content" source="media/copilot-summary-settings.svg" alt-text="Screenshot of the Opportunity settings page for record summaries in Copilot.":::
 
