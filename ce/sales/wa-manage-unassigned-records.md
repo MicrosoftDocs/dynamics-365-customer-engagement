@@ -63,7 +63,7 @@ A record can remain unassigned due to several reasons. These reasons are categor
 
 1. **Distribution to seller failed**: This is the highest priority failure. The rule was unable to assign the record to the seller and this could be due to reasons such as seller lacks security role privileges or eligible sellers don't have capacity.  
 1. **Seller match failed**: This failure means that the system couldn't find a suitable seller to assign the record.
-1. **Entity match failed**: This is the third priority. It means that the record didn't meet the conditions defined in the rule.
+1. **Entity match failed**: This failure means that the record didn't meet the conditions defined in the rule.
 1. **Record is aged**: This is the lowest priority. It means that the record was created before the specified time period in the rule.
 
 If there are multiple rules which ran for a record and failed to assign the record to a seller, the highest priority failure is considered and an appropriate reason is displayed in the **Monitoring** grid.
