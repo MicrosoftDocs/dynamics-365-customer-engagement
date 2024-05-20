@@ -71,8 +71,7 @@ While sellers are on vacation or are otherwise unavailable, you can stop new rec
 >[!NOTE]
 >Configure the Work assignment feature in your organization before you add the site map to your custom app.
 
-When you create a custom model-driven app and choose a default solution to create a sitemap for the app. However, the list contains solutions that are based on entity forms only. The work assignment option is based on URL custom control forms and do not appear in the solution list. You must manually add the option to the sitemap. After you add these options, users in your organization can see them on the app’s sitemap.  
-Use the following URLs to add the work assignment site map to your custom app and perform the steps in [add site map entry to custom app](add-custom-site-map.md):
+When you create a custom model-driven app, you choose a default solution to create a site map for the app. However, the site map contains only entries that are based on entity forms. The work assignment option is based on URL custom control form and does not appear in the site maps. You must manually add the option to the site map. After you add these options, users in your organization can see them on the app’s sitemap. Use the following URLs to add the work assignment site map to your custom app and perform the steps in [add site map entry to custom app](add-custom-site-map.md):
 
 | Feature name      | URL                                                                                         |
 |-------------------|---------------------------------------------------------------------------------------------|
