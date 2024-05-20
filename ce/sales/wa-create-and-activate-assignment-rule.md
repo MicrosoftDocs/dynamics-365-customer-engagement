@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 05/17/2024
+ms.date: 05/20/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -112,7 +112,7 @@ If you assign the records to a sales team, this section isn't shown because the 
 
 1. (Optional) To consider the [seller's work schedule](personalize-sales-accelerator.md#configure-your-work-availability) when records are assigned, select **Assign if seller is available within**. Then, select the number of hours that a record can wait to be assigned, up to 120 hours.
 
-    - If [a time limit is set](#add-conditions-to-filter-the-records), records wait to be assigned within that period.  
+    - If [a time limit is set](#add-conditions-to-filter-the-records), the rule verifies for any available sellers within that time frame to assign the record. If no sellers are available, the record is set as unassigned.
 
     - The rule first considers sellers who are available to work on the records. If sellers don't set their [work availability](personalize-sales-accelerator.md#configure-your-work-availability), the rule considers them always available.
 
