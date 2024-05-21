@@ -1,7 +1,7 @@
 ---
 title: Focused view FAQs
 description: Get answers to frequently asked questions about focused view.
-ms.date: 03/27/2024
+ms.date: 05/21/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -101,4 +101,36 @@ Delete the browser cache and refresh the page.
 
 ## Why the web resource functions or custom renderings, which were added to my views, aren't working in focused view?
 
-The web resource functions that you've added in your views are compatible only with the **Readonly grid** mode. They'll not work properly in focused view.
+The web resource functions that you've added in your views are compatible only with the **Readonly grid** mode. They'll not work properly in focused view.  
+
+## Unable to load work list in focused view. What should I do?
+
+If you're unable to load the work list in focused view, this is due to one of the following errors:
+
+- Related entity is used multiple times in the view to add attributes. For example, when you download and view the fetchXML file of the view query, the `account` related entity is used twice and cause this error.
+    ```XML
+    <fetch version="l.0" output-format="xml-platform" mapping="logical" no-lock="false" distinct="true" userqueryid =***********************************">
+        <entity name-"lead">
+            <attribute name-"entityimage_url"/>
+            <attribute name="statecode"/>
+            <attribute name="fullname',/>
+            <order attribute-"modifiedon" descending-"true"/>
+            <order attribute-"subject" descending-"false"/>
+            <attribute name-"subject"/>
+            <attribute name-"modifiedon"/>
+            <attribute name="leadid"/>
+            <link-entity name-"account|" alias^"|aah" from-''|accountid" to-"t>arentaccountid" link-type="inner">
+                <filter type-"andN>
+                    <condition attribute="addressl_postofficebox" operator="null"/>
+                </filter>
+            </link-entity>
+            <link-entity name-”account|" from-’^ccountidf’ to^"parentaccounti<^" link-type^Mouter" alias - " aa_239285906a62447b835492124f f 21df 0|" visible-"false">
+                <attribute name="name"/>
+            </link-entity>
+        </entity>
+    </fetch>    
+    ```
+
+- Same alias are used between multiple tables or joins in the view.
+
+To resolve this issue, [create or edit a view with same filters](/power-apps/maker/model-driven-apps/create-edit-views-app-designer) and ensure that you remove duplicate links from the view query using advanced filter or customization.
