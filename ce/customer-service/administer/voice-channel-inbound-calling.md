@@ -3,7 +3,7 @@ title: "Set up inbound calling for the voice channel"
 description: "Learn about how to set up workstreams and queues for inbound calling in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/07/2023
+ms.date: 05/21/2024
 ms.topic: article
 
 ---
@@ -20,6 +20,7 @@ Ensure that the following prerequisites are met:
 
 - Voice channel is provisioned. More information: [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)
 - Unified routing is enabled. More information: [Provision unified routing](provision-unified-routing.md)
+- Acquire a phone number. See: [Manage phone numbers](voice-channel-manage-phone-numbers.md).
 
 ## Set up a voice workstream
 
@@ -41,7 +42,7 @@ Do the following to configure a workstream for voice:
 
 ## Configure a voice channel
 
-To configure the voice channel, you'll need to associate the workstream with a phone number for routing the calls. You can view the list of available phone numbers by selecting **Phone numbers** in the left pane. To get a new number, you can select **Add number** on the **Phone numbers** page. More information: [Acquire a phone number](#acquire-a-phone-number)
+To configure the voice channel, you'll need to associate the workstream with a phone number for routing the calls. You can view the list of available phone numbers by selecting **Phone numbers** in the left pane. 
 
 1. Go to the workstream that you created, and on the page that appears, select **Set up voice**.
 
@@ -49,7 +50,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
     > [!NOTE]
     >
-    > - Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](#acquire-a-phone-number) if you want to configure a new number.    
+    > - Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers) if you want to configure a new number.    
     > - The voice channel supports anonymous inbound calls on those numbers only that are configured via Azure Communication Services direct routing.
 
 3. On the **Language** page, select **Add primary language** and perform the steps to configure the primary language. More information: [Allow customers to choose a language](voice-channel-multi-language-contact-center.md)
@@ -77,9 +78,6 @@ The phone number is associated with the workstream.
 
 :::image type="content" source="../media/voice-workstream-configured.png" alt-text="Configured workstream for voice":::
 
-## Acquire a phone number
-
-Do the steps mentioned in [Manage phone numbers](voice-channel-manage-phone-numbers.md) to acquire a phone number.
 
 ## Create queues for voice channels
 
@@ -103,11 +101,34 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
 
    > [!NOTE]
-   >
+
    >  - You can add only those users who are configured for unified routing.
    >  - After 20 minutes of being added to a queue, agents must refresh their dashboards to be able to receive calls.
 
    ![Configure queue for voice.](../media/queue-for-voice.png "Configure queue for voice")
+
+## Configure user input recognition
+
+You can configure Dual-tone Multi-frequency(DTMF) recognition for the voice channel to allow customers to provide input using the phone keypad. See: [Gathering user input with Recognize action](/azure/communication-services/how-tos/call-automation/recognize-action?pivots=programming-language-csharp) to configure DTMF recognition.
+
+The following are the supported configurations for the voice channel:
+- Agents can send DTMF input to a phone number in the E.164 format only.
+- Agents can send the following DTMF tones:
+
+   ```
+
+    private readonly static HashSet<string> ValidDTMFValues = new HashSet<string> 
+
+    { 
+
+     "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "*", "#", "A", "B", "C", "D" 
+
+    }; 
+ 
+  ```
+
+> [!NOTE]
+> When a customer call is transferred to an external phone number, the DTMF input isn't supported.
 
 ### Configure call overflow for the voice queue
 
