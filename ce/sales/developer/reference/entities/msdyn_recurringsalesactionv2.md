@@ -1,7 +1,7 @@
 ---
 title: "Recurring Sales Action V2 (msdyn_recurringsalesactionv2) table/entity reference (Microsoft Dynamics 365 Sales) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Recurring Sales Action V2 (msdyn_recurringsalesactionv2) table/entity with Microsoft Dynamics 365 Sales."
-ms.date: 05/19/2024
+ms.date: 05/20/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly

@@ -4,9 +4,6 @@ items:
 - name: "Chatbot content pack (botcontentpack)"
   displayName: "botcontentpack entity"
   href: botcontentpack.md
-- name: "Conversation (msdyn_ocliveworkitem)"
-  displayName: "msdyn_ocliveworkitem entity"
-  href: msdyn_ocliveworkitem.md
 - name: "Data Map (ImportMap)"
   displayName: "ImportMap entity"
   href: importmap.md
