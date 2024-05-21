@@ -46,8 +46,11 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
     The account summary includes the following information:
     - **Basic information**: The basic information of the account includes annual revenue, number of employees, country/region, and parent account. If this information is available in the respective fields of the account record, it's displayed in the summary; otherwise, the field isn't displayed.
     - **Key information**: The key information includes details on how long the account is associated with your organization, its domain, the total value of closed opportunities, the most recently closed opportunity, most recent activity, and other AI-generated information.  
-    - **Related leads, opportunities, and cases**: All the open leads, opportunities, and cases that are associated with the account are displayed. Listed records are the ones that you have read access to.  
+    - **Related leads, opportunities, and cases**: All the open leads, opportunities, and cases that are associated with the account are displayed. Listed records are the ones that you have read access to. A maximum of 10 records are displayed for each section. 
         Select the section to view the details of the associated records. To summarize a specific lead, opportunity, or case, hover over the record and select **Summarize**. For cases to display, your organization must have the Dynamics 365 Customer Service app enabled.
+
+    >[!NOTE]
+    >Administrators can configure the fields that generate summaries and related information for the account summary view. More information: [Configure fields for generating summaries and recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
 
      Further, you can drill down into the details associated with the account, select the suggested prompts displayed below the account summary. The **Find relevant Sales Navigator accounts** prompt appears if you have the LinkedIn Sales Navigator license. Select the prompt to open the relevant LinkedIn Sales Navigator accounts associated with the account.
 
