@@ -87,7 +87,7 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 
 1. Fill in the fields using the resource information you retrieved from the Azure portal.
 
-1. Select the check box to confirm that the Dynamics 365 Customer Service instance is connected to only one Azure Communication Services resource.
+1. Select the check box to confirm that the customer service instance is connected to only one Azure Communication Services resource.
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
