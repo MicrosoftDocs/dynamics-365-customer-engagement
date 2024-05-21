@@ -28,16 +28,16 @@ A crew is a bookable resource which is essentially a container for the child res
 
 ### Crew strategy options
 
-The crew strategy determines how the crew manages its work. There are three options:
+The crew strategy determines how the crew manages its work once it moves past the _Scheduled_ status (e.g. _Travelling_, _In Progress_, or _Completed_). There are three options:
 
-- **Crew Leader Management**: Crew leader manages the work of a crew. Consider this option when a crew consists of multiple people. You can designate more than one user to be a leader and manage the work.
-- **Crew Member Self-Management**: Resources can manage their own work. Choose this option for crews that are groups, which regularly work together, but may not always work together at the same place or time. Self-management also means better time capturing, which is good for organizations who bill for time spent on work.
-- **Cascade and Accept Cascade Completely**: All resources on a crew can manage all the work. It's the ideal option when a crew consists of one individual and the rest of the crew is equipment.
+- **Crew Leader Management**: Crew leader manages the work of a crew. Consider this option when a crew consists of multiple people. You can only have one resource designated as the leader at a time, and there must be a leader to creat a work order booking.
+- **Crew Member Self-Management**: Resources can manage their own work even once the booking has begun. Choose this option for crews that are groups, which regularly work together, but may not always work together at the same place or time. Self-management also means better time capturing, which is good for organizations who bill for time spent on work. 
+- **Cascade and Accept Cascade Completely**: All resources on a crew can manage all the work throughout all statuses. It's the ideal option when a crew consists of one individual and the rest of the crew is equipment.
 
 > [!NOTE]
 > The logic associated with crew strategies will only impact work order related bookable resource bookings. If an assigned resource updates their own booking to *Completed*, the end-time value is updated to the current time stamp. If another user or crew member updates a booking status to *Completed* on behalf of an assigned resource, the booking end time preserves the previous end time value.
 >
-> Crew strategies affect if and how a crew booking is rescheduled. For example, if a crew leader's bookings change, all bookings of the crew are moved.
+> Crew strategies also affect if and how a crew booking is rescheduled when there are changes made to an associated resource booking. 
 
 ## Add resource children to a crew
 
@@ -124,6 +124,10 @@ Use drag and drop to move resources between crews or assign available resources 
 Save your changes to update a crew. After saving, the system processes membership changes. New members get a full day membership in the crew's time zone. Removed members get their existing crew memberships split with a full day gap. If there are small overlaps without bookings, the conflicting memberships will be resolved in favor of the target crew. For example, when moving a resource from a crew in one time zone to an adjacent time zone. During processing, the system doesn't allow further changes.
 
 After the membership changes conclude, bookings begin to cascade asynchronously. New members get active bookings moved until after the day of they assignment in the crew. Members who are removed from a crew have their crew bookings cancelled. This may a few minutes to process, depending on the number of bookings and resources.
+
+> [!NOTE]
+> If the leader on a Leader Managed crew is moved to a different crew, they will lose their leadership status for that day, even if they are returned to their original crew. To select a new leader or to restore this status, edit the crew configuration directly.
+
 
 ### Crew allocation tool components
 
