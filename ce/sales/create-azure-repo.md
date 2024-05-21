@@ -29,4 +29,5 @@ The conversation intelligence service principal needs access to your Azure stora
 
 > [!NOTE]
 > The access to the storage account is granted at the app level. As a result, all the Dynamics 365 org admins in the tenant can see the list of container names associated with the conversation intelligence service principal on the Conversation intelligence settings page, irrespective of whether the admins have access to the container or not.
+
 Now you're ready to configure conversation intelligence to use your [own Azure storage](fre-setup-ci-sales-app.md#configure-conversation-intelligence-settings).  
