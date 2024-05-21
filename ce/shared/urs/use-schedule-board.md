@@ -122,11 +122,11 @@ Enter the [relevant details about your new schedule board](../../common-schedule
 
 ## Cached settings when loading the schedule board
 
-To facilitate users' workflows, the following parameter will be cached. When a user leaves the schedule board and later returns, they will be bale to pick up where they left off with:
-Last accessed tab 
+To facilitate workflows, some parameters are cached so you can quickly can continue where you left:
 
-- Map panel open/closed 
-- Viewtype: Gantt/list view 
-- Viewmode: hourly/daily/weekly 
-- BoardStartDate: Resets the cached date after 8 hours 
-- Columnwidth: zoom level of the boar
+- Last accessed tab 
+- Map panel: Open or closed 
+- Viewtype: Gantt or list view 
+- Viewmode: Hourly/daily/weekly 
+- Board start date: Cached for 8 hours
+- Column width: Zoom level
