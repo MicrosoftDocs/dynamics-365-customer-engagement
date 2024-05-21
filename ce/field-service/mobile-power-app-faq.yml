@@ -2,7 +2,7 @@
 metadata:
   title: Frequently asked questions for the Field Service mobile app
   description: Find answers to commonly asked questions about the Dynamics 365 Field Service mobile app.
-  ms.date: 10/16/2023
+  ms.date: 05/21/2024 
   ms.subservice: field-service-mobile
   ms.topic: faq
   author: JonBaker007
@@ -150,18 +150,20 @@ sections:
          This error is commonly caused by a timing issue when using synchronous OnSave events. Starting with version 8.8.88.56 of the Field Service Mobile app module, it uses AsyncOnSave to mitigate validation errors for out-of-box scripts. If users continue to see this error, evaluate custom validations and use OnChange events.
 
       - question: |
-         After modifying my Work Order Product form, why can I no longer save updates while in Offline mode?
+         After modifying my *Work Order Product* form, why can I no longer save updates while in Offline mode?
         answer: |
-         While working with customized forms there can be several causes for functional issues. You should review any new business logic added to the form, in addition to ensuring any fields required by out of the box business logic are persisted on the form. For example a required field on Work Order Product is the Work Order field. This field must be present in order to save and pass all client-side validation while running offline.
+         While working with customized forms there can be several causes for functional issues. Review any new business logic added to the form, in addition to ensuring that all fields required by out-of-the-box business logic are still available on the form. For example, a required field on Work Order Product is the Work Order field. This field must be present to save and pass all client-side validation while running offline.
          
   - name: Other
     questions:       
 
-     - question: How do I view feedback from users of the Field Service Mobile application in my organization?
+     - question: |
+        How do I view feedback from users of the Field Service Mobile application in my organization?
        answer: | 
         In the mobile application, users can submit feedback from the left navigation. Admins can view that feedback via the [Microsoft Admin Center](https://admin.microsoft.com) by navigating to **Health** > **Product feedback**. Feedback comes from the "Dynamics 365 Field Service Mobile" app. [Learn about Microsoft feedback for your organization](/microsoft-365/admin/misc/feedback-user-control).
-        
-     - question: How do I enable native mobile date and time picker, and input-specific keyboards for my app module? 
+
+     - question: |
+        How do I enable native mobile date and time picker, and input-specific keyboards for my app module? 
        answer: |
           New capabilities to use the native device date and time experience, along with input-specific mobile keyboards, were added to Platform release version 9.2.22033.00153+. These capabilities are enabled by default for the Field Service mobile app module, but can be enabled for other App Modules with the following steps:
           1. With an admin account, sign in to https://make.powerapps.com. After signing in, be sure to select the correct organization you're targeting from dropdown list.
