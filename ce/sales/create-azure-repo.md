@@ -28,5 +28,5 @@ The conversation intelligence service principal needs access to your Azure stora
 :::image type="content" source="media/SIwebapp-roles.png" alt-text="Screenshot of the role assignment tab with the roles assigned for the SalesInsightsWebApp in the Azure portal":::[Learn more about assigning a role in the Azure portal](/entra/identity-platform/howto-create-service-principal-portal#assign-a-role-to-the-application).
 
 > [!NOTE]
-> As the access to the storage account is granted at the app level, all the Dynamics 365 org admins in the tenant can see the list of container names associated with the conversation intelligence service principal. These names are listed on the Conversation intelligence settings page, irrespective of whether the admins have access to the container or not.
+> The access to the storage account is granted at the app level. As a result, all the Dynamics 365 org admins in the tenant can see the list of container names associated with the conversation intelligence service principal on the Conversation intelligence settings page, irrespective of whether the admins have access to the container or not.
 Now you're ready to configure conversation intelligence to use your [own Azure storage](fre-setup-ci-sales-app.md#configure-conversation-intelligence-settings).  
