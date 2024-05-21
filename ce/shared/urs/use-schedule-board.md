@@ -119,3 +119,14 @@ Right-click the booking on th schedule board and select **Move to**. Reassign th
 To create a new schedule board tab, select **New schedule board tab** (+) in the tab list on the schedule board.
 
 Enter the [relevant details about your new schedule board](../../common-scheduler/schedule-board-tab-settings.md) and select **Add**.
+
+## Cached settings when loading the schedule board
+
+To facilitate workflows, some parameters are cached so you can quickly can continue where you left:
+
+- Last accessed tab 
+- Map panel: Open or closed 
+- Viewtype: Gantt or list view 
+- Viewmode: Hourly/daily/weekly 
+- Board start date: Cached for 8 hours
+- Column width: Zoom level
