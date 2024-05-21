@@ -41,7 +41,7 @@ Edit booking settings for entities you enabled for scheduling.
     | Default requirement canceled status | Sets the default value to use when a requirement moves into *Canceled* state. | Available requirement statuses. |
     | Resource availability retrieval limit | Defines the maximum number of resources returned as a result in the   scheduling assistant. | Number. |
     | Enable quick book | Use the [quick book experience](../../field-service/quick-scheduling.md) on an entity record. | Yes: Use quick book experience.<br>     No: Use schedule assistant experience. |
-    | Cancel bookings when moving | Cancel bookings when moving the booking to a different time slot by using the *Move bookings* feature in Schedule Board | Yes: Cancel booking and create a   new one in the updated time slot.<br>     No: Keep booking and update start/end time. |
+    | Cancel bookings when moving | Cancel bookings when moving the booking to a different time slot by using the *Move bookings* feature on the schedule board. | Yes: Cancel booking and create a new one in the updated time slot.<br>     No: Keep booking and update start/end time. |
     | Default booking canceled status | Sets the default value to use when a booking moves into *Canceled* state. | Available [booking statuses](../../field-service/set-up-booking-statuses.md). |
     | Disable requirement auto creation for   bookings | Defines if the system creates a requirement for a booking. | Yes: Disable automated requirement creation.<br>     No: Enable automated booking creation. |
     | Default requirement completed status | Sets the default value to use when a requirement moves into *Completed* state. | Available requirement statuses. |
