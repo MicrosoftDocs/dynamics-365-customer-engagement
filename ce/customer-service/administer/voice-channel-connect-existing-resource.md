@@ -42,6 +42,10 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
    :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
 
+
+ > [!NOTE]
+> If you paste the incorrect connection string in the **Connection string** field, you'll see an error message in Customer Service admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
+
 ### Get application and tenant IDs from the Azure portal
 
 You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Customer Service admin center. Perform the following steps to get these values:
@@ -82,6 +86,8 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 1. Select **Use existing resource**.
 
 1. Fill in the fields using the resource information you retrieved from the Azure portal.
+
+1. Select the check box to confirm that the Dynamics 365 Customer Service instance is connected to only one Azure Communication Services resource.
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
