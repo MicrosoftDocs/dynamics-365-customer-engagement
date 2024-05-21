@@ -18,18 +18,26 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.114.26](/dynamics365/field-service/version-history#8811426)  | TBD |05/17/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.114.29](/dynamics365/field-service/version-history#8811429)  | TBD  | 05/24/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.114.30](/dynamics365/field-service/version-history#8811430)  | TBD  | 05/31/2024 |
-| | *USG* | [8.8.114.29](/dynamics365/field-service/version-history#8811429)  | TBD  | 05/24/2024 |
-|**Station 4** |*Europe* | [8.8.113.29](/dynamics365/field-service/version-history#8811329)  |  [8.8.114.30](/dynamics365/field-service/version-history#8811430) | 05/17/2024 |
+|**Station 1** |  *First Release*| [8.8.117.30](/dynamics365/field-service/version-history#8811730)  | TBD |05/31/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.114.29](/dynamics365/field-service/version-history#8811429)  | [8.8.117.30](/dynamics365/field-service/version-history#8811730)  | 05/24/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.114.30](/dynamics365/field-service/version-history#8811430)  | [8.8.117.30](/dynamics365/field-service/version-history#8811730)  | 05/31/2024 |
+| | *USG* | [8.8.114.29](/dynamics365/field-service/version-history#8811429)  | [8.8.117.30](/dynamics365/field-service/version-history#8811730)  | 05/24/2024 |
+|**Station 4** |*Europe* | [8.8.114.30](/dynamics365/field-service/version-history#8811430)  | [8.8.117.30](/dynamics365/field-service/version-history#8811730)  | 06/07/2024 |
 |**Station 5** | *North America*|  [8.8.113.29](/dynamics365/field-service/version-history#8811329)  | [8.8.114.30](/dynamics365/field-service/version-history#8811430) | 05/24/2024 |
 |**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.113.29](/dynamics365/field-service/version-history#8811329)  |  [8.8.114.30](/dynamics365/field-service/version-history#8811430)| 05/24/2024 |
-| | *Dedicated Scale Groups* |   [8.8.112.28](/dynamics365/field-service/version-history#8811228)  |  [8.8.113.29](/dynamics365/field-service/version-history#8811329) | 05/17/2024 |
+| | *Dedicated Scale Groups* |   [8.8.113.29](/dynamics365/field-service/version-history#8811329)  | [8.8.114.30](/dynamics365/field-service/version-history#8811430) | 05/31/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.117.30
+(Includes Universal Resource Scheduling version [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311) and Resource Scheduling controls version 1.2.70.241042).
+
+- Released optional country field on postal codes to support global postal codes with the same postal code number.
+- Fixed a bug that prevented users from completing bookings when a second booking existed on the work order they don't have access to.
+- New work order grid now properly filters on related entities.
+- Fixed translation issues with finance and operations apps installation button in Field Service settings.
 
 ## 8.8.114.30
 
