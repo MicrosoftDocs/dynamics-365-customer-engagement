@@ -35,9 +35,9 @@ For information about older versions, see [Version history archive](version-hist
 (Includes Universal Resource Scheduling version [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311) and Resource Scheduling controls version 1.2.70.241042).
 
 - Released optional country field on postal codes to support global postal codes with the same postal code number.
-- Fixed bug preventing users from completing bookings when a second booking existed on the work order they do not have access to.
+- Fixed a bug that prevented users from completing bookings when a second booking existed on the work order they don't have access to.
 - New work order grid now properly filters on related entities.
-- Fixed translation issues with F&O installation button in FS settings.
+- Fixed translation issues with finance and operations apps installation button in Field Service settings.
 
 ## 8.8.114.30
 
