@@ -44,7 +44,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 
  > [!NOTE]
- > After you connect to Azure Communication Services resource for the first time, and you regenerate the Connection string, you'll see an error message in the Connection string box in Customer Service admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
+ > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in Customer Service admin center becomes invalid. An error message is also displayed in the connection string field in Customer Service admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
 
 ### Get application and tenant IDs from the Azure portal
 
