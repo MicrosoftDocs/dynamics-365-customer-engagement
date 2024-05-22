@@ -129,7 +129,7 @@ The supported configurations for the voice channel are as follows:
   ```
 
 > [!NOTE]
-> When a customer call is transferred to an external phone number, the DTMF input isn't supported.
+> The DTMF input isn't supported if the call is transferred to an external phone number.
 
 ### Configure call overflow for the voice queue
 
