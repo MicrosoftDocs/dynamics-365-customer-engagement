@@ -74,13 +74,14 @@ You'll need to specify the values of **Application (client) ID** and **Directory
        1.  Select **Properties** in **Settings**. 
        1. On the **Properties** page,  copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center.
        
-         :::image type="content" source="../media/acs-property-records-mini.png" alt-text="image showing the resource id values " lightbox="../media/acs-property-records.png":::
+       :::image type="content" source="../media/acs-property-records-mini.png" alt-text="image showing the resource id values " lightbox="../media/acs-property-records.png":::
 
        1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center. 
 
-         :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
+       :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
 
     **Customer Service admin center**<br>
+
     In the Manage Azure Communication Services dialog, specify the following values:
      - **ACS Resource name** and **ACS Resource ID**: The **Name** and **Resource ID** field values you've copied in the section above.
      - **Connection String**: The **Connection string** field value you've copied in the section above.
