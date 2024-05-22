@@ -75,5 +75,5 @@ Keep in mind that these fields are set at the organization level. Make sure that
 
 - [Copilot overview](copilot-overview.md)  
 - [Enable and set up Copilot](enable-setup-copilot.md)  
-- [Chat with Copilot in natural language (preview)](use-sales-copilot.md#chat-with-copilot-in-NL)
+- [Chat with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL)
 - [Get answers from SharePoint documents](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents)
