@@ -23,7 +23,7 @@ The features that have been deprecated in  Dynamics 365 Sales are listed in this
 <a name='snapshot-deprecation'></a>
 ## Snapshots in sales forecasting will be deprecated
 
-Starting June 30, 2024, the snapshot capability in sales forecasting will be discontinued. You'll no longer be able to enable snapshots for new forecast configurations from June 30, 2024. Existing forecast configurations with snapshots will continue to work as-is until October 31, 2024. Post that, all the snapshots and related charts such as deal flow, trend chart, and forecast grid history will be removed.
+Starting June 30, 2024, the snapshot capability in sales forecasting will be deprecated and you'll no longer be able to enable snapshots for new forecast configurations. Existing forecast configurations with snapshots will continue to work as-is until October 31, 2024. Post that, all the snapshots and related charts such as deal flow, trend chart, and forecast grid history will be removed.
 
 As an alternative, you can use the [Forecast API](developer/reference/custom-actions/msdyn_ForecastApi.md) to set up daily data sync to pull forecast data.
 
