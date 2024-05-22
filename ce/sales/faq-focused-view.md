@@ -105,7 +105,7 @@ The web resource functions that you've added in your views are compatible only w
 
 ## Unable to load work list in focused view. What should I do?
 
-If you're unable to load the work list in focused view, this is due to one of the following errors:
+If you're unable to load the work list in focused view, it can be due to one of the following errors:
 
 - Related entity is used multiple times in the view to add attributes. For example, When you download and view the **FetchXML** file from the **Edit filters** section of the view query, the **account** related entity (`link-entity`) is used twice with the same relation for to and from attributes.
 
