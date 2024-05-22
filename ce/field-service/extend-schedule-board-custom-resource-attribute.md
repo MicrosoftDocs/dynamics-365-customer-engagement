@@ -4,8 +4,8 @@ description: Learn how to customize the schedule board with a custom resource at
 ms.date: 05/21/2024
 ms.topic: how-to
 ms.custom: bap-template
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Customize the schedule board with a custom resource attribute

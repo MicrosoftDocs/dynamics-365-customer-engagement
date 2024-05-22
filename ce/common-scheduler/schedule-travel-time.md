@@ -5,8 +5,8 @@ ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.date: 05/21/2024
 ms.topic: conceptual
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Schedule work with travel time and distance in Universal Resource Scheduling

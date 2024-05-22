@@ -5,8 +5,8 @@ ms.date: 05/21/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: how-to
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Customize and extend the schedule board in Universal Resource Scheduling
