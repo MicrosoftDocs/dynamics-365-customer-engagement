@@ -2,7 +2,7 @@
 title: Use Power Apps to configure the Field Service mobile app
 description: Review a set of helpful links that point to Power Apps documentation for customization scenarios of the mobile app.
 ms.date: 05/21/2024
-ms.topic: article
+ms.topic: reference
 ms.subservice: field-service-mobile
 author: Andrea-Orimoto
 ms.author: andreo
