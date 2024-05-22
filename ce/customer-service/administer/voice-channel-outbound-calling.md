@@ -1,12 +1,13 @@
 ---
-title: "Set up outbound calling in the voice channel | MicrosoftDocs"
-description: "Use this article to understand how you can set up outbound calling for phone numbers in your organization."
-ms.date: 08/10/2023
+title: Set up outbound calling in the voice channel
+description: Learn how you can set up outbound calling for phone numbers in your organization.
+ms.date: 05/22/2024
 ms.service: dynamics-365-customerservice
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.collection: get-started
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Set up outbound calling
@@ -76,30 +77,23 @@ For outbound calls, set the capacity profile fields as follows:
 
 ## Assign personal phone numbers to agents
 
-You can assign personal phone numbers to agents to make outbound calls to customers.
+Personal numbers allow agents to exclusively make calls from the chosen number. These are different from outbound profile numbers as personal numbers are linked to specific user records, not profiles. 
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-   
-    1. In the site map, select **Channels** in **Customer support**.
-    1. On the **Channels** page, select **Manage** for **Phone numbers**.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+You can assign personal phone numbers to agents to make outbound calls to customers as long as the number is not toll-free. To configure a personal phone number:
 
-   - In the site map, select **Phone numbers** in **General settings**.
+1. Acquire a geographic phone number in Customer Service admin center. For details on how to acquire a phone number, see [Manage phone numbers](voice-channel-manage-phone-numbers.md).
 
 1. On the **Phone numbers** page, select **Setup** in **Ready for setup**, and in the dialog that appears, select **Assign to user**. The **Omnichannel Users** page displays a list of all agents.
 
 1. Select an agent to open the agent details page.
 
-1. Select the **Omnichannel** tab and select a phone number from the **Omnichannel Phone** field.
-   The phone number is now assigned exclusively to the agent to call customers.
+1. Select **Omnichannel** and in **Omnichannel Phone**, search for your geographic number by using +1. 
+1. Select the number in the results and then select **Save**. The phone number is now assigned exclusively to the agent to call customers.
 
 > [!NOTE]
 > - You can assign to agents local phone numbers only as personal phone numbers; toll-free numbers can’t be assigned. Personal agent phone number calls always apply the default scoped outbound profile.
 > - You can add only those users who are configured for unified routing.
-> - After 20 minutes of being added to a queue, agents must refresh their dashboards to be able to make calls.
+> - After you add agents to a queue, they must refresh their dashboards after 20 minutes to be able to make calls.
 
 ### See also
 
