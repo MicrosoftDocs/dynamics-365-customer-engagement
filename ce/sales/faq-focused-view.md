@@ -107,9 +107,7 @@ The web resource functions that you've added in your views are compatible only w
 
 If you're unable to load the work list in focused view, this is due to one of the following errors:
 
-- Related entity is used multiple times in the view to add attributes. For example, when you download and view the **FetchXML** file from **Edit filters** of the view query, the `account` related entity (with same relation to and from attributes) is used twice causing this error.
-
-When you download and view the **FetchXML** file from the **Edit filters** section of the view query, the **account** related entity (`link-entity`) is used twice with the same relation for to and from attributes.
+- Related entity is used multiple times in the view to add attributes. For example, When you download and view the **FetchXML** file from the **Edit filters** section of the view query, the **account** related entity (`link-entity`) is used twice with the same relation for to and from attributes.
 
     ```XML
     <fetch version="1.0" output-format="xml-platform" mapping="logical" savedqueryid="2b1cb8e1-f2f6-ee11-a1fe-7c1e521420b2" returntotalrecordcount="true" page="1" count="50" no-lock="false">
