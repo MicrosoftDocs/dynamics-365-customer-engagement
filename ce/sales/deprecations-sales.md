@@ -20,6 +20,13 @@ The features that have been deprecated in  Dynamics 365 Sales are listed in this
 > [!Important]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+<a name='snapshot-deprecation'></a>
+## Snapshots in sales forecasting will be deprecated
+
+Starting June 30, 2024, the snapshot capability in sales forecasting will be deprecated and you'll no longer be able to enable snapshots for new forecast configurations. Existing forecast configurations with snapshots will continue to work as-is until October 31, 2024. Post that, all the snapshots and related charts such as deal flow, trend chart, and forecast grid history will be removed.
+
+As an alternative, you can use the [Forecast API](developer/reference/custom-actions/msdyn_ForecastApi.md) to set up daily data sync to pull forecast data.
+
 ## Set seller availability using Outlook calendar
 
 Effective April 1, 2024, the feature allowing configuration of seller availability through the Outlook calendar in work assignments will be deprecated. This deprecation helps enhance the safety and security of your organization's data. Alternatively, you can use the Dynamics 365 CRM calendar to configure the seller availability. [Learn more](wa-manage-seller-availability.md)
