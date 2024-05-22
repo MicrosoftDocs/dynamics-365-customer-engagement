@@ -91,7 +91,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
 > [!IMPORTANT]
 >- The Account summary feature is a preview feature.
->- Preview features aren’t meant for production use and may have restricted functionality. These features are subject to [supplemental terms of use](https://dynamics.microsoft.com/en-us/legaldocs/supp-dynamics365-preview/), and are available before an official release so that customers can get early access and provide feedback.
+>- Preview features aren’t meant for production use and may have restricted functionality. These features are subject to [supplemental terms of use](https://dynamics.microsoft.com/legaldocs/supp-dynamics365andpp-communicationservices-preview/), and are available before an official release so that customers can get early access and provide feedback.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 

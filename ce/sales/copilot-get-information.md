@@ -30,7 +30,10 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 
 > [!IMPORTANT]
 >- The Account summary feature is a preview feature.
->- Preview features aren’t meant for production use and may have restricted functionality. These features are subject to [supplemental terms of use](https://dynamics.microsoft.com/en-us/legaldocs/supp-dynamics365-preview/), and are available before an official release so that customers can get early access and provide feedback.
+>- Preview features aren’t meant for production use and may have restricted functionality. These features are subject to [supplemental terms of use](https://dynamics.microsoft.com/legaldocs/supp-dynamics365andpp-communicationservices-preview/), and are available before an official release so that customers can get early access and provide feedback.
+
+>[!NOTE]
+>This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize account**.
