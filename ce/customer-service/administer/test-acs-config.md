@@ -64,14 +64,13 @@ You'll need to specify the values of **Application (client) ID** and **Directory
    
    ### [Existing Azure resource](#tab/omnichanneladmincenter)
 
-   
-    **Azure configurations**
+    **Azure configurations**<br>
       Before you connect an existing Azure resource to Azure Communication Services, you must retrieve the following information from the [Azure portal](https://ms.portal.azure.com/):
-
        1. Go to **Resource groups** and select the required resource group. 
        1. Select the required **Resource** from the resource group.
        
          :::image type="content" source="../media/acs-resource-existing-mini.png" alt-text="image showing how to add a resource" lightbox="../media/acs-existing-resource.png":::
+
        1.  Select **Properties** in **Settings**. 
        1. On the **Properties** page,  copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center.
        
@@ -79,9 +78,9 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 
        1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center. 
 
-          :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
+         :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
 
-    **Customer Service admin center**
+    **Customer Service admin center**<br>
     In the Manage Azure Communication Services dialog, specify the following values:
      - **ACS Resource name** and **ACS Resource ID**: The **Name** and **Resource ID** field values you've copied in the section above.
      - **Connection String**: The **Connection string** field value you've copied in the section above.
@@ -92,7 +91,9 @@ You'll need to specify the values of **Application (client) ID** and **Directory
      - **Event grid app id**: The value of the **Application (client) ID** from the [Get application and tenant IDs](#get-application-and-tenant-ids-from-the-azure-portal)
      - **Event grid app tenant id**: The value of the **Directory (tenant) ID** from the [Get application and tenant IDs](#get-application-and-tenant-ids-from-the-azure-portal).
      - Select the check box to confirm that the Dynamics 365 Customer Service instance is connected to only one Azure Communication Services resource.
-  ---
+
+
+After you've configured the Azure Communication Services resource, the **Manage Azure Communication Services** page displays the **Event grid app id**, **Event grid app tenant id**, **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)**. You can copy the values of the **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)** to use them in the [Enable call recording and SMS services](#enable-call-recording-and-sms-services) section.
 
 ## Add phone numbers
 
@@ -133,9 +134,7 @@ To enable call recording and SMS services, you must first configure your applica
         - To filter event types for recording services, select **Recording File Status Updated** in the list.
         - To filter event types for SMS services, select **SMS Received** and **SMS Delivery Report Received** in the list.
     - **Endpoint Type**: Select **Web Hook** in the list.
-    - **Endpoint**: Select **Select an endpoint**, and then enter the recording or SMS web hook endpoint:
-        - To enable recording services, [get the **Recording Web Hook Endpoint**](#get-the-subscriber-endpoint-for-recording) from Customer Service admin center, paste the value in **Subscriber Endpoint**, and then select **Confirm Selection**.
-        - To enable SMS services, [get the **SMS Web Hook Endpoint**](#get-the-subscriber-endpoint-for-sms) from Customer Service admin center, paste the value in **Subscriber Endpoint**, and then select **Confirm Selection**.
+    - **Endpoint**: Select **Select an endpoint**, and then enter the recording or SMS web hook endpoint from the Customer Service admin center. Paste the **Recording Web Hook Endpoint** and **SMS Web Hook Endpoint** values. 
 
 1. Select the **Additional Features** tab. Select the **Use AAD authentication** checkbox, and enter the following details:
 
@@ -147,47 +146,6 @@ To enable call recording and SMS services, you must first configure your applica
    It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed," then retry this step after a few minutes.
 
 [Learn about configuring call recording and transcription for a voice workstream in Omnichannel for Customer Service](voice-channel-configure-transcripts.md).
-
-
-#### Get event grid app and tenant IDs from the Power Apps portal
-
-1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
-
-1. In the site map, select **Dataverse** > **Tables** > **All**.
-
-1. Search for the **Communication Provider Setting Entry** table and open it.
-
-1. In the **Communication Provider Setting Entry columns and data** section, view the **EventGridAppID** and **EventGripAppTenantID** fields in the **Key** column, and note down the corresponding ID values from the **Values** column.
-
-#### Get the subscriber endpoint for recording
-
-1. In Dynamics 365 Customer Service admin center or Omnichannel admin center, open the phone number settings.
-
-    - Customer Service admin center:
-
-        1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
-        2. In **Accounts**, select **Manage** for **Phone numbers**.
-
-    - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
-
-1. Select a phone number, and then select **Advanced**.
-
-1. Select **Copy** next to **Recording Web Hook Endpoint** and note the value.
-
-#### Get the subscriber endpoint for SMS
-
-1. In Dynamics 365 Customer Service admin center or Omnichannel admin center, open the phone number settings.
-
-    - Customer Service admin center:
-
-        1. In the site map, under **Customer support**, select **Channels**.
-        2. To the right of **Phone numbers**, select **Manage**.
-
-    - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
-
-1. Select a phone number, and then select **Advanced**.
-
-1. Select **Copy** next to **SMS Web Hook Endpoint** and note the value.
 
 
 ## Next steps
