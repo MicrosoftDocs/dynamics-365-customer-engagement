@@ -54,7 +54,7 @@ Make sure that the following prerequisites are in place:
 
 ## Create outbound profiles
 
-You can define how agents use the outbound calls and which agents can make those calls. If you want a caller ID number that's displayed to customers to be different from the outbound profile number, configure an alternative number. It's useful when some settings differ based on the agent's role while the caller ID number still lists consistently for a business. You must configure the alternative number other than the default number as a workstream channel or as an outbound profile number before you can use it. For details on how to assign a personal phone number to agents, please see [https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/voice-channel-outbound-calling?tabs=customerserviceadmincenter#assign-personal-phone-numbers-to-agents]
+You can define how agents use the outbound calls and which agents can make those calls. If you want a caller ID number that's displayed to customers to be different from the outbound profile number, configure an alternative number. It's useful when some settings differ based on the agent's role while the caller ID number still lists consistently for a business. You must configure the alternative number other than the default number as a workstream channel or as an outbound profile number before you can use it. For details on how to assign a personal phone number to agents, see [/voice-channel-outbound-calling?tabs=customerserviceadmincenter#assign-personal-phone-numbers-to-agents].
 
 1. Perform the steps 1 through 3 in [Create inbound profiles](#create-inbound-profiles).
 
