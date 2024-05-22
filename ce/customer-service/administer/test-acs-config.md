@@ -64,22 +64,22 @@ You'll need to specify the values of **Application (client) ID** and **Directory
    
    ### [Existing Azure resource](#tab/omnichanneladmincenter)
 
-    **Azure configurations**<br>
-      Before you connect an existing Azure resource to Azure Communication Services, you must retrieve the following information from the [Azure portal](https://ms.portal.azure.com/):
+   **Azure configurations**  
+   Before you connect an existing Azure resource to Azure Communication Services, you must retrieve the following information from the [Azure portal](https://ms.portal.azure.com/):
 
-    - Go to **Resource groups** and select the required resource group. 
-    - Select the required **Resource** from the resource group.
-              
-      :::image type="content" source="../media/acs-resource-existing-mini.png" alt-text="image showing how to add a resource" lightbox="../media/acs-existing-resource.png":::
+   - Go to **Resource groups** and select the required resource group. 
+   - Select the required **Resource** from the resource group.
+    
+     :::image type="content" source="../media/acs-resource-existing-mini.png" alt-text="image showing how to add a resource" lightbox="../media/acs-existing-resource.png"::: 
+   
+   -  Select **Properties** in **Settings**. 
+   - On the **Properties** page, copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center.
 
-    - Select **Properties** in **Settings**. 
-    -  On the **Properties** page,  copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center.
-       
-       :::image type="content" source="../media/acs-property-records-mini.png" alt-text="image showing the resource id values " lightbox="../media/acs-property-records.png":::
+     :::image type="content" source="../media/acs-property-records-mini.png" alt-text="image showing the resource id values " lightbox="../media/acs-property-records.png":::
 
-    - Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center. 
+  - Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string** in Customer Service admin center. 
 
-       :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
+     :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
 
     **Customer Service admin center**<br>
 
