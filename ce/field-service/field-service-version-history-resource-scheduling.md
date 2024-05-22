@@ -4,7 +4,7 @@ description: Find a list of important updates for Universal Resource Scheduling 
 ms.date: 02/02/2023
 
 ms.subservice: common-scheduler
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

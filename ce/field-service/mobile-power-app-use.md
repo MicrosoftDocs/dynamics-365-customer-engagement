@@ -2,7 +2,7 @@
 title: Work with the mobile app
 description: Learn how to use the Field Service mobile app.
 ms.date: 10/16/2023
-ms.topic: article
+ms.topic: overview
 ms.subservice: field-service-mobile
 author: josephshum-msft
 ms.author: jshum
