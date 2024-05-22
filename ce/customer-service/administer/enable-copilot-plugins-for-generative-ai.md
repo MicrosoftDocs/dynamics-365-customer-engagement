@@ -40,7 +40,7 @@ With prompt plugins for Copilot in Customer Service, you can connect Dataverse t
    - Select **Productivity** > **Plugins for generative AI (Preview)** under **Agent experience**.
    - Select **Insights** > **Plugins for generative AI (Preview)** under **Operations**. 
 1. Select **Manage**.
-1. On the **Plugins for generative AI (Preview)** page, select the plugin that you need to enable and then select **Turn on** on the command bar.
+1. On the **Plugins for generative AI (Preview)** page, select the plugin to enable and then select **Turn on** on the command bar.
    - If you select a custom connector plugin, then do the following steps for the plugin to connect with the data source.
         1. On the **Connect plugin to data** pane, select the ellipses, and then select the required connection. A green check mark indicates that the data source is successfully connected.
         1. Select **Next**.
@@ -49,7 +49,7 @@ With prompt plugins for Copilot in Customer Service, you can connect Dataverse t
    - **Specific user roles**: Select the roles in the list.
 1. Select **Next**. If it's a prompt plugin, you'll see the fields to define inputs that can improve the answers agents get from Copilot.
    - Optionally, define the input on the **Define inputs(optional)** screen. 
-1. Select **Next** and on the **Plugin data** screen, select **Store this plugin's data**. The data is stored in  your Dataverse database as part of your agent interactions with Copilot as chat transcripts. More information: [Copilot transcripts and interaction data](../develop/download-copilot-transcript-data.md)
+1. Select **Next** and on the **Plugin data** screen, select **Store this plugin's data**. The data is stored in your Dataverse database as part of your agent interactions with Copilot as chat transcripts. More information: [Copilot transcripts and interaction data](../develop/download-copilot-transcript-data.md)
 1. Select **Turn on plugin**.
 
 ## Next steps
