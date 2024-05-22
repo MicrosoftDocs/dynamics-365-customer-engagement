@@ -79,14 +79,14 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 
         :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
 
-
-        > [!NOTE]
-        > If you paste the incorrect connection string in the **Connection string** field, you'll see an error message in Customer Service admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
-     
     **Customer Service admin center**
     In the Manage Azure Communication Services dialog, specify the following values:
      - **ACS Resource name** and **ACS Resource ID**: The **Name** and **Resource ID** field values you've copied in the section above.
      - **Connection String**: The **Connection string** field value you've copied in the section above.
+        
+        > [!NOTE]
+        > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in Customer Service admin center becomes invalid. An error message is also displayed in the connection string field in Customer Service admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
+     
      - **Event grid app id**: The value of the **Application (client) ID** from the [Get application and tenant IDs](#get-application-and-tenant-ids-from-the-azure-portal)
      - **Event grid app tenant id**: The value of the **Directory (tenant) ID** from the [Get application and tenant IDs](#get-application-and-tenant-ids-from-the-azure-portal).
      - Select the check box to confirm that the Dynamics 365 Customer Service instance is connected to only one Azure Communication Services resource.
