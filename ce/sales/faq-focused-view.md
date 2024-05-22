@@ -20,7 +20,7 @@ This article answers frequently asked questions about focused view in Dynamics 3
 
 ## Is there any administration setup required to use focused view?
 
-  No. Focused view is available out of the box and doesn't require any setup. However, if it's disabled, an administrator can enable it. More information: [Configure focused view as default](set-focused-view-as-default.md).
+No. Focused view is available out of the box and doesn't require any setup. However, if it's disabled, an administrator can [enable it](set-focused-view-as-default.md).
 
 ## Why isn't the focused view opening by default for leads?
 
