@@ -37,6 +37,7 @@ The following table lists the Copilot preview features that are available in Dyn
 | Copilot for Email | [Compose and send email messages using Copilot](compose-send-email-copilot.md). |
 | Document summarization | [Summarize documents or proposals associated with a record](copilot-get-information.md#copilot-doc-summarization) to understand the key points. |
 | Full-screen, immersive view | [Open Copilot in full-screen view (preview)](use-sales-copilot.md#open-copilot-in-full-screen-view-preview) when you want more space and focus to chat with Copilot and ask questions. |
+| Account summarization | [Summarize an account in your organization](copilot-get-information.md#summarize-an-account) |
 
 ## Turn on all Copilot preview features
 

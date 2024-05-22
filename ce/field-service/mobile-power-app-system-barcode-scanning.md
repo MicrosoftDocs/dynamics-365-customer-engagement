@@ -2,7 +2,7 @@
 title: Barcode scanning and global search
 description: Learn about barcode scanning and global search in the Dynamics 365 Field Service mobile app.
 ms.date: 10/16/2023
-ms.topic: article
+ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
 ms.author: jobaker

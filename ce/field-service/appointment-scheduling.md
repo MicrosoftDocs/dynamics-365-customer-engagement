@@ -3,8 +3,8 @@ title: Show appointments on the schedule board
 description: Learn how to include appointments with resource scheduling in Dynamics 365 Field Service.
 ms.date: 02/23/2023
 ms.topic: how-to
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Show appointments on the schedule board
