@@ -18,7 +18,12 @@ searchScope:
 ---
 # Define the lead qualification experience  
 
-Give your salespeople the flexibility to choose which records to create&mdash;account, contact, or opportunity&mdash;when a lead is qualified.
+As an admin, you can customize the lead qualification experience to help sellers qualify leads more effectively. You can customize the following aspects of the lead qualification experience:
+
+- Select who creates opportunities when leads are qualified - seller or automatically by the system.
+- Allow sellers to create multiple opportunities when a lead is qualified.
+- Modify the opportunity form that opens when a lead is qualified.
+- Choose to let Copilot summarize the lead after it's qualified.
 
 ## License and role requirements
 
@@ -31,8 +36,38 @@ Give your salespeople the flexibility to choose which records to create&mdash;ac
 
 1. In the Sales Hub app, select the Change area icon :::image type="icon" source="media/change-area-icon.png" border="false"::: at the bottom of the site map, and then select **App Settings**.
 2. Under **General Settings**, select **Lead + Opportunity management** > **Lead Qualification**.
-3. Turn on **Auto-create records for newly qualified leads** to automatically create account, contact, and opportunity records when a lead is qualified. Turn the setting off if you want salespeople to choose which records to create when a lead is qualified. For information about the fields that are automatically mapped from the lead to other entities, see [Field mappings to other entities](#field-mappings-to-other-entities).
+   You'll see following options:
+    - **Try the new lead qualification experience**: Turn on this setting to use the new lead qualification experience.  This setting lets you define the experience for each record type, allow creation of multiple opportunities, and so on. Turn it off to use the legacy experience.  
+    
+    - **Auto-create records for newly qualified leads**: This option is for the legacy experience. Turn on this setting to automatically create account, contact, and opportunity records when a lead is qualified. Turn it off if you want salespeople to choose which records to create when a lead is qualified.
+      
+    For information about the fields that are automatically mapped from the lead to other entities, see [Field mappings to other entities](#field-mappings-to-other-entities).
 
+### Define the record creation experience for each record type
+
+When you turn on **Try the new lead qualification experience**, you can define who creates the record&mdash;seller or Automatic&mdash;for each record type.  
+
+- Select **Seller** if you want sellers to decide whether to create a record, use an existing record, or not create a record at all.
+- Select **Automatic** if you want the system to create the record automatically. Sellers can review the records that will be created automatically.
+    
+In either case, if there's a matching record in the system based on the email ID and phone number, the duplicate detection rules are applied to prevent the creation of duplicate records. Sellers can choose to use the existing record or create a new one.
+
+When you select **Automatic** for a record type, the following fields are used to identify the related record:
+- **Account**: The email ID and phone number are used to identify the account record. If a matching account record is found, the lead is associated with that account. If no matching account record is found, a new account record is created with the value in the **Company Name** field.
+- **Contact**: The email ID and phone number are used to identify the contact record. If a matching contact record is found, the lead is associated with that contact. If no matching contact record is found, a new contact record is created with the values in the **First Name** and **Last Name** fields.
+   
+### Customize opportunity creation experience
+
+When you turn on **Try the new lead qualification experience**, you can customize the opportunity creation experience. You can allow sellers to create multiple opportunities when a lead is qualified, and modify the opportunity form that opens when a lead is qualified.
+
+Under **Modify opportunity form**, select **Add or remove fields** to customize the opportunity form that opens when a lead is qualified. The quick create form opens in Power Apps for editing.
+
+Select **Let seller create up to 5 opportunities from a newly qualified lead** to allow sellers to create multiple opportunities when a lead is qualified. In some cases, sellers may want to create multiple opportunities to track different sales deals from the same lead. Sellers can create up to 5 opportunities from a lead.
+
+### Summarize the lead after it's qualified
+
+When you turn on **Try the new lead qualification experience**, you can choose to let Copilot summarize the lead after it's qualified. Copilot summarizes the lead by extracting key information from the lead and creating a summary card. The summary card includes key information such as the lead's name, company name, email, phone number, and address, along with links to the account, contact, and opportunity records that were created. 
+ 
 ## Define the experience using legacy web client
 
 If you aren't using the Sales Hub app, you can define the lead qualification experience by using the legacy web client.

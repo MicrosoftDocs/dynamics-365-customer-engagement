@@ -58,6 +58,14 @@ The lead moves to the next stage in the business process. The lead is also remov
 > [!NOTE]
 > If an opportunity isn't created when qualifying a lead, the business process flow doesn't progress to the next stage, although the lead status becomes qualified.
 
+## Qualify leads in bulk
+
+You can qualify multiple leads at once. To qualify multiple leads, open the Leads page in read-only grid vie and select the leads that you want to qualify. On the command bar, select **Qualify**.
+
+:::image type="content" source="media/bulk-qualify.png" alt-text="Screenshot of Qualify Leads dialog.":::
+
+When you qualify leads in bulk, you won't be able to create multiple opportunities or customize the behavior  that are created. 
+
 ## Disqualify a lead
 
 When you decide that a lead won't turn into an opportunity, you can disqualify it, and still have an audit trail for your sales process. You can reactivate the record, including any attachments and notes, without having to re-enter all the data if the lead contacts you in the future. Deleting the record also removes any attachments and notes.
