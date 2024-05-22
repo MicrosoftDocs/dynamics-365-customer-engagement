@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 05/21/2024
+ms.date: 05/22/2024
 ms.custom: bap-template
 ---
 
@@ -22,8 +22,8 @@ Your customer service representatives rely on data and information from a wide v
 
 - You are assigned the System Administrator role.
 - A license for Copilot Studio is available.
-- To configure a custom connector plugin in Customer Service, it must be [configured in Copilot Studio](/microsoft-copilot-studio/copilot-ai-plugins).
-- To configure a prompt plugin in Customer Service, it must be [configured in Copilot Studio](/microsoft-copilot-studio/copilot-ai-plugins).
+- To configure a custom connector plugin in Customer Service, it must be [configured in Copilot Studio](/microsoft-copilot-studio/copilot-ai-plugins?tabs=c4d365cs#author-a-connector-action).
+- To configure a prompt plugin in Customer Service, it must be [configured in Copilot Studio](/microsoft-copilot-studio/copilot-ai-plugins#generate-content-or-extract-insights-with-ai-builder-prompts).
 - Copilot in Customer Service is enabled.
 
 ## Custom connector plugin
