@@ -66,6 +66,7 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 
     **Azure configurations**<br>
       Before you connect an existing Azure resource to Azure Communication Services, you must retrieve the following information from the [Azure portal](https://ms.portal.azure.com/):
+
        1. Go to **Resource groups** and select the required resource group. 
        1. Select the required **Resource** from the resource group.
        
