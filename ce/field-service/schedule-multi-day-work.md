@@ -3,7 +3,7 @@ title: Schedule work over multiple days
 description: Learn how to schedule work for multiple days in Dynamics 365 Field Service
 ms.date: 04/19/2024
 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

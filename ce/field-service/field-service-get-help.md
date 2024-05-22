@@ -3,7 +3,7 @@ title: Submit a support request
 description: Learn how to submit support requests for Dynamics 365 Field Service.
 ms.date: 10/26/2021
 
-ms.topic: article
+ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ---
