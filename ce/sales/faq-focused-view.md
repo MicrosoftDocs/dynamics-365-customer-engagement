@@ -1,7 +1,7 @@
 ---
 title: Focused view FAQs
 description: Get answers to frequently asked questions about focused view.
-ms.date: 05/21/2024
+ms.date: 05/22/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -20,7 +20,7 @@ This article answers frequently asked questions about focused view in Dynamics 3
 
 ## Is there any administration setup required to use focused view?
 
- No. Focused view is available out of the box and doesn't require any setup. However, if it's disabled, an administrator can enable it. More information: [Configure focused view as default](set-focused-view-as-default.md).
+  No. Focused view is available out of the box and doesn't require any setup. However, if it's disabled, an administrator can enable it. More information: [Configure focused view as default](set-focused-view-as-default.md).
 
 ## Why isn't the focused view opening by default for leads?
 
@@ -107,30 +107,56 @@ The web resource functions that you've added in your views are compatible only w
 
 If you're unable to load the work list in focused view, this is due to one of the following errors:
 
-- Related entity is used multiple times in the view to add attributes. For example, when you download and view the fetchXML file of the view query, the `account` related entity is used twice and cause this error.
+- Related entity is used multiple times in the view to add attributes. For example, when you download and view the **FetchXML** file from **Edit filters** of the view query, the `account` related entity (with same relation to and from attributes) is used twice causing this error.
+
+When you download and view the **FetchXML** file from the **Edit filters** section of the view query, the **account** related entity (`link-entity`) is used twice with the same relation for to and from attributes.
+
     ```XML
-    <fetch version="l.0" output-format="xml-platform" mapping="logical" no-lock="false" distinct="true" userqueryid =***********************************">
-        <entity name-"lead">
-            <attribute name-"entityimage_url"/>
-            <attribute name="statecode"/>
-            <attribute name="fullname',/>
-            <order attribute-"modifiedon" descending-"true"/>
-            <order attribute-"subject" descending-"false"/>
-            <attribute name-"subject"/>
-            <attribute name-"modifiedon"/>
-            <attribute name="leadid"/>
-            <link-entity name-"account|" alias^"|aah" from-''|accountid" to-"t>arentaccountid" link-type="inner">
-                <filter type-"andN>
-                    <condition attribute="addressl_postofficebox" operator="null"/>
-                </filter>
-            </link-entity>
-            <link-entity name-”account|" from-’^ccountidf’ to^"parentaccounti<^" link-type^Mouter" alias - " aa_239285906a62447b835492124f f 21df 0|" visible-"false">
-                <attribute name="name"/>
-            </link-entity>
-        </entity>
+    <fetch version="1.0" output-format="xml-platform" mapping="logical" savedqueryid="2b1cb8e1-f2f6-ee11-a1fe-7c1e521420b2" returntotalrecordcount="true" page="1" count="50" no-lock="false">
+    <entity name="lead">
+        <attribute name="entityimage_url"/>
+        <attribute name="statecode"/>
+        <attribute name="fullname"/>
+        <order attribute="modifiedon" descending="true"/>
+        <order attribute="subject" descending="false"/>
+        <attribute name="subject"/>
+        <attribute name="modifiedon"/>
+        <attribute name="leadid"/>
+        <link-entity name="account" alias="ah" from="accountid" to="leadid">
+            <filter type="and">
+                <condition attribute="address1_postofficebox" operator="null"/>
+            </filter>
+        </link-entity>
+        <link-entity name="account" from="accountid" to="leadid" link-type="outer" alias="a_239285906a62447b835492124ff21df0" visible="false">
+            <attribute name="name"/>
+        </link-entity>
+    </entity>
     </fetch>    
     ```
 
-- Same alias are used between multiple tables or joins in the view.
+- Same aliases are used between multiple tables or join in the view.  
 
 To resolve this issue, [create or edit a view with same filters](/power-apps/maker/model-driven-apps/create-edit-views-app-designer) and ensure that you remove duplicate links from the view query using advanced filter or customization.
+
+In the revised view query, based on the FetchXML example, the **account** related entity (`link-entity`) is used only once, thus resolving the error.
+
+```XML
+<fetch version="1.0" output-format="xml-platform" mapping="logical" savedqueryid="2b1cb8e1-f2f6-ee11-a1fe-7c1e521420b2" returntotalrecordcount="true" page="1" count="50" no-lock="false">
+<entity name="lead">
+    <attribute name="entityimage_url"/>
+    <attribute name="statecode"/>
+    <attribute name="fullname"/>
+    <order attribute="modifiedon" descending="true"/>
+    <order attribute="subject" descending="false"/>
+    <attribute name="subject"/>
+    <attribute name="modifiedon"/>
+    <attribute name="leadid"/>
+    <link-entity name="account" alias="ah" from="accountid" to="leadid">
+        <filter type="and">
+            <condition attribute="address1_postofficebox" operator="null"/>
+        </filter>
+        <attribute name="name"/>
+     </link-entity>
+</entity>
+</fetch>    
+```
