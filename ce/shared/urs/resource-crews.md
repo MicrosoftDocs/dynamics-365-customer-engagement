@@ -30,7 +30,7 @@ A crew is a bookable resource which is essentially a container for the child res
 
 The crew strategy determines how the crew manages its work once it moves past the _Scheduled_ status (e.g. _Travelling_, _In Progress_, or _Completed_). There are three options:
 
-- **Crew Leader Management**: Crew leader manages the work of a crew. Consider this option when a crew consists of multiple people. You can only have one resource designated as the leader at a time, and there must be a leader to creat a work order booking.
+- **Crew Leader Management**: Crew leader manages the work of a crew. Consider this option when a crew consists of multiple people. You can only have one resource designated as the leader at a time, and there must be a leader to create a work order booking.
 - **Crew Member Self-Management**: Resources can manage their own work even once the booking has begun. Choose this option for crews that are groups, which regularly work together, but may not always work together at the same place or time. Self-management also means better time capturing, which is good for organizations who bill for time spent on work. 
 - **Cascade and Accept Cascade Completely**: All resources on a crew can manage all the work throughout all statuses. It's the ideal option when a crew consists of one individual and the rest of the crew is equipment.
 
@@ -126,7 +126,7 @@ Save your changes to update a crew. After saving, the system processes membershi
 After the membership changes conclude, bookings begin to cascade asynchronously. New members get active bookings moved until after the day of they assignment in the crew. Members who are removed from a crew have their crew bookings cancelled. This may a few minutes to process, depending on the number of bookings and resources.
 
 > [!NOTE]
-> If the leader on a Leader Managed crew is moved to a different crew, they will lose their leadership status for that day, even if they are returned to their original crew. To select a new leader or to restore this status, edit the crew configuration directly.
+> If the leader on a leader managed crew is moved to a different crew, they will lose their leadership status for that day, even if they are returned to their original crew. To select a new leader or to restore this status, edit the crew configuration directly.
 
 
 ### Crew allocation tool components
