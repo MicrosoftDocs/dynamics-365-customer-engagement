@@ -27,7 +27,7 @@ Your customer service representatives rely on data and information from a wide v
 
 ## Custom connector plugin
 
-In Power Automate, you can create a custom connector plugin, such as a connector for order management. Then you can import this connector plugin in Copilot Studio and publish. You can configure this plugin in Customer Service to use it with Copilot. When an agent provides the order ID as the input, Copilot can help fetch details pertaining to the order from the third-party order management system. To configure the custom connector plugin, see [Author a connector action](/microsoft-copilot-studio/copilot-ai-plugins?tabs=c4d365cs#author-a-connector-action)
+In Power Automate, you can create a [custom connector](/connectors/custom-connectors/define-blank) plugin, such as a connector for order management. Then you can import this connector plugin in Copilot Studio and publish. You can configure this plugin in Customer Service to use it with Copilot. When an agent provides the order ID as the input, Copilot can help fetch details pertaining to the order from the third-party order management system. To configure the custom connector plugin, see [Author a connector action](/microsoft-copilot-studio/copilot-ai-plugins?tabs=c4d365cs#author-a-connector-action)
 
 ## Prompt plugin
 
