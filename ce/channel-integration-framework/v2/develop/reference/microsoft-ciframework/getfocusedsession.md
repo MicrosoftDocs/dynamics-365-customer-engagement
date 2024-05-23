@@ -1,7 +1,7 @@
 ---
-title: "getFocusedSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Includes description, syntax, and parameter information for the getFocusedSession method in JavaScript API Reference for Channel Integration Framework 2.0."
-ms.date: 12/31/2019
+title: getFocusedSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
+description: Includes description, syntax, and parameter information for the getFocusedSession method in JavaScript API Reference for Channel Integration Framework 2.0.
+ms.date: 05/23/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham

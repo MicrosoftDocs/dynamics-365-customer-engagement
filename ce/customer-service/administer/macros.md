@@ -1,9 +1,9 @@
 ---
 title: Configure macros to improve agent productivity
 description: This article provides information about the different macros that can be made available to agents and how to configure them in app profile manager.
-author: neeranelli
-ms.author: nenellim
-ms.reviewer: shujoshi
+author: gandhamm
+ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 05/23/2024
 ms.topic: how-to
 ms.custom: bap-template

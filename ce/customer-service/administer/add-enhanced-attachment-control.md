@@ -3,7 +3,7 @@ title: Enable enhanced experience for email attachments
 description: Enable enhanced email attachment control for agents to have a consistent experience across all forms. 
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection:
 ms.date: 05/23/2024
