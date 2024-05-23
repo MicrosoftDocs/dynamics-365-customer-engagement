@@ -15,7 +15,7 @@ ms.custom:
   - ai-gen-desc
 ---
 
-## Enable enhanced recipient control for email
+# Enable enhanced recipient control for email
 
 You can enable the recipient control for agents to drag and drop recipient names across **To**, **CC**, and **BCC**, view the recipient's email address along with their names, presence status, and out-of-office message, and resolve an unresolved email address faster. Do the following steps:
 
