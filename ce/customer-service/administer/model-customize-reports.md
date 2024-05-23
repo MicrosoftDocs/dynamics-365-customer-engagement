@@ -1,7 +1,7 @@
 ---
-title: Model customization of historical and real-time analytics reports in Customer Service | MicrosoftDocs
+title: Model customization of historical and real-time analytics reports in Customer Service
 description: Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI.
-ms.date: 03/13/2024
+ms.date: 05/23/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,7 +17,7 @@ search.audienceType:
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
-Use the extensibility feature in Microsoft Power BI to extend the out-of-the-box data models for the analytics reports in Customer Service and integrate with other datasets to create new custom metrics. You can customize the out-of-the-box standard reports and add your own Key Performance Indicators (KPIs) to view the key metrics that are relevant to your organization. You can also add custom metrics to the detail reports.
+Use the extensibility feature in Microsoft Power BI to extend the out-of-the-box data models for the analytics reports in Customer Service and integrate with other semantic models to create new custom metrics. You can customize the out-of-the-box standard reports and add your own Key Performance Indicators (KPIs) to view the key metrics that are relevant to your organization. You can also add custom metrics to the detail reports.
 
 The key capabilities of model customization include the ability to:
 
@@ -64,15 +64,13 @@ Before you begin, you must complete the following prerequisites:
 
   - [**Create workspace (new workspace experience)**](/power-bi/admin/service-admin-portal-workspace#create-workspaces-new-workspace-experience): Enabling this feature creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports.
 
-  - [**Allow service principals to use Power BI APIs**](/power-bi/enterprise/service-premium-service-principal#enable-service-principals): This feature uses the Power BI APIs for creating workspaces, deploying reports and models.
+  - [**Service principals can use Fabric APIs**](/power-bi/enterprise/service-premium-service-principal#enable-service-principals): This feature uses the Fabric APIs for creating workspaces, deploying reports and models.
 
-  - **Allow DirectQuery connections to Power BI datasets**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so DirectQuery needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
+  - **Allow DirectQuery connections to Power BI semantic models**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so DirectQuery needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
   
-  - **Allow XMLA endpoints and Analyze in Excel with on-premise datasets**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so this feature needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission.
+  - **Allow XMLA endpoints and Analyze in Excel with on-premise semantic models**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so this feature needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission.
 
-  - **Embed content in apps** (**Optional**): Enabling this feature embeds customized reports in Dynamics 365 ([Step 4: Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)). Users who view the custom reports from Dynamics 365 Customer Service require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
-
-- If you plan to use an existing Power BI workspace to host the copy of the out-of-the-box reports (customer workspace), make sure that the Dynamics Administrator (user sign in) enabling the model customization is a workspace administrator of that Power BI workspace.
+  - **Embed content in apps**: Enabling this feature embeds customized reports in Dynamics 365 ([Step 4: Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)). Users who view the custom reports from Dynamics 365 Customer Service require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
 
 ## Enable Power BI data model customization
 
@@ -83,6 +81,9 @@ Before you begin, you must complete the following prerequisites:
  1. On the selected page, switch the **Enable embedded Power BI data model customization** toggle to **On**.
 
 ## Step 1: Select a Power BI workspace
+
+  > [!NOTE]
+  > If you plan to use an existing Power BI workspace to host the copy of the out-of-the-box reports (customer workspace), make sure that the Dynamics Administrator (user sign in) enabling the model customization is a workspace administrator of that Power BI workspace.
 
 Specify the Power BI workspace where the Dynamics data model and reports are provisioned.
 
@@ -120,7 +121,7 @@ Select **Access**, and provide **Contributor** access to your report authors and
 
 ## Step 4: Embed customized reports back to Dynamics 365
 
-After your report authors create and publish the customized reports, you can allow Dynamics users to access these reports from the Customer service workspace.
+After your report authors create and publish the customized reports, you can allow Dynamics users to access these reports from the Customer service workspace. This is optional.
 
 1. Select the data model reports.
 
