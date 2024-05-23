@@ -4,7 +4,8 @@ description: Learn how to pull in device data in Connected Field Service for Dyn
 ms.date: 11/19/2020
 
 ms.subservice: connected-field-service
-ms.topic: article
+ms.topic: how-to
+
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

@@ -4,7 +4,7 @@ description: Learn how to get Resource Scheduling Optimization for Dynamics 365
 ms.date: 09/07/2022
 
 ms.subservice: resource-scheduling-optimization
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

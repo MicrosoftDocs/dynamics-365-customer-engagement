@@ -4,7 +4,7 @@ description: Learn about how to use optimization schedules in Resource Schedulin
 author: FeifeiQiu
 ms.author: feiqiu
 ms.date: 09/07/2022
-ms.topic: article
+ms.topic: conceptual
 
 ms.subservice: resource-scheduling-optimization
 ---

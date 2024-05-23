@@ -4,7 +4,7 @@ description: Learn how to use overnight scheduling with Resource Scheduling Opti
 ms.date: 11/04/2019
 
 ms.subservice: resource-scheduling-optimization
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

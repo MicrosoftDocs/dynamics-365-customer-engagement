@@ -56,6 +56,9 @@ Consider the following before you start using predictive forecasting, you must h
 
 ### Snapshots
 
+> [!NOTE]
+> Starting June 30, 2024, you'll no longer be able to enable snapshots for new forecast configurations. [Learn more](deprecations-sales.md#snapshot-deprecation). 
+
 Sales organizations can use snapshots to "freeze" forecast data at a moment in time. To learn more about how to use snapshots and how deals flow between two snapshots, see [Take snapshots automatically](manage-snapshots-forecast.md) and [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md).
 
 ### Trend chart

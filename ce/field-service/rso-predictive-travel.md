@@ -4,7 +4,7 @@ description: Learn how to use predictive travel times for Resource Scheduling Op
 ms.date: 05/24/2021
 
 ms.subservice: resource-scheduling-optimization
-ms.topic: article
+ms.topic: conceptual
 author: FeifeiQiu
 ms.author: feiqiu
 ---

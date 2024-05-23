@@ -2,7 +2,7 @@
 title: Edit the booking and work order form
 description: Learn how to edit the booking and work order form in Dynamics 365 Field Service.
 ms.date: 12/01/2021
-ms.topic: article
+ms.topic: how-to
 author: Andrea-Orimoto
 ms.author: andreo
 ---
