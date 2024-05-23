@@ -1,6 +1,6 @@
 ---
-title: Turn on auto geocoding (Dynamics 365 Field Service) | MicrosoftDocs"
-description: Learn how to turn on auto geocoding in Dynamics 365 Field Service
+title: Enable automatic address geocoding
+description: Learn how to turn on auto geocoding to get coordinates for addresses in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 05/23/2024
@@ -31,7 +31,7 @@ To use geocoding or location services, you need to enable on maps. For more info
   
 1. Select **Save**.  
 
-When geocoding an address, the only street field used is **Street1**. Additional information like apartment number in **Street2** and **Street3** will be ignored. Don't add the extended information to **Street1**. The string length could be too long to process.
+The geocoding process in Field Service uses only one street field (**Street1**). Additional information like apartment number in **Street2** and **Street3** is ignored. Don't add the extended information to **Street1**. The string length could be too long to process.
 
 > [!TIP]
 > When the system finds no geocode match, it returns the value (0,0). Any custom logic that uses geocoding should ignore these results to avoid incorrect locations and travel routes.
