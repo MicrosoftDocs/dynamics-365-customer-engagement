@@ -1,6 +1,6 @@
 ---
 title: Track time expenditure with time entries (contains video)
-description: Learn about time entry in Dynamics 365 Field Service.
+description: Discover how to manage time entry in Dynamics 365 Field Service.
 ms.date: 05/23/2024
 ms.topic: conceptual
 author: FeifeiQiu
@@ -17,7 +17,7 @@ For a guided walkthrough, check out the following video.
 
 ## Automatic time entries
 
- The system creates time entries automatically for time-off requests and in the work order process. If you don't want time entries created automatically for the work order process, go to **Settings** > **Field Service Settings** and set the **Time Entry Generation Strategy** to **Manual**. For more information, see [Set defaults for work orders, bookings, the schedule board, and agreements](configure-default-settings.md).
+The system creates time entries automatically for time-off requests and in the work order process. If you don't want time entries created automatically for the work order process, go to **Settings** > **Field Service Settings** and set the **Time Entry Generation Strategy** to **Manual**. For more information, see [Set defaults for work orders, bookings, the schedule board, and agreements](configure-default-settings.md).
 
 ### Work order process
 
