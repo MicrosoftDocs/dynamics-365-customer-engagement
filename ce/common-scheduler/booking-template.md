@@ -5,8 +5,8 @@ ms.date: 10/04/2023
 ms.reviewer: mhart 
 ms.subservice: common-scheduler
 ms.topic: how-to
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Edit the schedule board booking template in Universal Resource Scheduling

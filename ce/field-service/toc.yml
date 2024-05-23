@@ -165,8 +165,6 @@ items:
       href: frontline-worker-set-up-email-approval.md
     - name: Create bookable resources
       href: set-up-bookable-resources.md
-    - name: Display a bookable resource on the schedule board
-      href: add-resource-schedule-board.md
     - name: Apply a calendar to a bookable resource
       href: calendar-resource.md
     - name: Bookable resource categories
@@ -492,6 +490,8 @@ items:
       href: rso-get-install.md
     - name: Quickstart
       href: rso-quickstart.md
+    - name: Administration overview
+      href: rso-administration.md
     - name: Deployment
       href: rso-deployment.md
     - name: Configuration and setup

@@ -4,7 +4,7 @@ description: Learn how to turn on auto geocoding in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/08/2022
-ms.topic: article
+ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ---

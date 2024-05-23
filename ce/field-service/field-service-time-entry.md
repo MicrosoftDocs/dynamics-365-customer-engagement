@@ -3,7 +3,7 @@ title: Track time expenditure with time entries (contains video)
 description: Learn about time entry in Dynamics 365 Field Service.
 ms.date: 11/19/2020
 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

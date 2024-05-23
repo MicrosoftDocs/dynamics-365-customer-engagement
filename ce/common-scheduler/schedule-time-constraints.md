@@ -5,8 +5,8 @@ ms.date: 02/20/2023
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: conceptual
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Schedule work with date and time constraints in Universal Resource Scheduling
