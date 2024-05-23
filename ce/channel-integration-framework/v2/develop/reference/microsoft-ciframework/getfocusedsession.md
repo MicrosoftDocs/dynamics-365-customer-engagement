@@ -18,7 +18,8 @@ ms.custom:
 
 [!include[session-api-omnichannel](../../../includes/session-api-omnichannel.md)]
 
-Returns the unique identifier of the session that is in focus, if it belongs to the channel provider else returns null. 
+Returns the unique identifier of the session that is in focus, if it belongs to the channel provider else returns null. The session ID is null if the connector attempts to retrieve a focused session created using a different connector.
+
 
 ## Syntax
 
