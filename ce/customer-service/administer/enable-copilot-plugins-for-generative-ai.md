@@ -20,7 +20,7 @@ Your customer service representatives rely on data and information from a wide v
 
 ## Prerequisites
 
-- You are assigned the System Administrator role.
+- The System Administrator role.
 - A license for Copilot Studio is available.
 - Define a custom connector plugin or prompt plugin.
 - Copilot in Customer Service is enabled.
