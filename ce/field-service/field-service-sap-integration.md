@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Field Service and SAP integration
-description: Learn about setting up an integration between Dynamics 365 Field Service and SAP applications.
+description: Learn how to set up an integration between Dynamics 365 Field Service and SAP applications.
 ms.date: 05/24/2024
 ms.topic: conceptual
 ms.author: jacoh
@@ -23,6 +23,6 @@ The materials provide details on three main aspects of integrating Field Service
 
 The following diagram shows a sample architecture for how the SAP Industry-Specific Utility "meter to cash" solution could interact with Field Service.
 
-:::image type="content" source="media/sap-integration-meter-cash-example.png" alt-text="Illustration of a model showing the architecture of Dynamics 365 and SAP integration.":::
+:::image type="content" source="media/sap-integration-meter-cash-example.png" alt-text="Screenshot of a model showing the architecture of Dynamics 365 and SAP integration.":::
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

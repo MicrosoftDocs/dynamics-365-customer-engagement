@@ -1,6 +1,6 @@
 ---
 title: Enable automatic address geocoding
-description: Learn how to turn on auto geocoding to get coordinates for addresses in Dynamics 365 Field Service.
+description: Learn how to enable auto geocoding to generate coordinates for addresses in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 05/23/2024
