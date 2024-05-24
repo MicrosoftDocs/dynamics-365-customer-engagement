@@ -22,6 +22,9 @@ After you create an authentication settings record, you must add it to a channel
 
 The agent will get a notification in the **Conversation summary** section whether the customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. More information: [Conversation summary](../use/oc-customer-summary.md#view-conversation-summary)
 
+> [!NOTE]
+> The record search identifies records that have the active status code for contacts or accounts; if you use custom status codes, then record identification won't work.
+
 ## Prerequisites
 
 - Make sure your organization has working knowledge of OAuth 2.0 and JSON Web Tokens (JWTs).
@@ -170,7 +173,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
           | iss   | The issuer of the token. |
           | iat   | The date the token was issued, in numeric date format.  |
           | exp   | The expiration date of this token, in numeric date format.  |
-          | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the logged-in user. This GUID will be used to identify and link the contact record to the conversation. The record search identifies records that have an active status code for contacts or accounts; if you use custom status codes, then record identification won't work. |
+          | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the logged-in user. This GUID will be used to identify and link the contact record to the conversation. The record must have the active status code. |
 
       -  **lwicontexts** The context variables to pass in as part of the conversation, either for routing purposes or to display to the agent. <br>
             More information: <br>
