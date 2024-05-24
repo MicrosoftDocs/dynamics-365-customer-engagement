@@ -292,6 +292,8 @@
         href: /power-apps/user/cs-email-template-builder?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Enable enhanced experience for email attachments
         href: add-enhanced-attachment-control.md
+      - name: Enable enhanced recipient control for email
+        href: add-recipient-control.md
       - name: Configure a default signature template for a queue
         href: add-signature-template-queue.md
       - name: Email FAQ and known issues
