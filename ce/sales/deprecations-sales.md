@@ -22,7 +22,7 @@ The features that have been deprecated in  Dynamics 365 Sales are listed in this
 
 ## Assistant card templates
 
-Effective August 1, 2024, templates to create new assistant cards are no longer available. The existing cards that are created using the templates continue to work as-is. You can continue to use the Microsoft Power Automate flow to create your custom cards. [Learn more](create-insight-cards-flow.md).
+Effective August 1, 2024, templates to create new assistant cards won't be available. The existing cards that are created using the templates continue to work as-is. You can continue to use the Microsoft Power Automate flow to create your custom cards. [Learn more](create-insight-cards-flow.md).
 
 <a name='snapshot-deprecation'></a>
 ## Snapshots in sales forecasting
