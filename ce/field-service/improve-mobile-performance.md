@@ -3,7 +3,7 @@ title: Performance considerations when customizing the mobile app
 description: Learn about you can improve the Dynamics 365 Field Service mobile app performance.
 ms.date: 10/16/2023
 ms.subservice: field-service-mobile
-ms.topic: article
+ms.topic: conceptual
 author: JonBaker007
 ms.author: jobaker
 ---

@@ -26,6 +26,37 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 
 [Open Copilot](use-sales-copilot.md#open-copilot), select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Show my pipeline**, and select **Enter**.
 
+## Summarize an account
+
+> [!IMPORTANT]
+>- The Account summary feature is a preview feature.
+>- Preview features aren’t meant for production use and may have restricted functionality. These features are subject to [supplemental terms of use](https://dynamics.microsoft.com/legaldocs/supp-dynamics365andpp-communicationservices-preview/), and are available before an official release so that customers can get early access and provide feedback.
+
+>[!NOTE]
+>This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
+
+1. [Open Copilot](use-sales-copilot.md#open-copilot).  
+1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize account**.
+1. From the list of accounts, hover over the account you want to summarize and select **Summarize**.  
+
+    >[!NOTE]
+    >The account summary is also displayed in the Copilot side pane by default when you open an account record.
+
+    The account summary is displayed as shown in the following image:
+
+    :::image type="content" source="media/copilot-account-summary.png" alt-text="Screenshot of a Copilot account summary.":::
+
+    The account summary includes the following information:
+    - **Basic information**: The basic information of the account includes annual revenue, number of employees, country/region, and parent account. If this information is available in the respective fields of the account record, it's displayed in the summary; otherwise, the field isn't displayed.
+    - **Key information**: The key information includes details on how long the account is associated with your organization, its domain, the total value of closed opportunities, the most recently closed opportunity, most recent activity, and other AI-generated information.  
+    - **Related leads, opportunities, and cases**: All the open leads, opportunities, and cases that are associated with the account are displayed. Listed records are the ones that you have read access to. A maximum of 10 records are displayed for each section. 
+        Select the section to view the details of the associated records. To summarize a specific lead, opportunity, or case, hover over the record and select **Summarize**. For cases to display, your organization must have the Dynamics 365 Customer Service app enabled.
+
+    >[!NOTE]
+    >Administrators can configure the fields that generate summaries and related information for the account summary view. More information: [Configure fields for generating summaries and recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
+
+     Further, you can drill down into the details associated with the account, select the suggested prompts displayed below the account summary. The **Find relevant Sales Navigator accounts** prompt appears if you have the LinkedIn Sales Navigator license. Select the prompt to open the relevant LinkedIn Sales Navigator accounts associated with the account.
+
 ## Summarize a lead or opportunity
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
@@ -38,7 +69,7 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 
     :::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::
 
-### Would you like to view a summary of different fields?
+## Would you like to view a summary of different fields?
 
 Copilot generates the summary from a set of predefined fields. Other fields might be more important to you, however. For example, estimated revenue, close date, contact, pipeline stage, and proposed solution might be the first things you look for in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
 
@@ -115,5 +146,5 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 
 - [Copilot overview](copilot-overview.md)
 - [Enable and set up Copilot](enable-setup-copilot.md)
-- [Chat with Copilot in natural language (preview)](use-sales-copilot.md#chat-with-copilot-in-natural-language-preview)
+- [Chat with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL)
 - [Get document recommendations from SharePoint](copilot-get-doc-suggestions.md#get-document-recommendations-from-sharepoint)

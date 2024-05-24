@@ -3,7 +3,7 @@ title: Create work order types
 description: Learn how to create work order types in Dynamics 365 Field Service.
 ms.date: 09/30/2017
 
-ms.topic: article
+ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
 ---

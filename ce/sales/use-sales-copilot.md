@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in Dynamics 365 Sales
 description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, and enrich your leads with data from different sources.
-ms.date: 05/02/2024
+ms.date: 05/22/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -73,13 +73,7 @@ Open the Copilot page in a full-screen view when you want more space and focus t
 You can chat with Copilot in natural language or use predefined prompts to get the most out of Copilot.
 
 <a name=chat-with-copilot-in-NL></a>
-### Chat with Copilot in natural language (preview)
-
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
-
-[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
-
-This feature is only available if your administrator opted into the [Copilot preview features](copilot-preview-features.md).
+### Chat with Copilot in natural language
 
 When you chat with Copilot in natural language, you can use the following types of requests:
 
@@ -92,7 +86,7 @@ When you chat with Copilot in natural language, you can use the following types 
 
 These questions are answered using the data stored in Dataverse, which is the underlying data platform for Dynamics 365 Sales. For more such questions, see [Questions about sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data).
 
-- **Questions with sales-specific terminology:** Questions that are based on terms that are specific to Sales organizations. Questions around the following topics are supported:
+- **Questions with sales-specific terminology:** Questions that are based on terms specific to Sales organizations. Questions around the following topics are supported:
 
   - **Conversion rates**. For example, what is my lead conversion rate for the last quarter?
 

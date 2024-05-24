@@ -4,7 +4,7 @@ description: Learn about how goals are used in Resource Scheduling Optimization.
 author: ryanchen8
 ms.author: chenryan
 ms.date: 09/28/2022
-ms.topic: article
+ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
 
