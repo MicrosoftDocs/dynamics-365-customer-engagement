@@ -30,7 +30,7 @@ In this procedure, we will show as an example how to create an insight to act wh
 
 >[!NOTE]
 >
->- Effective August 1, 2024, templates to create new assistant cards are no longer available. You can continue to use the Microsoft Power Automate flow to create your custom cards.
+>- Effective August 1, 2024, templates to create new assistant cards will no longer available. You can continue to use the Microsoft Power Automate flow to create your custom cards.
 >- To create custom insight cards with the assistant studio, ensure that Microsoft Power Automate is installed.
 >- The custom insight card is displayed in the list of insight cards in **Assistant studio** only after a card is generated based on the defined flow. For example, you defined a flow to display a card when an opportunity is created with an estimated value above $5,000. When an opportunity is created for the first time in the organization with the estimated value of $6,000, the card is generated and will be available in the list of insight cards in **Assistant studio**.
 
