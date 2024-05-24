@@ -16,7 +16,7 @@ As an administrator or a supervisor, you can help agents in your organization vi
 The calendar view is a read-only visual that provides daily, weekly, and monthly views of an agent's schedule. It also has an agenda view that provides a list-type view of the agent's schedule.
 
 > [!Note]
-> The agent calendar view isn't supported the Government Community Cloud (GCC) or sovereign regions.
+> The agent calendar view isn't supported in the Government Community Cloud (GCC) or sovereign regions.
 
 ## Prerequisites
 
