@@ -1,7 +1,7 @@
 ---
 title: Configure authentication settings
 description: Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service.
-ms.date: 02/19/2024
+ms.date: 05/27/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -170,8 +170,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
           | iss   | The issuer of the token. |
           | iat   | The date the token was issued, in numeric date format.  |
           | exp   | The expiration date of this token, in numeric date format.  |
-          | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the logged-in user. This GUID will be used to identify and link the contact record to the conversation. |
-          |||
+          | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the logged-in user. This GUID will be used to identify and link the contact record to the conversation. The record search identifies records that have the active status code for contacts or accounts; if you use custom status codes, then record identification won't work. |
 
       -  **lwicontexts** The context variables to pass in as part of the conversation, either for routing purposes or to display to the agent. <br>
             More information: <br>
