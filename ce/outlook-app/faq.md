@@ -18,6 +18,8 @@ search.audienceType:
   - enduser
 contriutors:
 - sbmjais
+ms.contributors:
+- crandrei
 ---
 # Troubleshoot and FAQs about Dynamics 365 App for Outlook
 
