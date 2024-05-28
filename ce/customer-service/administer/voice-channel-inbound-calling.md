@@ -75,7 +75,7 @@ The phone number is associated with the workstream.
 :::image type="content" source="../media/voice-workstream-configured.png" alt-text="Configured workstream for voice":::
 
 
-### Transfer calls to external numbers and Teams users
+## Transfer calls to external numbers and Teams users
 
 Based on your voice stack update, you'll see the following options to transfer calls to external numbers and Microsoft Teams users. Perform the following actions:
 
@@ -89,11 +89,11 @@ Based on your voice stack update, you'll see the following options to transfer c
    
 ### [Existing voice stack](#tab/existingvoicestack)
 
-   Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
+ Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
 
    :::image type="content" source="../media/voice-channel-workstream-summary.png" alt-text="Summary settings of the voice channel workstream":::
 
-   Turn on the toggle for **Consult with Microsoft Teams user** to enable the agents to consult other agents on Microsoft Teams. More information: [Voice consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
+ Turn on the toggle for **Consult with Microsoft Teams user** to enable the agents to consult other agents on Microsoft Teams. More information: [Voice consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
 
 ---
 
