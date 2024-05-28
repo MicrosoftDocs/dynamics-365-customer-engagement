@@ -66,11 +66,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
 7. Select **Add** for **Custom automated messages**, then select a default template message as the trigger, and then enter the custom automated message text. For information about automated messages, see [Configure automated messages](configure-automated-message.md)
 
-8. Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
-
-    :::image type="content" source="../media/voice-channel-workstream-summary.png" alt-text="Summary settings of the voice channel workstream":::
-
-9. Turn on the toggle for **Consult with Microsoft Teams user** to enable the agents to consult other agents on Microsoft Teams. More information: [Voice consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
+8. Turn on the toggle for the agents to be able to transfer calls and consult with external numbers and Microsoft Teams users.
 
 10. On the **Summary** page, select **Save and close**.
 
@@ -78,6 +74,28 @@ The phone number is associated with the workstream.
 
 :::image type="content" source="../media/voice-workstream-configured.png" alt-text="Configured workstream for voice":::
 
+
+### Transfer calls to external numbers and Teams users
+
+Based on your voice stack update, you'll see the following options to transfer calls to external numbers and Microsoft Teams users. Perform the following actions:
+
+   ### [Enhanced voice stack](#tab/enhancedvoicestack)
+
+    - Set the toggles for **External phone number** and **External Microsoft Teams users** in Consult for agents to add other agents or Teams subject matter experts to an ongoing call. 
+    - Set the toggles for **External phone number** and **External Microsoft Teams users** in Transfer to enable agents to transfer calls to other Teams subject matter experts. 
+    - Select the **Use bridged transfers** checkbox for the recording and transcription to continue when the call is transferred. The Teams user or the user with the external phone number becomes the primary agent and the conversation remains active the customer ends the call. If the checkbox is cleared, the recording and transcription automatically stop after the transfer. The conversation is moved to the closed state immediately after transfer. 
+    - Changes to these external transfer settings do not affect regular post call survey bot operations.  Post call survey triggered after agent ends the call on a non transferred to external call continues to work as expected, regardless of these settings. 
+    - On a transferred to external call, after the external hangs up and customer remains on the line the behavior is different for bridged vs non bridged calls.  Bridged transferred calls, when external hangs up, will send the customer to the post call survey bot.  Non bridged transferred calls, when external hangs up, will end the call for everyone without post call survey.
+
+
+   
+   ### [Existing voice stack](#tab/existingvoicestack)
+
+   8. Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
+
+    :::image type="content" source="../media/voice-channel-workstream-summary.png" alt-text="Summary settings of the voice channel workstream":::
+
+   9. Turn on the toggle for **Consult with Microsoft Teams user** to enable the agents to consult other agents on Microsoft Teams. More information: [Voice consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
 
 ## Create queues for voice channels
 
