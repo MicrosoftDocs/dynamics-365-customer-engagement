@@ -23,7 +23,7 @@ contriutors:
 
 ## Sometimes when I’m tracking my appointment, the recipients receive a second, duplicate invitation 
 
-This may happen when the organizer of the appointment tracks the appointment using Dynamics 365 App for Outlook. As the product performance continues to improve, unavoidable race conditions may happen leading to a second invitation to be sent out. 
+This may happen when the organizer of the appointment tracks the appointment using Dynamics 365 App for Outlook. As the product performance continues to improve, unavoidable race conditions may happen leading to a second invitation being sent out. 
 
 ### Solution
 This behavior is avoided if the Immediate Track functionality is turned off for the app. It will mean what when the user tracks an appointment, it'll take up to a few minutes until it appears in Dynamics. During this time, the user doesn’t need to keep the appointment open, as the user can carry on with their work.
