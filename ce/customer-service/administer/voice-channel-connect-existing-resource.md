@@ -1,7 +1,7 @@
 ---
 title: Connect using an existing Azure resource
 description: Learn how to connect your voice and SMS channels to Azure Communication Services using an existing Azure resource.
-ms.date: 01/11/2024
+ms.date: 05/22/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
@@ -41,6 +41,10 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center. 
 
    :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
+
+
+ > [!NOTE]
+ > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in Customer Service admin center becomes invalid. An error message is also displayed in the connection string field in Customer Service admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
 
 ### Get application and tenant IDs from the Azure portal
 
@@ -82,6 +86,8 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 1. Select **Use existing resource**.
 
 1. Fill in the fields using the resource information you retrieved from the Azure portal.
+
+1. Select the check box to confirm that the customer service instance is connected to only one Azure Communication Services resource.
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 

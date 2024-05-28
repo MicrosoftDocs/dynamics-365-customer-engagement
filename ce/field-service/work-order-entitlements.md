@@ -3,7 +3,7 @@ title: Create entitlements for work orders
 description: Learn about how to use entitlements for work orders in Dynamics 365 Field Service.
 ms.date: 03/17/2020
 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
