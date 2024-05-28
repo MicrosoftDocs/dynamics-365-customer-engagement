@@ -98,65 +98,79 @@ Create incident types from the incident types form.
 
 Add [products](create-product-or-service.md) that field technicians need to complete the incident type.
 
-:::image type="content" source="media/work-order-incident-types-product.png" alt-text="Screenshot of an incident type product.":::
-
-1. Open an *Incident Type* record.
+1. Open an incident type.
 
 1. On the **Products** tab, select **New Incident Type Product**.
 
-1. Choose a **Product** or create a new one.
+1. Enter the following information:
 
-1. For **Quantity**, enter the number of units that will be added to the work order for this incident type.
+   - **Name**: A name for the product line item.
 
-1. Enter a **Name** for the product line item. Because the **Description** field can be communicated to the customer and appear on an invoice, there's also an **Internal Description** to provide details for the field technician.
+   - **Product**: An existing product or create a new one.
 
-1. For multiple products, you can set the **Line Order**. It's a numeric value that defines the order in which products show on the work order product list.
+   - **Quantity**: The number of units to add to the work order for this incident type.
 
-1. Select **Save** to apply your changes to the incident type.
+   - **Description** (optional): A description of the product line item that appears on the customer invoice.
+
+   - **Internal Description** (optional): A description with details for the field technician.
+
+   - **Line Order**: If you have multiple products, set a numeric value that defines the order in which products show on the work order product list.
+
+   :::image type="content" source="media/work-order-incident-types-product.png" alt-text="Screenshot of an incident type product.":::
+
+1. Select **Save and Close**.
 
 ### Add incident type services
 
 Add [services](create-product-or-service.md) that field technicians provide.
 
-:::image type="content" source="media/work-order-incident-types-service.png" alt-text="Screenshot of a new incident type service entity.":::
-
-1. Open an *Incident Type* record.
+1. Open an incident type.
 
 1. On the **Services** tab, select **New Incident Type Service**.
 
-1. Choose a **Service** or create a new one.
+1. Enter the following information:
 
-1. For **Duration**, choose how long the service will take the technician.
+   - **Name**: A name for the service line item.
 
-1. Enter a **Name** for the service line item. Because the **Description** field can be communicated to the customer and appear on an invoice, there's also an **Internal Description** to provide details for the field technician.
+   - **Service**: An existing service or create a new one.
 
-1. For multiple services, you can set the **Line Order**. It's a numeric value that defines the order in which services show on the work order services list.
+   - **Unit**: The quantity or measurement for the service.
 
-1. Select **Save** to apply your changes to the incident type.
+   - **Duration**: How long the service will take the technician.
+
+   - **Description** (optional): A description of the product line item that appears on the customer invoice.
+
+   - **Internal Description** (optional): A description with details for the field technician.
+
+   - **Line Order**: If you have multiple services, set a numeric value that defines the order in which services show on the work order service list.
+
+   :::image type="content" source="media/work-order-incident-types-service.png" alt-text="Screenshot of a new incident type service entity.":::
+
+1. Select **Save and Close**.
 
 ### Add incident type service tasks
 
 [Service tasks](set-up-service-task-types.md) to guide field technicians through a checklist of tasks.
 
-:::image type="content" source="media/work-order-incident-types-service-task.png" alt-text="Screenshot of a new incident type service task.":::
-
-1. Open an *Incident Type* record.
+1. Open an incident type.
 
 1. On the **Service Tasks** tab, select **New Incident Type Service Task**.
 
-1. Choose a **Task Type** or create a new one.
+1. Enter the following information:
 
-1. For **Duration**, choose how long the service task will take the technician.
+   - **Name**: A name for the service task line item.
 
-1. Enter a **Name** and **Description** for the service line item.
+   - **Task Type**: An existing task type or create a new one.
 
-1. For multiple service tasks, you can set the **Line Order**. It's a numeric value that defines the order in which service tasks show on the work order services list. The order of service tasks is important to reflect steps in a process that should be followed.
+   - **Estimated Duration**: How long the service task will take the technician.
 
-1. Select **Save** to apply your changes to the incident type.
+   - **Line Order**: If you have mutliple service tasks, set a numeric value that defines the order in which service tasks show on the work order services list. The order of service tasks is important to reflect steps in a process that should be followed.
 
-In the following screenshot, service tasks don't have an estimated duration.
+   - **Description** (optional): A description of the service line item.
 
-:::image type="content" source="media/work-order-incident-types-service-task-list.png" alt-text="Screenshot of the incident types list.":::
+   :::image type="content" source="media/work-order-incident-types-service-task.png" alt-text="Screenshot of a new incident type service task.":::
+
+1. Select **Save and Close**.
 
 ### Add incident type characteristics
 
@@ -165,27 +179,29 @@ In the following screenshot, service tasks don't have an estimated duration.
 > [!TIP]
 > If you want to use **Requirement Groups** with **Incident Types** for multi-resource scheduling, don't add characteristics to the incident type. Instead, add required characteristics to the requirement group template. For more information, go to [Requirement groups for work orders](multi-resource-scheduling-requirement-groups.md).
 
-1. Open an *Incident Type* record.
+1. Open an incident type.
 
 1. On the **Characteristics** tab, select **New Incident Type Characteristic**.
 
-1. Choose a **Characteristic** or create a new one.
+1. Enter the following information:
 
-1. For **Rating Value**, choose the required level of proficiency. If left blank, all proficiency levels are acceptable if the resource has the matching characteristic.
+   - **Characteristic**: An existing characteristic or create a new one.
 
-1. Select **Save** to apply your changes to the incident type.
+   - **Rating Value**: The required level of proficiency. If left blank, all proficiency levels are acceptable if the resource has the matching characteristic.
+
+1. Select **Save and Close** to apply your changes to the incident type.
 
 ### Add incident type resolutions
 
 Resolutions let technicians document whether the incident was completed.
 
-1. Open an *Incident Type* record.
+1. Open an incident type.
 
 1. On the **Resolution** tab, select **New Incident Type Resolution**.
 
 1. Choose a **Resolution** or create a new one.
 
-1. Select **Save** to apply your changes to the incident type.
+1. Select **Save and Close** to apply your changes to the incident type.
 
 ## Add an incident type to a work order
 
@@ -193,9 +209,7 @@ Use the incident type to fill in detail according to its configuration by adding
 
 1. [Create a new work order](create-work-order.md).
 
-1. In the **Primary Incident Type** field, choose the incident type.
-
-:::image type="content" source="media/work-order-incident-type-add-to-wo.png" alt-text="[Screenshot of a work order, with the work order type and incident type highlighted.":::
+1. In the **Incident Type** field, choose the incident type.
 
    Related work order products, services, service tasks, and characteristics are added in the background.
 
@@ -205,30 +219,28 @@ Use the incident type to fill in detail according to its configuration by adding
 
    The duration and characteristics are passed to the related *Resource Requirement* for scheduling. So when you book the work order, filters are already set for these attributes.
 
-1. Save the work order and schedule it to provide the field technician with all relevant details.
+1. Save the work order and schedule it to provide the field technician with the relevant details.
 
-Finally, after it's scheduled, the field technician will receive the booked work order along with the incident and related details.
+After it's scheduled, the field technician receives the booked work order along with the incident and related details.
 
 ## Add multiple incident types to a work order
 
-You can add multiple incident types to a work order. For example, a machine has multiple issues or multiple machines need to be worked on. All incidents should be performed by the dispatched resource. Adding multiple incidents to a work order will add to the duration and existing service tasks, products, services, and characteristics.
+You can add multiple incident types to a work order. For example, a machine has multiple issues or multiple machines need to be worked on. All incidents should be performed by the dispatched resource. Adding multiple incidents to a work order adds to the duration and existing service tasks, products, services, and characteristics.
 
 1. Open an existing work order.
 
 1. To add another incident, go to **Related** > **Incidents** and select **+New Work Order Incident**.
 
-   The work order is updated with the related records of the newly added incident type.
+1. Select an incident type.
 
-   **Total Estimated Duration** on the **Record Log** tab gets updated. The **Primary Incident Estimated Duration** on the **Summary** tab won't change.
-
-   The order of the service tasks reflects the order in which incidents are added.
+   The work order is updated with the related records of the newly added incident type. The order of the service tasks reflects the order in which incidents are added.
 
    To book a work order with multiple incidents, the schedule assistant and Resource Scheduling Optimization look for a single resource to complete all incidents. With the schedule assistant, these filters can be edited at the time of scheduling as needed. If the same characteristic in different proficiency levels is required, the system looks for the most proficient resource.
 
 1. **Save** to apply the changes.
 
 > [!TIP]
-> To change the incident type on a work order, delete the *Work Order Incident* first. Then, create a new work order incident with a different incident type. You can manage work order incidents on the **Work Order** > **Related** > **Incidents**.
+> To change the incident type on a work order, delete the **Work Order Incident** first. Then, create a new work order incident with a different incident type. You can manage work order incidents on the **Work Order** > **Related** > **Incidents**.
 
 ## Use customer assets with incident types
 
