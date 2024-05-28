@@ -29,11 +29,11 @@ For information about older versions, see [Version history archive](../../field-
 **Dataverse:** 4.0.122.8
 
 - Improved rendering for non-working hours on the schedule board.
-- Fixed bug that was causing some users to experience crashes when working hours did not start at 12am
-- Users can now use 24-hour formats to enter a time for the Booking Panel's End Time field.
-- Added a button to jump to today's date on Schedule Board
-- Fixed a bug that was displaying incorrect travel times for some requirement group bookings
-- Various security enhancements
+- Fixed a bug that was causing some users to experience crashes when working hours did not start at 12 am.
+- Users can now use 24-hour format to enter a time for the End Time field on the booking pane.
+- Added a button to jump to today's date on the schedule board.
+- Fixed a bug that was displaying incorrect travel times for some requirement group bookings.
+- Various security enhancements.
 
 
 ## 3.12.131.1
