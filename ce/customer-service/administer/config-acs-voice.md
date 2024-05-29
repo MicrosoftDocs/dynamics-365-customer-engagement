@@ -1,8 +1,7 @@
 ---
 title: Connect to Azure Communication Services
 description: Learn how to connect to Azure Communication Services by using a new or existing resource to configure the voice channel.
-ms.date: 12/18/2023
-ms.service: dynamics-365-customerservice
+ms.date: 06/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -96,13 +95,6 @@ After you've configured the Azure Communication Services resource, the **Manage 
 
 You can copy the values of the **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)** to use them in the [Enable call recording and SMS services](#enable-call-recording-and-sms-services) section.
 
-
-## Add phone numbers
-
-[Add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
-
-Next, [configure voice workstream settings](create-workstreams.md) for the phone number, set up [inbound](../voice-channel-route-queues.md) and [outbound](voice-channel-outbound-calling.md) calling, and enable call recording and SMS services.
-
 ## Enable incoming calls, call recording, and SMS services
 
 Azure Communication Services integrates with [Azure Event Grid](/azure/event-grid/overview) to send real-time notifications for chat, telephony, SMS, video, and voice calling events. The Azure Event Grid, in turn, uses event subscriptions to route event messages to subscribers.
@@ -111,7 +103,7 @@ To enable call recording and SMS services, you must first configure your applica
 
 > [!IMPORTANT]
 >
-> - You can set one web hook endpoint only at a time using the following procedure. To enable incoming calls, SMS, and call recording services, you must perform the procedure twice to set a web hook endpoint for each service.
+> - You can set one web hook endpoint only at a time using the following procedure. To enable incoming calls, SMS, and call recording services, you must perform the procedure thrice to set a web hook endpoint for each service.
 > - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-ids-from-the-power-apps-portal).
 
 1. Open the **Event Grid System Topics** service on the Azure portal.
@@ -137,7 +129,7 @@ To enable call recording and SMS services, you must first configure your applica
         - To filter event types for SMS services, select **SMS Received** and **SMS Delivery Report Received** in the list.
         - To filter event types for SMS services, select **Incoming Call** in the list.
     - **Endpoint Type**: Select **Web Hook** in the list.
-    - **Endpoint**: Select **Select an endpoint**, and then enter the recording or SMS web hook endpoint from the Customer Service admin center. Paste the following values from Customer Service admin center in the **Subscriber Endpoint** field:
+    - **Endpoint**: Select **Select an endpoint**, and then enter the incoming call, recording, or SMS web hook endpoint from the Customer Service admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** to get the following web hook endpoints:
         - **Recording Web Hook Endpoint** to enable recording services.
         - **SMS Web Hook Endpoint** to enable SMS services.
         - **Incoming call Web Hook Endpoint (preview)** to enable incoming calls.
@@ -154,7 +146,21 @@ To enable call recording and SMS services, you must first configure your applica
 [Learn about configuring call recording and transcription for a voice workstream in Omnichannel for Customer Service](voice-channel-configure-transcripts.md).
 
 
+## Add phone numbers
 
+[Add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
+
+Next, [configure voice workstream settings](create-workstreams.md) for the phone number, set up [inbound](../voice-channel-route-queues.md) and [outbound](voice-channel-outbound-calling.md) calling, and enable call recording and SMS services.
+
+#### Get event grid app and tenant IDs from the Power Apps portal
+
+1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
+
+1. In the site map, select **Dataverse** > **Tables** > **All**.
+
+1. Search for the **Communication Provider Setting Entry** table and open it.
+
+1. In the **Communication Provider Setting Entry columns and data** section, view the **EventGridAppID** and **EventGripAppTenantID** fields in the **Key** column, and note down the corresponding ID values from the **Values** column.
 
 ## Next steps
 
