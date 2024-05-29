@@ -51,7 +51,7 @@ The following table displays the key performance indicators in the agent report.
 |----------------|----------------|
 | Active cases   |  The number of cases that are currently open.   |
 | Resolved cases   | The number of cases closed by an agent.     |
-| Escalated cases   | The percentage of cases that were escalated.     |
+| Escalated cases   | The percentage of cases that needed to be escalated.     |
 | Average resolve time | The average time taken by an agent to resolve the case.   |
 | Average CSAT   | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.    |
 | Average survey sentiment | The average sentiment score, based on written feedback submitted by the customer in the Customer Voice survey.  |
