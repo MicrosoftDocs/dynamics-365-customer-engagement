@@ -19,7 +19,7 @@ Configure assignment rules to route and assign cases and conversations based on 
 You can incorporate shift assignments and time-off considerations into the routing process to foster an employee-centric approach, and streamline operational workflows for productivity and improved retention rates.
 
 > [!Note]
-> Routing based on external schedules isn't supported in the Government Community Cloud (GCC) or sovereign regions.
+> Routing based on external schedules isn't supported in the Government Community Cloud (GCC) or sovereign clouds.
 
 ## Prerequisites
 
