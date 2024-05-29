@@ -1,7 +1,7 @@
 ---
 title: Understand the sales process
 description: Explore the sales process, from lead generation to closing a sale.
-ms.date: 05/10/2024
+ms.date: 05/29/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
