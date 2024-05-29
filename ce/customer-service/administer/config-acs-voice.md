@@ -15,7 +15,7 @@ ms.custom: bap-template
 The voice channel in Omnichannel for Customer Service is built over Azure Communication Services. This capability lets you provision phone numbers for your business by connecting to Azure Communication Services. Perform the following steps:
 
 1. Get application and tenant IDs from the Azure portal
-1. [Connect to an Azure Communication Services resource](#create-an-azure-communication-services-resource)
+1. [Connect to an Azure Communication Services resource](#connect-to-an-azure-communication-services-resource)
 1. Enable call recording and SMS services
 
 
