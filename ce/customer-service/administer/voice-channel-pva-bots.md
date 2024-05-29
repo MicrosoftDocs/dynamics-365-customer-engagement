@@ -1,10 +1,10 @@
 ---
 title: Configure Copilot Studio bots for voice
 description: Learn about how to add a Copilot Studio bot to use in the voice channel in Omnichannel for Customer Service.
-author: neeranelli
-ms.author: nenellim
+author: gandhamm
+ms.author: mgandham
 ms.reviewer: shujoshi
-ms.date: 06/19/2023
+ms.date: 06/01/2024
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -20,6 +20,10 @@ To route customers call to the best department, diagnose issues, collect informa
 
 Some of the features of the Copilot Studio bots for voice are as follows:
 
+- Collect customer input through speech or Dual-Tone Multi-Frequency (DTMF). Customers can talk without following a script, and the Copilot understands their commands or questions. Customers can also enter data by pressing keys on their phone keypad. The Copilot can detect when customers have stopped speaking by using silence detection and respond accordingly.
+- Adjust the voice output by using Speech Synthesis Markup Language (SSML). You can change the tone, pitch, and speed of the voice that interacts with customers.
+- Enable barge-in to let customers interrupt the Copilot at any time. You can also use long-running operation messages to let customers know that the voice copilot is working on their request.
+- Control the call flow by transferring or hanging up calls. If a customer wants to talk to a live agent, the voice copilot can transfer the call to an available agent or an external phone number. If the customer's issue cannot be solved by the voice copilot, it can end the call and give an appropriate message.
 - Customizable voices in the Omnichannel for Customer Service configuration experience.
 - Questions in Copilot Studio using "Boolean" types do not prompt users with "Options are _Yes_ or _No_".
 - All bot messages can be interrupted by the caller.
