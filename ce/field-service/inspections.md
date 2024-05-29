@@ -13,16 +13,15 @@ Field Service inspections are digital forms that technicians use to quickly and 
 
 With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](./inspections-reporting.md#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a new example inspection, showing the toolbox with question types on the right side.](./media/inspections-create.png)
+Inspections in Field Service provide:
 
-Inspections in Field Service also provide:
+- **Offline support**: Technicians can view and fill out inspections on their mobile phones or tablets without internet access. Answers are synced when connectivity is restored (cellular or WiFi).
+- **Customer assets**: Inspections can be associated with assets, allowing users to see a history of all inspections for a particular piece of equipment.
+- **Version management**: Administrators can continuously update and publish inspections to accommodate changing processes and evolving business needs.
 
-1. **Offline support**: Technicians can view and fill out inspections on their mobile phones or tablets without internet access. Answers are synced when connectivity is restored (cellular or WiFi).
-2. **Customer assets**: Inspections can be associated with assets, allowing users to see a history of all inspections for a particular piece of equipment.
-3. **Version management**: Administrators can continuously update and publish inspections to accommodate changing processes and evolving business needs.
+## Inspection process
 
-Inspections are easy to create and use, involving the following steps:
+The inspection process involves the following steps:
 
 1. Administrator creates an inspection template.
 2. Administrator associates the published inspection to a **Service Task Type**.
@@ -30,7 +29,7 @@ Inspections are easy to create and use, involving the following steps:
 4. Technician completes the inspection.
 5. View the inspection results.
 
-In this article, we'll walk through an example of setting up an inspection using a maintenance checklist on a customer asset.
+This article provides an example of creating an inspection using a maintenance checklist on a customer asset.
 
 For a guided walkthrough, check out the following video.
 
@@ -50,13 +49,34 @@ For a guided walkthrough, check out the following video.
 
 ## Create inspection
 
-First, create an inspection that can be reused and added to multiple work orders.
+Create an inspection that can be reused and added to multiple work orders.
 
 1. In Field Service, change to the **Settings** area.
 
 1. Go to **Work Orders** > **Inspection Templates** and select **New**.
 
-1. Provide a **Name** for the inspection and add an optional description.
+   :::image type="content" source="./media/inspections-create.png" alt-text="Screenshot of a new inspection template.":::
+
+1. Provide a **Name** for the inspection template and add an optional description. You can't change the name after the template is published.
+
+1. Select **Advanced** and choose the look and feel of the inspection from the technician's perspective.
+
+   - **Show title and description**: Show or hide the title and description of the inspection.
+   - **Layout density**: To display answer areas underneath questions, select **Comfortable**. To display answer areas to the right of questions, select **Compact**.
+   - **Show question numbers**: Show or hide the question numbers in the inspection.
+
+1. Fill out the inspection questions:
+
+   - Enter the [question types](#question-types).
+   - Use the **Required** toggle to make the inspection question mandatory.
+   - To add more details for an inspection question, select the **Gear** icon and fill out the details.
+
+1. Add pages from the **Page** drop-down if you want to:
+
+   - Group questions together to organize them in a logical way by type, phase, and so on.
+   - Make it easier to add logic to multiple questions at one time.
+
+1. After entering all the questions, select **Save**.
 
 ### Question types
 
@@ -80,126 +100,88 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 
 - **Matrix (Dynamic):** Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an example.
 
-> [!div class="mx-imgBorder"]
-> ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
+  > [!div class="mx-imgBorder"]
+  > ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
 
-Use the **Required** toggle to make the inspection question mandatory.
+## Review and publish
 
-By selecting the **Gear** icon, you can add more details for an inspection question.
+1. Select the **Preview** tab to see the inspection from a technician's perspective.
 
-### Compact question view
+1. Make any changes if necessary and select **Save**.
 
-Before selecting an individual question, go to the advanced pane to edit the look and feel of the inspection.
+   > [!NOTE]
+   > Once you publish the inspection, you can't edit it in the preview version.
 
-Inspection creators can show or hide the title and description of the inspection when inspection performers are viewing it.
-Also, the auto numbering of the questions can be disabled to assign custom numbering.
+   :::image type="content" source="./media/inspections-create.png" alt-text="Screenshot of the Field Service inspection, highlighting both the preview tab and the publish option.":::
 
-Layout density options:
-
-**Comfortable** layout displays answer areas underneath questions.
-
-**Compact** layout displays answer areas to the right of questions as seen in the following screenshot. Use the preview pane to see the layout from an end user's perspective.
-
-### Pages
-
-Add pages to your inspection in order to:
-
-1. Group questions together to organize them in a logical way by type, phase, and so on.
-2. Make it easier to add logic to multiple questions at one time. For more information, see the section on branching and conditional logic further into this article.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of pages on an inspection.](./media/inspections-page.png)
-
-Select the page dropdown in the top left of the designer to add one or more pages. Then add a page title and a page description, if needed.
-
-### Review and publish
-
-Use the **Preview** section to see the inspection from a technician's perspective.
-
-> [!NOTE]
-> Once you publish the inspection, you can't edit it in the preview version.
->
-> Make sure you also finalize the name of the template. You can't change it after the template is published. To use a different name for a template, create a copy and change the name before publishing the copy.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service inspection, highlighting both the preview tab and the publish option.](./media/inspections-create-preview-publish.png)
-
-When finished creating the inspection, select **Publish** at the top.
+1. Select **Publish** at the top and confirm.
 
 ## Associate inspection to service task type
 
-Next, associate the inspection to a **Service Task Type**. This association is necessary because inspections aren't added directly to work orders; they're added as part of **Work Order Service Tasks**.
+Associate the inspection to a **Service Task Type**. This association is necessary because inspections aren't added directly to work orders; they're added as part of **Work Order Service Tasks**.
 
-In the same **Settings** section, go to **Service Task Types**.
+1. In **Settings**, select **Service Task Types**.
 
-Select an existing service task type or create a new one.
+1. Select an existing service task type or create a new one.
 
-Set **Has Inspection** to **Yes**.
+1. Enter the following information:
 
-In the **Inspection** field, select the inspection you created.
+   - **Has Inspection**: Set to **Yes**.
 
-The inspection form will appear below.
+   - **Inspection Template**: Select the inspection you created. The inspection form appears.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a new service task type in Field Service, pointing to the inspection that appears.](./media/inspections-service-task.png)
+   :::image type="content" source="./media/inspections-service-task.png" alt-text="Screenshot of a new service task type in Field Service, pointing to the inspection that appears.":::
 
-It's common to add service task types to incident types in order to bundle work together. However, it isn't required because you can add individual service tasks to work orders as we'll see later on.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an incident type showing the service tasks tab.](./media/inspections-service-task-incident-type.png)
+It's common to add service task types to incident types in order to bundle work together. However, it isn't required because you can add individual service tasks to work orders.
 
 ## Add inspection to work order
 
-After creating a work order, go to the **Service Tasks** section and add the **Work Order Service Task** you created that has an associated inspection.
+1. [Create a new work order](create-work-order.md) and select **Save**.
 
-Then **Save**. The inspection can't be filled out until the Work Order Service Task is saved.
+1. Select the **Tasks** tab and select **Add task**.
+
+1. For **Task Type**, select the service task type you created that has an associated inspection.
+
+1. Select **Save and Close**. The inspection can't be filled out until the task is saved. Once the technician completes the inspection, the completed inspection appears.
+
+   :::image type="content" source="./media/inspections-service-task-work-order2.png" alt-text="Screenshot of the tasks tab on a work order in Field Service.":::
 
 Alternatively, your inspection service task can be added to the work order via a work order incident type.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the service tasks tab on a work order in Field Service.](./media/inspections-service-task-work-order2.png)
-
-An inspection completed by a technician will be visible on the bottom of the work order service task form.
-
 ## Perform inspections on mobile
 
-You can view and complete inspections on the [Dynamics 365 Field Service mobile app](mobile-power-app-overview.md).
+Technicians can view and complete inspections on the [Dynamics 365 Field Service mobile app](mobile-power-app-overview.md).
 
-Sign in and go to the assigned work order.
+1. Sign in and go to the assigned work order.
 
-Select the **Work Order Service Task** that has the related inspection.
+1. Select the service task that has the related inspection.
 
-Find the inspection form and enter answers.
+1. Find the inspection form and enter answers. If an inspection question is required, you must answer or you won't be able to mark the task complete.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of mobile app showing a sample inspection.](./media/inspections-fsm-new2.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of mobile app showing a sample inspection.](./media/inspections-fsm-new2.png)
 
-Technicians can upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment. File attachments are limited to 3 MB per file. Administrators can increase this limit.
+1. If needed, upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment. File attachments are limited to 3 MB per file. Administrators can increase this limit.
 
-When finished, select **Mark Complete** or set **Complete %** to 100.
+1. When finished, select **Mark Complete** or set **Complete %** to 100.
 
-Enter a **Result** to report on the overall inspection:
+1. Enter a **Result** to report on the overall inspection:
 
-- Pass
-- Fail
-- Partial Success
-- NA
+   - Pass
+   - Fail
+   - Partial Success
+   - NA
 
-**Actual Duration**: Enter an actual duration the work order service task took to complete that can be compared to estimated duration.
+1. Enter the actual duration the task took to complete.
 
-If an inspection question is required, the technician won't be able to mark **Complete** or set **% Completed** to 100 until it's answered.
-
-**Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over, and permanently delete all responses for this service task inspection.
+If needed, you can select  **More** > **Clear Responses** to start over, and permanently delete all responses for this service task inspection.
 
 > [!NOTE]
-> Only single responses are supported and a technician can't fill out the same inspection twice for a single work order service task. If the responses are cleared or answered again, the original responses are deleted, and only the latest responses are saved.
+> Only single responses are supported and you can't fill out the same inspection twice for a single task. If the responses are cleared or answered again, the original responses are deleted, and only the latest responses are saved.
 
 ## View responses
 
-Back in Dynamics 365, a dispatcher will see inspection responses.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service on a desktop, showing the work order service task and the completed inspection form at the bottom.](./media/inspections-complete-web.png)
+In the Field Service web app, a dispatcher can see the inspection responses by viewing the task in the work order.
 
 ## Additional notes
 
@@ -209,7 +191,7 @@ Back in Dynamics 365, a dispatcher will see inspection responses.
 
 ## Known issues
 
-- Marking a work order service task as complete from the grid view doesn't work unless the work order service task is opened at least once.
+- Marking a work order task as complete from the grid view doesn't work unless the task is opened at least once.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of marking work order service task as complete from work order service task grid view.](./media/inspections-work-order-service-task-mark-complete-grid.png)
