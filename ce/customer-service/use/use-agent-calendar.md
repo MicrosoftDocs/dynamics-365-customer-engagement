@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 05/24/2024 
+ms.date: 05/29/2024 
 ms.custom: bap-template 
 ---
  
@@ -14,7 +14,7 @@ ms.custom: bap-template
 As an agent, it's helpful to know your work schedule, breaks, trainings, and other activities. If your administrator has enabled the calendar view, you can quickly see your work hours, nonwork hours, and any scheduled time off.
 
 > [!Note]
-> The agent calendar feature isn't supported in the Government Community Cloud (GCC) or sovereign regions.
+> The agent calendar isn't supported in the Government Community Cloud (GCC) or sovereign regions.
 
 The calendar view is read-only and has daily, weekly, and monthly views. It also has an agenda view where you can see a list-type view of your schedule.
 
