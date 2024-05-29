@@ -23,7 +23,7 @@ ms.custom:
 
 Decimal precision plays an important role in determining the number of decimal places to be used with field type **Currency** in Dynamics 365 Sales. It also affects rounding in calculations.
 
-Decimal precision can be used with the following three levels:  
+Decimal precision can be used at the following three levels:  
 
 - **Pricing decimal precision.** This is an organization-level setting used for pricing precisions.  
 - **Currency precision.** This option applies the precision defined for the currency in the record.  
