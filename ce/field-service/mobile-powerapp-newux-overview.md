@@ -53,10 +53,6 @@ The preview features have the following limitations:
 
 - The new mobile experience uses the display language that's set in the device's language settings. The classic experience uses the language that's set in the app's user profile. Users might see a mixed language experience if the two settings are out of sync.
 
-## Preview support
-
-During the preview period, support for the new mobile experience features is limited and we don't recommend it for production use. If you run into issues with the preview, select **Send feedback** in the app's left navigation menu to send an email and system logs to our team.
-
 ## Next steps
 
 [Install and set up the mobile app](mobile-power-app-get-started.md).

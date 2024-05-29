@@ -11,6 +11,8 @@ ms.author: andreo
 
 # Install and set up the mobile app
 
+<!-- TODO: validate steps and revise as needed -->
+
 The Dynamics 365 Field Service mobile app is designed and optimized for technicians. They can work with Field Service work orders, customer assets, accounts, and contacts. The app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). You can customize it to your business needs.
 
 For a guided walkthrough, check out the following video.
@@ -19,7 +21,7 @@ For a guided walkthrough, check out the following video.
 
 ## Prerequisites
 
-To use the Field Service mobile app, you must have [Field Service installed](install-field-service.md) and [set up](field-service-get-started.md).
+To use the Field Service mobile app, you must have [Field Service installed](install-field-service.md) and [set up](field-service-get-started.md). The [environment is updated](update-field-service.md) to run at least Field Service version 8.8.22.
 
 ## Assign mobile app users appropriate security roles
 
@@ -42,11 +44,7 @@ Find the **Field Service Mobile** model-driven app and select the ellipses (...)
 
 ## Download the app and sign in
 
-Go to the app store on your iOS, Android or Windows device, and search for **Dynamics 365 Field Service**.
-
-Download the app named **Dynamics 365 Field Service**, the mobile app built on Microsoft Power Platform.
-
-Open the app and sign in with your username and password, which should be the user credentials of the technician user who has the **Field Service - Resource** security role. View the articles on [setting up users and security roles](../field-service/users-licenses-permissions.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help.
+Go to the app store on your iOS, Android or Windows device, and [download the Field Service mobile app](download-get-started-mobile-app.md).
 
 ## Next steps
 
