@@ -35,7 +35,7 @@ These precision levels are set while configuring currency fields. More informati
 
 This setting allows you to enable and set decimal precision for all supported price-related fields in the system. To configure the pricing decimal precision setting:  
 
-1. Go to **Advanced Settings** &gt; **System** &gt; **Administration** &gt; **General**.  
+1. In the sales app, go to **Settings** &gt; **Advanced Settings** &gt; **System** &gt; **Administration** &gt; **General**.  
     More information: [System Settings General tab](/power-platform/admin/system-settings-dialog-box-general-tab).
 
 1. Under the **Set the currency precision that is used for pricing throughout the system**, select a value for **Pricing Decimal Precision**.  
@@ -55,7 +55,7 @@ This setting allows you to enable and set decimal precision for all supported pr
 
 This option allows you to enable and set decimal precision to individual currencies. To configure the currency precision setting:
 
-1. Go to **Advanced Settings** &gt; **Business** &gt; **Business Management** &gt; **Currencies**.  
+1. In the sales app, go to **Settings** &gt; **Advanced Settings** &gt; **Business** &gt; **Business Management** &gt; **Currencies**.  
 
 1. Open the currency record and enter the **Currency Precision** value. The value must be between 0 and 4.  
     More information: [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies)
@@ -68,7 +68,7 @@ This option allows you to enable and set decimal precision to individual currenc
 
 This setting allows you to define the precision to individual currency fields. To apply this precision setting to any of the currency field in the system:
 
-1. Go to **Advanced settings** &gt; **Customization** &gt; **Customizations** &gt; **Customize the system**.  
+1. In the sales app, go to **Settings** &gt; **Advanced settings** &gt; **Customization** &gt; **Customizations** &gt; **Customize the system**.  
 1. On the **PowerApps** home page, select **Tables** &gt; ***Entity*** and then, select the currency field.
 1. On the **Edit column** pane, select **Advanced options** and then configure the following values:
     - **Precision source** as **Precision property**.  
