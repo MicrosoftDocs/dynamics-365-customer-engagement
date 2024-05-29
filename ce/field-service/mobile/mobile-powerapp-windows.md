@@ -90,4 +90,5 @@ If you don't have access to install Field Service for Windows from the Microsoft
 
 An administrator can also download the package from the [app center](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/field-service-windows-store-signed-builds/distribution_groups/public%20release) and distribute it to users with Intune.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

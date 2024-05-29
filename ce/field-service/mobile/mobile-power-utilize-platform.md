@@ -28,4 +28,5 @@ Because the Dynamics 365 Field Service mobile app is built on Power Platform, ad
 | Canvas apps | [Embed a canvas app on a model-driven form](/powerapps/maker/model-driven-apps/embed-canvas-app-in-form) |
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

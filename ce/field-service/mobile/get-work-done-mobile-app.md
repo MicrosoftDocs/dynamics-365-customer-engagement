@@ -41,7 +41,7 @@ On the **Service tab**, you see work order details like work order service tasks
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+[!INCLUDE [public-preview-banner](../../includes/public-preview-banner.md)]
 
 When you're ready to start work, select the booking tile on the booking home page. The booking details view has three tabs, **Tasks**, **Products**, and **Services**. Mark a service or service task as complete and add any products you used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details form.
 
@@ -69,7 +69,7 @@ If you can't save a note, you might not have the right permissions to the table 
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+[!INCLUDE [public-preview-banner](../../includes/public-preview-banner.md)]
 
 On the **Timeline** tab, select **+ Add note** to add text and images to your note. Notes taken here are visible on this booking's timeline. You can attach a single image by selecting the file attachment icon or select the image icon to choose multiple files and add them to the message body.
 
@@ -140,4 +140,5 @@ The new mobile UX uses Copilot in Field Service to enable technicians with a qui
 
 For more information, see [AI-powered work order update](work-order-update.md).
 
-[!INCLUDE [footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../../includes/footer-banner.md)]
+

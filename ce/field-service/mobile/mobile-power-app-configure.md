@@ -32,4 +32,5 @@ You can also [customize views with code](/power-apps/developer/model-driven-apps
 - [Understand model-driven app components](/power-apps/maker/model-driven-apps/model-driven-app-components)
 - [Model-driven apps developer guide](/power-apps/developer/model-driven-apps/)
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

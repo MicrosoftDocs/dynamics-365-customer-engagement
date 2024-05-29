@@ -52,4 +52,5 @@ Go to the app store on your iOS, Android or Windows device, and [download the Fi
 - [Five tips for implementing the Field Service mobile app](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
 - [Get started with Dynamics 365 Field Service](field-service-get-started.md)
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

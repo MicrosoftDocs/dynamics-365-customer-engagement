@@ -179,4 +179,5 @@ In the scenario shown in the following screenshot, a geofence will only be creat
 
 - Only circular-shaped geofences are currently supported.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

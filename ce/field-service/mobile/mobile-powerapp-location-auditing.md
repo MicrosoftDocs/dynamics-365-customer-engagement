@@ -113,4 +113,5 @@ Here you see a list of locations throughout the day, listed by user.
 > [!Note]
 > Location tracking is currently not available on the Field Service Windows app.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

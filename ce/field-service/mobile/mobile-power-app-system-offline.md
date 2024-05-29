@@ -65,4 +65,5 @@ Keep these limitations in mind when you set up the offline profile:
 - [Configure the mobile offline profile](mobile-power-app-system-offline-setup.md)
 - [Offline data synchronization](mobile-power-app-system-offline-sync.md)
 
-[!INCLUDE [footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../../includes/footer-banner.md)]
+

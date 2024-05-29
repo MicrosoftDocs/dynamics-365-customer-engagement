@@ -63,9 +63,9 @@ The first screen shows a calendar view of your scheduled work orders. At the bot
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+[!INCLUDE [public-preview-banner](../../includes/public-preview-banner.md)]
 
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+[!INCLUDE [public-preview-note](../../includes/public-preview-note.md)]
 
 The home screen lists today's scheduled bookings. 
 
@@ -93,7 +93,7 @@ To open the navigation menu, select the menu icon in the upper-left corner of th
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+[!INCLUDE [public-preview-banner](../../includes/public-preview-banner.md)]
 
 To open the navigation menu, select **More** at the bottom of the screen.
 
@@ -117,4 +117,5 @@ Select your profile icon in the upper-left corner, select **Reconfigure**, and c
 
 :::image type="content" source="./media/mobile-2020-offline-reconfigure.png" alt-text="Rendering of a mobile device showing the Reconfigure option in the Field Service mobile app.":::
 
-[!INCLUDE [footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../../includes/footer-banner.md)]
+

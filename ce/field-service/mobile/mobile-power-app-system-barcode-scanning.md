@@ -60,4 +60,5 @@ To enable a new barcode field for search within a table:
 > - Currently, global search with barcode scanning isn't available on tablet and Windows versions of the app.
 > - If the updated fields don't show on the mobile app, reconfigure the application to get the latest version.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

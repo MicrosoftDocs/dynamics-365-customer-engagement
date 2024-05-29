@@ -29,4 +29,5 @@ A configuration can be set up through the [Device Management portal](https://dev
 
 Specific configurations like prefill of URL or username aren't available for the [Field Service mobile app](mobile-power-app-overview.md).
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

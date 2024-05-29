@@ -26,4 +26,5 @@ In 2024, Microsoft released a refreshed user experience for parts of the mobile 
 - [Set up offline data and sync filters](mobile-power-app-system-offline.md)
 - [Download and install the app on a mobile device](download-get-started-mobile-app.md)
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

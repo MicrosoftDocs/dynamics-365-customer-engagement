@@ -43,4 +43,5 @@ Technicians don't need to download a new app. Just make sure the mobile app and 
 - [Download the mobile app and get started](download-get-started-mobile-app.md)
 - [Install and set up the mobile app](mobile-power-app-get-started.md).
 
-[!INCLUDE [footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../../includes/footer-banner.md)]
+

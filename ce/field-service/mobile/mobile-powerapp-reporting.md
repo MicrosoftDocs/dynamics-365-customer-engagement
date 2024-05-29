@@ -77,4 +77,5 @@ From the bookable resource booking, select **Report**.
 > ![Screenshot of a sample report in the bookable resource booking record.](./media/mobile-2020-reporting-web2.png)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
