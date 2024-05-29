@@ -118,6 +118,10 @@ Yes, you can access Omnichannel Ongoing Conversations Dashboard and Omnichannel 
 
 The unassigned work item remains in the queue until you manually assign it to an agent or route it to another queue. More information: [How assignment rulesets work](assignment-methods.md#how-assignment-rulesets-work)
 
+### Can advanced queues be associated with a mailbox?
+
+No, you can't configure a mailbox for advanced queues. If you want to use or manage queue mailboxes, we recommend that you use the basic queues only. 
+
 ## Work item assignment
 
 ### Can I increase the limit on assignment offer of work items to agents?
