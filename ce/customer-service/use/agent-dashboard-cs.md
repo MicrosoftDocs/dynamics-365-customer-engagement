@@ -1,7 +1,7 @@
 ---
 title: Agent dashboard | Microsoft Docs
 description: Learn about the Agent dashboard insights to better understand agent performance in your organization.
-ms.date: 04/12/2024
+ms.date: 05/29/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
