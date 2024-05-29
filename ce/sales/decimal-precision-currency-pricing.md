@@ -1,7 +1,7 @@
 ---
 title: Decimal precision in currency and pricing
 description: Explore the role of decimal precision in currency and pricing, including its impact on rounding calculations and field-level precision.
-ms.date: 05/10/2024
+ms.date: 05/29/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -66,15 +66,14 @@ This option allows you to enable and set decimal precision to individual currenc
 
 ## Field-level precision
 
-This setting allows you to define the precision to individual currency fields.
+This setting allows you to define the precision to individual currency fields. To apply this precision setting to any of the currency field in the system:
 
-To apply this precision setting to any of the currency field in the system, go to **Settings** &gt; **Customizations** &gt; **Entity** &gt; **Fields**. Then, open a currency field and define the precision.
-
-> [!div class="mx-imgBorder"]
-> ![Field-level precision.](media/field-level-precision.png "Field-level precision")
-
-> [!NOTE]
-> This setting supports values between 0 and 4.
+1. Go to **Advanced settings** &gt; **Customization** &gt; **Customizations** &gt; **Customize the system**.  
+1. On the **PowerApps** home page, select **Tables** &gt; ***Entity*** and then, select the currency field.
+1. On the **Edit column** pane, select **Advanced options** and then configure the following values:
+    - **Precision source** as **Precision property**.  
+    - **Decimal places** as required and must be between 0 to 4.
+1. Save and close the settings.  
 
 ### See also
 
