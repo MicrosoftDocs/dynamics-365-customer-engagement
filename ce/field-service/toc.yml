@@ -303,14 +303,12 @@ items:
   items:
     - name: Overview
       href: mobile-power-app-overview.md
-    - name: New mobile UX (preview)
-      href: mobile-powerapp-newux-overview.md
     - name: Admin guide
       items:
       - name: Set up the UCI app
         href: mobile-power-app-get-started.md
       - name: Enable the new UX
-        href: mobile-powerapp-newux-enable.md
+        href: mobile-newux-enable.md
       - name: Configure mobile app settings
         href: mobile-powerapp-booking-maps.md
       - name: Offline capabilities
