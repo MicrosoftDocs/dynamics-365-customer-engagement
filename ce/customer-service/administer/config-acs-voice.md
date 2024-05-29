@@ -145,13 +145,6 @@ To enable call recording and SMS services, you must first configure your applica
 
 [Learn about configuring call recording and transcription for a voice workstream in Omnichannel for Customer Service](voice-channel-configure-transcripts.md).
 
-
-## Add phone numbers
-
-[Add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
-
-Next, [configure voice workstream settings](create-workstreams.md) for the phone number, set up [inbound](../voice-channel-route-queues.md) and [outbound](voice-channel-outbound-calling.md) calling, and enable call recording and SMS services.
-
 #### Get event grid app and tenant IDs from the Power Apps portal
 
 1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
@@ -164,11 +157,13 @@ Next, [configure voice workstream settings](create-workstreams.md) for the phone
 
 ## Next steps
 
-[Manage phone numbers](voice-channel-manage-phone-numbers.md)  
-[Bring your own carrier](voice-channel-bring-your-own-number.md)
+[Add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers)  
+[Configure voice workstream settings](create-workstreams.md) for the phone number  
+Set up [inbound](../voice-channel-route-queues.md) and [outbound](voice-channel-outbound-calling.md) calling
 
 ### See also
 
+[Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Overview of the voice channel](voice-channel.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Connect using a new Azure resource](voice-channel-connect-new-resource.md)  

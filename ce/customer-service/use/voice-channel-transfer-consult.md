@@ -1,6 +1,6 @@
 ---
-title: "Transfer calls and consult with users | MicrosoftDocs"
-description: "Use this article to understand how the agent can use the transfer and consult options to make and receive customer calls in Omnichannel for Customer Service."
+title: Transfer calls and consult with users | MicrosoftDocs
+description: Use this article to understand how the agent can use the transfer and consult options to make and receive customer calls in Omnichannel for Customer Service.
 ms.date: 04/12/2024
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -45,7 +45,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
     -  **Transfer to Teams user**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
     Based on the voice stack, the following actions are applicable: <br>
 
-     ### [Enhanced Voice stack](#tab/enhancedvoicestack)
+     ### [Enhanced voice](#tab/enhancedvoicestack)
 
 
      When you initiate a transfer, the application ends the call for you as soon as the Teams user or user with the external number accepts or rejects the call. To make sure that the secondary agent answers the call, you can use the **Consult** option to collaborate with the secondary agent before transferring the call. <br>
@@ -61,7 +61,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
      - The original call ends and a new call begins.
      - Customers won't hear a message before the call ends if the external user doesn't accept the call.
 
-     ### [Existing voice stack](#tab/existingvoicestack)
+     ### [Existing voice](#tab/existingvoicestack)
  
       
       If you selected either the external PSTN number or Teams to transfer the call, you can talk to the secondary agent who picks up the call, while the customer is on hold. To complete the call transfer, you must select the transfer button next to the secondary agent name in the call window. The secondary agent is now the primary agent and you're removed from the call. However, the secondary agent is disconnected from the call if the primary agent doesn't complete the transfer within eight minutes.

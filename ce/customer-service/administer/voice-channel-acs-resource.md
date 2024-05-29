@@ -18,10 +18,8 @@ ms.custom:
 
 The voice channel in Omnichannel for Customer Service is built over Azure Communication Services. This capability lets you provision phone numbers for your business by connecting to Azure Communication Services. However, to acquire phone numbers, you must first establish connection with Azure Communication Services. You can do this in the following ways:
 
-- [Quickstart: Connect using a new Azure resource](voice-channel-connect-new-resource.md)
-- [Advanced: Connect using an existing Azure resource](voice-channel-connect-existing-resource.md)
-
-You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect your existing telephony infrastructure with Azure](voice-channel-bring-your-own-number.md).
+- [Connect using an Azure resource](config-acs-voice.md)
+- You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect your existing telephony infrastructure with Azure](voice-channel-bring-your-own-number.md).
 
 > [!Note]
 >

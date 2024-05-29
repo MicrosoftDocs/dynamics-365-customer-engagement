@@ -79,7 +79,7 @@ The phone number is associated with the workstream.
 
 Based on your voice stack update, you'll see the following options to transfer calls to external numbers and Microsoft Teams users. Perform the following actions:
 
-### [Enhanced voice stack](#tab/enhancedvoicestack)
+### [Enhanced voice](#tab/enhancedvoice)
 
   - Set the toggles for **External phone number** and **External Microsoft Teams users** in **Consult** and **Transfer**. This allows agents to consult with other agents or Teams subject matter experts during an ongoing call, and also enables them to transfer calls.
   - Select the **Use bridged transfers** checkbox. The following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
@@ -93,7 +93,7 @@ Based on your voice stack update, you'll see the following options to transfer c
      - The recording and transcription is stopped.
      - Post conversation call survey isn't sent to the customer.
    
-### [Existing voice stack](#tab/existingvoicestack)
+### [Existing voice](#tab/existingvoice)
 
  Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
 

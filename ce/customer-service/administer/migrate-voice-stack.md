@@ -1,6 +1,6 @@
 ---
-title: Migrate to enhanced voice stack
-description: Learn how to migrate to the enhanced voice stack
+title: Migrate to enhanced voice channel
+description: Learn how to migrate to the enhanced voice channel
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -11,7 +11,7 @@ ms.custom: bap-template
 ---
 
 
-# Migrate to vNext
+# Migrate to enhanced voice channel
 
 You can upgrade your existing voice stack to the enhanced voice stack with minimal disruptions to your contact center operations. With the enhanced voice stack, you can connect to the Copilot Studio bot with enhanced interactive voice response capabilities, including speech and Dual-Tone Multi-Frequency (DTMF) input, context variables, call transfer, speech and DTMF customization.
 
@@ -25,7 +25,7 @@ You can upgrade your existing voice stack to the enhanced voice stack with minim
 
 1. Create and setup an event grid subscription for incoming calls. See [Enable incoming calls, call recording, and SMS services](config-acs-voice.md#enable-incoming-calls-call-recording-and-sms-services)
 1. [Update the event subscription in Azure](/azure/communication-services/quickstarts/events/subscribe-to-events?pivots=platform-azp#update-event-subscription) for recording webhook. Copy the value in the **Recording Web Hook Endpoint** field in the **Customer Service admin center** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services (Preview)** and paste it in the **Endpoint** field.
-1. Classic bots aren't compatible with the updated voice stack. Therefore, you should copy your classic bots to the voice Copilot bots.  To avoid confusion, we suggest naming your existing classic bots and the newly migrated Copilot bots in a similar manner.
+1. Create a [new Copilot bot](/microsoft-copilot-studio/fundamentals-get-started?tabs=web#create-a-copilot) with the **Optimize for telephony** checkbox selected. When you migrate to the new voice experience, your phone numbers are updated. The existing classic voice bots aren't supported for the updated phone numbers. We recommend that you update and rename your new Copilot bots similar to your previous bots. For example, if your Copilot classic bot is Returns bot, we recommend that you rename your Copilot Studio bot as Returns Bot-new.
 1. [Run the voice update](#run-the-voice-update).
 1. Test the voice update.
 
@@ -50,6 +50,12 @@ To update to the new voice experience, perform the following steps:
 The test status field can be used to keep track of testing.  If any call to any phone number attached to a profile or a workstream fails after 30 minutes, the application sets the **Test status** to **Failed**. You can retry the update or select the **Revert** option to go back to the original stat. There will be at least a 15 to 30 minutes downtime for the changes to sync after the revert. If the revert fails, select **Retry revert**  to try the revert again.
 If roll back fails, a critical error message appears.
 
-## Next steps
+### See also
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+[Bring your own carrier](voice-channel-bring-your-own-number.md)  
+[Overview of the voice channel](voice-channel.md)  
+[Connect to Azure Communication Services](voice-channel-acs-resource.md)  
+[Connect using a new Azure resource](voice-channel-connect-new-resource.md)  
+[Set up outbound calling](voice-channel-outbound-calling.md)  
+[Set up inbound calling](../voice-channel-route-queues.md)  
+[Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
