@@ -95,6 +95,9 @@ After you've configured the Azure Communication Services resource, the **Manage 
 
 You can copy the subscriber endpoint values such as **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)** to use them in the following section.
 
+> [!NOTE]
+> **Incoming call Web Hook Endpoint (preview)** is available only if the enhanced voice experience is enabled in your organization.
+
 ## Enable incoming calls, call recording, and SMS services
 
 Azure Communication Services integrates with [Azure Event Grid](/azure/event-grid/overview) to send real-time notifications for chat, telephony, SMS, video, and voice calling events. The Azure Event Grid, in turn, uses event subscriptions to route event messages to subscribers.
