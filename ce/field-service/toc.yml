@@ -305,9 +305,9 @@ items:
       href: mobile-power-app-overview.md
     - name: Admin guide
       items:
-      - name: Set up the UCI app
+      - name: Set up the classic mobile app
         href: mobile-power-app-get-started.md
-      - name: Enable the new UX
+      - name: Enable the refreshed user experience
         href: mobile-newux-enable.md
       - name: Configure mobile app settings
         href: mobile-powerapp-booking-maps.md

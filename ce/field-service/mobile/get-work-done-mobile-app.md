@@ -27,29 +27,9 @@ Sample screens show both the classic user experience ("Unified Interface UX") an
 
 ## Travel to a job location
 
-## [Unified Interface UX](#tab/vCurrent)
-
 Select a booking to see more details about the booking time and the work order. Change the status to show that you're driving to the customer location. On the **Customer** tab, you can see the work order location on a map and launch your preferred maps app for turn-by-turn directions. The functional location field on the work order tells you exactly where to go when you arrive at the address.
 
 :::image type="content" source="./media/mobile-2020-work-order-navigate-directions-map.jpg" alt-text="Renderings of two mobile devices showing booking status and a mapped work location in the Field Service mobile app.":::
-
-## [New mobile UX (preview)](#tab/vNext)
-
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
-
-Swipe a booking from left to right or select the booking's menu to access its quick actions and set the status to **Traveling**. You can also open the booking and select **Edit status** on the **General** tab.
-
-:::image type="content" source="./media/mobile-newux-traveling.png" alt-text="Renderings of three mobile devices showing how to change a booking's status in the Field Service mobile app.":::
-
-Select the directions icon on a booking tile on the bookings home page to open your default maps app and get directions. The directions use the geolocation of the address or the address string if no geolocation is available. If no address is specified, then the directions icon doesn't appear.
-
-To automatically change the booking status to **Traveling** every time you get directions to a work location, select **Automatically update**. You can change it later in the app settings.
-
-:::image type="content" source="./media/mobile-newux-traveling-directions.png" alt-text="Renderings of three mobile devices showing how to get directions to a work location and update booking status automatically in the Field Service mobile app.":::
-
----
 
 ## Do and record your work
 
