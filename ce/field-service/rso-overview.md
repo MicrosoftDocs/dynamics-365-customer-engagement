@@ -1,18 +1,18 @@
 ---
 title: Overview of Resource Scheduling Optimization for Dynamics 365 Field Service
 description: Learn about Resource Scheduling Optimization for Dynamics 365 Field Service.
-author: FeifeiQiu
-ms.author: feiqiu
-ms.date: 05/06/2024
+author: AnilMur
+ms.author: anilmur
+ms.date: 05/29/2024
 ms.topic: overview
 ms.subservice: resource-scheduling-optimization
 ---
 
 # Overview of Resource Scheduling Optimization
 
-Resource Scheduling Optimization automatically schedules jobs to the people, equipment, and facilities best equipped to complete them. Schedule work orders for field technicians or cases for customer service reps. You can cover other scenarios too, depending on how you use Dynamics 365 Field Service, Customer Service, and Project Service Automation.
+Resource Scheduling Optimization automatically schedules jobs to the people, equipment, and facilities best equipped to complete them. You can shedule work orders for field technicians, as well as other scenarios, depending on how you use Dynamics 365 Field Service.
 
-Resource Scheduling Optimization is a more advanced form of scheduling for field service organizations. While the schedule board and the schedule assistant help dispatchers schedule a single job, this add-in can schedule multiple jobs at once. It maximizes resource utilization and minimizes travel time. Resource Scheduling Optimization considers the requirements of the job and the unique attributes of the resources.
+Resource Scheduling Optimization is a more advanced form of scheduling for field service organizations. While the [schedule board](./work-with-schedule-board.md#book) and the [schedule assistant](./schedule-assistant.md] help dispatchers schedule a single job, this add-in can schedule multiple jobs at once. It maximizes resource utilization and minimizes travel time. Resource Scheduling Optimization considers the requirements of the job and the unique attributes of the resources.
 
  > [!div class="mx-imgBorder"]
   > ![Screenshot of Resource Scheduling Optimization and the schedule board.](media/rso-optimized-schedule-board-routes.png)
@@ -38,7 +38,7 @@ Configure Resource Scheduling Optimization for your business needs based on jobs
 
 - **Overnight scheduling**: Resource Scheduling Optimization runs automatically each night. It schedules new jobs and optimizes existing bookings for the next day.
 
-- **Single Resource Optimization**: A dispatcher gets the schedule [optimized for a single technician](rso-single-resource-optimization.md) for the rest of today to recalculate an optimal travel route after a cancellation.
+- **Single Resource Optimization**: A dispatcher gets the schedule [optimized for a single technician](rso-single-resource-optimization.md) over a couple of days, for example to account for cancellations.
 
 - **Simulation**: A service manager runs a scheduling simulation to understand how many jobs could be completed with a varying number of resources in a specific geographic territory.
 
@@ -60,7 +60,7 @@ Configure Resource Scheduling Optimization for your business needs based on jobs
 ## System requirements
 
 - Dynamics 365 online
-- Resource Scheduling Optimization is a paid add-on to [Universal Resource Scheduling (URS)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md) and is built on top of its entities. Organizations that use either Dynamics 365 Field Service, Customer Service, and Project Service Automation are entitled to URS. If you want to use Resource Scheduling Optimization to automatically schedule Dynamics 365 Sales opportunities to sales reps, you need Dynamics 365 Field Service, Customer Service, or Project Service Automation.
+- Resource Scheduling Optimization is a paid add-on to Dynamics 365 Field Service, and is built on top of its entities in [Universal Resource Scheduling (URS)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
 ## How it works
 
@@ -76,7 +76,7 @@ Here's how it works:
 
 1. Choose a list of resources that are eligible to be considered for your list of jobs. Each resource has different attributes like location, role, type, and skills.
 
-1. Run Resource Scheduling Optimization, ad-hoc, on a predefined schedule, or triggered by a workflow. It can run differently depending on what it's scheduling. It can run differently for US jobs compared to Canadian jobs or differently for work orders compared to cases.
+1. Run Resource Scheduling Optimization, ad-hoc, on a predefined schedule, or triggered by a workflow. It can run differently depending on which region is being optimized.
 
 1. During the run, job requirements and the list of resources are used to an optimal schedule that is displayed on the schedule board.
 
