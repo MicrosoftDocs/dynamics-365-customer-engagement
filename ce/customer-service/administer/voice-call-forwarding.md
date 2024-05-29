@@ -4,7 +4,7 @@ description: Learn how to enable call forwarding.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: how-to #Required; don't change.
+ms.topic: how-to 
 ms.collection:
 ms.date: 05/28/2024
 ms.custom: bap-template
@@ -12,15 +12,23 @@ ms.custom: bap-template
 
 # Enable call forwarding
 
-You can enable your agents with inbound profiles to forward calls to chosen external numbers when they are away from their desk. Perform the following steps to configure call forwarding:
+You can enable your agents to forward calls to chosen external numbers when they are away from their desk.
 
-1. Go to Customer Service admin center > User management > User profile.
-2.	Specify the number to send calls to when the agent is offline in Omnichannel > Call forward. 
+## Prerequisites
 
- Note: The transfer setting (bridged or non-bridged) in the inbound profile is used when forwarding the call. When the agent’s presence is not offline or DND, calls will continue to be sent to their voicemail.
+- You must be on the vNext voice release.
+- The agent must be assigned an inbound profile with the **Call transfer to external phone number** enabled.
 
 
+## Configure call forwarding
 
-## Next steps
+ Perform the following steps to configure call forwarding:
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+1. Go to Customer Service admin center.
+1. Select **User management** in **Customer support**.
+1. Select **Manage** for **Users**.
+1. Select the required user.
+2.	Specify the number to send calls to when the agent is offline in **Call forward**. 
+
+> [!NOTE]
+> When the agent’s presence is not offline or do not disturb, calls are sent to their voicemail.

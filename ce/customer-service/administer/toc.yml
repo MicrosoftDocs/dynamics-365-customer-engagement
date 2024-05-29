@@ -572,6 +572,8 @@
         href: geo-location-provider.md
       - name: Configure self-service settings for customer actions
         href: enable-self-service-settings.md
+      - name: Enable call forwarding
+        href: voice-call-forwarding.md
       - name: Configure automated messages
         href: configure-automated-message.md
       - name: Create message templates
