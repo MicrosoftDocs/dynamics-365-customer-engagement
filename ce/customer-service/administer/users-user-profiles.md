@@ -1,7 +1,7 @@
 ---
 title: Create and manage users and user profiles
 description: This article provides steps that you can perform to manage users in Omnichannel for Customer Service.
-ms.date: 10/23/2023
+ms.date: 05/10/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

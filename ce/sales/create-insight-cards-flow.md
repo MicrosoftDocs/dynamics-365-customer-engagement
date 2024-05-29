@@ -1,17 +1,17 @@
 ---
 title: Create insight cards
 description: Create your own suggested actions through custom insight cards using Microsoft Power Automate in Assistant in Dynamics 365 Sales.
-ms.date: 09/11/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ---
 
 # Create custom insight cards 
 
-As a system administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. 
+As a system administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster.  
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -30,6 +30,7 @@ In this procedure, we will show as an example how to create an insight to act wh
 
 >[!NOTE]
 >
+>- Effective August 1, 2024, templates to create new assistant cards won't be available. You can continue to use the Microsoft Power Automate flow to create your custom cards.
 >- To create custom insight cards with the assistant studio, ensure that Microsoft Power Automate is installed.
 >- The custom insight card is displayed in the list of insight cards in **Assistant studio** only after a card is generated based on the defined flow. For example, you defined a flow to display a card when an opportunity is created with an estimated value above $5,000. When an opportunity is created for the first time in the organization with the estimated value of $6,000, the card is generated and will be available in the list of insight cards in **Assistant studio**.
 
@@ -184,12 +185,9 @@ To access the saved flows, follow these steps:
 
 ## Add actions to cards
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-> [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
 
 You can add actions that a user can do on a card. To select an action, follow these steps:
 

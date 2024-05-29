@@ -3,10 +3,10 @@ title: Enable enhanced experience for email attachments
 description: Enable enhanced email attachment control for agents to have a consistent experience across all forms. 
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection:
-ms.date: 12/08/2023
+ms.date: 05/23/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -17,6 +17,9 @@ ms.custom:
 
 # Enable enhanced experience for email attachments
 
+Enhanced email components enable you to streamline the email experience for agents. Use the information in this article to configure **Email Recipient control** and **Attachments control** to improve agent productivity.
+
+## Enable enhanced experience for email attachments
 You can enable the enhanced email attachment control for forms to provide a consistent email attachment experience to agents. Do the following steps:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
@@ -49,5 +52,7 @@ You can enable the drag and drop feature for files to be added as attachments fo
 1. Save and publish the form.
 
 ## Next steps
+
+[Enhanced recipient handling](/power-apps/user/view-compose-email#enhanced-recipient-handling)
 
 [Use the enhanced email attachment experience across email forms](../use/enhanced-email-attachment-control.md)

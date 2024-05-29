@@ -3,7 +3,7 @@ title: Create products or services for work orders
 description: Learn how to create products or services for work orders in Dynamics 365 Field Service.
 ms.date: 09/24/2022
 
-ms.topic: article
+ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
 ---
@@ -43,7 +43,7 @@ In this article, we'll explain how to create products and services, add them to 
 
    For more information on units and unit groups, visit the article: [Create a unit group and add units to that group (Sales app)](../sales-enterprise/create-unit-group-add-units-that-group.md)  
 
-   :::image type="content" source="media/work-order-product-create.png" alt-text="Screenshot of a product in the product details section.":::
+   :::image type="content" source="media/work-order-product-create.svg" alt-text="Screenshot of a product in the product details section.":::
 
 1. In the **Field Service** section, choose a **Field Service Product Type** which is required to add a product or service to a work order.
 
@@ -58,7 +58,7 @@ In this article, we'll explain how to create products and services, add them to 
    - **Default vendor**: Enter a vendor where this product was purchased from.
    - **Taxable**: Choose whether the product or service is taxable. This setting applies only if the work order is taxable. If the work order isn't taxable work order products and services aren't considered taxable either, regardless of this setting.
 
-   :::image type="content" source="media/work-order-product-create-field-service.png" alt-text="Screenshot of a product in the field service section.":::
+   :::image type="content" source="media/work-order-product-create-field-service.svg" alt-text="Screenshot of a product in the field service section.":::
   
 1. Select **Save** to apply your changes.
 

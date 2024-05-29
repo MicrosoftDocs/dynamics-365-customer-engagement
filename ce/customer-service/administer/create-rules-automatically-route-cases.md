@@ -1,15 +1,17 @@
 ---
-title: Automatically route cases using basic routing rulesets | MicrosoftDocs
-description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
-ms.date: 02/01/2023
-ms.topic: article
+title: Automatically route cases using basic routing rulesets
+description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service.
+ms.date: 04/23/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
+  - bap-template
   - dyn365-customerservice
 ---
 
@@ -163,7 +165,7 @@ Perform the following steps before you upgrade a solution:
 
 ### See also
 
-[Create and manage queues](set-up-queues-manage-activities-cases.md)
+[Create and manage queues](set-up-queues-manage-activities-cases.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

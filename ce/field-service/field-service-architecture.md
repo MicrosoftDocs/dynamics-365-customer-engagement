@@ -1,7 +1,7 @@
 ---
 title: Work order architecture
 description: Learn about the architecture of the work order process in Dynamics 365 Field Service.
-ms.date: 01/24/2023
+ms.date: 05/06/2024
 author: jshotts
 ms.author: jasonshotts
 ms.topic: conceptual
@@ -46,19 +46,19 @@ Field Service keeps the **Work Order** and the primary resource requirement in s
 
 Before a work order can be scheduled, a [**Bookable Resource**](set-up-bookable-resources.md) must exist in the system. A bookable resource represents an employee, contractor, equipment, facility, or anything else that needs to be scheduled.
 
-When it's time to schedule a work order, you assign a requirement to a resource. This creates a **Booking**. You can think of a booking as a scheduled time slot for a specific resource. Requirements can be scheduled in several ways:
+When it's time to schedule a work order, you assign a requirement to a resource. This assignment creates a **Booking**, which is a scheduled time slot for a specific resource. To schedule a requirement, use one of the following ways:
 
-- [Manually on the schedule board](work-with-schedule-board.md)
-- [With the schedule assistant](schedule-assistant.md)
+- [Schedule board (manually)](work-with-schedule-board.md)
+- [Schedule assistant](schedule-assistant.md)
 - [Resource Scheduling Optimization](rso-overview.md)
 
-A requirement can be booked multiple times, creating multiple booking records. This is useful when you want to schedule the same requirement to multiple resources or to the same resource at different times.
+A requirement can be booked multiple times, creating multiple booking records, so that you can schedule the same requirement to multiple resources or to the same resource at different times.
 
 ## A field technician performs the work order
 
-Field technicians can view their daily, weekly, and monthly bookings on their agenda in the Field Service mobile app. They can also edit the status of their bookings to show when they're traveling, the work is in progress, they're on break, and the work is completed, along with custom statuses. Each status change is recorded in the system as a **Booking Timestamp** and eventually **Booking Journals**, which are used to calculate the time and labor cost of a booking.
+Field technicians can view their daily, weekly, and monthly bookings on their agenda in the Field Service mobile app. They can edit the status of their bookings to show when they're traveling, the work is in progress, they're on break, and the work is completed. They can use custom statuses. Each status change is recorded in the system as a **Booking Timestamp** and eventually **Booking Journals**, which are used to calculate the time and labor cost of a booking.
 
-While performing a work order, field technicians may use products and services, indicating that a part or labor was needed. Though these products and services were previously added to the work order, they were originally listed in the **Product Catalog**. Products that represent physical parts and not labor are tracked in **Inventory** and are replenished with the **Purchasing** process that relies on submitting and receiving purchase orders.
+Field technicians might use products and services for the work order, indicating that a part or labor was needed. Though these products and services were previously added to the work order, they were originally listed in the **Product Catalog**. Products that represent physical parts and not labor are tracked in **Inventory** and are replenished with the **Purchasing** process that relies on submitting and receiving purchase orders.
 
 ## The work order is reviewed and completed
 

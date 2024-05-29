@@ -3,7 +3,7 @@ title: Compose and send email messages using Copilot
 description: Get suggestions on email messages through Copilot in Dynamics 365 Sales. 
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ms.topic: how-to 
@@ -13,7 +13,10 @@ ms.custom: bap-template
 
 # Compose and send email messages using Copilot (preview)
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+
 
 > [!NOTE]
 > This feature is enabled by default from 2024 release wave 1 for early access in NAM (North America) region. For more information, see [Enable and set up copilot capabilities](enable-setup-copilot.md).

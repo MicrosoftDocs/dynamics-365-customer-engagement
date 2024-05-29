@@ -153,6 +153,10 @@ additionalContent:
         text: Integrate with Dynamics 365 Supply Chain Management
       - url: mixed-reality-guides-integration.md
         text: Integrate with Dynamics 365 Guides
+      - url: finance-operations-integration.md
+        text: Integrate with finance and operations
+      - url: business-central-integration.md
+        text: Integrate with Dynamics 365 Business Central
     - title: IoT in Field Service
       links:
       - url: connected-field-service.md

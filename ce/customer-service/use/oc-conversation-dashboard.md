@@ -1,11 +1,13 @@
 ---
-title: Conversation dashboard in Omnichannel for Customer Service | Microsoft Docs
+title: Conversation dashboard in Omnichannel for Customer Service
 description: Learn about the Conversation dashboard insights to better understand agent performance in your organization.
-ms.date: 11/24/2022
-ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
+ms.topic: conceptual
 ms.collection: bap-ai-copilot
+ms.date: 05/10/2024
+ms.custom: bap-template
 ---
 
 # Conversation dashboard

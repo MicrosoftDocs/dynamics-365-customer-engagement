@@ -1,11 +1,10 @@
 ---
 title: Set up booking rules
 description: Learn how to set up booking rules in Dynamics 365 Field Service.
-ms.date: 02/01/2022
-
-ms.topic: article
-author: clearab
-ms.author: anclear
+ms.date: 05/14/2024
+ms.topic: how-to
+author: ryanchen8
+ms.author: ryanchen
 ---
 
 # Set up booking rules
@@ -104,7 +103,25 @@ The following screenshot shows an example custom CRM action.  This sample is che
 
 ## Sample code
 
-The JavaScript function you created can accept a single parameter, which is considered the booking context. The passed in booking context parameter isn't* a typical CRM context used in client-side scripting.
+The JavaScript function you created can accept a single parameter, which is considered the booking context. The passed booking context parameter isn't a typical CRM context used in client-side scripting.
+
+Booking context schema:
+```
+export type BookingRuleContext = {
+    oldValues: BookingRuleBookingRecord;
+    newValues: BookingRuleBookingRecord;
+    isCreate: boolean;
+    isUpdate: boolean;
+};
+ 
+export type BookingRuleBookingRecord = {
+    ResourceRequirementId?: string;
+    ResourceId?: string;
+    StartTime?: Date;
+    EndTime?: Date;
+    ResourceScheduleSource?: string;
+};
+```
 
 The booking context parameter will have the following JavaScript definition. 
 
@@ -311,9 +328,9 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
 
 ## Additional notes
 
-The bookable resource booking is enabled to use booking rules, in order to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. As a result, business process flows can't be used on the bookable resource booking entity with Booking rules enabled. 
+The bookable resource booking is enabled to use booking rules to create warnings or error messages that users see when creating or editing a resource booking record, based on custom conditions. The system uses [`preventDefault` in booking rules](/power-apps/developer/model-driven-apps/clientapi/reference/save-event-arguments/preventdefault). Therefore, business process flows and other custom scripts bond to the `onSave`event can't be used on the bookable resource booking entity with booking rules enabled.
 
-However, the processing of booking rules can be disabled on the save of the Booking form by enabling the below setting, which would let the users use the business process flows. The client side APIs can be used to enable this setting at an environment level. 
+However, the processing of booking rules can be disabled on the save of the Booking form by enabling the below setting, which would let the users use the business process flows. The client side APIs can be used to enable this setting at an environment level.
 
 Read current value of the setting `msdyn_DisableProcessBookingRulesOnSaveBookingForm`.
 

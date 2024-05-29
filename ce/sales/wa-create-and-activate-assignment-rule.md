@@ -3,9 +3,9 @@ title: Create and activate assignment rules
 description: Learn how to create and use assignment rules in Dynamics 365 Sales to automatically route new leads, opportunities, and insights to the right sellers or sales teams.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
-ms.date: 08/11/2023
+ms.date: 05/20/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -112,7 +112,7 @@ If you assign the records to a sales team, this section isn't shown because the 
 
 1. (Optional) To consider the [seller's work schedule](personalize-sales-accelerator.md#configure-your-work-availability) when records are assigned, select **Assign if seller is available within**. Then, select the number of hours that a record can wait to be assigned, up to 120 hours.
 
-    - If you [set a time limit](#add-conditions-to-filter-the-records) on how long records can remain unassigned, the rule first checks to make sure the record is still within that time. Then it considers seller availability.
+    - If [a time limit is set](#add-conditions-to-filter-the-records), the rule verifies for any available sellers within that time frame to assign the record. If no sellers are available, the record is set as unassigned.
 
     - The rule first considers sellers who are available to work on the records. If sellers don't set their [work availability](personalize-sales-accelerator.md#configure-your-work-availability), the rule considers them always available.
 

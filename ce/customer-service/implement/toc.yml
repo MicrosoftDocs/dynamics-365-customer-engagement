@@ -36,8 +36,6 @@
           href: deprecations-customer-service.md
         - name: Customer Service Analytics
           items:
-          - name: Introduction to analytics and insights
-            href: introduction-customer-service-analytics.md
           - name: Configure Customer Service analytics dashboards in Power BI
             href: configure-customer-service-analytics-dashboard.md
           - name: Use Customer Service Analytics dashboards in Power BI
