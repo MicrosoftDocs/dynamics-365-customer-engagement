@@ -383,11 +383,13 @@
         - name: Connect to Azure Communication Services
           href: voice-channel-acs-resource.md
         - name: Connect to an Azure resource
-          href: test-acs-config.md
+          href: config-acs-voice.md
         - name: Sync from Azure Communication Services
           href: voice-channel-sync-from-acs.md
         - name: Disconnect from Azure Communication Services
           href: voice-channel-disconnect-from-acs.md
+      - name: Migrate to vNext
+        href: migrate-voice-stack.md    
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling

@@ -50,9 +50,6 @@ To update to the new voice experience, perform the following steps:
 The test status field can be used to keep track of testing.  If any call to any phone number attached to a profile or a workstream fails after 30 minutes, the application sets the **Test status** to **Failed**. You can retry the update or select the **Revert** option to go back to the original stat. There will be at least a 15 to 30 minutes downtime for the changes to sync after the revert. If the revert fails, select **Retry revert**  to try the revert again.
 If roll back fails, a critical error message appears.
 
-
-> - 
-
 ## Next steps
 
 <!--Remove all the comments in this template before you sign-off or merge to the main branch.-->

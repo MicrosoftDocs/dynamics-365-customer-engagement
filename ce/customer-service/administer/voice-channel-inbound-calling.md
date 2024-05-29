@@ -81,11 +81,17 @@ Based on your voice stack update, you'll see the following options to transfer c
 
 ### [Enhanced voice stack](#tab/enhancedvoicestack)
 
-  - Set the toggles for **External phone number** and **External Microsoft Teams users** in Consult for agents to add other agents or Teams subject matter experts to an ongoing call. 
-  - Set the toggles for **External phone number** and **External Microsoft Teams users** in Transfer to enable agents to transfer calls to other Teams subject matter experts. 
-  - Select the **Use bridged transfers** checkbox for the recording and transcription to continue when the call is transferred. The Teams user or the user with the external phone number becomes the primary agent and the conversation remains active the customer ends the call. If the checkbox is cleared, the recording and transcription automatically stop after the transfer. The conversation is moved to the closed state immediately after transfer. 
-  - Changes to these external transfer settings do not affect regular post call survey bot operations.  Post call survey triggered after agent ends the call on a non transferred to external call continues to work as expected, regardless of these settings. 
-  - On a transferred to external call, after the external hangs up and customer remains on the line the behavior is different for bridged vs non bridged calls. Bridged transferred calls, when external hangs up, will send the customer to the post call survey bot. Non bridged transferred calls, when external hangs up, will end the call for everyone without post call survey.
+  - Set the toggles for **External phone number** and **External Microsoft Teams users** in **Consult** and **Transfer**. This allows agents to consult with other agents or Teams subject matter experts during an ongoing call, and also enables them to transfer calls.
+  - Select the **Use bridged transfers** checkbox. The following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
+     - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
+     - The customer hears a  transfer message followed by hold music. The original call continues.
+     - The recording and transcription will continue when the call is transferred.
+     - Post conversation survey, if configured, will be triggered once the external agent or Teams user hangs up.
+  - If the **Use bridged transfers** checkbox is not selected, the following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
+     - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
+     - The customer hears a transfer message followed by ringing. A new call begins.
+     - The recording and transcription is stopped.
+     - Post conversation call survey isn't sent to the customer.
    
 ### [Existing voice stack](#tab/existingvoicestack)
 

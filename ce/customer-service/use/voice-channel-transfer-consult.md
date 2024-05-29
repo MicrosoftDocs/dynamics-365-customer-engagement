@@ -48,14 +48,18 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
      ### [Enhanced Voice stack](#tab/enhancedvoicestack)
 
 
-     - When you initiate a transfer, the application ends the call for you as soon as the Teams user or user with the external number accepts or rejects the call. The customer hears a transfer message followed by:
-     - Hold music, if your administrator has enabled the **Use bridged transfers** setting. 
-     - Ringing, if the **Use bridged transfers** setting is not enabled. In this case, the original call ends and a new one begins.
-
-     - If your administrator has enabled the **Use bridged transfers** setting, when you select transfer, you will be removed from the call when the secondary agent with the external number accepts or rejects the call. The customer hears a message that they're being transferred and hear hold music until the secondary agent or user accepts or rejects the call. If the external user doesn't accept the call, customers will hear a system message before the call ends.
-     - If your administrator hasn't enabled the bridged transfers setting, when you select transfer, you will be removed from the call when the secondary agent with the external number accepts or rejects the call. The original call ends and a new call begins. The customer hears a message that they're being transferred and hear ringing until the secondary agent or user accepts or rejects the call. Customers won't hear a message before the call ends if the external user doesn't accept the call.
-   
-        After the transfer, you can't join the call again. To make sure that the secondary agent answers the call, you can use the **Consult** option to collaborate with the secondary agent before transferring the call.
+     When you initiate a transfer, the application ends the call for you as soon as the Teams user or user with the external number accepts or rejects the call. To make sure that the secondary agent answers the call, you can use the **Consult** option to collaborate with the secondary agent before transferring the call. <br>
+     
+     The customer hears a transfer message and the following actions occur based on the **Use bridged transfers** setting:
+     **Enabled**<br>
+     - Customer hears hold music.
+     - The original call continues. 
+     -  If the external user doesn't accept the call, customers will hear a system message before the call ends.
+     - Post call survey is sent to the customer if the external user or Teams user ends the call.
+     **Disabled**<br>
+     - Customer hears ringing.
+     - The original call ends and a new call begins.
+     - Customers won't hear a message before the call ends if the external user doesn't accept the call.
 
      ### [Existing voice stack](#tab/existingvoicestack)
  
