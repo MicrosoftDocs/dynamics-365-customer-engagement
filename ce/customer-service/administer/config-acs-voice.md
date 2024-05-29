@@ -1,5 +1,5 @@
 ---
-title: Connect to Azure Communication Services
+title: Connect an Azure Communication Services resource to the voice channel
 description: Learn how to connect to Azure Communication Services by using a new or existing resource to configure the voice channel.
 ms.date: 06/01/2024
 ms.topic: how-to
@@ -8,7 +8,7 @@ ms.author: nenellim
 ms.custom: bap-template
 ---
 
-# Connect to Azure Communication Services
+# Connect an Azure Communication Services resource to the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -42,7 +42,7 @@ You'll need to specify the values of **Application (client) ID** and **Directory
     :::image type="content" source="../media/acs-resource-application.png" alt-text="resource application" :::
 
 
-## Configure an Azure Communication Services resource in Customer Service admin center
+## Connect to an Azure Communication Services resource
 
 1. In Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
 1. Select **Manage** for **Phone numbers**.
@@ -93,7 +93,7 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 
 After you've configured the Azure Communication Services resource, the **Manage Azure Communication Services** page displays the **Event grid app id**, **Event grid app tenant id**, **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)**.
 
-You can copy the values of the **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)** to use them in the [Enable call recording and SMS services](#enable-call-recording-and-sms-services) section.
+You can copy the subscriber endpoint values such as **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)** to use them in the following section.
 
 ## Enable incoming calls, call recording, and SMS services
 
