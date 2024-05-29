@@ -1,7 +1,7 @@
 ---
 title: Create work order templates with incident types
 description: Learn about configuring incident types in Dynamics 365 Field Service.
-ms.date: 09/27/2022
+ms.date: 05/29/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -25,15 +25,15 @@ Incident types help with reporting. They let you discover trends for specific is
 
 With incident type, you can:
 
-- Add multiple incident types per work order to define multiple issues or procedures that need to be completed.
+- Define multiple issues or procedures that need to be completed by adding multiple incident types per work order.
 
-- Relate incident types to a customer asset to build service history.
+- Build service history by relating incident types to a customer asset.
 
-- Relate incident types to requirement group templates to specify requirements for a work order and schedule it to multiple resources.
+- Specify requirements for a work order and schedule it to multiple resources by relating incident types to requirement group templates.
 
 ## Prerequisites
 
-- Because incident types represent a grouping of [service tasks](set-up-service-task-types.md), [products](create-product-or-service.md), and [services](create-product-or-service.md), we recommend you create these records first. The service tasks, products, and services can be associated to multiple incident types. For example, "Put on safety equipment" is a service task that needs to be completed frequently. Create this service task once and associate it to the relevant incident types. There will then be one list of unique service tasks that are added to incident types, which create **Incident Type Service Task** records. The same is true for products, services, and characteristics.
+- Because incident types represent a grouping of [service tasks](set-up-service-task-types.md), [products](create-product-or-service.md), and [services](create-product-or-service.md), we recommend you create these records first. The service tasks, products, and services can be associated to multiple incident types. For example, "Put on safety equipment" is a service task that needs to be completed frequently. Create this service task once and associate it to the relevant incident types. Then you can use one list of unique service tasks that are added to incident types, which create **Incident Type Service Task** records. The same is true for products, services, and characteristics.
 
 - You have the **Field Service - Administrator** security role.
 
@@ -47,7 +47,7 @@ Capture a work order quickly as a template.
 
 1. Provide an **Incident Type Name** and an optional **Description**.
 
-   :::image type="content" source="media/work-order-create-from-incident-type.svg" alt-text="Screenshot of the create incident type form.":::
+   :::image type="content" source="media/work-order-create-from-incident-type.svg" alt-text="Screenshot of the Create incident type form.":::
 
 1. Select other tabs and update other values as needed.
 
@@ -80,7 +80,7 @@ Create incident types from the incident types form.
 
    - **Copy Incident Items to Agreement**: This setting only applies to incident types that are used as part of [customer agreements](set-up-customer-agreements.md). It specifies if the system copies agreement items like service tasks, products, services, or characteristics to an agreement that uses this incident type. Considerations:
 
-     - An incident in an agreement can differ from the incident you use for individual work orders. For example, normally the incident requires 60 minutes to complete. For the agreement, you negotiated with the customer 2 hours of a service. Rather than creating a second incident type for the agreement, set **Copy Incident Items to Agreement** to **No**. Add the incident to the agreement and manually add the required service tasks, product, and services. Set this option to **Yes** and the incident items will be added to the agreement and you make slight variations from there. Using the same incident type can help with reporting.
+     - An incident in an agreement can differ from the incident you use for individual work orders. For example, normally the incident requires 60 minutes to complete. For the agreement, you negotiated with the customer 2 hours of a service. Rather than creating a second incident type for the agreement, set **Copy Incident Items to Agreement** to **No**. Add the incident to the agreement and manually add the required service tasks, product, and services. Set this option to **Yes** and the incident items are added to the agreement and you make slight variations from there. Using the same incident type can help with reporting.
 
      - Add incidents to agreements for recurring work to generate work orders with related work order incidents. However, incident types can be updated as processes and procedures change. Since agreements can span multiple months or years, changes on the incident types can result in different work being performed than originally intended. Set the option to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation. Set to **No** to use the latest incident type details when the [agreement generates work orders](configure-default-settings.md#agreement-settings).
 
@@ -136,7 +136,7 @@ Add [services](create-product-or-service.md) that field technicians provide.
 
    - **Unit**: The quantity or measurement for the service.
 
-   - **Duration**: How long the service will take the technician.
+   - **Duration**: How long the service takes the technician.
 
    - **Description** (optional): A description of the product line item that appears on the customer invoice.
 
@@ -162,9 +162,9 @@ Add [services](create-product-or-service.md) that field technicians provide.
 
    - **Task Type**: An existing task type or create a new one.
 
-   - **Estimated Duration**: How long the service task will take the technician.
+   - **Estimated Duration**: How long the service task takes the technician.
 
-   - **Line Order**: If you have mutliple service tasks, set a numeric value that defines the order in which service tasks show on the work order services list. The order of service tasks is important to reflect steps in a process that should be followed.
+   - **Line Order**: If you have multiple service tasks, set a numeric value that defines the order in which service tasks show on the work order services list. The order of service tasks is important to reflect steps in a process that should be followed.
 
    - **Description** (optional): A description of the service line item.
 
@@ -221,11 +221,11 @@ Use the incident type to fill in detail according to its configuration by adding
 
 1. Save the work order and schedule it to provide the field technician with the relevant details.
 
-After it's scheduled, the field technician receives the booked work order along with the incident and related details.
+After the work order is scheduled, the field technician receives the booked work order along with the incident and related details.
 
 ## Add multiple incident types to a work order
 
-You can add multiple incident types to a work order. For example, a machine has multiple issues or multiple machines need to be worked on. All incidents should be performed by the dispatched resource. Adding multiple incidents to a work order adds to the duration and existing service tasks, products, services, and characteristics.
+You can add multiple incident types to a work order. For example, a machine has multiple issues or multiple machines need to be worked on. The same dispatched resource can perform all incidents. Adding multiple incidents to a work order adds to the duration and existing service tasks, products, services, and characteristics.
 
 1. Open an existing work order.
 
@@ -271,7 +271,7 @@ When using incidents with requirement groups:
 
 ## Use AI to get Incident Type suggestions
 
-With Field Service v8.8.20.12+, *Incident Type* AI suggestions recommend ways to improve your incident types by learning from work orders. For example, you have an incident type that is configured to use a certain product. However, technicians frequently also use a different product to complete the job. Using AI, the system will learn and suggest updating the related product on the incident type for future work orders.
+With Field Service v8.8.20.12+, *Incident Type* AI suggestions recommend ways to improve your incident types by learning from work orders. For example, you have an incident type that is configured to use a certain product. However, technicians frequently also use a different product to complete the job. With AI, the system learns and suggests updating the related product on the incident type for future work orders.
 
 :::image type="content" source="media/ai-incident-type-suggestions-list.png" alt-text="Screenshot of the intelligence tab in Field Service Setting showing a list of incident type suggestions.":::
 
@@ -319,7 +319,7 @@ First an **Incident Type** is created and a product is added to the incident cre
 
 \> Incident Type \> Incident Product \> Agreement Incident \> Agreement Product \> Work Order Incident
 
-When using incidents with **Agreements**, the incidents and related items are added to agreements first, and then passed along to work orders as they're generated by the agreement.
+When you use incidents with **Agreements**, the incidents and related items are added to agreements first, and then passed along to work orders as they're generated by the agreement.
 
 ### Multiple incident types
 
