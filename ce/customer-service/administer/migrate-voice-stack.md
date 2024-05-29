@@ -4,7 +4,7 @@ description: Learn how to migrate to the enhanced voice stack
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: how-to .
+ms.topic: how-to 
 ms.collection: 
 ms.date: 05/23/2024
 ms.custom: bap-template
