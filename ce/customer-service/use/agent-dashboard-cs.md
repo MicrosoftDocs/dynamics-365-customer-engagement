@@ -40,7 +40,7 @@ To view the Agent dashboard, go to Customer Service historical analytics and sel
 
 ## Report details
 
-The reports summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, agent conversation and timezone. The KPIs for the dashboard are displayed as seen in the following screenshot.
+The reports summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, agent conversation, and timezone. The KPIs for the dashboard are displayed as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![Agent report dashboard](../media/agent-report-dashboard.png "Agent report dashboard")
@@ -50,8 +50,8 @@ The following table displays the key performance indicators in the agent report.
 | KPI            | Description    |
 |----------------|----------------|
 | Active cases   |  The number of cases that are currently open.   |
-| Resolved cases   | The number of cases that have been closed by an agent.     |
-| Escalated cases   | The percentage of cases that have been escalated.     |
+| Resolved cases   | The number of cases closed by an agent.     |
+| Escalated cases   | The percentage of cases that were escalated.     |
 | Average resolve time | The average time taken by an agent to resolve the case.   |
 | Average CSAT   | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.    |
 | Average survey sentiment | The average sentiment score, based on written feedback submitted by the customer in the Customer Voice survey.  |
