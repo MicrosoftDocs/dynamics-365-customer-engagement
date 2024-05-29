@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 04/10/2024
+ms.date: 04/19/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -35,13 +35,31 @@ When you sign in to any of the Customer Service agent apps, Copilot opens in the
 
 You can ask free-form questions just as you'd ask your colleague or supervisor who might know the answers.
 
-:::image type="content" source="../media/copilot-ask-question.png" alt-text="Screenshot of the Ask a question tab in Copilot.":::
+ :::image type="content" source="../media/copilot-ask-question-mini.png" alt-text="Screenshot of the Ask a question tab in Copilot." lightbox="../media/copilot-ask-question.png":::
+
 
 With Copilot, you can take the following actions:
 
 - **Ask a direct question**: Copilot shows the most relevant answer from the knowledge sources your organization has made available.
 - **Ask follow-up turn by turn questions**: If Copilot's response isn't immediately useful, you can ask follow-up questions and guide Copilot in a natural, conversational way.
 - **Ask Copilot to attempt a better response**: Copilot can also rephrase responses based on more guidance such as, "Can you summarize your response?" or "Can you attempt a response providing details for each of the steps you mentioned?"
+
+### Use auto-prompts
+
+When you have an active case or conversation open, Copilot suggests prompts based on the context of the case or the conversation. Copilot generates prompts only for the first question and not for follow-up questions. Copilot generates the prompts as follows:
+
+- For a case, Copilot considers the title, description, notes, and emails linked to the case.
+- For a conversation, Copilot considers the intent in the first three messages to generate a prompt, and then every third message to refresh the prompts. You can select a prompt to generate a response.
+
+### View responses
+
+Copilot streams the generated responses on the UI incrementally, and you can view the responses as they are generated. You can also select **Stop responding** for Copilot to stop generating responses, allowing you to start afresh.
+
+In the Copilot's response you can see citation numbers that show the knowledge base or website links from which Copilot drew the response. When you select the citation, you can see an inline link to the source.
+
+### Translate responses
+
+If your administrator has enabled translation, you can select **Translate** and then select your preferred language to translate the response to that language. You can also select **Show original** to translate the response back to the original language.
 
 ### Use targeted phrases in Copilot to get responses from plugins (preview)
 
@@ -86,23 +104,7 @@ Select the one-click response generation button at the lower-right corner of the
 > [!NOTE]
 > The one-click response generation feature is available in North America, Europe, and the United Kingdom only.
 
-## Apply filters
 
-You can setup filters for Copilot to generate responses based on a specific set of topics. Filters provide immediate context and reduce the chance of getting irrelevant responses.
-
-For example, your organization has several departments and you work only on credit card related queries. If you apply the credit card filter, Copilot retrieves only the relevant credit card content from the knowledge source and which is then used to generate responses. 
-
-To apply a filter, perform the following steps:
-
-- Select **Filters** on the Copilot pane. The **Select filters** menu appears.
-- Select the required options. You can also search for a filter option.
-- Select **Apply**.
-
-Once you set a filter, the following actions are applicable:
-- A message indicating the filters are applied when Copilot generates new responses appears on the Copilot pane. This message also appears whenever you modify the filter configuration.
-- A visual indicator with the number of filter options selected is displayed next to **Filters**.
-- The filters set apply to the following Copilot features: ask a question, draft a chat, and email.
-- The filter is saved. You don't have to set the filter each time you log in. 
 
 ### See also
 

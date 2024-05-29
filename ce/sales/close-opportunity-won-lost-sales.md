@@ -5,7 +5,7 @@ ms.date: 01/16/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 content_well_notification:
   - AI-contribution

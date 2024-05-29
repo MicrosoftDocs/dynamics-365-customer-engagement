@@ -5,6 +5,7 @@ ms.date: 08/10/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_salespro
   - D365-Entity-salesorder

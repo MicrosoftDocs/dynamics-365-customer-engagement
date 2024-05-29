@@ -5,6 +5,7 @@ ms.date: 02/27/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Configure mobile apps with Microsoft Intune 

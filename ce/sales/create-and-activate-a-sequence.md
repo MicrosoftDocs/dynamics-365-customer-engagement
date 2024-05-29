@@ -4,7 +4,7 @@ description: Create and activate a sequence by defining a set of activities as s
 ms.date: 09/08/2023
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: overview 
 ms.collection: how-to 
 ms.custom: bap-template 

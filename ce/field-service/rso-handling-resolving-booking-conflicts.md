@@ -4,7 +4,7 @@ description: Learn how to resolve booking conflicts in Resource Scheduling Optim
 ms.date: 12/05/2018
 
 ms.subservice: resource-scheduling-optimization
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

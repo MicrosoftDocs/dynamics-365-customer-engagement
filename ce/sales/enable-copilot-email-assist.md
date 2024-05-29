@@ -3,7 +3,7 @@ title: Enable Copilot email assist
 description: Enable Copilot email assist to generate personalized, high-quality emails tailored to specific needs.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to 
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot 

@@ -2,7 +2,7 @@
 title: Create workflows and scripts for the mobile app
 description: Learn about workflows and scripts for the Field Service mobile app.
 ms.date: 12/21/2022
-ms.topic: article
+ms.topic: how-to
 ms.subservice: field-service-mobile
 author: Andrea-Orimoto
 ms.author: andreo

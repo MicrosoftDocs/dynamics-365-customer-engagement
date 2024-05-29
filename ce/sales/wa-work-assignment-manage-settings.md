@@ -3,10 +3,10 @@ title: Configure work assignment
 description: Learn how to configure Dynamics 365 Sales to automatically assign work to your sales teams.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.collection:
-ms.date: 11/10/2023
+ms.date: 05/20/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -65,5 +65,18 @@ While sellers are on vacation or are otherwise unavailable, you can stop new rec
 1. (Optional) If the list of sellers is long, [use filters to focus on the ones you want](./wa-manage-seller-attributes.md#shortlist-sellers-using-search-and-advanced-filters).
 
 1. Turn off the toggle in the **Assign records** column and confirm when you're prompted to do so.
+
+## Add work assignment site map entry to custom app
+
+>[!NOTE]
+>Configure the Work assignment feature in your organization before you add the site map to your custom app.
+
+When you create a custom model-driven app, you choose a default solution to create a site map for the app. However, the site map contains only entries that are based on entity forms. The work assignment option is based on URL custom control form and does not appear in the site maps. You must manually add the option to the site map. After you add these options, users in your organization can see them on the app’s sitemap. Use the following URLs to add the work assignment site map to your custom app and perform the steps in [add site map entry to custom app](add-custom-site-map.md):
+
+| Feature name      | URL                                                                                         |
+|-------------------|---------------------------------------------------------------------------------------------|
+| Work assignment | `/main.aspx?pagetype=control&controlName=MscrmControls.SalesRouting.WorkAssignmentHostControl`|
+| Work assignment settings | `/main.aspx?pagetype=control&controlName=MscrmControls.SalesRouting.WorkAssignmentHostControl&data={"isSettingsPageRequested":true}` |
+
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

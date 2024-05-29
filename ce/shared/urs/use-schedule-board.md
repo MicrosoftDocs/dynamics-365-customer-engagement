@@ -74,7 +74,12 @@ On each resource pin associated with a user, there is an indicator icon in the l
 
 ### Refresh board
 
+The schedule board refreshes automatically if there are changes in the start date, end date, resource assignment, or status of a booking. Automated refresh only considers changes to bookings in the current week.
+
 Select **Refresh** to manually refresh the schedule board.
+
+> [!TIP]
+> Availabilities in the scheduling assistant don't refresh when the schedule board gets refreshed. Search for availabilities again or refresh the browser to have the latest updates on the schedule board reflected in the availabilities.
 
 ### Focus mode
 
@@ -99,6 +104,11 @@ Right-click a resource's name and to show more options about the resource.
 
 ## Requirement pane
 
+The requirement pane is where you find unscheduled requirements. Each column can be sorted and filtered by accessing a drop down menu next to each column header. 
+
+> [!NOTE]
+> Filtering is not supported on the **Owner** column on the *Unscheduled Work Orders* tab
+
 Select a single requirement from the requirement pane and select **Find availability** to launch the [schedule assistant](../../common-scheduler/schedule-assistant.md).
 
 The schedule assistant lists available and matching resources that you can book for the requirement.
@@ -114,3 +124,14 @@ Right-click the booking on th schedule board and select **Move to**. Reassign th
 To create a new schedule board tab, select **New schedule board tab** (+) in the tab list on the schedule board.
 
 Enter the [relevant details about your new schedule board](../../common-scheduler/schedule-board-tab-settings.md) and select **Add**.
+
+## Cached settings when loading the schedule board
+
+To facilitate workflows, some parameters are cached so you can quickly can continue where you left:
+
+- Last accessed tab 
+- Map panel: Open or closed 
+- Viewtype: Gantt or list view 
+- Viewmode: Hourly/daily/weekly 
+- Board start date: Cached for 8 hours
+- Column width: Zoom level

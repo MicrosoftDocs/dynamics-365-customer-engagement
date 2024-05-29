@@ -5,6 +5,7 @@ ms.date: 01/16/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Enable customization of the Opportunity Close form 
 

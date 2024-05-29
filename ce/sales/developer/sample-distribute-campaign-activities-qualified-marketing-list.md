@@ -2,12 +2,12 @@
 title: "Sample: Distribute campaign activities to qualified marketing list (Dynamics 365 Sales)"
 description: "The sample code demonstrates how to distribute campaign activities to the qualified members of a marketing list."
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 ---

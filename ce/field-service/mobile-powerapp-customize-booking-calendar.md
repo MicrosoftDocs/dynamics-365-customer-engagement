@@ -2,7 +2,7 @@
 title: Customize the booking view in the Dynamics 365 Field Service mobile app
 description: Learn how to customize the default booking view in the Field Service mobile experience.
 ms.date: 12/20/2023
-ms.topic: article
+ms.topic: how-to
 author: JonBaker007
 ms.author: jobaker
 ---

@@ -5,6 +5,7 @@ ms.date: 04/26/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Sales Hub app versus custom app

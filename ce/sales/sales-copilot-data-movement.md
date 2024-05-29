@@ -4,7 +4,7 @@ description: Learn why you need to opt in to allow Copilot data to move outside 
 ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: conceptual
 ms.collection: bap-ai-copilot
 ms.date: 04/02/2024

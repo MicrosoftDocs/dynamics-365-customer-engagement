@@ -7,6 +7,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # View and understand the call summary page
@@ -69,7 +70,9 @@ The **Overview** tab displays the following information about the conversation:
 
 ##### View categorization tag for short duration calls (Preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
 
 Conversation intelligence can detect and tag short duration calls for the following categories:
 
@@ -112,6 +115,9 @@ The **Notes** tab helps reduce the time it takes you to summarize the call by of
 
 
 #### Action items tab
+
+> [!NOTE]
+> Starting June 2024, the **Action items** tab will be removed and the **Notes** tab will be enhanced to include action items. You can continue to use the **Action items** tab until then.
 
 The **Action items** tab displays a list of actions mentioned during the call&mdash;for example, "I'll send you an email" or "I'll follow up with Michelle tomorrow." When you select an action item, the call transcript is highlighted and a pointer on the playback indicates when it was mentioned. Actionable items include **Set up a call**, **create a task**, **send an email**, and **set up a meeting**.
 
@@ -211,7 +217,9 @@ If the transcript is in a language other than English and the language is one th
 
 Credit card details that were shared during the call are visible in the transcript unless your administrator has turned on the [**Hide personal data (preview)** setting](fre-setup-ci-sales-app.md#hide-personal-data-preview) to comply with Payment Card Industry regulations. If that setting is turned on, the account number, expiration date, and CVV are masked in the transcript.
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
 
 #### Comment on the transcript
 

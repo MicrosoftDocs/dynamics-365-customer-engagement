@@ -3,9 +3,9 @@ title: Set up own storage for call recordings
 description: This article describes how to create a call recording repository in Azure storage for storing your Teams recordings.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi 
+ms.reviewer: lavanyakr 
 ms.topic: how-to 
-ms.date: 12/28/2023
+ms.date: 05/21/2024
 ms.custom: bap-template
 ---
 
@@ -25,8 +25,9 @@ The conversation intelligence service principal needs access to your Azure stora
 - **Storage Blob Data Owner**
 - **Storage Account Contributor**
 
-:::image type="content" source="media/SIwebapp-roles.png" alt-text="Screenshot of the role assignment tab with the roles assigned for the SalesInsightsWebApp in the Azure portal":::
+:::image type="content" source="media/SIwebapp-roles.png" alt-text="Screenshot of the role assignment tab with the roles assigned for the SalesInsightsWebApp in the Azure portal":::[Learn more about assigning a role in the Azure portal](/entra/identity-platform/howto-create-service-principal-portal#assign-a-role-to-the-application).
 
-[Learn more about assigning a role in the Azure portal](/entra/identity-platform/howto-create-service-principal-portal#assign-a-role-to-the-application).
+> [!NOTE]
+> The access to the storage account is granted at the app level. As a result, all the Dynamics 365 org admins in the tenant can see the list of container names associated with the conversation intelligence service principal&mdash;on the Conversation intelligence settings page&mdash;irrespective of whether the admins have access to the container or not.
 
 Now you're ready to configure conversation intelligence to use your [own Azure storage](fre-setup-ci-sales-app.md#configure-conversation-intelligence-settings).  
