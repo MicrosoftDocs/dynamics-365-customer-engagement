@@ -17,7 +17,7 @@ ms.custom:
 
 
 > [!NOTE]
-> Voice-enabled Copilots provide [enhanced voice capabilities](/microsoft-copilot-studio/voice-overview). If you are an existing voice customer,[migrate your existing workstreams](migrate-voice-stack.md) to make sure they are compatible with the enhanced Copilots. New customers get the enhanced experience out of the box.
+> Voice-enabled Copilots provide [enhanced voice capabilities](/microsoft-copilot-studio/voice-overview). If you are an existing voice customer, [migrate your existing workstreams](migrate-voice-stack.md) to make sure they are compatible with the enhanced Copilots. New customers get the enhanced experience out of the box.
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
