@@ -22,7 +22,11 @@ Ensure that the following prerequisites are met:
 - Unified routing is enabled. More information: [Provision unified routing](provision-unified-routing.md)
 - Acquire a phone number. See: [Manage phone numbers](voice-channel-manage-phone-numbers.md).
 
+
 ## Set up a voice workstream
+
+> [!IMPORTANT]
+> If the enhanced voice experience is available for your region, you can create new workstreams that support the [voice-enabled Copilots](/microsoft-copilot-studio/voice-overview). For existing customers, make sure that you [update your existing workstreams]((migrate-voice-stack.md) to support voice Copilots.
 
 Do the following to configure a workstream for voice:
 
@@ -77,7 +81,7 @@ The phone number is associated with the workstream.
 
 ## Transfer calls to external numbers and Teams users
 
-The transfer and consult options you see depend on the voice channel experience you're using.
+The transfer and consult options you see depend on the voice channel experience you're using. See: []
 
 - **Enhanced voice options**: Actions available for workstreams created in or migrated to the enhanced voice experience.
 - **Existing voice options**: Actions available for workstream that aren't migrated to the enhanced voice channel.

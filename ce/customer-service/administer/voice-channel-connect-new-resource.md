@@ -51,7 +51,7 @@ You need to specify the values of **Application (client) ID** and **Directory (t
 
 The **Application (client) ID** and **Directory (tenant) ID** values are then used as the **Event grid app id** and **Event grid app tenant id** values in Customer Service admin center.
 
-    :::image type="content" source="../media/acs-resource-application.png" alt-text="resource application" :::
+:::image type="content" source="../media/acs-resource-application.png" alt-text="resource application" :::
 
 
 ## Connect to an Azure Communication Services resource
@@ -158,7 +158,6 @@ To enable call recording and SMS services, you must first configure your applica
 
    It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed," then retry this step after a few minutes.
 
-[Learn about configuring call recording and transcription for a voice workstream in Omnichannel for Customer Service](voice-channel-configure-transcripts.md).
 
 #### Get event grid app and tenant IDs from the Power Apps portal
 
@@ -174,7 +173,9 @@ To enable call recording and SMS services, you must first configure your applica
 
 [Add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers)  
 [Configure voice workstream settings](create-workstreams.md) for the phone number  
-Set up [inbound](../voice-channel-route-queues.md) and [outbound](voice-channel-outbound-calling.md) calling
+Set up [inbound](../voice-channel-route-queues.md) and [outbound](voice-channel-outbound-calling.md) calling 
+[Configure call recording and transcription for a voice workstream in Omnichannel for Customer Service](voice-channel-configure-transcripts.md).
+
 
 ### See also
 
