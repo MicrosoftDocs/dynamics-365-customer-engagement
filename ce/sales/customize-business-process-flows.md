@@ -21,7 +21,7 @@ With Dynamics 365 Sales, you can help ensure that users enter data consistently 
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or System Customizer  <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | System Administrator or System Customizer <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## How do business process flows help? 
 
@@ -29,9 +29,9 @@ Business process flows use the same underlying technology as other processes, bu
 
 With business process flows, you define a set of stages and steps that are displayed in a control at the top of a form. Each stage contains a group of steps. Each step represents a field where data can be entered. Users advance to the next stage by using the **Next Stage** button. You can make a step required so that users must enter data for the corresponding field before they can proceed to the next stage. This is called “stage-gating.”
 
-Business process flows appear relatively simple compared to other types of processes. This is because they do not provide any conditional business logic or automation beyond providing a streamlined experience for data entry and controlling entry into stages. However, when you combine them with other processes and customizations, they can play an important role in saving users time, reducing training costs, and increasing user adoption.
+Business process flows appear relatively simple compared to other types of processes. This is because they don't provide any conditional business logic or automation beyond providing a streamlined experience for data entry and controlling entry into stages. However, when you combine them with other processes and customizations, they can play an important role in saving users time, reducing training costs, and increasing user adoption.
 
-## Entities available for business process flows
+## Entities available for business process flow
 
 Entities are sets of records. You can use the following entities to create business process flows in Dynamics 365 Sales and Dynamics 365 Sales Professional:
 
@@ -73,7 +73,7 @@ Depending on the license you have, select one of the following tabs for more inf
   
 ### Edit a business process flow
 
-You can edit existing business process flows, as needed. If your business processes change, or you just want to make minor modifications, you can simply open the business process flow and change most properties. The following table lists the properties you can change and those you can't.
+You can edit existing business process flows, as needed. If your business processes change, or you just want to make minor modifications, you can open the business process flow and change most properties. The following table lists the properties you can change and those you can't.
 
 | Can change | Cannot change |
 |------------|---------------|
