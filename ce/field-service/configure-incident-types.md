@@ -43,7 +43,7 @@ Capture a work order quickly as a template.
 
 1. In Field Service, change to the **Service** area.
 
-1. Open a work order and select the **Incident type** field and select **+New Incident Type**.
+1. Open a work order and select the **Incident type** field and select **New Incident Type**.
 
 1. Provide an **Incident Type Name** and an optional **Description**.
 
@@ -116,7 +116,7 @@ Add [products](create-product-or-service.md) that field technicians need to comp
 
    - **Line Order**: If you have multiple products, set a numeric value that defines the order in which products show on the work order product list.
 
-   :::image type="content" source="media/work-order-incident-types-product.png" alt-text="Screenshot of an incident type product.":::
+   :::image type="content" source="media/work-order-incident-types-product.svg" alt-text="Screenshot of an incident type product.":::
 
 1. Select **Save and Close**.
 
@@ -144,13 +144,13 @@ Add [services](create-product-or-service.md) that field technicians provide.
 
    - **Line Order**: If you have multiple services, set a numeric value that defines the order in which services show on the work order service list.
 
-   :::image type="content" source="media/work-order-incident-types-service.png" alt-text="Screenshot of a new incident type service entity.":::
+   :::image type="content" source="media/work-order-incident-types-service.svg" alt-text="Screenshot of a new incident type service entity.":::
 
 1. Select **Save and Close**.
 
 ### Add incident type service tasks
 
-[Service tasks](set-up-service-task-types.md) to guide field technicians through a checklist of tasks.
+[Service tasks](set-up-service-task-types.md) guide field technicians through a checklist of tasks.
 
 1. Open an incident type.
 
@@ -168,7 +168,7 @@ Add [services](create-product-or-service.md) that field technicians provide.
 
    - **Description** (optional): A description of the service line item.
 
-   :::image type="content" source="media/work-order-incident-types-service-task.png" alt-text="Screenshot of a new incident type service task.":::
+   :::image type="content" source="media/work-order-incident-types-service-task.svg" alt-text="Screenshot of a new incident type service task.":::
 
 1. Select **Save and Close**.
 
@@ -217,7 +217,7 @@ Use the incident type to fill in detail according to its configuration by adding
 
    Go to **Related** > **Characteristics** to find the requirement characteristics.
 
-   The duration and characteristics are passed to the related *Resource Requirement* for scheduling. So when you book the work order, filters are already set for these attributes.
+   The duration and characteristics are passed to the related **Resource Requirement*** for scheduling. So when you book the work order, filters are already set for these attributes.
 
 1. Save the work order and schedule it to provide the field technician with the relevant details.
 
@@ -229,7 +229,7 @@ You can add multiple incident types to a work order. For example, a machine has 
 
 1. Open an existing work order.
 
-1. To add another incident, go to **Related** > **Incidents** and select **+New Work Order Incident**.
+1. To add another incident, go to **Related** > **Incidents** and select **New Work Order Incident**.
 
 1. Select an incident type.
 
@@ -237,25 +237,27 @@ You can add multiple incident types to a work order. For example, a machine has 
 
    To book a work order with multiple incidents, the schedule assistant and Resource Scheduling Optimization look for a single resource to complete all incidents. With the schedule assistant, these filters can be edited at the time of scheduling as needed. If the same characteristic in different proficiency levels is required, the system looks for the most proficient resource.
 
-1. **Save** to apply the changes.
+1. Select **Save**.
 
 > [!TIP]
 > To change the incident type on a work order, delete the **Work Order Incident** first. Then, create a new work order incident with a different incident type. You can manage work order incidents on the **Work Order** > **Related** > **Incidents**.
 
-## Use customer assets with incident types
+## Add customer asset to a work order
 
 You can relate [customer assets](assets.md) to incidents to inform field technicians which asset needs attention and build a service history. You can have all incidents related to the same asset or even have each incident related to different customer assets as needed.
 
-:::image type="content" source="media/work-order-incident-type-customer-seet.png" alt-text="Screenshot of the customer asset entity with related work orders highlighted.":::
+To relate a customer asset to an incident, add the asset to an existing work order.
 
-For the primary incident type, choose the **Primary Incident Customer Asset**. This field only shows customer assets related to the work order service account by default.
+1. Open an existing work order.
 
-> [!TIP]
-> The lookup view references the *Customer Asset Lookup View*. To use a different view, you need to customize the system. Create a new view and select it in the *Additional Properties* section of the *Field Properties* for the *Primary Incident Customer Asset* on the *Work Order* form.
->
-> :::image type="content" source="media/customer-asset-lookup-view.png" alt-text="Screenshot of the Customer Asset Lookup View field properties.":::
+1. Search for and select the **Primary asset**. This field only shows customer assets related to the work order service account by default.
 
-For other incidents, select the incident on the work order form and go to the **Incident Relates To** section to choose a customer asset.
+   :::image type="content" source="media/work-order-incident-type-customer-asset.svg" alt-text="Screenshot of the customer asset entity with related work orders highlighted.":::
+
+   > [!TIP]
+   > The lookup view references the *Customer Asset Lookup View*. To use a different view, you need to customize the system. Create a new view and select it in the *Additional Properties* section of the *Field Properties* for the *Primary Incident Customer Asset* on the *Work Order* form.
+   >
+   > :::image type="content" source="media/customer-asset-lookup-view.png" alt-text="Screenshot of the Customer Asset Lookup View field properties.":::
 
 ## Schedule incidents for multiple resources
 
