@@ -1,5 +1,5 @@
 ---
-title: Customize business process flows
+title: Create or customize a business process flow
 description: Learn to customize business process flows in Sales, ensuring consistent data entry and customer interaction while reducing training costs.
 ms.date: 05/30/2024
 ms.topic: article
@@ -33,23 +33,23 @@ Business process flows appear relatively simple compared to other types of proce
 
 ## Entities available for business process flow
 
-Entities are sets of records. You can use the following entities to create business process flows in Dynamics 365 Sales and Dynamics 365 Sales Professional:
+Entities are sets of records. You can use the following entities to create business process flows in Sales Hub and Sales Professional apps:
 
 | Entity | Supported app |
 |--------|---------------|
-| Account | Dynamics 365 Sales and Dynamics 365 Sales Professional |
-| Appointment | Dynamics 365 Sales |
-| Contact | Dynamics 365 Sales and Dynamics 365 Sales Professional |
-| Email | Dynamics 365 Sales |
-| Invoice | Dynamics 365 Sales and Dynamics 365 Sales Professional |
-| Lead | Dynamics 365 Sales and Dynamics 365 Sales Professional |
-| Opportunity | Dynamics 365 Sales and Dynamics 365 Sales Professional |
-| Phone Call | Dynamics 365 Sales |
-| Product | Dynamics 365 Sales |
-| Quote | Dynamics 365 Sales and Dynamics 365 Sales Professional |
-| Task | Dynamics 365 Sales |
-| Team | Dynamics 365 Sales |
-| User | Dynamics 365 Sales |
+| Account | Sales Hub and Sales Professional |
+| Appointment | Sales Hub |
+| Contact | Sales Hub and Sales Professional |
+| Email | Sales Hub |
+| Invoice | Sales Hub and Sales Professional |
+| Lead | Sales Hub and Sales Professional |
+| Opportunity | Sales Hub and Sales Professional |
+| Phone Call | Sales Hub |
+| Product | Sales Hub |
+| Quote | Sales Hub and Sales Professional |
+| Task | Sales Hub |
+| Team | Sales Hub |
+| User | Sales Hub |
 
 ## Create a business process flow
 
