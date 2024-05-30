@@ -412,8 +412,6 @@
           href: nuance-enroll-customer.md
       - name: Forward your Teams calls to digital contact center
         href: voice-forward-calls.md
-      - name: Enable call forwarding
-        href: voice-call-forwarding.md
       - name: Configure voicemail to manage inbound calls
         href: voice-channel-voicemail.md
       - name: Configure direct callback
