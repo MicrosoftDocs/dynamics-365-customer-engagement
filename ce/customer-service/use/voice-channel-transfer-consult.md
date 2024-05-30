@@ -43,7 +43,8 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
     
     - **Transfer to an external PSTN number or Teams user**: Select **Number pad**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. 
     -  **Transfer to Teams user**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
-    Based on the voice stack, the following actions are applicable: <br>
+    
+    The transfer and consult behavior depend on the voice channel experience your administrator has configured. <br>
 
      ### [Enhanced voice](#tab/enhancedvoicestack)
 
