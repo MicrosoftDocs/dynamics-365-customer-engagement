@@ -81,10 +81,10 @@ The phone number is associated with the workstream.
 
 ## Transfer calls to external numbers and Teams users
 
-The transfer and consult options you see depend on the voice channel experience you're using. See: []
+The transfer and consult options you see depend on the voice channel experience you're using.
 
 - **Enhanced voice options**: Actions available for workstreams created in or migrated to the enhanced voice experience.
-- **Existing voice options**: Actions available for workstream that aren't migrated to the enhanced voice channel.
+- **Existing voice options**: Actions available for workstreams that aren't migrated to the enhanced voice channel.
 
 
 ### [Enhanced voice](#tab/enhancedvoice)
@@ -94,10 +94,12 @@ The transfer and consult options you see depend on the voice channel experience 
      - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
      - The customer hears a  transfer message followed by hold music. The original call continues.
      - The recording and transcription will continue when the call is transferred.
+     - Customers cannot send DTMF inputs to external numbers. 
      - Post conversation survey, if configured, will be triggered once the external agent or Teams user hangs up.
   - If the **Use bridged transfers** checkbox is not selected, the following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
      - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
      - The customer hears a transfer message followed by ringing. A new call begins.
+     - Customers can send DTMF inputs to external numbers. 
      - The recording and transcription is stopped.
      - Post conversation call survey isn't sent to the customer.
    
@@ -159,9 +161,6 @@ The supported configurations for the voice channel are as follows:
     }; 
  
   ```
-
-> [!NOTE]
-> The DTMF input isn't supported if the call is transferred to an external phone number.
 
 ### Configure call overflow for the voice queue
 
