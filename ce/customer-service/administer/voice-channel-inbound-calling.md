@@ -66,7 +66,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
 7. Select **Add** for **Custom automated messages**, then select a default template message as the trigger, and then enter the custom automated message text. For information about automated messages, see [Configure automated messages](configure-automated-message.md)
 
-8. Turn on the toggle for the agents to be able to transfer calls and consult with external numbers and Microsoft Teams users.
+8. Turn on the toggle for the agents to be able to transfer calls and consult with external numbers and Microsoft Teams users.  See [Transfer calls to external numbers and Teams users](#transfer-calls-to-external-numbers-and-teams-users).
 
 10. On the **Summary** page, select **Save and close**.
 
@@ -77,16 +77,13 @@ The phone number is associated with the workstream.
 
 ## Transfer calls to external numbers and Teams users
 
-Perform the steps to allow agents to consult with and transfer calls to external phone numbers and Microsoft Teams users. The options you see see differ based on the enhanced voice or existing voice experience:
+The transfer and consult options you see depend on the voice channel experience you're using.
 
-- Enhanced voice: Workstream is created for the enhanced voice channel or has been migrated to it.
-- Existing voice: Workstream is created for the existing voice channel and hasn't been migrate to the enhanced voice channel.
+- **Enhanced voice options**: Actions available for workstreams created in or migrated to the enhanced voice experience.
+- **Existing voice options**: Actions available for workstream that aren't migrated to the enhanced voice channel.
 
 
 ### [Enhanced voice](#tab/enhancedvoice)
-
-> [!IMPORTANT]
-> You will see the following options if you've migrated the workstream to the enhanced voice channel or created a new workstream in the enhanced voice channel.
 
   - Set the toggles for **External phone number** and **External Microsoft Teams users** in **Consult** and **Transfer**. This allows agents to consult with other agents or Teams subject matter experts during an ongoing call, and also enables them to transfer calls.
   - Select the **Use bridged transfers** checkbox. The following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:

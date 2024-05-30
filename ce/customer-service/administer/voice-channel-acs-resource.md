@@ -31,7 +31,7 @@ The voice channel in Omnichannel for Customer Service is built over Azure Commun
 
 ## Next Steps
 
-[Connect to Azure resource](config-acs-voice.md)  
+[Connect to Azure resource](voice-channel-connect-new-resource.md)  
 
 ### See also
 

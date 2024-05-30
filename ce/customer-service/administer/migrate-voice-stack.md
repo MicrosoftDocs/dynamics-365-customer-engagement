@@ -1,5 +1,5 @@
 ---
-title: Migrate to enhanced voice channel
+title: Migrate 
 description: Learn how to migrate to the enhanced voice channel
 author: gandhamm
 ms.author: mgandham
@@ -10,26 +10,27 @@ ms.date: 05/23/2024
 ms.custom: bap-template
 ---
 
+# Migrate workstreams to support interactive voice response Copilots
 
-# Migrate to enhanced voice channel
+The enhanced Copilot Studio provides interactive voice response(IVR) capabilities such as speech and Dual-Tone Multi-Frequency (DTMF) input, context variables, call transfer, speech, and DTMF customizations. To use these capabilities you must create a new bot in Copilot Studio and add it to workstream that the bot is compatible with. 
 
-You can upgrade your existing voice stack to the enhanced voice stack with minimal disruptions to your contact center operations. With the enhanced voice stack, you can connect to the [Copilot Studio bot with enhanced interactive voice response capabilities](/microsoft-copilot-studio/voice-overview), including speech and Dual-Tone Multi-Frequency (DTMF) input, context variables, call transfer, speech, and DTMF customization.
+If you are an existing voice channel user, make sure you migrate your workstreams for the enhanced voice bots to work.
 
    > [!NOTE]
-   > The enhanced voice experience is available out of the box for new customers. You must migrate to the enhanced voice experience only if you are using the existing voice experience.
+   > The enhanced voice experience is available out of the box for new customers.
 
 ## Prerequisites
 
 - You must have an Azure Communication Services resource connected to your Dynamics 365 Customer Service instance.
 - Your active Azure subscription is in the same tenant as your Dynamics 365 account.
-- Your role has **Contributor** privileges.
+- Have at least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure Communication Services resource only if you have contributor-level permissions.
 
-## Migration steps
+## How to migrate your workstreams
 
-1. Create and set up an event grid subscription for incoming calls. See [Enable incoming calls, call recording, and SMS services](config-acs-voice.md#enable-incoming-calls-call-recording-and-sms-services)
+1. Create and set up an event grid subscription for incoming calls. See [Enable incoming calls, call recording, and SMS services](voice-channel-connect-new-resource.md#enable-incoming-calls-call-recording-and-sms-services)
 1. [Update the event subscription in Azure](/azure/communication-services/quickstarts/events/subscribe-to-events?pivots=platform-azp#update-event-subscription) for recording webhook. Copy the value in the **Recording Web Hook Endpoint** field in the **Customer Service admin center** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services (Preview)** and paste it in the **Endpoint** field.
 1. Create a [new Copilot bot](/microsoft-copilot-studio/voice-get-started). When you migrate to the new voice experience, your phone numbers are updated. The existing classic voice bots aren't supported for the updated workstreams. We recommend that you update and rename your new Copilot bots similar to your previous bots. For example, if your Copilot classic bot is Returns bot, we recommend that you rename your Copilot Studio bot as Returns Bot-new.
-1. [Run the voice update](#run-the-voice-update).
+1. Run the voice update for workstreams.
 1. Test the voice update.
 
 ## Run the voice update

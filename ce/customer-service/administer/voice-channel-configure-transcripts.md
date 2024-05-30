@@ -91,7 +91,7 @@ The maximum file size of a recording can be 512 MB. The data storage costs with 
 
 [Overview of the voice channel](voice-channel.md)  
 [Agent experience: View call recordings and transcripts](../use/voice-channel-agent-experience.md)  
-[Enable imncoming calls, recording, and SMS services]((voice-channel-connect-new-resource.md#enable-incoming-calls-call-recording-and-sms-services))  
+[Enable imncoming calls, recording, and SMS services](voice-channel-connect-new-resource.md#enable-incoming-calls-call-recording-and-sms-services) 
 [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
 [Delete call recordings](voice-channel-delete-calls.md)
   
