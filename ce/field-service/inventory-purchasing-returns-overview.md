@@ -79,7 +79,7 @@ For each product at the warehouse, the system tracks:
 > ![Screenshot of an inventory transfer.](./media/inventory-transfer.png)
 
 
-You can also enable adjustments and transfers on the Field Service Mobile app to allow technicians to meet in the field and record an inventory transfer from one truck to another, for example.
+You can also enable adjustments and transfers on the Field Service mobile app to allow technicians to meet in the field and record an inventory transfer from one truck to another, for example.
 
 ## Work order inventory
 

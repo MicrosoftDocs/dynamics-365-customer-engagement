@@ -11,6 +11,7 @@ caps.latest.revision: 6
 robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
+description: Learn how to verify the service account for Microsoft Dynamics 365 for Customer Engagement service. Find solutions for common errors.
 ---
 # Verify the service account for a Microsoft Dynamics 365 for Customer Engagement service
 

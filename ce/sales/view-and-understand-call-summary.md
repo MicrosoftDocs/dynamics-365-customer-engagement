@@ -5,6 +5,7 @@ ms.date: 06/29/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # View and understand call summary page in Conversation Intelligence app
 
@@ -19,14 +20,14 @@ The information on the call summary page helps both sellers and managers:
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 
 ## Prerequisites
 
-- Configure conversation intelligence to process call recordings. More information: [Set up Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
-- To display the **Call Insights** tab in Sales Hub, ensure that [the latest version of Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) is installed in your organization.
+Configure conversation intelligence to process call recordings. More information: [Set up Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
+
 
 
 ## View the call summary page
@@ -53,7 +54,9 @@ The **Overview** tab displays the names of the people who participated in a conv
 
 ##### View categorization tag for short duration calls (Preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
 
 Conversation intelligence can detect and tag short duration calls for the following categories:
 
@@ -179,6 +182,6 @@ On the timeline, you can see how the conversation was segmented. The topics (if 
 
 [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)      
 [Track and manage activities](/dynamics365/sales-enterprise/manage-activities)  
-[View call recordings and transcripts in Dynamics 365 Customer Service](../customer-service/voice-channel-call-recordings-transcripts.md)
+[View call recordings and transcripts in Dynamics 365 Customer Service](../customer-service/use/voice-channel-call-recordings-transcripts.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

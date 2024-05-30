@@ -5,7 +5,7 @@ ms.date: 04/21/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 ---
 
@@ -118,6 +118,5 @@ The following screenshot shows an example of enhanced relationship analytics ava
 [Sales Insights and privacy laws](embedded-intelligence-privacy.md)  
 [View and export KPI data](view-export-KPI-data.md)  
 [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  
-[Relationship analytics and health FAQ](faqs-sales-insights.md#relationship-analytics-and-health)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

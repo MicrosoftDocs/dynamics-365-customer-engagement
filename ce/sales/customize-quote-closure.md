@@ -5,6 +5,7 @@ ms.date: 09/20/2023
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -57,7 +58,7 @@ You can add multiple buttons to enable different behaviors. For example, you can
 
 You can add these buttons to the command bar using [ribbon customizations](/power-apps/developer/model-driven-apps/customize-commands-ribbon).  
 
-To add a button, define a new custom action in the quote ribbon customization and use the `Sales.QuoteRibbonActions.Instance quickCloseQuoteWithoutDialog` javascript function from the  
+To add a button, define a new custom action in the quote ribbon customization and use the `Sales.QuoteRibbonActions.Instance.quickCloseQuoteWithoutDialog` javascript function from the  
 `QuoteRibbonActions.js` file for its command action.
 
 > [!IMPORTANT]

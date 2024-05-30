@@ -6,6 +6,7 @@ ms.topic: overview
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Coach sellers with conversation intelligence
@@ -100,7 +101,7 @@ Conversation intelligence for your Teams calls is available from the following a
 [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   
 
 [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)  
-[Conversation Intelligence FAQs](faqs-sales-insights.md#conversation-intelligence)
+[Conversation Intelligence FAQs](faq-conversation-intelligence.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

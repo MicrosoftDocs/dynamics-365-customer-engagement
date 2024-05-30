@@ -11,6 +11,7 @@ caps.latest.revision: 2
 robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
+description: Resolve issues with the Discovery Web Service URL on Dynamics 365 with our step-by-step guide. Ensure correct URL format and DNS entries.
 ---
 # The Discovery Web Service URL could not be resolved
 

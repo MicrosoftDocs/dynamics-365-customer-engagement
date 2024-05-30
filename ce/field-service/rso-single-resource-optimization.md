@@ -1,11 +1,12 @@
 ---
 title: Single resource optimization for Resource Scheduling Optimization
 description: Learn about single resource optimization for Resource Scheduling Optimization in Dynamics 365 Field Service
-ms.date: 09/30/2023
+ms.date: 10/09/2023
 ms.topic: how-to
 author: anilmur
 ms.author: anilmur
 ms.custom: bap-template
+ms.subservice: resource-scheduling-optimization
 --- 
 
 # Single resource optimization for Resource Scheduling Optimization
@@ -21,12 +22,12 @@ It helps accommodate schedule changes that occurred during the day, when a resou
 To optimize an individual resource's schedule, a dispatcher can manually run single resource optimization. Workflows can also trigger single resource optimization. Unlike other Resource Scheduling Optimization scenarios, you can't schedule single resource optimization runs.
 
 > [!NOTE]
-> Starting with Field Service version 8.8.99.10 and Resource Scheduling Optimization version 3.40.0.500, single resource optimization runs take requirements and existing bookings into account. As a consequence, the system can delete existing bookings to create a schedule that better matches the optimization goal. In earlier versions, single optimization runs only considered existing bookings.
+> Starting with Field Service version 8.8.99.10 and Resource Scheduling Optimization version 3.4.0.623, single resource optimization runs take requirements and existing bookings into account. As a consequence, the system can delete existing bookings to create a schedule that better matches the optimization goal. In earlier versions, single optimization runs only considered existing bookings.
 
 ## Prerequisites
 
 - Dynamics 365 Field Service version 8.8.99.10 or newer.
-- Resource scheduling optimization version 3.40.0.500 or newer.
+- Resource scheduling optimization version 3.4.0.623 or newer.
 - **Optimize Schedules** is set to **Yes** for the bookable resource you want to run single resource optimization for.
 
 ## Step 1: Set up a goal

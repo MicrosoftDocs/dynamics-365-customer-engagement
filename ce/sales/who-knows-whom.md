@@ -5,6 +5,7 @@ ms.date: 08/07/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # How to get introduced to leads or contacts  
@@ -75,7 +76,6 @@ You can choose to opt out if you don't want Dynamics 365 to collect and analyze 
 ### See also
 
 [Configure who knows whom](configure-who-knows-whom.md)  
-[Who knows whom FAQs](faqs-sales-insights.md#who-knows-whom)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 

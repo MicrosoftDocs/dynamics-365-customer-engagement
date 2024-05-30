@@ -39,8 +39,8 @@ Make sure your computer meets all requirements before you install the Unified Se
 [Configure recommended settings for Unified Service Desk](configure-settings-unified-service-desk.md)  
 [Deploy Omnichannel for Customer Service package on Unified Service Desk](omnichannel-customer-service-package.md)  
 [Configure agent and supervisor configurations in Unified Service Desk](../oc-customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
-[Customize Customer summary form](../../customer-service/customize-customer-summary.md)  
-[Customize the conversation form](../../customer-service/customize-session-form.md)  
+[Customize Customer summary form](../../customer-service/administer/customize-customer-summary.md)  
+[Customize the conversation form](../../customer-service/administer/customize-session-form.md)  
 [Configure notification (Screen pop) for agents](../oc-customizer/configure-notification-screen-pop-agents.md)  
 
 

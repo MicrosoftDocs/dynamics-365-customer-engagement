@@ -7,7 +7,7 @@ ms.topic: article
 ms.assetid: aabede7c-a3fa-459d-a237-1f1d03ba3e62
 author: udaykirang
 ms.author: udag
-ms.reviewer: 
+ms.reviewer: udag
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
@@ -86,7 +86,5 @@ For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../
 ### See also
 
 [Configure Notes analysis](configure-notes-analysis.md)  
-[Notes analysis FAQs](faqs-sales-insights.md#notes-analysis)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

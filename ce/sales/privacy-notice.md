@@ -7,6 +7,7 @@ ms.custom: "dyn365-ai-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 
@@ -50,7 +51,7 @@ Azure components and services that are involved with conversation intelligence a
 [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] Preview uses Azure Data Factory, a cloud data integration service, to orchestrate and automate the movement and transformation of data (including Customer Data) between services.
 
 **Installation and removal of conversation intelligence**    
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users and administrators who are allowed to register new applications in Azure Active Directory, can enable conversation intelligence by signing in to the app and consenting to the required permissions. Administrators can change these permissions, which can include removing access to the app, at https://myapps.microsoft.com 
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users and administrators who are allowed to register new applications in Microsoft Entra ID, can enable conversation intelligence by signing in to the app and consenting to the required permissions. Administrators can change these permissions, which can include removing access to the app, at https://myapps.microsoft.com 
 
 **Handling privacy laws for conversation intelligence data**    
 It is the enterprise customer’s responsibility to comply with the privacy laws and regulations. If you choose to honor and execute a data subject rights (DSR) request for delete or edit, review the information in the following note:

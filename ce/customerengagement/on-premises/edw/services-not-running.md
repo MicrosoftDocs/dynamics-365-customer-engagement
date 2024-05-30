@@ -11,6 +11,7 @@ caps.latest.revision: 6
 robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
+description: Troubleshoot Dynamics 365 services not running on your computer. Learn how to install, start, and configure the Indexing Service on Windows Server.
 ---
 # Services not running
 

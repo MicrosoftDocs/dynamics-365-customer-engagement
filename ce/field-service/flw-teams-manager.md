@@ -1,7 +1,7 @@
 ---
-title: Field Service (Preview) Teams app for the Frontline Manager
-description: Learn about the Dynamics 365 Field Service (Preview) Teams and Viva Connections app to create, view, and edit work orders.
-ms.date: 09/01/2023
+title: Manage work orders with Field Service in Teams (frontline managers)
+description: Learn how service managers and dispatchers can use the Dynamics 365 Field Service Teams app to create, view, update, and schedule work orders in Teams.
+ms.date: 05/08/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -10,70 +10,151 @@ ms.custom: bap-template
 ms.subservice: m365-integrations
 ---
 
-# Field Service (Preview) Teams app for the Frontline Manager
+# Manage work orders with Field Service in Teams (frontline managers)
 
-[!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
+The Dynamics 365 Field Service app for Teams enables frontline managers to manage work orders without disrupting their workflow. Without leaving Teams, you can create, view, and edit work orders and quickly respond to requests for service or questions about existing requests.
 
-The Dynamics 365 Field Service (Preview) for Teams uses Microsoft Viva Connection dashboard cards to enable frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly in Teams. You can quickly respond to requests for service or questions about existing requests.
+## Prerequisites
 
-[!INCLUDE[us-uk-only](../includes/fsp-m365-us-uk-only.md)]
-
-## Select your environment to open your dashboard the first time
-
-1. In Teams, select **Apps** and select the name of the Viva Connections app provided by your admin. Your dashboard displays.
-
-1. On a card that says **Get Started**, select **Settings**. The Team Settings page displays.
-
-1. Select your Field Service environment.
-
-   :::image type="content" source="media/fsp-environment-flw.png" alt-text="Screenshot of Field Service environment selection":::
-
-1. Once the environment is validated, select **Return to Viva Connections dashboard**.
-
-   :::image type="content" source="media/fsp-viva-dashboard-flm.png" alt-text="Field Service (Preview) Viva Connections dashboard":::
+- You have completed [Get started with Field Service in Teams](flw-teams-manager-get-started.md).
 
 ## Create a work order in Teams
 
-1. From your Microsoft Viva dashboard, select **Create work order** on the **Work orders all in one place** tile.
+1. From your Viva Connections dashboard, select **Create work order** on the **Work orders all in one place** tile.
 
-1. At a minimum, enter the required information for the work order.
+   From your Field Service Teams **Home** page, select the **Create work order** button.
 
-   - [Service Account](accounts.md)
-   - [Work Order Type](create-work-order-types.md)
-   - [Price List](create-price-list.md)
+   :::image type="content" source="media/fsp-teams-create-button.png" alt-text="Screenshot of  the Field Service Teams app with the Create work order button highlighted.":::
 
-   :::image type="content" source="media/fsp-viva-create-work-order.png" alt-text="Screenshot of Field Service (Preview) Teams Create a work order":::
+1. Fill in the required information.
 
-1. Select **Save**. After the work order is created, the work order number displays. The **System Status** default is **Unscheduled**.
+   If a value doesn't appear in the list, select **+ New item type** to create it in the Field Service app. Save and close the Field Service app. Type the new value or select **Refresh** to make it appear in the list.
 
-   :::image type="content" source="media/fsp-viva-pop-out-icon.png" alt-text="Screenshot of Field Service (Preview) Teams work orders highlighting pop-out icon":::
+   - [Service account](accounts.md)
+   - [Work order type](create-work-order-types.md)
+   - [Price list](create-price-list.md)
 
-   > [!TIP]
-   > If you want to open the work order in Field Service, select the pop-out icon.
+   :::image type="content" source="media/fsp-viva-create-work-order.png" alt-text="Screenshot of Field Service Teams Create a work order":::
 
-## View work orders in Teams
+1. Select **Save**.
 
-1. From your Microsoft Viva dashboard, select **See all** on the **Work orders all in one place** tile to see up to 50 work orders.
+   The work order number appears. If you want to open the work order in the Dynamics 365 Field Service app, select the open web app icon :::image type="icon" source="media/fsp-open-web-app-icon.png":::.
 
-   > [!TIP]
-   > To view more work orders in the Field Service app, select **See more** at the bottom of the list.
+## Schedule or reschedule a work order
 
-   :::image type="content" source="media/fsp-viva-work-order-list.png" alt-text="Screenshot of Field Service (Preview) Teams list of work orders":::
+The Field Service app helps you schedule work orders. Scheduling suggestions are based on technicians' availability and skills, proximity to the customer's location, promised time windows, and the business unit.
 
-1. To find a particular work order, enter the work order ID in the **Find by ID** box and select **Search**.
+1. Open the work order you need to schedule or reschedule.
 
-1. To filter the work orders by status or priority, select **Filter**, make your selection, and then select **Apply**. To remove a filter, select **Filter**, clear each selection, and then select **Apply**.
+1. To schedule, select **Schedule** under **Suggested actions**. To reschedule, select **View schedule** under **Suggested actions** and then **Reschedule**.
 
-1. Select a work order to view or edit the details.
+   The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list.
 
-## Edit a work order in Teams
+1. Review the list of suggestions. You can search for a technician by name, filter by dates, or sort the list by start time or travel time.
 
-1. From your Microsoft Viva dashboard, select **See all** on the **Work orders all in one place** tile. A list of work orders display.
+   If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
 
-1. Select the work order you want to edit. Use **Find by ID** or **Filter** to find the work order if necessary.
+   :::image type="content" source="media/fsp-flm-schedule-options.png" alt-text="Field Service Teams scheduling.":::
 
-   :::image type="content" source="media/fsp-viva-edit-work-order.png" alt-text="Screenshot of Field Service (Preview) Teams work order to edit":::
+   If the system doesn't find suggestions or you don't find the right technician, use the [schedule board in Field Service](preview-schedule-board.md) instead.
+
+1. To assign the work order to a technician, select the **Book resource** icon.
+
+   The technician is booked and the status is changed to **Scheduled**. A confirmation displays.
+
+1. Select the back arrow to return to the work order.
+
+## Move a booking
+
+If you don't need to change the assigned technician, just the date or time of the service appointment, you can move the booking. If needed, you can also assign the work order to a different resource.
+
+1. Open a scheduled work order and select **View schedule**.
+
+1. Select **Move booking**.
+
+   :::image type="content" source="media/fsp-flm-move-booking.png" alt-text="Screenshot of Field Service Teams with Move booking highlighted":::
+
+1. Select the new date and time and, if needed, a different resource.
+
+1. Select **Update**.
+
+   The technician is booked. A confirmation displays.
+
+1. Select the back arrow to return to the work order.
+
+## View a work order
+
+You can view all work orders, overdue work orders, or work orders in progress. An overdue work order is an unscheduled or scheduled work order where the time promised has passed.
+
+1. From your Viva Connections dashboard, select **See all** from the **Work orders all in one place** tile.
+
+   From your Field Service Teams **Home** page, select one of the following:
+
+   - **All work orders**
+   - **Overdue**
+   - **In progress**
+
+   :::image type="content" source="media/fsp-viva-work-order-list.png" alt-text="Screenshot of Field Service Teams list of work orders":::
+
+   Work orders are listed with the most recent one first.
+
+1. Find the work order you want to view:
+
+   - Type the work order ID in the **Find by ID** box and select **Search**. Clear any filters first.
+
+   - To filter the list by status or priority, select **Filter**, make your choice, and then select **Apply**.
+
+   - To remove a filter, select **Filter**, clear each selection, and then select **Apply**.
+
+1. Select a work order to view or edit it.  
+
+   :::image type="content" source="media/fsp-viva-edit-work-order.png" alt-text="Screenshot of Field Service Teams work order to edit":::
+
+While you're viewing a work order, you can also:
+
+- [**Schedule**](#schedule-or-reschedule-a-work-order) or **View schedule** to schedule or view scheduling information.
+
+- Reflect new or changed information. Select the **Refresh** icon.
+
+- Open the work order in Dynamics 365 Field Service. Select the open web app :::image type="icon" source="media/fsp-open-web-app-icon.png"::: icon.
+
+- Open a map to locate the service address. Select the **Open in Bing Maps** :::image type="icon" source="media/fsp-flm-map-icon.png"::: icon.
+
+## Edit a work order
+
+1. [View the work order](#view-a-work-order) you want to edit.
 
 1. Make the necessary changes and select **Save**.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+## Add attachments to a work order
+
+Add installation manuals, maintenance documents, specifications, or troubleshooting tips relevant to a work order. Attachments enable technicians to ask Copilot questions and quickly obtain answers allowing for quicker diagnostics and problem-solving. As technicians work on jobs, they can interact with Copilot for real-time advice.
+
+To add knowledge articles, go to [Link a knowledge article to a work order](field-service-knowledge-management.md#link-a-knowledge-article-to-a-work-order).
+
+To add notes, Microsoft Word, or PDF documents, perform the following steps.
+
+1. [View the work order](#view-a-work-order).
+
+1. Select the open web app :::image type="icon" source="media/fsp-open-web-app-icon.png"::: icon to open the work order in Dynamics 365 Field Service.
+
+1. Select the **Timeline tab**.
+
+1. Select the **Attachment** icon. Browse and select the item, and then select **Add note and close**.
+
+   :::image type="content" source="media/timeline-tab.svg" alt-text="Field Service Work Order page, Timeline tab.":::
+
+## Share work order information
+
+[!INCLUDE [fsp-share-wo](../includes/fsp-share-wo.md)]
+
+## Call for remote collaboration through Remote Assist
+
+[!INCLUDE [fsp-launch-ra](../includes/fsp-launch-ra.md)]
+
+## Switch environments
+
+[!INCLUDE [fsp-switch-env](../includes/fsp-switch-env.md)]
+
+
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

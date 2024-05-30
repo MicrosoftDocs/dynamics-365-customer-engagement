@@ -4,7 +4,7 @@ description: Learn about scheduling optimization using Resource Scheduling Optim
 author: FeifeiQiu
 ms.author: feiqiu
 ms.date: 06/08/2018
-ms.topic: article
+ms.topic: conceptual
 
 ms.subservice: resource-scheduling-optimization
 ---

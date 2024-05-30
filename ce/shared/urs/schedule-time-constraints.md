@@ -15,9 +15,6 @@ On the **Settings** tab of a work order, set the **Time From/To Promised** field
 
 When searching for suitable resources to work on the requirements, the schedule assistant populates the filters accordingly. Resources available for the entire duration show as options.
 
-> [!TIP]
-> Use [service level agreements (SLAs) for work orders](../../field-service/sla-work-orders.md) to automatically populate promised time and help dispatchers schedule to meet the SLAs.
-
 ## Set a time zone for the requirement
 
 Define a time zone on the requirement to help dispatchers view schedule assistant results in the time zone of the customer. On a requirement, select **Modify Calendar** and choose a time zone from the dropdown.

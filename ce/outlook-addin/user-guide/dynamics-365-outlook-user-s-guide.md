@@ -7,7 +7,6 @@ ms.reviewer:
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: index-page 
 applies_to: 
   - Dynamics 365 apps 
   - Dynamics 365 apps (on-premises)
@@ -23,6 +22,7 @@ search.audienceType:
   - admin
   - customizer
   - enduser
+  ms.topic: conceptual
 ---
 # Dynamics 365 for Outlook User Guide
 

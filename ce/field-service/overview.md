@@ -1,7 +1,7 @@
 ---
 title: Overview of Dynamics 365 Field Service (contains video)
 description: Learn about Dynamics 365 Field Service and its features.
-ms.date: 02/03/2023
+ms.date: 05/22/2024
 ms.topic: overview
 ms.custom: bap-template
 author: jshotts
@@ -12,7 +12,7 @@ ms.author: jasonshotts
 
 The Dynamics 365 Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set up mobile workers for success when they're onsite with customers fixing issues.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs4Cu]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1kIXq]
 
 The Field Service application enables you to:
 
@@ -23,7 +23,7 @@ The Field Service application enables you to:
 - Organize and track resolution of customer issues
 - Communicate an accurate arrival time to customers
 - Provide accurate account and equipment history to the field technician
-- Keep customers updated with the status of their service call and when it's resolved
+- Keep customers updated with the status of their service call and the resolution
 - Schedule onsite visits when it's convenient for the customer
 - Avoid equipment downtime through preventative maintenance
 
@@ -75,18 +75,14 @@ Work orders describe the work that a technician needs to perform at a customer l
 
    > ![Screenshot of schedule board.](media/work-order-process-2.png)
 
-3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history, and can use their device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet is not available.
+3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history. They can use their device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet isn't available.
 
-    After performing the work, the technician can mark the work order as complete or as requiring a follow-up; the dispatcher can then see this change on the schedule board.
+    After the technician completes the work, they mark the work order as complete or as requiring a follow-up; the dispatcher can then see this change on the schedule board.
 
-4. As technicians submit completed work orders, equipment service history and inventory levels update automatically. This allows service managers to manage and track inventory needed, as well as track movement of parts from order to inventory to onsite installation.
+4. As technicians submit completed work orders, equipment service history and inventory levels update automatically. Service managers can manage and track inventory needed, and track movement of parts from order to inventory to onsite installation.
 
-    For example, if an equipment part is installed at a customer's location during an installation or repair, the system will document a reduction in inventory from the related warehouse or truck and document the part as a new customer asset along with installation/repair details. Closing a work order will then generate an invoice for any used parts or labor.
+    For example, if an equipment part is installed at a customer's location during an installation or repair, the system documents a reduction in inventory from the related warehouse or truck and document the part as a new customer asset along with installation/repair details. Closing a work order generates an invoice for any used parts or labor.
 
   > ![Screenshot of completed work order.](media/work-order-process-4.png)
-
-## Additional resources
-
-Explore analyst research and other [resources to learn more about Dynamics 365 Field Service](https://dynamics.microsoft.com/field-service/resources/).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

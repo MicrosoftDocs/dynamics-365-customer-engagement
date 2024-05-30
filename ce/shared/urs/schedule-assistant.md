@@ -1,6 +1,6 @@
-The schedule assistant is a semi-automated feature that helps dispatchers assign requirements to ideal resources.
+The schedule assistant helps dispatchers assign requirements to ideal resources.
 
-The schedule assistant recommends resources that match criteria, like availability or skills, for requirements. The system also estimates travel time for the recommended resources, which helps dispatchers plan work accordingly.
+It recommends resources that match criteria, like availability or skills, for requirements. The system also estimates travel time for the recommended resources, which helps dispatchers plan work accordingly.
 
 When the dispatcher identifies the right resource for the job, they book the resource.
 
@@ -8,13 +8,13 @@ When the dispatcher identifies the right resource for the job, they book the res
 
 If a requirement is ready for scheduling, you can launch the schedule assistant from various areas.
 
-- Directly from the schedule board: Open the requirements pane, choose a requirement and select **Find availability**.
+- Directly from the schedule board: Open the requirements pane, choose a requirement, and select **Find availability**.
 
 :::image type="content" source="../../field-service/media/scheduling-assistant-find-availability.png" alt-text="Screenshot showing how to launch the schedule assistant from the schedule board.":::
 
 Select the **Book** option:
 
-- On the record form of a [scheduling-enabled entity](../../field-service/schedule-new-entity.md).
+- On the record form of a [scheduling-enabled entity](../../field-service/schedule-new-entity.md). Schedule assistant uses that entity's associated time zone. You can view or change the time zone by opening the entity and selecting **Modify Calendar** in the command bar.
 - On the *resource requirement* form.
 - On the *[requirement group](../../field-service/multi-resource-scheduling-requirement-groups.md)* form.
 - From list view of a [scheduling-enabled entity](../../field-service/schedule-new-entity.md), after selecting a record.
@@ -23,7 +23,7 @@ Select the **Book** option:
 
 After launching the schedule assistant, it populates filters based on criteria like work location, characteristics, territory, resource types, and more. Dispatchers can refine results by adjusting filters to meet their scheduling needs and find the right resource.
 
-The maximum search resource availability limit is 1000 entries. For organizations with a large number of resources, search might be incomplete. You can customize the *Resource Availability Retrieval Limit* of *Booking Setup Metadata* to increase the limit. However, it can decrease the search performance.
+The maximum search resource availability limit is 1,000 entries. For organizations with a large number of resources, search might be incomplete. You can customize the *Resource Availability Retrieval Limit* of *Booking Setup Metadata* to increase the limit. However, it can decrease the search performance.
 
 ## Time zone for schedule assistant search results
 
@@ -41,12 +41,7 @@ To rebook requirements, you have several options.
 
 :::image type="content" source="../../field-service/media/schedule-assistant-rebook.png" alt-text="Screenshot of the schedule board, showing the rebook option.":::
 
-Select the **Rebook** option:
-
-- On the record form of a [scheduling-enabled entity](../../field-service/schedule-new-entity.md).
-- On the *resource requirement* form.
-- On the *[requirement group](../../field-service/multi-resource-scheduling-requirement-groups.md)* form.
-- From list view of a [scheduling-enabled entity](../../field-service/schedule-new-entity.md), after selecting a record.
+Select the **Rebook** option after selecting a record.
 
 ## Book the same work order again
 
