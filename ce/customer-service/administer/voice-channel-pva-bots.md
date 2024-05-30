@@ -32,7 +32,7 @@ The following prerequisites must be met for the Copilot Studio bot:
 - [Build a voice-enabled Copilot](/microsoft-copilot-studio/voice-build-from-template)
 - The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel).
 - The **Enable voice** option is selected in the **Omnichannel** section of the **Agent transfers** setting.
-- Migrate your workstream to the enhanced voice experience to use the enhanced voice capabilities of the Copilot Studio bots. More information: [Migrate to enhanced voice channel](migrate-voice-stack.md)
+- Migrate your workstream to use the enhanced voice capabilities of the Copilot Studio bots. More information: [Migrate to enhanced voice channel](migrate-voice-stack.md). Once you migrate your workstream, classic bots are no longer supported.
 
 ## Configure a bot for voice
 
