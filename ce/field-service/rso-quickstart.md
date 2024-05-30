@@ -37,7 +37,18 @@ For a guided walkthrough, see the following video.
 - Make sure the person who sets up Resource Scheduling Optimization has the **Field Service-Administrator** and **Resource Scheduling Optimization** security roles and the **Field Service-Administrator** and **Resource Scheduling Optimization-Administrator** field security profiles. For more information, see: [Resource scheduling optimization configuration](./rso-configuration.md).
 
 - Resource scheduling optimization works with Universal Resource Scheduling to schedule field service work orders. A working knowledge of how Universal Resource Scheduling works will help with this quickstart. For more details, view the article on [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md).
-- 
+
+## Glossary
+
+- **Jobs**: Work that needs to be completed like work orders, cases, and projects. There's no "jobs" entity in Field Service or Resource Scheduling Optimization.
+- **Resources**: Anyone or anything that needs to be scheduled to a job including people, equipment, and facilities.
+- **Schedules, bookings**: Schedules and bookings are used interchangeably and refer to the appointment time slot when a resource is assigned to a job.
+- **Requirements**: The entity related to a job that defines what type of resource is needed to complete the work. It's also the entity that gets scheduled via Resource Scheduling Optimization.
+- **Run**: The process when Resource Scheduling Optimization performs its scheduling and optimization functions.
+- **Optimize**: Attempt to find the best schedules to reduce travel time and maximize utilization.
+- **Scope**: The jobs and resources that Resource Scheduling Optimization considers for optimization.
+- **Goal**: Defines the ideal outcome of a run. For example, minimize travel time, maximize utilization, handle high priority jobs, or scheduling jobs as soon as possible. Multiple goals are ranked because sometimes there are trade-offs.
+
 ## Step 1: Turn on Resource Scheduling Optimization
 
 After deploying Resource Scheduling Optimization into your environment, you must enable it. 
