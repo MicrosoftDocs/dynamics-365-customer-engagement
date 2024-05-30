@@ -121,7 +121,7 @@ Select **Access**, and provide **Contributor** access to your report authors and
 
 ## Step 4: Embed customized reports back to Dynamics 365
 
-After your report authors create and publish the customized reports, you can allow Dynamics users to access these reports from the Customer service workspace. This is optional.
+After your report authors create and publish the customized reports, you can allow Dynamics users to access these reports from the Customer service workspace. This step is optional.
 
 1. Select the data model reports.
 
