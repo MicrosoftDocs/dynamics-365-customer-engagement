@@ -1,7 +1,7 @@
 ---
 title: Migrate configurations for channels using solutions
 description: Learn to use solutions for exporting and importing configurations pertaining to channels from source to target environments in Omnichannel for Customer Service.
-ms.date: 04/23/2024
+ms.date: 05/29/2024
 ms.topic: how-to
 author: mjfjesus
 ms.author: marcoje
@@ -461,3 +461,4 @@ After you import the unified routing-related configuration data successfully fro
 ### See also
 
 [Migrate configurations for record routing using solutions](migrate-record-routing-config-using-solutions.md)  
+[Microsoft Power Platform Build Tools for Azure DevOps](/power-platform/alm/devops-build-tools)  
