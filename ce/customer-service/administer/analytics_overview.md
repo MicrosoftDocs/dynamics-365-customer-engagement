@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi 
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 05/29/2024
+ms.date: 05/30/2024
 ms.custom: bap-template
 ---
 
@@ -24,13 +24,17 @@ Customer Service provides a variety of default dashboards and reports. These das
 
 Supervisors can access and view these dashboards from the Customer Service workspace app.
 
-- [Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md#customer-service-historical-analytics-reports)
+**Historical**
 
-- [Omnichannel historical analytics dashboards](../use/omnichannel-analytics-insights.md)
+- [Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md#customer-service-historical-analytics-reports): Use performance summary and detailed reports on cases, agents, and topics to improve customer service.
 
-- [Omnichannel real-time analytics dashboards](../use/intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard)
+- [Omnichannel historical analytics dashboards](../use/omnichannel-analytics-insights.md): Use key performance indicators coupled with AI-generated insights to get a view into the support operations across various channels.
 
-- [Knowledge analytics reports](../use/knowledge-search-analytics-cs.md)
+- [Knowledge analytics reports](../use/knowledge-search-analytics-cs.md): Use article and search term insights to understand how agents use knowledge articles to resolve customer issues.
+
+**Real time**
+
+[Omnichannel real-time analytics dashboards](../use/intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard): Monitor key operational metrics in real-time and make course corrections at the appropriate time to help keep service levels high.
 
 ## Customize features
 
