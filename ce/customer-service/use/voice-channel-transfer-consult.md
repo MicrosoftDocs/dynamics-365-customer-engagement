@@ -57,6 +57,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
      - The original call continues. 
      -  If the external user doesn't accept the call, customers will hear a system message before the call ends.
      - Post call survey is sent to the customer if the external user or Teams user ends the call.
+     
      **Disabled**<br>
      - Customer hears ringing.
      - The original call ends and a new call begins.
