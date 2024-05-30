@@ -12,17 +12,15 @@ ms.custom: bap-template
 
 # Enable call forwarding
 
-You can enable your agents to forward calls to chosen external numbers when they are away from their desk.
+You can enable your agents to forward calls to chosen external numbers when they're away from their desk.
 
 ## Prerequisites
 
-- You must be on the vNext voice release.
-- The agent must be assigned an inbound profile with the **Call transfer to external phone number** enabled.
+- The enhanced voice experience must be available for your organization.
+- The agent must have an inbound profile assigned with the **Call transfer to external phone number** enabled.
 
 
 ## Configure call forwarding
-
- Perform the following steps to configure call forwarding:
 
 1. Go to Customer Service admin center.
 1. Select **User management** in **Customer support**.
