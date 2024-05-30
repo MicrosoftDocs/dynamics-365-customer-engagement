@@ -11,11 +11,7 @@ ms.custom: bap-template
 
 # Dynamics 365 Field Service mobile app (preview) troubleshooting
 
-[!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
-
 This article lists common issues with the [Field Service mobile app (preview)](mobile-powerapp-newux-overview.md) and steps to resolve them. You need administrator permissions in Field Service for all resolution steps.
-
-[!INCLUDE [public-preview-note](../../includes/public-preview-note.md)]
 
 ## Error on start due to permission/privilege issues
 

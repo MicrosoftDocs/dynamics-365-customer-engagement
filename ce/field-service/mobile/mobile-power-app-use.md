@@ -21,4 +21,4 @@ The following articles describe how frontline workers or technicians get the mos
 
 We have recently released Preview features in the app, learn more about it [here](mobile-powerapp-newux-overview.md).
 
-[!INCLUDE [footer-banner](../includes/footer-banner.md)]
+[!INCLUDE [footer-banner](../../includes/footer-banner.md)]

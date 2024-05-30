@@ -94,7 +94,7 @@ sections:
           answer: |
            Yes, frontline workers [enabled as Microsoft Entra B2B collaborator](/azure/active-directory/external-identities/what-is-b2b) (guest) can access the mobile app by [switching to the guest tenant](/power-apps/mobile/tenant-switcher).
            
-           [!INCLUDE [azure-ad-to-microsoft-entra-id](../includes/azure-ad-to-microsoft-entra-id.md)]
+           [!INCLUDE [azure-ad-to-microsoft-entra-id](../../includes/azure-ad-to-microsoft-entra-id.md)]
 
            If a guest user needs to access the application with a personal account, use a formatted deep link to access the guest tenant.
            ```
