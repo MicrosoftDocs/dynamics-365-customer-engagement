@@ -1,0 +1,1 @@
+download, sign in, choose org, navigate bookings in agenda view

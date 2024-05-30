@@ -357,17 +357,13 @@ items:
       - name: Use the new UX
         items: 
         - name: Get started
-          href: mobile/get-work-done-mobile-app.md
+          href: mobile/get-started-newux.md
         - name: User settings
-          href: mobile/get-work-done-mobile-app.md
-        - name: Travel to a job
-          href: mobile/get-work-done-mobile-app.md
+          href: mobile/user-settings-newux.md
         - name: Do and record your work
-          href: mobile/get-work-done-mobile-app.md
+          href: mobile/do-work-newux.md
         - name: Work with Copilot
-          href: mobile/get-work-done-mobile-app.md
-        - name: View a Guide
-          href: mobile/get-work-done-mobile-app.md
+          href: mobile/copilot-newux.md
 
     - name: Customize the mobile app
       items:
