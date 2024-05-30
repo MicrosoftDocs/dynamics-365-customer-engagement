@@ -18,15 +18,14 @@ ms.custom: bap-template
 
 To route customers call to the best department, diagnose issues, collect information, and give recommendations, conversational IVR bots speak to customers when they call in. Copilot Studio makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
 
-Some of the features of the Copilot Studio bots for voice are as follows:
 
-- Collect customer input through speech or Dual-Tone Multi-Frequency (DTMF). Customers can talk without following a script, and the Copilot understands their commands or questions. Customers can also enter data by pressing keys on their phone keypad. The Copilot can detect when customers have stopped speaking by using silence detection and respond accordingly.
-- Adjust the voice output by using Speech Synthesis Markup Language (SSML). You can change the tone, pitch, and speed of the voice that interacts with customers.
-- Enable barge-in to let customers interrupt the Copilot at any time. You can also use long-running operation messages to let customers know that the voice copilot is working on their request.
-- Control the call flow by transferring or hanging up calls. If a customer wants to talk to a live agent, the voice copilot can transfer the call to an available agent or an external phone number. If the customer's issue cannot be solved by the voice copilot, it can end the call and give an appropriate message.
-- Customizable voices in the Omnichannel for Customer Service configuration experience.
-- Questions in Copilot Studio using "Boolean" types do not prompt users with "Options are _Yes_ or _No_".
-- All bot messages can be interrupted by the caller.
+
+The following voice capabilities are available for the Copilot Studio bots:
+
+- Collect customer input through speech or [Dual-Tone Multi-Frequency (DTMF)](/microsoft-copilot-studio/voice-dtmf). Customers can talk without following a script, and the Copilot understands their commands or questions. Customers can also enter data by pressing keys on their phone keypad. The Copilot can detect when customers have stopped speaking by using silence detection and respond accordingly.
+- Adjust the voice output by using [Speech Synthesis Markup Language (SSML)](/microsoft-copilot-studio/voice-configuration#format-speech-synthesis-with-ssml). You can change the tone, pitch, and speed of the voice that interacts with customers.
+- Enable [barge-in](/microsoft-copilot-studio/voice-configuration#enable-barge-in) to let customers interrupt the Copilot at any time. You can also use long-running operation messages to let customers know that the voice copilot is working on their request.
+- Control the call flow by [transferring](microsoft-copilot-studio/voice-configuration#transfer-a-call-to-an-agent-or-external-phone-number) or [terminate](/voice-configuration#configure-call-termination) calls. If a customer wants to talk to a live agent, the voice copilot can transfer the call to an available agent or an external phone number. If the customer's issue cannot be solved by the voice copilot, it can end the call and give an appropriate message.
 
 ## Prerequisites
 
@@ -34,14 +33,18 @@ The following prerequisites must be met for the Copilot Studio bot:
 
 - The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 - The **Enable voice** option is selected in the **Omnichannel** section of the **Agent transfers** setting.
+- Migrate your workstream to the enhanced voice experience to use the enhanced voice capabilities of the Copilot Studio bots. More information: [Migrate to enhanced voice channel](migrate-voice-stack.md)
 
 ## Configure a bot for voice
 
-1. In the Customer Service admin center or Omnichannel admin center (deprecated) app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**.
+1. In the Customer Service admin center or Omnichannel admin center (deprecated) app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**. 
 
     [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
-1. On the **Add Bot** pane, select a bot from the **Name** box.
+1. On the **Add Bot** pane, select a bot from the **Name** box. 
+
+   > [!NOTE]
+   >  Classic bots aren't supported in the enhanced voice experience. You must use add an [enhanced bot](/microsoft-copilot-studio/voice-overview).
 
    :::image type="content" source="../media/add-bot.png" alt-text="Select a bot.":::
 

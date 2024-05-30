@@ -383,7 +383,7 @@
         - name: Connect to Azure Communication Services
           href: voice-channel-acs-resource.md
         - name: Connect to an Azure resource
-          href: config-acs-voice.md
+          href: voice-channel-connect-new-resource.md
         - name: Sync from Azure Communication Services
           href: voice-channel-sync-from-acs.md
         - name: Disconnect from Azure Communication Services
