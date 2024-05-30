@@ -15,10 +15,11 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 > [!NOTE]
-> You can use the [enhanced voice capabilities](/microsoft-copilot-studio/voice-overview) of the Copilot Studio bots by upgrading your voice workstreams. See: [Migrate to enhanced voice channel](migrate-voice-stack.md). The enhanced voice experience is available out of the box for new customers.
+> Voice-enabled Copilots provide [enhanced voice capabilities](/microsoft-copilot-studio/voice-overview). If you are an existing voice customer,[migrate your existing workstreams](migrate-voice-stack.md) to make sure they are compatible with the enhanced Copilots. New customers get the enhanced experience out of the box.
+
+[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 

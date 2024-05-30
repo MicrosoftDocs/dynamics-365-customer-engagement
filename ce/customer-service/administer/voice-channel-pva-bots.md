@@ -18,8 +18,6 @@ ms.custom: bap-template
 
 To route customers call to the best department, diagnose issues, collect information, and give recommendations, conversational IVR bots speak to customers when they call in. Copilot Studio makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
 
-
-
 The following voice capabilities are available for the Copilot Studio bots:
 
 - Collect customer input through speech or [Dual-Tone Multi-Frequency (DTMF)](/microsoft-copilot-studio/voice-dtmf). Customers can talk without following a script, and the Copilot understands their commands or questions. Customers can also enter data by pressing keys on their phone keypad. The Copilot can detect when customers have stopped speaking by using silence detection and respond accordingly.
@@ -31,7 +29,8 @@ The following voice capabilities are available for the Copilot Studio bots:
 
 The following prerequisites must be met for the Copilot Studio bot:
 
-- The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
+- [Build a voice-enabled Copilot](/microsoft-copilot-studio/voice-build-from-template)
+- The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel).
 - The **Enable voice** option is selected in the **Omnichannel** section of the **Agent transfers** setting.
 - Migrate your workstream to the enhanced voice experience to use the enhanced voice capabilities of the Copilot Studio bots. More information: [Migrate to enhanced voice channel](migrate-voice-stack.md)
 
@@ -56,7 +55,6 @@ More information:
 
 - [Author template topics in Copilot Studio](/power-virtual-agents/authoring-template-topics)
 
-- [Create topics and test your bot](https://go.microsoft.com/fwlink/?linkid=2062988)
 
 ### Configure handoff from Copilot Studio to Omnichannel for Customer Service
 

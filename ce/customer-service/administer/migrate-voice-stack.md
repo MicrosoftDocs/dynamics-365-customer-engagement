@@ -1,6 +1,6 @@
 ---
 title: Migrate 
-description: Learn how to migrate to the enhanced voice channel
+description: Migrate workstreams to support voice-enabled Copilots
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -10,9 +10,9 @@ ms.date: 05/23/2024
 ms.custom: bap-template
 ---
 
-# Migrate workstreams to support interactive voice response Copilots
+# Migrate workstreams to support voice-enabled Copilots
 
-The enhanced Copilot Studio provides interactive voice response(IVR) capabilities such as speech and Dual-Tone Multi-Frequency (DTMF) input, context variables, call transfer, speech, and DTMF customizations. To use these capabilities you must create a new bot in Copilot Studio and add it to workstream that the bot is compatible with. 
+Voice-enabled Copilots provide enhanced interactive voice response (IVR) capabilities such as speech and Dual-Tone Multi-Frequency (DTMF) input, context variables, call transfer, speech, and DTMF customizations. To use these capabilities in the voice channel, you must create a new bot in Copilot Studio and add it to workstream that the bot is compatible with. 
 
 If you are an existing voice channel user, make sure you migrate your workstreams for the enhanced voice bots to work.
 
