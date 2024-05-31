@@ -84,7 +84,7 @@ The phone number is associated with the workstream.
 You see the following transfer and consult options:
 
 - **Enhanced voice options**: Actions available for workstreams created in or migrated to the enhanced voice experience.
-- **Existing voice options**: Actions available for workstreams that aren't migrated to the enhanced voice channel.
+- **Existing voice options**: Actions available for works treams that aren't migrated to the enhanced voice channel.
 
 
 ### [Enhanced voice](#tab/enhancedvoice)
@@ -96,12 +96,12 @@ You see the following transfer and consult options:
     - The recording and transcription will continue when the call is transferred.
     - Customers cannot send DTMF inputs to external numbers. 
     - Post conversation survey, if configured, will be triggered once the external agent or Teams user hangs up.<br>
-  If the **Use bridged transfers** checkbox is not selected, the following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:<br>
-    - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
-    - The customer hears a transfer message followed by ringing. A new call begins.
-    - Customers can send DTMF inputs to external numbers. 
-    - The recording and transcription is stopped.
-    - Post conversation call survey isn't sent to the customer.
+ If the **Use bridged transfers** checkbox is not selected, the following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
+   - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
+   - The customer hears a transfer message followed by ringing. A new call begins.
+   - Customers can send DTMF inputs to external numbers. 
+   - The recording and transcription is stopped.
+   - Post conversation call survey isn't sent to the customer.
    
 ### [Existing voice](#tab/existingvoice)
 
