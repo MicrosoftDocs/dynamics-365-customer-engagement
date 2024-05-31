@@ -27,7 +27,7 @@ If you are an existing voice channel user, make sure you migrate your workstream
 
 ## How to migrate your voice workstreams
 
-1. Create and set up an event grid subscription for incoming calls. See [Enable incoming calls, call recording, and SMS services](voice-channel-connect-new-resource.md#enable-incoming-calls-call-recording-and-sms-services)
+1. Create and set up an event grid subscription for incoming calls. See [Enable call inoming calls, call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services).
 1. [Update the event subscription in Azure](/azure/communication-services/quickstarts/events/subscribe-to-events?pivots=platform-azp#update-event-subscription) for recording webhook. Copy the value in the **Recording Web Hook Endpoint** field in the **Customer Service admin center** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services (Preview)** and paste it in the **Endpoint** field.
 1. Create a [Copilot bot](/microsoft-copilot-studio/voice-get-started). When you migrate to the new voice experience, your phone numbers are updated. The existing classic voice bots aren't supported for the updated workstreams. We recommend that you update and rename your new Copilot bots similar to your previous bots. For example, if your Copilot classic bot is named as "Returns bot", rename your Copilot Studio bot as "Returns Bot-new".
 1. Test the voice update.
