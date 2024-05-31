@@ -135,7 +135,6 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
 
    > [!NOTE]
-
    >  - You can add only those users who are configured for unified routing.
    >  - After 20 minutes of being added to a queue, agents must refresh their dashboards to be able to receive calls.
 
@@ -163,7 +162,6 @@ The supported configurations for the voice channel are as follows:
   ```
 
  > [!NOTE]
-
  > The DTMF input isn't supported if the call is transferred to an external phone number in the existing voice experience.
 
 ### Configure call overflow for the voice queue
