@@ -26,7 +26,7 @@ Ensure that the following prerequisites are met:
 ## Set up a voice workstream
 
 > [!IMPORTANT]
-> If the enhanced voice experience is available for your region, you can create new workstreams that support the [voice-enabled Copilots](/microsoft-copilot-studio/voice-overview). For existing deployments, make sure that you [update your existing workstreams](migrate-voice-stack.md) to support voice Copilots.
+> If the enhanced voice experience is available for your region, you can create new workstreams that support the [voice-enabled Copilots](/microsoft-copilot-studio/voice-overview). For existing deployments, make sure that you [update your existing workstreams](migrate-voice-workstream.md) to support voice Copilots.
 
 Do the following to configure a workstream for voice:
 

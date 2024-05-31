@@ -391,7 +391,7 @@
         - name: Disconnect from Azure Communication Services
           href: voice-channel-disconnect-from-acs.md
       - name: Migrate workstreams to support voice-enabled Copilots
-        href: migrate-voice-stack.md    
+        href: migrate-voice-workstream.md    
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling
