@@ -1,7 +1,7 @@
 ---
 title: Define and track your sales goals
 description: Define, track, and measure performance-based Sales and Customer Service goals in Dynamics 365.
-ms.date: 05/30/2024
+ms.date: 05/31/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -75,6 +75,8 @@ If your metric type is Amount, you need to further specify the amount data type:
 
 > [!NOTE]
 > After you select the metric type and data type, and save the metric, you cannot change the type.
+
+More information: [Create or edit a goal metric](create-edit-goal-metric.md)
 
 ## Define rollup fields
 
