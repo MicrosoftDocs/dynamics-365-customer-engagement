@@ -86,8 +86,6 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 1. Select **Use existing resource** and specify the following values:
      - **ACS Resource name** and **ACS Resource ID**: The **Name** and **Resource ID** field values you copied in the previous section.
      - **Connection String**: The **Connection string** field value you copied in the previous section.
-        > [!NOTE]
-        > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in Customer Service admin center becomes invalid. An error message is also displayed in the connection string field in Customer Service admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
      - Paste the values you've copied in [Get application and tenant IDs](#get-application-and-tenant-ids-from-the-azure-portal) to the following fields:
      
        - **Event grid app id**: The value of the **Application (client) ID** 
@@ -97,16 +95,18 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
-1. Select **Add number**.
-1. [Add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
+After you configure the Azure Communication Services resource, the **Manage Azure Communication Services** page displays the **Event grid app id**, **Event grid app tenant id**, **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)**.
 
-Next, [configure voice workstream settings](create-workstreams.md) for the phone number, set up [inbound](../voice-channel-route-queues.md) and [outbound](voice-channel-outbound-calling.md) calling, and enable call recording and SMS services.
+You can copy the subscriber endpoint values such as **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)** to use them in the following section.
+
+> [!NOTE]
+> **Incoming call Web Hook Endpoint (preview)** is available only if the enhanced voice experience is deployed in your region.
 
 ## Enable incoming calls, call recording, and SMS services
 
 Azure Communication Services integrates with [Azure Event Grid](/azure/event-grid/overview) to send real-time notifications for chat, telephony, SMS, video, and voice calling events. The Azure Event Grid, in turn, uses event subscriptions to route event messages to subscribers.
 
-To enable call recording and SMS services, you must first configure your applications to listen to Azure Communication Services events by registering [Event Grid system topics](/azure/event-grid/system-topics). Then, subscribe to the specific call recording or SMS events by creating Event Grid subscriptions on the Azure portal.
+To enable call recording and SMS services, you must first configure your applications to listen to Azure Communication Services events by registering [Event Grid system topics](/azure/event-grid/system-topics). Then, subscribe to the specific incoming call, call recording, or SMS events by creating Event Grid subscriptions on the Azure portal.
 
 > [!IMPORTANT]
 >
@@ -134,7 +134,7 @@ To enable call recording and SMS services, you must first configure your applica
     - **Filter to Event Types**: You can filter events for call recording, incoming calls, or SMS services.
         - To filter event types for recording services, select **Recording File Status Updated** in the list.
         - To filter event types for SMS services, select **SMS Received** and **SMS Delivery Report Received** in the list.
-        - To filter event types for SMS services, select **Incoming Call** in the list.
+        - To filter event types for incoming calls, select **Incoming Call** in the list.
     - **Endpoint Type**: Select **Web Hook** in the list.
     - **Endpoint**: Select **Select an endpoint**, and then enter the incoming call, recording, or SMS web hook endpoint from the Customer Service admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** to get the following web hook endpoints:
         - **Recording Web Hook Endpoint** to enable recording services.
@@ -164,41 +164,11 @@ To enable call recording and SMS services, you must first configure your applica
 
 1. In the **Communication Provider Setting Entry columns and data** section, view the **EventGridAppID** and **EventGripAppTenantID** fields in the **Key** column, and note down the corresponding ID values from the **Values** column.
 
-#### Get the subscriber endpoint for recording
-
-1. In Dynamics 365 Customer Service admin center or Omnichannel admin center, open the phone number settings.
-
-    - Customer Service admin center:
-
-        1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
-        2. In **Accounts**, select **Manage** for **Phone numbers**.
-
-    - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
-
-1. Select a phone number, and then select **Advanced**.
-
-1. Select **Copy** next to **Recording Web Hook Endpoint** and note the value.
-
-#### Get the subscriber endpoint for SMS
-
-1. In Dynamics 365 Customer Service admin center or Omnichannel admin center, open the phone number settings.
-
-    - Customer Service admin center:
-
-        1. In the site map, under **Customer support**, select **Channels**.
-        2. To the right of **Phone numbers**, select **Manage**.
-
-    - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
-
-1. Select a phone number, and then select **Advanced**.
-
-1. Select **Copy** next to **SMS Web Hook Endpoint** and note the value.
-
-
 ## Next steps
 
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
-[Bring your own carrier](voice-channel-bring-your-own-number.md)
+[configure voice workstream settings](create-workstreams.md)  
+[inbound](../voice-channel-route-queues.md) and [outbound](voice-channel-outbound-calling.md) calling.  
 
 ### See also
 
