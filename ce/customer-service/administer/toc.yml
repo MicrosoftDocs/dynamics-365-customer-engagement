@@ -390,7 +390,7 @@
           href: voice-channel-sync-from-acs.md
         - name: Disconnect from Azure Communication Services
           href: voice-channel-disconnect-from-acs.md
-      - name: Migrate to enhanced voice channel
+      - name: Migrate workstreams to support voice-enabled Copilots
         href: migrate-voice-stack.md    
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
