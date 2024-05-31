@@ -11,7 +11,7 @@ ms.author: jasonshotts
 
 Incident types act as service templates that allow users to quickly [create work orders](create-work-order.md) for the most common types of jobs that your organization performs. Incident types are also used to define specific work order issues and recommended resolutions. They can provide other details like duration, service tasks, products, and more.
 
-Where **work order types** define the general [category of a work order](create-work-order-types.md) (for instance: inspection, repair, or maintenance), **incident types** define the specific request of a work order and add more details to the work order type.
+Where **work order types** define the general [category of a work order](create-work-order-types.md) (such as inspection, repair, or maintenance), **incident types** define the specific request of a work order and add more details to the work order type.
 
 For example, an incident type can be:
 
@@ -138,7 +138,7 @@ Add [services](create-product-or-service.md) that field technicians provide.
 
    - **Duration**: How long the service takes the technician.
 
-   - **Description** (optional): A description of the product line item that appears on the customer invoice.
+   - **Description** (optional): A description of the service line item that appears on the customer invoice.
 
    - **Internal Description** (optional): A description with details for the field technician.
 
@@ -166,7 +166,7 @@ Add [services](create-product-or-service.md) that field technicians provide.
 
    - **Line Order**: If you have multiple service tasks, set a numeric value that defines the order in which service tasks show on the work order services list. The order of service tasks is important to reflect steps in a process that should be followed.
 
-   - **Description** (optional): A description of the service line item.
+   - **Description** (optional): A description of the service task line item.
 
    :::image type="content" source="media/work-order-incident-types-service-task.svg" alt-text="Screenshot of a new incident type service task.":::
 
@@ -189,7 +189,7 @@ Add [services](create-product-or-service.md) that field technicians provide.
 
    - **Rating Value**: The required level of proficiency. If left blank, all proficiency levels are acceptable if the resource has the matching characteristic.
 
-1. Select **Save and Close** to apply your changes to the incident type.
+1. Select **Save and Close**.
 
 ### Add incident type resolutions
 
@@ -201,7 +201,7 @@ Resolutions let technicians document whether the incident was completed.
 
 1. Choose a **Resolution** or create a new one.
 
-1. Select **Save and Close** to apply your changes to the incident type.
+1. Select **Save and Close**.
 
 ## Add an incident type to a work order
 
@@ -215,7 +215,7 @@ Use the incident type to fill in detail according to its configuration by adding
 
    The **Estimate Information** reflects the incident product quantity specified in the incident type.
 
-   Go to **Related** > **Characteristics** to find the requirement characteristics.
+1. Go to **Related** > **Characteristics** to find the requirement characteristics.
 
    The duration and characteristics are passed to the related **Resource Requirement*** for scheduling. So when you book the work order, filters are already set for these attributes.
 
@@ -271,13 +271,13 @@ When using incidents with requirement groups:
 > [!TIP]
 > If a work order should be performed by multiple resources, we recommended using requirement group templates instead of multiple incident types. Let's say you have a work order with two incident types, each requiring different skills. The system will look for a single resource to fulfill the job. The scheduler would need to perform extra steps to schedule it so two different resources arrive at the same time. If you use a requirement group template, the schedule assistant will simultaneously search for both a single resource with both skills or two resources each with one skill to arrive at the same time.
 
-## Use AI to get Incident Type suggestions
+## Use AI to get incident type suggestions
 
-With Field Service v8.8.20.12+, *Incident Type* AI suggestions recommend ways to improve your incident types by learning from work orders. For example, you have an incident type that is configured to use a certain product. However, technicians frequently also use a different product to complete the job. With AI, the system learns and suggests updating the related product on the incident type for future work orders.
+With Field Service v8.8.20.12+, incident type AI suggestions recommend ways to improve your incident types by learning from work orders. For example, you have an incident type that is configured to use a certain product. However, technicians frequently also use a different product to complete the job. With AI, the system learns and suggests updating the related product on the incident type for future work orders.
 
 :::image type="content" source="media/ai-incident-type-suggestions-list.png" alt-text="Screenshot of the intelligence tab in Field Service Setting showing a list of incident type suggestions.":::
 
-Administrators can enable the feature in Intelligence section on the Field Service Settings. For more information, go to [Intelligence settings](configure-default-settings.md#intelligence-settings).
+Administrators can enable the feature in the Intelligence section on the **Field Service Settings** page. For more information, go to [Intelligence settings](configure-default-settings.md#intelligence-settings).
 
 AI suggestions fall into three categories:
 
