@@ -96,7 +96,7 @@ You see the following transfer and consult options:
     - The recording and transcription will continue when the call is transferred.
     - Customers cannot send DTMF inputs to external numbers. 
     - Post conversation survey, if configured, will be triggered once the external agent or Teams user hangs up.<br>
- If the **Use bridged transfers** checkbox is not selected, the following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
+ - If the **Use bridged transfers** checkbox is not selected, the following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
    - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
    - The customer hears a transfer message followed by ringing. A new call begins.
    - Customers can send DTMF inputs to external numbers. 
