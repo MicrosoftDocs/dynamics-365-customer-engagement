@@ -48,7 +48,8 @@ To update the Teams phone number in the user profile, perform the following step
 
 ## Enable agents to consult with Microsoft Teams users via VOIP (Preview)
 
-If you've updated your voice stack, you can enable your agents to consult with or transfer voice calls to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation. With this feature, SMEs can participate in customer service conversations directly from Microsoft Teams without having to configure a phone number. Any Teams users in your tenant will be displayed in the Teams search box and will be able to receive calls from your agents. 
+If you've updated to the enhanced voice experience, you can enable your agents to consult with or transfer voice calls to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation. With this feature, SMEs can participate in customer service conversations directly from Microsoft Teams without having to configure a phone number. Any Teams users in your tenant is displayed in the Teams search box can receive calls from your agents.
+
 Calling services are charged on a per minute per participant basis at 0.004 per participant per minute and is less than the Public Switched Telephone Network (PSTN) charges of $0.013 per participant per minute.
 
 > [!NOTE]
