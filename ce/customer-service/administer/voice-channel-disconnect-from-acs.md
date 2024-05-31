@@ -38,7 +38,7 @@ To permanently release or remove one or more phone numbers from your organizatio
 1. Select **Disconnect** for **Disconnect from Azure**. A dialog that asks you to confirm the disconnection is displayed.
 1. Select **Disconnect** again.
    Any phone numbers associated with the resource are no longer displayed on the **Phone numbers** page.
-1. Delete and clean up the event grid subscriptions you've created as a part of [enabling call and SMS services](voice-channel-connect-existing-resource.md#enable-call-recording-and-sms-services) to avoid errors.
+1. Delete and clean up the event grid subscriptions you've created as a part of [enabling call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services) to avoid errors.
 
 ### See also
 
