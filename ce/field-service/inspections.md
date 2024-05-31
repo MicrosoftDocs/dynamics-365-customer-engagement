@@ -1,7 +1,7 @@
 ---
 title: Add inspections to work orders (contains video)
 description: Learn about how to use inspections in Dynamics 365 Field Service.
-ms.date: 03/18/2023
+ms.date: 05/31/2024
 ms.topic: conceptual
 author: josephshum-msft
 ms.author: jshum
@@ -71,29 +71,9 @@ Create an inspection that can be reused and added to multiple work orders.
    - Use the **Required** toggle to make the inspection question mandatory.
    - To add more details for an inspection question, select the **Gear** icon and fill out the details.
 
-1. Add pages from the **Page** drop-down to:
+1. To group questions together in an organized way, add pages from the **Page** drop-down. You can also use pages to make it easier to [add logic to multiple questions at one time](inspections-advanced.md).
 
-   - Group questions together to organize them in a logical way by type, phase, and so on.
-   - Make it easier to add logic to multiple questions at one time.
-
-1. After entering all the questions, select **Save**.
-
-1. Select the **Preview** tab to see the inspection from a technician's perspective.
-
-1. Select the **Designer** tab and make any changes if necessary. Then, select **Save**.
-
-   > [!NOTE]
-   > Once you publish the inspection, you can't edit it in the preview version.
-
-   :::image type="content" source="./media/inspections-create.png" alt-text="Screenshot of the Field Service inspection, highlighting both the preview tab and the publish option.":::
-
-1. To add the inspection into the work order process, a service task type must be associated with it.
-
-   To automatically create the service task type, select **Publish and generate a new service task type** and then confirm.
-
-   :::image type="content" source="./media/inspections-service-task.png" alt-text="Screenshot of a new service task type in Field Service, pointing to the inspection that appears.":::
-
-   To associate the inspection with an existing service task type or manually create the service task type, select **Publish**, confirm, and then [associate inspection to service task type](#associate-inspection-to-service-task-type).
+1. Select **Save**. The inspection is in a draft status so you can continue to make changes and add logic. When you think the inspection is ready, [review and publish](#review-and-publish).
 
 ### Question types
 
@@ -120,7 +100,26 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
   > [!div class="mx-imgBorder"]
   > ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
 
-## Associate inspection to service task type
+## Review and publish
+
+1. In the **Preview** section, test the inspection from a technician's perspective.
+
+1. In the **Designer** section, make any changes if necessary. Then, select **Save**.
+
+   > [!NOTE]
+   > Once you publish the inspection, you can't edit it.
+
+   :::image type="content" source="./media/inspections-create-preview-publish.png" alt-text="Screenshot of the Field Service inspection, highlighting both the preview section and the publish option.":::
+
+1. To add the inspection into the work order process, a service task type must be associated with it.
+
+   To automatically create the service task type, select **Publish and generate a new service task type** and then confirm.
+
+   :::image type="content" source="./media/inspections-service-task.png" alt-text="Screenshot of a new service task type in Field Service, pointing to the inspection that appears.":::
+
+   To associate the inspection with an existing service task type or manually create the service task type, select **Publish**, confirm, and then [associate inspection to service task type](#associate-inspection-to-service-task-type).
+
+### Associate inspection to service task type
 
 Associate the inspection to a service task type. This association is necessary because inspections aren't added directly to work orders, they're added as part of **Work Order Service Tasks**.
 
@@ -142,13 +141,13 @@ It's common to add service task types to incident types in order to bundle work 
 
 1. [Create a new work order](create-work-order.md) and select **Save**.
 
-1. Select the **Tasks** tab and select **Add task**.
+1. Select the **Tasks** section and select **Add task**.
 
 1. For **Task Type**, select the service task type you created that has an associated inspection.
 
 1. Select **Save and Close**. The inspection can't be filled out until the task is saved. Once the technician completes the inspection, the completed inspection appears.
 
-   :::image type="content" source="./media/inspections-service-task-work-order2.png" alt-text="Screenshot of the tasks tab on a work order in Field Service.":::
+   :::image type="content" source="./media/inspections-service-task-work-order2.png" alt-text="Screenshot of the tasks section on a work order in Field Service.":::
 
 Alternatively, your inspection service task can be added to the work order via a work order incident type.
 
@@ -169,6 +168,8 @@ Technicians can view and complete inspections on the [Dynamics 365 Field Service
 
 1. When finished, select **Mark Complete** or set **Complete %** to 100.
 
+1. Enter the actual duration the task took to complete.
+
 1. Enter a **Result** to report on the overall inspection:
 
    - Pass
@@ -176,7 +177,7 @@ Technicians can view and complete inspections on the [Dynamics 365 Field Service
    - Partial Success
    - NA
 
-1. Enter the actual duration the task took to complete.
+1. Select **Save and Close**.
 
 If needed, you can select  **More** > **Clear Responses** to start over, and permanently delete all responses for this service task inspection.
 

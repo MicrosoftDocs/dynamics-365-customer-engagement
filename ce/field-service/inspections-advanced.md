@@ -21,21 +21,27 @@ Watch a brief video overview:
 
 ## Add branching and conditional logic
 
-An inspection can look and act differently depending on how the technician answers.
+An inspection can look and act differently depending on how the technician answers. Add branching and conditional logic in the **Logic** section of the inspection designer. The inspection must be in a draft status.
 
-Add branching and conditional logic in the **Logic** section of the inspection designer.
+1. Open a draft inspection and select **Logic**.
 
-Based on the response to a question, inspections can:
+1. To define a condition, select a question and response.
 
-- **Make Page visible**: If an inspection includes more than one page, show a specific page when the condition is true.
+1. Define the action for the selected response.
 
-- **Show the question**: Show a specific question when the condition is true.
+   - **Make Page visible**: If an inspection includes more than one page, show a specific page when the condition is true.
 
-    A question's visibility maps to a single rule. If you want multiple questions to determine whether the question is shown, add more conditions to the rule.
+   - **Show the question**: Show a specific question when the condition is true.
 
-- **Change to Required**: Make the question required when the condition is true.
+      A question's visibility maps to a single rule. If you want multiple questions to determine whether the question is shown, add more conditions to the rule.
 
-- **Skip to question**: Skip to a specific question when the condition is true.
+   - **Change to Required**: Make the question required when the condition is true.
+
+   - **Skip to question**: Skip to a specific question when the condition is true.
+
+1. Continue to add conditions and actions if needed and then select **Apply rule & close**.
+
+1. Add other rules if needed.
 
 ## Copy an inspection
 
@@ -59,7 +65,7 @@ Revising an inspection doesn't change service tasks retroactively. Service tasks
 
 1. Select **Revise** in the command bar.
 
-    The system creates a new version of the inspection in a draft state.
+    The system creates a new version of the inspection in a draft status.
 
 1. Modify the draft as needed.
 
@@ -81,7 +87,7 @@ Export an inspection as a PDF file to send the questions in an email. Although t
 
 Export inspection responses as a PDF file to share them by email, for instance. This option doesn't support custom date or number formats, right-to-left languages, Hindi, or Chinese.
 
-In the work order service task, select **Export Responses** to download them as a PDF file.
+Open the work order service task in a new window and select **Export Responses** to download them as a PDF file.
 
 :::image type="content" source="media/export-inspection-response-as-pdf.png" alt-text="Screenshot showing export response as PDF experience on service task.":::
 
