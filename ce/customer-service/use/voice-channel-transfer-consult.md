@@ -58,25 +58,17 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
      -  If the external user doesn't accept the call, customers will hear a system message before the call ends.
      - Post call survey is sent to the customer if the external user or Teams user ends the call.
      
-     :::image type="content" source="../media/bridged-transfer.jpg" alt-text="Screenshot of bridged transfers.":::
-     
      **Disabled**<br>
      - Customer hears ringing.
      - The original call ends and a new call begins.
      - Customers won't hear a message before the call ends if the external user doesn't accept the call.
- 
-     :::image type="content" source="../media/non-bridged-transfer.jpg" alt-text="Screenshot of non-bridged transfers.":::   
 
      ### [Existing voice](#tab/existingvoicestack)
  
-      
       If you selected either the external PSTN number or Teams to transfer the call, you can talk to the secondary agent who picks up the call, while the customer is on hold. To complete the call transfer, you must select the transfer button next to the secondary agent name in the call window. The secondary agent is now the primary agent and you're removed from the call. However, the secondary agent is disconnected from the call if the primary agent doesn't complete the transfer within eight minutes.
-
      
     > [!NOTE]
     > The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.
-
-     :::image type="content" source="../media/transfer-old-experience.jpg" alt-text="Screenshot of bridged transfers.":::
 
 
 ## Use consult to collaborate with other agents or supervisors
@@ -110,9 +102,7 @@ When you initiate a consult, the following actions occur:
        - If the consult is with an external participant (PSTN or Teams through PSTN), select **Transfer** next to the external phone number in the call window. After the call is transferred, the secondary agent becomes the primary agent. 
        - If the consult is with an internal agent or a supervisor, select **Transfer** on the call controls. The application displays the **Agent** tab with the agent or supervisor in the consult. 
        - After the call is transferred, the primary agent becomes the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call ends for the customer.
-       :::image type="content" source="../media/consult-transfer-bridged.jpg" alt-text="Screenshot of bridged consult then transfer.":::
        -  If your administrator hasn't enabled the **Use bridged transfers** the external user receives a new call request. The customer hears a message that they're being transferred and then ringing. You won't be on the new call.
-       :::image type="content" source="../media/transfer-consult-nonbridged.jpg" alt-text="Screenshot of non bridged transfers.":::
 
    - **Consult with external PSTN number**: Select the **Number Pad**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. 
     By default, the consultation is private, the customer is on hold while the primary agent speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation. <br>
