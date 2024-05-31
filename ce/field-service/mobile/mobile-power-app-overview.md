@@ -27,4 +27,3 @@ In 2024, Microsoft released a refreshed user experience for parts of the mobile 
 - [Download and install the app on a mobile device](download-get-started-mobile-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

@@ -55,51 +55,15 @@ After you sign in, the app might download data to your device so that you can us
 
 ## View scheduled work orders
 
-## [Unified Interface UX](#tab/vCurrent)
-
 The first screen shows a calendar view of your scheduled work orders. At the bottom of the screen, select **More** > **Show as** > **Read-only Grid** to see your bookings as a list instead.
 
 :::image type="content" source="./media/mobile-2020-booking-view.jpg" alt-text="Renderings of four mobile devices showing the Bookings screens in the Field Service mobile app.":::
 
-## [New mobile UX (preview)](#tab/vNext)
-
-
-
-
-
-The home screen lists today's scheduled bookings. 
-
-Use the buttons below the list for easy access to the bookings home page (**Home**), the [embedded Guides feature](access-related-apps-mobile-app.md) (**Library**), and the [app navigation menu](#navigate-the-app) (**More**).
-
-To view and change the app settings, provide feedback, and change the environment, select your profile picture at the top of the screen.
-
-Scroll up or down in the agenda view to see bookings in the future or the past. Tap **Home** to return to today.
-
-:::image type="content" source="./media/mobile-newux-bookings.png" alt-text="Rendering of a mobile device showing the Agenda View with today's and tomorrow's bookings in the Field Service mobile app.":::
-
-Swipe left or right on any work order in the list to use a quick action to change the booking status or get directions.
-
-:::image type="content" source="./media/mobile-newux-bookings-quickaction-swipe.png" alt-text="Renderings of five mobile devices showing the use of work order quick actions in the Field Service mobile app.":::
-
----
-
 ## Navigate the app
-
-## [Unified Interface UX](#tab/vCurrent)
 
 To open the navigation menu, select the menu icon in the upper-left corner of the screen. The navigation menu quickly gets you to important information like accounts, contacts, customer assets, or to submit time entries.
 
 :::image type="content" source="./media/mobile-2020-sitemap-account.jpg" alt-text="Renderings of three mobile devices showing app navigation and an account detail screen in the Field Service mobile app.":::
-
-## [New mobile UX (preview)](#tab/vNext)
-
-
-
-To open the navigation menu, select **More** at the bottom of the screen.
-
-:::image type="content" source="./media/mobile-newux-navigation.png" alt-text="Renderings of two mobile devices showing the navigation menu in the Field Service mobile app.":::
-
----
 
 ## View recent items and pin important ones
 

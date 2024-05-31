@@ -33,29 +33,11 @@ Select a booking to see more details about the booking time and the work order. 
 
 ## Do and record your work
 
-## [Unified Interface UX](#tab/vCurrent)
-
 On the **Service tab**, you see work order details like work order service tasks, products, and services. Mark a service or service task as complete and include any products you used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details.
 
 :::image type="content" source="./media/mobile-2020-work-order-service-notes-new.jpg" alt-text="Renderings of three mobile devices showing service tasks, parts used, and the Notes screen in the Field Service mobile app.":::
 
-## [New mobile UX (preview)](#tab/vNext)
-
-
-
-When you're ready to start work, select the booking tile on the booking home page. The booking details view has three tabs, **Tasks**, **Products**, and **Services**. Mark a service or service task as complete and add any products you used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details form.
-
-:::image type="content" source="./media/mobile-newux-work.png" alt-text="Renderings of four mobile devices showing the General, Tasks, Services, and Products screens in the Field Service mobile app.":::
-
-Streamlined lists in the new mobile UX views remove unnecessary icons and support up to five columns of data. Currently, users can change the view of a list. It always shows the default view, which is enabled for the app module. If there's no default view defined, a list renders the first view configured for the selected entity. The Booking view is handled differently from other views configured in the application. The Bookings view uses the view configuration of *Bookings - Agenda View*.
-
-:::image type="content" source="media/mobile-list-configurable.png" alt-text="List of accounts showing the new list type with removed icons and custom columns.":::
-
----
-
 ## Add notes and attachments
-
-## [Unified Interface UX](#tab/vCurrent)
 
 On the **Notes** tab, you can add text, image, audio, and video notes and link them to the booking. You can also attach files and capture signatures. These notes help you record and build a work history. Images added to notes [use image optimization](/power-apps/mobile/optimize-images-upload) to save storage space.
 
@@ -66,18 +48,6 @@ The **Timeline** tab shows you other historical data related to the booking.
 Notes are available only when they're included with the Bookable Resource Booking form. You can't use notes with other forms.
 
 If you can't save a note, you might not have the right permissions to the table that notes are stored in. Ask your administrator to make sure that your [security role has access](users-licenses-permissions.md) to the `msdyn_bookableresourcebookingquicknotes` table.
-
-## [New mobile UX (preview)](#tab/vNext)
-
-
-
-On the **Timeline** tab, select **+ Add note** to add text and images to your note. Notes taken here are visible on this booking's timeline. You can attach a single image by selecting the file attachment icon or select the image icon to choose multiple files and add them to the message body.
-
-:::image type="content" source="./media/mobile-newux-notes.png" alt-text="Renderings of four mobile devices showing the process of adding a note with a photo in the Field Service mobile app.":::
-
-Notes in **Timeline** are stored as annotations that are associated with the booking. They don't appear on the parent work order timeline.
-
----
 
 ## Service assets
 
@@ -133,12 +103,6 @@ If you don't see the **Follow up** option, you might not have the right permissi
 Watch this video to learn more about follow-up work orders in the Field Service mobile app:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyHY4]
-
-## Update work orders with Copilot (preview)
-
-The new mobile UX uses Copilot in Field Service to enable technicians with a quick and easy way of updating work orders.
-
-For more information, see [AI-powered work order update](work-order-update.md).
 
 [!INCLUDE [footer-include](../../includes/footer-banner.md)]
 
