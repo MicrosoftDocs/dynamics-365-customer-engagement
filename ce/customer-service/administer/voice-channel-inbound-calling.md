@@ -3,7 +3,7 @@ title: Set up inbound calling for the voice channel
 description: Learn about how to set up workstreams and queues for inbound calling in the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 05/22/2024
+ms.date: 05/31/2024
 ms.topic: how-to
 ms.custom: bap-template 
 ---
@@ -22,7 +22,11 @@ Ensure that the following prerequisites are met:
 - Unified routing is enabled. More information: [Provision unified routing](provision-unified-routing.md)
 - Acquire a phone number. See: [Manage phone numbers](voice-channel-manage-phone-numbers.md).
 
+
 ## Set up a voice workstream
+
+> [!IMPORTANT]
+> If the enhanced voice experience is available for your region, you can create new workstreams that support the [voice-enabled Copilots](/microsoft-copilot-studio/voice-overview). For existing deployments, make sure that you [update your existing workstreams](migrate-voice-workstream.md) to support voice Copilots.
 
 Do the following to configure a workstream for voice:
 
@@ -66,11 +70,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
 7. Select **Add** for **Custom automated messages**, then select a default template message as the trigger, and then enter the custom automated message text. For information about automated messages, see [Configure automated messages](configure-automated-message.md)
 
-8. Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
-
-    :::image type="content" source="../media/voice-channel-workstream-summary.png" alt-text="Summary settings of the voice channel workstream":::
-
-9. Turn on the toggle for **Consult with Microsoft Teams user** to enable the agents to consult other agents on Microsoft Teams. More information: [Voice consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
+8. Turn on the toggle for the agents to be able to transfer calls and consult with external numbers and Microsoft Teams users.  See [Transfer calls to external numbers and Teams users](#transfer-calls-to-external-numbers-and-teams-users).
 
 10. On the **Summary** page, select **Save and close**.
 
@@ -78,6 +78,40 @@ The phone number is associated with the workstream.
 
 :::image type="content" source="../media/voice-workstream-configured.png" alt-text="Configured workstream for voice":::
 
+
+## Transfer calls to external numbers and Teams users
+
+You see the following transfer and consult options:
+
+- **Enhanced voice options**: Actions available for workstreams created in or migrated to the enhanced voice experience.
+- **Existing voice options**: Actions available for works treams that aren't migrated to the enhanced voice channel.
+
+
+### [Enhanced voice](#tab/enhancedvoice)
+
+  1. Set the toggles for **External phone number** and **External Microsoft Teams users** in **Consult** and **Transfer**. This allows agents to consult with other agents or Teams subject matter experts during an ongoing call, and also enables them to transfer calls.
+  2. Select the **Use bridged transfers** checkbox. The following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
+     - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
+     - The customer hears a transfer message followed by hold music. The original call continues.
+     - The recording and transcription will continue when the call is transferred.
+     - Customers cannot send DTMF inputs to external numbers. 
+     - Post conversation survey, if configured, will be triggered once the external agent or Teams user hangs up.<br>
+  3. If the **Use bridged transfers** checkbox is not selected, the following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
+     - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
+     - The customer hears a transfer message followed by ringing. A new call begins.
+     - Customers can send DTMF inputs to external numbers. 
+     - The recording and transcription is stopped.
+     - Post conversation call survey isn't sent to the customer.
+   
+### [Existing voice](#tab/existingvoice)
+
+ Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
+
+   :::image type="content" source="../media/voice-channel-workstream-summary.png" alt-text="Summary settings of the voice channel workstream":::
+
+ Turn on the toggle for **Consult with Microsoft Teams user** to enable the agents to consult other agents on Microsoft Teams. More information: [Voice consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
+
+---
 
 ## Create queues for voice channels
 
@@ -101,7 +135,6 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
 
    > [!NOTE]
-
    >  - You can add only those users who are configured for unified routing.
    >  - After 20 minutes of being added to a queue, agents must refresh their dashboards to be able to receive calls.
 
@@ -128,8 +161,8 @@ The supported configurations for the voice channel are as follows:
  
   ```
 
-> [!NOTE]
-> The DTMF input isn't supported if the call is transferred to an external phone number.
+ > [!NOTE]
+ > The DTMF input isn't supported if the call is transferred to an external phone number in the existing voice experience.
 
 ### Configure call overflow for the voice queue
 
