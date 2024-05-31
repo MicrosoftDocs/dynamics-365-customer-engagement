@@ -46,11 +46,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "ce/customer-service/administer/voice-channel-connect-existing-resource.md",
-      "redirect_url": "/dynamics365/customer-service/administer/voice-channel-connect-new-resource",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "ce/customer-service/implement/chat-dynamics365-customer-service-demo-data.md",
       "redirect_url": "/previous-versions/dynamics365/customer-service/implement/chat-dynamics365-customer-service-demo-data",
       "redirect_document_id": false
