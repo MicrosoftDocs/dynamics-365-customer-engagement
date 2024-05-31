@@ -20,10 +20,10 @@ To route customers call to the best department, diagnose issues, collect informa
 
 The following voice capabilities are available for the Copilot Studio bots:
 
-- Collect customer input through speech or [Dual-Tone Multi-Frequency (DTMF)](/microsoft-copilot-studio/voice-dtmf). Customers can talk without following a script, and the Copilot understands their commands or questions. Customers can also enter data by pressing keys on their phone keypad. The Copilot can detect when customers have stopped speaking by using silence detection and respond accordingly.
+- Collect customer input through speech or [Dual-Tone Multi-Frequency (DTMF)](/microsoft-copilot-studio/voice-dtmf). Customers can talk without using a prompt script, and Copilot understands their commands or questions. Customers can also enter data by pressing keys on their phone keypad. The Copilot can detect when customers have stopped speaking by using silence detection and respond accordingly.
 - Adjust the voice output by using [Speech Synthesis Markup Language (SSML)](/microsoft-copilot-studio/voice-configuration#format-speech-synthesis-with-ssml). You can change the tone, pitch, and speed of the voice that interacts with customers.
 - Enable [barge-in](/microsoft-copilot-studio/voice-configuration#enable-barge-in) to let customers interrupt the Copilot at any time. You can also use long-running operation messages to let customers know that the voice copilot is working on their request.
-- Control the call flow by [transferring](/microsoft-copilot-studio/voice-configuration#transfer-a-call-to-an-agent-or-external-phone-number) or [terminate](/microsoft-copilot-studio/voice-configuration#configure-call-termination) calls. If a customer wants to talk to a live agent, the voice copilot can transfer the call to an available agent or an external phone number. If the customer's issue cannot be solved by the voice copilot, it can end the call and give an appropriate message.
+- Control the call flow by [transferring](/microsoft-copilot-studio/voice-configuration#transfer-a-call-to-an-agent-or-external-phone-number) or [terminate](/microsoft-copilot-studio/voice-configuration#configure-call-termination) calls. If a customer wants to talk to a live agent, the voice copilot can transfer the call to an available agent or an external phone number. If the voice copilot can't solve the customer issue, it can end the call and give an appropriate message.
 
 ## Prerequisites
 
@@ -43,7 +43,7 @@ The following prerequisites must be met for the Copilot Studio bot:
 1. On the **Add Bot** pane, select a bot from the **Name** box. 
 
    > [!NOTE]
-   >  Classic bots aren't supported in the enhanced voice experience. You must use add an [enhanced bot](/microsoft-copilot-studio/voice-overview).
+   >  Classic bots aren't supported in the enhanced voice experience. You must use an [enhanced bot](/microsoft-copilot-studio/voice-overview).
 
    :::image type="content" source="../media/add-bot.png" alt-text="Select a bot.":::
 
