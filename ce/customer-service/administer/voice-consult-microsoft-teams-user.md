@@ -27,17 +27,16 @@ You can transfer and consult with Teams users by assigning phone numbers to user
 
 To allow the agents to consult with Microsoft Teams users, enable the **Consult with Microsoft Teams user** setting in the voice channel section of the workstream for voice. More information: [Configure the voice channel](../voice-channel-route-queues.md#configure-a-voice-channel). 
 
-
 The following prerequisites must be set for the Microsoft Teams users:
 
 - **Assign phone numbers to SMEs in Microsoft Teams**: Must have a phone number assigned to them in Microsoft Teams to participate in the voice call as an SME consult. More information: [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
-To update the Teams phone number in the user profile, perform the following steps: 
-  1. Sign in to the Azure portal and go to **Microsoft Entra ID**.
-  1. Select **Manage** > **Users**
-  1. Select the required user and select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
-     > [!NOTE]
-     > When you're adding a business phone number, make sure that you prefix the number with the plus sign (+) followed by the country code.
+  To update the Teams phone number in the user profile, perform the following steps: 
+    1. Sign in to the Azure portal and go to **Microsoft Entra ID**.
+    1. Select **Manage** > **Users**
+    1. Select the required user and select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
+      > [!NOTE]
+      > When you're adding a business phone number, make sure that you prefix the number with the plus sign (+) followed by the country code.
 
 - **Update the Azure profile for SMEs with phone number**: Add SMEs with phone numbers as guest users to the Microsoft Entra ID for them to participate in a voice call as an SME consult. To add a guest user and update a phone number in the user profile, perform the following steps:
 
