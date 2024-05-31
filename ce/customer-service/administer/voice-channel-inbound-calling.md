@@ -91,17 +91,17 @@ You see the following transfer and consult options:
 
   1. Set the toggles for **External phone number** and **External Microsoft Teams users** in **Consult** and **Transfer**. This allows agents to consult with other agents or Teams subject matter experts during an ongoing call, and also enables them to transfer calls.
   2. Select the **Use bridged transfers** checkbox. The following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
-    - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
-    - The customer hears a transfer message followed by hold music. The original call continues.
-    - The recording and transcription will continue when the call is transferred.
-    - Customers cannot send DTMF inputs to external numbers. 
-    - Post conversation survey, if configured, will be triggered once the external agent or Teams user hangs up.<br>
- - If the **Use bridged transfers** checkbox is not selected, the following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
-   - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
-   - The customer hears a transfer message followed by ringing. A new call begins.
-   - Customers can send DTMF inputs to external numbers. 
-   - The recording and transcription is stopped.
-   - Post conversation call survey isn't sent to the customer.
+     - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
+     - The customer hears a transfer message followed by hold music. The original call continues.
+     - The recording and transcription will continue when the call is transferred.
+     - Customers cannot send DTMF inputs to external numbers. 
+     - Post conversation survey, if configured, will be triggered once the external agent or Teams user hangs up.<br>
+  3. If the **Use bridged transfers** checkbox is not selected, the following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
+     - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
+     - The customer hears a transfer message followed by ringing. A new call begins.
+     - Customers can send DTMF inputs to external numbers. 
+     - The recording and transcription is stopped.
+     - Post conversation call survey isn't sent to the customer.
    
 ### [Existing voice](#tab/existingvoice)
 
