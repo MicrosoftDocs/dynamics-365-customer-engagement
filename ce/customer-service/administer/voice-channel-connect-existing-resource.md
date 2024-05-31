@@ -1,7 +1,7 @@
 ---
 title: Connect using an existing Azure resource
 description: Learn how to connect your voice and SMS channels to Azure Communication Services using an existing Azure resource.
-ms.date: 05/22/2024
+ms.date: 05/31/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
@@ -86,12 +86,13 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 1. Select **Use existing resource** and specify the following values:
      - **ACS Resource name** and **ACS Resource ID**: The **Name** and **Resource ID** field values you copied in the previous section.
      - **Connection String**: The **Connection string** field value you copied in the previous section.
-        
         > [!NOTE]
-        > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in Customer Service admin center becomes invalid. An error message is also displayed in the connection string field in Customer Service admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful. Paste the values you've copied in [Get application and tenant IDs](#get-application-and-tenant-ids-from-the-azure-portal) to the following fields:
+        > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in Customer Service admin center becomes invalid. An error message is also displayed in the connection string field in Customer Service admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
+     - Paste the values you've copied in [Get application and tenant IDs](#get-application-and-tenant-ids-from-the-azure-portal) to the following fields:
      
-     - **Event grid app id**: The value of the **Application (client) ID** 
-     - **Event grid app tenant id**: The value of the **Directory (tenant) ID** 
+       - **Event grid app id**: The value of the **Application (client) ID** 
+       - **Event grid app tenant id**: The value of the **Directory (tenant) ID** 
+
      - Select the check box to confirm that the Dynamics 365 Customer Service instance is connected to only one Azure Communication Services resource.
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
