@@ -382,8 +382,10 @@
         items:
         - name: Connect to Azure Communication Services
           href: voice-channel-acs-resource.md
-        - name: Connect to an Azure resource
+        - name: 'Quickstart: Connect using a new Azure resource'
           href: voice-channel-connect-new-resource.md
+        - name: 'Advanced: Connect using an existing Azure resource'
+          href: voice-channel-connect-existing-resource.md
         - name: Sync from Azure Communication Services
           href: voice-channel-sync-from-acs.md
         - name: Disconnect from Azure Communication Services

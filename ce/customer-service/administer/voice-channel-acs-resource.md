@@ -16,12 +16,12 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The voice channel in Omnichannel for Customer Service is built over Azure Communication Services. This capability lets you provision phone numbers for your business by connecting to Azure Communication Services. However, to acquire phone numbers, you must first establish connection with Azure Communication Services. You can this in the following ways:
+The voice channel in Omnichannel for Customer Service is built over Azure Communication Services. This capability lets you provision phone numbers for your business by connecting to Azure Communication Services. However, to acquire phone numbers, you must first establish connection with Azure Communication Services. You can do this in the following ways:
 
-- Connect using a new Azure resource
-- Connect using an existing Azure resource
+- [Quickstart: Connect using a new Azure resource](voice-channel-connect-new-resource.md)
+- [Advanced: Connect using an existing Azure resource](voice-channel-connect-existing-resource.md)
 
- You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect your existing telephony infrastructure with Azure](voice-channel-bring-your-own-number.md).
+You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect your existing telephony infrastructure with Azure](voice-channel-bring-your-own-number.md).
 
 > [!Note]
 >
@@ -29,9 +29,6 @@ The voice channel in Omnichannel for Customer Service is built over Azure Commun
 > - You can't reuse Azure Communication Services resources across multiple instances. Map one Omnichannel for Customer Service instance only with one Azure Communication Services resource for optimal performance and to avoid issues.
 > - We recommend that you [test your network](https://azurecommdiagnostics.net) before connecting to Azure Communication Services.
 
-## Next Steps
-
-[Connect to Azure resource](voice-channel-connect-new-resource.md)  
 
 ### See also
 
