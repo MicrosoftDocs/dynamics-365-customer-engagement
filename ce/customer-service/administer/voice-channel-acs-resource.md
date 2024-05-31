@@ -1,7 +1,7 @@
 ---
 title: Connect to Azure Communication Services
 description: Learn how to connect to Azure Communication Services by using a new or existing resource to configure the voice channel.
-ms.date: 05/22/2024
+ms.date: 05/31/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -29,11 +29,12 @@ You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect 
 > - You can't reuse Azure Communication Services resources across multiple instances. Map one Omnichannel for Customer Service instance only with one Azure Communication Services resource for optimal performance and to avoid issues.
 > - We recommend that you [test your network](https://azurecommdiagnostics.net) before connecting to Azure Communication Services.
 
+
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
 [Connect using a new Azure resource](voice-channel-connect-new-resource.md)  
-[Connect using an existing Azure resource](voice-channel-connect-existing-resource.md)  
+[Connect using an existing Azure resource](voice-channel-connect-new-resource.md)  
 [Import phone numbers](voice-channel-sync-from-acs.md)   
 [Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
