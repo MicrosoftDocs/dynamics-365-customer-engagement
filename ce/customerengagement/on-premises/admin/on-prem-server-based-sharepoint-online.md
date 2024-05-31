@@ -116,6 +116,9 @@ The following software feature is required to run the Windows PowerShell cmdlets
     
     Replace *\*.contoso.com* with the domain name where Microsoft Dynamics 365 Server is located.
     
+    > [!IMPORTANT]
+    > <P> Only asymmetric keys are supported as Type parameter in New-MsolServicePrincipalCredential command below. Symmetric or password keys aren't secure and will be disabled.</P>
+    
     ```powershell
     $RootDomain = “*.contoso.com”
     $CRMAppId = "00000007-0000-0000-c000-000000000000" 
@@ -127,7 +130,7 @@ The following software feature is required to run the Windows PowerShell cmdlets
     Set-MsolServicePrincipal -AppPrincipalId $CRMAppId -ServicePrincipalNames $ServicePrincipalName
     ```
 
-7.  Configure the Microsoft Dynamics 365 Server for server-based authentication with SharePoint.
+8.  Configure the Microsoft Dynamics 365 Server for server-based authentication with SharePoint.
     
     ```powershell
     Add-PSSnapin Microsoft.Crm.PowerShell 
