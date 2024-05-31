@@ -151,9 +151,6 @@ To enable call recording and SMS services, you must first configure your applica
    It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed," then retry this step after a few minutes.
 
 
-[Learn about configuring call recording and transcription for a voice workstream in Omnichannel for Customer Service](voice-channel-configure-transcripts.md).
-
-
 #### Get event grid app and tenant IDs from the Power Apps portal
 
 1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
@@ -168,7 +165,8 @@ To enable call recording and SMS services, you must first configure your applica
 
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [configure voice workstream settings](create-workstreams.md)  
-[inbound](../voice-channel-route-queues.md) and [outbound](voice-channel-outbound-calling.md) calling.  
+[Configure inbound calling](voice-channel-inbound-calling.md)  
+[Configure outbound calling](voice-channel-outbound-calling.md)    
 
 ### See also
 
@@ -178,5 +176,6 @@ To enable call recording and SMS services, you must first configure your applica
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Set up inbound calling](../voice-channel-route-queues.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
+[Configure call recording and transcription for a voice workstream](voice-channel-configure-transcripts.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
