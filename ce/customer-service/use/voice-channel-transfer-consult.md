@@ -44,7 +44,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
     - **Transfer to an external PSTN number or Teams user**: Select **Number pad**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. 
     -  **Transfer to Teams user**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
     
-    The transfer and consult behavior depend on the voice channel experience your administrator has configured. <br>
+    The transfer and consult behaviors depend on the voice channel experience your administrator has configured. <br>
 
      ### [Enhanced voice](#tab/enhancedvoicestack)
 
@@ -65,7 +65,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
 
      ### [Existing voice](#tab/existingvoicestack)
  
-      If you selected either the external PSTN number or Teams to transfer the call, you can talk to the secondary agent who picks up the call, while the customer is on hold. To complete the call transfer, you must select the transfer button next to the secondary agent name in the call window. The secondary agent is now the primary agent and you're removed from the call. However, the secondary agent is disconnected from the call if the primary agent doesn't complete the transfer within eight minutes.
+      If you selected the external PSTN number or Teams to transfer the call, you can talk to the secondary agent who picks up the call, while the customer is on hold. To complete the call transfer, you must select the transfer button next to the secondary agent name in the call window. The secondary agent is now the primary agent and you're removed from the call. However, the secondary agent is disconnected from the call if you as the primary agent don't complete the transfer within eight minutes.
      
     > [!NOTE]
     > The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.

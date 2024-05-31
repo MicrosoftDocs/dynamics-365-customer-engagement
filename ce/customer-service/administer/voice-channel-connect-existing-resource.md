@@ -96,7 +96,12 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
-After you configure the Azure Communication Services resource, the **Manage Azure Communication Services** page displays the **Event grid app id**, **Event grid app tenant id**, **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)**.
+After you configure the Azure Communication Services resource, the **Manage Azure Communication Services** page displays the following:
+ -  **Event grid app id**
+ - **Event grid app tenant id**
+ - **Recording Web Hook Endpoint**
+ - **SMS Web Hook Endpoint**
+ -  **Incoming call Web Hook Endpoint (preview)**.
 
 You can copy the subscriber endpoint values such as **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)** to use them in the following section.
 
@@ -111,7 +116,7 @@ To enable call recording and SMS services, you must first configure your applica
 
 > [!IMPORTANT]
 >
-> - You can set one web hook endpoint only at a time using the following procedure. To enable incoming calls, SMS, and call recording services, you must perform the procedure thrice to set a web hook endpoint for each service.
+> - You can set one webhook endpoint only at a time using the following procedure. To enable incoming calls, SMS, and call recording services, you must perform the procedure thrice to set a webhook endpoint for each service.
 > - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-ids-from-the-power-apps-portal).
 
 1. Open the **Event Grid System Topics** service on the Azure portal.
@@ -137,7 +142,7 @@ To enable call recording and SMS services, you must first configure your applica
         - To filter event types for SMS services, select **SMS Received** and **SMS Delivery Report Received** in the list.
         - To filter event types for incoming calls, select **Incoming Call** in the list.
     - **Endpoint Type**: Select **Web Hook** in the list.
-    - **Endpoint**: Select **Select an endpoint**, and then enter the incoming call, recording, or SMS web hook endpoint from the Customer Service admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** to get the following web hook endpoints:
+    - **Endpoint**: Select **Select an endpoint**, and then enter the incoming call, recording, or SMS webhook endpoint from the Customer Service admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** to get the following webhook endpoints:
         - **Recording Web Hook Endpoint** to enable recording services.
         - **SMS Web Hook Endpoint** to enable SMS services.
         - **Incoming call Web Hook Endpoint (preview)** to enable incoming calls.

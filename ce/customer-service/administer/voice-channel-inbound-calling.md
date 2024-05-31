@@ -162,6 +162,10 @@ The supported configurations for the voice channel are as follows:
  
   ```
 
+ > [!NOTE]
+
+ > The DTMF input isn't supported if the call is transferred to an external phone number in the existing voice experience.
+
 ### Configure call overflow for the voice queue
 
 With call overflow, you can reduce the wait time for customer calls by setting options for voice queues. More information: [Manage overflow](manage-overflow.md)

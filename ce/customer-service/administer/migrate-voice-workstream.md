@@ -29,7 +29,7 @@ If you have an existing voice channel deployment, make sure you migrate your exi
 
 1. Create and set up an event grid subscription for incoming calls. See [Enable call inoming calls, call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services).
 1. [Update the event subscription in Azure](/azure/communication-services/quickstarts/events/subscribe-to-events?pivots=platform-azp#update-event-subscription) for recording webhook. Copy the value in the **Recording Web Hook Endpoint** field in the **Customer Service admin center** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services (Preview)** and paste it in the **Endpoint** field.
-1. Create a [Copilot bot](/microsoft-copilot-studio/voice-build-from-template). When you migrate to the new voice experience, your phone numbers are updated. The existing classic voice bots aren't supported for the updated workstreams. We recommend that you update and rename your new Copilot bots similar to your previous bots. For example, if your Copilot classic bot is named as "Returns bot", rename your Copilot Studio bot as "Returns Bot-new".
+1. Create a [Copilot bot](/microsoft-copilot-studio/voice-build-from-template). When you migrate to the enhanced voice experience, your phone numbers are updated. The existing classic voice bots aren't supported for the updated workstreams. We recommend that you update and rename your new Copilot bots similar to your previous bots. For example, if your classic bot is named as "Returns bot", rename your voice enabled Copilot as "Returns Bot-new".
 1. Run the voice update.
 1. Test the voice update.
 
@@ -39,14 +39,14 @@ To update to the new voice experience, perform the following steps:
 
 1. Go to Customer Service admin center and select **Channels** in **Customer support**.
 1. Select **Manage** for **Voice update**. On the **Voice update** page, all the workstreams with the associated phone numbers, inbound and outbound profiles, and the corresponding migration update and test status are displayed.
-1. Select the required workstream and then select **Run update**. You can select multiple workstreams to update at once.
+1. Select the required workstream and then select **Run update**. You can select multiple workstreams to update at once. The application displays the **Replace or remove bots** page with the classic bots connected to channels either as the post call survey bot, workstream as the deflection bot, or queues as a bot agent.
     > [!NOTE]
     > We recommend that you migrate all the workstreams that share a common queue and contain a classic bot configured.
-1. Select the new Copilot Studio bot that you created to replace the classic bot in the **Replace or remove bots** page. The page displays all the Copilot Studio classic bots that are connected to channels as post call survey bots, workstream as the deflection bots, or queues as bot agents are displayed. The application doesn't display your existing Copilot Studio bots in this list.
+1. Select the voice-enabled Copilot that you created to replace the classic bot in the **Replacement** drop down. The application doesn't display your existing classic bots in this list.
 1. Select **Run** update. The application takes at least 15 minutes to sync the changes. The application also refreshes the phone numbers associated with the workstreams in the background to be compatible with the new voice experience. The application displays the status of the update on the **Results** page.
 
 > [!NOTE]
-> Azure direct offer numbers synchronize more quickly than direct routing numbers, with calls expected to function within 15 minutes for the former, while calls to the latter can potentially fail for up to 30 minutes after the update.
+> Azure direct offer numbers synchronize more quickly than direct routing numbers, with calls expected to function within 15 minutes for the former, while calls to the latter can take up to 30 minutes to start functioning after the update.
 
 ## Test and revert the voice update
 
