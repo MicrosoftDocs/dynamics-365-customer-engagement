@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 Voice-enabled Copilots provide enhanced interactive voice response (IVR) capabilities such as speech and Dual-Tone Multi-Frequency (DTMF) input, context variables, call transfer, speech, and DTMF customizations. To use these capabilities in the voice channel, you must create a new bot in Copilot Studio and add it to a workstream that the Copilot is compatible with. 
 
-If you are an existing voice channel user, make sure you migrate your workstreams for the enhanced voice bots to work. Any new workstreams that you create are automatically compatible with the Copilots.
+If you have an existing voice channel deployment, make sure you migrate your existing workstreams for the voice enabled Copilots to work. Any new workstreams that you create are automatically compatible with the Copilots.
 
    > [!NOTE]
    > For new voice configurations, the enhanced voice experience is available out of the box.
@@ -41,7 +41,7 @@ To update to the new voice experience, perform the following steps:
 1. Select **Manage** for **Voice update**. On the **Voice update** page, all the workstreams with the associated phone numbers, inbound and outbound profiles, and the corresponding migration update and test status are displayed.
 1. Select the required workstream and then select **Run update**. You can select multiple workstreams to update at once.
     > [!NOTE]
-    > We recommend that you migrate all the workstreams that share a common queue that contains a classic bot configured.
+    > We recommend that you migrate all the workstreams that share a common queue and contain a classic bot configured.
 1. Select the new Copilot Studio bot that you created to replace the classic bot in the **Replace or remove bots** page. The page displays all the Copilot Studio classic bots that are connected to channels as post call survey bots, workstream as the deflection bots, or queues as bot agents are displayed. The application doesn't display your existing Copilot Studio bots in this list.
 1. Select **Run** update. The application takes at least 15 minutes to sync the changes. The application also refreshes the phone numbers associated with the workstreams in the background to be compatible with the new voice experience. The application displays the status of the update on the **Results** page.
 

@@ -83,9 +83,10 @@ You'll need to specify the values of **Application (client) ID** and **Directory
     
     - In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
 
-1. Select **Use existing resource** and specify the following values:
-     - **ACS Resource name** and **ACS Resource ID**: The **Name** and **Resource ID** field values you copied in the previous section.
-     - **Connection String**: The **Connection string** field value you copied in the previous section.
+1. Select **Use existing resource** and specify the following:
+     - Paste the values you've copied in the [Get Azure resource information](#get-azure-resource-information) section to the following fields:
+       - **ACS Resource name** and **ACS Resource ID**: The **Name** and **Resource ID** field values.
+       - **Connection String**: The **Connection string** field value.
      - Paste the values you've copied in [Get application and tenant IDs](#get-application-and-tenant-ids-from-the-azure-portal) to the following fields:
      
        - **Event grid app id**: The value of the **Application (client) ID** 

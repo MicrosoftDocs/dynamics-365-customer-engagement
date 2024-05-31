@@ -17,7 +17,7 @@ ms.custom:
 
 
 > [!NOTE]
-> Voice-enabled Copilots provide [enhanced voice capabilities](/microsoft-copilot-studio/voice-overview). If you have an existing voice deployment, [migrate your existing workstreams](migrate-voice-workstream.md) to make sure that they are compatible with the enhanced Copilots. New deployments get the enhanced experience out of the box.
+> Voice-enabled Copilots provide [enhanced voice capabilities](/microsoft-copilot-studio/voice-overview). If you have an existing voice channel configured, [migrate your existing workstreams](migrate-voice-workstream.md) to make sure that they are compatible with the enhanced Copilots. New deployments and voice workstreams get the enhanced experience out of the box.
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
