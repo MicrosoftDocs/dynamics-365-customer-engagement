@@ -1,7 +1,7 @@
 ---
 title: "Use inspections without work orders in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to use inspections without work orders in Dynamics 365 Field Service.
-ms.date: 03/08/2023
+ms.date: 06/03/2024
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
@@ -33,7 +33,7 @@ Inspections are now visible on the **Related** tab for assets.
 
 ## Validate that inspections have been enabled
 
-1. Go to **Service** > **Assets**, and create a new asset or open an existing asset.
+1. In Field Service, select **Service** > **Assets**, and create a new asset or open an existing asset.
 
 1. Select the **Related** tab, and verify that **Inspections** show in the list. Verify that you see an option to create a **New Inspection**.
 

@@ -99,8 +99,6 @@ Administrators can export inspections as JSON objects to import them to another 
 
 1. Select **Export** > **Export to json** to download the file in JSON format.
 
-:::image type="content" source="media/importJsonFile.png" alt-text="Screenshot of the option to import from json.":::
-
 ## Add translations
 
 Add a variation of an inspection for each language your technicians speak.
@@ -113,8 +111,6 @@ Add a variation of an inspection for each language your technicians speak.
 1. Select a language from the list and enter the translation for each question.
 
 1. Save and publish the inspection.
-
-:::image type="content" source="media/translationimage3.png" alt-text="Screenshot of the translation tab on an inspection.":::
 
 ## Associate inspections with customer assets
 
