@@ -13,7 +13,7 @@ ms.author: jshum
 
 # Configure advanced options for inspections
 
-Along with simple lists of questions, [inspections](inspections.md) can incorporate more advanced scenarios like branching and conditional logic. Other advanced ways to use inspections include copying inspections to serve as templates, adding translations, importing and exporting inspections, and relating inspections to assets to build service histories.
+Along with simple lists of questions, [inspections](inspections.md) can incorporate more advanced scenarios like branching and conditional logic. Other advanced ways to use inspections include copying inspections, adding translations, importing and exporting inspections, and relating inspections to assets to build service histories.
 
 Watch a brief video overview:
 

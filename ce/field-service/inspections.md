@@ -81,11 +81,11 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 
 - **Textbox:** Allows technicians to enter text from their keyboard for a free form response. There's an option in the advanced panel to make the text box bigger to allow for multiline responses. In early access opt-in release, a text box can be input with a default value and can also be made as read-only.
 
-- **Checkbox**, **radiogroup**, **dropdown**: Allows technicians to choose an answer from predefined options. The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar, except the **Checkbox** question type is multi-select, whereas **Radiogroup** and **Dropdown** allow for a single answer. The difference between **Radiogroup** and **Dropdown** is cosmetic and should be used based on desired user experience.
+- **Checkbox**, **Radiogroup**, **Dropdown**: Allows technicians to choose an answer from predefined options. The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar. The **Checkbox** question type is multi-select, whereas **Radiogroup** and **Dropdown** allow for a single answer. The difference between **Radiogroup** and **Dropdown** is cosmetic so choose based on the desired user experience.
 
-- **Entity lookup:** Allows technicians to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. For a chosen entity, the **Name** field and mandatory fields are the entity attributes that can be displayed in the lookup. When the user types, up to the first 50 records  that start with the search string will appear in the dropdown. This may not contain all matches. Continue to add to the search string until the matching result starts showing on top. Entity lookup respects security roles of signed-in user, meaning some entities and records may not be displayed.
+- **Entity lookup:** Allows technicians to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. For a chosen entity, the **Name** field and mandatory fields are the entity attributes that can be displayed in the lookup. When the user types, up to the first 50 records that start with the search string appear in the dropdown. The first results might not contain all matches, so continue to add to the search string until the matching result starts showing on top. Entity lookup respects security roles of signed-in user, meaning some entities and records might not be displayed.
 
-  - Add filters to review the records displayed in the entity-lookup options. For example, an entity-lookup inspection question that's created for the bookable resource record type. You can filter the list of bookable resources to ones with the resource type set to *User* to remove subcontractors and machines from the list.
+  - Add filters to review the records displayed in the entity-lookup options. For example, an entity-lookup inspection question created for the bookable resource record type. You can filter the list of bookable resources to ones with the resource type set to *User* to remove subcontractors and machines from the list.
 
 - **Number:** Restricts input to numeric value or returns an error. Typically represents a measurement or numeric rating value.
 
@@ -159,7 +159,7 @@ Technicians can view and complete inspections on the [Dynamics 365 Field Service
 
 1. Select the service task that has the related inspection.
 
-1. Find the inspection form and enter answers. If an inspection question is required, you must answer or you won't be able to mark the task complete.
+1. Find the inspection form and enter answers. If an inspection question is required, you must answer or you can't mark the task complete.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of mobile app showing a sample inspection.](./media/inspections-fsm-new2.png)
@@ -188,7 +188,7 @@ If needed, you can select  **More** > **Clear Responses** to start over, and per
 
 In the Field Service web app, a dispatcher can see the inspection responses by viewing the task in the work order.
 
-## Additional notes
+## Other notes
 
 - Inspections can't be exported and imported to other environments.
 
@@ -201,7 +201,7 @@ In the Field Service web app, a dispatcher can see the inspection responses by v
 > [!div class="mx-imgBorder"]
 > ![Screenshot of marking work order service task as complete from work order service task grid view.](./media/inspections-work-order-service-task-mark-complete-grid.png)
 
-- Dispatcher can't delete individual attachments in an inspection response. The out-of-the-box **Field Service-Dispatcher** role doesn't have ability to delete inspection attachments; they can, however, **Clear responses** and **Clear files**, which will clear all attachments. If a dispatcher wants to be able to delete individual attachments from an inspection, they'll need to be given delete privileges for the **Notes** entity.
+- Dispatcher can't delete individual attachments in an inspection response. The out-of-the-box **Field Service-Dispatcher** role doesn't have the ability to delete inspection attachments; they can, however, **Clear responses** and **Clear files**, which clears all attachments. If a dispatcher wants to be able to delete individual attachments from an inspection, they must have delete privileges for the **Notes** entity.
 
 - If a resource has trouble seeing an inspection on the work order service task form (as seen in the following screenshot), deactivate and reactivate the related bookable resource booking.
 
@@ -212,11 +212,11 @@ In the Field Service web app, a dispatcher can see the inspection responses by v
 
 - The question type "Entity lookup" shows inactive records.
 
-- If an inspection contains a large (50+) number of files, users may encounter errors while loading the inspection form.
+- Users might encounter errors while loading the inspection form, if an inspection contains a large (50+) number of files.
 
-- Users may encounter errors when adding a large number of files in a single upload. This issue is more likely to happen when the files are large and/or the network signal is poor. We recommend splitting large uploads in smaller chunks, where each upload doesn't exceed a total size of 40 MB.
+- Users might encounter errors when adding a large number of files in a single upload. This issue is more likely to happen when the files are large and/or the network signal is poor. We recommend splitting large uploads in smaller chunks, where each upload doesn't exceed a total size of 40 MB.
 
-- Avoid trailing blank pages without questions in an inspection as this can cause deserialization errors in out-of-box flows.
+- Trailing blank pages without questions in an inspection causes deserialization errors in out-of-box flows.
 
 ### Field Service inspections or Power Apps inspections
 
@@ -224,7 +224,7 @@ Here are a few reasons customers choose to use Field Service inspections.
 
 - **Offline support**: Technicians can view and fill out inspections on their mobile phones or tablets without internet access. Inspections and answers are stored locally on the mobile device and then synced to the server when connectivity is restored (cellular or WiFi).
 - **Version management**: Administrators can easily republish or change inspections to accommodate changing processes and evolving business needs.
-- **Easier to create and use**: Field Service inspections require no further training and are designed to be easy to use. Power Apps inspections need extensive knowledge of the Power Apps platform and may require coding.
+- **Easier to create and use**: Field Service inspections require no further training and are designed to be easy to use. Power Apps inspections need extensive knowledge of the Power Apps platform and might require coding.
 - **More scalable**: If your organization has many different inspections, it's easier to create Field Service inspections with a drag-and-drop interface and with dynamic branching. Power Apps inspections require creating new entities and forms for each inspection, which is more time consuming.
 - **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilities.
 

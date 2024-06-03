@@ -31,7 +31,7 @@ Organizations often need to conduct inspections independent of work orders. Curr
 
 Inspections are now visible on the **Related** tab for assets.
 
-## Validate that inspections have been enabled
+## Validate that inspections are enabled
 
 1. In Field Service, select **Service** > **Assets**, and create a new asset or open an existing asset.
 
@@ -42,6 +42,6 @@ Inspections are now visible on the **Related** tab for assets.
 
 ## Create an inspection without a work order
 
-Open an asset, create a new inspection instance and assign an inspection template. Enter inspection responses and save them. After selecting **Mark Complete** from the ribbon, the inspection becomes read-only.
+Open an asset, create a new inspection, and assign an inspection template. Enter inspection responses and save them. After selecting **Mark Complete** from the ribbon, the inspection becomes read-only.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
