@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service.
-ms.date: 03/01/2024
+ms.date: 03/06/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -120,7 +120,7 @@ The unassigned work item remains in the queue until you manually assign it to an
 
 ### Can advanced queues be associated with a mailbox?
 
-No, you can't configure a mailbox for advanced queues. If you want to use or manage queue mailboxes, we recommend that you use the basic queues only. 
+No, you can't configure a mailbox for advanced queues. If you want to use or manage queue mailboxes, we recommend that you use basic queues only.
 
 ## Work item assignment
 
