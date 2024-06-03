@@ -180,8 +180,6 @@ In the Field Service web app, a dispatcher can see the inspection responses by v
 
 ## Other notes
 
-- Inspections can't be exported and imported to other environments.
-
 - Inspections can't be embedded into Power Apps portals.
 
 ## Known issues
