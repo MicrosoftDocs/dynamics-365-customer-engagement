@@ -6,7 +6,7 @@ ms.author: feiqiu
 ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.topic: overview 
-ms.date: 03/30/2023
+ms.date: 06/03/2024
 ms.custom: bap-template 
 ---
 
@@ -64,9 +64,9 @@ By default, only administrators have access to the resource duration report. Adm
 
 1. Select the security role that needs access to the reports (for instance, **Field Service – Dispatcher**).
 
-1. Go to the **Custom Entities**.
+1. Select **Show all tables**.
 
-1. Select the Read privilege for a report entity.
+1. Search for and select each of the following reports. Then, select the Read privilege for the report.
 
     - Resource duration (preview) - predictive duration report
     - Predictive duration (preview) - predictive duration report

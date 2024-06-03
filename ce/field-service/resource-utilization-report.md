@@ -1,7 +1,7 @@
 ---
 title: Resource and utilization report
 description: This article explains the resource and utilization report in Field Service and the charts and visual used in that report.
-ms.date: 02/09/2023
+ms.date: 06/03/2024
 author: jshotts
 ms.author: jasonshotts
 ms.reviewer: mhart
@@ -13,7 +13,16 @@ ms.custom: bap-template
 
 Resource managers can use the resource and utilization report to gather information that helps them ensure efficient use of resources. They can monitor key information like time spent on bookings, allocation of bookings across territories, or how individual resources are allocated.
 
-## Filters and slicers
+A [Field Service administrator gave you access to the report](reports.md#provide-report-access-to-a-security-role).
+
+To access the report, open the **Field Service** app, and go to **Analytics and Insights** > **Reports**.
+
+:::image type="content" source="media/resource-utilization-report.png" alt-text="Screenshot of a resource and utilization report.":::
+
+> [!NOTE]
+> Visualizations adapt to the filters and the listed formulas don't mention them specifically.
+
+## Report filters
 
 - **Date range**: A [relative date range](/power-bi/visuals/desktop-slicer-filter-date-range).
 - **Resource type**: The [resource type set for a bookable resource](set-up-bookable-resources.md).
@@ -27,103 +36,66 @@ Resource managers can use the resource and utilization report to gather informat
 
 ## Report metrics
 
-To access the report, open the **Field Service** app, change to the **Resources** area, and go to **Analytics and Insights** > **Reports**.
+- **Avg. work time per day (hrs.)**: Average number of hours per day that the selected resources worked on bookings in the selected time range.
 
-:::image type="content" source="media/resource-utilization-report.png" alt-text="Screenshot of a resource and utilization report.":::
+  Formula: (Total work time + Travel time) / Number of days
 
-> [!NOTE]
-> Visualizations adapt to the filters and the listed formulas don't mention them specifically.
+- **Avg. travel time per day (hrs.)**: Average number of hours per day that the selected resources spend traveling in the selected time range.
 
-### Avg. work time per day (hrs.)
+  Formula: Actual travel duration / Number of days
 
-Average number of hours per day that the selected resources worked on bookings in the selected time range.
+- **Total miles traveled**: Total miles traveled by the selected resources in the selected time range.
 
-Formula: (Total work time + Travel time) / Number of days
+  Formula: Sum of miles traveled of the bookable resource bookings.
 
-### Avg. travel time per day (hrs.)
+- **Avg. miles traveled per day**: Average number of miles traveled by the selected resources in the selected time range.
 
-Average number of hours per day that the selected resources spend traveling in the selected time range.
+  Formula: Sum of miles traveled / Number of days
 
-Formula: Actual travel duration / Number of days
+- **Utilization rate**: The percentage of time a resource spends on work and travel per [available time on the calendar](calendar-resource.md).
 
-### Total miles traveled
+  Formula: ((Total work time + Travel time) / (Configured work hours per day x Number of days)) x 100
 
-Total miles traveled by the selected resources in the selected time range.
+  > [!NOTE]
+  > If the work hours aren't set on the calendar, the default is 24 hours.
 
-Formula: Sum of miles traveled of the bookable resource bookings.
+- **Late arrival rate**: The percentage of completed bookings where the technician arrived late.
 
-### Avg. miles traveled per day
+  Formula: (Number of bookable resource bookings with late arrival / Total number of completed bookings) x 100
 
-Average number of miles traveled by the selected resources in the selected time range.
+  > [!NOTE]
+  > Being late is defined as arriving after the *Time to Promise* value. If *Time to Promise* isn't set, the *Estimated arrival time* is taken into account.
 
-Formula: Sum of miles traveled / Number of days
+- **Booking cancellation rate**: The percentage of bookings with a canceled status that had a status of in progress or completed before.
 
-### Utilization rate
+  Formula: (Number of canceled bookable resource bookings / Total number of bookings) x 100
 
-The percentage of time a resource spends on work and travel per [available time on the calendar](calendar-resource.md).
+- **Resource utilization breakdown**: Percentage of time on work, travel, break, and idle time. Each bar in the chart shows the relative percentage of duration types in stacked columns. It doesn't show overtime values of any duration types. Available hours by day are [defined in the calendar for a resource](calendar-resource.md).
 
-Formula: ((Total work time + Travel time) / (Configured work hours per day x Number of days)) x 100
+  Formula:
 
-> [!NOTE]
-> If the work hours aren't set on the calendar, the default is 24 hours.
+  - Work hour = (Total work time / (Available hours per day x Number of days)) x 100
+  - Travel hour = (Actual travel time / (Available hours per day x Number of days)) x 100
+  - Break hour = (Break time / (Available hours per day x Number of days)) x 100
+  - Idle hour = (((Available hours per day x Number of days) - Work hour - Travel hour - Break hour) / (Available hours per day x Number of days))) x 100
 
-### Late arrival rate
+- **Duration breakdown**: Total work time, travel time, break time, and idle time. You can also drill in to the information to see specific information for in-progress jobs or completed jobs.
 
-The percentage of completed bookings where the technician arrived late.
+- **Bookings by territory**: List of [territories](set-up-territories.md) as defined in the bookings with the number of bookings in each territory.
 
-Formula: (Number of bookable resource bookings with late arrival / Total number of completed bookings) x 100
+- **Variance to estimated travel time**: Variance between estimated travel times and actual travel times by territory.
 
-> [!NOTE]
-> Being late is defined as arriving after the *Time to Promise* value. If *Time to Promise* isn't set, the *Estimated arrival time* is taken into account.
+  Formula: (Sum of actual travel time - Sum of estimated travel time) / Number of bookings
 
-### Booking cancellation rate
+- **Miles traveled**: Shows the total miles traveled per month.
 
-The percentage of bookings with a canceled status that had a status of in progress or completed before.
+- **Requirement duration vs. allocated resource duration (% in hours)**: Gauge whether the total number of requirements in each territory is balanced with the total number of resources allocated to that territory. The resulting chart shows the percentage of the planned total duration versus the actual total duration.
 
-Formula: (Number of canceled bookable resource bookings / Total number of bookings) x 100
+  Formula: ((Total work time + Estimated travel duration) + (Total work time + Actual travel duration) / (Total work time + Estimated or actual travel duration)) x 100
 
-### Resource utilization breakdown
+- **Correlation analysis (travel time and work time)**: Correlates each resource's travel time to work time and plots them in the matching quartile.
 
-Percentage of time on work, travel, break, and idle time. Each bar in the chart shows the relative percentage of duration types in stacked columns. It doesn't show overtime values of any duration types. Available hours by day are [defined in the calendar for a resource](calendar-resource.md).
-
-Formula:
-
-- Work hour = (Total work time / (Available hours per day x Number of days)) x 100
-- Travel hour = (Actual travel time / (Available hours per day x Number of days)) x 100
-- Break hour = (Break time / (Available hours per day x Number of days)) x 100
-- Idle hour = (((Available hours per day x Number of days) - Work hour - Travel hour - Break hour) / (Available hours per day x Number of days))) x 100
-
-### Duration breakdown
-
-Total work time, travel time, break time, and idle time. You can also drill in to the information to see specific information for in-progress jobs or completed jobs.
-
-### Bookings by territory
-
-List of [territories](set-up-territories.md) as defined in the bookings with the number of bookings in each territory.
-
-### Variance to estimated travel time
-
-Variance between estimated travel times and actual travel times by territory.
-
-Formula: (Sum of actual travel time - Sum of estimated travel time) / Number of bookings
-
-### Miles traveled
-
-Shows the total miles traveled per month.
-
-### Requirement duration vs. allocated resource duration (% in hours)
-
-Gauge whether the total number of requirements in each territory is balanced with the total number of resources allocated to that territory. The resulting chart shows the percentage of the planned total duration versus the actual total duration.
-
-Formula: ((Total work time + Estimated travel duration) + (Total work time + Actual travel duration) / (Total work time + Estimated or actual travel duration)) x 100
-
-### Correlation analysis (travel time and work time)
-
-Correlates each resource's travel time to work time and plots them in the matching quartile.
-
-### Resource metrics
-
-Shows the breakdown of KPIs for each resource, including number of bookings, utilization percentage, work time, travel time, break time, and idle time. Year over year (%) compares the resource utilization of the selected year to the year before.
+- **Resource metrics**: Shows the breakdown of KPIs for each resource, including number of bookings, utilization percentage, work time, travel time, break time, and idle time. Year over year (%) compares the resource utilization of the selected year to the year before.
 
 ## Next steps
 
