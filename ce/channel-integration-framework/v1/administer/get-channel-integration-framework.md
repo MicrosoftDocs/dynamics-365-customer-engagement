@@ -19,9 +19,8 @@ You can get the solution from within Dynamics 365 or directly from Microsoft App
 Updates to the solution are pushed to all customers automatically.
 
 > [!NOTE]
-> - Channel Integration Framework is available on organizations with Dynamics 365 Customer Service. 
-> - Installing Channel Integration Framework from the Microsoft AppSource is no longer supported.
-
+> - Dynamics 365 Channel Integration Framework is available in organizations with Dynamics 365 Customer Service.
+> - Installation of Dynamics 365 Channel Integration Framework from Microsoft AppSource isn't supported.
 
 ## Prerequisites
 

@@ -92,7 +92,7 @@ You'll need to specify the values of **Application (client) ID** and **Directory
        - **Event grid app id**: The value of the **Application (client) ID** 
        - **Event grid app tenant id**: The value of the **Directory (tenant) ID** 
 
-     - Select the check box to confirm that the Azure Communication Services resource is connected only to this Dynamics 365 Customer Service instance.
+     - Select the checkbox to confirm that the Azure Communication Services resource is connected to this Dynamics 365 Customer Service instance only.
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
