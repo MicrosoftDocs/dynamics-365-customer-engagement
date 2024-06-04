@@ -1,12 +1,9 @@
 ---
 title: Configure advanced options for inspections (contains video)
 description: Learn about advanced ways of working with inspections in Dynamics 365 Field Service.
-ms.date: 03/15/2023
+ms.date: 06/04/2024
 ms.topic: how-to
 ms.custom: bap-template
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: josephshum-msft
 ms.author: jshum
 ---
