@@ -94,7 +94,7 @@ Now the **Field Service - Dispatcher** can see the corresponding report.
 
 ## Data model
 
-The system uses the following list of entities to generate reports. If there's no data or you've customized these entities, parts of it may show blank.
+The system uses the following list of entities to generate reports. If there's no data or you customized these entities, parts of it might show blank.
 
 Field Service entities:
 
