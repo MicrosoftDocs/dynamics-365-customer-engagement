@@ -217,7 +217,7 @@ Use the incident type to fill in detail according to its configuration by adding
 
 1. Go to **Related** > **Characteristics** to find the requirement characteristics.
 
-   The duration and characteristics are passed to the related **Resource Requirement*** for scheduling. So when you book the work order, filters are already set for these attributes.
+   The duration and characteristics are passed to the related **Resource Requirement** for scheduling. So when you book the work order, filters are already set for these attributes.
 
 1. Save the work order and schedule it to provide the field technician with the relevant details.
 

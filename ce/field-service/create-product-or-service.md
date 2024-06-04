@@ -22,7 +22,7 @@ If a field technician uses a product or performs a service while on the job, the
 > [!NOTE]
 > Field Service doesn't support product bundles.
 
-In this article, learn how to create products and services, add them to work orders, and discuss invoicing and inventory considerations.
+In this article, learn how to create products and services, add them to work orders, and review inventory settings.
 
 ## Create a product or service
 
@@ -102,7 +102,7 @@ After [creating a work order](create-work-order.md), you can add products and se
 
    - **Price List**: Change the price list of a product or service from the work order price list, if necessary.
    - **Currency**: Override the default currency, if necessary.
-   - **Disable Entitlement**: Disable entitlements, which are automatically applied based on factors like service account and incident type. For more information, go to [Entitlements for work orders](work-order-entitlements.md)
+   - **Disable Entitlement**: Disable entitlements, which are automatically applied based on factors like service account and incident type. For more information, go to [Entitlements for work orders](work-order-entitlements.md).
    - **Entitlement**: Choose the entitlement that applies to the product or service.
    - **Line Order**: Numerical value that defines in which order the products are shown on the work order. You can override the default value to change the order. The system tries to avoid duplicates.
 
@@ -134,28 +134,20 @@ When the work order is complete and the **System Status** is **Closed - Posted**
 
 If you manage the inventory of products in Field Service, you can use inventory adjustments to change the quantities in the product inventory. For more information, go to [Overview of inventory, purchasing, and returns](inventory-purchasing-returns-overview.md).
 
-## Configuration considerations
+## Review inventory settings
 
-When creating products, consider the settings in **Settings** > **Administration** > **System Settings** > **Sales Tab**.
+When creating products, [consider the product catalog settings](/sales/configure-product-catalog-settings).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365 system settings on the sales tab.](./media/work-order-product-system-settings.png)
+In Field Service, review the following settings and change them if needed.
 
-- Product in Active Status upon creation. Best practice is to set to **Yes**.
-- Minimum # of Products in a Bundle.
-- Max # of Properties allowed for a Product.
+1. Select the **Settings** area and select **Field Service Settings**.
 
-By default, work order products aren't allocated from inventory, as dictated by a **Field Service Setting**.
+1. Select **Other**. By default, work order products aren't allocated from inventory.
 
-:::image type="content" source="media/work-order-product-allocate-auto.svg" alt-text="Screenshot of a Field Service Setting showing the Auto allocates estimated products field set to no.":::
+1. Select **Purchase** and set the **Use Of Products out of Stock**.
 
-Another Field Service setting for inventory is **Use Of Products out of Stock**. Set to **Restrict** to prevent using a work order product when inventory in the specified warehouse is 0. Set to **Confirm** to display a warning message when there's an attempt to use a work order product and inventory is 0. This setting is helpful for situations where inventory levels are inaccurate or managed in an outside system.
-
-## Other notes
-
-- Inventory adjustment products can have a positive or negative quantity to increment or decrement inventory as needed.
-- Integrating work order product inventory with ERP systems is typically executed with work order product, inventory journals, or invoice records.
-- Product bundling, introduced in Dynamics 365 Sales, doesn't currently extend to Field Service scenarios. For more information, go to [product bundles in Dynamics 365 Sales](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md).
+   - **Restrict** to prevent using a work order product when inventory in the specified warehouse is 0.
+   - **Confirm** to display a warning message when there's an attempt to use a work order product and inventory is 0. This setting is helpful for situations where inventory levels are inaccurate or managed in an outside system.
 
 ### Known issues
 
