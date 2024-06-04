@@ -1,15 +1,15 @@
 ---
 title: "Get Resource Scheduling Optimization | MicrosoftDocs"
 description: Learn how to get Resource Scheduling Optimization for Dynamics 365
-ms.date: 09/07/2022
+ms.date: 06/04/2024
 
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FeifeiQiu
-ms.author: feiqiu
+author: AnilMur
+ms.author: anilmur
 ---
 
 # Get Resource Scheduling Optimization
@@ -26,17 +26,14 @@ To purchase access to Resource Scheduling Optimization, you need access to Field
    - Select your instance and choose **Solutions**.
    - Select Field Service and choose **Install**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center on the Instances tab.](./media/admin-install-fs-instances.png)
-
 1. Purchase Resource Scheduling Optimization. Go to the **Microsoft 365 Admin Center** > **Billing** > **Purchase services**. The price of Resource Scheduling Optimization is based on the number of resources whose schedules are optimized.
 
 > [!NOTE]
-> Resource Scheduling Optimization is licensed per resource.The add-in license allows for unlimited use of schedule optimization, whether on a regular cadence or ad-hoc.
+> Resource Scheduling Optimization is licensed per resource.The add-in license allows for unlimited use of schedule optimization, whether on a regular cadence or ad-hoc basis. The license permits one active instance of Resource Scheduling Optimization per tenant - see these [guidelines](./rso-deployment.md#acquiring-licenses-for-multiple-instances) if you need multiple active instances.
 
 ## Next steps
 
-After purchasing Resource Scheduling Optimization, follow the [Resource Scheduling Optimization deployment steps](rso-deployment.md).
+After purchasing Resource Scheduling Optimization, follow the [deployment steps](rso-deployment.md).
 Resource Scheduling Optimization isn't visible from the main product catalog. It can be found only on the Field Service product details page, via the **Add On** tab.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
