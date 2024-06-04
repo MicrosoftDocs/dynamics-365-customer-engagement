@@ -1,7 +1,7 @@
 ---
-title: "Create quick replies | MicrosoftDocs"
-description: "This topic provides the steps you can perform to set up quick replies in Customer Service admin center."
-ms.date: 05/26/2023
+title: Create quick replies
+description: Learn how to set up quick replies for agents in Customer Service admin center.
+ms.date: 06/04/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -62,7 +62,7 @@ Quick replies can be classified and tagged into categories. The categorization c
 
   The **Edit records** dialog appears.
 
-1. In the **Tags** field, start typing the tag you want to create. If it already exists, it will appear in a list below the field. If it doesn’t appear, select **+** (plus sign) to add it.
+1. In the **Tags** field, start typing the tag you want to create. If it already exists, it appears in a list below the field. If it doesn’t appear, select **+** (plus sign icon) to add it.
 
 > [!div class=mx-imgBorder]
 > ![Add a tag.](../media/oc-quick-reply-add-tag.png "Add a tag")
@@ -71,7 +71,7 @@ Quick replies can be classified and tagged into categories. The categorization c
 
 ## Associate quick replies with a workstream
 
-For organizations with diverse lines of businesses, agents will send a variety of messages, depending on their area of expertise. Administrators can determine which quick replies are necessary for different groups of agents to use. Administrators can associate quick replies with workstreams to show agents only those quick replies that apply to them. If no workstream is associated, the quick reply is available for all agents.
+For organizations with diverse lines of businesses, agents send a variety of messages, depending on their area of expertise. As an administrator, you can determine which quick replies are necessary for different groups of agents to use. You can associate quick replies with workstreams to show agents only those quick replies that apply to them. If no workstream is associated, the quick reply is available for all agents.
 
 1. In the site map of Customer Service admin center, in **Agent experience**, select **Productivity**, and then select **Manage** for **Quick replies**.
 
@@ -85,7 +85,7 @@ For organizations with diverse lines of businesses, agents will send a variety o
 
 1. Select **Save**.
 
-   If you select the workstream in the list, you can view the workstream record, and see the quick replies associated with the workstream.
+   If you select the workstream in the list, you can view the workstream record and see the quick replies associated with the workstream.
 
 ## Availability of quick replies and language settings
 
@@ -95,7 +95,7 @@ The quick replies that the agents will see are determined by the following param
 - The language configured in the agent's personal settings
 - The workstream the quick reply is mapped to
 
-For example, when you set up a live chat widget or Facebook page, the quick replies will be available in the language that is configured for the chat widget or Facebook page. Then, when you associate the chat widget with a queue containing agents, the agent-specific language setting, if configured, will determine the language in which the quick replies will be available to the agents. The agents will see the quick replies mapped to the workstream that is associated with the channel with other quick replies.
+For example, when you set up a live chat widget or Facebook page, the quick replies are available in the language configured for the chat widget or Facebook page. Then, when you associate the chat widget with a queue containing agents, the agent-specific language setting, if configured, determines the language in which the quick replies are available to the agents. The agents see the quick replies mapped to the workstream that's associated with the channel with other quick replies.
 
 ### See also
 
