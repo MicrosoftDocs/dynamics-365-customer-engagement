@@ -1,16 +1,11 @@
 ---
-title: "Configure customer support swarming for complex cases | MicrosoftDocs"
-description: "This topic provides steps to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams."
-ms.date: 05/17/2023
+title: Configure customer support swarming for complex cases
+description: Learn how to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams.
+ms.date: 06/04/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-ms.custom: 
-  - dyn365-customerservice
+ms.reviewer: shujoshi
 ---
 
 # Configure customer support swarming for complex cases
