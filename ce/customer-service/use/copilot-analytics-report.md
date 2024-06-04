@@ -63,7 +63,7 @@ The Copilot report displays the following metrics.
 
 | Metric | Description |
 | -------|---------|
-| Agent ratings | The number of times agents rated a Copilot response positively or negatively by providing a provide a thumbs-up or thumbs-down. |
+| Agent ratings | The number of times agents rated a Copilot response positively or negatively by providing a thumbs-up or thumbs-down. |
 
 ## Next Steps
 
