@@ -1,8 +1,8 @@
 ---
 title: Add inspections to work orders (contains video)
 description: Learn about how to use inspections in Dynamics 365 Field Service.
-ms.date: 05/31/2024
-ms.topic: conceptual
+ms.date: 06/04/2024
+ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
 ---
@@ -137,7 +137,7 @@ It's common to add service task types to incident types in order to bundle work 
 
 1. Select **Save and Close**. The inspection can't be filled out until the task is saved. Once the technician completes the inspection, the completed inspection appears.
 
-   :::image type="content" source="./media/inspections-service-task-work-order2.png" alt-text="Screenshot of the tasks section on a work order in Field Service.":::
+   :::image type="content" source="./media/inspections-service-task-work-order2.svg" alt-text="Screenshot of the tasks section on a work order in Field Service.":::
 
 Alternatively, your inspection service task can be added to the work order via a work order incident type.
 
@@ -158,14 +158,14 @@ Technicians can view and complete inspections on the [Dynamics 365 Field Service
 
 1. When finished, select **Mark Complete** or set **Complete %** to 100.
 
-1. Enter the actual duration the task took to complete.
-
 1. Enter a **Result** to report on the overall inspection:
 
    - Pass
    - Fail
    - Partial Success
    - NA
+
+1. Enter the actual duration the task took to complete.
 
 1. Select **Save and Close**.
 
@@ -186,8 +186,7 @@ In the Field Service web app, a dispatcher can see the inspection responses by v
 
 - Marking a work order task as complete from the grid view doesn't work unless the task is opened at least once.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of marking work order service task as complete from work order service task grid view.](./media/inspections-work-order-service-task-mark-complete-grid.png)
+  :::image type="content" source="./media/inspections-work-order-service-task-mark-complete-grid.svg" alt-text="Screenshot of marking work order service task as complete from work order service task grid view.":::
 
 - Dispatcher can't delete individual attachments in an inspection response. The out-of-the-box **Field Service-Dispatcher** role doesn't have the ability to delete inspection attachments; they can, however, **Clear responses** and **Clear files**, which clears all attachments. If a dispatcher wants to be able to delete individual attachments from an inspection, they must have delete privileges for the **Notes** entity.
 
