@@ -21,7 +21,6 @@ There are two ways to enable push notifications for your organization.
 ## Prerequisites
 
 - A license and permissions for [Power Automate](https://flow.microsoft.com/).
-- Mobile app v13.20101.19+ for iOS or v3.20101.19+ Android devices. Check the version in the **About** section of the app.
 - Enabled notifications in your device settings for the Field Service mobile app.
 - Review and agree to the [privacy notes for Field Service push notifications](mobile-push-notifications-privacy.md).
 

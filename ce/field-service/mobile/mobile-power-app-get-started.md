@@ -44,7 +44,7 @@ Find the **Field Service Mobile** model-driven app and select the ellipses (...)
 
 ## Download the app and sign in
 
-Go to the app store on your iOS, Android or Windows device, and [download the Field Service mobile app](download-get-started-mobile-app.md).
+Go to the app store on your iOS, Android, or Windows device, and [download the Field Service mobile app](download-get-started-mobile-app.md).
 
 ## Next steps
 
