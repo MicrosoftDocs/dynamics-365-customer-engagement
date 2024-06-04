@@ -21,7 +21,7 @@ ms.reviewer: shujoshi
 
 Customer support swarming is a way to quickly bring together experts across your business to help agents solve issues. As an administrator, you can enable your agents and subject matter experts to "swarm" together to resolve complex cases.
 
-Customer support swarming is particularly useful when agents need to take the following actions:
+Customer support swarming is useful when agents need to take the following actions:
 
 - Collaborate with experts across your organization to get help on complex cases. 
 - Use an expert finder to locate experts with the right skills to help.
@@ -46,7 +46,7 @@ The following licenses are required for the swarm feature.
 
 If you're new to using customer support swarming, you can use the step-by-step guided swarm setup wizard to help walk you quickly through the configuration using default settings.  
 
-If this is your first time accessing the guided setup, follow these steps: 
+If it's your first time accessing the guided setup, follow these steps: 
 
 1. In Customer Service admin center, go to the sitemap, and then in **Agent experience**, select **Collaboration**. 
 
@@ -113,7 +113,7 @@ To ensure that swarm experts receive invitations directly in Teams, turn on the 
    > ![Activate the swarm flow.](../media/teams-swarm-flow-enable.png "Activate the swarm flow")
 
 > [!Note]
-> You can configure various administration sections without turning on swarming. This is useful in ensuring you've fully configured the feature before enabling the feature. Once enabled, it appears on the agent's desktop, which might cause issues if it's not fully functional.
+> You can configure various administration sections without turning on swarming. This is useful in ensuring you fully configured the feature before enabling the feature. Once enabled, it appears on the agent's desktop, which might cause issues if it's not fully functional.
 
 ## Add a new tab, section, or field to the swarm form
 
@@ -149,7 +149,7 @@ To configure case details, perform the following steps:
 
 If your organization is already using skills in resource scheduling or Omnichannel for Customer Service, you can reuse the skills to define swarm rules. 
 
-If you haven't already configured skills, then complete the following steps.
+If you didn't already configure skills, then complete the following steps.
 
 1. On the **Customer support swarming (preview)** configuration page, go to the **Skills** contact card.
 1. Select the **Add a new skill** link.
@@ -270,7 +270,7 @@ The agent guide is the direction provided by you, as the administrator, that app
 
 When creating the agent guide, keep the following things in mind:
  
- - You can edit the guide content, and the guide you create will apply to all different swarm types. It can't be further customized.
+ - You can edit the guide content, and the guide you create applies to all different swarm types. It can't be further customized.
  
  - The guide template is rich text-enabled.
  
