@@ -37,4 +37,4 @@ Working offline is currently not supported in the new mobile user experience.
 
 ---
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

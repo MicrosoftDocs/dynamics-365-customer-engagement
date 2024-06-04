@@ -383,7 +383,7 @@ items:
           href: mobile/improve-mobile-performance.md
 
     - name: Get help
-      href: mobile-get-help.md
+      href: mobile/mobile-get-help.md
 
 - name: Agreements and preventive maintenance
   items:
@@ -597,11 +597,11 @@ items:
   - name: Troubleshooting articles
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
   - name: FAQ about the Field Service mobile app
-    href: mobile-power-app-faq.yml
+    href: mobile/mobile-power-app-faq.yml
   - name: Microsoft 365 integrations for Field Service troubleshooting
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
   - name: New Field Service mobile experience (preview) troubleshooting
-    href: troubleshooting-mobile-newux.md
+    href: mobile/troubleshooting-mobile-newux.md
 
 - name: Responsible AI
   items:
