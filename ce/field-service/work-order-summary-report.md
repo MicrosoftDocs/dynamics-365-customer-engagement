@@ -14,15 +14,13 @@ ms.author: jasonshotts
 
 # Work order summary report
 
-Operations managers are responsible for managing work orders in order to provide timely support for their customers. To better understand what actions may be needed for better field service performance, reports provide help to monitor key operational metrics.
+Operations managers are responsible for managing work orders in order to provide timely support for their customers. To better understand what actions might be needed for better field service performance, reports provide help to monitor key operational metrics.
 
-A [Field Service administrator gave you access to the **Field Service historical analytics** report](reports.md#provide-report-access-to-a-security-role).
+## Before you start
 
-To access the work order summary report, open the **Field Service** app, go to **Analytics and Insights** > **Field Service historical analysis**.
+A Field Service administrator must enable the report in **Settings** > **Analytics and Insight** > **Settings** > **Field Service historical analytics** > **Manage**.
 
-:::image type="content" source="media/work-order-summary-report.png" alt-text="Screenshot showing a sample work order summary report.":::
-
-## Report filters
+## Filters and slicers
 
 - **Date range**: A [relative date range](/power-bi/visuals/desktop-slicer-filter-date-range).
 - **Customer**: [Customer accounts](accounts.md) configured in Field Service.
@@ -33,6 +31,10 @@ To access the work order summary report, open the **Field Service** app, go to *
 - **Technician**: [Active bookable resources](set-up-bookable-resources.md) in Field Service.
 
 ## Report metrics
+
+To access the work order summary report, open the **Field Service** app, go to **Analytics and Insights** > **Field Service historical analysis**.
+
+:::image type="content" source="media/work-order-summary-report.png" alt-text="Screenshot showing a sample work order summary report.":::
 
 - **Work orders**: Total number of work orders created for the selected filters.
 
@@ -66,7 +68,7 @@ To access the work order summary report, open the **Field Service** app, go to *
 
 - **Broken promise (%) vs mean time to travel (hrs)**: Correlation between broken promise percentage and average travel time in hours.
 
-- **CSAT Trend**: Average CSAT value per month over time.
+- **CSAT Trend**: Average customer satisfaction score (CSAT) value per month over time.
 
 - **CSAT by substatus**: Number of work orders with CSAT rating by substatus.
 

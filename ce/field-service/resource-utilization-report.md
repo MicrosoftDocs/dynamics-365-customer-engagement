@@ -13,16 +13,7 @@ ms.custom: bap-template
 
 Resource managers can use the resource and utilization report to gather information that helps them ensure efficient use of resources. They can monitor key information like time spent on bookings, allocation of bookings across territories, or how individual resources are allocated.
 
-A [Field Service administrator gave you access to the report](reports.md#provide-report-access-to-a-security-role).
-
-To access the report, open the **Field Service** app, and go to **Analytics and Insights** > **Reports**.
-
-:::image type="content" source="media/resource-utilization-report.png" alt-text="Screenshot of a resource and utilization report.":::
-
-> [!NOTE]
-> Visualizations adapt to the filters and the listed formulas don't mention them specifically.
-
-## Report filters
+## Filters and slicers
 
 - **Date range**: A [relative date range](/power-bi/visuals/desktop-slicer-filter-date-range).
 - **Resource type**: The [resource type set for a bookable resource](set-up-bookable-resources.md).
@@ -31,10 +22,17 @@ To access the report, open the **Field Service** app, and go to **Analytics and 
 
 ## Common metrics
 
-- **Number of days**: Takes several factors into account. First, the system checks how many days a booking lasted and then determines how many of these days are considered work hours. For example, work days are defined as Monday to Friday and a booking starts Thursday and ends Monday. The resulting number of days will be 3.
+- **Number of days**: Takes several factors into account. First, the system checks how many days a booking lasted and then determines how many of these days are considered work hours. For example, work days are defined as Monday to Friday and a booking starts Thursday and ends Monday. The resulting number of days is 3.
 - **Work, travel, and break time**: Depends on the booking status. For scheduled bookings, the estimated duration is taken into account. For other booking statuses, such as *in progress* or *completed*, duration is calculated based on *Booking Timestamp* entity records. In other words, as soon as a technician starts working on a booking, reports consider the actual work duration.
 
 ## Report metrics
+
+To access the report, open the **Field Service** app, and go to **Analytics and Insights** > **Reports**.
+
+:::image type="content" source="media/resource-utilization-report.png" alt-text="Screenshot of a resource and utilization report.":::
+
+> [!NOTE]
+> Visualizations adapt to the filters and the listed formulas don't mention them specifically.
 
 - **Avg. work time per day (hrs.)**: Average number of hours per day that the selected resources worked on bookings in the selected time range.
 
