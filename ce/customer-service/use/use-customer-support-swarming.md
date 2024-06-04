@@ -1,16 +1,11 @@
 ---
-title: "Customer support swarming for agents | MicrosoftDocs"
-description: "Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service."
-ms.date: 07/11/2023
+title: Customer support swarming for agents
+description: Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service.
+ms.date: 06/04/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-ms.custom: 
-  - dyn365-customerservice
+ms.reviewer: shujoshi
 ---
 
 # Use customer support swarming (preview)
@@ -27,7 +22,7 @@ ms.custom:
 
 When you work on time-sensitive, complex customer issues, there are times when it's useful to apply the expertise of coworkers outside of your Dynamics 365 Customer Service team. 
 
-Customer support swarming is useful when you need to take the following actions:
+Customer support swarming can help when you need to take the following actions:
 
 - Collaborate with experts across your organization to get help on complex cases.
 - Use an expert finder to quickly locate experts with the right skills to help.
