@@ -1,7 +1,7 @@
 ---
-title: "Configure email | Microsoft Docs"
-description: "Learn how to configure email in customer engagement apps."
-ms.date: 05/09/2023
+title: Configure email
+description: Learn how to configure email in customer engagement apps.
+ms.date: 06/04/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -29,27 +29,25 @@ Email must be enabled for users so they can view and access it. When email is en
 To enable email:
 
 1. In Power Apps, go to **Settings** > **Advanced Settings**.
-2. From the top menu, select **Settings** > **Customizations**.
-3. Select **Customize the System**.
-4. Expand **Entities**, select and expand **Email**, and then select **Forms**.
-
-5. On the command bar, select **Form Order**, and then select **Main Form Set** from the drop-down list.
-
-6. The **Form Order** window appears, which displays the enabled email forms that are available. If **Enhanced email** doesn't display at the top of the list, use the arrows to move it up so it displays first on the list, and then select **OK**.
+1. From the top menu, select **Settings** > **Customizations**.
+1. Select **Customize the System**.
+1. Expand **Entities**, select and expand **Email**, and then select **Forms**.
+1. On the command bar, select **Form Order**, and then select **Main Form Set** from the drop-down list.
+1. The **Form Order** window appears, which displays the enabled email forms that are available. If **Enhanced email** doesn't display at the top of the list, use the arrows to move it up so it displays first on the list, and then select **OK**.
 
    > [!Note] 
    > Both the Navigate-to and Contextual (pop-up) email experience use the same **Form Order**.
 
-7.	When you've completed your updates, select **Publish All Customizations** in the top-left corner in order for changes to be displayed.
+1.	When you've completed your updates, select **Publish All Customizations** in the top-left corner to display the changes.
 
 
 ## Enable the enhanced email experience	
 
 Enhanced email is the default setting, but you must enable email for users to access and use the features. 
 
-Sign in to https://`<YourOrgURL>`.dynamics.com/apps and open a customer engagement app. In the app:
+1. Sign in to https://`<YourOrgURL>`.dynamics.com/apps and open a customer engagement app.
 
-1. Go to **Settings** > **Advanced Settings**.
+1. In the app, go to **Settings** > **Advanced Settings**.
 
 2. Select **Settings** > **Administration**.
 
@@ -61,7 +59,7 @@ Sign in to https://`<YourOrgURL>`.dynamics.com/apps and open a customer engageme
 
 ## Configure email attachment size limitations
 
-You can manage file size limits for email file attachments by doing the following: 
+You can manage file size limits for email file attachments by completing the following steps: 
 
 1. In Power Apps, select **System Settings**.
 
