@@ -1,20 +1,20 @@
 ---
 title: "Quickstart for Resource Scheduling Optimization (contains video) | MicrosoftDocs"
 description: Learn how to get up and running quickly with Resource Scheduling Optimization
-ms.date: 08/22/2019
+ms.date: 06/04/2024
 
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FeifeiQiu
-ms.author: feiqiu
+author: AnilMur
+ms.author: anilmur
 ---
 
 # Quickstart for Resource Scheduling Optimization
 
-Resource scheduling optimization automatically schedules work orders, cases, opportunities, and even custom entities to the resources that are most available and best qualified. Many field service organizations that perform work orders on site at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
+Resource Scheduling Optimization automatically schedules work orders to the resources that are most available and best qualified. Many field service organizations that perform work orders on site at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
 
 In this quickstart, we will configure Resource Scheduling Optimization to schedule and optimize a group of work orders to a predefined list of resources (field technicians). We will do this by setting up a scope, goal, and schedule that will run once a day to schedule work orders in the Washington state service territory to resources in that territory up to 48 hours in advance to minimize travel time. 
 
@@ -29,14 +29,14 @@ For a guided walkthrough, see the following video.
 
 - The images and definitions in this quickstart reflect **Field Service v8.7** and **Resource Scheduling Optimization v3.0**.
 
-- This quickstart assumes you already have Resource Scheduling Optimization deployed into your Field Service environment. You can do this by first purchasing a Field Service license and then purchasing a Resource Scheduling Optimization license in the "Purchase Services" section of Microsoft 365. For more details, visit the article on [Deployment of the Resource Scheduling Optimization solution](rso-deployment.md).
+- This quickstart assumes you already have Resource Scheduling Optimization [deployed](rso-deployment.md) into your Field Service environment.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Resource Scheduling Optimization app.](media/rso-quickstart-app.png)
 
 - Make sure the person who sets up Resource Scheduling Optimization has the **Field Service-Administrator** and **Resource Scheduling Optimization** security roles and the **Field Service-Administrator** and **Resource Scheduling Optimization-Administrator** field security profiles. For more information, see: [Resource scheduling optimization configuration](./rso-configuration.md).
 
-- Resource scheduling optimization works with Universal Resource Scheduling to schedule field service work orders. A working knowledge of how Universal Resource Scheduling works will help with this quickstart. For more details, view the article on [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md).
+- Resource Scheduling Optimization works with Universal Resource Scheduling to schedule field service work orders. A working knowledge of [how Universal Resource Scheduling works](universal-resource-scheduling-for-field-service.md) will help with this quickstart.
 
 ## Glossary
 
