@@ -18,7 +18,7 @@ You can configure these features and services in the Customer Service admin cent
 
 ## Use out-of-the-box features
 
-Customer Service provides a variety of default dashboards and reports. These dashboards display a range of charts, metrics, and key performance indicators that can offer valuable insights about your contact center operations. Here's an overview of what's readily available to you.
+Customer Service provides various default dashboards and reports. These dashboards display a range of charts, metrics, and key performance indicators that can offer valuable insights about your contact center operations. Here's an overview of what's readily available to you.
 
 ### Access dashboards
 
