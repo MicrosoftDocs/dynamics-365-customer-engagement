@@ -1,20 +1,16 @@
 ---
-title: "Get Resource Scheduling Optimization | MicrosoftDocs"
-description: Learn how to get Resource Scheduling Optimization for Dynamics 365
+title: Get Resource Scheduling Optimization
+description: Learn how to get Resource Scheduling Optimization for Dynamics 365 Field Service.
 ms.date: 06/04/2024
-
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: AnilMur
 ms.author: anilmur
 ---
 
 # Get Resource Scheduling Optimization
 
-To purchase access to Resource Scheduling Optimization, you need access to Field Service. If a product bundle your organization owns includes the Field Service license, you don't have to repurchase it. With Field Service already installed, you can skip the first three steps.
+To purchase access to the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service, you need access to Field Service. If a product bundle your organization owns includes the Field Service license, you don't have to repurchase it. With Field Service already installed, you can skip the first three steps.
 
 1. Purchase Field Service. Go to the **Microsoft 365 Admin Center** > **Billing > Purchase Services**.
 
@@ -34,6 +30,5 @@ To purchase access to Resource Scheduling Optimization, you need access to Field
 ## Next steps
 
 After purchasing Resource Scheduling Optimization, follow the [deployment steps](rso-deployment.md).
-Resource Scheduling Optimization isn't visible from the main product catalog. It can be found only on the Field Service product details page, via the **Add On** tab.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
