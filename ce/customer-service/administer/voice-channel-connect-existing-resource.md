@@ -23,7 +23,7 @@ You can connect your voice or SMS channels to Azure Communication Services using
   - The trial has ended after the free calling time has elapsed.
   - You've manually [ended the trial](voice-channel-trial-phone-numbers.md#end-the-trial).
   - You've [disconnected from the Azure resource](voice-channel-disconnect-from-acs.md). 
-- Your active Azure subscription is in the same tenant as your Dynamics 365 account.
+- Your active Azure subscription is in the same tenant as your Dynamics 365 account in the enhanced voice experience.
 - Your role has **Contributor** privileges.
 
 ### Get Azure resource information

@@ -43,7 +43,8 @@ The following prerequisites must be met for the Copilot Studio bot:
 1. On the **Add Bot** pane, select a bot from the **Name** box. 
 
    > [!NOTE]
-   >  Classic bots aren't supported in the enhanced voice experience. You must use a [voice-enabled Copilot](/microsoft-copilot-studio/voice-overview).
+   > - Bots that you create in Customer Service admin center work with enhanced voice workstreams only. To create classic bots for existing voice workstreams that aren't migrated, use Copilot Studio.
+   > - Classic bots aren't supported in the enhanced voice experience. You must use a [voice-enabled Copilot](/microsoft-copilot-studio/voice-overview).
 
    :::image type="content" source="../media/add-bot.png" alt-text="Select a bot.":::
 
