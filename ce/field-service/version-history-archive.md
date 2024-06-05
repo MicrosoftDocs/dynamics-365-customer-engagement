@@ -1539,8 +1539,6 @@ For more information about early access features, visit the [opt-in instructions
 
 ### Field Service Online end-of-life for v7.x and earlier
 
-[Version history notes for v7.x](https://cloudblogs.microsoft.com/dynamics365/it/product/field-service/field-service-7/)
-
 Online versions of Field Service v7 and earlier are [end of life](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/17/announcing-end-of-life-for-field-service-online-legacy-versions-by-february-2020/) and no longer supported. Microsoft won't service support requests for these versions of Field Service until you upgrade to the latest version.
 
 You can upgrade legacy versions of Field Service directly from the admin center.
@@ -1718,7 +1716,7 @@ This release is a hotfix on Unified resource scheduling [3.12.102.17](/dynamics3
 
 **Resource Scheduling controls:** 1.2.40.230251
 
-- The new schedule board is now the default for all organizations, and the legacy schedule board is [officially deprecated](../../common-scheduler/deprecations.md).
+- The new schedule board is now the default for all organizations, and the legacy schedule board is officially deprecated.
 
 #### 3.12.97.18
 
