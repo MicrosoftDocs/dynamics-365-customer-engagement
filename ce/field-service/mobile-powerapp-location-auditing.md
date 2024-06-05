@@ -27,6 +27,9 @@ For a guided walkthrough, check out the following video.
 
 - Administrator access to Dynamics 365 Field Service.
 - Field Service mobile app.
+- Role of the resource using the mobile application has read access to the msdyn_geolocationsetting table.
+  - Correct permissions are included with the default Field Service - Resource role.
+ 
 
 ## Step 1. Enable location tracking
 
