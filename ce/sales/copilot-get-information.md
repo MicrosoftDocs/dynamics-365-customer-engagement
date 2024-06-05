@@ -30,7 +30,7 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 
 > [!IMPORTANT]
 >- The Account summary feature is a preview feature.
->- Preview features aren’t meant for production use and may have restricted functionality. These features are subject to [supplemental terms of use](https://dynamics.microsoft.com/legaldocs/supp-dynamics365andpp-communicationservices-preview/), and are available before an official release so that customers can get early access and provide feedback.
+>- Preview features aren’t meant for production use and may have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
 
 >[!NOTE]
 >This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
