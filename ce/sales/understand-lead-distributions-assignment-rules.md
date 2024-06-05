@@ -35,7 +35,7 @@ Round robin assignment distributes a new or updated record fairly among the sell
 > [!NOTE]
 > The order of sellers to assign records via round robin algorithm is stored at org-level and not at rule-level.
 
-Let's look at some examples to understand round robin distribution.
+Let's look at some scenarios to understand round robin distribution.
 
 **Scenario1** 
 
