@@ -35,9 +35,9 @@ Use predefined prompts to get the most out of Copilot. The following list provid
 
 ## Region availability and languages supported
 
-To use this capability, your environment must be in the US region and have its language set to en-US.
-
 You must allow data movement across regions for Generative AI features as a prerequisite for running copilot in Power Apps. This step is especially important if your organization and your environment are in different regions. For more information, see [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
+
+For regional availability, see the [Copilot International Availability Report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 ## See also
 
