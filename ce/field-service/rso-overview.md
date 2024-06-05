@@ -3,18 +3,18 @@ title: Overview of Resource Scheduling Optimization for Dynamics 365 Field Servi
 description: Learn about Resource Scheduling Optimization for Dynamics 365 Field Service.
 author: AnilMur
 ms.author: anilmur
-ms.date: 05/29/2024
+ms.date: 06/04/2024
 ms.topic: overview
 ms.subservice: resource-scheduling-optimization
 ---
 
 # Overview of Resource Scheduling Optimization
 
-The Resource Scheduling Optimization Add-in automatically schedules jobs to the resources that are best equipped to complete them. For example, schedule work orders for field technicians or cases for customer service reps. While the [schedule board](./work-with-schedule-board.md#book) and the [schedule assistant](./schedule-assistant.md) help schedule a single job, this add-in can schedule multiple jobs at once. It maximizes resource utilization and minimizes travel time. Resource Scheduling Optimization considers the requirements of the job and the unique attributes of the resources.
+The Resource Scheduling Optimization Add-in for Dynamics 365 Field Service automatically schedules jobs to the resources that are best equipped to complete them. For example, schedule work orders for field technicians or cases for customer service reps. While the [schedule board](./work-with-schedule-board.md#book) and the [schedule assistant](./schedule-assistant.md) help schedule a single job, this add-in can schedule multiple jobs at once. It maximizes resource utilization and minimizes travel time. Resource Scheduling Optimization considers the requirements of the job and the unique attributes of the resources.
 
 :::image type="content" source="media/rso-optimized-schedule-board-routes.png" alt-text="Screenshot of Resource Scheduling Optimization and the schedule board.":::
 
-Resource Scheduling Optimization is a paid add-in to the [Universal Resource Scheduling solution](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md) and is built on top of its entities. Organizations that use Dynamics 365 Field Service, Customer Service, and Project Service Automation have Universal Resource Scheduling built into their applications.
+Resource Scheduling Optimization is a paid add-in to Dynamics 365 Field Service and is built on top of the entities of the [Universal Resource Scheduling solution](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
 ## Get to know the key benefits
 
