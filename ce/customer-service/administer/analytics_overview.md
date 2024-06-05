@@ -12,13 +12,13 @@ ms.custom: bap-template
 
 # Use and customize analytics and insights
 
-As an administrator, you have the ability to [enable analytics and insights](configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards) features within Customer Service. These can then be shared with supervisors for review and analysis of contact center activities. This valuable information can help identify and address issues, improve agent efficiency, and ultimately enhance productivity and customer satisfaction.
+As an administrator, you can [enable analytics and insights](configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards) features within Customer Service. This data can then be shared with supervisors so they can review and analyze contact center activities. This valuable information can help identify and address issues, improve agent efficiency, and ultimately enhance productivity and customer satisfaction.
 
-You can configure these features and services in the Customer Service admin center app. Once set up, supervisors can access and view them from the Customer Service workspace app.
+You can configure these features and services in the Customer Service admin center app. Once set up, supervisors can use the Customer Service workspace app to access and view them.
 
 ## Use out-of-the-box features
 
-Customer Service provides a variety of default dashboards and reports. These dashboards display a range of charts, metrics, and key performance indicators, offering valuable insights into your contact center operations. Here's an overview of what's readily available to you.
+Customer Service provides a variety of default dashboards and reports. These dashboards display a range of charts, metrics, and key performance indicators that can offer valuable insights about your contact center operations. Here's an overview of what's readily available to you.
 
 ### Access dashboards
 
@@ -26,7 +26,7 @@ Supervisors can access and view these dashboards from the Customer Service works
 
 **Historical**
 
-- [Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md#customer-service-historical-analytics-reports): Use performance summary and detailed reports on cases, agents, and topics to improve customer service.
+- [Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md#customer-service-historical-analytics-reports): Use the performance summary and detailed reports on cases, agents, and topics to improve customer service.
 
 - [Omnichannel historical analytics dashboards](../use/omnichannel-analytics-insights.md): Use key performance indicators coupled with AI-generated insights to get a view into the support operations across various channels.
 
