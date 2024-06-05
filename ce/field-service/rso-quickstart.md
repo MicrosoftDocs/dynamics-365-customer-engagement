@@ -82,7 +82,7 @@ Let's define the resources that are eligible for optimization.
 
 Similar to requirements, this can be done individually or with a bulk edit.
 
-:::image type="content" source="media/rso-quickstart-resource-field.png" alt-text="Screenshot of a bookable resource entity with "Optimize schedule" set to yes.":::
+:::image type="content" source="media/rso-quickstart-resource-field.png" alt-text="Screenshot of a bookable resource entity with Optimize schedule set to yes.":::
 
 ## Step 5: Create an optimization scope
 
