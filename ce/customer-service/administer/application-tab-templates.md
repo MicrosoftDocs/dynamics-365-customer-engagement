@@ -4,7 +4,7 @@ description: Learn how to create application tab templates in Customer Service. 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer:
-ms.date: 02/07/2024
+ms.date: 06/05/2024
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -79,7 +79,12 @@ This page type is used to display the dashboard as an application. The following
 | `dashboardId` | GUID of the dashboard | Yes  | String    | `d201a642-6283-4f1d-81b7-da4b1685e698` |
 
 > [!NOTE]
-> If the target dashboard isn't included in the app module definition, the default dashboard is displayed instead.
+> - The default dashboard is displayed if the dashboardId parameter is as follows:
+    >   - blank
+    >   - incorrect
+    >   - is a dashboard that isn't included in the app module definition
+> - Personal default dashboards aren't supported.
+
 
 ### Entity list
 

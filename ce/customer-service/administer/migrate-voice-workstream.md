@@ -17,7 +17,8 @@ Voice-enabled Copilots provide enhanced interactive voice response (IVR) capabil
 If you have an existing voice channel deployment, make sure you migrate your existing workstreams for the voice enabled Copilots to work. Any new workstreams that you create are automatically compatible with the Copilots.
 
    > [!NOTE]
-   > For new voice configurations, the enhanced voice experience is available out of the box.
+   > - For new voice configurations, the enhanced voice experience is available out of the box.
+   > - [Data Loss Prevention](/power-platform/admin/wp-data-loss-prevention) isn't supported in the enhanced voice experience. 
 
 ## Prerequisites
 
