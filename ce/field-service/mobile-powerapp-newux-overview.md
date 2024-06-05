@@ -28,7 +28,7 @@ Watch this brief video to learn more about the new user experience in the Field 
 
 After an administrator [enables the preview features](#enable-the-preview-features), they're available directly in the Field Service mobile app. Technicians don't need to download a new app and organizations don't need to migrate anything.
 
-Make sure the mobile app and the Field Service solution are updated to the latest version. For the preview of the new UX, the minimum Field Service version required is [8.8.95.25](version-history.md#889525). The minimum app version required is 13.23072.18 (iOS) and 3.23072.18 (Android).
+Make sure the mobile app and the Field Service solution are updated to the latest version. For the preview of the new UX, the minimum Field Service version required is 8.8.95.25. The minimum app version required is 13.23072.18 (iOS) and 3.23072.18 (Android).
 
 The following articles contain preview content alongside the current content in dedicated tabs:
 
