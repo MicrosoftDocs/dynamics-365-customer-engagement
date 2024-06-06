@@ -86,7 +86,7 @@ Let's see how Contoso accomplishes the task:
 
 ### See also    
     
-[Understand scheduling entities](scheduling.entities.md#understand-scheduling-entities)
+[Understand scheduling entities](scheduling.entities.md#understand-scheduling-entities)  
 [Set up the Service Scheduling experience](scheduling-experience.md)  
 [Access scheduling in the Customer Service Hub and Customer Service workspace](access-scheduling.md)  
 [Install Service Scheduling from Power Platform](install-service-scheduling-from-power-platform.md)  
