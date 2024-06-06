@@ -1,7 +1,7 @@
 ---
 title: Define and track your sales goals
-description: "Define, track, and measure performance-based Sales and Customer Service goals in Dynamics 365."
-ms.date: 10/26/2021
+description: Define, track, and measure performance-based Sales and Customer Service goals in Dynamics 365.
+ms.date: 05/31/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,11 +16,13 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
+
 # Define and track your sales goals
 
 With Dynamics 365, you can define, measure, and track goals for your organization and team. For example, your sales organization can define goals based on sales revenue for a specific territory, number of leads created, number of units sold, and so on. Similarly, your customer service organization can define goals based on the number of cases closed.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -49,15 +51,17 @@ Typically, a manager's goal is a total of the goals assigned to their staff. A l
 
 A staff goal is a child goal of a manager's goal, which in turn can have a parent goal at the regional level, and so on. A goal can have only one parent goal, but a parent goal can have multiple child goals.
 
-Deleting a parent goal does not delete the child goal. Deleting a parent goal only removes the reference to the parent goal for the child goal.
+Deleting a parent goal does not delete the child goals. Deleting a parent goal only removes the reference to the parent goal for the child goals.
 
 The goal rollup is done from the bottom of the hierarchy to the top. During rollup, the parent goal total is the sum of all its child goals.
 
 ## Set goal metrics
 
+Goal metrics let you define how a goal will be measured. For example, a sales team's performance can be measured based on the number of leads they get or the revenue amount.
+
 There are two types of goal metrics:
 
-- **Count:** Counts things that you track, such as how many sales phone calls were completed in a given period.
+- **Count:** Counts things that you track, such as how many sales phone calls were completed in a given period. The data type for **Count** is integer.
 
 - **Amount:** Tracks things like revenue or sales measured in something other than whole numbers. This metric is more versatile. You could use the amount metric to track sales of a product sold by weight, or to make a goal more specific, such as the number of sales calls that lasted longer than five minutes, instead of only the total number of calls made.
 
@@ -69,28 +73,32 @@ If your metric type is Amount, you need to further specify the amount data type:
 
 - **Decimal:** Tracks data that includes partial numbers, such as pounds sold of a product that is sold by weight.
 
-If your metric type is Count, the data type is always an integer.
-
 > [!NOTE]
-> After you select the metric type and data type, and then save the metric, you cannot change the type.
+> After you select the metric type and data type, and save the metric, you cannot change the type.
 
-The metric type and amount data type determine the kind of data you can track when you create a rollup field to track the goal. The rollup fields that you define appear in the goal form and also in the grid on the Goals area. You can create or edit rollup fields only from the Goal Metric form.
+More information: [Create or edit a goal metric](create-edit-goal-metric.md)
+
+## Define rollup fields
+
+Rollup fields are used to calculate the actual and in-progress values for a goal metric.
 
 You must have at least one of the following rollup fields, but you cannot have more than one per type.
 
-- **Actual:** Can be modified as Actual (Money), Actual (Integer), or Actual (Decimal), depending on the data type. This shows the actual amount or count of finished measurable results, such as closed invoices or sales called completed.
+- **Actual:** Can be modified as Actual (Money), Actual (Integer), or Actual (Decimal), depending on the data type of the goal metric. This shows the actual amount or count of finished measurable results, such as closed invoices or sales called completed.
 
-- **In-Progress:** Can be modified as In-progress (Money), In-progress (Integer), or In-progress (Decimal), depending on the data type. This includes measurable results that could contribute to a goal, but are not counted yet as actual. For example, an in-progress rollup field that shows qualified leads that have not been contacted could help you track progress toward contacting leads.
+- **In-Progress:** Can be modified as In-progress (Money), In-progress (Integer), or In-progress (Decimal), depending on the data type of the goal metric. This includes measurable results that could contribute to a goal, but are not counted yet as actual. For example, an in-progress rollup field that shows qualified leads that have not been contacted could help you track progress toward contacting leads.
 
-- **Custom Rollup Field:** Can be modified as Custom Rollup Field (Money), Custom Rollup Field (Integer), or Custom Rollup Field (Decimal), depending on the data type. Use this to track a third category for results. You could use the actual result to show contacted leads, the in-progress rollup field to track qualified leads, and the custom rollup field to track new leads.
+- **Custom Rollup Field:** Can be modified as Custom Rollup Field (Money), Custom Rollup Field (Integer), or Custom Rollup Field (Decimal), depending on the data type of the goal metric. Use this to track a third category for results. 
+
+For example, you could use the actual result to show contacted leads, the in-progress rollup field to track qualified leads, and the custom rollup field to track new leads.
 
 More information: [Create or edit a goal metric](create-edit-goal-metric.md)
 
 ## Define rollup queries
 
-Goals roll up from the bottom of the goal hierarchy to the top, with Dynamics 365 rolling child goal totals into their parent goal totals. Goals at the top of a hierarchy reflect a summation of all the goals in the organization.
+Rollup queries are used to define the records that should be included in the goal rollup. Rollup queries are created for each goal rollup field. For example, you could create a goal metric that measures all invoices closed within a specific period. You could then create a rollup query to show invoices that are owned by a person, or raised for customers in a territory.
 
-When you define rollup queries, you identify the record types to compare against the goals you define in the rollup fields. For example, you could create a goal metric that measures all invoices closed within a specific period. You could then create a rollup query to show invoices that are owned by a person, or raised for customers in a territory.
+Goals roll up from the bottom of the goal hierarchy to the top, with Dynamics 365 rolling child goal totals into their parent goal totals. Goals at the top of a hierarchy reflect a summation of all the goals in the organization.
 
 You can only query one entity type in a query, but the query builder helps you make a query as simple or as complex as you need. As you fine-tune your query, you can test the results.
 

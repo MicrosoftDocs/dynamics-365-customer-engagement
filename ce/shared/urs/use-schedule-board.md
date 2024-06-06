@@ -135,3 +135,4 @@ To facilitate workflows, some parameters are cached so you can quickly can conti
 - Viewmode: Hourly/daily/weekly 
 - Board start date: Cached for 8 hours
 - Column width: Zoom level
+- Requirement panel filters
