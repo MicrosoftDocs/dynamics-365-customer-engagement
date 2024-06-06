@@ -56,6 +56,14 @@ var html: String = """
     chatWebView.loadDataWithBaseURL(baseUrl,html, "text/html", null, baseUrl)
 ```
 
+The chat widget manages its state using local storage. To access local storage on Android, permission must be configured in the native code.
+
+```javascript
+WebView chatWebView = findViewById(R.id.webview)
+WebSettings webSettings = webView.getSettings();
+webSettings.setDomStorageEnabled(true);
+```
+
 You can optimize the rendering of the chat widget for mobile web experience by using data tags such as `data-hide-chat-button` and `data-render-mobile`, along with a few APIs and events provided by the live chat widget client SDK. More information: [Customize a chat widget using data tags](customize-chat-widget.md)
 
 To open a chat session, you can call the [startChat](reference/methods/startchat.md) method when the new chat button is selected.
