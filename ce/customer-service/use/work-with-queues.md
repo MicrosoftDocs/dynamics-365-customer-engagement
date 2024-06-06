@@ -51,7 +51,7 @@ Use the view list and queue list to filter and find items in queues.
    - Your presence will be updated. If you have further capacity left, your presence will be set to **Busy**. If you have no capacity left, your presence will be set to **Do not disturb**.
 
    > [!NOTE]
-   > Remove the items from the queue can't be set for work items in an advanced queue that's used in unified routing and to which work items are routed through workstreams
+   > Remove the items from the queue can't be set for work items in an advanced queue. Advanced queues are used in unified routing to which work items are routed through workstreams.
 
 ## Release an item or case that you’re working on  
   
