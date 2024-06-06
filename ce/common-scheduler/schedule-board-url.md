@@ -5,8 +5,8 @@ ms.date: 06/06/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: how-to
-author: mkelleher
-ms.author: mkelleher-msft
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Open the schedule board from a URL
