@@ -41,7 +41,7 @@ Effective April 4, 2024, Omnichannel for Customer Service on Unified Service Des
 
 Effective November 6, 2023, Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) are deprecated. We recommend that you start using the out-of-box [Omnichannel historical analytics](../use/omnichannel-analytics-insights.md) and [Customer Service historical analytics](../use/customer-service-analytics-insights-csh.md) reports.  
 
-The deprecated features are no longer supported and product availability ended on February 28, 2024. Effectie April 30, 2024, deprecated features aren't available to download.  
+The deprecated features are no longer supported and product availability ended on February 28, 2024. Effective April 30, 2024, deprecated features aren't available to download.  
 
 ## Intraday insights reports in Omnichannel for Customer Service are deprecated
 
