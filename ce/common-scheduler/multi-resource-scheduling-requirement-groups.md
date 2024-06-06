@@ -5,8 +5,8 @@ ms.date: 06/06/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: how-to
-author: mkelleher
-ms.author: mkelleher-msft
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Schedule work with multiple resources using requirement groups in Universal Resource Scheduling
