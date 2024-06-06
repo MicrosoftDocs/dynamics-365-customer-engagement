@@ -19,6 +19,16 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+## Google Business Messages channel will be deprecated and remvoved in July 2024
+
+The [Google Business Messages channel](../administer/configure-google-business-messages-channel.md) in Omnichannel for Customer Service will be deprecated and removed on July 31, 2024. This is due to Google's announcement that they are discontinuing Business Messages on July 31, 2024.
+
+The following are key dates for the Google Business Messages channel deprecation in Omnichannel for Customer Service:
+
+- July 1, 2024: No new conversations can be started in the channel, but you can still receive messages for existing conversations.
+- July 15, 2024: Last day to receive messages for existing conversations in the channel.
+- July 31, 2024: All chats and channel will fully deprecate. From this date forward, API endpoints will return errors, and partner access will be revoked.
+
 ## Diagnostics in unified routing is deprecated and will be removed in July 2024
 
 The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as on May 09, 2024. The diagnostics for new records won't be generated from July 01, 2024, and the feature will be removed by July 15, 2024. We recommend that you use [Conversation diagnostics in Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
