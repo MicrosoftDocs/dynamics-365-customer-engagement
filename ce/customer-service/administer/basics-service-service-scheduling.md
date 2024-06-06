@@ -1,6 +1,6 @@
 ---
 title: Overview of Service Scheduling
-description: This article provides information on the basics of service scheduling in Dynamics 365 Customer Service.
+description: This article provides an overview of service scheduling, detailing how to optimally schedule resources for improved service quality and efficiency.
 ms.date: 06/06/2024
 author: Soumyasd27
 ms.author: sdas
