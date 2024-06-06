@@ -19,11 +19,11 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
-## Google Business Messages channel will be deprecated and removed in July 2024
+## Google's Business Messages channel will be deprecated and removed in July 2024
 
-The [Google Business Messages channel](../administer/configure-google-business-messages-channel.md) in Omnichannel for Customer Service will be deprecated and removed on July 31, 2024. This is due to Google's announcement that they are discontinuing Business Messages on July 31, 2024.
+The channel for [Google's Business Messages](../administer/configure-google-business-messages-channel.md) in Omnichannel for Customer Service will be deprecated and removed on July 31, 2024. This is due to Google's announcement that they are discontinuing Business Messages on July 31, 2024.
 
-The following are key dates for the Google Business Messages channel deprecation in Omnichannel for Customer Service:
+The following are key dates for the channel for Google's Business Messages deprecation in Omnichannel for Customer Service:
 
 - July 1, 2024: No new conversations can be started in the channel, but you can still receive messages for existing conversations.
 - July 15, 2024: Last day to receive messages for existing conversations in the channel.
