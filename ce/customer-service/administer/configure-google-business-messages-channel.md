@@ -1,7 +1,7 @@
 ---
 title: "Configure a Google's Business Messages channel | MicrosoftDocs"
 description: "Perform the steps mentioned in this article to configure a Google Business Messages channel in Omnichannel for Customer Service."
-ms.date: 05/26/2023
+ms.date: 06/06/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -9,6 +9,9 @@ ms.author: laalexan
 # Configure Google's Business Messages channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> Google's Business Messages channel will be deprecated on July 31, 2024. After this date, you won't be able to use this channel, and this article will be removed. We recommend that you use the web channel instead. For details about the deprecation and related dates, see the [Customer Service deprecation article](../implement/deprecations-customer-service.md#googles-business-messages-channel-will-be-deprecated-and-removed-in-july-2024).
 
 Many customers use social messaging channels like Google's Business Messages for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365, where the session ends when the chat window is closed.
 

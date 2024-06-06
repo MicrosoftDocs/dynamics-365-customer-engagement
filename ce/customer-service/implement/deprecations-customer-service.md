@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 05/09/2024
+ms.date: 06/06/2024
 ms.custom: bap-template
 ms.collection:
 ---
@@ -19,9 +19,18 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+## Google's Business Messages channel will be deprecated and removed in July 2024
+
+The channel for [Google's Business Messages](../administer/configure-google-business-messages-channel.md) in Omnichannel for Customer Service will be deprecated and removed on July 31, 2024. This is due to Google's announcement that they are discontinuing Business Messages on July 31, 2024.
+
+The following are key dates for the channel for Google's Business Messages deprecation in Omnichannel for Customer Service:
+
+- July 1, 2024: No new messages can be sent or received in Google's Business Messages after this date.
+- July 31, 2024: Google's Messages for Business will be fully deprecated and no longer accessible.
+
 ## Diagnostics in unified routing is deprecated and will be removed in July 2024
 
-The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as on May 09, 2024. The diagnostics for new records won't be generated from July 01, 2024, and the feature will be removed by July 15, 2024. We recommend that you use [Conversation diagnostics in Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
+The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024. The diagnostics for new records won't be generated from July 01, 2024, and the feature will be removed by July 15, 2024. We recommend that you use [Conversation diagnostics in Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
 
 ## Omnichannel for Customer Service on Unified Service Desk is deprecated and will be removed in October 2025
 
@@ -31,13 +40,13 @@ Effective April 4, 2024, Omnichannel for Customer Service on Unified Service Des
 
 Effective November 6, 2023, Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) are deprecated. We recommend that you start using the out-of-box [Omnichannel historical analytics](../use/omnichannel-analytics-insights.md) and [Customer Service historical analytics](../use/customer-service-analytics-insights-csh.md) reports.  
 
-The deprecated features are no longer supported and product availability ended on February 28, 2024. Starting April 30, 2024, deprecated features won’t be available to download.  
+The deprecated features are no longer supported and product availability ended on February 28, 2024. Effective April 30, 2024, deprecated features aren't available to download.  
 
 ## Intraday insights reports in Omnichannel for Customer Service are deprecated
 
 The [Omnichannel intraday insights reports](intro-intraday-insights-dashboard.md) are deprecated as of May 1, 2023. However, no new functionalities for intraday insights will be released henceforth.
 
-Effective April 30, 2024, Omnichannel intraday insights reports won't be available for existing organizations. Reports won’t be available for new organizations or tenants onboarded after May 01, 2023, or for those organizations that haven’t used the reports in the last 30 days.
+Effective April 30, 2024, Omnichannel intraday insights reports aren't available for existing organizations. Reports aren't available for new organizations or tenants onboarded after May 01, 2023, or for those organizations that haven’t used the reports in the last 30 days.
 
 ## Some admin apps are deprecated
 
