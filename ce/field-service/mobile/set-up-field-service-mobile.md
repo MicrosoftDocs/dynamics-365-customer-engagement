@@ -1,5 +1,5 @@
 ---
-title: Install and set up the mobile app
+title: Set up the mobile app
 description: Learn how to install and set up the Dynamics 365 Field Service mobile app.
 ms.date: 10/16/2023
 ms.topic: article
@@ -9,7 +9,7 @@ author: Andrea-Orimoto
 ms.author: andreo
 ---
 
-# Install and set up the mobile app
+# Set up the mobile app
 
 <!-- TODO: validate steps and revise as needed -->
 

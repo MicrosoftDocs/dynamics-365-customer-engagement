@@ -33,6 +33,43 @@ Go to the app store on your iOS, Android, or Windows device and search for **Dyn
 
 System requirements for the Field Service mobile app are the same as for Power Apps mobile app. See [Supported platforms for running apps using the Power Apps mobile app](/power-apps/limits-and-config#supported-platforms-for-running-apps-using-the-power-apps-mobile-app).
 
+## Supported mobile devices
+
+To provide the best experience for mobile app users, we recommend using modern devices with high [CPU Benchmark scores on Geekbench](https://browser.geekbench.com/v5/cpu/singlecore).
+
+The required storage size depends on the [mobile offline profile](mobile-power-app-system-offline.md). It specifies the amount of data that your organization needs to download for when there's no internet access.
+
+### iOS
+
+| Requirement   |OS Version |CPU Benchmark Score| Storage|
+| --- | --- |--- | --- |
+| Minimum |	14 or later |	400+ |	64 GB	| 
+| Recommended| 15 or later |	1,000+	| 64+ GB	|
+
+[Get the iOS app.](https://aka.ms/fsmobile-apple)
+
+### Android
+
+| Requirement  | OS Version  | CPU Benchmark Score   | RAM   | Storage   |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| Minimum  | 9 or later   | 400+   | 4 GB   | 64 GB|
+| Recommended  | 10 or later   | 900+   | 8 GB   | 64+ GB|
+
+[Get the Android app.](https://aka.ms/fsmobile-google)
+
+### Windows
+
+| Requirement  |OS Version |RAM| Storage|
+| --- | --- |--- | --- |
+| Minimum |	10 17763.0 or later |	6 GB |	64 GB	| 
+| Recommended| 10 19042.1348 or later |	8 GB	| 128 GB	|
+
+[Get the Windows app.](https://aka.ms/fsmobile-win)
+
+An administrator can also download the package from the [app center](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/field-service-windows-store-signed-builds/distribution_groups/public%20release) and [distribute it to users using Microsoft Intune](/mem/intune/apps/apps-windows-10-app-deploy).
+
+<!-- make these spearate articles -->
+
 ## Sign in
 
 Launch the mobile app and sign in with your Field Service username and password.
