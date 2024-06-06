@@ -1,5 +1,5 @@
 ---
-title: Track time expenditure with time entries (contains video)
+title: Track time expenditure with time entries
 description: Discover how to manage time entry in Dynamics 365 Field Service.
 ms.date: 05/23/2024
 ms.topic: conceptual

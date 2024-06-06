@@ -1,5 +1,5 @@
 ---
-title: Add inspections to work orders (contains video)
+title: Add inspections to work orders
 description: Learn about how to use inspections in Dynamics 365 Field Service.
 ms.date: 06/04/2024
 ms.topic: how-to

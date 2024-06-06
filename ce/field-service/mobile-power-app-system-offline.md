@@ -1,5 +1,5 @@
 ---
-title: Best practices and limitations (contains video)
+title: Best practices and limitations
 description: Learn how to use the mobile offline profile to make the best use of the Field Service mobile app when your field technicians don't have Internet access.
 ms.date: 01/23/2024
 ms.topic: overview

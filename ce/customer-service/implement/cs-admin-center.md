@@ -1,5 +1,5 @@
 ---
-title: Customer Service admin center (contains video)
+title: Customer Service admin center
 description: Get started with Customer Service admin center to configure the various features and settings in Customer Service.
 ms.date: 10/24/2023
 ms.topic: conceptual

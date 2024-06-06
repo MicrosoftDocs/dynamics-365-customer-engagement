@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Field Service mobile app overview (contains video)
+title: Dynamics 365 Field Service mobile app overview
 description: Learn about the Field Service mobile app, key features, and system requirements with this general overview.
 ms.date: 10/16/2023
 ms.topic: overview
