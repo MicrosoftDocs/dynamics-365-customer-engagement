@@ -56,7 +56,7 @@ var html: String = """
     chatWebView.loadDataWithBaseURL(baseUrl,html, "text/html", null, baseUrl)
 ```
 
-The chat widget manages its state using local storage. To access local storage on Android, permission must be configured in the native code.
+The chat widget uses local storage to manage its state. For the chat widget to access local storage on Android, you need to configure a permission in the native code.
 
 ```javascript
 chatWebView = findViewById(R.id.webview)
