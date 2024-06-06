@@ -64,12 +64,15 @@ As an administrator, you can integrate a Copilot Studio bot with knowledge manag
 ### Search multiple knowledge providers
 As an administrator, you can use search providers to federate the search of files, documents, or articles from data sources outside of your organization. More information: [Set up external search providers](../administer/set-up-search-providers.md#set-up-external-search-providers)
 
+### Search across integrated search providers
+As an administrator, you can configure third-party sources, such as enterprise websites that are based on the site map protocol. This enables your agents to view and sort search results from any providers added by you. More information: [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers)
+
 ### Set up search logic and search filters
 As an administrator, you can:
   - Set up a knowledge search logic for your knowledge articles to help agents find only the articles they need. More information: [Set up knowledge search logic](../administer/set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-search-logic).
   - Create filters to help your agents more quickly find what they’re looking for. More information: [Customize search filters for knowledge articles](../administer/enable-knowledge-article-search-filters.md)
 
-## Perform knowledge self-service 
+## Perform knowledge self-service
 
 ### Search the knowledge base on portals
 Having a knowledge base on the portal makes it a customer self-service portal, where you can access and search for knowledge articles through simple queries. This helps resolve issues and makes information easily accessible. You can search for your knowledge articles by selecting **Knowledge Base** from your portal. More information: [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals)
@@ -85,6 +88,10 @@ As an administrator, you can:
     :::image type="content" source="../media/knowledge-article-insights-dashboard.png" alt-text="Screenshot of the knowledge search analytics dashboard":::
   
 As a supervisor, you can identify searches that have low success or return no results through the Knowledge search analytics dashboard to help identify knowledge gaps, improve search results, and surface the most relevant articles. More information: [Introduction to knowledge analytics](knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics)
+
+## Provide feedback
+
+As an agent, you can easily provide feedback on knowledge articles with the help of knowledge article rating. Knowledge managers can capture and review the feedback on the articles to improve and maintain a relevant knowledge base. More information: [Submit ratings and feedback for knowledge articles](submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles)
   
 ### See also  
 
