@@ -59,8 +59,8 @@ var html: String = """
 The chat widget manages its state using local storage. To access local storage on Android, permission must be configured in the native code.
 
 ```javascript
-WebView chatWebView = findViewById(R.id.webview)
-WebSettings webSettings = webView.getSettings();
+chatWebView = findViewById(R.id.webview)
+webSettings = webView.getSettings();
 webSettings.setDomStorageEnabled(true);
 ```
 
