@@ -1,7 +1,7 @@
 ---
 title: Download file attachments from an Azure bot
 description: Learn how to download attachments from an Azure bot in the Microsoft Teams channel.
-ms.date: 03/09/2023
+ms.date: 06/06/2024
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
