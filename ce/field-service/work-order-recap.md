@@ -1,7 +1,7 @@
 ---
 title: Work order recap with Copilot in Field Service (preview)
 description: Let AI generate a work order recap to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 03/28/2024
+ms.date: 06/05/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -30,13 +30,11 @@ Watch this brief video to learn more about the new work order experience in Fiel
 
 ## Prerequisites
 
-- Your environment must be in the United States or the United Kingdom.
-
-- The feature is disabled by default for environments in the United Kingdom. An administrator must enable [**Copilot for work order**](configure-default-settings.md#features-settings).
+- The feature is disabled by default for environments in the United Kingdom. An administrator must enable [**Copilot for work order**](configure-default-settings.md#features-settings). For regional availability, see the [Copilot International Availability Report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 - You must have a paid Field Service environment. The work order recap feature isn't available in trial environments.
 
-- You must [update your environment](update-field-service.md) to the latest Early Access build for 2023 wave 2.
+- You must [update your environment](update-field-service.md) at least to the latest Early Access build for 2023 wave 2.
 
 ## How recaps are generated
 
