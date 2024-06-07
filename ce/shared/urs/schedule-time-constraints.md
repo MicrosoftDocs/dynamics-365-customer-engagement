@@ -9,7 +9,7 @@ The time parameter fields **Time From/To Promised** and **Time Window Start/End*
 
 Schedule a requirement to between a start and end date and time.
 
-On the **Settings** tab of a work order, set the **Time From/To Promised** fields to define the date window in which a resource must arrive and complete the work. These values automatically populate the corresponding fields on the related resource requirement and vice versa.
+On the **Settings** tab of a work order, set the **Time From/To Promised** fields to define the time window in which a resource must arrive and start the work. These values automatically populate the corresponding fields on the related resource requirement and vice versa.
 
 :::image type="content" source="../../field-service/media/work-order-time-window.png" alt-text="Screenshot of the time window preferences on a work order form.":::
 
