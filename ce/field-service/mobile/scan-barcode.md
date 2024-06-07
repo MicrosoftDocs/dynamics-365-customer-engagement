@@ -1,5 +1,5 @@
 ---
-title: Barcode scanning and global search
+title: Scan a barcode
 description: Learn about barcode scanning and global search in the Dynamics 365 Field Service mobile app.
 ms.date: 10/16/2023
 ms.topic: article
@@ -8,20 +8,17 @@ author: JonBaker007
 ms.author: jobaker
 ---
 
-# Barcode scanning and global search
+# Scan a barcode
 
 Technicians can use the Dynamics 365 Field Service mobile app to scan a barcode.
 
 Scanning a barcode simplifies data entry and lets technicians search the database for records that match the barcode for easy lookup.
 
-> [!div class="mx-imgBorder"]
-> ![Four mobile devices in different stages of the barcode scan process.](./media/mobile-scan-barcode-new.png)
+:::image type="content" source="../media/mobile-scan-barcode-new.png" alt-text="Four mobile devices in different stages of the barcode scan process.":::
 
-For a video walkthrough, see: [Use and configure the Dynamics 365 Field Service mobile app](https://youtu.be/tcDt_vJ5csI?t=479).
+## Add a barcode field to a form
 
-## Add a barcode field to the form
-
-First, make sure there's a barcode field on the record type you want to add the barcode information. A common example is adding a barcode field to the customer asset form.
+Make sure there's a barcode field on the form you want to add the barcode information. Customer frequently add the barcode field to the customer asset form. For more information about customizing your app, see [Model-driven app interface design overview](/power-apps/maker/model-driven-apps/app-interface-design-overview) and [Overview of the model-driven form designer](/power-apps/maker/model-driven-apps/form-designer-overview).
 
 1. Find the **Field Service Mobile** app module in your list of Dynamics 365 apps and select the ellipsis (&hellip;) > **Open in App Designer**.
 
@@ -40,7 +37,7 @@ First, make sure there's a barcode field on the record type you want to add the 
 
 ## Scan a barcode to populate the field value
 
-In the mobile app, a barcode-enabled field has a barcode icon. Select the barcode icon to open the camera and scan a barcode or QR code. After a successful scan, the barcode value is added to the field. Save the form to store the scanned value.
+In the mobile app, a barcode-enabled field has a barcode icon. Select the barcode icon to open the camera and scan a barcode or QR code. After a successful scan, the barcode value is added to the field. Save the form to write the scanned value to the database.
 
 ## Enable search
 
@@ -58,7 +55,5 @@ To enable a new barcode field for search within a table:
 >
 > - Create custom integrations using barcode on mobile devices with [getBarcodeValue API](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-device/getbarcodevalue).
 > - Currently, global search with barcode scanning isn't available on tablet and Windows versions of the app.
-> - If the updated fields don't show on the mobile app, reconfigure the application to get the latest version.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

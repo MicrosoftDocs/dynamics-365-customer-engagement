@@ -11,9 +11,7 @@ ms.author: andreo
 
 # Set up the mobile app
 
-<!-- TODO: validate steps and revise as needed -->
-
-The Dynamics 365 Field Service mobile app is designed and optimized for technicians. They can work with Field Service work orders, customer assets, accounts, and contacts. The app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). You can customize it to your business needs.
+The Dynamics 365 Field Service mobile app is designed and optimized for technicians in the field. They can work with Field Service work orders, customer assets, accounts, and contacts. The app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). You can customize it to your business needs like other [model-driven apps](/power-apps/maker/model-driven-apps/).
 
 For a guided walkthrough, check out the following video.
 
@@ -21,30 +19,27 @@ For a guided walkthrough, check out the following video.
 
 ## Prerequisites
 
-To use the Field Service mobile app, you must have [Field Service installed](install-field-service.md) and [set up](field-service-get-started.md). The [environment is updated](update-field-service.md) to run at least Field Service version 8.8.22.
-
-## Assign mobile app users appropriate security roles
-
-Set up a Field Service user with the **Field Service-Resource** security role and **Field Service-Resource** field security profile. This user will sign in to the mobile app as a technician.
-
-> [!div class="mx-imgBorder"]
-> ![The Manage User Roles dialog in Dynamics 365.](./media/mobile-2020-resource-security-role.png)
-
->[!TIP]
-> Use the [frontline worker setup](frontline-worker-set-up.md) to quickly create a frontline worker and automate setup steps.
+To use the Field Service mobile app, you need [Field Service installed](install-field-service.md) and [set up](field-service-get-started.md).
 
 ## Assign security roles to the Field Service mobile app
 
-Go to [https://make.powerapps.com/](https://make.powerapps.com/) > **Apps** in the left pane.
+1. Go to [https://make.powerapps.com/](https://make.powerapps.com/) > **Apps** in the left pane.
 
-Find the **Field Service Mobile** model-driven app and select the ellipses (...), select **Share**, and assign the app to the **Field Service-Resource**, **Field Service-Administrator**, and other relevant roles that will need access to the mobile app.
+1. Find the **Field Service Mobile** model-driven app and select the ellipses (&hellip;).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.](./media/mobile-2020-assign-roles-to-app.png)
+1. Select **Share** and assign the app to the **Field Service-Resource**, **Field Service-Administrator**, or other security roles need access to the mobile app.
+
+:::image type="content" source="../media/assign-roles-to-app.png" alt-text="Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.":::
+
+## Assign mobile app users appropriate security roles
+
+Assign Field Service users the **Field Service-Resource** security role and **Field Service-Resource** field security profile. For more information, see [Set up users, licenses, and security roles](../users-licenses-permissions.md). Alternatively, go through the [frontline worker setup](frontline-worker-set-up.md) to quickly create a frontline worker and automate setup steps.
+
+Users with these security roles can sign in to the mobile app as a technician.
 
 ## Download the app and sign in
 
-Go to the app store on your iOS, Android, or Windows device, and [download the Field Service mobile app](download-get-started-mobile-app.md).
+[Download the Field Service mobile app](download-get-started-mobile-app.md) for your preferred platform and sign in with your user credentials.
 
 ## Next steps
 

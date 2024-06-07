@@ -61,11 +61,7 @@ Watch this video to learn more about functional locations in the Field Service m
 
 ## Scan barcodes
 
-Select the search icon to find records from any table. You can also scan a barcode to find records that have a matching barcode field.
-
-:::image type="content" source="./media/mobile-2020-global-search-use.png" alt-text="Renderings of four mobile devices showing the process of scanning a barcode in the Field Service mobile app.":::
-
-If you can't scan a barcode, ask your administrator to [set up global search](mobile-power-app-system-barcode-scanning.md) for your organization.
+Sometimes, it's handy to scan a barcode to find records that have a matching barcode field. Ask your administrator to [set up barcode scanning](scan-barcode.md) for the relevant forms.
 
 ## Enter time
 

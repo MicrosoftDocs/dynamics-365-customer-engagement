@@ -83,4 +83,3 @@ If the mobile app is reset, the offline database on the device is cleared.
 - [Mobile offline capabilities](mobile-power-app-system-offline.md)
 
 [!INCLUDE [footer-include](../../includes/footer-banner.md)]
-
