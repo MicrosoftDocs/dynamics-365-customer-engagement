@@ -1,4 +1,6 @@
-The schedule board is accessible through a URL that loads the web resource. You can extend that URL with parameters to refine the experience.
+The schedule board is accessible through a URL that loads the web resource. The simplest way to access this URL is to configure the Schedule Board as you prefer, click the 3 dot button at the top right of the board and "Copy link". The URL will be automatically generated with the parameters currently configured on your board.
+
+You can also construct the URL manually and extend that URL with parameters to refine the experience.
 
 The base URL is `https://<domain>/main.aspx?pagetype=webresource&webresourceName=msdyn_/ScheduleBoard/index.html?data=<parameters>`
 
