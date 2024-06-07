@@ -1,7 +1,7 @@
 ---
 title: Configure outbound and inbound profiles
 description: Configure outbound and inbound profiles with various settings, such as caller ID, language, and wait music for the voice channel.
-ms.date: 07/06/2024
+ms.date: 06/07/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
