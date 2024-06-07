@@ -70,7 +70,7 @@ You can define how agents use the outbound calls and which agents can make those
     - **Number label**: Enter a label to denote the business context, like Billing, that's displayed with the phone number at the agent end when they call a customer. This value is automatically populated with the phone name string on the agent dialer that the agent can edit.
 
       > [!NOTE]
-      > This label is used only in the agent dialer, and isn't a caller name delivery (CNAM) label that can be displayed to end customers, as we don't support CNAM.
+      > This label is used in the agent dialer only, and isn't a caller name delivery (CNAM) label that can be displayed to customers, as CNAM isn't supported.
 
     - **Queue**: Select a queue from the dropdown list.
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
