@@ -1,7 +1,7 @@
 ---
-title: Add the Knowledge Base Search control to Dynamics 365 Customer Service forms | Microsoft Docs
+title: Add the Knowledge Base Search control to Dynamics 365 Customer Service forms
 description: Know how to add the Knowledge Base Search control to Dynamics 365 Customer Service forms.
-ms.date: 08/12/2021
+ms.date: 06/07/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -16,6 +16,9 @@ ms.custom:
 
 # Add the Knowledge Base Search control to forms
 
+> [!NOTE]
+> Follow the steps provided in this article for single-session apps only or to use auto search on non-anchor tabs. For multi-sessions apps, use the [knowledge search control on the app side pane](configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-the-app-side-panea-nameconfigure-knowledge-search-control-on-app-side-panea).
+
 Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] forms to make it easy for users in your organization to find knowledge articles so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.  
   
  You can configure the Knowledge Base Search control to:  
@@ -27,8 +30,8 @@ Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../../incl
 - Choose from a set of predefined contextual actions the users can take on an article.  
   
 - Add the control on any section of any entity that is enabled for knowledge management, including the timeline, and custom entities. The control is enabled in the case entity out of the box, and is added to the following forms:
-   - Case main form -  In the **Activity wall** section 
-   - Case for interactive experience main form – In the **Related** section 
+   - Case main form -  In the **Activity wall** section.
+   - Case for interactive experience main form – In the **Related** section.
   
   > [!NOTE]
   > The Knowledge Base Search control can be used on Microsoft Dynamics 365 for tablets and phones. However, some actions like Pop Out, Email Link, and Email Content aren't supported.  
