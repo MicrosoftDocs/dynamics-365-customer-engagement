@@ -43,7 +43,7 @@ To update to the new voice experience, perform the following steps:
 1. Select the required workstream and then select **Run update**. You can select multiple workstreams to update at once. The application displays the **Replace or remove bots** page with the classic bots connected to channels either as the post call survey bot, workstream as the deflection bot, or queues as a bot agent.
     > [!NOTE]
     > - We recommend that you migrate all the workstreams that share a common queue and contain a classic bot configured.
-    > - Classic bots in workstreams that have queues configured using the route to queue rules only are displayed in the **Replace or remove bots** page.
+    > - On the **Replace or remove bots** page, only those classic bots are displayed that are attached to workstreams in which route-to-queues rules are configured.
 1. Select the voice-enabled Copilot that you created to replace the classic bot in the **Replacement** drop down. The application doesn't display your existing classic bots in this list.
 1. Select **Run** update. The application takes at least 15 minutes to sync the changes. The application also refreshes the phone numbers associated with the workstreams in the background to be compatible with the new voice experience. The application displays the status of the update on the **Results** page.
 
