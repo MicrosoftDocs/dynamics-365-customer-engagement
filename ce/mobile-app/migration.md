@@ -4,7 +4,7 @@ description: How to migrate from Dynamics 365 phones and tablets app to the Powe
 ms.custom: 
 ms.date: 6/29/2023
 ms.reviewer: 
-
+ms.service: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
