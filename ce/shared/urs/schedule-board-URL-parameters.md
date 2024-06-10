@@ -27,7 +27,7 @@ We'll use the browser console to create the parameters. [Learn more about the Co
 
 Optionally, *after* the schedule board parameters, you can add non-encoded parameters for the Unified Client Interface of Dynamics 365.
 
-The following parameters render the schedule board appear as in a separate browser window without navigation elements:`&cmdbar=false&navbar=off&newWindow=true`. Opening the schedule board with such parameters may get some system parameters such as `forceUCI=1` and `appid=<ID>` added automatically.
+The following parameters render the schedule board appear as in a separate browser window without navigation elements: `&cmdbar=false&navbar=off&newWindow=true`. Opening the schedule board with such parameters may get some system parameters such as `forceUCI=1` and `appid=<ID>` added automatically.
 
 ## Add parameters to a sitemap
 
@@ -39,31 +39,31 @@ Use the constructed URL to add a new navigation point or override the schedule b
 
 The following parameters can get passed to the schedule board.
 
-- Schedule board tab
+- **Schedule board tab**
 
   `tab : "<tab ID>"`
 
   Get the tab IDs using this browser query: `https://<domain>/api/data/v9.1/msdyn_scheduleboardsettinges?$select=msdyn_tabname,msdyn_scheduleboardsettingid`
 
-- Map section visible
+- **Map section visible**
 
   `map : "true/false"`
 
-- Schedule board view type
+- **Schedule board view type**
 
   `viewtype : "gantt/list"`
 
-- Schedule board view mode
+- **Schedule board view mode**
 
   `viewmode : "hourly/daily/weekly/monthly"`
 
-- Start date for the schedule board
+- **Start date for the schedule board**
 
   `startdate : "YYYY-MM-DD"`
 
   The date takes the time zone configured for the schedule board. You can only define the start date in ISO format and the system set the date to the start of the week or month that the given date is in.
 
-- Column width
+- **Column width**
 
   `columnwidth : "1...100"` 
 
