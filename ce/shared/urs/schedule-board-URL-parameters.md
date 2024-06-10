@@ -1,4 +1,6 @@
-The schedule board is accessible through a URL that loads the web resource. The simplest way to access this URL is to configure the Schedule Board as you prefer, click the 3 dot button at the top right of the board and "Copy link". The URL will be automatically generated with the parameters currently configured on your board.
+The schedule board is accessible through a URL that loads the web resource. The simplest way to access this URL is to configure the schedule board as you prefer, select **More options (&hellip;)** and choose **Copy link**. The generated link includes the parameters currently configured on your board.
+
+:::image type="content" source="../../field-service/media/schedule-board-copy-link.png" alt-text="Screenshot of the Copy link option on the schedule board.":::
 
 You can also construct the URL manually and extend that URL with parameters to refine the experience.
 
@@ -29,7 +31,7 @@ The following parameters render the schedule board appear as in a separate brows
 
 You can customize the navigation of a model-driven app in Power Apps. Learn more: [Create a model-driven app site map using the site map designer](/power-apps/maker/model-driven-apps/create-site-map-app).
 
-Use the constructed URL to add a new navigation point or override the schedule board settings path. In the URL field, enter `/main.aspx?pagetype=entitylist&etn=msdyn_scheduleboardsetting` and encoded parameters like `&data=%7B%22map%22%3A%22true%22%2C%22viewmode%22%3A%22daily%22%7D`. 
+Use the constructed URL to add a new navigation point or override the schedule board settings path. In the URL field, enter `/main.aspx?pagetype=entitylist&etn=msdyn_scheduleboardsetting` and encoded parameters like `?data=%7B%22map%22%3A%22true%22%2C%22viewmode%22%3A%22daily%22%7D`.
 
 ## Parameter reference
 
