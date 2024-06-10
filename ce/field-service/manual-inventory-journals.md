@@ -1,7 +1,7 @@
 ---
 title: Use manual inventory journals
 description: Learn about manual inventory journals in Dynamics 365 Field Service.
-ms.date: 3/14/2022
+ms.date: 06/10/2024
 ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
@@ -14,37 +14,31 @@ author: jasonccohen
 
 In Dynamics 365 Field Service, organizations can track their product inventory. For any given warehouse and product, an organization can track **Available**, **On Hand**, **On Order**, and **Allocated** inventory.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of product inventory levels.](./media/inventory-product-inventory-levels.png)
+:::image type="content" source="media/inventory-product-inventory-levels.svg" alt-text="Screenshot of product inventory levels at a warehouse.":::
 
-**Inventory Journals** is a Field Service entity that serves as a ledger for all inventory changes related to field service warehouses and products. 
-
-For example, when a field service purchase order is fulfilled, an inventory journal is created that documents an increase in inventory for the receiving warehouse. As another example, when a field service inventory transfer is completed, two inventory journals are created: one reducing inventory from the **source warehouse** and another adding inventory for the **receiving warehouse**.
+**Inventory Journals** is a Field Service entity that serves as a ledger for all inventory changes related to field service warehouses and products. For example, when a field service purchase order is fulfilled, an inventory journal is created that documents an increase in inventory for the receiving warehouse. As another example, when a field service inventory transfer is completed, two inventory journals are created: one reducing inventory from the **source warehouse** and another adding inventory for the **receiving warehouse**.
 
 ## Using manual inventory journals
 
-**Manual inventory journals** allow inventory administrators to manipulate inventory levels without the associated field service processes. For instance, you can manually add inventory without creating and fulfilling field service purchase orders, or transfer inventory without creating inventory transfer records.
+Manual inventory journals allow inventory administrators to manipulate inventory levels without the associated field service processes. For instance, you can manually add inventory without creating and fulfilling field service purchase orders, or transfer inventory without creating inventory transfer records.
 
 The primary purpose of manual inventory journals is to make field service inventory easier to integrate with external inventory systems, such as Dynamics 365 for Finance & Operations.
 
 Other use cases include:
 
-- documenting lost, stolen, or destroyed inventory
-- allowing extensibility scenarios to utilize field service inventory 
-
+- Documenting lost, stolen, or destroyed inventory
+- Allowing extensibility scenarios to utilize field service inventory
 
 ## Prerequisites
-
-In order to use manual inventory journals, you'll need to meet the following criteria:
 
 - Field Service v8.2+
 - Warehouse records must exist in the system
 - Products with **Field Service Type = Inventory** must exist in the system
 - **Field Service - Inventory Purchase** security role
 
-## Instructions 
+## Create manual inventory journals 
 
-### 1. Access inventory journals
+### Access inventory journals
 
 Inventory journals are accessed through **Advanced Find**; they are *not* part of the sitemap by default.
 

@@ -1,25 +1,24 @@
 ---
 title: Create a warehouse to track inventory
 description: Learn how to create a warehouse in Dynamics 365 Field Service.
-ms.date: 09/23/2022
+ms.date: 06/10/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
+ms.custom: bap-template
 ---
 
 # Create a warehouse to track inventory
 
-Track your product inventory using a warehouse record in Dynamics 365 Field Service.  
-  
-This article explains how to create a warehouse record and add your product inventory to it.
+Track your product inventory using a warehouse record in Dynamics 365 Field Service. Create a warehouse record and add your product inventory to it.
 
-:::image type="content" source="media/warehouse-list.png" alt-text="Screenshot of an Active Warehouses view with list of warehouses in Field Service.":::
-  
 ## Create a warehouse record  
   
 1. In Field Service, change to the **Inventory** area.
 
 1. In the **Inventory** section, go to **Warehouses**.
+  
+   :::image type="content" source="media/warehouse-list.svg" alt-text="Screenshot of an Active Warehouses view with list of warehouses in Field Service.":::
   
 1. On the **Active Warehouse** screen, select **New**.  
   
