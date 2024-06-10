@@ -43,6 +43,8 @@ The *Geolocation Tracking (msdyn_geolocationtracking)* table stores all the loca
 
 You can audit location information with other Field Service tables. For more information, see [Auditing overview](/power-platform/admin/audit-data-user-activity).
 
+You can configure how far back in time a geolocation is valid. This is important for scenarios when mobile device lose internet connection, making dispatchers unaware of the true location. The time threshold can be configured in **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameter** > **Geo Data** > **Geo Location Expires After X Minutes**.
+
 ## Ask users to allow Field Service mobile to access their location
 
 The app prompts users to allow location access after signing in to the app. The app requests several permissions which are needed to update the location consistently. Revoking the listed permissions can decrease performance or lead to outdated location information.
