@@ -327,7 +327,7 @@ items:
         href: mobile/mobile-powerapp-location-auditing.md
       - name: Geofencing
         href: mobile/mobile-powerapp-geofence.md
-      - name: Intune mobile app management
+      - name: Mobile app management with Microsoft Intune
         href: mobile/mobile-power-app-intune.md
       - name: Mobile app for Windows 10+
         href: mobile/mobile-powerapp-windows.md

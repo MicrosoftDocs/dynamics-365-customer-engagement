@@ -16,7 +16,7 @@ To change things like the navigation, form, or views, [you need permissions to s
 
 ## Edit the navigation
 
-In [Power Apps](https://make.powerapps.com/), open the environment with the app you want to edit. For more information, see [Edit an app](/power-apps/maker/canvas-apps/edit-app#edit-an-app).
+In [Power Apps](https://make.powerapps.com/), open the environment with [the app you want to edit](/power-apps/maker/model-driven-apps/create-model-driven-app).
 
 In the app designer in Power Apps, you find the current navigation structure with groups of pages. You can [edit the navigation and add or remove groups and pages](/power-apps/maker/model-driven-apps/app-navigation).
 
