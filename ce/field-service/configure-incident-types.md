@@ -59,7 +59,7 @@ Create incident types from the incident types form.
 
 1. In Field Service, change to the **Settings** area.
 
-1. In the **Work Orders** section, select **Incident Types**.
+1. Under **Work Orders**, select **Incident Types**.
 
 1. Select **New**.
 

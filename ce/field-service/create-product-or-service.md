@@ -59,7 +59,7 @@ In this article, learn how to create products and services, add them to work ord
   
 1. Select **Save** to apply your changes.
 
-1. Select the **Product Details** tab and enter a **Default Price list**. Select **Save**.
+1. In the **Product Details** section, enter a **Default Price list**. Select **Save**.
 
 ## Add products and services to a price list
 
@@ -75,7 +75,7 @@ After [creating a work order](create-work-order.md), you can add products and se
 
 1. Open an existing work order.
 
-1. Select the **Products and services** tab, and then select **Add product**.
+1. In the **Products and services** section, select **Add product**.
 
    :::image type="content" source="media/work-order-product-add.svg" alt-text="Screenshot of a work order, showing the products section.":::
 
@@ -118,13 +118,13 @@ On a work order product record, field technicians set the **Line Status** of a w
 
 For inventory items, enter the warehouse it comes from to update the inventory. The system defaults to the warehouse value on the **Bookable Resource** associated with the user who creates the work order product record.
 
-You can make noninventory item as used along with a quantity for reporting.
+You can mark noninventory item as used along with a quantity for reporting.
 
 When using a work order service, set the **Line Status** to **Used** and enter a **Duration** and **Duration to Bill**.
 
 As products and services are used, the subtotal based on price and quantity to bill is calculated on the work order.
 
-Cost calculations will populate after syncing or in online mode. Calculations don't update in offline mode.
+Cost calculations populate after syncing or in online mode. Calculations don't update in offline mode.
 
 When the work order is complete and the **System Status** is **Closed - Posted**, the system generates an invoice that includes used work order products and services.
 
@@ -136,15 +136,15 @@ If you manage the inventory of products in Field Service, you can use inventory 
 
 ## Review inventory settings
 
-When creating products, [consider the product catalog settings](/sales/configure-product-catalog-settings).
+When creating products, [consider the product catalog settings](../sales/configure-product-catalog-settings.md).
 
 In Field Service, review the following settings and change them if needed.
 
 1. Select the **Settings** area and select **Field Service Settings**.
 
-1. Select **Other**. By default, work order products aren't allocated from inventory.
+1. In the **Other** area, choose whether to **Auto Allocate Estimated Products**. By default, work order products aren't allocated from inventory.
 
-1. Select **Purchase** and set the **Use Of Products out of Stock**.
+1. In the **Purchase** area, set the **Use Of Products out of Stock**.
 
    - **Restrict** to prevent using a work order product when inventory in the specified warehouse is 0.
    - **Confirm** to display a warning message when there's an attempt to use a work order product and inventory is 0. This setting is helpful for situations where inventory levels are inaccurate or managed in an outside system.
