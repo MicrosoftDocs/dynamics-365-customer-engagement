@@ -35,7 +35,7 @@ Depending on how your inbox is configured, you might see any of the following ch
 
 1. In Customer Service workspace, select **Inbox** on the site map.
 
-1. Select either **Cases** or **Conversations** to view a respective list of assigned items.
+1. Select **Cases** or **Conversations** to view a respective list of assigned items.
    
 1. Select the item to work on. It opens in a new tab. Alternatively, you can open an item in a new tab by selecting the **new session** icon.
 
