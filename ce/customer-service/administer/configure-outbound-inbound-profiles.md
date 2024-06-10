@@ -1,7 +1,7 @@
 ---
 title: Configure outbound and inbound profiles
 description: Configure outbound and inbound profiles with various settings, such as caller ID, language, and wait music for the voice channel.
-ms.date: 04/02/2024
+ms.date: 06/07/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -68,6 +68,10 @@ You can define how agents use the outbound calls and which agents can make those
 1. In **Outbound info**, do the following:
    
     - **Number label**: Enter a label to denote the business context, like Billing, that's displayed with the phone number at the agent end when they call a customer. This value is automatically populated with the phone name string on the agent dialer that the agent can edit.
+
+      > [!NOTE]
+      > This label is used in the agent dialer only, and isn't a caller name delivery (CNAM) label that can be displayed to customers, as CNAM isn't supported.
+
     - **Queue**: Select a queue from the dropdown list.
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
     - **Caller ID number**: Select a number from the list. The **(Profile Number)** label against the number indicates that the caller ID displays the same number as the profile number. It's also the default setting.<br>
