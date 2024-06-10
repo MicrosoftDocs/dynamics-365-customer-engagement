@@ -4,6 +4,8 @@ The schedule board is accessible through a URL that loads the web resource. The 
 
 You can also construct the URL manually and extend that URL with parameters to refine the experience.
 
+## Understand the URL structure
+
 The base URL is `https://<domain>/main.aspx?pagetype=webresource&webresourceName=msdyn_/ScheduleBoard/index.html?data=<parameters>`
 
 - `<domain>` is the domain of your organization. For example, `contoso.onmicrosoft.com`
