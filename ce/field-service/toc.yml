@@ -331,8 +331,6 @@ items:
         href: mobile/mobile-power-app-intune.md
       - name: Mobile app for Windows 10+
         href: mobile/mobile-powerapp-windows.md
-      - name: Use Microsoft Power Platform
-        href: mobile/mobile-power-utilize-platform.md
       - name: IoT signals on mobile
         href: mobile/cfs-mobile-powerapp.md
       - name: Technician service reports
@@ -367,6 +365,8 @@ items:
 
     - name: Customize the mobile app
       items:
+        - name: Use Microsoft Power Platform
+          href: mobile/mobile-power-utilize-platform.md
         - name: Customize the navigation and views
           href: mobile/mobile-power-app-configure.md
         - name: Customize calendar columns
