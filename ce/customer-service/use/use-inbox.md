@@ -11,11 +11,12 @@ ms.custom: bap-template
 
 # Use the inbox
 
-The applicability of the features discussed in this article is as follows.
-
-| Dynamics 365 Contact Center&mdash;embedded | Dynamics 365 Contact Center&mdash;standalone | Dynamics 365 Customer Service |
-|----------|----------|----------|
-| No   | Yes   | Yes   |
+> [!NOTE]
+> The applicability of the features discussed in this article is as follows.
+>
+> | Dynamics 365 Contact Center&mdash;embedded | Dynamics 365 Contact Center&mdash;standalone | Dynamics 365 Customer Service |
+> |----------|----------|----------|
+> | No   | Yes   | Yes   |
 
 The inbox gives you quick view of your assigned cases, conversations, and records. It's designed to be your central place to locate, manage, and complete your day-to-day work. It can help you efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when you need more time to resolve cases and finish your conversations.
 
