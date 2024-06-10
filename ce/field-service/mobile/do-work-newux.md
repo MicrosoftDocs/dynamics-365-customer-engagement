@@ -38,8 +38,15 @@ Swipe left or right on any work order in the list to use a quick action to chang
 
 ## Navigate the app
 
-
-
 To open the navigation menu, select **More** at the bottom of the screen.
 
 :::image type="content" source="./media/mobile-newux-navigation.png" alt-text="Renderings of two mobile devices showing the navigation menu in the Field Service mobile app.":::
+
+
+## Use embedded Guides in the mobile app
+
+If your organization uses Dynamics 365 Guides, you can [use the new user experience for the Field Service mobile app](mobile-newux-enable.md) to access guides from mobile devices. If Guides uses the same environment as Field Service, users find a **Library** option at the bottom of the app. Select it to access your organization's guides library, search for specific guides, and follow them step by step.
+
+:::image type="content" source="../media/mobile-newux-related-guides-home.png" alt-text="Screenshot of Guides home page within the Field Service mobile app.":::
+
+For more information, see [Embedded Guides in Field Service mobile app (preview)](/dynamics365/mixed-reality/guides/admin-connect-field-service-mobile)
