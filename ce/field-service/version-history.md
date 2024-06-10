@@ -19,24 +19,35 @@ For information about older versions, see [Version history archive](version-hist
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.118.17](/dynamics365/field-service/version-history#8811817)  | TBD |06/14/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|  [8.8.117.32](/dynamics365/field-service/version-history#8811732)  | [8.8.118.17](/dynamics365/field-service/version-history#8811817) |06/07/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.117.32](/dynamics365/field-service/version-history#8811732)  | [8.8.118.17](/dynamics365/field-service/version-history#8811817)  | 06/14/2024 |
-| | *USG* | [8.8.117.32](/dynamics365/field-service/version-history#8811732)  | [8.8.118.17](/dynamics365/field-service/version-history#8811817) |06/07/2024 |
-|**Station 4** |*Europe* | [8.8.114.30](/dynamics365/field-service/version-history#8811430)  | [8.8.117.32](/dynamics365/field-service/version-history#8811732)   | 06/07/2024 |
-|**Station 5** | *North America*| [8.8.114.30](/dynamics365/field-service/version-history#8811430)  | [8.8.117.32](/dynamics365/field-service/version-history#8811732)   | 06/14/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.114.30](/dynamics365/field-service/version-history#8811430)  | [8.8.117.32](/dynamics365/field-service/version-history#8811732)   | 06/14/2024 |
-| | *Dedicated Scale Groups* |   [8.8.114.30](/dynamics365/field-service/version-history#8811430)  | [8.8.117.32](/dynamics365/field-service/version-history#8811732)   | 06/21/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|  [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | TBD |06/21/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.117.32](/dynamics365/field-service/version-history#8811732)  | [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | 06/14/2024 |
+| | *USG* |   [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | TBD |06/21/2024 |
+|**Station 4** |*Europe* | [8.8.117.34](/dynamics365/field-service/version-history#8811734)  | [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | 06/21/2024 |
+|**Station 5** | *North America*| [8.8.114.30](/dynamics365/field-service/version-history#8811430)  |[8.8.117.34](/dynamics365/field-service/version-history#8811734)   | 06/14/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.114.30](/dynamics365/field-service/version-history#8811430)  | [8.8.117.34](/dynamics365/field-service/version-history#8811734)   | 06/14/2024 |
+| | *Dedicated Scale Groups* |   [8.8.114.30](/dynamics365/field-service/version-history#8811430)  | [8.8.117.34](/dynamics365/field-service/version-history#8811734)   | 06/21/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.118.19
 
+This release is a hotfix on Field Service version [8.8.118.17](/dynamics365/field-service/version-history#8811817)
+
+- D365 Field Service Mobile: Fixed a bug which caused Inspections question text to overlay on itself when exporting to PDF.
+  
 ## 8.8.118.17
 (Includes Universal Resource Scheduling version [3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) and Resource Scheduling controls version 1.2.71.241432).
 
 - Can now delete and edit child records of inactive primary work order incidents.
-  
+
+## 8.8.117.34
+
+This release is a hotfix on Field Service version [8.8.117.32](/dynamics365/field-service/version-history#8811732)
+
+- D365 Field Service Mobile: Fixed a bug which caused Inspections question text to overlay on itself when exporting to PDF.
+
 ## 8.8.117.32
 (Includes Universal Resource Scheduling version [3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) and Resource Scheduling controls version 1.2.71.241432).
 
