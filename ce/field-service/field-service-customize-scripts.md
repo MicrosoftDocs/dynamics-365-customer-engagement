@@ -2,7 +2,7 @@
 title: Write scripts to implement complex business logic
 description: Learn all about best practices when implementing custom scripts in Dynamics 365 Field Service.
 ms.date: 02/18/2022
-ms.topic: article
+ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
 ---

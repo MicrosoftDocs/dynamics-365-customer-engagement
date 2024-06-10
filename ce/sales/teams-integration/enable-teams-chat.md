@@ -5,6 +5,7 @@ ms.date: 09/06/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Configure Microsoft Teams chat in Dynamics 365 Sales

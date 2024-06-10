@@ -8,7 +8,7 @@ ms.topic: article
 ms.assetid: f1565380-2c5b-4140-a657-156fee688cc9
 author: udaykirang
 ms.author: udag
-ms.reviewer: 
+ms.reviewer: udag
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
@@ -180,7 +180,7 @@ The following metrics are available on the card.
 
 ### See also
 
-[Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant)
+[Configure and manage insight cards for the premium assistant](configure-assistant.md#premium-assistant)
 
 [Create custom insight cards](create-insight-cards-flow.md)
 

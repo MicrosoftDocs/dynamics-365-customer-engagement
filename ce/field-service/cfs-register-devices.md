@@ -4,7 +4,8 @@ description: Learn about IoT devices and how to register them in Dynamics 365 Fi
 ms.date: 06/20/2022
 
 ms.subservice: connected-field-service
-ms.topic: article
+ms.topic: how-to
+
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

@@ -7,7 +7,7 @@ ms.reviewer:
 
 ms.suite:
 ms.tgt_pltfrm:
-ms.topic: get-started-article
+ms.topic: get-started
 applies_to: Dynamics 365 apps
 ms.assetid: 7f9d8425-f26c-43ac-bdc7-ff258977ff80
 caps.latest.revision: 136

@@ -4,7 +4,7 @@ description: "The site map enables you to control the application navigation (me
 keywords: 
 ms.date: 10/31/2017
 
-ms.topic: get-started-article
+ms.topic: get-started
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 6edb9094-bde0-4e5d-bb57-957676c86bec

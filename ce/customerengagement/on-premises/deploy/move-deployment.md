@@ -3,7 +3,7 @@ title: Move the Dynamics 365 Customer Engagement deployment
 description: Describes how to move the deployment including the databases and servers. 
 author: Mattp123
 ms.author: matp
-ms.prod: dynamics-365
+ms.service: dynamics-365
 ms.topic: how-to
 ms.date: 10/05/2022
 ms.custom: template-how-to

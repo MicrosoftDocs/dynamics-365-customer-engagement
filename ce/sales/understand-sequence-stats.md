@@ -5,6 +5,7 @@ ms.date: 02/10/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Understand the sequence stats page

@@ -1,72 +1,74 @@
 ---
-title: Manage seller availability
-description: Manage sellers' availability to provide a more flexible and accommodating work environment.
+title: Let sellers set their availability
+description: Learn how to allow sellers to set their work schedule in Outlook or the CRM calendar in Dynamics 365 Sales. You can also set their availability yourself.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
-ms.topic: how-to 
-ms.collection: 
-ms.date: 08/11/2023
-ms.custom: bap-template 
+ms.reviewer: udag
+ms.topic: how-to
+ms.date: 03/15/2024
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/18/2023
 ---
 
-# Manage seller availability
+# Let sellers set their availability
 
-Enable the seller availability option to let sellers configure their work hours through Outlook or CRM calendar.  
-Also, you can manage the availability of your sales team according to the needs of your business. In this way, you create a more flexible and accommodating work environment, where team members can take time off or switch shifts as needed. By helping your sales team become more productive, you can also help improve customer satisfaction and increase sales.
+Assignment rules can assign new leads, opportunities, and insights to your sellers based on their availability, attributes, and capacity.
+
+This article covers how to set your sales team's availability. You can [set sellers availability](#set-your-sellers-availability-yourself) yourself.
+[Learn how to set seller attributes and capacity](./wa-manage-seller-attributes.md).
+
+[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
+
+> [!NOTE]
+> Starting from  April 1, 2024, you can't set the seller's availability through Outlook. More information: [Deprecation of setting seller availability using Outlook calendar](deprecations-sales.md#set-seller-availability-using-outlook-calendar)
 
 ## License and role requirements
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | [Sales Manager](security-roles-for-sales.md) |
 
-## Enable seller availability
+## Set your sellers' availability yourself
 
-Enable the seller availability option to let sellers configure their work hours through Outlook or CRM calendar.
+The Sales Hub app offers three ways to set your sales team's work hours yourself:
 
-1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **Work assignment**.  
-1. On the **Work assignment** page, select **Settings**.  
-1. On the **Work assignment settings** page, select **Settings**.  
-    The **Seller availability** dialog box opens.  
+- [Set work hours in work assignment settings](#set-work-hours-in-work-assignment-settings).
+- [Set their work hours with the calendar API](#set-work-hours-with-the-calendar-api).
+- [Use an assignment rule and seller attributes](#set-availability-with-an-assignment-rule-and-seller-attributes).
 
-    :::image type="content" source="media/sa-ar-sales-team-define-seller-availability.png" alt-text="Screenshot of the seller availability dialog box.":::    
+To temporarily stop assigning sellers who are on vacation or otherwise unavailable, [change their availability in work assignment settings](./wa-work-assignment-manage-settings.md#stop-assigning-work-to-sellers).
 
-1.	On the **Seller availability** dialog box, configure the following options:  
-    - Turn on **Seller availability settings** to enable sellers to configure work hours.
-    - From the Select a calendar option, choose one of the following calendar types that sellers can use to configure work hours and vacation days. Once configured, leads and opportunities are assigned based on seller availability. 
-        - **CRM calendar**: : Allows sellers to configure work hours and vacation days using the Dynamics 365 calendar in personal settings. By default, this option is selected. More information [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability). 
-        - **Outlook**: Allows sellers to configure work hours and vacation days through the Outlook calendar. Sellers should have an Exchange license to use this option.
+### Set work hours in work assignment settings
 
-    :::image type="content" source="media/sa-ar-sales-team-define-seller-availability-configuration.png" alt-text="Screenshot of configuring seller availability settings page.":::            
+Use the Work assignment settings to configure the sellers' work hours.
 
-1.	Select **Save**.
+1. Go to **Sales insight settings** > **Sales accelerator** > **Work assignment** > **settings** .
 
-## How can I manage seller availability?
+1. In the **Work assignment settings** page, select the seller from the list and then select **Set availability**.
 
-As a sales manager, you can manage sellers' availability in the following ways:
+    >[!NOTE]
+    >You can select only one seller at a time.
 
-- **Advance settings**: Update the sellers' work hours through the advanced settings.
- 
-    1. Go to **Advanced Settings** > **Settings** > **System** > **Security** > **Users**.
-    1. Open the user record that you want to set work hours for.
-    1. At the top of the page, select the arrow next to the user name, and then select **Work Hours**.
+1. In the seller's calendar, select **New** and choose an option to configure the seller's calendar. For more information, see step 4 in [Through work list settings](personalize-sales-accelerator.md#through-work-list-settings).
 
-        :::image type="content" source="media/manage-seller-availability-select-chevron.png" alt-text="Screenshot that shows the arrow next to the user name being selected to open the menu that includes the Work Hours button.":::
+The selected seller's calendar is updated according to your configurations. Also, the **Availability (Next 7 days)** column is updated with the seller's availability for the next seven days.
 
-    1. On the **Monthly View** tab, select **Set Up** > **Time Off**.
-    1. In the **Schedule Time Off** dialog box, enter the information for the time off, and then select **OK**.
+### Set work hours with the calendar API
 
-    The time off for the selected user is added to the calendar.
+Use the calendar API and enter `msdyn_extendedusersetting` as the value of the `EntityLogicalName` string. [Learn how to edit work hour calendars using APIs](/dynamics365/field-service/field-service-work-hours-calendar-api).
 
-- **Calendar API**: Use the calendar API, and enter `msdyn_extendedusersetting` as the value of the `EntityLogicalName` string. [Learn how to edit work hour calendars by using APIs.](/dynamics365/field-service/field-service-work-hours-calendar-api)
-- **Assignment rules**: In assignment rules, create a seller attribute that's based on seller availability. Then apply appropriate values to sellers, based on their availability. For example, create an attribute that has the values *Available* and *On vacation*. Then, when a seller goes on vacation, select the attribute, and assign the *On vacation* value to notify other users that the seller isn't available. [Learn how to manage seller attributes in assignment rules.](manage-seller-attributes.md)
+### Set availability with an assignment rule and seller attributes
 
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
+In your assignment rules, create a seller attribute that's based on the seller's availability and assign it as needed. For example, you might create an attribute that has the values *Available* and *On vacation*. When a seller goes on vacation, select the attribute and assign the *On vacation* value to indicate the seller isn't available. [Learn how to set seller attributes and capacity](./wa-manage-seller-attributes.md).
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)   
-[Manage seller attributes](manage-seller-attributes.md)
+- [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)
+- [Set seller attributes](./wa-manage-seller-attributes.md)
+- [Create and activate assignment rules](./wa-create-and-activate-assignment-rule.md)

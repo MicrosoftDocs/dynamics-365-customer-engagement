@@ -5,6 +5,7 @@ ms.date: 04/21/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.assetid: d0d20528-0a72-4dd2-8c91-6367a9d4279d
 topic-status: Drafting

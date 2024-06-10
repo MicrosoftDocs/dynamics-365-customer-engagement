@@ -1,12 +1,17 @@
 ---
 title: Make and receive Teams calls in Dynamics 365
-description: Make and receive Teams calls in Dynamics 365 through the dialer, or from a record or a work item.
-ms.date: 08/23/2023
+description: Make and receive calls directly from Dynamics 365 with Microsoft Teams dialer and analyze conversations for real-time insights.
+ms.date: 10/17/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.custom: bap-template 
+ms.reviewer: lavanyakr
 ms.collection:
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/13/2023
 ---
 
 # Make and receive Teams calls in Dynamics 365
@@ -25,13 +30,14 @@ Microsoft Teams dialer helps you to be more productive and get work done effecti
 > [!NOTE]
 > An administrator must configure the Microsoft Teams dialer in your organization for you to use it. More information: [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
 
-Sign in to your sales app and select the phone (![Phone icon.](media/phone-icon.png "Phone icon")) icon in the upper-right corner of the page to open the **Calls** and view the dial pad.
+Sign in to your sales app and select the phone (![Phone icon.](media/phone-icon.png "Phone icon")) icon in the upper-right corner of the page to open the **Calls** pane and view the dial pad.
 
 > [!div class="mx-imgBorder"]
 > ![Open Microsoft Teams dialer.](media/teams-dialer-open-dialer.png "Open Microsoft Teams dialer")
 
 > [!IMPORTANT]
-> The dialer won't work if third-party cookies are blocked in the private or incognito window of your browser. To use the dialer, select the **Third-party cookie blocking** icon in your browser and select **Allow cookies**.
+>- The dialer won't work if third-party cookies are blocked in the private or incognito window of your browser. To use the dialer, select the **Third-party cookie blocking** icon in your browser and select **Allow cookies**.
+>- The dialer isn't supported for custom entities. Though the phone icon appears on the custom entity forms, the dialer doesn't work. 
 
 ## Make calls with Teams
 
@@ -110,7 +116,9 @@ If you've missed a call, a notification is displayed in the in-app notification 
 
 ## Transfer a Teams call (preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
 
 You can transfer a customer's call to a colleague's Teams line or their phone number.
 
@@ -131,7 +139,9 @@ You can transfer a customer's call to a colleague's Teams line or their phone nu
 
 ## Consult and transfer a Teams call (preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
 
 You can consult a colleague before you transfer a customer's call to them. You can also consult a colleague and then answer the customer directly, without transferring the call.
 

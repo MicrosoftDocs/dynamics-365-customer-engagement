@@ -1,91 +1,121 @@
 ---
-title: FAQ for summarization in Sales Copilot
-description: This FAQ provides information about the AI technology that's used in Dynamics 365 Sales. This FAQ also includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 07/18/2023
-ms.custom: 
-  - responsible-ai-faqs
-ms.topic: article
-search.app: salescopilot-docs 
+title: FAQ about summarization in Copilot
+description: Get answers to frequently asked questions about Copilot's AI-powered summarization feature, which quickly summarizes important lead and opportunity information in an easy-to-consume format.
+ms.date: 04/26/2024
+ms.custom:
+ - responsible-ai-faqs
+ - ai-gen-docs-bap
+ - ai-gen-desc
+ - ai-seo-date:10/03/2023
+ - bap-template
+ms.topic: faq
+search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ---
 
-# FAQ for summarization in Sales Copilot
+# FAQ about summarization in Copilot
 
-These frequently asked questions (FAQ) describe the AI impact of the Dynamics 365 Sales's summarization feature in Sales Copilot.
+These frequently asked questions (FAQ) are intended to help you understand the impact of AI on the summarization feature in Copilot in Dynamics 365 Sales.
 
-## What is summarization in Sales Copilot?
+## What is summarization in Copilot?
 
- Summarization in Sales Copilot is an AI-powered feature that empowers sellers with a quick summary of important and relevant information about lead and opportunity entities in an easy-to-consume format. The summarization process is powered by large language models, which employ natural language processing techniques to analyze and condense information from CRM.
+Summarization is an AI-powered feature of Copilot in Dynamics 365 Sales that provides sellers with a quick summary of important information about their sales records in an easy-to-consume format. Through this feature, Copilot can summarize:
 
-## What are summarization's capabilities?
+- Leads and opportunities
+- Proposals and other documents that are associated with the sales records
+- Summarize answers from SharePoint documents for questions asked in natural language
 
-Summarization is available for the following use cases&mdash;lead summary, opportunity summary, and meeting preparation.
+Copilot uses large language models and natural language processing to analyze and condense information in Dynamics 365. 
 
-**Lead summary:** A Lead summary in Dynamics 365 Sales generates a summary using the key fields of the lead view. The default lead summary includes the following information:
-- Lead topic / What is the lead interested in?  
+## What can summarization do?
 
-- Lead source  
-- When was the lead created? (Date)  
-- Lead's Preferred method of contact  
-- Insights from the Lead's parent account  
-- Insights from the Lead's parent contact  
+Summarization helps sellers stay on top of their leads and opportunities, get a quick gist of documents associated with sales records, answer questions, and efficiently prepare for meetings in a way that makes them more productive. 
 
-However, the admin can configure the field to be selected to generate the summary via App settings. The first seven fields of any selected view can be used to create a meaningful summary.  The generated summary can be shared with other stakeholders and help everyone get up to speed quickly.
+A **lead summary** is generated from a set of predefined fields in the lead table. By default, the lead summary includes the following information:
 
-**Opportunity summary:** An opportunity summary in Dynamics 365 Sales generates a summary using the key fields of an opportunity view. The default opportunity summary includes the following information:
+- The lead topic, or what the lead is interested in
+- The lead source
+- The lead rating
+- The date the lead was created
+- The source campaign
+- The lead's preferred method of contact
+- Insights from the lead's parent account&mdash;primary contact and annual revenue
+- Insights about the competitor for the lead&mdash;competitor's name and strength 
 
-- Account name and contact information  
+An administrator can [configure other fields to generate the summary from](./enable-setup-copilot.md).
 
-- Size of the a/c, budget, estimated revenue  
-- Customer requirement & value proposition  
-- Stage and status is the opportunity and estimated close date and revenue  
-- Products involved in the opportunity  
-- Key Stakeholders  
+An **opportunity summary** is generated from a set of predefined fields in the opportunity table. By default, the opportunity summary includes the following information:
 
-However, the admin can configure the field to be selected to generate the summary via App settings. The first seven fields of any selected view can be used to create a meaningful summary.  The generated summary can be shared with other stakeholders and help everyone get up to speed quickly.
+- The estimated revenue and estimated close date of the opportunity
+- The customer's requirements and proposed solution
+- Products added to the opportunity
+- Insights from the related account and contact&mdash;annual revenue, primary contact and their job title
+- Insights about the competitor for the lead&mdash;competitor's name and strength
 
-**Meeting preparation:** Meeting preparation is a feature that detects any upcoming meetings within the next 24 hours on the seller’s calendar and enables them to prepare for the meeting with ease. This feature summarizes the three latest notes and the most recent email associated with the entity’s timeline, providing sellers with valuable insights and key points to drive productive discussions. They can quickly grasp the context and relevant points, enabling them to engage with stakeholders more effectively and confidently.
+An administrator can [configure other fields to generate the summary from](./enable-setup-copilot.md).
 
-## What is summarization’s intended use?
+Users can invoke the **SharePoint question and answer** capability from the Copilot chat.
 
-The summarization features are designed to help sellers with the following tasks: 
+- Keywords detected from user’s question are passed to SharePoint to find documents containing the keywords.  
+- The snippets from the top documents are then passed to Open AI to summarize and generate a response that corresponds to the input question.  
 
-- Get a quick summary of the leads and opportunities from multiple data sources, providing an overview of important details by quickly assessing key information at a glance.  
+> [!NOTE]
+> User’s permission to the files is honoured before generating the response.
 
-- Accelerate the lead enrichment and qualification process by leveraging the power of diverse data streams. Enhance lead profiles with relevant data to gain a deeper understanding and efficiently assess lead quality.
+The **meeting preparation** feature helps sellers prepare for meetings easily and efficiently. It detects upcoming meetings in the next 24 hours on the seller's calendar. For each meeting, it summarizes the three most recent notes and the most recent email associated with the stakeholder's timeline, providing sellers with valuable insights and key points to drive productive discussions. They can quickly grasp the context and important points and engage with stakeholders more effectively and confidently.
 
-- Prepare for customer meetings with ease using summarized notes and interactions. Access a summary of important customer interactions from the notes section of the relevant record and latest email to quickly refresh your memory, highlight relevant discussion points, and drive productive meetings.
+A proposal summary is generated from the documents associated with the sales records in Dynamics 365 Sales. By default, a summary for a proposal includes the following information:  
 
+- The organization that issued the proposals
 
-## How was summarization evaluated? What metrics are used to measure performance?
+- The needs as described in the document
+- The point of authority to contact for the proposal
+- The budget information for the proposal in the document
+- Additional information as needed by the seller from the document
 
-The effectiveness and impact of summarization can be evaluated by the following metrics.
+## How is summarization intended to be used?
 
-- **Time saved:** Measure the amount of time sellers save in understanding leads, opportunities, and preparing for meetings compared to previous methods. This can be quantified by analyzing the average time spent on these tasks before and after implementing summarization features.
+The summarization features are designed to help sellers be more efficient and productive:
 
-- **Efficiency gains:** Assess the increase in sales efficiency by examining the number of leads qualified and opportunities pursued within a given timeframe. Compare this data to previous performance to gauge the impact of our summarization features on accelerating the sales pipeline.
+- Sellers get a summarized, at-a-glance overview of key information and important details about their leads and opportunities from multiple data sources.
 
-## What are the limitations of summarization? How can users minimize the impact of the summarization's limitations when using the system?
+- Diverse data streams enhance lead profiles with relevant data to gain a deeper understanding and efficiently assess lead quality.
 
-While the summarization feature offers numerous benefits, it is important to be aware of the limitations it might have.
+- Summarized notes, emails, and interactions help sellers prepare for customer meetings with ease, quickly refreshing their memory, highlighting useful discussion points, and driving productive meetings.
 
-- The quality of the generated summaries heavily relies on the accuracy and completeness of the data entered into the system. If there are inaccuracies, missing information, or inconsistencies in the input data, it may affect the reliability and usefulness of the generated summaries
+- Summarization of proposals and documents helps sellers get to the key points quickly without having to read through the entire document. The summarized answers generated by Copilot in Dynamics 365 Sales help sellers ask specific questions and get answers from SharePoint without having to leave their workspace and search the document.
 
-- The summarization feature operates based on predefined fields and parameters set by administrators. While this ensures consistency, it may limit the flexibility for the seller to tailor the summaries according to their individual preferences. The configuration is determined by the admin at this point.  
+- The summarized answers generated by Copilot help sellers ask specific questions and get answers from SharePoint documents without having to leave their workspace and search the document.
+
+## How was the summarization feature evaluated? What metrics are used to measure performance?
+
+We evaluate the effectiveness and impact of summarization using the following metrics:
+
+- **Time saved:** Measure the time sellers save in understanding leads and opportunities and preparing for meetings compared to previous methods, quantified by analyzing the average time spent on these tasks before and after implementing the summarization feature.
+
+- **Efficiency gains:** Assess the increase in sales efficiency by examining the number of leads qualified and opportunities pursued in a given timeframe. Compare this data to previous performance to gauge the impact of the summarization feature on accelerating the sales pipeline.
+
+## What are the limitations of summarization? How can users minimize the impact of these limitations?
+
+Although the summarization feature offers numerous benefits, it's important to be aware of limitations it might have.
+
+- The quality of generated summaries relies heavily on the accuracy and completeness of the data in the system. If the input data has inaccuracies, missing information, or inconsistencies, it may affect the reliability and usefulness of the summaries.
+
+- The lead and opportunity summarization feature operates on fields and parameters set by administrators. Although this ensures consistency, it may limit the flexibility of sellers to tailor the summaries to their individual preferences.
 
 ## What operational factors and settings allow for effective and responsible use of the summarization feature?
 
-To ensure effective and responsible use of the summarization feature, it is important to consider the following operational factors and settings.
+To ensure effective and responsible use of the summarization feature, it's important to consider the following operational factors and settings:
 
-- Ensure data quality and consistency and regularly update missing data.
+- Make sure the data in Dynamics 365 is consistent and high-quality, and regularly search for and enter missing data.
 
-- Ensure that the fields configured for the summarization process are relevant and align with the specific business needs to help sellers reap maximum benefits of the features.
+- Make sure that the fields configured for opportunity and lead summarization are relevant to your sellers and align with their business needs to realize the maximum benefits of the feature.
 
+### See also
 
-## See also
+[Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)
 
-- [Use Sales Copilot (preview)](use-sales-copilot.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

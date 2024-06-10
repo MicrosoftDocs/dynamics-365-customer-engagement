@@ -2,7 +2,7 @@
 title: Run reports on inspection responses
 description: Learn how to run reports for inspection responses in Dynamics 365 Field Service.
 ms.date: 08/22/2023
-ms.topic: article
+ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
 ---

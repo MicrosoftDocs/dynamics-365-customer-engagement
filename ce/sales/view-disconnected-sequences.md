@@ -5,6 +5,7 @@ ms.date: 11/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # View a sequence in a grid

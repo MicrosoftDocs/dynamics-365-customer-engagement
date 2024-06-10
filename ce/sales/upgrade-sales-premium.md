@@ -6,6 +6,7 @@ ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Upgrade to Dynamics 365 Sales Premium
@@ -73,8 +74,6 @@ You can upgrade your existing Dynamics 365 Sales Enterprise license to Sales Pre
 
 ### See also
 
-[Dynamics 365 licensing update](/dynamics365/licensing/update)
-
+[Dynamics 365 licensing update](/dynamics365/licensing/update)  
 [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)
 
-[Frequently asked questions about Sales Premium](faqs-sales-insights.md)

@@ -1,12 +1,12 @@
 ---
 title: Share a schedule board tab in Universal Resource Scheduling
 description: Beyond using the default public schedule board tab, you can follow these steps to share a schedule board tab.
-ms.date: 02/21/2023
+ms.date: 10/20/2023
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: article
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 

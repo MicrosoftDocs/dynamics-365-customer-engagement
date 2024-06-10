@@ -3,7 +3,7 @@ title: Relationship analytics KPI calculations
 description: Learn how the relationship analytics KPIs are calculated.   
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: conceptual 
 ms.date: 02/07/2023
 ms.custom: bap-template

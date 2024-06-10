@@ -2,12 +2,12 @@
 title: Create and manage product families, products, bundles, and product properties (Dynamics 365 Sales)
 description: Supports hierarchical organization of the product catalog through the creation and management products and bundles under a product family, defining related products, and adding properties (attributes) to the parent product family. 
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 
@@ -231,7 +231,7 @@ ProductAssociation newAssociation2 = new ProductAssociation
 };  
 _product2AssociationId = _serviceProxy.Create(newAssociation2);  
   
-if ((_product1AssociationId != null) && (_product1AssociationId != null))  
+if ((_product1AssociationId != null) && (_product2AssociationId != null))  
 Console.WriteLine("\nAdded both the products to the bundle");  
 ```  
   

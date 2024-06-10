@@ -91,7 +91,7 @@ If you enabled the Self Scheduling (Preview) option, this tab lets you configure
 - **Include Resource with maximum travel radius**: The maximum radius from the scheduled location in which a resource can be scheduled.
 
 > [!NOTE]
-> The travel radius settings are shared with the [schedule board in Field Service](configure-schedule-board.md). Changing the value on one will change the value for the other.
+> The travel radius settings are shared with the [schedule board in Field Service](work-with-schedule-board.md). Changing the value on one will change the value for the other.
 
 ## Configure incident types for the portal
 

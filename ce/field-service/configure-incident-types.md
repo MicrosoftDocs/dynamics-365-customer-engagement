@@ -2,7 +2,7 @@
 title: Create work order templates with incident types
 description: Learn about configuring incident types in Dynamics 365 Field Service.
 ms.date: 09/27/2022
-ms.topic: article
+ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ---
@@ -289,7 +289,7 @@ AI suggestions fall into three categories:
 
 For each suggestion, you have the following options:
 
-- **Apply Suggestion**: The system adds the product or service to the incident type. You've to manually apply suggestions for incident types.
+- **Apply Suggestion**: The system adds the product or service to the incident type. You have to manually apply suggestions for incident types.
 - **Dislike**: The suggestion is removed from the list. This option helps improve the AI suggestion model.
 
 ## Understand incident entities
@@ -314,10 +314,5 @@ When using incidents with **Agreements**, the incidents and related items are ad
 ### Multiple incident types
 
 Only one work order incident can be the primary incident. It's either the first incident added or the one entered in the primary incident type field. There's a Boolean value on the work order incident type called *Is Primary* that can be used for business logic.
-
-### Advanced scenarios
-
-- By default, work order service tasks have a field called **% Complete** that field technicians can use to record their progress completing each service task. It's common to replace this field or add another yes-or-no field. You can use custom Offline HTML and JavaScript on Field Service Mobile to prevent field technicians from completing a work order until all tasks are complete.
-- Correlating incident types with IoT alerts generated from Connected Field Service can streamline issues and resolutions and improve the organization's first-time fix rate.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

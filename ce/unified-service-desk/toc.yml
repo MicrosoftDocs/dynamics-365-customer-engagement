@@ -734,9 +734,9 @@
 - name: Dynamics 365 Customer Service
   href: ../customer-service/help-hub.md
 - name: Omnichannel for Customer Service Guide
-  href: ../customer-service/introduction-omnichannel.md
+  href: ../customer-service/implement/introduction-omnichannel.md
 - name: Dynamics 365 Channel Integration Framework Guide
-  href: ../customer-service/channel-integration-framework/channel-integration-framework.md
+  href: ../channel-integration-framework/channel-integration-framework.md
 - name: Known issues in Unified Service Desk
   href: https://go.microsoft.com/fwlink/p/?linkid=2167273  
   

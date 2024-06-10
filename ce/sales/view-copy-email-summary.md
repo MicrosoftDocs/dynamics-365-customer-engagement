@@ -3,11 +3,12 @@ title: View and copy email summary
 description: View the summary of email through Copilot in Dynamics 365 Sales.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
-ms.date: 07/26/2023
+ms.date: 10/05/2023
 ms.custom: bap-template 
-search.app: salescopilot-docs 
+search.app: salescopilot-docs
+ms.collection: bap-ai-copilot 
 ---
 
 # View and copy email summary
@@ -18,7 +19,7 @@ Dynamics 365 Sales uses copilot to summarize email conversations and provides yo
 
 ## Prerequisites
 
-Ensure that the Sales Copilot feature is enabled in your organization. More information: [Enable and set up copilot capabilities](enable-setup-copilot.md)
+Ensure that the Copilot feature is enabled in your organization. More information: [Enable and set up copilot capabilities](enable-setup-copilot.md)
 
 ## Considerations
 
@@ -39,7 +40,7 @@ The summary provides the highlights of the email conversations. To view the emai
     >[!NOTE]
     >The email summary feature is not supported when you open an email from  **Activities** under the **My Work** site map.
 
-2. In the **Sales Copilot** pane, go to the **Compose** tab.  
+2. In the **Copilot** pane, go to the **Compose** tab.  
     The email summary is displayed in the **Summary of this email** section.
 
     :::image type="content" source="media/copilot-email-summary-section.png" alt-text="Screenshot of the email summary section.":::

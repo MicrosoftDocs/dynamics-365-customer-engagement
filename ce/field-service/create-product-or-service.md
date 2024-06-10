@@ -3,7 +3,7 @@ title: Create products or services for work orders
 description: Learn how to create products or services for work orders in Dynamics 365 Field Service.
 ms.date: 09/24/2022
 
-ms.topic: article
+ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
 ---
@@ -18,7 +18,7 @@ With the product entity, you can create products and services to add to work ord
 
 - **Service** is work that a field technician performs and may bill the client for. Service is measured in time duration.
 
-If a field technician uses a product or performs a service while on the job, they can then enter the work into the Field Service Mobile app. Used products and performed services can be invoiced to customers based on the applicable price list or entitlement. Used products can be deducted from inventory levels either in the Field Service inventory module, Dynamics 365 Finance & Operations, or an external ERP system.
+If a field technician uses a product or performs a service while on the job, they can then enter the work into the Field Service mobile app. Used products and performed services can be invoiced to customers based on the applicable price list or entitlement. Used products can be deducted from inventory levels either in the Field Service inventory module, Dynamics 365 Finance & Operations, or an external ERP system.
 
 > [!NOTE]
 > Field Service doesn't support product bundles.
@@ -43,7 +43,7 @@ In this article, we'll explain how to create products and services, add them to 
 
    For more information on units and unit groups, visit the article: [Create a unit group and add units to that group (Sales app)](../sales-enterprise/create-unit-group-add-units-that-group.md)  
 
-   :::image type="content" source="media/work-order-product-create.png" alt-text="Screenshot of a product in the product details section.":::
+   :::image type="content" source="media/work-order-product-create.svg" alt-text="Screenshot of a product in the product details section.":::
 
 1. In the **Field Service** section, choose a **Field Service Product Type** which is required to add a product or service to a work order.
 
@@ -58,7 +58,7 @@ In this article, we'll explain how to create products and services, add them to 
    - **Default vendor**: Enter a vendor where this product was purchased from.
    - **Taxable**: Choose whether the product or service is taxable. This setting applies only if the work order is taxable. If the work order isn't taxable work order products and services aren't considered taxable either, regardless of this setting.
 
-   :::image type="content" source="media/work-order-product-create-field-service.png" alt-text="Screenshot of a product in the field service section.":::
+   :::image type="content" source="media/work-order-product-create-field-service.svg" alt-text="Screenshot of a product in the field service section.":::
   
 1. Select **Save** to apply your changes.
 
@@ -116,11 +116,9 @@ After [creating a work order](create-work-order.md), you can add products and se
 
 ## Use products and services
 
-Whether work order products and services are created individually or in bulk as part of a work order incident type template, they'll appear on work order forms in Field Service Mobile.
+Whether work order products and services are created individually or in bulk as part of a work order incident type template, they'll appear on work order forms in the mobile app.
 
-
-Work order products and services aren't required. Field technicians can edit the quantity or add new items from the product catalog. Administrators use [security roles and field security profiles](view-user-accounts-security-roles.md) to specify what users can edit, create, and delete.
-
+Work order products and services aren't required. Field technicians can edit the quantity or add new items from the product catalog. Administrators use [security roles and field security profiles](users-licenses-permissions.md) to specify what users can edit, create, and delete.
 
 On a work order product record, field technicians will set the **Line Status** of a work order product to **Used**. They also enter a **Quantity**, which represents how many units were used and a **Quantity To Bill**.
 

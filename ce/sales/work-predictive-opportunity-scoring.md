@@ -6,6 +6,7 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Prioritize opportunities through predictive scores
 
@@ -114,6 +115,6 @@ The following screenshot illustrates the reason and tooltip for the time spent i
 ### See also
 
 [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)  
-[Predictive lead and opportunity scoring](faqs-sales-insights.md#predictive-lead-and-opportunity-scoring)  
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

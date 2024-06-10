@@ -6,6 +6,7 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Configure predictive opportunity scoring
@@ -54,7 +55,7 @@ When per stage modeling is disabled, the model uses only attributes that had a h
 > [!IMPORTANT]
 >
 > - If you're using a model that you created in a version of Dynamics 365 earlier than 2020 release wave 2, [delete the model](pls-duplicate-models.md#delete-a-model) before you create a new one. Otherwise, the previous version of the model will be applied to all opportunities in your organization, and new models won't have any effect on the opportunities.
-> - As of 2020 release wave 2, the application writes the opportunity scoring data to the [**msdyn_predictivescore**](developer-sp/msdyn_predictivescore.md) table and no longer writes to the opportunity entity. Both lead and opportunity scoring use the **msdyn_predictivescore** table.
+> - As of 2020 release wave 2, the application writes the opportunity scoring data to the [**msdyn_predictivescore**](developer/entities/msdyn_predictivescore.md) table and no longer writes to the opportunity entity. Both lead and opportunity scoring use the **msdyn_predictivescore** table.
 
 A scoring model defines the criteria for choosing opportunities for training and scoring. If your organization follows different sales practices across different regions or business units, you can create models and unique training sets for each of them.
 
@@ -154,7 +155,8 @@ You can create up to 10 models, both published and unpublished, for different se
 
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md#edit-a-model)  
-[Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)   
-[Predictive lead and opportunity scoring](faqs-sales-insights.md#predictive-lead-and-opportunity-scoring)  
+[Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)  
+[Opportunity management FAQs](faq-opportunity.md)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
