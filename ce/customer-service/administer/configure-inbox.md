@@ -12,12 +12,7 @@ ms.custom: bap-template
 
 # Configure the inbox
 
-> [!NOTE]
-> The feature availability information for inbox is as follows.
->
-> | Dynamics 365 Contact Center&mdash;embedded | Dynamics 365 Contact Center&mdash;standalone | Dynamics 365 Customer Service |
-> |----------|----------|----------|
-> | No   | Yes   | Yes   |
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-agents) so that when your agents open Customer Service workspace or Contact Center workspace, they can select the inbox icon to show all the cases, conversations, and records that are assigned to them. The inbox is designed to help agents efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
 
