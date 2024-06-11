@@ -35,18 +35,18 @@ For information about older versions, see [Version history archive](version-hist
 
 This release is a hotfix on Field Service version [8.8.118.17](/dynamics365/field-service/version-history#8811817)
 
-- D365 Field Service Mobile: Fixed a bug which caused Inspections question text to overlay on itself when exporting to PDF.
+- Field Service mobile app: Fixed a bug which caused inspections question text to overlay on itself when exporting to PDF.
   
 ## 8.8.118.17
 (Includes Universal Resource Scheduling version [3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) and Resource Scheduling controls version 1.2.71.241432).
 
-- Can now delete and edit child records of inactive primary work order incidents.
+- You can now edit and delete child records of inactive primary work order incidents.
 
 ## 8.8.117.34
 
 This release is a hotfix on Field Service version [8.8.117.32](/dynamics365/field-service/version-history#8811732)
 
-- D365 Field Service Mobile: Fixed a bug which caused Inspections question text to overlay on itself when exporting to PDF.
+- Field Service mobile app: Fixed a bug which caused inspections question text to overlay on itself when exporting to PDF.
 
 ## 8.8.117.32
 (Includes Universal Resource Scheduling version [3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) and Resource Scheduling controls version 1.2.71.241432).
