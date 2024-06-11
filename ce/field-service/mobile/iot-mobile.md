@@ -11,7 +11,7 @@ author: vhorvathms
 
 # Work with IoT data on the mobile app
 
-[Connected Field Service](connected-field-service.md) is the IoT layer in Dynamics 365 Field Service. It enables organizations to create work orders based on real-time information from connected devices. The integration of IoT data provides technicians with information and tools for efficient onsite service delivery.
+[Connected Field Service](./connected-field-service.md) is the IoT layer in Dynamics 365 Field Service. It enables organizations to create work orders based on real-time information from connected devices. The integration of IoT data provides technicians with information and tools for efficient onsite service delivery.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image of a mobile phone, showing IoT alerts in the Field Service mobile app.](../media/cfs-fsm-powerapp-site-map.png)
@@ -24,8 +24,8 @@ Technicians can use Connected Field Service to:
 
 ## Prerequisites
 
-- An administrator [deployed and configured the required services for Connected Field Service](installation-setup-iothub.md).
-- You [updated to the latest version of the Dynamics 365 Field Service mobile app](upgrade-field-service.md#field-service-dynamics-365-mobile-app).
+- An administrator [deployed and configured the required services for Connected Field Service](./installation-setup-iothub.md).
+- You [updated to the latest version of the Dynamics 365 Field Service mobile app](./upgrade-field-service.md#field-service-dynamics-365-mobile-app).
 - You have an active internet connection.
 
 ## View summary tiles and device readings
@@ -41,7 +41,7 @@ While performing service on a customer asset, you can check recent IoT data for 
    :::image type="content" source="media/cfs-device-readings-mobile.png" alt-text="Simulated image of a mobile phone, showing live device readings.":::
 
 > [!NOTE]
-> Summary tiles and device readings are only visible after an [asset is related to a connected device](cfs-visualizations-iot-hub.md). Otherwise, this information shows on the IoT device or IoT alert.
+> Summary tiles and device readings are only visible after an [asset is related to a connected device](./cfs-visualizations-iot-hub.md). Otherwise, this information shows on the IoT device or IoT alert.
 
 ## Register new IoT devices
 
@@ -53,7 +53,7 @@ During asset installations, you can connect new IoT devices to customer assets. 
 
 ## Troubleshoot devices by sending commands
 
-After an administrator has [configured commands for Connected Field Service](cfs-commands.md), you can run them from mobile app.
+After an administrator has [configured commands for Connected Field Service](./cfs-commands.md), you can run them from mobile app.
 
 :::image type="content" source="media/cfs-fsm-powerapp-commands.png" alt-text="Simulated image of a mobile phone, showing an IoT device record on Field Service mobile app.":::
 
@@ -63,6 +63,6 @@ To send a comment, open the IoT device record and go to **More ...** > **Send Co
 
 ## Next steps
 
-- [Use the mobile app to complete work orders](overview.md)
+- [Use the mobile app to complete work orders]overview.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

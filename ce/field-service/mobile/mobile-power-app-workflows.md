@@ -47,7 +47,7 @@ An organization may want to run validation on certain field values after a techn
 
 Validation can be done with the help of some JavaScript which works online and offline.
 
-See the video about ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
+See the video about [Field Service mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
 
 1. In Dynamics 365 Field Service, select **Advanced Settings**.
 

@@ -11,6 +11,10 @@ applies_to:
 author: JonBaker007
 ms.author: jobaker
 ---
+ # travel to job new UX
+
+> [!WARNING]
+> To do: review, scrub, update, extend as needed.
 
 Swipe a booking from left to right or select the booking's menu to access its quick actions and set the status to **Traveling**. You can also open the booking and select **Edit status** on the **General** tab.
 

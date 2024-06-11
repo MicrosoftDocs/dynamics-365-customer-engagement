@@ -50,7 +50,7 @@ Users receive an in-app notification when:
 
 The notifications appear while the sync is in progress. After a large incremental sync is finished, the user can refresh the view to get the latest updates.
 
-:::image type="content" source="media/syncnotifications.png" alt-text="Renderings of three device screens, each with one of the three types of sync notifications highlighted.":::
+:::image type="content" source="../media/syncnotifications.png" alt-text="Renderings of three device screens, each with one of the three types of sync notifications highlighted.":::
 
 ## View offline sync status
 

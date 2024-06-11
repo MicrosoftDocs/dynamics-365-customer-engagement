@@ -1,5 +1,8 @@
 # travel, guides, update WO, refer to copilot, RA
 
+> [!WARNING]
+> To do: review, scrub, update, extend as needed.
+
 ## Travel to a job location
 
 
@@ -45,7 +48,7 @@ To open the navigation menu, select **More** at the bottom of the screen.
 
 ## Use embedded Guides in the mobile app
 
-If your organization uses Dynamics 365 Guides, you can [use the new user experience for the Field Service mobile app](mobile-newux-enable.md) to access guides from mobile devices. If Guides uses the same environment as Field Service, users find a **Library** option at the bottom of the app. Select it to access your organization's guides library, search for specific guides, and follow them step by step.
+If your organization uses Dynamics 365 Guides, you can [use the new user experience for the Field Service mobile app](enable-newux.md) to access guides from mobile devices. If Guides uses the same environment as Field Service, users find a **Library** option at the bottom of the app. Select it to access your organization's guides library, search for specific guides, and follow them step by step.
 
 :::image type="content" source="../media/mobile-newux-related-guides-home.png" alt-text="Screenshot of Guides home page within the Field Service mobile app.":::
 
