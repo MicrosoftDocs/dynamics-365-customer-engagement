@@ -39,7 +39,7 @@ Users with these security roles can sign in to the mobile app as a technician.
 
 ## Download the app and sign in
 
-[Download the Field Service mobile app](downloadd-mobile-app.md) for your preferred platform and sign in with your user credentials.
+[Download the Field Service mobile app](download-mobile-app.md) for your preferred platform and sign in with your user credentials.
 
 ## Next steps
 

@@ -32,7 +32,7 @@ Once the custom app module is created, you need update the mobile app player tha
 
 To make the app module available to the Field Service mobile app:
 
-![Setting "Primary Mobile Player" in Power Apps.](media/mobile-primarymobileplayer.jpg)
+![Setting "Primary Mobile Player" in Power Apps.](../media/mobile-primarymobileplayer.jpg)
 
 1. In the App Designer, select **Settings**.
 
