@@ -63,9 +63,6 @@ As an administrator, you can configure third-party sources, such as enterprise w
 - As a customizer, you can set up knowledge base search control on a standard or custom form to help make it easy for users in your organization to find knowledge articles. More information: [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms)
 - As an administrator, you can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Omnichannel for Customer Service. Configuring a record type will specify the information that your agents will see while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](../administer/configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
 
-### Integrate knowledge management with a Copilot Studio bot 
-As an administrator, you can integrate a Copilot Studio bot with knowledge management to make it easier to use customized conversations in your bot. This helps free up your agents' time so they can focus on complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md)
-
 ### Search multiple knowledge providers
 As an administrator, you can use search providers to federate the search of files, documents, or articles from data sources outside of your organization. More information: [Set up external search providers](../administer/set-up-search-providers.md#set-up-external-search-providers)
 
@@ -78,6 +75,9 @@ As an administrator, you can:
 
 ### Search the knowledge base on portals
 Having a knowledge base on the portal makes it a customer self-service portal, where you can access and search for knowledge articles through simple queries. This helps resolve issues and makes information easily accessible. You can search for your knowledge articles by selecting **Knowledge Base** from your portal. More information: [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals)
+
+### Integrate knowledge management with a Copilot Studio bot 
+As an administrator, you can integrate a Copilot Studio bot with knowledge management to make it easier to use customized conversations in your bot. This helps free up your agents' time so they can focus on complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md)
 
 ## Analyze and report
 
