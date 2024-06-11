@@ -1,9 +1,9 @@
 ---
 title: Optimize multi-day service requests (preview)
 description: Understand how the Resource Scheduling Optimization add-in for Dynamics 365 Field Service handles multi-day requirements.
-author: FeifeiQiu
-ms.author: feiqiu
-ms.date: 10/09/2023
+author: AnilMur
+ms.author: anilmur
+ms.date: 06/11/2024
 ms.topic: conceptual
 ms.subservice: resource-scheduling-optimization
 ---
@@ -12,9 +12,8 @@ ms.subservice: resource-scheduling-optimization
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-A [service requirement can be scheduled across multiple days and weeks](schedule-multi-day-work.md). For example, a 40-hour work order across an entire work week where the same field technician is expected to perform more detailed work at the same location each day.
+A [service requirement can be manuallt scheduled across multiple days and weeks](schedule-multi-day-work.md). For example, a 40-hour work order across an entire work week where the same field technician is expected to perform more detailed work at the same location each day. You can now use Resource Scheduling Optimization to optimize such multi-day service requests.
 
-With the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service version 3.4.0.623, you can optimize multi-day service requests to improve scheduling efficiency and accuracy for dispatchers.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
@@ -32,8 +31,8 @@ Resource Scheduling Optimization fulfills multi-day requirements partially when 
 
 ## Known issues
 
-Optimization runs create an extra booking for multi-day requirements if one existing bookings is in *Completed* status.
+Optimization runs may create an extra booking for multi-day requirements if one existing booking is in *Completed* status.
 
-Optimization run delete multi-day bookings instead of optimizing them when you lock multiple bookings to different resources.  
+Optimization runs may delete multi-day bookings instead of optimizing them when you lock multiple bookings to different resources.  
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]
