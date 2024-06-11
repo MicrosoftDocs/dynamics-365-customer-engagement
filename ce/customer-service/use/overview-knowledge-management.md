@@ -1,7 +1,7 @@
 ---
 title: Overview of knowledge management
 description: Learn about knowledge management in Dynamics 365 Customer Service.
-ms.date: 06/06/2024
+ms.date: 06/011/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -51,8 +51,8 @@ As a knowledge author, you can:
 ### Create and manage categories for your knowledge articles
 As an administrator, you can create hierarchical, categorical data to help group records. Categories are useful for reporting, sorting, segmenting, and categorization of records. More information: [Create and manage categories](../administer/create-manage-categories.md#create-and-manage-categories).
 
-### Integrate knowledge management with a Copilot Studio bot 
-As an administrator, you can integrate a Copilot Studio bot with knowledge management to make it easier to use customized conversations in your bot. This helps free up your agents' time so they can focus on complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md)
+### Ingest articles through integrated search providers
+As an administrator, you can configure third-party sources, such as enterprise websites that are based on the site map protocol. This enables your agents to view and sort search results from any search providers added by you. More information: [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers)
 
 ## Search knowledge articles
 
@@ -61,11 +61,11 @@ As an administrator, you can integrate a Copilot Studio bot with knowledge manag
 - As a customizer, you can set up knowledge base search control on a standard or custom form to help make it easy for users in your organization to find knowledge articles. More information: [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms)
 - As an administrator, you can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Omnichannel for Customer Service. Configuring a record type will specify the information that your agents will see while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](../administer/configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
 
+### Integrate knowledge management with a Copilot Studio bot 
+As an administrator, you can integrate a Copilot Studio bot with knowledge management to make it easier to use customized conversations in your bot. This helps free up your agents' time so they can focus on complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md)
+
 ### Search multiple knowledge providers
 As an administrator, you can use search providers to federate the search of files, documents, or articles from data sources outside of your organization. More information: [Set up external search providers](../administer/set-up-search-providers.md#set-up-external-search-providers)
-
-### Search across integrated search providers
-As an administrator, you can configure third-party sources, such as enterprise websites that are based on the site map protocol. This enables your agents to view and sort search results from any providers added by you. More information: [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers)
 
 ### Set up search logic and search filters
 As an administrator, you can:
