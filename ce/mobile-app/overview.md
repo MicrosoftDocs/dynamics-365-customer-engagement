@@ -4,7 +4,7 @@ ms.custom:
 description: Overview information for Dynamics 365 for phones and tablets app
 ms.date: 12/20/2023
 ms.reviewer: 
-
+ms.service: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: overview
