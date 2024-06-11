@@ -98,6 +98,6 @@ You can create push notification with custom triggers to match your business sce
 1. The push notifications on the technician's mobile phone. They don't need to have the app open or use their device to receive push notifications.
 
 > [!div class="mx-imgBorder"]
-> ![A mobile phone push notification from Field Service.](./media/mobile-2020-push-notification-result-wf.png)
+> ![A mobile phone push notification from Field Service.](../media/mobile-2020-push-notification-result-wf.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -29,13 +29,13 @@ Sample screens show both the classic user experience ("Unified Interface UX") an
 
 Select a booking to see more details about the booking time and the work order. Change the status to show that you're driving to the customer location. On the **Customer** tab, you can see the work order location on a map and launch your preferred maps app for turn-by-turn directions. The functional location field on the work order tells you exactly where to go when you arrive at the address.
 
-:::image type="content" source="./media/mobile-2020-work-order-navigate-directions-map.jpg" alt-text="Renderings of two mobile devices showing booking status and a mapped work location in the Field Service mobile app.":::
+:::image type="content" source="../media/mobile-2020-work-order-navigate-directions-map.jpg" alt-text="Renderings of two mobile devices showing booking status and a mapped work location in the Field Service mobile app.":::
 
 ## Do and record your work
 
 On the **Service tab**, you see work order details like work order service tasks, products, and services. Mark a service or service task as complete and include any products you used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details.
 
-:::image type="content" source="./media/mobile-2020-work-order-service-notes-new.jpg" alt-text="Renderings of three mobile devices showing service tasks, parts used, and the Notes screen in the Field Service mobile app.":::
+:::image type="content" source="../media/mobile-2020-work-order-service-notes-new.jpg" alt-text="Renderings of three mobile devices showing service tasks, parts used, and the Notes screen in the Field Service mobile app.":::
 
 ## Add notes and attachments
 
@@ -43,7 +43,7 @@ On the **Notes** tab, you can add text, image, audio, and video notes and link t
 
 The **Timeline** tab shows you other historical data related to the booking.
 
-:::image type="content" source="./media/mobile-uci-quick-notes.png" alt-text="Renderings of three mobile devices showing the Notes screen, the device camera view, and a note with photos in the Field Service mobile app.":::
+:::image type="content" source="../media/mobile-uci-quick-notes.png" alt-text="Renderings of three mobile devices showing the Notes screen, the device camera view, and a note with photos in the Field Service mobile app.":::
 
 Notes are available only when they're included with the Bookable Resource Booking form. You can't use notes with other forms.
 
@@ -53,7 +53,7 @@ If you can't save a note, you might not have the right permissions to the table 
 
 When you're online, you can view and interact with functional locations and customer asset hierarchies in the mobile app.
 
-:::image type="content" source="./media/mobile-2020-customer-asset-navigate.png" alt-text="Renderings of three mobile devices showing information about customer assets in the Field Service mobile app.":::
+:::image type="content" source="../media/mobile-2020-customer-asset-navigate.png" alt-text="Renderings of three mobile devices showing information about customer assets in the Field Service mobile app.":::
 
 Watch this video to learn more about functional locations in the Field Service mobile app:
 
@@ -69,7 +69,7 @@ Track the time that you spend on work orders and other scenarios and create time
 
 From the main menu, go to **Time Entry** and create one.
 
-:::image type="content" source="./media/mobile-2020-time-entry-all.png" alt-text="Renderings of three mobile devices showing the process of entering time in the Field Service mobile app.":::
+:::image type="content" source="../media/mobile-2020-time-entry-all.png" alt-text="Renderings of three mobile devices showing the process of entering time in the Field Service mobile app.":::
 
 Watch this video to learn more about time entry in the Field Service mobile app:
 
@@ -94,7 +94,7 @@ Save the work order so a dispatcher can book it.
 
 If you don't see the **Follow up** option, you might not have the right permissions. Ask your administrator to make sure you have [**create** permissions](./users-licenses-permissions.md) to the work order table.
 
-:::image type="content" source="./media/mobile-2020-follow-up.png" alt-text="Rendering of a mobile device showing the Follow up option in the Field Service mobile app.":::
+:::image type="content" source="../media/mobile-2020-follow-up.png" alt-text="Rendering of a mobile device showing the Follow up option in the Field Service mobile app.":::
 
 Watch this video to learn more about follow-up work orders in the Field Service mobile app:
 

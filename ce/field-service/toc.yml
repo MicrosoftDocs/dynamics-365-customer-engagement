@@ -318,7 +318,7 @@ items:
         - name: Best practices and limitations
           href: mobile/best-practices-limitations-offline-profile.md
       - name: Scan barcodes
-        href: mobile/scan barcode.md
+        href: mobile/scan-barcode.md
       - name: Enable push notifications
         href: mobile/enable-push-notifications.md
       - name: Track and audit location data
@@ -341,7 +341,7 @@ items:
         - name: Work offline
           href: mobile/work-offline.md
         - name: Access related applications
-          href: mobile/access-related-apps-mobile-app.md
+          href: mobile/access-related-apps.md
         - name: View booking maps
           href: mobile/booking-maps.md
         - name: Create service reports

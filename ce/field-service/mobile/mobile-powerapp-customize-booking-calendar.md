@@ -39,12 +39,12 @@ Add or remove any column from tables that have a relationship to the *bookable r
 > For columns from a different table, you must create a relationship between the bookable resource booking and that table. When referencing the relationship in the control, be sure to reference the full lookup field name as `fieldName.Attribute`.
 
 > [!div class="mx-imgBorder"]
-> ![Editing a view to add new attribute in Power Apps](./media/mobile-2020-calendar-control-1.png)
+> ![Editing a view to add new attribute in Power Apps](../media/mobile-2020-calendar-control-1.png)
 
 Once the view has desired columns, return to **Customizations**. Select the bookable resource booking, then select **Controls** and **Booking Calendar Control** to configure the control properties.
 
 > [!div class="mx-imgBorder"]
-> ![Editing booking calendar control properties in Power Apps.](./media/mobile-2020-calendar-control-2.png)
+> ![Editing booking calendar control properties in Power Apps.](../media/mobile-2020-calendar-control-2.png)
 
 To configure fields, select the **Edit icon** next to the field. Input the reference to the field as an attribute of bookable resource booking, or as `linkedEntity.attribute`. In this example, we added the work order priority (`msdyn_workorder.msdyn_priority`) as **Custom Field 1**.
 
@@ -53,15 +53,15 @@ You can also configure the optional custom field label associated with the custo
 Fields without data are hidden.
 
 > [!div class="mx-imgBorder"]
-> ![Field Service mobile app with a customized calendar agenda view.](./media/mobile-2020-calendar-control-3.png)
+> ![Field Service mobile app with a customized calendar agenda view.](../media/mobile-2020-calendar-control-3.png)
 
 Custom fields are also shown on the calendar's day view when the booking duration is long enough to support the extra text. Custom data is also shown when opening booking details from the map view.
 
 > [!div class="mx-imgBorder"]
-> ![Field Service mobile app with customized calendar day view.](./media/mobile-2020-calendar-control-4.png)
+> ![Field Service mobile app with customized calendar day view.](../media/mobile-2020-calendar-control-4.png)
 
 > [!div class="mx-imgBorder"]
-> ![Field Service mobile app with customized calendar map view.](./media/mobile-2020-calendar-control-5.png)
+> ![Field Service mobile app with customized calendar map view.](../media/mobile-2020-calendar-control-5.png)
 
 > [!Note]
 > If you have configured multiple views for the mobile app, it is recommended you include the new fields into each view that can be accessed from the mobile app.

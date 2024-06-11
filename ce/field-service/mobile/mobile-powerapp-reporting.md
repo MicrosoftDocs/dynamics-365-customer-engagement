@@ -17,7 +17,7 @@ ms.author: jobaker
 Field Service technicians often create service reports summarizing work done during a customer visit. These reports can carry details such as tasks completed, and products or parts used during the service. Service reports must often be delivered to the customer in the form of a PDF.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service mobile app reporting experience.](./media/mobile-2020-reporting-app.png)
+> ![Screenshot of Field Service mobile app reporting experience.](../media/mobile-2020-reporting-app.png)
 
 This article outlines how to use the Power Apps Component Framework (PCF) to build a service report for the Field Service mobile application. This article also provides a sample report and PCF control that will serve as a guide for developers to design and import the control for their environments.
 
@@ -71,10 +71,10 @@ Administrators and dispatchers can also generate reports when viewing a booking 
 From the bookable resource booking, select **Report**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a Field Service bookable resource booking, showing the "Report" option.](./media/mobile-2020-reporting-web1.png)
+> ![Screenshot of a Field Service bookable resource booking, showing the "Report" option.](../media/mobile-2020-reporting-web1.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a sample report in the bookable resource booking record.](./media/mobile-2020-reporting-web2.png)
+> ![Screenshot of a sample report in the bookable resource booking record.](../media/mobile-2020-reporting-web2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

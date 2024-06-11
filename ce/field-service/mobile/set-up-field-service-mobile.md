@@ -29,7 +29,7 @@ To use the Field Service mobile app, you need [Field Service installed](install-
 
 1. Select **Share** and assign the app to the **Field Service-Resource**, **Field Service-Administrator**, or other security roles need access to the mobile app.
 
-:::image type="content" source="../media/assign-roles-to-app.png" alt-text="Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.":::
+:::image type="content" source=".../media/assign-roles-to-app.png" alt-text="Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.":::
 
 ## Assign mobile app users appropriate security roles
 

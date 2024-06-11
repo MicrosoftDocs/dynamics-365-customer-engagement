@@ -60,7 +60,7 @@ See the video about ![Video symbol](../field-service/media/video-icon.png "Video
 1. Select **Form Properties** in the top ribbon.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the lookup record dialog in Power Apps.](./media/mobile-2020-offline-javascript.png)
+> ![Screenshot of the lookup record dialog in Power Apps.](../media/mobile-2020-offline-javascript.png)
 
 1. **Add** and **Create** a new JavaScript web resource for the form.
 
@@ -86,7 +86,7 @@ See the video about ![Video symbol](../field-service/media/video-icon.png "Video
 1. In the event handlers section, change the event from *onLoad* to *onSave* of the form.
 
    > [!div class="mx-imgBorder"]
-   > ![Handler properties within the form properties.](./media/mobile-2020-workflows2.png))
+   > ![Handler properties within the form properties.](../media/mobile-2020-workflows2.png))
 
 1. Save and publish the customizations.
 

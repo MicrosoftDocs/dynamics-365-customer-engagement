@@ -16,7 +16,7 @@ Administrators who want to customize the booking and work order forms must know 
 To edit the work order portion of the form, go to **Settings** > **Customizations** > **Customize the System** and find the **Work Order** entity in the Power Apps admin console.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps showing the list of entities.](./media/mobile-2020-admin-work-order-form.png)
+> ![Screenshot of Power Apps showing the list of entities.](../media/mobile-2020-admin-work-order-form.png)
 
 In the **Form** section, there are three forms that correspond to the three sections of the combined Booking-Work Order form.
 
@@ -27,22 +27,22 @@ In the **Form** section, there are three forms that correspond to the three sect
 Edit each form as needed and publish. The changes will display in the Field Service mobile app.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps showing the work order form details.](./media/mobile-2020-admin-work-order-form-tabs.png)
+> ![Screenshot of Power Apps showing the work order form details.](../media/mobile-2020-admin-work-order-form-tabs.png)
 
 To edit the **Booking** part of the form, go to the **Bookable Resource Booking** entity in the Power Apps admin console.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Bookable Resource Booking in the Power Apps list of entities.](./media/mobile-2020-admin-booking-form.png)
+> ![Screenshot of the Bookable Resource Booking in the Power Apps list of entities.](../media/mobile-2020-admin-booking-form.png)
 
 Find the **Booking and Work Order** form, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a Bookable Resource Booking in Power Apps, showing the Booking and Work Order form.](./media/mobile-2020-admin-booking-form-combined.png)
+> ![Screenshot of a Bookable Resource Booking in Power Apps, showing the Booking and Work Order form.](../media/mobile-2020-admin-booking-form-combined.png)
 
 Add and delete booking fields as needed.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps showing the form editor for the Bookable Resource Booking.](./media/mobile-2020-admin-booking-form-combined-add-fields.png)
+> ![Screenshot of Power Apps showing the form editor for the Bookable Resource Booking.](../media/mobile-2020-admin-booking-form-combined-add-fields.png)
 
 Another way you can add work order information to the booking form is to add a [quick view form](../customerengagement/on-premises/customize/create-edit-quick-view-forms.md) that displays work order fields. Quick view forms are read-only, but you can go to the related work order form from there.
 

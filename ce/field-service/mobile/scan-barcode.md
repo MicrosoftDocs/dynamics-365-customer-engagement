@@ -14,7 +14,7 @@ Technicians can use the Dynamics 365 Field Service mobile app to scan a barcode.
 
 Scanning a barcode simplifies data entry and lets technicians search the database for records that match the barcode for easy lookup.
 
-:::image type="content" source="../media/mobile-scan-barcode-new.png" alt-text="Four mobile devices in different stages of the barcode scan process.":::
+:::image type="content" source=".../media/mobile-scan-barcode-new.png" alt-text="Four mobile devices in different stages of the barcode scan process.":::
 
 ## Add a barcode field to a form
 

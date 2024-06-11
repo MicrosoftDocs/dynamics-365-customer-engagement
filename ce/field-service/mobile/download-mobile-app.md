@@ -96,13 +96,13 @@ After you sign in, the app might download data to your device so that you can us
 
 The first screen shows a calendar view of your scheduled work orders. At the bottom of the screen, select **More** > **Show as** > **Read-only Grid** to see your bookings as a list instead.
 
-:::image type="content" source="./media/mobile-2020-booking-view.jpg" alt-text="Renderings of four mobile devices showing the Bookings screens in the Field Service mobile app.":::
+:::image type="content" source="../media/mobile-2020-booking-view.jpg" alt-text="Renderings of four mobile devices showing the Bookings screens in the Field Service mobile app.":::
 
 ## Navigate the app
 
 To open the navigation menu, select the menu icon in the upper-left corner of the screen. The navigation menu quickly gets you to important information like accounts, contacts, customer assets, or to submit time entries.
 
-:::image type="content" source="./media/mobile-2020-sitemap-account.jpg" alt-text="Renderings of three mobile devices showing app navigation and an account detail screen in the Field Service mobile app.":::
+:::image type="content" source="../media/mobile-2020-sitemap-account.jpg" alt-text="Renderings of three mobile devices showing app navigation and an account detail screen in the Field Service mobile app.":::
 
 ## View recent items and pin important ones
 
@@ -110,7 +110,7 @@ To quickly find work orders, assets, time entries, and other items you recently 
 
 To easily get back to important items you need quick access to, select **Pin**.
 
-:::image type="content" source="./media/mobile-2020-menu-pin.png" alt-text="Rendering of a mobile device showing the navigation menu with the Recent and Pin buttons highlighted in the Field Service mobile app.":::
+:::image type="content" source="../media/mobile-2020-menu-pin.png" alt-text="Rendering of a mobile device showing the navigation menu with the Recent and Pin buttons highlighted in the Field Service mobile app.":::
 
 ## Troubleshoot app issues
 
@@ -118,7 +118,7 @@ As with other mobile apps, issues with the Field Service mobile app are often th
 
 Select your profile icon in the upper-left corner, select **Reconfigure**, and confirm when you're prompted to do so.
 
-:::image type="content" source="./media/mobile-2020-offline-reconfigure.png" alt-text="Rendering of a mobile device showing the Reconfigure option in the Field Service mobile app.":::
+:::image type="content" source="../media/mobile-2020-offline-reconfigure.png" alt-text="Rendering of a mobile device showing the Reconfigure option in the Field Service mobile app.":::
 
 [!INCLUDE [footer-include](../../includes/footer-banner.md)]
 
