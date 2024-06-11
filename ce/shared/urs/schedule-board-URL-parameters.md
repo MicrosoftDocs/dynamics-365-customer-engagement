@@ -1,7 +1,7 @@
 <!-- In line 31, is a word missing? "...*after* the schedule board parameters, ..." Perhaps change to "after creating the schedule board parameters"? In the same line, it says "Unified Client Interface". I think it should be just "Unified Interface." -->
 <!-- In line 33, "The following parameters render the schedule board appear..." Should it be "to appear"? -->
 
-The schedule board is accessible through a URL that loads the web resource. The simplest way to access this URL is to configure the schedule board as you prefer, select **More options (&hellip;)** and choose **Copy link**. The generated link includes the parameters currently configured on your board.
+The schedule board is accessible through a URL that loads the web resource. The simplest way to access this URL is to configure the schedule board as you prefer, select **More options (&hellip;)**, and choose **Copy link**. The generated link includes the parameters currently configured on your board.
 
 :::image type="content" source="../../field-service/media/schedule-board-copy-link.png" alt-text="Screenshot of the Copy link option on the schedule board.":::
 
@@ -22,7 +22,7 @@ We'll use the browser console to create the parameters. [Learn more about the Co
 
 1. Construct the command like `encodeURIComponent(JSON.stringify({parameter1: "value", parameter2: "value", ...}))` and enter it in the console. For example, to show the map and set the view mode to daily, the command is: `encodeURIComponent(JSON.stringify({map: "true", viewmode: "daily"}))`, which results in `%7B%22map%22%3A%22true%22%2C%22viewmode%22%3A%22daily%22%7D`.
 
-   [More parameters and values are listed in the following section](#parameter- reference).
+   [More parameters and values are listed in the following section](#parameter-reference).
 
 1. Append the resulting stringified object to the base URL to create a functional URL that launches the schedule board with the parameters set accordingly. For example: `https://contoso.onmicrosoft.com/main.aspx?pagetype=webresource&webresourceName=msdyn_/ScheduleBoard/index.html?data=%7B%22map%22%3A%22true%22%2C%22viewmode%22%3A%22daily%22%7D`.
 
