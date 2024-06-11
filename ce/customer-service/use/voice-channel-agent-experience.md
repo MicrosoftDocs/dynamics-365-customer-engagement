@@ -43,6 +43,7 @@ To avoid the recording and transcription of what you say while the customer is o
 - **Mark spam**: [Report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
 - **Device settings**: Configure your microphone and speaker settings.
 - **Take notes**:  Make note of important information or specific details from your conversation with the customer. It's in addition to the call recording and transcription that happen during the conversation. See [take notes specific to the conversation](../use/oc-take-notes.md).
+- - **Start recording and transcript**: If your administrator enabled the recording and transcription service, you can start recording and transcription of the call.
 - **Pause recording and transcription**: If you don't want to capture some details of the conversation—such as bank details, billing, or payment information—you can temporarily pause the transcription and resume it later.
 - **Knowledge Articles**: Get a list of knowledge base articles pertaining to the conversation that you can use to resolve the customer issue.
 - **Link to conversation**: You can link another conversation, case, customer, or knowledge article to the conversation.
@@ -51,6 +52,7 @@ To avoid the recording and transcription of what you say while the customer is o
   > The **Link to conversation** button is disabled after you end the voice call. Open account or contact on a new tab and select **Link to conversation** to link record (customer or case) to conversation.
 
 - **Transcription**: When your administrator enables the transcription and recording service, the conversation between you and the customer is automatically transcribed in real time. This means that you don't need to take notes during the call. This feature also helps your supervisor or agent (in a call transfer) to see the call history.
+- **Hide Transcript**: You can hide the transcript if you don't want to see it during the call. Select **Show Transcript** to display the transcript again.
 - **Sentiment analysis**: The transcript also powers *live* sentiment analysis. This means that you or your supervisor can instantly view and gauge the customer's mood and feeling via the sentiment icons.
 
 ## Report a phone number as spam
