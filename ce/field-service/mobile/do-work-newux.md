@@ -24,7 +24,7 @@ Notes in **Timeline** are stored as annotations that are associated with the boo
 
 The home screen lists today's scheduled bookings. 
 
-Use the buttons below the list for easy access to the bookings home page (**Home**), the [embedded Guides feature](access-related-apps-mobile-app.md) (**Library**), and the [app navigation menu](#navigate-the-app) (**More**).
+Use the buttons below the list for easy access to the bookings home page (**Home**), the [embedded Guides feature](access-related-apps.md) (**Library**), and the [app navigation menu](#navigate-the-app) (**More**).
 
 To view and change the app settings, provide feedback, and change the environment, select your profile picture at the top of the screen.
 
