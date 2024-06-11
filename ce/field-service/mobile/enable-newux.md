@@ -34,7 +34,7 @@ Technicians don't need to download a new app. Just make sure the mobile app and 
 
 - Offline mode isn't supported. Users who are enabled for offline use don't see the new experience.
 
-- [Field Service Mobile app module customizations](field-service-customizations.md) aren't supported. However, an icon in the upper-right corner allows users to switch between the classic and modern UX to access customized model-driven app experiences, like custom forms and business logic.
+- [Field Service Mobile app module customizations](../field-service-customizations.md) aren't supported. However, an icon in the upper-right corner allows users to switch between the classic and modern UX to access customized model-driven app experiences, like custom forms and business logic.
 
 - The new mobile experience uses the display language that's set in the device's language settings. The classic experience uses the language that's set in the user profile. Users might see a mixed language experience if the two settings are not the same.
 

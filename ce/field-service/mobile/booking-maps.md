@@ -14,7 +14,7 @@ Frontline workers can view their scheduled work orders on a map from the Field S
 
 ## Prerequisites
 
-To use booking maps, [enable booking maps for mobile in the **Work Order/Booking** section of the **Field Service Settings** page](configure-default-settings.md#work-order--booking-settings).
+To use booking maps, [enable booking maps for mobile in the **Work Order/Booking** section of the **Field Service Settings** page](../configure-default-settings.md#work-order--booking-settings).
 To see bookings on the map, schedule work orders for a resource. Booking maps show bookings that are related to a work order.
 
 ## View booking map on mobile app
@@ -27,7 +27,7 @@ To see bookings on the map, schedule work orders for a resource. Booking maps sh
 
 1. Select a day to see the map of scheduled bookings for the day.
 
-Pin colors represent the Field Service status of the booking status. For more information, see [work order and booking statuses](work-order-status-booking-status.md).
+Pin colors represent the Field Service status of the booking status. For more information, see [work order and booking statuses](../work-order-status-booking-status.md).
 
 Tap a booking pin to get directions or call the customer. Select **View Details** to open the booking and work order. The location is the address of the related work order. The phone number belongs to the primary contact for the related work order.
 

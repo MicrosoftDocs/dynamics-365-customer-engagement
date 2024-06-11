@@ -76,13 +76,13 @@ The agenda view is the default view in the [new user experience of the Field Ser
 - Booking status
 - Start time and duration
 
-:::image type="content" source="media/agenda-view.png" alt-text="Device render of a mobile device showing bookings on the home page in the agenda view.":::
+:::image type="content" source="../media/agenda-view.png" alt-text="Device render of a mobile device showing bookings on the home page in the agenda view.":::
 
 The agenda view shows data from the *Bookable Resource Booking* table and related tables. Booking status, start time and duration always show. You can customize which data to show by adding, removing, or changing the order of the data columns. As a best practice, [consider using a solution to apply your customizations.](/power-apps/maker/data-platform/solutions-overview)
 
 Go to Power Apps and navigate to **Tables** > **Bookable Resource Booking** > **Views** and customize **Bookings – Agenda View**.
 
-:::image type="content" source="media/agenda-view-power-apps.png" alt-text="Agenda view in the list of views in the Power Apps maker experience.":::
+:::image type="content" source="../media/agenda-view-power-apps.png" alt-text="Agenda view in the list of views in the Power Apps maker experience.":::
 
 Columns in this view show on a booking card within the agenda. We recommend keeping the number of columns below 10 to maintain readability and performance. Don't add more than 25 columns to the view. To learn how to configure a view, see [Choose and configure columns in model-driven app views in Power Apps](/power-apps/maker/model-driven-apps/choose-and-configure-columns).  
 

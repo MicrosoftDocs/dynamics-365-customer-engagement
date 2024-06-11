@@ -40,13 +40,13 @@ Configure the following cloud flow to send frontline workers a push notification
 
    For both connection references, add a new connection and make sure they're enabled.
 
-   :::image type="content" source="media/mobile-2020-push-connection2.png" alt-text="Edit pane for Field Service Push Notification connection reference.":::
+   :::image type="content" source="../media/mobile-2020-push-connection2.png" alt-text="Edit pane for Field Service Push Notification connection reference.":::
 
 1. In the Solutions area, edit the solution with the name `msdyn_FieldService_patch_update`.
 
 1. Find the cloud flow called **Field Service – Notify user about booking (UCI app)** and select the **Turn On** option.
 
-   :::image type="content" source="media/mobile-2020-push-turn-on-flow.png" alt-text="Power Apps showing the flow called Field Service – Notify user about booking (UCI app).":::
+   :::image type="content" source="../media/mobile-2020-push-turn-on-flow.png" alt-text="Power Apps showing the flow called Field Service – Notify user about booking (UCI app).":::
 
 1. Open the details for the **Field Service – Notify user about booking (UCI app)** cloud flow. Make sure the **Connection References** section contains both connection references that you created in step 3.
 
@@ -74,7 +74,7 @@ You can create push notification with custom triggers to match your business sce
 
 1. To include work order information in the push notification message, configure the flow to get work orders. Add another **Get row by ID** option and choose the *Work Order (Value)* row from the *Work Orders* table.
 
-   :::image type="content" source="media/power-automate-custom-flow.svg" alt-text="Custom flow in Power Automate that triggers a push notification in the Field Service mobile app.":::
+   :::image type="content" source="../media/power-automate-custom-flow.svg" alt-text="Custom flow in Power Automate that triggers a push notification in the Field Service mobile app.":::
 
 1. With all information available and the flow logic defined, it's time to add the **Send push notification V2** action.
 

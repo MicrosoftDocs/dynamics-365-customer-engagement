@@ -26,6 +26,6 @@ Organizations using Dynamics 365 Remote Assist find a link on the work order to 
 
 :::image type="content" source="../media/remote-assist-booking-deeplink.png" alt-text="Screenshot of four mobile devices showing the Field Service mobile app, and the workflow that brings up the Dynamics 365 Remote Assist launch option.":::
 
-For more information, see [Using Field Service with Dynamics 365 Remote Assist](remote-assist-hololens.md).
+For more information, see [Using Field Service with Dynamics 365 Remote Assist](../remote-assist-hololens.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

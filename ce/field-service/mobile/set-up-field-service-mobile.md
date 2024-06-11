@@ -19,7 +19,7 @@ For a guided walkthrough, check out the following video.
 
 ## Prerequisites
 
-To use the Field Service mobile app, you need [Field Service installed](install-field-service.md) and [set up](field-service-get-started.md).
+To use the Field Service mobile app, you need [Field Service installed](../install-field-service.md) and [set up](../field-service-get-started.md).
 
 ## Assign security roles to the Field Service mobile app
 
@@ -29,11 +29,11 @@ To use the Field Service mobile app, you need [Field Service installed](install-
 
 1. Select **Share** and assign the app to the **Field Service-Resource**, **Field Service-Administrator**, or other security roles need access to the mobile app.
 
-:::image type="content" source=".../media/assign-roles-to-app.png" alt-text="Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.":::
+:::image type="content" source="../media/assign-roles-to-app.png" alt-text="Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.":::
 
 ## Assign mobile app users appropriate security roles
 
-Assign Field Service users the **Field Service-Resource** security role and **Field Service-Resource** field security profile. For more information, see [Set up users, licenses, and security roles](../users-licenses-permissions.md). Alternatively, go through the [frontline worker setup](frontline-worker-set-up.md) to quickly create a frontline worker and automate setup steps.
+Assign Field Service users the **Field Service-Resource** security role and **Field Service-Resource** field security profile. For more information, see [Set up users, licenses, and security roles](../users-licenses-permissions.md). Alternatively, go through the [frontline worker setup](../frontline-worker-set-up.md) to quickly create a frontline worker and automate setup steps.
 
 Users with these security roles can sign in to the mobile app as a technician.
 
@@ -45,7 +45,7 @@ Users with these security roles can sign in to the mobile app as a technician.
 
 - [Set up offline data and sync filters](work-offline.md)
 - [Five tips for implementing the Field Service mobile app](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
-- [Get started with Dynamics 365 Field Service](field-service-get-started.md)
+- [Get started with Dynamics 365 Field Service](../field-service-get-started.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

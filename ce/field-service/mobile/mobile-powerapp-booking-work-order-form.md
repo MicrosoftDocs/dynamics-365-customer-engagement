@@ -44,7 +44,7 @@ Add and delete booking fields as needed.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps showing the form editor for the Bookable Resource Booking.](../media/mobile-2020-admin-booking-form-combined-add-fields.png)
 
-Another way you can add work order information to the booking form is to add a [quick view form](../customerengagement/on-premises/customize/create-edit-quick-view-forms.md) that displays work order fields. Quick view forms are read-only, but you can go to the related work order form from there.
+Another way you can add work order information to the booking form is to add a [quick view form](.../customerengagement/on-premises/customize/create-edit-quick-view-forms.md) that displays work order fields. Quick view forms are read-only, but you can go to the related work order form from there.
 
 >[!TIP] 
 > The combined _Booking and Work Order_ form is made possible by a PCF control called "Form component control." For more information, see the article on

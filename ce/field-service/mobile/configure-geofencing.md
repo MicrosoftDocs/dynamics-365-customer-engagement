@@ -16,9 +16,9 @@ In Dynamics 365 Field Service, the default use case for geofencing is to create 
 
 ## Prerequisites
 
-- [Connect to Bing Maps](field-service-maps-address-locations.md#connect-to-maps) to locate service accounts.
+- [Connect to Bing Maps](../field-service-maps-address-locations.md#connect-to-maps) to locate service accounts.
 
-- [Set up auto geocoding for addresses](turn-on-auto-geocoding.md) to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required to place geofences.
+- [Set up auto geocoding for addresses](../turn-on-auto-geocoding.md) to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required to place geofences.
 
 - [Enable location tracking, sharing, and auditing](track-technician-location.md) and test location tracking.
 
@@ -30,7 +30,7 @@ Go to **Advanced settings** in the legacy settings area and open **Processes** t
 - ```GenerateGeofenceWhenBookingIsCreated```
 - ```Update Geofence instance coordinates```
 
-If you have **Enhanced Background Processing** (Preview) set to _Yes_ in [Field Service Settings](./configure-default-settings.md#other-settings), enable the geofence Power Automate flows. In this case, you don't need these processes.
+If you have **Enhanced Background Processing** (Preview) set to _Yes_ in [Field Service Settings](../configure-default-settings.md#other-settings), enable the geofence Power Automate flows. In this case, you don't need these processes.
 
 1. Go to https://make.powerapps.com/ and select your environment.
 1. Go to **Solutions** > **Geofencing for Field Service**.

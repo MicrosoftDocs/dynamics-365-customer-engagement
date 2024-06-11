@@ -60,10 +60,10 @@ To have location tracking work properly, complete all the following steps when p
 1. In the Field Service mobile app, select **Start location tracking** or **Update settings**.
 1. Select **Precise Location** and then **Allow all the time** to ensure the app uses the accurate location.
 1. Set **Battery optimization** to **Don't optimize** to allow the Field Service app to update the location consistently.
-1. Allow the Field Service app to set **Alarms and reminders**. The app uses this permission to ensure it only tracks the location during specified work hours, which are [defined in the bookable resource record](set-up-bookable-resources.md#add-work-hours).
+1. Allow the Field Service app to set **Alarms and reminders**. The app uses this permission to ensure it only tracks the location during specified work hours, which are [defined in the bookable resource record](../set-up-bookable-resources.md#add-work-hours).
 1. Allow access to your **Physical activity** information. This setting helps optimize battery life by reducing the number of location updates while not moving.
 
-## [Windows app](#tab/Android)
+## [Windows app](#tab/Windows)
 
 Location tracking is currently not available in the Dynamics 365 Field Service Windows app that you can get from the Microsoft Store.
 
@@ -74,6 +74,6 @@ Location tracking is currently not available in the Dynamics 365 Field Service W
 In the Field Service web application, open the schedule board and select a resource that has location tracking enabled. The current location of the resource appears on the schedule board map. Select the map pin icon next to see the resource's detailed location.
 
 > [!NOTE]
-> Dispatchers can use current locations for schedule assistant travel time calculations by selecting **Real time mode** in the schedule assistant filter pane. For more information, see [Advanced filters for the schedule assistant](schedule-assistant-advanced-filters.md).
+> Dispatchers can use current locations for schedule assistant travel time calculations by selecting **Real time mode** in the schedule assistant filter pane. For more information, see [Advanced filters for the schedule assistant](../schedule-assistant-advanced-filters.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

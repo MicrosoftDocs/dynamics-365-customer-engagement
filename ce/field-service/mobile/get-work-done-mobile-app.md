@@ -47,7 +47,7 @@ The **Timeline** tab shows you other historical data related to the booking.
 
 Notes are available only when they're included with the Bookable Resource Booking form. You can't use notes with other forms.
 
-If you can't save a note, you might not have the right permissions to the table that notes are stored in. Ask your administrator to make sure that your [security role has access](users-licenses-permissions.md) to the `msdyn_bookableresourcebookingquicknotes` table.
+If you can't save a note, you might not have the right permissions to the table that notes are stored in. Ask your administrator to make sure that your [security role has access](../users-licenses-permissions.md) to the `msdyn_bookableresourcebookingquicknotes` table.
 
 ## Service assets
 
@@ -92,7 +92,7 @@ To create a follow-up work order, select the **Follow up** option in the bottom 
 
 Save the work order so a dispatcher can book it.
 
-If you don't see the **Follow up** option, you might not have the right permissions. Ask your administrator to make sure you have [**create** permissions](./users-licenses-permissions.md) to the work order table.
+If you don't see the **Follow up** option, you might not have the right permissions. Ask your administrator to make sure you have [**create** permissions](../users-licenses-permissions.md)] to the work order table.
 
 :::image type="content" source="../media/mobile-2020-follow-up.png" alt-text="Rendering of a mobile device showing the Follow up option in the Field Service mobile app.":::
 

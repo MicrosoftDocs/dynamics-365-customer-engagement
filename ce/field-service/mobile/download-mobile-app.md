@@ -74,13 +74,13 @@ An administrator can also download the package from the [app center](https://ins
 
 Launch the mobile app and sign in with your Field Service username and password.
 
-If you can't sign in, it might be because you haven't been given the right permissions. Ask your organization's administrator to confirm you have [access and permissions](users-licenses-permissions.md) to use the app.
+If you can't sign in, it might be because you haven't been given the right permissions. Ask your organization's administrator to confirm you have [access and permissions](../users-licenses-permissions.md) to use the app.
 
 After you sign in, the app might download data to your device so that you can use it when your device is offline. It can take some time to complete. The data that's downloaded depends on your administrator's settings for the app's offline profile.
 
 ## Access the mobile app as a guest user
 
-[B2B guest users](users-licenses-permissions.md#b2b-collaboration-users) need a special deep link that identifies the guest tenant to access the environment and open the mobile app.
+[B2B guest users](../users-licenses-permissions.md#b2b-collaboration-users) need a special deep link that identifies the guest tenant to access the environment and open the mobile app.
 
 1. Download and install the Field Service mobile app.
 1. Get the deep link from the Field Service administrator.

@@ -14,7 +14,7 @@ Technicians can use the Dynamics 365 Field Service mobile app to scan a barcode.
 
 Scanning a barcode simplifies data entry and lets technicians search the database for records that match the barcode for easy lookup.
 
-:::image type="content" source=".../media/mobile-scan-barcode-new.png" alt-text="Four mobile devices in different stages of the barcode scan process.":::
+:::image type="content" source="../media/mobile-scan-barcode-new.png" alt-text="Four mobile devices in different stages of the barcode scan process.":::
 
 ## Add a barcode field to a form
 
@@ -28,7 +28,7 @@ Make sure there's a barcode field on the form you want to add the barcode inform
 
 1. Select the newly added column and add the **BarcodeScannerControl** component in the **Properties** side pane. Make sure you enable **Show component on** for **Mobile** and **Tablet**.
 
-   :::image type="content" source="media/power-apps-designer-add-barcode.png" alt-text="Screenshot of the Power Apps app designer with the BarcodeScannerControl opened.":::
+   :::image type="content" source="../media/power-apps-designer-add-barcode.png" alt-text="Screenshot of the Power Apps app designer with the BarcodeScannerControl opened.":::
 
 1. **Save and publish** the changes.
 

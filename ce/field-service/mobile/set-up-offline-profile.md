@@ -39,7 +39,7 @@ Field Service comes with an offline profile that has default settings for Field 
 
 1. Select the ellipsis (**&hellip;**) next to **Field Service Mobile - Offline Profile**, and then select **Edit selected profile**.
 
-   :::image type="content" source="media/fs-mobile-power-apps-edit-offline-profile.png" alt-text="Screenshot of Power Apps Field Service mobile app settings, with the default offline profile selected and Edit selected profile highlighted.":::
+   :::image type="content" source="../media/fs-mobile-power-apps-edit-offline-profile.png" alt-text="Screenshot of Power Apps Field Service mobile app settings, with the default offline profile selected and Edit selected profile highlighted.":::
 
 1. If you chose to restrict access to selected users, [add those users now](/power-apps/mobile/setup-mobile-offline#add-users-to-an-offline-profile). Otherwise, go to the next step.
 
@@ -47,7 +47,7 @@ Field Service comes with an offline profile that has default settings for Field 
 
    - Select a table, and then select **Edit**.
 
-      :::image type="content" source="media/fs-mobile-power-apps-offline-table-edit.png" alt-text="Screenshot of the Bookable Resource Booking table offline data settings in the Field Service mobile app offline profile.":::
+      :::image type="content" source="../media/fs-mobile-power-apps-offline-table-edit.png" alt-text="Screenshot of the Bookable Resource Booking table offline data settings in the Field Service mobile app offline profile.":::
 
    - Select the rows or filters, relationships, files, and images to make available offline.
 
