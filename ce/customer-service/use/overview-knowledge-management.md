@@ -54,7 +54,7 @@ As a knowledge author, you can:
 As an administrator, you can create hierarchical, categorical data to help group records. Categories are useful for reporting, sorting, segmenting, and categorization of records. More information: [Create and manage categories](../administer/create-manage-categories.md#create-and-manage-categories).
 
 ### Ingest articles through integrated search providers
-As an administrator, you can configure third-party sources, such as enterprise websites that are based on the site map protocol. This enables your agents to view and sort search results from any search providers added by you. More information: [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers)
+As an administrator, you can configure third-party sources, such as enterprise websites that are based on the site map protocol. Knowledge articles are ingested into Dataverse and are available for agents to search. This enables your agents to view and sort search results from any search providers added by you. More information: [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers)
 
 ## Search knowledge articles
 
