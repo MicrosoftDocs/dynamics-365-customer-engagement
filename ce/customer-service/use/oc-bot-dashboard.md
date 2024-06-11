@@ -11,6 +11,8 @@ ms.author: mgandham
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 In Omnichannel for Customer Service, you can integrate both Azure and Copilot Studio bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required. The bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are performing in a support organization. 
