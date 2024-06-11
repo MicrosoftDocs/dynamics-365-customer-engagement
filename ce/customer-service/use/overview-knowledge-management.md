@@ -39,6 +39,8 @@ As a knowledge author, you can:
    - Review knowledge articles for accuracy before they’re published or made available to others. More information: [Review knowledge articles](review-ka.md#review-knowledge-articles)
    - Use templates to create knowledge articles quickly, with prepopulated fields in the selected template. Templates also help knowledge managers and authors maintain consistency in branding, language, and structure. More information: [Create a knowledge article template](create-templates-knowledge-article.md#create-a-knowledge-article-template)
    - Set up a default knowledge article authoring language. More information: [Configure a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
+
+As an administrator, you can also enable the setting for agents to propose knowledge drafts after they have resolved a case. More information: [Use Copilot to generate knowledge drafts from cases (preview)](use-copilot-knowledge-from-cases.md#use-copilot-to-generate-knowledge-drafts-from-cases-preview)
    
 ### Manage the lifecycle of knowledge articles
 As a knowledge author, you can:
