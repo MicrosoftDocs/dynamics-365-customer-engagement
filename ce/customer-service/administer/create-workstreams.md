@@ -36,7 +36,7 @@ The administrator who configures workstreams must be a system administrator or h
 
 ## Create a workstream
 
-You can create workstreams for unified routing in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
+You can create workstreams for unified routing in the Customer Service admin center or Contact Center admin center app.
 
 1. Go to one of the apps, and perform the following steps:
 
@@ -50,10 +50,6 @@ You can create workstreams for unified routing in the Customer Service admin cen
     
      - In the site map, select **Workstreams** in **General settings**.
     
-   ### [Customer Service Hub](#tab/customerservicehub)
-
-     - In the site map, select **Workstreams** in **Unified Routing**.
-
 1. Select **New workstream**.
 
 1. In the **Create a workstream** dialog, enter the following details:

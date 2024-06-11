@@ -11,11 +11,18 @@ ms.custom: bap-template
 
 # Use the inbox
 
-The inbox in Customer Service workspace gives you quick view of your assigned cases, conversations, and records. It's designed to be your central place to locate, manage, and complete your day-to-day work. It can help you efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when you need more time to resolve cases and finish your conversations.
+> [!NOTE]
+> The feature availability information for inbox is as follows.
+>
+> | Dynamics 365 Contact Center&mdash;embedded | Dynamics 365 Contact Center&mdash;standalone | Dynamics 365 Customer Service |
+> |----------|----------|----------|
+> | No   | Yes   | Yes   |
 
-The view you see in your inbox depends on how your administrator has configured it. More information: [Configure the inbox](../administer/configure-inbox.md). 
+The inbox gives you quick view of your assigned cases, conversations, and records. It's designed to be your central place to locate, manage, and complete your day-to-day work. It can help you efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when you need more time to resolve cases and finish your conversations.
 
-Depending on how your inbox is configured, you may see any of the following channels:
+The view you see in your inbox depends on how your administrator has configured it. More information: [Configure the inbox](../administer/configure-inbox.md).
+
+Depending on how your inbox is configured, you might see any of the following channels:
 
 - Live chat
 - Asynchronous chat
@@ -28,7 +35,7 @@ Depending on how your inbox is configured, you may see any of the following chan
 
 1. In Customer Service workspace, select **Inbox** on the site map.
 
-1. Select either **Cases** or **Conversations** to view a respective list of assigned items.
+1. Select **Cases** or **Conversations** to view a respective list of assigned items.
    
 1. Select the item to work on. It opens in a new tab. Alternatively, you can open an item in a new tab by selecting the **new session** icon.
 
@@ -42,7 +49,7 @@ To filter your inbox view:
 
    :::image type="content" source="../media/inbox-agent-filter-view.png" alt-text="View of the filter icon in inbox.":::
 
-1. Select the desired filter views. The following options are available:
+1. Select the required filter views. The following options are available:
 
    - **Filter**
        - **All** - Displays both read and unread items.
