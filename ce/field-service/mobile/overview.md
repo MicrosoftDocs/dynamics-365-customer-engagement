@@ -50,7 +50,7 @@ For information about planned features, see [Dynamics 365 Field Service release 
 
 ## Next steps
 
-- [Install and set up the mobile app](mobile-power-app-get-started.md)
+- [Install and set up the mobile app](set-up-field-service-mobile.md)
 - [Set up offline data and sync filters](mobile-power-app-system-offline.md)
 - [Download and install the app on a mobile device](download-get-started-mobile-app.md)
 

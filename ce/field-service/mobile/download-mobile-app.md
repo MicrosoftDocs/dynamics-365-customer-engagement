@@ -21,7 +21,7 @@ Sample screens show both the classic user experience ("Unified Interface UX") an
 
 ## Prerequisites
 
-A system administrator has [set up the mobile app](mobile-power-app-get-started.md), user profiles, and security roles.
+A system administrator has [set up the mobile app](set-up-field-service-mobile.md), user profiles, and security roles.
 
 ## Download the app
 

@@ -78,6 +78,6 @@ For more information, see [Release channels for your model-driven app](/power-ap
 ## Next steps
 
 - [Get started with Dynamics 365 Field Service](field-service-get-started.md)
-- [Use the Field Service mobile app](mobile-power-app-use.md)
+- [Use the Field Service mobile app](mobile/overview.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

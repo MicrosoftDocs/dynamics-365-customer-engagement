@@ -68,7 +68,7 @@ Add a start time, end time or duration, and the bookable resource to which the t
 
 You can relate the time entry to other records - like work orders and bookings - as needed.
 
-You can also view and create time entries on the [Field Service mobile app](mobile-power-app-get-started.md). 
+You can also view and create time entries on the [Field Service mobile app](mobile/set-up-field-service-mobile.md). 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of time entry on the mobile app.](./media/mobile-2020-time-entry-all.png)

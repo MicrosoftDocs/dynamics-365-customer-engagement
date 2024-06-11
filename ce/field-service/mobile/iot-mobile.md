@@ -63,6 +63,6 @@ To send a comment, open the IoT device record and go to **More ...** > **Send Co
 
 ## Next steps
 
-- [Use the mobile app to complete work orders](mobile-power-app-use.md)
+- [Use the mobile app to complete work orders](overview.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
