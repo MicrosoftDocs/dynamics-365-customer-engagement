@@ -16,7 +16,7 @@ Track your product inventory using a warehouse record in Dynamics 365 Field Serv
   
 1. In Field Service, change to the **Inventory** area.
 
-1. In the **Inventory** section, go to **Warehouses**.
+1. Under **Inventory**, select **Warehouses**.
   
    :::image type="content" source="media/warehouse-list.svg" alt-text="Screenshot of an Active Warehouses view with list of warehouses in Field Service.":::
   
@@ -36,7 +36,7 @@ You can also manually add product inventory to a warehouse record, but keep in m
   
 2. Select **New Product Inventory**.  
   
-3. Fill in the **Product**, and **Unit** information. Optionally, specify the **Bin** and **Row** where the product resides in the warehouse.
+3. Fill in the **Product** and **Unit**. Optionally, specify the **Bin** and **Row** where the product resides in the warehouse.
   
 4. Select **Save & Close**.
 
