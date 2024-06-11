@@ -107,6 +107,10 @@ At the highest level, the output has the following four parameters. The results 
 | Availability| Entity | The detailed availability information for a time slot. This is used in connection with time groups. <ol> <li> **AvailableIntervals**	(_EntityCollection_):	A collection of available intervals. Each entity in this collection contains details about a time group interval. <ul> <li> **StartTime**	(_DateTime_):	The start time.<li> **ArrivalTime**	(_DateTime_):	The arrival time.<li> **EndTime**	(_DateTime_):	The end time.<li> **TimeGroupId**	(_DateTime_):	The time group id.<li> **TimeGroupDetailStartTime**	(_DateTime_):	The time group start time. <li> **TimeGroupDetailEndTime**	(_DateTime_):	The time group end time.</ul> <li> **TotalAvailableDuration**	(_Double_):	The total available duration in minutes. <li> **TotalAvailableTime** (_Double_): The total available time a resource has in a day (in minutes).|
 | TimeGroup| Entity | The details about a time group. <ol> <li> **TimeGroupId**	(_Guid_):	The time group Id. <li> **TimeGroupDetail**	(_EntityReference_):	An entity reference to the time group detail. <li> **TimeGroupDetailStartTime**	(_DateTime_):	The time group detail start time. <li> **TimeGroupDetailEndTime**	(_DateTime_):	The time group detail end time.|
 
+> [!Tip] 
+> When creating bookings with the API, be sure to utilize the _Potential_ field as described above. Failure to do so may result in overlapping or unsuitable bookings. 
+  
+
 #### Time slot resource
 
 | Name | Type |	Description |
