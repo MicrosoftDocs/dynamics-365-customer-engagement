@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
 A workstream is a container to enrich, route, and assign work items, and can be associated with a channel, such as live chat, voice, or case.
 
 The workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work assignment settings of the workstream they belong to.

@@ -199,8 +199,6 @@ Add the agents as a bookable resource so that you can assign skills to them. Thi
 
 ### Assign agents to skill
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
 1. Do one of the following:
 
     - In the site map of Customer Service admin center, select User management under Customer support, and then select  **Manage** for **Skills**.

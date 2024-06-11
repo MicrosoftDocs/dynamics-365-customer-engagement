@@ -11,9 +11,6 @@ ms.custom: bap-template
 
 # FAQ about unified routing in Customer Service, Omnichannel for Customer Service
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-
 This article contains the FAQs that you as an administrator, supervisor, or agent might have about unified routing.
 
 ## General
