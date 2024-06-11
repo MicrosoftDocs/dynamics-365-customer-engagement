@@ -96,12 +96,20 @@ additionalContent:
         text: Integrate a Copilot Studio bot
       - url: administer/integrate-KM-with-PVA.md
         text: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
-    - title: Configure AI features
+    - title: Configure Copilot features
       links:
       - url: administer/configure-copilot-features.md
         text: Manage copilot features in Customer Service
-      - url: administer/copilot-powerapps-settings.md
-        text: Configure copilot features for custom case forms and custom apps
+      - url: administer/copilot-enable-help-pane.md
+        text: Enable features in Copilot pane
+      - url: administer/copilot-enable-summary.md
+        text: Enable Copilot case and conversation summaries
+    - title: Configure AI features
+      links:
+      - url: administer/configure-teams-collaboration.md
+        text: Configure AI suggestions for contacts in Microsoft Teams
+      - url: administer/configure-topics-clustering-cases-cs.md
+        text: Configure AI topic clustering for cases
       - url: administer/csw-enable-ai-suggested-cases-knowledge-articles.md
         text: Enable AI suggestions for similar cases and knowledge articles
     - title: Add-in solutions  
