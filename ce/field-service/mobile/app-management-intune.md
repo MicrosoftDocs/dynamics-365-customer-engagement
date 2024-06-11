@@ -27,6 +27,6 @@ Intune is a separate Microsoft service that isn't included with Field Service. R
 
 A configuration can be set up through the [Device Management portal](https://devicemanagement.microsoft.com/). Each supported platform (iOS, Android, and Windows) requires a separate configuration.
 
-Specific configurations like prefill of URL or username aren't available for the [Field Service mobile app](mobile-power-app-overview.md).
+Specific configurations like prefill of URL or username aren't available for the [Field Service mobile app](overview.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

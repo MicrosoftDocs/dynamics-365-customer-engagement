@@ -10,7 +10,7 @@ ms.author: jobaker
 
 # Best practices and limitations
 
-Field technicians often need to work in areas without Internet access, like remote places or underground. When an admin [sets up the Field Service mobile offline profile](mobile-power-app-system-offline-setup.md), technicians can continue using the mobile app when there's no Internet connection. Important data syncs to the device for viewing in the field. Changes on the device are stored locally, and then uploaded automatically when an Internet connection becomes available.
+Field technicians often need to work in areas without Internet access, like remote places or underground. When an admin [sets up the Field Service mobile offline profile](set-up-offline-profile.md), technicians can continue using the mobile app when there's no Internet connection. Important data syncs to the device for viewing in the field. Changes on the device are stored locally, and then uploaded automatically when an Internet connection becomes available.
 
 Read our blog post about [best practices for offline mode](https://cloudblogs.microsoft.com/dynamics365/administrator/2023/11/06/best-practices-for-offline-mode-in-the-field-service-mobile-app-part-1/).
 
@@ -62,8 +62,8 @@ Keep these limitations in mind when you set up the offline profile:
 
 ## Next steps
 
-- [Configure the mobile offline profile](mobile-power-app-system-offline-setup.md)
-- [Offline data synchronization](mobile-power-app-system-offline-sync.md)
+- [Configure the mobile offline profile](set-up-offline-profile.md)
+- [Offline data synchronization](offline-data-sync.md)
 
 [!INCLUDE [footer-include](../../includes/footer-banner.md)]
 

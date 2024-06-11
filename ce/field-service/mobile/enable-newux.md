@@ -40,7 +40,7 @@ Technicians don't need to download a new app. Just make sure the mobile app and 
 
 ## Next steps
 
-- [Download the mobile app and get started](download-get-started-mobile-app.md)
+- [Download the mobile app and get started](download-mobile-app.md)
 - [Install and set up the mobile app](set-up-field-service-mobile.md).
 
 [!INCLUDE [footer-include](../../includes/footer-banner.md)]

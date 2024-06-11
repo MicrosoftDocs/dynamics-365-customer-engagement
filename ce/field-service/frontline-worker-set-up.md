@@ -52,6 +52,6 @@ Frontline workers are stored in the *bookable resource* table. You can view and 
 ## Next steps
 
 - [Create a work order](create-work-order.md)
-- [Download the mobile app and get started](download-get-started-mobile-app.md)
+- [Download the mobile app and get started](mobile/download-mobile-app.md)
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]

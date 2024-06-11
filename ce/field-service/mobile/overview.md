@@ -26,8 +26,8 @@ In 2024, Microsoft released a refreshed user experience for parts of the mobile 
 | --- | --- | --- |  --- |
 | [Camera capture (photo + video)](get-work-done-mobile-app.md) | TODO | TODO |  Use the device camera to capture images and video. |
 | [Barcode scanning](get-work-done-mobile-app.md) | TODO | TODO |  Scan bar code from global search or at a field level. |
-| [Offline data](work-offline-mobile-app.md) | Technician | Yes |  Offline-enabled application allows you to access your data regardless of internet connectivity. |
-| [Calendar view](download-get-started-mobile-app.md#view-scheduled-work-orders) | Technician | Yes |   Customize your calendar with data relevant for your organization. |
+| [Offline data](work-offline.md) | Technician | Yes |  Offline-enabled application allows you to access your data regardless of internet connectivity. |
+| [Calendar view](mobile-powerapp-customize-booking-calendar.md) | Technician | Yes |   Customize your calendar with data relevant for your organization. |
 | [Driving directions](get-work-done-mobile-app.md#travel-to-a-job-location) | Technician | Yes | Use your favorite in-app map application for turn-by-turn directions. |
 | Speech to text | Technician | Yes | Insert notes with native device speech-to-text capabilities. |
 | [Microsoft Intune](app-management-intune.md)  | Integration | Yes | Provide an extra layer of device and data protection with Microsoft Intune. |
@@ -35,14 +35,14 @@ In 2024, Microsoft released a refreshed user experience for parts of the mobile 
 | [Connected Field Service and IoT alerts](get-work-done-mobile-app.md) | Technician | Yes |  Receive IoT signals and send commands directly from your mobile app. |
 | [Inspections](inspections.md) | Technician | Yes | A Field Service technician can find and capture inspections associated with a work order. |
 | [Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes* | Get help from remote collaborators with integrated Dynamics 365 Remote Assist. |
-| [Push notifications](mobile-power-app-push-notifications.md) | Technician | Yes |  Send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
+| [Push notifications](enable-push-notifications.md) | Technician | Yes |  Send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
 | [Geofencing](configure-geofencing.md) | Technician | Yes* | Automatically set booking status as a technician arrives or leaves a location. |
 | [Reporting](mobile-powerapp-reporting.md) | Technician | Yes | Generate customer service reports with a signature, with the option to email a PDF. |
-| [Scan to find asset (Global search)](mobile-power-app-system-barcode-scanning.md) | Technician | Yes |  Not applicable |
+| [Scan to find asset (Global search)](scan-barcode.md) | Technician | Yes |  Not applicable |
 | [Location sharing and auditing](track-technician-location.md) | Admin | Yes* | Enable real-time sharing of the technician's location with the back office. |
-| [Enhanced offline sync filters](work-offline-mobile-app.md) | Admin | Yes |  Data available offline by default and the data available offline can be customized. For example, offline data available by location or by accounts for scheduled bookings. |
-| [Offline by default](mobile-power-app-system-offline-sync.md) | Technician | Yes |  The app is offline by default, so the technician is always ready. |
-| [Allow technician to force data sync](work-offline-mobile-app.md) | Technician | Yes |  The technician can manually force data sync. |
+| [Enhanced offline sync filters](work-offline.md) | Admin | Yes |  Data available offline by default and the data available offline can be customized. For example, offline data available by location or by accounts for scheduled bookings. |
+| [Offline by default](offline-data-sync.md) | Technician | Yes |  The app is offline by default, so the technician is always ready. |
+| [Allow technician to force data sync](work-offline.md) | Technician | Yes |  The technician can manually force data sync. |
 | Bulk-add users  | Admin | Yes|  Quickly assign an offline data sync profile to users. |
 | Checklist for service tasks  | Technician | Yes |  Use a checklist to quickly mark a task as complete. |
 
@@ -52,6 +52,6 @@ For information about planned features, see [Dynamics 365 Field Service release 
 
 - [Install and set up the mobile app](set-up-field-service-mobile.md)
 - [Set up offline data and sync filters](work-offline.md)
-- [Download and install the app on a mobile device](download-get-started-mobile-app.md)
+- [Download and install the app on a mobile device](download-mobile-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

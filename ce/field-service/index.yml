@@ -83,7 +83,7 @@ additionalContent:
         text: Enable booking maps
       - url: mobile/best-practices-limitations-offline-profile.md
         text: Configure offline capabilities
-      - url: mobile-power-app-push-notifications.md
+      - url: mobile/enable-push-notifications.md
         text: Enable push notifications
     - title: Administer add-ons
       links:

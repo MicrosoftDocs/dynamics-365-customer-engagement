@@ -163,7 +163,7 @@ An inspection completed by a technician will be visible on the bottom of the wor
 
 ## Perform inspections on mobile
 
-You can view and complete inspections on the [Dynamics 365 Field Service mobile app](mobile-power-app-overview.md).
+You can view and complete inspections on the [Dynamics 365 Field Service mobile app](mobile/overview.md).
 
 Sign in and go to the assigned work order.
 

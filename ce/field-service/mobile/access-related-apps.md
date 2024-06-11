@@ -18,7 +18,7 @@ Field Service helps organizations embed IoT devices in their flow of work. Users
 
 :::image type="content" source="../media/mobile-2020-cfs.png" alt-text="Screenshot of the Field Service mobile app and IoT device readings.":::
 
- For more information, see [Connected Field Service for the Field Service mobile app](cfs-mobile-powerapp.md).
+ For more information, see [Connected Field Service for the Field Service mobile app](iot-mobile.md).
 
 ## Launch Dynamics 365 Remote Assist for remote collaboration
 
