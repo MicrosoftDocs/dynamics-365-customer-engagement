@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 04/26/2024
+ms.date: 06/12/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -57,17 +57,46 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 
      Further, you can drill down into the details associated with the account, select the suggested prompts displayed below the account summary. The **Find relevant Sales Navigator accounts** prompt appears if you have the LinkedIn Sales Navigator license. Select the prompt to open the relevant LinkedIn Sales Navigator accounts associated with the account.
 
-## Summarize a lead or opportunity
+## Summarize an opportunity
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** or **Summarize opportunity**, and then select **Enter**.
+1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize opportunity**.
+1. From the list of opportunities, hover over the opportunity you want to summarize and select **Summarize**. 
+
+    >[!NOTE]
+    >The opportunity summary is also displayed in the Copilot side pane by default when you open an opportunity record.
+
+    The opportunity summary is displayed as shown in the following image:
+
+    :::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::
+
+    The account summary includes the following information:
+    - **Basic information**: The basic information of the account includes estimated revenue, estimated close date, key contact of the opportunity, and account name. If this information is available in the respective fields of the opportunity record, it's displayed in the summary; otherwise, the field isn't displayed.
+    - **Key information**: The key information includes details on how long the account is associated with your organization, the total value of closed opportunities, the most recently closed opportunity, progress of the most recent opportunity, contact name of the account with the most opportunities, and other AI-generated information.  
+    - **Product, quote, and competitor insights**:
+        - The **Product insights** section All the products associated with the account are displayed along with the budget and estimated revenue.  
+        - The **Quote insights** section displays the number of quotes that are shared with the account along with the date of the most recent quote.  
+        - The **Competitor insights** section displays the competitors associated with the account along with the strengths and weaknesses of the competitors.  
+
+        The information is displayed in these sections are based on the fields configured by the administrator for generating summaries. More information: [Configure fields for generating summaries and recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
+
+### Opportunity summary widget
+
+When you open an opportunity, the opportunity summary widget is displayed in the **Opportunity** form, above the **Up next** or **Timeline** widget. The opportunity summary widget displays the key information of the opportunity, such as the estimated revenue, estimated close date, key contact, and account name. The widget also displays the product, quote, and competitor insights of the opportunity similar to [the opportunity summary](#summarize-an-opportunity) displayed in the Copilot page.  
+
+:::image type="content" source="media/copilot-opportunity-summary-widget.png" alt-text="Screenshot of a Copilot opportunity summary widget.":::
+
+If the opportunity summary widget isn't displayed in the **Opportunity** form, contact your administrator to enable. More information: [Opportunity summary widget](enable-setup-copilot.md#admin-opportunity-summary-widget).
+
+## Summarize a lead
+
+1. [Open Copilot](use-sales-copilot.md#open-copilot).  
+1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** and then select **Enter**.
 
     - When a record is opened, Copilot summarizes it.
     - When in grid view, Copilot lists the records for which you have read access. Hover over a record and select **Summarize**.
 
-1. To get a list of changes for a specific lead or opportunity, type **/** after the prompt, and then start typing the name of the opportunity or lead.
-
-    :::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::
+1. To get a list of changes for a specific lead, type **/** after the prompt, and then start typing the name of the lead.
 
 ## Would you like to view a summary of different fields?
 

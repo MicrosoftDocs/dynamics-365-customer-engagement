@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales. Help your sales team can get summaries of their lead and opportunity records, catch up on recent changes, and prepare for meetings.
-ms.date: 04/26/2024
+ms.date: 06/12/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -115,13 +115,34 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
     In the **Recent changes** tab, when you add a field from a related table that doesn't have audit history turned on, **Turn audit on** appears in the notification bar. Select it to turn on auditing for the table. If you remove the field later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the table manually.
 
-1. For **Account (preview)** only. To customize the sections that you want to display in the **Account summary** view, select **Customize related info**.  
-    1. In the **Customize related info** dialog box, select the sections that you want to display in the **Account summary** view for users to see.  
-       By default, all options are selected.  
+1. <a name="admin-opportunity-summary-widget"></a>For **Opportunities** only. To display the opportunity summary widget within the opportunity form, in the **Opportunities settings** page, select the **Show opportunity summary as a widget in the form** option.  
+    To add the opportunity widget to custom forms, see [Add the opportunity summary widget to custom forms](#add-the-opportunity-summary-widget-to-custom-forms).
 
-        :::image type="content" source="media/copilot-account-summary-settings.png" alt-text="Screenshot of the customize related info dialog box for the account summary view.":::  
+1. For **Opportunities** and **Accounts (preview)** only. To customize the sections to display in the summary, select **Customize related info**.  
 
-    1. Select **Save**.
+    - **Opportunities**:
+        
+        1. In the **Customize related info** dialog box, select the sections that you want to display in the **Opportunity summary** view for users to see. These sections are:
+            - **Enriched key info**: Displays relevant insights from related records in the key info section.
+            - **Product insights**: Displays insights about the products in the opportunity and fields such as product names, total amount, and budget are considered for insights.
+            - **Quote insights**: Displays insights about the quotes in the opportunity and fields such as total number of quotes, most recent quote, and total amount are considered for insights.
+            - **Competitor insights**: Displays insights about the competitors in the opportunity and fields such as competitor names,  strengths, and weaknesses are considered for insights.
+
+           By default, all options are selected.  
+
+        1. Select **Save**.
+
+    - **Accounts (preview)**:  
+        
+        1. In the **Customize related info** dialog box, select the sections that you want to display in the **Account summary** view for users to see. These sections are:
+            - **Enriched key info**: Displays relevant insights from related records in the key info section.
+            - **Opportunities**: Displays all open opportunities for this account.
+            - **Leads**: Displays all leads linked to this account.
+            - **Cases**: Displays all open cases linked to this account. However, to display information in this section, Dynamics 365 Customer Service must be enabled in your environment.  
+
+           By default, all options are selected.  
+
+        1. Select **Save**.
 
 1. Save your changes.
 
@@ -134,7 +155,6 @@ The **What's new with my sales records** prompt lists the sales records that wer
 - For the account records, Copilot lists the following changes:
   - Contacts, leads, and opportunities created for the account in the last seven days.
   - Changes to the fields in the **Quick Find** view of the account table. If you'd like to see changes to other fields, add them to the **Quick Find** view of your account table. [Learn how to add fields to the Quick Find view](/power-apps/maker/model-driven-apps/create-edit-views#how-to-access-the-view-editor-to-create-or-edit-views).
-
 
 ## Grant audit access to your sellers
 
@@ -162,6 +182,11 @@ When you create a custom model-driven app, you can choose a default solution to 
 Add the Copilot page to your site map by following the instructions in [add site map entry to your custom app](add-custom-site-map.md) and enter or paste the following URL:
 
 `/main.aspx?&pagetype=control&controlName=PowerApps.Copilot`
+
+## Add the opportunity summary widget to custom forms
+
+
+
 
 
 ### See also
