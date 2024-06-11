@@ -43,7 +43,7 @@ Users with these security roles can sign in to the mobile app as a technician.
 
 ## Next steps
 
-- [Set up offline data and sync filters](mobile-power-app-system-offline.md)
+- [Set up offline data and sync filters](work-offline.md)
 - [Five tips for implementing the Field Service mobile app](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
 - [Get started with Dynamics 365 Field Service](field-service-get-started.md)
 

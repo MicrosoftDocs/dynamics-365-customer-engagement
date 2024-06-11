@@ -10,7 +10,7 @@ Learn how the system calculates travel time and distance and how dispatchers see
 
 - [Turn on auto geocoding to calculate estimated travel time](../../field-service/turn-on-auto-geocoding.md)
 
-- Ensure you [configured resources](../../field-service/set-up-bookable-resources.md) with start and end locations. If enabled, the system takes the current location of a technician from the [location of the mobile device](../../field-service/mobile-powerapp-location-auditing.md).
+- Ensure you [configured resources](../../field-service/set-up-bookable-resources.md) with start and end locations. If enabled, the system takes the current location of a technician from the [location of the mobile device](../../field-service/mobile/track-technician-location.md).
 
 > [!NOTE]
 > Travel time is only calculated when all of the following criteria are met:

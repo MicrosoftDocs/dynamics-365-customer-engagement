@@ -37,7 +37,7 @@ System requirements for the Field Service mobile app are the same as for Power A
 
 To provide the best experience for mobile app users, we recommend using modern devices with high [CPU Benchmark scores on Geekbench](https://browser.geekbench.com/v5/cpu/singlecore).
 
-The required storage size depends on the [mobile offline profile](mobile-power-app-system-offline.md). It specifies the amount of data that your organization needs to download for when there's no internet access.
+The required storage size depends on the [mobile offline profile](work-offline.md). It specifies the amount of data that your organization needs to download for when there's no internet access.
 
 ### iOS
 

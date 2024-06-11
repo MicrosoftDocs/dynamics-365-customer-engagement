@@ -20,7 +20,7 @@ Field Service comes with an offline profile that has default settings for Field 
 
 - You have admin privileges in Dynamics 365 Field Service.
 - You have access to Power Apps.
-- [Review the best practices for using the offline profile](mobile-power-app-system-offline.md#best-practices-for-using-the-offline-profile).
+- [Review the best practices for using the offline profile](best-practices-limitations-offline-profile.md).
 
 ## Set up the default mobile offline profile
 

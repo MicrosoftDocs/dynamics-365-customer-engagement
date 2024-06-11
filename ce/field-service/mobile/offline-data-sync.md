@@ -80,6 +80,6 @@ If the mobile app is reset, the offline database on the device is cleared.
 ## Next steps
 
 - [Configure the mobile offline profile](mobile-power-app-system-offline-setup.md)
-- [Mobile offline capabilities](mobile-power-app-system-offline.md)
+- [Mobile offline capabilities](work-offline.md)
 
 [!INCLUDE [footer-include](../../includes/footer-banner.md)]

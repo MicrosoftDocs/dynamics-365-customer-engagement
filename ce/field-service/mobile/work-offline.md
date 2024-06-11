@@ -12,8 +12,7 @@ ms.author: jshum
 
 To work in areas without internet access, the app downloads important information to the mobile device for a seamless experience. When the device connects to the internet, data automatically syncs with the server.
 
-An administrator has to configure the offline profile for the app before technicians can download the data. For more information, see [Configure offline capabilities in the Field Service mobile app](mobile-power-app-system-offline.md)
-
+An administrator has to configure the offline profile for the app before technicians can download the data. 
 Downloading the offline data can take some time. You can check the download progress and status in the app while downloads are in progress.
 
 Administrators define which data is available offline and how often the app looks for changes on the server.

@@ -35,7 +35,7 @@ On the [**Get started** page](field-service-get-started.md), admins can use a si
    - **Time Zone**: Select the default time zone for the frontline workers.
    - **Security Role** choose the [security role](/power-platform/admin/security-roles-privileges) for your frontline workers. You can add multiple security roles, including custom security roles.
    - **Field Security Profile** choose the [column-level security profile to control access](/power-platform/admin/field-level-security) for your frontline workers. You can add multiple field security profiles, including custom field security profiles.
-   - **Mobile Offline Profile** sets the [default mobile offline profile](mobile-power-app-system-offline.md) your frontline workers. Only published mobile offline profiles show in the list.
+   - **Mobile Offline Profile** sets the [default mobile offline profile](mobile/best-practices-limitations-offline-profile.md) your frontline workers. Only published mobile offline profiles show in the list.
 
 1. Select the checkbox to send an email to newly created frontline workers with a link to download the mobile app. If you can't send an email to frontline workers, get your email address approved by the global admin. For  more information, see [Add and approve email addresses](frontline-worker-set-up-email-approval.md).
 

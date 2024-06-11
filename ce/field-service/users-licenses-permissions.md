@@ -81,6 +81,6 @@ Choose one of the [predefined Field Service security roles](#field-service-secur
 ## Next steps
 
 - [Set defaults for work orders, bookings, the schedule board, and agreements](configure-default-settings.md)
-- [Configure offline capabilities in the mobile app](mobile-power-app-system-offline.md)
+- [Configure offline capabilities in the mobile app](mobile/work-offline.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

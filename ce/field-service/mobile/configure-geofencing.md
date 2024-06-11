@@ -20,7 +20,7 @@ In Dynamics 365 Field Service, the default use case for geofencing is to create 
 
 - [Set up auto geocoding for addresses](turn-on-auto-geocoding.md) to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required to place geofences.
 
-- [Enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and test location tracking.
+- [Enable location tracking, sharing, and auditing](track-technician-location.md) and test location tracking.
 
 ## Verify geofence processes are active
 

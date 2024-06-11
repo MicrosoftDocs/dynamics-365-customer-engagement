@@ -79,9 +79,9 @@ additionalContent:
       links:
       - url: mobile/set-up-field-service-mobile.md
         text: Install Field Service mobile app
-      - url: mobile-powerapp-booking-maps.md
+      - url: mobile/booking-maps.md
         text: Enable booking maps
-      - url: mobile-power-app-system-offline.md
+      - url: mobile/best-practices-limitations-offline-profile.md
         text: Configure offline capabilities
       - url: mobile-power-app-push-notifications.md
         text: Enable push notifications

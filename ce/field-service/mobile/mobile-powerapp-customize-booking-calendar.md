@@ -68,7 +68,7 @@ Custom fields are also shown on the calendar's day view when the booking duratio
 
 ## [New mobile UX](#tab/vNext)
 
-The agenda view is the default view in the [new user experience of the Field Service mobile app](mobile-powerapp-newux-overview.md). It shows the list of bookings in chronological order that are assigned to the user who's signed in to the app. Select **Home** in the bottom navigation to return to the home page. By default, the agenda view shows the following details associated with each booking:
+The agenda view is the default view in the [new user experience of the Field Service mobile app](enable-newux.md). It shows the list of bookings in chronological order that are assigned to the user who's signed in to the app. Select **Home** in the bottom navigation to return to the home page. By default, the agenda view shows the following details associated with each booking:
 
 - Account
 - Incident type

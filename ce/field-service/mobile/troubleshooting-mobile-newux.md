@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Dynamics 365 Field Service mobile app (preview) troubleshooting
 
-This article lists common issues with the [Field Service mobile app (preview)](mobile-powerapp-newux-overview.md) and steps to resolve them. You need administrator permissions in Field Service for all resolution steps.
+This article lists common issues with the [Field Service mobile app](enable-newux.md) and steps to resolve them. You need administrator permissions in Field Service for all resolution steps.
 
 ## Error on start due to permission/privilege issues
 
@@ -122,7 +122,7 @@ If the area is present, a customization layer on the sitemap sits on top, which 
 
 ### Symptoms
 
-The mobile app doesn't load the new experience (preview), even if it has been [enabled in the settings](mobile-powerapp-newux-overview.md#enable-the-preview-features).
+The mobile app doesn't load the new experience (preview), even if it has been [enabled in the settings](enable-newux.md).
 
 ### Resolution
 
