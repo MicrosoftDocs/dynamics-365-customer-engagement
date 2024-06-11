@@ -18,20 +18,11 @@ Within the optimization request booking view, you can see the bookings that were
 
 The **Operation Details** column shows more details, like the specific data modified during optimization.
 
-> [!div class="mx-imgBorder"]
-> ![Requirement group with two requirements.](./media/scheduling-rso-3-0-booking-conflict.png)
-
 To resolve the issue, select one or more of the affected bookings (with a Simulation status), and choose either:
 
 - **Apply with Overwrite**: commit the simulation booking, favoring optimization results
 - **Discard**: remove simulation booking, favoring the manual booking edits from the dispatcher or field technician
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a requirement group with 2 requirements.](./media/scheduling-rso-3-0-booking-conflict-override.png)
-
 After selecting **Apply with Overwrite** or **Discard**, the optimization status changes to **Completed**, and the conflict is resolved.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with 2 requirements_3.](./media/scheduling-rso-3-0-booking-conflict2.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
