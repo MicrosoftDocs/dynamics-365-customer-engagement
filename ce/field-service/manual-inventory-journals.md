@@ -44,7 +44,7 @@ View existing inventory journals in Microsoft Power Apps.
 
 1. Search for and select **Inventory Journal**.
 
-   :::image type="content" source="inventory-inventory-journals-find.svg" alt-text="Screenshot of the Inventory Journal table in Power Apps.":::
+   :::image type="content" source="media/inventory-inventory-journals-find.svg" alt-text="Screenshot of the Inventory Journal table in Power Apps.":::
 
 ## Create a manual inventory journal
 
@@ -52,7 +52,7 @@ View existing inventory journals in Microsoft Power Apps.
 
 1. If you don't see the **Transaction Type** column, select **New column** to add it. Then select **New row**.
 
-   :::image type="content" source="inventory-create-manual-journal.svg" alt-text="Screenshot of the Inventory Journal table in Power Apps.":::
+   :::image type="content" source="media/inventory-create-manual-journal.svg" alt-text="Screenshot of a new row on the Inventory Journal table in Power Apps.":::
 
 1. To determine how the inventory is incremented or decremented, select a journal type for your manual inventory.
 
@@ -67,7 +67,7 @@ View existing inventory journals in Microsoft Power Apps.
 
 1. Press **Ctrl + S** to save the new inventory journal.
 
-   :::image type="content" source="inventory-manual-journal.svg" alt-text="Screenshot of the manual inventory journal in Power Apps.":::
+   :::image type="content" source="media/inventory-manual-journal.svg" alt-text="Screenshot of the manual inventory journal in Power Apps.":::
 
 ## View inventory changes
 
@@ -77,6 +77,6 @@ View existing inventory journals in Microsoft Power Apps.
 
 1. Select **Related** > **Product Inventory**. The manual inventory journal entry appears.
 
-   :::image type="content" source="inventory-new-product-inventory-levels.svg" alt-text="Screenshot of the product inventory for a warehouse in Field Service.":::
+   :::image type="content" source="media/inventory-new-product-inventory-levels.svg" alt-text="Screenshot of the product inventory for a warehouse in Field Service.":::
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

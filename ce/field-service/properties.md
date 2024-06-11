@@ -28,7 +28,7 @@ Before you can assign values to properties, you need to define them.
 
 ## Create property templates
 
-Use property templates to quickly select a group of properties to apply to an asset or a functional location. For example, laptops can have the same set of properties.
+Use property templates to quickly select a group of properties and apply them to an asset or a functional location. For example, laptops can have the same set of properties.
 
 1. In Field Service, select the **Settings** area. Under **Asset Properties**, select **Templates for Properties**, and then select **New**.
 
@@ -38,7 +38,7 @@ Use property templates to quickly select a group of properties to apply to an as
 
 1. To associate an existing property with the template, search for and select it.
   
-   If the property doesn't exist yet, select **New Property Definition** to create it. You'll need to return to [Property Definitions](#define-properties) to add the property to the template.
+   If the property doesn't exist yet, select **New Property Definition** to create it. Go to [Property Definitions](#define-properties) to add the property to the template.
 
 1. To add another property to the template, select the caret to the right of **Save and Close**, and then select **Save & Create New**.
 
@@ -58,7 +58,7 @@ Associate a property template with an asset category to quickly add a set of pro
 
 1. To associate an existing asset category with the template, search for and select it.
   
-   If the category doesn't exist yet, select **New Customer Asset Category** to create it. You'll need to return to [Asset Category](assets.md#create-and-assign-asset-categories) to add the category to the template.
+   If the category doesn't exist yet, select **New Customer Asset Category** to create it. Go to [Asset Category](assets.md#create-and-assign-asset-categories) to add the category to the template.
 
 1. To add another category to the template, select the caret to the right of **Save and Close**, and then select **Save & Create New**.
 
@@ -78,7 +78,7 @@ In addition to associating a property template with an asset category, you can a
 
 1. To associate an existing property template with the asset, search for and select it.
   
-   If the template doesn't exist yet, select **New Template for Properties** to create it. You'll need to return to [Template For Properties](#create-property-templates) to add the template to the asset.
+   If the template doesn't exist yet, select **New Template for Properties** to create it. Go to [Template For Properties](#create-property-templates) to add the template to the asset.
 
 1. To add another property template to the asset, select the caret to the right of **Save and Close**, and then select **Save & Create New**.
 
@@ -96,7 +96,7 @@ It's easy to assign a set of properties to a customer asset using a property tem
 
 1. To associate an existing property with the asset, search for and select it.
   
-   If the property doesn't exist yet, select **New Property Definition** to create it. You'll need to return [Property Definition](#define-properties) to add the property to the asset.
+   If the property doesn't exist yet, select **New Property Definition** to create it. Go to [Property Definition](#define-properties) to add the property to the asset.
 
 1. To add another property to the asset, select the caret to the right of **Save and Close**, and then select **Save & Create New**.
 

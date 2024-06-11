@@ -30,7 +30,7 @@ Track your product inventory using a warehouse record in Dynamics 365 Field Serv
 
 Product inventory is automatically adjusted in the warehouse record with [inventory adjustment records](inventory-purchasing-returns-overview.md).  
   
-You can also manually add product inventory to a warehouse record, but keep in mind that you won’t be able to modify the quantity values.  
+You can also manually add product inventory to a warehouse record, but keep in mind that you can't modify the quantity values.  
   
 1. On a warehouse record, select the **Related** tab and choose **Product Inventory**.  
   
