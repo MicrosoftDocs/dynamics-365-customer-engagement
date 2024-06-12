@@ -1,10 +1,13 @@
 ---
-title: "Configure a LINE channel | MicrosoftDocs"
-description: "Instructions to configure a LINE channel in Omnichannel for Customer Service."
-ms.date: 02/29/2024
-ms.topic: article
+title: Configure a LINE channel
+description: Instructions to configure a LINE channel.
+ms.date: 06/14/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.custom: bap-template
+ms.collection:
 ---
 
 # Configure a LINE channel
@@ -37,21 +40,11 @@ After completing the prerequisites, you can add the LINE channel for your organi
 
 **To configure the LINE channel**
 
-1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+1.In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
-    1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
+1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
    
-    1. Select **New account**.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-
-    - In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **New account**.
+1. Select **New account**.
     
 1. Enter the following details:
    
@@ -105,7 +98,7 @@ If a customer initiates a conversation from the LINE website and then later swit
 
 The agent receives the notification of the incoming chat request, along with customer details. More information: [View notifications](../use/oc-notifications.md)
 
-Once the LINE social profile is linked to an user customer/contact record by the agent, subsequent LINE conversations are linked to the customer records and the customer summary is populated.
+After the LINE social profile is linked to a customer or contact record by the agent, subsequent LINE conversations are linked to the customer records and the customer summary is populated.
 
 If the customer isn't identified by name, a new contact record can be created.
 

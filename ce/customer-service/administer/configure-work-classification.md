@@ -1,7 +1,7 @@
 ---
 title: Configure work classification rulesets
 description: Learn how to configure work classification rulesets for unified routing.
-ms.date: 04/26/2023
+ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -48,9 +48,7 @@ Logical classification rules are run to update work item attributes. They are wr
 
 To create a logical work classification ruleset, do the following steps:
 
-1. In the Customer Service admin center or Omnichannel admin center (deprecated) app, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
+1. In the Customer Service admin center app, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
 
 2. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Logical rules** in **Rule type**, and enter a name and description. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule.
 
@@ -110,7 +108,7 @@ To configure a skill classification ruleset by using the machine learning option
 
 Do the following to configure a machine learning-based ruleset:
 
-1. In Customer Service admin center, Omnichannel admin center (deprecated), or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset** or **See more**.
+1. In Customer Service admin center, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset** or **See more**.
 
 2. On the **Work classification** page, select **Create new**.
 

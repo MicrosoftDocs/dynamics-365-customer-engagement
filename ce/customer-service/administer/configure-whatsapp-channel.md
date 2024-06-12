@@ -1,10 +1,11 @@
 ---
 title: Configure a WhatsApp channel through Twilio
 description: Use this article to learn how to configure the WhatsApp channel through Twilio in Omnichannel for Customer Service.
-ms.date: 02/29/2024
+ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
@@ -53,21 +54,11 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 ## Create a WhatsApp channel
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
-    1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
+1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
    
-    1. Select **New account**.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-
-    - In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **New account**.
+1. Select **New account**.
 
 1. Enter the following details:
 

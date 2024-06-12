@@ -51,7 +51,7 @@ The requirements for unified routing are same as those that are applicable for O
 
 For the languages that are supported in unified routing, see [Supported languages](../implement/international-availability.md#language-availability).
 
-You can configure unified routing through the Customer Service admin center, Omnichannel admin center (deprecated), and Customer Service Hub (Service Management) apps. Agents must use the Customer Service workspace or Omnichannel for Customer Service (deprecated) app only to be assigned work through unified routing.
+You can configure unified routing through the Customer Service admin center app. Agents must use the Customer Service workspace app only to be assigned work through unified routing.
 
 [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 

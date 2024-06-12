@@ -1,10 +1,13 @@
 ---
-title: "Best practices for configuring bots | MicrosoftDocs"
-description: "This article lists the best practices that you can follow when you configure Azure and Copilot Studio bots in Omnichannel for Customer Service."
-ms.date: 08/30/2022
+title: Best practices for configuring bots
+description: This article lists the best practices that you can follow when you configure Azure and Copilot Studio bots in Omnichannel for Customer Service.
+ms.date: 06/14/2024
 author: neeranelli
 ms.author: nenellim
-ms.topic: article
+ms.reviewer: nenellim
+ms.topic: conceptual
+ms.custom: bap-template
+ms.collection:
 ---
 
 # Best practices for configuring bots
@@ -21,7 +24,7 @@ When you configure Azure and Copilot Studio bots in Omnichannel for Customer Ser
 
 - When a conversation that's escalated by a bot comes back to the bot queue due to incorrect routing or context variables not being updated at runtime, the bot won't be assigned to the same conversation again. So, to prevent conversations from ending up in an infinite loop, you must configure a human agent for the bot queue.
 
-- Unlike human agents, bots aren't added to a "default" queue at the outset; you must add them from the Omnichannel admin center (deprecated) or Customer Service admin center app.
+- Unlike human agents, bots aren't added to a "default" queue at the outset; you must add them from the Customer Service admin center app.
 
     [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
 

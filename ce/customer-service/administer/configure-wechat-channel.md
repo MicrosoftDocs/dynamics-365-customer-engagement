@@ -1,10 +1,13 @@
 ---
-title: "Configure a WeChat channel in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Perform the steps mentioned in this topic to configure a WeChat channel in Omnichannel for Customer Service."
-ms.date: 02/29/2024
-ms.topic: article
+title: Configure a WeChat channel
+description: Perform the steps mentioned in this topic to configure a WeChat channel.
+ms.date: 06/14/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.custom: bap-template
+ms.collection:
 ---
 # Configure a WeChat channel
 
@@ -44,20 +47,10 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 
 **To create a WeChat channel**
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the site map of Customer Service admin center, in **Customer support**, select **Channels**.
     
-    1. In the site map, in **Customer support**, select **Channels**.
-    
-    1. In **Accounts**, for **Messaging accounts**, select **Manage**.
+1. In **Accounts**, for **Messaging accounts**, select **Manage**.
    
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-
-    - In the site map, in **General settings**, select **Channels**.
-
 1. On the **Accounts and channels** page, select **New account**.
 
 1. Enter the following details:
@@ -106,7 +99,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 
 If you're using the service account of WeChat, perform the following steps:
 
-1. Sign in to your WeChat Service Account, and then paste the IP allowlist and server address, which you copied from Omnichannel admin center (deprecated) app in the preceding procedure, in their respective boxes. The IP address of the Omnichannel for Customer Service application is not blocked in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
+1. Sign in to your WeChat Service Account, and then paste the IP allowlist and server address, which you copied from Customer Service admin center in the preceding procedure, in their respective boxes. The IP address of the Omnichannel for Customer Service application is not blocked in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
 
 2. In WeChat, make sure that you select **Security Mode** under **Message Encryption Method** for encryption of the chat messages.
 

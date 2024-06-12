@@ -1,11 +1,13 @@
 ---
-title: "Configure persistent chat | MicrosoftDocs"
-description: "Use this article to understand how persistent chat works and how you can configure it in Omnichannel for Customer Service."
-ms.date: 02/29/2024
-ms.topic: article
+title: Configure persistent chat
+description: Use this article to understand how persistent chat works and how you can configure it in Omnichannel for Customer Service.
+ms.date: 06/14/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.collection: get-started
+ms.reviewer: nenellim
+ms.custom: bap-template
+ms.collection:
 ---
 
 # Configure persistent chat
@@ -34,7 +36,7 @@ Make sure that the authentication settings are configured. More information: [Cr
 
 ## Set up persistent chat
 
-In Customer Service admin center or Omnichannel admin center (deprecated), select the **Make chats persistent** checkbox when you create the chat workstream. More information: [Create and manage workstreams](create-workstreams.md)
+In Customer Service admin center, select the **Make chats persistent** checkbox when you create the chat workstream. More information: [Create and manage workstreams](create-workstreams.md)
 
 [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 

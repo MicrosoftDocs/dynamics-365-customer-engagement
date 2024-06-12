@@ -1,17 +1,19 @@
 ---
-title: Configure Microsoft Teams channel in Omnichannel for Customer Service
-description: Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service.
-ms.date: 02/29/2024
+title: Configure Microsoft Teams channel
+description: Learn about the Microsoft Teams channel and how to configure the channel.
+ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.custom: bap-template
+ms.collection:
 ---
 # Configure Microsoft Teams channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Use Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;to allow organizations to connect their employees with internal support personnel by using the Omnichannel Add-in for Dynamics 365 Customer Service.
+Use Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;to allow organizations to connect their employees with internal support personnel by using Omnichannel for Customer Service.
 
 ## Prerequisites
 
@@ -56,19 +58,7 @@ Make sure that the following prerequisites are met:
 
 ## Configure a Microsoft Teams channel<a name="configureinoac"></a>
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, in **Customer support**, select **Channels**.
-
-    1. In **Accounts**, for **Messaging accounts**, select **Manage**.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter) 
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-
-    - In the site map, in **General settings**, select **Channels**.
+1. In the site map of Customer Service admin center, in **Customer support**, select **Channels**.
 
 1. On the **Accounts and channels** page, select **New account**.
 
