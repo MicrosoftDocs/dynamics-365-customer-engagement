@@ -21,7 +21,7 @@ Knowledge management plays a vital role in delivering world-class customer care.
 
 ## Benefits of knowledge management
 
-* Primary service providers, such as agents, can look up information in a knowledge base to resolve customer queries right away, thereby increasing their productivity.
+* Primary service providers, such as agents, can look up information in a knowledge base to resolve customer queries right away, which helps increase their productivity.
 * With access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences, agents can resolve issues faster, reducing their average call handling time.
 * Customers can use knowledge management search capabilities across channels to solve issues themselves, reducing support tickets and driving customer satisfaction.
 
@@ -29,7 +29,7 @@ Knowledge management plays a vital role in delivering world-class customer care.
 
 ## Features of knowledge management
 
-Depending on your role in your organization, here’s how you can leverage the features of knowledge management to help your organization grow.
+Depending on your role in your organization, here’s how you can use the features of knowledge management to help your organization grow.
 
 ## Create knowledge articles
 
@@ -41,13 +41,13 @@ As a knowledge author, you can:
    - Set up a default knowledge article authoring language. More information: [Configure a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
 
 As an administrator, you can:
-- Enable the setting for agents to propose knowledge drafts after they have resolved a case. More information: [Use Copilot to generate knowledge drafts from cases (preview)](use-copilot-knowledge-from-cases.md#use-copilot-to-generate-knowledge-drafts-from-cases-preview)
+- Enable the setting for agents to propose knowledge drafts after they resolve a case. More information: [Use Copilot to generate knowledge drafts from cases (preview)](use-copilot-knowledge-from-cases.md#use-copilot-to-generate-knowledge-drafts-from-cases-preview)
 
-- Configure third-party sources, such as enterprise websites that are based on the site map protocol. Knowledge articles are ingested into Dataverse and are available for agents to search. This enables your agents to view and sort search results from any search providers added by you. More information: [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers)
+- Configure third-party sources, such as enterprise websites that are based on the site map protocol. Knowledge articles are ingested into Dataverse and are available for agents to search. This action enables your agents to view and sort search results from any search providers added by you. More information: [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers)
    
 ### Manage the lifecycle of knowledge articles
 As a knowledge author, you can:
-  - Create major and minor versions of a knowledge article, and keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services. More information: [Create and manage article versions](ka-versions.md#create-and-manage-article-versions)
+  - Create major and minor versions of a knowledge article, and keep your articles up to date with the latest information while tracking changes throughout the lifecycle of your products and services. More information: [Create and manage article versions](ka-versions.md#create-and-manage-article-versions)
   - Create a translation for a knowledge article record in multiple languages. More information: [Create a knowledge article translation](../administer/work-knowledge-articles.md#create-a-knowledge-article-translation)
   - Publish articles as soon as they're approved, or schedule them for later publication. You can also set expiration dates on articles. More information: [Publish knowledge articles](publish-ka.md#publish-knowledge-articles)
   
@@ -62,7 +62,7 @@ As an administrator, you can create hierarchical, categorical data to help group
 ### Search knowledge articles through different channels
 - As an agent, you can use either the **Smart assist** or the **Knowledge search pane** to search articles in Customer Service workspace. **Smart assist** provides you with knowledge article suggestions about your case that helps you resolve customer issues quickly. For more information on **Knowledge search pane**, see: [Use the knowledge search pane to search articles](../csw-search-knowledge-articles.md#use-the-knowledge-search-pane-to-search-articles)
 - As a customizer, you can set up knowledge base search control on a standard or custom form to help make it easy for users in your organization to find knowledge articles. More information: [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms)
-- As an administrator, you can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Omnichannel for Customer Service. Configuring a record type will specify the information that your agents will see while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](../administer/configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
+- As an administrator, you can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Omnichannel for Customer Service. Configuring a record type lets you specify the information that your agents see while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](../administer/configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
 
 ### Search multiple knowledge providers
 As an administrator, you can use search providers to federate the search of files, documents, or articles from data sources outside of your organization. More information: [Set up external search providers](../administer/set-up-search-providers.md#set-up-external-search-providers)
@@ -75,10 +75,10 @@ As an administrator, you can:
 ## Perform knowledge self-service
 
 ### Search the knowledge base on portals
-Having a knowledge base on the portal makes it a customer self-service portal, where you can access and search for knowledge articles through simple queries. This helps resolve issues and makes information easily accessible. You can search for your knowledge articles by selecting **Knowledge Base** from your portal. More information: [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals)
+Having a knowledge base on the portal makes it a customer self-service portal, where you can access and search for knowledge articles through simple queries. This setup helps you resolve issues and makes information easily accessible. You can search for your knowledge articles by selecting **Knowledge Base** from your portal. More information: [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals)
 
 ### Integrate knowledge management with a Copilot Studio bot 
-As an administrator, you can integrate a Copilot Studio bot with knowledge management to make it easier to use customized conversations in your bot. This helps free up your agents' time so they can focus on complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md)
+As an administrator, you can integrate a Copilot Studio bot with knowledge management to make it easier to use customized conversations in your bot. This setup helps free up your agents' time so they can focus on complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md)
 
 ## Analyze and report
 
