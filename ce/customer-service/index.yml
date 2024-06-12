@@ -97,7 +97,7 @@ additionalContent:
       - url: administer/integrate-KM-with-PVA.md
         text: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
       - url: administer/configure-teams-meetings.md
-        text: Enable Microsoft Teams meeting integration
+        text: Integrate Microsoft Teams meeting
     - title: Configure Copilot features
       links:
       - url: administer/configure-copilot-features.md
