@@ -21,11 +21,11 @@ This article summarizes early access, public preview, and general availability f
 |---|---|---|---|---|---|
 | Copilot | Content recommendations | Use Copilot to get content recommendations from SharePoint | [Documentation](copilot-get-doc-suggestions.md) | By default | GA |
 | Copilot | SharePoint Q&A | Use Copilot to get answers to your questions from documents stored in SharePoint. | [Documentation](copilot-get-doc-suggestions.md) | By default | GA |
-| Copilot | Proposal summary | Ask Copilot to summarize a proposal or document associated with a record. | [Documentation](copilot-get-information#summarize-proposals-associated-with-a-record-preview) | By admin | Public preview |
-| Copilot | Natural language chat data-related questions| Ask Copilot questions related to sales data in natural language.  | [Documentation](use-sales-copilot#chat-with-copilot-in-natural-language) | By default | GA |
-| Copilot | Natural language chat - sales-specific terminology | Ask Copilot questions related to sales-specific terminology in natural language | [Documentation](use-sales-copilot#chat-with-copilot-in-natural-language) | By default | GA |
-| Copilot | Account summary | Use Copilot to summarize an account. | [Documentation](copilot-get-information#summarize-an-account) | By admin | Public preview |
-| Copilot | Meeting preparation notes | Use Copilot to prepare for your meetings.| [Documentation](copilot-stay-ahead#prepare-for-upcoming-sales-appointments) | By default | GA |
+| Copilot | Proposal summary | Ask Copilot to summarize a proposal or document associated with a record. | [Documentation](copilot-get-information.md#summarize-proposals-associated-with-a-record-preview) | By admin | Public preview |
+| Copilot | Natural language chat data-related questions| Ask Copilot questions related to sales data in natural language.  | [Documentation](use-sales-copilot.md#chat-with-copilot-in-natural-language) | By default | GA |
+| Copilot | Natural language chat - sales-specific terminology | Ask Copilot questions related to sales-specific terminology in natural language | [Documentation](use-sales-copilot.md#chat-with-copilot-in-natural-language) | By default | GA |
+| Copilot | Account summary | Use Copilot to summarize an account. | [Documentation](copilot-get-information.md#summarize-an-account) | By admin | Public preview |
+| Copilot | Meeting preparation notes | Use Copilot to prepare for your meetings.| [Documentation](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) | By default | GA |
 
 
 ## April 2024 release
