@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 Case handling time is the total time agents spend working on a case. The case handling time is displayed as a bubble on the out-of-the-box case forms by default. 
 
-Perform the following steps to add the case handling component to a case form:
+Perform the following steps to add the case handling component to a custom case form:
 
 1. In Customer Service admin center, select **Case settings** in **Customer Support**.
 1. In the Case settings page, select **Manage**  for **Case handling time (preview)**. The Case handling time (preview) page appears.
