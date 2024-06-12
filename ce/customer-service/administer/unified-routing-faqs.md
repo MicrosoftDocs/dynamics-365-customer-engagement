@@ -130,7 +130,7 @@ Yes, you can update the limit. More information: [How the limit on offering a wo
 
 ## Route to least-active agent
 
-### For which channel is routing to least-active agent available?
+### For which channel is the routing to least-active agent feature available?
 
 The feature is available for the voice channel only.
 
