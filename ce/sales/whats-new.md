@@ -20,7 +20,7 @@ This article summarizes early access, public preview, and general availability f
 | Feature area | Feature | Description | Resources | Turned on | Availability |
 |---|---|---|---|---|---|
 | Copilot | Content recommendations | Use Copilot to get content recommendations from SharePoint | [Documentation](copilot-get-doc-suggestions.md) | By default | GA |
-| Copilot | SharePoint Q&A | Use Copilot to get answers to your questions from documents stored in SharePoint. | [Documentation](copilot-get-doc-suggestions.md) | By default | GA |
+| Copilot | SharePoint Q&A | Use Copilot to get answers to your questions from documents stored in SharePoint. | [Documentation](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents) | By default | GA |
 | Copilot | Natural language chat for data-related questions| Ask Copilot questions related to sales data in natural language.  | [Documentation](use-sales-copilot.md#chat-with-copilot-in-natural-language) | By default | GA |
 | Copilot | Natural language chat for sales contextual questions | Ask Copilot questions related to sales-specific terminology in natural language | [Documentation](use-sales-copilot.md#chat-with-copilot-in-natural-language) | By default | GA |
 | Copilot | Meeting preparation notes | Use Copilot to prepare for your meetings.| [Documentation](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) | By default | GA |
