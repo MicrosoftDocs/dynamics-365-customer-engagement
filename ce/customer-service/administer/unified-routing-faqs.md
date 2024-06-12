@@ -141,11 +141,7 @@ The agent’s "last capacity release time for a voice call" is the only paramete
 
 ### How is a tie-breaker scenario resolved if two or more agents have the same capacity release time?
 
-If the last capacity release time is the same for two matching agents, then assignment is done in a round-robin manner. 
-
-### Can I see diagnostics for routing to the least-active agent?
-
-Yes, the assignment method stage displays the assignment method that's used.
+If the last capacity release time is the same for two matching agents, then assignment is done in a round-robin manner.
 
 ### How does routing to the least active agent work when a new agent signs in?
 
@@ -178,7 +174,37 @@ If two of the agents match one each of the required capacity profiles and the th
 
 Routing diagnostics lend visibility into how routing decisions are made for work items in contact centers. It has been deprecated with a better alternative of Azure Application Insights for end-to-end conversation diagnostics.
 
+### What is the alternative to routing diagnostics once it is deprecated?
 
+Customers can use Azure Application Insights, which is our one-stop solution to get a comprehensive view of end-to-end conversation diagnostics.
+
+### Do I need to perform any migration steps to start using Application Insights?
+
+No. Application Insights is a separate tool where diagnostics can be queried specific to your business requirements. After you enable it, data events are available in application insights data storage and you can query the data to get the details.
+
+### How do I enable application insights?
+
+To enable application insights, you need to set up a connection of your Dynamics 365 Customer Service environment with Azure Application Insights. More information: [Set up a connection with Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights#set-up-a-connection-with-azure-application-insights)
+
+
+> [!NOTE]
+> Application Insights can be enabled for managed environments only. When an environment is managed, it allows you greater visibility and control with the capabilities that allow admins to manage Power Platform at scale. More information: [Managed Environments overview](/power-platform/admin/managed-environment-overview)
+
+### Do I need to purchase any add on to use application insights?
+
+A pay-as-you-go pricing model is associated with Azure Monitor. The Application Insights tool in Azure Monitor helps you monitor the availability, performance, and usage of your D365. Azure Monitor charges you for the features you use. When you set up Application Insights for ingestion, retention, and export of data, Azure Monitor will charge you based on this use. More information: [Pricing](/power-platform/admin/conversation-diagnostics-application-insights#pricing)
+
+### Can all my users access application insights? How do I give access for everybody?
+
+Application Insights is meant for developer, support, and admin personas. Users with these roles and responsibilities can be set up to access Application Insights using Azure role-based access. [Assign Azure roles using the Azure portal](/azure/role-based-access-control/role-assignments-portal)
+
+### Not everyone in my organization can write queries. How do they use application insights?	
+
+We will provide sample queries for common questions that customers seek answers to. These would be available within the blade in Application Insights for you to run or modify to suit your question.
+
+### Data that I am looking for is not available in Application Insights. How do I raise a request for additional data events?
+
+We will be iteratively adding more data events for diagnostics. Keep following the documentation for more updates.
 
 ### See also
 
