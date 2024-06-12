@@ -106,14 +106,6 @@ additionalContent:
         text: Enable features in Copilot pane
       - url: administer/copilot-enable-summary.md
         text: Enable Copilot case and conversation summaries
-    - title: Configure AI features
-      links:
-      - url: administer/configure-teams-collaboration.md
-        text: Configure AI suggestions for contacts in Microsoft Teams
-      - url: administer/configure-topics-clustering-cases-cs.md
-        text: Configure AI topic clustering for cases
-      - url: administer/csw-enable-ai-suggested-cases-knowledge-articles.md
-        text: Enable AI suggestions for similar cases and knowledge articles
     - title: Add-in solutions  
       links: 
       - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
