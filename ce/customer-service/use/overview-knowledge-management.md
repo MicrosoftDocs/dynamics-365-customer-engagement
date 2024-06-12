@@ -1,7 +1,7 @@
 ---
 title: Overview of knowledge management
 description: Learn about knowledge management in Dynamics 365 Customer Service.
-ms.date: 06/11/2024
+ms.date: 06/12/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -40,7 +40,10 @@ As a knowledge author, you can:
    - Use templates to create knowledge articles quickly, with prepopulated fields in the selected template. Templates also help knowledge managers and authors maintain consistency in branding, language, and structure. More information: [Create a knowledge article template](create-templates-knowledge-article.md#create-a-knowledge-article-template)
    - Set up a default knowledge article authoring language. More information: [Configure a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
 
-As an administrator, you can also enable the setting for agents to propose knowledge drafts after they have resolved a case. More information: [Use Copilot to generate knowledge drafts from cases (preview)](use-copilot-knowledge-from-cases.md#use-copilot-to-generate-knowledge-drafts-from-cases-preview)
+As an administrator, you can:
+- Enable the setting for agents to propose knowledge drafts after they have resolved a case. More information: [Use Copilot to generate knowledge drafts from cases (preview)](use-copilot-knowledge-from-cases.md#use-copilot-to-generate-knowledge-drafts-from-cases-preview)
+
+- Configure third-party sources, such as enterprise websites that are based on the site map protocol. Knowledge articles are ingested into Dataverse and are available for agents to search. This enables your agents to view and sort search results from any search providers added by you. More information: [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers)
    
 ### Manage the lifecycle of knowledge articles
 As a knowledge author, you can:
@@ -53,8 +56,6 @@ As a knowledge author, you can:
 ### Create and manage categories for your knowledge articles
 As an administrator, you can create hierarchical, categorical data to help group records. Categories are useful for reporting, sorting, segmenting, and categorization of records. More information: [Create and manage categories](../administer/create-manage-categories.md#create-and-manage-categories).
 
-### Ingest articles through integrated search providers
-As an administrator, you can configure third-party sources, such as enterprise websites that are based on the site map protocol. Knowledge articles are ingested into Dataverse and are available for agents to search. This enables your agents to view and sort search results from any search providers added by you. More information: [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers)
 
 ## Search knowledge articles
 
