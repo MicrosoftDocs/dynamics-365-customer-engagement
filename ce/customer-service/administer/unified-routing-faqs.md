@@ -51,7 +51,7 @@ There's no downtime when you're migrating the workstreams, but we recommend that
 
 ### Is it possible to roll back the migration?
 
-To roll back the migration, you'll need to contact [Microsoft Support](https://dynamics.microsoft.com/support/).
+To roll back the migration, you need to contact [Microsoft Support](https://dynamics.microsoft.com/support/).
 
 ### How can I migrate the entity routing workstreams?
 
@@ -155,7 +155,7 @@ Intelligent skill finder requires AI Builder to create and train the machine lea
 
 ### Can I use intelligent skill finder with email activities?
 
-Yes, intelligent skill finder can be enabled for any entity that is enabled for routing by using any text-based field. For email body skill finder, an other step is required because email body (description) includes HTML tags that can impact the machine learning model. You extract the text from HTML, copy it into another text field, and then configure the machine learning model against the new field.
+Yes, intelligent skill finder can be enabled for any entity that is enabled for routing by using any text-based field. For email body skill finder, another step is required because email body (description) includes HTML tags that can impact the machine learning model. You extract the text from HTML, copy it into another text field, and then configure the machine learning model against the new field.
 
 ### How do I make sure that the right skills are attached to the work items when the machine learning-based model is in use?
 
@@ -200,11 +200,11 @@ Application Insights is meant for developer, support, and admin personas. Users 
 
 ### Not everyone in my organization can write queries. How do they use application insights?	
 
-We'll provide sample queries for common questions that customers seek answers to. These would be available within the blade in Application Insights for you to run or modify to suit your question.
+We provide sample queries for common questions that customers seek answers to. These would be available within the blade in Application Insights for you to run or modify to suit your question.
 
 ### Data that I'm looking for isn't available in Application Insights. How do I raise a request for more data events?
 
-We'll be iteratively adding more data events for diagnostics. Follow the documentation for more updates.
+We're iteratively adding more data events for diagnostics. Follow the documentation for more updates.
 
 ### See also
 
