@@ -130,7 +130,7 @@ Yes, you can update the limit. More information: [How the limit on offering a wo
 
 ## Route to least-active agent
 
-### For which channels are routing to least-active agent available?
+### For which channel is routing to least-active agent available?
 
 The feature is available for the voice channel only.
 
@@ -155,7 +155,7 @@ Intelligent skill finder requires AI Builder to create and train the machine lea
 
 ### Can I use intelligent skill finder with email activities?
 
-Yes, intelligent skill finder can be enabled for any entity that is enabled for routing by using any text-based field. For email body skill finder, another step is required because email body (description) includes HTML tags that can impact the machine learning model. You extract the text from HTML, copy it into another text field, and then configure the machine learning model against the new field.
+Yes, intelligent skill finder can be enabled for any entity that is enabled for routing by using any text-based field. For email body skill finder, additional step is required because email body (description) includes HTML tags that can impact the machine learning model. You extract the text from HTML, copy it into another text field, and then configure the machine learning model against the new field.
 
 ### How do I make sure that the right skills are attached to the work items when the machine learning-based model is in use?
 
@@ -196,7 +196,7 @@ A pay-as-you-go pricing model is associated with Azure Monitor. The Application 
 
 ### Can all my users access application insights? How do I give access for everybody?
 
-Application Insights is meant for developer, support, and admin personas. Users with these roles and responsibilities can be set up to access Application Insights using Azure role-based access. More Information: [Assign Azure roles using the Azure portal](/azure/role-based-access-control/role-assignments-portal)
+Application Insights is meant for developer, support, and admin personas. Users with these roles and responsibilities can be set up to access Application Insights using Azure role-based access. More information: [Assign Azure roles using the Azure portal](/azure/role-based-access-control/role-assignments-portal)
 
 ### Not everyone in my organization can write queries. How do they use application insights?	
 
@@ -204,7 +204,7 @@ We provide sample queries for common questions that customers seek answers to. T
 
 ### Data that I'm looking for isn't available in Application Insights. How do I raise a request for more data events?
 
-We're iteratively adding more data events for diagnostics. Follow the documentation for more updates.
+We will iteratively add more data events for diagnostics. Follow the documentation for more updates.
 
 ### See also
 
