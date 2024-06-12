@@ -6,7 +6,7 @@ ms.author: vhorvath
 ms.reviewer: mhart
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 03/19/2024
+ms.date: 05/15/2024
 ---
 
 # Objects validated by the solution checker
@@ -17,7 +17,7 @@ The lists are subject to change as we add more tables, operations, and controls 
 
 ## Tables that require a license
 
-To create, update, and delete operations on the following tables require a Dynamics 365 Field Service license. Reading from these tables doesn't require a license. When you run the solution checker on your solution, it checks for the presence of restricted tables.
+To create, update, and delete operations on the following tables require a qualified Dynamics 365 license. Reading from these tables doesn't require a license. When you run the solution checker on your solution, it checks for the presence of restricted tables.
 
 - msdyn_purchaseorder
 - msdyn_purchaseorderreceipt
@@ -92,7 +92,7 @@ The following controls require a Dynamics 365 Field Service license. When you ru
 
 ## APIs that require a license
 
-The following APIs require a Dynamics 365 Field Service license. When you run the solution checker on your solutions, it checks if these APIs are used.
+The following APIs require a qualified Dynamics 365 license. When you run the solution checker on your solutions, it checks if these APIs are used.
 
 - msdyn_CascadeBookingChanges
 - msdyn_SelectNotToExceed

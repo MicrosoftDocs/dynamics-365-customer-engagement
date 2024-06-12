@@ -1,7 +1,7 @@
 ---
 title: New work order experience
 description: Learn about the new work order experience in Dynamics 365 Field Service, including how to manage work orders and customize forms.
-ms.date: 04/01/2024
+ms.date: 05/15/2024
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -26,9 +26,11 @@ The new work order list saves you time and effort. Make quick updates right in t
 
 The view called **Work Orders** displays columns you often need to update quickly. Use the view switcher to get to other views. The view you used most recently is set as the default view.
 
+The work order list control isn't available for mobile devices.
+
 ### Editable work order grid
 
-The new editable grid shows key information, such as status, service account, priority, and booked resources for your work orders. You can update the status and priority of work orders directly on the grid. [Update more more fields in a side pane](#side-pane). To find information quickly, apply filters to the grid. To switch between the legacy read-only grid and the new editable grid, select **Show As** in the command bar.
+The new editable grid shows key information, such as status, service account, priority, and booked resources for your work orders. Links take you to related records. You can update the status and priority of work orders directly on the grid. [Update more more fields in a side pane](#side-pane). To find information quickly, apply filters to the grid. To switch between the legacy read-only grid and the new editable grid, select **Show As** in the command bar.
 
 :::image type="content" source="media/work-order-list-grid.png" alt-text="Screenshot of the new Work Orders view in the refreshed Field Service user experience, with the Show As button highlighted.":::
 
@@ -80,7 +82,11 @@ The **Financial** card contains all the financial information for a work order, 
 
 #### Dynamic Booking card
 
-The new, dynamic card for bookings is the key change in the new work order form. It replaces the business process flow in the classic form. It's designed to help you take the next action to [move a work order through its lifecycle](work-order-status-booking-status.md). For now, the dynamic card supports only work orders with a single requirement.
+The new, dynamic card for bookings is the key change in the new work order form. It replaces the business process flow in the classic form. It's designed to help you take the next action to [move a work order through its lifecycle](work-order-status-booking-status.md). 
+
+For now, the dynamic card supports only work orders with a single requirement.
+
+Work orders are primarily designed for less than 5 bookings. It can support more if you don't use the new work order form's booking control and instead use the related bookings tab. However, hundreds of bookings lead to unexpected behavior.
 
 The **Booking** card contains different information, depending on the work order's status.
 
@@ -143,6 +149,9 @@ If trade coverage is set to not cover a trade, a warning is displayed in the wor
 ## Customization considerations
 
 For more information about customizing work orders, see [Customization considerations for the work order form](work-order-customization.md).
+
+> [!IMPORTANT]
+> The components that the new work order experience introduces are not supported for mobile or tablet devices. While they are built to adapt to the screen size of the form factor, features like offline profiles or undo actions don't work.
 
 ## New work order as default experience
 

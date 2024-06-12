@@ -3,13 +3,16 @@ title: Manage routing diagnostics data
 description: Learn how to manage routing diagnostics data for unified routing and archive it periodically to manage storage capacity.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 10/13/2023
+ms.date: 05/09/2024
 ms.custom: bap-template
 ---
 
 # Manage routing diagnostics data
+
+> [!IMPORTANT]
+> The diagnostics feature is deprecated as on May 09, 2024. The diagnostics for new records won't be generated from July 01, 2024, and the feature will be removed by July 15, 2024. For more information, see [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 The diagnostics data for unified routing is stored in [Dataverse for Apps Database Capacity](/power-platform/admin/capacity-storage). We recommend that you periodically delete the routing diagnostics data to manage the storage capacity.
 

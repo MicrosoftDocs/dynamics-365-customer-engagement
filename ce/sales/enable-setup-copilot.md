@@ -44,7 +44,6 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 - Verify whether your org is in a region where Copilot in Dynamics 365 Sales is available. For a list of unsupported regions, see [this FAQ](sales-copilot-faq.md#is-copilot-in-dynamics-365-sales-available-in-all-regions).
 - Verify whether your region has an Azure Open AI Service endpoint. If not, you must [provide consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to use Copilot in Dynamics 365 Sales. For more information, see [Copilot data movement](sales-copilot-data-movement.md).
 
-
 ## Turn Copilot features on or off in Sales Hub
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
@@ -57,7 +56,7 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 
 1. Under **All Dynamics 365 Sales apps**, select a global setting that you want to apply to all Sales apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app.  
 
-    :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the new settings page in Dynamics 365 Sales Hub." lightbox="media/enable-copilot.svg":::  
+    :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the new settings page in Dynamics 365 Sales Hub." lightbox="media/enable-copilot.svg":::  
 
     The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform admin turned Copilot on for your org but your Power Apps admin turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
 
@@ -90,13 +89,17 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 
 By default, Copilot uses a set of predefined fields to generate [summaries](copilot-get-information.md#summarize-a-lead-or-opportunity), a list of [recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) for leads, opportunities, and accounts and [prepare for meetings](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments). You can add other fields from lead, opportunity, account, and related tables to make the summaries and recent changes list more relevant for your business.
 
+> [!IMPORTANT]
+>- The Account summary feature is a preview feature.
+>- Preview features aren’t meant for production use and may have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2087259), and are available before an official release so that customers can get early access and provide feedback.
+
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
 1. Under **General Settings**, select **Copilot**.
 
-1. Select **Opportunities**, **Leads**, or **Accounts**. The following screenshot shows the **Opportunity** settings page. The **Lead** and **Account** settings page is similar.
+1. Select **Opportunities**, **Leads**, or **Accounts (preview)**. The following screenshot shows the **Opportunity** settings page. The **Lead** and **Account** settings page is similar.
 
-    :::image type="content" source="media/copilot-summary-settings.svg" alt-text="Screenshot of the Opportunity settings page for record summaries in Copilot.":::
+    :::image type="content" source="media/copilot-summary-settings.png" alt-text="Screenshot of the Opportunity settings page for record summaries in Copilot.":::
 
 1. To choose fields for generating summaries, select the **Summary** tab. To choose fields for generating the recent changes list, select the **Recent changes** tab.
 
@@ -111,6 +114,14 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
     The **Save** button is disabled if you select fewer than 4 or more than 10 fields. If you added more than 10 fields, clear the checkbox, or select fields that you don't need and select **Delete**.
 
     In the **Recent changes** tab, when you add a field from a related table that doesn't have audit history turned on, **Turn audit on** appears in the notification bar. Select it to turn on auditing for the table. If you remove the field later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the table manually.
+
+1. For **Account (preview)** only. To customize the sections that you want to display in the **Account summary** view, select **Customize related info**.  
+    1. In the **Customize related info** dialog box, select the sections that you want to display in the **Account summary** view for users to see.  
+       By default, all options are selected.  
+
+        :::image type="content" source="media/copilot-account-summary-settings.png" alt-text="Screenshot of the customize related info dialog box for the account summary view.":::  
+
+    1. Select **Save**.
 
 1. Save your changes.
 

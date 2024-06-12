@@ -2,7 +2,7 @@
 title: Manage the Field Service mobile app with Intune
 description: Learn how to get the Field Service mobile app set up with Microsoft Intune.
 ms.date: 10/16/2023
-ms.topic: article
+ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
 ms.author: jobaker

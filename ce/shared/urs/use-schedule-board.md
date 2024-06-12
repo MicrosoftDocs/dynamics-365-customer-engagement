@@ -78,6 +78,9 @@ The schedule board refreshes automatically if there are changes in the start dat
 
 Select **Refresh** to manually refresh the schedule board.
 
+> [!TIP]
+> Availabilities in the scheduling assistant don't refresh when the schedule board gets refreshed. Search for availabilities again or refresh the browser to have the latest updates on the schedule board reflected in the availabilities.
+
 ### Focus mode
 
 Focus on the details of the schedule board and hide all other navigation items.
@@ -101,6 +104,11 @@ Right-click a resource's name and to show more options about the resource.
 
 ## Requirement pane
 
+The requirement pane is where you find unscheduled requirements. Each column can be sorted and filtered by accessing a drop down menu next to each column header. 
+
+> [!NOTE]
+> Filtering is not supported on the **Owner** column on the *Unscheduled Work Orders* tab
+
 Select a single requirement from the requirement pane and select **Find availability** to launch the [schedule assistant](../../common-scheduler/schedule-assistant.md).
 
 The schedule assistant lists available and matching resources that you can book for the requirement.
@@ -116,3 +124,23 @@ Right-click the booking on th schedule board and select **Move to**. Reassign th
 To create a new schedule board tab, select **New schedule board tab** (+) in the tab list on the schedule board.
 
 Enter the [relevant details about your new schedule board](../../common-scheduler/schedule-board-tab-settings.md) and select **Add**.
+
+## Copy the link to a schedule board
+
+The schedule board is accessible through a URL that loads the web resource. The simplest way to access this URL is to configure the schedule board as you prefer, select **More options (&hellip;)** and choose **Copy link**. The generated link includes the parameters currently configured on your board.
+
+:::image type="content" source="../../field-service/media/schedule-board-copy-link.png" alt-text="Screenshot of the Copy link option on the schedule board.":::
+
+For more information about how to construct the URL, see: [Open the schedule board from a URL](../../common-scheduler/schedule-board-url.md).
+
+## Cached settings when loading the schedule board
+
+To facilitate workflows, some parameters are cached so you can quickly can continue where you left:
+
+- Last accessed tab 
+- Map panel: Open or closed 
+- Viewtype: Gantt or list view 
+- Viewmode: Hourly/daily/weekly 
+- Board start date: Cached for 8 hours
+- Column width: Zoom level
+- Requirement panel filters
