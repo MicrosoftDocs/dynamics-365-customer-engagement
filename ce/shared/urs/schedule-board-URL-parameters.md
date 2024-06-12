@@ -1,6 +1,3 @@
-<!-- In line 31, is a word missing? "...*after* the schedule board parameters, ..." Perhaps change to "after creating the schedule board parameters"? In the same line, it says "Unified Client Interface". I think it should be just "Unified Interface." -->
-<!-- In line 33, "The following parameters render the schedule board appear..." Should it be "to appear"? -->
-
 The schedule board is accessible through a URL that loads the web resource. The simplest way to access this URL is to configure the schedule board as you prefer, select **More options (&hellip;)**, and choose **Copy link**. The generated link includes the parameters currently configured on your board.
 
 :::image type="content" source="../../field-service/media/schedule-board-copy-link.png" alt-text="Screenshot of the Copy link option on the schedule board.":::
@@ -28,9 +25,9 @@ We'll use the browser console to create the parameters. [Learn more about the Co
 
 ## Append parameters based on Unified Interface
 
-Optionally, *after* the schedule board parameters, you can add non-encoded parameters for the Unified Client Interface of Dynamics 365.
+Optionally, *following* the schedule board URL parameters, you can add non-encoded parameters for the Unified Interface of Dynamics 365.
 
-The following parameters render the schedule board appear as in a separate browser window without navigation elements: `&cmdbar=false&navbar=off&newWindow=true`. Opening the schedule board with such parameters may get some system parameters such as `forceUCI=1` and `appid=<ID>` added automatically.
+The following parameters open the schedule board in a separate browser window without navigation elements: `&cmdbar=false&navbar=off&newWindow=true`. Opening the schedule board with such parameters may get some system parameters such as `forceUCI=1` and `appid=<ID>` added automatically.
 
 ## Add parameters to a sitemap
 
@@ -68,6 +65,6 @@ The following parameters can get passed to the schedule board.
 
 - **Column width**
 
-  `columnwidth : "1...100"` 
+  `columnwidth : "1...100"`
 
   Changes the width of the columns for the gantt view type. Defines the percentage and gets converted based on the view mode.
