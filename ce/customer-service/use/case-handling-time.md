@@ -17,12 +17,14 @@ Supervisors can use the case handling time to understand the average time taken 
 
 When you open a case, you can see the case handling timer bubble that displays the total time spent on the case. If you select this bubble, you can see the following details:
 
-- **Total time tracked**: You can see the following details:
+**Total time tracked** 
+You can see the following details:
 -  The total time spent on the case. This is the sum of the automatic time tracking, manual time tracking, and the time spent on activities linked to the case. 
 - The **My time** toggle. Turn on this toggle to see the time that only you spent working on the case.
 - The last updated time. Select refresh to view the updated time.
 
-- **Automatic time tracking**: The automatic timer tracks the time spent on a specific case only when it is in focus. 
+**Automatic time tracking**
+The automatic timer tracks the time spent on a specific case only when it is in focus. 
 - In Customer Service Hub, as long as the case is open, the timer runs. If you switch to another tab, close or refresh the browser, the timer stops.
 - In Customer Service workspace, the timer is affected as follows:<br>
     
@@ -36,17 +38,21 @@ When you open a case, you can see the case handling timer bubble that displays t
 | You lock your screen with the case in focus.                                                       | The timer stops.                                   |
 | The Case form is in the background when you perform actions like selecting queue item details.     | The timer continues to run.                        |
    
- > [!NOTE]
+> [!NOTE]
 > The application updates the database with the time tracked at regular intervals, based on your administrator's configuration. When a browser is refreshed or closed, the time tracked might be updated for the previous interval and might not contain the time tracked in the current interval.
      
-    - The personas of all the agents who spent time actively working on the case are displayed. If you select the **My time** toggle, the timer changes into a ticker to show your active time in hours, minutes, and seconds as applicable. A visual indicator is displayed to show that the ticker is now tracking your time, real time. 
- 
-- **Time logs**: Displays the cumulative time agents manually add to the case. 
- - Based on your administrator's configurations, you can select the **Add** icon to log your time on a case.
-- **Activities**: The total time spent on the activities linked to the case.
-- **View history**:<br>
-      - **Automatic time**: The cumulative time of time spent by each agent on the case. You can edit the automatic time logged by you and not for other agents.<br>
-      - **Time logs**: The time manually added by each agent displayed by date.<br>
-      - **Activities**: The time added for each activity by each agent displayed by date.<br>
+- The personas of all the agents who spent time actively working on the case are displayed. If you select the **My time** toggle, the timer changes into a ticker to show your active time in hours, minutes, and seconds as applicable. A visual indicator is displayed to show that the ticker is now tracking your time, real time. 
+
+**Time logs**
+- Display the cumulative time agents manually add to the case. 
+- Based on your administrator's configurations, you can select the **Add** icon to log your time on a case.
+
+**Activities**
+The total time spent on the activities linked to the case.
+
+**View history**:<br>
+- **Automatic time**: The cumulative time of time spent by each agent on the case. You can edit the automatic time logged by you and not for other agents.<br>
+- **Time logs**: The time manually added by each agent displayed by date.<br>
+- **Activities**: The time added for each activity by each agent displayed by date.<br>
 
 
