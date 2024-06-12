@@ -4,7 +4,7 @@ ms.custom:
 description: Secure and manage Dynamics 365 for phones and tablets using Microsoft Intune.
 ms.date: 09/27/2021
 ms.reviewer:
-
+ms.service: d365ce-op
 ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 59af6fe5-f6e0-43d0-addc-044009bc0a23
