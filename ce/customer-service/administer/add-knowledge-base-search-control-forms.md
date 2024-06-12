@@ -17,7 +17,7 @@ ms.custom:
 # Add the Knowledge Base Search control to forms
 
 > [!NOTE]
-> Follow the steps provided in this article for single-session apps only or to use auto search on non-anchor tabs. For multi-sessions apps, use the [knowledge search control on the app side pane](/administer/configure-knowledge-search-control-productivity-pane.md).
+> Follow the steps provided in this article for single-session apps only or to use auto search on non-anchor tabs. For multi-sessions apps, use the [knowledge search control on the app side pane](configure-knowledge-search-control-productivity-pane.md).
 
 Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] forms to make it easy for users in your organization to find knowledge articles so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.  
   
