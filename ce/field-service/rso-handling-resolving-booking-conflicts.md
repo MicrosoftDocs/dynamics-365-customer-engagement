@@ -1,6 +1,6 @@
 ---
-title: "Resolving booking conflicts in Resource Scheduling Optimization for Dynamics 365 | MicrosoftDocs"
-description: Learn how to resolve booking conflicts in Resource Scheduling Optimization for Dynamics 365
+title: Resolve booking conflicts in Resource Scheduling Optimization
+description: Learn how to resolve booking conflicts in the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
 ms.date: 06/11/2024
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.author: anilmur
 
 # Resolve booking conflicts in Resource Scheduling Optimization
 
-Booking conflicts can occur when someone changes a resource, requirement, or booking during an optimization run involving that resource, requirement or booking is ongoing. Resource Scheduling Optimization provides a way to understand these conflicts and resolve them.
+Booking conflicts can occur when someone changes a resource, requirement, or booking during an optimization run, which involves that resource, requirement, or booking. Resource Scheduling Optimization provides a way to understand these conflicts and resolve them.
 
 In conflict scenarios, the optimization request has the status **Completed with Conflicts**.
 
