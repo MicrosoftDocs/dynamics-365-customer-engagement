@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service.
-ms.date: 03/06/2024
+ms.date: 06/12/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -171,6 +171,14 @@ Yes, intelligent skill finder can be enabled for any entity that is enabled for 
 ### I have a work item labeled with two capacity profiles and three agents who match at varying levels. Which agent is eligible for assignment?
 
 If two of the agents match one each of the required capacity profiles and the third agent matches on both the required capacity profiles, then the work item is assigned to the third agent. More information: [Use capacity profiles](capacity-profiles.md#how-to-set-multiple-capacity-profiles-in-a-single-workstream)
+
+## Deprecation of diagnostics
+
+### What are diagnostics for unified routing and why is it being deprecated?
+
+Routing diagnostics lend visibility into how routing decisions are made for work items in contact centers. It has been deprecated with a better alternative of Azure Application Insights for end-to-end conversation diagnostics.
+
+
 
 ### See also
 
