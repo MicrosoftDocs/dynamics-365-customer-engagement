@@ -27,13 +27,13 @@ When you open a case, you can see the case handling timer bubble that displays t
     - In Customer Service workspace, the timer is affected as follows:
        | Scenario | Timer status |
        | --- | --- |
-       |The case is open in a session. You select a related record such as customer, account, knowledge article associated with the case, that opens as an app tabs within the session tab| The timer continues to run for the case.|
-       | The case form is closed| Timer stops|
-       | You navigate to a related case or a child case from the current case| The timer in the current case stops. The timer for the related case starts.|
-       |You navigate to a related case or a child case from the current case. The related case is in the resolved state| The timer in the current case stops. The timer doesn't start for the other case.|
+       |The case is open in a session tab. You select a related record such as customer, account, or knowledge article associated with the case, that opens as an app tab within the session tab. | The timer continues to run for the case.|
+       | The case form is closed. | Timer stops.|
+       | You select a related case or a child case that's linked to the current case.| The timer in the current case stops. The timer for the related case starts.|
+       |You select a related case or a child case linked to the current case that's resolved.| The timer in the current case stops. The timer doesn't start for the related case.|
        | You switch, minimize, refresh, or close browsers | Timer stops|
-       | You lock your screen with the case in focus| The timer stops.|
-       | The Case form in background when you perform actions such as select queue item details or add an activity in timeline from the case| timer continues to run|
+       | You lock your screen with the case in focus.| The timer stops.|
+       | The Case form in background when you perform actions such as select queue item details or add an activity in timeline from the case| timer continues to run.|
    
      > [!NOTE]
      > The application updates the database with the time tracked at regular intervals, based on your administrator's configuration. When a browser is refreshed or closed, the time tracked might be updated for the previous interval and might not contain the time tracked in the current interval.
