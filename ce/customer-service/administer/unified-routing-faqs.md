@@ -24,7 +24,7 @@ You must have the Customer Service Enterprise license. [See prerequisites for li
 
 ### What will happen to my current workstreams after unified routing is installed?
 
-For messaging channels, use the migration utility to migrate the workstream and associated routing rules. For entity routing, you configure new workstreams and rules in unified routing. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
+For messaging channels, use the migration utility to migrate the workstream and associated routing rules. For routing records, you can configure new workstreams and rules in unified routing. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
 ### What are the implications when migration is in progress?
 
