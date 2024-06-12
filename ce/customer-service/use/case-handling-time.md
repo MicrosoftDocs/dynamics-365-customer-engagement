@@ -23,20 +23,21 @@ When you open a case, you can see the case handling timer bubble that displays t
 - The last updated time. Select refresh to view the updated time.
 
 - **Automatic time tracking**: The automatic timer tracks the time spent on a specific case only when it is in focus. 
-    - In Customer Service Hub, as long as the case is open, the timer runs. If you switch to another tab, close or refresh the browser, the timer stops.
-    - In Customer Service workspace, the timer is affected as follows:<br>
-  | Scenario                                                                                           | Timer status                                       |
-  | -------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-  | The case is open in a session tab. You select a related record that opens as an app tab.           | The timer continues to run for the case.           |
-  | The case form is closed.                                                                           | Timer stops.                                       |
-  | You select a related case or a child case that's linked to the current case.                       | The timer in the current case stops.               |
-  | You select a resolved related case or child case linked to the current case.                       | The timer in the current case stops.               |
-  | You switch, minimize, refresh, or close browsers                                                   | Timer stops.                                       |
-  | You lock your screen with the case in focus.                                                       | The timer stops.                                   |
-  | The Case form is in the background when you perform actions like selecting queue item details.     | The timer continues to run.                        |
+- In Customer Service Hub, as long as the case is open, the timer runs. If you switch to another tab, close or refresh the browser, the timer stops.
+- In Customer Service workspace, the timer is affected as follows:<br>
+    
+| Scenario                                                                                           | Timer status                                     |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| The case is open in a session tab. You select a related record that opens as an app tab.           | The timer continues to run for the case.           |
+| The case form is closed.                                                                           | Timer stops.                                       |
+| You select a related case or a child case that's linked to the current case.                       | The timer in the current case stops.               |
+| You select a resolved related case or child case linked to the current case.                       | The timer in the current case stops.               |
+| You switch, minimize, refresh, or close browsers                                                   | Timer stops.                                       |
+| You lock your screen with the case in focus.                                                       | The timer stops.                                   |
+| The Case form is in the background when you perform actions like selecting queue item details.     | The timer continues to run.                        |
    
-     > [!NOTE]
-     > The application updates the database with the time tracked at regular intervals, based on your administrator's configuration. When a browser is refreshed or closed, the time tracked might be updated for the previous interval and might not contain the time tracked in the current interval.
+ > [!NOTE]
+> The application updates the database with the time tracked at regular intervals, based on your administrator's configuration. When a browser is refreshed or closed, the time tracked might be updated for the previous interval and might not contain the time tracked in the current interval.
      
     - The personas of all the agents who spent time actively working on the case are displayed. If you select the **My time** toggle, the timer changes into a ticker to show your active time in hours, minutes, and seconds as applicable. A visual indicator is displayed to show that the ticker is now tracking your time, real time. 
  
