@@ -43,9 +43,9 @@ When you open a case, you can see the case handling timer bubble that displays t
 - **Time logs**: Displays the cumulative time agents manually add to the case. 
  - Based on your administrator's configurations, you can select the **Add** icon to log your time on a case.
 - **Activities**: The total time spent on the activities linked to the case.
-- **View history**:
-      - **Automatic time**: The cumulative time of time spent by each agent on the case. You can edit the automatic time logged by you and not for other agents.
-      - **Time logs**: The time manually added by each agent displayed by date.
-      - **Activities**: The time added for each activity by each agent displayed by date.
+- **View history**:<br>
+      - **Automatic time**: The cumulative time of time spent by each agent on the case. You can edit the automatic time logged by you and not for other agents.<br>
+      - **Time logs**: The time manually added by each agent displayed by date.<br>
+      - **Activities**: The time added for each activity by each agent displayed by date.<br>
 
 
