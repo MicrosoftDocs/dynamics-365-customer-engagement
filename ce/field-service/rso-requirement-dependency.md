@@ -19,11 +19,10 @@ You can ensure that Resource Scheduling Optimization schedules requirements in a
 In the following example, we have two requirements - Task 1.1, which should be completed first followed by Task 1.2, which should be completed second.
 
 1. Open the requirement to be completed first and select **Related** > **Successors**.
-1. Provide a name and choose requirements as predecessor and successor. 
+1. Provide a name and choose requirements as predecessor and successor.
 1. Set **Dependency Type** type as _StartAfterEnd_.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a requirement dependency.](./media/rso-requirement-dependency-successor.png)
+:::image type="content" source="media/rso-requirement-dependency-successor.png" alt-text="Screenshot of a requirement dependency.":::
 
 For every requirement in the sequence, add a requirement dependency.
 
@@ -32,6 +31,6 @@ Assuming the requirements are [within the optimization scope](rso-optimization-s
 > [!IMPORTANT]
 >
 > - Requirement dependencies support only individual requirements that are scheduled through optimization runs to the same resource. Resource groups are not supported.
-> - Resource Scheduling Optimization schedules successive requirements around locked bookings and considers a resources work hours. So you might see cases, where successors are scheduled to the next work day, depending on the optimization scope.
+> - Resource Scheduling Optimization schedules successive requirements around [locked bookings](booking-lock-options.md) and considers a resources work hours. So you might see cases, where successors are scheduled to the next work day, depending on the optimization scope.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
