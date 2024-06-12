@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # How time spent on handling cases is tracked
 
-Case handling time is the period you actively work on a case, which includes the time spent reviewing the case details, customer's past cases and interactions, and communicating with the customer through various channels, offline research, collaborating with team members, and documenting case-related notes. 
+Case handling time is the period you actively work on a case, which includes the time that you spent reviewing the case details, past cases and interactions with the customer through various channels, your offline research collaboration with team members, and the time spent on documenting case-related notes.
 
 Supervisors can use the case handling time to understand the average time taken to handle cases, enabling effective workforce planning.
 
@@ -42,7 +42,7 @@ The automatic timer tracks the time spent on a specific case only when it is in 
 > Based on admin configuration, the application updates the database with the time tracked at regular intervals. When a browser is refreshed or closed, the time tracked is updated for the previous interval and might not have the time tracked in the current interval.
      
 - In Customer Service Hub, as long as the case is in focus, the timer runs. If you switch to another tab, close or refresh the browser, the timer stops.
-- The personas of all the agents who spent time actively working on the case are displayed. If you select the **My time** toggle, the timer changes into a ticker to show your active time in hours, minutes, and seconds as applicable. A visual indicator is displayed to show that the ticker is now tracking your time, real time. 
+- The personas of all the agents who spent time actively working on the case are displayed. If you select the **My time** toggle, the timer changes into a ticker to show your active time in hours, minutes, and seconds as applicable. A visual indicator is displayed to show that your time is tracked in real time. 
 
 **Time logs**
 - Display the cumulative time agents manually add to the case. 
