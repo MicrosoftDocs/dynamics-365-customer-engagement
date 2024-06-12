@@ -1,17 +1,12 @@
 ---
-title: "msdyn_ocsession table| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_ocsession table."
-ms.date: 08/02/2023
-ms.service: "powerapps"
-ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
+title: msdyn_ocsession table
+description: Includes schema information and supported messages for the msdyn_ocsession table.
+ms.date: 06/12/2024
+ms.topic: reference
 author: "gandhamm"
 ms.author: "mgandham"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # msdyn_ocsession table
 

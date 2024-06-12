@@ -1,10 +1,10 @@
 ---
-title: "msdyn_sessionparticipant Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_sessionparticipant entity."
-ms.date: 03/23/2020
-ms.topic: "reference"
+title: msdyn_sessionparticipant Entity Reference 
+description: Includes schema information and supported messages for the msdyn_sessionparticipant entity.
+ms.date: 06/12/2024
 author: "gandhamm"
 ms.author: mgandham
+ms.topic: reference
 ---
 # msdyn_sessionparticipant Entity Reference
 
