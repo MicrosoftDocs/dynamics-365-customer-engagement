@@ -24,7 +24,7 @@ When you open a case, you can see the case handling timer bubble that displays t
 
 - **Automatic time tracking**: The automatic timer tracks the time spent on a specific case only when it is in focus. 
     - In Customer Service Hub, as long as the case is open, the timer runs. If you switch to another tab, close or refresh the browser, the timer stops.
-    - In Customer Service workspace, the timer is affected as follows:
+    - In Customer Service workspace, the timer is affected as follows:<br>
        | Scenario | Timer status |
        | --- | --- |
        |The case is open in a session tab. You select a related record such as customer, account, or knowledge article associated with the case, that opens as an app tab within the session tab. | The timer continues to run for the case.|
