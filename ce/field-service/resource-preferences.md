@@ -1,5 +1,5 @@
 ---
-title: Preferred resources for requirements
+title: Add preferred resources for a requirement
 description: Learn about how you can restrict the resources that are matched to a requirement in Dynamics 365 Field Service.
 ms.date: 06/11/2024
 ms.topic: conceptual
@@ -8,22 +8,26 @@ ms.author: chenryan
 ms.custom: bap-template
 ---
 
-# Preferred resources for requirements
+# Add preferred resources for a requirement
 
-Adding preferred resources to a requirement applies restrictions on which resources are matched to a requirement when scheduling with the schedule assistant or when using Resource Scheduling Optimization.
+Add preferred resources to a requirement to apply restrictions on resource matches when scheduling with the schedule assistant or Resource Scheduling Optimization. The **Preference Type** determines how the resources match. You can add, change, or remove preferred resources.
 
-To add, change, or remove preferred resources, open a resource requirement, and go to the **Related** > **Resource Preferences** tab.
+1. In Field Service, select the **Service** area. Under **Scheduling**, select **Resource Requirements**.
 
-For each resource added, define a **Preference Type**:
+1. Open a resource requirement, and select **Related** > **Resource Preferences**.
 
-- **Preferred**: The [schedule assistant](schedule-assistant.md) displays preferred resources first in the Gantt view if they match all other requirements and filters. It also shows a heart icon next to their name.
+1. For each resource, define a **Preference Type**:
 
-- **Restricted**: The [schedule assistant](schedule-assistant.md) filters out any resources that are marked as restricted. The filter can be removed using the filter panel.
+   - **Preferred**: The [schedule assistant](schedule-assistant.md) displays preferred resources first in the Gantt view if they match all other requirements and filters. It also shows a heart icon next to their name.
 
-- **Must choose from**: The [schedule assistant](schedule-assistant.md) filters results to only these resources. If none of the resources are available, schedule assistant doesn't return any results. The filter can be removed using the filter panel.
+   - **Restricted**: The [schedule assistant](schedule-assistant.md) filters out any resources that are marked as restricted. The filter can be removed using the filter panel.
 
-## Preferred resources with Resource Scheduling Optimization
+   - **Must choose from**: The [schedule assistant](schedule-assistant.md) filters results to only these resources. If none of the resources are available, schedule assistant doesn't return any results. The filter can be removed using the filter panel.
 
-For [Resource Scheduling Optimization](./rso-overview.md) to consider preferred resources, add the **Maximize Preferred Resources** objective to the optimization goal. Resource scheduling optimization attempts to match **Preferred** resources, always selects **Must choose from** resources, and never selects **Restricted** resources.
+1. Select **Save & Close**.
+
+## Use preferred resources with Resource Scheduling Optimization
+
+To consider preferred resources for [Resource Scheduling Optimization](./rso-overview.md), add the **Maximize Preferred Resources** objective to the optimization goal. Resource scheduling optimization attempts to match **Preferred** resources, always selects **Must choose from** resources, and never selects **Restricted** resources.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

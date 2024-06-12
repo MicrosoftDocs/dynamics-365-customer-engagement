@@ -31,18 +31,16 @@ Resource pay types can be used to track your company's costs associated with a r
 
 ## Assign pay type scenarios  
   
-1. From the **Resource Pay Type** screen, assign the resource pay types that you created to the various journal types.  
+From the **Resource Pay Type** screen, assign the resource pay types that you created to the various journal types. Booking journals are created to calculate the cost of a resource booking, for each of the journal types, according to the following logic:  
   
-     Booking journals are created to calculate the cost of a resource booking, for each of the journal types, according to the following logic:  
+- **Work**: Time the resource booking status is in progress while the resource is within their scheduled work hours.  
   
-    - **Work**: Time the resource booking status is in progress while the resource is within their scheduled work hours.  
+- **Overtime**: Time recorded outside a resource's normal working hours.  
   
-    - **Overtime**: Time recorded outside a resource's normal working hours.  
+- **Travel**: Time the resource booking status is "traveling."  
   
-    - **Travel**: Time the resource booking status is "traveling."  
+- **Break**: Time the resource booking status is "on break."  
   
-    - **Break**: Time the resource booking status is "on break."  
-  
-    - **Business Closure:** Time recorded by a resource when the company is closed.  
+- **Business Closure:** Time recorded by a resource when the company is closed.  
   
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

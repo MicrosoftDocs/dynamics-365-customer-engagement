@@ -140,7 +140,7 @@ Prioritize bookings for requirements with the highest score for priority. The pr
 
 ### Maximize Preferred Resources
 
-Consider the list of [preferred resources](resource-preferences.md#preferred) noted on related requirements. The system will try to assign bookings to preferred resources first while meeting other constraints and objectives.
+Consider the list of [preferred resources](resource-preferences.md) noted on related requirements. The system will try to assign bookings to preferred resources first while meeting other constraints and objectives.
 
 ### Best Matching Skill Level
 
