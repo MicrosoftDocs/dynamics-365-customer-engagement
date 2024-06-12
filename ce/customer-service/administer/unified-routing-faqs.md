@@ -155,7 +155,7 @@ Intelligent skill finder requires AI Builder to create and train the machine lea
 
 ### Can I use intelligent skill finder with email activities?
 
-Yes, intelligent skill finder can be enabled for any entity that is enabled for routing by using any text-based field. For email body skill finder, additional step is required because email body (description) includes HTML tags that can impact the machine learning model. You extract the text from HTML, copy it into another text field, and then configure the machine learning model against the new field.
+Yes, intelligent skill finder can be enabled for any entity that is enabled for routing by using any text-based field. For email body skill finder, an additional step is required because email body (description) includes HTML tags that can impact the machine learning model. You extract the text from HTML, copy it into another text field, and then configure the machine learning model against the new field.
 
 ### How do I make sure that the right skills are attached to the work items when the machine learning-based model is in use?
 
