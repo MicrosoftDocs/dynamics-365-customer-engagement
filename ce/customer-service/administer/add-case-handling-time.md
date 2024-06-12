@@ -9,7 +9,9 @@ ms.date: 07/01/2024
 ms.custom: bap-template 
 ---
 
-# Display case handling time on custom case forms
+# Display case handling time on custom case forms (preview)
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
 Case handling time is the total time agents spend working on a case. The case handling time is displayed as a bubble on the out-of-the-box case forms by default. 
 

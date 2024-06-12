@@ -1,5 +1,5 @@
 ---
-title: How time spent on handling cases is tracked
+title: How time spent on handling cases is tracked (preview)
 description: How time spent on handling cases is tracked in Customer Service
 author: gandhamm 
 ms.author: mgandham
@@ -9,7 +9,9 @@ ms.date: 07/01/2024
 ms.custom: bap-template 
 ---
 
-# How time spent on handling cases is tracked
+# How time spent on handling cases is tracked (preview)
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
 Case handling time is the period you actively work on a case, which includes the time that you spent reviewing the case details, past cases and interactions with the customer through various channels, your offline research collaboration with team members, and the time spent on documenting case-related notes.
 
