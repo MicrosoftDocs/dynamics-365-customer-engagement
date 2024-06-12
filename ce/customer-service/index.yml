@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 10/26/2023
+  ms.date: 06/12/2024
   ms.custom: bap-template
   hide_bc: true
 
@@ -96,6 +96,8 @@ additionalContent:
         text: Integrate a Copilot Studio bot
       - url: administer/integrate-KM-with-PVA.md
         text: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
+      - url: administer/configure-teams-meetings.md
+        text: Enable Microsoft Teams meeting integration
     - title: Configure Copilot features
       links:
       - url: administer/configure-copilot-features.md
