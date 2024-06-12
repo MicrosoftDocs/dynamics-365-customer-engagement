@@ -70,19 +70,19 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 
     :::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::
 
-    The account summary includes the following information:
-    - **Basic information**: The basic information of the account includes estimated revenue, estimated close date, key contact of the opportunity, and account name. If this information is available in the respective fields of the opportunity record, it's displayed in the summary; otherwise, the field isn't displayed.
+    The opportunity summary includes the following information:
+    - **Basic information**: The basic information of the opportunity includes estimated revenue, estimated close date, key contact of the opportunity, and account name. If this information is available in the respective fields of the opportunity record, it's displayed in the summary; otherwise, the field isn't displayed.
     - **Key information**: The key information includes details on how long the account is associated with your organization, the total value of closed opportunities, the most recently closed opportunity, progress of the most recent opportunity, contact name of the account with the most opportunities, and other AI-generated information.  
     - **Product, quote, and competitor insights**:
-        - The **Product insights** section All the products associated with the account are displayed along with the budget and estimated revenue.  
-        - The **Quote insights** section displays the number of quotes that are shared with the account along with the date of the most recent quote.  
-        - The **Competitor insights** section displays the competitors associated with the account along with the strengths and weaknesses of the competitors.  
+        - The **Product insights** section All the products associated with the opportunity are displayed along with the budget and estimated revenue.  
+        - The **Quote insights** section displays the number of quotes that are shared with the opportunity along with the date of the most recent quote.  
+        - The **Competitor insights** section displays the competitors associated with the opportunity along with the strengths and weaknesses of the competitors.  
 
         The information is displayed in these sections are based on the fields configured by the administrator for generating summaries. More information: [Configure fields for generating summaries and recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
 
 ### Opportunity summary widget
 
-When you open an opportunity, the opportunity summary widget is displayed in the **Opportunity** form, above the **Up next** or **Timeline** widget. The opportunity summary widget displays the key information of the opportunity, such as the estimated revenue, estimated close date, key contact, and account name. The widget also displays the product, quote, and competitor insights of the opportunity similar to [the opportunity summary](#summarize-an-opportunity) displayed in the Copilot page.  
+By default, when you open an opportunity, the opportunity summary widget is displayed in the **Opportunity** form, above the **Up next** widget. The opportunity summary widget displays the key information of the opportunity, such as the estimated revenue, estimated close date, key contact, and account name. The widget also displays the product, quote, and competitor insights of the opportunity similar to [the opportunity summary](#summarize-an-opportunity) displayed in the Copilot page.  
 
 :::image type="content" source="media/copilot-opportunity-summary-widget.png" alt-text="Screenshot of a Copilot opportunity summary widget.":::
 
@@ -132,7 +132,7 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. To update the lead record with the suggested values, select **Update all**.
 
-<a name="copilot-doc-summarization"></a>
+<a name="copilot-doc-summarization"></a>dl
 ## Summarize proposals associated with a record (preview)
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]

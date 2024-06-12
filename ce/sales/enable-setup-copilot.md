@@ -185,9 +185,21 @@ Add the Copilot page to your site map by following the instructions in [add site
 
 ## Add the opportunity summary widget to custom forms
 
+To add the opportunity summary widget to custom forms, follow these steps:
 
+1. Sign in to the [Power Apps maker portal](https://make.powerapps.com).
+1. From the site map, select **Tables** and open the table.
+1. From the Data experience section, select **Forms**.
+1. Open your custom form for which you want to add the opportunity summary widget.
+1. On the command bar, select **Component** and then add the **1-column section** component to the form as a placeholder for the widget.
+1. From the **Component** site map, select Display and then add the **Record summary** to the newly added column.  
 
+    The opportunity summary widget is added to the form.
 
+    >[!NOTE]
+    >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.  
+
+1. Save and publish the form.
 
 ### See also
 
