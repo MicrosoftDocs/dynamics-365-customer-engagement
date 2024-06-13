@@ -87,7 +87,7 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 
 ## Configure fields for generating summaries and recent changes list
 
-By default, Copilot uses a set of predefined fields to generate [summaries](copilot-get-information.md), a list of [recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) for leads, opportunities, and accounts and [prepare for meetings](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments). You can add other fields from lead, opportunity, account, and related tables to make the summaries and recent changes list more relevant for your business.
+By default, Copilot uses a set of predefined fields to generate [summaries](copilot-get-information.md), a list of [recent changes](copilot-ask-questions.md#get-recent-changes-of-your-records) for accounts, leads, and opportunities, and [prepare for meetings](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments). You can add other fields from lead, opportunity, account, and related tables to make the summaries and recent changes list more relevant for your business.
 
 > [!IMPORTANT]
 >- The Account summary feature is a preview feature.
