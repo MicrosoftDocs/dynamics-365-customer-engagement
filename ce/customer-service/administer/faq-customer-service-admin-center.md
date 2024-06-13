@@ -26,7 +26,7 @@ Similar to other apps, you can use the App designer to  customize the site map e
 
 ### When do you plan to deprecate the existing admin experience?
 
-Customer service admin center has been generally available since April 2022. We've announced the deprecation and subsequent end of support for Customer Service admin center and service management experience in Customer Service Hub. We recommend that you start using the Customer Service admin center app for the seamless benefits it offers. More information: [Deprecations in Customer Service](../implement/deprecations-customer-service.md#some-admin-apps-are-deprecated)
+Customer service admin center has been generally available since April 2022. We've announced the deprecation and subsequent end of support for Omnichannel admin center and service management experience in Customer Service Hub. We recommend that you start using the Customer Service admin center app for the seamless benefits it offers. More information: [Deprecations in Customer Service](../implement/deprecations-customer-service.md#some-admin-apps-are-deprecated)
 
 ### How do I move from the existing admin apps to Customer Service admin center?
 
