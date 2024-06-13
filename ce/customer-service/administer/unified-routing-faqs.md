@@ -170,7 +170,7 @@ If two of the agents match one each of the required capacity profiles and the th
 
 ## Deprecation of diagnostics
 
-### What are diagnostics for unified routing and why is it being deprecated?
+### What is diagnostics for unified routing and why is it being deprecated?
 
 Routing diagnostics lend visibility into how routing decisions are made for work items in contact centers. It has been deprecated with a better alternative of Azure Application Insights for end-to-end conversation diagnostics.
 
