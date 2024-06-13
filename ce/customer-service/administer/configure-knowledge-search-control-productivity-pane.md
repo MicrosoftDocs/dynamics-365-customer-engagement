@@ -1,7 +1,7 @@
 ---
-title: Configure knowledge search control on app side pane for an entity record | Microsoft Docs
-description: See how to configure the settings for knowledge search control in Dynamics 365 Customer Service
-ms.date: 06/09/2022
+title: Configure knowledge search control on app side pane for entity records
+description: Learn how to configure the settings for knowledge search control in Dynamics 365 Customer Service.
+ms.date: 06/12/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -26,7 +26,7 @@ searchScope:
 
 You can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Omnichannel for Customer Service. To do so, you'll need to first add the record types for which you want to turn on knowledge management and then configure the record type settings.
 
-Configuring a record type will specify the information that your agents will see while they interact with customers. **Case** and **Conversation** record types are enabled by default. The **Conversation** record type will be available by default if you have purchased add-on SKUs, such as Chat, Digital messaging, or Voice. If you're an existing user, you'll also see all the entities previously enabled by you.
+Configuring a record type specifies the information that your agents see while they interact with customers. **Case** and **Conversation** record types are enabled by default. The **Conversation** record type is available by default if you purchased add-on SKUs, such as Chat, Digital messaging, or Voice. If you're an existing user, you also see all the entities previously enabled by you.
 
 ## Add record types for which you want to turn on knowledge management
 
@@ -46,21 +46,21 @@ Go to the Customer Service admin center or Customer Service Hub app, and perform
 
 1. Go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
 
-2. On the **Settings** page, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all available entities for an N:N relationship. Knowledge management is enabled for the **Case** entity by default.
+2. On the **Settings** page, in **Record Types**, select the record types you want to turn on knowledge management for. The list includes all available entities for an N:N relationship. Knowledge management is enabled for the **Case** entity by default.
 
 ---
 
-After you've enabled a record type, to set up knowledge base search control on a standard or custom form, see [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms). Setting up knowledge base search control on a standard or custom form makes it easy for agents in your organization to find knowledge articles, so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.
+Setting up knowledge base search control on a standard or custom form makes it easy for agents in your organization to find knowledge articles, so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.
 
 To set up knowledge search control on the app side pane, see [Configure knowledge search control on the app side pane](#configure-knowledge-search-control-on-app-side-pane).
 
 
 ## Configure knowledge search control on the app side pane<a name="configure-knowledge-search-control-on-app-side-pane"></a>
 
-After you've added the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type. The app side pane is available only in Customer Service workspace and Omnichannel for Customer Service. For more information on how to set up an app side pane, go to [Configure productivity pane](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels).
+After you add the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type. The app side pane is available only in Customer Service workspace and Omnichannel for Customer Service. For more information on how to set up an app side pane, go to [Configure productivity pane](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels).
 
 > [!NOTE]
-> You can configure the knowledge settings for record types from the Customer Service admin center app only. You'll also be able to view and edit the record types that you've previously enabled in Customer Service Hub.
+> You can configure the knowledge settings for record types from the Customer Service admin center app only. You'll also be able to view and edit the record types that you previously enabled in Customer Service Hub.
 
 To edit an entity record:
 
@@ -68,7 +68,7 @@ To edit an entity record:
 1. Select **Edit**. The **Knowledge settings** dialog appears.
 1. In **Automatic search**:
     - Set the **Turn on automatic search** toggle to **Yes**, if you want automatic search to be enabled for your entity record.
-    - From the **Provide search results using** dropdown list, select the field by which the search results will be provided for the entity.
+    - From the **Provide search results using** dropdown list, select the field by which the search results are provided for the entity.
 1. In **Actions**, select the checkboxes as required for the following:
     * **Link / unlink article**
     * **Copy URL**
