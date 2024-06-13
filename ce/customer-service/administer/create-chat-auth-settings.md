@@ -33,7 +33,7 @@ You can create a chat authentication setting record in the admin app.
 
 1. In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 
-1. In the **Authentication settings** section, select **Manage**.
+1. In the **Authentication settings** section, select **Manage**. The **Authentication settings** page is displayed.
       
 1. Select **New Authentication Settings**, and provide the following information on the **Add authentication setting** page:
 
