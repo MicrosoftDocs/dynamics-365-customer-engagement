@@ -48,7 +48,9 @@ You can enable historical analytics for unified routing in the Customer Service 
 >
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for unified routing.
 
-1.  In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.    
+1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.	
+1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. 
+1. Select the **Add historical analytics for unified routing** checkbox.  
 
 1. Select **Save** or **Save and Close**.
     
