@@ -16,7 +16,7 @@ ms.collection:
 
 This article contains the frequently asked questions (FAQ) that you as an administrator might have about the Customer Service admin center app.
 
-### What's the difference between Customer Service admin center?
+### What's the difference between Customer Service admin center and Omnichannel admin center?
 
 Customer Service admin center unifies all the administration settings in Customer Service Hub and Customer Service admin center. The site map is task oriented, with overview pages and feature landing pages to easily locate each capability. The user experience is consolidated and improved, and you don't need to migrate any data. Try the new app for centrally managing the features.
 
