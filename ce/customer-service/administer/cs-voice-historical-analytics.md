@@ -20,6 +20,7 @@ To view the rich analytics and insights for your organization, you must enable *
 ## Enable historical analytics for voice
 
 1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears. 
+ 1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for voice** checkbox. 
 1. Select **Save** or **Save & Close**.
 
 ### See also
