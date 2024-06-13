@@ -36,13 +36,13 @@ You can configure Resource Scheduling Optimization for your business needs based
 
 - **Overnight scheduling**: Resource Scheduling Optimization runs automatically each night. It schedules new jobs and optimizes existing bookings for the next day.
 
-- **Single Resource Optimization**: A dispatcher gets the schedule [optimized for a single technician](rso-single-resource-optimization.md) over a couple of days, for example to account for cancellations.
+- **Single resource optimization**: A dispatcher gets the schedule [optimized for a single technician](rso-single-resource-optimization.md) over a couple of days, for example to account for cancellations.
 
 - **Simulation**: A service manager runs a scheduling simulation to understand how many jobs could be completed with a varying number of resources in a specific geographic territory.
 
 - **Intraday scheduling**: Runs optimizations every 30 minutes to schedule and adjust for changing business needs as new jobs are created and others are canceled or rescheduled.
 
-- **Emergency scheduling**: When an urgent job is created, a Resource Scheduling Optimization run schedules the high priority job as soon as possible before lower priority jobs.
+- **Emergency scheduling**: When an urgent job is created, a Resource Scheduling Optimization run schedules the high-priority job as soon as possible before lower priority jobs.
 
 ## Understand how it works
 
@@ -56,7 +56,7 @@ Here's how it works:
 
 1. Choose which resources can be considered for the jobs. Each resource has different attributes like location, role, type, and skills.
 
-1. Run Resource Scheduling Optimization, ad-hoc, on a predefined schedule, or triggered by a workflow. After the system completes the optimization, dispatchers can [use the schedule board](../common-scheduler/schedule-board-utilization.md) to make changes as needed.
+1. Run Resource Scheduling Optimization on a predefined schedule, or triggered by a workflow. After the system completes the optimization, dispatchers can [use the schedule board](../common-scheduler/schedule-board-utilization.md) to make changes as needed.
 
 ## Next steps
 
