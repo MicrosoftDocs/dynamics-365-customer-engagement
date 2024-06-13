@@ -6,11 +6,14 @@ ms.author: nenellim
 ms.reviewer: nenellim 
 ms.topic: overview
 ms.collection: 
-ms.date: 05/10/2024
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Introduction to Nuance Gatekeeper integration (preview)
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 Nuance Gatekeeper is a biometric authentication and fraud prevention technology that can be integrated with Microsoft Dynamics 365 Customer Service. It offers a streamlined verification process that allows contact centers to identify customers through natural conversation without relying on specific questions, security codes, or secret questions and answers.
 

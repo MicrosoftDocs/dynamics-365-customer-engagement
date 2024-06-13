@@ -1,7 +1,7 @@
 ---
 title: Set up outbound calling in the voice channel
 description: Learn how you can set up outbound calling for phone numbers in your organization.
-ms.date: 05/22/2024
+ms.date: 07/01/2024
 ms.service: dynamics-365-customerservice
 ms.topic: how-to
 author: neeranelli
@@ -14,7 +14,10 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-This article describes how you, as an administrator, can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers in the Omnichannel for Customer Service or Customer Service workspace app.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
+This article describes how you, as an administrator, can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers.
 
 If you don't have any phone numbers provisioned for your business, then see [Acquire a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers) to learn how you can acquire new phone numbers. Phone number calling plans must be provisioned to support making calls to be used for outbound voice.
 
@@ -81,7 +84,7 @@ Personal numbers allow agents to exclusively make calls from the chosen number. 
 
 You can assign personal phone numbers to agents to make outbound calls to customers as long as the number isn't toll-free. To configure a personal phone number:
 
-1. Acquire a geographic phone number in Customer Service admin center. For details on how to acquire a phone number, see [Manage phone numbers](voice-channel-manage-phone-numbers.md).
+1. Acquire a geographic phone number in Customer Service admin center or Contact Center admin center. For details on how to acquire a phone number, see [Manage phone numbers](voice-channel-manage-phone-numbers.md).
 
 1. On the **Phone numbers** page, select **Setup** in **Ready for setup**, and in the dialog that appears, select **Assign to user**. The **Omnichannel Users** page displays a list of all agents.
 

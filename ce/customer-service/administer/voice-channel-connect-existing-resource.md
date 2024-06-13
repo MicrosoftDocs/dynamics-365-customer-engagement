@@ -74,8 +74,8 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 
 1. In Customer Service admin center or Contact Center admin center, open the phone number settings.
 
-        1. In the site map, under **Customer support**, select **Channels**.
-        2. Select **Manage** for **Phone numbers**.
+    1. In the site map, under **Customer support**, select **Channels**.
+    2. Select **Manage** for **Phone numbers**.
 
 1. Select **Use existing resource** and specify the following:
      - Paste the values you've copied in the [Get Azure resource information](#get-azure-resource-information) section to the following fields:

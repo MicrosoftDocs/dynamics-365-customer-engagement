@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.topic: how-to
 ms.collection: 
-ms.date: 04/01/2024
+ms.date: 07/01/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -17,6 +17,9 @@ ms.custom:
 # Enable agents to search for contacts and open records from outbound dialer (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
