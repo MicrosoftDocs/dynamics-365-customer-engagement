@@ -260,7 +260,7 @@ Use the monitoring tool to understand the root cause of why forms may be loading
 
 ### Customizing the mobile work order form
 
-While the instructions in this article are useful for customizing any web form for back-office workers, there's a specific work order form optimized for the mobile experience for frontline workers. For more information, see the article on [editing the booking and work order form](mobile/mobile-powerapp-booking-work-order-form.md).
+While the instructions in this article are useful for customizing any web form for back-office workers, there's a specific work order form optimized for the mobile experience for frontline workers. For more information, see the article on [editing the booking and work order form](mobile/change-work-order-form.md).
 
 ### Form scripts
 

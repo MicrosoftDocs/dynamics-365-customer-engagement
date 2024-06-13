@@ -10,7 +10,7 @@ ms.author: andreo
 # Edit the booking and work order form
 
 > [!WARNING]
-> update metadata.
+> Jon to confirm the forms we list are still accurate. Michael to update metadata.
 
 You can configure forms for Dynamics 365 Field Service mobile app to meet your business needs. Because the mobile app is a model-driven app built with Power Apps, you can use the [Power Apps component framework](/power-apps/developer/component-framework/overview) (PCF) to configure the appearance.
 
