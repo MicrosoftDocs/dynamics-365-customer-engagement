@@ -44,7 +44,7 @@ Set up templates to send outbound messages. To create a template, consider the s
 You can set up the outbound configuration in the Customer Service admin center app.
 
 1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
-1. In the **Outbound** section, select **Manage**.
+1. In the **Outbound** section, select **Manage**. The **Active Outbound Configurations** page is displayed.
 1. Select **New**, and on the **New Outbound Configuration** page,  enter the details for the settings mentioned in the following table.
 
     | Field               | Description| Sample value                       |
