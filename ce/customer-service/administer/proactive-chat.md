@@ -1,7 +1,7 @@
 ---
 title: "Configure proactive chat | MicrosoftDocs"
 description: "Learn how to enable and configure proactive chat in Omnichannel for Customer Service and how it works at runtime."
-ms.date: 02/29/2024
+ms.date: 06/14/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -20,7 +20,7 @@ Information about the user journey, time spent on a web page, and more can be us
 
 ## Enable proactive chat in new admin apps
 
-In Customer Service admin center or Omnichannel admin center (deprecated), go to the workstream of the chat widget in which you need to configure the settings, select edit for the required chat widget, and on the **Chat widget** tab of the **Chat channel settings** page, set the toggle for **Proactive chat** to **On**.
+In Customer Service admin center, go to the workstream of the chat widget in which you need to configure the settings, select edit for the required chat widget, and on the **Chat widget** tab of the **Chat channel settings** page, set the toggle for **Proactive chat** to **On**.
 
 [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
