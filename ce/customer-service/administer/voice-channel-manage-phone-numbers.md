@@ -1,7 +1,7 @@
 ---
 title: Manage phone numbers
 description: Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service.
-ms.date: 03/13/2024
+ms.date: 01/07/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -12,7 +12,10 @@ ms.author: mgandham
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel for Customer Service lets you enable and use voice and SMS services seamlessly within Dynamics 365. The voice channel comes with trial phone numbers with limited free calling time. More information: [Use trial phone numbers](voice-channel-trial-phone-numbers.md)
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
+You can enable and use voice and SMS services seamlessly within Dynamics 365. The voice channel comes with trial phone numbers with limited free calling time. More information: [Use trial phone numbers](voice-channel-trial-phone-numbers.md)
 
 
 As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and SMS services, and whether you want to set up inbound and outbound calling options for your business. You can also bring your own phone number via Azure direct routing. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
@@ -23,7 +26,7 @@ As an administrator, you can purchase phone numbers and calling plans, decide wh
   - [Azure subscriptions eligibility](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility)
   - [Service limits for Azure Communication Services](/azure/communication-services/concepts/service-limits#acquiring-phone-numbers)
   - [Country or region availability](/azure/communication-services/concepts/telephony/plan-solution#countryregion-availability)
-- [Deploy the voice channel in Omnichannel for Customer Service](voice-channel-install.md).
+- [Deploy the voice channel](voice-channel-install.md).
 - [Connect to Azure Communication Services using an existing or new Azure resource](voice-channel-acs-resource.md), and then deploy the resource through Dynamics 365.
 - Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
@@ -71,7 +74,6 @@ You can purchase new phone numbers for your organization after you check for the
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
-   
 
    - In the site map, select **Phone numbers** in **General settings**.
     
@@ -146,7 +148,7 @@ You can also assign personal phone numbers to agents, so they're able to make an
 
 If you want to change the calling plan, or upgrade the calling or SMS plans on a particular number, you can do so by editing the phone number. For example, if you hadn't selected any SMS plans, you can upgrade to the **Send SMS** or **Send and receive SMS** plans; if you selected only the **Send SMS** option, you can now upgrade to the **Send and receive SMS** plans.
 
-1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
+1. In Customer Service admin center or Contact Center admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
 1. Select a phone number and then select **Edit**. The **Edit phone number** dialog with the current plan type, calling plan, and SMS plan is displayed.
 1. Make any changes to your call or SMS plans, and select **Save and Close**.
 
@@ -164,7 +166,7 @@ If you no longer need a phone number, you can release it from your organization'
 > When you release a phone number, you actually delete it from Dynamics 365, so release a number only if you're sure that you don't need it at all.
 > To disconnect phone numbers from an Azure Communication Services resource, see [Disconnect from Azure Communication Services resource](voice-channel-disconnect-from-acs.md).
 
-1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
+1. In Customer Service admin center or Contact Center admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
 2. Select a phone number and select **Release number**. The **Release number** dialog requesting you to confirm the number deletion is displayed.
 3. Select **OK** if you're sure you don't need the number. The phone number is removed from your organization and is no longer displayed in the **Phone numbers** list.
 

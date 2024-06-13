@@ -4,13 +4,16 @@ description: Learn about how to install the voice channel in Omnichannel for Cus
 author: neeranelli
 ms.author: nenellim
 ms.custom: bap-template
-ms.date: 10/11/2023
+ms.date: 07/01/2024
 ms.topic: how-to
 ---
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 # Install the voice channel
 
-To configure and use the voice channel for your business needs, you need to install the channel in Omnichannel for Customer Service.
+To configure and use the voice channel for your business needs, you need to install the channel in Dynamics 365.
 
 ## Prerequisite
 

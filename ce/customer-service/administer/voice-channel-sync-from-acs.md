@@ -1,7 +1,7 @@
 ---
-title: "Sync from Azure Communication Services | MicrosoftDocs"
-description: "Understand how you can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Omnichannel for Customer Service."
-ms.date: 06/09/2022
+title: Sync from Azure Communication Services 
+description: Understand how you can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Dynamics 365.
+ms.date: 07/01/2024
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -9,6 +9,8 @@ ms.author: nenellim
 ---
 
 # Sync from Azure Communication Services
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 You can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Omnichannel for Customer Service. 
 

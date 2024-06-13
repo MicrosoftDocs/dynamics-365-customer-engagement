@@ -1,7 +1,7 @@
 ---
 title: Connect using a new Azure resource 
 description: Use this article to understand how to connect to Azure Communication Services using a new Azure resource in Customer Service admin center.
-ms.date: 05/31/2024
+ms.date: 07/01/2024
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -10,6 +10,8 @@ ms.author: nenellim
 # Quickstart: Connect using a new Azure resource
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 In the voice channel, you can quickly connect to Azure Communication Services, provision phone numbers, and set up outbound and inbound calling for your business by creating and deploying a new Azure resource. More information: [Azure Communication Services](/azure/communication-services/overview)
 
