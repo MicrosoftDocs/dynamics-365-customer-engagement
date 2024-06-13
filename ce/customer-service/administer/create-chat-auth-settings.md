@@ -1,7 +1,7 @@
 ---
 title: Configure authentication settings
 description: Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service.
-ms.date: 05/27/2024
+ms.date: 06/14/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -31,25 +31,11 @@ The agent will get a notification in the **Conversation summary** section whethe
 
 You can create a chat authentication setting record in the admin app.
 
-1. Go to one of the admin apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 
-     1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
-     1. In the **Authentication settings** section, select **Manage**.
-
-     The **Authentication settings** page is displayed.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-    
-     1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
-     2. In the **Authentication settings** section, select **Manage**.
-
-      The **Authentication settings** page is displayed.
+1. In the **Authentication settings** section, select **Manage**.
       
-2. Select **New Authentication Settings**, and provide the following information on the **Add authentication setting** page:
+1. Select **New Authentication Settings**, and provide the following information on the **Add authentication setting** page:
 
     - **Name**: Enter a name for the authentication setting.
     - **Owner:** Accept the default value or change to a required value.
@@ -62,7 +48,7 @@ You can create a chat authentication setting record in the admin app.
 
     For more information about how to find the public key URL and JavaScript client function, see the [Setup for Power Apps portals](#setup-for-power-apps-portals) or [Setup for custom portals](#setup-for-custom-portals) section later in this article.
 
-3. Select **Save**.
+1. Select **Save**.
 
 ## Create an authentication setting record for chat using OAuth 2.0
 
