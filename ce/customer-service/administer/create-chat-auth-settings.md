@@ -216,7 +216,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
         ```
 
 
-5. Your developer will need to share the following information with your Customer Service administrator:
+5. Your developer will need to share the following information with your Omnichannel administrator:
 
     a. The URL of the public key service from step 2.  
        
