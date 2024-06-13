@@ -44,7 +44,6 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
 
 ## Configure an Apple Messages for Business channel instance
 
-You can configure an Apple Messages for Business channel instance from the Customer Service admin center app.
 
 1. In the site map of Customer Service admin center, select **Channels** in **Customer Support**.
 
