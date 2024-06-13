@@ -48,7 +48,7 @@ You can also add new music files to use them in calls as hold and wait music.
 
 1.In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 
-1.In the **Phone Music** section, select **Manage**.
+1.In the **Phone Music** section, select **Manage**. The **Phone music** page is displayed.
 
 1. Select **Add new**.
 
