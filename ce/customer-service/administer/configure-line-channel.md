@@ -40,7 +40,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
 
 **To configure the LINE channel**
 
-1.In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
 1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
    
