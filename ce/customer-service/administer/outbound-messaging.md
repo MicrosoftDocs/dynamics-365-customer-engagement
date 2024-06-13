@@ -73,7 +73,7 @@ Power Automate provides a low-code platform for workflow and process automation.
 **To set up a Power Automate flow**
 
 1. In the site map of Customer Service admin center, select **Productivity** in **Agent experience**. The **Productivity** page appears.
-1. In the **Message templates** section, select **Manage**.
+1. In the **Message templates** section, select **Manage**. The **Message template view** page is displayed.
 
 1. Select **Flow** at the top of the screen, and then select **Create a flow**.
 
