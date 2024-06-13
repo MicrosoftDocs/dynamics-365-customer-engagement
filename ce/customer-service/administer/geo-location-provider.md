@@ -27,7 +27,7 @@ Make sure you have permissions on the secure columns. More information: [Configu
 You can create a geo location provider record in the Customer Service admin center app.
 
 1. In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
-1. In the **Geo location** section, select **Manage**.
+1. In the **Geo location** section, select **Manage**. The **Active Geo Location Providers** page is displayed.
 
 1. Select **New** to add a geo location provider record.
 
