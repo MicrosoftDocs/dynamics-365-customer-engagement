@@ -1,7 +1,7 @@
 ---
 title: Enable AI suggestions for cases and knowledge articles
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 12/21/2023
+ms.date: 06/14/2024
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -126,23 +126,11 @@ You can enable AI suggestions for similar cases in the Customer Service admin ce
 
 ## Enable AI suggestions for knowledge articles
 
-You can enable AI suggestions for knowledge articles in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
+You can enable AI suggestions for knowledge articles in the Customer Service admin center, or Customer Service Hub app.
 
-1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 
-     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Suggestions for agents** section, select **Manage**.
-
-     The **Suggestions** page is displayed.       
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-     1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
-     2. In the **Suggestions for agents** section, select **Manage**.
-
-      The **Suggestions** page is displayed.    
+1. In the **Suggestions for agents** section, select **Manage**.
     
    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
