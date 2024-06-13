@@ -51,21 +51,7 @@ You can purchase new phone numbers for your organization after you check for the
 
 1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
 1. Select **Manage** for **Phone numbers**.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-   1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
-    
-   2. Select **Manage** for **Phone numbers**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-   
-
-   - In the site map, select **Phone numbers** in **General settings**.
-    
 1. On the **Phone numbers** page, select **New number**. The **Add phone number** dialog opens.
-
 1. On the **Features** page, do the following:
 
    a. Select **Country/Region** from the dropdown list. The list of available plans for the selected country or region appears.
