@@ -14,11 +14,14 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-In Omnichannel for Customer Service, as an administrator, you can block spam phone calls that your agents receive as part of their incoming customer calls. By blocking spam calls, you can help improve efficiency and productivity of agents and prevent long wait times for actual customers who are in the queues. Your agents and supervisors can also flag off incoming calls as spam, that you can later review and block as spam.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
+You can block spam phone calls that your agents receive as part of their incoming customer calls. By blocking spam calls, you can help improve efficiency and productivity of agents and prevent long wait times for actual customers who are in the queues. Your agents and supervisors can also flag off incoming calls as spam, that you can later review and block as spam.
 
 ## Review phone numbers marked as spam
 
-You can review phone numbers marked as spam in the Customer Service admin center or Omnichannel admin center (deprecated) app.
+You can review phone numbers marked as spam in the Customer Service admin center or Contact Center admin center app.
 
 1. Go to one of the apps, and perform the following steps.
    

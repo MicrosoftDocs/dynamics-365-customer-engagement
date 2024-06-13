@@ -14,6 +14,9 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 To route customers call to the best department, diagnose issues, collect information, and give recommendations, conversational IVR bots speak to customers when they call in. Copilot Studio makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
@@ -58,7 +61,7 @@ More information:
 
 ### Configure handoff from Copilot Studio to Omnichannel for Customer Service
 
-1. In Copilot Studio, open the bot that you've configured to integrate with Omnichannel for Customer Service.
+1. In Copilot Studio, open the bot that you've configured to integrate with Dynamics 365.
 
 1. Go to **Manage** and select **Agent transfers**.
 

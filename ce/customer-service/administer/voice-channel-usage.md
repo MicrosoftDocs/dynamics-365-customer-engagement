@@ -13,22 +13,22 @@ ms.collection: get-started
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-The Voice minutes report lets Omnichannel administrators view a Power BI report in Omnichannel admin center (deprecated) app that helps them to get insights about how many call intelligence minutes and intelligent voicebot minutes from the voice quota have been consumed.
+The Voice minutes report lets administrators view a Power BI report in Customer Service admin center or Contact Center admin center that helps them to get insights about how many call intelligence minutes and intelligent voicebot minutes from the voice quota have been consumed.
 
 [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 ## Prerequisites
 
 - The voice channel should be configured and in use for the report to display data.
-- The Omnichannel administrator role for accessing the report.
+- The administrator role for accessing the report.
 
 ## View the Voice minutes report
 
 To view the Voice minutes report, do one of the following steps:
 
-- In the site map of Customer Service admin center, select **Insights**, and in **Admin reports**, select **View report** for **Voice minutes**. 
+- In the site map of Customer Service admin center or Contact Center admin center, select **Insights**, and in **Admin reports**, select **View report** for **Voice minutes**. 
 - In the site map of Omnichannel admin center, in **Insights**, select **Voice minutes**.
 
 > ![The Voice minutes report.](../media/voice-minutes-report.png "The Voice minutes report.")
