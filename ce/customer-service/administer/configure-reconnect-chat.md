@@ -39,7 +39,7 @@ You can optionally configure a redirection link for the customer to navigate to 
 > - The customer connected again within the reconnection time that's configured for the feature.
 > - The agent didn't end the session by using the **End** button.
 > - The customer didn't end the session by closing the chat window.
-> - If the agent closed the chat window, the customer mightn't be reconnected to the same agent.
+> - If the agent closed the chat window, the customer might not be reconnected to the same agent.
 
 ## Enable reconnection to a previous chat session
 
