@@ -54,7 +54,7 @@ To help you stay on top of your sales records, Copilot summarizes any changes th
 
 Learn more:
 
-- [View recent changes to your lead or opportunity](copilot-ask-questions.md#get-recent-changes-of-your-records)
+- [View recent changes of your records](copilot-ask-questions.md#get-recent-changes-of-your-records)
 - [Get a list of recently updated sales records](copilot-ask-questions.md#whats-new-with-my-sales-records)
 - [View the leads and opportunities assigned to you recently](copilot-ask-questions.md#whats-newly-assigned-to-me)
 - [Change the fields you want to view in the recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
