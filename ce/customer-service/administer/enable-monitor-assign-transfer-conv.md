@@ -17,7 +17,7 @@ As an administrator, you can enable your supervisors to take specific actions on
 ## Configure supervisor settings
 
 1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
-1. In the **Ongoing conversation insights** section, select **Manage**.
+1. In the **Ongoing conversation insights** section, select **Manage**. The **Omnichannel Configuration.Supervisor Settings** page is displayed.
 
 2. To enable the supervisors to perform the following actions, set the corresponding toggles to **Yes**:
     - **Supervisor Monitor**: Monitor how conversations are happening or being handled by their agents.
