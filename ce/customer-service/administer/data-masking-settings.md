@@ -42,17 +42,7 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
    > [!div class=mx-imgBorder]
    > ![Create a masking rule.](../media/new-masking-rule.png "Create a masking rule")
 
-1. In Dynamics 365, go to one of the apps and complete the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    - In the site map, in **Agent experience**, select **Productivity**.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-      [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-     - In the site map, in **Advanced settings**, select **Agent experience**.
+1. In the site map of Customer Service admin center, in **Agent experience**, select **Productivity**.
 
 1.	Select **Manage** for **Data masking**.
 
