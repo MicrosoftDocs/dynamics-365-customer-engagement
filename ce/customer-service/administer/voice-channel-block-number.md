@@ -21,7 +21,7 @@ In Omnichannel for Customer Service, as an administrator, you can block spam pho
 You can review phone numbers marked as spam in the Customer Service admin center app.
 
 1. In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
-1. In the **Blocked numbers** section, select **Manage**.
+1. In the **Blocked numbers** section, select **Manage**. The **Blocked numbers** page is displayed.
 1. In the **Blocked numbers** section, you can do the following:
 
     - **Pending review** tab - Shows the list of numbers that have been flagged as spam by your agents and supervisors. You can view the report for each phone number, and then block the specific number as spam. Select any number from the **Pending review** list, and then you can do the following:
