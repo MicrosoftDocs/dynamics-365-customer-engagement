@@ -38,8 +38,6 @@ Make sure that the authentication settings are configured. More information: [Cr
 
 In Customer Service admin center, select the **Make chats persistent** checkbox when you create the chat workstream. More information: [Create and manage workstreams](create-workstreams.md)
 
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
 Make sure that you set the **Keep same agent for entire conversation** toggle to **Yes** in the **Work distribution** settings of the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
 ### See also

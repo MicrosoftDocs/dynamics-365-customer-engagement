@@ -32,8 +32,6 @@ You can configure a phone number in a workstream that allows the customer to cho
 
 1. In the Customer Service admin center app, go to the voice workstreams, and then select the workstream to configure the phone number.
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
 1. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select the number to add to the workstream, and then select **Next**.
 
 1. On the **Language** tab, select **Add primary language**. A language page is displayed, where you set the primary language for the channel. You can add more languages to this voice channel, and each language has its own settings.

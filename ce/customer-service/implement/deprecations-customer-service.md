@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 06/14/2024
+ms.date: 06/06/2024
 ms.custom: bap-template
 ms.collection:
 ---
@@ -53,10 +53,10 @@ Effective April 30, 2024, Omnichannel intraday insights reports aren't available
 With the release of the Customer Service admin center app that consolidates admin experiences across the Customer Service suite, the following admin experiences are deprecated and no longer supported as of April 2023.
 
 - Service Management area in the Customer Service Hub app
-- Customer Service admin center
+- Omnichannel admin center
 - **App profile manager**: Removed as of April 2023.
 
-Also, as of October 2022, the Customer Service admin center and the service management area in Customer Service Hub are hidden by default in newly created organizations and environments. You can bring them back, but we recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. More information: [Get started with Customer Service admin center](cs-admin-center.md)
+Also, as of October 2022, the Omnichannel admin center and the service management area in Customer Service Hub are hidden by default in newly created organizations and environments. You can bring them back, but we recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
 ## Omnichannel Administration app is deprecated and removed as of July 2023
 

@@ -79,8 +79,6 @@ Perform the tasks in [Provision Omnichannel for Customer Service](omnichannel-pr
 
 After a channel is enabled in your organization, you can sign in to the Dynamics 365 organization and select the Customer Service admin center app to start configuring the channel. 
 
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
 See the following articles to configure channels in Omnichannel for Customer Service:
 
 - [Configure the chat channel](../administer/set-up-chat-widget.md)

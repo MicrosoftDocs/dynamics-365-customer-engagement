@@ -1,7 +1,7 @@
 ---
 title: Configure outbound messaging in Omnichannel for Customer Service
 description: Learn about how to configure outbound messaging in Omnichannel for Customer Service.
-ms.date: 6/14/2024
+ms.date: 06/14/2024
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -33,8 +33,6 @@ As an administrator, you can do the following tasks:
 Set up templates to send outbound messages. To create a template, consider the scenarios that require your organization to send outbound messages.
 
 1. Sign in to the Customer Service admin center app.
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 2. Create a template for your outbound message.
 

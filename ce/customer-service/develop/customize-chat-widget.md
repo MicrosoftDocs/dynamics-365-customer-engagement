@@ -5,7 +5,7 @@ ms.date: 01/29/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection:
 ---
@@ -14,8 +14,6 @@ ms.collection:
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 You can customize live chat widgets by using data tags in the widget script. You can use the following tags in the chat widget script that you copy from your admin app such as Customer Service admin center. More information: [Embed chat widget in your website or portal](../administer/embed-chat-widget-portal.md)
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 |Attribute name|Description|Example|
 |----|-----|-----|

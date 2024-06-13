@@ -38,8 +38,6 @@ The following prerequisites must be met for the Copilot Studio bot:
 
 1. In the Customer Service admin center app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**. 
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
 1. On the **Add Bot** pane, select a bot from the **Name** box. 
 
    > [!NOTE]

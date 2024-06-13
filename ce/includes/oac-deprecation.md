@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Customer Service admin center is [deprecated](../customer-service/implement/deprecations-customer-service.md#some-admin-apps-are-deprecated). Use the [Customer Service admin center](../customer-service/implement/cs-admin-center.md) app for admin tasks across Customer Service.
+> Omnichannel admin center is [deprecated](../customer-service/implement/deprecations-customer-service.md#some-admin-apps-are-deprecated). Use the [Customer Service admin center](../customer-service/implement/cs-admin-center.md) app for admin tasks across Customer Service.

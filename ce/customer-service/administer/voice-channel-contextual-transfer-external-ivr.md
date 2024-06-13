@@ -1,8 +1,7 @@
 ---
-title: "Integrate a third-party IVR system with voice channel | MicrosoftDocs"
-description: "Use this article to understand how you can integrate third-party IVR systems with Omnichannel for Customer Service voice channel and set up contextual call transfer via Azure direct routing."
+title: Integrate a third-party IVR system with voice channel
+description: Use this article to understand how you can integrate third-party IVR systems with Omnichannel for Customer Service voice channel and set up contextual call transfer via Azure direct routing.
 ms.date: 06/14/2024
-ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -41,9 +40,7 @@ This section lists the high-level steps you must perform to enable contextual ca
        
 5. Create context variables with the same names as the SIP UUI header.
 
-    1. In Customer Service admin center, go to **Customer support** > **Workstreams**. If you're using Customer Service admin center, go to **General settings** > **Workstreams**.
-       A list of workstreams including voice workstreams is displayed.
-        [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+    1. In Customer Service admin center, go to **Customer support** > **Workstreams**. A list of workstreams including voice workstreams is displayed.
     2. Select a voice workstream and then select **Edit** to configure the workstream.
     3. In the **Advanced settings** area, select **Add context variable**.
     4. In the **Edit** dialog that opens, select **Add**, and then select **Add context variable**.

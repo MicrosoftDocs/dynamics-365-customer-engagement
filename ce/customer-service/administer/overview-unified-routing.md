@@ -53,8 +53,6 @@ For the languages that are supported in unified routing, see [Supported language
 
 You can configure unified routing through the Customer Service admin center app. Agents must use the Customer Service workspace app only to be assigned work through unified routing.
 
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
 The intelligent skill finder depends upon the custom AI Builder category classification model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. The languages supported in the intelligent skill finder are determined by the languages that AI Builder supports. For more information, see the following:
 
 - [Availability of AI Builder](/ai-builder/availability-region)

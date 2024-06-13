@@ -28,8 +28,6 @@ After you define the business hours for your organization and set up [automated 
 
 In the Customer Service admin center app, after you've created an operating hour record, you can do the following steps, depending on your requirement:
 
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
 - **Queues:** Configure the operating hour on the main page of the queue.
 - **Chat widget:** Add the operating hour record on the **Chat widget** tab.
 - **SMS channels:** Add the operating hour record on the **Behaviors** tab of the channel instance that can be accessed through the corresponding workstream.
