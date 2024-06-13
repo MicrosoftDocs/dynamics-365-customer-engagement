@@ -15,7 +15,7 @@ Mange feedback received for your articles by adding them to your knowledge artic
 
 ## Add feedback to an article
 
-1. In the Customer Service app, select **Knowledge Articles**.
+1. In Customer Service workspace, select **Knowledge Articles**.
 
 1. Select the article you want to add feedback for.
 
@@ -52,7 +52,7 @@ Mange feedback received for your articles by adding them to your knowledge artic
 
 Ensure that your articles are up to date and accurate at all times by updating them based on feedback you receive.  
   
-1. In the Customer Service app, select **Knowledge Articles**.
+1. In Customer Service workspace, select **Knowledge Articles**.
 
 1. Select the article you want to edit.  
   
