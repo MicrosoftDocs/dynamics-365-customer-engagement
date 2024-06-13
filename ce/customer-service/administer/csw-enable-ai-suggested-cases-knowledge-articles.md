@@ -83,7 +83,7 @@ Make sure that the following requirements are met:
 
 ## Enable AI suggestions for similar cases
 
-You can enable AI suggestions for similar cases in the Customer Service admin center, Customer Service admin center (deprecated), or Customer Service Hub app.
+You can enable AI suggestions for similar cases in the Customer Service admin center app.
 
 1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Suggestions for agents** section, select **Manage**..
