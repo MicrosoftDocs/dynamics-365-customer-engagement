@@ -45,7 +45,7 @@ Copilot can help you stay on top of your pipeline by showing you a list of accou
 
 [Open Copilot](use-sales-copilot.md#open-copilot), select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's newly assigned to me**, and select **Enter**.
 
-## Get recent changes of your records
+## Get recent changes
 
 Copilot can help you catch up on any updates to your account, lead, or opportunity records in the last seven days or since you last signed in.
 
