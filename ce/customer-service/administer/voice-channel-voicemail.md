@@ -3,7 +3,7 @@ title: Configure voicemail to manage inbound calls
 description: Configure voicemail to manage inbound calls, route voicemails to agents, and reduce on-hold wait times.
 author: neeranelli
 ms.author: nenellim
-ms.date: 12/06/2023
+ms.date: 07/01/2024
 ms.topic: how-to
 ms.reviewer:
 ms.collection:
@@ -15,6 +15,8 @@ ms.custom:
 ---
 
 # Configure voicemail to manage inbound calls
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Voicemails help your customers record messages for agents when they come across long wait times or their direct calls to agents are unanswered. You can reduce on-hold calls when customers communicate their concerns promptly through voicemails and call back later for a status check.
 
@@ -34,7 +36,7 @@ The prerequisites are as follows:
 - [Unified routing](provision-unified-routing.md) is enabled.
 - [Agent presence](../use/oc-manage-presence-status.md) works correctly, which is required to open a voicemail.
 - The operating hours message at the voice workstream level isn't set because it overrides the voice queue-level overflow setup that the system needs for the voicemail feature to work. If you set the operating hours message for the voice workstream, the system plays the message and disconnects the call.
-- The [call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services). are enabled.
+- The [call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services) are enabled.
 
 ## Configure voicemail to manage overflow of voice calls
 
@@ -73,7 +75,7 @@ Out of the box, **Default Individual Voicemail Workstream** is available to rout
 
 ## Configure voicemail views in inbox for agents
 
-1. In Customer Service admin center, in the site map, select **Workspaces** under **Agent experience**.
+1. In Customer Service admin center or Contact Center admin center, in the site map, select **Workspaces** under **Agent experience**.
 
 1. Select **Manage** for **Agent experience profiles** and select the profile that you want to edit.
 
@@ -134,7 +136,7 @@ Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations D
 
 ### View the default settings
 
-1. In Customer Service admin center, select **Routing** in the site map, and then select **Manage** for **Setup record routing**. Voicemail is listed under **Record types** on the page that appears.
+1. In Customer Service admin center or Contact Center admin center, select **Routing** in the site map, and then select **Manage** for **Setup record routing**. Voicemail is listed under **Record types** on the page that appears.
 
 1. Select **Voicemail**. The **Voicemail routing hub** page displays the following default settings:
 
