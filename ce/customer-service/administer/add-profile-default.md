@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Add users to agent experience profiles
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 When your organization has a large number of users, adding them to agent profiles can be time consuming. As an administrator, you can effectively assign users to agent experience profiles and provide a targeted app experience, based on their roles.
 
 ## Set a custom agent experience profile as default

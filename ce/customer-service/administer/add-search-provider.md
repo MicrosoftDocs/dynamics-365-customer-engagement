@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Manage integrated search providers
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 With integrated search providers in Dynamics 365 Customer Service, you can configure third-party sources, such as enterprise websites that are based on the site map protocol. Articles are ingested into Dataverse and refreshed on the schedule you specify.
 
 ## Prerequisites
