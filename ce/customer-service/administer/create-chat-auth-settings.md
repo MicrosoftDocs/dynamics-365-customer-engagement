@@ -193,7 +193,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
       (We recommend generating your JWT on your web server). 
 
-      The name of this JavaScript method will be used to create the authentication settings record in the Omnichannel admin app.
+      The name of this JavaScript method will be used to create the authentication settings record in the Customer Service admin app.
 
         ```JavaScript
         // This is a sample JavaScript client function  
@@ -216,7 +216,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
         ```
 
 
-5. Your developer will need to share the following information with your Omnichannel administrator:
+5. Your developer will need to share the following information with your Customer Service administrator:
 
     a. The URL of the public key service from step 2.  
        
