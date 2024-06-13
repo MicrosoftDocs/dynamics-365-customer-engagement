@@ -55,7 +55,8 @@ To configure a Facebook channel, the following steps are required:
 ### Create the Facebook channel account
 
 1. In the site map of Customer Service admin center, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
-1. In the **Facilities & equipment** section, select **Manage**.
+1. In the site map of Customer Service admin center, in **Customer support**, select **Channels**.
+1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
 1. On the **Accounts and channels** page, select **New account**.
 
