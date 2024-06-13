@@ -1,7 +1,7 @@
 ---
 title: Enable AI suggestions for cases and knowledge articles
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 12/21/2023
+ms.date: 06/14/2024
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -83,66 +83,29 @@ Make sure that the following requirements are met:
 
 ## Enable AI suggestions for similar cases
 
-You can enable AI suggestions for similar cases in the Customer Service admin center, Omnichannel admin center (deprecated), or Customer Service Hub app.
+You can enable AI suggestions for similar cases in the Customer Service admin center, Customer Service admin center (deprecated), or Customer Service Hub app.
 
-1. Go to one of the apps, and then perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
-     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Suggestions for agents** section, select **Manage**.
+1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the **Suggestions for agents** section, select **Manage**..
 
-     The **Suggestions** page is displayed.       
+1. In the **Settings** > **Summary** area, set the **Enable similar case suggestions** toggle to **Yes**.
 
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-    
-     1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
-     1. In the **Suggestions for agents** section, select **Manage**.
-
-      The **Suggestions** page is displayed.    
-    
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-      [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-      1. In the site map, go to **Service Management**
-      1. Select **Settings** in **Insights**. The **Insights** page appears.
-      1. In the **Suggestions for agents** section, select **Manage**.
-
-      The **Suggestions** page is displayed.  
-
-2. In the **Settings** > **Summary** area, set the **Enable similar case suggestions** toggle to **Yes**.
-
-3. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively, if you don't want to use **Case Title** and **Description** that are set by default. You can choose up to three more fields for the case suggestion model to use to find similar cases. For example, you can look at cases with a similar age, cases owned by a particular team, and so forth. The AI model uses the data that corresponds to the selected boxes to understand the case context to provide similar case suggestions.
+1. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively, if you don't want to use **Case Title** and **Description** that are set by default. You can choose up to three more fields for the case suggestion model to use to find similar cases. For example, you can look at cases with a similar age, cases owned by a particular team, and so forth. The AI model uses the data that corresponds to the selected boxes to understand the case context to provide similar case suggestions.
 
    > [!NOTE]
    > We recommend that you use text fields with plain text because suggestions might not be generated for text fields that are enabled for rich text format.
 
    > ![Enable AI-suggested similar cases.](../media/csac-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
 
-4. Select **Save**.
+1. Select **Save**.
 
 ## Enable AI suggestions for knowledge articles
 
-You can enable AI suggestions for knowledge articles in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
+You can enable AI suggestions for knowledge articles in the Customer Service admin center, or Customer Service Hub app.
 
-1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 
-     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Suggestions for agents** section, select **Manage**.
-
-     The **Suggestions** page is displayed.       
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-     1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
-     2. In the **Suggestions for agents** section, select **Manage**.
-
-      The **Suggestions** page is displayed.    
+1. In the **Suggestions for agents** section, select **Manage**.
     
    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 

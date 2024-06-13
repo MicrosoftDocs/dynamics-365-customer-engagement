@@ -1,7 +1,7 @@
 ---
 title: "Use effort estimation model in unified routing | MicrosoftDocs"
 description: "Learn how to use the effort estimation model in unified routing in Customer Service."
-ms.date: 04/04/2022
+ms.date: 06/14/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -38,24 +38,8 @@ Some examples of how effort can be defined are as follows:
 
 You can create the effort estimation models for any record that is enabled for unified routing. You can provide the context to the model for training by selecting the attributes. At least two attributes are mandatory, and you can specify up to 10 attributes. Attributes that indicate severity and priority are useful.
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In the site map, select **Routing**. The **Routing** page appears.
    
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    - In the site map, select **Routing**. The **Routing** page appears.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-    - In the site map, select **User attributes** in **Advanced settings**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-   
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    - Go to the **Service Management** site map, and select **User attributes** in **Unified Routing**.
-
 2. Select **Manage** for **Effort-based routing**.
 
 3. On the page that appears, select **New**.

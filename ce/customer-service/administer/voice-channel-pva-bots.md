@@ -4,7 +4,7 @@ description: Learn about how to add a Copilot Studio bot to use in the voice cha
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: shujoshi
-ms.date: 06/01/2024
+ms.date: 06/14/2024
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -36,7 +36,7 @@ The following prerequisites must be met for the Copilot Studio bot:
 
 ## Configure a bot for voice
 
-1. In the Customer Service admin center or Omnichannel admin center (deprecated) app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**. 
+1. In the Customer Service admin center app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**. 
 
     [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 

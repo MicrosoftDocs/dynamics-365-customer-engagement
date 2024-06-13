@@ -1,7 +1,7 @@
 ---
 title: Add and create new facilities and equipment for Service Scheduling in Dynamics 365 Customer Service | MicrosoftDocs
 description: Learn how to add and create facilities and equipment for service scheduling in Dynamics 365 Customer Service
-ms.date: 04/04/2022
+ms.date: 06/14/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -25,27 +25,14 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-You can create a new facility or equipment record in the Customer Service admin center or Omnichannel admin center app.
+You can create a new facility or equipment record in the Customer Service admin center app.
 
-1. Go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
-    2. In the **Facilities & equipment** section, select **Manage**.
-        
-        The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the dropdown list.  
-
-   ### [Customer Service Hub](#tab/customerservicehub)
-
-    1. In the site map, go to **Scheduling**.
-    2. From the list of entity records, select **Facilities/Equipment** in **Scheduling**.
-       
-       The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the dropdown list.
+1. In the site map of Customer Service admin center, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
+1. In the **Facilities & equipment** section, select **Manage**.
      
-2. On the command bar, select **New** to create a new record. 
+1. On the command bar, select **New** to create a new record. 
   
-3.  In the **General** section, fill in the information as required:  
+1.  In the **General** section, fill in the information as required:  
   
     - **Name**. Enter the name of the facility or equipment you want to add for scheduling.  
   
@@ -59,7 +46,7 @@ You can create a new facility or equipment record in the Customer Service admin 
   
     - **Description**. Add details about the facility or equipment, such as the numbers, size, make, or model.  
   
-4.  When you’re done, select **Save** or **Save and Close**.  
+1.  When you’re done, select **Save** or **Save and Close**.  
 
     ![facility and equipment.](../media/facilities_equipment_1.png)
 ### See also
