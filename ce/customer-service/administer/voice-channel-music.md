@@ -32,7 +32,7 @@ You can update existing music files and replace them with your own music files i
 **To update existing music files**
 
 1. In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
-1. In the **Phone Music** section, select **Manage**.
+1. In the **Phone Music** section, select **Manage**. The **Phone music** page is displayed.
 1. Select any music file from the list and then select **Edit**.
 1. In the **Edit phone music** dialog, you can do the following:
    - **Name**: Edit the name of the music file.
