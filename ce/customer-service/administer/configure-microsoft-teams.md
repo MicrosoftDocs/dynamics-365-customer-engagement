@@ -59,6 +59,7 @@ Make sure that the following prerequisites are met:
 ## Configure a Microsoft Teams channel<a name="configureinoac"></a>
 
 1. In the site map of Customer Service admin center, in **Customer support**, select **Channels**.
+1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
 1. On the **Accounts and channels** page, select **New account**.
 
