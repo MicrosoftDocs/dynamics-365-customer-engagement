@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 01/23/2023
+ms.date: 06/13/2024
 ms.custom: bap-template
 ---
 
@@ -21,8 +21,12 @@ The following image describes the default process to create and use knowledge ar
  
 ## Next steps
 
-For information on creating and managing a knowledge article, go to [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md#create-and-manage-knowledge-articles).
+[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md#create-and-manage-knowledge-articles).
 
-For information on reviewing a knowledge article, go to [Review knowledge articles](review-ka.md#review-knowledge-articles).
+[Create templates for knowledge articles](create-templates-knowledge-article.md#create-templates-for-knowledge-articles)
 
-For information on publishing a knowledge article, go to [Publish knowledge articles](publish-ka.md#publish-knowledge-articles).
+[Create knowledge articles using templates](customer-service-hub-user-guide-knowledge-article.md#create-knowledge-articles-using-templates)
+
+[Review knowledge articles](review-ka.md#review-knowledge-articles).
+
+[Publish knowledge articles](publish-ka.md#publish-knowledge-articles).
