@@ -10,7 +10,7 @@ ms.subservice: resource-scheduling-optimization
 
 # Overview of Resource Scheduling Optimization
 
-The Resource Scheduling Optimization Add-in for Dynamics 365 Field Service automatically schedules jobs to the resources that are best equipped to complete them. For example, schedule work orders for field technicians or cases for customer service reps. While the [schedule board](./work-with-schedule-board.md#book) and the [schedule assistant](./schedule-assistant.md) help schedule a single job, this add-in can schedule multiple jobs at once. It maximizes resource utilization and minimizes travel time. Resource Scheduling Optimization considers the requirements of the job and the unique attributes of the resources.
+The Resource Scheduling Optimization Add-in for Dynamics 365 Field Service automatically schedules jobs to the resources that are best equipped to complete them. For example, schedule work orders for field technicians or cases for customer service reps. While the [schedule board](./work-with-schedule-board.md#book) and the [schedule assistant](./schedule-assistant.md) help schedule a single job, this add-in can schedule multiple jobs at once. It maximizes resource use and minimizes travel time. Resource Scheduling Optimization considers the requirements of the job and the unique attributes of the resources.
 
 :::image type="content" source="media/rso-optimized-schedule-board-routes.png" alt-text="Screenshot of Resource Scheduling Optimization and the schedule board.":::
 
@@ -20,14 +20,13 @@ Resource Scheduling Optimization is a paid add-in to Dynamics 365 Field Service 
 
 Automated scheduling is often required because scheduling a high volume of jobs manually takes time. Resource Scheduling Optimization assists dispatchers with job matching and helps free up their time to focus on other tasks. Benefits of the Resource Scheduling Optimization add-in include:
 
-- **Achieve scale**: Allowing dispatchers to manage more resources, enables the
-business to scale to new territories or service offerings.
+- **Achieve scale**: Allowing dispatchers to manage more resources enables the business to scale to new territories or service offerings.
 
 - **Improve customer satisfaction**: Improving efficiency drives more predictable arrival and completion times and seamlessly schedules technicians for urgent situations.
 
-- **Technician efficiencies**: Fitting more appointments into working hours drives revenue and reduces overtime costs. Matching jobs and technician skills reduces inefficient time allocation.
+- **Increase technician efficiencies**: Fitting more appointments into working hours drives revenue and reduces overtime costs. Matching jobs and technician skills reduces inefficient time allocation.
 
-- **Minimized travel time**: Ensuring your technicians are taking the shortest possible route with turn-by-turn directions reduces fuel consumption and wear and tear on vehicles. Savings that can easily surpass the cost of the add-in.
+- **Minimize travel time**: Ensuring your technicians are taking the shortest possible route with turn-by-turn directions reduces fuel consumption and wear and tear on vehicles—savings that can easily surpass the cost of the add-in.
 
 - **Improve customer retention**: Giving preference to higher-priority work orders helps avoid service level agreement penalties and helps you meet customer service commitments.
 
