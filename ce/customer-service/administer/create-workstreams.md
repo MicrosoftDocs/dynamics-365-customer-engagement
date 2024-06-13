@@ -26,7 +26,7 @@ The workstream can be one of the following types:
 
 > [!IMPORTANT]
 >
-> Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md)
+> Unified routing must be enabled in the service configuration settings for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md)
 
 ## Prerequisite
 
