@@ -10,6 +10,9 @@ ms.author: jobaker
 
 # Offline data synchronization
 
+> [!WARNING]
+> update metadata.
+
 After the offline profile is set up and data is downloaded to the mobile device for the first time, the mobile app always runs [offline-first](/power-apps/mobile/mobile-offline-overview). Prioritizing offline use optimizes the app's performance. It also creates a consistent experience for field technicians as they move through areas with and without an Internet connection.
 
 ## Sync intervals

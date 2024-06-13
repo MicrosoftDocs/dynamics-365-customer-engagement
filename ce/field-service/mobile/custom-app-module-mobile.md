@@ -10,6 +10,9 @@ ms.author: andreo
 
 # Add a custom app module to the Field Service mobile app
 
+> [!WARNING]
+> update metadata
+
 We recommend using the standard Field Service Mobile app module. However, sometimes organization wants to give frontline workers access to another custom app module to enable other business use cases and processes.
 
 Custom app modules don't contain all of the out-of-box business logic, such as booking travel-time calculations, which exist in the standard Field Service Mobile app module.

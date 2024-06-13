@@ -10,6 +10,9 @@ ms.author: andreo
 
 # Use deep links to the Field Service mobile app
 
+> [!WARNING]
+> Update metadata
+
 Deep links let users move from one application to another on computers and mobile devices. Simple examples include a mobile app deep-linking to Facebook to sign in, an email address deep-linking to a mail app to compose a message, or a website deep-linking to an app store to download a related mobile app. Because multiple apps might be needed to complete onsite work, an organization can allow technicians to create deep links from the Dynamics 365 Field Service mobile app to other apps and vice versa.
 
 ## Open an entity record or entity list view in the mobile app

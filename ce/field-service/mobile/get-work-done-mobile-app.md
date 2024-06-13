@@ -16,6 +16,9 @@ ms.collection: bap-ai-copilot
 
 # Complete work orders in the mobile app
 
+> [!WARNING]
+> update metadata.
+
 The Dynamics 365 Field Service mobile app helps you work efficiently and effectively as a technician. You can use the app to:
 
 - View your assigned jobs on a calendar with all the details you need

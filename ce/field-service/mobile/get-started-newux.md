@@ -10,4 +10,7 @@ ms.author: jshum
 
 # Get started with the refreshed mobile experience
 
+> [!WARNING]
+> Michael and Jon to create content. May get consolidated in one "Work with new UX" article.
+
 download, sign in, choose org, navigate bookings in agenda view

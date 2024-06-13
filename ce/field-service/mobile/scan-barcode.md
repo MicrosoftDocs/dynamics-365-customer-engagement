@@ -10,6 +10,9 @@ ms.author: jobaker
 
 # Scan a barcode
 
+> [!WARNING]
+> update metadata.
+
 Technicians can use the Dynamics 365 Field Service mobile app to scan a barcode.
 
 Scanning a barcode simplifies data entry and lets technicians search the database for records that match the barcode for easy lookup.

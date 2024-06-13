@@ -10,6 +10,9 @@ ms.author: jobaker
 
 # Share the location from the mobile app
 
+> [!WARNING]
+> update metadata.
+
 Field technicians often travel to various locations throughout their work day, and it's helpful for schedulers to know where technicians are at any given time.
 
 Technicians using the Dynamics 365 Field Service mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board and see their location history.

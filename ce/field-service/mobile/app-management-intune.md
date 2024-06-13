@@ -10,6 +10,9 @@ ms.author: jobaker
 
 # Manage the Field Service mobile app with Intune
 
+> [!WARNING]
+> Update metadata
+
 Mobile application management enables administrators to apply and enforce policies on mobile apps. One mobile application management option is [Microsoft Intune](/intune/apps/app-management). It offers a suite of features that lets you publish, push, configure, secure, monitor, and update mobile apps - including the Dynamics 365 Field Service mobile app.
 
 Mobile application management is important to field service organizations whose technicians use the mobile apps because they frequently travel to multiple locations, and protecting sensitive company data is critical. Many organizations have a bring-your-own-device policy, which means the Field Service mobile app needs management among many different kinds of devices and apps for personal use.

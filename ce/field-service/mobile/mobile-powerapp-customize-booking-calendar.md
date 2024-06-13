@@ -9,6 +9,9 @@ ms.author: jobaker
 
 # Customize the booking view in the Dynamics 365 Field Service mobile app
 
+> [!WARNING]
+> update metadata. we'll keep the tabs here I guess because it's the only customization topic that also discusses new UX.
+
 ## [Unified Interface UX](#tab/vCurrent)
 
 By default, the booking calendar control shows the following details associated with the booking:

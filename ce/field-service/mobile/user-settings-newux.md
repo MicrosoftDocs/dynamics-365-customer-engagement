@@ -9,3 +9,6 @@ ms.author: jshum
 ---
 
 # user settings and options
+
+> [!WARNING]
+> Jon and Michael to add content and update metadata.

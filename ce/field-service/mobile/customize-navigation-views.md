@@ -10,6 +10,9 @@ ms.author: andreo
 
 # Edit the navigation and views on the mobile app
 
+> [!WARNING]
+> Update metadata
+
 The Field Service Mobile app module is a model-driven app, which you can edit in Power Apps so it matches your business scenario.
 
 To change things like the navigation, form, or views, [you need permissions to sign in to Power Apps and permissions to edit model-driven apps](/power-apps/maker/canvas-apps/sign-in-to-power-apps). Usually, the environment maker, system administrator, or system customizer security role have the permissions to create or edit apps.

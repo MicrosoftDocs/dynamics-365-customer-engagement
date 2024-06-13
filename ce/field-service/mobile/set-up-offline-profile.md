@@ -10,6 +10,9 @@ ms.author: jobaker
 
 # Set up the mobile offline profile
 
+> [!WARNING]
+> update metadata.
+
 Field Service comes with an offline profile that has default settings for Field Service record types. Administrators control what data the Field Service mobile app downloads with the offline profile. In the offline profile, you can:
 
 - Define record types that are available offline and how often they sync.

@@ -11,7 +11,7 @@ ms.author: jshum
 # travel, guides, update WO, refer to copilot, RA
 
 > [!WARNING]
-> To do: review, scrub, update, extend as needed.
+> Michael and Jon to review/create content. May get consolidated in one "Work with new UX" article.
 
 ## Travel to a job location
 

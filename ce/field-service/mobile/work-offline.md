@@ -10,6 +10,9 @@ ms.author: jshum
 
 # Work offline and update offline data
 
+> [!WARNING]
+> update metadata.
+
 To work in areas without internet access, the app downloads important information to the mobile device for a seamless experience. When the device connects to the internet, data automatically syncs with the server.
 
 An administrator has to configure the offline profile for the app before technicians can download the data. 

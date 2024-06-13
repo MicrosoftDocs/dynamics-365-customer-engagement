@@ -11,6 +11,9 @@ author: vhorvathms
 
 # Work with IoT data on the mobile app
 
+> [!WARNING]
+> update metadata.
+
 [Connected Field Service](../connected-field-service.md) is the IoT layer in Dynamics 365 Field Service. It enables organizations to create work orders based on real-time information from connected devices. The integration of IoT data provides technicians with information and tools for efficient onsite service delivery.
 
 > [!div class="mx-imgBorder"]

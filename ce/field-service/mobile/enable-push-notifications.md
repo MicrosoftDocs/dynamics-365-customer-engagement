@@ -10,6 +10,9 @@ ms.author: jobaker
 
 # Enable push notifications
 
+> [!WARNING]
+> update metadata.
+
 In the Dynamics 365 Field Service mobile app, push notifications send updates to technicians through their mobile phones or tablets. Push notifications use Microsoft Power Automate and support many scenarios. For example, to notify about a newly assigned booking or as a reminder to capture and enter important data.
 
 There are two ways to enable push notifications for your organization.

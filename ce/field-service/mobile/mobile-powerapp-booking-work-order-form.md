@@ -9,6 +9,9 @@ ms.author: andreo
 
 # Edit the booking and work order form
 
+> [!WARNING]
+> review, scrub, update metadata.
+
 You can add and delete fields displayed on the Dynamics 365 Field Service mobile app; because the app is built with Power Apps, you can use the Power Apps Control Framework to display different field controls like toggle buttons and sliders.
 
 Administrators who want to customize the booking and work order forms must know they are combined in the mobile app where work order forms are displayed within the booking form. That means when a technician views a booking form, they're also viewing the related work order form.

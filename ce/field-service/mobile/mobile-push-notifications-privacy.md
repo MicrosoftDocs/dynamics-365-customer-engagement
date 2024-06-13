@@ -9,6 +9,9 @@ ms.author: jobaker
 
 # Privacy note for Field Service push notifications
 
+> [!WARNING]
+update metadata.
+
 Microsoft Corporation (or based on where you live, one of its affiliates) licenses this supplement to you. You may use it with each validly licensed subscription of Microsoft Dynamics 365 services (the “online service”). You may not use the supplement if you don't have a license for the online service. The license terms for the online service apply to your use of this supplement. Microsoft provides support services for the supplement as described at https://support.microsoft.com/common/international.aspx. This supplement enables authorized users to access the online service with the companion Field Service mobile applications for Microsoft Dynamics 365 (the “App”), which users need to install and license separately.
 
 **IMPORTANT:**  By installing this supplement, **(1)** you consent to share addresses with an external system (Bing Maps) to locate addresses on a map and determine distance and travel time between locations, this supplement overrides your command on the admin System Settings to disable Bing Maps, consult Bing Maps technical documentation for more information; and **(2)** you consent to allow authorized users, accessing the online service, to instruct the App to:

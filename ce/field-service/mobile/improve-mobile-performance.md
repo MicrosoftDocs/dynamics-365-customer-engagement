@@ -10,6 +10,9 @@ ms.author: jobaker
 
 # Performance considerations when customizing the mobile app
 
+> [!WARNING]
+> update metadata. revisit and scrub, potentially later 
+
 The foundation of the Dynamics 365 Field Service mobile app is a model-driven app. Thus, general [guidelines and best practices for performant apps](/power-apps/mobile/power-apps-mobile-canvas-app-restarts#best-practices-for-building-performant-apps) and [performance consideration for model-driven apps](/power-apps/maker/model-driven-apps/design-performant-forms) apply too.
 
 ## Remove Console.log from production code
