@@ -90,7 +90,8 @@ You can enable the historical analytics dashboard for voice in the Customer Serv
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for unified routing.
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears
-1. In the **Historical analytics for unified routing** section, select **Manage**.
+1. In the **Omnichannel historical analytics** section, select **Manage**.
+1. The **Omnichannel historical analytics** page appears. Select the **Add historical analytics for voice** checkbox.
 1. Select **Save** or **Save and Close**.
 
 The historical analytics for voice dashboard are available as a tab in the Omnichannel historical analytics report.
