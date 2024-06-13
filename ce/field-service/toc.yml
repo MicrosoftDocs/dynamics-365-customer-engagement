@@ -368,9 +368,9 @@ items:
         - name: Link to the mobile app
           href: mobile/deeplink-mobile.md
         - name: Create workflows and scripts
-          href: mobile/mobile-power-app-workflows.md
+          href: mobile/automate-business-processes.md
         - name: Edit the Booking and Work Order form (Form Component Control)
-          href: mobile/change-work-order-form.md
+          href: mobile/change-work-order-booking-form.md
         - name: Add a custom app module to the mobile app
           href: mobile/custom-app-module-mobile.md
         - name: Performance considerations for mobile customizations
