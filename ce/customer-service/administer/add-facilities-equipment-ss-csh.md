@@ -28,7 +28,9 @@ Make sure that you have the required security role or equivalent permissions.
 You can create a new facility or equipment record in the Customer Service admin center app.
 
 1. In the site map of Customer Service admin center, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
-1. In the **Facilities & equipment** section, select **Manage**.
+1. In the **Facilities & equipment** section, select **Manage**.  The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the dropdown list.
+
+
      
 1. On the command bar, select **New** to create a new record. 
   
