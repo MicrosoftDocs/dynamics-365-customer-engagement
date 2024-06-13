@@ -12,6 +12,8 @@ ms.author: mgandham
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. More information: [Outbound calling](../administer/voice-channel-outbound-calling.md)
 
 You can launch the outbound dialer from the menu bar, **Contacts** or **Active conversation** page. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.

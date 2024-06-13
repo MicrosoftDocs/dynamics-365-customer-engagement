@@ -10,6 +10,8 @@ ms.author: mgandham
 
 # View call recordings and transcripts
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 If your administrator has enabled the option to view call recordings and transcripts, when conversations between agents and customers end, both supervisors and agents can view the recordings and transcripts of those conversations, play back the recordings, and view the sentiment analysis and other analytics related to the conversations.
 
 > [!NOTE]
