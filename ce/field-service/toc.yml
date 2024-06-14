@@ -353,9 +353,6 @@ items:
         - name: User settings
           href: mobile/user-settings-newux.md
 
-        - name: Work with Copilot
-          href: mobile/copilot-newux.md
-
     - name: Customize the mobile app
       items:
         - name: Use Microsoft Power Platform
