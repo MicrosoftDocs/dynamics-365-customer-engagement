@@ -1,7 +1,7 @@
 ---
 title: "notifyKpiBreach (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about notifyKpiBreach (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/01/2020
+ms.date: 06/14/2020
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -16,7 +16,7 @@ This method is used to indicate a KPI breach. When this API is invoked, an excla
 
 To reset the KPI breach indication, invoke this API with the value of `shouldReset` parameter set as `false`.
 
-![Notify KPI Breach.](../../../../media/notifyKPIBreach.png "Notify KPI Breach")
+![Notify KPI Breach.](../../../../media/notifyKPIBreach.PNG "Notify KPI Breach")
 <br>
 
 ## Syntax
