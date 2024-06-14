@@ -16,15 +16,11 @@ You can build a service history from work order and service agreement incidents.
 
 ## Build a service history through work order incidents
 
-One way to build a service history is to note the customer asset in [work order incidents](configure-incident-types.md). For example, if the **Primary Incident Type** is an inspection of a specific asset, then associate the asset in **Primary Incident Customer Asset**.
+One way to build a service history is to associate the customer asset in [work order incidents](configure-incident-types.md). For example, if the **Primary Incident Type** is an inspection of a specific asset, then associate the asset to that incident type.
 
 1. Open a work order related to the customer asset.
 
-1. Search for and select the **Primary asset**.
-
-1. Select **Related** > **Incidents** and select **New Work Order Incident**.
-
-1. Select an incident type.
+1. Select the **Incident type** and the **Primary asset**.
 
 1. Select **Save**.
 

@@ -20,7 +20,7 @@ Normally, work orders can include only [customer assets](assets.md) that are rel
 
    - **Suggest Reparenting Customer Assets**: allow work order owners to change the service account of the work order to match the account of the customer asset.
 
-    :::image type="content" source="media/customer-asset-settings-validation.png" alt-text="Screenshot of the Field Service settings page.":::
+    :::image type="content" source="media/customer-asset-settings-validation.svg" alt-text="Screenshot of the Field Service settings page.":::
 
 1. Select **Save**.
 
