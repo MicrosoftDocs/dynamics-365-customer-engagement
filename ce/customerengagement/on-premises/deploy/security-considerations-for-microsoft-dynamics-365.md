@@ -79,7 +79,7 @@ author: Mattp123
   
 -   Domain Users membership.  
   
--   That account must be granted the **Logon as service** permission in the Local Security Policy.  
+-   That account must be granted the `Log on as a service (SeServiceLogonRight)` permission in the Local Security Policy.  
   
 -   Folder read and write permission on the **Trace**, by default located under \Program Files\Microsoft Dynamics 365\Trace, and user account **%AppData%** folders on the local computer.  
   
@@ -96,10 +96,10 @@ author: Mattp123
   
 -   PrivUserGroup and SQLAccessGroup membership. By default, these groups are created and appropriate membership is granted during [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)].  
   
--   Built-in local group Performance Log Users membership.  
+-   That account must be granted the `Log on as a service (SeServiceLogonRight)` permission in the Local Security Policy.  
   
--   That account must be granted the **Logon as service** permission in the Local Security Policy.  
-  
+-   This account must be granted the `Log on as a batch job (SeBatchLogonRight)` permission in the Local Security Policy.
+
 -   Read and write permission on the following folders.  
   
     -   The `Trace` folder. By default located under \Program Files\Microsoft Dynamics CRM\\, and user account `%AppData%` folder on the local computer.  
@@ -117,7 +117,7 @@ author: Mattp123
   
 -   Domain Users membership.  
   
--   That account must be granted the `Logon as service` permission in the Local Security Policy.  
+-   That account must be granted the `Log on as a service (SeServiceLogonRight)` permission in the Local Security Policy.  
   
 -   If the Microsoft Dynamics 365 Monitoring Service is installed with a [!INCLUDE[Front_End_Server](../includes/front-end-server.md)] server role, local administrator group membership on the computer where the service is running is required to monitor the web site and application pools. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Available individual server roles](microsoft-dynamics-365-server-roles.md#BKMK_AvailableIndividual)  
   
@@ -132,9 +132,9 @@ author: Mattp123
   
 -   Domain Users membership.  
   
--   That account must be granted the `Logon as service` permission in the Local Security Policy.  
+-   This account must be granted the `Log on as a service (SeServiceLogonRight)` permission in the Local Security Policy.
 
--   That account must be granted membership of `Backup Operators` group on the server hosting this service. 
+-   This account must be granted membership of `Backup Operators` group on the server hosting this service. 
   
 -   Read permission to the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM`  
   
@@ -145,8 +145,12 @@ author: Mattp123
   
 -   Domain Users membership.  
   
--   That account must be granted the `Logon as service` permission in the Local Security Policy.  
+-   This account must be granted the `Log on as a service (SeServiceLogonRight)` permission in the Local Security Policy.  
   
+-   This account must be granted the `Log on as a batch job (SeBatchLogonRight)` permission in the Local Security Policy.
+
+-   Built-in local group Performance Log Users membership.
+
 -   Local administrator group membership on the computer where [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] is running is required to perform organization database operations (such as create new or import organization).  
   
 -   Local administrator group membership on the computer where the [!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)] is running.  
@@ -159,7 +163,7 @@ author: Mattp123
   
 -   PrivUserGroup and SQLAccessGroup membership. By default, these groups are created and appropriate membership is granted during [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)].  
   
--   CRM_WPG group membership. This group is used for [!INCLUDE[pn_iis](../includes/pn-iis.md)] worker processes. The group is created and the membership is added during [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)].  
+-   CRM_WPG group membership. This group is used for [!INCLUDE[pn_iis](../includes/pn-iis.md)] worker processes. The group is created and the membership is added during [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)]. The CRM_WPG group is granted `Log on as a service (SeServiceLogonRight)` and `Log on as a batch job (SeBatchLogonRight)` permissions in the Local Security Policy.
   
 -   [!INCLUDE[cc_The_service_account_may_need_a_SPN](../includes/cc-the-service-account-may-need-a-spn.md)]  
   
@@ -170,15 +174,13 @@ author: Mattp123
   
 -   Built-in local group Performance Log Users membership.
 
--   Local administrator group membership on the computer where the Application Service is running.  
-  
 -   Folder read and write permission on the `Trace` and `CRMWeb` folders, by default located under \Program Files\Microsoft Dynamics CRM\\, and user account `%AppData%` folder on the local computer.  
   
 -   All access permissions except Full Control and Write DAC to the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM` and `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\MSCRMSandboxService` subkeys in the [!INCLUDE[pn_Windows_registry](../includes/pn-windows-registry.md)].
 
 -   PrivUserGroup and SQLAccessGroup membership. By default, these groups are created and appropriate membership is granted during [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)].  
   
--   CRM_WPG group membership. This group is used for IIS worker processes. The group is created and the membership is added during [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)].  
+-   CRM_WPG group membership. This group is used for IIS worker processes. The group is created and the membership is added during [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)]. The CRM_WPG group is granted `Log on as a service (SeServiceLogonRight)` and `Log on as a batch job (SeBatchLogonRight)` permissions in the Local Security Policy.
   
 -   [!INCLUDE[cc_The_service_account_may_need_a_SPN](../includes/cc-the-service-account-may-need-a-spn.md)]  
   
