@@ -64,7 +64,7 @@ The recap focuses on the most relevant information based on the work order's lif
 
 ## Summary configuration (preview)
 
-Copilot in Field Service provides predefined summaries that are optimized for specific tables. With summary configuration, administrators can replace the default summaries by configuring their own to tailor to their business needs. The optimization used in the generation of default summaries is not applied to administrator-configured summaries.
+Copilot in Field Service provides predefined summaries that are optimized for specific tables. With summary configuration, administrators can replace the default summaries by configuring their own to tailor to their business needs. The optimization used in the generation of default summaries isn't applied to administrator-configured summaries.
 
 :::image type="content" source="media/copilot-summary-configuration.png" alt-text="Screenshot of the summary configuration for the copilot-based summary control.":::
 
@@ -78,7 +78,7 @@ Copilot in Field Service provides predefined summaries that are optimized for sp
 1. **Save** your changes when you're done making changes.
 
 > [!NOTE]
-> In cases where Field Service was pre-installed in an environment, you might see an empty list in **Summary Configuration** even after enabling the feature. To resolve, go to a work order and generate a summary. The out-of-the-box configuration is reinitialized. Then, navigate back to **Summary Configuration**.
+> In cases where Field Service was pre-installed in an environment, you might see an empty list in **Summary Configuration** even after enabling the feature. To resolve, go to a work order and generate a summary. This reinitializes the out-of-the-box summary configuration and populates the list. Then, navigate back to **Summary Configuration**.
 
 ### Revert to the predefined summary
 
