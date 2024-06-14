@@ -78,7 +78,7 @@ Copilot in Field Service provides predefined summaries that are optimized for sp
 1. **Save** your changes when you're done making changes.
 
 > [!NOTE]
-> In cases where Field Service was pre-installed in an environment, you may see an empty list in Summary Configuration even after enabling the feature. To mitigate, go to a Work Order and generate a summary. This will reinitialize the out-of-the-box configuration. Then, navigate back to the Summary Configuration sitemap area and the records should appear. 
+> In cases where Field Service was pre-installed in an environment, you might see an empty list in **Summary Configuration** even after enabling the feature. To resolve, go to a work order and generate a summary. The out-of-the-box configuration is reinitialized. Then, navigate back to **Summary Configuration**. 
 
 ### Revert to the predefined summary
 
