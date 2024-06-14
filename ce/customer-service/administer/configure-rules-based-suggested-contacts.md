@@ -22,20 +22,9 @@ A maximum of 10 rules are supported per record type.
 
 **To enable collaboration with Microsoft Teams and chat**
 
-1. In Dynamics 365, go to one of the apps and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map of Customer Service admin center, in **Agent experience**, select **Collaboration**.
     
-    1. In **Embedded chat using Teams**, select **Manage**.
-   
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    1. In the site map, select **Service Management**.
-    2. In **Collaboration**, select **Embedded chat using Teams**.
+1. In **Embedded chat using Teams**, select **Manage**.
 
 1. On the **Microsoft Teams collaboration and chat** page, set the toggle for **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** to **Yes**.
 

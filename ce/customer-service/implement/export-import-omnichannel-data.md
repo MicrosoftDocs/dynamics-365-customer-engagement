@@ -15,8 +15,6 @@ ms.custom:
 
 # Export and import app configuration data
 
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
 After you've used Omnichannel for Customer Service in a test environment, you can export some of your app configuration data to a live production environment. Use the configuration management tool to export and import the data. More information: [Download the Configuration Migration tool from NuGet using the PowerShell script](/powerapps/developer/data-platform/download-tools-nuget)
 
 > [!IMPORTANT]
