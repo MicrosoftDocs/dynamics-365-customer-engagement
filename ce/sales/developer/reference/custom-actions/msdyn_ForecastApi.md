@@ -1,7 +1,7 @@
 ---
 title: "msdyn_ForecastApi custom action (Developer Guide for Dynamics 365 Sales)| MicrosoftDocs"
 description: "Read how you can use msdyn_ForecastApi custom action to retrieve and update forecasting data"
-ms.date: 01/20/2022
+ms.date: 06/14/2024
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
@@ -13,9 +13,10 @@ ms.custom:
 ---
 # msdyn_ForecastApi action 
 
-As a developer, use this reference documentation to use the `msdyn_ForecastApi` custom action to retrieve and update forecasting data.
+As a developer, read this reference documentation to use the `msdyn_ForecastApi` custom action to retrieve and update forecasting data. You can also use this action to store forecast data from time to time, as a snapshot. You can then use the snapshot to compare the forecast data over time. Use the [forecasting API sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/ForecastingAPI) to get started with the `msdyn_ForecastApi` custom action.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
