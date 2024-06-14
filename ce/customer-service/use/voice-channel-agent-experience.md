@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-The voice channel in Omnichannel for Customer Service is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers you a consolidated view of the calling interface, the customer summary, case history, and timeline. The dashboard helps you provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
+The voice channel is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers you a consolidated view of the calling interface, the customer summary, case history, and timeline. The dashboard helps you provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
 
 ## Make and receive customer calls
 
@@ -69,7 +69,7 @@ Avoid the following actions to prevent call drops:
 
 - Refresh your browser or select browser bookmark icons when you're in an active call. When you select refresh, and then select leave on the confirm refresh dialog, the page unloads and you're disconnected from the call. The customer hears hold music until you rejoin the call from the **My work items** section of **Omnichannel Agent Dashboard**. If you're disconnected from your browser for more than 90 seconds the call is reassigned to another agent in the queue. The call isn't reassigned if you reconnect within 90 seconds.
 - Open other apps that need access to the microphone. It results in loss of your audio connection, and the customer can't hear you.
-- Open the Customer Service workspace or Omnichannel for Customer Service app in more than one tab in the browser. It causes issues in agent presence.
+- Open the Customer Service workspace or Contact Center workspace app in more than one tab in the browser. It causes issues in agent presence.
 - Close the session directly to end call. If you do, the conversation moves from active to wrap up. Then if you close the session, the state goes from wrap up to closed. So, we recommend that you go through the conversation status route and select the **End** button and then close the session to take care of the wrap-up activities.
 
 ## Share feedback on call quality
@@ -81,7 +81,7 @@ If you specify a rating between 1 and 4, the application displays a set of prede
 ## Best practices
 
 - Make sure that you enabled notifications, and audio and video options in the browser.
-- When your shift ends, ensure that you sign out and close your browser through which you access Customer Service workspace. Doing so helps avoid work items being incorrectly assigned to you.
+- When your shift ends, ensure that you sign out and close your browser through which you access Customer Service workspace or Contact Center workspace. Doing so helps avoid work items being incorrectly assigned to you.
 - When you face network or hardware issues, the application displays error or warning messages on the communication panel. Use the information in the messages to resolve the problems. More information: [Use diagnostic messages to troubleshoot call issues](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/use-diagnostic-messages-in-call-issues)
 
 ### See also

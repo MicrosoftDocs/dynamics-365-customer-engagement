@@ -89,7 +89,7 @@ You see the following transfer and consult options:
 - **Existing voice options**: Actions available for workstreams that aren't migrated to the enhanced voice channel.
 
 > [!NOTE]
-> If you're using Dynamics 365 Contact Center&mdash;embedded or Dynamics 365 Contact Center&mdash;standalone experience, you will only see the enhanced voice options.
+> In the embedded and standalone experiences of Dynamics 365 Contact Center, the enhanced voice options only are available.
 
 
 ### [Enhanced voice](#tab/enhancedvoice)

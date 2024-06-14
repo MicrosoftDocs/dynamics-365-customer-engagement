@@ -1,6 +1,6 @@
 ---
 title: Set up a multilingual contact center in the voice channel
-description: Learn how to set up a multilingual contact center in the voice channel for Omnichannel for Customer Service.
+description: Learn how to set up a multilingual contact center in the voice channel.
 author: gandhamm
 ms.author: mgandham
 ms.date: 06/14/2024
@@ -13,6 +13,9 @@ ms.custom: bap-template
 # Set up a multilingual contact center
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -30,7 +33,7 @@ You can configure a phone number in a workstream that allows the customer to cho
    
 ## Add a phone number to the workstream and configure language settings
 
-1. In the Customer Service admin center app, go to the voice workstreams, and then select the workstream to configure the phone number.
+1. In the Customer Service admin center or Contact Center admin center app, go to the voice workstreams, and then select the workstream to configure the phone number.
 
 1. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select the number to add to the workstream, and then select **Next**.
 

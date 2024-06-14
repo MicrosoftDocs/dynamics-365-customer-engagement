@@ -1,6 +1,6 @@
 ---
-title: Transfer calls and consult with users | MicrosoftDocs
-description: Use this article to understand how the agent can use the transfer and consult options to make and receive customer calls in Omnichannel for Customer Service.
+title: Transfer calls and consult with users
+description: Use this article to understand how the agent can use the transfer and consult options to make and receive customer calls.
 ms.date: 04/12/2024
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -47,6 +47,9 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
     -  **Transfer to Teams user**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
     
     The transfer and consult behaviors depend on the voice channel experience your administrator has configured. <br>
+
+    > [!NOTE]
+    > In the embedded and standalone experiences of Dynamics 365 Contact Center, the enhanced voice options only are available.
 
      ### [Enhanced voice](#tab/enhancedvoicestack)
 

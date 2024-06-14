@@ -10,6 +10,9 @@ ms.topic: how-to
 ---
 
 # Delete call recordings
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 You can delete call recordings that are no longer required. To delete the call recordings, perform the following steps:
 
 1. In the Dynamics 365 instance, go to the app and select the **Advanced Find** icon displayed on the menu.

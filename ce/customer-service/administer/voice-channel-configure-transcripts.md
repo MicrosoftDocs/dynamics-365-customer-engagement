@@ -1,6 +1,6 @@
 ---
 title: Configure call recording, transcription, and real-time translation 
-description: Learn how to configure call recording, transcription, and real-time translation in the voice channel in Omnichannel for Customer Service.
+description: Learn how to configure call recording, transcription, and real-time translation in the voice channel.
 author: neeranelli
 ms.author: nenellim
 ms.reviwer: nenellim
@@ -53,7 +53,7 @@ To view translated voice transcripts for calls, you must enable call recording, 
 
 You can view the call transcripts in Customer Service admin center or Contact Center admin center.
 
-1. In the Customer Service admin center or Contact Center admin center app, go to manage **Users**, and then select the user whose conversations you want to view.
+1. In the site map, go to manage **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
 3. Select **Closed conversations** from the dashboard dropdown menu.
 
