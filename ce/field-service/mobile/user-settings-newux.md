@@ -11,4 +11,4 @@ ms.author: jshum
 # user settings and options
 
 > [!WARNING]
-> Jon and Michael to add content and update metadata.
+> Jon and Michael to add content and update metadata. If we don't want a separate article, we can consolidate with do-work-newux.md

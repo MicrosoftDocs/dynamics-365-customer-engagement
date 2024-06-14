@@ -348,12 +348,11 @@ items:
           href: mobile/mobile-powerapp-reporting.md
       - name: Use the new UX
         items: 
-        - name: Get started
-          href: mobile/get-started-newux.md
-        - name: User settings
-          href: mobile/user-settings-newux.md
         - name: Do and record your work
           href: mobile/do-work-newux.md
+        - name: User settings
+          href: mobile/user-settings-newux.md
+
         - name: Work with Copilot
           href: mobile/copilot-newux.md
 
