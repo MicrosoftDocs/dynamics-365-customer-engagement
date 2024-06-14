@@ -23,101 +23,63 @@ The Dynamics 365 Field Service mobile app helps frontline workers complete work 
 
 This article discusses concepts that are specific to the Field Service mobile app its common scenarios.
 
-<!-- here-->
-
 ## Sign in
 
-Launch the mobile app and sign in with your Field Service username and password.
+An admin has to [ensure access and assign permissions to users](../users-licenses-permissions.md).
 
-If you can't sign in, it might be because you haven't been given the right permissions. Ask your organization's administrator to confirm you have [access and permissions](../users-licenses-permissions.md) to use the app.
-
-After you sign in, the app might download data to your device so that you can use it when your device is offline. It can take some time to complete. The data that's downloaded depends on your administrator's settings for the app's offline profile.
-
-## Access the mobile app as a guest user
-
-[B2B guest users](../users-licenses-permissions.md#b2b-collaboration-users) need a special deep link that identifies the guest tenant to access the environment and open the mobile app.
-
-1. Download and install the Field Service mobile app.
-1. Get the deep link from the Field Service administrator.
-    1. The link has to follow this format: `https://apps.powerapps.com/mobile/redirect?appid=<AppModuleID>&tenantid=<TenantID>&playerchannel=FieldServiceMobile&sourceurl=<OrgURL>/main.aspx?appid=<AppModuleID>`.
-    1. Sign in to Power Platform admin center to get the placeholder values for TenantID and OrgURL.
-    1. TenantID is the Organization ID of the environment that contains Field Service Mobile app module.
-    1. OrgURL is the Environment URL of the environment.
-    1. Sign in to Field Service and switch to the Field Service Mobile app module. AppModuleID is the appid GUID that shows in the URL.
-1. Save the link as a shortcut on your mobile device. Whenever you need to sign in to the guest tenant, use this deep link.
-1. Sign in with you guest user credentials after opening the deep link.
+After [installing and opening the mobile app](download-mobile-app.md), users can sign in. If users have access to more than one app, they have to choose which app to load. The app might download [data from the offline profile](offline-data-sync.md) to the device, which can take some time to complete.
 
 ## View scheduled work orders
 
-The first screen shows a calendar view of your scheduled work orders. At the bottom of the screen, select **More** > **Show as** > **Read-only Grid** to see your bookings as a list instead.
+The first screen shows a calendar view of the currently scheduled work orders. Users can use the date picker to switch between days and change the view of the home page. To show bookings as a list, select **More** > **Show as** > **Read-only Grid**.
 
 :::image type="content" source="../media/mobile-2020-booking-view.jpg" alt-text="Renderings of four mobile devices showing the Bookings screens in the Field Service mobile app.":::
 
-## Navigate the app
-
-To open the navigation menu, select the menu icon in the upper-left corner of the screen. The navigation menu quickly gets you to important information like accounts, contacts, customer assets, or to submit time entries.
-
-:::image type="content" source="../media/mobile-2020-sitemap-account.jpg" alt-text="Renderings of three mobile devices showing app navigation and an account detail screen in the Field Service mobile app.":::
-
-## View recent items and pin important ones
-
-To quickly find work orders, assets, time entries, and other items you recently looked at, select **Recent** in the app menu.
-
-To easily get back to important items you need quick access to, select **Pin**.
-
-:::image type="content" source="../media/mobile-2020-menu-pin.png" alt-text="Rendering of a mobile device showing the navigation menu with the Recent and Pin buttons highlighted in the Field Service mobile app.":::
-
-## Troubleshoot app issues
-
-As with other mobile apps, issues with the Field Service mobile app are often the result of corrupted data. You can often solve them yourself by deleting the app's cached data.
-
-Select your profile icon in the upper-left corner, select **Reconfigure**, and confirm when you're prompted to do so.
-
-:::image type="content" source="../media/mobile-2020-offline-reconfigure.png" alt-text="Rendering of a mobile device showing the Reconfigure option in the Field Service mobile app.":::
+Frontline workers can [view their daily bookings on a map](booking-maps.md).
 
 ## Travel to a job location
 
-Select a booking to see more details about the booking time and the work order. Change the status to show that you're driving to the customer location. On the **Customer** tab, you can see the work order location on a map and launch your preferred maps app for turn-by-turn directions. The functional location field on the work order tells you exactly where to go when you arrive at the address.
+Select a booking to see more details about the job, such as booking time, planned duration, or the related work order. Frontline workers can change the status of a booking when they're driving to the job location. The **Customer** tab shows the work order location lets users get turn-by-turn directions.
 
 :::image type="content" source="../media/mobile-2020-work-order-navigate-directions-map.jpg" alt-text="Renderings of two mobile devices showing booking status and a mapped work location in the Field Service mobile app.":::
 
+For more complex locations, Field Service supports [functional locations that let you structure locations](../functional-locations.md). Watch this video to learn more about functional locations in the Field Service mobile app:
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
+
 ## Do and record your work
 
-On the **Service tab**, you see work order details like work order service tasks, products, and services. Mark a service or service task as complete and include any products you used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details.
+The **Service** tab contains work order details like service tasks, products, and services. Users can mark a service or service task as complete and include products that were used in the process to make sure the invoicing is accurate. They can adjust the product units and the service hours as needed. To see more details, select a service task, service, or product name.
 
 :::image type="content" source="../media/mobile-2020-work-order-service-notes-new.jpg" alt-text="Renderings of three mobile devices showing service tasks, parts used, and the Notes screen in the Field Service mobile app.":::
 
 ## Add notes and attachments
 
-On the **Notes** tab, you can add text, image, audio, and video notes and link them to the booking. You can also attach files and capture signatures. These notes help you record and build a work history. Images added to notes [use image optimization](/power-apps/mobile/optimize-images-upload) to save storage space.
+On the **Notes** tab, frontline workers can add text, image, audio, and video notes and link them to the booking. These notes help document and build a work history. Images added to notes [use image optimization](/power-apps/mobile/optimize-images-upload) to save storage space.
 
 The **Timeline** tab shows you other historical data related to the booking.
 
 :::image type="content" source="../media/mobile-uci-quick-notes.png" alt-text="Renderings of three mobile devices showing the Notes screen, the device camera view, and a note with photos in the Field Service mobile app.":::
 
+<!-- TODO: is the next sentence still accurate? -->
+
 Notes are available only when they're included with the Bookable Resource Booking form. You can't use notes with other forms.
 
-If you can't save a note, you might not have the right permissions to the table that notes are stored in. Ask your administrator to make sure that your [security role has access](../users-licenses-permissions.md) to the `msdyn_bookableresourcebookingquicknotes` table.
+To save notes, users need a [security role with access](../users-licenses-permissions.md) to the `msdyn_bookableresourcebookingquicknotes` table.
 
-## Service assets
+## Manage customer assets
 
-When you're online, you can view and interact with functional locations and customer asset hierarchies in the mobile app.
+When the mobile device has internet connection, users can view and interact with functional locations and customer asset hierarchies.
 
 :::image type="content" source="../media/mobile-2020-customer-asset-navigate.png" alt-text="Renderings of three mobile devices showing information about customer assets in the Field Service mobile app.":::
 
-Watch this video to learn more about functional locations in the Field Service mobile app:
+Sometimes, it's handy to scan a barcode to find records that have a matching barcode field, especially in the context of assets. For example, when installing a new device and making sure the serial number gets captured in the system. An administrator can [set up barcode scanning](scan-barcode.md) and add it to the relevant forms.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
+## Track time
 
-## Scan barcodes
+Users can track the time that they spend on work orders, on break, traveling, and other scenarios with time entries. The mobile app allows them to create time entries quickly.
 
-Sometimes, it's handy to scan a barcode to find records that have a matching barcode field. Ask your administrator to [set up barcode scanning](scan-barcode.md) for the relevant forms.
-
-## Enter time
-
-Track the time that you spend on work orders and other scenarios and create time entries in the mobile app for reporting and billing.
-
-From the main menu, go to **Time Entry** and create one.
+From the main menu, go to **Time Entry** to create them.
 
 :::image type="content" source="../media/mobile-2020-time-entry-all.png" alt-text="Renderings of three mobile devices showing the process of entering time in the Field Service mobile app.":::
 
@@ -127,7 +89,7 @@ Watch this video to learn more about time entry in the Field Service mobile app:
 
 ## Create follow-up work orders
 
-Sometimes you might need to schedule more work for another time. The mobile app makes it easy to create follow-up work orders.
+To schedule more work for another time, users can create follow-up work orders. This might come in handy, when they are working on a job and notice that something else needs fixing and they are missing the spare part.
 
 To create a follow-up work order, select the **Follow up** option in the bottom app menu. The following fields are already filled in based on the current work order:
 
@@ -140,9 +102,9 @@ To create a follow-up work order, select the **Follow up** option in the bottom 
 - Taxable
 - Transaction Currency ID
 
-Save the work order so a dispatcher can book it.
+After saving the work order, a dispatcher can schedule it.
 
-If you don't see the **Follow up** option, you might not have the right permissions. Ask your administrator to make sure you have [**create** permissions](../users-licenses-permissions.md)] to the work order table.
+If users don't see the follow up option, an administrator needs to assign them [**create** permissions](../users-licenses-permissions.md)] to the work order table.
 
 :::image type="content" source="../media/mobile-2020-follow-up.png" alt-text="Rendering of a mobile device showing the Follow up option in the Field Service mobile app.":::
 
@@ -150,5 +112,12 @@ Watch this video to learn more about follow-up work orders in the Field Service 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyHY4]
 
-[!INCLUDE [footer-include](../../includes/footer-banner.md)]
+## Troubleshoot app issues
 
+Issues with the Field Service mobile app are often the result of corrupted data. You can often solve them yourself by deleting the app's cached data.
+
+Select your profile icon in the upper-left corner, select **Reconfigure**, and confirm when you're prompted to do so.
+
+:::image type="content" source="../media/mobile-2020-offline-reconfigure.png" alt-text="Rendering of a mobile device showing the Reconfigure option in the Field Service mobile app.":::
+
+[!INCLUDE [footer-include](../../includes/footer-banner.md)]

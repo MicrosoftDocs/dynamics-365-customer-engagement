@@ -334,7 +334,7 @@ items:
       items:
       - name: Download and get started
         href: mobile/download-mobile-app.md
-      - name: Use the classic app
+      - name: Use the Unified Interface app
         items:  
         - name: Get work done
           href: mobile/get-work-done-mobile-app.md
