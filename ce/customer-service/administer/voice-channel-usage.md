@@ -1,11 +1,11 @@
 ---
-title: "View minutes used in voice calls | MicrosoftDocs"
-description: "View the report to see the minutes used in voice calls in Omnichannel for Customer Service."
+title: View minutes used in voice calls
+description: View the report to see the minutes used in voice calls in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 04/04/2022
+ms.date: 06/14/2024
 ms.topic: article
-ms.collection: get-started
+ms.collection:
 ---
 
 
@@ -13,11 +13,7 @@ ms.collection: get-started
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
-The Voice minutes report lets administrators view a Power BI report in Customer Service admin center or Contact Center admin center that helps them to get insights about how many call intelligence minutes and intelligent voicebot minutes from the voice quota have been consumed.
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+The Voice minutes report lets administrators view a Power BI report that helps them to get insights about how many call intelligence minutes and intelligent voicebot minutes from the voice quota have been consumed.
 
 ## Prerequisites
 
@@ -26,10 +22,7 @@ The Voice minutes report lets administrators view a Power BI report in Customer 
 
 ## View the Voice minutes report
 
-To view the Voice minutes report, do one of the following steps:
-
-- In the site map of Customer Service admin center or Contact Center admin center, select **Insights**, and in **Admin reports**, select **View report** for **Voice minutes**. 
-- In the site map of Omnichannel admin center, in **Insights**, select **Voice minutes**.
+To view the Voice minutes report, in the site map of Customer Service admin center or Contact Center admin center, select **Insights**, and in **Admin reports**, select **View report** for **Voice minutes**. 
 
 > ![The Voice minutes report.](../media/voice-minutes-report.png "The Voice minutes report.")
 
@@ -41,7 +34,6 @@ The following table contains the metrics.
 |Intelligent voicebot minutes|Number of minutes used by voicebot. Number is rounded to a whole number.|
 |Total Calls|Number of calls that consumed the minutes.|
 |Minutes over time|Overtime trending of call intelligence minutes and intelligent voicebot minutes. |
-|||
 
 ### View the IVR transcripts
 
@@ -58,7 +50,6 @@ The **Voice details** table in the report provides the following information.
 |Phone number|Agent phone number used in the call.|
 |Workstream| Workstream through which the call was handled.|
 |Call direction| Indicates whether the call was an "Incoming" or "Outgoing" one.|
-|||
 
 ### Slice metrics by time and time zone
 
@@ -68,5 +59,5 @@ The **Time zone** option lets you filter the report for the selected time zone.
 
 ### See also
 
-[Overview of voice channel in Omnichannel for Customer Service](voice-channel.md)  
+[Overview of voice channel](voice-channel.md)  
 [Intraday conversation insights](../implement/intraday-conversation-insights.md)  
