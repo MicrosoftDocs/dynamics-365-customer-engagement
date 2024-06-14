@@ -77,6 +77,9 @@ Copilot in Field Service provides predefined summaries that are optimized for sp
 1. In the **Sample summary** section, you can test this configuration using a row from the Dataverse table and preview the summary that Copilot generates based on real data.
 1. **Save** your changes when you're done making changes.
 
+> [!NOTE]
+> In cases where Field Service was pre-installed in an environment, you may see an empty list in Summary Configuration even after enabling the feature. To mitigate, go to a Work Order and generate a summary. This will reinitialize the out-of-the-box configuration. Then, navigate back to the Summary Configuration sitemap area and the records should appear. 
+
 ### Revert to the predefined summary
 
 To use the default summary provided by Field Service, disable the **Configure summary** setting.
