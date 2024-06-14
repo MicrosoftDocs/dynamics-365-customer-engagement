@@ -1,7 +1,7 @@
 ---
 title: Submit ratings and feedback for knowledge articles
 description: Learn how you can submit feedback about knowledge articles in Dynamics 365 Customer Service.
-ms.date: 06/28/2023
+ms.date: 06/14/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -20,9 +20,9 @@ You can easily provide feedback on knowledge articles with the help of knowledge
 
 In the Customer Service workspace, when you open an article from the **Knowledge Search** tab, you can select either the **Thumbs up** or the **Thumbs down** option to state whether the article was helpful. If you select the **Thumbs down** option, you see a **Comments** box, where you can also enter your feedback for the article.
 
-To rate or provide your feedback for an article listed on the productivity pane, select and open the article on the preview pane.
+To rate or provide your feedback for an article listed on the productivity pane, select and then open the article on the preview pane.
 
-The value beside the **Thumbs up** icon doesn't represent an article's total number of likes. The number that you see might range from 0 to 1 and can include decimals such as 0.75. This is because the value beside the **Thumbs up** icon indicates the average rating of the article based on the feedback and the number of ratings received. The **knowledgearticle.rating** field is a rollup field defined as Aggregate(Average(feedback.normalizedrating)).
+The value beside the **Thumbs up** icon doesn't represent an article's total number of likes. The number that you see might range from 0 to 1 and can include decimals such as 0.75. This rating is indicative of the value beside the **Thumbs up** icon, which indicates the average rating of the article based on the feedback, and the number of ratings received. The **knowledgearticle.rating** field is a rollup field defined as Aggregate(Average(feedback.normalizedrating)).
 
 > [!NOTE]
 > - Rating and view count numbers are rollup fields that aren't updated instantly. For more information, see [Define rollup fields](../../customerengagement/on-premises/customize/define-rollup-fields.md). 
