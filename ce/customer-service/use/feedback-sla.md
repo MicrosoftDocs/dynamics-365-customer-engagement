@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Manage feedback for knowledge articles
 
-Manage feedback received for your articles by adding it to your knowledge articles. Update your knowledge articles based on the feedback to make your articles useful for agents.
+Manage feedback received for your articles by adding it to your knowledge articles. Update your knowledge articles based on feedback to make the articles more useful for agents.
 
 ## Add feedback to an article
 
@@ -31,7 +31,7 @@ Manage feedback received for your articles by adding it to your knowledge articl
   
    - **Comments**: Type any feedback comments that you want.  
   
-   - **Rating**: Type a number to specify how useful the related record is. For example, if you're tracking the customer satisfaction for a case and you want to rate it a 2 on a scale of 1–10, type 2.  
+   - **Rating**: Type a number to specify how useful the related record is. For example, if you're tracking the customer satisfaction for a case and you want to rate it a two on a scale of 1–10, type 2.  
   
    - **Minimum Rating** and **Maximum Rating**: Specify the minimum and maximum ratings to define a rating scale. For example, if you want to give feedback a rating of 2 on the scale of 1–10, type 1 as the minimum rating and 10 as the maximum.  
   
@@ -50,13 +50,13 @@ Manage feedback received for your articles by adding it to your knowledge articl
 
 ## Update knowledge articles based on the feedback  
 
-Ensure that your articles are up to date and accurate at all times by updating them based on feedback you receive.  
+Ensure that your articles are always up to date and accurate by updating them based on feedback you receive.  
   
 1. In Customer Service workspace, select **Knowledge Articles**.
 
 1. Select the article you want to edit.  
   
-    If the reviewer has suggested any changes from their review, you can see them as notes in the **Timeline** section.  
+    If the reviewer suggested any changes from their review, you can see them as notes in the **Timeline** section.  
   
 1. Update the article based on the feedback.  
   
