@@ -11,11 +11,11 @@ ms.custom: bap-template
 
 # Understand the knowledge article creation process
 
-With the knowledge management module, you can create and manage knowledge articles that your users may be looking for. This will help reduce the call handling times for agents as they can look up information in a knowledge base to resolve customer queries right away, thereby increasing their productivity.
+With the knowledge management module, you can create and manage knowledge articles that your users may be looking for. This helps reduce the call handling times for agents and increases their productivity, as they can look up information in a knowledge base to resolve customer queries right away.
 
 ## Default process
 
-The following image describes the default process to create and use knowledge articles in your Customer Service app. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it's sent back for edits or updates. If the article is approved, it's published on the portal. It's also available in search and can be translated.
+The following image describes the default process to create and use knowledge articles in your Customer Service app. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it returns to you for edits or updates. If the article is approved, it publishes on the portal, becomes available in search, and can be translated.
   
 ![Knowledge management process in Dynamics 365 Customer Service.](../media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 Customer Service.")  
  
