@@ -39,9 +39,9 @@ import { Button } from '@fluentui/react/lib/Button';
 
 ## Use connected forms to minimize navigation across different entities
 
-Field Service supports the ability to display fields from different entities within the same form, which can prevent having to jump between different forms. Minimizing navigation means avoiding load times when transitioning from one entity to another and can avoid any possible memory leaks and issues found when jumping between entities. Form components have a lower peak memory value when navigated to, in comparison to scenarios that use quick-find navigation instead.
+Field Service lets you use data from different tables on a form. Fewer navigation actions means less loading time. Form components have a lower peak memory value when navigated to, in comparison to scenarios that use quick-find navigation instead.
 
-For more information, see documentation on how to implement this customization: [Customize Field Service solution](/dynamics365/field-service/mobile-power-app-configure#edit-the-booking-and-work-order-form)
+For more information, see [Edit the booking and work order form](change-work-order-booking-form.md).
 
 ## Remove unused controls from the app
 

@@ -14,7 +14,9 @@ ms.author: jobaker
 > [!WARNING]
 > update metadata.
 
-- If you're looking for help with **errors, unexpected behavior, crashes, and bugs**, [create a Dynamics 365 support request](../field-service-get-help.md). Make sure you provide the session ID and version number of the mobile app. Sign in to the app, select your account picture, and select **Info** to get the session details and the app version.
+Microsoft sends communications regarding service incidents, service changes, maintenance, releases, and customer action needed. Learn more: [Notifications for Business Application Group services](/power-platform/admin/notifications-explained).
+
+- If you're looking for help with **errors, unexpected behavior, crashes, and bugs**, [create a support request](../field-service-get-help.md). Make sure you provide the session ID and version number of the mobile app. Sign in to the app, select your account picture, and select **Info** to get the session details and the app version.
 
 - For help with **general inquiries, how-to questions, and best practices**, we invite you to [engage with the Dynamics 365 Community](https://community.dynamics.com/forums/thread/?partialUrl=fieldservice).
 
