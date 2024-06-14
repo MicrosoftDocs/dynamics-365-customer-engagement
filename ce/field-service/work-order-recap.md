@@ -1,7 +1,7 @@
 ---
 title: Work order recap with Copilot in Field Service (preview)
 description: Let AI generate a work order recap to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 06/05/2024
+ms.date: 06/14/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -76,6 +76,9 @@ Copilot in Field Service provides predefined summaries that are optimized for sp
 1. You can add, remove, and change the data columns that Copilot uses to generate the summary. Under **Table name**, open the drop-down to search or select the table by navigating through relationships. After you choose a table, the columns of the table will be available under **Column name**.
 1. In the **Sample summary** section, you can test this configuration using a row from the Dataverse table and preview the summary that Copilot generates based on real data.
 1. **Save** your changes when you're done making changes.
+
+> [!NOTE]
+> In cases where Field Service was pre-installed in an environment, you might see an empty list in **Summary Configuration** even after enabling the feature. To resolve, go to a work order and generate a summary. The out-of-the-box configuration is reinitialized. Then, navigate back to **Summary Configuration**.
 
 ### Revert to the predefined summary
 
