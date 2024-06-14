@@ -1,7 +1,7 @@
 ---
-title: Automatically create or update records in Dynamics 365 Customer Service | MicrosoftDocs
-description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 08/03/2023
+title: Automatically create or update records in Dynamics 365 Customer Service
+description: Learn how to automatically create or update records by setting up rules in Dynamics 365 Customer Service.
+ms.date: 06/14/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -62,45 +62,31 @@ Make sure that the following prerequisites are met:
 
 You can configure a rule that when active will be run for incoming emails. By using the feature to create rules, you can define the conditions for when a rule can be run.
 
-You can configure the rules in the Customer Service admin center or Customer Service Hub app.
+You can configure the rules in the Customer Service admin center app.
 
-1. Go to one of the admin apps, and perform the following steps.
-   
-    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-   
-     1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
-     1. In the **Automatic record creation and update rules** section, select **Manage**.
+ 
+1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+1. In the **Automatic record creation and update rules** section, select **Manage**. The **All Record Creation and Update Rules** page is displayed.
 
-     The **All Record Creation and Update Rules** page is displayed.
+1. Select **New**. The **New Record Creation and Update Rule** page is displayed.
 
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-    
-     1. In the site map, select **Service Management**.
-     2. Select **Automatic record creation and update rules** in **Case Settings**. 
-  
-      The **Record Creation and Update Rules** page is displayed. 
-
-2. Select **New**. The **New Record Creation and Update Rule** page is displayed.
-
-3. On the **Basic** tab, in **Step one details**, enter the following details:
+1. On the **Basic** tab, in **Step one details**, enter the following details:
   
    - **Rule name**: Enter a name for the rule.
    - **Queue to monitor**: Select a queue on which the rule will be activated. For email activity, you must select a queue to be able to activate the rule.
    - **Activity type to monitor**: Select **Email** in the list.
 
-4. Select **Save**. The **Step two: conditions to evaluate and actions to take** area is enabled.
+1. Select **Save**. The **Step two: conditions to evaluate and actions to take** area is enabled.
 
    > [!div class=mx-imgBorder]
    > ![Automatically create record rule.](../media/arc-csh-rule.png " Automatically create record rule")
 
-5. In **Step two: conditions to evaluate and actions to take**, select **New**. The **Condition builder** page is displayed.
+1. In **Step two: conditions to evaluate and actions to take**, select **New**. The **Condition builder** page is displayed.
    
    > [!NOTE]
    > You must add a minimum of one condition for the rule to run successfully.
 
-6. Perform the following steps:
+1. Perform the following steps:
 
    a. In **Condition** > **Condition name**, enter an intuitive name.
 
@@ -114,15 +100,15 @@ You can configure the rules in the Customer Service admin center or Customer Ser
 
       iii. Add related entity
 
-7. In **Actions to take** > **Record to create**, make sure the value is **Case**. A case will be created if the conditions specified are met for the email activity.
+1. In **Actions to take** > **Record to create**, make sure the value is **Case**. A case will be created if the conditions specified are met for the email activity.
 
-8. In **Configure in Microsoft Power Automate**, select **Save and open in Power Automate**. The Power Automate application opens in a new tab where you can configure criteria that must be evaluated for the email activity. To learn more about using Power Automate, see the [documentation for Power Automate](/power-automate/getting-started).
+1. In **Configure in Microsoft Power Automate**, select **Save and open in Power Automate**. The Power Automate application opens in a new tab where you can configure criteria that must be evaluated for the email activity. To learn more about using Power Automate, see the [documentation for Power Automate](/power-automate/getting-started).
 
-9. Select **Save & Close**. The condition builder is closed.
+1. Select **Save & Close**. The condition builder is closed.
 
-10. In **Step three: additional actions to take after matching with a condition**, select an option based on your requirement for **Automatically reply to email**.
+1. In **Step three: additional actions to take after matching with a condition**, select an option based on your requirement for **Automatically reply to email**.
 
-11. If you select **Yes**, select an email template in the **Select email template** list box.
+1. If you select **Yes**, select an email template in the **Select email template** list box.
 
    > [!div class=mx-imgBorder]
    > ![Automatically create record rule configured.](../media/arc-csh-rule-all-steps-configured.png " Automatically create record rule configured")

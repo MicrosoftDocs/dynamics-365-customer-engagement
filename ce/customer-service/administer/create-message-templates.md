@@ -1,11 +1,13 @@
 ---
-title: "Create message templates in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to create message templates in Omnichannel for Customer Service."
-ms.date: 05/07/2023
-ms.topic: article
+title: Create message templates
+description: Learn how to create message templates in Omnichannel for Customer Service.
+ms.date: 06/14/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
+ms.custom: bap-template
+ms.collection:
 ---
 
 # Create message templates
@@ -16,18 +18,8 @@ Message templates enable the one-time creation of reusable messages that can be 
 
 **To create a message template**
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    - In the site map, in **Agent experience**, select **Productivity**.
+1. In the site map of Customer Service admin center, in **Agent experience**, select **Productivity**.
    
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter) 
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-     
-     - In the site map, in **Advanced settings**, select **Agent experience**.
-
 1. Select **Manage** for **Message templates**.
 
 1. Select **New**, and enter the following details:

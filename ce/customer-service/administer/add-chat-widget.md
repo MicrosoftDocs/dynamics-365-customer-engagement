@@ -19,26 +19,11 @@ To add a chat widget, configure a workstream that defines how chat conversations
 
 ## Configure a chat widget
 
-
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
-    1. Select **Manage** for **Chat**. The **Chat channels** page appears.
+1. Select **Manage** for **Chat**. The **Chat channels** page appears.
     
-    1. Select **Add chat channel**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-    1. In the site map, select **Workstreams**.
-    
-    1. In the **All workstreams** view, select the workstream for which you want to configure the chat widget.
-
-    1. On the workstream page, select **Set up chat** if a chat channel isn't created, or select **Add chat channel** to add a chat widget.
+1. Select **Add chat channel**.
 
 1. On the **Channel details** page, enter a name and select a language in the **Name** and **Language** fields, respectively.
 
@@ -90,7 +75,7 @@ You can configure visual and sound notifications to be sent to customers when th
 
 Perform the following steps to enable the customer notifications:
 
-1. In Customer Service admin center or Omnichannel admin center app (deprecated), edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
+1. In Customer Service admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
 2. For **Customer notifications**, switch the toggle to **On**. The following checkboxes are displayed as selected:
    - **Show number of new messages**
    - **Play sound notifications for new messages**

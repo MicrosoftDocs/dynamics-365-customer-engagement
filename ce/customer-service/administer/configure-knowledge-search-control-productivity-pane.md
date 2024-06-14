@@ -30,25 +30,13 @@ Configuring a record type specifies the information that your agents see while t
 
 ## Add record types for which you want to turn on knowledge management
 
-Go to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
-
-### [Customer Service admin center](#tab/customerserviceadmincenter)
+Go to the Customer Service admin center app, and perform the following steps:
 
 1. In the site map, select **Knowledge** in **Agent Experience**.
 1. On the **Knowledge** page, in the **Record Types** section, select **Manage**.
 1. On the **Record Types** page, select **Add**. The **Add record type** dialog appears.
 1. On the **Add record type** dialog, from the **Select record type** dropdown list, select the record type.
 1.	Select **Save and Close**.
-
-### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-  [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-1. Go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
-
-2. On the **Settings** page, in **Record Types**, select the record types you want to turn on knowledge management for. The list includes all available entities for an N:N relationship. Knowledge management is enabled for the **Case** entity by default.
-
----
 
 Setting up knowledge base search control on a standard or custom form makes it easy for agents in your organization to find knowledge articles, so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.
 
