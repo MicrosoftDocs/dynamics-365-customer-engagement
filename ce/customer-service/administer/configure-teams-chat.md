@@ -79,21 +79,9 @@ The following data security and privacy considerations apply for Teams chat func
 > [!NOTE]
 > Teams settings are enabled by default for the Customer Service workspace and Customer Service Hub apps. If you’re using either of these apps, you can skip this section. If you want to enable Teams chat for other apps, follow these steps.
 
-1. In Dynamics 365, go to one of the apps, and then perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map of Customer Service admin app, in **Agent experience**, select **Collaboration**.
     
-    1. In **Embedded chat using Teams**, select **Manage**.
-   
-   ### [Customer Service Hub - Service Management (deprecated) ](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    1. In the site map, select **Service Management**.
-    
-    1. In **Collaboration**, select **Embedded chat using Teams**.
+1. In **Embedded chat using Teams**, select **Manage**.
 
 1. On the **Microsoft Teams collaboration and chat** page, turn on the toggle for **Turn on Microsoft Teams chats inside Dynamics 365**.   
 
@@ -114,18 +102,9 @@ To enable Teams chat settings for a custom multisession user, complete the follo
 
 1. Create the custom profile from the default profile. More info: [Create and use agent experience profiles](/dynamics365/customer-service/administer/create-agent-experience-profile)
 
-1. In Dynamics 365, go to one of the apps, and then perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map, in **Agent experience**, select **Collaboration**.
     
-    1. In **Embedded chat using Teams**, select **Manage**.
-   
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
-
-    1. In the site map, select **Service Management**.
-    2. In **Collaboration**, select **Embedded chat using Teams**.
+1. In **Embedded chat using Teams**, select **Manage**.
     
 1. Ensure that the toggle for **Turn on Microsoft Teams chats inside Dynamics 365** is set to **Yes**, and then in **Turn on for specific multisession users**, select **Manage**. The **Agent experiences profiles** page is displayed.
 
@@ -142,21 +121,10 @@ To enable Teams chat settings for a custom multisession user, complete the follo
 
 After you enable Teams chats, you can connect the chats to different record types. Standard record types, including case, account, contacts, knowledge article, and email, are available out-of-the-box, or you can add your desired record type.
 
-**To configure the ability to connect a chat to a record type:**
-
-1. In Dynamics 365, go to one of the apps, and then perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map of the admin app, in **Agent experience**, select **Collaboration**.
     
-    1. In **Embedded chat using Teams**, select **Manage**.
+1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
-
-    1. In the site map, select **Service Management**.
-    2. In **Collaboration**, select **Embedded chat using Teams**.
-
 1. Under **Connect chats to Dynamics 365 records**, select the record type you want to configure.<br>
    If you want to add a record type, see [Add record types](#add-record-types)
     
@@ -166,20 +134,10 @@ After you enable Teams chats, you can connect the chats to different record type
 
 To add a record type to connect chats to in Dynamics 365 records:
 
-1. In Dynamics 365, go to one of the apps, and then perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map, in **Agent experience**, select **Collaboration**.
     
-    1. In **Embedded chat using Teams**, select **Manage**.
+1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
-
-    1. In the site map, select **Service Management**.
-    
-    1. In **Collaboration**, select **Embedded chat using Teams**.
-	
 1. Under **Connect chats to Dynamics 365 records**, select **Add record types**.
 	
 1. In the **Allow chats to be connected to this record type** pane, in **Choose record type**, type the name of the record type you want to use.
@@ -227,20 +185,10 @@ You can assign the ability to disconnect chats to record owners or users who con
 
 **To enable or disable user-specific rights to disconnect chats:**
 
-1. In Dynamics 365, go to one of the apps, and then perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map of the admin app, in **Agent experience**, select **Collaboration**.
     
-    1. In **Embedded chat using Teams**, select **Manage**.
+1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
-
-    1. In the site map, select **Service Management**.
-    
-    1. In **Collaboration**, select **Embedded chat using Teams**.
-
 1. Select the record type (for example, **Case**), and then in the settings pane, in **Disconnecting chats**, toggle on or off **Record owner can disconnect chats** and/or **Chat connector can disconnect chat**, depending on your preferences.
     
 1. Select **Save**.
@@ -256,24 +204,13 @@ The following table details the apps and security roles where the disconnect cha
 |Admin    |System admin  |
 |Customer Service apps | CSR manager<br>Customer Service Representative |
 |Omnichannel for Customer Service | OC admin<br>OC supervisor<br>OC agent |
-|||
+
 
 **To edit disconnect chat rights to security roles:**
 
-1. In Dynamics 365, go to one of the apps, and then perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map of the admin app, in **Agent experience**, select **Collaboration**.
     
-    1. In **Embedded chat using Teams**, select **Manage**.
-   
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
-
-    1. In the site map, select **Service Management**.
-    
-    1. In **Collaboration**, select **Embedded chat using Teams**.
-
+1. In **Embedded chat using Teams**, select **Manage**.
 1. On the **Microsoft Teams collaboration and chat** page, scroll down to **More settings**.
 1. In **Set who can disconnect chats**, select **Edit in security roles settings**. The Power Platform admin center app is opened.
 1. In **Security roles**, select the role that you want to assign the rights to, and then select **Edit**.
@@ -318,20 +255,10 @@ The ability for users to join existing chats related to cases is especially usef
 
 **To turn on or off the join chat capability for a record type**:
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map, in **Agent experience**, select **Collaboration**.
     
-    1. In **Embedded chat using Teams**, select **Manage**.
+1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
-
-    1. In the site map, select **Service Management**.
-    
-    1. In **Collaboration**, select **Embedded chat using Teams**.
-
 1. On the **Microsoft Teams collaboration and chat** page, in **Connect chats to Dynamics 365 records**, select the specific record type (for example, Case), and then in the settings pane, toggle **Join chat** on or off.
 
 1. Select **Save**.
@@ -395,20 +322,10 @@ Additionally, if the agent assigned to the record changes, the new agent (who mi
 - For multisession users, you must enable Teams integration in the productivity pane for the app profile assigned to the signed-in user in order for them to be able to select **Open chat** on the timeline. 
 
 ### Enable agents to view Teams chats on a connected record’s timeline:
-1. In Dynamics 365, go to one of the apps, and then perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the site map, in **Agent experience**, select **Collaboration**.
     
-    1. In the site map, in **Agent experience**, select **Collaboration**.
-    
-    1. In **Embedded chat using Teams**, select **Manage**.
-   
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
-    
-    1. In the site map, select **Service Management**.
-    
-    1. In **Collaboration**, select **Embedded chat using Teams**.
-    
+1. In **Embedded chat using Teams**, select **Manage**. 
+ 
 1. Set the toggle to **Yes** for **Turn on Microsoft Teams chats inside Dynamics 365**.
 1. Set the toggle to **Yes** for **Sync Teams chats with records (Preview)**.
 
