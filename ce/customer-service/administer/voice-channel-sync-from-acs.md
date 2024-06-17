@@ -11,7 +11,7 @@ ms.author: nenellim
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-You can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Omnichannel for Customer Service. 
+You can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Dynamics 365. 
 
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.    
     2. Select **Manage** for **Phone numbers**.

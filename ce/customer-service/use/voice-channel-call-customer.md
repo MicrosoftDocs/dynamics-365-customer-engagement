@@ -24,7 +24,7 @@ You can launch the outbound dialer from the menu bar, **Contacts** or **Active c
 
 To test your microphone and speaker, do the following steps:
 
-1. In Customer Service workspace, select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
+1. In Customer Service workspace or Contact Center workspace, select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
 1. In the **Speaker** and **Microphone** sections, select the speaker and microphone to test. If you have multiple devices, the default devices that are currently in use appear.
 1. Select the following options:
     - **Test speaker**. The application plays a sound that stops automatically after 15 seconds.
@@ -36,7 +36,7 @@ To test your microphone and speaker, do the following steps:
 
 ## Make a call using the outbound dialer
 
-1. In Customer Service workspace or Omnichannel for Customer Service, go to **Contacts**, and then select a customer to call.
+1. In Customer Service workspace or Contact Center workspace, go to **Contacts**, and then select a customer to call.
 2. On the **Active Conversation** page, locate the **Mobile Phone** field, and then select the call icon to call the customer. You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer.
      The **Dial number** panel appears. You can perform the following actions:<br>
       > [!NOTE]

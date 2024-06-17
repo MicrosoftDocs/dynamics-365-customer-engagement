@@ -36,7 +36,7 @@ As an administrator, you can purchase phone numbers and calling plans, decide wh
 
 ## View phone numbers
 
-1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
 
 You see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
 

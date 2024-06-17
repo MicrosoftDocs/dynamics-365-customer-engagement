@@ -1,6 +1,6 @@
 ---
 title: Configure call recording, transcription, and real-time translation 
-description: Learn how to configure call recording, transcription, and real-time translation in the voice channel in Omnichannel for Customer Service.
+description: Learn how to configure call recording, transcription, and real-time translation in the voice channel.
 author: neeranelli
 ms.author: nenellim
 ms.reviwer: nenellim

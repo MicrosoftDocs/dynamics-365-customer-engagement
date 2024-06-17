@@ -34,7 +34,7 @@ The administrator who configures workstreams must be a system administrator or h
 
 ## Create a workstream
 
-You can create workstreams for unified routing in the Customer Service admin center app.
+You can create workstreams for unified routing in the Customer Service admin center or Contact Center admin center app.
 
 1. In the site map of admin center, select **Workstreams** in **Customer support**.
 
@@ -126,9 +126,9 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 To add a bot to a workstream, you must configure the bot and make it available for selection.
 
 For Copilot Studio bots, see [Connect omnichannel to your Copilot Studio bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot).
-For Azure bots, see [Integrate Azure bots with Omnichannel for Customer Service](../configure-bot.md#integrate-azure-bots-with-omnichannel-for-customer-service).
+For Azure bots, see [Integrate Azure bots](../configure-bot.md#integrate-azure-bots-with-omnichannel-for-customer-service).
 
-1. In Customer Service admin center, go to **Workstreams**, and select a workstream.
+1. In Customer Service admin center or Contact Center admin center, go to **Workstreams**, and select a workstream.
 2. For the selected workstream and channel, in the **Bot** area, select **Add bot**.
 3. In the **Add a bot** dialog, select the required bot from the **Name** dropdown list, and then select **Save and close**.
 
@@ -141,7 +141,7 @@ When a work item needs to be assigned, the classification rules are run and the 
 
 ### Manage workstreams
 
-You can manage workstreams on the workstreams page of any of the Customer Service admin apps.
+You can manage workstreams on the workstreams page of any of the Customer Service admin or Contact Center admin center apps.
 
 Select a workstream to perform any of the following actions:
 
@@ -170,7 +170,7 @@ You can keep the default templates for sessions and notifications or update to u
 [Configure persistent chat](persistent-chat.md)  
 [Set up record routing](set-up-record-routing.md)  
 [Configure routing for email records](configure-routing-for-email-records.md)  
-[Manage users in Omnichannel for Customer Service](users-user-profiles.md)   
+[Manage users](users-user-profiles.md)   
 [Work with queues](queues-omnichannel.md)  
 [Automatically identify customers using pre-chat responses](record-identification-rule.md)  
 
