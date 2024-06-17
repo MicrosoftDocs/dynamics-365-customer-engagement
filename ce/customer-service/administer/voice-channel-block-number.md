@@ -1,7 +1,7 @@
 ---
 title: Block spam numbers in the voice channel
 description: Learn how to review, mark numbers as spam, and block the numbers in Omnichannel for Customer Service.
-ms.date: 05/31/2023
+ms.date: 06/14/2024
 ms.service: dynamics-365-customerservice
 ms.topic: how-to
 author: gandhamm
@@ -23,25 +23,8 @@ You can block spam phone calls that your agents receive as part of their incomin
 
 You can review phone numbers marked as spam in the Customer Service admin center or Contact Center admin center app.
 
-1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-     1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
-     1. In the **Blocked numbers** section, select **Manage**.
-
-     The **Blocked numbers** page is displayed.      
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-    
-     1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
-     2. In the **Blocked numbers** section, select **Manage**.
-
-      The **Blocked numbers** page is displayed. 
-
+1. In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+1. In the **Blocked numbers** section, select **Manage**. The **Blocked numbers** page is displayed.
 1. In the **Blocked numbers** section, you can do the following:
 
     - **Pending review** tab - Shows the list of numbers that have been flagged as spam by your agents and supervisors. You can view the report for each phone number, and then block the specific number as spam. Select any number from the **Pending review** list, and then you can do the following:

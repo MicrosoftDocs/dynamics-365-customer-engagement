@@ -11,8 +11,6 @@ ms.custom: bap-template
 
 # Migrate workstreams created in Omnichannel Administration
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
 ## When will the Omnichannel Administration app be removed?
 
 The rollout of removing the Omnichannel Administration app has started and will be applied region wise. For example, in Canada, the removal is expected to be complete by July 24, and in North America, by August 11, 2023.

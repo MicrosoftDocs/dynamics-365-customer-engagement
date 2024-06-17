@@ -15,11 +15,9 @@ After an agent accepts the conversation request, a session starts for which the 
 
 ## Associate or modify templates with workstreams 
 
-After you create a workstream, you can modify the default templates that are attached to the workstream, from either the Customer Service admin center or Omnichannel admin center (deprecated) app.
+After you create a workstream, you can modify the default templates that are attached to the workstream.
 
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-1. In the Customer Service admin center or Omnichannel admin center site map, select **Workstreams**.
+1. In the Customer Service admin center site map, select **Workstreams**.
 1. Select the workstream for which you want to modify the template, and expand the **Show advanced settings** section.
 1. Select **Edit** beside **Sessions**, and on the **Sessions** panel that appears, select a template in the **Default template** list.
 1. Select **Save and close**.
@@ -30,7 +28,7 @@ After you create a workstream, you can modify the default templates that are att
     - Transfer
     - Supervisor assign
 
-5. Select **Save and close**.
+1. Select **Save and close**.
 
 ### See also
 

@@ -3,7 +3,8 @@ title: Configure call recording, transcription, and real-time translation
 description: Learn how to configure call recording, transcription, and real-time translation in the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 04/15/2024
+ms.reviwer: nenellim
+ms.date: 06/14/2024
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -26,9 +27,7 @@ As an administrator, you can enable live translation, transcription and recordin
 ## Enable call recording and transcription for voice
 1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. More information: [Enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services).
    
-1. In the Customer Service admin center or Contact Center admin center or Omnichannel admin center (deprecated) app, select the workstream for which you want to enable recording and transcription.
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+1. In the Customer Service admin center or Contact Center admin center app, select the workstream for which you want to enable recording and transcription.
 
 1. In the **Phone number** section, next to the pencil icon, select **Edit**.
 
@@ -52,9 +51,9 @@ To view translated voice transcripts for calls, you must enable call recording, 
 
 ## View call transcripts
 
-You can view the call transcripts in Customer Service admin center or Contact Center admin center or Omnichannel admin center.
+You can view the call transcripts in Customer Service admin center or Contact Center admin center.
 
-1. In the Customer Service admin center or Contact Center admin center or Omnichannel admin center app, go to manage **Users**, and then select the user whose conversations you want to view.
+1. In the site map, go to manage **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
 3. Select **Closed conversations** from the dashboard dropdown menu.
 
