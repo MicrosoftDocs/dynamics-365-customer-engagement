@@ -1,7 +1,7 @@
 ---
 title: Set up a multilingual bot to use in voice channel
 description: Use this article to learn how to set up a multilingual bot to use in the voice channel in Omnichannel for Customer Service.
-ms.date: 01/03/2024
+ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -169,7 +169,7 @@ For example, you can create a bot with the following details:
   
 1. Select **Add your bot**.
 
-1. After the bot is connected, select **View details in Omnichannel**. The Omnichannel admin center page opens on a new tab and displays the details of the bot.
+1. After the bot is connected, select **View details in Omnichannel**. The Customer Service admin center page opens on a new tab and displays the details of the bot.
 
 1. Note the bot user information that you'll need for further configuration steps.
 
