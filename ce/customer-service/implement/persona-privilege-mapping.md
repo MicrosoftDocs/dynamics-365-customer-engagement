@@ -1,7 +1,7 @@
 ---
 title: Personas and privileges
 description: Learn about the privileges and recommended access levels for administrator, supervisor, and agent personas in Customer Service and Omnichannel for Customer Service.
-ms.date: 03/27/2024
+ms.date: 07/01/2024
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -10,6 +10,8 @@ ms.custom: bap-template
 ---
 
 # Personas and privileges
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 This topic lists the table privileges and recommended access levels for the administrator, supervisor, and agent personas in Customer Service and Omnichannel for Customer Service.
 

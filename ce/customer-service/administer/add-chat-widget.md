@@ -11,6 +11,8 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 You can configure a live chat widget that can be displayed on your portal for customers to interact with bots and human agents.
 
 To add a chat widget, configure a workstream that defines how chat conversations are routed to queues. More information: [Create a workstream](create-workstreams.md)
