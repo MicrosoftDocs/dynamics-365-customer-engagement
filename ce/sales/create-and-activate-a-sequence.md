@@ -71,7 +71,7 @@ Also, sellers can create and activate sequences for themselves and use the seque
 
 Now, you can assign the sequence to users and then activate. 
 
-## Assign different sequences to different users or teams
+## Assign different sequences to users or teams
 
 You can assign different sequences to different sellers for a record. Each seller can then focus on a unique set of actions to enhance their chances of securing a deal. For example, you can assign one sequence to a seller and another to the account manager responsible for the same record, enabling them to collaborate simultaneously.  
 
