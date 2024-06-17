@@ -28,17 +28,17 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.124.25
 
-- Fixed a bug that was causing some Schedule Board list view users to see resources erroneously marked as unavailable or available. 
-- Business Closure Start Time and End Time fields have been retitled Start and End respectively
-- Resource filter panel now resets to page 1 when search resources
+- Fixed a problem that was causing some Schedule Board list view users to see resources erroneously marked as unavailable or available. 
+- Business Closure Start Time and End Time fields have been retitled Start and End respectively.
+- Resource filter panel now resets to page 1 when search for resources.
 - Users are now notified when one of their booking rules is ignored because it is invalid, broken, or corrupted.
 - New crew member bookings are now reflected on the SB without a manual refresh.
-- Improvements to handling of capacity for requirement groups and facility resources
-- Fixed a bug where Schedule Asisstant was not returning results when one of the Time From/To Promised fields is empty. 
-- Fixed a bug that was sometimes causing the Create Booking and Details panels to open in each other's place
-- Improved full-screen experience
-- Localization improvements
-- Various security enhancements
+- Improvements to handling of capacity for requirement groups and facility resources.
+- Fixed a problem where Schedule Asisstant was not returning results when one of the Time From/To Promised fields is empty. 
+- Fixed a problem that was causing the Create Booking and Details panels to open in each other's place.
+- Improved full-screen experience.
+- Localization improvements.
+- Various security enhancements.
 
 ## 3.12.132.9
 
