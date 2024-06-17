@@ -1,7 +1,7 @@
 ---
-title: "Data access consent | MicrosoftDocs"
-description: "Learn about the consent requirements that are required for provisioning Omnichannel for Customer Service."
-ms.date: 08/31/2023
+title: Data access consent
+description: Learn about the consent requirements that are required for provisioning Omnichannel for Customer Service.
+ms.date: 07/01/2024
 author: neeranelli
 ms.author: nenellim
 ms.topic: reference
@@ -9,7 +9,7 @@ ms.topic: reference
 
 # Provide consent to access data to provision Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 

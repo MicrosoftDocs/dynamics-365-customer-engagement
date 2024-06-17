@@ -12,6 +12,8 @@ ms.collection:
 
 # Create and manage capacity profiles
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 You can create capacity profiles and assign them to agents to define the types and amount of work they can take. Capacity profiles contain information, such as the amount of work, concurrent or daily capacity, and whether other channels are affected.
 
 - Capacity management helps administrators create various capacity profiles and associate users with matching profiles. You can assign multiple capacity profiles to users.

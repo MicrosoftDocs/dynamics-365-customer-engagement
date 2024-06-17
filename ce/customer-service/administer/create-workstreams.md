@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Create and manage workstreams
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 A workstream is a container to enrich, route, and assign work items, and can be associated with a channel, such as live chat, voice, or case.
