@@ -1,7 +1,7 @@
 ---
 title: Disable customer asset validation on work orders (contains video)
 description: Learn how to allow customer assets on work orders that aren't related to the service account in Dynamics 365 Field Service.
-ms.date: 06/13/2024
+ms.date: 06/17/2024
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
