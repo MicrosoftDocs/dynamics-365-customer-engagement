@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 01/18/2024
+ms.date: 06/17/2024
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -63,8 +63,8 @@ The default offline profile is updated periodically as part of Field Service upd
 
 If you have user roles that need different sync settings or tables available offline, you can [create more offline profiles](/power-apps/mobile/setup-mobile-offline#set-up-a-mobile-offline-profile). For example, a Field Service manager might need to view a broader scope of work orders than the ones that are assigned to a field technician. If you create an offline profile, remember to add it to the Field Service mobile app in the app designer.
 
-### Optimize columns of tables included within the offline profile (Preview)
-Makers now have the ability to optimize their mobile offline profile by selectively enabling columns which would be included with a sync. Please review guidance and best practices within [Optimize dowloaded data with Offline Table Column Selection (Preview)](/power-apps/mobile/mobile-offline-guidelines#optimize-dowloaded-data-with-offline-table-column-selection-preview)
+### Optimize columns included within the offline profile (Preview)
+You can optimize the mobile offline profile by selectively enabling columns to include with a sync. For guidance and best practices, see [Optimize dowloaded data with Offline Table Column Selection (Preview)](/power-apps/mobile/mobile-offline-guidelines#optimize-dowloaded-data-with-offline-table-column-selection-preview).
 
 ## Move a mobile offline profile between environments
 
