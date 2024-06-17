@@ -8,14 +8,6 @@
     href: set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md
   - name: Manage and secure devices
     href: secure-manage-phones-tablets.md
-- name: Set up mobile offline
-  items:
-  - name: Mobile offline overview
-    href: /power-apps/mobile/mobile-offline-overview-classic?toc=/dynamics365/mobile-app/toc.json
-  - name: Set up mobile offline
-    href: /power-apps/mobile/setup-mobile-offline-classic?toc=/dynamics365/mobile-app/toc.json
-  - name: Mobile offline capabilities and limitations
-    href: /power-apps/mobile/offline-capabilities?toc=/dynamics365/mobile-app/toc.json
 - name: Install the mobile app
   items:
   - name: Install Dynamics 365 for phones and tablets
