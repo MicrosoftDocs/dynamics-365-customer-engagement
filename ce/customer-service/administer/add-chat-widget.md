@@ -1,6 +1,6 @@
 ---
-title: "Configure a chat widget | MicrosoftDocs"
-description: "Perform the steps mentioned in the article to configure a chat widget in Omnichannel for Customer Service."
+title: Configure a chat widget
+description: Perform the steps mentioned in the article to configure a chat widget in Omnichannel for Customer Service.
 ms.date: 02/29/2024
 author: neeranelli
 ms.author: nenellim
@@ -8,8 +8,6 @@ ms.topic: article
 ---
 
 # Configure a chat widget
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
