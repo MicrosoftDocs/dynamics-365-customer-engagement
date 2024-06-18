@@ -54,7 +54,7 @@ For information about older versions, see [Version history archive](../../field-
 - Various security enhancements.
 - **Introduced a new tool to efficiently make single day membership changes for crews.**
 - Fixed a bug that was causing the Schedule Assistant Booking Panel to malfunction when working with requirement groups.
-- Fixed a bug that was causing list view in SB to not show availability in some circumstances.
+- Fixed a bug that was causing list view in schedule board to not show availability in some circumstances.
 -	Various security enhancements.
 
 
