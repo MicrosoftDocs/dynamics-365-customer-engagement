@@ -13,6 +13,7 @@ ms.reviewer: lavanyakr
 Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -21,14 +22,12 @@ Use the predictive opportunity scoring feature to prioritize your opportunities 
 
 ## What is predictive opportunity scoring
 
-In a highly competitive market, it is important for you to spend time on quality opportunities to reach your sales targets. You must identify and prioritize opportunities to convert them into wins. The predictive opportunity scoring of Dynamics 365 Sales Insights provides a scoring model to generate scores for opportunities in your pipeline. The out-of-the-box model chooses top factors that influence the score. An administrator can view and modify the top factors that influence the scores by customizing the model. To learn more, see [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
+Predictive opportunity scoring in Dynamics 365 Sales provides a scoring model to generate scores for opportunities in your pipeline. The scores help you prioritize opportunities based on their conversion potential. The out-of-the-box model chooses top factors that influence the score. An administrator can view and modify the top factors that influence the scores by [customizing the model](configure-predictive-opportunity-scoring.md).
 
-This model assigns a score between 0 and 100 for opportunities based on the signals from opportunities and related entities such as contact and account. Using these scores, you can identify and prioritize opportunities that have more chances of converting into wins. 
-
-For example, say you have two opportunities - Opportunity A and Opportunity B - in your pipeline. The opportunity scoring model applies a score of 75 for Opportunity A and 55 for Opportunity B. By looking at the score, you can predict that Opportunity A has more chances of converting into a win deal and you can engage it. Also, you can further analyze why the score of Opportunity B is low by looking at the top reasons that are influencing the score and deciding how to improve this score.
+This model assigns a score between 0 and 100 for opportunities based on the signals from opportunities and related entities such as contact and account. For example, say you have two opportunities - Opportunity A and Opportunity B - in your pipeline. The opportunity scoring model applies a score of 75 for Opportunity A and 55 for Opportunity B. By looking at the score, you can predict that Opportunity A has more chances of converting into a win deal and you can engage it. Also, you can further analyze why the score of Opportunity B is low by looking at the top reasons that are influencing the score and deciding how to improve this score.
 
 > [!IMPORTANT]
-> To enable predictive opportunity scoring in your organization, contact your system administrator.
+> To enable predictive opportunity scoring in your organization, contact your administrator.
 > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
 
 ## Understand opportunity scoring in views
