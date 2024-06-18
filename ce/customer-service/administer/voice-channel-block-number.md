@@ -21,7 +21,7 @@ You can block spam phone calls that your agents receive as part of their incomin
 
 ## Review phone numbers marked as spam
 
-You can review phone numbers marked as spam in the Customer Service admin center  or Contact Center admin center app.
+You can review phone numbers marked as spam in the Customer Service admin center or Contact Center admin center app.
 
 1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 1. In the **Blocked numbers** section, select **Manage**. The **Blocked numbers** page is displayed.
