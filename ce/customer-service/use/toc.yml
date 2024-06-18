@@ -1,4 +1,4 @@
-- name: Dynamics 365 Customer Service
+- name: Dynamics 365 Contact Center
   items: 
     - name: Manage your contact center
       items:
@@ -14,46 +14,6 @@
         href: ../implement/customer-service-hub-user-guide-basics.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Troubleshoot and FAQs
         href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Unified routing and assignment
-        items:
-          - name: View historical analytics reports
-            href: supervisor-historical-analytics.md
-          - name: Access diagnostics for unified routing
-            href: supervisor-access-diagnostics.md
-          - name: Route records manually using unified routing
-            href: routing-trigger.md
-          - name: Work with queues
-            href: work-with-queues.md
-          - name: Manage case queues and route cases
-            href: customer-service-hub-user-guide-case-queues-and-routing.md
-          - name: Manage skills
-            href: manage-skills.md
-      - name: Case management
-        items: 
-          - name: Create cases
-            href: customer-service-hub-user-guide-create-a-case.md
-          - name: Use enhanced case forms to manage cases
-            href: enh-casemgmt-csw.md
-          - name: Resolve, cancel, and reassign cases
-            href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
-          - name: Merge cases
-            href: customer-service-hub-user-guide-merge-cases.md
-          - name: Manage cases with case grids
-            href: case-grids.md
-          - name: View a social profile
-            href: view-social-profile.md
-          - name: Convert a case to a knowledge article
-            href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
-          - name: View AI-suggested similar cases and knowledge articles
-            href: csw-view-ai-suggested-cases-knowledge-articles.md
-          - name: Manage cases using interactive dashboards
-            href: customer-service-hub-user-guide-dashboard.md
-      - name: Service-level agreements
-        items:
-        - name: Overview of service-level agreements
-          href: overview-service-level-agreements.md
-        - name: Understand SLAs
-          href: customer-service-hub-user-guide-case-sla.md
       - name: Email
         items: 
           - name: Use email
