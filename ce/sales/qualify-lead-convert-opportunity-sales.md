@@ -45,19 +45,50 @@ After you've identified the time frame, budget, and purchase process for a lead,
      > [!TIP]
      > To qualify multiple leads, go back to the leads list page and select the leads that you want to qualify.
 4. On the command bar, select **Qualify**.
-    Depending on the [lead qualification experience](define-lead-qualification-experience.md) chosen by your administrator, you'll see a prompt for creating the contact, lead, and opportunity records or you'll see a **Processing** message and the records are created automatically or a mix of both.
 
-      ![Select which records to create in the Qualify lead dialog box.](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
-     
-    **More information:** 
-    - [What happens when a lead is qualified](faq-lead.md#what-happens-when-a-lead-is-qualified)
-    - [What happens when duplicates are found while qualifying leads?](faq-lead.md#what-happens-when-duplicates-are-found-while-qualifying-leads)
-    - [How do I handle lead qualification errors?](faq-lead.md#how-do-i-handle-lead-qualification-errors)
-    
-The lead moves to the next stage in the business process. The lead is also removed from the **My Open Leads** view and gets added to the **Closed Leads** view.
+    Depending on the lead qualification experience configured by your administrator, you'll experience one of the following flows: 
+    - [New experience](#new-experience)
+    - [Legacy experience](#legacy-experience) 
+
+    The lead moves to the next stage in the business process. The lead is also removed from the **My Open Leads** view and gets added to the **Closed Leads** view.
   
-> [!NOTE]
-> If an opportunity isn't created when qualifying a lead, the business process flow doesn't progress to the next stage, although the lead status becomes qualified.
+    > [!NOTE]
+    > If an opportunity isn't created when qualifying a lead, the business process flow doesn't progress to the next stage, although the lead status becomes qualified.
+
+### New experience
+
+As part of the [new lead qualification experience](define-lead-qualification-experience.md#new-lead-qualification-experience-versus-legacy-experience), your admin can customize several aspects of the lead qualification process.
+
+**Record creation**
+
+- If your administrator has turned on the new experience and enabled automatic creation for account, contact, and opportunity records, the records are created automatically. You'll see a **Processing** message while the records are being created. After the records are created, the opportunity record opens.
+
+- If your admin has turned off automatic creation for all records, you'll see the **Qualify lead** side pane for creating the contact, account, and opportunity records. For contact and account records, you can choose to create a new record, use an existing record, or skip creating the record. 
+
+- If your admin has turned on automatic creation for a few and manual creation for others, you'll see the **Qualify lead** side pane. The pane displays records that will be created automatically and records that you need to create manually. For example, if the account and contact records are set to be created automatically, and the opportunity record is set to be created manually, the side pane displays the records as shown in the screenshot below. 
+       :::image type="content" source="media/qualify-lead-dialog-box-mix.png" alt-text="Screenshot of the Qualify side pane when record creation is set to automatic for contact and account, and manual for opportunity.":::
+  In this example, account and contact records are not editable. If you need to change the account or contact details, close the side pane, edit the details in the Lead form, and then select **Qualify**.
+
+**Multiple opportunities creation**
+
+If your admin has enabled multiple opportunities creation, you can create multiple opportunities for a lead. Select the 
+
+For information on how the fields in the lead record are mapped to other records, see [Field mappings to other entities](define-lead-qualification-experience.md#field-mappings-to-other-entities). If a similar account or contact already exists, the duplicate detection dialog box opens and you can choose to create a new record or use the existing record. For more information, see [What happens when duplicates are found while qualifying leads?](faq-lead.md#what-happens-when-duplicates-are-found-while-qualifying-leads).
+
+
+### Legacy experience
+
+- If your admin has enabled automatic creation, an account, contact, and opportunity records are automatically created when the lead is qualified.
+
+- If your admin has disabled automatic creation, you'll be prompted to choose the records to create when the lead is qualified (account, contact, or opportunity).
+    
+  ![Select which records to create in the Qualify lead dialog box.](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
+     
+**More information:** 
+- [What happens when a lead is qualified](faq-lead.md#what-happens-when-a-lead-is-qualified)
+- [What happens when duplicates are found while qualifying leads?](faq-lead.md#what-happens-when-duplicates-are-found-while-qualifying-leads)
+- [How do I handle lead qualification errors?](faq-lead.md#how-do-i-handle-lead-qualification-errors)
+    
 
 ## Qualify leads in bulk
 
