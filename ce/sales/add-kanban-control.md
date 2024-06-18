@@ -54,19 +54,19 @@ To add the control:
    :::image type="content" source="media/activity-public-views.png" alt-text="Screenshot of the Activity public views."::: 
 
 5. Select a view and then select **Components**.
-1. In the Components dialog, select **Add Component**.
+1. In the Components dialog, select **Add Component**. 
     
     :::image type="content" source="media/add-component.png" alt-text="Screenshot of the Add Component dialog with the list of components.":::
-
-1. Select **Kanban** and then select the surfaces where you want to show the Kanban control by default.
-
-    :::image type="content" source="media/make-kanban-view-default.png" alt-text="Screenshot of the Edit kanban flyer with Web, Mobile, and Tablet selected.":::
-
+    
     If you don't see **Kanban** in the list, follow these steps:
  
     1. Select **Get more components**. 
     1. Select the **Built by Microsoft** tab and search for **Kanban**. 
     1. Select **Kanban** and then select **Add**.
+
+1. Select **Kanban** and then select the surfaces where you want to show the Kanban control by default.
+
+    :::image type="content" source="media/make-kanban-view-default.png" alt-text="Screenshot of the Edit kanban flyer with Web, Mobile, and Tablet selected.":::
 
 9. To publish the changes you've made, select **Save and Publish**.
 
