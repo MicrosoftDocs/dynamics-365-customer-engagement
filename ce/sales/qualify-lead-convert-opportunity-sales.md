@@ -45,7 +45,8 @@ After you've identified the time frame, budget, and purchase process for a lead,
      > [!TIP]
      > To qualify multiple leads, go back to the leads list page and select the leads that you want to qualify.
 4. On the command bar, select **Qualify**.
-    Depending on the lead qualification experience chosen by your administrator, you'll either see a prompt for creating the contact, lead, and opportunity records or you'll see a **Processing** message and the records will be automatically created. 
+    Depending on the [lead qualification experience](define-lead-qualification-experience.md) chosen by your administrator, you'll see a prompt for creating the contact, lead, and opportunity records or you'll see a **Processing** message and the records are created automatically or a mix of both.
+
       ![Select which records to create in the Qualify lead dialog box.](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
      
     **More information:** 
@@ -60,11 +61,11 @@ The lead moves to the next stage in the business process. The lead is also remov
 
 ## Qualify leads in bulk
 
-You can qualify multiple leads at once. To qualify multiple leads, open the Leads page in read-only grid vie and select the leads that you want to qualify. On the command bar, select **Qualify**.
+You can qualify multiple leads at once. To qualify multiple leads, open the **Leads** page in read-only grid view and select the leads that you want to qualify. On the command bar, select **Qualify**.
 
 :::image type="content" source="media/bulk-qualify.png" alt-text="Screenshot of Qualify Leads dialog.":::
 
-When you qualify leads in bulk, you won't be able to create multiple opportunities or customize the behavior  that are created. 
+You can only qualify leads in bulk when your administrator configures automatic record (account, contact, and opportunity) creation for leads.  
 
 ## Disqualify a lead
 
