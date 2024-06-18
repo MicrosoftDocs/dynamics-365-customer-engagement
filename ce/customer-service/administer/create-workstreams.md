@@ -1,4 +1,3 @@
----
 title: Create and manage workstreams
 description: Learn about how to create and manage workstreams in Customer Service and Omnichannel for Customer Service.
 ms.date: 06/14/2024
@@ -11,6 +10,8 @@ ms.custom: bap-template
 ---
 
 # Create and manage workstreams
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -34,7 +35,7 @@ The administrator who configures workstreams must be a system administrator or h
 
 ## Create a workstream
 
-You can create workstreams for unified routing in the Customer Service admin center or Contact Center admin center app.
+You can create workstreams for unified routing in the Customer Service admin center app.
 
 1. In the site map of admin center, select **Workstreams** in **Customer support**.
 

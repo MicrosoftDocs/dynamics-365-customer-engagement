@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Set up skill-based routing in unified routing
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 The steps to configure skill-based routing are as follows:
 
 1. [Create a rating model](setup-skills-assign-agents.md#create-a-rating-model).

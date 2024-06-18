@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Use Omnichannel connector macros
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 You can use Omnichannel connector to use actions to perform Omnichannel for Customer Service&ndash;related operations. Omnichannel connector macros allow you to link and unlink records to conversations.
 
 You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.

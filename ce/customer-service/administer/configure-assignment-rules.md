@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Configure assignment methods and rules for queues
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 After creating queues, if you want to use custom assignment methods, you'll create assignment rulesets comprising rules.
 
 You can create the custom assignment methods in the Customer Service admin center app.

@@ -19,6 +19,8 @@ searchScope:
 
 # Assignment methods in unified routing
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 Use assignment methods to determine how to assign work items. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets.
 
 ## How auto assignment works
