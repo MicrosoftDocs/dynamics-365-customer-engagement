@@ -274,32 +274,20 @@
           href: oc-agent-scripts.md
         - name: Rich messages in conversation control
           href: rich-messages-conversation-control.md
-      - name: Copilot in Customer Service 
+      - name: Copilot in Contact Center 
         items: 
         - name: Use Copilot to solve customer issues 
           href: use-copilot-features.md
         - name: Use Copilot to summarize cases and conversations
           href: copilot-use-summary.md
-        - name: Summarize cases
-          href: copilot-use-summary.md#summarize-cases
-        - name: Summarize conversations
-          href: copilot-use-summary.md#summarize-conversations
         - name: Ask a question 
           href: use-copilot-features.md#ask-a-question
-        - name: Draft a chat response (preview)
-          href: use-copilot-features.md#draft-a-chat-response-preview
         - name: Write an email with Copilot
           href: use-copilot-email.md
-        - name: Use Copilot filters
-          href: use-copilot-filters.md
-        - name: Use Copilot to generate knowledge drafts from cases
-          href: use-copilot-knowledge-from-cases.md  
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
         - name: View analytics for Copilot impact
           href: copilot-analytics-report.md
-        - name: Chat with Customer Service data in Copilot for Microsoft 365 (preview)
-          href: copilot-chat-customer-service-data.md
       - name: Analytics dashboards and insights
         items: 
         - name: Use Omnichannel real-time analytics dashboards
