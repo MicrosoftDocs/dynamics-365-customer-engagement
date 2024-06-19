@@ -48,7 +48,7 @@ When deciding to use agreement invoices, you can create a new agreement to gener
 
 Even if you have an agreement generating invoices, agreement work orders still create invoices upon completion and **Close-Posted** status. If only the agreement invoices represent what should be billed to the customer, create a process to disregard or mitigate the work order invoices. For example, deactivate those invoices or use price lists and entitlements to ensure the work order subtotal and work order invoice is $0.
 
-Entitlements are applied to work order pricing based on multiple factors such as service account, incident type, and customer asset categories. Typically, you create specific incident types for specific customers outlining custom work. For example, apply an entitlement when the custom agreement incident type is added to a work order that makes the products and services $0 by discounting them 100%.
+Entitlements are applied to work order pricing based on multiple factors such as service account, incident type, and customer asset categories. Typically, you create specific incident types for specific customers outlining custom work. For example, if a custom agreement incident type is added to a work order that makes the products and services $0 by discounting them 100%, apply an entitlement.
 
 For more information, see [Entitlements for work orders in Dynamics 365 Field Service](work-order-entitlements.md).
 
