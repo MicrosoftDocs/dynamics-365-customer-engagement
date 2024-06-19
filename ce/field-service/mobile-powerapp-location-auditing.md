@@ -53,6 +53,9 @@ The geolocation tracking records will be created in the following scenarios:
 
 The above events only apply within the tracking start and end times and the location checking frequency is per the “Refresh Interval.”
 
+> [!NOTE]
+> Location Tracking events may be sent less frequently based on the mobile device operating system. This frequency can be influenced by Battery Savings settings, device battery charge status, and other applications running on the device which may consume device resources.
+
 ## Step 2. Allow Field Service mobile to access your location
 
 After enabling location tracking on the scheduler's side, make sure it's enabled and working on the mobile device side.
