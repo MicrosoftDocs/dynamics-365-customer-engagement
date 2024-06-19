@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Configure an SMS channel using Azure Communication Services
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 This article discusses how you can configure an SMS channel using Azure Communication Services.
 

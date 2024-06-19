@@ -11,7 +11,7 @@ ms.reviewer: nenellim
 
 # Enable formatted messages
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Your agents can send and receive messages formatted using Markdown.
 

@@ -10,6 +10,8 @@ ms.author: laalexan
 
 # Manage rich messages
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 Some channel apps such as Apple Messages for Business support a set of custom rich messages. Rich messages contain information that can be used to generate interactive content and experiences that take place within that app.
 
 By creating and publishing channel-specific rich messages, your organization's customer support team can send them to customers, and their content can be used when designing automated experiences. For information about using rich messages in Omnichannel for Customer service, see [Rich messages in conversation control](../use/rich-messages-conversation-control.md).
