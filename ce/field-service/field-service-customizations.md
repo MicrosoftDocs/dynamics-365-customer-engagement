@@ -3,7 +3,7 @@ title: "Customize Dynamics 365 Field Service for your unique business needs | Mi
 description: Learn how to customize Field Service for your business needs.
 ms.custom:
 - dyn365-fieldservice
-ms.date: 05/10/2023
+ms.date: 06/19/2024
 ms.topic: overview
 author: lmasieri
 ms.author: lmasieri
@@ -23,7 +23,7 @@ Find documentation to perform common configurations in the following table:
 | Scheduling  | [Customize Resource matching logic with custom fields](/dynamics365/common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs)  |
 |  Schedule board |  [Set up booking rules for customers to extend business logic](/dynamics365/field-service/set-up-booking-rules) |
 | Scheduling  | [Resource availability API](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/21/retrieve-resource-availability-with-universal-resource-scheduling-api/) & [Sample code](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/15/how-to-use-resource-schedulings-search-resource-availability-api/)  |
-| Scheduling  |  [Resource workhours extensibility](/dynamics365/field-service/field-service-work-hours-calendar-api) |
+| Scheduling  |  [Resource work hours extensibility](/dynamics365/field-service/field-service-work-hours-calendar-api) |
 | Scheduling  |  [Use your preferred GPS provider](/dynamics365/common-scheduler/developer/use-preferred-geospatial-data-provider) |
 | Mobile app  |  [Customize the Field Service mobile app](/dynamics365/field-service/mobile-power-app-configure) |
 | Mobile app  | [Add a custom app module to the mobile app](/dynamics365/field-service/mobile-powerapp-copy-app-module)  |
@@ -39,7 +39,7 @@ Refrain from using the following controls in customization scenarios:
 
 - MultiselectLookupControl
 - msdyn_postponegenerationuntil
-- It's intended for internal use only. Manipulating values in this field or taking dependencies on it is not supported and can lead to unexpected system behavior. This field is found in the following entities:
+- Internal use only. Manipulating values in this field or taking dependencies on it isn't supported and can lead to unexpected system behavior. This field is found in the following entities:
   - Agreement Booking Setup (msdyn_agreementbookingsetup)
   - Agreement Booking Date (msdyn_agreementbookingdate)
   - Agreement Invoice Setup (msdyn_agreementinvoicesetup)

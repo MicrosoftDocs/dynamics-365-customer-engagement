@@ -1,7 +1,7 @@
 ---
-title: "Create and edit columns (fields) in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Create and edit Field Service columns (fields)"
 description: Learn about best practices for creating and editing fields in Dynamics 365 Field Service.
-ms.date: 02/18/2022
+ms.date: 06/19/2024
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -9,35 +9,35 @@ ms.author: lmasieri
 
 # Create and edit Field Service columns (fields)
 
-When deploying Field Service, you may need to add new columns (also called fields) to the various tables (sometimes referred to as "entities") that you use, like work orders, bookable resource bookings, customer assets, and more. Mobile views can display up to three columns.
+You can add columns (also called fields) to the various tables (also called entities) that you use in Field Service. For example, work orders, bookable resource bookings, or customer assets. Mobile views can display up to three columns.
 
 Follow these best practices when creating and editing columns:
 
 - Understand existing columns and try to use them before creating new ones.
-- Field display names and labels can be edited.
-- Field properties can't be edited.
-- Optional fields can be made required, but required fields can't be made optional.
+- Try editing field display names and labels.
+- Don't edit field properties.
+- Don't make required fields optional. But, you can make optional fields required.
 - Don't delete existing fields.
 
 > [!Important]
-> Don't delete existing fields. Deleting fields can cause important processes to fail causing errors. You can simply hide or remove fields from the forms so that users cannot see them.
+> Deleting fields can cause important processes to fail causing errors. Instead, hide or remove fields from the forms so that users can't see them.
 
-In this article, we'll discuss how to create and edit fields for the work order table; however, the following guidance applies to all Field Service tables.
+This article uses the work order table as an example. However, the following guidance applies to all Field Service tables.
 
 ## Create new fields
 
 > [!Important]
 > Before editing existing fields, make sure you consider possible system implications. Review the documentation to help avoid potential performance or process disruption.
 
-After understanding the existing fields and processes on the work order form, you may need to create additional fields based on your unique business processes.
+After understanding the existing fields and processes on the work order form, you can create more fields based on your unique business processes.
 
-Go to `https://make.powerapps.com`.
+1. Sign in to `https://make.powerapps.com`.
 
-To create a new field, select **+Add column**.
+1. Select your environment and navigate to the table. For example, the work order table.
 
-> [!div class="mx-imgBorder"]
-> ![Power Apps, showing the "Add column" option on the work order table.](./media/customization-form-create-fields.png)
+1. Select **New** > **Column**.
 
+   :::image type="content" source="media/customization-form-create-fields.png" alt-text="Screenshot of Power Apps, showing the Add column option on the work order table.":::
 
 > [!div class="mx-imgBorder"]
 > ![Power Apps showing the edit panel for a new column.](./media/customization-form-create-fields2.png)
@@ -58,7 +58,7 @@ Or consider the **System Status** field; you can change choice option labels, li
 > [!div class="mx-imgBorder"]
 > ![Power Apps field editor showing "WO System Status," with "Unscheduled" selected and editable.](./media/customization-form-field-choice-option-set.png)
 
-Optional fields can be made required, but required fields cannot be made optional.
+Optional fields can be made required, but required fields can't be made optional.
 
 ### Editing field properties
 
@@ -69,9 +69,7 @@ For example, editing fields in the following ways is unsupported and can cause i
 - Removing choice options.
 - Adding choice options.
 - Changing field requirement from _Required_ to _Optional_ (though it's okay to change from *Optional* to *Required*).
-- Changing the behavior of a **Date Only** or **Date and Time** field is unsupported. They must be left as **User Local** and can't be set to _Date Only_ or _Time Zone independent_. See additional notes for more details.
-
-## Additional notes
+- Changing the behavior of a **Date Only** or **Date and Time** field is unsupported. They must be left as **User Local** and can't be set to _Date Only_ or _Time Zone independent_.
 
 ### Deleting fields
 

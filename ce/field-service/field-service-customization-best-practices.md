@@ -1,7 +1,7 @@
 ---
 title: Customization best practices
 description: Learn about how to get the most out of your Dynamics 365 Field Service customizations.
-ms.date: 1/20/2022
+ms.date: 06/19/2024
 ms.topic: conceptual
 author: lmasieri
 ms.author: lmasieri
@@ -18,19 +18,19 @@ System customizers add custom fields to entity forms to capture information spec
 To avoid performance issues:
 
 - Minimize the number of custom fields on all forms. Starting with the work order form is a good idea if that is your most used form in the Field Service app.
-- Among custom fields, minimizing lookup type fields and subgrid have the greatest effect on form performance, like load times.
+- Minimize lookup type fields and subgrid among custom fields.
 - Move custom fields (especially lookups and subgrids) from the first form tab to other form tabs.
 - Hide lesser used fields by default on the form.
 
 ## Don't change out-of-box web resources, option sets, security roles, or workflows
 
-Customizing, taking dependencies, or custom invocation of out-of-box web resources, option sets, security roles, or workflows isn't supported and can result in unintended system behavior.
+Don't change or customize out-of-box web resources, option sets, security roles, or workflows. It can result in unintended system behavior.
 
-Organizations that customize these components may not immediately see issues in their environment. However, as Microsoft releases changes to the customized out-of-box components, these changes aren't applied to the top layer of that component. The specific customized layer overrides all future changes, which eventually cause unpredictable errors and behavior.  
+Organizations that customize these components might not immediately see issues in their environment. However, as Microsoft releases changes to the customized out-of-box components, these changes aren't applied to the top layer of that component. The specific customized layer overrides all future changes, which eventually cause unpredictable errors and behavior.  
 
 ## Don't modify, edit, or delete date fields or system statuses
 
-Modifying, editing, or deleting date fields and statuses can affect business logic and may cause issues with solution updates. Examples of work order date are *time from promised* and *time to promised*. Examples of status fields include *work order system status* and *agreement system status*.
+Modifying, editing, or deleting date fields and statuses can affect business logic and might cause issues with solution updates. Examples of work order date are *time from promised* and *time to promised*. Examples of status fields include *work order system status* and *agreement system status*.
 
 ## Don't edit or remove out-of-box fields from forms
 
@@ -67,7 +67,7 @@ System customizers write scripts, typically JavaScript web resources, to execute
 To avoid these issues:
 
 - Minimize scripts running on load.
-- Don't write scripts that call a lot of data or write multiple scripts that call the same data.
+- Don't write scripts that call lots of data or write multiple scripts that call the same data.
 
 Follow more [form script best practices](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk), including the following best practices:
 
@@ -89,11 +89,11 @@ If you have code that only supports OnChange events for columns or the OnSave ev
 
 ### Use collapsed tabs to defer loading web resources
 
-When web resources or iframe components are included in sections inside a collapsed tab, they don't load if the tab is collapsed. They load when the tab is expanded. When the tab state changes the TabStateChange event occurs. Any code that is required to support web resources or iframe within collapsed tabs can use event handlers for the TabStateChange event and reduce code that might otherwise have to occur in the OnLoad event.
+When web resources or iframe components are included in sections inside a collapsed tab, they don't load if the tab is collapsed. They load when the tab is expanded. When the tab state changes, the TabStateChange event occurs. Any code that is required to support web resources or iframe within collapsed tabs can use event handlers for the TabStateChange event and reduce code that might otherwise have to occur in the OnLoad event.
 
 ### Avoid duplicate network requests in client-side code
 
-Multiple or duplicate network requests can cause the web browser to stall and affect form load time. Reducing the number of requests can improve performance. An alternative is to consolidate network requests and cache the value of the requests. Also consider asynchronous network requests as mentioned before.
+Multiple or duplicate network requests can cause the web browser to stall and impact form load time. Reducing the number of requests can improve performance. An alternative is to consolidate network requests and cache the value of the requests. Also consider asynchronous network requests as mentioned before.
 
 ### Avoid using roles and system user specific calls if the relevant information is available in XRM APIs
 
