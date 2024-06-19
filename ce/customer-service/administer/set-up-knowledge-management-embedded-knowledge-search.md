@@ -68,24 +68,24 @@ After you have configured knowledge management on your app, you must also set up
       1. In the **Search results display count** section, select the display count from the dropdown. This option is only available for the app side pane knowledge base search control, and standalone knowledge base search control in single session and multisession apps.
       b. In the **Feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](../use/submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles).
       1. In the **Authoring language** section, set the **Enable default authoring language** for your users to **Yes**.
-      
-        * If you want to select a default knowledge authoring language for your organization, then select the **Organization's UI language** option.
-        * If you want to use the organizations's UI language as the default knowledge authoring language, select the **Other language** option, and then select a language from the **Language** dropdown.
-        * If you also want to allow users to set their default knowledge authoring language, set the **Allow users to set default knowledge authoring language** toggle to **Yes**. More information: [Configure a default knowledge article authoring language for your organization](../use/set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
+
+      * If you want to select a default knowledge authoring language for your organization, then select the **Organization's UI language** option.
+      * If you want to use the organizations's UI language as the default knowledge authoring language, select the **Other language** option, and then select a language from the **Language** dropdown.
+      * If you also want to allow users to set their default knowledge authoring language, set the **Allow users to set default knowledge authoring language** toggle to **Yes**. More information: [Configure a default knowledge article authoring language for your organization](../use/set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
 
      c. In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allowlist for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles)
      
-     d. In the **Knowledge search experience** section, enable the following as required:
+     d. In the **Knowledge search experience** section, enable the following as required and select **Save**.
       
-        -  [Enable suggest-as-you-type](#enable-the-suggest-as-you-type-option)
-        - **Set search mode as all**: More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
-        - [Show recently accessed knowledge articles for cases](#show-recently-accessed-knowledge-articles-for-cases)
-        * Select **Save**.
+      -  [Enable suggest-as-you-type](#enable-the-suggest-as-you-type-option)
+      - **Set search mode as all**: More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
+      - [Show recently accessed knowledge articles for cases](#show-recently-accessed-knowledge-articles-for-cases)
+      
   1. Optionally, in the **Categories** section, select **Manage**. The **Categories System Views** page appears. You can create and manage a logical structure of categories for your records. More information: [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
   1. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to save the the search filters according to their areas, set the **Allow agent to personalize** toggle to **Yes**.
   1. In the **Portals** section, select **Manage**. The **Portals** page appears.
       1. In the **Support portal connection** section, do the following to share knowledge articles as URLs:
-          *    Set the **Use an external portal** toggle to **Yes** to integrate an external portal to publish knowledge articles.
+          *  Set the **Use an external portal** toggle to **Yes** to integrate an external portal to publish knowledge articles.
           * **URL Format**: Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: https://support portal URL/kb/{kbnum}. The placeholder, "{kbnum}", is replaced by an actual knowledge article number.
       1.    In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to the portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](#update-knowledge-article-attachments-for-portal)
   1. Optionally, in the **Article templates** section, select **Manage**. The **Article Templates System Views** page appears. You can create templates to help knowledge authors use consistent language and messaging. More information: [Create templates for articles](/power-platform/admin/create-templates-articles).

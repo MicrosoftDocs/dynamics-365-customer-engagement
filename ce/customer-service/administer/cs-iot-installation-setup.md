@@ -18,7 +18,7 @@ This guide provides the steps required for getting up and running with Connected
    
 - An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Customer Service – Dispatcher (to access Dynamics 365).  
   
-- An active Azure subscription with appropriate privileges. See our [topic on Azure prerequisites](cs-iot-azure-subscription-prerequisites.md) for more information.
+- An active Azure subscription with appropriate privileges. See our [article on Azure prerequisites](cs-iot-azure-subscription-prerequisites.md) for more information.
   
 - Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Download the Power BI Template for Connected Customer Service](https://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
   
@@ -37,7 +37,7 @@ Connected Customer Service is included with Dynamics 365 Customer Service. Creat
 
 Verify you have the Connected Customer Service entities in your environment.
 
-Next, deploy and connect Azure IoTHub to your Customer Service environment by going to [https://iotdeployment.dynamics.com/](https://iotdeployment.dynamics.com/) and following the instructions.
+Next, deploy, and connect Azure IoTHub to your Customer Service environment by going to [https://iotdeployment.dynamics.com/](https://iotdeployment.dynamics.com/) and following the instructions.
 
 > [!div class="mx-imgBorder"]
 > ![IoT deployment app.](../media/cs-iot-deployment-app-screen.png)
@@ -49,25 +49,25 @@ To find the simulator URL, sign in to your Azure subscription, and then select t
   
 1. Paste the URL into your browser’s address bar to load the page.  
   
-2. When the simulator page opens, click **Configuration**.  
+2. When the simulator page opens, select **Configuration**.  
   
 3. Enter the IoT hub host name and key. The host is simply the name of the IoT Hub resource in Azure portal. 
 
 > [!div class="mx-imgBorder"]
 > ![configure connection.](../media/cs-iot-deployment-app.png)
 
- The key can be accessed by clicking on the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
+ The key can be accessed by selecting the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![access key in iothubowner.](../media/cs-iot-resource-azure-portal.png)
   
 4. Select the IoT hub in the **Resource Group**.  
   
-5. On the left under **General**, click **Shared access policies** to get the host name and primary key.  
+5. On the left under **General**, select **Shared access policies** to get the host name and primary key.  
   
 6. Make sure **Connection status**  is marked as **Connected** and then close the dialog box.  
   
-   Now you can send a test command by using the sample simulator. For example, click the temperature and increase it to above 70 degrees.  
+   Now you can send a test command by using the sample simulator. For example, select the temperature and increase it to above 70 degrees.  
   
 <a name="bkmk_register"></a>   
 
@@ -120,7 +120,7 @@ Set up Power BI accounts and open the sample .pbix report.
   
 6. Save the dashboard, and then share it with any users who have permissions to see the dashboard and tiles.  
   
-    -   In the top-right corner of the dashboard, click **Share**, enter the users email address, and click the **Share** button.  
+    -   In the top-right corner of the dashboard, select **Share**, enter the users email address, and select the **Share** button.  
   
 #### Pin the tile in Dynamics 365  
   
@@ -129,7 +129,7 @@ Set up Power BI accounts and open the sample .pbix report.
     > [!IMPORTANT]
     >  The device that is related to any of the open forms must have a device ID and be registered; otherwise, the PowerBI section will be hidden.
 
-2. The first time you will need to specify the tile you want pinned. After that, the tile will load when you go to the page.
+2. For the first instance, you need to specify the tile you want pinned. After that, the tile loads when you go to the page.
 
     1. Select the **Add** button.
 
@@ -137,7 +137,7 @@ Set up Power BI accounts and open the sample .pbix report.
 
     3. Pick your dashboard and tile.
 
-         A preview of the tile will load; however, if you have not run the simulator for that device, there will be no data, as shown here.
+         A preview of the tile loads; however, if you haven't run the simulator for that device, there will be no data, as shown here.
 
 3. Save the tile.
 
@@ -145,7 +145,7 @@ Set up Power BI accounts and open the sample .pbix report.
 
 5. The tile is filtered to the device ID of the current entity.
 
-6. The next time you load any of the device, alert, or asset forms, the Power BI section will load the tile automatically, filtered to the current entity device ID (if there is a device ID and the device has been registered).
+6. The next time you load any of the device, alert, or asset forms, the Power BI section will load the tile automatically, filtered to the current entity device ID (if there's a device ID and the device has been registered).
 
 
 ## Categorize devices  
