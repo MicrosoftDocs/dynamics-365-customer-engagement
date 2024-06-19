@@ -34,6 +34,10 @@ Also, the actions that are performed in the application are reflected in the sal
 
 Sign in to your sales app. In the lower-left corner of the page, select **Change area** > **Sales** > **Sales analytics** > **Sales usage reports**.
 
+>[!NOTE]
+>The **Sales usage reports** option is available only when it's enabled in your organization. Contact your administrator to enable it. More information: [Enable sales usage reports](enable-sales-usage-reports.md)  
+
+
 The following sales usage reports are available:
 
 - [Opportunity usage report](#opportunity-usage-report)  
