@@ -75,7 +75,7 @@ Here are some highlights of Dynamics 365 Sales:
 
     ![Documents tab in a form.](media/documents-tab-form.png "Documents tab in a form")
 
--   **Simplified opportunity-to-invoice process.** It is easy to move a customer through the Sales funnel. Just generate a quote right from the opportunity
+-   **Simplified opportunity-to-invoice process.** It's easy to move a customer through the Sales funnel. Just generate a quote right from the opportunity
     you’re working on, and activate it. Use the same quote to quickly generate an invoice and mark the deal as won. You can also email the quotes and
     invoices to your customer in just one click.
 
@@ -93,7 +93,7 @@ Here are some highlights of Dynamics 365 Sales:
     > [!div class="mx-imgBorder"]
     > ![Document templates in the Sales app.](media/document-templates-sales-professional-app.png "Document templates in the Sales app")
 
--   **Sales data anywhere and everywhere.** Get all your customer and sales data right on your mobile device or tablet. Whether you are visiting a customer or
+-   **Sales data anywhere and everywhere.** Get all your customer and sales data right on your mobile device or tablet. Whether you're visiting a customer or
     on the road, you can quickly pull out your device to update the opportunity with information. What’s more—you get the same consistent experience
     regardless of the device you use.
 
@@ -111,10 +111,10 @@ Here are some highlights of Dynamics 365 Sales:
 
 2. Select one of the following tiles depending on your license: 
     1. For Sales Enterprise, select **Sales Hub**.
-    1. For Sales Professional, select **Sales Professional**.  
+    1. For Sales Professional, select **Sales Professional**.
 
     > [!TIP]
-    > Alternatively, visit the [Apps page](https://office.com/apps) on office.com, select **Business Apps**, and then select the Dynamics 365 app that you want.  
+    > Alternatively, visit the [Apps page](https://office.com/apps) on office.com, select **Business Apps**, and then select the Dynamics 365 app that you want.
 
 If you don't see the app, contact your administrator to grant you access. For more information, refer to [Grant or revoke access to the Sales Hub app](grant-access-saleshub.md).
 
@@ -148,7 +148,7 @@ The Quick Create command makes it fast and easy to enter almost any type of info
 
 With Quick Create, you need to complete only a few fields. Later, when you have more time or more information, you can fill in more details.
 
-1. On the nav bar, select the **New** button and then select the record you want to create.  
+1. On the nav bar, select the **New** button and then select the record you want to create.
 
     :::image type="content" source="media/nav-bar.png" alt-text="Navigation bar highlighting the Quick Create button":::
 
