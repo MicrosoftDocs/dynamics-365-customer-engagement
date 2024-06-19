@@ -37,7 +37,7 @@ The following table contains the list of context variables in Omnichannel for Cu
 The following table contains the list of context variables available in Omnichannel for Customer Service that you can use for [configuring Copilot Studio bots](configure-bot-virtual-agent.md).
 
 > [!IMPORTANT]
-> To be able to use the messaging and voice variables, ensure that you first [install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
+> To use the messaging and voice variables, ensure that you first [install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
 
 | Context variable type | Context variable name | Description | How to map in Copilot Studio |
 |-----------------------|  ---------------------| ----------- | -----------------------------------|
@@ -56,23 +56,23 @@ The following table contains the list of context variables available in Omnichan
 
 ## Configure context variables for Copilot Studio bot
 
-To set Copilot Studio variables to an Omnichannel context variable, do the following:
+To have your Copilot Studio bot read context variables from Omnichannel, do the following:
 
-1. On the **Topics** page, select **+ Add a topic** -> **from blank**.
-2. Enter a name for your topic (e.g. "Set context variables") and save it.
-3. Click the **+** to add a new node, and select **Variable management** -> **Set a variable value**
-4. In **Set variable**, select **Create a new variable**.
-5. Select the variable to open the **Variable properties** pane. Set your **Variable name** to match the Omnichannel context variable's name exactly (case sensitive). For example, "Email".
-6. In the **Reference** section, click on the ellipses (**...**) and select **Get value from this node if empty**. This tells your Copilot Studio bot to retrieve the variable value from this node during converational topics.
+1. On the **Topics** page, select **Add a topic** and **from blank**.
+2. Enter a name for your topic (for example, "Set context variables") and save it.
+3. Add a new node to the topic, and select **Variable management > Set a variable value**
+4. In your new node, under **Set variable** select **Create a new variable**.
+5. Open the **Variable properties** pane by clicking the new variable name. In the pane, set the **Variable name** to match the Omnichannel context variable's name exactly (it is case sensitive). 
+6. In the **Reference** section, click on the ellipses (**...**) and select **Get value from this node if empty**. This tells your Copilot Studio bot to retrieve the variable value from this node.
 7. In the **Usage** section, select **Global (any topic can access)** and **External sources can set values**. This allows Copilot Studio to accept data from Omnichannel. Close the Variable properties pane.
-8. Back in the **Set variable value** node, enter a value in **To value** that matches the data type your bot expects to receive. For example, if your bot expects a string, set Text(""). Copilot Studio will fall back to the value you set here if the data does not arrive in the conversation.
+8. In your node, enter a value in **To value** that matches the data type your bot expects. For example, if your bot expects a string, set Text(""). Copilot Studio will fall back to the value you set here if the data does not arrive in the conversation.
     > ![Configure context variable in a topic.](../media/Configure-bot-context-variable.png "Configure context variable in a topic")
 
 9. Save and publish the changes.
 
-At runtime, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. The bot can set the information for the context variables to link the conversation and case when the bot escalates the conversation to an agent. More information: [Link customer and case to a conversation](record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations)
+During a conversation, the data from the Omnichannel context variable will be set in the Copilot Studio variables and can be used in the bot's logic. 
 
-You can also configure the **Transfer to agent** node in the Copilot Studio topic to send a private message with relevant context variables to the live agent during the escalation.
+The bot can also set Omnichannel context variables during a conversation. To set an Omnichannel variable from your Copilot Studio logic, ensure your bot is using the correct variable name and set the value in the "To value" property in your variable management node. Copilot Studio will hand off the variable to Omnichannel during transfer to agent.  This is often used to link the conversation to a case when the bot escalates the conversation to an agent. More information on how to link records in Omnichannel from this data can be found here: [Link customer and case to a conversation](record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations)
 
 The global variables that are created in Copilot Studio can be passed to Omnichannel for Customer Service when a conversation is escalated. For the complete list, see [Contextual variables available upon hand off](/power-virtual-agents/advanced-hand-off#contextual-variables-available-upon-hand-off).
 
