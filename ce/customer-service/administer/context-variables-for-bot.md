@@ -22,7 +22,7 @@ The following table contains the list of context variables in Omnichannel for Cu
 
 | Context variable type | Context variable name | Description  | How to map in Azure |
 |-----|-----|-------|-------|
-| [Preconversation survey](configure-pre-chat-survey.md) | Use the preconversation question name that you create in Omnichannel for Customer Service. | The system stores responses from the preconversation survey as context variables. | Use the following information to map the question name in Omnichannel for Customer Service with the variable type in Azure:<br><ul><li> **Single line**: String</li><li>**Multiple lines**: String</li><li>**Option set**: String</li><li>**User Consent**: Boolean</li></ul>|
+| [Pre-conversation survey](configure-pre-chat-survey.md) | Use the pre-conversation survey question name that you create in Omnichannel for Customer Service. | The system stores responses from the pre-conversation survey as context variables. | Use the following information to map the question name in Omnichannel for Customer Service with the variable type in Azure:<br><ul><li> **Single line**: String</li><li>**Multiple lines**: String</li><li>**Option set**: String</li><li>**User Consent**: Boolean</li></ul>|
 | [Custom context](../develop/send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the setContextProvider API. | These are custom context variables that can be created and passed through the live chat SDK. | [Map the user's response as a JSON](../develop/display-custom-context.md) to use custom context variable in Omnichannel for Customer Service. |
 | Conversation | msdyn_ConversationId  | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Microsoft Dataverse. |**String**: String|
 |[Contact](record-identification-rule.md) | msdyn_contact_msdyn_ocliveworkitem_Customer | Use this context variable that contains the record ID for the customer (contact) record that is linked to the conversation.    | [Parse JSON to extract record ID](#parse-json-object-to-extract-record-id)  |
@@ -41,7 +41,7 @@ The following table contains the list of context variables available in Omnichan
 
 | Context variable type | Context variable name | Description | How to map in Copilot Studio |
 |-----------------------|  ---------------------| ----------- | -----------------------------------|
-| [Preconversation survey](configure-pre-chat-survey.md) | Use the preconversation question name that you create in Omnichannel for Customer Service. | The system stores responses from the preconversation survey as context variables. | Use the following information to map the question name in Omnichannel for Customer Service with the variable type in Copilot Studio:<br><ul><li> **Single line**: User’s entire response</li><li>**Multiple lines**: User's entire response</li><li>**Option set**: User's entire response</li><li>**User Consent**: Boolean</li></ul> |
+| [Pre-conversation survey](configure-pre-chat-survey.md) | Use the pre-conversation survey question name that you create in Omnichannel for Customer Service. | The system stores responses from the pre-conversation survey as context variables. | Use the following information to map the question name in Omnichannel for Customer Service with the variable type in Copilot Studio:<br><ul><li> **Single line**: User’s entire response</li><li>**Multiple lines**: User's entire response</li><li>**Option set**: User's entire response</li><li>**User Consent**: Boolean</li></ul> |
 | [Custom context](../develop/send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the [setContextProvider API](../develop/reference/methods/setContextProvider.md). | These are custom context variables that can be created and passed through the live chat SDK. | Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Copilot Studio: <br><ul><li> **String**: User's entire response </li> **Boolean**: Boolean <li> **Number**, **Floating Number**: Number |
 | Conversation | msdyn_ConversationId | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Microsoft Dataverse. | **String**: User's entire response.  |
 |  Messaging and voice variables | msdyn_CustomerType   | Use this context variable that contains the customer type for the *account* or *contact* record that's linked to the conversation.    | Select the Omnichannel for Customer Service extension solution variable.|
@@ -56,17 +56,19 @@ The following table contains the list of context variables available in Omnichan
 
 ## Configure context variables for Copilot Studio bot
 
-In Copilot Studio, do the following:
+To set Copilot Studio variables to an Omnichannel context variable, do the following:
 
-1. On the **Topics** page, select **New topic**.
-2. On the **Setup** tab, enter a name and description, and save the topic.
-3. Select **Go to authoring canvas**.
-4. Select **Add node**, choose the **Ask a question** action.
-5. Edit the **Identify** field, and in the **Choose information to identify** dialog box, select an option that will match the context variable data type. For information on the data type mapping, see the information in the preceding table.
-6. Edit **Save response as**, and in the **Variable Properties** dialog, update the value for **Name** with the required Omnichannel for Customer Service context variable. Make sure **Bot (any topic can access)** and **External sources can set values** are selected. The **External sources can set values** option is applicable only for getting the context variable.
+1. On the **Topics** page, select **+ Add a topic** -> **from blank**.
+2. Enter a name for your topic (e.g. "Set context variables") and save it.
+3. Click the **+** to add a new node, and select **Variable management** -> **Set a variable value**
+4. In **Set variable**, select **Create a new variable**.
+5. Select the variable to open the **Variable properties** pane. Set your **Variable name** to match the Omnichannel context variable's name exactly (case sensitive). For example, "Email".
+6. In the **Reference** section, click on the ellipses (**...**) and select **Get value from this node if empty**. This tells your Copilot Studio bot to retrieve the variable value from this node during converational topics.
+7. In the **Usage** section, select **Global (any topic can access)** and **External sources can set values**. This allows Copilot Studio to accept data from Omnichannel. Close the Variable properties pane.
+8. Back in the **Set variable value** node, enter a value in **To value** that matches the data type your bot expects to receive. For example, if your bot expects a string, set Text(""). Copilot Studio will fall back to the value you set here if the data does not arrive in the conversation.
     > ![Configure context variable in a topic.](../media/Configure-bot-context-variable.png "Configure context variable in a topic")
 
-7. Save and publish the changes.
+9. Save and publish the changes.
 
 At runtime, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. The bot can set the information for the context variables to link the conversation and case when the bot escalates the conversation to an agent. More information: [Link customer and case to a conversation](record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations)
 
