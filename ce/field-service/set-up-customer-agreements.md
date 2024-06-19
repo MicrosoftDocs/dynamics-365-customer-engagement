@@ -8,7 +8,7 @@ ms.author: jacoh
 ---
 # Set up agreements to automatically generate work orders and invoices
 
-Customer agreements contain predefined details to generate work orders and invoices. For more information, see [agreements overview](agreements-overview.md). 
+Customer agreements contain predefined details to generate work orders and invoices. For more information, see [agreements overview](agreements-overview.md).
 
 To use agreements, perform the following steps:  
 
@@ -219,57 +219,21 @@ You can't manually generate agreement invoices like you can with agreement work 
 
 ## Import booking recurrences
 
-It's possible to import a booking recurrence pattern for an agreement booking setup (ABS) or agreement invoice setup (AIS).
+You can import a booking recurrence pattern for an agreement booking setup (ABS) or agreement invoice setup (AIS). The recurrence dialog, when saved, populates a field on the ABS or AIS records. The field is called **Recurrence Settings** and isn't displayed on the form by default. To import a recurrence with one or more ABS or AIS records through CSV, perform the following steps.
 
-- The recurrence dialog, when saved, populates a field on the ABS or AIS records.
-- The field is called **Recurrence Settings** and isn't displayed on the form by default.
-- To import a recurrence with one or more ABS or AIS records through CSV, just get a representative string from an ABS or AIS that is set up similarly to how you would like the imported records to be configured.
-- With that string, you'll see that there are some values driving how the record behaves that can be parsed out of that string, like start and end date, months every, etc.
-- Use these sample strings to populate the agreement booking and invoice setup records into a spreadsheet and use this to import fully configured records.
+1. Get a representative string from an ABS or AIS that is set up similarly to how you would like the imported records to be configured.
+
+1. In that string, identify the values driving how the record behaves that you can parse out of the string, like start and end date or months every.
+
+1. Use these sample strings to populate the agreement booking and invoice setup records into a spreadsheet and use this to import fully configured records.
 
 For example, see a recurrence in the following screenshot, and related XML.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of booking recurrence.](./media/agreement-recuurence-pattern.png)
+:::image type="content" source="media/agreement-recuurence-pattern.svg" alt-text="Screenshot of booking recurrence.":::
 
 ```xml
 <root><pattern><period>weekly</period><option>every</option><weeks every='1'><days>1</days><days>2</days><days>3</days></weeks></pattern><range><start>08/01/2020</start><option>endAfter</option><end>10</end></range><datas/></root>
 ```
-
-## Additional notes
-
-- You can edit active agreements; the edits are immediately eligible and will update the agreement after a short time.
-- Editing the booking recurrence of an active agreement will update booking dates asynchronously.
-- You can copy existing agreements and choose which parameters you want to apply to the resulting copy.
-- When you change the owner of an agreement, change the agreement status to draft/estimate and save the changes. Wait five minutes to allow all asynchronous processes to run, and then set the agreement status back to active to keep its workflows running in the right order.
-- If **Auto Generate Work Order** is set to **No** but **Auto Generate Booking** is set to **Yes**, then the booking will automatically be created when the work order is manually generated from the booking date.
-- An agreement is intended to be executed at a single location represented by the service account. Work at multiple locations should be configured with multiple agreements.
-- In scenarios where you want to use agreements solely for invoice generation and not for work order generation, consider using the quote entity as part of the Field Service solution, which has similar capabilities.
-- Agreements work seamlessly with the Dynamics 365 Sales Lead > Opportunity > Quote > Order process. This is achieved by:  
-  - Categorizing a lead as a service-maintenance lead
-  - Adding opportunity lines with service-based lines
-  - Creating quote lines as service-based lines and adding a quote booking setup
-- When setting up agreements to automatically generate work orders, limit the number of work order child records - work order products, services, service tasks, incident types, and so on - to be generated to no more than 500. Larger volumes of records, synchronous custom plugins, or custom processes may cause a time-out, resulting in the remaining child records not being generated.
-
-## Copy incident items to agreement
-
-The **Copy Incident Items to Agreement** field during incident type setup is important for two reasons:
-
-1. The incident you want to add to an agreement may be slightly different than the incident you would add to a single work order that's not part of an agreement. For example, normally the incident would require 1 hour of a service, but for the agreement, you negotiated with the customer 2 hours of a service. Rather than having to create a second incident type just for this agreement, you can set **Copy Incident Items to Agreement** to **No**, add the incident to the agreement, then manually add the specific service tasks, product, services, and so on. This way you can use the same incident type, which helps for reporting later on. Set this option to **Yes** and the incident items will be added to the agreement and you can accept these items or make slight variations from there.
-
-If set to **Yes**, agreement items will be created.
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an agreement booking setup record, on the Services tab, with a listed service.](./media/work-order-incident-types-copy-incident-agreement-YES.PNG)
-
-If set to **No**, they won't.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Screenshot of an agreement booking setup record, on the Services tab, with no listed services.](./media/work-order-incident-types-copy-incident-agreement-NO.PNG)
-
-1. Incidents can be added to agreements for recurring work. This means agreements will generate work orders with predefined work order incidents attached. However, as mentioned earlier in this article, incidents can be edited as processes and procedures change. But agreements can span multiple months and even years, so should the agreement use the original incident type at the time of agreement creation, or use the latest changes to the incident type? This could result in different work being performed than originally intended at the end of the agreement. Set to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation.
-  Set to **No** if the work orders generated from the agreement should grab the latest incident type details when the work orders are generated from the agreement, which is generally at an ongoing basis depending on the **Generate Work Orders X Days In Advance** field on **Agreement Booking Setup**.
-
-1. Items are copied to the agreement when they're added to the agreement, even if the agreement has an estimate status.
 
 ### Next steps
 
