@@ -8,7 +8,9 @@ ms.author: jacoh
 ---
 # Set up agreements to automatically generate work orders and invoices
 
-Customer agreements contain predefined details to generate work orders and invoices. To use agreements, perform the following steps:  
+Customer agreements contain predefined details to generate work orders and invoices. For more information, see [agreements overview](agreements-overview.md). 
+
+To use agreements, perform the following steps:  
 
 1. Create the **Agreement**. Define high-level details such as the customer, date range, and price list.
 1. Create an **Agreement Booking Setup** where you'll define how often work orders should be created for the agreement, along with basic details of the eventual work orders like **Work Order Type**.
@@ -152,25 +154,13 @@ If you decided to have the agreement **Auto Generate Bookings**, the work orders
 
 As work orders are generated, they'll appear among other work orders in the **Work Orders** view.
 
-The generated work orders contain all the details specified on the agreement, such as price list, work order type, incident type(s), customer asset, and so on.
+The generated work orders contain all the details specified on the agreement, such as price list, work order type, incident types, and customer asset. The details can still be edited at the work order level. For example, though a work order may be generated from an agreement, more products and services can be added to the work order as needed; other details, such as price list and work order type, can be changed, assuming sufficient permissions.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a work order showing populated fields.](./media/agreement-work-order-summary.png)
+The work order contains a link to the agreement.
 
-> [!NOTE]
-> Though the agreement provides a framework to generate work orders, details can still be edited at the work order level. For example, though a work order may be generated from an agreement, more products and services can be added to the work order as needed; other details, such as price list and work order type, can be changed, assuming sufficient permissions.
+If not already scheduled, select **Book** and trigger the schedule assistant.
 
-A lookup to the agreement will also be noted in the **Settings** section.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a work order on the settings tab.](./media/agreement-work-order-settings.png)
-
-After selecting the work order **Book** button and triggering the schedule assistant, the **Search Start** and **Search End** time parameters will reflect the booking date.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule assistant filter view, with focus on search start and search end fields.](./media/agreement-schedule-assistant-filters.png)
-
-After an agreement work order is performed by a field technician and closed by a manager, an invoice for completed work will be created as part of the normal work order invoicing process. This is true whether a work order is part of an agreement or not. For more information, see the article on [work order life cycle and statuses](work-order-status-booking-status.md).
+After an agreement work order is performed by a field technician and closed by a manager, an invoice for completed work is created as part of the normal work order invoicing process. This is true whether a work order is part of an agreement or not. For more information, see the article on [work order life cycle and statuses](work-order-status-booking-status.md).
 
 ## Scenario 2: Auto generate invoices
 
@@ -261,7 +251,9 @@ For example, see a recurrence in the following screenshot, and related XML.
   - Creating quote lines as service-based lines and adding a quote booking setup
 - When setting up agreements to automatically generate work orders, limit the number of work order child records - work order products, services, service tasks, incident types, and so on - to be generated to no more than 500. Larger volumes of records, synchronous custom plugins, or custom processes may cause a time-out, resulting in the remaining child records not being generated.
 
-- The **Copy Incident Items to Agreement** field during incident type setup is important for two reasons:
+## Copy incident items to agreement
+
+The **Copy Incident Items to Agreement** field during incident type setup is important for two reasons:
 
 1. The incident you want to add to an agreement may be slightly different than the incident you would add to a single work order that's not part of an agreement. For example, normally the incident would require 1 hour of a service, but for the agreement, you negotiated with the customer 2 hours of a service. Rather than having to create a second incident type just for this agreement, you can set **Copy Incident Items to Agreement** to **No**, add the incident to the agreement, then manually add the specific service tasks, product, services, and so on. This way you can use the same incident type, which helps for reporting later on. Set this option to **Yes** and the incident items will be added to the agreement and you can accept these items or make slight variations from there.
 

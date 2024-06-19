@@ -7,7 +7,7 @@ author: jasonccohen
 ms.author: jacoh
 ---
 
-# Cusomter agreements overview
+# Customer agreements overview
 
 Field Service agreements allow organizations to automatically generate work orders and invoices with predefined details, frequency, and date ranges. Agreements are most commonly used for maintenance schedules where an organization must perform daily, weekly, or monthly inspections on equipment.
 
@@ -19,6 +19,8 @@ Here are a few different ways agreements can be configured and used. The agreeme
 - A single work order each month to inspect multiple customer assets at a customer location.
 - Multiple work orders each year to inspect multiple assets at a customer location.
 - Quarterly invoices to bill customers for predefined products and services.
+
+An agreement is intended to be executed at a single location represented by the service account. Work at multiple locations should be configured with multiple agreements.
 
 ## Multiple incidents vs multiple recurrences
 
@@ -49,3 +51,9 @@ Even if you have an agreement generating invoices, agreement work orders still c
 Entitlements are applied to work order pricing based on multiple factors such as service account, incident type, and customer asset categories. It's common practice to create specific incident types for specific customers outlining custom work; one option is to apply an entitlement when the custom agreement incident type is added to a work order that makes the products and services $0 by discounting them 100%.
 
 For more information, see [Entitlements for work orders in Dynamics 365 Field Service](work-order-entitlements.md).
+
+## Next steps
+
+[Set up agreements to automatically generate work orders and invoices](set-up-customer-agreements.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
