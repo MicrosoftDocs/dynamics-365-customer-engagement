@@ -1,7 +1,7 @@
 ---
 title: "Create customized IoT solutions in Connected Customer Service | MicrosoftDocs"
 description: "Understand how to create customized IoT solutions in Connected Customer Service for Azure IoT Central."
-ms.date: 04/04/2022
+ms.date: 06/21/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -154,38 +154,23 @@ You can also manage devices by categorizing them. For example, you can categoriz
   
 ### Create a new IoT device category  
   
-You can create a new IoT device category in the Customer Service Hub or on Customer Service admin center app.
+You can create a new IoT device category in the Customer Service admin center app.
 
-1. Go to one of the apps, and perform the following steps.
+1. In the Customer Service admin center site map, select **Miscellaneous** in **Operations**.
 
-    ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1.  In the **Device Categories** section, select **Manage**. The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list.  
 
-      1. In the site map, select **Miscellaneous** in **Operations**.
-      1.  In the **Device Categories** section, select **Manage**.
-       
-          The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list.  
-
-     ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-     1. In the site map, go to **Service Management**.
-     1. From the list of entity records, select **Device Categories** IN **IoT**.
-       
-        The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list. 
-   
-
-2. On the command bar, select **New**.  
+1. On the command bar, select **New**.  
   
-3. Enter a **Name** for the device category.  
+1. Enter a **Name** for the device category.  
   
-4.  Use the helpful tooltips to fill in information.  
+1.  Use the helpful tooltips to fill in information.  
   
-5. When you're done, select **Save**.  
+1. When you're done, select **Save**.  
   
-6. Open the IoT device category record that you created.  
+1. Open the IoT device category record that you created.  
   
-7. In the **Devices** section, click **Add IoT Device record**, and then add a device to the category.  
+1. In the **Devices** section, click **Add IoT Device record**, and then add a device to the category.  
   
 ### Add devices to an existing category  
   

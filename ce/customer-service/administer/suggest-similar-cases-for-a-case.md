@@ -3,7 +3,7 @@ title: Suggest similar cases for a case with Dynamics 365 Customer Service
 description: Learn how to use the similarity rules and relevance search in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 12/21/2023
+ms.date: 06/21/2024
 ms.topic: article
 search.audienceType: 
   - admin
@@ -46,23 +46,8 @@ Based on configured data input, the Relevance search mechanism filters the cases
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
   
-1. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
-     1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
-     1. In the **Advanced similarity rules** section, select **Manage**.
-
-     The **All Advanced Similarity Rules** page is displayed.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-    
-     1. In the site map, select **Service Management**.
-     2. Select **Advanced similarity rules** in **Similar Records Suggestion**. 
-  
-      The **All Advanced Similarity Rules** page is displayed. 
+1. In the Customer Service admin center app site map, go to **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+1. In the **Advanced similarity rules** section, select **Manage**. The **All Advanced Similarity Rules** page is displayed.
 
 1. Select **New** on the command bar to create an advanced similarity rule.  
 

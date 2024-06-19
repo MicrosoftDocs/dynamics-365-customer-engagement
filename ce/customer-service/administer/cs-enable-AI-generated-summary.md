@@ -1,7 +1,7 @@
 ---
 title: Set up auto-summarization for conversations in Dynamics 365 Customer Service
 description: Add an AI-generated summary of an ongoing customer conversation in Dynamics 365 Customer Service.
-ms.date: 01/25/2024
+ms.date: 06/21/2024
 ms.topic: article
 author: gandhamm 
 ms.author: mgandham
@@ -51,12 +51,10 @@ Tenant level access to enable the enhanced integration with Microsoft Teams feat
 
 ### Turn on the auto-summarization of Microsoft Teams conversations
 
-You can also enable this feature from the Customer Service Hub app. Perform the following steps to enable auto-generated summary for Microsoft Teams chats:
+You can also enable this feature from the Customer Service admin center app. Perform the following steps to enable auto-generated summary for Microsoft Teams chats:
 
-[!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+1. In the Customer Service admin center site map, select **Collaboration**, and then select **Embedded chat using Teams**.
 
-1. In the site map, select **Service Management**.
-2. In **Collaboration**, select **Embedded chat using Teams**.
 1. In **Connect chats to Dynamics 365 records**, select **Conversation**.
 
 1.  In **Conversation settings**, in **New connected chats**, turn on **AI-generated intro note**.

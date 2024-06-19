@@ -1,7 +1,7 @@
 ---
-title: Create and manage queues for cases | MicrosoftDocs
-description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
-ms.date: 08/31/2023
+title: Create and manage queues for cases
+description: Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service.
+ms.date: 06/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -71,23 +71,13 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 
 ## Create a queue
 
-1. Go to one of the admin apps, and perform the following steps:
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-        
-    1. In the site map, select **Queues** in **Customer support**.
+1. In the Customer Service admin center site map, select **Queues** in **Customer support**.
     
-    1. On the **Queues** page, select **Manage** for **Basic queues**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    1. Go to **Service Management**, and then select **Queues** in **Case Settings**.
+1. On the **Queues** page, select **Manage** for **Basic queues**.
   
-2. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then select **Edit** on the command bar.  
+1. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then select **Edit** on the command bar.  
   
-3. Enter the following information in the **Summary** tab:
+1. Enter the following information in the **Summary** tab:
    - In the **SUMMARY** section, do the following:  
       - **Name**: Enter the name of the queue.  
       - **Type**: Select whether the queue is a private or public queue. 
@@ -99,7 +89,7 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
       - Select a value in the **Convert Incoming Email To Activities** dropdown list to set the type of messages that you want to track as activities.
       - Set the email signature template. This signature is added to the email by default when you send messages from a queue or reply to messages sent to the queue. More information: [Add a default signature for a queue](add-signature-template-queue.md)
   
-4. In the **Omnichannel** section of the **Conflicts Tab**, you can do the following:
+1. In the **Omnichannel** section of the **Conflicts Tab**, you can do the following:
     - Set **Automatic work distribution** to **No** (default option), and then select **Save** to create a basic queue.
     - Set **Automatic work distribution** to **Yes** to enable unified routing, and then select **Save** to create an advanced queue.
 
@@ -118,7 +108,7 @@ After you have saved the queue, the following changes happen in the SUMMARY tab:
 
 To optimize agent efficiency, you can set up custom views that contain a filtered list of queues. These queues are relevant to the type of cases that the agents handle. You can then set the view as the default from which agents can pick a queue or user to route the work items.
 
-1. In the Customer Service admin center app, go to **Customer support** in the site map and select **Queues**.
+1. In the Customer Service admin center site map, go to **Customer support** in the site map and select **Queues**.
 
 1. On the page that appears, select **Manage** for **Routing dialogs**.
 
