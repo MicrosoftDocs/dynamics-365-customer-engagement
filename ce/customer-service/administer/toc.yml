@@ -94,8 +94,6 @@
         href: configure-copilot-features.md#make-copilot-available-to-agents
       - name: Enable summarization of cases and conversations
         href: copilot-enable-summary.md
-      - name: Enable Copilot for questions and emails
-        href: copilot-enable-help-pane.md
       - name: Copilot architecture diagram
         href: /digital-contact-center-platform/guidance/dynamics-365-customer-service-copilot-architecture?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: FAQ for Copilot in Customer Service

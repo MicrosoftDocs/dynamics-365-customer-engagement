@@ -98,22 +98,6 @@
           href: search-operators.md
         - name: Search the knowledge base on portals
           href: knowledge-base-search-methods.md
-      - name: Microsoft Teams for collaboration
-        items:
-        - name: Use Microsoft Teams chat
-          href: use-teams-chat.md
-        - name: Use suggested contacts to collaborate with coworkers
-          href: teams-use-suggested-contacts.md
-        - name: Use Teams meetings
-          href: use-teams-meetings.md
-        - name: Collaborate with AI-suggested contacts in Microsoft Teams
-          href: use-ai-suggested-contacts-teams.md
-        - name: Use auto-summarization for ongoing conversations
-          href: cs-ai-generated-summary.md
-        - name: Use Join a Teams call to enhance customer conversations
-          href: join-a-teams-call.md
-        - name: Use customer support swarming to resolve issues
-          href: use-customer-support-swarming.md
         - name: Share and update Dynamics 365 records within Microsoft Teams conversation
           items:
           - name: Overview
