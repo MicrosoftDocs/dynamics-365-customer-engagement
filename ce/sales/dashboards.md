@@ -1,12 +1,12 @@
 ---
-title: Gain insights with dashboards
-description: Explore actionable business data with Sales dashboards, offering an overview of important insights across your organization.
-ms.date: 06/19/2024
+title: "Gain insights with dashboards | MicrosoftDocs"
+description: "Get a quick glance of important and actionable business data using pre-built dashboards. Get insights into how your sales team is doing."
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
   - D365-Entity-*
@@ -14,10 +14,6 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
-ms.custom:
-  - ai-gen-docs-bap
-  - ai-gen-desc
-  - ai-seo-date:06/19/2024
 ---
 # Gain insights with dashboards 
 
