@@ -1,7 +1,7 @@
 ---
 title: Learn the basics of Dynamics 365 Sales
 description: Quickly onboard and learn about Dynamics 365 Sales and its user interface.
-ms.date: 06/19/2024
+ms.date: 06/20/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -105,6 +105,9 @@ Here are some highlights of Dynamics 365 Sales:
 2. Select one of the following tiles depending on your license: 
     1. For Sales Enterprise, select **Sales Hub**.
     1. For Sales Professional, select **Sales Professional**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Sales apps.](media/sales-apps.png "Sales apps")
 
    
 ## Navigate using the site map
