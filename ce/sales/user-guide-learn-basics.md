@@ -100,24 +100,13 @@ Here are some highlights of Dynamics 365 Sales:
 
 ## Go to the Sales apps 
 
-1. Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select the icon for **[!INCLUDE[pn-dyn-365](../includes/pn-dyn-365.md)]**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Microsoft 365 App Launcher pane.](media/app-launcher-pane.png "Microsoft 365 App Launcher pane")  
-
-   > [!Note]
-   > 
-   > The apps available to you in the app launcher depend on your subscription.
+1. Visit the [Apps page](https://office.com/apps) on office.com.
 
 2. Select one of the following tiles depending on your license: 
     1. For Sales Enterprise, select **Sales Hub**.
     1. For Sales Professional, select **Sales Professional**.
 
-    > [!TIP]
-    > Alternatively, visit the [Apps page](https://office.com/apps) on office.com, select **Business Apps**, and then select the Dynamics 365 app that you want.
-
-If you don't see the app, contact your administrator to grant you access. For more information, refer to [Grant or revoke access to the Sales Hub app](grant-access-saleshub.md).
-
+   
 ## Navigate using the site map
 
 The following image shows the site map or menu of the Sales app that helps you navigate to the different areas of the app.
