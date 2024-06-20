@@ -90,13 +90,11 @@ Here are some highlights of Dynamics 365 Sales:
 
     More information: [Manage Word templates](manage-word-templates.md).
 
-    > [!div class="mx-imgBorder"]
-    > ![Document templates in the Sales app.](media/document-templates-sales-professional-app.png "Document templates in the Sales app")
-
 -   **Sales data anywhere and everywhere.** Get all your customer and sales data right on your mobile device or tablet. Whether you're visiting a customer or
     on the road, you can quickly pull out your device to update the opportunity with information. What’s more—you get the same consistent experience
-    regardless of the device you use.
+    regardless of the device you use. 
 
+For information on how to use Dynamics 365 Sales mobile app, see [Use the Dynamics 365 Sales mobile app](/https://review.learn.microsoft.com/en-us/dynamics365/sales/sales-mobile/use-sales-mobile-app?branch=main)
 
 ## Go to the Sales apps 
 
