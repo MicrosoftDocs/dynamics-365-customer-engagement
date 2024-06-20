@@ -37,8 +37,8 @@ Record the replies you get from potential customers in response to a specific ma
 1. In the site map, select **Marketing Lists**.
   
 1. Open a marketing list record, and then in the **Campaigns** area, open the campaign to which you want to add campaign responses.
-  > [!NOTE]
-  > Alternatively, you can open a campaign from the **Campaigns** area in the Sales Hub site map.
+    > [!NOTE]
+    > Alternatively, you can open a campaign from the **Campaigns** area in the Sales Hub site map.
 
 1. On the **Related** tab, select **Campaign Responses**.
 

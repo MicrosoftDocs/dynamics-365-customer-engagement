@@ -54,8 +54,8 @@ Planning activities are those you want to perform before you launch the campaign
 1. In the site map, select **Marketing Lists**.
 
 2. Open a marketing list record, and then in the **Campaigns** area, open the campaign to which you want to add a planning activity. 
-  > [!NOTE]
-  > Alternatively, you can open a campaign from the **Campaigns** area in the Sales Hub site map.
+    > [!NOTE]
+    > Alternatively, you can open a campaign from the **Campaigns** area in the Sales Hub site map.
 
 3. To add a new activity, on the **Related** tab, select **Planning Activities**, then select **New Activity**, and then select the type of activity you want to create.  
   
