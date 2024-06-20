@@ -158,7 +158,7 @@ You can deactivate or reactivate a filter configuration in the Customer Service 
 
 1. Select **Done** > **Save**.
 
-1. When you are ready to reactivate the filter, go to the **Filters** page, select the ellipsis next to the value you want to reactivate, and then select **Activate**.
+1. When you're ready to reactivate the filter, go to the **Filters** page, select the ellipsis next to the value you want to reactivate, and then select **Activate**.
 All of the previous configurations are reinstated.
 
 ## Allow agents to personalize their knowledge article search filters
