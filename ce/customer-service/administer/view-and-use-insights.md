@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # View and use insights for search providers
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 After you add search providers to Customer Service, you can use the **Insights** tab in the Customer Service admin center to monitor ingestion. The tab displays the following details for the search provider: **Ingestion ID**, **Status**, **Crawl failures**, **Recognized**, **Created**, **Updated**, and **Failed**.
 
 ## View insights

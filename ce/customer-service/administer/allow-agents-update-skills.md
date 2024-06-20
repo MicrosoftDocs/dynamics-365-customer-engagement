@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Enable agents to update skills
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model. You can also enable your agents to add or remove skills for their assigned work items at runtime. To do this, you must enable the update skill control toggle in the Customer Service admin center app.
 

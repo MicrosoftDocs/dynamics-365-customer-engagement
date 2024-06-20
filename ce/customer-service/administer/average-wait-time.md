@@ -10,7 +10,7 @@ ms.author: laalexan
 # Show customers their average wait time in a queue
 
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 ## Overview
 

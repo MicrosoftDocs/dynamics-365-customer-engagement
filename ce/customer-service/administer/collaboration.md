@@ -10,6 +10,8 @@ ms.date: 11/27/2023
 
 # Overview of collaboration
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 Collaboration features make it easy for agents to find the help they need in Microsoft Teams from within the following apps:
 - Dynamics 365 Customer Service admin center
 - Dynamics 365 Customer Service Hub

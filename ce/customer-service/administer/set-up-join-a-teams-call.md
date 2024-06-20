@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Set up Join a Teams call for agents
 
+https://review.learn.microsoft.com/en-us/dynamics365/customer-service/administer/collaboration?branch=nn-cc
+
 Join a Teams call is a feature that helps agents in your organization give their customers a more personalized support experience by using Teams to share their screen, connect through video, and offer remote control assistance. Customers don’t need to have a Teams license or previous experience using Teams.
 
 This feature is turned on by default in Customer Service workspace.
