@@ -62,7 +62,7 @@ Here are some highlights of Dynamics 365 Sales:
     > [!div class="mx-imgBorder"]
     > ![Business process bar on the lead form.](media/business-process-flow-lead-form.png "Business process bar on the lead form")
 
--   **Activities timeline.** All the appointments you schedule while you work on an opportunity, the emails that you send or the phone call you make are
+-   **Activities timeline.** All the appointments you schedule while you work on an opportunity, the emails that you send or the phone calls you make are
     available in one place, giving you all the context you need to do your job.
 
     > [!div class="mx-imgBorder"]
