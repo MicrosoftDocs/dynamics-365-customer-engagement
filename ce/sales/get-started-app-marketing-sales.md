@@ -4,7 +4,9 @@ description: Learn how to promote your business and improve sales with targeted 
 ms.date: 06/20/2024
 ms.collection: get-started
 ms.topic: overview
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
+  - evergreen
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
