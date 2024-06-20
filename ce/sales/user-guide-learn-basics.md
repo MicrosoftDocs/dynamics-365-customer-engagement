@@ -62,7 +62,7 @@ Here are some highlights of Dynamics 365 Sales:
     > [!div class="mx-imgBorder"]
     > ![Business process bar on the lead form.](media/business-process-flow-lead-form.png "Business process bar on the lead form")
 
--   **Activities timeline.** All the appointments you schedule while you work on an opportunity, the emails that you send or the phone calls you make are
+-   **Activities timeline.** All the appointments you schedule while you work on an opportunity, the emails that you send or the phone call you make are
     available in one place, giving you all the context you need to do your job.
 
     > [!div class="mx-imgBorder"]
@@ -159,7 +159,7 @@ With Quick Create, you need to complete only a few fields. Later, when you have 
 
 ## Business processes in Dynamics 365 Sales
 
-Business processes help everyone follow best practices, even when handling situations that don’t occur very often. You complete a step by entering data or
+Business processes help everyone follow best practices, even when handling situations that don’t occur often. You complete a step by entering data or
 marking the step completed in the process bar at the top of the screen. When all the steps are done, you can move on to the next stage.
 
 The following ready-to-use business processes are available that you can use as you move your leads through a sales process:
