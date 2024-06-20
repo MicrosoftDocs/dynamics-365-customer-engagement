@@ -78,14 +78,14 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
 1. Select **New** on the command bar.
 
-1. On the **General** tab, in **Routing Rule Set Information**, Enter **Name** and **Description** for the routing ruleset.
+1. On the **General** tab, in **Routing Rule Set Information**, enter a **Name** and **Description** for the routing ruleset.
 
 1. Select **Save**. The routing ruleset is saved, and the **Rule Items** section is displayed.
 
     > [!div class="mx-imgBorder"]
     > ![Create routing rules general information.](../media/rr-create-rule-set.png "Create routing rules general information")
 
-1. In the **Rule Items** section, select **New Rule Item**. The **New Rule Item** dialog box appears in which you can specify conditions that will be evaluated for routing cases to a queue, an agent, or a team.
+1. In the **Rule Items** section, select **New Rule Item**. The **New Rule Item** dialog box appears, in which you can specify conditions that will be evaluated for routing cases to a queue, an agent, or a team.
 
     a. On the **General** tab, in **Rule Item Information**, enter a **Name** and **Description**.
 
