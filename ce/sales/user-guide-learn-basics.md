@@ -112,7 +112,7 @@ For information on how to use Dynamics 365 Sales mobile app, see [Use the Dynami
 
 The following image shows the site map or menu of the Sales app that helps you navigate to the different areas of the app.
 
-![Menu of the Sales app.](media/sales-apps.png "Menu of the Sales app")
+![Menu of the Sales app.](media/sales-sitemap-ui.png "Menu of the Sales app")
 
 
 |Number  |Description  |
