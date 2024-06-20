@@ -9,7 +9,7 @@ ms.author: jacoh
 
 # Customer agreements overview
 
-Field Service agreements allow organizations to automatically generate work orders and invoices with predefined details, frequency, and date ranges. Agreements are most commonly used for maintenance schedules where an organization must perform daily, weekly, or monthly inspections on equipment.
+Field Service agreements allow organizations to automatically generate work orders and invoices with predefined details, frequency, and date ranges. Agreements are commonly used for maintenance schedules where an organization must perform daily, weekly, or monthly inspections on equipment.
 
 Here are a few different ways agreements can be configured and used. The agreement generates:
 
@@ -30,7 +30,7 @@ When deciding whether to add multiple agreement incidents to a single recurrence
 
 - How much travel? Multiple recurrences create multiple work orders, which might create more trips and more travel than desired.
 
-- How are you tracking assets? Some organizations prefer each work order to relate to a single customer asset. This way they know the time spent on a work order correlates to time spent servicing an asset, which helps with reporting. If so, you might choose to have multiple recurrences each creating one work order with a single incident related to a single asset.
+- How do you track assets? Some organizations prefer each work order to relate to a single customer asset. This way they know the time spent on a work order correlates to time spent servicing an asset, which helps with reporting. If so, you might choose to have multiple recurrences each creating one work order with a single incident related to a single asset.
 
 ## Agreement work orders schedule automatically with Resource Scheduling Optimization
 

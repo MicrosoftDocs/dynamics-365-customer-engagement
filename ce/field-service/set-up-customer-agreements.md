@@ -72,7 +72,7 @@ Once the agreement has been created, specify how often work orders should be gen
 
    - **Work Order Type**: Select the type of work order such as Diagnose and repair or Inspection.
 
-   - **Generate Work Orders Day in Advance**: Dictates how many days before the expected service date the work order is generated. If you choose a large number of days in advance, your backlog of work orders might become larger than desired; however, if you choose too few days in advance, you might not have time to prepare. If no value is entered at the agreement level, there's an environment-wide setting in **Field Service Settings** > **Agreement** tab > **Generate Agreement Work Order X Days in Advance**. If this field also has no value, the work orders are generated seven days in advance of the booking date at the record generation time entered on the agreement.
+   - **Generate Work Orders Day in Advance**: Dictates how many days before the expected service date the work order is generated. If you choose several days in advance, your backlog of work orders might become larger than desired; however, if you choose too few days in advance, you might not have time to prepare. If no value is entered at the agreement level, there's an environment-wide setting in **Field Service Settings** > **Agreement** tab > **Generate Agreement Work Order X Days in Advance**. If this field also has no value, the work orders are generated seven days in advance of the booking date at the record generation time entered on the agreement.
 
    - **Work Order Type**, **Priority**, **Work Order Summary**, and **Location** entered here are passed down to resulting work orders.
 
@@ -100,14 +100,14 @@ Once the agreement has been created, specify how often work orders should be gen
    - **Range of Recurrence**. Define the **Start Date** and choose the **End Date Behavior**.
      - **No End Date**: Work orders are generated at the agreement end date.
      - **End by**: Stop generating work orders after the recurrence end date.
-     - **End after # recurrences**: Work order are generated after the specified number of recurrences is reached.
+     - **End after # recurrences**: Work orders are generated after the specified number of recurrences is reached.
 
    - **Custom Dates**: Define dates to generate work orders that should be performed in addition to a recurrence if a pattern doesn't reflect your business needs. For example, to perform service on various holidays throughout the year. Custom date work orders won't be generated, unless a recurrence is provided.
 
 1. Select **Ok** and then select **Save**.
 
 > [!NOTE]
-> A single agreement can have various booking setups. For example, you may create a booking setup for weekly visits that creates work orders every week and booking setup for monthly visits with different bookings.
+> A single agreement can have various booking setups. For example, you might create a booking setup for weekly visits that creates work orders every week and booking setup for monthly visits with different bookings.
 
 See also: [Import booking recurrences](#import-booking-recurrences).
 
@@ -148,7 +148,7 @@ As time approaches the booking dates, work orders are generated based on the **G
 
 :::image type="content" source="media/agreement-active-booking-dates-details.svg" alt-text="Screenshot of an agreement booking date, highlighting Generate Work Order.":::
 
-If you decided to have the agreement **Auto Generate Bookings**, the work orders are scheduled to the preferred resource when the work orders are generated.
+If you decide to have the agreement **Auto Generate Bookings**, the work orders are scheduled to the preferred resource when the work orders are generated.
 
 ### Step 5: Perform agreement work orders
 
