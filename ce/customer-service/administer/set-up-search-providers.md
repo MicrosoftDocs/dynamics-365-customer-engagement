@@ -45,7 +45,7 @@ Use the integrated search provider option to set up third-party knowledge source
 >
 > Before you set up a search provider, ensure that your firewall doesn't block the https://www.d365ccafpi.com/ domain. Otherwise, users will encounter errors.
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Customer Service admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 
 1. In the **External search providers** section, select **Manage**.
       > [!NOTE]

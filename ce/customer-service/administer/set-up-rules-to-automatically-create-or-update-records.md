@@ -294,7 +294,7 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
 
  For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.  
 
-1.  In the Customer Service admin center site map, go to **Customer support** > **Case settings**.
+1.  In the site map of Customer Service admin center, go to **Customer support** > **Case settings**.
 
 2.  Select **Automatic record creation and update rules** > **Manage**.  
 

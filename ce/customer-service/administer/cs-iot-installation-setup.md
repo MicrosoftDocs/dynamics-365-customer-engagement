@@ -168,7 +168,7 @@ You can also manage devices by categorizing them. For example, you can categoriz
   
 1. Open the IoT device category record that you created.  
   
-1. In the **Devices** section, click **Add IoT Device record**, and then add a device to the category.  
+1. In the **Devices** section, select **Add IoT Device record**, and then add a device to the category.  
   
 ### Add devices to an existing category  
   
@@ -186,7 +186,7 @@ After a device is registered, you can open the record to view the readings sent 
   
  By default, you can view the last 20 readings. You can change the default setting in the Power BI report by using Power BI Desktop.  
   
-1. To view a device reading, from the main menu, click **Customer Service** > **Devices**.  
+1. To view a device reading, from the main menu, select **Customer Service** > **Devices**.  
   
 2. From the list of devices, choose a device and open the record.  
   
@@ -204,11 +204,11 @@ When a device isn’t working properly, the system receives an alert. To trouble
 
 ### Send commands from a registered device
 
-1. From the main menu, click **Customer Service** > **Devices**.
+1. From the main menu, select **Customer Service** > **Devices**.
 
 2. From the list of devices, choose a registered device.
 
-3. On the command bar, click **Send Command**.
+3. On the command bar, select **Send Command**.
 
 4. Enter a **Name** for the command.
 
@@ -217,7 +217,7 @@ When a device isn’t working properly, the system receives an alert. To trouble
     > [!NOTE]
     >  Before sending a command, make sure there are no spaces or extra characters in the command.
 
-6.  On the command bar, click **Send & Close** to send the command.
+6.  On the command bar, select **Send & Close** to send the command.
 
 ### Respond to an alert
 
@@ -231,11 +231,11 @@ When a device isn’t working properly, the system receives an alert. To trouble
 
 5. In the **MESSAGE TO SEND** box, copy and paste one of the supported commands listed in the section above.
 
-6. On the command bar, click **Send & Close** to send the command.
+6. On the command bar, select **Send & Close** to send the command.
 
 ### View history of commands sent to a device
 
-1. From the main menu, click **Customer Service** > **Devices**.
+1. From the main menu, select **Customer Service** > **Devices**.
 
 2. From the list, choose a device.
 
@@ -254,11 +254,11 @@ When you receive an alert from a device, your service team can manually monitor 
 
 The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create or customize dashboards](../../customerengagement/on-premises/customize/create-edit-dashboards.md)
 
-1. From the main menu, click **Customer Service** or **Internet of Things**.
+1. From the main menu, select **Customer Service** or **Internet of Things**.
 
 2. Select **Dashboard**.
 
-    -   The first chart shows alerts that you can sort by clicking the IoT **Alerts by** menu.
+    -   The first chart shows alerts that you can sort by selecting the IoT **Alerts by** menu.
 
     -   The second chart shows alerts by time.
 
