@@ -1,7 +1,7 @@
 ---
 title: "Create and edit Field Service columns (fields)"
 description: Learn about best practices for creating and editing fields in Dynamics 365 Field Service.
-ms.date: 06/19/2024
+ms.date: 06/21/2024
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -35,34 +35,28 @@ After understanding the existing fields and processes on the work order form, yo
 
 1. Select your environment and navigate to the table. For example, the work order table.
 
-1. Select **New** > **Column**.
+1. Select **New** > **Column**. Enter the information for the new column.
 
    :::image type="content" source="media/customization-form-create-fields.png" alt-text="Screenshot of Power Apps, showing the Add column option on the work order table.":::
 
-> [!div class="mx-imgBorder"]
-> ![Power Apps showing the edit panel for a new column.](./media/customization-form-create-fields2.png)
-
-Save your changes.
+1. Save your changes.
 
 ## Edit fields
 
-Administrators can edit the display names and labels of existing fields, but can't edit field properties. 
+Administrators can edit the display names and labels of existing fields, but can't edit field properties.
 
-For example, you can change the field display name of **Service Account** to **Customer**, as seen in the following screenshot.
+For example, you can change the field display name of **Service Account** to **Customer**. Or consider the **System Status** field; you can change choice option labels, like changing the **In Progress** label to **Work Started**.
 
-> [!div class="mx-imgBorder"]
-> ![Power Apps field editor panel, showing "Service Account" selected and editable.](./media/customization-form-field-display-name.png)
+From the table, under **Schema**, select **Columns**. Select the column and select **Edit column**.
 
-Or consider the **System Status** field; you can change choice option labels, like changing the **In Progress** label to **Work Started**. 
-
-> [!div class="mx-imgBorder"]
-> ![Power Apps field editor showing "WO System Status," with "Unscheduled" selected and editable.](./media/customization-form-field-choice-option-set.png)
+:::image type="content" source="media/customization-form-field-choice-option-set.png" alt-text="Screenshot of Power Apps Edit column option showing System Status.":::
 
 Optional fields can be made required, but required fields can't be made optional.
 
-### Editing field properties
+### Edit field properties
 
-Don't edit field properties! Editing field properties can result in performance and process disruptions.
+> [!IMPORTANT]
+> Don't edit field properties. Editing field properties can result in performance and process disruptions.
 
 For example, editing fields in the following ways is unsupported and can cause issues when upgrading.
 
@@ -71,13 +65,13 @@ For example, editing fields in the following ways is unsupported and can cause i
 - Changing field requirement from _Required_ to _Optional_ (though it's okay to change from *Optional* to *Required*).
 - Changing the behavior of a **Date Only** or **Date and Time** field is unsupported. They must be left as **User Local** and can't be set to _Date Only_ or _Time Zone independent_.
 
-### Deleting fields
+### Delete fields
 
-Don't delete existing fields! Deleting fields can cause unexpected issues. Instead of deleting a field, hide or remove fields from the forms so that users can't see them.
+> [!IMPORTANT]
+> Don't delete existing fields as it can cause unexpected issues.
 
-### Changing the behavior of a Date and Time field is unsupported
+Instead of deleting a field, hide or remove fields from the forms so that users can't see them.
 
-Changing the behavior of a **Date Only** or **Date and Time** column that is included with Field Service is unsupported, irreversible, and can cause upgrade issues. For example, the following screenshot shows the _Start Date_ column located on the agreement table. The behavior property must be left as **User Local**.
+### Change the behavior of a Date and Time field
 
-> [!div class="mx-imgBorder"]
-> ![Start Date column on the agreement table.](./media/customization-fields-behavoir.png)
+Don't change the behavior of a **Date Only** or **Date and Time** column that is included with Field Service. It isn't supported, isn't reversible, and can cause upgrade issues.

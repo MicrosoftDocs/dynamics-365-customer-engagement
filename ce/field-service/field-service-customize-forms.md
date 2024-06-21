@@ -1,7 +1,7 @@
 ---
 title: Customize the work order form
 description: Learn how to customize work order forms in Dynamics 365 Field Service.
-ms.date: 03/03/2022
+ms.date: 06/21/2024
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -9,18 +9,18 @@ ms.author: lmasieri
 
 # Customize the work order form
 
-While setting up Field Service for your organization, you may have to customize the forms that back office workers like dispatchers, service managers, and other roles use to view important information and document their work. IT administrators may customize Field Service forms so users can capture information unique to your business or industry and to ensure the form layout matches your business processes.
+While setting up Field Service for your organization, you might have to customize the forms that back office workers like dispatchers, service managers, and other roles use to view important information and document their work. IT administrators might customize Field Service forms so users can capture information unique to your business or industry and to ensure the form layout matches your business processes.
 
-Customizing forms properly is very important for maximizing performance. Form customizations can affect the time it takes for forms to load and save changes; proper form customization can also improve usability, making it easier for users to view and update information.
+Customizing forms properly is important for maximizing performance. Form customizations can affect the time it takes for forms to load and save changes. Proper form customization can improve usability, making it easier for users to view and update information.
 
-In this article, we'll walk through how to customize the work order form, though the steps can be used to customize any Field Service web form.
+This article explains how to customize the work order form, though the steps can be used to customize any Field Service web form.
 
 > [!Note]
 > There is a separate and unique process to customize the mobile work order form for frontline workers. See the configuration considerations at the end of this article.
 
 ## 1. Understand the default work order form 
 
-Before customizing the work order form, make sure you understand the default work order form included with Field Service. Understanding the existing fields and recommended process flow will help you determine what changes to make to the form. Using the default fields and processes is recommended for better performance, usability, and upgradability.
+Before customizing the work order form, make sure you understand the default work order form included with Field Service. Understanding the existing fields and recommended process flow helps you determine what changes to make to the form. Using the default fields and processes is recommended for better performance, usability, and upgradability.
 
 Go to **Field Service** > **Work Orders** and select an existing record or create a new one.
 
@@ -29,21 +29,17 @@ The work order form is optimized for the following standard work order process.
 1. A work order is created manually, from a converted case, via an IoT alert, from an agreement schedule, or via an integration. Newly created work orders have a system status equal to _Unscheduled_ by default. 
 1. Work order details are entered like the account, work order type, location, products, services, service tasks, and any other information that is important.
 1. The work order is scheduled to one or more resources ("frontline workers") and the system status automatically becomes _Scheduled_.
-1. The frontline worker views the scheduled work order on their mobile app and travels to the customer location to perform the required work. The system status becomes _In Progress_. The frontline worker updates information like when they arrived on site, service tasks completed, services and products billed. 
+1. The frontline worker views the scheduled work order on their mobile app and travels to the customer location to perform the required work. The system status becomes _In Progress_. The frontline worker updates information like when they arrived on site, service tasks completed, and services and products billed. 
 1. The frontline worker completes the work order and the system status becomes _Completed_.
-1. The back office manager or dispatcher views the completed work order and verifies the work is completed and the necessary data is captured. If everything is finished the status is changed to _Posted_.
+1. The back office manager or dispatcher views the completed work order and verifies the work is completed and the necessary data is captured. If everything is finished, the status is changed to _Posted_.
 
-> [!div class="mx-imgBorder"]
-> ![Field Service work order showing products, services, and service tasks.](./media/customization-form-process.png)
-
-[Read more about the Field Service work order process](work-order-status-booking-status.md)
+For more information, go to [Field Service work order process](work-order-status-booking-status.md).
 
 View and understand the default fields and determine which ones can be used for your business.
 
-> [!div class="mx-imgBorder"]
-> ![Field Service work order.](./media/customization-form-work-order.png)
+:::image type="content" source="media/customization-form-work-order.svg" alt-text="Screenshot of Field Service work order showing products and services.":::
 
-The following fields are critical to the Field Service work order process and are required. If your organization doesn't plan to use these fields, then you may want to consider using another entity table or creating an entirely new one.
+The following fields are critical to the Field Service work order process and are required. If your organization doesn't plan to use these fields, then you might want to consider using another entity table or creating an entirely new one.
 
 - **Work Order Number**
 - **System Status**
@@ -63,37 +59,38 @@ The following subgrids are also critical to the Field Service work order process
 - **Products**
 - **Services**
 
-For more information, see these articles on [Field Service architecture](field-service-architecture.md) and [creating a work order](create-work-order.md).
+For more information, go to [Field Service architecture](field-service-architecture.md) and [create a work order](create-work-order.md).
 
 ## 2. Make a list of needed and unneeded fields
 
-Make a list of default work order fields that are relevant to your business process and another list of unneeded fields. Make sure to add the critical fields mentioned above to the list of needed fields as they're required.  
+Make a list of default work order fields that are relevant to your business process and another list of unneeded fields. Make sure to add the critical fields to the list of needed fields as they're required.  
 
 ## 3. Create new fields as needed
 
 Create new fields if the default work order form is missing fields that you need.
 
-For more information on best practices, see the article: [How to create and edit Field Service columns (fields)](field-service-customize-columns-fields.md)
+For more information on best practices, go to [How to create and edit Field Service columns (fields)](field-service-customize-columns-fields.md)
 
 > [!Note]
-> Use caution when editing default fields, and never delete default fields. 
+> Use caution when editing default fields, and never delete default fields.
 
 ## 4. Begin customizing the work order form
 
-Go to **https://make.powerapps.com** > **Tables** > **Work Order** > **Forms**.
+1. Sign in to `https://make.powerapps.com`.
 
-Select the Main **Work Order** form. This is the work order form included with Field Service.
+1. Select **Tables**. Search for and select **Work Order**. Then, select **Forms**.
 
-> [!div class="mx-imgBorder"]
-> ![Power Apps showing the main work order form.](./media/customization-form-go-to-main.png)
+1. Find the Main **Work Order** form.
 
-While we recommend using the main **Work Order** form, there are some scenarios where you may want to create a completely new form. 
+   :::image type="content" source="media/customization-form-go-to-main.svg" alt-text="Screenshot of main Field Service work order form.":::
 
-In the following tabbed sections, we'll look at the pros and cons of using the existing work order forms and creating a new one. 
+While we recommend using the main **Work Order** form, there are some scenarios where you might want to create a new form.
+
+In the following tabbed sections, we explain the pros and cons of using the existing work order forms and creating a new one.
 
 ## [Existing form (recommended)](#tab/existing-form)
 
-Using the existing form is better for scenarios where your organization doesn't want to make many changes to the layout or fields; it's also better for organizations that generally want to use the default work order process.
+Using the existing form is better for scenarios where your organization doesn't want to make many changes to the layout or fields. It's also better for organizations that generally want to use the default work order process.
 
 ### Pros
 
@@ -104,26 +101,27 @@ Using the existing form is better for scenarios where your organization doesn't 
 ### Cons
 
 - **Less customizable** - By agreeing to use the existing work order form, you agree to make fewer changes to the form.
-- **Need to test upgrades** - The existing work order form will receive updates as much as twice per year. You'll have to test new updates in a sandbox environment and ensure they won't disrupt your users. For more information, see the article: [Merge form customizations](/power-platform/alm/how-managed-solutions-merged#merge-form-customizations). 
+- **Need to test upgrades** - The existing work order form receives updates as much as twice per year. You'll want to test new updates in a sandbox environment and ensure they don't disrupt your users. For more information, see the article: [Merge form customizations](/power-platform/alm/how-managed-solutions-merged#merge-form-customizations). 
+
 ## [New custom form](#tab/new-form)
 
-Some scenarios may call for a completely custom work order form. The top reasons you may need to create a custom work order form include:
+Some scenarios might call for a custom work order form. The top reasons you might need to create a custom work order form include:
 
-1. You have a unique work order process and are unable to use the standard work order process included with Dynamics 365 Field Service, or you need to add many custom fields (greater than 100).
-2. You have decided it's not feasible for all roles to use the same work order form, even while using security roles and field security profiles to limit information; you also need to create different forms for different user personas.
+1. You have a unique work order process and are unable to use the standard work order process included with Dynamics 365 Field Service. Or you need to add many custom fields (greater than 100).
+2. You decide it's not feasible for all roles to use the same work order form, even while using security roles and field security profiles to limit information. You also need to create different forms for different user personas.
 
 ### Pros
 
-- **Shielded from UI updates** - A new custom form won't receive updates to the user interface meaning the layout and fields displayed on the form. This can be beneficial if you have very specific processes and form layouts.
+- **Shielded from UI updates** - A new custom form doesn't receive updates to the user interface meaning the layout and fields displayed on the form. Lack of updates can be beneficial if you have specific processes and form layouts.
 - **More edits** - You're free to make more changes to the form to fit your unique work order process.
 
 ### Cons
 
-- **No updates** - Your custom work order form won't receive updates from Microsoft. It will be static.
-- **Maintenance costs** - If Microsoft releases work order features that your organization wants to adopt, you'll need to manually customize your forms to include those features. This costs time and money.
+- **No updates** - Your custom work order form doesn't receive updates from Microsoft. It is static.
+- **Maintenance costs** - If Microsoft releases work order features that your organization wants to adopt, you have to manually customize your forms to include those features. This costs time and money.
 - **Risk of slow performance and errors** - Evidence shows that custom forms tend to have slower performance and more errors because of the risk of violating form design best practices. Review the risks and best practices at the end of this article.
 
-### To create a completely custom work order form...
+### Create a custom work order form
 
 Go to **https://make.powerapps.com** > **Tables** > **Work Order** > **Forms**.
 
@@ -132,7 +130,7 @@ Select **Add form** at the top and select main form.
 > [!div class="mx-imgBorder"]
 > ![Power Apps showing the list of forms, and the "Add Form" dropdown.](./media/customization-form-create-custom.png)
 
-You can also start from a copy of the default form if you've already made changes there.
+You can also start from a copy of the default form if you made changes there.
 
 > [!div class="mx-imgBorder"]
 > ![Power Apps showing the "Save" and "Save as" options for forms.](./media/customization-form-copy.png)
