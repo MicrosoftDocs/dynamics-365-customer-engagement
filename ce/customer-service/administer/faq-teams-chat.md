@@ -15,7 +15,7 @@ View answers to questions about setting up Teams chat in customer engagement app
 
 ## How do I turn off Teams collaboration?
 
-1. In the Customer Service admin center site map, in **Agent experience**, select **Collaboration**.
+1. In the site map of Customer Service admin center, in **Agent experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
    
@@ -25,7 +25,7 @@ View answers to questions about setting up Teams chat in customer engagement app
 
 ## How do I turn on Teams collaboration for specific apps?
 
-1. In the Customer Service admin center site map, in **Agent experience**, select **Collaboration**.
+1. In the site map of Customer Service admin center, in **Agent experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
    

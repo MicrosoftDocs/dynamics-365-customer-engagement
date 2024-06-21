@@ -30,7 +30,7 @@ The terminal states for SLA KPI Instances are succeeded, cancelled, and non-comp
 
 You can enable the recalculation of SLAs that reach the terminal status in the Customer Service admin center or Customer Service Hub app.
 
-1. In the Customer Service admin center site map, select **Service Terms** in **Operations**.
+1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**.
 
 1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** view is displayed.
 

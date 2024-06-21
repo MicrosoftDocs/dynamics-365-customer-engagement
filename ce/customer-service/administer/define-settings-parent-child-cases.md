@@ -33,7 +33,7 @@ You can track multiple issues for a customer or the same issue that's affecting 
   
 ## Set parent and child case attributes
 
-1. In the Customer Service admin center site map, select **Case Settings** in **Customer support**. The **Case Settings** page appears.
+1. In the site map of Customer Service admin center, select **Case Settings** in **Customer support**. The **Case Settings** page appears.
      
 1. Select **Manage** for **Parent child case settings**.
 

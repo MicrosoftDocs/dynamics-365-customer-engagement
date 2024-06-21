@@ -27,7 +27,7 @@ You can replicate the SLA settings in another environment by exporting the solut
 
 You can enable the export or import of a calendar from the Customer Service admin center app.
 
-1. In the Customer Service admin center site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Customer Service admin center, select **Service terms** in **Operations**. The **Service Terms** page appears.
 
 1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** page appears.
 

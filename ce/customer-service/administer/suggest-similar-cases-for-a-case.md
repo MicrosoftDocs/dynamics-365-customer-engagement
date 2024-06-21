@@ -46,8 +46,8 @@ Based on configured data input, the Relevance search mechanism filters the cases
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
   
-1. In the Customer Service admin center app site map, go to **Case Settings** in **Customer Support**. The **Case Settings** page appears.
-1. In the **Advanced similarity rules** section, select **Manage**. The **All Advanced Similarity Rules** page is displayed.
+1. In the site map of Customer Service admin center, go to **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+1. In the **Advanced similarity rules** section, select **Manage**. The **All Advanced Similarity Rules** page appears.
 
 1. Select **New** on the command bar to create an advanced similarity rule.  
 
@@ -103,23 +103,23 @@ See the below table to understand how search results are impacted when Relevance
 
 3. On the **Customizations** page, select **Customize the System**.
   
-   The **Information** page is displayed.
+   The **Information** page appears.
 
 4. In the left pane, expand **Entities**, go to the entity you want to customize, expand it, and then select **Views**.
   
-   A view page with a list of items is displayed.
+   A view page with a list of items appears.
 
 5. Double-click **Quick Find </entity name>** for the entity. (Note: You might need to scroll down to find this option.)
   
    ![Views page.](../media/quick-find-view.png "Select Views") 
    
-   A view page is displayed.
+   A view page appears.
   
 6. On the right-hand side, select **Add Find Columns**.
    
    ![Add Find Columns.](../media/add-find-columns.png "Select Add Find Columns")
   
-   The **Add Find Columns** page is displayed.
+   The **Add Find Columns** page appears.
    
 7. Select the checkbox for the entity you want to be an exact match field.
 

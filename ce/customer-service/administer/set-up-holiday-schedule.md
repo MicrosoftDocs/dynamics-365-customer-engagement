@@ -34,7 +34,7 @@ You can create a holiday schedule in the Customer Service admin center app.
   
    - [!INCLUDE[proc_follow_steps_in_link](../../includes/proc-follow-steps-in-link.md)] [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
 
-1. In the Customer Service admin center site map, select **Calendar** in **Operations**. The **Calendar** page appears.
+1. In the site map of Customer Service admin center, select **Calendar** in **Operations**. The **Calendar** page appears.
 
 1. In the **Holiday calendar** section, select **Manage**. The **All Holiday Schedules** view is displayed. You can switch between various system views using the dropdown list.  
  

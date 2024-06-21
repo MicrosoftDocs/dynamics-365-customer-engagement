@@ -71,7 +71,7 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 
 ## Create a queue
 
-1. In the Customer Service admin center site map, select **Queues** in **Customer support**.
+1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
     
 1. On the **Queues** page, select **Manage** for **Basic queues**.
   
@@ -108,7 +108,7 @@ After you have saved the queue, the following changes happen in the SUMMARY tab:
 
 To optimize agent efficiency, you can set up custom views that contain a filtered list of queues. These queues are relevant to the type of cases that the agents handle. You can then set the view as the default from which agents can pick a queue or user to route the work items.
 
-1. In the Customer Service admin center site map, go to **Customer support** in the site map and select **Queues**.
+1. In the site map of Customer Service admin center, go to **Customer support**, and then select **Queues**.
 
 1. On the page that appears, select **Manage** for **Routing dialogs**.
 

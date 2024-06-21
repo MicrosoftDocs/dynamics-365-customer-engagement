@@ -22,7 +22,7 @@ By default, the Knowledge analytics dashboard is enabled for the System Administ
 
 Use the Customer Service admin center app to enable or disable knowledge analytics reports.
 
-1. In the Customer Service admin center site map, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 
 1. In **Knowledge analytics**, select **Manage**. The **Knowledge analytics** page is displayed.
     
@@ -34,7 +34,7 @@ Use the Customer Service admin center app to enable or disable knowledge analyti
 
 ## Configure Search term insights dashboard
 
-1. In the Customer Service admin center site map, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 
 1. In the **Knowledge analytics** section, select **Manage**. The **Knowledge analytics** page is displayed.
 

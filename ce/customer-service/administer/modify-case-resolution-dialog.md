@@ -36,7 +36,7 @@ If you have custom security roles, you must update the roles to use the modified
 
 You can set the case resolution dialog that agents see when they resolve the case. By default, the field is set to **Standard dialog**. Perform the following steps to set the resolve case dialog to a customizable case resolution dialog. This enables you to modify the case resolution dialog to add or remove fields and values.
 
-1. In the Customer Service admin center site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+1. In the site map of Customer Service admin center, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
      
 1. Select **Manage** for **Other Settings**.
 

@@ -26,7 +26,7 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 ## Provision unified routing for Customer Service only
 
-1. In the Customer Service admin center site map, select **Routing**. The **Routing** page appears.
+1. In the site map of Customer Service admin center, select **Routing**. The **Routing** page appears.
    
 1. Select **Manage** for **Turn on Unified Routing for Records**.
 

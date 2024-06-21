@@ -18,7 +18,7 @@ You might need to update case descriptions or other information after the cases 
 
 Perform the following steps to enable modifications to cases that are in the resolved or canceled state:
 
-1. In the Customer Service admin center site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+1. In the site map of Customer Service admin center, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
 
 1. Select **Manage** for **Other settings**.
 

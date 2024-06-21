@@ -46,7 +46,7 @@ The settings that you've previously configured for your organization, including 
 
 You can customize the search filters for knowledge articles in the Customer Service admin center app.
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Customer Service admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 
 1. On the **Knowledge** page, go to the **Filters** section and select **Manage**. The **Filters** page appears.
 
@@ -80,7 +80,7 @@ To configure custom fields as search filters for knowledge articles:
 
 ## Additional configuration settings
 
-* If Dataverse Search is enabled and if you have selected the **Archived**, **Discarded**, or **Expired** values for the **Status** filter, articles that contain these values will not be displayed.
+* If Dataverse Search is enabled and if you have selected the **Archived**, **Discarded**, or **Expired** values for the **Status** filter, articles that contain these values aren't displayed.
 
  * To view these articles in your Dataverse Search results, you must delete the **Archived**, **Discarded**, **Expired**, and **Is Latest Version** filters in the **Quick Find Knowledge Article > Edit Filter Criteria** dialog.
 
@@ -97,7 +97,7 @@ The following steps apply to these data types:
  
 You can add a default filter in the Customer Service admin center app.
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Customer Service admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 
 1. On the **Knowledge** page, go to the **Filters** section and select **Manage**. The **Filters** page appears.
 
@@ -106,7 +106,8 @@ You can add a default filter in the Customer Service admin center app.
     > [!div class=mx-imgBorder]
     > ![Add a default filter.](../media/default-filter-config.png "Add a default filter.")
     
-1. Customize the filter according to your requirements by selecting or deselecting the values displayed, and then turn on the **Set as a preselected filter** option if you want the filter to be shown to the agent by default.
+1. Select the values or clear the selection to customize the filter, and then turn on the **Set as a preselected filter** option to display the filter to the agent by default.
+
 1. Select **Save**.
 
 ## Configure fields with data type as lookup as filters
@@ -115,12 +116,12 @@ Some configurable filter values may include lookup types, where there are numero
 
 You can configure a lookup type filter in the Customer Service admin center app.
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Customer Service admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 
 1. On the **Knowledge** page, go to the **Filters** section and select **Manage**. The **Filters** page appears.
 
 1. Scroll to the bottom of the page, select the filter type you want from the dropdown list, and then select **Add**. 
-   The **Lookup Records** flyout menu is displayed.
+   The **Lookup Records** flyout menu appears.
    
    > [!div class=mx-imgBorder]
    > ![Lookup Records field.](../media/lookup-records.png "Lookup Records field.")
@@ -150,7 +151,7 @@ Keep in mind the following:
  
 You can deactivate or reactivate a filter configuration in the Customer Service admin center app.
 
-1. In Customer Service admin center site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Customer Service admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 
 1. On the **Knowledge** page, go to the **Filters** section and select **Manage**. The **Filters** page appears.
 
@@ -167,14 +168,14 @@ You may have scenarios within your organization where agents are working on diff
 
 You can allow your agents to personalize the knowledge article search filters for their areas, from the Customer Service admin center app.
 
-1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Customer Service admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 
 1. In the **General settings** section, select **Manage**. The **General settings** page appears.
 
-1. Customize the filter according to your needs by selecting or deselecting the values displayed and then turn on the **Set as a preselected filter** toggle if you want the filter to be shown to the agent by default. 
+1. Select the values or clear the selection to customize the filter, and then turn on the **Set as a preselected filter** option to display the filter to the agent by default.
 
    > [!NOTE]
-   > This option will be available only if **Enable custom filters** is set to **Yes**.
+   > This option is available only if **Enable custom filters** is set to **Yes**.
 
 4. Select **Save**.
 

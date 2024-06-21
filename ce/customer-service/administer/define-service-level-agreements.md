@@ -64,9 +64,7 @@ Review the following requirements before configuring SLAs for your organization:
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you'd like to track.
 
-You can create SLA KPIs from the Customer Service admin center app.
-
-1. In the Customer Service admin center site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
 
 1. In the **SLA KPIs** section, select **Manage**. The **Active SLAKPIs** view is displayed.
 
@@ -151,9 +149,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA
 
-You can create an SLA from the Customer Service admin center app.
-
-1. In the Customer Service admin center site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
 
 1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. You can switch between various system views using the drop-down list.  
 
@@ -169,9 +165,7 @@ You can create an SLA from the Customer Service admin center app.
 
 ### Create an SLA item
 
-You can create an SLA item from the Customer Service admin center app.
-
-1. In the Customer Service admin center site map, select **Service Terms** in **Operations**. The **Service Terms** page appears
+1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
 
 1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item.
 

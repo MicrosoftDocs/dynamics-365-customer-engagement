@@ -32,7 +32,7 @@ You can create an entitlement template in the Customer Service admin center app.
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
 
-1. In the Customer Service admin center site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
+1. In the site map of Customer Service admin center, select **Service terms** in **Operations**. The **Service Terms** page appears.
 
 1. In the **Entitlement Templates** section, select **Manage**. The **All Entitlement Templates** view is displayed. You can switch between various system views using the drop-down list.  
 
