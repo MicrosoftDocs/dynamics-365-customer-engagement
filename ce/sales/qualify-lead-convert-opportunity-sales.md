@@ -21,11 +21,12 @@ searchScope:
 ---
 # Qualify and convert leads to opportunity
 
-After you've identified the time frame, budget, and purchase process for a lead, qualify the lead to create the corresponding account, contact, and opportunity. 
+After you've identified the time frame, budget, and purchase process for a lead, qualify the lead to create the corresponding account, contact, and opportunity records. If a lead isn't likely to turn into an opportunity, disqualify the lead to keep a record of the sales process.
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)] 
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -34,7 +35,7 @@ After you've identified the time frame, budget, and purchase process for a lead,
 
 ## Qualify a lead
 
-1. In the Sales Hub site map ![Site Map icon.](media/site-map-icon.png "site map icon"), select **Leads**.
+1. From the Sales site map, select **Leads**.
 
 2. In the list of leads, open the lead you want to qualify.
 
@@ -61,7 +62,7 @@ As part of the [new lead qualification experience](define-lead-qualification-exp
 
 **Record creation**
 
-- If your administrator has turned on the new experience and enabled automatic creation for account, contact, and opportunity records, the records are created automatically. You'll see a **Processing** message while the records are being created. After the records are created, the opportunity record opens.
+- If your administrator has turned on the new experience and enabled automatic creation of account, contact, and opportunity records, the records are created automatically. You'll see a **Processing** message while the records are being created. After the records are created, the opportunity record opens. 
 
 - If your admin has turned off automatic creation for all records, you'll see the **Qualify lead** side pane for creating the contact, account, and opportunity records. For contact and account records, you can choose to create a new record, use an existing record, or skip creating the record. 
 
@@ -69,12 +70,18 @@ As part of the [new lead qualification experience](define-lead-qualification-exp
        :::image type="content" source="media/qualify-lead-dialog-box-mix.png" alt-text="Screenshot of the Qualify side pane when record creation is set to automatic for contact and account, and manual for opportunity.":::
   In this example, account and contact records are not editable. If you need to change the account or contact details, close the side pane, edit the details in the Lead form, and then select **Qualify**.
 
-**Multiple opportunities creation**
-
-If your admin has enabled multiple opportunities creation, you can create multiple opportunities for a lead. Select the 
-
 For information on how the fields in the lead record are mapped to other records, see [Field mappings to other entities](define-lead-qualification-experience.md#field-mappings-to-other-entities). If a similar account or contact already exists, the duplicate detection dialog box opens and you can choose to create a new record or use the existing record. For more information, see [What happens when duplicates are found while qualifying leads?](faq-lead.md#what-happens-when-duplicates-are-found-while-qualifying-leads).
 
+**Multiple opportunities creation**
+
+If your admin has enabled multiple opportunities creation, you can create multiple opportunities for a lead. A default opportunity record is created when the lead is qualified. To create additional opportunities, select *+New Opportunity* on the Qualify lead side pane.
+
+:::image type="content" source="media/multiple-opportunities.png" alt-text="Screenshot of the option to create multiple opportunities in the Qualify Lead side pane.":::
+
+**Lead summary**
+If your admin has enabled lead summarization, you'll see a summary of the lead after it's qualified. The summary includes the key details from the lead record.
+
+:::image type="content" source="media/lead-qualify-finish-page.png" alt-text="Screenshot of the Lead qualified page that appears after the lead is qualified":::
 
 ### Legacy experience
 
