@@ -1,6 +1,6 @@
 ---
-title: "Create customized IoT solutions in Connected Customer Service | MicrosoftDocs"
-description: "Understand how to create customized IoT solutions in Connected Customer Service for Azure IoT Central."
+title: Create customized IoT solutions in Connected Customer Service
+description: Understand how to create customized IoT solutions in Connected Customer Service for Azure IoT Central.
 ms.date: 06/21/2024
 ms.topic: article
 author: lalexms
@@ -56,7 +56,7 @@ To find the simulator URL, sign in to your Azure subscription, and then select t
 > [!div class="mx-imgBorder"]
 > ![configure connection.](../media/cs-iot-deployment-app.png)
 
- The key can be accessed by selecting the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
+ You can access the key by selecting the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![access key in iothubowner.](../media/cs-iot-resource-azure-portal.png)
@@ -154,17 +154,15 @@ You can also manage devices by categorizing them. For example, you can categoriz
   
 ### Create a new IoT device category  
   
-You can create a new IoT device category in the Customer Service admin center app.
+1. In the site map of Customer Service admin center, select **Miscellaneous** in **Operations**.
 
-1. In the Customer Service admin center site map, select **Miscellaneous** in **Operations**.
-
-1.  In the **Device Categories** section, select **Manage**. The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list.  
+1. In the **Device Categories** section, select **Manage**. The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list.  
 
 1. On the command bar, select **New**.  
   
 1. Enter a **Name** for the device category.  
   
-1.  Use the helpful tooltips to fill in information.  
+1. Use the helpful tooltips to fill in information.  
   
 1. When you're done, select **Save**.  
   

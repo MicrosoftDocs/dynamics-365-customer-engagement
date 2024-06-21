@@ -38,7 +38,7 @@ Categories are useful for reporting, sorting, segmenting, and categorization of 
 
 You can create a category in the Customer Service admin center by performing the following steps:
 
-1. In  the Customer Service admin center site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Customer Service admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 1. In the **Categories** section, select **Manage**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
   
 1. On the command bar, select **New** to create a new category record.  

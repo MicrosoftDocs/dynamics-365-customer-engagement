@@ -34,7 +34,7 @@ To enable Teams integration in Customer Service, the following prerequisites mus
 
 Complete the following steps to enable Teams meeting integration.
 
-1. In the Customer Service admin center site map, go to **Agent experience** > **Collaboration**.
+1. In the site map of Customer Service admin center, go to **Agent experience** > **Collaboration**.
     
 1. In **Meeting integration using Teams (preview)**, select **Manage**.
    

@@ -72,7 +72,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
 **To create the routing ruleset**
 
-1. In the Customer Service admin center site map, select **Routing**. The **Routing** page appears.
+1. In the site map of Customer Service admin center, select **Routing**. The **Routing** page appears.
 
 1. Select **Manage** for **Basic routing rule sets**.
 

@@ -58,7 +58,7 @@ The AI suggestions feature is supported in the following languages:
 
 **To enable collaboration with Microsoft Teams and chat**
 
-1. In the Customer Service admin center site map, go to **Agent experience** > **Collaboration**.
+1. In the site map of Customer Service admin center, go to **Agent experience** > **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
    

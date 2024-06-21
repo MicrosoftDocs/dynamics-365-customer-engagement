@@ -33,7 +33,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
    
 ## Create cases automatically using rules
 
-1. In the Customer Service admin center, go to **Case Settings** > **Automatic record creation and update rules** > **Manage**.
+1. In the site map of Customer Service admin center, go to **Case Settings** > **Automatic record creation and update rules** > **Manage**.
 
 1. To create a new case creation rule, select **New**.  
 

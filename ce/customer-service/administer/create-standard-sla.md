@@ -30,9 +30,7 @@ ms.collection: get-started
 
       - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)] 
    
-    You can create standard SLAs in the Customer Service admin center app by performing the following steps:
-
-1. In the Customer Service admin center site map, select **Service terms** in **Operations**. The **Service terms** page appears.
+1. In the site map of Customer Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
 1. In the **Service-level agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements from Unified Interface** view is displayed.
 
