@@ -34,7 +34,7 @@ Here are a couple options:
     Start exploring, and play around with the sample data until you’re ready to work with your real customer data.
 
 -   **Do a quick read that covers the basics.** The user guide and learning modules contain all the essentials you need to know to navigate the app,
-    find and enter customer data, glean actionable insights from interactive dashboards, and more. And it’s short. (We know you’re busy.)
+    find and enter customer data, glean actionable insights from interactive dashboards, and more and it’s short. (We know you’re busy.)
 
 No matter how you decide to get started, soon you’ll be up and running—working your deals and building profitable relationships along the way, as you turn your
 customers into lifelong fans of your products.
