@@ -1,7 +1,7 @@
 ---
 title: Location auditing for the mobile app
 description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app.
-ms.date: 06/04/2024
+ms.date: 06/19/2024
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -52,6 +52,9 @@ The geolocation tracking records will be created in the following scenarios:
 3. **On stop after moving** - When the user comes to a still position after moving, it will create a few more tracking records as it settles and then it stops, before creating new records when location changes again.
 
 The above events only apply within the tracking start and end times and the location checking frequency is per the “Refresh Interval.”
+
+> [!NOTE]
+> Location tracking events might be sent less frequently based on the mobile device operating system. This frequency can be influenced by battery savings settings, device battery charge status, and other applications running on the device which might consume device resources.
 
 ## Step 2. Allow Field Service mobile to access your location
 
