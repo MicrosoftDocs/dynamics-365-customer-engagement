@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi 
 ms.topic: how-to 
-ms.date: 07/21/2023
+ms.date: 06/21/2024
 ms.custom: bap-template 
 ---
 
@@ -17,7 +17,7 @@ After you add search providers to Customer Service, you can use the **Insights**
 
 ## View insights
 
-1. In the Customer Service admin center, go to **Knowledge > Integrated search providers (Preview) > Manage**.
+1. In the site map of Customer Service admin center, go to **Knowledge > Integrated search providers > Manage**.
 1. Select **Active integrated search providers** or **Inactive integrated search providers** in the list, and then select a search provider.
 1. Select the **Insights** tab.
 

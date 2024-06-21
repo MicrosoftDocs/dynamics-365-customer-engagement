@@ -33,7 +33,7 @@ If you're a first-time user, you must provision integrated search providers. Mak
 ## Provision integrated search providers
 
 1. Sign in to the Dynamics 365 Customer Service admin center.
-1. Go to **Knowledge** > **Integrated Search providers (Preview)** > **Manage**.
+1. Go to **Knowledge** > **Integrated Search providers** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
 
 If you aren't able to provision the integrated search provider, you'll need to enable the Integrated Search API trigger flow.
