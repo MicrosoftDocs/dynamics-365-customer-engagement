@@ -4,7 +4,8 @@ description: Learn how to create IoT alerts and convert IoT alerts into work ord
 ms.date: 03/25/2021
 
 ms.subservice: connected-field-service
-ms.topic: article
+ms.topic: how-to
+
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"

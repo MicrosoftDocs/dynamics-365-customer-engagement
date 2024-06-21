@@ -1,6 +1,6 @@
 ---
-title: "Manage agent scripts | MicrosoftDocs"
-description: "Follow the steps mentioned in the article to create and configure agent scripts that can be used by agents when they are interacting with customers."
+title: Manage agent scripts
+description: Follow the steps mentioned in the article to create and configure agent scripts that can be used by agents when they are interacting with customers.
 author: neeranelli
 ms.author: nenellim
 ms.date: 02/29/2024
@@ -24,13 +24,13 @@ Agent scripts reduce the human errors involved, because agents know which action
 
 ## Prerequisites
 
-- Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../implement/add-users-assign-roles.md).
+- Make sure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../implement/add-users-assign-roles.md).
 
-- Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
+- Make sure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
 
 ## Create agent scripts
 
-Create agent scripts in the Customer Service admin center by following these steps:
+Create agent scripts in the admin center by following these steps:
 
 1. In the **Customer Service admin center** site map, select **Productivity** in **Agent experience**. 
 1. On the **Productivity** page, select **Manage** for **Agent scripts**. 
@@ -79,17 +79,7 @@ The agent script is now configured.
 
 After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that the agent script will load for agents based on the type of session they've opened.
 
-1. Select one of the following apps, and perform the steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-     - In the site map, select **Session templates** in **Workspaces**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-   
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-      - In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
+1. In the site map of the admin app, select **Session templates** in **Workspaces**.
 
 2. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
 
@@ -113,18 +103,11 @@ As an administrator, you can set different default agent scripts for agents who 
 Based on these conditions, when an agent accepts an incoming conversation, the agent script control selects a script from the different scripts that were made available for that particular session type and shows the script to the agent. In addition, agents can manually select a script from the list of available agent scripts if they need to switch between different scripts.
 
 ### Enable and build the expression
+
 You can build the expression in the **Agent scripts** tab in the sessions template.
 
-1. Select one of the following appss, and perform the steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-     - In the site map, select **Session templates** in **Workspaces**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    - In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
-    
+1. In the site map, select **Session templates** in **Workspaces**.
+ 
 2. Go to the **Agent scripts** tab.
 
 3. Set the **Enable build expression** toggle to **Yes**, and then select **Build Expression** to define the expression. The **Expression builder** page is displayed.

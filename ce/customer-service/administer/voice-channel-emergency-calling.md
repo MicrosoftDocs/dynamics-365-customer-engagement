@@ -3,8 +3,8 @@ title: Support emergency calls made by agents
 description: Use this article to understand how emergency calls work and how you can set up email recipients for emergency calls in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
-ms.date: 10/05/2023
+ms.reviewer: mgandham
+ms.date: 06/10/2024
 ms.topic: how-to
 ms.custom: bap-template
 ms.collection:
@@ -26,7 +26,7 @@ This article describes how emergency calling works in Customer Service when agen
 Make sure that the following prerequisites are complete so that the emergency calls work properly:
 
 - The omnichannel agent user has a capacity profile associated with a voice outbound profile. For more information, see [Configure capacity profiles](voice-channel-outbound-calling.md#configure-capacity-profiles-and-assign-users) and [Create outbound profiles](configure-outbound-inbound-profiles.md#create-outbound-profiles).
-- Browser location setting is enabled, and set to United States or Puerto Rico.
+- Browser location setting is enabled, and set to United States, Canada, or Puerto Rico.
 - For the email notification, the [mailbox for the agents](/power-platform/admin/create-forward-mailboxes-edit-mailboxes) is enabled.
 - For the emergency call to be handled, one of the following conditions must be fulfilled:
    - The number from which it originates must be a Microsoft calling plan number.
@@ -42,7 +42,7 @@ In Customer Service workspace or Omnichannel for Customer Service, agents can us
 
 Here's how the emergency calls work:
 
-1. The agent calls the emergency number such as 911 in the United States or Puerto Rico.
+1. The agent calls the emergency number such as 911 in the United States, Canada, or Puerto Rico.
 1. The agent status automatically changes to "Do not disturb," irrespective of the current status.
 1. A temporary callback number is assigned to the agent for a duration of 60 minutes. 
 1. If the emergency call is dropped or gets disconnected, then the emergency responder can call back the agent via this callback number. The emergency callback gets the highest priority, bypassing all configured routing rules, capacity profiles, and presence settings.

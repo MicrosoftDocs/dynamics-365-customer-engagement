@@ -4,6 +4,7 @@ ms.custom:
 description: Troubleshoot and issues to know about Dynamics 365 for phones and tablets.
 ms.date: 04/20/2023
 ms.reviewer:
+ms.service: d365ce-op
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: error-reference

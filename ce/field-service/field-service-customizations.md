@@ -4,7 +4,7 @@ description: Learn how to customize Field Service for your business needs.
 ms.custom:
 - dyn365-fieldservice
 ms.date: 05/10/2023
-ms.topic: article
+ms.topic: overview
 author: lmasieri
 ms.author: lmasieri
 ---

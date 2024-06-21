@@ -2,7 +2,7 @@
 title: Customize the work order form
 description: Learn how to customize work order forms in Dynamics 365 Field Service.
 ms.date: 03/03/2022
-ms.topic: article
+ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
 ---

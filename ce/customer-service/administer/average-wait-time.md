@@ -1,7 +1,7 @@
 ---
 title: "Show customers their average wait time in a queue | MicrosoftDocs"
 description: "How to show customers their average wait time for a chat widget in Omnichannel for Customer Service."
-ms.date: 02/29/2024
+ms.date: 06/14/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -25,9 +25,7 @@ The average wait time is calculated based on wait times from the previous 48 hou
 
 ## Enable average wait time
 
-If you're using the Customer Service admin center or Omnichannel admin center (deprecated) app, follow these steps:
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
+If you're using the Customer Service admin center app, follow these steps:
 
 1. Go to the workstream of the chat widget in which you need to configure the settings, select edit for the required chat widget, and on the **Chat channel Settings** page, go to the **Behaviors** tab.
 
