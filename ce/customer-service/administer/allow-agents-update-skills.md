@@ -1,6 +1,6 @@
 ---
 title: Enable agents to update skills
-description: Learn how to enable the setting that allows agents to update skills at runtime in Customer Service Hub and Omnichannel for Customer Service.
+description: Learn how to enable the setting that allows agents to update skills at runtime.
 ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli

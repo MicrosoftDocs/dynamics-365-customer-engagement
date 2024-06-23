@@ -1,6 +1,6 @@
 ---
 title: Create and manage capacity profiles
-description: Learn how to create and manage capacity profiles for agents, and set custom limits for the profiles in Omnichannel for Customer Service.
+description: Learn how to create and manage capacity profiles for agents, and set custom limits for the profiles.
 ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli

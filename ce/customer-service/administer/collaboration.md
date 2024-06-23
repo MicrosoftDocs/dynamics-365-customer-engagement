@@ -1,10 +1,10 @@
 ---
-title: "Overview of collaboration in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "This topic provides information about different collaboration features that are available in Dynamics Customer Service."
+title: Overview of collaboration in Dynamics 365 Customer Service
+description: This topic provides information about different collaboration features that are available.
 author: lalexms
 ms.author: laalexan
 ms.topic: overview
-ms.date: 11/27/2023
+ms.date: 07/01/2024
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Assignment methods for queues
-description: Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing.
+description: Learn about the different assignment methods for queues and how you can use them in unified routing.
 ms.date: 03/21/2024
 ms.topic: conceptual
 author: neeranelli

@@ -1,6 +1,6 @@
 ---
 title: Configure automated messages
-description: Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service.
+description: Perform the steps mentioned in the article to configure automated messages in your contact center.
 ms.date: 04/18/2024
 author: lalexms
 ms.author: laalexan
@@ -10,8 +10,6 @@ ms.custom: bap-template
 ---
 
 # Configure automated messages
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 

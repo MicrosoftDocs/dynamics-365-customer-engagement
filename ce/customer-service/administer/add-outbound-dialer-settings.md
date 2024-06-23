@@ -16,6 +16,8 @@ ms.custom:
 
 # Enable agents to search for contacts and open records from outbound dialer (preview)
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
