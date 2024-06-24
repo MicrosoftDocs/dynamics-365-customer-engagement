@@ -72,7 +72,7 @@ The higher the number of network requests made during a form load, and the more 
 
 ### Avoid using synchronous network requests
 
-Synchronous network requests can cause slow page loads and unresponsive forms. [Use asynchronous requests instead](/powerapps/developer/model-driven-apps/best-practices/business-logic/interact-http-https-resources-asynchronously). See this [blog post](https://powerapps.microsoft.com/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests/) for more examples. In addition, consider using "async and wait" in any scenario where multiple network calls for the same entity and record are needed; find [more details here](https://developer.mozilla.org/docs/Learn/JavaScript/Asynchronous/Async_await).
+Synchronous network requests can cause slow page loads and unresponsive forms. [Use asynchronous requests instead](/power-apps/developer/model-driven-apps/best-practices/business-logic/interact-http-https-resources-asynchronously). See this [blog post](https://power-apps.microsoft.com/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests/) for more examples. In addition, consider using "async and wait" in any scenario where multiple network calls for the same entity and record are needed; find [more details here](https://developer.mozilla.org/docs/Learn/JavaScript/Asynchronous/Async_await).
 
 ### Avoid including unnecessary JavaScript web resource libraries
 
@@ -100,8 +100,8 @@ Avoid using form scripts in the OnLoad event that hide form elements. Instead se
 
 For more information, see these resources:
 
-- [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
-- [Unsupported customizations for Microsoft Dataverse (Dataverse)](/powerapps/developer/data-platform/supported-customizations#unsupported-customizations)
+- [Optimize model-driven app form performance in Power Apps](/power-apps/maker/model-driven-apps/optimize-form-performance)
+- [Unsupported customizations for Microsoft Dataverse (Dataverse)](/power-apps/developer/data-platform/supported-customizations#unsupported-customizations)
 
 ## Run Solution Checker on your scripts
 
@@ -109,7 +109,7 @@ The Power Apps solution checker is a useful tool from Microsoft that checks Powe
 
 For more information, see these resources:
 
-- [Use solution checker to validate your apps in Power Apps](/powerapps/maker/data-platform/use-powerapps-checker)
+- [Use solution checker to validate your apps in Power Apps](/power-apps/maker/data-platform/use-powerapps-checker)
 - [How to run and use the Power Apps solution checker](https://carldesouza.com/how-to-run-and-use-the-power-apps-solution-checker/)
 - [Dataverse Solution Checker](https://dynamics-chronicles.com/article/dataverse-solution-checker)
 
@@ -125,16 +125,16 @@ Field Service and Resource Scheduling ship with many processes that perform nece
 
 Deactivated processes can lead to errors.
 
-To avoid issues, make sure all Field Service and Resource Scheduling processes are in an active state. Regularly [run the Field Service Solution Health Hub](troubleshoot-field-service-solution-health.md) to identify if processes are in a deactivated state. 
+To avoid issues, make sure all Field Service and Resource Scheduling processes are in an active state. To identify if processes are in a deactivated state, regularly [run the Field Service Solution Health Hub](troubleshoot-field-service-solution-health.md).
 
 ## Run Solution Health Hub to detect issues
 
-Solution Health Hub allows you to get a better picture of the state of your environment and detect issues with your Dynamics 365 environment. The Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Dynamics 365 Field Service and you can run the rules on demand when you encounter an issue. Some rules automatically trigger when Field Service is installed or updated. 
+Solution Health Hub allows you to get a better picture of the state of your environment and detect issues with your Dynamics 365 environment. The Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Dynamics 365 Field Service and you can run the rules on demand when you encounter an issue. Some rules automatically trigger when Field Service is installed or updated.
 
-Regularly [run the Field Service Solution Health Hub](troubleshoot-field-service-solution-health.md) ruleset to monitor the health of your environment.
+To monitor the health of your environment, regularly [run the Field Service Solution Health Hub](troubleshoot-field-service-solution-health.md) ruleset.
 
 ## Mobile app performance considerations
 
-Customizing the mobile app can also affect performance. For more information, see this article: [Performance considerations when customizing the mobile app](improve-mobile-performance.md)
+Customizing the mobile app can also affect performance. For more information, go to [Performance considerations when customizing the mobile app](improve-mobile-performance.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
