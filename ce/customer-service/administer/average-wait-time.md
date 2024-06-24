@@ -1,6 +1,6 @@
 ---
-title: "Show customers their average wait time in a queue | MicrosoftDocs"
-description: "How to show customers their average wait time for a chat widget in Omnichannel for Customer Service."
+title: Show customers their average wait time in a queue
+description: How to show customers their average wait time for a chat widget in Omnichannel for Customer Service.
 ms.date: 06/14/2024
 ms.topic: article
 author: lalexms
@@ -10,7 +10,7 @@ ms.author: laalexan
 # Show customers their average wait time in a queue
 
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 ## Overview
 

@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
 ms.collection: 
-ms.date: 10/04/2023
+ms.date: 07/01/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -16,6 +16,8 @@ ms.custom:
 ---
 
 # Enable resizing of the communication panel
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Agents can increase or decrease the width of the communication panel for a specific channel by dragging the right edge of the communication panel to the left or right. The resized width of the communication panel is channel specific.
 

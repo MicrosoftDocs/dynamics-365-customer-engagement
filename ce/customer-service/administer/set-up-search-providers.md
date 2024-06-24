@@ -25,6 +25,8 @@ searchScope:
 
 # Set up external search providers
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 Use external search providers to federate the search of files, documents, and articles from data sources, such as SharePoint or another organization outside your current organization.
 
 You can set up one of the following as a search provider:

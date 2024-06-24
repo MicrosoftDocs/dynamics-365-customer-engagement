@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Configure knowledge article schema mapping
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 As part of [adding an integrated search provider](add-search-provider.md#add-integrated-search-providers) in Customer Service, you need to tell the service how to ingest the knowledge articles it receives from the provider. You do that by selecting and configuring a knowledge article schema. You can't change the schema after you save the configuration.
 
 If you applied a language filter in the **Authentication and Testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).

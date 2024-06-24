@@ -9,7 +9,7 @@ ms.author: laalexan
 
 # Show customers their position in a queue
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 As an administrator, you can turn on the feature that notifies a customer of their position in the queue and the average wait time when they're waiting to chat with an agent. You can help set customer expectations when wait times are longer due to higher volumes of customers needing support, understaffing, or longer-than-expected handle times (for example, new issues or new agents). Knowing their queue position can help the customer decide whether to wait in the queue or come back later.
 
