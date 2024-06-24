@@ -29,9 +29,9 @@ Depending on the license you have, select one of the following tabs to know on h
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 
-1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**. 
+1. From the Sales Hub app, select the **Settings** icon :::image type="content" source="media/settings-icon.png" alt-text="Settings icon":::, and then **Advanced settings**. 
 
-2. Follow the instructions in [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context) to create a word template.  
+2. Follow the instructions in [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context) to create a word template.
 
 # [Sales Professional](#tab/SP)
 
@@ -51,7 +51,7 @@ Follow the steps in this article to successfully create Word templates in Dynami
 
 6.  In the **Select Entity** pane, select the entity to which the template applies. The template uses data from this entity.
 
-    ![Select entity in the Create Template wizard.](media/select-entity-create-template-wizard.png "Select entity in the Create Template wizard")
+    :::image type="content" source="media/select-entity-create-template-wizard.png" alt-text="Select entity in the Create Template wizard":::
 
 7.  To add the fields that you want to be included in the Word template, select **Choose Related Entities**. The **Settings Overview** dialog box opens.
 
@@ -74,9 +74,7 @@ Follow the steps in this article to successfully create Word templates in Dynami
 
 10.  To upload the template later, select  the **Upload the template later** check box, and then select **Done**.
 
-11.  To upload the template after you customize the data, go to the list of templates, and then select **Upload template**.
-
-For more information, see the [Step 4: Upload the Word template back into the Sales app](#step-4-upload-the-word-template-back-into-the-sales-app).
+11.  To upload the template after you customize the data, go to the list of templates, and then select **Upload template**. For more information, see the [Step 4: Upload the Word template back into the Sales app](#step-4-upload-the-word-template-back-into-the-sales-app).
 
 ### Step 2: Enable the Developer tab
 
@@ -86,7 +84,7 @@ To see and add Dynamics 365 Sales Professional XML data, you need to enable the 
 
 1.  Go to **File** \> **Options** \> **Customize Ribbon**, and then select the **Developer** check box.
 
-    ![Enable Developer tab in Word.](media/enable-developer-tab.png "Enable Developer tab in Word")
+    :::image type="content" source="media/enable-developer-tab.png" alt-text="Enable Developer tab in Word":::
 
 2.  Select **OK**.
 
@@ -99,20 +97,20 @@ Use the **XML Mapping** pane to define the Word template with Dynamics 365 Sales
 
 1.  In your Word template, go to the **Developer** tab and select **XML Mapping Pane**.
 
-    ![XML Mapping Pane in the Developer tab of Word.](media/xml-mapping-developer-tab.png "XML Mapping Pane in the Developer tab of Word")
+    :::image type="content" source="media/xml-mapping-developer-tab.png" alt-text="XML Mapping Pane in the Developer tab of Word":::
 
     The default XML schema is selected.
 
 2.  In the **Custom XML Part** list, select the Dynamics 365 Sales Professional XML schema. It begins with `urn:microsoft-crm/document-template/`.
 
-    ![Select the schema for Dynamics 365 Sales Professional.](media/select-schema-sales-professional.png "Select the schema for Dynamics 365 Sales")
+    :::image type="content" source="media/select-schema-sales-professional.png" alt-text="Select the schema for Dynamics 365 Sales Professional":::
 
     > [!IMPORTANT]
     > If you have frequent accidental edits that cause Word to freeze or have performance degradation, be sure to turn off the AutoCorrect options according to the section: “A known issue and how to avoid it”.
 
 3.  Expand the entity to see all available fields, right-click the field you wish to add, and then select **Insert Content Control** \> **Plain Text**.
 
-    ![Insert content as Plain Text.](media/insert-content-as-plain-text.png "Insert content as Plain Text")
+    :::image type="content" source="media/insert-content-as-plain-text.png" alt-text="Insert content as Plain Text":::
 
     The field from Dynamics 365 Sales Professional is added to the Word template.
 
@@ -120,7 +118,7 @@ Use the **XML Mapping** pane to define the Word template with Dynamics 365 Sales
 
     A completed template might look like this:
 
-    ![Complete Word template.](media/complete-word-template.png "Complete Word template")
+    :::image type="content" source="media/complete-word-template.png" alt-text="Complete Word template":::
 
     Some content control fields you entered likely have multiple lines of data. For example, accounts have more than one contact. To include all the data in your Word template, set the content control field to repeat.
 
@@ -130,11 +128,11 @@ Use the **XML Mapping** pane to define the Word template with Dynamics 365 Sales
 
 2.  Select the entire table row in the template.
 
-    ![Row selected in a table.](media/row-selected-table.png "Row selected in a table")
+    :::image type="content" source="media/row-selected-table.png" alt-text="Row selected in a table":::
 
 3.  In the **XML Mapping** pane, right-click the relationship containing the content control fields, and then select **Repeating**.
 
-    ![Set the content control fields to repeat in Word template.](media/set-content-control-fields.png "Set the content control fields to repeat in Word template")
+    :::image type="content" source="media/set-content-control-fields.png" alt-text="Set the content control fields to repeat in Word template":::
 
 When you use the Word template in Dynamics 365 Sales Professional to create a document, the table populates with multiple rows of data.
 
@@ -157,11 +155,11 @@ An administrator can use the **Advanced Settings** page to upload the Word templ
 
 1.  In the **Upload Template** pane, select **Choose File**. Find and select the file to be uploaded.
 
-    ![Upload Template step of Create Template wizard.](media/upload-template-step-create-template-wizard.png "Upload Template step of Create Template wizard")
+    :::image type="content" source="media/upload-template-step-create-template-wizard.png" alt-text="Upload Template step of Create Template wizard":::
 
 1.  Select **Upload**.
 
-1. In the Summary pane, review the file you're uploading, and then select **Finish**.
+1. In the **Summary** pane, review the file you're uploading, and then select **Finish**.
 
 ---
 
