@@ -17,17 +17,16 @@ Case handling time is the total time agents spend working on a case. The case ha
 
 ## Enable case handling time
 
-
 1. In Customer Service admin center, select **Case settings** in **Customer Support**.
 1. In the Case settings page, select **Manage**  for **Case handling time (preview)**. The Case handling time (preview) page appears.
 1. Select the **Enable case handling time** check box and then select **Save**.
 
- To use this feature and track time on a custom case form, after you select the **Enable case handling time** check box, perform the following steps:
+To use this feature and track time on a custom case form, after you select the **Enable case handling time** check box, perform the following steps:
 
 1. The link to Power Apps is enabled. Select the **Go to Power Apps for configuration** link. The Power Apps form page for Case table appears.
 1. Select the required form and add the [**Case handling time** component](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#add-components-to-a-form) to the form, and specify the following properties:
 
     - Track automatic time: Specify if the application should track time automatically only for the case owner or for any user who is working on the case.
-    - Select **Allow agents to add time logs** to allow agents to manually add time directly to a case. If this check box isn't selected, agents can't see **Time logs** in the case handling time widget. By default, this checkbox is selected.
+    - Select **Allow agents to add time logs** to allow agents to manually add time directly on the case. If this check box isn't selected, agents can't see **Time logs** in the case handling time widget. By default, this checkbox is selected.
     - Select **Show agents only their contributed time** to ensure that a specific agent sees only their time contribution to the case. If this check box isn't selected, agents can see the total time spent on the case by all agents.
 1. Save and publish the changes.
