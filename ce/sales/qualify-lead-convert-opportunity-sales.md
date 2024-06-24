@@ -58,7 +58,7 @@ After you've identified the time frame, budget, and purchase process for a lead,
 
 As part of the [new lead qualification experience](define-lead-qualification-experience.md#new-lead-qualification-experience-versus-legacy-experience), your admin can customize several aspects of the lead qualification process.
 
-**Record creation**
+#### Record creation
 
 - If your administrator has turned on the new experience and enabled automatic creation of account, contact, and opportunity records, the records are created automatically. You'll see a **Processing** message while the records are being created. After the records are created, the opportunity record opens. 
 
@@ -70,13 +70,22 @@ As part of the [new lead qualification experience](define-lead-qualification-exp
 
 For information on how the fields in the lead record are mapped to other records, see [Field mappings to other entities](define-lead-qualification-experience.md#field-mappings-to-other-entities). If a similar account or contact already exists, the duplicate detection dialog box opens and you can choose to create a new record or use the existing record. For more information, see [What happens when duplicates are found while qualifying leads?](faq-lead.md#what-happens-when-duplicates-are-found-while-qualifying-leads).
 
-**Multiple opportunities creation**
+#### Multiple opportunities creation
 
-If your admin has enabled multiple opportunities creation, you can create multiple opportunities for a lead. A default opportunity record is created when the lead is qualified. To create additional opportunities, select **+New Opportunity** on the Qualify lead side pane, as shown in the above screenshot.
+If your admin has enabled multiple opportunities creation, you can create multiple opportunities for a lead. A default opportunity record is added to the Qualify lead side pane. 
 
-**Lead summary**
+**To create additional opportunities:**
 
-If your admin has enabled lead summarization, you'll see a summary of the lead after it's qualified. The summary includes the key details from the lead record.
+1. Select **+New Opportunity** on the Qualify lead side pane. 
+
+1. In the Opportunity quick create form, enter the details for the opportunity. Would you like to see different fields in the opportunity form? Talk to your admin about [customizing the opportunity form](define-lead-qualification-experience.md#customize-opportunity-creation-experience-for-qualified-leads).
+
+1. Save the opportunity record.
+   The record is not created until you select **Qualify**. If you close the Qualify lead side pane without qualifying the lead, no records are created.
+
+#### Lead summary
+
+If your admin has enabled lead summarization, you'll see a summary of the lead after it's qualified. The summary includes key details from the lead record and is added to the timeline of the primary opportunity record.
 
 :::image type="content" source="media/lead-qualify-finish-page.png" alt-text="Screenshot of the Lead qualified page that appears after the lead is qualified":::
 
