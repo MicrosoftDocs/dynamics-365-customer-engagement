@@ -9,13 +9,13 @@ For information about older versions, see [Version history archive](../../field-
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | TBD | 06/28/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) | [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | 06/21/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | TBD | 07/05/2024 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) | [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | 06/28/2024 |
-| | *USG* |   [3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) | [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | 06/21/2024 |
-|**Station 4** |*Europe* |  [3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) | [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | 06/21/2024 |
-|**Station 5** |  *North America*|[3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) | [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | 06/28/2024 |
-|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) | [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | 06/28/2024 |
-| | *Dedicated Scale Groups* | [3.12.131.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121311)  | [3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329)| 06/21/2024 |
+| | *USG* |   [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | TBD | 07/05/2024 |
+|**Station 4** |*Europe* |  [3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) | [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | 07/05/2024 |
+|**Station 5** |  *North America*|[3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) | [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | 07/12/2024 |
+|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) | [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | 07/12/2024 |
+| | *Dedicated Scale Groups* | [3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) | [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | 07/19/2024 |
 
 >[!NOTE]
 >
@@ -52,6 +52,11 @@ For information about older versions, see [Version history archive](../../field-
 - Added a button to jump to today's date on the schedule board.
 - Fixed a bug that was displaying incorrect travel times for some requirement group bookings.
 - Various security enhancements.
+- **Introduced a new tool to efficiently make single day membership changes for crews.**
+- Fixed a bug that was causing the Schedule Assistant Booking Panel to malfunction when working with requirement groups.
+- Fixed a bug that was causing list view in schedule board to not show availability in some circumstances.
+-	Various security enhancements.
+
 
 
 ## 3.12.131.1
