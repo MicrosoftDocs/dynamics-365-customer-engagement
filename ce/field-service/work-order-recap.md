@@ -1,7 +1,7 @@
 ---
 title: Work order recap with Copilot in Field Service (preview)
 description: Let AI generate a work order recap to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 06/05/2024
+ms.date: 06/14/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -64,7 +64,7 @@ The recap focuses on the most relevant information based on the work order's lif
 
 ## Summary configuration (preview)
 
-Copilot in Field Service provides predefined summaries that are optimized for specific tables. With summary configuration, administrators can replace the default summaries by configuring their own to tailor to their business needs. The optimization used in the generation of default summaries is not applied to administrator-configured summaries.
+Copilot in Field Service provides predefined summaries that are optimized for specific tables. With summary configuration, administrators can replace the default summaries by configuring their own to tailor to their business needs. The optimization used in the generation of default summaries isn't applied to administrator-configured summaries.
 
 :::image type="content" source="media/copilot-summary-configuration.png" alt-text="Screenshot of the summary configuration for the copilot-based summary control.":::
 
@@ -76,6 +76,9 @@ Copilot in Field Service provides predefined summaries that are optimized for sp
 1. You can add, remove, and change the data columns that Copilot uses to generate the summary. Under **Table name**, open the drop-down to search or select the table by navigating through relationships. After you choose a table, the columns of the table will be available under **Column name**.
 1. In the **Sample summary** section, you can test this configuration using a row from the Dataverse table and preview the summary that Copilot generates based on real data.
 1. **Save** your changes when you're done making changes.
+
+> [!NOTE]
+> In cases where Field Service was pre-installed in an environment, you might see an empty list in **Summary Configuration** even after enabling the feature. To resolve, go to a work order and generate a summary. This reinitializes the out-of-the-box summary configuration and populates the list. Then, navigate back to **Summary Configuration**.
 
 ### Revert to the predefined summary
 

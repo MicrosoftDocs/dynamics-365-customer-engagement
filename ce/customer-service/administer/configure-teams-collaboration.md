@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams collaboration | MicrosoftDocs"
 description: "Learn how to configure collaboration with Microsoft Teams in Customer Service."
-ms.date: 01/25/2024
+ms.date: 06/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -58,21 +58,10 @@ The AI suggestions feature is supported in the following languages:
 
 **To enable collaboration with Microsoft Teams and chat**
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map of Customer Service admin center, go to **Agent experience** > **Collaboration**.
     
-    1. In **Embedded chat using Teams**, select **Manage**.
+1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    1. In the site map, select **Service Management**.
-    2. In **Collaboration**, select **Embedded chat using Teams**.
-
 
 1. On the **Microsoft Teams collaboration and chat**, set the toggle for **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** to **Yes**.
 

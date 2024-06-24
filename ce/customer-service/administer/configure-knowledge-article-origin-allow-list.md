@@ -34,21 +34,12 @@ For published articles, agents and portal users see an error message in the arti
 
 ## Configure origins allowlist
 
-You can configure the origins allowlist in the Customer Service admin center or Customer Service Hub app by performing the following steps:
+You can configure the origins allowlist in the Customer Service admin center app by performing the following steps:
 
 1. Go to the **Settings** page.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-    1. In the **General settings** section, select **Manage**. The **General settings** page appears.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    - In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
-
+1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the **General settings** section, select **Manage**. The **General settings** page appears.
 1.	Go to **Origins allowlist** and add your links to the **Add origin links** field.
 
 1.	Select **Add**![Add](../media/add-icon.png) or **Enter** to add the link to your list.

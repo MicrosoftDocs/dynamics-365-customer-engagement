@@ -1,7 +1,7 @@
 ---
 title: Use agent dashboard and call controls in the voice channel
 description: Learn how you can use the agent dashboard, call controls, and make and receive customer calls in Omnichannel for Customer Service.
-ms.date: 05/16/2024
+ms.date: 06/14/2024
 ms.service: dynamics-365-customerservice
 ms.topic: how-to
 author: gandhamm
@@ -38,11 +38,13 @@ To avoid the recording and transcription of what you say while the customer is o
   > When you initiate a consult, you are the primary agent and the new participant has a consult role. Select **Transfer** next to the participant to transfer the call to the consulting agent or supervisor. Once the call is transferred, you are the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call will end for the customer.
 - **Transfer**: Select this option is to transfer the call to an agent, queue, a Teams user, or an external phone number. After you transfer the call, the agent to whom the call is transferred is the primary agent and you'll no longer be on the call.
     During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls continue if the administrator enabled the [option](../administer/voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice). You can disable recording from the dashboard. See: [Transfer and consult scenarios](voice-channel-transfer-consult.md)
+- **Rejoin**: Select this option to rejoin the call. If you're disconnected from the call, you can rejoin the call from the Active Conversation form directly, instead of refreshing the page and then rejoining the call. Only primary agents see the **Rejoin** option. If the customer ends the call or the call is rerouted to the next available agent while you are disconnected, you'll hear a message that the customer ended the call or was rerouted on selecting **Rejoin**.
 - **End**: End the call.
 - **Dialpad**: Select this option to dial an extension number. If you must use the dial pad to send a response while navigating an IVR, select the dial pad icon next to the external participant in the participant list.
 - **Mark spam**: [Report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
 - **Device settings**: Configure your microphone and speaker settings.
 - **Take notes**:  Make note of important information or specific details from your conversation with the customer. It's in addition to the call recording and transcription that happen during the conversation. See [take notes specific to the conversation](../use/oc-take-notes.md).
+- - **Start recording and transcript**: If your administrator enabled the recording and transcription service, you can start recording and transcription of the call.
 - **Pause recording and transcription**: If you don't want to capture some details of the conversation—such as bank details, billing, or payment information—you can temporarily pause the transcription and resume it later.
 - **Knowledge Articles**: Get a list of knowledge base articles pertaining to the conversation that you can use to resolve the customer issue.
 - **Link to conversation**: You can link another conversation, case, customer, or knowledge article to the conversation.
@@ -51,6 +53,7 @@ To avoid the recording and transcription of what you say while the customer is o
   > The **Link to conversation** button is disabled after you end the voice call. Open account or contact on a new tab and select **Link to conversation** to link record (customer or case) to conversation.
 
 - **Transcription**: When your administrator enables the transcription and recording service, the conversation between you and the customer is automatically transcribed in real time. This means that you don't need to take notes during the call. This feature also helps your supervisor or agent (in a call transfer) to see the call history.
+   - **Hide Transcript**: You can hide the transcript if you don't want to see it during the call. Select **Show Transcript** to display the transcript again.
 - **Sentiment analysis**: The transcript also powers *live* sentiment analysis. This means that you or your supervisor can instantly view and gauge the customer's mood and feeling via the sentiment icons.
 
 ## Report a phone number as spam

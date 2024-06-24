@@ -33,16 +33,8 @@ ms.collection: get-started
 
 1.  Go to **Service-level agreements (SLAs)**.
 
-    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Service terms** in **Operations**. The **Service terms** page appears.
-    1. In the **Service-level agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements from Unified Interface** view is displayed.
-
-    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-   
-    - In the site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
+1. In the site map, select **Service terms** in **Operations**. The **Service terms** page appears.
+1. In the **Service-level agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements from Unified Interface** view is displayed. You can switch between various system views using the dropdown list.
 
 1. To create a new SLA, select **New**.
 
