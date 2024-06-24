@@ -141,6 +141,6 @@ To facilitate workflows, some parameters are cached so you can quickly can conti
 - Map panel: Open or closed 
 - Viewtype: Gantt or list view 
 - Viewmode: Hourly/daily/weekly 
-- Board start date: Cached for 8 hours
+- Board start date: Cached for 15 minutes
 - Column width: Zoom level
 - Requirement panel filters
