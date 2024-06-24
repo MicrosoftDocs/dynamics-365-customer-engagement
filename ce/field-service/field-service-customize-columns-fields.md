@@ -1,7 +1,7 @@
 ---
 title: "Create and edit Field Service columns (fields)"
 description: Learn about best practices for creating and editing fields in Dynamics 365 Field Service.
-ms.date: 06/21/2024
+ms.date: 06/24/2024
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -35,9 +35,7 @@ After understanding the existing fields and processes on the work order form, yo
 
 1. Select your environment and navigate to the table. For example, the work order table.
 
-1. Select **New** > **Column**. Enter the information for the new column.
-
-   :::image type="content" source="media/customization-form-create-fields.png" alt-text="Screenshot of Power Apps, showing the Add column option on the work order table.":::
+1. Select **New** > **Column**. Enter the information for the new column. For more information, go to [How to create and edit columns](/power-apps/maker/data-platform/create-edit-fields).
 
 1. Save your changes.
 
