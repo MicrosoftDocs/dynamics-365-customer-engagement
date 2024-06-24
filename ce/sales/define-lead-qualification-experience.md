@@ -74,7 +74,7 @@ In either case, if there's a matching record in the system, the duplicate detect
  
 ### Customize opportunity creation experience for qualified leads
 
-The following options are available only when you select **Seller** for Opportunity creation in the [new Lead qualification experience](#open-the-lead-qualification-settings-page):
+The following options are available only when you select **Seller** for Opportunity creation in the [new Lead qualification experience](#how-to-customize-the-lead-qualification-experience):
 
 - Under **Modify opportunity form**, select **Add or remove fields** to customize the opportunity form that opens when a lead is qualified. The quick create form opens in Power Apps for editing. You can add or remove fields, change the order of fields, or change the properties of fields. For more information, see [Add, move, configure, or delete columns on a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
 
@@ -82,7 +82,7 @@ The following options are available only when you select **Seller** for Opportun
 
 ### Summarize the lead after it's qualified
 
-When you turn on [new Lead qualification experience](#open-the-lead-qualification-settings-page), you can choose to let Copilot summarize the lead after it's qualified. Select the checkbox under the **Lead qualification details** section. 
+When you turn on [new Lead qualification experience](#how-to-customize-the-lead-qualification-experience), you can choose to let Copilot summarize the lead after it's qualified. Select the checkbox under the **Lead qualification details** section. 
 
 > [!NOTE]
 > Copilot must be [enabled for your organization](enable-setup-copilot.md) to use this feature. 
