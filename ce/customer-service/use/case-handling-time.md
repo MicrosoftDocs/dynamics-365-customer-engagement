@@ -38,7 +38,7 @@ The automatic timer tracks the time spent on a specific case only when it is in 
 | You select a resolved case.                       | The timer in the case doesn't start               |
 | You switch, minimize, refresh, or close browsers                                                   | Timer stops.                                       |
 | You lock your screen with the case in focus.                                                       | The timer stops.                                   |
-| The Case form is in the background when you perform actions like selecting queue item details or the resolve case dialo and so on.     | The timer continues to run.                        |
+| The Case form is in the background when you perform actions like selecting queue item details or the resolve case dialog and so on.     | The timer continues to run.                        |
    
 > [!NOTE]
 > Based on admin configuration, the application updates the database with the time tracked at regular intervals. If the browser is refreshed or closed, the application records the time for the last completed interval, and might not update the time from the ongoing interval.
