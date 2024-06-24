@@ -35,7 +35,7 @@ The automatic timer tracks the time spent on a specific case only when it is in 
 | The case is open in a session tab. You select a related entity record that opens as an app tab.           | The timer continues to run for the case.           |
 | The case form is closed.                                                                           | Timer stops.                                       |
 | You select a related case or a child case that's linked to the current case. The related case or child case opens.                       | The timer in the current case stops and the timer in the related case or child case starts.             |
-| You select a resolved case.                       | The timer in the case doesn't start               |
+| You select a resolved case.                       | The timer doesn't start               |
 | You switch, minimize, refresh, or close browsers                                                   | Timer stops.                                       |
 | You lock your screen with the case in focus.                                                       | The timer stops.                                   |
 | The Case form is in the background when you perform actions like selecting queue item details or the resolve case dialog and so on.     | The timer continues to run.                        |
