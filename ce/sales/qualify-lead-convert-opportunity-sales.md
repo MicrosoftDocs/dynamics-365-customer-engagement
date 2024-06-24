@@ -35,16 +35,14 @@ After you've identified the time frame, budget, and purchase process for a lead,
 
 ## Qualify a lead
 
-1. From the Sales site map, select **Leads**.
+1. From the site map, select **Leads**.
 
-2. In the list of leads, open the lead you want to qualify.
+2. In the list of leads, open the lead you want to qualify. Want to qualify multiple leads at once? See [Qualify leads in bulk](#qualify-leads-in-bulk).
 
-3. In the **Qualify** section of the process bar, specify the following information:
-    - If the lead is from an existing account or contact, select them in the **Existing Contact** and **Existing Account** fields.
+3. (Optional) In the **Qualify** section of the process bar, specify the following information:
+    - If the lead is from an existing account or contact, select them in the **Existing Contact** and **Existing Account** fields. This step is optional because you can create or use an existing account and contact when you qualify the lead, depending on how your administrator has configured the lead qualification experience.
     - Specify the other details such as purchase timeframe and estimated budget.
 
-     > [!TIP]
-     > To qualify multiple leads, go back to the leads list page and select the leads that you want to qualify.
 4. On the command bar, select **Qualify**.
 
     Depending on the lead qualification experience configured by your administrator, you'll experience one of the following flows: 
@@ -64,7 +62,7 @@ As part of the [new lead qualification experience](define-lead-qualification-exp
 
 - If your administrator has turned on the new experience and enabled automatic creation of account, contact, and opportunity records, the records are created automatically. You'll see a **Processing** message while the records are being created. After the records are created, the opportunity record opens. 
 
-- If your admin has turned off automatic creation for all records, you'll see the **Qualify lead** side pane for creating the contact, account, and opportunity records. For contact and account records, you can choose to create a new record, use an existing record, or skip creating the record. 
+- If your admin has turned off automatic creation for all records, you'll see the **Qualify lead** side pane for creating the contact, account, and opportunity records. For contact and account records, you can choose to create a new record, use an existing record, or skip creating the record.
 
 - If your admin has turned on automatic creation for a few and manual creation for others, you'll see the **Qualify lead** side pane. The pane displays records that will be created automatically and records that you need to create manually. For example, if the account and contact records are set to be created automatically, and the opportunity record is set to be created manually, the side pane displays the records as shown in the screenshot below. 
        :::image type="content" source="media/qualify-lead-dialog-box-mix.png" alt-text="Screenshot of the Qualify side pane when record creation is set to automatic for contact and account, and manual for opportunity.":::
@@ -74,11 +72,10 @@ For information on how the fields in the lead record are mapped to other records
 
 **Multiple opportunities creation**
 
-If your admin has enabled multiple opportunities creation, you can create multiple opportunities for a lead. A default opportunity record is created when the lead is qualified. To create additional opportunities, select *+New Opportunity* on the Qualify lead side pane.
-
-:::image type="content" source="media/multiple-opportunities.png" alt-text="Screenshot of the option to create multiple opportunities in the Qualify Lead side pane.":::
+If your admin has enabled multiple opportunities creation, you can create multiple opportunities for a lead. A default opportunity record is created when the lead is qualified. To create additional opportunities, select **+New Opportunity** on the Qualify lead side pane, as shown in the above screenshot.
 
 **Lead summary**
+
 If your admin has enabled lead summarization, you'll see a summary of the lead after it's qualified. The summary includes the key details from the lead record.
 
 :::image type="content" source="media/lead-qualify-finish-page.png" alt-text="Screenshot of the Lead qualified page that appears after the lead is qualified":::
@@ -100,8 +97,6 @@ If your admin has enabled lead summarization, you'll see a summary of the lead a
 ## Qualify leads in bulk
 
 You can qualify multiple leads at once. To qualify multiple leads, open the **Leads** page in read-only grid view and select the leads that you want to qualify. On the command bar, select **Qualify**.
-
-:::image type="content" source="media/bulk-qualify.png" alt-text="Screenshot of Qualify Leads dialog.":::
 
 You can only qualify leads in bulk when your administrator configures automatic record (account, contact, and opportunity) creation for leads.  
 
