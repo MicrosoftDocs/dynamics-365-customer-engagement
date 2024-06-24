@@ -12,7 +12,9 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Configure inbound calling to set up the voice channel in Customer Service. You can enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+Configure inbound calling to set up the voice channel in Dynamics 365. You can enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel.
 
 ## Prerequisites
 
@@ -84,10 +86,14 @@ The phone number is associated with the workstream.
 You see the following transfer and consult options:
 
 - **Enhanced voice options**: Actions available for workstreams created in or migrated to the enhanced voice experience.
-- **Existing voice options**: Actions available for works treams that aren't migrated to the enhanced voice channel.
+- **Existing voice options**: Actions available for workstreams that aren't migrated to the enhanced voice channel.
+
+> [!NOTE]
+> In the embedded and standalone experiences of Dynamics 365 Contact Center, the enhanced voice options only are available.
 
 
 ### [Enhanced voice](#tab/enhancedvoice)
+
 
   1. Set the toggles for **External phone number** and **External Microsoft Teams users** in **Consult** and **Transfer**. This allows agents to consult with other agents or Teams subject matter experts during an ongoing call, and also enables them to transfer calls.
   2. Select the **Use bridged transfers** checkbox. The following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:

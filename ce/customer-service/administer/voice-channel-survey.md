@@ -15,6 +15,8 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for agents to provide high-quality service. You can configure the survey to take place immediately after the call so that customers can provide their feedback while the conversation is fresh on their minds.
@@ -67,7 +69,7 @@ You can add messages or questions to a Copilot Studio IVR bot to create a post-c
 > [!TIP]
 > The bot author can use Power Automate to implement custom business logic to decide who receives a survey (for example, the bot may decide to survey someone random, VIP customers, and so forth)
 
-## Connect your bot to Omnichannel for Customer Service
+## Connect your bot 
 
 - Configure your Copilot Studio bot. Perform the steps in [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel#configure-hand-off-in-the-power-virtual-agents-app) and [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md).
 - Configure your Azure bot. More information: [Integrate an Azure bot](../configure-bot.md)
@@ -78,7 +80,7 @@ You can add messages or questions to a Copilot Studio IVR bot to create a post-c
 
 To route the customer to the Power Voice Agent survey bot automatically after the agent hangs up, perform the following steps:
 
-1. In the Customer Service admin center app, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
+1. In the Customer Service admin center or Contact Center admin center app, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
 1. Under **Language**, scroll to the bottom of the dialog, and then toggle **Post-call survey** to **On**.
 1. From the dropdown menu, select the survey bot.
 1. Select **Confirm**.

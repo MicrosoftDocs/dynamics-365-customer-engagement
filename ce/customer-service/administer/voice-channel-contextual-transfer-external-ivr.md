@@ -1,6 +1,6 @@
 ---
 title: Integrate a third-party IVR system with voice channel
-description: Use this article to understand how you can integrate third-party IVR systems with Omnichannel for Customer Service voice channel and set up contextual call transfer via Azure direct routing.
+description: Use this article to understand how you can integrate third-party IVR systems with the voice channel and set up contextual call transfer via Azure direct routing.
 ms.date: 06/14/2024
 ms.topic: article
 author: gandhamm
@@ -10,6 +10,9 @@ ms.author: mgandham
 # Integrate a third-party IVR system with voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) lets you integrate a third-party interactive voice response (IVR) system with Omnichannel for Customer Service voice channel, and perform a contextual call transfer between them.
 
@@ -40,7 +43,7 @@ This section lists the high-level steps you must perform to enable contextual ca
        
 5. Create context variables with the same names as the SIP UUI header.
 
-    1. In Customer Service admin center, go to **Customer support** > **Workstreams**. A list of workstreams including voice workstreams is displayed.
+    1. In Customer Service admin center or Contact Center admin center, go to **Customer support** > **Workstreams**. A list of workstreams including voice workstreams is displayed.
     2. Select a voice workstream and then select **Edit** to configure the workstream.
     3. In the **Advanced settings** area, select **Add context variable**.
     4. In the **Edit** dialog that opens, select **Add**, and then select **Add context variable**.

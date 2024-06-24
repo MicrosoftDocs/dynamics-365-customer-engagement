@@ -1,6 +1,6 @@
 ---
 title: Configure call recording, transcription, and real-time translation 
-description: Learn how to configure call recording, transcription, and real-time translation in the voice channel in Omnichannel for Customer Service.
+description: Learn how to configure call recording, transcription, and real-time translation in the voice channel.
 author: neeranelli
 ms.author: nenellim
 ms.reviwer: nenellim
@@ -13,6 +13,9 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 As an administrator, you can enable live translation, transcription and recording of calls, which allows agents and supervisors to view the conversations with the customers in the language that's set as the default for them, and also transcripts of customer calls.
@@ -24,7 +27,7 @@ As an administrator, you can enable live translation, transcription and recordin
 ## Enable call recording and transcription for voice
 1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. More information: [Enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services).
    
-1. In the Customer Service admin center app, select the workstream for which you want to enable recording and transcription.
+1. In the Customer Service admin center or Contact Center admin center app, select the workstream for which you want to enable recording and transcription.
 
 1. In the **Phone number** section, next to the pencil icon, select **Edit**.
 
@@ -48,9 +51,9 @@ To view translated voice transcripts for calls, you must enable call recording, 
 
 ## View call transcripts
 
-You can view the call transcripts in Customer Service admin center.
+You can view the call transcripts in Customer Service admin center or Contact Center admin center.
 
-1. In the Customer Service admin center app, go to manage **Users**, and then select the user whose conversations you want to view.
+1. In the site map, go to manage **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
 3. Select **Closed conversations** from the dashboard dropdown menu.
 

@@ -14,6 +14,9 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 ## Enroll customers in biometric authentication
 
 When the agent picks up a customer call, if the customer is new, the following actions happen:

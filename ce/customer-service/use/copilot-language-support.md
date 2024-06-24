@@ -23,7 +23,9 @@ The key features are as follows:
 
 ## Scenarios
 
-The following scenarios can help you understand the language Copilot uses to generate the response.
+### Standalone app
+
+The following scenarios can help you understand the language Copilot uses to generate responses in the standalone app.
 
 | Scenarios | Copilot response | 
 | --- | --- | 
@@ -33,6 +35,20 @@ The following scenarios can help you understand the language Copilot uses to gen
 | The  UI language is set to Spanish. The agent asks a question in French. | Copilot displays the results in Spanish. |
 |  The UI language is set to Spanish. The knowledge articles are in the English language only. The agent asks a question in Spanish.| No response is generated. |
 | The UI language is set to Japanese. The Bing Market language is set to Japanese and the location is set to ja-JP. The agents asks a question that Copilot responds to with content from the public web pages. | Copilot returns responses if the restricted Bing search results are available in the set [market code](/bing/search-apis/bing-web-search/reference/market-codes) of ja-JP. |
+
+### Embed app
+
+The following scenarios can help you understand the language Copilot uses to generate responses in the embedded app.
+
+
+| Scenarios | Copilot response | 
+| --- | --- | 
+|The contact center embedded app's UI language is Spanish, the Salesforce UI language is Spanish. The knowledge articles are in Spanish. | Copilot generates responses in Spanish. |
+| The contact center embedded app's UI language is Spanish, the Salesforce UI language is German. The knowledge articles are in Spanish. The Copilot prompt is in Spanish| Copilot generates responses in Spanish. |
+|The contact center embedded app's UI language is Spanish, the Salesforce UI language is German. The knowledge articles are in German. The Copilot prompt is in Spanish. | Copilot doesn't display a response as the UI language and knowledge article language are different. |
+| The contact center embedded app's UI language is Spanish, the Salesforce UI language is Spanish. The knowledge articles are in Spanish. The Copilot prompt is in Finnish. | Copilot displays the results in Spanish. |
+| The contact center embedded app's UI language is Spanish, the Salesforce UI language is German. The knowledge articles are in Spanish. The Copilot prompt is in Finnish. |  Copilot displays the results in Spanish. |
+| The contact center embedded app's UI language is Spanish, the Salesforce UI language is German. The knowledge articles are in German. The Copilot prompt is in Finnish. |  Copilot doesn't display a response as the UI language and knowledge article language are different. |
 
 
 ### See also
