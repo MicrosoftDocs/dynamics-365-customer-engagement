@@ -41,12 +41,7 @@ To avoid errors:
 - Hide unwanted fields from a form.
 - Move unwanted fields to another form tab.
 
-Here's just one example: Field Service processes calculate the *Estimated Arrival Time* field value on the Bookable Resource Booking record to indicate when a frontline worker is expected to arrive on site. If your organization doesn't need this field, hide it on the form rather than remove it.
-
-For more information, see these articles:
-
-- [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
-- [Design forms for performance in model-driven apps](/powerapps/maker/model-driven-apps/design-performant-forms)
+Here's just one example: Field Service processes calculate the *Estimated Arrival Time* field value on the Bookable Resource Booking record to indicate when a frontline worker is expected to arrive on site. If your organization doesn't need this field, [hide it on the form](field-service-customize-forms.md#5-hide-form-tabs-sections-and-fields) rather than remove it.
 
 ## Don't edit option set (choice) values
 
@@ -69,7 +64,7 @@ To avoid these issues:
 - Minimize scripts running on load.
 - Don't write scripts that call lots of data or write multiple scripts that call the same data.
 
-Follow more [form script best practices](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk), including the following best practices:
+Follow more [form script best practices](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk), including the following best practices.
 
 ### Minimize the number of network requests and the amount of data requested in the OnLoad event
 

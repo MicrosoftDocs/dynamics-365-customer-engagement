@@ -65,13 +65,13 @@ For more information, go to [Field Service architecture](field-service-architect
 
 ## 2. Make a list of needed and unneeded fields
 
-Make a list of default work order fields that are relevant to your business process and another list of unneeded fields. Make sure to add the critical fields to the list of needed fields as they're required.  
+Make a list of default work order fields that are relevant to your business process and another list of unneeded fields. Make sure to add the [critical fields](#required-fields) to the list of needed fields as they're required.  
 
 ## 3. Create new fields as needed
 
 Create new fields if the default work order form is missing fields that you need.
 
-For more information on best practices, go to [How to create and edit Field Service columns (fields)](field-service-customize-columns-fields.md)
+For more information on best practices, go to [How to create and edit Field Service columns (fields)](field-service-customize-columns-fields.md).
 
 > [!Note]
 > Use caution when editing default fields, and never delete default fields.
@@ -141,25 +141,7 @@ You can also start from a copy of the default form if you made changes there.
 
 ## 5. Hide form tabs, sections, and fields
 
-The next step is to hide unwanted tabs, sections, and fields. We recommend that you _hide_ rather than *remove* items because it reduces the chances of errors and makes it easier to add them again later on if needed. Hide before rearranging or adding fields.
-
-> [!Important]
-> The following fields are critical to the Field Service work order process and are required. If your organization doesn't plan to use these fields then you may want to consider creating an entirely new entity table.
-> 
-> - **Work Order Number**
-> - **System Status**
-> - **Service Account**
-> - **Billing Account**
-> - **Price List**
-> - **Work Order Type**
-> - **Work Location**
-> - **Address**
-> - **Latitude**
-> - **Longitude**
-> 
-> The following subgrid is also critical to the Field Service work order process and should not be removed.
-> 
-> - **Bookable Resource Booking** ("Bookings")
+The next step is to hide unwanted tabs, sections, and fields. We recommend that you _hide_ rather than *remove* items because it reduces the chances of errors and makes it easier to add them again later on if needed. Hide before rearranging or adding fields. Don't hide [required fields](#required-fields). If your organization doesn't plan to use these fields then you might want to consider creating an entirely new entity table.
 
 #### Hide unwanted tabs
 
@@ -173,7 +155,7 @@ Sections are areas within tabs. Hide sections you don't need. If there's only on
 
 ### Hide unwanted fields
 
-Hide fields that aren't needed. Don't hide [required fields](#required-fields). 
+Hide fields that aren't needed, except [required fields](#required-fields). 
 
 ### Remove price-related fields if applicable
 
@@ -241,5 +223,10 @@ Use the monitoring tool to understand the root cause of why forms might be loadi
 The work order form includes form script libraries. Don't edit or remove any out-of-the-box form libraries.
 
 Many organizations run code scripts on load, on change, and on save of the form to perform validations and run processes. Form scripts can greatly affect form performance like load times. For more information, go to [Write scripts to implement complex business logic in Field Service](field-service-customize-scripts.md) for best practices, including [run solution checker to test scripts for issues](/powerapps/maker/data-platform/use-powerapps-checker).
+
+## See also
+
+- [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
+- [Design forms for performance in model-driven apps](/powerapps/maker/model-driven-apps/design-performant-forms)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
