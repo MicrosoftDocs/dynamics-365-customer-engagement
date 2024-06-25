@@ -1,7 +1,7 @@
 ---
 title: Customization best practices
 description: Learn about how to get the most out of your Dynamics 365 Field Service customizations.
-ms.date: 06/19/2024
+ms.date: 06/25/2024
 ms.topic: conceptual
 author: lmasieri
 ms.author: lmasieri
@@ -72,7 +72,7 @@ The higher the number of network requests made during a form load, and the more 
 
 ### Avoid using synchronous network requests
 
-Synchronous network requests can cause slow page loads and unresponsive forms. [Use asynchronous requests instead](/power-apps/developer/model-driven-apps/best-practices/business-logic/interact-http-https-resources-asynchronously). See this [blog post](https://power-apps.microsoft.com/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests/) for more examples. In addition, consider using "async and wait" in any scenario where multiple network calls for the same entity and record are needed; find [more details here](https://developer.mozilla.org/docs/Learn/JavaScript/Asynchronous/Async_await).
+Synchronous network requests can cause slow page loads and unresponsive forms. [Use asynchronous requests instead](/power-apps/developer/model-driven-apps/best-practices/business-logic/interact-http-https-resources-asynchronously). See this [blog post](https://powerapps.microsoft.com/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests/) for more examples. In addition, consider using "async and wait" in any scenario where multiple network calls for the same entity and record are needed; find [more details here](https://developer.mozilla.org/docs/Learn/JavaScript/Asynchronous/Async_await).
 
 ### Avoid including unnecessary JavaScript web resource libraries
 

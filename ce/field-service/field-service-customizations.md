@@ -3,7 +3,7 @@ title: "Customize Dynamics 365 Field Service for your unique business needs | Mi
 description: Learn how to customize Field Service for your business needs.
 ms.custom:
 - dyn365-fieldservice
-ms.date: 06/19/2024
+ms.date: 06/25/2024
 ms.topic: overview
 author: lmasieri
 ms.author: lmasieri

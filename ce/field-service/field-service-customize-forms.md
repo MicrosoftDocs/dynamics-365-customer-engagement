@@ -39,7 +39,7 @@ View and understand the default fields and determine which ones can be used for 
 
 :::image type="content" source="media/customization-form-work-order.svg" alt-text="Screenshot of Field Service work order showing products and services.":::
 
-### Required fields
+### Critical fields
 
 The following fields are critical to the Field Service work order process and are required. If your organization doesn't plan to use these fields, then you might want to consider using another entity table or creating an entirely new one.
 
@@ -65,7 +65,7 @@ For more information, go to [Field Service architecture](field-service-architect
 
 ## 2. Make a list of needed and unneeded fields
 
-Make a list of default work order fields that are relevant to your business process and another list of unneeded fields. Make sure to add the [critical fields](#required-fields) to the list of needed fields as they're required.  
+Make a list of default work order fields that are relevant to your business process and another list of unneeded fields. Make sure to add the [critical fields](#critical-fields) to the list of needed fields as they're required.  
 
 ## 3. Create new fields as needed
 
@@ -141,7 +141,7 @@ You can also start from a copy of the default form if you made changes there.
 
 ## 5. Hide form tabs, sections, and fields
 
-The next step is to hide unwanted tabs, sections, and fields. We recommend that you _hide_ rather than *remove* items because it reduces the chances of errors and makes it easier to add them again later on if needed. Hide before rearranging or adding fields. Don't hide [required fields](#required-fields). If your organization doesn't plan to use these fields then you might want to consider creating an entirely new entity table.
+The next step is to hide unwanted tabs, sections, and fields. We recommend that you _hide_ rather than *remove* items because it reduces the chances of errors and makes it easier to add them again later on if needed. Hide before rearranging or adding fields. Don't hide [critical fields](#critical-fields). If your organization doesn't plan to use these fields then you might want to consider creating an entirely new entity table.
 
 #### Hide unwanted tabs
 
@@ -155,7 +155,7 @@ Sections are areas within tabs. Hide sections you don't need. If there's only on
 
 ### Hide unwanted fields
 
-Hide fields that aren't needed, except [required fields](#required-fields). 
+Hide fields that aren't needed, except [critical fields](#critical-fields). 
 
 ### Remove price-related fields if applicable
 
@@ -206,7 +206,7 @@ In scenarios where you need custom fields in an existing tab, create a new secti
 > [!Note]
 > Don't add new custom fields into existing sections. You must create new sections. Also, avoid adding new sections and custom fields into the first form tab (named the summary tab by default), as it can lead to slower load times.
 
-For example, we created a new section in the work order timeline tab and we want to add custom fields in this new section.
+For example, we created a new section in the work order General tab and we want to add custom fields in this new section.
 
 :::image type="content" source="media/customization-form-new-section.png" alt-text="Screenshot of Power Apps work order form editor showing the new section.":::
 
