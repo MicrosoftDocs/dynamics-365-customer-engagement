@@ -9,11 +9,10 @@ ms.author: nenellim
 
 # Use SMS channels
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-## Channels overview
 
-When you sign in to Omnichannel for Customer Service, you can see your work items in the Omnichannel Agent Dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
+When you sign in, you can see your work items in the agent dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 
 ## Prerequisite
 
@@ -26,7 +25,7 @@ You'll receive a notification when a customer requests a conversation through Te
 > [!div class=mx-imgBorder]
 > ![Incoming chat notification.](../media/sms-notification-request.png "Incoming SMS notification")
 
-As an agent in Omnichannel for Customer Service, you can:
+In the application, you can:
 
 - [View customer information on Active Conversation form](oc-customer-summary.md).
 - [View the communication panel](oc-conversation-control.md).

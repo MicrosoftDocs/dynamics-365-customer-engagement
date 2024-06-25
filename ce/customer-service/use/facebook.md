@@ -10,11 +10,10 @@ ms.date: 03/12/2024
 
 # Use the Facebook channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-## Facebook channel overview
 
-When you sign in to Omnichannel for Customer Service, you can see your work items in Omnichannel Agent Dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
+When you sign in, you can see your work items in the agent dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 
 ## Prerequisite
 
@@ -27,7 +26,7 @@ You receive a notification when a customer requests a Facebook conversation. Whe
 > [!div class=mx-imgBorder]
 > ![Facebook chat agent notification.](../media/fb-agent-notif.png "Facebook chat agent notification")
 
-In Omnichannel for Customer Service, you can:
+In the application, you can:
 
 - [View customer information on Active Conversation form](oc-customer-summary.md)
 - [View communication panel](oc-conversation-control.md)

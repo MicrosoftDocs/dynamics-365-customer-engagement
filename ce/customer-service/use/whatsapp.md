@@ -10,9 +10,9 @@ ms.collection: get-started
 
 # Use WhatsApp channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-When you sign in to Omnichannel for Customer Service, you can see your work items in Omnichannel Agent Dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
+When you sign in you can see your work items in the agent dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 
 ## Prerequisite
 
@@ -32,7 +32,7 @@ You'll receive a notification when a customer requests a WhatsApp conversation. 
 > [!div class=mx-imgBorder]
 > ![WhatsApp chat agent notification-unauthenticated](../media/whatsapp-agent-notif2.png "WhatsApp chat agent notification-unauthenticated")
 
-In Omnichannel for Customer Service, you can:
+In the application, you can:
 
 - [View customer information on Active Conversation form ](oc-customer-summary.md)
 - [View communication panel](oc-conversation-control.md)
