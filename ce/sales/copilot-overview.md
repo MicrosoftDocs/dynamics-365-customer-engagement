@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 05/02/2024
+ms.date: 06/13/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -43,7 +43,9 @@ Record summarization gives you a quick summary of your opportunity and lead reco
 
 Learn more:
 
-- [Summarize a lead or opportunity](copilot-get-information.md#summarize-a-lead-or-opportunity)
+- [Summarize an account](copilot-get-information.md#summarize-an-account)
+- [Summarize an opportunity](copilot-get-information.md#summarize-an-opportunity)
+- [Summarize a lead](copilot-get-information.md#summarize-a-lead)
 - [Change the fields in the record summary](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
 
 ### Recent changes
@@ -52,7 +54,7 @@ To help you stay on top of your sales records, Copilot summarizes any changes th
 
 Learn more:
 
-- [View recent changes to your lead or opportunity](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity)
+- [View recent changes of your records](copilot-ask-questions.md#get-recent-changes)
 - [Get a list of recently updated sales records](copilot-ask-questions.md#whats-new-with-my-sales-records)
 - [View the leads and opportunities assigned to you recently](copilot-ask-questions.md#whats-newly-assigned-to-me)
 - [Change the fields you want to view in the recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)

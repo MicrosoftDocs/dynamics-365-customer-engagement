@@ -6,6 +6,8 @@ ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.collection:
 ---
 
 # Advanced: Connect using an existing Azure resource
@@ -23,7 +25,7 @@ You can connect your voice or SMS channels to Azure Communication Services using
   - The trial has ended after the free calling time has elapsed.
   - You've manually [ended the trial](voice-channel-trial-phone-numbers.md#end-the-trial).
   - You've [disconnected from the Azure resource](voice-channel-disconnect-from-acs.md). 
-- Your active Azure subscription is in the same tenant as your Dynamics 365 account.
+- Your active Azure subscription is in the same tenant as your Dynamics 365 account in the enhanced voice experience.
 - Your role has **Contributor** privileges.
 
 ### Get Azure resource information
@@ -70,19 +72,8 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 
 ## Connect using an existing Azure resource
 
-1. In Dynamics 365 Customer Service admin center or Omnichannel admin center (deprecated), open the phone number settings.
-
-    - Customer Service admin center:
-
-        1. In the site map, under **Customer support**, select **Channels**.
-        2. Select **Manage** for **Phone numbers**.
-
-    - Omnichannel admin center (deprecated): 
-    
-        [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-    
-    - In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
-
+1. In the site map of Customer Service admin center, under **Customer support**, select **Channels**.
+1. Select **Manage** for **Phone numbers**.
 1. Select **Use existing resource** and specify the following:
      - Paste the values you've copied in the [Get Azure resource information](#get-azure-resource-information) section to the following fields:
        - **ACS Resource name** and **ACS Resource ID**: The **Name** and **Resource ID** field values.

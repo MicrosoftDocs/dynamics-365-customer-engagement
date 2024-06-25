@@ -1,11 +1,13 @@
 ---
-title: "Manage context variables | MicrosoftDocs"
-description: "Use this article to understand how you can add context variables and then configure them in Omnichannel for Customer Service."
-ms.date: 02/02/2023
-ms.topic: article
+title: Manage context variables
+description: Use this article to understand how you can add context variables and then configure them in Omnichannel for Customer Service.
+ms.date: 06/14/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.collection: get-started
+ms.reviewer:
+ms.custom: bap-template
+ms.collection:
 ---
 
 # Manage context variables
@@ -14,7 +16,7 @@ ms.collection: get-started
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
-*Context variables* enrich conversations with pre-conversation data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues. Context variables are also used in agent productivity tools like macros and agent scripts.
+*Context variables* enrich conversations with preconversation data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues. Context variables are also used in agent productivity tools like macros and agent scripts.
 
 This article lists the considerations to use context variables and how you can create them.
 
@@ -24,28 +26,11 @@ This article lists the considerations to use context variables and how you can c
 
 ## Add context variables
 
-1. Go to one of the admin apps, and perform the following steps:
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    - In the site map, select **Workstreams** in **Customer support** and open a workstream from the list.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-    
-     - In the site map, select **Workstreams** in **General settings** and open a workstream from the list.
-    
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-     - In the **Service Management** area, select **Workstreams** in **Unified Routing**, and then open a workstream from the list.
-     
-2. Select **Add context variable** in the **Advanced settings** section of a workstream.
-3. In the **Edit** pane, select **Add**, and enter **Name**. Make sure that the variable name is less than or equal to 100 characters.
-4. Select the **Type** of variable from the dropdown list. You can choose either **Text** or **Number**.
-5. Repeat steps 3 and 4 to create the required variables.
+1. In the site map of Customer Service admin center, select **Workstreams** in **Customer support** and open a workstream from the list.
+1. Select **Add context variable** in the **Advanced settings** section of a workstream.
+1. In the **Edit** pane, select **Add**, and enter **Name**. Make sure that the variable name is less than or equal to 100 characters.
+1. Select the **Type** of variable from the dropdown list. You can choose either **Text** or **Number**.
+1. Repeat steps 3 and 4 to create the required variables.
 
 ## Configure context variables for Azure and Copilot Studio bots
 

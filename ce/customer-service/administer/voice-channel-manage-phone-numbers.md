@@ -1,7 +1,7 @@
 ---
 title: Manage phone numbers
 description: Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service.
-ms.date: 03/13/2024
+ms.date: 06/14/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -33,19 +33,7 @@ As an administrator, you can purchase phone numbers and calling plans, decide wh
 
 ## View phone numbers
 
-1. To view the available phone numbers in your organization, go to one of the apps in Dynamics 365, and do the following steps:
-
-      ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-      1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
-    
-      2. Select **Manage** for **Phone numbers**.
-
-      ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-      [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-      - In the site map, select **Phone numbers** in **General settings**.
+1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
 
 You see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
 
@@ -61,22 +49,9 @@ If you don't have any phone numbers set up for your business, see **Acquire new 
 
 You can purchase new phone numbers for your organization after you check for the prerequisites, install the voice channel, and successfully connect to an Azure Communication Services resource.
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-   1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
-    
-   2. Select **Manage** for **Phone numbers**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-   
-
-   - In the site map, select **Phone numbers** in **General settings**.
-    
+1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. Select **Manage** for **Phone numbers**.
 1. On the **Phone numbers** page, select **New number**. The **Add phone number** dialog opens.
-
 1. On the **Features** page, do the following:
 
    a. Select **Country/Region** from the dropdown list. The list of available plans for the selected country or region appears.
@@ -122,7 +97,7 @@ You can purchase new phone numbers for your organization after you check for the
 
 After you acquire a phone number, you must add it to a voice workstream to be able to use it. You can associate a phone number with only one voice workstream.
 
-1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page, and then select the phone number marked **Ready for setup** in the **Status** column.
+1. In Customer Service admin center, go to the **Phone numbers** page, and then select the phone number marked **Ready for setup** in the **Status** column.
 2. Select **Setup workstream**. The **Workstreams** page with a list of all workstreams is displayed.
 3. If you want to create a new workstream, select **New workstream**, and then follow the steps to [set up a voice workstream](voice-channel-inbound-calling.md#set-up-a-voice-workstream).
 4. Select an existing workstream from the list.
@@ -146,7 +121,7 @@ You can also assign personal phone numbers to agents, so they're able to make an
 
 If you want to change the calling plan, or upgrade the calling or SMS plans on a particular number, you can do so by editing the phone number. For example, if you hadn't selected any SMS plans, you can upgrade to the **Send SMS** or **Send and receive SMS** plans; if you selected only the **Send SMS** option, you can now upgrade to the **Send and receive SMS** plans.
 
-1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
+1. In Customer Service admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
 1. Select a phone number and then select **Edit**. The **Edit phone number** dialog with the current plan type, calling plan, and SMS plan is displayed.
 1. Make any changes to your call or SMS plans, and select **Save and Close**.
 
@@ -164,7 +139,7 @@ If you no longer need a phone number, you can release it from your organization'
 > When you release a phone number, you actually delete it from Dynamics 365, so release a number only if you're sure that you don't need it at all.
 > To disconnect phone numbers from an Azure Communication Services resource, see [Disconnect from Azure Communication Services resource](voice-channel-disconnect-from-acs.md).
 
-1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
+1. In Customer Service admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
 2. Select a phone number and select **Release number**. The **Release number** dialog requesting you to confirm the number deletion is displayed.
 3. Select **OK** if you're sure you don't need the number. The phone number is removed from your organization and is no longer displayed in the **Phone numbers** list.
 

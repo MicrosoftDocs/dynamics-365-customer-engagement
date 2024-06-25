@@ -1,11 +1,11 @@
 ---
 title: Understand scheduling entities
-description: Learn about scheduling entities in Dynamics 365 Customer Service.
-author: lalexms 
-ms.author: laalexan
+description: Learn about scheduling entities and how they are grouped in Dynamics 365 Customer Service.
+author: Soumyasd27
+ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 12/07/2023
+ms.date: 06/06/2024
 ms.custom: bap-template 
 ---
 
@@ -48,7 +48,7 @@ Scheduling entities are grouped under the following logical groups:
 **Tools**
 
 - **Schedule Board** </br>
-   The Dynamics 365 Customer Service schedule board provides an overview of resource availability and bookings you can make. 
+   The Dynamics 365 Customer Service schedule board provides an overview of resource availability and bookings you can make.
 
    [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the schedule board to configure service activity](../use/use-schedule-board-configure-service-activity.md)
 
@@ -67,6 +67,8 @@ Scheduling entities are grouped under the following logical groups:
 
 ### See also    
 
+[Overview of Service Scheduling](basics-service-service-scheduling.md#overview-of-service-scheduling)  
+[Enable an entity for resource scheduling](entity-schedule-enable.md#enable-an-entity-for-resource-scheduling)  
 [Service Scheduling FAQ](service-scheduling-faq.md) 
 
 

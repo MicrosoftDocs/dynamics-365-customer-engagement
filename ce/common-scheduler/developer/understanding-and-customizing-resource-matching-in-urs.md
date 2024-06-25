@@ -3,7 +3,7 @@ title: "Customize resource matching in Universal Resource Scheduling"
 description: "Learn how the built-in resource constraints are implemented in Universal Resource Scheduling, and how to extend the system with custom resource constraints."
 author: m-hartmann
 ms.author: mhart
-ms.date: 06/14/2018
+ms.date: 06/06/2024
 ms.reviewer: mhart
 
 ms.subservice: common-scheduler
