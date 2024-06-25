@@ -44,6 +44,9 @@ The *Geolocation Tracking (msdyn_geolocationtracking)* table stores all the loca
 1. **On the move**: A user moves away from their location more than 200 meters. The system creates new records after every refresh interval.
 1. **On stop after moving**: A user stops changing the location. The system creates few more records as it settles and then stops.
 
+> [!NOTE]
+> Location tracking events might be sent less frequently based on the mobile device operating system. This frequency can be influenced by battery savings settings, device battery charge status, and other applications running on the device which might consume device resources.
+
 You can audit location information with other Field Service tables. For more information, see [Auditing overview](/power-platform/admin/audit-data-user-activity).
 
 You can configure how far back in time a geolocation is valid. This is important for scenarios when mobile device lose internet connection, making dispatchers unaware of the true location. The time threshold can be configured in **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameter** > **Geo Data** > **Geo Location Expires After X Minutes**.
