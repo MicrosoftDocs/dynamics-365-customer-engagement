@@ -1,7 +1,7 @@
 ---
 title: Call a customer in the voice channel
 description: Use this article to understand how you can make customer calls in Omnichannel for Customer Service.
-ms.date: 04/01/2024
+ms.date: 07/01/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -9,8 +9,6 @@ ms.author: mgandham
 ---
 
 # Call a customer
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 

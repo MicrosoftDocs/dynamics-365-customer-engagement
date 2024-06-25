@@ -6,6 +6,20 @@
         href: ../index.yml
       - name: Welcome to Dynamics 365 Contact Centre
         href: ../implement/overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Unified routing and assignment
+        items:
+          - name: View historical analytics reports
+            href: supervisor-historical-analytics.md
+          - name: Access diagnostics for unified routing
+            href: supervisor-access-diagnostics.md
+          - name: Route records manually using unified routing
+            href: routing-trigger.md
+          - name: Work with queues
+            href: work-with-queues.md
+          - name: Manage case queues and route cases
+            href: customer-service-hub-user-guide-case-queues-and-routing.md
+          - name: Manage skills
+            href: manage-skills.md
       - name: Email
         items: 
           - name: Use email

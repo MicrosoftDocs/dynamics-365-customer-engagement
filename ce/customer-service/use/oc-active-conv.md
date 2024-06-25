@@ -1,6 +1,6 @@
 ---
-title: View Active Conversation in Omnichannel for Customer Service 
-description: Learn about Active Conversation, its sections, and how you can view customer information in Omnichannel for Customer Service.
+title: View customer information on Active Conversation form
+description: Learn about Active Conversation, its sections, and how you can view customer information.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -11,10 +11,6 @@ ms.custom: bap-template
 
 # View customer information on Active Conversation form
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
-> [!IMPORTANT]
-> The **Customer Summary** form is renamed as **Active Conversation** form.
 
 One of the major challenges that customers face when contacting customer support is repeatedly giving the same information about the issue to each support agent they talk to. And if they want to review the status of their request later, they have to share the same information with another support agent to explain the context of the engagement. To avoid this situation, support agents need access to all the information the customer has provided, including details about the product or service, issue, case history, related cases, and location.
 
@@ -22,12 +18,10 @@ Having this information ready can help support agents reduce the hold time that 
 
 ## What is Active Conversation?
 
-**Active Conversation** (formerly **Customer Summary**) is a page that appears when you accept an incoming request from any channel and gives you complete information about a customer. The  **Active Conversation** view provides the following sections:
+**Active Conversation** is a page that appears when you accept an incoming request from any channel and gives you complete information about a customer. The  **Active Conversation** view provides the following sections:
 
 - Customer (Contact or Account)
 - Conversation summary
-- Case
-- Recent cases
 - Timeline
 
 For active conversations, you can view the **Active Conversation** form on the agent dashboard of the Customer Service workspace or Omnichannel for Customer Service app. The **Active Conversation** form doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard. More information: [View agent dashboard and conversations](oc-agent-dashboard.md)
@@ -44,7 +38,7 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
   ### [Enhanced Active Conversation page](#tab/enhancedcustomersummarypage)
 
-  If your administrator has enabled the **Enhanced Active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. The application displays the customer or account, and case details cards with inline edit capabilities. You can also view the Recent cases card with color coded priority and status fields.  
+  If your administrator has enabled the **Enhanced Active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. The application displays the customer or account details with inline edit capabilities.  
    > [!NOTE]
    > - The form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. You can't switch to closed conversation form from the **Active Conversation** form while the conversation is still active or vice versa.
    > - You can see the form selector on the enhanced Active Conversation form if your administrator has enabled it for you. More information: [Display the form selector on Active Conversation form](../administer/add-customer-summary-settings.md#display-the-form-selector-on-active-conversation-form). However, if you use the form selector to switch to the closed conversation form, you'll see errors.
@@ -83,48 +77,6 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
 ---
 
-
-## View case details
-
-Use the **Case** section to search for an existing case, and select the case to link it to the conversation. If the record doesn't exist, you can create a new case by using the **Add Case** button. After you create it, search for the record and then select it to link it to the conversation. More information: [Case management in multisession apps](enh-casemgmt-csw.md)
-
-Depending on the settings that are enabled for you, you'll see one of the following layouts:
-
-
-   ### [Enhanced Active Conversation &mdash; Case Details](#tab/enhancedcase)
-
-  Displays the details, configured by the  of the case linked to the conversation. You can edit case details inline, without navigating to another tab. However, if you see the default **Issue Snapshot** card, your administrator has disabled the enhanced **Case Details** experience for the **Active Conversation** form.
-
-   :::image type="content" source="../media/enh-custsummary-casedetails.png" alt-text="enh Case details section of the active conversation page" :::  
-   
-   ### [Default Active Conversation &mdash; Case](#tab/case)
-    
-   You'll see the details of the case linked to the conversation on the default **Case** card.
-
-   :::image type="content" source="../media/cs-recent-cases.png" alt-text="default Case details section of the active conversation page"::: 
-
----
-
-## View recent cases
-
-This section displays recent cases related to the customer.
-
-Depending on the settings that are enabled for you, you'll see one of the following layouts:
-
-   ### [Enhanced Active Conversation&mdash;Recent case](#tab/enhancedrecentcases)
-
-   Displays the recent cases raised by the customer. The fields displayed on this card are based on your administrator's configuration. For more information, go to [Customize recent cases](../administer/add-customer-summary-settings.md#customize-recent-cases).<br>
-   However, if you see the default **Recent cases** card, your administrator has disabled the enhanced recent case experience for the **Active Conversation** form.
-
-   :::image type="content" source="../media/enh-custsummary-recent.png" alt-text="enh Case details section of the active conversation page"::: 
-    
-   ### [Default Active Conversation&mdash;Recent case](#tab/recentcase)
-    
-   View the default recent cases experience.
-
-   :::image type="content" source="../media/customer-summary-recent-cases.png" alt-text="enh Case details section of the active conversation page"::: 
-  
- ---
 ## View Conversation summary
 
 Conversation summary changes.
@@ -183,9 +135,9 @@ To learn more, see [setContextProvider](../develop/reference/methods/setContextP
 
 ## View Timeline
 
-This section displays case-related and customer-related activities in the form of a timeline. You can create quick notes based on your discussion with the customer. Use the **Linked records** field to switch the timeline based on the case, contact, or account record linked to the conversation.
+This section displays customer-related activities in the form of a timeline. You can create quick notes based on your discussion with the customer. Use the **Linked records** field to switch the timeline based on the contact or account record linked to the conversation.
 
-The **Linked records** field shows the record that's linked to the conversation. For example, if you link a contact and case to the conversation, the **Linked records** dropdown list shows **Contact** and **Case**, respectively.
+The **Linked records** field shows the record that's linked to the conversation. 
 
 > [!div class='mx-imgBorder']
 > ![View only the linked records in the drop-down.](../media/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")

@@ -1,7 +1,7 @@
 ---
 title: Work with queues
 description: Learn how to work with queues, find queue items, and pick work items from queues.
-ms.date: 06/06/2024
+ms.date: 07/01/2024
 ms.topic: how-to 
 author: gandhamm
 ms.author: mgandham
@@ -11,7 +11,10 @@ ms.custom: bap-template
 
 # Work with queues
 
-Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, such as completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](../administer/set-up-queues-manage-activities-cases.md).
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
+Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365, queues are containers used to store anything that needs to be completed or requires an action, such as completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](../administer/set-up-queues-manage-activities-cases.md).
 
 The option for agents to manage their queues and items is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md#enhancements-in-the-queue-page)
 
@@ -19,10 +22,10 @@ The option for agents to manage their queues and items is also available in Dyna
 
 Use the view list and queue list to filter and find items in queues.
 
-1. In the Customer Service workspace or Customer Service Hub, select  **Queues**.
+1. In your agent app, select  **Queues**.
 2. Select a view, and then select a filter to see the items you want.
 
-   ![Queues view list.](../media/queues_view_list.png "Customer Service Hub Queues View List") 
+   ![Queues view list.](../media/queues_view_list.png "Queues View List") 
 
 3. From the **All items** dropdown list, select the pin icon to pin the view that you want to appear on your dashboard. 
 
@@ -117,9 +120,9 @@ The table lists the views with their descriptions.
 |Private Queues Lookup View, Local User Queues| Lists all the private and active queues.|
 |Entity Queues|Lists all active queues that are created for records, such as case or email.|
 |My Active Queues|Lists active queues owned by the currently signed-in user.|
-|Omnichannel queues|Lists the active queues pertaining to Omnichannel for Customer Service or unified routing.|
-|Omnichannel queues for Entity|Lists the active queues pertaining to Omnichannel for Customer Service or unified routing and are created for records, such as case or email.|
-|Omnichannel queues for messaging|Lists the active queues pertaining to Omnichannel for Customer Service or unified routing and are created for messaging (chat).|
+|Omnichannel queues|Lists the active queues pertaining to Dynamics 365 or unified routing.|
+|Omnichannel queues for Entity|Lists the active queues pertaining to Dynamics 365 or unified routing and are created for records, such as case or email.|
+|Omnichannel queues for messaging|Lists the active queues pertaining to Dynamics 365 or unified routing and are created for messaging (chat).|
 |Active Queues|Lists the queues that are in the active state.|
 |Inactive Queues|Lists the queues that are in the inactive state.|
 |Queues: Primary Email (Pending Approval)|Lists the queues for which the primary email address is in pending approval state.|
