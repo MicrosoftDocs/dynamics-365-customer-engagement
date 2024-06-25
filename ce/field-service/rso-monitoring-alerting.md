@@ -12,7 +12,7 @@ ms.author: anilmur
 
 Resource Scheduling Optimization runs can fail due to various reasons. As a best practice, we recommend that you set up an automated workflow that monitors optimization jobs and alerts based on the status a job. Microsoft Power Automate is a comprehensive end-to-end automation platform that you can use to help monitor and alert when such failures happen.
 
-Create a flow in Power Automate
+## Create the flow in Power Automate
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/).
 1. Choose the environment where Resource Scheduling Optimization is installed.
@@ -21,7 +21,7 @@ Create a flow in Power Automate
 1. Configure the trigger parameters:
 
    - Change Type: Modified
-   - Tanble Name: Scheduling OPtimization Requests
+   - Table Name: Scheduling OPtimization Requests
    - Scope: Organization
    - Selected Columns: modifiedon, mydyn_optmizationstatus, optmizationId
 
