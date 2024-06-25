@@ -1,42 +1,47 @@
 ---
 title: Personalize sales accelerator settings
-description: Use personal settings to determine how activities are scheduled based on work availability and decide what happens when an activity is complete.
+description: Personalize your sales accelerator by scheduling activities based on work availability and deciding what happens upon activity completion.
 author: udaykirang
 ms.author: udag
-ms.reviewer: udag
-ms.topic: how-to 
-ms.date: 03/15/2023
-ms.custom: bap-template 
+ms.reviewer: shujoshi
+ms.topic: how-to
+ms.date: 06/28/2024
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:06/25/2024
 ---
 
-# Personalize sales accelerator 
+# Personalize sales accelerator  
 
 Use personal settings to determine how activities are scheduled based on work availability and decide what happens when an activity is complete.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
-
 ## What can you personalize?
 
 As a seller, you can personalize the sales accelerator by determining how activities are scheduled based on your work availability and deciding what happens when you complete an activity. The following personal settings are available for you to configure:
 
--	[Configure your work availability](#configure-your-work-availability)
--	[Configure the auto advance steps](#configure-the-auto-advance-steps)
--	[Configure steps and activities](#configure-steps-and-activities)
--	[Show or hide filters](#show-or-hide-filters)
+- [Configure your work availability](#configure-your-work-availability)  
+- [Configure the auto advance steps](#configure-the-auto-advance-steps)  
+- [Configure steps and activities](#configure-steps-and-activities)  
+- [Show or hide filters](#show-or-hide-filters)
 
 ## Configure your work availability
 
 Configure your working days, hours, and days off to adjust scheduled tasks and lead assignment according to your availability. For example, you're taking a day off on April 1, 2021, and you have a few activities to complete that day. When you configure the calendar with your day off, any activities that were scheduled for that day will be moved to your next available date or time.
 
 >[!NOTE]
->As a sales manager, you can configure the availability of sellers who report to you. More information: [Manage seller availability](manage-seller-availability.md) 
+>As a sales manager, you can configure the availability of sellers who report to you. More information: [Manage seller availability](manage-seller-availability.md)  
 
-Depending on the license you have in the organization, you use one of the following ways to configure your work availability:
+Depending on the license you have in the organization, you use one of the following ways to configure your work availability:  
+
 - Sales Premium: [Through work list settings](#through-work-list-settings)
 - Sales Enterprise: [Through personal settings](#through-personal-settings)
 
@@ -49,48 +54,38 @@ Depending on the license you have in the organization, you use one of the follow
 
 ### Through work list settings (Sales Premium)<a name="through-work-list-settings"></a>
 
-1. Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**. 
+1. Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**.  
+1. In the work list section, select **More options** > **Settings**.  
 
-2. In the work list section, select **More options** > **Settings**.   
+    :::image type="content" source="media/sa-personal-settings-select-settings-icon-worklist.png" alt-text="Screenshot of selecting settings in the work list to configure your availability.":::
 
-    >[!div class="mx-imgBorder"]
-    >![Select settings in the work list to configure your availability.](media/sa-personal-settings-select-settings-icon-worklist.png "Select settings in the work list to configure your availability.")     
+1. On the **Personal settings** page, select **Availability**.  
 
-3. On the **Personal settings** page, select **Availability**.
-
-    >[!div class="mx-imgBorder"]
-    >![Select Availability under Personal settings.](media/sa-personal-settings-select-availability-settings.png "Select Availability under Personal settings")      
-
-4. Select **New**, and choose an option to configure your calendar according to your requirements:
+    :::image type="content" source="media/sa-personal-settings-select-availability-settings.png" alt-text="Screenshot of selecting the availability under Personal settings.":::
+1. Select **New**, and choose an option to configure your calendar according to your requirements:  
 
    - **Working hours**: Configure your regular working hours between dates you define. This helps the sales accelerator to consider the assignment of activities to your work list.
 
-      >[!div class="mx-imgBorder"]
-      >![Working hours settings.](media/sa-personal-settings-work-hours-settings.png "Working hours settings.")
+        :::image type="content" source="media/sa-personal-settings-work-hours-settings.png" alt-text="Screenshot of the working hours settings.":::
 
-       Configure the following options:
-       1. Select a date for which you want to configure your working hours.
+        Configure the following options:  
+        1. Select a date for which you want to configure your working hours.  
+        1. Select the working hours in your day. By default, nine working hours are configured from 8&ratio;00 AM to 5&ratio;00 PM, without any breaks. To add a general break or lunch hours between working hours, select **Add** (**+**). In the following example, you can see that a break of 30 minutes has been added to the working hours. You can continue adding breaks as needed.  
 
-       2. Select the working hours in your day. By default, nine working hours are configured from 8&ratio;00 AM to 5&ratio;00 PM, without any breaks. To add a general break or lunch hours between working hours, select **Add** (**+**). In the following example, you can see that a break of 30 minutes has been added to the working hours. You can continue adding breaks as needed.
+            :::image type="content" source="media/sa-personal-settings-work-hours-choose-date-time.png" alt-text="Screenshot of Working hours set from 8:00 AM to 12:30 PM, followed by a break from 12:30 PM to 1:00 PM, followed by working hours from 1:00 PM to 5:00 PM.":::
 
-          >[!div class="mx-imgBorder"]
-          >![Working hours set from 8:00 AM to 12:30 PM, followed by a break from 12:30 PM to 1:00 PM, followed by working hours from 1:00 PM to 5:00 PM.](media/sa-personal-settings-work-hours-choose-date-time.png "Working hours set from 8:00 AM to 12:30 PM, followed by a break from 12:30 PM to 1:00 PM, followed by working hours from 1:00 PM to 5:00 PM.")    
-
-       3. Choose whether you want to repeat this working hour configuration each day or only on this day of the week:    
+        1. Choose whether you want to repeat this working hour configuration each day or only on this day of the week:  
 
            - If you select **Every day**, the configured working hours are applied to each day of the week, including Saturday and Sunday. You can select any days for which you don't want to apply these working hours. In the following example, Saturday and Sunday have been removed from this working hour configuration. Also, you can **choose an end date** on which you want to end this working hour configuration.
 
-              >[!div class="mx-imgBorder"]
-              >![Working hours set to repeat Monday through Friday, but not Saturday or Sunday.](media/sa-personal-settings-work-hours-select-every-day.png "Working hours set to repeat Monday through Friday, but not Saturday or Sunday.")
+                :::image type="content" source="media/sa-personal-settings-work-hours-select-every-day.png" alt-text="Screenshot of Working hours set to repeat Monday through Friday, but not Saturday or Sunday.":::
 
            - If you select **Every week**, the configured working hours are applied to the same day every week. In the following example, the configuration is applied on Wednesday, and all subsequent Wednesdays will have the same working hour configuration. Also, you can **choose an end date** on which you want to end this working hour configuration.
 
-               >[!div class="mx-imgBorder"]
-               >![Working hours set to repeat every Wednesday.](media/sa-personal-settings-work-hours-select-a-week-day.png "Working hours set to repeat every Wednesday.")    
+                :::image type="content" source="media/sa-personal-settings-work-hours-select-a-week-day.png" alt-text="Screenshot of Working hours set to repeat every Wednesday.":::
 
-       4. Select your time zone. The time zone allows you to match the time properly when your team is spread across countries or regions. By default, Coordinated Universal Time (Greenwich Mean Time) is selected.    
-
-       5. Save the configurations.      
+        1. Select your time zone. The time zone allows you to match the time properly when your team is spread across countries or regions. By default, Coordinated Universal Time (Greenwich Mean Time) is selected.  
+        1. Save the configurations.  
 
    - **Non-working hours**: Configure a break or time you're taking off from work on a particular day. Choose the period of time you want to take off, and then select **Save**.
 
