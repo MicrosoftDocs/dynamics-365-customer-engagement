@@ -3,7 +3,7 @@ title: Field Service mobile app for Windows 10+ devices
 description: Learn about the mobile app for Windows 10+ devices.
 ms.date: 09/17/2022
 ms.subservice: field-service-mobile
-ms.topic: article
+ms.topic: overview
 author: JonBaker007
 ms.author: jobaker
 ---

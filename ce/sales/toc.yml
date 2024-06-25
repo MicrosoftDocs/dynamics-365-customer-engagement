@@ -9,7 +9,7 @@
     - name: Understand the sales process
       href: nurture-sales-from-lead-order-sales.md
     - name: Import data
-      href: import-data.md
+      href: /power-apps/user/import-data?context=%2Fdynamics365%2Fcontext%2Fsales-context
     - name: Export data to Excel
       href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
     - name: Search for your data
@@ -755,7 +755,7 @@
               href: copilot-stay-ahead.md
             - name: Ask questions
               href: copilot-ask-questions.md
-            - name: Get suggestions and answers from SharePoint
+            - name: Get content recommendations and answers from SharePoint
               href: copilot-get-doc-suggestions.md
         - name: Compose and send email messages using Copilot
           href: compose-send-email-copilot.md
@@ -1429,7 +1429,7 @@
 - name: Removed or deprecated features
   href: deprecations-sales.md
 - name: Known issues
-  href: https://go.microsoft.com/fwlink/?linkid=2171768
+  href: https://admin.powerplatform.microsoft.com/support#known-issues
 - name: Responsible AI
   items:
     - name: Overview

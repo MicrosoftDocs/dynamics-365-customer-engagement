@@ -1,5 +1,10 @@
 {
   "redirections": [
+    {
+      "source_path": "ce/field-service/add-resource-schedule-board.md",
+      "redirect_url": "/dynamics365/field-service/work-with-schedule-board",
+      "redirect_document_id": "false"
+   },
    {
       "source_path": "ce/customerengagement/on-premises/developer/webapi/use-postman-web-api.md",
       "redirect_url": "/power-apps/developer/data-platform/webapi/insomnia",
@@ -153,6 +158,11 @@
     {
       "source_path": "ce/sales/license-enforcement.md",
       "redirect_url": "/dynamics365/sales/faq-licenses-storage#license-compliance",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/import-data.md",
+      "redirect_url": "/power-apps/user/import-data",
       "redirect_document_id": "false"
     },
     {

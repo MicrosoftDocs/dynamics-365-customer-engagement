@@ -1,19 +1,19 @@
 ---
 title: Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service
 description: Learn how to deploy and manage the deployment for  the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
-ms.date: 06/21/2023
+ms.date: 05/21/2024
 ms.topic: how-to
 ms.custom: bap-template
 ms.subservice: resource-scheduling-optimization
-author: FeifeiQiu
-ms.author: feiqiu
+author: AnilMur
+ms.author: anilmur
 ---
 
 # Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service
 
 After [getting access to Resource Scheduling Optimization](rso-get-install.md) either by purchasing a license or through your Microsoft representative, deploy it to your Dynamics 365 Field Service environment.
 
-You can deploy multiple instances of the Resource Scheduling Optimization add-in on the same Microsoft 365 tenant. A Resource Scheduling Optimization instance can connect to one Dynamics 365 organization only.
+You can deploy multiple instances of the Resource Scheduling Optimization add-in on the same Microsoft 365 tenant, however, a Resource Scheduling Optimization instance can connect to one Dynamics 365 organization only. If you need to have concurrent instances, for example in production and development organizations, see the [guidelines](#acquiring-licenses-for-multiple-instances) below.
 
 ## Deployment steps
 
@@ -33,8 +33,10 @@ You can deploy multiple instances of the Resource Scheduling Optimization add-in
    > It may take several hours between the time the subscription appears in Microsoft 365 Admin Center and Power Platform Admin Center.
 
    :::image type="content" source="media/rso-instance.png" alt-text="Screenshot of the Deploy Resource Scheduling Optimization instance page.":::
-  
-   Resource Scheduling Optimization is associated with a single Dynamics 365 organization in the tenant. You can change the associated organization through the Resource Scheduling Optimization deployment app’s page. If additional Resource Scheduling Optimization instances are needed for development and testing environments and you have an Enterprise Agreement with Microsoft, contact your technical account manager or commercial executive (formerly licensing specialist). Such instances are not yet available to cloud solution providers or retail purchase.
+
+## Acquiring licenses for multiple instances
+
+Resource Scheduling Optimization is associated with a single Dynamics 365 organization in the tenant. You can change the associated organization through the Resource Scheduling Optimization deployment app’s page. If additional Resource Scheduling Optimization instances are needed for development and testing environments and you have an Enterprise Agreement with Microsoft, contact your technical account manager or commercial executive (formerly licensing specialist). Such instances are not yet available to cloud solution providers or retail purchase.
 
 ## Manage the Resource Scheduling Optimization instance
 

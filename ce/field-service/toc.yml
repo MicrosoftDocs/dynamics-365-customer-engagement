@@ -165,8 +165,6 @@ items:
       href: frontline-worker-set-up-email-approval.md
     - name: Create bookable resources
       href: set-up-bookable-resources.md
-    - name: Display a bookable resource on the schedule board
-      href: add-resource-schedule-board.md
     - name: Apply a calendar to a bookable resource
       href: calendar-resource.md
     - name: Bookable resource categories
@@ -490,31 +488,31 @@ items:
       href: rso-overview.md
     - name: Get Resource Scheduling Optimization
       href: rso-get-install.md
-    - name: Quickstart
+    - name: Get started with the add-in
       href: rso-quickstart.md
     - name: Administration overview
       href: rso-administration.md
-    - name: Deployment
+    - name: Deploy the add-in
       href: rso-deployment.md
-    - name: Configuration and setup
+    - name: Configure the add-in
       href: rso-configuration.md
-    - name: Scopes
+    - name: Manage optimization scopes
       href: rso-optimization-scope.md
-    - name: Goals
+    - name: Define optimization goals
       href: rso-optimization-goal.md
-    - name: Schedules
+    - name: Create optimization schedules
       href: rso-optimization-schedule.md
-    - name: Publishing
+    - name: Publish a schedule
       href: rso-schedule-optimization.md
     - name: Set up a proof of concept
       href: rso-proof-concept.md
     - name: Schedule in sequence
       href: rso-requirement-dependency.md
-    - name: Predictive travel times
+    - name: Predict travel times
       href: rso-predictive-travel.md
     - name: Travel outside working hours
       href: rso-travel-outside-working-hours.md
-    - name: Running Resource Scheduling Optimization
+    - name: Run Resource Scheduling Optimization
       items:
         - name: Publishing + monitoring
           href: rso-schedule-optimization.md
@@ -526,9 +524,9 @@ items:
           href: rso-simulation.md
     - name: Lock options for bookings
       href: booking-lock-options.md
-    - name: Multi-day requirements
+    - name: Schedule multi-day requirements
       href: rso-multi-day.md
-    - name: Resolving conflicts for bookings
+    - name: Resolve conflicts for bookings
       href: rso-handling-resolving-booking-conflicts.md
 
 - name: Integrations

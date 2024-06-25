@@ -8,7 +8,10 @@ ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.custom: bap-template
 ---
-# View snapshots 
+# View snapshots
+
+> [!NOTE]
+> Starting June 30, 2024, snapshots feature in forecasting will be deprecated. [Learn more](deprecations-sales.md#snapshot-deprecation). 
 
 View a snapshot to see and understand the forecast data at the moment in time when the snapshot was taken, including underlying opportunities. Also, you can compare the data between your current forecast and the snapshot to understand how the forecast is doing.
 
