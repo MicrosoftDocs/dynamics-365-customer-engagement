@@ -150,7 +150,7 @@
       "ms.service": {
         "mobile-app/**.*": "d365ce-op",
         "legal/**.*": "dynamics-365-cross-app",
-        "outlook-addin/**.*": "dynamics-365-outlook-app",
+        "outlook-addin/**.*": "d365ce-op",
         "outlook-app/**.*": "dynamics-365-outlook-app",
         "app-profile-manager/**.*": "dynamics-365-customerservice",
         "channel-integration-framework/**.*": "dynamics-365-customerservice",
