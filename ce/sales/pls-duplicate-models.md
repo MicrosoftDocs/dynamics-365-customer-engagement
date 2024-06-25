@@ -1,7 +1,7 @@
 ---
 title: Manage duplicate lead scoring models
 description: Learn how to remove duplicate models and make sure that no models are scoring the same leads in Dynamics 365 Sales.
-ms.date: 11/30/2022
+ms.date: 06/25/2024
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
