@@ -45,7 +45,7 @@ The Copilot report displays the following metrics.
 | Total cases resolved | The number of cases that were resolved when Copilot was available for use |
 | Number of cases resolved using copilot AI | The number of cases that were resolved when Copilot was used |
 | Percentage of cases resolved using copilot AI | The percentage of cases that were resolved when Copilot was used |
-| Avg. days to close for cases | The average time that elapsed after the case was created and until it was resolved; displays data when Copilot was used and when it wasn't used |
+| Avg. days to close for cases | The average time that elapsed after the case was created and until it was resolved. Displays data when Copilot was used and when it wasn't used. This is also known as case resolution time. |
 | Case throughput | The number of cases that were resolved on average per day; displays data when Copilot was used and when it wasn't used |
 
 ### Productivity: Emails
