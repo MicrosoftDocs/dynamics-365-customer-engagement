@@ -9,7 +9,9 @@ ms.author: mkelleher
 
 # Configure scheduling parameters
 
-In Dynamics 365 Field Service, open the **Resources** area. Under **Administration**, select **Scheduling Parameters** and select **Resource Scheduling** from the list.
+Configure the scheduling parameters for your resources.
+
+1. In Field Service, change to the **Resources** area. Then under **Administration**, select **Scheduling Parameters**. Then, select **Resource Scheduling** from the list.
 
 ## General
 
