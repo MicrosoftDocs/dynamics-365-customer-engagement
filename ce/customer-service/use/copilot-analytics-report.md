@@ -42,32 +42,32 @@ The Copilot report displays the following metrics.
 
 | Metric | Description |
 |--------|---------|
-| Total cases resolved | The number of cases that were resolved when Copilot was available for use |
-| Number of cases resolved using copilot AI | The number of cases that were resolved when Copilot was used |
+| Total cases resolved | The number of cases that were resolved when Copilot was used. |
+| Number of cases resolved using copilot AI | The number of cases that were resolved when Copilot was used. |
 | Percentage of cases resolved using copilot AI | The percentage of cases that were resolved when Copilot was used |
-| Avg. days to close for cases | The average time that elapsed after the case was created and until it was resolved. Displays data when Copilot was used and when it wasn't used. This is also known as case resolution time. |
-| Case throughput | The number of cases that were resolved on average per day; displays data when Copilot was used and when it wasn't used |
+| Avg. days to close for cases | The average time that elapsed after the case was created and until it was resolved. Displays data when Copilot was used and when it wasn't. This metric is also known as case resolution time. |
+| Case throughput | The number of cases that were resolved on an average per day. Displays data when Copilot was used and when it wasn't.|
 
 ### Productivity: Emails
 
 | Metric | Description|
 |--------|---------|
-| Total cases | The number of emails that were resolved when Copilot was available for use |
+| Total cases | The number of emails that were resolved when Copilot was used. |
 | Number of emails using copilot AI| The number of emails that were sent when Copilot was used |
 | Percentage of emails using copilot AI | The percentage of emails that were sent when Copilot was used |
-| Daily engaged emails | The emails that were sent when Copilot was used |
-| Avg. email response time (min) | Average email response time when Copilot is engaged |
-| Email throughput | The number of emails that were sent on average per day. Displays data when Copilot was used and when it wasn't used |
+| Daily engaged emails | The number of emails that were sent using Copilot from the total number of emails. |
+| Avg. email response time (min) | Average email response time when Copilot is engaged. Displays data when Copilot was used and when it wasn't. |
+| Email throughput | The number of emails that were sent on average per day. Displays data when Copilot was used and when it wasn't.|
 
 ### Productivity: Conversations
 
 | Metric | Description |
 |--------|---------|
-| Total conversations | The total number of conversations in which the agent engaged with the customer at least once while Copilot was available; doesn't include email and voice |
-| Number of conversations using copilot AI | The number of engaged conversations that have used Copilot; lists only conversations that have ended |
-| Percentage of conversations using copilot AI | The percentage of engaged conversations that have used Copilot |
-| Avg conversation handle time | The average time that elapsed after a conversation started until it ended. Displays data when Copilot was used and when it wasn't used |
-| Conversation throughput | The number of conversations, excluding email and voice, completed on average per day; displays data when Copilot was used and when it wasn't used |
+| Total conversations | The total number of conversations in which the agent engaged with the customer at least once using Copilot. Doesn't include email and voice. |
+| Number of conversations using copilot AI | The number of conversations that used Copilot. Lists only conversations that have ended. |
+| Percentage of conversations using copilot AI | The percentage of engaged conversations that have used Copilot. |
+| Avg conversation handle time (min) | The average time that elapsed after a conversation started until it ended. Displays data when Copilot was used and when it wasn't.|
+| Conversation throughput | The number of conversations, excluding email and voice, completed on an average per day. Displays data when Copilot was used and when it wasn't.|
 
 ### Satisfaction
 
