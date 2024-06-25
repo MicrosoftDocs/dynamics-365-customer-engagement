@@ -51,7 +51,7 @@ The documents are listed in the ranking order of SharePoint search results. [Lea
 
 ### Which records are supported?
 
-The SharePoint document recommendation capability is supported for the account, contact, lead, opportunity, quote, order, and invoice records.
+The SharePoint content recommendation capability is supported for the account, contact, lead, opportunity, quote, order, and invoice records.
 
 ### Which files are listed?
 
