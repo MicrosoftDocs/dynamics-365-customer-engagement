@@ -1,6 +1,6 @@
 ---
-title: "Create records for conversations| MicrosoftDocs"
-description: "Learn how you can create conversation records using various methods in Omnichannel for Customer Service."
+title: Create records for conversations
+description: Learn how you can create conversation records using various methods.
 author: neeranelli
 ms.author: nenellim
 ms.date: 01/06/2021
@@ -11,7 +11,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-When no records are linked to the conversation in Omnichannel for Customer Service, you can create a record. You can create a record in one of the following ways:
+When no records are linked to the conversation, you can create a record. You can create a record in one of the following ways:
 
 - Create a record from the **Active Conversation** page
 - Create a record using the **Quick Create** option
