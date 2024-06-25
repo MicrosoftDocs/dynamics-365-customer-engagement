@@ -18,7 +18,7 @@ applies_to:
 ms.assetid: 6747eed5-e264-43a1-8f27-ea0d46afaaa1
 caps.latest.revision: 12
 author: mduelae
-ms.author: mkaur
+ms.author: bharavar
 search.audienceType: 
   - admin
   - customizer
