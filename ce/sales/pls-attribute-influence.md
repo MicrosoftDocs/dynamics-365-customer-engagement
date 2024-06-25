@@ -1,7 +1,7 @@
 ---
 title: View the influence of an attribute on the model
 description: Learn how to get insights on the performance of each attribute that influences the prediction score in Dynamics 365 Sales. 
-ms.date: 11/30/2022
+ms.date: 06/25/2024
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
