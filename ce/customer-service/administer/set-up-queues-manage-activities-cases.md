@@ -72,8 +72,10 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 ## Create a queue
 
 1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
+![queue-page](media/queue-page.png)
     
 1. On the **Queues** page, select **Manage** for **Basic queues**.
+
   
 1. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then select **Edit** on the command bar.  
   
@@ -196,3 +198,6 @@ To assign items in the queue to agents, select **Assign** after selecting one or
 [Add a case to a queue](../use/customer-service-hub-user-guide-case-queues-and-routing.md)    
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
+
+[def]: image/queue-page
