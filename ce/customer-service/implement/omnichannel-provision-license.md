@@ -1,6 +1,6 @@
 ---
-title: Provision Omnichannel for Customer Service and voice channel
-description: Perform the steps in this article to provision Omnichannel for Customer Service and add channels so that can you start using the product.
+title: Provision channels
+description: Perform the steps in this article to provision and add channels so that can you start using the product.
 ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
@@ -10,19 +10,19 @@ ms.custom: bap-template
 ms.collection:
 ---
 
-# Provision Omnichannel for Customer Service
+# Provision channels
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-Omnichannel for Customer Service provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
+The workspace app provides a modern, customizable, high-productivity UI that lets agents help customers across different channels via a unified interface. Organizations choose the channel that suits their business needs. The app makes sure that agents are able to provide a high level of responsive, quality service across channels.
 
-To find out if Omnichannel for Customer Service is available in your region, see [International availability](../implement/international-availability.md).
+To find out if the channels experience is available in your region, for Omnichannel for Customer Service, see [International availability](../implement/international-availability.md).
 
 Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](../implement/upgrade-omnichannel.md) for more information.
 
-You can provision the following channels in Omnichannel for Customer Service:
+You can provision the following channels:
 
 - [Chat](../administer/set-up-chat-widget.md)
 - [Voice](../administer/voice-channel.md)
