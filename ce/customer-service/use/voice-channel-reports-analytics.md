@@ -1,7 +1,7 @@
 ---
 title: Voice channel historical analytics and call insights
-description: Learn about the analytics reports and call insights that are available in the voice channel in Omnichannel for Customer Service.
-ms.date: 04/26/2023
+description: Learn about the analytics reports and call insights that are available in the voice channel in Contact Center.
+ms.date: 07/01/2024
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -17,7 +17,7 @@ applies_to:
 
 # Voice channel historical analytics, reports, and call insights
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
@@ -50,7 +50,7 @@ The following KPIs are displayed in the Voice dashboard.
 | Avg. customer effort | The time that a customer spent on a conversation to get their issue resolved. |
 | Avg. sessions per conversation | The average sessions created and engaged for each conversation engaged. |
 
-The following report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
+The following report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
 
 :::image type="content" source="../media/voice-channel-agent-drill-down.png" alt-text="Voice agent drill-down report.":::
 

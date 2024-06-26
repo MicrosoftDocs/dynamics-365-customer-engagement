@@ -1,7 +1,7 @@
 ---
 title: "Bot dashboard | Microsoft Docs"
-description: "Learn about the bot dashboard in Omnichannel historical analytics to better understand agent performance in your organization."
-ms.date: 10/12/2022
+description: "Learn about the bot dashboard in historical analytics to better understand agent performance in your organization."
+ms.date: 07/01/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -9,13 +9,12 @@ ms.author: mgandham
 
 # Bot dashboard
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
-In Omnichannel for Customer Service, you can integrate both Azure and Copilot Studio bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required. The bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are performing in a support organization. 
+In the the application, you can integrate both Azure and Copilot Studio bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required. The bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are performing in a support organization. 
 
 If your administrator has enabled **Add historical analytics for bots** in Customer Service admin center, then the dashboard displays the metrics, KPIs, and charts specific to the type of bots integrated with the application.
 
@@ -148,7 +147,7 @@ You can view and improve the performance of individual topics associated with a 
 
 ## Dashboard for all bots 
 
-The **bot** dashboard summarizes the KPIs for all the bots integrated with Omnichannel for Customer Service for the specified time period and percent change over a period. The application displays this view only if your administrator has disabled the **Add historical analytics for bots** checkbox in Customer Service admin center. You can filter these areas by duration, channel, queue, or agent.
+The **bot** dashboard summarizes the KPIs for all the bots integrated with the application for the specified time period and percent change over a period. The application displays this view only if your administrator has disabled the **Add historical analytics for bots** checkbox in Customer Service admin center. You can filter these areas by duration, channel, queue, or agent.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of bot dashboard.](../media/bot-dashboard-oc.png "Bot dashboard")
