@@ -1,9 +1,9 @@
 ---
 title: Scopes in Resource Scheduling Optimization for Dynamics 365 Field Service
 description: Learn about how to use scopes in Resource Scheduling Optimization for Dynamics 365 Field Service
-author: FeifeiQiu
-ms.author: feiqiu
-ms.date: 01/02/2020
+author: AnilMur
+ms.author: anilmur
+ms.date: 06/26/2024
 ms.topic: conceptual
 
 ms.subservice: resource-scheduling-optimization
@@ -13,16 +13,16 @@ ms.subservice: resource-scheduling-optimization
 
 You can define what Resource Scheduling Optimization optimizes, including resources, requirements, or bookings.
 
-Scope is the Resource Scheduling Optimization mechanism for defining the relevant inputs: resource requirements, resources, and existing resource bookings. It also includes the timeframes to be considered for optimization. Extensible scope leverages Dynamics 365 entity views, providing an easy and flexible way to define what to optimize (resource requirements, resources, and existing resource bookings).
+Scope is the Resource Scheduling Optimization mechanism for defining the relevant inputs: resource requirements, resources, and existing resource bookings. It also includes the timeframes to be considered for optimization. It leverages Dynamics 365 entity views, providing an easy and flexible way to define what to optimize (resource requirements, resources, and existing resource bookings).
 
 > [!IMPORTANT]
 > Scopes should be as small as possible. Resource Scheduling Optimization will be quicker and more effective if optimization requests contain few resources, requirements, bookings, and shorter range durations. Usually companies already have partitions that could be used for Resource Scheduling Optimization; for instance: 
-> - Temporally defined: optimize technicians who work in the day separately from
+> - Temporal paritions: optimize technicians who work in the day separately from
     those who work at night.
-> - Geographically defined: neighborhoods, cities.
-> - Logically defined: support level, incident type.
+> - Geographical partitions: neighborhoods, cities.
+> - Logical partitions: support level, incident type.
 
-After opening the **Scheduling Optimization Scope** form, users can select existing system views or personal views (for which they have read permissions) from the Resource, Requirement, and Booking view drop-down menus. If a personal view is selected, it is shared with the Resource Scheduling Optimization application user and other users who have access to the scope.
+After opening the **Scheduling Optimization Scope** form, you can select existing system views or personal views (for which you have read permissions) from the Resource, Requirement, and Booking view drop-down menus. If a personal view is selected, it is shared with the Resource Scheduling Optimization application user and other users who have access to the scope.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the scheduling optimization scope.](media/92069616c79fb0f7fe9c4adc6683f50b.png)
 > [!div class="mx-imgBorder"]
@@ -31,8 +31,8 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
 1. Using **Resource View** for example, 0_WA Resources has been defined with
     the filter conditions shown in the following screenshot. This is equivalent
     to configuring WA territory as an optimization scope in the previous version
-    of Resource Scheduling Optimization. Users can apply more filter conditions as needed to specify
-    resources they need to optimize. Resource Scheduling Optimization will respect the Optimize Scheduling
+    of Resource Scheduling Optimization. You can apply more filter conditions as needed to specify
+    resources you need to optimize. Resource Scheduling Optimization will respect the Optimize Scheduling
     setting on individual resource records on top of the resource view filters.
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a list of resources.](media/4b4f1beede0d89f940677b7df65f80c8.png)
@@ -48,8 +48,8 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
 3. If you select booking view, you can set it to **Now or After**. For example,
     maybe you want to optimize bookings for the next five days, from 2 hours on
     (while excluding bookings within the next 2 hours and bookings in the past).
-    The current, out-of-the-box Dynamics 365 entity view filter doesn’t support
-    this Now or After condition; Resource Scheduling Optimization enabled this additional setting on top of
+    The out-of-the-box Dynamics 365 entity view filter doesn’t support
+    this Now or After condition, installing Resource Scheduling Optimization enables this additional setting on top of
     whatever filter conditions are defined for that booking view.
     
    > [!div class="mx-imgBorder"]
@@ -63,7 +63,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
    > [!div class="mx-imgBorder"]
    > ![Screenshot of optimization range settings_1.](media/62ab888c08dfc0bdd81587535de73d5d.png)
 
-   - **Range Reference**: The start moment for all subsequent work order range
+   - **Range Reference**: The start time for all subsequent work order range
      calculation (Job current time or Beginning of the Job’s current day).
    - **Range Offset**: Amount of time added to the range reference to define the
      range start.
@@ -84,7 +84,6 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
 
 5. You can preview resources, requirements, and bookings for optimization scope
     through the schedule board:
-
    - Resource filters on the schedule board are prepopulated from the
         Resource View. The resource list matches the number of resources defined
         in the Resource View. Resource Scheduling Optimization will display a lock icon and tooltip to
