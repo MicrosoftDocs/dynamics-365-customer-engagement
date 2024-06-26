@@ -56,9 +56,6 @@ Depending on the license you have in the organization, you use one of the follow
 
 1. Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**.  
 1. In the work list section, select **More options** > **Settings**.  
-
-    :::image type="content" source="media/sa-personal-settings-select-settings-icon-worklist.png" alt-text="Screenshot of selecting settings in the work list to configure your availability.":::
-
 1. On the **Personal settings** page, select **Availability**.  
 
     :::image type="content" source="media/sa-personal-settings-select-availability-settings.png" alt-text="Screenshot of selecting the availability under Personal settings.":::
@@ -91,8 +88,7 @@ Depending on the license you have in the organization, you use one of the follow
 
        In the following example, you have an appointment with a doctor for a checkup between 1:00 and 4:00 PM on March 2, 2021. When you use the **Non-working hours** option to update your calendar, the sales accelerator will consider the break and adjust your activity timeline to match your working hours.
 
-        >[!div class="mx-imgBorder"]
-        >![Non-working hours set for an appointment.](media/sa-personal-settings-non-work-hours-settings.png "Non-working hours set for an appointment.")    
+        :::image type="content" source="media/sa-personal-settings-non-work-hours-settings.png" alt-text="Screenshot of setting non-working hours for an appointment.":::
 
    - **Time off**: Configure vacations or personal days off from work. This option blocks a full day or multiple days. When you're applying for multiple days, select the **All-day** option, and then choose start and end dates.
 
@@ -100,42 +96,39 @@ Depending on the license you have in the organization, you use one of the follow
 
      In the following example, you plan to go on vacation with family from March 9 to March 12, and you use the **Time off** option to update your calendar. The sales accelerator will consider the vacation and adjust the activity timeline to match your vacation.
 
-     >[!div class="mx-imgBorder"]
-     >![Time off set for a family vacation.](media/sa-personal-settings-time-off-settings.png "Time off set for a family vacation.")    
+        :::image type="content" source="media/sa-personal-settings-time-off-settings.png" alt-text="Screenshot of setting time off for a family vacation.":::
 
 ### Through personal settings (Sales Enterprise)<a name="through-personal-settings"></a>
 
+1. Sign in to your Sales Hub app, and in the lower-left corner, go to **Change area** > **Personal settings**. 
 
-1.	Sign in to your Sales Hub app, and in the lower-left corner, go to **Change area** > **Personal settings**. 
-
-2.	Select **Calendar**.
+1. Select **Calendar**.
 
     The calendar opens for the current month with your work availability. Also, at the bottom of the calendar, you can see the default local time of your organization.
 
-    > [!div class="mx-imgBorder"]
-    > ![Work availability calendar page.](media/sales-accelerator-work-availability-calendar.png "Work availability calendar page")
+    :::image type="content" source="media/sales-accelerator-work-availability-calendar.png" alt-text="Screenshot of the work availability calendar page.":::
 
-3.	Configure your calendar according to your requirements as described in step 4 of the [Through work list settings](#through-work-list-settings) section, earlier in this topic.     
+1. Configure your calendar according to your requirements as described in step 4 of the [Through work list settings](#through-work-list-settings) section, earlier in this topic.  
 
 ## Configure the auto advance steps
 
 The **Auto advance** settings specify the next course of action to take when you complete or skip a step.
 
-1.	Sign in to the Dynamics 365 Sales Hub app, and go to **My Work** > **Sales accelerator**.
-2.	In the work list, select the settings icon.   
-    >[!div class="mx-imgBorder"]
-    >![Select settings in the work list to configure Auto advance steps.](media/sa-personal-settings-select-settings-icon-worklist.png "Select settings in the work list to configure Auto advance steps.")      
-3.	On the **Personal settings** page, select **Auto advance**.   
-    >[!div class="mx-imgBorder"]   
-    >![Select Auto advance settings.](media/sa-personal-settings-auto-advance-settings.png "Select Auto advance settings.")      
+1. Sign in to the Dynamics 365 Sales Hub app, and go to **My Work** > **Sales accelerator**.  
+1. In the work list section, select **More options** > **Settings**.  
+1. On the **Personal settings** page, select **Auto advance**.  
 
-    The following settings are available for completing or skipping an activity:       
-    -	**Ask before moving to the next work item**: When an activity is completed or skipped, a message is displayed before you move to the next record in the work list. On the message, you select an appropriate option to proceed. The following image shows the message that's displayed when you skip an activity.    
-        >[!div class="mx-imgBorder"]
-        >![For skipping an activity: "Do you want to go to the next item in your work list or stay here and continue working?" Options are "Go to next" or "Stay here.".](media/sa-personal-settings-auto-advance-skip-activity-message.png "For skipping an activity: \"Do you want to go to the next item in your work list or stay here and continue working?\" Options are \"Go to next\" or \"Stay here\"")       
-    -	**Automatically go to the next work item**: When an activity is completed or skipped, the next record in the work list queue is automatically displayed.   
-    -	**Stay on the same record**: When an activity is completed or skipped, the same record still is displayed, and the **Up next** widget displays the next activity that has been defined in the sequence.    
-4.	Save and close the settings page.
+    :::image type="content" source="media/sa-personal-settings-auto-advance-settings.png" alt-text="Screenshot of selecting the auto advance settings.":::
+
+    The following settings are available for completing or skipping an activity:  
+
+    - **Ask before moving to the next work item**: When an activity is completed or skipped, a message is displayed before you move to the next record in the work list. On the message, you select an appropriate option to proceed. The following image shows the message that's displayed when you skip an activity.  
+
+        :::image type="content" source="media/sa-personal-settings-auto-advance-skip-activity-message.png" alt-text="Screenshot for skipping an activity: Do you want to go to the next item in your work list or stay here and continue working? Options are Go to next or Stay here.":::
+
+    - **Automatically go to the next work item**: When an activity is completed or skipped, the next record in the work list queue is automatically displayed.  
+    - **Stay on the same record**: When an activity is completed or skipped, the same record still is displayed, and the **Up next** widget displays the next activity that has been defined in the sequence.  
+1. Save and close the settings page.
 
 ## Configure steps and activities
 
@@ -144,45 +137,37 @@ When a step is displayed in the **Up next** widget, a corresponding activity is 
 > [!NOTE]
 > Verify that the administrator has enabled the option to configure steps and activities. More information: [Enable the availability option in sequence settings](customize-sales-accelerator-sellers.md#sequence-activities)
 
-1.	Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**.
-2.	In the work list, select the settings icon.   
-    >[!div class="mx-imgBorder"]
-    >![Select settings in the work list to configure steps and activities.](media/sa-personal-settings-select-settings-icon-worklist.png "Select settings in the work list to configure steps and activities.")     
-3.	On the **Personal settings** page, select **Steps and activities**.       
-4.	On the **Steps and activities** page, configure the following options as required:     
-    -	**When I send an email**: When you select this checkbox and send an email through the timeline, the sequence step that's related to this activity is automatically marked as complete.     
-    -	**When I mark a phone call activity record as complete**: When you select this checkbox and make a phone call through the timeline, the sequence step that's related to this activity is automatically marked as complete.      
-    -	**When I mark a phone call sequence step as complete**: When you complete a phone call activity in the sequence step, you can choose to enter the status of the activity or enter a default value that has been defined for your organization.    
+1. Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**.  
+1. In the work list section, select **More options** > **Settings**.  
+1. On the **Personal settings** page, select **Steps and activities**.  
+1. On the **Steps and activities** page, configure the following options as required:  
+    - **When I send an email**: When you select this checkbox and send an email through the timeline, the sequence step that's related to this activity is automatically marked as complete.  
+    - **When I mark a phone call activity record as complete**: When you select this checkbox and make a phone call through the timeline, the sequence step that's related to this activity is automatically marked as complete.  
+    - **When I mark a phone call sequence step as complete**: When you complete a phone call activity in the sequence step, you can choose to enter the status of the activity or enter a default value that has been defined for your organization.  
 
-    >[!div class="mx-imgBorder"]
-    >![Configure steps and activities.](media/sa-personal-settings-configure-steps-activities.png "Configure steps and activities.")     
- 
-5.	Save and close the settings page.
+    :::image type="content" source="media/sa-personal-settings-configure-steps-activities.png" alt-text="Screenshot of configuring steps and activities.":::
+
+1. Save and close the settings page.  
 
 ## Show or hide filters
 
-As a seller, you can hide any filter that's available in the filter list. After hiding a filter, you can't view the filter option in your list.   
+As a seller, you can hide any filter that's available in the filter list. After hiding a filter, you can't view the filter option in your list.  
 
-1.	In the work list section, select **More options** > **Settings**.    
+1. Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**.  
+1. In the work list section, select **More options** > **Settings**.  
+1. On the **Personal settings** page, select **Filters**.  
 
-    > [!div class="mx-imgBorder"]    
-    > ![Select settings from more options.](media/sa-worklist-filter-select-settings.png "Select settings from more options")  
- 
-3.	On the **Personal settings** page, select **Filters**.   
+    :::image type="content" source="media/sa-worklist-filter-select-filters.png" alt-text="Screenshot of selecting filters from personal settings.":::
 
-    > [!div class="mx-imgBorder"]    
-    > ![Select filters from personal settings.](media/sa-worklist-filter-select-filters.png "Select filters from personal settings")  
- 
-4.	Go to the filter that you want to hide, and turn off the toggle. 
+1. Go to the filter that you want to hide, and turn off the toggle.  
 
     >[!NOTE]
-    >-	To hide a group, turn off the toggle for the group.
-    >-	If the administrator hides filters or groups, you can't see them in your list. Contact your administrator to show the filters for you to use. More information: [Hide filters](customize-workspace-sales-accelerator.md#hide-filters)
- 
-    > [!div class="mx-imgBorder"]    
-    > ![Turn off the toggle to hide a filter.](media/sa-worklist-filter-hide-filter.png "Turn off the toggle to hide a filter")      
+    >- To hide a group, turn off the toggle for the group.
+    >- If the administrator hides filters or groups, you can't see them in your list. Contact your administrator to show the filters for you to use. More information: [Hide filters](customize-workspace-sales-accelerator.md#hide-filters)
 
-5.	Select **Save**.
+    :::image type="content" source="media/sa-worklist-filter-hide-filter.png" alt-text="Screenshot of Turning off the toggle to hide a filter.":::
+
+1. Select **Save**.
 
 The filter is hidden from your list.
 
