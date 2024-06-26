@@ -366,7 +366,9 @@ items:
 
 - name: Agreements and preventive maintenance
   items:
-    - name: Agreements
+    - name: Agreements overview
+      href: agreements-overview.md
+    - name: Set up agreements
       href: set-up-customer-agreements.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
