@@ -49,6 +49,8 @@ Follow the steps in this article to successfully create Word templates in Dynami
 
 5.  In the **Create Template Type** pane, select **Word template**, and then select **Next**.
 
+    :::image type="content" source="media/select-template-type-create-template-wizard.png" alt-text="Select template type in the Create Template wizard.":::
+
 6.  In the **Select Entity** pane, select the entity to which the template applies. The template uses data from this entity.
 
     :::image type="content" source="media/select-entity-create-template-wizard.png" alt-text="Select entity in the Create Template wizard":::
@@ -78,65 +80,11 @@ Follow the steps in this article to successfully create Word templates in Dynami
 
 ### Step 2: Enable the Developer tab
 
-Open the Word template file. At this point, the document appears to be blank.
-
-To see and add Dynamics 365 Sales Professional XML data, you need to enable the Word Developer tab.
-
-1.  Go to **File** \> **Options** \> **Customize Ribbon**, and then select the **Developer** check box.
-
-    :::image type="content" source="media/enable-developer-tab.png" alt-text="Enable Developer tab in Word":::
-
-2.  Select **OK**.
-
-    The **Developer** tab now appears in the Word ribbon.
-
+Follow the instructions in [Step 2: Enable the Developer tab](/power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context#step-2-enable-the-developer-tab) to enable the Developer tab in Word.
 
 ### Step 3: Define the Word template
 
-Use the **XML Mapping** pane to define the Word template with Dynamics 365 Sales Professional entity fields.
-
-1.  In your Word template, go to the **Developer** tab and select **XML Mapping Pane**.
-
-    :::image type="content" source="media/xml-mapping-developer-tab.png" alt-text="XML Mapping Pane in the Developer tab of Word":::
-
-    The default XML schema is selected.
-
-2.  In the **Custom XML Part** list, select the Dynamics 365 Sales Professional XML schema. It begins with `urn:microsoft-crm/document-template/`.
-
-    :::image type="content" source="media/select-schema-sales-professional.png" alt-text="Select the schema for Dynamics 365 Sales Professional":::
-
-    > [!IMPORTANT]
-    > If you have frequent accidental edits that cause Word to freeze or have performance degradation, be sure to turn off the AutoCorrect options according to the section: “A known issue and how to avoid it”.
-
-3.  Expand the entity to see all available fields, right-click the field you wish to add, and then select **Insert Content Control** \> **Plain Text**.
-
-    :::image type="content" source="media/insert-content-as-plain-text.png" alt-text="Insert content as Plain Text":::
-
-    The field from Dynamics 365 Sales Professional is added to the Word template.
-
-    Add other entity fields, add descriptive labels and text, and format the document.
-
-    A completed template might look like this:
-
-    :::image type="content" source="media/complete-word-template.png" alt-text="Complete Word template":::
-
-    Some content control fields you entered likely have multiple lines of data. For example, accounts have more than one contact. To include all the data in your Word template, set the content control field to repeat.
-
-#### Set content control fields to repeat
-
-1.  Put fields with repeating data in a table row.
-
-2.  Select the entire table row in the template.
-
-    :::image type="content" source="media/row-selected-table.png" alt-text="Row selected in a table":::
-
-3.  In the **XML Mapping** pane, right-click the relationship containing the content control fields, and then select **Repeating**.
-
-    :::image type="content" source="media/set-content-control-fields.png" alt-text="Set the content control fields to repeat in Word template":::
-
-When you use the Word template in Dynamics 365 Sales Professional to create a document, the table populates with multiple rows of data.
-
-When the template has the fields and formatting you want, save it, and upload it into Dynamics 365 Sales Professional.
+Follow the instructions in [Step 3: Define the Word template](/power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context#step-3-define-the--template) to define the Word template.
 
 ### Step 4: Upload the Word template back into the Sales app
 
