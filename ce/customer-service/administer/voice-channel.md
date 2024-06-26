@@ -1,5 +1,5 @@
 ---
-title: Introduction to the voice channel in Omnichannel for Customer Service
+title: Introduction to the voice channel
 description: Enable agents to communicate with customers on the phone to resolve issues using the voice channel in Customer Service.
 author: neeranelli
 ms.author: nenellim
@@ -12,9 +12,6 @@ ms.custom:
 ---
 
 # Introduction to the voice channel
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 

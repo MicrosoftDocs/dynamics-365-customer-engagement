@@ -12,8 +12,6 @@ ms.custom: bap-template
 
 # Enable voice consult with Microsoft Teams users
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
