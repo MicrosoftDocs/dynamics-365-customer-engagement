@@ -17,6 +17,9 @@ ms.custom:
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 Knowledge management plays a vital role in delivering world-class customer care. It provides team members in an organization the ability to author, categorize, deliver, analyze, and share information through a knowledge base.
 
 ## Benefits of knowledge management
