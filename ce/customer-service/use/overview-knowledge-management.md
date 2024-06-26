@@ -63,9 +63,9 @@ As an administrator, you can create hierarchical, categorical data to help group
 ## Search knowledge articles
 
 ### Search knowledge articles through different channels
-- As an agent, you can use either the **Smart assist** or the **Knowledge search pane** to search articles in Customer Service workspace. **Smart assist** provides you with knowledge article suggestions about your case that helps you resolve customer issues quickly. For more information on **Knowledge search pane**, see: [Use the knowledge search pane to search articles](../csw-search-knowledge-articles.md#use-the-knowledge-search-pane-to-search-articles)
+- As an agent, you can use either the **Smart assist** or the **Knowledge search pane** to search articles in Customer Service workspace or Contact Center workspace. **Smart assist** provides you with knowledge article suggestions about your case that helps you resolve customer issues quickly. For more information on **Knowledge search pane**, see: [Use the knowledge search pane to search articles](../csw-search-knowledge-articles.md#use-the-knowledge-search-pane-to-search-articles)
 - As a customizer, you can set up knowledge base search control on a standard or custom form to help make it easy for users in your organization to find knowledge articles. More information: [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms)
-- As an administrator, you can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Omnichannel for Customer Service. Configuring a record type lets you specify the information that your agents see while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](../administer/configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
+- As an administrator, you can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Contact Center workspace. Configuring a record type lets you specify the information that your agents see while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](../administer/configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
 
 ### Search multiple knowledge providers
 As an administrator, you can use search providers to federate the search of files, documents, or articles from data sources outside of your organization. More information: [Set up external search providers](../administer/set-up-search-providers.md#set-up-external-search-providers)
@@ -105,7 +105,7 @@ As an agent, you can easily provide feedback on knowledge articles with the help
 
 [Search and share knowledge articles](../oc-search-knowledge-articles.md)
 
-[Search for knowledge articles in Customer Service workspace](../csw-search-knowledge-articles.md#search-for-knowledge-articles-in-customer-service-workspace)
+[Search for knowledge articles](../csw-search-knowledge-articles.md#search-for-knowledge-articles-in-customer-service-workspace)
 
 [Create a knowledge article using a template](../develop/create-knowledge-article-using-template.md#create-a-knowledge-article-using-a-template)
 
