@@ -1,11 +1,11 @@
 ---
-title: "Process a return (Dynamics 365 Field Service) | MicrosoftDocs"
+title: Process a return (return merchandise authorization and returns to vendor)
 description: Learn about how to process a return in Dynamics 365 Field Service
-ms.date: 01/09/2020
-
+ms.date: 06/26/2024
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
+ms.custom: bap-template
 ---
 # Process a return (return merchandise authorization and returns to vendor)
 
@@ -24,27 +24,18 @@ Field Service supports three out-of-the-box returns:
 - Return to vendor
 - Change of equipment ownership
   
+## Create an RMA  
+  
+1. In Field Service, select the **Inventory** area. Under **Inventory**, select **RMAs**, and then select **New**.
+  
+1. If the product was used in a work order, choose the related **Work Order** where the product was used. The related **Service Account** is automatically filled in when you choose a work order.  
 
-## Step 1: Create an RMA  
-  
-1. From the main menu, go to **Field Service** > **Inventory tab** > **RMAs**.  
-  
-2. On the **Active RMAs** screen, select **+New**.  
-  
-3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
-  
-   - If the product was used in a work order, choose the related **Work Order** where the product was used. The related **Service Account** is automatically filled in when you choose a work order.  
-  
-   - Choose an RMA substatus. For example, **Exchange**, **Repair**, **Retire**, or **Upgrade**. These options are configurable in **Field Service** > **Settings** > **RMA Substatuses**.
-  
-   - Select the **Date Requested** and if it's **Taxable** or not.  
-  
-   - Specify the price of the product being returned by choosing a **Price List**.  
-  
-4. When you're done, **Save**. 
+1. If RMA substatuses were set up in **Field Service** > **Settings** > **RMA Substatuses**, select one. For example, **Exchange**, **Repair**, **Retire**, or **Upgrade**.
+
+1. Select **Save**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an RMA.](./media/inventory-rma.png)
+> ![Screenshot of an RMA.](./media/inventory-rma.svg)
 
 #### Ship via
 
@@ -98,7 +89,7 @@ When you create a Field Service RMA, you can track how the return will be transp
   
 2. Click **+Add New RMA Receipt Product**.  
   
-3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
+3. Fill in your information. Use the handy tooltips as a guide.  
   
 4. Enter the **RMA Product** and **Quantity** received.  
   
