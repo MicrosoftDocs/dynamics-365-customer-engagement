@@ -60,7 +60,7 @@ As part of the [new lead qualification experience](define-lead-qualification-exp
 
 #### Record creation
 
-- If your administrator has turned on the new experience and enabled automatic creation of account, contact, and opportunity records, the records are created automatically. You see a **Processing** message while the records are being created. After the records are created, the opportunity record opens. 
+- If your administrator has turned on the new experience and enabled automatic creation of account, contact, and opportunity records, the records are created automatically. You see a **Processing** message while the records are being created. After the records are created, the opportunity record opens.
 
 - If your admin has turned off automatic creation for all records, you'll see the **Qualify lead** side pane for creating contact, account, and opportunity records. For contact and account records, you can choose to create a new record, use an existing record, or skip creating the record.
 
@@ -85,9 +85,11 @@ If your admin has enabled multiple opportunities creation, you can create multip
 
 #### Lead summary
 
-If your admin has enabled lead summarization, you'll see a summary of the lead after it's qualified. The summary includes key details from the lead record and is added to the timeline of the primary opportunity record.
+If your admin has enabled lead summarization, you'll see an AI-generated summary of the lead after it's qualified. The summary includes key details from the lead record and is added to the timeline of the primary opportunity record and the lead record. 
 
 :::image type="content" source="media/lead-qualify-finish-page.png" alt-text="Screenshot of the Lead qualified page that appears after the lead is qualified":::
+
+Select **Finish** to open the primary opportunity record and select **X** at the top of the pane to go back to the lead record.
 
 ### Legacy experience
 
@@ -122,6 +124,27 @@ To disqualify, select the lead, and on the command bar, select  **Disqualify**.
 
 - For information on how to resolve the common errors that you may get while you qualify a lead, see the [troubleshooting guide](troubleshooting.md).  
 - For frequently asked questions about lead qualification, see [Lead management FAQs](faq-lead.md).
+
+## Frequently Asked Questions (FAQs) for the New Lead Qualification Experience
+
+### What is the new lead qualification experience in Dynamics 365 Sales?
+
+The new lead qualification experience allows for a more customizable process of qualifying leads, including automatic creation of account, contact, and opportunity records, manual creation options, and the ability to create multiple opportunities from a single lead.
+
+### How does automatic record creation work in the new experience?
+If enabled by your administrator, automatic record creation will automatically generate account, contact, and opportunity records when a lead is qualified. You will see a **Processing** message while the records are being created, and the opportunity record will open once the process is complete.
+
+### Can I manually create or use existing records during lead qualification?
+Yes, if automatic creation is turned off or partially enabled, you will see the **Qualify lead** side pane. Here, you can choose to create new records, use existing records, or skip creating certain records like contact or account, depending on your administrator's configuration.
+
+### How can I create multiple opportunities for a single lead?
+If your administrator has enabled the creation of multiple opportunities, you can add additional opportunities by selecting **+New Opportunity** on the Qualify lead side pane. Enter the details for each opportunity in the quick create form and save. The records are not created until you select **Qualify**.
+
+### What happens if duplicate accounts or contacts are detected during lead qualification?
+If duplicates are detected, a duplicate detection dialog box will open. You can choose to create a new record despite the duplicates or use the existing record. This helps maintain data integrity within your CRM.
+
+### Is there a summary available after qualifying a lead?
+If lead summarization is enabled by your administrator, an AI-generated summary of the lead, including key details from the lead record, will be added to the timeline of the primary opportunity record and the lead record. This provides a quick overview of the lead's key information.
 
 ## Typical next steps  
 
