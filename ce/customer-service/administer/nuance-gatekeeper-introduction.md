@@ -18,7 +18,7 @@ By using voice biometrics, Nuance Gatekeeper can quickly and accurately verify a
 
 [This article is prerelease documentation and is subject to change.]
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## How Nuance Gatekeeper works in Customer Service
 
