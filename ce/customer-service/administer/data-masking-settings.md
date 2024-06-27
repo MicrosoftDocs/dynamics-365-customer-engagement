@@ -11,7 +11,7 @@ ms.topic: how-to
 
 # Create and manage data masking rules
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Use data masking to block sensitive data such as credit card information, social security number (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. Any masked text in a conversation is also masked in the conversation transcript. Data masking works for chat and asynchronous channels.
 
