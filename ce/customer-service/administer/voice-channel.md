@@ -1,6 +1,6 @@
 ---
 title: Introduction to the voice channel
-description: Enable agents to communicate with customers on the phone to resolve issues using the voice channel.
+description: Enable agents to communicate with customers on the phone to resolve issues using the voice channel in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.date: 07/01/2024

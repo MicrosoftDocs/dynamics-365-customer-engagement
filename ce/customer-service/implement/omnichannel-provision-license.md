@@ -1,7 +1,7 @@
 ---
 title: Provision Omnichannel for Customer Service and voice channel
 description: Perform the steps in this article to provision Omnichannel for Customer Service and add channels so that can you start using the product.
-ms.date: 07/01/2024
+ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,7 @@ ms.collection:
 
 # Provision Omnichannel for Customer Service
 
-[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 

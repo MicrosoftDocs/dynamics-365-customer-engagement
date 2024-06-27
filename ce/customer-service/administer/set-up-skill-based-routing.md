@@ -1,7 +1,7 @@
 ---
 title: Set up skill-based routing in unified routing
 description: Use the information to set up skill-based routing for unified routing in Customer Service.
-ms.date: 09/19/2023
+ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
