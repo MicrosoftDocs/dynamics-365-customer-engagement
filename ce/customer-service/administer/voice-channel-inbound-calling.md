@@ -1,6 +1,6 @@
 ---
 title: Set up inbound calling for the voice channel
-description: Learn about how to set up workstreams and queues for inbound calling in the voice channel in Omnichannel for Customer Service.
+description: Learn about how to set up workstreams and queues for inbound calling in the voice channel in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.date: 06/14/2024
@@ -10,9 +10,8 @@ ms.custom: bap-template
 
 # Set up inbound calling
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Configure inbound calling to set up the voice channel in Dynamics 365. You can enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel.
 
@@ -209,7 +208,7 @@ You can configure work classification rules for the voice workstream to add deta
 
 ### See also
 
-[Overview of voice channel in Omnichannel for Customer Service](voice-channel.md)  
+[Overview of voice channel](voice-channel.md)  
 [Overview of unified routing](overview-unified-routing.md)  
 [Assignment methods](assignment-methods.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  

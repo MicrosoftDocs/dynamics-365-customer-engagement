@@ -1,6 +1,6 @@
 ---
 title: View minutes used in voice calls
-description: View the report to see the minutes used in voice calls in Omnichannel for Customer Service.
+description: View the report to see the minutes used in voice calls in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.date: 06/14/2024
@@ -11,7 +11,7 @@ ms.collection:
 
 # View minutes used in voice calls
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 The Voice minutes report lets administrators view a Power BI report that helps them to get insights about how many call intelligence minutes and intelligent voicebot minutes from the voice quota have been consumed.
 

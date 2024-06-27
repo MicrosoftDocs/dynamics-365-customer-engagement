@@ -11,9 +11,8 @@ ms.custom: bap-template
 
 # Configure call recording, transcription, and real-time translation
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
@@ -52,6 +51,10 @@ To view translated voice transcripts for calls, you must enable call recording, 
 ## View call transcripts
 
 You can view the call transcripts in Customer Service admin center or Contact Center admin center.
+
+> [!NOTE]
+> You can view call transcripts in Customer Service workspace and Contact Center workspace only. 
+
 
 1. In the site map, go to manage **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.

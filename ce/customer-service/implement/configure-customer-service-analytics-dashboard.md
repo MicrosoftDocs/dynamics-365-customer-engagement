@@ -10,6 +10,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure Customer Service Analytics dashboards in Power BI
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 > [!NOTE]
 > Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) are deprecated as of November 6, 2023. We recommend that you use the out-of-box [Omnichannel historical analytics](../use/omnichannel-analytics-insights.md) and [Customer Service historical analytics](../use/customer-service-analytics-insights-csh.md), which don’t need additional Microsoft Power BI licenses. You can [visually customize](../use/customize-reports.md) and extend these reports to add additional data sources and metrics through [data model customization](../use/customize-reports.md). For details on the deprecation, go to [Deprecations in Customer Service](deprecations-customer-service.md).
 

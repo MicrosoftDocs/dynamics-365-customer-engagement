@@ -12,9 +12,8 @@ ms.custom: bap-template
 
 # Block spam numbers
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 You can block spam phone calls that your agents receive as part of their incoming customer calls. By blocking spam calls, you can help improve efficiency and productivity of agents and prevent long wait times for actual customers who are in the queues. Your agents and supervisors can also flag off incoming calls as spam, that you can later review and block as spam.

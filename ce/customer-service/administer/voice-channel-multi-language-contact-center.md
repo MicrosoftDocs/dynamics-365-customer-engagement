@@ -12,9 +12,8 @@ ms.custom: bap-template
 
 # Set up a multilingual contact center
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]

@@ -1,6 +1,6 @@
 ---
-title: Install voice channel in Omnichannel for Customer Service
-description: Learn about how to install the voice channel in Omnichannel for Customer Service.
+title: Install voice channel in Contact Center
+description: Learn about how to install the voice channel in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.custom: bap-template

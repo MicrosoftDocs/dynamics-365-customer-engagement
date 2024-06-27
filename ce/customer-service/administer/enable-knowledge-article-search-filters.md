@@ -34,7 +34,7 @@ The fields that are present on the knowledge article entity are the fields that 
 - Two choices
 - Date and time
 
-Any filter configurations that you set will be available wherever the knowledge search experience is configured, such as the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, embedded search control in Unified Service Desk, and the application tab search experience in Customer Service workspace.
+Any filter configurations that you set will be available wherever the knowledge search experience is configured, such as the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, embedded search control in Unified Service Desk, and the application tab search experience in Customer Service workspace or Contact Center workspace.
 
 The **Enable search filters** option is set to **Yes** by default. To disable search filters, you can set it to **No** on the **Filters** page.
 
@@ -48,7 +48,7 @@ The settings that you've previously configured for your organization, including 
 
 You can customize the search filters for knowledge articles in the Customer Service admin center app.
 
-1. In the site map of Customer Service admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 
 1. On the **Knowledge** page, go to the **Filters** section and select **Manage**. The **Filters** page appears.
 
@@ -97,9 +97,9 @@ The following steps apply to these data types:
 - Two choices
 - Date and time
  
-You can add a default filter in the Customer Service admin center app.
+You can add a default filter in the Customer Service admin center or Contact Center admin center app.
 
-1. In the site map of Customer Service admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 
 1. On the **Knowledge** page, go to the **Filters** section and select **Manage**. The **Filters** page appears.
 
@@ -116,9 +116,9 @@ You can add a default filter in the Customer Service admin center app.
 
 Some configurable filter values may include lookup types, where there are numerous value options that can be set. Some examples of these filters are Created by, Modified by, and Owner. For these types of values, when you add the filter, you can manually search for and select the records that you want to use.
 
-You can configure a lookup type filter in the Customer Service admin center app.
+You can configure a lookup type filter in the Customer Service admin center or Contact Center admin centerapp.
 
-1. In the site map of Customer Service admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 
 1. On the **Knowledge** page, go to the **Filters** section and select **Manage**. The **Filters** page appears.
 
@@ -151,9 +151,9 @@ Keep in mind the following:
 
 - If an agent sets default values, those values will persist and cannot be overwritten by changes made by an administrator.
  
-You can deactivate or reactivate a filter configuration in the Customer Service admin center app.
+You can deactivate or reactivate a filter configuration in the Customer Service admin center or Contact Center admin center app.
 
-1. In the site map of Customer Service admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 
 1. On the **Knowledge** page, go to the **Filters** section and select **Manage**. The **Filters** page appears.
 
@@ -168,9 +168,9 @@ All of the previous configurations are reinstated.
 
 You may have scenarios within your organization where agents are working on different areas and don’t all need the same filter settings. For example, an organization may have agents working on different product areas. One agent might need to see knowledge articles for Product A, while another agent might only want knowledge articles for Product B, and so forth.
 
-You can allow your agents to personalize the knowledge article search filters for their areas, from the Customer Service admin center app.
+You can allow your agents to personalize the knowledge article search filters for their areas, from the Customer Service admin center or Contact Center admin center app.
 
-1. In the site map of Customer Service admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 
 1. In the **General settings** section, select **Manage**. The **General settings** page appears.
 

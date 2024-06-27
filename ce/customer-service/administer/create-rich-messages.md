@@ -18,7 +18,7 @@ By creating and publishing channel-specific rich messages, your organization's c
 
 ## Create rich messages for Apple Messages for Business
 
-1. In the site map of Customer Service admin center, select **Productivity** in **Agent experience**.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Productivity** in **Agent experience**.
 1. On the **Productivity** page, select **Manage** for **Rich messages**.
 1. Select **New**, and then enter the following information:
     - **Name**: A descriptive name that'll be used by agents to search for rich messages.

@@ -9,7 +9,7 @@ ms.author: nenellim
 
 # Bring your own carrier
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 

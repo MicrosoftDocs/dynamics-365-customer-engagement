@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
 [This article is prerelease documentation and is subject to change.]
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]

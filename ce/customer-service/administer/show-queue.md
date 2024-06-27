@@ -27,7 +27,7 @@ The number of customers waiting to chat gets updated each time a customer in lin
 
 To configure the queue position setting:
 
-1. Sign in Customer Service admin center, and then go to the workstream of the chat widget for which you want to configure the queue setting.
+1. Sign in to the admin center application, and then go to the workstream of the chat widget for which you want to configure the queue setting.
 
 1. Select **Edit** for the required chat widget, and on the **Chat channel Settings** page, go to the **Behaviors** tab.
 

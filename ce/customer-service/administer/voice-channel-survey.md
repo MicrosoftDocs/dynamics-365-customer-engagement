@@ -13,9 +13,8 @@ ms.custom: bap-template
 
 # Configure a post-call survey
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -71,7 +70,7 @@ You can add messages or questions to a Copilot Studio IVR bot to create a post-c
 
 ## Connect your bot 
 
-- Configure your Copilot Studio bot. Perform the steps in [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel#configure-hand-off-in-the-power-virtual-agents-app) and [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md).
+- Configure your Copilot Studio bot. Perform the steps in [Configure handoff to Contact Center](/power-virtual-agents/configuration-hand-off-omnichannel#configure-hand-off-in-the-power-virtual-agents-app) and [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md).
 - Configure your Azure bot. More information: [Integrate an Azure bot](../configure-bot.md)
 
 ## Enable post-call survey in phone number settings

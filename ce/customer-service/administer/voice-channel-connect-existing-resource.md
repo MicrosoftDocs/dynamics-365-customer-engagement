@@ -12,9 +12,8 @@ ms.collection:
 
 # Advanced: Connect using an existing Azure resource
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
@@ -23,7 +22,7 @@ You can connect your voice or SMS channels to Azure Communication Services using
 ## Prerequisites
 
 - The organization that you're using isn't a trial version.
-- The **Get started** button that connects to an existing Azure resource is visible on the **Phone numbers** page of Customer Service admin center. The **Get Started** button appears only when:
+- The **Get started** button that connects to an existing Azure resource is visible on the **Phone numbers** page of Customer Service admin center or Contact Center admin center. The **Get Started** button appears only when:
   - The trial has ended after the free calling time has elapsed.
   - You've manually [ended the trial](voice-channel-trial-phone-numbers.md#end-the-trial).
   - You've [disconnected from the Azure resource](voice-channel-disconnect-from-acs.md). 
@@ -38,21 +37,21 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 1. Select the required **Resource** from the resource group.
     :::image type="content" source="../media/acs-resource-existing-mini.png" alt-text="image showing how to add a resource" lightbox="../media/acs-existing-resource.png":::
 1.  Select **Properties** in **Settings**. 
-1. On the **Properties** page,  copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center.
+1. On the **Properties** page,  copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center or Contact Center admin center.
    :::image type="content" source="../media/acs-property-records-mini.png" alt-text="image showing the resource id values " lightbox="../media/acs-property-records.png":::
 
 
-1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center. 
+1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center or Contact Center admin center. 
 
    :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
 
 
  > [!NOTE]
- > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in Customer Service admin center becomes invalid. An error message is also displayed in the connection string field in Customer Service admin center or Contact Center admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
+ > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in Customer Service admin center or Contact Center admin center becomes invalid. An error message is also displayed in the connection string field in Customer Service admin center or Contact Center admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
 
 ### Get application and tenant IDs from the Azure portal
 
-You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Customer Service admin center. Perform the following steps to get these values:
+You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Customer Service admin center or Contact Center admin center. Perform the following steps to get these values:
 
 1. Open the **App registrations** page on the Azure portal.
 
@@ -66,9 +65,9 @@ You'll need to specify the values of **Application (client) ID** and **Directory
     1. Select **Register**.
        :::image type="content" source="../media/acs-resource-register.png" alt-text="resource keys" :::
 
-1. Select the value of the **Application (client) ID** field, and then select the **Copy to clipboard** button. You'll need to enter this as the value of **Event grid app id** in Customer Service admin center.
+1. Select the value of the **Application (client) ID** field, and then select the **Copy to clipboard** button. You'll need to enter this as the value of **Event grid app id** in Customer Service admin center or Contact Center admin center.
 
-1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You'll need to enter this as the value of **Event grid app tenant id** in Customer Service admin center.
+1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You'll need to enter this as the value of **Event grid app tenant id** in Customer Service admin center or Contact Center admin center.
 
     :::image type="content" source="../media/acs-resource-application.png" alt-text="resource application" :::
 

@@ -9,12 +9,11 @@ ms.author: mgandham
 
 # Integrate a third-party IVR system with voice channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
-[Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) lets you integrate a third-party interactive voice response (IVR) system with Omnichannel for Customer Service voice channel, and perform a contextual call transfer between them.
+[Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) lets you integrate a third-party interactive voice response (IVR) system with the voice channel, and perform a contextual call transfer between them.
 
 ## Prerequisites
 
@@ -27,12 +26,12 @@ Before you proceed with this section, you must be familiar with the following co
 
 This section lists the high-level steps you must perform to enable contextual call transfer between a third-party IVR system and the voice channel.
 
-1. Set up Azure direct routing and connect a Session Border Controller (SBC), which is linked to the third-party IVR system, with Azure Communication Services resource, which is in turn connected to Omnichannel for Customer Service.
+1. Set up Azure direct routing and connect a Session Border Controller (SBC), which is linked to the third-party IVR system, with Azure Communication Services resource, which is in turn connected to the application.
 
 
-2. Follow the steps in the section [Bring your own phone number](voice-channel-bring-your-own-number.md) to register the phone number that’s assigned to the third-party IVR system with Omnichannel for Customer Service.
+2. Follow the steps in the section [Bring your own phone number](voice-channel-bring-your-own-number.md) to register the phone number that’s assigned to the third-party IVR system with the application.
 
-3. To transfer a call from the IVR system, issue an SIP (Session Initiation Protocol) INVITE request to the Azure Communication Services resource that'll transfer the call to the Azure resource that's connected to Omnichannel for Customer Service.
+3. To transfer a call from the IVR system, issue an SIP (Session Initiation Protocol) INVITE request to the Azure Communication Services resource that'll transfer the call to the Azure resource that's connected to th application.
 
 4. To include context in the payload, populate the SIP UUI (User-to-User Information) header with context data: "User-to-User": "param1=value1;param2=value2". For SIP UUI header with context data, the following formats are supported:
 

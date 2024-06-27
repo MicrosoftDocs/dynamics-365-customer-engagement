@@ -23,7 +23,7 @@ Agents can increase or decrease the width of the communication panel for a speci
 
 Do the following steps to enable the resizing of the communication panel:
 
-1. In Customer Service admin center, select **Miscellaneous** in **Operations**.
+1. In Customer Service admin center or Contact Center admin center, select **Miscellaneous** in **Operations**.
 1. Select **Manage** for **New and upcoming features**. The **New and upcoming features** page appears.
 1. Select  **Resizable Communication Panel**.
 

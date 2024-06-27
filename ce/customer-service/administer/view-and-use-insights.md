@@ -13,11 +13,11 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-After you add search providers to Customer Service, you can use the **Insights** tab in the Customer Service admin center to monitor ingestion. The tab displays the following details for the search provider: **Ingestion ID**, **Status**, **Crawl failures**, **Recognized**, **Created**, **Updated**, and **Failed**.
+After you add search providers to Customer Service, you can use the **Insights** tab in the Customer Service admin center or Contact Center admin center to monitor ingestion. The tab displays the following details for the search provider: **Ingestion ID**, **Status**, **Crawl failures**, **Recognized**, **Created**, **Updated**, and **Failed**.
 
 ## View insights
 
-1. In the site map of Customer Service admin center, go to **Knowledge > Integrated search providers > Manage**.
+1. In the site map of Customer Service admin center or Contact Center admin center, go to **Knowledge > Integrated search providers > Manage**.
 1. Select **Active integrated search providers** or **Inactive integrated search providers** in the list, and then select a search provider.
 1. Select the **Insights** tab.
 

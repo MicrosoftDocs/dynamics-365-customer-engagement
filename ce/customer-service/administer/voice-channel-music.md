@@ -1,6 +1,6 @@
 ---
 title: "Manage phone music in the voice channel | MicrosoftDocs"
-description: "Use this topic to understand how you can configure hold and wait music in Omnichannel for Customer Service."
+description: "Use this topic to understand how you can configure hold and wait music in Contact Center admin center."
 ms.date: 06/14/2024
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -11,7 +11,7 @@ ms.collection: get-started
 
 # Manage phone music
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can use the out-of-the-box music files to set hold and wait tunes. You can replace them with your own music files, or even upload new ones to be used for hold or wait music in your customer calls. The hold or wait music will automatically be played on loop.
 

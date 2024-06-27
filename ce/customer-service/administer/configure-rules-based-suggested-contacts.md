@@ -18,11 +18,12 @@ A maximum of 10 rules are supported per record type.
 ## Turn on the suggested contacts for a record type
 
 > [!NOTE]
-> For the case record type, there are two types of contact suggestions: AI and rules-based. Most record types enabled for connected chats only have rules-based suggestions. For more information about configuring AI-suggested contacts in Teams, see [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)
+> - For the case record type, there are two types of contact suggestions: AI and rules-based. Most record types enabled for connected chats only have rules-based suggestions. For more information about configuring AI-suggested contacts in Teams, see [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)
+> - Case is applicable to Customer Service only.
 
 **To enable collaboration with Microsoft Teams and chat**
 
-1. In the site map of Customer Service admin center, in **Agent experience**, select **Collaboration**.
+1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
 

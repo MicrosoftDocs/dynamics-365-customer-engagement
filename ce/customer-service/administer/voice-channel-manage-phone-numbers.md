@@ -1,6 +1,6 @@
 ---
 title: Manage phone numbers
-description: Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service.
+description: Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Dynamics 365 Contact Center.
 ms.date: 06/14/2024
 ms.custom: bap-template
 ms.topic: how-to
@@ -10,9 +10,8 @@ ms.author: mgandham
 
 # Manage phone numbers
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 You can enable and use voice and SMS services seamlessly within Dynamics 365. The voice channel comes with trial phone numbers with limited free calling time. More information: [Use trial phone numbers](voice-channel-trial-phone-numbers.md)
@@ -61,7 +60,7 @@ You can purchase new phone numbers for your organization after you check for the
 
       > [!NOTE]
       > 
-      > You can only acquire United States-based phone numbers in Customer Service. If you want to acquire phone numbers from a different region, you must first purchase them through Azure Communication Services. After you’ve acquired the phone numbers, you must sync them to Omnichannel for Customer Service. For more information, see [Quickstart: Get and manage phone numbers](/azure/communication-services/quickstarts/telephony/get-phone-number) and [Sync from Azure Communication Services](voice-channel-sync-from-acs.md)
+      > You can only acquire United States-based phone numbers in Customer Service. If you want to acquire phone numbers from a different region, you must first purchase them through Azure Communication Services. After you’ve acquired the phone numbers, you must sync them to Dynamics 365 Contact Center. For more information, see [Quickstart: Get and manage phone numbers](/azure/communication-services/quickstarts/telephony/get-phone-number) and [Sync from Azure Communication Services](voice-channel-sync-from-acs.md)
 
    b. Select the **Number type**, whether **Toll-free** or **Geographic**. More information: [Number types and features](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility)
 
@@ -100,7 +99,7 @@ You can purchase new phone numbers for your organization after you check for the
 
 After you acquire a phone number, you must add it to a voice workstream to be able to use it. You can associate a phone number with only one voice workstream.
 
-1. In Customer Service admin center, go to the **Phone numbers** page, and then select the phone number marked **Ready for setup** in the **Status** column.
+1. In the application, go to the **Phone numbers** page, and then select the phone number marked **Ready for setup** in the **Status** column.
 2. Select **Setup workstream**. The **Workstreams** page with a list of all workstreams is displayed.
 3. If you want to create a new workstream, select **New workstream**, and then follow the steps to [set up a voice workstream](voice-channel-inbound-calling.md#set-up-a-voice-workstream).
 4. Select an existing workstream from the list.
