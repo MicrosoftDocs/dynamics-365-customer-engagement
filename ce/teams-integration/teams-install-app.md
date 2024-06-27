@@ -1,7 +1,7 @@
 ---
 title: "Install the Dynamics 365 app in Teams"
 description: "Learn how to install the Dynamics 365 app in Teams."
-ms.date: 04/20/2022
+ms.date: 06/27/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
