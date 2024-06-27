@@ -14,6 +14,9 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+> [!Note]
+> Case information is applicable to Customer Service only.
+
 
 Data model customization helps you customize the out-of-the-box standard reports and add your own KPIs (key performance indicators) and custom metrics, so that you can use the data that's most relevant to your organization.
 

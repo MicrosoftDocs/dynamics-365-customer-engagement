@@ -8,9 +8,7 @@ ms.author: nenellim
 ---
 # Route records manually using unified routing
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
-After you set up and enable a record for routing, you can start routing a record manually, either by:
+ After you set up and enable a record for routing, you can start routing a record manually, either by:
 - Selecting a record on the home page grid and then selecting **Apply Routing Rule** on the toolbar.
 - Opening a record form and then selecting  **Save & Route** on the form command bar.
 

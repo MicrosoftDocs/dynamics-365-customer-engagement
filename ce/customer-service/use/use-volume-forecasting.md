@@ -17,6 +17,11 @@ ms.custom:
 
 # Forecast case and conversation volumes, and agents for conversations
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
+
 This article describes how to navigate the forecast reports in Customer Service so that you can successfully meet the staffing demands of your organization.
 
 > [!IMPORTANT]
