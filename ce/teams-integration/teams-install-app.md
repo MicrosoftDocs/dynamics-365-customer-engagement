@@ -15,18 +15,18 @@ search.audienceType:
 
 2. Search for **Dynamics**, and then select the **Dynamics 365** tile.
 
-3. Verify that **Add for you** and **Add to a team** are both set to **Yes**.
+3. Verify that **Add for you** and **Add to a Team** are set to **Yes**.
 
-   You can use the Dynamics 365 app for your own use or use on a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can start installing the app for your personal use and install it for your Microsoft Teams later.
+   You can use the Dynamics 365 app or use a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can install the app for your personal use and install it for your Microsoft Teams later.
 
-4. For **Add to a team**, choose a team and then select **Install**.
+4. For **Add to a Team**, choose a Team and then select **Install**.
 
 5. Pick a channel in Microsoft Teams to connect to an app record and then select **Set up**.
 
    > [!div class="mx-imgBorder"] 
    > ![Add to team.](media/teams-store-install-add-team75.png "Add to team")
 
-6. Select a version 9.x environment and a Unified Interface app to connect, and then select **Save**.
+6. Select a version 9.x environment and a Unified Interface app to connect, then select **Save**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select environment and app module.](media/teams-fre-org-app.png "Select environment and app module")
@@ -38,7 +38,7 @@ search.audienceType:
 
 7. Select **Entity Selection** or **View Selection**.
 
-    1. **Entity Selection**: Select an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
+    1. **Entity Selection**: Select an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter ** to narrow the search to an entity type. Once you've picked a record, select **Save**.
 
     2. **View Selection**: Select an entity to see the list of available views. Once you've picked a view, select **Save**.
    
