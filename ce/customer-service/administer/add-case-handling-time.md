@@ -15,6 +15,8 @@ ms.custom: bap-template
 
 Case handling time is the total time agents spend working on a case. Case handling time allows supervisors and agents to differentiate between the time agents actively spend on the case and the number of days it took to close the case.  The case handling time is displayed as a widget on the out-of-the-box case forms. You can also add the case handling time widget to custom case forms.
 
+The **Total time** in the case resolution will display the case handling time.
+
 ## Enable case handling time
 
 1. In Customer Service admin center, select **Case settings** in **Customer Support**.
