@@ -1,7 +1,7 @@
 ---
 title: Integrate an Azure bot
 description: Use this article to understand how to integrate Azure bots with Omnichannel for Customer Service.
-ms.date: 12/14/2023
+ms.date: 06/06/2024
 author: neeranelli
 ms.author: nenellim
 ms.collection:
@@ -28,9 +28,7 @@ In Omnichannel for Customer Service, you can integrate Azure bots seamlessly wit
 > [!NOTE]
 > If you're using multiple bots, make sure that you create unique applications and have unique application IDs for each bot.
 
-- To use the bot over messaging channels:
-    - Add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) as a supported channel, if you're using public cloud services.
-    - Add both [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels, if you're using GCC (Government Community Cloud) services.
+- To use the bot over messaging channels, add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) as a supported channel.
 
 ## Integrate Azure bots with Omnichannel for Customer Service
 
