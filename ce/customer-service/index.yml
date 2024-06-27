@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 06/12/2024
+  ms.date: 06/27/2024
   ms.custom: bap-template
   hide_bc: true
 
@@ -112,7 +112,7 @@ additionalContent:
         text: Unified Service Desk
       - url: ../channel-integration-framework/channel-integration-framework.md
         text: Dynamics 365 Channel Integration Framework 
-  - title: Manage your contact center
+  - title: Use
     items:
     - title: Manage cases and solve issues within SLAs
       links:
