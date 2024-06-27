@@ -10,8 +10,7 @@ ms.topic: how-to
 
 # Install the voice channel
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 To configure and use the voice channel for your business needs, you need to install the channel in Dynamics 365.
 

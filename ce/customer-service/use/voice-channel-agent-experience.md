@@ -12,9 +12,8 @@ ms.custom: bap-template
 
 # Use agent dashboard and call controls in the voice channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The voice channel is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers you a consolidated view of the calling interface, the customer summary, case history, and timeline. The dashboard helps you provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
 

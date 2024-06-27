@@ -10,7 +10,7 @@ ms.topic: article
 
 # Monitor calls
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 

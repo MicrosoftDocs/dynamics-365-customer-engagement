@@ -12,6 +12,9 @@ ms.custom: bap-template
 
 # Overview of data model customization
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 Data model customization helps you customize the out-of-the-box standard reports and add your own KPIs (key performance indicators) and custom metrics, so that you can use the data that's most relevant to your organization.
 
 As new features are added, metric definitions and calculations continually need to be updated to account for additional workflows that are enabled by new features. Using the out-of-the-box model and creating only those metrics that are unique to your organization reduces the risk of metric definitions becoming outdated.

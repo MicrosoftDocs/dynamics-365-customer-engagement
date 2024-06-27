@@ -10,7 +10,7 @@ ms.author: mgandham
 
 # Call a customer
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. More information: [Outbound calling](../administer/voice-channel-outbound-calling.md)
 
