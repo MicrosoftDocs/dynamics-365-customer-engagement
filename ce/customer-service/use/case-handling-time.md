@@ -19,16 +19,16 @@ Supervisors can use the case handling time to calculate the average time taken t
 
 When you open a case, you can see the case handling timer widget. Select the widget to expand it and see the following details:
 
-- Total time tracked: The sum of the automatic time tracking, manual time tracking, and the time spent on activities linked to the case.
-- Automatic time tracking: The time spent on a case when it is in focus. 
-- Manual time tracking: The time manually added to the case by agents and the time spent on activities linked to the case.
+- **Total time tracked**: The sum of the automatic time tracking, manual time tracking, and the time spent on activities linked to the case.
+- [**Automatic time tracking**](#automatic-time-tracking): The time spent on a case when it is in focus. 
+- **Manual time tracking**: The [time manually](#time-logs) added to the case by agents and the time spent on [activities](#activities) linked to the case.
  
 You can also perform the following actions on the case handling time widget:
 
 - View the personas of all the agents who spent time actively working on the case.
 - Select The **My time** toggle. Turn on this toggle to see the time that only you spent working on the case. The timer changes into a ticker to show your active time in hours, minutes, and seconds as applicable. A visual indicator is displayed to show that your time is tracked in real time. 
 - View the the last updated time. This is automatically refreshed based on your administrator's settings. By default, the timer is refreshed every 10 minutes. Select refresh to manually update the time. 
-- View history.
+- [View history](#view-history).
 
 
 ### Automatic time tracking

@@ -22,7 +22,7 @@ The **Total time** in the case resolution will display the case handling time.
 1. In Customer Service admin center, select **Case settings** in **Customer Support**.
 1. In the Case settings page, select **Manage**  for **Case handling time (preview)**. The Case handling time (preview) page appears.
 1. Select the **Enable case handling time** check box.
-1. Specify the **Update interval (minutes)**. 
+1. [Specify the **Update interval (minutes)**](#specify-the-update-interval). 
 1. The link to Power Apps is enabled. Select the **Go to Power Apps for configuration** link. The **Solutions** page appears.
 1. Select the required solution and then select **Tables**. 
 1. In the **Tables** page select **Case** and then select **forms**.
