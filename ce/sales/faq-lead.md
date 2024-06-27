@@ -131,3 +131,34 @@ The lead is qualified.
 
 When salespeople work on a lead, they use notes to store key information on the things they've researched about the lead. This could be information like new contacts at the site, current value of the contract, vendor information and so on. When a lead is qualified, these notes are displayed in the Opportunity record so that the information isn't lost.
 
+## What is the difference between the new and old lead qualification experiences?
+
+The new lead qualification experience allows for customization of the lead qualification process, including automatic or manual creation of account, contact, and opportunity records. The old experience does not offer these customization options and follows a more rigid process. 
+
+## How can I create multiple opportunities for a single lead?
+
+If multiple opportunities creation is enabled by your admin, you can create additional opportunities by selecting **+New Opportunity** on the Qualify lead side pane, filling in the details in the Opportunity quick create form, and saving the record. Remember, the records aren't created until you select **Qualify**. 
+
+## Why can't I edit the account and contact records in the Qualify lead side pane?
+
+If your admin has set account and contact records to be created automatically, these records aren't editable in the Qualify lead side pane. To make changes, you need to close the side pane, edit the details in the Lead form, and then select **Qualify** again. 
+
+## What happens if a similar account or contact already exists when qualifying a lead?
+
+If duplicate detection is enabled and a similar account or contact is found, a duplicate detection dialog box opens. You have the option to either create a new record or use the existing one. 
+
+## Can I customize the fields in the Opportunity form when creating multiple opportunities?
+
+Yes, if you'd like to see different fields in the Opportunity form, you should talk to your admin about customizing the opportunity form to better suit your needs during the lead qualification process. 
+
+## What is lead summarization, and how does it work?
+
+Lead summarization, if enabled by your admin, generates an AI-powered summary of the lead after it's qualified. This summary includes key details from the lead record and is added to the timeline of both the primary opportunity record and the lead record, providing a concise overview of the lead's information. 
+
+## Why don't I see lead summary after qualification?
+
+The lead summary feature is only available when the new lead qualification experience is enabled and Copilot is enabled for your organization. If the lead summary is not displayed, ensure that both these conditions are met. Additionally, you must select the checkbox under the **Lead qualification details** section to enable lead summarization by Copilot.
+
+### 6. How are fields mapped from leads to other entities upon qualification?
+
+When a lead is qualified, certain fields from the lead are automatically mapped to corresponding fields in accounts, contacts, and opportunities. This ensures that key information is transferred and maintained across these related records.

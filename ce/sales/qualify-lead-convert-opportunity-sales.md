@@ -72,7 +72,7 @@ For information on how the fields in the lead record are mapped to other records
 
 #### Multiple opportunities creation
 
-If your admin has enabled multiple opportunities creation, you can create multiple opportunities for a lead. A default opportunity record is added to the Qualify lead side pane. 
+If your admin has enabled multiple opportunities creation, you can create up to five opportunities for a lead. A default opportunity record is added to the Qualify lead side pane. 
 
 **To create additional opportunities:**
 
@@ -109,7 +109,7 @@ Select **Finish** to open the primary opportunity record and select **X** at the
 
 You can qualify multiple leads at once. To qualify multiple leads, open the **Leads** page in read-only grid view and select the leads that you want to qualify. On the command bar, select **Qualify**.
 
-You can only qualify leads in bulk when your administrator configures automatic record (account, contact, and opportunity) creation for leads.  
+If your admin has enabled automatic creation in the legacy experience, the records are created automatically. If your admin has disabled automatic creation or enable new exp   
 
 ## Disqualify a lead
 
@@ -125,26 +125,7 @@ To disqualify, select the lead, and on the command bar, select  **Disqualify**.
 - For information on how to resolve the common errors that you may get while you qualify a lead, see the [troubleshooting guide](troubleshooting.md).  
 - For frequently asked questions about lead qualification, see [Lead management FAQs](faq-lead.md).
 
-## Frequently Asked Questions (FAQs) for the New Lead Qualification Experience
 
-### What is the new lead qualification experience in Dynamics 365 Sales?
-
-The new lead qualification experience allows for a more customizable process of qualifying leads, including automatic creation of account, contact, and opportunity records, manual creation options, and the ability to create multiple opportunities from a single lead.
-
-### How does automatic record creation work in the new experience?
-If enabled by your administrator, automatic record creation will automatically generate account, contact, and opportunity records when a lead is qualified. You will see a **Processing** message while the records are being created, and the opportunity record will open once the process is complete.
-
-### Can I manually create or use existing records during lead qualification?
-Yes, if automatic creation is turned off or partially enabled, you will see the **Qualify lead** side pane. Here, you can choose to create new records, use existing records, or skip creating certain records like contact or account, depending on your administrator's configuration.
-
-### How can I create multiple opportunities for a single lead?
-If your administrator has enabled the creation of multiple opportunities, you can add additional opportunities by selecting **+New Opportunity** on the Qualify lead side pane. Enter the details for each opportunity in the quick create form and save. The records are not created until you select **Qualify**.
-
-### What happens if duplicate accounts or contacts are detected during lead qualification?
-If duplicates are detected, a duplicate detection dialog box will open. You can choose to create a new record despite the duplicates or use the existing record. This helps maintain data integrity within your CRM.
-
-### Is there a summary available after qualifying a lead?
-If lead summarization is enabled by your administrator, an AI-generated summary of the lead, including key details from the lead record, will be added to the timeline of the primary opportunity record and the lead record. This provides a quick overview of the lead's key information.
 
 ## Typical next steps  
 

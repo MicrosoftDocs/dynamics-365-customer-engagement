@@ -78,7 +78,7 @@ The following options are available only when you select **Seller** for Opportun
 
 - Under **Modify opportunity form**, select **Add or remove fields** to customize the opportunity form that opens when a lead is qualified. The quick create form opens in Power Apps for editing. You can add or remove fields, change the order of fields, or change the properties of fields. For more information, see [Add, move, configure, or delete columns on a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
 
-- Select **Let seller create up to 5 opportunities from a newly qualified lead** to allow sellers to create multiple opportunities when a lead is qualified. This option is useful when a lead is associated with multiple deals. Sellers can create up to 5 opportunities from a lead.
+- Select **Let seller create up to 5 opportunities from a newly qualified lead** to allow sellers to create multiple opportunities when a lead is qualified. This option is useful when a lead is associated with multiple deals. Sellers can create up to five opportunities from a lead.
 
 ### Summarize the lead after it's qualified
 
@@ -155,3 +155,4 @@ When a lead is qualified, values of some fields from leads are automatically map
 [Troubleshoot issues with lead qualification](/troubleshoot/dynamics-365/sales/troubleshoot-lead-qualification-issues-for-system-admin)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
