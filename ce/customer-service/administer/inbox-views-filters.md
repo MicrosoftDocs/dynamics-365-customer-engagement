@@ -1,0 +1,31 @@
+---
+title: Inbox out of box views and filters
+description: Learn about the inbox views and filters that are available out of the box.
+ms.date: 06/27/2024
+author: lalexms
+ms.author: laalexan
+ms.reviewer: shujoshi
+ms.collection:
+ms.topic: how-to
+ms.custom: bap-template
+---
+
+# Inbox out-of-the-box views and filters
+
+The following tables contain details about the out-of-the-box views and filters that are available for the inbox.
+
+## Out-of-the-box views
+
+| View name | Description | Entities | Entity filters |
+|----------|------------|----------|------------|
+| My work items | Shows all of the work items that are considered actionable for the agent. This includes assigned conversations, assigned cases, emails that are sent to the agent (To, Cc, or Bcc) or owned by the agent (owner field set), and voicemails assigned to the agent. | Case, Conversation, Email, Voicemail | Case: Work items assigned to me<br></br>Conversation: Assigned<br></br>Email: Emails assigned to me;</br>Emails sent to me<br></br>Voicemails: Assigned|
+| Open work items | Shows work items that are available for the agent to pick up. This includes cases that are assigned to a team or apart of private queues the agent is a member of, open conversations, emails that are owned by a team or private queue that the agent is a member of, and voicemails that are unassigned. | Case, Conversation, Email, Voicemail | 
+|
+
+
+
+## Out-of-the-box filters
+
+
+
+
