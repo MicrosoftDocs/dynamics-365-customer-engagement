@@ -17,7 +17,7 @@ ms.custom:
 
 # Configure agents for conversations forecasting
 
-[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
 
 This article describes how to set up agent conversation forecasting for your organization.
 

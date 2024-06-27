@@ -11,6 +11,9 @@ ms.custom: bap-template
 
 # Migrate configurations for record routing using solutions
 
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 Use solutions and the Configuration Migration tool to migrate the configurations from the source environment to the target environment for record routing.
 
 For information on how to use solutions or the Configuration Migration tool, see [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
