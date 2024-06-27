@@ -15,8 +15,6 @@ search.audienceType:
 
 2. Search for **Dynamics**, and then select the **Dynamics 365** tile.
 
-   
-
 3. Verify that **Add for you** and **Add to a team** are both set to **Yes**.
 
    You can use the Dynamics 365 app for your own use or use on a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can start installing the app for your personal use and install it for your Microsoft Teams later.
@@ -47,7 +45,7 @@ search.audienceType:
       > [!NOTE]
    > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users before you add the view to the Microsoft Teams channel. Otherwise, other team members will not have access to the view tab content.
 
-8. After completing the above steps, you will see a new Dynamics 365 tab in the selected team channel. 
+8. After completing the above steps, you'll see a new Dynamics 365 tab in the selected team channel. 
  
 See [Collaborate with Microsoft Teams](teams-collaboration.md#have-a-conversation) for information on how you can use the tab feature to collaborate with Dynamics 365 apps.
 
