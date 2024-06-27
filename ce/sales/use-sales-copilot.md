@@ -75,7 +75,9 @@ You can chat with Copilot in natural language or use predefined prompts to get t
 <a name=chat-with-copilot-in-NL></a>
 ### Chat with Copilot in natural language
 
-When you chat with Copilot in natural language, you can use the following types of requests:
+When you chat with Copilot in natural language, Copilot looks for answers in the data stored in Dataverse (the underlying data platform) first. If the answer isn't available in Dataverse, Copilot displays a follow-up prompt to search for the answer in SharePoint.
+
+You can use the following types of questions:
 
 - **Data-based questions:** Straightforward data requests such as:
 
@@ -84,7 +86,7 @@ When you chat with Copilot in natural language, you can use the following types 
   - Who is the owner of Alpine Ski House?
   - Show me all my opportunities that are closing this month.
 
-These questions are answered using the data stored in Dataverse, which is the underlying data platform for Dynamics 365 Sales. For more such questions, see [Questions about sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data).
+For more such questions, see [Questions about sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data).
 
 - **Questions with sales-specific terminology:** Questions that are based on terms specific to Sales organizations. Questions around the following topics are supported:
 
@@ -95,6 +97,8 @@ These questions are answered using the data stored in Dataverse, which is the un
   - **Deal sizes and values**. For example, display open deals with deal size greater than 10000.
   
 For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology)
+
+These questions are first answered using the data stored in Dataverse, which is the underlying data platform for Dynamics 365 Sales. If the answer isn't available in Dataverse, Copilot displays a follow-up prompt to search for the answer in SharePoint.  
 
 You can also access some of these question from the Prompt guide that appears when you select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) in the Copilot side pane or Copilot page.
 
