@@ -38,8 +38,8 @@
     href: share-schedule-board-tab.md
   - name: Utilization
     href: schedule-board-utilization.md
-
-
+  - name: Construct schedule board URL
+    href: schedule-board-url.md
   - name: Booking alerts
     href: booking-alert.md
   - name: Schedule board tab settings

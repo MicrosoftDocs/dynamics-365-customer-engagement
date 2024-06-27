@@ -51,7 +51,6 @@ No. We don't use any customer data to train Azure OpenAI or any other language m
 No, Copilot in Dynamics 365 Sales is not available in the following regions, even if Azure OpenAI endpoints are available in those regions:
 
 - South Africa (ZAF)
-- Germany (GER) 
 - Norway (NOR)
 - Korea (KOR)
 - Singapore (SGP)

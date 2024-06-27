@@ -1,7 +1,7 @@
 ---
 title: "Configure a Google's Business Messages channel | MicrosoftDocs"
 description: "Perform the steps mentioned in this article to configure a Google Business Messages channel in Omnichannel for Customer Service."
-ms.date: 06/06/2024
+ms.date: 06/14/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -41,21 +41,11 @@ Complete the following steps before configuring Google's Business Messages chann
 
 ## Create a Google's Business Messages channel
 
-1. Go to one of the admin apps, and perform the following steps.
+1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
 
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
-    
-    1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
-   
-    1. Select **New account**.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-
-    - In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **New account**.
+1. Select **New account**.
 
 1. In the **Name** field, enter the name for the account.
 
@@ -65,7 +55,7 @@ Complete the following steps before configuring Google's Business Messages chann
 
 1. In the **Client token** field, enter the token from Google's Business Messages app. To retrieve the token, in Google's Business Messages app, on the **Settings** page, under **Webhook**, select the **Configure** link. The **Configure your webhook** page is displayed, and then you can copy the token from the **Client token** field.
 
-1. In Omnichannel admin center, on the **Google's Business Messages Partner account** page, next to **Service Account Credentials file (JSON file)**, select **Upload**, and then select the file you downloaded from Google's Business Messages.
+1. In Customer Service admin center, on the **Google's Business Messages Partner account** page, next to **Service Account Credentials file (JSON file)**, select **Upload**, and then select the file you downloaded from Google's Business Messages.
 
    > [!Note]
    > Only users with proper security permissions can use secured fields, such as **Client token** and **Security Credential**. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
@@ -84,16 +74,7 @@ Complete the following steps before configuring Google's Business Messages chann
 
 ## Create a workstream
 
-1. Go to one of the admin apps, and perform the following steps:
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    - In the site map, select **Workstreams** in **Customer support**. The **All Workstreams** page appears.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    - In the site map, select **Workstreams** under **General settings**. The **All workstreams** page appears.
-    
+1. In the site map of Customer Service admin center, select **Workstreams** in **Customer support**. The **All Workstreams** page appears.   
 1. Select **New workstream**, and then enter a name.
 1. In **Type**, select **Messaging**.
 1. In the **Channel** dropdown list, select **Google's Business Messages**.
