@@ -9,7 +9,7 @@ ms.author: nenellim
 
 # Use SMS channels
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 When you sign in, you can see your work items in the agent dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).

@@ -3,13 +3,18 @@ title: Create records for conversations
 description: Learn how you can create conversation records using various methods.
 author: neeranelli
 ms.author: nenellim
-ms.date: 01/06/2021
+ms.date: 07/01/2024
 ms.topic: article
 ---
 
 # Create a record for conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
 
 When no records are linked to the conversation, you can create a record. You can create a record in one of the following ways:
 

@@ -9,7 +9,7 @@ ms.author: nenellim
 
 # Search for transcripts
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 As an agent, you communicate with customers to resolve issues. All those conversations are stored as transcripts in Omnichannel for Customer Service app. When you want to find any details from the transcripts, you can search for them.
 

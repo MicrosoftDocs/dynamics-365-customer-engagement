@@ -11,8 +11,6 @@ ms.custom: bap-template
 
 # View customer information on Active Conversation form
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
 > [!IMPORTANT]
 > The **Customer Summary** form is renamed as **Active Conversation** form.
 

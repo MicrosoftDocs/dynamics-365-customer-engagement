@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Overview of channels
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 As new social networks and communication channels rapidly evolve, so do customer expectations on how to reach their favorite brands. Communication via many channels is not only comfortable but expected, and businesses that seek to provide personalized services are rapidly working to enable support through the channels their customers want to use. 
