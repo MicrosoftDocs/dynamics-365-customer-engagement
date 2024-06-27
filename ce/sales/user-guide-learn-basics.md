@@ -113,7 +113,7 @@ Here are some highlights of Dynamics 365 Sales:
 
 - **Sales data anywhere and everywhere.** Get all your customer and sales data right on your mobile device or tablet. Whether you're visiting a customer or on the road, you can quickly pull out your device to update the opportunity with information. What’s more—you get the same consistent experience regardless of the device you use.
 
-For information on how to use Dynamics 365 Sales mobile app, see [Use the Dynamics 365 Sales mobile app](/https://review.learn.microsoft.com/en-us/dynamics365/sales/sales-mobile/use-sales-mobile-app?branch=main)
+For information on how to use Dynamics 365 Sales mobile app, see [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
 
 ## Understand the data in the app
 
