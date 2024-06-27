@@ -1,5 +1,5 @@
 ---
-title: Process a return (return merchandise authorization and returns to vendor)
+title: Process a return
 description: Learn about how to process a return in Dynamics 365 Field Service
 ms.date: 06/26/2024
 ms.topic: how-to
@@ -7,105 +7,75 @@ ms.author: jacoh
 author: jasonccohen
 ms.custom: bap-template
 ---
-# Process a return (return merchandise authorization and returns to vendor)
+# Process a return (RMA and RTV)
 
-Sometimes the same organization that installs parts and equipment at a customer's location needs to process a return of that product or customer asset.
-
-Common examples for why returns may be initiated include:
-
-- The part or equipment is defective.
-- The customer is dissatisfied.
-- A repair is needed and the repair will not take place on site, but back at the service provider's or manufacturer's location.
-- The equipment was at the customer's location as part of a lease that is ending and will not be renewed.
-
-Field Service supports three out-of-the-box returns:
-
-- Return to warehouse
-- Return to vendor
-- Change of equipment ownership
+To process a return of a product or customer asset, create a return merchandise authorization (RMA) and then an RMA receipt. In addition, if the return is going to a vendor, create a return to vendor (RTV). Learn more about [returns](inventory-purchasing-returns-overview.md#returns).
   
 ## Create an RMA  
   
-1. In Field Service, select the **Inventory** area. Under **Inventory**, select **RMAs**, and then select **New**.
+1. In Field Service, change to the **Inventory** area. Under **Inventory**, select **RMAs**, and then select **New**.
   
-1. If the product was used in a work order, choose the related **Work Order** where the product was used. The related **Service Account** is automatically filled in when you choose a work order.  
+1. Enter the following information:
 
-1. If RMA substatuses were set up in **Field Service** > **Settings** > **RMA Substatuses**, select one. For example, **Exchange**, **Repair**, **Retire**, or **Upgrade**.
+   - **Work Order**: If the product was used in a work order, choose the work order. The related **Service Account** is automatically filled in.  
+
+   - **Substatus**: If you want an RMA substatus such as exchange, repair, retire, or upgrade, choose one or create a new one.
+
+   - **Ship Via**: If you want to track how the return is transported such as freight shipping, USPS Ground, or FedEx, choose one or create a new one.
 
 1. Select **Save**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an RMA.](./media/inventory-rma.svg)
+:::image type="content" source="media/inventory-rma.svg" alt-text="Screenshot of an RMA.":::
+  
+### Add RMA products
 
-#### Ship via
+ Once an RMA is created, add the products to be returned. There are two ways to add RMA products — either manually or by choosing a product that was used on a work order.  
 
-When you create a Field Service RMA, you can track how the return will be transported. The **ship-via** field lets you specify different shipping methods used by your company. You can create new options in **Field Service** > **Settings** > **Ship Via**. Common examples include freight shipping, USPS Ground, or FedEx.  
-  
-## Step 2: Add RMA products  
- Once an RMA is created, you must add the products to be returned. There are two ways to add RMA products — either manually or by choosing a product that was used on a work order.  
-  
-### To add products manually:
-  
-1.  In the RMA record, go to the **Product** section, and then select **+Add RMA Product Record.**   
-2.  Use the tooltips to help fill in your information, and then select **Save & Close**.  
+#### Add products manually
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an RMA with associated RMA products.](./media/inventory-rma-product.png)
+1. In the RMA record, go to the **Product** section, and then select **Add RMA Product Record**.
 
-### Add products used in a work order
+1. Use the tooltips to help fill in your information, and then select **Save & Close**.  
 
-> [!NOTE]
-> To **Add WO Products**, a work order must be associated with the RMA.  
-  
-1.  In the RMA record, on the command bar at the top, select **Add WO Products**. The **Add WO Products** dialog box opens.  
-  
-2.  From the list of **Work Order Products**, select the **Return** check box for the products that are being returned.  
-  
-    > [!NOTE]
-    >  If the full quantity is not to be returned, you can choose a different value in the **Return Value** column, for example, if 5 units were used on a work order, but only 3 are to be returned.  
-  
-3.  For each work order product to be returned, choose a **Processing Action**. This is the type of return. Choose from the following options:  
-  
--   **Return to Warehouse**  
--   **Create Return to Vendor (RTV)**  
--   **Change of Equipment Ownership**  
-  
-4.  Next, specify the destination of the return. For example, if your **Processing Action** is **Return to Warehouse**, then in the **Return to Warehouse** column, choose the warehouse the product is going back to.  
-  
-5.  When you're done, in the **Add WO Products** dialog box, select **Ok**.  
-    
-## Step 3: Create an RMA receipt  
-  
-1.  From the RMA go to **Related** > **Receipts**. 
-  
-2.  Select **+Add New RMA Receipt**.  
-  
-3.  Use the tooltips to help fill in your information. 
-  
- 
-## Step 4: Add RMA receipt products  
-  
-1. From the RMA receipt record, go to the **Products** section.  
-  
-2. Click **+Add New RMA Receipt Product**.  
-  
-3. Fill in your information. Use the handy tooltips as a guide.  
-  
-4. Enter the **RMA Product** and **Quantity** received.  
-  
-5. Select **Save**.  
+#### Add products used in a work order
 
-> [!NOTE]
-> For products that are tracked in inventory and for returns going to warehouses, an inventory journal is created automatically in the background that increases the "On Hand" warehouse quantity by the RMA receipt product quantity. 
-   
-## Step 5: (Optional) Create an RTV  
-You only need to create an RTV if the return is going back to the vendor. Once the product is received, you will create an RTV.  
+A work order must be associated with the RMA.  
   
-1.  In the RMA record, on the command bar at the top, select **Create RTV.** The **Create RTV** dialog box opens.  
+1. In the RMA record, on the command bar at the top, select **Add WO Products**.  
   
-2.  Review the details, and then select the **Return** check box.  
+1. Use the tooltips to help fill in your information about the products being returned. Then, select **Ok**.  
+
+## Create an RMA receipt
+
+Once the RMA products are received, create an RMA receipt.
   
-3.  A dialog box opens, confirming the RTV has been created.  
+1. From the RMA, select **Related** > **Receipts**.
+  
+1. Select **New RMA Receipt**.  
+  
+1. Use the tooltips to help fill in your information. Then, select **Save & Close**.
+  
+### Add RMA receipt products  
+  
+1. From the RMA receipt record, select **Related** > **Recipt Products** section.  
+  
+1. Select **New RMA Receipt Product**.  
+  
+1. Enter the **RMA Product** and **Quantity** received.  
+  
+1. Select **Save * Close**.  
+
+For products that are tracked in inventory and for returns going to warehouses, an inventory journal is created automatically in the background that increases the "On Hand" warehouse quantity by the RMA receipt product quantity.
+
+## Create an RTV (optional)
+
+If the return is going back to the vendor, create an RTV.
+  
+1. In the RMA record, on the command bar at the top, select **Create RTV.**
+  
+1. Review the details, and then select **OK**.  
+  
+1.  A dialog box opens, confirming the RTV has been created.  
   
 4.  To see the RTV record, from the main menu go to **Field Services** > **Inventory tab** > **RTVs**.  
   
