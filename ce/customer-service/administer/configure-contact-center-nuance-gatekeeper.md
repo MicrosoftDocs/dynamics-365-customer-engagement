@@ -1,12 +1,12 @@
 ---
-title: Configure Digital Contact Center Platform for Nuance Gatekeeper integration (preview)
-description: How-to configure Digital Contact Center Platform for Nuance Gatekeeper integration 
+title: Configure contact center for Nuance Gatekeeper integration (preview)
+description: How to configure your contact center to integrate Nuance Gatekeeper
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 07/31/2023
+ms.date: 06/27/2024
 ms.custom: bap-template
 ---
 
@@ -16,14 +16,14 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Use the information in this article to configure the following settings:
+Use the information in this article to configure the following settings by using an Azure administrator role:
 
 - Conversation Conductor Service
 - Omnichannel Event Grid Writer Service
 
 ## Configure Conversation Conductor service
 
-The Conversation Conductor handles the audio stream that’s required to support biometric authentication and fraud prevention capabilities. This service requires the Contributor role on the specific Azure Communication Services resource that's connected to the Power Platform environment. This step must be performed by an Azure administrator.
+The Conversation Conductor handles the audio stream required to support biometric authentication and fraud prevention capabilities. This service requires the Contributor role on the specific Azure Communication Services resource connected to the Power Platform environment.
 
 1. Go to [Azure portal](https://portal.azure.com).
 
@@ -39,7 +39,7 @@ The Conversation Conductor handles the audio stream that’s required to support
 
 ## Configure Omnichannel Event Grid Writer service
 
-Create a new Omnichannel Service Principal account to configure new Event Grid subscriptions for incoming call events to the Conversation Conductor Service. This service requires EventGrid EventSubscription Contributor privilege on the specific Azure Communication Services resource connected to the Power Platform environment. This step must be performed by the Azure administrator.
+Create a new Omnichannel Service Principal account to configure new Event Grid subscriptions for incoming call events to the Conversation Conductor Service. This service requires EventGrid EventSubscription Contributor privilege on the specific Azure Communication Services resource connected to the Power Platform environment.
 
 1. Go to **Azure Communication Services resource** > **Properties** > **Id**. Use the SubscriptionId and ACSResourceId that's connected to the Power Platform environment.
 
@@ -47,7 +47,7 @@ Create a new Omnichannel Service Principal account to configure new Event Grid s
     - `Connect-AzAccount -SubscriptionId "<SubscriptionId>”`.
     - `New-AzADServicePrincipal -ApplicationId "a950df6d-e658-48fc-b494-ec69d8d9731b" -DisplayName "Omnichannel EventGrid Writer App"`.
 
-1. Provide access to the Omnichannel Event Grid Writer with permission to configure Event Grid subscriptions on the Azure Communication Services resource.
+1. Provide access to the Omnichannel Event Grid Writer with the permission to configure Event Grid subscriptions on the Azure Communication Services resource.
    - `Connect-AzAccount -SubscriptionId "<SubscriptionId>”`.
    - `New-AzRoleAssignment -ApplicationId "a950df6d-e658-48fc-b494-ec69d8d9731b" -RoleDefinitionName "EventGrid EventSubscription Contributor" -Scope "<ACSResourceId>"`.
 
