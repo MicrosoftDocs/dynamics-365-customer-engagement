@@ -1,77 +1,44 @@
 ---
-title: Scopes in Resource Scheduling Optimization for Dynamics 365 Field Service
+title: Optimization scopes in Resource Scheduling Optimization
 description: Learn about how to use scopes in Resource Scheduling Optimization for Dynamics 365 Field Service
 author: AnilMur
 ms.author: anilmur
 ms.date: 06/26/2024
 ms.topic: conceptual
-
 ms.subservice: resource-scheduling-optimization
 ---
 
 # Optimization scopes in Resource Scheduling Optimization
 
-You can define what Resource Scheduling Optimization optimizes, including resources, requirements, or bookings.
+Optimization scopes define what Resource Scheduling Optimization optimizes, including resources, requirements, or bookings and the time range to be considered for optimization. Scope definitions should be as narrow as possible.
 
-Scope is the Resource Scheduling Optimization mechanism for defining the relevant inputs: resource requirements, resources, and existing resource bookings. It also includes the timeframes to be considered for optimization. It leverages Dynamics 365 entity views, providing an easy and flexible way to define what to optimize (resource requirements, resources, and existing resource bookings).
+Organizations often already have partitions that could be used for Resource Scheduling Optimization. For example:
 
-> [!IMPORTANT]
-> Scopes should be as small as possible. Resource Scheduling Optimization will be quicker and more effective if optimization requests contain few resources, requirements, bookings, and shorter range durations. Usually companies already have partitions that could be used for Resource Scheduling Optimization; for instance: 
-> - Temporal paritions: optimize technicians who work in the day separately from
-    those who work at night.
-> - Geographical partitions: neighborhoods, cities.
-> - Logical partitions: support level, incident type.
+- Temporal partitions: resources that work during the day or those that work at night
+- Geographical partitions: neighborhoods, cities, or other territories
+- Logical partitions: support levels, incident types, etc.
 
-After opening the **Scheduling Optimization Scope** form, you can select existing system views or personal views (for which you have read permissions) from the Resource, Requirement, and Booking view drop-down menus. If a personal view is selected, it is shared with the Resource Scheduling Optimization application user and other users who have access to the scope.
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling optimization scope.](media/92069616c79fb0f7fe9c4adc6683f50b.png)
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a modal with system view options.](media/e7dd89ff112dcae60489d52534c564f2.png)
+System views and personal views are a critical building block for optimization scopes. Views are a set of filters that result in a list of records. [Create personal views](/power-apps/user/grid-filters-advanced) to make sure the system focuses on the right records. Optimizations complete faster if optimization requests contain fewer resources, requirements, bookings, and a shorter time range.
 
-1. Using **Resource View** for example, 0_WA Resources has been defined with
-    the filter conditions shown in the following screenshot. This is equivalent
-    to configuring WA territory as an optimization scope in the previous version
-    of Resource Scheduling Optimization. You can apply more filter conditions as needed to specify
-    resources you need to optimize. Resource Scheduling Optimization will respect the Optimize Scheduling
-    setting on individual resource records on top of the resource view filters.
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of a list of resources.](media/4b4f1beede0d89f940677b7df65f80c8.png)
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of bookable resource territories.](media/349c0ca23d3c32edb227b78430c95d46.png)
+## Create an optimization scope
 
-2. Select at least one requirement or booking view for what needs to be
-    optimized.
-    
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot showing that users must select on requirement or booking view.](media/843748f6ea067de2163318e71ac4851d.png)
+1. In Resource Scheduling Optimization, go to **Settings** > **Optimization Scopes**.
+1. Select **New** to create an new scope or edit an existing one.
+1. Choose views to define the list of records that the system will optimize when this scope is used. If you choose a personal view, it's shared with the Resource Scheduling Optimization application user and other users who have access to the optimization scope.
 
-3. If you select booking view, you can set it to **Now or After**. For example,
-    maybe you want to optimize bookings for the next five days, from 2 hours on
-    (while excluding bookings within the next 2 hours and bookings in the past).
-    The out-of-the-box Dynamics 365 entity view filter doesn’t support
-    this Now or After condition, installing Resource Scheduling Optimization enables this additional setting on top of
-    whatever filter conditions are defined for that booking view.
-    
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of Bookings for this Optimization.](media/322f8b809e438d032b150b13fde88148.png)
+   - **Resource View**: Defines which resources are considered for optimization.
+   - **Requirement View**: Defines the resource requirements that are considered for optimization.
+   - **Booking View**: Defines the bookable resource bookings for optimization. You can also choose a value for **On or After** to exclude bookings within selected time from when the optimization runs and bookings in the past.
+1. Configure **Optimization Range Settings**. The optimization range is the time range in which bookings can be created, updated, or deleted.
+1. 
+1. -- 
 
-4. **Optimization Range Settings** is the time range where bookings can be created,
-    updated, and deleted.
-
-   **Example 1:** You want to have a booking created or moved ahead 24 hours but from 1 hour on; in other words, bookings will be moved into a range starting Now+1hour and ending Now+1hour+1day (which might partly still be today).
-  
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of optimization range settings_1.](media/62ab888c08dfc0bdd81587535de73d5d.png)
-
-   - **Range Reference**: The start time for all subsequent work order range
-     calculation (Job current time or Beginning of the Job’s current day).
-   - **Range Offset**: Amount of time added to the range reference to define the
-     range start.
+   - **Range Reference**: The start time for all subsequent work order range calculation (Job current time or Beginning of the Job’s current day).
+   - **Range Offset**: Amount of time added to the range reference to define the range start.
    - **Range Duration (days)**: Number of days added to the range reference.
-  
-     > [!div class="mx-imgBorder"]
-     > ![Screenshot of range duration.](media/06e5a506621a550cc2d05df234a3dbde.png)
 
+   :::image type="content" source="media/optimization-scope-time-range.png" alt-text="Visualization of the optimization range and its related settings.":::
+  
    **Example 2**: You want to have a booking created/moved into the next two days.
   
    > [!div class="mx-imgBorder"]
