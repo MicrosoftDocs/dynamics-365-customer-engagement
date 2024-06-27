@@ -1,13 +1,13 @@
 ---
 title: Competitor table (Dynamics 365 Sales)
 description: Learn about competitor table that enables record to have details, such as company profile, SWOT analysis, presentations, materials of the competitor. Using this table you can do complete analysis of the competitor company.
-ms.date: 03/01/2023
+ms.date: 06/28/2024
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
-ms.reviewer: udag
+ms.reviewer: shujoshi
 search.audienceType: 
   - developer
 

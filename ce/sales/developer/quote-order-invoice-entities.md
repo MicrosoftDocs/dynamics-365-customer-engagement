@@ -1,11 +1,11 @@
 ---
 title: Quote, order, and invoice tables (Dynamics 365 Sales)
 description: Learn about quote, sales order (order), and invoice building.
-ms.date: 03/01/2023
+ms.date: 06/28/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
-ms.reviewer: udag
+ms.reviewer: shujoshi
 search.audienceType: 
   - developer
 
@@ -40,11 +40,11 @@ Dynamics 365 Sales supports robust *quote*, *sales order (order)*, and *invoice*
 
   > [!NOTE]
   > You can't set the status of multiple orders to fulfilled at one go. 
- 
-  
+
   An invoice is an order that has been billed.  
   
 ### See Also  
+
  [Quote Table](entities/quote.md)   
  [QuoteDetail Table](entities/quotedetail.md)   
  [QuoteClose Table](entities/quoteclose.md)   

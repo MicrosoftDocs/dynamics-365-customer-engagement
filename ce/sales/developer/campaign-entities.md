@@ -1,13 +1,13 @@
 ---
 title: Campaign tables (Dynamics 365 Sales)
 description: Learn about creating campaign activites, use the marketing lists to distribute the campaign activites, and analyze campaign responses to the campaign activities.
-ms.date: 03/01/2023
+ms.date: 06/28/2024
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
-ms.reviewer: udag
+ms.reviewer: shujoshi
 search.audienceType: 
   - developer
 
@@ -40,6 +40,7 @@ A *campaign* in Dynamics 365 Customer Engagement (on-premises) is designed to ac
 |Distribute Activities|Use the <xref:Microsoft.Crm.Sdk.Messages.DistributeCampaignActivityRequest> message to distribute a campaign activity (`CampaignActivity`) to the members of a marketing list.|Use the <xref:Microsoft.Crm.Sdk.Messages.PropagateByExpressionRequest> message to distribute an activity, such as email or fax, to the accounts, contacts, or leads selected by the query.<br /><br /> Use the <xref:Microsoft.Crm.Sdk.Messages.CreateActivitiesListRequest> message to distribute an activity, such as email or fax, to the members of a marketing list.|  
   
 ### See also  
+
  [BulkOperation Table](entities/bulkoperation.md)    
  [Campaign Table](entities/campaign.md)   
  [CampaignActivity Table](entities/campaignactivity.md)   
