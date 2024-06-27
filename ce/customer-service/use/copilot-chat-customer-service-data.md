@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 
 # Chat with Customer Service data in Copilot for Microsoft 365 (preview)
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 This article explains how to use Microsoft Copilot for Microsoft 365 to chat with Dynamics 365 Customer Service data by using the Customer Service plugin.
 
