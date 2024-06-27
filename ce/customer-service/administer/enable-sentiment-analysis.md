@@ -1,7 +1,7 @@
 ---
 title: Enable real-time customer sentiment with sentiment analysis
 description: Analyze real-time customer sentiment to improve team performance and customer satisfaction.
-ms.date: 12/21/2023
+ms.date: 6/14/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -34,27 +34,11 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
 
 ### Enable sentiment analysis
 
-You can enable the sentiment analysis feature in the Customer Service admin center or Omnichannel admin center (deprecated) app.
+You can enable the sentiment analysis feature in the Customer Service admin center app.
 
-1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
-     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Sentiment analysis** section, select **Manage**.
-
-     The **Sentiment analysis** page is displayed.       
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-    
-     1. In the site map, select **Agent experience** in **Advanced settings**. The **Agent experience** page appears.
-     2. In the **Sentiment analysis** section, select **Manage**.
-
-      The **Sentiment analysis** page is displayed. 
-
-2. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
+1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the **Sentiment analysis** section, select **Manage**.
+1. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
 
     > [!div class=mx-imgBorder]
     > ![Enable sentiment analysis.](../media/monitor-real-time.png "Enable sentiment analysis")

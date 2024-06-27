@@ -6,6 +6,8 @@ ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.collection:
 ---
 
 # Advanced: Connect using an existing Azure resource
@@ -70,19 +72,8 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 
 ## Connect using an existing Azure resource
 
-1. In Dynamics 365 Customer Service admin center or Omnichannel admin center (deprecated), open the phone number settings.
-
-    - Customer Service admin center:
-
-        1. In the site map, under **Customer support**, select **Channels**.
-        2. Select **Manage** for **Phone numbers**.
-
-    - Omnichannel admin center (deprecated): 
-    
-        [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-    
-    - In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
-
+1. In the site map of Customer Service admin center, under **Customer support**, select **Channels**.
+1. Select **Manage** for **Phone numbers**.
 1. Select **Use existing resource** and specify the following:
      - Paste the values you've copied in the [Get Azure resource information](#get-azure-resource-information) section to the following fields:
        - **ACS Resource name** and **ACS Resource ID**: The **Name** and **Resource ID** field values.
@@ -116,6 +107,7 @@ To enable call recording and SMS services, you must first configure your applica
 
 > [!IMPORTANT]
 >
+> - You need to be an owner of the [App registration](#get-application-and-tenant-ids-from-the-azure-portal) in order to create Event Grid subscriptions.
 > - You can set one webhook endpoint only at a time using the following procedure. To enable incoming calls, SMS, and call recording services, you must perform the procedure thrice to set a webhook endpoint for each service.
 > - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-ids-from-the-power-apps-portal).
 
