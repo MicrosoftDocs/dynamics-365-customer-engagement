@@ -26,7 +26,7 @@ search.audienceType:
    > [!div class="mx-imgBorder"] 
    > ![Add to team.](media/teams-store-install-add-team75.png "Add to team")
 
-6. Select a version 9.x environment and a Unified Interface app to connect, then select **Save**.
+6. Select the appropriate environment and the application you want to connect, then select **Save Changes**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select environment and app module.](media/teams-fre-org-app.png "Select environment and app module")
