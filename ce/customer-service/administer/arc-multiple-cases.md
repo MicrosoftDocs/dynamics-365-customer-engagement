@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/02/2024
+ms.date: 06/27/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -50,7 +50,7 @@ After the feature is enabled, any new emails sent to multiple mailboxes are conv
 
 The following flowchart explains how automatic record creation rules work to create multiple cases from an email sent to multiple mailboxes.
 
-:::image type="content" source="../media/arc_process_flow.png" alt-text="Screenshot of automatic record creation process flow":::
+:::image type="content" source="../media/arc-process-flow.png" alt-text="Screenshot of automatic record creation process flow":::
 
 ### Recommendations
 
