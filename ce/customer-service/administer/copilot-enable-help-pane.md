@@ -25,11 +25,23 @@ The Copilot allows agents to use Copilot features such as respond to questions a
 
 Perform the following steps to enable the Copilot features in Contact Center admin center:
 1. Use one of the following navigation options:
-      - Select **Manage** in **Agent Experience** > **Productivity** > **Copilot for questions and emails**.
-      - Select **Manage** in **Operations** > **Insights** > **Copilot for questions and emails**
-1. The **Copilot for questions and emails** page appears. You can select the Copilot features you'd like to enable for agents on this page.
-  - **Ask a question**: The **Ask a question** tab appears when agents sign in to the application. Agents can ask questions conversationally, and Copilot answers the questions based on the internal knowledge base sources.
-  - **Help pane - write an email**: The **Write an email** tab appears when agents sign in to the application. Agents can use Copilot to make emails clearer, concise, and compelling. 
+      - **Agent Experience** > **Productivity** > **Copilot help pane**
+      - **Operations** > **Insights** > **Copilot help pane**
+1. Select **Manage** in **Copilot help pane**. The **Copilot help pane** page appears. You can select the Copilot features you'd like to enable for agents on this page.
+
+     :::image type="content" source="../media/copilot-admin-email-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="../media/copilot-admin-email.png":::
+
+
+## Enable ask a question
+
+Select **Make Copilot available to agents** in the **Copilot help pane** page of Customer Service admin center. The **Ask a question** tab on the **Copilot help pane** appears when agents sign in to Customer Service workspace. Agents can ask questions conversationally, and Copilot answers the questions based on the internal knowledge base sources.
+
+## Enable draft a response (preview)
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+Select **For customer chat** in the **Copilot help pane** page of Customer Service admin center. The one-click response generation button appears on both the communication panel for a conversation and on the **Ask a question** tab on the Copilot help pane in Customer Service workspace. Copilot retrieves the context and drafts the response based on the knowledge resources configured for your organization.
+
 ## Configure knowledge sources
 
 You can configure the knowledge base for Copilot to generate responses.

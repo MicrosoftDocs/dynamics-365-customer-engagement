@@ -1,7 +1,7 @@
 ---
 title: Enable Microsoft Teams meeting integration in Sales Hub (preview)
 description: Learn how to enable Microsoft Teams meeting integration in Sales Hub apps.
-ms.date: 06/22/2023
+ms.date: 06/28/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais

@@ -55,6 +55,18 @@ In the Copilot's response you can see citation numbers that show the knowledge b
 
 If your administrator has enabled translation, you can select **Translate** and then select your preferred language to translate the response to that language. You can also select **Show original** to translate the response back to the original language.
 
+### Use targeted phrases in Copilot to get responses from plugins (preview)
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+If your administrator has configured prompt plugins, you can use targeted keywords to gather quick information about the case that you are working on. For example, you can use the following steps to get the account summary of a case. If Copilot doesn't find any details that match the term, then it falls back to the knowledge source to display the resolution from the configured knowledge articles.
+
+1. Open the case that you need to work on and then enter **Get account summary** in the Copilot **Ask a question** pane. Copilot summarizes the account details of the customer whose case you have opened and displays it.
+1. Select **Check sources**. The plugin that's used for generating the summary is displayed.
+1. You can use the options on the Copilot pane to edit or copy, and provide feedback on the response.
+
+    :::image type="content" source="../media/screenshot-of-prompt-plugin-response-in-copilot.png" alt-text="A screenshot of the Copilot response that's generated through the prompt plugin.":::
+
 ### Use the responses
 
 If you're satisfied with the response Copilot provides, you can use the whole thing or a part of it to answer the customer's question:
@@ -66,6 +78,23 @@ If you're satisfied with the response Copilot provides, you can use the whole th
 ### Provide feedback
 
 To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
+
+## Draft a chat response (Preview)
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+Use Copilot to draft chat responses when you're in a conversation with a customer.
+
+:::image type="content" source="../media/copilot-responses.png" alt-text="Screenshot of Copilot suggested responses for conversations.":::
+
+### Generate a chat response
+
+Select the one-click response generation button at the lower-right corner of the Conversation control panel and at the lower-left corner of the Copilot pane. Copilot analyzes the context of the conversation and the latest customer question or message, and drafts a response to send directly to the customer. You don't need to manually type the question.
+
+> [!NOTE]
+> The one-click response generation feature is available in North America, Europe, and the United Kingdom only.
+
+
 
 ### See also
 

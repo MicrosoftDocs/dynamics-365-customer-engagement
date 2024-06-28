@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 06/13/2024
+ms.date: 06/25/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -26,6 +26,15 @@ Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more 
 Copilot is also available as an add-in in Outlook and an integrated app in Teams. With it, sellers can capture, view, and update their customer account data in the apps they use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Copilot for Sales](/microsoft-sales-copilot/introduction)(formerly known as Microsoft Sales Copilot) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
 
 
+### Chat in natural language or use predefined prompts
+
+Copilot in Dynamics 365 Sales supports natural language chat. You can ask Copilot questions related to your sales records or sales-specific terms. You can also use predefined prompts to get the information you need. Copilot provides suggestions for prompts based on the context of the record you're viewing. The Prompt guide lists all the predefined prompts that Copilot supports.
+  
+Learn more: 
+- [Chat with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-natural-language)
+- [Chat with Copilot using predefined prompts](use-sales-copilot.md#chat-with-copilot-using-predefined-prompts)
+
+
 ## Copilot in Dynamics 365 Sales capabilities
 
 Copilot offers the following capabilities:
@@ -36,6 +45,7 @@ Copilot offers the following capabilities:
 - [Meeting preparation](#meeting-preparation)
 - [Email assistance](#email-assistance)
 - [News updates](#news-updates)
+
 
 ### Record summarization
 
