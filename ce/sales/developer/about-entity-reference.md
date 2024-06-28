@@ -8,7 +8,7 @@ applies_to:
 ms.assetid: b07033ee-97eb-4475-9d83-307201a05f1a
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 search.audienceType: 
   - developer
 

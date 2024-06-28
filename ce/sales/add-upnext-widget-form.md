@@ -5,7 +5,7 @@ ms.date: 06/28/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

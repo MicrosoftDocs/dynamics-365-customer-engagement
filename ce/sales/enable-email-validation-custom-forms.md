@@ -3,7 +3,7 @@ title: Enable email validation for custom forms
 description: Discover how to enable email validation for custom forms in Sales Hub, ensuring primary email addresses of contacts and leads are valid.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.date: 06/28/2024
 ms.custom:

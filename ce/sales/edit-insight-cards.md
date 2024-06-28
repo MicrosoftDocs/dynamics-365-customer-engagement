@@ -5,7 +5,7 @@ ms.date: 06/28/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 applies_to:
   - Dynamics 365 (online)
 ms.custom:
