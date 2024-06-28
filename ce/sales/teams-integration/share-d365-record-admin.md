@@ -46,7 +46,7 @@ With the Dynamics 365 app for Teams, users will have their collaboration in Team
 - Users are able to view Dynamics 365 data in Teams, while continuing their chats.
 - Users can search, connect, and update Dynamics 365 records directly in Teams.
 
-The Dynamics 365 app for Teams will be installed automatically in all environments that haven't disabled the installation of the Dynamics 365 app. For information to disable autoinstall of Dynamics 365 app for Teams, see [Disable autoinstall of Dynamics 365 app for Teams](#disable-auto-install-of-dynamics-365-app-for-teams).
+The Dynamics 365 app for Teams will be installed automatically in all environments that haven't disabled the installation of the Dynamics 365 app. For information to disable autoinstall of Dynamics 365 app for Teams, see [Disable autoinstall of Dynamics 365 app for Teams](#disable-autoinstall-of-dynamics-365-app-for-teams).
 
 ## Familiarize yourself with the feature
 
