@@ -1,7 +1,7 @@
 ---
 title: Share and act on Dynamics 365 records within Microsoft Teams conversations
 description: Learn about enabling teams to share and act on Dynamics 365 records within Microsoft Teams conversations.
-ms.date: 05/09/2023
+ms.date: 06/28/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -89,7 +89,7 @@ Preinstalling and pinning the Dynamics 365 app in Teams increases the discoverab
 
 3.  Under the **Manage policies** tab, select **Add**.
 
-    ![Add a setup policy](media/teams-admin-setup-policy.png "Add a setup policy")
+    :::image type="content" source="media/teams-admin-setup-policy.png" alt-text="Add a setup policy":::
 
 4.  Enter a name and description for the policy.
 
@@ -97,27 +97,21 @@ Preinstalling and pinning the Dynamics 365 app in Teams increases the discoverab
 
 6.  Under **Installed apps**, select **Add apps**.
 
-    ![Add apps](media/teams-admin-add-app.png "Add apps")
+    :::image type="content" source="media/teams-admin-add-app.png" alt-text="Add apps":::
 
-7.  In the **Add installed apps** panel, search for the **Dynamics 365** app, and then select **Add**. You can also filter apps by app permission policy.
-
-    ![Add the Dynamics 365 app](media/teams-admin-add-d365-app.png "Add the Dynamics 365 app")
+7.  In the **Add installed apps** panel, search for the **Dynamics 365** app, and then select **Select**. You can also filter apps by app permission policy.
 
 8. Select **Add**.
 
 9.  Under **Pinned apps**, select **Add apps**.
 
-    ![Pin an app](media/teams-admin-pin-app.png "Pin an app")
-
-10.  In the **Add pinned apps** panel, search for the **Dynamics 365** app, and then select **Add**. You can also filter apps by app permission policy.
-
-        ![Pin the Dynamics 365 app](media/teams-admin-pin-d365-app.png "Pin the Dynamics 365 app")
+10.  In the **Add pinned apps** panel, search for the **Dynamics 365** app, and then select **Select**. You can also filter apps by app permission policy.
 
 11. Select **Add**.
 
 12. Under the **App bar** or **Messaging extensions**, arrange the apps in the order that you want them to appear in Teams.
 
-    ![Arrange pinned apps](media/teams-admin-add-arrange-app.png "Arrange pinned apps")
+    :::image type="content" source="media/teams-admin-add-arrange-app.png" alt-text="Arrange pinned apps":::
 
 13. Select **Save**.
 
@@ -131,8 +125,6 @@ Policy assignment to groups lets you assign a policy to a group of users, such a
 
 3.  Under the **Group policy assignment** tab, select **Add**.
 
-    ![Group policy](media/teams-admin-group-policy.png "Group policy")
-
 4.  In the **Assign policy to group** panel, do the following:
 
     1.  Search for and add the group you want to assign the policy to. Ideally this would be the group to which sellers, service agents, and other Dynamics 365 users belong to. If you have Dynamics 365 users spread across multiple groups, you'll have to create multiple group policy assignments.
@@ -142,8 +134,6 @@ Policy assignment to groups lets you assign a policy to a group of users, such a
     3.  Select the policy created earlier – to preinstall and pin the Dynamics 365 app for Teams.
 
     4.  Select **Apply**.
-
-    ![Assign a group policy](media/teams-admin-group-policy-assign.png "Assign a group policy")
 
 > [!NOTE]
 > - To learn more about assignment policies on Teams, go to [Assign policies to users and groups](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users).
