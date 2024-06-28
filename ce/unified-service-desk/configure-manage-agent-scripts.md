@@ -1,15 +1,14 @@
 ---
 title: "Configure and manage agent scripts | MicrosoftDocs"
 description: "Learn how to create an agent script task, how to add answers to an agent script task, and also how to add action calls to an answer."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Configure and manage agent scripts
 Each step in an agent script is represented as an agent script task. An agent script task can have one or more answers (choices) for the next steps; the answers are represented as a stack of buttons in the agent script area in your application. An action can be performed on selecting one of the answers or when you go to the next task. This topic provides information on how you can create an agent script task, and then configure it by adding answers, actions, and triggers.  

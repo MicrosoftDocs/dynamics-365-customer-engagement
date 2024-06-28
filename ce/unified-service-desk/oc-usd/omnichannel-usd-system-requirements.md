@@ -1,12 +1,14 @@
 ---
 title: "System and hardware requirements of Omnichannel for Customer Service with Unified Service Desk | MicrosoftDocs"
 description: "This topic provides information about the system requirements for deploying Omnichannel for Customer Service with Unified Desk."
-ms.date: 02/24/2021
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 
 # System requirements of Omnichannel for Customer Service with Unified Service Desk
 
