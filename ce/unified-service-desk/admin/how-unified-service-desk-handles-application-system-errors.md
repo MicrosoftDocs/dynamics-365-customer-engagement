@@ -1,15 +1,13 @@
 ---
 title: "How Unified Service Desk handles application and system errors | MicrosoftDocs"
 description: "Learn about the types of exceptions and also understand how application and system faults are managed in Unified Service Desk."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 ---
 # Application and system faults
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client logs system, application state details, and memory dumps when exceptions such as component, application, or system faults occur. The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client can record diagnostics logs, system and application state details, and application memory dumps in the event of an exception in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.

@@ -169,6 +169,12 @@
       },
       "ms.prod": {
       },
+      "ms.date": {
+        "unified-service-desk/**.*": "06/27/2024"
+      },
+      "ms.custom": {
+        "unified-service-desk/**.*": "evergreen"
+      },
       "ms.subservice": {
         "channel-integration-framework/**.*": "channel-integration-framework",
         "sales/sales-mobile/**.*": "d365-sales-mobile",

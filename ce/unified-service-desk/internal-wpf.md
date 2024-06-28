@@ -1,15 +1,14 @@
 ---
 title: "Use Internal WPF hosting method for your controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Internal WPF hosting methods for your controls in Unified Service Desk."
-ms.date: 12/01/2018
+ms.date: 06/27/2024
 ms.topic: "article"
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 
 # Use Internal WPF to host web applications 
