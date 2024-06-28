@@ -1,7 +1,7 @@
 ---
 title: "View personal dashboard in Microsoft Teams with Dynamics 365 app"
 description: "Learn how you can use the Dynamics 365 app to view your personal dashboard in Microsoft Teams. To work with other team members, consider the team app."
-ms.date: 04/20/2022
+ms.date: 06/28/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -63,7 +63,7 @@ If you have more than one environment or app, you can use the **Settings** tab t
 > [!NOTE]
 > - Only environments (version 9.x or later) with customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) that are active, appear in the list (those that are not disabled).
 > - Only Unified Interface apps are listed.
-> - Only app modules licensed for the selected environment are listed. 
+> - Only app modules licensed for the selected environment are listed.
 
 
 
