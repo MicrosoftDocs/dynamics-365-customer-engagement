@@ -32,7 +32,6 @@ The **Total time** in the case resolution will display the case handling time.
     - **View**: **All Time Trackers**.
     - Select **Allow agents to add time logs** to allow agents to manually add time directly on the case. If this check box isn't selected, agents can't see **Time logs** in the case handling time widget. By default, this checkbox is selected.
     - Select **Show agents only their contributed time** to ensure that a specific agent sees only their time contribution to the case. If this check box isn't selected, agents can see the total time spent on the case by all agents. By default, this checkbox isn't selected.
-    - 
 1. Save and publish the changes.
 
 ## Specify the update interval
