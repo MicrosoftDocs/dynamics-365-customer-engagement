@@ -4,9 +4,11 @@ description: "The topic provides information on how to configure the recommended
 author: neeranelli
 ms.author: nenellim
 ms.topic: article
-ms.date: 03/12/2024
+ms.date: 06/27/2024
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 
 # Configure recommended settings for Unified Service Desk
 

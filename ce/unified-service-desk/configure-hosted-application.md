@@ -1,15 +1,14 @@
 ---
 title: "Configure the hosted application | MicrosoftDocs"
 description: "Learn about the configuring the hosted application created using a HAT hosted application project."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Configure the hosted application
 After you create the hosted application (see [Create a HAT hosted application project](../unified-service-desk/use-hat-software-factory-create-hosted-application.md#Create)) you’ll want to configure it.  

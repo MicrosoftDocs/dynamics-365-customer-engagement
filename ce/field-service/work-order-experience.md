@@ -1,7 +1,7 @@
 ---
 title: New work order experience
 description: Learn about the new work order experience in Dynamics 365 Field Service, including how to manage work orders and customize forms.
-ms.date: 05/15/2024
+ms.date: 06/26/2024
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -44,8 +44,6 @@ The work order side pane is a simplified version of the work order details form.
 :::image type="content" source="media/work-order-side-pane.png" alt-text="Screenshot of the new Work Orders view, with the side pane icon highlighted in the item list and the side pane open.":::
 
 To open a work order in the side pane, hover over a work order in the list and select the **Work Order Side Pane** icon.
-
-You can open multiple work orders in the side pane. To switch between them, select the icons in the right border.
 
 ## Work order form
 
