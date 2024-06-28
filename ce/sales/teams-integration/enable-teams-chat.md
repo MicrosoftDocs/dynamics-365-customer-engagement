@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams chat in Dynamics 365 Sales 
 description: Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application.
-ms.date: 06/27/2024
+ms.date: 06/28/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais

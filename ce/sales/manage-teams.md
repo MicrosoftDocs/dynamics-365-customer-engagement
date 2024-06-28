@@ -1,7 +1,7 @@
 ---
 title: "Create or manage teams in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create a team with a group of users so they can share and collaborate on business records in Dynamics 365 Sales."
-ms.date: 06/24/2024
+ms.date: 06/28/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
