@@ -12,9 +12,9 @@ ms.author: anilmur
 
 To purchase access to the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service, you need access to Field Service. If a product bundle your organization owns includes the Field Service license, you don't have to repurchase it. With Field Service already installed, you can skip the first three steps.
 
-1. Purchase Field Service. Go to the **Microsoft 365 Admin Center** > **Billing > Purchase Services**.
+1. Purchase Field Service. Go to **Microsoft 365 Admin Center** > **Billing > Purchase Services**.
 
-1. Find and buy whichever Field Service license works best for you and your organization. Visit the [Field Service pricing page](https://dynamics.microsoft.com/pricing/#Service) for more information. And for even more details, visit the [Dynamics 365 Licensing Guide (PDF)](https://go.microsoft.com/fwlink/?LinkId=866544).
+1. Find and buy whichever Field Service license works best for you and your organization. Visit the [Field Service pricing page](https://dynamics.microsoft.com/pricing/#Service) for more information. And for more details, visit the [Dynamics 365 Licensing Guide (PDF)](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 1. After purchasing, install Dynamics 365 Field Service.
 
@@ -22,10 +22,10 @@ To purchase access to the Resource Scheduling Optimization Add-in for Dynamics 3
    - Select your instance and choose **Solutions**.
    - Select Field Service and choose **Install**.
 
-1. Purchase Resource Scheduling Optimization. Go to the **Microsoft 365 Admin Center** > **Billing** > **Purchase services**. The price of Resource Scheduling Optimization is based on the number of resources whose schedules are optimized.
+1. Purchase Resource Scheduling Optimization. Go to **Microsoft 365 Admin Center** > **Billing** > **Purchase services**. The price of Resource Scheduling Optimization is based on the number of resources whose schedules are optimized.
 
 > [!NOTE]
-> Resource Scheduling Optimization is licensed per resource.The add-in license allows for unlimited use of schedule optimization, whether on a regular cadence or ad-hoc basis. The license includes one active instance of Resource Scheduling Optimization per tenant. Review the [multi-instance guidelines](./rso-deployment.md#acquiring-licenses-for-multiple-instances) if you need more than one active instances.
+> Resource Scheduling Optimization is licensed per resource. The add-in license allows for unlimited use of schedule optimization, whether on a regular cadence or ad hoc basis. The license includes one active instance of Resource Scheduling Optimization per tenant. Review the [multi-instance guidelines](./rso-deployment.md#acquiring-licenses-for-multiple-instances) if you need more than one active instances.
 
 ## Next steps
 

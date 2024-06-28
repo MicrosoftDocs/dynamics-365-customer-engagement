@@ -11,8 +11,6 @@ ms.custom: bap-template
 
 # Configure file attachment capability
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
 As an administrator, you can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. For example, if a customer receives an error while trying to complete a process, they can send the screenshots of the steps and error message to the agent.
 
 Customers must use the **Attach** icon to send files. The drag-and-drop operation isn't supported in the live chat widget. For information about file attachment limitations, see [Enable file attachments](enable-file-attachments.md).

@@ -1,10 +1,12 @@
 ---
 title: Get started with in-app marketing
 description: Learn how to promote your business and improve sales with targeted marketing campaigns in Dynamics 365 Sales.
-ms.date: 06/20/2022
+ms.date: 06/20/2024
 ms.collection: get-started
 ms.topic: overview
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
+  - evergreen
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

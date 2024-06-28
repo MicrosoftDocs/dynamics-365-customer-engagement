@@ -1,10 +1,10 @@
 ---
 title: Create and manage workstreams
 description: Learn about how to create and manage workstreams in Customer Service and Omnichannel for Customer Service.
-ms.date: 03/18/2024
+ms.date: 06/14/2024
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -13,8 +13,6 @@ ms.custom: bap-template
 # Create and manage workstreams
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 A workstream is a container to enrich, route, and assign work items, and can be associated with a channel, such as live chat, voice, or case.
 
@@ -28,7 +26,7 @@ The workstream can be one of the following types:
 
 > [!IMPORTANT]
 >
-> Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md)
+> Unified routing must be enabled in the service configuration settings for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md)
 
 ## Prerequisite
 
@@ -36,23 +34,9 @@ The administrator who configures workstreams must be a system administrator or h
 
 ## Create a workstream
 
-You can create workstreams for unified routing in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
+You can create workstreams for unified routing in the Customer Service admin center app.
 
-1. Go to one of the apps, and perform the following steps:
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    - In the site map, select **Workstreams** in **Customer support**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-    
-     - In the site map, select **Workstreams** in **General settings**.
-    
-   ### [Customer Service Hub](#tab/customerservicehub)
-
-     - In the site map, select **Workstreams** in **Unified Routing**.
+1. In the site map of admin center, select **Workstreams** in **Customer support**.
 
 1. Select **New workstream**.
 
@@ -144,15 +128,13 @@ To add a bot to a workstream, you must configure the bot and make it available f
 For Copilot Studio bots, see [Connect omnichannel to your Copilot Studio bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot).
 For Azure bots, see [Integrate Azure bots with Omnichannel for Customer Service](../configure-bot.md#integrate-azure-bots-with-omnichannel-for-customer-service).
 
-**To add the bot to the workstream**
-
-1. In Customer Service admin center or Omnichannel admin center (deprecated), go to **Workstreams**, and select a workstream.
+1. In Customer Service admin center, go to **Workstreams**, and select a workstream.
 2. For the selected workstream and channel, in the **Bot** area, select **Add bot**.
 3. In the **Add a bot** dialog, select the required bot from the **Name** dropdown list, and then select **Save and close**.
 
 When a work item needs to be assigned, the classification rules are run and the work distribution system checks and routes the work item to the bot, if the selected workstream has a bot. After a bot is added to the workstream, the incoming work item is first routed to the selected bot at runtime.
 
-> [!Note]
+> [!NOTE]
 > 
 > - Bots can receive conversations only if they're added to push-based workstreams.
 > - We recommend that you don't add bots to workstreams that are meant for record routing.
