@@ -19,8 +19,8 @@ Organizations can tailor the visibility settings of certain properties on the dy
 
 ## Configure the Booking Card control
 
-1. Sign in to Power Apps and open the *Work Order* form on the *Work Order* table. For detailed steps, see [Edit a form](https://learn.microsoft.com/power-apps/maker/model-driven-apps/create-and-edit-forms#edit-a-form).
-1. Select the Booking Card element in the tree view and edit the Booking Card component. For detailed steps, see [Configure components on a form](https://learn.microsoft.com/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#configure-components-on-a-form).
+1. Sign in to Power Apps and open the *Work Order* form on the *Work Order* table. For detailed steps, see [Edit a form](/power-apps/maker/model-driven-apps/create-and-edit-forms#edit-a-form).
+1. Select the Booking Card element in the tree view and edit the Booking Card component. For detailed steps, see [Configure components on a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#configure-components-on-a-form).
 1. Configure the properties to either show or hide them according to your preferences.
 1. Save the form or Publish to make the changes visible to users.
 
