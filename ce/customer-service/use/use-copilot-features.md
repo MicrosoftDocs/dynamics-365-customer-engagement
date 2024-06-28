@@ -63,7 +63,7 @@ If your administrator has enabled translation, you can select **Translate** and 
 
 ### Use targeted phrases in Copilot to get responses from plugins (preview)
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 If your administrator has configured prompt plugins, you can use targeted keywords to gather quick information about the case that you are working on. For example, you can use the following steps to get the account summary of a case. If Copilot doesn't find any details that match the term, then it falls back to the knowledge source to display the resolution from the configured knowledge articles.
 
@@ -91,7 +91,7 @@ To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-do
 
 ## Draft a chat response (Preview)
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Use Copilot to draft chat responses when you're in a conversation with a customer.
 
