@@ -1,15 +1,14 @@
 ---
 title: "Use replacement parameters to configure Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use replacement parameters in Unified Service Desk to customize amd personalize interactions through actions and window navigation rules."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Use replacement parameters to configure Unified Service Desk
 Replacement parameters can be used for customizing interactions during a specific business process through actions and window navigation rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Replacement parameters](../unified-service-desk/replacement-parameters.md)  

@@ -4,9 +4,11 @@ description: "Perform the steps mentioned in the topic to learn how to create th
 author: neeranelli
 ms.author: nenellim
 ms.topic: article
-ms.date: 03/12/2024
+ms.date: 06/27/2024
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 
 # Step 1: Create communication panel entity search
 
