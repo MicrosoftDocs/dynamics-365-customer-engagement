@@ -38,7 +38,7 @@ The automatic timer tracks the time spent on a specific case only when it is in 
     
 | Scenario                                                                                           | Timer status                                     |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| The case is open in a session tab. You select a related entity record that opens as an app tab. **Note**: This isn't applicable for case records. <br> For example, you select a knowledge article linked to the case. The article opens in an app tab within the session form.  | The timer continues to run for the case.      |
+| The case is open in a session tab. You select a related entity record that opens as an app tab. <br> **Note**: This isn't applicable for case records. <br> For example, you select a knowledge article linked to the case. The article opens in an app tab within the session form.  | The timer continues to run for the case.      |
 | The case form is closed.                                                                           | Timer stops.                                       |
 | You select a related case or a child case that's linked to the current case. The related case or child case opens as an app tab in the same session.                   | The timer in the current case stops and the timer in the related case or child case starts.             |
 | You select a resolved case.                       | The timer doesn't start               |
