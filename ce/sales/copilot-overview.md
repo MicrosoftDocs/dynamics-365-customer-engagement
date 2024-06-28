@@ -39,7 +39,6 @@ Learn more:
 
 Copilot offers the following capabilities:
 
-- Natural language chat
 - [Record summarization](#record-summarization)
 - [Recent changes](#recent-changes)
 - [Information assistance](#information-assistance)

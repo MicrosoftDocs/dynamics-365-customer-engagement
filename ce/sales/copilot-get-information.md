@@ -174,6 +174,7 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 ### See also
 
 - [Copilot overview](copilot-overview.md)
+- [Copilot prompt guide reference](copilot-prompt-guide.md)
 - [Enable and set up Copilot](enable-setup-copilot.md)
 - [Chat with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL)
 - [Get document recommendations from SharePoint](copilot-get-doc-suggestions.md#get-document-recommendations-from-sharepoint)
