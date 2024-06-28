@@ -4,7 +4,7 @@ description: Learn about how to use scopes in Resource Scheduling Optimization f
 author: AnilMur
 ms.author: anilmur
 ms.date: 06/26/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
 
@@ -28,7 +28,7 @@ System views and personal views are a critical building block for optimization s
 
    - **Resource View**: Defines which resources are considered for optimization.
    - **Requirement View**: Defines the resource requirements that are considered for optimization.
-   - **Booking View**: Defines the bookable resource bookings for optimization. You can also choose a value for **On or After** to exclude bookings within selected time from when the optimization runs and bookings in the past.
+   - **Booking View**: Defines the bookable resource bookings for optimization. You can also choose a value for **On or After** to ensure optimization runs only consider future bookings that occur after the moment chosen.
 
 1. Configure **Optimization Range Settings**. The optimization range is the time range in which bookings can be created, updated, or deleted.
 
