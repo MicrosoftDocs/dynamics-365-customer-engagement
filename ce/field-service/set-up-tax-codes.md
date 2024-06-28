@@ -13,7 +13,9 @@ Set up tax codes in Dynamics 365 Field Service and specify how much tax to apply
   
 ## Enable tax calculation
 
-Field Service v8.8.39.37 introduced the **Calculate Tax** field in **Field Service Settings**. By default, for all new installations of Field Service v8.8.39.37 or higher, this field is set to **No**. For many Field Service organizations, tax calculation isn't an important factor because:
+Field Service v8.8.39.37 introduced the **Calculate Tax** field in **Field Service Settings**. By default, for all new installations of Field Service v8.8.39.37 or higher, this field is set to **No**. If this setting is set to **No**, tax related fields are hidden by default and their values are irrelevant. 
+
+For many Field Service organizations, tax calculation isn't an important factor because:
 
 - The services aren't being provided to an external customer.
 - The tax calculation and application rules are complex enough that they're handled in a related enterprise resource planning (ERP) system.
