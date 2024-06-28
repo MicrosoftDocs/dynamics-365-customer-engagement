@@ -1,7 +1,7 @@
 ---
 title: Customization best practices
 description: Learn about how to get the most out of your Dynamics 365 Field Service customizations.
-ms.date: 1/20/2022
+ms.date: 06/25/2024
 ms.topic: conceptual
 author: lmasieri
 ms.author: lmasieri
@@ -18,19 +18,19 @@ System customizers add custom fields to entity forms to capture information spec
 To avoid performance issues:
 
 - Minimize the number of custom fields on all forms. Starting with the work order form is a good idea if that is your most used form in the Field Service app.
-- Among custom fields, minimizing lookup type fields and subgrid have the greatest effect on form performance, like load times.
+- Minimize lookup type fields and subgrid among custom fields.
 - Move custom fields (especially lookups and subgrids) from the first form tab to other form tabs.
 - Hide lesser used fields by default on the form.
 
 ## Don't change out-of-box web resources, option sets, security roles, or workflows
 
-Customizing, taking dependencies, or custom invocation of out-of-box web resources, option sets, security roles, or workflows isn't supported and can result in unintended system behavior.
+Don't change or customize out-of-box web resources, option sets, security roles, or workflows. It can result in unintended system behavior.
 
-Organizations that customize these components may not immediately see issues in their environment. However, as Microsoft releases changes to the customized out-of-box components, these changes aren't applied to the top layer of that component. The specific customized layer overrides all future changes, which eventually cause unpredictable errors and behavior.  
+Organizations that customize these components might not immediately see issues in their environment. However, as Microsoft releases changes to the customized out-of-box components, these changes aren't applied to the top layer of that component. The specific customized layer overrides all future changes, which eventually cause unpredictable errors and behavior.  
 
 ## Don't modify, edit, or delete date fields or system statuses
 
-Modifying, editing, or deleting date fields and statuses can affect business logic and may cause issues with solution updates. Examples of work order date are *time from promised* and *time to promised*. Examples of status fields include *work order system status* and *agreement system status*.
+Modifying, editing, or deleting date fields and statuses can affect business logic and might cause issues with solution updates. Examples of work order date are *time from promised* and *time to promised*. Examples of status fields include *work order system status* and *agreement system status*.
 
 ## Don't edit or remove out-of-box fields from forms
 
@@ -41,12 +41,7 @@ To avoid errors:
 - Hide unwanted fields from a form.
 - Move unwanted fields to another form tab.
 
-Here's just one example: Field Service processes calculate the *Estimated Arrival Time* field value on the Bookable Resource Booking record to indicate when a frontline worker is expected to arrive on site. If your organization doesn't need this field, hide it on the form rather than remove it.
-
-For more information, see these articles:
-
-- [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
-- [Design forms for performance in model-driven apps](/powerapps/maker/model-driven-apps/design-performant-forms)
+Here's just one example: Field Service processes calculate the *Estimated Arrival Time* field value on the Bookable Resource Booking record to indicate when a frontline worker is expected to arrive on site. If your organization doesn't need this field, [hide it on the form](field-service-customize-forms.md#5-hide-form-tabs-sections-and-fields) rather than remove it.
 
 ## Don't edit option set (choice) values
 
@@ -67,9 +62,9 @@ System customizers write scripts, typically JavaScript web resources, to execute
 To avoid these issues:
 
 - Minimize scripts running on load.
-- Don't write scripts that call a lot of data or write multiple scripts that call the same data.
+- Don't write scripts that call lots of data or write multiple scripts that call the same data.
 
-Follow more [form script best practices](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk), including the following best practices:
+Follow more [form script best practices](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk), including the following best practices.
 
 ### Minimize the number of network requests and the amount of data requested in the OnLoad event
 
@@ -77,7 +72,7 @@ The higher the number of network requests made during a form load, and the more 
 
 ### Avoid using synchronous network requests
 
-Synchronous network requests can cause slow page loads and unresponsive forms. [Use asynchronous requests instead](/powerapps/developer/model-driven-apps/best-practices/business-logic/interact-http-https-resources-asynchronously). See this [blog post](https://powerapps.microsoft.com/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests/) for more examples. In addition, consider using "async and wait" in any scenario where multiple network calls for the same entity and record are needed; find [more details here](https://developer.mozilla.org/docs/Learn/JavaScript/Asynchronous/Async_await).
+Synchronous network requests can cause slow page loads and unresponsive forms. [Use asynchronous requests instead](/power-apps/developer/model-driven-apps/best-practices/business-logic/interact-http-https-resources-asynchronously). See this [blog post](https://powerapps.microsoft.com/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests/) for more examples. In addition, consider using "async and wait" in any scenario where multiple network calls for the same entity and record are needed; find [more details here](https://developer.mozilla.org/docs/Learn/JavaScript/Asynchronous/Async_await).
 
 ### Avoid including unnecessary JavaScript web resource libraries
 
@@ -89,11 +84,11 @@ If you have code that only supports OnChange events for columns or the OnSave ev
 
 ### Use collapsed tabs to defer loading web resources
 
-When web resources or iframe components are included in sections inside a collapsed tab, they don't load if the tab is collapsed. They load when the tab is expanded. When the tab state changes the TabStateChange event occurs. Any code that is required to support web resources or iframe within collapsed tabs can use event handlers for the TabStateChange event and reduce code that might otherwise have to occur in the OnLoad event.
+When web resources or iframe components are included in sections inside a collapsed tab, they don't load if the tab is collapsed. They load when the tab is expanded. When the tab state changes, the TabStateChange event occurs. Any code that is required to support web resources or iframe within collapsed tabs can use event handlers for the TabStateChange event and reduce code that might otherwise have to occur in the OnLoad event.
 
 ### Avoid duplicate network requests in client-side code
 
-Multiple or duplicate network requests can cause the web browser to stall and affect form load time. Reducing the number of requests can improve performance. An alternative is to consolidate network requests and cache the value of the requests. Also consider asynchronous network requests as mentioned before.
+Multiple or duplicate network requests can cause the web browser to stall and impact form load time. Reducing the number of requests can improve performance. An alternative is to consolidate network requests and cache the value of the requests. Also consider asynchronous network requests as mentioned before.
 
 ### Avoid using roles and system user specific calls if the relevant information is available in XRM APIs
 
@@ -105,8 +100,8 @@ Avoid using form scripts in the OnLoad event that hide form elements. Instead se
 
 For more information, see these resources:
 
-- [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
-- [Unsupported customizations for Microsoft Dataverse (Dataverse)](/powerapps/developer/data-platform/supported-customizations#unsupported-customizations)
+- [Optimize model-driven app form performance in Power Apps](/power-apps/maker/model-driven-apps/optimize-form-performance)
+- [Unsupported customizations for Microsoft Dataverse (Dataverse)](/power-apps/developer/data-platform/supported-customizations#unsupported-customizations)
 
 ## Run Solution Checker on your scripts
 
@@ -114,7 +109,7 @@ The Power Apps solution checker is a useful tool from Microsoft that checks Powe
 
 For more information, see these resources:
 
-- [Use solution checker to validate your apps in Power Apps](/powerapps/maker/data-platform/use-powerapps-checker)
+- [Use solution checker to validate your apps in Power Apps](/power-apps/maker/data-platform/use-powerapps-checker)
 - [How to run and use the Power Apps solution checker](https://carldesouza.com/how-to-run-and-use-the-power-apps-solution-checker/)
 - [Dataverse Solution Checker](https://dynamics-chronicles.com/article/dataverse-solution-checker)
 
@@ -130,16 +125,16 @@ Field Service and Resource Scheduling ship with many processes that perform nece
 
 Deactivated processes can lead to errors.
 
-To avoid issues, make sure all Field Service and Resource Scheduling processes are in an active state. Regularly [run the Field Service Solution Health Hub](troubleshoot-field-service-solution-health.md) to identify if processes are in a deactivated state. 
+To avoid issues, make sure all Field Service and Resource Scheduling processes are in an active state. To identify if processes are in a deactivated state, regularly [run the Field Service Solution Health Hub](troubleshoot-field-service-solution-health.md).
 
 ## Run Solution Health Hub to detect issues
 
-Solution Health Hub allows you to get a better picture of the state of your environment and detect issues with your Dynamics 365 environment. The Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Dynamics 365 Field Service and you can run the rules on demand when you encounter an issue. Some rules automatically trigger when Field Service is installed or updated. 
+Solution Health Hub allows you to get a better picture of the state of your environment and detect issues with your Dynamics 365 environment. The Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Dynamics 365 Field Service and you can run the rules on demand when you encounter an issue. Some rules automatically trigger when Field Service is installed or updated.
 
-Regularly [run the Field Service Solution Health Hub](troubleshoot-field-service-solution-health.md) ruleset to monitor the health of your environment.
+To monitor the health of your environment, regularly [run the Field Service Solution Health Hub](troubleshoot-field-service-solution-health.md) ruleset.
 
 ## Mobile app performance considerations
 
-Customizing the mobile app can also affect performance. For more information, see this article: [Performance considerations when customizing the mobile app](improve-mobile-performance.md)
+Customizing the mobile app can also affect performance. For more information, go to [Performance considerations when customizing the mobile app](improve-mobile-performance.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
