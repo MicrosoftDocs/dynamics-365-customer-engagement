@@ -1,7 +1,7 @@
 ---
 title: "Create or manage teams in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create a team with a group of users so they can share and collaborate on business records in Dynamics 365 Sales."
-ms.date: 11/18/2021
+ms.date: 06/28/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -27,7 +27,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 # [Sales Premium or Sales Enterprise](#tab/sales)
 
-1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**. 
+1. From the Sales Hub app, select the **Settings** icon :::image type="content" source="media/settings-icon.png" alt-text="Settings icon":::, and then **Advanced settings**. 
 
 2. Follow the instructions in [Microsoft Dataverse teams management](/power-platform/admin/manage-teams) to create and manage teams.
 
@@ -51,8 +51,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
     -   **Select Team Administrator**: Select the person who will do the team administration, such as adding members to or removing members from the team.
 
-      > [!div class="mx-imgBorder"]
-      > ![Add New Team pane.](media/add-new-team-dialog-box.png "Add New Team pane")
+      :::image type="content" source="media/add-new-team-dialog-box.png" alt-text="Add New Team pane":::
 
 ### Add members to the team
 
@@ -72,7 +71,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 When a team is assigned a role, the team members are assigned the set of privileges associated with that role.
 
-1.  Select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then select **Advanced settings**.
+1.  Select the **Settings** icon :::image type="content" source="media/settings-icon.png" alt-text="Settings icon":::, and then select **Advanced settings**.
 
 2. Select **Settings** > **Security** > **Teams**.
 
