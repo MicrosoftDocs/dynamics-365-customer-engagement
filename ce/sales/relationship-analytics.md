@@ -40,7 +40,7 @@ The relationship analytics view lists the relationship KPIs and health for all y
 1. In the Sales Hub app, select **Leads**.
 
 1. From the views drop-down, select **My Open Leads by Relationship**. On the command bar, select **Read-only grid** if **Focused view** is selected.  
-    :::image type="content" source="media/my-open-lead-by-relationship-view.png" alt-text="Screenshot of the My Open Leads by Relationship view":::
+    :::image type="content" source="media/my-open-lead-by-relationshipp-view.png" alt-text="Screenshot of the My Open Leads by Relationship view":::
 
     The grid view provides the following information for contacts, opportunities, leads, and accounts:
 
@@ -60,7 +60,7 @@ The relationship pipeline view provides a bubble chart that gives you a quick ov
 1. From the command bar, select **Show Chart**.
 
 1. At the top of the charts pane, open the drop-down list, and then select **Relationship Pipeline**.  
-      :::image type="content" source="media/relationship-analytics-select-relationship-pipeline.png" alt-text="Screenshot of the relationship pipeline chart":::
+      :::image type="content" source="media/relationship-analytics-select-relationship-pipeline.png" alt-text="Screenshot of the drop-down list with Relationship Pipeline highlighted":::
 
    The relationship pipeline chart appears.  
     :::image type="content" source="media/relationship-analytics-relationship-pipeline-chart.png" alt-text="Screenshot of the relationship pipeline chart":::
