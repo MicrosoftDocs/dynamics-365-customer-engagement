@@ -21,7 +21,7 @@ Knowledge management plays a vital role in delivering world-class customer care.
 
 ## Benefits of knowledge management
 
-- Primary service providers, such as agents, can look up information in a knowledge base to resolve customer queries right away and increase their productivity.
+- Primary service providers, such as agents, can look up information in a knowledge base to resolve customer queries right away, and increase their productivity.
 - With access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences, agents can resolve issues faster and reduce their average call handling time.
 - Customers can use knowledge management search capabilities across channels to resolve issues for themselves. The results are fewer support tickets and higher customer satisfaction.
 
