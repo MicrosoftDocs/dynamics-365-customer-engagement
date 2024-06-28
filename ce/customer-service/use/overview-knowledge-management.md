@@ -1,7 +1,7 @@
 ---
 title: Overview of knowledge management
 description: Learn about knowledge management in Dynamics 365 Customer Service.
-ms.date: 06/12/2024
+ms.date: 06/28/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -65,7 +65,7 @@ As an **administrator**, you can create hierarchical, categorical data to help g
 
 #### Search knowledge articles through different channels
 
-As an **agent**, you can use either smart assist or the **Knowledge search** pane to search articles in Customer Service workspace. Smart assist suggests knowledge articles that are related to your case and that can help you quickly resolve customer issues. More information about the **Knowledge search** pane: [Use the knowledge search pane to search articles](../csw-search-knowledge-articles.md#use-the-knowledge-search-pane-to-search-articles)
+As an **agent**, you can use either smart assist or the **Knowledge search** pane to search articles in Customer Service workspace. Smart assist suggests knowledge articles that are related to your case and that can help you quickly resolve customer issues. Fore more information about the **Knowledge search** pane, go to, [Search knowledge articles](../csw-search-knowledge-articles.md).
 
 As a **customizer**, you can set up the knowledge base search control on a standard or custom form to help users in your organization easily find knowledge articles. More information: [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms)
 
@@ -86,7 +86,7 @@ As an **administrator**, you can:
 
 #### Search the knowledge base on portals
 
-When a portal includes a knowledge base, it becomes a customer self-service portal, where you can access and search for knowledge articles through simple queries. This setup helps you resolve issues and makes information easily accessible. To search for your knowledge articles, select **Knowledge Base** in your portal. More information: [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals)
+When a portal includes a knowledge base, it becomes a customer self-service portal. As a user in any role, you can then access and search for knowledge articles through simple queries. This setup helps you resolve issues and makes information easily accessible. To search for your knowledge articles, select **Knowledge Base** in your portal. More information: [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals)
 
 #### Integrate knowledge management with a Copilot Studio bot
 
@@ -112,8 +112,6 @@ As an **agent**, you can use knowledge article rating to easily provide feedback
 ## See also
 
 [Configure origins allowlist for knowledge articles](../administer/configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles)
-
-[Search knowledge articles](../oc-search-knowledge-articles.md)
 
 [Search for knowledge articles in Customer Service workspace](../csw-search-knowledge-articles.md#search-for-knowledge-articles-in-customer-service-workspace)
 
