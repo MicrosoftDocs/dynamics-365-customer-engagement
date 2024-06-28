@@ -1,10 +1,12 @@
 ---
 title: Enable self-service settings
 description: Enable self-service settings for customer actions in conversations to help agents understand customer issues and provide personalized service.
-ms.date: 02/29/2024
+ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.collection:
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -26,34 +28,20 @@ Enabling the self-service feature is a two-step process as follows:
 
 ## Enable self service
 
-You can enable the self service feature in the Customer Service admin center or Omnichannel admin center (deprecated) app.
+You can enable the self service feature in the Customer Service admin center app.
 
 1. Add the code snippet in the customer self-service portal.
 
-1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the site map of admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 
-     1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
-     1. In the **Self service** section, select **Manage**.
+1. In the **Self service** section, select **Manage**. The **Omnichannel Configuration . Self service settings** page is displayed.      
 
-     The **Omnichannel Configuration . Self service settings** page is displayed.      
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-      [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-    
-     1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
-     2. In the **Self service** section, select **Manage**.
-
-      The **Omnichannel Configuration . Self service settings** page is displayed.
-
-3. Set the **Self service** toggle to **Yes**.
+1. Set the **Self service** toggle to **Yes**.
 
    > [!div class='mx-imgBorder']
    > ![Enable self service.](../media/enable-self-service.png "Enable self service")
  
-6. Select **Save**. The **Self service** tab will appear for the agent when a chat is started with a customer.
+1. Select **Save**. The **Self service** tab will appear for the agent when a chat is started with a customer.
 
 ### See also
 

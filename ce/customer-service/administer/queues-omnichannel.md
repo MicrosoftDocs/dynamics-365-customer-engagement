@@ -3,9 +3,11 @@ title: Create and manage queues for unified routing
 description: Create and manage advanced queues, know how fallback and default queues work in unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 10/30/2023
+ms.date: 06/14/2024
 ms.custom: bap-template
+ms.collection:
 searchScope:
 - D365-App-customerservice
 - D365-Entity-queueitem
@@ -39,27 +41,10 @@ Assign a group number that helps you organize your queues in the list view. The 
 
 ## Create a queue for unified routing
 
-1. In Dynamics 365, go to one of the apps, and do the following steps:
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-   
-    1. In the site map, select **Queues** in **Customer support**.
+1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
     
-    2. On the **Queues** page, select **Manage** for **Advanced queues**.
+1. On the **Queues** page, select **Manage** for **Advanced queues**.
     
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-    - In the site map, select **Queues** in **General settings**.
-    
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    - Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
-
 1. On the **Queues** page, do the following steps:
 
     1. Select **New**.
@@ -70,7 +55,7 @@ Assign a group number that helps you organize your queues in the list view. The 
     3. Select **Create**. The queue that you created is displayed.
 
        > [!div class=mx-imgBorder]
-       > ![Queue in Omnichannel admin center.](../media/queue-summary-ur.png "Queue in Omnichannel admin center")
+       > ![Queue in admin center.](../media/queue-summary-ur.png "Queue in admin center")
 
 1. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
 

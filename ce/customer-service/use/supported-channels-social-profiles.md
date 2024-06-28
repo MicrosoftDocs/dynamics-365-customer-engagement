@@ -3,15 +3,17 @@ title: View social profiles of contacts
 description: Know how to see the social profiles of customers and how the data is consolidated in Dynamics 365.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 05/07/2023
+ms.date: 06/04/2024
 ms.custom: bap-template 
 ---
 
 # View social profiles of contacts
 
 Omnichannel for Customer Service creates a social profile for incoming requests from asynchronous channels. After a social profile is created for a conversation within a channel, later conversations are linked to the same social profile for the channel so that you can view all the related information in one place.
+
+When a customer contacts the contact center for the first time, you must search and link the customer contact with the conversation manually for the social profile to be created in Dynamics 365. Subsequent conversations are automatically linked.
 
 ## How social profiles are linked with contacts
 

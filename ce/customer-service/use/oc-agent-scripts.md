@@ -98,8 +98,8 @@ The **Chat session** script has the following steps
 | Text instruction | Greet Customer | Greet the customer with welcome message from the quick reply repository. | Mark as done | After you greet the customer, select the mark as done icon. |
 | Text instruction | Verify Customer | Use any two of the following to verify the customer Kenny Smith:<ol> <li>Date of Birth</li> <li> Email id </li> <li>Zip code</li> <li>Mobile</li> | Mark as done | After you verify the customer, select the mark as done icon. | 
 | Macro | Create case | Triggers create case form with customer context | Run | When you select the run macro icon, the system opens a case form in a new application tab panel. |
-| Macro | Send details to the customer | Opens email to send details to the customer | Run | When you select the run macro icon, the system opens an draft email so you can send an email to the linked customer. |
-| Agent script | Close conversation | Follow these steps to close a conversation | View | When you select the view icon, the system loads another agent script from the current agent script. In this sample, the another agent script is **Close conversation** script. |
+| Macro | Send details to the customer | Opens email to send details to the customer | Run | When you select the run macro icon, the system opens a draft email so you can send an email to the linked customer. |
+| Agent script | Close conversation | Follow these steps to close a conversation | View | When you select the view icon, the system loads another agent script from the current agent script. In this sample, the other agent script is **Close conversation** script. |
 
 
 Similarly, the administrator can create more agent scripts as per your business scenarios. To learn how to configure agent scripts, see [Guide agents with scripts](../administer/agent-scripts.md).

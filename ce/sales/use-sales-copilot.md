@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in Dynamics 365 Sales
 description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, and enrich your leads with data from different sources.
-ms.date: 05/22/2024
+ms.date: 06/13/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -102,16 +102,7 @@ You can also access some of these question from the Prompt guide that appears wh
 
 Use predefined prompts to get the most out of Copilot. The following table includes some of the predefined prompts that you can use to get information, ask questions, and stay ahead with Copilot. More prompts are added regularly to help you be more productive and efficient in your daily work.
 
-| Prompt name | Prompt navigation | Description |
-|---------|---------|---------|
-| [Show my pipeline](copilot-get-information.md#show-my-pipeline) | **Get info** > **Show my pipeline** | Get a list of opportunities that you own, sorted by the estimated close date. |
-| [Summarize lead or summarize opportunity](copilot-get-information.md#summarize-a-lead-or-opportunity) | **Get info** > **Summarize lead** or **Summarize opportunity** | Get a summary of opportunities that you own, sorted by the estimated close date. |
-| [Get latest news for account](copilot-get-information.md#show-the-latest-news-about-an-account) | **Get info** > **Get latest news for account** | Get the latest news that features or mentions your accounts. |
-| [What's new with my sales records](copilot-ask-questions.md#whats-new-with-my-sales-records) | **Ask questions** > ****What's new with my sales records**** | Get a list of your sales records that were updated in the last seven days. |
-| [What's newly assigned to me](copilot-ask-questions.md#whats-newly-assigned-to-me) | **Ask questions** > ****What's newly assigned to me**** | Get a list of leads and opportunities that were assigned to you in the last 15 days. |
-| [Show recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) | **Ask questions** > ***Show recent changes for opportunity or Show recent changes for lead** | Get a list of updates to your opportunity or lead records in the last seven days or since you last signed in. |
-| [Prepare for sales appointments](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) | **Stay ahead** >  **Prepare for sales appointments** | Prepare better for your sales appointment with a summary of notes from the last three months and the most recent email thread on the timeline of the related record. |
-| [Display unanswered emails](copilot-stay-ahead.md#display-unanswered-emails) | **Stay ahead** >  **Show emails that need follow up** | Get a list of emails that you haven't replied to. |
+For a list of predefined prompts, see [Copilot prompt guide reference](copilot-prompt-guide.md).
 
 ### See also
 

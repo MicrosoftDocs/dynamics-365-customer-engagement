@@ -1,7 +1,7 @@
 ---
 title: Create and manage capacity profiles
 description: Learn how to create and manage capacity profiles for agents, and set custom limits for the profiles in Omnichannel for Customer Service.
-ms.date: 12/28/2023
+ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -39,23 +39,13 @@ Create a capacity profile, and use it in a workstream for routing work items.
 
 For a capacity profile, you can add or remove users and edit any setting except reset frequency. If you no longer require the profile, you can delete it.
 
-1. Go to one of the admin apps, and perform the following steps.
+1. In the site map of Customer Service admin center, select **User management** in **Customer support**. The **User management** page appears.
    
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-   
-    - In the site map, select **User management** in **Customer support**. The **User management** page appears.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+1. Select the **Manage** option for **Capacity profile**.
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
+1. On the **Capacity profiles** page, select **Create new**.
 
-    - In the site map, select **User attributes** under **Advanced settings**.
-    
-2. Select the **Manage** option for **Capacity profile**.
-
-3. On the **Capacity profiles** page, select **Create new**.
-
-4. On the **Details** tab of the **Create capacity profile** dialog box, enter the following details:
+1. On the **Details** tab of the **Create capacity profile** dialog box, enter the following details:
    - **Profile name**: Name for the capacity profile.
    - **Work item limit**: Number of units of the work type that you can assign to the agent.
    - **Reset frequency**: Period after which capacity consumption is reset for agents. Select one of the following options:
@@ -68,12 +58,12 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
    :::image type="content" source="../media/create-capacity-profile.png" alt-text="Create a capacity profile.":::
 
-5. On the **Users** tab, select **Add user**, and in the **Users** list, select the users. Alternatively, use the **Search** option to search for and add the user.
+1. On the **Users** tab, select **Add user**, and in the **Users** list, select the users. Alternatively, use the **Search** option to search for and add the user.
 
    > [!IMPORTANT]
    > Users must be configured as a bookable resource to be assigned the capacity profile. More information: [Manage users](users-user-profiles.md).
 
-6. Select **Add user**. The capacity profile is assigned to the user.
+1. Select **Add user**. The capacity profile is assigned to the user.
 
 ## Configure agent-specific work limits in capacity profiles<a name="custom-limits"></a>
 

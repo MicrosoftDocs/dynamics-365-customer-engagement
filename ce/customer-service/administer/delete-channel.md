@@ -1,7 +1,7 @@
 ---
-title: "Delete a configured channel or page to stop receiving messages | MicrosoftDocs"
-description: "Deactivate or delete a channel to turn off and stop receiving messages on the channel in Omnichannel for Customer Service."
-ms.date: 02/29/2024
+title: Delete a configured channel or page to stop receiving messages
+description: Deactivate or delete a channel to turn off and stop receiving messages on the channel in Omnichannel for Customer Service.
+ms.date: 06/14/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,10 +15,7 @@ You can delete an instance of a configured channel or SMS number in scenarios su
 
 ## Delete a configured channel
 
-You can delete a channel instance in Customer Service admin center or Omnichannel admin center (deprecated) app.
-
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+You can delete a channel instance in the Customer Service admin center app.
 
 1. Select a messaging channel such as Facebook.
 

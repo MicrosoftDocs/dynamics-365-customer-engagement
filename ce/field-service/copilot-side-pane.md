@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in the Dynamics 365 Field Service web application
 description: Learn how to use Copilot to summarize records, catch up on recent changes, and prepare for onsite jobs.
-ms.date: 04/22/2024
+ms.date: 06/07/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -35,9 +35,9 @@ Use predefined prompts to get the most out of Copilot. The following list provid
 
 ## Region availability and languages supported
 
-To use this capability, your environment must be in the US region and have its language set to en-US.
+You might need to allow data movement across regions for Generative AI features as a prerequisite for running copilot in Power Apps. This step is especially important if your organization and your environment are in different regions. For more information, see [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
-You must allow data movement across regions for Generative AI features as a prerequisite for running copilot in Power Apps. This step is especially important if your organization and your environment are in different regions. For more information, see [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
+For regional availability, see the [Copilot International Availability Report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 ## See also
 
