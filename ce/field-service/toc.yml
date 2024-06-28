@@ -309,13 +309,13 @@ items:
         href: mobile/set-up-field-service-mobile
       - name: Mobile offline profile
         items:
-        - name: Sync offline data
-          href: mobile/offline-data-sync.md
         - name: Set up the mobile offline profile
           href: mobile/set-up-offline-profile.md
+        - name: Configure offline sync
+          href: mobile/offline-data-sync.md
         - name: Best practices and limitations
           href: mobile/best-practices-limitations-offline-profile.md
-      - name: Scan barcodes
+      - name: Configure barcode scanning
         href: mobile/scan-barcode.md
       - name: Enable push notifications
         href: mobile/enable-push-notifications.md

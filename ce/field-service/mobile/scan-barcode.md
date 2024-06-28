@@ -8,7 +8,7 @@ author: JonBaker007
 ms.author: jobaker
 ---
 
-# Scan a barcode
+# Configure barcode scanning
 
 > [!WARNING]
 > update metadata.
