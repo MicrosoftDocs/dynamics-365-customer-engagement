@@ -1,7 +1,7 @@
 ---
 title: Change properties of the Booking Card component
 description: Configure visibility settings for properties of the Booking Card component to show or hide fields for your users.
-ms.date: 06/12/2024
+ms.date: 07/08/2024
 ms.topic: how-to
 ms.author: vhorvath
 author: vhorvathms
@@ -9,7 +9,7 @@ author: vhorvathms
 
 # Change properties of the Booking Card component
 
-Configure visibility settings of some properties for the booking card on the work order form. Organizations can choose, which information is relevant to their business needs. Makers can hide or show the following field properties:  
+Organizations can tailor the visibility settings of certain properties on the dynamic booking card within the work order form to meet their specific business requirements. Makers have the flexibility to show or hide the following field properties:  
 
 - Total cost
 - Task duration
