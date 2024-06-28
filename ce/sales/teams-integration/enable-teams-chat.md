@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams chat in Dynamics 365 Sales 
 description: Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application.
-ms.date: 09/06/2023
+ms.date: 06/27/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -99,6 +99,35 @@ Teams chat is now enabled for all Dynamics 365 apps of the apps you selected. Yo
 
 6. Save the changes.
 
+## Configure the ability to connect chats to Dynamics 365 records
+
+After you enable Teams chats, you can connect the chats to different record types. Standard record types, including case, account, contacts, knowledge article, and email, are available out-of-the-box, or you can add your desired record type.
+
+1. In the Sales Hub app, select **Change area** ![Icon to change the work area](media/change-area-icon.png) in the lower-left corner, and then select **App Settings**.
+
+2. Under **General Settings**, select **Chat and collaborate**.
+   
+1. Under **Connect chats to Dynamics 365 records**, select the record type you want to configure.<br>
+   If you want to add a record type, see [Add record types](#add-record-types)
+    
+1. Select **Save**.
+
+### Add record types
+
+To add a record type to connect chats to in Dynamics 365 records:
+
+1. In the Sales Hub app, select **Change area** ![Icon to change the work area](media/change-area-icon.png) in the lower-left corner, and then select **App Settings**.
+
+2. Under **General Settings**, select **Chat and collaborate**.
+   
+1. Under **Connect chats to Dynamics 365 records**, select **Add record types**.
+	
+1. In the **Allow chats to be connected to this record type** pane, in **Choose record type**, type the name of the record type you want to use.
+	
+1. Turn on the toggles for settings as per your requirement, such as **Join chat** and **Automatically name chats**.
+            
+1. Select **Save**.
+
 ## Set the default name for connected chats
 
 As an administrator, you can set the chat title to be used as the record title by default. Users can later change the title if they want.
@@ -109,10 +138,9 @@ As an administrator, you can set the chat title to be used as the record title b
 
 3. Under **Connect chats to Dynamics 365 records**, select the record type (for example, Lead).
 
-4. In the settings panel, turn on the **Auto-name chats** toggle.
+4. In the settings panel, turn on the **Automatically name chats** toggle.
 
-    ![Settings page to turn on or off the auto-name chats feature.](media/lead-configure-auto-name.png "Settings page for turning the auto-name chats feature on or off.")
-
+    :::image type="content" source="media/lead-configure-auto-name.png" alt-text="Settings page for turning the automatically name chats feature on or off.":::
 
 ## Data security and privacy
 
