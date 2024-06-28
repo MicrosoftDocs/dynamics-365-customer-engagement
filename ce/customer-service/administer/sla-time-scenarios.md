@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 05/07/2024
+ms.date: 06/28/2024
 ms.custom: bap-template
 ---
 
@@ -260,9 +260,11 @@ The active duration is 30 min and SLA expires at 12:40 AM as the case was paused
 When you use custom time calculation for SLA KPIs, the active duration isn't calculated cumulatively by default. You need to create a custom time calculation plug-in for active duration to be cumulative. More information: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis-1)
 
 > [!NOTE]
-> Active duration won't show any value when the SLA Instance is created in **Succeeded** or **Expired** state.
+> - Active duration won't show any value when the SLA Instance is created in **Succeeded** or **Expired** state.
+> - SLA KPI Instances created for the same SLA KPI, but with different SLA Items, doesn't consider the pause time of first instance, if the SLA KPI Instance is paused and then resumed.
+> - If daylight savings transition falls on a holiday as per the customer calendar used in the SLAItem, then the SLA KPI Instance created before the holiday, with failure time after the holiday, doesn't follow the daylight savings transition. SLA KPI Instances that are created after the daylight savings transition go by daylight savings transition.
 
-## See Also
+## Related information
 
 [Warning and failure duration times are incorrect for SLA](/troubleshoot/dynamics-365/customer-service/service-level-agreements/warning-failure-times-incorrect-sla)
 
