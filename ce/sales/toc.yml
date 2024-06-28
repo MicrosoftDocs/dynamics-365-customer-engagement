@@ -749,6 +749,8 @@
           items:
             - name: Open Copilot
               href: use-sales-copilot.md
+            - name: Prompt guide reference
+              href: copilot-prompt-guide.md
             - name: Get information
               href: copilot-get-information.md
             - name: Stay ahead
