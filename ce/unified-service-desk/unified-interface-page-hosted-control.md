@@ -1,14 +1,16 @@
 ---
 title: "Unified Interface Page hosted control to load a page from a model-driven app | MicrosoftDocs"
 description: "Learn to create the Unified Interface Page hosted control. Also find information about the predefined UII actions supported by it."
-ms.date: 11/12/2020
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
+ms.custom: evergreen
 ---
+
 
 # Unified Interface Page (hosted control)
 

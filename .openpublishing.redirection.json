@@ -161,6 +161,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/import-data.md",
+      "redirect_url": "/power-apps/user/import-data",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/configure-sales-copilot.md",
       "redirect_url": "/dynamics365/sales/enable-setup-copilot",
       "redirect_document_id": "false"
@@ -261,7 +266,7 @@
     },
     {
       "source_path": "ce/sales/optimize-ranking-insight-cards.md",
-      "redirect_url": "/dynamics365/sales/edit-insight-cards",
+      "redirect_url": "/dynamics365/sales/deprecations-sales",
       "redirect_document_id": "false"
     },    
     {

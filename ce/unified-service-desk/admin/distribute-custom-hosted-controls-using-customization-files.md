@@ -1,15 +1,13 @@
 ---
 title: "Distribute custom hosted controls using customization files  | MicrosoftDocs"
 description: "Learn to create and update customization files to distribute custom hosted controls and functionality to agent computers."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 tags: MigrationHO
 ---
 # Customization Files and how to distribute custom hosted controls overview
