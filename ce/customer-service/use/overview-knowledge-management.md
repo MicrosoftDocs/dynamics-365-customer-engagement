@@ -111,9 +111,9 @@ As an **agent**, you can use knowledge article rating to easily provide feedback
 
 ## See also
 
-[Configure origins allowlist for knowledge articles](../administer/configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles)
+[Search knowledge articles](search-knowledge-articles-csh.md)
 
-[Search for knowledge articles in Customer Service workspace](../csw-search-knowledge-articles.md#search-for-knowledge-articles-in-customer-service-workspace)
+[Configure origins allowlist for knowledge articles](../administer/configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles)
 
 [Create a knowledge article using a template](../develop/create-knowledge-article-using-template.md#create-a-knowledge-article-using-a-template)
 
