@@ -21,7 +21,7 @@ The app is available for Apple iOS, Google Android, and Windows 10+ devices. It'
 
 The mobile app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview), which makes it customizable to your business needs.
 
-In 2024, Microsoft released a refreshed user experience for parts of the mobile application. Administrators can enable the new experience for their users. This experience includes a new booking and work order management experience, including navigation updates, improved touch targets, and familiar swipe gestures to accomplish tasks within the app. For more information, see [New UX for the mobile app (preview)](enable-newux.md).
+In 2024, Microsoft released a refreshed user experience for parts of the mobile application. Administrators can enable the new experience for their users. For more information, see [Set up the Field Service mobile app](set-up-field-service-mobile.md).
 
 ## Feature list
 

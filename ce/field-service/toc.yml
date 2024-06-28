@@ -305,10 +305,8 @@ items:
       href: mobile/overview.md
     - name: Admin guide
       items:
-      - name: Set up the classic mobile app
-        href: mobile/set-up-field-service-mobile.md
-      - name: Enable the refreshed user experience
-        href: mobile/enable-newux.md
+      - name: Set up the mobile app
+        href: mobile/set-up-field-service-mobile
       - name: Mobile offline profile
         items:
         - name: Sync offline data
