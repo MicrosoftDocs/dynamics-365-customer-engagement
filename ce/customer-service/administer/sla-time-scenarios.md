@@ -261,7 +261,7 @@ When you use custom time calculation for SLA KPIs, the active duration isn't cal
 
 > [!NOTE]
 > - Active duration won't show any value when the SLA Instance is created in **Succeeded** or **Expired** state.
-> - SLA KPI Instances created for the same SLA KPI, but with different SLA Items, doesn't consider the pause time of first instance, if the SLA KPI Instance is paused and then resumed.
+> - If there are two SLA KPI Instances created with the same SLA KPI, but with different SLA Items, then the pause time of the first SLA KPI instance isn't considered in the time calculation for the second SLA KPI Instance, if the first SLA KPI Instance is paused and then resumed.
 > - If daylight savings transition falls on a holiday as per the customer calendar used in the SLAItem, then the SLA KPI Instance created before the holiday, with failure time after the holiday, doesn't follow the daylight savings transition. SLA KPI Instances that are created after the daylight savings transition go by daylight savings transition.
 
 ## Related information
