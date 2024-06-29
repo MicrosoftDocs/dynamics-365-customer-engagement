@@ -18,6 +18,9 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+> [!NOTE]
+> Case is applicable to Customer Service only.
+
 
 The Teams chat embedded in Customer Service Hub, Customer Service workspace, Contact Center workspace, or custom apps can help you more quickly find the right coworkers to collaborate with. This collaboration can help you more quickly resolve customer issues.
 

@@ -1,6 +1,6 @@
 ---
-title: Omnichannel Agent Dashboard in Omnichannel for Customer Service
-description: Learn about the Omnichannel Agent Dashboard that shows work items for agents who use the Customer Service workspace or Omnichannel for Customer Service app.
+title: Omnichannel Agent Dashboard in Dynamics 365 Contact Center
+description: Learn about the Omnichannel Agent Dashboard that shows work items for agents who use the Customer Service workspace or Contact Center workspace.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi

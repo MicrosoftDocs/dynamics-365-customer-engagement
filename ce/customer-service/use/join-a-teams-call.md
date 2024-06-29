@@ -13,6 +13,9 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+> [!NOTE]
+> Case is applicable to Customer Service only.
+
 
 Join a Teams call is a feature that can help you have effective conversations with your customers. During an active conversation, you can quickly move your call or chat to Microsoft Teams. On Teams, you can share your screen, connect on video, and remotely connect with your customers to offer more personalized support. 
 

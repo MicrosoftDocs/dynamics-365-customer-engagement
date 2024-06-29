@@ -13,7 +13,7 @@ ms.custom:
 
 # View notifications
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!Note]
 > Case information is applicable to Customer Service only.
@@ -35,15 +35,16 @@ Here are some scenarios where you might receive notifications:
 
 ## Receive notifications when the app is in the background
 
-Agents can receive notification alerts on their desktop always or only when the Customer Service workspace or Omnichannel for Customer Service app isn't in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
+Agents can receive notification alerts on their desktop always or only when the Customer Service workspace or Contact Center workspace isn't in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
 
 - The agent has minimized the app.
 - The agent is working in another browser window.
 - The agent is working on another tab of the browser.
-- The agent is using two screens, and is on the screen that doesn't have either the Customer Service workspace or Omnichannel for Customer Service app.
+- The agent is using two screens, and is on the screen that doesn't have either the Customer Service workspace or Contact Center workspace app.
 
 > [!Note]
-> The **Always(preview)** option for **Show Desktop Notifications** is in preview. To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them).
+> - The **Always** option for **Show Desktop Notifications** is in preview. To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them).
+> - Desktop notifications aren't supported in the embedded experience.
  
  > [!div class=mx-imgBorder]
  > ![Desktop notification.](../media/desktop-notification.png "Desktop notification")
@@ -62,6 +63,9 @@ That is, your administrator has configured the wait time as 90 seconds and set t
 ### Allow your browser to show notifications
 
 To get desktop notifications, you need to allow your browser to show notifications. When you get a browser notification, select **Allow**.
+
+> [!Note]
+> Desktop notifications aren't supported in the embedded experience.
 
  > [!div class=mx-imgBorder]
  > ![Allow desktop notification.](../media/allow-desktop-notification.png "Allow desktop notification")
@@ -93,6 +97,9 @@ You receive a notification for an incoming chat request. When you accept the cha
 The details you'll see for a chat channel are as configured by your administrator.
 
 ## Case assignment notification
+
+> [!Note]
+> Case information is applicable to Customer Service only.
 
 If record routing is configured using unified routing and notifications are enabled, then when a case is assigned to you, you'll receive a notification with the open item option. You can't reject the assignment, and irrespective of the notification timeout, the case will be assigned to you.
 
@@ -128,6 +135,9 @@ When you don't respond to an incoming conversation notification, the notificatio
 Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system but they aren't seen because you closed the browser, navigated away from the app page, or lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it assigns the conversations to you. The conversation is rerouted eight minutes after the timeout has expired.
 
 ## Maximum session limit notifications
+
+> [!Note]
+> Maximum session limit reached notification isn't supported in the embedded experience.
 
 When you already have 10 sessions open, which is the maximum multi-session limit, and a new work item comes in, you'll see an alert at the top of your dashboard and your presence status will be automatically set to **Do not disturb**. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
 

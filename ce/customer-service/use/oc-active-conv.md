@@ -11,6 +11,7 @@ ms.custom: bap-template
 
 # View customer information on Active Conversation form
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 One of the major challenges that customers face when contacting customer support is repeatedly giving the same information about the issue to each support agent they talk to. And if they want to review the status of their request later, they have to share the same information with another support agent to explain the context of the engagement. To avoid this situation, support agents need access to all the information the customer has provided, including details about the product or service, issue, case history, related cases, and location.
 

@@ -9,8 +9,7 @@ ms.author: laalexan
 
 # Set up visitor location detection
 
-[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
-
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can configure your chat widget to detect a visitor's location based on their latitude and longitude. With location detection enabled, visitors receive a prompt in their web browser when they start to chat. If the visitor allows their location to be shared, it will passed through to the agent. Agents can then use this information to provide a personalized support experience.
 

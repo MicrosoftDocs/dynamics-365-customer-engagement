@@ -17,6 +17,9 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+> [!NOTE]
+> Case is applicable to Customer Service only.
+
 As an agent, you can chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
 
 > [!NOTE]
@@ -63,7 +66,7 @@ If you're using Teams for the first time within Customer Service Hub, Customer S
     - You can access the embedded chat from Customer Service Hub and custom apps. When you select the Teams chat :::image type="icon" source="../media/teams-icon.png" border="false"::: icon, the chat pane opens as an app in the right-side pane.
     - If you're in a multisession app, such as Customer Service workspace or Contact Center workspace, you can access the chat pane directly from the productivity pane.
        > [!NOTE]
-       > - Cases are supported in Customer Service workspace and Customer Service Hub only.
+       > Case is applicable to Customer Service only.
        > - You can also access the chat pane from the home session in Customer Service workspace or Contact Center workspace. When using the chat pane from the home session, you'll see two sections: Chats connected to records and Other chats (if enabled by your administrator).
     
 2.	Use one of the following methods:<br>

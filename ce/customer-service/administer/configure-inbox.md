@@ -12,7 +12,11 @@ ms.custom: bap-template
 
 # Configure the inbox
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!NOTE]
+> Case is applicable to Customer Service only.
+
 
 As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-agents) so that when your agents open Customer Service workspace or Contact Center workspace, they can select the inbox icon to show all the cases, conversations, and records that are assigned to them. The inbox is designed to help agents efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
 

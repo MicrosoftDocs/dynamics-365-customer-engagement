@@ -11,7 +11,10 @@ ms.custom: bap-template
 
 # Use the inbox
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!NOTE]
+> Case is applicable to Customer Service only.
 
 The inbox gives you quick view of your assigned cases, conversations, and records. It's designed to be your central place to locate, manage, and complete your day-to-day work. It can help you efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when you need more time to resolve cases and finish your conversations.
 

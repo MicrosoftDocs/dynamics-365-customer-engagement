@@ -160,6 +160,9 @@ To learn more, see [Take notes specific to conversation](oc-take-notes.md).
 
 ## Link to conversations
 
+> [!Note]
+> Link to conversation isn't applicable to the embed experience.
+
 When you have a conversation with a customer, you can use the link option that's at the bottom of the conversation control to link the conversation to the case, account, or contact record.
 
 To learn more, see [Search, link, and unlink a record to the conversation](oc-search-link-unlink-record.md).

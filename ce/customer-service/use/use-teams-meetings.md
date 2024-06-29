@@ -28,6 +28,7 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+
 The Teams meeting integration feature provides a unified meeting experience that helps you, as an agent, to reduce your administrative workload and increase productivity. The Dynamics 365 records are accessible while conducting a meeting over Teams, which you can refer to and have contextually relevant conversations with your customers. You can also take notes to help save time, be more productive, and leverage better data within your organization. 
 
 As an agent, you can: 

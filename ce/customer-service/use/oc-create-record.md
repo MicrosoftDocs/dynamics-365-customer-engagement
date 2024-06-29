@@ -66,6 +66,10 @@ To create a record
  - Case
  - Contact
  - Account
+ 
+> [!Note]
+> Case information is applicable to Customer Service only.
+
 
    > [!div class=mx-imgBorder]
    > ![Create record quickly.](../media/oc-oceh-create-quick-create.png "Create record quickly")
@@ -81,6 +85,10 @@ To create a record
 After you save the changes, you can link the record to the conversation. To learn more, see [Search and link a record to the conversation](oc-search-link-unlink-record.md#search-for-records-by-using-the-inline-search-option) 
 
 ## Create a record using the New option
+
+> [!Note]
+> Case information is applicable to Customer Service only.
+
 
 In the **Active Conversation** page, when you are trying to search a record in customer or case section, after you type few characters to search, you can use the inline **New** button to create a record. After you select the button, the **Quick Create** pane of the record appears.
 
