@@ -1,14 +1,16 @@
 ---
 title: "Walkthrough 7: Configure agent scripting for Unified Interface apps | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for configuring agent scripting in Unified Interface apps."
-ms.date: 06/25/2020
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
+ms.custom: evergreen
 ---
+
 
 # Walkthrough 7: Configure agent scripting in agent applications
 

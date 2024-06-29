@@ -1,16 +1,13 @@
 ---
 title: "Performance data log files to analyze performance issues | MicrosoftDocs"
 description: "Learn about Unified Service Desk performance data collection to analyze both agent and end-to-end performance, using configuration files and keyboard shortcuts."
-ms.date: 10/31/2018
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-a11y
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 monikerRange: '= dynamics-usd-4'
 ---
 
