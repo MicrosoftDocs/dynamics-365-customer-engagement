@@ -11,7 +11,9 @@ ms.custom: bap-template
 
 # Overview of SMS channels
 
-The SMS channel in Omnichannel for Customer Service allows your organization to connect to customers via text messages. Your customers can send text messages and connect with an appropriate agent. Agents can view incoming SMS requests on their dashboard and respond accordingly. While agents can't send messages, Omnichannel for Customer Service supports outbound messaging via Power Automate flows. More information: [Configure outbound messaging](../administer/outbound-messaging.md) 
+The SMS channel in Omnichannel for Customer Service allows your organization to connect to customers via text messages. Your customers can send text messages and connect with an appropriate agent. Agents can view incoming SMS requests on their dashboard and respond accordingly. 
+
+While agents cannot initiate an outbound conversation with a customer, Omnichannel for Customer Service supports outbound messaging via Power Automate flows. More information: [Configure outbound messaging](../administer/outbound-messaging.md) 
 
 You can use the same phone number for the SMS channel, and for inbound and outbound calling in the voice channel. SMS is currently only available in US, Canada, and Puerto Rico. For detailed information about numbers and eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
