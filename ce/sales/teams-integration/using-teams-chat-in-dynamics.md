@@ -1,5 +1,5 @@
 ---
-title: "Use Teams chat in the Sales Hub | MicrosoftDocs"
+title: "Use Microsoft Teams chat in Sales Hub | MicrosoftDocs"
 description: "Start Teams chat conversations from within Sales Hub and connect them to records"
 ms.date: 07/01/2024
 ms.topic: article
@@ -25,7 +25,7 @@ You can now engage in a Teams chat conversation from within Sales Hub. While you
 
 > [!NOTE]
 > - When you associate a Teams channel to a record, the channel gets connected to the record. However, unlike chat conversations, channel conversations can't be accessed from within Dynamics 365.
-> - Your administrator must have enabled this functionality. For more information, go to [Enable or Disable the Teams chat in Dynamics 365](enable-teams-chat.md).
+> - Your administrator must have enabled this functionality. For more information, go to [Enable or disable the Teams chat in Dynamics 365](enable-teams-chat.md).
 > - For the embedded Teams chat functionality to work properly, ensure that web browser settings allow pop-ups for the Dynamics website.
 
 
@@ -81,7 +81,7 @@ You can start a new connected chat or convert an existing Teams chat into a conn
     - In the **Participants** field, browse and select the names of the participants you want to chat with.
     - A list of suggested contacts is automatically displayed for the **Participants** field. Select a participant's name from the **Suggested Contacts** list. The **Suggested contacts** list displays the contacts of the users working on the record. More information: [How to contact suggestions work](#how-contact-suggestions-work)
 
-    The chat name uses the record name or the participant's name, depending on the configuration that your administrator chose. To set the chat name as the record name, you can ask your administrator to turn on the **Used record title as the default chat name for connected chats** setting. You can modify the chat name. It's a good idea to provide a meaningful name so that you can identify the chat even when you're in Teams.
+    The chat name uses the record name or the participant's name, depending on the configuration that your administrator chose. To set the chat name as the record name, you can ask your administrator to turn on the **Use record title as the default chat name for connected chats** setting. You can modify the chat name. It's a good idea to provide a meaningful name so that you can identify the chat even when you're in Teams.
 
 4. After adding the participants, select **Start Chat**.
 
@@ -120,7 +120,7 @@ You can start a connected chat with other members who are online and viewing the
 :::image type="content" source="media/co-presence.png" alt-text="Start a connected chat with other online members ":::
 
 > [!NOTE]
-> You can start a connected chat with other online members only when co-presence is enabled in Power Platform admin center and [Teams chat are enabled in Dynamics 365](enable-teams-chat.md#enable-or-disable-teams-chat) Sales by your administrator. 
+> You can start a connected chat with other online members only when co-presence is enabled in Power Platform admin center and [Teams chat is enabled in Dynamics 365](enable-teams-chat.md#enable-or-disable-teams-chat) Sales by your administrator. 
 >
 > In the Power Platform admin center, your system administrator needs to turn on the **Collaboration** feature in your environment. For information, see [Manage feature settings](/power-platform/admin/settings-features).
 
@@ -150,7 +150,7 @@ Connect relevant Teams channels to a record so that all the members can easily a
 
 4.  To start a new connected channel, select **Create a new connection**.
 
-5.  To connect an existing channel, select the channel from the list, and then select **Start Collaboration**.
+5.  To connect an existing channel, select the channel from the list, and then select **Start collaboration**.
 
 ## Start a regular Teams chat in Dynamics 365
 
