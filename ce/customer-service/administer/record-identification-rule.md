@@ -11,7 +11,10 @@ ms.custom: bap-template
 
 # Identify customers automatically
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!NOTE]
+> Case is applicable to Customer Service only.
 
 You can assist customers better if you can automatically identify them and view their account and case details on the **Active Conversation** page. One of the ways is by setting up preconversation questions in the relevant chat widgets. The application uses the customer responses to search for details in the records and display the results. For an account or contact, the application performs a search on the **Name**, **Email**, or **Phone Number** fields. For an account, the **Phone Number** pertains to the **Phone** field of the **Account Summary** page; for a contact, the **Phone Number** pertains to the **Mobile Number** field of the **Contact Summary** page. For cases, the application performs a search on the **Case Number** field.
 
@@ -59,6 +62,8 @@ To link the customer or case, set the values for the associated attributes, such
 
 For information about creating context variables for Azure and Copilot Studio bots, see [Configure context variables for the bot](context-variables-for-bot.md#configure-context-variables-for-copilot-studio-bot).
 
+> [!NOTE]
+> Case is applicable to Customer Service only.
 
 ### See also
 

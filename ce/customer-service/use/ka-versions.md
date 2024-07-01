@@ -11,13 +11,16 @@ ms.custom: bap-template
 
 # Create and manage article versions
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 Article versioning helps you manage updates to your knowledge articles without disrupting the live or published articles. By creating major and minor versions of a knowledge article, you can keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services.  
   
 This capability helps you to keep accurate records of the features your organization provides and go back to previous versions if you need to.
 
 ##  Create a new version
   
-1.  In the Customer Service app, select **Knowledge Articles**.  
+1.  In the application, select **Knowledge Articles**.  
   
 2.  Select the article you want to create a new version for.  
   

@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Configure routing based on external schedules (preview)
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Configure assignment rules to route and assign cases and conversations based on agents' shift schedules imported from external workforce management (WFM) systems. By verifying agents' schedules in advance, organizations can avoid routing tasks to off-duty agents, and reduce the risk of delays. 

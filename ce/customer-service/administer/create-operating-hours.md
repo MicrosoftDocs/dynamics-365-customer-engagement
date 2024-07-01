@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Create and manage operating hours
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Operating hours define the hours when your organization's customer support team is active and available to serve customers. By setting up operating hours, you help your customers and your organization work together to resolve issues.
 
@@ -26,7 +26,7 @@ The operating hour schedules cater to the following scenarios:
 
 After you define the business hours for your organization and set up [automated messages](configure-automated-message.md) to be displayed to customers, when customers interact through a channel during non-business hours, they will see the messages that you've set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am and 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they'll receive responses that you've set.
 
-In the Customer Service admin center app, after you've created an operating hour record, you can do the following steps, depending on your requirement:
+In the Customer Service admin center or Contact Center admin center app, after you've created an operating hour record, you can do the following steps, depending on your requirement:
 
 - **Queues:** Configure the operating hour on the main page of the queue.
 - **Chat widget:** Add the operating hour record on the **Chat widget** tab.
@@ -36,7 +36,7 @@ When operating hours are in effect, work items during non-business hours are han
 
 ## Create a record to define operating hours
 
-You can define operating hours in Customer Service admin center.
+You can define operating hours in ustomer Service admin center or Contact Center admin center.
 
 1. In the site map of the admin center, select **Calendars** in **Operations**. The **Calendar** page appears.
 1. In the **Operating Hours** section, select **Manage**.

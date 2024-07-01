@@ -1,6 +1,6 @@
 ---
 title: Best practices for configuring bots
-description: This article lists the best practices that you can follow when you configure Azure and Copilot Studio bots in Omnichannel for Customer Service.
+description: This article lists the best practices that you can follow when you configure Azure and Copilot Studio bots in your contact center.
 ms.date: 06/14/2024
 author: neeranelli
 ms.author: nenellim
@@ -11,6 +11,8 @@ ms.collection:
 ---
 
 # Best practices for configuring bots
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 

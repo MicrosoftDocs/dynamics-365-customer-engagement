@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # FAQ about Facebook channel setup
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 This article provides answers to frequently asked questions (FAQs) about configuring the Facebook channel in Omnichannel for Customer Service.
 

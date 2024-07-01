@@ -12,13 +12,14 @@ ms.collection:
 
 # Create message templates
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 Message templates enable the one-time creation of reusable messages that can be sent to multiple customers. With message templates, you can maintain high-quality content and avoid spam in the ecosystem. You can save time and personalize the messages by using placeholder values that can be replaced with dynamic content when the message is sent.
 
 **To create a message template**
 
-1. In the site map of Customer Service admin center, in **Agent experience**, select **Productivity**.
+1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Productivity**.
    
 1. Select **Manage** for **Message templates**.
 
