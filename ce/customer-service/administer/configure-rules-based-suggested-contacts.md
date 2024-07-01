@@ -11,7 +11,7 @@ ms.reviewer: shujoshi
 
 # Configure rules-based suggestions for contacts in Microsoft Teams
 
-[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Agents can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable rules-based suggested contacts that are displayed when an agent starts a new connected chat. This feature can help agents in your organization to quickly find the right coworkers to collaborate with.
 
