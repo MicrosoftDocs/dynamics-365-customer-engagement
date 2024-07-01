@@ -34,9 +34,9 @@ The Copilot report displays the following metrics.
 | Metric | Description |
 |--------|---------|
 | Daily active users | The number of unique agents who used Copilot at least once in the last day. |
-| Total Copilot AI responses | The total number of responses that Copilot provided. |
-| Number of Copilot AI responses used | The number of times that text from a Copilot response was copied. |
-| Percentage of Copilot AI responses used | The percentage of responses that were used. |
+| Total copilot AI responses | The total number of responses that Copilot provided. |
+| Number of copilot AI responses used | The number of times that text from a Copilot response was copied. |
+| Percentage of copilot AI responses used | The percentage of responses that were used. |
 
 ### Productivity: Cases
 
@@ -52,10 +52,10 @@ The Copilot report displays the following metrics.
 
 | Metric | Description|
 |--------|---------|
-| Total emails | The number of emails that were resolved when Copilot was used. |
+| Total emails | The number of emails that were drafted when Copilot was used. |
 | Number of emails using copilot AI| The number of emails that were sent with content drafted using Copilot. |
 | Percentage of emails using copilot AI | The percentage of emails that were sent when Copilot was used |
-| Avg. email response time (min) | Average email response time when Copilot is engaged. Displays data when Copilot was used and when it wasn't. |
+| Avg. email response time (min) | Average email response time when Copilot is engaged; displays data when Copilot was used and when it wasn't. |
 | Email throughput | The number of emails that were sent on an average per day; displays data when Copilot was used and when it wasn't.|
 
 ### Productivity: Conversations
