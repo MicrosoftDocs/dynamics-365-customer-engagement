@@ -11,7 +11,9 @@ ms.custom: bap-template
 
 # View social profiles of contacts
 
-Omnichannel for Customer Service creates a social profile for incoming requests from asynchronous channels. After a social profile is created for a conversation within a channel, later conversations are linked to the same social profile for the channel so that you can view all the related information in one place.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+The system creates a social profile for incoming requests from asynchronous channels. After a social profile is created for a conversation within a channel, later conversations are linked to the same social profile for the channel so that you can view all the related information in one place.
 
 When a customer contacts the contact center for the first time, you must search and link the customer contact with the conversation manually for the social profile to be created in Dynamics 365. Subsequent conversations are automatically linked.
 
@@ -41,7 +43,7 @@ The social profiles are supported for the following channels.
 
 As an agent, you can see the active social profile information, such as the customer, profile name, social channel, and related social profiles.
 
-1. In the Omnichannel for Customer Service app, select the **Search** box, and scroll to the bottom of the list.
+1. In the Customer Service workspace or Contact Center workspace app, select the **Search** box, and scroll to the bottom of the list.
 
 1. Select **Search for rows in a table using advanced filters**.
 

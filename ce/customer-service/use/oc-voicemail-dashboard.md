@@ -9,6 +9,9 @@ ms.author: mgandham
 
 # Voicemail dashboard
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and agent.
 
 ## Access the Voicemail dashboard

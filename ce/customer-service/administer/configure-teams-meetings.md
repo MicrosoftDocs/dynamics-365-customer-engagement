@@ -10,6 +10,8 @@ ms.collection: bap-template
 
 # Enable Microsoft Teams meeting integration in Customer Service (preview)
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
 >
@@ -34,7 +36,7 @@ To enable Teams integration in Customer Service, the following prerequisites mus
 
 Complete the following steps to enable Teams meeting integration.
 
-1. In the site map of Customer Service admin center, go to **Agent experience** > **Collaboration**.
+1. In the site map of Customer Service admin center or Contact Center admin center, go to **Agent experience** > **Collaboration**.
     
 1. In **Meeting integration using Teams (preview)**, select **Manage**.
    
@@ -55,7 +57,8 @@ As mentioned in the prerequisites, the following settings are displayed on the p
 The side panel helps agents quickly view and update details of the related record during a Teams meeting. The side panel displays notes, tasks, and activities associated with the record. As an administrator, you can customize the side panel to meet the needs of your agents. The record side panel supports only Contact, Opportunity, Lead, Account, and Case entities.
 
 > [!Note]
-> The record side panel can be customized by customizing the **In Context Form** of a table. The following table lists the supported and unsupported customizations for the side panel.
+> - Case is applicable to Customer Service only.
+> - The record side panel can be customized by customizing the **In Context Form** of a table. The following table lists the supported and unsupported customizations for the side panel.
 
 | Supported customizations | Unsupported customizations |
 |------|--------|
