@@ -10,7 +10,7 @@ ms.author: laalexan
 # Show customers their average wait time in a queue
 
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 As an administrator, you can enable the feature that displays a customer's average wait time in the queue to start a chat with an agent. It helps set customer expectations when wait times are long because of a high volume of customers needing support, understaffing, or long call-handling times. When you display the average wait time to the customer, the customer can decide whether to wait in the queue or return to the chat later.

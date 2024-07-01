@@ -12,7 +12,7 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
-[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
 Customer Service Insights uses AI to give you insights into your customer service data by grouping semantically related conversations and generating a topic. New incoming conversations that match this topic are automatically added to the topic group. This can help you identify areas for improvement that impact system performance.
