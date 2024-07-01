@@ -9,7 +9,7 @@ ms.author: nenellim
 
 # Use Microsoft Teams channel
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 When you sign in you can see your work items on the agent dashboard. More information: [View agent dashboard and agent conversations](oc-agent-dashboard.md)
 
