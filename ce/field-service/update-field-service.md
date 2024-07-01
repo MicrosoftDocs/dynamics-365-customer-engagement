@@ -1,7 +1,7 @@
 ---
 title: Update apps and solutions
 description: Learn how to upgrade Dynamics 365 Field Service, mobile apps, and related solutions.
-ms.date: 06/25/2024
+ms.date: 06/28/2024
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts

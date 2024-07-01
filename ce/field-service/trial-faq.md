@@ -3,7 +3,7 @@ title: Dynamics 365 Field Service trial FAQ
 description: Solutions to common questions related to Dynamics 365 Field Service trial setup and management. Learn how to resolve platform and app-specific issues.
 author: jshotts
 ms.author: jasonshotts
-ms.date: 06/25/2024
+ms.date: 07/01/2024
 ms.topic: get-started
 ms.custom: template-trial-faq
 ---
@@ -46,12 +46,7 @@ The trial comes with guided tours and videos that highlight key product features
 
 ### How do I remove sample data from the trial?
 
-Sign into your trial environment. On the **Get Started** page, there's a **Remove sample data** section at the bottom of the screen. Select the **Remove** button to remove all sample data from the trial.
-
-> [!Note]
-> If you created new records that referred to the sample data, sample data deletion will fail. For instance, you created a work order with the sample **Incident Type** *Installation*. In this case, the *Installation* incident type will not be deleted.
->
-> To see additional bulk delete job details, go to **Advanced Settings** > **Settings** > **Sample Records Delete**.
+[Remove sample data](/power-platform/admin/add-remove-sample-data).
 
 ### How do I restore sample data?
 
