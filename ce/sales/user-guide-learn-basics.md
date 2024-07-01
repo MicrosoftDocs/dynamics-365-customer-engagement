@@ -27,8 +27,6 @@ Learn how to access the Sales app, navigate the UI, and understand the data in t
      1. For Sales Enterprise, select **Sales Hub**.
      1. For Sales Professional, select **Sales Professional**.
 
-     :::image type="content" source="media/sales-apps.svg" alt-text="Screenshot of Sales apps tiles.":::
-
      If you don't see either of these cards, contact your Dynamics 365 administrator to get access.
 
 ## Navigate using the site map
