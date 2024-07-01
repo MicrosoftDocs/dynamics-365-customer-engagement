@@ -17,6 +17,8 @@ ms.collection: get-started
 
 # Use the productivity pane to help resolve customer issues
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 The productivity pane in the Customer Service workspace is an auxiliary work area that contains tools for supporting or expediting tasks when agents are resolving customer issues.
 
 Currently, the productivity pane includes controls to help agents quickly view and interact with relevant AI-generated knowledge articles and similar cases suggestions for the case they are working on, work with agent scripts and macros, and search for knowledge base articles.

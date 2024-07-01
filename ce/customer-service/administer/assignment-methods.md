@@ -1,6 +1,6 @@
 ---
 title: Assignment methods for queues
-description: Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing.
+description: Learn about the different assignment methods for queues and how you can use them in unified routing.
 ms.date: 03/21/2024
 ms.topic: conceptual
 author: neeranelli
@@ -18,6 +18,8 @@ searchScope:
 ---
 
 # Assignment methods in unified routing
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Use assignment methods to determine how to assign work items. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets.
 

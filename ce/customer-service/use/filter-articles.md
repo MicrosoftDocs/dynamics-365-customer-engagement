@@ -1,6 +1,6 @@
 ---
-title: Filter knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
-description: Learn how you can filter knowledge articles in Dynamics 365 Customer Service.
+title: Filter knowledge articles
+description: Learn how you can filter knowledge articles.
 ms.date: 08/25/2022
 ms.topic: article
 author: Soumyasd27
@@ -15,7 +15,7 @@ ms.custom:
 
 # Filter knowledge articles
 
-## Filter knowledge articles
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 With the help of text and visual filters, you can filter knowledge articles.
 
@@ -45,7 +45,7 @@ Any personalization you make to your filter selections will also be applicable t
 
 If you deactivate a filter, it will appear as deactivated. If you reactivate the same filter later, the filter will keep its previous configuration.
 
-1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
+1. In the application, go to **Service** > **Knowledge** > **Knowledge Personalization**.
 2. For each filter value you want to change, select the ellipsis in the top-right corner, and then select **Preselects**.
 3. To make a filter value available by default, toggle the preset next to the filter to the right so that **Preselected** appears next to the filter name.
 4. When you are finished making your selections, select **Done** > **Save**.

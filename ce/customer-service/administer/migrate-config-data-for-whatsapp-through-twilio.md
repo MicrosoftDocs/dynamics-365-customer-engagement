@@ -1,7 +1,7 @@
 ---
 title: Migrate unified routing data for WhatsApp channel through Twilio
 description: Learn to export and import data pertaining to WhatsApp channel from source to target environments in Omnichannel for Customer Service.
-ms.date: 03/06/2023
+ms.date: 07/01/2024
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -11,6 +11,9 @@ ms.custom: bap-template
 ---
 
 # Migrate data for WhatsApp channel through Twilio
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for WhatsApp.
 
