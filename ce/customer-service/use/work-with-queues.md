@@ -11,6 +11,9 @@ ms.custom: bap-template
 
 # Work with queues
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365, queues are containers used to store anything that needs to be completed or requires an action, such as completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](../administer/set-up-queues-manage-activities-cases.md).
 
 The option for agents to manage their queues and items is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md#enhancements-in-the-queue-page)
