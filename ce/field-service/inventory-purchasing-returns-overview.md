@@ -37,7 +37,7 @@ A warehouse in Field Service is any company location that holds inventory, inclu
 - Distribution centers
 - Loading docks
 
-Inventory at each warehouse is updated based on used work order products, purchase orders returns, adjustments, and transfers. Updates are recorded in the related **Product Inventory** table.
+Inventory at each warehouse is updated based on used work order products, purchase orders returns, adjustments, and transfers. Updates are recorded in the related **Product Inventory** table.
 
 :::image type="content" source="media/inventory-product-inventory.svg" alt-text="Screenshot of product inventory in the main warehouse.":::
 
@@ -113,6 +113,13 @@ The system automatically adjusts inventory and customer assets.
 All inventory transactions are recorded in the **Inventory Journals**. For example, when one product is allocated to a work order, an inventory journal is created that increases quantity allocated by one. When that same product is then used to complete the work order, another inventory journal is created that decreases quantity on hand. Journals are recorded for all increases and decrease of product inventory. Basically, inventory journals serve as an inventory ledger within Field Service.
 
 Most importantly, inventory journals are sometimes used to integrate Field Service inventory transactions into external ERP systems, depending on how the integration is architected. To make integrations easier and more flexible, [inventory journals can be manually created](manual-inventory-journals.md).
+
+## Next steps
+
+- [Create a warehouse and add product inventory](create-warehouse.md)
+- [Create a purchase order](create-purchase-order.md)
+- [Process a return](process-return.md)
+- [Use manual inventory journals](manual-inventory-journals.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
