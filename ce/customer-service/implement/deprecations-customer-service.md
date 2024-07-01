@@ -25,7 +25,7 @@ The channel for [Google's Business Messages](../administer/configure-google-busi
 
 The following are key dates for the channel for Google's Business Messages deprecation in Omnichannel for Customer Service:
 
-- July 1, 2024: No new messages can be sent or received in Google's Business Messages after this date.
+- July 1, 2024: No new messages can be sent or received in Google's Business Messages.
 - July 31, 2024: Google's Messages for Business will be fully deprecated and no longer accessible.
 
 ## Diagnostics in unified routing is deprecated and will be removed in August 2024
