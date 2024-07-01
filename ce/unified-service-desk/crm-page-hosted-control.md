@@ -1,15 +1,14 @@
 ---
 title: "CRM Page hosted control to load a page from a model-driven app | MicrosoftDocs"
 description: "Learn how to create CRM Page hosted control type to load a URL or page from the model-driven app. Also, learn about the predefined UII actions for the hosted control."
-ms.date: 02/14/2020
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # CRM Page (hosted control)
 

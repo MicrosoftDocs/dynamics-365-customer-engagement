@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough 6: Configure Debugger hosted control in agent applications | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for configuring the Debugger hosted control in your agent applications."
-ms.date: 08/17/2018
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 
 # Walkthrough 6: Configure the Debugger hosted control in your agent application
