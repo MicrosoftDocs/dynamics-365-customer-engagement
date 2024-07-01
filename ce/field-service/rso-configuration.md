@@ -14,14 +14,9 @@ Perform these configuration steps after [successful deployment](rso-deployment.m
 
 ## Enable Resource Scheduling Optimization
 
-1. Go to **Resource Scheduling Optimization** > **Administration** > **Scheduling Parameters**.
+1. First, make sure that [maps are configured for your environment](field-service-maps-address-locations.md#connect-to-maps). Review the privacy considerations for sending data between services.
 
-1. On the General tab, set **Connect to Maps** as **Yes**. The setting connects the organization with the Bing Maps service that the schedule board uses. You need a system administrator role to enable this setting.
-
-   > [!IMPORTANT]
-   > By connecting to a mapping service (Bing Maps or other third-party mapping services that you choose), you allow the system to share data with systems outside of your Microsoft Dynamics 365 environment. Data includes - but is not limited to - addresses and coordinates. This also applies to Government Community Cloud environments. Your use of the mapping service is subject to their separate terms of use. Data imported from such external systems into Microsoft Dynamics 365 are subject to the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement).
-
-1. Go to the Resource Scheduling Optimization tab.
+1. Go to **Resource Scheduling Optimization** > **Administration** > **Scheduling Parameters** > **Resource Scheduling Optimization** tab.
 
    :::image type="content" source="media/rso-settings-enable.png" alt-text="Screenshot of Resource Scheduling Optimization tab.":::
 
