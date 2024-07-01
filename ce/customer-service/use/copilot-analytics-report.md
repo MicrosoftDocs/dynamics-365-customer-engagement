@@ -57,7 +57,7 @@ The Copilot report displays the following metrics.
 | Percentage of emails using copilot AI | The percentage of emails that were sent when Copilot was used |
 | Daily engaged emails | The number of emails that were sent using Copilot from the total number of emails. |
 | Avg. email response time (min) | Average email response time when Copilot is engaged. Displays data when Copilot was used and when it wasn't. |
-| Email throughput | The number of emails that were sent on average per day. Displays data when Copilot was used and when it wasn't.|
+| Email throughput | The number of emails that were sent on an average per day. Displays data when Copilot was used and when it wasn't.|
 
 ### Productivity: Conversations
 
