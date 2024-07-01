@@ -22,8 +22,6 @@ searchScope:
 
 # Add a default signature template to a queue
 
-[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
-
 You can add a default signature template for a queue to ensure that emails sent with the queue as the sender have consistent email signatures. When you send an email with the queue as the sender or reply to messages received by the queue, the default signature is added to the body of the email. If you don't specify a default signature template for a queue, the application adds the signature queue's owner.
 
 ## Prerequisites
