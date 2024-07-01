@@ -48,7 +48,9 @@ Based on your administrator's configuration, you'll see the following:
 - The Copilot conversation summary generated automatically when you request a consultation with another agent, transfer the conversation, or end the conversation. You can select **Summarize conversation** to generate the summary for an ongoing conversation.
 - The summary is displayed in a paragraph format or a structured format.
   - The paragraph format summarizes the conversation in a single paragraph.
+     :::image type="content" source="../media/copilot-conv-summary.png" alt-text="Screenshot of a Copilot conversation summary.":::
   - The structured format summarizes and organizes the information in the conversation based on the options your administrator has selected. 
+     :::image type="content" source="../media/structured-conv-summary.png" alt-text="Screenshot of a structured Copilot conversation summary.":::
        
 You can also take the following actions:
 

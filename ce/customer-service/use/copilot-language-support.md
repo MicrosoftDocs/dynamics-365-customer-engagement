@@ -23,9 +23,7 @@ The key features are as follows:
 
 ## Scenarios
 
-### Standalone app
-
-The following scenarios can help you understand the language Copilot uses to generate responses in the standalone app.
+The following scenarios can help you understand the language Copilot uses to generate the response.
 
 | Scenarios | Copilot response | 
 | --- | --- | 
@@ -35,8 +33,6 @@ The following scenarios can help you understand the language Copilot uses to gen
 | The  UI language is set to Spanish. The agent asks a question in French. | Copilot displays the results in Spanish. |
 |  The UI language is set to Spanish. The knowledge articles are in the English language only. The agent asks a question in Spanish.| No response is generated. |
 | The UI language is set to Japanese. The Bing Market language is set to Japanese and the location is set to ja-JP. The agents asks a question that Copilot responds to with content from the public web pages. | Copilot returns responses if the restricted Bing search results are available in the set [market code](/bing/search-apis/bing-web-search/reference/market-codes) of ja-JP. |
-
-
 
 
 ### See also

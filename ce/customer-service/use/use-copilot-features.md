@@ -81,6 +81,10 @@ If you're satisfied with the response Copilot provides, you can use the whole th
 - When you're in an active digital messaging conversation, select **Send to customer** to open an editing window where you can revise the response and send it to the customer. You can also change customer keywords to prompt Copilot to generate a more accurate response.
 - Select **Check sources** to see the knowledge base or website links from which Copilot drew the response. You can use this supplemental information as a resource or share it with the customer.
 
+### Clear chat to start over
+
+After a customer conversation has ended, or if you want Copilot to disregard the conversation so far, select **Clear chat** at the bottom of the Copilot pane.
+
 ### Provide feedback
 
 To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
