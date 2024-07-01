@@ -10,7 +10,7 @@ ms.reviewer: shujoshi
 
 # Configure customer support swarming for complex cases
 
-[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
