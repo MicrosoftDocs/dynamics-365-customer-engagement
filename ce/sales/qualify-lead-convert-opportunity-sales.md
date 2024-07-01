@@ -141,6 +141,8 @@ To disqualify, select the lead, and on the command bar, select  **Disqualify**.
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  
-[Troubleshoot issues with lead qualification issues](/troubleshoot/dynamics-365/sales/troubleshoot-lead-qualification-issues-for-salespeople)
+[FAQ about lead qualification experience](faq-lead.md#faq-about-lead-qualification-experience)  
+[Troubleshoot issues with lead qualification issues](/troubleshoot/dynamics-365/sales/troubleshoot-lead-qualification-issues-for-salespeople)  
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
