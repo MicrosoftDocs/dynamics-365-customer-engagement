@@ -28,7 +28,7 @@ With calling options in live chat, you can:
 ## Prerequisites
 
 You'll need network connectivity and a web browser. For supported browsers and required Internet bandwidth, see 
-[System requirements for Dynamics 365 Contact Center](/dynamics365/contact-center/implement/system-requirements-contact-center) and [System requirements for Customer Service](../implement/system-requirements-omnichannel.md).
+System requirements for Dynamics 365 Contact Center and [System requirements for Customer Service](../implement/system-requirements-omnichannel.md).
 
 ### Initiate voice and video call
 

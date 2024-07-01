@@ -8,7 +8,6 @@ ms.author: laalexan
 ---
 # Use Google's Business Messages channel
 
-[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!IMPORTANT]
 > Google's Business Messages channel will be deprecated on July 31, 2024. After this date, you won't be able to use this channel, and this article will be removed. We recommend that you use the web channel instead. For details about the deprecation and related dates, see the [Customer Service deprecation article](../implement/deprecations-customer-service.md#googles-business-messages-channel-will-be-deprecated-and-removed-in-july-2024).
