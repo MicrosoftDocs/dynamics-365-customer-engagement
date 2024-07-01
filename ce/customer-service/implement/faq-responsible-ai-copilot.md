@@ -14,6 +14,9 @@ ms.custom:
 
 # Responsible AI FAQ for Copilot in Customer Service
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+
+
 This FAQ article helps answer the questions around the responsible use of AI in copilot features in Customer Service.
 
 ## What is Copilot in Dynamics 365 Customer Service?

@@ -11,6 +11,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure analytics and insights dashboards
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+
+
 You can enable and configure the Customer Service Insights features and services and share them with service managers, who can then view and analyze different activities. You can configure the features and services in Customer Service admin center app, and they can be viewed on both the Customer Service Hub and Customer Service workspace apps.
 
 > [!NOTE]
