@@ -16,7 +16,7 @@ Copilot in Dynamics 365 Customer Service helps agents to complete tasks related 
 
 The system stores the copilot interaction data in the [msdyn_copilotinteraction](../develop/reference/entities/msdyn_copilotinteraction.md), [msdyn_copilotinteractiondata](../develop/reference/entities/msdyn_copilotinteractiondata.md), [msdyn_copilottranscript](../develop/reference/entities/msdyn_copilottranscript.md), and [msdyn_copilottranscriptdata](../develop/reference/entities/msdyn_copilottranscriptdata.md) tables. You can use the information to build custom metrics in reporting and analytics and understand how Copilot is being used in your organization.
 
-To view the Copilot report, open **Copilot analytics** from **Service** in the Customer Service workspace app.
+To view the Copilot report, select **Copilot analytics** in the Customer Service workspace app.
 
 ## Copilot report
 
@@ -63,7 +63,7 @@ The Copilot report displays the following metrics.
 | Metric | Description |
 |--------|---------|
 | Total conversations with copilot AI available | The total number of conversations in which the agent engaged with the customer at least once using Copilot; doesn't include email and voice. |
-| Number of conversations using copilot AI | The number of engaged conversations that used Copilot; lists only conversations that have ended. |
+| Number of conversations using copilot AI | The number of engaged conversations that used Copilot; lists only closed conversations. |
 | Percentage of conversations using copilot AI | The percentage of engaged conversations that have used Copilot. |
 | Avg conversation handle time (min) | The average time that elapsed after a conversation started until it ended; displays data when Copilot was used and when it wasn't.|
 | Conversation throughput | The number of conversations, excluding email and voice, completed on an average per day; displays data when Copilot was used and when it wasn't.|
