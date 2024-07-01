@@ -1,7 +1,7 @@
 ---
 title: "Basic Collaboration for Microsoft Teams with Dynamics 365 app"
 description: "Collaborate with team members using the Dynamics 365 app for Microsoft Teams. Follow these steps to connect an app record or view to a team channel."
-ms.date: 08/09/2022
+ms.date: 01/07/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
