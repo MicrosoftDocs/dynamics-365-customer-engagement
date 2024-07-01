@@ -28,7 +28,7 @@ The following are key dates for the channel for Google's Business Messages depre
 - July 1, 2024: No new messages can be sent or received in Google's Business Messages after this date.
 - July 31, 2024: Google's Messages for Business will be fully deprecated and no longer accessible.
 
-## Diagnostics in unified routing is deprecated and will be removed in July 2024
+## Diagnostics in unified routing is deprecated and will be removed in August 2024
 
 The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024, and will be removed on August 01, 2024. We recommend that you use [Conversation diagnostics in Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
 
