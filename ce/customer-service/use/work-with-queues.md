@@ -1,7 +1,7 @@
 ---
 title: Work with queues
 description: Learn how to work with queues, find queue items, and pick work items from queues.
-ms.date: 06/06/2024
+ms.date: 07/01/2024
 ms.topic: how-to 
 author: gandhamm
 ms.author: mgandham

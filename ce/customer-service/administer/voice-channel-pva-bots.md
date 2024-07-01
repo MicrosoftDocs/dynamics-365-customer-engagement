@@ -12,7 +12,9 @@ ms.custom: bap-template
 
 # Configure Copilot Studio bots for voice
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -36,12 +38,12 @@ The following prerequisites must be met for the Copilot Studio bot:
 
 ## Configure a bot for voice
 
-1. In the Customer Service admin center app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**. 
+1. In the Customer Service admin center or Contact Center admin center app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**. 
 
 1. On the **Add Bot** pane, select a bot from the **Name** box. 
 
    > [!NOTE]
-   > Bots that you create in Customer Service admin center work with enhanced voice workstreams only. Classic bots aren't supported in the enhanced voice experience. To create classic bots for existing voice workstreams that aren't migrated, use Copilot Studio.
+   > Bots that you create in Customer Service admin center or Contact Center admin center work with enhanced voice workstreams only. Classic bots aren't supported in the enhanced voice experience. To create classic bots for existing voice workstreams that aren't migrated, use Copilot Studio.
 
    :::image type="content" source="../media/add-bot.png" alt-text="Select a bot.":::
 
@@ -54,9 +56,9 @@ More information:
 - [Author template topics in Copilot Studio](/power-virtual-agents/authoring-template-topics)
 
 
-### Configure handoff from Copilot Studio to Omnichannel for Customer Service
+### Configure handoff from Copilot Studio to Contact Center
 
-1. In Copilot Studio, open the bot that you've configured to integrate with Omnichannel for Customer Service.
+1. In Copilot Studio, open the bot that you've configured to integrate with Dynamics 365.
 
 1. Go to **Manage** and select **Agent transfers**.
 

@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Manage session templates
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 A session template is a combination of attributes and application tab information that can be reused.
 
 In the Customer Service workspace app, when an agent accepts an incoming conversation request from a customer, a session is started. The system opens the **Active Conversation** application that you (an administrator) defined as an **Anchor Tab** in the application tab panel. The **Anchor Tab** can't be closed. Simultaneously, the system expands the communication panel for you to exchange messages with the customer.  

@@ -17,6 +17,11 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Enable AI suggestions for similar cases and knowledge articles
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+
+> [!NOTE]
+> Case information is applicable to Customer Service only.
+
 With the use of AI, suggestions about similar cases that were previously resolved successfully help agents find the right solutions quickly, increase their productivity, and provide better and faster service to customers.
 
 The key highlights of the feature are as follows:
@@ -101,9 +106,9 @@ You can enable AI suggestions for similar cases in the Customer Service admin ce
 
 ## Enable AI suggestions for knowledge articles
 
-You can enable AI suggestions for knowledge articles in the Customer Service admin center app.
+You can enable AI suggestions for knowledge articles in the Customer Service admin center or Contact Center admin center app.
 
-1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 
 1. In the **Suggestions for agents** section, select **Manage**.
     

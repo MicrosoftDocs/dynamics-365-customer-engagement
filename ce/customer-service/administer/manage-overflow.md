@@ -11,6 +11,8 @@ ms.collection:
 
 # Handle queue overflow
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 When a new work item arrives, unified routing in Dynamics 365 Customer Service directs it to the agent who's best suited to work on it. But what happens if all the agents who could work on it are already at maximum capacity? And how do you handle work items that arrive when your call center is closed? Overflow handling in Customer Service helps you manage both surge conditions and after-hours calls.
 
 You can handle multiple overflow scenarios for a queue before the work item is queued:

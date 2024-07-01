@@ -1,6 +1,6 @@
 ---
-title: Omnichannel Agent Dashboard in Omnichannel for Customer Service
-description: Learn about the Omnichannel Agent Dashboard that shows work items for agents who use the Customer Service workspace or Omnichannel for Customer Service app.
+title: Omnichannel Agent Dashboard in Dynamics 365 Contact Center
+description: Learn about the Omnichannel Agent Dashboard that shows work items for agents who use the Customer Service workspace or Contact Center workspace.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -12,7 +12,8 @@ ms.custom: bap-template
 
 # View agent dashboard and agent conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 When you sign in to the Customer Service workspace or Omnichannel for Customer Service app, the Omnichannel Agent Dashboard is the default view. You can set any dashboard as the default view by selecting the **Set As Default** option. The dashboard displays the following streams:
 

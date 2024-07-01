@@ -10,7 +10,9 @@ ms.topic: article
 
 # Monitor calls
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 As a supervisor, it's useful to be able to monitor the calls between your agents and their customers without interrupting them to help identify which calls need attention. You can monitor the conversations without being seen as a participant by the agent or customer, as well as step into conversations when additional support is needed.
 

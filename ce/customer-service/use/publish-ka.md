@@ -11,6 +11,9 @@ ms.custom: bap-template
 
 # Publish knowledge articles
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 After the content in the article is complete and reviewed, you can publish the article to the portal to make it available to your customers. You can publish the article immediately or schedule it for a later time.
 
 > [!IMPORTANT]

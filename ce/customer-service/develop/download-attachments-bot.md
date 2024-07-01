@@ -9,7 +9,6 @@ ms.custom: bap-template
 ---
 # Download file attachments from an Azure bot
 
-[!INCLUDE [cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Follow these steps to download attachments from an Azure bot in Omnichannel.
 
