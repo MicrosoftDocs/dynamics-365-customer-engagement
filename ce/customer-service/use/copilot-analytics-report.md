@@ -63,11 +63,11 @@ The Copilot report displays the following metrics.
 
 | Metric | Description |
 |--------|---------|
-| Total conversations | The total number of conversations in which the agent engaged with the customer at least once using Copilot. Doesn't include email and voice. |
-| Number of conversations using copilot AI | The number of conversations that used Copilot. Lists only conversations that have ended. |
+| Total conversations | The total number of conversations in which the agent engaged with the customer at least once using Copilot; doesn't include email and voice. |
+| Number of conversations using copilot AI | The number of conversations that used Copilot; lists only conversations that have ended. |
 | Percentage of conversations using copilot AI | The percentage of engaged conversations that have used Copilot. |
-| Avg conversation handle time (min) | The average time that elapsed after a conversation started until it ended. Displays data when Copilot was used and when it wasn't.|
-| Conversation throughput | The number of conversations, excluding email and voice, completed on an average per day. Displays data when Copilot was used and when it wasn't.|
+| Avg conversation handle time (min) | The average time that elapsed after a conversation started until it ended; displays data when Copilot was used and when it wasn't.|
+| Conversation throughput | The number of conversations, excluding email and voice, completed on an average per day; displays data when Copilot was used and when it wasn't.|
 
 ### Satisfaction
 
