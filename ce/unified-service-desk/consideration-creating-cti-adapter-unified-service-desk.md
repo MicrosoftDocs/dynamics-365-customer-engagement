@@ -1,15 +1,14 @@
 ---
 title: "Considerations for creating a CTI adapter for Unified Service Desk | MicrosoftDocs"
 description: "The topic provides information on things to consider while creating a computer telephony integration (CTI) adapter to make it work with Unified Service Desk."
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Considerations for creating a CTI adapter for Unified Service Desk
 
