@@ -16,7 +16,7 @@ Copilot in Dynamics 365 Customer Service helps agents to complete tasks related 
 
 The system stores the copilot interaction data in the [msdyn_copilotinteraction](../develop/reference/entities/msdyn_copilotinteraction.md), [msdyn_copilotinteractiondata](../develop/reference/entities/msdyn_copilotinteractiondata.md), [msdyn_copilottranscript](../develop/reference/entities/msdyn_copilottranscript.md), and [msdyn_copilottranscriptdata](../develop/reference/entities/msdyn_copilottranscriptdata.md) tables. You can use the information to build custom metrics in reporting and analytics and understand how Copilot is being used in your organization.
 
-To view the Copilot report, open **Copilot analytics** from **Service**.
+To view the Copilot report, open **Copilot analytics** from **Service** in the Customer Service workspace app.
 
 ## Copilot report
 
@@ -46,24 +46,23 @@ The Copilot report displays the following metrics.
 | Number of cases resolved using copilot AI | The number of cases that were resolved when Copilot was used. |
 | Percentage of cases resolved using copilot AI | The percentage of cases that were resolved when Copilot was used |
 | Avg. days to close for cases | The average time that elapsed after the case was created and until it was resolved. Displays data when Copilot was used and when it wasn't. This metric is also known as case resolution time. |
-| Case throughput | The number of cases that were resolved on an average per day. Displays data when Copilot was used and when it wasn't.|
+| Case throughput | The number of cases that were resolved on an average per day; displays data when Copilot was used and when it wasn't.|
 
 ### Productivity: Emails
 
 | Metric | Description|
 |--------|---------|
-| Total cases | The number of emails that were resolved when Copilot was used. |
-| Number of emails using copilot AI| The number of emails that were sent when Copilot was used |
+| Total emails | The number of emails that were resolved when Copilot was used. |
+| Number of emails using copilot AI| The number of emails that were sent with content drafted using Copilot. |
 | Percentage of emails using copilot AI | The percentage of emails that were sent when Copilot was used |
-| Daily engaged emails | The number of emails that were sent using Copilot from the total number of emails. |
 | Avg. email response time (min) | Average email response time when Copilot is engaged. Displays data when Copilot was used and when it wasn't. |
-| Email throughput | The number of emails that were sent on an average per day. Displays data when Copilot was used and when it wasn't.|
+| Email throughput | The number of emails that were sent on an average per day; displays data when Copilot was used and when it wasn't.|
 
 ### Productivity: Conversations
 
 | Metric | Description |
 |--------|---------|
-| Total conversations | The total number of conversations in which the agent engaged with the customer at least once using Copilot; doesn't include email and voice. |
+| Total conversations with copilot AI available | The total number of conversations in which the agent engaged with the customer at least once using Copilot; doesn't include email and voice. |
 | Number of conversations using copilot AI | The number of engaged conversations that used Copilot; lists only conversations that have ended. |
 | Percentage of conversations using copilot AI | The percentage of engaged conversations that have used Copilot. |
 | Avg conversation handle time (min) | The average time that elapsed after a conversation started until it ended; displays data when Copilot was used and when it wasn't.|
