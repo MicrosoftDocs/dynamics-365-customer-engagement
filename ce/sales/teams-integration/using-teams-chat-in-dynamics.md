@@ -43,7 +43,7 @@ You can do the following Team collaboration activities from Dynamics 365:
 
 - **Connect an existing channel to a record**: Although the channel is connected to the record, the channel conversations can only be accessed from within Teams. 
 
-- **Join an existing connected chat**: View and easily join chats that are connected to a record you have written access to, even if you weren't originally a participant in the chat.
+- **Join an existing connected chat**: View and easily join chats that are connected to a record you have write access to, even if you weren't originally a participant in the chat.
 
 - **Navigate to a record from a connected chat**: Navigate to a related record directly from the connected chat.
 
@@ -79,15 +79,15 @@ You can start a new connected chat or convert an existing Teams chat into a conn
 3. Use one of the following methods to add participants:
 
     - In the **Participants** field, browse and select the names of the participants you want to chat with.
-    - A list of suggested contacts is automatically displayed for the **Participants** field. Select a participant's name from the **Suggested Contacts** list. The **Suggested contacts** list displays the contacts of the users working on the record. More information: [How to contact suggestions work](#how-contact-suggestions-work)
+    - A list of suggested contacts is automatically displayed for the **Participants** field. Select a participant's name from the **Suggested contacts** list. The **Suggested contacts** list displays the contacts of the users working on the record. More information: [How contact suggestions work](#how-contact-suggestions-work)
 
-    The chat name uses the record name or the participant's name, depending on the configuration that your administrator chose. To set the chat name as the record name, you can ask your administrator to turn on the **Use record title as the default chat name for connected chats** setting. You can modify the chat name. It's a good idea to provide a meaningful name so that you can identify the chat even when you're in Teams.
+    The chat name uses the record name or the participant's names, depending on the configuration that your administrator chose. To set the chat name as the record name, you can ask your administrator to turn on the **Use record title as the default chat name for connected chats** setting. You can modify the chat name. It's a good idea to provide a meaningful name so that you can identify the chat even when you're in Teams.
 
-4. After adding the participants, select **Start Chat**.
+4. After adding the participants, select **Start chat**.
 
 All the participants in the connected chat see the chat when they open the record in Dynamics 365.
 
-### How to contact suggestions work
+### How contact suggestions work
 
 The suggested contacts capability helps you to find the right coworkers to collaborate quickly. This collaboration can help you more quickly work on sales queries.
 
@@ -128,7 +128,7 @@ You can start a connected chat with other members who are online and viewing the
 
 You can connect a chat to a single record or multiple records. For example, if you had a chat about a lead that turned into an opportunity, you could also connect the chat to the opportunity. If you decided later that you didn't want the chat connected to the lead, you could disconnect it.
 
-- To connect an existing chat to a record, select the chat from the **Other Chats** section, and then select **More (…)** > **Connect to this _record_**.
+- To connect an existing chat to a record, select the chat from the **Other chats** section, and then select **More (…)** > **Connect to this _record_**.
 
 - To disconnect a chat from a record, select the chat, and then select **More (…)** > **Disconnect from this _record_**.
 
@@ -172,6 +172,6 @@ The selected record opens and the **Teams chats** pane is refreshed with the cha
 
 ### See also
 
-[Enable or disable Microsoft Teams chat in the Sales Hub](enable-teams-chat.md)   
+[Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)   
 [Configure the ability to use suggested contacts](enable-contact-suggest.md)  
 [Collaborate with AI-suggested contacts in Dynamics 365 Customer Service](/dynamics365/customer-service/use-ai-suggested-contacts-teams)
