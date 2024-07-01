@@ -8,7 +8,7 @@ ms.topic: overview
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
-- ai-seo-date:09/28/2023
+  - ai-seo-date:09/28/2023
 ---
 
 # Introduction to the voice channel
