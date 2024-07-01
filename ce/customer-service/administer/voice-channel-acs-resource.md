@@ -15,7 +15,7 @@ ms.custom:
 # Connect to Azure Communication Services
 
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The voice channel in Dynamics 365 is built over Azure Communication Services. This capability lets you provision phone numbers for your business by connecting to Azure Communication Services. However, to acquire phone numbers, you must first establish connection with Azure Communication Services. You can do this in the following ways:
 

@@ -10,7 +10,7 @@ ms.custom: bap-template
 
 # Understand disconnected chats
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 During live chat, a customer can no longer chat with the agent if they leave the conversation or stay disconnected for more than three minutes. When a customer is disconnected for more than three minutes, the application detects the disconnection, and automatically updates the conversation state of the chat.

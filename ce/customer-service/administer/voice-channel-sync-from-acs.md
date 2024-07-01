@@ -9,7 +9,7 @@ ms.author: nenellim
 
 # Sync from Azure Communication Services
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Dynamics 365. 
 

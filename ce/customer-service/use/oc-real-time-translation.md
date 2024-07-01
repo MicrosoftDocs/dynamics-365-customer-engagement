@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Use real-time translation of conversations for agents and customers
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 > [!IMPORTANT]

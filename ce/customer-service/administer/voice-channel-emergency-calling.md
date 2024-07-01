@@ -13,7 +13,7 @@ ms.collection:
 # Support emergency calls made by agents
 
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 This article describes how emergency calling works when agents dial an emergency number during crisis situations.

@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Configure the inbox
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!NOTE]
 > Case is applicable to Customer Service only.

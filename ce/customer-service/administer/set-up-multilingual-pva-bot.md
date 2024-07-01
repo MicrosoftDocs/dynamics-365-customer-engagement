@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Set up a multilingual bot to use in voice channel
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]

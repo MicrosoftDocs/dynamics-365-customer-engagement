@@ -13,7 +13,7 @@ ms.custom: bap-template
 # Configure Copilot Studio bots for voice
 
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]

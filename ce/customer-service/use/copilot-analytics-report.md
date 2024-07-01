@@ -20,8 +20,6 @@ The system stores the copilot interaction data in the [msdyn_copilotinteraction]
 
 To view the Copilot report, select **Copilot analytics** in the Customer Service workspace app.
 
-> [!NOTE]
-> Case summary isn't available for the Contact Center embedded experience.
 
 ## Copilot report
 

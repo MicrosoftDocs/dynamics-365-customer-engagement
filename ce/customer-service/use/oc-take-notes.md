@@ -13,7 +13,7 @@ ms.custom: bap-template
 # Take notes specific to conversation
 
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!Note]
 > Case information is applicable to Customer Service only.

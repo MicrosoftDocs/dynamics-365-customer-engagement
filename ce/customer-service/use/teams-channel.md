@@ -1,6 +1,6 @@
 ---
 title: "Use Microsoft Teams channel | MicrosoftDocs"
-description: "This article provides an overview of Microsoft Teams channel and incoming chat notifications in the agent dashboard for Omnichannel for Customer Service."
+description: "This article provides an overview of Microsoft Teams channel and incoming chat notifications in the agent dashboard."
 ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
@@ -9,7 +9,7 @@ ms.author: nenellim
 
 # Use Microsoft Teams channel
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 When you sign in you can see your work items on the agent dashboard. More information: [View agent dashboard and agent conversations](oc-agent-dashboard.md)
 

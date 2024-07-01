@@ -1,7 +1,7 @@
 ---
 title: "Agent experience for TeleSign and Twilio channels | MicrosoftDocs"
-description: "Learn about the agent experience when interacting with conversations that originate from the TeleSign and Twilio SMS channels in the Omnichannel for Customer Service app."
-ms.date: 04/06/2020
+description: "Learn about the agent experience when interacting with conversations that originate from the TeleSign and Twilio SMS channels."
+ms.date: 07/01/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -9,14 +9,14 @@ ms.author: nenellim
 
 # Use SMS channels
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 When you sign in, you can see your work items in the agent dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 
 ## Prerequisite
 
-Make sure your administrator has configured a TeleSign or Twilio channel in Omnichannel for Customer Service.
+Make sure your administrator has configured a TeleSign or Twilio channel.
 
 ### Incoming chat notifications
 

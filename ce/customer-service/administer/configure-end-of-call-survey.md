@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Enable voice call experiences
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Use the **Voice call experiences** page in Customer Service admin center or Contact Center admin center to configure the following features:
 

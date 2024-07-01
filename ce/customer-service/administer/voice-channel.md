@@ -14,7 +14,7 @@ ms.custom:
 # Introduction to the voice channel
 
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 > [!NOTE]

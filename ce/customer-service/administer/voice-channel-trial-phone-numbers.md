@@ -10,7 +10,7 @@ ms.author: mgandham
 
 # Use trial phone numbers
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The voice channel provides up to two trial phone numbers with limited free calling time for your organization. When you run the voice trial for the first time, you're automatically assigned a toll-free trial phone number. The total free calling time for the two trial phone numbers is 60 minutes.
 

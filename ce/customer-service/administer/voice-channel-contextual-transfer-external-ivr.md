@@ -10,7 +10,7 @@ ms.author: mgandham
 # Integrate a third-party IVR system with voice channel
 
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) lets you integrate a third-party interactive voice response (IVR) system with the voice channel, and perform a contextual call transfer between them.

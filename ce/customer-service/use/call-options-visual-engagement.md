@@ -10,7 +10,7 @@ ms.author: nenellim
 # Call options and visual engagement in live chat
 
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 With calling options in a live chat conversation, you can start a voice or video call while you're communicating with the customer over chat.
 
