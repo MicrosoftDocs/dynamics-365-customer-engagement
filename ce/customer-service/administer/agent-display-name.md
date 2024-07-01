@@ -16,7 +16,8 @@ To protect an agent's privacy, you can configure your chat widget to display eit
 > [!NOTE]
 > The selected agent's name is displayed in the chat widget only while the agent is chatting with a customer. For consultation or chat transfer, the full name of the agent is used.
 
-1. In the admin center, go to the workstream of the chat widget in which you need to configure the settings, select edit for the required chat widget, and on the **Chat channel Settings** page, go to the **Chat widget** tab.
+1. In the Customer Service admin center or Contact Center admin center, go to the workstream of the chat widget in which you need to configure the settings. 
+1. Select edit for the required chat widget, and on the **Chat channel Settings** page, go to the **Chat widget** tab.
 
 1. In the **Agent display name** field, select one of the following options:
 
