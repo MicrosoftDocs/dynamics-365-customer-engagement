@@ -22,15 +22,17 @@ Case handling time is the total time agents spend working on a case. Case handli
 1. Select the **Enable case handling time** check box.
 1. [Specify the **Update interval (minutes)**](#specify-the-update-interval). 
 1. The link to Power Apps is enabled. Select the **Go to Power Apps for configuration** link. The **Solutions** page appears. Perform the following steps:
-  1. Select the required solution and then select **Tables**. 
-  1. In the **Tables** page select **Case** and then select **forms**.
-  1. Select the required form and add the [**Entity handling time** component](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#add-components-to-a-form) to the form, and specify the following properties:
 
-     - **Table**: Set this value to **Time Trackers**.
-     - **View**: **All Time Trackers**.
-     - Select **Allow agents to add time logs** to allow agents to manually add time directly on the case. If this check box isn't selected, agents can't see **Time logs** in the case handling time widget. By default, this checkbox is selected.
-     - Select **Show agents only their contributed time** to ensure that a specific agent sees only their time contribution to the case. If this check box isn't selected, agents can see the total time spent on the case by all agents. By default, this checkbox isn't selected.
-  1. Save and publish the changes.
+    1. Select the required solution and then select **Tables**. 
+    1. In the **Tables** page select **Case** and then select **forms**.
+    1. Select the required form and add the [**Handling time** component](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#add-components-to-a-form) to the form, and specify the following properties:
+
+      - **Table**: Set this value to **Time Trackers**.
+      - **View**: **All Time Trackers**.
+      - Select **Allow agents to add time logs** to allow agents to manually add time directly on the case. If this check box isn't selected, agents can't see **Time logs** in the case handling time widget. By default, this checkbox is selected.
+      - Select **Show agents only their contributed time** to ensure that a specific agent sees only their time contribution to the case. If this check box isn't selected, agents can see the total time spent on the case by all agents. By default, this checkbox isn't selected.
+      
+    d. Save and publish the changes.
 
 1. You can delete time tracker records for resolved cases. Select the **Time tracker list** link to view the list of time tracker records. Select the  required records and then select the **Delete** icon to delete the time tracker records.
 
