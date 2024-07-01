@@ -26,7 +26,7 @@ When you open a case, you can see the case handling timer widget. Select the wid
 You can also perform the following actions on the case handling time widget:
 
 - View the personas of all the agents who spent time actively working on the case.
-- Select The **My time** toggle. Turn on this toggle to see the time that only you spent working on the case. The timer changes into a ticker to show your active time in hours, minutes, and seconds as applicable. A visual indicator is displayed to show that your time is tracked in real time. 
+- Select the **My time** toggle. Turn on this toggle to see the time that only you spent working on the case. The timer changes into a ticker to show your active time in hours, minutes, and seconds as applicable. A visual indicator is displayed to show that your time is tracked in real time. 
 - View the the last updated time. This is automatically refreshed based on your administrator's settings. By default, the timer is refreshed every 10 minutes. Select refresh to manually update the time. 
 - [View history](#view-history).
 
