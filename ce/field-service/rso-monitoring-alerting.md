@@ -1,7 +1,7 @@
 ---
 title: Get email alerts for failed or canceled optimization requests
 description: Use Power Automate flows to get automated email alerts if optimization jobs fail in the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
-ms.date: 06/25/2024
+ms.date: 07/01/2024
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
 author: AnilMur
@@ -32,8 +32,8 @@ Resource Scheduling Optimization runs can fail due to various reasons. As a best
    AND
       modifiedon is greater than addHours(-6)
       OR
-      OptimizationStatus is equal to 192350003
-      OptimizationStatus is equal to 192350004
+      OptimizationStatus is equal to 192350003 // Cancelled
+      OptimizationStatus is equal to 192350004 // Failed
    ```
 
 1. In the **True** branch of the condition, add an action and choose **Send an email notification (V3)**.
