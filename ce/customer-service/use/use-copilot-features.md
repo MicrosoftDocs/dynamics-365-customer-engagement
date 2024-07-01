@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Use Copilot to solve customer issues
 
-Copilot is an AI-powered tool that revolutionizes the agent experience/ It provides real-time assistance to resolve issues faster, handle cases more efficiently, and automate time-consuming tasks so you can focus on delivering high-quality service to your customers.
+Copilot is an AI-powered tool that revolutionizes the agent experience in Dynamics 365 Customer Service. It provides real-time assistance to resolve issues faster, handle cases more efficiently, and automate time-consuming tasks so you can focus on delivering high-quality service to your customers.
 
 > [!IMPORTANT]
 > The AI-generated content is a suggestion. It's your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sharing the responses.
@@ -44,6 +44,12 @@ With Copilot, you can take the following actions:
 - **Ask follow-up turn by turn questions**: If Copilot's response isn't immediately useful, you can ask follow-up questions and guide Copilot in a natural, conversational way.
 - **Ask Copilot to attempt a better response**: Copilot can also rephrase responses based on more guidance such as, "Can you summarize your response?" or "Can you attempt a response providing details for each of the steps you mentioned?"
 
+### Use auto-prompts
+
+When you have an active case or conversation open, Copilot suggests prompts based on the context of the case or the conversation. Copilot generates prompts only for the first question and not for follow-up questions. Copilot generates the prompts as follows:
+
+- For a case, Copilot considers the title, description, notes, and emails linked to the case.
+- For a conversation, Copilot considers the intent in the first three messages to generate a prompt, and then every third message to refresh the prompts. You can select a prompt to generate a response.
 
 ### View responses
 
@@ -74,6 +80,10 @@ If you're satisfied with the response Copilot provides, you can use the whole th
 - Copy part of Copilot's reply into your chat or read from it during a voice conversation. Select the copy icon to copy the entire response to the clipboard.  
 - When you're in an active digital messaging conversation, select **Send to customer** to open an editing window where you can revise the response and send it to the customer. You can also change customer keywords to prompt Copilot to generate a more accurate response.
 - Select **Check sources** to see the knowledge base or website links from which Copilot drew the response. You can use this supplemental information as a resource or share it with the customer.
+
+### Clear chat to start over
+
+After a customer conversation has ended, or if you want Copilot to disregard the conversation so far, select **Clear chat** at the bottom of the Copilot pane.
 
 ### Provide feedback
 

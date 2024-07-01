@@ -1,6 +1,6 @@
 ---
 title: Call a customer in the voice channel
-description: Use this article to understand how you can make customer calls in Omnichannel for Customer Service.
+description: Use this article to understand how you can make customer calls.
 ms.date: 07/01/2024
 ms.custom: bap-template
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.author: mgandham
 
 # Call a customer
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. More information: [Outbound calling](../administer/voice-channel-outbound-calling.md)
 

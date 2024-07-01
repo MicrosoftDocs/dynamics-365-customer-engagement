@@ -11,9 +11,23 @@ ms.custom: bap-template
 
 # Write an email with Copilot
 
-When you draft customer emails, Copilot can offer suggestions to make them clearer, concise, and compelling. 
+When you draft customer emails, Copilot can offer suggestions to make them clearer, concise, and compelling. Based on your administrator settings, you can launch the **Write an email** feature in Copilot as follows:
+
+- When you respond to an email in the rich text editor, select the Copilot control to view the capabilities inline.
+- When you open an email, and select the **Copilot** option from the side pane. The **Write an email** tab appears.
 
 *Always review the response* Copilot generates before you send the email to the customer.
+
+  ### [Draft an email in the rich text editor](#tab/richtexteditor)
+
+   :::image type="content" source="../media/draft-an-email-inline.svg" alt-text="Screenshot of draft an email in rich text editor.":::
+
+
+  ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
+
+   :::image type="content" source="../media/copilot-email-sidepane-mini.png" alt-text="Screenshot of draft an email in the side pane." lightbox="../media/copilot-email-sidepane.png":::
+
+  ---
 
 ## Use Copilot to draft an email
 
@@ -73,6 +87,19 @@ To use the draft that Copilot generates, do the following actions:
 ### Start over
 
 To return to the prompts, select **Start over** at the bottom of the Copilot pane.
+
+
+### [Draft an email in the rich text editor](#tab/richtexteditor)
+
+   :::image type="content" source="../media/copilot-draft-inline.svg" alt-text="Screenshot of composing an email in rich text editor."::: 
+
+
+### [Draft an email in the Copilot help pane](#tab/copilothelppane)
+
+   :::image type="content" source="../media/copilot-draft-sidepane.svg" alt-text="Screenshot of composing an email in the side pane." ::: 
+
+  
+  ---
 
 ## Next Step
 

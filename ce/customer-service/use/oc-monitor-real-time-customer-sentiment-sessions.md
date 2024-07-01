@@ -9,7 +9,7 @@ ms.author: laalexan
 
 # Monitor real-time customer sentiment
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 As an agent, when you interact with your customers, you want to know the sentiments they're experiencing in real time. Analysis of the customer's satisfaction level helps you understand how serious the problem is and develop a course of action to solve it. In the application you can see the customer's satisfaction levels instantly while you communicate with the customer.
 

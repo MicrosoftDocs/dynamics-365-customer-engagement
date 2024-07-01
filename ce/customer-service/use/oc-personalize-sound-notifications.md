@@ -9,7 +9,7 @@ ms.author: nenellim
 
 # Personalize sound notification settings
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can personalize sound notification settings for incoming conversation requests using the personalization menu available on the application tab panel. The sound notifications are available across all channels and can also be set for messages for ongoing conversations.
 

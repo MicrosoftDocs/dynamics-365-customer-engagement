@@ -9,7 +9,7 @@ ms.topic: article
 
 # Sample configuration to integrate an Azure bot
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 This article provides the exact steps and configuration values to integrate an Azure bot with Omnichannel for Customer Service, and then escalate the query to a human agent. 

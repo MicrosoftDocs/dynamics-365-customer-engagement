@@ -49,13 +49,9 @@ You can set a default knowledge article authoring language for your organization
       1. In the **General settings** section, select **Manage**. The **General settings** page appears.
       1. On the **General settings** page, go to the **Authoring language** section.
 
-2.	Set the default knowledge article authoring language for the users.
+2.	Set the **Enable default authoring language** toggle to **Yes**, to set the default knowledge article authoring language for the user. 
 
-  * Set the **Enable default authoring language** toggle to **Yes**.
-
-3.	If you want to set a default knowledge authoring language for your organization: 
-
-  * Select **Other language** and select a language from the **Language** dropdown.
+3.	If you want to set a default knowledge authoring language for your organization, select **Other language** and select a language from the **Language** dropdown.
 
 5.	Set the **Allow users to set default knowledge authoring language** toggle to **Yes** if you want to allow your users to set their default authoring language.
 

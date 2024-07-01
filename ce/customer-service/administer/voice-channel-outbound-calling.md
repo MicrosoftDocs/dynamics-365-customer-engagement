@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Set up outbound calling
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 This article describes how you, as an administrator, can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers in the Customer Service workspace or Contact Center workspace app.

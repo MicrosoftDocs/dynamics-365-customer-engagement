@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Understand conversation states
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 This article explains the various states and status reasons of the conversation (work item) in Omnichannel for Customer Service.

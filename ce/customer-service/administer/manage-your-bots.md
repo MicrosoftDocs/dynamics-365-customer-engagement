@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Manage your bots in Omnichannel for Customer Service
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]

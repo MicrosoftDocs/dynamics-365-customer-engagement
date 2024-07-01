@@ -131,7 +131,7 @@ Select the Dynamics 365 app icon in the meeting toolbar at the upper-right area 
 
 > [!NOTE] 
 > - The record side panel supports only Contact, Opportunity, Lead, Account, and Case tables. 
-> - Case records are supported only for the Customer Service Hub and Customer Service workspace app.
+> - Case records are supported in the Customer Service Hub and Customer Service workspace app only.
  
 :::image type="content" source="../media/teams-meeting-side-panel.png" alt-text="Record side panel in a Teams meeting.":::
 

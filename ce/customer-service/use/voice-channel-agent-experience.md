@@ -1,6 +1,6 @@
 ---
 title: Use agent dashboard and call controls in the voice channel
-description: Learn how you can use the agent dashboard, call controls, and make and receive customer calls in Omnichannel for Customer Service.
+description: Learn how you can use the agent dashboard, call controls, and make and receive customer calls.
 ms.date: 06/14/2024
 ms.service: dynamics-365-customerservice
 ms.topic: how-to
@@ -13,7 +13,7 @@ ms.custom: bap-template
 # Use agent dashboard and call controls in the voice channel
 
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The voice channel is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers you a consolidated view of the calling interface, the customer summary, case history, and timeline. The dashboard helps you provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
 

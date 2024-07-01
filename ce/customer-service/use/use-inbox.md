@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Use the inbox
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!NOTE]
 > Case is applicable to Customer Service only.
@@ -31,7 +31,7 @@ Depending on how your inbox is configured, you might see any of the following ch
 
 ## View the inbox
 
-1. In Customer Service workspace, select **Inbox** on the site map.
+1. In Customer Service workspace or Contact Center workspace, select **Inbox** on the site map.
 
 1. Select **Cases** or **Conversations** to view a respective list of assigned items.
    
@@ -65,7 +65,5 @@ To filter your inbox view:
 ### See also
 
 [Configure the inbox](../administer/configure-inbox.md)  
-[Get started with Customer Service workspace](../implement/csw-overview.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
