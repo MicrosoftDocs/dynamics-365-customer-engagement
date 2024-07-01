@@ -40,7 +40,7 @@ The Customer Service instance and the Azure Communication Services resource that
 
 To verify, do the following steps:
 
-1. In Customer Service admin center or Contact Center admin center, go to the workstream and voice channel you'll use.
+1. In Customer Service admin center, go to the workstream and voice channel you'll use.
 1. Verify that the Customer Service instance and Azure Communication Services resource with phone numbers are in the same tenant.
 
 If your Customer Service instance isn't in the same tenant, you can't register the new service components that share the audio stream between the Digital Contact Center Platform and Nuance Gatekeeper. Instead, you'll see an error message when you try to  create the authentication setting.
@@ -62,7 +62,7 @@ Create a new application registration in your Microsoft Entra ID and share the O
 
 ## Add the authentication setting for Gatekeeper
 
-1. In the Customer Service admin center or Contact Center admin center site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.  
+1. In the Customer Service admin center site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.  
 1. In **Authentication settings**, select **Manage**. The **Authentication settings** page appears.
 1. Select **New Authentication Settings**, and provide the following information on the **Add authentication setting** page:
     - **Name**: Enter a name for the authentication setting.
@@ -90,7 +90,7 @@ After you select save and close, the components will be provisioned and your set
 
 ## Configure a workstream and authentication option
 
-In Customer Service admin center or Contact Center admin center, do the following steps:
+In Customer Service admin center, do the following steps:
 
 1. Select an existing voice workstream or perform the steps in [Create and manage workstreams](create-workstreams.md) to create a voice workstream.
 1. Edit the phone number setting of the voice workstream, and select the **Behaviors** tab.
