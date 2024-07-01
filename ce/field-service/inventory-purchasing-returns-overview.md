@@ -1,7 +1,7 @@
 ---
 title: Overview of inventory, purchasing, and returns
 description: Learn about inventory, purchasing, and returns in Dynamics 365 Field Service
-ms.date: 06/26/2024
+ms.date: 07/01/2024
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
@@ -78,8 +78,10 @@ Purchase orders (POs) are used to order products to a warehouse or directly to a
 The purchase order process includes:
 
 1. Request products from a vendor by creating a **Purchase Order** and adding **Purchase Order Products**.
-2. Gain approval.
-3. Document receipt of products. Create a PO receipt and PO receipt product to add the received products to warehouse inventory or as work order products.
+
+1. Gain approval.
+
+1. Document receipt of products. Create a PO receipt and PO receipt product to add the received products to warehouse inventory or as work order products.
 
 ## Returns
 
@@ -110,7 +112,7 @@ The system automatically adjusts inventory and customer assets.
 
 All inventory transactions are recorded in the **Inventory Journals**. For example, when one product is allocated to a work order, an inventory journal is created that increases quantity allocated by one. When that same product is then used to complete the work order, another inventory journal is created that decreases quantity on hand. Journals are recorded for all increases and decrease of product inventory. Basically, inventory journals serve as an inventory ledger within Field Service.
 
-Most importantly, inventory journals are sometimes used to integrate Field Service inventory transactions into external ERP systems, depending on how the integration is architected. To make integrations easier and more flexible, [inventory journals can be manually created](manual-inventory-journals.md). 
+Most importantly, inventory journals are sometimes used to integrate Field Service inventory transactions into external ERP systems, depending on how the integration is architected. To make integrations easier and more flexible, [inventory journals can be manually created](manual-inventory-journals.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
