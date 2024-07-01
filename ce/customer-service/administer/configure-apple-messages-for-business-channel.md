@@ -1,6 +1,6 @@
 ---
 title: Configure an Apple Messages for Business channel
-description: This article provides steps to configure an Apple Messages for Business channel and corresponding Apple pages in Omnichannel for Customer Service.
+description: This article provides steps to configure an Apple Messages for Business channel and Apple pages in the admin center.
 ms.date: 07/01/2024
 ms.topic: article
 author: lalexms
