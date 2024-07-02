@@ -1,7 +1,7 @@
 ---
-title: Use Copilot in Dynamics 365 Sales
-description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, and enrich your leads with data from different sources.
-ms.date: 06/13/2024
+title: Ask questions of Copilot in Dynamics 365 Sales
+description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, answer questions, and so on. 
+ms.date: 07/02/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -19,7 +19,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Use Copilot in Dynamics 365 Sales
+# Ask questions of Copilot in Dynamics 365 Sales 
 
 Copilot is an AI assistant that helps you be more productive and efficient in your daily work in Dynamics 365 Sales apps. Copilot can summarize information about your leads and opportunities, help you catch up on recent changes to your records, prepare for meetings, and enrich your leads with information from other sources.
 
@@ -44,7 +44,7 @@ Open the Copilot side pane when you want to get quick insights about a record or
 
 1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app. You can open the **Copilot** side pane from any page in your app except for the **Copilot** page.
 
-1. Select a prompt from the suggestion list or select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot).
+1. Select a prompt from the suggestion list or select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](copilot-prompt-guide.md).
 
 <a name=open-copilot-immersive></a>
 
@@ -107,5 +107,5 @@ For a list of predefined prompts, see [Copilot prompt guide reference](copilot-p
 ### See also
 
 - [Get information from Copilot](copilot-get-information.md)
-- [Ask questions to Copilot](copilot-ask-questions.md)
+- [Ask Copilot about recent changes to your sales records](copilot-ask-questions.md)
 - [Stay ahead with Copilot](copilot-stay-ahead.md)
