@@ -10,12 +10,15 @@ ms.collection: bap-ai-copilot
 
 # Configure AI suggestions for contacts in Microsoft Teams
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 Agents can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable the Microsoft Teams collaboration feature to help them find the right contacts.
 
 This feature uses the AI capability to automatically suggest contacts in real-time, based on the currently open active case or support conversation when agents explore contacts in the embedded chat experience.
 
 > [!NOTE]
-> Through Teams, agents can connect and engage with customers also if Omnichannel for Customer Service is enabled.
+> - Case is applicable to Customer Service only.
+> -  Through Teams, agents can connect and engage with customers also if Omnichannel for Customer Service is enabled.
 
 ## How AI-suggested contacts works
 
@@ -58,7 +61,7 @@ The AI suggestions feature is supported in the following languages:
 
 **To enable collaboration with Microsoft Teams and chat**
 
-1. In the site map of Customer Service admin center, go to **Agent experience** > **Collaboration**.
+1. In the site map of Customer Service admin center or Contact Center admin center, go to **Agent experience** > **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
    

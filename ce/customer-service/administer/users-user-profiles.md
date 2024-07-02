@@ -1,7 +1,7 @@
 ---
 title: Create and manage users and user profiles
 description: This article provides steps that you can perform to manage users in Omnichannel for Customer Service.
-ms.date: 06/14/2024
+ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Use the enhanced experience to manage users
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Use the information in this article to manage your agent users for Customer Service. The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your agent users to provide customer service optimally.
 

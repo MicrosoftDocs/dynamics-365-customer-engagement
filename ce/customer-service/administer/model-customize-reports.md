@@ -15,6 +15,9 @@ search.audienceType:
 
 # Customize data models of historical and real-time analytics reports
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
 Use the extensibility feature in Microsoft Power BI to extend the out-of-the-box data models for the analytics reports in Customer Service and integrate with other semantic models to create new custom metrics. You can customize the out-of-the-box standard reports and add your own Key Performance Indicators (KPIs) to view the key metrics that are relevant to your organization. You can also add custom metrics to the detail reports.

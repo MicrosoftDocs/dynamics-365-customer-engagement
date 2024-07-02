@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Configure knowledge article schema mapping
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 As part of [adding an integrated search provider](add-search-provider.md#add-integrated-search-providers) in Customer Service, you need to tell the service how to ingest the knowledge articles it receives from the provider. You do that by selecting and configuring a knowledge article schema. You can't change the schema after you save the configuration.
 
 If you applied a language filter in the **Authentication and Testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).
@@ -28,7 +30,7 @@ Select and upload the file for metadata selection, and then select the meta tags
 
 1. Save the article locally as a **Web Page, HTML Only** file. Make sure the file name is fewer than 99 characters.
 
-1. In the Customer Service admin center site map, **Knowledge article schema** > **Field Mapping** section, upload the file by selecting **Choose file**.
+1. In the Customer Service admin center or Contact Center admin center site map, **Knowledge article schema** > **Field Mapping** section, upload the file by selecting **Choose file**.
 
     All the meta tags found in your HTML file are listed in the **Meta tags settings** section.
 
@@ -46,7 +48,7 @@ Use an operation type to map the source property to the target.
 - **Operation types**: The mapping patterns that map the source article to the article attributes of the knowledge article entity. [Learn more about operation type mapping options.](#operation-type-mapping-options)
 - **Source property**: The value that you define for each operation type. For example, if you select the **Direct** operation type, you must select among the previously selected meta tags or the `HTML-Title` tag.
 
-1. In the Customer Service admin center site map, **Mapping** section, the mandatory knowledge article attributes are **Content**, **External Reference Id**, and **Title**. For each, select an [**Operation Type**](#operation-type-mapping-options) and a **Source Property**.
+1. In the Customer Service admin center or Contact Center admin center site map, **Mapping** section, the mandatory knowledge article attributes are **Content**, **External Reference Id**, and **Title**. For each, select an [**Operation Type**](#operation-type-mapping-options) and a **Source Property**.
 
     Make sure the **External Reference Id** value is unique.
 
@@ -170,7 +172,7 @@ where,
 
 [Learn more about schema details to build a metadata mapping template](../develop/int-search-metadata-schema.md).
 
-1. In the Customer Service admin center site map, **Knowledge article schema** > **JSON Schema** section, copy and paste your article properties and schema JSON in the field provided to you.
+1. In the Customer Service admin center or Contact Center admin center site map, **Knowledge article schema** > **JSON Schema** section, copy and paste your article properties and schema JSON in the field provided to you.
 1. Select **Validate JSON**.
 
     If validation succeeds, you see a confirmation message. If validation fails, you see an error message that identifies the parameter that has an incorrect value.

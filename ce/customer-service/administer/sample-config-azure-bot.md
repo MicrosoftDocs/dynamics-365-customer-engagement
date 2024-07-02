@@ -9,6 +9,9 @@ ms.topic: article
 
 # Sample configuration to integrate an Azure bot
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+
 This article provides the exact steps and configuration values to integrate an Azure bot with Omnichannel for Customer Service, and then escalate the query to a human agent. 
 
 In this sample configuration, three queues and three routing rules are created. The bot user is added to one queue, and the agents are added to the two other queues. Routing rules are defined in such a way that whenever a customer starts a chat, it will be first sent to the bot, and then escalated to a human agent as per the conditions defined in the routing rules. The workstream used in this sample is **ChatWorkStream**.

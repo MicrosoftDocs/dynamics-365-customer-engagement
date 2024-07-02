@@ -17,6 +17,8 @@ searchScope:
 ---
 # Configure work classification rulesets for unified routing
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 In unified routing, work classification lets you define rules to add detailed information to incoming work items that can be used to route and assign the work items optimally.
 
 Typically, rules are written in the format of "if defined condition satisfies, then set the output attributes to certain values," but can also be surfaced through machine learning models. They're optional and can be used to add additional information to the incoming work items that are then used for more precise routing and assignment.

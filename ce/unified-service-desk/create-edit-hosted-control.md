@@ -1,15 +1,14 @@
 ---
 title: "Create or edit a hosted control | MicrosoftDocs"
 description: "Understand how to create and edit existing hosted controls using Unified Service Desk Administrator."
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Create or edit a hosted control
 You create or edit an existing hosted control using the Unified Service Desk Administrator app. The controls in the new hosted control page differ based on the type of hosted control you create.  

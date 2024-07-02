@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Use FetchXML query to filter records
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 This article discusses how to download the FetchXL query and edit it in the Configuration Management tool.
 
 ## Generate FetchXML query

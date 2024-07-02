@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Manage application tab templates
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 An application tab template in Customer Service lets you specify the type of applications that can be opened when agents start a session in Customer Service workspace.
 
 The vertical bar on the left panel shows the list of sessions. The panel always shows the **Home** session that you can't close or customize.
