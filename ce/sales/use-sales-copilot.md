@@ -52,7 +52,7 @@ Open the Copilot side pane when you want to get quick insights about a record or
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Open the Copilot page in a full-screen view when you want more space and focus to chat with Copilot and ask questions. 
 
