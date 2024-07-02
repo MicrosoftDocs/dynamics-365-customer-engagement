@@ -19,14 +19,24 @@ search.audienceType:
 
    You can use the Dynamics 365 app or use a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can install the app for your personal use and install it for your Microsoft Teams later.
 
-4. For **Add to a Team**, choose a Team and then select **Install**.
+4. Search for Dynamics 365 in apps, open it, click the add button, select "Add to a chat," and set it up.
 
-5. Pick a channel in Microsoft Teams to connect to an app record and then select **Set up**.
+   > [!div class="mx-imgBorder"] 
+   > ![Add to chat.](media/Add-to-a-chat.png "Add to chat")
+
+5. Search for Dynamics 365 in apps, open it, click the add button, select "Add to a meeting," and set it up.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Add to meeting.](media/Add-to-a-meeting.png "Add to meeting")
+ 
+6. For **Add to a Team**, choose a Team and then select **Install**.
+
+7. Pick a channel in Microsoft Teams to connect to an app record and then select **Set up**.
 
    > [!div class="mx-imgBorder"] 
    > ![Add to team.](media/teams-store-install-add-team75.png "Add to team")
 
-6. Select the appropriate environment and the application you want to connect, then select **Save Changes**.
+8. Select the appropriate environment and the application you want to connect, then select **Save Changes**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select environment and app module.](media/teams-fre-org-app.png "Select environment and app module")
@@ -36,7 +46,7 @@ search.audienceType:
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected environment are listed. 
 
-7. Select **Entity Selection** or **View Selection**.
+9. Select **Entity Selection** or **View Selection**.
 
     1. **Entity Selection**: Select an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter ** to narrow the search to an entity type. Once you've picked a record, select **Save**.
 
@@ -45,7 +55,7 @@ search.audienceType:
       > [!NOTE]
    > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users before you add the view to the Microsoft Teams channel. Otherwise, other team members will not have access to the view tab content.
 
-8. After completing the above steps, you'll see a new Dynamics 365 tab in the selected team channel. 
+10. After completing the above steps, you'll see a new Dynamics 365 tab in the selected team channel. 
  
 See [Collaborate with Microsoft Teams](teams-collaboration.md#have-a-conversation) for information on how you can use the tab feature to collaborate with Dynamics 365 apps.
 
