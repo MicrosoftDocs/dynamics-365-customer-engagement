@@ -100,7 +100,7 @@ You see the following transfer and consult options:
      - The caller ID on the call to the external number is the Dynamics phone number.
      - The customer hears a transfer message followed by hold music. The original call continues.
      - The recording and transcription will continue when the call is transferred.
-     - Customers cannot send Dual Tone Multi Frequency (DTMF) inputs to external numbers. 
+     - Customers can't send Dual Tone Multi Frequency (DTMF) inputs to external numbers. 
      - Post conversation survey, if configured, will be triggered once the external agent or Teams user hangs up.<br>
   3. If the **Use bridged transfers** checkbox is not selected, the following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
      - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
