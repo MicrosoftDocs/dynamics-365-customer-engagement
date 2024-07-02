@@ -142,11 +142,13 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
 ## Configure user input recognition
 
-The Voice channel supports Dual-tone Multi-frequency(DTMF) recognition to allow customers to provide input to IVR and human agents using the phone keypad. This is supported through Azure Communication Services. See: [Gathering user input with Recognize action](/azure/communication-services/how-tos/call-automation/recognize-action?pivots=programming-language-csharp) to configure DTMF recognition.
+The Voice channel supports Dual-tone Multi-frequency(DTMF) recognition to allow agents to provide input to IVR and human agents using the phone keypad. This is supported through Azure Communication Services. See: [Gathering user input with Recognize action](/azure/communication-services/how-tos/call-automation/recognize-action?pivots=programming-language-csharp) to configure DTMF recognition.
 
 The supported configurations for the voice channel are as follows:
 
 - Agents can send DTMF input to a phone number in the E.164 format only.
+- Agents must use the dialpad icon to send DTMF input.
+   :::image type="content" source="../media/transfer-dtmf.png" alt-text="External dialpad icon":::
 - Agents can send the following DTMF tones:
 
    ```
