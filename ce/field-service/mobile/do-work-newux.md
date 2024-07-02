@@ -15,14 +15,37 @@ ms.author: jshum
 
 ## Get started with the refreshed mobile experience
 
+The new user experience in the Dynamics 365 Field Service mobile app helps service technicians swiftly access information they need. It offers mobile-friendly navigation, gestures, and controls to help technicians save valuable time by quickly updating the status of a booking and get driving directions work location.
 
+## Agenda view for the new mobile user experience
 
-download, sign in, choose org, navigate bookings in agenda view
+The agenda view in the new mobile experience is optimized for frontline workers. It supports quick access to key actions such as updating the booking status, getting directions, or access to Copilot.
+
+Admins can [configure the agenda view to show fields relevant to the organization's business needs](mobile-powerapp-customize-booking-calendar.md#new-mobile-uxtabvnext). However, you can't change the view for the bookings in the new user experience.
+
+## Navigate the app
+
+To open the navigation menu, select **More** at the bottom of the screen.
+
+:::image type="content" source="../media/mobile-newux-navigation.png" alt-text="Renderings of two mobile devices showing the navigation menu in the Field Service mobile app.":::
+
+Views are optimized for the mobile app and provide frontline workers with the information they require to find the records they need. More information: [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views).
+
+Sitemap elements that don't link to a view, such as dashboards or custom pages, render in classic Unified Client Interface.
+
+## Manage user settings
+
+In the new mobile user experience, app users can tap the user icon to access the app settings.
+
+- **About**: Details about the current session and app version for debugging in case of error.
+- **Send feedback**: Provide feedback to Microsoft about the app or suggest improvements.
+- **Settings**: Lets users change the time zone for the app, change the behavior of the app when they get directions to a customer site, change the app module. The new mobile user experience always uses the device configuration for date and time zone settings. If the configuration of the device and the users's settings in Dynamics 35 don't match, it asks the users to update their Dynamics 365 profile to align with the device settings.
+
+> [!WARNING]
+> Jon: Do we want to keep the details below?
 
 ## travel to job new UX
 
-> [!WARNING]
-> Michael and Jon to create content. May get consolidated in one "Work with new UX" article.
 
 Swipe a booking from left to right or select the booking's menu to access its quick actions and set the status to **Traveling**. You can also open the booking and select **Edit status** on the **General** tab.
 
@@ -73,11 +96,6 @@ Swipe left or right on any work order in the list to use a quick action to chang
 
 :::image type="content" source="../media/mobile-newux-bookings-quickaction-swipe.png" alt-text="Renderings of five mobile devices showing the use of work order quick actions in the Field Service mobile app.":::
 
-## Navigate the app
-
-To open the navigation menu, select **More** at the bottom of the screen.
-
-:::image type="content" source="../media/mobile-newux-navigation.png" alt-text="Renderings of two mobile devices showing the navigation menu in the Field Service mobile app.":::
 
 
 ## Use embedded Guides in the mobile app
