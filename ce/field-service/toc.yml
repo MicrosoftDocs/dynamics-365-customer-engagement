@@ -345,11 +345,7 @@ items:
         - name: Create service reports
           href: mobile/mobile-powerapp-reporting.md
       - name: Use the new UX
-        items: 
-        - name: Do and record your work
-          href: mobile/do-work-newux.md
-        - name: User settings
-          href: mobile/user-settings-newux.md
+        href: mobile/do-work-newux.md
 
     - name: Customize the mobile app
       items:
