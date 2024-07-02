@@ -13,7 +13,7 @@ ms.author: nenellim
 
 The horizontal bar below the navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called an **anchor** tab. In the following image, **Omnichannel Agent Dashboard** is the anchor tab.
 
-Based on your administrator's settings, you can you can customize the anchor tab title to be the same as the session tab title. See: [Apply session title to anchor tab](../administer/session-templates.md#create-a-session-template)
+Based on your administrator's settings, you can customize the anchor tab title to be the same as the session tab title. More information: [Apply session title to anchor tab](../administer/session-templates.md#create-a-session-template)
 
 
 The application tab has a **+** icon. If you select the icon, a menu  appears that lists the out-of-the-box and custom entities. Also, you can access any third-party line-of-business applications that are extended within the Omnichannel for Customer Service app. Select the option from the list to open it in the application tab.

@@ -100,7 +100,7 @@ You see the following transfer and consult options:
      - The caller ID on the call to the external number is the Dynamics phone number.
      - The customer hears a transfer message followed by hold music. The original call continues.
      - The recording and transcription will continue when the call is transferred.
-     - Customers cannot send DTMF inputs to external numbers. 
+     - Customers cannot send Dual Tone Multi Frequency (DTMF) inputs to external numbers. 
      - Post conversation survey, if configured, will be triggered once the external agent or Teams user hangs up.<br>
   3. If the **Use bridged transfers** checkbox is not selected, the following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
      - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
@@ -149,13 +149,13 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
 ## Configure user input recognition
 
-The Voice channel supports Dual-tone Multi-frequency(DTMF) recognition to allow agents to provide input to IVR and human agents using the phone keypad. This is supported through Azure Communication Services. See: [Gathering user input with Recognize action](/azure/communication-services/how-tos/call-automation/recognize-action?pivots=programming-language-csharp) to configure DTMF recognition.
+The Voice channel supports DTMF recognition to allow agents to provide input to IVR and human agents using the phone keypad. This is supported through Azure Communication Services. More information: [Gathering user input with Recognize action](/azure/communication-services/how-tos/call-automation/recognize-action?pivots=programming-language-csharp) to configure DTMF recognition.
 
 The supported configurations for the voice channel are as follows:
 
 - Agents can send DTMF input to a phone number in the E.164 format only.
 - Agents must use the dialpad icon to send DTMF input.
-   :::image type="content" source="../media/transfer-dtmf.png" alt-text="External dialpad icon":::
+   :::image type="content" source="../media/transfer-dtmf.png" alt-text="Screenshot of external dialpad icon":::
 - Agents can send the following DTMF tones:
 
    ```

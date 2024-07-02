@@ -81,10 +81,10 @@ This page type is used to display the dashboard as an application. The following
 | `dashboardId` | GUID of the dashboard | Yes  | String    | `d201a642-6283-4f1d-81b7-da4b1685e698` |
 
 > [!NOTE]
-> - The default dashboard is displayed if the dashboardId parameter is as follows: <br>
+> - The default dashboard appears if the dashboardId parameter is: <br>
     >   - blank   
     >   - incorrect  
-    >   - is a dashboard that isn't included in the app module definition    
+    >   - a dashboard that isn't included in the app module definition    
 > - Personal default dashboards aren't supported.
 
 

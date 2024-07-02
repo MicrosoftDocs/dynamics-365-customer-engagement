@@ -62,7 +62,7 @@ When multiple browsers are open, you see incoming conversation request on all th
 For example, for incoming calls, the conversation gets accepted only on one browser and the notification gets dismissed on other browsers.
 
 > [!NOTE]
-> Ensure that agents close the persistent chat sessions in both windows when they have the same chat open in multiple windows. Otherwise, one window will allow the agent to continue sending messages even after they've selected **End** to end the chat in the other chat window.
+> Ensure that you close the persistent chat sessions in all the windows when you have the same chat open in multiple windows. Otherwise, one window will allow you to send messages even after you've selected **End** to end the chat in the other chat window.
 
 ### See also
 
