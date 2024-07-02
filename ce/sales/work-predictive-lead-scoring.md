@@ -1,7 +1,7 @@
 ---
 title: Prioritize leads through predictive scores
 description: Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
-ms.date: 05/10/2023
+ms.date: 07/02/2024
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
