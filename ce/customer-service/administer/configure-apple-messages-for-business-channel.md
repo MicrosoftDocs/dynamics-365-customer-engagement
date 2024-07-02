@@ -1,7 +1,7 @@
 ---
-title: "Configure an Apple Messages for Business channel | MicrosoftDocs"
-description: "This article provides steps to configure an Apple Messages for Business channel and corresponding Apple pages in Omnichannel for Customer Service."
-ms.date: 10/23/2023
+title: Configure an Apple Messages for Business channel
+description: This article provides steps to configure an Apple Messages for Business channel and Apple pages in the admin center.
+ms.date: 07/01/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -10,8 +10,7 @@ ms.reviewer: shujoshi
 
 # Configure an Apple Messages for Business channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a new way to apply iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of resolving their issues when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window is closed.
 
@@ -44,20 +43,10 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
 
 ## Configure an Apple Messages for Business channel instance
 
-You can configure an Apple Messages for Business channel instance from the Customer Service admin center or Omnichannel admin center (deprecated) app.
 
-1. Select one of the following apps, and perform the steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the site map of Customer Service admin center, select **Channels** in **Customer Support**.
 
-     1. In the site map, select **Channels** in **Customer Support**.
-     1. Go to **Accounts** > **Messaging accounts** > **Manage**, and then on the **Accounts and channels** page, select **Add account**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-   
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-      - In the site map, select **Channels** under **General settings**, and then on the **Accounts and channels** page, select **Add account**.
+1. Go to **Accounts** > **Messaging accounts** > **Manage**, and then on the **Accounts and channels** page, select **Add account**.
 
 1. On the **Add account** page, **Channel details** section, enter a name and select **Apple Messages for Business** in **Channels**.
 

@@ -9,14 +9,11 @@ ms.reviewer: nenellim
 ms.custom: 
   - dyn365-customerservice
   - bap-template
-search.audienceType: 
-  - admin
-  - customizer
 ---
 
 # Manage skills
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Dynamics 365 comes with an out-of-the-box skill control for messaging channels. When your administrator adds the skill control to the case or conversation forms and enables it for you, you can view and update skills at runtime.
 

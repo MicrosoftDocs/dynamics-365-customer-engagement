@@ -1,15 +1,13 @@
 ---
 title: "Use security roles to manage access | MicrosoftDocs"
 description: "Learn to control how agents use Unified Service Desk by using custom security roles."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 tags: MigrationHO
 ---
 # Use security roles to manage access to Unified Service Desk

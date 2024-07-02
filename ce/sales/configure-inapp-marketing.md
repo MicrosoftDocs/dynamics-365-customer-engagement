@@ -1,12 +1,14 @@
 ---
 title: Configure in-app marketing settings
-description: Configure in-app marketing settings to define various aspects of campaigning.
-ms.date: 01/25/2023
+description: Learn how to configure in-app marketing settings to define various aspects of campaigning, including creating campaign responses automatically.
+ms.date: 06/20/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
+  - evergreen
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro

@@ -14,6 +14,8 @@ ms.custom:
 
 # Manage notification settings and templates
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 When a notification is sent to an agent, it displays certain information, such as the customer from who the conversation request is coming, the timeout period after which the notification will disappear, and accept and reject buttons. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
 
 As an administrator, system integrator, or partner, you can use the out-of-the-box templates for notifications or create your own. A notification template is a combination of notification-related, reusable information. The template is used to configure what information needs to be displayed to the agents and supervisors for an incoming conversation, escalation, transfer, or consult.
@@ -119,7 +121,6 @@ The out-of-the-box templates are as follows.
 | Customized ||||| Customized notification template |
 | Sentiment ||||| Sentiment threshold alert - supervisor |
 |Voice|Voice call - consult - default|Voice call - incoming authenticated - default|Voice call - incoming unauthenticated - default|Voice call - transfer - default|Voice call - supervisor assign - default|
-|||||||
 
   > [!Note]
   >
@@ -128,24 +129,11 @@ The out-of-the-box templates are as follows.
 
 ### Create a notification template
 
-**To create the notification template**
+1. In the site map of Customer Service admin center, select **Workspaces** in **Agent experience**.
+1. On the **Workspaces** page, select **Manage** for **Notification templates**.
+1. On the **Templates** tab, select **New Notification Template** in the **Active Notifications Templates** area.
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
-     1. In the site map, select **Workspaces** in **Agent experience**.
-     2. On the **Workspaces** page, select **Manage** for **Notification templates**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-
-    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Notification templates**.
-
-2. On the **Templates** tab, select **New Notification Template** in the **Active Notifications Templates** area.
-
-3. Specify the following in the **New Notification** page.
+1. Specify the following in the **New Notification** page.
 
     | Tab | Name | Value, description | Example |
     |---------|--------------------|-----------------------------------------------|--------------------|
@@ -163,15 +151,15 @@ The out-of-the-box templates are as follows.
     > [!div class=mx-imgBorder] 
     > ![Create notification template.](../media/notification-template-default-entity.png "Create notification template")
 
-4. Select **Save**. The template is saved, and the **Notification Fields** section appears on the page.
+1. Select **Save**. The template is saved, and the **Notification Fields** section appears on the page.
 
-5. Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
+1. Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
 
-6. Select the search icon in the **Look for Records** box. If no records are available, you will see a message: **No records found. Create a new record.**.
+1. Select the search icon in the **Look for Records** box. If no records are available, you will see a message: **No records found. Create a new record.**.
 
-7. Select **New** to create a notification field. A confirm dialog box appears, asking whether you want to leave the page. Select **OK**.
+1. Select **New** to create a notification field. A confirm dialog box appears, asking whether you want to leave the page. Select **OK**.
 
-8. Specify the following in the **New Notification Field** page.
+1. Specify the following in the **New Notification Field** page.
 
     | Tab | Name | Value, description | Example |
     |---------|--------------------|-----------------------------------------------|--------------------|    
@@ -182,15 +170,15 @@ The out-of-the-box templates are as follows.
     > [!div class=mx-imgBorder]
     > ![Create notification field.](../media/notification-field.png "Create notification field")
 
-9. Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap, and then select the template you created.
+1. Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap, and then select the template you created.
 
-10. Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
+1. Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
 
-11. Select the name of the notification field you created, and then select **Add**. For example, **Name of the customer**.
+1. Select the name of the notification field you created, and then select **Add**. For example, **Name of the customer**.
 
-12. Repeat steps 6 through 11 to add more notification fields.
+1. Repeat steps 6 through 11 to add more notification fields.
 
-13. Select **Save**.
+1. Select **Save**.
 
 After saving the notification, sign in to the Omnichannel for Customer Service app as an agent, and you can view the notification as per your configuration when a work item is routed.
 

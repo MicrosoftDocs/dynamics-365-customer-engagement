@@ -2,14 +2,14 @@
 title: Connect using a new Azure resource 
 description: Use this article to understand how to connect to Azure Communication Services using a new Azure resource in Customer Service admin center.
 ms.date: 05/31/2024
-ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 ---
 # Quickstart: Connect using a new Azure resource
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 In the voice channel, you can quickly connect to Azure Communication Services, provision phone numbers, and set up outbound and inbound calling for your business by creating and deploying a new Azure resource. More information: [Azure Communication Services](/azure/communication-services/overview)
 
@@ -26,17 +26,12 @@ Before you connect an Azure resource to Azure Communication Services, you must p
  
 ## Connect using a new Azure resource
 
-1. In Dynamics 365, go to one of the admin apps, and perform the following steps.
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
 
-    2. Select **Manage** for **Phone numbers**.
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+1. Select **Manage** for **Phone numbers**.
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-   In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
 1. Select **Get started**. The **Connect to Azure Communication Services** dialog opens.
+
 1. Select **Create new resource** and enter the following details.
    - **Azure subscription**: Select a subscription from the dropdown list.
    - **Azure resource group**: Select an existing resource group or select **Create new**, and enter a name for a new resource group.
