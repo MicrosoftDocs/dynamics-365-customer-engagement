@@ -747,7 +747,7 @@
           href: copilot-overview.md
         - name: Use Copilot in Dynamics 365
           items:
-            - name: Open Copilot
+            - name: Ask Copilot questions
               href: use-sales-copilot.md
             - name: Prompt guide reference
               href: copilot-prompt-guide.md
@@ -755,7 +755,7 @@
               href: copilot-get-information.md
             - name: Stay ahead
               href: copilot-stay-ahead.md
-            - name: Ask questions
+            - name: Ask about recent changes to your sales records
               href: copilot-ask-questions.md
             - name: Get content recommendations and answers from SharePoint
               href: copilot-get-doc-suggestions.md
