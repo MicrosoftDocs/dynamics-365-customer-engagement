@@ -37,7 +37,7 @@ A warehouse in Field Service is any company location that holds inventory, inclu
 - Distribution centers
 - Loading docks
 
-Inventory at each warehouse is updated based on used work order products, purchase orders returns, adjustments, and transfers. Updates are recorded in the related **Product Inventory** table.
+Inventory at each warehouse is updated based on used work order products, purchase order returns, adjustments, and transfers. Updates are recorded in the related **Product Inventory** table.
 
 :::image type="content" source="media/inventory-product-inventory.svg" alt-text="Screenshot of product inventory in the main warehouse.":::
 
@@ -45,7 +45,7 @@ For each product at the warehouse, the system tracks:
 
 - **Quantity Available** - how many units remain to be sold.
 - **Quantity Allocated** - how many units are currently listed on work orders as allocated work order products.
-- **Quantity on Hand** - sum of quantity available and quantity allocated. Basically, unsold units.
+- **Quantity on Hand** - the sum of **Quantity Available** and **Quantity Allocated**. Basically, unsold units.
 - **Quantity on Order** - how many units are currently listed on purchase orders, but haven't been received and added to inventory. Basically, units that are on the way.
 
 > [!NOTE]
@@ -102,9 +102,9 @@ Field Service supports three out-of-the-box returns:
 
 To issue a return:
 
-1. Create return merchandise authorizations (RMAs). The RMA designates the products to be returned and other important information, such as pricing. It also specifies a processing action, which is the type of return.
+1. Create an RMA. The RMA designates the products to be returned and other important information, such as pricing. It also specifies a processing action, which is the type of return.
 
-1. Create RMA receipt. The return isn’t finalized until an RMA receipt is created. The RMA receipt confirms the correct product and quantity were received and the date and person handling the receipt.
+1. Create an RMA receipt. The return isn’t finalized until an RMA receipt is created. The RMA receipt confirms the correct product and quantity were received and the date and person handling the receipt.
 
 The system automatically adjusts inventory and customer assets.
 
