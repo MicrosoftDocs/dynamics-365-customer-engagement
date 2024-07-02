@@ -1,7 +1,7 @@
 ---
 title: Work with customer assets (contains video)
 description: Learn how to add customer assets to use asset management in Dynamics 365 Field Service.
-ms.date: 06/23/2023
+ms.date: 07/02/2023
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to

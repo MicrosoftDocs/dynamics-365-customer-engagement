@@ -1,7 +1,7 @@
 ---
 title: Use 3D models with customer assets
 description: Learn about how to use 3D models in Dynamics 365 Field Service.
-ms.date: 06/28/2024
+ms.date: 07/01/2024
 ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
@@ -20,7 +20,7 @@ You can configure 3D models by using an N:N relationship between the 3D model an
 
 - Dynamics 365 v9.0+ 
 - Field Service v8.0+
-- Ensure the **3D Viewer** solution is installed in **Settings** > **Customizations**
+- Ensure the **3D Viewer** solution is installed. Sign in to [https://make.powerapps.com/](https://make.powerapps.com/), select **Solutions**, and search for 3D Viewer.
 - Increase storage for large 3D file sizes. Increase the [attachment file size limit](/power-platform/admin/settings-email) to the maximum.
 - Ensure that the supported 3D file types aren't blocked for attachments. See [**Set blocked file extensions for attachments**](/power-platform/admin/system-settings-dialog-box-general-tab).
 
