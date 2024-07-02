@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 04/12/2024
+ms.date: 07/02/2024
 ms.custom: bap-template
 ---
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-When you sign in to the Customer Service workspace or Omnichannel for Customer Service app, the Omnichannel Agent Dashboard is the default view. You can set any dashboard as the default view by selecting the **Set As Default** option. The dashboard displays the following streams:
+When you sign in to the Customer Service workspace or Contact Center workspace app, the Omnichannel Agent Dashboard is the default view. You can set any dashboard as the default view by selecting the **Set As Default** option. The dashboard displays the following streams:
 
 - My work items
 - Open work items
@@ -51,6 +51,7 @@ On the dashboard, you can sort work items by the following categories:
 
 ## View multiple conversations at the same time
 
+
 You can have multiple conversations open on multiple browsers and view the conversations in a split screen. Viewing multiple conversations side by side improves your ability to serve customer requests without the need to switch between sessions.
 
 For example, when you select an active work item or monitor a conversation, it opens on the same browser. All other browsers remain as-is.
@@ -58,6 +59,9 @@ For example, when you select an active work item or monitor a conversation, it o
 When multiple browsers are open, you see incoming conversation request on all the browsers. However, the browser that you select **Accept** from is the browser that loads that conversation. All other browsers remain as-is, with incoming notifications dismissed.
 
 For example, for incoming calls, the conversation gets accepted only on one browser and the notification gets dismissed on other browsers.
+
+> [!NOTE]
+> Ensure that agents close the persistent chat sessions in both windows when they have the same chat open in multiple windows. Otherwise, one window will allow the agent to continue sending messages even after they've selected **End** to end the chat in the other chat window.
 
 ### See also
 
