@@ -19,7 +19,7 @@ This article summarizes early access, public preview, and general availability f
 
 | Feature area | Feature | Description | Resources | Turned on | Availability |
 |---|---|---|---|---|---|
-| Copilot | Opportunity summary | Use Copilot to summarize an opportunity. | [Documentation](copilot-get-information.md#summarize-an-opportunity) | By admin | GA |
+| Copilot | Opportunity summary | Summarization of an opportunity is enhanced to display more information and add opportunity summary widget to the **Opportunity** form. | [Documentation](copilot-get-information.md#summarize-an-opportunity) | By admin | GA |
 
 ## May 2024 release
 
