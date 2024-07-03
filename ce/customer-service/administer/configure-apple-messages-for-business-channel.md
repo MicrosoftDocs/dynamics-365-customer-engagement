@@ -69,7 +69,7 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
      
       1. On the **User features** page, configure the following options:<br>
            - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).<br>
-           - **Apple Pay:** If you enable Apple Pay, your agents can send Apple Pay requests to customers. Each channel instance must have a payment profile associated. This step may be completed later, after channel setup. More information: [Payment Profiles]().<br>
+           - **Apple Pay:** If you enable Apple Pay, your agents can send Apple Pay requests to customers. Each channel instance must have a payment profile associated. This step may be completed later, after channel setup. More information: [Configure payment profiles](configure-payment-profiles.md).<br>
         
       1. Review the **Summary** page, and then select **Create**. The channel instance is configured.
         
