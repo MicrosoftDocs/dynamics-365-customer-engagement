@@ -36,7 +36,9 @@ Your admin [turns on and sets up Copilot](enable-setup-copilot.md).
 
 ## Open Copilot
 
-You can open Copilot in a [side pane](#open-copilot-in-a-side-pane)&mdash;side-by-side with a record such as an opportunity or a lead&mdash;or in a [full-screen view](#open-copilot-immersive).
+You can open Copilot in a [side pane](#open-copilot-sidepane)&mdash;side-by-side with a record such as an opportunity or a lead&mdash;or in a [full-screen view](#open-copilot-immersive).
+
+<a name=open-copilot-sidepane></a>
 
 ### Chat with Copilot in a side pane
 
@@ -64,7 +66,7 @@ Open the Copilot page in a full-screen view when you want more space and focus t
 
 2. Do one of the following:
     - Enter your questions in [natural language](#chat-with-copilot-in-NL).
-    - Select a prompt from the suggestion list or select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about the prompts](#chat-with-copilot). 
+    - Select a prompt from the suggestion list or select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about predefined prompts](copilot-prompt-guide.md). 
 
     :::image type="content" source="media/copilot-immersive.svg" alt-text="Screenshot of the Copilot page showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
 

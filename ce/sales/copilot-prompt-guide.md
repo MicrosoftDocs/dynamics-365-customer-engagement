@@ -6,13 +6,13 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: conceptual 
 ms.collection: get-started 
-ms.date: 06/21/2024
+ms.date: 07/03/2024
 ms.custom: bap-template
 ---
 
 # Copilot prompt guide reference
 
-The prompt guide in Copilot in Dynamics 365 Sales provides predefined prompts that you can use to get information, ask questions, and stay ahead of your work. Use these prompts to get the most out of Copilot and be more productive and efficient in your daily work. [Learn about how to chat with Copilot using predefined prompts](use-sales-copilot.md#chat-with-copilot-using-predefined-prompts)
+The prompt guide in Copilot in Dynamics 365 Sales provides predefined prompts that you can use to get information, ask questions, and stay ahead of your work. Use these prompts to get the most out of Copilot and be more productive and efficient in your daily work. [Learn about how to chat with Copilot using predefined prompts](use-sales-copilot.md#open-copilot)
 
 
 | Prompt | Description | More information |
