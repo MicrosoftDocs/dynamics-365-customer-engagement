@@ -1,7 +1,7 @@
 ---
 title: Customer Service workspace system requirements
-description: Learn about the system requirements and prerequisites for using Customer Service workspace.
-ms.date: 11/28/2023
+description: Learn about the system requirements and prerequisites to use Customer Service workspace.
+ms.date: 07/03/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -9,15 +9,15 @@ ms.author: nenellim
 
 # System requirements for Customer Service workspace
 
-This article provides information about the prerequisites and system requirements for using Customer Service workspace in your organization.
+This article provides information about the prerequisites and system requirements to use Customer Service workspace in your organization.
 
 ## Prerequisites
 
-This section lists the prerequisites for using Customer Service workspace.
+This section lists the prerequisites to use Customer Service workspace.
 
 ### Licensing
 
-An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user. For more information about licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user. For more information about licenses and pricing, go to [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### Software requirements
 
@@ -31,19 +31,19 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 | Area | Requirements |
 |----------|----------|
 | RAM | A minimum of 4 GB |
-| Latency  | Not more than 150 milliseconds  |
+| Latency  | - Within the same country, region, geographic location: 150 ms or less. <br> - Across countries, region, geographic locations: 300 ms or less.|
 | Throughput | A minimum of 4 Mbps|
 
-For more requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
+For more requirements, go to [Model-driven app requirements](/power-platform/admin/online-requirements).
 
 > [!IMPORTANT]
-> To use the omnichannel capabilities, you'll need a higher network bandwidth. For more information, see: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
+> To use the omnichannel capabilities, you'll need a higher network bandwidth. For more information, go to: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
 
 ### Limitations
 
-- Customer Service workspace isn't supported on mobile devices, Unified Service Desk, and Dynamics 365 Customer Engagement (on-premises).
+- Customer Service workspace isn't supported on mobile devices, Unified Service Desk, and Dynamics 365 Customer Engagement (on-premise).
 
-### See also
+### Related information
 
 [Introduction to Customer Service workspace](csw-overview.md)  
 
