@@ -32,7 +32,7 @@ The following tables contain details about the out-of-the-box views and filters 
 | Case/Task/Custom | Work items in my teams | **Owner** field of the record is set to a team that the user is a member of. | <ul><li>**Owner** is equal to current user OR **Worked by** is equal to current user.</li><li>**Status** of record is active.</li></ul> |
 | Case/Task/Custom | Work items in my queues | Record is added to a private queue that user is a member of. | <ul><li>Record is added to a private queue that the user is a member of.</li><li>**Status** of the queue that the record is a part of is active.</li><li>**Worked by** isn't set.</li><li>**Owner** of the record isn't set as the current user.</li><li>**Status** of the record is active.</li><ul> |
 | Case/Task/Custom | Resolved work items assigned to me | **Owner** field of the record is set to the current user and the state of the record is inactive. | <ul><li>**Owner** is equal to current user OR **Worked by** is equal to current user.</li><li>**Status** of the record is inactive.</li></ul> |
-| Conversation | Assigned | Active agent field of the conversation is set to the current user, and the status field is set to active, waiting, or wrap-up. |<ul><li>**Active Agent** is set to the current user.</li><li>**Status Reason** is set to one of the following values: active, waiting, wrap-up.</li></ul> |
+| Conversation | Assigned | **Active Agent** field of the conversation is set to the current user, and the status field is set to active, waiting, or wrap-up. |<ul><li>**Active Agent** is set to the current user.</li><li>**Status Reason** is set to one of the following values: active, waiting, wrap-up.</li></ul> |
 
 
 
