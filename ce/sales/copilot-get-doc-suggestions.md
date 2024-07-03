@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to get content recommendations and answers from SharePoint
 description: Discover how integrating SharePoint with Sales allows Copilot to recommend product-related documents and answer queries from stored files.
-ms.date: 05/27/2024
+ms.date: 07/03/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -24,7 +24,6 @@ If you have integrated SharePoint with Dynamics 365 Sales, Copilot can recommend
 ## Prerequisites
 
 - Your organization must have integrated SharePoint with Dynamics 365 Sales.
-- The SharePoint site must be associated with your tenant.
 - You must have the required permissions to access SharePoint documents.
 
 
