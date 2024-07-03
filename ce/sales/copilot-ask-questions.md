@@ -1,7 +1,7 @@
 ---
-title: Ask questions of Copilot
+title: Ask Copilot about recent changes to your sales records
 description: Learn how to ask Copilot in Dynamics 365 Sales questions to know what's new with your leads, opportunities, accounts, and records assigned to you.
-ms.date: 06/13/2024
+ms.date: 07/02/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -16,7 +16,7 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ---
 
-# Ask a question to Copilot
+# Ask Copilot about recent changes to your sales records
 
 Ask Copilot to update you on the latest changes to your sales records, get a list of records that were assigned to you, or list any changes to your accounts, leads, and opportunities. You can either use predefined prompts or ask questions in natural language. This article describes some of the predefined prompts you can use to ask Copilot questions. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
@@ -74,6 +74,7 @@ Keep in mind that these fields are set at the organization level. Make sure that
 ### See also
 
 - [Copilot overview](copilot-overview.md)  
+- [Copilot prompt guide reference](copilot-prompt-guide.md)  
 - [Enable and set up Copilot](enable-setup-copilot.md)  
 - [Chat with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL)
 - [Get answers from SharePoint documents](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents)

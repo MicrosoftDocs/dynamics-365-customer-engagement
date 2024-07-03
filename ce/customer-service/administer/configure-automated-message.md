@@ -1,6 +1,6 @@
 ---
 title: Configure automated messages
-description: Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service.
+description: Perform the steps mentioned in the article to configure automated messages in your contact center.
 ms.date: 04/18/2024
 author: lalexms
 ms.author: laalexan
@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Configure automated messages
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can configure Omnichannel for Customer Service to send automated messages through a channel, such as chat, voice, SMS, or social channels. The **Automated messages** tab in each channel instance enables you to create channel-specific and locale-specific text. You can customize, deactivate, and activate customer and agent-facing messages at the channel level.
 As an administrator, you can also overwrite or deactivate the preconfigured, out-of-the-box automated messages for any channel instance. The preconfigured automated message triggers are listed in [this section](#preconfigured-automated-message-triggers).

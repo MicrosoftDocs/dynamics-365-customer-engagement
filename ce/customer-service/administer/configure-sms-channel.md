@@ -12,7 +12,7 @@ ms.collection:
 
 # Configure an SMS channel for TeleSign
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 An SMS channel allows your organization to connect to customers by using text messages. After you configure an SMS channel, your customers can send text messages and connect with a customer service agent. This provides your customers the flexibility to connect with their mobile devices when an internet connection isn't available to connect to a chat channel.
 

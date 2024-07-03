@@ -8,7 +8,6 @@ ms.author: nenellim
 ---
 # Build a smart assist bot
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 To quickly get started, follow the instructions mentioned in this topic for building a smart assist bot that displays knowledge article recommendations to the agent. After this, you can do additional steps for creating custom scenarios.
 

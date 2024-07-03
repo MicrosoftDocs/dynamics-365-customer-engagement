@@ -1,20 +1,20 @@
 ---
 title: Configure custom messaging channels 
-description: Learn what a custom channel is and how to configure it, or bring your own channel, in Omnichannel for Customer Service.
-ms.date: 02/29/2024
+description: Learn what a custom channel is and how to configure it or bring your own channel.
+ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection:
 ---
 
 # Configure custom messaging channels
 
-[!INCLUDE [cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Apart from built-in channels like chat and email, your organization can integrate custom messaging channels like Direct Line and Telegram with Omnichannel for Customer Service. With the custom messaging channel capability, you can:
+Apart from built-in channels like chat and email, your organization can integrate custom messaging channels like Direct Line and Telegram. With the custom messaging channel capability, you can:
 
 - Bring in the channels your customers already use so that you can engage with them in familiar ways.
 - Integrate line-of-business or in-house channels that are specific to your organization.

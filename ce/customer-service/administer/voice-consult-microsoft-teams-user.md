@@ -1,6 +1,6 @@
 ---
 title: Enable voice consult with Microsoft Teams user for the voice channel
-description: Learn how to enable the consult experience between a voice channel agent and a Microsoft Teams user in Omnichannel for Customer Service.
+description: Learn how to enable the consult experience between a voice channel agent and a Microsoft Teams user.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -12,7 +12,8 @@ ms.custom: bap-template
 
 # Enable voice consult with Microsoft Teams users
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 

@@ -12,6 +12,9 @@ ms.custom: bap-template
 
 # Configure outbound and inbound profiles
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+
 Use the information in this article to create profiles that are used during inbound and outbound calls. These profiles help you configure settings, such as language, wait music, and transcription settings for the calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
 
 Inbound profiles enable direct calls to individual agents and therefore differ from workstreams that are used to define how inbound calls are routed and assigned to agents via queues. Direct inbound calling doesn't use unified routing and therefore the direct calls aren't tracked in unified routing historical analytics.
@@ -27,7 +30,7 @@ Make sure that the following prerequisites are in place:
 
 ## Create inbound profiles
 
-1. In the Customer Service admin center site map, select **Productivity** in **Agent experience**.
+1. In the Customer Service admin center or Contact Center admin center site map, select **Productivity** in **Agent experience**.
 
 1. On the **Productivity** page, select **Manage** for **Outbound and inbound profiles**.
 

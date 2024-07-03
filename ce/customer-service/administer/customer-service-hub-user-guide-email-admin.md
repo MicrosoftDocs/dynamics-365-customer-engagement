@@ -10,6 +10,8 @@ ms.reviewer: lalexms
 
 # Configure email
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 Email is typically used as a communication channel between customers and agents throughout the lifecycle of support delivery. Regardless of the channel where a customer begins a conversation, agents often use email to send their customers confirmations, case IDs, attachments, or other communications of record throughout the support lifecycle.
 
 In customer engagement apps, system administrators can configure email templates and enable quick access to email to help users create emails directly from the timeline so they can deliver a more personalized service.	

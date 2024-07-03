@@ -1,15 +1,17 @@
 ---
 title: Service quotas
-description: Get details about the service quotas for unified routing and omnichannel implementations in Omnichannel for Customer Service.
+description: Get details about the service quotas for unified routing and omnichannel implementations.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer:
 ms.topic: conceptual
-ms.date: 04/02/2024
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Service quotas
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Service quotas are the limits on resources, configurations, and items that are provided as part of Omnichannel for Customer Service. The tables that follow describe the service quotas and whether they can be adjusted for Dynamics 365 Customer Service Voice Channel Add-in and Dynamics 365 Customer Service Digital Messaging and Voice Add-in subscriptions.
 

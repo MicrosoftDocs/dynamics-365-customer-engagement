@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough 4: Display session records in your agent applications | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for displaying session records in your agent applications."
-ms.date: 11/12/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Walkthrough 4: Display a record in a session in your agent application
 

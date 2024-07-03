@@ -10,7 +10,8 @@ ms.reviewer: shujoshi
 
 # Enable file attachments
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 You can enable or disable the capability for your agents and customers to send file attachments during a conversation. 
 
@@ -24,7 +25,7 @@ For more information about which file types are supported in each channel, see [
 
 ## File size limit and unsupported extensions (types) for attachments
 
-By default, Omnichannel for Customer Service has a file size limit of 5 megabytes (MB) (5,120 kilobytes). However, you can configure the file as per your organization's requirements.
+By default, the application has a file size limit of 5 megabytes (MB) (5,120 kilobytes). However, you can configure the file as per your organization's requirements.
 
 > [!Tip]
 > Refer to documentation for your channel when determining message size limits. When you are enabling file attachments for Facebook messenger, we recommend that you configure a maximum limit of 25 MB (25,600 kilobytes) because the Facebook messenger file size limit is 25 MB.

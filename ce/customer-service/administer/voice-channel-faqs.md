@@ -1,6 +1,6 @@
 ---
 title: FAQ about the voice channel
-description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service.
+description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel.
 author: neeranelli
 ms.author: nenellim
 ms.date: 04/04/2024
@@ -10,9 +10,9 @@ ms.collection:
 ms.custom: bap-template
 ---
 
-# FAQ about the voice channel in Omnichannel for Customer Service
+# FAQ about the voice channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
