@@ -12,7 +12,7 @@ ms.author: andreo
 # Set up the mobile app
 
 > [!WARNING]
-> update metadata, add link for immersive home.
+> update metadata
 
 The Dynamics 365 Field Service mobile app is designed and optimized for technicians in the field. They can work with Field Service work orders, customer assets, accounts, and contacts. The app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). You can customize it to your business needs like other [model-driven apps](/power-apps/maker/model-driven-apps/).
 
@@ -76,7 +76,6 @@ After enabling the new mobile experience, you can choose to enable preview featu
 
 1. In the **Preview section** enable the features that your users can access:
 
-   - [Immersive home (preview)](tbd.md)
    - [AI-powered work order update (preview)](../work-order-update.md)
    - [Summarize records with Copilot in Field Service (preview)](../work-order-recap.md)
 
