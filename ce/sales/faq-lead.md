@@ -79,7 +79,7 @@ If a lead or opportunity is not scored or the score is not updated, ensure that 
 
 - The record is in the Open state.
 - The record meets all the conditions that are defined in the scoring model.
-- The record is using the same business process flow that you've configured in the scoring model.
+- The record is using the same business process flow that is configured in the scoring model.
 - The record was created within the last 2 years from the current date. The model checks the date every time it scores a record. If a record was scored earlier but goes outside the 2-year window in the next scoring cycle, the score won't be updated.
 
 
