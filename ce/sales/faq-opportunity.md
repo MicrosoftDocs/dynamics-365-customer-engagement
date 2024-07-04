@@ -1,7 +1,7 @@
 ---
 title: Opportunity management FAQs
 description: Get answers to frequently asked questions about opportunity management.
-ms.date: 03/15/2024
+ms.date: 07/04/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -57,6 +57,29 @@ Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insi
 To build an opportunity scoring model, you need to have a minimum of 40 won and 40 lost opportunities.  
 
 The opportunities must have been created on or after January 1, in the previous year.
+
+
+<a name="opportunity-per-stage-scoring"></a>
+
+## How do I verify whether I have the required number of opportunities to create a per stage scoring model?
+
+If you're planning to use the [per stage model](configure-predictive-opportunity-scoring.md#what-is-a-per-stage-model) in your opportunity scoring, you need to ensure that you have a minimum of 40 closed opportunities in the **last stage** of the business process flow. If you aren't planning to use the per stage model, see [this section](faq-lead.md#scoring-minimum-requirement) to verify the minimum requirement.
+
+1. On the Opportunities page, select **Closed Opportunities** from the view selector.
+
+1. Select **Add** and set the following filters:
+   - **Created On** = **Last 6 months**.
+
+1. Select **Add** > **Add related entity** and set the following filters:
+   - **Related entity** = **Lead to opportunity Sales Process** 
+   - **Operator** = **Contains data**
+   - **Field** = **Active Stage**
+   - **Operator** = **Equals**
+   - **Value** = **Close**
+1. Select **Add** > **Add row** and set the following filters:
+   - **Field** = **Status Reason**
+   - **Operator** = **Does not equal**
+   - **Value** = **Aborted**
 
 ## How frequently are the predictive scores updated?
 

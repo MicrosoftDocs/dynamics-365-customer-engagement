@@ -1,7 +1,7 @@
 ---
 title: Lead management FAQs
-description: Get answers to frequently asked questions about Lead management.
-ms.date: 07/02/2024
+description: Get answers to frequently asked questions about various aspects of Lead management such as lead qualification, duplicate detection, and scoring. 
+ms.date: 07/04/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -62,24 +62,7 @@ You want to build a lead scoring model and train it with leads created and close
 
 1. Verify the number of leads that meet the criteria. If the number of leads is less than 40, you can increase the time frame to include more leads. To verify the number of disqualified leads, change the **Status** filter to **Disqualified**.
 
-<a name="opportunity-per-stage-scoring"></a>
-If you're planning to use the [per stage model](configure-predictive-opportunity-scoring.md#what-is-a-per-stage-model) in your opportunity scoring, you need to ensure that you have a minimum of 40 closed opportunities in the last stage of the business process flow. 
-
-1. On the Opportunities page, select **Closed Opportunities** from the view selector.
-
-1. Select **Add** and set the following filters:
-   - **Created On** = **Last 6 months**.
-
-1. Select **Add** > **Add related entity** and set the following filters:
-   - **Related entity** = **Lead to opportunity Sales Process** 
-   - **Operator** = **Contains data**
-   - **Field** = **Active Stage**
-   - **Operator** = **Equals**
-   - **Value** = **Close**
-1. Select **Add** > **Add row** and set the following filters:
-   - **Field** = **Status Reason**
-   - **Operator** = **Does not equal**
-   - **Value** = **Aborted**
+## 
 
 ## What do I need in order to use lead scoring?​
 
@@ -88,6 +71,19 @@ Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insi
 To build a lead scoring model, you need to have a minimum of 40 qualified and 40 disqualified leads.  
 To build an opportunity scoring model, you need to have a minimum of 40 won and 40 lost opportunities.  
 The leads and opportunities must have been created on or after January 1, in the previous year.
+
+<a name=leads-not-scored>
+## Why aren't my leads or opportunities scored?
+
+If a lead or opportunity is not scored or the score is not updated, ensure that the following conditions are met:
+
+- The scoring model is published.
+
+- The record is in the Open state.
+- The record meets all the conditions that are defined in the scoring model.
+- The record is using the same business process flow that you've configured in the scoring model.
+- The record was created within the last 2 years from the current date. The model checks the date every time it scores a record. If a record was scored earlier but goes outside the 2-year window in the next scoring cycle, the score won't be updated.
+
 
 ## How frequently are the predictive lead scores updated?
 

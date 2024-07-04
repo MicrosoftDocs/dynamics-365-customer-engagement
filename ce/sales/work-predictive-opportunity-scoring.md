@@ -1,7 +1,7 @@
 ---
 title: Prioritize opportunities through predictive scores
 description: Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates.
-ms.date: 03/06/2023
+ms.date: 07/04/2024
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -38,6 +38,8 @@ The following screen displays a typical view that consists of columns that can b
 
 > [!div class="mx-imgBorder"]
 > ![My Open Opportunity Scored view](media/my-open-opportunity-score-view.png "My Open Opportunity Scored view")
+
+Don't see the scores for your opportunities? Check out this [FAQ](faq-lead.md#leads-not-scored) to know why.
 
 The numbered columns are:
 
