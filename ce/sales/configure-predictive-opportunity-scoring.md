@@ -36,7 +36,7 @@ If you have a Dynamics 365 Sales Enterprise license, you can enable predictive o
 
 
 - You need to have enough opportunities to train the model based on past data. Your organization must have created and closed at least 40 won and 40 lost opportunities during the time frame selected in the **Train with opportunities from the past** field of the scoring model. The time frame ranges from three months to two years. [Verify whether you have the required number of leads to build a scoring model](faq-lead.md#scoring-minimum-requirement).
-- To define a [per stage model](#what-is-a-per-stage-model), you must have at least 40 closed opportunities in the last stage of the business process in the selected time frame. The more opportunities you can include to train the model, the better the prediction results will be. [Verify whether you have the required number of opportunities to build a per stage scoring model](faq-lead.md#opportunity-per-stage-scoring).
+- To define a [per stage model](#what-is-a-per-stage-model), you must have at least 40 closed opportunities in the last stage of the business process in the selected time frame. The more opportunities you can include to train the model, the better the prediction results will be. [Verify whether you have the required number of opportunities to build a per stage scoring model](faq-opportunity.md#opportunity-per-stage-scoring).
 
   > [!NOTE]
   > If you're planning to use a business process flow for your model, then opportunities that have abandoned the selected business process flow will not be considered for training, scoring, and for establishing the minimum requirement for model creation.

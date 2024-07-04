@@ -40,7 +40,7 @@ Before you create a lead or opportunity scoring model, you need to ensure that y
 
 Let's understand the minimum requirement with an example scenario:
 
-You want to build a lead scoring model and train it with leads created and closed in the last 6 months. You want to include only those leads that are using the **Lead to opportunity Sales Process** business process flow. Use the following steps to verify whether you have the required number of leads. You can follow similar steps to verify the minimum requirement for opportunity scoring. If you plan to use the [per stage model](configure-predictive-opportunity-scoring.md#what-is-a-per-stage-model) in your opportunity scoring, see this [section](#opportunity-per-stage-scoring).
+You want to build a lead scoring model and train it with leads created and closed in the last 6 months. You want to include only those leads that are using the **Lead to opportunity Sales Process** business process flow. Use the following steps to verify whether you have the required number of leads. You can follow similar steps to verify the minimum requirement for opportunity scoring. If you plan to use the [per stage model](configure-predictive-opportunity-scoring.md#what-is-a-per-stage-model) in your opportunity scoring, see this [section](faq-opportunity.md#opportunity-per-stage-scoring).
 
 1. On the **Leads** page, select **All leads** from the view selector.
 
