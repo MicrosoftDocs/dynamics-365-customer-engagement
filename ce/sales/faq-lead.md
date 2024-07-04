@@ -62,8 +62,6 @@ You want to build a lead scoring model and train it with leads created and close
 
 1. Verify the number of leads that meet the criteria. If the number of leads is less than 40, you can increase the time frame to include more leads. To verify the number of disqualified leads, change the **Status** filter to **Disqualified**.
 
-## 
-
 ## What do I need in order to use lead scoring?​
 
 Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use the standard lead entity or the standard opportunity entity.​ A minimum number of leads or opportunities is required to build a scoring model:
