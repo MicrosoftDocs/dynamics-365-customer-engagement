@@ -19,8 +19,8 @@ Follow the steps in this article to set up Connected Field Service for use with 
 - [Step 4: Authorize the Azure app connection](#authorize-the-azure-app-connection)
 - [Step 5: Update devicerules.json](#update-devicerulesjson)
 - [Step 6: Start the Azure Stream Analytics jobs](#start-the-azure-stream-analytics-jobs)
-- [Step 7: Set up the Azure Time Series Insights connection](#set-up-the-azure-time-series-insights-connection)
-- [Step 8: (Optional) Set up the simulator](#optional-set-up-the-simulator)
+<!-- - [Step 7: Set up the Azure Time Series Insights connection](#set-up-the-azure-time-series-insights-connection) -->
+- [Step 7: (Optional) Set up the simulator](#optional-set-up-the-simulator)
 
 > [!NOTE]
 > Time Series Insights will be deprecated after March 2025. Connected Field Service is transitioning to Azure Data Explorer. More information about the transition is coming soon.
@@ -182,6 +182,7 @@ To use the rule, upload the `devicerules.json` file. You must reproduce the exac
 
 Congratulations! You're now ready to pass data between Azure IoT Hub and Dynamics 365 to use Connected Field Service.
 
+<!--
 ## Set up the Azure Time Series Insights connection
 
 Use Azure Time Series Insights to create visualizations. For this step, you need to know your [your Azure tenant ID](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant).
@@ -236,6 +237,8 @@ console.log("Error: " + error.message);
 var data = {"msdyn_timeseriesinsightsurl": "Enter Data Access FQDN found on Time Series Insights environment overview"};
 Xrm.WebApi.updateRecord("msdyn_iotproviderinstance", "Copy the value for msdyn_iotproviderinstanceid from the json object returned with the API call https://[your-environment-name].crm.dynamics.com/api/data/v9.2/msdyn_iotproviderinstances", data);
 ```
+
+-->
 
 ## (Optional) Set up the simulator
 
