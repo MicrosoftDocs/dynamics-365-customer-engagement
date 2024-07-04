@@ -102,11 +102,11 @@ The following events occur when you select the **Consult** button:
 
 - The secondary agent receives a notification for the consult request.
 
-- When the secondary agent accepts the consult request, a separate pane with an option to end opens beside the communication panel for the primary agent.
+- When the secondary agent accepts the consult request, a separate pane with an option to end opens beside the communication panel for the primary agent. 
  
    :::image type="content" source="../media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary agent.":::
 
-- The secondary agent sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary agent and customer.
+- The secondary agent sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary agent and customer. Consulting on a chat conversation does not affect the secondary agent's capacity.
    
 - The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
 

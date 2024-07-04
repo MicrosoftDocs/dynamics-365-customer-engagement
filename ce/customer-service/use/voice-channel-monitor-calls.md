@@ -35,7 +35,7 @@ To find out details about an individual conversation:
 
 ## Consult with an agent during a conversation
 
-As a supervisor, you can privately consult with an agent by sending them messages that are hidden from the customer.
+As a supervisor, you can privately consult with an agent by sending them messages that are hidden from the customer. Consulting on a call doesn't impact your capacity.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of monitoring a conversation.](../media/voice-channel-monitor-barge.png)
