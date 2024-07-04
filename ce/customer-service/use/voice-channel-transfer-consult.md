@@ -84,7 +84,7 @@ When you initiate a consult, the following actions occur:
 - You're the primary agent. 
 - You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays the agents whose skills match the selected criteria in full or partially, along with their name, and current presence status.
 - The customer is automatically put on hold. Hold music plays for the customer.
-- When the invited collaborator joins the call, they have a consult role. Consulting on a call does not affect the collaborator's available capacity.
+- When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity.
 - The primary agent must manually remove the customer from hold. During a consult, the primary agent can choose to transfer the call to the new participant. 
 - If the primary agent ends the call, the call ends for everyone. 
 - If the primary agent refreshes their browser, all the participants are placed on hold until the primary agent returns to the call. 

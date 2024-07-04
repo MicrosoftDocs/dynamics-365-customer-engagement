@@ -24,7 +24,7 @@ You can use the actions any number of times across different macros to automate 
 
 ## Link record to the conversation
 
-Links a record to the conversation in the focused session when the agent is communicating with a customer in Omnichannel. This action contains the following fields.
+Links a record to the conversation in the focused session when the agent is communicating with a customer in omnichannel. This action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|
@@ -47,7 +47,7 @@ Perform the following steps to create a case from an Omnichannel conversation. T
  
 ## Unlink record from the conversation
 
-Unlinks a record to the conversation in the focused session when the agent is communicating with a customer in Omnichannel. This action contains the following fields.
+Unlinks a record from the conversation in the focused session when the agent is communicating with a customer in omnichannel. This action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|
