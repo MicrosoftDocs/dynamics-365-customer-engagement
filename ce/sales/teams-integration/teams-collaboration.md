@@ -1,7 +1,7 @@
 ---
 title: "Basic Collaboration for Microsoft Teams with Dynamics 365 app"
 description: "Collaborate with team members using the Dynamics 365 app for Microsoft Teams. Follow these steps to connect an app record or view to a team channel."
-ms.date: 07/02/2024
+ms.date: 07/04/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -37,9 +37,6 @@ Once installed, the Dynamics 365 app for Microsoft Teams enables collaborating w
 From a team channel, you can connect a customer engagement app (such as Dynamics 365 Sales or Dynamics 365 Customer Service) record or view to collaborate on any entity, such as customer accounts, opportunities, and more.
 
 1. Open a team channel, and select the **Add** button (![Add button.](media/plus-2.png "Add button")).
-
-   > [!div class="mx-imgBorder"]
-   > ![Select Add button.](media/teams-add-tab.png "Select Add button")
 
 2. Select the **Dynamics 365** icon to pin an app record to a channel.
 
