@@ -1,7 +1,7 @@
 ---
-title: "Configure an Apple Messages for Business channel | MicrosoftDocs"
-description: "This article provides steps to configure an Apple Messages for Business channel and corresponding Apple pages in Omnichannel for Customer Service."
-ms.date: 10/23/2023
+title: Configure an Apple Messages for Business channel
+description: This article provides steps to configure an Apple Messages for Business channel and Apple pages in the admin center.
+ms.date: 07/01/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -10,8 +10,7 @@ ms.reviewer: shujoshi
 
 # Configure an Apple Messages for Business channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a new way to apply iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of resolving their issues when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window is closed.
 

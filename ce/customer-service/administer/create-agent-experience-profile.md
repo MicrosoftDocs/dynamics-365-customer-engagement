@@ -3,11 +3,13 @@ title: "Configure agent experience profiles | MicrosoftDocs"
 description: "Learn how to create and manage agent experience profiles for customized agent experiences."
 author: gandhamm
 ms.author: mgandham
-ms.date: 02/02/2023
+ms.date: 07/01/2024
 ms.topic: article
 ---
 
 # Create and use agent experience profiles
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 By default, the following agent experience profiles are available out of the box for Customer Service workspace and Omnichannel for Customer Service. These profiles can't be deleted or modified.  When you don't assign a custom profile to an agent, the default profile is assigned.
 

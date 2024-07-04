@@ -10,6 +10,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Historical analytics for unified routing
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 With the introduction of unified routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
 
 ### Access the Unified routing dashboard

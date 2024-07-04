@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to get content recommendations and answers from SharePoint
 description: Discover how integrating SharePoint with Sales allows Copilot to recommend product-related documents and answer queries from stored files.
-ms.date: 05/27/2024
+ms.date: 07/03/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -24,16 +24,15 @@ If you have integrated SharePoint with Dynamics 365 Sales, Copilot can recommend
 ## Prerequisites
 
 - Your organization must have integrated SharePoint with Dynamics 365 Sales.
-- The SharePoint site must be associated with your tenant.
 - You must have the required permissions to access SharePoint documents.
 
 
 <a name="copilot-content-recommendation"></a>
-## Get document recommendations from SharePoint
+## Get content recommendations from SharePoint
  
 As a salesperson, you need to be aware of the latest product and account-related information, such as product brochures, pricing, sales pitch, and specifications, which are typically stored in SharePoint. You can ask Copilot to provide you with the list of SharePoint documents related to your sales records.
 
-To get document recommendations, use one of the following methods in the Copilot chat window:
+To get content recommendations, use one of the following methods in the Copilot chat window:
 
 - Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) in the chat window, select **Get info** > **Show related files**, and enter the record name.
 
@@ -51,7 +50,7 @@ The documents are listed in the ranking order of SharePoint search results. [Lea
 
 ### Which records are supported?
 
-The SharePoint document recommendation capability is supported for the account, contact, lead, opportunity, quote, order, and invoice records.
+The SharePoint content recommendation capability is supported for the account, contact, lead, opportunity, quote, order, and invoice records.
 
 ### Which files are listed?
 

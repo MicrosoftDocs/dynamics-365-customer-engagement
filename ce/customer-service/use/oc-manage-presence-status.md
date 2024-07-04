@@ -11,7 +11,8 @@ ms.custom: bap-template
 
 # Manage presence in Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 Presence is an indication of your agent’s availability or status to take up work in Dynamics 365 Customer Service.
 

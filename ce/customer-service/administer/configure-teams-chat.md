@@ -9,16 +9,18 @@ ms.topic: article
 
 # Configure Microsoft Teams chat in Customer Service
 
-You can configure the ability for agents to chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+You can configure the ability for agents to chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
 
 > [!NOTE]
-> Teams chat is already enabled for Customer Service workspace and Customer Service Hub, and you can select other apps that you want to enable it for. 
+> Teams chat is already enabled for Customer Service workspace, Contact Center workspace, and Customer Service Hub, and you can select other apps that you want to enable it for. 
 
 When the feature is enabled for an app, agents who work on customer records can start a new chat or connect an existing chat to a record. They can collaborate efficiently without switching context or leaving the application. Connecting the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating in Teams.
 
 ## Enable or disable Teams chat
 
-If you’re using the Customer Service workspace or Customer Service Hub apps, Teams chat is automatically enabled. If you want to use Teams chat in other customer engagement apps, you must manually enable it. Teams chat also requires certain permissions to access Teams data.
+If you’re using the Customer Service workspace, Contact Center workspace, or Customer Service Hub apps, Teams chat is automatically enabled. If you want to use Teams chat in other customer engagement apps, you must manually enable it. Teams chat also requires certain permissions to access Teams data.
 
 ### Permissions required
 
@@ -290,7 +292,7 @@ Automatic event updates can’t fully render inline images in rich text fields.
 
 ### Configure chat update when a field is changed
 
-1. In **Customer Service admin center**, select **Collaboration**, and then set the toggle to **On** for **Turn on Microsoft Teams chats inside Dynamics 365**. 
+1. In the application, select **Collaboration**, and then set the toggle to **On** for **Turn on Microsoft Teams chats inside Dynamics 365**. 
 1. Next to **Embed chat using Teams**, select **Manage**.
 1. On the **Microsoft Teams collaboration and chat** page under **Connect chats to Dynamics 365 records**, select the entity for which you want to enable automatic event updates, or create a new one if needed. The record settings pane for that entity is opened on the right side of the page.
 

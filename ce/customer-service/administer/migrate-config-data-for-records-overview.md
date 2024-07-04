@@ -11,6 +11,9 @@ ms.custom: bap-template
 
 # Overview of data migration for records
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the records that are based on unified routing.
 
 For information on how to download and use the Configuration Migration tool, see the following articles:

@@ -1,15 +1,14 @@
 ---
 title: "Create a custom panel layout | MicrosoftDocs"
 description: "Learn how to create and test custom panel layouts in Unified Service Desk. Also, learn how to define the custom panel layout hosted control on server."
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Create a custom panel layout
 
