@@ -114,28 +114,13 @@ Select the **Files** tab in the connected team channel to associate files with a
 
    > [!div class="mx-imgBorder"] 
    > ![Files tab in Microsoft Teams app.](media/teams-files-tab.png "Files tab in Microsoft Teams app")
-   
-   
-#### If you see this message: Shared files exist in multiple locations. Select "Document Location" to see files in other locations.
-
-> [!div class="mx-imgBorder"] 
-> ![Shared files in multiple locations.](media/teams-error-multiple-locations.png "Shared files in multiple locations")
 
 When there's more than one Microsoft Teams channel connected to an app record, each of the channels appears as a separate document location in the customer engagement app. You can switch to a different location by selecting **Document Location** to specify the location of the file.
-
-> [!div class="mx-imgBorder"] 
-> ![Change document location.](media/teams-change-document-location.png "Change document location")
-
 
 To view a consolidated file list across all document locations including all connected team channel file libraries, from **Document Location** select **All Locations**.
 
 > [!div class="mx-imgBorder"] 
-> ![Select document location.](media/doclocation.png "Select document location")
-
-
-> [!div class="mx-imgBorder"] 
-> ![Document location.](media/doclocation1.png "Document location")
-
+> ![Change document location.](media/teams-change-document-location.png "Change document location")
 
 
 ## Collaboration experience in an app
