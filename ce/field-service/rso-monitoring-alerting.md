@@ -32,7 +32,7 @@ Resource Scheduling Optimization runs can fail due to various reasons. As a best
    AND
       modifiedon is greater than addHours(-6)
       OR
-      OptimizationStatus is equal to 192350003 // Cancelled
+      OptimizationStatus is equal to 192350003 // Canceled
       OptimizationStatus is equal to 192350004 // Failed
    ```
 
