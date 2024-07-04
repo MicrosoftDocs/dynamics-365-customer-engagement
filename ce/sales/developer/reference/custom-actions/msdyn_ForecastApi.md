@@ -260,7 +260,7 @@ Given below is the sample JSON for `RequestJson` object.
 
 #### Return value
 
-List of Forecast Periods.
+List of Forecast Instances.
 
 ### Update_SimpleColumnByEntityId
 
