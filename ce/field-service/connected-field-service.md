@@ -33,6 +33,9 @@ Watch this brief [video overview of Connected Field Service](https://www.youtube
 
 **Data-driven insights**: IoT devices generate a vast amount of data that can provide valuable insights. By analyzing device performance data, you can identify patterns, trends, and potential areas for improvement. This data-driven approach helps you optimize your service delivery processes, identify recurring issues, and make decisions based on data to enhance overall operational efficiency.
 
+> [!IMPORTANT]
+> The [device readings chart](cfs-visualizations-iot-hub.md) relies on Azure Time Series Insights. Initially planned for 2025, [the Time Series Insights service gets retired on July 7, 2024](https://azure.microsoft.com/updates/we-re-retiring-azure-time-series-insights-on-7-july-2024-transition-to-azure-data-explorer). The device readings chart is no longer available after July 7, 2024.
+
 ## Next steps
 
 Connect your IoT devices with Dynamics 365 Field Service:
