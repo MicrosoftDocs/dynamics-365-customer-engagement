@@ -73,9 +73,6 @@ A failed connection state indicates that the connection was not successfully sen
 
  - **View Selection**
      1. Select an entity to see the list of active views that are available for the entity in the app and then select **Save**.
-  
-        > [!div class="mx-imgBorder"] 
-        > ![Select an entity.](media/teams-select-view.png "Select an entity")
    
         > [!div class="mx-imgBorder"] 
         > ![Select a view.](media/teams-select-view2.png "Select a view")
@@ -93,9 +90,6 @@ A failed connection state indicates that the connection was not successfully sen
     > ![Select from My View.](media/teams-select-view3.png "Select from My View")
 
 4. If you have multiple environments or app modules, you can change the environment and app module by selecting **Edit** (![Edit.](media/edit-icon.png "Edit")) to specify which environment or app module to use in Microsoft Teams.
- 
-   > [!div class="mx-imgBorder"] 
-   > ![Specify org and app.](media/teams-change-org-app.png "Specify org and app")
 
 Select **Remember this preference** to set the environment and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
 
@@ -106,16 +100,12 @@ Once the app tab is set up in Microsoft Teams collaboration channel, you can sta
 ### Have a conversation
 You can chat with your team members side-by-side with the app tab. From the app tab pinned in a Microsoft Teams channel, select the **Show tab conversation** button to open the conversation tab.
 
-> [!div class="mx-imgBorder"] 
-> ![Start a conversation.](media/teams-start-conversation.png "Start a conversation")
-
-
 ### Open an app record or view 
 
 It's easy to navigate to the pinned app record or view page from Microsoft Teams. From the app record tab pinned in a Microsoft Teams channel, select the **Go to website** button to open the record or view page in Dynamics 365 apps.
 
 > [!div class="mx-imgBorder"] 
-> ![Open a record in Dynamics 365 apps.](media/teams-open-record-d365.png "Open a record in Dynamics 365 apps")
+> ![Start a conversation.](media/teams-start-conversation.png "Start a conversation")
 
 
 ### View and associate files
