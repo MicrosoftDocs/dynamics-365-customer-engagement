@@ -1,7 +1,7 @@
 ---
 title: Visualize IoT device readings
 description: Learn how to better understand the state of a device and its repair history with visualized device readings in Connected Field Service.
-ms.date: 10/05/2023
+ms.date: 07/04/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.custom: bap-template
@@ -9,8 +9,12 @@ ms.author: vhorvath
 author: vhorvathms
 ---
 
-# Visualize IoT device readings
+# Visualize IoT device readings (retired)
 
+> [!IMPORTANT]
+> The device readings chart relies on Azure Time Series Insights. Initially planned for 2025, [the Time Series Insights service gets retired on July 7, 2024](https://azure.microsoft.com/updates/we-re-retiring-azure-time-series-insights-on-7-july-2024-transition-to-azure-data-explorer). The device readings chart is no longer available after July 7, 2024.
+
+<!--
 To help you understand the current state of a device, its repair history, and the effect of performed work orders, Connected Field Service displays near real-time device readings and historical sensor measurements in a chart alongside the service history.
 
 The device readings chart is available on the IoT alert, work order, case, device, and asset forms. It supports Azure IoT Hub and [custom IoT providers](cfs-custom-iot-provider.md).
@@ -85,5 +89,7 @@ Use the following table to troubleshoot error codes related to device readings.
 
 - [Create IoT alerts and convert IoT alerts into work orders](cfs-iot-alerts.md)
 - [Send commands to devices in Connected Field Service](cfs-commands.md)
+
+-->
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
