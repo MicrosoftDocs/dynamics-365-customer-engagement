@@ -33,7 +33,7 @@ Sitemap elements that don't link to a view, such as dashboards or custom pages, 
 
 ## Work on a booking from the agenda view
 
-Swipe a booking from left to right or select the booking's menu to access its quick actions. Open a booking to see the full form and update details in the Unified Client Interface.
+Swipe a booking from left to right or select the booking's menu to access its quick actions. Open a booking to see the full form and update details in the Unified Client Interface. Quick actions let you update the booking status and give access to [Copilot features if enabled](set-up-field-service-mobile.md#turn-on-features-for-the-refreshed-experience).
 
 :::image type="content" source="../media/mobile-newux-traveling.png" alt-text="Renderings of three mobile devices showing how to change a booking's status in the Field Service mobile app.":::
 
@@ -43,11 +43,11 @@ To automatically change the booking status to **Traveling** every time you get d
 
 :::image type="content" source="../media/mobile-newux-traveling-directions.png" alt-text="Renderings of three mobile devices showing how to get directions to a work location and update booking status automatically in the Field Service mobile app.":::
 
-## Update work orders with Copilot (preview)
+## Work with Copilot (preview)
 
-The new mobile UX uses Copilot in Field Service to enable technicians with a quick and easy way of updating work orders.
+The new mobile UX uses Copilot in Field Service to enable technicians with a quick and easy way of updating work orders and getting a summary of the work order.
 
-For more information, see [AI-powered work order update](../work-order-update.md).
+For more information, see [AI-powered work order update (preview)](../work-order-update.md) and [Summarize records with Copilot in Field Service (preview)](../work-order-recap.md).
 
 ## Use embedded Guides in the mobile app
 
@@ -63,4 +63,8 @@ In the new mobile user experience, app users can tap the user icon to access the
 
 - **About**: Details about the current session and app version for debugging in case of error.
 - **Send feedback**: Provide feedback to Microsoft about the app or suggest improvements.
-- **Settings**: Lets users change the time zone for the app, change the behavior of the app when they get directions to a customer site, change the app module. The new mobile user experience always uses the device configuration for date and time zone settings. If the configuration of the device and the users's settings in Dynamics 365 don't match, it asks the users to update their Dynamics 365 profile to align with the device settings.
+- **Settings**: Configure personal user settings.
+  - Timezone: Set the timezone for the app. If the configuration of the device and the users's settings in Dynamics 365 don't match, the system updates the Dynamics 365 profile to align with the device settings.
+  - Language: Set the language for the mobile app.
+  - Map: Define the behavior of the app when getting directions to a customer site and choose the default map provider.
+  - Apps: If a user ahs access to multiple Field Service Mobile app modules, they can choose which app module to load.

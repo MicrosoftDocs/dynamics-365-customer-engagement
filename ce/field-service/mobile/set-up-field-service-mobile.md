@@ -56,6 +56,8 @@ Watch this brief video to learn more:
 
 You need Field Service - Administrator permissions to enable the refreshed user experience.
 
+:::image type="content" source="../media/FSM-newux-settings.png" alt-text="Screenshot of the Settings page in for the Field Service Mobile app module.":::
+
 1. Open the Field Service Mobile app module in a web browser.
 
 1. Change to the **Settings** area and go to **Mobile settings** > **Features**.
@@ -76,8 +78,8 @@ After enabling the new mobile experience, you can choose to enable preview featu
 
 1. In the **Preview section** enable the features that your users can access:
 
-   - [AI-powered work order update (preview)](../work-order-update.md)
    - [Summarize records with Copilot in Field Service (preview)](../work-order-recap.md)
+   - [AI-powered work order update (preview)](../work-order-update.md)
 
 ### Limitations of the new experience
 
