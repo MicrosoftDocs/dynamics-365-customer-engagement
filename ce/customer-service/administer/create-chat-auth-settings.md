@@ -14,7 +14,7 @@ ms.reviewer: shujoshi
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-You can create authentication settings to validate a signed-in customer from a domain, and extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables.
+You can create authentication settings to validate a signed-in customer from a domain and extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables.
 
 For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as a shopping cart value or a privileged status.
 
@@ -22,7 +22,7 @@ After you create an authentication settings record, you must add it to a channel
 - Chat
 - Apple Messages for Business
 
-The agent will get a notification in the **Conversation summary** section whether the customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. More information: [Conversation summary](../use/oc-customer-summary.md#view-conversation-summary)
+The agent gets a notification in the **Conversation summary** section that indicates whether the customer is authenticated. The **Authenticated** field is set to **Yes** or **No** based on the customer's authentication status. More information: [Conversation summary](../use/oc-customer-summary.md#view-conversation-summary)
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ You can create a chat authentication setting record in the admin app.
 
 1. In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 
-1. In the **Authentication settings** section, select **Manage**. The **Authentication settings** page is displayed.
+1. In the **Authentication settings** section, select **Manage**. The **Authentication settings** page appears.
       
 1. Select **New Authentication Settings**, and provide the following information on the **Add authentication setting** page:
 
@@ -61,10 +61,10 @@ You can create a chat authentication setting record in the admin app.
    - **Authentication Type**: OAuth 2.0 implicit flow 
 1. Select **Next** and on the **Details** page, enter the following information:
    - **Token Custom Action**: The custom code reference to validate the tokens that are provided by your identity provider and return the user ID of the authenticated user.
-   - **Token URL**: The URL that'll be used to exchange your authorization code for the token passed to your custom action to acquire the user ID.
-   - **Redirect URL**: The URL that's passed to the original authorization code request, which is a required parameter in calls to the token exchange endpoint. 
-   - **Client ID**: The ID of the client that's passed to the token exchange endpoint.
-   - **Client secret**: The secret that authenticates the client that's passed to the token exchange endpoint.
+   - **Token URL**: The URL used to exchange your authorization code for the token passed to your custom action to acquire the user ID.
+   - **Redirect URL**: The URL passed to the original authorization code request, which is a required parameter in calls to the token exchange endpoint. 
+   - **Client ID**: The ID of the client passed to the token exchange endpoint.
+   - **Client secret**: The secret that authenticates the client passed to the token exchange endpoint.
    - **Scope**: The scopes for which the user is authorized by the token acquired in the flow.
 1. Save the changes.
 
@@ -78,20 +78,20 @@ When a signed-in customer on a portal opens the chat widget, the JavaScript clie
 
 ### Setup for Power Apps portals
 
-If you're adding authentication for a chat widget on a website developed using Power Apps portals, then the public key URL and JavaScript client function are available out of the box. You'll need to [upload a custom certificate](/power-apps/maker/portals/oauth-implicit-grant-flow#custom-certificates) to have a valid public key URL on Power Apps portals. 
+If you add authentication for a chat widget on a website developed using Power Apps portals, then the public key URL and JavaScript client function are available out of the box. You need to [upload a custom certificate](/power-apps/maker/portals/oauth-implicit-grant-flow#custom-certificates) to have a valid public key URL on Power Apps portals. 
 
 - **Public key URL**: `<portal_base_URL>/_services/auth/publickey`
 - **JavaScript client function**: `auth.getAuthenticationToken`
 
-The Power Apps portal will try to automatically link a contact record to the conversation through the context passed in its JavaScript client function.
+The Power Apps portal tries to automatically link a contact record to the conversation through the context passed in its JavaScript client function.
 
 ### Setup for custom portals
 
-If you're adding an authenticated chat experience to a custom website that isn't developed using Power Apps portals, your web development team must perform the following steps before your administrators can configure authenticated chat:
+If you add an authenticated chat experience to a custom website that isn't developed using Power Apps portals, your web development team must perform the following steps before your administrators can configure authenticated chat:
 
 1. Generate a public/private key pair in their authentication servers. The keys must be generated using the RSA256 algorithm. 
 
-    Here's sample code for generating private/public key pairs.
+    The following sample code is for generating private/public key pairs.
 
     ```Powershell
     openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
@@ -112,7 +112,7 @@ If you're adding an authenticated chat experience to a custom website that isn't
         YQIDAQAB 
         -----END PUBLIC KEY-----   
         
-If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey>` pairs, where `kid` refers to the key ID. Key ID pairs must be unique. The kid will need to be passed in the JWT token in step 4. If you're using multiple keys, your public key endpoint should return something that looks like this. The public key is base64-encoded.
+If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey>` pairs, where `kid` refers to the key ID. Key ID pairs must be unique. The kid will need to be passed in the JWT token in step 4. If you use multiple keys, your public key endpoint should return something that looks like this. The public key is base64-encoded.
 
   ```
    [
@@ -158,7 +158,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
           | iss   | The issuer of the token. |
           | iat   | The date the token was issued, in numeric date format.  |
           | exp   | The expiration date of this token, in numeric date format.  |
-          | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the logged-in user. This GUID will be used to identify and link the contact record to the conversation. The record search identifies records that have the active status code for contacts or accounts; if you use custom status codes, then record identification won't work. |
+          | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the logged-in user. This GUID will be used to identify and link the contact record to the conversation. The record search identifies records that have the active status code for contacts or accounts. If you use custom status codes, then record identification won't work. |
 
       -  **lwicontexts** The context variables to pass in as part of the conversation, either for routing purposes or to display to the agent. <br>
             More information: <br>
@@ -187,7 +187,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
       > - If the token has expired or is invalid, the chat widget will throw an error event. 
       > - The [setContextProvider method](../develop/reference/methods/setContextProvider.md) is not supported for authenticated chat. You should pass in your lwicontexts as a part of the JWT payload.
 
-4. Create a JavaScript function on your website that will accept a callback function and return a JWT to the callback function. To avoid timeout, this JavaScript function should return a JWT within 10 seconds. This JWT must: 
+4. Create a JavaScript function on your website that accepts a callback function and returns a JWT to the callback function. To avoid timeout, this JavaScript function should return a JWT within 10 seconds. This JWT must: 
 
     - Contain the header, payload, and signature from step 3. 
 
@@ -218,18 +218,18 @@ If you need to use multiple public keys, your public key endpoint can return a s
         ```
 
 
-5. Your developer will need to share the following information with your Omnichannel administrator:
+5. Your developer needs to share the following information with your omnichannel administrator:
 
     a. The URL of the public key service from step 2.  
        
       Example: https://www.contoso.com/auth/publickey 
 
-    b. The name of the JavaScript client function from step 4. The live chat widget will call this name internally during the start of a chat.
+    b. The name of the JavaScript client function from step 4. The live chat widget calls this name internally during the start of a chat.
        
       Example: auth.getAuthenticationToken
 
     > [!NOTE]
-    > If your user experience exposes the chat button before users are authenticated, make sure to redirect them to your authentication page as needed. This can be done in the method in step 4, or as an earlier step in your user flow.
+    > If your user experience exposes the chat button before users are authenticated, make sure to redirect them to your authentication page as needed. You can set up the redirection in the method in step 4, or as an earlier step in your user flow.
 
     The following illustration demonstrates the setup.
     
@@ -254,7 +254,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 ### Prerequisites
 
-- Administrators who are configuring authentication settings will need more security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
+- Administrators who are configuring authentication settings need more security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
 
 - Make sure your organization has a working knowledge of the OAuth 2.0 OpenID connect flow. Steps are outlined in the next section.
 
@@ -262,7 +262,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 ### Create an authentication setting record for Apple Messages for Business using OAuth 2.0 OpenID connect flow
 
-1. In the Customer Service admin center site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
+1. In the Customer Service admin center site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings displays.
 
 1. Select **New authentication setting**, and on the **Add authentication setting** page, provide the following details:
 
@@ -285,7 +285,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
     
      5. Review the **Summary** page, and then select **Next**. The authentication setting is configured.
      
-     6. On the **Redirect information** page, copy the URL. You'll add this URL to the authentication service provider's website under allowed callback URLs.
+     6. On the **Redirect information** page, copy the URL. You add this URL to the authentication service provider's website under allowed callback URLs.
      
      7. Select **Finish**.
 
