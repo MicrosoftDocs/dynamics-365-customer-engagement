@@ -63,7 +63,7 @@ The opportunities must have been created on or after January 1, in the previous 
 
 ## How do I verify whether I have the required number of opportunities to create a per stage scoring model?
 
-If you're planning to use the [per stage model](configure-predictive-opportunity-scoring.md#what-is-a-per-stage-model) in your opportunity scoring, you need to ensure that you have a minimum of 40 closed opportunities in the **last stage** of the business process flow. If you aren't planning to use the per stage model, see [this section](faq-lead.md#scoring-minimum-requirement) to verify the minimum requirement.
+If you're planning to use the [per stage model](configure-predictive-opportunity-scoring.md#what-is-a-per-stage-model) in your opportunity scoring, ensure that you have a minimum of 40 closed opportunities in the **last stage** of the business process flow. If you aren't planning to use the per stage model, see [this section](faq-lead.md#scoring-minimum-requirement) to verify the minimum requirement.
 
 1. On the Opportunities page, select **Closed Opportunities** from the view selector.
 
