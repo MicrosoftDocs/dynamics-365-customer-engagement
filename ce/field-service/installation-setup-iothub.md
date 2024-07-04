@@ -22,8 +22,8 @@ Follow the steps in this article to set up Connected Field Service for use with 
 <!-- - [Step 7: Set up the Azure Time Series Insights connection](#set-up-the-azure-time-series-insights-connection) -->
 - [Step 7: (Optional) Set up the simulator](#optional-set-up-the-simulator)
 
-> [!NOTE]
-> Time Series Insights will be deprecated after March 2025. Connected Field Service is transitioning to Azure Data Explorer. More information about the transition is coming soon.
+> [!IMPORTANT]
+> The device readings chart relies on Azure Time Series Insights, which was initially planned for retirement in March 2025. However, the service will now be retired on July 7, 2024, and the chart will no longer be available after this date. Learn more: [Time Series Insights service gets retired on July 7, 2024](https://azure.microsoft.com/updates/we-re-retiring-azure-time-series-insights-on-7-july-2024-transition-to-azure-data-explorer).
 
 ## Prerequisites
 
