@@ -125,7 +125,7 @@ In a customer engagement app in Dynamics 365 (such as Dynamics 365 Sales and Dyn
 
 For more information on which entities support the collaborate option, see [Record types that support Microsoft Teams integration](teams-collaboration.md#record-types-that-support-microsoft-teams-integration).
 
-On an app record page, select **Collaborate** to display a list of all the connected team channels. Then, select a team channel to go to the relevant channel conversation in Microsoft Teams.
+On an app record page, select **Collaborate** to display a list of all the connected team channels. If the option to collaborate is not available, click on the "More Commands" button and then select "Collaborate." Then, select a team channel to go to the relevant channel conversation in Microsoft Teams.
 
 > [!div class="mx-imgBorder"] 
 > ![From Dynamics 365 apps, open a conversation in Microsoft Teams.](media/teams-select-collaborate.png "From Dynamics 365 apps, open a conversation in Microsoft Teams")
