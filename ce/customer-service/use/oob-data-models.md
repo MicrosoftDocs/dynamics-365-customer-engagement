@@ -1,6 +1,6 @@
 ---
 title: Data model and report mapping for historical analytics reports
-description: View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service."
+description: View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service.
 ms.date: 07/05/2024
 ms.topic: article
 author: Soumyasd27
