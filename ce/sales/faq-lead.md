@@ -58,8 +58,6 @@ You want to build a lead scoring model and train it with leads created and close
    The following screenshot shows the filters that you need to set:
    :::image type="content" source="media/scoring-minimum-data.svg" alt-text="Screenshot of the Edit filters page with filters to verify minimum requirement for scoring.":::
 
-   :::image type="content" source="media/scoring-minimum-data.png" alt-text="Screenshot of the Edit filters page with filters to verify minimum requirement for predictive scoring.":::
-
 1. Verify the number of leads that meet the criteria. If the number of leads is less than 40, you can increase the time frame to include more leads. To verify the number of disqualified leads, change the **Status** filter to **Disqualified**.
 
 ## What do I need in order to use lead scoring?​
@@ -70,8 +68,9 @@ To build a lead scoring model, you need to have a minimum of 40 qualified and 40
 To build an opportunity scoring model, you need to have a minimum of 40 won and 40 lost opportunities.  
 The leads and opportunities must have been created on or after January 1, in the previous year.
 
-<a name=leads-not-scored>
-## Why aren't my leads or opportunities scored?
+<a name="leads-not-scored"></a>
+
+## Why aren't my leads or opportunities scored or rescored?
 
 If a lead or opportunity is not scored or the score is not updated, ensure that the following conditions are met:
 
