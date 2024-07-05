@@ -12,7 +12,7 @@ author: vhorvathms
 # Visualize IoT device readings (retired)
 
 > [!IMPORTANT]
-> The device readings chart relies on Azure Time Series Insights. Initially planned for 2025, [the Time Series Insights service gets retired on July 7, 2024](https://azure.microsoft.com/updates/we-re-retiring-azure-time-series-insights-on-7-july-2024-transition-to-azure-data-explorer). The device readings chart is no longer available after July 7, 2024.
+> The device readings chart relies on Azure Time Series Insights, which was initially planned for retirement in March 2025. However, the service will now be retired on July 7, 2024, and the chart will no longer be available after this date. Learn more: [Time Series Insights service gets retired on July 7, 2024](https://azure.microsoft.com/updates/we-re-retiring-azure-time-series-insights-on-7-july-2024-transition-to-azure-data-explorer).
 
 <!--
 To help you understand the current state of a device, its repair history, and the effect of performed work orders, Connected Field Service displays near real-time device readings and historical sensor measurements in a chart alongside the service history.
