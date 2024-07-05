@@ -1,15 +1,14 @@
 ---
 title: "USD Hosted Control (Hosted Control) | MicrosoftDocs"
 description: "Learn about the USD Hosted Control to create custom hosted controls for extending Unified Service Desk."
-ms.date: 04/17/2020
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # USD Hosted Control (Hosted Control)
 

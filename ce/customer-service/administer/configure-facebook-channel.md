@@ -1,6 +1,6 @@
 ---
 title: Configure a Facebook channel
-description: Learn how to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service.
+description: Learn how to configure a Facebook channel and corresponding Facebook pages.
 ms.date: 06/14/2024
 ms.topic: how-to
 author: lalexms
@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Configure Facebook channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Many customers use social messaging channels like Facebook for their personal communication needs. Many also prefer using messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time. This ability contrasts with real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window closes.
 

@@ -1,12 +1,14 @@
 ---
 title: "Configure toast notifications in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to configure toast notification for agents in Omnichannel for Customer Service using Unified Service Desk settings."
-ms.date: 07/01/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 # Configure toast notifications in Unified Service Desk
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]

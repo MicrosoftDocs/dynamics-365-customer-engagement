@@ -1,5 +1,5 @@
 ---
-title: Use productivity automation macros 
+title: Create productivity automation macros 
 description: Learn about how to use productivity automation macros in Dynamics 365 Customer Service.
 author: gandhamm
 ms.author: mgandham
@@ -10,7 +10,9 @@ ms.date: 05/14/2024
 ms.custom: bap-template 
 ---
 
-# Use productivity automation macros
+# Create productivity automation macros
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
  You can automate the following tasks with productivity automation macros: 
 

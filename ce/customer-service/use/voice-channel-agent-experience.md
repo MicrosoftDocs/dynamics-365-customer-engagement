@@ -1,6 +1,6 @@
 ---
 title: Use agent dashboard and call controls in the voice channel
-description: Learn how you can use the agent dashboard, call controls, and make and receive customer calls in Omnichannel for Customer Service.
+description: Learn how you can use the agent dashboard, call controls, and make and receive customer calls.
 ms.date: 06/14/2024
 ms.service: dynamics-365-customerservice
 ms.topic: how-to
@@ -12,9 +12,10 @@ ms.custom: bap-template
 
 # Use agent dashboard and call controls in the voice channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The voice channel in Omnichannel for Customer Service is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers you a consolidated view of the calling interface, the customer summary, case history, and timeline. The dashboard helps you provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+The voice channel is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers you a consolidated view of the calling interface, the customer summary, case history, and timeline. The dashboard helps you provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
 
 ## Make and receive customer calls
 
@@ -35,7 +36,8 @@ To avoid the recording and transcription of what you say while the customer is o
 - **Consult**: Select this option to consult with a participant. You can consult with or bring another agent or supervisor into the call. You can have a *public* consultation, where the customer is actively involved in the conversation. Or you can have a *private* consultation, where you can put the customer on hold before you talk to your peers or supervisor.
 
   > [!NOTE]
-  > When you initiate a consult, you are the primary agent and the new participant has a consult role. Select **Transfer** next to the participant to transfer the call to the consulting agent or supervisor. Once the call is transferred, you are the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call will end for the customer.
+  > -  When you initiate a consult, you are the primary agent and the new participant has a consult role. Select **Transfer** next to the participant to transfer the call to the consulting agent or supervisor. Once the call is transferred, you're the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call ends for the customer.
+  > - Consulting on a call doesn't affect the collaborating agent's capacity.
 - **Transfer**: Select this option is to transfer the call to an agent, queue, a Teams user, or an external phone number. After you transfer the call, the agent to whom the call is transferred is the primary agent and you'll no longer be on the call.
     During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls continue if the administrator enabled the [option](../administer/voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice). You can disable recording from the dashboard. See: [Transfer and consult scenarios](voice-channel-transfer-consult.md)
 - **Rejoin**: Select this option to rejoin the call. If you're disconnected from the call, you can rejoin the call from the Active Conversation form directly, instead of refreshing the page and then rejoining the call. Only primary agents see the **Rejoin** option. If the customer ends the call or the call is rerouted to the next available agent while you are disconnected, you'll hear a message that the customer ended the call or was rerouted on selecting **Rejoin**.
@@ -70,7 +72,7 @@ Avoid the following actions to prevent call drops:
 
 - Refresh your browser or select browser bookmark icons when you're in an active call. When you select refresh, and then select leave on the confirm refresh dialog, the page unloads and you're disconnected from the call. The customer hears hold music until you rejoin the call from the **My work items** section of **Omnichannel Agent Dashboard**. If you're disconnected from your browser for more than 90 seconds the call is reassigned to another agent in the queue. The call isn't reassigned if you reconnect within 90 seconds.
 - Open other apps that need access to the microphone. It results in loss of your audio connection, and the customer can't hear you.
-- Open the Customer Service workspace or Omnichannel for Customer Service app in more than one tab in the browser. It causes issues in agent presence.
+- Open the Customer Service workspace or Contact Center workspace app in more than one tab in the browser. It causes issues in agent presence.
 - Close the session directly to end call. If you do, the conversation moves from active to wrap up. Then if you close the session, the state goes from wrap up to closed. So, we recommend that you go through the conversation status route and select the **End** button and then close the session to take care of the wrap-up activities.
 
 ## Share feedback on call quality
@@ -82,7 +84,7 @@ If you specify a rating between 1 and 4, the application displays a set of prede
 ## Best practices
 
 - Make sure that you enabled notifications, and audio and video options in the browser.
-- When your shift ends, ensure that you sign out and close your browser through which you access Customer Service workspace. Doing so helps avoid work items being incorrectly assigned to you.
+- When your shift ends, ensure that you sign out and close your browser through which you access Customer Service workspace or Contact Center workspace. Doing so helps avoid work items being incorrectly assigned to you.
 - When you face network or hardware issues, the application displays error or warning messages on the communication panel. Use the information in the messages to resolve the problems. More information: [Use diagnostic messages to troubleshoot call issues](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/use-diagnostic-messages-in-call-issues)
 
 ### See also

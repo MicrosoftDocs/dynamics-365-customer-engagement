@@ -1,7 +1,7 @@
 ---
 title: "Sentiment monitoring | MicrosoftDocs"
 description: "This topic provides information on how supervisors can enable sentiment monitoring to understand customer sentiment across channels and improve customer service."
-ms.date: 08/03/2020
+ms.date: 07/01/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -10,12 +10,12 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Sentiment monitoring
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!NOTE]
-> Supervisor and agent sentiment notifications are not available in Omnichannel for Customer Service on Unified Service Desk.
+> Supervisor and agent sentiment notifications are not available in Unified Service Desk.
 
-Sentiment analysis enables agents and supervisors to understand real-time and historical customer sentiment across channels to improve customer service. Omnichannel for Customer Service uses natural language processing (NLP) and machine learning (ML) algorithms to understand customer sentiments.
+Sentiment analysis enables agents and supervisors to understand real-time and historical customer sentiment across channels to improve customer service. The application uses natural language processing (NLP) and machine learning (ML) algorithms to understand customer sentiments.
 
 Sentiment intensity indicators are displayed based on the previous six customer messages received in a conversation. Sentiment intensity is scored in one of seven gradients: three positive, three negative, and one neutral.
 
@@ -29,7 +29,7 @@ Sentiment intensity indicators are displayed based on the previous six customer 
 | Negative | ![Negative sentiment.](../media/sentiment-negative.png " Negative sentiment") |
 | Very negative | ![Very negative sentiment.](../media/sentiment-very-negative.png "Very negative sentiment") |
 
-Omnichannel for Customer Service sentiment analysis supports multiple languages. Using Microsoft Azure Text Translator API, conversations in more than 40 languages now receive sentiment scores.
+Sentiment analysis supports multiple languages. Using Microsoft Azure Text Translator API, conversations in more than 40 languages now receive sentiment scores.
 
 > [!NOTE]
 > - Non-English conversations are translated to English, then scored. 
@@ -46,7 +46,7 @@ The multi-language sentiment feature (preview) supports the following personas: 
 
    - You can configure sentiment for English only and non-English languages.
        > [!NOTE]
-       > Sentiment is enabled in Omnichannel for Customer Service by default.
+       > Sentiment is enabled in by default.
 
 - If you're a supervisor (team lead):
 
@@ -72,7 +72,7 @@ The multi-language sentiment feature (preview) supports the following personas: 
 
 ## Sentiment intensity indicators
 
-Omnichannel for Customer Service sentiment intensity indicators are an automatic and unbiased measurement of a customer's satisfaction level in real time. These indicators show agents and supervisors how a conversation is trending, and give supervisors a real-time gauge they can use to decide when they need to step in and assist.
+Sentiment intensity indicators are an automatic and unbiased measurement of a customer's satisfaction level in real time. These indicators show agents and supervisors how a conversation is trending, and give supervisors a real-time gauge they can use to decide when they need to step in and assist.
 
 - For agents:
 
@@ -122,8 +122,7 @@ Expect the following system behavior:
 
 ## Requirements
 
-Your environment must have the latest version of Omnichannel for Customer Service. To learn more, see [Upgrade Omnichannel for Customer Service](../implement/upgrade-omnichannel.md).
-
+Your environment must have the latest version of the application.
 ## Install and configure
 
 After you've signed up, see step 4 of [Enable sentiment analysis](../administer/enable-sentiment-analysis.md) to configure sentiment analysis.

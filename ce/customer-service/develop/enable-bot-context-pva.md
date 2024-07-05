@@ -11,7 +11,6 @@ ms.collection:
 ---
 # Configure bot context in Copilot Studio bots  
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 

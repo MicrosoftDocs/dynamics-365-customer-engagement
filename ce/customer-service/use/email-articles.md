@@ -15,7 +15,8 @@ ms.custom:
 
 # Email a knowledge article
 
-## Email options
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 You can share the knowledge article link or knowledge article content through mail by selecting the ellipsis next to an article.
 

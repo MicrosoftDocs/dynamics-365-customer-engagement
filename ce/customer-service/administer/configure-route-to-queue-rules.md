@@ -18,6 +18,8 @@ searchScope:
 
 # Configure route-to-queues rules for a workstream
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 Queue routing rules send the work item to the right queue. The rules are written in the format of, "If defined condition satisfies, then route the work item to the defined queue." If no rules are defined or no rules match, then the incoming work item will be routed to the fallback queue of the respective workstream.
 
 The route-to-queue ruleset is run after all the work classification rulesets are run.
