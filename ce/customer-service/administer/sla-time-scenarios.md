@@ -262,13 +262,14 @@ The active duration is 30 min and SLA expires at 12:40 AM as the case was paused
 
 When you use custom time calculation for SLA KPIs, the active duration isn't calculated cumulatively by default. You need to create a custom time calculation plug-in for active duration to be cumulative. More information: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis-1)
 
-If two SLA Items are created on two SLA KPI Instances but with the same SLA KPI, then the pause and resume time of the first SLA KPI instance isn't considered in the time calculation for the second SLA KPI Instance.
+> [!NOTE]
+> If two SLA Items are created on two SLA KPI Instances but with the same SLA KPI, then the pause and resume time of the first SLA KPI instance isn't considered in the time calculation for the second SLA KPI Instance.
 
 Here's an example.
 
-Two SLA Items (SLAItem 1 and SLAItem 2) are created with the same SLAKPI, for example SLAKPI 1. The SLAKPI Instance 1 for SLAItem 1 is created on record Case 1. The SLAKPIInstance 1 is paused on Case 1 and while resuming, some other updates are also made on Case 1 due to which SLAItem 1 is no longer applicable.
+Two SLA Items (SLAItem 1 and SLAItem 2) are created with the same SLAKPI, for example SLAKPI 1. The SLAKPI Instance 1 for SLAItem 1 is created on record Case 1, and SLAKPI Instance 1 is paused and resumed with updates.
 
-Now, the conditions for SLAItem 2 are met and SLAKPIInstance 2 is created for SLAItem 2, cancelling SLAKPIInstance 1. In such cases, even though SLAItem 1 and SLAItem 2 share the same KPI SLAKPI 1, the pause time of SLAKPIInstance 1 isn't carried forwarded to SLAKPIIntance 2.
+Now, the conditions for SLAItem 2 are met and SLAKPIInstance 2 is created for SLAItem 2, after SLAKPIInstance 1 is cancelled because of the updates made to it. Here, even though SLAItem 1 and SLAItem 2 share the same KPI SLAKPI 1, the pause time of SLAKPIInstance 1 isn't carried forwarded to SLAKPIIntance 2.
 
 > [!NOTE]
 > - Active duration won't show any value when the SLA Instance is created in **Succeeded** or **Expired** state.
