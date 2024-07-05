@@ -23,7 +23,6 @@ If you have integrated SharePoint with Dynamics 365 Sales, Copilot can recommend
 
 ## Prerequisites
 
-- Your organization must have integrated SharePoint with Dynamics 365 Sales.
 - You must have the SharePoint Online license.
 - You must have the read permission, at the minimum, to access SharePoint documents. If you only have access to specific folders, Copilot displays relevant documents only from those folders. 
 
