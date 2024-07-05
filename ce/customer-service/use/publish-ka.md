@@ -16,7 +16,7 @@ ms.custom: bap-template
 After the content in the article is complete and reviewed, you can publish the article to the portal to make it available to your customers. You can publish the article immediately or schedule it for a later time.
 
 > [!IMPORTANT]
->  If your organization is using a portal to publish the knowledge articles, your customizer can write a plug-in that picks the published articles and posts on your portal, and also reports the article views.
+> If your organization uses a portal to publish the knowledge articles, your customizer can write a plug-in that picks the published articles and posts on your portal, and also reports the article views.
 
 ## Prerequisites
 
@@ -32,9 +32,9 @@ Ensure that you have the Publish and Update permissions on the Knowledge Article
   
     1. On the command bar, select **More** > **Relate Product**.  
   
-    1.  In the **Select Product to Associate with** field, select the **Lookup** button, select a product this article is about, and then select **Associate**.  
+    1.  In the **Select Product to Associate with** field, select the **Lookup** button, select the product the article is about, and then select **Associate**.  
   
-         The associated article appears in the **Related Products** list in the **Related Information** section of the **Summary** tab.  
+          The associated article appears in the **Related Products** list in the **Related Information** section of the **Summary** tab.  
   
 1. On the Business process bar, select the **Publish** stage.  
   
@@ -49,7 +49,7 @@ Ensure that you have the Publish and Update permissions on the Knowledge Article
 
 -  In the **Publish** field, select whether you want to publish the knowledge article now or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.  
   
--  In the **Published Status** field, select what status the article should be in after it is published. By default, **Published** is selected.  
+-  In the **Published Status** field, select what status the article should be in after it's published. By default, **Published** is selected.  
   
 -  In the **Expiration Date** field, select a date and time when you want the published article to expire. Expired articles are no longer available in searches.  
   
