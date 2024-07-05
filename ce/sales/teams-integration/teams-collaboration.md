@@ -127,9 +127,6 @@ For more information on which entities support the collaborate option, see [Reco
 
 On an app record page, select **Collaborate** to display a list of all the connected team channels. If the option to collaborate is not available, click on the "More Commands" button and then select "Collaborate." Then, select a team channel to go to the relevant channel conversation in Microsoft Teams.
 
-> [!div class="mx-imgBorder"] 
-> ![From Dynamics 365 apps, open a conversation in Microsoft Teams.](media/teams-select-collaborate.png "From Dynamics 365 apps, open a conversation in Microsoft Teams")
-
 In addition, document management in customer engagement apps in Dynamics 365 is integrated with Microsoft Teams. You can see the connected channel file library in the app and directly upload files; uploaded files will appear in the connected team channel file library under the **Files** tab in Microsoft Teams. Files uploaded in the Microsoft Teams connected channel will appear in the **Documents** tab in your app.
 
 ## Record types that support Microsoft Teams integration
