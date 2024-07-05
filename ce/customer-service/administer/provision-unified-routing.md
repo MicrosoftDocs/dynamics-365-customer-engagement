@@ -52,9 +52,11 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 1. After access is granted, you can close the page to return to the **Service Configuration Settings** page.
 
-1. Switch the toggle to **Yes** for **Unified routing**. A message that unified routing is being provisioned appears.
+1. Switch the toggle to **Yes** for **Unified routing**.
 
-After unified routing is provisioned, **Unified routing successfully provisioned** message appears on top of the toggle key.
+1. Select **Save**. A message that unified routing provisioning is in process appears.
+
+If the provisioning fails, go to Dynamics 365 Customer Service and Dynamics 365 Contact Center troubleshooting or contact Microsoft Support to help resolve the issue.
 
 ### Provision unified routing in Customer Service with Omnichannel for Customer Service
 
