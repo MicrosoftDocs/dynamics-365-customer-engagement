@@ -1,7 +1,7 @@
 ---
 title: Provision unified routing in Customer Service
 description: Learn how to provision unified routing in Customer Service.
-ms.date: 06/21/2024
+ms.date: 07/05/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -17,7 +17,7 @@ ms.custom: bap-template
 > [!NOTE]
 > Case information is applicable only to Customer Service.
 
-Perform the steps mentioned in this topic to provision unified routing in Customer Service. By default, unified routing is not enabled if only Customer Service is installed.
+Perform the steps mentioned in this topic to provision unified routing in Customer Service. By default, unified routing isn't enabled if only Customer Service is installed.
 
 ## Prerequisites
 
@@ -33,11 +33,11 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Routing**. The **Routing** page appears.
    
-1. Select **Manage** for **Turn on Unified Routing for Records**.
+1. Select **Manage unified routing** > **Manage**.
 
 1. If consent is already provided by the tenant administrator, go to **Step 5**.
 
-    If consent to access is not provided by the tenant administrator, in the **Unified routing** section, the following message with a link to the consent page will be displayed:
+    If consent to access isn't provided by the tenant administrator, in the **Unified routing** section, the following message with a link to the consent page will be displayed:
 
       "Unified routing requires application permissions. A tenant administrator must provide consent before it can be turned on. Provide consent."
 
@@ -52,7 +52,7 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 1. After access is granted, you can close the page to return to the **Service Configuration Settings** page.
 
-1. Set the toggle to **Yes** for **Turn on unified routing**. A message that unified routing is being provisioned appears.
+1. Switch the toggle to **Yes** for **Unified routing**. A message that unified routing is being provisioned appears.
 
 After unified routing is provisioned, **Unified routing successfully provisioned** message appears on top of the toggle key.
 
