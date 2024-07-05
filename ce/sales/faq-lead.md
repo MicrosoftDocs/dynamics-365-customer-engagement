@@ -1,7 +1,7 @@
 ---
 title: Lead management FAQs
-description: Get answers to frequently asked questions about Lead management.
-ms.date: 03/15/2024
+description: Get answers to frequently asked questions about various aspects of Lead management such as lead qualification, duplicate detection, and scoring. 
+ms.date: 07/04/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -33,6 +33,33 @@ The following table shows an example of the two methods for detecting duplicates
 
 For more information, go to [Enable duplicate lead detection](enable-duplicate-lead-detection.md).
 
+<a name="scoring-minimum-requirement"></a>
+## How do I verify whether I have the required number of leads or opportunities to create a scoring model?
+
+Before you create a lead or opportunity scoring model, you need to ensure that you have a minimum of 40 qualified and 40 disqualified leads or 40 won and 40 lost opportunities to train the model. You can select a time frame between 3 months to 2 years to train the model.
+
+Let's understand the minimum requirement with an example scenario:
+
+You want to build a lead scoring model and train it with leads created and closed in the last 6 months. You want to include only those leads that are using the **Lead to opportunity Sales Process** business process flow. Use the following steps to verify whether you have the required number of leads. You can follow similar steps to verify the minimum requirement for opportunity scoring. If you plan to use the [per stage model](configure-predictive-opportunity-scoring.md#what-is-a-per-stage-model) in your opportunity scoring, see this [section](faq-opportunity.md#opportunity-per-stage-scoring).
+
+1. On the **Leads** page, select **All leads** from the view selector.
+
+1. Select **Edit Filters**.
+1. Select **Add** and set the following filters:
+   - **Created On** = **Last 6 months**.
+   - **Status** = **Qualified**.
+1. Select **Add** > **Add related entity** and set the following filters:
+   - **Related entity** = **Lead to opportunity Sales Process** 
+   - **Operator** = **Contains data**
+   - **Field** = **Status Reason**
+   - **Operator** = **Does not equal**
+   - **Value** = **Aborted**
+
+   The following screenshot shows the filters that you need to set:
+   :::image type="content" source="media/scoring-minimum-data.svg" alt-text="Screenshot of the Edit filters page with filters to verify minimum requirement for scoring.":::
+
+1. Verify the number of leads that meet the criteria. If the number of leads is less than 40, you can increase the time frame to include more leads. To verify the number of disqualified leads, change the **Status** filter to **Disqualified**.
+
 ## What do I need in order to use lead scoring?​
 
 Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use the standard lead entity or the standard opportunity entity.​ A minimum number of leads or opportunities is required to build a scoring model:
@@ -41,13 +68,27 @@ To build a lead scoring model, you need to have a minimum of 40 qualified and 40
 To build an opportunity scoring model, you need to have a minimum of 40 won and 40 lost opportunities.  
 The leads and opportunities must have been created on or after January 1, in the previous year.
 
+<a name="leads-not-scored"></a>
+
+## Why aren't my leads or opportunities scored or rescored?
+
+If a lead or opportunity is not scored or the score is not updated, ensure that the following conditions are met:
+
+- The scoring model is published.
+
+- The record is in the **Open** state.
+- The record meets all the conditions defined in the scoring model.
+- The record is using the same business process flow that is configured in the scoring model.
+- The record was created within the last 2 years from the current date. The model checks the date every time it scores a record. If a record was scored earlier but goes outside the 2-year window in the next scoring cycle, the score won't be updated.
+
+
 ## How frequently are the predictive lead scores updated?
 
 For new leads, the scoring happens in near real-time. The score will be displayed within five minutes of saving a new lead. For updated leads, the scores are refreshed after every 24 hours.
 
 ## Why aren't my leads scored in real-time?
 
-Real-time scoring is supported only for new leads. If you don't see the score even after 15 minutes of saving or importing the new lead, contact your administrator. Your administrator can verify whether the model that's scoring the new lead was created or edited, and published after the real-time scoring feature was rolled out. For more information, see [Real-time scoring](work-predictive-lead-scoring.md#real-time-scoring). 
+Real-time scoring is supported only for new leads. If you don't see the score even after 15 minutes of saving or importing the new lead, contact your administrator. Your administrator can verify whether the model that's scoring the new lead was created or edited, and published after the real-time scoring feature was rolled out. For more information, see [Real-time scoring](work-predictive-lead-scoring.md#real-time-scoring).
 
 ## Can I customize the model?
 
