@@ -127,7 +127,10 @@ To associate the lead record to an existing matching record, select the record, 
 
 The lead is qualified. 
 
-##  What happens to notes and attachments when leads are qualified?
+## What happens to notes and attachments when leads are qualified?
 
 When salespeople work on a lead, they use notes to store key information on the things they've researched about the lead. This could be information like new contacts at the site, current value of the contract, vendor information and so on. When a lead is qualified, these notes are displayed in the Opportunity record so that the information isn't lost.
 
+## Why the Company Name column is not available in the Edit Columns pane for lead views?
+
+The **Company Name** column is included in the out-of-the-box lead views, but it is hidden in the layout XML. As a result, it doesn't appear in the **Edit Columns** pane. If you want to add the **Company Name** column to any of the out-of-the-box lead views, add the **Company Name** field to the view using Power Apps view designer. For instructions on how to add a column, see [Choose and configure columns in model-driven app views in Power Apps](/power-apps/maker/model-driven-apps/choose-and-configure-columns#adding-columns).
