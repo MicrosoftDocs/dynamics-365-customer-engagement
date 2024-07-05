@@ -20,7 +20,7 @@ After the content in the article is complete and reviewed, you can publish the a
 
 ## Prerequisites
 
-Ensure that you have the Publish and Update permissions on the Knowledge Article record type. These permissions are added by default to the roles of knowledge manager, customer service manager, customer service representative, or system administrator. You need the Publish permission on the Knowledge Article record type, if you want to change the state of a published article.
+Ensure that you have the Publish and Update permissions on the Knowledge Article record type. These permissions are added by default to the roles of knowledge manager, customer service manager, customer service representative, or system administrator. If you want to change the state of a published article, you need the Publish permission on the Knowledge Article record type.
 
 ## Publish an article
   
