@@ -37,11 +37,11 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 1. If consent is already provided by the tenant administrator, go to **Step 5**.
 
-    If consent to access isn't provided by the tenant administrator, in the **Unified routing** section, the following message with a link to the consent page will be displayed:
+    If consent to access isn't provided by the tenant administrator, in the **Unified routing** section, the following message with a link to the consent page is displayed:
 
       "Unified routing requires application permissions. A tenant administrator must provide consent before it can be turned on. Provide consent."
 
-1. Select **Provide consent**. The following consent form is displayed on a new tab.
+1. Select **Provide consent**. The following consent form appears on a new tab.
 
     > [!div class=mx-imgBorder]
     > ![Consent to allow access to data.](../media/data-consent.png "Consent to allow access to data")
