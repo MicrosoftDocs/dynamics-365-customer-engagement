@@ -85,7 +85,7 @@ A failed connection state indicates that the connection wasn't successfully sent
      
     > [!NOTE]
     > - If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Microsoft Teams before you add the view to the Microsoft Teams channel. Otherwise, other team members will not hae access to the view content.
-    
+
 
 4. If you have multiple environments or app modules, you can change the environment and app module by selecting **Edit** (![Edit.](media/edit-icon.png "Edit")) to specify which environment or app module to use in Microsoft Teams.
 
@@ -98,20 +98,18 @@ Once the app tab is set up in Microsoft Teams collaboration channel, you can sta
 ### Have a conversation
 You can chat with your team members side-by-side with the app tab. From the app tab pinned in a Microsoft Teams channel, select the **Show tab conversation** button to open the conversation tab.
 
-### Open an app record or view 
-
-It's easy to navigate to the pinned app record or view page from Microsoft Teams. From the app record tab pinned in a Microsoft Teams channel, select the **Go to website** button to open the record or view page in Dynamics 365 apps.
-
 > [!div class="mx-imgBorder"] 
 > ![Start a conversation.](media/teams-start-conversation.png "Start a conversation")
+
+
+### Open an app record or view 
+
+It's easy to navigate to the pinned app record or view page from Microsoft Teams. From the app record tab pinned in a Microsoft Teams channel, select the open in new window (![Open in new window.](media/Open-in-new-window.png "Open in new window")). button on the command bar to open the record or view page in Dynamics 365 apps.
 
 
 ### View and associate files
 
 Select the **Files** tab in the connected team channel to associate files with an app record. Files added here will appear in apps in Dynamics 365 under **Documents** for the linked record. Likewise, when you add a document to an app record, that document appears in Microsoft Teams under the **Files** tab.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Files tab in Microsoft Teams app.](media/teams-files-tab.png "Files tab in Microsoft Teams app")
 
 When there's more than one Microsoft Teams channel connected to an app record, each of the channels appears as a separate document location in the customer engagement app. You can switch to a different location by selecting **Document Location** to specify the location of the file.
 
@@ -133,9 +131,6 @@ On an app record page, select **Collaborate** to display a list of all the conne
 > ![From Dynamics 365 apps, open a conversation in Microsoft Teams.](media/teams-select-collaborate.png "From Dynamics 365 apps, open a conversation in Microsoft Teams")
 
 In addition, document management in customer engagement apps in Dynamics 365 is integrated with Microsoft Teams. You can see the connected channel file library in the app and directly upload files; uploaded files will appear in the connected team channel file library under the **Files** tab in Microsoft Teams. Files uploaded in the Microsoft Teams connected channel will appear in the **Documents** tab in your app.
-
-> [!div class="mx-imgBorder"] 
-> ![Dynamics 365 apps document management in Teams.](media/teams-documents-d365.png "Dynamics 365 apps document management in Teams")
 
 ## Record types that support Microsoft Teams integration
 
