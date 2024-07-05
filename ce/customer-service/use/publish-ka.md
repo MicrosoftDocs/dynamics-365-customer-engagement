@@ -24,7 +24,7 @@ Ensure that you have the Publish and Update permissions on the Knowledge Article
 
 ## Publish an article
   
-1. In the Customer Service Workspace or Customer Service Hub, go to **Service** > **Knowledge Articles**.  
+1. In Customer Service Workspace or Customer Service Hub, go to **Service** > **Knowledge Articles**.  
   
 1. Open a knowledge article that’s in the **Approved** state.  
   
