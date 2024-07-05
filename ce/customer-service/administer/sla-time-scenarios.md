@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 06/28/2024
+ms.date: 07/05/2024
 ms.custom: bap-template
 ---
 
@@ -182,6 +182,9 @@ Here's how the failure time is calculated:
 
 So, if you create a case on 06/14/2023 3:00 PM and warning and failure times are set as 1 and 2 days respectively, then the warning time is 06/21/2023 12:00 noon and the failure time is 06/26/2023 9:00 AM.
 
+> [!NOTE]
+> If daylight savings transition falls on a holiday as per the customer calendar used in the SLAItem, then the SLA KPI Instance created before the holiday, with failure time after the holiday, doesn't follow the daylight savings transition. SLA KPI Instances that are created after the daylight savings transition go by daylight savings transition.
+
 ## Pause and hold scenario
 
 When you create an SLA and then pause it for hours or days, the paused hours or days aren't considered in the SLA failure and warning times.
@@ -259,10 +262,16 @@ The active duration is 30 min and SLA expires at 12:40 AM as the case was paused
 
 When you use custom time calculation for SLA KPIs, the active duration isn't calculated cumulatively by default. You need to create a custom time calculation plug-in for active duration to be cumulative. More information: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis-1)
 
+If two SLA Items are created on two SLA KPI Instances but with the same SLA KPI, then the pause and resume time of the first SLA KPI instance isn't considered in the time calculation for the second SLA KPI Instance.
+
+Here's an example.
+
+Two SLA Items (SLAItem 1 and SLAItem 2) are created with the same SLAKPI, for example SLAKPI 1. The SLAKPI Instance 1 for SLAItem 1 is created on record Case 1. The SLAKPIInstance 1 is paused on Case 1 and while resuming, some other updates are also made on Case 1 due to which SLAItem 1 is no longer applicable.
+
+Now, the conditions for SLAItem 2 are met and SLAKPIInstance 2 is created for SLAItem 2, cancelling SLAKPIInstance 1. In such cases, even though SLAItem 1 and SLAItem 2 share the same KPI SLAKPI 1, the pause time of SLAKPIInstance 1 isn't carried forwarded to SLAKPIIntance 2.
+
 > [!NOTE]
 > - Active duration won't show any value when the SLA Instance is created in **Succeeded** or **Expired** state.
-> - If there are two SLA KPI Instances created with the same SLA KPI, but with different SLA Items, then the pause time of the first SLA KPI instance isn't considered in the time calculation for the second SLA KPI Instance, if the first SLA KPI Instance is paused and then resumed.
-> - If daylight savings transition falls on a holiday as per the customer calendar used in the SLAItem, then the SLA KPI Instance created before the holiday, with failure time after the holiday, doesn't follow the daylight savings transition. SLA KPI Instances that are created after the daylight savings transition go by daylight savings transition.
 
 ## Related information
 
