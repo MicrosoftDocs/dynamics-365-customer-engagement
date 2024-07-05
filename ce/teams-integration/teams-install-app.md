@@ -26,7 +26,7 @@ search.audienceType:
 
 5. Search for Dynamics 365 in apps, open it, click the add button, select "Add to a meeting," and set it up.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Add to meeting.](media/Add-to-a-meeting.png "Add to meeting")
  
 6. For **Add to a Team**, choose a Team and then select **Install**.
