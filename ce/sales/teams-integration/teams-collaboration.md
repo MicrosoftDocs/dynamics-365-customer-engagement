@@ -1,7 +1,7 @@
 ---
 title: "Basic Collaboration for Microsoft Teams with Dynamics 365 app"
 description: "Collaborate with team members using the Dynamics 365 app for Microsoft Teams. Follow these steps to connect an app record or view to a team channel."
-ms.date: 07/04/2024
+ms.date: 07/05/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -36,12 +36,12 @@ Once installed, the Dynamics 365 app for Microsoft Teams enables collaborating w
 
 From a team channel, you can connect a customer engagement app (such as Dynamics 365 Sales or Dynamics 365 Customer Service) record or view to collaborate on any entity, such as customer accounts, opportunities, and more.
 
-1. Open a team channel, and select the **Add** button (![Add button.](media/plus-2.png "Add button")).
+1. Open a team channel, and select the **Add a tab** button (![Add button.](media/plus-2.png "Add button")).
 
 2. Select the **Dynamics 365** icon to pin an app record to a channel.
 
    > [!div class="mx-imgBorder"]
-   > ![Add Dynamics 365 appsTeam channel.](media/teams-add-channel.png "Add Dynamics 365 appsTeam channel")
+   > ![Add Dynamics 365 appsTeam channel.](media/teams-add-channel-pin-record2.png "Add Dynamics 365 appsTeam channel")
 
 3. Select **Entity Selection**, or **View Selection**.
 
@@ -85,9 +85,7 @@ A failed connection state indicates that the connection wasn't successfully sent
      
     > [!NOTE]
     > - If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Microsoft Teams before you add the view to the Microsoft Teams channel. Otherwise, other team members will not hae access to the view content.
-   
-    > [!div class="mx-imgBorder"] 
-    > ![Select from My View.](media/teams-select-view3.png "Select from My View")
+    
 
 4. If you have multiple environments or app modules, you can change the environment and app module by selecting **Edit** (![Edit.](media/edit-icon.png "Edit")) to specify which environment or app module to use in Microsoft Teams.
 
