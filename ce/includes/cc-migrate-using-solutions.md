@@ -1,2 +1,2 @@
 > [!NOTE]
-However, we recommend that you migrate configurations using the solutions framework. More information: [Migrate configurations for channels using solutions](../customer-service/administer/migrate-channel-config-using-solutions.md)
+> However, we recommend that you migrate configurations using the solutions framework. More information: [Migrate configurations for channels using solutions](../customer-service/administer/migrate-channel-config-using-solutions.md)
