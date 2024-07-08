@@ -1,7 +1,7 @@
 ---
 title: Configure authentication settings
 description: Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service.
-ms.date: 07/03/2024
+ms.date: 07/08/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -22,11 +22,11 @@ After you create an authentication settings record, you must add it to a channel
 - Chat
 - Apple Messages for Business
 
-The agent gets a notification in the **Conversation summary** section that indicates whether the customer is authenticated. The **Authenticated** field is set to **Yes** or **No** based on the customer's authentication status. More information: [Conversation summary](../use/oc-customer-summary.md#view-conversation-summary)
+To indicate whether a customer is authenticated, the agent gets a notification in the **Conversation summary** section. The **Authenticated** field is set to **Yes** or **No** based on the customer's authentication status. More information: [Conversation summary](../use/oc-customer-summary.md#view-conversation-summary)
 
 ## Prerequisites
 
-- Make sure your organization has working knowledge of OAuth 2.0 and JSON Web Tokens (JWTs).
+- Make sure your organization has a working knowledge of OAuth 2.0 and JSON Web Tokens (JWTs).
 - Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ## Create an authentication setting record for chat
@@ -37,10 +37,10 @@ You can create a chat authentication setting record in the admin app.
 
 1. In the **Authentication settings** section, select **Manage**. The **Authentication settings** page appears.
       
-1. Select **New Authentication Settings**, and provide the following information on the **Add authentication setting** page:
+1. Select **New Authentication Settings**, and then provide the following information on the **Add authentication setting** page:
 
     - **Name**: Enter a name for the authentication setting.
-    - **Owner:** Accept the default value or change to a required value.
+    - **Owner:** Accept the default value or change it to a required value.
     - **Authentication type:** By default, it's OAuth 2.0 implicit flow that can't be edited.
     - **Public key URL**: Specify the public key URL of the domain. This URL is used to validate the information that comes in from the JavaScript Object Notation (JSON) Web Token (JWT) of the domain that a customer has signed in to.
     - **JavaScript client function**: Specify the JavaScript client function to use for authentication. This function extracts a token from the token endpoint.
@@ -48,13 +48,13 @@ You can create a chat authentication setting record in the admin app.
         > [!div class=mx-imgBorder]
         > ![Configure chat authentication setting record.](../media/chat-auth-settings.png "Configure chat authentication setting record")
 
-    For more information about how to find the public key URL and JavaScript client function, see the [Setup for Power Apps portals](#setup-for-power-apps-portals) or [Setup for custom portals](#setup-for-custom-portals) section later in this article.
+    For more information about how to find the public key URL and JavaScript client function, see the [Setup for Power Apps portals](#setup-for-power-apps-portals) or [Setup for custom portals](#setup-for-custom-portals) sections later in this article.
 
 1. Select **Save**.
 
 ## Create an authentication setting record for chat using OAuth 2.0
 
-1. Perform the steps 1 through 3 in **Create an authentication setting record for chat**, and enter the following details on the **Add authentication setting** page:
+1. Perform steps 1 through 3 in **Create an authentication setting record for chat**, and enter the following details on the **Add authentication setting** page:
 
    - **Name**: A name for the authentication setting.
    - **Channel Type**: **Live chat**.
@@ -70,11 +70,11 @@ You can create a chat authentication setting record in the admin app.
 
 ### Add authentication to chat widget
 
-1. In Customer Service admin center, edit the chat widget in the workstream settings and go to the **Behaviors** tab.
+1. In Customer Service admin center, edit the chat widget in the workstream settings, and then go to the **Behaviors** tab.
    
 2. In the **Authentication settings** box, browse and select the chat authentication record.
 
-When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they're defined in the workstream that's associated with the chat widget. More information: [Manage context variables](manage-context-variables.md#considerations)
+When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they're defined in the workstream that's associated with the chat widget. More information: [Manage context variables](manage-context-variables.md#considerations)
 
 ### Setup for Power Apps portals
 
@@ -87,7 +87,7 @@ The Power Apps portal tries to automatically link a contact record to the conver
 
 ### Setup for custom portals
 
-If you add an authenticated chat experience to a custom website that isn't developed using Power Apps portals, your web development team must perform the following steps before your administrators can configure authenticated chat:
+If you add an authenticated chat experience to a custom website that isn't developed using Power Apps portals, your web development team must perform the following steps before your administrator can configure authenticated chat:
 
 1. Generate a public/private key pair in their authentication servers. The keys must be generated using the RSA256 algorithm. 
 
@@ -98,9 +98,9 @@ If you add an authenticated chat experience to a custom website that isn't devel
     openssl rsa -pubout -in private_key.pem -out public_key.pem
     ```
 
-2. Create an endpoint that will return your public keys. The Omnichannel servers will use the public keys to validate the JWT token passed as a part of authorizing the chat request. The URL of this endpoint will be entered into the admin app when creating an authentication setting record.  
+2. Create an endpoint that returns your public keys. The Omnichannel servers use the public keys to validate the JWT token passed as a part of authorizing the chat request. You enter the URL of this endpoint into the admin app when creating an authentication setting record.  
 
-    Your public key endpoint will look similar to this example:
+    Your public key endpoint looks similar to this example:
       ```
         -----BEGIN PUBLIC KEY----- 
         NIIBIjANBgkqhkiG9w0BAQEFABCOPQ8AMIIBCgKCAQEAn+BjbrY5yhSpLjcV3seP 
@@ -112,7 +112,7 @@ If you add an authenticated chat experience to a custom website that isn't devel
         YQIDAQAB 
         -----END PUBLIC KEY-----   
         
-If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey>` pairs, where `kid` refers to the key ID. Key ID pairs must be unique. The kid will need to be passed in the JWT token in step 4. If you use multiple keys, your public key endpoint should return something that looks like this. The public key is base64-encoded.
+If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey>` pairs, where `kid` refers to the key ID. Key ID pairs must be unique. The kid needs to be passed in the JWT token in step 4. If you use multiple keys, your public key endpoint should return something that looks like the following example. The public key is base64 encoded.
 
   ```
    [
@@ -129,9 +129,9 @@ If you need to use multiple public keys, your public key endpoint can return a s
    ]
    ```
         
-3. You'll need a service that generates the JWT to send to Omnichannel’s servers as a part of starting a chat for an authenticated user.  
+3. You need a service that generates the JWT to send to Omnichannel’s servers as a part of starting a chat for an authenticated user.  
 
-    a. The JWT header will look similar to the following example.
+    a. The JWT header looks similar to the following example.
        
     ```JavaScript
     { 
@@ -140,7 +140,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
     } 
     ```
 
-    If you're using multiple public keys, you'll need to pass in the key ID (kid). Your header will look similar to this example:
+    If you use multiple public keys, you need to pass in the key ID (kid). Your header looks similar to the following example:
 
     ```JavaScript
     { 
@@ -151,14 +151,14 @@ If you need to use multiple public keys, your public key endpoint can return a s
     ```
 
    b. The JWT payload should include: 
-      - At minimum, the following claims:
+      - At a minimum, the following claims:
          
           | Claim | Definition |
           |-------|-------------------------------------------------------------------------------------------------------------|
           | iss   | The issuer of the token. |
           | iat   | The date the token was issued, in numeric date format.  |
           | exp   | The expiration date of this token, in numeric date format.  |
-          | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the logged-in user. This GUID will be used to identify and link the contact record to the conversation. The record search identifies records that have the active status code for contacts or accounts. If you use custom status codes, then record identification won't work. |
+          | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the signed-in user. This GUID is used to identify and link the contact record to the conversation. The record search identifies records that have the active status code for contacts or accounts. If you use custom status codes, then record identification won't work. |
 
       -  **lwicontexts** The context variables to pass in as part of the conversation, either for routing purposes or to display to the agent. <br>
             More information: <br>
@@ -168,7 +168,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
      
       - Any other data that you want to pass.
 
-      Your payload will look similar to this example:
+      Your payload should look similar to the following example:
 
       ```JavaScript
         { 
@@ -184,18 +184,18 @@ If you need to use multiple public keys, your public key endpoint can return a s
    c. The JWT signature should be signed by your private key. 
 
       > [!NOTE]
-      > - If the token has expired or is invalid, the chat widget will throw an error event. 
-      > - The [setContextProvider method](../develop/reference/methods/setContextProvider.md) is not supported for authenticated chat. You should pass in your lwicontexts as a part of the JWT payload.
+      > - If the token has expired or is invalid, the chat widget throws an error event. 
+      > - The [setContextProvider method](../develop/reference/methods/setContextProvider.md) isn't supported for authenticated chat. You should pass in your lwicontexts as a part of the JWT payload.
 
-4. Create a JavaScript function on your website that accepts a callback function and returns a JWT to the callback function. To avoid timeout, this JavaScript function should return a JWT within 10 seconds. This JWT must: 
+4. Create a JavaScript function on your website that accepts a callback function and returns a JWT to the callback function. To avoid timeout, this JavaScript function should return a JWT within 10 seconds. This JWT must meet the following criteria: 
 
-    - Contain the header, payload, and signature from step 3. 
+    - It must contain the header, payload, and signature from step 3. 
 
-    - Be signed by the private key from the key pair in step 1. 
+    - It must be signed by the private key from the key pair in step 1. 
 
-      (We recommend generating your JWT on your web server). 
+      We recommend generating your JWT on your web server. 
 
-      The name of this JavaScript method will be used to create the authentication settings record in the Customer Service admin app.
+      The name of this JavaScript method is used to create the authentication settings record in the Customer Service admin app.
 
         ```JavaScript
         // This is a sample JavaScript client function  
@@ -240,9 +240,9 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 ## Set up authenticated chat
 
-1. Go to the admin app, and create an authentication settings record with the information from step 5 of the previous section. More information: [Create an authentication setting record for chat](#create-an-authentication-setting-record-for-chat) 
+1. Go to the admin app and create an authentication settings record with the information from step 5 of the previous section. More information: [Create an authentication setting record for chat](#create-an-authentication-setting-record-for-chat) 
 
-2. Associate the authentication settings to the chat widget that will have an authenticated experience. More information: [Add authentication to chat widget](#add-authentication-to-chat-widget)
+2. Associate the authentication settings to the chat widget that has an authenticated experience. More information: [Add authentication to chat widget](#add-authentication-to-chat-widget)
 
     The following illustration demonstrates the call sequence when a user accesses your chat in an authenticated setup.
 
@@ -254,11 +254,11 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 ### Prerequisites
 
-- Administrators who are configuring authentication settings need more security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
+- Administrators who configure the authentication settings need more security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
 
 - Make sure your organization has a working knowledge of the OAuth 2.0 OpenID connect flow. Steps are outlined in the next section.
 
-- Confirm that your organization has at least one Apple Messages for Business **Authentication type rich message**. This rich message is required for setup.
+- Confirm that your organization has at least one Apple Messages for Business **Authentication type rich message**. This rich message configuration is required for setup.
 
 ### Create an authentication setting record for Apple Messages for Business using OAuth 2.0 OpenID connect flow
 
@@ -266,22 +266,22 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 1. Select **New authentication setting**, and on the **Add authentication setting** page, provide the following details:
 
-     1. On the **Channel type** page, enter a name and select **Apple Messages for Business** as the channel type.<br>
+     1. On the **Channel type** page, enter a name, and then select **Apple Messages for Business** as the channel type.<br>
         
      2. Change the authentication type **OAuth 2.0 OpenID connect flow**.<br>
     
      3. On the **Add authentication setting** page, provide the following information:<br>
         - **Client ID**: OAuth 2.0 Client Identifier issued by an authorization server.<br>
         - **Client secret**: Client secret used to authenticate requests sent to an authorization server.<br>
-        - **Scope**: Each scope added will specify which pieces of user data you've requested from the customer. The scope content must exactly match the ones available through your service provider.<br>
+        - **Scope**: Each scope added specifies which pieces of user data you requested from the customer. The scope content must exactly match the ones available through your service provider.<br>
         - **Access Token URL**: The service provider's endpoint where an access token can be requested.
-        - **Decrypted token URL**: Endpoint where the OAuth 2.0 API can retrieve the customer info requested in the scope.<br>
+        - **Decrypted token URL**: The endpoint where the OAuth 2.0 API can retrieve the customer info requested in the scope.<br>
         - **Additional parameters**: Allows authentication services to take extra parameters from the request.
      
      3. On the **Additional details** page, you can optionally define an access token expiry time, in seconds. The default expiry time is one hour.<br>
-        After the specified time, the **Authenticated** field in the **Customer summary** section of a previously authenticated conversation will change to **No**.<br>
+        After the specified time, the **Authenticated** field in the **Customer summary** section of a previously authenticated conversation changes to **No**.<br>
       
-     4. On the **Rich messages** page, select **Add**, and then select one or more rich messages to associate to this authentication setting.<br>
+     4. On the **Rich messages** page, select **Add**, and then select one or more rich messages to associate with this authentication setting.<br>
     
      5. Review the **Summary** page, and then select **Next**. The authentication setting is configured.
      
@@ -292,11 +292,11 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 ### Add authentication to an Apple Messages for Business channel
 
-1. Open the workstream containing the channel instance to which you want to add authentication.
+1. Open the workstream that contains the channel instance for which you want to add authentication.
 
-2. On the **Behaviors** page of the channel settings, navigate to **Authentication settings**, enable the capability, and select the correct setting from the dropdown menu. More information: [Configure an Apple Messages for Business channel](configure-apple-messages-for-business-channel.md)
+2. On the **Behaviors** page of the channel settings, navigate to **Authentication settings**, enable the capability, and then select the correct setting from the dropdown menu. More information: [Configure an Apple Messages for Business channel](configure-apple-messages-for-business-channel.md)
 
-3. Review or update the authentication settings for each channel instance by selecting **Edit**.
+3. To review or update the authentication settings for each channel instance, select **Edit**.
 
 
 ### See also
