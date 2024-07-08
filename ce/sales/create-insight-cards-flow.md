@@ -1,7 +1,7 @@
 ---
 title: Create insight cards
 description: Create your own suggested actions through custom insight cards using Microsoft Power Automate in Assistant in Dynamics 365 Sales.
-ms.date: 07/02/2024
+ms.date: 07/08/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: udaykirang
@@ -41,16 +41,16 @@ As a system administrator or sales manager, you can create your own suggested ac
 
     To learn more about creating a flow, see [Create a flow in Power Automate](/power-automate/get-started-logic-flow).
 
-1. Use **Flow Checker** to verify errors and warnings in the flow. 
+1. Use **Flow Checker** to verify errors and warnings in the flow.  
 
     Errors and warnings in the flow cause performance or reliability issues. Ensure that the flow is free of errors and warnings. The checker is always active, appearing in the command bar in the designer. The checker shows a red dot when it finds one or more errors in your flow.
 
-    When you select **Flow Checker**, the corresponding error is displayed with more details. In this example, the error specifies that the **Card Name** is not entered. Resolve the error to continue.
+    When you select **Flow Checker**, the corresponding error is displayed with more details. In this example, the error specifies that the **Card Name** isn't entered. Resolve the error to continue.
 
     > [!NOTE]
     > You must resolve all errors and warnings to save the flow.
 
-1. (Optional) Select the **Test** button to test your flow. 
+1. (Optional) Select the **Test** button to test your flow.  
 
     Ensure that all the configured steps are working as required. The test feature runs and validates each step in the flow and highlights any error that occurs on a step. You must resolve the error to proceed.
 
@@ -60,51 +60,44 @@ The card is created. You can further edit the card to set priority and assign to
 
 ## View your saved flows
 
-After you create a flow, a card must be generated based on the created flow to access the flow in the designer. Sometimes, cards may not be generated immediately and you may not find the created flow to update or view. 
+After you create a flow, a card must be generated based on the created flow to access the flow in the designer. Sometimes, cards might not be generated immediately and you might not find the created flow to update or view. 
 
 To access the saved flows, follow these steps:
 
-1. Go to [Microsoft Power Automate](https://flow.microsoft.com) and sign in with your Dynamics 365 Sales credentials.
+1. Go to [Microsoft Power Automate](https://make.powerautomate.com/) and sign in with your Dynamics 365 Sales credentials.
 
     > [!NOTE]
-    > By default, your organization is selected based on your latest association. If you have multiple organizations associated with you, select the proper organization from your profile settings. 
+    > By default, your organization is selected based on your latest association. If you have multiple organizations associated with you, select the proper organization from your profile settings.  
 
 2. Select **Solutions** and then select **Default Solution**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select Default Solution option](media/si-admin-view-flows-solution-selection.png "Select Default Solution option")
+    :::image type="content" source="media/si-admin-view-flows-solution-selection.png" alt-text="Screenshot of select Default Solution option.":::
 
     All default solutions are listed.
 
-3. On the tool bar, go to Search and search for the flow that you want update or view.
+3. On the tool bar, go to **Search** and look for the flow that you want update or view.
 
-    > [!div class="mx-imgBorder"]
-    > ![Search for your solution](media/si-admin-view-flows-search-solution.png "Search for your solution")
-
-## Add actions to cards
+## Edit and add actions to cards
 
 You can add actions that a user can do on a card. To select an action, follow these steps:
 
-1. In the **Search connectors and actions** box, enter **Sales Insights**.
+1. In the **Search connectors and actions** box, enter **Dynamics 365 Sales Insights** and open the connector.
 
-2. Select the **Create card for assistant V2 (preview)** connector.
+1. In the **Actions** tab, select the **Create card for assistant** connector.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select action for card](media/insight-cards-select-action.png "Select action for card")
+    :::image type="content" source="media/insight-cards-select-action.png" alt-text="Screenshot of select action for card.":::
 
-3. In **Button type**, select one of the following actions:
+1. To create a card, enter the following information:
 
-    - **Custom action (CRM process)**: Perform the steps in [Custom action (CRM process)](#custom-action-crm-process) to invoke a custom action that is defined in Dynamics 365 Sales for an entity. 
+    | Parameter | Description |
+    |-----------|-------------|
+    | Environment (org)| Select your organization name. |
+    | Card name | Enter a name for the card. |
+    | Card header| Enter a name to appear on the header of the card.  |
+    | Card text | Enter a message to appear in the body of the card. |
+    | Primary action type | Select an action type for the card. The following actions are supported:<br>- **Custom action (CRM process)**: Perform the steps in [Custom action (CRM process)](#custom-action-crm-process) to invoke a custom action that is defined in Dynamics 365 Sales for an entity.<br>- **Open record**<br>- **Open URL**<br>- **REST**: Perform the steps in [REST](#rest) to invoke a REST API with the custom action. |
 
-    - **Open record**
-
-    - **Open URL**
-
-    - **REST**: Perform the steps in [REST](#rest) to invoke a REST API with the custom action.
-
-    > [!div class="mx-imgBorder"]
-    > ![List of supported actions for card](media/insight-card-button-types.png "List of supported actions for card")
-
+    :::image type="content" source="media/insight-card-button-types.png" alt-text="Screenshot of list of supported actions for card.":::
 
 ### Custom action (CRM process)
 
@@ -112,73 +105,41 @@ Use the **Custom action (CRM process)** option to invoke a custom action that is
 
 To add a custom action, follow these steps:
 
-1. In the **Search connectors and actions** box, enter **Sales Insights**.
-
-2. Select the **Choose custom action (CRM process) for insight card (preview)** connector.
-
-    > [!div class="mx-imgBorder"]
-    > ![Select action for card](media/insight-cards-select-action.png "Select action for card")
+1. Open the **Dynamics 365 Sales Insights** connector.
+ 
+1. In the **Actions** tab, select the **Choose custom action (CRM process) for insight card (preview)** action.
 
     A step to choose a custom action appears.
 
-    > [!div class="mx-imgBorder"]
-    > ![Step to add custom action](media/insight-card-custom-action.png "Step to add custom action")
+    :::image type="content" source="media/insight-card-custom-action.png" alt-text="Screenshot of step to add custom action.":::
 
-3. In the **Choose custom action (CRM process) for insight card** step, enter the required information.
+1. In the **Choose custom action (CRM process) for insight card** step, enter the required information.
 
     | Parameter | Description |
     |-----------|-------------|
     | Environment (org)| Select your organization name. |
     | Filter by entity | Choose the entity that is associated with the action. |
-    | Custom action (CRM process)| Select the custom action that you want to perform on the card. |
-    | Status | This is a dynamic field and the values that are displayed here are based on the selected custom action. | 
-
-4. Define the card by using the chosen custom action. In the **Create card for assistant V2** step, enter the required information.
-
-    | Parameter | Description |
-    |-----------|-------------|
-    | Environment (org)| Select your organization name. |
-    | Card name | Enter a name for the card. |
-    | Card header| Enter a name to appear on the header of the card.  |
-    | Card text | Enter a message to appear in the body of the card. |
-    | Button text | Enter a name for the button that should appear on the card. |
-    | Button type | Select the button type as **Custom action (CRM process)**. |
-    | Custom action for insight card | Select the box. The custom action that is defined in the previous step is added automatically. This option appears only for the **Custom action (CRM process)** button type. | 
-
-    > [!div class="mx-imgBorder"]
-    > ![Create card for the custom action](media/insight-card-custom-action-define-card.png "Create card for the custom action")
+    | Custom action (CRM process)| Select the custom action that you want to perform on the card. Depending on the selected action, the next set of fields are displayed. In this example, the Status field is displayed. |
 
 ### REST
 
 Use the **REST** option to invoke REST API.  
 
-1. On the **Create card for assistant V2 (preview)** step, select the **Button type** as **REST**.
-
-2. Enter the information as required.
+1. On the **Create card for assistant** step, enter the necessary information as described in [edit and add actions to cards](#edit-and-add-actions-to-cards) and then select Primary action type as **REST**.
+1. Enter the following information in parameters to create a card for the REST API: 
 
     | Parameter | Description |
     |-----------|-------------|
-    | Environment (org)| Select your organization name. |
-    | Card name | Enter a name for the card. |
-    | Card header| Enter a name to appear on the header of the card.  |
-    | Card text | Enter a message to appear in the body of the card. |
-    | Button text | Enter a name for the button that should appear on the card. |
-    | Button type | Select the button type as **REST**. |
-    | Endpoint | Enter the URL of the corresponding API to call. This option appears only for the **REST** button type. |
-    | HTTP method | Choose an HTTP method for the API to call. This option appears only for the **REST** button type. |
-    | Body| Enter request parameters for the REST API. This option appears only for the **REST** button type.| 
+    | Primary action text | Enter a name for the button that should appear on the card. |
+    | Primary action endpoint | Enter the endpoint that the API should call. |
+    | Primary action HTTP method | Choose an HTTP method for the API to call. |
+  
+    :::image type="content" source="media/insight-card-rest-api.png" alt-text="Screenshot of create a card for REST API.":::
 
-    > [!div class="mx-imgBorder"]
-    > ![Create a card for playbook](media/insight-card-rest-api.png "Create a card for playbook")
-
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]    
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]  
 
 ### See also
 
 [Configure and manage insight cards for the premium assistant](configure-assistant.md#premium-assistant)  
 [Edit insight cards](edit-insight-cards.md)  
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
