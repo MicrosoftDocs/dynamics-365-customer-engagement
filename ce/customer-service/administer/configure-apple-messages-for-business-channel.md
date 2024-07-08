@@ -14,15 +14,15 @@ ms.reviewer: shujoshi
 
 Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a new way to apply iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of resolving their issues when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window is closed.
 
-Apple Messages for Business supports rich messaging experiences, allowing customer and agents to converse through convenient and engaging interactions. More information: [Introduction to Messages for Business - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/messages-for-business)
+Apple Messages for Business supports rich messaging experiences, allowing customers and agents to converse through convenient and engaging interactions. More information: [Introduction to Messages for Business - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/messages-for-business)
 
 ## Prerequisites
 
 Before you configure the Apple Messages for Business channel in Dynamics 365 Omnichannel for Customer Service, ensure that the following prerequisites are met:
 
-1. Register your business with Apple Business Register More information: [Apple Business Register](https://register.apple.com/)
+1. Register your business with Apple Business Register. More information: [Apple Business Register](https://register.apple.com/)
 1. Enable Messages for Business and create a Messages for Business account for your brand. More information: [Apple Messages for Business Accounts Introduction](https://register.apple.com/resources/messages/messaging-documentation/)
-1. Configure the Messaging Service Provider (MSP) using the correct URL provided for your geo-region in the following table.
+1. Configure the Messaging Service Provider (MSP) using the URL provided for your geo region in the following table.
 
    | Geo location   | API Endpoint URL|
    |-------------|---------|
@@ -48,15 +48,15 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
 
 1. Go to **Accounts** > **Messaging accounts** > **Manage**, and then on the **Accounts and channels** page, select **Add account**.
 
-1. On the **Add account** page, **Channel details** section, enter a name and select **Apple Messages for Business** in **Channels**.
+1. On the **Add account** page, **Channel details** section, enter a name, and then select **Apple Messages for Business** in **Channels**.
 
-1. On the **Add account** page, specify the Apple Messages for Business account ID. To get the account ID, go to your organization's Apple Business Register, open the Messages for Business account, navigate to the Messaging Service Provider configuration and select **Test your Messaging Service Provider connection**, and copy the account ID by selecting **Copy ID**.
+1. On the **Add account** page, specify the Apple Messages for Business account ID. To get the account ID, go to your organization's Apple Business Register, open the Messages for Business account, navigate to the Messaging Service Provider configuration and select **Test your Messaging Service Provider connection**, and then copy the account ID by selecting **Copy ID**.
    > [!Note]
-   > If your organization uses Customer-managed keys, be aware that Apple Messages for Business acount IDs cannot be encryped. Apple Messages for Business account IDs are part of the URLs used by customer devices to start new conversations and may be visible to users, but this doesn't present a security concern.
+   > If your organization uses customer-managed keys, be aware that Apple Messages for Business acount IDs cannot be encrypted. Apple Messages for Business account IDs are part of the URLs used by customer devices to start new conversations and might be visible to users. The visibility isn't considered a security concern.
 
-1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
+1. To configure routing and work distribution, either create a [workstream](create-workstreams.md) or select an existing one.
 
-1. Select the workstream that you've created for the Apple Messages for Business channel and on the workstream page, select **Set up Apple Messages for Business**, and do the following steps:<br>
+1. Select the workstream that you created for the Apple Messages for Business channel, and then on the workstream page, select **Set up Apple Messages for Business** and do the following steps:<br>
 
      1. In the **Available Apple Messages for Business accounts** area, select an account from the list.<br>
       
@@ -87,27 +87,27 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
       - [Quick replies](create-quick-replies.md)<br>
       - [Rich messages](create-rich-messages.md)<br>
 
-Watch this video to learn how to set up the Apple Messages for Business channel in Dynamics 365 Customer Service:
+The following video provides information on how to set up the Apple Messages for Business channel in Dynamics 365 Customer Service.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1djXE]
 
 ## Configure authentication settings
 
-Perform the steps in [Create Apple Messages for Business authentication settings](create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business) to configure authentication settings.
+Configure the authentication settings by performing the steps in [Create Apple Messages for Business authentication settings](create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business).
 
 ## Configure payment profiles for Apple Pay
 
-Perform the steps in [Configure payment profiles](configure-payment-profiles.md) to configure the profile.
+Set up the profile by completing the steps in [Configure payment profiles](configure-payment-profiles.md).
 
 ## Create rich messages
 
-Perform the steps in [Create rich messages](create-rich-messages.md) to create rich messages 
+Create rich messages by completing the steps in [Create rich messages](create-rich-messages.md). 
 
 ## Use rich messages in conversation control
 
-Perform the steps in [Rich messages in the conversation control](../use/rich-messages-conversation-control.md) to use the rich messages.
+For information about how to use rich messages, see [Rich messages in the conversation control](../use/rich-messages-conversation-control.md).
 
-Watch this video to learn how to view a conversation on the Apple Messages for Business channel in Dynamics 365 Customer Service:
+The following video provides information on how to view a conversation on the Apple Messages for Business channel in Dynamics 365 Customer Service.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1dmCE]
 
