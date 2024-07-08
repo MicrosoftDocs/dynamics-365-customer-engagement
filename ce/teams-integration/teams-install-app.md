@@ -1,7 +1,7 @@
 ---
 title: "Install the Dynamics 365 app in Teams"
 description: "Learn how to install the Dynamics 365 app in Teams."
-ms.date: 07/05/2024
+ms.date: 07/08/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -15,7 +15,7 @@ search.audienceType:
 
 2. Search for **Dynamics**, and then select the **Dynamics 365** tile.
 
-3. Verify that **Add for you** and **Add to a Team** are set to **Yes**.
+3. On the **Dynamics 365** details page, click the blue open button, then select Add to a team, Add to a chat, or Add to a meeting from the dropdown to integrate Dynamics 365.
 
    You can use the Dynamics 365 app or use a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can install the app for your personal use and install it for your Microsoft Teams later.
 
