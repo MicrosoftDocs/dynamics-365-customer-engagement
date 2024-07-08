@@ -15,7 +15,9 @@ ms.collection:
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
-Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for SMS. 
+Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for SMS.
+
+[!INCLUDE[cc-migrate-using-solutions](../../includes/cc-migrate-using-solutions.md)]
 
 For information on how to use the Configuration Migration tool, see the following articles: 
 
