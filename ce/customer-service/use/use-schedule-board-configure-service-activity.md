@@ -1,7 +1,7 @@
 ---
 title: Use the schedule board to configure service activity (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to schedule a service activity using the schedule board in Dynamics 365 Customer Service.
-ms.date: 12/06/2021
+ms.date: 07/08/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -15,13 +15,13 @@ ms.custom:
 
 # Use the schedule board to configure service activities
 
-In this article, we'll take a look at what's new and show you how to switch to the new schedule board in your environment. 
+This article explains the actions you can take to configure the schedule board in your environment. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the new schedule board in Dynamics 365, showing the resources and requirements.](../media/Schedule-Board-New-Overview-01.png)
 
 
-The new schedule board is faster, with better usability, and it lays the foundation for new capabilities for multi-day scheduling and intelligent interactions.
+The schedule board is designed to lay the foundation for new capabilities for multi-day scheduling and intelligent interactions.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the new schedule board in Dynamics 365, showing the resources.](../media/schedule-board-new.png)
@@ -29,11 +29,10 @@ The new schedule board is faster, with better usability, and it lays the foundat
 
 ### Performance
 
-The new schedule board is faster and more responsive when you do the following tasks: 
+The schedule board is designed for fast response e when you do the following tasks: 
 
 - Load the schedule board
 - Select schedule board tabs
-- Drag and drop service activities
 - Reschedule bookings
 
 > [!div class="mx-imgBorder"]
@@ -41,18 +40,18 @@ The new schedule board is faster and more responsive when you do the following t
 
 ### Usability and accessibility
 
-The new schedule board is a Power Apps Component Framework (PCF) control that's built on the Unified Client Interface, making it more flexible, supportable, and accessible. The new schedule board works better on different screen sizes and across form factors. 
+The schedule board is a Power Apps Component Framework (PCF) control that's built on the Unified Client Interface, making it more flexible, supportable, and accessible. The new schedule board works better on different screen sizes and across form factors. 
 
-New color schemes and ways of depicting travel time make it easier for schedulers to see statuses and details.
+Current color schemes and ways of depicting travel time help make it easier for schedulers to see statuses and details.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an outlined "ghost booking" to preview a schedule on the schedule board.](../media/schedule-board-new-drag.png "View of outlined booking to preview schedule")
 
-For instance, the previous screenshot shows a new "ghost booking" feature that helps schedulers know if a booking will fit into a schedule before the booking is even scheduled.
+For example, the preceding screenshot shows a "ghost booking" feature that helps schedulers know if a booking fits into a schedule before the booking is even scheduled.
 
 ### Foundation for new capabilities
 
-The new schedule board provides the foundation for future releases that will help provide schedulers with insights and recommendations for how to improve schedules.
+The schedule board provides the foundation for future releases that will help provide schedulers with insights and recommendations for how to improve schedules.
 
 ## Prerequisites
 
@@ -122,47 +121,47 @@ You can also drag the resource route to a nearby unscheduled requirement to sche
 
 ## Daily view
 
-The new schedule board supports a daily view of scheduled jobs, and supports dragging-and-dropping to the schedule.
+The schedule board supports a daily view of scheduled jobs, and supports dragging-and-dropping to the schedule.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the daily schedule view on the new schedule board.](../media/scheduling-new-daily-view-schedule1.png "View of daily schedule on board")
 
-Scheduled requirements with a short duration will display across the entire day to make it easier to view details. Hover over the requirement or double-click it to see the actual duration. 
+Scheduled requirements with a short duration display across the entire day to make it easier to view details. Hover over the requirement or double-click it to see the actual duration. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the new schedule board showing another daily view detail.](../media/scheduling-new-daily-view.png "View of daily view details")
 
 ## Weekly and monthly views
 
-Switch to the weekly or monthly views to see scheduled jobs at a higher level. Select a resource's time slot and a requirement below to trigger the booking panel.
+Switch to the weekly or monthly views to see scheduled jobs at a higher level. Select a resource's time slot and a requirement to trigger the booking panel.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the weekly view on the new Customer Service schedule board.](../media/schedule-board-new-weekly.png "Weekly view of new schedule board")
 
-The booking panel will help you schedule a service activity across multiple days and choose how the work should be divided each day.
+The booking panel helps you schedule a service activity across multiple days and choose how the work should be divided each day.
 
 ## Schedule resources
 
-Beyond manual drag-and-drop scheduling, organizations that use resource scheduling optimization can select one or more requirements from the new schedule board and either have the system **Suggest resources** or **Book resources**. This feature is currently in Preview for the organizations that are using Resource Scheduling Optimization.
+Beyond manual drag-and-drop scheduling, organizations that use resource scheduling optimization can select one or more requirements from the schedule board and either have the system **Suggest resources** or **Book resources**. This feature is currently in Preview for the organizations that are using Resource Scheduling Optimization.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the suggest resources option.](../media/scheduling-new-suggest-resources.png "View of suggest resources option")
 
-Selecting **Suggest resources** will display recommended resources in the right panel for the scheduler to book.
+Select **Suggest resources** to display recommended resources in the right panel for the scheduler to book.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the scheduling assistance preview.](../media/schedule-board-new-rso.png "View of scheduling assistance preview")
 
-Selecting **Book resources** will find the most optimal resources and book them without further actions from the scheduler.
+Select **Book resources** to find the most optimal resources and book them without requiring further actions from the scheduler.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the scheduling assistant preview showing suggestions.](../media/schedule-board-new-rso-suggest.png "View of scheduling assistant showing suggestions")
 
 **Suggest resources** and **Book resource** capabilities on the new schedule board are currently only available for organizations using resource scheduling optimization.
 
-Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources. Single resource optimization provides a quick way to reoptimize a resource's schedule and travel route after schedule changes have occurred during the day. This functionality is available on the new schedule board. You can right-click a resource from any schedule board view, and then select **Optimize Schedule**.
+Sometimes you might need to optimize only a single resource's schedule rather than a set of available resources. Single resource optimization provides a quick way to reoptimize a resource's schedule and travel route after schedule changes have occurred during the day. This functionality is available on the schedule board: Right-click a resource from any schedule board view, and then select **Optimize Schedule**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the optimize schedule for a resource.](../media/schedule-board-optimizer.png "View of optimized schedule for a resource")
@@ -175,7 +174,7 @@ Sometimes you might need to optimize only a single resource's schedule, rather t
 
 ## Move bookings to a new resource, a new start date and time, or both
 
-With Customer Service, the new schedule board provides an easy way to reassign and reschedule bookings in the same action. Bookings can be moved to resources on the current schedule board tab, or to resources on other schedule board tabs.
+In Customer Service, the new schedule board provides an easy way to reassign and reschedule bookings in the same action. Bookings can be moved to resources on the current schedule board tab, or to resources on other schedule board tabs.
 
 ### Move a booking to a resource on the current schedule board tab, or change the start date/time, or both
 
@@ -207,14 +206,14 @@ There's a default optimization goal that applies to the entire system and serves
 
 ## Edit multi-day bookings
 
-After you've created a multi-day booking across multiple days, weeks, or months, you can right-click the booking, select edit, and change how many hours are assigned for each day, week, or month via the booking panel on the right. 
+After you create a multi-day booking across multiple days, weeks, or months, you can right-click the booking, select **Edit**, and then change how many hours are assigned for each day, week, or month via the booking panel on the right. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a multi-day booking on the schedule board.](../media/schedule-board-new-edit-multiday-bookings.png "View of schedule board multi-day booking")
 
 ## Use the appointments feature in resource scheduling
 
-Organizations often use appointments in Dynamics 365. For example, an agent might create a service appointment to help a customer with an issue. Other examples include organizations creating appointments because of integrations with other systems.
+Organizations often use appointments in Dynamics 365. For example, an agent might create a service appointment to help a customer with an issue. Other examples include organizations that create appointments because of integrations with other systems.
 
 Dynamics 365 Appointments (Microsoft Dataverse appointments) can be displayed on the Customer Service schedule board alongside bookings, and can be considered during scheduling to understand whether an agent or bookable resource is available.
 
@@ -226,9 +225,9 @@ For information on how to configure and use appointment scheduling, see [Include
 
 ### When to use the new versus current schedule board
 
-The new schedule board is recommended for manual scheduling scenarios and for organizations that want to get up and running with a scheduling solution for schedulers. The new schedule board is designed and built to deliver improved performance and usability. Users who perform drag-and-drop scheduling or users who only need to see the schedule board can use the new schedule board during preview. Also, organizations using resource scheduling optimization should consider using the new schedule board because the resource scheduling optimization capabilities are embedded.
+The schedule board is recommended for manual scheduling scenarios and for organizations that want to get up and running with a scheduling solution for schedulers. The schedule board is designed and built to deliver improved performance and usability. Organizations that use resource scheduling optimization should consider using the schedule board because the resource scheduling optimization capabilities are embedded.
 
-The in-market schedule board is recommended for more complex scheduling scenarios like assisted scheduling, multi-resource scheduling, using requirement groups, and so on. 
+The in-market schedule board is recommended for more complex scheduling scenarios, like assisted scheduling, multi-resource scheduling, using requirement groups, and so on. 
 
 Use the following feature comparison table to understand which version of the schedule board is right for your business.
 
@@ -290,7 +289,7 @@ The following snippet is what it looks like after:
 
 ### Uninstall the schedule board
 
-To uninstall the new schedule board solution ("Resource Scheduling Controls"), perform the following steps.
+To uninstall the chedule board solution ("Resource Scheduling Controls"), perform the following steps.
 
 1. Go to the **Schedule Board Settings** entity customization form.
 2. Remove the new schedule board preview control from the grid.
