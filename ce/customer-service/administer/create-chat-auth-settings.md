@@ -158,7 +158,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
           | iss   | The issuer of the token. |
           | iat   | The date the token was issued, in numeric date format.  |
           | exp   | The expiration date of this token, in numeric date format.  |
-          | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the signed-in user. This GUID is used to identify and link the contact record to the conversation. The record search identifies records that have the active status code for contacts or accounts. Record identification won't work if you use custom status codes. |
+          | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the signed-in user. This GUID is used to identify and link the contact record to the conversation. The record search identifies records that have the active status code for contacts or accounts. Record identification doesn't work if you use custom status codes. |
 
       -  **lwicontexts** The context variables to pass in as part of the conversation, either for routing purposes or to display to the agent. <br>
             More information: <br>
