@@ -1,7 +1,7 @@
 ---
 title: "Sentiment monitoring | MicrosoftDocs"
 description: "This topic provides information on how supervisors can enable sentiment monitoring to understand customer sentiment across channels and improve customer service."
-ms.date: 07/01/2024
+ms.date: 07/08/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -40,21 +40,21 @@ To learn more, see [Explore Text Translator API](/azure/cognitive-services/trans
 
 ## Personas
 
-The multi-language sentiment feature (preview) supports the following personas: administrator, supervisor (team lead), and agent.
+The multi-language sentiment feature supports the following personas: administrator, supervisor (team lead), and agent.
 
 - If you're an administrator:
 
-   - You can configure sentiment for English only and non-English languages.
+   - You can configure sentiment for English-only and non-English languages.
        > [!NOTE]
        > Sentiment is enabled in by default.
 
 - If you're a supervisor (team lead):
 
-    - You can track agents' performance and engage in real time to continuously improve the support quality.
+    - You can track agent performance and engage in real time to continuously improve the support quality.
     
-        Example: Identifying negative sentiment events, including English profanity, in conversations between agents and customers.
+        Example: You can identify negative sentiment events, including English profanity, in conversations between agents and customers.
 
-    - When you identify negative sentiment, you can provide timely inputs to help an agent resolve an issue.
+    - When you identify negative sentiment, you can provide timely feedback to the agent to help them resolve an issue.
 
         Example: Monitor and join the conversation.
 
@@ -62,13 +62,13 @@ The multi-language sentiment feature (preview) supports the following personas: 
 
 - If you're an agent: 
 
-    - You want to know customers' sentiments in real time and see customer satisfaction levels instantly as you communicate.
+    - You want to know customer's sentiments in real time and see customer satisfaction levels instantly as you communicate with them.
 
     - You can be responsible for handling multiple customer engagements at any given time.
 
     - You can engage directly with the customer to solve the customer's issue.
 
-    - You can use analysis of customer sentiment to understand the severity of the problem, and take action. 
+    - You can use the analysis of customer sentiment to understand the severity of the problem and take action. 
 
 ## Sentiment intensity indicators
 
@@ -92,7 +92,7 @@ Sentiment intensity indicators are an automatic and unbiased measurement of a cu
 
 ## Low sentiment notification alert
 
-While an agent is communicating with the customer, and if the customer's sentiment decreases to or below a threshold level, you will get a notification. The notification displays the following details:
+While an agent is communicating with the customer, if the customer's sentiment decreases to or below a threshold level, you get a notification. The notification displays the following details:
 
 - Agent name
 - Customer
@@ -108,21 +108,22 @@ You can select the **Monitor** button to see the **Active Conversation** and the
 
 For example:
 
-Administrator has set the threshold value as **Very negative**. When the customer's sentiment reaches **Very negative** or any other sentiment value below the threshold value, the notification is displayed to you.
+An administrator has set the threshold value as **Very negative**. When the customer's sentiment reaches **Very negative** or any other sentiment value below the threshold value, the notification displays to you.
 
 ## Multi-language sentiment limitations
 
 Sentiment analysis relies on the initial customer messages in any conversation to detect the language of the conversation.  
 
-Expect the following system behavior:
+Expect the following system behaviors:
 
-- If a customer's initial messages are detected as English, the system assumes that subsequent messages will be in English as well. If your customer switches away from English after these initial messages, the system doesn't perform language re-detection. In this situation, you'll most often see a neutral sentiment score throughout the rest of the non-English conversation.
+- If a customer's initial messages are detected as English, the system assumes that subsequent messages are in English as well. If your customer switches away from English after these initial messages, the system doesn't perform language re-detection. In this situation, you most often see a neutral sentiment score throughout the rest of the non-English conversation.
 
-- If a customer's initial messages are detected as non-English, the system performs re-detection and scoring for subsequent messages. If any following message is detected as non-English, its subsequent message will be re-detected and scored according to its detected language.
+- If a customer's initial messages are detected as non-English, the system performs re-detection and scoring for subsequent messages. If any following messages are detected as non-English, the subsequent messages are re-detected and scored according to the detected language.
 
 ## Requirements
 
 Your environment must have the latest version of the application.
+
 ## Install and configure
 
 After you've signed up, see step 4 of [Enable sentiment analysis](../administer/enable-sentiment-analysis.md) to configure sentiment analysis.
