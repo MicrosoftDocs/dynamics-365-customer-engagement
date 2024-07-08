@@ -111,7 +111,7 @@ The following video provides information on how to view a conversation on the Ap
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1dmCE]
 
-### See also
+### Related information
 
 [Create and manage workstreams](create-workstreams.md#create-and-manage-workstreams)
 [Configure automated messages](configure-automated-message.md)  
