@@ -5,6 +5,7 @@ ms.date: 07/08/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ai-usage: ai-assisted
 ms.reviewer: lavanyakr
 ms.custom:
  - ai-gen-docs-bap
