@@ -41,8 +41,8 @@ You can create a chat authentication setting record in the admin app.
 
     - **Name**: Enter a name for the authentication setting.
     - **Owner:** Accept the default value or change it to a required value.
-    - **Authentication type:** By default, it's OAuth 2.0 implicit flow that can't be edited.
-    - **Public key URL**: Specify the public key URL of the domain. This URL is used to validate the information that comes in from the JavaScript Object Notation (JSON) Web Token (JWT) of the domain that a customer has signed in to.
+    - **Authentication type:** By default, OAuth 2.0 implicit flow can't be edited.
+    - **Public key URL**: Specify the public key URL of the domain. This URL is used to validate the information that comes in from the JavaScript Object Notation (JSON) Web Token (JWT) of the domain that a customer signed into.
     - **JavaScript client function**: Specify the JavaScript client function to use for authentication. This function extracts a token from the token endpoint.
 
         > [!div class=mx-imgBorder]
@@ -74,7 +74,7 @@ You can create a chat authentication setting record in the admin app.
    
 2. In the **Authentication settings** box, browse and select the chat authentication record.
 
-When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they're defined in the workstream that's associated with the chat widget. More information: [Manage context variables](manage-context-variables.md#considerations)
+When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are in the workstream associated with the chat widget. More information: [Manage context variables](manage-context-variables.md#considerations)
 
 ### Setup for Power Apps portals
 
@@ -158,7 +158,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
           | iss   | The issuer of the token. |
           | iat   | The date the token was issued, in numeric date format.  |
           | exp   | The expiration date of this token, in numeric date format.  |
-          | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the signed-in user. This GUID is used to identify and link the contact record to the conversation. The record search identifies records that have the active status code for contacts or accounts. If you use custom status codes, then record identification won't work. |
+          | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the signed-in user. This GUID is used to identify and link the contact record to the conversation. The record search identifies records that have the active status code for contacts or accounts. Record identification won't work if you use custom status codes. |
 
       -  **lwicontexts** The context variables to pass in as part of the conversation, either for routing purposes or to display to the agent. <br>
             More information: <br>
