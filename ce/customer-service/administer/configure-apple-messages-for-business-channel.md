@@ -77,7 +77,7 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
 
 1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 
-1. Optionally, you can add a bot. Skip this step if your conversations are handled by human agents only. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
+1. Optionally, you can add a bot. Skip this step only human agents handle your conversations. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
 
 1. In **Advanced settings**, configure the following options based on your business needs:<br>
       - [Sessions](session-templates.md)<br>
