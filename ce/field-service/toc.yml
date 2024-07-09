@@ -522,6 +522,8 @@ items:
           href: rso-single-resource-optimization.md
         - name: Simulations
           href: rso-simulation.md
+        - name: Get alerts for failed runs
+          href: rso-monitoring-alerting.md
     - name: Lock options for bookings
       href: booking-lock-options.md
     - name: Schedule multi-day requirements
