@@ -49,7 +49,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
  > [!NOTE]
  > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in Customer Service admin center or Contact Center admin center becomes invalid. An error message is also displayed in the connection string field in Customer Service admin center or Contact Center admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
 
-### Get application and tenant IDs from the Azure portal
+### Get Event Grid Application and tenant IDs from the Azure portal
 
 You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Customer Service admin center or Contact Center admin center. Perform the following steps to get these values:
 
@@ -151,6 +151,8 @@ To enable call recording and SMS services, you must first configure your applica
 
 
 #### Get event grid app and tenant IDs from the Power Apps portal
+[!NOTE]
+This method should only be used when there are issues getting the ids from the Azure Portal. To get the IDs from the Azure Portal, search for "app registrations" and find the registration for your connected ACS resource. You will copy the Application (client) ID to fill the event grid App id box and the Directory (tenant) ID to fill the event grid Tenant id box.
 
 1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
 
