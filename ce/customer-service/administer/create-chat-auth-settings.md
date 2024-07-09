@@ -48,7 +48,7 @@ You can create a chat authentication setting record in the admin app.
         > [!div class=mx-imgBorder]
         > ![Configure chat authentication setting record.](../media/chat-auth-settings.png "Configure chat authentication setting record")
 
-    Learn more about how to find the public key URL and JavaScript client function, in [Setup for Power Apps portals](#setup-for-power-apps-portals) or [Setup for custom portals](#setup-for-custom-portals) sections later in this article.
+    Learn more about how to find the public key URL and JavaScript client function in [Setup for Power Apps portals](#setup-for-power-apps-portals) or [Setup for custom portals](#setup-for-custom-portals) sections later in this article.
 
 1. Select **Save**.
 
