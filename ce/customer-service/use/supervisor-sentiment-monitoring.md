@@ -72,7 +72,7 @@ The multi-language sentiment feature supports the following personas: administra
 
 ## Sentiment intensity indicators
 
-Sentiment intensity indicators are an automatic and unbiased measurement of a customer's satisfaction level in real time. These indicators show agents and supervisors how a conversation is trending, and give supervisors a real-time gauge they can use to help them decide when they need to step in and assist.
+Sentiment intensity indicators are an automatic and unbiased measurement of a customer's satisfaction level in real time. These indicators show agents and supervisors how a conversation is trending, and give supervisors a real-time gauge to help them decide when they need to step in and assist.
 
 - For agents:
 
@@ -130,7 +130,7 @@ After you sign up, see step 4 of [Enable sentiment analysis](../administer/enabl
 
 ## Policy notice
 
-This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws that relate to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws that relate to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This customer responsibility also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 ### See also
 
