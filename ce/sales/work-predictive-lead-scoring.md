@@ -1,7 +1,7 @@
 ---
 title: Prioritize leads through predictive scores
 description: Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
-ms.date: 05/10/2023
+ms.date: 07/04/2024
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -48,6 +48,8 @@ The following considerations apply for real-time scoring:
 The **My Open Leads Scored** system view is available when predictive lead scoring is enabled in your organization. This view provides a list of leads with different parameters including lead score, lead grade, and lead score trend. 
 
 :::image type="content" source="media/my-open-lead-score-view.png" alt-text="Screenshot of the My Open Leads Scored view.":::
+
+Don't see the scores for your leads? Check out this [FAQ](faq-lead.md#leads-not-scored).
 
 Legend:
 
