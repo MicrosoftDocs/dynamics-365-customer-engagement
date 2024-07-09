@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing.
-ms.date: 03/21/2024
+ms.date: 07/08/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -103,7 +103,7 @@ The assignment cycle starts with one of the following triggers:
 
 - Arrival of a new work item in the queue.
 - Change to agent presence.
-- Updates to agent capacity.
+- Updates to agent capacity: If capacity is updated at runtime then change in capacity triggers assignment. If capacity is updated manually, the change doesn't trigger assignment. 
 - Addition of an agent to the queue.
 - Periodic trigger every five minutes for record type of work item.
 
