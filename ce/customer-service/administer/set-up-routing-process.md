@@ -12,6 +12,9 @@ ms.custom: bap-template
 
 # How to set up unified routing
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+
 In this article, we'll take you through the high-level process of configuring unified routing in Customer Service.
 
 > [!NOTE]

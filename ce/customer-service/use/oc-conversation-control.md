@@ -1,6 +1,6 @@
 ---
-title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
-description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
+title: View the communication panel for conversations
+description: Learn what you can do as an agent in the communication panel when you interact with the customer.
 ms.date: 04/12/2024
 ms.topic: article
 author: neeranelli
@@ -9,7 +9,7 @@ ms.author: nenellim
 
 # View the communication panel for conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, the communication panel is in hidden mode by default. You can view the communication panel only when you accept an incoming conversation to communicate with the customer.
 
@@ -102,11 +102,11 @@ The following events occur when you select the **Consult** button:
 
 - The secondary agent receives a notification for the consult request.
 
-- When the secondary agent accepts the consult request, a separate pane with an option to end opens beside the communication panel for the primary agent.
+- When the secondary agent accepts the consult request, a separate pane with an option to end opens beside the communication panel for the primary agent. 
  
    :::image type="content" source="../media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary agent.":::
 
-- The secondary agent sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary agent and customer.
+- The secondary agent sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary agent and customer. Consulting on a chat conversation doesn't affect the secondary agent's capacity.
    
 - The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
 
@@ -159,6 +159,9 @@ Use the notes option to capture information specific to the conversation when yo
 To learn more, see [Take notes specific to conversation](oc-take-notes.md).
 
 ## Link to conversations
+
+> [!Note]
+> Link to conversation isn't applicable to the embed experience.
 
 When you have a conversation with a customer, you can use the link option that's at the bottom of the conversation control to link the conversation to the case, account, or contact record.
 

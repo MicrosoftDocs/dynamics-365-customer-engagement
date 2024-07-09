@@ -8,7 +8,6 @@ ms.author: nenellim
 ---
 # Omnichannel system customizers
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 

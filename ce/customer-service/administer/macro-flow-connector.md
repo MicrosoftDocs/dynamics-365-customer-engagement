@@ -10,6 +10,8 @@ ms.custom: bap-template
 ---
 # Use flow connectors
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 Flow connectors allow you to trigger Power Automate flows. You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service and Customer Service workspace.
 
 ## Power Automate flow permissions

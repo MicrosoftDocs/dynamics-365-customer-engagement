@@ -10,8 +10,6 @@ ms.reviewer: nenellim
 
 # Pass authentication token to bot during single sign-on in live chat
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 With single sign-on (SSO) in Omnichannel for Customer Service, your bots can perform secure actions on behalf of the customer during an ongoing customer conversation.​ This provides a seamless, personalized, and secure experience for the customer, thereby improving customer satisfaction.

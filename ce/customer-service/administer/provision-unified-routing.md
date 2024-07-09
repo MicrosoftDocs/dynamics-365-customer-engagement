@@ -12,6 +12,11 @@ ms.custom: bap-template
 
 # Provision unified routing for Customer Service
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!NOTE]
+> Case information is applicable only to Customer Service.
+
 Perform the steps mentioned in this topic to provision unified routing in Customer Service. By default, unified routing is not enabled if only Customer Service is installed.
 
 ## Prerequisites
@@ -26,7 +31,7 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 ## Provision unified routing for Customer Service only
 
-1. In the site map of Customer Service admin center, select **Routing**. The **Routing** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Routing**. The **Routing** page appears.
    
 1. Select **Manage** for **Turn on Unified Routing for Records**.
 

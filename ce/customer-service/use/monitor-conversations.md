@@ -8,7 +8,7 @@ ms.author: nenellim
 ---
 # Monitor, assign, transfer, and forcibly end conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
@@ -26,7 +26,7 @@ As a supervisor, you can monitor or assign conversations that are configured for
 
 You can't monitor conversations that are assigned to you.
 
-1. Sign in to Dynamics 365 and go to the Customer Service workspace or Omnichannel for Customer Service app.
+1. Sign in to Dynamics 365 and go to the Customer Service workspace or Contact Center workspace app.
 
 2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
     The list of conversations currently being handled by your agents is displayed.
@@ -42,7 +42,7 @@ You can't monitor conversations that are assigned to you.
 
 To manually assign a conversation, the conversation should be in an open state and not assigned to any agent. As a supervisor, you can override the agent's presence and allocated capacity when assigning conversations to them. When you override agent capacity, the number of units by which their capacity is exceeded is displayed.
 
-1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
+1. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
 
 2. Select a conversation in an **Open** state, and then select **Assign**.
 
@@ -64,7 +64,7 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 You can transfer conversations to and from agents only, not bots.
 
-1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
+1. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
 
 2. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**.
 
@@ -83,7 +83,7 @@ When you transfer an **Active** conversation from one agent to another, the firs
 
 End voice calls and conversations that take place on the voice and messaging channels. After the conversation ends, its status is set to **Closed**.
 
-1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
+1. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
 
 2. Select a conversation and then select **Force Close**.
 

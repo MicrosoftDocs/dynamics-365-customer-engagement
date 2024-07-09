@@ -3,7 +3,7 @@ title: Set up frontline workers in your organization (contains video)
 description: Learn how to set up frontline workers through the Dynamics 365 Field Service get started page.
 ms.author: jacoh
 author: jasonccohen
-ms.date: 10/19/2023
+ms.date: 07/09/2024
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -18,7 +18,7 @@ On the [**Get started** page](field-service-get-started.md), admins can use a si
 
 ## Prerequisites
 
-- Your organization's global admin or system admin must have a Microsoft 365 [administrator account](/microsoft-365/admin/add-users/about-admin-roles).
+- Your organization's admin must have a Microsoft 365 [administrator account](/microsoft-365/admin/add-users/about-admin-roles).
 - Each frontline worker must have a Field Service license assigned through the [Microsoft 365 admin center](https://admin.microsoft.com). [Learn how to assign licenses](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ## Set up frontline workers
@@ -37,7 +37,7 @@ On the [**Get started** page](field-service-get-started.md), admins can use a si
    - **Field Security Profile** choose the [column-level security profile to control access](/power-platform/admin/field-level-security) for your frontline workers. You can add multiple field security profiles, including custom field security profiles.
    - **Mobile Offline Profile** sets the [default mobile offline profile](mobile-power-app-system-offline.md) your frontline workers. Only published mobile offline profiles show in the list.
 
-1. Select the checkbox to send an email to newly created frontline workers with a link to download the mobile app. If you can't send an email to frontline workers, get your email address approved by the global admin. For  more information, see [Add and approve email addresses](frontline-worker-set-up-email-approval.md).
+1. Select the checkbox to send an email to newly created frontline workers with a link to download the mobile app. If you can't send an email to frontline workers, get your email address approved by your admin. For more information, see [Add and approve email addresses](frontline-worker-set-up-email-approval.md).
 
 1. Select **Save and close** to create the frontline workers as bookable resources.
 

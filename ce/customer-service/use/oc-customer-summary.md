@@ -11,8 +11,6 @@ ms.custom: bap-template
 
 # View customer information on Active Conversation form
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 > [!IMPORTANT]
 > The **Customer Summary** form is renamed as **Active Conversation** form.
 

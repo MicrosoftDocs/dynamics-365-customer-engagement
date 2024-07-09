@@ -11,7 +11,7 @@ ms.collection:
 ---
 # Configure a WeChat channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 ## WeChat channel
 

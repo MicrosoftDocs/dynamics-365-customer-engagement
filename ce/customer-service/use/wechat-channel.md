@@ -9,11 +9,9 @@ ms.author: nenellim
 
 # Use a WeChat channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-## Agent dashboard for WeChat channel
-
-When you sign in to the Omnichannel Add-in for Dynamics 365 Customer Service, you can see your work items on the Omnichannel Agent Dashboard. More information: [View agent dashboard and agent conversations](oc-agent-dashboard.md)
+When you sign in you can see your work items on the agent dashboard. More information: [View agent dashboard and agent conversations](oc-agent-dashboard.md)
 
 ## Prerequisites
 
@@ -26,7 +24,7 @@ You'll receive a notification when a customer requests a conversation through We
 > [!div class=mx-imgBorder]
 > ![WeChat chat agent notification.](../media/incoming-chat-wechat.png "WeChat chat agent notification")
 
-In Omnichannel for Customer Service, you can:
+In the application, you can:
 
 - [View customer information on Active Conversation form](oc-customer-summary.md).
 - [View the communication panel](oc-conversation-control.md).
