@@ -19,13 +19,13 @@ For information about older versions, see [Version history archive](version-hist
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.120.18](/dynamics365/field-service/version-history#8812018)  | TBD |07/12/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.119.15](/dynamics365/field-service/version-history#8811915)  |  [8.8.120.18](/dynamics365/field-service/version-history#8812018) |07/05/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.120.18](/dynamics365/field-service/version-history#8812018)  |  TBD |07/19/2024 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.119.15](/dynamics365/field-service/version-history#8811915)  |  [8.8.120.18](/dynamics365/field-service/version-history#8812018) |07/12/2024 |
-| | *USG* |   [8.8.119.15](/dynamics365/field-service/version-history#8811915)  |  [8.8.120.18](/dynamics365/field-service/version-history#8812018) |07/05/2024 |
-|**Station 4** |*Europe* | [8.8.118.19](/dynamics365/field-service/version-history#8811819) |  [8.8.119.15](/dynamics365/field-service/version-history#8811915)   | 07/05/2024 |
-|**Station 5** | *North America*|  [8.8.117.34](/dynamics365/field-service/version-history#8811734)  | [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | 07/05/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.117.34](/dynamics365/field-service/version-history#8811734)  | [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | 07/05/2024 |
-| | *Dedicated Scale Groups* |    [8.8.117.34](/dynamics365/field-service/version-history#8811734)  | [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | 07/12/2024 |
+| | *USG* |   [8.8.120.18](/dynamics365/field-service/version-history#8812018)  |  TBD |07/19/2024 |
+|**Station 4** |*Europe* | [8.8.119.15](/dynamics365/field-service/version-history#8811915) |  [8.8.120.18](/dynamics365/field-service/version-history#8812018)   | 07/19/2024 |
+|**Station 5** | *North America*|  [8.8.118.21](/dynamics365/field-service/version-history#8811821)  | [8.8.119.15](/dynamics365/field-service/version-history#8811915)  | 07/12/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.117.35](/dynamics365/field-service/version-history#8811735)  | [8.8.118.21](/dynamics365/field-service/version-history#8811821)  | 07/12/2024 |
+| | *Dedicated Scale Groups* |    [8.8.117.35](/dynamics365/field-service/version-history#8811735)  | [8.8.118.21](/dynamics365/field-service/version-history#8811821)  | 07/12/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
@@ -51,6 +51,11 @@ This release is a hotfix on Field Service version [8.8.119.14](/dynamics365/fiel
   tasks, not booking durations.
 - Work order task width now dynamically displays based on length of task name.
 
+## 8.8.118.21
+
+This release is a hotfix on Field Service version [8.8.118.19](/dynamics365/field-service/version-history#8811819)
+
+- Prevented copilot installation for CHN, DOC, USG, GCC, and SGP regions
 
 ## 8.8.118.19
 
@@ -62,6 +67,12 @@ This release is a hotfix on Field Service version [8.8.118.17](/dynamics365/fiel
 (Includes Universal Resource Scheduling version [3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) and Resource Scheduling controls version 1.2.71.241432).
 
 - You can now edit and delete child records of inactive primary work order incidents.
+
+## 8.8.117.35
+
+This release is a hotfix on Field Service version [8.8.117.34](/dynamics365/field-service/version-history#8811734)
+
+- Prevented copilot installation for CHN, DOC, USG, GCC, and SGP regions
 
 ## 8.8.117.34
 
