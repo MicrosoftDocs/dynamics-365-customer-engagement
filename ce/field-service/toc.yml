@@ -522,6 +522,8 @@ items:
           href: rso-single-resource-optimization.md
         - name: Simulations
           href: rso-simulation.md
+        - name: Get alerts for failed runs
+          href: rso-monitoring-alerting.md
     - name: Lock options for bookings
       href: booking-lock-options.md
     - name: Schedule multi-day requirements
@@ -568,6 +570,8 @@ items:
       href: field-service-customize-forms.md
     - name: Write complex business logic (plugins + JavaScript)
       href: field-service-customize-scripts.md
+    - name: Customize the booking card
+      href: customize-booking-card.md
 
 - name: Troubleshooting and FAQ
   items:
