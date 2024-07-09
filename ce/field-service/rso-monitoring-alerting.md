@@ -36,7 +36,7 @@ Resource Scheduling Optimization runs can fail due to various reasons. As a best
       OptimizationStatus is equal to 192350004
    ```
 
-   192350003 represents a canceled optimization request and 192350004 stands for a failed request.
+   `192350003` represents a canceled optimization request and `192350004` stands for a failed request.
 
 1. In the **True** branch of the condition, add an action and choose **Send an email notification (V3)**.
 1. Configure the parameters for the email notification. To include column values in the subject or body, select the lightning and choose the name of the column in the filter box.
