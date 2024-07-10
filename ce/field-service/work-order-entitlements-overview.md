@@ -12,7 +12,7 @@ ms.author: lmasieri
 
 # Entitlements for work orders overview
 
-Entitlements for work orders allow field service organizations to dynamically apply price lists and discounts to work order products and services based on work order attributes and date range factors. This parallels how organizations might offer case entitlements in Dynamics 365 Customer Service. Entitlements can't change the cost of a product or service, only the price.
+Entitlements for work orders allow field service organizations to dynamically apply price lists and discounts to work order products and services based on work order attributes and date range factors. Entitlements for work orders parallel how organizations might offer case entitlements in Dynamics 365 Customer Service. Entitlements can't change the cost of a product or service, only the price.
 
 Entitlements can be applied to work orders based on:
 
@@ -27,7 +27,7 @@ Entitlements for work orders don't support quantity-based and limit-based entitl
 
 ## Entitlement applications
 
-You can also create an entitlement with an entitlement application which adds more constraints on when an entitlement should apply to work order products and services. Entitlement applications include:
+You can also create an entitlement with an entitlement application, which adds more constraints on when an entitlement should apply to work order products and services. Entitlement applications include:
 
 - **Service Account:** If the service account here matches the work order service account, then the entitlement is applied to all work order products and services.
 
@@ -49,7 +49,7 @@ However, one entitlement is selected by default. The system first looks at the *
 
 If no priority values exist or priority values are equal, the system selects the most specific entitlement.
 
-Using our previous examples, the second scenario entitlement is applicable based on the billing account and the customer asset category, whereas the first scenario entitlement is applicable based only on the billing account. In this case, the second scenario entitlement is more specific, since it's based on two factors.
+In the previous examples, the second scenario entitlement is based on the billing account and the customer asset category, whereas the first scenario entitlement is based only on the billing account. In this case, the second scenario entitlement is more specific, since it contains two factors.
 
 Even if multiple entitlements apply and one is chosen by default, you can manually override or disable an entitlement.
 

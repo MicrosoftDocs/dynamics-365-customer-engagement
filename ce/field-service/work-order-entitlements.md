@@ -39,14 +39,14 @@ This article provides two scenarios for entitlements for work orders:
 
 ## Scenario 1: Entitlement for price list and discount
 
-In our first scenario, an organization wants to offer a customer a 10% discount for two years on all work order products and services based on a preset price list. 
+In this scenario, an organization wants to offer a customer a 10% discount for two years on all work order products and services based on a preset price list.
 
 > [!NOTE]
 > For a different scenario where you want to apply a 10% discount on products and a 20% discount on services, create two entitlements.
 
 ### Create a price list and add a product
 
-To create an entitlement that adds a price list and a discount to work order products and services, you must first have a price list with associated products.
+For this scenario, you must have a price list with associated products.
 
 1. [Create a price list](create-price-list.md#create-a-price-list).
 
@@ -65,7 +65,7 @@ To create an entitlement that adds a price list and a discount to work order pro
 
    - **Name**: Enter a unique name.
 
-   - **Primary Customer:** Select the [account](accounts.md) for this entitlement. If the account chosen is later listed as the billing account of a work order, then this entitlement can be eligible. An entitlement can only apply to one customer; however, a billing account can be related to multiple service accounts, so work orders for multiple locations can have entitlements applied to all of them as long as the billing account is the same.
+   - **Primary Customer:** Select the [account](accounts.md) for this entitlement. If the account chosen is later listed as the billing account of a work order, then this entitlement can be eligible. An entitlement can only apply to one customer. However, a billing account can be related to multiple service accounts. So work orders for multiple locations can have entitlements applied to all of them as long as the billing account is the same.
 
    - **Start/End Date:** Select the date range during which this entitlement is valid. If a valid work order is created within this range, the entitlement is applied.
 
@@ -77,7 +77,7 @@ To create an entitlement that adds a price list and a discount to work order pro
 
    - **Price List to Apply:** Select the price list that you want applied to the work order product and service when the entitlement is applied.
 
-   - **% Discount:** Enter the percentage to discount off the price of the work order product or service. If a Price List is applied, and the product or service is part of the price list, this value discounts the price list price. If it is not part of the price list, this value discounts the list price on the product record.
+   - **% Discount:** Enter the percentage to discount off the price of the work order product or service. If a Price List is applied, and the product or service is part of the price list, this value discounts the price list price. If it isn't part of the price list, this value discounts the list price on the product record.
 
    - **Entitlement Prioritization:** If applicable, enter a number that represents the priority of this entitlement for instances when multiple entitlements apply to a single work order product or service. Entering "1" represents the highest priority.
 
@@ -141,6 +141,6 @@ In our second scenario, an organization wants to offer a customer free work orde
 
 1. Select the **Estimate Information** tab. The 100% discount is applied, rendering the work order products as free. If services are included in the entitlement, the same discount applies to them.
 
-   :::image type="content" source="media/entitlement-work-order-product2-discount.svg" alt-text="Screenshot of discount making the work order product free..":::
+   :::image type="content" source="media/entitlement-work-order-product2-discount.svg" alt-text="Screenshot of discount making the work order product free.":::
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
