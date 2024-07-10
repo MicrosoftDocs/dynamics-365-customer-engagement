@@ -79,7 +79,7 @@ For this scenario, you must have a price list with associated products.
 
    - **% Discount:** Enter the percentage to discount off the price of the work order product or service. If a Price List is applied, and the product or service is part of the price list, this value discounts the price list price. If it isn't part of the price list, this value discounts the list price on the product record.
 
-   - **Entitlement Prioritization:** If applicable, enter a number that represents the priority of this entitlement for instances when multiple entitlements apply to a single work order product or service. Entering "1" represents the highest priority.
+   - **Entitlement Prioritization:** For instances when multiple entitlements apply to a single work order product or service, enter a number that represents the priority of this entitlement. Entering "1" represents the highest priority.
 
    > [!NOTE]
    > If you add products or services to the entitlement on the **Products** subgrid, the entitlement applies when the product or service matches the work order product or service.  
@@ -96,13 +96,13 @@ To use the entitlement, create a work order.
 
 1. Select the **Products and services** tab and create a product or service record. Open the product or service record.
 
-1. Select the **Other** tab. The entitlement is automatically chosen which overrides the price list on the work order with the price list on the entitlement.
+1. Select the **Other** tab. The entitlement is automatically chosen which overrides the price list on the work order with the price list on the entitlement. In the case of [multiple entitlements](work-order-entitlements-overview.md#multiple-entitlements), the default entitlement is chosen.
 
    :::image type="content" source="media/entitlement-work-order-product1.svg" alt-text="Screenshot of entitlement applied to work order product.":::
 
-   When the work order product **Line Status** is changed from **Estimated** to **Used**, the discount percentage is applied and changes the **Estimate Total Amount**.
+When the work order product **Line Status** is changed from **Estimated** to **Used**, the discount percentage is applied and changes the **Estimate Total Amount**.
 
-   :::image type="content" source="media/entitlement-work-order-product-discount.svg" alt-text="Screenshot of discount applied to work order product from the entitlement.":::
+:::image type="content" source="media/entitlement-work-order-product-discount.svg" alt-text="Screenshot of discount applied to work order product from the entitlement.":::
 
 ## Scenario 2: Entitlement for free products and services for an asset category
 

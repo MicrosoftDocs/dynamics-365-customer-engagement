@@ -21,8 +21,8 @@
     <g data-stacking-context="true" data-tag="div" data-z-index="auto">
      <g data-stacking-context="true" data-tag="div" data-z-index="auto">
       <g data-stacking-context="true" data-tag="div" data-z-index="auto">
-       <g mask="url(#jk)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
-        <mask id="jk">
+       <g mask="url(#jr)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+        <mask id="jr">
          <rect width="1010" height="760" fill="#fff"/>
          <rect x="-1e3" width="164.48" height="48" fill="#fff"/>
         </mask>
@@ -89,8 +89,8 @@
                  <text color="rgb(15, 108, 189)" dominant-baseline="text-after-edge" fill="rgb(15, 108, 189)" font-family="FabricMDL2Icons" font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(15, 108, 189)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
                 </g>
                </g>
-               <g mask="url(#je)" aria-disabled="true" aria-labelledby="" aria-placeholder="Search" data-stacking-context="true" data-tag="input" data-z-index="auto" role="searchbox">
-                <mask id="je">
+               <g mask="url(#jx)" aria-disabled="true" aria-labelledby="" aria-placeholder="Search" data-stacking-context="true" data-tag="input" data-z-index="auto" role="searchbox">
+                <mask id="jx">
                  <rect x="48.21" y="10.1" width="947.57" height="27.8" fill="#fff"/>
                 </mask>
                </g>
@@ -1075,8 +1075,8 @@
                   </g>
                  </g>
                 </g>
-                <g mask="url(#j)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-                 <mask id="j">
+                <g mask="url(#jy)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                 <mask id="jy">
                   <rect width="0" height="0" fill="#fff"/>
                  </mask>
                 </g>
@@ -1100,8 +1100,8 @@
                   </g>
                  </g>
                 </g>
-                <g mask="url(#i)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-                 <mask id="i">
+                <g mask="url(#jz)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                 <mask id="jz">
                   <rect width="0" height="0" fill="#fff"/>
                  </mask>
                 </g>
@@ -1119,8 +1119,8 @@
                   </g>
                  </g>
                 </g>
-                <g mask="url(#h)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-                 <mask id="h">
+                <g mask="url(#ka)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                 <mask id="ka">
                   <rect width="0" height="0" fill="#fff"/>
                  </mask>
                 </g>
@@ -1138,8 +1138,8 @@
                   </g>
                  </g>
                 </g>
-                <g mask="url(#g)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-                 <mask id="g">
+                <g mask="url(#kb)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                 <mask id="kb">
                   <rect width="0" height="0" fill="#fff"/>
                  </mask>
                 </g>
@@ -1157,8 +1157,8 @@
                   </g>
                  </g>
                 </g>
-                <g mask="url(#f)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-                 <mask id="f">
+                <g mask="url(#kc)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                 <mask id="kc">
                   <rect width="0" height="0" fill="#fff"/>
                  </mask>
                 </g>
@@ -1182,8 +1182,8 @@
                   </g>
                  </g>
                 </g>
-                <g mask="url(#e)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-                 <mask id="e">
+                <g mask="url(#kd)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                 <mask id="kd">
                   <rect width="0" height="0" fill="#fff"/>
                  </mask>
                 </g>
@@ -1207,8 +1207,8 @@
                   </g>
                  </g>
                 </g>
-                <g mask="url(#d)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-                 <mask id="d">
+                <g mask="url(#ke)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                 <mask id="ke">
                   <rect width="0" height="0" fill="#fff"/>
                  </mask>
                 </g>
@@ -1232,8 +1232,8 @@
                   </g>
                  </g>
                 </g>
-                <g mask="url(#c)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-                 <mask id="c">
+                <g mask="url(#kf)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                 <mask id="kf">
                   <rect width="0" height="0" fill="#fff"/>
                  </mask>
                 </g>
@@ -1257,8 +1257,8 @@
                   </g>
                  </g>
                 </g>
-                <g mask="url(#b)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-                 <mask id="b">
+                <g mask="url(#kg)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                 <mask id="kg">
                   <rect width="0" height="0" fill="#fff"/>
                  </mask>
                 </g>
@@ -1276,8 +1276,8 @@
                   </g>
                  </g>
                 </g>
-                <g mask="url(#a)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-                 <mask id="a">
+                <g mask="url(#kh)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                 <mask id="kh">
                   <rect width="0" height="0" fill="#fff"/>
                  </mask>
                 </g>
@@ -1305,11 +1305,11 @@
          <g data-stacking-context="true" data-tag="div" data-z-index="auto" tabindex="-1">
           <g data-stacking-layer="rootBackgroundAndBorders">
            <defs>
-            <filter id="jn" x="0" y="0" width="1" height="1">
+            <filter id="jo" x="0" y="0" width="1" height="1">
              <feDropShadow dx="0" dy="8" flood-color="rgba(0, 0, 0, 0.26)" stdDeviation="16"/>
             </filter>
            </defs>
-           <rect x="43.99" y="48" width="966.01" height="712" fill="#f0f0f0" filter="url(#jn)"/>
+           <rect x="43.99" y="48" width="966.01" height="712" fill="#f0f0f0" filter="url(#jo)"/>
           </g>
           <g mask="url(#be)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
            <mask id="be">
@@ -1363,11 +1363,11 @@
                      <g aria-label="General" data-stacking-context="true" data-tag="section" data-z-index="auto" role="region">
                       <g data-stacking-layer="rootBackgroundAndBorders">
                        <defs>
-                        <filter id="jl" x="0" y="0" width="1" height="1">
+                        <filter id="jq" x="0" y="0" width="1" height="1">
                          <feDropShadow dx="0" dy="2" flood-color="rgba(0, 0, 0, 0.26)" stdDeviation="4"/>
                         </filter>
                        </defs>
-                       <rect x="59.98" y="264.25" width="882.14" height="358.11" rx="4" ry="4" fill="#fff" filter="url(#jl)"/>
+                       <rect x="59.98" y="264.25" width="882.14" height="358.11" rx="4" ry="4" fill="#fff" filter="url(#jq)"/>
                       </g>
                       <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
                        <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
@@ -2131,11 +2131,11 @@
                     </g>
                     <g data-stacking-layer="rootBackgroundAndBorders">
                      <defs>
-                      <filter id="jm" x="0" y="0" width="1" height="1">
+                      <filter id="jp" x="0" y="0" width="1" height="1">
                        <feDropShadow dx="0" dy="2" flood-color="rgba(0, 0, 0, 0.26)" stdDeviation="4"/>
                       </filter>
                      </defs>
-                     <rect x="59.98" y="125.09" width="881.91" height="123.18" rx="4" ry="4" fill="#fff" filter="url(#jm)"/>
+                     <rect x="59.98" y="125.09" width="881.91" height="123.18" rx="4" ry="4" fill="#fff" filter="url(#jp)"/>
                     </g>
                     <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
                      <g data-stacking-layer="rootBackgroundAndBorders">
@@ -2343,8 +2343,8 @@
                           <g data-stacking-context="true" data-tag="div" data-z-index="auto">
                            <g data-stacking-context="true" data-tag="div" data-z-index="auto">
                             <g data-stacking-context="true" data-tag="div" data-z-index="auto">
-                             <g mask="url(#jf)" aria-haspopup="menu" aria-label="View Prompts" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button" tabindex="0">
-                              <mask id="jf">
+                             <g mask="url(#jw)" aria-haspopup="menu" aria-label="View Prompts" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button" tabindex="0">
+                              <mask id="jw">
                                <rect width="0" height="0" fill="#fff"/>
                               </mask>
                               <g data-stacking-context="true" data-tag="span" data-z-index="auto">
@@ -2461,13 +2461,13 @@
      </g>
     </g>
    </g>
-   <g mask="url(#jh)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
-    <mask id="jh">
+   <g mask="url(#ju)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="ju">
      <rect y="15.56" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
-   <g mask="url(#jj)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
-    <mask id="jj">
+   <g mask="url(#js)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="js">
      <rect y="34.44" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
@@ -2494,13 +2494,13 @@
    <g aria-atomic="true" aria-live="assertive" data-stacking-context="true" data-tag="div" data-z-index="auto">
     <text color="rgb(102, 102, 102)" dominant-baseline="text-after-edge" fill="rgb(102, 102, 102)" font-family='SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(102, 102, 102)" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
    </g>
-   <g mask="url(#ji)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
-    <mask id="ji">
+   <g mask="url(#jt)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="jt">
      <rect y="72.22" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
-   <g mask="url(#jg)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
-    <mask id="jg">
+   <g mask="url(#jv)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="jv">
      <rect y="72.22" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
@@ -2620,5 +2620,5 @@ src: local("FSI-FluentUIIcons");
 font-family: "Segoe MDL2 Assets";			
 src: local("Segoe MDL2 Assets");			
 }</style>
- <path d="m73.311 419.38h560.12c2.1115 0 3.8113 0.14212 3.8113 0.31866v46.723c0 0.17654-1.6998 0.31866-3.8113 0.31866h-560.12c-2.1115 0-3.8113-0.14212-3.8113-0.31866v-46.723c0-0.17654 1.6998-0.31866 3.8113-0.31866z" fill="none" stroke="#e91c1c" stroke-width="3"/>
+ <path d="m77.78 420.54h499.03c1.8812 0 3.3956 0.14261 3.3956 0.31975v46.884c0 0.17714-1.5144 0.31975-3.3956 0.31975h-499.03c-1.8812 0-3.3956-0.14261-3.3956-0.31975v-46.884c0-0.17714 1.5144-0.31975 3.3956-0.31975z" fill="none" stroke="#e91c1c" stroke-width="3"/>
 </svg>

@@ -43,15 +43,13 @@ Entitlement applications use AND logic. This means that if you specify a service
 
 You can apply multiple entitlements to a single work order product or service. Entitlements can be applied based on different work order and work order product and service attributes. For example, an entitlement can apply based on a work order billing account or a customer asset category. To learn how to create an entitlement for both of these scenarios, go to [Create entitlements for work orders](work-order-entitlements.md).
 
-In such cases, all applicable entitlements show as options in the **Entitlement** lookup field for the work order.
-
-However, one entitlement is selected by default. The system first looks at the **Entitlement Prioritization** values of all applicable entitlements and selects the one with the highest priority (1 being the highest priority). Any priority value is greater than a blank priority value.
+In such cases, all applicable entitlements show as options in the **Entitlement** lookup field for the work order. However, the system selects one entitlement by default. The system first looks at the **Entitlement Prioritization** values of all applicable entitlements and selects the one with the highest priority (1 being the highest priority). Any priority value is greater than a blank priority value. 
 
 If no priority values exist or priority values are equal, the system selects the most specific entitlement.
 
 In the previous examples, the second scenario entitlement is based on the billing account and the customer asset category, whereas the first scenario entitlement is based only on the billing account. In this case, the second scenario entitlement is more specific, since it contains two factors.
 
-Even if multiple entitlements apply and one is chosen by default, you can manually override or disable an entitlement.
+You can manually override or disable an entitlement.
 
 For simpler scenarios, administrators can use the relationship between work order types, incident types, and price lists. Selecting an incident type can populate a work order type, and populating a work order type can populate a price list on the work order. Configure these scenarios during the [incident type](configure-incident-types.md) and [work order type](create-work-order-types.md) setup. Adding a price list to a work order populates the price lists on work order products and services by default, but can be manually edited as needed.
 
