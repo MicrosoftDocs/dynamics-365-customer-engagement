@@ -19,7 +19,7 @@ This setting enables appointment scheduling for all resources in your organizati
 
 1. Open the **Resource Scheduling** app.
 
-1. Change to the **Settings** area and go to **Administration** > **Scheduling Parameters** and s
+1. Change to the **Settings** area and go to **Administration** > **Scheduling Parameters**.
 
 1. Set **Include Appointments** to **Yes**.
 
