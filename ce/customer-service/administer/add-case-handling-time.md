@@ -1,5 +1,5 @@
 ---
-title: Display case handling time on custom case forms
+title: Display case handling time on case forms (preview)
 description: Use this article to learn how to add case handling time on custom case forms.
 author: gandhamm 
 ms.author: mgandham
