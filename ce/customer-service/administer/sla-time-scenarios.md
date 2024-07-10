@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 07/05/2024
+ms.date: 07/10/2024
 ms.custom: bap-template
 ---
 
@@ -262,17 +262,17 @@ The active duration is 30 min and SLA expires at 12:40 AM as the case was paused
 
 When you use custom time calculation for SLA KPIs, the active duration isn't calculated cumulatively by default. You need to create a custom time calculation plug-in for active duration to be cumulative. More information: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis-1)
 
-> [!NOTE]
-> If two SLA Items are created on two SLA KPI Instances but with the same SLA KPI, then the pause and resume time of the first SLA KPI instance isn't considered in the time calculation for the second SLA KPI Instance.
+#### Additional scenarios
 
-Here's an example.
+- If two SLA KPI Instances are created for two SLA Items but with the same SLA KPI, then the pause and resume time of the first SLA KPI Instance isn't considered in the time calculation of the second SLA KPI Instance.
 
-Two SLA Items (SLAItem 1 and SLAItem 2) are created with the same SLAKPI, for example SLAKPI 1. The SLAKPI Instance 1 for SLAItem 1 is created on record Case 1, and SLAKPI Instance 1 is paused and resumed with updates.
+    Here's an example.
+ 
+    Two SLA KPI Instances (SLA KPI Instance 1 and SLA KPI Instance 2) are created for two different SLA Items with the same SLA KPI, for example SLA KPI 1. SLA KPI Instance 1 for SLA Item 1 is created on record Case 1, and then SLA KPI Instance 1 is paused and resumed with updates on Case 1.
+ 
+    Now, because of updates on Case 1, the conditions for SLA Item 2 are met and SLA KPI Instance 2 is created for SLA Item 2. Here, SLA KPI Instance 1 is cancelled. Even though SLA Item 1 and SLA Item 2 share the same SLA KPI 1, the pause time of SLA KPI Instance 1 isn't carried forwarded to SLA KPI Instance 2.
 
-Now, the conditions for SLAItem 2 are met and SLAKPIInstance 2 is created for SLAItem 2, after SLAKPIInstance 1 is cancelled because of the updates made to it. Here, even though SLAItem 1 and SLAItem 2 share the same KPI SLAKPI 1, the pause time of SLAKPIInstance 1 isn't carried forwarded to SLAKPIIntance 2.
-
-> [!NOTE]
-> - Active duration won't show any value when the SLA Instance is created in **Succeeded** or **Expired** state.
+- Active duration won't show any value when the SLA Instance is created in **Succeeded** or **Expired** state. SLA KPI Instances are created in the **Succeeded** state, if the success condition is met during the application of the SLA. However, if the SLA KPI Instance gets created and the failure time of the SLA KPI Instance is less than the one created on the SLA KPI Instance, it goes to **Expired** state.
 
 ## Related information
 
