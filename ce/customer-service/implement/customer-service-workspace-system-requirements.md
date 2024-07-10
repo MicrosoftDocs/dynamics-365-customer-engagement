@@ -17,7 +17,7 @@ This section lists the prerequisites to use Customer Service workspace.
 
 ### Licensing
 
-An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user. For more information about licenses and pricing, go to [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user. Learn more at [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### Software requirements
 
