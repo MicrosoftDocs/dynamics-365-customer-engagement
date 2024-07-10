@@ -51,9 +51,9 @@ The application tracks your time automatically when you have a specific case in 
    |You switch to another case which is opened in another session tab. | Timer stops for the current case and starts for the case you've switched to.|
    | You lock your screen with the case in focus.                                                       | The timer stops.                                   |
    | The Case form is in the background when you perform actions such as selecting queue item details or the resolve case dialog .     | The timer continues to run.                        |
-   | You create a new case, and haven't manually logged time on the case or for activities. | Total time displayed is 0 seconds. The total time is updated after the first update interval set by your administrator. Select refresh to manually update the timer. |
-   | You create a new case, and haven't manually logged time on the case or for activities. The **My Time** toggle is turned off.| The total time is 0 seconds and is updated after the first update interval. The automatic timer displays 0 seconds. Select refresh to manually update the timer. |
-   | You create a new case, and haven't manually logged time on the case or for activities.The **My Time** toggle is turned on.| The total time is 0 seconds and is updated after the first update interval. The automatic timer starts tracking time realtime. Select refresh to manually update the timer.  |
+   | You create a new case and haven't manually logged time on the case or for activities. | Total time displayed is 0 seconds. The total time is updated after the first update interval set by your administrator. Select refresh to manually update the timer. |
+   | You create a new case and haven't manually logged time on the case or for activities. The **My Time** toggle is turned off.| The total time is 0 seconds and is updated after the first update interval. The automatic timer displays 0 seconds.|
+   | You create a new case and haven't manually logged time on the case or for activities.The **My Time** toggle is turned on.| The total time is 0 seconds and is updated after the first update interval. The automatic timer starts tracking time realtime. Select refresh to manually update the timer.  |
    
   > [!NOTE]
   > The app updates the database with the time tracked at regular intervals based on your administrator's configuration. If you refresh or close the browser, the app records the time for the last completed interval, but might not record the time from the ongoing interval. For example, if the update interval is set to 15 minutes, and you close the browser after 20 minutes, the app logs only 15 minutes. It might not capture the remaining 5 minutes, because the database wasn't updated in that time. You can select refresh to manually update the timer.
@@ -73,6 +73,6 @@ The total time spent on the activities linked to the case. If there are multiple
   > [!NOTE]
   > When you create a new case, the automatic time is displayed as 0 seconds. The time is updated after the first update interval set by your administrator.
 - **Time logs**: The time manually added by each agent sorted by date and displayed by newest to oldest.  
-- **Activities**: The time added for each activity by each agent sorted by dated and displayed by newest to oldest.s
+- **Activities**: The time added for each activity by each agent sorted by dated and displayed by newest to oldest.
 
 
