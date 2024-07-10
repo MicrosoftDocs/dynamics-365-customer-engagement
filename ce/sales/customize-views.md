@@ -215,6 +215,7 @@ More information:
 - [Apply filters](/powerapps/user/grid-filters-advanced#filter-editor)
 - [Create a personal view](/powerapps/user/grid-filters-advanced#create-personal-views)
 
+
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
