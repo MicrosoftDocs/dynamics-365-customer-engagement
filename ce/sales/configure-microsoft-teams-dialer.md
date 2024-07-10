@@ -88,7 +88,7 @@ Additionally, you must grant the following permissions to your users:
             - [Allow in-app notifications for the app](/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi#enable-the-in-app-notification-feature).  
             - Grant read permissions for the **Notification** entity under the **Custom entity** tab, for the security roles that need to see the notifications.
                 :::image type="content" source="media/notification-entity.png" alt-text="Screenshot of the Custom entity tab, with the Notification entity highlighted":::
-
+<a name="teams-call-transfer"></a>
     - **Transfer calls (preview)**
 
         [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
@@ -101,6 +101,18 @@ Additionally, you must grant the following permissions to your users:
 
         [Transfer a Teams call (preview)](call-using-microsoft-teams.md#transfer-a-teams-call-preview)  
         [Consult and transfer a Teams call (preview)](call-using-microsoft-teams.md#consult-and-transfer-a-teams-call-preview)
+
+<a name="teams-add-people-to-call"></a>
+    - **Add people to calls (preview)**
+
+        [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+        [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+        Allows sellers to add another participant to an ongoing Teams call. The added participant can be an internal user or an external contact. 
+
+        More information:
+
 
 1. In the **Security role** section, select one of the following options to provide permissions to users to access Microsoft Teams dialer.
 

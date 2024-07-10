@@ -113,12 +113,13 @@ If you've missed a call, a notification is displayed in the in-app notification 
 > Your administrator must have enabled and [set up the in-app notifications](configure-microsoft-teams-dialer.md#configure-the-dialer) for you to view the missed calls.
 
 
-
 ## Transfer a Teams call (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
+**Prerequisite:**
+Your administrator must have [turned on the call transfer feature](configure-microsoft-teams-dialer.md#teams-call-transfer).
 
 You can transfer a customer's call to a colleague's Teams line or their phone number.
 
@@ -143,6 +144,9 @@ You can transfer a customer's call to a colleague's Teams line or their phone nu
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
+**Prerequisite:**
+Your administrator must have [turned on the call transfer feature](configure-microsoft-teams-dialer.md#teams-call-transfer).
+
 You can consult a colleague before you transfer a customer's call to them. You can also consult a colleague and then answer the customer directly, without transferring the call.
 
 1. While you're on the call, select **More options** (**&hellip;**), and then select **Consult then transfer (preview)**.
@@ -163,6 +167,26 @@ You can consult a colleague before you transfer a customer's call to them. You c
         If you're transferring to a Teams line, the recipient receives a transfer notification that includes information about you and the customer. After you transfer the call, it's treated as a new call. In this case, no notes or recordings that you made during the original call are transferred to the recipient.
 
     - If the recipient is unavailable, or if you want to answer the customer directly, select **Cancel** and then **Resume** to go back to the customer.
+
+
+## Add a participant to an ongoing Teams call (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+**Prerequisite:**
+Your administrator must have [turned on the add people to calls feature](configure-microsoft-teams-dialer.md#teams-add-people-to-call).
+
+You can add a participant to an ongoing Teams call. The added participant can be an internal user or an external contact. If you don't want the current participants to hear the ringing sound, you can place the call on hold while you add the participant.
+
+1. While you're on the call, select the **Add people** icon and enter the name or number of the participant you want to add.
+
+    :::image type="content" source="media/media\teams-dialer-add-participant.png" alt-text="Screenshot that shows the Add people icon and the search box to add a participant to the call."::: 
+
+1. Select **Call** to place the call.
+
+> [!NOTE]
+> You can add up to 20 participants to a call.  
 
 ## Call analysis
 
