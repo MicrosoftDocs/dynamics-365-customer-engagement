@@ -48,7 +48,7 @@ If you aren't using the Sales Hub app, you can define the lead qualification exp
 
 ## Field mappings to other entities
 
-When a lead is qualified, values of some fields from leads are automatically mapped to the corresponding fields in accounts, contacts, and opportunities.
+When a lead is qualified, values of some fields from leads are automatically mapped to the corresponding fields in accounts, contacts, and opportunities. [Why can't I apply custom field mappings for lead qualification?](faq-lead.md#lead-qualification-custom-field-mappings)
 
 **Fields mapped to opportunity**
 
