@@ -64,7 +64,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
      - **Developer password (AppSecret):** Specify the WeChat Developer password.
      - **Token:** Specify the WeChat token.
      - **Message encryption key (EncodingAESKey):** Specify the WeChat Message encryption key for service account. If you're configuring a sandbox account, use a key of your choice.
-   1. On the **Callback information** page, copy the values that you see in the two boxes. You update the copied information in the WeChat account.
+   1. On the **Callback information** page, copy the values in the two boxes. You update the copied information in the WeChat account.
    1. Select **Done**. The WeChat account instance is created.
 
 1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
@@ -114,7 +114,7 @@ If you enable this feature, your data is shared with WeChat and flows outside of
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws. This responsibility includes laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users might be monitored, recorded, or stored.
 
-### See also
+### Related information
 
 [Channels in Omnichannel for Customer Service](../use/channels.md)  
 [Use a WeChat channel](../use/wechat-channel.md)  
