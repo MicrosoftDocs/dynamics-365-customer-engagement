@@ -25,13 +25,17 @@ Your customer service representatives rely on data and information from a wide v
 - Define a custom connector plugin or prompt plugin.
 - Copilot in Customer Service is enabled.
 
+## Prompt plugin
+
+With prompt plugins, you can connect Dataverse to Copilot, and let your agents securely access data.
+
+1. Create a prompt plugin: See [Generate content or extract insights with AI Builder prompts](/microsoft-copilot-studio/copilot-ai-plugins#generate-content-or-extract-insights-with-ai-builder-prompts).
+
 ## Custom connector plugin
 
 In Power Automate, you can create a [custom connector](/connectors/custom-connectors/define-blank) plugin, such as a connector for order management. Then you can import this connector plugin in Copilot Studio and publish. You can configure this plugin in Customer Service to use it with Copilot. When an agent provides the order ID as the input, Copilot can help fetch details pertaining to the order from the third-party order management system. To configure the custom connector plugin, see [Author a connector action](/microsoft-copilot-studio/copilot-ai-plugins?tabs=c4d365cs#author-a-connector-action)
 
-## Prompt plugin
 
-With prompt plugins, you can connect Dataverse to Copilot, and let your agents securely access data. To configure the prompt plugin, see [Generate content or extract insights with AI Builder prompts](/microsoft-copilot-studio/copilot-ai-plugins#generate-content-or-extract-insights-with-ai-builder-prompts).
 
 ## Configure settings for the custom connector and prompt plugins
 
