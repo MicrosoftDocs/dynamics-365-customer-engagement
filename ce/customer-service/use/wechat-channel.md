@@ -1,7 +1,7 @@
 ---
 title: "WeChat channel in Omnichannel Agent Dashboard | MicrosoftDocs"
 description: "Information about using a WeChat channel in the agent dashboard for Omnichannel for Customer Service."
-ms.date: 04/06/2020
+ms.date: 07/11/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -10,6 +10,9 @@ ms.author: nenellim
 # Use a WeChat channel
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!Important]
+> The WeChat channel will be deprecated and removed from Omnichannel for Customer Service on October 8, 2024. Learn more at [Deprecations in Customer Service](../implement/deprecations-customer-service).
 
 When you sign in you can see your work items on the agent dashboard. More information: [View agent dashboard and agent conversations](oc-agent-dashboard.md)
 
