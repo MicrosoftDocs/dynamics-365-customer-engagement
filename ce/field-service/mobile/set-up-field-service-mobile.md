@@ -12,7 +12,7 @@ ms.author: andreo
 # Set up the mobile app
 
 > [!WARNING]
-> update metadata
+> update version numbers.
 
 The Dynamics 365 Field Service mobile app is designed and optimized for technicians in the field. They can work with Field Service work orders, customer assets, accounts, and contacts. The app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). You can customize it to your business needs like other [model-driven apps](/power-apps/maker/model-driven-apps/).
 
@@ -48,10 +48,6 @@ Configuration options for the refreshed mobile user experience are in the settin
 
 If you use a custom app module and don't see the settings area, [review the troubleshooting guide to show the settings area](/dynamics365/field-service/troubleshooting-mobile-newux#settings-area-is-missing-in-the-field-service-mobile-app-module-navigation).
 
-Watch this brief video to learn more:
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18Uzz]
-
 ### Enable the new mobile user experience
 
 You need Field Service - Administrator permissions to enable the refreshed user experience.
@@ -66,7 +62,7 @@ You need Field Service - Administrator permissions to enable the refreshed user 
 
 1. Save the changes [publish the updated app](/power-apps/maker/model-driven-apps/validate-app#publish-an-app-using-the-app-designer) to make them visible for your users.
 
-Users don't need to download a new app. However, we recommend that the mobile app and the Field Service solution are updated to the latest version.
+Users don't need to download a new app. However, make sure you have at least the app version [TODO](tbd.md) and the solution version [TODO](tbd.md) installed.
 
 ### Turn on features for the refreshed experience
 
@@ -85,9 +81,7 @@ After enabling the new mobile experience, you can choose to enable preview featu
 
 - Offline mode isn't supported. Users who are enabled for offline use don't see the new experience. If a user is in offline mode while trying to access the new mobile experience, they fall back to the classic Unified Client Interface experience instead.
 
-- [Field Service Mobile app module customizations](../field-service-customizations.md) aren't supported. However, an icon in the upper-right corner allows users to switch between the classic and modern UX to access customized model-driven app experiences, like custom forms and business logic.
-
-- The new mobile experience uses the display language that's set in the device's language settings. The classic experience uses the language that's set in the user profile. Users might see a mixed language experience if the two settings are not the same.
+- The new experience isn't available in the [Windows app](download-mobile-app.md#windows) and the app shows the Unified Interface experience instead.
 
 ## Download the app and sign in
 

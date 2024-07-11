@@ -18,12 +18,14 @@ To work in areas without internet access, the app downloads important informatio
 An administrator has to configure the offline profile for the app before technicians can download the data. 
 Downloading the offline data can take some time. You can check the download progress and status in the app while downloads are in progress.
 
-Administrators define which data is available offline and how often the app looks for changes on the server.
-
-- [Learn more about the offline sync status](/power-apps/mobile/offline-sync-icon).
-- [Learn more about downloading updates to work in offline mode](/power-apps/mobile/work-offline-mode-classic).
+Administrators [define which data is available offline](set-up-offline-profile.md) and [how often the app looks for changes on the server](offline-data-sync.md).
 
 > [!NOTE]
 > The new mobile experience doesn't support working offline.
+
+## Next steps
+
+- [Set up the mobile offline profile](set-up-offline-profile.md)
+- [Configure offline data synchronization](offline-data-sync.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

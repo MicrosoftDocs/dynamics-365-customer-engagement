@@ -75,6 +75,8 @@ Go to Power Apps and navigate to **Tables** > **Bookable Resource Booking** > **
 Columns in this view show on a booking card within the agenda. We recommend keeping the number of columns below 10 to maintain readability and performance. Don't add more than 25 columns to the view. To learn how to configure a view, see [Choose and configure columns in model-driven app views in Power Apps](/power-apps/maker/model-driven-apps/choose-and-configure-columns).  
 
 > [!NOTE]
-> You can't set other views as default in the new mobile user experience.
+> You can't set other views as default booking view in the new mobile user experience. However, you can still change the default view for other tables.
 
 ---
+
+[!INCLUDE [footer-banner](../../includes/footer-banner.md)]

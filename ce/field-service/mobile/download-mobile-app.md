@@ -16,7 +16,7 @@ ms.custom:
 # Download the mobile app and get started
 
 > [!WARNING]
-> Jon to review the revised version. Michael to update metadata.
+> Michael to update metadata.
 
 The Dynamics 365 Field Service mobile app works on iOS and Android devices and on Windows laptops and tablets. It gives technicians the tools they need to serve customers onsite.
 
@@ -46,8 +46,8 @@ The required storage size depends on the [mobile offline profile](work-offline.m
 
 | Requirement   |OS Version |CPU Benchmark Score| Storage|
 | --- | --- |--- | --- |
-| Minimum |	14 or later |	400+ |	64 GB	| 
-| Recommended| 15 or later |	1,000+	| 64+ GB	|
+| Recommended| Latest version | 1,000+ | 64+ GB |
+| Minimum | Previous version | 400+ | 64 GB |
 
 [Get the iOS app.](https://aka.ms/fsmobile-apple)
 
@@ -55,8 +55,8 @@ The required storage size depends on the [mobile offline profile](work-offline.m
 
 | Requirement  | OS Version  | CPU Benchmark Score   | RAM   | Storage   |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Minimum  | 9 or later   | 400+   | 4 GB   | 64 GB|
-| Recommended  | 10 or later   | 900+   | 8 GB   | 64+ GB|
+| Recommended  | Previous three versions   | 900+   | 8 GB   | 64+ GB|
+| Minimum  | Latest version  | 400+   | 4 GB   | 64 GB|
 
 [Get the Android app.](https://aka.ms/fsmobile-google)
 
@@ -64,8 +64,8 @@ The required storage size depends on the [mobile offline profile](work-offline.m
 
 | Requirement  |OS Version |RAM| Storage|
 | --- | --- |--- | --- |
-| Minimum |	10 17763.0 or later |	6 GB |	64 GB	| 
-| Recommended| 10 19042.1348 or later |	8 GB	| 128 GB	|
+| Recommended| Latest version |	8 GB	| 128 GB	|
+| Minimum |	Windows 10 version 17763.0 |	6 GB |	64 GB	|
 
 [Get the Windows app.](https://aka.ms/fsmobile-win)
 

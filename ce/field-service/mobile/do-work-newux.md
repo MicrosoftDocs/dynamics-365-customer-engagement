@@ -1,6 +1,6 @@
 ---
-title: travel, guides, update WO, refer to copilot, RA
-description: Learn where
+title: Get started with the refreshed mobile experience
+description: 
 ms.date: 03/11/2024
 ms.topic: how-to
 ms.subservice: field-service-mobile
@@ -19,7 +19,7 @@ The new user experience in the Dynamics 365 Field Service mobile app helps servi
 
 The agenda view in the new mobile experience is optimized for frontline workers. It supports quick access to key actions such as updating the booking status, getting directions, or access to Copilot.
 
-Admins can [configure the agenda view to show fields relevant to the organization's business needs](mobile-powerapp-customize-booking-calendar.md#new-mobile-uxtabvnext). However, you can't change the view for the bookings in the new user experience.
+Admins can [configure the agenda view to show fields relevant to the organization's business needs](mobile-powerapp-customize-booking-calendar.md#new-mobile-uxtabvnext).
 
 ## Navigate the app
 
@@ -64,7 +64,7 @@ In the new mobile user experience, app users can tap the user icon to access the
 - **About**: Details about the current session and app version for debugging in case of error.
 - **Send feedback**: Provide feedback to Microsoft about the app or suggest improvements.
 - **Settings**: Configure personal user settings.
-  - Timezone: Set the timezone for the app. If the configuration of the device and the users's settings in Dynamics 365 don't match, the system updates the Dynamics 365 profile to align with the device settings.
-  - Language: Set the language for the mobile app.
-  - Map: Define the behavior of the app when getting directions to a customer site and choose the default map provider.
-  - Apps: If a user ahs access to multiple Field Service Mobile app modules, they can choose which app module to load.
+  - **Timezone**: Set the timezone for the app. If the configuration of the device and the users's settings in Dynamics 365 don't match, the system updates the Dynamics 365 profile to align with the device settings.
+  - **Language**: Set the language for the mobile app.
+  - **Map**: Define the behavior of the app when getting directions to a customer site and choose the default map provider.
+  - **Apps**: If a user ahs access to multiple Field Service Mobile app modules, they can choose which app module to load.
