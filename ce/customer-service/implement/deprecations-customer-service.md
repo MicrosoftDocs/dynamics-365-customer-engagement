@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 07/01/2024
+ms.date: 07/11/2024
 ms.custom: bap-template
 ms.collection:
 ---
@@ -18,6 +18,17 @@ Administrators and IT professionals can use this information to prepare for futu
 
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## WeChat, SMS (Telesign), Telegram Custom Messaging, and Kik Custom Messaging channels will be deprecated and removed in October 2024
+
+The following channels will be deprecated and removed in Omnichannel for Customer Service on October 8, 2024:
+
+- WeChat
+- SMS (Telesign)
+- Telegram Custom Messaging
+- Kik Custom Messaging
+
+After October 8, 2025, the above channels will no longer be accessible for you or your customers in your Omnichannel for Customer Service environment. Alternative channel integration options are available. Contact Microsoft Support if you need help. 
 
 ## Google's Business Messages channel will be deprecated and removed in July 2024
 
