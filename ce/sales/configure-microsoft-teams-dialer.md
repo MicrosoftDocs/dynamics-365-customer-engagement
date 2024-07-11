@@ -93,7 +93,7 @@ Additionally, you must grant the following permissions to your users:
 
         [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-        [!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+        [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
         Allows sellers to transfer a Teams call to another colleague or their phone number, either directly or after consultation with the recipient.
 

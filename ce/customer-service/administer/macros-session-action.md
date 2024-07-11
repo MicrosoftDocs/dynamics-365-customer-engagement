@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Use session connector macros
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 You can use session connector actions to perform session-related operations. Session connector macros enable you to add actions such as getting the ID, refreshing a tab, passing the tab ID, setting focus to a tab based on the tab ID, opening a tab template, and refreshing session context.
 
 You can use the actions any number of times across different macros to automate and perform operations related to a session in Customer Service workspace.

@@ -1,7 +1,7 @@
 ---
 title: Location auditing for the mobile app
 description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app.
-ms.date: 06/04/2024
+ms.date: 06/19/2024
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -11,9 +11,6 @@ ms.author: jobaker
 # Location auditing for the mobile app
 
 Field technicians often travel to various locations throughout their work day, and it's helpful for schedulers to know where technicians are at any given time.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board in Field Service, showing a resource on the map.](./media/mobile-2020-location-auditing-schedule-board.png)
 
 Technicians using the Dynamics 365 Field Service mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board, and also audit a list showing a technician's location history.
 
@@ -53,6 +50,9 @@ The geolocation tracking records will be created in the following scenarios:
 
 The above events only apply within the tracking start and end times and the location checking frequency is per the “Refresh Interval.”
 
+> [!NOTE]
+> Location tracking events might be sent less frequently based on the mobile device operating system. This frequency can be influenced by battery savings settings, device battery charge status, and other applications running on the device which might consume device resources.
+
 ## Step 2. Allow Field Service mobile to access your location
 
 After enabling location tracking on the scheduler's side, make sure it's enabled and working on the mobile device side.
@@ -85,9 +85,6 @@ To have location tracking work properly, complete all the following steps when p
 ## Step 3. Verify location tracking
 
 Back in Dynamics 365 Field Service, the bookable resource's current location appears on the schedule board map. Select the map pin icon next to the bookable resource's name, and the map will display the location with a Truck icon instead of a pin icon.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board in Field Service.](./media/mobile-2020-location-auditing-schedule-board.png)
 
 ## Step 4. Location audit records
 

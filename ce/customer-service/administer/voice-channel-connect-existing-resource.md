@@ -1,7 +1,7 @@
 ---
 title: Connect using an existing Azure resource
 description: Learn how to connect your voice and SMS channels to Azure Communication Services using an existing Azure resource.
-ms.date: 05/31/2024
+ms.date: 07/01/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
@@ -12,7 +12,8 @@ ms.collection:
 
 # Advanced: Connect using an existing Azure resource
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
@@ -21,7 +22,7 @@ You can connect your voice or SMS channels to Azure Communication Services using
 ## Prerequisites
 
 - The organization that you're using isn't a trial version.
-- The **Get started** button that connects to an existing Azure resource is visible on the **Phone numbers** page of Customer Service admin center. The **Get Started** button appears only when:
+- The **Get started** button that connects to an existing Azure resource is visible on the **Phone numbers** page of Customer Service admin center or Contact Center admin center. The **Get Started** button appears only when:
   - The trial has ended after the free calling time has elapsed.
   - You've manually [ended the trial](voice-channel-trial-phone-numbers.md#end-the-trial).
   - You've [disconnected from the Azure resource](voice-channel-disconnect-from-acs.md). 
@@ -36,21 +37,21 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 1. Select the required **Resource** from the resource group.
     :::image type="content" source="../media/acs-resource-existing-mini.png" alt-text="image showing how to add a resource" lightbox="../media/acs-existing-resource.png":::
 1.  Select **Properties** in **Settings**. 
-1. On the **Properties** page,  copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center.
+1. On the **Properties** page,  copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center or Contact Center admin center.
    :::image type="content" source="../media/acs-property-records-mini.png" alt-text="image showing the resource id values " lightbox="../media/acs-property-records.png":::
 
 
-1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center. 
+1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center or Contact Center admin center. 
 
    :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
 
 
  > [!NOTE]
- > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in Customer Service admin center becomes invalid. An error message is also displayed in the connection string field in Customer Service admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
+ > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in Customer Service admin center or Contact Center admin center becomes invalid. An error message is also displayed in the connection string field in Customer Service admin center or Contact Center admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
 
 ### Get application and tenant IDs from the Azure portal
 
-You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Customer Service admin center. Perform the following steps to get these values:
+You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Customer Service admin center or Contact Center admin center. Perform the following steps to get these values:
 
 1. Open the **App registrations** page on the Azure portal.
 
@@ -64,15 +65,15 @@ You'll need to specify the values of **Application (client) ID** and **Directory
     1. Select **Register**.
        :::image type="content" source="../media/acs-resource-register.png" alt-text="resource keys" :::
 
-1. Select the value of the **Application (client) ID** field, and then select the **Copy to clipboard** button. You'll need to enter this as the value of **Event grid app id** in Customer Service admin center.
+1. Select the value of the **Application (client) ID** field, and then select the **Copy to clipboard** button. You'll need to enter this as the value of **Event grid app id** in Customer Service admin center or Contact Center admin center.
 
-1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You'll need to enter this as the value of **Event grid app tenant id** in Customer Service admin center.
+1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You'll need to enter this as the value of **Event grid app tenant id** in Customer Service admin center or Contact Center admin center.
 
     :::image type="content" source="../media/acs-resource-application.png" alt-text="resource application" :::
 
 ## Connect using an existing Azure resource
 
-1. In the site map of Customer Service admin center, under **Customer support**, select **Channels**.
+1. In the site map of Customer Service admin center or Contact Center admin center, under **Customer support**, select **Channels**.
 1. Select **Manage** for **Phone numbers**.
 1. Select **Use existing resource** and specify the following:
      - Paste the values you've copied in the [Get Azure resource information](#get-azure-resource-information) section to the following fields:
@@ -107,6 +108,7 @@ To enable call recording and SMS services, you must first configure your applica
 
 > [!IMPORTANT]
 >
+> - You need to be an owner of the [App registration](#get-application-and-tenant-ids-from-the-azure-portal) in order to create Event Grid subscriptions.
 > - You can set one webhook endpoint only at a time using the following procedure. To enable incoming calls, SMS, and call recording services, you must perform the procedure thrice to set a webhook endpoint for each service.
 > - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-ids-from-the-power-apps-portal).
 
@@ -133,7 +135,7 @@ To enable call recording and SMS services, you must first configure your applica
         - To filter event types for SMS services, select **SMS Received** and **SMS Delivery Report Received** in the list.
         - To filter event types for incoming calls, select **Incoming Call** in the list.
     - **Endpoint Type**: Select **Web Hook** in the list.
-    - **Endpoint**: Select **Select an endpoint**, and then enter the incoming call, recording, or SMS webhook endpoint from the Customer Service admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** to get the following webhook endpoints:
+    - **Endpoint**: Select **Select an endpoint**, and then enter the incoming call, recording, or SMS webhook endpoint from the Customer Service admin center or Contact Center admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** to get the following webhook endpoints:
         - **Recording Web Hook Endpoint** to enable recording services.
         - **SMS Web Hook Endpoint** to enable SMS services.
         - **Incoming call Web Hook Endpoint (preview)** to enable incoming calls.

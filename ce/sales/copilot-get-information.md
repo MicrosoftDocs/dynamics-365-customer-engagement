@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 06/13/2024
+ms.date: 06/25/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -132,14 +132,14 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. To update the lead record with the suggested values, select **Update all**.
 
-<a name="copilot-doc-summarization"></a>dl
+<a name="copilot-doc-summarization"></a>
 ## Summarize proposals associated with a record (preview)
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Often, you might have documents such as proposals and contracts associated with your records. Copilot can summarize the content of these documents and help you understand the key points. For example, you can ask Copilot to summarize a proposal document to understand the budget, authority (decision maker), need, and timeline (BANT) of the opportunity.
+You might often have documents such as proposals and contracts associated with your records. Copilot can summarize the content of these documents and help you understand the key points. For example, you can ask Copilot to summarize a proposal document to understand the budget, authority (decision maker), need, and timeline (BANT) of the opportunity.
 
 > [!NOTE]
 >- This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
@@ -174,6 +174,7 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 ### See also
 
 - [Copilot overview](copilot-overview.md)
+- [Copilot prompt guide reference](copilot-prompt-guide.md)
 - [Enable and set up Copilot](enable-setup-copilot.md)
 - [Chat with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL)
-- [Get document recommendations from SharePoint](copilot-get-doc-suggestions.md#get-document-recommendations-from-sharepoint)
+- [Get content recommendations from SharePoint](copilot-get-doc-suggestions.md#copilot-content-recommendation)
