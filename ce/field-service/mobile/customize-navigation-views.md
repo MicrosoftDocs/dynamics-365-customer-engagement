@@ -27,7 +27,7 @@ In the app designer in Power Apps, you find the current navigation structure wit
 
 For every table in the navigation, you can choose the views available on mobile app. For more information, see [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views).
 
-You can also [customize views with code](/power-apps/developer/model-driven-apps/customize-entity-views) or [customize the booking calendar](mobile-powerapp-customize-booking-calendar.md).
+You can also [customize views with code](/power-apps/developer/model-driven-apps/customize-entity-views) or [customize the booking calendar](customize-booking-calendar.md).
 
 ## Next steps
 

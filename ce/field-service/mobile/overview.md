@@ -30,7 +30,7 @@ In 2024, Microsoft released a refreshed user experience for parts of the mobile 
 | [Camera capture (photo + video)](get-work-done-mobile-app.md) | TODO | TODO |  Use the device camera to capture images and video. |
 | [Barcode scanning](get-work-done-mobile-app.md) | TODO | TODO |  Scan bar code from global search or at a field level. |
 | [Offline data](work-offline.md) | Technician | Yes |  Offline-enabled application allows you to access your data regardless of internet connectivity. |
-| [Calendar view](mobile-powerapp-customize-booking-calendar.md) | Technician | Yes |   Customize your calendar with data relevant for your organization. |
+| [Calendar view](customize-booking-calendar.md) | Technician | Yes |   Customize your calendar with data relevant for your organization. |
 | [Driving directions](get-work-done-mobile-app.md#travel-to-a-job-location) | Technician | Yes | Use your favorite in-app map application for turn-by-turn directions. |
 | Speech to text | Technician | Yes | Insert notes with native device speech-to-text capabilities. |
 | [Microsoft Intune](app-management-intune.md)  | Integration | Yes | Provide an extra layer of device and data protection with Microsoft Intune. |

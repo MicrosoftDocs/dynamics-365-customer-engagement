@@ -364,7 +364,7 @@ items:
         - name: Customize the navigation and views
           href: mobile/customize-navigation-views.md
         - name: Customize calendar columns
-          href: mobile/mobile-powerapp-customize-booking-calendar.md
+          href: mobile/customize-booking-calendar.md
         - name: Link to the mobile app
           href: mobile/deeplink-mobile.md
         - name: Create workflows and scripts
