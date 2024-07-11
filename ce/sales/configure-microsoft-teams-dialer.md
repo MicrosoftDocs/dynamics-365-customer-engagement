@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams dialer in Dynamics 365 Sales
 description: Configure Microsoft Teams dialer to enable sellers to make and receive calls from Dynamics 365.
-ms.date: 10/17/2023
+ms.date: 07/11/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -88,7 +88,9 @@ Additionally, you must grant the following permissions to your users:
             - [Allow in-app notifications for the app](/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi#enable-the-in-app-notification-feature).  
             - Grant read permissions for the **Notification** entity under the **Custom entity** tab, for the security roles that need to see the notifications.
                 :::image type="content" source="media/notification-entity.png" alt-text="Screenshot of the Custom entity tab, with the Notification entity highlighted":::
+
 <a name="teams-call-transfer"></a>
+
     - **Transfer calls (preview)**
 
         [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
@@ -103,6 +105,7 @@ Additionally, you must grant the following permissions to your users:
         [Consult and transfer a Teams call (preview)](call-using-microsoft-teams.md#consult-and-transfer-a-teams-call-preview)
 
 <a name="teams-add-people-to-call"></a>
+
     - **Add people to calls (preview)**
 
         [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
@@ -111,8 +114,15 @@ Additionally, you must grant the following permissions to your users:
 
         Allows sellers to add another participant to an ongoing Teams call. The added participant can be an internal user or an external contact. 
 
-        More information:
+        More information: [Add a participant to an ongoing Teams call (preview)](call-using-microsoft-teams.md#add-a-participant-to-an-ongoing-teams-call-preview)
 
+    - **Call from views**
+    
+        Allows Dynamics 365 to use Teams dialer when sellers select a phone number link on list views. This option is turned on by default. If you turn it off, the link opens the default system phone call dialer.
+
+    - **Document call attempts**
+    
+        Specifies that call attempts of unanswered calls should also be recorded in the activity history. By default, this option is turned off.
 
 1. In the **Security role** section, select one of the following options to provide permissions to users to access Microsoft Teams dialer.
 
