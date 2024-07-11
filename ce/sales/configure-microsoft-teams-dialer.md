@@ -114,15 +114,21 @@ Additionally, you must grant the following permissions to your users:
 
         Allows sellers to add another participant to an ongoing Teams call. The added participant can be an internal user or an external contact. 
 
-        More information: [Add a participant to an ongoing Teams call (preview)](call-using-microsoft-teams.md#add-a-participant-to-an-ongoing-teams-call-preview)
+        **More information:** [Add a participant to an ongoing Teams call (preview)](call-using-microsoft-teams.md#add-a-participant-to-an-ongoing-teams-call-preview)
 
+    <a name="teams-call-from-views"></a>
     - **Call from views**
     
         Allows Dynamics 365 to use Teams dialer when sellers select a phone number link on list views. This option is turned on by default. If you turn it off, the link opens the default system phone call dialer.
 
+        **More information:** [Call a customer from the list view](call-using-microsoft-teams.md#call-from-list-view)
+
+    <a name="teams-call-attempts"></a>
     - **Document call attempts**
     
         Specifies that call attempts of unanswered calls should also be recorded in the activity history. By default, this option is turned off.
+
+        **More information**: [View phone call activities](call-using-microsoft-teams.md#view-phone-call-activities)
 
 1. In the **Security role** section, select one of the following options to provide permissions to users to access Microsoft Teams dialer.
 

@@ -37,14 +37,15 @@ Sign in to your sales app and select the phone (![Phone icon.](media/phone-icon.
 
 > [!IMPORTANT]
 >- The dialer won't work if third-party cookies are blocked in the private or incognito window of your browser. To use the dialer, select the **Third-party cookie blocking** icon in your browser and select **Allow cookies**.
->- The dialer isn't supported for custom entities. Though the phone icon appears on the custom entity forms, the dialer doesn't work. 
+>- The dialer isn't supported for custom entities. Though the phone icon appears on the custom entity forms, the dialer doesn't work.
 
 ## Make calls with Teams
 
 You can use Microsoft Teams to call a customer directly from the dialer, a record, or a work item in Dynamics 365.
 
 > [!NOTE]
-> Verify that a valid phone number is associated with the Dynamics 365 records or work item.
+>- Verify that a valid phone number is associated with the Dynamics 365 records or work item.
+>- After the call ends, a phone call activity is created and displayed on the timeline of the record and on the **Activities** page. 
 
 **To call a customer through a Dynamics 365 record** 
 
@@ -61,6 +62,18 @@ You can use Microsoft Teams to call a customer directly from the dialer, a recor
     > ![Select the phone icon to make call.](media/teams-dialer-make-call.png "Select the phone icon to make call")
 
 1. (Optional) Select the ellipses (three-dots menu) in the dialer screen to change your microphone and speaker settings.
+
+<a name="call-from-list-view"></a>
+**To call a customer from the list view**
+
+**Prerequisite**: Your administrator must have turned on the **[Call from view](configure-microsoft-teams-dialer.md#teams-call-from-views)** option.
+
+1. Open the read-only grid view of any entity, such as **Contacts**, **Leads**, or **Accounts**.
+
+1. Select the phone number of the customer from any of the phone number columns.
+   :::image type="content" source="media/teams-dialer-call-from-view.png" alt-text="Screenshot of the All Accounts page with phone column highlighted.":::
+
+    The Teams dialer opens and calls the number automatically.
 
 **To call a customer from a work list item**
 
@@ -187,6 +200,19 @@ You can add a participant to an ongoing Teams call. The added participant can be
 
 > [!NOTE]
 > You can add up to 20 participants to a call.  
+
+## View phone call activities
+
+After you make or receive a call, a phone call activity is recorded in the following places:
+
+- If the call is associated with a record:
+    - The phone call activity is displayed on the timeline of the record.
+    - On the **My Activities** page, where the **Regarding** field displays the linked record.
+
+- If the call is not associated with any record:
+    - A phone call activity is created and displayed only on the **Activities** page.
+
+By default, unanswered calls aren't recorded as an activity. If you'd like to track unanswered calls, reach out to your administrator to [enable documenting call attempts](configure-microsoft-teams-dialer.md#teams-call-attempts).
 
 ## Call analysis
 
