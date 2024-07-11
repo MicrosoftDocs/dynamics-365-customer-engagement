@@ -53,7 +53,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Contact Center admin center or Customer Service admin center. Perform the following steps to get these values:
 
-1. On the Azure portal, open the **App registrations** page. If you're registering your app on the Azure portal for the first time, then perform the following steps, otherwise, go to step 2:
+1. On the Azure portal, open the **App registrations** page. If you're registering your app on the Azure portal for the first time, then perform the following steps, otherwise, select the registered app and go to step 2:
 
     1. On the **Register an application** page, enter the following details:
 
@@ -106,7 +106,7 @@ To enable call recording and SMS services, you must first configure your applica
 
 > [!IMPORTANT]
 >
-> - You need to be an owner of the [App registration](#get-application-and-tenant-ids-from-the-azure-portal) to create Event Grid subscriptions.
+> - You need to be an owner of the [App registration](#get-event-grid-application-and-tenant-ids-from-the-azure-portal) to create Event Grid subscriptions.
 > - You can set one webhook endpoint only at a time using the following procedure. To enable incoming calls, SMS, and call recording services, you must perform the procedure thrice to set a webhook endpoint for each service.
 > - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-ids-from-the-power-apps-portal).
 
