@@ -1,7 +1,7 @@
 ---
 title: Configure a WeChat channel
 description: Perform the steps mentioned in this topic to configure a WeChat channel.
-ms.date: 06/14/2024
+ms.date: 07/11/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,6 +12,9 @@ ms.collection:
 # Configure a WeChat channel
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!Important]
+> The WeChat channel will be deprecated and removed from Omnichannel for Customer Service on October 8, 2024. After this date, you won't be able to use this channel, and this article will be removed. Learn more at [Deprecations in Customer Service](../implement/deprecations-customer-service).
 
 ## WeChat channel
 
