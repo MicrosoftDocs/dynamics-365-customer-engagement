@@ -89,7 +89,7 @@ Additionally, you must grant the following permissions to your users:
             - Grant read permissions for the **Notification** entity under the **Custom entity** tab, for the security roles that need to see the notifications.
                 :::image type="content" source="media/notification-entity.png" alt-text="Screenshot of the Custom entity tab, with the Notification entity highlighted":::
 
-<a name="teams-call-transfer"></a>
+    <a name="teams-call-transfer"></a>
 
     - **Transfer calls (preview)**
 
@@ -104,7 +104,7 @@ Additionally, you must grant the following permissions to your users:
         [Transfer a Teams call (preview)](call-using-microsoft-teams.md#transfer-a-teams-call-preview)  
         [Consult and transfer a Teams call (preview)](call-using-microsoft-teams.md#consult-and-transfer-a-teams-call-preview)
 
-<a name="teams-add-people-to-call"></a>
+    <a name="teams-add-people-to-call"></a>
 
     - **Add people to calls (preview)**
 

@@ -181,7 +181,7 @@ You can add a participant to an ongoing Teams call. The added participant can be
 
 1. While you're on the call, select the **Add people** icon and enter the name or number of the participant you want to add.
 
-    :::image type="content" source="media/media\teams-dialer-add-participant.png" alt-text="Screenshot that shows the Add people icon and the search box to add a participant to the call."::: 
+    :::image type="content" source="media/teams-dialer-add-participant.png" alt-text="Screenshot that shows the Add people icon and the search box to add a participant to the call."::: 
 
 1. Select **Call** to place the call.
 
