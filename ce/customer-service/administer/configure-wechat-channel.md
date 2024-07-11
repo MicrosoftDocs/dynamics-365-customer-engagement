@@ -1,7 +1,7 @@
 ---
 title: Configure a WeChat channel
 description: Perform the steps mentioned in this topic to configure a WeChat channel.
-ms.date: 06/14/2024
+ms.date: 07/11/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,6 +12,9 @@ ms.collection:
 # Configure a WeChat channel
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!Important]
+> The WeChat channel will be deprecated and removed from Omnichannel for Customer Service on October 8, 2024. After this date, you won't be able to use this channel, and this article will be removed. Learn more at [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 ## WeChat channel
 
@@ -61,7 +64,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
      - **Developer password (AppSecret):** Specify the WeChat Developer password.
      - **Token:** Specify the WeChat token.
      - **Message encryption key (EncodingAESKey):** Specify the WeChat Message encryption key for service account. If you're configuring a sandbox account, use a key of your choice.
-   1. On the **Callback information** page, copy the values that you see in the two boxes. You'll update the copied information in the WeChat account.
+   1. On the **Callback information** page, copy the values in the two boxes. You update the copied information in the WeChat account.
    1. Select **Done**. The WeChat account instance is created.
 
 1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
@@ -99,7 +102,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 
 If you're using the service account of WeChat, perform the following steps:
 
-1. Sign in to your WeChat Service Account, and then paste the IP allowlist and server address, which you copied from Customer Service admin center in the preceding procedure, in their respective boxes. The IP address of the Omnichannel for Customer Service application is not blocked in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
+1. Sign in to your WeChat Service Account, and then paste the IP allowlist and server address, which you copied from Customer Service admin center in the preceding procedure, in their respective boxes. The IP address of the Omnichannel for Customer Service application isn't blocked in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
 
 2. In WeChat, make sure that you select **Security Mode** under **Message Encryption Method** for encryption of the chat messages.
 
@@ -109,9 +112,9 @@ If you're using the service account of WeChat, perform the following steps:
 
 If you enable this feature, your data is shared with WeChat and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). More information: [Connect a bot to WeChat](/azure/bot-service/bot-service-channel-connect-wechat).
 
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws. This responsibility includes laws that relate to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users might be monitored, recorded, or stored.
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws. This responsibility includes laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users might be monitored, recorded, or stored.
 
-### See also
+### Related information
 
 [Channels in Omnichannel for Customer Service](../use/channels.md)  
 [Use a WeChat channel](../use/wechat-channel.md)  
