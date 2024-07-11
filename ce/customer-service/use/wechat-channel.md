@@ -16,7 +16,7 @@ ms.author: nenellim
 
 ## WeChat channel
 
-When you sign in, you can see your work items on the agent dashboard. More information: [View agent dashboard and agent conversations](oc-agent-dashboard.md)
+When you sign in, your work items display on the agent dashboard. Learn more at [View agent dashboard and agent conversations](oc-agent-dashboard.md).
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ Make sure that your administrator configured a WeChat channel.
 
 ## Incoming WeChat chat notification
 
-You receive a notification when a customer requests a conversation through WeChat. When you accept the WeChat chat request, a session is started and you see the communication panel in which you can exchange messages with the customer.
+You receive a notification when a customer requests a conversation through WeChat. When you accept the WeChat chat request, a session is started and the communication panel displays, where you can exchange messages with the customer.
 
 > [!div class=mx-imgBorder]
 > ![WeChat chat agent notification.](../media/incoming-chat-wechat.png "WeChat chat agent notification")
@@ -52,7 +52,7 @@ In the application, you can:
 - [View the active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md).
 - [Search for transcripts](oc-search-transcipts.md).
 
-### See also
+### Related information
 
 [Configure a WeChat channel](../administer/configure-wechat-channel.md)
 
