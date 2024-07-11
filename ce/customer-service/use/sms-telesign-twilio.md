@@ -1,7 +1,7 @@
 ---
-title: "Agent experience for TeleSign and Twilio channels | MicrosoftDocs"
+title: "Agent experience for Telesign and Twilio channels | MicrosoftDocs"
 description: "Learn about the agent experience when interacting with conversations that originate from the TeleSign and Twilio SMS channels."
-ms.date: 07/01/2024
+ms.date: 07/11/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,6 +11,8 @@ ms.author: nenellim
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+> [!Important]
+> The Telesign channel will be deprecated and removed from Omnichannel for Customer Service on October 8, 2024. After this date, you won't be able to use this channel. Learn more at [Deprecations in Customer Service](../implement/deprecations-customer-service).
 
 When you sign in, you can see your work items in the agent dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 
