@@ -41,7 +41,7 @@ Verify that you have permissions on the secure columns. More information: [Confi
 
 ## Enable SMS channel in your Dynamics 365 organization
 
-You can enable the SMS channel from the Dynamics 365 admin center. For steps on enabling SMS in your organization as a part of provisioning Omnichannel for Customer Service, see [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md).
+You can enable the SMS channel from the Dynamics 365 admin center. For steps on enabling SMS in your organization as a part of provisioning Omnichannel for Customer Service, go to [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md).
 
 
 ## Sign up for Telesign account
@@ -126,7 +126,7 @@ For an outgoing message sent by an agent from within Dynamics 365, the message i
 
 When you validate the API key while setting up the SMS channel, a call is made to Telesign to validate customer ID and the API key.
 
-### See also
+### Related information
 
 [Channels in Omnichannel for Customer Service](../use/channels.md)  
 [Overview of SMS channels](../use/sms-channel-overview.md)  
