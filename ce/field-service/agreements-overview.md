@@ -9,7 +9,7 @@ ms.author: jacoh
 
 # Customer agreements overview
 
-Field Service agreements allow organizations to automatically generate work orders and invoices with predefined details, frequency, and date ranges. Agreements are commonly used for maintenance schedules where an organization must perform daily, weekly, or monthly inspections on equipment.
+Field Service agreements allow organizations to automatically generate work orders and invoices with predefined details, frequency, and date ranges. Agreements are commonly used for maintenance schedules, inspections, or other services where an organization must perform a job regularly. For example, quarterly elevator service to perform routine maintenance and check system health or weekly pest control service.
 
 Here are a few different ways agreements can be configured and used. The agreement generates:
 
@@ -24,9 +24,11 @@ An agreement is intended to be executed at a single location represented by the 
 
 ## Multiple incidents vs multiple recurrences
 
-When deciding whether to add multiple agreement incidents to a single recurrence or add multiple recurrences, consider the following questions:
+Multiple incidents are defined as multiple agreement booking incidents within one single agreement booking setup. Multiple recurrences are defined as multiple agreement booking setups with different recuurences with one agreement booking incident.
 
-- Who will perform the work? A single recurrence creates a single work order, whereas multiple recurrences create multiple work orders. If you envision the agreement work being completed by a single person, then using a single recurrence might be better. You can use incident types with [requirement group templates](/dynamics365/field-service/multi-resource-scheduling-requirement-groups) to help schedule single work orders to multiple resources.
+When deciding whether to add multiple incidents or multiple recurrences, consider the following questions:
+
+- Who will perform the work? A single recurrence creates a single work order, whereas multiple recurrences create multiple work orders. If you envision a single person completing the agreement work, then using a single recurrence might be better. You can use incident types with [requirement group templates](/dynamics365/field-service/multi-resource-scheduling-requirement-groups) to help schedule single work orders to multiple resources.
 
 - How much travel? Multiple recurrences create multiple work orders, which might create more trips and more travel than desired.
 
@@ -34,7 +36,7 @@ When deciding whether to add multiple agreement incidents to a single recurrence
 
 ## Agreement work orders schedule automatically with Resource Scheduling Optimization
 
-Resource Scheduling Optimization automatically schedules work orders to optimize working hours and travel time, including work orders generated from agreements. If you're interested in using Resource Scheduling Optimization to schedule agreement work orders, there are three options:
+Resource Scheduling Optimization automatically schedules work orders to optimize working hours and travel time, including work orders generated from agreements. If you want to use Resource Scheduling Optimization to schedule agreement work orders, there are many options such as:
 
 - Have the agreement auto generate work orders and ensure the generated work order is included in the Resource Scheduling Optimization scope.
 
@@ -52,20 +54,16 @@ Entitlements are applied to work order pricing based on multiple factors such as
 
 For more information, see [Entitlements for work orders in Dynamics 365 Field Service](work-order-entitlements.md).
 
-## Additional notes
+## Quotes and sales
 
-- You can edit active agreements; the edits are immediately eligible and will update the agreement after a short time.
-- Editing the booking recurrence of an active agreement will update booking dates asynchronously.
-- You can copy existing agreements and choose which parameters you want to apply to the resulting copy.
-- When you change the owner of an agreement, change the agreement status to draft/estimate and save the changes. Wait five minutes to allow all asynchronous processes to run, and then set the agreement status back to active to keep its workflows running in the right order.
-- If **Auto Generate Work Order** is set to **No** but **Auto Generate Booking** is set to **Yes**, then the booking will automatically be created when the work order is manually generated from the booking date.
-- An agreement is intended to be executed at a single location represented by the service account. Work at multiple locations should be configured with multiple agreements.
-- In scenarios where you want to use agreements solely for invoice generation and not for work order generation, consider using the quote entity as part of the Field Service solution, which has similar capabilities.
-- Agreements work seamlessly with the Dynamics 365 Sales Lead > Opportunity > Quote > Order process. This is achieved by:  
-  - Categorizing a lead as a service-maintenance lead
-  - Adding opportunity lines with service-based lines
-  - Creating quote lines as service-based lines and adding a quote booking setup
-- When setting up agreements to automatically generate work orders, limit the number of work order child records - work order products, services, service tasks, incident types, and so on - to be generated to no more than 500. Larger volumes of records, synchronous custom plugins, or custom processes may cause a time-out, resulting in the remaining child records not being generated.
+In scenarios where you want to use agreements solely for invoice generation and not for work order generation, consider using quotes as part of the Field Service solution.
+
+Agreements work seamlessly with the Dynamics 365 Sales Lead > Opportunity > Quote > Order process. To set up:
+  
+- Categorize a lead as a service-maintenance lead
+- Add opportunity lines with service-based lines
+- Create quote lines as service-based lines and add a quote booking setup
+- 
 
 ## Next steps
 
