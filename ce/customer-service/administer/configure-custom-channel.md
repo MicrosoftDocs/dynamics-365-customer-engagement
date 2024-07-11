@@ -104,7 +104,7 @@ Apart from built-in channels like chat and email, your organization can integrat
 
 [Test your custom messaging channel](../develop/test-custom-channel-sample-html.md)
 
-### See also
+### Related information
 
 [Bring your own custom messaging channel using Direct Line](../develop/bring-your-own-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
