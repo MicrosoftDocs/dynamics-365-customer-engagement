@@ -23,7 +23,7 @@ Entitlements can be applied to work orders based on:
 - Customer asset categories
 - Incident types
 
-Entitlements for work orders don't support quantity-based and limit-based entitlements. For example, a customer is entitled to 10 work orders or free service for the first hour.
+Entitlements for work orders don't support quantity-based and limit-based entitlements. For example, it's not possible to create an entitlement for 10 work orders or free service for the first hour.
 
 ## Entitlement applications
 
@@ -45,9 +45,7 @@ You can apply multiple entitlements to a single work order product or service. E
 
 In such cases, all applicable entitlements show as options in the **Entitlement** lookup field for the work order. However, the system selects one entitlement by default. The system first looks at the **Entitlement Prioritization** values of all applicable entitlements and selects the one with the highest priority (1 being the highest priority). Any priority value is greater than a blank priority value. 
 
-If no priority values exist or priority values are equal, the system selects the most specific entitlement.
-
-In the previous examples, the second scenario entitlement is based on the billing account and the customer asset category, whereas the first scenario entitlement is based only on the billing account. In this case, the second scenario entitlement is more specific, since it contains two factors.
+If no priority values exist or priority values are equal, the system selects the most specific entitlement. For example, an entitlement is set up based on a billing account. A second entitlement is set up based on a billing account and a customer asset category. In this case, the second entitlement is selected because it's more specific, since it contains two factors.
 
 You can manually override or disable an entitlement.
 
