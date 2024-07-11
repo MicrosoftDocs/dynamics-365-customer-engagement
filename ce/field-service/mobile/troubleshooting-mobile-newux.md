@@ -128,7 +128,7 @@ The mobile app doesn't load the new experience (preview), even if it has been [e
 The new experience (preview) currently doesn't support users or apps with offline enabled. Verify and update the following cases:
 
 1. The user of the mobile app must not be part of the Mobile Offline Profile.
-1. The app itself shouldn't be set up for offline. In the app designer, open **Field Service Mobile**. Go to **Settings** > **Features** and set the **Offline setup from the app designer** toggle to **No**. For more information, see [Set up mobile offline](/power-apps/mobile/setup-mobile-offline#enable-your-app-for-offline-use-preview).
+1. The app itself shouldn't be set up for offline. In the app designer, open **Field Service Mobile** and open **Settings** for the app. On the **General** tab, turn off **Can be used offline**. For more information, see [Set up mobile offline](/power-apps/mobile/setup-mobile-offline#enable-your-app-for-offline-use-preview).
 
 ## The new experience doesn’t show dashboards from the navigation
 
