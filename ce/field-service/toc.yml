@@ -325,12 +325,12 @@ items:
         href: mobile/configure-geofencing.md
       - name: Manage apps with Intune
         href: mobile/app-management-intune.md
-      - name: Manage IoT signals
+      - name: Work with IoT signals
         href: mobile/iot-mobile.md
 
     - name: Use the mobile app
       items:
-      - name: Download and get started
+      - name: Download the mobile app
         href: mobile/download-mobile-app.md
       - name: Use the Unified Interface app
         items:  
@@ -344,26 +344,26 @@ items:
           href: mobile/booking-maps.md
         - name: Create service reports
           href: mobile/create-service-report.md
-      - name: Use the new UX
+      - name: Use the new experience
         href: mobile/do-work-newux.md
 
     - name: Customize the mobile app
       items:
-        - name: Use Microsoft Power Platform
-          href: mobile/power-apps-customization.md
-        - name: Customize the navigation and views
+        - name: Customize with Power Apps
+          href: mobile/power-apps-customization.md 
+        - name: Change the navigation and views
           href: mobile/customize-navigation-views.md
-        - name: Customize calendar columns
+        - name: Change the booking calendar
           href: mobile/customize-booking-calendar.md
         - name: Link to the mobile app
           href: mobile/deeplink-mobile.md
         - name: Create workflows and scripts
           href: mobile/automate-business-processes.md
-        - name: Edit the Booking and Work Order form (Form Component Control)
+        - name: Change the booking and work order form
           href: mobile/change-work-order-booking-form.md
         - name: Add a custom app module to the mobile app
           href: mobile/custom-app-module-mobile.md
-        - name: Performance considerations for mobile customizations
+        - name: Optimize performance for mobile customizations
           href: mobile/improve-mobile-performance.md
 
     - name: Get help
