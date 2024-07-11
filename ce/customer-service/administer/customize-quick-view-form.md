@@ -1,15 +1,12 @@
 ---
 title: "Customize quick view forms | MicrosoftDocs"
 description: "This topic provides procedural steps to customize the quick view forms present in the Active Conversation page in Omnichannel for Customer Service."
-ms.date: 10/05/2020
+ms.date: 07/01/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 ---
 # Customize quick view forms
-
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 You can customize the quick view form in the section by navigating to the respective entities and quick view forms. The following are some of the relevant entities.
 

@@ -623,9 +623,9 @@
         - name: Enable features in Copilot pane
           href: copilot-enable-help-pane.md
         - name: Enable ask a question
-          href: copilot-enable-help-pane.md#enable-ask-a-question
+          href: copilot-enable-help-pane.md
         - name: Enable draft a response (preview)
-          href: copilot-enable-help-pane.md#enable-draft-a-response-preview
+          href: copilot-enable-help-pane.md
         - name: Enable Copilot to draft emails 
           href: copilot-email-enable.md
       - name: Enable Copilot plugins for generative AI (preview)
@@ -886,7 +886,7 @@
       href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
   - name: Implement Dynamics 365 Customer Service
     href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
-  - name: Manage your contact center
+  - name: Use Dynamics 365 Customer Service
     href: ../use/supervisor-historical-analytics.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
   - name: Develop Dynamics 365 Customer Service
     href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml

@@ -14,6 +14,9 @@ ms.custom:
 
 # Responsible AI FAQ for Dynamics 365 Customer Service
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+
 [!INCLUDE[responsible-ai-intro](../../includes/responsible-ai-intro.md)]
 
 [!INCLUDE[responsible-ai-features](../../includes/responsible-ai-features.md)]

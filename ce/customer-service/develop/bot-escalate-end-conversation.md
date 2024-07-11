@@ -8,7 +8,6 @@ ms.author: nenellim
 ---
 # Configure Azure bots to escalate and end conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This article explains how you can program an Azure bot to route a conversation to a human agent in Omnichannel for Customer Service. It also describes how to program the bot to end the conversation.
 

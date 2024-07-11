@@ -16,6 +16,9 @@ ms.custom:
 
 # Add the Knowledge Base Search control to forms
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 > [!NOTE]
 > Follow the steps provided in this article for single-session apps only or to use auto search on non-anchor tabs. For multi-sessions apps, use the [knowledge search control on the app side pane](configure-knowledge-search-control-productivity-pane.md).
 

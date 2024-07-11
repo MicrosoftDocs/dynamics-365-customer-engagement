@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Configure macros to improve agent productivity
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greeting and verifying a customer, sending acknowledgment mail, and taking notes. These clicks and repetitive tasks can lead to human errors when agents copy and paste the data across different operations.
 
 Macros are a set of sequential actions that a user performs. They enable users to perform daily operations efficiently in a fast and process-compliant manner. You can reuse macros with different sessions based on the context parameters that are specific to the session.

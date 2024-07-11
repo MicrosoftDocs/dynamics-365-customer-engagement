@@ -1,6 +1,6 @@
 ---
 title: View minutes used in voice calls
-description: View the report to see the minutes used in voice calls in Omnichannel for Customer Service.
+description: View the report to see the minutes used in voice calls in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.date: 06/14/2024
@@ -11,18 +11,18 @@ ms.collection:
 
 # View minutes used in voice calls
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-The Voice minutes report lets Omnichannel administrators view a Power BI report in Customer Service admin center that helps them to get insights about how many call intelligence minutes and intelligent voicebot minutes from the voice quota have been consumed.
+The Voice minutes report lets administrators view a Power BI report that helps them to get insights about how many call intelligence minutes and intelligent voicebot minutes from the voice quota have been consumed.
 
 ## Prerequisites
 
 - The voice channel should be configured and in use for the report to display data.
-- The Omnichannel administrator role for accessing the report.
+- The administrator role for accessing the report.
 
 ## View the Voice minutes report
 
-To view the Voice minutes report, in the site map of Customer Service admin center, select **Insights**, and in **Admin reports**, select **View report** for **Voice minutes**. 
+To view the Voice minutes report, in the site map of Customer Service admin center or Contact Center admin center, select **Insights**, and in **Admin reports**, select **View report** for **Voice minutes**. 
 
 > ![The Voice minutes report.](../media/voice-minutes-report.png "The Voice minutes report.")
 
@@ -59,5 +59,5 @@ The **Time zone** option lets you filter the report for the selected time zone.
 
 ### See also
 
-[Overview of voice channel in Omnichannel for Customer Service](voice-channel.md)  
+[Overview of voice channel](voice-channel.md)  
 [Intraday conversation insights](../implement/intraday-conversation-insights.md)  

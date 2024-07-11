@@ -6,11 +6,13 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 11/17/2023
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Check your contact center health
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 As administrators, you can use the integrated health checker to identify any errors, warnings, and then recommended best practices in your configuration. You can receive proactive notifications of emerging issues with health checks running in the background. This proactive approach can help ensure that your call center flows and configurations operate at optimal levels. 
 

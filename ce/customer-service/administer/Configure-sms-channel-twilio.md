@@ -1,7 +1,7 @@
 ---
 title: Configure an SMS channel for Twilio
 description: Learn how to configure an SMS channel for Twilio in Omnichannel for Customer Service.
-ms.date: 06/14/2024
+ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,7 @@ ms.collection:
 
 # Configure an SMS channel for Twilio
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The SMS channel through Twilio in Omnichannel for Customer Service allows your organization to connect to customers by using text messages. Your customers can send text messages through Twilio and connect with an appropriate customer service agent. Agents can view incoming SMS requests on their dashboard and respond accordingly.
 
@@ -51,7 +51,7 @@ To configure the SMS channel, complete the following tasks:
 
 ### Configure the SMS number
 
-1. In the site map of Customer Service admin center, in **Customer support**, select **Channels**.
+1. In the site map of Contact Center admin center or Customer Service admin center, in **Customer support**, select **Channels**.
     
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 

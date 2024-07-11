@@ -8,7 +8,6 @@ ms.author: nenellim
 ---
 # Start a chat proactively
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 You can help improve customer satisfaction by anticipating areas where customers need help, and then engaging them through chat when they've been browsing your website for some time.
 

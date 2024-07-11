@@ -56,7 +56,7 @@ The **Overview** tab displays the names of the people who participated in a conv
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Conversation intelligence can detect and tag short duration calls for the following categories:
 

@@ -4,7 +4,7 @@ description: Use this article to understand how emergency calls work and how you
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 06/10/2024
+ms.date: 07/01/2024
 ms.topic: how-to
 ms.custom: bap-template
 ms.collection:
@@ -12,9 +12,11 @@ ms.collection:
 
 # Support emergency calls made by agents
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-This article describes how emergency calling works in Customer Service when agents dial an emergency number during crisis situations.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+
+This article describes how emergency calling works when agents dial an emergency number during crisis situations.
 
 > [!NOTE]
 >
@@ -38,7 +40,7 @@ Make sure that the following prerequisites are complete so that the emergency ca
 
 ## How emergency calls work
 
-In Customer Service workspace or Omnichannel for Customer Service, agents can use the dialer to call the emergency number during a crisis.
+In Customer Service workspace or Contact Center workspace, agents can use the dialer to call the emergency number during a crisis.
 
 Here's how the emergency calls work:
 
@@ -55,7 +57,7 @@ Here's how the emergency calls work:
 
 When the agent makes an emergency call, the system can send an automated email to their supervisors or whoever needs to be informed about the call to ensure efficient emergency responder access. The system uses the **Emergency Call Notification Template** to send the email. You can use the **Editor** to modify the template.
 
-1. In the Customer Service admin center, go to **User management** under **Customer support**, and for **Users**, select **Manage**.
+1. In the Customer Service admin center or Contact Center admin center, go to **User management** under **Customer support**, and for **Users**, select **Manage**.
 1. On the page that appears, select the **Omnichannel Users** view, and then select the user that you want to update.
 1. Select the **Omnichannel** tab, and in **Emergency Call Notifications**, add the email addresses of the recipients separated by a semicolon.
 1. Save the changes.

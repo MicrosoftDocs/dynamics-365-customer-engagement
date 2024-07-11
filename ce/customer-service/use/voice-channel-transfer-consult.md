@@ -1,6 +1,6 @@
 ---
-title: Transfer calls and consult with users | MicrosoftDocs
-description: Use this article to understand how the agent can use the transfer and consult options to make and receive customer calls in Omnichannel for Customer Service.
+title: Transfer calls and consult with users
+description: Use this article to understand how the agent can use the transfer and consult options to make and receive customer calls.
 ms.date: 04/12/2024
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -9,6 +9,8 @@ ms.author: mgandham
 ---
 
 # Transfer calls and consult with users in the voice channel
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can transfer calls or consult with other agents or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
 
@@ -46,6 +48,9 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
     
     The transfer and consult behaviors depend on the voice channel experience your administrator has configured. <br>
 
+    > [!NOTE]
+    > In the embedded and standalone experiences of Dynamics 365 Contact Center, the enhanced voice options only are available.
+
      ### [Enhanced voice](#tab/enhancedvoicestack)
 
 
@@ -79,7 +84,7 @@ When you initiate a consult, the following actions occur:
 - You're the primary agent. 
 - You can search for agents to consult within the same queue or other queues. Additionally, you can filter agents within a queue based on their skills. The application displays the agents whose skills match the selected criteria in full or partially, along with their name, and current presence status.
 - The customer is automatically put on hold. Hold music plays for the customer.
-- When the invited collaborator joins the call, they have a consult role.
+- When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity.
 - The primary agent must manually remove the customer from hold. During a consult, the primary agent can choose to transfer the call to the new participant. 
 - If the primary agent ends the call, the call ends for everyone. 
 - If the primary agent refreshes their browser, all the participants are placed on hold until the primary agent returns to the call. 
