@@ -197,17 +197,19 @@ You can add a participant to an ongoing Teams call. The added participant can be
     :::image type="content" source="media/teams-dialer-add-participant.png" alt-text="Screenshot that shows the Add people icon and the search box to add a participant to the call."::: 
 
 1. Select **Call** to place the call.
+   When the call is answered, a voice message is played to inform the other participants about the new participant.
 
 > [!NOTE]
-> You can add up to 20 participants to a call.  
+>- You can add up to 20 participants to a call.
+>- You can remove a participant from the call by selecting the three-dot menu (**&hellip;**) next to the participant's name and selecting **Remove**. This option is available only when there are more than two participants in the call.
 
 ## View phone call activities
 
-After you make or receive a call, a phone call activity is recorded in the following places:
+After you make or receive a call, a phone call activity is recorded.
 
-- If the call is associated with a record:
-    - The phone call activity is displayed on the timeline of the record.
-    - On the **My Activities** page, where the **Regarding** field displays the linked record.
+- If the call is associated with a record, the phone call activity is displayed in the following locations:
+    - On the timeline of the record.
+    - On the **My Activities** page. The **Regarding** column on the page displays the linked record.
 
 - If the call is not associated with any record:
     - A phone call activity is created and displayed only on the **Activities** page.

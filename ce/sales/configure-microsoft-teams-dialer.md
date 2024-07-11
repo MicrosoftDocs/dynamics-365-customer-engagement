@@ -119,7 +119,7 @@ Additionally, you must grant the following permissions to your users:
     <a name="teams-call-from-views"></a>
     - **Call from views**
     
-        Allows Dynamics 365 to use Teams dialer when sellers select a phone number link on list views. This option is turned on by default. If you turn it off, the link opens the default system phone call dialer.
+        Allows Dynamics 365 to use Teams dialer when sellers click on a phone number link on list views. If you already have an integration with the browser's Call event, we recommend turning this option off.
 
         **More information:** [Call a customer from the list view](call-using-microsoft-teams.md#call-from-list-view)
 
