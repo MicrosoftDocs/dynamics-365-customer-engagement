@@ -1,18 +1,15 @@
 ---
 title: Get help for the Field Service mobile app
 description: Learn about the ways you can get help for the Field Service mobile app.
-ms.date: 04/19/2023
 ms.subservice: field-service-mobile
 ms.topic: conceptual
 ms.custom: bap-template
+ms.date: 07/11/2024
 author: JonBaker007
 ms.author: jobaker
 ---
 
 # Get help for the Field Service mobile app
-
-> [!WARNING]
-> update metadata.
 
 Microsoft sends communications regarding service incidents, service changes, maintenance, releases, and customer action needed. Learn more: [Notifications for Business Application Group services](/power-platform/admin/notifications-explained).
 

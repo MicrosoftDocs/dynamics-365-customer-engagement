@@ -1,17 +1,14 @@
 ---
 title: Add a custom app module to the Field Service mobile app
 description: Learn how to create a custom app module for the Dynamics 365 Field Service mobile app.
-ms.date: 11/17/2023
 ms.subservice: field-service-mobile
-ms.topic: article
-author: Andrea-Orimoto
-ms.author: andreo
+ms.topic: how-to
+ms.date: 07/11/2024
+author: JonBaker007
+ms.author: jobaker
 ---
 
 # Add a custom app module to the Field Service mobile app
-
-> [!WARNING]
-> update metadata
 
 We recommend using the standard Field Service Mobile app module. However, sometimes organization wants to give frontline workers access to another custom app module to enable other business use cases and processes.
 

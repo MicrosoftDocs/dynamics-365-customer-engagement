@@ -1,7 +1,7 @@
 ---
-title: Offline data synchronization
+title: Configure offline data synchronization
 description: Learn how offline data is synchronized to the server in the Dynamics 365 Field Service mobile app.
-ms.date: 01/23/2024
+ms.date: 07/11/2024
 ms.topic: conceptual
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -9,9 +9,6 @@ ms.author: jobaker
 ---
 
 # Configure offline data synchronization
-
-> [!WARNING]
-> update metadata.
 
 After the offline profile is set up and data is downloaded to the mobile device for the first time, the mobile app always runs [offline-first](/power-apps/mobile/mobile-offline-overview). Prioritizing offline use optimizes the app's performance. It also creates a consistent experience for field technicians as they move through areas with and without an Internet connection.
 

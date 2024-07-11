@@ -1,17 +1,14 @@
 ---
-title: Best practices and limitations (contains video)
+title: Best practices and limitations for the offline profile
 description: Learn how to use the mobile offline profile to make the best use of the Field Service mobile app when your field technicians don't have Internet access.
-ms.date: 01/23/2024
 ms.topic: overview
 ms.subservice: field-service-mobile
+ms.date: 07/11/2024
 author: JonBaker007
 ms.author: jobaker
 ---
 
-# Best practices and limitations
-
-> [!WARNING]
-> Jon to review. Michael to scrub, update metadata.
+# Best practices and limitations for the offline profile
 
 Field technicians often need to work in areas without Internet access, like remote places or underground. When an admin [sets up the Field Service mobile offline profile](set-up-offline-profile.md), technicians can continue using the mobile app when there's no Internet connection. Important data syncs to the device for viewing in the field. Changes on the device are stored locally, and then uploaded automatically when an Internet connection becomes available.
 
@@ -60,7 +57,6 @@ Keep these limitations in mind when you set up the offline profile:
 - Access to SharePoint documents isn't supported.
 
 - [Web resources are partially supported in offline mode](/power-apps/mobile/offline-capabilities#limitations). We recommend that you use the [Power Apps component framework](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the mobile app and the browser.
-
 
 ## Next steps
 

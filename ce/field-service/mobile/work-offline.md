@@ -1,17 +1,14 @@
 ---
 title: Work offline and update offline data
 description: Learn how to work offline and what you need to keep in mind.
-ms.date: 08/02/2023
-ms.topic: article
+ms.date: 07/11/2024
+ms.topic: conceptual
 ms.subservice: field-service-mobile
-author: josephshum-msft
-ms.author: jshum
+author: JonBaker007
+ms.author: jobaker
 ---
 
 # Work offline and update offline data
-
-> [!WARNING]
-> update metadata.
 
 To work in areas without internet access, the app downloads important information to the mobile device for a seamless experience. When the device connects to the internet, data automatically syncs with the server.
 

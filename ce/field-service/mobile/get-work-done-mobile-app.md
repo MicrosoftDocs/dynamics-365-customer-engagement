@@ -1,11 +1,11 @@
 ---
-title: Complete work orders in the mobile app
+title: Work with the mobile app (Unified Interface)
 description: Learn how to use the Dynamics 365 Field Service mobile app to plan your work day, track your work orders, and view customer details.
-ms.date: 11/28/2023
 ms.topic: how-to
 ms.subservice: field-service-mobile
-author: josephshum-msft
-ms.author: jshum
+ms.date: 07/11/2024
+author: JonBaker007
+ms.author: jobaker
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -15,9 +15,6 @@ ms.collection: bap-ai-copilot
 ---
 
 # Work with the mobile app (Unified Interface)
-
-> [!WARNING]
-> update metadata.
 
 The Dynamics 365 Field Service mobile app helps frontline workers complete work orders efficiently and effectively. They can view jobs in a daily overview, dive into detailed instructions, and update work orders on the go. Field Service mobile app uses the Power Apps mobile app as a player for the model-driven Field Service Mobile app module. Therefore, core concepts like navigation, views, actions are explained in the here: [Use model-driven apps in the Power Apps mobile app](/power-apps/mobile/use-custom-model-driven-app-on-mobile).
 

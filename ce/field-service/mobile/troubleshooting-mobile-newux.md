@@ -1,18 +1,14 @@
 ---
-title: Dynamics 365 Field Service mobile app (preview) troubleshooting
+title: Dynamics 365 Field Service mobile app troubleshooting
 description: Learn how to troubleshoot issues in the Dynamics 365 Field Service mobile app (preview).
-ms.date: 10/04/2023
+ms.date: 07/11/2024
 ms.topic: troubleshooting
-author: andrea-orimoto
-ms.author: andreo
-ms.reviewer: mhart
+author: JonBaker007
+ms.author: jobaker
 ms.custom: bap-template
 ---
 
-# Dynamics 365 Field Service mobile app (preview) troubleshooting
-
-> [!WARNING]
-> scrub and update metadata.
+# Dynamics 365 Field Service mobile app troubleshooting
 
 This article lists common issues with the [Field Service mobile app](set-up-field-service-mobile.md) and steps to resolve them. You need administrator permissions in Field Service for all resolution steps.
 

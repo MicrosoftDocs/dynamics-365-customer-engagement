@@ -1,17 +1,15 @@
 ---
 title: Get started with the refreshed mobile experience
-description: 
-ms.date: 03/11/2024
+description: Learn about the key features and limitations of the new user experience for the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-author: josephshum-msft
-ms.author: jshum
+ms.date: 07/11/2024
+author: JonBaker007
+ms.author: jobaker
+ms.collection: bap-ai-copilot 
 ---
 
 # Get started with the refreshed mobile experience
-
-> [!WARNING]
-> update metadata
 
 The new user experience in the Dynamics 365 Field Service mobile app helps service technicians swiftly access information they need. It offers mobile-friendly navigation, gestures, and controls to help technicians save valuable time by quickly updating the status of a booking and get driving directions work location.
 

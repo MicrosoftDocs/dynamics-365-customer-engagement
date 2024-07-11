@@ -1,17 +1,14 @@
 ---
 title: Performance considerations when customizing the mobile app
-description: Learn about you can improve the Dynamics 365 Field Service mobile app performance.
-ms.date: 10/16/2023
+description: Learn about how you can improve the Dynamics 365 Field Service mobile app performance when running customizations.
+ms.date: 07/11/2024
 ms.subservice: field-service-mobile
-ms.topic: article
+ms.topic: conceptual
 author: JonBaker007
 ms.author: jobaker
 ---
 
 # Performance considerations when customizing the mobile app
-
-> [!WARNING]
-> update metadata. revisit and scrub, potentially later 
 
 The foundation of the Dynamics 365 Field Service mobile app is a model-driven app. Thus, general [guidelines and best practices for performant apps](/power-apps/mobile/power-apps-mobile-canvas-app-restarts#best-practices-for-building-performant-apps) and [performance consideration for model-driven apps](/power-apps/maker/model-driven-apps/design-performant-forms) apply too.
 

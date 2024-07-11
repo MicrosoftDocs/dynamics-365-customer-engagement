@@ -1,18 +1,15 @@
 ---
 title: Use Power Apps to configure the Field Service mobile app
 description: Review a set of helpful links that point to Power Apps documentation for customization scenarios of the mobile app.
-ms.date: 10/16/2023
-ms.topic: article
+ms.date: 07/11/2024
+ms.topic: reference
 ms.subservice: field-service-mobile
-author: Andrea-Orimoto
-ms.author: andreo
+author: JonBaker007
+ms.author: jobaker
 ---
 
 
 # Use Power Apps to configure the Field Service mobile app
-
-> [!WARNING]
-> update metadata.
 
 Because the Dynamics 365 Field Service mobile app is built on Power Platform, administrators and developers can use the same tools that are available for configuring Dynamics 365 and Microsoft Power Apps. See the following table for some examples.
 

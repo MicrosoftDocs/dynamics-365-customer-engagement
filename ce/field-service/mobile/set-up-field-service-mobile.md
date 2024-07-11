@@ -1,18 +1,15 @@
 ---
 title: Set up the mobile app
 description: Learn how to install and set up the Dynamics 365 Field Service mobile app.
-ms.date: 10/16/2023
-ms.topic: article
+ms.date: 07/11/2024
+ms.topic: how-to
 ms.subservice: field-service-mobile
 ms.collection: get-started
-author: Andrea-Orimoto
-ms.author: andreo
+author: JonBaker007
+ms.author: jobaker
 ---
 
 # Set up the mobile app
-
-> [!WARNING]
-> update version numbers.
 
 The Dynamics 365 Field Service mobile app is designed and optimized for technicians in the field. They can work with Field Service work orders, customer assets, accounts, and contacts. The app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). You can customize it to your business needs like other [model-driven apps](/power-apps/maker/model-driven-apps/).
 

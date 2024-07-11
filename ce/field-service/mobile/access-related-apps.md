@@ -1,17 +1,14 @@
 ---
 title: Access related apps from the mobile app
 description: Learn about the related applications and how to access them from the mobile app.
-ms.date: 10/05/2023
+ms.date: 07/11/2024
 ms.topic: conceptual
 ms.subservice: field-service-mobile
-author: josephshum-msft
-ms.author: jshum
+author: JonBaker007
+ms.author: jobaker
 ---
 
 # Access related apps from the mobile app
-
-> [!WARNING]
-> Update metadata
 
 The Dynamics 365 Field Service mobile app provides quick access to IoT data and Dynamics 365 Remote Assist if your organization uses these capabilities. After enabling the new user experience, users can also [access a library of guides based on Dynamics 365 Guides](do-work-newux.md).
 

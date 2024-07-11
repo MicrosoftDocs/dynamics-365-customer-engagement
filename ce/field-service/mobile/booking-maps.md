@@ -1,17 +1,14 @@
 ---
 title: View daily bookings on a map
-description: Learn about how to set up booking maps for frontline workers in the Dynamics 365 Field Service mobile app    .
-ms.date: 05/17/2024
+description: Learn about how to set up booking maps for frontline workers in the Dynamics 365 Field Service mobile app.
 ms.subservice: field-service-mobile
 ms.topic: how-to
+ms.date: 07/11/2024
 author: JonBaker007
 ms.author: jobaker
 ---
 
 # View daily bookings on a map
-
-> [!WARNING]
-> Update metadata
 
 Frontline workers can view their scheduled work orders on a map from the Field Service mobile app. Seeing their work on the map helps frontline workers plan their day and provides an easy way to trigger travel directions or contact the customer. The booking map works when the mobile app is running offline *with* internet access. In this case, the device is connected to the internet while using downloaded data.
 

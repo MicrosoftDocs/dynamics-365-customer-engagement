@@ -1,17 +1,14 @@
 ---
 title: Location auditing for the mobile app
 description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app.
-ms.date: 10/18/2021
-ms.topic: article
+ms.date: 07/11/2024
+ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
 ms.author: jobaker
 ---
 
 # Share the location from the mobile app
-
-> [!WARNING]
-> update metadata.
 
 Field technicians often travel to various locations throughout their work day, and it's helpful for schedulers to know where technicians are at any given time.
 

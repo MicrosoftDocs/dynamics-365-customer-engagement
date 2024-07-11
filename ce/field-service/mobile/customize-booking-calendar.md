@@ -9,9 +9,6 @@ ms.author: jobaker
 
 # Customize the booking view
 
-> [!WARNING]
-> update metadata. 
-
 ## [Unified Interface UX](#tab/vCurrent)
 
 By default, the booking calendar control shows a predefined set of details associated with bookings.

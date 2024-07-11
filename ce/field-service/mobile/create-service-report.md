@@ -1,21 +1,14 @@
 ---
-title: Field Service technician service reporting
-description: Learn about setting up service reports for Field Service technicians
-ms.date: 05/21/2021
-ms.topic: article
-
+title: Enable technician to create service reports
+description: Learn how to set up service reports for Field Service technicians.
+ms.topic: how-to
 ms.subservice: field-service-mobile
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+ms.date: 07/11/2024
 author: JonBaker007
 ms.author: jobaker
 ---
 
-# Field Service technician service reports
-
-> [!WARNING]
-> update metadata.
+# Enable technician to create service reports
 
 Field Service technicians can create service reports to summarize the work they performed. These reports can contain details such as tasks completed, and products or parts used during the service. Service reports are often delivered to the customer as a PDF file.
 

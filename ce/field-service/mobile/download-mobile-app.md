@@ -1,11 +1,11 @@
 ---
-title: Download the mobile app and get started
-description: Learn where to download the Dynamics 365 Field Service mobile app and get started with onsite customer service.
-ms.date: 03/11/2024
+title: Download the mobile app
+description: Learn where to download the Dynamics 365 Field Service mobile app and get started with field service operations on the go.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-author: josephshum-msft
-ms.author: jshum
+ms.date: 07/11/2024
+author: JonBaker007
+ms.author: jobaker
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -13,10 +13,7 @@ ms.custom:
   - bap-template
 ---
 
-# Download the mobile app and get started
-
-> [!WARNING]
-> Michael to update metadata.
+# Download the mobile app
 
 The Dynamics 365 Field Service mobile app works on iOS and Android devices and on Windows laptops and tablets. It gives technicians the tools they need to serve customers onsite.
 

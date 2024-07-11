@@ -1,17 +1,14 @@
 ---
 title: Create workflows and scripts for the mobile app
 description: Learn about workflows and scripts for the Field Service mobile app.
-ms.date: 12/21/2022
-ms.topic: article
+ms.topic: how-to
 ms.subservice: field-service-mobile
-author: Andrea-Orimoto
-ms.author: andreo
+ms.date: 07/11/2024
+author: JonBaker007
+ms.author: jobaker
 ---
 
 # Create workflows and scripts for the mobile app
-
-> [!WARNING]
-> update metadata, add to TOC.
 
 Administrators can use tools like Power Automate flows, classic background workflows, JavaScript, or business rules to automate business processes. Some processes work when the Dynamics 365 Field Service mobile app runs [offline first](work-offline.md) and others require internet connectivity.
 

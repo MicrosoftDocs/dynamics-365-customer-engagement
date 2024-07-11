@@ -1,17 +1,14 @@
 ---
-title: Edit the navigation
+title: Edit the navigation and views on the mobile app
 description: Change the navigation, forms, and views in the Dynamics 365 Field Service mobile app.
-ms.date: 10/16/2023
 ms.topic: how-to
 ms.subservice: field-service-mobile
-author: Andrea-Orimoto
-ms.author: andreo
+ms.date: 07/11/2024
+author: JonBaker007
+ms.author: jobaker
 ---
 
 # Edit the navigation and views on the mobile app
-
-> [!WARNING]
-> Update metadata
 
 The Field Service Mobile app module is a model-driven app, which you can edit in Power Apps so it matches your business scenario.
 

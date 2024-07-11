@@ -1,17 +1,14 @@
 ---
-title: Geofencing for the Field Service mobile app
-description: Learn how to use geofences for the Dynamics 365 Field Service mobile app.
-ms.date: 02/07/2024
+title:  Create geofences around locations
+description: Learn how to create and use geofences for the Dynamics 365 Field Service mobile app.
 ms.subservice: field-service-mobile
-ms.topic: article
+ms.date: 07/11/2024
 author: JonBaker007
 ms.author: jobaker
+ms.topic: how-to
 ---
 
 # Create geofences around locations
-
-> [!WARNING]
-> Update metadata
 
 A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle.
 
