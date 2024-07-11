@@ -150,8 +150,8 @@ To enable call recording and SMS services, you must first configure your applica
 
 #### Get event grid app and tenant IDs from the Power Apps portal
 
-[!NOTE]
-Use the method only when you have issues in getting the IDs from the Azure Portal. To get the IDs from the Azure Portal, search for "app registrations" and find the registration for your connected Azure Communication Services resource. Copy the Application (client) ID to fill the event grid App ID box and the Directory (tenant) ID to fill the event grid Tenant ID box.
+> [!NOTE]
+> Use the method only when you have issues in getting the IDs from the Azure Portal. To get the IDs from the Azure Portal, search for "app registrations" and find the registration for your connected Azure Communication Services resource. Copy the Application (client) ID to fill the event grid App ID box and the Directory (tenant) ID to fill the event grid Tenant ID box.
 
 1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
 
