@@ -17,7 +17,7 @@ ms.collection:
 > [!Important]
 > The Telesign channel will be deprecated and removed from Omnichannel for Customer Service on October 8, 2024. After this date, you won't be able to use this channel, and this article will be removed. Learn more at [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
-An SMS channel allows your organization to connect to customers by using text messages. After you configure an SMS channel, your customers can send text messages and connect with a customer service agent. This provides your customers the flexibility to connect with their mobile devices when an internet connection isn't available to connect to a chat channel.
+An SMS channel allows your organization to connect to customers by using text messages. After you configure an SMS channel, your customers can send text messages and connect with a customer service agent. This channel provides your customers with the flexibility to connect on their mobile devices when an internet connection isn't available to connect to a chat channel.
 
 Agents can view incoming SMS requests on their dashboard and respond accordingly.
 
@@ -52,9 +52,9 @@ An SMS channel can be enabled within Omnichannel for Customer Service by integra
 
 2. Purchase support phone numbers through your Telesign account.
 
-3. Get the customer ID and API key from your Telesign account. You need to provide these while setting up the SMS channel in Omnichannel for Customer Service.
+3. Get the customer ID and API key from your Telesign account. You need to provide the ID and key while setting up the SMS channel in Omnichannel for Customer Service.
 
-4. You're provided with a callback URL that must be sent to [Telesign support](mailto:support@telesign.com). This callback URL is specific to your organization and is available when you add SMS support for your organization. When you send an email to TeleSign support, include the callback URL, your customer ID, and enter the subject line as **Omnichannel for Customer Service callback URL update request**.
+4. You receive a callback URL that must be sent to [Telesign support](mailto:support@telesign.com). This callback URL is specific to your organization and is available when you add SMS support for your organization. When you send an email to TeleSign support, include the callback URL, your customer ID, and enter the subject line as **Omnichannel for Customer Service callback URL update request**.
 
 ## Add SMS support
 
@@ -116,7 +116,7 @@ An SMS channel can be enabled within Omnichannel for Customer Service by integra
 
 ### Incoming text messages
 
-For an incoming text message sent by a customer to the support phone number, the message is first sent to the Telesign service and then pushed by Telesign to Omnichannel for Customer Service using the callback URL. After this, the message gets routed and associated to either a new or an existing conversation by Omnichannel for Customer Service.
+For an incoming text message sent by a customer to the support phone number, the system first sends the message to the Telesign service. Telesign then pushes the message to Omnichannel for Customer Service using the callback URL. After this action, the message gets routed and associated to either a new or an existing conversation by Omnichannel for Customer Service.
 
 ### Outgoing text messages
 
