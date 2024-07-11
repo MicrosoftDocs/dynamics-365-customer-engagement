@@ -47,15 +47,13 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 
  > [!NOTE]
- > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in Customer Service admin center or Contact Center admin center becomes invalid. An error message is also displayed in the connection string field in Customer Service admin center or Contact Center admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services**. The application displays a success message if the connection is successful.
+ > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in the Contact Center admin center app becomes invalid. An error message is also displayed in the connection string field in the admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** in Contact Center admin center. The application displays a success message if the connection is successful.
 
-### Get application and tenant IDs from the Azure portal
+### Get Event Grid application and tenant IDs from the Azure portal
 
-You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Customer Service admin center or Contact Center admin center. Perform the following steps to get these values:
+You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Contact Center admin center or Customer Service admin center. Perform the following steps to get these values:
 
-1. Open the **App registrations** page on the Azure portal.
-
-    If you're registering your app on the Azure portal for the first time, then perform the following steps:
+1. On the Azure portal, open the **App registrations** page. If you're registering your app on the Azure portal for the first time, then perform the following steps, otherwise, select the registered app and go to step 2:
 
     1. On the **Register an application** page, enter the following details:
 
@@ -65,26 +63,26 @@ You'll need to specify the values of **Application (client) ID** and **Directory
     1. Select **Register**.
        :::image type="content" source="../media/acs-resource-register.png" alt-text="resource keys" :::
 
-1. Select the value of the **Application (client) ID** field, and then select the **Copy to clipboard** button. You'll need to enter this as the value of **Event grid app id** in Customer Service admin center or Contact Center admin center.
+1. Select the value of the **Application (client) ID** field, and then select **Copy to clipboard**. You'll enter this as the value of **Event grid app id** in  Contact Center admin center or Customer Service admin center.
 
-1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You'll need to enter this as the value of **Event grid app tenant id** in Customer Service admin center or Contact Center admin center.
+1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You'll enter this as the value of **Event grid app tenant id** in Contact Center admin center or Customer Serivce admin center.
 
     :::image type="content" source="../media/acs-resource-application.png" alt-text="resource application" :::
 
 ## Connect using an existing Azure resource
 
-1. In the site map of Customer Service admin center or Contact Center admin center, under **Customer support**, select **Channels**.
+1. In the site map of Contact Center admin center or Customer Service admin center, under **Customer support**, select **Channels**.
 1. Select **Manage** for **Phone numbers**.
 1. Select **Use existing resource** and specify the following:
      - Paste the values you've copied in the [Get Azure resource information](#get-azure-resource-information) section to the following fields:
        - **ACS Resource name** and **ACS Resource ID**: The **Name** and **Resource ID** field values.
        - **Connection String**: The **Connection string** field value.
-     - Paste the values you've copied in [Get application and tenant IDs](#get-application-and-tenant-ids-from-the-azure-portal) to the following fields:
+     - Paste the values you've copied in [Get application and tenant IDs](#get-event-grid-application-and-tenant-ids-from-the-azure-portal) to the following fields:
      
        - **Event grid app id**: The value of the **Application (client) ID** 
        - **Event grid app tenant id**: The value of the **Directory (tenant) ID** 
 
-     - Select the checkbox to confirm that the Azure Communication Services resource is connected to this Dynamics 365 Customer Service instance only.
+     - Select the checkbox to confirm that the Azure Communication Services resource is connected to this Dynamics 365 Contact Center or Customer Service instance only.
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
@@ -108,7 +106,7 @@ To enable call recording and SMS services, you must first configure your applica
 
 > [!IMPORTANT]
 >
-> - You need to be an owner of the [App registration](#get-application-and-tenant-ids-from-the-azure-portal) in order to create Event Grid subscriptions.
+> - You need to be an owner of the [App registration](#get-event-grid-application-and-tenant-ids-from-the-azure-portal) to create Event Grid subscriptions.
 > - You can set one webhook endpoint only at a time using the following procedure. To enable incoming calls, SMS, and call recording services, you must perform the procedure thrice to set a webhook endpoint for each service.
 > - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-ids-from-the-power-apps-portal).
 
@@ -151,6 +149,9 @@ To enable call recording and SMS services, you must first configure your applica
 
 
 #### Get event grid app and tenant IDs from the Power Apps portal
+
+[!NOTE]
+Use the method only when you have issues in getting the IDs from the Azure Portal. To get the IDs from the Azure Portal, search for "app registrations" and find the registration for your connected Azure Communication Services resource. Copy the Application (client) ID to fill the event grid App ID box and the Directory (tenant) ID to fill the event grid Tenant ID box.
 
 1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
 
