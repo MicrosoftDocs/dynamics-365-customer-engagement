@@ -305,19 +305,17 @@ items:
       href: mobile/overview.md
     - name: Admin guide
       items:
-      - name: Set up the classic mobile app
-        href: mobile/set-up-field-service-mobile.md
-      - name: Enable the refreshed user experience
-        href: mobile/enable-newux.md
+      - name: Set up the mobile app
+        href: mobile/set-up-field-service-mobile
       - name: Mobile offline profile
         items:
-        - name: Sync offline data
-          href: mobile/offline-data-sync.md
         - name: Set up the mobile offline profile
           href: mobile/set-up-offline-profile.md
+        - name: Configure offline sync
+          href: mobile/offline-data-sync.md
         - name: Best practices and limitations
           href: mobile/best-practices-limitations-offline-profile.md
-      - name: Scan barcodes
+      - name: Configure barcode scanning
         href: mobile/scan-barcode.md
       - name: Enable push notifications
         href: mobile/enable-push-notifications.md
@@ -334,7 +332,7 @@ items:
       items:
       - name: Download and get started
         href: mobile/download-mobile-app.md
-      - name: Use the classic app
+      - name: Use the Unified Interface app
         items:  
         - name: Get work done
           href: mobile/get-work-done-mobile-app.md
@@ -347,15 +345,7 @@ items:
         - name: Create service reports
           href: mobile/create-service-report.md
       - name: Use the new UX
-        items: 
-        - name: Get started
-          href: mobile/get-started-newux.md
-        - name: User settings
-          href: mobile/user-settings-newux.md
-        - name: Do and record your work
-          href: mobile/do-work-newux.md
-        - name: Work with Copilot
-          href: mobile/copilot-newux.md
+        href: mobile/do-work-newux.md
 
     - name: Customize the mobile app
       items:

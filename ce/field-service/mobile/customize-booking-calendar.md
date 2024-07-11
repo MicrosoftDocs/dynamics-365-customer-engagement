@@ -1,5 +1,5 @@
 ---
-title: Customize the booking view in the Dynamics 365 Field Service mobile app
+title: Customize the booking view
 description: Learn how to customize the default booking view in the Field Service mobile experience.
 ms.date: 12/20/2023
 ms.topic: article
@@ -7,44 +7,35 @@ author: JonBaker007
 ms.author: jobaker
 ---
 
-# Customize the booking view in the Dynamics 365 Field Service mobile app
+# Customize the booking view
 
 > [!WARNING]
-> update metadata. we'll keep the tabs here I guess because it's the only customization topic that also discusses new UX.
+> update metadata. 
 
 ## [Unified Interface UX](#tab/vCurrent)
 
-By default, the booking calendar control shows the following details associated with the booking:
+By default, the booking calendar control shows a predefined set of details associated with bookings.
 
-- **Account**
-- **Incident Type**
-- **Address**
-- **Booking Status**
-- **Start Time and Duration**
-
-You can customize this control to include up to three more fields with optional labels and change the incident type. The new fields can be modified to show data from any column in a view of the **Bookable Resource Booking** table.
+You can customize this control to include up to three more columns with optional labels or change the incident type column.
 
 If you're using the mobile app offline, be sure the record types from which attributes are included on the calendar are also included in your mobile offline profile.
 
-For a guided walkthrough, check out the following video.
+For a guided walkthrough using the classic designer, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWJJdl]
 
-To customize the control, edit the associated and specify data for the booking calendar control.
+### Add the columns to the Bookings view
 
-To set up your view, go to **Advanced Settings** > **Customization** > **Customize the System** > **Entities** and select **Bookable Resource Booking**.
+The new fields can be modified to show data from any column in the *Booking* view of the *Bookable Resource Booking* table.
 
-Select **Views**, then select the view for mobile. By default, it's the **Bookings** view.
-
-Add or remove any column from tables that have a relationship to the *bookable resource booking* table. For example, to show **Work Order Priority**, select **Work Order**, then add the **Priority** column to the view. Note the name of the column, you need it when customizing the field. In our example, the name is *msdyn_priority*.
+[Add columns to model-driven app views](/power-apps/maker/model-driven-apps/choose-and-configure-columns#adding-columns) that have a relationship to the *bookable resource booking* table. For example, to show *Work Order Priority*, select the *Work Order* table, then add the *Priority* column to the view. Note the name of the column, you need it when customizing the field. In our example, the name is *msdyn_priority*.
 
 > [!Note]
 > For columns from a different table, you must create a relationship between the bookable resource booking and that table. When referencing the relationship in the control, be sure to reference the full lookup field name as `fieldName.Attribute`.
 
-> [!div class="mx-imgBorder"]
-> ![Editing a view to add new attribute in Power Apps](../media/mobile-2020-calendar-control-1.png)
+### Configure the Booking Calendar Control to show the columns
 
-Once the view has desired columns, return to **Customizations**. Select the bookable resource booking, then select **Controls** and **Booking Calendar Control** to configure the control properties.
+Once the view has desired columns, open Advanced Settings and go to **Customizations**. Select the bookable resource booking entity, then select **Controls** and **Booking Calendar Control** to configure the control properties.
 
 > [!div class="mx-imgBorder"]
 > ![Editing booking calendar control properties in Power Apps.](../media/mobile-2020-calendar-control-2.png)
@@ -60,18 +51,12 @@ Fields without data are hidden.
 
 Custom fields are also shown on the calendar's day view when the booking duration is long enough to support the extra text. Custom data is also shown when opening booking details from the map view.
 
-> [!div class="mx-imgBorder"]
-> ![Field Service mobile app with customized calendar day view.](../media/mobile-2020-calendar-control-4.png)
-
-> [!div class="mx-imgBorder"]
-> ![Field Service mobile app with customized calendar map view.](../media/mobile-2020-calendar-control-5.png)
-
 > [!Note]
 > If you have configured multiple views for the mobile app, it is recommended you include the new fields into each view that can be accessed from the mobile app.
 
 ## [New mobile UX](#tab/vNext)
 
-The agenda view is the default view in the [new user experience of the Field Service mobile app](enable-newux.md). It shows the list of bookings in chronological order that are assigned to the user who's signed in to the app. Select **Home** in the bottom navigation to return to the home page. By default, the agenda view shows the following details associated with each booking:
+The agenda view is the default view in the [new user experience of the Field Service mobile app](set-up-field-service-mobile.md). It shows the list of bookings in chronological order that are assigned to the user who's signed in to the app. Select **Home** in the bottom navigation to return to the home page. By default, the agenda view shows the following details associated with each booking:
 
 - Account
 - Incident type

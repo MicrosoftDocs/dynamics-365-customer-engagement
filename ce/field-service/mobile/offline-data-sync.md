@@ -8,7 +8,7 @@ author: JonBaker007
 ms.author: jobaker
 ---
 
-# Offline data synchronization
+# Configure offline data synchronization
 
 > [!WARNING]
 > update metadata.

@@ -12,7 +12,7 @@ ms.author: andreo
 # Set up the mobile app
 
 > [!WARNING]
-> update metadata.
+> update metadata
 
 The Dynamics 365 Field Service mobile app is designed and optimized for technicians in the field. They can work with Field Service work orders, customer assets, accounts, and contacts. The app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). You can customize it to your business needs like other [model-driven apps](/power-apps/maker/model-driven-apps/).
 
@@ -40,6 +40,55 @@ Assign Field Service users the **Field Service-Resource** security role and **Fi
 
 Users with these security roles can sign in to the mobile app as a technician.
 
+## Refreshed mobile user experience
+
+The refreshed user experience in the Dynamics 365 Field Service mobile app helps service technicians swiftly access all the information they need. It offers familiar mobile navigation, gestures, and controls to manage work orders, tasks, services, and products. Technicians save valuable time with Copilot in Field Service to quickly updating the status of a booking or get a summary of a work order. They can even get detailed information about tasks with [embedded Dynamics 365 Guides](/dynamics365/mixed-reality/guides/admin-connect-field-service-mobile), which provide step-by-step instructions, pictures, and videos.
+
+Configuration options for the refreshed mobile user experience are in the settings area of the Field Service Mobile app module. Makers in an organization can access these settings to enable the new user experience and its features.
+
+If you use a custom app module and don't see the settings area, [review the troubleshooting guide to show the settings area](/dynamics365/field-service/troubleshooting-mobile-newux#settings-area-is-missing-in-the-field-service-mobile-app-module-navigation).
+
+Watch this brief video to learn more:
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18Uzz]
+
+### Enable the new mobile user experience
+
+You need Field Service - Administrator permissions to enable the refreshed user experience.
+
+:::image type="content" source="../media/FSM-newux-settings.png" alt-text="Screenshot of the Settings page in for the Field Service Mobile app module.":::
+
+1. Open the Field Service Mobile app module in a web browser.
+
+1. Change to the **Settings** area and go to **Mobile settings** > **Features**.
+
+1. Turn on the **New mobile experience** setting to see all configuration options for the new experience. You can enable the the new experience for all users in the environment or individual users. If you choose to enable it for individual users only, existing users to continue to receive the Unified Client Interface experience while users with the **Field Service – New Mobile Experience** security role get the new mobile experience.
+
+1. Save the changes [publish the updated app](/power-apps/maker/model-driven-apps/validate-app#publish-an-app-using-the-app-designer) to make them visible for your users.
+
+Users don't need to download a new app. However, we recommend that the mobile app and the Field Service solution are updated to the latest version.
+
+### Turn on features for the refreshed experience
+
+After enabling the new mobile experience, you can choose to enable preview features, such as copilot skills that are available in the new mobile experience.
+
+1. Open the Field Service Mobile app module in a web browser.
+
+1. Change to the **Settings** area and go to **Mobile settings** > **Features**.
+
+1. In the **Preview section** enable the features that your users can access:
+
+   - [Summarize records with Copilot in Field Service (preview)](../work-order-recap.md)
+   - [AI-powered work order update (preview)](../work-order-update.md)
+
+### Limitations of the new experience
+
+- Offline mode isn't supported. Users who are enabled for offline use don't see the new experience. If a user is in offline mode while trying to access the new mobile experience, they fall back to the classic Unified Client Interface experience instead.
+
+- [Field Service Mobile app module customizations](../field-service-customizations.md) aren't supported. However, an icon in the upper-right corner allows users to switch between the classic and modern UX to access customized model-driven app experiences, like custom forms and business logic.
+
+- The new mobile experience uses the display language that's set in the device's language settings. The classic experience uses the language that's set in the user profile. Users might see a mixed language experience if the two settings are not the same.
+
 ## Download the app and sign in
 
 [Download the Field Service mobile app](download-mobile-app.md) for your preferred platform and sign in with your user credentials.
@@ -51,4 +100,3 @@ Users with these security roles can sign in to the mobile app as a technician.
 - [Get started with Dynamics 365 Field Service](../field-service-get-started.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-
