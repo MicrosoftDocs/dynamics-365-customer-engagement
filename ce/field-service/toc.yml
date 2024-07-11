@@ -345,7 +345,7 @@ items:
         - name: View booking maps
           href: mobile/booking-maps.md
         - name: Create service reports
-          href: mobile/mobile-powerapp-reporting.md
+          href: mobile/create-service-report.md
       - name: Use the new UX
         items: 
         - name: Get started
