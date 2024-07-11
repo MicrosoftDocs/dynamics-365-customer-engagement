@@ -12,7 +12,7 @@ ms.author: nenellim
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!Important]
-> The Telesign channel will be deprecated and removed from Omnichannel for Customer Service on October 8, 2024. After this date, you won't be able to use this channel. Learn more at [Deprecations in Customer Service](../implement/deprecations-customer-service).
+> The Telesign channel will be deprecated and removed from Omnichannel for Customer Service on October 8, 2024. After this date, you won't be able to use this channel. Learn more at [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 When you sign in, you can see your work items in the agent dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 
