@@ -18,11 +18,11 @@ When you sign in, you can see your work items in the agent dashboard. To learn m
 
 ## Prerequisite
 
-Make sure your administrator has configured a TeleSign or Twilio channel.
+Make sure your administrator configured a Telesign or Twilio channel.
 
 ### Incoming chat notifications
 
-You'll receive a notification when a customer requests a conversation through TeleSign or Twilio. You can accept the chat request, after which a session starts and you'll see the communication panel in which you can exchange messages with the customer.
+You receive a notification when a customer requests a conversation through TeleSign or Twilio. You can accept the chat request, after which a session starts and you see the communication panel in which you can exchange messages with the customer.
 
 > [!div class=mx-imgBorder]
 > ![Incoming chat notification.](../media/sms-notification-request.png "Incoming SMS notification")
