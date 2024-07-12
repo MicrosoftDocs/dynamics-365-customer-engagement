@@ -1,7 +1,7 @@
 ---
 title: "Enable linking of Dynamics 365 records to Microsoft Teams channels"
 description: "Learn how to enable linking of Dynamics 365 records to Microsoft Teams channels."
-ms.date: 09/20/2022
+ms.date: 07/12/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -81,13 +81,13 @@ If you get an error while configuring Microsoft Teams integration from Dynamics 
 
 1. Sign in to [Power Apps](https://make.powerapps.com).  
 
-1. Select the **Settings** icon at the top-right corner, and then select **Advanced Settings**. 
+1. Go to the **Environments** tab, select an environment in which you want to enable **Teams chat**.
 
-1. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
+1. On the **Environments** page, select **Settings**.
 
-1. Under **Microsoft Teams Integration**, select **Chat + collaboration** settings.
+1. On the **Settings page**, expand **Integration**, and then select **Teams integration settings**.
 
-    ![Screenshot depicting System settings](media/system-settings.png)
+    ![Screenshot depicting System settings](media/system-settings..png)
 
     The **Microsoft Team collaboration and chat** page opens.
 
