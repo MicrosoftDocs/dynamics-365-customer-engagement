@@ -1,7 +1,7 @@
 ---
 title: "Protect content with sensitivity labels in Microsoft Teams | MicrosoftDocs"
 description: "Users can collaborate with others both inside and outside your organization. Learn how to use sensitivity labels to protect your content in Microsoft Teams."
-ms.date: 08/26/2022
+ms.date: 07/12/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -30,7 +30,7 @@ Users in your organization collaborate with others both inside and outside the o
 Microsoft Teams integration with Dynamics 365 customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) allows you to create teams with sensitivity labels and make the teams private so that only the owner of each team can add other members.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the sensitivity labels drop-down while creating a team](media/teams-enter-team-name-5.png)
+> ![Screenshot showing the sensitivity labels drop-down while creating a team](media/teams-enter-team-name-5..png)
 
 ## Prerequisites
 
@@ -52,7 +52,7 @@ Sensitivity labels are only available when the Enhanced Collaboration Experience
     ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
     in the lower-left corner and then select **App Settings**.
    > [!div class="mx-imgBorder"]
-   > ![Screenshot depicting the App settings option in change area](media/app-settings-menu.png)
+   > ![Screenshot depicting the App settings option in change area](media/app-settings-menu..png)
 
     > [!Note]
     > 
@@ -70,7 +70,7 @@ Sensitivity labels are only available when the Enhanced Collaboration Experience
 
 3. Turn on the **Turn on Confidential Labels** toggle.
 
-    ![Screenshot highlighting the Enable Confidential Labels option](media/enable-sensitivity-labels.png)  
+    ![Screenshot highlighting the Enable Confidential Labels option](media/enable-sensitivity-labels..png)  
 
 4. Select **Save**. 
     
