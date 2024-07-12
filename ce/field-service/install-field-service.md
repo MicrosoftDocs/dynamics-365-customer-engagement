@@ -1,8 +1,8 @@
 ---
-title: "Install Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn how to install Dynamics 365 Field Service.
+title: Install Dynamics 365 Field Service
+description: Learn how to install Dynamics 365 Field Service on a Dataverse environment.
 ms.topic: how-to
-ms.date: 05/10/2024
+ms.date: 07/12/2024
 ms.author: jacoh
 author: jasonccohen
 ms.search.app:
@@ -12,9 +12,11 @@ ms.search.app:
 
 # Install Dynamics 365 Field Service
 
-Once you get a free trial or purchase a license for Dynamics 365 Field Service, the Field Service application installs automatically. Verify the installation is complete.
+After purchasing licenses for Field Service, you have to [install the app on a Dataverse environment](/power-platform/admin/manage-apps#install-an-app). purchase a license for the product.
 
-If the installation is complete, the "Field Service" and "Field Service Mobile" apps appear in the list of apps when you sign in to your Dynamics 365 organization. You can find these apps by going to:
+When you [get a free trial](trial-signup.md), the Field Service application installs automatically on a new environment. After purchasing a license, you can [change the environment type to a production environment](/power-platform/admin/switch-environment).
+
+Once the installation is complete, the "Field Service" and "Field Service Mobile" apps appear in the list of apps when you sign in to your Dynamics 365 organization. You can find these apps by going to:
 
 ```https://[your-environment-name].crm.dynamics.com/apps```
 
