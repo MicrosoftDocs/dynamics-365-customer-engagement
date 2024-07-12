@@ -12,7 +12,7 @@ ms.author: anilmur
 
 In some situations, requirements must be scheduled in a specific sequence. For example, a technician must stop by a warehouse to pick up a unique part before they go to a customer's site to install that part.
 
-To ensure that Resource Scheduling Optimization schedules requirements in a specific sequence, you can add requirement dependencies. Then, when Resource Scheduling Optimization runs, it ensures that the requirements are scheduled in the correct order, and that the start time of each successive requirement is after the end time of its predecessor.
+If Resource Scheduling Optimization should schedule requirements in a specific sequence, you can add requirement dependencies. Then, when Resource Scheduling Optimization runs, it ensures that the requirements are scheduled in the correct order. It also ensures that the start time of each successive requirement is after the end time of its predecessor.
 
 ## Create a requirement dependency
 
