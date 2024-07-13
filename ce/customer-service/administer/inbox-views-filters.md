@@ -37,10 +37,24 @@ The following tables contain details about the out-of-the-box views and filters 
 | Conversation | Assigned | **Active Agent** field of the conversation is set to the current user, and the status field is set to active, waiting, or wrap-up. |<ul><li>**Active Agent** is set to the current user.</li><li>**Status Reason** is set to one of the following values: **Active**, **Waiting**, **Wrap-up**.</li></ul> |
 | Conversation | Unassigned | Conversation belongs to a queue that the user is a member of, and the **Status** field is set to **Open**. | <ul><li>**Queue** is set to a queue that the user is a member of.</li><li>**Status Reason** is set to **Open**.</li></ul> |
 | Conversation | Resolved | The status filed of the conversation is set to **Closed**. | **Status Reason** is set to **Closed**. |
-| Email | Emails sent to me | The user is a recipient of the email by being listed on of the following fields: **To**, **Cc**, or **Bcc**. | The user is listed in the Activity Party Types for the **To**, **Cc**, or **Bcc** field. |
+| Email | Emails sent to me | The user is a recipient of the email by being listed on of the following fields: **To**, **Cc**, or **Bcc**. | The user is listed in the **Activity Party Types** for the **To**, **Cc**, or **Bcc** field. |
 | Email | Emails assigned to me | The **Owner** or **Worked by** field of the record is set to the current user. | The **Owner** field is equal to the current user, or the **Worked by** field is equal to the current user. |
 | Email | Emails in my team(s) | The **Owner** field of the record is set to a team that the user is a member of. | The **Owner** field is equal to a team that the current user is a member of. |
-| Email | Emails in my queue(s) | The record is added to a private queue that the user is a member of. | <ul><li>The record is added to a private queue that the user is a member of.</li><li>The **Status** of the queue that the record is part of is active.</li><li>The **Worked by** field is not set.</li><li>The **Owner** field of the record is not set as the current user.</li></ul> |
+| Email | Emails in my queue(s) | The record is added to a private queue that the user is a member of. | <ul><li>The record is added to a private queue that the user is a member of.</li><li>The **Status** of the queue that the record is part of is active.</li><li>The **Worked by** field isn't set.</li><li>The **Owner** field of the record isn't set as the current user.</li></ul> |
+| Email | Emails in a shared mailbox | The admin specifies an email address that can be used to show emails that have been sent to that address. | <ul><li>Emails that are sent using the **To** field for the specified email address. Doesn't apply to the **Cc** or **Bcc** fields.</li></ul> |
+| Voicemail | Assigned | The **Owner** or **Worked by** field of the record is set to the current user, and the **Status Reason** field is set to **Active**. |<ul><li>The **Owner** or **Worked by** field is equal to the current user.</li><li>The record's **Status Reason** is set to **Open**.</li></ui> |
+| Voicemail | Unassigned | The **Owner** field isn't set to current user, and the **Worked by** field isn't set. |<ul><li>The **Owner** field isn't equal to the current user.</li><li>The **Worked by** field isn't set.</li><li>The record's **Status Reason** is set to **Open**.
+| Voicemail | Resolved | The **Owner** or **Worked by** field of the record is set to the current user, and the **Status Reason** field is set to **Closed**. |<ul><li>The **Owner** or **Worked by** field of the record is equal to the current user.</li><li>The **Status Reason** of the record is set to **Closed**.</li></ui> |
+
+## Generally applied filters (non-entity specific)
+
+- Last 90 days, based on the **Modified on** field.
+- Top 500 records, descending in order by the **Modified on** field.
+
+### Related information
+[Configure the inbox](configure-inbox)  
+[Use the inbox](../use/use-inbox.md)
+
 
 
 
