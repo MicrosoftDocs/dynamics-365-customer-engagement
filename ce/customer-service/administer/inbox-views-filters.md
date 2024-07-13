@@ -53,10 +53,4 @@ The following tables contain details about the out-of-the-box views and filters 
 
 ### Related information
 [Configure the inbox](configure-inbox.md)  
-[Use the inbox](../use/use-inbox.md)
-
-
-
-
-
-
+[Use the inbox](../use/use-inbox.md)  
