@@ -303,7 +303,7 @@
       - name: Configure the inbox
         href: configure-inbox.md
       - name: Inbox views and filters
-      - href: inbox-views-filters.md
+        href: inbox-views-filters.md
     - name: Timeline
       items:
       - name: Configure timeline
