@@ -371,7 +371,11 @@ items:
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
     - name: Entitlements
-      href: work-order-entitlements.md
+      items:
+        - name: Entitlements overview
+          href: work-order-entitlements-overview.md
+        - name: Create an entitlement
+          href: work-order-entitlements.md
     - name: Warranties
       href: warranties.md
     - name: Insurance
