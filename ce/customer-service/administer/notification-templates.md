@@ -226,8 +226,8 @@ As an administrator, you need to customize the notification template to show the
 
 #### Step 2: Create the notification fields with the following values
 
-> [!Note]  
-> You can configure upto four notification fields only.
+> [!NOTE]  
+> You can configure up to four notification fields only.
 
 | Name | Field header | Value |
 |---------|--------------------|-----------------------------------------------|--------------------|    
