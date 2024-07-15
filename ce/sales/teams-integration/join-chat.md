@@ -1,7 +1,7 @@
 ---
 title: Join an existing connected chat in Sales Hub
 description: Learn how to join an existing connected chat in Sales Hub.
-ms.date: 07/12/2024
+ms.date: 07/15/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
