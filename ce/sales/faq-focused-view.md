@@ -1,7 +1,7 @@
 ---
 title: Focused view FAQs
 description: Get answers to frequently asked questions about focused view.
-ms.date: 05/22/2024
+ms.date: 07/10/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -17,6 +17,10 @@ ms.custom:
 # Focused view FAQs
 
 This article answers frequently asked questions about focused view in Dynamics 365 Sales, Sales premium, and Sales professional.
+
+## In which organizations is focused view supported?
+
+Focused view is supported in organizations that use Dynamics 365 Customer Engagement. However, it is not supported in organizations that use only Common Data Service (CDS).
 
 ## Is there any administration setup required to use focused view?
 
