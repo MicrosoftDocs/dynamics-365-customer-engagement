@@ -512,20 +512,22 @@ items:
         href: rso-monitoring-alerting.md
     - name: User guide
       items:
-      - name: Single resource optimization
-        href: rso-single-resource-optimization.md
+      - name: Run an optimization
+        href: rso-run-optimization.md
       - name: Run a simulation
         href: rso-simulation.md
-      - name: Lock options for bookings
-        href: booking-lock-options.md
-      - name: Schedule multi-day requirements (preview)
-        href: rso-multi-day.md
       - name: Resolve booking conflicts
         href: rso-handling-resolving-booking-conflicts.md
-      - name: Schedule in sequence
+      - name: Optimize a single resource
+        href: rso-single-resource-optimization.md
+      - name: Schedule multi-day requirements (preview)
+        href: rso-multi-day.md
+      - name: Schedule requirements in sequence
         href: rso-requirement-dependency.md
-      - name: Allow travel outside working hours
+      - name: Travel outside working hours
         href: rso-travel-outside-working-hours.md
+      - name: Lock options for bookings
+        href: booking-lock-options.md
 
 - name: Integrations
   items:
