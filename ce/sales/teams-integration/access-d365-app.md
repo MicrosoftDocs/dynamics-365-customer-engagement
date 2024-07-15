@@ -1,7 +1,7 @@
 ---
 title: Access the Dynamics 365 app through messaging extensions
 description: Learn how to access the Dynamics 365 app through messaging extensions
-ms.date: 08/09/2022
+ms.date: 07/15/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -83,7 +83,7 @@ After the Dynamics 365 app is added to a channel, it's available through messagi
 
     - **Dynamics 365 app**: Select an app that you want to share records from.
 
-    ![Select environment and app](media/me-app-settings.png "Select environment and app")
+    ![Select environment and app](media/me-app-settings..png "Select environment and app")
 
 5.  Select **Save**.
 
