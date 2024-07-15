@@ -30,7 +30,7 @@ This article summarizes early access, public preview, and general availability f
 | Copilot | Natural language chat for data-related questions| Ask Copilot questions related to sales data in natural language.  | [Documentation](use-sales-copilot.md#chat-with-copilot-in-NL) | By default | GA |
 | Copilot | Natural language chat for sales contextual questions | Ask Copilot questions related to sales-specific terminology in natural language | [Documentation](use-sales-copilot.md#chat-with-copilot-in-NL) | By default | GA |
 | Copilot | Meeting preparation notes | Use Copilot to prepare for your meetings.| [Documentation](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) | By default | GA |
-| Copilot | Proposal summary | Ask Copilot to summarize a proposal or document associated with a record. | [Documentation](copilot-get-information.md#summarize-proposals-associated-with-a-record-preview) | By admin | Public preview |
+| Copilot | Proposal summary | Ask Copilot to summarize a proposal or document associated with a record. | [Documentation](copilot-get-information.md#copilot-doc-summarization) | By admin | Public preview |
 | Copilot | Account summary | Use Copilot to summarize an account. | [Documentation](copilot-get-information.md#summarize-an-account) | By admin | Public preview |
 
 ## April 2024 release
