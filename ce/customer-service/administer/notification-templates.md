@@ -226,6 +226,9 @@ As an administrator, you need to customize the notification template to show the
 
 #### Step 2: Create the notification fields with the following values
 
+> [!Note]  
+> You can configure upto four notification fields only.
+
 | Name | Field header | Value |
 |---------|--------------------|-----------------------------------------------|--------------------|    
 | Case priority | Case priority | `{$odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}` |
