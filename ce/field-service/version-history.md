@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 06/04/2024
+ms.date: 07/16/2024
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -35,8 +35,8 @@ For information about older versions, see [Version history archive](version-hist
 (Includes Universal Resource Scheduling version [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) and Resource Scheduling controls version 1.2.75.241931)
 
 - Fixed an issue where the agreement booking service task name was set by the incident type service task type instead of the incident type service task name.
-- Fixed an issue that would cause an error when submitting feedback via global command bar in the FS app module.
-- Field Service Mobile: Updated client-side logic to consider whitespace as empty in fields related to Primary Incident Type when performing validation. 
+- Fixed an issue when submitting feedback via global command bar in the Field Service app module.
+- Field Service mobile app: Updated client-side logic to consider whitespace as empty in fields related to primary incident zype when performing validation. 
 
 ## 8.8.120.18
 (Includes Universal Resource Scheduling version [3.12.135.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213534) and Resource Scheduling controls version 1.2.74.241731).
