@@ -43,7 +43,9 @@ To automatically change the booking status to **Traveling** every time you get d
 
 ## Work with Copilot (preview)
 
-The new mobile UX uses Copilot in Field Service to enable technicians with a quick and easy way of updating work orders and getting a summary of the work order.
+The new mobile UX uses Copilot in Field Service to enable technicians with a quick and easy way of updating work orders and getting a summary of the work order. Swipe a booking to the left to open Copilot.
+
+:::image type="content" source="../media/copilot-newux.png" alt-text="Screenshot of a mobile device with a swiped booking, revealing further options.":::
 
 For more information, see [AI-powered work order update (preview)](../work-order-update.md) and [Summarize records with Copilot in Field Service (preview)](../work-order-recap.md).
 
