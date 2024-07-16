@@ -28,13 +28,13 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:**  4.0.126.51
 
-- Fixed a bug that was causing SA not to consider additional resource capacity.
-- Fixed a bug that was causing  multi-day booking created through schedule assistant to add an additional booking detail when booked outside the search range and an evenly distribute hours booking method. 
+- Fixed a bug that caused the schedule assistant to not consider additional resource capacity.
+- Fixed a bug that wcaused multi-day bookings created with the schedule assistant to add an additional booking detail when booked outside the search range and an evenly distribute hours booking method. 
 - Custom web resources no longer get covered when extending the map panel.
-- Booking rules only execute on hourly view.
+- Booking rules only run in the hourly view.
 - Added a tooltip to see long values in fields.
-- Schedule Board rendering performance improvements. 
-- Various localization improvements.
+- Improved schedule board rendering performance. 
+- Improved translationa and localization.
 
 
 ## 3.12.135.25
