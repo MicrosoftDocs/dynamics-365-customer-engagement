@@ -1,7 +1,7 @@
 ---
 title: Single resource optimization for Resource Scheduling Optimization
 description: Learn about single resource optimization for Resource Scheduling Optimization in Dynamics 365 Field Service
-ms.date: 09/16/2024
+ms.date: 07/16/2024
 ms.topic: how-to
 author: anilmur
 ms.author: anilmur

@@ -1,7 +1,7 @@
 {
   "redirections": [
     {
-      "source_path": "ce/field-service/rso-predictive-travel-time.md",
+      "source_path": "ce/field-service/rso-predictive-travel.md",
       "redirect_url": "/dynamics365/field-service/rso-optimization-goal",
       "redirect_document_id": "false"
    },
