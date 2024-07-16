@@ -44,7 +44,11 @@ Configure the following cloud flow to send frontline workers a push notification
 
 1. In the Solutions area, edit the solution with the name `msdyn_FieldService_patch_update`.
 
-1. Find the cloud flow called **Field Service – Notify user about booking (UCI app)** and select the **Turn On** option.
+1. Open the details of the cloud flow called **Field Service – Notify user about booking (UCI app)**.
+
+1. Select the **Save as** option to create a copy of the cloud flow [add it to an unmanaged solution](/power-apps/maker/data-platform/create-solution).
+
+1. In the unmanaged solution, select the **Turn On** option for your new cloud flow.
 
    :::image type="content" source="../media/mobile-2020-push-turn-on-flow.png" alt-text="Power Apps showing the flow called Field Service – Notify user about booking (UCI app).":::
 
