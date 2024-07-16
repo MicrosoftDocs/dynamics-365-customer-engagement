@@ -1,7 +1,7 @@
 ---
 title: Make and receive Teams calls in Dynamics 365
 description: Make and receive calls directly from Dynamics 365 with Microsoft Teams dialer and analyze conversations for real-time insights.
-ms.date: 07/11/2024
+ms.date: 07/16/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -200,8 +200,7 @@ You can add a participant to an ongoing Teams call. The added participant can be
    When the call is answered, a voice message is played to inform the other participants about the new participant.
 
 > [!NOTE]
->- You can add up to 20 participants to a call.
->- You can remove a participant from the call by selecting the three-dot menu (**&hellip;**) next to the participant's name and selecting **Remove**. This option is available only when there are more than two participants in the call.
+> You can remove a participant from the call by selecting the three-dot menu (**&hellip;**) next to the participant's name and selecting **Remove**. This option is available only when there are more than two participants in the call.
 
 ## View phone call activities
 
