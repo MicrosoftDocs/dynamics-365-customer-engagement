@@ -1,7 +1,7 @@
 ---
 title: Single resource optimization for Resource Scheduling Optimization
 description: Learn about single resource optimization for Resource Scheduling Optimization in Dynamics 365 Field Service
-ms.date: 10/09/2023
+ms.date: 09/16/2024
 ms.topic: how-to
 author: anilmur
 ms.author: anilmur
@@ -41,6 +41,8 @@ Single resource optimization typically cleans up a schedule that changed through
 - Set **Engine Effort Level** to **Very Light**. The faster single resource optimization completes, the better dispatchers can react to scheduling needs.
 
 - Remove the **Schedule Within Working Hours** constraint to allow more bookings to fit in the resource's schedule. This setting can be helpful if a resource needs to pick up urgent work. Removing this constraint allows the end time of a booking to spill over into nonworking hours. Using the constraint, the system ensures there's time after completing the last booking  to travel back to the resource's end location.
+
+- Remove the travel time calculation option for historical traffic if it's enabled on the optimization goal.
 
 - Remove constraints related to matching territory, roles, and characteristics because the scenario assumes the *dispatcher knows best*. Keeping constraints enabled could lead to a situation where the dispatcher assigns a work order to a resource overriding the constraints, then runs single resource optimization, which deletes the booking because it doesn't match the resource's attributes.
 

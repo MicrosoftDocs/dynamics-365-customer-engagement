@@ -494,6 +494,8 @@ items:
       href: rso-get-install.md
     - name: Get started
       href: rso-quickstart.md
+    - name: Implementation guidance
+      href: rso-proof-concept.md
     - name: Admin guide
       items:
       - name: Deploy the add-in
