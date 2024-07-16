@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:10/13/2023
+ai-usage: ai-assisted
 ---
 
 # Make and receive Teams calls in Dynamics 365
