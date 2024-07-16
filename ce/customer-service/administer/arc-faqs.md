@@ -44,9 +44,9 @@ No applicable reason can be specified.
 
 ### Reason 5
 
-Conditions defined by you don't match the incoming e-mail and case isn't created.
+The rule doesn't have any conditions applicable to the record.
 
-**Resolution**: Revisit the rules to ensure that the conditions defined in the rule meet the incoming email.
+**Resolution**: You must add a minimum of one condition for an automatic record creation and update rule to run successfully. Or, revisit the existing rules to ensure that the conditions defined in the rule meet the incoming email.
 
 ### Why do multiple cases get created from a single email?
 
