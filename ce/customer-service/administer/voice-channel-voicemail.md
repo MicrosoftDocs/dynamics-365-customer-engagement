@@ -108,7 +108,7 @@ The voicemail record is set up for routing out of the box. Voicemails are catego
 Individual voicemails are triggered through direct inward dialing and are routed to the default individual voicemail workstream.
 
 > [!NOTE]
-> Agents receive voicemails only if they are signed in to the app and presence loads at least once. If an agent is logged in and the presence is set to offline, for the agent to receive a voicemail, the call notification must be declined. 
+> Agents receive voicemails only if they are signed in to the app and presence loads at least once. If an agent is signed in and the presence is set to offline, for the agent to receive a voicemail, the call notification must be declined. 
 
 - The workstream routes the voicemail to the individual voicemail queue.
 - By default, the individual voicemail queue has no agents.
