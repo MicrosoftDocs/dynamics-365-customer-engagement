@@ -1,7 +1,7 @@
 ---
 title: Lead management FAQs
 description: Get answers to frequently asked questions about Lead management.
-ms.date: 03/15/2024
+ms.date: 07/17/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
