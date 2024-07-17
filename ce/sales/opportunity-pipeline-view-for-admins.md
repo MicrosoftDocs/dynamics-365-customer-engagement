@@ -43,6 +43,11 @@ The **Read-only Grid view** is the default view for opportunities. You can set t
 
    :::image type="content" source="media/pipeline-set-as-default.png" alt-text="Screenshot of the Controls tab with the Pipeline view set as the default for web, phone, and tablet." lightbox="media/pipeline-set-as-default.png":::
 
+1. (Optional) In the **Properties** section, scroll down and set the **Enable grouping** and **Enable aggregation** properties to **Yes**. These settings allow sellers to group and aggregate opportunities in the pipeline view. To know about the seller experience, see [Group and aggregate opportunities](use-opportunity-pipeline-view.md#group-and-aggregate-opportunities).
+
+  > [!NOTE]
+  > You must have [enabled monthly channel](/power-apps/maker/model-driven-apps/channel-overview) and opted in for early access to display the group by and aggregate features. 
+
 1. Save the changes and select **Publish**.
 1. From the Sales Hub sitemap, select **Opportunities** to verify that the pipeline view is set as the default view.
 
