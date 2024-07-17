@@ -1,7 +1,7 @@
 ---
 title: Integrate an Azure bot
-description: Use this article to understand how to integrate Azure bots with Omnichannel for Customer Service.
-ms.date: 06/06/2024
+description: Use this article to understand how to integrate Azure bots in the contact center.
+ms.date: 12/14/2023
 author: neeranelli
 ms.author: nenellim
 ms.collection:
@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Integrate an Azure bot
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 

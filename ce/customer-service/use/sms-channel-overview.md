@@ -11,7 +11,9 @@ ms.custom: bap-template
 
 # Overview of SMS channels
 
-The SMS channel in Omnichannel for Customer Service allows your organization to connect to customers via text messages. Your customers can send text messages and connect with an appropriate agent. Agents can view incoming SMS requests on their dashboard and respond accordingly. While agents can't send messages, Omnichannel for Customer Service supports outbound messaging via Power Automate flows. More information: [Configure outbound messaging](../administer/outbound-messaging.md) 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+The SMS channel in the application allows your organization to connect to customers via text messages. Your customers can send text messages and connect with an appropriate agent. Agents can view incoming SMS requests on their dashboard and respond accordingly. While agents can't send messages the application supports outbound messaging via Power Automate flows. More information: [Configure outbound messaging](../administer/outbound-messaging.md) 
 
 You can use the same phone number for the SMS channel, and for inbound and outbound calling in the voice channel. SMS is currently only available in US, Canada, and Puerto Rico. For detailed information about numbers and eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
@@ -23,7 +25,7 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Digita
 
 ## Supported SMS channels
 
-In Omnichannel for Customer Service, you can configure the SMS channel as follows:
+In the application, you can configure the SMS channel as follows:
 - Configure SMS channel using Azure Communication Services
 - Configure SMS channel for Twilio
 - Configure SMS channel for TeleSign
@@ -39,7 +41,7 @@ In Omnichannel for Customer Service, you can configure the SMS channel as follow
 
 ### See also
 
-[Channels in Omnichannel for Customer Service](channels.md)  
+[Channels](channels.md)  
 [SMS FAQ](../administer/faqs.md#sms)  
 [Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)  
 

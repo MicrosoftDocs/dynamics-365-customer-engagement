@@ -11,6 +11,9 @@ ms.custom: bap-template
 
 # Schema details to build a metadata mapping template
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+
+
 This article describes the schema details required to map information from external data providers to the knowledge article entities, and how you can prepare your own schema mapping JSON file using various fields and attributes.
 
 ### Fields

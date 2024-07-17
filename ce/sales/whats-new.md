@@ -15,6 +15,12 @@ Wondering about upcoming and recently released capabilities in Dynamics 365 Sale
 
 This article summarizes early access, public preview, and general availability features that were released in the last three months. The monthly release sections contain only those features that were deployed in all regions in that month. For example, if your Dynamics 365 org is in Canada, you'll receive the feature updates a few weeks earlier than the orgs in North America but the monthly release section will list that feature only after it's deployed in North America. For more information about the release schedule, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales#latest-version-availability).  
 
+## June 2024 release
+
+| Feature area | Feature | Description | Resources | Turned on | Availability |
+|---|---|---|---|---|---|
+| Copilot | Enhancements to opportunity summary | Opportunity summary is enhanced to include additional insights, along with the ability to add the opportunity summary widget to the **Opportunity** form. | [Documentation](copilot-get-information.md#summarize-an-opportunity) | By admin | GA |
+
 ## May 2024 release
 
 | Feature area | Feature | Description | Resources | Turned on | Availability |
@@ -26,7 +32,6 @@ This article summarizes early access, public preview, and general availability f
 | Copilot | Meeting preparation notes | Use Copilot to prepare for your meetings.| [Documentation](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) | By default | GA |
 | Copilot | Proposal summary | Ask Copilot to summarize a proposal or document associated with a record. | [Documentation](copilot-get-information.md#summarize-proposals-associated-with-a-record-preview) | By admin | Public preview |
 | Copilot | Account summary | Use Copilot to summarize an account. | [Documentation](copilot-get-information.md#summarize-an-account) | By admin | Public preview |
-
 
 ## April 2024 release
 
@@ -41,12 +46,6 @@ This article summarizes early access, public preview, and general availability f
 | Sequences | Plan and perform assigned tasks while previewing the sequence steps. | You can preview the sequence steps within the context of a specific entity record, enabling you to plan and execute tasks effectively. |  [Documentation](understand-the-up-next-widget.md#preview-a-sequence) | For all users | GA |
 | Focused view | Focused view is available as default for lead entity | The key capabilities that users access in the grid layout are now brought into focused view, with the option to set the focused view as default for the lead entity. |  [Documentation](set-focused-view-as-default.md) | By admin | GA |
 
-
-## March 2024 release
-
-No new features or enhancements were released in March 2024. We'll be back with more updates next month.
-
-
 ## Get the latest version
 
 New customers automatically get the latest version. If you're an existing partner or customer, check your email for notifications about updates.
@@ -55,9 +54,6 @@ For the latest available version in your region, see [Released versions of Dynam
 
 ## See also
 
+- [2024 release wave 1](/dynamics365/release-plan/2024wave1/sales/dynamics365-sales/planned-features)  
 - [2023 release wave 2](/dynamics365/release-plan/2023wave2/sales/dynamics365-sales/planned-features)
 
-- [2023 release wave 1](/dynamics365/release-plan/2023wave1/sales/dynamics365-sales/planned-features)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

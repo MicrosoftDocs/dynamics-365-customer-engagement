@@ -4,12 +4,14 @@ description: Learn how to smartly assist agents with the next-best steps in Cust
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 06/08/2023
+ms.date: 07/01/2024
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
 # Manage smart assist
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 The new-age customer service industry is moving toward the vision of being intelligent rather than process-driven while interacting with customers. Pivoting on intelligence capabilities helps unleash the productivity of agents to perform better on key performance indicators and&mdash;at the same time&mdash;deliver better customer experience.
 

@@ -11,7 +11,8 @@ ms.custom: bap-template
 
 # Configure a post-conversation survey
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 You can configure your chat widget to show users a survey that they can respond to after they finish a conversation.
 
@@ -52,7 +53,7 @@ The post-conversation survey uses Dynamics 365 Customer Voice to create surveys.
 
 You can set up surveys when configuring a channel or update an existing channel instance that is already configured.
 
-1. In the site map of Customer Service admin center, select **Workstreams** in **Customer support**.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Workstreams** in **Customer support**.
 
 1. Select the channel instance, and then select **Edit**.
 

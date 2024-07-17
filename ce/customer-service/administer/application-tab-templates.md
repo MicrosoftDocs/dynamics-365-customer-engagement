@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Manage application tab templates
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 An application tab template in Customer Service lets you specify the type of applications that can be opened when agents start a session in Customer Service workspace.
 
 The vertical bar on the left panel shows the list of sessions. The panel always shows the **Home** session that you can't close or customize.
@@ -79,10 +81,10 @@ This page type is used to display the dashboard as an application. The following
 | `dashboardId` | GUID of the dashboard | Yes  | String    | `d201a642-6283-4f1d-81b7-da4b1685e698` |
 
 > [!NOTE]
-> - The default dashboard is displayed if the dashboardId parameter is as follows:
-    >   - blank
-    >   - incorrect
-    >   - is a dashboard that isn't included in the app module definition
+> - The default dashboard appears if the dashboardId parameter is: <br>
+    >   - blank   
+    >   - incorrect  
+    >   - a dashboard that isn't included in the app module definition    
 > - Personal default dashboards aren't supported.
 
 

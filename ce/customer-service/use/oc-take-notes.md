@@ -12,7 +12,11 @@ ms.custom: bap-template
 
 # Take notes specific to conversation
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
 
 ## Take notes
 

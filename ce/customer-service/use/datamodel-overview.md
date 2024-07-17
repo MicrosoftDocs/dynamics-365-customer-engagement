@@ -6,11 +6,17 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 11/28/2023
+ms.date: 07/05/2024
 ms.custom: bap-template
 ---
 
 # Overview of data model customization
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
+
 
 Data model customization helps you customize the out-of-the-box standard reports and add your own KPIs (key performance indicators) and custom metrics, so that you can use the data that's most relevant to your organization.
 

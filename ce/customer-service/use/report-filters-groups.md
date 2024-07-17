@@ -11,7 +11,10 @@ ms.custom: bap-template
 
 # Report filters and groups
 
-In Dynamics 365 Customer Service and Omnichannel for Customer Service, historical analytics reports are grouped into categories.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
+ Historical analytics reports are grouped into the following categories.
 
 Omnichannel historical analytics reports:
 

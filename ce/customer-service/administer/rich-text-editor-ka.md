@@ -5,11 +5,14 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 01/23/2023
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Add a knowledge article rich text editor control to a form
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 By default, the rich text editor functionality is available for use with knowledge articles and emails. You can add the rich text editor control to other forms as well to leverage the benefits of the rich text editor functionality. More information: [Use the rich text editor toolbar](/power-apps/maker/model-driven-apps/rich-text-editor-control#use-the-rich-text-editor-toolbar)
 
