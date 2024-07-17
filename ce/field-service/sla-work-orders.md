@@ -1,7 +1,7 @@
 ---
 title: Service level agreements (SLAs) for work orders
-description: Learn about service Level Agreements (SLAs) for work orders in Dynamics 365 Field Service.
-ms.date: 10/10/2022
+description: Learn how to set up service Level Agreements (SLAs) for work orders in Dynamics 365 Field Service.
+ms.date: 07/17/2024
 ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
@@ -18,9 +18,7 @@ SLAs help organizations ensure work orders get the right level of attention in a
 
 For example, a field service organization offers an SLA to their customers. They promise that field technicians arrive within 3 hours from the time a work order is created. The organization wants a warning status displayed after 90 minutes and to use the SLA timer during the scheduling process.
 
-For more information on SLAs, go to [Define SLAs](../customer-service/administer/define-service-level-agreements.md).
-
-In this article, you'll learn how to associate SLAs to Field Service work orders.
+To use SLAs for work orders, you enable the SLA setting, set up key performance indicators (KPIs), and then associate the SLAs to the work orders.
 
 ## Prerequisites
 
@@ -29,37 +27,45 @@ In this article, you'll learn how to associate SLAs to Field Service work orders
 
 ## Enable SLA functionality for Field Service
 
-1. Go to **Advanced Settings**.
+1. Sign in to [Power Apps](https://make.powerapps.com/) and select your environment.
 
-   :::image type="content" source="media/advanced-settings-dynamics365.png" alt-text="Screenshot of the Advanced Settings option in Dynamics 365.":::
+1. Select **Tables** > **All**.
 
-1. Go to **Customizations** > **Customize the System**.
+1. Search for and select **Work Order**. Then select **Properties**.
 
-1. Expand **Entities** and select **Work Order**.
+   :::image type="content" source="media/sla-power-apps-table.svg" alt-text="Screenshot of the Work Order table in Power Apps.":::
 
-1. In the **Communication & Collaboration** section, select **Enable for SLA**.
+1. Select **Advanced options** and select **Setting up service level agreements**.
 
-   :::image type="content" source="media/work-order-sla-enable-work-order-1.png" alt-text="Screenshot of Enable SLA on Work Order.":::
+   :::image type="content" source="media/sla-power-apps-enable-work-order.png" alt-text="Screenshot of editing the Work Order table in Power Apps highlighting the SLA setting.":::
 
-1. Select **Save** and **Publish Customizations**.
+1. Select **Save** and **Publish**.
 
 ## Create SLA KPIs
 
-You can create new SLA KPI instances by going to **Advanced Settings** > **Customizations** > **Customize the System** > **Entities** > **SLA KPI Instance** > **1:N Relationships** > **New 1-to-Many Relationship**.
+1. In Power Apps, select **Tables** > **All**.
 
-:::image type="content" source="media/work-order-sla-kpi-instance.png" alt-text="Screenshot of Field Service SLA Configuration.":::
+1. Search for and open **SLA KPI Instance**. Then select **Relationshps**.
+
+1. Select **New relationship** > **One-to-many**.
+
+1. Create your KPIs, and then **Save** and **Publish**.
+
+   :::image type="content" source="media/sla-power-apps-sla-kpi-instance.svg" alt-text="Screenshot of Field Service SLA Configuration.":::
 
 ## Add SLA KPIs to Field Service
 
-1. In Field Service change to the **Settings** area. In the **General** section, select **Field Service Settings**.
+1. In Field Service change, to the **Settings** area. In the **General** section, select **Field Service Settings**.
 
-1. Go to the **Field Service SLA Configuration** tab to select the **SLA KPI Instances** for Field Service. By default, there's an SLA related to work order arrival times.
+1. Go to the **Field Service SLA Configuration** tab to select the **SLA KPI Instance** for Field Service. By default, there's an SLA related to work order arrival times.
 
-   SLA KPI instances help track how often your organization meets SLAs by establishing a relationship between the SLA and work order entities. An SLA can have multiple SLA KPI Instances. If more than one SLA KPI matches for a work order, the one that was first created applies with priority.
+   SLA KPI instances help track how often your organization meets SLAs by establishing a relationship between the SLA and work order tables. An SLA can have multiple SLA KPI Instances. If more than one SLA KPI matches for a work order, the one that was first created applies with priority.
 
 ## Create SLA
 
 Now we're going to create a new SLA.
+
+<!--- Need to figure out where this is --->
 
 1. Go to **Advanced Settings**.
 
@@ -107,12 +113,12 @@ Now we're going to create a new SLA.
 
 Moving forward, you can associate an SLA on a work order record.
 
-## Schedule a work order to meet SLA  
+## Schedule a work order to meet an SLA  
 
-Once a work order is associated with an SLA, the **Time From Promised** and **Time To Promised** fields will be populated on the work order according to the SLA, appropriate SLA Item, and business hours of the SLA. These fields will populate along with other system jobs, which may typically take up to 5 minutes.
+Once a work order is associated with an SLA, the **Time From Promised** and **Time To Promised** fields appear on the work order according to the SLA, appropriate SLA Item, and business hours of the SLA.
 
-Scheduling capabilities like the schedule assistant consider these fields and therefore will respect the SLA.
+Scheduling capabilities like the schedule assistant consider these fields and therefore respect the SLA.
 
-Pausing an SLA timer on the work order will update **Time From Promised** and **Time To Promised** fields when resumed.
+Pausing an SLA timer on the work order updates **Time From Promised** and **Time To Promised** fields when resumed.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
