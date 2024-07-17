@@ -510,6 +510,8 @@ items:
         href: rso-optimization-schedule.md
       - name: Publish schedules and review results
         href: rso-schedule-optimization.md
+      - name: Configure overnight scheduling
+        href: rso-overnight-scheduling.md
       - name: Get alerts for failed runs
         href: rso-monitoring-alerting.md
     - name: User guide
