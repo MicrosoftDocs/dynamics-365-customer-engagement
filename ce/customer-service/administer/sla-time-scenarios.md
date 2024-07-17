@@ -194,7 +194,7 @@ In this example, time is calculated as follows:
 - Case created on 06/14/2023 at 3:00 PM.
 - Warning and failure times are set as 1 and 2 days, respectively.
 - Working hours are set as 8:00 AM to 5:00 PM.
-- It will calculate 9 hours daily as working hours.
+- It calculates 9 hours daily as working hours.
 - Working days are set as Monday to Friday.
 - Skips Saturday and Sunday.
 - Skips holidays as per the holiday calendar.
@@ -249,7 +249,7 @@ Here's how the [active duration](../use/customer-service-hub-user-guide-case-sla
 - 12:20 AM- case reopened
 - 12:30 AM- SLA expired
 
-The active duration is 20 min and SLA expires at 12:30 AM. This is because SLA is set as 30 min and isn't impacted when case is reopened or closed.
+The active duration is 20 min and SLA expires at 12:30 AM. This duration is because SLA is set as 30 min and isn't impacted when case is reopened or closed.
 
 ### Pause or resume scenario
 
@@ -262,7 +262,7 @@ The active duration is 30 min and SLA expires at 12:40 AM, as the case was pause
 
 When you use custom time calculation for SLA KPIs, the active duration isn't calculated cumulatively by default. You need to create a custom time calculation plug-in for active duration to be cumulative. More information: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis-1)
 
-#### Additional scenarios
+#### More scenarios
 
 - If two SLA KPI Instances are created for two SLA Items but with the same SLA KPI, then the pause and resume time of the first SLA KPI Instance isn't considered in the time calculation of the second SLA KPI Instance.
 
@@ -272,11 +272,11 @@ When you use custom time calculation for SLA KPIs, the active duration isn't cal
  
     Now, because of updates on Case 1, the conditions for SLA Item 2 are met and SLA KPI Instance 2 is created for SLA Item 2. Here, SLA KPI Instance 1 is cancelled. Even though SLA Item 1 and SLA Item 2 share the same SLA KPI 1, the pause time of SLA KPI Instance 1 isn't carried forwarded to SLA KPI Instance 2.
 
-- Active duration won't show any value when the SLA Instance is created in **Succeeded** or **Expired** state.
+- Active duration doesn't show any value when the SLA Instance is created in **Succeeded** or **Expired** state.
 
     Here's a description of the scenario.
 
-    SLA KPI Instances are created in the **Succeeded** state, if the success condition is met during the application of the SLA. However, if the SLA KPI Instance gets created and the failure time of the SLA KPI Instance is less than the one created on the SLA KPI Instance, it goes to **Expired** state. In such scenarios, active duration won't show any value.
+    SLA KPI Instances are created in the **Succeeded** state, if the success condition is met during the application of the SLA. However, if the SLA KPI Instance gets created and the failure time of the SLA KPI Instance is less than the one created on the SLA KPI Instance, it goes to **Expired** state. In such scenarios, active duration doesn't show any value.
 
 ## Related information
 
