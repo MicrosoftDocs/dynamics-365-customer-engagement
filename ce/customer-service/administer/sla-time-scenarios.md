@@ -270,7 +270,7 @@ When you use custom time calculation for SLA KPIs, the active duration isn't cal
  
     Two SLA KPI Instances (SLA KPI Instance 1 and SLA KPI Instance 2) are created for two different SLA Items with the same SLA KPI, for example SLA KPI 1. SLA KPI Instance 1 for SLA Item 1 is created on record Case 1, and then SLA KPI Instance 1 is paused and resumed with updates on Case 1.
  
-    Now, because of updates on Case 1, the conditions for SLA Item 2 are met and SLA KPI Instance 2 is created for SLA Item 2. Here, SLA KPI Instance 1 is cancelled. Even though SLA Item 1 and SLA Item 2 share the same SLA KPI 1, the pause time of SLA KPI Instance 1 isn't carried forwarded to SLA KPI Instance 2.
+    Now, because of updates on Case 1, the conditions for SLA Item 2 are met and SLA KPI Instance 2 is created for SLA Item 2. Here, SLA KPI Instance 1 is canceled. Even though SLA Item 1 and SLA Item 2 share the same SLA KPI 1, the pause time of SLA KPI Instance 1 isn't carried forwarded to SLA KPI Instance 2.
 
 - Active duration doesn't show any value when the SLA Instance is created in **Succeeded** or **Expired** state.
 
