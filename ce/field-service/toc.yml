@@ -514,6 +514,8 @@ items:
         href: rso-monitoring-alerting.md
     - name: User guide
       items:
+      - name: Run an optimization ad-hoc
+        href: rso-run-optimization.md
       - name: Run a simulation
         href: rso-simulation.md
       - name: Resolve booking conflicts
