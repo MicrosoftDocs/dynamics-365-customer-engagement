@@ -22,13 +22,13 @@ Yon can configure Resource Scheduling Optimization for overnight scheduling so i
 
 - Set **Range Offset** to **1 minute**. Because this optimization runs at night, it doesn't affect a technician's ability to respond quickly to schedule changes.
 
-- Set **Range Duration** to **1 day**. This means that jobs will be booked within a 24-hour period from when Resource Scheduling Optimization runs.
+- Set **Range Duration** to **1 day**. This means that jobs are booked within a 24-hour period from when Resource Scheduling Optimization runs.
 
 ## Configure the optimization goal for overnight scheduling
 
 [Create a new optimization goal](rso-optimization-goal.md) or edit an existing goal.
 
-- Set **Engine Effort Level** to **Intense** or **Very Intense**. The optimization will take longer to run, but will return better optimizations. Because overnight scheduling is intended to run during the night when no one is working, we prioritize quality over speed.
+- Set **Engine Effort Level** to **Intense** or **Very Intense**. The optimization takes longer to run but returns better optimizations. Because overnight scheduling is intended to run during the night when no one is working, we prioritize quality over speed.
 
 - Add constraints based on your business needs.
 
@@ -48,6 +48,6 @@ Yon can configure Resource Scheduling Optimization for overnight scheduling so i
   - **Hours**: Set to **12:00 AM** or some time at the night.
   - **Days Of Week**: Choose the days of business operations. For example, Monday - Friday.
 
-Based on the timer, the system checks the filters and stars an optimization request if there is a matching value. In our example, every hour, Resource Scheduling Optimization checks if the hour of the day is 12:00 AM and the day of the week is Monday through Friday.
+Based on the timer, the system checks the filters and stars an optimization request if there's a matching value. In our example, every hour, Resource Scheduling Optimization checks if the hour of the day is 12:00 AM and the day of the week is Monday through Friday.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
