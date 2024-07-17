@@ -25,7 +25,7 @@ In this example, time is calculated as follows:
 
 - Case created on 06/14/2023 at 3:00 PM.
 - Warning and failure times are set as 1 and 2 days, respectively.
-- So, the warning time is 06/15/2023 3:00 PM and the failure time is 06/16/2023 3:00 PM.
+- So, the warning time is 06/15/2023 3:00 PM, and the failure time is 06/16/2023 3:00 PM.
 
 ## SLA with calendar
 
@@ -39,7 +39,7 @@ In this example, time is calculated as follows:
 - Working hours are calculated as 9 hours.
 - Working days are set as Monday to Friday.
 - Skips Saturday and Sunday.
-- Warning time is 06/19/2023 12:00 noon and failure time is 06/22/2023 9:00 AM.
+- Warning time is 06/19/2023 12:00 noon, and failure time is 06/22/2023 9:00 AM.
 
 ### Warning Time: 1 day (1*24 = 24 hours)
 
@@ -74,7 +74,7 @@ So, if you create a case on 06/14/2023 3:00 PM with warning and failure times se
 
 When you create an SLA with a calendar and on that calendar you set working hours, break hours, and working days of the week, then the time calculation doesn't consider the non-working and break hours.
 
-Time is calculated as follows:
+In this example, time is calculated as follows:
 
 - Case created on 06/14/2023 at 3:00 PM.
 - Warning and failure times are set as 1 and 2 days, respectively.
@@ -136,7 +136,7 @@ So, if you create a case on 06/14/2023 3:00 PM with warning and failure times se
 
 When you create an SLA with a calendar and set working hours, working days of the week, and some days as holidays, then the non-working hours, non-working days, and holidays aren't considered.
 
-Time is calculated as follows:
+In this example, time is calculated as follows:
 
 - Case created on 06/14/2023 at 3:00 PM.
 - Warning and failure times are set as 1 and 2 days, respectively.
@@ -145,7 +145,7 @@ Time is calculated as follows:
 - Working days are set as Monday to Friday.
 - Skips Saturday and Sunday.
 - Skips holidays as per holiday calendar.
-- Warning time will be 06/21/2023 12:00 noon and failure time will be 06/26/2023 9:00 AM.
+- Warning time will be 06/21/2023 12:00 noon, and failure time will be 06/26/2023 9:00 AM.
 
 ### Warning Time: 1 day (1*24 = 24 hours)
 
@@ -180,7 +180,7 @@ Here's how the failure time is calculated:
 - 06/25/2023- weekend (non-working day)
 - 06/26/2023- 8:00 AM to 9:00 AM (1 hour) = 1-1 = 0 hours
 
-So, if you create a case on 06/14/2023 3:00 PM and warning and failure times are set as 1 and 2 days respectively, then the warning time is 06/21/2023 12:00 noon and the failure time is 06/26/2023 9:00 AM.
+So, if you create a case on 06/14/2023 3:00 PM and warning and failure times are set as 1 and 2 days respectively, then the warning time is 06/21/2023 12:00 noon, and the failure time is 06/26/2023 9:00 AM.
 
 > [!NOTE]
 > If daylight savings transition falls on a holiday as per the customer calendar used in the SLAItem, then the SLA KPI Instance created before the holiday, with failure time after the holiday, doesn't follow the daylight savings transition. SLA KPI Instances that are created after the daylight savings transition go by daylight savings transition.
@@ -189,7 +189,7 @@ So, if you create a case on 06/14/2023 3:00 PM and warning and failure times are
 
 When you create an SLA and then pause it for hours or days, the paused hours or days aren't considered in the SLA failure and warning times.
 
-Time is calculated as follows:
+In this example, time is calculated as follows:
 
 - Case created on 06/14/2023 at 3:00 PM.
 - Warning and failure times are set as 1 and 2 days, respectively.
@@ -199,7 +199,7 @@ Time is calculated as follows:
 - Skips Saturday and Sunday.
 - Skips holidays as per the holiday calendar.
 - Skips paused hours or days.
-- Warning time is 06/21/2023 10:00 AM and failure time is 06/26/2023 4:00 PM.
+- Warning time is 06/21/2023 10:00 AM, and failure time is 06/26/2023 4:00 PM.
 
 ### Warning Time: 1 day (1*24 = 24 hours)
 
@@ -258,7 +258,7 @@ The active duration is 20 min and SLA expires at 12:30 AM. This is because SLA i
 - 12:20 AM- case resumed
 - 12:40 AM- SLA expired
 
-The active duration is 30 min and SLA expires at 12:40 AM as the case was paused for 10 min. Though SLA is set as 30 min, it gets impacted when case is paused or resumed.
+The active duration is 30 min and SLA expires at 12:40 AM, as the case was paused for 10 min. Though SLA is set as 30 min, it gets impacted when case is paused or resumed.
 
 When you use custom time calculation for SLA KPIs, the active duration isn't calculated cumulatively by default. You need to create a custom time calculation plug-in for active duration to be cumulative. More information: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis-1)
 
