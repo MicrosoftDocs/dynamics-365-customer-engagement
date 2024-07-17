@@ -19,7 +19,7 @@ This article answers frequently asked questions about region and language suppor
 
 ## In which region is Sales Premium available? 
   
-Sales Premium is available in the following countries or regions:
+Sales Premium is only available in the following countries or regions:
 
 - Asia Pacific (APJ)
 - Canada (CAN)
@@ -36,13 +36,7 @@ Sales Premium is available in the following countries or regions:
 - Switzerland (CHE)  
 - United Arab Emirates (UAE)
 
-Sales Premium isn't available in the following datacenters:
-
-- Korea
-- Norway
-- Government Community Cloud (GCC), including USG
-- Department of Defense (DoD)
-- China
+Sales Premium isn't available in Government Community Cloud (GCC), including USG. 
 
 ## In which region are Sales Premium features available?
 
