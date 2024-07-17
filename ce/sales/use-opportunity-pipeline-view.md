@@ -47,9 +47,9 @@ You can [personalize the opportunity pipeline view](personalize-pipeline-view.md
 
 If your administrator has enabled the grouping and aggregation feature, you can group and aggregate opportunities in the pipeline view. 
 
-To group opportunities by a column, select the column header and then select **Group by**. The grouped column is displayed at the beginning of the grid. To remove the grouping, select the column header and then select **Ungroup**.
+To group opportunities by a column, select the column header and then select **Group by**. The grouped column is displayed at the beginning of the grid. To remove the grouping, select the column header and then select **Ungroup**. [Learn more about grouping](/power-apps/user/grid-filters#grouping).
 
-To aggregate opportunities by a numerical column, select the column header and then select **Totals** > *function*, where *function* can be sum, average, minimum, or maximum. The aggregated value is displayed at the bottom of the grid. To remove the aggregation, select the column header and then select **Totals** > **None**.  
+To aggregate opportunities by a numerical column, select the column header and then select **Totals** > *function*, where *function* can be sum, average, minimum, or maximum. The aggregated value is displayed at the bottom of the grid. To remove the aggregation, select the column header and then select **Totals** > **None**. [Learn more about aggregating data](/power-apps/user/grid-filters#aggregation).  
 
 ## Understand the opportunity pipeline charts
 
