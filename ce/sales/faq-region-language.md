@@ -36,7 +36,7 @@ Sales Premium is only available in the following countries or regions:
 - Switzerland (CHE)  
 - United Arab Emirates (UAE)
 
-Sales Premium isn't available in Government Community Cloud (GCC), including USG. 
+Sales Premium isn't available in all other regions and Government Community Cloud (GCC), including USG. 
 
 ## In which region are Sales Premium features available?
 
