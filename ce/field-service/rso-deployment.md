@@ -13,7 +13,7 @@ ms.author: anilmur
 
 After [getting access to Resource Scheduling Optimization](rso-get-install.md) either by purchasing a license or through your Microsoft representative, deploy it to your Dynamics 365 Field Service environment.
 
-You can deploy multiple instances of the Resource Scheduling Optimization add-in on the same Microsoft 365 tenant, however, a Resource Scheduling Optimization instance can connect to one Dynamics 365 organization only.
+You can deploy multiple instances of the Resource Scheduling Optimization add-in on the same Microsoft 365 tenant, however, a Resource Scheduling Optimization instance can connect to one Dynamics 365 organization only. If you need to have concurrent instances, for example in production and development organizations, see [Get licenses for multiple instances](rso-get-install.md#get-licenses-for-multiple-instances).
 
 ## Deployment steps
 
@@ -51,6 +51,10 @@ After the initial deployment, you can manage the deployed instance.
    - Select **Change Organization** to change the Resource Scheduling Optimization deployment from a Dynamics 365 organization to another. This action will not delete data inside of the original Dynamics 365 organization and you can always change it back.
 
    - Select **Delete current deployment** to delete Resource Scheduling Optimization Azure resources. The Resource Scheduling Optimization solution will remain, which will not impact anything inside of the Dynamics 365 organization.
+
+## Privacy notice
+
+[!INCLUDE[cc_privacy_rso_location_info_bing_maps](../includes/cc-privacy-rso-location-info-bing-maps.md)]
 
 ## Next steps
 
