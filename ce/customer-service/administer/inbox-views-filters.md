@@ -24,8 +24,6 @@ The following tables contain details about the out-of-the-box views and filters 
 
 <sup>1</sup> Applies if provisioned in and configured for the environment.
 
-
-
 ## Out-of-the-box filters
 
 | Entity | Inbox filter | Description | Applied Conditions (AND) |
