@@ -1,7 +1,7 @@
 ---
 title: "Use Microsoft Teams chat in Sales Hub | MicrosoftDocs"
 description: "Start Teams chat conversations from within Sales Hub and connect them to records"
-ms.date: 07/05/2024
+ms.date: 07/18/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -58,19 +58,19 @@ The **Teams chats** pane opens and displays the following sections on the **Chat
 
 - **Chats connected to *record*** lists Teams chats that either you've connected to the selected record or someone else has connected with you as a participant.
     
-- **Other chats** list your top 200 chat conversations on Teams. You can select any existing conversation and connect it to a record.
+- **Other chats** lists your top 200 chat conversations on Teams. You can select any existing conversation and connect it to a record.
 
 The **Channel** tab lists the channels that you've connected to the selected record, and any channels someone else has connected to where you're a participant. If you've connected a record to a channel by using the basic or enhanced collaboration experience, that channel is also listed on this tab.
 
 ## View all connected Dynamics 365 chats
 
-Open the dashboard or list view of any Dynamics 365 customer engagement table, such as an opportunities list view, and select (![Teams icon.](media/teams-icon.png "Teams icon")). All your connected Dynamics 365 chats appear under **Chats connected to the record**. The chats display the record names to which they're connected and the latest chat message. You can navigate to a related record from the connected chat. For more information, see [Navigate to a record from a connected chat](#navigate-to-a-record-from-a-connected-chat).
+Open the dashboard or list view of any Dynamics 365 customer engagement table, such as an opportunities list view, and select :::image type="icon" source="media/teams-icon.png" border="false":::. All your connected Dynamics 365 chats appear under **Chats connected to the _record_**. The chats display the record names to which they're connected and the latest chat message. You can navigate to a related record from the connected chat. For more information, see [Navigate to a record from a connected chat](#navigate-to-a-record-from-a-connected-chat).
 
 ## Start a connected Teams chat in Dynamics 365
 
 You can start a new connected chat or convert an existing Teams chat into a connected chat to associate the chat with a Dynamics 365 record.
 
-1.  Open any Dynamics 365 customer engagement record and select (![Teams icon.](media/teams-icon.png "Teams icon")).
+1.  Open any Dynamics 365 customer engagement record and select :::image type="icon" source="media/teams-icon.png" border="false":::.
 
     The **Teams chats** pane opens.
 
@@ -136,7 +136,7 @@ You can connect a chat to a single record or multiple records. For example, if y
 
 Connect relevant Teams channels to a record so that all the members can easily access the connected channels from the record and follow the conversations.
 
-1.  Open any Dynamics 365 customer engagement record, and select.
+1.  Open any Dynamics 365 customer engagement record, and select :::image type="icon" source="media/teams-icon.png" border="false":::.
 
     The **Teams chats** pane opens.
 
@@ -156,7 +156,7 @@ Connect relevant Teams channels to a record so that all the members can easily a
 
 You can start a regular conversation in Dynamics 365 if you don't want to switch to Teams.
 
-While you're in any of the records or in the list pane, select, and then select the **Compose chat** icon :::image type="icon" source="media/compose-chat-icon.png" border="false"::: in the upper-right corner of the **Teams chats** pane. This option starts an individual or group chat but doesn't connect it to the record.
+While you're in any of the records or in the list pane, select :::image type="icon" source="media/teams-icon.png" border="false":::, and then select the **Compose chat** icon :::image type="icon" source="media/compose-chat-icon.png" border="false"::: in the upper-right corner of the **Teams chats** pane. This option starts an individual or group chat but doesn't connect it to the record.
 
 ## Navigate to a record from a connected chat
 

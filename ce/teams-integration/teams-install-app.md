@@ -1,7 +1,7 @@
 ---
 title: "Install the Dynamics 365 app in Teams"
 description: "Learn how to install the Dynamics 365 app in Teams."
-ms.date: 07/09/2024
+ms.date: 07/18/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -11,53 +11,46 @@ search.audienceType:
 
 # Install the Dynamics 365 app and set up the Microsoft Teams collaboration channel tab
 
-1. In Microsoft Teams, select **Store**.
+1. In Microsoft Teams, on the left navigation pane, select **Apps**.
 
-2. Search for **Dynamics**, and then select the **Dynamics 365** tile.
+2. Search for **Dynamics 365**, and then select the **Dynamics 365** tile.
 
-3. On the **Dynamics 365** details page, click the blue open button, then select Add to a team, Add to a chat, or Add to a meeting from the dropdown to integrate Dynamics 365.
+3. In the **Dynamics 365** window, select the down arrow next to the **Add** button, and choose one of the following options:
 
-   You can use the Dynamics 365 app or use a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can install the app for your personal use and install it for your Microsoft Teams later.
+   - **Add to a team**: Select this option to add the app to a Teams channel. In the **Type a team or channel name** box, enter the name of the team or channel where you want to add the app, and then select it.
+   - **Add to a chat**: Select this option to add the app to a chat. In the **Type the name of a person or chat** box, enter the name of the person or chat where you want to add the app, and then select it.
+   - **Add to a meeting**: Select this option to add the app to a meeting. In the **Type a meeting name** box, enter the name of the meeting where you want to add the app, and then select it.
 
-4. Search for Dynamics 365 in apps, open it, click the add button, select "Add to a chat," and set it up.
+   You can also select **Add** to add the app for your personal use and install it for your Microsoft Teams later.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Add to chat.](media/Add-to-a-chat.png "Add to chat")
+    :::image type="content" source="media/teams-install-options.png" alt-text="Screenshot showing options to add Dynamics 365 app.":::
 
-5. Search for Dynamics 365 in apps, open it, click the add button, select "Add to a meeting," and set it up.
+1. Select **Set up**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Add to meeting.](media/Add-to-a-meeting.png "Add to meeting")
- 
-6. For **Add to a Team**, choose a Team and then select **Install**.
-
-7. Pick a channel in Microsoft Teams to connect to an app record and then select **Set up**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Add to team.](media/teams-store-install-add-team75.png "Add to team")
-
-8. Select the appropriate environment and the application you want to connect, then select **Save Changes**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select environment and app module.](media/teams-fre-org-app.png "Select environment and app module")
-
+1. In the **Dynamics 365** window, verify the environment name and the app name. To change the environment or app, do the following:
+    1. Select the edit icon (:::image type="icon" source="../sales/media/edit-icon.png" border="false":::) next to the app name.
+    1. Select the environment and app that you want to connect to, and then select **Select**.
+    
    > [!NOTE]
    > - Only environments that contain customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected environment are listed. 
 
-9. Select **Entity Selection** or **View Selection**.
+1. Select **Entity Selection** or **View Selection**.
 
-    1. **Entity Selection**: Select an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter ** to narrow the search to an entity type. Once you've picked a record, select **Save**.
+    1. **Entity Selection**: Select an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
+
+    :::image type="content" source="media/teams-entity-view-select.png" alt-text="Screenshot showing entity and view selection options.":::
 
     2. **View Selection**: Select an entity to see the list of available views. Once you've picked a view, select **Save**.
-   
-      > [!NOTE]
+
+   > [!NOTE]
    > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users before you add the view to the Microsoft Teams channel. Otherwise, other team members will not have access to the view tab content.
 
-10. After completing the above steps, you'll see a new Dynamics 365 tab in the selected team channel. 
+After completing the above steps, you'll see a new Dynamics 365 tab in the selected Teams channel, chat, or meeting. 
  
 See [Collaborate with Microsoft Teams](teams-collaboration.md#have-a-conversation) for information on how you can use the tab feature to collaborate with Dynamics 365 apps.
+
 
 <a name="bkmk_setup_dynamics365_bot"></a>
 
