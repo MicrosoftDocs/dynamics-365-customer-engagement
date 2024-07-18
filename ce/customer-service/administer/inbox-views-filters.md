@@ -19,7 +19,7 @@ The following tables contain details about the out-of-the-box views and filters 
 | View name | Description | Entities | Entity filters |
 |----------|------------|----------|------------|
 | My work items | Shows all work items the agent can take action on. Actionable items can include assigned conversations, assigned cases, and emails with the agent listed in the **To**, **Cc**, or **Bcc** field, or listed as the owner, and voicemails assigned to the agent. | Case, Conversation<sup>1</sup>, Email, Voicemail<sup>1</sup> | Case:<ul><li>Work items assigned to me</li></ul>Conversation:<ul><li>Assigned</li></ul>Email:<ul><li>Emails assigned to me</li><li>Emails sent to me</li></ul>Voicemail:<ul><li>Assigned</li></ul> |
-| Open work items | Shows work items that are available for the agent to pick up. Work items can include cases assigned to a team or that are part of private queues the agent is a member of, open conversations, emails owned by a team or private queue that the agent is a member of, and unassigned voicemails. | Case, Conversation<sup>1</sup>, Email, Voicemail<sup>1</sup> | Case:<ul><li>Work items in my teams</li><li>Work items in my queues</li></ul>Conversation:<ul><li>Unassigned</li></ul>Email:<ul><li>Emails in my teams</li><li>Emails in my queues |
+| Open work items | Shows work items that are available for the agent to pick up. Work items can include cases that are assigned to a team or apart of private queues the agent is a member of, open conversations, emails owned by a team or private queue that the agent is a member of, and unassigned voicemails. | Case, Conversation<sup>1</sup>, Email, Voicemail<sup>1</sup> | Case:<ul><li>Work items in my teams</li><li>Work items in my queues</li></ul>Conversation:<ul><li>Unassigned</li></ul>Email:<ul><li>Emails in my teams</li><li>Emails in my queues |
 | Closed work items | Shows work items already acted on. Work items already acted on can include cases in the closed state, conversations that are resolved, and voicemails that are resolved. | Case, Conversation<sup>1</sup>, Voicemail<sup>1</sup> | Case:<ul><li>Resolved work items assigned to me</li></ul>Conversation:<ul><li>Resolved</li></ul>Voicemail:<ul><li>Resolved</li></ul>|
 
 <sup>1</sup> Applies if provisioned in and configured for the environment.
@@ -44,7 +44,7 @@ The following tables contain details about the out-of-the-box views and filters 
 | Voicemail | Unassigned | The **Owner** field isn't set to current user, and the **Worked by** field isn't set. |<ul><li>The **Owner** field isn't equal to the current user.</li><li>The **Worked by** field isn't set.</li><li>The record's **Status Reason** is set to **Open**.
 | Voicemail | Resolved | The **Owner** or **Worked by** field of the record is set to the current user, and the **Status Reason** field is set to **Closed**. |<ul><li>The **Owner** or **Worked by** field of the record is equal to the current user.</li><li>The **Status Reason** of the record is set to **Closed**.</li></ui> |
 
-## Generally applied filters (non-entity specific)
+## Applied filters (non-entity specific)
 
 - Last 90 days, based on the **Modified on** field.
 - Top 500 records, descending in order by the **Modified on** field.
