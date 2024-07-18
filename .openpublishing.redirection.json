@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/field-service/rso-administration.md",
+      "redirect_url": "/dynamics365/field-service/rso-deployment",
+      "redirect_document_id": "false"
+   },
+    {
       "source_path": "ce/field-service/rso-schedule-optimization.md",
       "redirect_url": "/dynamics365/field-service/rso-optimization-schedule",
       "redirect_document_id": "false"
