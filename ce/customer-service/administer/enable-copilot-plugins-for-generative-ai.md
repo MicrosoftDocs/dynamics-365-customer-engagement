@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 07/15/2024
+ms.date: 07/19/2024
 ms.custom: bap-template
 ---
 
@@ -27,9 +27,13 @@ Your customer service representatives rely on data and information from a wide v
 
 ## Prompt plugin
 
-With prompt plugins, you can connect Dataverse to Copilot, and let your agents securely access data.
+With prompt plugins, you can connect Copilot to Dataverse, and let your agents securely access data.
 
 1. To create a prompt plugin, see [Generate content or extract insights with AI Builder prompts](/microsoft-copilot-studio/copilot-ai-plugins#generate-content-or-extract-insights-with-ai-builder-prompts).
+
+   > [!NOTE]
+   > Make sure that the prompt description is unique for Copilot to identify the right plugin at runtime.
+
 1. To turn on the plugin in the admin app, see [Configure settings](#configure-settings-for-the-custom-connector-and-prompt-plugins).
 
 ## Custom connector plugin
@@ -66,6 +70,7 @@ You can also author plugin actions in Copilot Studio to use certified connectors
 
 ### Considerations
 
+- Make sure the description is unique as when the agent prompt will match the context with plugin description, which helps to identify the plugin and execute.
 - You can add one plugin action only.
 - If you update the plugin, you must turn it off and enable again in the admin center app to refresh the plugin.
 - We recommend that you test and validate the plugin functionality by using it in Copilot in Customer Service.
