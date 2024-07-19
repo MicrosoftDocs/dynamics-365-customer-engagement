@@ -21,7 +21,7 @@ Welcome to Dynamics 365 Customer Service. Visit this page to learn about new or 
 
 For information about the features that are releasing in October 2024, see:
 
-[2024 release wave 2 plan - Customer Service](dynamics365/release-plan/2024wave2/service/dynamics365-customer-service/planned-features)
+[2024 release wave 2 plan - Customer Service](/dynamics365/release-plan/2024wave2/service/dynamics365-customer-service/planned-features)
 
 ## What's new in April 2024 update
 
