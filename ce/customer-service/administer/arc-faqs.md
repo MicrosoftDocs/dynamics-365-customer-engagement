@@ -46,7 +46,7 @@ No applicable reason can be specified.
 
 The message **The rule doesn't have any conditions applicable to the record** appears in the activity monitor.
 
-**Resolution**: Revisit the existing rules to ensure that the conditions defined in the rule meet the incoming email.
+**Resolution**: Revisit the existing rules to ensure that the conditions defined in the rule apply to the incoming email.
 
 ### Why do multiple cases get created from a single email?
 
