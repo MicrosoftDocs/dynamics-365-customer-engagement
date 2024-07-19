@@ -34,7 +34,7 @@ As a sales manager or seller, you can connect multiple sequences to a record in 
   More information: [Create and activate a segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment).
 
 >[!NOTE]
->When a segment is connected to the same sequence twice or more for the same record and assigned to the same seller, the Up next widget displays duplicate activities.  
+>When a segment is connected to the same sequence more than once for the same record and assigned to the same seller, the Up next widget displays duplicate activities.  
 
 ## Ways to connect sequence to records
 
