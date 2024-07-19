@@ -48,7 +48,7 @@ Use the custom connector to create a connector plugin for non-Microsoft solution
 
 ## Certified connector plugin
 
-You can also author plugin actions in Copilot Studio to use certified connectors, such as the connector for Salesforce or DocuSign that's available in Power Automate and let Copilot access the relevant data based on agent input.
+You can also author plugin actions in Copilot Studio to use certified connectors. For example, the connector for Salesforce or DocuSign that's available in Power Automate can let Copilot access the relevant data based on agent input.
 
 ## Configure settings for the custom connector and prompt plugins
 
@@ -70,7 +70,6 @@ You can also author plugin actions in Copilot Studio to use certified connectors
 
 ### Considerations
 
-- Make sure the description is unique as when the agent prompt will match the context with plugin description, which helps to identify the plugin and execute.
 - You can add one plugin action only.
 - If you update the plugin, you must turn it off and enable again in the admin center app to refresh the plugin.
 - We recommend that you test and validate the plugin functionality by using it in Copilot in Customer Service.
