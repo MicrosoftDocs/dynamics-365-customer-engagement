@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection: 
-ms.date: 08/31/2023
+ms.date: 07/01/2024
 ms.custom: bap-template 
 ---
 
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [This article is prerelease documentation and is subject to change.]
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Use the information in this article to add an authentication setting for Nuance Gatekeeper in Customer Service.
 

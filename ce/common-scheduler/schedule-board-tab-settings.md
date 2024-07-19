@@ -6,6 +6,7 @@ ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
 ms.reviewer: mhart
+ms.date: 06/06/2024
 ---
 
 # Configure the schedule board tab settings in Universal Resource Scheduling

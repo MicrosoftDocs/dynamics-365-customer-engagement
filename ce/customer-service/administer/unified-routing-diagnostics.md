@@ -1,7 +1,7 @@
 ---
 title: View diagnostics for unified routing (Dynamics 365 Customer Service)
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items using unified routing.
-ms.date: 05/09/2024
+ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,7 @@ ms.custom:
 # View diagnostics for unified routing
 
 > [!IMPORTANT]
-> The diagnostics feature is deprecated as on May 09, 2024. The diagnostics for new records won't be generated from July 01, 2024, and the feature will be removed by July 15, 2024. For more information, see [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> The diagnostics feature is deprecated as on May 09, 2024, and will be removed on August 01, 2024. For more information, see [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 Unified routing helps you assign a work item to the best suited agent or queue to handle it, based on the agent skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and diagnose issues that occur in the classification and assignment of work items.
 
@@ -33,24 +33,8 @@ The system can take up to five minutes to generate the diagnostic information re
 
 To see data related to work items and their status, you need to enable routing diagnostics. The diagnostics setting can take up to 15 minutes to take effect after you enable it.
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Routing**. The **Routing** page appears.
-    2. Select **Manage** for **Routing diagnostics**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-    - In the site map, select **Diagnostics** in **Advanced settings**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    - Go to the **Service Management** site map, and in **Unified Routing** select **Diagnostics**.
+1. In the site map of Customer Service admin center, select **Routing**. The **Routing** page appears.
+1. Select **Manage** for **Routing diagnostics**.
 
 1. On the **Routing diagnostics** page, select **Turn on routing diagnostics**.
 

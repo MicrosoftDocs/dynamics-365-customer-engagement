@@ -16,7 +16,7 @@ ms.reviewer: lavanyakr
 
 This integration lets your sellers make and receive Twilio Flex calls from Dynamics 365 and get real-time transcriptions during the call and AI-generated call insights after the call.
 
-[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 

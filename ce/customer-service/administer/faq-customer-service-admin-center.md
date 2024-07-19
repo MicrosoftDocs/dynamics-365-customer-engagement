@@ -1,10 +1,13 @@
 ---
-title: "Customer Service admin center FAQ | MicrosoftDocs"
-description: "FAQ pertaining to Customer Service admin center."
-ms.date: 02/11/2024
-ms.topic: article
+title: Customer Service admin center FAQ
+description: FAQ pertaining to Customer Service admin center.
+ms.date: 06/21/2024
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.custom: bap-template
+ms.collection:
 ---
 
 # FAQ about Customer Service admin center

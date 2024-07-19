@@ -1,12 +1,14 @@
 ---
 title: "Create search page hosted control | MicrosoftDocs"
 description: "Learn how to create the search hosted control for agents and supervisors using Omnichannel for Customer Service."
-ms.date: 10/25/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 
 # Step 1: Create search hosted control
 

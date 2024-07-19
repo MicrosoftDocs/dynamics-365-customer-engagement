@@ -371,7 +371,11 @@ items:
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
     - name: Entitlements
-      href: work-order-entitlements.md
+      items:
+        - name: Entitlements overview
+          href: work-order-entitlements-overview.md
+        - name: Create an entitlement
+          href: work-order-entitlements.md
     - name: Warranties
       href: warranties.md
     - name: Insurance
@@ -488,31 +492,31 @@ items:
       href: rso-overview.md
     - name: Get Resource Scheduling Optimization
       href: rso-get-install.md
-    - name: Quickstart
+    - name: Get started with the add-in
       href: rso-quickstart.md
     - name: Administration overview
       href: rso-administration.md
-    - name: Deployment
+    - name: Deploy the add-in
       href: rso-deployment.md
-    - name: Configuration and setup
+    - name: Configure the add-in
       href: rso-configuration.md
-    - name: Scopes
+    - name: Manage optimization scopes
       href: rso-optimization-scope.md
-    - name: Goals
+    - name: Define optimization goals
       href: rso-optimization-goal.md
-    - name: Schedules
+    - name: Create optimization schedules
       href: rso-optimization-schedule.md
-    - name: Publishing
+    - name: Publish a schedule
       href: rso-schedule-optimization.md
     - name: Set up a proof of concept
       href: rso-proof-concept.md
     - name: Schedule in sequence
       href: rso-requirement-dependency.md
-    - name: Predictive travel times
+    - name: Predict travel times
       href: rso-predictive-travel.md
     - name: Travel outside working hours
       href: rso-travel-outside-working-hours.md
-    - name: Running Resource Scheduling Optimization
+    - name: Run Resource Scheduling Optimization
       items:
         - name: Publishing + monitoring
           href: rso-schedule-optimization.md
@@ -522,11 +526,13 @@ items:
           href: rso-single-resource-optimization.md
         - name: Simulations
           href: rso-simulation.md
+        - name: Get alerts for failed runs
+          href: rso-monitoring-alerting.md
     - name: Lock options for bookings
       href: booking-lock-options.md
-    - name: Multi-day requirements
+    - name: Schedule multi-day requirements
       href: rso-multi-day.md
-    - name: Resolving conflicts for bookings
+    - name: Resolve conflicts for bookings
       href: rso-handling-resolving-booking-conflicts.md
 
 - name: Integrations
@@ -568,6 +574,8 @@ items:
       href: field-service-customize-forms.md
     - name: Write complex business logic (plugins + JavaScript)
       href: field-service-customize-scripts.md
+    - name: Customize the booking card
+      href: customize-booking-card.md
 
 - name: Troubleshooting and FAQ
   items:

@@ -4,7 +4,7 @@ ms.custom:
 description: Get logs and session ID to help troubleshoot your issue.
 ms.date: 06/05/2023
 ms.reviewer:
-
+ms.service: d365ce-op
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: error-reference

@@ -1,19 +1,23 @@
 ---
-title: "Overview of collaboration in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "This topic provides information about different collaboration features that are available in Dynamics Customer Service."
+title: Overview of collaboration in Dynamics 365 Customer Service
+description: This topic provides information about different collaboration features that are available.
 author: lalexms
 ms.author: laalexan
 ms.topic: overview
-ms.date: 11/27/2023
+ms.date: 07/01/2024
 
 ---
 
 # Overview of collaboration
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 Collaboration features make it easy for agents to find the help they need in Microsoft Teams from within the following apps:
 - Dynamics 365 Customer Service admin center
 - Dynamics 365 Customer Service Hub
 - Dynamics 365 Customer Service workspace
+- Dynamics 365 Contact Center admin center
+- Dynamics 365 Contact Center workspace
 - Your custom apps
 
 Agents can use collaboration features to find experts, chat with peers in Teams, and set meetings. Collaboration helps turn your business into a unified and cohesive customer service center.

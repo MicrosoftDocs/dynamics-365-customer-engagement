@@ -5,14 +5,19 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer:
 ms.topic: how-to
-ms.date: 09/18/2023
+ms.date: 07/01/2024
 ms.custom: bap-template
 ms.collection:
 ---
 
 # Migrate configuration data for SMS channel
 
-Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for SMS. 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+
+Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for SMS.
+
+[!INCLUDE[cc-migrate-using-solutions](../../includes/cc-migrate-using-solutions.md)]
 
 For information on how to use the Configuration Migration tool, see the following articles: 
 

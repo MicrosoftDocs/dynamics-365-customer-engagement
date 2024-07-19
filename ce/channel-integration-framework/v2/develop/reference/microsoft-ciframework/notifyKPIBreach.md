@@ -1,7 +1,7 @@
 ---
 title: "notifyKpiBreach (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about notifyKpiBreach (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/01/2020
+ms.date: 07/11/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
