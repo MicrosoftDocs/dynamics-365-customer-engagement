@@ -1,7 +1,7 @@
 ---
 title: Lead management FAQs
 description: Get answers to frequently asked questions about various aspects of Lead management such as lead qualification, duplicate detection, and scoring. 
-ms.date: 07/04/2024
+ms.date: 07/17/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -175,3 +175,9 @@ When salespeople work on a lead, they use notes to store key information on the 
 ## Why the Company Name column is not available in the Edit Columns pane for lead views?
 
 The **Company Name** column is included in the out-of-the-box lead views, but it's hidden in the **Edit Columns** pane by design. So, you can't hide, remove, or reorder the **Company Name** column in the out-of-the-box lead views or views that are based on these out-of-the-box views. To show the **Company Name** column in the **Edit Columns** pane, reach out to your admin. Your admin can add the **Company Name** field to the view [using the Power Apps view designer](/power-apps/maker/model-driven-apps/choose-and-configure-columns#adding-columns).
+
+<a name="lead-qualification-custom-field-mappings"></a>
+
+## Why can't I delete out-of-the-box field mappings between lead and opportunity?
+ 
+Starting March 2024, the ability to delete any out-of-the-box field mappings is removed. If you deleted the field mapping between lead and opportunity prior to March 2024, the map would have been restored in the next update. If you want to override an out-of-the-box field map, you can create a post operation plugin on opportunity create that checks if `originatingleadid` field is populated and update the fields targeted in out-of-the-box field maps as per your business requirements.
