@@ -1,17 +1,17 @@
 ---
-title: Access scheduling in the Customer Service Hub and Customer Service workspace
-description: Learn how to access scheduling the Customer Service Hub and Customer Service workspace
-author: lalexms 
-ms.author: laalexan
-ms.reviewer: shujoshi
+title: Access scheduling in the Customer Service workspace and Customer Service Hub
+description: Learn how to access scheduling in the Customer Service workspace and Customer Service Hub apps.
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 ms.topic: how-to 
 ms.date: 07/19/2024
 ms.custom: bap-template 
 ---
 
-# Access scheduling in the Customer Service Hub and Customer Service workspace
+# Access scheduling in the Customer Service workspace and Customer Service Hub
 
-You can access scheduling through Customer Service Hub and Customer Service workspace apps.
+You can access scheduling through Customer Service workspace and Customer Service Hub apps.
 
 ## Access scheduling in Customer Service workspace
 
@@ -19,9 +19,10 @@ You can also access scheduling in the Customer Service workspace app.
 
 - Select the + icon to expand the menu to view a list of forms, views, and activities, and then select either **Service Activities** or **Scheduling** to open the feature in a new tab.
 
-  > [!div class=mx-imgBorder]
-  > ![Access Scheduling from Customer Service workspace.](../media/csw-service-scheduling.png)
+  :::image type="content" source="../media/csw-service-scheduling.png" alt-text="Access scheduling from Customer Service workspace":::
+
    - **Service Activities**
+   
 
     :::image type="content" source="../media/csw-service-activities.png" alt-text="View service activities in Customer Service workspace":::
    - **Scheduling**
@@ -44,7 +45,7 @@ Configure all your entity records in the new experience manually from the user i
 Make sure that you have the correct security role or equivalent permissions. Learn more at [Manage security roles in service scheduling](manage-security-roles.md).
 
 > [!IMPORTANT]
-> The administrator must follow the order as given in the [Scheduling scenario](basics-service-service-scheduling.md#scheduling-scenario) while configuring entity records in the new scheduling experience.
+> You need to follow the order as given in the [Scheduling scenario](basics-service-service-scheduling.md#scheduling-scenario) while configuring entity records in the new scheduling experience.
 > [!NOTE]
 > All entity records can be configured from the user interface except Service Activity.
 
