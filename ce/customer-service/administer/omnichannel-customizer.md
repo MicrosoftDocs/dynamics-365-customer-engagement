@@ -1,8 +1,8 @@
 ---
-title: "Omnichannel engagement hub for system customizers | MicrosoftDocs"
-description: "Overview topic containing links to procedures for customizing session, quick view, and Active Conversation forms in Omnichannel for Customer Service."
+title: Omnichannel engagement hub for system customizers
+description: Overview topic containing links to procedures for customizing session, quick view, and Active Conversation forms in Omnichannel for Customer Service.
 ms.date: 07/01/2019
-ms.topic: article
+ms.topic: overview
 author: neeranelli
 ms.author: nenellim
 ---
