@@ -1,7 +1,7 @@
 ---
 title: FAQ about automatic record creation
 description: Learn answers to frequently asked questions about automatic record creation.
-ms.date: 07/16/2024
+ms.date: 07/19/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -44,9 +44,9 @@ No applicable reason can be specified.
 
 ### Reason 5
 
-The rule doesn't have any conditions applicable to the record.
+The message **The rule doesn't have any conditions applicable to the record** appears in the activity monitor.
 
-**Resolution**: You must add a minimum of one condition for an automatic record creation and update rule to run successfully. Or, revisit the existing rules to ensure that the conditions defined in the rule meet the incoming email.
+**Resolution**: Revisit the existing rules to ensure that the conditions defined in the rule meet the incoming email.
 
 ### Why do multiple cases get created from a single email?
 
