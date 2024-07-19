@@ -20,7 +20,7 @@ searchScope:
   - Sales
 ---
 
-<!-- note from editor: the second sentence in line 118 is incomplete. -->
+<!-- note from editor: the second sentence in line 118 is unfinished. -->
 
 # Qualify and convert leads to opportunity
 
@@ -93,7 +93,7 @@ If your admin has enabled multiple opportunities creation, you can create up to 
 
 If your admin has enabled lead summarization, you'll see an AI-generated summary of the lead after it's qualified. The summary includes key details from the lead record and is added to the timeline of the primary opportunity record and the lead record. 
 
-:::image type="content" source="media/lead-qualify-finish-page.png" alt-text="Screenshot of the Lead qualified page that appears after the lead is qualified":::
+![Screenshot of the Lead qualified page that appears after the lead is qualified.](media/lead-qualify-finish-page.png "Screenshot of the Lead qualified page that appears after the lead is qualified.")
 
 Select **Finish** to open the primary opportunity record and select **X** at the top of the pane to go back to the lead record.
 
@@ -130,8 +130,6 @@ To disqualify, select the lead, and on the command bar, select  **Disqualify**.
 
 - For information on how to resolve the common errors that you may get while you qualify a lead, see the [troubleshooting guide](troubleshooting.md).  
 - For frequently asked questions about lead qualification, see [Lead management FAQs](faq-lead.md).
-
-
 
 ## Typical next steps  
 
