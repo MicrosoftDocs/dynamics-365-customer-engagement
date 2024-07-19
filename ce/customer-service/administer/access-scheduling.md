@@ -5,22 +5,13 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 12/07/2023
+ms.date: 07/19/2024
 ms.custom: bap-template 
 ---
 
 # Access scheduling in the Customer Service Hub and Customer Service workspace
 
 You can access scheduling through Customer Service Hub and Customer Service workspace apps.
-
-## Access scheduling in the Customer Service Hub
-
-With the latest release of Dynamics 365 Customer Service, scheduling is powered by Universal Resource Scheduling, and is available from the Customer Service Hub site map.
-
-- Select ![change area.](../media/change-area-icon.png) to go to **Scheduling** and access the entity record types.
-
-  > [!div class=mx-imgBorder]
-  > ![access-service-scheduling.](../media//access-service-scheduling-csh.png)
 
 ## Access scheduling in Customer Service workspace
 
@@ -32,25 +23,32 @@ You can also access scheduling in the Customer Service workspace app.
   > ![Access Scheduling from Customer Service workspace.](../media/csw-service-scheduling.png)
    - **Service Activities**
 
-     > [!div class=mx-imgBorder]
-     > ![View service activities in Customer Service workspace.](../media/csw-service-activities.png)
+    :::image type="content" source="../media/csw-service-activities.png" alt-text="View service activities in Customer Service workspace":::
    - **Scheduling**
 
-     > [!div class=mx-imgBorder]
-     > ![View the schedule board in Customer Service workspace.]../media/csw-schedule-board.png)
+    :::image type="content" source="../media/csw-schedule-board-urs.png" alt-text="Screenshot of service resource scheduling":::
+
+## Access scheduling in the Customer Service Hub
+
+With the latest release of Dynamics 365 Customer Service, scheduling is powered by Universal Resource Scheduling, and is available from the Customer Service Hub site map.
+
+- Select ![change area.](../media/change-area-icon.png) to go to **Scheduling** and access the entity record types.
+
+  > [!div class=mx-imgBorder]
+  > ![access-service-scheduling.](../media//access-service-scheduling-csh.png)
 
 ## Configure entity records in the new scheduling experience
 
-Configure all your entity records in the new experience manually from the user interface. 
+Configure all your entity records in the new experience manually from the user interface.
 
-Make sure that you have the correct security role or equivalent permissions. Know more about security roles: [Manage security roles in service scheduling](manage-security-roles.md).
+Make sure that you have the correct security role or equivalent permissions. Learn more at [Manage security roles in service scheduling](manage-security-roles.md).
 
 > [!IMPORTANT]
 > The administrator must follow the order as given in the [Scheduling scenario](basics-service-service-scheduling.md#scheduling-scenario) while configuring entity records in the new scheduling experience.
 > [!NOTE]
 > All entity records can be configured from the user interface except Service Activity.
 
-### See also    
+### Related information
 
 [Overview of service scheduling](basics-service-service-scheduling.md)
 [Service Scheduling FAQ](service-scheduling-faq.md) 
