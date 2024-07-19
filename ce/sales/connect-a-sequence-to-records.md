@@ -1,7 +1,7 @@
 ---
 title: Connect a sequence to records
 description: Connect a sequence to a record based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales.
-ms.date: 02/02/2024
+ms.date: 07/19/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -33,9 +33,12 @@ As a sales manager or seller, you can connect multiple sequences to a record in 
 
   More information: [Create and activate a segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment).
 
+>[!NOTE]
+>When a segment is connected to the same sequence twice or more for the same record and assigned to the same seller, the Up next widget displays duplicate activities.  
+
 ## Ways to connect sequence to records
 
-You can connect a sequence to records in the following ways:    
+You can connect a sequence to records in the following ways:  
 
 - [Through a sequence](#ContactThroughASequence)
 - [Through the record type grid view](#ContactThroughGridView)
