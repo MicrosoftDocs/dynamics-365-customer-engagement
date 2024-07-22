@@ -37,8 +37,7 @@ Field Service introduces controls that are intended to be used only as-is on the
 Don't use the following controls in customization scenarios:
 
 - MultiselectLookupControl
-- msdyn_postponegenerationuntil
-- Internal use only. Manipulating values in this field or taking dependencies on it isn't supported and can lead to unexpected system behavior. This field is found in the following entities:
+- msdyn_postponegenerationuntil: Internal use only. Manipulating values in this field or taking dependencies on it isn't supported and can lead to unexpected system behavior. This field is found in the following entities:
 
     - Agreement Booking Setup (msdyn_agreementbookingsetup)
     - Agreement Booking Date (msdyn_agreementbookingdate)
