@@ -41,7 +41,7 @@ To avoid errors:
 - Hide unwanted fields on a form.
 - Move unwanted fields to another form tab.
 
-For example, Field Service processes calculate the value of the **Estimated Arrival Time** field on the *Bookable Resource Booking* record to indicate when a frontline worker is expected to arrive on-site. If your organization doesn't need this field, [hide it on the form](field-service-customize-forms.md#5-hide-form-tabs-sections-and-fields) instead of removing it.
+For example, Field Service processes calculate the value of the **Estimated Arrival Time** field on the *Bookable Resource Booking* record to indicate when a frontline worker is expected to arrive on-site. If your organization doesn't need this field, [hide it on the form](field-service-customize-forms.md#step-5-hide-form-tabs-sections-and-fields) instead of removing it.
 
 ## Don't edit option set (choice) values
 
