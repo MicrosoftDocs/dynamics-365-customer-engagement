@@ -1,7 +1,7 @@
 ---
 title: Share Dynamics 365 records within Microsoft Teams conversations
 description: Learn how to share Dynamics 365 records within Microsoft Teams conversations
-ms.date: 08/09/2022
+ms.date: 07/22/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -39,11 +39,11 @@ As a sender, you can share records using search in the app. The search displays 
     > -   By default, the recently accessed records are displayed, without performing any search. You can either search for the record or use the record type tabs available above the search field to search for a particular record type.
     > -   The **All** tab allows you to search for all table type (out-of-the-box and custom) records. Other tabs are specific to a table type and allow you to search for that record type.    
     
-    ![Search for a record](media/me-search-record.png "Search for a record")
+    ![Search for a record](media/me-search-record..png "Search for a record")
     
     The selected record is shared on the Teams chat.
     
-    ![Interactive card](media/me-info-card.png "Interactive card")
+    ![Interactive card](media/me-info-card..png "Interactive card")
 
 **To share a record using advanced search:**
 
@@ -51,7 +51,7 @@ As a sender, you can share records using search in the app. The search displays 
 
 2.  Select **Action Commands** (**…**) in the upper-right corner, and then select **Advanced search**.
 
-    ![Access advanced search](media/me-advanced-search-menu.png "Access advanced search")
+    ![Access advanced search](media/me-advanced-search-menu..png "Access advanced search")
 
 3.  In the **Advanced search** window, enter or select the following values:
 
@@ -59,7 +59,7 @@ As a sender, you can share records using search in the app. The search displays 
 
     - **Filter by**: Record type to search for.
 
-    ![Search for a record using advanced search](media/me-adv-search-record.png "Search for a record using advanced search")
+    ![Search for a record using advanced search](media/me-adv-search-record..png "Search for a record using advanced search")
 
 4.  From the results, preview a record by selecting the down arrow next to the record name. Select a record to share it as a card on the chat.
 
@@ -67,7 +67,7 @@ As a sender, you can share records using search in the app. The search displays 
 
 If you see a disclaimer while sharing a record over Teams, it means that the app isn't yet added for that conversation or team.
 
-![Card with disclaimer](media/me-card-disclaimer.png "Card with disclaimer")
+![Card with disclaimer](media/me-card-disclaimer..png "Card with disclaimer")
 
 You can still share the record over Teams. The recipients must add the Dynamics 365 app to their Teams.
 
