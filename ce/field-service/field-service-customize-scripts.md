@@ -15,7 +15,7 @@ Implementing complex business logic typically involves writing [plugins](/power-
 
 This article explores these best practices:
 
-- Before you write any scripts, research existing Field Service processes and capabilities .
+- Before you write any scripts, research existing Field Service processes and capabilities.
 - Avoid writing scripts when possible. First try to use platform options such as Power Automate and workflows instead.
 - Run scripts asynchronously instead of synchronously.
 - Avoid loading scripts when a form is loaded. Instead, load them only when they are needed.
