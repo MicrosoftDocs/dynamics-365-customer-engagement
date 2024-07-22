@@ -36,24 +36,26 @@ To display the case handling time widget on a case form, follow these steps::
       - Set **Allow agents to add time logs** to **True** to let agents manually add time on the case. If this is set to **False**, agents can't see **Time logs** in the widget. The default is **True**.
       - Set **Show agents only their contributed time** to **True** to show agents only their own time on a case. If this is set to **False**, agents can see the total time of all agents on the case. The default is **False**.
     > [!NOTE]
-    >  When you add a **Handling time** component on the case form, a blank space appears on the form at runtime. We recommend that you add the component at the bottom of the form.
+    >  - If you are using Customer Service Workspace, you can choose not to add the Case Handling time widget, if you do not want the widget to be visible to the users on the case form. The automatic time will be tracked silently in the background whenever a user opens the case, and the case form is in focus. You will be able to create reports on automatic time tracked per user for each case.
+    > - If you are using Customer Service Hub, it is mandatory to add Handing time widget on the case form for automatic time to be tracked.
+    > - Irrespective of where you add Handling time component on the case form, it will appear on the bottom right of the case form at runtime. We recommend that you add the component in an existing section within the viewport. During runtime, you will see a small blank space at the position where this control is added on the case form.
     1. Save and publish the changes.
 
-1. [Specify the **Update interval (minutes)**](#specify-the-update-interval). 
-1. Time tracker records are stored in the database according to the update frequency that you set for each case and agent. These records can take up a lot of space over time.To save storage space in the database, you should delete the time tracker records for resolved cases. Perform the following steps to delete the records:
+1. You can specify the interval at which the automatic time tracked is stored in the database and the timer gets refreshed to show the latest Total time tracked on a case. You may refer the following steps in [Specify the **Update interval (minutes)**](#specify-the-update-interval). 
+1. Automatic time tracker records for each agent for every case are stored in the database according to the update frequency that you set. These records can take up a lot of space over time. To save storage space in the database, you can delete the time tracker records for old resolved cases. Perform the following steps to delete the records:
    1. Select the **Time tracker list** link to view the list of time tracker records.
    1. Select the  required records and then select the **Delete** icon to delete the time tracker records.
 
 > [!NOTE]
 > The total time that agents see depends on the case resolution dialog:
-> - Legacy case resolution dialog: Total time is the time from the case handling time.
-> - Customizable case resolution dialog or quick create form: Total time is the time from the incident resolution entity. We recommend you add the Total Time attribute from the case handling time to the case resolution.
+> - If you plan to use these individual time tracker records for building reports (like automatic time tracked for each agent per day, for all cases), you should not delete these records.
+> - If you are using Legacy case resolution dialog (Standard dialog), Total Time shown might not match with the Total time shown on the Case Handling Timer widget since Total time shown on legacy case resolution standard dialog is the time from the incident resolution entity and is a sum of time tracked only on case activities. If you want to see the Total time tracked by Case Handling timer, we recommend you using either Customizable case resolution dialog or quick create case resolution dialog and add Total time attribute from the case handling time (Time Tracker) table to it.
 
 ## Specify the update interval
 
 When you specify a time for the update interval, the application perform the following actions:
 
-- Updates the database with the tracked time in the frequency specified.
+- Updates the database with the automatic tracked time in the frequency specified.
 - Automatically refreshes the case handling time widget to display the updated time.
 
 You can specify a value between 10 and 60 minutes. The default value is 10 minutes.

@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
-Case handling time is the duration you spend actively working on a case. This can be the time that you spend reviewing case details, past cases and interactions with the customer through various channels, offline research, collaborating with team members, and documenting case notes. Case handling time helps supervisors measure agent productivity and plan their workloads.
+Case handling time is the duration you spend actively working on a case. This can be the time that you spend reviewing case details, past cases and interactions with the customer through various channels, offline research, collaborating with team members, and documenting case notes. Case handling time helps supervisors measure agent productivity and forecast agent staffing.
 
 The case handling time widget shows you the following information:
 
@@ -23,11 +23,13 @@ The case handling time widget shows you the following information:
  
 You can also perform the following actions on the case handling time widget:
 
-- See the profiles of all agents who worked on the case. This includes agents whose time was automatically recorded or manually logged, and agents who worked on associated tasks.
+- See the profiles of all agents who worked on the case. This includes agents whose time was automatically recorded or manually logged, and agents who worked on associated tasks activities such as phone calls and tasks
 - Turn on the **My time** toggle to see only your time on the case. The timer changes into a ticker that shows your active time in hours, minutes, and seconds as applicable.A visual indicator shows that your time is tracked in real time. 
  > [!NOTE]
  > You can see the **My time** toggle only if your administrator has enabled it in Power Apps. If you don't see it, the Total Time displays only the time you've spent on the case.
-- See when the timer was last updated. It refreshes automatically based on your administrator's settings. By default, it refreshes every 10 minutes. Select refresh to manually refresh the timer.
+- •	See when the timer was last updated. It refreshes automatically at the frequency based on your administrator's settings. By default, it refreshes every 10 minutes. Select refresh to manually refresh the timer, which will show the time tracked until that point of time. 
+- In Customer Service Workspace, clicking on Refresh icon will only update Total time, Automatic time or Manual time tracking. It will not update the history of time tracker records. 
+- In Customer Service Hub, the timer widget shows the updated time automatically at the frequency set by your administrator or on case form refresh, browser navigation, form navigation (navigating away from form and returning). Clicking on Refresh icon will update Total time, Automatic time and manual time tracking as well as time tracker records, displayed in history.
 - [View history](#view-history).
 
 
@@ -36,7 +38,7 @@ You can also perform the following actions on the case handling time widget:
 The application tracks your time automatically when you have a specific case in focus.
 
  > [!NOTE]
- > The application automatically tracks time only when a case is open in a session tab or an app tab within a session tab. When you switch from one case to another in the Inbox, the automatic timer isn't triggered and your time isn't logged. 
+ > The application automatically tracks time only when a case is open in a session tab or an app tab within a session tab. Automatic time tracking is not supported for scenarios when you switch from one case to another in the Inbox.
 
 
 - In Customer Service workspace, the timer is affected as follows:
@@ -44,10 +46,11 @@ The application tracks your time automatically when you have a specific case in 
    | Scenario                                                                                           | Timer status                                     |
    | -------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
    | The case is open in a session tab. You select a related entity record that opens as an app tab. For example, you select a knowledge article linked to the case. The article opens in an app tab within the session form.<br><br> **Note**: This isn't applicable when you open a related case such as a similar case or child case in another app tab within the same case session.  | The timer continues to run for the case.      |
-   | The status of the case opened as a session or app tab is closed.                                                                           | Timer stops.                                       |
+   | The case that is opened as a session or app tab, is closed by the user.                                                                          | Timer stops.                                       |
    | You select a related case or a child case that's linked to the current case. The related case or child case opens as an app tab in the same session.                   | The timer in the current case stops and the timer in the related case or child case starts.             |
    | You select a resolved case.                       | The timer doesn't start and shows the time recorded.   |
    | You switch, minimize, refresh, or close browsers                                                   | Timer stops.                                       |
+   | You open the same case but switch to another case form using Form selector.                                                | Timer stops.                                       |
    |You switch to another case which is opened in another session tab. | Timer stops for the current case and starts for the case you've switched to.|
    | You lock your screen with the case in focus.                                                       | The timer stops.                                   |
    | The Case form is in the background when you perform actions such as selecting queue item details or the resolve case dialog .     | The timer continues to run.                        |
