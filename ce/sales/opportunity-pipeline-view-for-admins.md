@@ -46,7 +46,7 @@ The **Read-only Grid view** is the default view for opportunities. You can set t
 1. (Optional) In the **Properties** section, scroll down and set the **Enable grouping** and **Enable aggregation** properties to **Yes**. These settings allow sellers to group and aggregate opportunities in the pipeline view. To know about the seller experience, see [Group and aggregate opportunities](use-opportunity-pipeline-view.md#group-and-aggregate-opportunities).
 
     > [!NOTE]
-    > If you've [enabled monthly channel](/power-apps/maker/model-driven-apps/channel-overview) updates, you need not change these properties as they're enabled by default.
+    > If you've [enabled monthly channel](/power-apps/maker/model-driven-apps/channel-overview) or [opted in for early access](/power-platform/admin/opt-in-early-access-updates) updates, you need not change these properties as they're enabled by default.
 
 
 1. Save the changes and select **Publish**.
