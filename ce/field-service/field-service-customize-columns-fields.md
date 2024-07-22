@@ -30,7 +30,7 @@ This article uses the work order table as an example. However, the guidance that
 After you understand the existing information and processes on the work order form, you can create more columns based on your unique business processes.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
-1. Select your environment, and go to the table that you want to add columns to. For this example, go the work order table.
+1. Select your environment, and go to the table that you want to add columns to. For this example, go to the work order table.
 1. Select **New** > **Column**, and then enter the information for the new column. Learn more in [How to create and edit columns](/power-apps/maker/data-platform/create-edit-fields).
 1. Save your changes.
 
