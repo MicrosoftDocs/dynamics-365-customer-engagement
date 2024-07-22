@@ -12,9 +12,6 @@ ms.author: jobaker
 
 Field technicians often travel to various locations throughout their work day, and it's helpful for schedulers to know where technicians are at any given time.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board in Field Service, showing a resource on the map.](./media/mobile-2020-location-auditing-schedule-board.png)
-
 Technicians using the Dynamics 365 Field Service mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board, and also audit a list showing a technician's location history.
 
 In this article, we'll look at how to enable location tracking, and how to access location audits in Field Service.
@@ -88,9 +85,6 @@ To have location tracking work properly, complete all the following steps when p
 ## Step 3. Verify location tracking
 
 Back in Dynamics 365 Field Service, the bookable resource's current location appears on the schedule board map. Select the map pin icon next to the bookable resource's name, and the map will display the location with a Truck icon instead of a pin icon.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board in Field Service.](./media/mobile-2020-location-auditing-schedule-board.png)
 
 ## Step 4. Location audit records
 
