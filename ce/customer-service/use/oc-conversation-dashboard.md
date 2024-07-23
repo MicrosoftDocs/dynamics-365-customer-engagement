@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection: bap-ai-copilot
-ms.date: 05/10/2024
+ms.date: 07/23/2024
 ms.custom: bap-template
 ---
 
@@ -121,7 +121,7 @@ To view the drill-down, select any single metric value on the day you're interes
 > [!div class="mx-imgBorder"]
 > ![Conversation hourly drill down view.](../media/conversation-hourly-drill-down-view.png "Conversation hourly drill down view")
 
-### See also
+### Related information
 
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Agent dashboard](agent-dashboard.md)  
