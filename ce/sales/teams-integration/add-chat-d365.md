@@ -1,7 +1,7 @@
 ---
 title: Add chat messages to Dynamics 365 as notes or tasks
 description: Learn how to add chat messages to Dynamics 365 as notes or tasks
-ms.date: 08/09/2022
+ms.date: 07/23/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
