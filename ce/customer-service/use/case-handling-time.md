@@ -23,13 +23,13 @@ The case handling time widget shows you the following information:
  
 You can also perform the following actions on the case handling time widget:
 
-- See the profiles of all agents who worked on the case. This includes agents whose time was automatically recorded or manually logged, and agents who worked on associated tasks activities such as phone calls and tasks
+- See the profiles of all agents who worked on the case. This includes agents whose time was automatically recorded or manually logged, and agents who worked on associated tasks activities such as phone calls, tasks, or emails.
 - Turn on the **My time** toggle to see only your time on the case. The timer changes into a ticker that shows your active time in hours, minutes, and seconds as applicable.A visual indicator shows that your time is tracked in real time. 
  > [!NOTE]
  > You can see the **My time** toggle only if your administrator has enabled it in Power Apps. If you don't see it, the Total Time displays only the time you've spent on the case.
-- •	See when the timer was last updated. It refreshes automatically at the frequency based on your administrator's settings. By default, it refreshes every 10 minutes. Select refresh to manually refresh the timer, which will show the time tracked until that point of time. 
-- In Customer Service Workspace, clicking on Refresh icon will only update Total time, Automatic time or Manual time tracking. It will not update the history of time tracker records. 
-- In Customer Service Hub, the timer widget shows the updated time automatically at the frequency set by your administrator or on case form refresh, browser navigation, form navigation (navigating away from form and returning). Clicking on Refresh icon will update Total time, Automatic time and manual time tracking as well as time tracker records, displayed in history.
+- See when the timer was last updated. It refreshes automatically at the frequency set by your administrator. By default, it refreshes every 10 minutes. Select **Refresh** to update the timer and show the time tracked up to the current moment.
+   - In Customer Service workspace, when you select **Refresh** only the Total time, Automatic time or Manual time tracked values are updated. The time tracker records in **History** aren't updated. 
+  - In Customer Service Hub, the timer widget displays the updated time automatically at the frequency set by your administrator or on case form refresh, browser navigation, form navigation. Selecting **Refresh** updates Total time, Automatic time, and manual time tracking as well as time tracker records in **History**.
 - [View history](#view-history).
 
 
@@ -38,7 +38,7 @@ You can also perform the following actions on the case handling time widget:
 The application tracks your time automatically when you have a specific case in focus.
 
  > [!NOTE]
- > The application automatically tracks time only when a case is open in a session tab or an app tab within a session tab. Automatic time tracking is not supported for scenarios when you switch from one case to another in the Inbox.
+ > The application automatically tracks time only when a case is open in a session tab or an app tab within a session tab. Automatic time tracking isn't supported for scenarios when you switch from one case to another in the Inbox.
 
 
 - In Customer Service workspace, the timer is affected as follows:
@@ -55,7 +55,7 @@ The application tracks your time automatically when you have a specific case in 
    | You lock your screen with the case in focus.                                                       | The timer stops.                                   |
    | The Case form is in the background when you perform actions such as selecting queue item details or the resolve case dialog .     | The timer continues to run.                        |
    | You create a new case and haven't manually logged time on the case or for activities. | Total time displayed is 0 seconds. The total time is updated after the first update interval set by your administrator. Select refresh to manually update the time. |
-   | You create a new case and haven't manually logged time on the case or for activities. The **My Time** toggle is turned off.| The total time is 0 seconds and is updated after the first update interval. The automatic timer displays 0 seconds. Select refresh icon on the timer to manually update the time.|
+   | You create a new case and haven't manually logged time on the case or for activities. The **My Time** toggle is turned off.| The total time is 0 seconds and is updated after the first update interval. The automatic timer displays 0 seconds. Select refresh to manually update the time.|
    | You create a new case and haven't manually logged time on the case or for activities.The **My Time** toggle is turned on.| The total time is 0 seconds and is updated after the first update interval. The automatic timer starts tracking time realtime. Select refresh to manually update the total time.  |
    
   > [!NOTE]
@@ -74,7 +74,7 @@ The total time spent on the activities linked to the case. If there are multiple
   
 - **Automatic time**: The cumulative time spent by each agent on the case. You can edit the automatic time logged by you and not for other agents. 
   > [!NOTE]
-  > The time record shown for each user, is updated at the frequency defined by your administrator. For example, when you create a new case, there will not be any record of automatic time in the history. It will display the tracked time after the first update interval happens to the database, according to the frequency set by your administrator. In Customer Service Hub, you can click on Refresh icon to display the record in the history.   
+  > The time record for each agent is updated at the frequency set by your administrator. For example, when you create a new case, there won't be any record of automatic time in the history. The record is displayed after the first update interval.
 - **Time logs**: The time manually added by each agent sorted by date and displayed by newest to oldest.  
 - **Activities**: The time added for each activity by each agent sorted by dated and displayed by newest to oldest.
 

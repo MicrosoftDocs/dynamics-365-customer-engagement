@@ -35,21 +35,21 @@ To display the case handling time widget on a case form, follow these steps::
       - **View**: **All Time Trackers**.
       - Set **Allow agents to add time logs** to **True** to let agents manually add time on the case. If this is set to **False**, agents can't see **Time logs** in the widget. The default is **True**.
       - Set **Show agents only their contributed time** to **True** to show agents only their own time on a case. If this is set to **False**, agents can see the total time of all agents on the case. The default is **False**.
+    1. Select **Show related records**.
     > [!NOTE]
-    >  - If you are using Customer Service Workspace, you can choose not to add the Case Handling time widget, if you do not want the widget to be visible to the users on the case form. The automatic time will be tracked silently in the background whenever a user opens the case, and the case form is in focus. You will be able to create reports on automatic time tracked per user for each case.
-    > - If you are using Customer Service Hub, it is mandatory to add Handing time widget on the case form for automatic time to be tracked.
-    > - Irrespective of where you add Handling time component on the case form, it will appear on the bottom right of the case form at runtime. We recommend that you add the component in an existing section within the viewport. During runtime, you will see a small blank space at the position where this control is added on the case form.
+    >  - In Customer Service workspace, even if you don't add the Case Handling time widget, to a case form, the application tracks the time whenever an agent opens the case, and the case form is in focus, automatically in the background. You will be able to create reports on automatic time tracked per agent for each case.
+    > - If you are using Customer Service Hub, you must add the Case Handing time widget on the case form for automatic time to be tracked.
+    > - Irrespective of where you add Handling time component on the case form, it appears on the bottom right of the case form at runtime. We recommend that you add the component in an existing section within the viewport. During runtime, you will see a blank space where the control is added to the form.
     1. Save and publish the changes.
 
-1. You can specify the interval at which the automatic time tracked is stored in the database and the timer gets refreshed to show the latest Total time tracked on a case. You may refer the following steps in [Specify the **Update interval (minutes)**](#specify-the-update-interval). 
+1. You can specify the interval at which the automatic time tracked is stored in the database and the timer gets refreshed. See [specify the **Update interval (minutes)**](#specify-the-update-interval) for more information. 
 1. Automatic time tracker records for each agent for every case are stored in the database according to the update frequency that you set. These records can take up a lot of space over time. To save storage space in the database, you can delete the time tracker records for old resolved cases. Perform the following steps to delete the records:
    1. Select the **Time tracker list** link to view the list of time tracker records.
    1. Select the  required records and then select the **Delete** icon to delete the time tracker records.
 
 > [!NOTE]
-> The total time that agents see depends on the case resolution dialog:
-> - If you plan to use these individual time tracker records for building reports (like automatic time tracked for each agent per day, for all cases), you should not delete these records.
-> - If you are using Legacy case resolution dialog (Standard dialog), Total Time shown might not match with the Total time shown on the Case Handling Timer widget since Total time shown on legacy case resolution standard dialog is the time from the incident resolution entity and is a sum of time tracked only on case activities. If you want to see the Total time tracked by Case Handling timer, we recommend you using either Customizable case resolution dialog or quick create case resolution dialog and add Total time attribute from the case handling time (Time Tracker) table to it.
+> - If you plan to use the individual time tracker records for building reports, we recommend that you don't delete these records.
+> - When using the legacy case resolution dialog (Standard dialog), the Total Time displayed may differ from the Total Time shown on the Case Handling Timer widget. This is because the legacy dialog's Total Time is the time from the incident resolution entity and only includes time tracked on case activities. For the time tracked by the Case Handling Timer, switch to the Customizable or Quick Create case resolution dialog and include the Total Time attribute from the Case Handling Time (Time Tracker) table.
 
 ## Specify the update interval
 
