@@ -36,7 +36,7 @@ When operating hours are in effect, work items during non-business hours are han
 
 ## Create a record to define operating hours
 
-You can define operating hours in ustomer Service admin center or Contact Center admin center.
+You can define operating hours in Customer Service admin center or Contact Center admin center.
 
 1. In the site map of the admin center, select **Calendars** in **Operations**. The **Calendar** page appears.
 1. In the **Operating Hours** section, select **Manage**.
