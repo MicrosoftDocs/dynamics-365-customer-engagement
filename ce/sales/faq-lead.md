@@ -18,7 +18,7 @@ ms.custom:
 
 This article answers frequently asked questions about Lead management in Dynamics 365 Sales, Sales premium, and Sales professional.
 
-## FAQ about lead qualification experience
+## FAQs about lead qualification experience
 
 ### What happens when a lead is qualified?
 
@@ -56,7 +56,7 @@ Yes, your admin can [customize the fields in the Opportunity form](define-lead-q
 
 ### What is lead summarization, and how does it work?
 
-Lead summarization, if enabled by your admin, generates an AI-powered summary of the lead after it's qualified. This summary includes key details from the lead record and is added to the timeline of both the primary opportunity record and the lead record, providing a concise overview of the lead's information. More information: [Summarize the lead after it's qualified](define-lead-qualification-experience.md#summarize-the-lead-after-its-qualified).
+Lead summarization, if enabled by your admin, generates an AI-powered summary of the lead after it's qualified. This summary includes key details from the lead record and is added to the timeline of both the primary opportunity record and the lead record, providing a concise overview of the lead's information. More information: [Summarize the lead after it's qualified](define-lead-qualification-experience.md#summarize-the-lead-after-its-qualified)
 
 ### Why don't I see lead summary after qualification?
 
@@ -67,11 +67,11 @@ The lead summary feature is only available when the following features are enabl
 
 ### How are fields mapped from leads to other entities upon qualification?
 
-When a lead is qualified, certain fields from the lead are automatically mapped to corresponding fields in accounts, contacts, and opportunities. This ensures that key information is transferred and maintained across these related records. For more information, see [Field mappings to other entities](define-lead-qualification-experience.md#field-mappings-to-other-entities).
+When a lead is qualified, certain fields from the lead are automatically mapped to corresponding fields in accounts, contacts, and opportunities. This ensures that key information is transferred and maintained across these related records. More information: [Field mappings to other entities](define-lead-qualification-experience.md#field-mappings-to-other-entities)
 
 ### How do I handle lead qualification errors?
 
-While qualifying a lead, one of the following errors occur due to duplicate leads:
+While qualifying a lead, one of the following errors occurs due to duplicate leads:
 
 - Lead record was not created or updated because a duplicate of the current record already exists. 
 - Opportunity record was not created or updated because a duplicate of the current record already exists.
@@ -80,18 +80,19 @@ If the [duplicate detection rules](/power-platform/admin/set-up-duplicate-detect
 
 - Remove the duplicates for the lead and qualify again. More information: [Merge duplicate rows](/power-apps/user/merge-duplicate-records) 
 - Go to the leads grid view, select the lead and qualify.
-- Unpublish the rule that is causing the error and qualify the lead again. Contact your administrator to unpublish the rules using the following steps.
+- Unpublish the rule that is causing the error and qualify the lead again. Contact your administrator to unpublish the rules using the following steps:
     1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
     1. Select the rule and then select **Unpublish**.
-- If a rule is required only to create or update the lead, but not required for qualification, ensure that duplicate detection rules don’t run on qualified leads. Enable the **Exclude inactive matching records** option and qualify the lead. Contact your administrator to enable the option using the following steps. 
+- If a rule is required only to create or update the lead, but not required for qualification, ensure that duplicate detection rules don’t run on qualified leads. Enable the **Exclude inactive matching records** option and qualify the lead. Contact your administrator to enable the option using the following steps: 
     1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
     1. Open and unpublish the rule.
     1. Select the **Exclude inactive matching records** option.  
+
         :::image type="content" source="./media/duplicate-records-enable-exclude-inactive-matching-records.png" alt-text="A screenshot of enabling the Exclude inactive matching records option."::: 
 
     1. Publish the rule.
 
-## FAQ about lead scoring
+## FAQs about lead scoring
 
 ### What do I need in order to use lead scoring?​
 
@@ -103,11 +104,11 @@ Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insi
 
 ### How frequently are the predictive lead scores updated?
 
-For new leads, the scoring happens in near real-time. The score will be displayed within five minutes of saving a new lead. For updated leads, the scores are refreshed after every 24 hours.
+For new leads, the scoring happens in near real time. The score will be displayed within five minutes of saving a new lead. For updated leads, the scores are refreshed after every 24 hours.
 
-### Why aren't my leads scored in real-time?
+### Why aren't my leads scored in real time?
 
-Real-time scoring is supported only for new leads. If you don't see the score even after 15 minutes of saving or importing the new lead, contact your administrator. Your administrator can verify whether the model that's scoring the new lead was created or edited, and published after the real-time scoring feature was rolled out. For more information, see [Real-time scoring](work-predictive-lead-scoring.md#real-time-scoring). 
+Real-time scoring is supported only for new leads. If you don't see the score even after 15 minutes of saving or importing the new lead, contact your administrator. Your administrator can verify whether the model that's scoring the new lead was created or edited, and published after the real-time scoring feature was rolled out. More information: Real-time scoring](work-predictive-lead-scoring.md#real-time-scoring) 
 
 ### Can I customize the model?
 
@@ -119,20 +120,19 @@ Yes, you can add and publish multiple models that are specific to each line of b
 
 ### What is the difference between score and grade?​
 
-The score is generated by the machine learning model. <br>
+The score is generated by the machine learning model. 
+
 The grade is just grouping scores in four buckets that the admin can configure.
 
-## FAQ about duplicate lead detection
+## FAQs about duplicate lead detection
 
 ### What happens when duplicates are found while qualifying leads?
 
-When qualifying a lead, if a duplicate account or contact is detected while creating new records, a duplicate warning is shown to you. Depending on whether your system administrator has enabled the improved duplicate detection and merge experience, you'll see the options to resolve duplicates.
-
-For information on enabling the improved duplicate detection and merge experience, see [Enable the improved duplicate detection and merge experience](/power-platform/admin/enable-improved-duplicate-detection).
+When qualifying a lead, if a duplicate account or contact is detected while creating new records, a duplicate warning is shown to you. Depending on whether your system administrator has enabled the improved duplicate detection and merge experience, you'll see the options to resolve duplicates. More information: [Enable the improved duplicate detection and merge experience](/power-platform/admin/enable-improved-duplicate-detection)
 
 ### What's the difference between the duplicate detection capability in Power Platform and Dynamics 365 Sales?
 
-Power Platform detects duplicates by comparing the matchcode that is created for each record. For more information, go to [Detect duplicate data so you can fix or remove it](/power-platform/admin/detect-duplicate-data).
+Power Platform detects duplicates by comparing the matchcode that is created for each record. More information: [Detect duplicate data so you can fix or remove it](/power-platform/admin/detect-duplicate-data)
 
 Dynamics 365 Sales detects duplicates with an AI model that compares leads using fuzzy logic and the matchcode that is generated for each lead.
 
@@ -143,20 +143,20 @@ The following table shows an example of the two methods for detecting duplicates
 | Fuzzy logic | - Similar lead name and company name<br>- Similar lead name and the same email domain |
 | Matchcode | - Email address<br>- Phone number |
 
-For more information, go to [Enable duplicate lead detection](enable-duplicate-lead-detection.md).
+More information: [Enable duplicate lead detection](enable-duplicate-lead-detection.md)
 
-### What happens when the improved duplicate detection and merge experience is disabled
+### What happens when the improved duplicate detection and merge experience is disabled?
 
 When the improved duplicate detection experience is disabled, you'll see the **Duplicate warning** dialog box.
 
 > [!div class="mx-imgBorder"] 
 > ![Screenshot of the Duplicate warning dialog box.](media/duplicate-records-warning.png "Duplicate warning while qualifying a lead")
 
-In the **Account** and **Contact** fields, select the matching account and contact record and select **Continue**. To ignore the duplicate warning and create new records, leave the Account and Contact fields blank, and select **Continue**.
+In the **Account** and **Contact** fields, select the matching account and contact record and then select **Continue**. To ignore the duplicate warning and create new records, leave the Account and Contact fields blank, and select **Continue**.
 
 The **Account** and **Contact** lookup fields are filtered with matched results and shown along with additional information to precisely identify the record to which the lead should be linked. For example, when you select the **Contact** lookup search icon, you'll see only matched contact records.
 
-### What happens when the improved duplicate detection and merge experience is enabled
+### What happens when the improved duplicate detection and merge experience is enabled?
 
 When the improved duplicate detection and merge experience is enabled, you'll see the **Account or Contact may already exist** dialog box.
 
@@ -165,6 +165,6 @@ When the improved duplicate detection and merge experience is enabled, you'll se
 
 The **Matched accounts** and **Matched contacts** sections will show all the matching records (based on the duplicate detection rules) along with additional information to precisely identify the record to which the lead should be linked.
 
-To associate the lead record to an existing matching record, select the record, and select **Continue**. To create a new account or contact record, select **Ignore and save** without selecting a matching record.
+To associate the lead record to an existing matching record, select the record and then select **Continue**. To create a new account or contact record, select **Ignore and save** without selecting a matching record.
 
 The lead is qualified.
