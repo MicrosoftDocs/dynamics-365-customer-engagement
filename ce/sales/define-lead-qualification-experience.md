@@ -32,7 +32,7 @@ As an admin, you can customize the lead qualification experience to help sellers
 
 The new lead qualification experience lets you customize the following aspects:
 
-- Select who creates opportunities when leads are qualified—seller or automatically by the system.
+- Select who creates opportunities when leads are qualified&mdash;seller or automatically by the system.
 - Allow sellers to create multiple opportunities when a lead is qualified.
 - Modify the opportunity form that opens when a lead is qualified.
 - Choose to let Copilot summarize the lead after a lead is qualified.
