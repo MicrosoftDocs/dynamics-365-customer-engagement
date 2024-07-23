@@ -79,7 +79,7 @@ The purchase order process includes the following steps:
 
 1. Request products from a vendor by creating a purchase order and adding purchase order products.
 1. Gain approval.
-1. Document the receipt of products. Create a purchase order receipt and a purchase order receipt product to add the received products to warehouse inventory or as work order products.
+1. Document the receipt of products. Create a purchase order receipt and a purchase order receipt product to add the received products to warehouse inventory, or to add them as work order products.
 
 ## Returns
 
