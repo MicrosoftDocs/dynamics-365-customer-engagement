@@ -42,6 +42,16 @@ To enable the enhanced case forms, follow these steps:
 > -  The **Enhanced case form** option is available in the form selector by default as an early access feature. Use this option to navigate from the enhanced case form to any other form. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). If you haven't opted in, ensure that the **ShowInFormSelector** is set to **True** through FormXML to see the **Enhanced case form** option.
 >     - The [enhanced case form](../use/enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form) displays customer details and recent cases on the customer details pane. When you switch to any other form from the enhanced case form, the pane isn't automatically refreshed or closed. You need to close it manually. 
 
+## Case for multisession experience
+
+If you [opt in](/power-platform/admin/opt-in-early-access-updates) to the early access features, the case for multisession experience form, which is the default case form for Customer Service workspace will have the following features:
+
+    - **OptionSet Wrapper** to display Color coded **Case Status** fields and **Priority** icons.
+    - Queue Item Control	to displays the current queue a record belongs to and the Worked by field. You can edit the Worked by and save the changes.
+    - Due open activities control to display the activities that are due today or are overdue.
+    - **Notes Control** You can add notes without saving the case.
+    - An **Attachment Control** to display the attachments that are linked to the case. 
+
 ## View and use default components available on enhanced full case form
 
 The following components are available by default in the enhanced full case form. You can use these components to customize other forms. When you add the components to a form, the runtime experience is as follows:
