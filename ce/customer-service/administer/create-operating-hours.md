@@ -19,7 +19,7 @@ Operating hours define the hours when your organization's customer support team 
 The operating hour schedules cater to the following scenarios:
 
 - Display the non-availability of customer support on public holidays that are otherwise operating hours.
-- Accommodate change of calendar timings for daylight saving time twice an year for timezones that have implemented the daylight saving time.
+- Accommodate change of calendar timings for daylight saving time twice a year for timezones that have implemented the daylight saving time.
 - Set up separate schedules for agents, bots, and queues to cater to different business scenarios and product lines seamlessly for any channel.
 - Define schedules to transition customer queues from bots to agents.
 - Customize the display and other settings of the chat widget during non-business hours.
