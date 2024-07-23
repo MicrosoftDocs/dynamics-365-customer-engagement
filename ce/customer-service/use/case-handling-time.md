@@ -79,3 +79,6 @@ The total time spent on the activities linked to the case. If there are multiple
 - **Activities**: The time added for each activity by each agent sorted by dated and displayed by newest to oldest.
 
 
+:::image type="content" source="../media/CHT-screenshot.png" alt-text="screenshot for case handling time":::
+
+
