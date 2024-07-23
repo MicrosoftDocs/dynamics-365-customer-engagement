@@ -83,7 +83,7 @@ If your admin has enabled multiple opportunities creation, you can create up to 
 
 1. Select **+New Opportunity** on the Qualify lead side pane. 
 
-1. In the Opportunity quick-create form, enter the details for the opportunity. Would you like to see different fields in the opportunity form? Talk to your admin about [customizing the opportunity form](define-lead-qualification-experience.md#customize-opportunity-creation-experience-for-qualified-leads).
+1. In the Opportunity @uick create form, enter the details for the opportunity. Would you like to see different fields in the opportunity form? Talk to your admin about [customizing the opportunity form](define-lead-qualification-experience.md#customize-opportunity-creation-experience-for-qualified-leads).
 
 1. Save the opportunity record.
 
