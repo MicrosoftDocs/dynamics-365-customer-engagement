@@ -154,7 +154,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 
 [Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)  
 [Create or edit leads](create-edit-lead-sales.md)  
-[FAQ about lead qualification experience](faq-lead.md#faq-about-lead-qualification-experience)  
+[FAQ about lead qualification experience](faq-lead.md#faqs-about-lead-qualification-experience)  
 [Troubleshoot issues with lead qualification](/troubleshoot/dynamics-365/sales/troubleshoot-lead-qualification-issues-for-system-admin)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
