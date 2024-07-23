@@ -69,7 +69,7 @@ As part of the [new lead qualification experience](define-lead-qualification-exp
 
 - If your admin has turned on automatic creation for a few and manual creation for others, you'll see the **Qualify lead** side pane. The pane displays records that will be created automatically and records that you need to create manually. For example, if the account and contact records are set to be created automatically, and the opportunity record is set to be created manually, the side pane displays the records as shown in the following screenshot:
 
-  ![Screenshot of the Qualify side pane when record creation is set to automatic for contact and account, and manual for opportunity.](media/qualify-lead-dialog-box-mix.png "Screenshot of the Qualify side pane when record creation is set to automatic for contact and account, and manual for opportunity.")
+ :::image type="content" source="media/qualify-lead-dialog-box-mix.png" alt-text="Screenshot of the Qualify side pane when record creation is set to automatic for contact and account, and manual for opportunity.":::
 
   In this example, account and contact records aren't editable. If you need to change the account or contact details, close the side pane, edit the details in the Lead form, and then select **Qualify**.
 
