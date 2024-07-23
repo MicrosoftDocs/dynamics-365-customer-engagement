@@ -31,7 +31,7 @@ The Microsoft 365 integrations for Field Service use table properties in Power A
 
 ## Prerequisites
 
-- Global admin or Exchange admin permissions in the Microsoft 365 Admin Center.
+- Exchange admin permissions in the Microsoft 365 Admin Center.
 - Environment is in a [supported geography, region, and language.](flw-overview.md#supported-geographies-regions-and-languages)
 - One of more of the [Microsoft 365 integrations for Field Service is deployed.](flw-admin.md)
 - Field Service solution is version 8.8.98.36 or above. To update the solution, see [Update Field Service](update-field-service.md#dynamics-365-field-service).

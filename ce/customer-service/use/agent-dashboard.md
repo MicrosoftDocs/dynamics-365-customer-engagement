@@ -1,13 +1,15 @@
 ---
 title: Agent dashboard in Omnichannel historical analytics
 description: Learn about the Agent dashboard in Omnichannel historical analytics to better understand agent performance in your organization.
-ms.date: 04/30/2024
+ms.date: 07/01/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 ---
 
 # Agent dashboard
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!IMPORTANT]
 >

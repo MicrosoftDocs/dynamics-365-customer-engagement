@@ -10,7 +10,9 @@ ms.topic: article
 
 # Monitor calls
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 As a supervisor, it's useful to be able to monitor the calls between your agents and their customers without interrupting them to help identify which calls need attention. You can monitor the conversations without being seen as a participant by the agent or customer, as well as step into conversations when additional support is needed.
 
@@ -33,7 +35,7 @@ To find out details about an individual conversation:
 
 ## Consult with an agent during a conversation
 
-As a supervisor, you can privately consult with an agent by sending them messages that are hidden from the customer.
+As a supervisor, you can privately consult with an agent by sending them messages that are hidden from the customer. Consulting on a call doesn't impact your capacity.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of monitoring a conversation.](../media/voice-channel-monitor-barge.png)

@@ -53,7 +53,7 @@ After the cards are deprecated, they’ll no longer be available. You can create
 
 ## Rank optimization of insight cards will be deprecated
 
-Effective October 1, 2023, the rank optimization feature of insights cards will be deprecated. After the feature is deprecated, existing ranking rules will be unavailable and won't apply to insight cards. To optimize and prioritize the cards, turn off those cards that aren't in use. [Learn more](edit-insight-cards.md#turn-cards-on-or-off).
+Effective October 1, 2023, the rank optimization feature of insights cards will be deprecated. After the feature is deprecated, existing ranking rules will be unavailable and won't apply to insight cards. To optimize and prioritize the cards, turn off those cards that aren't in use.  
 
 <a name='playbooks'></a>
 ## Playbooks is deprecated

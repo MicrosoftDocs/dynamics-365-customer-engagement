@@ -10,7 +10,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Manage historical analytics reports in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 

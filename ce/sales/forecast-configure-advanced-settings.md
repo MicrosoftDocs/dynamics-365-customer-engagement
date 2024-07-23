@@ -48,7 +48,7 @@ For example, your organization has sales teams in the United States, Canada, and
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 The underlying records of a forecast can be displayed in a table view or a Kanban (swimlane) view. Table view is the default. To change it, turn on **Set kanban as default**.
 

@@ -1,7 +1,7 @@
 ---
 title: Lead management FAQs
-description: Get answers to frequently asked questions about Lead management.
-ms.date: 07/01/2024
+description: Get answers to frequently asked questions about various aspects of Lead management such as lead qualification, duplicate detection, and scoring. 
+ms.date: 07/17/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -34,6 +34,7 @@ Select **Leads** in the sitemap, and then select the **Closed Leads** view to fi
 ### What happens to notes and attachments when leads are qualified?
 
 When salespeople work on a lead, they use notes to store key information on the things they've researched about the lead. This could be information like new contacts at the site, current value of the contract, vendor information and so on. When a lead is qualified, these notes are displayed in the Opportunity record so that the information isn't lost.
+
 
 ### What is the difference between the new and old lead qualification experiences?
 
@@ -92,15 +93,66 @@ If the [duplicate detection rules](/power-platform/admin/set-up-duplicate-detect
 
     1. Publish the rule.
 
+### Why the Company Name column is not available in the Edit Columns pane for lead views?
+
+The **Company Name** column is included in the out-of-the-box lead views, but it's hidden in the **Edit Columns** pane by design. So, you can't hide, remove, or reorder the **Company Name** column in the out-of-the-box lead views or views that are based on these out-of-the-box views. To show the **Company Name** column in the **Edit Columns** pane, reach out to your admin. Your admin can add the **Company Name** field to the view [using the Power Apps view designer](/power-apps/maker/model-driven-apps/choose-and-configure-columns#adding-columns).
+
+<a name="lead-qualification-custom-field-mappings"></a>
+
+### Why can't I delete out-of-the-box field mappings between lead and opportunity?
+ 
+Starting March 2024, the ability to delete any out-of-the-box field mappings is removed. If you deleted the field mapping between lead and opportunity prior to March 2024, the map would have been restored in the next update. If you want to override an out-of-the-box field map, you can create a post operation plugin on opportunity create that checks if `originatingleadid` field is populated and update the fields targeted in out-of-the-box field maps as per your business requirements.
+
+
 ## FAQs about lead scoring
 
-### What do I need in order to use lead scoring?​
+### What do I need in order to use lead scoring?
 
 Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use the standard lead entity or the standard opportunity entity.​ A minimum number of leads or opportunities is required to build a scoring model:
 
 - To build a lead scoring model, you need to have a minimum of 40 qualified and 40 disqualified leads.  
 - To build an opportunity scoring model, you need to have a minimum of 40 won and 40 lost opportunities.  
 - The leads and opportunities must have been created on or after January 1, in the previous year.
+
+<a name="scoring-minimum-requirement"></a>
+### How do I verify whether I have the required number of leads or opportunities to create a scoring model?
+
+Before you create a lead or opportunity scoring model, you need to ensure that you have a minimum of 40 qualified and 40 disqualified leads or 40 won and 40 lost opportunities to train the model. You can select a time frame between 3 months to 2 years to train the model.
+
+Let's understand the minimum requirement with an example scenario:
+
+You want to build a lead scoring model and train it with leads created and closed in the last 6 months. You want to include only those leads that are using the **Lead to opportunity Sales Process** business process flow. Use the following steps to verify whether you have the required number of leads. You can follow similar steps to verify the minimum requirement for opportunity scoring. If you plan to use the [per stage model](configure-predictive-opportunity-scoring.md#what-is-a-per-stage-model) in your opportunity scoring, see this [section](faq-opportunity.md#opportunity-per-stage-scoring).
+
+1. On the **Leads** page, select **All leads** from the view selector.
+
+1. Select **Edit Filters**.
+1. Select **Add** and set the following filters:
+   - **Created On** = **Last 6 months**.
+   - **Status** = **Qualified**.
+1. Select **Add** > **Add related entity** and set the following filters:
+   - **Related entity** = **Lead to opportunity Sales Process** 
+   - **Operator** = **Contains data**
+   - **Field** = **Status Reason**
+   - **Operator** = **Does not equal**
+   - **Value** = **Aborted**
+
+   The following screenshot shows the filters that you need to set:
+   :::image type="content" source="media/scoring-minimum-data.svg" alt-text="Screenshot of the Edit filters page with filters to verify minimum requirement for scoring.":::
+
+1. Verify the number of leads that meet the criteria. If the number of leads is less than 40, you can increase the time frame to include more leads. To verify the number of disqualified leads, change the **Status** filter to **Disqualified**.
+
+<a name="leads-not-scored"></a>
+
+### Why aren't my leads or opportunities scored or rescored?
+
+If a lead or opportunity is not scored or the score is not updated, ensure that the following conditions are met:
+
+- The scoring model is published.
+
+- The record is in the **Open** state.
+- The record meets all the conditions defined in the scoring model.
+- The record is using the same business process flow that is configured in the scoring model.
+- The record was created within the last 2 years from the current date. The model checks the date every time it scores a record. If a record was scored earlier but goes outside the 2-year window in the next scoring cycle, the score won't be updated.
 
 ### How frequently are the predictive lead scores updated?
 
@@ -114,11 +166,11 @@ Real-time scoring is supported only for new leads. If you don't see the score ev
 
 Yes, you are able to modify which attributes are selected to train the model. That said, the out-of-the-box model automatically selects the attributes it determines are most relevant for your business.
 
-### Can I create multiple models for leads?​
+### Can I create multiple models for leads?
 
 Yes, you can add and publish multiple models that are specific to each line of business in your organization.
 
-### What is the difference between score and grade?​
+### What is the difference between score and grade?
 
 The score is generated by the machine learning model. 
 

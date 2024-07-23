@@ -1,7 +1,7 @@
 ---
 title: "WeChat channel in Omnichannel Agent Dashboard | MicrosoftDocs"
 description: "Information about using a WeChat channel in the agent dashboard for Omnichannel for Customer Service."
-ms.date: 04/06/2020
+ms.date: 07/11/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -9,24 +9,27 @@ ms.author: nenellim
 
 # Use a WeChat channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-## Agent dashboard for WeChat channel
+> [!Important]
+> The WeChat channel will be deprecated and removed from Omnichannel for Customer Service on October 8, 2024. After this date, you won't be able to use this channel, and this article will be removed. Learn more at [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
-When you sign in to the Omnichannel Add-in for Dynamics 365 Customer Service, you can see your work items on the Omnichannel Agent Dashboard. More information: [View agent dashboard and agent conversations](oc-agent-dashboard.md)
+## WeChat channel
+
+When you sign in, your work items display on the agent dashboard. Learn more at [View agent dashboard and agent conversations](oc-agent-dashboard.md).
 
 ## Prerequisites
 
-Make sure that your administrator has configured a WeChat channel.
+Make sure that your administrator configured a WeChat channel.
 
 ## Incoming WeChat chat notification
 
-You'll receive a notification when a customer requests a conversation through WeChat. When you accept the WeChat chat request, a session is started and you'll see the communication panel in which you can exchange messages with the customer.
+You receive a notification when a customer requests a conversation through WeChat. When you accept the WeChat chat request, a session is started and the communication panel displays, where you can exchange messages with the customer.
 
 > [!div class=mx-imgBorder]
 > ![WeChat chat agent notification.](../media/incoming-chat-wechat.png "WeChat chat agent notification")
 
-In Omnichannel for Customer Service, you can:
+In the application, you can:
 
 - [View customer information on Active Conversation form](oc-customer-summary.md).
 - [View the communication panel](oc-conversation-control.md).
@@ -49,7 +52,7 @@ In Omnichannel for Customer Service, you can:
 - [View the active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md).
 - [Search for transcripts](oc-search-transcipts.md).
 
-### See also
+### Related information
 
 [Configure a WeChat channel](../administer/configure-wechat-channel.md)
 

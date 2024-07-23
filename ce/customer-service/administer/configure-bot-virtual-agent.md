@@ -1,6 +1,6 @@
 ---
 title: Integrate a Copilot Studio bot
-description: Use this article to get instructions on how to integrate a Copilot Studio bot in Omnichannel for Customer Service.
+description: Use this article to get instructions on how to integrate a Copilot Studio bot in your contact center.
 ms.date: 02/29/2024
 ms.topic: how-to
 author: neeranelli
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Integrate a Copilot Studio bot
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 

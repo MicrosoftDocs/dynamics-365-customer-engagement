@@ -1,98 +1,41 @@
 ---
-title: "Travel outside working hours with Resource Scheduling Optimization (contains video)| MicrosoftDocs"
-description: Learn how to configure Resource Scheduling Optimization to consider travel outside of working hours in Dynamics 365 Field Service
-ms.date: 10/01/2020
-
+title: Allow travel time outside of working hours with Resource Scheduling Optimization
+description: Learn how to configure the Resource Scheduling Optimization add-in for Field Service to consider travel outside of working hours.
+ms.date: 06/24/2024
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: FeifeiQiu
-ms.author: feiqiu
+author: AnilMur
+ms.author: anilmur
 ---
 
 # Allow travel time outside of working hours with Resource Scheduling Optimization
 
-By default, Resource Scheduling Optimization will act as though travel is a part of a technician's defined workday. But because different field service organizations have different policies around technician travel, this default isn't always ideal.
+By default, the Resource Scheduling Optimization add-in for Dynamics 365 Field Service considers travel time part of a technician's work hours. However, this default setting doesn't match every organization's business needs. For example, a technician's work hours begin at 8 AM. By default, the optimization algorithm schedules the technician to start to travel to the customer's site at 8 AM. Therefore, the technician won't start to work at the site until some time after 8 AM.
 
-For example, a technician may have a work day defined as 8 AM to 5 PM. Without this configuration, the optimization will schedule the technician to begin traveling at 8 AM, which means the technician would not arrive or begin work until some time after 8 AM.
+Administrators can [change the settings of an optimization goal](rso-optimization-goal.md) to allow travel time outside of working hours. The system can then schedule a technician to begin their workday a little earlier. In this way, they can start to travel before the beginning of working hours and arrive at the work location when their work hours begin.
 
-By enabling **Allow travel time outside of working hours** on an optimization goal, it gives the optimization permission to have the technician begin their day a little earlier, assuming it is spent traveling and not working. The optimization will schedule the technician to begin traveling before working hours and arrive at the work order location when their day begins (within defined limits).
-
-In the following screenshot, you'll see a daily schedule *without* **Allow travel time outside of working hours** enabled.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a schedule without the travel time constraint configured.](./media/rso-travel-outside-before.png)
-
-In the next screenshot, you'll see that same schedule *with* **Allow travel time outside of working hours** enabled.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a schedule with the travel time constraint configured.](./media/rso-travel-outside-after.png)
-
-By not considering travel time as part of a technician's working hours, schedulers may see improved resource utilization.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of .](./media/rso-travel-outside-utilization.png)
-
-In this article, we'll walk through how to enable **Allow travel time outside of working hours** in Resource Scheduling Optimization.
-For more information, see the following video for a walkthrough.
+[Resource utilization](resource-utilization-report.md) might improve if travel time isn't considered part of a technician's work hours.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Fe9O]
 
-## Prerequisites
+## Edit the constraints of an optimization goal
 
-- Resource scheduling optimization v3.x+ (Field Service v8.x+).
+To remove the default constraint from an optimization goal, follow these steps.
 
-## Edit Resource Scheduling Optimization constraints
+1. [Open the optimization goal](rso-optimization-goal.md) for which you want to allow travel time outside of working hours.
+1. Remove the **Schedule Within Working Hours** constraint.
 
-Go to **Resource Scheduling Optimization** > **Optimization Goals** and select or create an optimization goal.
+:::image type="content" source="media/optimization-goal-travel-constraint.png" alt-text="Screenshot of an optimization goal that has the Schedule Within Working Hours constraint.":::
 
-On the optimization goal, remove the constraint **Schedule Within Working Hours**.
+## Enable a resource for scheduling outside of working hours
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a goal in Resource Scheduling Optimization.](./media/rso-travel-outside-constraint.png)
+To define which resources are considered for travel outside of working hours, follow these steps.
 
-## Enable Resource for scheduling outside working hours
+1. In Resource Scheduling Optimization, go to **Scheduling** > **Resources**.
+1. Open a bookable resource.
+1. On the **Scheduling** tab, for the **Schedule Outside Work Hours** field, select **Allow Travel Before Work Hours**, **Allow Travel After Work Hours**, or both.
+1. For the **Travel Limit (in minutes)** field, specify how much extra time, in minutes, the Resource Scheduling Optimization algorithm can allocate for travel. The travel limit that you define applies to both travel before working hours and travel after working hours. You can't define a separate travel limit for each option.
 
-Once the optimization goal knows to ignore working hours during a run, it's time to define which resources we want to consider for travel outside of work hours.
-
-Go to a bookable resource, and then the **Scheduling** section.
-
-For **Schedule Outside Work Hours**, you can enter either of both of the following values: 
-
-- **Allow Travel Before Work Hours**
-- **Allow Travel After Work Hours**
-
-Next, enter a **Travel Limit (in minutes)**, which will tell Resource Scheduling Optimization how out from the resource's working hours it can consider. In our example, Resource Scheduling Optimization will consider travel times 30 minutes outside of this resource's defined working hours.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of resource details, showing the scheduling rules.](./media/rso-travel-outside-resource.png)
-
-## Run an optimization
-
-Now it's time to test your work. You can either run Resource Scheduling Optimization manually, through a defined schedule, or trigger it through a workflow.
-
-Travel time begins before the start of working hours, as shown in the following screenshot.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a schedule that shows travel time outside of work hours.](./media/rso-travel-outside-after2.png)
-
-Since we used 30 minutes as our travel time limit example, you'll see that is respected in this example optimized schedule.
-
-Note too that in our previous example, if travel time exceeds our time limit outside of working hours, the travel time will adjust and push the work start time a bit later to respect the time limit.
-
-## Configuration considerations
-
-- You can't have different travel limits before and after working hours. For example, you can't configure a 30-minute travel limit before work and a 60-minute travel limit after work.
-
-### Comparing the end of day for "Schedule within working hours" constraint and "Travel outside working hours"
-
-When travel outside working hours is configured, the end time of the booking will be within working hours and travel time back to the resource's ending location can be outside working hours (end of day travel time is displayed as a blank space).
-
-When the **Schedule within working hours** constraint is part of the goal, the end time will be within working hours _and_ travel time from the last booking to the resource's ending location will be within working hours.
-
-When the **Schedule within working hours** constraint is *not* part of the goal, the end time of the booking will be within working hours, but the travel time of the resource can fall outside of working hours.
-
+:::image type="content" source="media/rso-travel-outside-resource.png" alt-text="Screenshot showing the scheduling rules for a bookable resource.":::
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

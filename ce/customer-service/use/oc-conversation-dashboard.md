@@ -1,5 +1,5 @@
 ---
-title: Conversation dashboard in Omnichannel for Customer Service
+title: Conversation dashboard in Contact Center
 description: Learn about the Conversation dashboard insights to better understand agent performance in your organization.
 author: Soumyasd27
 ms.author: sdas
@@ -11,6 +11,9 @@ ms.custom: bap-template
 ---
 
 # Conversation dashboard
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 The Conversation dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to surface insights into the topics that generate the highest volume and the topics that're emerging with the fastest increase in volume.
 

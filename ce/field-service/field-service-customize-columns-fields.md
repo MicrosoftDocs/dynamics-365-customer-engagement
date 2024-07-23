@@ -1,85 +1,74 @@
 ---
-title: "Create and edit columns (fields) in Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn about best practices for creating and editing fields in Dynamics 365 Field Service.
-ms.date: 02/18/2022
+title: Create and edit Field Service columns
+description: Learn about best practices for creating and editing columns in Dynamics 365 Field Service.
+ms.date: 06/26/2024
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
 ---
 
-# Create and edit Field Service columns (fields)
+# Create and edit Field Service columns
 
-When deploying Field Service, you may need to add new columns (also called fields) to the various tables (sometimes referred to as "entities") that you use, like work orders, bookable resource bookings, customer assets, and more. Mobile views can display up to three columns.
+You can add columns to the various tables that you use in Dynamics 365 Field Service. (Tables were formerly known as entities.) Examples of these tables include work orders, bookable resource bookings, and customer assets. 
 
-Follow these best practices when creating and editing columns:
+Mobile views can show up to three columns.
 
-- Understand existing columns and try to use them before creating new ones.
-- Field display names and labels can be edited.
-- Field properties can't be edited.
-- Optional fields can be made required, but required fields can't be made optional.
+Follow these best practices when you create and edit columns:
+
+- Understand the existing columns, and try to use them before you create new columns.
+- Try to edit only the display names and labels of fields. Don't edit field properties.
+- Don't make required fields optional. (However, you can make optional fields required.)
 - Don't delete existing fields.
 
-> [!Important]
-> Don't delete existing fields. Deleting fields can cause important processes to fail causing errors. You can simply hide or remove fields from the forms so that users cannot see them.
+> [!IMPORTANT]
+> Deleting columns can cause important processes to fail. Therefore, it can lead to errors. Instead of deleting columns, hide them or remove them from the forms, so that they aren't visible to users.
 
-In this article, we'll discuss how to create and edit fields for the work order table; however, the following guidance applies to all Field Service tables.
+This article uses the work order table as an example. However, the guidance that is offered applies to all Field Service tables.
 
-## Create new fields
+## Create new columns
 
-> [!Important]
-> Before editing existing fields, make sure you consider possible system implications. Review the documentation to help avoid potential performance or process disruption.
+After you understand the existing information and processes on the work order form, you can create more columns based on your unique business processes.
 
-After understanding the existing fields and processes on the work order form, you may need to create additional fields based on your unique business processes.
+1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. Select your environment, and go to the table that you want to add columns to. For this example, go to the work order table.
+1. Select **New** > **Column**, and then enter the information for the new column. Learn more in [How to create and edit columns](/power-apps/maker/data-platform/create-edit-fields).
+1. Save your changes.
 
-Go to `https://make.powerapps.com`.
+## Edit columns
 
-To create a new field, select **+Add column**.
+> [!IMPORTANT]
+> Before you edit existing columns, be sure to consider possible system implications. Review the documentation to help avoid potential performance or process disruption.
 
-> [!div class="mx-imgBorder"]
-> ![Power Apps, showing the "Add column" option on the work order table.](./media/customization-form-create-fields.png)
+Administrators can edit the display names and labels of existing fields. However, they can't change the properties. Here are some examples:
 
+- Change the display name of the **Service Account** field to **Customer**.
+- For the **System Status** field, which has multiple choice options, change the label of the *In Progress* choice option to *Work Started*.
 
-> [!div class="mx-imgBorder"]
-> ![Power Apps showing the edit panel for a new column.](./media/customization-form-create-fields2.png)
+From the table, under **Schema**, select **Columns**. Select the column that you want to edit, and then select **Edit column**.
 
-Save your changes.
+:::image type="content" source="media/customization-form-field-choice-option-set.png" alt-text="Screenshot showing the Edit column option for the System Status field in the Power Apps.":::
 
-## Edit fields
+Although optional columns can be made required, required columns can't be made optional.
 
-Administrators can edit the display names and labels of existing fields, but can't edit field properties. 
+### Editing columns properties
 
-For example, you can change the field display name of **Service Account** to **Customer**, as seen in the following screenshot.
+> [!IMPORTANT]
+> Don't edit column properties. Editing column properties can result in performance and process disruptions.
 
-> [!div class="mx-imgBorder"]
-> ![Power Apps field editor panel, showing "Service Account" selected and editable.](./media/customization-form-field-display-name.png)
-
-Or consider the **System Status** field; you can change choice option labels, like changing the **In Progress** label to **Work Started**. 
-
-> [!div class="mx-imgBorder"]
-> ![Power Apps field editor showing "WO System Status," with "Unscheduled" selected and editable.](./media/customization-form-field-choice-option-set.png)
-
-Optional fields can be made required, but required fields cannot be made optional.
-
-### Editing field properties
-
-Don't edit field properties! Editing field properties can result in performance and process disruptions.
-
-For example, editing fields in the following ways is unsupported and can cause issues when upgrading.
+For example, the following edits to column properties are unsupported and can cause issues during upgrades:
 
 - Removing choice options.
 - Adding choice options.
-- Changing field requirement from _Required_ to _Optional_ (though it's okay to change from *Optional* to *Required*).
-- Changing the behavior of a **Date Only** or **Date and Time** field is unsupported. They must be left as **User Local** and can't be set to _Date Only_ or _Time Zone independent_. See additional notes for more details.
+- Changing *Required* to *Optional*. (However, it's OK to change *Optional* to *Required*).
+- Changing the behavior of a *Date Only* or *Date and Time* field. These fields must remain set to *User Local*. They can't be set to *Date Only* or *Time Zone independent*.
 
-## Additional notes
+### Deleting columns
 
-### Deleting fields
+> [!IMPORTANT]
+> Don't delete existing columns. Deleting columns can cause unexpected issues.
 
-Don't delete existing fields! Deleting fields can cause unexpected issues. Instead of deleting a field, hide or remove fields from the forms so that users can't see them.
+Instead of deleting a column, hide fields or remove them from the forms, so that they aren't visible to users.
 
-### Changing the behavior of a Date and Time field is unsupported
+### Changing the behavior of Date and Time fields
 
-Changing the behavior of a **Date Only** or **Date and Time** column that is included with Field Service is unsupported, irreversible, and can cause upgrade issues. For example, the following screenshot shows the _Start Date_ column located on the agreement table. The behavior property must be left as **User Local**.
-
-> [!div class="mx-imgBorder"]
-> ![Start Date column on the agreement table.](./media/customization-fields-behavoir.png)
+Don't change the behavior of a *Date Only* or *Date and Time* column that is included with Field Service. Changes of this type aren't supported, they aren't reversible, and they can cause upgrade issues.

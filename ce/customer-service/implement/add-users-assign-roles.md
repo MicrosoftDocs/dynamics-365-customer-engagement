@@ -1,17 +1,17 @@
 ---
-title: Assign roles, enable users for Omnichannel for Customer Service
-description: Perform the steps to assign roles to users and enable them in Omnichannel for Customer Service.
+title: Assign roles, enable users
+description: Perform the steps to assign roles to users and enable them in contact center.
 author: neeranelli
 ms.author: nenellim
-ms.date: 03/18/2024
+ms.date: 07/01/2024
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
 ---
 
-# Assign roles and enable users for Omnichannel for Customer Service
+# Assign roles and enable users
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Use the information in this article to configure security roles and enable users to perform the various tasks in Customer Service.
 
