@@ -1,7 +1,7 @@
 ---
 title: View and update record details within Microsoft Teams
 description: Learn how to view and update record details within Microsoft Teams
-ms.date: 07/15/2024
+ms.date: 07/23/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
