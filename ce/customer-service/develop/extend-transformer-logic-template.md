@@ -1,10 +1,11 @@
 ---
 title: Extend transformer logic on templates (Dynamics 365 Customer Service) | MicrosoftDocs
 description: This topic provides information on how customers can overwrite transformer logic in Dynamics 365 Customer Service.
-ms.date: 03/04/2022
+ms.date: 07/24/2024
 ms.topic: article
-author: gandhamm
-ms.author: mgandham
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - developer
 ms.custom: 
@@ -171,7 +172,7 @@ To extend the transformer logic for your knowledge article templates:
 3. Follow the steps mentioned in [Register a plug-in](/powerapps/developer/common-data-service/tutorial-write-plug-in#BKMK_register) to register your plug-in.
 4. Now, when you create a knowledge article from a template, the values of the option sets are transformed and inserted in the article.
 
-## See also
+## Related information
 
 [Create a knowledge article using template](create-knowledge-article-using-template.md)<br />
 [Tutorial: Write and register a plug-in](/powerapps/developer/common-data-service/tutorial-write-plug-in)

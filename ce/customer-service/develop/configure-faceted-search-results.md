@@ -1,16 +1,18 @@
 ---
-title: Configure the faceted search results web template from your portal| MicrosoftDocs
+title: Configure the faceted search results web template from your portal
 description: Know how the faceted search results web template can be configured from your portal.
-ms.date: 03/21/2022
+ms.date: 07/24/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType:
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - bap template
 ---
 
 # Configure the faceted search results web template from your portal
@@ -94,10 +96,10 @@ You can view and search for knowledge article attachments on the portal based on
 
 4. Select **Save**.
 
-### See also
+### Related information
 
 [Add a file attachment to a knowledge article](../use/customer-service-hub-user-guide-knowledge-article.md#add-a-file-attachment-to-a-knowledge-article)  
-[Update knowledge article attachments for portal](../administer/set-up-knowledge-management-embedded-knowledge-search.md#update-knowledge-article-attachments-for-portal)
+[Update knowledge article attachments for portal](../administer/set-up-knowledge-management-embedded-knowledge-search.md#update-knowledge-article-attachments-for-portal)  
 [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article)
 
 
