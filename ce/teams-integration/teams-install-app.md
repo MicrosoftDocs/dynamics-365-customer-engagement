@@ -1,5 +1,5 @@
 ---
-title: "Install the Dynamics 365 app in Teams"
+title: "Install the Dynamics 365 app in Microsoft Teams"
 description: "Learn how to install the Dynamics 365 app in Teams."
 ms.date: 07/18/2024
 ms.topic: article
@@ -9,7 +9,7 @@ search.audienceType:
   - enduser
 ---
 
-# Install the Dynamics 365 app and set up the Microsoft Teams collaboration channel tab
+# Install the Dynamics 365 app in Microsoft Teams
 
 1. In Microsoft Teams, on the left navigation pane, select **Apps**.
 
