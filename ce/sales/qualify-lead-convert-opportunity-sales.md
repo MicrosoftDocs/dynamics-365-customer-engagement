@@ -115,7 +115,7 @@ Select **Finish** to open the primary opportunity record and select **X** at the
 
 You can qualify multiple leads at once. To qualify multiple leads, open the **Leads** page in a read-only grid view and select the leads that you want to qualify. On the command bar, select **Qualify**.
 
-If your admin has enabled automatic creation in the legacy experience, the records are created automatically. If your admin has disabled automatic creation or enable new exp   
+If your admin has enabled automatic creation in the legacy experience, the records are created automatically. If your admin has disabled automatic creation or enabled the new experience, you see a dialog where you can select the records that you'd like to create upon lead qualification. 
 
 ## Disqualify a lead
 
