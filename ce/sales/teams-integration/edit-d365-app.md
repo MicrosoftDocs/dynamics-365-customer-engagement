@@ -1,7 +1,7 @@
 ---
 title: Edit setting of the Dynamics 365 app
 description: Learn how to edit settings of the Dynamics 365 app
-ms.date: 07/23/2024
+ms.date: 07/24/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -28,7 +28,7 @@ This article provides information on how to edit settings of the Dynamics 365 ap
 
 2.  Select **Action Commands** (**…**) in the upper-right corner, and then select **Settings**.
 
-    ![Access app settings](media/me-settings-menu..png "Access app settings")
+    ![Access app settings](media/me-settings-menu.png "Access app settings")
 
 3.  In the **Settings** window, select the following information:
 
