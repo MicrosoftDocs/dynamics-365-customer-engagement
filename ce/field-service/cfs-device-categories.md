@@ -1,6 +1,6 @@
 ---
-title: "Device categories in Connected Field Service | MicrosoftDocs"
-description: Learn about how to use device categories in Connected Field Service
+title: Use device categories in Connected Field Service
+description: Learn how to use device categories in Connected Field Service.
 ms.date: 07/22/2024
 ms.topic: how-to
 ms.subservice: connected-field-service
@@ -11,13 +11,13 @@ ms.author: vhorvath
 author: vhorvathms
 ---
 
-# Device categories in Connected Field Service
+# Use device categories in Connected Field Service
 
 Device categories help you organize devices. For example, you can categorize devices by the commands they support, the type of device, or by devices that break down more often.  
   
 ## Create a new IoT device category
   
-1. From the main menu, go to the **Settings** area.
+1. In Dynamics Field Service, go to the **Settings** area.
 
 1. Under **IoT**, select **Device Categories**. Then, select **New**.  
   
@@ -33,7 +33,7 @@ Device categories help you organize devices. For example, you can categorize dev
 
 ## Add devices to an existing category  
   
-1. From the main menu, go to the **Service** area.
+1. In Dynamics Field Service, go to the **Service** area.
 
 1. Under **Assets**, select **IoT Devices**.  
   
@@ -43,7 +43,7 @@ Device categories help you organize devices. For example, you can categorize dev
   
 ## View device readings
 
-Once a device is registered, you can open the record to view the readings sent by the device. For example, if you’re monitoring a thermostat, your reading will show the thermostat temperature.  
+Once a device is registered, you can open the record to view the readings sent by the device. For example, if you’re monitoring a thermostat, your reading shows the thermostat temperature.  
   
 By default, you can view the last 20 readings. You can change the default setting in the Power BI report by using Power BI Desktop.  
   
@@ -61,8 +61,10 @@ By default, you can view the last 20 readings. You can change the default settin
 > When you receive multiple alerts from the same device, the alerts are listed in hierarchical order. You can change the grouping by changing the IoT - Parent IoT Alerts workflow.
 
 ### View a device's registration history  
-  
-1. From the main menu, go to **IoT Devices**.  
+
+1. In Dynamics Field Service, go to the **Service** area.  
+
+1. Under **Assets**, select **IoT Devices**.  
   
 1. Open an IoT device record.  
   

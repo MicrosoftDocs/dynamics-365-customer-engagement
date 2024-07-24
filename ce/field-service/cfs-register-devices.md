@@ -35,40 +35,46 @@ For a guided walkthrough, check out the following video.
 
 Connected Field Service must be connected to Azure IoT Hub or another custom IoT provider. For more information, see the [article on getting set up with Azure IoT Hub](installation-setup-iothub.md), or the article on [setting up custom IoT providers](cfs-custom-iot-provider.md).
 
-
 ## Create and register an IoT device from IoT Hub
 
-First, let's look at how to register a new device from Azure IoT Hub.
+Register a new device from Azure IoT Hub.
 
-Go to Azure IoT Hub and select an environment.
+1. Sign in to Microsoft Azure and access the Azure IoT Hub.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Azure IoT hub, showing environments.](./media/cfs-register-device-iothub.png)
+1. Select an environment.
 
-From the environment, go to **IoT devices** > **+New**.
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of Azure IoT hub, showing environments.](./media/cfs-register-device-iothub.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT devices screen in Azure IoT Hub.](./media/cfs-register-device-iothub-new.png)
+1. Select **IoT devices** > **+New**.
 
-Give the device a descriptive ID (in our example, we name it "HVACtemp1") and **Save**.
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of the IoT devices screen in Azure IoT Hub.](./media/cfs-register-device-iothub-new.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the create a device dialog in Azure IoT Hub.](./media/cfs-register-device-iothub-new-form.png)
+1. Give the device a descriptive ID (in our example, we name it "HVACtemp1") and **Save**.
 
-Head over to Dynamics 365 Field Service, then to **Assets** > **IoT Devices**, and select **Import Devices**.
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of the create a device dialog in Azure IoT Hub.](./media/cfs-register-device-iothub-new-form.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service on the Active IoT Devices list, showing the import message.](./media/cfs-register-device-iothub-import.png)
+1. In Dynamics 365 Field Service, under **Assets**, select **IoT Devices**.
 
-Any new devices registered back in Azure IoT Hub will now appear in the list of active IoT devices in Field Service.
+1. Select **Import Devices**.
 
-We’ll still need to connect this new device to the relevant customer asset, which will we do later in this article.
+   :::image type="content" source="media/cfs-register-device-iothub-import.png" alt-text="Screenshot of Field Service on the Active IoT Devices list after selectng Import Devices.":::
+
+1. Select **OK** and then **Refresh**. Any new devices registered in Azure IoT Hub appear in the list of active IoT devices.
 
 ## Create and register an IoT device from Field Service
 
 You can also create an IoT device directly in Field Service.
 
-From **Field Service** > **Assets** > **IoT Devices** > **+New**. Give the IoT device a descriptive name, then **Save**. Finally, select **Register** in the top ribbon. 
+1. In Dynamics 365 Field Service, under **Assets**, select **IoT Devices**.
+
+1. Select **New**.
+
+1. Enter a descriptive name for the device and any other information, then select **Save**.
+
+1. Select **Register** in the top ribbon. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the register option on an IoT device in Field Service.](./media/cfs-register-device-fs-new-register.png)
