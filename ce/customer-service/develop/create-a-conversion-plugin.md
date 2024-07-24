@@ -13,7 +13,7 @@ search.audienceType:
 
 # Transform, map external source data to knowledge fields
 
-When you're mapping information from external data providers to knowledge article entities, if the source value is of a different data type, you'll have to transform the value before you can map it to the target knowledge attribute. You can create a plug-in and register it on `Create` and `Update` messages so that the target knowledge article attributes have values that are inline with the articles from the external providers.
+When you're mapping information from external data providers to knowledge article entities, if the source value is of a different data type, you must transform the value before you can map it to the target knowledge attribute. You can create a plug-in and register it on `Create` and `Update` messages so that the target knowledge article attributes have values that are inline with the articles from the external providers.
 
 To transform and map the source values, perform the following steps:
 
@@ -21,7 +21,7 @@ To transform and map the source values, perform the following steps:
 1.  Map the required external source value to the newly created custom field. Learn more at [Configure knowledge article schema mapping (preview)](../administer/int-data-mapping.md). This is a temporary mapping from which your plug-in picks up the source value.
 1. Create a plug-in. Learn more at [Create a plug-in project](/power-apps/developer/data-platform/tutorial-write-plug-in#create-a-plug-in-project).
 1. You can write your own code to convert the external source value and map it to the required target knowledge article attribute.  
-In this example, we'll show how you can map a source value that's of the type **String** to an article field attribute of type **OptionSet**. In the plug-in that you created, replace the entire class with the following sample code.
+In this example, we show how you can map a source value that's of the type **String** to an article field attribute of type **OptionSet**. In the plug-in that you created, replace the entire class with the following sample code.
 
       
  ``` C#
