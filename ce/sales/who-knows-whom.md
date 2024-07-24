@@ -8,7 +8,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
-# How to get introduced to leads or contacts  
+# Use who knows whom to connect with leads and contacts  
 
 Use who knows whom to quickly identify colleagues who can introduce you to a lead or contact.
 
