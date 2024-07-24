@@ -1,6 +1,6 @@
 ---
 title: Extend transformer logic on templates (Dynamics 365 Customer Service) | MicrosoftDocs
-description: This topic provides information on how customers can overwrite transformer logic in Dynamics 365 Customer Service.
+description: This article provides information on how customers can overwrite transformer logic in Dynamics 365 Customer Service.
 ms.date: 07/24/2024
 ms.topic: article
 author: Soumyasd27
@@ -18,7 +18,7 @@ Transformer logic refers to moving the values of specific fields from the knowle
 To extend the transformer logic for your knowledge article templates:
 
 1. Create a plug-in by performing the steps mentioned in [Create a plug-in project](/powerapps/developer/common-data-service/tutorial-write-plug-in#BKMK_create).
-2. You can write your own mapping logic with the transformed `kaobject` using `context.OutputParameters["Result"]` as Entity. In this example, we'll show how you can build the knowledge article template transformer with the help of two new attributes, Article Type and Audience. In the plug-in that you created, replace the entire class with the following sample code:
+2. You can write your own mapping logic with the transformed `kaobject` using `context.OutputParameters["Result"]` as Entity. In this example, we go through how you can build the knowledge article template transformer with the help of two new attributes, Article Type and Audience. In the plug-in that you created, replace the entire class with the following sample code:
 
 ```/// <summary>
 	/// The plugin shows a sample of how to build a Knowledge Article Template Transformer
