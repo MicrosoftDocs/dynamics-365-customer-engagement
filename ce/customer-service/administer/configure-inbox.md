@@ -158,7 +158,7 @@ Configure a customized sort option for the inbox so that users can choose the re
 
 ## Bring your own entity to the inbox
 
-By default, the inbox supports entities such as case, emails, conversations, and voicemails. You can also bring your own entities into the inbox to create a more customized experience that's tailored to the needs of your users.
+By default, the inbox supports entities such as case, emails, conversations, and voicemails. You can also bring your own entities into the inbox to create a more customized experience, tailored to the needs of your users.
 
 1. In the admin center site map, select **Workspaces**.
 1. On the **Workspaces** page, next to **Agent experience profiles**, select the profile you want to edit.
