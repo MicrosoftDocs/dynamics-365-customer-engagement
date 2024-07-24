@@ -1,0 +1,12705 @@
+---
+title: "Business Unit (BusinessUnit) table/entity reference (Microsoft Dynamics 365 Field Service)"
+description: "Includes schema information and supported messages for the Business Unit (BusinessUnit) table/entity with Microsoft Dynamics 365 Field Service."
+ms.date: 07.24.2024
+ms.service: powerapps
+ms.topic: reference
+author: m-hartmann
+ms.author: mhart
+search.audienceType: 
+  - developer
+---
+
+# Business Unit (BusinessUnit) table/entity reference
+
+Business, division, or department in the Microsoft Dynamics 365 database.
+
+> [!NOTE]
+> The Microsoft Dynamics 365 Field Service Business Unit (BusinessUnit) table extends the [Microsoft Dataverse Business Unit (BusinessUnit) table](/power-apps/developer/data-platform/reference/entities/businessunit).
+
+
+
+## Writable columns/attributes
+
+These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
+
+### <a name="BKMK_msdyn_Warehouse"></a> msdyn_Warehouse
+
+|Property|Value|
+|---|---|
+|Description|**Unique identifier for Warehouse associated with Business Unit.**|
+|DisplayName|**Warehouse (Deprecated)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_warehouse`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_warehouse|
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_msdyn_msdyn_warehouse_businessunit_Warehouse"></a> msdyn_msdyn_warehouse_businessunit_Warehouse
+
+One-To-Many Relationship: [msdyn_warehouse msdyn_msdyn_warehouse_businessunit_Warehouse](msdyn_warehouse.md#BKMK_msdyn_msdyn_warehouse_businessunit_Warehouse)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_warehouse`|
+|ReferencedAttribute|`msdyn_warehouseid`|
+|ReferencingAttribute|`msdyn_warehouse`|
+|ReferencingEntityNavigationPropertyName|`msdyn_warehouse`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+
+## One-to-Many relationships
+
+These relationships are one-to-many. Listed by **SchemaName**.
+
+- [adx_alertsubscription_businessunit_owningbusinessunit](#BKMK_adx_alertsubscription_businessunit_owningbusinessunit)
+- [business_unit_activitymonitor](#BKMK_business_unit_activitymonitor)
+- [business_unit_adminsettingsentity](#BKMK_business_unit_adminsettingsentity)
+- [business_unit_adx_ad](#BKMK_business_unit_adx_ad)
+- [business_unit_adx_adplacement](#BKMK_business_unit_adx_adplacement)
+- [business_unit_adx_botconsumer](#BKMK_business_unit_adx_botconsumer)
+- [business_unit_adx_casedeflection](#BKMK_business_unit_adx_casedeflection)
+- [business_unit_adx_cloudflowconsumer](#BKMK_business_unit_adx_cloudflowconsumer)
+- [business_unit_adx_communityforum](#BKMK_business_unit_adx_communityforum)
+- [business_unit_adx_communityforumaccesspermission](#BKMK_business_unit_adx_communityforumaccesspermission)
+- [business_unit_adx_communityforumalert](#BKMK_business_unit_adx_communityforumalert)
+- [business_unit_adx_communityforumannouncement](#BKMK_business_unit_adx_communityforumannouncement)
+- [business_unit_adx_communityforumpost](#BKMK_business_unit_adx_communityforumpost)
+- [business_unit_adx_communityforumthread](#BKMK_business_unit_adx_communityforumthread)
+- [business_unit_adx_contentaccesslevel](#BKMK_business_unit_adx_contentaccesslevel)
+- [business_unit_adx_contentsnippet](#BKMK_business_unit_adx_contentsnippet)
+- [business_unit_adx_forumthreadtype](#BKMK_business_unit_adx_forumthreadtype)
+- [business_unit_adx_pagealert](#BKMK_business_unit_adx_pagealert)
+- [business_unit_adx_pagenotification](#BKMK_business_unit_adx_pagenotification)
+- [business_unit_adx_pagetag](#BKMK_business_unit_adx_pagetag)
+- [business_unit_adx_pagetemplate](#BKMK_business_unit_adx_pagetemplate)
+- [business_unit_adx_poll](#BKMK_business_unit_adx_poll)
+- [business_unit_adx_polloption](#BKMK_business_unit_adx_polloption)
+- [business_unit_adx_pollplacement](#BKMK_business_unit_adx_pollplacement)
+- [business_unit_adx_pollsubmission](#BKMK_business_unit_adx_pollsubmission)
+- [business_unit_adx_portallanguage](#BKMK_business_unit_adx_portallanguage)
+- [business_unit_adx_publishingstate](#BKMK_business_unit_adx_publishingstate)
+- [business_unit_adx_publishingstatetransitionrule](#BKMK_business_unit_adx_publishingstatetransitionrule)
+- [business_unit_adx_redirect](#BKMK_business_unit_adx_redirect)
+- [business_unit_adx_shortcut](#BKMK_business_unit_adx_shortcut)
+- [business_unit_adx_sitemarker](#BKMK_business_unit_adx_sitemarker)
+- [business_unit_adx_sitemigrationchunk](#BKMK_business_unit_adx_sitemigrationchunk)
+- [business_unit_adx_sitemigrationrun](#BKMK_business_unit_adx_sitemigrationrun)
+- [business_unit_adx_sitesetting](#BKMK_business_unit_adx_sitesetting)
+- [business_unit_adx_tag](#BKMK_business_unit_adx_tag)
+- [business_unit_adx_urlhistory](#BKMK_business_unit_adx_urlhistory)
+- [business_unit_adx_webfile](#BKMK_business_unit_adx_webfile)
+- [business_unit_adx_webfilelog](#BKMK_business_unit_adx_webfilelog)
+- [business_unit_adx_webform](#BKMK_business_unit_adx_webform)
+- [business_unit_adx_weblink](#BKMK_business_unit_adx_weblink)
+- [business_unit_adx_weblinkset](#BKMK_business_unit_adx_weblinkset)
+- [business_unit_adx_webnotificationurl](#BKMK_business_unit_adx_webnotificationurl)
+- [business_unit_adx_webpage](#BKMK_business_unit_adx_webpage)
+- [business_unit_adx_webpageaccesscontrolrule](#BKMK_business_unit_adx_webpageaccesscontrolrule)
+- [business_unit_adx_webpagehistory](#BKMK_business_unit_adx_webpagehistory)
+- [business_unit_adx_webpagelog](#BKMK_business_unit_adx_webpagelog)
+- [business_unit_adx_webrole](#BKMK_business_unit_adx_webrole)
+- [business_unit_adx_website](#BKMK_business_unit_adx_website)
+- [business_unit_adx_websiteaccess](#BKMK_business_unit_adx_websiteaccess)
+- [business_unit_adx_websitelanguage](#BKMK_business_unit_adx_websitelanguage)
+- [business_unit_adx_websitemigrationtracker](#BKMK_business_unit_adx_websitemigrationtracker)
+- [business_unit_bookableresource](#BKMK_business_unit_bookableresource)
+- [business_unit_bookableresourcebooking](#BKMK_business_unit_bookableresourcebooking)
+- [business_unit_bookableresourcebookingheader](#BKMK_business_unit_bookableresourcebookingheader)
+- [business_unit_bookableresourcecategory](#BKMK_business_unit_bookableresourcecategory)
+- [business_unit_bookableresourcecategoryassn](#BKMK_business_unit_bookableresourcecategoryassn)
+- [business_unit_bookableresourcecharacteristic](#BKMK_business_unit_bookableresourcecharacteristic)
+- [business_unit_bookableresourcegroup](#BKMK_business_unit_bookableresourcegroup)
+- [business_unit_bookingstatus](#BKMK_business_unit_bookingstatus)
+- [business_unit_BulkOperation_activities](#BKMK_business_unit_BulkOperation_activities)
+- [business_unit_campaignactivity_activities](#BKMK_business_unit_campaignactivity_activities)
+- [business_unit_campaignresponse_activities](#BKMK_business_unit_campaignresponse_activities)
+- [business_unit_characteristic](#BKMK_business_unit_characteristic)
+- [business_unit_constraint_based_groups](#BKMK_business_unit_constraint_based_groups)
+- [business_unit_dynamicproperyinstance](#BKMK_business_unit_dynamicproperyinstance)
+- [business_unit_entitlement](#BKMK_business_unit_entitlement)
+- [business_unit_entitlemententityallocationtypemapping](#BKMK_business_unit_entitlemententityallocationtypemapping)
+- [business_unit_equipment](#BKMK_business_unit_equipment)
+- [business_unit_federatedknowledgeconfiguration](#BKMK_business_unit_federatedknowledgeconfiguration)
+- [business_unit_federatedknowledgeentityconfiguration](#BKMK_business_unit_federatedknowledgeentityconfiguration)
+- [business_unit_incident_resolution_activities](#BKMK_business_unit_incident_resolution_activities)
+- [business_unit_incidents](#BKMK_business_unit_incidents)
+- [business_unit_invoices](#BKMK_business_unit_invoices)
+- [business_unit_leads](#BKMK_business_unit_leads)
+- [business_unit_list](#BKMK_business_unit_list)
+- [business_unit_listoperation](#BKMK_business_unit_listoperation)
+- [business_unit_mscipriv_activitymappingmetadatabase](#BKMK_business_unit_mscipriv_activitymappingmetadatabase)
+- [business_unit_mscipriv_additionalentityinfo](#BKMK_business_unit_mscipriv_additionalentityinfo)
+- [business_unit_mscipriv_aibuildercallbacktesthook](#BKMK_business_unit_mscipriv_aibuildercallbacktesthook)
+- [business_unit_mscipriv_aibuildermodelmetadata](#BKMK_business_unit_mscipriv_aibuildermodelmetadata)
+- [business_unit_mscipriv_analysisinstanceconfig](#BKMK_business_unit_mscipriv_analysisinstanceconfig)
+- [business_unit_mscipriv_analysismetadata](#BKMK_business_unit_mscipriv_analysismetadata)
+- [business_unit_mscipriv_azuremlwebservice](#BKMK_business_unit_mscipriv_azuremlwebservice)
+- [business_unit_mscipriv_businessunitconfiguration](#BKMK_business_unit_mscipriv_businessunitconfiguration)
+- [business_unit_mscipriv_cdsamodelmetadata](#BKMK_business_unit_mscipriv_cdsamodelmetadata)
+- [business_unit_mscipriv_clusterloadmetadata](#BKMK_business_unit_mscipriv_clusterloadmetadata)
+- [business_unit_mscipriv_conflationcriteriastatistics](#BKMK_business_unit_mscipriv_conflationcriteriastatistics)
+- [business_unit_mscipriv_conflationmetadata](#BKMK_business_unit_mscipriv_conflationmetadata)
+- [business_unit_mscipriv_conflationrun](#BKMK_business_unit_mscipriv_conflationrun)
+- [business_unit_mscipriv_conflationstatistics](#BKMK_business_unit_mscipriv_conflationstatistics)
+- [business_unit_mscipriv_consentsettings](#BKMK_business_unit_mscipriv_consentsettings)
+- [business_unit_mscipriv_dataflowmetadata](#BKMK_business_unit_mscipriv_dataflowmetadata)
+- [business_unit_mscipriv_datapreparationmetadata](#BKMK_business_unit_mscipriv_datapreparationmetadata)
+- [business_unit_mscipriv_dataqualityfeaturewisemetadata](#BKMK_business_unit_mscipriv_dataqualityfeaturewisemetadata)
+- [business_unit_mscipriv_dataqualityoverview](#BKMK_business_unit_mscipriv_dataqualityoverview)
+- [business_unit_mscipriv_dataqualityreport](#BKMK_business_unit_mscipriv_dataqualityreport)
+- [business_unit_mscipriv_datasetcatalog](#BKMK_business_unit_mscipriv_datasetcatalog)
+- [business_unit_mscipriv_datasourcemetadata](#BKMK_business_unit_mscipriv_datasourcemetadata)
+- [business_unit_mscipriv_datatroubleshootingaccess](#BKMK_business_unit_mscipriv_datatroubleshootingaccess)
+- [business_unit_mscipriv_dataverseentitydatacleanupjobinfo](#BKMK_business_unit_mscipriv_dataverseentitydatacleanupjobinfo)
+- [business_unit_mscipriv_derivedentitymetadata](#BKMK_business_unit_mscipriv_derivedentitymetadata)
+- [business_unit_mscipriv_diagnosticsetting](#BKMK_business_unit_mscipriv_diagnosticsetting)
+- [business_unit_mscipriv_discoveredcdsamodel](#BKMK_business_unit_mscipriv_discoveredcdsamodel)
+- [business_unit_mscipriv_discoveryoperation](#BKMK_business_unit_mscipriv_discoveryoperation)
+- [business_unit_mscipriv_enrichmentmetadata](#BKMK_business_unit_mscipriv_enrichmentmetadata)
+- [business_unit_mscipriv_enrichmentrun](#BKMK_business_unit_mscipriv_enrichmentrun)
+- [business_unit_mscipriv_entityfiltermetadata](#BKMK_business_unit_mscipriv_entityfiltermetadata)
+- [business_unit_mscipriv_exportconfig](#BKMK_business_unit_mscipriv_exportconfig)
+- [business_unit_mscipriv_exportconfigreport](#BKMK_business_unit_mscipriv_exportconfigreport)
+- [business_unit_mscipriv_exportedmoduleconfiguration](#BKMK_business_unit_mscipriv_exportedmoduleconfiguration)
+- [business_unit_mscipriv_exportsettings](#BKMK_business_unit_mscipriv_exportsettings)
+- [business_unit_mscipriv_featuretemplate](#BKMK_business_unit_mscipriv_featuretemplate)
+- [business_unit_mscipriv_graphmetadata](#BKMK_business_unit_mscipriv_graphmetadata)
+- [business_unit_mscipriv_hierarchymetadata](#BKMK_business_unit_mscipriv_hierarchymetadata)
+- [business_unit_mscipriv_hostloadmetadata](#BKMK_business_unit_mscipriv_hostloadmetadata)
+- [business_unit_mscipriv_importexportstatusmetadata](#BKMK_business_unit_mscipriv_importexportstatusmetadata)
+- [business_unit_mscipriv_insightmetadata](#BKMK_business_unit_mscipriv_insightmetadata)
+- [business_unit_mscipriv_insightsdataqualityreport](#BKMK_business_unit_mscipriv_insightsdataqualityreport)
+- [business_unit_mscipriv_instancemetrics](#BKMK_business_unit_mscipriv_instancemetrics)
+- [business_unit_mscipriv_instancepartnercatalog](#BKMK_business_unit_mscipriv_instancepartnercatalog)
+- [business_unit_mscipriv_instancesearchconfiguration](#BKMK_business_unit_mscipriv_instancesearchconfiguration)
+- [business_unit_mscipriv_instancesettings](#BKMK_business_unit_mscipriv_instancesettings)
+- [business_unit_mscipriv_intelligenceworkflowmetadata](#BKMK_business_unit_mscipriv_intelligenceworkflowmetadata)
+- [business_unit_mscipriv_intelligenceworkflowrunmetadata](#BKMK_business_unit_mscipriv_intelligenceworkflowrunmetadata)
+- [business_unit_mscipriv_intelligenceworkspacemetadata](#BKMK_business_unit_mscipriv_intelligenceworkspacemetadata)
+- [business_unit_mscipriv_keyvaultmetadata](#BKMK_business_unit_mscipriv_keyvaultmetadata)
+- [business_unit_mscipriv_lightcdsamodelmetadata](#BKMK_business_unit_mscipriv_lightcdsamodelmetadata)
+- [business_unit_mscipriv_logicappssubscribermetadata](#BKMK_business_unit_mscipriv_logicappssubscribermetadata)
+- [business_unit_mscipriv_mappedsecretmetadata](#BKMK_business_unit_mscipriv_mappedsecretmetadata)
+- [business_unit_mscipriv_measuremetadata](#BKMK_business_unit_mscipriv_measuremetadata)
+- [business_unit_mscipriv_modelconfigmetadata](#BKMK_business_unit_mscipriv_modelconfigmetadata)
+- [business_unit_mscipriv_moduleconfigurationreference](#BKMK_business_unit_mscipriv_moduleconfigurationreference)
+- [business_unit_mscipriv_notificationcheckpoint](#BKMK_business_unit_mscipriv_notificationcheckpoint)
+- [business_unit_mscipriv_packageimportmetadata](#BKMK_business_unit_mscipriv_packageimportmetadata)
+- [business_unit_mscipriv_packagejobmetadata](#BKMK_business_unit_mscipriv_packagejobmetadata)
+- [business_unit_mscipriv_packagemetadata](#BKMK_business_unit_mscipriv_packagemetadata)
+- [business_unit_mscipriv_platforminstancemapping](#BKMK_business_unit_mscipriv_platforminstancemapping)
+- [business_unit_mscipriv_powerplatformconnector](#BKMK_business_unit_mscipriv_powerplatformconnector)
+- [business_unit_mscipriv_powerplatformrefreshsignalmetadata](#BKMK_business_unit_mscipriv_powerplatformrefreshsignalmetadata)
+- [business_unit_mscipriv_preenrichmentmetadata](#BKMK_business_unit_mscipriv_preenrichmentmetadata)
+- [business_unit_mscipriv_profilestorestateinfo](#BKMK_business_unit_mscipriv_profilestorestateinfo)
+- [business_unit_mscipriv_realtimeaggregatedstats](#BKMK_business_unit_mscipriv_realtimeaggregatedstats)
+- [business_unit_mscipriv_realtimem3configuration](#BKMK_business_unit_mscipriv_realtimem3configuration)
+- [business_unit_mscipriv_realtimem3searchconfiguration](#BKMK_business_unit_mscipriv_realtimem3searchconfiguration)
+- [business_unit_mscipriv_realtimepluginmetadata](#BKMK_business_unit_mscipriv_realtimepluginmetadata)
+- [business_unit_mscipriv_realtimesystemtablemetadata](#BKMK_business_unit_mscipriv_realtimesystemtablemetadata)
+- [business_unit_mscipriv_realtimetablemetadata](#BKMK_business_unit_mscipriv_realtimetablemetadata)
+- [business_unit_mscipriv_refreshhistorymetadata](#BKMK_business_unit_mscipriv_refreshhistorymetadata)
+- [business_unit_mscipriv_refreshschedulebase](#BKMK_business_unit_mscipriv_refreshschedulebase)
+- [business_unit_mscipriv_refreshstatehistorymetadata](#BKMK_business_unit_mscipriv_refreshstatehistorymetadata)
+- [business_unit_mscipriv_relationshipmetadata](#BKMK_business_unit_mscipriv_relationshipmetadata)
+- [business_unit_mscipriv_reportmetadata](#BKMK_business_unit_mscipriv_reportmetadata)
+- [business_unit_mscipriv_resetinstancehistory](#BKMK_business_unit_mscipriv_resetinstancehistory)
+- [business_unit_mscipriv_resourcemetadata](#BKMK_business_unit_mscipriv_resourcemetadata)
+- [business_unit_mscipriv_runtimerealtimem3metadata](#BKMK_business_unit_mscipriv_runtimerealtimem3metadata)
+- [business_unit_mscipriv_segmentmetadata](#BKMK_business_unit_mscipriv_segmentmetadata)
+- [business_unit_mscipriv_semanticentitymappingmetadata](#BKMK_business_unit_mscipriv_semanticentitymappingmetadata)
+- [business_unit_mscipriv_sparkjobexecutionmetadata](#BKMK_business_unit_mscipriv_sparkjobexecutionmetadata)
+- [business_unit_mscipriv_systemintegrationmigrationtrackinginfo](#BKMK_business_unit_mscipriv_systemintegrationmigrationtrackinginfo)
+- [business_unit_mscipriv_templatedmeasuremetadata](#BKMK_business_unit_mscipriv_templatedmeasuremetadata)
+- [business_unit_mscipriv_templatedsegmentmetadata](#BKMK_business_unit_mscipriv_templatedsegmentmetadata)
+- [business_unit_mscipriv_transformmetadata](#BKMK_business_unit_mscipriv_transformmetadata)
+- [business_unit_mscipriv_unifiedactivitymappinggroupmetadata](#BKMK_business_unit_mscipriv_unifiedactivitymappinggroupmetadata)
+- [business_unit_msdyn_actioncardactionstat](#BKMK_business_unit_msdyn_actioncardactionstat)
+- [business_unit_msdyn_actioncardregarding](#BKMK_business_unit_msdyn_actioncardregarding)
+- [business_unit_msdyn_actioncardrolesetting](#BKMK_business_unit_msdyn_actioncardrolesetting)
+- [business_unit_msdyn_actioncardstataggregation](#BKMK_business_unit_msdyn_actioncardstataggregation)
+- [business_unit_msdyn_activeicdextension](#BKMK_business_unit_msdyn_activeicdextension)
+- [business_unit_msdyn_actual](#BKMK_business_unit_msdyn_actual)
+- [business_unit_msdyn_adminappstate](#BKMK_business_unit_msdyn_adminappstate)
+- [business_unit_msdyn_agentcapacityprofileunit](#BKMK_business_unit_msdyn_agentcapacityprofileunit)
+- [business_unit_msdyn_agentcapacityupdatehistory](#BKMK_business_unit_msdyn_agentcapacityupdatehistory)
+- [business_unit_msdyn_agentchannelstate](#BKMK_business_unit_msdyn_agentchannelstate)
+- [business_unit_msdyn_agentstatus](#BKMK_business_unit_msdyn_agentstatus)
+- [business_unit_msdyn_agentstatushistory](#BKMK_business_unit_msdyn_agentstatushistory)
+- [business_unit_msdyn_agreement](#BKMK_business_unit_msdyn_agreement)
+- [business_unit_msdyn_agreementbookingdate](#BKMK_business_unit_msdyn_agreementbookingdate)
+- [business_unit_msdyn_agreementbookingincident](#BKMK_business_unit_msdyn_agreementbookingincident)
+- [business_unit_msdyn_agreementbookingproduct](#BKMK_business_unit_msdyn_agreementbookingproduct)
+- [business_unit_msdyn_agreementbookingservice](#BKMK_business_unit_msdyn_agreementbookingservice)
+- [business_unit_msdyn_agreementbookingservicetask](#BKMK_business_unit_msdyn_agreementbookingservicetask)
+- [business_unit_msdyn_agreementbookingsetup](#BKMK_business_unit_msdyn_agreementbookingsetup)
+- [business_unit_msdyn_agreementinvoicedate](#BKMK_business_unit_msdyn_agreementinvoicedate)
+- [business_unit_msdyn_agreementinvoiceproduct](#BKMK_business_unit_msdyn_agreementinvoiceproduct)
+- [business_unit_msdyn_agreementinvoicesetup](#BKMK_business_unit_msdyn_agreementinvoicesetup)
+- [business_unit_msdyn_agreementsubstatus](#BKMK_business_unit_msdyn_agreementsubstatus)
+- [business_unit_msdyn_aicontactsuggestion](#BKMK_business_unit_msdyn_aicontactsuggestion)
+- [business_unit_msdyn_analytics](#BKMK_business_unit_msdyn_analytics)
+- [business_unit_msdyn_analyticsadminsettings](#BKMK_business_unit_msdyn_analyticsadminsettings)
+- [business_unit_msdyn_analyticsforcs](#BKMK_business_unit_msdyn_analyticsforcs)
+- [business_unit_msdyn_appconfiguration](#BKMK_business_unit_msdyn_appconfiguration)
+- [business_unit_msdyn_applicationextension](#BKMK_business_unit_msdyn_applicationextension)
+- [business_unit_msdyn_applicationtabtemplate](#BKMK_business_unit_msdyn_applicationtabtemplate)
+- [business_unit_msdyn_appprofilerolemapping](#BKMK_business_unit_msdyn_appprofilerolemapping)
+- [business_unit_msdyn_appstate](#BKMK_business_unit_msdyn_appstate)
+- [business_unit_msdyn_assetcategorytemplateassociation](#BKMK_business_unit_msdyn_assetcategorytemplateassociation)
+- [business_unit_msdyn_assettemplateassociation](#BKMK_business_unit_msdyn_assettemplateassociation)
+- [business_unit_msdyn_assignmentconfiguration](#BKMK_business_unit_msdyn_assignmentconfiguration)
+- [business_unit_msdyn_assignmentconfigurationstep](#BKMK_business_unit_msdyn_assignmentconfigurationstep)
+- [business_unit_msdyn_assignmentmap](#BKMK_business_unit_msdyn_assignmentmap)
+- [business_unit_msdyn_assignmentrule](#BKMK_business_unit_msdyn_assignmentrule)
+- [business_unit_msdyn_attribute](#BKMK_business_unit_msdyn_attribute)
+- [business_unit_msdyn_attributevalue](#BKMK_business_unit_msdyn_attributevalue)
+- [business_unit_msdyn_authenticationsettings](#BKMK_business_unit_msdyn_authenticationsettings)
+- [business_unit_msdyn_authsettingsentry](#BKMK_business_unit_msdyn_authsettingsentry)
+- [business_unit_msdyn_autocapturerule](#BKMK_business_unit_msdyn_autocapturerule)
+- [business_unit_msdyn_autocapturesettings](#BKMK_business_unit_msdyn_autocapturesettings)
+- [business_unit_msdyn_autonomouscasecreationrule](#BKMK_business_unit_msdyn_autonomouscasecreationrule)
+- [business_unit_msdyn_bgjobledger](#BKMK_business_unit_msdyn_bgjobledger)
+- [business_unit_msdyn_bookableresourceassociation](#BKMK_business_unit_msdyn_bookableresourceassociation)
+- [business_unit_msdyn_bookableresourcebookingquicknote](#BKMK_business_unit_msdyn_bookableresourcebookingquicknote)
+- [business_unit_msdyn_bookableresourcecapacityprofile](#BKMK_business_unit_msdyn_bookableresourcecapacityprofile)
+- [business_unit_msdyn_bookingalertstatus](#BKMK_business_unit_msdyn_bookingalertstatus)
+- [business_unit_msdyn_bookingchange](#BKMK_business_unit_msdyn_bookingchange)
+- [business_unit_msdyn_bookingjournal](#BKMK_business_unit_msdyn_bookingjournal)
+- [business_unit_msdyn_bookingrule](#BKMK_business_unit_msdyn_bookingrule)
+- [business_unit_msdyn_bookingsetupmetadata](#BKMK_business_unit_msdyn_bookingsetupmetadata)
+- [business_unit_msdyn_bookingtimestamp](#BKMK_business_unit_msdyn_bookingtimestamp)
+- [business_unit_msdyn_botsession](#BKMK_business_unit_msdyn_botsession)
+- [business_unit_msdyn_businessclosure](#BKMK_business_unit_msdyn_businessclosure)
+- [business_unit_msdyn_callablecontext](#BKMK_business_unit_msdyn_callablecontext)
+- [business_unit_msdyn_capacityprofile](#BKMK_business_unit_msdyn_capacityprofile)
+- [business_unit_msdyn_cdsentityengagementctx](#BKMK_business_unit_msdyn_cdsentityengagementctx)
+- [business_unit_msdyn_channel](#BKMK_business_unit_msdyn_channel)
+- [business_unit_msdyn_channeldefinition](#BKMK_business_unit_msdyn_channeldefinition)
+- [business_unit_msdyn_channeldefinitionconsent](#BKMK_business_unit_msdyn_channeldefinitionconsent)
+- [business_unit_msdyn_channeldefinitionlocale](#BKMK_business_unit_msdyn_channeldefinitionlocale)
+- [business_unit_msdyn_channelinstance](#BKMK_business_unit_msdyn_channelinstance)
+- [business_unit_msdyn_channelinstanceaccount](#BKMK_business_unit_msdyn_channelinstanceaccount)
+- [business_unit_msdyn_channelmessageattachment](#BKMK_business_unit_msdyn_channelmessageattachment)
+- [business_unit_msdyn_channelmessagecontextpart](#BKMK_business_unit_msdyn_channelmessagecontextpart)
+- [business_unit_msdyn_channelmessagepart](#BKMK_business_unit_msdyn_channelmessagepart)
+- [business_unit_msdyn_channelprovider](#BKMK_business_unit_msdyn_channelprovider)
+- [business_unit_msdyn_chatansweroption](#BKMK_business_unit_msdyn_chatansweroption)
+- [business_unit_msdyn_chatquestionnaireresponse](#BKMK_business_unit_msdyn_chatquestionnaireresponse)
+- [business_unit_msdyn_chatquestionnaireresponseitem](#BKMK_business_unit_msdyn_chatquestionnaireresponseitem)
+- [business_unit_msdyn_chatwidgetlanguage](#BKMK_business_unit_msdyn_chatwidgetlanguage)
+- [business_unit_msdyn_clientextension](#BKMK_business_unit_msdyn_clientextension)
+- [business_unit_msdyn_configuration](#BKMK_business_unit_msdyn_configuration)
+- [business_unit_msdyn_consoleapplicationnotificationfield](#BKMK_business_unit_msdyn_consoleapplicationnotificationfield)
+- [business_unit_msdyn_consoleapplicationnotificationtemplate](#BKMK_business_unit_msdyn_consoleapplicationnotificationtemplate)
+- [business_unit_msdyn_consoleapplicationsessiontemplate](#BKMK_business_unit_msdyn_consoleapplicationsessiontemplate)
+- [business_unit_msdyn_consoleapplicationtemplate](#BKMK_business_unit_msdyn_consoleapplicationtemplate)
+- [business_unit_msdyn_consoleapplicationtemplateparameter](#BKMK_business_unit_msdyn_consoleapplicationtemplateparameter)
+- [business_unit_msdyn_consumingapplication](#BKMK_business_unit_msdyn_consumingapplication)
+- [business_unit_msdyn_contactsuggestionrule](#BKMK_business_unit_msdyn_contactsuggestionrule)
+- [business_unit_msdyn_contactsuggestionruleset](#BKMK_business_unit_msdyn_contactsuggestionruleset)
+- [business_unit_msdyn_conversationaction](#BKMK_business_unit_msdyn_conversationaction)
+- [business_unit_msdyn_conversationactionitem](#BKMK_business_unit_msdyn_conversationactionitem)
+- [business_unit_msdyn_conversationactionlocale](#BKMK_business_unit_msdyn_conversationactionlocale)
+- [business_unit_msdyn_conversationaggregatedinsights](#BKMK_business_unit_msdyn_conversationaggregatedinsights)
+- [business_unit_msdyn_conversationcomment](#BKMK_business_unit_msdyn_conversationcomment)
+- [business_unit_msdyn_conversationdata](#BKMK_business_unit_msdyn_conversationdata)
+- [business_unit_msdyn_conversationinsight](#BKMK_business_unit_msdyn_conversationinsight)
+- [business_unit_msdyn_conversationmessageblock](#BKMK_business_unit_msdyn_conversationmessageblock)
+- [business_unit_msdyn_conversationparticipantinsights](#BKMK_business_unit_msdyn_conversationparticipantinsights)
+- [business_unit_msdyn_conversationparticipantsentiment](#BKMK_business_unit_msdyn_conversationparticipantsentiment)
+- [business_unit_msdyn_conversationquestion](#BKMK_business_unit_msdyn_conversationquestion)
+- [business_unit_msdyn_conversationsegmentsentiment](#BKMK_business_unit_msdyn_conversationsegmentsentiment)
+- [business_unit_msdyn_conversationsentiment](#BKMK_business_unit_msdyn_conversationsentiment)
+- [business_unit_msdyn_conversationsignal](#BKMK_business_unit_msdyn_conversationsignal)
+- [business_unit_msdyn_conversationsubject](#BKMK_business_unit_msdyn_conversationsubject)
+- [business_unit_msdyn_conversationsummarysuggestion](#BKMK_business_unit_msdyn_conversationsummarysuggestion)
+- [business_unit_msdyn_conversationsystemtag](#BKMK_business_unit_msdyn_conversationsystemtag)
+- [business_unit_msdyn_conversationtag](#BKMK_business_unit_msdyn_conversationtag)
+- [business_unit_msdyn_copilotagentpreference](#BKMK_business_unit_msdyn_copilotagentpreference)
+- [business_unit_msdyn_copilotinteractiondata](#BKMK_business_unit_msdyn_copilotinteractiondata)
+- [business_unit_msdyn_copilottranscriptdata](#BKMK_business_unit_msdyn_copilottranscriptdata)
+- [business_unit_msdyn_crmconnection](#BKMK_business_unit_msdyn_crmconnection)
+- [business_unit_msdyn_csadminconfig](#BKMK_business_unit_msdyn_csadminconfig)
+- [business_unit_msdyn_customapirulesetconfiguration](#BKMK_business_unit_msdyn_customapirulesetconfiguration)
+- [business_unit_msdyn_customengagementctx](#BKMK_business_unit_msdyn_customengagementctx)
+- [business_unit_msdyn_customerasset](#BKMK_business_unit_msdyn_customerasset)
+- [business_unit_msdyn_customerassetattachment](#BKMK_business_unit_msdyn_customerassetattachment)
+- [business_unit_msdyn_customerassetcategory](#BKMK_business_unit_msdyn_customerassetcategory)
+- [business_unit_msdyn_dataanalyticscustomizedreport](#BKMK_business_unit_msdyn_dataanalyticscustomizedreport)
+- [business_unit_msdyn_dataanalyticsdataset](#BKMK_business_unit_msdyn_dataanalyticsdataset)
+- [business_unit_msdyn_dataanalyticsreport](#BKMK_business_unit_msdyn_dataanalyticsreport)
+- [business_unit_msdyn_dataanalyticsworkspace](#BKMK_business_unit_msdyn_dataanalyticsworkspace)
+- [business_unit_msdyn_dealmanageraccess](#BKMK_business_unit_msdyn_dealmanageraccess)
+- [business_unit_msdyn_dealmanagersettings](#BKMK_business_unit_msdyn_dealmanagersettings)
+- [business_unit_msdyn_decisioncontract](#BKMK_business_unit_msdyn_decisioncontract)
+- [business_unit_msdyn_decisionruleset](#BKMK_business_unit_msdyn_decisionruleset)
+- [business_unit_msdyn_defextendedchannelinstance](#BKMK_business_unit_msdyn_defextendedchannelinstance)
+- [business_unit_msdyn_defextendedchannelinstanceaccount](#BKMK_business_unit_msdyn_defextendedchannelinstanceaccount)
+- [business_unit_msdyn_deletedconversation](#BKMK_business_unit_msdyn_deletedconversation)
+- [business_unit_msdyn_diagnosticsdata](#BKMK_business_unit_msdyn_diagnosticsdata)
+- [business_unit_msdyn_duplicateleadmapping](#BKMK_business_unit_msdyn_duplicateleadmapping)
+- [business_unit_msdyn_effortpredictionresult](#BKMK_business_unit_msdyn_effortpredictionresult)
+- [business_unit_msdyn_entitlementapplication](#BKMK_business_unit_msdyn_entitlementapplication)
+- [business_unit_msdyn_entityattachment](#BKMK_business_unit_msdyn_entityattachment)
+- [business_unit_msdyn_entityconfig](#BKMK_business_unit_msdyn_entityconfig)
+- [business_unit_msdyn_entityconfiguration](#BKMK_business_unit_msdyn_entityconfiguration)
+- [business_unit_msdyn_entityrankingrule](#BKMK_business_unit_msdyn_entityrankingrule)
+- [business_unit_msdyn_entityroutingconfiguration](#BKMK_business_unit_msdyn_entityroutingconfiguration)
+- [business_unit_msdyn_entityworkstreammap](#BKMK_business_unit_msdyn_entityworkstreammap)
+- [business_unit_msdyn_extendedusersetting](#BKMK_business_unit_msdyn_extendedusersetting)
+- [business_unit_msdyn_facebookengagementctx](#BKMK_business_unit_msdyn_facebookengagementctx)
+- [business_unit_msdyn_fieldservicedemodatajob](#BKMK_business_unit_msdyn_fieldservicedemodatajob)
+- [business_unit_msdyn_fieldservicesetting](#BKMK_business_unit_msdyn_fieldservicesetting)
+- [business_unit_msdyn_fieldserviceslaconfiguration](#BKMK_business_unit_msdyn_fieldserviceslaconfiguration)
+- [business_unit_msdyn_fieldservicesummaryconfiguration](#BKMK_business_unit_msdyn_fieldservicesummaryconfiguration)
+- [business_unit_msdyn_flowcardtype](#BKMK_business_unit_msdyn_flowcardtype)
+- [business_unit_msdyn_forecastconfiguration](#BKMK_business_unit_msdyn_forecastconfiguration)
+- [business_unit_msdyn_forecastdefinition](#BKMK_business_unit_msdyn_forecastdefinition)
+- [business_unit_msdyn_forecastinstance](#BKMK_business_unit_msdyn_forecastinstance)
+- [business_unit_msdyn_forecastrecurrence](#BKMK_business_unit_msdyn_forecastrecurrence)
+- [business_unit_msdyn_formmapping](#BKMK_business_unit_msdyn_formmapping)
+- [business_unit_msdyn_functionallocation](#BKMK_business_unit_msdyn_functionallocation)
+- [business_unit_msdyn_functionallocationtype](#BKMK_business_unit_msdyn_functionallocationtype)
+- [business_unit_msdyn_gdprdata](#BKMK_business_unit_msdyn_gdprdata)
+- [business_unit_msdyn_geofence](#BKMK_business_unit_msdyn_geofence)
+- [business_unit_msdyn_geofenceevent](#BKMK_business_unit_msdyn_geofenceevent)
+- [business_unit_msdyn_geofencingsettings](#BKMK_business_unit_msdyn_geofencingsettings)
+- [business_unit_msdyn_guideauthorsession](#BKMK_business_unit_msdyn_guideauthorsession)
+- [business_unit_msdyn_icdextension](#BKMK_business_unit_msdyn_icdextension)
+- [business_unit_msdyn_icebreakersconfig](#BKMK_business_unit_msdyn_icebreakersconfig)
+- [business_unit_msdyn_iermlmodel](#BKMK_business_unit_msdyn_iermlmodel)
+- [business_unit_msdyn_iermltraining](#BKMK_business_unit_msdyn_iermltraining)
+- [business_unit_msdyn_incidenttype](#BKMK_business_unit_msdyn_incidenttype)
+- [business_unit_msdyn_incidenttype_requirementgroup](#BKMK_business_unit_msdyn_incidenttype_requirementgroup)
+- [business_unit_msdyn_incidenttypecharacteristic](#BKMK_business_unit_msdyn_incidenttypecharacteristic)
+- [business_unit_msdyn_incidenttypeproduct](#BKMK_business_unit_msdyn_incidenttypeproduct)
+- [business_unit_msdyn_incidenttyperecommendationresult](#BKMK_business_unit_msdyn_incidenttyperecommendationresult)
+- [business_unit_msdyn_incidenttyperecommendationrunhistory](#BKMK_business_unit_msdyn_incidenttyperecommendationrunhistory)
+- [business_unit_msdyn_incidenttyperesolution](#BKMK_business_unit_msdyn_incidenttyperesolution)
+- [business_unit_msdyn_incidenttypeservice](#BKMK_business_unit_msdyn_incidenttypeservice)
+- [business_unit_msdyn_incidenttypeservicetask](#BKMK_business_unit_msdyn_incidenttypeservicetask)
+- [business_unit_msdyn_incidenttypessetup](#BKMK_business_unit_msdyn_incidenttypessetup)
+- [business_unit_msdyn_inspection](#BKMK_business_unit_msdyn_inspection)
+- [business_unit_msdyn_inspectionattachment](#BKMK_business_unit_msdyn_inspectionattachment)
+- [business_unit_msdyn_inspectiondefinition](#BKMK_business_unit_msdyn_inspectiondefinition)
+- [business_unit_msdyn_inspectioninstance](#BKMK_business_unit_msdyn_inspectioninstance)
+- [business_unit_msdyn_inspectionresponse](#BKMK_business_unit_msdyn_inspectionresponse)
+- [business_unit_msdyn_insurance](#BKMK_business_unit_msdyn_insurance)
+- [business_unit_msdyn_intent](#BKMK_business_unit_msdyn_intent)
+- [business_unit_msdyn_inventoryadjustment](#BKMK_business_unit_msdyn_inventoryadjustment)
+- [business_unit_msdyn_inventoryadjustmentproduct](#BKMK_business_unit_msdyn_inventoryadjustmentproduct)
+- [business_unit_msdyn_inventoryjournal](#BKMK_business_unit_msdyn_inventoryjournal)
+- [business_unit_msdyn_inventorytransfer](#BKMK_business_unit_msdyn_inventorytransfer)
+- [business_unit_msdyn_iotalert](#BKMK_business_unit_msdyn_iotalert)
+- [business_unit_msdyn_iotdevice](#BKMK_business_unit_msdyn_iotdevice)
+- [business_unit_msdyn_iotdevicecategory](#BKMK_business_unit_msdyn_iotdevicecategory)
+- [business_unit_msdyn_iotdevicecommand](#BKMK_business_unit_msdyn_iotdevicecommand)
+- [business_unit_msdyn_iotdevicecommanddefinition](#BKMK_business_unit_msdyn_iotdevicecommanddefinition)
+- [business_unit_msdyn_iotdevicedatahistory](#BKMK_business_unit_msdyn_iotdevicedatahistory)
+- [business_unit_msdyn_iotdeviceproperty](#BKMK_business_unit_msdyn_iotdeviceproperty)
+- [business_unit_msdyn_iotdeviceregistrationhistory](#BKMK_business_unit_msdyn_iotdeviceregistrationhistory)
+- [business_unit_msdyn_iotdevicevisualizationconfiguration](#BKMK_business_unit_msdyn_iotdevicevisualizationconfiguration)
+- [business_unit_msdyn_iotfieldmapping](#BKMK_business_unit_msdyn_iotfieldmapping)
+- [business_unit_msdyn_iotpropertydefinition](#BKMK_business_unit_msdyn_iotpropertydefinition)
+- [business_unit_msdyn_iotprovider](#BKMK_business_unit_msdyn_iotprovider)
+- [business_unit_msdyn_iotproviderinstance](#BKMK_business_unit_msdyn_iotproviderinstance)
+- [business_unit_msdyn_iotsettings](#BKMK_business_unit_msdyn_iotsettings)
+- [business_unit_msdyn_jobsstate](#BKMK_business_unit_msdyn_jobsstate)
+- [business_unit_msdyn_kpieventdata](#BKMK_business_unit_msdyn_kpieventdata)
+- [business_unit_msdyn_kpieventdefinition](#BKMK_business_unit_msdyn_kpieventdefinition)
+- [business_unit_msdyn_leadmodelconfig](#BKMK_business_unit_msdyn_leadmodelconfig)
+- [business_unit_msdyn_lineengagementctx](#BKMK_business_unit_msdyn_lineengagementctx)
+- [business_unit_msdyn_livechatconfig](#BKMK_business_unit_msdyn_livechatconfig)
+- [business_unit_msdyn_livechatengagementctx](#BKMK_business_unit_msdyn_livechatengagementctx)
+- [business_unit_msdyn_livechatwidgetlocation](#BKMK_business_unit_msdyn_livechatwidgetlocation)
+- [business_unit_msdyn_liveconversation](#BKMK_business_unit_msdyn_liveconversation)
+- [business_unit_msdyn_liveworkitemevent](#BKMK_business_unit_msdyn_liveworkitemevent)
+- [business_unit_msdyn_liveworkstream](#BKMK_business_unit_msdyn_liveworkstream)
+- [business_unit_msdyn_liveworkstreamcapacityprofile](#BKMK_business_unit_msdyn_liveworkstreamcapacityprofile)
+- [business_unit_msdyn_locationtemplateassociation](#BKMK_business_unit_msdyn_locationtemplateassociation)
+- [business_unit_msdyn_locationtypetemplateassociation](#BKMK_business_unit_msdyn_locationtypetemplateassociation)
+- [business_unit_msdyn_lockstatus](#BKMK_business_unit_msdyn_lockstatus)
+- [business_unit_msdyn_macrosession](#BKMK_business_unit_msdyn_macrosession)
+- [business_unit_msdyn_masterentityroutingconfiguration](#BKMK_business_unit_msdyn_masterentityroutingconfiguration)
+- [business_unit_msdyn_migrationtracker](#BKMK_business_unit_msdyn_migrationtracker)
+- [business_unit_msdyn_mobilesource](#BKMK_business_unit_msdyn_mobilesource)
+- [business_unit_msdyn_modelpreviewstatus](#BKMK_business_unit_msdyn_modelpreviewstatus)
+- [business_unit_msdyn_mrappsession](#BKMK_business_unit_msdyn_mrappsession)
+- [business_unit_msdyn_mrasjob](#BKMK_business_unit_msdyn_mrasjob)
+- [business_unit_msdyn_mrfolder](#BKMK_business_unit_msdyn_mrfolder)
+- [business_unit_msdyn_msteamssetting](#BKMK_business_unit_msdyn_msteamssetting)
+- [business_unit_msdyn_notesanalysisconfig](#BKMK_business_unit_msdyn_notesanalysisconfig)
+- [business_unit_msdyn_notificationfield](#BKMK_business_unit_msdyn_notificationfield)
+- [business_unit_msdyn_notificationtemplate](#BKMK_business_unit_msdyn_notificationtemplate)
+- [business_unit_msdyn_nottoexceed](#BKMK_business_unit_msdyn_nottoexceed)
+- [business_unit_msdyn_objectanchor](#BKMK_business_unit_msdyn_objectanchor)
+- [business_unit_msdyn_oc_geolocationprovider](#BKMK_business_unit_msdyn_oc_geolocationprovider)
+- [business_unit_msdyn_ocagentassignedcustomapiprivilege](#BKMK_business_unit_msdyn_ocagentassignedcustomapiprivilege)
+- [business_unit_msdyn_ocapplebusinessaccount](#BKMK_business_unit_msdyn_ocapplebusinessaccount)
+- [business_unit_msdyn_ocapplemessagesforbusinessengagementctx](#BKMK_business_unit_msdyn_ocapplemessagesforbusinessengagementctx)
+- [business_unit_msdyn_ocapplepay](#BKMK_business_unit_msdyn_ocapplepay)
+- [business_unit_msdyn_ocautoblockrule](#BKMK_business_unit_msdyn_ocautoblockrule)
+- [business_unit_msdyn_ocbotchannelregistration](#BKMK_business_unit_msdyn_ocbotchannelregistration)
+- [business_unit_msdyn_ocbotchannelregistrationsecret](#BKMK_business_unit_msdyn_ocbotchannelregistrationsecret)
+- [business_unit_msdyn_occarrier](#BKMK_business_unit_msdyn_occarrier)
+- [business_unit_msdyn_occhannelapiconversationprivilege](#BKMK_business_unit_msdyn_occhannelapiconversationprivilege)
+- [business_unit_msdyn_occhannelapimessageprivilege](#BKMK_business_unit_msdyn_occhannelapimessageprivilege)
+- [business_unit_msdyn_occhannelapimethodmapping](#BKMK_business_unit_msdyn_occhannelapimethodmapping)
+- [business_unit_msdyn_occommunicationprovidersetting](#BKMK_business_unit_msdyn_occommunicationprovidersetting)
+- [business_unit_msdyn_occommunicationprovidersettingentry](#BKMK_business_unit_msdyn_occommunicationprovidersettingentry)
+- [business_unit_msdyn_occustommessagingchannel](#BKMK_business_unit_msdyn_occustommessagingchannel)
+- [business_unit_msdyn_ocexternalcontext](#BKMK_business_unit_msdyn_ocexternalcontext)
+- [business_unit_msdyn_ocfbapplication](#BKMK_business_unit_msdyn_ocfbapplication)
+- [business_unit_msdyn_ocfbpage](#BKMK_business_unit_msdyn_ocfbpage)
+- [business_unit_msdyn_ocflaggedspam](#BKMK_business_unit_msdyn_ocflaggedspam)
+- [business_unit_msdyn_ocgatekeeperengagementctx](#BKMK_business_unit_msdyn_ocgatekeeperengagementctx)
+- [business_unit_msdyn_ocgooglebusinessmessagesagentaccount](#BKMK_business_unit_msdyn_ocgooglebusinessmessagesagentaccount)
+- [business_unit_msdyn_ocgooglebusinessmessagesengagementctx](#BKMK_business_unit_msdyn_ocgooglebusinessmessagesengagementctx)
+- [business_unit_msdyn_ocgooglebusinessmessagespartneraccount](#BKMK_business_unit_msdyn_ocgooglebusinessmessagespartneraccount)
+- [business_unit_msdyn_oclanguage](#BKMK_business_unit_msdyn_oclanguage)
+- [business_unit_msdyn_oclinechannelconfig](#BKMK_business_unit_msdyn_oclinechannelconfig)
+- [business_unit_msdyn_ocliveworkitemcapacityprofile](#BKMK_business_unit_msdyn_ocliveworkitemcapacityprofile)
+- [business_unit_msdyn_ocliveworkitemcharacteristic](#BKMK_business_unit_msdyn_ocliveworkitemcharacteristic)
+- [business_unit_msdyn_ocliveworkitemcontextitem](#BKMK_business_unit_msdyn_ocliveworkitemcontextitem)
+- [business_unit_msdyn_ocliveworkitemparticipant](#BKMK_business_unit_msdyn_ocliveworkitemparticipant)
+- [business_unit_msdyn_ocliveworkitemsentiment](#BKMK_business_unit_msdyn_ocliveworkitemsentiment)
+- [business_unit_msdyn_ocliveworkstreamcontextvariable](#BKMK_business_unit_msdyn_ocliveworkstreamcontextvariable)
+- [business_unit_msdyn_ocoutboundconfiguration](#BKMK_business_unit_msdyn_ocoutboundconfiguration)
+- [business_unit_msdyn_ocpaymentprofile](#BKMK_business_unit_msdyn_ocpaymentprofile)
+- [business_unit_msdyn_ocphonecallengagementctx](#BKMK_business_unit_msdyn_ocphonecallengagementctx)
+- [business_unit_msdyn_ocphonemusic](#BKMK_business_unit_msdyn_ocphonemusic)
+- [business_unit_msdyn_ocphonenumber](#BKMK_business_unit_msdyn_ocphonenumber)
+- [business_unit_msdyn_ocprovisioningstate](#BKMK_business_unit_msdyn_ocprovisioningstate)
+- [business_unit_msdyn_ocrecording](#BKMK_business_unit_msdyn_ocrecording)
+- [business_unit_msdyn_ocrequest](#BKMK_business_unit_msdyn_ocrequest)
+- [business_unit_msdyn_ocrichobject](#BKMK_business_unit_msdyn_ocrichobject)
+- [business_unit_msdyn_ocrichobjectmap](#BKMK_business_unit_msdyn_ocrichobjectmap)
+- [business_unit_msdyn_ocruleitem](#BKMK_business_unit_msdyn_ocruleitem)
+- [business_unit_msdyn_ocsentimentdailytopic](#BKMK_business_unit_msdyn_ocsentimentdailytopic)
+- [business_unit_msdyn_ocsentimentdailytopickeyword](#BKMK_business_unit_msdyn_ocsentimentdailytopickeyword)
+- [business_unit_msdyn_ocsentimentdailytopictrending](#BKMK_business_unit_msdyn_ocsentimentdailytopictrending)
+- [business_unit_msdyn_ocsessioncharacteristic](#BKMK_business_unit_msdyn_ocsessioncharacteristic)
+- [business_unit_msdyn_ocsessionparticipantevent](#BKMK_business_unit_msdyn_ocsessionparticipantevent)
+- [business_unit_msdyn_ocsessionsentiment](#BKMK_business_unit_msdyn_ocsessionsentiment)
+- [business_unit_msdyn_ocsimltraining](#BKMK_business_unit_msdyn_ocsimltraining)
+- [business_unit_msdyn_ocsitdimportconfig](#BKMK_business_unit_msdyn_ocsitdimportconfig)
+- [business_unit_msdyn_ocsitdskill](#BKMK_business_unit_msdyn_ocsitdskill)
+- [business_unit_msdyn_ocsitrainingdata](#BKMK_business_unit_msdyn_ocsitrainingdata)
+- [business_unit_msdyn_ocskillidentmlmodel](#BKMK_business_unit_msdyn_ocskillidentmlmodel)
+- [business_unit_msdyn_ocsmssettingsecret](#BKMK_business_unit_msdyn_ocsmssettingsecret)
+- [business_unit_msdyn_octeamschannelconfig](#BKMK_business_unit_msdyn_octeamschannelconfig)
+- [business_unit_msdyn_octwitterapplication](#BKMK_business_unit_msdyn_octwitterapplication)
+- [business_unit_msdyn_octwitterhandle](#BKMK_business_unit_msdyn_octwitterhandle)
+- [business_unit_msdyn_octwitterhandleprovisioningstatus](#BKMK_business_unit_msdyn_octwitterhandleprovisioningstatus)
+- [business_unit_msdyn_octwitterhandlesecret](#BKMK_business_unit_msdyn_octwitterhandlesecret)
+- [business_unit_msdyn_ocvoice](#BKMK_business_unit_msdyn_ocvoice)
+- [business_unit_msdyn_ocvoicechannellanguagesetting](#BKMK_business_unit_msdyn_ocvoicechannellanguagesetting)
+- [business_unit_msdyn_ocvoicechannelsetting](#BKMK_business_unit_msdyn_ocvoicechannelsetting)
+- [business_unit_msdyn_ocwechatchannelconfig](#BKMK_business_unit_msdyn_ocwechatchannelconfig)
+- [business_unit_msdyn_ocwhatsappchannelaccount](#BKMK_business_unit_msdyn_ocwhatsappchannelaccount)
+- [business_unit_msdyn_ocwhatsappchannelnumber](#BKMK_business_unit_msdyn_ocwhatsappchannelnumber)
+- [business_unit_msdyn_omnichannelpersonalization](#BKMK_business_unit_msdyn_omnichannelpersonalization)
+- [business_unit_msdyn_omnichannelqueue](#BKMK_business_unit_msdyn_omnichannelqueue)
+- [business_unit_msdyn_omnichannelsyncconfig](#BKMK_business_unit_msdyn_omnichannelsyncconfig)
+- [business_unit_msdyn_operatinghour](#BKMK_business_unit_msdyn_operatinghour)
+- [business_unit_msdyn_opportunitymodelconfig](#BKMK_business_unit_msdyn_opportunitymodelconfig)
+- [business_unit_msdyn_optimizationrequestbooking](#BKMK_business_unit_msdyn_optimizationrequestbooking)
+- [business_unit_msdyn_optimizationrequestresource](#BKMK_business_unit_msdyn_optimizationrequestresource)
+- [business_unit_msdyn_orderedobjective](#BKMK_business_unit_msdyn_orderedobjective)
+- [business_unit_msdyn_orderinvoicingdate](#BKMK_business_unit_msdyn_orderinvoicingdate)
+- [business_unit_msdyn_orderinvoicingproduct](#BKMK_business_unit_msdyn_orderinvoicingproduct)
+- [business_unit_msdyn_orderinvoicingsetup](#BKMK_business_unit_msdyn_orderinvoicingsetup)
+- [business_unit_msdyn_orderinvoicingsetupdate](#BKMK_business_unit_msdyn_orderinvoicingsetupdate)
+- [business_unit_msdyn_orgchartnode](#BKMK_business_unit_msdyn_orgchartnode)
+- [business_unit_msdyn_overflowactionconfig](#BKMK_business_unit_msdyn_overflowactionconfig)
+- [business_unit_msdyn_payment](#BKMK_business_unit_msdyn_payment)
+- [business_unit_msdyn_paymentdetail](#BKMK_business_unit_msdyn_paymentdetail)
+- [business_unit_msdyn_paymentmethod](#BKMK_business_unit_msdyn_paymentmethod)
+- [business_unit_msdyn_paymentterm](#BKMK_business_unit_msdyn_paymentterm)
+- [business_unit_msdyn_personalmessage](#BKMK_business_unit_msdyn_personalmessage)
+- [business_unit_msdyn_personalsoundsetting](#BKMK_business_unit_msdyn_personalsoundsetting)
+- [business_unit_msdyn_playbookactivity](#BKMK_business_unit_msdyn_playbookactivity)
+- [business_unit_msdyn_playbookactivityattribute](#BKMK_business_unit_msdyn_playbookactivityattribute)
+- [business_unit_msdyn_playbookcategory](#BKMK_business_unit_msdyn_playbookcategory)
+- [business_unit_msdyn_playbookinstance](#BKMK_business_unit_msdyn_playbookinstance)
+- [business_unit_msdyn_playbooktemplate](#BKMK_business_unit_msdyn_playbooktemplate)
+- [business_unit_msdyn_postalbum](#BKMK_business_unit_msdyn_postalbum)
+- [business_unit_msdyn_postalcode](#BKMK_business_unit_msdyn_postalcode)
+- [business_unit_msdyn_predictioncomputationoperation](#BKMK_business_unit_msdyn_predictioncomputationoperation)
+- [business_unit_msdyn_predictionmodelstatus](#BKMK_business_unit_msdyn_predictionmodelstatus)
+- [business_unit_msdyn_predictionscheduledoperation](#BKMK_business_unit_msdyn_predictionscheduledoperation)
+- [business_unit_msdyn_predictivescoringsyncstatus](#BKMK_business_unit_msdyn_predictivescoringsyncstatus)
+- [business_unit_msdyn_preferredagent](#BKMK_business_unit_msdyn_preferredagent)
+- [business_unit_msdyn_preferredagentcustomeridentity](#BKMK_business_unit_msdyn_preferredagentcustomeridentity)
+- [business_unit_msdyn_preferredagentroutedentity](#BKMK_business_unit_msdyn_preferredagentroutedentity)
+- [business_unit_msdyn_priority](#BKMK_business_unit_msdyn_priority)
+- [business_unit_msdyn_problematicasset](#BKMK_business_unit_msdyn_problematicasset)
+- [business_unit_msdyn_problematicassetfeedback](#BKMK_business_unit_msdyn_problematicassetfeedback)
+- [business_unit_msdyn_productivityactioninputparameter](#BKMK_business_unit_msdyn_productivityactioninputparameter)
+- [business_unit_msdyn_productivityactionoutputparameter](#BKMK_business_unit_msdyn_productivityactionoutputparameter)
+- [business_unit_msdyn_productivityagentscript](#BKMK_business_unit_msdyn_productivityagentscript)
+- [business_unit_msdyn_productivityagentscriptstep](#BKMK_business_unit_msdyn_productivityagentscriptstep)
+- [business_unit_msdyn_productivitymacroactiontemplate](#BKMK_business_unit_msdyn_productivitymacroactiontemplate)
+- [business_unit_msdyn_productivitymacroconnector](#BKMK_business_unit_msdyn_productivitymacroconnector)
+- [business_unit_msdyn_productivitymacrosolutionconfiguration](#BKMK_business_unit_msdyn_productivitymacrosolutionconfiguration)
+- [business_unit_msdyn_productivityparameterdefinition](#BKMK_business_unit_msdyn_productivityparameterdefinition)
+- [business_unit_msdyn_property](#BKMK_business_unit_msdyn_property)
+- [business_unit_msdyn_propertyassetassociation](#BKMK_business_unit_msdyn_propertyassetassociation)
+- [business_unit_msdyn_propertylocationassociation](#BKMK_business_unit_msdyn_propertylocationassociation)
+- [business_unit_msdyn_propertylog](#BKMK_business_unit_msdyn_propertylog)
+- [business_unit_msdyn_propertytemplateassociation](#BKMK_business_unit_msdyn_propertytemplateassociation)
+- [business_unit_msdyn_purchaseorder](#BKMK_business_unit_msdyn_purchaseorder)
+- [business_unit_msdyn_purchaseorderbill](#BKMK_business_unit_msdyn_purchaseorderbill)
+- [business_unit_msdyn_purchaseorderproduct](#BKMK_business_unit_msdyn_purchaseorderproduct)
+- [business_unit_msdyn_purchaseorderreceipt](#BKMK_business_unit_msdyn_purchaseorderreceipt)
+- [business_unit_msdyn_purchaseorderreceiptproduct](#BKMK_business_unit_msdyn_purchaseorderreceiptproduct)
+- [business_unit_msdyn_purchaseordersubstatus](#BKMK_business_unit_msdyn_purchaseordersubstatus)
+- [business_unit_msdyn_questionsequence](#BKMK_business_unit_msdyn_questionsequence)
+- [business_unit_msdyn_quotebookingincident](#BKMK_business_unit_msdyn_quotebookingincident)
+- [business_unit_msdyn_quotebookingproduct](#BKMK_business_unit_msdyn_quotebookingproduct)
+- [business_unit_msdyn_quotebookingservice](#BKMK_business_unit_msdyn_quotebookingservice)
+- [business_unit_msdyn_quotebookingservicetask](#BKMK_business_unit_msdyn_quotebookingservicetask)
+- [business_unit_msdyn_quotebookingsetup](#BKMK_business_unit_msdyn_quotebookingsetup)
+- [business_unit_msdyn_quoteinvoicingproduct](#BKMK_business_unit_msdyn_quoteinvoicingproduct)
+- [business_unit_msdyn_quoteinvoicingsetup](#BKMK_business_unit_msdyn_quoteinvoicingsetup)
+- [business_unit_msdyn_readtracker](#BKMK_business_unit_msdyn_readtracker)
+- [business_unit_msdyn_realtimescoring](#BKMK_business_unit_msdyn_realtimescoring)
+- [business_unit_msdyn_realtimescoringoperation](#BKMK_business_unit_msdyn_realtimescoringoperation)
+- [business_unit_msdyn_recording](#BKMK_business_unit_msdyn_recording)
+- [business_unit_msdyn_relationshipinsightsunifiedconfig](#BKMK_business_unit_msdyn_relationshipinsightsunifiedconfig)
+- [business_unit_msdyn_reportbookmark](#BKMK_business_unit_msdyn_reportbookmark)
+- [business_unit_msdyn_requirementchange](#BKMK_business_unit_msdyn_requirementchange)
+- [business_unit_msdyn_requirementcharacteristic](#BKMK_business_unit_msdyn_requirementcharacteristic)
+- [business_unit_msdyn_requirementdependency](#BKMK_business_unit_msdyn_requirementdependency)
+- [business_unit_msdyn_requirementgroup](#BKMK_business_unit_msdyn_requirementgroup)
+- [business_unit_msdyn_requirementorganizationunit](#BKMK_business_unit_msdyn_requirementorganizationunit)
+- [business_unit_msdyn_requirementrelationship](#BKMK_business_unit_msdyn_requirementrelationship)
+- [business_unit_msdyn_requirementresourcecategory](#BKMK_business_unit_msdyn_requirementresourcecategory)
+- [business_unit_msdyn_requirementresourcepreference](#BKMK_business_unit_msdyn_requirementresourcepreference)
+- [business_unit_msdyn_requirementstatus](#BKMK_business_unit_msdyn_requirementstatus)
+- [business_unit_msdyn_resolution](#BKMK_business_unit_msdyn_resolution)
+- [business_unit_msdyn_resourcepaytype](#BKMK_business_unit_msdyn_resourcepaytype)
+- [business_unit_msdyn_resourcerequirement](#BKMK_business_unit_msdyn_resourcerequirement)
+- [business_unit_msdyn_resourcerequirementdetail](#BKMK_business_unit_msdyn_resourcerequirementdetail)
+- [business_unit_msdyn_resourceterritory](#BKMK_business_unit_msdyn_resourceterritory)
+- [business_unit_msdyn_rma](#BKMK_business_unit_msdyn_rma)
+- [business_unit_msdyn_rmaproduct](#BKMK_business_unit_msdyn_rmaproduct)
+- [business_unit_msdyn_rmareceipt](#BKMK_business_unit_msdyn_rmareceipt)
+- [business_unit_msdyn_rmareceiptproduct](#BKMK_business_unit_msdyn_rmareceiptproduct)
+- [business_unit_msdyn_rmasubstatus](#BKMK_business_unit_msdyn_rmasubstatus)
+- [business_unit_msdyn_routingconfiguration](#BKMK_business_unit_msdyn_routingconfiguration)
+- [business_unit_msdyn_routingconfigurationstep](#BKMK_business_unit_msdyn_routingconfigurationstep)
+- [business_unit_msdyn_routingengineconfiguration](#BKMK_business_unit_msdyn_routingengineconfiguration)
+- [business_unit_msdyn_routingjobconfiguration](#BKMK_business_unit_msdyn_routingjobconfiguration)
+- [business_unit_msdyn_routingoptimizationrequest](#BKMK_business_unit_msdyn_routingoptimizationrequest)
+- [business_unit_msdyn_routingprofileconfiguration](#BKMK_business_unit_msdyn_routingprofileconfiguration)
+- [business_unit_msdyn_routingrequest](#BKMK_business_unit_msdyn_routingrequest)
+- [business_unit_msdyn_rtv](#BKMK_business_unit_msdyn_rtv)
+- [business_unit_msdyn_rtvproduct](#BKMK_business_unit_msdyn_rtvproduct)
+- [business_unit_msdyn_rtvsubstatus](#BKMK_business_unit_msdyn_rtvsubstatus)
+- [business_unit_msdyn_rulesetdependencymapping](#BKMK_business_unit_msdyn_rulesetdependencymapping)
+- [business_unit_msdyn_salescopilotinsight](#BKMK_business_unit_msdyn_salescopilotinsight)
+- [business_unit_msdyn_salesinsightssettings](#BKMK_business_unit_msdyn_salesinsightssettings)
+- [business_unit_msdyn_salesocmessage](#BKMK_business_unit_msdyn_salesocmessage)
+- [business_unit_msdyn_salesocsmstemplate](#BKMK_business_unit_msdyn_salesocsmstemplate)
+- [business_unit_msdyn_salesroutingrun](#BKMK_business_unit_msdyn_salesroutingrun)
+- [business_unit_msdyn_salessuggestion](#BKMK_business_unit_msdyn_salessuggestion)
+- [business_unit_msdyn_salestag](#BKMK_business_unit_msdyn_salestag)
+- [business_unit_msdyn_scenario](#BKMK_business_unit_msdyn_scenario)
+- [business_unit_msdyn_scheduleboardsetting](#BKMK_business_unit_msdyn_scheduleboardsetting)
+- [business_unit_msdyn_schedulingfeatureflag](#BKMK_business_unit_msdyn_schedulingfeatureflag)
+- [business_unit_msdyn_sciconversation](#BKMK_business_unit_msdyn_sciconversation)
+- [business_unit_msdyn_scicustomemailhighlight](#BKMK_business_unit_msdyn_scicustomemailhighlight)
+- [business_unit_msdyn_scicustomhighlight](#BKMK_business_unit_msdyn_scicustomhighlight)
+- [business_unit_msdyn_scicustompublisher](#BKMK_business_unit_msdyn_scicustompublisher)
+- [business_unit_msdyn_sciusersettings](#BKMK_business_unit_msdyn_sciusersettings)
+- [business_unit_msdyn_searchconfiguration](#BKMK_business_unit_msdyn_searchconfiguration)
+- [business_unit_msdyn_segment](#BKMK_business_unit_msdyn_segment)
+- [business_unit_msdyn_sequence](#BKMK_business_unit_msdyn_sequence)
+- [business_unit_msdyn_sequencestat](#BKMK_business_unit_msdyn_sequencestat)
+- [business_unit_msdyn_sequencetarget](#BKMK_business_unit_msdyn_sequencetarget)
+- [business_unit_msdyn_sequencetargetstep](#BKMK_business_unit_msdyn_sequencetargetstep)
+- [business_unit_msdyn_sequencetemplate](#BKMK_business_unit_msdyn_sequencetemplate)
+- [business_unit_msdyn_serviceoneprovisioningrequest](#BKMK_business_unit_msdyn_serviceoneprovisioningrequest)
+- [business_unit_msdyn_servicetasktype](#BKMK_business_unit_msdyn_servicetasktype)
+- [business_unit_msdyn_sessiondata](#BKMK_business_unit_msdyn_sessiondata)
+- [business_unit_msdyn_sessionevent](#BKMK_business_unit_msdyn_sessionevent)
+- [business_unit_msdyn_sessionparticipant](#BKMK_business_unit_msdyn_sessionparticipant)
+- [business_unit_msdyn_sessionparticipantdata](#BKMK_business_unit_msdyn_sessionparticipantdata)
+- [business_unit_msdyn_sessiontemplate](#BKMK_business_unit_msdyn_sessiontemplate)
+- [business_unit_msdyn_shipvia](#BKMK_business_unit_msdyn_shipvia)
+- [business_unit_msdyn_siconfig](#BKMK_business_unit_msdyn_siconfig)
+- [business_unit_msdyn_skillattachmentruleitem](#BKMK_business_unit_msdyn_skillattachmentruleitem)
+- [business_unit_msdyn_skillattachmenttarget](#BKMK_business_unit_msdyn_skillattachmenttarget)
+- [business_unit_msdyn_smsengagementctx](#BKMK_business_unit_msdyn_smsengagementctx)
+- [business_unit_msdyn_smsnumber](#BKMK_business_unit_msdyn_smsnumber)
+- [business_unit_msdyn_soundnotificationsetting](#BKMK_business_unit_msdyn_soundnotificationsetting)
+- [business_unit_msdyn_submodeldefinition](#BKMK_business_unit_msdyn_submodeldefinition)
+- [business_unit_msdyn_suggestionassignmentrule](#BKMK_business_unit_msdyn_suggestionassignmentrule)
+- [business_unit_msdyn_suggestionprincipalobjectaccess](#BKMK_business_unit_msdyn_suggestionprincipalobjectaccess)
+- [business_unit_msdyn_suggestionsellerpriority](#BKMK_business_unit_msdyn_suggestionsellerpriority)
+- [business_unit_msdyn_surveyquestion](#BKMK_business_unit_msdyn_surveyquestion)
+- [business_unit_msdyn_swarm](#BKMK_business_unit_msdyn_swarm)
+- [business_unit_msdyn_swarmparticipant](#BKMK_business_unit_msdyn_swarmparticipant)
+- [business_unit_msdyn_swarmparticipantrule](#BKMK_business_unit_msdyn_swarmparticipantrule)
+- [business_unit_msdyn_swarmrole](#BKMK_business_unit_msdyn_swarmrole)
+- [business_unit_msdyn_swarmskill](#BKMK_business_unit_msdyn_swarmskill)
+- [business_unit_msdyn_swarmtemplate](#BKMK_business_unit_msdyn_swarmtemplate)
+- [business_unit_msdyn_systemuserschedulersetting](#BKMK_business_unit_msdyn_systemuserschedulersetting)
+- [business_unit_msdyn_taggedrecord](#BKMK_business_unit_msdyn_taggedrecord)
+- [business_unit_msdyn_taxcode](#BKMK_business_unit_msdyn_taxcode)
+- [business_unit_msdyn_taxcodedetail](#BKMK_business_unit_msdyn_taxcodedetail)
+- [business_unit_msdyn_teamschannelengagementctx](#BKMK_business_unit_msdyn_teamschannelengagementctx)
+- [business_unit_msdyn_teamsengagementctx](#BKMK_business_unit_msdyn_teamsengagementctx)
+- [business_unit_msdyn_templateforproperties](#BKMK_business_unit_msdyn_templateforproperties)
+- [business_unit_msdyn_templateparameter](#BKMK_business_unit_msdyn_templateparameter)
+- [business_unit_msdyn_templatetags](#BKMK_business_unit_msdyn_templatetags)
+- [business_unit_msdyn_timeentry](#BKMK_business_unit_msdyn_timeentry)
+- [business_unit_msdyn_timeentrysetting](#BKMK_business_unit_msdyn_timeentrysetting)
+- [business_unit_msdyn_timegroup](#BKMK_business_unit_msdyn_timegroup)
+- [business_unit_msdyn_timegroupdetail](#BKMK_business_unit_msdyn_timegroupdetail)
+- [business_unit_msdyn_timeoffrequest](#BKMK_business_unit_msdyn_timeoffrequest)
+- [business_unit_msdyn_timespent](#BKMK_business_unit_msdyn_timespent)
+- [business_unit_msdyn_trade](#BKMK_business_unit_msdyn_trade)
+- [business_unit_msdyn_tradecoverage](#BKMK_business_unit_msdyn_tradecoverage)
+- [business_unit_msdyn_trainingresult](#BKMK_business_unit_msdyn_trainingresult)
+- [business_unit_msdyn_transactionorigin](#BKMK_business_unit_msdyn_transactionorigin)
+- [business_unit_msdyn_transcript](#BKMK_business_unit_msdyn_transcript)
+- [business_unit_msdyn_twitterengagementctx](#BKMK_business_unit_msdyn_twitterengagementctx)
+- [business_unit_msdyn_unifiedroutingdiagnostic](#BKMK_business_unit_msdyn_unifiedroutingdiagnostic)
+- [business_unit_msdyn_unifiedroutingrun](#BKMK_business_unit_msdyn_unifiedroutingrun)
+- [business_unit_msdyn_untrackedappointment](#BKMK_business_unit_msdyn_untrackedappointment)
+- [business_unit_msdyn_urnotificationtemplate](#BKMK_business_unit_msdyn_urnotificationtemplate)
+- [business_unit_msdyn_urnotificationtemplatemapping](#BKMK_business_unit_msdyn_urnotificationtemplatemapping)
+- [business_unit_msdyn_visitorjourney](#BKMK_business_unit_msdyn_visitorjourney)
+- [business_unit_msdyn_vivacustomerlist](#BKMK_business_unit_msdyn_vivacustomerlist)
+- [business_unit_msdyn_vivausersetting](#BKMK_business_unit_msdyn_vivausersetting)
+- [business_unit_msdyn_voicechannelorganizationsetting](#BKMK_business_unit_msdyn_voicechannelorganizationsetting)
+- [business_unit_msdyn_wallsavedqueryusersettings](#BKMK_business_unit_msdyn_wallsavedqueryusersettings)
+- [business_unit_msdyn_warehouse](#BKMK_business_unit_msdyn_warehouse)
+- [business_unit_msdyn_warranty](#BKMK_business_unit_msdyn_warranty)
+- [business_unit_msdyn_wechatengagementctx](#BKMK_business_unit_msdyn_wechatengagementctx)
+- [business_unit_msdyn_whatsappengagementctx](#BKMK_business_unit_msdyn_whatsappengagementctx)
+- [business_unit_msdyn_wkwconfig](#BKMK_business_unit_msdyn_wkwconfig)
+- [business_unit_msdyn_workhourtemplate](#BKMK_business_unit_msdyn_workhourtemplate)
+- [business_unit_msdyn_workorder](#BKMK_business_unit_msdyn_workorder)
+- [business_unit_msdyn_workordercharacteristic](#BKMK_business_unit_msdyn_workordercharacteristic)
+- [business_unit_msdyn_workorderincident](#BKMK_business_unit_msdyn_workorderincident)
+- [business_unit_msdyn_workordernte](#BKMK_business_unit_msdyn_workordernte)
+- [business_unit_msdyn_workorderproduct](#BKMK_business_unit_msdyn_workorderproduct)
+- [business_unit_msdyn_workorderresolution](#BKMK_business_unit_msdyn_workorderresolution)
+- [business_unit_msdyn_workorderresourcerestriction](#BKMK_business_unit_msdyn_workorderresourcerestriction)
+- [business_unit_msdyn_workorderservice](#BKMK_business_unit_msdyn_workorderservice)
+- [business_unit_msdyn_workorderservicetask](#BKMK_business_unit_msdyn_workorderservicetask)
+- [business_unit_msdyn_workordersubstatus](#BKMK_business_unit_msdyn_workordersubstatus)
+- [business_unit_msdyn_workordertype](#BKMK_business_unit_msdyn_workordertype)
+- [business_unit_msdyn_workqueuestate](#BKMK_business_unit_msdyn_workqueuestate)
+- [business_unit_msdyn_workqueueusersetting](#BKMK_business_unit_msdyn_workqueueusersetting)
+- [business_unit_msdynci_alternatekey](#BKMK_business_unit_msdynci_alternatekey)
+- [business_unit_msdynci_contactprofile](#BKMK_business_unit_msdynci_contactprofile)
+- [business_unit_msdynci_customermeasure](#BKMK_business_unit_msdynci_customermeasure)
+- [business_unit_msdynci_customerprofile](#BKMK_business_unit_msdynci_customerprofile)
+- [business_unit_msdynci_customerprofilesegment](#BKMK_business_unit_msdynci_customerprofilesegment)
+- [business_unit_msdynci_enrichment](#BKMK_business_unit_msdynci_enrichment)
+- [business_unit_msdynci_personalizationaction](#BKMK_business_unit_msdynci_personalizationaction)
+- [business_unit_msdynci_personalizationcookie](#BKMK_business_unit_msdynci_personalizationcookie)
+- [business_unit_msdynci_personalizationuser](#BKMK_business_unit_msdynci_personalizationuser)
+- [business_unit_msdynci_personalizationview](#BKMK_business_unit_msdynci_personalizationview)
+- [business_unit_msdynci_prediction](#BKMK_business_unit_msdynci_prediction)
+- [business_unit_msdynci_segmentmembership](#BKMK_business_unit_msdynci_segmentmembership)
+- [business_unit_msdynci_unifiedactivity](#BKMK_business_unit_msdynci_unifiedactivity)
+- [business_unit_msdynci_unifiedcontact_alternatekey](#BKMK_business_unit_msdynci_unifiedcontact_alternatekey)
+- [business_unit_msdynci_unifiedcontactprofile](#BKMK_business_unit_msdynci_unifiedcontactprofile)
+- [business_unit_msdynci_unifiedcontactsegment](#BKMK_business_unit_msdynci_unifiedcontactsegment)
+- [business_unit_msdyncrm_addtocalendarstyle](#BKMK_business_unit_msdyncrm_addtocalendarstyle)
+- [business_unit_msdyncrm_appointmentactivity](#BKMK_business_unit_msdyncrm_appointmentactivity)
+- [business_unit_msdyncrm_appointmentactivitymarketingtemplate](#BKMK_business_unit_msdyncrm_appointmentactivitymarketingtemplate)
+- [business_unit_msdyncrm_basestyle](#BKMK_business_unit_msdyncrm_basestyle)
+- [business_unit_msdyncrm_buttonstyle](#BKMK_business_unit_msdyncrm_buttonstyle)
+- [business_unit_msdyncrm_cdnconfiguration](#BKMK_business_unit_msdyncrm_cdnconfiguration)
+- [business_unit_msdyncrm_cdsaconnectorconfiguration](#BKMK_business_unit_msdyncrm_cdsaconnectorconfiguration)
+- [business_unit_msdyncrm_codestyle](#BKMK_business_unit_msdyncrm_codestyle)
+- [business_unit_msdyncrm_columnstyle](#BKMK_business_unit_msdyncrm_columnstyle)
+- [business_unit_msdyncrm_contentblock](#BKMK_business_unit_msdyncrm_contentblock)
+- [business_unit_msdyncrm_contentblockstyle](#BKMK_business_unit_msdyncrm_contentblockstyle)
+- [business_unit_msdyncrm_contentsettings](#BKMK_business_unit_msdyncrm_contentsettings)
+- [business_unit_msdyncrm_createleadactivity](#BKMK_business_unit_msdyncrm_createleadactivity)
+- [business_unit_msdyncrm_customerinsightsinfo](#BKMK_business_unit_msdyncrm_customerinsightsinfo)
+- [business_unit_msdyncrm_customerjourney](#BKMK_business_unit_msdyncrm_customerjourney)
+- [business_unit_msdyncrm_customerjourneycustomchannelactivity](#BKMK_business_unit_msdyncrm_customerjourneycustomchannelactivity)
+- [business_unit_msdyncrm_customerjourneyiteration](#BKMK_business_unit_msdyncrm_customerjourneyiteration)
+- [business_unit_msdyncrm_customerjourneyruntimestate](#BKMK_business_unit_msdyncrm_customerjourneyruntimestate)
+- [business_unit_msdyncrm_customerjourneytemplate](#BKMK_business_unit_msdyncrm_customerjourneytemplate)
+- [business_unit_msdyncrm_customerjourneyworkflowlink](#BKMK_business_unit_msdyncrm_customerjourneyworkflowlink)
+- [business_unit_msdyncrm_defaultmarketingsetting](#BKMK_business_unit_msdyncrm_defaultmarketingsetting)
+- [business_unit_msdyncrm_deprecatedcustomtileactivity](#BKMK_business_unit_msdyncrm_deprecatedcustomtileactivity)
+- [business_unit_msdyncrm_deprecatedeventactivity](#BKMK_business_unit_msdyncrm_deprecatedeventactivity)
+- [business_unit_msdyncrm_deprecatedformsprosurveyactivity](#BKMK_business_unit_msdyncrm_deprecatedformsprosurveyactivity)
+- [business_unit_msdyncrm_deprecatedpageactivity](#BKMK_business_unit_msdyncrm_deprecatedpageactivity)
+- [business_unit_msdyncrm_designerfeatureavailability](#BKMK_business_unit_msdyncrm_designerfeatureavailability)
+- [business_unit_msdyncrm_dividerstyle](#BKMK_business_unit_msdyncrm_dividerstyle)
+- [business_unit_msdyncrm_emailkeypoint](#BKMK_business_unit_msdyncrm_emailkeypoint)
+- [business_unit_msdyncrm_featureconfiguration](#BKMK_business_unit_msdyncrm_featureconfiguration)
+- [business_unit_msdyncrm_file](#BKMK_business_unit_msdyncrm_file)
+- [business_unit_msdyncrm_formpage](#BKMK_business_unit_msdyncrm_formpage)
+- [business_unit_msdyncrm_formpagetemplate](#BKMK_business_unit_msdyncrm_formpagetemplate)
+- [business_unit_msdyncrm_generalstyles](#BKMK_business_unit_msdyncrm_generalstyles)
+- [business_unit_msdyncrm_geopin](#BKMK_business_unit_msdyncrm_geopin)
+- [business_unit_msdyncrm_gpt3log](#BKMK_business_unit_msdyncrm_gpt3log)
+- [business_unit_msdyncrm_gwennolfeatureconfiguration](#BKMK_business_unit_msdyncrm_gwennolfeatureconfiguration)
+- [business_unit_msdyncrm_gwennolspamscoreactivity](#BKMK_business_unit_msdyncrm_gwennolspamscoreactivity)
+- [business_unit_msdyncrm_gwennolspamscorerequest](#BKMK_business_unit_msdyncrm_gwennolspamscorerequest)
+- [business_unit_msdyncrm_imagestyle](#BKMK_business_unit_msdyncrm_imagestyle)
+- [business_unit_msdyncrm_keyword](#BKMK_business_unit_msdyncrm_keyword)
+- [business_unit_msdyncrm_launchworkflowactivity](#BKMK_business_unit_msdyncrm_launchworkflowactivity)
+- [business_unit_msdyncrm_layoutstyle](#BKMK_business_unit_msdyncrm_layoutstyle)
+- [business_unit_msdyncrm_leadscore](#BKMK_business_unit_msdyncrm_leadscore)
+- [business_unit_msdyncrm_leadscore_v2](#BKMK_business_unit_msdyncrm_leadscore_v2)
+- [business_unit_msdyncrm_leadscoremodel](#BKMK_business_unit_msdyncrm_leadscoremodel)
+- [business_unit_msdyncrm_linkedinaccount](#BKMK_business_unit_msdyncrm_linkedinaccount)
+- [business_unit_msdyncrm_linkedinactivity](#BKMK_business_unit_msdyncrm_linkedinactivity)
+- [business_unit_msdyncrm_linkedinaudience](#BKMK_business_unit_msdyncrm_linkedinaudience)
+- [business_unit_msdyncrm_linkedincampaign](#BKMK_business_unit_msdyncrm_linkedincampaign)
+- [business_unit_msdyncrm_linkedincampaignactivity](#BKMK_business_unit_msdyncrm_linkedincampaignactivity)
+- [business_unit_msdyncrm_linkedinconfiguration](#BKMK_business_unit_msdyncrm_linkedinconfiguration)
+- [business_unit_msdyncrm_linkedinfieldmapping](#BKMK_business_unit_msdyncrm_linkedinfieldmapping)
+- [business_unit_msdyncrm_linkedinform](#BKMK_business_unit_msdyncrm_linkedinform)
+- [business_unit_msdyncrm_linkedinformanswer](#BKMK_business_unit_msdyncrm_linkedinformanswer)
+- [business_unit_msdyncrm_linkedinformquestion](#BKMK_business_unit_msdyncrm_linkedinformquestion)
+- [business_unit_msdyncrm_linkedinformsubmission](#BKMK_business_unit_msdyncrm_linkedinformsubmission)
+- [business_unit_msdyncrm_linkedinleadmatchingstrategy](#BKMK_business_unit_msdyncrm_linkedinleadmatchingstrategy)
+- [business_unit_msdyncrm_linkedinuserprofile](#BKMK_business_unit_msdyncrm_linkedinuserprofile)
+- [business_unit_msdyncrm_listform](#BKMK_business_unit_msdyncrm_listform)
+- [business_unit_msdyncrm_liveentitydependency](#BKMK_business_unit_msdyncrm_liveentitydependency)
+- [business_unit_msdyncrm_marketingdataimport](#BKMK_business_unit_msdyncrm_marketingdataimport)
+- [business_unit_msdyncrm_marketingdynamiccontentmetadata](#BKMK_business_unit_msdyncrm_marketingdynamiccontentmetadata)
+- [business_unit_msdyncrm_marketingemail](#BKMK_business_unit_msdyncrm_marketingemail)
+- [business_unit_msdyncrm_marketingemailactivity](#BKMK_business_unit_msdyncrm_marketingemailactivity)
+- [business_unit_msdyncrm_marketingemaildynamiccontentmetadata](#BKMK_business_unit_msdyncrm_marketingemaildynamiccontentmetadata)
+- [business_unit_msdyncrm_marketingemailtemplate](#BKMK_business_unit_msdyncrm_marketingemailtemplate)
+- [business_unit_msdyncrm_marketingemailtest](#BKMK_business_unit_msdyncrm_marketingemailtest)
+- [business_unit_msdyncrm_marketingemailtestattribute](#BKMK_business_unit_msdyncrm_marketingemailtestattribute)
+- [business_unit_msdyncrm_marketingemailtestsend](#BKMK_business_unit_msdyncrm_marketingemailtestsend)
+- [business_unit_msdyncrm_marketingfieldsubmission](#BKMK_business_unit_msdyncrm_marketingfieldsubmission)
+- [business_unit_msdyncrm_marketingform](#BKMK_business_unit_msdyncrm_marketingform)
+- [business_unit_msdyncrm_marketingformactivity](#BKMK_business_unit_msdyncrm_marketingformactivity)
+- [business_unit_msdyncrm_marketingformfield](#BKMK_business_unit_msdyncrm_marketingformfield)
+- [business_unit_msdyncrm_marketingformsubmission](#BKMK_business_unit_msdyncrm_marketingformsubmission)
+- [business_unit_msdyncrm_marketingformtemplate](#BKMK_business_unit_msdyncrm_marketingformtemplate)
+- [business_unit_msdyncrm_marketingformwhitelistrule](#BKMK_business_unit_msdyncrm_marketingformwhitelistrule)
+- [business_unit_msdyncrm_marketingpage](#BKMK_business_unit_msdyncrm_marketingpage)
+- [business_unit_msdyncrm_marketingpagetemplate](#BKMK_business_unit_msdyncrm_marketingpagetemplate)
+- [business_unit_msdyncrm_matchingstrategyattribute](#BKMK_business_unit_msdyncrm_matchingstrategyattribute)
+- [business_unit_msdyncrm_migration](#BKMK_business_unit_msdyncrm_migration)
+- [business_unit_msdyncrm_mktactivity](#BKMK_business_unit_msdyncrm_mktactivity)
+- [business_unit_msdyncrm_networkpage](#BKMK_business_unit_msdyncrm_networkpage)
+- [business_unit_msdyncrm_personalizedpage](#BKMK_business_unit_msdyncrm_personalizedpage)
+- [business_unit_msdyncrm_personalizedpagefield](#BKMK_business_unit_msdyncrm_personalizedpagefield)
+- [business_unit_msdyncrm_phonecallactivity](#BKMK_business_unit_msdyncrm_phonecallactivity)
+- [business_unit_msdyncrm_phonecallactivitymarketingtemplate](#BKMK_business_unit_msdyncrm_phonecallactivitymarketingtemplate)
+- [business_unit_msdyncrm_postingishts](#BKMK_business_unit_msdyncrm_postingishts)
+- [business_unit_msdyncrm_qrcodestyle](#BKMK_business_unit_msdyncrm_qrcodestyle)
+- [business_unit_msdyncrm_quicksendemail](#BKMK_business_unit_msdyncrm_quicksendemail)
+- [business_unit_msdyncrm_reaction](#BKMK_business_unit_msdyncrm_reaction)
+- [business_unit_msdyncrm_recordupdateactivity](#BKMK_business_unit_msdyncrm_recordupdateactivity)
+- [business_unit_msdyncrm_redirecturl](#BKMK_business_unit_msdyncrm_redirecturl)
+- [business_unit_msdyncrm_segment](#BKMK_business_unit_msdyncrm_segment)
+- [business_unit_msdyncrm_segmentactivity](#BKMK_business_unit_msdyncrm_segmentactivity)
+- [business_unit_msdyncrm_segmenttemplate](#BKMK_business_unit_msdyncrm_segmenttemplate)
+- [business_unit_msdyncrm_socialpost](#BKMK_business_unit_msdyncrm_socialpost)
+- [business_unit_msdyncrm_socialpostingconfiguration](#BKMK_business_unit_msdyncrm_socialpostingconfiguration)
+- [business_unit_msdyncrm_socialpostingconsent](#BKMK_business_unit_msdyncrm_socialpostingconsent)
+- [business_unit_msdyncrm_sourceactivity](#BKMK_business_unit_msdyncrm_sourceactivity)
+- [business_unit_msdyncrm_splitteractivity](#BKMK_business_unit_msdyncrm_splitteractivity)
+- [business_unit_msdyncrm_tag](#BKMK_business_unit_msdyncrm_tag)
+- [business_unit_msdyncrm_taskactivity](#BKMK_business_unit_msdyncrm_taskactivity)
+- [business_unit_msdyncrm_taskactivitymarketingtemplate](#BKMK_business_unit_msdyncrm_taskactivitymarketingtemplate)
+- [business_unit_msdyncrm_textstyle](#BKMK_business_unit_msdyncrm_textstyle)
+- [business_unit_msdyncrm_triggeractivity](#BKMK_business_unit_msdyncrm_triggeractivity)
+- [business_unit_msdyncrm_uicconfig](#BKMK_business_unit_msdyncrm_uicconfig)
+- [business_unit_msdyncrm_usergeoregion](#BKMK_business_unit_msdyncrm_usergeoregion)
+- [business_unit_msdyncrm_usersetting](#BKMK_business_unit_msdyncrm_usersetting)
+- [business_unit_msdyncrm_video](#BKMK_business_unit_msdyncrm_video)
+- [business_unit_msdyncrm_videostyle](#BKMK_business_unit_msdyncrm_videostyle)
+- [business_unit_msdyncrm_website](#BKMK_business_unit_msdyncrm_website)
+- [business_unit_msdynmkt_aimodelversion](#BKMK_business_unit_msdynmkt_aimodelversion)
+- [business_unit_msdynmkt_apsconfig](#BKMK_business_unit_msdynmkt_apsconfig)
+- [business_unit_msdynmkt_brandprofile](#BKMK_business_unit_msdynmkt_brandprofile)
+- [business_unit_msdynmkt_brandsender](#BKMK_business_unit_msdynmkt_brandsender)
+- [business_unit_msdynmkt_brandtheme](#BKMK_business_unit_msdynmkt_brandtheme)
+- [business_unit_msdynmkt_buttonstyle](#BKMK_business_unit_msdynmkt_buttonstyle)
+- [business_unit_msdynmkt_byoacschannelinstance](#BKMK_business_unit_msdynmkt_byoacschannelinstance)
+- [business_unit_msdynmkt_byoacschannelinstanceaccount](#BKMK_business_unit_msdynmkt_byoacschannelinstanceaccount)
+- [business_unit_msdynmkt_captcha](#BKMK_business_unit_msdynmkt_captcha)
+- [business_unit_msdynmkt_catalogeventstatusconfiguration](#BKMK_business_unit_msdynmkt_catalogeventstatusconfiguration)
+- [business_unit_msdynmkt_compliancesettings3](#BKMK_business_unit_msdynmkt_compliancesettings3)
+- [business_unit_msdynmkt_compliancesettings4](#BKMK_business_unit_msdynmkt_compliancesettings4)
+- [business_unit_msdynmkt_configuration](#BKMK_business_unit_msdynmkt_configuration)
+- [business_unit_msdynmkt_consentprovider](#BKMK_business_unit_msdynmkt_consentprovider)
+- [business_unit_msdynmkt_consentproviderdefaultconfiguration](#BKMK_business_unit_msdynmkt_consentproviderdefaultconfiguration)
+- [business_unit_msdynmkt_consentproviderdefaultpurpose](#BKMK_business_unit_msdynmkt_consentproviderdefaultpurpose)
+- [business_unit_msdynmkt_consentsystemconfiguration](#BKMK_business_unit_msdynmkt_consentsystemconfiguration)
+- [business_unit_msdynmkt_contactpointconsent](#BKMK_business_unit_msdynmkt_contactpointconsent)
+- [business_unit_msdynmkt_contactpointconsent3](#BKMK_business_unit_msdynmkt_contactpointconsent3)
+- [business_unit_msdynmkt_contactpointconsent4](#BKMK_business_unit_msdynmkt_contactpointconsent4)
+- [business_unit_msdynmkt_conversioneventdefinition](#BKMK_business_unit_msdynmkt_conversioneventdefinition)
+- [business_unit_msdynmkt_createdentitylink](#BKMK_business_unit_msdynmkt_createdentitylink)
+- [business_unit_msdynmkt_customchannelmessage](#BKMK_business_unit_msdynmkt_customchannelmessage)
+- [business_unit_msdynmkt_domain](#BKMK_business_unit_msdynmkt_domain)
+- [business_unit_msdynmkt_email](#BKMK_business_unit_msdynmkt_email)
+- [business_unit_msdynmkt_emailtemplate](#BKMK_business_unit_msdynmkt_emailtemplate)
+- [business_unit_msdynmkt_entitygradedistribution](#BKMK_business_unit_msdynmkt_entitygradedistribution)
+- [business_unit_msdynmkt_entityscoredistribution](#BKMK_business_unit_msdynmkt_entityscoredistribution)
+- [business_unit_msdynmkt_entityscoringmodel](#BKMK_business_unit_msdynmkt_entityscoringmodel)
+- [business_unit_msdynmkt_eventmetadata](#BKMK_business_unit_msdynmkt_eventmetadata)
+- [business_unit_msdynmkt_eventparametermetadata](#BKMK_business_unit_msdynmkt_eventparametermetadata)
+- [business_unit_msdynmkt_experiment](#BKMK_business_unit_msdynmkt_experiment)
+- [business_unit_msdynmkt_experimentv2](#BKMK_business_unit_msdynmkt_experimentv2)
+- [business_unit_msdynmkt_featureconfiguration](#BKMK_business_unit_msdynmkt_featureconfiguration)
+- [business_unit_msdynmkt_fragment](#BKMK_business_unit_msdynmkt_fragment)
+- [business_unit_msdynmkt_frequencycap](#BKMK_business_unit_msdynmkt_frequencycap)
+- [business_unit_msdynmkt_gdprrequest](#BKMK_business_unit_msdynmkt_gdprrequest)
+- [business_unit_msdynmkt_imagestyle](#BKMK_business_unit_msdynmkt_imagestyle)
+- [business_unit_msdynmkt_infobipchannelinstance](#BKMK_business_unit_msdynmkt_infobipchannelinstance)
+- [business_unit_msdynmkt_infobipchannelinstanceaccount](#BKMK_business_unit_msdynmkt_infobipchannelinstanceaccount)
+- [business_unit_msdynmkt_journey](#BKMK_business_unit_msdynmkt_journey)
+- [business_unit_msdynmkt_journeydependency](#BKMK_business_unit_msdynmkt_journeydependency)
+- [business_unit_msdynmkt_journeyevent](#BKMK_business_unit_msdynmkt_journeyevent)
+- [business_unit_msdynmkt_journeyoptimizationcount](#BKMK_business_unit_msdynmkt_journeyoptimizationcount)
+- [business_unit_msdynmkt_journeyrunparameter](#BKMK_business_unit_msdynmkt_journeyrunparameter)
+- [business_unit_msdynmkt_journeysetting](#BKMK_business_unit_msdynmkt_journeysetting)
+- [business_unit_msdynmkt_journeytemplate](#BKMK_business_unit_msdynmkt_journeytemplate)
+- [business_unit_msdynmkt_journeyworkflowmapping](#BKMK_business_unit_msdynmkt_journeyworkflowmapping)
+- [business_unit_msdynmkt_keyword](#BKMK_business_unit_msdynmkt_keyword)
+- [business_unit_msdynmkt_leadqualificationmodel](#BKMK_business_unit_msdynmkt_leadqualificationmodel)
+- [business_unit_msdynmkt_linkmobilitychannelinstance](#BKMK_business_unit_msdynmkt_linkmobilitychannelinstance)
+- [business_unit_msdynmkt_linkmobilitychannelinstanceaccount](#BKMK_business_unit_msdynmkt_linkmobilitychannelinstanceaccount)
+- [business_unit_msdynmkt_marketingfieldsubmission](#BKMK_business_unit_msdynmkt_marketingfieldsubmission)
+- [business_unit_msdynmkt_marketingform](#BKMK_business_unit_msdynmkt_marketingform)
+- [business_unit_msdynmkt_marketingformfield](#BKMK_business_unit_msdynmkt_marketingformfield)
+- [business_unit_msdynmkt_marketingformsubmission](#BKMK_business_unit_msdynmkt_marketingformsubmission)
+- [business_unit_msdynmkt_marketingformtemplate](#BKMK_business_unit_msdynmkt_marketingformtemplate)
+- [business_unit_msdynmkt_matchingstrategy](#BKMK_business_unit_msdynmkt_matchingstrategy)
+- [business_unit_msdynmkt_matchingstrategyattribute](#BKMK_business_unit_msdynmkt_matchingstrategyattribute)
+- [business_unit_msdynmkt_metadataentityrelationship](#BKMK_business_unit_msdynmkt_metadataentityrelationship)
+- [business_unit_msdynmkt_metadataitem](#BKMK_business_unit_msdynmkt_metadataitem)
+- [business_unit_msdynmkt_metadatastorestate](#BKMK_business_unit_msdynmkt_metadatastorestate)
+- [business_unit_msdynmkt_mobileapp](#BKMK_business_unit_msdynmkt_mobileapp)
+- [business_unit_msdynmkt_mobileappchannelinstance](#BKMK_business_unit_msdynmkt_mobileappchannelinstance)
+- [business_unit_msdynmkt_mobiledevice](#BKMK_business_unit_msdynmkt_mobiledevice)
+- [business_unit_msdynmkt_mocksmsproviderchannelinstance](#BKMK_business_unit_msdynmkt_mocksmsproviderchannelinstance)
+- [business_unit_msdynmkt_mocksmsproviderchannelinstanceaccount](#BKMK_business_unit_msdynmkt_mocksmsproviderchannelinstanceaccount)
+- [business_unit_msdynmkt_predefinedplaceholder](#BKMK_business_unit_msdynmkt_predefinedplaceholder)
+- [business_unit_msdynmkt_preferencecenter](#BKMK_business_unit_msdynmkt_preferencecenter)
+- [business_unit_msdynmkt_purpose](#BKMK_business_unit_msdynmkt_purpose)
+- [business_unit_msdynmkt_pushdeviceregistrationresult](#BKMK_business_unit_msdynmkt_pushdeviceregistrationresult)
+- [business_unit_msdynmkt_pushmobiledevice](#BKMK_business_unit_msdynmkt_pushmobiledevice)
+- [business_unit_msdynmkt_pushnotification](#BKMK_business_unit_msdynmkt_pushnotification)
+- [business_unit_msdynmkt_qrcodestyle](#BKMK_business_unit_msdynmkt_qrcodestyle)
+- [business_unit_msdynmkt_quiettimesetting](#BKMK_business_unit_msdynmkt_quiettimesetting)
+- [business_unit_msdynmkt_recaptchaconfiguration](#BKMK_business_unit_msdynmkt_recaptchaconfiguration)
+- [business_unit_msdynmkt_segment](#BKMK_business_unit_msdynmkt_segment)
+- [business_unit_msdynmkt_segmentdefinition](#BKMK_business_unit_msdynmkt_segmentdefinition)
+- [business_unit_msdynmkt_segmentexecution](#BKMK_business_unit_msdynmkt_segmentexecution)
+- [business_unit_msdynmkt_segmentusage](#BKMK_business_unit_msdynmkt_segmentusage)
+- [business_unit_msdynmkt_sms](#BKMK_business_unit_msdynmkt_sms)
+- [business_unit_msdynmkt_submitbutton](#BKMK_business_unit_msdynmkt_submitbutton)
+- [business_unit_msdynmkt_tag](#BKMK_business_unit_msdynmkt_tag)
+- [business_unit_msdynmkt_teamsengagement](#BKMK_business_unit_msdynmkt_teamsengagement)
+- [business_unit_msdynmkt_telesignchannelinstance](#BKMK_business_unit_msdynmkt_telesignchannelinstance)
+- [business_unit_msdynmkt_telesignchannelinstanceaccount](#BKMK_business_unit_msdynmkt_telesignchannelinstanceaccount)
+- [business_unit_msdynmkt_topic](#BKMK_business_unit_msdynmkt_topic)
+- [business_unit_msdynmkt_twiliochannelinstance](#BKMK_business_unit_msdynmkt_twiliochannelinstance)
+- [business_unit_msdynmkt_twiliochannelinstanceaccount](#BKMK_business_unit_msdynmkt_twiliochannelinstanceaccount)
+- [business_unit_msdynmkt_utmtracking](#BKMK_business_unit_msdynmkt_utmtracking)
+- [business_unit_msdynmkt_vibeschannelinstance](#BKMK_business_unit_msdynmkt_vibeschannelinstance)
+- [business_unit_msdynmkt_vibeschannelinstanceaccount](#BKMK_business_unit_msdynmkt_vibeschannelinstanceaccount)
+- [business_unit_msdynmkt_virtualsegment](#BKMK_business_unit_msdynmkt_virtualsegment)
+- [business_unit_msdynmkt_webinaremailjourney](#BKMK_business_unit_msdynmkt_webinaremailjourney)
+- [business_unit_msevtmgt_attendeepass](#BKMK_business_unit_msevtmgt_attendeepass)
+- [business_unit_msevtmgt_authenticationsettings](#BKMK_business_unit_msevtmgt_authenticationsettings)
+- [business_unit_msevtmgt_bucket](#BKMK_business_unit_msevtmgt_bucket)
+- [business_unit_msevtmgt_building](#BKMK_business_unit_msevtmgt_building)
+- [business_unit_msevtmgt_checkin](#BKMK_business_unit_msevtmgt_checkin)
+- [business_unit_msevtmgt_customregistrationfield](#BKMK_business_unit_msevtmgt_customregistrationfield)
+- [business_unit_msevtmgt_entitycounter](#BKMK_business_unit_msevtmgt_entitycounter)
+- [business_unit_msevtmgt_event](#BKMK_business_unit_msevtmgt_event)
+- [business_unit_msevtmgt_eventadministration](#BKMK_business_unit_msevtmgt_eventadministration)
+- [business_unit_msevtmgt_eventanalytics](#BKMK_business_unit_msevtmgt_eventanalytics)
+- [business_unit_msevtmgt_eventcustomregistrationfield](#BKMK_business_unit_msevtmgt_eventcustomregistrationfield)
+- [business_unit_msevtmgt_eventmanagementactivity](#BKMK_business_unit_msevtmgt_eventmanagementactivity)
+- [business_unit_msevtmgt_eventmanagementconfiguration](#BKMK_business_unit_msevtmgt_eventmanagementconfiguration)
+- [business_unit_msevtmgt_eventpurchase](#BKMK_business_unit_msevtmgt_eventpurchase)
+- [business_unit_msevtmgt_eventpurchaseattendee](#BKMK_business_unit_msevtmgt_eventpurchaseattendee)
+- [business_unit_msevtmgt_eventpurchasecontact](#BKMK_business_unit_msevtmgt_eventpurchasecontact)
+- [business_unit_msevtmgt_eventpurchasepass](#BKMK_business_unit_msevtmgt_eventpurchasepass)
+- [business_unit_msevtmgt_eventregistration](#BKMK_business_unit_msevtmgt_eventregistration)
+- [business_unit_msevtmgt_eventregistrationticket](#BKMK_business_unit_msevtmgt_eventregistrationticket)
+- [business_unit_msevtmgt_eventteammember](#BKMK_business_unit_msevtmgt_eventteammember)
+- [business_unit_msevtmgt_eventteamsproperties](#BKMK_business_unit_msevtmgt_eventteamsproperties)
+- [business_unit_msevtmgt_eventvendor](#BKMK_business_unit_msevtmgt_eventvendor)
+- [business_unit_msevtmgt_file](#BKMK_business_unit_msevtmgt_file)
+- [business_unit_msevtmgt_hotel](#BKMK_business_unit_msevtmgt_hotel)
+- [business_unit_msevtmgt_hotelroomallocation](#BKMK_business_unit_msevtmgt_hotelroomallocation)
+- [business_unit_msevtmgt_hotelroomreservation](#BKMK_business_unit_msevtmgt_hotelroomreservation)
+- [business_unit_msevtmgt_layout](#BKMK_business_unit_msevtmgt_layout)
+- [business_unit_msevtmgt_pass](#BKMK_business_unit_msevtmgt_pass)
+- [business_unit_msevtmgt_registrationresponse](#BKMK_business_unit_msevtmgt_registrationresponse)
+- [business_unit_msevtmgt_room](#BKMK_business_unit_msevtmgt_room)
+- [business_unit_msevtmgt_roomreservation](#BKMK_business_unit_msevtmgt_roomreservation)
+- [business_unit_msevtmgt_session](#BKMK_business_unit_msevtmgt_session)
+- [business_unit_msevtmgt_sessionregistration](#BKMK_business_unit_msevtmgt_sessionregistration)
+- [business_unit_msevtmgt_sessiontrack](#BKMK_business_unit_msevtmgt_sessiontrack)
+- [business_unit_msevtmgt_speaker](#BKMK_business_unit_msevtmgt_speaker)
+- [business_unit_msevtmgt_speakerengagement](#BKMK_business_unit_msevtmgt_speakerengagement)
+- [business_unit_msevtmgt_sponsorablearticle](#BKMK_business_unit_msevtmgt_sponsorablearticle)
+- [business_unit_msevtmgt_sponsorship](#BKMK_business_unit_msevtmgt_sponsorship)
+- [business_unit_msevtmgt_venue](#BKMK_business_unit_msevtmgt_venue)
+- [business_unit_msevtmgt_waitlistitem](#BKMK_business_unit_msevtmgt_waitlistitem)
+- [business_unit_msevtmgt_websiteentityconfiguration](#BKMK_business_unit_msevtmgt_websiteentityconfiguration)
+- [business_unit_msfp_alertrule](#BKMK_business_unit_msfp_alertrule)
+- [business_unit_msfp_emailtemplate](#BKMK_business_unit_msfp_emailtemplate)
+- [business_unit_msfp_fileresponse](#BKMK_business_unit_msfp_fileresponse)
+- [business_unit_msfp_localizedemailtemplate](#BKMK_business_unit_msfp_localizedemailtemplate)
+- [business_unit_msfp_project](#BKMK_business_unit_msfp_project)
+- [business_unit_msfp_question](#BKMK_business_unit_msfp_question)
+- [business_unit_msfp_questionresponse](#BKMK_business_unit_msfp_questionresponse)
+- [business_unit_msfp_satisfactionmetric](#BKMK_business_unit_msfp_satisfactionmetric)
+- [business_unit_msfp_survey](#BKMK_business_unit_msfp_survey)
+- [business_unit_msfp_surveyreminder](#BKMK_business_unit_msfp_surveyreminder)
+- [business_unit_msfp_unsubscribedrecipient](#BKMK_business_unit_msfp_unsubscribedrecipient)
+- [business_unit_msmrw_3dasset](#BKMK_business_unit_msmrw_3dasset)
+- [business_unit_msmrw_3dasset_localized](#BKMK_business_unit_msmrw_3dasset_localized)
+- [business_unit_msmrw_assetcollection](#BKMK_business_unit_msmrw_assetcollection)
+- [business_unit_msmrw_assetcollection_localized](#BKMK_business_unit_msmrw_assetcollection_localized)
+- [business_unit_msmrw_audioasset](#BKMK_business_unit_msmrw_audioasset)
+- [business_unit_msmrw_guide](#BKMK_business_unit_msmrw_guide)
+- [business_unit_msmrw_guidecompletionstepobject](#BKMK_business_unit_msmrw_guidecompletionstepobject)
+- [business_unit_msmrw_guidecompletionstepobjectplacement](#BKMK_business_unit_msmrw_guidecompletionstepobjectplacement)
+- [business_unit_msmrw_guideevent](#BKMK_business_unit_msmrw_guideevent)
+- [business_unit_msmrw_guidesession](#BKMK_business_unit_msmrw_guidesession)
+- [business_unit_msmrw_guidesessionstepvisit](#BKMK_business_unit_msmrw_guidesessionstepvisit)
+- [business_unit_msmrw_guidestep](#BKMK_business_unit_msmrw_guidestep)
+- [business_unit_msmrw_guidestepobject](#BKMK_business_unit_msmrw_guidestepobject)
+- [business_unit_msmrw_guidestepobjectplacement](#BKMK_business_unit_msmrw_guidestepobjectplacement)
+- [business_unit_msmrw_guidetask](#BKMK_business_unit_msmrw_guidetask)
+- [business_unit_msmrw_guideviewconfiguration](#BKMK_business_unit_msmrw_guideviewconfiguration)
+- [business_unit_msmrw_imageasset](#BKMK_business_unit_msmrw_imageasset)
+- [business_unit_msmrw_imageasset_localized](#BKMK_business_unit_msmrw_imageasset_localized)
+- [business_unit_msmrw_packagedguide](#BKMK_business_unit_msmrw_packagedguide)
+- [business_unit_msmrw_packagedguidesessionstepvisit](#BKMK_business_unit_msmrw_packagedguidesessionstepvisit)
+- [business_unit_msmrw_packagedguidesoperatorsession](#BKMK_business_unit_msmrw_packagedguidesoperatorsession)
+- [business_unit_msmrw_usersettings](#BKMK_business_unit_msmrw_usersettings)
+- [business_unit_msmrw_videoasset](#BKMK_business_unit_msmrw_videoasset)
+- [business_unit_msmrw_videoasset_localized](#BKMK_business_unit_msmrw_videoasset_localized)
+- [business_unit_opportunities](#BKMK_business_unit_opportunities)
+- [business_unit_opportunity_close_activities](#BKMK_business_unit_opportunity_close_activities)
+- [business_unit_order_close_activities](#BKMK_business_unit_order_close_activities)
+- [business_unit_orders](#BKMK_business_unit_orders)
+- [business_unit_quote_close_activities](#BKMK_business_unit_quote_close_activities)
+- [business_unit_quotes](#BKMK_business_unit_quotes)
+- [business_unit_ratingmodel](#BKMK_business_unit_ratingmodel)
+- [business_unit_ratingvalue](#BKMK_business_unit_ratingvalue)
+- [business_unit_resource_groups](#BKMK_business_unit_resource_groups)
+- [business_unit_resource_specs](#BKMK_business_unit_resource_specs)
+- [business_unit_resources](#BKMK_business_unit_resources)
+- [business_unit_sales_linkedin_profileassociations](#BKMK_business_unit_sales_linkedin_profileassociations)
+- [business_unit_sales_linkedin_users_signedin_status](#BKMK_business_unit_sales_linkedin_users_signedin_status)
+- [business_unit_service_appointments](#BKMK_business_unit_service_appointments)
+- [business_unit_service_contracts](#BKMK_business_unit_service_contracts)
+- [BusinessUnit_Campaigns](#BKMK_BusinessUnit_Campaigns)
+- [li_inmail_businessunit_owningbusinessunit](#BKMK_li_inmail_businessunit_owningbusinessunit)
+- [li_message_businessunit_owningbusinessunit](#BKMK_li_message_businessunit_owningbusinessunit)
+- [li_pointdrivepresentationviewed_businessunit_owningbusinessunit](#BKMK_li_pointdrivepresentationviewed_businessunit_owningbusinessunit)
+- [msdyn_bookingalert_businessunit_owningbusinessunit](#BKMK_msdyn_bookingalert_businessunit_owningbusinessunit)
+- [msdyn_copilottranscript_businessunit_owningbusinessunit](#BKMK_msdyn_copilottranscript_businessunit_owningbusinessunit)
+- [msdyn_ocliveworkitem_businessunit_owningbusinessunit](#BKMK_msdyn_ocliveworkitem_businessunit_owningbusinessunit)
+- [msdyn_ocoutboundmessage_businessunit_owningbusinessunit](#BKMK_msdyn_ocoutboundmessage_businessunit_owningbusinessunit)
+- [msdyn_ocsession_businessunit_owningbusinessunit](#BKMK_msdyn_ocsession_businessunit_owningbusinessunit)
+- [msdyn_ocvoicemail_businessunit_owningbusinessunit](#BKMK_msdyn_ocvoicemail_businessunit_owningbusinessunit)
+- [msdynmkt_businessunit_msdynmkt_virtualdomain_owningbusinessunit](#BKMK_msdynmkt_businessunit_msdynmkt_virtualdomain_owningbusinessunit)
+- [msdynmkt_parentowningbusinessunit_businessunit](#BKMK_msdynmkt_parentowningbusinessunit_businessunit)
+- [msfp_alert_businessunit_owningbusinessunit](#BKMK_msfp_alert_businessunit_owningbusinessunit)
+- [msfp_surveyinvite_businessunit_owningbusinessunit](#BKMK_msfp_surveyinvite_businessunit_owningbusinessunit)
+- [msfp_surveyresponse_businessunit_owningbusinessunit](#BKMK_msfp_surveyresponse_businessunit_owningbusinessunit)
+
+### <a name="BKMK_adx_alertsubscription_businessunit_owningbusinessunit"></a> adx_alertsubscription_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [adx_alertsubscription adx_alertsubscription_businessunit_owningbusinessunit](adx_alertsubscription.md#BKMK_adx_alertsubscription_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_alertsubscription`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`adx_alertsubscription_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_activitymonitor"></a> business_unit_activitymonitor
+
+Many-To-One Relationship: [activitymonitor business_unit_activitymonitor](activitymonitor.md#BKMK_business_unit_activitymonitor)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`activitymonitor`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_activitymonitor`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adminsettingsentity"></a> business_unit_adminsettingsentity
+
+Many-To-One Relationship: [adminsettingsentity business_unit_adminsettingsentity](adminsettingsentity.md#BKMK_business_unit_adminsettingsentity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adminsettingsentity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adminsettingsentity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_ad"></a> business_unit_adx_ad
+
+Many-To-One Relationship: [adx_ad business_unit_adx_ad](adx_ad.md#BKMK_business_unit_adx_ad)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_ad`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_ad`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_adplacement"></a> business_unit_adx_adplacement
+
+Many-To-One Relationship: [adx_adplacement business_unit_adx_adplacement](adx_adplacement.md#BKMK_business_unit_adx_adplacement)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_adplacement`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_adplacement`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_botconsumer"></a> business_unit_adx_botconsumer
+
+Many-To-One Relationship: [adx_botconsumer business_unit_adx_botconsumer](adx_botconsumer.md#BKMK_business_unit_adx_botconsumer)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_botconsumer`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_botconsumer`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_casedeflection"></a> business_unit_adx_casedeflection
+
+Many-To-One Relationship: [adx_casedeflection business_unit_adx_casedeflection](adx_casedeflection.md#BKMK_business_unit_adx_casedeflection)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_casedeflection`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_casedeflection`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_cloudflowconsumer"></a> business_unit_adx_cloudflowconsumer
+
+Many-To-One Relationship: [adx_cloudflowconsumer business_unit_adx_cloudflowconsumer](adx_cloudflowconsumer.md#BKMK_business_unit_adx_cloudflowconsumer)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_cloudflowconsumer`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_cloudflowconsumer`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_communityforum"></a> business_unit_adx_communityforum
+
+Many-To-One Relationship: [adx_communityforum business_unit_adx_communityforum](adx_communityforum.md#BKMK_business_unit_adx_communityforum)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_communityforum`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_communityforum`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_communityforumaccesspermission"></a> business_unit_adx_communityforumaccesspermission
+
+Many-To-One Relationship: [adx_communityforumaccesspermission business_unit_adx_communityforumaccesspermission](adx_communityforumaccesspermission.md#BKMK_business_unit_adx_communityforumaccesspermission)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_communityforumaccesspermission`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_communityforumaccesspermission`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_communityforumalert"></a> business_unit_adx_communityforumalert
+
+Many-To-One Relationship: [adx_communityforumalert business_unit_adx_communityforumalert](adx_communityforumalert.md#BKMK_business_unit_adx_communityforumalert)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_communityforumalert`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_communityforumalert`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_communityforumannouncement"></a> business_unit_adx_communityforumannouncement
+
+Many-To-One Relationship: [adx_communityforumannouncement business_unit_adx_communityforumannouncement](adx_communityforumannouncement.md#BKMK_business_unit_adx_communityforumannouncement)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_communityforumannouncement`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_communityforumannouncement`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_communityforumpost"></a> business_unit_adx_communityforumpost
+
+Many-To-One Relationship: [adx_communityforumpost business_unit_adx_communityforumpost](adx_communityforumpost.md#BKMK_business_unit_adx_communityforumpost)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_communityforumpost`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_communityforumpost`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_communityforumthread"></a> business_unit_adx_communityforumthread
+
+Many-To-One Relationship: [adx_communityforumthread business_unit_adx_communityforumthread](adx_communityforumthread.md#BKMK_business_unit_adx_communityforumthread)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_communityforumthread`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_communityforumthread`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_contentaccesslevel"></a> business_unit_adx_contentaccesslevel
+
+Many-To-One Relationship: [adx_contentaccesslevel business_unit_adx_contentaccesslevel](adx_contentaccesslevel.md#BKMK_business_unit_adx_contentaccesslevel)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_contentaccesslevel`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_contentaccesslevel`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_contentsnippet"></a> business_unit_adx_contentsnippet
+
+Many-To-One Relationship: [adx_contentsnippet business_unit_adx_contentsnippet](adx_contentsnippet.md#BKMK_business_unit_adx_contentsnippet)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_contentsnippet`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_contentsnippet`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_forumthreadtype"></a> business_unit_adx_forumthreadtype
+
+Many-To-One Relationship: [adx_forumthreadtype business_unit_adx_forumthreadtype](adx_forumthreadtype.md#BKMK_business_unit_adx_forumthreadtype)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_forumthreadtype`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_forumthreadtype`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_pagealert"></a> business_unit_adx_pagealert
+
+Many-To-One Relationship: [adx_pagealert business_unit_adx_pagealert](adx_pagealert.md#BKMK_business_unit_adx_pagealert)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_pagealert`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_pagealert`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_pagenotification"></a> business_unit_adx_pagenotification
+
+Many-To-One Relationship: [adx_pagenotification business_unit_adx_pagenotification](adx_pagenotification.md#BKMK_business_unit_adx_pagenotification)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_pagenotification`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_pagenotification`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_pagetag"></a> business_unit_adx_pagetag
+
+Many-To-One Relationship: [adx_pagetag business_unit_adx_pagetag](adx_pagetag.md#BKMK_business_unit_adx_pagetag)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_pagetag`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_pagetag`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_pagetemplate"></a> business_unit_adx_pagetemplate
+
+Many-To-One Relationship: [adx_pagetemplate business_unit_adx_pagetemplate](adx_pagetemplate.md#BKMK_business_unit_adx_pagetemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_pagetemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_pagetemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_poll"></a> business_unit_adx_poll
+
+Many-To-One Relationship: [adx_poll business_unit_adx_poll](adx_poll.md#BKMK_business_unit_adx_poll)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_poll`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_poll`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_polloption"></a> business_unit_adx_polloption
+
+Many-To-One Relationship: [adx_polloption business_unit_adx_polloption](adx_polloption.md#BKMK_business_unit_adx_polloption)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_polloption`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_polloption`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_pollplacement"></a> business_unit_adx_pollplacement
+
+Many-To-One Relationship: [adx_pollplacement business_unit_adx_pollplacement](adx_pollplacement.md#BKMK_business_unit_adx_pollplacement)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_pollplacement`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_pollplacement`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_pollsubmission"></a> business_unit_adx_pollsubmission
+
+Many-To-One Relationship: [adx_pollsubmission business_unit_adx_pollsubmission](adx_pollsubmission.md#BKMK_business_unit_adx_pollsubmission)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_pollsubmission`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_pollsubmission`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_portallanguage"></a> business_unit_adx_portallanguage
+
+Many-To-One Relationship: [adx_portallanguage business_unit_adx_portallanguage](adx_portallanguage.md#BKMK_business_unit_adx_portallanguage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_portallanguage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_portallanguage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_publishingstate"></a> business_unit_adx_publishingstate
+
+Many-To-One Relationship: [adx_publishingstate business_unit_adx_publishingstate](adx_publishingstate.md#BKMK_business_unit_adx_publishingstate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_publishingstate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_publishingstate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_publishingstatetransitionrule"></a> business_unit_adx_publishingstatetransitionrule
+
+Many-To-One Relationship: [adx_publishingstatetransitionrule business_unit_adx_publishingstatetransitionrule](adx_publishingstatetransitionrule.md#BKMK_business_unit_adx_publishingstatetransitionrule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_publishingstatetransitionrule`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_publishingstatetransitionrule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_redirect"></a> business_unit_adx_redirect
+
+Many-To-One Relationship: [adx_redirect business_unit_adx_redirect](adx_redirect.md#BKMK_business_unit_adx_redirect)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_redirect`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_redirect`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_shortcut"></a> business_unit_adx_shortcut
+
+Many-To-One Relationship: [adx_shortcut business_unit_adx_shortcut](adx_shortcut.md#BKMK_business_unit_adx_shortcut)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_shortcut`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_shortcut`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_sitemarker"></a> business_unit_adx_sitemarker
+
+Many-To-One Relationship: [adx_sitemarker business_unit_adx_sitemarker](adx_sitemarker.md#BKMK_business_unit_adx_sitemarker)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_sitemarker`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_sitemarker`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_sitemigrationchunk"></a> business_unit_adx_sitemigrationchunk
+
+Many-To-One Relationship: [adx_sitemigrationchunk business_unit_adx_sitemigrationchunk](adx_sitemigrationchunk.md#BKMK_business_unit_adx_sitemigrationchunk)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_sitemigrationchunk`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_sitemigrationchunk`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_sitemigrationrun"></a> business_unit_adx_sitemigrationrun
+
+Many-To-One Relationship: [adx_sitemigrationrun business_unit_adx_sitemigrationrun](adx_sitemigrationrun.md#BKMK_business_unit_adx_sitemigrationrun)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_sitemigrationrun`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_sitemigrationrun`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_sitesetting"></a> business_unit_adx_sitesetting
+
+Many-To-One Relationship: [adx_sitesetting business_unit_adx_sitesetting](adx_sitesetting.md#BKMK_business_unit_adx_sitesetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_sitesetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_sitesetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_tag"></a> business_unit_adx_tag
+
+Many-To-One Relationship: [adx_tag business_unit_adx_tag](adx_tag.md#BKMK_business_unit_adx_tag)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_tag`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_tag`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_urlhistory"></a> business_unit_adx_urlhistory
+
+Many-To-One Relationship: [adx_urlhistory business_unit_adx_urlhistory](adx_urlhistory.md#BKMK_business_unit_adx_urlhistory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_urlhistory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_urlhistory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_webfile"></a> business_unit_adx_webfile
+
+Many-To-One Relationship: [adx_webfile business_unit_adx_webfile](adx_webfile.md#BKMK_business_unit_adx_webfile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_webfile`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_webfile`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_webfilelog"></a> business_unit_adx_webfilelog
+
+Many-To-One Relationship: [adx_webfilelog business_unit_adx_webfilelog](adx_webfilelog.md#BKMK_business_unit_adx_webfilelog)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_webfilelog`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_webfilelog`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_webform"></a> business_unit_adx_webform
+
+Many-To-One Relationship: [adx_webform business_unit_adx_webform](adx_webform.md#BKMK_business_unit_adx_webform)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_webform`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_webform`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_weblink"></a> business_unit_adx_weblink
+
+Many-To-One Relationship: [adx_weblink business_unit_adx_weblink](adx_weblink.md#BKMK_business_unit_adx_weblink)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_weblink`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_weblink`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_weblinkset"></a> business_unit_adx_weblinkset
+
+Many-To-One Relationship: [adx_weblinkset business_unit_adx_weblinkset](adx_weblinkset.md#BKMK_business_unit_adx_weblinkset)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_weblinkset`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_weblinkset`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_webnotificationurl"></a> business_unit_adx_webnotificationurl
+
+Many-To-One Relationship: [adx_webnotificationurl business_unit_adx_webnotificationurl](adx_webnotificationurl.md#BKMK_business_unit_adx_webnotificationurl)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_webnotificationurl`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_webnotificationurl`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_webpage"></a> business_unit_adx_webpage
+
+Many-To-One Relationship: [adx_webpage business_unit_adx_webpage](adx_webpage.md#BKMK_business_unit_adx_webpage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_webpage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_webpage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_webpageaccesscontrolrule"></a> business_unit_adx_webpageaccesscontrolrule
+
+Many-To-One Relationship: [adx_webpageaccesscontrolrule business_unit_adx_webpageaccesscontrolrule](adx_webpageaccesscontrolrule.md#BKMK_business_unit_adx_webpageaccesscontrolrule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_webpageaccesscontrolrule`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_webpageaccesscontrolrule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_webpagehistory"></a> business_unit_adx_webpagehistory
+
+Many-To-One Relationship: [adx_webpagehistory business_unit_adx_webpagehistory](adx_webpagehistory.md#BKMK_business_unit_adx_webpagehistory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_webpagehistory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_webpagehistory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_webpagelog"></a> business_unit_adx_webpagelog
+
+Many-To-One Relationship: [adx_webpagelog business_unit_adx_webpagelog](adx_webpagelog.md#BKMK_business_unit_adx_webpagelog)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_webpagelog`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_webpagelog`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_webrole"></a> business_unit_adx_webrole
+
+Many-To-One Relationship: [adx_webrole business_unit_adx_webrole](adx_webrole.md#BKMK_business_unit_adx_webrole)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_webrole`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_webrole`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_website"></a> business_unit_adx_website
+
+Many-To-One Relationship: [adx_website business_unit_adx_website](adx_website.md#BKMK_business_unit_adx_website)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_website`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_website`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_websiteaccess"></a> business_unit_adx_websiteaccess
+
+Many-To-One Relationship: [adx_websiteaccess business_unit_adx_websiteaccess](adx_websiteaccess.md#BKMK_business_unit_adx_websiteaccess)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_websiteaccess`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_websiteaccess`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_websitelanguage"></a> business_unit_adx_websitelanguage
+
+Many-To-One Relationship: [adx_websitelanguage business_unit_adx_websitelanguage](adx_websitelanguage.md#BKMK_business_unit_adx_websitelanguage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_websitelanguage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_websitelanguage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_adx_websitemigrationtracker"></a> business_unit_adx_websitemigrationtracker
+
+Many-To-One Relationship: [adx_websitemigrationtracker business_unit_adx_websitemigrationtracker](adx_websitemigrationtracker.md#BKMK_business_unit_adx_websitemigrationtracker)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`adx_websitemigrationtracker`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_adx_websitemigrationtracker`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_bookableresource"></a> business_unit_bookableresource
+
+Many-To-One Relationship: [bookableresource business_unit_bookableresource](bookableresource.md#BKMK_business_unit_bookableresource)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`bookableresource`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_bookableresource`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_bookableresourcebooking"></a> business_unit_bookableresourcebooking
+
+Many-To-One Relationship: [bookableresourcebooking business_unit_bookableresourcebooking](bookableresourcebooking.md#BKMK_business_unit_bookableresourcebooking)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`bookableresourcebooking`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_bookableresourcebooking`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_bookableresourcebookingheader"></a> business_unit_bookableresourcebookingheader
+
+Many-To-One Relationship: [bookableresourcebookingheader business_unit_bookableresourcebookingheader](bookableresourcebookingheader.md#BKMK_business_unit_bookableresourcebookingheader)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`bookableresourcebookingheader`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_bookableresourcebookingheader`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_bookableresourcecategory"></a> business_unit_bookableresourcecategory
+
+Many-To-One Relationship: [bookableresourcecategory business_unit_bookableresourcecategory](bookableresourcecategory.md#BKMK_business_unit_bookableresourcecategory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`bookableresourcecategory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_bookableresourcecategory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_bookableresourcecategoryassn"></a> business_unit_bookableresourcecategoryassn
+
+Many-To-One Relationship: [bookableresourcecategoryassn business_unit_bookableresourcecategoryassn](bookableresourcecategoryassn.md#BKMK_business_unit_bookableresourcecategoryassn)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`bookableresourcecategoryassn`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_bookableresourcecategoryassn`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_bookableresourcecharacteristic"></a> business_unit_bookableresourcecharacteristic
+
+Many-To-One Relationship: [bookableresourcecharacteristic business_unit_bookableresourcecharacteristic](bookableresourcecharacteristic.md#BKMK_business_unit_bookableresourcecharacteristic)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`bookableresourcecharacteristic`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_bookableresourcecharacteristic`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_bookableresourcegroup"></a> business_unit_bookableresourcegroup
+
+Many-To-One Relationship: [bookableresourcegroup business_unit_bookableresourcegroup](bookableresourcegroup.md#BKMK_business_unit_bookableresourcegroup)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`bookableresourcegroup`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_bookableresourcegroup`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_bookingstatus"></a> business_unit_bookingstatus
+
+Many-To-One Relationship: [bookingstatus business_unit_bookingstatus](bookingstatus.md#BKMK_business_unit_bookingstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`bookingstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_bookingstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_BulkOperation_activities"></a> business_unit_BulkOperation_activities
+
+Many-To-One Relationship: [bulkoperation business_unit_BulkOperation_activities](bulkoperation.md#BKMK_business_unit_BulkOperation_activities)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`bulkoperation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_BulkOperation_activities`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_campaignactivity_activities"></a> business_unit_campaignactivity_activities
+
+Many-To-One Relationship: [campaignactivity business_unit_campaignactivity_activities](campaignactivity.md#BKMK_business_unit_campaignactivity_activities)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`campaignactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_campaignactivity_activities`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_campaignresponse_activities"></a> business_unit_campaignresponse_activities
+
+Many-To-One Relationship: [campaignresponse business_unit_campaignresponse_activities](campaignresponse.md#BKMK_business_unit_campaignresponse_activities)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`campaignresponse`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_campaignresponse_activities`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_characteristic"></a> business_unit_characteristic
+
+Many-To-One Relationship: [characteristic business_unit_characteristic](characteristic.md#BKMK_business_unit_characteristic)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`characteristic`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_characteristic`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_constraint_based_groups"></a> business_unit_constraint_based_groups
+
+Many-To-One Relationship: [constraintbasedgroup business_unit_constraint_based_groups](constraintbasedgroup.md#BKMK_business_unit_constraint_based_groups)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`constraintbasedgroup`|
+|ReferencingAttribute|`businessunitid`|
+|ReferencedEntityNavigationPropertyName|`business_unit_constraint_based_groups`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_dynamicproperyinstance"></a> business_unit_dynamicproperyinstance
+
+Many-To-One Relationship: [dynamicpropertyinstance business_unit_dynamicproperyinstance](dynamicpropertyinstance.md#BKMK_business_unit_dynamicproperyinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`dynamicpropertyinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_dynamicproperyinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_entitlement"></a> business_unit_entitlement
+
+Many-To-One Relationship: [entitlement business_unit_entitlement](entitlement.md#BKMK_business_unit_entitlement)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`entitlement`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_entitlement`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_entitlemententityallocationtypemapping"></a> business_unit_entitlemententityallocationtypemapping
+
+Many-To-One Relationship: [entitlemententityallocationtypemapping business_unit_entitlemententityallocationtypemapping](entitlemententityallocationtypemapping.md#BKMK_business_unit_entitlemententityallocationtypemapping)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`entitlemententityallocationtypemapping`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_entitlemententityallocationtypemapping`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_equipment"></a> business_unit_equipment
+
+Many-To-One Relationship: [equipment business_unit_equipment](equipment.md#BKMK_business_unit_equipment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`equipment`|
+|ReferencingAttribute|`businessunitid`|
+|ReferencedEntityNavigationPropertyName|`business_unit_equipment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_federatedknowledgeconfiguration"></a> business_unit_federatedknowledgeconfiguration
+
+Many-To-One Relationship: [federatedknowledgeconfiguration business_unit_federatedknowledgeconfiguration](federatedknowledgeconfiguration.md#BKMK_business_unit_federatedknowledgeconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`federatedknowledgeconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_federatedknowledgeconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_federatedknowledgeentityconfiguration"></a> business_unit_federatedknowledgeentityconfiguration
+
+Many-To-One Relationship: [federatedknowledgeentityconfiguration business_unit_federatedknowledgeentityconfiguration](federatedknowledgeentityconfiguration.md#BKMK_business_unit_federatedknowledgeentityconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`federatedknowledgeentityconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_federatedknowledgeentityconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_incident_resolution_activities"></a> business_unit_incident_resolution_activities
+
+Many-To-One Relationship: [incidentresolution business_unit_incident_resolution_activities](incidentresolution.md#BKMK_business_unit_incident_resolution_activities)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`incidentresolution`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_incident_resolution_activities`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_incidents"></a> business_unit_incidents
+
+Many-To-One Relationship: [incident business_unit_incidents](incident.md#BKMK_business_unit_incidents)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`incident`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_incidents`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_invoices"></a> business_unit_invoices
+
+Many-To-One Relationship: [invoice business_unit_invoices](invoice.md#BKMK_business_unit_invoices)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`invoice`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_invoices`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_leads"></a> business_unit_leads
+
+Many-To-One Relationship: [lead business_unit_leads](lead.md#BKMK_business_unit_leads)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`lead`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_leads`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_list"></a> business_unit_list
+
+Many-To-One Relationship: [list business_unit_list](list.md#BKMK_business_unit_list)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`list`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_list`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_listoperation"></a> business_unit_listoperation
+
+Many-To-One Relationship: [listoperation business_unit_listoperation](listoperation.md#BKMK_business_unit_listoperation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`listoperation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_listoperation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_activitymappingmetadatabase"></a> business_unit_mscipriv_activitymappingmetadatabase
+
+Many-To-One Relationship: [mscipriv_activitymappingmetadatabase business_unit_mscipriv_activitymappingmetadatabase](mscipriv_activitymappingmetadatabase.md#BKMK_business_unit_mscipriv_activitymappingmetadatabase)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_activitymappingmetadatabase`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_activitymappingmetadatabase`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_additionalentityinfo"></a> business_unit_mscipriv_additionalentityinfo
+
+Many-To-One Relationship: [mscipriv_additionalentityinfo business_unit_mscipriv_additionalentityinfo](mscipriv_additionalentityinfo.md#BKMK_business_unit_mscipriv_additionalentityinfo)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_additionalentityinfo`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_additionalentityinfo`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_aibuildercallbacktesthook"></a> business_unit_mscipriv_aibuildercallbacktesthook
+
+Many-To-One Relationship: [mscipriv_aibuildercallbacktesthook business_unit_mscipriv_aibuildercallbacktesthook](mscipriv_aibuildercallbacktesthook.md#BKMK_business_unit_mscipriv_aibuildercallbacktesthook)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_aibuildercallbacktesthook`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_aibuildercallbacktesthook`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_aibuildermodelmetadata"></a> business_unit_mscipriv_aibuildermodelmetadata
+
+Many-To-One Relationship: [mscipriv_aibuildermodelmetadata business_unit_mscipriv_aibuildermodelmetadata](mscipriv_aibuildermodelmetadata.md#BKMK_business_unit_mscipriv_aibuildermodelmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_aibuildermodelmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_aibuildermodelmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_analysisinstanceconfig"></a> business_unit_mscipriv_analysisinstanceconfig
+
+Many-To-One Relationship: [mscipriv_analysisinstanceconfig business_unit_mscipriv_analysisinstanceconfig](mscipriv_analysisinstanceconfig.md#BKMK_business_unit_mscipriv_analysisinstanceconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_analysisinstanceconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_analysisinstanceconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_analysismetadata"></a> business_unit_mscipriv_analysismetadata
+
+Many-To-One Relationship: [mscipriv_analysismetadata business_unit_mscipriv_analysismetadata](mscipriv_analysismetadata.md#BKMK_business_unit_mscipriv_analysismetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_analysismetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_analysismetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_azuremlwebservice"></a> business_unit_mscipriv_azuremlwebservice
+
+Many-To-One Relationship: [mscipriv_azuremlwebservice business_unit_mscipriv_azuremlwebservice](mscipriv_azuremlwebservice.md#BKMK_business_unit_mscipriv_azuremlwebservice)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_azuremlwebservice`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_azuremlwebservice`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_businessunitconfiguration"></a> business_unit_mscipriv_businessunitconfiguration
+
+Many-To-One Relationship: [mscipriv_businessunitconfiguration business_unit_mscipriv_businessunitconfiguration](mscipriv_businessunitconfiguration.md#BKMK_business_unit_mscipriv_businessunitconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_businessunitconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_businessunitconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_cdsamodelmetadata"></a> business_unit_mscipriv_cdsamodelmetadata
+
+Many-To-One Relationship: [mscipriv_cdsamodelmetadata business_unit_mscipriv_cdsamodelmetadata](mscipriv_cdsamodelmetadata.md#BKMK_business_unit_mscipriv_cdsamodelmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_cdsamodelmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_cdsamodelmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_clusterloadmetadata"></a> business_unit_mscipriv_clusterloadmetadata
+
+Many-To-One Relationship: [mscipriv_clusterloadmetadata business_unit_mscipriv_clusterloadmetadata](mscipriv_clusterloadmetadata.md#BKMK_business_unit_mscipriv_clusterloadmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_clusterloadmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_clusterloadmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_conflationcriteriastatistics"></a> business_unit_mscipriv_conflationcriteriastatistics
+
+Many-To-One Relationship: [mscipriv_conflationcriteriastatistics business_unit_mscipriv_conflationcriteriastatistics](mscipriv_conflationcriteriastatistics.md#BKMK_business_unit_mscipriv_conflationcriteriastatistics)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_conflationcriteriastatistics`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_conflationcriteriastatistics`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_conflationmetadata"></a> business_unit_mscipriv_conflationmetadata
+
+Many-To-One Relationship: [mscipriv_conflationmetadata business_unit_mscipriv_conflationmetadata](mscipriv_conflationmetadata.md#BKMK_business_unit_mscipriv_conflationmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_conflationmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_conflationmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_conflationrun"></a> business_unit_mscipriv_conflationrun
+
+Many-To-One Relationship: [mscipriv_conflationrun business_unit_mscipriv_conflationrun](mscipriv_conflationrun.md#BKMK_business_unit_mscipriv_conflationrun)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_conflationrun`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_conflationrun`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_conflationstatistics"></a> business_unit_mscipriv_conflationstatistics
+
+Many-To-One Relationship: [mscipriv_conflationstatistics business_unit_mscipriv_conflationstatistics](mscipriv_conflationstatistics.md#BKMK_business_unit_mscipriv_conflationstatistics)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_conflationstatistics`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_conflationstatistics`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_consentsettings"></a> business_unit_mscipriv_consentsettings
+
+Many-To-One Relationship: [mscipriv_consentsettings business_unit_mscipriv_consentsettings](mscipriv_consentsettings.md#BKMK_business_unit_mscipriv_consentsettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_consentsettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_consentsettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_dataflowmetadata"></a> business_unit_mscipriv_dataflowmetadata
+
+Many-To-One Relationship: [mscipriv_dataflowmetadata business_unit_mscipriv_dataflowmetadata](mscipriv_dataflowmetadata.md#BKMK_business_unit_mscipriv_dataflowmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_dataflowmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_dataflowmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_datapreparationmetadata"></a> business_unit_mscipriv_datapreparationmetadata
+
+Many-To-One Relationship: [mscipriv_datapreparationmetadata business_unit_mscipriv_datapreparationmetadata](mscipriv_datapreparationmetadata.md#BKMK_business_unit_mscipriv_datapreparationmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_datapreparationmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_datapreparationmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_dataqualityfeaturewisemetadata"></a> business_unit_mscipriv_dataqualityfeaturewisemetadata
+
+Many-To-One Relationship: [mscipriv_dataqualityfeaturewisemetadata business_unit_mscipriv_dataqualityfeaturewisemetadata](mscipriv_dataqualityfeaturewisemetadata.md#BKMK_business_unit_mscipriv_dataqualityfeaturewisemetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_dataqualityfeaturewisemetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_dataqualityfeaturewisemetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_dataqualityoverview"></a> business_unit_mscipriv_dataqualityoverview
+
+Many-To-One Relationship: [mscipriv_dataqualityoverview business_unit_mscipriv_dataqualityoverview](mscipriv_dataqualityoverview.md#BKMK_business_unit_mscipriv_dataqualityoverview)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_dataqualityoverview`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_dataqualityoverview`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_dataqualityreport"></a> business_unit_mscipriv_dataqualityreport
+
+Many-To-One Relationship: [mscipriv_dataqualityreport business_unit_mscipriv_dataqualityreport](mscipriv_dataqualityreport.md#BKMK_business_unit_mscipriv_dataqualityreport)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_dataqualityreport`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_dataqualityreport`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_datasetcatalog"></a> business_unit_mscipriv_datasetcatalog
+
+Many-To-One Relationship: [mscipriv_datasetcatalog business_unit_mscipriv_datasetcatalog](mscipriv_datasetcatalog.md#BKMK_business_unit_mscipriv_datasetcatalog)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_datasetcatalog`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_datasetcatalog`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_datasourcemetadata"></a> business_unit_mscipriv_datasourcemetadata
+
+Many-To-One Relationship: [mscipriv_datasourcemetadata business_unit_mscipriv_datasourcemetadata](mscipriv_datasourcemetadata.md#BKMK_business_unit_mscipriv_datasourcemetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_datasourcemetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_datasourcemetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_datatroubleshootingaccess"></a> business_unit_mscipriv_datatroubleshootingaccess
+
+Many-To-One Relationship: [mscipriv_datatroubleshootingaccess business_unit_mscipriv_datatroubleshootingaccess](mscipriv_datatroubleshootingaccess.md#BKMK_business_unit_mscipriv_datatroubleshootingaccess)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_datatroubleshootingaccess`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_datatroubleshootingaccess`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_dataverseentitydatacleanupjobinfo"></a> business_unit_mscipriv_dataverseentitydatacleanupjobinfo
+
+Many-To-One Relationship: [mscipriv_dataverseentitydatacleanupjobinfo business_unit_mscipriv_dataverseentitydatacleanupjobinfo](mscipriv_dataverseentitydatacleanupjobinfo.md#BKMK_business_unit_mscipriv_dataverseentitydatacleanupjobinfo)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_dataverseentitydatacleanupjobinfo`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_dataverseentitydatacleanupjobinfo`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_derivedentitymetadata"></a> business_unit_mscipriv_derivedentitymetadata
+
+Many-To-One Relationship: [mscipriv_derivedentitymetadata business_unit_mscipriv_derivedentitymetadata](mscipriv_derivedentitymetadata.md#BKMK_business_unit_mscipriv_derivedentitymetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_derivedentitymetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_derivedentitymetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_diagnosticsetting"></a> business_unit_mscipriv_diagnosticsetting
+
+Many-To-One Relationship: [mscipriv_diagnosticsetting business_unit_mscipriv_diagnosticsetting](mscipriv_diagnosticsetting.md#BKMK_business_unit_mscipriv_diagnosticsetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_diagnosticsetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_diagnosticsetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_discoveredcdsamodel"></a> business_unit_mscipriv_discoveredcdsamodel
+
+Many-To-One Relationship: [mscipriv_discoveredcdsamodel business_unit_mscipriv_discoveredcdsamodel](mscipriv_discoveredcdsamodel.md#BKMK_business_unit_mscipriv_discoveredcdsamodel)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_discoveredcdsamodel`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_discoveredcdsamodel`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_discoveryoperation"></a> business_unit_mscipriv_discoveryoperation
+
+Many-To-One Relationship: [mscipriv_discoveryoperation business_unit_mscipriv_discoveryoperation](mscipriv_discoveryoperation.md#BKMK_business_unit_mscipriv_discoveryoperation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_discoveryoperation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_discoveryoperation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_enrichmentmetadata"></a> business_unit_mscipriv_enrichmentmetadata
+
+Many-To-One Relationship: [mscipriv_enrichmentmetadata business_unit_mscipriv_enrichmentmetadata](mscipriv_enrichmentmetadata.md#BKMK_business_unit_mscipriv_enrichmentmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_enrichmentmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_enrichmentmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_enrichmentrun"></a> business_unit_mscipriv_enrichmentrun
+
+Many-To-One Relationship: [mscipriv_enrichmentrun business_unit_mscipriv_enrichmentrun](mscipriv_enrichmentrun.md#BKMK_business_unit_mscipriv_enrichmentrun)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_enrichmentrun`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_enrichmentrun`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_entityfiltermetadata"></a> business_unit_mscipriv_entityfiltermetadata
+
+Many-To-One Relationship: [mscipriv_entityfiltermetadata business_unit_mscipriv_entityfiltermetadata](mscipriv_entityfiltermetadata.md#BKMK_business_unit_mscipriv_entityfiltermetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_entityfiltermetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_entityfiltermetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_exportconfig"></a> business_unit_mscipriv_exportconfig
+
+Many-To-One Relationship: [mscipriv_exportconfig business_unit_mscipriv_exportconfig](mscipriv_exportconfig.md#BKMK_business_unit_mscipriv_exportconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_exportconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_exportconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_exportconfigreport"></a> business_unit_mscipriv_exportconfigreport
+
+Many-To-One Relationship: [mscipriv_exportconfigreport business_unit_mscipriv_exportconfigreport](mscipriv_exportconfigreport.md#BKMK_business_unit_mscipriv_exportconfigreport)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_exportconfigreport`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_exportconfigreport`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_exportedmoduleconfiguration"></a> business_unit_mscipriv_exportedmoduleconfiguration
+
+Many-To-One Relationship: [mscipriv_exportedmoduleconfiguration business_unit_mscipriv_exportedmoduleconfiguration](mscipriv_exportedmoduleconfiguration.md#BKMK_business_unit_mscipriv_exportedmoduleconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_exportedmoduleconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_exportedmoduleconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_exportsettings"></a> business_unit_mscipriv_exportsettings
+
+Many-To-One Relationship: [mscipriv_exportsettings business_unit_mscipriv_exportsettings](mscipriv_exportsettings.md#BKMK_business_unit_mscipriv_exportsettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_exportsettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_exportsettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_featuretemplate"></a> business_unit_mscipriv_featuretemplate
+
+Many-To-One Relationship: [mscipriv_featuretemplate business_unit_mscipriv_featuretemplate](mscipriv_featuretemplate.md#BKMK_business_unit_mscipriv_featuretemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_featuretemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_featuretemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_graphmetadata"></a> business_unit_mscipriv_graphmetadata
+
+Many-To-One Relationship: [mscipriv_graphmetadata business_unit_mscipriv_graphmetadata](mscipriv_graphmetadata.md#BKMK_business_unit_mscipriv_graphmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_graphmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_graphmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_hierarchymetadata"></a> business_unit_mscipriv_hierarchymetadata
+
+Many-To-One Relationship: [mscipriv_hierarchymetadata business_unit_mscipriv_hierarchymetadata](mscipriv_hierarchymetadata.md#BKMK_business_unit_mscipriv_hierarchymetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_hierarchymetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_hierarchymetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_hostloadmetadata"></a> business_unit_mscipriv_hostloadmetadata
+
+Many-To-One Relationship: [mscipriv_hostloadmetadata business_unit_mscipriv_hostloadmetadata](mscipriv_hostloadmetadata.md#BKMK_business_unit_mscipriv_hostloadmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_hostloadmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_hostloadmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_importexportstatusmetadata"></a> business_unit_mscipriv_importexportstatusmetadata
+
+Many-To-One Relationship: [mscipriv_importexportstatusmetadata business_unit_mscipriv_importexportstatusmetadata](mscipriv_importexportstatusmetadata.md#BKMK_business_unit_mscipriv_importexportstatusmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_importexportstatusmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_importexportstatusmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_insightmetadata"></a> business_unit_mscipriv_insightmetadata
+
+Many-To-One Relationship: [mscipriv_insightmetadata business_unit_mscipriv_insightmetadata](mscipriv_insightmetadata.md#BKMK_business_unit_mscipriv_insightmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_insightmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_insightmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_insightsdataqualityreport"></a> business_unit_mscipriv_insightsdataqualityreport
+
+Many-To-One Relationship: [mscipriv_insightsdataqualityreport business_unit_mscipriv_insightsdataqualityreport](mscipriv_insightsdataqualityreport.md#BKMK_business_unit_mscipriv_insightsdataqualityreport)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_insightsdataqualityreport`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_insightsdataqualityreport`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_instancemetrics"></a> business_unit_mscipriv_instancemetrics
+
+Many-To-One Relationship: [mscipriv_instancemetrics business_unit_mscipriv_instancemetrics](mscipriv_instancemetrics.md#BKMK_business_unit_mscipriv_instancemetrics)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_instancemetrics`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_instancemetrics`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_instancepartnercatalog"></a> business_unit_mscipriv_instancepartnercatalog
+
+Many-To-One Relationship: [mscipriv_instancepartnercatalog business_unit_mscipriv_instancepartnercatalog](mscipriv_instancepartnercatalog.md#BKMK_business_unit_mscipriv_instancepartnercatalog)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_instancepartnercatalog`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_instancepartnercatalog`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_instancesearchconfiguration"></a> business_unit_mscipriv_instancesearchconfiguration
+
+Many-To-One Relationship: [mscipriv_instancesearchconfiguration business_unit_mscipriv_instancesearchconfiguration](mscipriv_instancesearchconfiguration.md#BKMK_business_unit_mscipriv_instancesearchconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_instancesearchconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_instancesearchconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_instancesettings"></a> business_unit_mscipriv_instancesettings
+
+Many-To-One Relationship: [mscipriv_instancesettings business_unit_mscipriv_instancesettings](mscipriv_instancesettings.md#BKMK_business_unit_mscipriv_instancesettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_instancesettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_instancesettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_intelligenceworkflowmetadata"></a> business_unit_mscipriv_intelligenceworkflowmetadata
+
+Many-To-One Relationship: [mscipriv_intelligenceworkflowmetadata business_unit_mscipriv_intelligenceworkflowmetadata](mscipriv_intelligenceworkflowmetadata.md#BKMK_business_unit_mscipriv_intelligenceworkflowmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_intelligenceworkflowmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_intelligenceworkflowmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_intelligenceworkflowrunmetadata"></a> business_unit_mscipriv_intelligenceworkflowrunmetadata
+
+Many-To-One Relationship: [mscipriv_intelligenceworkflowrunmetadata business_unit_mscipriv_intelligenceworkflowrunmetadata](mscipriv_intelligenceworkflowrunmetadata.md#BKMK_business_unit_mscipriv_intelligenceworkflowrunmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_intelligenceworkflowrunmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_intelligenceworkflowrunmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_intelligenceworkspacemetadata"></a> business_unit_mscipriv_intelligenceworkspacemetadata
+
+Many-To-One Relationship: [mscipriv_intelligenceworkspacemetadata business_unit_mscipriv_intelligenceworkspacemetadata](mscipriv_intelligenceworkspacemetadata.md#BKMK_business_unit_mscipriv_intelligenceworkspacemetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_intelligenceworkspacemetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_intelligenceworkspacemetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_keyvaultmetadata"></a> business_unit_mscipriv_keyvaultmetadata
+
+Many-To-One Relationship: [mscipriv_keyvaultmetadata business_unit_mscipriv_keyvaultmetadata](mscipriv_keyvaultmetadata.md#BKMK_business_unit_mscipriv_keyvaultmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_keyvaultmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_keyvaultmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_lightcdsamodelmetadata"></a> business_unit_mscipriv_lightcdsamodelmetadata
+
+Many-To-One Relationship: [mscipriv_lightcdsamodelmetadata business_unit_mscipriv_lightcdsamodelmetadata](mscipriv_lightcdsamodelmetadata.md#BKMK_business_unit_mscipriv_lightcdsamodelmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_lightcdsamodelmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_lightcdsamodelmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_logicappssubscribermetadata"></a> business_unit_mscipriv_logicappssubscribermetadata
+
+Many-To-One Relationship: [mscipriv_logicappssubscribermetadata business_unit_mscipriv_logicappssubscribermetadata](mscipriv_logicappssubscribermetadata.md#BKMK_business_unit_mscipriv_logicappssubscribermetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_logicappssubscribermetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_logicappssubscribermetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_mappedsecretmetadata"></a> business_unit_mscipriv_mappedsecretmetadata
+
+Many-To-One Relationship: [mscipriv_mappedsecretmetadata business_unit_mscipriv_mappedsecretmetadata](mscipriv_mappedsecretmetadata.md#BKMK_business_unit_mscipriv_mappedsecretmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_mappedsecretmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_mappedsecretmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_measuremetadata"></a> business_unit_mscipriv_measuremetadata
+
+Many-To-One Relationship: [mscipriv_measuremetadata business_unit_mscipriv_measuremetadata](mscipriv_measuremetadata.md#BKMK_business_unit_mscipriv_measuremetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_measuremetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_measuremetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_modelconfigmetadata"></a> business_unit_mscipriv_modelconfigmetadata
+
+Many-To-One Relationship: [mscipriv_modelconfigmetadata business_unit_mscipriv_modelconfigmetadata](mscipriv_modelconfigmetadata.md#BKMK_business_unit_mscipriv_modelconfigmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_modelconfigmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_modelconfigmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_moduleconfigurationreference"></a> business_unit_mscipriv_moduleconfigurationreference
+
+Many-To-One Relationship: [mscipriv_moduleconfigurationreference business_unit_mscipriv_moduleconfigurationreference](mscipriv_moduleconfigurationreference.md#BKMK_business_unit_mscipriv_moduleconfigurationreference)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_moduleconfigurationreference`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_moduleconfigurationreference`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_notificationcheckpoint"></a> business_unit_mscipriv_notificationcheckpoint
+
+Many-To-One Relationship: [mscipriv_notificationcheckpoint business_unit_mscipriv_notificationcheckpoint](mscipriv_notificationcheckpoint.md#BKMK_business_unit_mscipriv_notificationcheckpoint)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_notificationcheckpoint`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_notificationcheckpoint`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_packageimportmetadata"></a> business_unit_mscipriv_packageimportmetadata
+
+Many-To-One Relationship: [mscipriv_packageimportmetadata business_unit_mscipriv_packageimportmetadata](mscipriv_packageimportmetadata.md#BKMK_business_unit_mscipriv_packageimportmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_packageimportmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_packageimportmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_packagejobmetadata"></a> business_unit_mscipriv_packagejobmetadata
+
+Many-To-One Relationship: [mscipriv_packagejobmetadata business_unit_mscipriv_packagejobmetadata](mscipriv_packagejobmetadata.md#BKMK_business_unit_mscipriv_packagejobmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_packagejobmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_packagejobmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_packagemetadata"></a> business_unit_mscipriv_packagemetadata
+
+Many-To-One Relationship: [mscipriv_packagemetadata business_unit_mscipriv_packagemetadata](mscipriv_packagemetadata.md#BKMK_business_unit_mscipriv_packagemetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_packagemetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_packagemetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_platforminstancemapping"></a> business_unit_mscipriv_platforminstancemapping
+
+Many-To-One Relationship: [mscipriv_platforminstancemapping business_unit_mscipriv_platforminstancemapping](mscipriv_platforminstancemapping.md#BKMK_business_unit_mscipriv_platforminstancemapping)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_platforminstancemapping`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_platforminstancemapping`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_powerplatformconnector"></a> business_unit_mscipriv_powerplatformconnector
+
+Many-To-One Relationship: [mscipriv_powerplatformconnector business_unit_mscipriv_powerplatformconnector](mscipriv_powerplatformconnector.md#BKMK_business_unit_mscipriv_powerplatformconnector)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_powerplatformconnector`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_powerplatformconnector`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_powerplatformrefreshsignalmetadata"></a> business_unit_mscipriv_powerplatformrefreshsignalmetadata
+
+Many-To-One Relationship: [mscipriv_powerplatformrefreshsignalmetadata business_unit_mscipriv_powerplatformrefreshsignalmetadata](mscipriv_powerplatformrefreshsignalmetadata.md#BKMK_business_unit_mscipriv_powerplatformrefreshsignalmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_powerplatformrefreshsignalmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_powerplatformrefreshsignalmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_preenrichmentmetadata"></a> business_unit_mscipriv_preenrichmentmetadata
+
+Many-To-One Relationship: [mscipriv_preenrichmentmetadata business_unit_mscipriv_preenrichmentmetadata](mscipriv_preenrichmentmetadata.md#BKMK_business_unit_mscipriv_preenrichmentmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_preenrichmentmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_preenrichmentmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_profilestorestateinfo"></a> business_unit_mscipriv_profilestorestateinfo
+
+Many-To-One Relationship: [mscipriv_profilestorestateinfo business_unit_mscipriv_profilestorestateinfo](mscipriv_profilestorestateinfo.md#BKMK_business_unit_mscipriv_profilestorestateinfo)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_profilestorestateinfo`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_profilestorestateinfo`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_realtimeaggregatedstats"></a> business_unit_mscipriv_realtimeaggregatedstats
+
+Many-To-One Relationship: [mscipriv_realtimeaggregatedstats business_unit_mscipriv_realtimeaggregatedstats](mscipriv_realtimeaggregatedstats.md#BKMK_business_unit_mscipriv_realtimeaggregatedstats)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_realtimeaggregatedstats`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_realtimeaggregatedstats`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_realtimem3configuration"></a> business_unit_mscipriv_realtimem3configuration
+
+Many-To-One Relationship: [mscipriv_realtimem3configuration business_unit_mscipriv_realtimem3configuration](mscipriv_realtimem3configuration.md#BKMK_business_unit_mscipriv_realtimem3configuration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_realtimem3configuration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_realtimem3configuration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_realtimem3searchconfiguration"></a> business_unit_mscipriv_realtimem3searchconfiguration
+
+Many-To-One Relationship: [mscipriv_realtimem3searchconfiguration business_unit_mscipriv_realtimem3searchconfiguration](mscipriv_realtimem3searchconfiguration.md#BKMK_business_unit_mscipriv_realtimem3searchconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_realtimem3searchconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_realtimem3searchconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_realtimepluginmetadata"></a> business_unit_mscipriv_realtimepluginmetadata
+
+Many-To-One Relationship: [mscipriv_realtimepluginmetadata business_unit_mscipriv_realtimepluginmetadata](mscipriv_realtimepluginmetadata.md#BKMK_business_unit_mscipriv_realtimepluginmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_realtimepluginmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_realtimepluginmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_realtimesystemtablemetadata"></a> business_unit_mscipriv_realtimesystemtablemetadata
+
+Many-To-One Relationship: [mscipriv_realtimesystemtablemetadata business_unit_mscipriv_realtimesystemtablemetadata](mscipriv_realtimesystemtablemetadata.md#BKMK_business_unit_mscipriv_realtimesystemtablemetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_realtimesystemtablemetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_realtimesystemtablemetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_realtimetablemetadata"></a> business_unit_mscipriv_realtimetablemetadata
+
+Many-To-One Relationship: [mscipriv_realtimetablemetadata business_unit_mscipriv_realtimetablemetadata](mscipriv_realtimetablemetadata.md#BKMK_business_unit_mscipriv_realtimetablemetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_realtimetablemetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_realtimetablemetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_refreshhistorymetadata"></a> business_unit_mscipriv_refreshhistorymetadata
+
+Many-To-One Relationship: [mscipriv_refreshhistorymetadata business_unit_mscipriv_refreshhistorymetadata](mscipriv_refreshhistorymetadata.md#BKMK_business_unit_mscipriv_refreshhistorymetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_refreshhistorymetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_refreshhistorymetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_refreshschedulebase"></a> business_unit_mscipriv_refreshschedulebase
+
+Many-To-One Relationship: [mscipriv_refreshschedulebase business_unit_mscipriv_refreshschedulebase](mscipriv_refreshschedulebase.md#BKMK_business_unit_mscipriv_refreshschedulebase)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_refreshschedulebase`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_refreshschedulebase`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_refreshstatehistorymetadata"></a> business_unit_mscipriv_refreshstatehistorymetadata
+
+Many-To-One Relationship: [mscipriv_refreshstatehistorymetadata business_unit_mscipriv_refreshstatehistorymetadata](mscipriv_refreshstatehistorymetadata.md#BKMK_business_unit_mscipriv_refreshstatehistorymetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_refreshstatehistorymetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_refreshstatehistorymetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_relationshipmetadata"></a> business_unit_mscipriv_relationshipmetadata
+
+Many-To-One Relationship: [mscipriv_relationshipmetadata business_unit_mscipriv_relationshipmetadata](mscipriv_relationshipmetadata.md#BKMK_business_unit_mscipriv_relationshipmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_relationshipmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_relationshipmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_reportmetadata"></a> business_unit_mscipriv_reportmetadata
+
+Many-To-One Relationship: [mscipriv_reportmetadata business_unit_mscipriv_reportmetadata](mscipriv_reportmetadata.md#BKMK_business_unit_mscipriv_reportmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_reportmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_reportmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_resetinstancehistory"></a> business_unit_mscipriv_resetinstancehistory
+
+Many-To-One Relationship: [mscipriv_resetinstancehistory business_unit_mscipriv_resetinstancehistory](mscipriv_resetinstancehistory.md#BKMK_business_unit_mscipriv_resetinstancehistory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_resetinstancehistory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_resetinstancehistory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_resourcemetadata"></a> business_unit_mscipriv_resourcemetadata
+
+Many-To-One Relationship: [mscipriv_resourcemetadata business_unit_mscipriv_resourcemetadata](mscipriv_resourcemetadata.md#BKMK_business_unit_mscipriv_resourcemetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_resourcemetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_resourcemetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_runtimerealtimem3metadata"></a> business_unit_mscipriv_runtimerealtimem3metadata
+
+Many-To-One Relationship: [mscipriv_runtimerealtimem3metadata business_unit_mscipriv_runtimerealtimem3metadata](mscipriv_runtimerealtimem3metadata.md#BKMK_business_unit_mscipriv_runtimerealtimem3metadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_runtimerealtimem3metadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_runtimerealtimem3metadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_segmentmetadata"></a> business_unit_mscipriv_segmentmetadata
+
+Many-To-One Relationship: [mscipriv_segmentmetadata business_unit_mscipriv_segmentmetadata](mscipriv_segmentmetadata.md#BKMK_business_unit_mscipriv_segmentmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_segmentmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_segmentmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_semanticentitymappingmetadata"></a> business_unit_mscipriv_semanticentitymappingmetadata
+
+Many-To-One Relationship: [mscipriv_semanticentitymappingmetadata business_unit_mscipriv_semanticentitymappingmetadata](mscipriv_semanticentitymappingmetadata.md#BKMK_business_unit_mscipriv_semanticentitymappingmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_semanticentitymappingmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_semanticentitymappingmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_sparkjobexecutionmetadata"></a> business_unit_mscipriv_sparkjobexecutionmetadata
+
+Many-To-One Relationship: [mscipriv_sparkjobexecutionmetadata business_unit_mscipriv_sparkjobexecutionmetadata](mscipriv_sparkjobexecutionmetadata.md#BKMK_business_unit_mscipriv_sparkjobexecutionmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_sparkjobexecutionmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_sparkjobexecutionmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_systemintegrationmigrationtrackinginfo"></a> business_unit_mscipriv_systemintegrationmigrationtrackinginfo
+
+Many-To-One Relationship: [mscipriv_systemintegrationmigrationtrackinginfo business_unit_mscipriv_systemintegrationmigrationtrackinginfo](mscipriv_systemintegrationmigrationtrackinginfo.md#BKMK_business_unit_mscipriv_systemintegrationmigrationtrackinginfo)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_systemintegrationmigrationtrackinginfo`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_systemintegrationmigrationtrackinginfo`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_templatedmeasuremetadata"></a> business_unit_mscipriv_templatedmeasuremetadata
+
+Many-To-One Relationship: [mscipriv_templatedmeasuremetadata business_unit_mscipriv_templatedmeasuremetadata](mscipriv_templatedmeasuremetadata.md#BKMK_business_unit_mscipriv_templatedmeasuremetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_templatedmeasuremetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_templatedmeasuremetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_templatedsegmentmetadata"></a> business_unit_mscipriv_templatedsegmentmetadata
+
+Many-To-One Relationship: [mscipriv_templatedsegmentmetadata business_unit_mscipriv_templatedsegmentmetadata](mscipriv_templatedsegmentmetadata.md#BKMK_business_unit_mscipriv_templatedsegmentmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_templatedsegmentmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_templatedsegmentmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_transformmetadata"></a> business_unit_mscipriv_transformmetadata
+
+Many-To-One Relationship: [mscipriv_transformmetadata business_unit_mscipriv_transformmetadata](mscipriv_transformmetadata.md#BKMK_business_unit_mscipriv_transformmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_transformmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_transformmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_mscipriv_unifiedactivitymappinggroupmetadata"></a> business_unit_mscipriv_unifiedactivitymappinggroupmetadata
+
+Many-To-One Relationship: [mscipriv_unifiedactivitymappinggroupmetadata business_unit_mscipriv_unifiedactivitymappinggroupmetadata](mscipriv_unifiedactivitymappinggroupmetadata.md#BKMK_business_unit_mscipriv_unifiedactivitymappinggroupmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mscipriv_unifiedactivitymappinggroupmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_mscipriv_unifiedactivitymappinggroupmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_actioncardactionstat"></a> business_unit_msdyn_actioncardactionstat
+
+Many-To-One Relationship: [msdyn_actioncardactionstat business_unit_msdyn_actioncardactionstat](msdyn_actioncardactionstat.md#BKMK_business_unit_msdyn_actioncardactionstat)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_actioncardactionstat`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_actioncardactionstat`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_actioncardregarding"></a> business_unit_msdyn_actioncardregarding
+
+Many-To-One Relationship: [msdyn_actioncardregarding business_unit_msdyn_actioncardregarding](msdyn_actioncardregarding.md#BKMK_business_unit_msdyn_actioncardregarding)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_actioncardregarding`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_actioncardregarding`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_actioncardrolesetting"></a> business_unit_msdyn_actioncardrolesetting
+
+Many-To-One Relationship: [msdyn_actioncardrolesetting business_unit_msdyn_actioncardrolesetting](msdyn_actioncardrolesetting.md#BKMK_business_unit_msdyn_actioncardrolesetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_actioncardrolesetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_actioncardrolesetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_actioncardstataggregation"></a> business_unit_msdyn_actioncardstataggregation
+
+Many-To-One Relationship: [msdyn_actioncardstataggregation business_unit_msdyn_actioncardstataggregation](msdyn_actioncardstataggregation.md#BKMK_business_unit_msdyn_actioncardstataggregation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_actioncardstataggregation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_actioncardstataggregation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_activeicdextension"></a> business_unit_msdyn_activeicdextension
+
+Many-To-One Relationship: [msdyn_activeicdextension business_unit_msdyn_activeicdextension](msdyn_activeicdextension.md#BKMK_business_unit_msdyn_activeicdextension)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_activeicdextension`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_activeicdextension`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_actual"></a> business_unit_msdyn_actual
+
+Many-To-One Relationship: [msdyn_actual business_unit_msdyn_actual](msdyn_actual.md#BKMK_business_unit_msdyn_actual)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_actual`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_actual`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_adminappstate"></a> business_unit_msdyn_adminappstate
+
+Many-To-One Relationship: [msdyn_adminappstate business_unit_msdyn_adminappstate](msdyn_adminappstate.md#BKMK_business_unit_msdyn_adminappstate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_adminappstate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_adminappstate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agentcapacityprofileunit"></a> business_unit_msdyn_agentcapacityprofileunit
+
+Many-To-One Relationship: [msdyn_agentcapacityprofileunit business_unit_msdyn_agentcapacityprofileunit](msdyn_agentcapacityprofileunit.md#BKMK_business_unit_msdyn_agentcapacityprofileunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agentcapacityprofileunit`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agentcapacityprofileunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agentcapacityupdatehistory"></a> business_unit_msdyn_agentcapacityupdatehistory
+
+Many-To-One Relationship: [msdyn_agentcapacityupdatehistory business_unit_msdyn_agentcapacityupdatehistory](msdyn_agentcapacityupdatehistory.md#BKMK_business_unit_msdyn_agentcapacityupdatehistory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agentcapacityupdatehistory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agentcapacityupdatehistory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agentchannelstate"></a> business_unit_msdyn_agentchannelstate
+
+Many-To-One Relationship: [msdyn_agentchannelstate business_unit_msdyn_agentchannelstate](msdyn_agentchannelstate.md#BKMK_business_unit_msdyn_agentchannelstate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agentchannelstate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agentchannelstate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agentstatus"></a> business_unit_msdyn_agentstatus
+
+Many-To-One Relationship: [msdyn_agentstatus business_unit_msdyn_agentstatus](msdyn_agentstatus.md#BKMK_business_unit_msdyn_agentstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agentstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agentstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agentstatushistory"></a> business_unit_msdyn_agentstatushistory
+
+Many-To-One Relationship: [msdyn_agentstatushistory business_unit_msdyn_agentstatushistory](msdyn_agentstatushistory.md#BKMK_business_unit_msdyn_agentstatushistory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agentstatushistory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agentstatushistory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agreement"></a> business_unit_msdyn_agreement
+
+Many-To-One Relationship: [msdyn_agreement business_unit_msdyn_agreement](msdyn_agreement.md#BKMK_business_unit_msdyn_agreement)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agreement`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agreement`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agreementbookingdate"></a> business_unit_msdyn_agreementbookingdate
+
+Many-To-One Relationship: [msdyn_agreementbookingdate business_unit_msdyn_agreementbookingdate](msdyn_agreementbookingdate.md#BKMK_business_unit_msdyn_agreementbookingdate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agreementbookingdate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agreementbookingdate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agreementbookingincident"></a> business_unit_msdyn_agreementbookingincident
+
+Many-To-One Relationship: [msdyn_agreementbookingincident business_unit_msdyn_agreementbookingincident](msdyn_agreementbookingincident.md#BKMK_business_unit_msdyn_agreementbookingincident)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agreementbookingincident`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agreementbookingincident`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agreementbookingproduct"></a> business_unit_msdyn_agreementbookingproduct
+
+Many-To-One Relationship: [msdyn_agreementbookingproduct business_unit_msdyn_agreementbookingproduct](msdyn_agreementbookingproduct.md#BKMK_business_unit_msdyn_agreementbookingproduct)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agreementbookingproduct`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agreementbookingproduct`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agreementbookingservice"></a> business_unit_msdyn_agreementbookingservice
+
+Many-To-One Relationship: [msdyn_agreementbookingservice business_unit_msdyn_agreementbookingservice](msdyn_agreementbookingservice.md#BKMK_business_unit_msdyn_agreementbookingservice)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agreementbookingservice`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agreementbookingservice`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agreementbookingservicetask"></a> business_unit_msdyn_agreementbookingservicetask
+
+Many-To-One Relationship: [msdyn_agreementbookingservicetask business_unit_msdyn_agreementbookingservicetask](msdyn_agreementbookingservicetask.md#BKMK_business_unit_msdyn_agreementbookingservicetask)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agreementbookingservicetask`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agreementbookingservicetask`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agreementbookingsetup"></a> business_unit_msdyn_agreementbookingsetup
+
+Many-To-One Relationship: [msdyn_agreementbookingsetup business_unit_msdyn_agreementbookingsetup](msdyn_agreementbookingsetup.md#BKMK_business_unit_msdyn_agreementbookingsetup)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agreementbookingsetup`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agreementbookingsetup`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agreementinvoicedate"></a> business_unit_msdyn_agreementinvoicedate
+
+Many-To-One Relationship: [msdyn_agreementinvoicedate business_unit_msdyn_agreementinvoicedate](msdyn_agreementinvoicedate.md#BKMK_business_unit_msdyn_agreementinvoicedate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agreementinvoicedate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agreementinvoicedate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agreementinvoiceproduct"></a> business_unit_msdyn_agreementinvoiceproduct
+
+Many-To-One Relationship: [msdyn_agreementinvoiceproduct business_unit_msdyn_agreementinvoiceproduct](msdyn_agreementinvoiceproduct.md#BKMK_business_unit_msdyn_agreementinvoiceproduct)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agreementinvoiceproduct`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agreementinvoiceproduct`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agreementinvoicesetup"></a> business_unit_msdyn_agreementinvoicesetup
+
+Many-To-One Relationship: [msdyn_agreementinvoicesetup business_unit_msdyn_agreementinvoicesetup](msdyn_agreementinvoicesetup.md#BKMK_business_unit_msdyn_agreementinvoicesetup)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agreementinvoicesetup`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agreementinvoicesetup`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_agreementsubstatus"></a> business_unit_msdyn_agreementsubstatus
+
+Many-To-One Relationship: [msdyn_agreementsubstatus business_unit_msdyn_agreementsubstatus](msdyn_agreementsubstatus.md#BKMK_business_unit_msdyn_agreementsubstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agreementsubstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_agreementsubstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_aicontactsuggestion"></a> business_unit_msdyn_aicontactsuggestion
+
+Many-To-One Relationship: [msdyn_aicontactsuggestion business_unit_msdyn_aicontactsuggestion](msdyn_aicontactsuggestion.md#BKMK_business_unit_msdyn_aicontactsuggestion)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_aicontactsuggestion`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_aicontactsuggestion`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_analytics"></a> business_unit_msdyn_analytics
+
+Many-To-One Relationship: [msdyn_analytics business_unit_msdyn_analytics](msdyn_analytics.md#BKMK_business_unit_msdyn_analytics)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_analytics`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_analytics`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_analyticsadminsettings"></a> business_unit_msdyn_analyticsadminsettings
+
+Many-To-One Relationship: [msdyn_analyticsadminsettings business_unit_msdyn_analyticsadminsettings](msdyn_analyticsadminsettings.md#BKMK_business_unit_msdyn_analyticsadminsettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_analyticsadminsettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_analyticsadminsettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_analyticsforcs"></a> business_unit_msdyn_analyticsforcs
+
+Many-To-One Relationship: [msdyn_analyticsforcs business_unit_msdyn_analyticsforcs](msdyn_analyticsforcs.md#BKMK_business_unit_msdyn_analyticsforcs)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_analyticsforcs`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_analyticsforcs`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_appconfiguration"></a> business_unit_msdyn_appconfiguration
+
+Many-To-One Relationship: [msdyn_appconfiguration business_unit_msdyn_appconfiguration](msdyn_appconfiguration.md#BKMK_business_unit_msdyn_appconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_appconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_appconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_applicationextension"></a> business_unit_msdyn_applicationextension
+
+Many-To-One Relationship: [msdyn_applicationextension business_unit_msdyn_applicationextension](msdyn_applicationextension.md#BKMK_business_unit_msdyn_applicationextension)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_applicationextension`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_applicationextension`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_applicationtabtemplate"></a> business_unit_msdyn_applicationtabtemplate
+
+Many-To-One Relationship: [msdyn_applicationtabtemplate business_unit_msdyn_applicationtabtemplate](msdyn_applicationtabtemplate.md#BKMK_business_unit_msdyn_applicationtabtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_applicationtabtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_applicationtabtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_appprofilerolemapping"></a> business_unit_msdyn_appprofilerolemapping
+
+Many-To-One Relationship: [msdyn_appprofilerolemapping business_unit_msdyn_appprofilerolemapping](msdyn_appprofilerolemapping.md#BKMK_business_unit_msdyn_appprofilerolemapping)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_appprofilerolemapping`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_appprofilerolemapping`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_appstate"></a> business_unit_msdyn_appstate
+
+Many-To-One Relationship: [msdyn_appstate business_unit_msdyn_appstate](msdyn_appstate.md#BKMK_business_unit_msdyn_appstate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_appstate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_appstate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_assetcategorytemplateassociation"></a> business_unit_msdyn_assetcategorytemplateassociation
+
+Many-To-One Relationship: [msdyn_assetcategorytemplateassociation business_unit_msdyn_assetcategorytemplateassociation](msdyn_assetcategorytemplateassociation.md#BKMK_business_unit_msdyn_assetcategorytemplateassociation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_assetcategorytemplateassociation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_assetcategorytemplateassociation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_assettemplateassociation"></a> business_unit_msdyn_assettemplateassociation
+
+Many-To-One Relationship: [msdyn_assettemplateassociation business_unit_msdyn_assettemplateassociation](msdyn_assettemplateassociation.md#BKMK_business_unit_msdyn_assettemplateassociation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_assettemplateassociation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_assettemplateassociation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_assignmentconfiguration"></a> business_unit_msdyn_assignmentconfiguration
+
+Many-To-One Relationship: [msdyn_assignmentconfiguration business_unit_msdyn_assignmentconfiguration](msdyn_assignmentconfiguration.md#BKMK_business_unit_msdyn_assignmentconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_assignmentconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_assignmentconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_assignmentconfigurationstep"></a> business_unit_msdyn_assignmentconfigurationstep
+
+Many-To-One Relationship: [msdyn_assignmentconfigurationstep business_unit_msdyn_assignmentconfigurationstep](msdyn_assignmentconfigurationstep.md#BKMK_business_unit_msdyn_assignmentconfigurationstep)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_assignmentconfigurationstep`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_assignmentconfigurationstep`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_assignmentmap"></a> business_unit_msdyn_assignmentmap
+
+Many-To-One Relationship: [msdyn_assignmentmap business_unit_msdyn_assignmentmap](msdyn_assignmentmap.md#BKMK_business_unit_msdyn_assignmentmap)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_assignmentmap`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_assignmentmap`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_assignmentrule"></a> business_unit_msdyn_assignmentrule
+
+Many-To-One Relationship: [msdyn_assignmentrule business_unit_msdyn_assignmentrule](msdyn_assignmentrule.md#BKMK_business_unit_msdyn_assignmentrule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_assignmentrule`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_assignmentrule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_attribute"></a> business_unit_msdyn_attribute
+
+Many-To-One Relationship: [msdyn_attribute business_unit_msdyn_attribute](msdyn_attribute.md#BKMK_business_unit_msdyn_attribute)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_attribute`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_attribute`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_attributevalue"></a> business_unit_msdyn_attributevalue
+
+Many-To-One Relationship: [msdyn_attributevalue business_unit_msdyn_attributevalue](msdyn_attributevalue.md#BKMK_business_unit_msdyn_attributevalue)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_attributevalue`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_attributevalue`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_authenticationsettings"></a> business_unit_msdyn_authenticationsettings
+
+Many-To-One Relationship: [msdyn_authenticationsettings business_unit_msdyn_authenticationsettings](msdyn_authenticationsettings.md#BKMK_business_unit_msdyn_authenticationsettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_authenticationsettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_authenticationsettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_authsettingsentry"></a> business_unit_msdyn_authsettingsentry
+
+Many-To-One Relationship: [msdyn_authsettingsentry business_unit_msdyn_authsettingsentry](msdyn_authsettingsentry.md#BKMK_business_unit_msdyn_authsettingsentry)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_authsettingsentry`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_authsettingsentry`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_autocapturerule"></a> business_unit_msdyn_autocapturerule
+
+Many-To-One Relationship: [msdyn_autocapturerule business_unit_msdyn_autocapturerule](msdyn_autocapturerule.md#BKMK_business_unit_msdyn_autocapturerule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocapturerule`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_autocapturerule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_autocapturesettings"></a> business_unit_msdyn_autocapturesettings
+
+Many-To-One Relationship: [msdyn_autocapturesettings business_unit_msdyn_autocapturesettings](msdyn_autocapturesettings.md#BKMK_business_unit_msdyn_autocapturesettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocapturesettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_autocapturesettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_autonomouscasecreationrule"></a> business_unit_msdyn_autonomouscasecreationrule
+
+Many-To-One Relationship: [msdyn_autonomouscasecreationrule business_unit_msdyn_autonomouscasecreationrule](msdyn_autonomouscasecreationrule.md#BKMK_business_unit_msdyn_autonomouscasecreationrule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autonomouscasecreationrule`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_autonomouscasecreationrule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_bgjobledger"></a> business_unit_msdyn_bgjobledger
+
+Many-To-One Relationship: [msdyn_bgjobledger business_unit_msdyn_bgjobledger](msdyn_bgjobledger.md#BKMK_business_unit_msdyn_bgjobledger)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bgjobledger`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_bgjobledger`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_bookableresourceassociation"></a> business_unit_msdyn_bookableresourceassociation
+
+Many-To-One Relationship: [msdyn_bookableresourceassociation business_unit_msdyn_bookableresourceassociation](msdyn_bookableresourceassociation.md#BKMK_business_unit_msdyn_bookableresourceassociation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookableresourceassociation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_bookableresourceassociation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_bookableresourcebookingquicknote"></a> business_unit_msdyn_bookableresourcebookingquicknote
+
+Many-To-One Relationship: [msdyn_bookableresourcebookingquicknote business_unit_msdyn_bookableresourcebookingquicknote](msdyn_bookableresourcebookingquicknote.md#BKMK_business_unit_msdyn_bookableresourcebookingquicknote)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookableresourcebookingquicknote`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_bookableresourcebookingquicknote`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_bookableresourcecapacityprofile"></a> business_unit_msdyn_bookableresourcecapacityprofile
+
+Many-To-One Relationship: [msdyn_bookableresourcecapacityprofile business_unit_msdyn_bookableresourcecapacityprofile](msdyn_bookableresourcecapacityprofile.md#BKMK_business_unit_msdyn_bookableresourcecapacityprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookableresourcecapacityprofile`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_bookableresourcecapacityprofile`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_bookingalertstatus"></a> business_unit_msdyn_bookingalertstatus
+
+Many-To-One Relationship: [msdyn_bookingalertstatus business_unit_msdyn_bookingalertstatus](msdyn_bookingalertstatus.md#BKMK_business_unit_msdyn_bookingalertstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingalertstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_bookingalertstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_bookingchange"></a> business_unit_msdyn_bookingchange
+
+Many-To-One Relationship: [msdyn_bookingchange business_unit_msdyn_bookingchange](msdyn_bookingchange.md#BKMK_business_unit_msdyn_bookingchange)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingchange`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_bookingchange`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_bookingjournal"></a> business_unit_msdyn_bookingjournal
+
+Many-To-One Relationship: [msdyn_bookingjournal business_unit_msdyn_bookingjournal](msdyn_bookingjournal.md#BKMK_business_unit_msdyn_bookingjournal)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingjournal`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_bookingjournal`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_bookingrule"></a> business_unit_msdyn_bookingrule
+
+Many-To-One Relationship: [msdyn_bookingrule business_unit_msdyn_bookingrule](msdyn_bookingrule.md#BKMK_business_unit_msdyn_bookingrule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingrule`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_bookingrule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_bookingsetupmetadata"></a> business_unit_msdyn_bookingsetupmetadata
+
+Many-To-One Relationship: [msdyn_bookingsetupmetadata business_unit_msdyn_bookingsetupmetadata](msdyn_bookingsetupmetadata.md#BKMK_business_unit_msdyn_bookingsetupmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingsetupmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_bookingsetupmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_bookingtimestamp"></a> business_unit_msdyn_bookingtimestamp
+
+Many-To-One Relationship: [msdyn_bookingtimestamp business_unit_msdyn_bookingtimestamp](msdyn_bookingtimestamp.md#BKMK_business_unit_msdyn_bookingtimestamp)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingtimestamp`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_bookingtimestamp`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_botsession"></a> business_unit_msdyn_botsession
+
+Many-To-One Relationship: [msdyn_botsession business_unit_msdyn_botsession](msdyn_botsession.md#BKMK_business_unit_msdyn_botsession)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_botsession`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_botsession`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_businessclosure"></a> business_unit_msdyn_businessclosure
+
+Many-To-One Relationship: [msdyn_businessclosure business_unit_msdyn_businessclosure](msdyn_businessclosure.md#BKMK_business_unit_msdyn_businessclosure)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_businessclosure`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_businessclosure`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_callablecontext"></a> business_unit_msdyn_callablecontext
+
+Many-To-One Relationship: [msdyn_callablecontext business_unit_msdyn_callablecontext](msdyn_callablecontext.md#BKMK_business_unit_msdyn_callablecontext)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_callablecontext`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_callablecontext`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_capacityprofile"></a> business_unit_msdyn_capacityprofile
+
+Many-To-One Relationship: [msdyn_capacityprofile business_unit_msdyn_capacityprofile](msdyn_capacityprofile.md#BKMK_business_unit_msdyn_capacityprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_capacityprofile`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_capacityprofile`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_cdsentityengagementctx"></a> business_unit_msdyn_cdsentityengagementctx
+
+Many-To-One Relationship: [msdyn_cdsentityengagementctx business_unit_msdyn_cdsentityengagementctx](msdyn_cdsentityengagementctx.md#BKMK_business_unit_msdyn_cdsentityengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_cdsentityengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_cdsentityengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_channel"></a> business_unit_msdyn_channel
+
+Many-To-One Relationship: [msdyn_channel business_unit_msdyn_channel](msdyn_channel.md#BKMK_business_unit_msdyn_channel)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channel`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_channel`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_channeldefinition"></a> business_unit_msdyn_channeldefinition
+
+Many-To-One Relationship: [msdyn_channeldefinition business_unit_msdyn_channeldefinition](msdyn_channeldefinition.md#BKMK_business_unit_msdyn_channeldefinition)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channeldefinition`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_channeldefinition`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_channeldefinitionconsent"></a> business_unit_msdyn_channeldefinitionconsent
+
+Many-To-One Relationship: [msdyn_channeldefinitionconsent business_unit_msdyn_channeldefinitionconsent](msdyn_channeldefinitionconsent.md#BKMK_business_unit_msdyn_channeldefinitionconsent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channeldefinitionconsent`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_channeldefinitionconsent`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_channeldefinitionlocale"></a> business_unit_msdyn_channeldefinitionlocale
+
+Many-To-One Relationship: [msdyn_channeldefinitionlocale business_unit_msdyn_channeldefinitionlocale](msdyn_channeldefinitionlocale.md#BKMK_business_unit_msdyn_channeldefinitionlocale)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channeldefinitionlocale`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_channeldefinitionlocale`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_channelinstance"></a> business_unit_msdyn_channelinstance
+
+Many-To-One Relationship: [msdyn_channelinstance business_unit_msdyn_channelinstance](msdyn_channelinstance.md#BKMK_business_unit_msdyn_channelinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channelinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_channelinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_channelinstanceaccount"></a> business_unit_msdyn_channelinstanceaccount
+
+Many-To-One Relationship: [msdyn_channelinstanceaccount business_unit_msdyn_channelinstanceaccount](msdyn_channelinstanceaccount.md#BKMK_business_unit_msdyn_channelinstanceaccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channelinstanceaccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_channelinstanceaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_channelmessageattachment"></a> business_unit_msdyn_channelmessageattachment
+
+Many-To-One Relationship: [msdyn_channelmessageattachment business_unit_msdyn_channelmessageattachment](msdyn_channelmessageattachment.md#BKMK_business_unit_msdyn_channelmessageattachment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channelmessageattachment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_channelmessageattachment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_channelmessagecontextpart"></a> business_unit_msdyn_channelmessagecontextpart
+
+Many-To-One Relationship: [msdyn_channelmessagecontextpart business_unit_msdyn_channelmessagecontextpart](msdyn_channelmessagecontextpart.md#BKMK_business_unit_msdyn_channelmessagecontextpart)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channelmessagecontextpart`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_channelmessagecontextpart`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_channelmessagepart"></a> business_unit_msdyn_channelmessagepart
+
+Many-To-One Relationship: [msdyn_channelmessagepart business_unit_msdyn_channelmessagepart](msdyn_channelmessagepart.md#BKMK_business_unit_msdyn_channelmessagepart)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channelmessagepart`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_channelmessagepart`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_channelprovider"></a> business_unit_msdyn_channelprovider
+
+Many-To-One Relationship: [msdyn_channelprovider business_unit_msdyn_channelprovider](msdyn_channelprovider.md#BKMK_business_unit_msdyn_channelprovider)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channelprovider`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_channelprovider`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_chatansweroption"></a> business_unit_msdyn_chatansweroption
+
+Many-To-One Relationship: [msdyn_chatansweroption business_unit_msdyn_chatansweroption](msdyn_chatansweroption.md#BKMK_business_unit_msdyn_chatansweroption)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_chatansweroption`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_chatansweroption`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_chatquestionnaireresponse"></a> business_unit_msdyn_chatquestionnaireresponse
+
+Many-To-One Relationship: [msdyn_chatquestionnaireresponse business_unit_msdyn_chatquestionnaireresponse](msdyn_chatquestionnaireresponse.md#BKMK_business_unit_msdyn_chatquestionnaireresponse)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_chatquestionnaireresponse`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_chatquestionnaireresponse`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_chatquestionnaireresponseitem"></a> business_unit_msdyn_chatquestionnaireresponseitem
+
+Many-To-One Relationship: [msdyn_chatquestionnaireresponseitem business_unit_msdyn_chatquestionnaireresponseitem](msdyn_chatquestionnaireresponseitem.md#BKMK_business_unit_msdyn_chatquestionnaireresponseitem)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_chatquestionnaireresponseitem`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_chatquestionnaireresponseitem`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_chatwidgetlanguage"></a> business_unit_msdyn_chatwidgetlanguage
+
+Many-To-One Relationship: [msdyn_chatwidgetlanguage business_unit_msdyn_chatwidgetlanguage](msdyn_chatwidgetlanguage.md#BKMK_business_unit_msdyn_chatwidgetlanguage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_chatwidgetlanguage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_chatwidgetlanguage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_clientextension"></a> business_unit_msdyn_clientextension
+
+Many-To-One Relationship: [msdyn_clientextension business_unit_msdyn_clientextension](msdyn_clientextension.md#BKMK_business_unit_msdyn_clientextension)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_clientextension`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_clientextension`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_configuration"></a> business_unit_msdyn_configuration
+
+Many-To-One Relationship: [msdyn_configuration business_unit_msdyn_configuration](msdyn_configuration.md#BKMK_business_unit_msdyn_configuration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_configuration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_configuration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_consoleapplicationnotificationfield"></a> business_unit_msdyn_consoleapplicationnotificationfield
+
+Many-To-One Relationship: [msdyn_consoleapplicationnotificationfield business_unit_msdyn_consoleapplicationnotificationfield](msdyn_consoleapplicationnotificationfield.md#BKMK_business_unit_msdyn_consoleapplicationnotificationfield)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_consoleapplicationnotificationfield`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_consoleapplicationnotificationfield`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_consoleapplicationnotificationtemplate"></a> business_unit_msdyn_consoleapplicationnotificationtemplate
+
+Many-To-One Relationship: [msdyn_consoleapplicationnotificationtemplate business_unit_msdyn_consoleapplicationnotificationtemplate](msdyn_consoleapplicationnotificationtemplate.md#BKMK_business_unit_msdyn_consoleapplicationnotificationtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_consoleapplicationnotificationtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_consoleapplicationnotificationtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_consoleapplicationsessiontemplate"></a> business_unit_msdyn_consoleapplicationsessiontemplate
+
+Many-To-One Relationship: [msdyn_consoleapplicationsessiontemplate business_unit_msdyn_consoleapplicationsessiontemplate](msdyn_consoleapplicationsessiontemplate.md#BKMK_business_unit_msdyn_consoleapplicationsessiontemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_consoleapplicationsessiontemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_consoleapplicationsessiontemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_consoleapplicationtemplate"></a> business_unit_msdyn_consoleapplicationtemplate
+
+Many-To-One Relationship: [msdyn_consoleapplicationtemplate business_unit_msdyn_consoleapplicationtemplate](msdyn_consoleapplicationtemplate.md#BKMK_business_unit_msdyn_consoleapplicationtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_consoleapplicationtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_consoleapplicationtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_consoleapplicationtemplateparameter"></a> business_unit_msdyn_consoleapplicationtemplateparameter
+
+Many-To-One Relationship: [msdyn_consoleapplicationtemplateparameter business_unit_msdyn_consoleapplicationtemplateparameter](msdyn_consoleapplicationtemplateparameter.md#BKMK_business_unit_msdyn_consoleapplicationtemplateparameter)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_consoleapplicationtemplateparameter`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_consoleapplicationtemplateparameter`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_consumingapplication"></a> business_unit_msdyn_consumingapplication
+
+Many-To-One Relationship: [msdyn_consumingapplication business_unit_msdyn_consumingapplication](msdyn_consumingapplication.md#BKMK_business_unit_msdyn_consumingapplication)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_consumingapplication`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_consumingapplication`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_contactsuggestionrule"></a> business_unit_msdyn_contactsuggestionrule
+
+Many-To-One Relationship: [msdyn_contactsuggestionrule business_unit_msdyn_contactsuggestionrule](msdyn_contactsuggestionrule.md#BKMK_business_unit_msdyn_contactsuggestionrule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_contactsuggestionrule`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_contactsuggestionrule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_contactsuggestionruleset"></a> business_unit_msdyn_contactsuggestionruleset
+
+Many-To-One Relationship: [msdyn_contactsuggestionruleset business_unit_msdyn_contactsuggestionruleset](msdyn_contactsuggestionruleset.md#BKMK_business_unit_msdyn_contactsuggestionruleset)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_contactsuggestionruleset`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_contactsuggestionruleset`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationaction"></a> business_unit_msdyn_conversationaction
+
+Many-To-One Relationship: [msdyn_conversationaction business_unit_msdyn_conversationaction](msdyn_conversationaction.md#BKMK_business_unit_msdyn_conversationaction)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationaction`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationaction`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationactionitem"></a> business_unit_msdyn_conversationactionitem
+
+Many-To-One Relationship: [msdyn_conversationactionitem business_unit_msdyn_conversationactionitem](msdyn_conversationactionitem.md#BKMK_business_unit_msdyn_conversationactionitem)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationactionitem`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationactionitem`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationactionlocale"></a> business_unit_msdyn_conversationactionlocale
+
+Many-To-One Relationship: [msdyn_conversationactionlocale business_unit_msdyn_conversationactionlocale](msdyn_conversationactionlocale.md#BKMK_business_unit_msdyn_conversationactionlocale)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationactionlocale`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationactionlocale`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationaggregatedinsights"></a> business_unit_msdyn_conversationaggregatedinsights
+
+Many-To-One Relationship: [msdyn_conversationaggregatedinsights business_unit_msdyn_conversationaggregatedinsights](msdyn_conversationaggregatedinsights.md#BKMK_business_unit_msdyn_conversationaggregatedinsights)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationaggregatedinsights`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationaggregatedinsights`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationcomment"></a> business_unit_msdyn_conversationcomment
+
+Many-To-One Relationship: [msdyn_conversationcomment business_unit_msdyn_conversationcomment](msdyn_conversationcomment.md#BKMK_business_unit_msdyn_conversationcomment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationcomment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationcomment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationdata"></a> business_unit_msdyn_conversationdata
+
+Many-To-One Relationship: [msdyn_conversationdata business_unit_msdyn_conversationdata](msdyn_conversationdata.md#BKMK_business_unit_msdyn_conversationdata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationdata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationdata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationinsight"></a> business_unit_msdyn_conversationinsight
+
+Many-To-One Relationship: [msdyn_conversationinsight business_unit_msdyn_conversationinsight](msdyn_conversationinsight.md#BKMK_business_unit_msdyn_conversationinsight)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationinsight`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationinsight`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationmessageblock"></a> business_unit_msdyn_conversationmessageblock
+
+Many-To-One Relationship: [msdyn_conversationmessageblock business_unit_msdyn_conversationmessageblock](msdyn_conversationmessageblock.md#BKMK_business_unit_msdyn_conversationmessageblock)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationmessageblock`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationmessageblock`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationparticipantinsights"></a> business_unit_msdyn_conversationparticipantinsights
+
+Many-To-One Relationship: [msdyn_conversationparticipantinsights business_unit_msdyn_conversationparticipantinsights](msdyn_conversationparticipantinsights.md#BKMK_business_unit_msdyn_conversationparticipantinsights)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationparticipantinsights`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationparticipantinsights`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationparticipantsentiment"></a> business_unit_msdyn_conversationparticipantsentiment
+
+Many-To-One Relationship: [msdyn_conversationparticipantsentiment business_unit_msdyn_conversationparticipantsentiment](msdyn_conversationparticipantsentiment.md#BKMK_business_unit_msdyn_conversationparticipantsentiment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationparticipantsentiment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationparticipantsentiment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationquestion"></a> business_unit_msdyn_conversationquestion
+
+Many-To-One Relationship: [msdyn_conversationquestion business_unit_msdyn_conversationquestion](msdyn_conversationquestion.md#BKMK_business_unit_msdyn_conversationquestion)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationquestion`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationquestion`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationsegmentsentiment"></a> business_unit_msdyn_conversationsegmentsentiment
+
+Many-To-One Relationship: [msdyn_conversationsegmentsentiment business_unit_msdyn_conversationsegmentsentiment](msdyn_conversationsegmentsentiment.md#BKMK_business_unit_msdyn_conversationsegmentsentiment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationsegmentsentiment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationsegmentsentiment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationsentiment"></a> business_unit_msdyn_conversationsentiment
+
+Many-To-One Relationship: [msdyn_conversationsentiment business_unit_msdyn_conversationsentiment](msdyn_conversationsentiment.md#BKMK_business_unit_msdyn_conversationsentiment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationsentiment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationsentiment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationsignal"></a> business_unit_msdyn_conversationsignal
+
+Many-To-One Relationship: [msdyn_conversationsignal business_unit_msdyn_conversationsignal](msdyn_conversationsignal.md#BKMK_business_unit_msdyn_conversationsignal)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationsignal`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationsignal`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationsubject"></a> business_unit_msdyn_conversationsubject
+
+Many-To-One Relationship: [msdyn_conversationsubject business_unit_msdyn_conversationsubject](msdyn_conversationsubject.md#BKMK_business_unit_msdyn_conversationsubject)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationsubject`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationsubject`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationsummarysuggestion"></a> business_unit_msdyn_conversationsummarysuggestion
+
+Many-To-One Relationship: [msdyn_conversationsummarysuggestion business_unit_msdyn_conversationsummarysuggestion](msdyn_conversationsummarysuggestion.md#BKMK_business_unit_msdyn_conversationsummarysuggestion)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationsummarysuggestion`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationsummarysuggestion`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationsystemtag"></a> business_unit_msdyn_conversationsystemtag
+
+Many-To-One Relationship: [msdyn_conversationsystemtag business_unit_msdyn_conversationsystemtag](msdyn_conversationsystemtag.md#BKMK_business_unit_msdyn_conversationsystemtag)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationsystemtag`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationsystemtag`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_conversationtag"></a> business_unit_msdyn_conversationtag
+
+Many-To-One Relationship: [msdyn_conversationtag business_unit_msdyn_conversationtag](msdyn_conversationtag.md#BKMK_business_unit_msdyn_conversationtag)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationtag`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_conversationtag`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_copilotagentpreference"></a> business_unit_msdyn_copilotagentpreference
+
+Many-To-One Relationship: [msdyn_copilotagentpreference business_unit_msdyn_copilotagentpreference](msdyn_copilotagentpreference.md#BKMK_business_unit_msdyn_copilotagentpreference)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_copilotagentpreference`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_copilotagentpreference`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_copilotinteractiondata"></a> business_unit_msdyn_copilotinteractiondata
+
+Many-To-One Relationship: [msdyn_copilotinteractiondata business_unit_msdyn_copilotinteractiondata](msdyn_copilotinteractiondata.md#BKMK_business_unit_msdyn_copilotinteractiondata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_copilotinteractiondata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_copilotinteractiondata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_copilottranscriptdata"></a> business_unit_msdyn_copilottranscriptdata
+
+Many-To-One Relationship: [msdyn_copilottranscriptdata business_unit_msdyn_copilottranscriptdata](msdyn_copilottranscriptdata.md#BKMK_business_unit_msdyn_copilottranscriptdata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_copilottranscriptdata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_copilottranscriptdata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_crmconnection"></a> business_unit_msdyn_crmconnection
+
+Many-To-One Relationship: [msdyn_crmconnection business_unit_msdyn_crmconnection](msdyn_crmconnection.md#BKMK_business_unit_msdyn_crmconnection)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_crmconnection`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_crmconnection`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_csadminconfig"></a> business_unit_msdyn_csadminconfig
+
+Many-To-One Relationship: [msdyn_csadminconfig business_unit_msdyn_csadminconfig](msdyn_csadminconfig.md#BKMK_business_unit_msdyn_csadminconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_csadminconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_csadminconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_customapirulesetconfiguration"></a> business_unit_msdyn_customapirulesetconfiguration
+
+Many-To-One Relationship: [msdyn_customapirulesetconfiguration business_unit_msdyn_customapirulesetconfiguration](msdyn_customapirulesetconfiguration.md#BKMK_business_unit_msdyn_customapirulesetconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_customapirulesetconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_customapirulesetconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_customengagementctx"></a> business_unit_msdyn_customengagementctx
+
+Many-To-One Relationship: [msdyn_customengagementctx business_unit_msdyn_customengagementctx](msdyn_customengagementctx.md#BKMK_business_unit_msdyn_customengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_customengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_customengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_customerasset"></a> business_unit_msdyn_customerasset
+
+Many-To-One Relationship: [msdyn_customerasset business_unit_msdyn_customerasset](msdyn_customerasset.md#BKMK_business_unit_msdyn_customerasset)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_customerasset`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_customerasset`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_customerassetattachment"></a> business_unit_msdyn_customerassetattachment
+
+Many-To-One Relationship: [msdyn_customerassetattachment business_unit_msdyn_customerassetattachment](msdyn_customerassetattachment.md#BKMK_business_unit_msdyn_customerassetattachment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_customerassetattachment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_customerassetattachment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_customerassetcategory"></a> business_unit_msdyn_customerassetcategory
+
+Many-To-One Relationship: [msdyn_customerassetcategory business_unit_msdyn_customerassetcategory](msdyn_customerassetcategory.md#BKMK_business_unit_msdyn_customerassetcategory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_customerassetcategory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_customerassetcategory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_dataanalyticscustomizedreport"></a> business_unit_msdyn_dataanalyticscustomizedreport
+
+Many-To-One Relationship: [msdyn_dataanalyticscustomizedreport business_unit_msdyn_dataanalyticscustomizedreport](msdyn_dataanalyticscustomizedreport.md#BKMK_business_unit_msdyn_dataanalyticscustomizedreport)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_dataanalyticscustomizedreport`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_dataanalyticscustomizedreport`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_dataanalyticsdataset"></a> business_unit_msdyn_dataanalyticsdataset
+
+Many-To-One Relationship: [msdyn_dataanalyticsdataset business_unit_msdyn_dataanalyticsdataset](msdyn_dataanalyticsdataset.md#BKMK_business_unit_msdyn_dataanalyticsdataset)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_dataanalyticsdataset`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_dataanalyticsdataset`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_dataanalyticsreport"></a> business_unit_msdyn_dataanalyticsreport
+
+Many-To-One Relationship: [msdyn_dataanalyticsreport business_unit_msdyn_dataanalyticsreport](msdyn_dataanalyticsreport.md#BKMK_business_unit_msdyn_dataanalyticsreport)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_dataanalyticsreport`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_dataanalyticsreport`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_dataanalyticsworkspace"></a> business_unit_msdyn_dataanalyticsworkspace
+
+Many-To-One Relationship: [msdyn_dataanalyticsworkspace business_unit_msdyn_dataanalyticsworkspace](msdyn_dataanalyticsworkspace.md#BKMK_business_unit_msdyn_dataanalyticsworkspace)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_dataanalyticsworkspace`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_dataanalyticsworkspace`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_dealmanageraccess"></a> business_unit_msdyn_dealmanageraccess
+
+Many-To-One Relationship: [msdyn_dealmanageraccess business_unit_msdyn_dealmanageraccess](msdyn_dealmanageraccess.md#BKMK_business_unit_msdyn_dealmanageraccess)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_dealmanageraccess`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_dealmanageraccess`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_dealmanagersettings"></a> business_unit_msdyn_dealmanagersettings
+
+Many-To-One Relationship: [msdyn_dealmanagersettings business_unit_msdyn_dealmanagersettings](msdyn_dealmanagersettings.md#BKMK_business_unit_msdyn_dealmanagersettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_dealmanagersettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_dealmanagersettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_decisioncontract"></a> business_unit_msdyn_decisioncontract
+
+Many-To-One Relationship: [msdyn_decisioncontract business_unit_msdyn_decisioncontract](msdyn_decisioncontract.md#BKMK_business_unit_msdyn_decisioncontract)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_decisioncontract`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_decisioncontract`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_decisionruleset"></a> business_unit_msdyn_decisionruleset
+
+Many-To-One Relationship: [msdyn_decisionruleset business_unit_msdyn_decisionruleset](msdyn_decisionruleset.md#BKMK_business_unit_msdyn_decisionruleset)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_decisionruleset`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_decisionruleset`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_defextendedchannelinstance"></a> business_unit_msdyn_defextendedchannelinstance
+
+Many-To-One Relationship: [msdyn_defextendedchannelinstance business_unit_msdyn_defextendedchannelinstance](msdyn_defextendedchannelinstance.md#BKMK_business_unit_msdyn_defextendedchannelinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_defextendedchannelinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_defextendedchannelinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_defextendedchannelinstanceaccount"></a> business_unit_msdyn_defextendedchannelinstanceaccount
+
+Many-To-One Relationship: [msdyn_defextendedchannelinstanceaccount business_unit_msdyn_defextendedchannelinstanceaccount](msdyn_defextendedchannelinstanceaccount.md#BKMK_business_unit_msdyn_defextendedchannelinstanceaccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_defextendedchannelinstanceaccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_defextendedchannelinstanceaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_deletedconversation"></a> business_unit_msdyn_deletedconversation
+
+Many-To-One Relationship: [msdyn_deletedconversation business_unit_msdyn_deletedconversation](msdyn_deletedconversation.md#BKMK_business_unit_msdyn_deletedconversation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_deletedconversation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_deletedconversation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_diagnosticsdata"></a> business_unit_msdyn_diagnosticsdata
+
+Many-To-One Relationship: [msdyn_diagnosticsdata business_unit_msdyn_diagnosticsdata](msdyn_diagnosticsdata.md#BKMK_business_unit_msdyn_diagnosticsdata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_diagnosticsdata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_diagnosticsdata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_duplicateleadmapping"></a> business_unit_msdyn_duplicateleadmapping
+
+Many-To-One Relationship: [msdyn_duplicateleadmapping business_unit_msdyn_duplicateleadmapping](msdyn_duplicateleadmapping.md#BKMK_business_unit_msdyn_duplicateleadmapping)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_duplicateleadmapping`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_duplicateleadmapping`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_effortpredictionresult"></a> business_unit_msdyn_effortpredictionresult
+
+Many-To-One Relationship: [msdyn_effortpredictionresult business_unit_msdyn_effortpredictionresult](msdyn_effortpredictionresult.md#BKMK_business_unit_msdyn_effortpredictionresult)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_effortpredictionresult`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_effortpredictionresult`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_entitlementapplication"></a> business_unit_msdyn_entitlementapplication
+
+Many-To-One Relationship: [msdyn_entitlementapplication business_unit_msdyn_entitlementapplication](msdyn_entitlementapplication.md#BKMK_business_unit_msdyn_entitlementapplication)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_entitlementapplication`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_entitlementapplication`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_entityattachment"></a> business_unit_msdyn_entityattachment
+
+Many-To-One Relationship: [msdyn_entityattachment business_unit_msdyn_entityattachment](msdyn_entityattachment.md#BKMK_business_unit_msdyn_entityattachment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_entityattachment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_entityattachment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_entityconfig"></a> business_unit_msdyn_entityconfig
+
+Many-To-One Relationship: [msdyn_entityconfig business_unit_msdyn_entityconfig](msdyn_entityconfig.md#BKMK_business_unit_msdyn_entityconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_entityconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_entityconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_entityconfiguration"></a> business_unit_msdyn_entityconfiguration
+
+Many-To-One Relationship: [msdyn_entityconfiguration business_unit_msdyn_entityconfiguration](msdyn_entityconfiguration.md#BKMK_business_unit_msdyn_entityconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_entityconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_entityconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_entityrankingrule"></a> business_unit_msdyn_entityrankingrule
+
+Many-To-One Relationship: [msdyn_entityrankingrule business_unit_msdyn_entityrankingrule](msdyn_entityrankingrule.md#BKMK_business_unit_msdyn_entityrankingrule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_entityrankingrule`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_entityrankingrule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_entityroutingconfiguration"></a> business_unit_msdyn_entityroutingconfiguration
+
+Many-To-One Relationship: [msdyn_entityroutingconfiguration business_unit_msdyn_entityroutingconfiguration](msdyn_entityroutingconfiguration.md#BKMK_business_unit_msdyn_entityroutingconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_entityroutingconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_entityroutingconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_entityworkstreammap"></a> business_unit_msdyn_entityworkstreammap
+
+Many-To-One Relationship: [msdyn_entityworkstreammap business_unit_msdyn_entityworkstreammap](msdyn_entityworkstreammap.md#BKMK_business_unit_msdyn_entityworkstreammap)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_entityworkstreammap`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_entityworkstreammap`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_extendedusersetting"></a> business_unit_msdyn_extendedusersetting
+
+Many-To-One Relationship: [msdyn_extendedusersetting business_unit_msdyn_extendedusersetting](msdyn_extendedusersetting.md#BKMK_business_unit_msdyn_extendedusersetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_extendedusersetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_extendedusersetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_facebookengagementctx"></a> business_unit_msdyn_facebookengagementctx
+
+Many-To-One Relationship: [msdyn_facebookengagementctx business_unit_msdyn_facebookengagementctx](msdyn_facebookengagementctx.md#BKMK_business_unit_msdyn_facebookengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_facebookengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_facebookengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_fieldservicedemodatajob"></a> business_unit_msdyn_fieldservicedemodatajob
+
+Many-To-One Relationship: [msdyn_fieldservicedemodatajob business_unit_msdyn_fieldservicedemodatajob](msdyn_fieldservicedemodatajob.md#BKMK_business_unit_msdyn_fieldservicedemodatajob)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_fieldservicedemodatajob`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_fieldservicedemodatajob`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_fieldservicesetting"></a> business_unit_msdyn_fieldservicesetting
+
+Many-To-One Relationship: [msdyn_fieldservicesetting business_unit_msdyn_fieldservicesetting](msdyn_fieldservicesetting.md#BKMK_business_unit_msdyn_fieldservicesetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_fieldservicesetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_fieldservicesetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_fieldserviceslaconfiguration"></a> business_unit_msdyn_fieldserviceslaconfiguration
+
+Many-To-One Relationship: [msdyn_fieldserviceslaconfiguration business_unit_msdyn_fieldserviceslaconfiguration](msdyn_fieldserviceslaconfiguration.md#BKMK_business_unit_msdyn_fieldserviceslaconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_fieldserviceslaconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_fieldserviceslaconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_fieldservicesummaryconfiguration"></a> business_unit_msdyn_fieldservicesummaryconfiguration
+
+Many-To-One Relationship: [msdyn_fieldservicesummaryconfiguration business_unit_msdyn_fieldservicesummaryconfiguration](msdyn_fieldservicesummaryconfiguration.md#BKMK_business_unit_msdyn_fieldservicesummaryconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_fieldservicesummaryconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_fieldservicesummaryconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_flowcardtype"></a> business_unit_msdyn_flowcardtype
+
+Many-To-One Relationship: [msdyn_flowcardtype business_unit_msdyn_flowcardtype](msdyn_flowcardtype.md#BKMK_business_unit_msdyn_flowcardtype)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_flowcardtype`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_flowcardtype`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_forecastconfiguration"></a> business_unit_msdyn_forecastconfiguration
+
+Many-To-One Relationship: [msdyn_forecastconfiguration business_unit_msdyn_forecastconfiguration](msdyn_forecastconfiguration.md#BKMK_business_unit_msdyn_forecastconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_forecastconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_forecastconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_forecastdefinition"></a> business_unit_msdyn_forecastdefinition
+
+Many-To-One Relationship: [msdyn_forecastdefinition business_unit_msdyn_forecastdefinition](msdyn_forecastdefinition.md#BKMK_business_unit_msdyn_forecastdefinition)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_forecastdefinition`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_forecastdefinition`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_forecastinstance"></a> business_unit_msdyn_forecastinstance
+
+Many-To-One Relationship: [msdyn_forecastinstance business_unit_msdyn_forecastinstance](msdyn_forecastinstance.md#BKMK_business_unit_msdyn_forecastinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_forecastinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_forecastinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_forecastrecurrence"></a> business_unit_msdyn_forecastrecurrence
+
+Many-To-One Relationship: [msdyn_forecastrecurrence business_unit_msdyn_forecastrecurrence](msdyn_forecastrecurrence.md#BKMK_business_unit_msdyn_forecastrecurrence)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_forecastrecurrence`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_forecastrecurrence`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_formmapping"></a> business_unit_msdyn_formmapping
+
+Many-To-One Relationship: [msdyn_formmapping business_unit_msdyn_formmapping](msdyn_formmapping.md#BKMK_business_unit_msdyn_formmapping)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_formmapping`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_formmapping`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_functionallocation"></a> business_unit_msdyn_functionallocation
+
+Many-To-One Relationship: [msdyn_functionallocation business_unit_msdyn_functionallocation](msdyn_functionallocation.md#BKMK_business_unit_msdyn_functionallocation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_functionallocation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_functionallocation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_functionallocationtype"></a> business_unit_msdyn_functionallocationtype
+
+Many-To-One Relationship: [msdyn_functionallocationtype business_unit_msdyn_functionallocationtype](msdyn_functionallocationtype.md#BKMK_business_unit_msdyn_functionallocationtype)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_functionallocationtype`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_functionallocationtype`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_gdprdata"></a> business_unit_msdyn_gdprdata
+
+Many-To-One Relationship: [msdyn_gdprdata business_unit_msdyn_gdprdata](msdyn_gdprdata.md#BKMK_business_unit_msdyn_gdprdata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_gdprdata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_gdprdata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_geofence"></a> business_unit_msdyn_geofence
+
+Many-To-One Relationship: [msdyn_geofence business_unit_msdyn_geofence](msdyn_geofence.md#BKMK_business_unit_msdyn_geofence)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_geofence`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_geofence`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_geofenceevent"></a> business_unit_msdyn_geofenceevent
+
+Many-To-One Relationship: [msdyn_geofenceevent business_unit_msdyn_geofenceevent](msdyn_geofenceevent.md#BKMK_business_unit_msdyn_geofenceevent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_geofenceevent`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_geofenceevent`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_geofencingsettings"></a> business_unit_msdyn_geofencingsettings
+
+Many-To-One Relationship: [msdyn_geofencingsettings business_unit_msdyn_geofencingsettings](msdyn_geofencingsettings.md#BKMK_business_unit_msdyn_geofencingsettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_geofencingsettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_geofencingsettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_guideauthorsession"></a> business_unit_msdyn_guideauthorsession
+
+Many-To-One Relationship: [msdyn_guideauthorsession business_unit_msdyn_guideauthorsession](msdyn_guideauthorsession.md#BKMK_business_unit_msdyn_guideauthorsession)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_guideauthorsession`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_guideauthorsession`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_icdextension"></a> business_unit_msdyn_icdextension
+
+Many-To-One Relationship: [msdyn_icdextension business_unit_msdyn_icdextension](msdyn_icdextension.md#BKMK_business_unit_msdyn_icdextension)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_icdextension`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_icdextension`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_icebreakersconfig"></a> business_unit_msdyn_icebreakersconfig
+
+Many-To-One Relationship: [msdyn_icebreakersconfig business_unit_msdyn_icebreakersconfig](msdyn_icebreakersconfig.md#BKMK_business_unit_msdyn_icebreakersconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_icebreakersconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_icebreakersconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iermlmodel"></a> business_unit_msdyn_iermlmodel
+
+Many-To-One Relationship: [msdyn_iermlmodel business_unit_msdyn_iermlmodel](msdyn_iermlmodel.md#BKMK_business_unit_msdyn_iermlmodel)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iermlmodel`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iermlmodel`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iermltraining"></a> business_unit_msdyn_iermltraining
+
+Many-To-One Relationship: [msdyn_iermltraining business_unit_msdyn_iermltraining](msdyn_iermltraining.md#BKMK_business_unit_msdyn_iermltraining)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iermltraining`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iermltraining`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_incidenttype"></a> business_unit_msdyn_incidenttype
+
+Many-To-One Relationship: [msdyn_incidenttype business_unit_msdyn_incidenttype](msdyn_incidenttype.md#BKMK_business_unit_msdyn_incidenttype)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_incidenttype`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_incidenttype`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_incidenttype_requirementgroup"></a> business_unit_msdyn_incidenttype_requirementgroup
+
+Many-To-One Relationship: [msdyn_incidenttype_requirementgroup business_unit_msdyn_incidenttype_requirementgroup](msdyn_incidenttype_requirementgroup.md#BKMK_business_unit_msdyn_incidenttype_requirementgroup)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_incidenttype_requirementgroup`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_incidenttype_requirementgroup`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_incidenttypecharacteristic"></a> business_unit_msdyn_incidenttypecharacteristic
+
+Many-To-One Relationship: [msdyn_incidenttypecharacteristic business_unit_msdyn_incidenttypecharacteristic](msdyn_incidenttypecharacteristic.md#BKMK_business_unit_msdyn_incidenttypecharacteristic)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_incidenttypecharacteristic`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_incidenttypecharacteristic`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_incidenttypeproduct"></a> business_unit_msdyn_incidenttypeproduct
+
+Many-To-One Relationship: [msdyn_incidenttypeproduct business_unit_msdyn_incidenttypeproduct](msdyn_incidenttypeproduct.md#BKMK_business_unit_msdyn_incidenttypeproduct)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_incidenttypeproduct`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_incidenttypeproduct`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_incidenttyperecommendationresult"></a> business_unit_msdyn_incidenttyperecommendationresult
+
+Many-To-One Relationship: [msdyn_incidenttyperecommendationresult business_unit_msdyn_incidenttyperecommendationresult](msdyn_incidenttyperecommendationresult.md#BKMK_business_unit_msdyn_incidenttyperecommendationresult)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_incidenttyperecommendationresult`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_incidenttyperecommendationresult`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_incidenttyperecommendationrunhistory"></a> business_unit_msdyn_incidenttyperecommendationrunhistory
+
+Many-To-One Relationship: [msdyn_incidenttyperecommendationrunhistory business_unit_msdyn_incidenttyperecommendationrunhistory](msdyn_incidenttyperecommendationrunhistory.md#BKMK_business_unit_msdyn_incidenttyperecommendationrunhistory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_incidenttyperecommendationrunhistory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_incidenttyperecommendationrunhistory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_incidenttyperesolution"></a> business_unit_msdyn_incidenttyperesolution
+
+Many-To-One Relationship: [msdyn_incidenttyperesolution business_unit_msdyn_incidenttyperesolution](msdyn_incidenttyperesolution.md#BKMK_business_unit_msdyn_incidenttyperesolution)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_incidenttyperesolution`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_incidenttyperesolution`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_incidenttypeservice"></a> business_unit_msdyn_incidenttypeservice
+
+Many-To-One Relationship: [msdyn_incidenttypeservice business_unit_msdyn_incidenttypeservice](msdyn_incidenttypeservice.md#BKMK_business_unit_msdyn_incidenttypeservice)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_incidenttypeservice`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_incidenttypeservice`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_incidenttypeservicetask"></a> business_unit_msdyn_incidenttypeservicetask
+
+Many-To-One Relationship: [msdyn_incidenttypeservicetask business_unit_msdyn_incidenttypeservicetask](msdyn_incidenttypeservicetask.md#BKMK_business_unit_msdyn_incidenttypeservicetask)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_incidenttypeservicetask`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_incidenttypeservicetask`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_incidenttypessetup"></a> business_unit_msdyn_incidenttypessetup
+
+Many-To-One Relationship: [msdyn_incidenttypessetup business_unit_msdyn_incidenttypessetup](msdyn_incidenttypessetup.md#BKMK_business_unit_msdyn_incidenttypessetup)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_incidenttypessetup`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_incidenttypessetup`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_inspection"></a> business_unit_msdyn_inspection
+
+Many-To-One Relationship: [msdyn_inspection business_unit_msdyn_inspection](msdyn_inspection.md#BKMK_business_unit_msdyn_inspection)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inspection`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_inspection`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_inspectionattachment"></a> business_unit_msdyn_inspectionattachment
+
+Many-To-One Relationship: [msdyn_inspectionattachment business_unit_msdyn_inspectionattachment](msdyn_inspectionattachment.md#BKMK_business_unit_msdyn_inspectionattachment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inspectionattachment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_inspectionattachment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_inspectiondefinition"></a> business_unit_msdyn_inspectiondefinition
+
+Many-To-One Relationship: [msdyn_inspectiondefinition business_unit_msdyn_inspectiondefinition](msdyn_inspectiondefinition.md#BKMK_business_unit_msdyn_inspectiondefinition)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inspectiondefinition`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_inspectiondefinition`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_inspectioninstance"></a> business_unit_msdyn_inspectioninstance
+
+Many-To-One Relationship: [msdyn_inspectioninstance business_unit_msdyn_inspectioninstance](msdyn_inspectioninstance.md#BKMK_business_unit_msdyn_inspectioninstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inspectioninstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_inspectioninstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_inspectionresponse"></a> business_unit_msdyn_inspectionresponse
+
+Many-To-One Relationship: [msdyn_inspectionresponse business_unit_msdyn_inspectionresponse](msdyn_inspectionresponse.md#BKMK_business_unit_msdyn_inspectionresponse)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inspectionresponse`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_inspectionresponse`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_insurance"></a> business_unit_msdyn_insurance
+
+Many-To-One Relationship: [msdyn_insurance business_unit_msdyn_insurance](msdyn_insurance.md#BKMK_business_unit_msdyn_insurance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_insurance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_insurance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_intent"></a> business_unit_msdyn_intent
+
+Many-To-One Relationship: [msdyn_intent business_unit_msdyn_intent](msdyn_intent.md#BKMK_business_unit_msdyn_intent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intent`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_intent`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_inventoryadjustment"></a> business_unit_msdyn_inventoryadjustment
+
+Many-To-One Relationship: [msdyn_inventoryadjustment business_unit_msdyn_inventoryadjustment](msdyn_inventoryadjustment.md#BKMK_business_unit_msdyn_inventoryadjustment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inventoryadjustment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_inventoryadjustment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_inventoryadjustmentproduct"></a> business_unit_msdyn_inventoryadjustmentproduct
+
+Many-To-One Relationship: [msdyn_inventoryadjustmentproduct business_unit_msdyn_inventoryadjustmentproduct](msdyn_inventoryadjustmentproduct.md#BKMK_business_unit_msdyn_inventoryadjustmentproduct)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inventoryadjustmentproduct`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_inventoryadjustmentproduct`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_inventoryjournal"></a> business_unit_msdyn_inventoryjournal
+
+Many-To-One Relationship: [msdyn_inventoryjournal business_unit_msdyn_inventoryjournal](msdyn_inventoryjournal.md#BKMK_business_unit_msdyn_inventoryjournal)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inventoryjournal`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_inventoryjournal`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_inventorytransfer"></a> business_unit_msdyn_inventorytransfer
+
+Many-To-One Relationship: [msdyn_inventorytransfer business_unit_msdyn_inventorytransfer](msdyn_inventorytransfer.md#BKMK_business_unit_msdyn_inventorytransfer)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inventorytransfer`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_inventorytransfer`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotalert"></a> business_unit_msdyn_iotalert
+
+Many-To-One Relationship: [msdyn_iotalert business_unit_msdyn_iotalert](msdyn_iotalert.md#BKMK_business_unit_msdyn_iotalert)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotalert`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotalert`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotdevice"></a> business_unit_msdyn_iotdevice
+
+Many-To-One Relationship: [msdyn_iotdevice business_unit_msdyn_iotdevice](msdyn_iotdevice.md#BKMK_business_unit_msdyn_iotdevice)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotdevice`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotdevice`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotdevicecategory"></a> business_unit_msdyn_iotdevicecategory
+
+Many-To-One Relationship: [msdyn_iotdevicecategory business_unit_msdyn_iotdevicecategory](msdyn_iotdevicecategory.md#BKMK_business_unit_msdyn_iotdevicecategory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotdevicecategory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotdevicecategory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotdevicecommand"></a> business_unit_msdyn_iotdevicecommand
+
+Many-To-One Relationship: [msdyn_iotdevicecommand business_unit_msdyn_iotdevicecommand](msdyn_iotdevicecommand.md#BKMK_business_unit_msdyn_iotdevicecommand)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotdevicecommand`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotdevicecommand`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotdevicecommanddefinition"></a> business_unit_msdyn_iotdevicecommanddefinition
+
+Many-To-One Relationship: [msdyn_iotdevicecommanddefinition business_unit_msdyn_iotdevicecommanddefinition](msdyn_iotdevicecommanddefinition.md#BKMK_business_unit_msdyn_iotdevicecommanddefinition)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotdevicecommanddefinition`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotdevicecommanddefinition`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotdevicedatahistory"></a> business_unit_msdyn_iotdevicedatahistory
+
+Many-To-One Relationship: [msdyn_iotdevicedatahistory business_unit_msdyn_iotdevicedatahistory](msdyn_iotdevicedatahistory.md#BKMK_business_unit_msdyn_iotdevicedatahistory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotdevicedatahistory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotdevicedatahistory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotdeviceproperty"></a> business_unit_msdyn_iotdeviceproperty
+
+Many-To-One Relationship: [msdyn_iotdeviceproperty business_unit_msdyn_iotdeviceproperty](msdyn_iotdeviceproperty.md#BKMK_business_unit_msdyn_iotdeviceproperty)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotdeviceproperty`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotdeviceproperty`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotdeviceregistrationhistory"></a> business_unit_msdyn_iotdeviceregistrationhistory
+
+Many-To-One Relationship: [msdyn_iotdeviceregistrationhistory business_unit_msdyn_iotdeviceregistrationhistory](msdyn_iotdeviceregistrationhistory.md#BKMK_business_unit_msdyn_iotdeviceregistrationhistory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotdeviceregistrationhistory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotdeviceregistrationhistory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotdevicevisualizationconfiguration"></a> business_unit_msdyn_iotdevicevisualizationconfiguration
+
+Many-To-One Relationship: [msdyn_iotdevicevisualizationconfiguration business_unit_msdyn_iotdevicevisualizationconfiguration](msdyn_iotdevicevisualizationconfiguration.md#BKMK_business_unit_msdyn_iotdevicevisualizationconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotdevicevisualizationconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotdevicevisualizationconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotfieldmapping"></a> business_unit_msdyn_iotfieldmapping
+
+Many-To-One Relationship: [msdyn_iotfieldmapping business_unit_msdyn_iotfieldmapping](msdyn_iotfieldmapping.md#BKMK_business_unit_msdyn_iotfieldmapping)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotfieldmapping`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotfieldmapping`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotpropertydefinition"></a> business_unit_msdyn_iotpropertydefinition
+
+Many-To-One Relationship: [msdyn_iotpropertydefinition business_unit_msdyn_iotpropertydefinition](msdyn_iotpropertydefinition.md#BKMK_business_unit_msdyn_iotpropertydefinition)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotpropertydefinition`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotpropertydefinition`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotprovider"></a> business_unit_msdyn_iotprovider
+
+Many-To-One Relationship: [msdyn_iotprovider business_unit_msdyn_iotprovider](msdyn_iotprovider.md#BKMK_business_unit_msdyn_iotprovider)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotprovider`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotprovider`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotproviderinstance"></a> business_unit_msdyn_iotproviderinstance
+
+Many-To-One Relationship: [msdyn_iotproviderinstance business_unit_msdyn_iotproviderinstance](msdyn_iotproviderinstance.md#BKMK_business_unit_msdyn_iotproviderinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotproviderinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotproviderinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_iotsettings"></a> business_unit_msdyn_iotsettings
+
+Many-To-One Relationship: [msdyn_iotsettings business_unit_msdyn_iotsettings](msdyn_iotsettings.md#BKMK_business_unit_msdyn_iotsettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_iotsettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_iotsettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_jobsstate"></a> business_unit_msdyn_jobsstate
+
+Many-To-One Relationship: [msdyn_jobsstate business_unit_msdyn_jobsstate](msdyn_jobsstate.md#BKMK_business_unit_msdyn_jobsstate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_jobsstate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_jobsstate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_kpieventdata"></a> business_unit_msdyn_kpieventdata
+
+Many-To-One Relationship: [msdyn_kpieventdata business_unit_msdyn_kpieventdata](msdyn_kpieventdata.md#BKMK_business_unit_msdyn_kpieventdata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_kpieventdata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_kpieventdata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_kpieventdefinition"></a> business_unit_msdyn_kpieventdefinition
+
+Many-To-One Relationship: [msdyn_kpieventdefinition business_unit_msdyn_kpieventdefinition](msdyn_kpieventdefinition.md#BKMK_business_unit_msdyn_kpieventdefinition)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_kpieventdefinition`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_kpieventdefinition`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_leadmodelconfig"></a> business_unit_msdyn_leadmodelconfig
+
+Many-To-One Relationship: [msdyn_leadmodelconfig business_unit_msdyn_leadmodelconfig](msdyn_leadmodelconfig.md#BKMK_business_unit_msdyn_leadmodelconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_leadmodelconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_leadmodelconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_lineengagementctx"></a> business_unit_msdyn_lineengagementctx
+
+Many-To-One Relationship: [msdyn_lineengagementctx business_unit_msdyn_lineengagementctx](msdyn_lineengagementctx.md#BKMK_business_unit_msdyn_lineengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_lineengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_lineengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_livechatconfig"></a> business_unit_msdyn_livechatconfig
+
+Many-To-One Relationship: [msdyn_livechatconfig business_unit_msdyn_livechatconfig](msdyn_livechatconfig.md#BKMK_business_unit_msdyn_livechatconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_livechatconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_livechatconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_livechatengagementctx"></a> business_unit_msdyn_livechatengagementctx
+
+Many-To-One Relationship: [msdyn_livechatengagementctx business_unit_msdyn_livechatengagementctx](msdyn_livechatengagementctx.md#BKMK_business_unit_msdyn_livechatengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_livechatengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_livechatengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_livechatwidgetlocation"></a> business_unit_msdyn_livechatwidgetlocation
+
+Many-To-One Relationship: [msdyn_livechatwidgetlocation business_unit_msdyn_livechatwidgetlocation](msdyn_livechatwidgetlocation.md#BKMK_business_unit_msdyn_livechatwidgetlocation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_livechatwidgetlocation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_livechatwidgetlocation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_liveconversation"></a> business_unit_msdyn_liveconversation
+
+Many-To-One Relationship: [msdyn_liveconversation business_unit_msdyn_liveconversation](msdyn_liveconversation.md#BKMK_business_unit_msdyn_liveconversation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_liveconversation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_liveconversation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_liveworkitemevent"></a> business_unit_msdyn_liveworkitemevent
+
+Many-To-One Relationship: [msdyn_liveworkitemevent business_unit_msdyn_liveworkitemevent](msdyn_liveworkitemevent.md#BKMK_business_unit_msdyn_liveworkitemevent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_liveworkitemevent`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_liveworkitemevent`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_liveworkstream"></a> business_unit_msdyn_liveworkstream
+
+Many-To-One Relationship: [msdyn_liveworkstream business_unit_msdyn_liveworkstream](msdyn_liveworkstream.md#BKMK_business_unit_msdyn_liveworkstream)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_liveworkstream`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_liveworkstream`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_liveworkstreamcapacityprofile"></a> business_unit_msdyn_liveworkstreamcapacityprofile
+
+Many-To-One Relationship: [msdyn_liveworkstreamcapacityprofile business_unit_msdyn_liveworkstreamcapacityprofile](msdyn_liveworkstreamcapacityprofile.md#BKMK_business_unit_msdyn_liveworkstreamcapacityprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_liveworkstreamcapacityprofile`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_liveworkstreamcapacityprofile`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_locationtemplateassociation"></a> business_unit_msdyn_locationtemplateassociation
+
+Many-To-One Relationship: [msdyn_locationtemplateassociation business_unit_msdyn_locationtemplateassociation](msdyn_locationtemplateassociation.md#BKMK_business_unit_msdyn_locationtemplateassociation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_locationtemplateassociation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_locationtemplateassociation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_locationtypetemplateassociation"></a> business_unit_msdyn_locationtypetemplateassociation
+
+Many-To-One Relationship: [msdyn_locationtypetemplateassociation business_unit_msdyn_locationtypetemplateassociation](msdyn_locationtypetemplateassociation.md#BKMK_business_unit_msdyn_locationtypetemplateassociation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_locationtypetemplateassociation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_locationtypetemplateassociation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_lockstatus"></a> business_unit_msdyn_lockstatus
+
+Many-To-One Relationship: [msdyn_lockstatus business_unit_msdyn_lockstatus](msdyn_lockstatus.md#BKMK_business_unit_msdyn_lockstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_lockstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_lockstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_macrosession"></a> business_unit_msdyn_macrosession
+
+Many-To-One Relationship: [msdyn_macrosession business_unit_msdyn_macrosession](msdyn_macrosession.md#BKMK_business_unit_msdyn_macrosession)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_macrosession`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_macrosession`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_masterentityroutingconfiguration"></a> business_unit_msdyn_masterentityroutingconfiguration
+
+Many-To-One Relationship: [msdyn_masterentityroutingconfiguration business_unit_msdyn_masterentityroutingconfiguration](msdyn_masterentityroutingconfiguration.md#BKMK_business_unit_msdyn_masterentityroutingconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_masterentityroutingconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_masterentityroutingconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_migrationtracker"></a> business_unit_msdyn_migrationtracker
+
+Many-To-One Relationship: [msdyn_migrationtracker business_unit_msdyn_migrationtracker](msdyn_migrationtracker.md#BKMK_business_unit_msdyn_migrationtracker)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_migrationtracker`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_migrationtracker`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_mobilesource"></a> business_unit_msdyn_mobilesource
+
+Many-To-One Relationship: [msdyn_mobilesource business_unit_msdyn_mobilesource](msdyn_mobilesource.md#BKMK_business_unit_msdyn_mobilesource)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_mobilesource`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_mobilesource`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_modelpreviewstatus"></a> business_unit_msdyn_modelpreviewstatus
+
+Many-To-One Relationship: [msdyn_modelpreviewstatus business_unit_msdyn_modelpreviewstatus](msdyn_modelpreviewstatus.md#BKMK_business_unit_msdyn_modelpreviewstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_modelpreviewstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_modelpreviewstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_mrappsession"></a> business_unit_msdyn_mrappsession
+
+Many-To-One Relationship: [msdyn_mrappsession business_unit_msdyn_mrappsession](msdyn_mrappsession.md#BKMK_business_unit_msdyn_mrappsession)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_mrappsession`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_mrappsession`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_mrasjob"></a> business_unit_msdyn_mrasjob
+
+Many-To-One Relationship: [msdyn_mrasjob business_unit_msdyn_mrasjob](msdyn_mrasjob.md#BKMK_business_unit_msdyn_mrasjob)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_mrasjob`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_mrasjob`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_mrfolder"></a> business_unit_msdyn_mrfolder
+
+Many-To-One Relationship: [msdyn_mrfolder business_unit_msdyn_mrfolder](msdyn_mrfolder.md#BKMK_business_unit_msdyn_mrfolder)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_mrfolder`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_mrfolder`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_msteamssetting"></a> business_unit_msdyn_msteamssetting
+
+Many-To-One Relationship: [msdyn_msteamssetting business_unit_msdyn_msteamssetting](msdyn_msteamssetting.md#BKMK_business_unit_msdyn_msteamssetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_msteamssetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_msteamssetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_notesanalysisconfig"></a> business_unit_msdyn_notesanalysisconfig
+
+Many-To-One Relationship: [msdyn_notesanalysisconfig business_unit_msdyn_notesanalysisconfig](msdyn_notesanalysisconfig.md#BKMK_business_unit_msdyn_notesanalysisconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_notesanalysisconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_notesanalysisconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_notificationfield"></a> business_unit_msdyn_notificationfield
+
+Many-To-One Relationship: [msdyn_notificationfield business_unit_msdyn_notificationfield](msdyn_notificationfield.md#BKMK_business_unit_msdyn_notificationfield)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_notificationfield`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_notificationfield`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_notificationtemplate"></a> business_unit_msdyn_notificationtemplate
+
+Many-To-One Relationship: [msdyn_notificationtemplate business_unit_msdyn_notificationtemplate](msdyn_notificationtemplate.md#BKMK_business_unit_msdyn_notificationtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_notificationtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_notificationtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_nottoexceed"></a> business_unit_msdyn_nottoexceed
+
+Many-To-One Relationship: [msdyn_nottoexceed business_unit_msdyn_nottoexceed](msdyn_nottoexceed.md#BKMK_business_unit_msdyn_nottoexceed)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_nottoexceed`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_nottoexceed`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_objectanchor"></a> business_unit_msdyn_objectanchor
+
+Many-To-One Relationship: [msdyn_objectanchor business_unit_msdyn_objectanchor](msdyn_objectanchor.md#BKMK_business_unit_msdyn_objectanchor)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_objectanchor`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_objectanchor`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_oc_geolocationprovider"></a> business_unit_msdyn_oc_geolocationprovider
+
+Many-To-One Relationship: [msdyn_oc_geolocationprovider business_unit_msdyn_oc_geolocationprovider](msdyn_oc_geolocationprovider.md#BKMK_business_unit_msdyn_oc_geolocationprovider)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_oc_geolocationprovider`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_oc_geolocationprovider`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocagentassignedcustomapiprivilege"></a> business_unit_msdyn_ocagentassignedcustomapiprivilege
+
+Many-To-One Relationship: [msdyn_ocagentassignedcustomapiprivilege business_unit_msdyn_ocagentassignedcustomapiprivilege](msdyn_ocagentassignedcustomapiprivilege.md#BKMK_business_unit_msdyn_ocagentassignedcustomapiprivilege)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocagentassignedcustomapiprivilege`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocagentassignedcustomapiprivilege`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocapplebusinessaccount"></a> business_unit_msdyn_ocapplebusinessaccount
+
+Many-To-One Relationship: [msdyn_ocapplebusinessaccount business_unit_msdyn_ocapplebusinessaccount](msdyn_ocapplebusinessaccount.md#BKMK_business_unit_msdyn_ocapplebusinessaccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocapplebusinessaccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocapplebusinessaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocapplemessagesforbusinessengagementctx"></a> business_unit_msdyn_ocapplemessagesforbusinessengagementctx
+
+Many-To-One Relationship: [msdyn_ocapplemessagesforbusinessengagementctx business_unit_msdyn_ocapplemessagesforbusinessengagementctx](msdyn_ocapplemessagesforbusinessengagementctx.md#BKMK_business_unit_msdyn_ocapplemessagesforbusinessengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocapplemessagesforbusinessengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocapplemessagesforbusinessengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocapplepay"></a> business_unit_msdyn_ocapplepay
+
+Many-To-One Relationship: [msdyn_ocapplepay business_unit_msdyn_ocapplepay](msdyn_ocapplepay.md#BKMK_business_unit_msdyn_ocapplepay)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocapplepay`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocapplepay`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocautoblockrule"></a> business_unit_msdyn_ocautoblockrule
+
+Many-To-One Relationship: [msdyn_ocautoblockrule business_unit_msdyn_ocautoblockrule](msdyn_ocautoblockrule.md#BKMK_business_unit_msdyn_ocautoblockrule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocautoblockrule`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocautoblockrule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocbotchannelregistration"></a> business_unit_msdyn_ocbotchannelregistration
+
+Many-To-One Relationship: [msdyn_ocbotchannelregistration business_unit_msdyn_ocbotchannelregistration](msdyn_ocbotchannelregistration.md#BKMK_business_unit_msdyn_ocbotchannelregistration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocbotchannelregistration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocbotchannelregistration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocbotchannelregistrationsecret"></a> business_unit_msdyn_ocbotchannelregistrationsecret
+
+Many-To-One Relationship: [msdyn_ocbotchannelregistrationsecret business_unit_msdyn_ocbotchannelregistrationsecret](msdyn_ocbotchannelregistrationsecret.md#BKMK_business_unit_msdyn_ocbotchannelregistrationsecret)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocbotchannelregistrationsecret`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocbotchannelregistrationsecret`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_occarrier"></a> business_unit_msdyn_occarrier
+
+Many-To-One Relationship: [msdyn_occarrier business_unit_msdyn_occarrier](msdyn_occarrier.md#BKMK_business_unit_msdyn_occarrier)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occarrier`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_occarrier`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_occhannelapiconversationprivilege"></a> business_unit_msdyn_occhannelapiconversationprivilege
+
+Many-To-One Relationship: [msdyn_occhannelapiconversationprivilege business_unit_msdyn_occhannelapiconversationprivilege](msdyn_occhannelapiconversationprivilege.md#BKMK_business_unit_msdyn_occhannelapiconversationprivilege)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occhannelapiconversationprivilege`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_occhannelapiconversationprivilege`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_occhannelapimessageprivilege"></a> business_unit_msdyn_occhannelapimessageprivilege
+
+Many-To-One Relationship: [msdyn_occhannelapimessageprivilege business_unit_msdyn_occhannelapimessageprivilege](msdyn_occhannelapimessageprivilege.md#BKMK_business_unit_msdyn_occhannelapimessageprivilege)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occhannelapimessageprivilege`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_occhannelapimessageprivilege`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_occhannelapimethodmapping"></a> business_unit_msdyn_occhannelapimethodmapping
+
+Many-To-One Relationship: [msdyn_occhannelapimethodmapping business_unit_msdyn_occhannelapimethodmapping](msdyn_occhannelapimethodmapping.md#BKMK_business_unit_msdyn_occhannelapimethodmapping)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occhannelapimethodmapping`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_occhannelapimethodmapping`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_occommunicationprovidersetting"></a> business_unit_msdyn_occommunicationprovidersetting
+
+Many-To-One Relationship: [msdyn_occommunicationprovidersetting business_unit_msdyn_occommunicationprovidersetting](msdyn_occommunicationprovidersetting.md#BKMK_business_unit_msdyn_occommunicationprovidersetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occommunicationprovidersetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_occommunicationprovidersetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_occommunicationprovidersettingentry"></a> business_unit_msdyn_occommunicationprovidersettingentry
+
+Many-To-One Relationship: [msdyn_occommunicationprovidersettingentry business_unit_msdyn_occommunicationprovidersettingentry](msdyn_occommunicationprovidersettingentry.md#BKMK_business_unit_msdyn_occommunicationprovidersettingentry)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occommunicationprovidersettingentry`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_occommunicationprovidersettingentry`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_occustommessagingchannel"></a> business_unit_msdyn_occustommessagingchannel
+
+Many-To-One Relationship: [msdyn_occustommessagingchannel business_unit_msdyn_occustommessagingchannel](msdyn_occustommessagingchannel.md#BKMK_business_unit_msdyn_occustommessagingchannel)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occustommessagingchannel`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_occustommessagingchannel`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocexternalcontext"></a> business_unit_msdyn_ocexternalcontext
+
+Many-To-One Relationship: [msdyn_ocexternalcontext business_unit_msdyn_ocexternalcontext](msdyn_ocexternalcontext.md#BKMK_business_unit_msdyn_ocexternalcontext)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocexternalcontext`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocexternalcontext`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocfbapplication"></a> business_unit_msdyn_ocfbapplication
+
+Many-To-One Relationship: [msdyn_ocfbapplication business_unit_msdyn_ocfbapplication](msdyn_ocfbapplication.md#BKMK_business_unit_msdyn_ocfbapplication)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocfbapplication`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocfbapplication`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocfbpage"></a> business_unit_msdyn_ocfbpage
+
+Many-To-One Relationship: [msdyn_ocfbpage business_unit_msdyn_ocfbpage](msdyn_ocfbpage.md#BKMK_business_unit_msdyn_ocfbpage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocfbpage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocfbpage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocflaggedspam"></a> business_unit_msdyn_ocflaggedspam
+
+Many-To-One Relationship: [msdyn_ocflaggedspam business_unit_msdyn_ocflaggedspam](msdyn_ocflaggedspam.md#BKMK_business_unit_msdyn_ocflaggedspam)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocflaggedspam`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocflaggedspam`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocgatekeeperengagementctx"></a> business_unit_msdyn_ocgatekeeperengagementctx
+
+Many-To-One Relationship: [msdyn_ocgatekeeperengagementctx business_unit_msdyn_ocgatekeeperengagementctx](msdyn_ocgatekeeperengagementctx.md#BKMK_business_unit_msdyn_ocgatekeeperengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocgatekeeperengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocgatekeeperengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocgooglebusinessmessagesagentaccount"></a> business_unit_msdyn_ocgooglebusinessmessagesagentaccount
+
+Many-To-One Relationship: [msdyn_ocgooglebusinessmessagesagentaccount business_unit_msdyn_ocgooglebusinessmessagesagentaccount](msdyn_ocgooglebusinessmessagesagentaccount.md#BKMK_business_unit_msdyn_ocgooglebusinessmessagesagentaccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocgooglebusinessmessagesagentaccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocgooglebusinessmessagesagentaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocgooglebusinessmessagesengagementctx"></a> business_unit_msdyn_ocgooglebusinessmessagesengagementctx
+
+Many-To-One Relationship: [msdyn_ocgooglebusinessmessagesengagementctx business_unit_msdyn_ocgooglebusinessmessagesengagementctx](msdyn_ocgooglebusinessmessagesengagementctx.md#BKMK_business_unit_msdyn_ocgooglebusinessmessagesengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocgooglebusinessmessagesengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocgooglebusinessmessagesengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocgooglebusinessmessagespartneraccount"></a> business_unit_msdyn_ocgooglebusinessmessagespartneraccount
+
+Many-To-One Relationship: [msdyn_ocgooglebusinessmessagespartneraccount business_unit_msdyn_ocgooglebusinessmessagespartneraccount](msdyn_ocgooglebusinessmessagespartneraccount.md#BKMK_business_unit_msdyn_ocgooglebusinessmessagespartneraccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocgooglebusinessmessagespartneraccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocgooglebusinessmessagespartneraccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_oclanguage"></a> business_unit_msdyn_oclanguage
+
+Many-To-One Relationship: [msdyn_oclanguage business_unit_msdyn_oclanguage](msdyn_oclanguage.md#BKMK_business_unit_msdyn_oclanguage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_oclanguage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_oclanguage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_oclinechannelconfig"></a> business_unit_msdyn_oclinechannelconfig
+
+Many-To-One Relationship: [msdyn_oclinechannelconfig business_unit_msdyn_oclinechannelconfig](msdyn_oclinechannelconfig.md#BKMK_business_unit_msdyn_oclinechannelconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_oclinechannelconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_oclinechannelconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocliveworkitemcapacityprofile"></a> business_unit_msdyn_ocliveworkitemcapacityprofile
+
+Many-To-One Relationship: [msdyn_ocliveworkitemcapacityprofile business_unit_msdyn_ocliveworkitemcapacityprofile](msdyn_ocliveworkitemcapacityprofile.md#BKMK_business_unit_msdyn_ocliveworkitemcapacityprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkitemcapacityprofile`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocliveworkitemcapacityprofile`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocliveworkitemcharacteristic"></a> business_unit_msdyn_ocliveworkitemcharacteristic
+
+Many-To-One Relationship: [msdyn_ocliveworkitemcharacteristic business_unit_msdyn_ocliveworkitemcharacteristic](msdyn_ocliveworkitemcharacteristic.md#BKMK_business_unit_msdyn_ocliveworkitemcharacteristic)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkitemcharacteristic`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocliveworkitemcharacteristic`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocliveworkitemcontextitem"></a> business_unit_msdyn_ocliveworkitemcontextitem
+
+Many-To-One Relationship: [msdyn_ocliveworkitemcontextitem business_unit_msdyn_ocliveworkitemcontextitem](msdyn_ocliveworkitemcontextitem.md#BKMK_business_unit_msdyn_ocliveworkitemcontextitem)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkitemcontextitem`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocliveworkitemcontextitem`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocliveworkitemparticipant"></a> business_unit_msdyn_ocliveworkitemparticipant
+
+Many-To-One Relationship: [msdyn_ocliveworkitemparticipant business_unit_msdyn_ocliveworkitemparticipant](msdyn_ocliveworkitemparticipant.md#BKMK_business_unit_msdyn_ocliveworkitemparticipant)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkitemparticipant`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocliveworkitemparticipant`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocliveworkitemsentiment"></a> business_unit_msdyn_ocliveworkitemsentiment
+
+Many-To-One Relationship: [msdyn_ocliveworkitemsentiment business_unit_msdyn_ocliveworkitemsentiment](msdyn_ocliveworkitemsentiment.md#BKMK_business_unit_msdyn_ocliveworkitemsentiment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkitemsentiment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocliveworkitemsentiment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocliveworkstreamcontextvariable"></a> business_unit_msdyn_ocliveworkstreamcontextvariable
+
+Many-To-One Relationship: [msdyn_ocliveworkstreamcontextvariable business_unit_msdyn_ocliveworkstreamcontextvariable](msdyn_ocliveworkstreamcontextvariable.md#BKMK_business_unit_msdyn_ocliveworkstreamcontextvariable)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkstreamcontextvariable`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocliveworkstreamcontextvariable`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocoutboundconfiguration"></a> business_unit_msdyn_ocoutboundconfiguration
+
+Many-To-One Relationship: [msdyn_ocoutboundconfiguration business_unit_msdyn_ocoutboundconfiguration](msdyn_ocoutboundconfiguration.md#BKMK_business_unit_msdyn_ocoutboundconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocoutboundconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocpaymentprofile"></a> business_unit_msdyn_ocpaymentprofile
+
+Many-To-One Relationship: [msdyn_ocpaymentprofile business_unit_msdyn_ocpaymentprofile](msdyn_ocpaymentprofile.md#BKMK_business_unit_msdyn_ocpaymentprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocpaymentprofile`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocpaymentprofile`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocphonecallengagementctx"></a> business_unit_msdyn_ocphonecallengagementctx
+
+Many-To-One Relationship: [msdyn_ocphonecallengagementctx business_unit_msdyn_ocphonecallengagementctx](msdyn_ocphonecallengagementctx.md#BKMK_business_unit_msdyn_ocphonecallengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocphonecallengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocphonecallengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocphonemusic"></a> business_unit_msdyn_ocphonemusic
+
+Many-To-One Relationship: [msdyn_ocphonemusic business_unit_msdyn_ocphonemusic](msdyn_ocphonemusic.md#BKMK_business_unit_msdyn_ocphonemusic)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocphonemusic`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocphonemusic`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocphonenumber"></a> business_unit_msdyn_ocphonenumber
+
+Many-To-One Relationship: [msdyn_ocphonenumber business_unit_msdyn_ocphonenumber](msdyn_ocphonenumber.md#BKMK_business_unit_msdyn_ocphonenumber)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocphonenumber`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocphonenumber`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocprovisioningstate"></a> business_unit_msdyn_ocprovisioningstate
+
+Many-To-One Relationship: [msdyn_ocprovisioningstate business_unit_msdyn_ocprovisioningstate](msdyn_ocprovisioningstate.md#BKMK_business_unit_msdyn_ocprovisioningstate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocprovisioningstate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocprovisioningstate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocrecording"></a> business_unit_msdyn_ocrecording
+
+Many-To-One Relationship: [msdyn_ocrecording business_unit_msdyn_ocrecording](msdyn_ocrecording.md#BKMK_business_unit_msdyn_ocrecording)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocrecording`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocrecording`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocrequest"></a> business_unit_msdyn_ocrequest
+
+Many-To-One Relationship: [msdyn_ocrequest business_unit_msdyn_ocrequest](msdyn_ocrequest.md#BKMK_business_unit_msdyn_ocrequest)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocrequest`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocrequest`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocrichobject"></a> business_unit_msdyn_ocrichobject
+
+Many-To-One Relationship: [msdyn_ocrichobject business_unit_msdyn_ocrichobject](msdyn_ocrichobject.md#BKMK_business_unit_msdyn_ocrichobject)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocrichobject`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocrichobject`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocrichobjectmap"></a> business_unit_msdyn_ocrichobjectmap
+
+Many-To-One Relationship: [msdyn_ocrichobjectmap business_unit_msdyn_ocrichobjectmap](msdyn_ocrichobjectmap.md#BKMK_business_unit_msdyn_ocrichobjectmap)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocrichobjectmap`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocrichobjectmap`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocruleitem"></a> business_unit_msdyn_ocruleitem
+
+Many-To-One Relationship: [msdyn_ocruleitem business_unit_msdyn_ocruleitem](msdyn_ocruleitem.md#BKMK_business_unit_msdyn_ocruleitem)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocruleitem`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocruleitem`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocsentimentdailytopic"></a> business_unit_msdyn_ocsentimentdailytopic
+
+Many-To-One Relationship: [msdyn_ocsentimentdailytopic business_unit_msdyn_ocsentimentdailytopic](msdyn_ocsentimentdailytopic.md#BKMK_business_unit_msdyn_ocsentimentdailytopic)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocsentimentdailytopic`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocsentimentdailytopic`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocsentimentdailytopickeyword"></a> business_unit_msdyn_ocsentimentdailytopickeyword
+
+Many-To-One Relationship: [msdyn_ocsentimentdailytopickeyword business_unit_msdyn_ocsentimentdailytopickeyword](msdyn_ocsentimentdailytopickeyword.md#BKMK_business_unit_msdyn_ocsentimentdailytopickeyword)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocsentimentdailytopickeyword`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocsentimentdailytopickeyword`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocsentimentdailytopictrending"></a> business_unit_msdyn_ocsentimentdailytopictrending
+
+Many-To-One Relationship: [msdyn_ocsentimentdailytopictrending business_unit_msdyn_ocsentimentdailytopictrending](msdyn_ocsentimentdailytopictrending.md#BKMK_business_unit_msdyn_ocsentimentdailytopictrending)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocsentimentdailytopictrending`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocsentimentdailytopictrending`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocsessioncharacteristic"></a> business_unit_msdyn_ocsessioncharacteristic
+
+Many-To-One Relationship: [msdyn_ocsessioncharacteristic business_unit_msdyn_ocsessioncharacteristic](msdyn_ocsessioncharacteristic.md#BKMK_business_unit_msdyn_ocsessioncharacteristic)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocsessioncharacteristic`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocsessioncharacteristic`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocsessionparticipantevent"></a> business_unit_msdyn_ocsessionparticipantevent
+
+Many-To-One Relationship: [msdyn_ocsessionparticipantevent business_unit_msdyn_ocsessionparticipantevent](msdyn_ocsessionparticipantevent.md#BKMK_business_unit_msdyn_ocsessionparticipantevent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocsessionparticipantevent`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocsessionparticipantevent`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocsessionsentiment"></a> business_unit_msdyn_ocsessionsentiment
+
+Many-To-One Relationship: [msdyn_ocsessionsentiment business_unit_msdyn_ocsessionsentiment](msdyn_ocsessionsentiment.md#BKMK_business_unit_msdyn_ocsessionsentiment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocsessionsentiment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocsessionsentiment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocsimltraining"></a> business_unit_msdyn_ocsimltraining
+
+Many-To-One Relationship: [msdyn_ocsimltraining business_unit_msdyn_ocsimltraining](msdyn_ocsimltraining.md#BKMK_business_unit_msdyn_ocsimltraining)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocsimltraining`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocsimltraining`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocsitdimportconfig"></a> business_unit_msdyn_ocsitdimportconfig
+
+Many-To-One Relationship: [msdyn_ocsitdimportconfig business_unit_msdyn_ocsitdimportconfig](msdyn_ocsitdimportconfig.md#BKMK_business_unit_msdyn_ocsitdimportconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocsitdimportconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocsitdimportconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocsitdskill"></a> business_unit_msdyn_ocsitdskill
+
+Many-To-One Relationship: [msdyn_ocsitdskill business_unit_msdyn_ocsitdskill](msdyn_ocsitdskill.md#BKMK_business_unit_msdyn_ocsitdskill)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocsitdskill`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocsitdskill`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocsitrainingdata"></a> business_unit_msdyn_ocsitrainingdata
+
+Many-To-One Relationship: [msdyn_ocsitrainingdata business_unit_msdyn_ocsitrainingdata](msdyn_ocsitrainingdata.md#BKMK_business_unit_msdyn_ocsitrainingdata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocsitrainingdata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocsitrainingdata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocskillidentmlmodel"></a> business_unit_msdyn_ocskillidentmlmodel
+
+Many-To-One Relationship: [msdyn_ocskillidentmlmodel business_unit_msdyn_ocskillidentmlmodel](msdyn_ocskillidentmlmodel.md#BKMK_business_unit_msdyn_ocskillidentmlmodel)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocskillidentmlmodel`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocskillidentmlmodel`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocsmssettingsecret"></a> business_unit_msdyn_ocsmssettingsecret
+
+Many-To-One Relationship: [msdyn_ocsmssettingsecret business_unit_msdyn_ocsmssettingsecret](msdyn_ocsmssettingsecret.md#BKMK_business_unit_msdyn_ocsmssettingsecret)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocsmssettingsecret`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocsmssettingsecret`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_octeamschannelconfig"></a> business_unit_msdyn_octeamschannelconfig
+
+Many-To-One Relationship: [msdyn_octeamschannelconfig business_unit_msdyn_octeamschannelconfig](msdyn_octeamschannelconfig.md#BKMK_business_unit_msdyn_octeamschannelconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_octeamschannelconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_octeamschannelconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_octwitterapplication"></a> business_unit_msdyn_octwitterapplication
+
+Many-To-One Relationship: [msdyn_octwitterapplication business_unit_msdyn_octwitterapplication](msdyn_octwitterapplication.md#BKMK_business_unit_msdyn_octwitterapplication)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_octwitterapplication`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_octwitterapplication`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_octwitterhandle"></a> business_unit_msdyn_octwitterhandle
+
+Many-To-One Relationship: [msdyn_octwitterhandle business_unit_msdyn_octwitterhandle](msdyn_octwitterhandle.md#BKMK_business_unit_msdyn_octwitterhandle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_octwitterhandle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_octwitterhandle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_octwitterhandleprovisioningstatus"></a> business_unit_msdyn_octwitterhandleprovisioningstatus
+
+Many-To-One Relationship: [msdyn_octwitterhandleprovisioningstatus business_unit_msdyn_octwitterhandleprovisioningstatus](msdyn_octwitterhandleprovisioningstatus.md#BKMK_business_unit_msdyn_octwitterhandleprovisioningstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_octwitterhandleprovisioningstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_octwitterhandleprovisioningstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_octwitterhandlesecret"></a> business_unit_msdyn_octwitterhandlesecret
+
+Many-To-One Relationship: [msdyn_octwitterhandlesecret business_unit_msdyn_octwitterhandlesecret](msdyn_octwitterhandlesecret.md#BKMK_business_unit_msdyn_octwitterhandlesecret)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_octwitterhandlesecret`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_octwitterhandlesecret`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocvoice"></a> business_unit_msdyn_ocvoice
+
+Many-To-One Relationship: [msdyn_ocvoice business_unit_msdyn_ocvoice](msdyn_ocvoice.md#BKMK_business_unit_msdyn_ocvoice)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoice`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocvoice`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocvoicechannellanguagesetting"></a> business_unit_msdyn_ocvoicechannellanguagesetting
+
+Many-To-One Relationship: [msdyn_ocvoicechannellanguagesetting business_unit_msdyn_ocvoicechannellanguagesetting](msdyn_ocvoicechannellanguagesetting.md#BKMK_business_unit_msdyn_ocvoicechannellanguagesetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicechannellanguagesetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocvoicechannellanguagesetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocvoicechannelsetting"></a> business_unit_msdyn_ocvoicechannelsetting
+
+Many-To-One Relationship: [msdyn_ocvoicechannelsetting business_unit_msdyn_ocvoicechannelsetting](msdyn_ocvoicechannelsetting.md#BKMK_business_unit_msdyn_ocvoicechannelsetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicechannelsetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocvoicechannelsetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocwechatchannelconfig"></a> business_unit_msdyn_ocwechatchannelconfig
+
+Many-To-One Relationship: [msdyn_ocwechatchannelconfig business_unit_msdyn_ocwechatchannelconfig](msdyn_ocwechatchannelconfig.md#BKMK_business_unit_msdyn_ocwechatchannelconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocwechatchannelconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocwechatchannelconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocwhatsappchannelaccount"></a> business_unit_msdyn_ocwhatsappchannelaccount
+
+Many-To-One Relationship: [msdyn_ocwhatsappchannelaccount business_unit_msdyn_ocwhatsappchannelaccount](msdyn_ocwhatsappchannelaccount.md#BKMK_business_unit_msdyn_ocwhatsappchannelaccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocwhatsappchannelaccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocwhatsappchannelaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_ocwhatsappchannelnumber"></a> business_unit_msdyn_ocwhatsappchannelnumber
+
+Many-To-One Relationship: [msdyn_ocwhatsappchannelnumber business_unit_msdyn_ocwhatsappchannelnumber](msdyn_ocwhatsappchannelnumber.md#BKMK_business_unit_msdyn_ocwhatsappchannelnumber)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocwhatsappchannelnumber`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_ocwhatsappchannelnumber`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_omnichannelpersonalization"></a> business_unit_msdyn_omnichannelpersonalization
+
+Many-To-One Relationship: [msdyn_omnichannelpersonalization business_unit_msdyn_omnichannelpersonalization](msdyn_omnichannelpersonalization.md#BKMK_business_unit_msdyn_omnichannelpersonalization)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_omnichannelpersonalization`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_omnichannelpersonalization`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_omnichannelqueue"></a> business_unit_msdyn_omnichannelqueue
+
+Many-To-One Relationship: [msdyn_omnichannelqueue business_unit_msdyn_omnichannelqueue](msdyn_omnichannelqueue.md#BKMK_business_unit_msdyn_omnichannelqueue)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_omnichannelqueue`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_omnichannelqueue`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_omnichannelsyncconfig"></a> business_unit_msdyn_omnichannelsyncconfig
+
+Many-To-One Relationship: [msdyn_omnichannelsyncconfig business_unit_msdyn_omnichannelsyncconfig](msdyn_omnichannelsyncconfig.md#BKMK_business_unit_msdyn_omnichannelsyncconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_omnichannelsyncconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_omnichannelsyncconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_operatinghour"></a> business_unit_msdyn_operatinghour
+
+Many-To-One Relationship: [msdyn_operatinghour business_unit_msdyn_operatinghour](msdyn_operatinghour.md#BKMK_business_unit_msdyn_operatinghour)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_operatinghour`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_operatinghour`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_opportunitymodelconfig"></a> business_unit_msdyn_opportunitymodelconfig
+
+Many-To-One Relationship: [msdyn_opportunitymodelconfig business_unit_msdyn_opportunitymodelconfig](msdyn_opportunitymodelconfig.md#BKMK_business_unit_msdyn_opportunitymodelconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_opportunitymodelconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_opportunitymodelconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_optimizationrequestbooking"></a> business_unit_msdyn_optimizationrequestbooking
+
+Many-To-One Relationship: [msdyn_optimizationrequestbooking business_unit_msdyn_optimizationrequestbooking](msdyn_optimizationrequestbooking.md#BKMK_business_unit_msdyn_optimizationrequestbooking)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_optimizationrequestbooking`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_optimizationrequestbooking`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_optimizationrequestresource"></a> business_unit_msdyn_optimizationrequestresource
+
+Many-To-One Relationship: [msdyn_optimizationrequestresource business_unit_msdyn_optimizationrequestresource](msdyn_optimizationrequestresource.md#BKMK_business_unit_msdyn_optimizationrequestresource)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_optimizationrequestresource`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_optimizationrequestresource`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_orderedobjective"></a> business_unit_msdyn_orderedobjective
+
+Many-To-One Relationship: [msdyn_orderedobjective business_unit_msdyn_orderedobjective](msdyn_orderedobjective.md#BKMK_business_unit_msdyn_orderedobjective)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_orderedobjective`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_orderedobjective`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_orderinvoicingdate"></a> business_unit_msdyn_orderinvoicingdate
+
+Many-To-One Relationship: [msdyn_orderinvoicingdate business_unit_msdyn_orderinvoicingdate](msdyn_orderinvoicingdate.md#BKMK_business_unit_msdyn_orderinvoicingdate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_orderinvoicingdate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_orderinvoicingdate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_orderinvoicingproduct"></a> business_unit_msdyn_orderinvoicingproduct
+
+Many-To-One Relationship: [msdyn_orderinvoicingproduct business_unit_msdyn_orderinvoicingproduct](msdyn_orderinvoicingproduct.md#BKMK_business_unit_msdyn_orderinvoicingproduct)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_orderinvoicingproduct`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_orderinvoicingproduct`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_orderinvoicingsetup"></a> business_unit_msdyn_orderinvoicingsetup
+
+Many-To-One Relationship: [msdyn_orderinvoicingsetup business_unit_msdyn_orderinvoicingsetup](msdyn_orderinvoicingsetup.md#BKMK_business_unit_msdyn_orderinvoicingsetup)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_orderinvoicingsetup`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_orderinvoicingsetup`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_orderinvoicingsetupdate"></a> business_unit_msdyn_orderinvoicingsetupdate
+
+Many-To-One Relationship: [msdyn_orderinvoicingsetupdate business_unit_msdyn_orderinvoicingsetupdate](msdyn_orderinvoicingsetupdate.md#BKMK_business_unit_msdyn_orderinvoicingsetupdate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_orderinvoicingsetupdate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_orderinvoicingsetupdate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_orgchartnode"></a> business_unit_msdyn_orgchartnode
+
+Many-To-One Relationship: [msdyn_orgchartnode business_unit_msdyn_orgchartnode](msdyn_orgchartnode.md#BKMK_business_unit_msdyn_orgchartnode)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_orgchartnode`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_orgchartnode`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_overflowactionconfig"></a> business_unit_msdyn_overflowactionconfig
+
+Many-To-One Relationship: [msdyn_overflowactionconfig business_unit_msdyn_overflowactionconfig](msdyn_overflowactionconfig.md#BKMK_business_unit_msdyn_overflowactionconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_overflowactionconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_overflowactionconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_payment"></a> business_unit_msdyn_payment
+
+Many-To-One Relationship: [msdyn_payment business_unit_msdyn_payment](msdyn_payment.md#BKMK_business_unit_msdyn_payment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_payment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_payment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_paymentdetail"></a> business_unit_msdyn_paymentdetail
+
+Many-To-One Relationship: [msdyn_paymentdetail business_unit_msdyn_paymentdetail](msdyn_paymentdetail.md#BKMK_business_unit_msdyn_paymentdetail)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_paymentdetail`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_paymentdetail`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_paymentmethod"></a> business_unit_msdyn_paymentmethod
+
+Many-To-One Relationship: [msdyn_paymentmethod business_unit_msdyn_paymentmethod](msdyn_paymentmethod.md#BKMK_business_unit_msdyn_paymentmethod)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_paymentmethod`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_paymentmethod`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_paymentterm"></a> business_unit_msdyn_paymentterm
+
+Many-To-One Relationship: [msdyn_paymentterm business_unit_msdyn_paymentterm](msdyn_paymentterm.md#BKMK_business_unit_msdyn_paymentterm)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_paymentterm`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_paymentterm`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_personalmessage"></a> business_unit_msdyn_personalmessage
+
+Many-To-One Relationship: [msdyn_personalmessage business_unit_msdyn_personalmessage](msdyn_personalmessage.md#BKMK_business_unit_msdyn_personalmessage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_personalmessage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_personalmessage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_personalsoundsetting"></a> business_unit_msdyn_personalsoundsetting
+
+Many-To-One Relationship: [msdyn_personalsoundsetting business_unit_msdyn_personalsoundsetting](msdyn_personalsoundsetting.md#BKMK_business_unit_msdyn_personalsoundsetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_personalsoundsetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_personalsoundsetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_playbookactivity"></a> business_unit_msdyn_playbookactivity
+
+Many-To-One Relationship: [msdyn_playbookactivity business_unit_msdyn_playbookactivity](msdyn_playbookactivity.md#BKMK_business_unit_msdyn_playbookactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_playbookactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_playbookactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_playbookactivityattribute"></a> business_unit_msdyn_playbookactivityattribute
+
+Many-To-One Relationship: [msdyn_playbookactivityattribute business_unit_msdyn_playbookactivityattribute](msdyn_playbookactivityattribute.md#BKMK_business_unit_msdyn_playbookactivityattribute)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_playbookactivityattribute`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_playbookactivityattribute`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_playbookcategory"></a> business_unit_msdyn_playbookcategory
+
+Many-To-One Relationship: [msdyn_playbookcategory business_unit_msdyn_playbookcategory](msdyn_playbookcategory.md#BKMK_business_unit_msdyn_playbookcategory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_playbookcategory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_playbookcategory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_playbookinstance"></a> business_unit_msdyn_playbookinstance
+
+Many-To-One Relationship: [msdyn_playbookinstance business_unit_msdyn_playbookinstance](msdyn_playbookinstance.md#BKMK_business_unit_msdyn_playbookinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_playbookinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_playbookinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_playbooktemplate"></a> business_unit_msdyn_playbooktemplate
+
+Many-To-One Relationship: [msdyn_playbooktemplate business_unit_msdyn_playbooktemplate](msdyn_playbooktemplate.md#BKMK_business_unit_msdyn_playbooktemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_playbooktemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_playbooktemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_postalbum"></a> business_unit_msdyn_postalbum
+
+Many-To-One Relationship: [msdyn_postalbum business_unit_msdyn_postalbum](msdyn_postalbum.md#BKMK_business_unit_msdyn_postalbum)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_postalbum`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_postalbum`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_postalcode"></a> business_unit_msdyn_postalcode
+
+Many-To-One Relationship: [msdyn_postalcode business_unit_msdyn_postalcode](msdyn_postalcode.md#BKMK_business_unit_msdyn_postalcode)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_postalcode`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_postalcode`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_predictioncomputationoperation"></a> business_unit_msdyn_predictioncomputationoperation
+
+Many-To-One Relationship: [msdyn_predictioncomputationoperation business_unit_msdyn_predictioncomputationoperation](msdyn_predictioncomputationoperation.md#BKMK_business_unit_msdyn_predictioncomputationoperation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_predictioncomputationoperation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_predictioncomputationoperation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_predictionmodelstatus"></a> business_unit_msdyn_predictionmodelstatus
+
+Many-To-One Relationship: [msdyn_predictionmodelstatus business_unit_msdyn_predictionmodelstatus](msdyn_predictionmodelstatus.md#BKMK_business_unit_msdyn_predictionmodelstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_predictionmodelstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_predictionmodelstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_predictionscheduledoperation"></a> business_unit_msdyn_predictionscheduledoperation
+
+Many-To-One Relationship: [msdyn_predictionscheduledoperation business_unit_msdyn_predictionscheduledoperation](msdyn_predictionscheduledoperation.md#BKMK_business_unit_msdyn_predictionscheduledoperation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_predictionscheduledoperation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_predictionscheduledoperation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_predictivescoringsyncstatus"></a> business_unit_msdyn_predictivescoringsyncstatus
+
+Many-To-One Relationship: [msdyn_predictivescoringsyncstatus business_unit_msdyn_predictivescoringsyncstatus](msdyn_predictivescoringsyncstatus.md#BKMK_business_unit_msdyn_predictivescoringsyncstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_predictivescoringsyncstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_predictivescoringsyncstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_preferredagent"></a> business_unit_msdyn_preferredagent
+
+Many-To-One Relationship: [msdyn_preferredagent business_unit_msdyn_preferredagent](msdyn_preferredagent.md#BKMK_business_unit_msdyn_preferredagent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_preferredagent`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_preferredagent`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_preferredagentcustomeridentity"></a> business_unit_msdyn_preferredagentcustomeridentity
+
+Many-To-One Relationship: [msdyn_preferredagentcustomeridentity business_unit_msdyn_preferredagentcustomeridentity](msdyn_preferredagentcustomeridentity.md#BKMK_business_unit_msdyn_preferredagentcustomeridentity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_preferredagentcustomeridentity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_preferredagentcustomeridentity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_preferredagentroutedentity"></a> business_unit_msdyn_preferredagentroutedentity
+
+Many-To-One Relationship: [msdyn_preferredagentroutedentity business_unit_msdyn_preferredagentroutedentity](msdyn_preferredagentroutedentity.md#BKMK_business_unit_msdyn_preferredagentroutedentity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_preferredagentroutedentity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_preferredagentroutedentity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_priority"></a> business_unit_msdyn_priority
+
+Many-To-One Relationship: [msdyn_priority business_unit_msdyn_priority](msdyn_priority.md#BKMK_business_unit_msdyn_priority)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_priority`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_priority`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_problematicasset"></a> business_unit_msdyn_problematicasset
+
+Many-To-One Relationship: [msdyn_problematicasset business_unit_msdyn_problematicasset](msdyn_problematicasset.md#BKMK_business_unit_msdyn_problematicasset)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_problematicasset`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_problematicasset`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_problematicassetfeedback"></a> business_unit_msdyn_problematicassetfeedback
+
+Many-To-One Relationship: [msdyn_problematicassetfeedback business_unit_msdyn_problematicassetfeedback](msdyn_problematicassetfeedback.md#BKMK_business_unit_msdyn_problematicassetfeedback)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_problematicassetfeedback`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_problematicassetfeedback`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_productivityactioninputparameter"></a> business_unit_msdyn_productivityactioninputparameter
+
+Many-To-One Relationship: [msdyn_productivityactioninputparameter business_unit_msdyn_productivityactioninputparameter](msdyn_productivityactioninputparameter.md#BKMK_business_unit_msdyn_productivityactioninputparameter)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_productivityactioninputparameter`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_productivityactioninputparameter`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_productivityactionoutputparameter"></a> business_unit_msdyn_productivityactionoutputparameter
+
+Many-To-One Relationship: [msdyn_productivityactionoutputparameter business_unit_msdyn_productivityactionoutputparameter](msdyn_productivityactionoutputparameter.md#BKMK_business_unit_msdyn_productivityactionoutputparameter)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_productivityactionoutputparameter`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_productivityactionoutputparameter`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_productivityagentscript"></a> business_unit_msdyn_productivityagentscript
+
+Many-To-One Relationship: [msdyn_productivityagentscript business_unit_msdyn_productivityagentscript](msdyn_productivityagentscript.md#BKMK_business_unit_msdyn_productivityagentscript)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_productivityagentscript`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_productivityagentscript`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_productivityagentscriptstep"></a> business_unit_msdyn_productivityagentscriptstep
+
+Many-To-One Relationship: [msdyn_productivityagentscriptstep business_unit_msdyn_productivityagentscriptstep](msdyn_productivityagentscriptstep.md#BKMK_business_unit_msdyn_productivityagentscriptstep)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_productivityagentscriptstep`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_productivityagentscriptstep`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_productivitymacroactiontemplate"></a> business_unit_msdyn_productivitymacroactiontemplate
+
+Many-To-One Relationship: [msdyn_productivitymacroactiontemplate business_unit_msdyn_productivitymacroactiontemplate](msdyn_productivitymacroactiontemplate.md#BKMK_business_unit_msdyn_productivitymacroactiontemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_productivitymacroactiontemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_productivitymacroactiontemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_productivitymacroconnector"></a> business_unit_msdyn_productivitymacroconnector
+
+Many-To-One Relationship: [msdyn_productivitymacroconnector business_unit_msdyn_productivitymacroconnector](msdyn_productivitymacroconnector.md#BKMK_business_unit_msdyn_productivitymacroconnector)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_productivitymacroconnector`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_productivitymacroconnector`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_productivitymacrosolutionconfiguration"></a> business_unit_msdyn_productivitymacrosolutionconfiguration
+
+Many-To-One Relationship: [msdyn_productivitymacrosolutionconfiguration business_unit_msdyn_productivitymacrosolutionconfiguration](msdyn_productivitymacrosolutionconfiguration.md#BKMK_business_unit_msdyn_productivitymacrosolutionconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_productivitymacrosolutionconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_productivitymacrosolutionconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_productivityparameterdefinition"></a> business_unit_msdyn_productivityparameterdefinition
+
+Many-To-One Relationship: [msdyn_productivityparameterdefinition business_unit_msdyn_productivityparameterdefinition](msdyn_productivityparameterdefinition.md#BKMK_business_unit_msdyn_productivityparameterdefinition)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_productivityparameterdefinition`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_productivityparameterdefinition`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_property"></a> business_unit_msdyn_property
+
+Many-To-One Relationship: [msdyn_property business_unit_msdyn_property](msdyn_property.md#BKMK_business_unit_msdyn_property)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_property`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_property`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_propertyassetassociation"></a> business_unit_msdyn_propertyassetassociation
+
+Many-To-One Relationship: [msdyn_propertyassetassociation business_unit_msdyn_propertyassetassociation](msdyn_propertyassetassociation.md#BKMK_business_unit_msdyn_propertyassetassociation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_propertyassetassociation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_propertyassetassociation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_propertylocationassociation"></a> business_unit_msdyn_propertylocationassociation
+
+Many-To-One Relationship: [msdyn_propertylocationassociation business_unit_msdyn_propertylocationassociation](msdyn_propertylocationassociation.md#BKMK_business_unit_msdyn_propertylocationassociation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_propertylocationassociation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_propertylocationassociation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_propertylog"></a> business_unit_msdyn_propertylog
+
+Many-To-One Relationship: [msdyn_propertylog business_unit_msdyn_propertylog](msdyn_propertylog.md#BKMK_business_unit_msdyn_propertylog)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_propertylog`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_propertylog`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_propertytemplateassociation"></a> business_unit_msdyn_propertytemplateassociation
+
+Many-To-One Relationship: [msdyn_propertytemplateassociation business_unit_msdyn_propertytemplateassociation](msdyn_propertytemplateassociation.md#BKMK_business_unit_msdyn_propertytemplateassociation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_propertytemplateassociation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_propertytemplateassociation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_purchaseorder"></a> business_unit_msdyn_purchaseorder
+
+Many-To-One Relationship: [msdyn_purchaseorder business_unit_msdyn_purchaseorder](msdyn_purchaseorder.md#BKMK_business_unit_msdyn_purchaseorder)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_purchaseorder`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_purchaseorder`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_purchaseorderbill"></a> business_unit_msdyn_purchaseorderbill
+
+Many-To-One Relationship: [msdyn_purchaseorderbill business_unit_msdyn_purchaseorderbill](msdyn_purchaseorderbill.md#BKMK_business_unit_msdyn_purchaseorderbill)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_purchaseorderbill`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_purchaseorderbill`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_purchaseorderproduct"></a> business_unit_msdyn_purchaseorderproduct
+
+Many-To-One Relationship: [msdyn_purchaseorderproduct business_unit_msdyn_purchaseorderproduct](msdyn_purchaseorderproduct.md#BKMK_business_unit_msdyn_purchaseorderproduct)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_purchaseorderproduct`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_purchaseorderproduct`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_purchaseorderreceipt"></a> business_unit_msdyn_purchaseorderreceipt
+
+Many-To-One Relationship: [msdyn_purchaseorderreceipt business_unit_msdyn_purchaseorderreceipt](msdyn_purchaseorderreceipt.md#BKMK_business_unit_msdyn_purchaseorderreceipt)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_purchaseorderreceipt`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_purchaseorderreceipt`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_purchaseorderreceiptproduct"></a> business_unit_msdyn_purchaseorderreceiptproduct
+
+Many-To-One Relationship: [msdyn_purchaseorderreceiptproduct business_unit_msdyn_purchaseorderreceiptproduct](msdyn_purchaseorderreceiptproduct.md#BKMK_business_unit_msdyn_purchaseorderreceiptproduct)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_purchaseorderreceiptproduct`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_purchaseorderreceiptproduct`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_purchaseordersubstatus"></a> business_unit_msdyn_purchaseordersubstatus
+
+Many-To-One Relationship: [msdyn_purchaseordersubstatus business_unit_msdyn_purchaseordersubstatus](msdyn_purchaseordersubstatus.md#BKMK_business_unit_msdyn_purchaseordersubstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_purchaseordersubstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_purchaseordersubstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_questionsequence"></a> business_unit_msdyn_questionsequence
+
+Many-To-One Relationship: [msdyn_questionsequence business_unit_msdyn_questionsequence](msdyn_questionsequence.md#BKMK_business_unit_msdyn_questionsequence)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_questionsequence`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_questionsequence`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_quotebookingincident"></a> business_unit_msdyn_quotebookingincident
+
+Many-To-One Relationship: [msdyn_quotebookingincident business_unit_msdyn_quotebookingincident](msdyn_quotebookingincident.md#BKMK_business_unit_msdyn_quotebookingincident)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_quotebookingincident`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_quotebookingincident`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_quotebookingproduct"></a> business_unit_msdyn_quotebookingproduct
+
+Many-To-One Relationship: [msdyn_quotebookingproduct business_unit_msdyn_quotebookingproduct](msdyn_quotebookingproduct.md#BKMK_business_unit_msdyn_quotebookingproduct)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_quotebookingproduct`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_quotebookingproduct`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_quotebookingservice"></a> business_unit_msdyn_quotebookingservice
+
+Many-To-One Relationship: [msdyn_quotebookingservice business_unit_msdyn_quotebookingservice](msdyn_quotebookingservice.md#BKMK_business_unit_msdyn_quotebookingservice)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_quotebookingservice`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_quotebookingservice`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_quotebookingservicetask"></a> business_unit_msdyn_quotebookingservicetask
+
+Many-To-One Relationship: [msdyn_quotebookingservicetask business_unit_msdyn_quotebookingservicetask](msdyn_quotebookingservicetask.md#BKMK_business_unit_msdyn_quotebookingservicetask)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_quotebookingservicetask`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_quotebookingservicetask`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_quotebookingsetup"></a> business_unit_msdyn_quotebookingsetup
+
+Many-To-One Relationship: [msdyn_quotebookingsetup business_unit_msdyn_quotebookingsetup](msdyn_quotebookingsetup.md#BKMK_business_unit_msdyn_quotebookingsetup)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_quotebookingsetup`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_quotebookingsetup`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_quoteinvoicingproduct"></a> business_unit_msdyn_quoteinvoicingproduct
+
+Many-To-One Relationship: [msdyn_quoteinvoicingproduct business_unit_msdyn_quoteinvoicingproduct](msdyn_quoteinvoicingproduct.md#BKMK_business_unit_msdyn_quoteinvoicingproduct)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_quoteinvoicingproduct`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_quoteinvoicingproduct`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_quoteinvoicingsetup"></a> business_unit_msdyn_quoteinvoicingsetup
+
+Many-To-One Relationship: [msdyn_quoteinvoicingsetup business_unit_msdyn_quoteinvoicingsetup](msdyn_quoteinvoicingsetup.md#BKMK_business_unit_msdyn_quoteinvoicingsetup)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_quoteinvoicingsetup`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_quoteinvoicingsetup`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_readtracker"></a> business_unit_msdyn_readtracker
+
+Many-To-One Relationship: [msdyn_readtracker business_unit_msdyn_readtracker](msdyn_readtracker.md#BKMK_business_unit_msdyn_readtracker)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_readtracker`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_readtracker`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_realtimescoring"></a> business_unit_msdyn_realtimescoring
+
+Many-To-One Relationship: [msdyn_realtimescoring business_unit_msdyn_realtimescoring](msdyn_realtimescoring.md#BKMK_business_unit_msdyn_realtimescoring)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_realtimescoring`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_realtimescoring`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_realtimescoringoperation"></a> business_unit_msdyn_realtimescoringoperation
+
+Many-To-One Relationship: [msdyn_realtimescoringoperation business_unit_msdyn_realtimescoringoperation](msdyn_realtimescoringoperation.md#BKMK_business_unit_msdyn_realtimescoringoperation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_realtimescoringoperation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_realtimescoringoperation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_recording"></a> business_unit_msdyn_recording
+
+Many-To-One Relationship: [msdyn_recording business_unit_msdyn_recording](msdyn_recording.md#BKMK_business_unit_msdyn_recording)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_recording`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_recording`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_relationshipinsightsunifiedconfig"></a> business_unit_msdyn_relationshipinsightsunifiedconfig
+
+Many-To-One Relationship: [msdyn_relationshipinsightsunifiedconfig business_unit_msdyn_relationshipinsightsunifiedconfig](msdyn_relationshipinsightsunifiedconfig.md#BKMK_business_unit_msdyn_relationshipinsightsunifiedconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_relationshipinsightsunifiedconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_relationshipinsightsunifiedconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_reportbookmark"></a> business_unit_msdyn_reportbookmark
+
+Many-To-One Relationship: [msdyn_reportbookmark business_unit_msdyn_reportbookmark](msdyn_reportbookmark.md#BKMK_business_unit_msdyn_reportbookmark)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_reportbookmark`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_reportbookmark`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_requirementchange"></a> business_unit_msdyn_requirementchange
+
+Many-To-One Relationship: [msdyn_requirementchange business_unit_msdyn_requirementchange](msdyn_requirementchange.md#BKMK_business_unit_msdyn_requirementchange)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementchange`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_requirementchange`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_requirementcharacteristic"></a> business_unit_msdyn_requirementcharacteristic
+
+Many-To-One Relationship: [msdyn_requirementcharacteristic business_unit_msdyn_requirementcharacteristic](msdyn_requirementcharacteristic.md#BKMK_business_unit_msdyn_requirementcharacteristic)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementcharacteristic`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_requirementcharacteristic`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_requirementdependency"></a> business_unit_msdyn_requirementdependency
+
+Many-To-One Relationship: [msdyn_requirementdependency business_unit_msdyn_requirementdependency](msdyn_requirementdependency.md#BKMK_business_unit_msdyn_requirementdependency)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementdependency`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_requirementdependency`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_requirementgroup"></a> business_unit_msdyn_requirementgroup
+
+Many-To-One Relationship: [msdyn_requirementgroup business_unit_msdyn_requirementgroup](msdyn_requirementgroup.md#BKMK_business_unit_msdyn_requirementgroup)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementgroup`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_requirementgroup`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_requirementorganizationunit"></a> business_unit_msdyn_requirementorganizationunit
+
+Many-To-One Relationship: [msdyn_requirementorganizationunit business_unit_msdyn_requirementorganizationunit](msdyn_requirementorganizationunit.md#BKMK_business_unit_msdyn_requirementorganizationunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementorganizationunit`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_requirementorganizationunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_requirementrelationship"></a> business_unit_msdyn_requirementrelationship
+
+Many-To-One Relationship: [msdyn_requirementrelationship business_unit_msdyn_requirementrelationship](msdyn_requirementrelationship.md#BKMK_business_unit_msdyn_requirementrelationship)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementrelationship`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_requirementrelationship`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_requirementresourcecategory"></a> business_unit_msdyn_requirementresourcecategory
+
+Many-To-One Relationship: [msdyn_requirementresourcecategory business_unit_msdyn_requirementresourcecategory](msdyn_requirementresourcecategory.md#BKMK_business_unit_msdyn_requirementresourcecategory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementresourcecategory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_requirementresourcecategory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_requirementresourcepreference"></a> business_unit_msdyn_requirementresourcepreference
+
+Many-To-One Relationship: [msdyn_requirementresourcepreference business_unit_msdyn_requirementresourcepreference](msdyn_requirementresourcepreference.md#BKMK_business_unit_msdyn_requirementresourcepreference)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementresourcepreference`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_requirementresourcepreference`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_requirementstatus"></a> business_unit_msdyn_requirementstatus
+
+Many-To-One Relationship: [msdyn_requirementstatus business_unit_msdyn_requirementstatus](msdyn_requirementstatus.md#BKMK_business_unit_msdyn_requirementstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_requirementstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_resolution"></a> business_unit_msdyn_resolution
+
+Many-To-One Relationship: [msdyn_resolution business_unit_msdyn_resolution](msdyn_resolution.md#BKMK_business_unit_msdyn_resolution)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_resolution`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_resolution`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_resourcepaytype"></a> business_unit_msdyn_resourcepaytype
+
+Many-To-One Relationship: [msdyn_resourcepaytype business_unit_msdyn_resourcepaytype](msdyn_resourcepaytype.md#BKMK_business_unit_msdyn_resourcepaytype)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_resourcepaytype`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_resourcepaytype`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_resourcerequirement"></a> business_unit_msdyn_resourcerequirement
+
+Many-To-One Relationship: [msdyn_resourcerequirement business_unit_msdyn_resourcerequirement](msdyn_resourcerequirement.md#BKMK_business_unit_msdyn_resourcerequirement)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_resourcerequirement`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_resourcerequirement`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_resourcerequirementdetail"></a> business_unit_msdyn_resourcerequirementdetail
+
+Many-To-One Relationship: [msdyn_resourcerequirementdetail business_unit_msdyn_resourcerequirementdetail](msdyn_resourcerequirementdetail.md#BKMK_business_unit_msdyn_resourcerequirementdetail)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_resourcerequirementdetail`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_resourcerequirementdetail`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_resourceterritory"></a> business_unit_msdyn_resourceterritory
+
+Many-To-One Relationship: [msdyn_resourceterritory business_unit_msdyn_resourceterritory](msdyn_resourceterritory.md#BKMK_business_unit_msdyn_resourceterritory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_resourceterritory`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_resourceterritory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_rma"></a> business_unit_msdyn_rma
+
+Many-To-One Relationship: [msdyn_rma business_unit_msdyn_rma](msdyn_rma.md#BKMK_business_unit_msdyn_rma)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_rma`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_rma`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_rmaproduct"></a> business_unit_msdyn_rmaproduct
+
+Many-To-One Relationship: [msdyn_rmaproduct business_unit_msdyn_rmaproduct](msdyn_rmaproduct.md#BKMK_business_unit_msdyn_rmaproduct)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_rmaproduct`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_rmaproduct`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_rmareceipt"></a> business_unit_msdyn_rmareceipt
+
+Many-To-One Relationship: [msdyn_rmareceipt business_unit_msdyn_rmareceipt](msdyn_rmareceipt.md#BKMK_business_unit_msdyn_rmareceipt)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_rmareceipt`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_rmareceipt`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_rmareceiptproduct"></a> business_unit_msdyn_rmareceiptproduct
+
+Many-To-One Relationship: [msdyn_rmareceiptproduct business_unit_msdyn_rmareceiptproduct](msdyn_rmareceiptproduct.md#BKMK_business_unit_msdyn_rmareceiptproduct)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_rmareceiptproduct`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_rmareceiptproduct`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_rmasubstatus"></a> business_unit_msdyn_rmasubstatus
+
+Many-To-One Relationship: [msdyn_rmasubstatus business_unit_msdyn_rmasubstatus](msdyn_rmasubstatus.md#BKMK_business_unit_msdyn_rmasubstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_rmasubstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_rmasubstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_routingconfiguration"></a> business_unit_msdyn_routingconfiguration
+
+Many-To-One Relationship: [msdyn_routingconfiguration business_unit_msdyn_routingconfiguration](msdyn_routingconfiguration.md#BKMK_business_unit_msdyn_routingconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_routingconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_routingconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_routingconfigurationstep"></a> business_unit_msdyn_routingconfigurationstep
+
+Many-To-One Relationship: [msdyn_routingconfigurationstep business_unit_msdyn_routingconfigurationstep](msdyn_routingconfigurationstep.md#BKMK_business_unit_msdyn_routingconfigurationstep)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_routingconfigurationstep`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_routingconfigurationstep`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_routingengineconfiguration"></a> business_unit_msdyn_routingengineconfiguration
+
+Many-To-One Relationship: [msdyn_routingengineconfiguration business_unit_msdyn_routingengineconfiguration](msdyn_routingengineconfiguration.md#BKMK_business_unit_msdyn_routingengineconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_routingengineconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_routingengineconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_routingjobconfiguration"></a> business_unit_msdyn_routingjobconfiguration
+
+Many-To-One Relationship: [msdyn_routingjobconfiguration business_unit_msdyn_routingjobconfiguration](msdyn_routingjobconfiguration.md#BKMK_business_unit_msdyn_routingjobconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_routingjobconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_routingjobconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_routingoptimizationrequest"></a> business_unit_msdyn_routingoptimizationrequest
+
+Many-To-One Relationship: [msdyn_routingoptimizationrequest business_unit_msdyn_routingoptimizationrequest](msdyn_routingoptimizationrequest.md#BKMK_business_unit_msdyn_routingoptimizationrequest)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_routingoptimizationrequest`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_routingoptimizationrequest`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_routingprofileconfiguration"></a> business_unit_msdyn_routingprofileconfiguration
+
+Many-To-One Relationship: [msdyn_routingprofileconfiguration business_unit_msdyn_routingprofileconfiguration](msdyn_routingprofileconfiguration.md#BKMK_business_unit_msdyn_routingprofileconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_routingprofileconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_routingprofileconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_routingrequest"></a> business_unit_msdyn_routingrequest
+
+Many-To-One Relationship: [msdyn_routingrequest business_unit_msdyn_routingrequest](msdyn_routingrequest.md#BKMK_business_unit_msdyn_routingrequest)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_routingrequest`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_routingrequest`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_rtv"></a> business_unit_msdyn_rtv
+
+Many-To-One Relationship: [msdyn_rtv business_unit_msdyn_rtv](msdyn_rtv.md#BKMK_business_unit_msdyn_rtv)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_rtv`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_rtv`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_rtvproduct"></a> business_unit_msdyn_rtvproduct
+
+Many-To-One Relationship: [msdyn_rtvproduct business_unit_msdyn_rtvproduct](msdyn_rtvproduct.md#BKMK_business_unit_msdyn_rtvproduct)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_rtvproduct`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_rtvproduct`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_rtvsubstatus"></a> business_unit_msdyn_rtvsubstatus
+
+Many-To-One Relationship: [msdyn_rtvsubstatus business_unit_msdyn_rtvsubstatus](msdyn_rtvsubstatus.md#BKMK_business_unit_msdyn_rtvsubstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_rtvsubstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_rtvsubstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_rulesetdependencymapping"></a> business_unit_msdyn_rulesetdependencymapping
+
+Many-To-One Relationship: [msdyn_rulesetdependencymapping business_unit_msdyn_rulesetdependencymapping](msdyn_rulesetdependencymapping.md#BKMK_business_unit_msdyn_rulesetdependencymapping)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_rulesetdependencymapping`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_rulesetdependencymapping`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_salescopilotinsight"></a> business_unit_msdyn_salescopilotinsight
+
+Many-To-One Relationship: [msdyn_salescopilotinsight business_unit_msdyn_salescopilotinsight](msdyn_salescopilotinsight.md#BKMK_business_unit_msdyn_salescopilotinsight)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salescopilotinsight`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_salescopilotinsight`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_salesinsightssettings"></a> business_unit_msdyn_salesinsightssettings
+
+Many-To-One Relationship: [msdyn_salesinsightssettings business_unit_msdyn_salesinsightssettings](msdyn_salesinsightssettings.md#BKMK_business_unit_msdyn_salesinsightssettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salesinsightssettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_salesinsightssettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_salesocmessage"></a> business_unit_msdyn_salesocmessage
+
+Many-To-One Relationship: [msdyn_salesocmessage business_unit_msdyn_salesocmessage](msdyn_salesocmessage.md#BKMK_business_unit_msdyn_salesocmessage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salesocmessage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_salesocmessage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_salesocsmstemplate"></a> business_unit_msdyn_salesocsmstemplate
+
+Many-To-One Relationship: [msdyn_salesocsmstemplate business_unit_msdyn_salesocsmstemplate](msdyn_salesocsmstemplate.md#BKMK_business_unit_msdyn_salesocsmstemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salesocsmstemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_salesocsmstemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_salesroutingrun"></a> business_unit_msdyn_salesroutingrun
+
+Many-To-One Relationship: [msdyn_salesroutingrun business_unit_msdyn_salesroutingrun](msdyn_salesroutingrun.md#BKMK_business_unit_msdyn_salesroutingrun)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salesroutingrun`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_salesroutingrun`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_salessuggestion"></a> business_unit_msdyn_salessuggestion
+
+Many-To-One Relationship: [msdyn_salessuggestion business_unit_msdyn_salessuggestion](msdyn_salessuggestion.md#BKMK_business_unit_msdyn_salessuggestion)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salessuggestion`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_salessuggestion`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_salestag"></a> business_unit_msdyn_salestag
+
+Many-To-One Relationship: [msdyn_salestag business_unit_msdyn_salestag](msdyn_salestag.md#BKMK_business_unit_msdyn_salestag)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salestag`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_salestag`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_scenario"></a> business_unit_msdyn_scenario
+
+Many-To-One Relationship: [msdyn_scenario business_unit_msdyn_scenario](msdyn_scenario.md#BKMK_business_unit_msdyn_scenario)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_scenario`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_scenario`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_scheduleboardsetting"></a> business_unit_msdyn_scheduleboardsetting
+
+Many-To-One Relationship: [msdyn_scheduleboardsetting business_unit_msdyn_scheduleboardsetting](msdyn_scheduleboardsetting.md#BKMK_business_unit_msdyn_scheduleboardsetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_scheduleboardsetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_scheduleboardsetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_schedulingfeatureflag"></a> business_unit_msdyn_schedulingfeatureflag
+
+Many-To-One Relationship: [msdyn_schedulingfeatureflag business_unit_msdyn_schedulingfeatureflag](msdyn_schedulingfeatureflag.md#BKMK_business_unit_msdyn_schedulingfeatureflag)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingfeatureflag`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_schedulingfeatureflag`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_sciconversation"></a> business_unit_msdyn_sciconversation
+
+Many-To-One Relationship: [msdyn_sciconversation business_unit_msdyn_sciconversation](msdyn_sciconversation.md#BKMK_business_unit_msdyn_sciconversation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sciconversation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_sciconversation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_scicustomemailhighlight"></a> business_unit_msdyn_scicustomemailhighlight
+
+Many-To-One Relationship: [msdyn_scicustomemailhighlight business_unit_msdyn_scicustomemailhighlight](msdyn_scicustomemailhighlight.md#BKMK_business_unit_msdyn_scicustomemailhighlight)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_scicustomemailhighlight`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_scicustomemailhighlight`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_scicustomhighlight"></a> business_unit_msdyn_scicustomhighlight
+
+Many-To-One Relationship: [msdyn_scicustomhighlight business_unit_msdyn_scicustomhighlight](msdyn_scicustomhighlight.md#BKMK_business_unit_msdyn_scicustomhighlight)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_scicustomhighlight`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_scicustomhighlight`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_scicustompublisher"></a> business_unit_msdyn_scicustompublisher
+
+Many-To-One Relationship: [msdyn_scicustompublisher business_unit_msdyn_scicustompublisher](msdyn_scicustompublisher.md#BKMK_business_unit_msdyn_scicustompublisher)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_scicustompublisher`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_scicustompublisher`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_sciusersettings"></a> business_unit_msdyn_sciusersettings
+
+Many-To-One Relationship: [msdyn_sciusersettings business_unit_msdyn_sciusersettings](msdyn_sciusersettings.md#BKMK_business_unit_msdyn_sciusersettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sciusersettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_sciusersettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_searchconfiguration"></a> business_unit_msdyn_searchconfiguration
+
+Many-To-One Relationship: [msdyn_searchconfiguration business_unit_msdyn_searchconfiguration](msdyn_searchconfiguration.md#BKMK_business_unit_msdyn_searchconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_searchconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_searchconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_segment"></a> business_unit_msdyn_segment
+
+Many-To-One Relationship: [msdyn_segment business_unit_msdyn_segment](msdyn_segment.md#BKMK_business_unit_msdyn_segment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_segment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_segment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_sequence"></a> business_unit_msdyn_sequence
+
+Many-To-One Relationship: [msdyn_sequence business_unit_msdyn_sequence](msdyn_sequence.md#BKMK_business_unit_msdyn_sequence)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sequence`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_sequence`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_sequencestat"></a> business_unit_msdyn_sequencestat
+
+Many-To-One Relationship: [msdyn_sequencestat business_unit_msdyn_sequencestat](msdyn_sequencestat.md#BKMK_business_unit_msdyn_sequencestat)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sequencestat`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_sequencestat`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_sequencetarget"></a> business_unit_msdyn_sequencetarget
+
+Many-To-One Relationship: [msdyn_sequencetarget business_unit_msdyn_sequencetarget](msdyn_sequencetarget.md#BKMK_business_unit_msdyn_sequencetarget)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sequencetarget`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_sequencetarget`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_sequencetargetstep"></a> business_unit_msdyn_sequencetargetstep
+
+Many-To-One Relationship: [msdyn_sequencetargetstep business_unit_msdyn_sequencetargetstep](msdyn_sequencetargetstep.md#BKMK_business_unit_msdyn_sequencetargetstep)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sequencetargetstep`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_sequencetargetstep`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_sequencetemplate"></a> business_unit_msdyn_sequencetemplate
+
+Many-To-One Relationship: [msdyn_sequencetemplate business_unit_msdyn_sequencetemplate](msdyn_sequencetemplate.md#BKMK_business_unit_msdyn_sequencetemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sequencetemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_sequencetemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_serviceoneprovisioningrequest"></a> business_unit_msdyn_serviceoneprovisioningrequest
+
+Many-To-One Relationship: [msdyn_serviceoneprovisioningrequest business_unit_msdyn_serviceoneprovisioningrequest](msdyn_serviceoneprovisioningrequest.md#BKMK_business_unit_msdyn_serviceoneprovisioningrequest)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_serviceoneprovisioningrequest`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_serviceoneprovisioningrequest`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_servicetasktype"></a> business_unit_msdyn_servicetasktype
+
+Many-To-One Relationship: [msdyn_servicetasktype business_unit_msdyn_servicetasktype](msdyn_servicetasktype.md#BKMK_business_unit_msdyn_servicetasktype)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_servicetasktype`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_servicetasktype`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_sessiondata"></a> business_unit_msdyn_sessiondata
+
+Many-To-One Relationship: [msdyn_sessiondata business_unit_msdyn_sessiondata](msdyn_sessiondata.md#BKMK_business_unit_msdyn_sessiondata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sessiondata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_sessiondata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_sessionevent"></a> business_unit_msdyn_sessionevent
+
+Many-To-One Relationship: [msdyn_sessionevent business_unit_msdyn_sessionevent](msdyn_sessionevent.md#BKMK_business_unit_msdyn_sessionevent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sessionevent`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_sessionevent`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_sessionparticipant"></a> business_unit_msdyn_sessionparticipant
+
+Many-To-One Relationship: [msdyn_sessionparticipant business_unit_msdyn_sessionparticipant](msdyn_sessionparticipant.md#BKMK_business_unit_msdyn_sessionparticipant)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sessionparticipant`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_sessionparticipant`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_sessionparticipantdata"></a> business_unit_msdyn_sessionparticipantdata
+
+Many-To-One Relationship: [msdyn_sessionparticipantdata business_unit_msdyn_sessionparticipantdata](msdyn_sessionparticipantdata.md#BKMK_business_unit_msdyn_sessionparticipantdata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sessionparticipantdata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_sessionparticipantdata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_sessiontemplate"></a> business_unit_msdyn_sessiontemplate
+
+Many-To-One Relationship: [msdyn_sessiontemplate business_unit_msdyn_sessiontemplate](msdyn_sessiontemplate.md#BKMK_business_unit_msdyn_sessiontemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sessiontemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_sessiontemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_shipvia"></a> business_unit_msdyn_shipvia
+
+Many-To-One Relationship: [msdyn_shipvia business_unit_msdyn_shipvia](msdyn_shipvia.md#BKMK_business_unit_msdyn_shipvia)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_shipvia`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_shipvia`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_siconfig"></a> business_unit_msdyn_siconfig
+
+Many-To-One Relationship: [msdyn_siconfig business_unit_msdyn_siconfig](msdyn_siconfig.md#BKMK_business_unit_msdyn_siconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_siconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_siconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_skillattachmentruleitem"></a> business_unit_msdyn_skillattachmentruleitem
+
+Many-To-One Relationship: [msdyn_skillattachmentruleitem business_unit_msdyn_skillattachmentruleitem](msdyn_skillattachmentruleitem.md#BKMK_business_unit_msdyn_skillattachmentruleitem)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_skillattachmentruleitem`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_skillattachmentruleitem`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_skillattachmenttarget"></a> business_unit_msdyn_skillattachmenttarget
+
+Many-To-One Relationship: [msdyn_skillattachmenttarget business_unit_msdyn_skillattachmenttarget](msdyn_skillattachmenttarget.md#BKMK_business_unit_msdyn_skillattachmenttarget)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_skillattachmenttarget`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_skillattachmenttarget`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_smsengagementctx"></a> business_unit_msdyn_smsengagementctx
+
+Many-To-One Relationship: [msdyn_smsengagementctx business_unit_msdyn_smsengagementctx](msdyn_smsengagementctx.md#BKMK_business_unit_msdyn_smsengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_smsengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_smsengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_smsnumber"></a> business_unit_msdyn_smsnumber
+
+Many-To-One Relationship: [msdyn_smsnumber business_unit_msdyn_smsnumber](msdyn_smsnumber.md#BKMK_business_unit_msdyn_smsnumber)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_smsnumber`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_smsnumber`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_soundnotificationsetting"></a> business_unit_msdyn_soundnotificationsetting
+
+Many-To-One Relationship: [msdyn_soundnotificationsetting business_unit_msdyn_soundnotificationsetting](msdyn_soundnotificationsetting.md#BKMK_business_unit_msdyn_soundnotificationsetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_soundnotificationsetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_soundnotificationsetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_submodeldefinition"></a> business_unit_msdyn_submodeldefinition
+
+Many-To-One Relationship: [msdyn_submodeldefinition business_unit_msdyn_submodeldefinition](msdyn_submodeldefinition.md#BKMK_business_unit_msdyn_submodeldefinition)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_submodeldefinition`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_submodeldefinition`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_suggestionassignmentrule"></a> business_unit_msdyn_suggestionassignmentrule
+
+Many-To-One Relationship: [msdyn_suggestionassignmentrule business_unit_msdyn_suggestionassignmentrule](msdyn_suggestionassignmentrule.md#BKMK_business_unit_msdyn_suggestionassignmentrule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_suggestionassignmentrule`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_suggestionassignmentrule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_suggestionprincipalobjectaccess"></a> business_unit_msdyn_suggestionprincipalobjectaccess
+
+Many-To-One Relationship: [msdyn_suggestionprincipalobjectaccess business_unit_msdyn_suggestionprincipalobjectaccess](msdyn_suggestionprincipalobjectaccess.md#BKMK_business_unit_msdyn_suggestionprincipalobjectaccess)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_suggestionprincipalobjectaccess`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_suggestionprincipalobjectaccess`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_suggestionsellerpriority"></a> business_unit_msdyn_suggestionsellerpriority
+
+Many-To-One Relationship: [msdyn_suggestionsellerpriority business_unit_msdyn_suggestionsellerpriority](msdyn_suggestionsellerpriority.md#BKMK_business_unit_msdyn_suggestionsellerpriority)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_suggestionsellerpriority`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_suggestionsellerpriority`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_surveyquestion"></a> business_unit_msdyn_surveyquestion
+
+Many-To-One Relationship: [msdyn_surveyquestion business_unit_msdyn_surveyquestion](msdyn_surveyquestion.md#BKMK_business_unit_msdyn_surveyquestion)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_surveyquestion`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_surveyquestion`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_swarm"></a> business_unit_msdyn_swarm
+
+Many-To-One Relationship: [msdyn_swarm business_unit_msdyn_swarm](msdyn_swarm.md#BKMK_business_unit_msdyn_swarm)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_swarm`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_swarm`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_swarmparticipant"></a> business_unit_msdyn_swarmparticipant
+
+Many-To-One Relationship: [msdyn_swarmparticipant business_unit_msdyn_swarmparticipant](msdyn_swarmparticipant.md#BKMK_business_unit_msdyn_swarmparticipant)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_swarmparticipant`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_swarmparticipant`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_swarmparticipantrule"></a> business_unit_msdyn_swarmparticipantrule
+
+Many-To-One Relationship: [msdyn_swarmparticipantrule business_unit_msdyn_swarmparticipantrule](msdyn_swarmparticipantrule.md#BKMK_business_unit_msdyn_swarmparticipantrule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_swarmparticipantrule`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_swarmparticipantrule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_swarmrole"></a> business_unit_msdyn_swarmrole
+
+Many-To-One Relationship: [msdyn_swarmrole business_unit_msdyn_swarmrole](msdyn_swarmrole.md#BKMK_business_unit_msdyn_swarmrole)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_swarmrole`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_swarmrole`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_swarmskill"></a> business_unit_msdyn_swarmskill
+
+Many-To-One Relationship: [msdyn_swarmskill business_unit_msdyn_swarmskill](msdyn_swarmskill.md#BKMK_business_unit_msdyn_swarmskill)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_swarmskill`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_swarmskill`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_swarmtemplate"></a> business_unit_msdyn_swarmtemplate
+
+Many-To-One Relationship: [msdyn_swarmtemplate business_unit_msdyn_swarmtemplate](msdyn_swarmtemplate.md#BKMK_business_unit_msdyn_swarmtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_swarmtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_swarmtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_systemuserschedulersetting"></a> business_unit_msdyn_systemuserschedulersetting
+
+Many-To-One Relationship: [msdyn_systemuserschedulersetting business_unit_msdyn_systemuserschedulersetting](msdyn_systemuserschedulersetting.md#BKMK_business_unit_msdyn_systemuserschedulersetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_systemuserschedulersetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_systemuserschedulersetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_taggedrecord"></a> business_unit_msdyn_taggedrecord
+
+Many-To-One Relationship: [msdyn_taggedrecord business_unit_msdyn_taggedrecord](msdyn_taggedrecord.md#BKMK_business_unit_msdyn_taggedrecord)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_taggedrecord`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_taggedrecord`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_taxcode"></a> business_unit_msdyn_taxcode
+
+Many-To-One Relationship: [msdyn_taxcode business_unit_msdyn_taxcode](msdyn_taxcode.md#BKMK_business_unit_msdyn_taxcode)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_taxcode`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_taxcode`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_taxcodedetail"></a> business_unit_msdyn_taxcodedetail
+
+Many-To-One Relationship: [msdyn_taxcodedetail business_unit_msdyn_taxcodedetail](msdyn_taxcodedetail.md#BKMK_business_unit_msdyn_taxcodedetail)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_taxcodedetail`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_taxcodedetail`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_teamschannelengagementctx"></a> business_unit_msdyn_teamschannelengagementctx
+
+Many-To-One Relationship: [msdyn_teamschannelengagementctx business_unit_msdyn_teamschannelengagementctx](msdyn_teamschannelengagementctx.md#BKMK_business_unit_msdyn_teamschannelengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_teamschannelengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_teamschannelengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_teamsengagementctx"></a> business_unit_msdyn_teamsengagementctx
+
+Many-To-One Relationship: [msdyn_teamsengagementctx business_unit_msdyn_teamsengagementctx](msdyn_teamsengagementctx.md#BKMK_business_unit_msdyn_teamsengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_teamsengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_teamsengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_templateforproperties"></a> business_unit_msdyn_templateforproperties
+
+Many-To-One Relationship: [msdyn_templateforproperties business_unit_msdyn_templateforproperties](msdyn_templateforproperties.md#BKMK_business_unit_msdyn_templateforproperties)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_templateforproperties`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_templateforproperties`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_templateparameter"></a> business_unit_msdyn_templateparameter
+
+Many-To-One Relationship: [msdyn_templateparameter business_unit_msdyn_templateparameter](msdyn_templateparameter.md#BKMK_business_unit_msdyn_templateparameter)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_templateparameter`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_templateparameter`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_templatetags"></a> business_unit_msdyn_templatetags
+
+Many-To-One Relationship: [msdyn_templatetags business_unit_msdyn_templatetags](msdyn_templatetags.md#BKMK_business_unit_msdyn_templatetags)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_templatetags`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_templatetags`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_timeentry"></a> business_unit_msdyn_timeentry
+
+Many-To-One Relationship: [msdyn_timeentry business_unit_msdyn_timeentry](msdyn_timeentry.md#BKMK_business_unit_msdyn_timeentry)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_timeentry`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_timeentry`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_timeentrysetting"></a> business_unit_msdyn_timeentrysetting
+
+Many-To-One Relationship: [msdyn_timeentrysetting business_unit_msdyn_timeentrysetting](msdyn_timeentrysetting.md#BKMK_business_unit_msdyn_timeentrysetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_timeentrysetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_timeentrysetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_timegroup"></a> business_unit_msdyn_timegroup
+
+Many-To-One Relationship: [msdyn_timegroup business_unit_msdyn_timegroup](msdyn_timegroup.md#BKMK_business_unit_msdyn_timegroup)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_timegroup`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_timegroup`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_timegroupdetail"></a> business_unit_msdyn_timegroupdetail
+
+Many-To-One Relationship: [msdyn_timegroupdetail business_unit_msdyn_timegroupdetail](msdyn_timegroupdetail.md#BKMK_business_unit_msdyn_timegroupdetail)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_timegroupdetail`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_timegroupdetail`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_timeoffrequest"></a> business_unit_msdyn_timeoffrequest
+
+Many-To-One Relationship: [msdyn_timeoffrequest business_unit_msdyn_timeoffrequest](msdyn_timeoffrequest.md#BKMK_business_unit_msdyn_timeoffrequest)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_timeoffrequest`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_timeoffrequest`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_timespent"></a> business_unit_msdyn_timespent
+
+Many-To-One Relationship: [msdyn_timespent business_unit_msdyn_timespent](msdyn_timespent.md#BKMK_business_unit_msdyn_timespent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_timespent`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_timespent`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_trade"></a> business_unit_msdyn_trade
+
+Many-To-One Relationship: [msdyn_trade business_unit_msdyn_trade](msdyn_trade.md#BKMK_business_unit_msdyn_trade)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_trade`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_trade`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_tradecoverage"></a> business_unit_msdyn_tradecoverage
+
+Many-To-One Relationship: [msdyn_tradecoverage business_unit_msdyn_tradecoverage](msdyn_tradecoverage.md#BKMK_business_unit_msdyn_tradecoverage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_tradecoverage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_tradecoverage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_trainingresult"></a> business_unit_msdyn_trainingresult
+
+Many-To-One Relationship: [msdyn_trainingresult business_unit_msdyn_trainingresult](msdyn_trainingresult.md#BKMK_business_unit_msdyn_trainingresult)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_trainingresult`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_trainingresult`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_transactionorigin"></a> business_unit_msdyn_transactionorigin
+
+Many-To-One Relationship: [msdyn_transactionorigin business_unit_msdyn_transactionorigin](msdyn_transactionorigin.md#BKMK_business_unit_msdyn_transactionorigin)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_transactionorigin`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_transactionorigin`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_transcript"></a> business_unit_msdyn_transcript
+
+Many-To-One Relationship: [msdyn_transcript business_unit_msdyn_transcript](msdyn_transcript.md#BKMK_business_unit_msdyn_transcript)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_transcript`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_transcript`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_twitterengagementctx"></a> business_unit_msdyn_twitterengagementctx
+
+Many-To-One Relationship: [msdyn_twitterengagementctx business_unit_msdyn_twitterengagementctx](msdyn_twitterengagementctx.md#BKMK_business_unit_msdyn_twitterengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_twitterengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_twitterengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_unifiedroutingdiagnostic"></a> business_unit_msdyn_unifiedroutingdiagnostic
+
+Many-To-One Relationship: [msdyn_unifiedroutingdiagnostic business_unit_msdyn_unifiedroutingdiagnostic](msdyn_unifiedroutingdiagnostic.md#BKMK_business_unit_msdyn_unifiedroutingdiagnostic)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_unifiedroutingdiagnostic`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_unifiedroutingdiagnostic`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_unifiedroutingrun"></a> business_unit_msdyn_unifiedroutingrun
+
+Many-To-One Relationship: [msdyn_unifiedroutingrun business_unit_msdyn_unifiedroutingrun](msdyn_unifiedroutingrun.md#BKMK_business_unit_msdyn_unifiedroutingrun)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_unifiedroutingrun`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_unifiedroutingrun`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_untrackedappointment"></a> business_unit_msdyn_untrackedappointment
+
+Many-To-One Relationship: [msdyn_untrackedappointment business_unit_msdyn_untrackedappointment](msdyn_untrackedappointment.md#BKMK_business_unit_msdyn_untrackedappointment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_untrackedappointment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_untrackedappointment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_urnotificationtemplate"></a> business_unit_msdyn_urnotificationtemplate
+
+Many-To-One Relationship: [msdyn_urnotificationtemplate business_unit_msdyn_urnotificationtemplate](msdyn_urnotificationtemplate.md#BKMK_business_unit_msdyn_urnotificationtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_urnotificationtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_urnotificationtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_urnotificationtemplatemapping"></a> business_unit_msdyn_urnotificationtemplatemapping
+
+Many-To-One Relationship: [msdyn_urnotificationtemplatemapping business_unit_msdyn_urnotificationtemplatemapping](msdyn_urnotificationtemplatemapping.md#BKMK_business_unit_msdyn_urnotificationtemplatemapping)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_urnotificationtemplatemapping`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_urnotificationtemplatemapping`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_visitorjourney"></a> business_unit_msdyn_visitorjourney
+
+Many-To-One Relationship: [msdyn_visitorjourney business_unit_msdyn_visitorjourney](msdyn_visitorjourney.md#BKMK_business_unit_msdyn_visitorjourney)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_visitorjourney`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_visitorjourney`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_vivacustomerlist"></a> business_unit_msdyn_vivacustomerlist
+
+Many-To-One Relationship: [msdyn_vivacustomerlist business_unit_msdyn_vivacustomerlist](msdyn_vivacustomerlist.md#BKMK_business_unit_msdyn_vivacustomerlist)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_vivacustomerlist`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_vivacustomerlist`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_vivausersetting"></a> business_unit_msdyn_vivausersetting
+
+Many-To-One Relationship: [msdyn_vivausersetting business_unit_msdyn_vivausersetting](msdyn_vivausersetting.md#BKMK_business_unit_msdyn_vivausersetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_vivausersetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_vivausersetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_voicechannelorganizationsetting"></a> business_unit_msdyn_voicechannelorganizationsetting
+
+Many-To-One Relationship: [msdyn_voicechannelorganizationsetting business_unit_msdyn_voicechannelorganizationsetting](msdyn_voicechannelorganizationsetting.md#BKMK_business_unit_msdyn_voicechannelorganizationsetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_voicechannelorganizationsetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_voicechannelorganizationsetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_wallsavedqueryusersettings"></a> business_unit_msdyn_wallsavedqueryusersettings
+
+Many-To-One Relationship: [msdyn_wallsavedqueryusersettings business_unit_msdyn_wallsavedqueryusersettings](msdyn_wallsavedqueryusersettings.md#BKMK_business_unit_msdyn_wallsavedqueryusersettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_wallsavedqueryusersettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_wallsavedqueryusersettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_warehouse"></a> business_unit_msdyn_warehouse
+
+Many-To-One Relationship: [msdyn_warehouse business_unit_msdyn_warehouse](msdyn_warehouse.md#BKMK_business_unit_msdyn_warehouse)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_warehouse`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_warehouse`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_warranty"></a> business_unit_msdyn_warranty
+
+Many-To-One Relationship: [msdyn_warranty business_unit_msdyn_warranty](msdyn_warranty.md#BKMK_business_unit_msdyn_warranty)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_warranty`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_warranty`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_wechatengagementctx"></a> business_unit_msdyn_wechatengagementctx
+
+Many-To-One Relationship: [msdyn_wechatengagementctx business_unit_msdyn_wechatengagementctx](msdyn_wechatengagementctx.md#BKMK_business_unit_msdyn_wechatengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_wechatengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_wechatengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_whatsappengagementctx"></a> business_unit_msdyn_whatsappengagementctx
+
+Many-To-One Relationship: [msdyn_whatsappengagementctx business_unit_msdyn_whatsappengagementctx](msdyn_whatsappengagementctx.md#BKMK_business_unit_msdyn_whatsappengagementctx)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_whatsappengagementctx`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_whatsappengagementctx`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_wkwconfig"></a> business_unit_msdyn_wkwconfig
+
+Many-To-One Relationship: [msdyn_wkwconfig business_unit_msdyn_wkwconfig](msdyn_wkwconfig.md#BKMK_business_unit_msdyn_wkwconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_wkwconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_wkwconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workhourtemplate"></a> business_unit_msdyn_workhourtemplate
+
+Many-To-One Relationship: [msdyn_workhourtemplate business_unit_msdyn_workhourtemplate](msdyn_workhourtemplate.md#BKMK_business_unit_msdyn_workhourtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workhourtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workhourtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workorder"></a> business_unit_msdyn_workorder
+
+Many-To-One Relationship: [msdyn_workorder business_unit_msdyn_workorder](msdyn_workorder.md#BKMK_business_unit_msdyn_workorder)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workorder`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workorder`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workordercharacteristic"></a> business_unit_msdyn_workordercharacteristic
+
+Many-To-One Relationship: [msdyn_workordercharacteristic business_unit_msdyn_workordercharacteristic](msdyn_workordercharacteristic.md#BKMK_business_unit_msdyn_workordercharacteristic)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workordercharacteristic`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workordercharacteristic`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workorderincident"></a> business_unit_msdyn_workorderincident
+
+Many-To-One Relationship: [msdyn_workorderincident business_unit_msdyn_workorderincident](msdyn_workorderincident.md#BKMK_business_unit_msdyn_workorderincident)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workorderincident`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workorderincident`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workordernte"></a> business_unit_msdyn_workordernte
+
+Many-To-One Relationship: [msdyn_workordernte business_unit_msdyn_workordernte](msdyn_workordernte.md#BKMK_business_unit_msdyn_workordernte)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workordernte`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workordernte`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workorderproduct"></a> business_unit_msdyn_workorderproduct
+
+Many-To-One Relationship: [msdyn_workorderproduct business_unit_msdyn_workorderproduct](msdyn_workorderproduct.md#BKMK_business_unit_msdyn_workorderproduct)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workorderproduct`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workorderproduct`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workorderresolution"></a> business_unit_msdyn_workorderresolution
+
+Many-To-One Relationship: [msdyn_workorderresolution business_unit_msdyn_workorderresolution](msdyn_workorderresolution.md#BKMK_business_unit_msdyn_workorderresolution)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workorderresolution`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workorderresolution`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workorderresourcerestriction"></a> business_unit_msdyn_workorderresourcerestriction
+
+Many-To-One Relationship: [msdyn_workorderresourcerestriction business_unit_msdyn_workorderresourcerestriction](msdyn_workorderresourcerestriction.md#BKMK_business_unit_msdyn_workorderresourcerestriction)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workorderresourcerestriction`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workorderresourcerestriction`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workorderservice"></a> business_unit_msdyn_workorderservice
+
+Many-To-One Relationship: [msdyn_workorderservice business_unit_msdyn_workorderservice](msdyn_workorderservice.md#BKMK_business_unit_msdyn_workorderservice)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workorderservice`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workorderservice`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workorderservicetask"></a> business_unit_msdyn_workorderservicetask
+
+Many-To-One Relationship: [msdyn_workorderservicetask business_unit_msdyn_workorderservicetask](msdyn_workorderservicetask.md#BKMK_business_unit_msdyn_workorderservicetask)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workorderservicetask`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workorderservicetask`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workordersubstatus"></a> business_unit_msdyn_workordersubstatus
+
+Many-To-One Relationship: [msdyn_workordersubstatus business_unit_msdyn_workordersubstatus](msdyn_workordersubstatus.md#BKMK_business_unit_msdyn_workordersubstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workordersubstatus`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workordersubstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workordertype"></a> business_unit_msdyn_workordertype
+
+Many-To-One Relationship: [msdyn_workordertype business_unit_msdyn_workordertype](msdyn_workordertype.md#BKMK_business_unit_msdyn_workordertype)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workordertype`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workordertype`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workqueuestate"></a> business_unit_msdyn_workqueuestate
+
+Many-To-One Relationship: [msdyn_workqueuestate business_unit_msdyn_workqueuestate](msdyn_workqueuestate.md#BKMK_business_unit_msdyn_workqueuestate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workqueuestate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workqueuestate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyn_workqueueusersetting"></a> business_unit_msdyn_workqueueusersetting
+
+Many-To-One Relationship: [msdyn_workqueueusersetting business_unit_msdyn_workqueueusersetting](msdyn_workqueueusersetting.md#BKMK_business_unit_msdyn_workqueueusersetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workqueueusersetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyn_workqueueusersetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_alternatekey"></a> business_unit_msdynci_alternatekey
+
+Many-To-One Relationship: [msdynci_alternatekey business_unit_msdynci_alternatekey](msdynci_alternatekey.md#BKMK_business_unit_msdynci_alternatekey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_alternatekey`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_alternatekey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_contactprofile"></a> business_unit_msdynci_contactprofile
+
+Many-To-One Relationship: [msdynci_contactprofile business_unit_msdynci_contactprofile](msdynci_contactprofile.md#BKMK_business_unit_msdynci_contactprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_contactprofile`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_contactprofile`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_customermeasure"></a> business_unit_msdynci_customermeasure
+
+Many-To-One Relationship: [msdynci_customermeasure business_unit_msdynci_customermeasure](msdynci_customermeasure.md#BKMK_business_unit_msdynci_customermeasure)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_customermeasure`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_customermeasure`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_customerprofile"></a> business_unit_msdynci_customerprofile
+
+Many-To-One Relationship: [msdynci_customerprofile business_unit_msdynci_customerprofile](msdynci_customerprofile.md#BKMK_business_unit_msdynci_customerprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_customerprofile`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_customerprofile`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_customerprofilesegment"></a> business_unit_msdynci_customerprofilesegment
+
+Many-To-One Relationship: [msdynci_customerprofilesegment business_unit_msdynci_customerprofilesegment](msdynci_customerprofilesegment.md#BKMK_business_unit_msdynci_customerprofilesegment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_customerprofilesegment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_customerprofilesegment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_enrichment"></a> business_unit_msdynci_enrichment
+
+Many-To-One Relationship: [msdynci_enrichment business_unit_msdynci_enrichment](msdynci_enrichment.md#BKMK_business_unit_msdynci_enrichment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_enrichment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_enrichment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_personalizationaction"></a> business_unit_msdynci_personalizationaction
+
+Many-To-One Relationship: [msdynci_personalizationaction business_unit_msdynci_personalizationaction](msdynci_personalizationaction.md#BKMK_business_unit_msdynci_personalizationaction)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_personalizationaction`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_personalizationaction`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_personalizationcookie"></a> business_unit_msdynci_personalizationcookie
+
+Many-To-One Relationship: [msdynci_personalizationcookie business_unit_msdynci_personalizationcookie](msdynci_personalizationcookie.md#BKMK_business_unit_msdynci_personalizationcookie)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_personalizationcookie`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_personalizationcookie`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_personalizationuser"></a> business_unit_msdynci_personalizationuser
+
+Many-To-One Relationship: [msdynci_personalizationuser business_unit_msdynci_personalizationuser](msdynci_personalizationuser.md#BKMK_business_unit_msdynci_personalizationuser)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_personalizationuser`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_personalizationuser`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_personalizationview"></a> business_unit_msdynci_personalizationview
+
+Many-To-One Relationship: [msdynci_personalizationview business_unit_msdynci_personalizationview](msdynci_personalizationview.md#BKMK_business_unit_msdynci_personalizationview)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_personalizationview`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_personalizationview`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_prediction"></a> business_unit_msdynci_prediction
+
+Many-To-One Relationship: [msdynci_prediction business_unit_msdynci_prediction](msdynci_prediction.md#BKMK_business_unit_msdynci_prediction)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_prediction`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_prediction`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_segmentmembership"></a> business_unit_msdynci_segmentmembership
+
+Many-To-One Relationship: [msdynci_segmentmembership business_unit_msdynci_segmentmembership](msdynci_segmentmembership.md#BKMK_business_unit_msdynci_segmentmembership)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_segmentmembership`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_segmentmembership`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_unifiedactivity"></a> business_unit_msdynci_unifiedactivity
+
+Many-To-One Relationship: [msdynci_unifiedactivity business_unit_msdynci_unifiedactivity](msdynci_unifiedactivity.md#BKMK_business_unit_msdynci_unifiedactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_unifiedactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_unifiedactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_unifiedcontact_alternatekey"></a> business_unit_msdynci_unifiedcontact_alternatekey
+
+Many-To-One Relationship: [msdynci_unifiedcontact_alternatekey business_unit_msdynci_unifiedcontact_alternatekey](msdynci_unifiedcontact_alternatekey.md#BKMK_business_unit_msdynci_unifiedcontact_alternatekey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_unifiedcontact_alternatekey`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_unifiedcontact_alternatekey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_unifiedcontactprofile"></a> business_unit_msdynci_unifiedcontactprofile
+
+Many-To-One Relationship: [msdynci_unifiedcontactprofile business_unit_msdynci_unifiedcontactprofile](msdynci_unifiedcontactprofile.md#BKMK_business_unit_msdynci_unifiedcontactprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_unifiedcontactprofile`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_unifiedcontactprofile`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynci_unifiedcontactsegment"></a> business_unit_msdynci_unifiedcontactsegment
+
+Many-To-One Relationship: [msdynci_unifiedcontactsegment business_unit_msdynci_unifiedcontactsegment](msdynci_unifiedcontactsegment.md#BKMK_business_unit_msdynci_unifiedcontactsegment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynci_unifiedcontactsegment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynci_unifiedcontactsegment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_addtocalendarstyle"></a> business_unit_msdyncrm_addtocalendarstyle
+
+Many-To-One Relationship: [msdyncrm_addtocalendarstyle business_unit_msdyncrm_addtocalendarstyle](msdyncrm_addtocalendarstyle.md#BKMK_business_unit_msdyncrm_addtocalendarstyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_addtocalendarstyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_addtocalendarstyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_appointmentactivity"></a> business_unit_msdyncrm_appointmentactivity
+
+Many-To-One Relationship: [msdyncrm_appointmentactivity business_unit_msdyncrm_appointmentactivity](msdyncrm_appointmentactivity.md#BKMK_business_unit_msdyncrm_appointmentactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_appointmentactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_appointmentactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_appointmentactivitymarketingtemplate"></a> business_unit_msdyncrm_appointmentactivitymarketingtemplate
+
+Many-To-One Relationship: [msdyncrm_appointmentactivitymarketingtemplate business_unit_msdyncrm_appointmentactivitymarketingtemplate](msdyncrm_appointmentactivitymarketingtemplate.md#BKMK_business_unit_msdyncrm_appointmentactivitymarketingtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_appointmentactivitymarketingtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_appointmentactivitymarketingtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_basestyle"></a> business_unit_msdyncrm_basestyle
+
+Many-To-One Relationship: [msdyncrm_basestyle business_unit_msdyncrm_basestyle](msdyncrm_basestyle.md#BKMK_business_unit_msdyncrm_basestyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_basestyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_basestyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_buttonstyle"></a> business_unit_msdyncrm_buttonstyle
+
+Many-To-One Relationship: [msdyncrm_buttonstyle business_unit_msdyncrm_buttonstyle](msdyncrm_buttonstyle.md#BKMK_business_unit_msdyncrm_buttonstyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_buttonstyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_buttonstyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_cdnconfiguration"></a> business_unit_msdyncrm_cdnconfiguration
+
+Many-To-One Relationship: [msdyncrm_cdnconfiguration business_unit_msdyncrm_cdnconfiguration](msdyncrm_cdnconfiguration.md#BKMK_business_unit_msdyncrm_cdnconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_cdnconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_cdnconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_cdsaconnectorconfiguration"></a> business_unit_msdyncrm_cdsaconnectorconfiguration
+
+Many-To-One Relationship: [msdyncrm_cdsaconnectorconfiguration business_unit_msdyncrm_cdsaconnectorconfiguration](msdyncrm_cdsaconnectorconfiguration.md#BKMK_business_unit_msdyncrm_cdsaconnectorconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_cdsaconnectorconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_cdsaconnectorconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_codestyle"></a> business_unit_msdyncrm_codestyle
+
+Many-To-One Relationship: [msdyncrm_codestyle business_unit_msdyncrm_codestyle](msdyncrm_codestyle.md#BKMK_business_unit_msdyncrm_codestyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_codestyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_codestyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_columnstyle"></a> business_unit_msdyncrm_columnstyle
+
+Many-To-One Relationship: [msdyncrm_columnstyle business_unit_msdyncrm_columnstyle](msdyncrm_columnstyle.md#BKMK_business_unit_msdyncrm_columnstyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_columnstyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_columnstyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_contentblock"></a> business_unit_msdyncrm_contentblock
+
+Many-To-One Relationship: [msdyncrm_contentblock business_unit_msdyncrm_contentblock](msdyncrm_contentblock.md#BKMK_business_unit_msdyncrm_contentblock)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_contentblock`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_contentblock`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_contentblockstyle"></a> business_unit_msdyncrm_contentblockstyle
+
+Many-To-One Relationship: [msdyncrm_contentblockstyle business_unit_msdyncrm_contentblockstyle](msdyncrm_contentblockstyle.md#BKMK_business_unit_msdyncrm_contentblockstyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_contentblockstyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_contentblockstyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_contentsettings"></a> business_unit_msdyncrm_contentsettings
+
+Many-To-One Relationship: [msdyncrm_contentsettings business_unit_msdyncrm_contentsettings](msdyncrm_contentsettings.md#BKMK_business_unit_msdyncrm_contentsettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_contentsettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_contentsettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_createleadactivity"></a> business_unit_msdyncrm_createleadactivity
+
+Many-To-One Relationship: [msdyncrm_createleadactivity business_unit_msdyncrm_createleadactivity](msdyncrm_createleadactivity.md#BKMK_business_unit_msdyncrm_createleadactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_createleadactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_createleadactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_customerinsightsinfo"></a> business_unit_msdyncrm_customerinsightsinfo
+
+Many-To-One Relationship: [msdyncrm_customerinsightsinfo business_unit_msdyncrm_customerinsightsinfo](msdyncrm_customerinsightsinfo.md#BKMK_business_unit_msdyncrm_customerinsightsinfo)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_customerinsightsinfo`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_customerinsightsinfo`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_customerjourney"></a> business_unit_msdyncrm_customerjourney
+
+Many-To-One Relationship: [msdyncrm_customerjourney business_unit_msdyncrm_customerjourney](msdyncrm_customerjourney.md#BKMK_business_unit_msdyncrm_customerjourney)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_customerjourney`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_customerjourney`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_customerjourneycustomchannelactivity"></a> business_unit_msdyncrm_customerjourneycustomchannelactivity
+
+Many-To-One Relationship: [msdyncrm_customerjourneycustomchannelactivity business_unit_msdyncrm_customerjourneycustomchannelactivity](msdyncrm_customerjourneycustomchannelactivity.md#BKMK_business_unit_msdyncrm_customerjourneycustomchannelactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_customerjourneycustomchannelactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_customerjourneycustomchannelactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_customerjourneyiteration"></a> business_unit_msdyncrm_customerjourneyiteration
+
+Many-To-One Relationship: [msdyncrm_customerjourneyiteration business_unit_msdyncrm_customerjourneyiteration](msdyncrm_customerjourneyiteration.md#BKMK_business_unit_msdyncrm_customerjourneyiteration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_customerjourneyiteration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_customerjourneyiteration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_customerjourneyruntimestate"></a> business_unit_msdyncrm_customerjourneyruntimestate
+
+Many-To-One Relationship: [msdyncrm_customerjourneyruntimestate business_unit_msdyncrm_customerjourneyruntimestate](msdyncrm_customerjourneyruntimestate.md#BKMK_business_unit_msdyncrm_customerjourneyruntimestate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_customerjourneyruntimestate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_customerjourneyruntimestate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_customerjourneytemplate"></a> business_unit_msdyncrm_customerjourneytemplate
+
+Many-To-One Relationship: [msdyncrm_customerjourneytemplate business_unit_msdyncrm_customerjourneytemplate](msdyncrm_customerjourneytemplate.md#BKMK_business_unit_msdyncrm_customerjourneytemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_customerjourneytemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_customerjourneytemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_customerjourneyworkflowlink"></a> business_unit_msdyncrm_customerjourneyworkflowlink
+
+Many-To-One Relationship: [msdyncrm_customerjourneyworkflowlink business_unit_msdyncrm_customerjourneyworkflowlink](msdyncrm_customerjourneyworkflowlink.md#BKMK_business_unit_msdyncrm_customerjourneyworkflowlink)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_customerjourneyworkflowlink`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_customerjourneyworkflowlink`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_defaultmarketingsetting"></a> business_unit_msdyncrm_defaultmarketingsetting
+
+Many-To-One Relationship: [msdyncrm_defaultmarketingsetting business_unit_msdyncrm_defaultmarketingsetting](msdyncrm_defaultmarketingsetting.md#BKMK_business_unit_msdyncrm_defaultmarketingsetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_defaultmarketingsetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_defaultmarketingsetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_deprecatedcustomtileactivity"></a> business_unit_msdyncrm_deprecatedcustomtileactivity
+
+Many-To-One Relationship: [msdyncrm_deprecatedcustomtileactivity business_unit_msdyncrm_deprecatedcustomtileactivity](msdyncrm_deprecatedcustomtileactivity.md#BKMK_business_unit_msdyncrm_deprecatedcustomtileactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_deprecatedcustomtileactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_deprecatedcustomtileactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_deprecatedeventactivity"></a> business_unit_msdyncrm_deprecatedeventactivity
+
+Many-To-One Relationship: [msdyncrm_deprecatedeventactivity business_unit_msdyncrm_deprecatedeventactivity](msdyncrm_deprecatedeventactivity.md#BKMK_business_unit_msdyncrm_deprecatedeventactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_deprecatedeventactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_deprecatedeventactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_deprecatedformsprosurveyactivity"></a> business_unit_msdyncrm_deprecatedformsprosurveyactivity
+
+Many-To-One Relationship: [msdyncrm_deprecatedformsprosurveyactivity business_unit_msdyncrm_deprecatedformsprosurveyactivity](msdyncrm_deprecatedformsprosurveyactivity.md#BKMK_business_unit_msdyncrm_deprecatedformsprosurveyactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_deprecatedformsprosurveyactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_deprecatedformsprosurveyactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_deprecatedpageactivity"></a> business_unit_msdyncrm_deprecatedpageactivity
+
+Many-To-One Relationship: [msdyncrm_deprecatedpageactivity business_unit_msdyncrm_deprecatedpageactivity](msdyncrm_deprecatedpageactivity.md#BKMK_business_unit_msdyncrm_deprecatedpageactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_deprecatedpageactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_deprecatedpageactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_designerfeatureavailability"></a> business_unit_msdyncrm_designerfeatureavailability
+
+Many-To-One Relationship: [msdyncrm_designerfeatureavailability business_unit_msdyncrm_designerfeatureavailability](msdyncrm_designerfeatureavailability.md#BKMK_business_unit_msdyncrm_designerfeatureavailability)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_designerfeatureavailability`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_designerfeatureavailability`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_dividerstyle"></a> business_unit_msdyncrm_dividerstyle
+
+Many-To-One Relationship: [msdyncrm_dividerstyle business_unit_msdyncrm_dividerstyle](msdyncrm_dividerstyle.md#BKMK_business_unit_msdyncrm_dividerstyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_dividerstyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_dividerstyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_emailkeypoint"></a> business_unit_msdyncrm_emailkeypoint
+
+Many-To-One Relationship: [msdyncrm_emailkeypoint business_unit_msdyncrm_emailkeypoint](msdyncrm_emailkeypoint.md#BKMK_business_unit_msdyncrm_emailkeypoint)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_emailkeypoint`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_emailkeypoint`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_featureconfiguration"></a> business_unit_msdyncrm_featureconfiguration
+
+Many-To-One Relationship: [msdyncrm_featureconfiguration business_unit_msdyncrm_featureconfiguration](msdyncrm_featureconfiguration.md#BKMK_business_unit_msdyncrm_featureconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_featureconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_featureconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_file"></a> business_unit_msdyncrm_file
+
+Many-To-One Relationship: [msdyncrm_file business_unit_msdyncrm_file](msdyncrm_file.md#BKMK_business_unit_msdyncrm_file)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_file`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_file`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_formpage"></a> business_unit_msdyncrm_formpage
+
+Many-To-One Relationship: [msdyncrm_formpage business_unit_msdyncrm_formpage](msdyncrm_formpage.md#BKMK_business_unit_msdyncrm_formpage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_formpage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_formpage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_formpagetemplate"></a> business_unit_msdyncrm_formpagetemplate
+
+Many-To-One Relationship: [msdyncrm_formpagetemplate business_unit_msdyncrm_formpagetemplate](msdyncrm_formpagetemplate.md#BKMK_business_unit_msdyncrm_formpagetemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_formpagetemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_formpagetemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_generalstyles"></a> business_unit_msdyncrm_generalstyles
+
+Many-To-One Relationship: [msdyncrm_generalstyles business_unit_msdyncrm_generalstyles](msdyncrm_generalstyles.md#BKMK_business_unit_msdyncrm_generalstyles)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_generalstyles`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_generalstyles`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_geopin"></a> business_unit_msdyncrm_geopin
+
+Many-To-One Relationship: [msdyncrm_geopin business_unit_msdyncrm_geopin](msdyncrm_geopin.md#BKMK_business_unit_msdyncrm_geopin)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_geopin`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_geopin`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_gpt3log"></a> business_unit_msdyncrm_gpt3log
+
+Many-To-One Relationship: [msdyncrm_gpt3log business_unit_msdyncrm_gpt3log](msdyncrm_gpt3log.md#BKMK_business_unit_msdyncrm_gpt3log)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_gpt3log`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_gpt3log`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_gwennolfeatureconfiguration"></a> business_unit_msdyncrm_gwennolfeatureconfiguration
+
+Many-To-One Relationship: [msdyncrm_gwennolfeatureconfiguration business_unit_msdyncrm_gwennolfeatureconfiguration](msdyncrm_gwennolfeatureconfiguration.md#BKMK_business_unit_msdyncrm_gwennolfeatureconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_gwennolfeatureconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_gwennolfeatureconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_gwennolspamscoreactivity"></a> business_unit_msdyncrm_gwennolspamscoreactivity
+
+Many-To-One Relationship: [msdyncrm_gwennolspamscoreactivity business_unit_msdyncrm_gwennolspamscoreactivity](msdyncrm_gwennolspamscoreactivity.md#BKMK_business_unit_msdyncrm_gwennolspamscoreactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_gwennolspamscoreactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_gwennolspamscoreactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_gwennolspamscorerequest"></a> business_unit_msdyncrm_gwennolspamscorerequest
+
+Many-To-One Relationship: [msdyncrm_gwennolspamscorerequest business_unit_msdyncrm_gwennolspamscorerequest](msdyncrm_gwennolspamscorerequest.md#BKMK_business_unit_msdyncrm_gwennolspamscorerequest)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_gwennolspamscorerequest`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_gwennolspamscorerequest`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_imagestyle"></a> business_unit_msdyncrm_imagestyle
+
+Many-To-One Relationship: [msdyncrm_imagestyle business_unit_msdyncrm_imagestyle](msdyncrm_imagestyle.md#BKMK_business_unit_msdyncrm_imagestyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_imagestyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_imagestyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_keyword"></a> business_unit_msdyncrm_keyword
+
+Many-To-One Relationship: [msdyncrm_keyword business_unit_msdyncrm_keyword](msdyncrm_keyword.md#BKMK_business_unit_msdyncrm_keyword)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_keyword`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_keyword`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_launchworkflowactivity"></a> business_unit_msdyncrm_launchworkflowactivity
+
+Many-To-One Relationship: [msdyncrm_launchworkflowactivity business_unit_msdyncrm_launchworkflowactivity](msdyncrm_launchworkflowactivity.md#BKMK_business_unit_msdyncrm_launchworkflowactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_launchworkflowactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_launchworkflowactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_layoutstyle"></a> business_unit_msdyncrm_layoutstyle
+
+Many-To-One Relationship: [msdyncrm_layoutstyle business_unit_msdyncrm_layoutstyle](msdyncrm_layoutstyle.md#BKMK_business_unit_msdyncrm_layoutstyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_layoutstyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_layoutstyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_leadscore"></a> business_unit_msdyncrm_leadscore
+
+Many-To-One Relationship: [msdyncrm_leadscore business_unit_msdyncrm_leadscore](msdyncrm_leadscore.md#BKMK_business_unit_msdyncrm_leadscore)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_leadscore`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_leadscore`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_leadscore_v2"></a> business_unit_msdyncrm_leadscore_v2
+
+Many-To-One Relationship: [msdyncrm_leadscore_v2 business_unit_msdyncrm_leadscore_v2](msdyncrm_leadscore_v2.md#BKMK_business_unit_msdyncrm_leadscore_v2)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_leadscore_v2`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_leadscore_v2`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_leadscoremodel"></a> business_unit_msdyncrm_leadscoremodel
+
+Many-To-One Relationship: [msdyncrm_leadscoremodel business_unit_msdyncrm_leadscoremodel](msdyncrm_leadscoremodel.md#BKMK_business_unit_msdyncrm_leadscoremodel)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_leadscoremodel`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_leadscoremodel`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_linkedinaccount"></a> business_unit_msdyncrm_linkedinaccount
+
+Many-To-One Relationship: [msdyncrm_linkedinaccount business_unit_msdyncrm_linkedinaccount](msdyncrm_linkedinaccount.md#BKMK_business_unit_msdyncrm_linkedinaccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_linkedinaccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_linkedinaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_linkedinactivity"></a> business_unit_msdyncrm_linkedinactivity
+
+Many-To-One Relationship: [msdyncrm_linkedinactivity business_unit_msdyncrm_linkedinactivity](msdyncrm_linkedinactivity.md#BKMK_business_unit_msdyncrm_linkedinactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_linkedinactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_linkedinactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_linkedinaudience"></a> business_unit_msdyncrm_linkedinaudience
+
+Many-To-One Relationship: [msdyncrm_linkedinaudience business_unit_msdyncrm_linkedinaudience](msdyncrm_linkedinaudience.md#BKMK_business_unit_msdyncrm_linkedinaudience)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_linkedinaudience`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_linkedinaudience`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_linkedincampaign"></a> business_unit_msdyncrm_linkedincampaign
+
+Many-To-One Relationship: [msdyncrm_linkedincampaign business_unit_msdyncrm_linkedincampaign](msdyncrm_linkedincampaign.md#BKMK_business_unit_msdyncrm_linkedincampaign)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_linkedincampaign`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_linkedincampaign`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_linkedincampaignactivity"></a> business_unit_msdyncrm_linkedincampaignactivity
+
+Many-To-One Relationship: [msdyncrm_linkedincampaignactivity business_unit_msdyncrm_linkedincampaignactivity](msdyncrm_linkedincampaignactivity.md#BKMK_business_unit_msdyncrm_linkedincampaignactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_linkedincampaignactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_linkedincampaignactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_linkedinconfiguration"></a> business_unit_msdyncrm_linkedinconfiguration
+
+Many-To-One Relationship: [msdyncrm_linkedinconfiguration business_unit_msdyncrm_linkedinconfiguration](msdyncrm_linkedinconfiguration.md#BKMK_business_unit_msdyncrm_linkedinconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_linkedinconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_linkedinconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_linkedinfieldmapping"></a> business_unit_msdyncrm_linkedinfieldmapping
+
+Many-To-One Relationship: [msdyncrm_linkedinfieldmapping business_unit_msdyncrm_linkedinfieldmapping](msdyncrm_linkedinfieldmapping.md#BKMK_business_unit_msdyncrm_linkedinfieldmapping)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_linkedinfieldmapping`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_linkedinfieldmapping`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_linkedinform"></a> business_unit_msdyncrm_linkedinform
+
+Many-To-One Relationship: [msdyncrm_linkedinform business_unit_msdyncrm_linkedinform](msdyncrm_linkedinform.md#BKMK_business_unit_msdyncrm_linkedinform)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_linkedinform`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_linkedinform`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_linkedinformanswer"></a> business_unit_msdyncrm_linkedinformanswer
+
+Many-To-One Relationship: [msdyncrm_linkedinformanswer business_unit_msdyncrm_linkedinformanswer](msdyncrm_linkedinformanswer.md#BKMK_business_unit_msdyncrm_linkedinformanswer)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_linkedinformanswer`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_linkedinformanswer`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_linkedinformquestion"></a> business_unit_msdyncrm_linkedinformquestion
+
+Many-To-One Relationship: [msdyncrm_linkedinformquestion business_unit_msdyncrm_linkedinformquestion](msdyncrm_linkedinformquestion.md#BKMK_business_unit_msdyncrm_linkedinformquestion)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_linkedinformquestion`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_linkedinformquestion`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_linkedinformsubmission"></a> business_unit_msdyncrm_linkedinformsubmission
+
+Many-To-One Relationship: [msdyncrm_linkedinformsubmission business_unit_msdyncrm_linkedinformsubmission](msdyncrm_linkedinformsubmission.md#BKMK_business_unit_msdyncrm_linkedinformsubmission)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_linkedinformsubmission`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_linkedinformsubmission`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_linkedinleadmatchingstrategy"></a> business_unit_msdyncrm_linkedinleadmatchingstrategy
+
+Many-To-One Relationship: [msdyncrm_linkedinleadmatchingstrategy business_unit_msdyncrm_linkedinleadmatchingstrategy](msdyncrm_linkedinleadmatchingstrategy.md#BKMK_business_unit_msdyncrm_linkedinleadmatchingstrategy)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_linkedinleadmatchingstrategy`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_linkedinleadmatchingstrategy`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_linkedinuserprofile"></a> business_unit_msdyncrm_linkedinuserprofile
+
+Many-To-One Relationship: [msdyncrm_linkedinuserprofile business_unit_msdyncrm_linkedinuserprofile](msdyncrm_linkedinuserprofile.md#BKMK_business_unit_msdyncrm_linkedinuserprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_linkedinuserprofile`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_linkedinuserprofile`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_listform"></a> business_unit_msdyncrm_listform
+
+Many-To-One Relationship: [msdyncrm_listform business_unit_msdyncrm_listform](msdyncrm_listform.md#BKMK_business_unit_msdyncrm_listform)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_listform`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_listform`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_liveentitydependency"></a> business_unit_msdyncrm_liveentitydependency
+
+Many-To-One Relationship: [msdyncrm_liveentitydependency business_unit_msdyncrm_liveentitydependency](msdyncrm_liveentitydependency.md#BKMK_business_unit_msdyncrm_liveentitydependency)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_liveentitydependency`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_liveentitydependency`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingdataimport"></a> business_unit_msdyncrm_marketingdataimport
+
+Many-To-One Relationship: [msdyncrm_marketingdataimport business_unit_msdyncrm_marketingdataimport](msdyncrm_marketingdataimport.md#BKMK_business_unit_msdyncrm_marketingdataimport)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingdataimport`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingdataimport`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingdynamiccontentmetadata"></a> business_unit_msdyncrm_marketingdynamiccontentmetadata
+
+Many-To-One Relationship: [msdyncrm_marketingdynamiccontentmetadata business_unit_msdyncrm_marketingdynamiccontentmetadata](msdyncrm_marketingdynamiccontentmetadata.md#BKMK_business_unit_msdyncrm_marketingdynamiccontentmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingdynamiccontentmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingdynamiccontentmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingemail"></a> business_unit_msdyncrm_marketingemail
+
+Many-To-One Relationship: [msdyncrm_marketingemail business_unit_msdyncrm_marketingemail](msdyncrm_marketingemail.md#BKMK_business_unit_msdyncrm_marketingemail)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingemail`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingemail`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingemailactivity"></a> business_unit_msdyncrm_marketingemailactivity
+
+Many-To-One Relationship: [msdyncrm_marketingemailactivity business_unit_msdyncrm_marketingemailactivity](msdyncrm_marketingemailactivity.md#BKMK_business_unit_msdyncrm_marketingemailactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingemailactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingemailactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingemaildynamiccontentmetadata"></a> business_unit_msdyncrm_marketingemaildynamiccontentmetadata
+
+Many-To-One Relationship: [msdyncrm_marketingemaildynamiccontentmetadata business_unit_msdyncrm_marketingemaildynamiccontentmetadata](msdyncrm_marketingemaildynamiccontentmetadata.md#BKMK_business_unit_msdyncrm_marketingemaildynamiccontentmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingemaildynamiccontentmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingemaildynamiccontentmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingemailtemplate"></a> business_unit_msdyncrm_marketingemailtemplate
+
+Many-To-One Relationship: [msdyncrm_marketingemailtemplate business_unit_msdyncrm_marketingemailtemplate](msdyncrm_marketingemailtemplate.md#BKMK_business_unit_msdyncrm_marketingemailtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingemailtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingemailtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingemailtest"></a> business_unit_msdyncrm_marketingemailtest
+
+Many-To-One Relationship: [msdyncrm_marketingemailtest business_unit_msdyncrm_marketingemailtest](msdyncrm_marketingemailtest.md#BKMK_business_unit_msdyncrm_marketingemailtest)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingemailtest`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingemailtest`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingemailtestattribute"></a> business_unit_msdyncrm_marketingemailtestattribute
+
+Many-To-One Relationship: [msdyncrm_marketingemailtestattribute business_unit_msdyncrm_marketingemailtestattribute](msdyncrm_marketingemailtestattribute.md#BKMK_business_unit_msdyncrm_marketingemailtestattribute)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingemailtestattribute`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingemailtestattribute`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingemailtestsend"></a> business_unit_msdyncrm_marketingemailtestsend
+
+Many-To-One Relationship: [msdyncrm_marketingemailtestsend business_unit_msdyncrm_marketingemailtestsend](msdyncrm_marketingemailtestsend.md#BKMK_business_unit_msdyncrm_marketingemailtestsend)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingemailtestsend`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingemailtestsend`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingfieldsubmission"></a> business_unit_msdyncrm_marketingfieldsubmission
+
+Many-To-One Relationship: [msdyncrm_marketingfieldsubmission business_unit_msdyncrm_marketingfieldsubmission](msdyncrm_marketingfieldsubmission.md#BKMK_business_unit_msdyncrm_marketingfieldsubmission)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingfieldsubmission`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingfieldsubmission`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingform"></a> business_unit_msdyncrm_marketingform
+
+Many-To-One Relationship: [msdyncrm_marketingform business_unit_msdyncrm_marketingform](msdyncrm_marketingform.md#BKMK_business_unit_msdyncrm_marketingform)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingform`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingform`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingformactivity"></a> business_unit_msdyncrm_marketingformactivity
+
+Many-To-One Relationship: [msdyncrm_marketingformactivity business_unit_msdyncrm_marketingformactivity](msdyncrm_marketingformactivity.md#BKMK_business_unit_msdyncrm_marketingformactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingformactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingformactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingformfield"></a> business_unit_msdyncrm_marketingformfield
+
+Many-To-One Relationship: [msdyncrm_marketingformfield business_unit_msdyncrm_marketingformfield](msdyncrm_marketingformfield.md#BKMK_business_unit_msdyncrm_marketingformfield)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingformfield`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingformfield`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingformsubmission"></a> business_unit_msdyncrm_marketingformsubmission
+
+Many-To-One Relationship: [msdyncrm_marketingformsubmission business_unit_msdyncrm_marketingformsubmission](msdyncrm_marketingformsubmission.md#BKMK_business_unit_msdyncrm_marketingformsubmission)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingformsubmission`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingformsubmission`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingformtemplate"></a> business_unit_msdyncrm_marketingformtemplate
+
+Many-To-One Relationship: [msdyncrm_marketingformtemplate business_unit_msdyncrm_marketingformtemplate](msdyncrm_marketingformtemplate.md#BKMK_business_unit_msdyncrm_marketingformtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingformtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingformtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingformwhitelistrule"></a> business_unit_msdyncrm_marketingformwhitelistrule
+
+Many-To-One Relationship: [msdyncrm_marketingformwhitelistrule business_unit_msdyncrm_marketingformwhitelistrule](msdyncrm_marketingformwhitelistrule.md#BKMK_business_unit_msdyncrm_marketingformwhitelistrule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingformwhitelistrule`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingformwhitelistrule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingpage"></a> business_unit_msdyncrm_marketingpage
+
+Many-To-One Relationship: [msdyncrm_marketingpage business_unit_msdyncrm_marketingpage](msdyncrm_marketingpage.md#BKMK_business_unit_msdyncrm_marketingpage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingpage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingpage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_marketingpagetemplate"></a> business_unit_msdyncrm_marketingpagetemplate
+
+Many-To-One Relationship: [msdyncrm_marketingpagetemplate business_unit_msdyncrm_marketingpagetemplate](msdyncrm_marketingpagetemplate.md#BKMK_business_unit_msdyncrm_marketingpagetemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_marketingpagetemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_marketingpagetemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_matchingstrategyattribute"></a> business_unit_msdyncrm_matchingstrategyattribute
+
+Many-To-One Relationship: [msdyncrm_matchingstrategyattribute business_unit_msdyncrm_matchingstrategyattribute](msdyncrm_matchingstrategyattribute.md#BKMK_business_unit_msdyncrm_matchingstrategyattribute)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_matchingstrategyattribute`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_matchingstrategyattribute`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_migration"></a> business_unit_msdyncrm_migration
+
+Many-To-One Relationship: [msdyncrm_migration business_unit_msdyncrm_migration](msdyncrm_migration.md#BKMK_business_unit_msdyncrm_migration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_migration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_migration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_mktactivity"></a> business_unit_msdyncrm_mktactivity
+
+Many-To-One Relationship: [msdyncrm_mktactivity business_unit_msdyncrm_mktactivity](msdyncrm_mktactivity.md#BKMK_business_unit_msdyncrm_mktactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_mktactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_mktactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_networkpage"></a> business_unit_msdyncrm_networkpage
+
+Many-To-One Relationship: [msdyncrm_networkpage business_unit_msdyncrm_networkpage](msdyncrm_networkpage.md#BKMK_business_unit_msdyncrm_networkpage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_networkpage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_networkpage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_personalizedpage"></a> business_unit_msdyncrm_personalizedpage
+
+Many-To-One Relationship: [msdyncrm_personalizedpage business_unit_msdyncrm_personalizedpage](msdyncrm_personalizedpage.md#BKMK_business_unit_msdyncrm_personalizedpage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_personalizedpage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_personalizedpage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_personalizedpagefield"></a> business_unit_msdyncrm_personalizedpagefield
+
+Many-To-One Relationship: [msdyncrm_personalizedpagefield business_unit_msdyncrm_personalizedpagefield](msdyncrm_personalizedpagefield.md#BKMK_business_unit_msdyncrm_personalizedpagefield)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_personalizedpagefield`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_personalizedpagefield`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_phonecallactivity"></a> business_unit_msdyncrm_phonecallactivity
+
+Many-To-One Relationship: [msdyncrm_phonecallactivity business_unit_msdyncrm_phonecallactivity](msdyncrm_phonecallactivity.md#BKMK_business_unit_msdyncrm_phonecallactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_phonecallactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_phonecallactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_phonecallactivitymarketingtemplate"></a> business_unit_msdyncrm_phonecallactivitymarketingtemplate
+
+Many-To-One Relationship: [msdyncrm_phonecallactivitymarketingtemplate business_unit_msdyncrm_phonecallactivitymarketingtemplate](msdyncrm_phonecallactivitymarketingtemplate.md#BKMK_business_unit_msdyncrm_phonecallactivitymarketingtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_phonecallactivitymarketingtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_phonecallactivitymarketingtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_postingishts"></a> business_unit_msdyncrm_postingishts
+
+Many-To-One Relationship: [msdyncrm_postingishts business_unit_msdyncrm_postingishts](msdyncrm_postingishts.md#BKMK_business_unit_msdyncrm_postingishts)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_postingishts`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_postingishts`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_qrcodestyle"></a> business_unit_msdyncrm_qrcodestyle
+
+Many-To-One Relationship: [msdyncrm_qrcodestyle business_unit_msdyncrm_qrcodestyle](msdyncrm_qrcodestyle.md#BKMK_business_unit_msdyncrm_qrcodestyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_qrcodestyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_qrcodestyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_quicksendemail"></a> business_unit_msdyncrm_quicksendemail
+
+Many-To-One Relationship: [msdyncrm_quicksendemail business_unit_msdyncrm_quicksendemail](msdyncrm_quicksendemail.md#BKMK_business_unit_msdyncrm_quicksendemail)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_quicksendemail`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_quicksendemail`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_reaction"></a> business_unit_msdyncrm_reaction
+
+Many-To-One Relationship: [msdyncrm_reaction business_unit_msdyncrm_reaction](msdyncrm_reaction.md#BKMK_business_unit_msdyncrm_reaction)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_reaction`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_reaction`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_recordupdateactivity"></a> business_unit_msdyncrm_recordupdateactivity
+
+Many-To-One Relationship: [msdyncrm_recordupdateactivity business_unit_msdyncrm_recordupdateactivity](msdyncrm_recordupdateactivity.md#BKMK_business_unit_msdyncrm_recordupdateactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_recordupdateactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_recordupdateactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_redirecturl"></a> business_unit_msdyncrm_redirecturl
+
+Many-To-One Relationship: [msdyncrm_redirecturl business_unit_msdyncrm_redirecturl](msdyncrm_redirecturl.md#BKMK_business_unit_msdyncrm_redirecturl)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_redirecturl`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_redirecturl`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_segment"></a> business_unit_msdyncrm_segment
+
+Many-To-One Relationship: [msdyncrm_segment business_unit_msdyncrm_segment](msdyncrm_segment.md#BKMK_business_unit_msdyncrm_segment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_segment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_segment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_segmentactivity"></a> business_unit_msdyncrm_segmentactivity
+
+Many-To-One Relationship: [msdyncrm_segmentactivity business_unit_msdyncrm_segmentactivity](msdyncrm_segmentactivity.md#BKMK_business_unit_msdyncrm_segmentactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_segmentactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_segmentactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_segmenttemplate"></a> business_unit_msdyncrm_segmenttemplate
+
+Many-To-One Relationship: [msdyncrm_segmenttemplate business_unit_msdyncrm_segmenttemplate](msdyncrm_segmenttemplate.md#BKMK_business_unit_msdyncrm_segmenttemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_segmenttemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_segmenttemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_socialpost"></a> business_unit_msdyncrm_socialpost
+
+Many-To-One Relationship: [msdyncrm_socialpost business_unit_msdyncrm_socialpost](msdyncrm_socialpost.md#BKMK_business_unit_msdyncrm_socialpost)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_socialpost`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_socialpost`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_socialpostingconfiguration"></a> business_unit_msdyncrm_socialpostingconfiguration
+
+Many-To-One Relationship: [msdyncrm_socialpostingconfiguration business_unit_msdyncrm_socialpostingconfiguration](msdyncrm_socialpostingconfiguration.md#BKMK_business_unit_msdyncrm_socialpostingconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_socialpostingconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_socialpostingconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_socialpostingconsent"></a> business_unit_msdyncrm_socialpostingconsent
+
+Many-To-One Relationship: [msdyncrm_socialpostingconsent business_unit_msdyncrm_socialpostingconsent](msdyncrm_socialpostingconsent.md#BKMK_business_unit_msdyncrm_socialpostingconsent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_socialpostingconsent`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_socialpostingconsent`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_sourceactivity"></a> business_unit_msdyncrm_sourceactivity
+
+Many-To-One Relationship: [msdyncrm_sourceactivity business_unit_msdyncrm_sourceactivity](msdyncrm_sourceactivity.md#BKMK_business_unit_msdyncrm_sourceactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_sourceactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_sourceactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_splitteractivity"></a> business_unit_msdyncrm_splitteractivity
+
+Many-To-One Relationship: [msdyncrm_splitteractivity business_unit_msdyncrm_splitteractivity](msdyncrm_splitteractivity.md#BKMK_business_unit_msdyncrm_splitteractivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_splitteractivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_splitteractivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_tag"></a> business_unit_msdyncrm_tag
+
+Many-To-One Relationship: [msdyncrm_tag business_unit_msdyncrm_tag](msdyncrm_tag.md#BKMK_business_unit_msdyncrm_tag)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_tag`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_tag`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_taskactivity"></a> business_unit_msdyncrm_taskactivity
+
+Many-To-One Relationship: [msdyncrm_taskactivity business_unit_msdyncrm_taskactivity](msdyncrm_taskactivity.md#BKMK_business_unit_msdyncrm_taskactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_taskactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_taskactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_taskactivitymarketingtemplate"></a> business_unit_msdyncrm_taskactivitymarketingtemplate
+
+Many-To-One Relationship: [msdyncrm_taskactivitymarketingtemplate business_unit_msdyncrm_taskactivitymarketingtemplate](msdyncrm_taskactivitymarketingtemplate.md#BKMK_business_unit_msdyncrm_taskactivitymarketingtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_taskactivitymarketingtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_taskactivitymarketingtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_textstyle"></a> business_unit_msdyncrm_textstyle
+
+Many-To-One Relationship: [msdyncrm_textstyle business_unit_msdyncrm_textstyle](msdyncrm_textstyle.md#BKMK_business_unit_msdyncrm_textstyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_textstyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_textstyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_triggeractivity"></a> business_unit_msdyncrm_triggeractivity
+
+Many-To-One Relationship: [msdyncrm_triggeractivity business_unit_msdyncrm_triggeractivity](msdyncrm_triggeractivity.md#BKMK_business_unit_msdyncrm_triggeractivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_triggeractivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_triggeractivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_uicconfig"></a> business_unit_msdyncrm_uicconfig
+
+Many-To-One Relationship: [msdyncrm_uicconfig business_unit_msdyncrm_uicconfig](msdyncrm_uicconfig.md#BKMK_business_unit_msdyncrm_uicconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_uicconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_uicconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_usergeoregion"></a> business_unit_msdyncrm_usergeoregion
+
+Many-To-One Relationship: [msdyncrm_usergeoregion business_unit_msdyncrm_usergeoregion](msdyncrm_usergeoregion.md#BKMK_business_unit_msdyncrm_usergeoregion)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_usergeoregion`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_usergeoregion`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_usersetting"></a> business_unit_msdyncrm_usersetting
+
+Many-To-One Relationship: [msdyncrm_usersetting business_unit_msdyncrm_usersetting](msdyncrm_usersetting.md#BKMK_business_unit_msdyncrm_usersetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_usersetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_usersetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_video"></a> business_unit_msdyncrm_video
+
+Many-To-One Relationship: [msdyncrm_video business_unit_msdyncrm_video](msdyncrm_video.md#BKMK_business_unit_msdyncrm_video)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_video`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_video`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_videostyle"></a> business_unit_msdyncrm_videostyle
+
+Many-To-One Relationship: [msdyncrm_videostyle business_unit_msdyncrm_videostyle](msdyncrm_videostyle.md#BKMK_business_unit_msdyncrm_videostyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_videostyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_videostyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdyncrm_website"></a> business_unit_msdyncrm_website
+
+Many-To-One Relationship: [msdyncrm_website business_unit_msdyncrm_website](msdyncrm_website.md#BKMK_business_unit_msdyncrm_website)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_website`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdyncrm_website`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_aimodelversion"></a> business_unit_msdynmkt_aimodelversion
+
+Many-To-One Relationship: [msdynmkt_aimodelversion business_unit_msdynmkt_aimodelversion](msdynmkt_aimodelversion.md#BKMK_business_unit_msdynmkt_aimodelversion)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_aimodelversion`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_aimodelversion`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_apsconfig"></a> business_unit_msdynmkt_apsconfig
+
+Many-To-One Relationship: [msdynmkt_apsconfig business_unit_msdynmkt_apsconfig](msdynmkt_apsconfig.md#BKMK_business_unit_msdynmkt_apsconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_apsconfig`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_apsconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_brandprofile"></a> business_unit_msdynmkt_brandprofile
+
+Many-To-One Relationship: [msdynmkt_brandprofile business_unit_msdynmkt_brandprofile](msdynmkt_brandprofile.md#BKMK_business_unit_msdynmkt_brandprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_brandprofile`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_brandprofile`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_brandsender"></a> business_unit_msdynmkt_brandsender
+
+Many-To-One Relationship: [msdynmkt_brandsender business_unit_msdynmkt_brandsender](msdynmkt_brandsender.md#BKMK_business_unit_msdynmkt_brandsender)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_brandsender`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_brandsender`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_brandtheme"></a> business_unit_msdynmkt_brandtheme
+
+Many-To-One Relationship: [msdynmkt_brandtheme business_unit_msdynmkt_brandtheme](msdynmkt_brandtheme.md#BKMK_business_unit_msdynmkt_brandtheme)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_brandtheme`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_brandtheme`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_buttonstyle"></a> business_unit_msdynmkt_buttonstyle
+
+Many-To-One Relationship: [msdynmkt_buttonstyle business_unit_msdynmkt_buttonstyle](msdynmkt_buttonstyle.md#BKMK_business_unit_msdynmkt_buttonstyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_buttonstyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_buttonstyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_byoacschannelinstance"></a> business_unit_msdynmkt_byoacschannelinstance
+
+Many-To-One Relationship: [msdynmkt_byoacschannelinstance business_unit_msdynmkt_byoacschannelinstance](msdynmkt_byoacschannelinstance.md#BKMK_business_unit_msdynmkt_byoacschannelinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_byoacschannelinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_byoacschannelinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_byoacschannelinstanceaccount"></a> business_unit_msdynmkt_byoacschannelinstanceaccount
+
+Many-To-One Relationship: [msdynmkt_byoacschannelinstanceaccount business_unit_msdynmkt_byoacschannelinstanceaccount](msdynmkt_byoacschannelinstanceaccount.md#BKMK_business_unit_msdynmkt_byoacschannelinstanceaccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_byoacschannelinstanceaccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_byoacschannelinstanceaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_captcha"></a> business_unit_msdynmkt_captcha
+
+Many-To-One Relationship: [msdynmkt_captcha business_unit_msdynmkt_captcha](msdynmkt_captcha.md#BKMK_business_unit_msdynmkt_captcha)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_captcha`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_captcha`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_catalogeventstatusconfiguration"></a> business_unit_msdynmkt_catalogeventstatusconfiguration
+
+Many-To-One Relationship: [msdynmkt_catalogeventstatusconfiguration business_unit_msdynmkt_catalogeventstatusconfiguration](msdynmkt_catalogeventstatusconfiguration.md#BKMK_business_unit_msdynmkt_catalogeventstatusconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_catalogeventstatusconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_catalogeventstatusconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_compliancesettings3"></a> business_unit_msdynmkt_compliancesettings3
+
+Many-To-One Relationship: [msdynmkt_compliancesettings3 business_unit_msdynmkt_compliancesettings3](msdynmkt_compliancesettings3.md#BKMK_business_unit_msdynmkt_compliancesettings3)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_compliancesettings3`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_compliancesettings3`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_compliancesettings4"></a> business_unit_msdynmkt_compliancesettings4
+
+Many-To-One Relationship: [msdynmkt_compliancesettings4 business_unit_msdynmkt_compliancesettings4](msdynmkt_compliancesettings4.md#BKMK_business_unit_msdynmkt_compliancesettings4)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_compliancesettings4`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_compliancesettings4`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_configuration"></a> business_unit_msdynmkt_configuration
+
+Many-To-One Relationship: [msdynmkt_configuration business_unit_msdynmkt_configuration](msdynmkt_configuration.md#BKMK_business_unit_msdynmkt_configuration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_configuration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_configuration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_consentprovider"></a> business_unit_msdynmkt_consentprovider
+
+Many-To-One Relationship: [msdynmkt_consentprovider business_unit_msdynmkt_consentprovider](msdynmkt_consentprovider.md#BKMK_business_unit_msdynmkt_consentprovider)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_consentprovider`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_consentprovider`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_consentproviderdefaultconfiguration"></a> business_unit_msdynmkt_consentproviderdefaultconfiguration
+
+Many-To-One Relationship: [msdynmkt_consentproviderdefaultconfiguration business_unit_msdynmkt_consentproviderdefaultconfiguration](msdynmkt_consentproviderdefaultconfiguration.md#BKMK_business_unit_msdynmkt_consentproviderdefaultconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_consentproviderdefaultconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_consentproviderdefaultconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_consentproviderdefaultpurpose"></a> business_unit_msdynmkt_consentproviderdefaultpurpose
+
+Many-To-One Relationship: [msdynmkt_consentproviderdefaultpurpose business_unit_msdynmkt_consentproviderdefaultpurpose](msdynmkt_consentproviderdefaultpurpose.md#BKMK_business_unit_msdynmkt_consentproviderdefaultpurpose)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_consentproviderdefaultpurpose`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_consentproviderdefaultpurpose`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_consentsystemconfiguration"></a> business_unit_msdynmkt_consentsystemconfiguration
+
+Many-To-One Relationship: [msdynmkt_consentsystemconfiguration business_unit_msdynmkt_consentsystemconfiguration](msdynmkt_consentsystemconfiguration.md#BKMK_business_unit_msdynmkt_consentsystemconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_consentsystemconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_consentsystemconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_contactpointconsent"></a> business_unit_msdynmkt_contactpointconsent
+
+Many-To-One Relationship: [msdynmkt_contactpointconsent business_unit_msdynmkt_contactpointconsent](msdynmkt_contactpointconsent.md#BKMK_business_unit_msdynmkt_contactpointconsent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_contactpointconsent`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_contactpointconsent`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_contactpointconsent3"></a> business_unit_msdynmkt_contactpointconsent3
+
+Many-To-One Relationship: [msdynmkt_contactpointconsent3 business_unit_msdynmkt_contactpointconsent3](msdynmkt_contactpointconsent3.md#BKMK_business_unit_msdynmkt_contactpointconsent3)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_contactpointconsent3`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_contactpointconsent3`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_contactpointconsent4"></a> business_unit_msdynmkt_contactpointconsent4
+
+Many-To-One Relationship: [msdynmkt_contactpointconsent4 business_unit_msdynmkt_contactpointconsent4](msdynmkt_contactpointconsent4.md#BKMK_business_unit_msdynmkt_contactpointconsent4)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_contactpointconsent4`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_contactpointconsent4`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_conversioneventdefinition"></a> business_unit_msdynmkt_conversioneventdefinition
+
+Many-To-One Relationship: [msdynmkt_conversioneventdefinition business_unit_msdynmkt_conversioneventdefinition](msdynmkt_conversioneventdefinition.md#BKMK_business_unit_msdynmkt_conversioneventdefinition)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_conversioneventdefinition`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_conversioneventdefinition`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_createdentitylink"></a> business_unit_msdynmkt_createdentitylink
+
+Many-To-One Relationship: [msdynmkt_createdentitylink business_unit_msdynmkt_createdentitylink](msdynmkt_createdentitylink.md#BKMK_business_unit_msdynmkt_createdentitylink)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_createdentitylink`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_createdentitylink`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_customchannelmessage"></a> business_unit_msdynmkt_customchannelmessage
+
+Many-To-One Relationship: [msdynmkt_customchannelmessage business_unit_msdynmkt_customchannelmessage](msdynmkt_customchannelmessage.md#BKMK_business_unit_msdynmkt_customchannelmessage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_customchannelmessage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_customchannelmessage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_domain"></a> business_unit_msdynmkt_domain
+
+Many-To-One Relationship: [msdynmkt_domain business_unit_msdynmkt_domain](msdynmkt_domain.md#BKMK_business_unit_msdynmkt_domain)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_domain`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_domain`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_email"></a> business_unit_msdynmkt_email
+
+Many-To-One Relationship: [msdynmkt_email business_unit_msdynmkt_email](msdynmkt_email.md#BKMK_business_unit_msdynmkt_email)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_email`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_email`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_emailtemplate"></a> business_unit_msdynmkt_emailtemplate
+
+Many-To-One Relationship: [msdynmkt_emailtemplate business_unit_msdynmkt_emailtemplate](msdynmkt_emailtemplate.md#BKMK_business_unit_msdynmkt_emailtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_emailtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_emailtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_entitygradedistribution"></a> business_unit_msdynmkt_entitygradedistribution
+
+Many-To-One Relationship: [msdynmkt_entitygradedistribution business_unit_msdynmkt_entitygradedistribution](msdynmkt_entitygradedistribution.md#BKMK_business_unit_msdynmkt_entitygradedistribution)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_entitygradedistribution`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_entitygradedistribution`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_entityscoredistribution"></a> business_unit_msdynmkt_entityscoredistribution
+
+Many-To-One Relationship: [msdynmkt_entityscoredistribution business_unit_msdynmkt_entityscoredistribution](msdynmkt_entityscoredistribution.md#BKMK_business_unit_msdynmkt_entityscoredistribution)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_entityscoredistribution`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_entityscoredistribution`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_entityscoringmodel"></a> business_unit_msdynmkt_entityscoringmodel
+
+Many-To-One Relationship: [msdynmkt_entityscoringmodel business_unit_msdynmkt_entityscoringmodel](msdynmkt_entityscoringmodel.md#BKMK_business_unit_msdynmkt_entityscoringmodel)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_entityscoringmodel`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_entityscoringmodel`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_eventmetadata"></a> business_unit_msdynmkt_eventmetadata
+
+Many-To-One Relationship: [msdynmkt_eventmetadata business_unit_msdynmkt_eventmetadata](msdynmkt_eventmetadata.md#BKMK_business_unit_msdynmkt_eventmetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_eventmetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_eventmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_eventparametermetadata"></a> business_unit_msdynmkt_eventparametermetadata
+
+Many-To-One Relationship: [msdynmkt_eventparametermetadata business_unit_msdynmkt_eventparametermetadata](msdynmkt_eventparametermetadata.md#BKMK_business_unit_msdynmkt_eventparametermetadata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_eventparametermetadata`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_eventparametermetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_experiment"></a> business_unit_msdynmkt_experiment
+
+Many-To-One Relationship: [msdynmkt_experiment business_unit_msdynmkt_experiment](msdynmkt_experiment.md#BKMK_business_unit_msdynmkt_experiment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_experiment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_experiment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_experimentv2"></a> business_unit_msdynmkt_experimentv2
+
+Many-To-One Relationship: [msdynmkt_experimentv2 business_unit_msdynmkt_experimentv2](msdynmkt_experimentv2.md#BKMK_business_unit_msdynmkt_experimentv2)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_experimentv2`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_experimentv2`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_featureconfiguration"></a> business_unit_msdynmkt_featureconfiguration
+
+Many-To-One Relationship: [msdynmkt_featureconfiguration business_unit_msdynmkt_featureconfiguration](msdynmkt_featureconfiguration.md#BKMK_business_unit_msdynmkt_featureconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_featureconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_featureconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_fragment"></a> business_unit_msdynmkt_fragment
+
+Many-To-One Relationship: [msdynmkt_fragment business_unit_msdynmkt_fragment](msdynmkt_fragment.md#BKMK_business_unit_msdynmkt_fragment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_fragment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_fragment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_frequencycap"></a> business_unit_msdynmkt_frequencycap
+
+Many-To-One Relationship: [msdynmkt_frequencycap business_unit_msdynmkt_frequencycap](msdynmkt_frequencycap.md#BKMK_business_unit_msdynmkt_frequencycap)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_frequencycap`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_frequencycap`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_gdprrequest"></a> business_unit_msdynmkt_gdprrequest
+
+Many-To-One Relationship: [msdynmkt_gdprrequest business_unit_msdynmkt_gdprrequest](msdynmkt_gdprrequest.md#BKMK_business_unit_msdynmkt_gdprrequest)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_gdprrequest`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_gdprrequest`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_imagestyle"></a> business_unit_msdynmkt_imagestyle
+
+Many-To-One Relationship: [msdynmkt_imagestyle business_unit_msdynmkt_imagestyle](msdynmkt_imagestyle.md#BKMK_business_unit_msdynmkt_imagestyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_imagestyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_imagestyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_infobipchannelinstance"></a> business_unit_msdynmkt_infobipchannelinstance
+
+Many-To-One Relationship: [msdynmkt_infobipchannelinstance business_unit_msdynmkt_infobipchannelinstance](msdynmkt_infobipchannelinstance.md#BKMK_business_unit_msdynmkt_infobipchannelinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_infobipchannelinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_infobipchannelinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_infobipchannelinstanceaccount"></a> business_unit_msdynmkt_infobipchannelinstanceaccount
+
+Many-To-One Relationship: [msdynmkt_infobipchannelinstanceaccount business_unit_msdynmkt_infobipchannelinstanceaccount](msdynmkt_infobipchannelinstanceaccount.md#BKMK_business_unit_msdynmkt_infobipchannelinstanceaccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_infobipchannelinstanceaccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_infobipchannelinstanceaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_journey"></a> business_unit_msdynmkt_journey
+
+Many-To-One Relationship: [msdynmkt_journey business_unit_msdynmkt_journey](msdynmkt_journey.md#BKMK_business_unit_msdynmkt_journey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_journey`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_journey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_journeydependency"></a> business_unit_msdynmkt_journeydependency
+
+Many-To-One Relationship: [msdynmkt_journeydependency business_unit_msdynmkt_journeydependency](msdynmkt_journeydependency.md#BKMK_business_unit_msdynmkt_journeydependency)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_journeydependency`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_journeydependency`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_journeyevent"></a> business_unit_msdynmkt_journeyevent
+
+Many-To-One Relationship: [msdynmkt_journeyevent business_unit_msdynmkt_journeyevent](msdynmkt_journeyevent.md#BKMK_business_unit_msdynmkt_journeyevent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_journeyevent`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_journeyevent`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_journeyoptimizationcount"></a> business_unit_msdynmkt_journeyoptimizationcount
+
+Many-To-One Relationship: [msdynmkt_journeyoptimizationcount business_unit_msdynmkt_journeyoptimizationcount](msdynmkt_journeyoptimizationcount.md#BKMK_business_unit_msdynmkt_journeyoptimizationcount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_journeyoptimizationcount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_journeyoptimizationcount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_journeyrunparameter"></a> business_unit_msdynmkt_journeyrunparameter
+
+Many-To-One Relationship: [msdynmkt_journeyrunparameter business_unit_msdynmkt_journeyrunparameter](msdynmkt_journeyrunparameter.md#BKMK_business_unit_msdynmkt_journeyrunparameter)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_journeyrunparameter`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_journeyrunparameter`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_journeysetting"></a> business_unit_msdynmkt_journeysetting
+
+Many-To-One Relationship: [msdynmkt_journeysetting business_unit_msdynmkt_journeysetting](msdynmkt_journeysetting.md#BKMK_business_unit_msdynmkt_journeysetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_journeysetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_journeysetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_journeytemplate"></a> business_unit_msdynmkt_journeytemplate
+
+Many-To-One Relationship: [msdynmkt_journeytemplate business_unit_msdynmkt_journeytemplate](msdynmkt_journeytemplate.md#BKMK_business_unit_msdynmkt_journeytemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_journeytemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_journeytemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_journeyworkflowmapping"></a> business_unit_msdynmkt_journeyworkflowmapping
+
+Many-To-One Relationship: [msdynmkt_journeyworkflowmapping business_unit_msdynmkt_journeyworkflowmapping](msdynmkt_journeyworkflowmapping.md#BKMK_business_unit_msdynmkt_journeyworkflowmapping)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_journeyworkflowmapping`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_journeyworkflowmapping`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_keyword"></a> business_unit_msdynmkt_keyword
+
+Many-To-One Relationship: [msdynmkt_keyword business_unit_msdynmkt_keyword](msdynmkt_keyword.md#BKMK_business_unit_msdynmkt_keyword)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_keyword`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_keyword`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_leadqualificationmodel"></a> business_unit_msdynmkt_leadqualificationmodel
+
+Many-To-One Relationship: [msdynmkt_leadqualificationmodel business_unit_msdynmkt_leadqualificationmodel](msdynmkt_leadqualificationmodel.md#BKMK_business_unit_msdynmkt_leadqualificationmodel)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_leadqualificationmodel`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_leadqualificationmodel`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_linkmobilitychannelinstance"></a> business_unit_msdynmkt_linkmobilitychannelinstance
+
+Many-To-One Relationship: [msdynmkt_linkmobilitychannelinstance business_unit_msdynmkt_linkmobilitychannelinstance](msdynmkt_linkmobilitychannelinstance.md#BKMK_business_unit_msdynmkt_linkmobilitychannelinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_linkmobilitychannelinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_linkmobilitychannelinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_linkmobilitychannelinstanceaccount"></a> business_unit_msdynmkt_linkmobilitychannelinstanceaccount
+
+Many-To-One Relationship: [msdynmkt_linkmobilitychannelinstanceaccount business_unit_msdynmkt_linkmobilitychannelinstanceaccount](msdynmkt_linkmobilitychannelinstanceaccount.md#BKMK_business_unit_msdynmkt_linkmobilitychannelinstanceaccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_linkmobilitychannelinstanceaccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_linkmobilitychannelinstanceaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_marketingfieldsubmission"></a> business_unit_msdynmkt_marketingfieldsubmission
+
+Many-To-One Relationship: [msdynmkt_marketingfieldsubmission business_unit_msdynmkt_marketingfieldsubmission](msdynmkt_marketingfieldsubmission.md#BKMK_business_unit_msdynmkt_marketingfieldsubmission)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_marketingfieldsubmission`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_marketingfieldsubmission`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_marketingform"></a> business_unit_msdynmkt_marketingform
+
+Many-To-One Relationship: [msdynmkt_marketingform business_unit_msdynmkt_marketingform](msdynmkt_marketingform.md#BKMK_business_unit_msdynmkt_marketingform)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_marketingform`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_marketingform`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_marketingformfield"></a> business_unit_msdynmkt_marketingformfield
+
+Many-To-One Relationship: [msdynmkt_marketingformfield business_unit_msdynmkt_marketingformfield](msdynmkt_marketingformfield.md#BKMK_business_unit_msdynmkt_marketingformfield)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_marketingformfield`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_marketingformfield`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_marketingformsubmission"></a> business_unit_msdynmkt_marketingformsubmission
+
+Many-To-One Relationship: [msdynmkt_marketingformsubmission business_unit_msdynmkt_marketingformsubmission](msdynmkt_marketingformsubmission.md#BKMK_business_unit_msdynmkt_marketingformsubmission)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_marketingformsubmission`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_marketingformsubmission`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_marketingformtemplate"></a> business_unit_msdynmkt_marketingformtemplate
+
+Many-To-One Relationship: [msdynmkt_marketingformtemplate business_unit_msdynmkt_marketingformtemplate](msdynmkt_marketingformtemplate.md#BKMK_business_unit_msdynmkt_marketingformtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_marketingformtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_marketingformtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_matchingstrategy"></a> business_unit_msdynmkt_matchingstrategy
+
+Many-To-One Relationship: [msdynmkt_matchingstrategy business_unit_msdynmkt_matchingstrategy](msdynmkt_matchingstrategy.md#BKMK_business_unit_msdynmkt_matchingstrategy)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_matchingstrategy`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_matchingstrategy`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_matchingstrategyattribute"></a> business_unit_msdynmkt_matchingstrategyattribute
+
+Many-To-One Relationship: [msdynmkt_matchingstrategyattribute business_unit_msdynmkt_matchingstrategyattribute](msdynmkt_matchingstrategyattribute.md#BKMK_business_unit_msdynmkt_matchingstrategyattribute)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_matchingstrategyattribute`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_matchingstrategyattribute`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_metadataentityrelationship"></a> business_unit_msdynmkt_metadataentityrelationship
+
+Many-To-One Relationship: [msdynmkt_metadataentityrelationship business_unit_msdynmkt_metadataentityrelationship](msdynmkt_metadataentityrelationship.md#BKMK_business_unit_msdynmkt_metadataentityrelationship)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_metadataentityrelationship`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_metadataentityrelationship`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_metadataitem"></a> business_unit_msdynmkt_metadataitem
+
+Many-To-One Relationship: [msdynmkt_metadataitem business_unit_msdynmkt_metadataitem](msdynmkt_metadataitem.md#BKMK_business_unit_msdynmkt_metadataitem)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_metadataitem`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_metadataitem`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_metadatastorestate"></a> business_unit_msdynmkt_metadatastorestate
+
+Many-To-One Relationship: [msdynmkt_metadatastorestate business_unit_msdynmkt_metadatastorestate](msdynmkt_metadatastorestate.md#BKMK_business_unit_msdynmkt_metadatastorestate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_metadatastorestate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_metadatastorestate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_mobileapp"></a> business_unit_msdynmkt_mobileapp
+
+Many-To-One Relationship: [msdynmkt_mobileapp business_unit_msdynmkt_mobileapp](msdynmkt_mobileapp.md#BKMK_business_unit_msdynmkt_mobileapp)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_mobileapp`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_mobileapp`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_mobileappchannelinstance"></a> business_unit_msdynmkt_mobileappchannelinstance
+
+Many-To-One Relationship: [msdynmkt_mobileappchannelinstance business_unit_msdynmkt_mobileappchannelinstance](msdynmkt_mobileappchannelinstance.md#BKMK_business_unit_msdynmkt_mobileappchannelinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_mobileappchannelinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_mobileappchannelinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_mobiledevice"></a> business_unit_msdynmkt_mobiledevice
+
+Many-To-One Relationship: [msdynmkt_mobiledevice business_unit_msdynmkt_mobiledevice](msdynmkt_mobiledevice.md#BKMK_business_unit_msdynmkt_mobiledevice)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_mobiledevice`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_mobiledevice`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_mocksmsproviderchannelinstance"></a> business_unit_msdynmkt_mocksmsproviderchannelinstance
+
+Many-To-One Relationship: [msdynmkt_mocksmsproviderchannelinstance business_unit_msdynmkt_mocksmsproviderchannelinstance](msdynmkt_mocksmsproviderchannelinstance.md#BKMK_business_unit_msdynmkt_mocksmsproviderchannelinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_mocksmsproviderchannelinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_mocksmsproviderchannelinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_mocksmsproviderchannelinstanceaccount"></a> business_unit_msdynmkt_mocksmsproviderchannelinstanceaccount
+
+Many-To-One Relationship: [msdynmkt_mocksmsproviderchannelinstanceaccount business_unit_msdynmkt_mocksmsproviderchannelinstanceaccount](msdynmkt_mocksmsproviderchannelinstanceaccount.md#BKMK_business_unit_msdynmkt_mocksmsproviderchannelinstanceaccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_mocksmsproviderchannelinstanceaccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_mocksmsproviderchannelinstanceaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_predefinedplaceholder"></a> business_unit_msdynmkt_predefinedplaceholder
+
+Many-To-One Relationship: [msdynmkt_predefinedplaceholder business_unit_msdynmkt_predefinedplaceholder](msdynmkt_predefinedplaceholder.md#BKMK_business_unit_msdynmkt_predefinedplaceholder)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_predefinedplaceholder`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_predefinedplaceholder`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_preferencecenter"></a> business_unit_msdynmkt_preferencecenter
+
+Many-To-One Relationship: [msdynmkt_preferencecenter business_unit_msdynmkt_preferencecenter](msdynmkt_preferencecenter.md#BKMK_business_unit_msdynmkt_preferencecenter)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_preferencecenter`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_preferencecenter`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_purpose"></a> business_unit_msdynmkt_purpose
+
+Many-To-One Relationship: [msdynmkt_purpose business_unit_msdynmkt_purpose](msdynmkt_purpose.md#BKMK_business_unit_msdynmkt_purpose)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_purpose`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_purpose`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_pushdeviceregistrationresult"></a> business_unit_msdynmkt_pushdeviceregistrationresult
+
+Many-To-One Relationship: [msdynmkt_pushdeviceregistrationresult business_unit_msdynmkt_pushdeviceregistrationresult](msdynmkt_pushdeviceregistrationresult.md#BKMK_business_unit_msdynmkt_pushdeviceregistrationresult)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_pushdeviceregistrationresult`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_pushdeviceregistrationresult`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_pushmobiledevice"></a> business_unit_msdynmkt_pushmobiledevice
+
+Many-To-One Relationship: [msdynmkt_pushmobiledevice business_unit_msdynmkt_pushmobiledevice](msdynmkt_pushmobiledevice.md#BKMK_business_unit_msdynmkt_pushmobiledevice)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_pushmobiledevice`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_pushmobiledevice`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_pushnotification"></a> business_unit_msdynmkt_pushnotification
+
+Many-To-One Relationship: [msdynmkt_pushnotification business_unit_msdynmkt_pushnotification](msdynmkt_pushnotification.md#BKMK_business_unit_msdynmkt_pushnotification)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_pushnotification`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_pushnotification`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_qrcodestyle"></a> business_unit_msdynmkt_qrcodestyle
+
+Many-To-One Relationship: [msdynmkt_qrcodestyle business_unit_msdynmkt_qrcodestyle](msdynmkt_qrcodestyle.md#BKMK_business_unit_msdynmkt_qrcodestyle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_qrcodestyle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_qrcodestyle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_quiettimesetting"></a> business_unit_msdynmkt_quiettimesetting
+
+Many-To-One Relationship: [msdynmkt_quiettimesetting business_unit_msdynmkt_quiettimesetting](msdynmkt_quiettimesetting.md#BKMK_business_unit_msdynmkt_quiettimesetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_quiettimesetting`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_quiettimesetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_recaptchaconfiguration"></a> business_unit_msdynmkt_recaptchaconfiguration
+
+Many-To-One Relationship: [msdynmkt_recaptchaconfiguration business_unit_msdynmkt_recaptchaconfiguration](msdynmkt_recaptchaconfiguration.md#BKMK_business_unit_msdynmkt_recaptchaconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_recaptchaconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_recaptchaconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_segment"></a> business_unit_msdynmkt_segment
+
+Many-To-One Relationship: [msdynmkt_segment business_unit_msdynmkt_segment](msdynmkt_segment.md#BKMK_business_unit_msdynmkt_segment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_segment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_segment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_segmentdefinition"></a> business_unit_msdynmkt_segmentdefinition
+
+Many-To-One Relationship: [msdynmkt_segmentdefinition business_unit_msdynmkt_segmentdefinition](msdynmkt_segmentdefinition.md#BKMK_business_unit_msdynmkt_segmentdefinition)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_segmentdefinition`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_segmentdefinition`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_segmentexecution"></a> business_unit_msdynmkt_segmentexecution
+
+Many-To-One Relationship: [msdynmkt_segmentexecution business_unit_msdynmkt_segmentexecution](msdynmkt_segmentexecution.md#BKMK_business_unit_msdynmkt_segmentexecution)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_segmentexecution`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_segmentexecution`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_segmentusage"></a> business_unit_msdynmkt_segmentusage
+
+Many-To-One Relationship: [msdynmkt_segmentusage business_unit_msdynmkt_segmentusage](msdynmkt_segmentusage.md#BKMK_business_unit_msdynmkt_segmentusage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_segmentusage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_segmentusage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_sms"></a> business_unit_msdynmkt_sms
+
+Many-To-One Relationship: [msdynmkt_sms business_unit_msdynmkt_sms](msdynmkt_sms.md#BKMK_business_unit_msdynmkt_sms)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_sms`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_sms`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_submitbutton"></a> business_unit_msdynmkt_submitbutton
+
+Many-To-One Relationship: [msdynmkt_submitbutton business_unit_msdynmkt_submitbutton](msdynmkt_submitbutton.md#BKMK_business_unit_msdynmkt_submitbutton)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_submitbutton`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_submitbutton`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_tag"></a> business_unit_msdynmkt_tag
+
+Many-To-One Relationship: [msdynmkt_tag business_unit_msdynmkt_tag](msdynmkt_tag.md#BKMK_business_unit_msdynmkt_tag)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_tag`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_tag`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_teamsengagement"></a> business_unit_msdynmkt_teamsengagement
+
+Many-To-One Relationship: [msdynmkt_teamsengagement business_unit_msdynmkt_teamsengagement](msdynmkt_teamsengagement.md#BKMK_business_unit_msdynmkt_teamsengagement)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_teamsengagement`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_teamsengagement`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_telesignchannelinstance"></a> business_unit_msdynmkt_telesignchannelinstance
+
+Many-To-One Relationship: [msdynmkt_telesignchannelinstance business_unit_msdynmkt_telesignchannelinstance](msdynmkt_telesignchannelinstance.md#BKMK_business_unit_msdynmkt_telesignchannelinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_telesignchannelinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_telesignchannelinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_telesignchannelinstanceaccount"></a> business_unit_msdynmkt_telesignchannelinstanceaccount
+
+Many-To-One Relationship: [msdynmkt_telesignchannelinstanceaccount business_unit_msdynmkt_telesignchannelinstanceaccount](msdynmkt_telesignchannelinstanceaccount.md#BKMK_business_unit_msdynmkt_telesignchannelinstanceaccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_telesignchannelinstanceaccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_telesignchannelinstanceaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_topic"></a> business_unit_msdynmkt_topic
+
+Many-To-One Relationship: [msdynmkt_topic business_unit_msdynmkt_topic](msdynmkt_topic.md#BKMK_business_unit_msdynmkt_topic)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_topic`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_topic`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_twiliochannelinstance"></a> business_unit_msdynmkt_twiliochannelinstance
+
+Many-To-One Relationship: [msdynmkt_twiliochannelinstance business_unit_msdynmkt_twiliochannelinstance](msdynmkt_twiliochannelinstance.md#BKMK_business_unit_msdynmkt_twiliochannelinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_twiliochannelinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_twiliochannelinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_twiliochannelinstanceaccount"></a> business_unit_msdynmkt_twiliochannelinstanceaccount
+
+Many-To-One Relationship: [msdynmkt_twiliochannelinstanceaccount business_unit_msdynmkt_twiliochannelinstanceaccount](msdynmkt_twiliochannelinstanceaccount.md#BKMK_business_unit_msdynmkt_twiliochannelinstanceaccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_twiliochannelinstanceaccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_twiliochannelinstanceaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_utmtracking"></a> business_unit_msdynmkt_utmtracking
+
+Many-To-One Relationship: [msdynmkt_utmtracking business_unit_msdynmkt_utmtracking](msdynmkt_utmtracking.md#BKMK_business_unit_msdynmkt_utmtracking)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_utmtracking`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_utmtracking`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_vibeschannelinstance"></a> business_unit_msdynmkt_vibeschannelinstance
+
+Many-To-One Relationship: [msdynmkt_vibeschannelinstance business_unit_msdynmkt_vibeschannelinstance](msdynmkt_vibeschannelinstance.md#BKMK_business_unit_msdynmkt_vibeschannelinstance)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_vibeschannelinstance`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_vibeschannelinstance`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_vibeschannelinstanceaccount"></a> business_unit_msdynmkt_vibeschannelinstanceaccount
+
+Many-To-One Relationship: [msdynmkt_vibeschannelinstanceaccount business_unit_msdynmkt_vibeschannelinstanceaccount](msdynmkt_vibeschannelinstanceaccount.md#BKMK_business_unit_msdynmkt_vibeschannelinstanceaccount)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_vibeschannelinstanceaccount`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_vibeschannelinstanceaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_virtualsegment"></a> business_unit_msdynmkt_virtualsegment
+
+Many-To-One Relationship: [msdynmkt_virtualsegment business_unit_msdynmkt_virtualsegment](msdynmkt_virtualsegment.md#BKMK_business_unit_msdynmkt_virtualsegment)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_virtualsegment`|
+|ReferencingAttribute|`msdynmkt_owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_virtualsegment`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msdynmkt_webinaremailjourney"></a> business_unit_msdynmkt_webinaremailjourney
+
+Many-To-One Relationship: [msdynmkt_webinaremailjourney business_unit_msdynmkt_webinaremailjourney](msdynmkt_webinaremailjourney.md#BKMK_business_unit_msdynmkt_webinaremailjourney)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_webinaremailjourney`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msdynmkt_webinaremailjourney`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_attendeepass"></a> business_unit_msevtmgt_attendeepass
+
+Many-To-One Relationship: [msevtmgt_attendeepass business_unit_msevtmgt_attendeepass](msevtmgt_attendeepass.md#BKMK_business_unit_msevtmgt_attendeepass)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_attendeepass`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_attendeepass`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_authenticationsettings"></a> business_unit_msevtmgt_authenticationsettings
+
+Many-To-One Relationship: [msevtmgt_authenticationsettings business_unit_msevtmgt_authenticationsettings](msevtmgt_authenticationsettings.md#BKMK_business_unit_msevtmgt_authenticationsettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_authenticationsettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_authenticationsettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_bucket"></a> business_unit_msevtmgt_bucket
+
+Many-To-One Relationship: [msevtmgt_bucket business_unit_msevtmgt_bucket](msevtmgt_bucket.md#BKMK_business_unit_msevtmgt_bucket)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_bucket`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_bucket`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_building"></a> business_unit_msevtmgt_building
+
+Many-To-One Relationship: [msevtmgt_building business_unit_msevtmgt_building](msevtmgt_building.md#BKMK_business_unit_msevtmgt_building)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_building`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_building`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_checkin"></a> business_unit_msevtmgt_checkin
+
+Many-To-One Relationship: [msevtmgt_checkin business_unit_msevtmgt_checkin](msevtmgt_checkin.md#BKMK_business_unit_msevtmgt_checkin)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_checkin`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_checkin`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_customregistrationfield"></a> business_unit_msevtmgt_customregistrationfield
+
+Many-To-One Relationship: [msevtmgt_customregistrationfield business_unit_msevtmgt_customregistrationfield](msevtmgt_customregistrationfield.md#BKMK_business_unit_msevtmgt_customregistrationfield)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_customregistrationfield`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_customregistrationfield`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_entitycounter"></a> business_unit_msevtmgt_entitycounter
+
+Many-To-One Relationship: [msevtmgt_entitycounter business_unit_msevtmgt_entitycounter](msevtmgt_entitycounter.md#BKMK_business_unit_msevtmgt_entitycounter)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_entitycounter`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_entitycounter`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_event"></a> business_unit_msevtmgt_event
+
+Many-To-One Relationship: [msevtmgt_event business_unit_msevtmgt_event](msevtmgt_event.md#BKMK_business_unit_msevtmgt_event)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_event`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_event`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventadministration"></a> business_unit_msevtmgt_eventadministration
+
+Many-To-One Relationship: [msevtmgt_eventadministration business_unit_msevtmgt_eventadministration](msevtmgt_eventadministration.md#BKMK_business_unit_msevtmgt_eventadministration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventadministration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventadministration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventanalytics"></a> business_unit_msevtmgt_eventanalytics
+
+Many-To-One Relationship: [msevtmgt_eventanalytics business_unit_msevtmgt_eventanalytics](msevtmgt_eventanalytics.md#BKMK_business_unit_msevtmgt_eventanalytics)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventanalytics`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventanalytics`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventcustomregistrationfield"></a> business_unit_msevtmgt_eventcustomregistrationfield
+
+Many-To-One Relationship: [msevtmgt_eventcustomregistrationfield business_unit_msevtmgt_eventcustomregistrationfield](msevtmgt_eventcustomregistrationfield.md#BKMK_business_unit_msevtmgt_eventcustomregistrationfield)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventcustomregistrationfield`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventcustomregistrationfield`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventmanagementactivity"></a> business_unit_msevtmgt_eventmanagementactivity
+
+Many-To-One Relationship: [msevtmgt_eventmanagementactivity business_unit_msevtmgt_eventmanagementactivity](msevtmgt_eventmanagementactivity.md#BKMK_business_unit_msevtmgt_eventmanagementactivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventmanagementactivity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventmanagementactivity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventmanagementconfiguration"></a> business_unit_msevtmgt_eventmanagementconfiguration
+
+Many-To-One Relationship: [msevtmgt_eventmanagementconfiguration business_unit_msevtmgt_eventmanagementconfiguration](msevtmgt_eventmanagementconfiguration.md#BKMK_business_unit_msevtmgt_eventmanagementconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventmanagementconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventmanagementconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventpurchase"></a> business_unit_msevtmgt_eventpurchase
+
+Many-To-One Relationship: [msevtmgt_eventpurchase business_unit_msevtmgt_eventpurchase](msevtmgt_eventpurchase.md#BKMK_business_unit_msevtmgt_eventpurchase)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventpurchase`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventpurchase`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventpurchaseattendee"></a> business_unit_msevtmgt_eventpurchaseattendee
+
+Many-To-One Relationship: [msevtmgt_eventpurchaseattendee business_unit_msevtmgt_eventpurchaseattendee](msevtmgt_eventpurchaseattendee.md#BKMK_business_unit_msevtmgt_eventpurchaseattendee)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventpurchaseattendee`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventpurchaseattendee`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventpurchasecontact"></a> business_unit_msevtmgt_eventpurchasecontact
+
+Many-To-One Relationship: [msevtmgt_eventpurchasecontact business_unit_msevtmgt_eventpurchasecontact](msevtmgt_eventpurchasecontact.md#BKMK_business_unit_msevtmgt_eventpurchasecontact)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventpurchasecontact`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventpurchasecontact`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventpurchasepass"></a> business_unit_msevtmgt_eventpurchasepass
+
+Many-To-One Relationship: [msevtmgt_eventpurchasepass business_unit_msevtmgt_eventpurchasepass](msevtmgt_eventpurchasepass.md#BKMK_business_unit_msevtmgt_eventpurchasepass)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventpurchasepass`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventpurchasepass`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventregistration"></a> business_unit_msevtmgt_eventregistration
+
+Many-To-One Relationship: [msevtmgt_eventregistration business_unit_msevtmgt_eventregistration](msevtmgt_eventregistration.md#BKMK_business_unit_msevtmgt_eventregistration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventregistration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventregistration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventregistrationticket"></a> business_unit_msevtmgt_eventregistrationticket
+
+Many-To-One Relationship: [msevtmgt_eventregistrationticket business_unit_msevtmgt_eventregistrationticket](msevtmgt_eventregistrationticket.md#BKMK_business_unit_msevtmgt_eventregistrationticket)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventregistrationticket`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventregistrationticket`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventteammember"></a> business_unit_msevtmgt_eventteammember
+
+Many-To-One Relationship: [msevtmgt_eventteammember business_unit_msevtmgt_eventteammember](msevtmgt_eventteammember.md#BKMK_business_unit_msevtmgt_eventteammember)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventteammember`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventteammember`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventteamsproperties"></a> business_unit_msevtmgt_eventteamsproperties
+
+Many-To-One Relationship: [msevtmgt_eventteamsproperties business_unit_msevtmgt_eventteamsproperties](msevtmgt_eventteamsproperties.md#BKMK_business_unit_msevtmgt_eventteamsproperties)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventteamsproperties`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventteamsproperties`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_eventvendor"></a> business_unit_msevtmgt_eventvendor
+
+Many-To-One Relationship: [msevtmgt_eventvendor business_unit_msevtmgt_eventvendor](msevtmgt_eventvendor.md#BKMK_business_unit_msevtmgt_eventvendor)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_eventvendor`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_eventvendor`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_file"></a> business_unit_msevtmgt_file
+
+Many-To-One Relationship: [msevtmgt_file business_unit_msevtmgt_file](msevtmgt_file.md#BKMK_business_unit_msevtmgt_file)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_file`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_file`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_hotel"></a> business_unit_msevtmgt_hotel
+
+Many-To-One Relationship: [msevtmgt_hotel business_unit_msevtmgt_hotel](msevtmgt_hotel.md#BKMK_business_unit_msevtmgt_hotel)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_hotel`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_hotel`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_hotelroomallocation"></a> business_unit_msevtmgt_hotelroomallocation
+
+Many-To-One Relationship: [msevtmgt_hotelroomallocation business_unit_msevtmgt_hotelroomallocation](msevtmgt_hotelroomallocation.md#BKMK_business_unit_msevtmgt_hotelroomallocation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_hotelroomallocation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_hotelroomallocation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_hotelroomreservation"></a> business_unit_msevtmgt_hotelroomreservation
+
+Many-To-One Relationship: [msevtmgt_hotelroomreservation business_unit_msevtmgt_hotelroomreservation](msevtmgt_hotelroomreservation.md#BKMK_business_unit_msevtmgt_hotelroomreservation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_hotelroomreservation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_hotelroomreservation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_layout"></a> business_unit_msevtmgt_layout
+
+Many-To-One Relationship: [msevtmgt_layout business_unit_msevtmgt_layout](msevtmgt_layout.md#BKMK_business_unit_msevtmgt_layout)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_layout`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_layout`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_pass"></a> business_unit_msevtmgt_pass
+
+Many-To-One Relationship: [msevtmgt_pass business_unit_msevtmgt_pass](msevtmgt_pass.md#BKMK_business_unit_msevtmgt_pass)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_pass`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_pass`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_registrationresponse"></a> business_unit_msevtmgt_registrationresponse
+
+Many-To-One Relationship: [msevtmgt_registrationresponse business_unit_msevtmgt_registrationresponse](msevtmgt_registrationresponse.md#BKMK_business_unit_msevtmgt_registrationresponse)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_registrationresponse`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_registrationresponse`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_room"></a> business_unit_msevtmgt_room
+
+Many-To-One Relationship: [msevtmgt_room business_unit_msevtmgt_room](msevtmgt_room.md#BKMK_business_unit_msevtmgt_room)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_room`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_room`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_roomreservation"></a> business_unit_msevtmgt_roomreservation
+
+Many-To-One Relationship: [msevtmgt_roomreservation business_unit_msevtmgt_roomreservation](msevtmgt_roomreservation.md#BKMK_business_unit_msevtmgt_roomreservation)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_roomreservation`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_roomreservation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_session"></a> business_unit_msevtmgt_session
+
+Many-To-One Relationship: [msevtmgt_session business_unit_msevtmgt_session](msevtmgt_session.md#BKMK_business_unit_msevtmgt_session)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_session`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_session`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_sessionregistration"></a> business_unit_msevtmgt_sessionregistration
+
+Many-To-One Relationship: [msevtmgt_sessionregistration business_unit_msevtmgt_sessionregistration](msevtmgt_sessionregistration.md#BKMK_business_unit_msevtmgt_sessionregistration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_sessionregistration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_sessionregistration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_sessiontrack"></a> business_unit_msevtmgt_sessiontrack
+
+Many-To-One Relationship: [msevtmgt_sessiontrack business_unit_msevtmgt_sessiontrack](msevtmgt_sessiontrack.md#BKMK_business_unit_msevtmgt_sessiontrack)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_sessiontrack`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_sessiontrack`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_speaker"></a> business_unit_msevtmgt_speaker
+
+Many-To-One Relationship: [msevtmgt_speaker business_unit_msevtmgt_speaker](msevtmgt_speaker.md#BKMK_business_unit_msevtmgt_speaker)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_speaker`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_speaker`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_speakerengagement"></a> business_unit_msevtmgt_speakerengagement
+
+Many-To-One Relationship: [msevtmgt_speakerengagement business_unit_msevtmgt_speakerengagement](msevtmgt_speakerengagement.md#BKMK_business_unit_msevtmgt_speakerengagement)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_speakerengagement`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_speakerengagement`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_sponsorablearticle"></a> business_unit_msevtmgt_sponsorablearticle
+
+Many-To-One Relationship: [msevtmgt_sponsorablearticle business_unit_msevtmgt_sponsorablearticle](msevtmgt_sponsorablearticle.md#BKMK_business_unit_msevtmgt_sponsorablearticle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_sponsorablearticle`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_sponsorablearticle`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_sponsorship"></a> business_unit_msevtmgt_sponsorship
+
+Many-To-One Relationship: [msevtmgt_sponsorship business_unit_msevtmgt_sponsorship](msevtmgt_sponsorship.md#BKMK_business_unit_msevtmgt_sponsorship)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_sponsorship`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_sponsorship`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_venue"></a> business_unit_msevtmgt_venue
+
+Many-To-One Relationship: [msevtmgt_venue business_unit_msevtmgt_venue](msevtmgt_venue.md#BKMK_business_unit_msevtmgt_venue)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_venue`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_venue`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_waitlistitem"></a> business_unit_msevtmgt_waitlistitem
+
+Many-To-One Relationship: [msevtmgt_waitlistitem business_unit_msevtmgt_waitlistitem](msevtmgt_waitlistitem.md#BKMK_business_unit_msevtmgt_waitlistitem)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_waitlistitem`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_waitlistitem`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msevtmgt_websiteentityconfiguration"></a> business_unit_msevtmgt_websiteentityconfiguration
+
+Many-To-One Relationship: [msevtmgt_websiteentityconfiguration business_unit_msevtmgt_websiteentityconfiguration](msevtmgt_websiteentityconfiguration.md#BKMK_business_unit_msevtmgt_websiteentityconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msevtmgt_websiteentityconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msevtmgt_websiteentityconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msfp_alertrule"></a> business_unit_msfp_alertrule
+
+Many-To-One Relationship: [msfp_alertrule business_unit_msfp_alertrule](msfp_alertrule.md#BKMK_business_unit_msfp_alertrule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_alertrule`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msfp_alertrule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msfp_emailtemplate"></a> business_unit_msfp_emailtemplate
+
+Many-To-One Relationship: [msfp_emailtemplate business_unit_msfp_emailtemplate](msfp_emailtemplate.md#BKMK_business_unit_msfp_emailtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_emailtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msfp_emailtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msfp_fileresponse"></a> business_unit_msfp_fileresponse
+
+Many-To-One Relationship: [msfp_fileresponse business_unit_msfp_fileresponse](msfp_fileresponse.md#BKMK_business_unit_msfp_fileresponse)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_fileresponse`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msfp_fileresponse`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msfp_localizedemailtemplate"></a> business_unit_msfp_localizedemailtemplate
+
+Many-To-One Relationship: [msfp_localizedemailtemplate business_unit_msfp_localizedemailtemplate](msfp_localizedemailtemplate.md#BKMK_business_unit_msfp_localizedemailtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_localizedemailtemplate`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msfp_localizedemailtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msfp_project"></a> business_unit_msfp_project
+
+Many-To-One Relationship: [msfp_project business_unit_msfp_project](msfp_project.md#BKMK_business_unit_msfp_project)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_project`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msfp_project`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msfp_question"></a> business_unit_msfp_question
+
+Many-To-One Relationship: [msfp_question business_unit_msfp_question](msfp_question.md#BKMK_business_unit_msfp_question)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_question`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msfp_question`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msfp_questionresponse"></a> business_unit_msfp_questionresponse
+
+Many-To-One Relationship: [msfp_questionresponse business_unit_msfp_questionresponse](msfp_questionresponse.md#BKMK_business_unit_msfp_questionresponse)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_questionresponse`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msfp_questionresponse`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msfp_satisfactionmetric"></a> business_unit_msfp_satisfactionmetric
+
+Many-To-One Relationship: [msfp_satisfactionmetric business_unit_msfp_satisfactionmetric](msfp_satisfactionmetric.md#BKMK_business_unit_msfp_satisfactionmetric)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_satisfactionmetric`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msfp_satisfactionmetric`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msfp_survey"></a> business_unit_msfp_survey
+
+Many-To-One Relationship: [msfp_survey business_unit_msfp_survey](msfp_survey.md#BKMK_business_unit_msfp_survey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_survey`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msfp_survey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msfp_surveyreminder"></a> business_unit_msfp_surveyreminder
+
+Many-To-One Relationship: [msfp_surveyreminder business_unit_msfp_surveyreminder](msfp_surveyreminder.md#BKMK_business_unit_msfp_surveyreminder)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_surveyreminder`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msfp_surveyreminder`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msfp_unsubscribedrecipient"></a> business_unit_msfp_unsubscribedrecipient
+
+Many-To-One Relationship: [msfp_unsubscribedrecipient business_unit_msfp_unsubscribedrecipient](msfp_unsubscribedrecipient.md#BKMK_business_unit_msfp_unsubscribedrecipient)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_unsubscribedrecipient`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msfp_unsubscribedrecipient`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_3dasset"></a> business_unit_msmrw_3dasset
+
+Many-To-One Relationship: [msmrw_3dasset business_unit_msmrw_3dasset](msmrw_3dasset.md#BKMK_business_unit_msmrw_3dasset)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_3dasset`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_3dasset`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_3dasset_localized"></a> business_unit_msmrw_3dasset_localized
+
+Many-To-One Relationship: [msmrw_3dasset_localized business_unit_msmrw_3dasset_localized](msmrw_3dasset_localized.md#BKMK_business_unit_msmrw_3dasset_localized)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_3dasset_localized`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_3dasset_localized`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_assetcollection"></a> business_unit_msmrw_assetcollection
+
+Many-To-One Relationship: [msmrw_assetcollection business_unit_msmrw_assetcollection](msmrw_assetcollection.md#BKMK_business_unit_msmrw_assetcollection)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_assetcollection`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_assetcollection`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_assetcollection_localized"></a> business_unit_msmrw_assetcollection_localized
+
+Many-To-One Relationship: [msmrw_assetcollection_localized business_unit_msmrw_assetcollection_localized](msmrw_assetcollection_localized.md#BKMK_business_unit_msmrw_assetcollection_localized)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_assetcollection_localized`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_assetcollection_localized`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_audioasset"></a> business_unit_msmrw_audioasset
+
+Many-To-One Relationship: [msmrw_audioasset business_unit_msmrw_audioasset](msmrw_audioasset.md#BKMK_business_unit_msmrw_audioasset)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_audioasset`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_audioasset`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_guide"></a> business_unit_msmrw_guide
+
+Many-To-One Relationship: [msmrw_guide business_unit_msmrw_guide](msmrw_guide.md#BKMK_business_unit_msmrw_guide)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_guide`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_guide`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_guidecompletionstepobject"></a> business_unit_msmrw_guidecompletionstepobject
+
+Many-To-One Relationship: [msmrw_guidecompletionstepobject business_unit_msmrw_guidecompletionstepobject](msmrw_guidecompletionstepobject.md#BKMK_business_unit_msmrw_guidecompletionstepobject)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_guidecompletionstepobject`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_guidecompletionstepobject`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_guidecompletionstepobjectplacement"></a> business_unit_msmrw_guidecompletionstepobjectplacement
+
+Many-To-One Relationship: [msmrw_guidecompletionstepobjectplacement business_unit_msmrw_guidecompletionstepobjectplacement](msmrw_guidecompletionstepobjectplacement.md#BKMK_business_unit_msmrw_guidecompletionstepobjectplacement)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_guidecompletionstepobjectplacement`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_guidecompletionstepobjectplacement`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_guideevent"></a> business_unit_msmrw_guideevent
+
+Many-To-One Relationship: [msmrw_guideevent business_unit_msmrw_guideevent](msmrw_guideevent.md#BKMK_business_unit_msmrw_guideevent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_guideevent`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_guideevent`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_guidesession"></a> business_unit_msmrw_guidesession
+
+Many-To-One Relationship: [msmrw_guidesession business_unit_msmrw_guidesession](msmrw_guidesession.md#BKMK_business_unit_msmrw_guidesession)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_guidesession`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_guidesession`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_guidesessionstepvisit"></a> business_unit_msmrw_guidesessionstepvisit
+
+Many-To-One Relationship: [msmrw_guidesessionstepvisit business_unit_msmrw_guidesessionstepvisit](msmrw_guidesessionstepvisit.md#BKMK_business_unit_msmrw_guidesessionstepvisit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_guidesessionstepvisit`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_guidesessionstepvisit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_guidestep"></a> business_unit_msmrw_guidestep
+
+Many-To-One Relationship: [msmrw_guidestep business_unit_msmrw_guidestep](msmrw_guidestep.md#BKMK_business_unit_msmrw_guidestep)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_guidestep`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_guidestep`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_guidestepobject"></a> business_unit_msmrw_guidestepobject
+
+Many-To-One Relationship: [msmrw_guidestepobject business_unit_msmrw_guidestepobject](msmrw_guidestepobject.md#BKMK_business_unit_msmrw_guidestepobject)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_guidestepobject`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_guidestepobject`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_guidestepobjectplacement"></a> business_unit_msmrw_guidestepobjectplacement
+
+Many-To-One Relationship: [msmrw_guidestepobjectplacement business_unit_msmrw_guidestepobjectplacement](msmrw_guidestepobjectplacement.md#BKMK_business_unit_msmrw_guidestepobjectplacement)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_guidestepobjectplacement`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_guidestepobjectplacement`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_guidetask"></a> business_unit_msmrw_guidetask
+
+Many-To-One Relationship: [msmrw_guidetask business_unit_msmrw_guidetask](msmrw_guidetask.md#BKMK_business_unit_msmrw_guidetask)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_guidetask`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_guidetask`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_guideviewconfiguration"></a> business_unit_msmrw_guideviewconfiguration
+
+Many-To-One Relationship: [msmrw_guideviewconfiguration business_unit_msmrw_guideviewconfiguration](msmrw_guideviewconfiguration.md#BKMK_business_unit_msmrw_guideviewconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_guideviewconfiguration`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_guideviewconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_imageasset"></a> business_unit_msmrw_imageasset
+
+Many-To-One Relationship: [msmrw_imageasset business_unit_msmrw_imageasset](msmrw_imageasset.md#BKMK_business_unit_msmrw_imageasset)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_imageasset`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_imageasset`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_imageasset_localized"></a> business_unit_msmrw_imageasset_localized
+
+Many-To-One Relationship: [msmrw_imageasset_localized business_unit_msmrw_imageasset_localized](msmrw_imageasset_localized.md#BKMK_business_unit_msmrw_imageasset_localized)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_imageasset_localized`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_imageasset_localized`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_packagedguide"></a> business_unit_msmrw_packagedguide
+
+Many-To-One Relationship: [msmrw_packagedguide business_unit_msmrw_packagedguide](msmrw_packagedguide.md#BKMK_business_unit_msmrw_packagedguide)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_packagedguide`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_packagedguide`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_packagedguidesessionstepvisit"></a> business_unit_msmrw_packagedguidesessionstepvisit
+
+Many-To-One Relationship: [msmrw_packagedguidesessionstepvisit business_unit_msmrw_packagedguidesessionstepvisit](msmrw_packagedguidesessionstepvisit.md#BKMK_business_unit_msmrw_packagedguidesessionstepvisit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_packagedguidesessionstepvisit`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_packagedguidesessionstepvisit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_packagedguidesoperatorsession"></a> business_unit_msmrw_packagedguidesoperatorsession
+
+Many-To-One Relationship: [msmrw_packagedguidesoperatorsession business_unit_msmrw_packagedguidesoperatorsession](msmrw_packagedguidesoperatorsession.md#BKMK_business_unit_msmrw_packagedguidesoperatorsession)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_packagedguidesoperatorsession`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_packagedguidesoperatorsession`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_usersettings"></a> business_unit_msmrw_usersettings
+
+Many-To-One Relationship: [msmrw_usersettings business_unit_msmrw_usersettings](msmrw_usersettings.md#BKMK_business_unit_msmrw_usersettings)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_usersettings`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_usersettings`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_videoasset"></a> business_unit_msmrw_videoasset
+
+Many-To-One Relationship: [msmrw_videoasset business_unit_msmrw_videoasset](msmrw_videoasset.md#BKMK_business_unit_msmrw_videoasset)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_videoasset`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_videoasset`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_msmrw_videoasset_localized"></a> business_unit_msmrw_videoasset_localized
+
+Many-To-One Relationship: [msmrw_videoasset_localized business_unit_msmrw_videoasset_localized](msmrw_videoasset_localized.md#BKMK_business_unit_msmrw_videoasset_localized)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msmrw_videoasset_localized`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_msmrw_videoasset_localized`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_opportunities"></a> business_unit_opportunities
+
+Many-To-One Relationship: [opportunity business_unit_opportunities](opportunity.md#BKMK_business_unit_opportunities)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`opportunity`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_opportunities`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_opportunity_close_activities"></a> business_unit_opportunity_close_activities
+
+Many-To-One Relationship: [opportunityclose business_unit_opportunity_close_activities](opportunityclose.md#BKMK_business_unit_opportunity_close_activities)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`opportunityclose`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_opportunity_close_activities`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_order_close_activities"></a> business_unit_order_close_activities
+
+Many-To-One Relationship: [orderclose business_unit_order_close_activities](orderclose.md#BKMK_business_unit_order_close_activities)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`orderclose`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_order_close_activities`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_orders"></a> business_unit_orders
+
+Many-To-One Relationship: [salesorder business_unit_orders](salesorder.md#BKMK_business_unit_orders)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`salesorder`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_orders`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_quote_close_activities"></a> business_unit_quote_close_activities
+
+Many-To-One Relationship: [quoteclose business_unit_quote_close_activities](quoteclose.md#BKMK_business_unit_quote_close_activities)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`quoteclose`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_quote_close_activities`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_quotes"></a> business_unit_quotes
+
+Many-To-One Relationship: [quote business_unit_quotes](quote.md#BKMK_business_unit_quotes)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`quote`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_quotes`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_ratingmodel"></a> business_unit_ratingmodel
+
+Many-To-One Relationship: [ratingmodel business_unit_ratingmodel](ratingmodel.md#BKMK_business_unit_ratingmodel)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`ratingmodel`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_ratingmodel`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_ratingvalue"></a> business_unit_ratingvalue
+
+Many-To-One Relationship: [ratingvalue business_unit_ratingvalue](ratingvalue.md#BKMK_business_unit_ratingvalue)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`ratingvalue`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_ratingvalue`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_resource_groups"></a> business_unit_resource_groups
+
+Many-To-One Relationship: [resourcegroup business_unit_resource_groups](resourcegroup.md#BKMK_business_unit_resource_groups)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`resourcegroup`|
+|ReferencingAttribute|`businessunitid`|
+|ReferencedEntityNavigationPropertyName|`business_unit_resource_groups`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_resource_specs"></a> business_unit_resource_specs
+
+Many-To-One Relationship: [resourcespec business_unit_resource_specs](resourcespec.md#BKMK_business_unit_resource_specs)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`resourcespec`|
+|ReferencingAttribute|`businessunitid`|
+|ReferencedEntityNavigationPropertyName|`business_unit_resource_specs`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_resources"></a> business_unit_resources
+
+Many-To-One Relationship: [resource business_unit_resources](resource.md#BKMK_business_unit_resources)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`resource`|
+|ReferencingAttribute|`businessunitid`|
+|ReferencedEntityNavigationPropertyName|`business_unit_resources`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_sales_linkedin_profileassociations"></a> business_unit_sales_linkedin_profileassociations
+
+Many-To-One Relationship: [sales_linkedin_profileassociations business_unit_sales_linkedin_profileassociations](sales_linkedin_profileassociations.md#BKMK_business_unit_sales_linkedin_profileassociations)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`sales_linkedin_profileassociations`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_sales_linkedin_profileassociations`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_sales_linkedin_users_signedin_status"></a> business_unit_sales_linkedin_users_signedin_status
+
+Many-To-One Relationship: [sales_linkedin_users_signedin_status business_unit_sales_linkedin_users_signedin_status](sales_linkedin_users_signedin_status.md#BKMK_business_unit_sales_linkedin_users_signedin_status)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`sales_linkedin_users_signedin_status`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_sales_linkedin_users_signedin_status`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_service_appointments"></a> business_unit_service_appointments
+
+Many-To-One Relationship: [serviceappointment business_unit_service_appointments](serviceappointment.md#BKMK_business_unit_service_appointments)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`serviceappointment`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_service_appointments`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_business_unit_service_contracts"></a> business_unit_service_contracts
+
+Many-To-One Relationship: [contract business_unit_service_contracts](contract.md#BKMK_business_unit_service_contracts)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`contract`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`business_unit_service_contracts`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_BusinessUnit_Campaigns"></a> BusinessUnit_Campaigns
+
+Many-To-One Relationship: [campaign BusinessUnit_Campaigns](campaign.md#BKMK_BusinessUnit_Campaigns)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`campaign`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`BusinessUnit_Campaigns`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_li_inmail_businessunit_owningbusinessunit"></a> li_inmail_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [li_inmail li_inmail_businessunit_owningbusinessunit](li_inmail.md#BKMK_li_inmail_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`li_inmail`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`li_inmail_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_li_message_businessunit_owningbusinessunit"></a> li_message_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [li_message li_message_businessunit_owningbusinessunit](li_message.md#BKMK_li_message_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`li_message`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`li_message_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_li_pointdrivepresentationviewed_businessunit_owningbusinessunit"></a> li_pointdrivepresentationviewed_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [li_pointdrivepresentationviewed li_pointdrivepresentationviewed_businessunit_owningbusinessunit](li_pointdrivepresentationviewed.md#BKMK_li_pointdrivepresentationviewed_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`li_pointdrivepresentationviewed`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`li_pointdrivepresentationviewed_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_bookingalert_businessunit_owningbusinessunit"></a> msdyn_bookingalert_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [msdyn_bookingalert msdyn_bookingalert_businessunit_owningbusinessunit](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingalert`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`msdyn_bookingalert_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_copilottranscript_businessunit_owningbusinessunit"></a> msdyn_copilottranscript_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [msdyn_copilottranscript msdyn_copilottranscript_businessunit_owningbusinessunit](msdyn_copilottranscript.md#BKMK_msdyn_copilottranscript_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_copilottranscript`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`msdyn_copilottranscript_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocliveworkitem_businessunit_owningbusinessunit"></a> msdyn_ocliveworkitem_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [msdyn_ocliveworkitem msdyn_ocliveworkitem_businessunit_owningbusinessunit](msdyn_ocliveworkitem.md#BKMK_msdyn_ocliveworkitem_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkitem`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocliveworkitem_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocoutboundmessage_businessunit_owningbusinessunit"></a> msdyn_ocoutboundmessage_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage msdyn_ocoutboundmessage_businessunit_owningbusinessunit](msdyn_ocoutboundmessage.md#BKMK_msdyn_ocoutboundmessage_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocoutboundmessage_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocsession_businessunit_owningbusinessunit"></a> msdyn_ocsession_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [msdyn_ocsession msdyn_ocsession_businessunit_owningbusinessunit](msdyn_ocsession.md#BKMK_msdyn_ocsession_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocsession`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocsession_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocvoicemail_businessunit_owningbusinessunit"></a> msdyn_ocvoicemail_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_ocvoicemail_businessunit_owningbusinessunit](msdyn_ocvoicemail.md#BKMK_msdyn_ocvoicemail_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocvoicemail_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdynmkt_businessunit_msdynmkt_virtualdomain_owningbusinessunit"></a> msdynmkt_businessunit_msdynmkt_virtualdomain_owningbusinessunit
+
+Many-To-One Relationship: [msdynmkt_virtualdomain msdynmkt_businessunit_msdynmkt_virtualdomain_owningbusinessunit](msdynmkt_virtualdomain.md#BKMK_msdynmkt_businessunit_msdynmkt_virtualdomain_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_virtualdomain`|
+|ReferencingAttribute|`msdynmkt_owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`msdynmkt_businessunit_msdynmkt_virtualdomain_owningbusinessunit`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdynmkt_parentowningbusinessunit_businessunit"></a> msdynmkt_parentowningbusinessunit_businessunit
+
+Many-To-One Relationship: [msdynmkt_imagestyle msdynmkt_parentowningbusinessunit_businessunit](msdynmkt_imagestyle.md#BKMK_msdynmkt_parentowningbusinessunit_businessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_imagestyle`|
+|ReferencingAttribute|`msdynmkt_parentowningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`msdynmkt_parentowningbusinessunit_owningbusinessunit`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msfp_alert_businessunit_owningbusinessunit"></a> msfp_alert_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [msfp_alert msfp_alert_businessunit_owningbusinessunit](msfp_alert.md#BKMK_msfp_alert_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_alert`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`msfp_alert_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msfp_surveyinvite_businessunit_owningbusinessunit"></a> msfp_surveyinvite_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [msfp_surveyinvite msfp_surveyinvite_businessunit_owningbusinessunit](msfp_surveyinvite.md#BKMK_msfp_surveyinvite_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_surveyinvite`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`msfp_surveyinvite_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msfp_surveyresponse_businessunit_owningbusinessunit"></a> msfp_surveyresponse_businessunit_owningbusinessunit
+
+Many-To-One Relationship: [msfp_surveyresponse msfp_surveyresponse_businessunit_owningbusinessunit](msfp_surveyresponse.md#BKMK_msfp_surveyresponse_businessunit_owningbusinessunit)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_surveyresponse`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencedEntityNavigationPropertyName|`msfp_surveyresponse_businessunit_owningbusinessunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+
+
+### See also
+
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
+<xref:Microsoft.Dynamics.CRM.businessunit?displayProperty=fullName>
