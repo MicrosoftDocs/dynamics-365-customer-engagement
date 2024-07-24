@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox
 description: Use this article to enable and configure inbox settings in Contact Center admin center or Customer Service admin center.
-ms.date: 07/23/2024
+ms.date: 07/24/2024
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -146,7 +146,7 @@ The following simple settings are available out of the box for the record types.
 
 Configure a customized sort option for the inbox so that users can choose the required attributes to sort by, beyond customer and date.
 
-1. In the Customer Service admin center app site map, select **Workspaces**.
+1. In the site map of Customer Service admin center app, select **Workspaces**.
 1. On the **Workspaces** page, next to **Agent experience profiles**, select **Manage**.
 1. On the **Agent experience profiles** page, select the profile you want to edit.
 1. On the **Profile** page, in **Inbox**, select **Edit**.
@@ -171,7 +171,7 @@ By default, the inbox supports entities such as case, emails, conversations, and
 
 You can help users personalize how their information displays in the inbox by customizing the card configuration.
 
-1. 1. In the admin center site map, select **Workspaces**.
+1. In the admin center site map, select **Workspaces**.
 1. On the **Workspaces** page, next to **Agent experience profiles**, select the profile you want to edit.
 1. On the **Profile** page, in **Inbox**, select **Edit**.
 1. In the **Inbox settings** pane, select the **Inbox record types** tab.
@@ -182,7 +182,7 @@ You can help users personalize how their information displays in the inbox by cu
 
 ## Real-time translation
 
-For information about how to configure real-time translation for conversations in the inbox, see [Enable real-time translation of conversations](enable-real-time-translation.md).
+Learn more about how to configure real-time translation for conversations in the inbox, at [Enable real-time translation of conversations](enable-real-time-translation.md).
 
 
 ### Related information
