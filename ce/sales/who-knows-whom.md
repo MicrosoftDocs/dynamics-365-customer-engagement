@@ -1,14 +1,14 @@
 ---
 title: Who knows whom in Dynamics 365 Sales
 description: Use who knows whom to quickly identify colleagues who can introduce you to a lead or contact.
-ms.date: 08/07/2023
+ms.date: 07/24/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
-# How to get introduced to leads or contacts  
+# Use who knows whom to connect with leads and contacts  
 
 Use who knows whom to quickly identify colleagues who can introduce you to a lead or contact.
 
@@ -36,9 +36,10 @@ For Sales Premium users, the information is populated based on Exchange data, pr
 
 The Who knows whom information is available for contacts and leads.
 
-1. In the Sales Hub app, select a lead or a contact. 
+1. In the Sales Hub app, select a lead or a contact.  
+   Depending on your screen resolution, the **Who Knows Whom** tile is either displayed at the top of the page or a few tiles down. If you don't see the tile, scroll down to find it.
 
-    The Who Knows Whom widget shows up to five people in your organization who have communicated with the lead or contact through calls and emails. It also shows you how strong their connection is. The widget is available in the **Sales Insights** form and in the main **Contact** or **Lead** form.
+    The Who Knows Whom tile shows up to five people in your organization who have communicated with the lead or contact through calls and emails. It also shows you how strong their connection is. The widget is available in the **Sales Insights** form and in the main **Contact** or **Lead** form.
 
     :::image type="content" source="media/wkw-widget.png" alt-text="Screenshot of the Who Knows Whom tile.":::
 
@@ -55,7 +56,7 @@ The Who knows whom information is available for contacts and leads.
    
 ## Turn off data sharing with Dynamics 365 applications
 
-You can choose to opt out if you don't want Dynamics 365 to collect and analyze your Exchange data. Your Office 365 organization must be in one of the [EMEA or Asia Pacific global geographies](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide&preserve-view=true) to opt out of who knows whom data collection.
+You can choose to opt out if you don't want Dynamics 365 to collect and analyze your Exchange data for who knows whom. Your Office 365 organization must be in one of the [EMEA or Asia Pacific global geographies](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide&preserve-view=true) to opt out of who knows whom data collection.
 
 1. Sign in to your [Office 365 account](https://myprofile.microsoft.com/).
 
