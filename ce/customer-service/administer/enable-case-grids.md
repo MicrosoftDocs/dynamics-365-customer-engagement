@@ -31,7 +31,7 @@ The following are some of the key features of the modernized case grids:
 - The ability to use quick navigation to respond to the latest interaction.
 
 > [!NOTE]
-> - If you [opt in](/power-platform/admin/opt-in-early-access-updates) to early access features, agents will see the following features by default:
+> - If you [opt in](/power-platform/admin/opt-in-early-access-updates) to early access features, agents will see the following by default:
 >   - The **Enhanced Active Cases** view with additional fields such as, **Case Age**, **Next SLA**, **Is escalated**, and **Last Interaction**. 
 >   - Color coded icons for **Priority** and the **Origin** channels, avatars for **Owner** appear in all the case views.
 
