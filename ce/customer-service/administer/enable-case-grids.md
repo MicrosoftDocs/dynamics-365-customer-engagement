@@ -67,10 +67,6 @@ If you haven't opted in to the early access features, you must enable the **Powe
      > Any changes made by Microsoft to the default color palette won't be available automatically if you've customized the colors that appear on the case status field.
 1. Select **Save**, and then select **Publish**.
 
-> [!NOTE]
-> - If you opt in to early access features, the modern case grids control is automatically enabled for the case forms. Any customers who have the legacy grids they will be switched to the power apps grid control. non-out of the box won't be supported in the modern case grids. customizations wont be impacted. If they don't want the modern case grid read only grid.
-> - New columns that have been introduced as part of a solution will be available in the environment, after the solution is installed. The user's experience of these columns will depend on whether the modernized grids have been enabled.
-
 ## Enable the Enhanced Active Cases view in Customer Service workspace
 
 To make the **Enhanced Active Cases** view accessible to agents in Customer Service workspace:
