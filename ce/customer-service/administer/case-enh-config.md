@@ -44,13 +44,13 @@ To enable the enhanced case forms, follow these steps:
 
 ## Case for multisession experience
 
-If you [opt in](/power-platform/admin/opt-in-early-access-updates) to the early access features, the case for multisession experience form, which is the default case form for Customer Service workspace will have the following features:
+If you [opt in](/power-platform/admin/opt-in-early-access-updates) to the early access features, the case for multisession experience form, which is the default case form for Customer Service workspace, has the following components by default. These components correspond to the following experience during run time:
 
-    - **OptionSet Wrapper** to display Color coded **Case Status** fields and **Priority** icons.
-    - Queue Item Control	to displays the current queue a record belongs to and the Worked by field. You can edit the Worked by and save the changes.
-    - Due open activities control to display the activities that are due today or are overdue.
-    - **Notes Control** You can add notes without saving the case.
-    - An **Attachment Control** to display the attachments that are linked to the case. 
+   - **OptionSet Wrapper**: Displays color coded **Case Status** fields and **Priority** icons.
+   - **Queue Item Control**: Displays the current queue a record belongs to and the Worked by field. You can edit the **Worked by** field and save the changes.
+   - **Due open activities control**: Displays the activities that are due today or are overdue.
+   - **Notes Control**: Allows agents to add notes without saving the case.
+   - **Attachment Control**: Displays the attachments that are linked to the case. 
 
 ## View and use default components available on enhanced full case form
 
