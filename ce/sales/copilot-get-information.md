@@ -30,11 +30,8 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 
 > [!IMPORTANT]
 >
-> - This is a production ready preview feature.
-> - Production ready previews are subject to supplemental terms of use. More information: [Supplemental terms of use for Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2189520)
-
->[!NOTE]
->This feature is available only if your administrator has [opted in to early access updates](/power-platform/admin/opt-in-early-access-updates).
+> - The Account summary feature is an early access feature. You can [opt in](/power-platform/admin/opt-in-early-access-updates) to use it for testing and adoption in your environments.
+> - This feature is available only if your administrator has [opted in to early access updates](/power-platform/admin/opt-in-early-access-updates).
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize account**.

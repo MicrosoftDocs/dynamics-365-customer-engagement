@@ -91,8 +91,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
 > [!IMPORTANT]
 >
-> - The Account summary feature is a production ready preview feature.
-> - Production ready previews are subject to supplemental terms of use. More information: [Supplemental terms of use for Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2189520)
+> - The Account summary feature is an early access feature. You can [opt in](/power-platform/admin/opt-in-early-access-updates) to use it for testing and adoption in your environments.
 > - If you have not opted in for the early access preview features, you continue to see account summary as a public preview feature. However, the account summary feature public preview must be enabled.  
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
