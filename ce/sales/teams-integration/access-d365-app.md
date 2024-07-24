@@ -1,7 +1,7 @@
 ---
 title: Access the Dynamics 365 app through messaging extensions
 description: Learn how to access the Dynamics 365 app through messaging extensions
-ms.date: 07/23/2024
+ms.date: 07/24/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -30,7 +30,7 @@ If you've already added the Dynamics 365 app to Microsoft Teams, proceed with th
 
     Alternately, open any chat conversation with a person or group.
 
-2.  Select **Actions and apps** (**…**) on the command bar, search for **Dynamics 365**, and select it.
+2.  Select **Actions and apps** (**+**) on the command bar, search for **Dynamics 365**, and select it.
 
     ![Search for Dynamics 365 app](media/me-d365-app-search..png "Search for Dynamics 365 app")
 
