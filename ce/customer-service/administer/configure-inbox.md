@@ -32,7 +32,7 @@ The following channels are supported in the inbox:
 
 The following asynchronous channels are available in the conversation inbox:
 
-- SMS
+- Text message (SMS)
 - Persistent chat
 - Facebook
 - WeChat
