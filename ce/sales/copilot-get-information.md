@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 06/25/2024
+ms.date: 07/24/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -29,11 +29,12 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 ## Summarize an account
 
 > [!IMPORTANT]
->- The Account summary feature is a preview feature.
->- Preview features aren’t meant for production use and may have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2087259), and are available before an official release so that customers can get early access and provide feedback.
+>
+> - This is a production ready preview feature.
+> - Production ready previews are subject to supplemental terms of use. More information: [Supplemental terms of use for Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2189520)
 
 >[!NOTE]
->This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
+>This feature is available only if your administrator has [opted in to early access updates](/power-platform/admin/opt-in-early-access-updates).
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize account**.
