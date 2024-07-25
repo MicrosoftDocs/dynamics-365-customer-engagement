@@ -1,7 +1,7 @@
 ---
 title: Opportunity management FAQs
 description: Get answers to frequently asked questions about opportunity management.
-ms.date: 07/04/2024
+ms.date: 07/25/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -39,6 +39,14 @@ There are several possibilities:
 - Your administrator might have customized the **Show As** list. Ask your administrator to [add the control](opportunity-pipeline-view-for-admins.md#set-the-pipeline-view-as-the-default-opportunities-view).
 - Your organization might not have opted in for early access features. Contact your administrator if you'd like to try them out.
 - Your administrator might have disabled custom views for opportunities. Ask your administrator to [add the view manually](opportunity-pipeline-view-for-admins.md#set-the-pipeline-view-as-the-default-opportunities-view).
+
+## Why aggregate functions return unexpected values in the Pipeline view?
+
+When you use a linked entity in the filter of the Pipeline view, you notice that the value displayed in the **Metrics** section is different from the actual value. The following example shows how the count value is different from the total number of rows.
+
+:::image type="content" source="media/aggregation-issue.png" alt-text="Screenshot depicting the pipeline view aggregation issue.":::
+
+In this example, the filter is based on quotes that were created by the user. If the user has created two quotes for the same opportunity, the opportunity count is displayed as two. This is because the aggregate function counts the number of records returned by the filter. The same behavior is observed when you use the **Sum** or **Average** functions.
 
 ## Why can't I edit Est. Revenue in the Opportunity form?
 

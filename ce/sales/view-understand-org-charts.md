@@ -39,7 +39,7 @@ You can do the following actions in the org chart for better accessibility and u
     Contact cards include the following information:
 
     - [A label](manage-org-charts.md#add-a-label-to-a-contact) such as "Decision maker" or "Influencer" helps you to visualize the individual's role in the organizational structure, so that you can make an informed decision about whom to approach. A contact can also be [marked as the primary contact](manage-org-charts.md#set-a-contact-as-primary) in the org chart.
-    - A colored circle around the contact photo or initials indicates the contact's relationship health. To view the [relationship health state and trend](relationship-analytics-kpi-calculations.md#step-4-compute-the-relationship-health-and-health-trend), hover over the circle. You can also open the [**Contact Details** pane](#view-contact-details) to see the relationship health.
+    - A colored circle around the contact photo or initials indicates the contact's relationship health. To view the [relationship health state and trend](relationship-analytics-kpi-calculations.md#compute-the-relationship-health-and-health-trend), hover over the circle. You can also open the [**Contact Details** pane](#view-contact-details) to see the relationship health.
 
   > [!NOTE]
   > To view relationship health, your administrator must [turn on relationship analytics](configure-relationship-analytics.md).
