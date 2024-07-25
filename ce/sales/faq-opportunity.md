@@ -83,7 +83,7 @@ If you're planning to use the [per stage model](configure-predictive-opportunity
 
 ## How often are the predictive scores updated?
 
-**Lead scores:** For new leads, the scoring happens in near real-time. The score is displayed within five minutes of saving a new lead. For updated leads, the scores are refreshed every 24 hours.
+**Lead scores:** For new leads, the scoring happens in near real-time. The score is displayed within 15 minutes of saving a new lead. For updated leads, the scores are refreshed every 24 hours.
 
 **Opportunity scores:** For new and updated opportunities, the scores are refreshed every 24 hours.
 
