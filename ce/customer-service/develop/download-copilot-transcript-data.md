@@ -40,20 +40,43 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
       OData-Version: 4.0  
    ```
 
-The key attributes from the record are as follows:
+   The key attributes from the record are as follows:
 
-| Attribute                     | Definition                                                                                                                                                                                                 | Value for our scenario                          |
+   | Attribute                     | Definition                                                                                                                                                                                                 | Value for our scenario                          |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
 | msdyn_copilotinteractionid    |                                                                                                                                                                                                            | F0970641-C1E7-EE11-904C-000D3A3BB867            |
 | msdyn_scenariorequestid       | Groups multiple related Copilot interactions. <br> For example: an agent asks Copilot a question and then marks the response received with thumbs up. These are considered as two interactions, but are part of the same scenario. | 93893746-e203-e9b6-18b9-887d68d18daf            |
 | msdyn_scenariotype            |  Refers to the feature used by agent.                                                                                                                                             | Ask a question                                  |
 | msdyn_interactiontypename     | Refers to the specific agent interaction with Copilot.                                                                                                                                    | Generated                                       |
 | msdyn_interactionforid        |  The case or conversation from which the agent interacted with Copilot                                                                                                        | 1cd6023d-d326-ee11-9966-000d3a3411cf (case from which the interaction was initiated) |
-| msdyn_interactioncontext      | Additional context such as reference to transcripts.                                                                                                                                   |    :::image type="content" source="../media/json_interactioncontext.png" alt-text="Screenshot of sample contextdata."::: |
+| msdyn_interactioncontext      | Additional context such as reference to transcripts.                                                                                                                                   |     |
 | msdyn_interactiondataid       | Refers to msdyn_copilotinteractiondata entity that contains interaction data                                                                                                                           |                                                 |
 
 
- Copy the value of the **DataId** from the `msdyn_interactioncontext`. In our example, this value is 0a7a438f-c2a5-58d7-e03d-c932812b3095. 
+  Copy the value of the **DataId** from the `msdyn_interactioncontext`. Here's a sample JSON context.
+
+     ```json
+  
+         { 
+          "ResponseStatusCode": 20000, 
+          "Plugins": { 
+           }, 
+           "Transcript": { 
+           "Id": "c477c6dd-d877-c6d1-9337-31e5b54e4a1b", 
+           "DataId": "0a7a438f-c2a5-58d7-e03d-c932812b3095"  
+           }, 
+           "Filters": { 
+            "AgentContextFilters": [ 
+            ], 
+            "DynamicFilters": { 
+              "IsApplied": false 
+           } 
+        } 
+      }
+
+     ```
+
+   In our example, this value is 0a7a438f-c2a5-58d7-e03d-c932812b3095. 
 
 3. The following Web API request retrieves the transcript in the base64 encoded transcript.
 
