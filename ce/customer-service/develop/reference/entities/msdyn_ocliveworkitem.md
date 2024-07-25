@@ -1,7 +1,7 @@
 ---
-title: "msdyn_ocliveworkitem Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_ocliveworkitem entity."
-ms.date: 05/23/2023
+title: msdyn_ocliveworkitem Entity Reference 
+description: Includes schema information and supported messages for the msdyn_ocliveworkitem entity.
+ms.date: 07/25/2024
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
