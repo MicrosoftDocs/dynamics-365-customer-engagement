@@ -50,7 +50,7 @@ The message **The rule doesn't have any conditions applicable to the record** ap
 
 ### Reason 6
 
-Microsoft Exchange conversations are used to identify emails that are part of one conversation.
+Microsoft Exchange conversations are used to identify emails that are part of a conversation.
 
 **Resolution**: Microsoft Exchange groups together related email and assigns them an id (conversation id). This helps identify all the replied emails sent to a tracked email.
 
