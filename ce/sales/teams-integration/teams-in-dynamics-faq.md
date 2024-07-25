@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams chat integration FAQs
 description: Collaborate efficiently in Dynamics 365 without switching to Teams. This page include FAQs about the integration.
-ms.date: 05/09/2023
+ms.date: 07/26/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -9,26 +9,6 @@ ms.reviewer: shjais
 ---
 
 # Microsoft Teams chat integration FAQs
-
-## Who needs to provide consent for this integration?  
-
-The tenant admin will be required to provide initial consent for the integration. After the tenant admin provides consent, an application administrator can enable the integration at the instance level.
-
-## Which tenant admin role is required for providing consent? 
-
-You must be a global administrator to provide consent.
-
-## What is the scope of the consent?
-
-Consent is given at the tenant level. It applies to all Dynamics 365 instances under the same tenant.
-
-## What happens when consent is provided?
-
-When the tenant admin provides consent, an enterprise application called **Dynamics 365 Microsoft Teams Collaboration Integration** is created in Microsoft Entra ID and permissions are given to the enterprise application. Also, a flag is set internally in Dynamics 365 to indicate that the feature is enabled. This flag controls the UI behavior, such as displaying the **Collaborate** menu in the command bar.
-
-## After consent is provided, is Teams integration enabled for all instances?
-
-No. After the tenant admin provides consent, a Dynamics 365 system administrator can enable the integration for any instance under the same tenant.
 
 ## What are the privileges and types of permissions required by the integration?
   
@@ -39,10 +19,6 @@ No. After the tenant admin provides consent, a Dynamics 365 system administrator
 | Presence.Read.All   | Delegated   | Reads presence information for all users to be displayed on the user avatars in the chat list.    |
 | User.Read.All       | Application | Reads the display name and licenses of users to validate whether the suggested participants have a Teams license assigned. This permission is used by the **Suggested chats & contacts** section in the chat list. The permission is set at the application level, because it's used by a background service for better performance. |
 | User.ReadBasic.All  | Delegated   | Reads users' photos.  |
-
-## Does the consent apply to other Microsoft services as well?
-
-No. Other Office services, such as SharePoint and Exchange, don't require explicit consent because they're managed internally by Teams. 
 
 ## Will the integration in any way affect security constraints or configuration in Dynamics 365 and Teams?  
 
