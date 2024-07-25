@@ -46,6 +46,7 @@ When you set up digital sales with a Sales Enterprise license, you get to explor
 |Relationship intelligence | Basic [relationship insights](relationship-analytics-overview.md#basic-relationship-insights) and [who knows whom information](who-knows-whom.md#basic-who-knows-whom-information), generated from Dynamics 365 data.| Advanced [relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights) and [who knows whom information](who-knows-whom.md#enhanced-who-knows-whom-information), generated from Dynamics 365 and Exchange data. | 
 
 1. In the lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.  
+
 1. from the left navigation pane, select **Overview**.  
     The **Sales settings** page is displayed with the list of digital selling capabilities. Here is the list of digital selling capabilities that you can set up:  
     - [Sales accelerator](digital-selling-sales-accelerator.md)
@@ -55,9 +56,8 @@ When you set up digital sales with a Sales Enterprise license, you get to explor
         > [!NOTE]
         > Basic relationship insights and who knows whom information are available for early access to Sales Enterprise customers out-of-the-box and does not require any setup. More information: [View relationship analytics and KPIs](relationship-analytics.md).
 
-    After you've set up the features, the **Quick setup** button changes to **Edit settings**.
-
-    :::image type="content" source="media/ds-all-setup.png" alt-text="Screenshot showing all features enabled in digital sales.":::
+1. Select the feature and then select **Quick setup**.
+   After you've set up the features, the **Quick setup** button changes to **Edit settings**.
 
 > [!NOTE]
 > Each of the Sales Premium features has an advanced settings page, too. Settings you change in either place are reflected in both quick setup and advanced settings.

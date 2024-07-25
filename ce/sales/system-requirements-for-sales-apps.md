@@ -32,7 +32,7 @@ The system and license requirements to use the sales apps are as follows:
 For a list of regions supported for product availability and data location, see [Infrastructure and availability PDF](https://aka.ms/dynamics_365_international_availability_deck).
 
 > [!NOTE]
-> Sales Premium features are supported only in specific regions. For more information, see [In which region is Sales Premium available?](faq-region-language.md#in-which-region-is-sales-premium-available).
+> Sales Premium features are supported only in specific regions. For more information, see [In which region is Sales Premium available?](faq-region-language.md#in-which-countryregion-is-sales-premium-available).
 
 ## Supported languages
 
