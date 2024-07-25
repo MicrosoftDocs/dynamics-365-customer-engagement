@@ -117,11 +117,63 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
 
    ```
 
+## Retrieve verbatim feedback
+
+When an agent interacts with Copilot, they can provide feedback on the responses provided by Copilot. The feedback is stored in the `msdyn_copilotinteraction` table in Dataverse. 
+
+For example, the Copilot's response isn't accurate and the agent selects the thumbs-down icon to provide feedback. The agent also provides verbatim feedback. The application creates a record in the `msdyn_copilotinteraction` table with the `msdyn_interactiontypename` set to ThumbsDown.
+
+You can get the verbatim feedback provided by the agent as follows:
+
+1. Get the required`msdyn_interactiondataid`value from the `msdyn_copilotinteraction` table.
+1. The following Web API request retrieves the verbatim feedback in the base64 encoded format.
+
+   ```http
+ 
+      [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_copilotinteractiondataid>)
+      Accept: application/json  
+      OData-MaxVersion: 4.0  
+      OData-Version: 4.0  
+   ```
+
+1. Decode the base64 encoded data to get the verbatim feedback. You can use an online base64 decoder tool to decode the data. For our example, the verbatim feedback is available in the `msdyn_verbatim` column.<br>
+
+   ```json
+
+     {
+     "@odata.context": "https://ocrealtimeperftest001.crm.dynamics.com/api/data/v9.1/$metadata#msdyn_copilotinteractiondatas/$entity",
+     "@odata.etag": "W/\"29538313\"",
+     "_owningbusinessunit_value": "0e9ec0a2-eb6a-ed11-9561-000d3a336228",
+     "statecode": 0,
+     "statuscode": 1,
+     "_createdby_value": "586cb7a8-eb6a-ed11-9561-000d3a336228",
+     "msdyn_copilotinteractiondataid": "807ff9e4-cbe7-ee11-904c-000d3a3bb867",
+     "_ownerid_value": "586cb7a8-eb6a-ed11-9561-000d3a336228",
+     "modifiedon": "2024-03-21T21:42:21Z",
+     "msdyn_verbatim": "Article is outdated",
+     "_owninguser_value": "586cb7a8-eb6a-ed11-9561-000d3a336228",
+     "_modifiedby_value": "586cb7a8-eb6a-ed11-9561-000d3a336228",
+     "versionnumber": 29538313,
+     "createdon": "2024-03-21T21:42:21Z",
+     "msdyn_interactiondata_name": null,
+     "overriddencreatedon": null,
+      "importsequencenumber": null,
+     "_modifiedonbehalfby_value": null,
+     "msdyn_interactiondata": null,
+     "utcconversiontimezonecode": null,
+     "_createdonbehalfby_value": null,
+     "msdyn_name": null,
+     "_owningteam_value": null,
+     "timezoneruleversionnumber": null
+   }
+
+  ```
+
 ## Download interaction data
 
 For all other interactions between agents and Copilot, data is stored in the `msdyn_copilotinteractiondata` table in Dataverse. 
 
-For example, an interaction can be an agent using Copilot to generate an email or a case summary. You can download the interaction data as follows:
+For example, an interaction can be an agent using Copilot to generate an email and a case summary. You can download the interaction data as follows:
 
 1. Use the web API call to [get the interaction id](#get-interaction-id).
 1. The following Web API request retrieves the interactions data from the `msdyn_copilotinteraction` table in the base64 encoded format:
@@ -136,7 +188,6 @@ For example, an interaction can be an agent using Copilot to generate an email o
 
     :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
 
-If you want to download the feedback provided by the agent, follow the same steps. Verbatim feedback provided by agents is stored in the `msdyn_verbatim` attribute in the `msdyn_copilotinteractiondata` table.
 
 ### Get interaction ID
 
