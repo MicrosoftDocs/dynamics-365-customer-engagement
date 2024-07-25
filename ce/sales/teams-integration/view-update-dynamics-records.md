@@ -1,7 +1,7 @@
 ---
 title: View and update record details within Microsoft Teams
 description: Learn how to view and update record details within Microsoft Teams
-ms.date: 07/23/2024
+ms.date: 07/25/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -28,20 +28,20 @@ After you receive a card in a Teams chat, you can view its details and update th
 
     - **View details**: The record is opened in a new window inside Teams.
     
-        ![Interactive card within Teams](media/me-view-details-teams..png "Interactive card within Teams")
+        ![Interactive card within Teams](media/me-view-details-teams.png "Interactive card within Teams")
 
     -  **Open in Dynamics 365**: The record is opened in the customer engagement app.
 
         > [!NOTE]
         > The recipients can view and update the record if they have the necessary permissions in Dynamics 365. Otherwise, they'll see a permission error.
 
-        ![Interactive card in the customer engagement app](media/me-info-card..png "Interactive card in the customer engagement app")
+        ![Interactive card in the customer engagement app](media/me-info-card.png "Interactive card in the customer engagement app")
 
 2.  Update the details as required and save the changes.
 
 3.  To see the updated changes in the card, hover over the card, select **More options** (**…**), and then select **Refresh**.
 
-    ![Refresh the card](media/me-refresh-card..png "Refresh the card")
+    ![Refresh the card](media/me-refresh-card.png "Refresh the card")
 
 ### See also
 
