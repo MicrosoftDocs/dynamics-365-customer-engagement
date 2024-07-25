@@ -344,7 +344,7 @@ items:
           href: mobile/booking-maps.md
         - name: Create service reports
           href: mobile/create-service-report.md
-      - name: Use the new experience
+      - name: Use the new experience (Preview)
         href: mobile/do-work-newux.md
 
     - name: Customize the mobile app
