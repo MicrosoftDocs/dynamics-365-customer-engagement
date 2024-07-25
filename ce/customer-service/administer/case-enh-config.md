@@ -50,7 +50,7 @@ If you [opt in](/power-platform/admin/opt-in-early-access-updates) to the early 
    - **Queue Item Control**: Displays the current queue a record belongs to and the Worked by field. You can edit the **Worked by** field and save the changes.
    - **Due open activities control**: Displays the activities that are due today or are overdue.
    - **Notes Control**: Allows agents to add notes without saving the case.
-   - **Attachment Control**: Displays the attachments that are linked to the case. 
+   - **Attachment Control**: Displays the attachments that are linked to the case by default. If you want agents to upload attachments and do other actions, perform the steps in [Use attachment control](add-attachment-control.md)
 
 ## View and use default components available on enhanced full case form
 
