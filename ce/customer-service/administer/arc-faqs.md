@@ -56,7 +56,7 @@ Microsoft Exchange conversations are used to identify emails that are part of on
 
 If you use correlation to track and group related email conversations, ARC won't create a case for the email replies, when an active case connected to the tracked emails already exists.
 
-Learn more information at [Use correlation to track email conversations](/dynamics365/customerengagement/on-premises/admin/email-message-filtering-correlation?view=op-9-1#how-customer-engagement-on-premises-uses-conversations-to-track-emails)
+Learn more information at [Use correlation to track email conversations](/dynamics365/customerengagement/on-premises/admin/email-message-filtering-correlation?&preserve-view=true #how-customer-engagement-on-premises-uses-conversations-to-track-emails)
 
 ### Why do multiple cases get created from a single email?
 
