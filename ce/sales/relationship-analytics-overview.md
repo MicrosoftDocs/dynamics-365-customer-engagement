@@ -38,10 +38,9 @@ Basic relationship insights are generated out-of-the-box using emails and appoin
 
 The following screenshot illustrates the relationship analytics widgets that are available out-of-the-box for a lead. Similar widgets are available for the Contact, Account, and Opportunity entities.
 
-:::image type="content" source="media/relationship-analytics-tab.png" alt-text="Screenshot of the relationship analytics widgets available out-of-the-box for the Lead entity." lightbox="media/relationship-analytics-tab.png":::<!-- EDITOR'S NOTE: Please revise the numbered callouts in the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main).-->
+:::image type="content" source="media/relationship-analytics-tab.png" alt-text="Screenshot of the relationship analytics widgets available out-of-the-box for the Lead entity." lightbox="media/relationship-analytics-tab.png":::
 
-<!-- EDITOR'S NOTE: Please turn the following table into a legend in the form of an ordered list IAW the new screenshot guidelines. -->
-|Number |Widget  |Description  |Available for  |
+|Legend |Widget  |Description  |Available for  |
 |------|---------|---------|---------|
 | 1 |Summary   | Shows the summary of metrics and KPIs obtained for the records from your interactions with customers through emails, meetings, and phone calls. For example, *You have initiated 3 meetings more compared to the customer.*  |Account, Contact, Lead, Opportunity    |
 | 2 |Most contacted and Most contacted by   | Shows the top three active contacts for the deal from your and your customer's organizations, with details about the number of times they've interacted and the modes of interaction. The **Last updated date** shows the timestamp of the last KPI calculation.     | Account, Lead, and Opportunity  |
@@ -58,10 +57,9 @@ Enhanced relationship insights are available with the Sales Premium license. You
 
 The following screenshot illustrates the enhanced relationship insights that are available for an opportunity. Similar widgets are available for the Contact, Account, and Lead entities. For Opportunity records, [the KPIs are compared with similar won deals](relationship-analytics.md#compare-the-kpis-of-an-opportunity-with-similar-opportunities).
 
-:::image type="content" source="media/relationship-analytics-tab-advanced.png" alt-text="Screenshot of the enhanced relationship analytics widgets available for an opportunity with Sales Premium." lightbox="media/relationship-analytics-tab-advanced.png":::<!-- EDITOR'S NOTE: Please revise the numbered callouts in the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main).-->
+:::image type="content" source="media/relationship-analytics-tab-advanced.png" alt-text="Screenshot of the enhanced relationship analytics widgets available for an opportunity with Sales Premium." lightbox="media/relationship-analytics-tab-advanced.png":::
 
-<!-- EDITOR'S NOTE: Please turn the following table into a legend in the form of an ordered list IAW the new screenshot guidelines. -->
-|Number|Widget  |Description  |Available for  |
+|Legend |Widget  |Description  |Available for  |
 |------|---------|---------|---------|
 | 1 |Summary   | Shows the summary of metrics and KPIs obtained for the records from your interactions with customers through emails, meetings, and phone calls. For example, *You have initiated 3 meetings more compared to the customer.*  |Account, Contact, Lead, Opportunity    |
 | 2 |Relationship health   |  Shows your overall relationship health with the customer, and includes the recent trend for the deal. <br>- **Next interaction.** Shows the date and time for the next activity that's scheduled for the record. If you have access to that activity, you also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.<br> - **Last interaction.** Shows the date and time for the last activity that you completed for the record. If you have access to that activity, you also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.     | Contact, Lead, Opportunity  |

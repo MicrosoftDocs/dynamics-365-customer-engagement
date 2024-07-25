@@ -51,7 +51,7 @@ The following steps describe how to view the relationship analytics for a lead. 
 
 1. In the views list, select **My Open Leads by Relationship**.
 
-    :::image type="content" source="media/my-open-lead-by-relationshipp-view.png" alt-text="Screenshot of the My Open Leads by Relationship view." lightbox="media/my-open-lead-by-relationshipp-view.png":::<!-- EDITOR'S NOTE: Please correct the misspelling in the file name. -->
+    :::image type="content" source="media/my-open-lead-by-relationshipp-view.png" alt-text="Screenshot of the My Open Leads by Relationship view." lightbox="media/my-open-lead-by-relationship-view.png":::
 
 ## Identify critical opportunities with the relationship pipeline view
 
