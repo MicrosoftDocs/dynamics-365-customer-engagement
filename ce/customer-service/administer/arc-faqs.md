@@ -52,7 +52,7 @@ The message **The rule doesn't have any conditions applicable to the record** ap
 
 Microsoft Exchange conversations are used to identify emails that are part of a conversation.
 
-**Resolution**: Microsoft Exchange groups together related email and assigns them an id (conversation id). This helps identify all the replied emails sent to a tracked email.
+**Resolution**: Microsoft Exchange groups related email and assigns the conversation id to them. This helps identify all the email replies sent to a tracked email.
 
 If you use correlation to track and group related email conversations, ARC won't create a case for the email replies, when an active case connected to the tracked emails already exists.
 
