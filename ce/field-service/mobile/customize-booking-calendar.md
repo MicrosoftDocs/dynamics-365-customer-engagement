@@ -49,7 +49,7 @@ Custom fields are also shown on the calendar's day view when the booking duratio
 > [!NOTE]
 > If you have configured multiple views for the mobile app, it is recommended you include the new fields into each view that can be accessed from the mobile app.
 
-## [New mobile UX](#tab/vNext) (Preview)
+## [New mobile UX (Preview)](#tab/vNext)
 
 [!INCLUDE [public-preview-banner](../../includes/public-preview-banner.md)]
 
