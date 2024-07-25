@@ -43,7 +43,7 @@ Entitlement applications use AND logic. This means that if you specify a service
 
 You can apply multiple entitlements to a single work order product or service. Entitlements can be applied based on different work order and work order product and service attributes. For example, an entitlement can apply based on a work order billing account or a customer asset category. To learn how to create an entitlement for both of these scenarios, go to [Create entitlements for work orders](work-order-entitlements.md).
 
-In such cases, all applicable entitlements show as options in the **Entitlement** lookup field for the work order. However, the system selects one entitlement by default. The system first looks at the **Entitlement Prioritization** values of all applicable entitlements and selects the one with the highest priority (1 being the highest priority). Any priority value is greater than a blank priority value. 
+In such cases, all applicable entitlements show as options in the **Entitlement** lookup field for the work order. However, the system selects one entitlement by default. The system first looks at the **Entitlement Prioritization** values of all applicable entitlements and selects the one with the highest priority (1 being the highest priority). Any priority value is greater than a blank priority value.
 
 If no priority values exist or priority values are equal, the system selects the most specific entitlement. For example, an entitlement is set up based on a billing account. A second entitlement is set up based on a billing account and a customer asset category. In this case, the second entitlement is selected because it's more specific, since it contains two factors.
 
@@ -54,6 +54,5 @@ For simpler scenarios, administrators can use the relationship between work orde
 ## Next steps
 
 - [Create entitlements for work orders](work-order-entitlements.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
