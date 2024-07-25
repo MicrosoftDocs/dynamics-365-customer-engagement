@@ -117,7 +117,7 @@ The key attributes from the record are as follows:
 
 ## Retrieve verbatim feedback
 
-When an agent interacts with Copilot, they can provide feedback on the responses provided by Copilot. The feedback is stored in the `msdyn_copilotinteraction` table in Dataverse. 
+When an agent interacts with Copilot, they can provide feedback on the responses that Copilot provides. The feedback is stored in the `msdyn_copilotinteraction` table in Dataverse. 
 
 For example, the Copilot's response isn't accurate and the agent selects the thumbs-down icon to provide feedback. The agent also provides verbatim feedback. The application creates a record in the `msdyn_copilotinteraction` table with the `msdyn_interactiontypename` set to ThumbsDown.
 
