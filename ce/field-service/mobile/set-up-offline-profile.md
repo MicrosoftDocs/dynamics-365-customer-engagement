@@ -85,7 +85,4 @@ To control changes and keep your offline profiles in sync, your organization mig
 
 1. Import the managed solution into the new environment.
 
-
-
 [!INCLUDE [footer-include](../../includes/footer-banner.md)]
-

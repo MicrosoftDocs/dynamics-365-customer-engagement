@@ -58,8 +58,6 @@ The **Timeline** tab shows you other historical data related to the booking.
 
 :::image type="content" source="../media/mobile-uci-quick-notes.png" alt-text="Renderings of three mobile devices showing the Notes screen, the device camera view, and a note with photos in the Field Service mobile app.":::
 
-<!-- TODO: is the next sentence still accurate? -->
-
 Notes are available only when they're included with the Bookable Resource Booking form. You can't use notes with other forms.
 
 To save notes, users need a [security role with access](../users-licenses-permissions.md) to the `msdyn_bookableresourcebookingquicknotes` table.

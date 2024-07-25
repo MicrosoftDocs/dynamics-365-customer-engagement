@@ -8,7 +8,11 @@ ms.author: jobaker
 ms.custom: bap-template
 ---
 
-# Dynamics 365 Field Service mobile app troubleshooting
+# Dynamics 365 Field Service mobile app troubleshooting (Preview)
+
+[!INCLUDE [public-preview-banner](../../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../../includes/public-preview-note.md)]
 
 This article lists common issues with the [Field Service mobile app](set-up-field-service-mobile.md) and steps to resolve them. You need administrator permissions in Field Service for all resolution steps.
 
