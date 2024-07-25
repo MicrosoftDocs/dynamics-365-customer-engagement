@@ -1,12 +1,12 @@
 ---
 title: Edit schedule board booking templates
 description: Learn how to edit and customize the schedule board booking template in Dynamics 365 Field Service.
-ms.date: 02/14/2023
+ms.date: 06/27/2023
 ms.reviewer: mhart 
 ms.topic: how-to
 ms.custom: bap-template
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Edit schedule board booking templates

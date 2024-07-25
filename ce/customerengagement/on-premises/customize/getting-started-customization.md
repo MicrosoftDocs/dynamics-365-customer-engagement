@@ -13,7 +13,7 @@ applies_to:
 author: Mattp123
 ms.assetid: d6bd269e-0000-44e9-b686-a6240a101ec7
 caps.latest.revision: 14
-ms.custom: intro-internal
+ms.collection: get-started
 ms.author: matp
 search.audienceType: 
   - customizer

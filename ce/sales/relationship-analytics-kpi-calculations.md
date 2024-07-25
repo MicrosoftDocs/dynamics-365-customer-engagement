@@ -3,7 +3,7 @@ title: Relationship analytics KPI calculations
 description: Learn how relationship analytics KPIs are calculated in Dynamics 365 Sales.   
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: conceptual 
 ms.date: 02/07/2023
 ms.custom: bap-template

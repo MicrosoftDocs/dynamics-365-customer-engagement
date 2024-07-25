@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Sample: Query connection roles by entity type code (early bound)
 
-This sample shows how to use a query to find a connection role for an account entity by specifying an entity type code. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/QueryRoleByEntityType).
+This sample shows how to use a query to find a connection role for an account entity by specifying an entity type code. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/QueryRoleByEntityType).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

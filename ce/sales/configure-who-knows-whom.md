@@ -1,28 +1,28 @@
 ---
 title: Configure who knows whom
-description: Configure who knows whom in Dynamics 365 Sales to help sellers quickly identify colleagues who can introduce them to leads or contacts.
-ms.date: 02/07/2023
+description: Configure who knows whom to help sellers quickly identify colleagues who can introduce them to leads or contacts.
+ms.date: 07/25/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Configure who knows whom
 
-The who knows whom feature helps your sales organization quickly identify colleagues who can introduce them to leads or contacts, based on their interactions in email and meetings. Configure the feature to select an email template to use for introductions.  
+The who knows whom feature helps your sales organization quickly identify colleagues who can introduce them to leads or contacts, based on their interactions through emails and meetings. Configure the feature to select an email template to use for introductions.  
 
-> [!NOTE]
+
+>[!NOTE]
+>- [Basic who knows whom information](who-knows-whom.md#basic-who-knows-whom-information) is available out-of-the-box in all regions for Sales Enterprise users and doesn't require any setup.
+>- [Enhanced who knows whom information](who-knows-whom.md#enhanced-who-knows-whom-information) is available for Sales Premium users and is available only in [specific regions](faq-region-language.md#in-which-region-are-sales-premium-features-available).
+>- For Office 365 data, your organization's data location must be one of the following locations and not your region-specific data center location:
+>    - Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands)
+>    - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea)
+>    - Global Geography 3 – Americas (Brazil, Chile, United States)
 >
-> Who knows whom isn't available in all regions. [Learn whether who knows whom is available in your country/region](faqs-sales-insights.md#in-which-countryregion-are-the-features-available).
->
-> For Office 365 data, your organization's data location must be one of the following and not your region-specific datacenter location:
->
-> - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands)
-> - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea)
-> - Global Geography 3 – Americas (Brazil, Chile, United States)
->
-> [Learn more about data center locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
+> [Learn more on data center locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
 ## License and role requirements
 
@@ -33,7 +33,7 @@ The who knows whom feature helps your sales organization quickly identify collea
 
 ## Prerequisites
 
-- [Turn on premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
+- [Enable premium Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
 - [Turn on who knows whom in relationship intelligence](enable-ri.md).  
 - [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
 
@@ -65,13 +65,11 @@ After you enable who knows whom, you must complete the following steps for the f
 
 - [Add relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for leads or contacts.
 
-[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Get introduced to a lead](../sales/who-knows-whom.md)  
-[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)  
-[Who knows whom FAQs](faqs-sales-insights.md#who-knows-whom)
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]

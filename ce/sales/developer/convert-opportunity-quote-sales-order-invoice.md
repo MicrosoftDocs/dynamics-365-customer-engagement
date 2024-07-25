@@ -2,12 +2,12 @@
 title: Convert an opportunity to a quote, sales order, or invoice (Dynamics 365 Sales)
 description: Learn about converting an opportunity to a quote, sales order, or invoice.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 

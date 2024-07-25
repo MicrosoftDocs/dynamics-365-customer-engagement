@@ -3,18 +3,10 @@ title: "Remove user personal data from Dynamics 365 Customer Engagement (on-prem
 description: "Once a user record is deleted from the Active Directory, system admins can follow these steps to remove the user's personal data from all instances."
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
-
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer:
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
-ms.assetid: b7faefff-25e2-44a5-8dd9-49bf1a1677c6
-caps.latest.revision: 19
 author: jimholtz
-ms.author: jimholtz
+ms.author: kvivek
 search.audienceType: 
   - admin
 ---
@@ -36,9 +28,7 @@ Once the user record is deleted from Active Directory, Dynamics 365 Customer Eng
 
 ## Remove user personal data via User form
 
-When the user record is deleted from Active Directory, the following message is displayed on the User form:
-
-"This user’s information is no longer managed by Office 365. You can update this record to comply with the GDPR by removing or replacing all personal data."
+When the user record is deleted from Active Directory, a message is displayed stating that the user’s information is no longer managed by Microsoft 365 and you can update the record to comply with the privacy regulations by removing or replacing all personal data.
 
 To remove personal data:
 

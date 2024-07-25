@@ -1,8 +1,8 @@
 ---
 title: Group resources in crews
 description: Learn about resource crew scheduling for groups of resources in Dynamics 365 Field Service.
-ms.date: 02/20/2023
-ms.topic: article
+ms.date: 05/13/2024
+ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
 ---

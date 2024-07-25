@@ -1,7 +1,7 @@
 ---
 title: Feature deprecations
 description: Learn about features that are being deprecated for Dynamics 365 Field Service.
-ms.date: 03/15/2023
+ms.date: 02/09/2024
 ms.topic: conceptual
 ms.custom: bap-template
 ms.author: vhorvath
@@ -19,9 +19,18 @@ Features that have been deprecated in Dynamics 365 Field Service are listed in t
 
 For more information about this deprecation, [see this blog post](https://cloudblogs.microsoft.com/dynamics365/it/2021/06/30/dynamics-365-field-service-on-premises-use-rights-to-retire-on-june-30-2022/).
 
-## Field Service Mobile (Xamarin) - June 30, 2022
+## Field Service Mobile (Xamarin) and related solutions - June 30, 2022
 
-For more information about this deprecation, [see this blog post](https://cloudblogs.microsoft.com/dynamics365/it/2020/05/01/next-generation-field-service-mobile-app-available/) or [Frequently Asked Questions](/dynamics365/field-service/activate-fs-mobile-app-license#faqs).
+For more information about this deprecation, [see this blog post](https://cloudblogs.microsoft.com/dynamics365/it/2020/05/01/next-generation-field-service-mobile-app-available/).
+
+Solution components related to the Field Service Mobile (Xamarin) application are also deprecated:
+- msdyn_GeofenceAlerts
+- msdyn_FSMNotifications
+- Woodford | Resco MobileCRM Woodford
+
+These solutions can be removed from an organization which is no longer using the Field Service Mobile - Xamarin application. While removing solutions, you may encounter dependencies. The system will inform you of these dependencies. You'll need to either delete the component or modify it to remove references to the solution you're trying to remove. For more information, see [Removing dependencies](/power-platform/alm/removing-dependencies).
+
+With the deprecation of the Field Service Mobile (Xamarin), drip scheduling is currently not available in the Field Service mobile app. Drip scheduling controlled how many bookings appear on the Field Service mobile app at one time.
 
 ## Deprecations in the scheduling solution
 

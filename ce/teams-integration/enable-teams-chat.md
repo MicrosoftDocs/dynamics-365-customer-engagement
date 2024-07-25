@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable Teams chat in Dynamics 365 | MicrosoftDocs"
 description: "Enable Teams chat to help users effectively collaborate on their Dynamics 365 customer engagement records without having to leave the application."
-ms.date: 04/11/2023
+ms.date: 06/28/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -22,7 +22,7 @@ When the feature is enabled, while working on Dynamics 365 records, sellers or a
 For app specific information about the feature, select the appropriate link below:
 
 - Dynamics 365 Sales: [Enable or disable Microsoft Teams chat in Sales Hub](../sales/teams-integration/enable-teams-chat.md)
-- Dynamics 365 Customer Service: [Configure Microsoft Teams chat in Customer Service](../customer-service/configure-teams-chat.md)
+- Dynamics 365 Customer Service: [Configure Microsoft Teams chat in Customer Service](../customer-service/administer/configure-teams-chat.md)
 - Dynamics 365 Marketing: [Collaborate using built-in Microsoft Teams chat](../marketing/teams-chat.md)
 - Dynamics 365 Field Service: [Collaborate on work orders with Microsoft Teams](../field-service/field-service-teams-collaboration.md)
 
@@ -37,7 +37,7 @@ You can enable Teams chat sync to enhance the Teams chat integration capability 
 When Teams chat sync is enabled:
 - New connected Teams chats are created as Teams chat activity records in Dynamics 365.
 - Teams chat activity records appear within the timeline control.
-- Changes to the chat in Teams sync to the corresponding Teams chat activity record in Dynamics 365. For details about what data syncs, go to go to [Sync of chat data from Teams to Dynamics 365](#sync-of-chat-data-from-teams-to-dynamics-365).
+- Changes to the chat in Teams sync to the corresponding Teams chat activity record in Dynamics 365. For details about what data syncs, go to [Sync of chat data from Teams to Dynamics 365](#sync-of-chat-data-from-teams-to-dynamics-365).
 - When you connect a Teams chat to a Dynamics 365 record, a Teams app named Dataverse Chat Sync is installed in the chat. This app allows Microsoft Dataverse to be notified when the chat is updated.
 
 > [!NOTE]
@@ -51,6 +51,9 @@ You must be a global administrator (tenant administrator) to enable Teams chat s
 1.	In the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), select an environment.
 2.	On the command bar, select **Settings** > **Integration** > **Teams integration settings**.
 3.	On the **Microsoft Teams collaboration and chat** page, turn on **Sync Teams chat data with Dynamics 365 records**.
+4. Save the changes.
+
+The feature is now enabled for all the customer engagement apps.
 
 ### Sync of chat data from Teams to Dynamics 365
 
@@ -64,12 +67,12 @@ The following table lists the data that syncs from Teams chats to the correspond
 |Members of the chat|Each user in the chat has a reference in the [ActivityParty](/power-apps/developer/data-platform/activityparty-entity) table with a party type value of 12 (Chat Participant).|
 |The unique identifier (ID) of the chat in Teams|The teamschatid attribute in the Teams chat activity row.|
 
-Additional data such as chat message text and shared files do not sync from Teams to Dynamics 365.
+Other data such as chat message text and shared files don't sync from Teams to Dynamics 365.
 
-### When changes will not sync
+### When will changes not sync
 
-A connected Teams chat will not sync changes if any of these conditions are true:
+A connected Teams chat won't sync changes if any of these conditions are true:
 
-- The Teams chat was connected to a Dynamics 365 record before chat sync was enabled. Only newly connected chats will sync changes. 
-- The Teams chat activity record is no longer active. Like other activity records, Teams chat activities can be marked as completed which means they are no longer in an active state. Only chat activities that are in an active state will sync changes. 
-- The Teams chat has not been updated in seven days. If a chat has not been updated in seven days, Microsoft Dataverse will no longer receive notifications when the chat is updated. This limit may change in the future.
+- The Teams chat was connected to a Dynamics 365 record before chat sync was enabled. Only newly connected chats sync changes. 
+- The Teams chat activity record is no longer active. Like other activity records, Teams chat activities can be marked as completed which means they're no longer in an active state. Only chat activities that are in an active state will sync changes. 
+- The Teams chat hasn't been updated in seven days. If a chat hasn't been updated in seven days, Microsoft Dataverse will no longer receive notifications when the chat is updated. This limit may change in the future.

@@ -4,7 +4,7 @@ description: How to use the Dynamics 365 for phones and tablets mobile app.
 ms.custom: 
 ms.date: 1/27/2021
 ms.reviewer: 
-
+ms.service: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -26,7 +26,7 @@ Use Dynamics 365 for phones and tablets to run customer engagement apps&mdash;su
 You can run your Sales Hub app, Customer Service Hub app, and Dynamics 365 Customer Engagement (on-premises) apps on the Dynamics 365 mobile app. For more information, go to the following articles:
 
 - [Sales Hub app on mobile devices](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
-- [Customer Service Hub on mobile devices](../customer-service/use-customer-service-hub-on-dynamics-365-mobile.md)
+- [Customer Service Hub on mobile devices](../customer-service/use/use-customer-service-hub-on-dynamics-365-mobile.md)
 - [Dynamics 365 Customer Engagement (on-premises) apps on mobile](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
 
 > [!NOTE]

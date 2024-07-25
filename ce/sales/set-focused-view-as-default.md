@@ -1,49 +1,67 @@
 ---
-title: Set focused view as the default view
-description: Set the focused view as the default view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
+title: Configure focused view as the default view
+description: Configure focused view manually for entities other than contact, account, lead, and opportunity and set it as the default view for any entity in Dynamics 365 Sales.
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.topic: how-to 
-ms.date: 03/28/2023
+ms.date: 02/02/2024
 ms.custom: bap-template 
 ---
 
-# Set focused view as the default view
+# Configure focused view as default
 
-The focused view allows sellers to view and manage account, contact, lead, and opportunity records and their associated activities on one page.
+In focused view, sellers can view and manage their CRM records and their associated activities on one page. This view makes it easier for sellers to stay focused on their tasks, saving time by eliminating the need to navigate through multiple screens. It also allows sellers to better organize and prioritize their tasks.
 
->[!IMPORTANT]
->When you set the focused view as the default, users can't switch to list view. To allow users to use both views, make the list view the default.  
+> [!NOTE]
+>
+> Focused view is not available for the **Activities** entity.
 
-## License and role requirements
+Configuring the focused view as default is allowed only for the contact, lead, account, and opportunity entities. Also, if you want to configure focused view as default for custom and other entities, see [Configure as default for other entities](#configure-as-default-for-other-entities).
 
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+You must have the **System Administrator** or similar security role to perform these configurations. 
 
-## Set as default view
+## Prerequisites
 
-By default, the **Read-only Grid view** is set as the default view for accounts, contacts, leads, and opportunities. As an administrator, you can set the focused view as the default, so sellers don't have to switch to it each time they access their respective entity list.  
+Before you configure focused view, ensure that the [focused view is enabled for your organization](enable-focused-view.md).
 
->[!NOTE]
->In this procedure, we are using opportunity as example. 
+## Configure as default for contact, account, lead, and opportunity entities
 
-1. From the Sales Hub app, select **Settings** > **Advanced Settings**.
+> [!NOTE]
+> To view the **Default view** option, ensure that you have opted in for early access features. More information: [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates)
 
-1. From the **Settings** menu, select **Customizations** > **Customize the system**.
+By default, focused view is enabled for the lead entity. However, to improve the experience and eliminate the need for manual switching to the focused view, you can configure focused view as the default view for contact, account, and opportunity entities for all users. 
 
-1. From the Power Apps Default Solution page, select **Entities** > **Opportunity**.
+To configure focused view as default, follow these steps:
 
-1. Select the **Controls** tab and select **Focused view** for web, phone, and tablet. 
-    If you don't see the **Focused view** in the **Control** list, select **Add Control**. From the **Add Control** dialog, select **Focused view** and then select **Add**.
+1. Open the contact, lead, account, or opportunity grid.  
+1. Change to focused view and in the work item section, select **More options** > **Settings**.
+1. On the **Settings** pane, select **Default view**.
 
-1. Save and publish the changes.  
+    :::image type="content" source="media/fv-settings-set-as-default.png" alt-text="Screenshot of configuring focused view as default.":::
 
-    The focused view is now set as the default view for opportunities.
+1. Turn on the toggle to enable focused view as default for the required entities.  
+1. Save and close the settings pane.
+
+   Focused view is now set as the default view for the selected entities.  
+
+## Configure as default for other entities
+
+To configure and enable focused view as default for custom and other entities, follow these steps:
+
+1. In the app, select the **Settings** icon, and then select **Advanced Settings**.  
+1. On the navigation bar, select **Settings** > **Customization** > **Customizations** > **Customize the System**.  
+1. In the solution explorer, under **Components**, expand Entities, and then select an entity. For example, Invoice.  
+1. On the **Controls** tab, select **Add Control**.  
+1. In the **Add Control** dialog box, select **Focused view**, and then select **Add**.  
+1. **Read-only grid** is the default option, so when users select a table from the site map, they see a read-only grid of invoice. To make the focused view the default view instead, select the corresponding Focused view option buttons.  
+
+    :::image type="content" source="media/fv-settings-set-as-default-other-entities.png" alt-text="Screenshot of configuring focused view as default for other entities.":::  
+1. Save and publish the configurations.  
+
+Focused view is now set as the default view for the selected entity.
 
 ### See also
 
 [View and manage records in focused view](focused-view.md)  
-[Focused view FAQs](faq-sales.yml#focused-view)
-
+[Focused view FAQs](faq-focused-view.md)

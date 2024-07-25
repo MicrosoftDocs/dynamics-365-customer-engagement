@@ -7,7 +7,6 @@ ms.reviewer:
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: index-page 
 applies_to: 
   - Dynamics 365 apps 
   - Dynamics 365 apps (on-premises)
@@ -18,11 +17,12 @@ applies_to:
 ms.assetid: 7221711f-f4f2-47e0-8a05-f5c30952e846
 caps.latest.revision: 62
 author: mduelae
-ms.author: mkaur
+ms.author: bharavar
 search.audienceType: 
   - admin
   - customizer
   - enduser
+  ms.topic: conceptual
 ---
 # Dynamics 365 for Outlook User Guide
 

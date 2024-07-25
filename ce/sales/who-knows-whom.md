@@ -1,14 +1,15 @@
 ---
-title: Get introduced to leads or contacts
+title: Who knows whom in Dynamics 365 Sales
 description: Learn how to use the who knows whom feature in Dynamics 365 Sales to quickly identify colleagues who can introduce you to a lead or contact.
-ms.date: 02/14/2023
+ms.date: 07/25/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 ---
 
-# Get introduced to leads or contacts  
+# Use who knows whom to connect with leads and contacts  
 
 The who knows whom feature in Dynamics 365 Sales helps you to quickly identify colleagues who can introduce you to a lead or contact.
 
@@ -25,6 +26,14 @@ Sales representatives often interact with leads they have never met. If only you
 
 For Sales Enterprise users, who knows whom is based on emails and meetings in Dynamics 365. For Sales Premium users, it's based on Exchange data, provided your administrator has [set up integration with Exchange](configure-who-knows-whom.md). If you don't want Dynamics 365 to collect your Exchange data, you can [opt out of data sharing](#turn-off-data-sharing-with-dynamics-365-applications).
 
+### Basic who knows whom information
+
+For Sales Enterprise users, the who knows whom information is populated based on emails and meeting data in Dynamics 365. This information is available out-of-the-box in all regions and doesn't require any setup.  
+
+### Enhanced who knows whom information
+
+For Sales Premium users, the information is populated based on Exchange data, provided your administrator has [configured the integration](configure-who-knows-whom.md). If you don't want Dynamics 365 to collect your Exchange data, you can [opt out](#turn-off-data-sharing-with-dynamics-365-applications) of data sharing.  
+
 ## View who knows whom  
 
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
@@ -33,7 +42,7 @@ The **Who Knows Whom** widget shows up to five people in your organization who h
 
 1. In the Sales Hub app, select a lead or a contact.
 
-    :::image type="content" source="media/wkw-widget.png" alt-text="Screenshot of the Who Knows Whom widget." lightbox="media/wkw-widget.png":::<!-- EDITOR'S NOTE: Please crop the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main).-->
+    :::image type="content" source="media/wkw-widget.png" alt-text="Screenshot of the Who Knows Whom widget." lightbox="media/wkw-widget.png":::
 
     If you see a message that you don't have sufficient privileges, ask your admin to give you the [necessary permissions](grant-access-wkw.md).
 

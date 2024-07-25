@@ -5,6 +5,7 @@ ms.date: 03/21/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Provide consent to collect data from Microsoft 365  

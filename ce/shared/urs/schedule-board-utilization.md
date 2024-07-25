@@ -1,4 +1,4 @@
-Dispatchers and service managers need use the resource utilization metric to make informed scheduling decisions. Such decisions entail assigning work orders to field technicians or reserving equipment for jobs.
+Dispatchers and service managers can use the resource utilization metric to make informed scheduling decisions.
 
 Utilization is the amount of time a dispatcher schedules a resource to work. The metric is the percentage of booked time versus working hours. On the schedule board, resource utilization shows next to a resource's name.
 

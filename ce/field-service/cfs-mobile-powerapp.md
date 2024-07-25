@@ -1,7 +1,7 @@
 ---
-title: Work IoT data on the Field Service (Dynamics 365) mobile app
-description: Learn how to access and work with IoT data provided by Connected Field Service from the Field Service (Dynamics 365) mobile app.
-ms.date: 02/17/2023
+title: Work IoT data on the mobile app
+description: Learn how to access and work with IoT data provided by Connected Field Service from the Field Service mobile app.
+ms.date: 10/05/2023
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.custom: bap-template
@@ -9,7 +9,7 @@ ms.author: vhorvath
 author: vhorvathms
 ---
 
-# Work IoT data on the Field Service (Dynamics 365) mobile app
+# Work with IoT data on the mobile app
 
 [Connected Field Service](connected-field-service.md) is the IoT layer in Dynamics 365 Field Service. It enables organizations to create work orders based on real-time information from connected devices. The integration of IoT data provides technicians with information and tools for efficient onsite service delivery.
 
@@ -25,7 +25,7 @@ Technicians can use Connected Field Service to:
 ## Prerequisites
 
 - An administrator [deployed and configured the required services for Connected Field Service](installation-setup-iothub.md).
-- You [updated to the latest version of the Field Service mobile app](upgrade-field-service.md#field-service-dynamics-365-mobile-app).
+- You [updated to the latest version of the Dynamics 365 Field Service mobile app](upgrade-field-service.md#field-service-dynamics-365-mobile-app).
 - You have an active internet connection.
 
 ## View summary tiles and device readings
@@ -63,6 +63,6 @@ To send a comment, open the IoT device record and go to **More ...** > **Send Co
 
 ## Next steps
 
-- [Use the Field Service (Dynamics 365) mobile app to complete work orders](mobile-power-app-use.md)
+- [Use the mobile app to complete work orders](mobile-power-app-use.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,8 @@
 title: "Create rollup fields in Dynamics 365 Customer Engagement (on-premises)"
 description: "Rollup fields are designed to offer insights into data by aggregating values. Learn about the capabilities of rollup fields and things to consider."
 ms.custom: 
-ms.date: 11/28/2018
+ms.date: 04/23/2024
 ms.reviewer: 
-
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -57,7 +56,11 @@ Rollup fields are designed to help users obtain insights into data by monitoring
   
 - Earliest created time of all high priority open cases for an account  
   
-Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fieldname>`_state suffix pattern. The _date field is of the Datetime data type and _state field is of the integer data type. The _state field has the following values:  
+Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fieldname>`_state suffix pattern. The _date field is of the Datetime data type and _state field is of the integer data type. 
+
+The _date field is a system created field, which is used to store the last date and time when a rollup field's value was calculated.
+
+The _state field has the following values:  
   
 |State|Description|  
 |-|-|  
@@ -153,7 +156,9 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
   
 - A rollup over the rollup field is not supported.  
   
-- A rollup can't reference a calculated field that uses another calculated field, even if all the fields of the other calculated field are on the current entity.  
+- A rollup can't reference a calculated field that uses another calculated field, even if all the fields of the other calculated field are on the current entity.
+
+- A rollup field doesn't update automatically if it uses a formula field that's dependent on time bound functions, such as `NOW()`, `UTCNOW()`, `ISUTCTODAY()`, or `UTCTODAY()`. The online recalculation option (manual refresh on the form) or **Recalculate** button must be used to calculate the latest rollup field value.
   
 - The rollup can only apply filters to the source entity or related entities, simple fields or non-complex calculated fields.  
   

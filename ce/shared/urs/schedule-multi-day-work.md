@@ -20,16 +20,38 @@ Manually scheduling a multi-day requirement on the schedule board allows you to 
 3. In the **Create Booking** pane, review and update the values as needed. Choose the **Booking Method** to define how to spread the requirement over multiple days.
 
     - Full Capacity: Books the resource’s full capacity for the specified from and to dates without regard to the resource's remaining capacity or the duration of the requirement.
-    - Remaining Capacity: Books the resource’s available capacity within the specified date range.
     - Percentage Capacity: Books the resource for a percentage of capacity for the specified from and to dates.
     - Evenly Distribute Hours: Books the resource for a specified number of hours, distributing the time evenly per day over the specified from and to dates.
     - Front Load Hours: Books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates. The front load method considers existing bookings and available capacity.
-    - Fixed Time: Books the resource regardless of working hours for the time frame you define when creating the booking.
-
+      
     > [!NOTE]
-    > Full Capacity, Percentage Capacity, Evenly Distribute Hours, and Fixed time can lead to overbooking.
+    > Full Capacity, Percentage Capacity, Evenly Distribute Hours, and Fixed time can lead to overbooking. For more information, see [Allocation methods](/dynamics365/project-operations/psa/FAQ-allocation-methods).
 
 4. Select **Book** and the system creates multiple bookings across multiple days.
+
+## Create and edit patterns for requirements
+
+Use the **Specify Pattern** control to define how to split a long-running requirement into individual bookings when it's scheduled. It allows users to customize these requirement details beyond the default allocation methods.
+
+To create a requirement detail, select **Add detail** to open a side pane where you choose the requirement and set the duration, start time, and end times for the time window. For example, the time window is from 9am to 5pm with a three hour duration. When you schedule that requirement detail, the system books a resource for three hours between 9am and 5pm. Note that the duration must be shorter than the time window. Alternatively, in daily view, drag requirement on the grid to create a new detail. In either method, select **Apply** to save the requirement detail.
+
+To edit an existing requirement detail, select it to open the **Edit detail** pane. Change the duration or time window and save the changes. To edit multiple details at once, select the requirement and select **Edit all within range** on the details pane. Under **Duration summary**, each date range that has at least one detail shows. Adjust the allocated duration where needed. Use the settings under **Duration allocation** to control how to distribute the changed durations across multiple details. When decreasing duration, there are two options:
+
+* Proportionally distributed: The decrease in duration is split among all contained details in proportion to their respective durations, so that all are decreased by the same percentage.
+* Subtracted from total: The decrease is subtracted from the total length of all contained details. This new total is then evenly distributed among contained details. 
+    
+When increasing duration, there are four options:
+
+* Proportionally Distributed: The increase in duration is split among all contained details in proportion to their respective durations, so that all are increased by the same percentage.
+* Front loaded: The increase in duration is added to the first contained detail until it hits capacity. It is then added to the next detail and so on. 
+* Distributed Evenly: The increase is split evenly among all contained details.
+* Added to total: The increase is added to the total length of all contained details. This new total is then evenly distributed among all contained details. 
+
+To delete a detail, select the detail from the calendar and select the **Delete**.
+
+### Use work hours templates
+
+Alternatively, you can set up a work hours template, which you can assign to a resource requirement. The system generates resource requirements details based on the work hours template.
 
 ## Schedule a multi-day requirement with the schedule assistant
 

@@ -1,14 +1,14 @@
 ---
-title: "Frequently asked questions about Teams chat integration  | MicrosoftDocs"
-description: "Collaborate efficiently in Dynamics 365 without switching to Teams. This page include FAQs about the integration."
-ms.date: 08/25/2022
+title: Microsoft Teams chat integration FAQs
+description: Collaborate efficiently in Dynamics 365 without switching to Teams. This page include FAQs about the integration.
+ms.date: 05/09/2023
 ms.topic: article
-
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
-# Microsoft Teams chat integration FAQ
+# Microsoft Teams chat integration FAQs
 
 ## Who needs to provide consent for this integration?  
 
@@ -24,7 +24,7 @@ Consent is given at the tenant level. It applies to all Dynamics 365 instances u
 
 ## What happens when consent is provided?
 
-When the tenant admin provides consent, an enterprise application called **Dynamics 365 Microsoft Teams Collaboration Integration** is created in Azure Active Directory and permissions are given to the enterprise application. Also, a flag is set internally in Dynamics 365 to indicate that the feature is enabled. This flag controls the UI behavior, such as displaying the **Collaborate** menu in the command bar.
+When the tenant admin provides consent, an enterprise application called **Dynamics 365 Microsoft Teams Collaboration Integration** is created in Microsoft Entra ID and permissions are given to the enterprise application. Also, a flag is set internally in Dynamics 365 to indicate that the feature is enabled. This flag controls the UI behavior, such as displaying the **Collaborate** menu in the command bar.
 
 ## After consent is provided, is Teams integration enabled for all instances?
 
@@ -44,13 +44,14 @@ No. After the tenant admin provides consent, a Dynamics 365 system administrator
 
 No. Other Office services, such as SharePoint and Exchange, don't require explicit consent because they're managed internally by Teams. 
 
-
 ## Will the integration in any way affect security constraints or configuration in Dynamics 365 and Teams?  
 
 No. The integration is developed with the core principle of not violating security in any direction. Connecting a chat or channel doesn't automatically grant participants of those chats or channels access to that Dynamics record.  Dynamics security roles & permissions will supersede any membership of a connected chat or channel. Similarly, the user trying to create a team or channel from the **Collaborate** experience in Dynamics 365 must have Teams permissions to do so.
 
-
 ## Is the Teams conversation data stored in Dynamics 365?
 
 Only the conversation ID is stored in Dynamics 365, by using a link entity to make the connection between the record and the conversation. No conversation text is stored in Dynamics 365.
- 
+
+## Is Teams chat integration supported on mobile devices?
+
+No, Teams chat integration is not supported on mobile devices.

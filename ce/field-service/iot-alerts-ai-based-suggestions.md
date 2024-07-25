@@ -1,119 +1,94 @@
 ---
-title: "IoT alert AI suggestions | MicrosoftDocs"
-description: Learn about AI suggestions for IoT alerts in Connected Field Service
-ms.date: 04/01/2020
-
+title: AI suggestions for IoT alerts
+description: Use AI to investigate and address IoT issues before they happen, by learning from previous actions taken on alerts.
+ms.date: 06/23/2023
 ms.subservice: connected-field-service
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+ms.topic: how-to
 ms.author: vhorvath
 author: vhorvathms
 ---
 
-# IoT alert AI suggestions
+# AI suggestions for IoT alerts
 
-Connected Field Service makes IoT data actionable by allowing an organization to convert IoT alerts into cases and work orders to later be investigated by the appropriate people. Over time, AI can learn from actions taken on IoT alerts and begin to make recommendations around which IoT alerts are most important and what should be done.
- 
-**IoT alert AI suggestions** tag IoT alerts with a suggested priority or incident type by learning from previous service history. For example, imagine it's common for your organization to receive an IoT alert when a machine's temperature exceeds the acceptable threshold by 10 degrees; when it happens, your organization frequently converts these IoT alerts into work orders. The AI model will learn from these actions, and the next time a new temperature alert arrives that's 15 degrees over the threshold, the AI will suggest it as high priority and suggest recalibration as the incident type.
+AI suggestions for IoT alerts use IoT data by converting IoT alerts into cases and work orders, enabling organizations to investigate and address issues before they happen. AI suggestions can also learn from previous actions taken on IoT alerts, providing recommendations on priority and incident types. For example, if your organization regularly receives IoT alerts indicating a machine's temperature exceeding the acceptable threshold. In such cases, your organization frequently converts these alerts into work orders. The AI IoT model uses this historical data to learn from the actions. When a new temperature alert arrives that surpasses the temperature threshold, the AI recognizes it and suggests appropriate actions.
 
+Implementing these IoT alert suggestions to:
 
-By enabling these IoT alert suggestions, you'll be able to:  
-- Understand which IoT alerts are higher priority.
-- Be more proactive at handling higher impact issues.
-- Better allocate limited resources to IoT alerts that become cases and work orders.
-- Use AI to scale out and learn from the experienced personnel who know how to respond to issues surfaced by IoT data.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a Dynamics 365 IoT alert, showing the incident type suggestion.](./media/cfs-iot-suggestions-alerts-drill-down2.png)
-
-A few reminders before digging into this article:
-
-- An [incident type](configure-incident-types.md) is the main issue of a work order and can dictate related details like work order type, products, services, and service tasks. 
-- **Priority** represents the priority to the business, measured by financial impact or customer satisfaction. For example, imagine an IoT alert notifies the organization that a building's heating is broken, and the outage could have a large impact on an event and customer satisfaction. This case would represent a _high_ priority because of the large business impact. For more information, see the configuration considerations at the end of this article. 
+- Gain insights into the prioritization of IoT alerts.
+- Improve your ability to proactively address critical issues.
+- Optimize the allocation resources to IoT alerts that require further action, such as cases and work orders.
+- Use AI to learn from experienced personnel's knowledge in effectively responding to issues identified through IoT data.
 
 ## Prerequisites
 
-- This feature is currently in public preview as of April 2020.
+- IoT for Field Service is set up to use one of the following options:
+  
+  - [Connected Field Service for Azure IoT Hub](installation-setup-iothub.md)
+  - [IoT provider for custom IoT solutions](cfs-custom-iot-provider.md)
 
-- Connected Field Service with either of the following:
-    -	Azure IoT Hub 
-    -	Custom IoT provider (requires additional configuration)
+- [Configured Incident types](configure-incident-types.md) that refer to the primary problem addressed in a work order and determines the associated details such as work order type, products, services, and service tasks.
 
-## Instructions
+- Priority settings on IoT alerts indicate the level of importance to the business, typically assessed based on factors like incurred cost or customer satisfaction.
 
-From Field Service, go to **Settings** > **Settings (in IoT section)** > **IoT Suggestions section**.
+- To provide the model with sufficient data for generating accurate suggestions, it's recommended to have a minimum of 50 IoT alerts that have been converted into cases or work orders.
 
-Set the **IoT suggestions** toggle to **Enabled**. 
+## Enable IoT suggestions
 
+1. In Field Service, change to the **Settings** area.
+1. Under **IoT**, select **Settings** and go to the **IoT Suggestions** tab.
+1. Set the **IoT suggestions** toggle to **Enabled**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT settings screen in Dynamics 365 Field Service, with IoT suggestions toggle set to enabled.](./media/cfs-iot-suggestions-enable.png)
+A guided experience to set up IoT suggestion launches.
 
-### Step 1: Agree to terms of use
+If the model needs to be reconfigured based on changes to the system or changing business needs, you can launch the guided experience selecting **Reconfigure IoT suggestions** in the IoT suggestion settings.
 
-First agree to the terms of service, and select **Next**.
+### Step 1: Accept the terms of service
+
+Agree to the terms of service, and select **Next**.
 
 ### Step 2: Select device identifier
 
-Select how your organization primarily uses IoT alerts in relation to devices and customer assets. As a reminder, there is a one-to-many relationship, where many devices can be related to one customer asset.
+Select how your organization primarily uses IoT alerts in relation to devices and customer assets. As a reminder, there's a one-to-many relationship, where many devices can be related to one customer asset.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT suggestions setup screen, showing the device identifier section.](./media/cfs-iot-suggestions-identifier.png)
 
-- Select **Device ID** if your organization primarily manages the IoT alerts from individual devices. Example: you have internet-connected thermometers that send temperature readings.
-- Select **Customer Asset** if your organization primarily manages the IoT alerts from devices related to customer assets. Example: you have customer assets that represent rooms in a building and each room has multiple devices sending data. When work orders are created from these IoT alerts, they are related to a customer asset.
+- Choose **Device ID** if your organization primarily manages the IoT alerts from individual devices like thermometers that send temperature readings.
+- Choose **Customer Asset** if your organization primarily manages the IoT alerts from devices related to customer assets.
 
-> [!Note]
-> If you're not sure which option to choose or if your organization manages IoT alerts at both the device level and customer asset level, then leave this as the default **Device ID**.
-
+If you're not sure which option to choose or if your organization manages IoT alerts at both the device level and customer asset level, choose the default **Device ID** option.
 
 ### Step 3: Enter rule identifier
 
-Choose the rules that you defined in IoT Hub that trigger IoT alerts. The rule paths can be found in the IoT Alert JSON.
+Choose the rules that you defined in IoT provider that trigger IoT alerts. The rule paths can be found in the IoT alert JSON.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT suggestions setup screen, showing the rule identified section.](./media/cfs-iot-suggestions-identifier-rule.png)
-
-An example of the rule path for IoT Hub is **ruleoutput**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an example rule output on the alert data.](./media/cfs-ai-ioth-rule-path.png)
+An example of the rule path for IoT Hub is `ruleoutput`.
 
 ### Step 4: Enter device properties
 
-Choose the device properties that should be considered by the AI model to make suggestions. These are the signals coming from connected devices along with other device variables and characteristics. For example, an internet-connected thermometer may give a temperature reading of 72 degrees and this temperature output should be considered. 
+Select the device properties that the AI model should consider when generating suggestions. These properties encompass the signals originating from connected devices, and other variables and characteristics associated with the devices. For example, an internet-connected thermometer that provides a temperature reading of 72 degrees. This temperature value should be taken into consideration when making suggestions.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT suggestions setup screen, showing the device properties section.](./media/cfs-iot-suggestions-properties.png)
 
-By default, the **Reading Type** and **Reading** fields in IoT Hub are used as device properties. However, you can also add custom fields. For example, you may have a model that associates a financial cost to each temperature reading; this custom addition can be added here as a device property to be considered by the AI model.
+By default, the **Reading Type** and **Reading** fields in IoT Hub are used as device properties. However, you can also add custom fields. For example, you may have a model that associates a financial cost to each temperature reading. This custom addition can be added as a device property for the AI model to consider.
 
 ### Step 5: Finish
 
-After entering the initial information, you're all done! After 24 hours, you'll start seeing recommendations. It will look at historical data as well as incoming data going forward.
+After completing the setup process, you begin receiving recommendations within 24 hours. The AI model analyzes both historical data and incoming data moving forward. Suggestions refresh and update every 24 hours.
 
-You'll know the AI-based suggestions are working when there's a suggested priority and incident type in the **Prioritized IoT Alerts** view. You can add the **Suggested Priority** and other AI fields to the default **Primary IoT alerts** view or any of your custom views.
+To verify that the AI-based suggestions are functioning properly, check the **Prioritized IoT Alerts view** on **IoT Alerts**, where you find suggested priorities and incident types.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Prioritized IoT Alerts in Field Service, showing a list of suggested priorities in one of the list's columns.](./media/cfs-iot-suggestions-alerts.png)
-
-The priority and suggested incident type is also displayed on the IoT alert form.
+The priority and suggested incident type is also displayed on the IoT alert records.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an IoT alert showing the suggestion pane.](./media/cfs-iot-suggestions-alerts-drill-down.png)
 
+The AI model assigns a priority score to alerts based on historical alerts and relevant entities. A dynamic threshold differentiates between alerts with high and low priority, depending on how quick they require a reaction. The model optimizes this threshold during each training cycle to adapt to changing data patterns. With dynamic distribution, previously scored alerts remain relevant as the model continues to learn and enhance its capabilities. The model returns **No suggestions** if there's no recommendation.
 
+## Next steps
 
-## Configuration considerations
-
-- The priority score is calculated for a particular alert using the model trained across historical alerts and related entities (see configuration considerations for more details). A dynamic threshold determines which alerts are "high" or actionable, and which are "low." The threshold is optimized in each training for maximum model performance to account for changing data patterns. A dynamic distribution also means that alerts that are previously scored stay relevant, as the model continues to learn and improve. In general, a higher priority score indicates the alert is more actionable.
-- If the model needs to be reconfigured based on changes to the system or changing business needs, you can go through the set up again by going to **Settings** > **Settings (in IoT section)** > **IoT Suggestions section** and selecting **Reconfigure IoT suggestions** in the top ribbon. 
-- When applicable, the model will return **No suggestions** if there's no recommendation. 
-- Suggestions are updated every 24 hours.
-- We recommended having at least 50 IoT alerts converted to cases or work orders to give the model enough data to make suggestions. 
-- Suggestions work whether IoT alerts are converted into cases or work orders since both have incident types.
+- [Create IoT alerts and convert IoT alerts into work orders](cfs-iot-alerts.md)
+- [IoT integration with Connected Field Service](cfs-connect-data-overview.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

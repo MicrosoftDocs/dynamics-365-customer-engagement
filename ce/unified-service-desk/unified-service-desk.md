@@ -1,15 +1,14 @@
 ---
 title: "Unified Service Desk Guide | MicrosoftDocs"
 description: "Use this topic as a starting point to understand Unified Service Desk and its features. Also find useful links for configuring and administering the product."
-ms.date: 06/03/2022
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 
 # Unified Service Desk Guide
@@ -95,8 +94,8 @@ ms.custom:
 <td>
 <h2>Related apps & framework</h2>
 <li><a href="/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](../customer-service/help-hub.md)">Customer Service Hub Help</a></li>
-<li><a href="/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](../customer-service/introduction-omnichannel.md)">Omnichannel for Customer Service Guide</a></li>
-<li><a href="/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](../customer-service/channel-integration-framework/channel-integration-framework.md)">Dynamics 365 Channel Integration Framework Guide</a></li>
+<li><a href="/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](../customer-service/implement/introduction-omnichannel.md)">Omnichannel for Customer Service Guide</a></li>
+<li><a href="/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](../channel-integration-framework/channel-integration-framework.md)">Dynamics 365 Channel Integration Framework Guide</a></li>
 </td>
 
 </tr>

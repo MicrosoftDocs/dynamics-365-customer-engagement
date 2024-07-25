@@ -1,7 +1,7 @@
 ---
 title: "Overview of Microsoft Teams integration with Dynamics 365 apps"
 description: "Dynamics 365 for Microsoft Teams integration enables users to easily work with customer engagement apps and share files directly from Microsoft Teams."
-ms.date: 09/14/2022
+ms.date: 05/26/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -9,7 +9,7 @@ ms.author: shjais
 
 # Overview of Microsoft Teams integration
 
-In today's business scenario, business groups often collaborate across departments while working on a marketing campaign, pursuing a sales opportunity, or solving a customer issue. Dynamics 365 and Microsoft Teams integration allows you to speed up the flow of work, enabling anyone in an organization to view and collaborate on Dynamics 365 records, from within the flow of work with Teams—at no additional cost. 
+In today's business scenario, business groups often collaborate across departments while working on a marketing campaign, pursuing a sales opportunity, or solving a customer issue. Dynamics 365 and Microsoft Teams integration allows you to speed up the flow of work, enabling anyone in an organization to view and collaborate on Dynamics 365 records, from within the flow of work with Teams. 
 
 Using Teams integration, you can invite anyone in the organization to view and collaborate on customer records right within a Teams chat or channel. You can also make and receive calls from within Dynamics 365 and get the work done more effectively. As a seller, you can share details on the sales opportunity, customer history, and more. As a customer service representative, you can share the customer case record, troubleshooting steps, and track the follow-up tasks.
 
@@ -68,7 +68,7 @@ Microsoft Teams is integrated into Dynamics 365 and additional capabilities are 
 
 ## Questions and feedback
 
- If you have additional feedback or questions regarding this feature, contact [D365forTeams@microsoft.com](mailto:D365forTeams@microsoft.com).
+ If you have additional feedback or questions regarding this feature, contact Microsoft Support.
 
 ## Privacy notice
 

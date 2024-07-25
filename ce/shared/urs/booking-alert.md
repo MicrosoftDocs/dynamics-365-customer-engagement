@@ -2,19 +2,15 @@ Dispatchers need to be aware of important updates and status changes to ensure a
 
 **Booking alerts** bring attention to important notifications so that dispatchers can schedule with confidence. Booking alerts display notes and reminders on the schedule board, and can relate to bookings, work orders, users, and other entities. They can be triggered based on timers, set alarms, or workflows.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of full schedule board showing booking alert.](../../field-service/media/scheduling-booking-alert-schedule-board.png)
-
 ## Create a booking alert
 
 Booking alerts are often created through automation - either a flow, plugin or through an integration with an external system. They can also be manually created from the schedule board.
 
-1. Open the schedule board, select the **Actions** and choose **New Booking Alert**.
+1. Open the schedule board, select the **Booking Alerts** icon and select **New Booking Alert**.
 
-2. On the **Booking Alert** form, enter **Subject** and **Description** to define the message that appears on the alert.
+   :::image type="content" source="../../field-service/media/create-booking-alert.png" alt-text="Screenshot with callout on the Booking Alerts icon in the schedule board actions section.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of booking alert.](../../field-service/media/booking-alert.png)
+1. On the **Booking Alert** form, enter **Subject** and **Description** to define the message that appears on the alert.
 
 1. Set the **Due Date** for when the alert shows.
 
@@ -26,7 +22,7 @@ You can edit the fields inside a booking alert by editing the **Booking Alert Te
 
 ## View the booking alert
 
-Once the due date is reached and the alert appears on the schedule board side pane, assignees can dismiss or snooze the active alert. Selecting the snooze option will dismiss the alert for a configurable amount of time.
+Once the due date is reached and the alert appears on the schedule board side pane, assignees can dismiss or snooze the active alert. Selecting the snooze option postpones the alert for a configurable amount of time.
 
 Alerts for **Bookable Resource Bookings** also show in the schedule board alongside a booking time slot.
 

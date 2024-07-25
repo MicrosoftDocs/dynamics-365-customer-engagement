@@ -8,8 +8,6 @@
     href: teams-personal-use.md
   - name: Use document management
     href: teams-doc-management.md
-  - name: Delete personal data
-    href: teams-delete-data.md
   - name: Link Dynamics 365 records to Microsoft Teams channels
     href: link-d365-records.md
   - name: Enable or disable Teams chat in Dynamics 365

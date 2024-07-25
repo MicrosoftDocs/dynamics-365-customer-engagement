@@ -73,23 +73,23 @@ The SolutionPackager tool can be used with any source control system. After a so
   
 13. Developer A is ready first.  
   
-    1.  Before he submits to source control he must get latest sources to ensure no prior check-ins conflict with his changes.  
+    1.  Before developer A submits to source control they must get latest sources to ensure no prior check-ins conflict with their changes.  
   
-    2.  There are no conflicts so he is able to submit.  
+    2.  There are no conflicts so developer A is able to submit.  
   
 14. Developer B is ready next following developer A.  
   
-    1.  Before she submits she must get the latest sources to ensure no prior check-ins conflict with her changes.  
+    1.  Before developer B submits they must get the latest sources to ensure no prior check-ins conflict with their changes.  
   
-    2.  There is a conflict because the file for “Active Contacts” has been modified since she last retrieved the latest sources.  
+    2.  There is a conflict because the file for “Active Contacts” has been modified since developer B last retrieved the latest sources.  
   
     3.  Developer B must reconcile the conflict. It is possible the capabilities of the source control system in use may aide this process; otherwise the following choices are all viable.  
   
-        1.  Developer B, through source control history, if available, can see that the developer A made the prior change. Through direct communication they can discuss each change. Then developer B only has to update her organization with the agreed resolution. She then exports, extracts, and overwrites the conflicting file and submits.  
+        1.  Developer B, through source control history, if available, can see that the developer A made the prior change. Through direct communication they can discuss each change. Then developer B only has to update their organization with the agreed resolution. Developer B then exports, extracts, and overwrites the conflicting file and submits.  
   
-        2.  Allow source control to overwrite her local file. Developer B packs the solution and imports it into her organization, then assesses the state of the view and re-customizes it as necessary. Next, she may export, extract, and overwrite the conflicting file.  
+        2.  Allow source control to overwrite their local file. Developer B packs the solution and imports it into their organization, then assesses the state of the view and re-customizes it as necessary. Next, developer B may export, extract, and overwrite the conflicting file.  
   
-        3.  If the prior change can be deemed unnecessary, developer B allows her copy of the file to overwrite the version in source control and submits.  
+        3.  If the prior change can be deemed unnecessary, developer B allows their copy of the file to overwrite the version in source control and submits.  
   
     Whether working on a shared organization or independent organizations, team development of Dynamics 365 Customer Engagement (on-premises) solutions requires those actively working on a common solution to be aware of the work of others. The SolutionPackager tool does not fully remove this need but it does enable easy merging of non-conflicting changes at the source control level, and it proactively highlights the concise components where conflicts have arisen.  
   

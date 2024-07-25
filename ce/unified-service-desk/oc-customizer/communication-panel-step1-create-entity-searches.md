@@ -3,8 +3,12 @@ title: "Create communication panel entity search | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to learn how to create the communication panel entity search forms."
 author: neeranelli
 ms.author: nenellim
+ms.topic: article
+ms.date: 06/27/2024
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 
 # Step 1: Create communication panel entity search
 

@@ -3,7 +3,7 @@ title: "Create and edit accounts and contacts in Dynamics 365 Customer Engagemen
 description: "Account and contact records store information that you and your team collect from your customers. Learn how to create, view, and edit contacts and accounts."
 ms.date: 05/05/2020
 
-ms.topic: get-started-article
+ms.topic: get-started
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 15c8b19a-5e1b-4f7c-8d00-0711be8691cf

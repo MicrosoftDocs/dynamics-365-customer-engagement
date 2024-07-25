@@ -1,24 +1,18 @@
 ---
-title: "Location auditing for the Dynamics 365 Field Service mobile app (contains video) | MicrosoftDocs"
-description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app
-ms.date: 10/18/2021
-ms.topic: article
+title: Location auditing for the mobile app
+description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app.
+ms.date: 06/19/2024
+ms.topic: how-to
 ms.subservice: field-service-mobile
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
 ---
 
-# Location auditing for the Dynamics 365 Field Service mobile app
+# Location auditing for the mobile app
 
 Field technicians often travel to various locations throughout their work day, and it's helpful for schedulers to know where technicians are at any given time.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board in Field Service, showing a resource on the map.](./media/mobile-2020-location-auditing-schedule-board.png)
-
-Technicians using the Field Service (Dynamics 365) mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board, and also audit a list showing a technician's location history.
+Technicians using the Dynamics 365 Field Service mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board, and also audit a list showing a technician's location history.
 
 In this article, we'll look at how to enable location tracking, and how to access location audits in Field Service.
 
@@ -30,14 +24,12 @@ For a guided walkthrough, check out the following video.
 
 - Administrator access to Dynamics 365 Field Service.
 - Field Service mobile app.
+- Role of the resource using the mobile application has read access to the *msdyn_geolocationsetting* table. These permissions are included with the default Field Service - Resource role.
+ 
 
 ## Step 1. Enable location tracking
 
 First, we need to make sure location tracking is enabled in Field Service. These settings allow a technician's location data to be sent to Dynamics 365 Field Service, which surfaces a technician’s location on the schedule board. The technician’s location data is stored in the geolocation tracking entity.
-
-> [!Note]
-> As of the 2021 wave 2 October Field Service update, location tracking is enabled by default for all new Field Service environments.
-
 
 In Field Service, go to **Geolocation Settings**.
 
@@ -58,21 +50,41 @@ The geolocation tracking records will be created in the following scenarios:
 
 The above events only apply within the tracking start and end times and the location checking frequency is per the “Refresh Interval.”
 
+> [!NOTE]
+> Location tracking events might be sent less frequently based on the mobile device operating system. This frequency can be influenced by battery savings settings, device battery charge status, and other applications running on the device which might consume device resources.
+
 ## Step 2. Allow Field Service mobile to access your location
 
 After enabling location tracking on the scheduler's side, make sure it's enabled and working on the mobile device side.
 
 On a mobile device, sign into the Dynamics 365 Field Service mobile app. When prompted, allow the Field Service app to access your location while using the app. You may need to launch and sign into the app again to be prompted for location. Ensure Location is toggled to *Yes* in the mobile app settings.
 
+The app requests several permissions which are needed to update the location consistently. Revoking the listed permissions can lead to poor performance or outdated location information.
+
+## [iOS devices](#tab/iOS)
+
+To have location tracking work properly, allow the app to use **Precise Location** and set the location tracking to **Always allow** in the device settings.
+
 > [!div class="mx-imgBorder"]
 > ![Simulated device showing Field Service mobile app, with the "Allow Field Service to use your location" prompt.](./media/mobile-2020-location-auditing-enable.png)
+
+## [Android devices](#tab/Android)
+
+To have location tracking work properly, complete all the following steps when prompted. Depending on your Android OS version, some steps might not appear or look slightly different.
+
+|Configuration step   | Screenshots  |
+|---|---|
+| 1. In the Field Service mobile app, select **Start location tracking**.  |  :::image type="content" source="media/mobile-android-location-permission-prompt.png" alt-text="Dialog asking to update location settings.":::  |
+| 2. Select **Precise Location** and then **Allow all the time** to ensure the app uses the accurate location.    |  :::image type="content" source="media/mobile-android-location-permission-precise.png" alt-text="Dialog asking for location permissions."::: |
+| 3. Set **Battery optimization** to **Don't optimize** to allow the Field Service app to update your location consistently.  | :::image type="content" source="media/mobile-android-location-permission-batteryoptimization.png" alt-text="Dialog asking for battery optimization settings.":::  |
+| 4. Allow the Field Service app to set **Alarms and reminders**. The app uses this permission to ensure it only tracks your location during work hours, which are [defined in the bookable resource record](set-up-bookable-resources.md#add-work-hours).  | :::image type="content" source="media/mobile-android-location-permission-alarmsreminders.png" alt-text="Dialog asking for permissions to alarms and reminders.":::|
+| 5. Allow access to your **Physical activity** information. This setting helps optimize battery life by reducing the number of location updates if you're not moving. | :::image type="content" source="media//mobile-android-location-permission-physicalactivity.png" alt-text="Dialog asking for permissions to physical activity.":::  |
+
+---
 
 ## Step 3. Verify location tracking
 
 Back in Dynamics 365 Field Service, the bookable resource's current location appears on the schedule board map. Select the map pin icon next to the bookable resource's name, and the map will display the location with a Truck icon instead of a pin icon.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board in Field Service.](./media/mobile-2020-location-auditing-schedule-board.png)
 
 ## Step 4. Location audit records
 
@@ -98,6 +110,6 @@ Here you see a list of locations throughout the day, listed by user.
 > ![Screenshot of real time mode schedule assistant setting.](./media/mobile-geofence-real-time-location-filter.png)
 
 > [!Note]
-> Location tracking is currently not available on Field Service (Dynamics 365) Windows app.
+> Location tracking is currently not available on the Field Service Windows app.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -25,7 +25,7 @@ search.audienceType:
 
 # Sample: Export and import a data map
 
-This sample shows how to create an import map (data map) in Dataverse, export it as an XML formatted data, import modified mappings, and create a new import map Dataverse based on the imported mappings. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ExportImportDataMap).
+This sample shows how to create an import map (data map) in Dataverse, export it as an XML formatted data, import modified mappings, and create a new import map Dataverse based on the imported mappings. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ExportImportDataMap).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

@@ -4,7 +4,7 @@ description: Learn about how goals are used in Resource Scheduling Optimization.
 author: ryanchen8
 ms.author: chenryan
 ms.date: 09/28/2022
-ms.topic: article
+ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
 
@@ -41,6 +41,8 @@ Using the elements of a goal, you define how bookings should be optimized.
 When Resource Scheduling Optimization is deployed, the system automatically creates a default goal with some constraints and objectives. You can modify it as needed or create a new optimization goal and set it as default.
 
 The default goal is used when single resource optimization is selected from the schedule board.
+
+Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameter** > **Resource Scheduling Optimization** to set the default goal.
 
 ## Understand constraints
 
@@ -100,7 +102,7 @@ Respect the [Territory field](set-up-territories.md) values on the requirement a
 
 ### Matches Resource Type
 
-Resource types define how the resource relates to the organization. The system considers the [Resource Type field](set-up-bookable-resources.md#create-frontline-workers-and-other-bookable-resources-manually) values on the requirement and resource records. It schedules bookings only when the resource type values on both records match.
+Resource types define how the resource relates to the organization. The system considers the [Resource Type field](set-up-bookable-resources.md) values on the requirement and resource records. It schedules bookings only when the resource type values on both records match.
 
 The following resource types are considered for optimization:
 
@@ -138,7 +140,7 @@ Prioritize bookings for requirements with the highest score for priority. The pr
 
 ### Maximize Preferred Resources
 
-Consider the list of [preferred resources](resource-preferences.md#preferred) noted on related requirements. The system will try to assign bookings to preferred resources first while meeting other constraints and objectives.
+Consider the list of [preferred resources](resource-preferences.md) noted on related requirements. The system will try to assign bookings to preferred resources first while meeting other constraints and objectives.
 
 ### Best Matching Skill Level
 

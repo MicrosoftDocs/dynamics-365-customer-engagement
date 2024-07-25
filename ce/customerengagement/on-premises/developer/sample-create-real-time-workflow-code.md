@@ -32,7 +32,7 @@ Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/t
 
 [!INCLUDE[cc-how-to-run-PA-samples](./includes/cc-how-to-run-PA-samples.md)]
 
-Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
+Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
 
 ## Demonstrates
 
@@ -40,7 +40,7 @@ The sample shows you how to create a real-time (synchronous) workflow in code in
 
 ## Example
 
-[CreateRealTimeWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/Workflow/CreateRealTimeWorkflow.cs)
+[CreateRealTimeWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/Workflow/CreateRealTimeWorkflow.cs)
 
 ### See also
 

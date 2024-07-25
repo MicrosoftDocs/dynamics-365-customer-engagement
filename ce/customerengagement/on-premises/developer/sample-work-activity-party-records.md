@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Sample: Work with activity party records
 
-This sample code shows how to work with activity party records. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ActivityPartyRecords).
+This sample code shows how to work with activity party records. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ActivityPartyRecords).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

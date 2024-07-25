@@ -1,5 +1,5 @@
 {:allowed-branchname-matches ["^main$" "^master-omnichannel$"]
- :allowed-filename-matches ["(?i)^ce/(?:(?!app-profile-manager/reference/|customer-service/channel-integration-framework/reference|customer-service/channel-integration-framework/v2|customer-service/developer/reference|customerengagement/on-premises/developer/entities|customerengagement/on-premises/snippets|sales/developer/reference/includes|sales/developer/reference/playbooks-entities|snippets|social-engagement|voice-of-customer))"]
+ :allowed-filename-matches ["(?i)^ce/(?:(?!app-profile-manager/reference/|customer-service/channel-integration-framework/reference|customer-service/channel-integration-framework/v2|customer-service/developer/reference|customerengagement/on-premises/developer/entities|customerengagement/on-premises/snippets|sales/developer-sp|sales/developer/entities|sales/developer/reference|snippets|social-engagement|voice-of-customer))"]
  :use-skip-label true
  :targets
  {

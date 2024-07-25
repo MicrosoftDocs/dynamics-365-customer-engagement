@@ -1,11 +1,15 @@
 ---
-title: "Get started with in-app marketing"
-description: "Learn how to promote your business and improve sales with targeted marketing campaigns in Dynamics 365 Sales."
-ms.date: 06/20/2022
-ms.custom: intro-internal
-ms.topic: get-started-article
+title: Get started with in-app marketing
+description: Learn how to promote your business and improve sales with targeted marketing campaigns in Dynamics 365 Sales.
+ms.date: 06/20/2024
+ms.collection: get-started
+ms.topic: overview
+ms.custom: 
+  - bap-template
+  - evergreen
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -24,6 +28,7 @@ Promote your business and improve sales with targeted marketing campaigns in [!I
 > In-app marketing is not fully supported in the Dynamics 365 app for Teams.
   
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

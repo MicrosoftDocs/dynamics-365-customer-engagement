@@ -27,7 +27,7 @@ search.audienceType:
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Sample: Detect solution dependencies](/powerapps/developer/common-data-service/org-service/samples/detect-solution-dependencies).
 
-This sample shows how to detect dependencies before you delete a solution component. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/SolutionDependencies).
+This sample shows how to detect dependencies before you delete a solution component. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/SolutionDependencies).
 
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]

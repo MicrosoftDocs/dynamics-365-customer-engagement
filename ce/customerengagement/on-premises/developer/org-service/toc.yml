@@ -1,3 +1,4 @@
+items:
 - name: Use Customer Engagement (on-premises) service
   href: ../use-microsoft-dynamics-365-organization-service.md
   items:
@@ -12,5 +13,7 @@
       href: use-executemultiple-improve-performance-bulk-data-load.md
   - name: Create early bound entity classes
     href: create-early-bound-entity-classes-code-generation-tool.md
+  - name: Create extensions for the code generation tool
+    href: extend-code-generation-tool.md
   - name: Offline use of services
     href: offline-use-services.md

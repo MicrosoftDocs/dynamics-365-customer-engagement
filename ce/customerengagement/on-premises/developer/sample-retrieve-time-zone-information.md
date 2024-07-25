@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Sample: Retrieve time zone information
 
-This sample shows how to retrieve time zone information. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveTimeZone).
+This sample shows how to retrieve time zone information. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/RetrieveTimeZone).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

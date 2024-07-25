@@ -3,10 +3,10 @@ title: Resource utilization on the schedule board in Universal Resource Scheduli
 description: Utilization is the amount of time a resource is scheduled to work. Learn about how it's calculated and displayed on the schedule board.
 ms.reviewer: mhart
 ms.subservice: common-scheduler
-ms.date: 02/21/2023
+ms.date: 10/04/2023
 ms.topic: conceptual
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Resource utilization on the schedule board in Universal Resource Scheduling

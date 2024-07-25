@@ -5,14 +5,12 @@ ms.date: 09/01/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Relationship intelligence overview 
 
-Relationship intelligence helps you stay on top of your customer relationships by providing the following insights:  
-
-- [Relationship analytics and health](#relationship-analytics-and-health)
-- [Who knows whom](#who-knows-whom)
+Relationship intelligence helps you stay on top of your customer relationships by providing insights around relationship health, who knows whom, and so on.  
 
 ## Relationship analytics and health
 

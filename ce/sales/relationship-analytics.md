@@ -1,15 +1,15 @@
 ---
 title: View relationship analytics and KPIs
 description: Learn how to use relationship analytics in Dynamics 365 Sales to gauge the health of your customer relationships through KPIs such as frequency and recency of communications, response time, and so on.
-ms.date: 02/07/2023
+ms.date: 07/25/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 ---
 
-# View relationship analytics and KPIs
+# Improve customer relationship with relationship analytics
 
 Relationship analytics uses the activity history of a seller with a contact or account and [calculates key performance indicators (KPIs)](relationship-analytics-kpi-calculations.md) based on their interactions. KPIs are available for contacts, accounts, opportunities, and leads. Each KPI is displayed as a graph to help you quickly identify relationships that need to be nurtured and KPIs to improve.
 
@@ -103,7 +103,9 @@ If relationship analytics can't detect opportunities that are similar to the cur
 
 The following screenshot shows enhanced relationship analytics for an opportunity:
 
-:::image type="content" source="media/relationship-analytics-home-page.png" alt-text="Screenshot of the Relationship analytics home page.":::
+:::image type="content" source="media/relationship-analytics-tab-advanced.png" alt-text="Screenshot of the Relationship analytics home page.":::
+
+For more information about the legends in the screenshot, see [Enhanced relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights).
 
 ### See also
 

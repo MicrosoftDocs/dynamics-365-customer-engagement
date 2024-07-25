@@ -40,7 +40,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] 
   
  ![Job Title field .](../admin/media/job-title-field.png "Job Title field")  
   
- He did the following steps:  
+John did the following steps:  
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -63,7 +63,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] 
   
  ![Field Security Profile.](../admin/media/field-security-profile.png "Field Security Profile")  
   
- He did the following to create the field security profile:  
+John did the following to create the field security profile:  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
@@ -78,7 +78,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] 
 6. Select users and then choose **Select** > **Add**.  
   
 ### Set field permissions  
- With a field security profile created and users added to the profile, John can now set permissions on the fields to match his organization’s requirements.  
+ With a field security profile created and users added to the profile, John can now set permissions on the fields to match the organization’s requirements.  
   
  ![Edit Field Security form.](../admin/media/edit-field-security.png "Edit Field Security form")  
   
@@ -95,7 +95,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] 
   
  ![Contact Rene Valdes form in Customer Engagement (on-premises).](../admin/media/contact-form-example.png "Contact Rene Valdes form in Customer Engagement (on-premises)")  
   
- When Nancy synchronizes with Customer Engagement (on-premises), she notices that the Job Title field is gone from the contact. This is because Nancy doesn’t have update rights for the Job Title field.  
+Nancy synchronizes with Customer Engagement (on-premises) and notices that the Job Title field is gone from the contact. This is because Nancy doesn’t have update rights for the Job Title field.  
   
  ![Rene contact with no Job Title in Customer Engagement (on-premises).](../admin/media/contact-no-job-title.png "Rene contact with no Job Title in Customer Engagement (on-premises)")  
   

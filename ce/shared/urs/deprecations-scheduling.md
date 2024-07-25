@@ -1,11 +1,16 @@
-Features that have been deprecated in Universal Resource Scheduling are listed in this article.
+Features that are deprecated in Universal Resource Scheduling are listed in this article.
 
 > [!IMPORTANT]
 > A deprecated feature or capability gets removed in an upcoming major release. It continues to work and is fully supported until officially removed. A deprecation notification will span at least six months. These notifications help you plan updates to your code or business processes before the feature or capability is removed. After removal, the feature or capability will no longer work.
 
 ## Deprecated: Legacy schedule board control
 
-Effective from 1 April 2023, the legacy schedule board control is deprecated and replaced with an updated schedule board control (located in the Resource Scheduling Controls solution). You can continue to use the legacy schedule board by [enabling it with a solution setting](../../common-scheduler/schedule-anything-with-universal-resource-scheduling.md#enable-the-legacy-schedule-board). However, the control will be completely removed in a future release (not before 1 April 2024).
+Effective from 1 April 2023, the legacy schedule board control is deprecated and replaced with an updated schedule board control (located in the Resource Scheduling Controls solution).
+
+Users who previously accessed the schedule board through a hardcoded URL can add the *Schedule Board Setting* entity list view to their site map to launch the schedule board control by [editing a site map](/power-apps/maker/model-driven-apps/create-site-map-app#add-a-subarea-to-a-group-in-the-site-map). On Power Apps, navigate to your solution and open the site map. In the site map control, add a new subarea to a group and set that subarea's **Type** to *URL* set the **URL** to */main.aspx?pagetype=entitylist&etn=msdyn_scheduleboardsetting*. **Title** can be set to *Schedule Board* or any other descriptive name. After you save the site map, it links to the new component to access the schedule board. 
+
+> [!NOTE]
+> The harcoded URL to access the legacy schedule board, */main.aspx?pagetype=webresource&webresourceName=msdyn_/fps/ScheduleBoard/ScheduleBoard.html*, will no longer be supported effective October 1 2024. When creating the new site map access point, do not use this URL.
 
 ## Deprecated: Configuration to automatically create a booking when an appointment is created
 

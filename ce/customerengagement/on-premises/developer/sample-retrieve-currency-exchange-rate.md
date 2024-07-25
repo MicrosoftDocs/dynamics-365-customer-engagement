@@ -19,7 +19,7 @@ search.audienceType:
 ---
 # Sample: Retrieve currency exchange rate
 
-This sample shows how to create a new currency, and how to retrieve and display the currency exchange rate relative to the organization’s base currency. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveCurrencyExchangeRate).
+This sample shows how to create a new currency, and how to retrieve and display the currency exchange rate relative to the organization’s base currency. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/RetrieveCurrencyExchangeRate).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

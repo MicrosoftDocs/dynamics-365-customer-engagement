@@ -1,75 +1,67 @@
 ---
-title: "Send commands in Connected Field Service | MicrosoftDocs"
-description: Learn how to send commands using Connected Field Service
-ms.date: 11/19/2020
-
+title: Send commands in Connected Field Service
+description: Send commands to IoT devices with Field Service to remotely control them.
+ms.date: 06/30/2023
+ms.topic: how-to
 ms.subservice: connected-field-service
-applies_to:
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
+ms.custom: bap-template
 ms.author: vhorvath
 author: vhorvathms
 ---
 
 # Send commands in Connected Field Service
 
-## Send commands from a registered asset
+Dynamics 365 Field Services enables seamless bi-directional communication with your IoT devices. It empowers your organization to not only gather data from IoT devices but also send commands and receive real-time updates. This symmetrical flow of information enhances control, monitoring, and decision-making capabilities within the IoT infrastructure.
 
-1. From the main menu, go to **Field Service** > **Registered Assets**.
+Commands are programed instructions sent from the Field Service application to IoT devices. They direct devices to perform specific actions, retrieve data, or modify their existing configurations. Commands consist of IoT definition properties that provide a standardized framework for understanding and interacting with device data. These properties represent the attributes or characteristics of IoT devices that can be monitored or controlled. For example, the IoT definition properties for a thermostat may include temperature and humidity.
 
-2. From the list of assets, choose a registered asset or device.
+> [!TIP]
+> Commands for an IoT device are usually documented in the device manual or API documentation. These resources provide detailed information on the available commands, their syntax, and how to interact with the device programmatically.
 
-3. On the command bar, select **CREATE COMMAND**.
+## Create IoT definition properties
 
-4. Enter a **Name** for the command.
+Before configuring an IoT command in Field Service, you first need to create IoT definition properties. IoT definition properties help construct the message string for your IoT command.
 
-5. In the **MESSAGE TO SEND** box, copy and paste one of these supported commends. ``` `{"CommandName":"Reset Thermostat","Parameters":{}}` `{"CommandName":"Notification","Parameters":{"Message":"Technician has been dispatched"}}` `{"CommandName":"Set Values","Parameters":{"Reading":{"Temperature":"30","Humidity":"30"}}}` ```
+1. In Field Service, change to the **Settings** area.
+1. Under **IoT**, select **IoT Property Definitions** and add a new record.
+1. Enter a **Name** and choose the **Type** of data for the property.
+1. Add information in the **Additional Properties** section. Select **Show string** to verify the constructed string.
 
-    > [!NOTE]
-    >  Before sending a command make sure there are no spaces or extra characters in the command.
+:::image type="content" source="media/ioT-property-definition.png" alt-text="Screenshot of a filled out IoT property definition record.":::
 
-6. On the command bar, select **SEND & CLOSE** to send the command.
+## Configure IoT commands
 
-## Respond to an alert
+1. In Field Service, change to the **Settings** area.
+1. Under **IoT**, select **Command Definitions** and add a new record.
+1. In the **Name** field, enter the command definition. For example: Reset Thermostat.
+1. **Save** the record.
+1. In the **Command Parameters** section, select the vertical ellipsis &vellip; and choose **Add Existing IoT Property**.
+1. Select a IoT property definition record and select **Add** and save the record again.
 
-1. Go to **Field Service** > **IoT Alerts**.
+:::image type="content" source="media/IoT-command-definition.png" alt-text="Screenshot of an IoT command definition record.":::
 
-2. Choose an existing IoT alert record.
+## Send a command on an active IoT alert
 
-3. On the command bar, select **CREATE COMMAND**.
+1. In Field Service, open the **Service** area.
+1. Under **Assets**, select **IoT Alerts** and open an existing IoT alert record.
+1. On the Iot alert record, select **Send Command**.
+1. Choose a command definition in the **Command** field and select **Send Command**.
 
-4. Enter a **Name** for the command.
+:::image type="content" source="media/IoT-alert-send-command.png" alt-text="Screenshot of an IoT alert with the send command dialog option.":::
 
-5. In the **MESSAGE TO SEND** box, copy and paste one of the supported commands listed section above.
+## Example thermostat simulator commands
 
-6. On the command bar, select **SEND&CLOSE** to send the command.
+If you use the [IoT deployment template for Azure IoT Hub](installation-setup-iothub.md), you can choose to install a thermostat simulator. The following table lists commands that you can send to the thermostat simulator.
 
-## View history of commands sent to a device
+|       Command  |     Command Message String   |
+|---|---|
+|     Reset Thermostat  |   {"CommandName":"Reset Thermostat","Parameters":{}}  |
+|     Notification  |   {"CommandName":"Notification","Parameters”: {"Message":"Technician has been dispatched"}}  |
+|     Set Values (Update IoT property definitions Temperature and Humidity)    |      {"CommandName":"Set Values","Parameters”: {"Reading":{"Temperature":"70","Humidity":"60"}}}    |
 
-1. From the main menu, go to **Field Service** > **Customer Assets**.
+## Next steps
 
-2. From the list, choose an asset.
-
-3. Scroll down to the **Command** section to view the history.
-
-## Create business process flows to automatically handle incoming IoT alerts
-
-When you receive an alert from a device, your service team can manually monitor the alerts and troubleshoot the issue remotely. If the issue is not resolved by sending a remote command, the service rep can create a case or work order and dispatch a field tech. The provided business process flow guides you through the process of manually responding to IoT alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a business process flow](../customerengagement/on-premises/customize/create-business-process-flow.md)
-
- List of default IoT actions:
-
-- IoT- Parent IoT Alerts (Action)
-
-- IoT- Register Customer Entity (Action)
-
-- IoT- Register Device (Action)
-
-- IoT – Debounce IoT Alerts (Action)
-
-- JSON-Based Field Value - Get Number (Action)
-
-- JSON-Based Field Value - Get String (Action)
-
-- JSON-Based Field Value - Get Boolean (Action)
+- [Create IoT alerts and convert IoT alerts into work orders](cfs-iot-alerts.md)
+- [AI suggestions for IoT alerts](iot-alerts-ai-based-suggestions.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

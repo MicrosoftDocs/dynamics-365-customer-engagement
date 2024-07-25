@@ -1,16 +1,14 @@
 ---
 title: "Migrate Web Client configurations to Unified Interface apps | MicrosoftDocs"
 description: "Learn how to migrate your Unified Service Desk configurations from the legacy web client to Unified Interface apps"
-ms.date: 07/30/2018
+ms.date: 06/27/2024
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
-  - intro-internal
+ms.custom: evergreen
+ms.collection: get-started
 ---
 
 # Migration of Unified Service Desk configurations from the legacy web client to Unified Interface apps
