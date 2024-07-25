@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 04/05/2024
+ms.date: 07/05/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
