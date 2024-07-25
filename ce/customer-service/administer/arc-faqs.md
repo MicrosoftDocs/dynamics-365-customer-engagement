@@ -1,7 +1,7 @@
 ---
 title: FAQ about automatic record creation
 description: Learn answers to frequently asked questions about automatic record creation.
-ms.date: 07/22/2024
+ms.date: 07/25/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -50,9 +50,11 @@ The message **The rule doesn't have any conditions applicable to the record** ap
 
 ### Reason 6
 
-Exchange conversations are being used to identify emails that are part of one conversation.
+Microsoft Exchange conversations are used to identify emails that are part of one conversation.
 
-**Resolution**: Exchange groups together related email and assigns them an id (conversation id). This helps identify all the emails that were sent to a tracked email. If you use correlation to track and group related email conversations, ARC won't create a case for the email replies.
+**Resolution**: Microsoft Exchange groups together related email and assigns them an id (conversation id). This helps identify all the replied emails sent to a tracked email.
+
+If you use correlation to track and group related email conversations, ARC won't create a case for the email replies when an active case connected to the tracked emails already exists.
 
 Learn more information at [Use correlation to track email conversations](/dynamics365/customerengagement/on-premises/admin/email-message-filtering-correlation?view=op-9-1#how-customer-engagement-on-premises-uses-conversations-to-track-emails)
 
