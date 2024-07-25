@@ -49,8 +49,7 @@ The key attributes from the record are as follows:
 | msdyn_scenariotype            |  Refers to the feature used by agent.                                                                                                                                             | Ask a question                                  |
 | msdyn_interactiontypename     | Refers to the specific agent interaction with Copilot.                                                                                                                                    | Generated                                       |
 | msdyn_interactionforid        |  The case or conversation from which the agent interacted with Copilot                                                                                                        | 1cd6023d-d326-ee11-9966-000d3a3411cf (case from which the interaction was initiated) |
-| msdyn_interactioncontext      | Additional context such as reference to transcripts.                                                                                                                                   |    :::image type="content" source="../media/json_interactioncontext.png" alt-text="Screenshot of sample contextdata."
-  |
+| msdyn_interactioncontext      | Additional context such as reference to transcripts.                                                                                                                                   |    :::image type="content" source="../media/json_interactioncontext.png" alt-text="Screenshot of sample contextdata."::: |
 | msdyn_interactiondataid       | Refers to msdyn_copilotinteractiondata entity that contains interaction data                                                                                                                           |                                                 |
 
 
