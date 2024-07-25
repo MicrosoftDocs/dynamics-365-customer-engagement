@@ -77,12 +77,15 @@ Depending on the settings that are enabled for you, either the enhanced full cas
 
    - See color coded **Case Status** fields and **Priority** icons.
    - Add notes without saving the case.
-   - See the **Attachment** tab. The attachment tab displays the attachments that are linked to the case. You can't upload attachments from this tab.
-   - **Activities Due** section. When the case is saved, the section displays links to the activities that are associated with the case, and are due on the current date. Select a link to view the activities in the **Due Activities** view.
-   - **Queue item details**. Once you save the case and route the case to a queue, this field displays the current queue the case belongs to which displays the current queue the case belongs to and the **Worked by** field
+   - See the **Attachment** tab. The attachment tab displays the attachments that are linked to the case. You can upload attachments from this tab only if your administrator has configured the attachment control.
+   - **Activities Due** section. When the case is saved, the section displays links to the activities that are associated with the case, and are due or overdue on the current date. Select a link to view the activities in the **Due Activities** view.
+   - **Queue item details**. Once you save the case and route the case to a queue, this field displays the current queue the case belongs to and the **Worked by** field
 
    > [!IMPORTANT]
    > This is an early access feature. You can [opt in](/power-platform/admin/opt-in-early-access-updates) to use it for testing and adoption in your environments.
+
+
+   :::image type="content" source="../media/def-case-maincas-mini.png" alt-text="Screenshot of the default main case form" lightbox="../media/def-case-maincase.png":::
 
    If your administrator hasn't opted in for early access, you'll see the following when you create a new case in the **Case** page.
 
