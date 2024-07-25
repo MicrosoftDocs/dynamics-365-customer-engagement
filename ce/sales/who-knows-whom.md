@@ -68,6 +68,7 @@ You can opt out if you don't want Dynamics 365 to collect and analyze your Excha
 
 ### See also
 
-[Who knows whom FAQs](faqs-sales-insights.md#who-knows-whom)
+[Configure who knows whom](configure-who-knows-whom.md)
+
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]
