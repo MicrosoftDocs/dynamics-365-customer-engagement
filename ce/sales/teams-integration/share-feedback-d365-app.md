@@ -1,7 +1,7 @@
 ---
 title: Share feedback about the Dynamics 365 app
 description: Learn how to share feedback about the Dynamics 365 app
-ms.date: 07/24/2024
+ms.date: 07/26/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
