@@ -13,7 +13,7 @@ author: vhorvathms
 
 # Register IoT devices
 
-An appliance or other asset must have sensors and connect to an IoT backend to take device readings and send that information to the cloud. These sensors are called IoT devices.
+An appliance or other asset must have sensors and connect to an Internet of Things (IoT) backend to take device readings and send that information to the cloud. These sensors are called IoT devices.
 
 Field technicians can interact with IoT devices in several ways:
 

@@ -13,7 +13,7 @@ author: vhorvathms
 
 # Use device categories in Connected Field Service
 
-Device categories help you organize devices. For example, you can categorize devices by the commands they support, the type of device, or by devices that break down more often.  
+Device categories help you organize Internet of Things (IoT) devices. For example, you can categorize devices by the commands they support, the type of device, or by devices that break down more often.  
   
 ## Create a new IoT device category
   

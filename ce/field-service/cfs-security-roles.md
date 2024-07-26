@@ -1,8 +1,7 @@
 ---
-title: "Security roles for Connected Field Service | MicrosoftDocs"
+title: Security roles for Connected Field Service
 description: Learn about security roles in Connected Field Service
-ms.date: 02/28/2019
-
+ms.date: 07/26/2024
 ms.subservice: connected-field-service
 ms.topic: conceptual
 applies_to: 
@@ -14,7 +13,7 @@ author: vhorvathms
 
 # Security roles for Connected Field Service
 
-Security roles for Connected Field Service allow administrators to give appropriate access to Internet of Things (IoT) entities, including alerts, assets, devices, and commands, which are all included with Field Service v8.3+. These security roles should be added to existing Field Service security roles for field service administrators, dispatchers, and resources. 
+Security roles for Connected Field Service allow administrators to give appropriate access to Internet of Things (IoT) entities, including alerts, assets, devices, and commands. Add these security roles to existing Field Service security roles for field service administrators, dispatchers, and resources.
 
 In general, access to IoT entities should mimic access to the customer asset entity for field service administrators, dispatchers, and resources.
 
@@ -24,19 +23,14 @@ In general, access to IoT entities should mimic access to the customer asset ent
 
 - Dynamics 365 system administrator access
 
-- General knowledge of Field Service security roles. For more information, see the topic on [setting up field service users and security roles](users-licenses-permissions.md).
+- General knowledge of Field Service security roles. For more information, go to [Set up users and security roles](users-licenses-permissions.md).
 
 > [!Note]
-> We strongly recommended making copies of the Field Service security roles and assigning the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To copy a security role, go to **Settings > Security > Security Roles**, then select a security role record and choose **Actions > Copy Role**. See the following screenshot for reference.
-> [!div class="mx-imgBorder"]
-> ![Screenshot of copying a security role.](media/admin-security-role-copy.png)
-
-
-
+> We recommend you make copies of the Field Service security roles and assign the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To copy a security role, go to [Copy a security role](/power-platform/admin/database-security).
 
 ## Add IoT security to administrator security role
 
-Field Service administrators should typically have full access to IoT entities, as these users may need a full view of IoT alerts across all devices and the ability to register new IoT devices. They are typically given a copy of the **Field Service - Administrator** security role. 
+Field Service administrators typically have full access to IoT entities. These users need a full view of IoT alerts across all devices and be able to register new IoT devices. They are typically given a copy of the **Field Service - Administrator** security role. 
 
 If your organization is using Connected Field Service, these administrators should also be assigned a copy of the **IoT - Administrator** security role.
 

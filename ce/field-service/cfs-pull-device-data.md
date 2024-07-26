@@ -1,6 +1,6 @@
 ---
-title: "Pull device data in Dynamics 365 Field Service - Connected Field Service (contains video) | MicrosoftDocs"
-description: Learn how to pull in device data in Connected Field Service for Dynamics 365 Field Service
+title: Pull device data in Connected Field Service (contains video)
+description: Learn how to pull in device data in Connected Field Service for Dynamics 365 Field Service.
 ms.date: 07/24/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
@@ -13,7 +13,7 @@ author: vhorvathms
 
 # Pull device data in Connected Field Service
 
-There are several ways you can pull the most recent device data from your IoT connected devices into Connected Field Service. When IoT alerts are triggered, device data is automatically pulled for the associated device.
+There are several ways you can pull the most recent device data from your Internet of Things (IoT) connected devices into Connected Field Service. When IoT alerts are triggered, device data is automatically pulled for the associated device.
 
 Check out the following video.
 
