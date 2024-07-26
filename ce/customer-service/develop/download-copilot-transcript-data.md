@@ -144,7 +144,7 @@ When an agent interacts with Copilot, they can provide feedback on the responses
 
 For example, the Copilot's response isn't accurate and the agent selects the thumbs-down icon to provide feedback. The agent also provides verbatim feedback. The application creates a record in the `msdyn_copilotinteraction` table with the `msdyn_interactiontypename` set to ThumbsDown.
 
-The key attribute for the record are as follows.
+The key attributes for the record are as follows.
 
 | Attribute                     | Sample data for our example                          |
 |-------------------------------|-------------------------------------------------|
