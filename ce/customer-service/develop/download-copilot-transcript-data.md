@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 07/05/2024
+ms.date: 07/26/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -40,7 +40,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
       OData-Version: 4.0  
    ```
 
-   The key attributes from the record are as follows:
+   The key attributes from the record are as follows.
 
    | Attribute                     | Definition                                                                                                                                                                                                 | Value for our scenario                          |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
@@ -53,26 +53,26 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
 | msdyn_interactiondataid       | Refers to msdyn_copilotinteractiondata entity that contains interaction data                                                                                                                           |                                                 |
 
 
-  Copy the value of the **DataId** from the `msdyn_interactioncontext`. Here's a sample JSON context.
+   Copy the value of the **DataId** from the `msdyn_interactioncontext`. Here's a sample JSON context.
 
-    ```json
+     ```json
   
-         { 
-          "ResponseStatusCode": 20000, 
-          "Plugins": { 
-           }, 
-           "Transcript": { 
-           "Id": "c477c6dd-d877-c6d1-9337-31e5b54e4a1b", 
-           "DataId": "0a7a438f-c2a5-58d7-e03d-c932812b3095"  
-           }, 
-           "Filters": { 
-            "AgentContextFilters": [ 
-            ], 
-            "DynamicFilters": { 
-              "IsApplied": false 
-           } 
-        } 
-      }
+          { 
+           "ResponseStatusCode": 20000, 
+           "Plugins": { 
+            }, 
+            "Transcript": { 
+            "Id": "c477c6dd-d877-c6d1-9337-31e5b54e4a1b", 
+            "DataId": "0a7a438f-c2a5-58d7-e03d-c932812b3095"  
+            }, 
+            "Filters": { 
+             "AgentContextFilters": [ 
+             ], 
+             "DynamicFilters": { 
+               "IsApplied": false 
+            } 
+         } 
+       }
 
      ```
 
@@ -86,7 +86,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
    ```
-   In our example, the Web API request is as follows:
+   In our example, the Web API request is as follows.
 
    ```http
     [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(0a7a438f-c2a5-58d7-e03d-c932812b3095)/msdyn_transcriptdata
@@ -144,7 +144,7 @@ When an agent interacts with Copilot, they can provide feedback on the responses
 
 For example, the Copilot's response isn't accurate and the agent selects the thumbs-down icon to provide feedback. The agent also provides verbatim feedback. The application creates a record in the `msdyn_copilotinteraction` table with the `msdyn_interactiontypename` set to ThumbsDown.
 
-The key attribute for the record are as follows:
+The key attribute for the record are as follows.
 
 | Attribute                     | Sample data for our example                          |
 |-------------------------------|-------------------------------------------------|
@@ -156,10 +156,10 @@ The key attribute for the record are as follows:
 | msdyn_interactioncontext      |                                                 |
 | msdyn_interactiondataid       | 807ff9e4-cbe7-ee11-904c-000d3a3bb867            |
 
-You can get the verbatim feedback provided by the agent as follows:
+You can get the verbatim feedback provided by the agent as follows.
 
 1. Get the required`msdyn_interactiondataid`value from the `msdyn_copilotinteraction` table.
-1. The following Web API request retrieves the verbatim feedback in the base64 encoded format.
+1. Run the following Web API request to retrieve the verbatim feedback in the base64 encoded format.
 
    ```http
  
@@ -169,7 +169,7 @@ You can get the verbatim feedback provided by the agent as follows:
       OData-Version: 4.0  
    ```
 
-In our example, the Web API request is as follows:
+In our example, the Web API request is as follows.
 
    ```http
     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(807ff9e4-cbe7-ee11-904c-000d3a3bb867)
@@ -212,7 +212,7 @@ In our example, the Web API request is as follows:
 
 For all other interactions between agents and Copilot, data is stored in the `msdyn_copilotinteractiondata` table in Dataverse. 
 
-For example, an interaction can be an agent using Copilot to generate an email and a case summary. The key attributes for our example are as follows:
+For example, an interaction can be an agent using Copilot to generate an email and a case summary. The key attributes for our example are as follows.
 
 | Attribute                     | Value for our scenario                          |
 |-------------------------------|-------------------------------------------------|
@@ -225,10 +225,10 @@ For example, an interaction can be an agent using Copilot to generate an email a
 | msdyn_interactiondataid       | f9d841e5-34e7-ee11-904c-000d3a3bb867            |
 
 
-You can download the interaction data as follows:
+You can download the interaction data as follows.
 
 1. Use the web API call to [get the interaction id](#get-interaction-id).
-1. The following Web API request retrieves the interactions data from the `msdyn_copilotinteraction` table in the base64 encoded format:
+1. Run the following Web API request to retrieve the interactions data from the `msdyn_copilotinteraction` table in the base64 encoded format:
 
    ```http
     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_interactiondataid>)/msdyn_copilotinteractiondata
@@ -236,7 +236,7 @@ You can download the interaction data as follows:
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
    ```
-In our example, the Web API request is as follows:
+In our example, the Web API request is as follows.
 
    ```http
     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatasf9d841e5-34e7-ee11-904c-000d3a3bb867)/msdyn_interactiondata
