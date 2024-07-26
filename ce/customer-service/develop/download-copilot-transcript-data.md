@@ -169,11 +169,11 @@ You can get the verbatim feedback provided by the agent as follows.
       OData-Version: 4.0  
    ```
 
-In our example, the Web API request is as follows.
+   In our example, the Web API request is as follows.
 
-   ```http
+    ```http
     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(807ff9e4-cbe7-ee11-904c-000d3a3bb867)
-   ```
+    ```
 
 1. Decode the base64 encoded data to get the verbatim feedback. You can use an online base64 decoder tool to decode the data. For our example, the verbatim feedback is available in the `msdyn_verbatim` column.<br>
 
@@ -228,7 +228,7 @@ For example, an interaction can be an agent using Copilot to generate an email a
 You can download the interaction data as follows.
 
 1. Use the web API call to [get the interaction id](#get-interaction-id).
-1. Run the following Web API request to retrieve the interactions data from the `msdyn_copilotinteraction` table in the base64 encoded format:
+2. Run the following Web API request to retrieve the interactions data from the `msdyn_copilotinteraction` table in the base64 encoded format:
 
    ```http
     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_interactiondataid>)/msdyn_copilotinteractiondata
@@ -236,11 +236,11 @@ You can download the interaction data as follows.
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
    ```
-In our example, the Web API request is as follows.
+   In our example, the Web API request is as follows.
 
-   ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatasf9d841e5-34e7-ee11-904c-000d3a3bb867)/msdyn_interactiondata
-   ```
+    ```http
+     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatasf9d841e5-34e7-ee11-904c-000d3a3bb867)/msdyn_interactiondata
+    ```
 
  3. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our email example, the decoded interaction data is displayed as follows.
 
@@ -322,7 +322,7 @@ The interactions are displayed in the response as follows.
 
   ```
 
-### See Also
+### Related information
 
 [Use Copilot to solve customer issues](../use/use-copilot-features.md)  
 [View copilot analytics report](../use/copilot-analytics-report.md)
