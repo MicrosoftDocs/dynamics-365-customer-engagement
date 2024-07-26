@@ -32826,6 +32826,11 @@
       "source_path": "ce/field-service/flw-troubleshooting.md",
       "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/sample-config-azure-bot.md",
+      "redirect_url": "configure-bot-azure",
+      "redirect_document_id": false
     }
   ]
 }
