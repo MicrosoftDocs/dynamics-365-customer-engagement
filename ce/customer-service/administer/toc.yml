@@ -665,9 +665,7 @@
         - name: Bot sessions and licensing
           href: bot-session-licensing.md
         - name: Integrate an Azure bot
-          href: configure-bot-azure.md
-        - name: Sample configuration
-          href: sample-config-azure-bot.md
+          href: configure-bot-azure.md         
       - name: Integrate a Copilot Studio bot
         href: configure-bot-virtual-agent.md
     - name: Analytics dashboards and insights
