@@ -25,7 +25,7 @@ Intelligent skill finder depends upon the custom AI Builder category classificat
 
   ## Prerequisite
 
-  * You must enable the [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) toggle to use the intelligent skill finder model.
+You must enable [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) to use the intelligent skill finder model.
 
 ## Create skill finder models
 
