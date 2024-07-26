@@ -206,7 +206,8 @@ You can get the verbatim feedback provided by the agent as follows.
      "timezoneruleversionnumber": null
    }
 
-```
+   ```
+
 
 ## Download interaction data
 
@@ -235,13 +236,15 @@ You can download the interaction data as follows.
     Accept: application/json  
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
+
    ```
+
    In our example, the Web API request is as follows.
 
-   ```http
-     [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatasf9d841e5-34e7-ee11-904c-000d3a3bb867)/msdyn_interactiondata
-   
-   ```
+    ```http
+      [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatasf9d841e5-34e7-ee11-904c-000d3a3bb867)/msdyn_interactiondata
+    
+    ```
 
  3. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our email example, the decoded interaction data is displayed as follows.
 
