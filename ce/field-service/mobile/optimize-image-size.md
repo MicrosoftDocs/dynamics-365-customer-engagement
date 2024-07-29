@@ -14,6 +14,9 @@ Frontline workers often use high-quality cameras on their mobile devices to take
 
 The Dynamics 365 Field Service mobile app on iOS and Android lets technicians turn on image upload optimization to decrease network usage and save on Dataverse storage space. When this option is turned on, the application compresses the image during upload and stores smaller files in Dataverse.
 
+> [!NOTE]
+> This feature is not supported on the Field Service app for Windows.
+
 ## Turn on optimized image upload
 
 1. Open the Field Service Mobile app on your mobile app.
