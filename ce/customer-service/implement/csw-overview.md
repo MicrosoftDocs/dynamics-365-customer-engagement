@@ -1,7 +1,7 @@
 ---
 title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
 description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service.
-ms.date: 12/18/2023
+ms.date: 07/29/2024
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
@@ -150,8 +150,15 @@ You can enable the legacy layout in one of the following ways:
 
 ### Training resources
 
-- Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180) 
-- [Migrate from Unified Service Desk to Customer Service workspace](../../unified-service-desk/admin/migrate-to-csw.md). The Unified Service Desk to Customer Service workspace Migration Playbook helps you plan and execute the transition from Unified Service Desk to Customer Service workspace.
+Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180)
+
+  * Get familiar with sessions, tabs, and productivity tools.
+  * How to create agent experience profiles, templates, agent scripts and macros.
+  * How to assign agent experience profile based on security roles.
+  * How to move agent experience profiles via solutions.
+  * How to use multisession APIs (Microsoft.Apm).
+
+[Migrate from Unified Service Desk to Customer Service workspace](../../unified-service-desk/admin/migrate-to-csw.md). The Unified Service Desk to Customer Service workspace Migration Playbook helps you plan and execute the transition from Unified Service Desk to Customer Service workspace.
 
 ### See also
 
