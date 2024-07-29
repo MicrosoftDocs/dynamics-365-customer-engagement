@@ -1,7 +1,7 @@
 ---
-title: Resolve, cancel, and reassign a cases in Customer Service Hub | Microsoft Docs
+title: Resolve, cancel, and reassign a case in Customer Service Hub | Microsoft Docs
 description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
-ms.date: 04/25/2023
+ms.date: 07/31/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -30,17 +30,17 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
 2. On the command bar, select **Resolve case**. The status of the case is set to **Resolved** only when you select **Resolve Case** and the case gets resolved. You can't set the value of the **Case Status** field to **Resolved**
 
-  If you have open activities linked to the case, you’ll see a message with the following actions:
+  If you have open activities linked to the case, you see a message with the following actions:
   - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](../administer/add-enhanced-case-management.md#redirect-users-to-a-specific-tab-to-close-the-open-activities-for-a-case)
   - **Confirm**: If you select **Confirm** on the warning, the system automatically cancels the open activities when the case is resolved.
   
       :::image type="content" source="../media/resolve-case-after.png" alt-text="Open activity warning" lightbox="../media/resolve-case.png":::
   
-3. Depending on the settings enabled for you, you'll see the minimal case resolution dialog or legacy case resolution dialog that are explained as follows:
+3. Depending on the settings enabled for you, you see the minimal case resolution dialog or legacy case resolution dialog that are explained as follows:
 
  ### [Default case resolution dialog](#tab/defaultcaseresolutionform)
 
- By default, you will see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog.
+ By default, you'll see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog.
 
   :::image type="content" source="../media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="../media/minimal-resolve-case.png"::: 
 
@@ -49,9 +49,9 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
  The standard **Resolve Case** dialog is displayed with the **Resolution Type** and **Resolution** fields along with the following additional fields:
 
    - **Duration**: The total time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** field.  
-   - **Billable Time**: The amount of time spent on the case to be billed to the customer. Your billable time is automatically populated only if the **Total Time** field is displayed on the **Resolve Case** dialog. Else, you'll have to manually add your billable time.
-   - If your administrator has enabled case handling time, the **Total Time** fields displays the time calculated by the time tracker and is not the time coming from the incident resolution table.
-   - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.
+   - **Billable Time**: The amount of time spent on the case to be billed to the customer. Your billable time is automatically populated only if the **Total Time** field is displayed on the **Resolve Case** dialog. Else, you have to manually add your billable time.
+   - If your administrator enables case handling time, the **Total Time** fields display the time calculated by the time tracker and isn't the time coming from the incident resolution table.
+   - If this case is linked to an entitlement, the billable time is subtracted from the allotted minutes for that entitlement.
          
    :::image type="content" source="../media/resolve-case-legacy.png" alt-text="Legacy resolve case" :::
 
@@ -73,12 +73,12 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
 - When all the child cases are resolved, you can then close the parent case.  
 
-- When you resolve the parent case, it will then resolve all the active associated child cases.  
+- When you resolve the parent case, it resolves all the active associated child cases.  
 
 - A parent and child case can be closed independently of each other. This is the default setting.
-- Before you resolve a parent case that has active child cases, make sure that all the case activities are closed. Otherwise, you’ll get a message with the following actions:
+- Before you resolve a parent case that has active child cases, make sure that all the case activities are closed. Otherwise, you get a message with the following actions:
    - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](../administer/add-enhanced-case-management.md)
-   - **Confirm**: If you select **Confirm** on the warning, the system will automatically cancel the open activities when the case is resolved. Also, performance may be slow when you close a parent case with lots of active child cases associated with it. 
+   - **Confirm**: If you select **Confirm** on the warning, the system will automatically cancel the open activities when the case is resolved. Also, performance might be slow when you close a parent case with lots of active child cases associated with it. 
  
 ## Cancel a case
 
@@ -90,7 +90,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
     - **Canceled**: This means the case is canceled and it will no longer be assigned to you.  
 
-    - **Merged**: This means the case is merged with another case. When the case is merged, the case activities will be moved to the case it was merged with.  
+    - **Merged**: This means the case is merged with another case. When the case is merged, the case activities are moved to the case it was merged with.  
 
 3. Select **Confirm**.  
 
@@ -109,7 +109,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
 ## Case resolution history
 
-Located on the right side of the form, is the case resolution sub-grid. Here you will find the case resolution history.  Should a case need to be reopened, agents have the ability to view case history here.
+Displays the case resolution history. If a case must be reopened, agents have the ability to view case history here.
 
   > [!div class=mx-imgBorder]
   > ![status bar.](../media/case_resolution_16.png "status bar")

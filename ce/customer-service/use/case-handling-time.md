@@ -28,8 +28,8 @@ You can also do these actions on the case handling time widget:
  > [!NOTE]
  > You can see the **My time** toggle only if your administrator has enabled it in Power Apps. If it doesn't appear, **Total Time** displays only the time you've spent on the case.
 - See when the timer was last updated. It refreshes automatically at the frequency set by your administrator. By default, it refreshes every 10 minutes. Select **Refresh** to update the timer and show the current time.
-   - In Customer Service workspace,  when you select **Refresh**, only Total Time, Automatic Time or Manual Time values are updated. The records in **History** aren't updated.  
-  - In Customer Service Hub, the timer widget displays the updated time automatically at the frequency set by your administrator or on case form refresh, browser navigation, form navigation. Selecting **Refresh** updates **Total Time**, **Automatic Time**, and **Manual Time** as well as records in **History**.
+   - In Customer Service workspace, when you select **Refresh**, the **Total Time**, **Automatic Time**, or **Manual Time** values are updated. The records in **History** aren't updated.  
+  - In Customer Service Hub, the timer widget displays the updated time automatically at the frequency set by your administrator or on case form refresh, browser navigation, form navigation. Selecting **Refresh** updates **Total Time**, **Automatic Time**, **Manual Time**, and the records in **History**.
 - [View history](#view-history).
 
 
@@ -46,17 +46,17 @@ The application tracks your time automatically when you focus on a specific case
    | Scenario                                                                                           | Timer status                                     |
    | -------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
    | The case is open in a session tab. You select a related entity record that opens as an app tab. For example, you select a knowledge article linked to the case. The article opens in an app tab within the session form.<br><br> **Note**: This isn't applicable when you open a related case such as a similar case or child case in another app tab within the same case session.  | The timer continues to run for the case.      |
-   | The case that is opened as a session or app tab, is closed by the user.                                                                          | Timer stops.                                       |
-   | You select a related case or a child case that's linked to the current case. The related case or child case opens as an app tab in the same session.                   | The timer in the current case stops and the timer in the related case or child case starts.             |
+   | The user closes a case that's opened as a session or app tab.                                                      | Timer stops.                                       |
+   | You select a related case or a child case linked to the current case. The related case or child case opens as an app tab in the same session.                   | The timer in the current case stops and the timer in the related case or child case starts.             |
    | You select a resolved case.                       | The timer doesn't start and shows the time recorded.   |
    | You switch, minimize, refresh, or close browsers                                                   | Timer stops.                                       |
    | You open the same case but switch to another case form using Form selector.                                                | Timer stops.                                       |
-   |You switch to another case which is opened in another session tab. | Timer stops for the current case and starts for the case you've switched to.|
+   |You switch to another case, which is opened in another session tab. | Timer stops for the current case and starts for the case you switched to.|
    | You lock your screen with the case in focus.                                                       | The timer stops.                                   |
-   | The Case form is in the background when you perform actions such as selecting queue item details or the resolve case dialog .     | The timer continues to run.                        |
-   | You create a new case and haven't manually logged time on the case or for activities. | Total time displayed is 0 seconds. The total time is updated after the first update interval set by your administrator. Select refresh to manually update the time. |
-   | You create a new case and haven't manually logged time on the case or for activities. The **My Time** toggle is turned off.| The total time is 0 seconds and is updated after the first update interval. The automatic timer displays 0 seconds. Select refresh to manually update the time.|
-   | You create a new case and haven't manually logged time on the case or for activities.The **My Time** toggle is turned on.| The total time is 0 seconds and is updated after the first update interval. The automatic timer starts tracking time realtime. Select refresh to manually update the total time.  |
+   | The Case form is in the background when you perform actions such as selecting queue item details or the resolve case dialog.     | The timer continues to run.                        |
+   | You create a new case and don't log time manually on the case or for activities. | Total time displayed is 0 seconds. The total time is updated after the first update interval set by your administrator. Select refresh to manually update the time. |
+   | You create a new case and don't log time manually on the case or for activities. The **My Time** toggle is turned off.| The total time is 0 seconds and is updated after the first update interval. The automatic timer displays 0 seconds. Select refresh to manually update the time.|
+   | You create a new case and don't log time manually on the case or for activities. The **My Time** toggle is turned on.| The total time is 0 seconds and is updated after the first update interval. The automatic timer starts tracking time real-time. Select refresh to manually update the total time.  |
    
   > [!NOTE]
   > The app updates the database with the tracked time at regular intervals based on your administrator's configuration. If you refresh or close the browser in Customer Service workspace or Customer Service Hub, the app records the time for the last completed interval, but might not record the time from the ongoing interval. For example, if the update interval is set to 15 minutes, and you close the browser after 20 minutes, the app logs only 15 minutes. It might not capture the remaining 5 minutes, because the database wasn't updated in that time. 
