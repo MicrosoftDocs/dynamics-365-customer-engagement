@@ -1,8 +1,8 @@
 ---
 title: Optimization summary report
 description: This article provides information about the optimization summary report and the charts it contains.
-author: FeifeiQiu
-ms.author: feiqiu
+author: AnilMur
+ms.author: anilmur
 ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.subservice: resource-scheduling-optimization
