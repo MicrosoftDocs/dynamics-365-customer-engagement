@@ -12,6 +12,7 @@ ms.collection: get-started
 # Manage phone music
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+[!NOTE] For the best experience, please use either of the following audio file formats: MP3 files with ID3V2TAG and WAV files formatted as 16-bit PCM mono channel audio recorded at 16KHz.
 
 You can use the out-of-the-box music files to set hold and wait tunes. You can replace them with your own music files, or even upload new ones to be used for hold or wait music in your customer calls. The hold or wait music will automatically be played on loop.
 
