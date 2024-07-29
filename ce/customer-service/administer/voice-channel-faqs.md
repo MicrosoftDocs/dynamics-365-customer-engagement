@@ -3,7 +3,7 @@ title: FAQ about the voice channel
 description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel.
 author: neeranelli
 ms.author: nenellim
-ms.date: 07-29-2024
+ms.date: 07/29/2024
 ms.topic: conceptual
 ms.reviewer:
 ms.collection:
