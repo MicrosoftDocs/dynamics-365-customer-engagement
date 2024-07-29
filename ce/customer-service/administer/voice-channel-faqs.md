@@ -93,13 +93,13 @@ No, you can't recover your data and phone numbers after the voice trial organiza
 
 ### What are the applicable pricing scenarios for using the voice channel?
 
-To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
+To understand the pricing calculation of various call scenarios, go to [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
 
 ## Bots
 
 ### How can I set up an IVR bot in the voice channel?
 
-See the following articles to set up the interactive voice response (IVR) bot in the voice channel:
+Learn more in:
 - [Configure Copilot Studio bots for voice](../voice-channel-ivr-bots.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
@@ -123,7 +123,7 @@ You can transfer conversations from one bot to another with different primary la
 ### Is disaster recovery supported for the voice channel?
 
 - Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Local cloud deployments](voice-channel-region-availability.md#local-cloud-deployments).
-- In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. For more information, see [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
+- In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. Learn more in [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and at [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
 
 ## Call quality
 
@@ -155,11 +155,11 @@ Yes, the voice channel supports emergency calling; agents can call the emergency
 
 ### Why is the agent unable to make an outbound call?
 
-The agent must be a part of the outbound voice queue to make an outbound call. See [Set up outbound calling](voice-channel-outbound-calling.md) for information.
+The agent must be a part of the outbound voice queue to make an outbound call. Learn more in [Set up outbound calling](voice-channel-outbound-calling.md).
 
 ### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
 
-No, overflow settings are not applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#handle-overflow-before-work-item-is-queued)
+No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#handle-overflow-before-work-item-is-queued)
 
 ### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 
