@@ -52,7 +52,7 @@ Typically, you convert a quote that you have won into an order. Start with an ac
 6. Add a description, and select **OK**.
    The order is created and all products from the quote are added to the order. The price list and currency are also copied from the quote to the order.
 
-   Depending on whether you've enabled Sales Order Processing integration, the **Prices Locked** field is set as follows:
+   Depending on whether you've enabled [sales order processing integration](developer/enable-sales-order-processing-integration.md), the **Prices Locked** field is set as follows:
      - If the integration is disabled, the **Prices Locked** field is set to **Yes**.
 
      - If the integration is enabled, the **Prices Locked** field is set to the default value specified for the `ispricelocked` column in the Order table. If you haven't updated the column, the **Prices Locked** field is set to **No**. More information: [Lock or unlock the price for an order or invoice](lock-unlock-price-order-invoice.md)
