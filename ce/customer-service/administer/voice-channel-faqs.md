@@ -3,7 +3,7 @@ title: FAQ about the voice channel
 description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel.
 author: neeranelli
 ms.author: nenellim
-ms.date: 04/04/2024
+ms.date: 07-29-2024
 ms.topic: conceptual
 ms.reviewer:
 ms.collection:
@@ -151,7 +151,7 @@ More information:
 
 Yes, the voice channel supports emergency calling; agents can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
 
-## Inbound and outbound calls, voicemail, transcripts
+## Inbound and outbound calls, voicemail, and transcripts
 
 ### Why is the agent unable to make an outbound call?
 
