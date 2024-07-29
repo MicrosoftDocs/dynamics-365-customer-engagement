@@ -122,7 +122,7 @@ You can transfer conversations from one bot to another with different primary la
 
 ### Is disaster recovery supported for the voice channel?
 
-- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Local cloud deployments](voice-channel-region-availability.md#local-cloud-deployments).
+- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, go to [Local cloud deployments](voice-channel-region-availability.md#local-cloud-deployments).
 - In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. Learn more in [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and at [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
 
 ## Call quality
