@@ -306,7 +306,7 @@ items:
     - name: Admin guide
       items:
       - name: Set up the mobile app
-        href: mobile/set-up-field-service-mobile
+        href: mobile/set-up-field-service-mobile.md
       - name: Mobile offline profile
         items:
         - name: Set up the mobile offline profile

@@ -21,7 +21,7 @@ The new user experience in the Dynamics 365 Field Service mobile app helps servi
 
 The agenda view in the new mobile experience is optimized for frontline workers. It supports quick access to key actions such as updating the booking status, getting directions, or access to Copilot.
 
-Admins can [configure the agenda view to show fields relevant to the organization's business needs](customize-booking-calendar.md#new-mobile-uxtabvnext).
+Admins can [configure the agenda view to show fields relevant to the organization's business needs](customize-booking-calendar.md).
 
 ## Navigate the app
 

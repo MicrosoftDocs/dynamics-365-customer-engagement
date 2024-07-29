@@ -22,8 +22,8 @@ The Dynamics 365 Field Service mobile app on iOS and Android lets technicians tu
    - In the Unified Interface app, open the navigation, select your profile image, and then select **Reconfigure**.
    - In the [new mobile experience](do-work-newux.md), select your profile image and choose **Settings**. In the Apps section, select the app module.  
 
-1. On the environment selection page, open the navigation (:::image type="icon" source="../../sales/sales-mobile/media/sm-hamburger-menu.png" border="false":::)
+1. On the environment selection page, open the navigation :::image type="icon" source="../../sales/sales-mobile/media/sm-hamburger-menu.png" border="false":::.
 
-1. Turn on the **Optimize images for upload** option.
+1. Turn on **Optimize images for upload**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
