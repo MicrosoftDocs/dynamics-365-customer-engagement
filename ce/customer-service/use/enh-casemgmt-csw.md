@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham 
 ms.reviewer: neeranelli
 ms.topic: conceptual
-ms.date: 10/31/2023 
+ms.date: 08/01/2024 
 ms.custom: bap-template 
 ---
 
@@ -85,9 +85,9 @@ Depending on the settings that are enabled for you, either the enhanced full cas
    > This is an early access feature. You can [opt in](/power-platform/admin/opt-in-early-access-updates) to use it for testing and adoption in your environments.
 
 
-   :::image type="content" source="../media/def-case-maincas-mini.png" alt-text="Screenshot of the default main case form" lightbox="../media/def-case-maincase.png":::
+   :::image type="content" source="../media/case-multisession-app-mini.png" alt-text="Screenshot of the multisession app" lightbox="../media/case-multisession-app.png":::
 
-   If your administrator hasn't opted in for early access, you'll see the following when you create a new case in the **Case** page.
+   If your administrator hasn't opted in for early access, you'll see the following when you create a new case in the **Case** page. The following image shows the default main form.
 
    :::image type="content" source="../media/def-case-maincas-mini.png" alt-text="Screenshot of the default main case form" lightbox="../media/def-case-maincase.png":::
    ---

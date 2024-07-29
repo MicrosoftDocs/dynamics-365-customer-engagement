@@ -42,7 +42,6 @@ The following are some of the key features of the modernized case grids:
 >    - The **Enhanced Active Cases** view is enabled by default for the **Case** entity. Edit actions aren't enabled by default. Enable the **Configure property Enable Editing** property in Power Apps to allow agents to perform inline edits and update data for columns in the **Enhanced Active Cases** view.
 >    - **Power Apps grid control** option is enabled by default for the **Case** entity and replaces the out-of-the-box legacy grids. 
 >    - If you want to revert to the legacy grids, enable the **Read-only Grid(default)** option in the **Controls** section of the **Case** entity in Power Apps.
->    - If you have enabled the **Power Apps grid control** option for the **Case** entity, and have customized the grid, the customizations aren't impacted.
 >    - Customized grids won't be replaced by the **Power Apps grid control**.
 
 If you haven't opted in to the early access features, you must enable the **Power Apps grid control** option on the Power Apps portal to make the **Enhanced Active Cases** view accessible to agents.
