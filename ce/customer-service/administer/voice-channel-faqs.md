@@ -20,18 +20,6 @@ This article includes frequently asked questions (FAQ) about the voice channel.
 
 ## General
 
-### Why is the agent unable to make an outbound call?
-
-The agent must be a part of the outbound voice queue to make an outbound call. See [Set up outbound calling](voice-channel-outbound-calling.md) for information.
-
-### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
-
-No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#handle-overflow-before-work-item-is-queued)
-
-### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
-
-Yes, features such as sentiment analysis, agent suggestions for similar cases or knowledge articles, are available in the voice channel.
-
 ### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app, such as, by adding omnichannel capabilities to a customer's Dynamics 365 app?
 
 No, the voice channel isn't supported in the other apps of Dynamics 365. It's supported in the Customer Service workspace and Omnichannel for Customer Service (deprecated) apps only.
@@ -163,9 +151,7 @@ More information:
 
 Yes, the voice channel supports emergency calling; agents can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
 
-## InBound, OutBound Calls, Voice mail, Transcripts
-
-This section includes frequently asked questions (FAQ) about the the inBound and outBound calls, voicemail and transcripts.
+## Inbound and outbound calls, voicemail, transcripts
 
 ### Why is the agent unable to make an outbound call?
 
