@@ -18,7 +18,7 @@ Case handling time is the total time agents actively work on a case. It includes
 > [!NOTE]
 > Case handling time and case resolution time are different. For example, an agent works actively on a case for 5 hours. The case is resolved 5 days after it was created. Here, the case handling time is 5 hours, and the case resolution time is 5 days.
 
-## Enable case handling time
+## Enable case handling time widget
 
 To display the case handling time widget on a case form, follow these steps:
 
