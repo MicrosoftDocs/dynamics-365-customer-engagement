@@ -3,7 +3,7 @@ title: Optimize images for upload
 description: Turn on a user setting to optimize file sizes of images before uploading it to Dataverse.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 07/29/2024
+ms.date: 07/30/2024
 author: josephshum-msft
 ms.author: jshum
 ---
@@ -28,5 +28,15 @@ The Dynamics 365 Field Service mobile app on iOS and Android lets technicians tu
 1. On the environment selection page, open the navigation :::image type="icon" source="../../sales/sales-mobile/media/sm-hamburger-menu.png" border="false":::.
 
 1. Turn on **Optimize images for upload**.
+
+:::image type="content" source="../media/optimize-images-upload.png" alt-text="Screenshot of the Field Service mobile app showing the environment settings options.":::
+
+If enabled, image optimization is applied when uploading images using:
+
+- Timeline
+- Quick notes
+- Inspection
+
+For custom controls in model-driven apps that deal with images, see [Xrm.Device (Client API reference)](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-device).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
