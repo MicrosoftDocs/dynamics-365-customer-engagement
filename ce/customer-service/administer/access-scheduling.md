@@ -13,34 +13,28 @@ ms.custom: bap-template
 
 You can access scheduling through Customer Service workspace and Customer Service Hub apps.
 
-## Access scheduling in Customer Service workspace
-
-You can also access scheduling in the Customer Service workspace app.
-
-- Select the + icon to expand the menu to view a list of forms, views, and activities, and then select either **Service Activities** or **Scheduling** to open the feature in a new tab.
+In Customer Service workspace, select the + icon to expand the menu to view a list of forms, views, and activities, and then select either **Service Activities** or **Scheduling** to open the feature in a new tab.
 
   :::image type="content" source="../media/csw-service-scheduling.png" alt-text="Access scheduling from Customer Service workspace":::
 
-   - **Service Activities**
+  - **Service Activities**
    
 
-    :::image type="content" source="../media/csw-service-activities.png" alt-text="View service activities in Customer Service workspace":::
-   - **Scheduling**
+  :::image type="content" source="../media/csw-service-activities.png" alt-text="View service activities in Customer Service workspace":::
+  - **Scheduling**
 
-    :::image type="content" source="../media/csw-schedule-board-urs.png" alt-text="Screenshot of service resource scheduling":::
+  :::image type="content" source="../media/csw-schedule-board-urs.png" alt-text="Screenshot of service resource scheduling":::
 
-## Access scheduling in the Customer Service Hub
+In Customer Service Hub, scheduling is powered by Universal Resource Scheduling and is available from the site map.
 
-Scheduling is powered by Universal Resource Scheduling and is available from the Customer Service Hub site map.
-
-- Select ![change area.](../media/change-area-icon.png) to go to **Scheduling** and access the entity record types.
+Select ![change area.](../media/change-area-icon.png) to go to **Scheduling** and access the entity record types.
 
   > [!div class=mx-imgBorder]
   > ![access-service-scheduling.](../media//access-service-scheduling-csh.png)
 
 ## Configure entity records in the new scheduling experience
 
-Configure all your entity records in the new experience manually from the user interface.
+Configure all your entity records in the new experience from the user interface.
 
 Make sure that you have the correct security role or equivalent permissions. Learn more at [Manage security roles in service scheduling](manage-security-roles.md).
 
