@@ -95,7 +95,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 3. Select **Confirm**.  
 
 > [!NOTE]
-> If you are using a custom code or custom workflow to mark a case resolved or canceled, ensure that you set up appropriate validation to check if the case is already resolved or canceled. If a custom workflow tries to resolve or cancel a case that is already resolved or canceled, you will see errors while executing the custom workflow.
+> If you are using a custom code or custom workflow to mark a case as resolved or canceled, make sure that you set up appropriate validation to check if the case is already resolved or canceled. If a custom workflow tries to resolve or cancel a case that's already resolved or canceled, you get errors while executing the custom workflow.
 
 ## Reassign a case
 
