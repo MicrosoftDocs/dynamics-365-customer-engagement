@@ -23,7 +23,7 @@ Case handling time is the total time agents actively work on a case. It includes
 To display the case handling time widget on a case form, follow these steps:
 
 1. In Customer Service admin center, select **Customer Support** > **Case settings**.
-1. In the Case settings page, select **Manage** for **Case handling time (preview)**. The Case handling time (preview) page opens.
+1. On the **Case settings** page, select **Manage** for **Case handling time (preview)**. The **Case handling time (preview)** page opens.
 1. Select the **Enable case handling time** check box.
 1. Select the Power Apps link. The application shows the [**Solutions**](/power-apps/maker/data-platform/solutions-overview#work-with-solutions-in-power-apps) page. 
 1. In Power Apps, select the solution that contains your custom case form and then select **Tables**.
