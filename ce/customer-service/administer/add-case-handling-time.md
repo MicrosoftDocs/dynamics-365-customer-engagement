@@ -45,7 +45,7 @@ To display the case handling time widget on a case form, follow these steps:
 
 ## Set the update interval
 
-The update interval is the time between each update of the database and the widget with the automatic tracked time. You can set a value between 10 and 60 minutes. The default value is 10 minutes. When you specify a time for the update interval, the application perform the following actions:
+The update interval is the time between each update of the database and the widget with the automatic tracked time. You can set a value between 10 and 60 min. The default value is 10 min. When you specify a time for the update interval, the application performs the following actions:
 
 - Updates the database with the automatic tracked time in the frequency specified.
 - Automatically refreshes the case handling time widget to display the updated time.
