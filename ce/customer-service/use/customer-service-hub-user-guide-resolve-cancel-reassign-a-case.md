@@ -90,7 +90,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
     - **Canceled**: This means the case is canceled and it will no longer be assigned to you.  
 
-    - **Merged**: This means the case is merged with another case. When the case is merged, the case activities are moved to the case it was merged with.  
+    - **Merged**: The case is merged with another case. When the case is merged, the case activities are moved to the case it was merged with.  
 
 3. Select **Confirm**.  
 
