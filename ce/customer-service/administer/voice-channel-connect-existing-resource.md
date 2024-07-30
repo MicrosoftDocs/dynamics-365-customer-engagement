@@ -147,7 +147,7 @@ To enable call recording and SMS services, you must first configure your applica
 
    It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed," then retry this step after a few minutes.
 
-#### Set up your event grid for the vNext Voice Channel ####
+#### Set up your event grid for the voice channel
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1nwyn]
 
