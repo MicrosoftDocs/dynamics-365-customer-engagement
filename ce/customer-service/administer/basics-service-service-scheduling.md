@@ -1,7 +1,7 @@
 ---
 title: Overview of Service Scheduling
 description: This article provides an overview of service scheduling, detailing how to optimally schedule resources for improved service quality and efficiency.
-ms.date: 07/15/2024
+ms.date: 07/30/2024
 author: Soumyasd27
 ms.author: sdas
 ms.topic: conceptual
