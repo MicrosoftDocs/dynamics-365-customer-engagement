@@ -54,7 +54,7 @@ Depending on the license you have, select one of the following tabs for more inf
 # [Sales Premium and Sales Enterprise](#tab/SE)
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
-2. Follow the instructions in [Create and edit public or system model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer?context=/dynamics365/context/sales-context) to create views.
+2. Follow the instructions in [Create and edit public or system model-driven app views](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view?context=/dynamics365/context/sales-context) to create or customize system views.
 
 # [Sales Professional](#tab/SP)
 
