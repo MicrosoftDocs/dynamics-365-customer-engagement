@@ -49,7 +49,7 @@ The application tracks your time automatically when you focus on a specific case
    | The user closes a case that's opened as a session or app tab.                                                      | Timer stops.                                       |
    | You select a related case or a child case linked to the current case. The related case or child case opens as an app tab in the same session.                   | The timer in the current case stops and the timer in the related case or child case starts.             |
    | You select a resolved case.                       | The timer doesn't start and shows the time recorded.   |
-   | You switch, minimize, refresh, or close browsers                                                   | Timer stops.                                       |
+   | You switch, minimize, refresh, or close browsers.                                                   | Timer stops.                                       |
    | You open the same case but switch to another case form using Form selector.                                                | Timer stops.                                       |
    |You switch to another case, which is opened in another session tab. | Timer stops for the current case and starts for the case you switched to.|
    | You lock your screen with the case in focus.                                                       | The timer stops.                                   |
