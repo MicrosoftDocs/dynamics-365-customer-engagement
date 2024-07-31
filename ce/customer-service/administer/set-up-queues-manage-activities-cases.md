@@ -1,12 +1,14 @@
 ---
-title: Create and manage queues for cases
-description: Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service.
+title: Create and manage basic queues for cases
+description: Learn how to set up basic queues to manage activities and cases in Dynamics 365 Customer Service.
 ms.date: 06/21/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.custom: 
   - dyn365-customerservice
+  - bap-template
 search.audienceType: 
   - admin
   - customizer
@@ -20,7 +22,7 @@ searchScope:
   - Customer Service
 ---
 
-# Create and manage queues for cases
+# Create and manage basic queues for cases
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
@@ -28,11 +30,11 @@ searchScope:
 
 In Dynamics 365 Customer Service, *queues* are containers used to store anything that needs to be completed or requires an action such as completing a task or closing a case. Queues help you to organize, prioritize, and monitor the progress of your work. 
 
-Queues can be useful in:
+Queues can be used to:
   
-- Having a centralized list of pending work that needs attention.  
+- Centralize a list of pending work that needs attention.
   
-- Sorting tasks by type, or by people assigned to complete them.  
+- Sort tasks by type, or by people assigned to complete them.
   
 ## Types of queues
 
@@ -130,7 +132,7 @@ The **QUEUE ITEMS** section lists all activities that are either routed automati
 
 In the **RECORD CREATION AND UPDATE RULES** section, you can create rules for automatically creating records for cases from incoming emails. More information: [Automatically create or update records](automatically-create-update-records.md)
   
-## Route items to basic queues  
+## Route items to basic queues
 
 For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate agents. More information: [Create rules to automatically route cases](create-rules-automatically-route-cases.md)
 
@@ -190,7 +192,7 @@ To assign items in the queue to agents, select **Assign** after selecting one or
   
 6. [!INCLUDE[proc_click_or_tap_save](../../includes/proc-click-or-tap-save.md)]
 
-### See also  
+### Related information  
 
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Add a case to a queue](../use/customer-service-hub-user-guide-case-queues-and-routing.md)    
