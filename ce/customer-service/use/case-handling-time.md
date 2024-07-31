@@ -59,7 +59,7 @@ The application tracks your time automatically when you focus on a specific case
    | You create a new case and don't log time manually on the case or for activities. The **My Time** toggle is turned on.| The total time is 0 seconds and is updated after the first update interval. The automatic timer starts tracking time real-time. Select refresh to manually update the total time.  |
    
   > [!NOTE]
-  > The app updates the database with the tracked time at regular intervals based on your administrator's configuration. If you refresh or close the browser in Customer Service workspace or Customer Service Hub, the app records the time for the last completed interval, but might not record the time from the ongoing interval. For example, if the update interval is set to 15 minutes, and you close the browser after 20 minutes, the app logs only 15 minutes. It might not capture the remaining 5 minutes, because the database wasn't updated in that time. 
+  > The app updates the database with the tracked time at regular intervals based on your administrator's configuration. If you refresh or close the browser in Customer Service workspace or Customer Service Hub, the app records the time for the last completed interval, but might not record the time from the ongoing interval. For example, if the update interval is set to 15 min, and you close the browser after 20 min, the app logs only 15 min. It might not capture the remaining 5 min, because the database wasn't updated in that time. 
 
 - In Customer Service Hub, as long as the case is in focus, the timer runs. If you close or refresh the browser, navigate to a different entity or case form, the timer stops.
 
