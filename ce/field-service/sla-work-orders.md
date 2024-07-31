@@ -1,7 +1,7 @@
 ---
 title: Service level agreements (SLAs) for work orders
 description: Learn how to set up service Level Agreements (SLAs) for work orders in Dynamics 365 Field Service.
-ms.date: 07/17/2024
+ms.date: 07/31/2024
 ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
@@ -31,7 +31,7 @@ To use SLAs for work orders, you enable the SLA setting, set up key performance 
 
 1. Select **Tables** > **All**.
 
-1. Search for and select **Work Order**. Then select **Properties**.
+1. Search for and select **Work Order**. Then, select **Properties**.
 
    :::image type="content" source="media/sla-power-apps-table.svg" alt-text="Screenshot of the Work Order table in Power Apps.":::
 
@@ -45,7 +45,7 @@ To use SLAs for work orders, you enable the SLA setting, set up key performance 
 
 1. In Power Apps, select **Tables** > **All**.
 
-1. Search for and open **SLA KPI Instance**. Then select **Relationshps**.
+1. Search for and open **SLA KPI Instance**. Then, select **Relationshps**.
 
 1. Select **New relationship** > **One-to-many**.
 
@@ -101,9 +101,11 @@ Now we're going to create a new SLA.
 
 ## Add the SLA to a work order
 
-1. Go to **Advanced Settings** > **Customizations** > **Customize the System**.
+1. In Power Apps, select **Tables** > **All**.
 
-1. Expand **Components** > **Entities** > **Work Order** > **Forms**. Select the **Work Order** form.
+1. Search for and select **Work Order**.
+
+1. Select **Forms**. Select the work order form.
 
 1. Add the SLA field to the form. The SLA field is created when SLA functionality is enabled for the work order entity.
 
