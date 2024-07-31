@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 06/04/2024
+ms.date: 07/16/2024
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -18,18 +18,25 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.120.18](/dynamics365/field-service/version-history#8812018)  | TBD |07/12/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.119.15](/dynamics365/field-service/version-history#8811915)  |  [8.8.120.18](/dynamics365/field-service/version-history#8812018) |07/05/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.119.15](/dynamics365/field-service/version-history#8811915)  |  [8.8.120.18](/dynamics365/field-service/version-history#8812018) |07/12/2024 |
-| | *USG* |   [8.8.119.15](/dynamics365/field-service/version-history#8811915)  |  [8.8.120.18](/dynamics365/field-service/version-history#8812018) |07/05/2024 |
-|**Station 4** |*Europe* | [8.8.118.19](/dynamics365/field-service/version-history#8811819) |  [8.8.119.15](/dynamics365/field-service/version-history#8811915)   | 07/05/2024 |
-|**Station 5** | *North America*|  [8.8.117.34](/dynamics365/field-service/version-history#8811734)  | [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | 07/05/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.117.34](/dynamics365/field-service/version-history#8811734)  | [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | 07/05/2024 |
-| | *Dedicated Scale Groups* |    [8.8.117.34](/dynamics365/field-service/version-history#8811734)  | [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | 07/12/2024 |
+|**Station 1** |  *First Release*| [8.8.121.18](/dynamics365/field-service/version-history#8812118)  | TBD |08/02/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.121.18](/dynamics365/field-service/version-history#8812118)  | TBD |08/16/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.120.18](/dynamics365/field-service/version-history#8812018)  |  [8.8.121.18](/dynamics365/field-service/version-history#8812118)   |08/02/2024 |
+| | *USG* | [8.8.121.18](/dynamics365/field-service/version-history#8812118)  | TBD |08/16/2024 |
+|**Station 4** |*Europe* |[8.8.120.18](/dynamics365/field-service/version-history#8812018) |  [8.8.121.18](/dynamics365/field-service/version-history#8812118)   | 08/16/2024 |
+|**Station 5** | *North America*|  [8.8.119.15](/dynamics365/field-service/version-history#8811915) |  [8.8.120.18](/dynamics365/field-service/version-history#8812018)   | 08/02/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |  [8.8.119.15](/dynamics365/field-service/version-history#8811915) |  [8.8.120.18](/dynamics365/field-service/version-history#8812018)   | 08/02/2024 |
+| | *Dedicated Scale Groups* |   [8.8.119.15](/dynamics365/field-service/version-history#8811915)  |   [8.8.120.18](/dynamics365/field-service/version-history#8812018) | 08/16/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.121.18
+(Includes Universal Resource Scheduling version [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) and Resource Scheduling controls version 1.2.75.241931)
+
+- Fixed an issue where the agreement booking service task name was set by the incident type service task type instead of the incident type service task name.
+- Fixed an issue when submitting feedback via global command bar in the Field Service app module.
+- Field Service mobile app: Updated client-side logic to consider whitespace as empty in fields related to primary incident zype when performing validation. 
 
 ## 8.8.120.18
 (Includes Universal Resource Scheduling version [3.12.135.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213534) and Resource Scheduling controls version 1.2.74.241731).
@@ -51,6 +58,11 @@ This release is a hotfix on Field Service version [8.8.119.14](/dynamics365/fiel
   tasks, not booking durations.
 - Work order task width now dynamically displays based on length of task name.
 
+## 8.8.118.21
+
+This release is a hotfix on Field Service version [8.8.118.19](/dynamics365/field-service/version-history#8811819)
+
+- Prevented copilot installation for CHN, DOC, USG, GCC, and SGP regions
 
 ## 8.8.118.19
 
@@ -62,6 +74,12 @@ This release is a hotfix on Field Service version [8.8.118.17](/dynamics365/fiel
 (Includes Universal Resource Scheduling version [3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) and Resource Scheduling controls version 1.2.71.241432).
 
 - You can now edit and delete child records of inactive primary work order incidents.
+
+## 8.8.117.35
+
+This release is a hotfix on Field Service version [8.8.117.34](/dynamics365/field-service/version-history#8811734)
+
+- Prevented copilot installation for CHN, DOC, USG, GCC, and SGP regions
 
 ## 8.8.117.34
 
