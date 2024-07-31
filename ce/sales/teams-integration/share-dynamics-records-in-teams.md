@@ -71,18 +71,6 @@ If you see a disclaimer while sharing a record over Teams, it means that the app
 
 You can still share the record over Teams. The recipients must add the Dynamics 365 app to their Teams.
 
-Each person in the team must add the Dynamics 365 app to their personal scope. To add the Dynamics 365 app:
-
-1.  Select **View details** on the card.
-
-    Alternately, hover over the card, select **More options** (**…**), and then select **Get app**.
-
-    ![Get the app](media/me-get-app.png "Get the app")
-
-2.  Select **Add** in the Dynamics 365 window.
-
-    ![Add Dynamics 365 app in Teams](media/me-add-d365-app.png "Add Dynamics 365 app in Teams")
-
 ## Share a record through URL
 
 You can also share a record by pasting the URL of a Dynamics 365 record. You can get the URL of a record from the web browser.
