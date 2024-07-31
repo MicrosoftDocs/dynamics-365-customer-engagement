@@ -30,11 +30,11 @@ searchScope:
 
 In Dynamics 365 Customer Service, *queues* are containers used to store anything that needs to be completed or requires an action such as completing a task or closing a case. Queues help you to organize, prioritize, and monitor the progress of your work. 
 
-Queues can be useful in:
+Queues can be used to:
   
-- Having a centralized list of pending work that needs attention.
+- Centralize a list of pending work that needs attention.
   
-- Sorting tasks by type, or by people assigned to complete them.
+- Sort tasks by type, or by people assigned to complete them.
   
 ## Types of queues
 
@@ -192,7 +192,7 @@ To assign items in the queue to agents, select **Assign** after selecting one or
   
 6. [!INCLUDE[proc_click_or_tap_save](../../includes/proc-click-or-tap-save.md)]
 
-### See also  
+### Related information  
 
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Add a case to a queue](../use/customer-service-hub-user-guide-case-queues-and-routing.md)    

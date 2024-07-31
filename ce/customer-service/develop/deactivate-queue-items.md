@@ -1,7 +1,7 @@
 ---
 title: Close live work items or deactivate queue items
 description: Sample code to close live work items or deactivate queue items.
-ms.date: 07/19/2024
+ms.date: 07/31/2024
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -12,6 +12,7 @@ search.audienceType:
   - developer
   - customizer
 ---
+
 # How to close live work items or deactivate queue items
 
 You can use the following sample code in your Console App (.NET framework) of Visual Studio to trigger the closure of live work items by deactivating the associated queue item.
