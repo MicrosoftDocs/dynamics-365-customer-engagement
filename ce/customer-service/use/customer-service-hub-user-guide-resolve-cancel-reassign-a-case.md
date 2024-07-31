@@ -88,7 +88,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
 2. In the **Confirm Cancellation** dialog box, select the case status:  
 
-    - **Canceled**: This means the case is canceled and it will no longer be assigned to you.  
+    - **Canceled**: The case is canceled and is no longer assigned to you.  
 
     - **Merged**: The case is merged with another case. When the case is merged, the case activities are moved to the case it was merged with.  
 
