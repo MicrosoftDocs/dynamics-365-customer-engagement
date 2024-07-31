@@ -77,7 +77,7 @@ The total time spent on the activities linked to the case. If there are multiple
   > [!NOTE]
   > The record for each agent is updated at the frequency set by your administrator. For example, when you create a new case, there won't be any record of automatic time in the history. The record appears after the first update interval.
 - **Time logs**: The time manually added by each agent sorted by date and displayed by newest to oldest.  
-- **Activities**: The time added for each activity by each agent sorted by dated and displayed by newest to oldest.
+- **Activities**: The time added for each activity by each agent sorted by date and displayed by newest to oldest.
 
 
 :::image type="content" source="../media/CHT-screenshot.png" alt-text="screenshot for case handling time":::
