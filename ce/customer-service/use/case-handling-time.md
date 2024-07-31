@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 Case handling time is how long you actively work on a case. You might review case details, past cases and customer interactions, do offline research, collaborate with team members, or document case notes. Case handling time helps supervisors measure your productivity and plan staffing.
 
-The case handling time widget shows you these details:
+You can view the following details on the case handling time widget:```
 
 - **Total time tracked**: The sum of the automatic time tracking, manual time tracking, and time spent on activities linked to the case.
 - [**Automatic time tracking**](#automatic-time-tracking): The time that the application tracks when a case is in focus. 
