@@ -83,7 +83,7 @@ For records other than cases, we recommend that you deactivate the associated qu
 
 [Close live work items or deactivate queue items](deactivate-queue-items.md)
 
-### See also
+### Related information
 
 [Overview of unified routing](../administer/overview-unified-routing.md)   
 [Set up record routing](../administer/set-up-record-routing.md)   
