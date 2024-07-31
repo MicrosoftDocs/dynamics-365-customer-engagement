@@ -1,6 +1,6 @@
 ---
-title: "lcw:onMaximize | MicrosoftDocs"
-description: lcw onMaximize event (Omnichannel for Customer Service JavaScript API reference)
+title: `lcw:onMaximize`
+description: `lcw onMaximize event (Omnichannel for Customer Service JavaScript API reference)`
 ms.topic: reference
 ms.date: 11/10/2021
 author: gandhamm
@@ -11,7 +11,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This event is triggered when the customer engaged on the chat widget maximizes the widget. You can use this event to create custom experiences around this activity. For example, if you have implemented a custom button, you can update your button to reflect that the chat is currently launched and ongoing. 
+This event is triggered when the customer engaged on the chat widget maximizes the widget. You can use this event to create custom experiences around this activity. For example, if you implemented a custom button, you can update your button to reflect that the chat is currently launched and ongoing. 
 
 ## Example
 
@@ -20,6 +20,7 @@ window.addEventListener("lcw:onMaximize", function handleWidgetMaximizeEvent(){ 
 ```
 
 ### See also
+
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  
 [lcw:chatRetrieved](lcw-chatRetrieved.md)  

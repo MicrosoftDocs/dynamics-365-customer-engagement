@@ -1,17 +1,17 @@
 ---
-title: "lcw:onMinimize | MicrosoftDocs"
-description: lcw onMinimize event (Omnichannel for Customer Service JavaScript API reference)
+title: `lcw:onMinimize`
+description: `lcw onMinimize event (Omnichannel for Customer Service JavaScript API reference).`
 ms.topic: reference
 ms.date: 11/10/2021
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: nenellim
 ---
-# lcw:onMinimize event (Omnichannel for Customer Service JavaScript API reference)
+# `lcw:onMinimize event (Omnichannel for Customer Service JavaScript API reference)`
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This event is triggered when the customer engaged on the chat widget minimizes the widget. You can use this event to create custom experiences around this activity. For example, if you have implemented a custom button, you can update your button to reflect that the chat has been minimized.
+This event is triggered when the customer engaged on the chat widget minimizes the widget. You can use this event to create custom experiences around this activity. For example, if you implemented a custom button, you can update your button to reflect that the chat is minimized.
 
 ## Example
 
