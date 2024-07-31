@@ -63,7 +63,7 @@ You need Field Service - Administrator permissions to enable the refreshed user 
 
 1. Save the changes [publish the updated app](/power-apps/maker/model-driven-apps/validate-app#publish-an-app-using-the-app-designer) to make them visible for your users.
 
-Users don't need to download a new app. However, make sure you have at least the app version [TODO](tbd.md) and the solution version [TODO](tbd.md) installed.
+Users don't need to download a new app. However, make sure you have at least the app version 2408.2 and the solution version 8.8.122.6 installed.
 
 ### Turn on features for the refreshed experience
 
