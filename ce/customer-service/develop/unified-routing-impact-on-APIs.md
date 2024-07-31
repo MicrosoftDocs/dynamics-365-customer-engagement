@@ -73,7 +73,7 @@ You can delete a queue item by selecting [**Remove**](/power-apps/developer/data
 - When you resolve a case, the corresponding queue item that gets deactivated can't be activated again.
 
 
-Unified routing works on the underlying table record for the owner field. Make sure to [provide Read privileges](/marketing/admin-users-licenses-roles) to the agents for that table and any other dependent table.
+Unified routing works on the underlying table record for the owner field. Make sure to [provide Read privileges](../implement/add-users-assign-roles.md) to the agents for that table and any other dependent table.
 
 To get the capacity released for agents for tables other than incident through incident resolution or cancellation, add custom logic to deactivate the corresponding queue item. [Learn more about capacity profiles](../administer/capacity-profiles.md).
 
