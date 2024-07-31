@@ -28,7 +28,7 @@ You can't monitor conversations that are assigned to you.
 
 1. Sign in to Dynamics 365 and go to the Contact Center workspace or Customer Service workspace app.
 
-2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard. The list of conversations that your agents are currently handling is displayed.
+2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard. The list of conversations that your agents are currently handling appears.
 
 3. Select a conversation that you want to monitor, and select **Monitor**. The conversation page opens.
 
