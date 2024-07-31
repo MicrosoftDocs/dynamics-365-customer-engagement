@@ -27,7 +27,7 @@ Copilot can recommend documents related to the products and accounts in your sal
 ## Prerequisites
 
 - You must have the SharePoint Online license.
-- You must have the read permission, at the minimum, to access SharePoint documents. If you only have access to specific folders, Copilot displays relevant documents from only those folders.
+- You must have the read permission, at the minimum, to access SharePoint documents. If you only have access to specific folders or sites, Copilot displays relevant documents from only those folders or sites.
 
 
 <a name="copilot-content-recommendation"></a>
