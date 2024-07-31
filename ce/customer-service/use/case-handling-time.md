@@ -55,7 +55,7 @@ The application tracks your time automatically when you focus on a specific case
    | You lock your screen with the case in focus.                                                       | The timer stops.                                   |
    | The Case form is in the background when you perform actions such as selecting queue item details or the **Resolve case** dialog.     | The timer continues to run.                        |
    | You create a new case and don't log time manually on the case or for activities. | Total time displayed is 0 sec. The total time is updated after the first update interval set by your administrator. Select refresh to manually update the time. |
-   | You create a new case and don't log time manually on the case or for activities. The **My Time** toggle is turned off.| The total time is 0 seconds and is updated after the first update interval. The automatic timer displays 0 seconds. Select refresh to manually update the time.|
+   | You create a new case and don't log time manually on the case or for activities. The **My Time** toggle is turned off.| The total time is 0 sec and is updated after the first update interval. The automatic timer displays 0 sec. Select **Refresh** to manually update the time.|
    | You create a new case and don't log time manually on the case or for activities. The **My Time** toggle is turned on.| The total time is 0 seconds and is updated after the first update interval. The automatic timer starts tracking time real-time. Select refresh to manually update the total time.  |
    
   > [!NOTE]
