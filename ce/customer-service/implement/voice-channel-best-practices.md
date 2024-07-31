@@ -1,18 +1,20 @@
 ---
 title: Best practices for setting up the voice channel
-description: Learn about the best practices for setting up the voice channel in Omnichannel for Customer Service.
+description: Learn about the best practices for setting up the voice channel.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/18/2023
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Best practices for setting up the voice channel
 
-Use the information in this article to set up the hardware and software for an optimal performance of the voice channel in Omnichannel for Customer Service. The requirements might vary based on the overall configuration and size of your contact center.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+Use the information in this article to set up the hardware and software for an optimal performance of the voice channel in your contact center. The requirements might vary based on the overall configuration and size of your contact center.
 
 ## Hardware configuration
 

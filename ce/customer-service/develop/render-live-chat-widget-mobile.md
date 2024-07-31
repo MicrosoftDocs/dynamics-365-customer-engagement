@@ -16,7 +16,6 @@ ms.custom:
 
 # Customize live chat widgets for mobile apps
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 If the live chat SDK does not meet your requirements, then you can embed a widget code in your mobile app. However, embedding a chat widget code has many limitations such as reduced performance, limited mobile usability, and unavailable features.
 
@@ -54,6 +53,14 @@ var html: String = """
     """.trimIndent()
     var baseUrl: String = "Get baseUrl from data-org-url eg. https://oc-cdn-ocprod.azureedge.net"
     chatWebView.loadDataWithBaseURL(baseUrl,html, "text/html", null, baseUrl)
+```
+
+The chat widget uses local storage to manage its state. For the chat widget to access local storage on Android, you need to configure a permission in the native code.
+
+```javascript
+chatWebView = findViewById(R.id.webview)
+webSettings = webView.getSettings();
+webSettings.setDomStorageEnabled(true);
 ```
 
 You can optimize the rendering of the chat widget for mobile web experience by using data tags such as `data-hide-chat-button` and `data-render-mobile`, along with a few APIs and events provided by the live chat widget client SDK. More information: [Customize a chat widget using data tags](customize-chat-widget.md)

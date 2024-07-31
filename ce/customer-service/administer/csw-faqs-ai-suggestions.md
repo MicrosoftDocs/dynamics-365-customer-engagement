@@ -14,6 +14,11 @@ ms.custom:
 
 # FAQ on AI suggestions for cases and knowledge articles
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+
+> [!NOTE]
+> Case information is applicable to Customer Service only.
+
 A few answers to common questions about the AI-suggested similar cases and knowledge articles are listed here.
  
 ## I’ve enabled suggestions, but smart assist keeps showing me "No suggestions found" message

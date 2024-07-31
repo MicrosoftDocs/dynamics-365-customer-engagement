@@ -72,7 +72,7 @@ The **Overview** tab displays the following information about the conversation:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Conversation intelligence can detect and tag short duration calls for the following categories:
 
@@ -115,6 +115,9 @@ The **Notes** tab helps reduce the time it takes you to summarize the call by of
 
 
 #### Action items tab
+
+> [!NOTE]
+> Starting June 2024, the **Action items** tab will be removed and the **Notes** tab will be enhanced to include action items. You can continue to use the **Action items** tab until then.
 
 The **Action items** tab displays a list of actions mentioned during the call&mdash;for example, "I'll send you an email" or "I'll follow up with Michelle tomorrow." When you select an action item, the call transcript is highlighted and a pointer on the playback indicates when it was mentioned. Actionable items include **Set up a call**, **create a task**, **send an email**, and **set up a meeting**.
 
@@ -216,7 +219,7 @@ Credit card details that were shared during the call are visible in the transcri
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 #### Comment on the transcript
 

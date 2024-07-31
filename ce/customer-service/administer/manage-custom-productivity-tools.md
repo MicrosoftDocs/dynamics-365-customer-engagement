@@ -13,7 +13,10 @@ ms.custom: bap-template
 
 [This article is prerelease documentation and is subject to change.]
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 The productivity pane supports custom productivity tools developed as custom pages or Power Apps component framework controls. You can create multiple custom productivity tools and make them available to your users with agent experience profiles.
 

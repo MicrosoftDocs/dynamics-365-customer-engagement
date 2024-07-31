@@ -70,5 +70,6 @@ To be included in the list, emails must meet the following criteria:
 ### See also
 
 - [Copilot overview](copilot-overview.md)
+- [Copilot prompt guide reference](copilot-prompt-guide.md)
 - [Enable and set up Copilot](enable-setup-copilot.md)
-- [Chat with Copilot in natural language (preview)](use-sales-copilot.md#chat-with-copilot-in-natural-language-preview)
+- [Chat with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL)

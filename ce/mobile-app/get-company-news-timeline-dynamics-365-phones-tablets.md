@@ -4,7 +4,7 @@ description: Learn about Company News Timeline for Dynamics 365 for phones and t
 ms.custom: dyn365-mobile-app
 ms.date: 09/10/2020
 ms.reviewer: 
-
+ms.service: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

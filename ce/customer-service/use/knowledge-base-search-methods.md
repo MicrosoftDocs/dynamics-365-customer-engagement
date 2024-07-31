@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection: 
-ms.date: 09/28/2023
+ms.date: 07/01/2024
 ms.custom: 
     - bap-template
     - dyn365-customerservice
@@ -18,6 +18,9 @@ search.audienceType:
 ---
 
 # Search the knowledge base on portals
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 Having a knowledge base on the portal makes it a customer self-service portal where you can access and search for knowledge articles through simple queries. This functionality helps resolve issues and makes information easily accessible. You can search for your knowledge articles by selecting **Knowledge Base** from your portal.
 

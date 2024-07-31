@@ -1,7 +1,7 @@
 ---
 title: Predefined security roles for Sales
 description: Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system.
-ms.date: 10/18/2023
+ms.date: 06/17/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -55,7 +55,7 @@ The following table lists the roles that you can assign to users who need to per
 | --- | --- | --- | --- |
 | Forecast Manager | Sales manager or an equivalent role who's responsible for configuring forecasts in the organization. | Sales Enterprise and Sales Premium | Configure, clone, deactivate, adjust, or delete a forecast. |
 | Forecast User | Any user in the organization who needs access to the forecast data for tracking and analysis | Sales Enterprise and Sales Premium | View forecast and drill-down forecast data |
-| Sequence Manager | Sales manager or an equivalent role who creates and manages sequences, segments, and assignment rules for the organization. | Sales Enterprise and Sales Premium | Create, edit, delete, and deactivate the following features in the sales accelerator<ul><li>Sequences</li><li>Segments</li><li>Assignment rules</li></ul> |
+| Sequence Manager | Sales manager or an equivalent role who creates and manages sequences, segments, and assignment rules for the organization.<br>**Note**: When using this role, ensure that you also have Basic User or a similar role. | Sales Enterprise and Sales Premium | Create, edit, delete, and deactivate the following features in the sales accelerator<ul><li>Sequences</li><li>Segments</li><li>Assignment rules</li></ul> |
 
 ## App access roles
 
