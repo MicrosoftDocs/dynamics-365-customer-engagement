@@ -9,7 +9,7 @@ ms.date: 07/31/2024
 ms.custom: bap-template 
 ---
 
-# Add case handling time widget to case forms (preview)
+# Configure case handling time widget to case forms (preview)
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
