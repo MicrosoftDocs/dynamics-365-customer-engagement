@@ -1,6 +1,6 @@
 ---
 title: Deprecations in Dynamics 365 Customer Service
-description: Use this topic to get information about features that are deprecated in Dynamics 365 Customer Service.
+description: Use this article to get information about features that are deprecated in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -18,6 +18,10 @@ Administrators and IT professionals can use this information to prepare for futu
 
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Local Hosting Support for Dynamics 365 Omnichannel Voice in India and Japan will be deprecated in September 2024
+
+Effective September 9, 2024, local hosting capabilities in India and Japan for Dynamics 365 Omnichannel Voice will be deprecated. This deprecation is the first step of transitioning to the new infrastructure for the Voice Channel in Dynamics 365 Contact Center. If you wish to continue using Voice, you'll need to explore the Global cloud deployment options in the nearest geographic location subject to your country laws for Dynamics 365 Contact Center Voice. More information: [Supported cloud locations for voice channel](../administer/voice-channel-region-availability.md)
 
 ## WeChat, SMS (Telesign), Telegram custom messaging, and Kik custom messaging channels will be deprecated and removed in October 2024
 

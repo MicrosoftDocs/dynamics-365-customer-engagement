@@ -11,6 +11,9 @@ ms.custom: bap-template
 
 # Supported cloud locations for voice channel
 
+> [!IMPORTANT]
+> The local hosting capabilities in India and Japan for Dynamics 365 Omnichannel Voice will be deprecated on September 09, 2024, see [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
@@ -44,8 +47,6 @@ If you need your data to stay within a region, the following table lists the loc
 |United Kingdom **<sup>1</sup>**| crm11.dynamics.com |Available | To be announced|
 |Canada **<sup>1 </sup>** |crm3.dynamics.com |Available | To be announced  |
 |Switzerland **<sup>1</sup>** |crm17.dynamics.com  | Available | To be announced|
-|India **<sup>1</sup>** | crm8.dynamics.com | Available | To be announced|
-|Japan **<sup>1, 2</sup>** | To be announced  | In preview| To be announced|
 |South America |To be announced | To be announced|To be announced|
 |France | To be announced | To be announced|To be announced|
 |Germany | To be announced | To be announced|To be announced|
