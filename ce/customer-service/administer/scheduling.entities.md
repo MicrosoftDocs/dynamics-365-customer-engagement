@@ -5,8 +5,11 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 07/30/2024
-ms.custom: bap-template 
+ms.date: 07/31/2024
+ms.custom:
+- bap-template
+- evergreen
+ 
 ---
 
 # Understand scheduling entities
