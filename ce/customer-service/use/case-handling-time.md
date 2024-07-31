@@ -80,3 +80,6 @@ The total time spent on the activities linked to the case. If there are multiple
 :::image type="content" source="../media/CHT-screenshot.png" alt-text="screenshot for case handling time":::
 
 
+### Related information
+
+[Add case handling time widget to case forms (preview)](../administer/add-case-handling-time.md)

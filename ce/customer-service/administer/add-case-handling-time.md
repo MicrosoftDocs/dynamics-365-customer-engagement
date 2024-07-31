@@ -63,3 +63,6 @@ For example, if you set 10 min as the update interval, the automatic time tracke
 > - When using the legacy case resolution dialog (Standard dialog), the total time displayed may differ from the **Total Time** shown on the widget. This is because the legacy dialog's **Total Time** is based on case activities only. To use the total time from the widget, switch to either Customizable or Quick Create case resolution dialog and include the **Total Time** attribute from Case Handling Time (Time Tracker) table.
 
 
+### Related information  
+
+[Track your time on cases (preview)](../use/case-handling-time.md)
