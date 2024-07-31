@@ -77,7 +77,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
 - A parent and child case can be closed independently of each other. This is the default setting.
 - Before you resolve a parent case that has active child cases, make sure that all the case activities are closed. Otherwise, you get a message with the following actions:
-   - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. Learn more in: [Enable the redirection link for Customer Service apps](../administer/add-enhanced-case-management.md)
+   - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. Learn more in [Enable the redirection link for Customer Service apps](../administer/add-enhanced-case-management.md)
    - **Confirm**: If you select **Confirm** on the warning, the system will automatically cancel the open activities when the case is resolved. Also, performance might be slow when you close a parent case with lots of active child cases associated with it. 
  
 ## Cancel a case
