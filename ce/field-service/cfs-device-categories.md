@@ -1,7 +1,7 @@
 ---
 title: Use device categories in Connected Field Service
 description: Learn how to use device categories in Connected Field Service.
-ms.date: 07/22/2024
+ms.date: 07/30/2024
 ms.topic: how-to
 ms.subservice: connected-field-service
 applies_to:
@@ -51,7 +51,7 @@ By default, you can view the last 20 readings. You can change the default settin
   
 2. From the list of assets, choose an asset and open the record.  
   
-3. Refer to the **Connect Device Readings** section to view the device readings. <!--- Don't see this ---> 
+3. Refer to the **Connect Device Readings** section to view the device readings.
   
 ## Remotely send commands to a registered device
 

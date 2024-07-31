@@ -106,7 +106,7 @@ In our example with the simulator, an IoT alert was created in Field Service bec
 
 ## Convert an IoT alert to a work order
 
-To take action against the IoT alert, use the business process flow.
+To take action against the IoT alert, use the business process flow that's built into  Field Service.
 
 1. In Dynamics 365 Field Service, under **Assets**, select **IoT Alerts**.
 
@@ -132,11 +132,11 @@ Multiple IoT alerts might be created for the same IoT device for the same issue.
 
 1. In Dynamics 365 Field Service, under **Assets**, select **IoT Alerts**. The hierarchy icon identifies a group of similar alerts.
 
-   :::image type="content" source="media/cfs-iot-alert-parent-diagram.png" alt-text="Screenshot of Field Service IoT alerts, showing an icon that indicates similar alerts.":::
+   :::image type="content" source="media/cfs-iot-alert-parent1.png" alt-text="Screenshot of Field Service IoT alerts, showing an icon that indicates similar alerts.":::
 
 1. Select the hierarchy icon next to an IoT alert to see similar IoT alerts for the same device around the same time.
 
-   :::image type="content" source="media/cfs-iot-alert-parent1.png" alt-text="Screenshot of related IoT alerts in Field Service.":::
+   :::image type="content" source="media/cfs-iot-alert-parent-diagram.png" alt-text="Screenshot of related IoT alerts in Field Service.":::
 
 You can also use AI to suggest which IoT alerts are higher priority based on historical data, such as which IoT alerts were converted to work orders. Learn more: [IoT alert AI suggestions](iot-alerts-ai-based-suggestions.md).
 
@@ -148,7 +148,7 @@ Configure which fields should be used to decide if an alert should be parented.
 
 1. In Dynamics 365 Field Service, select the **Settings** area.
 
-1. Under **IoT**, select **IoT Settings** > **Alert Aggregation Rules**.
+1. Under **IoT**, select **Settings** > **Alert Aggregation Rules**.
 
    :::image type="content" source="media/iot-alert-parenting-1.png" alt-text="IoT settings in Field Service, on the Alert Aggregation Rules tab.":::
 

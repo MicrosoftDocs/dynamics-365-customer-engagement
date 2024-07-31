@@ -1,7 +1,7 @@
 ---
 title: Register IoT devices (contains video)
 description: Learn about IoT devices and how to register them in Dynamics 365 Field Service.
-ms.date: 07/25/2024
+ms.date: 07/31/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
 applies_to: 
@@ -29,7 +29,7 @@ Register a new IoT device in Connected Field Service and associate it with the c
 
 ## Prerequisites
 
-Connected Field Service is connected to Azure IoT Hub or another custom IoT provider
+Connected Field Service is connected to Azure IoT Hub or another custom IoT provider.
 
 ## Create and register an IoT device from IoT Hub
 
