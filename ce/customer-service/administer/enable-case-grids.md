@@ -1,7 +1,7 @@
 ---
-title: "Enable case grids for agents| MicrosoftDocs"
+title: Enable case grids for agents
 description: "Learn how you can enable case grids and increase agent productivity."
-ms.date: 07/03/2023
+ms.date: 08/01/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -16,7 +16,7 @@ ms.collection: get-started
 
 # Enable case grids
 
-Increase your agent's productivity by providing quick access to information, such as the last customer interaction, case age, and the next SLA breach, with modernized case grids. The modern UI presents data in an intuitive manner that helps you and your agents perform inline edits and quick operations with minimal clicks, thereby facilitating decision-making.
+Increase your agent's productivity by providing quick access to information, such as the last customer interaction, case age, and the next SLA breach, with modernized case grids. The modern UI presents data in an intuitive manner that helps you and your agents perform inline edits and quick operations with minimal clicks, facilitating decision-making.
 
 ## Key features
 
@@ -42,7 +42,7 @@ The following are some of the key features of the modernized case grids:
 >    - The **Enhanced Active Cases** view is enabled by default for the **Case** entity. Edit actions aren't enabled by default. Enable the **Configure property Enable Editing** property in Power Apps to allow agents to perform inline edits and update data for columns in the **Enhanced Active Cases** view.
 >    - **Power Apps grid control** option is enabled by default for the **Case** entity and replaces the out-of-the-box legacy grids. 
 >    - If you want to revert to the legacy grids, enable the **Read-only Grid(default)** option in the **Controls** section of the **Case** entity in Power Apps.
->    - Customized grids won't be replaced by the **Power Apps grid control**.
+>    - If you are using grids that aren't available out-of-the-box, they won't be replaced by the **Power Apps grid control**.
 
 If you haven't opted in to the early access features, you must enable the **Power Apps grid control** option on the Power Apps portal to make the **Enhanced Active Cases** view accessible to agents.
 
@@ -57,7 +57,7 @@ If you haven't opted in to the early access features, you must enable the **Powe
 
     1. In the **Controls** section, for **Power Apps grid control**, select **Web**, **Phone**, and **Tablet** radio button/options.
     1. In the **Property** section in the **Customizer Control** field, select **Edit**. The **Configure property “Customizer Control Name”** dialog appears.
-    1. In the **Configure property “Customizer Control Name”** dialog, select **Bind to a static value option**. For **Singleline.Text**, select **MscrmControls.CustomCellControl.CustomCellControl**, and then select **OK**.
+    1. In the **Configure property “Customizer Control Name”** dialog, select **Bind to a static value option**. For **Single line.Text**, select **MscrmControls.CustomCellControl.CustomCellControl**, and then select **OK**.
      1. To enable inline editing, do the following:
        1. In the **Property** section in **Enable editing**, select **Edit**. The **Configure property Enable Editing** dialog appears.
        1. In the **Configure property Enable Editing** dialog, select **Bind to static options**, select **Yes** from the dropdown list, and then select **OK**.
