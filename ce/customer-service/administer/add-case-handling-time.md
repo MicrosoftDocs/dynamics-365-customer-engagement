@@ -37,7 +37,7 @@ To display the case handling time widget on a case form, follow these steps:
       - **Show agents only their contributed time**: Set this value to **True** or **False**, depending on whether you want agents to see only their own time or the total time of all agents on the case. The default is **False**.
     1. Select **Show related records**.
     > [!NOTE]
-    >  - In Customer Service workspace,  the application tracks the time automatically in the background whenever an agent opens the case and the case form is in focus, even if you don't add the widget to the case form. You can create reports on automatic time tracked per agent for each case.
+    >  - In Customer Service workspace, the application tracks the time automatically in the background whenever an agent opens the case and the case form is in focus, even if you don't add the widget to the case form. You can create reports on automatic time tracked per agent for each case.
     > - In Customer Service Hub, you must add the widget to the case form for automatic time to be tracked.
   1. Save and publish the changes.
 
