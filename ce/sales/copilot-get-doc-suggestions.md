@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to get content recommendations and answers from SharePoint
 description: Discover how integrating SharePoint with Sales allows Copilot to recommend product-related documents and answer queries from stored files.
-ms.date: 07/05/2024
+ms.date: 07/31/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -21,10 +21,13 @@ ai-usage: ai-assisted
 
 If you have integrated SharePoint with Dynamics 365 Sales, Copilot can recommend documents related to the products in the sales records. You can also ask questions about the products and get answers from the documents stored in SharePoint.
 
+> [!NOTE]
+> If your admin has configured specific SharePoint sites for your organization, Copilot searches for documents only in those sites. If no sites are configured, Copilot searches all the SharePoint sites that you have access to.
+
 ## Prerequisites
 
 - You must have the SharePoint Online license.
-- You must have the read permission, at the minimum, to access SharePoint documents. If you only have access to specific folders, Copilot displays relevant documents only from those folders. 
+- You must have the read permission, at the minimum, to access SharePoint documents. If you only have access to specific folders, Copilot displays relevant documents from only those folders.
 
 
 <a name="copilot-content-recommendation"></a>

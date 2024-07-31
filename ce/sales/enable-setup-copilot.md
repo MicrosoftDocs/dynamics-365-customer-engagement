@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
-description: Learn how to turn on and set up Copilot in Dynamics 365 Sales. Help your sales team can get summaries of their lead and opportunity records, catch up on recent changes, and prepare for meetings.
-ms.date: 07/24/2024
+description: Learn how to turn on and set up Copilot in Dynamics 365 Sales. Help your sales team can get summaries of their records, catch up on recent changes, and prepare for meetings.
+ms.date: 07/31/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -175,6 +175,19 @@ Copilot generates the list of recent changes for leads and opportunities from th
     - **View Audit Summary**
 
 1. Select **Save + close**.
+
+## Configure SharePoint locations for Copilot
+
+Configure the SharePoint locations that you want to use with Copilot to help sellers [get content recommendations and answers from SharePoint](copilot-get-doc-suggestions.md). If you don't configure any SharePoint location, Copilot uses the root SharePoint site of your organization.
+
+1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
+
+1. Under **General Settings**, select **Copilot**.
+
+1. Select **Knowledge sources**.
+1. Select **+ Configure SharePoint locations**.
+1. In the **Configure SharePoint locations** dialog box, specify the name and URL of the SharePoint site that you want to use with Copilot. You can add multiple SharePoint locations.
+  The results from the SharePoint locations are based on the permissions that users have in SharePoint. If users don't have access to a SharePoint location, Copilot doesn't show results from that location.
 
 ## Add the Copilot page site map entry to custom sales app
 
