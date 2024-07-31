@@ -1,7 +1,7 @@
 ---
 title: Access the Dynamics 365 app through messaging extensions
 description: Learn how to access the Dynamics 365 app through messaging extensions
-ms.date: 07/30/2024
+ms.date: 07/31/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -61,31 +61,6 @@ After the Dynamics 365 app is added to a channel, it's available through Actions
     The Dynamics 365 app icon is pinned to the command bar.
     
     ![Pinned Dynamics 365 app on the command bar](media/me-d365-app-pinned.png "Pinned Dynamics 365 app on the command bar")
-
-## Set up the Dynamics 365 app
-
-1.  [Access the Dynamics 365 app](#access-the-dynamics-365-app).
-
-2.  In the **Dynamics 365** window, select **sign in**.
-
-    ![Sign in to the app](media/me-sign-in-app..png "Sign in to the app")
-
-3.  After you sign in to the app, select **set up**.
-
-    > [!NOTE]
-    > You'll see this step only if you are using the Dynamics 365 app in Teams for the first time. Otherwise, you'll be taken to the next step to select an environment and an app.
-
-    ![Set up the app](media/me-setup-app.png "Set up the app")
-
-4.  In the browser window that opens, provide the following information:
-
-    - **Environment (org)**: Select an environment that you want to connect to.
-
-    - **Dynamics 365 app**: Select an app that you want to share records from.
-
-    ![Select environment and app](media/me-app-settings..png "Select environment and app")
-
-5.  Select **Save**.
 
 After you've set up the app, you can change the settings later as required. More information: [Edit settings of the Dynamics 365 app](edit-d365-app.md)
 
