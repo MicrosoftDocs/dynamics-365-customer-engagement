@@ -1,13 +1,13 @@
 ---
-title: `lcw:onMinimize`
-description: `lcw onMinimize event (Omnichannel for Customer Service JavaScript API reference).`
+title: lcw:onMinimize
+description: lcw onMinimize event (Omnichannel for Customer Service JavaScript API reference).
 ms.topic: reference
 ms.date: 11/10/2021
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: nenellim
 ---
-# `lcw:onMinimize event (Omnichannel for Customer Service JavaScript API reference)`
+# lcw:onMinimize event (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
