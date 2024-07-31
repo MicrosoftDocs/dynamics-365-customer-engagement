@@ -26,7 +26,7 @@ You can also do these actions on the case handling time widget:
 - View the profiles of all the agents who worked on the case. This includes agents whose time was automatically recorded or manually logged, and agents who worked on associated tasks activities such as phone calls, tasks, or emails.
 - Turn on the **My time** toggle to see your time only on the case. The timer changes into a ticker that shows your active time in hours, minutes, and seconds as applicable. A visual indicator shows that your time is tracked in real time. 
  > [!NOTE]
- > You can see the **My time** toggle only if your administrator has enabled it in Power Apps. If it doesn't appear, **Total Time** displays only the time you've spent on the case.
+ > You can view the **My time** toggle only if your administrator has enabled it in Power Apps. If it doesn't appear, **Total Time** displays only the time you've spent on the case.
 - View when the timer was last updated. It refreshes automatically at the frequency set by your administrator. By default, it refreshes every 10 minutes. Select **Refresh** to update the timer and show the current time.
    - In Customer Service workspace, when you select **Refresh**, the **Total Time**, **Automatic Time**, or **Manual Time** values are updated. The records in **History** aren't updated.  
   - In Customer Service Hub, the timer widget displays the updated time automatically at the frequency set by your administrator or on case form refresh, browser navigation, form navigation. Selecting **Refresh** updates **Total Time**, **Automatic Time**, **Manual Time**, and the records in **History**.
