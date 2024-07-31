@@ -1,6 +1,6 @@
 ---
 title: Track your time on cases (preview)
-description: Learn how to use the case handling time widget to see and log your time on cases in Customer Service.
+description: Learn how to use the case handling time widget to view and log your time on cases in Customer Service.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: mgandham
