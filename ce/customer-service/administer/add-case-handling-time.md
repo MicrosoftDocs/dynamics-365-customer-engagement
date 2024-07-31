@@ -50,7 +50,7 @@ The update interval is the time between each update of the database and the widg
 - Updates the database with the automatic tracked time in the frequency specified.
 - Automatically refreshes the case handling time widget to display the updated time.
 
-For example, if you set 10 min as the update interval, the automatic time tracked on the case is updated to the database and the widget after every 10 min. If two agents open the same case at the same time, after 10 min, the widget.
+For example, if you set 10 min as the update interval, the automatic time tracked on the case is updated to the database and the widget after every 10 min. If two agents open the same case at the same time, after 10 min, the widget displays 20 mins as the total time tracked on the case.
 
 ## Delete time tracker records
 
