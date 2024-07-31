@@ -28,7 +28,7 @@ To display the case handling time widget on a case form, follow these steps:
 1. Select the Power Apps link. The application shows the [**Solutions**](/power-apps/maker/data-platform/solutions-overview#work-with-solutions-in-power-apps) page. 
 1. In Power Apps, select the solution that contains your custom case form and then select **Tables**.
 1. In the **Tables** page, select **Case** and then select **forms**.
-1. Select the required form and add the [**Handling time** component](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#add-components-to-a-form) to the form. The widget always appears on the bottom right of the case form at runtime, regardless of where you add it on the form. We recommend that you add it in an existing section within the viewport. During runtime, you will see a blank space where you added the component to the form.
+1. Select the required form and [add the **Handling time** component](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#add-components-for-a-column-on-the-form) to the form. The widget always appears on the bottom right of the case form at runtime, regardless of where you add it on the form. We recommend that you add it in an existing section within the viewport. During runtime, you will see a blank space where you added the component to the form.
 1.  Configure these properties for the component:
 
       - **Table**: Set this value to **Time Trackers**.
@@ -39,7 +39,7 @@ To display the case handling time widget on a case form, follow these steps:
     > [!NOTE]
     >  - In Customer Service workspace,  the application tracks the time automatically in the background whenever an agent opens the case and the case form is in focus, even if you don't add the widget to the case form. You can create reports on automatic time tracked per agent for each case.
     > - In Customer Service Hub, you must add the widget to the case form for automatic time to be tracked.
-    1. Save and publish the changes.
+  1. Save and publish the changes.
 
 
 
@@ -60,7 +60,6 @@ For example, if you set 10 min as the update interval, the automatic time tracke
 
 > [!NOTE]
 > - If you plan to use these records for building reports, we recommend that you don't delete them.
-> - When using the legacy case resolution dialog (Standard dialog), the Total Time displayed may differ from the Total Time shown on the widget. This is because the legacy dialog's Total Time is based on case activities only. To use the Total Time from the widget, switch to either Customizable or Quick Create case resolution dialog and include
-the Total Time attribute from Case Handling Time (Time Tracker) table.
+> - When using the legacy case resolution dialog (Standard dialog), the total time displayed may differ from the **Total Time** shown on the widget. This is because the legacy dialog's **Total Time** is based on case activities only. To use the total time from the widget, switch to either Customizable or Quick Create case resolution dialog and include the **Total Time** attribute from Case Handling Time (Time Tracker) table.
 
 

@@ -35,10 +35,7 @@ You can also do these actions on the case handling time widget:
 
 ### Automatic time tracking
 
-The application tracks your time automatically when you focus on a specific case.
-
- > [!NOTE]
- > The application tracks time automatically only when a case is open in a session tab or an app tab within a session tab. Automatic time tracking isn't supported when you switch from one case to another in the Inbox.
+The application tracks your time automatically when you focus on a specific case. Time is automatically tracked only when a case is open in a session tab or an app tab within a session tab. Automatic time tracking isn't supported when you switch from one case to another in the Inbox.
 
 
 - In Customer Service workspace, the timer is affected as follows:
