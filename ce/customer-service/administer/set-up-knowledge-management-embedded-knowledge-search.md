@@ -32,11 +32,11 @@ A comprehensive knowledge base is a key to increased customer satisfaction and i
 > [!IMPORTANT]
 > Usage of [!INCLUDE[pn_parature](../../includes/pn-parature.md)] knowledgebase as a knowledge management solution has been deprecated. Learn more in [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
-After knowledge management is set up, users will be able to:  
+After knowledge management is set up, users are able to:  
   
 - Search for relevant knowledge base articles from Customer Service while they're working on a record.  
   
-- Set up the search logic, suggest-as-you-type option, and search filters to get only the required knowledge articles, thereby providing timely and consistent information to customers while working on their cases.
+- Set up the search logic, suggest-as-you-type option, and search filters to get only the required knowledge articles. These features help users provide timely and consistent information to customers while working on their cases.
 
 - Use smart assist to receive AI suggestions on related knowledge articles and similar cases.
 
@@ -49,7 +49,7 @@ You can set up knowledge management on the Customer Service admin center, Contac
 - [Set up knowledge management](#set-up-knowledge-management)
 - [Set up knowledge management settings page manually for a model-driven app](#set-up-knowledge-management-settings-page-manually-for-a-model-driven-app)
 
-After you have configured knowledge management on your app, you must also set up the various other aspects of knowledge management, based on your organizational requirements, such as:
+After you configure knowledge management on your app, you must also set up the various other aspects of knowledge management, based on your organizational requirements, such as:
 
 - [Configure knowledge base article URLs](#configure-knowledge-base-article-urls)
 - [Create and manage categories](create-manage-categories.md#create-and-manage-categories)
@@ -85,11 +85,11 @@ After you have configured knowledge management on your app, you must also set up
       - [Show recently accessed knowledge articles for cases](#show-recently-accessed-knowledge-articles-for-cases)
       
   1. Optionally, in the **Categories** section, select **Manage**. The **Categories System Views** page appears. You can create and manage a logical structure of categories for your records. Learn more in [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
-  1. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to save the the search filters according to their areas, set the **Allow agent to personalize** toggle to **Yes**.
+  1. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to save the search filters relevant to their areas, set the **Allow agent to personalize** toggle to **Yes**.
   1. In the **Portals** section, select **Manage**. The **Portals** page appears.
       1. In the **Support portal connection** section, do the following to share knowledge articles as URLs:
           *  Set the **Use an external portal** toggle to **Yes** to integrate an external portal to publish knowledge articles.
-          * **URL Format**: Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: https://support portal URL/kb/{kbnum}. The placeholder, "{kbnum}", is replaced by an actual knowledge article number.
+          * **URL Format**: Type the portal URL to use to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: https://support portal URL/kb/{kbnum}. The placeholder, "{kbnum}", is replaced by an actual knowledge article number.
       1.    In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to the portal** toggle to **Yes**. Learn more in [Update knowledge article attachments for portal](#update-knowledge-article-attachments-for-portal).
   1. Optionally, in the **Article templates** section, select **Manage**. The **Article Templates System Views** page appears. You can create templates to help knowledge authors use consistent language and messaging. Learn more in [Create templates for articles](/power-platform/admin/create-templates-articles).
   1. Optionally, in the **Search providers** section, select **Manage**. The **Search providers System Views** page appears. You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization. Learn more in [Set up external search providers](set-up-search-providers.md#set-up-external-search-providers).
@@ -102,7 +102,7 @@ After you have configured knowledge management on your app, you must also set up
 > [!NOTE]
 > The embedded knowledge search control is deprecated in the web client. You must use the Knowledge Settings page in Unified Interface.
 
- If you are using the custom model-driven app, you need to manually update your site map with the Knowledge Settings page. To update the site map:
+ If you're using the custom model-driven app, you need to manually update your site map with the Knowledge Settings page. To update the site map:
  
  1. Select your custom app.
  
@@ -155,7 +155,7 @@ You can enable knowledge authors to get suggested keywords and description based
 
 ## Set up knowledge search logic
 
-If you have Dataverse search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used in your search. If you search for Contoso Coffee, the search results will show articles that have either "Contoso" or "Coffee", as seen in the following example:
+If you have Dataverse search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used in your search. If you search for Contoso Coffee, the search results show articles that have either "Contoso" or "Coffee", as seen in the following example:
 
 - Article 1: Contoso machine repair
 - Article 2: Coffee powder quality
@@ -163,7 +163,7 @@ If you have Dataverse search enabled, you can apply knowledge search logic for y
 - Article 4: Coffee machine order for Contoso
 - Article 5: Espresso coffee machine troubleshooting
 
-You can enable the knowledge search to work by the `searchmode=all` logic, which matches all the keywords that you used in the search. If you search for Contoso Coffee, the search results will show articles that match both "Contoso" and "Coffee", as seen in the following example:
+You can enable the knowledge search to work by the `searchmode=all` logic, which matches all the keywords that you used in the search. If you search for Contoso Coffee, the search results show articles that match both "Contoso" and "Coffee", as seen in the following example:
 
 - Article 1: Contoso coffee order price
 - Article 2: Coffee machine order for Contoso
@@ -194,7 +194,7 @@ When an agent selects the record, the system displays the article inline on the 
 
 ## Show recently accessed knowledge articles for cases
 
-Knowledge search shows the recently accessed results for keyword searches made by agents across different cases without initiating any search. This helps agents directly review and use the articles across similar cases without searching for the keyword again.
+Knowledge search shows the recently accessed results for keyword searches made by agents across different cases without initiating any search. This feature helps agents directly review and use the articles across similar cases without searching for the keyword again.
 
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**.
 2. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
