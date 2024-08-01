@@ -22,3 +22,5 @@ Administrators and IT professionals can use this information to prepare for futu
 ## Local Hosting Support for the voice channel in India and Japan will be deprecated in September 2024
 
 Effective September 9, 2024, local hosting capabilities for the voice channel in India and Japan will be deprecated. This deprecation is the first step of transitioning to the new infrastructure for the Voice Channel in Dynamics 365 Contact Center. If you wish to continue using Voice, you'll need to explore the Global cloud deployment options in the nearest geographic location subject to your country laws for Dynamics 365 Contact Center Voice. More information: [Supported cloud locations for voice channel](../administer/voice-channel-region-availability.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
