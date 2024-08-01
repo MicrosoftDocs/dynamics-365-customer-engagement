@@ -150,7 +150,7 @@ You can enable the legacy layout in one of the following ways:
 
 ### Training resources
 
-Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180)
+Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180). The training covers the following topics:
 
   * Get familiar with sessions, tabs, and productivity tools.
   * How to create agent experience profiles, templates, agent scripts and macros.
