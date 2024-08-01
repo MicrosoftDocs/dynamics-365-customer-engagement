@@ -32,7 +32,7 @@ The following are some of the key features of the modernized case grids:
 
 > [!NOTE]
 > - If you [opt in](/power-platform/admin/opt-in-early-access-updates) to early access features, agents will see the following by default:
->   - The **Enhanced Active Cases** view with additional fields such as, **Case Age**, **Next SLA**, **Is escalated**, and **Last Interaction**. 
+>   - The **Enhanced Active Cases** view with additional fields, **Case Age**, **Next SLA**, **Is escalated**, and **Last Interaction**. 
 >   - Color coded icons for **Priority** and the **Origin** channels, avatars for **Owner** appear in all the case views.
 
 ## Enable the grid control for the Case entity
@@ -42,7 +42,7 @@ The following are some of the key features of the modernized case grids:
 >    - The **Enhanced Active Cases** view is enabled by default for the **Case** entity. Edit actions aren't enabled by default. Enable the **Configure property Enable Editing** property in Power Apps to allow agents to perform inline edits and update data for columns in the **Enhanced Active Cases** view.
 >    - **Power Apps grid control** option is enabled by default for the **Case** entity and replaces the out-of-the-box legacy grids. 
 >    - If you want to revert to the legacy grids, enable the **Read-only Grid(default)** option in the **Controls** section of the **Case** entity in Power Apps.
->    - If you are using grids that aren't available out-of-the-box, they won't be replaced by the **Power Apps grid control**.
+>    - If you are using grids that aren't available out of the box, they won't be replaced by the **Power Apps grid control**.
 
 If you haven't opted in to the early access features, you must enable the **Power Apps grid control** option on the Power Apps portal to make the **Enhanced Active Cases** view accessible to agents.
 
