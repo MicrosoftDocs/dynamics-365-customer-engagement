@@ -1,6 +1,6 @@
 ---
 title: Create work order templates with incident types
-description: Learn about configuring incident types in Dynamics 365 Field Service.
+description: Learn how to configur incident types in Dynamics 365 Field Service.
 ms.date: 06/10/2024
 ms.topic: how-to
 author: jshotts
@@ -9,31 +9,11 @@ ms.author: jasonshotts
 
 # Create work order templates with incident types
 
-Incident types act as service templates that allow users to quickly [create work orders](create-work-order.md) for the most common types of jobs that your organization performs. Incident types are also used to define specific work order issues and recommended resolutions. They can provide other details like duration, service tasks, products, and more.
-
-Where **work order types** define the general [category of a work order](create-work-order-types.md) (such as inspection, repair, or maintenance), **incident types** define the specific request of a work order and add more details to the work order type.
-
-For example, an incident type can be:
-
-- A specific error code on a machine ("Error code 0048").
-- A common customer complaint or request ("The building temperature is too high").
-- A specific procedure ("Perform stress test").
-
-Organizations benefit from using incident types because they codify issues, procedures, and resolutions, and help standardize processes across geographies and business lines. Incident types ensure all field technicians are performing the same actions to resolve work orders. If you discover better procedures, update the incident type, and it's immediately available to the entire organization.
-
-Incident types help with reporting. They let you discover trends for specific issues. Rather than reporting on work order types to understand the number of repair work orders, an incident type lets you report on the number of power failures for a specific asset category.
-
-With incident type, you can:
-
-- Define multiple issues or procedures that need to be completed by adding multiple incident types per work order.
-
-- Build service history by relating incident types to a customer asset.
-
-- Specify requirements for a work order and schedule it to multiple resources by relating incident types to requirement group templates.
+Create incident types to use as templates for common work orders. Learn more in [Work order incident type overview](incident-type-overview.md).
 
 ## Prerequisites
 
-- Because incident types represent a grouping of [service tasks](set-up-service-task-types.md), [products](create-product-or-service.md), and [services](create-product-or-service.md), we recommend you create these records first. The service tasks, products, and services can be associated to multiple incident types. For example, "Put on safety equipment" is a service task that needs to be completed frequently. Create this service task once and associate it to the relevant incident types. Then you can use one list of unique service tasks that are added to incident types, which create **Incident Type Service Task** records. The same is true for products, services, and characteristics.
+- The [service tasks](set-up-service-task-types.md), [products](create-product-or-service.md), and [services](create-product-or-service.md) for the incident type are created.
 
 - You have the **Field Service - Administrator** security role.
 
@@ -242,7 +222,7 @@ You can add multiple incident types to a work order. For example, a machine has 
 > [!TIP]
 > To change the incident type on a work order, delete the **Work Order Incident** first. Then, create a new work order incident with a different incident type. You can manage work order incidents on the **Work Order** > **Related** > **Incidents**.
 
-## Add customer asset to a work order
+## Relate a customer asset to an incident
 
 You can relate [customer assets](assets.md) to incidents to inform field technicians which asset needs attention and build a service history. You can have all incidents related to the same asset or even have each incident related to different customer assets as needed.
 
@@ -304,27 +284,5 @@ For each suggestion, you have the following options:
 - **Apply Suggestion**: The system adds the product or service to the incident type. You have to manually apply suggestions for incident types.
 - **Dislike**: The suggestion is removed from the list. This option helps improve the AI suggestion model.
 
-## Understand incident entities
-
-There are multiple entities involved that use incident types. Review this section before you write workflows or plug-ins.
-
-### Work order scenario
-
-\> Incident Type \> Incident Product \> Work Order Incident \> Work Order Incident Product
-
-First an **Incident Type** is created and a product is added to the incident creating an **Incident Product**. When the incident type is added to a work order, a **Work Order Incident** is created along with a **Work Order Incident Product**.
-
-> [!TIP]
-> When you plan to change the incident type on a work order, delete the Work Order Incident first. Then, create a new Work Order Incident with a different incident type.
-
-### Agreement scenario
-
-\> Incident Type \> Incident Product \> Agreement Incident \> Agreement Product \> Work Order Incident
-
-When you use incidents with **Agreements**, the incidents and related items are added to agreements first, and then passed along to work orders as they're generated by the agreement.
-
-### Multiple incident types
-
-Only one work order incident can be the primary incident. It's either the first incident added or the one entered in the primary incident type field. There's a Boolean value on the work order incident type called *Is Primary* that can be used for business logic.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

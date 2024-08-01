@@ -65,12 +65,21 @@ items:
     - name: Price list
       href: create-price-list.md
     - name: Products and services
-      href: create-product-or-service.md
+      items:
+          - name: Products and services overview
+            href: products-services.md
+          - name: Create products and services
+            href: create-product-or-service.md
     - name: Priorities
       href: set-priorities.md
     - name: Work order types
       href: create-work-order-types.md
     - name: Work order templates (incident types)
+      items:
+          - name: Incident type overview
+            href: incident-type-overview.md
+          - name: Create incident types
+            href: configure-incident-types.md
       href: configure-incident-types.md
     - name: Service task types
       href: set-up-service-task-types.md

@@ -1,7 +1,7 @@
 ---
 title: Create products or services for work orders
 description: Learn how to create products or services for work orders in Dynamics 365 Field Service.
-ms.date: 06/10/2024
+ms.date: 08/01/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -9,20 +9,7 @@ ms.author: jacoh
 
 # Create products or services for work orders
 
-Dynamics 365 Field Service uses the Dynamics 365 [product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md) and [price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) for on-site service. Field technicians can use the same products for work orders that salespeople use for opportunities, quotes, and orders.
-
-With the product entity, you can create products and services to add to work orders.
-
-- **Product** is an item a field technician might record while completing a work order for which the client might be billed. Products can be physical items, like a battery or a part, or might be nonphysical components, like an oil change or an estimate. Both physical and nonphysical products are measured and sold in quantity of units. Many physical items are tracked as inventory. Nonphysical items aren't tracked as inventory.
-
-- **Service** is work that a field technician performs and might bill the client for. Service is measured in time duration.
-
-If a field technician uses a product or performs a service while on the job, they can then enter the work into the Field Service mobile app. Used products and performed services can be invoiced to customers based on the applicable price list or entitlement. Used products can be deducted from inventory levels either in the Field Service inventory module, Dynamics 365 Finance & Operations, or an external Enterprise resource planning (ERP) system.
-
-> [!NOTE]
-> Field Service doesn't support product bundles.
-
-In this article, learn how to create products and services, add them to work orders, and review inventory settings.
+In this article, learn how to create products and services, add them to work orders, and review inventory settings. Learn more in [Products and services in Field Service](products-services.md).
 
 ## Create a product or service
 
@@ -110,17 +97,15 @@ After [creating a work order](create-work-order.md), you can add products and se
 
 ## Use products and services
 
-Work order products and services appear on work order forms in the mobile app, regardless if they are created individually or in bulk as part of a work order incident type.
-
 Work order products and services aren't required. Field technicians can edit the quantity or add new items from the product catalog. Administrators use [security roles and field security profiles](users-licenses-permissions.md) to specify what users can edit, create, and delete.
 
 On a work order product record, field technicians set the **Line Status** of a work order product to **Used**. They also enter a **Quantity**, which represents how many units were used and a **Quantity To Bill**.
 
-For inventory items, enter the warehouse it comes from to update the inventory. The system defaults to the warehouse value on the **Bookable Resource** associated with the user who creates the work order product record.
+For inventory items, technicians enter the warehouse it comes from to update the inventory. The system defaults to the warehouse value on the **Bookable Resource** associated with the user who creates the work order product record.
 
-You can mark noninventory item as used along with a quantity for reporting.
+For noninventory items, technicians can mark the item as used and a quantity for reporting purposes.
 
-When using a work order service, set the **Line Status** to **Used** and enter a **Duration** and **Duration to Bill**.
+On a work order service record, technicians set the **Line Status** to **Used** and enter a **Duration** and **Duration to Bill**.
 
 As products and services are used, the subtotal based on price and quantity to bill is calculated on the work order.
 
