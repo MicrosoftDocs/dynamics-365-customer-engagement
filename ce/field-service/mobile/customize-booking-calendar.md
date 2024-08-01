@@ -1,7 +1,7 @@
 ---
 title: Customize the booking view
 description: Learn how to customize the default booking view in the Field Service mobile experience.
-ms.date: 12/20/2023
+ms.date: 08/19/2024
 ms.topic: article
 author: JonBaker007
 ms.author: jobaker
@@ -49,11 +49,7 @@ Custom fields are also shown on the calendar's day view when the booking duratio
 > [!NOTE]
 > If you have configured multiple views for the mobile app, it is recommended you include the new fields into each view that can be accessed from the mobile app.
 
-## [New mobile UX (Preview)](#tab/vNext)
-
-[!INCLUDE [public-preview-banner](../../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../../includes/public-preview-note.md)]
+## [New mobile UX](#tab/vNext)
 
 The agenda view is the default view in the [new user experience of the Field Service mobile app](set-up-field-service-mobile.md). It shows the list of bookings in chronological order that are assigned to the user who's signed in to the app. Select **Home** in the bottom navigation to return to the home page. By default, the agenda view shows the following details associated with each booking:
 

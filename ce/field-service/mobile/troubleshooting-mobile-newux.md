@@ -1,24 +1,20 @@
 ---
 title: Dynamics 365 Field Service mobile app troubleshooting
-description: Learn how to troubleshoot issues in the Dynamics 365 Field Service mobile app (preview).
-ms.date: 07/11/2024
+description: Learn how to troubleshoot issues in the Dynamics 365 Field Service mobile app.
+ms.date: 08/19/2024
 ms.topic: troubleshooting
 author: JonBaker007
 ms.author: jobaker
 ms.custom: bap-template
 ---
 
-# Dynamics 365 Field Service mobile app troubleshooting (Preview)
-
-[!INCLUDE [public-preview-banner](../../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../../includes/public-preview-note.md)]
+# Dynamics 365 Field Service mobile app troubleshooting
 
 This article lists common issues with the [Field Service mobile app](set-up-field-service-mobile.md) and steps to resolve them. You need administrator permissions in Field Service for all resolution steps.
 
 ## Error on start due to permission/privilege issues
 
-The new user experience for the Field Service mobile experience (preview) requires some privileges added to the security roles that the user belongs to.
+The new user experience for the Field Service mobile experience requires some privileges added to the security roles that the user belongs to.
 
 ### Symptoms
 
@@ -117,19 +113,19 @@ If the area is present, a customization layer on the sitemap sits on top, which 
 1. [Create a new group](/power-apps/maker/model-driven-apps/app-navigation#create-a-group) for the mobile settings
 1. [Add a new page to the group](/power-apps/maker/model-driven-apps/app-navigation#create-a-page). Select **URL** for content type.
 1. Use `/main.aspx?etn=msdyn_fieldservicesetting&pagetype=entityrecord&id=e49c6117-5065-423f-8ab5-fcacfda85a04&formid=ee334fea-0cd5-471c-bb30-829f4511a59f` as URL input.
-1. Add a child area for preview features. Under **ID**, expand **Advanced settings** and **privileges**.
+1. Add a child area for new features. Under **ID**, expand **Advanced settings** and **privileges**.
 1. Select **Add table privilege**, choose **Field Service Setting** and select only the **Write** privilege.
 1. **Apply** the change, then **Save and Publish** them.
 
-## The new experience (preview) doesn't show after enabling it in settings
+## The new experience doesn't show after enabling it in settings
 
 ### Symptoms
 
-The mobile app doesn't load the new experience (preview), even if it has been [enabled in the settings](set-up-field-service-mobile.md).
+The mobile app doesn't load the new experience, even if it has been [enabled in the settings](set-up-field-service-mobile.md).
 
 ### Resolution
 
-The new experience (preview) currently doesn't support users or apps with offline enabled. Verify and update the following cases:
+The new experience currently doesn't support users or apps with offline enabled. Verify and update the following cases:
 
 1. The user of the mobile app must not be part of the Mobile Offline Profile.
 1. The app itself shouldn't be set up for offline. In the app designer, open **Field Service Mobile** and open **Settings** for the app. On the **General** tab, turn off **Can be used offline**. For more information, see [Set up mobile offline](/power-apps/mobile/setup-mobile-offline#enable-your-app-for-offline-use-preview).

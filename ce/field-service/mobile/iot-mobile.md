@@ -1,7 +1,7 @@
 ---
 title: Work IoT data on the mobile app
 description: Learn how to access and work with IoT data provided by Connected Field Service from the Field Service mobile app.
-ms.date: 07/11/2024
+ms.date: 08/19/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.custom: bap-template

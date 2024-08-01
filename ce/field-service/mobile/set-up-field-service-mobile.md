@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile app
 description: Learn how to install and set up the Dynamics 365 Field Service mobile app.
-ms.date: 07/11/2024
+ms.date: 08/19/2024
 ms.topic: how-to
 ms.subservice: field-service-mobile
 ms.collection: get-started
@@ -37,11 +37,7 @@ Assign Field Service users the **Field Service-Resource** security role and **Fi
 
 Users with these security roles can sign in to the mobile app as a technician.
 
-## Refreshed mobile user experience (Preview)
-
-[!INCLUDE [public-preview-banner](../../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../../includes/public-preview-note.md)]
+## Refreshed mobile user experience
 
 The refreshed user experience in the Dynamics 365 Field Service mobile app helps service technicians swiftly access all the information they need. It offers familiar mobile navigation, gestures, and controls to manage work orders, tasks, services, and products. Technicians save valuable time with Copilot in Field Service to quickly updating the status of a booking or get a summary of a work order. They can even get detailed information about tasks with [embedded Dynamics 365 Guides](/dynamics365/mixed-reality/guides/admin-connect-field-service-mobile), which provide step-by-step instructions, pictures, and videos.
 

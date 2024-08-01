@@ -3,7 +3,7 @@ title: Enable technician to create service reports
 description: Learn how to set up service reports for Field Service technicians.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 07/11/2024
+ms.date: 08/19/2024
 author: JonBaker007
 ms.author: jobaker
 ---

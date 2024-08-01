@@ -3,7 +3,7 @@ title: Enable push notifications
 description: Learn how to enable push notifications for the Field Service mobile app.
 ms.subservice: field-service-mobile
 ms.topic: how-to
-ms.date: 07/11/2024
+ms.date: 08/19/2024
 author: JonBaker007
 ms.author: jobaker
 ---

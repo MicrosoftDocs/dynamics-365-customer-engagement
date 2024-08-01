@@ -3,7 +3,7 @@ title: Edit the booking and work order form
 description: Learn how to edit the booking and work order form for the Dynamics 365 Field Service mobile app.
 ms.subservice: field-service-mobile
 ms.topic: conceptual
-ms.date: 07/11/2024
+ms.date: 08/19/2024
 author: JonBaker007
 ms.author: jobaker
 ---
