@@ -37,7 +37,7 @@ The following table lists the global region, URL, and general and trial availabi
 ## Local cloud deployments
 
 > [!IMPORTANT]
-> The local hosting capabilities for the voice channel in India and Japan will be deprecated on September 09, 2024. Learn more in [Deprecations in Contact Center](../implement/deprecations-customer-service.md).
+> The local hosting capabilities for the voice channel in India and Japan will be deprecated on September 09, 2024. Learn more in [Deprecations in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/deprecations-contact-center.md).
 
 If you need your data to stay within a region, the following table lists the local region, URL, and general and trial availabilities of the voice channel in local regions. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
