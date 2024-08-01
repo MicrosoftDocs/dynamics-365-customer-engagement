@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 07/11/2024
+ms.date: 07/31/2024
 ms.custom: bap-template
 ms.collection:
 ---
@@ -34,14 +34,11 @@ The following channels will be deprecated and removed in Omnichannel for Custome
 
 After October 8, 2025, the above channels will no longer be accessible for you or your customers in your Omnichannel for Customer Service environment. Alternative channel integration options are available. Contact Microsoft Support if you need help. 
 
-## Google's Business Messages channel will be deprecated and removed in July 2024
+## Google's Business Messages channel is deprecated and removed as of July 2024
 
-The channel for [Google's Business Messages](../administer/configure-google-business-messages-channel.md) in Omnichannel for Customer Service will be deprecated and removed on July 31, 2024. This is due to Google's announcement that they are discontinuing Business Messages on July 31, 2024.
+The channel for Google's Business Messages in Omnichannel for Customer Service is deprecated and removed. Google previously announced that it would discontinue Business Messages on July 31, 2024.
 
-The following are key dates for the channel for Google's Business Messages deprecation in Omnichannel for Customer Service:
-
-- July 1, 2024: No new messages can be sent or received in Google's Business Messages.
-- July 31, 2024: Google's Messages for Business will be fully deprecated and no longer accessible.
+Alternative channel integration options are available. Contact Microsoft Support if you need help. 
 
 ## Diagnostics in unified routing is deprecated and will be removed in August 2024
 
