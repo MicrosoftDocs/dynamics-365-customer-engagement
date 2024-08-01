@@ -44,7 +44,7 @@ To enable the enhanced case forms, follow these steps:
 
 ## Case for multisession experience
 
-If you [opt in](/power-platform/admin/opt-in-early-access-updates) to the early access features, the case for multisession experience form, which is the default case form for Customer Service workspace, has the following components by default. These components correspond to the following experience during run time:
+If you [opt in](/power-platform/admin/opt-in-early-access-updates) to the early access features, the **Case for multisession experience** form, which is the default case form for Customer Service workspace, has the following components enabled by default: 
 
    - **OptionSet Wrapper**: Displays color coded **Case Status** fields and **Priority** icons.
    - **Queue Item Control**: Displays the current queue a record belongs to and the Worked by field. You can edit the **Worked by** field and save the changes.
