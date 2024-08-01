@@ -1,7 +1,7 @@
 ---
-title: "Manage cases with case grids | MicrosoftDocs"
-description: "Learn how to work with case grids and increase agent productivity. "
-ms.date: 07/03/2023
+title: Manage cases with case grids 
+description: Learn how to work with case grids and increase agent productivity.
+ms.date: 08/01/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -28,7 +28,7 @@ To be able to view the modernized case grids, your administrator must enable the
 >     - Color coded icons for **Priority** and the **Origin** channels, avatars for **Owner** appear in all the case views.
 > - Enabling the **Enhanced Active Cases** view will alter the **modifiedon** and **modifiedby** fields on the case entity. We recommend that you avoid using these fields for reporting.
 
-   :::image type="content" source="../media/case-grids-new-mini.png" alt-text="Screenshot of the default case grid at runtime." lightbox="../media/case-grids-new.png":::
+>    :::image type="content" source="../media/case-grids-new-mini.png" alt-text="Screenshot of the default case grid at runtime." lightbox="../media/case-grids-new.png":::
 
 The following table explains the enhancements to the **Enhanced Active Cases** view columns when you enable the **Power Apps grid control**, compared with other grids, such as the **Read Only Grid**.
 

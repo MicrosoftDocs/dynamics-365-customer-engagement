@@ -1,6 +1,6 @@
 ---
 title: Enable case grids for agents
-description: "Learn how you can enable case grids and increase agent productivity."
+description: Learn how you can enable case grids and increase agent productivity.
 ms.date: 08/01/2024
 ms.topic: article
 author: Soumyasd27
@@ -39,7 +39,8 @@ The following are some of the key features of the modernized case grids:
 
 > [!NOTE]
 > - If you [opt in](/power-platform/admin/opt-in-early-access-updates) to early access features, the following actions apply:
->    - The **Enhanced Active Cases** view is enabled by default for the **Case** entity. Edit actions aren't enabled by default. Enable the **Configure property Enable Editing** property in Power Apps to allow agents to perform inline edits and update data for columns in the **Enhanced Active Cases** view.
+>    - The **Enhanced Active Cases** view is enabled by default for the **Case** entity. However, e
+dit actions aren't enabled by default on the view. To allow agents to perform inline edits and update data for columns in the view, enable the **Configure property Enable Editing** property in Power Apps.
 >    - **Power Apps grid control** option is enabled by default for the **Case** entity and replaces the out-of-the-box legacy grids. 
 >    - If you want to revert to the legacy grids, enable the **Read-only Grid(default)** option in the **Controls** section of the **Case** entity in Power Apps.
 >    - If you are using grids that aren't available out of the box, they won't be replaced by the **Power Apps grid control**.
