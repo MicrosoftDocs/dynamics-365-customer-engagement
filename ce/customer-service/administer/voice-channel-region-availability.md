@@ -11,9 +11,6 @@ ms.custom: bap-template
 
 # Supported cloud locations for voice channel
 
-> [!IMPORTANT]
-> The local hosting capabilities in India and Japan for Dynamics 365 Omnichannel Voice will be deprecated on September 09, 2024, see [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
-
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
@@ -38,6 +35,9 @@ The following table lists the global region, URL, and general and trial availabi
 |Asia Pacific |crm5.dynamics.com |Available | Available |
 
 ## Local cloud deployments
+
+> [!IMPORTANT]
+> The local hosting capabilities for the voice channel in India and Japan will be deprecated on September 09, 2024. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 If you need your data to stay within a region, the following table lists the local region, URL, and general and trial availabilities of the voice channel in local regions. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
