@@ -72,10 +72,10 @@ items:
       href: create-work-order-types.md
     - name: Work order templates (incident types)
       items:
-          - name: Incident type overview
-            href: incident-type-overview.md
-          - name: Create incident types
-            href: configure-incident-types.md
+        - name: Incident type overview
+          href: incident-type-overview.md
+        - name: Create incident types
+          href: configure-incident-types.md
       href: configure-incident-types.md
     - name: Service task types
       href: set-up-service-task-types.md
