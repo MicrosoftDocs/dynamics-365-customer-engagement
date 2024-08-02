@@ -52,9 +52,9 @@ In [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or lat
     [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] fields are displayed on the left and the corresponding [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] fields are displayed on the right. The blue arrows show the sync direction:  
 
 
-   |                                                                                                                                   |                                                                                                                                                            |
-   |-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |                                                        **This indicator**                                                         |                                                                 **Shows that the fields**                                                                  |
+   |       |        |
+   |--------|------|
+   |      **This indicator**          |        **Shows that the fields**     |
    | ![One-way sync arrow (right) in Dynamics 365 apps](../media/one-way-sync-arrow-right.png "One-way sync arrow (right) in Dynamics 365 apps") | Are synced one way from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] |
    |  ![One-way sync arrow (left) in Dynamics 365 apps](../media/one-way-sync-arrow-left.png "One-way sync arrow (left) in Dynamics 365 apps")   | Are synced one way from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] |
    |            ![Two-way sync arrow in Dynamics 365 apps.](../media/two-way-sync-arrow.png "Two-way sync arrow in Dynamics 365 apps")            |                                                                     Are synced two way                                                                     |
