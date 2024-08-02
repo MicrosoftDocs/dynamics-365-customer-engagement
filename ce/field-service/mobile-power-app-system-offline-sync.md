@@ -22,7 +22,7 @@ A sync is initiated only when the app is active and the device is connected to t
 
 Dependencies that are based on selected relationships and custom filters that include related tables are analyzed during each sync request. A sync interval for a table might not be respected if a related table has a lower sync interval.
 
-Users can also [control when synchronizations are triggered](/power-apps/mobile/offline-sync-icon#offline-sync-settings) from the mobile app.
+Additional Settings can be enabled by the admin for end users for more control over the sync experience. This includes an option to sync only when the device is connected to a WiFi network source, or to change their client-side sync interval. [More information on how to enable sync settings](/power-apps/mobile/offline-sync-icon#offline-sync-settings).
 
 ## Sync conflicts
 
