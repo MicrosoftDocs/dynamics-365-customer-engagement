@@ -1,7 +1,7 @@
 ---
 title: Enable sales order processing integration
 description: Read how you can enable sales order processing integration to connect Dynamics 365 Sales with an external order processing application.
-ms.date: 03/29/2023
+ms.date: 08/02/2024
 ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
@@ -12,7 +12,7 @@ ms.custom:
 ---
 # Enable sales order processing integration 
 
-Connect Dynamics 365 Sales with an external order processing application by enabling this integration.
+Connect Dynamics 365 Sales with an external order processing application by enabling this integration. For more information about setting up and enabling the integration, see [Microsoft Power Platform integration with finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/power-platform/overview).
 
 ## License and role requirements
 
@@ -20,6 +20,7 @@ Connect Dynamics 365 Sales with an external order processing application by enab
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
+
 
 ## How the integration works?
 
@@ -30,7 +31,11 @@ By default, sales order processing is turned off. When sales order processing is
 > [!NOTE]
 > Price computation can be triggered by Dynamics 365 Sales only if the sales entities like Opportunity, Quote, Sales order, and Invoice are editable.
 
-## Turn on sales order processing integration
+## Enable the integration
+
+To set up and enable the integration, see [Microsoft Power Platform integration with finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/power-platform/overview).
+
+## Turn on the integration
 
 You can enable sales order processing integration by setting the value of the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) column on the [Organization table](/power-apps/developer/data-platform/reference/entities/organization) to **Yes (1)**.
 
