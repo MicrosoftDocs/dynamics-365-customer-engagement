@@ -13,7 +13,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: view-fields-synchronized-dynamics-365-outlook
 caps.latest.revision: 18
-author: jimholtz
+author: Mattp123
 ms.author: matp
 search.audienceType: 
   - admin

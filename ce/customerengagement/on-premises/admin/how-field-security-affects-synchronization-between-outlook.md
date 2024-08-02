@@ -13,7 +13,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: how-field-security-affects-synchronization-between-outlook
 caps.latest.revision: 8
-author: jimholtz
+author: Mattp123
 ms.author: matp
 search.audienceType: 
   - admin

@@ -11,7 +11,7 @@ applies_to:
   - Dynamics 365 (online)
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
-author: jimholtz
+author: Mattp123
 ms.author: matp
 ---
 # Deploy Dynamics 365 App for Outlook
