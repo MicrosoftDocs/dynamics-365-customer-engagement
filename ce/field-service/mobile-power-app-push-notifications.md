@@ -103,4 +103,10 @@ You can create push notification with custom triggers to match your business sce
 > [!div class="mx-imgBorder"]
 > ![A mobile phone push notification from Field Service.](./media/mobile-2020-push-notification-result-wf.png)
 
+
+> [!Note]
+> When using mobile [Offline mode](/mobile-power-app-system-offline-sync), the Push Notification will be received when the device has connectivity and accessing the Push Notification will result in an Offline sync to download the record if it is not available on the device. If using ["Sync on Wifi"](/power-apps/mobile/setup-mobile-offline#define-sync-settings-on-mobile) setting, the application will sync the data, even if not on Wifi, when a cellular connection is avialbale).
+
+
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
