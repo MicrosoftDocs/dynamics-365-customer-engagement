@@ -51,8 +51,6 @@ Configure the following cloud flow to send frontline workers a push notification
 
 1. In the unmanaged solution, select the **Turn On** option for your new cloud flow.
 
-   :::image type="content" source="../media/mobile-2020-push-turn-on-flow.png" alt-text="Power Apps showing the flow called Field Service – Notify user about booking (UCI app).":::
-
 1. Open the details for the **Field Service – Notify user about booking (UCI app)** cloud flow. Make sure the **Connection References** section contains both connection references that you created in step 3.
 
 ## Test push notifications
