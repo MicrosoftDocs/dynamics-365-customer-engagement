@@ -1,6 +1,6 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
-description: Learn how to turn on and set up Copilot in Dynamics 365 Sales. Help your sales team can get summaries of their records, catch up on recent changes, and prepare for meetings.
+description: Learn how to turn on and set up Copilot in Dynamics 365 Sales to improve sales productivity and effectiveness. 
 ms.date: 07/31/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -85,110 +85,6 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 
     The Welcome to Copilot pane opens in the right side pane with a quick tour.
 
-## Configure fields for generating summaries and recent changes list
-
-By default, Copilot uses a set of predefined fields to generate [summaries](copilot-get-information.md), a list of [recent changes](copilot-ask-questions.md#get-recent-changes) for accounts, leads, and opportunities, and [prepare for meetings](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments). You can add other fields from lead, opportunity, account, and related tables to make the summaries and recent changes list more relevant for your business.
-
-> [!IMPORTANT]
->
-> - The Account summary feature is an early access feature. You can [opt in](/power-platform/admin/opt-in-early-access-updates) to use it for testing and adoption in your environments.
-> - If you have not opted in for the early access preview features, you continue to see account summary as a public preview feature. However, the account summary feature public preview must be enabled.  
-
-1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
-
-1. Under **General Settings**, select **Copilot**.
-
-1. Select **Opportunities**, **Leads**, or **Accounts**. The following screenshot shows the **Opportunity** settings page. The **Lead** and **Account** settings page is similar.
-
-    :::image type="content" source="media/copilot-summary-settings.svg" alt-text="Screenshot of the Opportunity settings page for record summaries in Copilot.":::
-
-1. To choose fields for generating summaries, select the **Summary** tab. To choose fields for generating the recent changes list, select the **Recent changes** tab.
-
-    The recent changes list is generated from the audit history. If the **Recent changes** tab isn't available, it means that auditing is turned off globally or for the table you selected (leads or opportunities). Select **Turn audit on** in the notification bar to turn on audit history for all the tables in the **Recent changes** tab.
-
-    :::image type="content" source="media/turn-audit-on.svg" alt-text="Screenshot of the Recent changes tab when auditing isn't turned on for any of the tables in the Recent changes tab.":::
-
-1. Select **Add fields**.
-
-1. Select at least four fields, up to a maximum of 10.
-
-    The **Save** button is disabled if you select fewer than 4 or more than 10 fields. If you added more than 10 fields, clear the checkbox, or select fields that you don't need and select **Delete**.
-
-    In the **Recent changes** tab, when you add a field from a related table that doesn't have audit history turned on, **Turn audit on** appears in the notification bar. Select it to turn on auditing for the table. If you remove the field later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the table manually.
-
-1. <a name="admin-opportunity-summary-widget"></a>For **Opportunities** only. To display the opportunity summary widget within the opportunity form, in the **Opportunities settings** page, select the **Show opportunity summary as a widget in the form** option.  
-    To add the opportunity widget to custom forms, see [Add the opportunity summary widget to custom forms](#add-the-opportunity-summary-widget-to-custom-forms).
-
-1. For **Opportunities** and **Accounts** only. To customize the sections to display in the summary, select **Customize related info**.  
-
-    - **Opportunities**:
-        
-        1. In the **Customize related info** dialog box, select the sections that you want to display in the **Opportunity summary** view for users to see. These sections are:
-            - **Enriched key info**: Displays relevant insights from related records in the key info section.
-            - **Product insights**: Displays insights about the products in the opportunity and fields such as product names, total amount, and budget are considered for insights.
-            - **Quote insights**: Displays insights about the quotes in the opportunity and fields such as total number of quotes, most recent quote, and total amount are considered for insights.
-            - **Competitor insights**: Displays insights about the competitors in the opportunity and fields such as competitor names,  strengths, and weaknesses are considered for insights.
-
-           By default, all options are selected.  
-
-        1. Select **Save**.
-
-    - **Accounts**:  
-        
-        1. In the **Customize related info** dialog box, select the sections that you want to display in the **Account summary** view for users to see. These sections are:
-            - **Enriched key info**: Displays relevant insights from related records in the key info section.
-            - **Opportunities**: Displays all open opportunities for this account.
-            - **Leads**: Displays all leads linked to this account.
-            - **Cases**: Displays all open cases linked to this account. However, to display information in this section, Dynamics 365 Customer Service must be enabled in your environment.  
-
-           By default, all options are selected.  
-
-        1. Select **Save**.
-
-1. Save your changes.
-
-## Configure fields for generating what's new with my sales records list
-
-The **What's new with my sales records** prompt lists the sales records that were updated in the last seven days. The list is generated from the audit history of the lead, opportunity, and account tables. Depending on the record type, Copilot uses different fields to get the list of records updated: 
-
-- For the lead and opportunity records, Copilot uses the fields in the primary table (lead or opportunity) that you had [configured for generating the recent changes list](#configure-fields-for-generating-summaries-and-recent-changes-list). For example, if you had configured four fields from the lead table and six fields from related tables, Copilot monitors changes to only those four fields from the lead table to identify the lead records that are updated.
-
-- For the account records, Copilot lists the following changes:
-  - Contacts, leads, and opportunities created for the account in the last seven days.
-  - Changes to the fields in the **Quick Find** view of the account table. If you'd like to see changes to other fields, add them to the **Quick Find** view of your account table. [Learn how to add fields to the Quick Find view](/power-apps/maker/model-driven-apps/create-edit-views#how-to-access-the-view-editor-to-create-or-edit-views).
-
-## Grant audit access to your sellers
-
-Copilot generates the list of recent changes for leads and opportunities from the audit history. So, your sellers need access to the audit history and audit summary to view the recent changes.
-
-1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com) and select your environment.
-
-1. Select **Settings** > **Users + permissions** > **Security roles**.
-
-1. Select the security role that's assigned to your sellers, and then select the **Miscellaneous Privileges** tab.
-
-1. In the list below the tab, select **Show only unassigned privileges**.
-
-1. Select **Organization** as the **Privilege Level** for the following privileges:
-
-    - **View Audit History**
-    - **View Audit Summary**
-
-1. Select **Save + close**.
-
-## Configure SharePoint locations for Copilot
-
-Configure the SharePoint locations that you want to use with Copilot to help sellers [get content recommendations and answers from SharePoint](copilot-get-doc-suggestions.md). If you don't configure any SharePoint location, Copilot uses the root SharePoint site of your organization.
-
-1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
-
-1. Under **General Settings**, select **Copilot**.
-
-1. Select **Knowledge sources**.
-1. Select **+ Configure SharePoint locations**.
-1. In the **Configure SharePoint locations** dialog box, specify the name and URL of the SharePoint site that you want to use with Copilot. You can add multiple SharePoint locations.
-  The results from the SharePoint locations are based on the permissions that users have in SharePoint. If users don't have access to a SharePoint location, Copilot doesn't show results from that location.
-
 ## Add the Copilot page site map entry to custom sales app
 
 When you create a custom model-driven app, you can choose a default solution to create a site map for it. However, you can choose solutions that are based on table forms only. The full-screen Copilot page is based on a URL custom control and doesn't appear in the list of solutions. You must add it to the site map manually.  
@@ -215,7 +111,13 @@ To add the opportunity summary widget to custom forms, follow these steps:
 
 1. Save and publish the form.
 
-### See also
+## Next steps
+
+- [Configure fields for generating summaries and recent changes list](copilot-configure-summary-fields.md)
+- [Configure fields for generating what's new with my sales records list](copilot-configure-whatsnew-field.md)
+- [Configure Copilot to use specific SharePoint locations](copilot-sharepoint-config.md)
+
+## Related information
 
 - [Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)
 - [Copilot data movement](sales-copilot-data-movement.md)  
