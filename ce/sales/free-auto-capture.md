@@ -3,7 +3,7 @@ title: Auto capture in Dynamics 365 Sales
 description: Use the auto capture to capture activities related to your emails and contacts, and display on timeline.
 ms.date: 03/13/2024
 ms.custom: bap-template
-ms.topic: Overview
+ms.topic: overview
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
