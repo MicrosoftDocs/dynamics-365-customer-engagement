@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: how-field-security-affects-synchronization-between-outlook
 caps.latest.revision: 8
 author: jimholtz
-ms.author: jimholtz
+ms.author: matp
 search.audienceType: 
   - admin
 ---

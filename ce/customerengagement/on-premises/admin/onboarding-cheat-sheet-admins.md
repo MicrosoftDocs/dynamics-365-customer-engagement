@@ -14,7 +14,7 @@ ms.assetid: 88985efc-af84-4e3a-980f-1bf7464c05e6
 caps.latest.revision: 29
 author: jimholtz
 ms.collection: get-started
-ms.author: jimholtz
+ms.author: matp
 search.audienceType: 
   - admin
 
