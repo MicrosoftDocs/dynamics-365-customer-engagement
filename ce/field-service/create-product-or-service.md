@@ -9,7 +9,18 @@ ms.author: jacoh
 
 # Create products or services for work orders
 
-In this article, learn how to create products and services, add them to work orders, and review inventory settings. Learn more in [Products and services in Field Service](products-services.md).
+Dynamics 365 Field Service uses the Dynamics 365 [product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md) and [price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) for on-site service. Field technicians can use the same products for work orders that salespeople use for opportunities, quotes, and orders.
+
+- **Product** is an item a field technician might record while completing a work order for which the client might be billed. Products can be physical items, like a battery or a part, or might be nonphysical components, like an oil change or an estimate. Both physical and nonphysical products are measured and sold in quantity of units. Many physical items are tracked as inventory. Nonphysical items aren't tracked as inventory.
+
+- **Service** is work that a field technician performs and might bill the client for. Service is measured in time duration.
+
+If a field technician uses a product or performs a service while on the job, they can then enter the work into the Field Service mobile app. Used products and performed services can be invoiced to customers based on the applicable price list or entitlement. Used products can be deducted from inventory levels either in the Field Service inventory module, Dynamics 365 Finance & Operations, or an external Enterprise resource planning (ERP) system.
+
+> [!NOTE]
+> Field Service doesn't support product bundles.
+
+In this article, learn how to create products and services, add them to work orders, and review inventory settings.
 
 ## Create a product or service
 
@@ -17,7 +28,7 @@ In this article, learn how to create products and services, add them to work ord
 
 1. In the **General** section, select **Products**.
 
-1. Select **Add Product** to create a new product. Field Service doesn't support **Product Bundles**.
+1. Select **Add Product** to create a new product.
 
 1. Provide a **Name** and a **ProductID**.
 
@@ -133,12 +144,5 @@ In Field Service, review the following settings and change them if needed.
 
    - **Restrict** to prevent using a work order product when inventory in the specified warehouse is 0.
    - **Confirm** to display a warning message when there's an attempt to use a work order product and inventory is 0. This setting is helpful for situations where inventory levels are inaccurate or managed in an outside system.
-
-### Known issues
-
-- Permission error when creating a new product from **Field Service** > **Settings** > **Products** > **Add Product**.
-- Permission error when adding product-based line items to opportunities.
-
-  **Fix**: Add read privileges the user's security role for the following entities: *Property*, *Property Association*, *Property Instance*, and *Properties Option Set Item*.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

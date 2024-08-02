@@ -65,11 +65,7 @@ items:
     - name: Price list
       href: create-price-list.md
     - name: Products and services
-      items:
-          - name: Products and services overview
-            href: products-services.md
-          - name: Create products and services
-            href: create-product-or-service.md
+      href: create-product-or-service.md
     - name: Priorities
       href: set-priorities.md
     - name: Work order types
