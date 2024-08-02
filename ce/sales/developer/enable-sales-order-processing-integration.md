@@ -12,7 +12,7 @@ ms.custom:
 ---
 # Enable sales order processing integration 
 
-Connect Dynamics 365 Sales with an external order processing application by enabling this integration. For more information about setting up and enabling the integration, see [Microsoft Power Platform integration with finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/power-platform/overview).
+Connect Dynamics 365 Sales with an external order processing application by enabling this integration.
 
 ## License and role requirements
 
