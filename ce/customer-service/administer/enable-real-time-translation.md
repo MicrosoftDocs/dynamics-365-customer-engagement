@@ -47,7 +47,7 @@ You can enable real-time translation in the Customer Service admin center or Con
 
 If you're using **Azure Translation Services** as the translation provider, you must configure the resource to use the "global" endpoint.
 
-    :::image type="content" source="../media/azure-translation-services.png" alt-text="Screenshot of setting the Azure translation services endpoint to global":::
+   :::image type="content" source="../media/azure-translation-services.png" alt-text="Screenshot of setting the Azure translation services endpoint to global":::
 
 ### Related information
 
