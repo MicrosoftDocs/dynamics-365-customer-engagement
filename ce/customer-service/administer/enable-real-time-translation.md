@@ -39,12 +39,17 @@ You can enable real-time translation in the Customer Service admin center or Con
 1. In the **Real-time translation** section, select **Manage**. The **Omnichannel Configuration** page is displayed.       
 1. On the **Omnichannel Configuration·Real Time Translation Settings** page, in the **General Information** area, set the toggle for **Turn on** to **Yes**.
 1. In **Default input language**, select the language for agents to converse with customers. The translation engine translates the customer messages for agents to the language specified. By, default, it's set to English (en-us).
-1. In the **Web resource** area, in the **Web resource URL** box, enter the link of the web resource.
-    > [!div class=mx-imgBorder]
-    > ![Enable real-time language translation.](../media/real-time-translation.png "Enable real-time language translation")
+1. In the **Web resource** area, in the **Web resource URL** box, enter the link of the web resource. Use two forward slashes before WebResources as follows, `https://example.crm.dynamics.com//WebResources/new_rtt_translator`.
+
+    :::image type="content" source="../media/real-time-translation.png" alt-text="Screenshot of real-time language translation":::
+   
 1. Select **Save**.
 
-### See also
+If you're using **Azure Translation Services** as the translation provider, you must configure the resource to use the "global" endpoint.
+
+   :::image type="content" source="../media/azure-translation-services.png" alt-text="Screenshot of setting the Azure translation services endpoint to global":::
+
+### Related information
 
 [Add a web resource for real-time translation](../develop/add-web-resource-real-time-translation.md)  
 [Real-time language translation of conversations for agents and customers](../use/oc-real-time-translation.md)  
