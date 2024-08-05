@@ -58,7 +58,7 @@ To find out more about the capabilities or request a demo, head over to [Sales N
 
 Learn how to install the solution on the [LinkedIn Sales Navigator help center](https://www.linkedin.com/help/sales-navigator/answer/56320/linkedin-for-microsoft-dynamics-crm).
 
-### See also
+## Related information
 
 [Establish a connection between Dynamics 365Connector for LinkedIn Lead Gen Forms and LinkedIn](connect-dynamics-365-linkedin.md)  
 [Configure a matching strategy to update leads from LinkedIn Lead Gen ads](configure-matching-strategy.md)

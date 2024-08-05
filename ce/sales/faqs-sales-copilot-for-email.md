@@ -48,6 +48,6 @@ The email copilot features are aimed at improving the seller productivity, by he
     -	Always review and edit content ideas suggestions before sending them to your customer.
 
 
-## See also
+## Related information
 
 [Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)

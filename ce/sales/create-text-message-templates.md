@@ -66,7 +66,7 @@ Dynamic text replaces a placeholder entity with the value of the entity when you
 
 To add more placeholders for dynamic content, repeat steps 1 to 5.
 
-### See also
+## Related information
 
 [Send a text message](steps-sequence.md#send-a-text-message)   
 [Send an automated text message](steps-sequence.md#send-an-automated-text-message)   

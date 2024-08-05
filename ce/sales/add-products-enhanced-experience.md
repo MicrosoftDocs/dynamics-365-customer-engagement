@@ -133,7 +133,7 @@ no longer relevant for the opportunity. You can remove products in two circumsta
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
 [Customize the Add products dialog box](customize-add-products-dialog-box.md)

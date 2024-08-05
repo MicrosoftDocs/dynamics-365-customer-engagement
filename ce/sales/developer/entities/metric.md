@@ -597,7 +597,7 @@ Same as the [msdyn_metric_msdyn_forecastdefinition_metricid](msdyn_forecastdefin
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

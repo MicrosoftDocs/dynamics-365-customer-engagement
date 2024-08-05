@@ -85,7 +85,7 @@ Add salespeople as members of a territory to assign them the sales and revenue o
 > [!TIP]
 >  To make your salesperson's job easier, you can also set a default price list for a territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
   
-### See also  
+## Related information  
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [Define and track your sales goals](goals-overview.md)  

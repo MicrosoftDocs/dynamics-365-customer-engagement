@@ -59,7 +59,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Customize the Opportunity Close form](customize-opportunity-close-experience.md)  
 [Close opportunities as won or lost](close-opportunity-won-lost-sales.md)

@@ -152,7 +152,7 @@ You can create up to 10 models, both published and unpublished, for different se
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md#edit-a-model)  

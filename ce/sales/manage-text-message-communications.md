@@ -115,7 +115,7 @@ The following image is an example of the conversation pane.
 4. **Delivery report**: Delivery report of the text message is displayed below the message. It's displayed only if the SMS provider supports it. More information: [Configure SMS provider](configure-sms-provider.md).  
     If the message is undelivered, hover over the delivery message to view the reason for the failure. Take appropriate action to resolve the failure. For example, if the message is sent to an invalid number, the reason for the failure is displayed as **InvalidSendingParameters**. To resolve the failure, ensure that the number is valid and is in the international telephone numbering plan (E.164 format).
   
-### See also
+## Related information
 
 [Engage with customers through text messages](sms-intro.md)  
 [Send a text message to customers](connect-with-customers.md#send-a-text-message-to-customers)  

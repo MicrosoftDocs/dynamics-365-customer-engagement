@@ -140,7 +140,7 @@ The following flow diagram illustrates the steps included in the template.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and activate a sequence](create-and-activate-a-sequence.md)   
 [Manage sequences](create-manage-sequences.md)

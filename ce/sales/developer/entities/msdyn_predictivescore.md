@@ -745,7 +745,7 @@ Same as the [msdyn_PS_PMS](msdyn_predictivemodelscore.md#BKMK_msdyn_PS_PMS) many
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

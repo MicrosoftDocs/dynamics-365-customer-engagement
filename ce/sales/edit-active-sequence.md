@@ -79,7 +79,7 @@ Viewing the version history helps you to understand the number of versions that 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Edit a sequence](edit-a-sequence.md)    
 [Create and activate a sequence](create-and-activate-a-sequence.md)
