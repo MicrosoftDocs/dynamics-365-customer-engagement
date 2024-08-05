@@ -68,6 +68,8 @@ You need to specify the values of **Application (client) ID** and **Directory (t
 1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You enter this value for **Event grid app tenant id** in Contact Center admin center or Customer Service admin center.
 
     :::image type="content" source="../media/acs-resource-application.png" alt-text="resource application" :::
+   
+1.Select Owners and add your account as the application owner.  
 
 ## Connect using an existing Azure resource
 
@@ -106,15 +108,23 @@ To enable call recording and SMS services, you must first configure your applica
 
 > [!IMPORTANT]
 >
-> - You need to be an owner of the [App registration](#get-event-grid-application-and-tenant-ids-from-the-azure-portal) to create Event Grid subscriptions.
+> - You need to be an owner of the [App registration](#get-event-grid-application-and-tenant-ids-from-the-azure-portal) to create Event Grid subscriptions. 
 > - You can set one webhook endpoint only at a time using the following procedure. To enable incoming calls, SMS, and call recording services, you must perform the procedure thrice to set a webhook endpoint for each service.
-> - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-ids-from-the-power-apps-portal).
+> - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs see [Get application and tenant IDs](#get-event-grid-application-and-tenant-ids-from-the-azure-portal).
+> - Please do not create other events besides the ones for incoming calls and recordings. 
 
 1. Open the **Event Grid System Topics** service on the Azure portal.
 
-1. [Create and deploy an Event Grid system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic).
 
 1. On the **Event Grid System Topic** page, select the **Subscription** link.
+1. Add a new Event Grid System Topic and add the following information: 
+   - Topic Details
+   - Topic Type: Azure Communication Services
+   - Subscription: select your subscription
+   - Resource group: Select the resource group where your Azure Communication Services resource is located.
+   - Resource: Select the resource that you want to connect to the Dynamics 365 Customer Service. 
+2.	b. Specify the Name for the System Topic Details. For more information: Create and deploy an Event Grid system topic. [Create and deploy an Event Grid system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic).
+
 
 1. In the resource subscription page, select **Settings** > **Resource providers**, and then check whether the **Microsoft.EventGrid** provider is listed as **Registered**. If the Event Grid isn't registered, then select the record, and then select **Re-register** to register it.
 
@@ -138,10 +148,10 @@ To enable call recording and SMS services, you must first configure your applica
         - **SMS Web Hook Endpoint** to enable SMS services.
         - **Incoming call Web Hook Endpoint (preview)** to enable incoming calls.
 
-1. Select the **Additional Features** tab. Select the **Use AAD authentication** checkbox, and enter the following details:
+1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication** checkbox, and enter the following details:
 
-   - **AAD Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
-   - **AAD Application ID or URI**: Enter the application (client) ID of your Azure resource.
+   - **Microsoft Entra Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
+   - **Microsoft Entra Application ID or URI**: Enter the application (client) ID of your Azure resource.
 
 1. Select **Create** to create the event subscription endpoint for recording.
 
