@@ -218,7 +218,7 @@ More information:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Customize forms](customize-forms.md)  
 [Customize business process flows](customize-business-process-flows.md)

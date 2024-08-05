@@ -80,7 +80,7 @@ In preparation for goal management, you should specify a metric for a goal (amou
   
 -   Specify whether you want to roll up data from all available records or only from goal owner’s records by using the `Goal.ConsiderOnlyGoalOwnersRecords` column. For example, you can specify to roll up data only from the closed opportunities owned by the goal’s owner, instead of rolling up data from all closed opportunities.  
   
-### See also  
+## Related information  
  [Goal Management Entities](goal-management-entities.md)   
  [Define Goal Metric and Rollup Fields](define-goal-metric-rollup-fields.md)
 

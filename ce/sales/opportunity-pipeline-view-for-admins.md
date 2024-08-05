@@ -156,7 +156,7 @@ The grid in the opportunity pipeline view is an instance of the Power Apps edita
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Where is the deal manager workspace?](faq-sales.yml#where-is-the-deal-manager-workspace)  
 [Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)  

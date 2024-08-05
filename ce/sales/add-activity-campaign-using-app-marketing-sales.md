@@ -147,7 +147,7 @@ To close the campaign activity:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See Also  
+## Related information  
  [Get started with in-app marketing](get-started-app-marketing-sales.md)   
  [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   
  [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)   

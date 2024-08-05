@@ -397,7 +397,7 @@ content-type: application/json
 
 A list of `UpdateSimpleColumnByEntityResponse` records consisting of `ForecastInstanceId`, `ForecastConfigurationColumnId`, `Message`, `StatusCode`.
 
-## See also
+## Related information
 
 [Custom actions for forecasting](../custom-actions-manual-forecasting.md)
 

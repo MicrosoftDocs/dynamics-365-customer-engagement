@@ -155,7 +155,7 @@ Each sales manager must configure their environment to integrate the Sales Analy
 
 The Sales Analytics for Dynamics 365 Sales dashboard is now available in Dynamics 365.
 
-### See also
+## Related information
 
 [Analyze your sales data by using Power BI template apps](introduction-sales-template-apps.md)<br>
 [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)

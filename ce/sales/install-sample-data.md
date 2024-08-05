@@ -34,7 +34,7 @@ Or, if sample data isn’t installed on your system, you might want to add it fo
 
     If sample data is already installed, select **Remove Sample Data**.
 
-### See also
+## Related information
 
 [Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
 

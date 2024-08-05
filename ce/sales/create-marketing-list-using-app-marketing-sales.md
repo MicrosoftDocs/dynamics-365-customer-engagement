@@ -155,7 +155,7 @@ The elements listed in the message are required to populate the members list tha
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Get started with in-app marketing](get-started-app-marketing-sales.md)
 - [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)

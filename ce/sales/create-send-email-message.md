@@ -193,7 +193,7 @@ When the reminder is triggered, the system creates an action card in the assista
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Turn on email engagement](configure-email-engagement.md)  
 [View message interactions with email engagement](email-engagement.md)  
