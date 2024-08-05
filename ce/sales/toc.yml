@@ -182,7 +182,7 @@
         - name: Configure fields for what's new
           href: copilot-configure-whatsnew-field.md
         - name: Configure Copilot to use SharePoint sites
-          href: copilot-configure-sharepoint-sites.md
+          href: copilot-sharepoint-config.md
         - name: Turn on Copilot preview features
           href: copilot-preview-features.md
         - name: Copilot data movement across geographies
