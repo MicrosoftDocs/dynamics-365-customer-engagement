@@ -24,7 +24,7 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
  All code examples referenced in this document are found in [Sample: Query Metadata and Detect Changes](/powerapps/developer/data-platform/org-service/metadata-option-sets).  
   
- The technical article [Query Metadata Using JavaScript](/dynamics365/customerengagement/on-premises/developer/retrieve-detect-changes-metadata?view=op-9-1) provides a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library to use the objects and messages in client-sided code.  
+ The technical article [Query Metadata Using JavaScript](/dynamics365/customerengagement/on-premises/developer/retrieve-detect-changes-metadata) provides a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library to use the objects and messages in client-sided code.  
   
 <a name="BKMK_MetadataStrategies"></a> 
   
