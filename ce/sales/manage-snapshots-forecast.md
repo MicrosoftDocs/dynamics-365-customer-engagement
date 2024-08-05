@@ -67,7 +67,7 @@ Snapshots are deleted based on the following rules:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [About premium forecasting](configure-premium-forecasting.md)<br>
 [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)

@@ -29,11 +29,9 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 ## Summarize an account
 
 > [!IMPORTANT]
->- The Account summary feature is a preview feature.
->- Preview features aren’t meant for production use and may have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2087259), and are available before an official release so that customers can get early access and provide feedback.
-
->[!NOTE]
->This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
+>
+> - The Account summary feature is an early access feature. You can [opt in](/power-platform/admin/opt-in-early-access-updates) to use it for testing and adoption in your environments.
+> - This feature is available only if your administrator has [opted in to early access updates](/power-platform/admin/opt-in-early-access-updates).
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize account**.
@@ -166,7 +164,7 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 
 1. To get the news articles for a specific account, type **/** and then start typing the name of the account.
 
-### See also
+## Related information
 
 - [Copilot overview](copilot-overview.md)
 - [Copilot prompt guide reference](copilot-prompt-guide.md)

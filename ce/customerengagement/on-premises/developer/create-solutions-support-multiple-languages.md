@@ -343,7 +343,7 @@ protected void ExecutePreValidateAccountDelete(LocalPluginContext localContext)
  [Create, Install, and Update a Managed Solution](create-install-update-managed-solution.md)   
  [Uninstall or Delete a solution](uninstall-delete-solution.md)   
  [Solution entities](solution-entities.md)   
- [Localize product property values](/sales/developer/localize-product-property-values)
+
  
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

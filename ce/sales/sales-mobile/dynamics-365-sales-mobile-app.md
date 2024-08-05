@@ -48,7 +48,7 @@ The Dynamics 365 Sales mobile app can be installed on [iOS](install-mobile-app.m
 |Lightweight record and activity forms|Supported|Not supported|
 
 
-### See also
+## Related information
 
 [Prerequisites for the Dynamics 365 Sales mobile app](prereq-sales-mobile.md)   
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)

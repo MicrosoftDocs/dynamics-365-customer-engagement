@@ -85,7 +85,7 @@ If you want to make advanced configurations for Teams calls and conversation int
 
 3. Select **Update**.
  
-### See also
+## Related information
 
 [Sales accelerator](digital-selling-sales-accelerator.md)   
 [Microsoft Teams collaboration](digital-selling-teams-collab.md)       

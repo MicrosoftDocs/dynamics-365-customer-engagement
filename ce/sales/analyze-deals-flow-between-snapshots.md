@@ -77,7 +77,7 @@ Seeing the deals flow of other users depends on the sales hierarchy defined for 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
 
 [View snapshots](view-snapshots.md)  
 [Take snapshots automatically](manage-snapshots-forecast.md)  

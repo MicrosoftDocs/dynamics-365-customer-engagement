@@ -126,7 +126,7 @@ On the sequence home page, you can do the following tasks:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Sequences](create-manage-sequences.md)     
 [Add steps to sequence](steps-sequence.md)  

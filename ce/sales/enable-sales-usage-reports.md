@@ -44,6 +44,6 @@ The reports are enabled. The application might take up to 24 hours to display th
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [View and understand the sales usage reports](view-understand-sales-usage-reports.md)

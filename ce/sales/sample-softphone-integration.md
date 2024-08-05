@@ -68,7 +68,7 @@ All details regarding the call such as duration, phone number, and notes are aut
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Get Dynamics 365 Channel Integration Framework](../channel-integration-framework/v1/administer/get-channel-integration-framework.md)  
 [Sample softphone integration using Channel Integration Framework](../channel-integration-framework/v1/administer/sample-softphone-integration.md)  

@@ -26,7 +26,7 @@ The *opportunity* table represents a potential sale to new or established custom
   
  The tables that can be associated with an opportunity to provide a complete set of information about the sales engagement include: activities, notes and attachments, competitors, quotes, orders, and sales literature.  
   
-### See also  
+## Related information  
  [Creating an Opportunity](create-opportunity.md)   
  [Converting an Opportunity to a Quote, Sales Order or Invoice](convert-opportunity-quote-sales-order-invoice.md)   
  [Opportunity Table](entities/opportunity.md)   

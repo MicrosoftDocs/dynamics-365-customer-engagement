@@ -66,7 +66,7 @@ By default, the assistant widget is available only in the out-of-the-box forms&m
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure the assistant](configure-assistant.md)      
 [Guide customer communications with assistant](assistant.md)
