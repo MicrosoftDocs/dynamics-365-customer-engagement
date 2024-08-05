@@ -28,13 +28,13 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:**  4.0.127.15
 
-- Fixed a bug that **disabled the Book and Book and Exit buttons** in the create booking panel in SA when working with resources with multiple units of capacity or set to allow overlapping bookings.
-- When a resource is selected, map view on the schedule board now  re-renders with the relevant resource's latest geolocation
-- Fixed a bug that was causing schedule assistant to ignore the Allow Overlapping selection
-- Fixed a bug that was causing notifications from schedule assistant to appear in the wrong location based on certain window configurations
-- Improved managed identity handling when using the msdyn_SearchResourceAvailabilityForRequirementGroup API
-- Improved requirement groups' handling of resources with multiple units of capacity
-- Fixed bug that was impacting the actual booked time slot on SA bookings when allow overlapping bookings is selected
+- Fixed a bug in the schedule assistant that disabled the **Book** and **Book and Exit** buttons in the create booking panel when working with resources with multiple units of capacity or set to allow overlapping bookings.
+- When a resource is selected, map view on the schedule board now shows the resource's latest geolocation.
+- Fixed a bug that was causing schedule assistant to ignore the **Allow Overlapping** selection.
+- Fixed a bug that was causing notifications from schedule assistant to appear in the wrong location based on certain window configurations.
+- Improved managed identity handling when using the msdyn_SearchResourceAvailabilityForRequirementGroup API.
+- Improved requirement groups' handling of resources with multiple units of capacity.
+- Fixed bug that was impacting the actual booked time slot when allow overlapping bookings is selected.
 
 
 ## 3.12.136.53
