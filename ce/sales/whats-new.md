@@ -52,7 +52,7 @@ New customers automatically get the latest version. If you're an existing partne
 
 For the latest available version in your region, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales).
 
-## See also
+## Related information
 
 - [2024 release wave 1](/dynamics365/release-plan/2024wave1/sales/dynamics365-sales/planned-features)  
 - [2023 release wave 2](/dynamics365/release-plan/2023wave2/sales/dynamics365-sales/planned-features)
