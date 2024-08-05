@@ -33,7 +33,7 @@ By default, sales order processing is turned off. When sales order processing is
 
 ## Enable the integration
 
-To set up and enable the integration, see [Microsoft Power Platform integration with finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/power-platform/overview).
+To set up and enable the integration, see the [Power Platform integration documentation](/dynamics365/fin-ops-core/dev-itpro/power-platform/overview).
 
 ## Turn on the integration
 
@@ -62,7 +62,7 @@ The following table lists the conditions that need to be satisfied before Dynami
 
 ## Turn off the sales order processing setting
 
-By default, sales order processing integration is turned off. If you've [turned it on](#turn-on-sales-order-processing-integration) using the ```IsSOPIntegrationEnabled``` column, you can turn it off using the **App Settings** page or by setting ```IsSOPIntegrationEnabled``` to **No**.
+By default, sales order processing integration is turned off. If you've [turned it on](#turn-on-the-integration) using the ```IsSOPIntegrationEnabled``` column, you can turn it off using the **App Settings** page or by setting ```IsSOPIntegrationEnabled``` to **No**.
 
 1. Go to **Sales Hub**, and then select **App Settings**.
 2. Select **General/Overview**, and then select **Back Office Order Processing Integration**.
