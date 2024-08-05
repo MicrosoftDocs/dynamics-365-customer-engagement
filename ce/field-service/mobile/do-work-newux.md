@@ -19,6 +19,27 @@ The agenda view in the new mobile experience is optimized for frontline workers.
 
 Admins can [configure the agenda view to show fields relevant to the organization's business needs](customize-booking-calendar.md).
 
+### Agenda view time update
+
+Updating the booking status the agenda view also updates some time values in the underlying booking record. The following are the values that are updated when the status changes. The list refers to out-of-the-box status to which all custom status are mapped.
+
+- From *Scheduled* to *Traveling*:
+  - Start time is updated to current time
+  - End time is updated to current time + duration
+
+- From *Scheduled* or *Traveling* to *In progress*:
+  - End time is updated to current time + duration
+  - If arrival time is empty (the first time the technician has arrived on site) then arrival time is updated to current time
+
+- From *Completed* to *In progress*:
+  - End time is updated to current time + 1 min
+
+- From any status to *Completed*:
+  - End time is updated to current time
+  - If the a future booking is set to completed (start time is later than the current time), start time is updated to current time - 1 min
+
+Updating the status in agenda view doesn't change the *estimated arrival time*.
+
 ## Navigate the app
 
 To open the navigation menu, select **More** at the bottom of the screen.
