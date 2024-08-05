@@ -76,8 +76,6 @@ Microsoft Dynamics 365 Customer Engagement (on-premises) have a number of capabi
   
 -   [Scribe Insight and Scribe Online with adapter for Microsoft Dynamics CRM](https://www.scribesoft.com/microsoft-dynamics-crm.asp)  
   
--   [Productivity tools from Informatica](https://network.informatica.com/s/global-search/#q=dynamics%20CRM&t=All&sort=relevancy)  
-  
 ### See also  
  [Report Authoring Extension (with SQL Server Data Tools support)](https://www.microsoft.com/download/details.aspx?id=45013) <br />
  [Introduction to Microsoft Power Query for Excel](https://office.microsoft.com/en-ca/excel-help/introduction-to-microsoft-power-query-for-excel-HA104003940.aspx?CTT=5&origin=HA104003813)   <br />
