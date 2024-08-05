@@ -99,9 +99,12 @@ You can create push notification with custom triggers to match your business sce
     - Recipients Item: Primary email
     - Message: The notification message.
 
-1. The push notifications on the technician's mobile phone. They don't need to have the app open or use their device to receive push notifications.
+1. The push notifications shows on the technician's mobile phone. They don't need to have the app open or use their device to receive push notifications.
 
 > [!div class="mx-imgBorder"]
 > ![A mobile phone push notification from Field Service.](../media/mobile-2020-push-notification-result-wf.png)
+
+> [!NOTE]
+> When using [mobile offline mode](offline-data-sync.md), the device receives the push notification as soon as it has connectivity. Opening the push notification results in a sync to download the record if it's not available on the device. If the sync settings are set to [sync on Wi-Fi only](/power-apps/mobile/setup-mobile-offline#define-sync-settings-on-mobile), the app will sync the data, even if not on Wi-Fi, when a cellular connection is available.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
