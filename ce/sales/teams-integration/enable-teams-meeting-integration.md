@@ -55,7 +55,7 @@ You'll also need to turn on the following settings:
 
 - **Add and join meetings**: This setting ensures that a seller can create and join Teams meetings directly from Dynamics 365. For more information, see [Manage feature settings](/power-platform/admin/settings-features).
 
-### See also
+## Related information
 
 [Customize record details in the side panel](customize-record-side-panel.md)    
 [Integrate Dynamics 365 and Microsoft Teams meetings](teams-meeting-integration.md)

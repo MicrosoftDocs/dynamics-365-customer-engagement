@@ -90,7 +90,7 @@ The solution is removed from your organization.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Understand the LinkedIn Sales Insights tab](understand-lsi-accounts-form.md)  
 [LinkedIn Sales Insights for Dynamics 365 Sales - Installation Guide](https://www.linkedin.com/help/sales-navigator/answer/a419445)

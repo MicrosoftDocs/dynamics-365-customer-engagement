@@ -136,6 +136,6 @@ By default, the work item appearance is set to the following values:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)

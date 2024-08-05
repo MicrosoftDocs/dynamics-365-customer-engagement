@@ -102,6 +102,6 @@ After you’ve generated the suggested content, you can refine the results furth
     The Copilot email composer is cleared and you can start a new draft.
 
 
-### See also
+## Related information
 
 [Copilot overview](copilot-overview.md)  

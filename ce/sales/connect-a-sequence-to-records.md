@@ -180,7 +180,7 @@ You can create a flow based on a sequence. The flow connects the records automat
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Sequences](create-manage-sequences.md)  
 [Create and activate a sequence](create-and-activate-a-sequence.md)

@@ -87,7 +87,7 @@ The Dynamics 365 Sales app comes with three default themes that you can use. You
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Admin settings overview](admin-settings-overview.md)  
 

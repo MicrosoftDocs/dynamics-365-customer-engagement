@@ -16,7 +16,7 @@ ms.author: sericks
 search.audienceType: 
   - enduser
 
-  ms.topic: conceptual
+ms.topic: conceptual
 ---
 # Collaborate with your team
 

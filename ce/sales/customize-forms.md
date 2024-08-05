@@ -70,7 +70,7 @@ To set a form as the default form in the app, see [Why isn't my form displayed a
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Customize views](customize-views.md)  
 [Customize business process flows](customize-business-process-flows.md)  

@@ -113,7 +113,7 @@ An administrator can use the **Advanced Settings** page to upload the Word templ
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Export sales records to PDF](create-quote-pdf.md)
 - [Enable automatic generation of quote and invoice documents in Sales Professional](enable-automatic-generation-quotes-invoices.md)

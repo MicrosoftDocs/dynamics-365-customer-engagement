@@ -247,7 +247,7 @@ The timeline shows how the conversation was segmented and the topics that were d
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)  
 [Track and manage activities](manage-activities.md)  

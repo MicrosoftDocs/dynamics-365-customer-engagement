@@ -32,7 +32,7 @@ By using the Sales accelerator:
 >[!NOTE]
 >Sales accelerator is not supported on mobile devices, such as tablets and smartphones.
 
-### See also
+## Related information
 
 [Enable and configure Sales accelerator](enable-configure-sales-accelerator.md)  
 [Sales accelerator FAQs](faq-sales-accelerator.md)

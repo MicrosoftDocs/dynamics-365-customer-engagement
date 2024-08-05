@@ -69,7 +69,7 @@ To aggregate opportunities by a numerical column, select the column header and t
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Where is the deal manager workspace?](faq-sales.yml#where-is-the-deal-manager-workspace)  
 [Personalize the opportunity pipeline view](personalize-pipeline-view.md)

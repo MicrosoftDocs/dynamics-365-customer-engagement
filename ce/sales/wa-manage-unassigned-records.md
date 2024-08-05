@@ -146,7 +146,7 @@ The record is assigned to the seller or team and the list refreshes to remove th
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
 

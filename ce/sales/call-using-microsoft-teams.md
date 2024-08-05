@@ -222,7 +222,7 @@ By default, unanswered calls aren't recorded as an activity. If you'd like to tr
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)  
 [Get real-time call data through Teams call](get-real-time-call-data-through-teams-call.md)  

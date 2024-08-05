@@ -237,7 +237,7 @@ The tag is removed from the sequence.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Create and manage sequences](create-manage-sequences.md)      
 [Create and activate a sequence](create-and-activate-a-sequence.md)

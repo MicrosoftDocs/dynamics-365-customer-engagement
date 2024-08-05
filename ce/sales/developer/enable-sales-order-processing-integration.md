@@ -68,7 +68,7 @@ By default, sales order processing integration is turned off. If you've [turned 
 
 [!INCLUDE [cant-find-option](../../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Organization table reference](/power-apps/developer/data-platform/reference/entities/organization)<br />
 [System user table reference](../../customerengagement/on-premises/developer/entities/systemuser.md)<br />

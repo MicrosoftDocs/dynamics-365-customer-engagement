@@ -61,7 +61,7 @@ To configure and enable focused view as default for custom and other entities, f
 
 Focused view is now set as the default view for the selected entity.
 
-### See also
+## Related information
 
 [View and manage records in focused view](focused-view.md)  
 [Focused view FAQs](faq-focused-view.md)
