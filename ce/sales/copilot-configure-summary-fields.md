@@ -1,5 +1,5 @@
 ---
-title: Configure fields for generating summaries and recent changes list
+title: Configure fields for generating summaries and recent changes
 description: Learn how to configure fields for generating summaries and recent changes list in Copilot for leads, opportunities, and accounts.
 ms.date: 08/02/2024
 ms.topic: how-to
@@ -13,7 +13,7 @@ ms.custom:
   - bap-template
 ---
 
-# Configure fields for generating summaries and recent changes list
+# Configure fields for generating summaries and recent changes
 
 By default, Copilot uses a set of predefined fields to generate [summaries](copilot-get-information.md), a list of [recent changes](copilot-ask-questions.md#get-recent-changes) for accounts, leads, and opportunities, and [prepare for meetings](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments). You can add other fields from lead, opportunity, account, and related tables to make the summaries and recent changes list more relevant for your business.
 
@@ -45,7 +45,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
     In the **Recent changes** tab, when you add a field from a related table that doesn't have audit history turned on, **Turn audit on** appears in the notification bar. Select it to turn on auditing for the table. If you remove the field later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the table manually.
 
 1. <a name="admin-opportunity-summary-widget"></a>For **Opportunities** only. To display the opportunity summary widget within the opportunity form, in the **Opportunities settings** page, select the **Show opportunity summary as a widget in the form** option.  
-    To add the opportunity widget to custom forms, see [Add the opportunity summary widget to custom forms](#add-the-opportunity-summary-widget-to-custom-forms).
+    To add the opportunity widget to custom forms, see [Add the opportunity summary widget to custom forms](enable-setup-copilot.md#add-the-opportunity-summary-widget-to-custom-forms).
 
 1. For **Opportunities** and **Accounts** only. To customize the sections to display in the summary, select **Customize related info**.  
 
