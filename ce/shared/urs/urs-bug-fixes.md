@@ -8,19 +8,34 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | TBD | 08/02/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | TBD | 08/16/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.135.24](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213524) | [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | 08/02/2024 |
-| | *USG* | [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | TBD | 08/16/2024 |
+|**Station 1** |  *First Release*| [3.12.137.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213715) | TBD | 08/16/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | [3.12.137.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213715) | 08/16/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | [3.12.137.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213715) | 08/23/2024 |
+| | *USG* | [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) |[3.12.137.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213715) | 08/16/2024 |
 |**Station 4** |*Europe* | [3.12.135.24](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213524) | [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | 08/16/2024 |
-|**Station 5** |  *North America*| [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | [3.12.135.24](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213524) | 08/02/2024 |
-|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | [3.12.135.24](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213524) | 08/02/2024 |
+|**Station 5** |  *North America*|  [3.12.135.24](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213524) | [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | 08/23/2024 |
+|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | [3.12.135.24](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213524) | 08/09/2024 |
 | | *Dedicated Scale Groups* | [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) | [3.12.135.24](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213524) | 08/16/2024 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.137.15
+
+**Resource Scheduling Controls:** 1.2.76.242082
+
+**Dataverse:**  4.0.127.15
+
+- Fixed a bug that **disabled the Book and Book and Exit buttons** in the create booking panel in SA when working with resources with multiple units of capacity or set to allow overlapping bookings.
+- When a resource is selected, map view on the schedule board now  re-renders with the relevant resource's latest geolocation
+- Fixed a bug that was causing schedule assistant to ignore the Allow Overlapping selection
+- Fixed a bug that was causing notifications from schedule assistant to appear in the wrong location based on certain window configurations
+- Improved managed identity handling when using the msdyn_SearchResourceAvailabilityForRequirementGroup API
+- Improved requirement groups' handling of resources with multiple units of capacity
+- Fixed bug that was impacting the actual booked time slot on SA bookings when allow overlapping bookings is selected
+
 
 ## 3.12.136.53
 
