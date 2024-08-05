@@ -38,7 +38,7 @@ By default, all security roles in your organization have permission to view sell
 
 1. Select **Publish**.
 
-### See also
+## Related information
 
 [Enable seller insights](enable-seller-insights.md)  
 [Get intelligent insights to improve sales](seller-insights-intro.md)

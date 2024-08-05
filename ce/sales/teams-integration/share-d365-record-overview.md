@@ -35,7 +35,7 @@ The information in the interactive card is displayed using the view of type **Qu
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4XVnt]
 
-### See also
+## Related information
 
 [Enable sales teams to work with Dynamics 365 records within Microsoft Teams conversations](share-d365-record-admin.md)  
 [Access the Dynamics 365 app through messaging extensions](access-d365-app.md)   

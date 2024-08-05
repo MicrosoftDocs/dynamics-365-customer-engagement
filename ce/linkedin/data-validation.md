@@ -59,7 +59,7 @@ To update the org chart for a specific contact, perform the following steps in t
 
 To ignore a proposed update of an org chart, select **Ignore**  in the **Verify Contact Details** pane. This option ignores only the current update. If the contact has changes in the future, you'll be notified again. 
 
-### See also
+## Related information
 
 [Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
 

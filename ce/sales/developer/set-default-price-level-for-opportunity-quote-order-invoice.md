@@ -62,7 +62,7 @@ You can automatically set a default price level (price list) for an opportunity,
 > [!NOTE]
 >  When you extend the default price level selection by registering a plug-in on the `GetDefaultPriceLevel` message, the out-of-box selection of price level is disabled.  
   
-### See also  
+## Related information  
  [PriceLevel table](entities/pricelevel.md)  
  <xref:Microsoft.Crm.Sdk.Messages.GetDefaultPriceLevelRequest>  
  [Territory table](/power-apps/developer/data-platform/reference/entities/territory) 

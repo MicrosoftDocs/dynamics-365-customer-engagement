@@ -314,7 +314,7 @@ Console.WriteLine("\nCreated clone product: {0}", retrievedProduct.Name);
 ## Next step  
  Publish your product records to make products available for selling by your sales agents. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Publish a product family, product, or bundle](publish-revise-revert-retire-activate-products.md#Publish)  
   
-### See also  
+## Related information  
  [Publish, revise, revert, retire, and activate products (product lifecycle)](publish-revise-revert-retire-activate-products.md)   
  [Sample: Create and publish products](sample-create-publish-products.md)   
  [Sample: Clone product records](sample-clone-product-records.md)   

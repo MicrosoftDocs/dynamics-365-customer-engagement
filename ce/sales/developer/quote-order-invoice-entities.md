@@ -43,7 +43,7 @@ Dynamics 365 Sales supports robust *quote*, *sales order (order)*, and *invoice*
 
   An invoice is an order that has been billed.  
   
-### See Also  
+## Related information  
 
  [Quote Table](entities/quote.md)   
  [QuoteDetail Table](entities/quotedetail.md)   

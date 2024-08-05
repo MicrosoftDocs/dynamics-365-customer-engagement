@@ -169,7 +169,7 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 
 1. To get the news articles for a specific account, type **/** and then start typing the name of the account.
 
-### See also
+## Related information
 
 - [Copilot overview](copilot-overview.md)
 - [Copilot prompt guide reference](copilot-prompt-guide.md)

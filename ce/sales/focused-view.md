@@ -123,7 +123,7 @@ The customization that you make to the work list card is specific to the entity 
 
 You can configure the number of records that are displayed per page in the focused view. By default, 50 records are displayed, but you can increase this number up to a maximum of 250. To do so, go to your personalization settings, and under the **General** tab configure the **Set the number of rows shown per page in any list of rows** option to increase the number of records displayed per page in focused view. More information: [Set personal options](/power-apps/user/set-personal-options)
 
-### See also
+## Related information
 
 [Enable focused view and set it as default](set-focused-view-as-default.md)  
 [Prioritize sales pipeline with work lists](prioritize-sales-pipeline-through-work-list.md)   

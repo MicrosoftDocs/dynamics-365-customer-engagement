@@ -87,7 +87,7 @@ For more information about the lead score, select the **About** tab. The **About
 
 :::image type="content" source="media/predictive-lead-scoring-widget-top-reasons-about-tab.png" alt-text="Screenshot of predictive lead score About tab.":::
 
-### See also
+## Related information
 
 [Configure predictive lead scoring](configure-predictive-lead-scoring.md)  
 

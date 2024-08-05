@@ -87,7 +87,7 @@ As an administrator, you can create a saved query to view the latest sequences t
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Manage sequences](create-manage-sequences.md)   
 

@@ -46,6 +46,6 @@ When assignment rules run, a lead or an opportunity might meet the criteria of m
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
