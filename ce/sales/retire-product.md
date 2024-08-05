@@ -56,7 +56,7 @@ You can only reactivate a standalone product. If a product has a parent, you'll 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)
 
 

@@ -151,7 +151,7 @@ There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../in
 
 - [MSDN:TextWriterTraceListener](/dotnet/api/system.diagnostics.textwritertracelistener)  
 
-  You can also create custom listeners to send diagnostic logs to a location you pick. Custom listeners are created by deriving a class from the [MSDN:TraceListener](/dotnet/api/system.diagnostics.tracelistener) abstract class. You can find a walkthrough of the process on [CodeGuru.com](https://www.codeguru.com/csharp/.net/article.php/c19405/Tracing-in-NET-and-Implementing-Your-Own-Trace-Listeners.htm).  
+  You can also create custom listeners to send diagnostic logs to a location you pick. Custom listeners are created by deriving a class from the [MSDN:TraceListener](/dotnet/api/system.diagnostics.tracelistener) abstract class. You can find a walkthrough of the process on [CodeGuru.com](https://www.codeguru.com/dotnet/tracing-in-net-and-implementing-your-own-trace-listeners/).  
 
 <a name="View_diagnostic_log"></a>   
 ## Viewing the diagnostic log file  

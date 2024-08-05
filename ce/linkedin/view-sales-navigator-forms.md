@@ -75,7 +75,7 @@ If no company account is associated with a person's profile, there's no company 
 2. Select **Search**.
 2. Review the suggested match and select **Match** to associate it with the related account.
 
-### See also
+## Related information
 
 [Overview for LinkedIn Sales Navigator solutions](integrate-sales-navigator.md)     
 [Install and configure LinkedIn Sales Navigator Controls](install-sales-navigator.md)   

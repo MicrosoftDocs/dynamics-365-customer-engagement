@@ -80,7 +80,7 @@ The following considerations apply to the enhanced email experience:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Send email using the enhanced email experience](enhanced-email.md)
 

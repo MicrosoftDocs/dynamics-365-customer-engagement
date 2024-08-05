@@ -46,7 +46,7 @@ The ability for users to join existing chats is especially useful for the follow
 
 4. Select **Save**.
 
-### See also
+## Related information
 
 [Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)   
 [Join an existing connected chat](join-chat.md)

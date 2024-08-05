@@ -88,7 +88,7 @@ If you need to create a contact that doesn't already exist in your Dynamics 365 
     
 3.  In the **Create new contact** form, fill in the details, and then tap **Save**.
 
-### See also
+## Related information
 
 [Learn the basics](learn-basics-mobile-app.md)   
 [View meetings](view-agenda.md)

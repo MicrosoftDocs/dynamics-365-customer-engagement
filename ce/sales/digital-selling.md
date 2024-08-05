@@ -62,7 +62,7 @@ When you set up digital sales with a Sales Enterprise license, you get to explor
 > [!NOTE]
 > Each of the Sales Premium features has an advanced settings page, too. Settings you change in either place are reflected in both quick setup and advanced settings.
 
-### See also
+## Related information
 
 [Configure the sales accelerator for Sales Premium](enable-configure-sales-accelerator.md)  
 [Install and set up Microsoft Teams integration](../teams-integration/teams-install-app.md)  

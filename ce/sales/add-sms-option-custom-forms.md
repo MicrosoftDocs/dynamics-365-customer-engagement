@@ -36,7 +36,7 @@ Add the text messaging to phone number fields in custom forms, allowing sellers 
 
     :::image type="content" source="media/sms-add-option-custom-forms.png" alt-text="Screenshot of the text message option added to the business phone in the information form.":::
 
-### See also
+## Related information
 
 [Engage with customers through text messages](sms-intro.md)  
 [Configure SMS provider](configure-sms-provider.md)   

@@ -176,6 +176,6 @@ Microsoft Teams admin center allows you to disable the autoinstallation of the D
 
     :::image type="content" source="media/auto-install-d365-teams-admin.png" alt-text="Disbale auto-install from Teams admin center":::
 
-### See also
+## Related information
 
 [Share and update Dynamics 365 records within Microsoft Teams conversations](share-d365-record-overview.md)   

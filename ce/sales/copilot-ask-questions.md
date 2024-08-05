@@ -71,7 +71,7 @@ Copilot summarizes the last 10 updates to the record from the audit history, for
 
 Keep in mind that these fields are set at the organization level. Make sure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
-### See also
+## Related information
 
 - [Copilot overview](copilot-overview.md)  
 - [Copilot prompt guide reference](copilot-prompt-guide.md)  

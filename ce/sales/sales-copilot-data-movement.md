@@ -26,6 +26,6 @@ If your Dynamics 365 environment is in a region where Copilot is supported but a
 You need to opt in to allow your data to move outside of your region to an Azure OpenAI endpoint in a different region. You can opt in by providing consent in the Power Platform admin center. Learn more about [how data movement across region works](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works) and [how to provide consent](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
 
-### See also
+## Related information
 
 - [Enable and configure Copilot in Dynamics 365 Sales](enable-setup-copilot.md)

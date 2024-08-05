@@ -117,6 +117,7 @@ To add the opportunity summary widget to custom forms, follow these steps:
 - [Configure fields for generating what's new with my sales records list](copilot-configure-whatsnew-field.md)
 - [Configure Copilot to use specific SharePoint locations](copilot-sharepoint-config.md)
 
+
 ## Related information
 
 - [Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)

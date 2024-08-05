@@ -97,7 +97,7 @@ When sample data is added to your organization, the following record types are u
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure sales accelerator](enable-configure-sales-accelerator.md)
 
