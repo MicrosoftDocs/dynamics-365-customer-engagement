@@ -71,10 +71,10 @@ Based on the messaging infrastructure you have configured, follow the appropriat
    1. Select **Properties** in **Settings**. 
    1. On the **Properties** page, copy the **Name**. 
    1. Select **Keys** in **Settings**. On the **Keys** page, copy **Connection string** in **Primary key**.
-   1. Select **Events**. Select the event subscription you've created as a part of setting up [Advanced Messaging for WhatsApp](/azure/communication-services/concepts/advanced-messaging/whatsapp/whatsapp-overview) in Prerequisities section.
+   1. Select **Events**. Select the event subscription you've created as a part of setting up advanced messaging for WhatsApp in [Prerequisities](#prerequisites).
    1. Select **Additional features** in the **Event Subscription** page. 
    1. In **AAD AUTHENTICATION**, copy the **AAD Tenant ID** and **AAD Application ID or URI** values.
-   1. Select **Channels** in **Advanced Messaging**. Copy the **Channel ID** corresponding to the channel you've created as a part of setting up [Advanced Messaging for WhatsApp](/azure/communication-services/concepts/advanced-messaging/whatsapp/whatsapp-overview) in Prerequisities section.
+   1. Select **Channels** in **Advanced Messaging**. Copy the **Channel ID** corresponding to the channel you've created as a part of setting up advanced messaging for WhatsApp in [Prerequisities](#prerequisites).
 
    ### [Twilio](#tab/twilio)
     
@@ -108,7 +108,15 @@ Based on the messaging infrastructure you have configured, follow the appropriat
          - **Name**: Specify a name.
          - **Channel ID**: Specify the **Channel ID** for the WhatsApp channel you've created in Azure Communication Services.
       1. On the **Callback information** page, copy the value in the **WhatsApp inbound URL** box to use in the Azure Communication Services event grid.
-      1. Select **Done**.
+      1. Perform the steps the following section to add the WhatsApp endpoint to the Azure Communication Services resource.
+      1. Select the check box to confirm that the WhatsApp channel is setup correctly and then select **Done**.
+      
+      **Add the WhatsApp endpoint to Azure Communication Services resource**
+
+       1. In the Azure portal, go to the **Events** page.
+       1. Select the event subscription that you created as a part of the [Advanced Messaging for WhatsApp](/azure/communication-services/concepts/advanced-messaging/whatsapp/whatsapp-overview) setup in Azure Communication Services.
+       1. In the Event Subscription page > **Endpoint** select **Change** for the endpoint and add the **WhatsApp inbound URL** that you copied from the Callback information page in the WhatsApp channel setup.
+
       
    ### [Twilio](#tab/twilio)
     
@@ -118,19 +126,93 @@ Based on the messaging infrastructure you have configured, follow the appropriat
    2. On the **WhatsApp channel ID** page, select **Add**, and on the page that appears, enter the following information:
     - **Name:** Specify a name.
     - **Number:** Specify the WhatsApp phone number by prefixing the plus (+) symbol.
-   3. On the **Callback information** page, copy the value in the **Twilio inbound URL** box to use for the Twilio account.
+   3. On the **Callback information** page, copy the value in the **Twilio inbound URL** box to use for the Twilio account. 
    1. Select **Done**. The account is added to the list.
-   1. Perform the steps in [Integrate a Twilio sandbox account](#integrate-a-twilio-sandbox-account-with-omnichannel-for-customer-service) to test the WhatsApp channel with the Twilio sandbox.
+   
+   **Integrate a Twilio sandbox account**
+
+   1. In Twilio, go to the **Programmable SMS** > **Programmable Messaging** > **WhatsApp sandbox**.
+   2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated and save the changes.
+   3. To test the WhatsApp channel with the Twilio sandbox, you can send a WhatsApp message to the number provided by Twilio with a unique code that is also provided by Twilio. You can also use the sandbox message template provided by Twilio to test sending messages outside of the 24-hour window.
     
 ---
 
-### Integrate a Twilio sandbox account
+## Create a WhatsApp channel
 
-1. In Twilio, go to the **Programmable SMS** > **Programmable Messaging** > **WhatsApp sandbox**.
-2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated and save the changes.
-3. To test the WhatsApp channel with the Twilio sandbox, you can send a WhatsApp message to the number provided by Twilio with a unique code that is also provided by Twilio. You can also use the sandbox message template provided by Twilio to test sending messages outside of the 24-hour window.
+1. In the site map of Contact Center admin center or Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
+   
+1. Select **New account**.
 
-### See also
+1. Enter the following details:
+
+    1. On the **Channel details** page, enter a name and select **WhatsApp** in **Channels**.
+
+    2. On the **Account details** page, specify Azure Communication Services as the **Provider** and then specify the following information:
+      - **ACS resource name:** The ACS resource that you've created
+      - **ACS connection string:** Connection key
+      - **Event grid app ID**: AAD Tenant id
+      - **Event grid app tenant ID**: AAD app ID
+ 
+    3. On the **WhatsApp channel IDs** page, select **Add**, and on the page that appears, enter the following information:
+      - **Name:** Specify a name.
+      - **Channel ID:** Specify the Channel ID from ACS.
+    
+    4. On the **Callback information** page, copy the value in the **Twilio inbound URL** box to use for the Twilio account.
+    
+    5. Select **Done**. The account is added to the list.
+
+
+## Configure a workstream for the WhatsApp channel
+1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) with the **Channel** set to **WhatsApp** or select an existing one.
+
+1. Select the workstream that you've created for the WhatsApp channel and on the workstream page, select **Set up WhatsApp** to configure the following options:
+   
+    1. On the **Channel** page, select the Azure Communication Services channel or the Twilio number that you created.
+   
+    2. On the **Language** page, select the language.
+    
+    3. On the **Behaviors** page, configure the following options:
+      - [Custom automated messages](configure-automated-message.md)
+      - [WhatsApp message templates](#configure-whatsapp-message-templates)
+      - [Post-conversation survey](configure-post-conversation-survey.md)
+    4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
+      - Customers can send file attachments
+      - Agents can send file attachments
+    5. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
+
+1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+
+1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+
+1. Optionally, [add a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+
+1. Based on your business needs, in **Advanced settings**, configure the following options:
+   - [Sessions](session-templates.md)
+   - [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
+   - [Context variables](manage-context-variables.md#add-context-variables))
+   - [Smart assist bots](../develop/smart-assist-bot.md)
+   - [Quick replies](create-quick-replies.md)
+   
+
+### Configure WhatsApp message templates
+
+You can configure the option for agents to send WhatsApp-approved messages. If 24 hours pass after a customer's last message, agents will only be able to send messages from WhatsApp-approved templates until the customer responds. You must create your message templates in your Twilio account and have them approved by WhatsApp before you add them in Omnichannel for Customer Service.
+
+Perform the following steps:
+
+1. For the selected workstream for WhatsApp, edit the WhatsApp account.
+2. On the **Behaviors** tab, in **WhatsApp message templates**, select **Add**.
+3. On the **Add message template** dialog box, do the following:
+   - **Name:** Specify a name for the template.
+   - **Default language:** Select the language from the list.
+   - **WhatsApp approved text:** Copy and paste the approved text from the template that you created in WhatsApp.
+4. Select **Save**.
+5. Create as many templates as required.
+
+
+### Related information
 
 [Understand and create workstreams](../work-streams-introduction.md)  
 [Configure automated messages](configure-automated-message.md)  
