@@ -51,7 +51,7 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
         Select the section to view the details of the associated records. To summarize a specific lead, opportunity, or case, hover over the record and select **Summarize**. For cases to display, your organization must have the Dynamics 365 Customer Service app enabled.
 
     >[!NOTE]
-    >Administrators can configure the fields that generate summaries and related information for the account summary view. More information: [Configure fields for generating summaries and recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
+    >Administrators can configure the fields that generate summaries and related information for the account summary view. More information: [Configure fields for generating summaries and recent changes list](copilot-configure-summary-fields.md).
 
      Further, you can drill down into the details associated with the account, select the suggested prompts displayed below the account summary. The **Find relevant Sales Navigator accounts** prompt appears if you have the LinkedIn Sales Navigator license. Select the prompt to open the relevant LinkedIn Sales Navigator accounts associated with the account.
 
@@ -76,7 +76,7 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
         - The **Quote insights** section displays the number of quotes that are shared with the opportunity along with the date of the most recent quote.  
         - The **Competitor insights** section displays the competitors associated with the opportunity along with the strengths and weaknesses of the competitors.  
 
-        The information is displayed in these sections are based on the fields configured by the administrator for generating summaries. More information: [Configure fields for generating summaries and recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
+        The information is displayed in these sections are based on the fields configured by the administrator for generating summaries. More information: [Configure fields for generating summaries and recent changes list](copilot-configure-summary-fields.md).
 
 ### View opportunity summary widget
 
@@ -84,7 +84,7 @@ By default, when you open an opportunity, the opportunity summary widget is disp
 
 :::image type="content" source="media/copilot-opportunity-summary-widget.png" alt-text="Screenshot of a Copilot opportunity summary widget.":::
 
-If you don't see the opportunity summary widget in the **Opportunity** form, contact your administrator to enable it. More information: [Opportunity summary widget](enable-setup-copilot.md#admin-opportunity-summary-widget).
+If you don't see the opportunity summary widget in the **Opportunity** form, contact your administrator to enable it. More information: [Add the opportunity summary widget to custom forms](enable-setup-copilot.md#add-the-opportunity-summary-widget-to-custom-forms)
 
 ## Summarize a lead
 
@@ -98,7 +98,7 @@ If you don't see the opportunity summary widget in the **Opportunity** form, con
 
 ## Would you like to view a summary of different fields?
 
-Copilot generates the summary from a set of predefined fields. Other fields might be more important to you, however. For example, estimated revenue, close date, contact, pipeline stage, and proposed solution might be the first things you look for in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
+Copilot generates the summary from a set of predefined fields. Other fields might be more important to you, however. For example, estimated revenue, close date, contact, pipeline stage, and proposed solution might be the first things you look for in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](copilot-configure-summary-fields.md).
 
 Keep in mind that the summary fields are configured at the organization level. Make sure that your entire sales team agrees on the **top 10** fields that are most relevant for your business.
 
