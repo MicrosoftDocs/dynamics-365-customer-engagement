@@ -284,7 +284,7 @@ Due to recent security changes in the Power Apps framework, which hosts Teams ap
     - File access is supported only in the web browser and not in the native Teams client.
 - Device capabilities 
     - If your app depends on native device capabilities to take pictures, record videos, or scan barcodes, you will not be able to perform these actions while running the app on Teams. 
-- Loss of functionality due to 3rd party cookies being blocked
+- Loss of functionality due to third-party cookies being blocked
     - The Rich Text Editor control will not load, affecting experiences such as email and signature editing, as well as forms that utilize the rich text editor.
     - PCF controls that load external resources (HTML/JS) will not work. Also, some client calls that access `window.*` will be broken.
     - App functionality that is configured to use an HTML web resource will not work.
