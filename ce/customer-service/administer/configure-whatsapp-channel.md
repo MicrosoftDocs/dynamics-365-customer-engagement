@@ -95,8 +95,7 @@ Based on the messaging infrastructure you have configured, follow the appropriat
 
    ### [Azure Communication Services](#tab/azurecommunicationservices)
 
-
-   You must specify the information you've copied from in [Fetch Azure Communication Services details](#azure-communication-services-1).
+    You must specify the information you've copied from in [Fetch Azure Communication Services details](#azure-communication-services-1).
     
      1. In the **Channel settings** page, specify the following. 
          - **ACS resource name**: The **Name** of the resource.
@@ -104,19 +103,18 @@ Based on the messaging infrastructure you have configured, follow the appropriat
          - **Event grid app ID**: **AAD Tenant ID**.
          - **Event grid app tenant ID**:  **AAD Application ID or URI**.
          - Select the check box to confirm that the Azure Communication Services resource is connected only to one organization.
-      1. In the **WhatsApp channel ID**, select **Add**, and on the page that appears, enter the following information:
+     1. In the **WhatsApp channel ID**, select **Add**, and on the page that appears, enter the following information:
          - **Name**: Specify a name.
          - **Channel ID**: Specify the **Channel ID** for the WhatsApp channel you've created in Azure Communication Services.
-      1. On the **Callback information** page, copy the value in the **WhatsApp inbound URL** box to use in the Azure Communication Services event grid.
-      1. Perform the steps the following section to add the WhatsApp endpoint to the Azure Communication Services resource.
-      1. Select the check box to confirm that the WhatsApp channel is setup correctly and then select **Done**.
+     1. On the **Callback information** page, copy the value in the **WhatsApp inbound URL** box to use in the Azure Communication Services event grid.
+     1. Perform the steps the following section to add the WhatsApp endpoint to the Azure Communication Services resource.
+     1. Select the check box to confirm that the WhatsApp channel is setup correctly and then select **Done**.
       
     **Add the WhatsApp endpoint to Azure Communication Services resource**
 
       1. In the Azure portal, go to the **Events** page.
       1. Select the event subscription that you created as a part of the [Advanced Messaging for WhatsApp](/azure/communication-services/concepts/advanced-messaging/whatsapp/whatsapp-overview) setup in Azure Communication Services.
       1. In the Event Subscription page > **Endpoint** select **Change** for the endpoint and add the **WhatsApp inbound URL** that you copied from the Callback information page in the WhatsApp channel setup.
-
       
    ### [Twilio](#tab/twilio)
     
