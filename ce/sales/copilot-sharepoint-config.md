@@ -18,7 +18,7 @@ Sales organizations often store product-related documents, such as product broch
 
 ## Prerequisite
 
-Get the Path URL of the SharePoint folders that you want to configure for Copilot to use. Open the folder in SharePoint and select the information icon to get the **Path** URL as shown in the following image.
+Copy the Path URL of the SharePoint folders that you want to configure for Copilot to use. Open the folder in SharePoint and select the information icon to copy the **Path** URL as shown in the following image.
 
 :::image type="content" source="media/sharepoint-path.png" alt-text="Screenshot of the details pane in SharePoint with information icon and Path fields highlighted.":::
 
