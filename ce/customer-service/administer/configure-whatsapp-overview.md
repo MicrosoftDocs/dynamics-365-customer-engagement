@@ -32,5 +32,5 @@ The success of social media customer service, like all other customer service, d
 You can configure WhatsApp channel through Twilio or Azure Communication Services. You can do this in the following ways:
 
 - [Configure a WhatsApp channel through Twilio](../administer/configure-whatsapp-channel-twilio.md)
-- [Configure a WhatsApp channel through Azure Communication Services]()
+- [Configure a WhatsApp channel through Azure Communication Services](../administer/configure-whatsapp-acs.md)
 
