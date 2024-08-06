@@ -1,5 +1,5 @@
 ---
-title: Configure a WhatsApp channel through Twilio
+title: Configure a WhatsApp channel through Twilio or Azure Communication Services
 description: Use this article to learn how to configure the WhatsApp channel through Twilio in Omnichannel for Customer Service.
 ms.date: 06/14/2024
 ms.topic: how-to
@@ -10,11 +10,15 @@ ms.collection:
 ms.custom: bap-template
 ---
 
-# Configure a WhatsApp channel through Twilio
+# Configure a WhatsApp channel 
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omnichannel for Customer Service to engage with customers who prefer to use the WhatsApp channel.
+
+You can use the WhatsApp channel feature to engage with customers who prefer to communicate using WhatsApp. You can configure the WhatsApp channel through:
+
+ - Azure Communication Services 
+ - Twilio 
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
