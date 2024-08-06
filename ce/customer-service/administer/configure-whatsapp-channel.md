@@ -118,7 +118,7 @@ Based on the messaging infrastructure you have configured, follow the appropriat
       1. In the Event Subscription page > **Endpoint** select **Change** for the endpoint and add the **WhatsApp inbound URL** that you copied from the Callback information page in the WhatsApp channel setup.
 
       
-   ### [Twilio](#tab/twilio)
+ ### [Twilio](#tab/twilio)
     
    1. On the **Account details** page, specify the following:
     - **Account SID:** Specify the value from your Twilio account.
