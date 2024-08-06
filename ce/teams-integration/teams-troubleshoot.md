@@ -274,7 +274,7 @@ The Dynamics 365 app isn't supported on mobile devices.
 
 Rich text fields aren't supported in adaptive cards and won't render correctly in Microsoft Teams. You can modify a field's format to rich text to format text using HTML, but it will not be displayed correctly in Teams. Teams doesn't support rich text formatting on fields in adaptive cards.
 
-### Limitations for Dynamics 365 app in Microsoft Teams
+### Limitations of Dynamics 365 app in Microsoft Teams
 
 Due to recent security changes in the PowerApps framework, which hosts Teams apps, there are a few limitations for the Dynamics 365 app in Teams. These specific limitations may impact the Dynamics 365 app in Teams, as outlined below.
 
