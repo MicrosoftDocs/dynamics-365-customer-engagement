@@ -1,7 +1,7 @@
 ---
 title: Work with customer assets (contains video)
 description: Learn how to add customer assets to use asset management in Dynamics 365 Field Service.
-ms.date: 07/02/2023
+ms.date: 08/06/2024
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -24,7 +24,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
 1. In Field Service, select the **Service** area. Under **Assets**, select **Assets**, and then select **New**.
 
-   :::image type="content" source="media/customer-asset-create-manually-new.png" alt-text="Screenshot of the New Customer Asset form.":::
+   :::image type="content" source="media/customer-asset-create-manually-new.svg" alt-text="Screenshot of the New Customer Asset form.":::
 
 1. Enter a **Name** for the customer asset. Examples of descriptive names include the make and model of the asset, the name of the product in the product catalog, a general name like *HVAC Unit*, or a label like *HVAC Unit second floor*.
 
@@ -32,32 +32,26 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
     - **Category**: Add or create a category that serves as a label to organize assets into groups.
 
-    - **Product**: If the asset correlates with a [product in your product catalog](create-product-or-service.md), look for and select it.
-
     - **Account**: Look for and select a [service account](accounts.md) to represent the customer and the asset's location.
        As a simple rule, if you were going to create a work order to repair the customer asset, the service account of the work order and the service account of the customer asset should be the same.
 
-    - **Functional Location**: Look for and select the [functional location](functional-locations.md) where the customer asset is located.
-
     - **Parent Asset**: Field Service supports hierarchical asset structures. For example, a part can be a component of a piece of equipment that is itself a component of a larger device. Use the **Parent Asset** field to specify the direct parent of the asset you're creating.
 
-    - **Top-Level Asset**: A read-only field that displays the top-level parent in the relationship automatically. After creating the asset record, add subcomponents or child assets in the **Sub Assets** grid.
-    
-    - **Asset Tag**: Enter a custom asset tag in this text field.
-    
-    - **Manufacturing Date:** Select the date when the asset was manufactured to get another data point in the service history. 
+    - **Product**: If the asset correlates with a [product in your product catalog](create-product-or-service.md), look for and select it.
 
 1. Select **Save**.
 
+1. Optionally add subcomponents or child assets in the **Sub Assets** grid.
+
 ### Import customer assets from Excel
+
+The Excel workbook must contain at least two columns, **Name** and **Account**. The columns must contain the name and service account of the assets you want to import. If you include columns for optional properties such as **Product** and **Functional Location**, the values you enter in the workbook must already exist in Field Service.
 
 1. In Field Service, select the **Service** area. Under **Assets**, select **Assets**.
 
 1. Select the **More commands** (**&vellip;**) menu, and then select **Import from Excel**.
 
 1. Select **Choose File**, and then open an Excel workbook.
-
-    The Excel workbook must contain at least two columns, **Name** and **Account**. The columns must contain the name and service account of the assets you want to import. If you include columns for optional properties such as **Product** and **Functional Location**, the values you enter in the workbook must already exist in Field Service.
 
 1. Select an owner for the imported records if it should be someone other than you.
 
@@ -71,7 +65,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
 1. Select **Finish Import** to queue the records for importing.
 
-    You can keep working while the assets are imported, or select **Track Progress**. Select **OK** to confirm that you want to leave the page, and then check the status of the import in the **My Imports** view.
+    You can keep working while the assets are imported, or select **Track Progress**. Select **Done** to confirm that you want to leave the page, and then check the status of the import in the **My Imports** view.
 
 ### Automatically create customer assets from work order products
 
