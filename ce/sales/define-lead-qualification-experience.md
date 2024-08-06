@@ -1,7 +1,7 @@
 ---
 title: Define lead qualification experience in Dynamics 365 Sales
 description: Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified.
-ms.date: 07/17/2024
+ms.date: 08/06/2024
 ms.topic: how-to
 ms.custom: bap-template
 author: lavanyakr01
@@ -52,44 +52,44 @@ When a lead is qualified, values of some fields from leads are automatically map
 
 **Fields mapped to opportunity**
 
-| Field name in lead | Field name in opportunity |
-|:-------------------|:--------------------------|
-| Topic | Topic |
-| Contact | Contact |
-| Account | Account |
+| Field name in lead | Logical name in lead | Field name in opportunity | Logical name in opportunity |
+|--------------------|----------------------|---------------------------|-----------------------------|
+| Topic              | subject              | Topic                     | name                        |
+| Contact            | parentcontactid      | Contact                   | parentcontactid             |
+| Account            | parentaccountid      | Account                   | parentaccountid             |
 
 **Fields mapped to account**
 
-| Field name in lead | Field name in account |
-|:-------------------|:----------------------|
-| Company | Account name |
-| Website | Website |
-| Business Phone | Phone |
-| Street 1 | Address 1: Street 1 |
-| Street 2 | Address 1: Street 2 |
-| Street 3 | Address 1: Street 3 |
-| City | Address 1: City |
-| State/Province | Address 1: State/Province |
-| ZIP/Postal Code | Address 1: ZIP/Postal Code |
-| Country/Region | Address 1: Country/Region |
+| Field name in lead | Logical name in lead     | Field name in account       | Logical name in account     |
+|--------------------|--------------------------|-----------------------------|-----------------------------|
+| Company            | companyname              | Account name                | name                        |
+| Website            | websiteurl               | Website                     | websiteurl                  |
+| Business Phone     | telephone1               | Phone                       | address1_telephone1         |
+| Street 1           | address1_line1           | Address 1: Street 1         | address1_line1              |
+| Street 2           | address1_line2           | Address 1: Street 2         | address1_line2              |
+| Street 3           | address1_line3           | Address 1: Street 3         | address1_line3              |
+| City               | address1_city            | Address 1: City             | address1_city               |
+| State/Province     | address1_stateorprovince | Address 1: State/Province   | address1_stateorprovince    |
+| Zip/Postal Code    | address1_postalcode      | Address 1: ZIP/Postal Code  | address1_postalcode         |
+| Country/Region     | address1_country         | Address 1: Country/Region   | address1_country            |
 
 **Fields mapped to contact**
 
-| Field name in lead | Field name in contact |
-|:-------------------|:----------------------|
-| First name | First name |
-| Last name | Last name |
-| Job title | Job title |
-| Business Phone | Phone |
-| Mobile phone | Mobile phone |
-| Email | Email |
-| Street 1 | Address 1: Street 1 |
-| Street 2 | Address 1: Street 2 |
-| Street 3 | Address 1: Street 3 |
-| City | Address 1: City |
-| State/Province | Address 1: State/Province |
-| ZIP/Postal Code | Address 1: ZIP/Postal Code |
-| Country/Region | Address 1: Country/Region |
+| Field name in lead | Logical name in lead     | Field name in contact       | Logical name in contact      |
+|--------------------|--------------------------|-----------------------------|------------------------------|
+| First name         | firstname                | First name                  | firstname                    |
+| Last name          | lastname                 | Last name                   | lastname                     |
+| Job title          | jobtitle                 | Job title                   | jobtitle                     |
+| Business Phone     | telephone1               | Phone                       | managerphone                 |
+| Mobile phone       | mobilephone              | Mobile phone                | mobilephone                  |
+| Email              | emailaddress1            | Email                       | emailaddress1                |
+| Street 1           | address1_line1           | Address 1: Street 1         | address1_line1               |
+| Street 2           | address1_line2           | Address 1: Street 2         | address1_line2               |
+| Street 3           | address1_line3           | Address 1: Street 3         | address1_line3               |
+| City               | address1_city            | Address 1: City             | address1_city                |
+| State/Province     | address1_stateorprovince | Address 1: State/Province   | address1_stateorprovince     |
+| ZIP/Postal Code    | address1_postalcode      | Address 1: ZIP/Postal Code  | address1_postalcode          |
+| Country/Region     | address1_country         | Address 1: Country/Region   | address1_country             |
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
