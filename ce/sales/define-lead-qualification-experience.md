@@ -1,7 +1,7 @@
 ---
 title: Customize lead qualification experience in Dynamics 365 Sales
 description: Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified.
-ms.date: 07/17/2024
+ms.date: 08/12/2024
 ms.topic: how-to
 ms.custom: bap-template
 author: lavanyakr01
@@ -29,6 +29,9 @@ As an admin, you can customize the lead qualification experience to help sellers
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## New lead qualification experience versus legacy experience
+
+> [!IMPORTANT]
+> The new lead qualification experience is an early access feature. You can [opt in](/power-platform/admin/opt-in-early-access-updates) to use it for testing and adoption in your environments.
 
 The new lead qualification experience lets you customize the following aspects:
 
