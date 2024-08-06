@@ -25,13 +25,6 @@ The success of social media customer service, like all other customer service, d
 -  A Facebook ID.
 - A phone number, you can bring your own phone number or get a new phone number from Azure Communication Services. these numbers should be able to receive SMS and texts. Phone number must not be associated with other whatsapp business accounts.
 
-## WhatsApp message types and 24-hour session rule
-
-- **Template messages:** Are the outbound messages that agents send through Twilio using one of the preapproved templates? They're typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. For more information about WhatsApp message templates, see [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
-
-- **Session messages:** According to WhatsApp, session messages are incoming messages from a customer or outgoing replies by an agent to the incoming messages, within 24 hours. A messaging session starts when agents receive a message from a customer. It lasts for 24 hours from the most recently received message. Session messages don't need to follow a template, and can include media attachments.
-
-- **24 hours session rule:** A messaging session starts when an agent receives a message from a customer or replies to the incoming message from the customer. When the customer sends a message, the agent has 24 hours to reply from the time the agent received it. However, after 24 hours, the agent can send a message to customer only by using a predefined and approved template.
 
 ## End-to-end walkthrough
 
@@ -57,7 +50,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 ## Create a WhatsApp channel
 
-1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Contact Center admin center or Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
 1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
    
@@ -80,6 +73,9 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
     4. On the **Callback information** page, copy the value in the **Twilio inbound URL** box to use for the Twilio account.
     
     5. Select **Done**. The account is added to the list.
+
+
+## Configure a workstream for the WhatsApp channel
 
 1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
 

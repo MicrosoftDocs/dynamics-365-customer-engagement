@@ -137,34 +137,9 @@ Based on the messaging infrastructure you have configured, follow the appropriat
     
 ---
 
-## Create a WhatsApp channel
-
-1. In the site map of Contact Center admin center or Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
-    
-1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
-   
-1. Select **New account**.
-
-1. Enter the following details:
-
-    1. On the **Channel details** page, enter a name and select **WhatsApp** in **Channels**.
-
-    2. On the **Account details** page, specify Azure Communication Services as the **Provider** and then specify the following information:
-      - **ACS resource name:** The ACS resource that you've created
-      - **ACS connection string:** Connection key
-      - **Event grid app ID**: AAD Tenant id
-      - **Event grid app tenant ID**: AAD app ID
- 
-    3. On the **WhatsApp channel IDs** page, select **Add**, and on the page that appears, enter the following information:
-      - **Name:** Specify a name.
-      - **Channel ID:** Specify the Channel ID from ACS.
-    
-    4. On the **Callback information** page, copy the value in the **Twilio inbound URL** box to use for the Twilio account.
-    
-    5. Select **Done**. The account is added to the list.
-
 
 ## Configure a workstream for the WhatsApp channel
+
 1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) with the **Channel** set to **WhatsApp** or select an existing one.
 
 1. Select the workstream that you've created for the WhatsApp channel and on the workstream page, select **Set up WhatsApp** to configure the following options:
