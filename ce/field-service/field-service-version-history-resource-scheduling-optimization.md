@@ -44,6 +44,10 @@ For information about older versions, see [Version history archive](version-hist
 >
 > - Dates in all regions indicate the timing of the next automatic update. While most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 3.4.0.1165
+
+This release, available as of August 6, 2024, has updates improving performance and reliability.
+
 ## 3.4.0.1144
 
 This release, available as of July 15, 2024, has miscellaneous service updates and logging improvements.
