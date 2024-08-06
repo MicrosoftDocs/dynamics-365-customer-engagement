@@ -43,7 +43,7 @@ After you receive a card in a Teams chat, you can view its details and update th
 
     ![Refresh the card](media/me-refresh-card.png "Refresh the card")
 
-### See also
+## Related information
 
 [Share and update Dynamics 365 records within Microsoft Teams conversations](share-d365-record-overview.md)   
 [Access the Dynamics 365 app through messaging extensions](access-d365-app.md)   

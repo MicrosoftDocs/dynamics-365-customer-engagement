@@ -10,8 +10,6 @@ ms.custom: bap-template
 ---
 # Configure bot context in Azure bots
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 For Azure bots, you must install the bot SDK and instantiate the Omnichannel middleware before you configure bot context.
 
 ## Install the bot SDK in your project

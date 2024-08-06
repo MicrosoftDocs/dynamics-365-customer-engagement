@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 
 > [!NOTE]
@@ -102,6 +102,6 @@ After you’ve generated the suggested content, you can refine the results furth
     The Copilot email composer is cleared and you can start a new draft.
 
 
-### See also
+## Related information
 
 [Copilot overview](copilot-overview.md)  

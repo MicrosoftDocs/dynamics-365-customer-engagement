@@ -113,7 +113,7 @@ Email engagement provides valuable insights into your emails, but false-positive
 - A third-party integration or extension scans your outbound messages for spam or internal reporting. Each time an email is opened, even by a scanning or tracking tool, it registers as an open event. 
 - Recipient spam filters might scan and open your emails that you send and this might be counted as open during the security scanning process.
 
-### See also
+## Related information
 
 [Turn on email engagement](configure-email-engagement.md)  
 [Create and send an email message](create-send-email-message.md)  

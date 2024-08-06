@@ -3,7 +3,7 @@ title: Geofencing for the Field Service mobile app
 description: Learn how to use geofences for the Dynamics 365 Field Service mobile app.
 ms.date: 02/07/2024
 ms.subservice: field-service-mobile
-ms.topic: article
+ms.topic: how-to
 author: JonBaker007
 ms.author: jobaker
 ---

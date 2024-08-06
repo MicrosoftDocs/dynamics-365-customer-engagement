@@ -134,7 +134,7 @@ When you add the above schedule, 12 forecast periods are added to the **Periods 
 </td></tr>
 </table>
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [Configure forecasts by using a custom rollup entity](configure-forecast-using-custom-rollup-entity.md)  

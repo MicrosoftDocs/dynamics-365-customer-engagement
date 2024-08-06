@@ -20,7 +20,7 @@ When you search for a product in the enhanced Add Products dialog while adding p
 - Both parts are displayed separately and are ordered alphabetically by the **Product Name** field. 
 
 
-## See also
+## Related information
 
 - [Find and add multiple products to quotes, orders, or invoices](add-products-qoi-enhanced.md)  
 - [Find and add multiple products to an opportunity](add-products-enhanced-experience.md)

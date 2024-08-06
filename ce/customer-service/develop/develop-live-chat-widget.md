@@ -18,8 +18,6 @@ ms.custom:
 
 # Develop a custom live chat widget
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 Microsoft provides an option to create a custom live chat widget that you can attach to your Dynamics 365 Customer Service account. Each component of the custom live chat widget can be customized for both functionality and user interface.
 
 Depending on your requirement and outcome, you can customize the chat widget using one of the following options:

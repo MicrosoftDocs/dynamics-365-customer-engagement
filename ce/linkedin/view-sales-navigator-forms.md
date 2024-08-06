@@ -83,7 +83,8 @@ With the Account IQ feature, you can stay on top of your accounts with AI-genera
 
 Learn more about the Account IQ feature in [LinkedIn Sales Navigator documentation](https://www.linkedin.com/help/sales-navigator/answer/a6270076).
 
-## See also
+
+## Related information
 
 [Overview for LinkedIn Sales Navigator solutions](integrate-sales-navigator.md)     
 [Install and configure LinkedIn Sales Navigator Controls](install-sales-navigator.md)   

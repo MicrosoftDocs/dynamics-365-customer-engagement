@@ -1,7 +1,7 @@
 ---
 title: "Configure a Google's Business Messages channel | MicrosoftDocs"
 description: "Perform the steps mentioned in this article to configure a Google Business Messages channel in Omnichannel for Customer Service."
-ms.date: 05/26/2023
+ms.date: 07/31/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -9,6 +9,9 @@ ms.author: laalexan
 # Configure Google's Business Messages channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> Google's Business Messages channel is deprecated as of July 31, 2024. This article will be removed soon. We recommend that you use the web channel instead. For details about the deprecation and related dates, see the [Customer Service deprecation article](../implement/deprecations-customer-service.md#googles-business-messages-channel-is-deprecated-and-removed-as-of-july-2024).
 
 Many customers use social messaging channels like Google's Business Messages for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365, where the session ends when the chat window is closed.
 
@@ -38,21 +41,11 @@ Complete the following steps before configuring Google's Business Messages chann
 
 ## Create a Google's Business Messages channel
 
-1. Go to one of the admin apps, and perform the following steps.
+1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
 
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
-    
-    1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
-   
-    1. Select **New account**.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-
-    - In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **New account**.
+1. Select **New account**.
 
 1. In the **Name** field, enter the name for the account.
 
@@ -62,7 +55,7 @@ Complete the following steps before configuring Google's Business Messages chann
 
 1. In the **Client token** field, enter the token from Google's Business Messages app. To retrieve the token, in Google's Business Messages app, on the **Settings** page, under **Webhook**, select the **Configure** link. The **Configure your webhook** page is displayed, and then you can copy the token from the **Client token** field.
 
-1. In Omnichannel admin center, on the **Google's Business Messages Partner account** page, next to **Service Account Credentials file (JSON file)**, select **Upload**, and then select the file you downloaded from Google's Business Messages.
+1. In Customer Service admin center, on the **Google's Business Messages Partner account** page, next to **Service Account Credentials file (JSON file)**, select **Upload**, and then select the file you downloaded from Google's Business Messages.
 
    > [!Note]
    > Only users with proper security permissions can use secured fields, such as **Client token** and **Security Credential**. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
@@ -81,16 +74,7 @@ Complete the following steps before configuring Google's Business Messages chann
 
 ## Create a workstream
 
-1. Go to one of the admin apps, and perform the following steps:
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    - In the site map, select **Workstreams** in **Customer support**. The **All Workstreams** page appears.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    - In the site map, select **Workstreams** under **General settings**. The **All workstreams** page appears.
-    
+1. In the site map of Customer Service admin center, select **Workstreams** in **Customer support**. The **All Workstreams** page appears.   
 1. Select **New workstream**, and then enter a name.
 1. In **Type**, select **Messaging**.
 1. In the **Channel** dropdown list, select **Google's Business Messages**.

@@ -1,11 +1,15 @@
 ---
 title: Customize the workspace for sales accelerator
-description: Customize filtering, sorting, and work item appearance in the Dynamics 365 sales accelerator.
-ms.date: 10/19/2022
-ms.topic: article
+description: Learn how to customize the sales accelerator workspace by configuring filters, sorting and work item appearances to meet seller needs.
+ms.date: 06/28/2024
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:06/27/2024
 ---
 
 # Customize the sales accelerator workspace
@@ -24,13 +28,11 @@ Customize the sales accelerator workspace by configuring filters, sorting, and t
 After the [first-run setup of the sales accelerator](enable-configure-sales-accelerator.md#first-run-setup), you can customize the workspace to meet your sellers' needs. For example, if sellers want to filter work items based on currency type for leads, add a filter with the record type **Lead** and the field **Currency**. [Learn how sellers can use custom filters](prioritize-sales-pipeline-through-work-list.md#custom-filters).
 
 1. Sign in to the Sales Hub app. In the lower-left corner of the page, go to **Change area** ![change area.](media/change-area-icon.png) > **Sales Insights settings**.
-
 1. Under **Sales accelerator**, select **Workspace**.
 
     :::image type="content" source="media/sa-setup-page.png" alt-text="Screenshot of the Sales accelerator workspace settings page.":::
 
 1. In the **Customize workspace** section, select **Filtering and sorting**.
-
     The **Filters** page opens. Here you can do the following tasks:
 
     - [Manage filters](#manage-filters)
@@ -222,7 +224,7 @@ You can edit sort types that you created. You can't edit the out-of-the-box sort
 
 You can hide a sort to prevent it from appearing in the sort list. You can't hide the default sort type.
 
-1. In the **Sort** tab, under **Show in workspace**, turn off the sort you want to hide.
+1. In the **Sort** tab, under **Show in workspace** column, turn off the toggle for the sort you want to hide.
 
     :::image type="content" source="media/sa-sort-hide-sort.png" alt-text="Screenshot of hiding a sort.":::  
 
@@ -262,7 +264,7 @@ The work list in the sales accelerator helps sellers to prioritize their time an
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [What is the sales accelerator?](sales-accelerator-intro.md)  
 [Configure the sales accelerator](enable-configure-sales-accelerator.md)  

@@ -1,11 +1,11 @@
 ---
-title: Use the Due open activities control to customize forms | MicrosoftDocs 
-description: Learn about adding Due open activities control to forms
+title: Use the Due open activities control to customize forms
+description: Learn about adding Due open activities control to forms.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 05/03/2023 
+ms.date: 06/10/2024 
 ms.custom: bap-template 
 ---
 

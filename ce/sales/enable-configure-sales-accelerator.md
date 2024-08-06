@@ -1,7 +1,7 @@
 ---
 title: Configure the sales accelerator
 description: Configure the sales accelerator to create sequences and connect records, and view daily work list items.
-ms.date: 03/15/2024
+ms.date: 06/17/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -82,7 +82,9 @@ Enable the sales accelerator by quickly providing access to security roles and s
 
     :::image type="content" source="media/sa-choose-content-layout.png" alt-text="Screenshot of choosing content layout.":::
 
-    1. To add a record type, select **Add record type**, and then select the dropdown list to choose the records that you want to add. 
+    1. To add a record type, select **Add record type**, and then select the dropdown list to choose the records that you want to add.
+        >[!NOTE]
+        >The record types (entities) that are organization-owned are not supported.
 
     1. From the dropdown list, choose a form to which you want to add the Sequence (up next) widget. Sales managers use the record types to configure the sequence that will be assigned to records to be displayed in the app.  
 
@@ -119,7 +121,7 @@ To configure the sales accelerator, go to [First-run setup](#first-run-set-up).
 
 By default, the **Up next** widget is displayed on the **Default Main** and **Sales Insight** forms. To add the **Up next** widget to other forms, follow the process specified in [How do I add the Up next widget to an entity form?](faq-sales-accelerator.md)
 
-[Learn more about how to add sales accelerator to the site map in your custom app](faq-sales-accelerator.md#how-to-add-sales-accelerator-to-the-site-map-in-your-custom-app).
+[Learn more about how to add sales accelerator to the site map in your custom app](faq-sales-accelerator.md#how-do-i-add-the-sales-accelerator-site-map-to-my-custom-app).
 
 ## Add sales accelerator site map entry to custom app
 
@@ -135,7 +137,7 @@ Use the following URLs to add the sale accelerator site map to your custom app a
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [What is the sales accelerator?](sales-accelerator-intro.md)     
 [Create and manage sequences](create-manage-sequences.md)     

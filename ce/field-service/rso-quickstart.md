@@ -1,259 +1,168 @@
 ---
-title: "Quickstart for Resource Scheduling Optimization (contains video) | MicrosoftDocs"
-description: Learn how to get up and running quickly with Resource Scheduling Optimization
-ms.date: 08/22/2019
-
+title: Get started with the Resource Scheduling Optimization Add-in
+description: Learn how to get up and running quickly with the Resource Scheduling Optimization Add-in for Field Service.
+ms.date: 06/04/2024
 ms.subservice: resource-scheduling-optimization
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: FeifeiQiu
-ms.author: feiqiu
+ms.topic: how-to
+author: AnilMur
+ms.author: anilmur
 ---
 
-# Quickstart for Resource Scheduling Optimization
+# Get started with the Resource Scheduling Optimization Add-in
 
-Resource scheduling optimization automatically schedules work orders, cases, opportunities, and even custom entities to the resources that are most available and best qualified. Many field service organizations that perform work orders on site at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
+The Resource Scheduling Optimization Add-in for Dynamics 365 Field Service automatically schedules work orders to the resources that are most available and best qualified. Many field service organizations that perform work orders at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
 
-In this quickstart, we will configure Resource Scheduling Optimization to schedule and optimize a group of work orders to a predefined list of resources (field technicians). We will do this by setting up a scope, goal, and schedule that will run once a day to schedule work orders in the Washington state service territory to resources in that territory up to 48 hours in advance to minimize travel time. 
-
-For a guided walkthrough, see the following video.
+This article guides you through configuration of Resource Scheduling Optimization to schedule and optimize a group of work orders to a predefined list of resources. You're going to set up a scope, goal, and schedule to assign work orders to resources in a territory to minimize travel time.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylx7]
 
-> [!Note]
-> For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
+For more Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
 
 ## Prerequisites
 
-- The images and definitions in this quickstart reflect **Field Service v8.7** and **Resource Scheduling Optimization v3.0**.
+- Resource Scheduling Optimization is already [deployed to your Field Service environment](rso-deployment.md).
 
-- This quickstart assumes you already have Resource Scheduling Optimization deployed into your Field Service environment. You can do this by first purchasing a Field Service license and then purchasing a Resource Scheduling Optimization license in the "Purchase Services" section of Microsoft 365. For more details, visit the article on [Deployment of the Resource Scheduling Optimization solution](rso-deployment.md).
+- You need **Field Service-Administrator** and **Resource Scheduling Optimization** security roles and the **Field Service-Administrator** and **Resource Scheduling Optimization-Administrator** field security profiles. For more information, see [Resource Scheduling Optimization configuration](./rso-configuration.md).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Resource Scheduling Optimization app.](media/rso-quickstart-app.png)
+- Resource Scheduling Optimization uses [Universal Resource Scheduling](universal-resource-scheduling-for-field-service.md) to schedule field service work orders.
 
-- Make sure the person who sets up Resource Scheduling Optimization has the **Field Service-Administrator** and **Resource Scheduling Optimization** security roles and the **Field Service-Administrator** and **Resource Scheduling Optimization-Administrator** field security profiles. For more information, see: [Resource scheduling optimization configuration](./rso-configuration.md).
+## Glossary
 
-- Resource scheduling optimization works with Universal Resource Scheduling to schedule field service work orders. A working knowledge of how Universal Resource Scheduling works will help with this quickstart. For more details, view the article on [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md).
-- 
-## Step 1: Turn on Resource Scheduling Optimization
+You'll need to know the following key terms:
 
-After deploying Resource Scheduling Optimization into your environment, you must enable it. 
+- **Jobs**: Work that needs to be completed like work orders, cases, or projects.
+- **Resources**: Anyone or anything that needs to be scheduled to a job including people, equipment, and facilities.
+- **Schedules, bookings**: Schedules and bookings are used interchangeably and refer to the appointment time slot when a resource is assigned to a job.
+- **Requirements**: The entity related to a job that defines what type of resource is needed to complete the work and gets scheduled.
+- **Run**: The process when Resource Scheduling Optimization performs its scheduling and optimization functions.
+- **Optimize**: Attempt to find the best schedules to reduce travel time and maximize usage.
+- **Scope**: The jobs and resources that Resource Scheduling Optimization considers for optimization.
+- **Goal**: Defines the ideal outcome of a run. For example, minimize travel time, maximize usage, handle high-priority jobs, or schedule jobs as soon as possible. Multiple goals are ranked because sometimes there are trade-offs.
 
-Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameters** > **Resource Scheduling Optimization tab**
+## Step 1: Enable Resource Scheduling Optimization
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a scheduling parameter on the Resource Scheduling Optimization tab.](./media/rso-quickstart-enable.png)
+After deploying Resource Scheduling Optimization into your environment, enable the add-in.
 
-Set **Enable Resource Scheduling Optimization** to **Yes**.
+1. Open **Resource Scheduling** and change to the **Settings** area.
+1. Go to **Administration** > **Scheduling Parameters** > **Resource Scheduling Optimization**.
+1. Set **Enable Resource Scheduling Optimization** to **Yes**.
+1. Select a **Default Goal**.
 
-Select a **Default Goal**. Among other uses, a default goal tells Resource Scheduling Optimization what to prioritize by default (such as maximizing working hours) and is important for using [Single Resource Optimization](rso-single-resource-optimization.md). If no default goal is present, select **+New** and create one. See the following screenshot for some recommended settings.
+   Among other uses, a default goal tells Resource Scheduling Optimization what to prioritize by default and it's relevant for [single resource optimization](rso-single-resource-optimization.md). If no default goal exists, [create an optimization goal](rso-optimization-goal.md).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of default goal deployed with Resource Scheduling Optimization.](media/rso-default-goal-2.png)
+## Step 2: Verify booking statuses
 
-## Step 2: Verify Booking Statuses
+Field Service uses [booking statuses](set-up-booking-statuses.md), and Resource Scheduling Optimization adds the scheduling methods **Ignore**, **Do Not Move**, or **Optimize** and maps them to the booking statuses. Make sure the highlighted booking statuses match your system.  
 
-Installing Field Service will import booking statuses, and installing Resource Scheduling Optimization will add the scheduling methods **Ignore**, **Do Not Move**, or **Optimize** to those booking statuses. Make sure the highlighted booking statuses match your system.  
+:::image type="content" source="media/rso-quickstart-booking-statuses.png" alt-text="Screenshot of a list of booking statuses mapped to Resource Scheduling Optimization statuses.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of active booking statuses.](media/rso-quickstart-booking-statuses.png)
-
-If they do not match, make sure Resource Scheduling Optimization is finished installing. If it is finished, try resetting Resource Scheduling Optimization by going to **Resource Scheduling Optimization** > **Optimization Schedules** > and selecting **Reset** in the top ribbon.
+If they don't match, go to **Resource Scheduling Optimization** > **Optimization Schedules** > and select **Reset**.
 
 ## Step 3: Set work orders to optimize
 
-Next, create a system view that filters resource requirements to the ones you want to optimize. 
+In this step, you choose which work orders to optimize.
 
-Create a new view in **Settings** > **Customizations**
+1. Go to **Resource Scheduling** > **Resource Requirements** and select the records to optimize. Select **Edit** to change them in bulk.
 
-For our quickstart scenario, create a new view for the **Resource Requirement** entity for requirements related to work orders in the Washington (WA) service territory.
+   :::image type="content" source="media/rso-quickstart-requirement-view-bulk-edit.png" alt-text="Screenshot of a list of work order requirements.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the edit filter criteria settings.](./media/rso-quickstart-requirement-view.png)
+1. Set the **Scheduling Method** to **Optimize**.
 
-Next, ensure the requirements in that view are eligible for optimization.
+> [!TIP]
+> - The system can [automatically set work order requirements to be optimized](rso-configuration.md) when you create a work order in the **Booking Setup Metadata** settings.
+> - You also can change the optimization method individually for a resource requirement record on the **Resource Scheduling Optimization** tab.
 
-Go to **Resource Scheduling** > **Resource Requirements** and select the view you just created; highlight and edit those records.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of work order requirements.](./media/rso-quickstart-requirement-view-select.png)
-
-Set the **Scheduling Method** to **Optimize**. This means that if Resource Scheduling Optimization runs and targets this requirement, it can be scheduled automatically. This field also allows you to add workflows and business processes to which requirements can be automatically scheduled.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling method set to "optimize."](./media/rso-quickstart-requirement-view-bulk-edit.png)
-
-This can also be done individually for each requirement record.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the resource requirement entity, showing the scheduling method set to optimize.](./media/rso-quickstart-requirement-view-single-edit.png)
-
-Additionally, you can have the system automatically set work order requirements to be optimized by default when a work order requirement is created in **Booking Setup Metadata**. 
-
-Go to **Resource Scheduling** > **Settings** > **Administration** > **Enable Resource Scheduling for Entities**
-
-Then double-click on **Work Order** and set **Default Scheduling Method** to **Optimize**.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the default scheduling method set to optimize.](./media/rso-quickstart-bsm.png)
-
-
-## Step 4:  Set resources as eligible for optimization 
-
-So at this point you have a set of work orders in the Washington territory that need to be scheduled in an optimal way. But who could or should they be scheduled to?
+## Step 4: Set resources as eligible for optimization
 
 Let's define the resources that are eligible for optimization.
 
-To fulfill our scenario, we want to create a view of **Bookable Resources** that are part of the Washington (WA) state service territory. 
+1. In the **Resources** list, choose the resources that you want to enable and select **Edit**.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the edit filter criteria window.](./media/rso-quickstart-resource-view.png)
-
-After the view is created to partition the bookable resources that will later be fed into Resource Scheduling Optimization, make sure they are marked as eligible for optimization.
-
-For each resource in your view, set the **Optimize Schedule** field to **Yes**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of bookable resources.](./media/rso-quickstart-resource-list.png)
+1. Set the **Optimize Schedule** field to **Yes**.
 
 Similar to requirements, this can be done individually or with a bulk edit.
 
+:::image type="content" source="media/rso-quickstart-resource-field.png" alt-text="Screenshot of a bookable resource entity with Optimize schedule set to yes.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a bookable resource entity with "Optimize schedule" set to yes](./media/rso-quickstart-resource-field.png)
+## Step 5: Create an optimization scope
 
+In the following steps, we set up a Resource Scheduling Optimization run and start with an [optimization scope](rso-optimization-scope.md).
 
-## Step 5: Create scope
+1. In the list of apps, select **Resource Scheduling Optimization**.
 
-Now that we have enabled Resource Scheduling Optimization, and have:
+1. Go to **Optimization Scopes** and select **New**.
 
-1. A list of the requirements (work orders) we want to optimize 
-2. A list of the resources that the requirements should be scheduled to 
+1. Enter a **Name** and choose a **Resource View** and a **Requirement View** for the optimization scope.
 
-You now need to set up a Resource Scheduling Optimization run and input both of these lists.
+1. In the **Bookings for the Optimization** section, select the **Active Bookable Resource Bookings** view or a similar view for bookings.
 
-Go to the **Resource Scheduling Optimization app**, which is a separate app from the Field Service and Universal Resource Scheduling apps. 
+    > [!NOTE]
+    > By entering a view for unscheduled requirements *and* bookings, we are configuring Resource Scheduling Optimization to optimize both unscheduled and scheduled jobs. If you only select a booking view, then Resource Scheduling Optimization will only optimize existing bookings and you must schedule the unscheduled jobs manually or with the schedule assistant. By only selecting an unscheduled requirement view, Resource Scheduling Optimization will not move existing bookings and simply attempt to schedule the unscheduled jobs to available time slots.
 
-Choose **Optimization Scopes** in the left pane then **+New**.
+1. For **Optimization Range Settings**, enter the following values:
 
-Enter a **Name** that describes the requirements and resources you are optimizing.
+   - **Range Reference**: Job Current Time
 
-In the **Resources and Unscheduled Requirements for this Optimization** section, select the **Resource View** and the **Requirement View** you created in the previous steps.
+   - **Range Offset**: This value defines when the first booking after running the optimization can start. Some organizations prefer to schedule jobs starting tomorrow, in which case you'd set it to one day.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling optimization scope.](./media/rso-quickstart-scope.png)
+   - **Range Duration**: This value defines how far into the future the add-in schedules requirements.
 
-In the **Bookings for the Optimization** section, select the **Active Bookable Resource Bookings** view or a similar view for bookings.
+:::image type="content" source="media/rso-quickstart-scope.png" alt-text="Screenshot of an optimization scope.":::
 
-> [!Note]
-> By entering a view for unscheduled requirements *and* bookings, we are configuring Resource Scheduling Optimization to optimize both unscheduled jobs and scheduled jobs. If you only select a booking view, then Resource Scheduling Optimization will only optimize existing bookings and you must schedule the unscheduled jobs manually or with the schedule assistant. By only selecting an unscheduled requirement view, Resource Scheduling Optimization will not move existing bookings and simply attempt to schedule the unscheduled jobs to available time slots.
+## Step 6: Create a goal
 
-For **Optimization Range Settings**, enter the following values:
+Now we need to create an [optimization goal](rso-optimization-goal.md) for the Resource Scheduling Optimization run.
 
-- **Range Reference**: Job Current Time 
+1. Go to **Optimization Goals** and select **New**.
 
-- **Range Offset**: 5 minutes. This means the first booking Resource Scheduling Optimization can schedule will be five minutes after the time Resource Scheduling Optimization is run. Some organizations would like Resource Scheduling Optimization to schedule jobs starting tomorrow, in which case the **Range Offset** should be set to 1 day.
+1. Set the **Engine Effort Level** for this proof of concept to **Very Light**, which means that the system completes the run quickly in exchange for accuracy.
 
-- **Range Duration**: 2 days. This means Resource Scheduling Optimization will schedule requirements to fill up a maximum of two days. 
+1. Select constraints, for example:
 
-Then **Save**.
+    - **Schedule Within Working Hours** if you have working hours defined.
+    - **Meets Required Characteristics** if your requirements and resources both have characteristics.
+    - **Matches Territory** if your requirements and resources both belong to the same service territory.
 
-## Step 6: Create goal
+   Start with fewer constraints and add more as you successfully run Resource Scheduling Optimization. This makes it easier to troubleshoot if Resource Scheduling Optimization produces unexpected results.
 
-Now we need to create goals or objectives for the Resource Scheduling Optimization run.
+1. For objectives, select the following order:
 
-Choose **Optimization Goals** in the left pane, then **+New**.
+    1. **Maximize Total Working Hours**
+    2. **Minimize Total Travel Time**
+    3. **Best Matching Skill Level**
 
-Enter a **Name** that describes the goal.
+## Step 7: Create a schedule
 
-For **Engine Effort Level**, select **Very Light**, meaning Resource Scheduling Optimization will run quickly but may not find the most optimal solution. 
+The last configuration step is to combine your scope and goal into a schedule.
 
-For constraints, select the following:
+1. Go to **Optimization Schedules** and select **New**.
 
-- **Schedule Within Working Hours**
-- **Meets Required Characteristics** (if your requirements and resources both have characteristics)
-- **Matches Territory** (if your requirements and resources both belong to the same service territory - in our example, Washington state (WA))
+1. Choose the **Scope** and **Goal** you created.
 
-> [!Note]
-> Start with fewer constraints and add more as you successfully run Resource Scheduling Optimization. This makes it easier to troubleshoot if Resource Scheduling Optimization produces unexpected results (or none at all).
+1. Set **Timer** for how often Resource Scheduling Optimization checks if it should run based on the time filter setting.
 
-For objectives, select the following order:
+1. Enter **Valid From** and **Valid To** dates. If you plan to run Resource Scheduling Optimization manually, enter dates in the past.
 
-1. **Maximize Total Working Hours**
-2. **Minimize Total Travel Time**
-3. **Best Matching Skill Level**
+1. On the **Filter** section, enter the time it should run.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a scheduling optimization goal.](./media/rso-quickstart-goal.png)
-
-> [!Note]
-> **Minimize Total Travel Time** **cannot** be the first objective
-
-As usual, don't forget to **Save**!
-
-## Step 7: Create schedule
-
-The last configuration step is to combine your scope and goal into a schedule. 
-
-Go to **Optimization Schedules** in the left pane, then **+New**.
-
-Enter a **Name** that will define your schedule, such as "Overnight Schedule."
-
-Select a lookup to the **Scope** and **Goal** you created.
-
-Set **Timer** to 1 hour. This represents how often Resource Scheduling Optimization will check if it should run based on the time this schedule is published.
-
-Enter **Valid From** and **Valid To** dates. 
-
-If you plan to run Resource Scheduling Optimization manually, enter dates in the past. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the optimization schedule.](./media/rso-quickstart-schedule.png)
-
-Next, the **Filter** section. If you want Resource Scheduling Optimization to run every night, enter the date range during which you want it to run nightly. Also enter the time of night (and specify time zone) it should run. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the optimizaiton schedule on the filter tab.](./media/rso-quickstart-time-filter.png)
-
-Every hour (based on the timer value previously set), Resource Scheduling Optimization will check the filter values to see if it should run. In this example, every hour Resource Scheduling Optimization will check to see if it should run, but only in the 12th hour of the morning (AM) will it actually run.
-
-It is important to consider both timer and filter values when configuring Resource Scheduling Optimization schedules.
-
-Finally, **Save and Publish**.
+1. **Save and Publish** the schedule.
 
 ## Step 8: Run Resource Scheduling Optimization
 
-Finally, after the schedule is **Published**, test Resource Scheduling Optimization by selecting **Run Now** in the ribbon.
+You can manually run Resource Scheduling Optimization by selecting **Run Now** on the optimization schedule.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the optimization schedule, highlighting the status as published, and the list of scheduling optimization requests.](./media/rso-quickstart-request.png)
-
-Every time Resource Scheduling Optimization runs, either successfully or not, an optimization request record is created.
+Every time Resource Scheduling Optimization runs, successfully or not, an optimization request record is created.
 
 ## Step 9: Analyze results
 
-Once the **Optimization Request** status is **Completed**, go to the schedule board to see the optimized board.
+Once the **Optimization Request** status is **Completed**, [go to the schedule board](work-with-schedule-board.md) to see the optimized board.
 
-A new schedule board tab named after your scope appears, and yellow bars indicate the beginning and ending time ranges of the optimization, in our case 2 days from the time Resource Scheduling Optimization is run.
+The system creates a new schedule board tab named after your optimization scope.
 
+A simple example of Resource Scheduling Optimization optimizing travel time is when there's no travel time between two bookings. This means there were two work orders at the same location with the same service account and Resource Scheduling Optimization scheduled them back-to-back.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board.](./media/rso-quickstart-optimized-board.png)
+On the completed scheduling optimization request in the **Bookings** tab, you'll find a list of bookings created or deleted, and a graph of the total travel time and working time of the optimized bookings.
 
-A simple example of Resource Scheduling Optimization optimizing travel time is when there is no travel time between two bookings. This means there were two work orders at the same location with the same service account and Resource Scheduling Optimization scheduled them back-to-back.
-
-Back on the completed scheduling optimization request in the **Bookings** tab, you will see a list of bookings created or deleted, and a graph of the total travel time and working time of the optimized bookings.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the list of bookings.](./media/rso-quickstart-graph.png)
-
-Congratulations! You have successfully run Resource Scheduling Optimization!
+Congratulations! You have successfully run Resource Scheduling Optimization.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
