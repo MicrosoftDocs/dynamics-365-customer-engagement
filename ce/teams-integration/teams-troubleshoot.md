@@ -276,7 +276,7 @@ Rich text fields aren't supported in adaptive cards and won't render correctly i
 
 ### Limitations of Dynamics 365 app in Microsoft Teams
 
-Due to recent security changes in the PowerApps framework, which hosts Teams apps, there are a few limitations for the Dynamics 365 app in Teams. These specific limitations may impact the Dynamics 365 app in Teams, as outlined below.
+Due to recent security changes in the Power Apps framework, which hosts Teams apps, the Dynamics 365 app in Teams has the following limitations:
 
 - Loss of state
     - If you are working in an app and switch to another Teams experience, such as a chat or a channel, your previous state will be lost when you return to the app, and the app will be reloaded.
