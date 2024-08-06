@@ -118,22 +118,22 @@ Based on the messaging infrastructure you have configured, follow the appropriat
       1. In the Event Subscription page > **Endpoint** select **Change** for the endpoint and add the **WhatsApp inbound URL** that you copied from the Callback information page in the WhatsApp channel setup.
 
       
- ### [Twilio](#tab/twilio)
+  ### [Twilio](#tab/twilio)
     
-   1. On the **Account details** page, specify the following:
-    - **Account SID:** Specify the value from your Twilio account.
-    - **Authentication token:** Specify the value from your Twilio account.
-   2. On the **WhatsApp channel ID** page, select **Add**, and on the page that appears, enter the following information:
-    - **Name:** Specify a name.
-    - **Number:** Specify the WhatsApp phone number by prefixing the plus (+) symbol.
-   3. On the **Callback information** page, copy the value in the **Twilio inbound URL** box to use for the Twilio account. 
-   1. Select **Done**. The account is added to the list.
+    1. On the **Account details** page, specify the following:
+     - **Account SID:** Specify the value from your Twilio account.
+     - **Authentication token:** Specify the value from your Twilio account.
+    2. On the **WhatsApp channel ID** page, select **Add**, and on the page that appears, enter the following information:
+     - **Name:** Specify a name.
+     - **Number:** Specify the WhatsApp phone number by prefixing the plus (+) symbol.
+    3. On the **Callback information** page, copy the value in the **Twilio inbound URL** box to use for the Twilio account. 
+    1. Select **Done**. The account is added to the list.
    
-   **Integrate a Twilio sandbox account**
+    **Integrate a Twilio sandbox account**
 
-   1. In Twilio, go to the **Programmable SMS** > **Programmable Messaging** > **WhatsApp sandbox**.
-   2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated and save the changes.
-   3. To test the WhatsApp channel with the Twilio sandbox, you can send a WhatsApp message to the number provided by Twilio with a unique code that is also provided by Twilio. You can also use the sandbox message template provided by Twilio to test sending messages outside of the 24-hour window.
+    1. In Twilio, go to the **Programmable SMS** > **Programmable Messaging** > **WhatsApp sandbox**.
+    2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated and save the changes.
+    3. To test the WhatsApp channel with the Twilio sandbox, you can send a WhatsApp message to the number provided by Twilio with a unique code that is also provided by Twilio. You can also use the sandbox message template provided by Twilio to test sending messages outside of the 24-hour window.
     
 ---
 
