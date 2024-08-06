@@ -15,6 +15,12 @@ Wondering about upcoming and recently released capabilities in Dynamics 365 Sale
 
 This article summarizes early access, public preview, and general availability features that were released in the last three months. The monthly release sections contain only those features that were deployed in all regions in that month. For example, if your Dynamics 365 org is in Canada, you'll receive the feature updates a few weeks earlier than the orgs in North America but the monthly release section will list that feature only after it's deployed in North America. For more information about the release schedule, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales#latest-version-availability).  
 
+## July 2024 release
+| Feature area       | Feature                                      | Description                                                                 | Resources     | Turned on | Availability |
+|--------------------|----------------------------------------------|-----------------------------------------------------------------------------|---------------|-----------|--------------|
+| Copilot            | Account summary                              | Get a 360-degree view of your account, along with opportunities and leads in the pipeline for the account. | [Documentation](copilot-get-information#summarize-an-account) | By admin  | EA           |
+| Seller experiences | Analyze opportunities with grouping and aggregating | Analyze your pipeline better by grouping and aggregating data in the pipeline view. | [Documentation](use-opportunity-pipeline-view#group-and-aggregate-opportunities) | By admin  | EA           |
+
 ## June 2024 release
 
 | Feature area | Feature | Description | Resources | Turned on | Availability |
