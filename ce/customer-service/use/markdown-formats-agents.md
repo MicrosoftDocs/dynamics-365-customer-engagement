@@ -40,6 +40,9 @@ The following table lists the Markdown formats that you can use for your chat me
 > [!NOTE]
 > Currently, we don't support the **<Shift + Enter>** key combination to add multiple line breaks.
 
+> [!NOTE]
+> Copying a formatted content from an external source may not persist in the chat as a markdown.
+
 Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, Facebook, Telegram, and custom channels that use Direct Line.
 
 ## Next steps
