@@ -75,7 +75,15 @@ If no company account is associated with a person's profile, there's no company 
 2. Select **Search**.
 2. Review the suggested match and select **Match** to associate it with the related account.
 
-### See also
+## Get AI-generated account insights
+
+With the Account IQ feature, you can stay on top of your accounts with AI-generated insights. Understand your customers strategic priorities, challenges, financials, and what their employees are talking about on LinkedIn. 
+
+:::image type="content" source="media/account-iq.png" alt-text="Screenshot of the Account IQ in Sales Navigator.":::
+
+Learn more about the Account IQ feature in [LinkedIn Sales Navigator documentation](https://www.linkedin.com/help/sales-navigator/answer/a6270076).
+
+## See also
 
 [Overview for LinkedIn Sales Navigator solutions](integrate-sales-navigator.md)     
 [Install and configure LinkedIn Sales Navigator Controls](install-sales-navigator.md)   
