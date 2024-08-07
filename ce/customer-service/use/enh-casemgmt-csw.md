@@ -90,7 +90,9 @@ Depending on the settings that are enabled for you, either the enhanced full cas
    If your administrator hasn't opted in for early access, you'll see the following when you create a new case in the **Case** page. The following image shows the default main form.
 
    :::image type="content" source="../media/def-case-maincas-mini.png" alt-text="Screenshot of the default main case form" lightbox="../media/def-case-maincase.png":::
-   ---
+
+ ---
+
 
 ## View an existing case by using the enhanced full case form
 
