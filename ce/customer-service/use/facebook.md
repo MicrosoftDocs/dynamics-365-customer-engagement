@@ -5,16 +5,15 @@ author: neeranelli
 ms.author: nenellim
 ms.collection: get-started
 ms.topic: article
-ms.date: 03/12/2024
+ms.date: 08/02/2024
 ---
 
 # Use the Facebook channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-## Facebook channel overview
 
-When you sign in to Omnichannel for Customer Service, you can see your work items in Omnichannel Agent Dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
+When you sign in, your work items are available in the agent dashboard. To learn more, go to [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 
 ## Prerequisite
 
@@ -22,12 +21,12 @@ Make sure your administrator has configured a Facebook channel.
 
 ### Incoming Facebook notification
 
-You receive a notification when a customer requests a Facebook conversation. When you accept the Facebook request, a session starts and you can see the communication panel in which you can exchange messages with the customer.
+You receive a notification when a customer requests a Facebook conversation. When you accept the Facebook request, a session starts and the communication panel in which you can exchange messages with the customer is displayed.
 
 > [!div class=mx-imgBorder]
 > ![Facebook chat agent notification.](../media/fb-agent-notif.png "Facebook chat agent notification")
 
-In Omnichannel for Customer Service, you can:
+In the application, you can:
 
 - [View customer information on Active Conversation form](oc-customer-summary.md)
 - [View communication panel](oc-conversation-control.md)
@@ -50,16 +49,20 @@ In Omnichannel for Customer Service, you can:
 - [View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Search for transcripts](oc-search-transcipts.md)
 
+## Privacy notice
+
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+
 ## Send and receive file attachments
 
 You can send file attachments to customers during a Facebook channel conversation. Before you send a file, make sure you understand the file size limit and file extension types set by your administrator. 
 
-You can see the files that you receive from a customer on the communication panel. To view the file, select it and save it to your computer. The file name you see on an image that the customer sends might not reflect the actual file name, but a randomly generated number.
+The communication panel displays the files that you receive from a customer. To view the file, select it and save it to your computer. The file name you see on an image that the customer sends might not reflect the actual file name, but a randomly generated number.
 
    > [!div class=mx-imgBorder]
    > ![Facebook attachment.](../media/fb-receive-file1.png "Facebook attachment")
 
-If a customer sends an unsupported file extension type, you'll see an error message in the communication panel: **Error: Customer sent an unsupported message type**.
+If a customer sends an unsupported file extension type, the following error message appears in the communication panel: **Error: Customer sent an unsupported message type**.
 
 ### Send a file
 
@@ -74,13 +77,10 @@ To send a file, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Send a file.](../media/fb-attach.png "Send a file")
 
-To learn more about the Facebook channel setup, see [Configure a Facebook channel](../administer/configure-facebook-channel.md).
+To learn more about the Facebook channel setup, go to [Configure a Facebook channel](../administer/configure-facebook-channel.md).
 
-## Privacy notice
 
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
-
-### See also
+### Related information
 
 [Configure a Facebook channel](../administer/configure-facebook-channel.md)  
 

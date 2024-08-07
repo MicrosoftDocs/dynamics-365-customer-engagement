@@ -9,6 +9,9 @@ ms.author: mgandham
 
 # Queue dashboard
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
  
 > [!div class="mx-imgBorder"]

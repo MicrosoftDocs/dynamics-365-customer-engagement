@@ -16,6 +16,8 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 ---
 
 # Introduction to knowledge analytics
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 Knowledge analytics helps provide knowledge workers and supervisors with valuable insights about how knowledge articles are being used and searched. Supervisors can use these insights to improve their knowledge management system.
 

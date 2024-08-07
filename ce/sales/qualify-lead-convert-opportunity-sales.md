@@ -80,7 +80,7 @@ To disqualify, select the lead, and on the command bar, select  **Disqualify**.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
-### See also  
+## Related information  
 [Define lead qualification experience](define-lead-qualification-experience.md)  
 [Print quote, invoice, or other records](print-records.md)         
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  

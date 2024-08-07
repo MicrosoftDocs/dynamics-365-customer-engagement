@@ -103,7 +103,7 @@ To be able to configure SharePoint, you must have:
     > [!IMPORTANT]
     > If issues persist, follow the instructions in [Set up Dynamics 365 apps to use SharePoint Online](/dynamics365/customer-engagement/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
-### See also
+## Related information
 
 [Collaborate using SharePoint](collaborate-using-sharepoint-sales.md)
 

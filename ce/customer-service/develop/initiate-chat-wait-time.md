@@ -8,7 +8,6 @@ ms.author: nenellim
 ---
 # Start a chat
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Follow these steps to start a chat:
 

@@ -10,7 +10,7 @@ ms.author: mgandham
 
 # Conversation Topics dashboard
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 

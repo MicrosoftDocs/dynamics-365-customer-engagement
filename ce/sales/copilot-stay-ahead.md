@@ -67,8 +67,9 @@ To be included in the list, emails must meet the following criteria:
 
 :::image type="content" source="media/copilot-email-reminder.png" alt-text="Screenshot of a list of unanswered emails in the Copilot chat pane.":::
 
-### See also
+## Related information
 
 - [Copilot overview](copilot-overview.md)
+- [Copilot prompt guide reference](copilot-prompt-guide.md)
 - [Enable and set up Copilot](enable-setup-copilot.md)
-- [Chat with Copilot in natural language (preview)](use-sales-copilot.md#chat-with-copilot-in-natural-language-preview)
+- [Chat with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL)

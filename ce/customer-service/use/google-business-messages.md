@@ -1,16 +1,17 @@
 ---
 title: "Use Google's Business Messages channel | MicrosoftDocs"
 description: "Perform the steps in this article to use Google's Business Messages channel in Omnichannel for Customer Service."
-ms.date: 07/18/2022
+ms.date: 06/06/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
 ---
 # Use Google's Business Messages channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+> [!IMPORTANT]
+> Google's Business Messages channel is deprecated as of July 31, 2024. This article will be removed soon. We recommend that you use the web channel instead. For details about the deprecation and related dates, see the [Customer Service deprecation article](../implement/deprecations-customer-service.md#googles-business-messages-channel-is-deprecated-and-removed-as-of-july-2024).
 
-When you sign in to Customer Service workspace or Omnichannel for Customer Service, you can see your work items in the Omnichannel Agent Dashboard. To learn more, see View agent dashboard and agent conversations (work items).
+When you sign in to the application, you can see your work items in the Omnichannel Agent Dashboard. To learn more, see View agent dashboard and agent conversations (work items).
 
 ## Prerequisites
 

@@ -1,12 +1,14 @@
 ---
-title: Create and manage queues for cases | MicrosoftDocs
-description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
-ms.date: 08/31/2023
-ms.topic: article
+title: Create and manage basic queues for cases
+description: Learn how to set up basic queues to manage activities and cases in Dynamics 365 Customer Service.
+ms.date: 06/21/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.custom: 
   - dyn365-customerservice
+  - bap-template
 search.audienceType: 
   - admin
   - customizer
@@ -20,7 +22,7 @@ searchScope:
   - Customer Service
 ---
 
-# Create and manage queues for cases
+# Create and manage basic queues for cases
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
@@ -28,11 +30,11 @@ searchScope:
 
 In Dynamics 365 Customer Service, *queues* are containers used to store anything that needs to be completed or requires an action such as completing a task or closing a case. Queues help you to organize, prioritize, and monitor the progress of your work. 
 
-Queues can be useful in:
+Queues can be used to:
   
-- Having a centralized list of pending work that needs attention.  
+- Centralize a list of pending work that needs attention.
   
-- Sorting tasks by type, or by people assigned to complete them.  
+- Sort tasks by type, or by people assigned to complete them.
   
 ## Types of queues
 
@@ -71,23 +73,13 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 
 ## Create a queue
 
-1. Go to one of the admin apps, and perform the following steps:
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-        
-    1. In the site map, select **Queues** in **Customer support**.
+1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
     
-    1. On the **Queues** page, select **Manage** for **Basic queues**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    1. Go to **Service Management**, and then select **Queues** in **Case Settings**.
+1. On the **Queues** page, select **Manage** for **Basic queues**.
   
-2. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then select **Edit** on the command bar.  
+1. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then select **Edit** on the command bar.  
   
-3. Enter the following information in the **Summary** tab:
+1. Enter the following information in the **Summary** tab:
    - In the **SUMMARY** section, do the following:  
       - **Name**: Enter the name of the queue.  
       - **Type**: Select whether the queue is a private or public queue. 
@@ -99,7 +91,7 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
       - Select a value in the **Convert Incoming Email To Activities** dropdown list to set the type of messages that you want to track as activities.
       - Set the email signature template. This signature is added to the email by default when you send messages from a queue or reply to messages sent to the queue. More information: [Add a default signature for a queue](add-signature-template-queue.md)
   
-4. In the **Omnichannel** section of the **Conflicts Tab**, you can do the following:
+1. In the **Omnichannel** section of the **Conflicts Tab**, you can do the following:
     - Set **Automatic work distribution** to **No** (default option), and then select **Save** to create a basic queue.
     - Set **Automatic work distribution** to **Yes** to enable unified routing, and then select **Save** to create an advanced queue.
 
@@ -118,7 +110,7 @@ After you have saved the queue, the following changes happen in the SUMMARY tab:
 
 To optimize agent efficiency, you can set up custom views that contain a filtered list of queues. These queues are relevant to the type of cases that the agents handle. You can then set the view as the default from which agents can pick a queue or user to route the work items.
 
-1. In the Customer Service admin center app, go to **Customer support** in the site map and select **Queues**.
+1. In the site map of Customer Service admin center, go to **Customer support**, and then select **Queues**.
 
 1. On the page that appears, select **Manage** for **Routing dialogs**.
 
@@ -140,7 +132,7 @@ The **QUEUE ITEMS** section lists all activities that are either routed automati
 
 In the **RECORD CREATION AND UPDATE RULES** section, you can create rules for automatically creating records for cases from incoming emails. More information: [Automatically create or update records](automatically-create-update-records.md)
   
-## Route items to basic queues  
+## Route items to basic queues
 
 For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate agents. More information: [Create rules to automatically route cases](create-rules-automatically-route-cases.md)
 
@@ -200,7 +192,7 @@ To assign items in the queue to agents, select **Assign** after selecting one or
   
 6. [!INCLUDE[proc_click_or_tap_save](../../includes/proc-click-or-tap-save.md)]
 
-### See also  
+### Related information  
 
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Add a case to a queue](../use/customer-service-hub-user-guide-case-queues-and-routing.md)    

@@ -1,14 +1,14 @@
 ---
 title: Create a marketing list using in-app marketing
 description: A marketing list can include any one type of customer record, such as leads, accounts, or contacts. Add members to the list statically or dynamically.
-ms.date: 04/16/2024
+ms.date: 06/20/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.custom: 
-  - "dyn365-sales"
   - bap-template
+  - evergreen
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -49,9 +49,11 @@ You can create two types of marketing lists:
     > [!NOTE]
     >  To look up records in the **Owner** field, first select **Save**, or you'll lose your changes.
 
-4. Select **Save** so you can enter information in other areas of the form.
-5. Select the **Notes** tab to add any other information that applies to your marketing list.
-6. Select **Save**.
+4. In the **Targeted at** field, select the type of record you want to include in the marketing list. You can't change this field after you save the record.
+
+1. Select **Save** so you can enter information in other areas of the form.
+1. Select the **Notes** tab to add any other information that applies to your marketing list.
+1. Select **Save**.
 
 ## Manage members in a static marketing list
 
@@ -112,7 +114,7 @@ This option allows you to remove members from a marketing list in bulk based on 
 
 ### Evaluate using Advanced Find
 
-This option allows you to evaluate which members to keep in the marketing list based on search criteria.
+After you add members to a marketing list, you can evaluate which members to keep in the marketing list based on search criteria. This option is useful when you want to keep only those members who meet certain criteria.
 
 1. Open a marketing list, select the three-dot menu on the command bar.
 2. Select the right arrow next to **Manage Members**, and then select **Evaluate using Advanced Find**.
@@ -126,16 +128,17 @@ This option allows you to evaluate which members to keep in the marketing list b
     
 ## Define the member selection criteria for a dynamic marketing list
 
-1. Open a dynamics marketing list, select the three-dot menu on the command bar, and then select **Manage Members**.
+1. Open a marketing list, select the three-dot menu on the command bar, and then select **Manage Members**.
 2. In the **Manage Dynamic List Members** dialog box, the entity that the marketing list is targeted at is automatically selected.
 3. In the **Use Saved View** drop-down box, select a view for the selected entity, which will be used for filtering.
 4. Select **Add**, and then select **Add row**, to define the search criteria. For example, to find all the contacts in the Seattle city, in the first box select the field as **Address 1: City**. Then, in the second box, select the query relational operator as **Equals**. In the third box, type **Seattle**. You can select fields from the current record type, or from related record types.
 5. Select **Find**.
-6. Select **Use Query** to add the matching records to your dynamic marketing list.
-  
+6. Select **Use Query** to add the matching records to your marketing list.
+   The list of members is updated each time you open or use the list, based on the search criteria you set.
+
 ## Associate campaigns or quick campaigns to a marketing list
 
-After you have created a campaign or quick campaign, you can associate it to your marketing list. You can also create a new campaign or quick campaign from your marketing list.
+After you create a campaign or quick campaign, you can associate it to your marketing list. You can also create a new campaign or quick campaign from your marketing list.
 
 1. In the **Campaigns** or **Quick Campaigns** area, select **New Campaign** or **New Quick Campaign**.
 2. Search for the campaign or quick campaign you want to associate to this marketing list.
@@ -152,7 +155,7 @@ The elements listed in the message are required to populate the members list tha
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Get started with in-app marketing](get-started-app-marketing-sales.md)
 - [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)

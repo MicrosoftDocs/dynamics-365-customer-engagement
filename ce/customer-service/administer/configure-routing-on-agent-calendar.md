@@ -6,17 +6,22 @@ ms.author: nenellim
 ms.reviewer: 
 ms.topic: how-to
 ms.collection: 
-ms.date: 02/23/2024
+ms.date: 05/29/2024
 ms.custom: bap-template
 ---
 
 # Configure routing based on external schedules (preview)
 
-[This article is prerelease documentation and is subject to change.]
-
-Configure assignment rules to route and assign cases and conversations based on agents' shift schedules imported from external workforce management (WFM) systems. By verifying agents' schedules in advance, organizations can avoid routing tasks to off-duty agents, and reduce the risk of delays. You can incorporate shift assignments and time-off considerations into the routing process to foster an employee-centric approach, and streamline operational workflows for productivity and improved retention rates.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+Configure assignment rules to route and assign cases and conversations based on agents' shift schedules imported from external workforce management (WFM) systems. By verifying agents' schedules in advance, organizations can avoid routing tasks to off-duty agents, and reduce the risk of delays. 
+
+You can incorporate shift assignments and time-off considerations into the routing process to foster an employee-centric approach, and streamline operational workflows for productivity and improved retention rates.
+
+> [!Note]
+> Routing based on external schedules isn't supported in the Government Community Cloud (GCC) or sovereign clouds.
 
 ## Prerequisites
 

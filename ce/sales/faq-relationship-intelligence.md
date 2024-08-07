@@ -50,11 +50,11 @@ Office consent isn't mandatory for relationship analytics, health score, and who
 
 ### What happens if I select the Exchange checkbox but the Office 365 admin hasn’t provided the consent?
 
-The data from Exchange isn't collected until the consent is provided. Work with your Office 365 administrator to get the consent. [Learn more about providing consent for collecting Office 365 data](provide-consent-office365.md)
+The data from Exchange isn't collected until consent is provided. Work with your Office 365 administrator to [get consent to collect Office 365 data](provide-consent-office365.md).
 
-### I see that the Exchange checkbox is selected, though I hadn't selected it or provided the required consent for it in the past.
+### Why is the Exchange option selected although I didn't select it or provide the required consent?
 
-With the recent changes to the relationship intelligence feature, the Exchange checkbox is selected by default for all the existing customers. However, no data will be collected from Exchange until your Office 365 administrator provides consent. You can clear the checkbox if you aren’t planning to integrate with Exchange.
+The Exchange option in Relationship intelligence settings is selected by default in some cases. However, no data is collected from Exchange until your Office 365 administrator provides consent. You can clear the option if you aren't planning to integrate with Exchange.
   
 ### Can I influence the relationship health score?​
 
@@ -62,7 +62,9 @@ An administrator can influence the relationship health score by changing the wei
 
 ### How are similar won deals identified? <a name="similar-won-deals-fields"></a> 
  
-AI models identify the factors that affect the identification of similar won deals. The factors may differ from organization to organization based on the custom and out-of-the-box fields. To view the fields that determined the similar won deals at that point in time, select the information icon corresponding to any section heading.
+Dynamics 365 Sales uses AI models to determine the factors that affect the identification of similar won deals. The factors may differ from organization to organization based on custom and out-of-the-box fields.
+
+To view the fields that determine the similar won deals at that point in time, select the information icon corresponding to any section heading and a side pane opens with the field information.
 
 :::image type="content" source="media/faq-sa-about-relationship-analytics-side-pane-fields.png" alt-text="Screenshot of the relationship analytics side pane.":::
 
@@ -72,68 +74,50 @@ AI models identify the factors that affect the identification of similar won dea
 
 If you know that a colleague has interacted with a customer but their information is not shown in Who Knows Whom widget, it could be due to the following reasons:
 
-**Basic insights:**
+**Basic insights:** 
 
-Displays only the top five users who contacted the customer the most through emails and appointments in Dynamics 365. So, colleagues who have contacted through phone calls and those who had fewer interactions through emails and appointments will not be listed.
+Displays the five colleagues who contacted the customer the most through emails and appointments in Dynamics 365. Colleagues who contacted the customer by phone and those who had fewer interactions through emails and appointments aren't listed.
 
 **Enhanced insights:**
 
-- Those colleagues are not a part of your Dynamics 365 organization.
-- Those colleagues are not a part of the security role that's [enabled for relationship intelligence](enable-ri.md).  
-- Those colleagues are a part of the security group that your Office 365 admin has [opted out](provide-consent-office365.md).
+- Those colleagues aren't part of your Dynamics 365 org.
+- Those colleagues aren't part of the security role that's [enabled for relationship intelligence](enable-ri.md).  
+- Those colleagues are part of the security group that your Office 365 admin has [opted out](provide-consent-office365.md).
 - Those colleagues have explicitly [opted out of sharing their data](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
-See also [Which colleagues show up as connections?](#which-colleagues-show-up-as-connections)
+[Which colleagues show up as connections?](#which-colleagues-show-up-as-connections)
 
 ### How long does it take for suggestions to appear?
 
-**Basic insights:**
- 
- Who knows whom suggestions are available out-of-the-box if the email and appointment data is available in Dynamics 365.
+**Basic insights:** Who knows whom suggestions are available out-of-the-box if the email and appointment data is available in Dynamics 365.
 
-**Enhanced insights:**
-
-After your Microsoft 365 admin provides consent, you'll start seeing the results within a day. However, the suggestions may not be complete right away as the data will be processed in batches over a period of four days.  
+**Enhanced insights:** After your Microsoft 365 admin provides consent, you'll start seeing the results within a day. However, the suggestions may not be complete right away because the data is processed in batches over a period of four days.  
 
 ### Which colleagues show up as connections?
 
-**Basic insights:**
+**Basic insights:** Colleagues who have contacted the customer the most through emails and appointments in Dynamics 365.
 
-Users who have contacted the customer the most through emails and appointments in Dynamics 365.
-
-**Enhanced insights:**
-
-Users in your organization who have frequently and recently interacted with the contact or lead show up as connections, unless they have opted out. Administrators have the option to [opt out groups](provide-consent-office365.md) such as C-suite, M&A, finance, and so on. Users can opt out by [turning off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+**Enhanced insights:** Users in your organization who have frequently and recently interacted with the contact or lead show up as connections, unless they have opted out. Administrators have the option to [opt out groups](provide-consent-office365.md) such as C-suite, M&A, finance, and so on. Users can opt out by [turning off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 ### How are the connections weighted?
 
-**Basic insights:**  
-Uses only frequency. The connections are weighted based on the number of interactions through emails and appointments in Dynamics 365. Top five users who have interacted the most with the contact or lead are displayed.  
+**Basic insights:** Uses only frequency. The connections are weighted based on the number of interactions through emails and appointments in Dynamics 365. Top five users who have interacted the most with the contact or lead are displayed.  
 
-**Enhanced insights:**  
-Uses frequency and recency. If your administrator has enabled Exchange integration, the connections are weighted based on recent and frequent interactions through emails or appointments. 
+**Enhanced insights:** Uses frequency and recency. If your administrator has enabled Exchange integration, the connections are weighted based on recent and frequent interactions through emails or appointments. 
 
 Every seller will see the same set of introducers for a contact or lead. 
 
 ### How frequently is the data collected?
 
-**Basic insights:**
+**Basic insights:** Collected in near real-time&mdash;as soon as a related activity is marked as completed in Dynamics 365.  
 
-Collected in near real-time&mdash;as soon as a related activity is marked as completed in Dynamics 365.  
-
-**Enhanced insights:**  ​  
-
-When you enable who knows whom and provide the required consent, Exchange data for the past year is collected and insights are generated based on that data. After this, Exchange data is collected daily and insights are updated based on the latest data.  
+**Enhanced insights:** When you enable who knows whom and provide the required consent, Exchange data for the last year is collected and insights are generated based on that data. After this, Exchange data is collected daily and insights are updated based on the latest data.  
 
 ### What is the source for who knows whom data?
 
-**Basic insights:**
+**Basic insights:** Emails and appointments sent and received in Dynamics 365.
 
-Emails and appointments sent and received in Dynamics 365.
-
-**Enhanced insights**
- ​  
-Emails and meeting information in Exchange Online is the source data. [Learn more about how connections weighted](#how-are-the-connections-weighted)
+**Enhanced insights** Emails and meeting information in Exchange Online is the source data. [Learn more about how connections weighted](#how-are-the-connections-weighted)
 
 ### Where are the insights from Exchange generated?
 
