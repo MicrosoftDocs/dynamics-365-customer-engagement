@@ -1,7 +1,7 @@
 ---
 title: Provision unified routing in Customer Service
 description: Learn how to provision unified routing in Customer Service.
-ms.date: 07/05/2024
+ms.date: 08/07/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -50,13 +50,13 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 1. Select **Consent on behalf of your organization**, and select **Accept**.
 
-1. After access is granted, you can close the page to return to the **Service Configuration Settings** page.
+1. After access is granted, you can close the page to return to the **Manage unified routing** page.
 
 1. Switch the toggle to **Yes** for **Unified routing**.
 
 1. Select **Save**. A message that unified routing provisioning is in process appears.
 
-If the provisioning fails, go to Dynamics 365 Customer Service and Dynamics 365 Contact Center troubleshooting or contact Microsoft Support to help resolve the issue.
+If the provisioning fails, go to [Dynamics 365 Customer Service and Dynamics 365 Contact Center troubleshooting](/troubleshoot/dynamics-365/customer-service/welcome-customer-service) or contact Microsoft Support to help resolve the issue.
 
 ### Provision unified routing in Customer Service with Omnichannel for Customer Service
 
@@ -76,7 +76,7 @@ When Omnichannel for Customer Service doesn't have the required solutions, the f
 ![Next step.](../media/right-arrow.png) [Set up the user as a bookable resource](users-user-profiles.md)  
 ![Home.](../media/home-button.png) [Process for setting up unified routing](set-up-routing-process.md)  
 
-### See also
+### Related information
 
 [Provide consent to access data](../implement/data-access-consent.md)  
 [Set up record routing](set-up-record-routing.md)  

@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for records
 description: Use this article to understand how to set up unified routing for records in Customer Service.
-ms.date: 07/31/2024
+ms.date: 08/07/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,8 +12,6 @@ ms.author: nenellim
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 You can configure unified routing for records in the Customer Service admin center app.
-
-If you have Dynamics 365 Customer Service only, then the options to configure unified routing will be available only after you [enable unified routing](provision-unified-routing.md) in the service configuration settings.
 
 > [!IMPORTANT]
 > - Provisioning unified routing might affect runtime operations on account of solution import that can affect SQL load.
