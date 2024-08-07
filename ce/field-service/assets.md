@@ -26,7 +26,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
    :::image type="content" source="media/customer-asset-create-manually-new.svg" alt-text="Screenshot of the New Customer Asset form.":::
 
-1. Enter a **Name** for the customer asset. Examples of descriptive names include the make and model of the asset, the name of the product in the product catalog, a general name like *HVAC Unit*, or a label like *HVAC Unit second floor*.
+1. Enter a descriptive **Name** for the customer asset. For example, the make and model of the asset, the name of the product in the product catalog, a general name like *HVAC Unit*, or a label like *HVAC Unit second floor*.
 
 1. Optionally, enter more details:
 
@@ -81,15 +81,15 @@ Customer assets can be created automatically when a product is added to a work o
 
 1. In the **General** section, set **Convert to Customer Asset** to **Yes**.
 
-   :::image type="content" source="media/customer-asset-product-convert-to-customer-asset.PNG" alt-text="Screenshot of a product in the Field Service tab, with the Convert to Customer Asset setting highlighted.":::
+   :::image type="content" source="media/customer-asset-product-convert-to-customer-asset.svg" alt-text="Screenshot of a product in the Field Service tab, with the Convert to Customer Asset setting highlighted.":::
 
 1. Select **Save**.
 
-When you [add the product to a work order](create-product-or-service.md#add-a-product-or-service-to-a-work-order), it creates a *work order product*. Enter a **Quantity** and set **Line Status** to **Used** to indicate the work order product was consumed during the work.
+When you [add the product to a work order](create-product-or-service.md#add-a-product-or-service-to-a-work-order), it creates a *Work Order Product*. Enter a **Quantity** and set **Line Status** to **Used** to indicate the work order product was consumed during the work.
 
-:::image type="content" source="media/customer-asset-product-used.png" alt-text="Screenshot of a work order, with the quantity and line status of a work order product highlighted.":::
+:::image type="content" source="media/customer-asset-product-used.svg" alt-text="Screenshot of a work order, with the quantity and line status of a work order product highlighted.":::
 
-When the status of the work order changes to **Open-Completed** or **Closed-Posted**, the system automatically creates the customer asset record and associates it with the service account that's listed on the work order. Regardless of the quantity that's listed on the work order product, only one customer asset is created. The asset record includes a link to the work order product that shows the actual quantity entered on the work order.
+When the status of the work order changes to **Open-Completed** or **Closed-Posted**, the system automatically creates the customer asset record and associates it with the service account that appears on the work order. Regardless of the quantity on the work order product, only one customer asset is created. The asset record includes a link to the work order product that shows the actual quantity entered on the work order.
 
 > [!TIP]
 > By default, you can only use assets that are related to the service account on a work order. You can change this option in settings and [allow the use of assets that are related to other accounts](asset-validation.md).
@@ -114,13 +114,9 @@ Use an asset category to group customer assets. Asset categories allow you to qu
 
 In Connected Field Service, *devices* represent sensors that are connected to the internet. You can associate devices with customer assets in a one-to-many relationship, meaning that one asset can have many related devices. For example, a single asset such as an HVAC unit can have multiple device sensors such as a thermometer and a hygrometer that send data to Connected Field Service.
 
-To establish an IoT relationship with a device, open a customer asset, select **Connect Device**, and then select the IoT device in the list.
+To establish an IoT relationship with a device, go to [Connect to asset](cfs-register-devices.md#connect-to-asset).
 
-:::image type="content" source="media/customer-asset-connect-device.png" alt-text="Screenshot of a new IoT connection.":::
-
-IoT alerts from a specific sensor also tag the related customer asset. If a work order is created from the alert, it will note both the alert and the asset.
-
-:::image type="content" source="media/customer-asset-iot-alert.png" alt-text="Screenshot of an IoT alert showing the related customer asset.":::
+IoT alerts from a specific sensor also tag the related customer asset. If a work order is created from the alert, it contains both the alert and the asset.
 
 When you're viewing a customer asset, select **Check IoT Setup** to get information about the asset's IoT configuration, such as whether IoT is deployed or if there are devices available.
 
