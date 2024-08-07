@@ -78,7 +78,7 @@ For a snapshot, you can view the underlying opportunities of a column or the use
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [About premium forecasting](configure-premium-forecasting.md)<br>
 [Take snapshots automatically](manage-snapshots-forecast.md)<br>

@@ -40,6 +40,6 @@ The who knows whom widget appears for all users who can open the Sales Insights 
 
 1. Save the changes.
 
-### See also
+## Related information
 
 [View who knows whom](who-knows-whom.md#view-who-knows-whom)

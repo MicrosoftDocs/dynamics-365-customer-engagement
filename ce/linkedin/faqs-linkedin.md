@@ -110,7 +110,7 @@ If you've properly configured CRM sync and activity writeback, the activity will
    > ![Select options to show Smart Links activities.](media/faq-select-options-filter-by-section.png "Select options to show Smart Links activities")         
 7. Select **OK**, and then save and publish the customizations.
 
-### See also
+## Related information
 
 [Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
 

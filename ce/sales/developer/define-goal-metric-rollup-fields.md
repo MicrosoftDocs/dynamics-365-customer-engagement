@@ -57,7 +57,7 @@ To specify the goal metric type, participating tables, and whether you track act
   
  For each goal metric, you can create up to three rollup field records. Each record can specify actual, in-progress, or custom amount or count. You can use the same source table or difference source tables for all rollup field records. For example, in a goal metric that specifies the Money type, you can use an opportunity table as a source table and `Opportunity.ActualValue` as a source attribute. This lets you track the actual money amounts in all opportunities that are closed as “Won”. The `Opportunity.EstimatedValue` can be used to track the revenue that is expected after the opportunity is closed.  
   
-### See also  
+## Related information  
  [Goal Management Tables](goal-management-entities.md)   
  [Add Complex Goal Criteria](add-complex-goal-criteria.md)
 

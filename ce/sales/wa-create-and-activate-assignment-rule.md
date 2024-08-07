@@ -142,7 +142,7 @@ We limit the number of conditions you can add to your assignment rules to help t
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Understand record distribution in assignment rules](understand-lead-distributions-assignment-rules.md)
 - [View and assign unassigned records](wa-manage-unassigned-records.md)

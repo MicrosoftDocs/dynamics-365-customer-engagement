@@ -76,7 +76,7 @@ After installing the solution, you can visit the [Microsoft 365 admin center](ht
 
 6. Review the **Terms of service** and click **Upgrade**.
 
-### See also
+## Related information
 
 [Configure a matching strategy to update leads from LinkedIn Lead Gen ads](configure-matching-strategy.md)  
 [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](sync-linkedin-leads.md)

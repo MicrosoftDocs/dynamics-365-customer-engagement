@@ -67,7 +67,7 @@ After you enable who knows whom, you must complete the following steps for the f
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Get introduced to a lead](../sales/who-knows-whom.md)  
