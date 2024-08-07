@@ -50,7 +50,7 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 1. Select **Consent on behalf of your organization**, and select **Accept**.
 
-1. After access is granted, you can close the page to return to the **Service Configuration Settings** page.
+1. After access is granted, you can close the page to return to the **Manage unified routing** page.
 
 1. Switch the toggle to **Yes** for **Unified routing**.
 
