@@ -149,7 +149,7 @@ To enable call recording and SMS services, you must first configure your applica
 
 #### Set up your event grid for the voice channel
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1nwyn]
+> [!VIDEO https://www.youtube.com/embed/la2vgEqGshU]
 
 #### Get event grid app and tenant IDs from the Power Apps portal
 
