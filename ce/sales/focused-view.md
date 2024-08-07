@@ -121,7 +121,7 @@ The customization that you make to the work list card is specific to the entity 
 
 ## Auto-refresh records
 
-Records in the work list can be refreshed automatically when they are updated. However, an administrator must enable this feature and configure the time interval for the records to refresh.
+Records in the work list can be refreshed automatically when they are updated. However, an administrator must enable this feature and configure the time interval for the records to refresh. For more information on how to configure this feature, see [Automatically refresh records](set-focused-view-as-default.md#automatically-refresh-records).
 
 ## Increase the number of records displayed in focused view
 
