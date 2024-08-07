@@ -106,7 +106,9 @@ Use an asset category to group customer assets. Asset categories allow you to qu
 
 1. Select **Save**.
 
-    :::image type="content" source="media/assets-categories-assign.png" alt-text="Screenshot of a customer asset, with the asset category highlighted.":::
+1. To assign an asset to the category, select **Related** > **Customer Assets** and add a new or existing asset. You can also assign a category when you create an asset.
+
+    :::image type="content" source="media/assets-categories-assign.svg" alt-text="Screenshot of a customer asset, with the asset category highlighted.":::
 
 ## Connect customer assets to Connected Field Service
 
