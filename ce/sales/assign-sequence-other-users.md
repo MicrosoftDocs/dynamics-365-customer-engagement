@@ -42,6 +42,6 @@ Before users or teams can use a sequence you create, you need to assign them to 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and activate a sequence](create-and-activate-a-sequence.md)

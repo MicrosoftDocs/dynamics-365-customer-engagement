@@ -147,6 +147,6 @@ Here are some suggestions about how to use activities to your organization's bes
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Work with activities in the Kanban view](activity-kanban-view.md)  

@@ -33,7 +33,7 @@ If you are unable to see the profile picture in custom forms, perform the steps 
 > - Only profile pictures for matched leads and contacts can be captured from LinkedIn.
 > - The profile picture from LinkedIn for a matched contact or lead is only shown in the out-of-the-box Contact or Lead form in the apps built on Unified Interface.
 
-### See also
+## Related information
 
 [Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)    
 

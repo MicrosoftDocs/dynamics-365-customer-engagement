@@ -51,7 +51,7 @@ Configure tracked keywords and competitors that are relevant to you and your org
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Administer conversation intelligence](./intro-admin-guide-sales-insights.md)  
 

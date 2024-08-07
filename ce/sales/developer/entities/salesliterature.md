@@ -881,7 +881,7 @@ See the [campaignactivitysalesliterature_association](campaignactivity.md#BKMK_c
 
 See the [campaignsalesliterature_association](campaign.md#BKMK_campaignsalesliterature_association) many-to-many relationship for the [campaign](campaign.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

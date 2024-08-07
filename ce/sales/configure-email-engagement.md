@@ -80,7 +80,7 @@ Email engagement is enabled and ready to use in your organization.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Introduction to administer Sales Insights](intro-admin-guide-sales-insights.md)  
 [View message interactions with email engagement](email-engagement.md)

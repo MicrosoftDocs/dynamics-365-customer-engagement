@@ -42,7 +42,7 @@ When you clone a forecast, you duplicate any configurations you made previously.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)   
 

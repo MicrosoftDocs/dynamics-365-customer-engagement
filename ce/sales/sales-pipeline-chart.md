@@ -44,7 +44,7 @@ The category values used for each business process stage are defined in a global
 The label for the pipeline phase of an opportunity consists of the category order (index) of the associated stage followed by the name of the category. In this way, pipeline phases are arranged in a sequence that matches the order of the associated category options in the **Stage Category** option set metadata. If you have a business need to introduce a new stage in the flow&mdash;for example, you want the stage **Negotiation** to appear between the **Propose** and **Close** stages&mdash;you must add a new category option named **Negotiation** in the **Stage Category** option set, and ensure that it's positioned between **Propose** and **Close**, and select this new category option for the Negotiation  stage of the business process flow. 
 
 
-### See also
+## Related information
 
 - [Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)  
 - [Gain insights with dashboards in Dynamics 365 Sales](dashboards.md)  

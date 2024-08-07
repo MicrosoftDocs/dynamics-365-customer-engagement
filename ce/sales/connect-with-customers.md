@@ -158,7 +158,7 @@ If you can't connect with a customer by the due date and want to follow up later
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)  
 [Understand the Up next widget](understand-the-up-next-widget.md)  

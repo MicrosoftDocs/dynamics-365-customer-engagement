@@ -56,6 +56,8 @@ Keep these limitations in mind when you set up the offline profile:
 
 - Access to SharePoint documents isn't supported.
 
+- Access to Knowledge Articles is not available while running in Offline mode. 
+
 - [Web resources are partially supported in offline mode](/power-apps/mobile/offline-capabilities#limitations). We recommend that you use the [Power Apps component framework](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the mobile app and the browser.
 
 [Learn about other limitations](../mobile-app/mobile-offline-capabilities.md).

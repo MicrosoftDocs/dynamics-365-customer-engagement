@@ -165,6 +165,6 @@ Follow these steps:
 1. Delete the **msdyn_LinkedInSalesNavigatorAnchor** solution.
 1. Install the **LinkedIn Sales Navigator** solution again and restore the data for the entities.
  
-### See also
+## Related information
 
 [Dynamics 365 Sales troubleshooting guide](../sales-enterprise/troubleshooting.md)

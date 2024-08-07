@@ -66,7 +66,7 @@ You can opt out if you don't want Dynamics 365 to collect and analyze your Excha
 
 4. Turn off **Include my data in Dynamics 365 applications**.
 
-### See also
+## Related information
 
 [Configure who knows whom](configure-who-knows-whom.md)
 

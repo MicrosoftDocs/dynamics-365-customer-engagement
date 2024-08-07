@@ -745,7 +745,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See the [msdyn_msdyn_conversationsubject_ConversationAgg](msdyn_conversationaggregatedinsights.md#BKMK_msdyn_msdyn_conversationsubject_ConversationAgg) one-to-many relationship for the [msdyn_conversationaggregatedinsights](msdyn_conversationaggregatedinsights.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

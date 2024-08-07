@@ -58,7 +58,7 @@ As an administrator, you can enable the suggested contacts to be displayed when 
 
 1. Select **Save**.
 
-### See also
+## Related information
 
 [Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)   
 [Use Microsoft Teams chat in Sales Hub](using-teams-chat-in-dynamics.md)

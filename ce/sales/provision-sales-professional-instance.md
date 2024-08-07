@@ -44,7 +44,7 @@ After the app is installed, open the environment URL and select the **Sales Prof
 > [!IMPORTANT]
 > If you see the **Sales Hub** app in your **Published Apps** list, [hide](/power-apps/maker/model-driven-apps/deactivate-app) or [delete](/power-apps/maker/model-driven-apps/delete-model-driven-app) the Sales Hub app as it's only applicable for Sales Enterprise and Sales Premium licenses. Sales Professional users are entitled to use only the Sales Professional app.
 
-### See also
+## Related information
 
 [Overview of Dynamics 365 Sales](overview.md)  
 [Overview of admin settings](admin-settings-overview.md)  
