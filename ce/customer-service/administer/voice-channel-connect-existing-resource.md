@@ -147,6 +147,9 @@ To enable call recording and SMS services, you must first configure your applica
 
    It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed," then retry this step after a few minutes.
 
+#### Configure event grid for voice channel
+
+> [!VIDEO https://www.youtube.com/embed/la2vgEqGshU]
 
 #### Get event grid app and tenant IDs from the Power Apps portal
 
