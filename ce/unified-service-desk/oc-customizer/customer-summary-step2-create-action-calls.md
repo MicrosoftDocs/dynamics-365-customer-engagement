@@ -47,13 +47,14 @@ This topic describes how to create customer summary-related action calls in Unif
 
 ## Initialize Omnichannel Context - Window Variable - Customer Summary
 
-   | Tab     | Field          | Value                           |
-   |------------------|----------------------|---------------------------------|
-   | General | Name           | Initialize Omnichannel Context - Window Variable - Customer Summary      |
-   | General | Order | 5 | 
-   | General | Hosted Control | Customer Summary |
-   | General | Action         | RunScript    |
-   | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('[[$Settings.OmniChannelConfig]+]'); <br> var session = JSON.parse(JSON.stringify([[$Context.SessionParameters]])); <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> }  <br> initOCContext(); |
+
+| Tab     | Field          | Value                                                                                     |
+|---------|----------------|-------------------------------------------------------------------------------------------|
+| General | Name           | Initialize Omnichannel Context - Window Variable - Customer Summary                       |
+| General | Order          | 5                                                                                         |
+| General | Hosted Control | Customer Summary                                                                          |
+| General | Action         | RunScript                                                                                 |
+| General | Data           | function initOCContext() { <br> var ocConfig = JSON.parse('[[$Settings.OmniChannelConfig]+]'); <br> var session = JSON.parse(JSON.stringify([[$Context.SessionParameters]])); <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> }  <br> initOCContext(); |
 
 ## Update Conversation Context Entities
 
