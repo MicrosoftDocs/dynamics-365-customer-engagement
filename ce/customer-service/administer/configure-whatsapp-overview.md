@@ -15,7 +15,7 @@ ms.custom: bap-template #Required; don't change.
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-You can use the WhatsApp channel feature lto engage with customers who prefer to communicate using WhatsApp.
+You can use the WhatsApp channel feature to engage with customers who prefer to communicate using WhatsApp.
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
