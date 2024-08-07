@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 03/08/2024
+ms.date: 08/09/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -118,6 +118,10 @@ The customization that you make to the work list card is specific to the entity 
     The **Preview** section displays a preview of the work list card based on the customizations that you make.
 
 1. Select **Save**.
+
+## Auto-refresh records
+
+Records in the work list can be refreshed automatically when they are updated. However, an administrator must enable this feature and configure the time interval for the records to refresh.
 
 ## Increase the number of records displayed in focused view
 
