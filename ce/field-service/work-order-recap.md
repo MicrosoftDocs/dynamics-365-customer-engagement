@@ -69,7 +69,7 @@ Copilot in Field Service provides predefined summaries that are optimized for sp
 :::image type="content" source="media/copilot-summary-configuration.png" alt-text="Screenshot of the summary configuration for the copilot-based summary control.":::
 
 > [!TIP]
-> To generate configured summaries, users read permission for the *msdyn_fieldservicesummaryconfiguration* table. [Update custom security roles](/power-platform/admin/security-roles-privileges#table-privileges) to avoid issues when generating a configured summary.
+> To generate configured summaries, users need read permission for the *msdyn_fieldservicesummaryconfiguration* table. [Update custom security roles](/power-platform/admin/security-roles-privileges#table-privileges) to avoid issues when generating a configured summary.
 
 ### Configure the summary
 
