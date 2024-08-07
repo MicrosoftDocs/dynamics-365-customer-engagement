@@ -13,8 +13,6 @@ ms.author: nenellim
 
 You can configure unified routing for records in the Customer Service admin center app.
 
-If you have Dynamics 365 Customer Service only, then the options to configure unified routing will be available only after you [enable unified routing](provision-unified-routing.md) in the service configuration settings.
-
 > [!IMPORTANT]
 > - Provisioning unified routing might affect runtime operations on account of solution import that can affect SQL load.
 > - If you're upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in your admin app.
