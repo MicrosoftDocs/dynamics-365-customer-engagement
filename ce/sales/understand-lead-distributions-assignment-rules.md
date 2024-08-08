@@ -233,7 +233,7 @@ With capacity no longer a consideration, the rule considers who's been waiting f
 
 The rule assigns the lead to Maya. The next leads to come in are assigned to Burt, then to Maya, and so on, until the availability of the matched sellers changes.
 
-### See also
+## Related information
 
 - [Create and activate an assignment rule](create-and-activate-assignment-rule.md)
 - [Set capacity for sellers](manage-sales-teams.md#set-capacity-for-sellers)

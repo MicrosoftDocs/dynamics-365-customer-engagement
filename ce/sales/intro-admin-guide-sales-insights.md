@@ -196,7 +196,7 @@ For specific privacy information about Dynamics 365 Sales Insights capabilities,
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Overview of Dynamics 365 Sales](overview.md)  
 [Improve seller coaching and sales potential with conversation intelligence](../sales/dynamics365-sales-insights-app.md)  

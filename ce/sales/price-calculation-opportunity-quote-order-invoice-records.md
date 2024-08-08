@@ -85,7 +85,7 @@ When a price list item is added as a product in opportunity, quote, order or in
 > Discount is calculated even when a discount list is inactive. 
 
 
-### See also
+## Related information
 [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
 [Add products to an opportunity](add-products-opportunity.md)  
 [Add products to quotes, orders, or invoices](add-product-quote-order-invoice.md)

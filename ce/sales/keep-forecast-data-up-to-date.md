@@ -51,7 +51,7 @@ You want the forecast data to be up-to-date to make informed decisions. Forecast
   
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 

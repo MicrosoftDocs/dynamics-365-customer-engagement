@@ -90,7 +90,7 @@ The following roles are required along with the roles defined in the [salesperso
 | Custom Entities | - Channel Definition locale<br>- Telesign channel instance account<br>- Twilio channel instance account | Business Unit | Read |
 | Custom Entities | - Telesign channel instance<br>- Twilio channel instance | Business Unit | - Read<br>- Write<br>- Assign |
 
-### See also
+## Related information
 
 [Configure SMS provider](configure-sms-provider.md)    
 [Edit phone numbers](edit-phone-numbers.md)  

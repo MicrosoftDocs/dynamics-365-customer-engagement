@@ -56,7 +56,7 @@ While you're in a conversation about a particular record, you might discuss cert
     ![Note added to the record](media/me-notes-timeline.png "Note added to the record")
 
 
-### See also
+## Related information
 
 [Share and update Dynamics 365 records within Microsoft Teams conversations](share-d365-record-overview.md)   
 [Access the Dynamics 365 app through messaging extensions](access-d365-app.md)   

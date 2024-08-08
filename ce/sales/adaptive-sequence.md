@@ -249,7 +249,7 @@ In the following example, let's set the sequence to the **Yes** path when the **
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and activate a sequence](create-and-activate-a-sequence.md)      
 [Add steps to sequence](steps-sequence.md)  

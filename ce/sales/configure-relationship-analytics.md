@@ -76,7 +76,7 @@ For more information about how to view the analytics, see [Use relationship anal
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)  

@@ -145,7 +145,7 @@ If you have chosen **Automatic recording** to record all customer calls, you can
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Configure sales team-level settings](configure-sales-team-level-settings.md)  
 - [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   
