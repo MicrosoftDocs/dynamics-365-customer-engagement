@@ -165,7 +165,7 @@ You can set work hours for the bookable resources where you can define when the 
   
      If work hours haven't been set previously, the link is displayed as "Set Work Hours."  
   
-9. In the **Set Work Hours and Service Restrictions** dialog, complete the following fields, and then select **OK**:  
+9. In the **Set Work Hours and Service Restrictions** dialog box, complete the following fields, and then select **OK**:  
   
     - **Date**  
   
