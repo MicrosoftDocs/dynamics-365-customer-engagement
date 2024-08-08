@@ -1,15 +1,18 @@
 ---
-title: Enable an entity for scheduling
-description: Learn how to enable an entity for scheduling in Dynamics 365 Customer Service
+title: Enable an entity for resource scheduling
+description: Learn how to enable an entity for scheduling in Dynamics 365 Customer Service.
 author: lalexms 
-ms.author: laalexan
-ms.reviewer: shujoshi
+author: Soumyasd27
+ms.author: sdas
 ms.topic: how-to 
-ms.date: 06/21/2023 
-ms.custom: bap-template 
+ms.date: 08/08/2024 
+ms.custom: 
+- bap-template
+- evergreen
 ---
 
 # Enable an entity for resource scheduling
+
 Enabling an entity for scheduling allows agents to schedule the requirements related to that entity to the matching resources.
 
 ## Prerequisites
@@ -37,7 +40,7 @@ If you want to change the booking settings for entities you enabled for scheduli
 
 1. In **Resource Scheduling**, change to the **Settings** area, and then in **Scheduling**, select **Administration** > **Enable Resource Scheduling for Entities**.
    
-1. In the **Enabled Entities** section, double-click the entity you want to edit. A new tab with the booking setup metadata for the selected entity is opened.
+1. In the **Enabled Entities** section, double-click the entity you want to edit. A new tab with the booking setup metadata for the selected entity appears.
 
    | Setting | Effect | Value |
    | -------- | ---------- | ---------|
@@ -53,7 +56,7 @@ If you want to change the booking settings for entities you enabled for scheduli
    | Default requirement completed status | Sets the default value to use when a requirement moves into Completed status. | Available requirement statuses. |
    | Available duration minimum (%) | Defines the availability of a resource in relation to the booking duration. For example, if the value is 50 and the booking takes four hours. The system only considers resources for the job that have at least two hours available. | 0 to 100. |
    
-1. In the **Attribute Mapping** section, choose values on the target entity that match with the requirement fields.
+1. In the **Attribute Mapping** section, select values on the target entity that match with the requirement fields.
 
 1. Save your changes. You've successfully enabled an entity for scheduling when:
    - **Resource Requirements** shows as a related entity. Create them manually or with a custom workflow.
@@ -61,7 +64,7 @@ If you want to change the booking settings for entities you enabled for scheduli
 
 ## Add a requirement view to the schedule board
 
-After you create a requirement for the lead, it will appear in the **Open Requirements** view in the lower pane of the schedule board that shows all open requirements related to any schedulable entity. This is a default view for resource scheduling. However, the views in the lower pane of the schedule board are system views that can be edited and added to. It's common to add custom resource requirement views for schedulable entities.
+After you create a requirement for the lead, it appears in the **Open Requirements** view in the lower pane of the schedule board that shows all open requirements related to any schedulable entity. This is a default view for resource scheduling. However, the views in the lower pane of the schedule board are system views that can be edited and added to. It's common to add custom resource requirement views for schedulable entities.
 
 1. Go to **Advanced Settings** > **Customizations** > **Entities** > **Resource Requirement** > **Views**.
 
