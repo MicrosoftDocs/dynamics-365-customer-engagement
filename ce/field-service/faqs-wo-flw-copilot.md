@@ -40,7 +40,7 @@ This feature was evaluated using both conventional performance testing and metho
 
 ## What are the supported geographies and languages?
 
-For more information, go to [Copilot International Availability report](https://releaseplans.microsoft.com/en-us/availability-reports/?report=copilotfeaturereport).
+For more information, go to [Copilot International Availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
