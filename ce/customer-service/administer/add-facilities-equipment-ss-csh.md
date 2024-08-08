@@ -1,16 +1,17 @@
 ---
-title: Add and create new facilities and equipment for Service Scheduling in Dynamics 365 Customer Service | MicrosoftDocs
-description: Learn how to add and create facilities and equipment for service scheduling in Dynamics 365 Customer Service
-ms.date: 06/14/2024
+title: Add and create new facilities and equipment for Service Scheduling in Dynamics 365 Customer Service
+description: Learn how to add and create facilities and equipment for service scheduling in Dynamics 365 Customer Service.
+ms.date: 08/08/2024
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - evergreen
 ---
 
 # Add facilities and equipment to schedule service
@@ -23,7 +24,7 @@ Facilities and equipment are resources you use to perform services for your cust
 
 Make sure that you have the required security role or equivalent permissions. 
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
+Learn more in [Manage security roles in service scheduling](manage-security-roles.md).
 
 You can create a new facility or equipment record in the Customer Service admin center app.
 
@@ -51,7 +52,7 @@ You can create a new facility or equipment record in the Customer Service admin 
 1.  When you’re done, select **Save** or **Save and Close**.  
 
     ![facility and equipment.](../media/facilities_equipment_1.png)
-### See also
+### Related information
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
 
