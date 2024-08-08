@@ -1,7 +1,7 @@
 ---
 title: Connected Field Service overview
 description: Learn how Connected Field Service can revolutionize your organization's service delivery with IoT technology and predictive maintenance.
-ms.date: 06/23/2023
+ms.date: 08/08/2024
 ms.subservice: connected-field-service
 ms.topic: overview
 ms.author: vhorvath

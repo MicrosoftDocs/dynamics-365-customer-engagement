@@ -1,7 +1,7 @@
 ---
 title: AI suggestions for IoT alerts
 description: Use AI to investigate and address IoT issues before they happen, by learning from previous actions taken on alerts.
-ms.date: 06/23/2023
+ms.date: 08/08/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath
@@ -10,9 +10,9 @@ author: vhorvathms
 
 # AI suggestions for IoT alerts
 
-AI suggestions for IoT alerts use IoT data by converting IoT alerts into cases and work orders, enabling organizations to investigate and address issues before they happen. AI suggestions can also learn from previous actions taken on IoT alerts, providing recommendations on priority and incident types. For example, if your organization regularly receives IoT alerts indicating a machine's temperature exceeding the acceptable threshold. In such cases, your organization frequently converts these alerts into work orders. The AI IoT model uses this historical data to learn from the actions. When a new temperature alert arrives that surpasses the temperature threshold, the AI recognizes it and suggests appropriate actions.
+AI suggestions for IoT alerts use IoT data by converting IoT alerts into cases and work orders, enabling organizations to investigate and address issues before they happen. AI suggestions can also learn from previous actions taken on IoT alerts, providing recommendations on priority and incident types. For example, if your organization regularly receives IoT alerts indicating a machine's temperature exceeds the acceptable threshold. In such cases, your organization frequently converts these alerts into work orders. The AI IoT model uses this historical data to learn from the actions. When a new temperature alert arrives that surpasses the temperature threshold, the AI recognizes it and suggests appropriate actions.
 
-Implementing these IoT alert suggestions to:
+Implement IoT alert suggestions to:
 
 - Gain insights into the prioritization of IoT alerts.
 - Improve your ability to proactively address critical issues.
@@ -26,11 +26,11 @@ Implementing these IoT alert suggestions to:
   - [Connected Field Service for Azure IoT Hub](installation-setup-iothub.md)
   - [IoT provider for custom IoT solutions](cfs-custom-iot-provider.md)
 
-- [Configured Incident types](configure-incident-types.md) that refer to the primary problem addressed in a work order and determines the associated details such as work order type, products, services, and service tasks.
+- [Configured incident types](configure-incident-types.md) that refer to the primary problem addressed in a work order and determines the associated details such as work order type, products, services, and service tasks.
 
-- Priority settings on IoT alerts indicate the level of importance to the business, typically assessed based on factors like incurred cost or customer satisfaction.
+- Priority settings on IoT alerts indicate the level of importance to the business. Assess the importance based on factors like incurred cost or customer satisfaction.
 
-- To provide the model with sufficient data for generating accurate suggestions, it's recommended to have a minimum of 50 IoT alerts that have been converted into cases or work orders.
+- To provide the model with sufficient data for generating accurate suggestions, a minimum of 50 IoT alerts converted into cases or work orders is recommended.
 
 ## Enable IoT suggestions
 
@@ -71,7 +71,7 @@ Select the device properties that the AI model should consider when generating s
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT suggestions setup screen, showing the device properties section.](./media/cfs-iot-suggestions-properties.png)
 
-By default, the **Reading Type** and **Reading** fields in IoT Hub are used as device properties. However, you can also add custom fields. For example, you may have a model that associates a financial cost to each temperature reading. This custom addition can be added as a device property for the AI model to consider.
+By default, the **Reading Type** and **Reading** fields in IoT Hub are used as device properties. However, you can also add custom fields. For example, you might have a model that associates a financial cost to each temperature reading. This custom addition can be added as a device property for the AI model to consider.
 
 ### Step 5: Finish
 
