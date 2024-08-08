@@ -88,7 +88,7 @@ Let's look at the KPIs and insights in detail:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Overview of conversation intelligence](dynamics365-sales-insights-app.md)
 

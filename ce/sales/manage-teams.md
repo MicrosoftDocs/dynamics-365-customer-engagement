@@ -84,7 +84,7 @@ When a team is assigned a role, the team members are assigned the set of privile
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 
-### See also
+## Related information
 
 [Admin settings overview](admin-settings-overview.md)
 

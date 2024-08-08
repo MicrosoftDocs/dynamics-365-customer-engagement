@@ -99,7 +99,7 @@ Select the **First Name** property with the description and select the pencil ic
 > 2. Select **Manage for all sites** under **Tracking prevention**.
 > 3. Select **Exceptions** and add your Dynamics 365 domain to the list.
 
-### See also
+## Related information
 
 [Overview for LinkedIn Sales Navigator solutions](integrate-sales-navigator.md)     
 [Install and configure LinkedIn Sales Navigator Controls](install-sales-navigator.md)     

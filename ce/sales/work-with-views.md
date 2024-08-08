@@ -87,7 +87,7 @@ You can perform different actions such as sort, delete, and refresh on items in 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and edit public or system model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer)
 

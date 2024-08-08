@@ -46,7 +46,7 @@ Other steps display a detailed analysis, with the following insights shown for e
 
 Analytics aren't available for condition steps.
 
-### See also
+## Related information
 
 [Create and connect sequences for yourself](create-sequence-seller.md)  
 [View and understand sales acceleration reporting](understand-sales-acceleration-reporting.md)  

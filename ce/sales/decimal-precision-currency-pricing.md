@@ -75,7 +75,7 @@ This setting allows you to define the precision to individual currency fields. T
     - **Decimal places** as required and must be between 0 to 4.
 1. Save and close the settings.  
 
-### See also
+## Related information
 
 [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
 [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies)  

@@ -40,6 +40,6 @@ POST [Organization URI]/api/data/v9.1/msdyn_ConnectSequence
 }
 ```
 
-## See also
+## Related information
 
 [Enable and configure the Sales accelerator](../../enable-configure-sales-accelerator.md)

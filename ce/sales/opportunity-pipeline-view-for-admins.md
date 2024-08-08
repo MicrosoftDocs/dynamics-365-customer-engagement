@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: how-to 
-ms.date: 07/22/2024
+ms.date: 07/25/2024
 ms.custom: bap-template 
 ---
 
@@ -35,11 +35,7 @@ The **Read-only Grid view** is the default view for opportunities. You can set t
 1. In the Sales Hub navigation panel, select **Settings** > **Advanced Settings**.
 1. In the **Settings** menu, select **Customizations** > **Customize the system**.
 1. From the Power Apps Default Solution page, select **Entities** > **Opportunity**.
-1. Select the **Controls** tab, and then select **Pipeline view** for web, phone, and tablet.
-
-    If you don't see **Pipeline view** in the **Control** list, select **Add Control**, then select **Pipeline view**, and then select **Add**.  
-    > [!NOTE]
-    > If you don't see the **Pipeline view** control in the **Add Control** list, look for the **Deal manager workspace** control.  
+1. Select the **Controls** tab, and then select **Pipeline view** for web, phone, and tablet. If you don't see **Pipeline view** in the **Control** list, select **Add Control**, then select **Pipeline view**, and then select **Add**.  
 
    :::image type="content" source="media/pipeline-set-as-default.png" alt-text="Screenshot of the Controls tab with the Pipeline view set as the default for web, phone, and tablet." lightbox="media/pipeline-set-as-default.png":::
 
@@ -71,7 +67,7 @@ Do one of the following depending on your license:
 When sellers open an opportunity from the pipeline view, the side panel displays the opportunity details in the Sales Insights form. You can change the default form to the main opportunity form or a custom form for your organization. For example, you can create a custom form specifically for the side panel and set that as default. Sellers can switch to a different form if they prefer and their selection will be remembered and set as a default for them.  
 
 1. [Open the opportunity pipeline view settings page](#open-the-opportunity-pipeline-view-settings-page).
-1. In the **Set the default form for side panel** section, select the form that you want to set as the default for your organization. 
+1. In the **Set the default form for side panel** section, select the form that you want to set as the default for your organization.
 
 
 ## Set the default metrics for sellers
@@ -101,7 +97,7 @@ The opportunity pipeline view lists important metrics related to the sales pipel
     
 ## Customize charts
 
-The charts in the pipeline view help sellers visualize their pipeline. You can customize elements of the bubble chart and the funnel chart to change the information that sellers see. You can also hide the charts if you don't want sellers to see them.  
+The charts in the pipeline view help sellers visualize their pipeline better. You can customize various elements in the bubble chart, such as the data on the x-axis and y-axis, the size and color of the bubble, the sort order for the legend, and tooltips. Similarly, you can customize elements in the funnel chart, such as the field used for segmentation, the aggregate function used, and so on.  
 
 ### Customize the bubble chart
 
@@ -156,11 +152,11 @@ The charts in the pipeline view help sellers visualize their pipeline. You can c
 The grid in the opportunity pipeline view is an instance of the Power Apps editable grid control. The grid can be both customized and personalized. As an administrator, you can [customize the grid](/power-apps/developer/component-framework/customize-editable-grid-control) for the entire sales organization. Sellers can [personalize their view](personalize-pipeline-view.md) to include the columns and filters they want to see.  
 
 > [!NOTE]
-> If you customized the editable grid in the deal manager using JavaScript, you need to redo those customizations in the pipeline view.
+> If you customized the editable grid in the deal manager using JavaScript, you need to redo those customizations in the pipeline view. To customize the editable grid, see the [Power Apps documentation](/power-apps/developer/component-framework/customize-editable-grid-control). For information on grid events, see [Events in forms and grids in model-driven apps](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Where is the deal manager workspace?](faq-sales.yml#where-is-the-deal-manager-workspace)  
 [Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)  

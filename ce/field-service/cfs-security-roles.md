@@ -4,9 +4,6 @@ description: Learn about security roles in Connected Field Service
 ms.date: 07/31/2024
 ms.subservice: connected-field-service
 ms.topic: conceptual
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.author: vhorvath
 author: vhorvathms
 ---
