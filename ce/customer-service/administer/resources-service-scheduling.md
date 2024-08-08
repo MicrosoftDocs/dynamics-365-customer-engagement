@@ -115,7 +115,7 @@ You can set work hours for the bookable resources where you can define when the 
 4.  From the **Set up** dropdown list, select the schedule display as required.
   
     > [!NOTE]
-    >  Monthly schedules are the default display; you can choose weekly and daily schedules.  
+    >  Monthly schedules are the default display; you can seelct weekly and daily schedules.  
   
 5.  Double-click a date on the calendar that's the first day for which you want to set work hours.  
   
@@ -161,11 +161,11 @@ You can set work hours for the bookable resources where you can define when the 
   
          You can’t change the date the schedule ends. To end a schedule, you must define a new schedule on that date.  
   
-8. Choose the work hours link for the schedule you want to modify.  
+8. Select the work hours link for the schedule you want to modify.  
   
      If work hours haven't been set previously, the link is displayed as "Set Work Hours."  
   
-9. In the **Set Work Hours and Service Restrictions** dialog box, complete the following fields, and then select **OK**:  
+9. In the **Set Work Hours and Service Restrictions** dialog, complete the following fields, and then select **OK**:  
   
     - **Date**  
   
@@ -181,12 +181,12 @@ You can set work hours for the bookable resources where you can define when the 
   
          To add a break in the work hours, such as a lunch break, select **Add Break**, and then select the start and end time of the break. 
   
-10. To close the **Weekly Schedule** dialog box, select **Save and Close**.
+10. To close the **Weekly Schedule** dialog, select **Save and Close**.
 
     ![set-work-hours.](../media/set-work-hours-csh-1a.png) 
 
 > [!NOTE]
-> To define a time when a service won’t be available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog box, select the service, and select the start and end time between which the service will be unavailable, and then select **OK**.  
+> To define a time when a service won’t be available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog, select the service, and select the start and end time between which the service will be unavailable, and then select **OK**.  
 
 ### Related information
 

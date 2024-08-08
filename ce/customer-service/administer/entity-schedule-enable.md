@@ -80,7 +80,7 @@ Now that the view is created, edit the schedule board that uses the new view by 
 1. Type a **Title**, and then select the view to use.
 1. Save your changes.
 
-### See also
+### Related information
 
 [Create bookable resources](resources-service-scheduling.md)  
 [Overview of service scheduling](basics-service-service-scheduling.md) 
