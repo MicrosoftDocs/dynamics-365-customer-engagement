@@ -1,27 +1,26 @@
 ---
-title: Set up resources for Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Know how to create and set up resources for service scheduling in Dynamics 365 Customer Service
-ms.date: 04/04/2022
+title: Set up resources for Service Scheduling (Dynamics 365 Customer Service)
+description: Know how to create and set up resources for service scheduling in Dynamics 365 Customer Service.
+ms.date: 08/08/2024
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - evergreen
 ---
 
 # Create and set up bookable resources
 
-A resource in Service Scheduling is anything that needs to be scheduled. You can set up Generic, Contact, User, Equipment, Account, Crew, Facility, or Pool as bookable resource.
+A resource in Service Scheduling is anything that needs to be scheduled. You can set up Generic, Contact, User, Equipment, Account, Crew, Facility, or Pool as bookable resources.
 
 ## Create a new bookable resource
 
-Make sure that you have the required security role or equivalent permissions. 
-
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
+Make sure that you have the required security role or equivalent permissions. Learn more in [Manage security roles in service scheduling](manage-security-roles.md)
 
 You can create a new bookable resource in the Customer Service admin center app or Customer Service Hub app.
 
@@ -32,18 +31,18 @@ You can create a new bookable resource in the Customer Service admin center app 
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     2. In the **Resources** section, select **Manage**.                   
     
-      The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down list.
+      The **Active Bookable Resources** view is displayed. You can switch between various system views using the dropdown list.
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
     1. In the site map, go to **Scheduling**.
     2. From the list of entity records, select **Resources** in **Scheduling**.
        
-       The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down list.
+       The **Active Bookable Resources** view is displayed. You can switch between various system views using the dropdown list.
      
 2. On the command bar, select **New** to create a new bookable resource. 
 3. In the **General** section:
-   - Select a **Resource Type**. You can choose from the following options:
+   - Select a **Resource Type**. You can select from the following options:
 
       - Generic
       - Contact
@@ -54,21 +53,21 @@ You can create a new bookable resource in the Customer Service admin center app 
       - Facility
       - Pool
       
-   - The field name is automatically populated. Look up for the record. You can also create a new record using the **Quick Create** dialog box. 
+   - The field name is automatically populated. Look up for the record. You can also create a new record using the **Quick Create** dialog. 
 
    - Select a **Time Zone**.
 
      > [!NOTE]
-     > If the Resource Type is Facility or Equipment, the time zone is  automatically populated as per the facility’s or equipment’s time zone and it is not editable.
+     > If the Resource Type is Facility or Equipment, the time zone is  automatically populated as per the facility’s or equipment’s time zone and it isn't editable.
 
    - Select **Save**. A new resource is created and activated by default.
 
      **Resource Characteristics** and **Resource Categories**  sections are displayed.
     - In the **Resource Characteristics** section, select the ellipses  (**...**) and then select **Add New Bookable Resource Characteristics** to add characteristics.
    
-      - Use the tooltips to help fill in your information and then select **Save**
+      - Use the tooltips to help fill in your information and then select **Save**.
       - Look up and assign **Rating Value**. You can also create a new rating value.
-      - Assign the characteristic to a **Resource**
+      - Assign the characteristic to a **Resource**.
 
     - In the **Resource Categories** section, select the ellipses  (**...**) and then select **Add New Bookable Resource Category** to add a category.
     
@@ -80,7 +79,7 @@ You can create a new bookable resource in the Customer Service admin center app 
     - Select an **Organizational Unit** for the resource. 
 
       > [!NOTE]
-      > If the Resource Type is Facility or Equipment, the organizational unit is automatically populated as per the facility’s or equipment’s organizational unit and it is not editable.
+      > If the Resource Type is Facility or Equipment, the organizational unit is automatically populated as per the facility’s or equipment’s organizational unit and it isn't editable.
 
     - Select whether the resource should be displayed on the schedule board in the **Display On Schedule Board** box.
     - Select whether you want to enable the resource for availability search in the **Enable for Availability Search** box.
@@ -100,27 +99,27 @@ You can set work hours for the bookable resources where you can define when the 
     1. In the site map, select **Service scheduling** in **Operations**.
     2.  In the **Resources** section, select **Manage**.
     
-      The **Active Bookable Resources** view is displayed. 
+      The **Active Bookable Resources** view appears. 
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
     1. In the Customer Service Hub site map, go to **Scheduling**.
     2. From the list of entity records, select **Resources** in **Scheduling**.
        
-      The **Active Bookable Resources** view is displayed. 
+      The **Active Bookable Resources** view appears. 
   
 2.  Open the resource record you want to set work hours for.  
   
 3.  Select **Show Work Hours**.  
   
-4.  From the **Set up** drop-down list, choose the schedule display as required.
+4.  From the **Set up** dropdown list, select the schedule display as required.
   
     > [!NOTE]
     >  Monthly schedules are the default display; you can choose weekly and daily schedules.  
   
-5.  Double-click a date on the calendar that is the first day for which you want to set work hours.  
+5.  Double-click a date on the calendar that's the first day for which you want to set work hours.  
   
-6. In the **Edit Schedule** dialog box, select one of the following and then select **OK**.  
+6. In the **Edit Schedule** dialog, select one of the following and then select **OK**.  
   
     - **This date only**  
   
@@ -138,7 +137,7 @@ You can set work hours for the bookable resources where you can define when the 
   
          Selecting this option might change past days, which could affect reports regarding hours worked in the past.  
   
-7. In the **Weekly Schedule** dialog box, in the **Set the recurring weekly schedule** section, select one of the following:  
+7. In the **Weekly Schedule** dialog, in the **Set the recurring weekly schedule** section, select one of the following:  
   
     - **Are the same each day**  
   
@@ -152,7 +151,7 @@ You can set work hours for the bookable resources where you can define when the 
   
          The new schedule includes time that the resource isn't working.  
   
-     In the **Weekly Schedule** dialog box, you can also do any of the following:  
+     In the **Weekly Schedule** dialog, you can also do any of the following:  
   
     -   If the schedule is for more than one day, select the days of the week this schedule is effective.  
   
@@ -166,7 +165,7 @@ You can set work hours for the bookable resources where you can define when the 
   
      If work hours haven't been set previously, the link is displayed as "Set Work Hours."  
   
-9. In the **Set Work Hours and Service Restrictions** dialog box, complete the following fields, and then select **OK**:  
+9. In the **Set Work Hours and Service Restrictions** dialog, complete the following fields, and then select **OK**:  
   
     - **Date**  
   
@@ -189,7 +188,7 @@ You can set work hours for the bookable resources where you can define when the 
 > [!NOTE]
 > To define a time when a service won’t be available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog box, select the service, and select the start and end time between which the service will be unavailable, and then select **OK**.  
 
-### See also
+### Related information
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
 
