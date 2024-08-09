@@ -19,7 +19,7 @@ In focused view, sellers can view and manage their CRM records and their associa
 
 Configuring the focused view as default is allowed only for the contact, lead, account, and opportunity entities. Also, if you want to configure focused view as default for custom and other entities, see [Configure as default for other entities](#configure-as-default-for-other-entities).
 
-Also, you can configure to automatically refresh a record at specified time intervals when it is updated. For more information, see [Automatically refresh records](#automatically-refresh-records)
+Also, you can configure to automatically refresh a record at specified time intervals when it is updated. For more information, see [Automatically refresh records](#refresh-records-automatically)
 
 ## Prerequisites
 
