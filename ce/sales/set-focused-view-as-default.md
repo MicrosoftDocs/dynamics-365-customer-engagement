@@ -75,7 +75,7 @@ Records aren't updated automatically in focused view. However, you can configure
 1. Select the time interval for the records in the view to refresh. The time interval can be set to 15, 18, or 20 minutes.
 1. Save and close the **Settings** pane.
 
-Records will now automatically refresh at the specified time interval when it is updated.
+Records will now automatically refresh at the specified time interval.
 
 ## Related information
 
