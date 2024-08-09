@@ -1,7 +1,7 @@
 ---
 title: How Connected Field Service with IoT Hub works
 description: Learn about the architecture and data flow of Connected Field Service with IoT Hub, a solution that combines Azure IoT and Dynamics 365 Field Service to help you provide proactive and predictive maintenance of your equipment.
-ms.date: 06/21/2023
+ms.date: 08/08/2024
 ms.subservice: connected-field-service
 ms.author: vhorvath
 author: vhorvathms
