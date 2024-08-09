@@ -19,12 +19,12 @@ In focused view, sellers can view and manage their CRM records and their associa
 
 Configuring the focused view as default is allowed only for the contact, lead, account, and opportunity entities. Also, if you want to configure focused view as default for custom and other entities, see [Configure as default for other entities](#configure-as-default-for-other-entities).
 
-Also, you can also configure to automatically refresh a record at specified time intervals when it is updated. For more information, see [Automatically refresh records](#automatically-refresh-records)
+Also, you can configure to automatically refresh a record at specified time intervals when it is updated. For more information, see [Automatically refresh records](#automatically-refresh-records)
 
 ## Prerequisites
 
 - You must have the **System Administrator** or similar security role to perform these configurations.  
-- Before you configure focused view, ensure that the [focused view is enabled for your organization](enable-focused-view.md).  
+- Ensure that the [focused view is enabled for your organization](enable-focused-view.md).  
 
 ## Configure as default for contact, account, lead, and opportunity entities
 
@@ -62,18 +62,18 @@ To configure and enable focused view as default for custom and other entities, f
 
 Focused view is now set as the default view for the selected entity.
 
-## Automatically refresh records
+## Refresh records automatically
 
-Records will not update automatically in focused view. However, you can configure to automatically refresh a record at specified time intervals when it is updated. To configure automatic refresh for a record, follow these steps:
+Records aren't updated automatically in focused view. However, you can configure focused view to automatically refresh records at specified time intervals. To configure automatic refresh for a record, follow these steps:
 
 1. Open the contact, lead, account, or opportunity grid.  
 1. Change to focused view and in the work item section, select **More options** > **Settings**.
 1. On the **Settings** pane, select **Auto-refresh**.
 
     :::image type="content" source="media/fv-settings-enable-auto-refresh.png" alt-text="Screenshot of configuring focused view to auto refresh a record when updated.":::  
-1. Turn on the **Auto-refresh** toggle to enable automatic refresh for the record.
-1. Select the time interval for the record to refresh. The time interval can be set to 15, 18, or 20 minutes.
-1. Save and close the settings pane.
+1. Turn on the **Auto-refresh** toggle to enable automatic refresh of the grid.
+1. Select the time interval for the records in the view to refresh. The time interval can be set to 15, 18, or 20 minutes.
+1. Save and close the **Settings** pane.
 
 Records will now automatically refresh at the specified time interval when it is updated.
 
