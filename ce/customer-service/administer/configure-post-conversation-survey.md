@@ -41,7 +41,6 @@ You can enable post-conversation surveys for the following channels:
 - Custom channel
 - Microsoft Teams
 - Apple Messages for Business
-- Google's Business Messages
 
 For the Live chat channel only, you can configure the survey link or survey questions to be displayed in the chat window.
 
