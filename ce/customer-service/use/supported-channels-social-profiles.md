@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 06/04/2024
+ms.date: 08/09/2024
 ms.custom: bap-template 
 ---
 
@@ -33,7 +33,6 @@ The social profiles are supported for the following channels.
 |--------------------|---------------------------------------------------------------------|-------------|
 | Apple Messages for Business | Yes                                                        | Visitor     |
 | Facebook           | Yes                                                                 | User name |
-| Google's Business Messages | Yes                                                         | Display name |
 | LINE               | Yes                                                                 | Display name |
 | WeChat             | Yes                                                                 | Visitor |
 | WhatsApp           | Yes                                                                 | Phone number |
