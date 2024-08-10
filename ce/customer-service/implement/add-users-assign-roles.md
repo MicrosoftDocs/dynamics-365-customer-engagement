@@ -3,7 +3,7 @@ title: Assign roles, enable users
 description: Perform the steps to assign roles to users and enable them in contact center.
 author: neeranelli
 ms.author: nenellim
-ms.date: 07/01/2024
+ms.date: 08/09/2024
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -103,7 +103,6 @@ Administrator users will need column-level permissions on secure columns when th
 - [Authentication settings](../administer/create-chat-auth-settings.md)
 - [Azure Communication Services](../administer/voice-channel-manage-phone-numbers.md)
 - [Geographical location providers](../administer/geo-location-provider.md)
-- [Google's Business Messages channel](../administer/configure-google-business-messages-channel.md)
 - [Payment profiles for Apple Messages for Business channel](../administer/configure-payment-profiles.md)
 - SMS channels through [TeleSign](../administer/configure-sms-channel.md) and [Twilio](../administer/Configure-sms-channel-twilio.md)
 - [WeChat channel](../administer/configure-wechat-channel.md)
@@ -121,8 +120,6 @@ The entities and their secret attributes are as follows. For more information on
 | msdyn_ocbotchannelregistrationsecret | msdyn_securemsappsecret |
 | msdyn_occommunicationprovidersetting | msdyn_securesecret |
 | msdyn_oc_geolocationprovider | msdyn_secureproviderapikey |
-| msdyn_ocgooglebusinessmessagesagentaccount  | msdyn_agentaccountclienttoken  |
-| msdyn_ocgooglebusinessmessagespartneraccount  | msdyn_partneraccountclienttoken <br> msdyn_base64credentialfilestring <br> msdyn_base64credentialfilestringcontd  |
 | msdyn_ocsmssettingsecret  | msdyn_secureapikey |
 | msdyn_octwitterapplication  | msdyn_securetwitterconsumersecret <br> msdyn_securetwitterconsumerkey  |
 | msdyn_octwitterhandlesecret  | msdyn_useraccesstoken <br> msdyn_useraccesstokensecret  |
