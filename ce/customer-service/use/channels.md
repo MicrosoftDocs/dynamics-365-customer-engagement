@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer:
 ms.topic: conceptual
 ms.collection:
-ms.date: 11/28/2023
+ms.date: 08/09/2024
 ms.custom: bap-template
 ---
 
@@ -72,7 +72,6 @@ If you want to help your customers using social media, you can use the following
 
 - [Apple Messages for Business](../administer/configure-apple-messages-for-business-channel.md)
 - [Facebook](../administer/configure-facebook-channel.md)
-- [Google's Business Messages](../administer/configure-google-business-messages-channel.md)
 - [WhatsApp through Twilio](../administer/configure-whatsapp-channel.md)
 - [WeChat](../administer/configure-wechat-channel.md)
 - [LINE](../administer/configure-line-channel.md)
