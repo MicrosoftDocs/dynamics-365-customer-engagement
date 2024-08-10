@@ -1,7 +1,7 @@
 ---
 title: Configure route-to-queue rules
 description: Follow the steps in this article to configure a route-to-queue ruleset for a workstream in unified routing.
-ms.date: 04/23/2024
+ms.date: 08/09/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -101,13 +101,6 @@ You can configure routing rule conditions for the social channels, such as Faceb
   - **Locale**: For a list of locales, go to Facebook developer documentation.
   - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
   - **User Page Scoped Id**: This is shown as a number string.
-
-- **Google's Business Messages**: Use the **Google's Business Messages** entity to set conditions on the following attributes:
-
-  - Entry point
-  - Place id
-  - Resolved locale
-  - User device locale
 
 - **Apple Messages for Business**: Use the **Apple messages for business** entity to set conditions on the following attributes:
 
