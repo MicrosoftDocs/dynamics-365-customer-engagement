@@ -57,7 +57,7 @@ After you identify the timeframe, budget, and purchase process for a lead, quali
 
 ### New experience
 
-As part of the [new lead qualification experience](define-lead-qualification-experience.md#new-lead-qualification-experience-versus-legacy-experience), your admin can customize several aspects of the lead qualification process.
+As part of the [new lead qualification experience](define-lead-qualification-experience.md#difference-between-new-lead-qualification-experience-and-legacy-experience), your admin can customize several aspects of the lead qualification process.
 
 #### Record creation
 
