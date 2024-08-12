@@ -28,7 +28,7 @@ As an admin, you can customize the lead qualification experience to help sellers
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## New lead qualification experience versus legacy experience
+## Difference between new lead qualification experience and legacy experience
 
 > [!IMPORTANT]
 > The new lead qualification experience is an early access feature. You can [opt in](/power-platform/admin/opt-in-early-access-updates) to use it for testing and adoption in your environments.
