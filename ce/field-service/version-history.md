@@ -24,17 +24,24 @@ For information about older versions, see [Version history archive](version-hist
 | | *USG* | [8.8.121.18](/dynamics365/field-service/version-history#8812118)  | [8.8.122.6](/dynamics365/field-service/version-history#881226) |08/16/2024 |
 |**Station 4** |*Europe* |[8.8.120.18](/dynamics365/field-service/version-history#8812018) |  [8.8.121.18](/dynamics365/field-service/version-history#8812118)   | 08/16/2024 |
 |**Station 5** | *North America*|  [8.8.120.18](/dynamics365/field-service/version-history#8812018) |  [8.8.121.18](/dynamics365/field-service/version-history#8812118)   | 08/23/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |  [8.8.119.15](/dynamics365/field-service/version-history#8811915) |  [8.8.120.18](/dynamics365/field-service/version-history#8812018)   | 08/02/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |  [8.8.120.18](/dynamics365/field-service/version-history#8812018)  |  [8.8.121.18](/dynamics365/field-service/version-history#8812118)   | 08/21/2024 |
 | | *Dedicated Scale Groups* |   [8.8.119.15](/dynamics365/field-service/version-history#8811915)  |   [8.8.120.18](/dynamics365/field-service/version-history#8812018) | 08/16/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.126.6 (2024 wave 2 early access)
+(Includes Universal Resource Scheduling version [3.12.141.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121412---2024-wave-1-early-access-release) and Resource Scheduling controls version 1.2.80.242082).
+
+- Fixed a bug preventing time entries from being set to approved when they are a custom type
+- When toggling status on work order products from estimated to used, then back to estimated, the quantity field will now be cleared.
+
+
 ## 8.8.122.6
 (Includes Universal Resource Scheduling version [3.12.137.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213715) and Resource Scheduling controls version 1.2.76.242082)
 
-•	Field Service Mobile settings now include options to enable the new mobile user experience for specific users based on security role and to selectively enable or disable Copilot skills.
+- Field Service Mobile settings now include options to enable the new mobile user experience for specific users based on security role and to selectively enable or disable Copilot skills.
 
 ## 8.8.121.18
 (Includes Universal Resource Scheduling version [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) and Resource Scheduling controls version 1.2.75.241931)
