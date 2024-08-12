@@ -126,6 +126,6 @@ The summary feature is available for the new user experience in the Field Servic
 
 ### See also
 
-- [FAQ about work order recap with Copilot (preview)](faqs-work-order-recap.md)
+- [FAQ about work order summary with Copilot (preview)](faqs-work-order-recap.md)
 - [New work order experience (preview)](work-order-experience.md)
 - [Responsible AI FAQ for Dynamics 365 Field Service](responsible-ai-overview.md)

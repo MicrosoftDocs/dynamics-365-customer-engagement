@@ -117,9 +117,9 @@ items:
       items:
         - name: Work order creation in Outlook
           href: flw-outlook.md#create-a-work-order-with-copilot
-        - name: Draft email response
+        - name: Draft email response in Outlook
           href: flw-outlook.md#draft-an-email-response-with-copilot
-        - name: Chat with Microsoft Copilot for Field Service plugin
+        - name: Chat with Microsoft Copilot for Field Service
           href: flw-m365-chat.md
 
 - name: Work orders
@@ -608,7 +608,7 @@ items:
       href: faqs-wo-flw-copilot.md
     - name: FAQ about Outlook draft email responses
       href: faqs-flm-copilot-email.md
-    - name: FAQ about work order recap
+    - name: FAQ about work order summary
       href: faqs-work-order-recap.md
     - name: FAQ about work order update
       href: faqs-work-order-update.md
