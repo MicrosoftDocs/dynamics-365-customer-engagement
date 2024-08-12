@@ -1,3 +1,4 @@
+---
 title: Set up product families | MicrosoftDocs
 description: Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products
 ms.date: 08/09/2024
@@ -13,6 +14,7 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
+---
 
 # Set up product families
 
