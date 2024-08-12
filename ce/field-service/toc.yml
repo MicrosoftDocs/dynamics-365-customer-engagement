@@ -101,18 +101,26 @@ items:
 
 - name: Copilot in Field Service
   items:
-    - name: Copilot side pane
-      href: copilot-side-pane.md
-    - name: Work order recap with Copilot
-      href: work-order-recap.md
-    - name: Work order update
-      href: work-order-update.md
-    - name: Work order creation in Outlook with Copilot
-      href: flw-outlook.md#create-a-work-order-with-copilot
-    - name: Draft email response with Copilot
-      href: flw-outlook.md#draft-an-email-response-with-copilot
-    - name: Microsoft Copilot for Field Service work orders
-      href: flw-m365-chat.md
+    - name: Use Copilot in the web app
+      items:
+        - name: Side pane chat
+          href: copilot-side-pane.md
+        - name: Work order summary
+          href: work-order-recap.md
+    - name: Use Copilot in the mobile app
+      items:
+        - name: Work order summary
+          href: work-order-recap.md
+        - name: Work order update
+          href: work-order-update.md
+    - name: Use Copilot in the Microsoft 365 integration
+      items:
+        - name: Work order creation in Outlook
+          href: flw-outlook.md#create-a-work-order-with-copilot
+        - name: Draft email response
+          href: flw-outlook.md#draft-an-email-response-with-copilot
+        - name: Chat with Microsoft Copilot for Field Service plugin
+          href: flw-m365-chat.md
 
 - name: Work orders
   items:
