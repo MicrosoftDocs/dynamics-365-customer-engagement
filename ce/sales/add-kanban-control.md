@@ -84,7 +84,7 @@ There are a few customization restrictions that you should be aware of:
     
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
 

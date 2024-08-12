@@ -114,7 +114,7 @@ You can view the details of the primary data type and the selected column (among
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)  
 [Choose layout and columns](choose-layout-and-columns-forecast.md)

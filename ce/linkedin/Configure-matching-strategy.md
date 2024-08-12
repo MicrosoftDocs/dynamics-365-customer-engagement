@@ -96,7 +96,7 @@ By default, Dynamics 365 Sales maps fields from [!include[LinkedIn](../includes/
 
 3. Change the mapping or rename the field mapping and select **Save** to apply your changes.
 
-### See also
+## Related information
 
 [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](sync-linkedin-leads.md)  
 [Analyze leads and lead performance](review-leads.md)

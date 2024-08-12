@@ -53,7 +53,7 @@ You can generate these custom cards in two ways:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Manage insight cards](manage-custom-cards-flow.md)
 

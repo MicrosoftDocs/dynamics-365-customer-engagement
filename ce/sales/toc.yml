@@ -22,7 +22,7 @@
       href: create-quote-pdf.md
     - name: View and manage records in focused view
       href: focused-view.md
-    - name: Enable focused view and set it as default
+    - name: Configure focused view
       href: set-focused-view-as-default.md
     - name: Work with views
       href: work-with-views.md
@@ -177,6 +177,12 @@
           href: copilot-overview.md
         - name: Turn on and set up Copilot in Dynamics 365 Sales
           href: enable-setup-copilot.md
+        - name: Configure fields for summary and recent changes
+          href: copilot-configure-summary-fields.md
+        - name: Configure fields for what's new
+          href: copilot-configure-whatsnew-field.md
+        - name: Configure Copilot to use SharePoint sites
+          href: copilot-sharepoint-config.md
         - name: Turn on Copilot preview features
           href: copilot-preview-features.md
         - name: Copilot data movement across geographies
@@ -186,7 +192,7 @@
     - name: Overview of focused view
       href: configure-focused-view.md
       items:
-        - name: Configure focused view as default
+        - name: Configure focused view
           href: set-focused-view-as-default.md
         - name: Enable focused view for all records
           href: enable-focused-view.md

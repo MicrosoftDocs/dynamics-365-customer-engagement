@@ -1,7 +1,7 @@
 ---
 title: FAQ about automatic record creation
 description: Learn answers to frequently asked questions about automatic record creation.
-ms.date: 07/19/2024
+ms.date: 07/25/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -47,6 +47,16 @@ No applicable reason can be specified.
 The message **The rule doesn't have any conditions applicable to the record** appears in the activity monitor.
 
 **Resolution**: Revisit the existing rules to ensure that the conditions defined in the rule apply to the incoming email.
+
+### Reason 6
+
+Microsoft Exchange conversations are used to identify emails that are part of a conversation.
+
+**Resolution**: Microsoft Exchange groups related emails and assigns a conversation id to them. This helps identify all the email replies sent to a tracked email.
+
+If you use the correlation option to track and group related email conversations, ARC won't create a case for the email replies, when an active case connected to the tracked emails already exists.
+
+Learn more at [Manage email tracking settings](/power-platform/admin/settings-email-tracking).
 
 ### Why do multiple cases get created from a single email?
 

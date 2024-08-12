@@ -148,7 +148,7 @@ In the [April 19 release](/power-platform/admin/preview-october-2019-updates#whe
 
 - While using **Advanced Find**, users see the new entities introduced by these solutions (InMails, Messages, and Smart Links) even if the integration wasn't enabled. This is the intended behavior; users can ignore these entities if they aren't actively using LinkedIn Sales Navigator.
 
-### See also
+## Related information
 
 [Overview for LinkedIn Sales Navigator solutions](integrate-sales-navigator.md)  
 [Customize forms to show Sales Navigator controls](add-sales-navigator-controls-forms.md)  

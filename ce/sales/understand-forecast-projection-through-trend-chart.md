@@ -62,7 +62,7 @@ If you don't want to view any forecast category on the chart, select the forecas
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)<br>
 [About premium forecasting](configure-premium-forecasting.md)

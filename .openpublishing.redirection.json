@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "ce/field-service/rso-administration.md",
+      "redirect_url": "/dynamics365/field-service/rso-deployment",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/field-service/rso-schedule-optimization.md",
+      "redirect_url": "/dynamics365/field-service/rso-optimization-schedule",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/field-service/rso-predictive-travel.md",
+      "redirect_url": "/dynamics365/field-service/rso-optimization-goal",
+      "redirect_document_id": "false"
+   },
+    {
       "source_path": "ce/field-service/add-resource-schedule-board.md",
       "redirect_url": "/dynamics365/field-service/work-with-schedule-board",
       "redirect_document_id": "false"
@@ -27773,6 +27788,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/set-work-hours-resource.md",
+      "redirect_url": "/dynamics365/field-service/set-up-bookable-resources",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/app-profile-manager/add-profile-default.md",
       "redirect_url": "../customer-service/administer/add-profile-default",
       "redirect_document_id": false
@@ -32805,6 +32825,26 @@
     {
       "source_path": "ce/field-service/flw-troubleshooting.md",
       "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/sample-config-azure-bot.md",
+      "redirect_url": "configure-bot-azure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/voice-channel-usage.md",
+      "redirect_url": "/dynamics365/customer-service/use/realtime-voice-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/google-business-messages.md",
+      "redirect_url": "/dynamics365/customer-service/use/channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/configure-google-business-messages-channel.md",
+      "redirect_url": "/dynamics365/customer-service/use/channels",
       "redirect_document_id": false
     }
   ]
