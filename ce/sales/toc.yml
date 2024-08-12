@@ -274,7 +274,7 @@
       items:
         - name: Lead management overview
           href: lead-management-overview.md
-        - name: Define lead qualification experience
+        - name: Customize lead qualification experience
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
           href: enable-duplicate-lead-detection.md
