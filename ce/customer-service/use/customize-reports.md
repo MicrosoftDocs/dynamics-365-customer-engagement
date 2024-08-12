@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/06/2023
+ms.date: 06/21/2024
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -15,6 +15,8 @@ search.audienceType:
 ---
 
 # Customize visual display
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Dynamics 365 Customer Service provides out-of-the-box analytics reports that help you visualize key performance indicators (KPIs) and trends for standard contact center workflows. You can use an embedded Power BI editor to customize the out-of-the-box reports to meet your organization's needs:
 

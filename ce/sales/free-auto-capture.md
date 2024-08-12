@@ -3,7 +3,7 @@ title: Auto capture in Dynamics 365 Sales
 description: Use the auto capture to capture activities related to your emails and contacts, and display on timeline.
 ms.date: 03/13/2024
 ms.custom: bap-template
-ms.topic: Overview
+ms.topic: overview
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -73,7 +73,7 @@ Auto capture queries your Outlook account and looks for activities related to th
 |Custom entities|For *account* fields: the email address for the **Primary Contact** of the account, plus all **Email** addresses defined for the account record itself.<br /><br /> For *contact* fields: all **Email** addresses defined for the contact record.<br /><br /> For *customer* fields that refer to a contact: all **Email** addresses defined for the contact record.<br /><br /> For *customer* fields that refer to an account: the **Email** address of the listed **Primary Contact**, plus all **Email** addresses defined for the account record itself.|  
 
 
-### See also
+## Related information
 
 [Enable and configure auto capture](configure-auto-capture.md)
 

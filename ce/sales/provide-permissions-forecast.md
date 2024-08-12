@@ -82,7 +82,7 @@ When you've finished setting permissions, select **Next**.
 </td></tr>
 </table>
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)
 

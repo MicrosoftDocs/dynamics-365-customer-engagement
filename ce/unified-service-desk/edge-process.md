@@ -1,15 +1,14 @@
 ---
 title: "Use the Edge Process hosting method for hosting web applications  | MicrosoftDocs"
 description: "Learn about the Edge Process hosting method and its advantages for hosting your controls in Unified Service Desk."
-ms.date: 12/19/2018
+ms.date: 06/27/2024
 ms.topic: "article"
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 
 # Use Edge Process to host web applications

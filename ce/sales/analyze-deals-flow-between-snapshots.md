@@ -10,6 +10,9 @@ ms.custom: bap-template
 ---
 # Analyze deals flow between forecast snapshots
 
+> [!NOTE]
+> Starting June 30, 2024, snapshots feature in forecasting will be deprecated. [Learn more](deprecations-sales.md#snapshot-deprecation). 
+
 As a sales manager, analyzing the deals flow between snapshots helps you identify deals that are moving in the right direction and those deals that need attention to meet your sales forecast. You can drill in to specific deals that have contributed to the increase or decrease in your forecast commitment. This analysis enables you to follow up with your teams and coach them on how to improve your forecast accuracy.
 
 ## License and role requirements
@@ -74,7 +77,7 @@ Seeing the deals flow of other users depends on the sales hierarchy defined for 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
 
 [View snapshots](view-snapshots.md)  
 [Take snapshots automatically](manage-snapshots-forecast.md)  

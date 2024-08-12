@@ -1,7 +1,7 @@
 ---
 title: Set up intelligent skill finder model in unified routing
 description: Use the information to set up intelligent skill finder model for unified routing in Customer Service.
-ms.date: 09/19/2023
+ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Set up intelligent skill finder model
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 To configure machine learning-based skill classification rulesets, you can configure intelligent skill finder models that can be used for predicting skills.
 
 You can create, test, and train machine-learning models that use AI to determine the necessary skills for new work items and by using the data in Microsoft Dataverse. However, if you're trying to set up the model in a new organization or if skill-based routing wasn't in use, you might not have the needed skill data. In such conditions, you can use data from another application by using the **Import from Excel** option in the skill finder model.
@@ -20,6 +22,10 @@ Intelligent skill finder depends upon the custom AI Builder category classificat
 
  > [!IMPORTANT]
  > If you want to import skill finder models from one environment to another, make sure that you import and export between environments of the same type. A model trained in test environment will work in another test environment only and not in a production environment.
+
+  ## Prerequisite
+
+You must enable [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) to use the intelligent skill finder model.
 
 ## Create skill finder models
 

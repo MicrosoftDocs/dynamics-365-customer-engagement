@@ -16,7 +16,7 @@ ms.reviewer: lavanyakr
 
 With this integration, Dynamics 365 users can use dialers provided by third-party telephony companies such as Twilio Flex, to make and receive phone calls in Dynamics 365, and get real-time AI-generated insights and rich post-call analysis of their calls. [Learn more about Dynamics 365 conversation intelligence](dynamics365-sales-insights-app.md)  
 
-[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## How the integration works
 
@@ -339,6 +339,6 @@ When Dynamics 365 receives the **callStarted** event from the dialer, you'll hav
 
 After selecting **Record**, you'll be able to see the real-time transcription during the call and a full summary and call insights at the end of the call. 
 
-### See also
+## Related information
 
 [View and understand the call summary page](view-and-understand-call-summary-sales-app.md)

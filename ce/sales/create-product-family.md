@@ -80,7 +80,10 @@ With product families, you can:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information  
+ [Set up a product catalog](set-up-product-catalog-walkthrough.md)   
+ [Clone a product](clone-product.md)<br>
+ [Change the parent of a product (reparenting)](change-product-parent.md)  
 
 [Set up a product catalog](set-up-product-catalog-walkthrough.md)  
 [Clone a product](clone-product.md)<br>

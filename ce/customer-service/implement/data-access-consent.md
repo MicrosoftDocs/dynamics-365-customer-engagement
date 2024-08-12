@@ -1,7 +1,7 @@
 ---
-title: "Data access consent | MicrosoftDocs"
-description: "Learn about the consent requirements that are required for provisioning Omnichannel for Customer Service."
-ms.date: 08/31/2023
+title: Data access consent
+description: Learn about the consent requirements that are required for provisioning Omnichannel for Customer Service.
+ms.date: 07/01/2024
 author: neeranelli
 ms.author: nenellim
 ms.topic: reference
@@ -9,7 +9,7 @@ ms.topic: reference
 
 # Provide consent to access data to provision Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
@@ -50,9 +50,7 @@ A detailed explanation is as follows:
     - **Reports**: Omnichannel Insights for Dynamics 365
     - **Datasets**: Omnichannel Insights for Dynamics 365
   
-    More information:
-     [Omnichannel Insights for Dynamics 365 - Power BI App](https://appsource.microsoft.com/product/power-bi/ms_dynmcsfnp.ms_dynamics_cca_da_oc_analytics)  
-     [Omnichannel Insights Dashboard](omnichannel-insights-dashboard.md#omnichannel-insights-dashboard)
+    More information: [Omnichannel Insights Dashboard](omnichannel-insights-dashboard.md#omnichannel-insights-dashboard)
 
 - **Sign in and read your profile**: Allows Omnichannel to sign into the app with user’s work account and let the app read the user profile. It also allows the app to read basic company information.
 

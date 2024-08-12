@@ -5,11 +5,13 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: conceptual
-ms.date: 04/05/2023 
+ms.date: 07/01/2024
 ms.custom: bap-template 
 ---
 
 # FAQs about adding users to agent experience profile
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 This article contains the frequently asked questions (FAQ) that you as an administrator might have when adding users to the custom agent experience profiles using the **Set as default** and **Set rank and roles** options in Customer Service admin center.
 

@@ -39,7 +39,7 @@ The Copilot for email assist feature helps sellers to generate content for email
 
 Copilot is enabled in your app and sellers can use the feature to compose emails. 
 
-### See also
+## Related information
 
 [Use Copilot for email messages](use-copilot-email.md)  
 [Compose and send email messages using Copilot](compose-send-email-copilot.md)

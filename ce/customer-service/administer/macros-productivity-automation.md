@@ -1,5 +1,5 @@
 ---
-title: Use productivity automation macros 
+title: Create productivity automation macros 
 description: Learn about how to use productivity automation macros in Dynamics 365 Customer Service.
 author: gandhamm
 ms.author: mgandham
@@ -10,7 +10,9 @@ ms.date: 05/14/2024
 ms.custom: bap-template 
 ---
 
-# Use productivity automation macros
+# Create productivity automation macros
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
  You can automate the following tasks with productivity automation macros: 
 
@@ -364,7 +366,7 @@ Perform the following steps to create a macro to clone an existing case. The exi
    - **Attribute Value**: `[{"id": "${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`
    - **Attribute Name**: ticketnumber
    - **Attribute Value**:  
-1. Add the **Save the record** action to generate and set the ticketnumber for the child case.</li></ol>|
+1. Add the **Save the record** action to generate and set the ticketnumber for the child case.</li></ol>
 
 ## Set Agent Script focus
 
@@ -376,7 +378,7 @@ Sets the focus on an agent script that needs to run next. The agent script is se
 
 ### Example: Update the priority of a case and set focus to another agent script
 
-Perform the following steps to create a macro that updates the priority of a case to high and then switches to another agent script.
+Perform the following steps to create a macro that updates the priority of a case to high and then switches to another agent script. The agent script in focus must be associated with the session template.
 1. Add the **Update an existing record** action with the following attributes:
     - **Entity record ID**: `${anchor.incidentid}`
     - **Entity logical name**: `incident`

@@ -172,7 +172,7 @@ The tag is removed from the sequence.
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 
-### See also
+## Related information
 
 [What is the sales accelerator?](sales-accelerator-intro.md)  
 [Create and connect sequences for yourself](create-sequence-seller.md)  

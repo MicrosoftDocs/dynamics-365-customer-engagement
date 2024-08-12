@@ -48,7 +48,7 @@ Add products and services as price list items to the price list. For more inform
 
 1. On the **Pricing information** tab, enter the following information:
 
-   - **Pricing Method**: **Currency Amount**
+   - **Pricing Method**: Select **Currency Amount**.
    - **Amount**: The price of the product or service or the hourly rate for services.
 
 1. Select **Save**.

@@ -17,7 +17,7 @@ ms.custom:
 
 # Analytics reports refresh and data retention
 
-## About this report
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 About this report is a link that you can select to view the corresponding documentation.
 

@@ -1,6 +1,6 @@
 - name: Dynamics 365 Customer Service
   items: 
-    - name: Manage your contact center
+    - name: Use Dynamics 365 Customer Service
       items:
       - name: Dynamics 365 Customer Service documentation
         href: ../index.yml
@@ -34,6 +34,8 @@
             href: customer-service-hub-user-guide-create-a-case.md
           - name: Use enhanced case forms to manage cases
             href: enh-casemgmt-csw.md
+          - name: Track your time on cases (preview)
+            href: case-handling-time.md  
           - name: Resolve, cancel, and reassign cases
             href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
           - name: Merge cases
@@ -248,8 +250,6 @@
           href: sms-telesign-twilio.md
         - name: Use Facebook channel
           href: facebook.md
-        - name: Use Google's Business Messages channel
-          href: google-business-messages.md
         - name: Use WhatsApp channel
           href: whatsapp.md
         - name: Use Microsoft Teams channel
@@ -287,7 +287,7 @@
         - name: Ask a question 
           href: use-copilot-features.md#ask-a-question
         - name: Draft a chat response (preview)
-          href: use-copilot-features.md#draft-a-chat-response-preview
+          href: use-copilot-features.md
         - name: Write an email with Copilot
           href: use-copilot-email.md
         - name: Use Copilot filters

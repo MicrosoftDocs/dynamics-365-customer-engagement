@@ -2,7 +2,7 @@
 title: "Search resource availability API in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to use an API to find eligible resources in Field Service. 
 ms.date: 08/04/2022
-ms.topic: article
+ms.topic: reference
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -106,6 +106,10 @@ At the highest level, the output has the following four parameters. The results 
 | Next| Entity  | This entity contains details about the travel time and distance to the next time slot booking. <ol> <li> **NextScheduleLocation**	(_Entity_): The location of the next booking. The entity has two attributes: <ul> <li>Latitude <li>Longitude </ul> <li> **NextScheduleTravelTime** (_Integer_):	The travel time to the next booking in minutes. |
 | Availability| Entity | The detailed availability information for a time slot. This is used in connection with time groups. <ol> <li> **AvailableIntervals**	(_EntityCollection_):	A collection of available intervals. Each entity in this collection contains details about a time group interval. <ul> <li> **StartTime**	(_DateTime_):	The start time.<li> **ArrivalTime**	(_DateTime_):	The arrival time.<li> **EndTime**	(_DateTime_):	The end time.<li> **TimeGroupId**	(_DateTime_):	The time group id.<li> **TimeGroupDetailStartTime**	(_DateTime_):	The time group start time. <li> **TimeGroupDetailEndTime**	(_DateTime_):	The time group end time.</ul> <li> **TotalAvailableDuration**	(_Double_):	The total available duration in minutes. <li> **TotalAvailableTime** (_Double_): The total available time a resource has in a day (in minutes).|
 | TimeGroup| Entity | The details about a time group. <ol> <li> **TimeGroupId**	(_Guid_):	The time group Id. <li> **TimeGroupDetail**	(_EntityReference_):	An entity reference to the time group detail. <li> **TimeGroupDetailStartTime**	(_DateTime_):	The time group detail start time. <li> **TimeGroupDetailEndTime**	(_DateTime_):	The time group detail end time.|
+
+> [!TIP] 
+> When you create bookings with the API, use the _Potential_ field described in the table. Not using that field might lead to overlapping or unsuitable bookings. 
+  
 
 #### Time slot resource
 

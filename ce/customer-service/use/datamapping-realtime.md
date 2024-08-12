@@ -6,11 +6,16 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 06/12/2023
+ms.date: 07/05/2024
 ms.custom: bap-template
 ---
 
 # Data model mapping for real-time analytics reports in Omnichannel for Customer Service
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
 
 This article describes the Data Analysis Expressions (DAX) logic for real-time metrics, which you can use to build your logic and create your own metrics. More information: [DAX function reference](/dax/dax-function-reference)
 

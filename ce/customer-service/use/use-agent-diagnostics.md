@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Use agent diagnostics as a self-help tool
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 The agent diagnostics tool helps you identify and address issues in your environment. Use the tool to run a set of predefined rules from Microsoft to diagnose frequent issues. You can download a report to send to admins or support and reduce support tickets.
 
 Out of the box, the following rules are available:

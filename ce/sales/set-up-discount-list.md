@@ -88,7 +88,7 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
  
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
  
-### See also  
+## Related information  
  [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)
 
 
