@@ -64,7 +64,7 @@ For example, for incoming calls, the conversation gets accepted only on one brow
 
 > [!NOTE]
 > - Ensure that you close the persistent chat sessions in all the windows where you have the same chat open. Else, other windows will still allow you to send messages even after you've selected **End** to end the chat in one chat window.
-> - When you accept a voice conversation, from different tabs or windows, your capacity may be impacted. To join a voice conversation in a new browser, you must close the session in the current browser and open it in the new browser.
+> - When you accept a voice conversation, from different tabs or windows, your capacity may be impacted. To join a voice conversation in a new browser, you must close the session in the current browser and open it on a new browser.
 
 
 ### See also
