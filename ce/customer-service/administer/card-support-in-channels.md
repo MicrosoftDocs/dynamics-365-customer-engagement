@@ -1,7 +1,7 @@
 ---
 title: Support for live chat and asynchronous channels
 description: Get information on the support for adaptive cards, suggested actions, emojis, stickers, file attachments, and message formatting in live chat and asynchronous channels.
-ms.date: 08/09/2024
+ms.date: 08/12/2024
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -146,7 +146,7 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 [Bring your own custom messaging channel using Direct Line](../develop/bring-your-own-channel.md)  
 [Configure custom messaging channel](configure-custom-channel.md)  
 
-### See also
+### Related information
 
 [Overview of channels](../use/channels.md)  
 [Enable file attachments](enable-file-attachments.md)  
