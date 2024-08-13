@@ -1,7 +1,7 @@
 ---
 title: Data validation capabilities of LinkedIn Sales Navigator
 description: Learn how to access and use the data validation capabilities of LinkedIn Sales Navigator. The solution uses LinkedIn information to validate contact records.
-ms.date: 03/08/2024
+ms.date: 08/13/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -29,7 +29,7 @@ To ensure timely updates if a matched contact changes the company, the following
 
 - You must have a Microsoft Relationship Sales solution Plus license. To learn more, see the **Dynamics 365 Sales** section from the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-- The data validation settings are turned on in **Settings** > **Business Management** > **Sales Navigator Integration Settings**. When the data validation feature is turned on for the first time, you'll get updates about the company change status for the past two years. Afterwards, the updates come are sent to the system on daily basis, every 24 hours.
+- The data validation settings are turned on in **Settings** > **Business Management** > **Sales Navigator Integration Settings**. When the data validation feature is turned on for the first time, you get updates about the company change status for the past two years. Afterwards, the updates come are sent to the system on daily basis, every 24 hours.
 
 ## Access the data validation capabilities Dynamics 365 Sales
 
@@ -57,7 +57,10 @@ To update the org chart for a specific contact, perform the following steps in t
 
 ## Ignore the contact details
 
-To ignore a proposed update of an org chart, select **Ignore**  in the **Verify Contact Details** pane. This option ignores only the current update. If the contact has changes in the future, you'll be notified again. 
+To ignore a proposed update of an org chart, select **Ignore Update**  in the **Verify Contact Details** pane. This option ignores only the current update. If the contact has changes in the future, you are notified again. Your administrator must enable the **See personnel and employment changes** setting in the **Sales Navigator Integration Settings**.  
+Also, You can ignore all the updates for the contact by selecting **Ignore Updates**. Your administrator must enable the **Hide employment notification** setting in the **Sales Navigator Integration Settings**.  
+
+To know more about the settings, see [Enable LinkedIn Sales Navigator](install-sales-navigator.md#enable-linkedin-sales-navigator).
 
 ## Related information
 
