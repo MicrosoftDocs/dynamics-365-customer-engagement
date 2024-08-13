@@ -1,7 +1,7 @@
 ---
 title: International availability of Omnichannel for Customer Service
 description: Discover which geographic locations and languages are supported by Omnichannel for Customer Service.
-ms.date: 08/09/2024
+ms.date: 08/12/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -73,7 +73,7 @@ The product user interface (UI) is available in the following languages.
 
 To know the languages that are supported in analytics, see [Multilingual sentiment](../administer/enable-sentiment-analysis.md#multilingual-sentiment).
 
-### See also
+### Related information
 
 [Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)  
 [Introduction to channels in Omnichannel for Customer Service](../use/channels.md)  
