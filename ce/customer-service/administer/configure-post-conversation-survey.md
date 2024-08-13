@@ -82,7 +82,7 @@ If the post-conversation survey is enabled for a conversation, after the convers
 
 - Agent closes the chat conversation
 - Customer closes the chat conversation
-- System closes the chat conversation after a pre-defined time
+- System closes the chat conversation after a predefined time
 
 For Live chat conversations, customers can receive survey questions within the same conversation or through a link that takes them to an external site. For SMS and social channels, a survey link is shared.
 
