@@ -3,7 +3,7 @@ title: Assign roles, enable users
 description: Perform the steps to assign roles to users and enable them in contact center.
 author: neeranelli
 ms.author: nenellim
-ms.date: 08/09/2024
+ms.date: 08/12/2024
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -131,7 +131,7 @@ The entities and their secret attributes are as follows. For more information on
 1. In Power Platform admin center, create or update the column security profile. More information: [Associate security profiles and set permissions](/power-platform/admin/set-up-security-permissions-field#associate-security-profiles-and-set-permissions)
 1. Provide the read, update, or create permissions to the security profile on the columns that correspond to the secret attributes mentioned in the preceding table.
 
-### See also
+### Related information
 
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
 [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md)  
