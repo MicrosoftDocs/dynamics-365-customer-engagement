@@ -51,16 +51,18 @@ To update the org chart for a specific contact, perform the following steps in t
 
 1. In Dynamics 365 Sales, open the **Verify Contact Details** pane as described in the section above.
 
-2. Under the LinkedIn Sales Navigator widget, search for the new account of this contact using the **Change Account** field.
+2. Under the **LinkedIn Sales Navigator** widget, search for the new account of this contact using the **Change Account** field.
 
 3. Select **Update contact** to change the company information of the contact.
 
-## Ignore the contact details
+## Ignore the proposed update to a contact
 
-To ignore a proposed update of an org chart, select **Ignore Update**  in the **Verify Contact Details** pane. This option ignores only the current update. If the contact has changes in the future, you are notified again. Your administrator must enable the **See personnel and employment changes** setting in the **Sales Navigator Integration Settings**.  
-Also, You can ignore all the updates for the contact by selecting **Ignore Updates**. Your administrator must enable the **Hide employment notification** setting in the **Sales Navigator Integration Settings**.  
+>[!NOTE]
+>Your administrator must enable the **Personnel and employment changes** setting in the **Sales Navigator Integration Settings** to ignore a contact's company change. To know more about the setting, see [Enable LinkedIn Sales Navigator](install-sales-navigator.md#enable-linkedin-sales-navigator). 
 
-To know more about the settings, see [Enable LinkedIn Sales Navigator](install-sales-navigator.md#enable-linkedin-sales-navigator).
+To ignore a proposed update of an org chart, select **Ignore Update** in the **Verify Contact Details** pane. This option ignores only the current update. If the contact has changes in the future, you are notified again.  
+
+When your administrator enables the **Hide employment notification** setting in the **Sales Navigator Integration Settings**, selecting **Ignore Updates** ignore all current and future updates for the contact.  
 
 ## Related information
 
