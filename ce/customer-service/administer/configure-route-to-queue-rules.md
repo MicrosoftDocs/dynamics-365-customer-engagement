@@ -133,7 +133,7 @@ You can configure routing rule conditions for the social channels, such as Faceb
   - Organization Phone Number
   - SMS Provider
 
-### See also
+### Related information
 
 [Manage overflow conditions](manage-overflow.md)  
 [Create and manage queues](queues-omnichannel.md)  
