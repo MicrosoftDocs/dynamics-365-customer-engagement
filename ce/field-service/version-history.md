@@ -34,7 +34,7 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.126.6 (2024 wave 2 early access)
 (Includes Universal Resource Scheduling version [3.12.141.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121412---2024-wave-1-early-access-release) and Resource Scheduling controls version 1.2.80.242082).
 
-- Fixed a bug preventing time entries from being set to approved when they are a custom type
+- Fixed a bug preventing time entries from being set to approved when they are a custom type.
 - When toggling status on work order products from estimated to used, then back to estimated, the quantity field will now be cleared.
 
 
