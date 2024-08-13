@@ -156,6 +156,8 @@ One of the following Windows versions:
   
 ### Supported operating systems
 
+One of the following Windows versions:
+- Windows 11
 - Windows 10
 
 ### Additional software requirements
