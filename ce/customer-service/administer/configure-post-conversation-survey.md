@@ -89,7 +89,7 @@ For Live chat conversations, customers can receive survey questions within the s
 > [!NOTE]
 > The surveys that you create and the survey data that's processed are not hosted or stored in Omnichannel for Customer Service.
 
-### See also
+### Related information
 
 [Add a chat widget](add-chat-widget.md)  
 [Channels](../use/channels.md)  
