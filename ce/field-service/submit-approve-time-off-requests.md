@@ -16,9 +16,9 @@ When a resource has an approved time-off request, the scheduling assistant doesn
   
 If a bookable resource is set to require time-off approval, an approval request is sent to that user's manager before the time-off request shows in the scheduling tools.  
 
-## Prerequisites
+## Set up a time-off approval
 
-For each resource, determine if their time-off requests must be approved in order to take effect and show as unavailable on the schedule board.
+If a resource must have their time-off requests approved before the resource's time shows as unavailable on the schedule board, perform the following steps.
 
 1. In Resource Scheduling, select **Resources**.
 
@@ -40,7 +40,7 @@ For each resource, determine if their time-off requests must be approved in orde
 
 ## Approve a time-off request  
 
-If the related resource requires an approval, a **Field Service-Administrator** or **Field Service-Dispatcher** must approve the request. If you use custom column security profiles, [set up column-level security permissions](/power-platform/admin/set-up-security-permissions-field). To approve a time-off request, set up users with **Update** permissions for the *msdyn_ApprovedBy* column in the *msdyn_TimeOffRequest* table. Disabling the *msdyn_ApprovedBy* column-level security in the *msdyn_TimeOffRequest* table doesn't allow users to approve time-off requests.
+If the related resource requires an approval, a **Field Service-Administrator** or **Field Service-Dispatcher** must approve the request. If you use custom column security profiles, [set up column-level security permissions](/power-platform/admin/set-up-security-permissions-field) and give users **Update** permissions for the *msdyn_ApprovedBy* column in the *msdyn_TimeOffRequest* table. Disabling the *msdyn_ApprovedBy* column-level security in the *msdyn_TimeOffRequest* table doesn't allow users to approve time-off requests.
 
 1. In **Field Service**, under **Scheduling** select **Time Off Requests**.
 
@@ -72,6 +72,6 @@ Time off requests can be edited or deleted from the resource's calendar only. On
 
    :::image type="content" source="media/time-off-edit-delete.svg" alt-text="Screenshot of the monthly view of a resource's work hours, showing the edit and delete option.":::
 
-1. Select **Edit** or **Delete** to edit the time-off or delete it.
+1. Select **Edit** or **Delete** to edit the time-off or delete it. Then select **Save & Close**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
