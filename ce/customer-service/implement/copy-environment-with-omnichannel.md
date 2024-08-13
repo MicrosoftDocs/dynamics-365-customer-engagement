@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: 
 ms.topic: how-to
 ms.collection: 
-ms.date: 08/09/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ai.usage: ai-assisted
 ---
@@ -85,6 +85,6 @@ If you chose the full copy option, it can take up to an hour for Omnichannel for
 
 1. To make sure that [historical analytics reports](../administer/oc-historical-analytics-reports.md) reflect information in the target environment, on the historical analytics page in the Customer Service admin center, turn off **Enable Omnichannel historical analytics report**, and then turn it back on.
 
-### See also
+### Related information
 
 - [Export and import app configuration data](export-import-omnichannel-data.md)
