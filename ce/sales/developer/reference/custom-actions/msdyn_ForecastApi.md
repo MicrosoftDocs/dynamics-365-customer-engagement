@@ -399,7 +399,7 @@ A list of `UpdateSimpleColumnByEntityResponse` records consisting of `ForecastIn
 
 ### GET_ParticipatingRecordsFetchxml
 
-Returns the underlying records in a forecast.
+Returns the fetch XML to retrieve the underlying records in a forecast.
 
 #### Example
 
@@ -428,7 +428,7 @@ Content-Type: application/json
 | HierarchyRecordId      | GUID  | The record ID for which the underlying record should be retrieved. Example, Kenny Smith.|
 | ForecastInstanceId     | GUID  | Forecast instance ID |
 | ForecastConfigurationColumnId | GUID  | ID of the forecast column that needs to be retrieved. Forecast columns can be best case, pipeline, won, lost, and so on. Only one column ID can be specified per request. To retrieve more columns, send a request for each column.|
-| RecordViewId           | GUID  | Don't change. This value is used internally to determine the view.|
+| RecordViewId           | GUID  | Record view ID of the underlying records. Learn more about getting the view ID in [savedquery EntityType](/power-apps/developer/data-platform/webapi/reference/savedquery)  |
 | IsRolledUpNodeRequested| Boolean | Specifies whether to return the values for the rolled up node (group) or individual node. If set to true, all the records under the group node is returned. If set to false, just the individual's record is returned. |
 
 #### Response
@@ -442,6 +442,7 @@ Content-Type: application/json
 
 }
 ```
+
 #### Return value
 
 A fetchxml query that returns the underlying records in a forecast.
