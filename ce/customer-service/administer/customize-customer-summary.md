@@ -1,7 +1,7 @@
 ---
 title: Customize the Active Conversation form
 description: Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Omnichannel for Customer Service.
-ms.date: 07/01/2024
+ms.date: 08/13/2024
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -25,6 +25,7 @@ You can customize the following for the **Active Conversation** page:
 > - For a conversation entity, you can't add custom forms.<br>
 > - We recommend that you don't:
 >   - Change the Conversation form or the order in which it's displayed, as it's the default form.
+>   - Add more than a three-column layout for the **Active Conversation** form.
 >   - Modify the out-of-the-box JavaScript handlers and web resource used in the Active Conversation form.
 >   - Remove the form initiator control from the **Search customer** and **Search issue** lookup controls.
 
