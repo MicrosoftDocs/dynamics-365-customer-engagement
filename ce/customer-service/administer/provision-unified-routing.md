@@ -1,7 +1,7 @@
 ---
 title: Provision unified routing in Customer Service
 description: Learn how to provision unified routing in Customer Service.
-ms.date: 08/07/2024
+ms.date: 08/16/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -33,26 +33,9 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Routing**. The **Routing** page appears.
    
-1. Select **Manage unified routing** > **Manage**.
+1. In **Manage unified routing**, select **Manage**.
 
-1. If consent is already provided by the tenant administrator, go to **Step 5**.
-
-    If consent to access isn't provided by the tenant administrator, in the **Unified routing** section, the following message with a link to the consent page is displayed:
-
-      "Unified routing requires application permissions. A tenant administrator must provide consent before it can be turned on. Provide consent."
-
-1. Select **Provide consent**. The following consent form appears on a new tab.
-
-    > [!div class=mx-imgBorder]
-    > ![Consent to allow access to data.](../media/data-consent.png "Consent to allow access to data")
-
-    For information on consent, see [Consent to access data to provision Omnichannel for Customer Service](../implement/data-access-consent.md)
-
-1. Select **Consent on behalf of your organization**, and select **Accept**.
-
-1. After access is granted, you can close the page to return to the **Manage unified routing** page.
-
-1. Switch the toggle to **Yes** for **Unified routing**.
+1. On the **Manage unified routing** page, switch the toggle to **Yes** for **Unified routing**.
 
 1. Select **Save**. A message that unified routing provisioning is in process appears.
 
