@@ -9,9 +9,7 @@ ms.author: jshum
 
 # Add inspections to work orders
 
-Create inspections and add them to work orders for Field Service technicians to use. Learn more in [Inspections overview](inspections-overview.md).
-
-With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](./inspections-reporting.md#understand-view-and-report-inspection-responses), making it easy to [report on results](inspections-reporting.md) and fit inspections into your automated business processes.
+Create inspections and add them to work orders for Field Service technicians to fill out online. Learn more in [Inspections overview](inspections-overview.md).
 
 This article provides an example of creating an inspection using a maintenance checklist on a customer asset.
 
