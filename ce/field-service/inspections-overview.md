@@ -9,7 +9,7 @@ ms.author: jshum
 
 # Inspections overview
 
-Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments. You can also [create inspections wihtout a work order](inspections-customer-assets.md).
+Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments. You can also [create inspections without a work order](inspections-customer-assets.md).
 
 Inspections in Field Service provide:
 
@@ -21,7 +21,7 @@ Inspections in Field Service provide:
 
 The inspection process involves the following steps:
 
-1. Administrator creates an inspection template and then publishes it which associates the inspection to a **Service Task Type**.
+1. Administrator creates an inspection template and then publishes it, which associates the inspection to a **Service Task Type**.
 1. Dispatcher adds the **Service Task Type** to a **Work Order**.
 1. Technician completes the inspection.
 1. Dispatcher views the inspection results.
