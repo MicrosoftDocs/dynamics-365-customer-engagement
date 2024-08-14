@@ -1,7 +1,7 @@
 ---
 title: Install LinkedIn Sales Navigator for Dynamics 365
 description: Learn how to install and enable the LinkedIn Sales Navigator for your organization. You can install through Advanced Settings, AppSource, or App Settings.
-ms.date: 08/13/2024
+ms.date: 08/14/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -116,7 +116,7 @@ When enabled, the Sales Navigator controls appear on Account, Contact, Lead, and
 1. On the **LinkedIn integration** page, toggle the following options to enable:  
     - **Sales navigator integration**: Allows you to see LinkedIn Sales Navigator controls on Account, Contact, Lead, and Opportunity forms.  
     - **Daily profile picture updates**: Allows you to see the latest profile pictures of your contacts that are updated in LinkedIn.  
-    - **Personnel and employment changes**: Allows you to see personnel and employment changes of your contacts that are updated in LinkedIn.  
+    - **Personal and employment changes**: Allows you to see personal and employment changes of your contacts that are updated in LinkedIn.  
     - **Hide employment notification**: Allows you to hide the employment notification of your contacts that are updated in LinkedIn when sellers select **Ignore Update** on the **Verify Contact Details** pane.  
 
     :::image type="content" source="../sales/media/enable-sales-hub-enable-linkedin-integration-options.png" alt-text="Screenshot of enabling the LinkedIn Sales Navigation options.":::
@@ -127,7 +127,7 @@ After you have enabled the LinkedIn Sales Navigator solution, [enable CRM sync a
 
 ## Enable CRM sync and activity writeback
 
-By enabling the CRM sync and activity writeback, the Sales Navigator matches the Accounts, Leads, and Contacts in Dynamics 365 Sales. It also saves information you create in Sales Navigator directly in your Dynamics 365 Sales, including InMails and Messages.
+By enabling the CRM sync and activity writeback, the Sales Navigator matches the Accounts, Leads, and Contacts in Dynamics 365 Sales. The sync also allows you to see the data created in LinkedIn Sales Navigator from Dynamics 365 Sales, including InMails and Messages.
 
 To enable the CRM sync and activity writeback, follow the process as defined in [CRM Sync & Activity Writeback for Dynamics 365](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback).
 
