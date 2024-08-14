@@ -111,4 +111,4 @@ Opportunity stage is updated based on the audit history of the opportunity. Copi
 
 ## Related information
 
-[Get information from Copilot](copilot-get-information)
+[Get information from Copilot](copilot-get-information.md)
