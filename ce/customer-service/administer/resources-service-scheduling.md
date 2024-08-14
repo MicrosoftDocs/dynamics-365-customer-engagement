@@ -189,7 +189,7 @@ You can set work hours for the bookable resources where you can define when the 
 > [!NOTE]
 > To define a time when a service won’t be available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog box, select the service, and select the start and end time between which the service will be unavailable, and then select **OK**.  
 
-### See also
+### Related information
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
 

@@ -137,7 +137,7 @@ You can configure the attachment file types you want to block to prevent users f
 
 4. Type one or more file extensions you want to block. Users who try to upload a blocked file type see an error message that tells them the attachment is blocked.
 
-### See Also
+### Related information
 
 [Use email](../customer-service-hub-user-guide-email-overview.md)<br>
 [Create an email template](../customer-service-hub-user-guide-email-create-template.md)<br>

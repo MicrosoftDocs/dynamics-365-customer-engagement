@@ -101,7 +101,7 @@ You can view the core case metrics by channel or core case metrics in relation t
 
 :::image type="content" source="../media/case-metrics.png" alt-text="View case metrics by channel or in relation to other metrics and date":::
 
-### See also
+### Related information
 
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Agent dashboard](agent-dashboard-cs.md)  

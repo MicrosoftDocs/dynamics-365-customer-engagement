@@ -120,7 +120,7 @@ Make sure that the following prerequisites are met:
   > If you receive an error when trying to add a bot to the team, refer to [Prepare your Microsoft 365 tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
 
-### See also
+### Related information
 
 [Channels in Omnichannel for Customer Service](../use/channels.md)  
 [Configure automated messages](configure-automated-message.md)  

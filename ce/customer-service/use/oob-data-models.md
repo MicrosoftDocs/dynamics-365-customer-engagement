@@ -443,7 +443,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSession|Session ID|The related Omnichannel session ID.  |
 |FactBotSession|Topic ID|Topic ID. Foreign key to DimTopic.  |
 
-### See also
+### Related information
 
 [Customize visual display](customize-reports.md#customize-visual-display)    
 [Overview of data model customization](datamodel-overview.md#overview-of-data-model-customization)  

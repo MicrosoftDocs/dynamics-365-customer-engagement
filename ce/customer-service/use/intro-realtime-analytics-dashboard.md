@@ -83,7 +83,7 @@ For example, the dropdown list for the **Time** filter includes the following op
 
 Report data is automatically updated in real time for all the reports except the **Ongoing conversation** report. The report data on that report must be manually updated. You can use the **Pause updates** option to view and analyze real-time metrics at any point in time. To resume automatic updates of the report data, select **Resume updates**.
 
-### See also
+### Related information
 
 [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
 [Manage bookmarks](manage-bookmarks.md)<br>

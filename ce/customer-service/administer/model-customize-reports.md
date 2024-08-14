@@ -193,7 +193,7 @@ If you customized the Customer Service workspace app, you must complete the foll
    - **Outlook shortcut**: **Pass parameters** and **Offline availability**
 1. Select **Save** and then select **Publish**.
 
-### See also
+### Related information
 
 [Customize the display of analytics reports](../use/customize-reports.md#customize-the-display-of-analytics-reports)  
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  

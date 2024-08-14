@@ -35,7 +35,7 @@ Configure the tab that the agents must be redirected to when they select the ope
 
    :::image type="content" source="../media/set-open-activities.png" alt-text="Open activities in a new tab" lightbox="../media/set-open-activities.png":::
 
-### See also
+### Related information
 [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)   
 [Get started with Customer Service workspace](../implement/csw-overview.md) 

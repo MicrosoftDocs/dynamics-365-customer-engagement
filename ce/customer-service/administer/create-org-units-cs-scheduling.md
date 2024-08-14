@@ -52,7 +52,7 @@ You can create a new organizational unit in the Customer Service admin center or
   
    ![create organizational unit.](../media/org_units.png)
 
-### See also
+### Related information
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
 

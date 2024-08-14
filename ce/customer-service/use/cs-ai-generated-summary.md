@@ -61,7 +61,7 @@ When you open a case or a conversation, the **Teams chats** pane appears on the 
 
 1. Select **Start chat**.  
 
-## See also
+## Related information
 
 [Set up AI-generated conversation summary in Dynamics 365 Customer Service](../administer/cs-enable-AI-generated-summary.md)  
 [View and understand call summary page in the Sales Hub app](../../sales/view-and-understand-call-summary-sales-app.md)  

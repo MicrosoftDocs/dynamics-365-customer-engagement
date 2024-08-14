@@ -42,7 +42,7 @@ The value beside the **Thumbs up** icon doesn't represent an article's total num
     :::image type="content" source="../media/ratings_and _feedback.png" alt-text="Submit ratings and provide your feedback if you don't like an article.":::
 
 
-### See also
+### Related information
 
 [Set up knowledge management](../administer/set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management)
 

@@ -58,7 +58,7 @@ Each role in the scheduling experience is expected to perform a set of actions. 
 
 
 
-### See also  
+### Related information  
 
 [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role)
 

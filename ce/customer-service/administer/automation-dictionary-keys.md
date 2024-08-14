@@ -222,7 +222,7 @@ Notification title = `New chat request`
 
 Session title = `Chat conversation`
 
-### See also
+### Related information
 
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  

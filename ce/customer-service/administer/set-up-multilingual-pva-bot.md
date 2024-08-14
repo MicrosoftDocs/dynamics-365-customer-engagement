@@ -203,7 +203,7 @@ For example, ensure the following settings:
 
 1. When you're prompted with an interactive voice response (IVR) message, select a language. Verify that the bot routes the call to an agent who can speak with you in the language that you've selected.
 
-### See also
+### Related information
 
 [Set up a multilingual contact center](voice-channel-multi-language-contact-center.md)  
 [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md)  

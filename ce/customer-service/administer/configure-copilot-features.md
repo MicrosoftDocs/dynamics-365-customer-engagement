@@ -141,7 +141,7 @@ More information: [Security roles and privileges](/power-platform/admin/security
 [Enable Copilot help pane](copilot-enable-help-pane.md)  
 [Display Copilot case summary on custom case forms](copilot-powerapps-settings.md)  
 
-### See also
+### Related information
  
 [Use Copilot features](../use/use-copilot-features.md)  
 [Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)  

@@ -90,7 +90,7 @@ The App Profile User has the following privileges.
 | Append to macro session | prvAppendTomsdyn_macrosession |
 | Append macro session | prvAppendmsdyn_macrosession |
 
-### See also
+### Related information
  
 [Users and roles in Omnichannel for Customer Service](../implement/add-users-assign-roles.md)  
 

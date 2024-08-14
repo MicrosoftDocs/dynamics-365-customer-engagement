@@ -51,7 +51,7 @@ You can create a new facility or equipment record in the Customer Service admin 
 1.  When you’re done, select **Save** or **Save and Close**.  
 
     ![facility and equipment.](../media/facilities_equipment_1.png)
-### See also
+### Related information
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
 

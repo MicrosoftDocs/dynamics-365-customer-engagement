@@ -29,7 +29,7 @@ Any record that you want to enable for routing needs to be enabled for queues.
 
 <br><br> ![Automatic record movement to the agent's default queue.](../media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
-### See also
+### Related information
 
 [Set up record routing](set-up-record-routing.md)  
 [Set up unified routing for email records](configure-routing-for-email-records.md)

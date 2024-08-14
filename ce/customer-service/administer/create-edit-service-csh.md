@@ -103,7 +103,7 @@ You can create a service in Customer Service admin center or Customer Service Hu
 > [!NOTE]
 > If there are open or scheduled service activities associated with a service, then the service cannot be deactivated.
   
-### See also  
+### Related information  
 
 [Create and manage resource categories](resource-categories-service-scheduling.md)
  

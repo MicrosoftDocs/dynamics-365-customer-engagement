@@ -56,7 +56,7 @@ You're required to reopen the case form to see new suggestions.
 
 Make sure that the case is opened in a session tab. To open it in a session tab, select the case by holding down **Shift** while clicking.
 
-### See also
+### Related information
 
 [Manage Copilot features in Customer Service](configure-copilot-features.md)
 [Use Copilot to solve customer issues](../use/use-copilot-features.md)

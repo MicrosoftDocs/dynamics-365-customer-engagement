@@ -67,7 +67,7 @@ To assign resources to a resource category:
 
 3. Add a resource to this resource category by selecting a resource in the **Resource** box. You can either lookup for an existing resource or create a new one.
 
-### See also 
+### Related information 
 [Service Scheduling overview](basics-service-service-scheduling.md)
 
 
