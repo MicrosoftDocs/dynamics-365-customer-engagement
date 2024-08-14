@@ -78,6 +78,9 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 
         The information is displayed in these sections are based on the fields configured by the administrator for generating summaries. More information: [Configure fields for generating summaries and recent changes list](copilot-configure-summary-fields.md).
 
+>[!NOTE]
+>To understand the default attributes that are used in the templates to generate summaries in Copilot in Dynamics 365 Sales, see [opportunity summary default attributes](understand-copilot-summaries.md#opportunity-summary).
+
 ### View opportunity summary widget
 
 By default, when you open an opportunity, the opportunity summary widget is displayed in the **Opportunity** form, above the **Up next** widget. The widget displays insights of the opportunity similar to [the opportunity summary](#summarize-an-opportunity) displayed in the Copilot side pane or page.  
