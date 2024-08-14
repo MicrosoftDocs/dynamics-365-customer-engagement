@@ -19,7 +19,7 @@ This article summarizes early access, public preview, and general availability f
 | Feature area       | Feature                                      | Description                                                                 | Resources     | Turned on | Availability |
 |--------------------|----------------------------------------------|-----------------------------------------------------------------------------|---------------|-----------|--------------|
 | Copilot            | Account summary                              | Get a 360-degree view of your account, along with opportunities and leads in the pipeline for the account. | [Documentation](copilot-get-information#summarize-an-account) | By admin  | EA           |
-| Seller experiences | Analyze opportunities with grouping and aggregating | Analyze your pipeline better by grouping and aggregating data in the pipeline view. | [Documentation](use-opportunity-pipeline-view#group-and-aggregate-opportunities) | By admin  | EA           |
+| Seller experiences | Customize lead qualification experience | Allow sellers to create multiple opportunities and get lead summaries upon lead qualification. | [Documentation](define-lead-qualification-experience.md) | By admin  | EA           |
 
 ## June 2024 release
 
