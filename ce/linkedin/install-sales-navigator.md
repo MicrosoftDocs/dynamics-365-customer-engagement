@@ -60,8 +60,6 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 
         Go to the [LinkedIn Sales Navigator for Dynamics 365](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.5ba43194-adc5-4c13-b40d-af04f549d5da) AppSource page, and then select **Get it now**.
 
-        :::image type="content" source="media/appsource-select-getitnow.png" alt-text="Screenshot of LinkedIn Sales Navigator AppSource page.":::
-
     You are navigated to the Power Platform admin center page.  
 
 1. On the **Install LinkedIn Sales Navigator for Dynamics 365** pane, choose your environment.
@@ -91,9 +89,9 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
     :::image type="content" source="media/verify-solution-installation.png" alt-text="Screenshot of LinkedIn sales navigator related solutions installed.":::
 
     >[!NOTE]
-    >If the **LinkedInSalesNavigatorControlsForUnifiedClient** solution is not available in the list, go to [the LinkedInSalesNavigatorControlsForUnifiedClient solution is not available in the organization to configure LinkedIn Sales Navigator](ts-linkedin-integration.md#solution-missing-configure-lsn) section and perform the steps.
+    >If the **LinkedInSalesNavigatorControlsForUnifiedClient** solution is not available in the list, follow the steps in [the LinkedInSalesNavigatorControlsForUnifiedClient solution is not available in the organization to configure LinkedIn Sales Navigator](ts-linkedin-integration.md#solution-missing-configure-lsn) section.
 
-After the installation is complete, follow the steps to [Enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator).  
+After the installation is complete, [enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator).  
 
 ## Enable LinkedIn Sales Navigator
 
@@ -118,7 +116,7 @@ When enabled, the Sales Navigator controls appear on Account, Contact, Lead, and
 1.	On the **LinkedIn integration** page, toggle the following options to enable: 
     - Sales navigator integration
     - Daily profile picture updates
-    - See personnel and employment changes
+    - See personal and employment changes
 
     :::image type="content" source="../sales/media/enable-sales-hub-enable-linkedin-integration-options.png" alt-text="Screenshot of enabling the LinkedIn Sales Navigation options.":::
 
