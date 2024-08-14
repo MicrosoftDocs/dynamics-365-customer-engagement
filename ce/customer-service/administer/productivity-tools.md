@@ -4,12 +4,14 @@ description: Learn about Dynamics 365 Productivity Tools in the Omnichannel for 
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 04/05/2023
+ms.date: 07/01/2024
 ms.topic: overview
 ms.custom: bap-template
 ---
 
 # Overview of productivity tools
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 The Dynamics 365 Productivity Tools app provides capabilities that help users perform day-to-day operations in a fast, efficient, and process-compliant manner and deliver value to customers.
 

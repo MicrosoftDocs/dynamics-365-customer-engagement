@@ -125,6 +125,14 @@ To create a new schedule board tab, select **New schedule board tab** (+) in the
 
 Enter the [relevant details about your new schedule board](../../common-scheduler/schedule-board-tab-settings.md) and select **Add**.
 
+## Copy the link to a schedule board
+
+The schedule board is accessible through a URL that loads the web resource. The simplest way to access this URL is to configure the schedule board as you prefer, select **More options (&hellip;)** and choose **Copy link**. The generated link includes the parameters currently configured on your board.
+
+:::image type="content" source="../../field-service/media/schedule-board-copy-link.png" alt-text="Screenshot of the Copy link option on the schedule board.":::
+
+For more information about how to construct the URL, see: [Open the schedule board from a URL](../../common-scheduler/schedule-board-url.md).
+
 ## Cached settings when loading the schedule board
 
 To facilitate workflows, some parameters are cached so you can quickly can continue where you left:
@@ -135,3 +143,4 @@ To facilitate workflows, some parameters are cached so you can quickly can conti
 - Viewmode: Hourly/daily/weekly 
 - Board start date: Cached for 8 hours
 - Column width: Zoom level
+- Requirement panel filters

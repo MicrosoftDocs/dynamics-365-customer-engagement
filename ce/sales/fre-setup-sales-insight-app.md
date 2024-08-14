@@ -49,7 +49,7 @@ The Conversation intelligence app is now ready to use. Managers and sellers can 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
 [Conversation Intelligence FAQs](faq-conversation-intelligence.md)

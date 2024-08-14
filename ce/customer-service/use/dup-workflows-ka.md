@@ -5,11 +5,14 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 01/23/2023
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Prevent duplicate workflows with knowledge article operations
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 If you use [workflow processes](../../customerengagement/on-premises/customize/workflow-processes.md) to perform knowledge article operations, such as creating or updating a knowledge article, the update operation is further classified into suboperations, such as:
 
@@ -36,7 +39,7 @@ To avoid triggering the workflow twice, in the workflow itself, set the trigger 
 
 ## Set the trigger condition
   
-1. In your Customer Service app, select **Settings** > **Advanced Settings**. Advanced Settings opens in a new browser tab.
+1. In your application, select **Settings** > **Advanced Settings**. Advanced Settings opens in a new browser tab.
   
 1. In the navigation bar, select **Settings** > **Processes**.
 

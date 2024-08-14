@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 05/20/2024
+ms.date: 06/05/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -72,7 +72,7 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
       :::image type="content" source="media/sa-segment-condition-add-related-entity.png" alt-text="Screenshot that shows a condition added for a related entity.":::
 
-1. To impose a time limit on assigning a seller to the records the rule applies to, select **Consider *record type* created in the last**. Then, select the number of hours a record can remain unassigned after it's created.
+1. To impose a time limit on assigning a seller to the records the rule applies to, select **Consider *record type* created in the last**. Select the number of hours within which the rule will consider the created records for assignment.
 
     If no seller is available to take the record within that time, the record is marked overdue. [The status reason](wa-manage-unassigned-records.md#reasons-records-might-be-left-unassigned) is set to *Seller not assigned as record is older than the set timeframe*.
 
@@ -110,7 +110,7 @@ If you assign the records to a sales team, this section isn't shown because the 
     - **Round robin**: The records are distributed evenly in turn to sellers who are qualified to receive them based on the conditions of the assignment rule.
     - **Load balancing**: Leads are distributed to sellers based on their workload, so that all sellers are equally busy.
 
-1. (Optional) To consider the [seller's work schedule](personalize-sales-accelerator.md#configure-your-work-availability) when records are assigned, select **Assign if seller is available within**. Then, select the number of hours that a record can wait to be assigned, up to 120 hours.
+1. (Optional) To consider the [seller's work schedule](personalize-sales-accelerator.md#configure-your-work-availability) when records are assigned, select **Assign if seller is available within**.
 
     - If [a time limit is set](#add-conditions-to-filter-the-records), the rule verifies for any available sellers within that time frame to assign the record. If no sellers are available, the record is set as unassigned.
 
@@ -142,7 +142,7 @@ We limit the number of conditions you can add to your assignment rules to help t
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Understand record distribution in assignment rules](understand-lead-distributions-assignment-rules.md)
 - [View and assign unassigned records](wa-manage-unassigned-records.md)

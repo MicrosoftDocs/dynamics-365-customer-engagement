@@ -1,7 +1,7 @@
 ---
 title: Provision unified routing in Customer Service
 description: Learn how to provision unified routing in Customer Service.
-ms.date: 02/02/2024
+ms.date: 06/21/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -11,6 +11,11 @@ ms.custom: bap-template
 ---
 
 # Provision unified routing for Customer Service
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!NOTE]
+> Case information is applicable only to Customer Service.
 
 Perform the steps mentioned in this topic to provision unified routing in Customer Service. By default, unified routing is not enabled if only Customer Service is installed.
 
@@ -26,21 +31,9 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 ## Provision unified routing for Customer Service only
 
-To provision unified routing in Customer Service, do the following:
-
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Routing**. The **Routing** page appears.
    
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-   1. In the site map, select **Routing**. The **Routing** page appears.
-   
-   1. Select **Manage** for **Turn on Unified Routing for Records**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-     [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]  
-
-   - Go to the **Service Management** site map, and select **Service Configuration Settings** in **Service Terms**. The **Service Configuration Settings** page appears.
+1. Select **Manage** for **Turn on Unified Routing for Records**.
 
 1. If consent is already provided by the tenant administrator, go to **Step 5**.
 

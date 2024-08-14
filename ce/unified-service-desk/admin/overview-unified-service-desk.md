@@ -1,15 +1,13 @@
 ---
 title: "Overview of Unified Service Desk  | MicrosoftDocs"
 description: "Use this topic to know about Unified Service Desk and User Interface Integration. Also, included is a video that gives you an overview of Unified Service Desk."
-ms.date: 10/10/2023
+ms.date: 06/27/2024
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 ms.collection: get-started
 tags: MigrationHO
 ---

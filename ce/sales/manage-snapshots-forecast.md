@@ -10,6 +10,9 @@ ms.custom: bap-template
 ---
 # Take snapshots automatically  
 
+> [!NOTE]
+> Starting June 30, 2024, you'll no longer be able to enable snapshots for new forecast configurations. [Learn more](deprecations-sales.md#snapshot-deprecation).
+
 A snapshot freezes the forecast data at a moment in time. The frozen data includes aggregate column values, manual adjustments, and underlying record fields that directly affect the forecast. You can use these snapshots to see how the forecast and its underlying data have changed over time. 
 
 Snapshots are taken automatically each day and while configuring the forecasts you can enable the option. When enabled, the snapshots are taken daily for that forecast and you can view deal flows and trend data based on the snapshots.
@@ -64,7 +67,7 @@ Snapshots are deleted based on the following rules:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [About premium forecasting](configure-premium-forecasting.md)<br>
 [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)

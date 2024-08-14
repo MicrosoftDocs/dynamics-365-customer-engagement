@@ -2,7 +2,7 @@
 title: "Field Service technician service reporting (contains video) | MicrosoftDocs"
 description: Learn about setting up service reports for Field Service technicians
 ms.date: 05/21/2021
-ms.topic: article
+ms.topic: how-to
 
 ms.subservice: field-service-mobile
 applies_to: 

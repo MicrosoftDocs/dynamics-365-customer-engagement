@@ -10,8 +10,6 @@ ms.custom: bap-template
 ---
 # Configure automatic closure of conversations using web API
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 This article demonstrates how you can configure the auto-close duration of a conversation using the Web API.
 
 > [!IMPORTANT]

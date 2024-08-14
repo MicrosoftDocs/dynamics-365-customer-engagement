@@ -11,7 +11,11 @@ ms.collection: bap-ai-copilot
 
 # View smart assist suggestions for knowledge articles and similar cases using AI
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)] 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
+
 
 ## Introduction
 

@@ -1,15 +1,14 @@
 ---
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features available for developers and customizers in the latest version of Unified Service Desk."
-ms.date: 06/21/2021
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 
 # What's new in Unified Service Desk for developers and customizers

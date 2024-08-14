@@ -2,7 +2,7 @@
 title: Extend Omnichannel for Customer Service
 description: Integrate third-party telephony systems, additional digital channels, and custom experiences with Dynamics 365 Customer Service to extend Omnichannel for Customer Service.
 ms.date: 11/27/2023
-ms.topic: Conceptual
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer:

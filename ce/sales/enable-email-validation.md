@@ -89,7 +89,7 @@ Email validation runs immediately on the primary email address in lead and conta
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Work with invalid email addresses](work-invalid-email-addresses.md)   
 [Enable email validation for custom forms](enable-email-validation-custom-forms.md)  

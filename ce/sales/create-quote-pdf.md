@@ -181,7 +181,7 @@ You can also generate a PDF file and directly email it to a customer.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable or disable PDF generation from sales records](enable-pdf-generation-quote.md)  
 

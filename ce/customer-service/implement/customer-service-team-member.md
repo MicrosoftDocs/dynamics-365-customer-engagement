@@ -17,6 +17,9 @@ ms.custom:
 
 With the entry-level Team Member license, you can now address self-service support scenarios for your employees using the new Customer Service Team Member app module. Employees can create cases for their problems, such as laptop issues, HR queries, and administrative needs, and interact with agents through the commenting feature. They can also search the knowledge base for solutions pertaining to their problems. 
 
+> [!NOTE]
+> Customer Service Team Member App isn't supported with Dynamics 365 Customer Engagement (on-premises).
+
 ## Install Customer Service Team Member app
 
 The Customer Service Team Member app must be manually installed in your instance and the **Customer Service Team Member** role assigned to the users before they can access it.

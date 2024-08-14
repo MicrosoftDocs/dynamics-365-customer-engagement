@@ -5,11 +5,14 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: troubleshooting
-ms.date: 12/20/2022
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Troubleshoot migration of records
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 [!INCLUDE[ur-migration considerations](../../includes/cc-ur-migration-considerations.md)]
 

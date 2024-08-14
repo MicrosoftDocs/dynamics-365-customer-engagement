@@ -12,8 +12,6 @@ ms.custom: bap-template
 
 # Display suggested actions in a vertical layout
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 Your bot can use suggested actions to present buttons or options in the chat window, which the user can tap to provide input. This way, users can answer a question or make a selection without having to use a keyboard.

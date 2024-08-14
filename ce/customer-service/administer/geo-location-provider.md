@@ -9,7 +9,7 @@ ms.author: laalexan
 
 # Set up visitor location detection
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can configure your chat widget to detect a visitor's location based on their latitude and longitude. With location detection enabled, visitors receive a prompt in their web browser when they start to chat. If the visitor allows their location to be shared, it will passed through to the agent. Agents can then use this information to provide a personalized support experience.
 
@@ -24,29 +24,14 @@ Make sure you have permissions on the secure columns. More information: [Configu
 
 ## Create a geo location provider record
 
-You can create a geo location provider record in the Customer Service admin center or Omnichannel admin center (deprecated) app.
+You can create a geo location provider record in the Customer Service admin center or Contact Center admin center app.
 
-1. Go to one of the apps, and perform the following steps.
+1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+1. In the **Geo location** section, select **Manage**. The **Active Geo Location Providers** page is displayed.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. Select **New** to add a geo location provider record.
 
-     1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
-     1. In the **Geo location** section, select **Manage**.
-
-     The **Active Geo Location Providers** page is displayed.      
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-     1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
-     2. In the **Geo location** section, select **Manage**.
-
-      The **Active Geo Location Providers** page is displayed. 
-
-2. Select **New** to add a geo location provider record.
-
-3. In the **New Geo Location Provider** pane, provide the following information:
+1. In the **New Geo Location Provider** pane, provide the following information:
 
     - **Name**: Name of the geo location record.
 
@@ -55,11 +40,11 @@ You can create a geo location provider record in the Customer Service admin cent
     > [!div class=mx-imgBorder]
     > ![Create a geo location record.](../media/geo-location-record.png "Create a geo location record")
 
-4. Select **Save and Close**.
+1. Select **Save and Close**.
 
 ## Enable visitor location detection
 
-If you're using Customer Service admin center or Omnichannel admin center app, do the following:
+If you're using Customer Service admin center or Contact Center admin center app, do the following:
 
 1. Go to the chat channel settings of the chat widget in which you want to enable geo location.
 
