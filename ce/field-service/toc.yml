@@ -139,6 +139,8 @@ items:
 
 - name: Inspections
   items:
+    - name: Inspections overview
+      href: inspections-overview.md
     - name: Create and view inspections
       href: inspections.md
     - name: Advanced inspection options
