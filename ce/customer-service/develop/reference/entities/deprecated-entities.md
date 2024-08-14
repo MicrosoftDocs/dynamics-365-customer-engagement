@@ -1,7 +1,7 @@
 ---
 title: "Deprecated Omnichannel for Customer Service entities | Microsoft Docs"
 description: "List of Omnichannel for Customer Service entities that have been deprecated"
-ms.date: 09/10/2020
+ms.date: 08/24/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -28,6 +28,8 @@ The following entities have been deprecated. These entities will still be visibl
 - msdyn_productivitypaneconfiguration
 - msdyn_agentscript
 - msdyn_agentscriptstep
+- msdyn_ocgooglebusinessmessagesagentaccount
+- msdyn_ocgooglebusinessmessagespartneraccount
 
 
 ### See also
