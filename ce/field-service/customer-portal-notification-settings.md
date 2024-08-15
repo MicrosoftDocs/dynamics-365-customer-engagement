@@ -15,7 +15,7 @@ search.app:
 The portal uses Power Automate flows to trigger notifications for customers. Before we can send notifications, choose which channels to use and configure the flows accordingly. To send text messages, set up an SMS provider with a Power Automate connector. For emails, we recommend an Office 365 Outlook account.
 
 > [!CAUTION]
-> When enabled, the system sends notifications to contacts of the account associated with bookings. When using real customer data to test this feature, prevent accidental communication by [adding accounts to exclusion lists](create-configure-customer-portal.md#self-scheduling-preview-tab).
+> When enabled, the system sends notifications to contacts of the account associated with bookings. When using real customer data to test this feature, prevent accidental communication by [adding accounts to **Exclusion lists**](create-configure-customer-portal.md).
 
 ## Configure email and SMS connectors in Power Automate
 

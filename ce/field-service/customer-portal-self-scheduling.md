@@ -38,7 +38,7 @@ The portal requires users to create a portal profile before they can sign in and
 1. Choose a date and time. When you select a day, available time slots show automatically.
 1. Provide optional comments about the appointment or service.
     > [!div class="mx-imgBorder"]
-    > ![Self-scheduling page of the customer experience portal, showing booking options.](./media/homepage-self-scheduling-with-selected.svg)
+    > ![Self-scheduling page of the customer experience portal, showing booking options.](./media/homepage-self-scheduling-with-selected.jpg)
 1. Select **Book** to create the appointment.
 
 ## Modify an appointment
@@ -81,7 +81,7 @@ Scheduled appointments show in the **Upcoming appointments** section. You can ch
 
 ### Canceled or completed
 
-Canceled and completed appointments move to the **Past appointments** tab. [Optional surveys](create-configure-customer-portal.md#configuration-tab) to send feedback show on completed appointments.
+Canceled and completed appointments move to the **Past appointments** tab. [Optional surveys](create-configure-customer-portal.md) to send feedback show on completed appointments.
 
 > [!div class="mx-imgBorder"]
 > ![List of past appointments in the customer experience portal, showing the option to send feedback.](./media/homepage-past-bookings-with-send-feedback-option-for-completed-bookings.jpg)
