@@ -14,9 +14,9 @@ Setting financial expectations with customers and vendors is critical for managi
 
 Field Service supports three types of not-to-exceed (NTE) values.
 
-- [Price](#price): Maximum price a customer accepts without a special approval process. It’s applied to a work order when the order is created with the service provider.
-- [Cost](#cost): Maximum cost the service provider accepts without a special approval process. It’s set by the service provider before assigning work to vendors.
-- [Price and cost margin](#price-and-cost-margin) sets the price NTE and calculates the cost NTE based on the margin defined. This NTE type is used by service providers who expect to make a margin on a set of work.
+- Price: Maximum price a customer accepts without a special approval process. It’s applied to a work order when the order is created with the service provider.
+- Cost: Maximum cost the service provider accepts without a special approval process. It’s set by the service provider before assigning work to vendors.
+- Price and cost margin: Sets the price NTE and calculates the cost NTE based on the margin defined. This NTE type is used by service providers who expect to make a margin on a set of work.
 
 You can automatically apply them to the work order based on the customer, the incident type, or the location of the work. Service managers and frontline workers can optionally receive a warning when the not-to-exceed value is near or exceeds the limit, notifying the user they need to act.
 
