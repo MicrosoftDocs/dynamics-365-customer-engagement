@@ -1,7 +1,7 @@
 ---
 title: Join an existing connected chat in Sales Hub
 description: Learn how to join an existing connected chat in Sales Hub.
-ms.date: 07/15/2024
+ms.date: 08/16/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -22,7 +22,7 @@ View and easily join chats that are connected to a record you have write access 
 
 ## Join a connected chat
 
-As a seller, you can view and easily join chats that are connected to a record you have write access to, even if you weren't originally a participant in the chat. For example, If you've onboarded to a lead previously managed by another seller, you can join the chat to understand the context and then collaborate with your colleagues.
+As a seller, you can view and easily join chats that are connected to a record you have write access to, even if you weren't originally a participant in the chat. For example, if you've onboarded to a lead previously managed by another seller, you can join the chat to understand the context and then collaborate with your colleagues.
 
 > [!NOTE]
 > You can only join connected chats. To do so, you must have write access to the record and your admin must turn on the Join Chat capability for the record type in which you want to join any existing connected chat.
@@ -40,7 +40,7 @@ As a seller, you can view and easily join chats that are connected to a record y
 
 3. Select **Join**.
 
-    ![Shows the instruction to hover over a chat to join it.](media/hover-join-chat.png "Displays the text that says to hover over a chat to join it.")
+    :::image type="content" source="media/hover-join-chat.png" alt-text="Screenshot of the instruction to hover over a chat to join it.":::
 
     The Teams pop-up chat shows you're added, giving you access to the entire chat history. Other chat members also receive a system message that you've joined.
 

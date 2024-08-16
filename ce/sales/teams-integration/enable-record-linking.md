@@ -1,7 +1,7 @@
 ---
 title: "Enable linking of Dynamics 365 records to Microsoft Teams channels"
 description: "Learn how to enable linking of Dynamics 365 records to Microsoft Teams channels."
-ms.date: 07/12/2024
+ms.date: 08/16/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -52,8 +52,7 @@ If you get an error while configuring Microsoft Teams integration from Dynamics 
 
 1. In the Sales Hub app, at the lower-left corner, select **Change area** > **App Settings**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot depicting the App settings option in change area](media/app-settings-menu.png)  
+    :::image type="content" source="media/app-settings-menu.png" alt-text="Screenshot depicting the App settings option in change area":::  
 
 2. Under **General Settings**, select **Chat and collaborate**.
 
@@ -63,7 +62,7 @@ If you get an error while configuring Microsoft Teams integration from Dynamics 
 
 4. To enable the [Enhanced Collaboration Experience](teams-collaboration-enhanced-experience.md), select **Turn on Enhanced Microsoft Teams Integration**. To turn on this option, you need Microsoft 365 tenant admin permissions. When Enhanced Microsoft Teams integration is enabled, the **Collaborate** button appears on the record and view page in customer engagement apps. You can set up a connection with any Microsoft Teams collaboration channel within an app.
 
-    ![Screenshot depicting Microsoft Team collaboration and chat settings](media/enable-linking-D365-records.png)
+    :::image type="content" source="media/enable-linking-D365-records.png" alt-text="Screenshot of Microsoft Team collaboration and chat settings":::
 
 5. On the consent dialog, select **Accept**.  
        
@@ -81,13 +80,13 @@ If you get an error while configuring Microsoft Teams integration from Dynamics 
 
 1. Sign in to [Power Apps](https://make.powerapps.com).  
 
-1. Go to the **Environments** tab, select an environment in which you want to enable **Teams chat**.
+1. In the left navigation pane, select **Environments**, and then select an environment in which you want to enable Teams chat.
 
 1. On the **Environments** page, select **Settings**.
 
 1. On the **Settings page**, expand **Integration**, and then select **Teams integration settings**.
 
-    ![Screenshot depicting System settings](media/system-settings..png)
+    :::image type="content" source="media/system-settings.png" alt-text="Screenshot of system settings":::
 
     The **Microsoft Team collaboration and chat** page opens.
 
@@ -96,7 +95,7 @@ If you get an error while configuring Microsoft Teams integration from Dynamics 
     <a name="enhanced"></a>  
 1. To enable the [Enhanced Collaboration Experience](teams-collaboration-enhanced-experience.md), select **Turn on Enhanced Microsoft Teams Integration**. To turn on this option, you need Microsoft 365 tenant admin permissions. When Enhanced Microsoft Teams integration is enabled, the **Collaborate** button appears on the record and view page in customer engagement apps. You can set up a connection with any Microsoft Teams collaboration channel within an app.
 
-    ![Screenshot depicting Microsoft Team collaboration and chat settings](media/enable-linking-D365-records.png)
+    :::image type="content" source="media/enable-linking-D365-records.png" alt-text="Screenshot of Microsoft Team collaboration and chat settings":::
 
 1. On the consent dialog, select **Accept**.  
 
