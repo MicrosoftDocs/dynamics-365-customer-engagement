@@ -339,6 +339,6 @@ When Dynamics 365 receives the **callStarted** event from the dialer, you'll hav
 
 After selecting **Record**, you'll be able to see the real-time transcription during the call and a full summary and call insights at the end of the call. 
 
-### See also
+## Related information
 
 [View and understand the call summary page](view-and-understand-call-summary-sales-app.md)

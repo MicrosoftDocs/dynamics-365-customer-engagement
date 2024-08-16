@@ -34,7 +34,7 @@ Edit phone numbers to assign them to new users or to remove users who are no lon
 
 The phone number is updated and the new user or team is assigned.
 
-### See also
+## Related information
 
 [Engage with customers through text messages](sms-intro.md)  
 [Configure SMS provider](configure-sms-provider.md)   

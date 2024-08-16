@@ -66,7 +66,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 [Add products to an opportunity](add-products-opportunity.md)  
 [Add products to a quote, order, or invoice](add-product-quote-order-invoice.md)
 

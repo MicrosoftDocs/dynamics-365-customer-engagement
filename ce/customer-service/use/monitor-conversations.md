@@ -1,10 +1,10 @@
 ---
-title: "Monitor, assign, transfer, and end conversations as a supervisor | MicrosoftDocs"
-description: "Learn how to monitor, assign, and transfer conversations being handled by your agents using the Omnichannel Ongoing Conversations dashboard."
+title: Monitor, assign, transfer, and end conversations as a supervisor
+description: Learn how to monitor, and assign and transfer conversations to your agents using the Omnichannel Ongoing Conversations dashboard.
 ms.date: 11/16/2022
 ms.topic: article
-author: "neeranelli"
-ms.author: nenellim
+author: gandhamm
+ms.author: mgandham
 ---
 # Monitor, assign, transfer, and forcibly end conversations
 
@@ -14,9 +14,9 @@ ms.author: nenellim
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 
-As a supervisor, you can monitor, assign, transfer, or end conversations that are being handled by your agents by using the **Omnichannel Ongoing Conversations** dashboard. More information: [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
+As a supervisor, you can monitor, assign, transfer, or end conversations that your agents are handling by using the **Omnichannel Ongoing Conversations** dashboard. More information: [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
 
-When you monitor conversations, you can understand how they're being handled by your agents and also check whether any conversation needs your immediate attention. You can also view customer sentiment and agent responses.
+When you monitor conversations, you can understand how your agents are handling the conversations and also check whether any conversation needs your immediate attention. You can also view customer sentiment and agent responses.
 
 To be able to monitor, assign, transfer, or close conversations, your administrator must enable the respective settings&ndash;**Supervisor Monitor**, **Supervisor Assign**, **Supervisor Transfer**, or **Force Close**&ndash;in the admin app. More information: [Enable your supervisors to monitor, assign, transfer, and forcibly end conversations](../administer/enable-monitor-assign-transfer-conv.md)
 
@@ -26,17 +26,15 @@ As a supervisor, you can monitor or assign conversations that are configured for
 
 You can't monitor conversations that are assigned to you.
 
-1. Sign in to Dynamics 365 and go to the Customer Service workspace or Contact Center workspace app.
+1. Sign in to Dynamics 365 and go to the Contact Center workspace or Customer Service workspace app.
 
-2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
-    The list of conversations currently being handled by your agents is displayed.
+2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard. The list of conversations that your agents are currently handling appears.
 
-3. Select a conversation that you want to monitor, and select **Monitor**.
-    The conversation page opens.
+3. Select a conversation that you want to monitor, and select **Monitor**. The conversation page opens.
 
 4. Optionally, to join a conversation, select **Join chat** in the communication panel.
 
-    When you join the conversation, both the agent and the customer receive notifications that you've joined. Depending on your requirements, you can consult with the agent and customer. For more information, go to [View communication panel](oc-conversation-control.md).
+    Both the agent and the customer receive notifications when you join a conversation. Depending on your requirements, you can consult with the agent and customer. For more information, go to [View communication panel](oc-conversation-control.md).
 
 ## Assign conversations
 
@@ -46,7 +44,7 @@ To manually assign a conversation, the conversation should be in an open state a
 
 2. Select a conversation in an **Open** state, and then select **Assign**.
 
-3. In the **Assign conversations** dialog box, select **Agent** or **Queue**.
+3. In the **Assign conversations** dialog box, select **Agent**, or **Queue**.
 
     > If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
     > If you select **Queue**, all other queues&mdash;except the one to which the conversation is currently assigned&mdash;are displayed.
@@ -87,12 +85,11 @@ End voice calls and conversations that take place on the voice and messaging cha
 
 2. Select a conversation and then select **Force Close**.
 
-The participants receive a notification that their conversation was ended by a supervisor.
+The participants receive a notification that a supervisor ended their conversation.
 
-### See also
+### Related information
 
-[Configure Intraday insights dashboard for Unified Service Desk](../implement/configure-intraday-dashboard-supervisor.md)  
 [Enable sentiment analysis](../administer/enable-sentiment-analysis.md)  
-[Enable Supervisor settings in Omnichannel for Customer Service](../administer/enable-monitor-assign-transfer-conv.md)
+[Enable Supervisor settings in Omnichannel for Customer Service](../administer/enable-monitor-assign-transfer-conv.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -98,6 +98,6 @@ Follow these steps:
 
 5. Notify the user and ask them to verify that they have the permissions they need.
 
-### See also   
+## Related information   
 
 [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)

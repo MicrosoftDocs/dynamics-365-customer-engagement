@@ -87,7 +87,7 @@ To edit a business process flow:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Customize forms](customize-forms.md)  
 [Customize views](customize-views.md)

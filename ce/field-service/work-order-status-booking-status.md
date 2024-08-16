@@ -128,7 +128,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 - Updates **Total Billable Duration**, calculated as the sum total of total duration in progress and total break duration.
 - Updates **Completed On (Work Order)** field on the related work order with the end time of the booking. Editing the booking end time updates the **Completed On** value.
 
-### Create follow-up work order for a completed booking
+### Complete your booking without completing your work order for follow-up activity
 
 Save time on work orders that require follow-up by returning them to an unscheduled state after completing a booking.
 

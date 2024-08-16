@@ -207,7 +207,7 @@ To learn more about entity relationships, go to [Entity relationships](/powerapp
 </table>
 
 
-### See also
+## Related information
 
 [View and understand data through drill-down entities](view-understand-data-through-drill-down.md)
 

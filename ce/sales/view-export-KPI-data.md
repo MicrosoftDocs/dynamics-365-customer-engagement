@@ -49,7 +49,7 @@ For more information about exporting data from Dynamics 365 Sales to excel, see 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-## See also
+## Related information
 
 [Privacy and personal data for Microsoft Dynamics 365](/dynamics365/get-started/privacy)
 

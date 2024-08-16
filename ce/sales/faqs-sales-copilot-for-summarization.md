@@ -119,7 +119,7 @@ To ensure effective and responsible use of the summarization feature, it's impor
 
 - Make sure that the fields configured for opportunity and lead summarization are relevant to your sellers and align with their business needs to realize the maximum benefits of the feature.
 
-### See also
+## Related information
 
 [Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)
 

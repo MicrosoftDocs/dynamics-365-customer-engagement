@@ -71,7 +71,7 @@ Create an opportunity with the details you have. You can update the opportunity 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Import opportunity records](/powerapps/user/import-data)
 - [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)

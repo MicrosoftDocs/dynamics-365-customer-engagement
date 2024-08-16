@@ -32,7 +32,7 @@ If you have any feedback about the Dynamics 365 app, you can share it from withi
 
 3.  Enter your responses in the survey and then submit it.
 
-### See also
+## Related information
 
 [Share and update Dynamics 365 records within Microsoft Teams conversations](share-d365-record-overview.md)   
 [Access the Dynamics 365 app through messaging extensions](access-d365-app.md)   

@@ -174,7 +174,7 @@ Kenny Smith is a Vice President of the sales organization at Contoso Inc and hea
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 [View a forecast](view-forecasts.md)

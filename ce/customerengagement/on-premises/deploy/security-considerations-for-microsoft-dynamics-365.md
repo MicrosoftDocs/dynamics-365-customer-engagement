@@ -186,7 +186,7 @@ author: Mattp123
 #### IIS Application Pool identities running under Kernel-Mode authentication and SPNs  
  By default, [!INCLUDE[pn_iis](../includes/pn-iis.md)] websites are configured to use Kernel-Mode authentication. When you run the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website by using Kernel-Mode authentication, you might not need to configure additional service principal names (SPNs) for the [!INCLUDE[ui_CRMAppPool](../includes/ui-crmapppool.md)] identities.  
   
-For more information about viewing, deleting, and registering SPNs using SetSPN.exe, see [Service Principal Names (SPNs) SetSPN Syntax](https://social.technet.microsoft.com/wiki/contents/articles/717.service-principal-names-spns-setspn-syntax-setspn-exe.aspx).
+For more information about viewing, deleting, and registering SPNs using SetSPN.exe, see [Service Principal Names (SPNs) SetSPN Syntax](/archive/technet-wiki/717.service-principal-names-spn-setspn-syntax).
   
 <a name="BKMK_CRMInstallationFiles"></a>   
 ## Microsoft Dynamics 365 installation files  
