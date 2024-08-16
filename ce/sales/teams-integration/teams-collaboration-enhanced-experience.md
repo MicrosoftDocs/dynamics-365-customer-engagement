@@ -1,7 +1,7 @@
 ---
 title: "Enhanced Collaboration for Microsoft Teams with Dynamics 365 app"
 description: "Learn how to use Enhanced Collaboration with Microsoft Teams, and connect a record or view to a team channel from Dynamics 365 customer engagement apps."
-ms.date: 07/15/2024
+ms.date: 08/16/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -39,19 +39,16 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
 1. In customer engagement apps (such as Dynamics 365 Sales or Dynamics 365 Customer Service), open a record or a view.
 2. On the command bar, select **Collaborate**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Collaborate option.](media/teams-collorate-option_1.png "Collaborate option in Dynamics 365 app")
+    :::image type="content" source="media/teams-collorate-option_1.png" alt-text="Screenshot of the Collaborate option in Dynamics 365 app.":::
 
 3. On the **Collaborate with Microsoft Teams** window, you'll see one of the following: 
     - **If there’s no channel**: You can connect the current record or view to any team channel by selecting, **Get started**.
 
-      > [!div class="mx-imgBorder"]
-      > ![Get started button.](media/teams-get-started-2..png "Selected Get Started")
+        :::image type="content" source="media/teams-get-started-2.png" alt-text="Screenshot of the Get Started button.":::
 
     - **If there is channel that's already connected**: Select a channel from the list and then select, **Start collaboration**. This opens Microsoft Teams and navigate to the channel that you selected. Or, connect the current record or view to a new team channel by selecting, **Create a new connection**.
 
-      > [!div class="mx-imgBorder"]
-      > ![Select existing channel.](media/teams-existing-channel-screen-note.png "Selected existing channel")
+        :::image type="content" source="media/teams-existing-channel-screen-note.png" alt-text="Screenshot of the screen to select an existing channel.":::
 
      > [!NOTE]
      >  If you selected an existing connected team channel where you are not the owner or member in that team, then when Microsoft Teams opens, select **Join** to send request to be added to the channel. 
@@ -62,46 +59,37 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
    
    - Choose an existing team that you belong to and then select **Next**.
 
-     > [!div class="mx-imgBorder"]
-     > ![Select a team.](media/teams-add-to-existing-team-3..png "Select a team")
+      :::image type="content" source="media/teams-add-to-existing-team-3.png" alt-text="Screenshot of the screen to select a team.":::
 
    - Or, create a new team:  
 
-        1. Select **Create new team**.
-            > [!div class="mx-imgBorder"]
-            > ![Choose a team.](media/teams-create-new-team-4..png "Choose a team")
-
+        1. Select **Create new team** at the bottom of the list.
 
         2. Enter a name for the team and then select **Next**. </br>
            If your administrator has enabled sensitivity labels for Teams, you'll see the **Sensitivity** field. Select a **Sensitivity** label from the list. Hover over the label to see tooltips to get more information about the label. Select **Make it a private  team** to ensure that only the team owner can add more members.  
                 
-            > [!div class="mx-imgBorder"]
-            > ![Enter name and select next.](media/teams-enter-team-name-5..png "Enter a team name")
+            :::image type="content" source="media/teams-enter-team-name-5.png" alt-text="Screenshot of entering a team name and selecting next.":::
 
 
    **Step 2**: Choose an existing channel and then select **Next**, or select **Create new channel** to create a new channel.
 
-      > [!div class="mx-imgBorder"]
-      > ![Choose a channel.](media/teams-choose-channel..png "Choose a channel")
+      :::image type="content" source="media/teams-choose-channel.png" alt-text="Screenshot of choosing a channel.":::
 
       > [!NOTE]
       > When you create a new team, the system automatically creates a channel named **General**. You can connect the current record to the **General** channel and then select **Next** or select **create new channel** to create a new channel under the newly created team.
-      > > [!div class="mx-imgBorder"]
-      > > ![Enter name.](media/teams-add-channel-6.png "Enter a team name")
-
 
    **Step 3**: If you're the owner of the selected team, then you can add recommended teammates who either own the record or the record has been shared with them to the team member group. From the list, select any or all listed teammates. You can also use the search option to find the teammates in the list. When you're done, select **Finish**.
 
    > [!NOTE]
    > You will see this step only if you are the owner of the selected team while connecting to a customer engagement app record. If you are connecting a view of customer engagement app to a Microsoft Teams channel, you will skip this step. For more information on how to share a record, see [Assign or share records.](/powerapps/user/assign-or-share-records).
 
-   > [!div class="mx-imgBorder"]
-   > ![Choose teammates.](media/teams-choose-teammates-7..png "Choose teammates")
+    :::image type="content" source="media/teams-choose-teammates-7.png" alt-text="Screenshot of choosing teammates.":::
 
 5. When the connection process is complete, the system opens Microsoft Teams and go to channel that you connected.
 
 ### See also
-- [Enable sensitivity labels to protect content in Microsoft Team](sensitivity-labels.md)
+
+[Enable sensitivity labels to protect content in Microsoft Team](sensitivity-labels.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
