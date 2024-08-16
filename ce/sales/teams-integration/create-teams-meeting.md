@@ -68,7 +68,7 @@ For more information on creating a Teams meeting in Outlook, see [Schedule a Tea
 
 For more information on using the Dynamics 365 App for Outlook, see [Basic navigation in App for Outlook](/dynamics365/outlook-app/user/basic-navigation).
 
-### See also
+## Related information
 
 [Enable Microsoft Teams meeting integration](enable-teams-meeting-integration.md)    
 [Customize record details in the side panel](customize-record-side-panel.md)   

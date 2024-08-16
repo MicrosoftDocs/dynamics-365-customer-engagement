@@ -79,7 +79,7 @@ The record is displayed as an information card with actions.
 
 ![Record shared through URL](media/me-record-url.png "Record shared through URL")
 
-### See also
+## Related information
 
 [Share and update Dynamics 365 records within Microsoft Teams conversations](share-d365-record-overview.md)   
 [Access the Dynamics 365 app through messaging extensions](access-d365-app.md)   

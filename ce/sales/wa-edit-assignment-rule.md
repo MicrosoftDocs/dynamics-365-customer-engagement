@@ -46,7 +46,7 @@ Your changes are applied to records that are connected to the segment going forw
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
 - [Prioritize assignment rules](wa-change-priority-assignment-rule.md)

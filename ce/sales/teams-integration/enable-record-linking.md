@@ -110,7 +110,7 @@ If you get an error while configuring Microsoft Teams integration from Dynamics 
 
     You should now be able to the see the **Collaborate** button when you open a record.
    
-### See also  
+## Related information  
 
 [Difference between the Basic and Enhanced Collaboration Experience with Microsoft Teams](teams-basic-vs-enhanced-collaboration.md)   
 [Basic Collaboration Experience](teams-collaboration.md)   

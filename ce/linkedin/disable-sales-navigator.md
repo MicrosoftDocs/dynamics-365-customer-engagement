@@ -24,7 +24,7 @@ Disabling the integration will stop showing the Sales Navigator controls.
 
 1. Select **Save**.
 
-### See also
+## Related information
 
 [Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)  
 [Uninstall LinkedIn Sales Navigator](uninstall-sales-navigator.md)

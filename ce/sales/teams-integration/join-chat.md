@@ -44,7 +44,7 @@ As a seller, you can view and easily join chats that are connected to a record y
 
     The Teams pop-up chat shows you're added, giving you access to the entire chat history. Other chat members also receive a system message that you've joined.
 
-### See also
+## Related information
 
 [Configure the ability for users to join chats](enable-join-chat.md)
 

@@ -57,7 +57,7 @@ If you want to add complex rollup criteria for a goal, you can use a rollup quer
   
 - Do not use a query if you are not sure it will provide the results that you expect.  
   
-### See also  
+## Related information  
  [Goal Management Tables](goal-management-entities.md)   
  [Sample: Use Rollup Queries to Track Goals](sample-use-rollup-queries-track-goals.md)   
  [Roll Up Goal Totals](roll-up-goal-totals.md)

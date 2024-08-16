@@ -64,7 +64,7 @@ After the Dynamics 365 app is added to a channel, it's available through Actions
 
 After you've set up the app, you can change the settings later as required. More information: [Edit settings of the Dynamics 365 app](edit-d365-app.md)
 
-### See also
+## Related information
 
 [Share and update Dynamics 365 records within Microsoft Teams conversations](share-d365-record-overview.md)   
 [Edit settings of the Dynamics 365 app](edit-d365-app.md)    

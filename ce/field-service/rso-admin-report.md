@@ -1,8 +1,8 @@
 ---
 title: Resource Scheduling Optimization admin report
 description: This article explains how the admin report in the Resource Scheduling Optimization Add-in works.
-author: FeifeiQiu
-ms.author: feiqiu
+author: AnilMur
+ms.author: anilmur
 ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.subservice: resource-scheduling-optimization

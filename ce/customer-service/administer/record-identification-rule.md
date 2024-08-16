@@ -62,10 +62,8 @@ To link the customer or case, set the values for the associated attributes, such
 
 For information about creating context variables for Azure and Copilot Studio bots, see [Configure context variables for the bot](context-variables-for-bot.md#configure-context-variables-for-copilot-studio-bot).
 
-> [!NOTE]
-> Case is applicable to Customer Service only.
 
-### See also
+### Related information
 
 [Create and manage workstreams](create-workstreams.md)  
 [Configure a Copilot Studio bot](configure-bot-virtual-agent.md)  

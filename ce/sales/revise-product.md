@@ -55,7 +55,7 @@ Keep the product inventory updated by quickly revising properties for the produc
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)
 
 

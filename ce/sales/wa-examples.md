@@ -159,7 +159,7 @@ Your organization conducts an annual festive campaign that generates leads for t
 
     This ensures that all leads coming from the campaign are automatically assigned to the most appropriate sales team and the sellers within the team can nurture them to closure.
 
-### See also
+## Related information
 
 [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)  
 [Create and activate segments](wa-create-and-activate-a-segment.md)  

@@ -55,7 +55,7 @@ If you want to connect a different sequence to the segment, disconnect the curre
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Create and activate segments](wa-create-and-activate-a-segment.md)
 - [Edit segments](wa-edit-a-segment.md)

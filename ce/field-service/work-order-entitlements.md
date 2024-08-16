@@ -1,6 +1,6 @@
 ---
 title: Create entitlements for work orders
-description: Learn about how to use entitlements for work orders in Dynamics 365 Field Service.
+description: Learn how to use entitlements for work orders in Dynamics 365 Field Service.
 ms.date: 07/10/2024
 ms.topic: how-to
 applies_to: 
@@ -32,9 +32,7 @@ This article provides two scenarios for entitlements for work orders:
 ## Prerequisites
 
 - Field Service v8.4+
-
 - Dynamics 365 Customer Service  
-
 - Recommended: Knowledge of Dynamics 365 [price lists](/dynamics365/customer-engagement/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
 
 ## Scenario 1: Entitlement for price list and discount

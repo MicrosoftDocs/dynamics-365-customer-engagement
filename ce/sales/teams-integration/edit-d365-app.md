@@ -40,7 +40,7 @@ This article provides information on how to edit settings of the Dynamics 365 ap
 
 4.  Select **Save**.
 
-### See also
+## Related information
 
 [Share and update Dynamics 365 records within Microsoft Teams conversations](share-d365-record-overview.md)   
 [Access the Dynamics 365 app through messaging extensions](access-d365-app.md)   

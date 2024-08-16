@@ -48,7 +48,7 @@ After the call is ended, select **Full summary** to view the summary of the call
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)   
 [Call using Microsoft Teams](call-using-microsoft-teams.md)   

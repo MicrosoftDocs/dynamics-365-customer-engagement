@@ -63,7 +63,7 @@ To access and understand the ZoomInfo data, follow these steps:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Install ZoomInfo app](install-zoominfo-app.md)   
 [ZoomInfo Native App for Microsoft Dynamics 365 Implementation Guide](https://tech-docs.zoominfo.com/microsoft-dynamics-native-app-implementation-guide.pdf)

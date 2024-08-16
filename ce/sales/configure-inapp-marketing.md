@@ -61,7 +61,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
   
-### See also  
+## Related information  
 
 [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   
 [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)   

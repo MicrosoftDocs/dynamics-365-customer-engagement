@@ -86,7 +86,7 @@ By analyzing this information, you can track the progress made throughout the se
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [What is the sales accelerator?](sales-accelerator-intro.md)  
 [Create and manage sequences](create-manage-sequences.md)  

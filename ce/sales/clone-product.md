@@ -54,7 +54,7 @@ When you're creating a new product, family or bundle, save time by cloning an ex
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See Also  
+## Related information  
  [Create a product](create-product-sales.md)   
  
 

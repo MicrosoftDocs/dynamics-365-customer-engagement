@@ -102,7 +102,7 @@ When you revise a product and change the properties, [!INCLUDE[pn-dyn-365-sales]
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
  [Set up a product catalog](set-up-product-catalog-walkthrough.md)   
  [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)   
  [Create a product family](../sales-enterprise/create-product-family.md)

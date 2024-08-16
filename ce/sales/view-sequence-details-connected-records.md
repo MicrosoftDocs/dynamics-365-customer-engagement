@@ -55,7 +55,7 @@ You can view the details of a sequence and the records connected with it.
  
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and manage sequences](create-manage-sequences.md)
 

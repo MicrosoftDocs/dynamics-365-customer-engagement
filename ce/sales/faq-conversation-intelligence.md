@@ -47,7 +47,7 @@ Conversation intelligence data is refreshed periodically and could take up to 12
 
 You get unlimited call recording and processing hours with Microsoft Copilot for Sales. You must create the meeting in Outlook and turn on the **Teams meeting** toggle to get conversation intelligence through Microsoft Copilot for Sales. For more information, see [Use Microsoft Copilot for Sales in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea).  
 
-## Can sellers (or non-managers) use this app?
+## Can sellers and nonmanagers use this app?
 
 The application is available for sellers to view their conversational insights.
 
@@ -77,5 +77,5 @@ Conversation intelligence takes a few minutes to process and display the data on
 
 ## Do you retain the call recordings?
 
-No. The call recordings are deleted as soon as the audio file is processed​.
+Call recordings are deleted as soon as the audio file is processed​.
 
