@@ -80,7 +80,7 @@ If you get an error while configuring Microsoft Teams integration from Dynamics 
 
 1. Sign in to [Power Apps](https://make.powerapps.com).  
 
-1. Go to the **Environments** tab, select an environment in which you want to enable **Teams chat**.
+1. In the left navigation pane, select **Environments**, and then select an environment in which you want to enable Teams chat.
 
 1. On the **Environments** page, select **Settings**.
 
