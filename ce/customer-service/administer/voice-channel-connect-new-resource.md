@@ -1,7 +1,7 @@
 ---
 title: Connect using a new Azure resource 
 description: Use this article to understand how to connect to Azure Communication Services using a new Azure resource in Customer Service admin center.
-ms.date: 05/31/2024
+ms.date: 08/16/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -32,17 +32,18 @@ Before you connect an Azure resource to Azure Communication Services, you must p
 
 1. Select **Get started**. The **Connect to Azure Communication Services** dialog opens.
 
-1. Select **Create new resource** and enter the following details.
+1. Select **Create new resource**, and then enter the following details.
    - **Azure subscription**: Select a subscription from the dropdown list.
-   - **Azure resource group**: Select an existing resource group or select **Create new**, and enter a name for a new resource group.
+   - **Azure resource group**: Select an existing resource group or select **Create new**, and then enter a name for a new resource group.
       > [!NOTE]
-      > The resource group name should be unique within a subscription.
+      > - You might be prompted to add an event grid app ID for your resource. If you see this option, refer to Get Event Grid application and tenant IDS from the Azure portal for information about these values.
+      > - The resource name should be unique within a subscription.
    - **Resource name**: Enter a name for the resource. The resource name can contain only letters, numbers, and hyphens.
 1. Select **Deploy** to create and deploy the resource.
 
 Your new Azure resource is connected to Azure Communication Services. You can now [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the new resource and also [enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services).
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
