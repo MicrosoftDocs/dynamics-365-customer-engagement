@@ -121,12 +121,14 @@ From the portal side:
 
 Make sure you have the correct [business process flow](/power-automate/create-business-process-flow) enabled for this functionality.
 
-1. In Field Service, select the **Settings** area. > **Processes**.
-1. Search for **Send Password Reset to Contact**.
-1. Open the process to edit. Scroll down and select **View Properties**.
+1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. Select **Solutions** and your organization's solution.
+1. Under **Objects**, select **Processes**.
+1. Search for and open **Send Password Reset to Contact**. Scroll down and select **View Properties**.
 1. Edit the **From** field for a user. Typically the same account you use to send notifications for the scheduling experience. Then, select **Save and Close**.
-1. Go to **Settings** > **Email Configuration** > **Mailboxes**. 
-1. Select the user you set in step 4, select **Approve Email**, and then select **Test & Enable Mailbox**.
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.com) and select your organization's environment.
+1. Select **Settings** > **Email** > **Mailboxes**.
+1. Select the user you set in step 5, select **Approve Email**, and then select **Test & Enable Mailbox**.
 
 > [!div class="mx-imgBorder"]
 > ![Field Service process edit page, showing the "Send Password Reset to Contact" process.](./media/SS-Process-sendemail.PNG)
