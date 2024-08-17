@@ -1,7 +1,7 @@
 ---
 title: Connect using a new Azure resource 
 description: Use this article to understand how to connect to Azure Communication Services using a new Azure resource in Customer Service admin center.
-ms.date: 08/16/2024
+ms.date: 08/19/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
