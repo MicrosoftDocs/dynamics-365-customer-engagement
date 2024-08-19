@@ -29,8 +29,12 @@ The success of social media customer service, like all other customer service, d
 
    ### [Azure Communication Services (preview)](#tab/azurecommunicationservices)
 
-   - Have an Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the Subscription eligibility and number capabilities requirements.
-   - Have at least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the My role column of your subscription on the Azure portal. You'll be able to deploy your Azure Communication Services resource only if you have contributor-level permissions.
+   - Have an Azure subscription that's in the same tenant as your Dynamics 365 account.
+   - 	Obtain a phone number. The following are supported:
+       - A new Azure Communication Services [phone number](/azure/communication-services/quickstarts/telephony/get-phone-number)
+       - [import phone numbers](voice-channel-sync-from-acs.md)
+       - [connect your existing telephony infrastructure](voice-channel-bring-your-own-number.md)
+
    - Create or use an existing Azure Communication Services resource. Learn more at [Create and manage Communication Services resources](/azure/communication-services/quickstarts/create-communication-resource).
    - [Advanced Messaging for WhatsApp](/azure/communication-services/concepts/advanced-messaging/whatsapp/whatsapp-overview) is setup in Azure Communication Services.
 
