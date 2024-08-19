@@ -164,10 +164,13 @@ When a parent alert is found, the system checks to see if the matched alert has 
 
 To make the five-minute rule longer or shorter, modify the workflow "debounce" period.
 
-<!--- How do I get to this screen? 
-![Flow edit screen, showing the debounce configuration.](media/iot-alert-parenting-3.png) 
-And what does workflow or flow depending on enhanced background processing mean? --->
+1. Sign in to [Power Apps](https://make.powerapps.com/) and select **Solutions**.
+1. In **Objects**, select **Processes**.
+1. Select **IoT - Parent Iot Alerts**.
 
+   :::image type="content" source="media/iot-alert-parenting-3.png" alt-text="Power Apps showing IoT Parent Alerts with view properties highlighted.":::
+1. Select **View properties**.
+1. Change the value based on the number of seconds you want for the debounce period.
 To completely turn off the autoparent feature, disable the workflow or flow depending on whether your organization uses enhanced background processing controlled through Field Service settings. For more information, see this [article on default settings in Field Service](/dynamics365/field-service/configure-default-settings#other-settings).
 
 ![Power Apps, showing a list of processes with attention to the "IoT - Flow - Parent IoT Alerts" process.](media/iot-alert-parenting-4.png)
