@@ -50,4 +50,8 @@ While you can create inspections in Power Apps, there are a few reasons customer
 - **More scalable**: If your organization has many different inspections, it's easier to create Field Service inspections with a drag-and-drop interface and with dynamic branching. Power Apps inspections require creating new entities and forms for each inspection, which is more time consuming.
 - **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilities.
 
+## Next steps
+
+- [Create and view inspections](inspections.md)
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
