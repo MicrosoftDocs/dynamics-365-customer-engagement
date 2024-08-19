@@ -1,7 +1,7 @@
 ---
 title: Add inspections to work orders
 description: Learn how to use inspections in Dynamics 365 Field Service.
-ms.date: 08/14/2024
+ms.date: 08/19/2024
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
@@ -133,7 +133,7 @@ Technicians can view and complete inspections on the [Dynamics 365 Field Service
    > [!div class="mx-imgBorder"]
    > ![Screenshot of mobile app showing a sample inspection.](./media/inspections-fsm-new2.png)
 
-1. If needed, upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment. File attachments are limited to 3 MB per file, unless an administrator changes the limit.
+1. If needed, upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment. File attachments are limited to 3 MB per file, unless an administrator changes the limit. Inspections with a large number of files take time to load.
 
 1. When finished, select **Mark Complete** or set **Complete %** to 100.
 
