@@ -61,7 +61,7 @@ Create an inspection that can be reused and added to multiple work orders. We do
 
    :::image type="content" source="./media/inspections-create-preview-publish.png" alt-text="Screenshot of the Field Service inspection, highlighting both the preview section and the publish option.":::
 
-   To associate the inspection with an existing service task type or manually create the service task type, select **Publish**, confirm, and then [associate inspection to service task type](#associate-inspection-to-service-task-type).
+   To associate the inspection with an existing service task type or manually create the service task type, select **Publish**, confirm, and then [associate the inspection to a service task type](#associate-the-inspection-to-a-service-task-type).
 
 ### Question types
 
@@ -88,7 +88,7 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
   > [!div class="mx-imgBorder"]
   > ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
 
-### Associate inspection to service task type
+### Associate the inspection to a service task type
 
 Associate the inspection to a service task type. This association is necessary because inspections aren't added directly to work orders, they're added as part of **Work Order Service Tasks**.
 
@@ -106,7 +106,7 @@ Associate the inspection to a service task type. This association is necessary b
 
 It's common to add service task types to incident types in order to bundle work together. However, it isn't required because you can add individual service tasks to work orders.
 
-## Add inspection to work order
+## Add the inspection to a work order
 
 1. [Create a new work order](create-work-order.md) and select **Save**.
 
