@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 You can use the WhatsApp channel feature to engage with customers who prefer to communicate using WhatsApp. You can configure the WhatsApp channel through:
 
- - Azure Communication Services 
+ - Azure Communication Services (preview)
  - Twilio 
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
@@ -27,7 +27,7 @@ The success of social media customer service, like all other customer service, d
 - Make sure channels are provisioned in your environment. More information: [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md).
 - You can configure the WhatApp channel through Twilio or Azure Communication Services. Follow the appropriate steps based on your requirements.
 
-   ### [Azure Communication Services](#tab/azurecommunicationservices)
+   ### [Azure Communication Services (preview)](#tab/azurecommunicationservices)
 
    - Have an Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the Subscription eligibility and number capabilities requirements.
    - Have at least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the My role column of your subscription on the Azure portal. You'll be able to deploy your Azure Communication Services resource only if you have contributor-level permissions.
@@ -66,7 +66,7 @@ The success of social media customer service, like all other customer service, d
 
 Based on the messaging infrastructure you have configured, follow the appropriate steps to fetch the required details.
 
-   ### [Azure Communication Services](#tab/azurecommunicationservices)
+   ### [Azure Communication Services (preview)](#tab/azurecommunicationservices)
 
    Copy the following information from the [Azure portal](https://ms.portal.azure.com/). You will need these details to configure the WhatsApp channel through Customer Service admin center.
    
@@ -97,7 +97,7 @@ Based on the messaging infrastructure you have configured, follow the appropriat
    
 1. Select the required **Provider**. Based on your selection, specify the following details.
 
-   ### [Azure Communication Services](#tab/azurecommunicationservices)
+   ### [Azure Communication Services (preview)](#tab/azurecommunicationservices)
 
     You must specify the information you've copied from in [Fetch Azure Communication Services details](#azure-communication-services-1).
     
@@ -175,7 +175,9 @@ Based on the messaging infrastructure you have configured, follow the appropriat
 
 ### Configure WhatsApp message templates
 
-You can configure the option for agents to send WhatsApp-approved messages. If 24 hours pass after a customer's last message, agents will only be able to send messages from WhatsApp-approved templates until the customer responds. You must create your message templates in your Twilio account and have them approved by WhatsApp before you add them in Omnichannel for Customer Service.
+You can configure the option for agents to send WhatsApp-approved messages. If 24 hours pass after a customer's last message, agents will only be able to send messages from WhatsApp-approved templates until the customer responds. Before you add templates to the application, based on your configuration, do one of the following:
+- Perform the steps in [Send WhatsApp template messages to send WhatsApp Template messages using Advanced Communication Messages SDK](/azure/communication-services/concepts/advanced-messaging/whatsapp/template-messages).
+- Create your message templates in your Twilio account and have them approved by WhatsApp.
 
 Perform the following steps:
 
