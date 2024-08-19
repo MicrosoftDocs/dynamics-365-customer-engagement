@@ -14,13 +14,13 @@ Setting financial expectations with customers and vendors is critical for managi
 
 Field Service supports three types of not-to-exceed (NTE) values.
 
-- Price: Maximum price a customer accepts without a special approval process. It’s applied to a work order when the order is created with the service provider.
-- Cost: Maximum cost the service provider accepts without a special approval process. It’s set by the service provider before assigning work to vendors.
-- Price and cost margin: Sets the price NTE and calculates the cost NTE based on the margin defined. This NTE type is used by service providers who expect to make a margin on a set of work.
+- **Price**: Maximum price a customer accepts without a special approval process. It’s applied to a work order when the order is created with the service provider.
+- **Cost**: Maximum cost the service provider accepts without a special approval process. It’s set by the service provider before assigning work to vendors.
+- **Price and cost margin**: The price NTE and the cost NTE are set based on the margin defined. This NTE type is used by service providers who expect to make a margin on a set of work.
 
 You can automatically apply them to the work order based on the customer, the incident type, or the location of the work. Service managers and frontline workers can optionally receive a warning when the not-to-exceed value is near or exceeds the limit, notifying the user they need to act.
 
-**Price and cost margin** are always selected before price or cost NTEs. If any Price and Cost Margin NTE is applicable for a work order, Price and Cost NTEs are never considered for that work order.
+**Price and cost margin** are always selected before price or cost NTEs. If any **Price and cost margin** NTE is applicable for a work order, **Price** and **Cost** NTEs are never considered for that work order.
 
 NTEs match on the service account first. All other fields have equal priority. If no NTEs exist for a service account, NTEs against billing account are considered next. NTEs with no account mapping are considered last.
 
@@ -31,10 +31,10 @@ The following image shows the high-level work order process.
 ## Prerequisites
 
 - [Security roles](users-licenses-permissions.md):
-  - Field Service – Administrator: All permissions to set up, configure, and edit NTE.
+  - **Field Service – Administrator**: All permissions to set up, configure, and edit NTE.
   - Other Field Service roles: Read and use permissions for NTE records.
-- Enable [**Not-To-Exceed**](configure-default-settings.md#features-settings) setting.
-- Enable [**Calculate cost** and/or **Calculate price**](configure-default-settings.md#work-order--booking-settings), depending on the NTE type you plan to use.
+- [**Not-To-Exceed**](configure-default-settings.md#features-settings) setting enabled.
+- [**Calculate cost** and/or **Calculate price**](configure-default-settings.md#work-order--booking-settings) enabled, depending on the NTE type you plan to use.
 
 ## Create and view not-to-exceed records
 
@@ -42,7 +42,7 @@ Admins can configure NTE records after enabling the capability. After NTE record
 
 :::image type="content" source="media/NTE-list-view.png" alt-text="Screenshot of the list of active NTE values.":::
 
-1. Open the **Settings** area.
+1. In Field Service, select the **Settings** area.
 1. Go to **General** > **Not-to-exceed**.
 1. Select **New**.
 1. Select the **Type**: [Price](#create-a-price-nte), [Cost](#create-a-cost-nte), or [Price and cost margin](#create-a-price-and-cost-margin-nte). Enter the information.
@@ -91,6 +91,6 @@ Work order NTE should be primarily interacted with by the system during NTE sele
 ## Next steps
 
 - [Create a work order to coordinate and schedule resources and activities](create-work-order.md)
-- [Create work order types (Field Service)](create-work-order-types.md)
+- [Create work order types](create-work-order-types.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
