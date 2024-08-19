@@ -1,7 +1,7 @@
 ---
 title: Edit setting of the Dynamics 365 app
 description: Learn how to edit settings of the Dynamics 365 app
-ms.date: 07/26/2024
+ms.date: 08/19/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -36,7 +36,7 @@ This article provides information on how to edit settings of the Dynamics 365 ap
 
     - **Dynamics 365 app**: App that you want to share records from.
 
-    ![Edit app settings](media/me-edit-settings..png "Edit app settings")
+    ![Edit app settings](media/me-edit-settings.png "Edit app settings")
 
 4.  Select **Save**.
 
