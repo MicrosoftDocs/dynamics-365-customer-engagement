@@ -20,7 +20,7 @@ In focused view, sellers can view and manage their CRM records and their associa
 
 As an administrator, you can do the following configurations for focused view:
 
-- [Configure focused view as default](set-focused-view-as-default.md)
+- [Configure focused view](set-focused-view-as-default.md)
 - [Enable focused view in your organization](enable-focused-view.md)
 
 To understand how users can view and manage records in focused view, see [View and manage records in focused view](focused-view.md).
