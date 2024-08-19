@@ -29,6 +29,8 @@ The success of social media customer service, like all other customer service, d
 
    ### [Azure Communication Services (preview)](#tab/azurecommunicationservices)
 
+    [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+
    - Have an Azure subscription that's in the same tenant as your Dynamics 365 account.
    - 	Obtain a phone number. The following are supported:
        - A new Azure Communication Services [phone number](/azure/communication-services/quickstarts/telephony/get-phone-number)
@@ -72,6 +74,8 @@ Based on the messaging infrastructure you have configured, follow the appropriat
 
    ### [Azure Communication Services (preview)](#tab/azurecommunicationservices)
 
+   [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+
    Copy the following information from the [Azure portal](https://ms.portal.azure.com/). You will need these details to configure the WhatsApp channel through Customer Service admin center.
    
    1. Go to **Resource groups** and select the required resource group. 
@@ -103,6 +107,8 @@ Based on the messaging infrastructure you have configured, follow the appropriat
 
    ### [Azure Communication Services (preview)](#tab/azurecommunicationservices)
 
+   [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+ 
     You must specify the information you've copied from in [Fetch Azure Communication Services details](#azure-communication-services-1).
     
      1. In the **Channel settings** page, specify the following. 
