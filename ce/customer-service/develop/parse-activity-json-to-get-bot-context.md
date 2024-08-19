@@ -37,7 +37,7 @@ protected override async Task OnEventActivityAsync(ITurnContext<IEventActivity> 
 
 [Code samples for parsing activity JSON](bot-context-json-samples.md)  
 
-### See also
+### Related Information
 
 [setContextProvider](reference/methods/setContextProvider.md)  
 [Integrate an Azure bot](../administer/configure-bot-azure.md)  

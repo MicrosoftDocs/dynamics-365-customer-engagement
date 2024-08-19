@@ -29,7 +29,7 @@ Returns a promise resolved with currently ongoing conversation ID.
 
 `Microsoft.Omnichannel.getConversationId();`
 
-### See also
+### Related Information
 
 [Live chat SDK reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  

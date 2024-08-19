@@ -24,7 +24,7 @@ window.addEventListener("lcw:startChat", function handleLivechatStartedEvent(){
 });
 ```
 
-### See also
+### Related Information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  

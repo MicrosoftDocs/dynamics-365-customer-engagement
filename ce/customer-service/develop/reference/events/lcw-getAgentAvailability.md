@@ -20,7 +20,7 @@ window.addEventListener("lcw:getAgentAvailability", function handlegetAgentAvail
 });
 ```
 
-### See also
+### Related Information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  

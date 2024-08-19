@@ -410,7 +410,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
  });
 ```
 
-### See also
+### Related Information
 
 [startProactiveChat API](reference/methods/startProactiveChat.md)  
 [Manage custom context](send-context-starting-chat.md)  

@@ -45,7 +45,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 });
 ```
 
-### See also
+### Related Information
 
 [Live chat JavaScript API reference](../../omnichannel-reference.md)  
 [Start a chat](../../initiate-chat-wait-time.md)  

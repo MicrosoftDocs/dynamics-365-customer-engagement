@@ -56,7 +56,7 @@ OData-Version: 4.0
 HTTP 204 No Content
 ```
 
-### See also
+### Related Information
 
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 
