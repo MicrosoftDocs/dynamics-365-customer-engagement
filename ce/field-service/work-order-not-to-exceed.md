@@ -72,7 +72,7 @@ NTE values are listed on [work orders](work-order-experience.md) if the configur
 
 NTE values on work orders are read-only and they show a warning when the actual cost or price approaches the defined NTE value or surpasses them. However, you can still update and save a work order as usual if the warnings are shown.
 
-## Not-to-exceed on Field Service mobile
+## View not-to-exceed on Field Service mobile
 
 Technicians who use the Field Service mobile app can see the not-to-exceed value on the work order. The system shows warning icons to users when they get close to the specified NTE value or if they surpass it.
 
@@ -80,11 +80,11 @@ However, you can still save work orders when ignoring the warning.
 
 Using the [Field Service mobile app in offline mode](mobile-power-app-system-offline.md) takes the NTE values from the most recent synchronization into account.
 
-## Applied amount on work orders
+## View applied amount on work orders
 
 The work order not-to-exceed's applied amount represents the actual NTE amount applied on the work order. The not-to-exceed source informs you where the defined amount came from. If the applied amount is manually set, the source is set as *user specified*. Without manual edits, the system selects the applicable NTE record and copies its amount into the applied amount on the work order. In this case, the source is set to *system specified* and the work order NTE references the selected NTE record.
 
-If you reset a manually entered NTE amount on the work order form, the source changes back to *system specified* and the applied amount updates to the amount from the system selected NTE.
+If you reset a manually entered NTE amount on the work order form, the source changes back to *system specified*. The applied amount updates to the amount from the system selected NTE.
 
 Work order NTE should be primarily interacted with by the system during NTE selection and by users on the work order form. Customization on work order NTE could interfere with the automated behavior.
 
