@@ -53,7 +53,7 @@ You can create a service in the Customer Service admin center or Customer Servic
   
 3. In the **General** section, enter a **Name** and **Description** to reflect the specifics of the service and describe what the service is. </br>
 
-   Also, specify the initial status of the service activity when it is created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.
+   Also, specify the initial status of the service activity when it's created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.
 
    > [!NOTE]
    > The status reason also reflects in the schedule board when you create a booking for the service.
@@ -75,7 +75,7 @@ You can create a service in the Customer Service admin center or Customer Servic
         > [!NOTE]
         > The maximum duration of a service activity is 10 days.
 
-     - Lookup or quick create a **Fulfillment Preference** to define the start time and end time of the service availability in a day and intervals in which it's provided. You can also select from a list of fulfillment preferences displayed. 
+     - Look up or quick create a **Fulfillment Preference** to define the start and end times of the service availability in a day, as well as the provided intervals. You can also select from a list of fulfillment preferences displayed. 
         > [!NOTE]
         > When you select create, a **Quick Create** form is displayed where you can quickly create a new fulfillment preference.
 
@@ -84,13 +84,13 @@ You can create a service in the Customer Service admin center or Customer Servic
     - Add a new requirement subgroup by selecting **Subgroup**. You can add subgroups inside a subgroup.
     - Add a new resource requirement by selecting **Requirement**. 
 
-   - Select whether the service is **Part of Same** organizational unit, resource tree or location.
+   - Select whether the service is **Part of Same** organizational unit, resource tree, or location.
   
    - Select the **Organizational Unit** to define the unit to which the selected resource should belong to.
    - Select **Resource Categories**  and select **Resource Characteristics** to define the categories for the resource.
-   - Select **Preferred Resource** to display resource options. When only preferred resources are selected on a requirement, any one of the available resources from the list of preferred resources will be selected as per the time slot. When preferred resources are selected along with the resource category on a requirement, any one of the available resources from the list of preferred resource and which belongs to the resource category will be selected as per the time slot.
+   - Select **Preferred Resource** to display resource options. When only preferred resources are selected on a requirement, any one of the available resources from the list of preferred resources are selected as per the time slot. When preferred resources are selected along with the resource category on a requirement, any one of the available resources from the list of preferred resource and which belongs to the resource category are selected as per the time slot.
    - Select **Sort Option** to sort according to most and least business impact.
-   - Provide **Effort Required**. While booking, this option helps you view all the resources who satify the minimum effort requirement. For example, if the effort required is defined as 100, only the resources with the capacity value of 100 and more will be displayed in the list while booking the service in the schedule board.
+   - Provide **Effort Required**. When you book resources, this option helps you view all the resources that satisfy the minimum effort requirement. For example, if the effort required is defined as 100, only the resources with the capacity value of 100 and more are displayed in the list while booking the service in the schedule board.
 
    You can add complexity to a rule by adding a subrule to it.  
    > [!NOTE]
@@ -102,12 +102,11 @@ You can create a service in the Customer Service admin center or Customer Servic
  You can make a service available or unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, and then select **Activate** or **Deactivate** in the command bar.  
 
 > [!NOTE]
-> If there are open or scheduled service activities associated with a service, then the service cannot be deactivated.
+> A service can't be deactivated if there are open or scheduled service activities associated with it.
   
 ### Related information 
 
-[Create and manage resource categories](resource-categories-service-scheduling.md)
- 
+[Create and manage resource categories](resource-categories-service-scheduling.md)   
 [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)
 
 
