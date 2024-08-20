@@ -20,7 +20,7 @@ window.addEventListener("lcw:closeChat", function handleLivechatClosedEvent(){
 });
 ```
 
-### Related Information
+### Related information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  

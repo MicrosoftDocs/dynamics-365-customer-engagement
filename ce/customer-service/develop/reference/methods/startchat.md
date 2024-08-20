@@ -43,7 +43,7 @@ None
 
 ```
 
-### Related Information
+### Related information
 
 [setAuthTokenProvider](setAuthTokenProvider.md)<br />
 [setContextProvider](setContextProvider.md)<br />

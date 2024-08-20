@@ -72,7 +72,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 });
 ```
 
-### Related Information
+### Related information
 
 [setAuthTokenProvider](reference/methods/setAuthTokenProvider.md)<br />
 [getAuthTokenProvider](reference/methods/getAuthTokenProvider.md)<br />

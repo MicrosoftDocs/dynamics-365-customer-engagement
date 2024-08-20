@@ -58,7 +58,7 @@ public class SamplePlugin : IPlugin
 }
 ```
 
-### Related Information
+### Related information
 
 [Overview of routing](../administer/overview-unified-routing.md)  
 [Set up routing for records](../administer/set-up-record-routing.md)  

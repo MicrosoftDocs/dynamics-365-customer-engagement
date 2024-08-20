@@ -1054,7 +1054,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 
-### Related Information
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

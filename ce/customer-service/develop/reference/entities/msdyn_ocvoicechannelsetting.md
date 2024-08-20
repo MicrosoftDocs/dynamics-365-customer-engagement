@@ -974,7 +974,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|BigInt|
 
 
-### Related Information
+### Related information
 
 [About the Entity Reference](../../../../customerengagement/on-premises/developer/about-entity-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />

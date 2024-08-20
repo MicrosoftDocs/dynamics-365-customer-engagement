@@ -20,7 +20,7 @@ window.addEventListener("lcw:chatRetrieved", function handleLivechatRetrievedEve
 });
 ```
 
-### Related Information
+### Related information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  

@@ -36,7 +36,7 @@ If you're using a Copilot Studio bot, ensure that you manually set up end user a
 
 [!INCLUDE[setBotAuthTokenProvider-code-sample](reference/includes/setBotAuthTokenProvider-code-sample.md)]
 
-### Related Information
+### Related information
 
 [Integrate an Azure bot](../administer/configure-bot-azure.md)  
 [Integrate Copilot Studio bot](../administer/configure-bot-virtual-agent.md)  

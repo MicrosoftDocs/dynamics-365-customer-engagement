@@ -20,7 +20,7 @@ window.addEventListener("lcw:chatQueued", function handleLivechatQueuedEvent(){
 });
 ```
 
-### Related Information
+### Related information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  

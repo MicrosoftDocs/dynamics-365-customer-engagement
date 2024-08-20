@@ -79,7 +79,7 @@ Though we don't recommend setting up parameters for the skill control, if you wa
 	</entity>
 </fetch>
 ```
-### Related Information
+### Related information
 
 [Overview of unified routing](../administer/overview-unified-routing.md)  
 [Set up record routing](../administer/set-up-record-routing.md)  

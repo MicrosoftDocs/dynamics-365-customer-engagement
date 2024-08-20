@@ -25,7 +25,7 @@ window.addEventListener("lcw:threadUpdate", function handleLivechatThreadUpdateE
 });
 ```
 
-### Related Information
+### Related information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  

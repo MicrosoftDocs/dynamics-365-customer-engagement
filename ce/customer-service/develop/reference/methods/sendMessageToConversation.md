@@ -75,7 +75,7 @@ let validRichObjJSON = {
 Microsoft.Omnichannel.sendMessageToConversation(validRichObjJSON,  false);
 ```
 
-### Related Information
+### Related information
 
 [Live chat SDK reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
