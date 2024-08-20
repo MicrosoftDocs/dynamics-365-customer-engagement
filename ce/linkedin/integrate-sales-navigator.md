@@ -44,7 +44,7 @@ The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Accoun
 
 - **Connections**: Shows relevant connections for this company that can establish a first contact.
 
-- **Account IQ**: Stay on top of your accounts with AI-generated insights. Understand your customers strategic priorities, challenges, financials, and what their employees are talking about on LinkedIn.
+- **Account IQ**: Stay on top of your accounts with AI-generated insights. Understand your customer's strategic priorities, challenges, financials, and what their employees are talking about on LinkedIn.
 
   :::image type="content" source="media/account-iq.png" alt-text="Screenshot of the Account IQ in Sales Navigator.":::
 
