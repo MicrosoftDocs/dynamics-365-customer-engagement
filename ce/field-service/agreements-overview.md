@@ -1,7 +1,7 @@
 ---
 title: "Customer agreements overview"
 description: Learn about customer agreements in Dynamics 365 Field Service
-ms.date: 06/17/2024
+ms.date: 08/19/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -63,7 +63,6 @@ Agreements work seamlessly with the Dynamics 365 Sales Lead > Opportunity > Quot
 - Categorize a lead as a service-maintenance lead
 - Add opportunity lines with service-based lines
 - Create quote lines as service-based lines and add a quote booking setup
-- 
 
 ## Next steps
 

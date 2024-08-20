@@ -1,7 +1,7 @@
 ---
 title: "Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set up customer agreements in Dynamics 365 Field Service
-ms.date: 06/17/2024
+ms.date: 08/20/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -128,7 +128,7 @@ If you don't want to use agreement booking incident types, you can add products,
 
 1. Select **Save & Close**.
 
-As you add incidents to the agreement, the related products, services, service tasks, and characteristics are added to the agreement. These items are then added to work orders as they're generated. When adding incident types, consider the [**Copy Incident Items to Agreement** setting](configure-incident-types#create-an-incident-type-from-scratch).
+As you add incidents to the agreement, the related products, services, service tasks, and characteristics are added to the agreement. These items are then added to work orders as they're generated. When adding incident types, consider the [**Copy Incident Items to Agreement** setting](configure-incident-types.md#create-an-incident-type-from-scratch).
 
 ### Step 4: Activate agreement and view work orders
 
