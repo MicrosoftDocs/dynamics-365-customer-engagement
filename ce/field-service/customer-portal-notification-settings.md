@@ -15,13 +15,13 @@ search.app:
 The portal uses Power Automate flows to trigger notifications for customers. Before we can send notifications, choose which channels to use and configure the flows accordingly. To send text messages, set up an SMS provider with a Power Automate connector. For emails, we recommend an Office 365 Outlook account.
 
 > [!CAUTION]
-> When enabled, the system sends notifications to contacts of the account associated with bookings. When using real customer data to test this feature, prevent accidental communication by [adding accounts to **Exclusion lists**](create-configure-customer-portal.md).
+> When enabled, the system sends notifications to contacts of the account associated with bookings. When using real customer data to test this feature, prevent accidental communication by [adding accounts to **Excluded Accounts**](create-configure-customer-portal.md#configure-the-customer-portal-settings).
 
 ## Configure email and SMS connectors in Power Automate
 
 The Customer Portal settings in Field Service link directly to the default Power Automate flows for email and SMS.
 
-1. Sign in to [Power Apps Maker portal](https://make.powerapps.com) and select **Solutions** > your Dynamics 365 Field Service solution.
+1. Sign in to [Power Apps](https://make.powerapps.com) and select **Solutions** > your Dynamics 365 Field Service solution.
 1. Select **Objects** > **Cloud flows** to see the list of flows.
 
 To configure email:
@@ -66,6 +66,8 @@ In Field Service, go to the **Settings** area. Under **Customer Portal**, select
 
 ## Configure booking notification codes
 
-With booking notification codes, Field Service admins can extend, expire, or block access to a portal link that has been shared with a customer.
+With booking notification codes, Field Service admins can extend, expire, or block access to a portal link that was shared with a customer.
 
 In Field Service, go to the **Settings** area. Under **Customer Portal**, select **Booking Notification Codes** to create and manage codes.
+
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

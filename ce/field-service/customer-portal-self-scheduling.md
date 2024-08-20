@@ -23,10 +23,14 @@ This article discusses the main scenarios for users of the self-scheduling porta
 The portal requires users to create a portal profile before they can sign in and book services.
 
 1. Open the link you received in the invite.
+
    :::image type="content" source="media/SS-Portal-Login.svg" alt-text="The Field Service customer portal sign-in screen.":::
+
 1. Select the **Redeem invitation** tab and use the code you received in email.
 1. Create your profile for the portal.
+
    :::image type="content" source="media/SS-Portal_Profile.svg" alt-text="The customer portal contact profile screen.":::
+
 1. Optionally, select **Manage external authentication** to sign in with other identity providers.
 1. Save the profile and sign in to the self-service scheduling portal.
 1. Schedule services on the portal. An email is sent confirming your booking.
@@ -51,9 +55,6 @@ You can change an appointment in the portal by choosing a new date and time, or 
 
 ## View different states of the booking on the portal
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the customer portal showing active technician details.](./media/TMT-Desktop-Traveling.png)
-
 ### Traveling
 
 Appointments in the **Traveling** state mean the technician is on their way to a service appointment. Appointments set to **Traveling** appear in the **Active appointment** section on the portal home page.
@@ -61,9 +62,12 @@ Appointments in the **Traveling** state mean the technician is on their way to a
 If [technician tracking is turned on](customer-portal-technician-tracking.md), the portal shows the technician's location on a map. To see the location, select **View Live Map**.
 
 > [!div class="mx-imgBorder"]
-> ![Active appointments in the customer experience portal.](./media/homepage-homepage-with-1-booking-in-travelling-state-which-has-link-to-tmt.jpg)
+> ![Screenshot of the customer portal showing active technician details.](./media/TMT-Desktop-Traveling.png)
 
 If multiple appointments are set to traveling, only one appears in the **Active appointment**. The other active appointments are listed in the **Upcoming appointments** section, but you can select **View Live Map**.
+
+> [!div class="mx-imgBorder"]
+> ![Active appointments in the customer experience portal.](./media/homepage-homepage-with-1-booking-in-travelling-state-which-has-link-to-tmt.jpg)
 
 > [!NOTE]
 > Technicians must [share their location from the Field Service mobile app](mobile-powerapp-location-auditing.md) for location tracking and the estimated travel time. There's a small delay between their actual location and the location on the map. The delay can increase with limited network coverage of the technician's mobile device.
@@ -132,3 +136,5 @@ Make sure you have the correct [business process flow](/power-automate/create-bu
 
 > [!div class="mx-imgBorder"]
 > ![Field Service process edit page, showing the "Send Password Reset to Contact" process.](./media/SS-Process-sendemail.PNG)
+
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

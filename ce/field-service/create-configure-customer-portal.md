@@ -1,7 +1,7 @@
 ---
 title: Create and configure the Field Service portal
 description: Set up and configure the Field Service portal.
-ms.date: 08/15/2024
+ms.date: 08/20/2024
 ms.topic: how-to
 author: anilmur
 ms.author: anilmur
@@ -10,7 +10,7 @@ ms.reviewer: mhart
 
 # Create and configure the Field Service portal
 
-The following sections guide you through the setup process and provide helpful information to configure the portal template.
+This article guides you through the setup process and provide helpful information to configure the portal template.
 
 ## Create the Field Service customer experiences portal
 
@@ -20,7 +20,7 @@ The following sections guide you through the setup process and provide helpful i
 
 1. In the left navigation, select **Templates**.
 
-1. Search for the *Field Service* and select **Choose this template** on the **Field Service** template card.
+1. Search for *Field Service* and select **Choose this template** on the **Field Service** template card.
 
    :::image type="content" source="media/field-service-portal-template.svg" alt-text="Screenshot of the templates in Power Pages showing Field Service.":::
 
@@ -42,27 +42,25 @@ Admins can configure most customer portal settings directly in Field Service.
 
    - **Field Service Website**: The associated website. Opening the associated website record takes you to the [Portal Management app](/power-apps/maker/portals/configure/configure-portal).
 
-   - **Track My Technician**: Enables the options to configure the [Track a technician feature](customer-portal-technician-tracking.md).
+   - **Track My Technician**: The option that enables the [Track a technician feature](customer-portal-technician-tracking.md).
 
-   - **Self Scheduling (Preview)**: Enables the self-scheduling experience in the portal.
+   - **Self Scheduling (Preview)**: The option that enables the self-scheduling experience in the portal.
 
-   - **Send self-scheduling experience to Account Contacts**: Enables automated notifications with access information for the portal. The information is sent to every contact that isn't part of an excluded account. When enabling this feature, choose if you want to send invites to all contacts or only to new contacts moving forward.
+   - **Send self-scheduling experience to Account Contacts**: The option that enables automated notifications with access information for the portal. The information is sent to every contact that isn't part of an excluded account. When enabling this feature, choose if you want to send invites to all contacts or only to new contacts moving forward.
 
    - **Messages**: Messages are sent at specific points of the work order lifecycle. These messages can be enabled or disabled independently. For details on each message, go to [Set up notifications for the Field Service portal (preview)](customer-portal-notification-settings.md).
 
-   - **Communication Type**: Define whether you want the system to send your customer email, SMS, or both message types.
+   - **Communication Type**: The type of communication the system sends your customer: email, SMS, or both.
 
    - **Send Messages To**: By default, the system sends messages to the contact that created the service request through the portal. If no such contact exists, messages go to the contact type noted in this setting.
 
-   - **Exclusion lists**: These lists allow you to exclude specific service accounts or service types from all messaging.
-
-   - **Include Survey (Preview)**: Embed a [Customer Voice survey](/dynamics365/customer-voice/about) in the portal. When [adding a survey embed code](/dynamics365/customer-voice/embed-web-page), the survey automatically shows when the booking is complete.
+   - **Include Survey (Preview)**: The [Customer Voice survey](/dynamics365/customer-voice/about) to embed in the portal. When [adding a survey embed code](/dynamics365/customer-voice/embed-web-page), the survey automatically shows when the booking is complete.
 
    - **Configure SMS and Email Connector**: Direct links to the Power Automate flows where you [configure the email and SMS connectors](customer-portal-notification-settings.md).
 
-   - **Excluded Work Order Types**: List work order types that you don't want to expose as an option in the portal.
+   - **Excluded Work Order Types**: Work order types that you don't want to expose as an option in the portal.
 
-   - **Excluded Accounts**: List customer accounts for which you don't want to enable the portal. Contacts related to excluded accounts don't receive invites to the portal either.
+   - **Excluded Accounts**: Customer accounts that you don't want to enable in the portal. Contacts related to excluded accounts don't receive invites to the portal either.
 
 1. On the **Display** tab, set basic design values for the portal. The **Advanced Display Configuration** field contains the direct link to open [the Power Pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
 
@@ -95,7 +93,7 @@ As part of the self-scheduling experience, the customer can select the incident 
 
 1. On the **General** tab, set the **Enable for C2** setting to **Yes** and provide a **Display Name** for the portal.
 
-   :::image type="content" source="media/SS_Incident_Type-displayname.png" alt-text="Customer portal settings, showing the field for the user-friendly name for incident types.":::
+   :::image type="content" source="media/SS_Incident_Type-displayname.svg" alt-text="Customer portal settings, showing the field for the user-friendly name for incident types.":::
 
 1. On the **Details** tab, set a **Default Work Order** type that is associated with a price list for the incident type.
 
@@ -120,3 +118,5 @@ When we release new features, we don't update your portal automatically. An admi
 - [Set up notifications for the Field Service portal](customer-portal-notification-settings.md)
 - [Let customers schedule service appointments (preview)](customer-portal-self-scheduling.md)
 - [Track a technician on the Field Service portal](customer-portal-technician-tracking.md)
+
+[!INCLUDE [footer-include](../includes/footer-banner.md)]
