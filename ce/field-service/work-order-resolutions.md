@@ -1,7 +1,7 @@
 ---
 title: Create work order resolutions
 description: Learn about how to capture work order resolution details in Dynamics 365 Field Service.
-ms.date: 06/09/2023
+ms.date: 08/16/2024
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -20,15 +20,15 @@ In Field Service, go to **Settings** > **Resolutions**.
 
 Create resolution records based on your business needs. For example, if "Reset Device Control Unit" is a common way to resolve a work order issue, name the resolution accordingly. The description can contain additional information on why or how to reinstall firmware.
 
-:::image type="content" source="media/resolutions-list-settings.jpg" alt-text="Screenshot of Field Service showing a list of active resolutions.":::
+:::image type="content" source="media/resolutions-list-settings.svg" alt-text="Screenshot of Field Service showing a list of active resolutions.":::
 
 ## Associate resolutions to incident types
 
 Organizations using incident types to organize and track common work order issues can map resolutions to incident types. By default, the primary resolution maps to the primary work order incident type.
 
-:::image type="content" source="media/wo-resolution-form.jpg" alt-text="Screenshot of a work order resolution in Field Service.":::
+When administrators [configure incident types](configure-incident-types.md), they can [associate multiple resolutions to an incident type](configure-incident-types.md#add-incident-type-resolutions). When these incident types are added to work orders, the system creates work order incident types that suggest the associated resolutions.
 
-When administrators [configure incident types](configure-incident-types.md), they can associate multiple resolutions to an incident type. When these incident types are added to work orders, the system creates work order incident types that suggest the associated resolutions.
+:::image type="content" source="media/wo-resolution-form.svg" alt-text="Screenshot of a work order resolution in Field Service.":::
 
 ## Next steps
 
