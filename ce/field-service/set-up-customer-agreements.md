@@ -8,7 +8,7 @@ ms.author: jacoh
 ---
 # Set up agreements to automatically generate work orders and invoices
 
-Customer agreements contain predefined details to generate work orders and invoices. For more information, see [agreements overview](agreements-overview.md).
+Customer agreements contain predefined details to generate work orders and invoices. For more information, see [agreements overview](agreements-overview.md). As agreement work increases, consider whether to add [multiple incidents or multiple recurrences](agreements-overview.md#multiple-incidents-vs-multiple-recurrences).
 
 To use agreements, perform the following steps:  
 
