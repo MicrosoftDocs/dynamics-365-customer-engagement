@@ -115,7 +115,7 @@ You can set work hours for the bookable resources where you can define when the 
 4.  From the **Set up** dropdown list, select the schedule display as required.
   
     > [!NOTE]
-    >  Monthly schedules are the default display; you can seelct weekly and daily schedules.  
+    >  Monthly schedules are the default display; you can select weekly and daily schedules.  
   
 5.  Double-click a date on the calendar that's the first day for which you want to set work hours.  
   
