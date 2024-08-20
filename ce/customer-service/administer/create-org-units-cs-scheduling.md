@@ -1,7 +1,7 @@
 ---
 title: Create and manage organizational units
 description: Know how to create organizational units in service scheduling in Dynamics 365 Customer Service.
-ms.date: 08/08/2024
+ms.date: 08/20/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -9,7 +9,7 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
   - evergreen
 ---

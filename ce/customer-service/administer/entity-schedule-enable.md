@@ -4,7 +4,7 @@ description: Learn how to enable an entity for scheduling in Dynamics 365 Custom
 author: Soumyasd27
 ms.author: sdas
 ms.topic: how-to 
-ms.date: 08/08/2024 
+ms.date: 08/20/2024 
 ms.custom: 
 - bap-template
 - evergreen

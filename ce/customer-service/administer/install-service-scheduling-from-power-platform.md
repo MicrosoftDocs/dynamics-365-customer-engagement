@@ -1,7 +1,7 @@
 ---
 title: Install Service Scheduling from Power Platform (Dynamics 365 Customer Service)
 description: Learn how to install Core Service Scheduling from the Power Platform admin center in Dynamics 365 Customer Service.
-ms.date: 08/08/2024
+ms.date: 08/20/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas

@@ -1,7 +1,7 @@
 ---
 title: Manage security roles in Service Scheduling
 description: This topic provides information on how to manage security roles in service scheduling in Dynamics 365 Customer Service.
-ms.date: 08/08/2024
+ms.date: 08/20/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas

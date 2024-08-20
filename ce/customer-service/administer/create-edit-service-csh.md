@@ -1,7 +1,7 @@
 ---
-title: Create or change a service in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Know how to create or change a service in service scheduling in Dynamics 365 Customer Service
-ms.date: 04/04/2022
+title: Create or change a service in Service Scheduling (Dynamics 365 Customer Service)
+description: Know how to create or change a service in service scheduling in Dynamics 365 Customer Service.
+ms.date: 08/20/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -11,6 +11,7 @@ search.audienceType:
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - evergreen
 ---
 
 # Create or edit a service in Service Scheduling
@@ -28,9 +29,9 @@ To make scheduling services quick and easy, it’s helpful to predefine the spec
   
 Make sure that you have the required security role or equivalent permissions. 
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
+Learn more in [Manage security roles in service scheduling](manage-security-roles.md).
 
-You can create a service in Customer Service admin center or Customer Service Hub app
+You can create a service in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
@@ -46,7 +47,7 @@ You can create a service in Customer Service admin center or Customer Service Hu
     1. In the site map, go to **Scheduling**.
     2. From the list of entity records, select **Services** in **Scheduling**.
        
-       The **Active Services** view is displayed. You can switch between various system views using the drop-down list.
+       The **Active Services** view is displayed. You can switch between various system views using the dropdown list.
 
 2. On the command bar, select **New** to create a new service. To edit a service, open a service from the list.  
   
@@ -74,7 +75,7 @@ You can create a service in Customer Service admin center or Customer Service Hu
         > [!NOTE]
         > The maximum duration of a service activity is 10 days.
 
-     - Lookup or quick create a **Fulfillment Preference** to define the start time and end time of the service availability in a day and intervals in which it's provided. You can also choose from a list of fulfillment preferences displayed. 
+     - Lookup or quick create a **Fulfillment Preference** to define the start time and end time of the service availability in a day and intervals in which it's provided. You can also select from a list of fulfillment preferences displayed. 
         > [!NOTE]
         > When you select create, a **Quick Create** form is displayed where you can quickly create a new fulfillment preference.
 
@@ -83,12 +84,12 @@ You can create a service in Customer Service admin center or Customer Service Hu
     - Add a new requirement subgroup by selecting **Subgroup**. You can add subgroups inside a subgroup.
     - Add a new resource requirement by selecting **Requirement**. 
 
-   - Choose whether the service is **Part of Same** organizational unit, resource tree or location.
+   - Select whether the service is **Part of Same** organizational unit, resource tree or location.
   
-   - Choose the **Organizational Unit** to define the unit to which the selected resource should belong to.
-   - Select **Resource Categories**  and choose **Resource Characteristics** to define the categories for the resource.
-   - Choose **Preferred Resource** to display resource options. When only preferred resources are selected on a requirement, any one of the available resources from the list of preferred resources will be selected as per the time slot. When preferred resources are selected along with the resource category on a requirement, any one of the available resources from the list of preferred resource and which belongs to the resource category will be selected as per the time slot.
-   - Choose **Sort Option** to sort according to most and least business impact.
+   - Select the **Organizational Unit** to define the unit to which the selected resource should belong to.
+   - Select **Resource Categories**  and select **Resource Characteristics** to define the categories for the resource.
+   - Select **Preferred Resource** to display resource options. When only preferred resources are selected on a requirement, any one of the available resources from the list of preferred resources will be selected as per the time slot. When preferred resources are selected along with the resource category on a requirement, any one of the available resources from the list of preferred resource and which belongs to the resource category will be selected as per the time slot.
+   - Select **Sort Option** to sort according to most and least business impact.
    - Provide **Effort Required**. While booking, this option helps you view all the resources who satify the minimum effort requirement. For example, if the effort required is defined as 100, only the resources with the capacity value of 100 and more will be displayed in the list while booking the service in the schedule board.
 
    You can add complexity to a rule by adding a subrule to it.  
@@ -103,7 +104,7 @@ You can create a service in Customer Service admin center or Customer Service Hu
 > [!NOTE]
 > If there are open or scheduled service activities associated with a service, then the service cannot be deactivated.
   
-### See also  
+### Related information 
 
 [Create and manage resource categories](resource-categories-service-scheduling.md)
  
