@@ -48,19 +48,9 @@ If you've already added the Dynamics 365 app to Microsoft Teams, proceed with th
 
 After the Dynamics 365 app is added to a channel, it's available through Actions and apps in Teams.
 
-1.  In Teams, open the channel to which you added the Dynamics 365 app and select **New conversation**.
+In Teams, open the channel to which you added the Dynamics 365 app and start a new conversation.
 
-    Alternately, open the chat conversation with a person or group to which you added the Dynamics 365 app.
-
-2.  Select the Dynamics 365 icon (![Dynamics 365 app icon](media/d365-app-icon.png "Dynamics 365 app icon")) on the command bar.  
-  
-    If you don't find the Dynamics 365 icon (![Dynamics 365 app icon](media/d365-app-icon.png "Dynamics 365 app icon")) on the command bar, select the **Actions and apps** (**+**) icon on the command bar, search for the **Dynamics 365** app.
-
-    ![Pin the Dynamics 365 app](media/me-pin-d365-app.png "Pin the Dynamics 365 app")
-    
-    The Dynamics 365 app icon is pinned to the command bar.
-    
-    ![Pinned Dynamics 365 app on the command bar](media/me-d365-app-pinned.png "Pinned Dynamics 365 app on the command bar")
+Alternately, open the chat conversation with a person or group to which you added the Dynamics 365 app.
 
 After you've set up the app, you can change the settings later as required. More information: [Edit settings of the Dynamics 365 app](edit-d365-app.md)
 
