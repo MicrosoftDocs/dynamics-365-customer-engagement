@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 07/16/2024
+ms.date: 08/20/2024
 ms.custom: bap-template
 ---
 
@@ -16,6 +16,9 @@ This article describes SLA time calculations, given that:
 
 - Warning Time: 1 day (1*24 = 24 hours)
 - Failure Time: 2 days (2*24 = 48 hours)
+
+> [!NOTE]
+> For accurate time calculation, you must select the time zone of the custom field as user local. If you select Time zone as **Timezone independent**, the time is calculated as UTC, leading to incorrect calculations.
 
 ## SLA without any calendar
 
