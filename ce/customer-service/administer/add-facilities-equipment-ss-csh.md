@@ -29,7 +29,7 @@ Learn more in [Manage security roles in service scheduling](manage-security-role
 You can create a new facility or equipment record in the Customer Service admin center app.
 
 1. In the site map of Customer Service admin center, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
-1. In the **Facilities & equipment** section, select **Manage**.  The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the dropdown list.
+1. In the **Facilities & equipment** section, select **Manage**. The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the dropdown list.
 
 
      
@@ -45,13 +45,14 @@ You can create a new facility or equipment record in the Customer Service admin 
   
     - **Primary Email**. Enter the email address of the site manager or equipment manager. If there are any updates or cancellations related to the schedule, facilities, or equipment, notifications are sent to this email address.  
   
-    - **Time Zone**. Select the appropriate time zone to determine availability for the facility or equipment. By default, this is set to the time zone you’ve selected in the **General** tab of the **Set Personal Options** dialog box. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options](../../customerengagement/on-premises/basics/set-personal-options.md)  
+    - **Time Zone**. Select the appropriate time zone to determine availability for the facility or equipment. By default, the time zone is set to the one you selected in the **General** tab of the **Set Personal Options** dialog box. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options](../../customerengagement/on-premises/basics/set-personal-options.md)  
   
     - **Description**. Add details about the facility or equipment, such as the numbers, size, make, or model.  
   
 1.  When you’re done, select **Save** or **Save and Close**.  
 
     ![facility and equipment.](../media/facilities_equipment_1.png)
+
 ### Related information
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
