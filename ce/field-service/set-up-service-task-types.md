@@ -20,7 +20,7 @@ You add service tasks either manually or by associating incident types with each
 
     - **Name**: Enter a name for the service task type.
     - **Estimated Duration**: Specify how long the service task takes a technician to complete.
-    - **Has Inspection**: Set this option to *Yes* if the service task type is [associated with an inspection](inspections.md#associate-inspection-to-service-task-type).
+    - **Has Inspection**: Set this option to *Yes* if the service task type is [associated with an inspection](inspections.md#associate-the-inspection-to-a-service-task-type).
     - **Description**: Enter a description of the service task.
 
 1. Select **Save**.
