@@ -6,9 +6,9 @@ There are two levels of settings for the schedule board. [Board view settings](#
 
 The board view settings show in a side pane and apply only to the selected schedule board tab.
 
-Open the **Schedule Board**, choose the tab to configure, select the ellipsis (&hellip;) at the top right, and select **Scheduler settings**.
+Open the **Schedule Board**, choose the tab to configure and select **Scheduler settings**.
 
-:::image type="content" source="../../field-service/media/scheduler-settings.svg" alt-text="Screenshot of the Board view settings pane on the Schedule Board.":::
+:::image type="content" source="../../field-service/media/scheduler-settings.png" alt-text="Screenshot of the Board view settings pane on the Schedule Board.":::
 
 - **Time Zone**: Sets the time zone that the schedule board uses. The times for bookings in different time zones adapt to the selection.
 - **Time resolution**: Time intervals for the hourly view.
@@ -28,20 +28,20 @@ Board settings are more detailed and let you define settings for a specific boar
 - Select the vertical ellipsis &vellip; next to the schedule board tab name and choose **Board settings**.
 - Open the **Scheduler settings** and select **All board settings**.
 
-:::image type="content" source="../../field-service/media/schedule-board-tab-settings-access.svg" alt-text="Screenshot of accessing schedule board tab settings.":::
+:::image type="content" source="../../field-service/media/schedule-board-tab-settings-access.png" alt-text="Screenshot of accessing schedule board tab settings.":::
 
 ### Basic section
 
-- **Board name:** The name of the tab that shows on the schedule board.
+- **Name:** The name of the tab that shows on the schedule board.
 
-- **Shared with:** Decides which users can view and edit the schedule board tab.
+- **Shared With:** Decides which users can view and edit the schedule board tab.
   - Everyone
   - Specific People: See [Share a schedule board tab with specific people](#share-a-schedule-board-tab-with-specific-people)
   - Just Me
 
-- **Reset to Default:** Resets the current tab setting values to the values outlined in the default settings.
-
 - **Edit defaults:** Lets you choose the default tab settings when new schedule boards are created. When values in a particular schedule board tab setting show **< Default View >**, it means the value is coming from the default tab settings.
+
+- **Reset to Default:** Resets the current tab setting values to the values outlined in the default settings.
 
 #### Share a schedule board tab with specific people
 
@@ -94,7 +94,7 @@ This view defines the resource requirement records displayed on the map. The set
 
 - **Title:** the selected web resource shows in the actions area on the schedule board. A new tab with the provided title appears next to the maps icon.
 
-- **Web resource:** select a web resource from your Dynamics 365 organization.
+- **Web Resource:** select a web resource from your Dynamics 365 organization.
 
 ### Schedule assistant
 
@@ -131,7 +131,7 @@ The colors selected in the schedule assistant section represent the resource ava
 
 #### Icons
 
-The icons show along with the colors to represent resource availability.
+The icons show along with the colors to represent resource availability
 
 Turn an icon off to hide it in the schedule assistant.
 
@@ -139,7 +139,7 @@ Makers can customize icons by [creating web resources](/power-apps/developer/mod
 
 ### Board colors
 
-Board colors represent a resource's utilization on the schedule board. Most colors only apply to daily, weekly, and monthly views and on the currently selected schedule board. The hourly view shows bookings colored by their status. The color for nonworking hours applies to the hourly view too.
+Board colors represent a resource's utilization on the schedule board. Most colors only apply to daily, weekly, and monthly views and on the currently selected schedule board. The hourly view shows bookings colored by their status. The color for non-working hours applies to the hourly view too.
 
 
 ### Other settings
@@ -183,7 +183,7 @@ For reference, the default HTML is as follows:
 
 #### Disable default extensions
 
-You can modify the CSS, add your own JavaScript files, and localize the schedule board by changing labels on supported areas of the board. You can always exclude certain boards from inheriting client extensions applied to the default board by disabling default extensions on that board.
+You can modify the CSS, add your own JavaScript files and localize the schedule board by changing labels on supported areas of the board. You can always exclude certain boards from inheriting client extensions applied to the default board by disabling default extensions on that board.
 
 For more information about editing filter layouts, resource cell templates, and client extensions, see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/) and [Extend Universal Resource Scheduling](../../common-scheduler/developer/extending-urs-step-by-step.md).
 
@@ -197,7 +197,7 @@ Controls the images, values, fields for resources on the schedule board.
 
 #### Booking alerts view
 
-Choose the system view that can filter which booking alerts records show up in the alerts view of the details pane of the schedule board.
+Choose system view that can filter which booking alerts records show up in the alerts view of the details pane of the schedule board.
 
 For example, when a business has booking alerts based on events related to work orders, projects, and cases. If a particular schedule board tab only deals with a certain type of requirements, a booking alert system view helps with filtering.
 
