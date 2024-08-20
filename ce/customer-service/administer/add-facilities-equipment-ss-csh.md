@@ -18,7 +18,7 @@ ms.custom:
 
 ## Introduction
 
-Facilities and equipment are resources you use to perform services for your customers. Facilities could be physical spaces like service bays or conference rooms and equipment could be tools or other assets. Add these resources to Dynamics 365 Customer Service to ensure optimal services for your customers.  
+Facilities and equipment are resources you use to perform services for your customers. Facilities could be physical spaces like service bays or conference rooms and equipment could be tools or other assets. To ensure optimal services for your customers, add these resources to Dynamics 365 Customer Service.  
 
 ## Create a new facility or equipment record
 
