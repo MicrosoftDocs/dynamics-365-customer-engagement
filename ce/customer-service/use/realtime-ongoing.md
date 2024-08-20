@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/12/2024
+ms.date: 08/20/2024
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -21,7 +21,7 @@ ms.custom:
 
 The **Ongoing conversation** report provides information about the status of conversations that are currently being handled by agents in your organization, and that aren't yet closed. The conversation status can be open, active, wrap-up, or waiting.
 
-This report provides a holistic view of the conversations in real time. It includes details such as the subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. For more information, go to [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
+This report provides a holistic view of the conversations in real time. It includes details such as the subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. Learn more in [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
 [Learn more about the metrics that are shown on the Ongoing conversation report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
@@ -29,11 +29,56 @@ This report provides a holistic view of the conversations in real time. It inclu
 
 The conversation list shows current ongoing conversations from the last 24 hours. Therefore, managers have a real-time view of the interactions between agents and customers. You can also select an agent and then use the following buttons to perform different actions on conversations:
 
-- **Assign**: Assign an incoming or unassigned conversation filtered by either a queue or an agent, after reviewing the skill set and capacity profile of agents.
-- **Transfer**: Transfer an ongoing conversation from one agent to another after reviewing the skill set and capacity profile of an agent.
-- **Monitor**: Listen to an ongoing conversation. When you select **Monitor**, you receive a message that states that monitoring has begun. This action is applicable only to active conversations with agent acceptance, conversations that are in a wrap-up state, and conversations that are in a waiting state. The browser that you select **Monitor** from loads that conversation. Other browsers remain as-is.
+## Assign conversations
 
-- **Force close**: Forcibly close a conversation by closing the work item. When you select **Force close**, a confirmation message box appears. You must select **Proceed** to close the work item. When you forcibly close a conversation, the conversation immediately ends for the customer too. We recommend that you use this action with caution.
+Assign an incoming or unassigned conversation filtered by either a queue or an agent, after reviewing the skill set and capacity profile of agents.
+
+1. In the Contact Center workspace or Customer Service workspace app, go to the dashboard view selector, and then select the **Ongoing Conversations** report.
+
+1. Select a conversation in an **Open** state, and then select **Assign**.
+
+1. In the **Assign conversations** dialog, select **Agent**, or **Queue**.
+
+    > If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
+    > If you select **Queue**, all other queues&mdash;except the one to which the conversation is currently assigned&mdash;are displayed.
+
+1. Select **Assign**.
+
+## Transfer conversations
+
+Transfer an ongoing conversation from one agent to another after reviewing the skill set and capacity profile of an agent.
+
+1. From the dashboard view selector, select the **Ongoing Conversations** report.
+
+1. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**.
+
+1. In the **Transfer conversations** dialog, select an agent from the list of agents that appears.
+
+      A list of agents belonging to the same queue and whose presence matches with one of the allowed presence values in the workstream configuration is displayed.
+
+1. Select **Transfer**. The selected conversation is transferred to the agent.
+
+## Monitor conversations
+
+Listen to an ongoing conversation. When you select **Monitor**, you receive a message that states that monitoring has begun. This action is applicable only to active conversations with agent acceptance, conversations that are in a wrap-up state, and conversations that are in a waiting state. The browser that you select **Monitor** from loads that conversation. Other browsers remain as-is.
+
+1. From the dashboard view selector, select the **Ongoing Conversations** report. The list of conversations that your agents are currently handling appears.
+
+1. Select a conversation that you want to monitor, and select **Monitor**. The conversation page opens.
+
+1. Optionally, to join a conversation, select **Join chat** in the communication panel.
+
+    Both the agent and the customer receive notifications when you join a conversation. Depending on your requirements, you can consult with the agent and customer. Learn more in [View communication panel](oc-conversation-control.md).
+
+## Force close conversations
+
+Forcibly close a conversation by closing the work item. When you select **Force close**, a confirmation message box appears. You must select **Proceed** to close the work item. When you forcibly close a conversation, the conversation immediately ends for the customer too. We recommend that you use this action with caution.
+
+1. From the dashboard view selector, select the **Ongoing Conversations** report.
+
+2. Select a conversation and then select **Force Close**.
+
+The participants receive a notification that a supervisor ended their conversation.
 
 ### See also
 
