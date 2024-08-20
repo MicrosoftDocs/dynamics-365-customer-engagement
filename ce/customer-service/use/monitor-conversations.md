@@ -45,10 +45,9 @@ When you transfer an **Active** conversation from one agent to another, the firs
 
 ## End conversations forcibly
 
-> [!CAUTION]
-> We recommend that you use this feature judiciously to end agent conversations.
-
 End voice calls and conversations that take place on the voice and messaging channels. After the conversation ends, its status is set to **Closed**.
+
+We recommend that you use this feature judiciously to end agent conversations.
 
 ### Related information
 

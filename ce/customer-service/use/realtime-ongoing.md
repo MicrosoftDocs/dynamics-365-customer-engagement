@@ -80,7 +80,7 @@ Forcibly close a conversation by closing the work item. When you select **Force 
 
 The participants receive a notification that a supervisor ended their conversation.
 
-### See also
+### Related information
 
 [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
 [Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>
