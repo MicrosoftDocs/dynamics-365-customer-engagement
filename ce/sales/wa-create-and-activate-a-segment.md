@@ -103,6 +103,6 @@ A segment can have up to 10 conditions at one time. To optimize the performance 
 - [Connect segments to sequences](wa-connect-a-segment-to-sequence.md).
 - [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md).
 
-### See also
+## Related information
 
 - [Edit segments](wa-edit-a-segment.md)

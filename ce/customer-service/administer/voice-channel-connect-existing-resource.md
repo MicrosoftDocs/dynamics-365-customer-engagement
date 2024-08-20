@@ -23,9 +23,9 @@ You can connect your voice or SMS channels to Azure Communication Services using
 
 - The organization that you're using isn't a trial version.
 - The **Get started** button that connects to an existing Azure resource is visible on the **Phone numbers** page of Customer Service admin center or Contact Center admin center. The **Get Started** button appears only when:
-  - The trial has ended after the free calling time has elapsed.
-  - You've manually [ended the trial](voice-channel-trial-phone-numbers.md#end-the-trial).
-  - You've [disconnected from the Azure resource](voice-channel-disconnect-from-acs.md). 
+  - The trial ended after the free calling time elapsed.
+  - You manually [ended the trial](voice-channel-trial-phone-numbers.md#end-the-trial).
+  - You [disconnected from the Azure resource](voice-channel-disconnect-from-acs.md). 
 - Your active Azure subscription is in the same tenant as your Dynamics 365 account in the enhanced voice experience.
 - Your role has **Contributor** privileges.
 
@@ -41,7 +41,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
    :::image type="content" source="../media/acs-property-records-mini.png" alt-text="image showing the resource id values " lightbox="../media/acs-property-records.png":::
 
 
-1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center or Contact Center admin center. 
+1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**. You use this value as the value of **Connection string**  in Customer Service admin center or Contact Center admin center. 
 
    :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
 
@@ -51,7 +51,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 ### Get Event Grid application and tenant IDs from the Azure portal
 
-You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Contact Center admin center or Customer Service admin center. Perform the following steps to get these values:
+You need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Contact Center admin center or Customer Service admin center. Perform the following steps to get these values:
 
 1. On the Azure portal, open the **App registrations** page. If you're registering your app on the Azure portal for the first time, then perform the following steps, otherwise, select the registered app and go to step 2:
 
@@ -63,21 +63,23 @@ You'll need to specify the values of **Application (client) ID** and **Directory
     1. Select **Register**.
        :::image type="content" source="../media/acs-resource-register.png" alt-text="resource keys" :::
 
-1. Select the value of the **Application (client) ID** field, and then select **Copy to clipboard**. You'll enter this as the value of **Event grid app id** in  Contact Center admin center or Customer Service admin center.
+1. Select the value of the **Application (client) ID** field, and then select **Copy to clipboard**. You enter this value for **Event grid app id** in Contact Center admin center or Customer Service admin center.
 
-1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You'll enter this as the value of **Event grid app tenant id** in Contact Center admin center or Customer Serivce admin center.
+1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You enter this value for **Event grid app tenant id** in Contact Center admin center or Customer Service admin center.
 
     :::image type="content" source="../media/acs-resource-application.png" alt-text="resource application" :::
+   
+1. Select **Owners** and then select **Add owners** to add your account as the application owner.  
 
 ## Connect using an existing Azure resource
 
 1. In the site map of Contact Center admin center or Customer Service admin center, under **Customer support**, select **Channels**.
 1. Select **Manage** for **Phone numbers**.
 1. Select **Use existing resource** and specify the following:
-     - Paste the values you've copied in the [Get Azure resource information](#get-azure-resource-information) section to the following fields:
+     - Paste the values you copied in the [Get Azure resource information](#get-azure-resource-information) section to the following fields:
        - **ACS Resource name** and **ACS Resource ID**: The **Name** and **Resource ID** field values.
        - **Connection String**: The **Connection string** field value.
-     - Paste the values you've copied in [Get application and tenant IDs](#get-event-grid-application-and-tenant-ids-from-the-azure-portal) to the following fields:
+     - Paste the values you copied in [Get application and tenant IDs](#get-event-grid-application-and-tenant-ids-from-the-azure-portal) to the following fields:
      
        - **Event grid app id**: The value of the **Application (client) ID** 
        - **Event grid app tenant id**: The value of the **Directory (tenant) ID** 
@@ -106,15 +108,21 @@ To enable call recording and SMS services, you must first configure your applica
 
 > [!IMPORTANT]
 >
-> - You need to be an owner of the [App registration](#get-event-grid-application-and-tenant-ids-from-the-azure-portal) to create Event Grid subscriptions.
+> - You need to be an owner of the [App registration](#get-event-grid-application-and-tenant-ids-from-the-azure-portal) to create Event Grid subscriptions. 
 > - You can set one webhook endpoint only at a time using the following procedure. To enable incoming calls, SMS, and call recording services, you must perform the procedure thrice to set a webhook endpoint for each service.
-> - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-ids-from-the-power-apps-portal).
+> - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs see [Get application and tenant IDs](#get-event-grid-application-and-tenant-ids-from-the-azure-portal).
+> - We recommend that you only create the incoming calls and recordings events. 
 
 1. Open the **Event Grid System Topics** service on the Azure portal.
-
-1. [Create and deploy an Event Grid system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic).
-
 1. On the **Event Grid System Topic** page, select the **Subscription** link.
+1. Add a new Event Grid System Topic with the following information in the **Basics** tab:
+   - **Topic Types**: Azure Communication Services
+   - **Subscription**: Select your Azure subscription.
+   - **Resource group**: Select the resource group where your Azure Communication Services resource is located.
+   - **Resource**: Select the Azure Communication Services resource that you want to connect to the customer service application.
+   - Specify the **Name** in the **System Topic Details** section.
+    Learn more at [Create and deploy an Event Grid system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic).
+
 
 1. In the resource subscription page, select **Settings** > **Resource providers**, and then check whether the **Microsoft.EventGrid** provider is listed as **Registered**. If the Event Grid isn't registered, then select the record, and then select **Re-register** to register it.
 
@@ -138,20 +146,23 @@ To enable call recording and SMS services, you must first configure your applica
         - **SMS Web Hook Endpoint** to enable SMS services.
         - **Incoming call Web Hook Endpoint (preview)** to enable incoming calls.
 
-1. Select the **Additional Features** tab. Select the **Use AAD authentication** checkbox, and enter the following details:
+1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication** checkbox, and enter the following details:
 
-   - **AAD Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
-   - **AAD Application ID or URI**: Enter the application (client) ID of your Azure resource.
+   - **Microsoft Entra Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
+   - **Microsoft Entra Application ID or URI**: Enter the application (client) ID of your Azure resource.
 
 1. Select **Create** to create the event subscription endpoint for recording.
 
    It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed," then retry this step after a few minutes.
 
+#### Configure event grid for voice channel
+
+> [!VIDEO https://www.youtube.com/embed/la2vgEqGshU]
 
 #### Get event grid app and tenant IDs from the Power Apps portal
 
-[!NOTE]
-Use the method only when you have issues in getting the IDs from the Azure Portal. To get the IDs from the Azure Portal, search for "app registrations" and find the registration for your connected Azure Communication Services resource. Copy the Application (client) ID to fill the event grid App ID box and the Directory (tenant) ID to fill the event grid Tenant ID box.
+> [!NOTE]
+> Use the method only when you have issues in getting the IDs from the Azure Portal. To get the IDs from the Azure Portal, search for "app registrations" and find the registration for your connected Azure Communication Services resource. Copy the Application (client) ID to fill the event grid App ID box and the Directory (tenant) ID to fill the event grid Tenant ID box.
 
 1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
 
@@ -168,7 +179,7 @@ Use the method only when you have issues in getting the IDs from the Azure Porta
 [Configure inbound calling](voice-channel-inbound-calling.md)  
 [Configure outbound calling](voice-channel-outbound-calling.md)    
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  

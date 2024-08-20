@@ -23,6 +23,10 @@ Intelligent skill finder depends upon the custom AI Builder category classificat
  > [!IMPORTANT]
  > If you want to import skill finder models from one environment to another, make sure that you import and export between environments of the same type. A model trained in test environment will work in another test environment only and not in a production environment.
 
+  ## Prerequisite
+
+You must enable [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) to use the intelligent skill finder model.
+
 ## Create skill finder models
 
 You can create as many intelligent skill finder rating models as your business requires.

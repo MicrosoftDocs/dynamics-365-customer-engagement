@@ -102,7 +102,7 @@ If you're using the **Dynamics 365 for phones** mobile app, you can enable the c
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create PDF files from sales records](create-quote-pdf.md)
 

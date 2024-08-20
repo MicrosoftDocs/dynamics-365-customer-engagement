@@ -71,7 +71,11 @@ items:
     - name: Work order types
       href: create-work-order-types.md
     - name: Work order templates (incident types)
-      href: configure-incident-types.md
+      items:
+        - name: Incident type overview
+          href: incident-type-overview.md
+        - name: Create incident types
+          href: configure-incident-types.md
     - name: Service task types
       href: set-up-service-task-types.md
     - name: Agreement sub-statuses
@@ -97,18 +101,26 @@ items:
 
 - name: Copilot in Field Service
   items:
-    - name: Copilot side pane
-      href: copilot-side-pane.md
-    - name: Work order recap with Copilot
-      href: work-order-recap.md
-    - name: Work order update
-      href: work-order-update.md
-    - name: Work order creation in Outlook with Copilot
-      href: flw-outlook.md#create-a-work-order-with-copilot
-    - name: Draft email response with Copilot
-      href: flw-outlook.md#draft-an-email-response-with-copilot
-    - name: Microsoft Copilot for Field Service work orders
-      href: flw-m365-chat.md
+    - name: Use Copilot in the web app
+      items:
+        - name: Side pane chat
+          href: copilot-side-pane.md
+        - name: Work order summary
+          href: work-order-recap.md
+    - name: Use Copilot in the mobile app
+      items:
+        - name: Work order summary
+          href: work-order-recap.md
+        - name: Work order update
+          href: work-order-update.md
+    - name: Use Copilot in the Microsoft 365 integration
+      items:
+        - name: Work order creation in Outlook
+          href: flw-outlook.md#create-a-work-order-with-copilot
+        - name: Draft email response in Outlook
+          href: flw-outlook.md#draft-an-email-response-with-copilot
+        - name: Chat with Microsoft Copilot for Field Service
+          href: flw-m365-chat.md
 
 - name: Work orders
   items:
@@ -127,6 +139,8 @@ items:
 
 - name: Inspections
   items:
+    - name: Inspections overview
+      href: inspections-overview.md
     - name: Create and view inspections
       href: inspections.md
     - name: Advanced inspection options
@@ -492,50 +506,48 @@ items:
   items:
     - name: Overview
       href: rso-overview.md
-    - name: Get Resource Scheduling Optimization
+    - name: Purchase the add-in
       href: rso-get-install.md
-    - name: Get started with the add-in
+    - name: Get started
       href: rso-quickstart.md
-    - name: Administration overview
-      href: rso-administration.md
-    - name: Deploy the add-in
-      href: rso-deployment.md
-    - name: Configure the add-in
-      href: rso-configuration.md
-    - name: Manage optimization scopes
-      href: rso-optimization-scope.md
-    - name: Define optimization goals
-      href: rso-optimization-goal.md
-    - name: Create optimization schedules
-      href: rso-optimization-schedule.md
-    - name: Publish a schedule
-      href: rso-schedule-optimization.md
-    - name: Set up a proof of concept
+    - name: Implementation guidance
       href: rso-proof-concept.md
-    - name: Schedule in sequence
-      href: rso-requirement-dependency.md
-    - name: Predict travel times
-      href: rso-predictive-travel.md
-    - name: Travel outside working hours
-      href: rso-travel-outside-working-hours.md
-    - name: Run Resource Scheduling Optimization
+    - name: Admin guide
       items:
-        - name: Publishing + monitoring
-          href: rso-schedule-optimization.md
-        - name: Overnight scheduling
-          href: rso-overnight-scheduling.md
-        - name: Single resource optimization
-          href: rso-single-resource-optimization.md
-        - name: Simulations
-          href: rso-simulation.md
-        - name: Get alerts for failed runs
-          href: rso-monitoring-alerting.md
-    - name: Lock options for bookings
-      href: booking-lock-options.md
-    - name: Schedule multi-day requirements
-      href: rso-multi-day.md
-    - name: Resolve conflicts for bookings
-      href: rso-handling-resolving-booking-conflicts.md
+      - name: Deploy the add-in
+        href: rso-deployment.md
+      - name: Configure the add-in
+        href: rso-configuration.md
+      - name: Manage optimization scopes
+        href: rso-optimization-scope.md 
+      - name: Define optimization goals
+        href: rso-optimization-goal.md
+      - name: Create optimization schedules
+        href: rso-optimization-schedule.md
+      - name: Publish schedules and review results
+        href: rso-schedule-optimization.md
+      - name: Configure overnight scheduling
+        href: rso-overnight-scheduling.md
+      - name: Get alerts for failed runs
+        href: rso-monitoring-alerting.md
+    - name: User guide
+      items:
+      - name: Run an optimization ad-hoc
+        href: rso-run-optimization.md
+      - name: Run a simulation
+        href: rso-simulation.md
+      - name: Resolve booking conflicts
+        href: rso-handling-resolving-booking-conflicts.md
+      - name: Optimize a single resource
+        href: rso-single-resource-optimization.md
+      - name: Schedule multi-day requirements (preview)
+        href: rso-multi-day.md
+      - name: Schedule requirements in sequence
+        href: rso-requirement-dependency.md
+      - name: Travel outside working hours
+        href: rso-travel-outside-working-hours.md
+      - name: Lock options for bookings
+        href: booking-lock-options.md
 
 - name: Integrations
   items:
@@ -600,7 +612,7 @@ items:
       href: faqs-wo-flw-copilot.md
     - name: FAQ about Outlook draft email responses
       href: faqs-flm-copilot-email.md
-    - name: FAQ about work order recap
+    - name: FAQ about work order summary
       href: faqs-work-order-recap.md
     - name: FAQ about work order update
       href: faqs-work-order-update.md

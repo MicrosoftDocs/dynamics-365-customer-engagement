@@ -45,9 +45,11 @@ Configure the following cloud flow to send frontline workers a push notification
 
 1. In the Solutions area, edit the solution with the name `msdyn_FieldService_patch_update`.
 
-1. Find the cloud flow called **Field Service – Notify user about booking (UCI app)** and select the **Turn On** option.
+1. Open the details of the cloud flow called **Field Service – Notify user about booking (UCI app)**.
 
-   :::image type="content" source="media/mobile-2020-push-turn-on-flow.png" alt-text="Power Apps showing the flow called Field Service – Notify user about booking (UCI app).":::
+1. Select the **Save as** option to create a copy of the cloud flow [add it to an unmanaged solution](/power-apps/maker/data-platform/create-solution).
+
+1. In the unmanaged solution, select the **Turn On** option for your new cloud flow.
 
 1. Open the details for the **Field Service – Notify user about booking (UCI app)** cloud flow. Make sure the **Connection References** section contains both connection references that you created in step 3.
 
@@ -100,5 +102,11 @@ You can create push notification with custom triggers to match your business sce
 
 > [!div class="mx-imgBorder"]
 > ![A mobile phone push notification from Field Service.](./media/mobile-2020-push-notification-result-wf.png)
+
+
+> [!Note]
+> When using [mobile offline mode](mobile-power-app-system-offline-sync.md), the push notification will be received when the device has connectivity. Opening the push notification results in a sync to download the record if it's not available on the device. If the sync settings are set to [sync on Wi-Fi only](/power-apps/mobile/setup-mobile-offline#define-sync-settings-on-mobile), the app will sync the data, even if not on Wi-Fi, when a cellular connection is available.
+
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,7 +45,7 @@ To help users with intelligent suggestions when they enter an activity in the ti
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [How notes analysis assists you with intelligent suggestion](notes-analysis.md)  
 [Notes analysis and auto capture FAQs](faq-notes-analysis-auto-capture.md)

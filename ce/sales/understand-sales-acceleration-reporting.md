@@ -97,7 +97,7 @@ The following metrics are displayed in the charts.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Sequence reporting](customize-sales-accelerator-sellers.md#sequence-reporting)    
 [Understand the sequence stats page](understand-sequence-stats.md)

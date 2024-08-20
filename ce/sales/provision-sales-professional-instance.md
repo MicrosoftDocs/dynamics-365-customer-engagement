@@ -1,7 +1,7 @@
 ---
 title: Install the Sales Professional app
 description: Learn how to install the Sales Professional app in a Power Platform environment that has Dynamics 365 apps enabled.
-ms.date: 06/13/2024
+ms.date: 07/17/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -20,7 +20,7 @@ If you have a Dynamics 365 Sales Professional license, you can use the Sales Pro
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Professional<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>You must be a global administrator of your Microsoft 365 org (tenant)|
+| **Security roles** | System Administrator<br>|
 
 <a name="install-app"></a>
 ## Install Sales Professional app in an existing Power Platform environment
@@ -44,7 +44,7 @@ After the app is installed, open the environment URL and select the **Sales Prof
 > [!IMPORTANT]
 > If you see the **Sales Hub** app in your **Published Apps** list, [hide](/power-apps/maker/model-driven-apps/deactivate-app) or [delete](/power-apps/maker/model-driven-apps/delete-model-driven-app) the Sales Hub app as it's only applicable for Sales Enterprise and Sales Premium licenses. Sales Professional users are entitled to use only the Sales Professional app.
 
-### See also
+## Related information
 
 [Overview of Dynamics 365 Sales](overview.md)  
 [Overview of admin settings](admin-settings-overview.md)  

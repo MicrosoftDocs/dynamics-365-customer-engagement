@@ -90,7 +90,7 @@ The following image shows an example of a **Top factors that influence predictio
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [About premium forecasting](configure-premium-forecasting.md)  
 [Enable prediction factors](/dynamics365/sales-enterprise/forecast-configure-advanced-settings#enable-prediction-factors)
