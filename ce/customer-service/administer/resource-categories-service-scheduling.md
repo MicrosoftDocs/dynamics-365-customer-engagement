@@ -62,7 +62,7 @@ Similarly, you can create a new requirement resource category for requirements.
 
 2. Select **Add New Bookable Resource Category Association**. A resource category is populated. 
 
-3. Add a resource to this resource category by selecting a resource in the **Resource** box. You can either lookup for an existing resource or create a new one.
+3. Add a resource to this resource category by selecting a resource in the **Resource** box. You can either look up an existing resource or create a new one.
 
 ### Related information
 
