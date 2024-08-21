@@ -69,7 +69,7 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 > [!div class=mx-imgBorder]
 > ![custom presence.](../media/oc-custom-presence-example.png)
 
-### See also
+### Related information
 
 [Manage presence in Omnichannel for Customer Service](../use/oc-manage-presence-status.md)  
 [Manage a user in Omnichannel for Customer Service](users-user-profiles.md)  

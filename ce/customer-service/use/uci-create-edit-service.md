@@ -81,7 +81,7 @@ You can make a service available or unavailable for scheduling by activating or 
    ![Activate or deactivate service.](../media/uci-activate-deactivate-service.png "Activate or deactivate a service")
 
 
-### See also  
+### Related information  
 
 [Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 

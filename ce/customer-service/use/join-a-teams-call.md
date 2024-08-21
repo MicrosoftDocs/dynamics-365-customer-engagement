@@ -59,7 +59,7 @@ To locate or create a customer record:
      
 2. Follow the steps in [Use Join a Teams call](#use-join-a-teams-call) to start the Teams meeting.
 
-### See also
+### Related information
 
 [Set up Join a Teams call](../administer/set-up-join-a-teams-call.md) <br>
 [Use Teams chat in Customer Service](use-teams-chat.md)

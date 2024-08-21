@@ -46,7 +46,7 @@ If the customer reopens the chat widget after three minutes of disconnection, a 
 [Understand conversation states](oc-conversation-state.md)  
 [Configure automatic closure of conversations](../develop/auto-close-conversation.md) 
 
-### See also
+### Related information
 
 [View communication panel](oc-conversation-control.md)  
  

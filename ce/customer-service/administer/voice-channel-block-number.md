@@ -55,7 +55,7 @@ You can set conditions so that some numbers are automatically added to the block
 
 1. Select **Save and close**.
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

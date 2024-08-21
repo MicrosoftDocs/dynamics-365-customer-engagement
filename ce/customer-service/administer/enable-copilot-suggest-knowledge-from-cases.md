@@ -45,7 +45,7 @@ See [Region availability of analytics and insights](cs-region-availability-servi
 
 To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
-### See also
+### Related information
 
 [Use Copilot to generate knowledge drafts from cases](../use/use-copilot-knowledge-from-cases.md)  
 [Manage Copilot features in Customer Service](configure-copilot-features.md)  

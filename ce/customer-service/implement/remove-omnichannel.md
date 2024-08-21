@@ -52,7 +52,7 @@ If you need Omnichannel for Customer Service again, you can enable it from the *
 
 [Uninstall solutions in Omnichannel for Customer Service](delete-solution.md)  
 
-### See also
+### Related information
 
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  

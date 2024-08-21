@@ -165,7 +165,7 @@ You understand that your data may be transmitted and shared with external system
 
 [How to end a bot conversation in Omnichannel for Customer Service](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/pva-conversations-active-dashboard)
 
-### See also
+### Related information
 
 [Manage your bots](manage-your-bots.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  

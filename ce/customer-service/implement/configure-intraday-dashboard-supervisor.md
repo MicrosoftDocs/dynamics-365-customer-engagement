@@ -296,7 +296,7 @@ More information: [Client caching overview](/dynamics365/customer-engagement/uni
 
 5. Select **Save**.
 
-### See also
+### Related information
 
 [Introduction to intraday insights](intro-intraday-insights-dashboard.md)  
 [Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)  

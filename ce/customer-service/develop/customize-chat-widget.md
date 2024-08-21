@@ -49,7 +49,7 @@ On the settings dialog, select **Feature Flags**, and clear the selection for **
 
 [Develop a custom live chat widget](develop-live-chat-widget.md)  
 
-### See also
+### Related information
 
 [Start chat proactively](start-proactive-chat.md)  
 [Live chat widget telemetry](live-chat-telemetry.md)  

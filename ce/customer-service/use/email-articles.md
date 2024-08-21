@@ -35,7 +35,7 @@ Use the **Email** button to send the knowledge article via mail. When you select
 
 You can perform these actions for only published or expired articles.
 
-### See also
+### Related information
 
 [Link and unlink knowledge articles](link-articles.md#link-and-unlink-knowledge-articles)
 

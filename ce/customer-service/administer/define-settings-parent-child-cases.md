@@ -55,7 +55,7 @@ You can track multiple issues for a customer or the same issue that's affecting 
 
 1. Select **Save**.
    
-### See also
+### Related information
 
 [Create and manage parent and child cases](../use/customer-service-hub-user-guide-create-and-manage-parent-and-child-cases.md)
 

@@ -74,7 +74,7 @@ After you configure the chat widget, it has the following capabilities:
 > [!NOTE]
 > For advanced configuration like embedding chat widget on specific web pages, see [Create and manage portals](/powerapps/maker/portals/portal-templates).
 
-### See also
+### Related information
 
 [Supported browsers for live chat widget](../implement/system-requirements-omnichannel.md#browsers-for-chat)  
 [Add a chat widget](add-chat-widget.md)  

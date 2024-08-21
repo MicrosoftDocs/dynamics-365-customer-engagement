@@ -101,7 +101,7 @@ In our example, once you've added the custom value, agents see the **Duplicate**
 
    :::image type="content" source="../media/case-enh-duplicate.png" alt-text="Screenshot displaying the duplicate custom value":::
 
-### See also
+### Related information
 
 [Work with cases](../use/customer-service-hub-user-guide-create-a-case.md)  
 [Create a case](../use/customer-service-hub-user-guide-create-a-case.md)  
