@@ -26,7 +26,7 @@ You must have the System Administrator role to enable an entity for scheduling.
    > [!TIP]
    > If the entity you want to enable doesn't show in the list, update the **Can be customized setting** to **True** for the managed property.
   
-1. For **Booking Relationship** and **Requirement Relationship**, select **Create New Relationship**. Select an existing relationship if you've previously created relationships to the bookable resource booking or resource requirement entities.
+1. For **Booking Relationship** and **Requirement Relationship**, select **Create New Relationship**. Select an existing relationship if you previously created relationships to the bookable resource booking or resource requirement entities.
 1. Select **Publish Customization**.
 
 ## Disable resource scheduling for an enabled entity
@@ -57,13 +57,13 @@ If you want to change the booking settings for entities you enabled for scheduli
    
 1. In the **Attribute Mapping** section, select values on the target entity that match with the requirement fields.
 
-1. Save your changes. You've successfully enabled an entity for scheduling when:
+1. Save your changes. You entity is successfully enabled for scheduling when:
    - **Resource Requirements** shows as a related entity. Create them manually or with a custom workflow.
    - The **Book** option appears on the entity record.
 
 ## Add a requirement view to the schedule board
 
-After you create a requirement for the lead, it appears in the **Open Requirements** view in the lower pane of the schedule board that shows all open requirements related to any schedulable entity. This is a default view for resource scheduling. However, the views in the lower pane of the schedule board are system views that can be edited and added to. It's common to add custom resource requirement views for schedulable entities.
+After you create a requirement for the lead, it appears in the **Open Requirements** view in the lower pane of the schedule board that shows all open requirements related to any schedulable entity. This view is the default for resource scheduling. However, the views in the lower pane of the schedule board are system views that can be edited and added to. It's common to add custom resource requirement views for schedulable entities.
 
 1. Go to **Advanced Settings** > **Customizations** > **Entities** > **Resource Requirement** > **Views**.
 
