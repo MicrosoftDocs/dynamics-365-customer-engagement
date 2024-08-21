@@ -8,7 +8,6 @@ ms.author: nenellim
 ---
 # Build a smart assist bot
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 To quickly get started, follow the instructions mentioned in this topic for building a smart assist bot that displays knowledge article recommendations to the agent. After this, you can do additional steps for creating custom scenarios.
 
@@ -32,7 +31,7 @@ After setting up a sample bot using above steps, you can configure your bot to s
 > [!div class="nextstepaction"]
 > [See Next: Implement a custom scenario for smart assist bot](smart-assist-scenario.md)
 
-## See also
+## Related information
 
 [Sample code: Build a smart assist bot](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot)<br />
 [Smart assist for agents](../administer/smart-assist.md)<br />

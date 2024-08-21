@@ -1,11 +1,11 @@
 ---
-title: Use the Due open activities control to customize forms | MicrosoftDocs 
-description: Learn about adding Due open activities control to forms
+title: Use the Due open activities control to customize forms
+description: Learn about adding Due open activities control to forms.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 05/03/2023 
+ms.date: 06/10/2024 
 ms.custom: bap-template 
 ---
 
@@ -35,7 +35,7 @@ Configure the tab that the agents must be redirected to when they select the ope
 
    :::image type="content" source="../media/set-open-activities.png" alt-text="Open activities in a new tab" lightbox="../media/set-open-activities.png":::
 
-### See also
+### Related information
 [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)   
 [Get started with Customer Service workspace](../implement/csw-overview.md) 

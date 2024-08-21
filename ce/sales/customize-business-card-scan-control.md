@@ -70,7 +70,7 @@ To customize the mappings:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Scan business cards](scan-business-cards.md)  
 [Use the business card reader in model-driven apps](/ai-builder/business-card-reader-component-model-driven)

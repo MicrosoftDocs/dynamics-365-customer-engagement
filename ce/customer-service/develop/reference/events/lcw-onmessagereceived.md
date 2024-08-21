@@ -1,11 +1,13 @@
 ---
-title: "lcw:onMessageReceived | MicrosoftDocs"
-description: lcw onMessageReceived event (Omnichannel for Customer Service JavaScript API reference)
-ms.date: 11/10/2021
-ms.topic: article
+title: lcw:onMessageReceived 
+description: lcw onMessageReceived event (Omnichannel for Customer Service JavaScript API reference).
+ms.date: 05/15/2024
+ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: nenellim
+ms.custom: bap-template
+
 ---
 # lcw:onMessageReceived event (Omnichannel for Customer Service JavaScript API reference)
 
@@ -13,9 +15,9 @@ ms.reviewer: nenellim
 
 The `lcw:onMessageReceived` event is triggered when the chat widget gets a new message. You can use this event to create custom experiences for the user. For example, play a sound notification or update the page title to catch the user eye for the new message.
 
-Users such as an agent in Dynamics 365 can send the message or the system can send an automated message. So, the possible values for `messageType` are "user" and "system".
+Users such as an agent in Dynamics 365 can send the message or the system can send an automated message. So, the possible values for `messageType` are user and system.
 
-This event will contain data in the payload to explain the source of the message.
+This event contains data in the payload to explain the source of the message.
 
 ## Sample payload
 
@@ -108,6 +110,24 @@ This event will contain data in the payload to explain the source of the message
 
 } 
 ```
+**Agent assignment accepted**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "system",
+    "agentaccepted"
+],
+
+},
+"messageType": "system"
+
+} 
+```
+
 
 **Agent assignment failed**
 
@@ -152,7 +172,7 @@ This event will contain data in the payload to explain the source of the message
 window.addEventListener("lcw:onMessageReceived", function handleWidgetMessageReceivedEvent(payload){ // Handle the live chat widget message sent event });
 ```
 
-### See also
+### Related information
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  
 [lcw:chatRetrieved](lcw-chatRetrieved.md)  

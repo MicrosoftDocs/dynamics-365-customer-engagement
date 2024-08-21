@@ -1,7 +1,7 @@
 ---
 title: Define settings for parent and child cases
 description: Learn to define settings for parent and child cases in Dynamics 365 Customer Service.
-ms.date: 12/21/2023
+ms.date: 06/21/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -23,7 +23,7 @@ searchScope:
 
 # Define parent and child case settings
 
-You can track multiple issues for a customer or the same issue that's affecting multiple customers, using parent and child cases. For example, you could track a case where work needs to be done by other departments. The primary case or issue is called the **Parent** case. Any related cases are called **Child** cases. 
+You can track multiple issues for a customer or the same issue that's affecting multiple customers, using parent and child cases. For example, you could track a case where work needs to be done by other departments. The primary case or issue is called the **Parent** case. Any related cases are called **Child** cases.
 
 ## Prerequisites
 
@@ -33,21 +33,11 @@ You can track multiple issues for a customer or the same issue that's affecting 
   
 ## Set parent and child case attributes
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the site map of Customer Service admin center, select **Case Settings** in **Customer support**. The **Case Settings** page appears.
      
-     1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
-     
-     1. Select **Manage** for **Parent child case settings**.
+1. Select **Manage** for **Parent child case settings**.
 
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-   
-     - In the **Service Management** site map, select **Case Settings** in **Parent Child Case Settings**.  
-  
-2. In the **Case Settings** dialog, enter the following details:
+1. In the **Case Settings** dialog, enter the following details:
 
     a. **Select the case attributes**: Select the mandatory case attributes whose values the child case will inherit. **Case Title** and **Customer** are mandatory attributes.
 
@@ -63,9 +53,9 @@ You can track multiple issues for a customer or the same issue that's affecting 
       > [!Note]
       > We recommend that you specify a smaller value for **Maximum number of child cases** to avoid performance issues when cases are resolved or merged.
 
-3. Select **Save**.
+1. Select **Save**.
    
-### See also
+### Related information
 
 [Create and manage parent and child cases](../use/customer-service-hub-user-guide-create-and-manage-parent-and-child-cases.md)
 

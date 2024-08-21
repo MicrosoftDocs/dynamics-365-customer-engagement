@@ -4,13 +4,15 @@ description: Learn how to create application tab templates in Customer Service. 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer:
-ms.date: 02/07/2024
+ms.date: 06/05/2024
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
 ---
 
 # Manage application tab templates
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 An application tab template in Customer Service lets you specify the type of applications that can be opened when agents start a session in Customer Service workspace.
 
@@ -79,7 +81,12 @@ This page type is used to display the dashboard as an application. The following
 | `dashboardId` | GUID of the dashboard | Yes  | String    | `d201a642-6283-4f1d-81b7-da4b1685e698` |
 
 > [!NOTE]
-> If the target dashboard isn't included in the app module definition, the default dashboard is displayed instead.
+> - The default dashboard appears if the dashboardId parameter is: <br>
+    >   - blank   
+    >   - incorrect  
+    >   - a dashboard that isn't included in the app module definition    
+> - Personal default dashboards aren't supported.
+
 
 ### Entity list
 
@@ -202,7 +209,7 @@ The following out-of-the-box application tab templates are available.
 | Rich Message Preview                | Displays a rich message in the tab.            | Control |
 | Search                              | Displays the Omnichannel search page in the tab. | Control |
 
-### See also
+### Related information
 
 [Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  

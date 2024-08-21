@@ -1,7 +1,7 @@
 ---
 title: Set up rules to automatically create or update records
 description: Automatically create or update records from incoming activities, such as emails, social activities, or custom activities, without the need for coding.
-ms.date: 08/03/2023
+ms.date: 06/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -294,13 +294,9 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
 
  For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.  
 
-#### To activate a record creation and update rule  
+1.  In the site map of Customer Service admin center, go to **Customer support** > **Case settings**.
 
-   [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-1.  Go to **Settings** > **Service Management**. 
-
-2.  Select **Automatic Record Creation and Update Rules**.  
+2.  Select **Automatic record creation and update rules** > **Manage**.  
 
 3.  Open the rule you want to activate, and on the command bar, select **Activate**.  
 
@@ -341,7 +337,7 @@ Perform the following steps before you upgrade a solution:
 
 3.	After the successful upgrade of the solution, activate the Record Creation and Update Rules as required.
 
-### See also
+### Related information
 
  [Create rules to automatically route cases](create-rules-automatically-route-cases.md)   <br>
 

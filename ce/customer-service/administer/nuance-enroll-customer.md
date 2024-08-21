@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Enroll customers in biometric authentication using Nuance Gatekeeper (preview)
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Enroll customers in biometric authentication
 
@@ -42,6 +42,6 @@ If the agent has flagged a conversation as suspicious, the fraud detection analy
 
 Nuance Gatekeeper checks for fraud and will notify the agent about a potential fraud if it detects a voice that's flagged as a known suspicious caller.
 
-### See also
+### Related information
 
 [Introduction to Nuance Gatekeeper integration](nuance-gatekeeper-introduction.md)  

@@ -5,7 +5,7 @@ ms.date: 02/23/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.reviewer: souravr
+ms.reviewer: lalexms
 ms.collection: bap-ai-copilot
 search.audienceType: 
   - admin
@@ -16,6 +16,8 @@ ms.custom:
 ---
 
 # Configure agents for conversations forecasting
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 This article describes how to set up agent conversation forecasting for your organization.
 
@@ -127,7 +129,7 @@ For users in your organization to be able to access the forecast reports, they m
   
 1. Save your changes. If you enabled the forecast feature for the first time, it may take up to 24 hours until the forecasting data is ready to view in the forecast report.
 
-### See also
+### Related information
 
 [Forecast case and conversation volumes, and agents for conversations](../use/use-volume-forecasting.md)<br>
 [Configure case forecasting](configure-volume-forecasting.md)<br>

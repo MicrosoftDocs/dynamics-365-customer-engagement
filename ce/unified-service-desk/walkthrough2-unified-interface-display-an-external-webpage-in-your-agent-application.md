@@ -1,14 +1,16 @@
 ---
 title: "Walkthrough 2: Display external URLs and webpages for Unified Interface apps | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for displaying external URLs and webpages in your agent application. "
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
+ms.custom: evergreen
 ---
+
 
 # Walkthrough 2: Display external URLs and webpages in your agent application
 

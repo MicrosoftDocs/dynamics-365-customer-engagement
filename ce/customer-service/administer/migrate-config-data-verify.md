@@ -5,11 +5,14 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Verify migration of records
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+
 
 [!INCLUDE[ur-migration verify](../../includes/cc-ur-migration-verify.md)]
 
@@ -17,7 +20,7 @@ ms.custom: bap-template
 
 [Troubleshoot migration of records](migrate-config-data-troubleshoot.md)
 
-### See also
+### Related information
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
 [Overview of data migration for records](migrate-config-data-for-records-overview.md)  

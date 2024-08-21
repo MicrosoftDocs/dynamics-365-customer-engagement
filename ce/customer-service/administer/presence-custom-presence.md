@@ -1,16 +1,17 @@
 ---
 title: Configure custom presence
 description: Learn to configure custom presence in Omnichannel for Customer Service.
-ms.date: 01/31/2024
+ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
 # Configure and manage custom presence
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The presence status indicates an agent's availability to take up work items. A presence status consists of two elements:
 
@@ -50,18 +51,8 @@ The inactive presence is not available for manual selection by the agents; if th
 
 In addition to the out-of-box presence statuses, admins can configure custom presence statuses for agents that must be mapped to a base presence. For example, if the agents on your team want to attend a training, you can create a custom **Away – In Training** presence status. When you map a custom presence to a base presence, make sure that the configurations are logically viable. For example, if you map an available custom presence to offline base status, the application will treat it as offline while the visual effect would be available.
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    - In the site map, in **Agent experience**, select **Productivity**.
+1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Productivity**.
    
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-     - In the site map, in **Advanced settings**, select **Agent experience**.
-    
 1. Select **Manage** for **Custom Presence**.
 
 1. On the command bar, select **New** to create a presence record.
@@ -78,7 +69,7 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 > [!div class=mx-imgBorder]
 > ![custom presence.](../media/oc-custom-presence-example.png)
 
-### See also
+### Related information
 
 [Manage presence in Omnichannel for Customer Service](../use/oc-manage-presence-status.md)  
 [Manage a user in Omnichannel for Customer Service](users-user-profiles.md)  

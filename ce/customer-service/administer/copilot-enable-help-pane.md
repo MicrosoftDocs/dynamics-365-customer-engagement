@@ -39,7 +39,7 @@ Select **Make Copilot available to agents** in the **Copilot help pane** page of
 
 ## Enable draft a response (preview)
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Select **For customer chat** in the **Copilot help pane** page of Customer Service admin center. The one-click response generation button appears on both the communication panel for a conversation and on the **Ask a question** tab on the Copilot help pane in Customer Service workspace. Copilot retrieves the context and drafts the response based on the knowledge resources configured for your organization.
 
@@ -126,6 +126,6 @@ The following table summarizes the Copilot features supported for a configured k
 |Write an email | ✔|✔|
 |Draft a response |✔|✔|
 
-### See also
+### Related information
 
 [Use Copilot to solve customer issues](../use/use-copilot-features.md)

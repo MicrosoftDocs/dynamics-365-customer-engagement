@@ -47,7 +47,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 });
 ```
 
-### See also
+### Related information
 
 [startChat](startchat.md)  
 [setContextProvider](setContextProvider.md)  

@@ -1,6 +1,6 @@
 ---
-title: "Integrate a Copilot Studio bot | MicrosoftDocs"
-description: "Use this article to get instructions on how to integrate a Copilot Studio bot in Omnichannel for Customer Service."
+title: Integrate a Copilot Studio bot
+description: Use this article to get instructions on how to integrate a Copilot Studio bot in your contact center.
 ms.date: 02/29/2024
 ms.topic: how-to
 author: neeranelli
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Integrate a Copilot Studio bot
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -63,9 +63,7 @@ Follow the procedure in the section [Connect omnichannel to your Copilot Studio 
 
 ## Configure your Copilot Studio bot in the admin app
 
-In the Customer Service admin center or Omnichannel admin center (deprecated) app, select the Copilot Studio bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
+In the Customer Service admin center app, select the Copilot Studio bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
 
 > [!NOTE]
 > Bots can receive conversations only if they're added to push-based workstreams.
@@ -167,7 +165,7 @@ You understand that your data may be transmitted and shared with external system
 
 [How to end a bot conversation in Omnichannel for Customer Service](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/pva-conversations-active-dashboard)
 
-### See also
+### Related information
 
 [Manage your bots](manage-your-bots.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  

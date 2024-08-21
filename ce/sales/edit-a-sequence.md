@@ -62,7 +62,7 @@ Cloning a sequence makes it easier to add or remove steps, and save the changes 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Sequences](create-manage-sequences.md)
 

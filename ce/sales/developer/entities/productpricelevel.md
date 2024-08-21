@@ -902,7 +902,7 @@ See the [unit_of_measure_schedule_product_price_level](uomschedule.md#BKMK_unit_
 
 See the [discount_type_product_price_levels](discounttype.md#BKMK_discount_type_product_price_levels) one-to-many relationship for the [discounttype](discounttype.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

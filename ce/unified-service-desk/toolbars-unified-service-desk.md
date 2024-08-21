@@ -1,15 +1,14 @@
 ---
 title: "Toolbars in Unified Service Desk | MicrosoftDocs"
 description: "Learn to configure and customize toolbars in Unified Service Desk. Also, find information about viewing properties and action calls for the toolbar buttons."
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Toolbars in Unified Service Desk
 Toolbars in [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] hold and display a list of buttons with images and text. Clicking or tapping the buttons can execute one or more actions.  

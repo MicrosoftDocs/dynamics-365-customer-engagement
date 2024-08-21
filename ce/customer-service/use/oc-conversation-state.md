@@ -11,7 +11,8 @@ ms.custom: bap-template
 
 # Understand conversation states
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 This article explains the various states and status reasons of the conversation (work item) in Omnichannel for Customer Service.
 
@@ -100,7 +101,7 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 
 The conversations that are completed by ending them or closing the session are classified as **Closed** conversations. Agents can't reactivate or reopen closed conversations.
 
-### See also
+### Related information
 
 [View communication panel](oc-conversation-control.md)  
 [Configure automatic closure of conversations](../develop/auto-close-conversation.md)  

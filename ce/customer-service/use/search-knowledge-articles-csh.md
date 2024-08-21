@@ -17,9 +17,12 @@ search.audienceType:
 
 # Search knowledge articles
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 Search and view knowledge articles to help answer a customer's question or solve an issue.
 
-Knowledge base search is available in Customer Service Hub, Customer Service workspace, Omnichannel for Customer Service, and some versions of [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities). Customers can search your knowledge base on their own if your organization provided a [self-service portal](knowledge-base-search-methods.md).
+Knowledge base search is available in Customer Service Hub, Customer Service workspace, Contact Center workspace, and some versions of [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#agent-productivity-enhancements-to-knowledge-capabilities). Customers can search your knowledge base on their own if your organization provided a [self-service portal](knowledge-base-search-methods.md).
 
 ## Prerequisites
 
@@ -45,7 +48,7 @@ Knowledge base search is available in Customer Service Hub, Customer Service wor
 
 - Your administrator granted **Create**, **Read**, **Write**, **Delete**, **Append**, and **Appendto** privileges to any new custom roles you created.
 
-- In Customer Service workspace and Omnichannel for Customer Service, your administrator turned on the app side pane and knowledge search in agent experience profiles.
+- In Customer Service workspace and Contact Center workspace, your administrator turned on the app side pane and knowledge search in agent experience profiles.
 
 - You're dealing with a case or a conversation, or your administrator [turned on the ability](../administer/set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) to open the knowledge pane for other entities.
 
@@ -105,11 +108,11 @@ Legend:
 1. The article ID
 
 
-## Search for related articles in Customer Service workspace and Omnichannel for Customer Service
+## Search for related articles in Customer Service workspace and Contact Center workspace
 
-You can search the knowledge base for related articles in the app side pane when you view a case or conversation in Customer Service workspace and Omnichannel for Customer Service. By default, a successful search displays up to 10 results.
+You can search the knowledge base for related articles in the app side pane when you view a case or conversation in Customer Service workspace and Contact Center workspace. By default, a successful search displays up to 10 results.
 
-1. In Customer Service workspace or Omnichannel for Customer Service, open a case or conversation.
+1. In the application, open a case or conversation.
 
 2. In the app side pane, select the **Knowledge search** (book) icon.
 
@@ -131,13 +134,13 @@ Legend:
 Select **More options** (**&hellip;**) to:
 
 - Select **Email Content** to open a new email so that you can send the article to your customer.
-- Select **Send URL** to paste the article link in the conversation window in channels other than Voice in Omnichannel for Customer Service.
+- Select **Send URL** to paste the article link in the conversation window in channels other than voice channel.
 
 You can perform these actions only on published or expired articles.
 
-## See suggested articles during a conversation in Customer Service workspace and Omnichannel for Customer Service
+## See suggested articles during a conversation in Customer Service workspace and Contact Center workspace
 
-In Customer Service workspace and Omnichannel for Customer Service, smart assist suggests knowledge articles in real-time based on your ongoing conversation with your customer.
+In Customer Service workspace and Contact Center workspace, smart assist suggests knowledge articles in real-time based on your ongoing conversation with your customer.
 
 In the app side pane, select the **Smart assist** (light bulb) icon to view suggestions of knowledge articles that are related to your conversation.
 
@@ -147,7 +150,7 @@ If your administrator [turned on suggest-as-you-type](../administer/set-up-knowl
 
 Your search term is matched against article titles, and the matching results appear in a flyout menu. If your search term consists of more than one word, only titles that contain the full string, not individual words, are matched. For example, if you search for **Cheque Book Reissue**, articles with "Cheque Book Reissue" in the title are returned. Articles with the individual words "Cheque," "Book," or "Reissue" in the title aren't.
 
-Suggest-as-you-type suggests up to six knowledge articles. Text that matches your keyword is highlighted in yellow. When you select the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the direct knowledge base search.
+Suggest-as-you-type suggests up to six knowledge articles. Text that matches your keyword is highlighted in yellow. When you select the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab, and as an inline view in the direct knowledge base search.
 
 :::image type="content" source="../media/autosuggest-ka-csw.png" alt-text="Screenshot of the suggest-as-you-type feature in action.":::
 
@@ -166,26 +169,26 @@ Favorite articles are saved in the language in which you viewed them when you ma
 
 If you create a major or minor version of a favorite article, then the new version appears as a favorite and the earlier version is removed from the list.
 
-In Customer Service workspace and Omnichannel for Customer Service, when you select a favorite article, it opens on an application tab. In Customer Service Hub, the article opens in a new browser window.
+In Customer Service workspace and Contact Center workspace, when you select a favorite article, it opens on an application tab. In Customer Service Hub, the article opens in a new browser window.
 
 ## Search across external search providers
 
-In Customer Service Hub and Customer Service workspace, you can search for files, documents, and articles from data sources outside your Dynamics 365 organization, if your administrator configured this option. To view those results, select the source in the list under **Knowledge**.
+In the application, you can search for files, documents, and articles from data sources outside your Dynamics 365 organization, if your administrator configured this option. To view those results, select the source in the list under **Knowledge**.
 
 In Customer Service Hub:
 
 > [!div class=mx-imgBorder]
 > ![Screenshot of the agent view of search providers in Customer Service Hub.](../media/search-provider-agent.png "Screenshot of the agent view of search providers in Customer Service Hub")
 
-In Customer Service workspace:
+In Customer Service workspace or Contact Center workspace:
 
 For more information on setting up search providers, see [Set up external search providers](../administer/set-up-search-providers.md#set-up-external-search-providers).
 
-## Search across integrated providers in Customer Service Hub and Customer Service workspace
+## Search across integrated providers
 
-In Customer Service Hub and Customer Service workspace, view and sort search results from [any providers your administrator added](../administer/add-search-provider.md) for you. The name of the search provider the article was pulled from appears on the knowledge article card. If it's truncated, hover over it to view the full name.
+In the application, view and sort search results from [any providers your administrator added](../administer/add-search-provider.md) for you. The name of the search provider the article was pulled from appears on the knowledge article card. If it's truncated, hover over it to view the full name.
 
-1. In the Customer Service workspace site map, select a case and then select **Knowledge search** on the app side pane.
+1. In the Customer Service workspace or Contact Center workspace site map, select a case and then select **Knowledge search** on the app side pane.
 1. Enter the search keyword. You see search results along with the search provider.
 1. Select **Show more** to view more results.
 
@@ -193,9 +196,9 @@ In Customer Service Hub and Customer Service workspace, view and sort search res
 
 When you select an article in the search results, where it opens depends on where you searched for it.
 
-### View the knowledge article in an application tab in Customer Service workspace and Omnichannel for Customer Service
+### View the knowledge article in an application tab
 
-In Customer Service workspace and Omnichannel for Customer Service, the article opens in an application tab. You can open up to 10 articles in app tabs.
+In Customer Service workspace and Contact Center workspace, the article opens in an application tab. You can open up to 10 articles in app tabs.
 
 :::image type="content" source="../media/csw-article-app-tab.png" alt-text="Screenshot of a knowledge article viewed in an app tab.":::
 
@@ -243,11 +246,11 @@ If the article has multiple sections, expand all the sections to view the entire
 
 You can find the most recently accessed knowledge articles across different cases without initiating any search if your administrator has enabled the [feature](../administer/set-up-knowledge-management-embedded-knowledge-search.md#show-recently-accessed-knowledge-articles-for-cases) for you.
 
-In Customer Service workspace, you can view recently accessed articles on the Knowledge search control of the productivity pane. By default, you will see the articles related to the case that you had searched for. You need to remove the keyword from the search bar to view recently accessed articles.
+In Customer Service workspace or Contact Center workspace, you can view recently accessed articles on the Knowledge search control of the productivity pane. By default, you will see the articles related to the case that you had searched for. You need to remove the keyword from the search bar to view recently accessed articles.
 
 In Customer Service Hub, select the standalone search to see the recently accessed knowledge articles across cases. You can review and use the search results across similar cases without searching for any keywords.
 
-### See also
+### Related information
 
 [Configure knowledge management](../administer/set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management)
 

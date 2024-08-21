@@ -849,7 +849,7 @@ See systemuser Entity [lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalf
 
 See systemuser Entity [user_msdyn_ocliveworkstreamcontextvariable](systemuser.md) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

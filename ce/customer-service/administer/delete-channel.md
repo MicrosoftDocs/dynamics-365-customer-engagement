@@ -1,7 +1,7 @@
 ---
-title: "Delete a configured channel or page to stop receiving messages | MicrosoftDocs"
-description: "Deactivate or delete a channel to turn off and stop receiving messages on the channel in Omnichannel for Customer Service."
-ms.date: 02/29/2024
+title: Delete a configured channel or page to stop receiving messages
+description: Deactivate or delete a channel to turn off and stop receiving messages on the channel in Omnichannel for Customer Service.
+ms.date: 06/14/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -9,16 +9,14 @@ ms.reviewer: nenellim
 ---
 # Delete a configured channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 You can delete an instance of a configured channel or SMS number in scenarios such as when it isn't required, you don't want to receive messages on it, or the settings are corrupted.
 
 ## Delete a configured channel
 
-You can delete a channel instance in Customer Service admin center or Omnichannel admin center (deprecated) app.
-
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+You can delete a channel instance in the Customer Service admin center or Contact Center admin center app.
 
 1. Select a messaging channel such as Facebook.
 
@@ -26,11 +24,11 @@ You can delete a channel instance in Customer Service admin center or Omnichanne
 
 1. On the confirmation dialog that appears, confirm the deletion.
 
-If you want to reconfigure your social channel or SMS number in Omnichannel for Customer Service, follow the channel-specific instructions.
+If you want to reconfigure your social channel or SMS number in the application, follow the channel-specific instructions.
 
 ## Delete a Facebook page
 
-If you no longer want to receive messages on a Facebook page that you've configured for your Facebook channel in Omnichannel for Customer Service, you can go to the page and delete it.
+If you no longer want to receive messages on a Facebook page that you've configured for your Facebook channel in the application, you can go to the page and delete it.
 
 1. In the Customer Service admin center site map, select **Channels** in **Customer Support**.
 
@@ -40,9 +38,9 @@ If you no longer want to receive messages on a Facebook page that you've configu
 1. From the **Workstreams** page, delete the required channel.
 1. Go to the **Accounts and channels** page, select and delete the required channel.
 
-### See also
+### Related information
 
-[Channels in Omnichannel for Customer Service](../use/channels.md)  
+[Use channels](../use/channels.md)  
 [Delete solutions](../implement/delete-solution.md)  
 
 

@@ -1,7 +1,7 @@
 ---
 title: Automatically route cases using basic routing rulesets
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service.
-ms.date: 04/23/2024
+ms.date: 06/21/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -38,8 +38,6 @@ In custom apps, you might not have routing rulesets in your site map. To add rou
 
 4. Select the area in which you want to add the routing ruleset entity, such as **Service Management**, select **Add**, and then select **Subarea**. The **SUB AREA** section appears in the right pane.
 
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
 5. On the **Properties** tab, in **General** section, do the following:
 
     - **Type:** Select **Entity**.
@@ -74,28 +72,20 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
 **To create the routing ruleset**
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the site map of Customer Service admin center, select **Routing**. The **Routing** page appears.
 
-   1. In the site map, select **Routing**. The **Routing** page appears.
+1. Select **Manage** for **Basic routing rule sets**.
 
-   1. Select **Manage** for **Basic routing rule sets**.
+1. Select **New** on the command bar.
 
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-   
-   - In the site map, go to **Service Management**, and select **Routing Rule Sets** in **Case Settings**.
+1. On the **General** tab, in **Routing Rule Set Information**, enter a **Name** and **Description** for the routing ruleset.
 
-2. Select **New** on the command bar.
-
-3. On the **General** tab, in **Routing Rule Set Information**, Enter **Name** and **Description** for the routing ruleset.
-
-4. Select **Save**. The routing ruleset is saved, and the **Rule Items** section is displayed.
+1. Select **Save**. The routing ruleset is saved, and the **Rule Items** section is displayed.
 
     > [!div class="mx-imgBorder"]
     > ![Create routing rules general information.](../media/rr-create-rule-set.png "Create routing rules general information")
 
-5. In the **Rule Items** section, select **New Rule Item**. The **New Rule Item** dialog box appears in which you can specify conditions that will be evaluated for routing cases to a queue, an agent, or a team.
+1. In the **Rule Items** section, select **New Rule Item**. The **New Rule Item** dialog box appears, in which you can specify conditions that will be evaluated for routing cases to a queue, an agent, or a team.
 
     a. On the **General** tab, in **Rule Item Information**, enter a **Name** and **Description**.
 
@@ -129,7 +119,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
     d. Select **Save & Close** to save and close the rule item.
 
-6. In the **Routing Rule Set** record, select **Activate**. The ruleset is applied to cases that match the conditions in the rule.
+1. In the **Routing Rule Set** record, select **Activate**. The ruleset is applied to cases that match the conditions in the rule.
 
     > [!NOTE]
     >
@@ -163,7 +153,7 @@ Perform the following steps before you upgrade a solution:
 
 3. After the successful upgrade of the solution, activate the routing rulesets as required.
 
-### See also
+### Related information
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)  
 

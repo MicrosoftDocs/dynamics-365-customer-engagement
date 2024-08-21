@@ -5,17 +5,20 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 10/19/2023
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Use Omnichannel for Customer Service metrics
 
-This article describes the different metrics that help you analyze key performance indicators (KPIs) as you work with agents in your contact center. Use metrics to do a quantitative assessment of the data that is shown on the Omnichannel for Customer Service dashboards. Metrics can also help you make strategic decisions, and track and improve customer satisfaction.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
+This article describes the different metrics that help you analyze key performance indicators (KPIs) as you work with agents in your contact center. Use metrics to do a quantitative assessment of the data that is shown on the Omnichannel dashboards. Metrics can also help you make strategic decisions, and track and improve customer satisfaction.
 
 ## Understand the Omnichannel analytics data model
 
-Omnichannel for Customer Service provides an out-of-box data model that consists of fact and dimension tables.
+The application provides an out-of-box data model that consists of fact and dimension tables.
 
 - Facts, also known as metrics, represent the observational or event data that you want to analyze. Fact tables logically organize KPIs. For example, the `FactConversation` table has conversation metrics such as average handle time, whereas the `FactAgent` table has agent metrics.
 - Dimensions represent the attributes of the facts. You can use them to break down the data for further analysis.
@@ -24,7 +27,7 @@ You can use facts and dimensions to visualize data according to your organizatio
 
 Fact tables are larger than dimension tables because numerous events, such as individual customer requests, occur in them. Dimension tables are typically smaller because you're limited to the number of items that you can filter on and group. For example, the number of queues is a limited set.
 
-## Understand the Omnichannel for Customer Service workflow
+## Understand the workflow
 
 Here is a brief description of the workflow.
 
@@ -266,7 +269,7 @@ This metric is a measure of the total number of conversation requests that were 
 
 ### Sentiment
 
-The metric is a measure of the current sentiment of customer. It's powered by Omnichannel for Customer Service sentiment analysis.
+The metric is a measure of the current sentiment of customer. It's powered by Contact Center sentiment analysis.
 
 ### Average session handle time
 
@@ -278,7 +281,7 @@ This metric is like conversation handle time, but it's granular and is calculate
 
 ### Customer sentiment
 
-This metric is a measure of the current sentiment of the customer. It's powered by Omnichannel for Customer Service sentiment analysis.
+This metric is a measure of the current sentiment of the customer. It's powered by Contact Center sentiment analysis.
 
 ### Is handled by external participant (session)
 
@@ -411,7 +414,7 @@ This metric is a measure of the capacity units that are currently occupied.
 
 This metric is a measure of the time that an agent spent in a presence status.
 
-## See also
+## Related information
 
 [Omnichannel for Customer Service dashboards](omnichannel-analytics-insights.md#omnichannel-for-customer-service-dashboards)
 

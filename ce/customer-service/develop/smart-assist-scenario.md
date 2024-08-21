@@ -8,7 +8,6 @@ ms.author: nenellim
 ---
 # Implement a custom scenario for smart assist bot
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This topic provides information on how you can enable similar case suggestions in your smart assist bot.
 
@@ -137,7 +136,7 @@ This custom action enables you to send a knowledge base article.
 You can use the client-side APIs to open knowledge base articles. See [Client API reference for model driven apps](/powerapps/developer/model-driven-apps/clientapi/reference) for more information.
 
 
-## See also
+## Related information
 
 [Build a smart assist bot](smart-assist-bot.md)<br />
 [Sample code: Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot)<br />

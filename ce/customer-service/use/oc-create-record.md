@@ -1,17 +1,22 @@
 ---
-title: "Create records for conversations| MicrosoftDocs"
-description: "Learn how you can create conversation records using various methods in Omnichannel for Customer Service."
+title: Create records for conversations
+description: Learn how you can create conversation records using various methods.
 author: neeranelli
 ms.author: nenellim
-ms.date: 01/06/2021
+ms.date: 07/01/2024
 ms.topic: article
 ---
 
 # Create a record for conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-When no records are linked to the conversation in Omnichannel for Customer Service, you can create a record. You can create a record in one of the following ways:
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
+
+When no records are linked to the conversation, you can create a record. You can create a record in one of the following ways:
 
 - Create a record from the **Active Conversation** page
 - Create a record using the **Quick Create** option
@@ -61,6 +66,10 @@ To create a record
  - Case
  - Contact
  - Account
+ 
+> [!Note]
+> Case information is applicable to Customer Service only.
+
 
    > [!div class=mx-imgBorder]
    > ![Create record quickly.](../media/oc-oceh-create-quick-create.png "Create record quickly")
@@ -77,6 +86,10 @@ After you save the changes, you can link the record to the conversation. To lear
 
 ## Create a record using the New option
 
+> [!Note]
+> Case information is applicable to Customer Service only.
+
+
 In the **Active Conversation** page, when you are trying to search a record in customer or case section, after you type few characters to search, you can use the inline **New** button to create a record. After you select the button, the **Quick Create** pane of the record appears.
 
 1. Type to search in the search box. The records appear as a list that matches your search criteria.
@@ -91,7 +104,7 @@ In the **Active Conversation** page, when you are trying to search a record in c
     > [!div class=mx-imgBorder]
     > ![Auto-link record.](../media/customer-summary-search-section-auto-link-case.png "Auto-link record")
 
-### See also
+### Related information
 
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)  
 - [View customer information on Active Conversation form](oc-customer-summary.md)  

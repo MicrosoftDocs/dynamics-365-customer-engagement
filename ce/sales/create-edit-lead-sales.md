@@ -82,7 +82,7 @@ You can add leads by importing them from a Microsoft Excel, CSV, or XML file or 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Print quote, invoice, or other records](print-records.md)
 

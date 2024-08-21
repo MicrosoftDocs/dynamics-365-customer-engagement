@@ -1,10 +1,10 @@
 ---
 title: Set up booking rules
 description: Learn how to set up booking rules in Dynamics 365 Field Service.
-ms.date: 04/19/2024
-ms.topic: article
-author: clearab
-ms.author: anclear
+ms.date: 05/14/2024
+ms.topic: how-to
+author: ryanchen8
+ms.author: ryanchen
 ---
 
 # Set up booking rules
@@ -103,7 +103,25 @@ The following screenshot shows an example custom CRM action.  This sample is che
 
 ## Sample code
 
-The JavaScript function you created can accept a single parameter, which is considered the booking context. The passed in booking context parameter isn't* a typical CRM context used in client-side scripting.
+The JavaScript function you created can accept a single parameter, which is considered the booking context. The passed booking context parameter isn't a typical CRM context used in client-side scripting.
+
+Booking context schema:
+```
+export type BookingRuleContext = {
+    oldValues: BookingRuleBookingRecord;
+    newValues: BookingRuleBookingRecord;
+    isCreate: boolean;
+    isUpdate: boolean;
+};
+ 
+export type BookingRuleBookingRecord = {
+    ResourceRequirementId?: string;
+    ResourceId?: string;
+    StartTime?: Date;
+    EndTime?: Date;
+    ResourceScheduleSource?: string;
+};
+```
 
 The booking context parameter will have the following JavaScript definition. 
 

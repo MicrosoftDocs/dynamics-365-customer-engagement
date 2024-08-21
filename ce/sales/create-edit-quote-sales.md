@@ -130,7 +130,7 @@ When you've added all the details to the quote, you can send it to the customer.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
  [Sales transactions in Dynamics 365 Sales](sales-transactions.md)  
  [Export your quote to a PDF file](create-quote-pdf.md)  
  [Track and manage activities](manage-activities.md)   

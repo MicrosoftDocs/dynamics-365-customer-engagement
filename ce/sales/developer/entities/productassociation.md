@@ -799,7 +799,7 @@ See the [Product_ProductAssociation_Prod](product.md#BKMK_Product_ProductAssocia
 
 See the [unit_of_measurement_productassociation](uom.md#BKMK_unit_of_measurement_productassociation) one-to-many relationship for the [uom](uom.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

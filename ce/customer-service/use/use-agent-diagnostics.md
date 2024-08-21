@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Use agent diagnostics as a self-help tool
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 The agent diagnostics tool helps you identify and address issues in your environment. Use the tool to run a set of predefined rules from Microsoft to diagnose frequent issues. You can download a report to send to admins or support and reduce support tickets.
 
 Out of the box, the following rules are available:
@@ -43,7 +45,7 @@ The rules that you can run in the agent app are specific to your permissions.
 1. Select **Download Report**. The report details are available in a text file that you can share with the administrator.
 1. Optionally, run the rule again after the administrator resolves the issue to make sure that no further issues are present.
 
-### See also
+### Related information
 
 [View the communication panel for conversations](oc-conversation-control.md)  
 [Get started with Customer Service workspace](../implement/csw-overview.md)  

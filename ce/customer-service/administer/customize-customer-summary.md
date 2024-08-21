@@ -1,7 +1,7 @@
 ---
 title: Customize the Active Conversation form
 description: Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Omnichannel for Customer Service.
-ms.date: 11/08/2023
+ms.date: 07/01/2024
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -9,8 +9,6 @@ ms.topic: how-to
 ms.custom: bap-template
 ---
 # Customize the Active Conversation form
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
 > The **Customer Summary** form is renamed as **Active Conversation** form.
@@ -108,7 +106,7 @@ You can customize the timeline dropdown labels for case, account, and contact by
 > [!div class="nextstepaction"]
 > [Next topic: Customize quick view forms](customize-quick-view-form.md)
 
-### See also
+### Related information
 
 [Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize the conversation form](customize-session-form.md)  

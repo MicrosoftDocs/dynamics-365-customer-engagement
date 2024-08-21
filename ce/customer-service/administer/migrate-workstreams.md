@@ -11,8 +11,6 @@ ms.custom: bap-template
 
 # Migrate workstreams created in Omnichannel Administration
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
 ## When will the Omnichannel Administration app be removed?
 
 The rollout of removing the Omnichannel Administration app has started and will be applied region wise. For example, in Canada, the removal is expected to be complete by July 24, and in North America, by August 11, 2023.
@@ -47,7 +45,7 @@ After you have migrated all the workstream configurations from Omnichannel Admin
 
 After upgrading Omnichannel for Customer Service, we recommend that you use the Customer Service admin center app to configure record routing. You can no longer configure record routing in the Omnichannel Administration app because it won't work as expected. The existing workstreams that you created for routing records in the Omnichannel Administration app can't be migrated. Instead, you'll need to recreate them in Customer Service admin center, and then enable them for unified routing.
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure work classification rulesets](configure-work-classification.md)  

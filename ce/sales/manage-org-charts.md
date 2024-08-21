@@ -132,7 +132,7 @@ When LinkedIn Sales Navigator is turned on in your organization and contacts cha
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Organization charts](organization-charts.md)  
 [View and understand the org charts](view-understand-org-charts.md)

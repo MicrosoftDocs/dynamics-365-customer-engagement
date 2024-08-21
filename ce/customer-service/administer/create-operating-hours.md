@@ -1,20 +1,18 @@
 ---
 title: Create and manage operating hours
 description: Perform the steps mentioned in the article to create, manage, and define operating hours in Omnichannel for Customer Service.
-ms.date: 02/29/2024
+ms.date: 06/14/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
 
 # Create and manage operating hours
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Operating hours define the hours when your organization's customer support team is active and available to serve customers. By setting up operating hours, you help your customers and your organization work together to resolve issues.
 
@@ -28,9 +26,7 @@ The operating hour schedules cater to the following scenarios:
 
 After you define the business hours for your organization and set up [automated messages](configure-automated-message.md) to be displayed to customers, when customers interact through a channel during non-business hours, they will see the messages that you've set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am and 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they'll receive responses that you've set.
 
-In the Customer Service admin center or Omnichannel admin center (deprecated) app, after you've created an operating hour record, you can do the following steps, depending on your requirement:
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+In the Customer Service admin center or Contact Center admin center app, after you've created an operating hour record, you can do the following steps, depending on your requirement:
 
 - **Queues:** Configure the operating hour on the main page of the queue.
 - **Chat widget:** Add the operating hour record on the **Chat widget** tab.
@@ -40,23 +36,12 @@ When operating hours are in effect, work items during non-business hours are han
 
 ## Create a record to define operating hours
 
-You can define operating hours in the Customer Service admin center or Customer Service Hub app.
+You can define operating hours in ustomer Service admin center or Contact Center admin center.
 
-1. Go to one of the apps, and perform the following steps.
+1. In the site map of the admin center, select **Calendars** in **Operations**. The **Calendar** page appears.
+1. In the **Operating Hours** section, select **Manage**.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Calendars** in **Operations**. The **Calendar** page appears.
-    1. In the **Operating Hours** section, select **Manage**.
-
-       The **Active Operating Hours** view is displayed. You can switch between various system views using the drop-down list.  
-
-   ### [Omnichannel admin center (deprecated)](#tab/Omnichanneladmincenter)
-
-    1. In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
-    1. In the **Operating Hours** section, select **Manage**.
-
-       The **Active Operating Hours** view is displayed. You can switch between various system views using the drop-down list.
+   The **Active Operating Hours** view is displayed. You can switch between various system views using the drop-down list.  
 
 1. Select **New**. The **New Operating Hour** page is displayed.
 
@@ -128,18 +113,8 @@ You can add operating hours to a queue that can later be configured for a social
 
 Do the following to specify operating hours for a queue:
 
-1. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Queues** in **Customer Support**. The **Queues** page appears.
-    1. In the **Advanced Queues** section, select **Manage**.
-
-       The **Queues** view is displayed.
-
-   ### [Omnichannel admin center (deprecated)](#tab/Omnichanneladmincenter)
-
-    - In the site map, select **Queues** in **General settings**. The **Queues** page appears.
+1. In the site map of the admin app, select **Queues** in **Customer Support**. The **Queues** page appears.
+1. In the **Advanced Queues** section, select **Manage**. The **Queues** view is displayed.
 
 1. Open the queue for which you want to specify the operating hours.
 
@@ -153,7 +128,7 @@ Do the following to specify operating hours for a queue:
 
 You can't migrate the Calendar entity by using the export and import options and need to set up the work hours manually.
 
-### See also
+### Related information
 
 [Manage overflow of queues](manage-overflow.md)  
 [Automated messages](configure-automated-message.md)  

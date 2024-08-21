@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/06/2023
+ms.date: 06/21/2024
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -15,6 +15,8 @@ search.audienceType:
 ---
 
 # Customize visual display
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Dynamics 365 Customer Service provides out-of-the-box analytics reports that help you visualize key performance indicators (KPIs) and trends for standard contact center workflows. You can use an embedded Power BI editor to customize the out-of-the-box reports to meet your organization's needs:
 
@@ -73,7 +75,7 @@ You can use facts and dimensions to visualize data according to your organizatio
 
 If you've customized your reports and Microsoft changes the default data model for a report, the data model updates don't overwrite your customizations. However, if the naming conventions in the Power BI embedded editing experience change, those changes are reflected in the respective list. You may need to reselect the metric with the new name. [Learn more about data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
 
-### See also
+### Related information
 
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  
 [Configure Customer Service analytics and insights](../administer/configure-customer-service-analytics-insights-csh.md)  

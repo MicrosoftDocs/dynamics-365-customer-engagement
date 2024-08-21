@@ -4258,7 +4258,7 @@ See the [BulkOperation_Accounts](bulkoperation.md#BKMK_BulkOperation_Accounts) m
 
 See the [CampaignActivity_Accounts](campaignactivity.md#BKMK_CampaignActivity_Accounts) many-to-many relationship for the [campaignactivity](campaignactivity.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -56,7 +56,7 @@ No. You can't add extra storage capacity to users with Sales Professional licens
 
 ## Where is my organization's data stored?  
 
-The following table shows where your data is stored, depending on the region where your organization is hosted.
+The following table shows where your data is stored, depending on the country/region where your organization is hosted.
 
 | Region | Primary Azure datacenter location  | Secondary Azure datacenter location |
 |--------|-------------------------------------|--------------------------------------|
@@ -72,11 +72,11 @@ The following table shows where your data is stored, depending on the region whe
 | South America (SAM) | Brazil South | Brazil Southeast |
 | Switzerland (CHE) | Switzerland North | Switzerland West |
 
-More information: [Azure Regional Pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs)
+[Learn more about Azure regional pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs).
 
 ## Which users can push data from Dynamics 365 Sales to Dataverse?
 
-The Dynamics 365 Sales data is pushed to Dataverse to generate insights such as, predictive scoring, relationship analytics, who knows whom, and predictive forecasting. A set of predefined system and application users are used to push data from Dynamics 365 Sales to Dataverse. For more information, see [System and application users](/power-platform/admin/system-application-users).
+Dynamics 365 Sales data is pushed to Dataverse to generate insights like predictive scoring, relationship analytics, who knows whom, and predictive forecasting. A set of predefined [system and application users](/power-platform/admin/system-application-users) may push data from Dynamics 365 Sales to Dataverse.
 
 ## What happens to my organization data if I switch from Sales Professional to Sales Enterprise or vice versa?
 

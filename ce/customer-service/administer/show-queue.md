@@ -1,7 +1,7 @@
 ---
-title: "Show customers their position in a queue | MicrosoftDocs"
-description: "Learn how to show customers their queue position for a chat widget in Dynamics 365 Customer Service."
-ms.date: 04/25/2023
+title: Show customers their position in a queue
+description: Learn how to show customers their queue position for a chat widget.
+ms.date: 07/01/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -9,7 +9,7 @@ ms.author: laalexan
 
 # Show customers their position in a queue
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 As an administrator, you can turn on the feature that notifies a customer of their position in the queue and the average wait time when they're waiting to chat with an agent. You can help set customer expectations when wait times are longer due to higher volumes of customers needing support, understaffing, or longer-than-expected handle times (for example, new issues or new agents). Knowing their queue position can help the customer decide whether to wait in the queue or come back later.
 
@@ -27,7 +27,7 @@ The number of customers waiting to chat gets updated each time a customer in lin
 
 To configure the queue position setting:
 
-1. Sign in Customer Service admin center, and then go to the workstream of the chat widget for which you want to configure the queue setting.
+1. Sign in to the admin center application, and then go to the workstream of the chat widget for which you want to configure the queue setting.
 
 1. Select **Edit** for the required chat widget, and on the **Chat channel Settings** page, go to the **Behaviors** tab.
 
@@ -36,7 +36,7 @@ To configure the queue position setting:
 1. Select **Save and Close**.
 
 
-### See also
+### Related information
 
 [Show customers their average wait time in a queue](average-wait-time.md) <br>
 [Add a chat widget](add-chat-widget.md) <br>

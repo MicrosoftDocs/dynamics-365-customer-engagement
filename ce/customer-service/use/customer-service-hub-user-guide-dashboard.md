@@ -186,7 +186,7 @@ In the streams, the color is depicted using the thin vertical line to the left o
  For information on how to configure the interactive dashboards, see [Configure interactive experience dashboards](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622067(v=crm.8))  
   
 
-### See also
+### Related information
 
 [Configure interactive dashboards in the Customer Service Hub](../administer/configure-interactive-dashboards-customer-service-hub.md)
 

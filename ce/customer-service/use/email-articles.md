@@ -15,7 +15,8 @@ ms.custom:
 
 # Email a knowledge article
 
-## Email options
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 You can share the knowledge article link or knowledge article content through mail by selecting the ellipsis next to an article.
 
@@ -34,7 +35,7 @@ Use the **Email** button to send the knowledge article via mail. When you select
 
 You can perform these actions for only published or expired articles.
 
-### See also
+### Related information
 
 [Link and unlink knowledge articles](link-articles.md#link-and-unlink-knowledge-articles)
 

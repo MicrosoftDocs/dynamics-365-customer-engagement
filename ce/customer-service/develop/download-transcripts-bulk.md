@@ -8,10 +8,6 @@ ms.author: laalexan
 ---
 # Download Omnichannel for Customer Service transcripts in bulk
 
-
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 Omnichannel for Customer Service transcripts are stored in base64 encoded format in the annotations table in Microsoft Dataverse. Attachments are stored as separate records in the annotations table. If a conversation has two files exchanged between the agent and the customer, a total of three records are created related to this conversation. Any conversation always has n+1 records stored for it in the annotations table, where n is the number of attachments in the conversation. Attachments are also base64 encoded before being saved.
 
 The option to download transcripts in bulk is not available out of the box. You can use the following Web API requests to retrieve all the transcripts and attachments exchanged in the past one month.
@@ -226,7 +222,7 @@ OData-MaxVersion: 4.0
 OData-Version: 4.0  
 ```
 
-### See also
+### Related information
 
 [Omnichannel for Customer Service for developers](omnichannel-developer.md)
 

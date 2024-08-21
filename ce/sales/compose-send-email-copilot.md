@@ -13,7 +13,10 @@ ms.custom: bap-template
 
 # Compose and send email messages using Copilot (preview)
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
 
 > [!NOTE]
 > This feature is enabled by default from 2024 release wave 1 for early access in NAM (North America) region. For more information, see [Enable and set up copilot capabilities](enable-setup-copilot.md).
@@ -99,6 +102,6 @@ After you’ve generated the suggested content, you can refine the results furth
     The Copilot email composer is cleared and you can start a new draft.
 
 
-### See also
+## Related information
 
 [Copilot overview](copilot-overview.md)  

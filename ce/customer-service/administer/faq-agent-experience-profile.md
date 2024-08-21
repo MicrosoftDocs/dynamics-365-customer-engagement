@@ -5,11 +5,13 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: conceptual
-ms.date: 04/05/2023 
+ms.date: 07/01/2024
 ms.custom: bap-template 
 ---
 
 # FAQs about adding users to agent experience profile
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 This article contains the frequently asked questions (FAQ) that you as an administrator might have when adding users to the custom agent experience profiles using the **Set as default** and **Set rank and roles** options in Customer Service admin center.
 
@@ -36,7 +38,7 @@ You can't create multiple profiles with the same rank from the Customer Service 
 
 No. You can't have multiple default custom profiles when you're setting the default profile in Customer Service admin center.  However, if  you've imported profiles created in different environments, you might see multiple default profiles. We recommend that you resolve the issue in the source environments and then import the profiles.
 
-### See also
+### Related information
 
 [ Add users to agent experience profiles](add-profile-default.md)<br>
 [Create and use agent experience profiles](create-agent-experience-profile.md)<br>

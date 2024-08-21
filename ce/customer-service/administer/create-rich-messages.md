@@ -1,7 +1,7 @@
 ---
 title: "Manage rich messages | MicrosoftDocs"
 description: "This article provides steps to help you create, publish, and update rich messages in Omnichannel for Customer Service."
-ms.date: 10/11/2022
+ms.date: 06/14/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -10,25 +10,16 @@ ms.author: laalexan
 
 # Manage rich messages
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 Some channel apps such as Apple Messages for Business support a set of custom rich messages. Rich messages contain information that can be used to generate interactive content and experiences that take place within that app.
 
 By creating and publishing channel-specific rich messages, your organization's customer support team can send them to customers, and their content can be used when designing automated experiences. For information about using rich messages in Omnichannel for Customer service, see [Rich messages in conversation control](../use/rich-messages-conversation-control.md).
 
 ## Create rich messages for Apple Messages for Business
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
-     1. In the site map, select **Productivity** in **Agent experience**.
-     2. On the **Productivity** page, select **Manage** for **Rich messages**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-    
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-    
-    - - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Rich messages**.
-
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Productivity** in **Agent experience**.
+1. On the **Productivity** page, select **Manage** for **Rich messages**.
 1. Select **New**, and then enter the following information:
     - **Name**: A descriptive name that'll be used by agents to search for rich messages.
     - **Locale**: The language of the rich message. Rich messages are filtered by locale within agent sessions.
@@ -582,7 +573,7 @@ Within the designer, the first fields are related to the message that appears wi
 
 
 
-### See also
+### Related information
 
 [Configure Apple Messages for Business](configure-apple-messages-for-business-channel.md)  
 [Understand and create workstreams](create-workstreams.md)  

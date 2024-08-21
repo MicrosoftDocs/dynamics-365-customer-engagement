@@ -11,8 +11,6 @@ ms.collection:
 ---
 # Parse event activity JSON to get bot context
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 The Omnichannel for Customer Service context messages are sent as event activity to bots. Context information such as customer info, live work item, or conversation ID, is sent to the bot as part of an activity JSON. The JSON can be of type **startConversation** for most channels and **ConversationUpdate** for voice conversations. 
 
 ## Fetch and use context for bots in your bot code
@@ -39,7 +37,7 @@ protected override async Task OnEventActivityAsync(ITurnContext<IEventActivity> 
 
 [Code samples for parsing activity JSON](bot-context-json-samples.md)  
 
-### See also
+### Related information
 
 [setContextProvider](reference/methods/setContextProvider.md)  
 [Integrate an Azure bot](../administer/configure-bot-azure.md)  

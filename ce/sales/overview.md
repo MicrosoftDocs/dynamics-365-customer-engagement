@@ -167,7 +167,7 @@ Integrate Dynamics 365 Sales with other applications that your sales team alread
 - [Install ZoomInfo app](install-zoominfo-app.md)
 - [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)
 
-### See also
+## Related information
 
 [Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)  
 [User guide](../sales-enterprise/user-guide.md)  

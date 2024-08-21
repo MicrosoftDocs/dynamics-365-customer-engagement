@@ -1,7 +1,7 @@
 ---
 title: Call a customer in the voice channel
-description: Use this article to understand how you can make customer calls in Omnichannel for Customer Service.
-ms.date: 04/01/2024
+description: Use this article to understand how you can make customer calls.
+ms.date: 07/01/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -10,7 +10,7 @@ ms.author: mgandham
 
 # Call a customer
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. More information: [Outbound calling](../administer/voice-channel-outbound-calling.md)
 
@@ -22,7 +22,7 @@ You can launch the outbound dialer from the menu bar, **Contacts** or **Active c
 
 To test your microphone and speaker, do the following steps:
 
-1. In Customer Service workspace, select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
+1. In Customer Service workspace or Contact Center workspace, select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
 1. In the **Speaker** and **Microphone** sections, select the speaker and microphone to test. If you have multiple devices, the default devices that are currently in use appear.
 1. Select the following options:
     - **Test speaker**. The application plays a sound that stops automatically after 15 seconds.
@@ -34,7 +34,7 @@ To test your microphone and speaker, do the following steps:
 
 ## Make a call using the outbound dialer
 
-1. In Customer Service workspace or Omnichannel for Customer Service, go to **Contacts**, and then select a customer to call.
+1. In Customer Service workspace or Contact Center workspace, go to **Contacts**, and then select a customer to call.
 2. On the **Active Conversation** page, locate the **Mobile Phone** field, and then select the call icon to call the customer. You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer.
      The **Dial number** panel appears. You can perform the following actions:<br>
       > [!NOTE]
@@ -67,7 +67,7 @@ When the call connects, you see the customer details on the conversation page. B
 ## Next steps
 [Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md)  
 
-### See also
+### Related information
 
 [Overview of the voice channel](../administer/voice-channel.md)  
 [Use trial phone numbers in the voice channel](../administer/voice-channel-trial-phone-numbers.md)

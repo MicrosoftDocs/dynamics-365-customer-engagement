@@ -1,15 +1,17 @@
 ---
 title: Use best practices to set up unified routing in Customer Service
-description: Use this article to learn about the best practices to set up unified routing in Customer Service and what to do and avoid for a successful implementation.
+description: Use this article to learn about the best practices to set up unified routing in Customer Service and what to do for a successful implementation.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/21/2024
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Use best practices to set up unified routing in Customer Service
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 This article discusses some of the important aspects to successfully deploy and manage unified routing and focuses on the most common areas where you might have questions.
 
@@ -100,7 +102,7 @@ Skill-based routing helps reduce the number of queues to be managed in your orga
 [Overview of unified routing](overview-unified-routing.md)  
 [FAQ about unified routing](unified-routing-faqs.md)  
 
-### See also
+### Related information
 
 [Provision unified routing](provision-unified-routing.md)  
 [Set up skill-based routing](set-up-skill-based-routing.md)  

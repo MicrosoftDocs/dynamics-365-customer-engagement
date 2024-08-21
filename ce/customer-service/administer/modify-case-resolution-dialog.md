@@ -1,7 +1,7 @@
 ---
 title: Customize the case resolution dialog
 description: Add custom fields and values to the case resolution dialog to improve case management and organization.
-ms.date: 12/21/2023
+ms.date: 06/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -36,19 +36,9 @@ If you have custom security roles, you must update the roles to use the modified
 
 You can set the case resolution dialog that agents see when they resolve the case. By default, the field is set to **Standard dialog**. Perform the following steps to set the resolve case dialog to a customizable case resolution dialog. This enables you to modify the case resolution dialog to add or remove fields and values.
 
-1. Navigate to one of the following apps:
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-    
-    1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+1. In the site map of Customer Service admin center, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
      
-    1. Select **Manage** for **Other Settings**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-   
-     [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-     - In the **Service Management** site map, select **Service Configuration Settings** in **Service Terms**.
+1. Select **Manage** for **Other Settings**.
 
 1. On the **Service Configuration Settings** page, scroll to the **Resolve case dialog** section, and then select **Customizable dialog** from the dropdown list.
 
@@ -111,7 +101,7 @@ In our example, once you've added the custom value, agents see the **Duplicate**
 
    :::image type="content" source="../media/case-enh-duplicate.png" alt-text="Screenshot displaying the duplicate custom value":::
 
-### See also
+### Related information
 
 [Work with cases](../use/customer-service-hub-user-guide-create-a-case.md)  
 [Create a case](../use/customer-service-hub-user-guide-create-a-case.md)  

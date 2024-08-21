@@ -11,12 +11,15 @@ ms.custom: bap-template
 
 # Identify customers automatically
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!NOTE]
+> Case is applicable to Customer Service only.
 
 You can assist customers better if you can automatically identify them and view their account and case details on the **Active Conversation** page. One of the ways is by setting up preconversation questions in the relevant chat widgets. The application uses the customer responses to search for details in the records and display the results. For an account or contact, the application performs a search on the **Name**, **Email**, or **Phone Number** fields. For an account, the **Phone Number** pertains to the **Phone** field of the **Account Summary** page; for a contact, the **Phone Number** pertains to the **Mobile Number** field of the **Contact Summary** page. For cases, the application performs a search on the **Case Number** field.
 
 > [!NOTE]
-> The record search identifies records that have an active status code for contacts or accounts; if you use custom status codes, then record identification won't work.
+> The record search identifies records that have the active status code for contacts or accounts; if you use custom status codes, then record identification won't work.
 
 For every incoming conversation request that an agent receives, a notification appears that includes contextual information for the request and customer details, if available. After the agent accepts the incoming notification, the **Active Conversation** page opens and shows the details of the identified customer and case. If the identified contact or account has one active case linked to it, then the case is automatically linked to the conversation. If the customer contacts the agent for a different case, the agent can manually change the linked case.
 
@@ -60,7 +63,7 @@ To link the customer or case, set the values for the associated attributes, such
 For information about creating context variables for Azure and Copilot Studio bots, see [Configure context variables for the bot](context-variables-for-bot.md#configure-context-variables-for-copilot-studio-bot).
 
 
-### See also
+### Related information
 
 [Create and manage workstreams](create-workstreams.md)  
 [Configure a Copilot Studio bot](configure-bot-virtual-agent.md)  

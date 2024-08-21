@@ -1,7 +1,7 @@
 ---
-title: "Data model and report mapping for historical analytics reports| MicrosoftDocs"
-description: "View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service."
-ms.date: 06/12/2023
+title: Data model and report mapping for historical analytics reports
+description: View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service.
+ms.date: 07/05/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -13,6 +13,11 @@ search.audienceType:
 ---
 
 # Data models and report mappings for historical analytics reports in Customer Service
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
 
 This article lists the out-of-the-box data models and report mappings for historical reports. Use the information to edit the report mappings for the various out-of-the-box reports.
 
@@ -438,7 +443,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSession|Session ID|The related Omnichannel session ID.  |
 |FactBotSession|Topic ID|Topic ID. Foreign key to DimTopic.  |
 
-### See also
+### Related information
 
 [Customize visual display](customize-reports.md#customize-visual-display)    
 [Overview of data model customization](datamodel-overview.md#overview-of-data-model-customization)  

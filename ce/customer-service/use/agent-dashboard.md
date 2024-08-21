@@ -1,13 +1,15 @@
 ---
 title: Agent dashboard in Omnichannel historical analytics
 description: Learn about the Agent dashboard in Omnichannel historical analytics to better understand agent performance in your organization.
-ms.date: 04/30/2024
+ms.date: 07/01/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 ---
 
 # Agent dashboard
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!IMPORTANT]
 >
@@ -125,7 +127,7 @@ Select the **Availability** tab and then select **Aggregated view** to view the 
 
 :::image type="content" source="../media/agent-custom-presence-drill-down.png" alt-text="Screenshot shows a drill-down view of an agent custom presence":::
 
-### See also
+### Related information
 
 [Conversation dashboard](oc-conversation-dashboard.md)  
 [Dashboard overview](customer-service-analytics-insights-csh.md)  

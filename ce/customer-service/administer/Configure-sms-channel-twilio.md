@@ -1,17 +1,18 @@
 ---
 title: Configure an SMS channel for Twilio
 description: Learn how to configure an SMS channel for Twilio in Omnichannel for Customer Service.
-ms.date: 02/29/2024
+ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.custom: bap-template
+ms.collection:
 ---
 
 # Configure an SMS channel for Twilio
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The SMS channel through Twilio in Omnichannel for Customer Service allows your organization to connect to customers by using text messages. Your customers can send text messages through Twilio and connect with an appropriate customer service agent. Agents can view incoming SMS requests on their dashboard and respond accordingly.
 
@@ -33,13 +34,13 @@ Make sure that the following prerequisites are met:
 
 An SMS channel is enabled within Omnichannel for Customer Service by integrating with Twilio. This integration uses public APIs of Twilio for sending and receiving text messages.
 
-1. In your Twilio account, note the ACCOUNT SID and AUTH TOKEN values. These values are required to create the SMS configuration in the Omnichannel admin center app.
+1. In your Twilio account, note the ACCOUNT SID and AUTH TOKEN values. These values are required to create the SMS configuration in the Customer Service admin center app.
 
 2. Purchase support phone numbers through your Twilio account.
 
 > [!NOTE]
 >
-> - Only US phone numbers are supported.
+> - US phone numbers only are supported.
 > - To ensure that third-party SMS providers handle opt-out commands properly, you must configure your consent settings with the provider directly.  
 
 ## Set up the SMS channel for Twilio
@@ -50,33 +51,23 @@ To configure the SMS channel, complete the following tasks:
 
 ### Configure the SMS number
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the site map of Contact Center admin center or Customer Service admin center, in **Customer support**, select **Channels**.
     
-    1. In the site map, in **Customer support**, select **Channels**.
-    
-    1. In **Accounts**, for **Messaging accounts**, select **Manage**.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-
-    - In the site map, in **General settings**, select **Channels**.
+1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
 1. On the **Accounts and channels** page, select **New account**.
 
 1. Enter the following details:
    1. In **Channel details**, enter a name, and select SMS in **Channel**.
-   2. In **Account details**, select **Twilio** in **Provider**, and then enter the following details:
+   1. In **Account details**, select **Twilio** in **Provider**, and then enter the following details:
       - **Account SID:** Enter the Twilio ACCOUNT SID.
       - **Auth token:** Enter the Twilio AUTH TOKEN.
-   3. In **SMS phone numbers**, select **Add**, and enter the following details in **Add SMS number**:
+   1. In **SMS phone numbers**, select **Add**, and enter the following details in **Add SMS number**:
       - **Number:** Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
       - **Type**: Select **Long code**, **Short code**, or **Toll free**.
       - **Description**: Specify a description for the number. (Optional)
-   4. In **Callback information**, copy the callback information. The copied information is used for the Twilio account.
-   5. Select **Done**. The account is configured.
+   1. In **Callback information**, copy the callback information. The copied information is used for the Twilio account.
+   1. Select **Done**. The account is configured.
 
 ### Configure the workstream for the SMS channel
 
@@ -129,7 +120,7 @@ For an outgoing message sent by an agent from within Dynamics 365, the message i
 When you validate the SMS settings while setting up the SMS channel, a call is made to Twilio to validate the Account SID and Auth Token.
 
 
-### See also
+### Related information
 
 [Channels in Omnichannel for Customer Service](../use/channels.md)  
 [Overview of SMS channels](../use/sms-channel-overview.md)  

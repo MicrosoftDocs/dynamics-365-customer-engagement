@@ -1,11 +1,12 @@
 ---
-title: Configure components to display case associations | MicrosoftDocs 
-description: Learn about adding Customer360 and Recent Records cards to forms
+title: Configure components to display case associations
+description: Learn about adding Customer360 and Recent Records cards to forms.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 03/01/2023 
+ms.collection: 
+ms.date: 05/15/2024 
 ms.custom: bap-template 
 ---
 
@@ -68,6 +69,6 @@ Perform the following steps:
 
    :::image type="content" source="../media/edit-grid-type-assoc-mini.png" alt-text="Add an alternate grid control" lightbox="../media/edit-grid-type-assoc.png":::
 
-## See also
+## Related information
 
 [Overview of the model-driven form designer](/power-apps/maker/model-driven-apps/form-designer-overview)  

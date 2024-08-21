@@ -8,8 +8,6 @@ ms.author: nenellim
 ---
 # Send custom context during live chat
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys must correspond to context variables that are created for the associated workstream. If no context variables have been created under live workstream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by the live chat widget when a new chat is started. Because the values are case-sensitive, use exact match to pass them to the context variables. More information: [Considerations for context variables](../administer/manage-context-variables.md#considerations)
 
 > [!IMPORTANT]
@@ -56,7 +54,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 For information about how to display the context variables in Conversation summary, see [Display custom context](display-custom-context.md).
 
 
-### See also
+### Related information
 
 [setContextProvider](reference/methods/setContextProvider.md)  
 [getContextProvider](reference/methods/getContextProvider.md)  

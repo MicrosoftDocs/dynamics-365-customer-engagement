@@ -1,6 +1,6 @@
 ---
-title: "Use Microsoft Teams meetings in Customer Service | Microsoft Docs"
-description: "Learn how to use Microsoft Teams meetings integration in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
+title: Use Microsoft Teams meetings 
+description: Learn how to use Microsoft Teams meetings integration 
 ms.date: 05/26/2023
 ms.topic: article
 author: lalexms
@@ -14,7 +14,7 @@ ms.custom:
   
 ---
 
-# Use Microsoft Teams meeting integration in Customer Service (preview)
+# Use Microsoft Teams meeting integration (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
@@ -24,6 +24,10 @@ ms.custom:
 > [!INCLUDE[cc-preview-features-expect-changes](../../includes/cc-preview-features-expect-changes.md)]
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
+
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 The Teams meeting integration feature provides a unified meeting experience that helps you, as an agent, to reduce your administrative workload and increase productivity. The Dynamics 365 records are accessible while conducting a meeting over Teams, which you can refer to and have contextually relevant conversations with your customers. You can also take notes to help save time, be more productive, and leverage better data within your organization. 
 
@@ -75,7 +79,7 @@ You can create a Teams meeting while creating a meeting either from the timeline
 
 **To create a Teams meeting from the Activities page**
 
-1.	Sign in to Customer Service Hub.
+1.	Sign in to the application.
 
 1.	On the sitemap, select **Activities**.
 
@@ -119,14 +123,15 @@ The Dynamics 365 app enables you to view information of a record that is linked 
 
 #### View record details before or after a meeting
 
-Open the meeting in Teams, and then select the **Dynamics 365** tab. You can perform all actions on the linked record as you would in Dynamics 365 Customer Service.
+Open the meeting in Teams, and then select the **Dynamics 365** tab. You can perform all actions on the linked record as you would in the application.
 
 **View record details during a meeting**
 
 Select the Dynamics 365 app icon in the meeting toolbar at the upper-right area of the screen. The record details are displayed in a side panel. You can view and update information such as notes and tasks.
 
 > [!NOTE] 
-> The record side panel supports only Contact, Opportunity, Lead, Account, and Case tables. 
+> - The record side panel supports only Contact, Opportunity, Lead, Account, and Case tables. 
+> - Case records are supported in the Customer Service Hub and Customer Service workspace app only.
  
 :::image type="content" source="../media/teams-meeting-side-panel.png" alt-text="Record side panel in a Teams meeting.":::
 
@@ -243,5 +248,5 @@ Recent activities are displayed under the **Activity** section in the side panel
 You can view only appointment, email, and phone call activities that are associated with the record. To view other associated activities, go to the customer engagement app. If you want to view details of an activity, in the **Activities** section, select an activity. The activity record opens in your web browser.
 
 
-### See also
-[Configure Microsoft Teams Meeting integration in Customer Service](../administer/configure-teams-meetings.md)
+### Related information
+[Configure Microsoft Teams Meeting integration](../administer/configure-teams-meetings.md)

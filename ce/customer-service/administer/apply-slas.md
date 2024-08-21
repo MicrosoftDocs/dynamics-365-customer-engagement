@@ -61,24 +61,13 @@ While applying the SLA, the application first looks for automatically applied SL
 
 ## Set a default SLA
 
-You can apply a default SLA in the Customer Service admin center or Customer Service Hub app by performing the following steps:
+You can apply a default SLA in the Customer Service admin center app by performing the following steps:
 
 1. Go to **Service Level Agreements**.
 
-    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-     1. In the site map, select **Service terms** in **Operations**. The **Service terms** page appears.
-     2. In the **Service-level agreements (SLAs)** section, select **Manage**.
-
-    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-      
-    * In the site map, go to **Service Management** and select **Service Level Agreements** in **Service Terms**.
-
----
-
-2. Select the required SLA and then select the **Set As Default** option from the ribbon.
+1. In the site map, select **Service terms** in **Operations**. The **Service terms** page appears.
+1. In the **Service-level agreements (SLAs)** section, select **Manage**.
+1. Select the required SLA and then select the **Set As Default** option from the ribbon.
 
 ### Set an SLA as the default for a Case entity
 
@@ -102,7 +91,7 @@ The service representative who is working on a case can see the SLA details righ
 > - To track SLAs for entities other than Case, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Add a timer to forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 > - If you delete a custom field from an entity associated to an SLA, then you must also delete the custom field from the related entities of the SLA, such as SLA items and action flows.
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  
