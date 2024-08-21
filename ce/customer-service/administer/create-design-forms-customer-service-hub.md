@@ -80,7 +80,7 @@ As a customizer, you can customize these forms in a way that it is easier for th
 ## Assign form order  
  When you have multiple main, quick create, or mobile forms for an entity you can assign a form order. The form order determines which of the available forms will be shown by default. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Assign form order for forms](../../customerengagement/on-premises/customize/assign-form-order.md)  
 
-## See Also  
+## Related information  
 [Create and design forms](../../customerengagement/on-premises/customize/create-design-forms.md)   
 
 

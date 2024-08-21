@@ -109,7 +109,7 @@ For SLA KPI instances, you see the **Regarding** column as blank on Unified Inte
 
 Your administrator must configure the SLA KPI instance name through **Advanced Find**.
 
-### See also
+### Related information
 
 [Use the Main form and its components](../../customerengagement/on-premises/customize/use-main-form-and-components.md)  
 

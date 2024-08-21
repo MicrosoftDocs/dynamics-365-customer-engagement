@@ -50,7 +50,7 @@ In the application, you can:
 
 If your administrator has enabled the option to initiate voice and video calls (in preview) during the conversation, the options to use voice and video will be available on the communication panel menu.
 
-### See also
+### Related information
 
 [Configure a Microsoft Teams channel](../administer/configure-microsoft-teams.md)
 

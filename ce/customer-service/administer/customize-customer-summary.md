@@ -106,7 +106,7 @@ You can customize the timeline dropdown labels for case, account, and contact by
 > [!div class="nextstepaction"]
 > [Next topic: Customize quick view forms](customize-quick-view-form.md)
 
-### See also
+### Related information
 
 [Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize the conversation form](customize-session-form.md)  

@@ -209,7 +209,7 @@ The following out-of-the-box application tab templates are available.
 | Rich Message Preview                | Displays a rich message in the tab.            | Control |
 | Search                              | Displays the Omnichannel search page in the tab. | Control |
 
-### See also
+### Related information
 
 [Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  

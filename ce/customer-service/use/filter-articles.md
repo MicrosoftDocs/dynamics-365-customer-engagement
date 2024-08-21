@@ -92,7 +92,7 @@ However, if the **Auto-filter results** checkbox isn't selected, you can see mor
 
 ![Deselect Auto-filter results.](../media/ka-deselect-auto-filter-results.png "Deselect Auto-filter results")
 
-### See also
+### Related information
 
 [Search knowledge articles](search-knowledge-articles-csh.md)
 

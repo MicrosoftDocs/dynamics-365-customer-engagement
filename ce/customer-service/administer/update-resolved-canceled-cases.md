@@ -26,6 +26,6 @@ Perform the following steps to enable modifications to cases that are in the res
 
 1. Configure flows in Power Automate or use an API to update the case records.
 
-### See also
+### Related information
 
 [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  

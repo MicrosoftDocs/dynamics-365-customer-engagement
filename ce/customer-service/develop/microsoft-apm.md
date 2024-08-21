@@ -79,6 +79,6 @@ The following method allows you to manage the session context in Customer Servic
 | [ON_SESSION_SWITCH](../develop/reference/events/on_session_switch.md) | Invoked when the session is switched. |
 | [ON_SESSION_CLOSED](../develop/reference/events/on_session_closed.md) | Invoked when a session is closed. |
 
-### See also
+### Related information
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

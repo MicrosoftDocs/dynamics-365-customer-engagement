@@ -22,7 +22,7 @@ For Copilot Studio bots, see [Configure bot context in Copilot Studio bots](enab
 [Configure bot context in Azure bots](enable-bot-context-azure.md)  
 [Configure bot context in Copilot Studio bots](enable-bot-context-pva.md)  
 
-### See also
+### Related information
 
 [Send custom context](send-context-starting-chat.md)  
 [setContextProvider](reference/methods/setContextProvider.md)  

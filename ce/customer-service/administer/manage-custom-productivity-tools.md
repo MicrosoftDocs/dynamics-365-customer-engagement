@@ -54,6 +54,6 @@ Ensure that the following prerequisites are met:
  > - hosted in the productivity pane aren't contextually bound to the session. 
  > - don't have a mechanism to retrieve information from the session context.
 
-### See also
+### Related information
 
 [Productivity tools in Customer Service](productivity-tools.md)  

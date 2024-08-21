@@ -105,7 +105,7 @@ Copilot enforces the role-based access (RBAC) controls defined and adheres to al
 
 Copilot is not calling the public OpenAI service that powers ChatGPT. Copilot in Customer Service uses the [Microsoft Azure OpenAI Service](/azure/ai-services/openai/overview) in a Microsoft managed tenant. All data processing and retrieval occurs within Microsoft managed tenants. Additionally, customer’s data is not shared and is not fed back into public models.
 
-### See also
+### Related information
 
 [Use copilot features](../use/use-copilot-features.md)  
 [Use Copilot to generate knowledge drafts from cases](../use/use-copilot-knowledge-from-cases.md)  

@@ -284,7 +284,7 @@ Before customizing the template app, read the following information and perform 
 
     Queries are updated. This might take several minutes.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel Insights dashboard](intro-dynamics-365-omnichannel-insights-dashboard.md)  
 [View and understand Omnichannel Insights dashboards](omnichannel-insights-dashboard.md)  

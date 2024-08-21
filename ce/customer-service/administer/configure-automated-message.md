@@ -109,7 +109,7 @@ Use the following best practices when you configure automated messages for the v
 
 [Add a chat widget](add-chat-widget.md)  
 
-### See also
+### Related information
 [Channels](../use/channels.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

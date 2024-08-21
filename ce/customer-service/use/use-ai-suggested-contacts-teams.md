@@ -62,7 +62,7 @@ You can do the following:
 
 If the Teams chat is created for an active case, the participants who receive the chat message get a link to the case record for which you started the chat. The participant can select the link and open the case to view the details.
 
-### See also
+### Related information
 
 [View AI-suggested cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)  
 [Overview of Customer Service workspace](../implement/csw-overview.md)  

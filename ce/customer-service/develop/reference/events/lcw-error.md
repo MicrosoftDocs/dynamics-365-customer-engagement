@@ -24,7 +24,7 @@ window.addEventListener("lcw:error", function (errorEvent) {
 });
 ```
 
-### See also
+### Related information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:chatRetrieved](lcw-chatRetrieved.md)  
