@@ -67,7 +67,7 @@ When the call connects, you see the customer details on the conversation page. B
 ## Next steps
 [Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md)  
 
-### See also
+### Related information
 
 [Overview of the voice channel](../administer/voice-channel.md)  
 [Use trial phone numbers in the voice channel](../administer/voice-channel-trial-phone-numbers.md)

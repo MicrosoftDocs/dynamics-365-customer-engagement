@@ -414,7 +414,7 @@ This metric is a measure of the capacity units that are currently occupied.
 
 This metric is a measure of the time that an agent spent in a presence status.
 
-## See also
+## Related information
 
 [Omnichannel for Customer Service dashboards](omnichannel-analytics-insights.md#omnichannel-for-customer-service-dashboards)
 

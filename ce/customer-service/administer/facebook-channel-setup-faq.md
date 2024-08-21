@@ -39,7 +39,7 @@ If you grant roles to an existing Facebook user, make sure the user has a Meta D
 
 If you're creating a test user within the Facebook app, select to automatically install the app, and select the pages_messaging permission.​
 
-### See also
+### Related information
 
 [Configure a Facebook channel](configure-facebook-channel.md)<br>
 [Understand and create workstreams](create-workstreams.md)<br>

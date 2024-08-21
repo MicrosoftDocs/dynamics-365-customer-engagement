@@ -40,7 +40,7 @@ The personalized settings have precedence over the administrator settings. You c
 
 5. Select **Save**.
 
-### See also
+### Related information
 
 [View communication panel](oc-conversation-control.md)  
 [View notifications](oc-notifications.md) 

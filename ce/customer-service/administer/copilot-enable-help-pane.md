@@ -126,6 +126,6 @@ The following table summarizes the Copilot features supported for a configured k
 |Write an email | ✔|✔|
 |Draft a response |✔|✔|
 
-### See also
+### Related information
 
 [Use Copilot to solve customer issues](../use/use-copilot-features.md)

@@ -103,7 +103,7 @@ If you already have a subscription of Dynamics 365 Customer Service Enterprise o
 
 To view videos on Omnichannel for Customer Service, see [Videos](../use/videos.md).
 
-### See also
+### Related information
 
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
 [Configure a chat channel](../administer/set-up-chat-widget.md)  

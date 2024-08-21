@@ -104,7 +104,7 @@ You can make a service available or unavailable for scheduling by activating or 
 > [!NOTE]
 > A service can't be deactivated if there are open or scheduled service activities associated with it.
   
-### Related information 
+### Related information  
 
 [Create and manage resource categories](resource-categories-service-scheduling.md)   
 [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)

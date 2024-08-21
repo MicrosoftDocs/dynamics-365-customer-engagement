@@ -36,6 +36,6 @@ The software settings to ensure seamless integration are as follows:
 
 **Firewall and security**: [Add the URLs and IP addresses to the allowlist](system-requirements-omnichannel.md#allow-access-to-websites) to allow communication between your system and the Omnichannel servers and prevent any security-related issues during your interactions. Make sure that the firewall configuration aligns with the [guidelines](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) in Azure Communication Services.
 
-### See also
+### Related information
 
 [Network recommendations](/azure/communication-services/concepts/voice-video-calling/network-requirements)

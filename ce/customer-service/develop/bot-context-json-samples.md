@@ -125,7 +125,7 @@ This article includes some samples for parsing the activity JSON object in vario
 ```
 
 
-### See also
+### Related information
 
 [Send custom context](../develop/send-context-starting-chat.md)  
 [setContextProvider](../develop/reference/methods/setContextProvider.md)  
