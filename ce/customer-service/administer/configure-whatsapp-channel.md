@@ -29,6 +29,10 @@ You can use the WhatsApp channel feature to engage with customers who prefer to 
 
    ### [Azure Communication Services (preview)](#tab/azurecommunicationservices)
 
+    [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+
+    [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+
    - Have an Azure account with an active subscription.  Please make sure Azure subscription that's in the same tenant as your Dynamics 365 account. Learn more at [Create an account for free](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account).
    - Create or use an existing Azure Communication Services resource. Learn more at [Create and manage Communication Services resources](/azure/communication-services/quickstarts/create-communication-resource).
     - Obtain a phone number that can send and receive SMS. The following are supported:
@@ -71,6 +75,8 @@ Based on the messaging infrastructure you have configured, follow the appropriat
 
    ### [Azure Communication Services (preview)](#tab/azurecommunicationservices)
 
+   [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+
    Copy the following information from the [Azure portal](https://ms.portal.azure.com/). You will need these details to configure the WhatsApp channel through Customer Service admin center.
    
    1. Go to **Resource groups** and select the required resource group. 
@@ -102,6 +108,8 @@ Based on the messaging infrastructure you have configured, follow the appropriat
 
    ### [Azure Communication Services (preview)](#tab/azurecommunicationservices)
 
+   [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+ 
     You must specify the information you've copied from in [Fetch Azure Communication Services details](#azure-communication-services-1).
     
      1. In the **Channel settings** page, specify the following. 
