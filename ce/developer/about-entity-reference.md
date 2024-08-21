@@ -66,9 +66,9 @@ For each one-to-many relationship, the following properties are included:
 |`ReferencingAttribute`|The logical name of the column in the related table that contains a reference to primary key of the primary table.|
 |`IsHierarchical`|Whether the relationship represents a self-referential hierarchical relationship|
 |`IsCustomizable`|Whether the properties of the relationship can be changed.|
-|`ReferencedEntityNavigationPropertyName`|The name of the Web API collection-valued navigation property for this relationship.<br />More information: [Web API Navigation Properties](../webapi/web-api-navigation-properties.md)|
+|`ReferencedEntityNavigationPropertyName`|The name of the Web API collection-valued navigation property for this relationship.<br />More information: [Web API Navigation Properties](/power-apps/developer/data-platform/webapi/web-api-navigation-properties)|
 |`AssociatedMenuConfiguration`|Data used by model-driven apps to control whether and how the related entity data can be accessed in the UI from the primary entity.|
-|`CascadeConfiguration`|Data that describes which operations performed on the parent entity will cascade down to related entities.<br />More information: [Cascade configuration](../entity-relationship-metadata.md#cascade-configuration)|
+|`CascadeConfiguration`|Data that describes which operations performed on the parent entity will cascade down to related entities.<br />More information: [Cascade configuration](/power-apps/developer/data-platform/entity-relationship-metadata#cascade-configuration)|
 
 
 ### Many-to-many relationships
@@ -82,7 +82,7 @@ For each many-to-many relationship the following properties are included:
 |`IntersectEntityName`|The logical name of the intersect table that supports this many-to-many relationship|
 |`Entity1LogicalName`|The logical name for the first table in the relationship.|
 |`Entity1IntersectAttribute`|The logical name of the intersect table column that includes a reference to the primary key of the first table.|
-|`Entity1NavigationPropertyName`|The name of the Web API collection-valued navigation property for this relationship.<br />More information: [Web API Navigation Properties](../webapi/web-api-navigation-properties.md)|
+|`Entity1NavigationPropertyName`|The name of the Web API collection-valued navigation property for this relationship.<br />More information: [Web API Navigation Properties](/power-apps/developer/data-platform/webapi/web-api-navigation-properties)|
 |`Entity1AssociatedMenuConfiguration`|Data used by model-driven apps to control whether and how the first table data can be accessed in the UI from the second table.|
 |`Entity2LogicalName`|The logical name for the second table in the relationship.|
 |`Entity2IntersectAttribute`|The logical name of the intersect table column that includes a reference to the primary key of the second table.|
