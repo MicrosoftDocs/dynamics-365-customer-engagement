@@ -18,7 +18,7 @@ ms.custom:
 
 Security roles help identify the privileges a user can exercise in the system. Security roles also define which entities a user can view or configure. For example, a user may have permission to see accounts but can't see specific fields of an account.
 
-Service scheduling leverage the following standard security roles:
+Service scheduling leverages the following standard security roles:
   
 - **Scheduler Manager**: This role can set up the service scheduling experience. This role can access and set up all service scheduling entities in the system:
 
