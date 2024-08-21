@@ -28,7 +28,7 @@ This article provides information on how to edit settings of the Dynamics 365 ap
 
 2.  Select **Action Commands** (**…**) in the upper-right corner, and then select **Settings**.
 
-    ![Access app settings](media/me-settings-menu.png "Access app settings")
+    :::image type="content" source="media/me-settings-menu.png" alt-text="Screenshot of accessing app settings.":::
 
 3.  In the **Settings** window, select the following information:
 
@@ -36,7 +36,7 @@ This article provides information on how to edit settings of the Dynamics 365 ap
 
     - **Dynamics 365 app**: App that you want to share records from.
 
-    ![Edit app settings](media/me-edit-settings.png "Edit app settings")
+    :::image type="content" source="media/me-edit-settings.png" alt-text="Screenshot of editing app settings.":::
 
 4.  Select **Save**.
 
