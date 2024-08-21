@@ -53,7 +53,7 @@ You can create a service in the Customer Service admin center or Customer Servic
   
 3. In the **General** section, enter a **Name** and **Description** to reflect the specifics of the service and describe what the service is. </br>
 
-   Also, specify the initial status of the service activity when it's created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.
+   Also, specify the initial status of the service activity when you create it. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.
 
    > [!NOTE]
    > The status reason also reflects in the schedule board when you create a booking for the service.
@@ -86,7 +86,7 @@ You can create a service in the Customer Service admin center or Customer Servic
 
    - Select whether the service is **Part of Same** organizational unit, resource tree, or location.
   
-   - Select the **Organizational Unit** to define the unit to which the selected resource should belong to.
+   - Select the **Organizational Unit** to define the unit that the selected resource should belong to.
    - Select **Resource Categories**  and select **Resource Characteristics** to define the categories for the resource.
    - Select **Preferred Resource** to display resource options. When you select only preferred resources on a requirement, any one of the available resources from the list of preferred resources are selected as per the time slot. When you select preferred resources along with the resource category on a requirement, any one of the available resources from the list of preferred resource that belongs to the resource category are selected as per the time slot.
    - Select **Sort Option** to sort according to most and least business impact.
