@@ -1,6 +1,6 @@
 ---
 title: Manage security roles in Service Scheduling
-description: This topic provides information on how to manage security roles in service scheduling in Dynamics 365 Customer Service.
+description: Learn how to manage security roles in service scheduling in Dynamics 365 Customer Service.
 ms.date: 08/20/2024
 ms.topic: article
 author: Soumyasd27
@@ -16,7 +16,7 @@ ms.custom:
 
 # Manage security roles in service scheduling
 
-Security roles help identify the privileges a user can exercise in the system. Security roles also define which entities a user can view or configure. For example, a user may have permission to see accounts but can't see specific fields of an account.
+Security roles help identify the privileges a user can exercise in the system. Security roles also define which entities a user can view or configure. For example, a user might have permission to see accounts but can't see specific fields of an account.
 
 Service scheduling uses the following standard security roles:
   
