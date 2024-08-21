@@ -18,9 +18,9 @@ ms.custom:
 
 To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you provide to customers. By using the service records in Dynamics 365 Customer Service, you can define:  
   
--   How long a service activity would last.
+-   The length of time a service activity lasts.
   
--   What resources are needed for the service activity, like resources, facilities, or equipment.
+-   The resources needed for the service activity, like facilities or equipment.
   
 > [!NOTE]
 > A service requires at least one selection criteria and one or more resources or resource groups before the service can be scheduled with a service activity.
@@ -75,7 +75,7 @@ You can create a service in the Customer Service admin center or Customer Servic
         > [!NOTE]
         > The maximum duration of a service activity is 10 days.
 
-     - Look up or quick create a **Fulfillment Preference** to define the start and end times of the service availability in a day, as well as the provided intervals. You can also select from a list of fulfillment preferences displayed. 
+     - Look up or quick create a **Fulfillment Preference** to define the start and end times of the service availability in a day, and the provided intervals. You can also select from a list of fulfillment preferences displayed. 
         > [!NOTE]
         > When you select create, a **Quick Create** form is displayed where you can quickly create a new fulfillment preference.
 
@@ -88,7 +88,7 @@ You can create a service in the Customer Service admin center or Customer Servic
   
    - Select the **Organizational Unit** to define the unit to which the selected resource should belong to.
    - Select **Resource Categories**  and select **Resource Characteristics** to define the categories for the resource.
-   - Select **Preferred Resource** to display resource options. When only preferred resources are selected on a requirement, any one of the available resources from the list of preferred resources are selected as per the time slot. When preferred resources are selected along with the resource category on a requirement, any one of the available resources from the list of preferred resource and which belongs to the resource category are selected as per the time slot.
+   - Select **Preferred Resource** to display resource options. When you select only preferred resources on a requirement, any one of the available resources from the list of preferred resources are selected as per the time slot. When you select preferred resources along with the resource category on a requirement, any one of the available resources from the list of preferred resource that belongs to the resource category are selected as per the time slot.
    - Select **Sort Option** to sort according to most and least business impact.
    - Provide **Effort Required**. When you book resources, this option helps you view all the resources that satisfy the minimum effort requirement. For example, if the effort required is defined as 100, only the resources with the capacity value of 100 and more are displayed in the list while booking the service in the schedule board.
 
@@ -99,7 +99,7 @@ You can create a service in the Customer Service admin center or Customer Servic
 7.  When you’re ready to save your data, select **Save**.  
   
 ## Activate or deactivate a service  
- You can make a service available or unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, and then select **Activate** or **Deactivate** in the command bar.  
+You can make a service available or unavailable for scheduling by activating or deactivating it. In the list of service records, select a service, and then select **Activate** or **Deactivate** in the command bar.  
 
 > [!NOTE]
 > A service can't be deactivated if there are open or scheduled service activities associated with it.
