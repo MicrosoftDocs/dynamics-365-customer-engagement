@@ -78,7 +78,7 @@ The **Metrics** tab of the Conversation Form displays the following details:
 
 The **Sessions** tab displays details about the number of voice calls between the agent and the customer, and the duration, date, and time of the conversation.
 
-### See also
+### Related information
 
 [Agent experience of voice calls and agent dashboard](voice-channel-agent-experience.md)  
 [Call a customer](voice-channel-call-customer.md)  

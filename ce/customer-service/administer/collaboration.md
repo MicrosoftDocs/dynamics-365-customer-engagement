@@ -36,7 +36,7 @@ Customer support swarming helps agents more quickly resolve issues by bringing t
 
 Agents can share the record of the chat conversation and let participants view it without navigating away from Teams. They can share any Dynamics 365 record on Teams channels and chat conversations, and share records using search in the app. More information: [Share Dynamics 365 records within Microsoft Teams conversations](/dynamics365/sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context)
 
-### See also
+### Related information
 [Configure Teams chat](configure-teams-chat.md)<br>
 [Use Teams chat](../use/use-teams-chat.md)<br>
 [Configure customer support swarming](configure-customer-support-swarming.md)<br>

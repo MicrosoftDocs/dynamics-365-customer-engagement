@@ -794,7 +794,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
 
-### See also
+### Related information
 
 [About the Entity Reference](../../../../customerengagement/on-premises/developer/about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement (on-premises)](../../../../customerengagement/on-premises/developer/programming-reference.md)<br />

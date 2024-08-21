@@ -136,7 +136,7 @@ The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageRe
 
 ![translateMessage error message.](../../../media/translatemessage-api-error.png "translateMessage error message")
 
-### See also
+### Related information
 
 [Add a web resource for real-time translation](../../../develop/add-web-resource-real-time-translation.md)
 

@@ -94,7 +94,7 @@ You can also update or delete records using the [updateRecord](/power-apps/devel
 > [!IMPORTANT]
 > We recommend that you add the contact and preferred agent routing through the Preferred agent routing page.
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure queues](queues-omnichannel.md)  

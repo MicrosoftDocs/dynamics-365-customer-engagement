@@ -75,7 +75,7 @@ Administrators can configure the number of records that are listed in the resour
   
    ![Record display.](../media/records-display.png "Records displayed")
     
-### See also  
+### Related information  
 
 [Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 

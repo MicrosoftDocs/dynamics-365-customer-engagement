@@ -160,7 +160,7 @@ Download the [Customer Service workspace in a day training](https://go.microsoft
 
 [Migrate from Unified Service Desk to Customer Service workspace](../../unified-service-desk/admin/migrate-to-csw.md). The Unified Service Desk to Customer Service workspace Migration Playbook helps you plan and execute the transition from Unified Service Desk to Customer Service workspace.
 
-### See also
+### Related information
 
 [Work with cases in Customer Service Hub](../use/customer-service-hub-user-guide-create-a-case.md)  
 [Overview of the productivity pane](../use/csw-productivity-pane.md)  

@@ -58,7 +58,7 @@ The **Omnichannel Ongoing Conversations** dashboard is available in:
     > [!div class=mx-imgBorder]
     > ![Omnichannel Ongoing Conversations dashboard.](../media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard")
 
-### See also
+### Related information
 
 [Provide access to Ongoing Conversations dashboard](../administer/configure-ongoing-conversations-dashbaord.md)  
 [Introduction to intraday insights dashboard](../implement/intraday-insights-dashboard.md)  

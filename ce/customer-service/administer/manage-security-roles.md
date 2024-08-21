@@ -56,10 +56,7 @@ Each role in the scheduling experience is expected to perform a set of actions. 
 |    | Can access Schedule Board         |
 |    |   Can create and access Facilities and Equipment      |
 
-
-
-
-### Related information
+### Related information  
 
 [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role)
 

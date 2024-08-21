@@ -90,7 +90,7 @@ Developers can perform customization to ensure that:
 
 For detailed instructions on customization, see [Sample - ARC Multi-Related - Remove Unreferenced Queue](sample-arc-multiple-cases.md#sample---arc-multi-related---remove-unreferenced-queue).
 
-## See also
+## Related information
 
 [Create multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#create-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
 

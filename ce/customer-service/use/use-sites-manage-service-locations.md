@@ -43,7 +43,7 @@ Create sites to define the locations where you provide service to your customers
 
 
   
-### See also  
+### Related information  
 [Create or edit a service (Customer Service app)](../administer/create-edit-service-cs-app.md)  </br>
 
 [Schedule a service activity (Customer Service app)](schedule-service-activity-cs-app.md)

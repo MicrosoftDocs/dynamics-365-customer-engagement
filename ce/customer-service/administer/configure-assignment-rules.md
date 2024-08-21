@@ -113,7 +113,7 @@ Follow these steps to configure the selection criteria for the assignment rulese
 
 4. Define as many rules as the number of assignment rulesets.
 
-### See also
+### Related information
 
 [Create workstreams](create-workstreams.md)  
 [Create queues](queues-omnichannel.md)  

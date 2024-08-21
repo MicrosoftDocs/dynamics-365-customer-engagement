@@ -102,7 +102,7 @@ If agents should see the customer details in an app side pane when they open an 
 
    :::image type="content" source="../media/recent-record-control.png" alt-text="sample image of the recent cases card":::
 
-### See also
+### Related information
 
 [Create, edit, or configure forms using the model-driven form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms)  
 

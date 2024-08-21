@@ -64,6 +64,7 @@ Similarly, you can create a new requirement resource category for requirements.
 
 3. Add a resource to this resource category by selecting a resource in the **Resource** box. You can either look up an existing resource or create a new one.
 
+
 ### Related information
 
 [Service Scheduling overview](basics-service-service-scheduling.md)

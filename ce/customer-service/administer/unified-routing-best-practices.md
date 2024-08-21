@@ -102,7 +102,7 @@ Skill-based routing helps reduce the number of queues to be managed in your orga
 [Overview of unified routing](overview-unified-routing.md)  
 [FAQ about unified routing](unified-routing-faqs.md)  
 
-### See also
+### Related information
 
 [Provision unified routing](provision-unified-routing.md)  
 [Set up skill-based routing](set-up-skill-based-routing.md)  

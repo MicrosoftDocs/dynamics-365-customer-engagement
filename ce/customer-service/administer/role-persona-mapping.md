@@ -154,7 +154,7 @@ To enable access to a form or dashboard, perform the following steps:
 
 6. Select the role that you want to provide access to, and select **OK**.
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Manage users for unified routing](users-user-profiles.md)  
