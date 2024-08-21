@@ -13940,11 +13940,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/developer/about-entity-reference.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/about-entity-reference",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/developer/access-web-resources.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/developer/access-web-resources",
       "redirect_document_id": "false"
