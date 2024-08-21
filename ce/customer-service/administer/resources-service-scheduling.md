@@ -75,7 +75,7 @@ You can create a new bookable resource in the Customer Service admin center app 
 
 4. In the **Scheduling** section:
 
-    - Select the **Start Location** and the **End Location** to specify which location the resource will be at, when starting and ending work.
+    - Select the **Start Location** and the **End Location** to specify which location the resource is at when starting and ending work.
     - Select an **Organizational Unit** for the resource. 
 
       > [!NOTE]
@@ -90,7 +90,7 @@ You can create a new bookable resource in the Customer Service admin center app 
 
 ## Set work hours for the resources
 
-You can set work hours for the bookable resources where you can define when the resources will be available to be booked for services in the Customer Service admin center or Customer Service Hub app.
+You can set work hours for the bookable resources where you can define when the resources are available to be booked for services in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
@@ -163,7 +163,7 @@ You can set work hours for the bookable resources where you can define when the 
   
 8. Select the work hours link for the schedule you want to modify.  
   
-     If work hours haven't been set previously, the link is displayed as "Set Work Hours."  
+     If work hours weren't set previously, the link is displayed as "Set Work Hours."  
   
 9. In the **Set Work Hours and Service Restrictions** dialog, complete the following fields, and then select **OK**:  
   
@@ -186,7 +186,7 @@ You can set work hours for the bookable resources where you can define when the 
     ![set-work-hours.](../media/set-work-hours-csh-1a.png) 
 
 > [!NOTE]
-> To define a time when a service won’t be available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog, select the service, and select the start and end time between which the service will be unavailable, and then select **OK**.  
+> To define a time when a service won’t be available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog, select the service, select the start and end time between which the service is unavailable, and then select **OK**.  
 
 ### Related information
 
