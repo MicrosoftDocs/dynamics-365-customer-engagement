@@ -57,7 +57,7 @@ If you want to change the booking settings for entities you enabled for scheduli
    
 1. In the **Attribute Mapping** section, select values on the target entity that match with the requirement fields.
 
-1. Save your changes. You entity is successfully enabled for scheduling when:
+1. Save your changes. Your entity is successfully enabled for scheduling when:
    - **Resource Requirements** shows as a related entity. Create them manually or with a custom workflow.
    - The **Book** option appears on the entity record.
 
