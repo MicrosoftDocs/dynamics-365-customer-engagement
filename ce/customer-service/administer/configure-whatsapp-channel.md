@@ -14,13 +14,13 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
 You can use the WhatsApp channel feature to engage with customers who prefer to communicate using WhatsApp. You can configure the WhatsApp channel through:
 
- - Azure Communication Services (preview)
+ - [Azure Communication Services (preview)](/azure/communication-services/)
  - Twilio 
 
-The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
 ## Prerequisites
 
@@ -29,14 +29,13 @@ The success of social media customer service, like all other customer service, d
 
    ### [Azure Communication Services (preview)](#tab/azurecommunicationservices)
 
-   - Have an Azure subscription that's in the same tenant as your Dynamics 365 account.
-   - 	Obtain a phone number. The following are supported:
-       - A new Azure Communication Services [phone number](/azure/communication-services/quickstarts/telephony/get-phone-number)
-       - [import phone numbers](voice-channel-sync-from-acs.md)
-       - [connect your existing telephony infrastructure](voice-channel-bring-your-own-number.md)
-
+   - Have an Azure account with an active subscription.  Please make sure Azure subscription that's in the same tenant as your Dynamics 365 account. Learn more at [Create an account for free](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account).
    - Create or use an existing Azure Communication Services resource. Learn more at [Create and manage Communication Services resources](/azure/communication-services/quickstarts/create-communication-resource).
-   - [Advanced Messaging for WhatsApp](/azure/communication-services/concepts/advanced-messaging/whatsapp/whatsapp-overview) is setup in Azure Communication Services.
+    - Obtain a phone number that can send and receive SMS. The following are supported:
+       - Purchase a [phone number](/azure/communication-services/quickstarts/telephony/get-phone-number) or [import phone numbers](voice-channel-sync-from-acs.md)
+       - [Bring your own phone number from existing providers](voice-channel-bring-your-own-number.md) or migrate your existing WhatsApp business accounts with phone number.
+   - [Advanced Messaging for WhatsApp](/azure/communication-services/concepts/advanced-messaging/whatsapp/whatsapp-overview) is setup in Azure Communication Services. Perform the steps in [register WhatsApp business account](/azure/communication-services/quickstarts/advanced-messaging/whatsapp/connect-whatsapp-business-account).
+   - Configure [Event Grid](/azure/communication-services/quickstarts/advanced-messaging/whatsapp/handle-advanced-messaging-events) with Microsoft Entra app authentication. Learn more at [Secure WebHook delivery with Microsoft Entra ID in Azure Event Grid - Azure Event Grid](/azure/event-grid/secure-webhook-delivery).
 
    ### [Twilio](#tab/twilio)
     
@@ -66,7 +65,7 @@ The success of social media customer service, like all other customer service, d
 3. Create routing rules
 4. Modify settings for a specific WhatsApp phone number
 
-## Fetch Twilio account Azure Communication Services details
+## Fetch Twilio account or Azure Communication Services details
 
 Based on the messaging infrastructure you have configured, follow the appropriate steps to fetch the required details.
 
@@ -109,7 +108,7 @@ Based on the messaging infrastructure you have configured, follow the appropriat
          - **ACS resource name**: The **Name** of the resource.
          - **ACS connection string**: The **Connection string** corresponding to the resource.
          - **Event grid app ID**: **AAD Tenant ID**.
-         - **Event grid app tenant ID**:  **AAD Application ID or URI**.
+         - **Event grid app tenant ID**:  **Microsoft Entra Application  or URI**.
          - Select the check box to confirm that the Azure Communication Services resource is connected only to one organization.
      1. In the **WhatsApp channel ID**, select **Add**, and on the page that appears, enter the following information:
          - **Name**: Specify a name.
