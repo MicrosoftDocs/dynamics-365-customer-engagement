@@ -1,7 +1,7 @@
 ---
 title: Enable and configure Sales Insights
 description: Learn how to enable and configure Sales Insights capabilities in your organization.
-ms.date: 06/29/2023
+ms.date: 08/22/2024
 ms.collection: get-started
 ms.topic: article
 author: udaykirang
@@ -70,9 +70,9 @@ Before you can configure these features, you must accept the privacy notice. To 
 
    :::image type="content" source="media/si-admin-change-area-sales-insights-settings.png" alt-text="Select Sales Insights settings"::: 
  
-4. In the **Terms of service** section, select **I agree**.
+3. In the **Terms of service** section, select **I agree**.
 
-    The standard Sales Insights features are enabled for your organization and you can configure features such as the standard assistant, auto capture (standard), and email engagement (standard).
+    The standard Sales Insights features are enabled for your organization and you can configure features such as the Sales accelerator setup, Assistant (standard), Auto capture (standard), and Email engagement (standard).
 
     :::image type="content" source="media/si-admin-free-features-enabled.svg" alt-text="Standard Sales Insights features enabled":::
 
