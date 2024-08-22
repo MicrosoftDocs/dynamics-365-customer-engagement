@@ -141,7 +141,7 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
     > [!div class=mx-imgBorder]
     > ![Unread message count.](../media/unread-message.png "Session icon")
 
-### See also
+### Related information
 
 - [Manage applications](oc-manage-applications.md)
 - [Understand conversation states](oc-conversation-state.md)

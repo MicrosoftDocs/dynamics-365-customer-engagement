@@ -72,7 +72,7 @@ Categories are useful for reporting, sorting, segmenting, and categorization of 
 > [!NOTE]
 > The **Categories lookup view** in the advanced settings of Dynamics 365 isn't customizable.
 
-### See also
+### Related information
 
 [Use the Category entity to categorize records](../../customerengagement/on-premises/developer/use-category-entity-categorize-dynamics-365-records.md)
 

@@ -58,7 +58,7 @@ Customers can choose to download and email a copy of their chat transcript conve
     > ![Chat transcript prompt.](../media/oc-chat-transcript-prompt-screen.png "Chat transcript prompt")
 
 
-### See also
+### Related information
 
 [Add a chat widget](add-chat-widget.md)<br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>

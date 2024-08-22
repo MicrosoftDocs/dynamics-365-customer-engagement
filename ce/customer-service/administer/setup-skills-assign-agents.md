@@ -205,7 +205,7 @@ Add the agents as a bookable resource so that you can assign skills to them. Thi
 
 Alternatively, you can also add a skill to the user (agent). More information: [Manage users](users-user-profiles.md).
 
-### See also
+### Related information
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Manage users](users-user-profiles.md)  

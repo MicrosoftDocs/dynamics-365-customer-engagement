@@ -149,7 +149,7 @@ You can export the report data by selecting **Export** on the command bar.
 
 :::image type="content" source="../media/forecast-export-data.png" alt-text="View of the Forecast report Export data menu item.":::
 
-### See also
+### Related information
 
 [Configure case forecasting](../administer/configure-volume-forecasting.md)  
 [Configure agent forecasting for conversation](../administer/configure-agent-forecasting-conversation.md)  

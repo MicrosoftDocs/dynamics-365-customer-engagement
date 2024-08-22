@@ -47,7 +47,7 @@ As a supervisor, you see the following tabs when you open the Omnichannel for Cu
 
 To view more videos on Omnichannel for Customer Service, see [Videos](../use/videos.md).
 
-### See also
+### Related information
 
 [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md)  
 [View and understand Omnichannel intraday insights dashboard](intraday-insights-dashboard.md)  

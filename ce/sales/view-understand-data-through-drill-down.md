@@ -87,7 +87,7 @@ More information: [View and manage underlying opportunities](view-and-manage-und
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-## See also
+## Related information
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 [Configure and manage drill-down entities](configure-manage-drill-downs.md)   

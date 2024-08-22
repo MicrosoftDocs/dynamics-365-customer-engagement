@@ -105,7 +105,7 @@ The **Chat session** script has the following steps
 
 Similarly, the administrator can create more agent scripts as per your business scenarios. To learn how to configure agent scripts, see [Guide agents with scripts](../administer/agent-scripts.md).
 
-### See also
+### Related information
 
 [Guide agents with scripts](../administer/agent-scripts.md)  
 

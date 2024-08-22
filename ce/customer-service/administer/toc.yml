@@ -522,8 +522,6 @@
           href: configure-apple-messages-for-business-channel.md
         - name: Configure a Facebook channel
           href: configure-facebook-channel.md
-        - name: Configure Google's Business Messages channel
-          href: configure-google-business-messages-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
         - name: Configure a WhatsApp channel

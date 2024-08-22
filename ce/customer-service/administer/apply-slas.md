@@ -91,7 +91,7 @@ The service representative who is working on a case can see the SLA details righ
 > - To track SLAs for entities other than Case, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Add a timer to forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 > - If you delete a custom field from an entity associated to an SLA, then you must also delete the custom field from the related entities of the SLA, such as SLA items and action flows.
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  

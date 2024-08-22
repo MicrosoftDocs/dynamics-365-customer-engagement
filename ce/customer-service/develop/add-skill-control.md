@@ -23,6 +23,7 @@ Dynamics 365 provides a custom control that you can embed in your forms to view 
 - To make sure that the skill control is loaded and displayed for the routed records, you must [allow access to these websites](../implement/system-requirements-omnichannel.md#allow-access-to-websites).
 - [Omnichannel for Customer Service is provisioned](../implement/omnichannel-provision-license.md).
 - [Unified routing is enabled](../administer/provision-unified-routing.md).
+- For the skills to appear in the skill control, you must [set up unified routing](../administer/set-up-routing-process.md).
 
 ## Add a skill control
 
@@ -78,7 +79,7 @@ Though we don't recommend setting up parameters for the skill control, if you wa
 	</entity>
 </fetch>
 ```
-### See also
+### Related information
 
 [Overview of unified routing](../administer/overview-unified-routing.md)  
 [Set up record routing](../administer/set-up-record-routing.md)  

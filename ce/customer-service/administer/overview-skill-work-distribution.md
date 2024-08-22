@@ -50,7 +50,7 @@ If your environment has scheduling solutions, then you must have version 9.0.0.0
 
 To view more videos on Omnichannel for Customer Service, see [Videos](../use/videos.md).
 
-### See also
+### Related information
 
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
 [Set up skill-based routing](set-up-skill-based-routing.md)  

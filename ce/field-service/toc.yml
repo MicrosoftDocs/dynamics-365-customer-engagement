@@ -71,7 +71,11 @@ items:
     - name: Work order types
       href: create-work-order-types.md
     - name: Work order templates (incident types)
-      href: configure-incident-types.md
+      items:
+        - name: Incident type overview
+          href: incident-type-overview.md
+        - name: Create incident types
+          href: configure-incident-types.md
     - name: Service task types
       href: set-up-service-task-types.md
     - name: Agreement sub-statuses
@@ -97,18 +101,26 @@ items:
 
 - name: Copilot in Field Service
   items:
-    - name: Copilot side pane
-      href: copilot-side-pane.md
-    - name: Work order recap with Copilot
-      href: work-order-recap.md
-    - name: Work order update
-      href: work-order-update.md
-    - name: Work order creation in Outlook with Copilot
-      href: flw-outlook.md#create-a-work-order-with-copilot
-    - name: Draft email response with Copilot
-      href: flw-outlook.md#draft-an-email-response-with-copilot
-    - name: Microsoft Copilot for Field Service work orders
-      href: flw-m365-chat.md
+    - name: Use Copilot in the web app
+      items:
+        - name: Side pane chat
+          href: copilot-side-pane.md
+        - name: Work order summary
+          href: work-order-recap.md
+    - name: Use Copilot in the mobile app
+      items:
+        - name: Work order summary
+          href: work-order-recap.md
+        - name: Work order update
+          href: work-order-update.md
+    - name: Use Copilot in the Microsoft 365 integration
+      items:
+        - name: Work order creation in Outlook
+          href: flw-outlook.md#create-a-work-order-with-copilot
+        - name: Draft email response in Outlook
+          href: flw-outlook.md#draft-an-email-response-with-copilot
+        - name: Chat with Microsoft Copilot for Field Service
+          href: flw-m365-chat.md
 
 - name: Work orders
   items:
@@ -127,6 +139,8 @@ items:
 
 - name: Inspections
   items:
+    - name: Inspections overview
+      href: inspections-overview.md
     - name: Create and view inspections
       href: inspections.md
     - name: Advanced inspection options
@@ -366,7 +380,9 @@ items:
 
 - name: Agreements and preventive maintenance
   items:
-    - name: Agreements
+    - name: Agreements overview
+      href: agreements-overview.md
+    - name: Set up agreements
       href: set-up-customer-agreements.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
@@ -596,7 +612,7 @@ items:
       href: faqs-wo-flw-copilot.md
     - name: FAQ about Outlook draft email responses
       href: faqs-flm-copilot-email.md
-    - name: FAQ about work order recap
+    - name: FAQ about work order summary
       href: faqs-work-order-recap.md
     - name: FAQ about work order update
       href: faqs-work-order-update.md

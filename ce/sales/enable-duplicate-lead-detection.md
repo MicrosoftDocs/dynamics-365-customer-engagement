@@ -112,7 +112,7 @@ More information: [Security roles and privileges](/power-platform/admin/security
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable duplicate lead detection for custom forms](enable-duplicate-detection-custom-forms.md)   
 [Manage duplicate leads](manage-duplicate-leads.md)  

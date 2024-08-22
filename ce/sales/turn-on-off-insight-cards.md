@@ -56,7 +56,7 @@ Alternatively, you can select the **More options** icon on the card, and then se
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Use the assistant to guide customer communications](use-assistant-guide-customer-communications.md)  
 [Insight cards reference](action-cards-reference.md)

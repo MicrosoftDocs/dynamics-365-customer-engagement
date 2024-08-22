@@ -39,7 +39,7 @@ Scheduling in Customer Service Hub is a customer-driven update. You need to avai
 
 For steps on how to install Core Service Scheduling from the Power Platform admin center, see [Install Service Scheduling from Power Platform](install-service-scheduling-from-power-platform.md).
 
-### See also
+### Related information
 
 [Overview of service scheduling](basics-service-service-scheduling.md)
 

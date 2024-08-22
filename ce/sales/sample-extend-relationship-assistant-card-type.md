@@ -340,7 +340,7 @@ To learn more on how to enable cards, see [Turn on or off insights cards](edit-i
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create custom cards in Assistant](extend-relationship-assistant-card.md)
 

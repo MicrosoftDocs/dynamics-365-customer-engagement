@@ -233,7 +233,7 @@ To add the wait time step:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and activate a sequence](create-and-activate-a-sequence.md)      
 [Add condition steps to sequences](adaptive-sequence.md)    

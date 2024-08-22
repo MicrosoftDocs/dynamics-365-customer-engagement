@@ -1844,7 +1844,7 @@ See the [account_OrderCloses](account.md#BKMK_account_OrderCloses) one-to-many r
 
 See the [SalesOrder_OrderClose](salesorder.md#BKMK_SalesOrder_OrderClose) one-to-many relationship for the [salesorder](salesorder.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

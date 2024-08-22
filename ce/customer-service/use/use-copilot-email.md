@@ -105,7 +105,7 @@ To return to the prompts, select **Start over** at the bottom of the Copilot pan
 
 [Use Copilot to solve customer issues](use-copilot-features.md)
 
-### See also
+### Related information
 
 [Enable Copilot to draft emails](../administer/copilot-email-enable.md)
 [FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md) 
