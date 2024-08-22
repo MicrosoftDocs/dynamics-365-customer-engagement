@@ -12,11 +12,11 @@ search.app:
 
 # Enable self-scheduling service appointments in Dynamics 365 Field Service (preview)
 
-[!INCLUDE [public-preview-banner](includes/public-preview-banner.md)]
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 This article discusses the main scenarios for users of the self-scheduling portal.
 
-[!INCLUDE [public-preview-note](includes/public-preview-note.md)]
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 ## Access and view the home page
 
