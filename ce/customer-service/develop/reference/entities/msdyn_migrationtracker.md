@@ -15,7 +15,7 @@ search.audienceType:
 Entity that tracks the migration process of legacy to modern SLA/ARC items
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Migration tracker (msdyn_migrationtracker) table extends the [Microsoft Dynamics 365 Migration tracker (msdyn_migrationtracker) table](/dynamics365/developer/entities//msdyn_migrationtracker).
+> The Microsoft Dynamics 365 Customer Service Migration tracker (msdyn_migrationtracker) table extends the [Microsoft Dynamics 365 Migration tracker (msdyn_migrationtracker) table](/dynamics365/developer/entities/msdyn_migrationtracker).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_statecode"></a> statecode
 
-Changes from [statecode (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_migrationtracker#BKMK_statecode)
+Changes from [statecode (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_migrationtracker#BKMK_statecode)
 
 |Property|Value|
 |---|---|

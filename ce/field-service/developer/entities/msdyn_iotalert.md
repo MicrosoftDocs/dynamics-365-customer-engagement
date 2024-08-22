@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service IoT Alert (msdyn_iotalert) table extends the [Microsoft Dynamics 365 IoT Alert (msdyn_iotalert) table](/dynamics365/developer/entities//msdyn_iotalert).
+> The Microsoft Dynamics 365 Field Service IoT Alert (msdyn_iotalert) table extends the [Microsoft Dynamics 365 IoT Alert (msdyn_iotalert) table](/dynamics365/developer/entities/msdyn_iotalert).
 
 
 
@@ -59,7 +59,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_statuscode"></a> statuscode
 
-Changes from [statuscode (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_iotalert#BKMK_statuscode)
+Changes from [statuscode (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_iotalert#BKMK_statuscode)
 
 #### statuscode Choices/Options
 

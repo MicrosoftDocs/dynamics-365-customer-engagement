@@ -15,7 +15,7 @@ search.audienceType:
 Line item in an invoice containing detailed billing information for a product.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Invoice Product (InvoiceDetail) table extends the [Microsoft Dynamics 365 Invoice Product (InvoiceDetail) table](/dynamics365/developer/entities//invoicedetail).
+> The Microsoft Dynamics 365 Field Service Invoice Product (InvoiceDetail) table extends the [Microsoft Dynamics 365 Invoice Product (InvoiceDetail) table](/dynamics365/developer/entities/invoicedetail).
 
 
 
@@ -171,6 +171,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_msdyn_workorderproduct_invoicedetail](#BKMK_msdyn_msdyn_workorderproduct_invoicedetail)
 - [msdyn_msdyn_workorderservice_invoicedetail](#BKMK_msdyn_msdyn_workorderservice_invoicedetail)
 - [msdyn_transactioncurrency_invoicedetail_Currency](#BKMK_msdyn_transactioncurrency_invoicedetail_Currency)
+- [transactioncurrency_invoicedetail](#BKMK_transactioncurrency_invoicedetail)
 
 ### <a name="BKMK_msdyn_msdyn_agreement_invoicedetail_Agreement"></a> msdyn_msdyn_agreement_invoicedetail_Agreement
 
@@ -262,6 +263,19 @@ One-To-Many Relationship: [transactioncurrency msdyn_transactioncurrency_invoice
 |ReferencingEntityNavigationPropertyName|`msdyn_currency`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_transactioncurrency_invoicedetail"></a> transactioncurrency_invoicedetail
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_invoicedetail](transactioncurrency.md#BKMK_transactioncurrency_invoicedetail)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 

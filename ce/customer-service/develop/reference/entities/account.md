@@ -15,7 +15,7 @@ search.audienceType:
 Business that represents a customer or potential customer. The company that is billed in business transactions.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Account table extends the [Microsoft Dynamics 365 Account table](/dynamics365/developer/entities//account).
+> The Microsoft Dynamics 365 Customer Service Account table extends the [Microsoft Dynamics 365 Account table](/dynamics365/developer/entities/account).
 
 
 

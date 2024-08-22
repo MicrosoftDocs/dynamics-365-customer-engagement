@@ -15,7 +15,7 @@ search.audienceType:
 Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Letter table extends the [Microsoft Dataverse Letter table](/power-apps/developer/data-platform/reference/entities/letter).
+> The Microsoft Dynamics 365 Field Service Letter table extends the [Microsoft Dynamics 365 Letter table](/dynamics365/developer/entities/letter).
 
 
 

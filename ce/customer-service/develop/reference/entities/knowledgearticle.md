@@ -15,7 +15,7 @@ search.audienceType:
 Organizational knowledge for internal and external use.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Knowledge Article (KnowledgeArticle) table extends the [Microsoft Dynamics 365 Knowledge Article (KnowledgeArticle) table](/dynamics365/developer/entities//knowledgearticle).
+> The Microsoft Dynamics 365 Customer Service Knowledge Article (KnowledgeArticle) table extends the [Microsoft Dynamics 365 Knowledge Article (KnowledgeArticle) table](/dynamics365/developer/entities/knowledgearticle).
 
 
 

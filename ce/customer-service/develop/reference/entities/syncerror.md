@@ -15,7 +15,7 @@ search.audienceType:
 Failure reason and other detailed information for a record that failed to sync.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Sync Error (SyncError) table extends the [Microsoft Dynamics 365 Sync Error (SyncError) table](/dynamics365/developer/entities//syncerror).
+> The Microsoft Dynamics 365 Customer Service Sync Error (SyncError) table extends the [Microsoft Dynamics 365 Sync Error (SyncError) table](/dynamics365/developer/entities/syncerror).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 Defines the amount and type of support for a channel.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Entitlement Channel (EntitlementChannel) table extends the [Microsoft Dynamics 365 Entitlement Channel (EntitlementChannel) table](/dynamics365/developer/entities//entitlementchannel).
+> The Microsoft Dynamics 365 Customer Service Entitlement Channel (EntitlementChannel) table extends the [Microsoft Dynamics 365 Entitlement Channel (EntitlementChannel) table](/dynamics365/developer/entities/entitlementchannel).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//entitlementchannel#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/entitlementchannel#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|

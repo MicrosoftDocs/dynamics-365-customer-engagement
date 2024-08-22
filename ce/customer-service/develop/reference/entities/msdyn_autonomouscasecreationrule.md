@@ -15,7 +15,7 @@ search.audienceType:
 Autonomous case creation and enrichment rules
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table extends the [Microsoft Dynamics 365 Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table](/dynamics365/developer/entities//msdyn_autonomouscasecreationrule).
+> The Microsoft Dynamics 365 Customer Service Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table extends the [Microsoft Dynamics 365 Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table](/dynamics365/developer/entities/msdyn_autonomouscasecreationrule).
 
 
 
@@ -26,7 +26,7 @@ Autonomous case creation and enrichment rules
 
 #### <a name="BKMK_business_unit_msdyn_autonomouscasecreationrule"></a> business_unit_msdyn_autonomouscasecreationrule
 
-Changes from [business_unit_msdyn_autonomouscasecreationrule (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_autonomouscasecreationrule#BKMK_business_unit_msdyn_autonomouscasecreationrule)
+Changes from [business_unit_msdyn_autonomouscasecreationrule (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_autonomouscasecreationrule#BKMK_business_unit_msdyn_autonomouscasecreationrule)
 
 |Property|Value|
 |---|---|

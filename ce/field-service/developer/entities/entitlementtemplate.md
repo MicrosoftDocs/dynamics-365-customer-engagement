@@ -15,7 +15,7 @@ search.audienceType:
 Contains predefined customer support terms that can be used to created entitlements for customers.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Entitlement Template (EntitlementTemplate) table extends the [Microsoft Dynamics 365 Entitlement Template (EntitlementTemplate) table](/dynamics365/developer/entities//entitlementtemplate).
+> The Microsoft Dynamics 365 Field Service Entitlement Template (EntitlementTemplate) table extends the [Microsoft Dynamics 365 Entitlement Template (EntitlementTemplate) table](/dynamics365/developer/entities/entitlementtemplate).
 
 
 
@@ -28,7 +28,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_entitytype"></a> entitytype
 
-Changes from [entitytype (Microsoft Dynamics 365)](/dynamics365/developer/entities//entitlementtemplate#BKMK_entitytype)
+Changes from [entitytype (Microsoft Dynamics 365)](/dynamics365/developer/entities/entitlementtemplate#BKMK_entitytype)
 
 #### entitytype Choices/Options
 
@@ -38,12 +38,30 @@ Changes from [entitytype (Microsoft Dynamics 365)](/dynamics365/developer/entiti
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//entitlementtemplate#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/entitlementtemplate#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|
 |MinValue|1E-12|
 |Precision|12|
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_TransactionCurrency_entitlementtemplate"></a> TransactionCurrency_entitlementtemplate
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_entitlementtemplate](transactioncurrency.md#BKMK_TransactionCurrency_entitlementtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

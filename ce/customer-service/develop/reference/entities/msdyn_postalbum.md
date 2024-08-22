@@ -15,7 +15,7 @@ search.audienceType:
 Contains user profile images that are stored as attachments and displayed in posts.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Profile Album (msdyn_PostAlbum) table extends the [Microsoft Dynamics 365 Profile Album (msdyn_PostAlbum) table](/dynamics365/developer/entities//msdyn_postalbum).
+> The Microsoft Dynamics 365 Customer Service Profile Album (msdyn_PostAlbum) table extends the [Microsoft Dynamics 365 Profile Album (msdyn_PostAlbum) table](/dynamics365/developer/entities/msdyn_postalbum).
 
 
 

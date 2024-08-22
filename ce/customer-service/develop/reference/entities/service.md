@@ -15,7 +15,7 @@ search.audienceType:
 Activity that represents work done to satisfy a customer's need.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Service table extends the [Microsoft Dynamics 365 Service table](/dynamics365/developer/entities//service).
+> The Microsoft Dynamics 365 Customer Service Service table extends the [Microsoft Dynamics 365 Service table](/dynamics365/developer/entities/service).
 
 
 

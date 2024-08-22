@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Publishing State Transition Rule (mspp_publishingstatetransitionrule) table extends the [Microsoft Dataverse Publishing State Transition Rule (mspp_publishingstatetransitionrule) table](/power-apps/developer/data-platform/reference/entities/mspp_publishingstatetransitionrule).
+> The Microsoft Dynamics 365 Field Service Publishing State Transition Rule (mspp_publishingstatetransitionrule) table extends the [Microsoft Dynamics 365 Publishing State Transition Rule (mspp_publishingstatetransitionrule) table](/dynamics365/developer/entities/mspp_publishingstatetransitionrule).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 Defines the amount and type of support a customer should receive.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Entitlement table extends the [Microsoft Dynamics 365 Entitlement table](/dynamics365/developer/entities//entitlement).
+> The Microsoft Dynamics 365 Customer Service Entitlement table extends the [Microsoft Dynamics 365 Entitlement table](/dynamics365/developer/entities/entitlement).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//entitlement#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/entitlement#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|

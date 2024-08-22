@@ -15,7 +15,7 @@ search.audienceType:
 Stores data about what folders for a mailbox are auto tracked
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Mailbox Auto Tracking Folder (MailboxTrackingFolder) table extends the [Microsoft Dynamics 365 Mailbox Auto Tracking Folder (MailboxTrackingFolder) table](/dynamics365/developer/entities//mailboxtrackingfolder).
+> The Microsoft Dynamics 365 Customer Service Mailbox Auto Tracking Folder (MailboxTrackingFolder) table extends the [Microsoft Dynamics 365 Mailbox Auto Tracking Folder (MailboxTrackingFolder) table](/dynamics365/developer/entities/mailboxtrackingfolder).
 
 
 

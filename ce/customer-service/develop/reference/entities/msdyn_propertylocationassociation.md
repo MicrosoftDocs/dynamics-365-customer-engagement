@@ -15,7 +15,7 @@ search.audienceType:
 Captures the relationship between a Property and a Functional Location.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Property Location Association (msdyn_propertylocationassociation) table extends the [Microsoft Dynamics 365 Property Location Association (msdyn_propertylocationassociation) table](/dynamics365/developer/entities//msdyn_propertylocationassociation).
+> The Microsoft Dynamics 365 Customer Service Property Location Association (msdyn_propertylocationassociation) table extends the [Microsoft Dynamics 365 Property Location Association (msdyn_propertylocationassociation) table](/dynamics365/developer/entities/msdyn_propertylocationassociation).
 
 
 ## Messages

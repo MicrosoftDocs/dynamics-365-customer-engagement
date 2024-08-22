@@ -15,7 +15,7 @@ search.audienceType:
 Line item in a contract that specifies the type of service a customer is entitled to.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Contract Line (ContractDetail) table extends the [Microsoft Dynamics 365 Contract Line (ContractDetail) table](/dynamics365/developer/entities//contractdetail).
+> The Microsoft Dynamics 365 Customer Service Contract Line (ContractDetail) table extends the [Microsoft Dynamics 365 Contract Line (ContractDetail) table](/dynamics365/developer/entities/contractdetail).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//contractdetail#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/contractdetail#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|

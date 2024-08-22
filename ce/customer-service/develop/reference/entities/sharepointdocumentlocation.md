@@ -15,7 +15,7 @@ search.audienceType:
 Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Document Location (SharePointDocumentLocation) table extends the [Microsoft Dynamics 365 Document Location (SharePointDocumentLocation) table](/dynamics365/developer/entities//sharepointdocumentlocation).
+> The Microsoft Dynamics 365 Customer Service Document Location (SharePointDocumentLocation) table extends the [Microsoft Dynamics 365 Document Location (SharePointDocumentLocation) table](/dynamics365/developer/entities/sharepointdocumentlocation).
 
 
 

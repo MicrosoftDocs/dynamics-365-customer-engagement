@@ -15,7 +15,7 @@ search.audienceType:
 Quote that has been accepted.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Order (SalesOrder) table extends the [Microsoft Dynamics 365 Order (SalesOrder) table](/dynamics365/developer/entities//salesorder).
+> The Microsoft Dynamics 365 Field Service Order (SalesOrder) table extends the [Microsoft Dynamics 365 Order (SalesOrder) table](/dynamics365/developer/entities/salesorder).
 
 
 
@@ -85,7 +85,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_StatusCode"></a> StatusCode
 
-Changes from [StatusCode (Microsoft Dynamics 365)](/dynamics365/developer/entities//salesorder#BKMK_StatusCode)
+Changes from [StatusCode (Microsoft Dynamics 365)](/dynamics365/developer/entities/salesorder#BKMK_StatusCode)
 
 #### StatusCode Choices/Options
 
@@ -104,6 +104,9 @@ Changes from [StatusCode (Microsoft Dynamics 365)](/dynamics365/developer/entiti
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
+- [msdyn_account_salesorder_Account](#BKMK_msdyn_account_salesorder_Account)
+- [transactioncurrency_salesorder](#BKMK_transactioncurrency_salesorder)
+
 ### <a name="BKMK_msdyn_account_salesorder_Account"></a> msdyn_account_salesorder_Account
 
 One-To-Many Relationship: [account msdyn_account_salesorder_Account](account.md#BKMK_msdyn_account_salesorder_Account)
@@ -116,6 +119,19 @@ One-To-Many Relationship: [account msdyn_account_salesorder_Account](account.md#
 |ReferencingEntityNavigationPropertyName|`msdyn_account`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `Cascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_transactioncurrency_salesorder"></a> transactioncurrency_salesorder
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_salesorder](transactioncurrency.md#BKMK_transactioncurrency_salesorder)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

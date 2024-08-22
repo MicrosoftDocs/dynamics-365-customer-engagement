@@ -15,7 +15,7 @@ search.audienceType:
 Stores the details of the activities to be created when a playbook is launched.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Playbook activity (msdyn_playbookactivity) table extends the [Microsoft Dynamics 365 Playbook activity (msdyn_playbookactivity) table](/dynamics365/developer/entities//msdyn_playbookactivity).
+> The Microsoft Dynamics 365 Customer Service Playbook activity (msdyn_playbookactivity) table extends the [Microsoft Dynamics 365 Playbook activity (msdyn_playbookactivity) table](/dynamics365/developer/entities/msdyn_playbookactivity).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_msdyn_activityType"></a> msdyn_activityType
 
-Changes from [msdyn_activityType (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_playbookactivity#BKMK_msdyn_activityType)
+Changes from [msdyn_activityType (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_playbookactivity#BKMK_msdyn_activityType)
 
 #### msdyn_activityType Choices/Options
 

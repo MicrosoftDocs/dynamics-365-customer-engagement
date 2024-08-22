@@ -15,7 +15,7 @@ search.audienceType:
 Response to a survey.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Customer Voice survey response (msfp_surveyresponse) table extends the [Microsoft Dynamics 365 Customer Voice survey response (msfp_surveyresponse) table](/dynamics365/developer/entities//msfp_surveyresponse).
+> The Microsoft Dynamics 365 Field Service Customer Voice survey response (msfp_surveyresponse) table extends the [Microsoft Dynamics 365 Customer Voice survey response (msfp_surveyresponse) table](/dynamics365/developer/entities/msfp_surveyresponse).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities//msfp_surveyresponse#BKMK_RegardingObjectId)
+Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities/msfp_surveyresponse#BKMK_RegardingObjectId)
 
 |Property|Value|
 |---|---|
@@ -95,6 +95,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_workorderresourcerestriction_msfp_surveyresponses](#BKMK_msdyn_workorderresourcerestriction_msfp_surveyresponses)
 - [msdyn_workorderservice_msfp_surveyresponses](#BKMK_msdyn_workorderservice_msfp_surveyresponses)
 - [msdyn_workorderservicetask_msfp_surveyresponses](#BKMK_msdyn_workorderservicetask_msfp_surveyresponses)
+- [msfp_surveyresponse_transactioncurrency_transactioncurrencyid](#BKMK_msfp_surveyresponse_transactioncurrency_transactioncurrencyid)
 
 ### <a name="BKMK_msdyn_agreement_msfp_surveyresponses"></a> msdyn_agreement_msfp_surveyresponses
 
@@ -862,6 +863,19 @@ One-To-Many Relationship: [msdyn_workorderservicetask msdyn_workorderservicetask
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workorderservicetask_msfp_surveyresponse`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msfp_surveyresponse_transactioncurrency_transactioncurrencyid"></a> msfp_surveyresponse_transactioncurrency_transactioncurrencyid
+
+One-To-Many Relationship: [transactioncurrency msfp_surveyresponse_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_msfp_surveyresponse_transactioncurrency_transactioncurrencyid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_msfp_surveyresponse`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 

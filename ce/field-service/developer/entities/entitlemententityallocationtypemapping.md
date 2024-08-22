@@ -15,7 +15,7 @@ search.audienceType:
 Mapping to define which Allocation Types are available for Entity Type to be used on Entitlement
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Entitlement Entity Allocation Type Mapping (EntitlementEntityAllocationTypeMapping) table extends the [Microsoft Dynamics 365 Entitlement Entity Allocation Type Mapping (EntitlementEntityAllocationTypeMapping) table](/dynamics365/developer/entities//entitlemententityallocationtypemapping).
+> The Microsoft Dynamics 365 Field Service Entitlement Entity Allocation Type Mapping (EntitlementEntityAllocationTypeMapping) table extends the [Microsoft Dynamics 365 Entitlement Entity Allocation Type Mapping (EntitlementEntityAllocationTypeMapping) table](/dynamics365/developer/entities/entitlemententityallocationtypemapping).
 
 
 
@@ -28,7 +28,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_allocationtype"></a> allocationtype
 
-Changes from [allocationtype (Microsoft Dynamics 365)](/dynamics365/developer/entities//entitlemententityallocationtypemapping#BKMK_allocationtype)
+Changes from [allocationtype (Microsoft Dynamics 365)](/dynamics365/developer/entities/entitlemententityallocationtypemapping#BKMK_allocationtype)
 
 #### allocationtype Choices/Options
 
@@ -38,7 +38,7 @@ Changes from [allocationtype (Microsoft Dynamics 365)](/dynamics365/developer/en
 
 ### <a name="BKMK_entitytype"></a> entitytype
 
-Changes from [entitytype (Microsoft Dynamics 365)](/dynamics365/developer/entities//entitlemententityallocationtypemapping#BKMK_entitytype)
+Changes from [entitytype (Microsoft Dynamics 365)](/dynamics365/developer/entities/entitlemententityallocationtypemapping#BKMK_entitytype)
 
 #### entitytype Choices/Options
 

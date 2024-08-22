@@ -15,7 +15,7 @@ search.audienceType:
 Resource that has capacity which can be allocated to work.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Bookable Resource (BookableResource) table extends the [Microsoft Dynamics 365 Bookable Resource (BookableResource) table](/dynamics365/developer/entities//bookableresource).
+> The Microsoft Dynamics 365 Customer Service Bookable Resource (BookableResource) table extends the [Microsoft Dynamics 365 Bookable Resource (BookableResource) table](/dynamics365/developer/entities/bookableresource).
 
 
 ## Messages

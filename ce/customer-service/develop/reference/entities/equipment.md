@@ -15,7 +15,7 @@ search.audienceType:
 Resource that can be scheduled.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Facility/Equipment (Equipment) table extends the [Microsoft Dynamics 365 Facility/Equipment (Equipment) table](/dynamics365/developer/entities//equipment).
+> The Microsoft Dynamics 365 Customer Service Facility/Equipment (Equipment) table extends the [Microsoft Dynamics 365 Facility/Equipment (Equipment) table](/dynamics365/developer/entities/equipment).
 
 
 
@@ -43,7 +43,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//equipment#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/equipment#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|

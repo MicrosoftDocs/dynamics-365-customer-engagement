@@ -15,7 +15,7 @@ search.audienceType:
 For internal use only.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Social Activity (SocialActivity) table extends the [Microsoft Dynamics 365 Social Activity (SocialActivity) table](/dynamics365/developer/entities//socialactivity).
+> The Microsoft Dynamics 365 Customer Service Social Activity (SocialActivity) table extends the [Microsoft Dynamics 365 Social Activity (SocialActivity) table](/dynamics365/developer/entities/socialactivity).
 
 
 

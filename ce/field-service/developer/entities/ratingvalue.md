@@ -15,7 +15,7 @@ search.audienceType:
 A unique value associated with a rating model that allows providing a user friendly rating value.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Rating Value (RatingValue) table extends the [Microsoft Dynamics 365 Rating Value (RatingValue) table](/dynamics365/developer/entities//ratingvalue).
+> The Microsoft Dynamics 365 Field Service Rating Value (RatingValue) table extends the [Microsoft Dynamics 365 Rating Value (RatingValue) table](/dynamics365/developer/entities/ratingvalue).
 
 
 
@@ -25,11 +25,29 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-Changes from [OwningBusinessUnit (Microsoft Dynamics 365)](/dynamics365/developer/entities//ratingvalue#BKMK_OwningBusinessUnit)
+Changes from [OwningBusinessUnit (Microsoft Dynamics 365)](/dynamics365/developer/entities/ratingvalue#BKMK_OwningBusinessUnit)
 
 |Property|Value|
 |---|---|
 |RequiredLevel|None|
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_TransactionCurrency_ratingvalue"></a> TransactionCurrency_ratingvalue
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_ratingvalue](transactioncurrency.md#BKMK_TransactionCurrency_ratingvalue)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

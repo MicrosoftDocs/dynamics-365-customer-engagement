@@ -15,7 +15,7 @@ search.audienceType:
 Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service SLA KPI Instance (SLAKPIInstance) table extends the [Microsoft Dataverse SLA KPI Instance (SLAKPIInstance) table](/power-apps/developer/data-platform/reference/entities/slakpiinstance).
+> The Microsoft Dynamics 365 Field Service SLA KPI Instance (SLAKPIInstance) table extends the [Microsoft Dynamics 365 SLA KPI Instance (SLAKPIInstance) table](/dynamics365/developer/entities/slakpiinstance).
 
 
 

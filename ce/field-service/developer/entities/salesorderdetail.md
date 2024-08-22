@@ -15,7 +15,7 @@ search.audienceType:
 Line item in a sales order.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Order Line (SalesOrderDetail) table extends the [Microsoft Dynamics 365 Order Line (SalesOrderDetail) table](/dynamics365/developer/entities//salesorderdetail).
+> The Microsoft Dynamics 365 Field Service Order Line (SalesOrderDetail) table extends the [Microsoft Dynamics 365 Order Line (SalesOrderDetail) table](/dynamics365/developer/entities/salesorderdetail).
 
 
 ## Properties
@@ -73,6 +73,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
+- [msdyn_msdyn_agreement_salesorderdetail_Agreement](#BKMK_msdyn_msdyn_agreement_salesorderdetail_Agreement)
+- [transactioncurrency_salesorderdetail](#BKMK_transactioncurrency_salesorderdetail)
+
 ### <a name="BKMK_msdyn_msdyn_agreement_salesorderdetail_Agreement"></a> msdyn_msdyn_agreement_salesorderdetail_Agreement
 
 One-To-Many Relationship: [msdyn_agreement msdyn_msdyn_agreement_salesorderdetail_Agreement](msdyn_agreement.md#BKMK_msdyn_msdyn_agreement_salesorderdetail_Agreement)
@@ -85,6 +88,19 @@ One-To-Many Relationship: [msdyn_agreement msdyn_msdyn_agreement_salesorderdetai
 |ReferencingEntityNavigationPropertyName|`msdyn_agreement`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_transactioncurrency_salesorderdetail"></a> transactioncurrency_salesorderdetail
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_salesorderdetail](transactioncurrency.md#BKMK_transactioncurrency_salesorderdetail)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 

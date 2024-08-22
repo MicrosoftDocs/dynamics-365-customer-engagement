@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Customer Voice alert (msfp_alert) table extends the [Microsoft Dynamics 365 Customer Voice alert (msfp_alert) table](/dynamics365/developer/entities//msfp_alert).
+> The Microsoft Dynamics 365 Customer Service Customer Voice alert (msfp_alert) table extends the [Microsoft Dynamics 365 Customer Voice alert (msfp_alert) table](/dynamics365/developer/entities/msfp_alert).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities//msfp_alert#BKMK_RegardingObjectId)
+Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities/msfp_alert#BKMK_RegardingObjectId)
 
 |Property|Value|
 |---|---|

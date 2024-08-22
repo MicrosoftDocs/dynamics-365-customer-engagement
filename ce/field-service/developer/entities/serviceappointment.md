@@ -15,7 +15,7 @@ search.audienceType:
 Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Service Activity (ServiceAppointment) table extends the [Microsoft Dynamics 365 Service Activity (ServiceAppointment) table](/dynamics365/developer/entities//serviceappointment).
+> The Microsoft Dynamics 365 Field Service Service Activity (ServiceAppointment) table extends the [Microsoft Dynamics 365 Service Activity (ServiceAppointment) table](/dynamics365/developer/entities/serviceappointment).
 
 
 
@@ -28,7 +28,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//serviceappointment#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/serviceappointment#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|
@@ -38,7 +38,7 @@ Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/enti
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities//serviceappointment#BKMK_RegardingObjectId)
+Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities/serviceappointment#BKMK_RegardingObjectId)
 
 |Property|Value|
 |---|---|
@@ -108,6 +108,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_workorderresourcerestriction_ServiceAppointments](#BKMK_msdyn_workorderresourcerestriction_ServiceAppointments)
 - [msdyn_workorderservice_ServiceAppointments](#BKMK_msdyn_workorderservice_ServiceAppointments)
 - [msdyn_workorderservicetask_ServiceAppointments](#BKMK_msdyn_workorderservicetask_ServiceAppointments)
+- [TransactionCurrency_ServiceAppointment](#BKMK_TransactionCurrency_ServiceAppointment)
 
 ### <a name="BKMK_msdyn_agreement_ServiceAppointments"></a> msdyn_agreement_ServiceAppointments
 
@@ -875,6 +876,19 @@ One-To-Many Relationship: [msdyn_workorderservicetask msdyn_workorderservicetask
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workorderservicetask_serviceappointment`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_TransactionCurrency_ServiceAppointment"></a> TransactionCurrency_ServiceAppointment
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_ServiceAppointment](transactioncurrency.md#BKMK_TransactionCurrency_ServiceAppointment)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_serviceappointment`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 

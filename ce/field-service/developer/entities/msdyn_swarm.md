@@ -15,7 +15,7 @@ search.audienceType:
 Tracks the list of swarms created by agents to resolve the customer issues
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Swarm (msdyn_swarm) table extends the [Microsoft Dynamics 365 Swarm (msdyn_swarm) table](/dynamics365/developer/entities//msdyn_swarm).
+> The Microsoft Dynamics 365 Field Service Swarm (msdyn_swarm) table extends the [Microsoft Dynamics 365 Swarm (msdyn_swarm) table](/dynamics365/developer/entities/msdyn_swarm).
 
 
 

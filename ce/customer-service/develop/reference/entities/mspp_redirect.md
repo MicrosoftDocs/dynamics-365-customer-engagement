@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Redirect (mspp_redirect) table extends the [Microsoft Dynamics 365 Redirect (mspp_redirect) table](/dynamics365/developer/entities//mspp_redirect).
+> The Microsoft Dynamics 365 Customer Service Redirect (mspp_redirect) table extends the [Microsoft Dynamics 365 Redirect (mspp_redirect) table](/dynamics365/developer/entities/mspp_redirect).
 
 
 

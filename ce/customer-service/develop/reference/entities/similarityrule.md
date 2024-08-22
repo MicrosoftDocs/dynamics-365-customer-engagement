@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Similarity Rule (SimilarityRule) table extends the [Microsoft Dynamics 365 Similarity Rule (SimilarityRule) table](/dynamics365/developer/entities//similarityrule).
+> The Microsoft Dynamics 365 Customer Service Similarity Rule (SimilarityRule) table extends the [Microsoft Dynamics 365 Similarity Rule (SimilarityRule) table](/dynamics365/developer/entities/similarityrule).
 
 
 

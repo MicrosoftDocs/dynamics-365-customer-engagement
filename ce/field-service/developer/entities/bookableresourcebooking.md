@@ -15,7 +15,7 @@ search.audienceType:
 Represents the line details of a resource booking.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Bookable Resource Booking (BookableResourceBooking) table extends the [Microsoft Dynamics 365 Bookable Resource Booking (BookableResourceBooking) table](/dynamics365/developer/entities//bookableresourcebooking).
+> The Microsoft Dynamics 365 Field Service Bookable Resource Booking (BookableResourceBooking) table extends the [Microsoft Dynamics 365 Bookable Resource Booking (BookableResourceBooking) table](/dynamics365/developer/entities/bookableresourcebooking).
 
 
 ## Messages
@@ -724,6 +724,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder](#BKMK_msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder)
 - [msdyn_requirementgroup_bookableresourcebooking_requirementgroupid](#BKMK_msdyn_requirementgroup_bookableresourcebooking_requirementgroupid)
 - [msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement](#BKMK_msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement)
+- [TransactionCurrency_bookableresourcebooking](#BKMK_TransactionCurrency_bookableresourcebooking)
 
 ### <a name="BKMK_msdyn_appointment_bookableresourcebooking"></a> msdyn_appointment_bookableresourcebooking
 
@@ -841,6 +842,19 @@ One-To-Many Relationship: [msdyn_resourcerequirement msdyn_resourcerequirement_b
 |ReferencingEntityNavigationPropertyName|`msdyn_ResourceRequirement`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_TransactionCurrency_bookableresourcebooking"></a> TransactionCurrency_bookableresourcebooking
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_bookableresourcebooking](transactioncurrency.md#BKMK_TransactionCurrency_bookableresourcebooking)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

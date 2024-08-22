@@ -15,7 +15,7 @@ search.audienceType:
 Log used to track process execution.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Process Log (WorkflowLog) table extends the [Microsoft Dataverse Process Log (WorkflowLog) table](/power-apps/developer/data-platform/reference/entities/workflowlog).
+> The Microsoft Dynamics 365 Field Service Process Log (WorkflowLog) table extends the [Microsoft Dynamics 365 Process Log (WorkflowLog) table](/dynamics365/developer/entities/workflowlog).
 
 
 

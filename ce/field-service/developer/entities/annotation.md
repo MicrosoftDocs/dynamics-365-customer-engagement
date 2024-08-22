@@ -15,7 +15,7 @@ search.audienceType:
 Note that is attached to one or more objects, including other notes.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Note (Annotation) table extends the [Microsoft Dataverse Note (Annotation) table](/power-apps/developer/data-platform/reference/entities/annotation).
+> The Microsoft Dynamics 365 Field Service Note (Annotation) table extends the [Microsoft Dynamics 365 Note (Annotation) table](/dynamics365/developer/entities/annotation).
 
 
 
@@ -71,6 +71,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_paymentdetail_Annotations](#BKMK_msdyn_paymentdetail_Annotations)
 - [msdyn_paymentmethod_Annotations](#BKMK_msdyn_paymentmethod_Annotations)
 - [msdyn_paymentterm_Annotations](#BKMK_msdyn_paymentterm_Annotations)
+- [msdyn_playbooktemplate_Annotations](#BKMK_msdyn_playbooktemplate_Annotations)
 - [msdyn_postalcode_Annotations](#BKMK_msdyn_postalcode_Annotations)
 - [msdyn_priority_Annotations](#BKMK_msdyn_priority_Annotations)
 - [msdyn_productinventory_Annotations](#BKMK_msdyn_productinventory_Annotations)
@@ -572,6 +573,19 @@ One-To-Many Relationship: [msdyn_paymentterm msdyn_paymentterm_Annotations](msdy
 |ReferencedAttribute|`msdyn_paymenttermid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_paymentterm`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_playbooktemplate_Annotations"></a> msdyn_playbooktemplate_Annotations
+
+One-To-Many Relationship: [msdyn_playbooktemplate msdyn_playbooktemplate_Annotations](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_Annotations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_playbooktemplate`|
+|ReferencedAttribute|`msdyn_playbooktemplateid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_playbooktemplate`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

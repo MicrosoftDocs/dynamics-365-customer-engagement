@@ -15,7 +15,7 @@ search.audienceType:
 Response from an existing or a potential new customer for a campaign.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Campaign Response (CampaignResponse) table extends the [Microsoft Dynamics 365 Campaign Response (CampaignResponse) table](/dynamics365/developer/entities//campaignresponse).
+> The Microsoft Dynamics 365 Customer Service Campaign Response (CampaignResponse) table extends the [Microsoft Dynamics 365 Campaign Response (CampaignResponse) table](/dynamics365/developer/entities/campaignresponse).
 
 
 

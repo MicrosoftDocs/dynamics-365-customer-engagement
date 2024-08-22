@@ -15,7 +15,7 @@ search.audienceType:
 Web Portal
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Website (mspp_website) table extends the [Microsoft Dynamics 365 Website (mspp_website) table](/dynamics365/developer/entities//mspp_website).
+> The Microsoft Dynamics 365 Customer Service Website (mspp_website) table extends the [Microsoft Dynamics 365 Website (mspp_website) table](/dynamics365/developer/entities/mspp_website).
 
 
 

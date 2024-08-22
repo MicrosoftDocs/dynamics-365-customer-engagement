@@ -15,7 +15,7 @@ search.audienceType:
 Collection of system users that routinely collaborate. Teams can be used to simplify record sharing and provide team members with common access to organization data when team members belong to different Business Units.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Team table extends the [Microsoft Dynamics 365 Team table](/dynamics365/developer/entities//team).
+> The Microsoft Dynamics 365 Customer Service Team table extends the [Microsoft Dynamics 365 Team table](/dynamics365/developer/entities/team).
 
 
 

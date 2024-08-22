@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service AI Plugin Governance Extended (AIPluginGovernanceExt) table extends the [Microsoft Dynamics 365 AI Plugin Governance Extended (AIPluginGovernanceExt) table](/dynamics365/developer/entities//aiplugingovernanceext).
+> The Microsoft Dynamics 365 Customer Service AI Plugin Governance Extended (AIPluginGovernanceExt) table extends the [Microsoft Dynamics 365 AI Plugin Governance Extended (AIPluginGovernanceExt) table](/dynamics365/developer/entities/aiplugingovernanceext).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 Person or group associated with an activity. An activity can have multiple activity parties.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Activity Party (ActivityParty) table extends the [Microsoft Dynamics 365 Activity Party (ActivityParty) table](/dynamics365/developer/entities//activityparty).
+> The Microsoft Dynamics 365 Customer Service Activity Party (ActivityParty) table extends the [Microsoft Dynamics 365 Activity Party (ActivityParty) table](/dynamics365/developer/entities/activityparty).
 
 
 

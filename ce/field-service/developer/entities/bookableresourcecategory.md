@@ -15,9 +15,27 @@ search.audienceType:
 Categorize resources that have capacity into categories such as roles.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Bookable Resource Category (BookableResourceCategory) table extends the [Microsoft Dynamics 365 Bookable Resource Category (BookableResourceCategory) table](/dynamics365/developer/entities//bookableresourcecategory).
+> The Microsoft Dynamics 365 Field Service Bookable Resource Category (BookableResourceCategory) table extends the [Microsoft Dynamics 365 Bookable Resource Category (BookableResourceCategory) table](/dynamics365/developer/entities/bookableresourcecategory).
 
 
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_TransactionCurrency_bookableresourcecategory"></a> TransactionCurrency_bookableresourcecategory
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_bookableresourcecategory](transactioncurrency.md#BKMK_TransactionCurrency_bookableresourcecategory)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

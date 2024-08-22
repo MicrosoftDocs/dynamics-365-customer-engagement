@@ -15,7 +15,7 @@ search.audienceType:
 Captures the relationship between a Property Template, which in turns captures a set of Properties, and a Functional Location.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Location Template Association (msdyn_locationtemplateassociation) table extends the [Microsoft Dynamics 365 Location Template Association (msdyn_locationtemplateassociation) table](/dynamics365/developer/entities//msdyn_locationtemplateassociation).
+> The Microsoft Dynamics 365 Customer Service Location Template Association (msdyn_locationtemplateassociation) table extends the [Microsoft Dynamics 365 Location Template Association (msdyn_locationtemplateassociation) table](/dynamics365/developer/entities/msdyn_locationtemplateassociation).
 
 
 ## Messages

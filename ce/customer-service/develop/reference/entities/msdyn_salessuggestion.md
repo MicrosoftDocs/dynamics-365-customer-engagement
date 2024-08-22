@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Insight (msdyn_salessuggestion) table extends the [Microsoft Dynamics 365 Insight (msdyn_salessuggestion) table](/dynamics365/developer/entities//msdyn_salessuggestion).
+> The Microsoft Dynamics 365 Customer Service Insight (msdyn_salessuggestion) table extends the [Microsoft Dynamics 365 Insight (msdyn_salessuggestion) table](/dynamics365/developer/entities/msdyn_salessuggestion).
 
 
 

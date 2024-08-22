@@ -15,7 +15,7 @@ search.audienceType:
 A specific item in a queue, such as a case record or an activity record.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Queue Item (QueueItem) table extends the [Microsoft Dataverse Queue Item (QueueItem) table](/power-apps/developer/data-platform/reference/entities/queueitem).
+> The Microsoft Dynamics 365 Field Service Queue Item (QueueItem) table extends the [Microsoft Dynamics 365 Queue Item (QueueItem) table](/dynamics365/developer/entities/queueitem).
 
 
 

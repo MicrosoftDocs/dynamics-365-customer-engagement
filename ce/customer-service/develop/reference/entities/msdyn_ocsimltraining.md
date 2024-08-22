@@ -15,7 +15,7 @@ search.audienceType:
 Indicates model's training details
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Model training details (msdyn_ocsimltraining) table extends the [Microsoft Dynamics 365 Model training details (msdyn_ocsimltraining) table](/dynamics365/developer/entities//msdyn_ocsimltraining).
+> The Microsoft Dynamics 365 Customer Service Model training details (msdyn_ocsimltraining) table extends the [Microsoft Dynamics 365 Model training details (msdyn_ocsimltraining) table](/dynamics365/developer/entities/msdyn_ocsimltraining).
 
 
 ## Messages

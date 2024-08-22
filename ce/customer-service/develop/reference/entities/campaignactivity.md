@@ -15,7 +15,7 @@ search.audienceType:
 Task performed, or to be performed, by a user for planning or running a campaign.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Campaign Activity (CampaignActivity) table extends the [Microsoft Dynamics 365 Campaign Activity (CampaignActivity) table](/dynamics365/developer/entities//campaignactivity).
+> The Microsoft Dynamics 365 Customer Service Campaign Activity (CampaignActivity) table extends the [Microsoft Dynamics 365 Campaign Activity (CampaignActivity) table](/dynamics365/developer/entities/campaignactivity).
 
 
 

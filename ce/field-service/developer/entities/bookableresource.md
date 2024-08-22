@@ -15,7 +15,7 @@ search.audienceType:
 Resource that has capacity which can be allocated to work.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Bookable Resource (BookableResource) table extends the [Microsoft Dynamics 365 Bookable Resource (BookableResource) table](/dynamics365/developer/entities//bookableresource).
+> The Microsoft Dynamics 365 Field Service Bookable Resource (BookableResource) table extends the [Microsoft Dynamics 365 Bookable Resource (BookableResource) table](/dynamics365/developer/entities/bookableresource).
 
 
 ## Messages
@@ -503,6 +503,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 
 - [msdyn_msdyn_organizationalunit_bookableresource_organizationalunit](#BKMK_msdyn_msdyn_organizationalunit_bookableresource_organizationalunit)
 - [msdyn_msdyn_warehouse_bookableresource_Warehouse](#BKMK_msdyn_msdyn_warehouse_bookableresource_Warehouse)
+- [TransactionCurrency_bookableresource](#BKMK_TransactionCurrency_bookableresource)
 
 ### <a name="BKMK_msdyn_msdyn_organizationalunit_bookableresource_organizationalunit"></a> msdyn_msdyn_organizationalunit_bookableresource_organizationalunit
 
@@ -529,6 +530,19 @@ One-To-Many Relationship: [msdyn_warehouse msdyn_msdyn_warehouse_bookableresourc
 |ReferencingEntityNavigationPropertyName|`msdyn_warehouse`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_TransactionCurrency_bookableresource"></a> TransactionCurrency_bookableresource
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_bookableresource](transactioncurrency.md#BKMK_TransactionCurrency_bookableresource)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

@@ -15,7 +15,7 @@ search.audienceType:
 The Category of Customer Asset.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Customer Asset Category (msdyn_customerassetcategory) table extends the [Microsoft Dynamics 365 Customer Asset Category (msdyn_customerassetcategory) table](/dynamics365/developer/entities//msdyn_customerassetcategory).
+> The Microsoft Dynamics 365 Field Service Customer Asset Category (msdyn_customerassetcategory) table extends the [Microsoft Dynamics 365 Customer Asset Category (msdyn_customerassetcategory) table](/dynamics365/developer/entities/msdyn_customerassetcategory).
 
 
 

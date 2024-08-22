@@ -15,7 +15,7 @@ search.audienceType:
 Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Lead table extends the [Microsoft Dynamics 365 Lead table](/dynamics365/developer/entities//lead).
+> The Microsoft Dynamics 365 Customer Service Lead table extends the [Microsoft Dynamics 365 Lead table](/dynamics365/developer/entities/lead).
 
 
 ## Messages

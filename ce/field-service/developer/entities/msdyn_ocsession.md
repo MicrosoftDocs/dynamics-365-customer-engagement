@@ -15,7 +15,7 @@ search.audienceType:
 Session for interacting with a customer
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Session (msdyn_ocsession) table extends the [Microsoft Dynamics 365 Session (msdyn_ocsession) table](/dynamics365/developer/entities//msdyn_ocsession).
+> The Microsoft Dynamics 365 Field Service Session (msdyn_ocsession) table extends the [Microsoft Dynamics 365 Session (msdyn_ocsession) table](/dynamics365/developer/entities/msdyn_ocsession).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_ocsession#BKMK_RegardingObjectId)
+Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_ocsession#BKMK_RegardingObjectId)
 
 |Property|Value|
 |---|---|
@@ -57,6 +57,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_inventoryadjustmentproduct_msdyn_ocsessions](#BKMK_msdyn_inventoryadjustmentproduct_msdyn_ocsessions)
 - [msdyn_inventoryjournal_msdyn_ocsessions](#BKMK_msdyn_inventoryjournal_msdyn_ocsessions)
 - [msdyn_inventorytransfer_msdyn_ocsessions](#BKMK_msdyn_inventorytransfer_msdyn_ocsessions)
+- [msdyn_ocsession_transactioncurrency_transactioncurrencyid](#BKMK_msdyn_ocsession_transactioncurrency_transactioncurrencyid)
 - [msdyn_payment_msdyn_ocsessions](#BKMK_msdyn_payment_msdyn_ocsessions)
 - [msdyn_paymentdetail_msdyn_ocsessions](#BKMK_msdyn_paymentdetail_msdyn_ocsessions)
 - [msdyn_paymentmethod_msdyn_ocsessions](#BKMK_msdyn_paymentmethod_msdyn_ocsessions)
@@ -368,6 +369,19 @@ One-To-Many Relationship: [msdyn_inventorytransfer msdyn_inventorytransfer_msdyn
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_inventorytransfer_msdyn_ocsession`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_ocsession_transactioncurrency_transactioncurrencyid"></a> msdyn_ocsession_transactioncurrency_transactioncurrencyid
+
+One-To-Many Relationship: [transactioncurrency msdyn_ocsession_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_msdyn_ocsession_transactioncurrency_transactioncurrencyid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_msdyn_ocsession`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_payment_msdyn_ocsessions"></a> msdyn_payment_msdyn_ocsessions
 

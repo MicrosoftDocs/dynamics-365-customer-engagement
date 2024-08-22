@@ -15,7 +15,7 @@ search.audienceType:
 Send invitations to existing contacts or email addresses and assign them to web roles upon redemption.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Invitation (adx_invitation) table extends the [Microsoft Dataverse Invitation (adx_invitation) table](/power-apps/developer/data-platform/reference/entities/adx_invitation).
+> The Microsoft Dynamics 365 Field Service Invitation (adx_invitation) table extends the [Microsoft Dynamics 365 Invitation (adx_invitation) table](/dynamics365/developer/entities/adx_invitation).
 
 
 

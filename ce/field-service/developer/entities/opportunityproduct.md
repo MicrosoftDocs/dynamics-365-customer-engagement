@@ -15,7 +15,7 @@ search.audienceType:
 Association between an opportunity and a product.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Opportunity Line (OpportunityProduct) table extends the [Microsoft Dynamics 365 Opportunity Line (OpportunityProduct) table](/dynamics365/developer/entities//opportunityproduct).
+> The Microsoft Dynamics 365 Field Service Opportunity Line (OpportunityProduct) table extends the [Microsoft Dynamics 365 Opportunity Line (OpportunityProduct) table](/dynamics365/developer/entities/opportunityproduct).
 
 
 ## Properties
@@ -140,6 +140,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 
 - [msdyn_account_opportunityproduct_ServiceAccount](#BKMK_msdyn_account_opportunityproduct_ServiceAccount)
 - [msdyn_pricelevel_opportunityproduct_PriceList](#BKMK_msdyn_pricelevel_opportunityproduct_PriceList)
+- [transactioncurrency_opportunityproduct](#BKMK_transactioncurrency_opportunityproduct)
 
 ### <a name="BKMK_msdyn_account_opportunityproduct_ServiceAccount"></a> msdyn_account_opportunityproduct_ServiceAccount
 
@@ -166,6 +167,19 @@ One-To-Many Relationship: [pricelevel msdyn_pricelevel_opportunityproduct_PriceL
 |ReferencingEntityNavigationPropertyName|`msdyn_pricelist`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_transactioncurrency_opportunityproduct"></a> transactioncurrency_opportunityproduct
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_opportunityproduct](transactioncurrency.md#BKMK_transactioncurrency_opportunityproduct)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 

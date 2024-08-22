@@ -15,7 +15,7 @@ search.audienceType:
 A unique value associated with a rating model that allows providing a user friendly rating value.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Rating Value (RatingValue) table extends the [Microsoft Dynamics 365 Rating Value (RatingValue) table](/dynamics365/developer/entities//ratingvalue).
+> The Microsoft Dynamics 365 Customer Service Rating Value (RatingValue) table extends the [Microsoft Dynamics 365 Rating Value (RatingValue) table](/dynamics365/developer/entities/ratingvalue).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-Changes from [OwningBusinessUnit (Microsoft Dynamics 365)](/dynamics365/developer/entities//ratingvalue#BKMK_OwningBusinessUnit)
+Changes from [OwningBusinessUnit (Microsoft Dynamics 365)](/dynamics365/developer/entities/ratingvalue#BKMK_OwningBusinessUnit)
 
 |Property|Value|
 |---|---|

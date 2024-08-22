@@ -15,7 +15,7 @@ search.audienceType:
 Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Fax table extends the [Microsoft Dynamics 365 Fax table](/dynamics365/developer/entities//fax).
+> The Microsoft Dynamics 365 Customer Service Fax table extends the [Microsoft Dynamics 365 Fax table](/dynamics365/developer/entities/fax).
 
 
 

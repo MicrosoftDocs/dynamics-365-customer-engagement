@@ -15,7 +15,7 @@ search.audienceType:
 Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Activity (ActivityPointer) table extends the [Microsoft Dynamics 365 Activity (ActivityPointer) table](/dynamics365/developer/entities//activitypointer).
+> The Microsoft Dynamics 365 Customer Service Activity (ActivityPointer) table extends the [Microsoft Dynamics 365 Activity (ActivityPointer) table](/dynamics365/developer/entities/activitypointer).
 
 
 

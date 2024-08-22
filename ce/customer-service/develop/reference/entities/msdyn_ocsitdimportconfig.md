@@ -15,7 +15,7 @@ search.audienceType:
 Indicates the training data import configuration
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Training data import configuration (msdyn_ocsitdimportconfig) table extends the [Microsoft Dynamics 365 Training data import configuration (msdyn_ocsitdimportconfig) table](/dynamics365/developer/entities//msdyn_ocsitdimportconfig).
+> The Microsoft Dynamics 365 Customer Service Training data import configuration (msdyn_ocsitdimportconfig) table extends the [Microsoft Dynamics 365 Training data import configuration (msdyn_ocsitdimportconfig) table](/dynamics365/developer/entities/msdyn_ocsitdimportconfig).
 
 
 ## Messages

@@ -15,7 +15,7 @@ search.audienceType:
 Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Campaign table extends the [Microsoft Dynamics 365 Campaign table](/dynamics365/developer/entities//campaign).
+> The Microsoft Dynamics 365 Customer Service Campaign table extends the [Microsoft Dynamics 365 Campaign table](/dynamics365/developer/entities/campaign).
 
 
 

@@ -15,9 +15,27 @@ search.audienceType:
 Task performed, or to be performed, by a user for planning or running a campaign.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Campaign Activity (CampaignActivity) table extends the [Microsoft Dynamics 365 Campaign Activity (CampaignActivity) table](/dynamics365/developer/entities//campaignactivity).
+> The Microsoft Dynamics 365 Field Service Campaign Activity (CampaignActivity) table extends the [Microsoft Dynamics 365 Campaign Activity (CampaignActivity) table](/dynamics365/developer/entities/campaignactivity).
 
 
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_transactioncurrency_campaignactivity"></a> transactioncurrency_campaignactivity
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_campaignactivity](transactioncurrency.md#BKMK_transactioncurrency_campaignactivity)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_campaignactivity`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

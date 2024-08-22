@@ -15,9 +15,27 @@ search.audienceType:
 Activity that represents work done to satisfy a customer's need.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Service table extends the [Microsoft Dynamics 365 Service table](/dynamics365/developer/entities//service).
+> The Microsoft Dynamics 365 Field Service Service table extends the [Microsoft Dynamics 365 Service table](/dynamics365/developer/entities/service).
 
 
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_plugin_type_service"></a> plugin_type_service
+
+One-To-Many Relationship: [plugintype plugin_type_service](plugintype.md#BKMK_plugin_type_service)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`plugintype`|
+|ReferencedAttribute|`plugintypeid`|
+|ReferencingAttribute|`strategyid`|
+|ReferencingEntityNavigationPropertyName|`strategyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

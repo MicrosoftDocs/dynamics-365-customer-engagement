@@ -15,7 +15,7 @@ search.audienceType:
 Association between an knowledge article and incident.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Knowledge Article Incident (KnowledgeArticleIncident) table extends the [Microsoft Dynamics 365 Knowledge Article Incident (KnowledgeArticleIncident) table](/dynamics365/developer/entities//knowledgearticleincident).
+> The Microsoft Dynamics 365 Customer Service Knowledge Article Incident (KnowledgeArticleIncident) table extends the [Microsoft Dynamics 365 Knowledge Article Incident (KnowledgeArticleIncident) table](/dynamics365/developer/entities/knowledgearticleincident).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//knowledgearticleincident#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/knowledgearticleincident#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|

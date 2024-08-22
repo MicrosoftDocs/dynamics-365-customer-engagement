@@ -15,7 +15,7 @@ search.audienceType:
 Represents the line details of a resource booking.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Bookable Resource Booking (BookableResourceBooking) table extends the [Microsoft Dynamics 365 Bookable Resource Booking (BookableResourceBooking) table](/dynamics365/developer/entities//bookableresourcebooking).
+> The Microsoft Dynamics 365 Customer Service Bookable Resource Booking (BookableResourceBooking) table extends the [Microsoft Dynamics 365 Bookable Resource Booking (BookableResourceBooking) table](/dynamics365/developer/entities/bookableresourcebooking).
 
 
 

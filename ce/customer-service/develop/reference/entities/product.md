@@ -15,7 +15,7 @@ search.audienceType:
 Information about products and their pricing information.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Product table extends the [Microsoft Dynamics 365 Product table](/dynamics365/developer/entities//product).
+> The Microsoft Dynamics 365 Customer Service Product table extends the [Microsoft Dynamics 365 Product table](/dynamics365/developer/entities/product).
 
 
 

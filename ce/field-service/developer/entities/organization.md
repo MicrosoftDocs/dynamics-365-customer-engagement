@@ -15,7 +15,7 @@ search.audienceType:
 Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Organization table extends the [Microsoft Dataverse Organization table](/power-apps/developer/data-platform/reference/entities/organization).
+> The Microsoft Dynamics 365 Field Service Organization table extends the [Microsoft Dynamics 365 Organization table](/dynamics365/developer/entities/organization).
 
 
 
@@ -45,7 +45,7 @@ Changes from [DisableSystemLabelsCacheSharing (Microsoft Dataverse)](/power-apps
 
 ### <a name="BKMK_EmailTemplateDefaultView"></a> EmailTemplateDefaultView
 
-Changes from [EmailTemplateDefaultView (Microsoft Dynamics 365)](/dynamics365/developer/entities//organization#BKMK_EmailTemplateDefaultView)
+Changes from [EmailTemplateDefaultView (Microsoft Dynamics 365)](/dynamics365/developer/entities/organization#BKMK_EmailTemplateDefaultView)
 
 |Property|Value|
 |---|---|
@@ -55,7 +55,7 @@ Changes from [EmailTemplateDefaultView (Microsoft Dynamics 365)](/dynamics365/de
 
 ### <a name="BKMK_EnableCalendarImportExport"></a> EnableCalendarImportExport
 
-Changes from [EnableCalendarImportExport (Microsoft Dynamics 365)](/dynamics365/developer/entities//organization#BKMK_EnableCalendarImportExport)
+Changes from [EnableCalendarImportExport (Microsoft Dynamics 365)](/dynamics365/developer/entities/organization#BKMK_EnableCalendarImportExport)
 
 |Property|Value|
 |---|---|
@@ -118,7 +118,7 @@ Changes from [LegacyAppToggle (Microsoft Dataverse)](/power-apps/developer/data-
 
 ### <a name="BKMK_SchedulingEngine"></a> SchedulingEngine
 
-Changes from [SchedulingEngine (Microsoft Dynamics 365)](/dynamics365/developer/entities//organization#BKMK_SchedulingEngine)
+Changes from [SchedulingEngine (Microsoft Dynamics 365)](/dynamics365/developer/entities/organization#BKMK_SchedulingEngine)
 
 #### SchedulingEngine Choices/Options
 
@@ -137,6 +137,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [organization_msdyn_bpf_989e9b1857e24af18787d5143b67523b](#BKMK_organization_msdyn_bpf_989e9b1857e24af18787d5143b67523b)
 - [organization_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3](#BKMK_organization_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3)
 - [organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39](#BKMK_organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39)
+- [organization_msdyn_consoleapplicationtype](#BKMK_organization_msdyn_consoleapplicationtype)
 - [organization_msdyn_dataanalyticsreport_fs](#BKMK_organization_msdyn_dataanalyticsreport_fs)
 - [organization_msdyn_dataanalyticsreport_fspredictrs](#BKMK_organization_msdyn_dataanalyticsreport_fspredictrs)
 - [organization_msdyn_dataanalyticsreport_fspredictwhd](#BKMK_organization_msdyn_dataanalyticsreport_fspredictwhd)
@@ -233,6 +234,18 @@ Many-To-One Relationship: [msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 organizati
 |ReferencingEntity|`msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39`|
 |ReferencingAttribute|`organizationid`|
 |ReferencedEntityNavigationPropertyName|`organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_organization_msdyn_consoleapplicationtype"></a> organization_msdyn_consoleapplicationtype
+
+Many-To-One Relationship: [msdyn_consoleapplicationtype organization_msdyn_consoleapplicationtype](msdyn_consoleapplicationtype.md#BKMK_organization_msdyn_consoleapplicationtype)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_consoleapplicationtype`|
+|ReferencingAttribute|`organizationid`|
+|ReferencedEntityNavigationPropertyName|`organization_msdyn_consoleapplicationtype`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

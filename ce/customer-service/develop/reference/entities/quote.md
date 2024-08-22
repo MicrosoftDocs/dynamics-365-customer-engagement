@@ -15,7 +15,7 @@ search.audienceType:
 Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Quote table extends the [Microsoft Dynamics 365 Quote table](/dynamics365/developer/entities//quote).
+> The Microsoft Dynamics 365 Customer Service Quote table extends the [Microsoft Dynamics 365 Quote table](/dynamics365/developer/entities/quote).
 
 
 

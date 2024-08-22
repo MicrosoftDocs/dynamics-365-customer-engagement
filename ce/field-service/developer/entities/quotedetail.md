@@ -15,7 +15,7 @@ search.audienceType:
 Product line item in a quote. The details include such information as product ID, description, quantity, and cost.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Quote Line (QuoteDetail) table extends the [Microsoft Dynamics 365 Quote Line (QuoteDetail) table](/dynamics365/developer/entities//quotedetail).
+> The Microsoft Dynamics 365 Field Service Quote Line (QuoteDetail) table extends the [Microsoft Dynamics 365 Quote Line (QuoteDetail) table](/dynamics365/developer/entities/quotedetail).
 
 
 ## Properties
@@ -318,6 +318,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_msdyn_taxcode_quotedetail_SalesTaxCode](#BKMK_msdyn_msdyn_taxcode_quotedetail_SalesTaxCode)
 - [msdyn_pricelevel_quotedetail_PriceList](#BKMK_msdyn_pricelevel_quotedetail_PriceList)
 - [msdyn_territory_quotedetail_ServiceTerritory](#BKMK_msdyn_territory_quotedetail_ServiceTerritory)
+- [transactioncurrency_quotedetail](#BKMK_transactioncurrency_quotedetail)
 
 ### <a name="BKMK_msdyn_account_quotedetail_ServiceAccount"></a> msdyn_account_quotedetail_ServiceAccount
 
@@ -383,6 +384,19 @@ One-To-Many Relationship: [territory msdyn_territory_quotedetail_ServiceTerritor
 |ReferencingEntityNavigationPropertyName|`msdyn_ServiceTerritory`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_transactioncurrency_quotedetail"></a> transactioncurrency_quotedetail
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_quotedetail](transactioncurrency.md#BKMK_transactioncurrency_quotedetail)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

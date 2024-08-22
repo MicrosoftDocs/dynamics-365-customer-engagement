@@ -15,7 +15,7 @@ search.audienceType:
 For internal use only. Entity which stores association data of Dynamics 365 records with Microsoft Teams chat
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Teams chat (chat) table extends the [Microsoft Dynamics 365 Teams chat (chat) table](/dynamics365/developer/entities//chat).
+> The Microsoft Dynamics 365 Customer Service Teams chat (chat) table extends the [Microsoft Dynamics 365 Teams chat (chat) table](/dynamics365/developer/entities/chat).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 Entity that defines pricing levels.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Price List (PriceLevel) table extends the [Microsoft Dynamics 365 Price List (PriceLevel) table](/dynamics365/developer/entities//pricelevel).
+> The Microsoft Dynamics 365 Customer Service Price List (PriceLevel) table extends the [Microsoft Dynamics 365 Price List (PriceLevel) table](/dynamics365/developer/entities/pricelevel).
 
 
 

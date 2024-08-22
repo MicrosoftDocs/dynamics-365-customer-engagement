@@ -15,7 +15,7 @@ search.audienceType:
 Stores the details of the activities to be created when a playbook is launched.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Playbook activity (msdyn_playbookactivity) table extends the [Microsoft Dynamics 365 Playbook activity (msdyn_playbookactivity) table](/dynamics365/developer/entities//msdyn_playbookactivity).
+> The Microsoft Dynamics 365 Field Service Playbook activity (msdyn_playbookactivity) table extends the [Microsoft Dynamics 365 Playbook activity (msdyn_playbookactivity) table](/dynamics365/developer/entities/msdyn_playbookactivity).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_msdyn_activityType"></a> msdyn_activityType
 
-Changes from [msdyn_activityType (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_playbookactivity#BKMK_msdyn_activityType)
+Changes from [msdyn_activityType (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_playbookactivity#BKMK_msdyn_activityType)
 
 #### msdyn_activityType Choices/Options
 
@@ -953,6 +953,23 @@ Changes from [msdyn_activityType (Microsoft Dynamics 365)](/dynamics365/develope
 |11133|**Predictive Work Hour Duration Setting**|
 |11134|**Field Service Summary Configuration**|
 |11135|**MobileSource**|
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_msdyn_playbooktemplate_msdyn_playbookactivity"></a> msdyn_playbooktemplate_msdyn_playbookactivity
+
+One-To-Many Relationship: [msdyn_playbooktemplate msdyn_playbooktemplate_msdyn_playbookactivity](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_msdyn_playbookactivity)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_playbooktemplate`|
+|ReferencedAttribute|`msdyn_playbooktemplateid`|
+|ReferencingAttribute|`msdyn_playbooktemplateid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_playbooktemplateid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 
 
 

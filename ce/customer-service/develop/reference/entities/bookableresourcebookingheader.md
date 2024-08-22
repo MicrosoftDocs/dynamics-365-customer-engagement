@@ -15,7 +15,7 @@ search.audienceType:
 Reservation entity representing the summary of the associated resource bookings.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Bookable Resource Booking Header (BookableResourceBookingHeader) table extends the [Microsoft Dynamics 365 Bookable Resource Booking Header (BookableResourceBookingHeader) table](/dynamics365/developer/entities//bookableresourcebookingheader).
+> The Microsoft Dynamics 365 Customer Service Bookable Resource Booking Header (BookableResourceBookingHeader) table extends the [Microsoft Dynamics 365 Bookable Resource Booking Header (BookableResourceBookingHeader) table](/dynamics365/developer/entities/bookableresourcebookingheader).
 
 
 

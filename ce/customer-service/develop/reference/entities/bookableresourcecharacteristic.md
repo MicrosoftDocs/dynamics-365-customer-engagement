@@ -15,7 +15,7 @@ search.audienceType:
 Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Bookable Resource Characteristic (BookableResourceCharacteristic) table extends the [Microsoft Dynamics 365 Bookable Resource Characteristic (BookableResourceCharacteristic) table](/dynamics365/developer/entities//bookableresourcecharacteristic).
+> The Microsoft Dynamics 365 Customer Service Bookable Resource Characteristic (BookableResourceCharacteristic) table extends the [Microsoft Dynamics 365 Bookable Resource Characteristic (BookableResourceCharacteristic) table](/dynamics365/developer/entities/bookableresourcecharacteristic).
 
 
 

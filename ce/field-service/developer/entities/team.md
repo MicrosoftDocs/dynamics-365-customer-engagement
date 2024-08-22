@@ -15,7 +15,7 @@ search.audienceType:
 Collection of system users that routinely collaborate. Teams can be used to simplify record sharing and provide team members with common access to organization data when team members belong to different Business Units.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Team table extends the [Microsoft Dataverse Team table](/power-apps/developer/data-platform/reference/entities/team).
+> The Microsoft Dynamics 365 Field Service Team table extends the [Microsoft Dynamics 365 Team table](/dynamics365/developer/entities/team).
 
 
 
@@ -37,6 +37,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [team_msdyn_agreementinvoiceproduct](#BKMK_team_msdyn_agreementinvoiceproduct)
 - [team_msdyn_agreementinvoicesetup](#BKMK_team_msdyn_agreementinvoicesetup)
 - [team_msdyn_agreementsubstatus](#BKMK_team_msdyn_agreementsubstatus)
+- [team_msdyn_analyticsforcs](#BKMK_team_msdyn_analyticsforcs)
 - [team_msdyn_bookableresourceassociation](#BKMK_team_msdyn_bookableresourceassociation)
 - [team_msdyn_bookableresourcebookingquicknote](#BKMK_team_msdyn_bookableresourcebookingquicknote)
 - [team_msdyn_bookingalertstatus](#BKMK_team_msdyn_bookingalertstatus)
@@ -48,6 +49,9 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [team_msdyn_businessclosure](#BKMK_team_msdyn_businessclosure)
 - [team_msdyn_clientextension](#BKMK_team_msdyn_clientextension)
 - [team_msdyn_configuration](#BKMK_team_msdyn_configuration)
+- [team_msdyn_consoleapplicationsessiontemplate](#BKMK_team_msdyn_consoleapplicationsessiontemplate)
+- [team_msdyn_consoleapplicationtemplate](#BKMK_team_msdyn_consoleapplicationtemplate)
+- [team_msdyn_consoleapplicationtemplateparameter](#BKMK_team_msdyn_consoleapplicationtemplateparameter)
 - [team_msdyn_entitlementapplication](#BKMK_team_msdyn_entitlementapplication)
 - [team_msdyn_entityconfiguration](#BKMK_team_msdyn_entityconfiguration)
 - [team_msdyn_fieldservicesetting](#BKMK_team_msdyn_fieldservicesetting)
@@ -87,6 +91,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [team_msdyn_paymentdetail](#BKMK_team_msdyn_paymentdetail)
 - [team_msdyn_paymentmethod](#BKMK_team_msdyn_paymentmethod)
 - [team_msdyn_paymentterm](#BKMK_team_msdyn_paymentterm)
+- [team_msdyn_playbookcategory](#BKMK_team_msdyn_playbookcategory)
+- [team_msdyn_playbooktemplate](#BKMK_team_msdyn_playbooktemplate)
 - [team_msdyn_postalcode](#BKMK_team_msdyn_postalcode)
 - [team_msdyn_priority](#BKMK_team_msdyn_priority)
 - [team_msdyn_problematicasset](#BKMK_team_msdyn_problematicasset)
@@ -129,10 +135,13 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [team_msdyn_scheduleboardsetting](#BKMK_team_msdyn_scheduleboardsetting)
 - [team_msdyn_schedulingfeatureflag](#BKMK_team_msdyn_schedulingfeatureflag)
 - [team_msdyn_servicetasktype](#BKMK_team_msdyn_servicetasktype)
+- [team_msdyn_sessiondata](#BKMK_team_msdyn_sessiondata)
+- [team_msdyn_sessionparticipantdata](#BKMK_team_msdyn_sessionparticipantdata)
 - [team_msdyn_shipvia](#BKMK_team_msdyn_shipvia)
 - [team_msdyn_systemuserschedulersetting](#BKMK_team_msdyn_systemuserschedulersetting)
 - [team_msdyn_taxcode](#BKMK_team_msdyn_taxcode)
 - [team_msdyn_taxcodedetail](#BKMK_team_msdyn_taxcodedetail)
+- [team_msdyn_templatetags](#BKMK_team_msdyn_templatetags)
 - [team_msdyn_timeentry](#BKMK_team_msdyn_timeentry)
 - [team_msdyn_timeentrysetting](#BKMK_team_msdyn_timeentrysetting)
 - [team_msdyn_timegroup](#BKMK_team_msdyn_timegroup)
@@ -311,6 +320,18 @@ Many-To-One Relationship: [msdyn_agreementsubstatus team_msdyn_agreementsubstatu
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_team_msdyn_analyticsforcs"></a> team_msdyn_analyticsforcs
+
+Many-To-One Relationship: [msdyn_analyticsforcs team_msdyn_analyticsforcs](msdyn_analyticsforcs.md#BKMK_team_msdyn_analyticsforcs)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_analyticsforcs`|
+|ReferencingAttribute|`owningteam`|
+|ReferencedEntityNavigationPropertyName|`team_msdyn_analyticsforcs`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_team_msdyn_bookableresourceassociation"></a> team_msdyn_bookableresourceassociation
 
 Many-To-One Relationship: [msdyn_bookableresourceassociation team_msdyn_bookableresourceassociation](msdyn_bookableresourceassociation.md#BKMK_team_msdyn_bookableresourceassociation)
@@ -440,6 +461,42 @@ Many-To-One Relationship: [msdyn_configuration team_msdyn_configuration](msdyn_c
 |ReferencingEntity|`msdyn_configuration`|
 |ReferencingAttribute|`owningteam`|
 |ReferencedEntityNavigationPropertyName|`team_msdyn_configuration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_team_msdyn_consoleapplicationsessiontemplate"></a> team_msdyn_consoleapplicationsessiontemplate
+
+Many-To-One Relationship: [msdyn_consoleapplicationsessiontemplate team_msdyn_consoleapplicationsessiontemplate](msdyn_consoleapplicationsessiontemplate.md#BKMK_team_msdyn_consoleapplicationsessiontemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_consoleapplicationsessiontemplate`|
+|ReferencingAttribute|`owningteam`|
+|ReferencedEntityNavigationPropertyName|`team_msdyn_consoleapplicationsessiontemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_team_msdyn_consoleapplicationtemplate"></a> team_msdyn_consoleapplicationtemplate
+
+Many-To-One Relationship: [msdyn_consoleapplicationtemplate team_msdyn_consoleapplicationtemplate](msdyn_consoleapplicationtemplate.md#BKMK_team_msdyn_consoleapplicationtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_consoleapplicationtemplate`|
+|ReferencingAttribute|`owningteam`|
+|ReferencedEntityNavigationPropertyName|`team_msdyn_consoleapplicationtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_team_msdyn_consoleapplicationtemplateparameter"></a> team_msdyn_consoleapplicationtemplateparameter
+
+Many-To-One Relationship: [msdyn_consoleapplicationtemplateparameter team_msdyn_consoleapplicationtemplateparameter](msdyn_consoleapplicationtemplateparameter.md#BKMK_team_msdyn_consoleapplicationtemplateparameter)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_consoleapplicationtemplateparameter`|
+|ReferencingAttribute|`owningteam`|
+|ReferencedEntityNavigationPropertyName|`team_msdyn_consoleapplicationtemplateparameter`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -909,6 +966,30 @@ Many-To-One Relationship: [msdyn_paymentterm team_msdyn_paymentterm](msdyn_payme
 |ReferencingAttribute|`owningteam`|
 |ReferencedEntityNavigationPropertyName|`team_msdyn_paymentterm`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_team_msdyn_playbookcategory"></a> team_msdyn_playbookcategory
+
+Many-To-One Relationship: [msdyn_playbookcategory team_msdyn_playbookcategory](msdyn_playbookcategory.md#BKMK_team_msdyn_playbookcategory)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_playbookcategory`|
+|ReferencingAttribute|`owningteam`|
+|ReferencedEntityNavigationPropertyName|`team_msdyn_playbookcategory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_team_msdyn_playbooktemplate"></a> team_msdyn_playbooktemplate
+
+Many-To-One Relationship: [msdyn_playbooktemplate team_msdyn_playbooktemplate](msdyn_playbooktemplate.md#BKMK_team_msdyn_playbooktemplate)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_playbooktemplate`|
+|ReferencingAttribute|`owningteam`|
+|ReferencedEntityNavigationPropertyName|`team_msdyn_playbooktemplate`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_team_msdyn_postalcode"></a> team_msdyn_postalcode
@@ -1415,6 +1496,30 @@ Many-To-One Relationship: [msdyn_servicetasktype team_msdyn_servicetasktype](msd
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_team_msdyn_sessiondata"></a> team_msdyn_sessiondata
+
+Many-To-One Relationship: [msdyn_sessiondata team_msdyn_sessiondata](msdyn_sessiondata.md#BKMK_team_msdyn_sessiondata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sessiondata`|
+|ReferencingAttribute|`owningteam`|
+|ReferencedEntityNavigationPropertyName|`team_msdyn_sessiondata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_team_msdyn_sessionparticipantdata"></a> team_msdyn_sessionparticipantdata
+
+Many-To-One Relationship: [msdyn_sessionparticipantdata team_msdyn_sessionparticipantdata](msdyn_sessionparticipantdata.md#BKMK_team_msdyn_sessionparticipantdata)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sessionparticipantdata`|
+|ReferencingAttribute|`owningteam`|
+|ReferencedEntityNavigationPropertyName|`team_msdyn_sessionparticipantdata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_team_msdyn_shipvia"></a> team_msdyn_shipvia
 
 Many-To-One Relationship: [msdyn_shipvia team_msdyn_shipvia](msdyn_shipvia.md#BKMK_team_msdyn_shipvia)
@@ -1460,6 +1565,18 @@ Many-To-One Relationship: [msdyn_taxcodedetail team_msdyn_taxcodedetail](msdyn_t
 |ReferencingEntity|`msdyn_taxcodedetail`|
 |ReferencingAttribute|`owningteam`|
 |ReferencedEntityNavigationPropertyName|`team_msdyn_taxcodedetail`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_team_msdyn_templatetags"></a> team_msdyn_templatetags
+
+Many-To-One Relationship: [msdyn_templatetags team_msdyn_templatetags](msdyn_templatetags.md#BKMK_team_msdyn_templatetags)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_templatetags`|
+|ReferencingAttribute|`owningteam`|
+|ReferencedEntityNavigationPropertyName|`team_msdyn_templatetags`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

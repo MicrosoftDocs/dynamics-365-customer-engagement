@@ -15,7 +15,7 @@ search.audienceType:
 Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Service Activity (ServiceAppointment) table extends the [Microsoft Dynamics 365 Service Activity (ServiceAppointment) table](/dynamics365/developer/entities//serviceappointment).
+> The Microsoft Dynamics 365 Customer Service Service Activity (ServiceAppointment) table extends the [Microsoft Dynamics 365 Service Activity (ServiceAppointment) table](/dynamics365/developer/entities/serviceappointment).
 
 
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//serviceappointment#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/serviceappointment#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|
@@ -56,7 +56,7 @@ Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/enti
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities//serviceappointment#BKMK_RegardingObjectId)
+Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities/serviceappointment#BKMK_RegardingObjectId)
 
 |Property|Value|
 |---|---|

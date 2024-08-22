@@ -15,7 +15,7 @@ search.audienceType:
 Information about products and their pricing information.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Product table extends the [Microsoft Dynamics 365 Product table](/dynamics365/developer/entities//product).
+> The Microsoft Dynamics 365 Field Service Product table extends the [Microsoft Dynamics 365 Product table](/dynamics365/developer/entities/product).
 
 
 
@@ -136,6 +136,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
+- [msdyn_account_product_DefaultVendor](#BKMK_msdyn_account_product_DefaultVendor)
+- [transactioncurrency_product](#BKMK_transactioncurrency_product)
+
 ### <a name="BKMK_msdyn_account_product_DefaultVendor"></a> msdyn_account_product_DefaultVendor
 
 One-To-Many Relationship: [account msdyn_account_product_DefaultVendor](account.md#BKMK_msdyn_account_product_DefaultVendor)
@@ -148,6 +151,19 @@ One-To-Many Relationship: [account msdyn_account_product_DefaultVendor](account.
 |ReferencingEntityNavigationPropertyName|`msdyn_defaultvendor`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `Cascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_transactioncurrency_product"></a> transactioncurrency_product
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_product](transactioncurrency.md#BKMK_transactioncurrency_product)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

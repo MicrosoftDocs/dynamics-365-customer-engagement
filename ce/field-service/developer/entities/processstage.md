@@ -15,7 +15,7 @@ search.audienceType:
 Stage associated with a process.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Process Stage (ProcessStage) table extends the [Microsoft Dataverse Process Stage (ProcessStage) table](/power-apps/developer/data-platform/reference/entities/processstage).
+> The Microsoft Dynamics 365 Field Service Process Stage (ProcessStage) table extends the [Microsoft Dynamics 365 Process Stage (ProcessStage) table](/dynamics365/developer/entities/processstage).
 
 
 

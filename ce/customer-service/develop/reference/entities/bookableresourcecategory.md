@@ -15,7 +15,7 @@ search.audienceType:
 Categorize resources that have capacity into categories such as roles.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Bookable Resource Category (BookableResourceCategory) table extends the [Microsoft Dynamics 365 Bookable Resource Category (BookableResourceCategory) table](/dynamics365/developer/entities//bookableresourcecategory).
+> The Microsoft Dynamics 365 Customer Service Bookable Resource Category (BookableResourceCategory) table extends the [Microsoft Dynamics 365 Bookable Resource Category (BookableResourceCategory) table](/dynamics365/developer/entities/bookableresourcecategory).
 
 
 

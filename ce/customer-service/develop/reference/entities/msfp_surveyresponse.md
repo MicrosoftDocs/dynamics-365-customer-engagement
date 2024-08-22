@@ -15,7 +15,7 @@ search.audienceType:
 Response to a survey.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Customer Voice survey response (msfp_surveyresponse) table extends the [Microsoft Dynamics 365 Customer Voice survey response (msfp_surveyresponse) table](/dynamics365/developer/entities//msfp_surveyresponse).
+> The Microsoft Dynamics 365 Customer Service Customer Voice survey response (msfp_surveyresponse) table extends the [Microsoft Dynamics 365 Customer Voice survey response (msfp_surveyresponse) table](/dynamics365/developer/entities/msfp_surveyresponse).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities//msfp_surveyresponse#BKMK_RegardingObjectId)
+Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities/msfp_surveyresponse#BKMK_RegardingObjectId)
 
 |Property|Value|
 |---|---|

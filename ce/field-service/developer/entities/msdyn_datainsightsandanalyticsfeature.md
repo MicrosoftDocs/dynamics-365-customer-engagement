@@ -15,7 +15,7 @@ search.audienceType:
 Analytics and insights feature entity
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Insights (msdyn_datainsightsandanalyticsfeature) table extends the [Microsoft Dynamics 365 Insights (msdyn_datainsightsandanalyticsfeature) table](/dynamics365/developer/entities//msdyn_datainsightsandanalyticsfeature).
+> The Microsoft Dynamics 365 Field Service Insights (msdyn_datainsightsandanalyticsfeature) table extends the [Microsoft Dynamics 365 Insights (msdyn_datainsightsandanalyticsfeature) table](/dynamics365/developer/entities/msdyn_datainsightsandanalyticsfeature).
 
 
 

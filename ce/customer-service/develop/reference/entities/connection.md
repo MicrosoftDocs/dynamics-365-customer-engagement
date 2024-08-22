@@ -15,7 +15,7 @@ search.audienceType:
 Relationship between two entities.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Connection table extends the [Microsoft Dynamics 365 Connection table](/dynamics365/developer/entities//connection).
+> The Microsoft Dynamics 365 Customer Service Connection table extends the [Microsoft Dynamics 365 Connection table](/dynamics365/developer/entities/connection).
 
 
 

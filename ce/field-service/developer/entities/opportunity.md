@@ -15,7 +15,7 @@ search.audienceType:
 Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Opportunity table extends the [Microsoft Dynamics 365 Opportunity table](/dynamics365/developer/entities//opportunity).
+> The Microsoft Dynamics 365 Field Service Opportunity table extends the [Microsoft Dynamics 365 Opportunity table](/dynamics365/developer/entities/opportunity).
 
 
 
@@ -65,6 +65,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
+- [msdyn_msdyn_workordertype_opportunity_WorkOrderType](#BKMK_msdyn_msdyn_workordertype_opportunity_WorkOrderType)
+- [transactioncurrency_opportunity](#BKMK_transactioncurrency_opportunity)
+
 ### <a name="BKMK_msdyn_msdyn_workordertype_opportunity_WorkOrderType"></a> msdyn_msdyn_workordertype_opportunity_WorkOrderType
 
 One-To-Many Relationship: [msdyn_workordertype msdyn_msdyn_workordertype_opportunity_WorkOrderType](msdyn_workordertype.md#BKMK_msdyn_msdyn_workordertype_opportunity_WorkOrderType)
@@ -77,6 +80,19 @@ One-To-Many Relationship: [msdyn_workordertype msdyn_msdyn_workordertype_opportu
 |ReferencingEntityNavigationPropertyName|`msdyn_workordertype`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_transactioncurrency_opportunity"></a> transactioncurrency_opportunity
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_opportunity](transactioncurrency.md#BKMK_transactioncurrency_opportunity)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

@@ -15,7 +15,7 @@ search.audienceType:
 Unit of measure.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Unit (UoM) table extends the [Microsoft Dynamics 365 Unit (UoM) table](/dynamics365/developer/entities//uom).
+> The Microsoft Dynamics 365 Customer Service Unit (UoM) table extends the [Microsoft Dynamics 365 Unit (UoM) table](/dynamics365/developer/entities/uom).
 
 
 

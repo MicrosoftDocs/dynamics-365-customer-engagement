@@ -15,7 +15,7 @@ search.audienceType:
 Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service User (SystemUser) table extends the [Microsoft Dynamics 365 User (SystemUser) table](/dynamics365/developer/entities//systemuser).
+> The Microsoft Dynamics 365 Customer Service User (SystemUser) table extends the [Microsoft Dynamics 365 User (SystemUser) table](/dynamics365/developer/entities/systemuser).
 
 
 ## Messages

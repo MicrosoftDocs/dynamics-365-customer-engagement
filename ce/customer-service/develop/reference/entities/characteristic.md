@@ -15,7 +15,7 @@ search.audienceType:
 Skills, education and certifications of resources.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Characteristic table extends the [Microsoft Dynamics 365 Characteristic table](/dynamics365/developer/entities//characteristic).
+> The Microsoft Dynamics 365 Customer Service Characteristic table extends the [Microsoft Dynamics 365 Characteristic table](/dynamics365/developer/entities/characteristic).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 Defines the amount and type of support a customer should receive.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Entitlement table extends the [Microsoft Dynamics 365 Entitlement table](/dynamics365/developer/entities//entitlement).
+> The Microsoft Dynamics 365 Field Service Entitlement table extends the [Microsoft Dynamics 365 Entitlement table](/dynamics365/developer/entities/entitlement).
 
 
 
@@ -104,7 +104,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_AllocationTypeCode"></a> AllocationTypeCode
 
-Changes from [AllocationTypeCode (Microsoft Dynamics 365)](/dynamics365/developer/entities//entitlement#BKMK_AllocationTypeCode)
+Changes from [AllocationTypeCode (Microsoft Dynamics 365)](/dynamics365/developer/entities/entitlement#BKMK_AllocationTypeCode)
 
 #### AllocationTypeCode Choices/Options
 
@@ -114,7 +114,7 @@ Changes from [AllocationTypeCode (Microsoft Dynamics 365)](/dynamics365/develope
 
 ### <a name="BKMK_entitytype"></a> entitytype
 
-Changes from [entitytype (Microsoft Dynamics 365)](/dynamics365/developer/entities//entitlement#BKMK_entitytype)
+Changes from [entitytype (Microsoft Dynamics 365)](/dynamics365/developer/entities/entitlement#BKMK_entitytype)
 
 #### entitytype Choices/Options
 
@@ -124,7 +124,7 @@ Changes from [entitytype (Microsoft Dynamics 365)](/dynamics365/developer/entiti
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//entitlement#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/entitlement#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|
@@ -135,6 +135,9 @@ Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/enti
 ## Many-to-One relationships
 
 These relationships are many-to-one. Listed by **SchemaName**.
+
+- [msdyn_pricelevel_entitlement_PriceListToApply](#BKMK_msdyn_pricelevel_entitlement_PriceListToApply)
+- [TransactionCurrency_Entitlement](#BKMK_TransactionCurrency_Entitlement)
 
 ### <a name="BKMK_msdyn_pricelevel_entitlement_PriceListToApply"></a> msdyn_pricelevel_entitlement_PriceListToApply
 
@@ -148,6 +151,19 @@ One-To-Many Relationship: [pricelevel msdyn_pricelevel_entitlement_PriceListToAp
 |ReferencingEntityNavigationPropertyName|`new_PriceListToApply`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_TransactionCurrency_Entitlement"></a> TransactionCurrency_Entitlement
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_Entitlement](transactioncurrency.md#BKMK_TransactionCurrency_Entitlement)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

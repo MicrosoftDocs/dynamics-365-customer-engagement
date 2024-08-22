@@ -15,7 +15,7 @@ search.audienceType:
 Entity to store the events that happen during usage of Power Automate.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Flow Event (flowevent) table extends the [Microsoft Dynamics 365 Flow Event (flowevent) table](/dynamics365/developer/entities//flowevent).
+> The Microsoft Dynamics 365 Customer Service Flow Event (flowevent) table extends the [Microsoft Dynamics 365 Flow Event (flowevent) table](/dynamics365/developer/entities/flowevent).
 
 
 

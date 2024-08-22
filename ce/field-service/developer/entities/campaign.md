@@ -15,9 +15,27 @@ search.audienceType:
 Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Campaign table extends the [Microsoft Dynamics 365 Campaign table](/dynamics365/developer/entities//campaign).
+> The Microsoft Dynamics 365 Field Service Campaign table extends the [Microsoft Dynamics 365 Campaign table](/dynamics365/developer/entities/campaign).
 
 
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_transactioncurrency_campaign"></a> transactioncurrency_campaign
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_campaign](transactioncurrency.md#BKMK_transactioncurrency_campaign)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

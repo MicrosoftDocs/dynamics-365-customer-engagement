@@ -15,7 +15,7 @@ search.audienceType:
 Quote that has been accepted.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Order (SalesOrder) table extends the [Microsoft Dynamics 365 Order (SalesOrder) table](/dynamics365/developer/entities//salesorder).
+> The Microsoft Dynamics 365 Customer Service Order (SalesOrder) table extends the [Microsoft Dynamics 365 Order (SalesOrder) table](/dynamics365/developer/entities/salesorder).
 
 
 

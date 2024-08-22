@@ -15,7 +15,7 @@ search.audienceType:
 Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Bookable Resource Characteristic (BookableResourceCharacteristic) table extends the [Microsoft Dynamics 365 Bookable Resource Characteristic (BookableResourceCharacteristic) table](/dynamics365/developer/entities//bookableresourcecharacteristic).
+> The Microsoft Dynamics 365 Field Service Bookable Resource Characteristic (BookableResourceCharacteristic) table extends the [Microsoft Dynamics 365 Bookable Resource Characteristic (BookableResourceCharacteristic) table](/dynamics365/developer/entities/bookableresourcecharacteristic).
 
 
 
@@ -96,6 +96,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_TransactionCurrency_bookableresourcecharacteristic"></a> TransactionCurrency_bookableresourcecharacteristic
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_bookableresourcecharacteristic](transactioncurrency.md#BKMK_TransactionCurrency_bookableresourcecharacteristic)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 

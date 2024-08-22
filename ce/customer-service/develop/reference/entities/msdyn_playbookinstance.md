@@ -15,7 +15,7 @@ search.audienceType:
 Actual instance of a playbook template once it is launched.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Playbook (msdyn_playbookinstance) table extends the [Microsoft Dynamics 365 Playbook (msdyn_playbookinstance) table](/dynamics365/developer/entities//msdyn_playbookinstance).
+> The Microsoft Dynamics 365 Customer Service Playbook (msdyn_playbookinstance) table extends the [Microsoft Dynamics 365 Playbook (msdyn_playbookinstance) table](/dynamics365/developer/entities/msdyn_playbookinstance).
 
 
 

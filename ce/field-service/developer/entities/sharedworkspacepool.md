@@ -15,7 +15,7 @@ search.audienceType:
 Contains metadata about a container used to store real-time collaboration data. Once claimed, a sharedworkspace record would be created with copied metadata.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Shared Workspace Pool (sharedworkspacepool) table extends the [Microsoft Dataverse Shared Workspace Pool (sharedworkspacepool) table](/power-apps/developer/data-platform/reference/entities/sharedworkspacepool).
+> The Microsoft Dynamics 365 Field Service Shared Workspace Pool (sharedworkspacepool) table extends the [Microsoft Dynamics 365 Shared Workspace Pool (sharedworkspacepool) table](/dynamics365/developer/entities/sharedworkspacepool).
 
 
 

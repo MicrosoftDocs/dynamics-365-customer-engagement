@@ -15,7 +15,7 @@ search.audienceType:
 Potential duplicate record.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Duplicate Record (DuplicateRecord) table extends the [Microsoft Dynamics 365 Duplicate Record (DuplicateRecord) table](/dynamics365/developer/entities//duplicaterecord).
+> The Microsoft Dynamics 365 Customer Service Duplicate Record (DuplicateRecord) table extends the [Microsoft Dynamics 365 Duplicate Record (DuplicateRecord) table](/dynamics365/developer/entities/duplicaterecord).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 Activity that tracks a survey invitation sent to a person.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Customer Voice survey invite (msfp_surveyinvite) table extends the [Microsoft Dynamics 365 Customer Voice survey invite (msfp_surveyinvite) table](/dynamics365/developer/entities//msfp_surveyinvite).
+> The Microsoft Dynamics 365 Customer Service Customer Voice survey invite (msfp_surveyinvite) table extends the [Microsoft Dynamics 365 Customer Voice survey invite (msfp_surveyinvite) table](/dynamics365/developer/entities/msfp_surveyinvite).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities//msfp_surveyinvite#BKMK_RegardingObjectId)
+Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities/msfp_surveyinvite#BKMK_RegardingObjectId)
 
 |Property|Value|
 |---|---|

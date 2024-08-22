@@ -15,7 +15,7 @@ search.audienceType:
 Phone To Case Process Business Process Flow
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Phone To Case Process (PhoneToCaseProcess) table extends the [Microsoft Dynamics 365 Phone To Case Process (PhoneToCaseProcess) table](/dynamics365/developer/entities//phonetocaseprocess).
+> The Microsoft Dynamics 365 Customer Service Phone To Case Process (PhoneToCaseProcess) table extends the [Microsoft Dynamics 365 Phone To Case Process (PhoneToCaseProcess) table](/dynamics365/developer/entities/phonetocaseprocess).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//phonetocaseprocess#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/phonetocaseprocess#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|

@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Solution Component Attribute Configuration (solutioncomponentattributeconfiguration) table extends the [Microsoft Dynamics 365 Solution Component Attribute Configuration (solutioncomponentattributeconfiguration) table](/dynamics365/developer/entities//solutioncomponentattributeconfiguration).
+> The Microsoft Dynamics 365 Customer Service Solution Component Attribute Configuration (solutioncomponentattributeconfiguration) table extends the [Microsoft Dynamics 365 Solution Component Attribute Configuration (solutioncomponentattributeconfiguration) table](/dynamics365/developer/entities/solutioncomponentattributeconfiguration).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 Defines secured masking rule for column
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Secured Masking Column (AttributeMaskingRule) table extends the [Microsoft Dynamics 365 Secured Masking Column (AttributeMaskingRule) table](/dynamics365/developer/entities//attributemaskingrule).
+> The Microsoft Dynamics 365 Customer Service Secured Masking Column (AttributeMaskingRule) table extends the [Microsoft Dynamics 365 Secured Masking Column (AttributeMaskingRule) table](/dynamics365/developer/entities/attributemaskingrule).
 
 
 ## Properties

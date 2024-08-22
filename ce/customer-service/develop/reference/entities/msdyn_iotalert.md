@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service IoT Alert (msdyn_iotalert) table extends the [Microsoft Dynamics 365 IoT Alert (msdyn_iotalert) table](/dynamics365/developer/entities//msdyn_iotalert).
+> The Microsoft Dynamics 365 Customer Service IoT Alert (msdyn_iotalert) table extends the [Microsoft Dynamics 365 IoT Alert (msdyn_iotalert) table](/dynamics365/developer/entities/msdyn_iotalert).
 
 
 ## Messages

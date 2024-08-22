@@ -15,7 +15,7 @@ search.audienceType:
 Associates resources with resource groups that they are a member of.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Bookable Resource Group (BookableResourceGroup) table extends the [Microsoft Dynamics 365 Bookable Resource Group (BookableResourceGroup) table](/dynamics365/developer/entities//bookableresourcegroup).
+> The Microsoft Dynamics 365 Field Service Bookable Resource Group (BookableResourceGroup) table extends the [Microsoft Dynamics 365 Bookable Resource Group (BookableResourceGroup) table](/dynamics365/developer/entities/bookableresourcegroup).
 
 
 
@@ -65,6 +65,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1048576|
 
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_TransactionCurrency_bookableresourcegroup"></a> TransactionCurrency_bookableresourcegroup
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_bookableresourcegroup](transactioncurrency.md#BKMK_TransactionCurrency_bookableresourcegroup)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 

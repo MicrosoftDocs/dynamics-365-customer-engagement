@@ -15,7 +15,7 @@ search.audienceType:
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Contact table extends the [Microsoft Dataverse Contact table](/power-apps/developer/data-platform/reference/entities/contact).
+> The Microsoft Dynamics 365 Field Service Contact table extends the [Microsoft Dynamics 365 Contact table](/dynamics365/developer/entities/contact).
 
 
 

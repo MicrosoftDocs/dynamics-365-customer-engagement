@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service External context (msdyn_ocexternalcontext) table extends the [Microsoft Dynamics 365 External context (msdyn_ocexternalcontext) table](/dynamics365/developer/entities//msdyn_ocexternalcontext).
+> The Microsoft Dynamics 365 Customer Service External context (msdyn_ocexternalcontext) table extends the [Microsoft Dynamics 365 External context (msdyn_ocexternalcontext) table](/dynamics365/developer/entities/msdyn_ocexternalcontext).
 
 
 ## Messages

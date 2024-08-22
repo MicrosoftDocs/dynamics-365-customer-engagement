@@ -15,7 +15,7 @@ search.audienceType:
 Agreement to provide customer service during a specified amount of time or number of cases.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Contract table extends the [Microsoft Dynamics 365 Contract table](/dynamics365/developer/entities//contract).
+> The Microsoft Dynamics 365 Customer Service Contract table extends the [Microsoft Dynamics 365 Contract table](/dynamics365/developer/entities/contract).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//contract#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/contract#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|

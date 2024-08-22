@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Publishing State Transition Rule (mspp_publishingstatetransitionrule) table extends the [Microsoft Dynamics 365 Publishing State Transition Rule (mspp_publishingstatetransitionrule) table](/dynamics365/developer/entities//mspp_publishingstatetransitionrule).
+> The Microsoft Dynamics 365 Customer Service Publishing State Transition Rule (mspp_publishingstatetransitionrule) table extends the [Microsoft Dynamics 365 Publishing State Transition Rule (mspp_publishingstatetransitionrule) table](/dynamics365/developer/entities/mspp_publishingstatetransitionrule).
 
 
 

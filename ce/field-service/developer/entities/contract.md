@@ -15,7 +15,7 @@ search.audienceType:
 Agreement to provide customer service during a specified amount of time or number of cases.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Contract table extends the [Microsoft Dynamics 365 Contract table](/dynamics365/developer/entities//contract).
+> The Microsoft Dynamics 365 Field Service Contract table extends the [Microsoft Dynamics 365 Contract table](/dynamics365/developer/entities/contract).
 
 
 
@@ -25,12 +25,30 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//contract#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/contract#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|
 |MinValue|1E-12|
 |Precision|12|
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_transactioncurrency_contract"></a> transactioncurrency_contract
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_contract](transactioncurrency.md#BKMK_transactioncurrency_contract)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Sales routing run (msdyn_salesroutingrun) table extends the [Microsoft Dynamics 365 Sales routing run (msdyn_salesroutingrun) table](/dynamics365/developer/entities//msdyn_salesroutingrun).
+> The Microsoft Dynamics 365 Customer Service Sales routing run (msdyn_salesroutingrun) table extends the [Microsoft Dynamics 365 Sales routing run (msdyn_salesroutingrun) table](/dynamics365/developer/entities/msdyn_salesroutingrun).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_statuscode"></a> statuscode
 
-Changes from [statuscode (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_salesroutingrun#BKMK_statuscode)
+Changes from [statuscode (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_salesroutingrun#BKMK_statuscode)
 
 #### statuscode Choices/Options
 

@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Playbook Callable Context (msdyn_callablecontext) table extends the [Microsoft Dynamics 365 Playbook Callable Context (msdyn_callablecontext) table](/dynamics365/developer/entities//msdyn_callablecontext).
+> The Microsoft Dynamics 365 Field Service Playbook Callable Context (msdyn_callablecontext) table extends the [Microsoft Dynamics 365 Playbook Callable Context (msdyn_callablecontext) table](/dynamics365/developer/entities/msdyn_callablecontext).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_msdyn_EntityOTC"></a> msdyn_EntityOTC
 
-Changes from [msdyn_EntityOTC (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_callablecontext#BKMK_msdyn_EntityOTC)
+Changes from [msdyn_EntityOTC (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_callablecontext#BKMK_msdyn_EntityOTC)
 
 #### msdyn_EntityOTC Choices/Options
 
@@ -953,6 +953,23 @@ Changes from [msdyn_EntityOTC (Microsoft Dynamics 365)](/dynamics365/developer/e
 |11133|**Predictive Work Hour Duration Setting**|
 |11134|**Field Service Summary Configuration**|
 |11135|**MobileSource**|
+
+## Many-to-Many relationships
+
+These relationships are many-to-many. Listed by **SchemaName**.
+
+### <a name="BKMK_msdyn_callablecontext_msdyn_playbooktemplate"></a> msdyn_callablecontext_msdyn_playbooktemplate
+
+See [msdyn_playbooktemplate msdyn_callablecontext_msdyn_playbooktemplate Many-To-Many Relationship](msdyn_playbooktemplate.md#BKMK_msdyn_callablecontext_msdyn_playbooktemplate)
+
+|Property|Value|
+|---|---|
+|IntersectEntityName|`msdyn_callablecontext_msdyn_playbooktemplate`|
+|IsCustomizable|False|
+|SchemaName|`msdyn_callablecontext_msdyn_playbooktemplate`|
+|IntersectAttribute|`msdyn_callablecontextid`|
+|NavigationPropertyName|`msdyn_callablecontext_msdyn_playbooktemplate`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

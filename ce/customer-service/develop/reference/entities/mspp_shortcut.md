@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Shortcut (mspp_shortcut) table extends the [Microsoft Dynamics 365 Shortcut (mspp_shortcut) table](/dynamics365/developer/entities//mspp_shortcut).
+> The Microsoft Dynamics 365 Customer Service Shortcut (mspp_shortcut) table extends the [Microsoft Dynamics 365 Shortcut (mspp_shortcut) table](/dynamics365/developer/entities/mspp_shortcut).
 
 
 

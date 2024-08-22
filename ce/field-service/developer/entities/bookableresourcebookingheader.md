@@ -15,7 +15,7 @@ search.audienceType:
 Reservation entity representing the summary of the associated resource bookings.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Bookable Resource Booking Header (BookableResourceBookingHeader) table extends the [Microsoft Dynamics 365 Bookable Resource Booking Header (BookableResourceBookingHeader) table](/dynamics365/developer/entities//bookableresourcebookingheader).
+> The Microsoft Dynamics 365 Field Service Bookable Resource Booking Header (BookableResourceBookingHeader) table extends the [Microsoft Dynamics 365 Bookable Resource Booking Header (BookableResourceBookingHeader) table](/dynamics365/developer/entities/bookableresourcebookingheader).
 
 
 
@@ -96,6 +96,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid](#BKMK_msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid)
 - [msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid](#BKMK_msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid)
 - [msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement](#BKMK_msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement)
+- [TransactionCurrency_bookableresourcebookingheader](#BKMK_TransactionCurrency_bookableresourcebookingheader)
 
 ### <a name="BKMK_msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid"></a> msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid
 
@@ -135,6 +136,19 @@ One-To-Many Relationship: [msdyn_resourcerequirement msdyn_resourcerequirement_b
 |ReferencingEntityNavigationPropertyName|`msdyn_ResourceRequirement`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_TransactionCurrency_bookableresourcebookingheader"></a> TransactionCurrency_bookableresourcebookingheader
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_bookableresourcebookingheader](transactioncurrency.md#BKMK_TransactionCurrency_bookableresourcebookingheader)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

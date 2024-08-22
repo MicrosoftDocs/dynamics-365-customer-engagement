@@ -15,7 +15,7 @@ search.audienceType:
 Action card entity to show action cards.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Action Card (ActionCard) table extends the [Microsoft Dataverse Action Card (ActionCard) table](/power-apps/developer/data-platform/reference/entities/actioncard).
+> The Microsoft Dynamics 365 Field Service Action Card (ActionCard) table extends the [Microsoft Dynamics 365 Action Card (ActionCard) table](/dynamics365/developer/entities/actioncard).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 AIPlugins component
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service AIPlugin table extends the [Microsoft Dynamics 365 AIPlugin table](/dynamics365/developer/entities//aiplugin).
+> The Microsoft Dynamics 365 Customer Service AIPlugin table extends the [Microsoft Dynamics 365 AIPlugin table](/dynamics365/developer/entities/aiplugin).
 
 
 

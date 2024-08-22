@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Copilot Transcript (msdyn_copilottranscript) table extends the [Microsoft Dynamics 365 Copilot Transcript (msdyn_copilottranscript) table](/dynamics365/developer/entities//msdyn_copilottranscript).
+> The Microsoft Dynamics 365 Field Service Copilot Transcript (msdyn_copilottranscript) table extends the [Microsoft Dynamics 365 Copilot Transcript (msdyn_copilottranscript) table](/dynamics365/developer/entities/msdyn_copilottranscript).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_copilottranscript#BKMK_RegardingObjectId)
+Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_copilottranscript#BKMK_RegardingObjectId)
 
 |Property|Value|
 |---|---|
@@ -49,6 +49,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_bookingalertstatus_msdyn_copilottranscripts](#BKMK_msdyn_bookingalertstatus_msdyn_copilottranscripts)
 - [msdyn_bookingrule_msdyn_copilottranscripts](#BKMK_msdyn_bookingrule_msdyn_copilottranscripts)
 - [msdyn_bookingtimestamp_msdyn_copilottranscripts](#BKMK_msdyn_bookingtimestamp_msdyn_copilottranscripts)
+- [msdyn_copilottranscript_transactioncurrency_transactioncurrencyid](#BKMK_msdyn_copilottranscript_transactioncurrency_transactioncurrencyid)
 - [msdyn_fieldservicesetting_msdyn_copilottranscripts](#BKMK_msdyn_fieldservicesetting_msdyn_copilottranscripts)
 - [msdyn_incidenttypecharacteristic_msdyn_copilottranscripts](#BKMK_msdyn_incidenttypecharacteristic_msdyn_copilottranscripts)
 - [msdyn_incidenttypeproduct_msdyn_copilottranscripts](#BKMK_msdyn_incidenttypeproduct_msdyn_copilottranscripts)
@@ -264,6 +265,19 @@ One-To-Many Relationship: [msdyn_bookingtimestamp msdyn_bookingtimestamp_msdyn_c
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_bookingtimestamp_msdyn_copilottranscript`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_copilottranscript_transactioncurrency_transactioncurrencyid"></a> msdyn_copilottranscript_transactioncurrency_transactioncurrencyid
+
+One-To-Many Relationship: [transactioncurrency msdyn_copilottranscript_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_msdyn_copilottranscript_transactioncurrency_transactioncurrencyid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_msdyn_copilottranscript`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_fieldservicesetting_msdyn_copilottranscripts"></a> msdyn_fieldservicesetting_msdyn_copilottranscripts
 

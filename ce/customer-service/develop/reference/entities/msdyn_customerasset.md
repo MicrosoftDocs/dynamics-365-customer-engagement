@@ -15,7 +15,7 @@ search.audienceType:
 Specify Customer Asset.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Customer Asset (msdyn_customerasset) table extends the [Microsoft Dynamics 365 Customer Asset (msdyn_customerasset) table](/dynamics365/developer/entities//msdyn_customerasset).
+> The Microsoft Dynamics 365 Customer Service Customer Asset (msdyn_customerasset) table extends the [Microsoft Dynamics 365 Customer Asset (msdyn_customerasset) table](/dynamics365/developer/entities/msdyn_customerasset).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 Contains predefined support terms for a channel to create entitlements for customers.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Entitlement Template Channel (EntitlementTemplateChannel) table extends the [Microsoft Dynamics 365 Entitlement Template Channel (EntitlementTemplateChannel) table](/dynamics365/developer/entities//entitlementtemplatechannel).
+> The Microsoft Dynamics 365 Customer Service Entitlement Template Channel (EntitlementTemplateChannel) table extends the [Microsoft Dynamics 365 Entitlement Template Channel (EntitlementTemplateChannel) table](/dynamics365/developer/entities/entitlementtemplatechannel).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//entitlementtemplatechannel#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/entitlementtemplatechannel#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|

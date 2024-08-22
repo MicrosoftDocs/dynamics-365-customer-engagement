@@ -15,7 +15,7 @@ search.audienceType:
 Grouping of units.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Unit Group (UoMSchedule) table extends the [Microsoft Dynamics 365 Unit Group (UoMSchedule) table](/dynamics365/developer/entities//uomschedule).
+> The Microsoft Dynamics 365 Customer Service Unit Group (UoMSchedule) table extends the [Microsoft Dynamics 365 Unit Group (UoMSchedule) table](/dynamics365/developer/entities/uomschedule).
 
 
 

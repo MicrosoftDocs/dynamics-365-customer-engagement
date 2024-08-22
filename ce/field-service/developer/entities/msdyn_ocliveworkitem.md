@@ -15,7 +15,7 @@ search.audienceType:
 Tracks the interaction between the agents and customer
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Conversation (msdyn_ocliveworkitem) table extends the [Microsoft Dynamics 365 Conversation (msdyn_ocliveworkitem) table](/dynamics365/developer/entities//msdyn_ocliveworkitem).
+> The Microsoft Dynamics 365 Field Service Conversation (msdyn_ocliveworkitem) table extends the [Microsoft Dynamics 365 Conversation (msdyn_ocliveworkitem) table](/dynamics365/developer/entities/msdyn_ocliveworkitem).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_ocliveworkitem#BKMK_RegardingObjectId)
+Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_ocliveworkitem#BKMK_RegardingObjectId)
 
 |Property|Value|
 |---|---|
@@ -57,6 +57,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_inventoryadjustmentproduct_msdyn_ocliveworkitems](#BKMK_msdyn_inventoryadjustmentproduct_msdyn_ocliveworkitems)
 - [msdyn_inventoryjournal_msdyn_ocliveworkitems](#BKMK_msdyn_inventoryjournal_msdyn_ocliveworkitems)
 - [msdyn_inventorytransfer_msdyn_ocliveworkitems](#BKMK_msdyn_inventorytransfer_msdyn_ocliveworkitems)
+- [msdyn_ocliveworkitem_transactioncurrency_transactioncurrencyid](#BKMK_msdyn_ocliveworkitem_transactioncurrency_transactioncurrencyid)
 - [msdyn_payment_msdyn_ocliveworkitems](#BKMK_msdyn_payment_msdyn_ocliveworkitems)
 - [msdyn_paymentdetail_msdyn_ocliveworkitems](#BKMK_msdyn_paymentdetail_msdyn_ocliveworkitems)
 - [msdyn_paymentmethod_msdyn_ocliveworkitems](#BKMK_msdyn_paymentmethod_msdyn_ocliveworkitems)
@@ -368,6 +369,19 @@ One-To-Many Relationship: [msdyn_inventorytransfer msdyn_inventorytransfer_msdyn
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_inventorytransfer_msdyn_ocliveworkitem`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_ocliveworkitem_transactioncurrency_transactioncurrencyid"></a> msdyn_ocliveworkitem_transactioncurrency_transactioncurrencyid
+
+One-To-Many Relationship: [transactioncurrency msdyn_ocliveworkitem_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_msdyn_ocliveworkitem_transactioncurrency_transactioncurrencyid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_msdyn_ocliveworkitem`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_payment_msdyn_ocliveworkitems"></a> msdyn_payment_msdyn_ocliveworkitems
 

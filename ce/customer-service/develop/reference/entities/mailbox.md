@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Mailbox table extends the [Microsoft Dynamics 365 Mailbox table](/dynamics365/developer/entities//mailbox).
+> The Microsoft Dynamics 365 Customer Service Mailbox table extends the [Microsoft Dynamics 365 Mailbox table](/dynamics365/developer/entities/mailbox).
 
 
 

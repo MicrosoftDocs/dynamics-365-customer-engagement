@@ -15,7 +15,7 @@ search.audienceType:
 Holds information about the redemption of an invite.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Invite Redemption (adx_inviteredemption) table extends the [Microsoft Dynamics 365 Invite Redemption (adx_inviteredemption) table](/dynamics365/developer/entities//adx_inviteredemption).
+> The Microsoft Dynamics 365 Customer Service Invite Redemption (adx_inviteredemption) table extends the [Microsoft Dynamics 365 Invite Redemption (adx_inviteredemption) table](/dynamics365/developer/entities/adx_inviteredemption).
 
 
 

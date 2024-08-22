@@ -15,7 +15,7 @@ search.audienceType:
 Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Lead table extends the [Microsoft Dynamics 365 Lead table](/dynamics365/developer/entities//lead).
+> The Microsoft Dynamics 365 Field Service Lead table extends the [Microsoft Dynamics 365 Lead table](/dynamics365/developer/entities/lead).
 
 
 
@@ -43,6 +43,24 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |192350000|**Item based**|
 |690970002|**Service-Maintenance Based**|
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_transactioncurrency_lead"></a> transactioncurrency_lead
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_lead](transactioncurrency.md#BKMK_transactioncurrency_lead)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Copilot Transcript (msdyn_copilottranscript) table extends the [Microsoft Dynamics 365 Copilot Transcript (msdyn_copilottranscript) table](/dynamics365/developer/entities//msdyn_copilottranscript).
+> The Microsoft Dynamics 365 Customer Service Copilot Transcript (msdyn_copilottranscript) table extends the [Microsoft Dynamics 365 Copilot Transcript (msdyn_copilottranscript) table](/dynamics365/developer/entities/msdyn_copilottranscript).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_copilottranscript#BKMK_RegardingObjectId)
+Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_copilottranscript#BKMK_RegardingObjectId)
 
 |Property|Value|
 |---|---|

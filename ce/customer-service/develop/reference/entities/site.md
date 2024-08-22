@@ -15,7 +15,7 @@ search.audienceType:
 Location or branch office where an organization does business. An organization can have multiple sites.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Site table extends the [Microsoft Dynamics 365 Site table](/dynamics365/developer/entities//site).
+> The Microsoft Dynamics 365 Customer Service Site table extends the [Microsoft Dynamics 365 Site table](/dynamics365/developer/entities/site).
 
 
 

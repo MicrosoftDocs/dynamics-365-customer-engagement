@@ -15,7 +15,7 @@ search.audienceType:
 Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 entities.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Knowledge Base Record (KnowledgeBaseRecord) table extends the [Microsoft Dynamics 365 Knowledge Base Record (KnowledgeBaseRecord) table](/dynamics365/developer/entities//knowledgebaserecord).
+> The Microsoft Dynamics 365 Customer Service Knowledge Base Record (KnowledgeBaseRecord) table extends the [Microsoft Dynamics 365 Knowledge Base Record (KnowledgeBaseRecord) table](/dynamics365/developer/entities/knowledgebaserecord).
 
 
 

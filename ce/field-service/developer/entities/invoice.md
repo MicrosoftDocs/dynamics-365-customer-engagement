@@ -15,7 +15,7 @@ search.audienceType:
 Order that has been billed.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Invoice table extends the [Microsoft Dynamics 365 Invoice table](/dynamics365/developer/entities//invoice).
+> The Microsoft Dynamics 365 Field Service Invoice table extends the [Microsoft Dynamics 365 Invoice table](/dynamics365/developer/entities/invoice).
 
 
 
@@ -105,6 +105,24 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |MinValue|-922337203685477|
 |Precision|4|
 |PrecisionSource|2 (TransactionCurrency.CurrencyPrecision)|
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_transactioncurrency_invoice"></a> transactioncurrency_invoice
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_invoice](transactioncurrency.md#BKMK_transactioncurrency_invoice)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 
 ## One-to-Many relationships
 

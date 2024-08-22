@@ -15,7 +15,7 @@ search.audienceType:
 Set of logical rules that define the steps necessary to automate a specific business process, task, or set of actions to be performed.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Process (Workflow) table extends the [Microsoft Dynamics 365 Process (Workflow) table](/dynamics365/developer/entities//workflow).
+> The Microsoft Dynamics 365 Customer Service Process (Workflow) table extends the [Microsoft Dynamics 365 Process (Workflow) table](/dynamics365/developer/entities/workflow).
 
 
 

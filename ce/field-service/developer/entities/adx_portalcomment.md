@@ -15,7 +15,7 @@ search.audienceType:
 An activity which is used to share information between the user and the customer on the portal.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Portal Comment (adx_portalcomment) table extends the [Microsoft Dataverse Portal Comment (adx_portalcomment) table](/power-apps/developer/data-platform/reference/entities/adx_portalcomment).
+> The Microsoft Dynamics 365 Field Service Portal Comment (adx_portalcomment) table extends the [Microsoft Dynamics 365 Portal Comment (adx_portalcomment) table](/dynamics365/developer/entities/adx_portalcomment).
 
 
 

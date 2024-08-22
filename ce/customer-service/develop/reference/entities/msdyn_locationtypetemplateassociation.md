@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Functional Location Type Template Association (msdyn_locationtypetemplateassociation) table extends the [Microsoft Dynamics 365 Functional Location Type Template Association (msdyn_locationtypetemplateassociation) table](/dynamics365/developer/entities//msdyn_locationtypetemplateassociation).
+> The Microsoft Dynamics 365 Customer Service Functional Location Type Template Association (msdyn_locationtypetemplateassociation) table extends the [Microsoft Dynamics 365 Functional Location Type Template Association (msdyn_locationtypetemplateassociation) table](/dynamics365/developer/entities/msdyn_locationtypetemplateassociation).
 
 
 ## Messages

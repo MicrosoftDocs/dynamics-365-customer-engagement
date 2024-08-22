@@ -15,7 +15,7 @@ search.audienceType:
 Indicates the OmniChannel Model for the corresponding AI model
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Skill finder model (msdyn_ocskillidentmlmodel) table extends the [Microsoft Dynamics 365 Skill finder model (msdyn_ocskillidentmlmodel) table](/dynamics365/developer/entities//msdyn_ocskillidentmlmodel).
+> The Microsoft Dynamics 365 Customer Service Skill finder model (msdyn_ocskillidentmlmodel) table extends the [Microsoft Dynamics 365 Skill finder model (msdyn_ocskillidentmlmodel) table](/dynamics365/developer/entities/msdyn_ocskillidentmlmodel).
 
 
 ## Messages

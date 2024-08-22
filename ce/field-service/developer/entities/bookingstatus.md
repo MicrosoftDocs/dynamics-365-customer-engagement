@@ -15,7 +15,7 @@ search.audienceType:
 Allows creation of multiple sub statuses mapped to a booking status option.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Booking Status (BookingStatus) table extends the [Microsoft Dynamics 365 Booking Status (BookingStatus) table](/dynamics365/developer/entities//bookingstatus).
+> The Microsoft Dynamics 365 Field Service Booking Status (BookingStatus) table extends the [Microsoft Dynamics 365 Booking Status (BookingStatus) table](/dynamics365/developer/entities/bookingstatus).
 
 
 
@@ -169,11 +169,29 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_Description"></a> Description
 
-Changes from [Description (Microsoft Dynamics 365)](/dynamics365/developer/entities//bookingstatus#BKMK_Description)
+Changes from [Description (Microsoft Dynamics 365)](/dynamics365/developer/entities/bookingstatus#BKMK_Description)
 
 |Property|Value|
 |---|---|
 |DisplayName|**Description**|
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_TransactionCurrency_bookingstatus"></a> TransactionCurrency_bookingstatus
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_bookingstatus](transactioncurrency.md#BKMK_TransactionCurrency_bookingstatus)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

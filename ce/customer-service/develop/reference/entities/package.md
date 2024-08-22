@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service package table extends the [Microsoft Dynamics 365 package table](/dynamics365/developer/entities//package).
+> The Microsoft Dynamics 365 Customer Service package table extends the [Microsoft Dynamics 365 package table](/dynamics365/developer/entities/package).
 
 
 

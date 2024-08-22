@@ -15,7 +15,7 @@ search.audienceType:
 Contains information about the tracked service-level KPIs for cases that belong to different customers.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service SLA table extends the [Microsoft Dataverse SLA table](/power-apps/developer/data-platform/reference/entities/sla).
+> The Microsoft Dynamics 365 Field Service SLA table extends the [Microsoft Dynamics 365 SLA table](/dynamics365/developer/entities/sla).
 
 
 

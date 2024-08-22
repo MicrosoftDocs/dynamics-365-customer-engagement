@@ -15,7 +15,7 @@ search.audienceType:
 Secured Masking Rules to apply to fields.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Secured Masking Rule (MaskingRule) table extends the [Microsoft Dynamics 365 Secured Masking Rule (MaskingRule) table](/dynamics365/developer/entities//maskingrule).
+> The Microsoft Dynamics 365 Customer Service Secured Masking Rule (MaskingRule) table extends the [Microsoft Dynamics 365 Secured Masking Rule (MaskingRule) table](/dynamics365/developer/entities/maskingrule).
 
 
 

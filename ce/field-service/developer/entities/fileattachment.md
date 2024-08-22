@@ -15,7 +15,7 @@ search.audienceType:
 File Attachment
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service FileAttachment table extends the [Microsoft Dataverse FileAttachment table](/power-apps/developer/data-platform/reference/entities/fileattachment).
+> The Microsoft Dynamics 365 Field Service FileAttachment table extends the [Microsoft Dynamics 365 FileAttachment table](/dynamics365/developer/entities/fileattachment).
 
 
 

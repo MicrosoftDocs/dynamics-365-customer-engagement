@@ -15,7 +15,7 @@ search.audienceType:
 Service request case associated with a contract.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Case (Incident) table extends the [Microsoft Dynamics 365 Case (Incident) table](/dynamics365/developer/entities//incident).
+> The Microsoft Dynamics 365 Field Service Case (Incident) table extends the [Microsoft Dynamics 365 Case (Incident) table](/dynamics365/developer/entities/incident).
 
 
 
@@ -59,7 +59,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//incident#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/incident#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|
@@ -73,6 +73,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 
 - [msdyn_msdyn_functionallocation_incident_FunctionalLocation](#BKMK_msdyn_msdyn_functionallocation_incident_FunctionalLocation)
 - [msdyn_msdyn_incidenttype_incident_IncidentType](#BKMK_msdyn_msdyn_incidenttype_incident_IncidentType)
+- [TransactionCurrency_Incident](#BKMK_TransactionCurrency_Incident)
 
 ### <a name="BKMK_msdyn_msdyn_functionallocation_incident_FunctionalLocation"></a> msdyn_msdyn_functionallocation_incident_FunctionalLocation
 
@@ -99,6 +100,19 @@ One-To-Many Relationship: [msdyn_incidenttype msdyn_msdyn_incidenttype_incident_
 |ReferencingEntityNavigationPropertyName|`msdyn_incidenttype`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_TransactionCurrency_Incident"></a> TransactionCurrency_Incident
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_Incident](transactioncurrency.md#BKMK_TransactionCurrency_Incident)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships
@@ -178,7 +192,7 @@ Many-To-One Relationship: [msdyn_workorder msdyn_incident_msdyn_workorder_Servic
 
 #### <a name="BKMK_msdyn_incident_msdyn_originatingqueue_createdincidentid"></a> msdyn_incident_msdyn_originatingqueue_createdincidentid
 
-Changes from [msdyn_incident_msdyn_originatingqueue_createdincidentid (Microsoft Dynamics 365)](/dynamics365/developer/entities//incident#BKMK_msdyn_incident_msdyn_originatingqueue_createdincidentid)
+Changes from [msdyn_incident_msdyn_originatingqueue_createdincidentid (Microsoft Dynamics 365)](/dynamics365/developer/entities/incident#BKMK_msdyn_incident_msdyn_originatingqueue_createdincidentid)
 
 |Property|Value|
 |---|---|

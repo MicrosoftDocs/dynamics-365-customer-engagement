@@ -15,7 +15,7 @@ search.audienceType:
 Tracks the interaction between the agents and customer
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Conversation (msdyn_ocliveworkitem) table extends the [Microsoft Dynamics 365 Conversation (msdyn_ocliveworkitem) table](/dynamics365/developer/entities//msdyn_ocliveworkitem).
+> The Microsoft Dynamics 365 Customer Service Conversation (msdyn_ocliveworkitem) table extends the [Microsoft Dynamics 365 Conversation (msdyn_ocliveworkitem) table](/dynamics365/developer/entities/msdyn_ocliveworkitem).
 
 
 ## Messages
@@ -58,7 +58,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_ocliveworkitem#BKMK_RegardingObjectId)
+Changes from [RegardingObjectId (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_ocliveworkitem#BKMK_RegardingObjectId)
 
 |Property|Value|
 |---|---|

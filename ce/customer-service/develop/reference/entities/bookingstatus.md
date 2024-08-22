@@ -15,7 +15,7 @@ search.audienceType:
 Allows creation of multiple sub statuses mapped to a booking status option.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Booking Status (BookingStatus) table extends the [Microsoft Dynamics 365 Booking Status (BookingStatus) table](/dynamics365/developer/entities//bookingstatus).
+> The Microsoft Dynamics 365 Customer Service Booking Status (BookingStatus) table extends the [Microsoft Dynamics 365 Booking Status (BookingStatus) table](/dynamics365/developer/entities/bookingstatus).
 
 
 
@@ -117,7 +117,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_Description"></a> Description
 
-Changes from [Description (Microsoft Dynamics 365)](/dynamics365/developer/entities//bookingstatus#BKMK_Description)
+Changes from [Description (Microsoft Dynamics 365)](/dynamics365/developer/entities/bookingstatus#BKMK_Description)
 
 |Property|Value|
 |---|---|

@@ -15,9 +15,27 @@ search.audienceType:
 System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Quick Campaign (BulkOperation) table extends the [Microsoft Dynamics 365 Quick Campaign (BulkOperation) table](/dynamics365/developer/entities//bulkoperation).
+> The Microsoft Dynamics 365 Field Service Quick Campaign (BulkOperation) table extends the [Microsoft Dynamics 365 Quick Campaign (BulkOperation) table](/dynamics365/developer/entities/bulkoperation).
 
 
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_bulkoperation_transactioncurrency_transactioncurrencyid"></a> bulkoperation_transactioncurrency_transactioncurrencyid
+
+One-To-Many Relationship: [transactioncurrency bulkoperation_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_bulkoperation_transactioncurrency_transactioncurrencyid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_bulkoperation`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

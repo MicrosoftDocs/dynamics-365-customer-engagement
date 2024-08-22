@@ -15,7 +15,7 @@ search.audienceType:
 Process whose execution can proceed independently or in the background.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service System Job (AsyncOperation) table extends the [Microsoft Dynamics 365 System Job (AsyncOperation) table](/dynamics365/developer/entities//asyncoperation).
+> The Microsoft Dynamics 365 Customer Service System Job (AsyncOperation) table extends the [Microsoft Dynamics 365 System Job (AsyncOperation) table](/dynamics365/developer/entities/asyncoperation).
 
 
 

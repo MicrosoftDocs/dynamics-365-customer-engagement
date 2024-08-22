@@ -15,7 +15,7 @@ search.audienceType:
 Record that was not deleted during a bulk deletion job.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Bulk Delete Failure (BulkDeleteFailure) table extends the [Microsoft Dynamics 365 Bulk Delete Failure (BulkDeleteFailure) table](/dynamics365/developer/entities//bulkdeletefailure).
+> The Microsoft Dynamics 365 Customer Service Bulk Delete Failure (BulkDeleteFailure) table extends the [Microsoft Dynamics 365 Bulk Delete Failure (BulkDeleteFailure) table](/dynamics365/developer/entities/bulkdeletefailure).
 
 
 

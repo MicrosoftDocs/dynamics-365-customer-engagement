@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Functional Location (msdyn_FunctionalLocation) table extends the [Microsoft Dynamics 365 Functional Location (msdyn_FunctionalLocation) table](/dynamics365/developer/entities//msdyn_functionallocation).
+> The Microsoft Dynamics 365 Field Service Functional Location (msdyn_FunctionalLocation) table extends the [Microsoft Dynamics 365 Functional Location (msdyn_FunctionalLocation) table](/dynamics365/developer/entities/msdyn_functionallocation).
 
 
 
@@ -209,7 +209,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 
-Changes from [msdyn_Name (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_functionallocation#BKMK_msdyn_Name)
+Changes from [msdyn_Name (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_functionallocation#BKMK_msdyn_Name)
 
 |Property|Value|
 |---|---|
@@ -306,7 +306,7 @@ Many-To-One Relationship: [msdyn_workorderincident msdyn_msdyn_functionallocatio
 
 #### <a name="BKMK_msdyn_FunctionalLocation_FunctionalLocationTyp"></a> msdyn_FunctionalLocation_FunctionalLocationTyp
 
-Changes from [msdyn_FunctionalLocation_FunctionalLocationTyp (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_functionallocation#BKMK_msdyn_FunctionalLocation_FunctionalLocationTyp)
+Changes from [msdyn_FunctionalLocation_FunctionalLocationTyp (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_functionallocation#BKMK_msdyn_FunctionalLocation_FunctionalLocationTyp)
 
 |Property|Value|
 |---|---|

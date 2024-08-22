@@ -15,7 +15,7 @@ search.audienceType:
 Order that has been billed.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Invoice table extends the [Microsoft Dynamics 365 Invoice table](/dynamics365/developer/entities//invoice).
+> The Microsoft Dynamics 365 Customer Service Invoice table extends the [Microsoft Dynamics 365 Invoice table](/dynamics365/developer/entities/invoice).
 
 
 

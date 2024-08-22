@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Similarity Rule (SimilarityRule) table extends the [Microsoft Dataverse Similarity Rule (SimilarityRule) table](/power-apps/developer/data-platform/reference/entities/similarityrule).
+> The Microsoft Dynamics 365 Field Service Similarity Rule (SimilarityRule) table extends the [Microsoft Dynamics 365 Similarity Rule (SimilarityRule) table](/dynamics365/developer/entities/similarityrule).
 
 
 

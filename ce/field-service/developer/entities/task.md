@@ -15,7 +15,7 @@ search.audienceType:
 Generic activity representing work needed to be done.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Task table extends the [Microsoft Dataverse Task table](/power-apps/developer/data-platform/reference/entities/task).
+> The Microsoft Dynamics 365 Field Service Task table extends the [Microsoft Dynamics 365 Task table](/dynamics365/developer/entities/task).
 
 
 

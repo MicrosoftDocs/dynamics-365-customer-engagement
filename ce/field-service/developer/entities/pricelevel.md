@@ -15,7 +15,7 @@ search.audienceType:
 Entity that defines pricing levels.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Price List (PriceLevel) table extends the [Microsoft Dynamics 365 Price List (PriceLevel) table](/dynamics365/developer/entities//pricelevel).
+> The Microsoft Dynamics 365 Field Service Price List (PriceLevel) table extends the [Microsoft Dynamics 365 Price List (PriceLevel) table](/dynamics365/developer/entities/pricelevel).
 
 
 
@@ -38,6 +38,24 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|True|
 |True Label|Yes|
 |False Label|No|
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_transactioncurrency_pricelevel"></a> transactioncurrency_pricelevel
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_pricelevel](transactioncurrency.md#BKMK_transactioncurrency_pricelevel)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

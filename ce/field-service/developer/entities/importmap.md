@@ -15,7 +15,7 @@ search.audienceType:
 Data map used in import.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Data Map (ImportMap) table extends the [Microsoft Dataverse Data Map (ImportMap) table](/power-apps/developer/data-platform/reference/entities/importmap).
+> The Microsoft Dynamics 365 Field Service Data Map (ImportMap) table extends the [Microsoft Dynamics 365 Data Map (ImportMap) table](/dynamics365/developer/entities/importmap).
 
 
 

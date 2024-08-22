@@ -15,7 +15,7 @@ search.audienceType:
 Set of questions to collect feedback.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Customer Voice survey (msfp_survey) table extends the [Microsoft Dynamics 365 Customer Voice survey (msfp_survey) table](/dynamics365/developer/entities//msfp_survey).
+> The Microsoft Dynamics 365 Field Service Customer Voice survey (msfp_survey) table extends the [Microsoft Dynamics 365 Customer Voice survey (msfp_survey) table](/dynamics365/developer/entities/msfp_survey).
 
 
 

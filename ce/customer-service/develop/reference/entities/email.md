@@ -15,7 +15,7 @@ search.audienceType:
 Activity that is delivered using email protocols.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Email table extends the [Microsoft Dynamics 365 Email table](/dynamics365/developer/entities//email).
+> The Microsoft Dynamics 365 Customer Service Email table extends the [Microsoft Dynamics 365 Email table](/dynamics365/developer/entities/email).
 
 
 

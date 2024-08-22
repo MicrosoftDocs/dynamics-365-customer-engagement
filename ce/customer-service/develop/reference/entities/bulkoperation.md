@@ -15,7 +15,7 @@ search.audienceType:
 System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Quick Campaign (BulkOperation) table extends the [Microsoft Dynamics 365 Quick Campaign (BulkOperation) table](/dynamics365/developer/entities//bulkoperation).
+> The Microsoft Dynamics 365 Customer Service Quick Campaign (BulkOperation) table extends the [Microsoft Dynamics 365 Quick Campaign (BulkOperation) table](/dynamics365/developer/entities/bulkoperation).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 Service request case associated with a contract.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Case (Incident) table extends the [Microsoft Dynamics 365 Case (Incident) table](/dynamics365/developer/entities//incident).
+> The Microsoft Dynamics 365 Customer Service Case (Incident) table extends the [Microsoft Dynamics 365 Case (Incident) table](/dynamics365/developer/entities/incident).
 
 
 ## Messages
@@ -34,7 +34,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//incident#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/incident#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|
@@ -65,7 +65,7 @@ Many-To-One Relationship: [msdyn_bookingalert incident_msdyn_bookingalerts](msdy
 
 #### <a name="BKMK_msdyn_incident_msdyn_originatingqueue_createdincidentid"></a> msdyn_incident_msdyn_originatingqueue_createdincidentid
 
-Changes from [msdyn_incident_msdyn_originatingqueue_createdincidentid (Microsoft Dynamics 365)](/dynamics365/developer/entities//incident#BKMK_msdyn_incident_msdyn_originatingqueue_createdincidentid)
+Changes from [msdyn_incident_msdyn_originatingqueue_createdincidentid (Microsoft Dynamics 365)](/dynamics365/developer/entities/incident#BKMK_msdyn_incident_msdyn_originatingqueue_createdincidentid)
 
 |Property|Value|
 |---|---|

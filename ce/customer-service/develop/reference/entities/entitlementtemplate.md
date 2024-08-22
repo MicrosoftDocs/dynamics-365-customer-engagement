@@ -15,7 +15,7 @@ search.audienceType:
 Contains predefined customer support terms that can be used to created entitlements for customers.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Entitlement Template (EntitlementTemplate) table extends the [Microsoft Dynamics 365 Entitlement Template (EntitlementTemplate) table](/dynamics365/developer/entities//entitlementtemplate).
+> The Microsoft Dynamics 365 Customer Service Entitlement Template (EntitlementTemplate) table extends the [Microsoft Dynamics 365 Entitlement Template (EntitlementTemplate) table](/dynamics365/developer/entities/entitlementtemplate).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities//entitlementtemplate#BKMK_ExchangeRate)
+Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/entities/entitlementtemplate#BKMK_ExchangeRate)
 
 |Property|Value|
 |---|---|

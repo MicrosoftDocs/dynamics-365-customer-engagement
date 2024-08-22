@@ -15,7 +15,7 @@ search.audienceType:
 Territory represents sales regions.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Territory table extends the [Microsoft Dataverse Territory table](/power-apps/developer/data-platform/reference/entities/territory).
+> The Microsoft Dynamics 365 Field Service Territory table extends the [Microsoft Dynamics 365 Territory table](/dynamics365/developer/entities/territory).
 
 
 

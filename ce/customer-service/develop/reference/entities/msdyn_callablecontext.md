@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Playbook Callable Context (msdyn_callablecontext) table extends the [Microsoft Dynamics 365 Playbook Callable Context (msdyn_callablecontext) table](/dynamics365/developer/entities//msdyn_callablecontext).
+> The Microsoft Dynamics 365 Customer Service Playbook Callable Context (msdyn_callablecontext) table extends the [Microsoft Dynamics 365 Playbook Callable Context (msdyn_callablecontext) table](/dynamics365/developer/entities/msdyn_callablecontext).
 
 
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365 Customer Service modifies the definition of columns/attri
 
 ### <a name="BKMK_msdyn_EntityOTC"></a> msdyn_EntityOTC
 
-Changes from [msdyn_EntityOTC (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_callablecontext#BKMK_msdyn_EntityOTC)
+Changes from [msdyn_EntityOTC (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_callablecontext#BKMK_msdyn_EntityOTC)
 
 #### msdyn_EntityOTC Choices/Options
 

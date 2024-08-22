@@ -15,7 +15,7 @@ search.audienceType:
 Specify Customer Asset.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Field Service Customer Asset (msdyn_customerasset) table extends the [Microsoft Dynamics 365 Customer Asset (msdyn_customerasset) table](/dynamics365/developer/entities//msdyn_customerasset).
+> The Microsoft Dynamics 365 Field Service Customer Asset (msdyn_customerasset) table extends the [Microsoft Dynamics 365 Customer Asset (msdyn_customerasset) table](/dynamics365/developer/entities/msdyn_customerasset).
 
 
 
@@ -47,7 +47,7 @@ Microsoft Dynamics 365 Field Service modifies the definition of columns/attribut
 
 ### <a name="BKMK_msdyn_DeviceId"></a> msdyn_DeviceId
 
-Changes from [msdyn_DeviceId (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_customerasset#BKMK_msdyn_DeviceId)
+Changes from [msdyn_DeviceId (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_customerasset#BKMK_msdyn_DeviceId)
 
 |Property|Value|
 |---|---|
@@ -56,7 +56,7 @@ Changes from [msdyn_DeviceId (Microsoft Dynamics 365)](/dynamics365/developer/en
 
 ### <a name="BKMK_msdyn_MasterAsset"></a> msdyn_MasterAsset
 
-Changes from [msdyn_MasterAsset (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_customerasset#BKMK_msdyn_MasterAsset)
+Changes from [msdyn_MasterAsset (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_customerasset#BKMK_msdyn_MasterAsset)
 
 |Property|Value|
 |---|---|
@@ -66,7 +66,7 @@ Changes from [msdyn_MasterAsset (Microsoft Dynamics 365)](/dynamics365/developer
 
 ### <a name="BKMK_msdyn_ParentAsset"></a> msdyn_ParentAsset
 
-Changes from [msdyn_ParentAsset (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_customerasset#BKMK_msdyn_ParentAsset)
+Changes from [msdyn_ParentAsset (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_customerasset#BKMK_msdyn_ParentAsset)
 
 |Property|Value|
 |---|---|
@@ -369,7 +369,7 @@ See [msdyn_3dmodel msdyn_msdyn_customerasset_msdyn_3dmodel Many-To-Many Relation
 
 #### <a name="BKMK_msdyn_msdyn_customerasset_msdyn_customerasset_MasterAsset"></a> msdyn_msdyn_customerasset_msdyn_customerasset_MasterAsset
 
-Changes from [msdyn_msdyn_customerasset_msdyn_customerasset_MasterAsset (Microsoft Dynamics 365)](/dynamics365/developer/entities//msdyn_customerasset#BKMK_msdyn_msdyn_customerasset_msdyn_customerasset_MasterAsset)
+Changes from [msdyn_msdyn_customerasset_msdyn_customerasset_MasterAsset (Microsoft Dynamics 365)](/dynamics365/developer/entities/msdyn_customerasset#BKMK_msdyn_msdyn_customerasset_msdyn_customerasset_MasterAsset)
 
 |Property|Value|
 |---|---|

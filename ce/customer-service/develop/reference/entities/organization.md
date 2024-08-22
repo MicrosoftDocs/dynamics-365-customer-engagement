@@ -15,7 +15,7 @@ search.audienceType:
 Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Organization table extends the [Microsoft Dynamics 365 Organization table](/dynamics365/developer/entities//organization).
+> The Microsoft Dynamics 365 Customer Service Organization table extends the [Microsoft Dynamics 365 Organization table](/dynamics365/developer/entities/organization).
 
 
 
@@ -45,7 +45,7 @@ Changes from [DisableSystemLabelsCacheSharing (Microsoft Dataverse)](/power-apps
 
 ### <a name="BKMK_EmailTemplateDefaultView"></a> EmailTemplateDefaultView
 
-Changes from [EmailTemplateDefaultView (Microsoft Dynamics 365)](/dynamics365/developer/entities//organization#BKMK_EmailTemplateDefaultView)
+Changes from [EmailTemplateDefaultView (Microsoft Dynamics 365)](/dynamics365/developer/entities/organization#BKMK_EmailTemplateDefaultView)
 
 |Property|Value|
 |---|---|
@@ -55,7 +55,7 @@ Changes from [EmailTemplateDefaultView (Microsoft Dynamics 365)](/dynamics365/de
 
 ### <a name="BKMK_EnableCalendarImportExport"></a> EnableCalendarImportExport
 
-Changes from [EnableCalendarImportExport (Microsoft Dynamics 365)](/dynamics365/developer/entities//organization#BKMK_EnableCalendarImportExport)
+Changes from [EnableCalendarImportExport (Microsoft Dynamics 365)](/dynamics365/developer/entities/organization#BKMK_EnableCalendarImportExport)
 
 |Property|Value|
 |---|---|
@@ -118,7 +118,7 @@ Changes from [LegacyAppToggle (Microsoft Dataverse)](/power-apps/developer/data-
 
 ### <a name="BKMK_SchedulingEngine"></a> SchedulingEngine
 
-Changes from [SchedulingEngine (Microsoft Dynamics 365)](/dynamics365/developer/entities//organization#BKMK_SchedulingEngine)
+Changes from [SchedulingEngine (Microsoft Dynamics 365)](/dynamics365/developer/entities/organization#BKMK_SchedulingEngine)
 
 #### SchedulingEngine Choices/Options
 

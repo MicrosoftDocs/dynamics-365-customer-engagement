@@ -15,7 +15,7 @@ search.audienceType:
 Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Opportunity table extends the [Microsoft Dynamics 365 Opportunity table](/dynamics365/developer/entities//opportunity).
+> The Microsoft Dynamics 365 Customer Service Opportunity table extends the [Microsoft Dynamics 365 Opportunity table](/dynamics365/developer/entities/opportunity).
 
 
 
