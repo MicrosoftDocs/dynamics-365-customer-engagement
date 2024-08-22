@@ -575,7 +575,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [processstage_salesliteratures](#BKMK_processstage_salesliteratures)
 - [subject_sales_literature](#BKMK_subject_sales_literature)
 - [system_user_sales_literature](#BKMK_system_user_sales_literature)
-- [TransactionCurrency_SalesLiterature](#BKMK_TransactionCurrency_SalesLiterature)
 
 ### <a name="BKMK_lk_salesliterature_createdonbehalfby"></a> lk_salesliterature_createdonbehalfby
 
@@ -680,19 +679,6 @@ One-To-Many Relationship: [systemuser system_user_sales_literature](systemuser.m
 |ReferencingEntityNavigationPropertyName|`employeecontactid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_SalesLiterature"></a> TransactionCurrency_SalesLiterature
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_SalesLiterature](transactioncurrency.md#BKMK_TransactionCurrency_SalesLiterature)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

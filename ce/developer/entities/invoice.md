@@ -1830,7 +1830,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [sla_invoice](#BKMK_sla_invoice)
 - [system_user_invoices](#BKMK_system_user_invoices)
 - [team_invoices](#BKMK_team_invoices)
-- [transactioncurrency_invoice](#BKMK_transactioncurrency_invoice)
 
 ### <a name="BKMK_business_unit_invoices"></a> business_unit_invoices
 
@@ -2039,19 +2038,6 @@ One-To-Many Relationship: [team team_invoices](team.md#BKMK_team_invoices)
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_invoice"></a> transactioncurrency_invoice
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_invoice](transactioncurrency.md#BKMK_transactioncurrency_invoice)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

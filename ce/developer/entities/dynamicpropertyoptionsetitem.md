@@ -391,7 +391,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 
 - [DynamicProperty_DynamicPropertyOptionSetItem](#BKMK_DynamicProperty_DynamicPropertyOptionSetItem)
 - [DynamicPropertyOptionSetItem_organization](#BKMK_DynamicPropertyOptionSetItem_organization)
-- [DynamicPropertyOptionSetItem_TransactionCurrency](#BKMK_DynamicPropertyOptionSetItem_TransactionCurrency)
 - [lk_DynamicPropertyOptionSetItem_createdby](#BKMK_lk_DynamicPropertyOptionSetItem_createdby)
 - [lk_DynamicPropertyOptionSetItem_createdonbehalfby](#BKMK_lk_DynamicPropertyOptionSetItem_createdonbehalfby)
 - [lk_DynamicPropertyOptionSetItem_modifiedby](#BKMK_lk_DynamicPropertyOptionSetItem_modifiedby)
@@ -422,19 +421,6 @@ One-To-Many Relationship: [organization DynamicPropertyOptionSetItem_organizatio
 |ReferencingEntityNavigationPropertyName|`organizationid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_DynamicPropertyOptionSetItem_TransactionCurrency"></a> DynamicPropertyOptionSetItem_TransactionCurrency
-
-One-To-Many Relationship: [transactioncurrency DynamicPropertyOptionSetItem_TransactionCurrency](transactioncurrency.md#BKMK_DynamicPropertyOptionSetItem_TransactionCurrency)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_lk_DynamicPropertyOptionSetItem_createdby"></a> lk_DynamicPropertyOptionSetItem_createdby
 

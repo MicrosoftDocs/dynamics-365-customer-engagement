@@ -1802,7 +1802,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [subject_incidents](#BKMK_subject_incidents)
 - [system_user_incidents](#BKMK_system_user_incidents)
 - [team_incidents](#BKMK_team_incidents)
-- [TransactionCurrency_Incident](#BKMK_TransactionCurrency_Incident)
 
 ### <a name="BKMK_business_unit_incidents"></a> business_unit_incidents
 
@@ -2167,19 +2166,6 @@ One-To-Many Relationship: [team team_incidents](team.md#BKMK_team_incidents)
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_Incident"></a> TransactionCurrency_Incident
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_Incident](transactioncurrency.md#BKMK_TransactionCurrency_Incident)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

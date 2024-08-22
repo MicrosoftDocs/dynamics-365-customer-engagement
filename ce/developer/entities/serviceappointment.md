@@ -1378,7 +1378,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [sla_serviceappointment](#BKMK_sla_serviceappointment)
 - [system_user_service_appointments](#BKMK_system_user_service_appointments)
 - [team_service_appointments](#BKMK_team_service_appointments)
-- [TransactionCurrency_ServiceAppointment](#BKMK_TransactionCurrency_ServiceAppointment)
 
 ### <a name="BKMK_Account_ServiceAppointments"></a> Account_ServiceAppointments
 
@@ -1977,19 +1976,6 @@ One-To-Many Relationship: [team team_service_appointments](team.md#BKMK_team_ser
 |ReferencingEntityNavigationPropertyName|`owningteam_serviceappointment`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_ServiceAppointment"></a> TransactionCurrency_ServiceAppointment
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_ServiceAppointment](transactioncurrency.md#BKMK_TransactionCurrency_ServiceAppointment)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_serviceappointment`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

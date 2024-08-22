@@ -500,7 +500,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_entitlementchannel_modifiedby](#BKMK_lk_entitlementchannel_modifiedby)
 - [lk_entitlementchannel_modifiedonbehalfby](#BKMK_lk_entitlementchannel_modifiedonbehalfby)
 - [team_entitlementchannel](#BKMK_team_entitlementchannel)
-- [TransactionCurrency_entitlementchannel](#BKMK_TransactionCurrency_entitlementchannel)
 - [user_entitlementchannel](#BKMK_user_entitlementchannel)
 
 ### <a name="BKMK_entitlement_entitlementchannel_EntitlementId"></a> entitlement_entitlementchannel_EntitlementId
@@ -593,19 +592,6 @@ One-To-Many Relationship: [team team_entitlementchannel](team.md#BKMK_team_entit
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_entitlementchannel"></a> TransactionCurrency_entitlementchannel
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_entitlementchannel](transactioncurrency.md#BKMK_TransactionCurrency_entitlementchannel)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_user_entitlementchannel"></a> user_entitlementchannel
 

@@ -1540,7 +1540,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msfp_alert_systemuser_modifiedonbehalfby](#BKMK_msfp_alert_systemuser_modifiedonbehalfby)
 - [msfp_alert_systemuser_owninguser](#BKMK_msfp_alert_systemuser_owninguser)
 - [msfp_alert_team_owningteam](#BKMK_msfp_alert_team_owningteam)
-- [msfp_alert_transactioncurrency_transactioncurrencyid](#BKMK_msfp_alert_transactioncurrency_transactioncurrencyid)
 - [msfp_msfp_alertrule_msfp_alert_alertrule](#BKMK_msfp_msfp_alertrule_msfp_alert_alertrule)
 - [msfp_msfp_project_msfp_alert_project](#BKMK_msfp_msfp_project_msfp_alert_project)
 - [msfp_msfp_satisfactionmetric_msfp_alert](#BKMK_msfp_msfp_satisfactionmetric_msfp_alert)
@@ -2011,19 +2010,6 @@ One-To-Many Relationship: [team msfp_alert_team_owningteam](team.md#BKMK_msfp_al
 |ReferencingEntityNavigationPropertyName|`owningteam_msfp_alert`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msfp_alert_transactioncurrency_transactioncurrencyid"></a> msfp_alert_transactioncurrency_transactioncurrencyid
-
-One-To-Many Relationship: [transactioncurrency msfp_alert_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_msfp_alert_transactioncurrency_transactioncurrencyid)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_msfp_alert`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msfp_msfp_alertrule_msfp_alert_alertrule"></a> msfp_msfp_alertrule_msfp_alert_alertrule
 

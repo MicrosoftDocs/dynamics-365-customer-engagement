@@ -1084,7 +1084,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [product_opportunities](#BKMK_product_opportunities)
 - [productAssociation_opportunity_product](#BKMK_productAssociation_opportunity_product)
 - [team_opportunityproduct](#BKMK_team_opportunityproduct)
-- [transactioncurrency_opportunityproduct](#BKMK_transactioncurrency_opportunityproduct)
 - [unit_of_measurement_opportunity_products](#BKMK_unit_of_measurement_opportunity_products)
 - [user_opportunityproduct](#BKMK_user_opportunityproduct)
 
@@ -1217,19 +1216,6 @@ One-To-Many Relationship: [team team_opportunityproduct](team.md#BKMK_team_oppor
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_opportunityproduct"></a> transactioncurrency_opportunityproduct
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_opportunityproduct](transactioncurrency.md#BKMK_transactioncurrency_opportunityproduct)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_unit_of_measurement_opportunity_products"></a> unit_of_measurement_opportunity_products
 

@@ -2379,7 +2379,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_ocliveworkitem_systemuser_modifiedonbehalfby](#BKMK_msdyn_ocliveworkitem_systemuser_modifiedonbehalfby)
 - [msdyn_ocliveworkitem_systemuser_owninguser](#BKMK_msdyn_ocliveworkitem_systemuser_owninguser)
 - [msdyn_ocliveworkitem_team_owningteam](#BKMK_msdyn_ocliveworkitem_team_owningteam)
-- [msdyn_ocliveworkitem_transactioncurrency_transactioncurrencyid](#BKMK_msdyn_ocliveworkitem_transactioncurrency_transactioncurrencyid)
 - [msdyn_playbookinstance_msdyn_ocliveworkitems](#BKMK_msdyn_playbookinstance_msdyn_ocliveworkitems)
 - [msdyn_postalbum_msdyn_ocliveworkitems](#BKMK_msdyn_postalbum_msdyn_ocliveworkitems)
 - [msdyn_queue_msdyn_ocliveworkitem_queueid](#BKMK_msdyn_queue_msdyn_ocliveworkitem_queueid)
@@ -2970,19 +2969,6 @@ One-To-Many Relationship: [team msdyn_ocliveworkitem_team_owningteam](team.md#BK
 |ReferencingEntityNavigationPropertyName|`owningteam_msdyn_ocliveworkitem`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_ocliveworkitem_transactioncurrency_transactioncurrencyid"></a> msdyn_ocliveworkitem_transactioncurrency_transactioncurrencyid
-
-One-To-Many Relationship: [transactioncurrency msdyn_ocliveworkitem_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_msdyn_ocliveworkitem_transactioncurrency_transactioncurrencyid)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_msdyn_ocliveworkitem`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_playbookinstance_msdyn_ocliveworkitems"></a> msdyn_playbookinstance_msdyn_ocliveworkitems
 

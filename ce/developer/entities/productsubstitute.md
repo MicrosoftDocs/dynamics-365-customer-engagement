@@ -437,7 +437,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [organization_ProductSubstitute](#BKMK_organization_ProductSubstitute)
 - [product_ProductSubstitute_productid](#BKMK_product_ProductSubstitute_productid)
 - [product_ProductSubstitute_substitutedproductid](#BKMK_product_ProductSubstitute_substitutedproductid)
-- [transactioncurrency_ProductSubstitute](#BKMK_transactioncurrency_ProductSubstitute)
 
 ### <a name="BKMK_lk_ProductSubstitute_createdby"></a> lk_ProductSubstitute_createdby
 
@@ -529,19 +528,6 @@ One-To-Many Relationship: [product product_ProductSubstitute_substitutedproducti
 |ReferencingEntityNavigationPropertyName|`substitutedproductid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_ProductSubstitute"></a> transactioncurrency_ProductSubstitute
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_ProductSubstitute](transactioncurrency.md#BKMK_transactioncurrency_ProductSubstitute)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

@@ -2367,7 +2367,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [processstage_opportunity](#BKMK_processstage_opportunity)
 - [sla_opportunity](#BKMK_sla_opportunity)
 - [team_opportunities](#BKMK_team_opportunities)
-- [transactioncurrency_opportunity](#BKMK_transactioncurrency_opportunity)
 
 ### <a name="BKMK_business_unit_opportunities"></a> business_unit_opportunities
 
@@ -2641,19 +2640,6 @@ One-To-Many Relationship: [team team_opportunities](team.md#BKMK_team_opportunit
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_opportunity"></a> transactioncurrency_opportunity
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_opportunity](transactioncurrency.md#BKMK_transactioncurrency_opportunity)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

@@ -474,7 +474,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_service_modifiedby](#BKMK_lk_service_modifiedby)
 - [lk_service_modifiedonbehalfby](#BKMK_lk_service_modifiedonbehalfby)
 - [organization_services](#BKMK_organization_services)
-- [plugin_type_service](#BKMK_plugin_type_service)
 - [resource_spec_services](#BKMK_resource_spec_services)
 
 ### <a name="BKMK_calendar_services"></a> calendar_services
@@ -554,19 +553,6 @@ One-To-Many Relationship: [organization organization_services](organization.md#B
 |ReferencingEntityNavigationPropertyName|`organizationid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_plugin_type_service"></a> plugin_type_service
-
-One-To-Many Relationship: [plugintype plugin_type_service](plugintype.md#BKMK_plugin_type_service)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`plugintype`|
-|ReferencedAttribute|`plugintypeid`|
-|ReferencingAttribute|`strategyid`|
-|ReferencingEntityNavigationPropertyName|`strategyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_resource_spec_services"></a> resource_spec_services
 

@@ -797,7 +797,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [owner_lists](#BKMK_owner_lists)
 - [processstage_lists](#BKMK_processstage_lists)
 - [team_list](#BKMK_team_list)
-- [transactioncurrency_list](#BKMK_transactioncurrency_list)
 - [user_list](#BKMK_user_list)
 
 ### <a name="BKMK_business_unit_list"></a> business_unit_list
@@ -903,19 +902,6 @@ One-To-Many Relationship: [team team_list](team.md#BKMK_team_list)
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_list"></a> transactioncurrency_list
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_list](transactioncurrency.md#BKMK_transactioncurrency_list)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_user_list"></a> user_list
 

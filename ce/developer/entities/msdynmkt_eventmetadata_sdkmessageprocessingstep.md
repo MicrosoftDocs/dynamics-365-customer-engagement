@@ -502,7 +502,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdynmkt_eventmetadata_sdkmessageprocessingstep_modifiedby](#BKMK_lk_msdynmkt_eventmetadata_sdkmessageprocessingstep_modifiedby)
 - [lk_msdynmkt_eventmetadata_sdkmessageprocessingstep_modifiedonbehalfby](#BKMK_lk_msdynmkt_eventmetadata_sdkmessageprocessingstep_modifiedonbehalfby)
 - [msdynmkt_eventmetadata_eventmetadata_sdkmessagepro](#BKMK_msdynmkt_eventmetadata_eventmetadata_sdkmessagepro)
-- [msdynmkt_sdkmessageprocessingstep_eventmetadata_sd](#BKMK_msdynmkt_sdkmessageprocessingstep_eventmetadata_sd)
 - [organization_msdynmkt_eventmetadata_sdkmessageprocessingstep](#BKMK_organization_msdynmkt_eventmetadata_sdkmessageprocessingstep)
 
 ### <a name="BKMK_lk_msdynmkt_eventmetadata_sdkmessageprocessingstep_createdby"></a> lk_msdynmkt_eventmetadata_sdkmessageprocessingstep_createdby
@@ -567,19 +566,6 @@ One-To-Many Relationship: [msdynmkt_eventmetadata msdynmkt_eventmetadata_eventme
 |ReferencedAttribute|`msdynmkt_eventmetadataid`|
 |ReferencingAttribute|`msdynmkt_eventmetadataid`|
 |ReferencingEntityNavigationPropertyName|`msdynmkt_eventmetadataId`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdynmkt_sdkmessageprocessingstep_eventmetadata_sd"></a> msdynmkt_sdkmessageprocessingstep_eventmetadata_sd
-
-One-To-Many Relationship: [sdkmessageprocessingstep msdynmkt_sdkmessageprocessingstep_eventmetadata_sd](sdkmessageprocessingstep.md#BKMK_msdynmkt_sdkmessageprocessingstep_eventmetadata_sd)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`sdkmessageprocessingstep`|
-|ReferencedAttribute|`sdkmessageprocessingstepid`|
-|ReferencingAttribute|`msdynmkt_sdkmessageprocessingstepid`|
-|ReferencingEntityNavigationPropertyName|`msdynmkt_sdkmessageprocessingstepId`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

@@ -1510,7 +1510,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_competitorbase_modifiedby](#BKMK_lk_competitorbase_modifiedby)
 - [organization_competitors](#BKMK_organization_competitors)
 - [processstage_competitors](#BKMK_processstage_competitors)
-- [transactioncurrency_competitor](#BKMK_transactioncurrency_competitor)
 
 ### <a name="BKMK_lk_competitor_createdonbehalfby"></a> lk_competitor_createdonbehalfby
 
@@ -1589,19 +1588,6 @@ One-To-Many Relationship: [processstage processstage_competitors](processstage.m
 |ReferencingEntityNavigationPropertyName|`stageid_processstage`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_competitor"></a> transactioncurrency_competitor
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_competitor](transactioncurrency.md#BKMK_transactioncurrency_competitor)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

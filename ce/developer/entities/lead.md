@@ -3094,7 +3094,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [owner_leads](#BKMK_owner_leads)
 - [processstage_lead](#BKMK_processstage_lead)
 - [sla_lead](#BKMK_sla_lead)
-- [transactioncurrency_lead](#BKMK_transactioncurrency_lead)
 
 ### <a name="BKMK_business_unit_leads"></a> business_unit_leads
 
@@ -3394,19 +3393,6 @@ One-To-Many Relationship: [sla sla_lead](sla.md#BKMK_sla_lead)
 |ReferencingEntityNavigationPropertyName|`slainvokedid_lead_sla`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_lead"></a> transactioncurrency_lead
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_lead](transactioncurrency.md#BKMK_transactioncurrency_lead)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

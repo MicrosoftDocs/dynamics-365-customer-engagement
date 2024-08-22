@@ -456,7 +456,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_discount_modifiedonbehalfby](#BKMK_lk_discount_modifiedonbehalfby)
 - [lk_discountbase_createdby](#BKMK_lk_discountbase_createdby)
 - [lk_discountbase_modifiedby](#BKMK_lk_discountbase_modifiedby)
-- [transactioncurrency_discount](#BKMK_transactioncurrency_discount)
 
 ### <a name="BKMK_discount_type_discounts"></a> discount_type_discounts
 
@@ -522,19 +521,6 @@ One-To-Many Relationship: [systemuser lk_discountbase_modifiedby](systemuser.md#
 |ReferencingEntityNavigationPropertyName|`modifiedby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_discount"></a> transactioncurrency_discount
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_discount](transactioncurrency.md#BKMK_transactioncurrency_discount)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

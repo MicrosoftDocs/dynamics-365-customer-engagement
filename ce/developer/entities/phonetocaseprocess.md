@@ -473,7 +473,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_phonetocaseprocess_modifiedonbehalfby](#BKMK_lk_phonetocaseprocess_modifiedonbehalfby)
 - [lk_phonetocaseprocess_processid](#BKMK_lk_phonetocaseprocess_processid)
 - [organization_phonetocaseprocess](#BKMK_organization_phonetocaseprocess)
-- [transactioncurrency_phonetocaseprocess](#BKMK_transactioncurrency_phonetocaseprocess)
 
 ### <a name="BKMK_lk_phonetocaseprocess_activestageid"></a> lk_phonetocaseprocess_activestageid
 
@@ -576,19 +575,6 @@ One-To-Many Relationship: [organization organization_phonetocaseprocess](organiz
 |ReferencedAttribute|`organizationid`|
 |ReferencingAttribute|`organizationid`|
 |ReferencingEntityNavigationPropertyName|`organizationid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_phonetocaseprocess"></a> transactioncurrency_phonetocaseprocess
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_phonetocaseprocess](transactioncurrency.md#BKMK_transactioncurrency_phonetocaseprocess)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

@@ -1379,7 +1379,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [orderclose_owner_ownerid](#BKMK_orderclose_owner_ownerid)
 - [orderclose_sla_slaid](#BKMK_orderclose_sla_slaid)
 - [orderclose_sla_slainvokedid](#BKMK_orderclose_sla_slainvokedid)
-- [orderclose_transactioncurrency_transactioncurrencyid](#BKMK_orderclose_transactioncurrency_transactioncurrencyid)
 - [SalesOrder_OrderClose](#BKMK_SalesOrder_OrderClose)
 - [service_orderclose](#BKMK_service_orderclose)
 - [site_OrderCloses](#BKMK_site_OrderCloses)
@@ -1814,19 +1813,6 @@ One-To-Many Relationship: [sla orderclose_sla_slainvokedid](sla.md#BKMK_orderclo
 |ReferencingEntityNavigationPropertyName|`slainvokedid_activitypointer_sla_orderclose`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_orderclose_transactioncurrency_transactioncurrencyid"></a> orderclose_transactioncurrency_transactioncurrencyid
-
-One-To-Many Relationship: [transactioncurrency orderclose_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_orderclose_transactioncurrency_transactioncurrencyid)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_orderclose`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_SalesOrder_OrderClose"></a> SalesOrder_OrderClose
 

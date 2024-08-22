@@ -491,7 +491,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_bookableresourcecategoryassn_modifiedonbehalfby](#BKMK_lk_bookableresourcecategoryassn_modifiedonbehalfby)
 - [owner_bookableresourcecategoryassn](#BKMK_owner_bookableresourcecategoryassn)
 - [team_bookableresourcecategoryassn](#BKMK_team_bookableresourcecategoryassn)
-- [TransactionCurrency_bookableresourcecategoryassn](#BKMK_TransactionCurrency_bookableresourcecategoryassn)
 - [user_bookableresourcecategoryassn](#BKMK_user_bookableresourcecategoryassn)
 
 ### <a name="BKMK_bookableresource_bookableresourcecategoryassn_Resource"></a> bookableresource_bookableresourcecategoryassn_Resource
@@ -610,19 +609,6 @@ One-To-Many Relationship: [team team_bookableresourcecategoryassn](team.md#BKMK_
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_bookableresourcecategoryassn"></a> TransactionCurrency_bookableresourcecategoryassn
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_bookableresourcecategoryassn](transactioncurrency.md#BKMK_TransactionCurrency_bookableresourcecategoryassn)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_user_bookableresourcecategoryassn"></a> user_bookableresourcecategoryassn
 

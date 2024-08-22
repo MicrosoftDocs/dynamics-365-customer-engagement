@@ -1058,7 +1058,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [processstage_campaigns](#BKMK_processstage_campaigns)
 - [SystemUser_Campaigns](#BKMK_SystemUser_Campaigns)
 - [team_Campaigns](#BKMK_team_Campaigns)
-- [transactioncurrency_campaign](#BKMK_transactioncurrency_campaign)
 
 ### <a name="BKMK_BusinessUnit_Campaigns"></a> BusinessUnit_Campaigns
 
@@ -1189,19 +1188,6 @@ One-To-Many Relationship: [team team_Campaigns](team.md#BKMK_team_Campaigns)
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_campaign"></a> transactioncurrency_campaign
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_campaign](transactioncurrency.md#BKMK_transactioncurrency_campaign)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

@@ -926,22 +926,6 @@ Many-To-One Relationship: [syncerror msdyn_consoleapplicationnotificationtemplat
 
 These relationships are many-to-many. Listed by **SchemaName**.
 
-- [msdyn_msdyn_consoleapplicationnotificationtag](#BKMK_msdyn_msdyn_consoleapplicationnotificationtag)
-- [msdyn_msdyn_consoleapplicationnotificationtempl](#BKMK_msdyn_msdyn_consoleapplicationnotificationtempl)
-
-### <a name="BKMK_msdyn_msdyn_consoleapplicationnotificationtag"></a> msdyn_msdyn_consoleapplicationnotificationtag
-
-See [msdyn_templatetags msdyn_msdyn_consoleapplicationnotificationtag Many-To-Many Relationship](msdyn_templatetags.md#BKMK_msdyn_msdyn_consoleapplicationnotificationtag)
-
-|Property|Value|
-|---|---|
-|IntersectEntityName|`msdyn_msdyn_consoleapplicationnotificationtag`|
-|IsCustomizable|True|
-|SchemaName|`msdyn_msdyn_consoleapplicationnotificationtag`|
-|IntersectAttribute|`msdyn_consoleapplicationnotificationtemplateid`|
-|NavigationPropertyName|`msdyn_msdyn_consoleapplicationnotificationtag`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
 ### <a name="BKMK_msdyn_msdyn_consoleapplicationnotificationtempl"></a> msdyn_msdyn_consoleapplicationnotificationtempl
 
 See [msdyn_consoleapplicationnotificationfield msdyn_msdyn_consoleapplicationnotificationtempl Many-To-Many Relationship](msdyn_consoleapplicationnotificationfield.md#BKMK_msdyn_msdyn_consoleapplicationnotificationtempl)

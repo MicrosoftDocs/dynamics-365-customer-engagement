@@ -1701,7 +1701,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msfp_surveyinvite_systemuser_modifiedonbehalfby](#BKMK_msfp_surveyinvite_systemuser_modifiedonbehalfby)
 - [msfp_surveyinvite_systemuser_owninguser](#BKMK_msfp_surveyinvite_systemuser_owninguser)
 - [msfp_surveyinvite_team_owningteam](#BKMK_msfp_surveyinvite_team_owningteam)
-- [msfp_surveyinvite_transactioncurrency_transactioncurrencyid](#BKMK_msfp_surveyinvite_transactioncurrency_transactioncurrencyid)
 - [mspp_adplacement_msfp_surveyinvites](#BKMK_mspp_adplacement_msfp_surveyinvites)
 - [mspp_pollplacement_msfp_surveyinvites](#BKMK_mspp_pollplacement_msfp_surveyinvites)
 - [mspp_publishingstatetransitionrule_msfp_surveyinvites](#BKMK_mspp_publishingstatetransitionrule_msfp_surveyinvites)
@@ -2193,19 +2192,6 @@ One-To-Many Relationship: [team msfp_surveyinvite_team_owningteam](team.md#BKMK_
 |ReferencingEntityNavigationPropertyName|`owningteam_msfp_surveyinvite`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msfp_surveyinvite_transactioncurrency_transactioncurrencyid"></a> msfp_surveyinvite_transactioncurrency_transactioncurrencyid
-
-One-To-Many Relationship: [transactioncurrency msfp_surveyinvite_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_msfp_surveyinvite_transactioncurrency_transactioncurrencyid)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_msfp_surveyinvite`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_mspp_adplacement_msfp_surveyinvites"></a> mspp_adplacement_msfp_surveyinvites
 

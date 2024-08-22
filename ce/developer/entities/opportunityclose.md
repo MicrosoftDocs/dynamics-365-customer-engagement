@@ -1451,7 +1451,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [service_opportunityclose](#BKMK_service_opportunityclose)
 - [site_OpportunityCloses](#BKMK_site_OpportunityCloses)
 - [team_opportunityclose](#BKMK_team_opportunityclose)
-- [transactioncurrency_opportunityclose](#BKMK_transactioncurrency_opportunityclose)
 - [user_opportunityclose](#BKMK_user_opportunityclose)
 
 ### <a name="BKMK_account_OpportunityCloses"></a> account_OpportunityCloses
@@ -1947,19 +1946,6 @@ One-To-Many Relationship: [team team_opportunityclose](team.md#BKMK_team_opportu
 |ReferencingEntityNavigationPropertyName|`owningteam_opportunityclose`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_opportunityclose"></a> transactioncurrency_opportunityclose
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_opportunityclose](transactioncurrency.md#BKMK_transactioncurrency_opportunityclose)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_opportunityclose`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_user_opportunityclose"></a> user_opportunityclose
 

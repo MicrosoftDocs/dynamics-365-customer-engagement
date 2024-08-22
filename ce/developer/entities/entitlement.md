@@ -868,7 +868,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [processstage_Entitlement](#BKMK_processstage_Entitlement)
 - [sla_entitlement](#BKMK_sla_entitlement)
 - [team_entitlement](#BKMK_team_entitlement)
-- [TransactionCurrency_Entitlement](#BKMK_TransactionCurrency_Entitlement)
 - [user_entitlement](#BKMK_user_entitlement)
 
 ### <a name="BKMK_account_entitlement_Account"></a> account_entitlement_Account
@@ -1052,19 +1051,6 @@ One-To-Many Relationship: [team team_entitlement](team.md#BKMK_team_entitlement)
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_Entitlement"></a> TransactionCurrency_Entitlement
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_Entitlement](transactioncurrency.md#BKMK_TransactionCurrency_Entitlement)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_user_entitlement"></a> user_entitlement
 

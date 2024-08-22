@@ -80,7 +80,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [owner_msdyn_aicontactsuggestion](#BKMK_owner_msdyn_aicontactsuggestion)
 - [owner_msdyn_analytics](#BKMK_owner_msdyn_analytics)
 - [owner_msdyn_analyticsadminsettings](#BKMK_owner_msdyn_analyticsadminsettings)
-- [owner_msdyn_analyticsforcs](#BKMK_owner_msdyn_analyticsforcs)
 - [owner_msdyn_appconfiguration](#BKMK_owner_msdyn_appconfiguration)
 - [owner_msdyn_applicationextension](#BKMK_owner_msdyn_applicationextension)
 - [owner_msdyn_applicationtabtemplate](#BKMK_owner_msdyn_applicationtabtemplate)
@@ -116,9 +115,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [owner_msdyn_channelprovider](#BKMK_owner_msdyn_channelprovider)
 - [owner_msdyn_consoleapplicationnotificationfield](#BKMK_owner_msdyn_consoleapplicationnotificationfield)
 - [owner_msdyn_consoleapplicationnotificationtemplate](#BKMK_owner_msdyn_consoleapplicationnotificationtemplate)
-- [owner_msdyn_consoleapplicationsessiontemplate](#BKMK_owner_msdyn_consoleapplicationsessiontemplate)
-- [owner_msdyn_consoleapplicationtemplate](#BKMK_owner_msdyn_consoleapplicationtemplate)
-- [owner_msdyn_consoleapplicationtemplateparameter](#BKMK_owner_msdyn_consoleapplicationtemplateparameter)
 - [owner_msdyn_consumingapplication](#BKMK_owner_msdyn_consumingapplication)
 - [owner_msdyn_contactsuggestionrule](#BKMK_owner_msdyn_contactsuggestionrule)
 - [owner_msdyn_contactsuggestionruleset](#BKMK_owner_msdyn_contactsuggestionruleset)
@@ -262,9 +258,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [owner_msdyn_personalsoundsetting](#BKMK_owner_msdyn_personalsoundsetting)
 - [owner_msdyn_playbookactivity](#BKMK_owner_msdyn_playbookactivity)
 - [owner_msdyn_playbookactivityattribute](#BKMK_owner_msdyn_playbookactivityattribute)
-- [owner_msdyn_playbookcategory](#BKMK_owner_msdyn_playbookcategory)
 - [owner_msdyn_playbookinstance](#BKMK_owner_msdyn_playbookinstance)
-- [owner_msdyn_playbooktemplate](#BKMK_owner_msdyn_playbooktemplate)
 - [owner_msdyn_postalbum](#BKMK_owner_msdyn_postalbum)
 - [owner_msdyn_predictioncomputationoperation](#BKMK_owner_msdyn_predictioncomputationoperation)
 - [owner_msdyn_predictionmodelstatus](#BKMK_owner_msdyn_predictionmodelstatus)
@@ -316,10 +310,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [owner_msdyn_sequencetargetstep](#BKMK_owner_msdyn_sequencetargetstep)
 - [owner_msdyn_sequencetemplate](#BKMK_owner_msdyn_sequencetemplate)
 - [owner_msdyn_serviceoneprovisioningrequest](#BKMK_owner_msdyn_serviceoneprovisioningrequest)
-- [owner_msdyn_sessiondata](#BKMK_owner_msdyn_sessiondata)
 - [owner_msdyn_sessionevent](#BKMK_owner_msdyn_sessionevent)
 - [owner_msdyn_sessionparticipant](#BKMK_owner_msdyn_sessionparticipant)
-- [owner_msdyn_sessionparticipantdata](#BKMK_owner_msdyn_sessionparticipantdata)
 - [owner_msdyn_sessiontemplate](#BKMK_owner_msdyn_sessiontemplate)
 - [owner_msdyn_siconfig](#BKMK_owner_msdyn_siconfig)
 - [owner_msdyn_skillattachmentruleitem](#BKMK_owner_msdyn_skillattachmentruleitem)
@@ -338,7 +330,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [owner_msdyn_taggedrecord](#BKMK_owner_msdyn_taggedrecord)
 - [owner_msdyn_templateforproperties](#BKMK_owner_msdyn_templateforproperties)
 - [owner_msdyn_templateparameter](#BKMK_owner_msdyn_templateparameter)
-- [owner_msdyn_templatetags](#BKMK_owner_msdyn_templatetags)
 - [owner_msdyn_timespent](#BKMK_owner_msdyn_timespent)
 - [owner_msdyn_timetracker](#BKMK_owner_msdyn_timetracker)
 - [owner_msdyn_trainingresult](#BKMK_owner_msdyn_trainingresult)
@@ -976,18 +967,6 @@ Many-To-One Relationship: [msdyn_analyticsadminsettings owner_msdyn_analyticsadm
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_owner_msdyn_analyticsforcs"></a> owner_msdyn_analyticsforcs
-
-Many-To-One Relationship: [msdyn_analyticsforcs owner_msdyn_analyticsforcs](msdyn_analyticsforcs.md#BKMK_owner_msdyn_analyticsforcs)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_analyticsforcs`|
-|ReferencingAttribute|`ownerid`|
-|ReferencedEntityNavigationPropertyName|`owner_msdyn_analyticsforcs`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
 ### <a name="BKMK_owner_msdyn_appconfiguration"></a> owner_msdyn_appconfiguration
 
 Many-To-One Relationship: [msdyn_appconfiguration owner_msdyn_appconfiguration](msdyn_appconfiguration.md#BKMK_owner_msdyn_appconfiguration)
@@ -1405,42 +1384,6 @@ Many-To-One Relationship: [msdyn_consoleapplicationnotificationtemplate owner_ms
 |ReferencingEntity|`msdyn_consoleapplicationnotificationtemplate`|
 |ReferencingAttribute|`ownerid`|
 |ReferencedEntityNavigationPropertyName|`owner_msdyn_consoleapplicationnotificationtemplate`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_owner_msdyn_consoleapplicationsessiontemplate"></a> owner_msdyn_consoleapplicationsessiontemplate
-
-Many-To-One Relationship: [msdyn_consoleapplicationsessiontemplate owner_msdyn_consoleapplicationsessiontemplate](msdyn_consoleapplicationsessiontemplate.md#BKMK_owner_msdyn_consoleapplicationsessiontemplate)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_consoleapplicationsessiontemplate`|
-|ReferencingAttribute|`ownerid`|
-|ReferencedEntityNavigationPropertyName|`owner_msdyn_consoleapplicationsessiontemplate`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_owner_msdyn_consoleapplicationtemplate"></a> owner_msdyn_consoleapplicationtemplate
-
-Many-To-One Relationship: [msdyn_consoleapplicationtemplate owner_msdyn_consoleapplicationtemplate](msdyn_consoleapplicationtemplate.md#BKMK_owner_msdyn_consoleapplicationtemplate)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_consoleapplicationtemplate`|
-|ReferencingAttribute|`ownerid`|
-|ReferencedEntityNavigationPropertyName|`owner_msdyn_consoleapplicationtemplate`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_owner_msdyn_consoleapplicationtemplateparameter"></a> owner_msdyn_consoleapplicationtemplateparameter
-
-Many-To-One Relationship: [msdyn_consoleapplicationtemplateparameter owner_msdyn_consoleapplicationtemplateparameter](msdyn_consoleapplicationtemplateparameter.md#BKMK_owner_msdyn_consoleapplicationtemplateparameter)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_consoleapplicationtemplateparameter`|
-|ReferencingAttribute|`ownerid`|
-|ReferencedEntityNavigationPropertyName|`owner_msdyn_consoleapplicationtemplateparameter`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -3160,18 +3103,6 @@ Many-To-One Relationship: [msdyn_playbookactivityattribute owner_msdyn_playbooka
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_owner_msdyn_playbookcategory"></a> owner_msdyn_playbookcategory
-
-Many-To-One Relationship: [msdyn_playbookcategory owner_msdyn_playbookcategory](msdyn_playbookcategory.md#BKMK_owner_msdyn_playbookcategory)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_playbookcategory`|
-|ReferencingAttribute|`ownerid`|
-|ReferencedEntityNavigationPropertyName|`owner_msdyn_playbookcategory`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
 ### <a name="BKMK_owner_msdyn_playbookinstance"></a> owner_msdyn_playbookinstance
 
 Many-To-One Relationship: [msdyn_playbookinstance owner_msdyn_playbookinstance](msdyn_playbookinstance.md#BKMK_owner_msdyn_playbookinstance)
@@ -3182,18 +3113,6 @@ Many-To-One Relationship: [msdyn_playbookinstance owner_msdyn_playbookinstance](
 |ReferencingAttribute|`ownerid`|
 |ReferencedEntityNavigationPropertyName|`owner_msdyn_playbookinstance`|
 |IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_owner_msdyn_playbooktemplate"></a> owner_msdyn_playbooktemplate
-
-Many-To-One Relationship: [msdyn_playbooktemplate owner_msdyn_playbooktemplate](msdyn_playbooktemplate.md#BKMK_owner_msdyn_playbooktemplate)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_playbooktemplate`|
-|ReferencingAttribute|`ownerid`|
-|ReferencedEntityNavigationPropertyName|`owner_msdyn_playbooktemplate`|
-|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_owner_msdyn_postalbum"></a> owner_msdyn_postalbum
@@ -3808,18 +3727,6 @@ Many-To-One Relationship: [msdyn_serviceoneprovisioningrequest owner_msdyn_servi
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_owner_msdyn_sessiondata"></a> owner_msdyn_sessiondata
-
-Many-To-One Relationship: [msdyn_sessiondata owner_msdyn_sessiondata](msdyn_sessiondata.md#BKMK_owner_msdyn_sessiondata)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_sessiondata`|
-|ReferencingAttribute|`ownerid`|
-|ReferencedEntityNavigationPropertyName|`owner_msdyn_sessiondata`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
 ### <a name="BKMK_owner_msdyn_sessionevent"></a> owner_msdyn_sessionevent
 
 Many-To-One Relationship: [msdyn_sessionevent owner_msdyn_sessionevent](msdyn_sessionevent.md#BKMK_owner_msdyn_sessionevent)
@@ -3841,18 +3748,6 @@ Many-To-One Relationship: [msdyn_sessionparticipant owner_msdyn_sessionparticipa
 |ReferencingEntity|`msdyn_sessionparticipant`|
 |ReferencingAttribute|`ownerid`|
 |ReferencedEntityNavigationPropertyName|`owner_msdyn_sessionparticipant`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_owner_msdyn_sessionparticipantdata"></a> owner_msdyn_sessionparticipantdata
-
-Many-To-One Relationship: [msdyn_sessionparticipantdata owner_msdyn_sessionparticipantdata](msdyn_sessionparticipantdata.md#BKMK_owner_msdyn_sessionparticipantdata)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_sessionparticipantdata`|
-|ReferencingAttribute|`ownerid`|
-|ReferencedEntityNavigationPropertyName|`owner_msdyn_sessionparticipantdata`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -4069,18 +3964,6 @@ Many-To-One Relationship: [msdyn_templateparameter owner_msdyn_templateparameter
 |ReferencingEntity|`msdyn_templateparameter`|
 |ReferencingAttribute|`ownerid`|
 |ReferencedEntityNavigationPropertyName|`owner_msdyn_templateparameter`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_owner_msdyn_templatetags"></a> owner_msdyn_templatetags
-
-Many-To-One Relationship: [msdyn_templatetags owner_msdyn_templatetags](msdyn_templatetags.md#BKMK_owner_msdyn_templatetags)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_templatetags`|
-|ReferencingAttribute|`ownerid`|
-|ReferencedEntityNavigationPropertyName|`owner_msdyn_templatetags`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

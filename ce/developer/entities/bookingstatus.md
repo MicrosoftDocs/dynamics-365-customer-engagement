@@ -502,7 +502,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_bookingstatus_modifiedonbehalfby](#BKMK_lk_bookingstatus_modifiedonbehalfby)
 - [owner_bookingstatus](#BKMK_owner_bookingstatus)
 - [team_bookingstatus](#BKMK_team_bookingstatus)
-- [TransactionCurrency_bookingstatus](#BKMK_TransactionCurrency_bookingstatus)
 - [user_bookingstatus](#BKMK_user_bookingstatus)
 
 ### <a name="BKMK_business_unit_bookingstatus"></a> business_unit_bookingstatus
@@ -595,19 +594,6 @@ One-To-Many Relationship: [team team_bookingstatus](team.md#BKMK_team_bookingsta
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_bookingstatus"></a> TransactionCurrency_bookingstatus
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_bookingstatus](transactioncurrency.md#BKMK_TransactionCurrency_bookingstatus)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_user_bookingstatus"></a> user_bookingstatus
 

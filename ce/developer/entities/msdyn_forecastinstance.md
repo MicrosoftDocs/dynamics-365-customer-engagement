@@ -966,7 +966,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_msdyn_forecastrecurrence_msdyn_forecastinstance](#BKMK_msdyn_msdyn_forecastrecurrence_msdyn_forecastinstance)
 - [owner_msdyn_forecastinstance](#BKMK_owner_msdyn_forecastinstance)
 - [team_msdyn_forecastinstance](#BKMK_team_msdyn_forecastinstance)
-- [TransactionCurrency_msdyn_forecastinstance](#BKMK_TransactionCurrency_msdyn_forecastinstance)
 - [user_msdyn_forecastinstance](#BKMK_user_msdyn_forecastinstance)
 
 ### <a name="BKMK_business_unit_msdyn_forecastinstance"></a> business_unit_msdyn_forecastinstance
@@ -1111,19 +1110,6 @@ One-To-Many Relationship: [team team_msdyn_forecastinstance](team.md#BKMK_team_m
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_msdyn_forecastinstance"></a> TransactionCurrency_msdyn_forecastinstance
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_msdyn_forecastinstance](transactioncurrency.md#BKMK_TransactionCurrency_msdyn_forecastinstance)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_user_msdyn_forecastinstance"></a> user_msdyn_forecastinstance
 

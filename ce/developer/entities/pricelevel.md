@@ -479,7 +479,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_pricelevelbase_createdby](#BKMK_lk_pricelevelbase_createdby)
 - [lk_pricelevelbase_modifiedby](#BKMK_lk_pricelevelbase_modifiedby)
 - [organization_price_levels](#BKMK_organization_price_levels)
-- [transactioncurrency_pricelevel](#BKMK_transactioncurrency_pricelevel)
 
 ### <a name="BKMK_lk_pricelevel_createdonbehalfby"></a> lk_pricelevel_createdonbehalfby
 
@@ -545,19 +544,6 @@ One-To-Many Relationship: [organization organization_price_levels](organization.
 |ReferencingEntityNavigationPropertyName|`organizationid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_pricelevel"></a> transactioncurrency_pricelevel
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_pricelevel](transactioncurrency.md#BKMK_transactioncurrency_pricelevel)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

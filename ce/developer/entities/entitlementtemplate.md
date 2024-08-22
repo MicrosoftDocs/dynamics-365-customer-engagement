@@ -509,7 +509,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_entitlementtemplate_modifiedby](#BKMK_lk_entitlementtemplate_modifiedby)
 - [lk_entitlementtemplate_modifiedonbehalfby](#BKMK_lk_entitlementtemplate_modifiedonbehalfby)
 - [sla_entitlementtemplate](#BKMK_sla_entitlementtemplate)
-- [TransactionCurrency_entitlementtemplate](#BKMK_TransactionCurrency_entitlementtemplate)
 
 ### <a name="BKMK_entitlementtemplate_organization"></a> entitlementtemplate_organization
 
@@ -588,19 +587,6 @@ One-To-Many Relationship: [sla sla_entitlementtemplate](sla.md#BKMK_sla_entitlem
 |ReferencingEntityNavigationPropertyName|`slaid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_entitlementtemplate"></a> TransactionCurrency_entitlementtemplate
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_entitlementtemplate](transactioncurrency.md#BKMK_TransactionCurrency_entitlementtemplate)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

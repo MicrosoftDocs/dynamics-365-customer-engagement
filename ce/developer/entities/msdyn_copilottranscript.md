@@ -1324,7 +1324,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_copilottranscript_systemuser_modifiedonbehalfby](#BKMK_msdyn_copilottranscript_systemuser_modifiedonbehalfby)
 - [msdyn_copilottranscript_systemuser_owninguser](#BKMK_msdyn_copilottranscript_systemuser_owninguser)
 - [msdyn_copilottranscript_team_owningteam](#BKMK_msdyn_copilottranscript_team_owningteam)
-- [msdyn_copilottranscript_transactioncurrency_transactioncurrencyid](#BKMK_msdyn_copilottranscript_transactioncurrency_transactioncurrencyid)
 - [msdyn_customerasset_msdyn_copilottranscripts](#BKMK_msdyn_customerasset_msdyn_copilottranscripts)
 - [msdyn_playbookinstance_msdyn_copilottranscripts](#BKMK_msdyn_playbookinstance_msdyn_copilottranscripts)
 - [msdyn_postalbum_msdyn_copilottranscripts](#BKMK_msdyn_postalbum_msdyn_copilottranscripts)
@@ -1730,19 +1729,6 @@ One-To-Many Relationship: [team msdyn_copilottranscript_team_owningteam](team.md
 |ReferencingEntityNavigationPropertyName|`owningteam_msdyn_copilottranscript`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_copilottranscript_transactioncurrency_transactioncurrencyid"></a> msdyn_copilottranscript_transactioncurrency_transactioncurrencyid
-
-One-To-Many Relationship: [transactioncurrency msdyn_copilottranscript_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_msdyn_copilottranscript_transactioncurrency_transactioncurrencyid)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_msdyn_copilottranscript`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_customerasset_msdyn_copilottranscripts"></a> msdyn_customerasset_msdyn_copilottranscripts
 

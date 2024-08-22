@@ -710,7 +710,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_leadaddress_modifiedonbehalfby](#BKMK_lk_leadaddress_modifiedonbehalfby)
 - [lk_leadaddressbase_createdby](#BKMK_lk_leadaddressbase_createdby)
 - [lk_leadaddressbase_modifiedby](#BKMK_lk_leadaddressbase_modifiedby)
-- [TransactionCurrency_LeadAddress](#BKMK_TransactionCurrency_LeadAddress)
 
 ### <a name="BKMK_lead_addresses"></a> lead_addresses
 
@@ -776,19 +775,6 @@ One-To-Many Relationship: [systemuser lk_leadaddressbase_modifiedby](systemuser.
 |ReferencingEntityNavigationPropertyName|`modifiedby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_LeadAddress"></a> TransactionCurrency_LeadAddress
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_LeadAddress](transactioncurrency.md#BKMK_TransactionCurrency_LeadAddress)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

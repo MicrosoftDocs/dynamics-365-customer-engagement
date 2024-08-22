@@ -1471,7 +1471,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [mspp_website_CampaignActivities](#BKMK_mspp_website_CampaignActivities)
 - [processstage_campaignactivities](#BKMK_processstage_campaignactivities)
 - [team_campaignactivity](#BKMK_team_campaignactivity)
-- [transactioncurrency_campaignactivity](#BKMK_transactioncurrency_campaignactivity)
 - [user_campaignactivity](#BKMK_user_campaignactivity)
 
 ### <a name="BKMK_activity_pointer_campaignactivity"></a> activity_pointer_campaignactivity
@@ -1759,19 +1758,6 @@ One-To-Many Relationship: [team team_campaignactivity](team.md#BKMK_team_campaig
 |ReferencingEntityNavigationPropertyName|`owningteam_campaignactivity`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_campaignactivity"></a> transactioncurrency_campaignactivity
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_campaignactivity](transactioncurrency.md#BKMK_transactioncurrency_campaignactivity)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_campaignactivity`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_user_campaignactivity"></a> user_campaignactivity
 

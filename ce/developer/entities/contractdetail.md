@@ -997,7 +997,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_contractdetailbase_modifiedby](#BKMK_lk_contractdetailbase_modifiedby)
 - [product_contract_line_items](#BKMK_product_contract_line_items)
 - [team_contractdetail](#BKMK_team_contractdetail)
-- [transactioncurrency_contractdetail](#BKMK_transactioncurrency_contractdetail)
 - [unit_of_measurement_contract_line_items](#BKMK_unit_of_measurement_contract_line_items)
 - [user_contractdetail](#BKMK_user_contractdetail)
 
@@ -1143,19 +1142,6 @@ One-To-Many Relationship: [team team_contractdetail](team.md#BKMK_team_contractd
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_contractdetail"></a> transactioncurrency_contractdetail
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_contractdetail](transactioncurrency.md#BKMK_transactioncurrency_contractdetail)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_unit_of_measurement_contract_line_items"></a> unit_of_measurement_contract_line_items
 

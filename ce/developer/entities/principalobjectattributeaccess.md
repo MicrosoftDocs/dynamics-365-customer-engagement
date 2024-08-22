@@ -126,7 +126,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_aicontactsuggestion_PrincipalObjectAttributeAccesses](#BKMK_msdyn_aicontactsuggestion_PrincipalObjectAttributeAccesses)
 - [msdyn_analytics_PrincipalObjectAttributeAccesses](#BKMK_msdyn_analytics_PrincipalObjectAttributeAccesses)
 - [msdyn_analyticsadminsettings_PrincipalObjectAttributeAccesses](#BKMK_msdyn_analyticsadminsettings_PrincipalObjectAttributeAccesses)
-- [msdyn_analyticsforcs_PrincipalObjectAttributeAccesses](#BKMK_msdyn_analyticsforcs_PrincipalObjectAttributeAccesses)
 - [msdyn_appconfiguration_PrincipalObjectAttributeAccesses](#BKMK_msdyn_appconfiguration_PrincipalObjectAttributeAccesses)
 - [msdyn_appcopilotconfiguration_PrincipalObjectAttributeAccesses](#BKMK_msdyn_appcopilotconfiguration_PrincipalObjectAttributeAccesses)
 - [msdyn_applicationextension_PrincipalObjectAttributeAccesses](#BKMK_msdyn_applicationextension_PrincipalObjectAttributeAccesses)
@@ -176,10 +175,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_collabspaceteamassociation_PrincipalObjectAttributeAccesses](#BKMK_msdyn_collabspaceteamassociation_PrincipalObjectAttributeAccesses)
 - [msdyn_consoleapplicationnotificationfield_PrincipalObjectAttributeAccesses](#BKMK_msdyn_consoleapplicationnotificationfield_PrincipalObjectAttributeAccesses)
 - [msdyn_consoleapplicationnotificationtemplate_PrincipalObjectAttributeAccesses](#BKMK_msdyn_consoleapplicationnotificationtemplate_PrincipalObjectAttributeAccesses)
-- [msdyn_consoleapplicationsessiontemplate_PrincipalObjectAttributeAccesses](#BKMK_msdyn_consoleapplicationsessiontemplate_PrincipalObjectAttributeAccesses)
-- [msdyn_consoleapplicationtemplate_PrincipalObjectAttributeAccesses](#BKMK_msdyn_consoleapplicationtemplate_PrincipalObjectAttributeAccesses)
-- [msdyn_consoleapplicationtemplateparameter_PrincipalObjectAttributeAccesses](#BKMK_msdyn_consoleapplicationtemplateparameter_PrincipalObjectAttributeAccesses)
-- [msdyn_consoleapplicationtype_PrincipalObjectAttributeAccesses](#BKMK_msdyn_consoleapplicationtype_PrincipalObjectAttributeAccesses)
 - [msdyn_consoleappparameterdefinition_PrincipalObjectAttributeAccesses](#BKMK_msdyn_consoleappparameterdefinition_PrincipalObjectAttributeAccesses)
 - [msdyn_consumingapplication_PrincipalObjectAttributeAccesses](#BKMK_msdyn_consumingapplication_PrincipalObjectAttributeAccesses)
 - [msdyn_contactkpiitem_PrincipalObjectAttributeAccesses](#BKMK_msdyn_contactkpiitem_PrincipalObjectAttributeAccesses)
@@ -390,9 +385,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_personasecurityrolemapping_PrincipalObjectAttributeAccesses](#BKMK_msdyn_personasecurityrolemapping_PrincipalObjectAttributeAccesses)
 - [msdyn_playbookactivity_PrincipalObjectAttributeAccesses](#BKMK_msdyn_playbookactivity_PrincipalObjectAttributeAccesses)
 - [msdyn_playbookactivityattribute_PrincipalObjectAttributeAccesses](#BKMK_msdyn_playbookactivityattribute_PrincipalObjectAttributeAccesses)
-- [msdyn_playbookcategory_PrincipalObjectAttributeAccesses](#BKMK_msdyn_playbookcategory_PrincipalObjectAttributeAccesses)
 - [msdyn_playbookinstance_PrincipalObjectAttributeAccesses](#BKMK_msdyn_playbookinstance_PrincipalObjectAttributeAccesses)
-- [msdyn_playbooktemplate_PrincipalObjectAttributeAccesses](#BKMK_msdyn_playbooktemplate_PrincipalObjectAttributeAccesses)
 - [msdyn_postalbum_PrincipalObjectAttributeAccesses](#BKMK_msdyn_postalbum_PrincipalObjectAttributeAccesses)
 - [msdyn_postconfig_PrincipalObjectAttributeAccesses](#BKMK_msdyn_postconfig_PrincipalObjectAttributeAccesses)
 - [msdyn_postruleconfig_PrincipalObjectAttributeAccesses](#BKMK_msdyn_postruleconfig_PrincipalObjectAttributeAccesses)
@@ -471,10 +464,8 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_servicecopilotplugin_PrincipalObjectAttributeAccesses](#BKMK_msdyn_servicecopilotplugin_PrincipalObjectAttributeAccesses)
 - [msdyn_servicecopilotpluginrole_PrincipalObjectAttributeAccesses](#BKMK_msdyn_servicecopilotpluginrole_PrincipalObjectAttributeAccesses)
 - [msdyn_serviceoneprovisioningrequest_PrincipalObjectAttributeAccesses](#BKMK_msdyn_serviceoneprovisioningrequest_PrincipalObjectAttributeAccesses)
-- [msdyn_sessiondata_PrincipalObjectAttributeAccesses](#BKMK_msdyn_sessiondata_PrincipalObjectAttributeAccesses)
 - [msdyn_sessionevent_PrincipalObjectAttributeAccesses](#BKMK_msdyn_sessionevent_PrincipalObjectAttributeAccesses)
 - [msdyn_sessionparticipant_PrincipalObjectAttributeAccesses](#BKMK_msdyn_sessionparticipant_PrincipalObjectAttributeAccesses)
-- [msdyn_sessionparticipantdata_PrincipalObjectAttributeAccesses](#BKMK_msdyn_sessionparticipantdata_PrincipalObjectAttributeAccesses)
 - [msdyn_sessiontemplate_PrincipalObjectAttributeAccesses](#BKMK_msdyn_sessiontemplate_PrincipalObjectAttributeAccesses)
 - [msdyn_shareasconfiguration_PrincipalObjectAttributeAccesses](#BKMK_msdyn_shareasconfiguration_PrincipalObjectAttributeAccesses)
 - [msdyn_siconfig_PrincipalObjectAttributeAccesses](#BKMK_msdyn_siconfig_PrincipalObjectAttributeAccesses)
@@ -507,7 +498,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_teamsdialeradminsettings_PrincipalObjectAttributeAccesses](#BKMK_msdyn_teamsdialeradminsettings_PrincipalObjectAttributeAccesses)
 - [msdyn_templateforproperties_PrincipalObjectAttributeAccesses](#BKMK_msdyn_templateforproperties_PrincipalObjectAttributeAccesses)
 - [msdyn_templateparameter_PrincipalObjectAttributeAccesses](#BKMK_msdyn_templateparameter_PrincipalObjectAttributeAccesses)
-- [msdyn_templatetags_PrincipalObjectAttributeAccesses](#BKMK_msdyn_templatetags_PrincipalObjectAttributeAccesses)
 - [msdyn_timespent_PrincipalObjectAttributeAccesses](#BKMK_msdyn_timespent_PrincipalObjectAttributeAccesses)
 - [msdyn_trainingresult_PrincipalObjectAttributeAccesses](#BKMK_msdyn_trainingresult_PrincipalObjectAttributeAccesses)
 - [msdyn_transcript_PrincipalObjectAttributeAccesses](#BKMK_msdyn_transcript_PrincipalObjectAttributeAccesses)
@@ -1676,19 +1666,6 @@ One-To-Many Relationship: [msdyn_analyticsadminsettings msdyn_analyticsadminsett
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_analyticsforcs_PrincipalObjectAttributeAccesses"></a> msdyn_analyticsforcs_PrincipalObjectAttributeAccesses
-
-One-To-Many Relationship: [msdyn_analyticsforcs msdyn_analyticsforcs_PrincipalObjectAttributeAccesses](msdyn_analyticsforcs.md#BKMK_msdyn_analyticsforcs_PrincipalObjectAttributeAccesses)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_analyticsforcs`|
-|ReferencedAttribute|`msdyn_analyticsforcsid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_analyticsforcs`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_appconfiguration_PrincipalObjectAttributeAccesses"></a> msdyn_appconfiguration_PrincipalObjectAttributeAccesses
 
 One-To-Many Relationship: [msdyn_appconfiguration msdyn_appconfiguration_PrincipalObjectAttributeAccesses](msdyn_appconfiguration.md#BKMK_msdyn_appconfiguration_PrincipalObjectAttributeAccesses)
@@ -2323,58 +2300,6 @@ One-To-Many Relationship: [msdyn_consoleapplicationnotificationtemplate msdyn_co
 |ReferencedAttribute|`msdyn_consoleapplicationnotificationtemplateid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_consoleapplicationnotificationtemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationsessiontemplate_PrincipalObjectAttributeAccesses"></a> msdyn_consoleapplicationsessiontemplate_PrincipalObjectAttributeAccesses
-
-One-To-Many Relationship: [msdyn_consoleapplicationsessiontemplate msdyn_consoleapplicationsessiontemplate_PrincipalObjectAttributeAccesses](msdyn_consoleapplicationsessiontemplate.md#BKMK_msdyn_consoleapplicationsessiontemplate_PrincipalObjectAttributeAccesses)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationsessiontemplate`|
-|ReferencedAttribute|`msdyn_consoleapplicationsessiontemplateid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_consoleapplicationsessiontemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplate_PrincipalObjectAttributeAccesses"></a> msdyn_consoleapplicationtemplate_PrincipalObjectAttributeAccesses
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplate msdyn_consoleapplicationtemplate_PrincipalObjectAttributeAccesses](msdyn_consoleapplicationtemplate.md#BKMK_msdyn_consoleapplicationtemplate_PrincipalObjectAttributeAccesses)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplate`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_consoleapplicationtemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplateparameter_PrincipalObjectAttributeAccesses"></a> msdyn_consoleapplicationtemplateparameter_PrincipalObjectAttributeAccesses
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplateparameter msdyn_consoleapplicationtemplateparameter_PrincipalObjectAttributeAccesses](msdyn_consoleapplicationtemplateparameter.md#BKMK_msdyn_consoleapplicationtemplateparameter_PrincipalObjectAttributeAccesses)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplateparameter`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateparameterid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_consoleapplicationtemplateparameter`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtype_PrincipalObjectAttributeAccesses"></a> msdyn_consoleapplicationtype_PrincipalObjectAttributeAccesses
-
-One-To-Many Relationship: [msdyn_consoleapplicationtype msdyn_consoleapplicationtype_PrincipalObjectAttributeAccesses](msdyn_consoleapplicationtype.md#BKMK_msdyn_consoleapplicationtype_PrincipalObjectAttributeAccesses)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtype`|
-|ReferencedAttribute|`msdyn_consoleapplicationtypeid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_consoleapplicationtype`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -5108,19 +5033,6 @@ One-To-Many Relationship: [msdyn_playbookactivityattribute msdyn_playbookactivit
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_playbookcategory_PrincipalObjectAttributeAccesses"></a> msdyn_playbookcategory_PrincipalObjectAttributeAccesses
-
-One-To-Many Relationship: [msdyn_playbookcategory msdyn_playbookcategory_PrincipalObjectAttributeAccesses](msdyn_playbookcategory.md#BKMK_msdyn_playbookcategory_PrincipalObjectAttributeAccesses)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbookcategory`|
-|ReferencedAttribute|`msdyn_playbookcategoryid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_playbookcategory`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_playbookinstance_PrincipalObjectAttributeAccesses"></a> msdyn_playbookinstance_PrincipalObjectAttributeAccesses
 
 One-To-Many Relationship: [msdyn_playbookinstance msdyn_playbookinstance_PrincipalObjectAttributeAccesses](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_PrincipalObjectAttributeAccesses)
@@ -5131,19 +5043,6 @@ One-To-Many Relationship: [msdyn_playbookinstance msdyn_playbookinstance_Princip
 |ReferencedAttribute|`msdyn_playbookinstanceid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_playbookinstance`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_playbooktemplate_PrincipalObjectAttributeAccesses"></a> msdyn_playbooktemplate_PrincipalObjectAttributeAccesses
-
-One-To-Many Relationship: [msdyn_playbooktemplate msdyn_playbooktemplate_PrincipalObjectAttributeAccesses](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_PrincipalObjectAttributeAccesses)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbooktemplate`|
-|ReferencedAttribute|`msdyn_playbooktemplateid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_playbooktemplate`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -6161,19 +6060,6 @@ One-To-Many Relationship: [msdyn_serviceoneprovisioningrequest msdyn_serviceonep
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_sessiondata_PrincipalObjectAttributeAccesses"></a> msdyn_sessiondata_PrincipalObjectAttributeAccesses
-
-One-To-Many Relationship: [msdyn_sessiondata msdyn_sessiondata_PrincipalObjectAttributeAccesses](msdyn_sessiondata.md#BKMK_msdyn_sessiondata_PrincipalObjectAttributeAccesses)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_sessiondata`|
-|ReferencedAttribute|`msdyn_sessiondataid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_sessiondata`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_sessionevent_PrincipalObjectAttributeAccesses"></a> msdyn_sessionevent_PrincipalObjectAttributeAccesses
 
 One-To-Many Relationship: [msdyn_sessionevent msdyn_sessionevent_PrincipalObjectAttributeAccesses](msdyn_sessionevent.md#BKMK_msdyn_sessionevent_PrincipalObjectAttributeAccesses)
@@ -6197,19 +6083,6 @@ One-To-Many Relationship: [msdyn_sessionparticipant msdyn_sessionparticipant_Pri
 |ReferencedAttribute|`msdyn_sessionparticipantid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_sessionparticipant`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_sessionparticipantdata_PrincipalObjectAttributeAccesses"></a> msdyn_sessionparticipantdata_PrincipalObjectAttributeAccesses
-
-One-To-Many Relationship: [msdyn_sessionparticipantdata msdyn_sessionparticipantdata_PrincipalObjectAttributeAccesses](msdyn_sessionparticipantdata.md#BKMK_msdyn_sessionparticipantdata_PrincipalObjectAttributeAccesses)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_sessionparticipantdata`|
-|ReferencedAttribute|`msdyn_sessionparticipantdataid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_sessionparticipantdata`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -6626,19 +6499,6 @@ One-To-Many Relationship: [msdyn_templateparameter msdyn_templateparameter_Princ
 |ReferencedAttribute|`msdyn_templateparameterid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_templateparameter`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_templatetags_PrincipalObjectAttributeAccesses"></a> msdyn_templatetags_PrincipalObjectAttributeAccesses
-
-One-To-Many Relationship: [msdyn_templatetags msdyn_templatetags_PrincipalObjectAttributeAccesses](msdyn_templatetags.md#BKMK_msdyn_templatetags_PrincipalObjectAttributeAccesses)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_templatetags`|
-|ReferencedAttribute|`msdyn_templatetagsid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_templatetags`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

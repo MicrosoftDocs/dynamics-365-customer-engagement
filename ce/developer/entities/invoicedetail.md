@@ -1411,7 +1411,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [productAssociation_invoice_details](#BKMK_productAssociation_invoice_details)
 - [system_user_invoicedetail](#BKMK_system_user_invoicedetail)
 - [team_invoicedetail](#BKMK_team_invoicedetail)
-- [transactioncurrency_invoicedetail](#BKMK_transactioncurrency_invoicedetail)
 - [unit_of_measurement_invoice_details](#BKMK_unit_of_measurement_invoice_details)
 - [user_invoicedetail](#BKMK_user_invoicedetail)
 
@@ -1570,19 +1569,6 @@ One-To-Many Relationship: [team team_invoicedetail](team.md#BKMK_team_invoicedet
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_invoicedetail"></a> transactioncurrency_invoicedetail
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_invoicedetail](transactioncurrency.md#BKMK_transactioncurrency_invoicedetail)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_unit_of_measurement_invoice_details"></a> unit_of_measurement_invoice_details
 

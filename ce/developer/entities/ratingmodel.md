@@ -491,7 +491,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_ratingmodel_modifiedonbehalfby](#BKMK_lk_ratingmodel_modifiedonbehalfby)
 - [owner_ratingmodel](#BKMK_owner_ratingmodel)
 - [team_ratingmodel](#BKMK_team_ratingmodel)
-- [TransactionCurrency_ratingmodel](#BKMK_TransactionCurrency_ratingmodel)
 - [user_ratingmodel](#BKMK_user_ratingmodel)
 
 ### <a name="BKMK_business_unit_ratingmodel"></a> business_unit_ratingmodel
@@ -584,19 +583,6 @@ One-To-Many Relationship: [team team_ratingmodel](team.md#BKMK_team_ratingmodel)
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_ratingmodel"></a> TransactionCurrency_ratingmodel
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_ratingmodel](transactioncurrency.md#BKMK_TransactionCurrency_ratingmodel)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_user_ratingmodel"></a> user_ratingmodel
 

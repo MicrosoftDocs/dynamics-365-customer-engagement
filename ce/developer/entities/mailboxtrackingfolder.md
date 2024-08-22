@@ -126,7 +126,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_aicontactsuggestion_MailboxTrackingFolders](#BKMK_msdyn_aicontactsuggestion_MailboxTrackingFolders)
 - [msdyn_analytics_MailboxTrackingFolders](#BKMK_msdyn_analytics_MailboxTrackingFolders)
 - [msdyn_analyticsadminsettings_MailboxTrackingFolders](#BKMK_msdyn_analyticsadminsettings_MailboxTrackingFolders)
-- [msdyn_analyticsforcs_MailboxTrackingFolders](#BKMK_msdyn_analyticsforcs_MailboxTrackingFolders)
 - [msdyn_appconfiguration_MailboxTrackingFolders](#BKMK_msdyn_appconfiguration_MailboxTrackingFolders)
 - [msdyn_appcopilotconfiguration_MailboxTrackingFolders](#BKMK_msdyn_appcopilotconfiguration_MailboxTrackingFolders)
 - [msdyn_applicationextension_MailboxTrackingFolders](#BKMK_msdyn_applicationextension_MailboxTrackingFolders)
@@ -176,10 +175,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_collabspaceteamassociation_MailboxTrackingFolders](#BKMK_msdyn_collabspaceteamassociation_MailboxTrackingFolders)
 - [msdyn_consoleapplicationnotificationfield_MailboxTrackingFolders](#BKMK_msdyn_consoleapplicationnotificationfield_MailboxTrackingFolders)
 - [msdyn_consoleapplicationnotificationtemplate_MailboxTrackingFolders](#BKMK_msdyn_consoleapplicationnotificationtemplate_MailboxTrackingFolders)
-- [msdyn_consoleapplicationsessiontemplate_MailboxTrackingFolders](#BKMK_msdyn_consoleapplicationsessiontemplate_MailboxTrackingFolders)
-- [msdyn_consoleapplicationtemplate_MailboxTrackingFolders](#BKMK_msdyn_consoleapplicationtemplate_MailboxTrackingFolders)
-- [msdyn_consoleapplicationtemplateparameter_MailboxTrackingFolders](#BKMK_msdyn_consoleapplicationtemplateparameter_MailboxTrackingFolders)
-- [msdyn_consoleapplicationtype_MailboxTrackingFolders](#BKMK_msdyn_consoleapplicationtype_MailboxTrackingFolders)
 - [msdyn_consoleappparameterdefinition_MailboxTrackingFolders](#BKMK_msdyn_consoleappparameterdefinition_MailboxTrackingFolders)
 - [msdyn_consumingapplication_MailboxTrackingFolders](#BKMK_msdyn_consumingapplication_MailboxTrackingFolders)
 - [msdyn_contactkpiitem_MailboxTrackingFolders](#BKMK_msdyn_contactkpiitem_MailboxTrackingFolders)
@@ -390,9 +385,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_personasecurityrolemapping_MailboxTrackingFolders](#BKMK_msdyn_personasecurityrolemapping_MailboxTrackingFolders)
 - [msdyn_playbookactivity_MailboxTrackingFolders](#BKMK_msdyn_playbookactivity_MailboxTrackingFolders)
 - [msdyn_playbookactivityattribute_MailboxTrackingFolders](#BKMK_msdyn_playbookactivityattribute_MailboxTrackingFolders)
-- [msdyn_playbookcategory_MailboxTrackingFolders](#BKMK_msdyn_playbookcategory_MailboxTrackingFolders)
 - [msdyn_playbookinstance_MailboxTrackingFolders](#BKMK_msdyn_playbookinstance_MailboxTrackingFolders)
-- [msdyn_playbooktemplate_MailboxTrackingFolders](#BKMK_msdyn_playbooktemplate_MailboxTrackingFolders)
 - [msdyn_postalbum_MailboxTrackingFolders](#BKMK_msdyn_postalbum_MailboxTrackingFolders)
 - [msdyn_postconfig_MailboxTrackingFolders](#BKMK_msdyn_postconfig_MailboxTrackingFolders)
 - [msdyn_postruleconfig_MailboxTrackingFolders](#BKMK_msdyn_postruleconfig_MailboxTrackingFolders)
@@ -471,10 +464,8 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_servicecopilotplugin_MailboxTrackingFolders](#BKMK_msdyn_servicecopilotplugin_MailboxTrackingFolders)
 - [msdyn_servicecopilotpluginrole_MailboxTrackingFolders](#BKMK_msdyn_servicecopilotpluginrole_MailboxTrackingFolders)
 - [msdyn_serviceoneprovisioningrequest_MailboxTrackingFolders](#BKMK_msdyn_serviceoneprovisioningrequest_MailboxTrackingFolders)
-- [msdyn_sessiondata_MailboxTrackingFolders](#BKMK_msdyn_sessiondata_MailboxTrackingFolders)
 - [msdyn_sessionevent_MailboxTrackingFolders](#BKMK_msdyn_sessionevent_MailboxTrackingFolders)
 - [msdyn_sessionparticipant_MailboxTrackingFolders](#BKMK_msdyn_sessionparticipant_MailboxTrackingFolders)
-- [msdyn_sessionparticipantdata_MailboxTrackingFolders](#BKMK_msdyn_sessionparticipantdata_MailboxTrackingFolders)
 - [msdyn_sessiontemplate_MailboxTrackingFolders](#BKMK_msdyn_sessiontemplate_MailboxTrackingFolders)
 - [msdyn_shareasconfiguration_MailboxTrackingFolders](#BKMK_msdyn_shareasconfiguration_MailboxTrackingFolders)
 - [msdyn_siconfig_MailboxTrackingFolders](#BKMK_msdyn_siconfig_MailboxTrackingFolders)
@@ -507,7 +498,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_teamsdialeradminsettings_MailboxTrackingFolders](#BKMK_msdyn_teamsdialeradminsettings_MailboxTrackingFolders)
 - [msdyn_templateforproperties_MailboxTrackingFolders](#BKMK_msdyn_templateforproperties_MailboxTrackingFolders)
 - [msdyn_templateparameter_MailboxTrackingFolders](#BKMK_msdyn_templateparameter_MailboxTrackingFolders)
-- [msdyn_templatetags_MailboxTrackingFolders](#BKMK_msdyn_templatetags_MailboxTrackingFolders)
 - [msdyn_timespent_MailboxTrackingFolders](#BKMK_msdyn_timespent_MailboxTrackingFolders)
 - [msdyn_trainingresult_MailboxTrackingFolders](#BKMK_msdyn_trainingresult_MailboxTrackingFolders)
 - [msdyn_transcript_MailboxTrackingFolders](#BKMK_msdyn_transcript_MailboxTrackingFolders)
@@ -1676,19 +1666,6 @@ One-To-Many Relationship: [msdyn_analyticsadminsettings msdyn_analyticsadminsett
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_analyticsforcs_MailboxTrackingFolders"></a> msdyn_analyticsforcs_MailboxTrackingFolders
-
-One-To-Many Relationship: [msdyn_analyticsforcs msdyn_analyticsforcs_MailboxTrackingFolders](msdyn_analyticsforcs.md#BKMK_msdyn_analyticsforcs_MailboxTrackingFolders)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_analyticsforcs`|
-|ReferencedAttribute|`msdyn_analyticsforcsid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_analyticsforcs`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_appconfiguration_MailboxTrackingFolders"></a> msdyn_appconfiguration_MailboxTrackingFolders
 
 One-To-Many Relationship: [msdyn_appconfiguration msdyn_appconfiguration_MailboxTrackingFolders](msdyn_appconfiguration.md#BKMK_msdyn_appconfiguration_MailboxTrackingFolders)
@@ -2323,58 +2300,6 @@ One-To-Many Relationship: [msdyn_consoleapplicationnotificationtemplate msdyn_co
 |ReferencedAttribute|`msdyn_consoleapplicationnotificationtemplateid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationnotificationtemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationsessiontemplate_MailboxTrackingFolders"></a> msdyn_consoleapplicationsessiontemplate_MailboxTrackingFolders
-
-One-To-Many Relationship: [msdyn_consoleapplicationsessiontemplate msdyn_consoleapplicationsessiontemplate_MailboxTrackingFolders](msdyn_consoleapplicationsessiontemplate.md#BKMK_msdyn_consoleapplicationsessiontemplate_MailboxTrackingFolders)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationsessiontemplate`|
-|ReferencedAttribute|`msdyn_consoleapplicationsessiontemplateid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationsessiontemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplate_MailboxTrackingFolders"></a> msdyn_consoleapplicationtemplate_MailboxTrackingFolders
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplate msdyn_consoleapplicationtemplate_MailboxTrackingFolders](msdyn_consoleapplicationtemplate.md#BKMK_msdyn_consoleapplicationtemplate_MailboxTrackingFolders)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplate`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationtemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplateparameter_MailboxTrackingFolders"></a> msdyn_consoleapplicationtemplateparameter_MailboxTrackingFolders
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplateparameter msdyn_consoleapplicationtemplateparameter_MailboxTrackingFolders](msdyn_consoleapplicationtemplateparameter.md#BKMK_msdyn_consoleapplicationtemplateparameter_MailboxTrackingFolders)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplateparameter`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateparameterid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationtemplateparameter`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtype_MailboxTrackingFolders"></a> msdyn_consoleapplicationtype_MailboxTrackingFolders
-
-One-To-Many Relationship: [msdyn_consoleapplicationtype msdyn_consoleapplicationtype_MailboxTrackingFolders](msdyn_consoleapplicationtype.md#BKMK_msdyn_consoleapplicationtype_MailboxTrackingFolders)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtype`|
-|ReferencedAttribute|`msdyn_consoleapplicationtypeid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationtype`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -5108,19 +5033,6 @@ One-To-Many Relationship: [msdyn_playbookactivityattribute msdyn_playbookactivit
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_playbookcategory_MailboxTrackingFolders"></a> msdyn_playbookcategory_MailboxTrackingFolders
-
-One-To-Many Relationship: [msdyn_playbookcategory msdyn_playbookcategory_MailboxTrackingFolders](msdyn_playbookcategory.md#BKMK_msdyn_playbookcategory_MailboxTrackingFolders)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbookcategory`|
-|ReferencedAttribute|`msdyn_playbookcategoryid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_playbookcategory`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_playbookinstance_MailboxTrackingFolders"></a> msdyn_playbookinstance_MailboxTrackingFolders
 
 One-To-Many Relationship: [msdyn_playbookinstance msdyn_playbookinstance_MailboxTrackingFolders](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_MailboxTrackingFolders)
@@ -5131,19 +5043,6 @@ One-To-Many Relationship: [msdyn_playbookinstance msdyn_playbookinstance_Mailbox
 |ReferencedAttribute|`msdyn_playbookinstanceid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_playbookinstance`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_playbooktemplate_MailboxTrackingFolders"></a> msdyn_playbooktemplate_MailboxTrackingFolders
-
-One-To-Many Relationship: [msdyn_playbooktemplate msdyn_playbooktemplate_MailboxTrackingFolders](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_MailboxTrackingFolders)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbooktemplate`|
-|ReferencedAttribute|`msdyn_playbooktemplateid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_playbooktemplate`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -6161,19 +6060,6 @@ One-To-Many Relationship: [msdyn_serviceoneprovisioningrequest msdyn_serviceonep
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_sessiondata_MailboxTrackingFolders"></a> msdyn_sessiondata_MailboxTrackingFolders
-
-One-To-Many Relationship: [msdyn_sessiondata msdyn_sessiondata_MailboxTrackingFolders](msdyn_sessiondata.md#BKMK_msdyn_sessiondata_MailboxTrackingFolders)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_sessiondata`|
-|ReferencedAttribute|`msdyn_sessiondataid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_sessiondata`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_sessionevent_MailboxTrackingFolders"></a> msdyn_sessionevent_MailboxTrackingFolders
 
 One-To-Many Relationship: [msdyn_sessionevent msdyn_sessionevent_MailboxTrackingFolders](msdyn_sessionevent.md#BKMK_msdyn_sessionevent_MailboxTrackingFolders)
@@ -6197,19 +6083,6 @@ One-To-Many Relationship: [msdyn_sessionparticipant msdyn_sessionparticipant_Mai
 |ReferencedAttribute|`msdyn_sessionparticipantid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_sessionparticipant`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_sessionparticipantdata_MailboxTrackingFolders"></a> msdyn_sessionparticipantdata_MailboxTrackingFolders
-
-One-To-Many Relationship: [msdyn_sessionparticipantdata msdyn_sessionparticipantdata_MailboxTrackingFolders](msdyn_sessionparticipantdata.md#BKMK_msdyn_sessionparticipantdata_MailboxTrackingFolders)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_sessionparticipantdata`|
-|ReferencedAttribute|`msdyn_sessionparticipantdataid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_sessionparticipantdata`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -6626,19 +6499,6 @@ One-To-Many Relationship: [msdyn_templateparameter msdyn_templateparameter_Mailb
 |ReferencedAttribute|`msdyn_templateparameterid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_templateparameter`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_templatetags_MailboxTrackingFolders"></a> msdyn_templatetags_MailboxTrackingFolders
-
-One-To-Many Relationship: [msdyn_templatetags msdyn_templatetags_MailboxTrackingFolders](msdyn_templatetags.md#BKMK_msdyn_templatetags_MailboxTrackingFolders)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_templatetags`|
-|ReferencedAttribute|`msdyn_templatetagsid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_templatetags`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

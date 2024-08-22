@@ -1381,7 +1381,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [quoteclose_owner_ownerid](#BKMK_quoteclose_owner_ownerid)
 - [quoteclose_sla_slaid](#BKMK_quoteclose_sla_slaid)
 - [quoteclose_sla_slainvokedid](#BKMK_quoteclose_sla_slainvokedid)
-- [quoteclose_transactioncurrency_transactioncurrencyid](#BKMK_quoteclose_transactioncurrency_transactioncurrencyid)
 - [service_quoteclose](#BKMK_service_quoteclose)
 - [site_QuoteCloses](#BKMK_site_QuoteCloses)
 - [team_quoteclose](#BKMK_team_quoteclose)
@@ -1841,19 +1840,6 @@ One-To-Many Relationship: [sla quoteclose_sla_slainvokedid](sla.md#BKMK_quoteclo
 |ReferencingEntityNavigationPropertyName|`slainvokedid_activitypointer_sla_quoteclose`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_quoteclose_transactioncurrency_transactioncurrencyid"></a> quoteclose_transactioncurrency_transactioncurrencyid
-
-One-To-Many Relationship: [transactioncurrency quoteclose_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_quoteclose_transactioncurrency_transactioncurrencyid)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_quoteclose`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_service_quoteclose"></a> service_quoteclose
 

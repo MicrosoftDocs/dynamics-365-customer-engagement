@@ -354,7 +354,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [organization_msdyn_casetopicsummary](#BKMK_organization_msdyn_casetopicsummary)
 - [organization_msdyn_channelcapability](#BKMK_organization_msdyn_channelcapability)
 - [organization_msdyn_ciprovider](#BKMK_organization_msdyn_ciprovider)
-- [organization_msdyn_consoleapplicationtype](#BKMK_organization_msdyn_consoleapplicationtype)
 - [organization_msdyn_consoleappparameterdefinition](#BKMK_organization_msdyn_consoleappparameterdefinition)
 - [organization_msdyn_contactkpiitem](#BKMK_organization_msdyn_contactkpiitem)
 - [organization_msdyn_conversationsuggestionrequestpayload](#BKMK_organization_msdyn_conversationsuggestionrequestpayload)
@@ -853,18 +852,6 @@ Many-To-One Relationship: [msdyn_ciprovider organization_msdyn_ciprovider](msdyn
 |ReferencingEntity|`msdyn_ciprovider`|
 |ReferencingAttribute|`organizationid`|
 |ReferencedEntityNavigationPropertyName|`organization_msdyn_ciprovider`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_organization_msdyn_consoleapplicationtype"></a> organization_msdyn_consoleapplicationtype
-
-Many-To-One Relationship: [msdyn_consoleapplicationtype organization_msdyn_consoleapplicationtype](msdyn_consoleapplicationtype.md#BKMK_organization_msdyn_consoleapplicationtype)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_consoleapplicationtype`|
-|ReferencingAttribute|`organizationid`|
-|ReferencedEntityNavigationPropertyName|`organization_msdyn_consoleapplicationtype`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

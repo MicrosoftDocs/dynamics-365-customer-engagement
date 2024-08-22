@@ -1417,7 +1417,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [bulkoperation_owner_ownerid](#BKMK_bulkoperation_owner_ownerid)
 - [bulkoperation_sla_slaid](#BKMK_bulkoperation_sla_slaid)
 - [bulkoperation_sla_slainvokedid](#BKMK_bulkoperation_sla_slainvokedid)
-- [bulkoperation_transactioncurrency_transactioncurrencyid](#BKMK_bulkoperation_transactioncurrency_transactioncurrencyid)
 - [business_unit_BulkOperation_activities](#BKMK_business_unit_BulkOperation_activities)
 - [CampaignActivity_BulkOperations](#BKMK_CampaignActivity_BulkOperations)
 - [contact_BulkOperations](#BKMK_contact_BulkOperations)
@@ -1555,19 +1554,6 @@ One-To-Many Relationship: [sla bulkoperation_sla_slainvokedid](sla.md#BKMK_bulko
 |ReferencingEntityNavigationPropertyName|`slainvokedid_activitypointer_sla_bulkoperation`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_bulkoperation_transactioncurrency_transactioncurrencyid"></a> bulkoperation_transactioncurrency_transactioncurrencyid
-
-One-To-Many Relationship: [transactioncurrency bulkoperation_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_bulkoperation_transactioncurrency_transactioncurrencyid)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_bulkoperation`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_business_unit_BulkOperation_activities"></a> business_unit_BulkOperation_activities
 

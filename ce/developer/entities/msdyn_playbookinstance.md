@@ -584,7 +584,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_playbookinstance_createdonbehalfby](#BKMK_lk_msdyn_playbookinstance_createdonbehalfby)
 - [lk_msdyn_playbookinstance_modifiedby](#BKMK_lk_msdyn_playbookinstance_modifiedby)
 - [lk_msdyn_playbookinstance_modifiedonbehalfby](#BKMK_lk_msdyn_playbookinstance_modifiedonbehalfby)
-- [msdyn_playbookcategory_msdyn_playbookinstance](#BKMK_msdyn_playbookcategory_msdyn_playbookinstance)
 - [msdyn_playbookinstance_account](#BKMK_msdyn_playbookinstance_account)
 - [msdyn_playbookinstance_contact](#BKMK_msdyn_playbookinstance_contact)
 - [msdyn_playbookinstance_invoice](#BKMK_msdyn_playbookinstance_invoice)
@@ -592,7 +591,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_playbookinstance_opportunity](#BKMK_msdyn_playbookinstance_opportunity)
 - [msdyn_playbookinstance_quote](#BKMK_msdyn_playbookinstance_quote)
 - [msdyn_playbookinstance_salesorder](#BKMK_msdyn_playbookinstance_salesorder)
-- [msdyn_playbooktemplate_msdyn_playbookinstance](#BKMK_msdyn_playbooktemplate_msdyn_playbookinstance)
 - [owner_msdyn_playbookinstance](#BKMK_owner_msdyn_playbookinstance)
 - [team_msdyn_playbookinstance](#BKMK_team_msdyn_playbookinstance)
 - [user_msdyn_playbookinstance](#BKMK_user_msdyn_playbookinstance)
@@ -661,19 +659,6 @@ One-To-Many Relationship: [systemuser lk_msdyn_playbookinstance_modifiedonbehalf
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_playbookcategory_msdyn_playbookinstance"></a> msdyn_playbookcategory_msdyn_playbookinstance
-
-One-To-Many Relationship: [msdyn_playbookcategory msdyn_playbookcategory_msdyn_playbookinstance](msdyn_playbookcategory.md#BKMK_msdyn_playbookcategory_msdyn_playbookinstance)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbookcategory`|
-|ReferencedAttribute|`msdyn_playbookcategoryid`|
-|ReferencingAttribute|`msdyn_categoryid`|
-|ReferencingEntityNavigationPropertyName|`msdyn_categoryid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_playbookinstance_account"></a> msdyn_playbookinstance_account
 
@@ -765,19 +750,6 @@ One-To-Many Relationship: [salesorder msdyn_playbookinstance_salesorder](salesor
 |ReferencingEntityNavigationPropertyName|`regarding_salesorder`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
-
-### <a name="BKMK_msdyn_playbooktemplate_msdyn_playbookinstance"></a> msdyn_playbooktemplate_msdyn_playbookinstance
-
-One-To-Many Relationship: [msdyn_playbooktemplate msdyn_playbooktemplate_msdyn_playbookinstance](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_msdyn_playbookinstance)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbooktemplate`|
-|ReferencedAttribute|`msdyn_playbooktemplateid`|
-|ReferencingAttribute|`msdyn_playbooktemplateid`|
-|ReferencingEntityNavigationPropertyName|`msdyn_playbooktemplateid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_owner_msdyn_playbookinstance"></a> owner_msdyn_playbookinstance
 

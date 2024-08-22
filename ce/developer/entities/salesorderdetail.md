@@ -1446,7 +1446,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [salesorderdetail_parentref_salesorderdetail](#BKMK_salesorderdetail_parentref_salesorderdetail-many-to-one)
 - [system_user_salesorderdetail](#BKMK_system_user_salesorderdetail)
 - [team_salesorderdetail](#BKMK_team_salesorderdetail)
-- [transactioncurrency_salesorderdetail](#BKMK_transactioncurrency_salesorderdetail)
 - [unit_of_measurement_order_details](#BKMK_unit_of_measurement_order_details)
 - [user_salesorderdetail](#BKMK_user_salesorderdetail)
 
@@ -1605,19 +1604,6 @@ One-To-Many Relationship: [team team_salesorderdetail](team.md#BKMK_team_salesor
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_salesorderdetail"></a> transactioncurrency_salesorderdetail
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_salesorderdetail](transactioncurrency.md#BKMK_transactioncurrency_salesorderdetail)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_unit_of_measurement_order_details"></a> unit_of_measurement_order_details
 

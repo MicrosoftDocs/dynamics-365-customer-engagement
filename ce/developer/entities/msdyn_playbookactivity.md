@@ -1771,7 +1771,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_playbookactivity_createdonbehalfby](#BKMK_lk_msdyn_playbookactivity_createdonbehalfby)
 - [lk_msdyn_playbookactivity_modifiedby](#BKMK_lk_msdyn_playbookactivity_modifiedby)
 - [lk_msdyn_playbookactivity_modifiedonbehalfby](#BKMK_lk_msdyn_playbookactivity_modifiedonbehalfby)
-- [msdyn_playbooktemplate_msdyn_playbookactivity](#BKMK_msdyn_playbooktemplate_msdyn_playbookactivity)
 - [owner_msdyn_playbookactivity](#BKMK_owner_msdyn_playbookactivity)
 - [team_msdyn_playbookactivity](#BKMK_team_msdyn_playbookactivity)
 - [user_msdyn_playbookactivity](#BKMK_user_msdyn_playbookactivity)
@@ -1840,19 +1839,6 @@ One-To-Many Relationship: [systemuser lk_msdyn_playbookactivity_modifiedonbehalf
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_playbooktemplate_msdyn_playbookactivity"></a> msdyn_playbooktemplate_msdyn_playbookactivity
-
-One-To-Many Relationship: [msdyn_playbooktemplate msdyn_playbooktemplate_msdyn_playbookactivity](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_msdyn_playbookactivity)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbooktemplate`|
-|ReferencedAttribute|`msdyn_playbooktemplateid`|
-|ReferencingAttribute|`msdyn_playbooktemplateid`|
-|ReferencingEntityNavigationPropertyName|`msdyn_playbooktemplateid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 
 ### <a name="BKMK_owner_msdyn_playbookactivity"></a> owner_msdyn_playbookactivity
 

@@ -835,7 +835,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_salessuggestion_opportunity_qualifiedrecord](#BKMK_msdyn_salessuggestion_opportunity_qualifiedrecord)
 - [owner_msdyn_salessuggestion](#BKMK_owner_msdyn_salessuggestion)
 - [team_msdyn_salessuggestion](#BKMK_team_msdyn_salessuggestion)
-- [TransactionCurrency_msdyn_salessuggestion](#BKMK_TransactionCurrency_msdyn_salessuggestion)
 - [user_msdyn_salessuggestion](#BKMK_user_msdyn_salessuggestion)
 
 ### <a name="BKMK_business_unit_msdyn_salessuggestion"></a> business_unit_msdyn_salessuggestion
@@ -967,19 +966,6 @@ One-To-Many Relationship: [team team_msdyn_salessuggestion](team.md#BKMK_team_ms
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_msdyn_salessuggestion"></a> TransactionCurrency_msdyn_salessuggestion
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_msdyn_salessuggestion](transactioncurrency.md#BKMK_TransactionCurrency_msdyn_salessuggestion)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_user_msdyn_salessuggestion"></a> user_msdyn_salessuggestion
 

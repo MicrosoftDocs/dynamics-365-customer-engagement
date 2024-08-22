@@ -501,7 +501,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_characteristic_modifiedonbehalfby](#BKMK_lk_characteristic_modifiedonbehalfby)
 - [owner_characteristic](#BKMK_owner_characteristic)
 - [team_characteristic](#BKMK_team_characteristic)
-- [TransactionCurrency_characteristic](#BKMK_TransactionCurrency_characteristic)
 - [user_characteristic](#BKMK_user_characteristic)
 
 ### <a name="BKMK_business_unit_characteristic"></a> business_unit_characteristic
@@ -594,19 +593,6 @@ One-To-Many Relationship: [team team_characteristic](team.md#BKMK_team_character
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_characteristic"></a> TransactionCurrency_characteristic
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_characteristic](transactioncurrency.md#BKMK_TransactionCurrency_characteristic)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_user_characteristic"></a> user_characteristic
 

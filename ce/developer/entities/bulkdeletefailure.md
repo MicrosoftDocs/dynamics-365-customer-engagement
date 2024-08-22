@@ -126,7 +126,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_aicontactsuggestion_BulkDeleteFailures](#BKMK_msdyn_aicontactsuggestion_BulkDeleteFailures)
 - [msdyn_analytics_BulkDeleteFailures](#BKMK_msdyn_analytics_BulkDeleteFailures)
 - [msdyn_analyticsadminsettings_BulkDeleteFailures](#BKMK_msdyn_analyticsadminsettings_BulkDeleteFailures)
-- [msdyn_analyticsforcs_BulkDeleteFailures](#BKMK_msdyn_analyticsforcs_BulkDeleteFailures)
 - [msdyn_appconfiguration_BulkDeleteFailures](#BKMK_msdyn_appconfiguration_BulkDeleteFailures)
 - [msdyn_appcopilotconfiguration_BulkDeleteFailures](#BKMK_msdyn_appcopilotconfiguration_BulkDeleteFailures)
 - [msdyn_applicationextension_BulkDeleteFailures](#BKMK_msdyn_applicationextension_BulkDeleteFailures)
@@ -176,10 +175,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_collabspaceteamassociation_BulkDeleteFailures](#BKMK_msdyn_collabspaceteamassociation_BulkDeleteFailures)
 - [msdyn_consoleapplicationnotificationfield_BulkDeleteFailures](#BKMK_msdyn_consoleapplicationnotificationfield_BulkDeleteFailures)
 - [msdyn_consoleapplicationnotificationtemplate_BulkDeleteFailures](#BKMK_msdyn_consoleapplicationnotificationtemplate_BulkDeleteFailures)
-- [msdyn_consoleapplicationsessiontemplate_BulkDeleteFailures](#BKMK_msdyn_consoleapplicationsessiontemplate_BulkDeleteFailures)
-- [msdyn_consoleapplicationtemplate_BulkDeleteFailures](#BKMK_msdyn_consoleapplicationtemplate_BulkDeleteFailures)
-- [msdyn_consoleapplicationtemplateparameter_BulkDeleteFailures](#BKMK_msdyn_consoleapplicationtemplateparameter_BulkDeleteFailures)
-- [msdyn_consoleapplicationtype_BulkDeleteFailures](#BKMK_msdyn_consoleapplicationtype_BulkDeleteFailures)
 - [msdyn_consoleappparameterdefinition_BulkDeleteFailures](#BKMK_msdyn_consoleappparameterdefinition_BulkDeleteFailures)
 - [msdyn_consumingapplication_BulkDeleteFailures](#BKMK_msdyn_consumingapplication_BulkDeleteFailures)
 - [msdyn_contactkpiitem_BulkDeleteFailures](#BKMK_msdyn_contactkpiitem_BulkDeleteFailures)
@@ -390,9 +385,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_personasecurityrolemapping_BulkDeleteFailures](#BKMK_msdyn_personasecurityrolemapping_BulkDeleteFailures)
 - [msdyn_playbookactivity_BulkDeleteFailures](#BKMK_msdyn_playbookactivity_BulkDeleteFailures)
 - [msdyn_playbookactivityattribute_BulkDeleteFailures](#BKMK_msdyn_playbookactivityattribute_BulkDeleteFailures)
-- [msdyn_playbookcategory_BulkDeleteFailures](#BKMK_msdyn_playbookcategory_BulkDeleteFailures)
 - [msdyn_playbookinstance_BulkDeleteFailures](#BKMK_msdyn_playbookinstance_BulkDeleteFailures)
-- [msdyn_playbooktemplate_BulkDeleteFailures](#BKMK_msdyn_playbooktemplate_BulkDeleteFailures)
 - [msdyn_postalbum_BulkDeleteFailures](#BKMK_msdyn_postalbum_BulkDeleteFailures)
 - [msdyn_postconfig_BulkDeleteFailures](#BKMK_msdyn_postconfig_BulkDeleteFailures)
 - [msdyn_postruleconfig_BulkDeleteFailures](#BKMK_msdyn_postruleconfig_BulkDeleteFailures)
@@ -471,10 +464,8 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_servicecopilotplugin_BulkDeleteFailures](#BKMK_msdyn_servicecopilotplugin_BulkDeleteFailures)
 - [msdyn_servicecopilotpluginrole_BulkDeleteFailures](#BKMK_msdyn_servicecopilotpluginrole_BulkDeleteFailures)
 - [msdyn_serviceoneprovisioningrequest_BulkDeleteFailures](#BKMK_msdyn_serviceoneprovisioningrequest_BulkDeleteFailures)
-- [msdyn_sessiondata_BulkDeleteFailures](#BKMK_msdyn_sessiondata_BulkDeleteFailures)
 - [msdyn_sessionevent_BulkDeleteFailures](#BKMK_msdyn_sessionevent_BulkDeleteFailures)
 - [msdyn_sessionparticipant_BulkDeleteFailures](#BKMK_msdyn_sessionparticipant_BulkDeleteFailures)
-- [msdyn_sessionparticipantdata_BulkDeleteFailures](#BKMK_msdyn_sessionparticipantdata_BulkDeleteFailures)
 - [msdyn_sessiontemplate_BulkDeleteFailures](#BKMK_msdyn_sessiontemplate_BulkDeleteFailures)
 - [msdyn_shareasconfiguration_BulkDeleteFailures](#BKMK_msdyn_shareasconfiguration_BulkDeleteFailures)
 - [msdyn_siconfig_BulkDeleteFailures](#BKMK_msdyn_siconfig_BulkDeleteFailures)
@@ -507,7 +498,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_teamsdialeradminsettings_BulkDeleteFailures](#BKMK_msdyn_teamsdialeradminsettings_BulkDeleteFailures)
 - [msdyn_templateforproperties_BulkDeleteFailures](#BKMK_msdyn_templateforproperties_BulkDeleteFailures)
 - [msdyn_templateparameter_BulkDeleteFailures](#BKMK_msdyn_templateparameter_BulkDeleteFailures)
-- [msdyn_templatetags_BulkDeleteFailures](#BKMK_msdyn_templatetags_BulkDeleteFailures)
 - [msdyn_timespent_BulkDeleteFailures](#BKMK_msdyn_timespent_BulkDeleteFailures)
 - [msdyn_trainingresult_BulkDeleteFailures](#BKMK_msdyn_trainingresult_BulkDeleteFailures)
 - [msdyn_transcript_BulkDeleteFailures](#BKMK_msdyn_transcript_BulkDeleteFailures)
@@ -1676,19 +1666,6 @@ One-To-Many Relationship: [msdyn_analyticsadminsettings msdyn_analyticsadminsett
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_analyticsforcs_BulkDeleteFailures"></a> msdyn_analyticsforcs_BulkDeleteFailures
-
-One-To-Many Relationship: [msdyn_analyticsforcs msdyn_analyticsforcs_BulkDeleteFailures](msdyn_analyticsforcs.md#BKMK_msdyn_analyticsforcs_BulkDeleteFailures)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_analyticsforcs`|
-|ReferencedAttribute|`msdyn_analyticsforcsid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_analyticsforcs`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_appconfiguration_BulkDeleteFailures"></a> msdyn_appconfiguration_BulkDeleteFailures
 
 One-To-Many Relationship: [msdyn_appconfiguration msdyn_appconfiguration_BulkDeleteFailures](msdyn_appconfiguration.md#BKMK_msdyn_appconfiguration_BulkDeleteFailures)
@@ -2323,58 +2300,6 @@ One-To-Many Relationship: [msdyn_consoleapplicationnotificationtemplate msdyn_co
 |ReferencedAttribute|`msdyn_consoleapplicationnotificationtemplateid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationnotificationtemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationsessiontemplate_BulkDeleteFailures"></a> msdyn_consoleapplicationsessiontemplate_BulkDeleteFailures
-
-One-To-Many Relationship: [msdyn_consoleapplicationsessiontemplate msdyn_consoleapplicationsessiontemplate_BulkDeleteFailures](msdyn_consoleapplicationsessiontemplate.md#BKMK_msdyn_consoleapplicationsessiontemplate_BulkDeleteFailures)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationsessiontemplate`|
-|ReferencedAttribute|`msdyn_consoleapplicationsessiontemplateid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationsessiontemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplate_BulkDeleteFailures"></a> msdyn_consoleapplicationtemplate_BulkDeleteFailures
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplate msdyn_consoleapplicationtemplate_BulkDeleteFailures](msdyn_consoleapplicationtemplate.md#BKMK_msdyn_consoleapplicationtemplate_BulkDeleteFailures)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplate`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationtemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplateparameter_BulkDeleteFailures"></a> msdyn_consoleapplicationtemplateparameter_BulkDeleteFailures
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplateparameter msdyn_consoleapplicationtemplateparameter_BulkDeleteFailures](msdyn_consoleapplicationtemplateparameter.md#BKMK_msdyn_consoleapplicationtemplateparameter_BulkDeleteFailures)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplateparameter`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateparameterid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationtemplateparameter`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtype_BulkDeleteFailures"></a> msdyn_consoleapplicationtype_BulkDeleteFailures
-
-One-To-Many Relationship: [msdyn_consoleapplicationtype msdyn_consoleapplicationtype_BulkDeleteFailures](msdyn_consoleapplicationtype.md#BKMK_msdyn_consoleapplicationtype_BulkDeleteFailures)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtype`|
-|ReferencedAttribute|`msdyn_consoleapplicationtypeid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationtype`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -5108,19 +5033,6 @@ One-To-Many Relationship: [msdyn_playbookactivityattribute msdyn_playbookactivit
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_playbookcategory_BulkDeleteFailures"></a> msdyn_playbookcategory_BulkDeleteFailures
-
-One-To-Many Relationship: [msdyn_playbookcategory msdyn_playbookcategory_BulkDeleteFailures](msdyn_playbookcategory.md#BKMK_msdyn_playbookcategory_BulkDeleteFailures)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbookcategory`|
-|ReferencedAttribute|`msdyn_playbookcategoryid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_playbookcategory`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_playbookinstance_BulkDeleteFailures"></a> msdyn_playbookinstance_BulkDeleteFailures
 
 One-To-Many Relationship: [msdyn_playbookinstance msdyn_playbookinstance_BulkDeleteFailures](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_BulkDeleteFailures)
@@ -5131,19 +5043,6 @@ One-To-Many Relationship: [msdyn_playbookinstance msdyn_playbookinstance_BulkDel
 |ReferencedAttribute|`msdyn_playbookinstanceid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_playbookinstance`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_playbooktemplate_BulkDeleteFailures"></a> msdyn_playbooktemplate_BulkDeleteFailures
-
-One-To-Many Relationship: [msdyn_playbooktemplate msdyn_playbooktemplate_BulkDeleteFailures](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_BulkDeleteFailures)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbooktemplate`|
-|ReferencedAttribute|`msdyn_playbooktemplateid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_playbooktemplate`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -6161,19 +6060,6 @@ One-To-Many Relationship: [msdyn_serviceoneprovisioningrequest msdyn_serviceonep
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_sessiondata_BulkDeleteFailures"></a> msdyn_sessiondata_BulkDeleteFailures
-
-One-To-Many Relationship: [msdyn_sessiondata msdyn_sessiondata_BulkDeleteFailures](msdyn_sessiondata.md#BKMK_msdyn_sessiondata_BulkDeleteFailures)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_sessiondata`|
-|ReferencedAttribute|`msdyn_sessiondataid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_sessiondata`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_sessionevent_BulkDeleteFailures"></a> msdyn_sessionevent_BulkDeleteFailures
 
 One-To-Many Relationship: [msdyn_sessionevent msdyn_sessionevent_BulkDeleteFailures](msdyn_sessionevent.md#BKMK_msdyn_sessionevent_BulkDeleteFailures)
@@ -6197,19 +6083,6 @@ One-To-Many Relationship: [msdyn_sessionparticipant msdyn_sessionparticipant_Bul
 |ReferencedAttribute|`msdyn_sessionparticipantid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_sessionparticipant`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_sessionparticipantdata_BulkDeleteFailures"></a> msdyn_sessionparticipantdata_BulkDeleteFailures
-
-One-To-Many Relationship: [msdyn_sessionparticipantdata msdyn_sessionparticipantdata_BulkDeleteFailures](msdyn_sessionparticipantdata.md#BKMK_msdyn_sessionparticipantdata_BulkDeleteFailures)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_sessionparticipantdata`|
-|ReferencedAttribute|`msdyn_sessionparticipantdataid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_sessionparticipantdata`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -6626,19 +6499,6 @@ One-To-Many Relationship: [msdyn_templateparameter msdyn_templateparameter_BulkD
 |ReferencedAttribute|`msdyn_templateparameterid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_templateparameter`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_templatetags_BulkDeleteFailures"></a> msdyn_templatetags_BulkDeleteFailures
-
-One-To-Many Relationship: [msdyn_templatetags msdyn_templatetags_BulkDeleteFailures](msdyn_templatetags.md#BKMK_msdyn_templatetags_BulkDeleteFailures)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_templatetags`|
-|ReferencedAttribute|`msdyn_templatetagsid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_templatetags`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

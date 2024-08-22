@@ -1940,24 +1940,6 @@ Many-To-One Relationship: [syncerror msdyn_callablecontext_SyncErrors](syncerror
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
-## Many-to-Many relationships
-
-These relationships are many-to-many. Listed by **SchemaName**.
-
-### <a name="BKMK_msdyn_callablecontext_msdyn_playbooktemplate"></a> msdyn_callablecontext_msdyn_playbooktemplate
-
-See [msdyn_playbooktemplate msdyn_callablecontext_msdyn_playbooktemplate Many-To-Many Relationship](msdyn_playbooktemplate.md#BKMK_msdyn_callablecontext_msdyn_playbooktemplate)
-
-|Property|Value|
-|---|---|
-|IntersectEntityName|`msdyn_callablecontext_msdyn_playbooktemplate`|
-|IsCustomizable|False|
-|SchemaName|`msdyn_callablecontext_msdyn_playbooktemplate`|
-|IntersectAttribute|`msdyn_callablecontextid`|
-|NavigationPropertyName|`msdyn_callablecontext_msdyn_playbooktemplate`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-
 
 ### See also
 

@@ -488,7 +488,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_leadtoopportunitysalesprocess_opportunityid](#BKMK_lk_leadtoopportunitysalesprocess_opportunityid)
 - [lk_leadtoopportunitysalesprocess_processid](#BKMK_lk_leadtoopportunitysalesprocess_processid)
 - [organization_leadtoopportunitysalesprocess](#BKMK_organization_leadtoopportunitysalesprocess)
-- [transactioncurrency_leadtoopportunitysalesprocess](#BKMK_transactioncurrency_leadtoopportunitysalesprocess)
 
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_activestageid"></a> lk_leadtoopportunitysalesprocess_activestageid
 
@@ -604,19 +603,6 @@ One-To-Many Relationship: [organization organization_leadtoopportunitysalesproce
 |ReferencedAttribute|`organizationid`|
 |ReferencingAttribute|`organizationid`|
 |ReferencingEntityNavigationPropertyName|`organizationid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_leadtoopportunitysalesprocess"></a> transactioncurrency_leadtoopportunitysalesprocess
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_leadtoopportunitysalesprocess](transactioncurrency.md#BKMK_transactioncurrency_leadtoopportunitysalesprocess)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

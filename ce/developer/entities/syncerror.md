@@ -101,7 +101,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_aicontactsuggestion_SyncErrors](#BKMK_msdyn_aicontactsuggestion_SyncErrors)
 - [msdyn_analytics_SyncErrors](#BKMK_msdyn_analytics_SyncErrors)
 - [msdyn_analyticsadminsettings_SyncErrors](#BKMK_msdyn_analyticsadminsettings_SyncErrors)
-- [msdyn_analyticsforcs_SyncErrors](#BKMK_msdyn_analyticsforcs_SyncErrors)
 - [msdyn_appconfiguration_SyncErrors](#BKMK_msdyn_appconfiguration_SyncErrors)
 - [msdyn_appcopilotconfiguration_SyncErrors](#BKMK_msdyn_appcopilotconfiguration_SyncErrors)
 - [msdyn_applicationextension_SyncErrors](#BKMK_msdyn_applicationextension_SyncErrors)
@@ -151,10 +150,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_collabspaceteamassociation_SyncErrors](#BKMK_msdyn_collabspaceteamassociation_SyncErrors)
 - [msdyn_consoleapplicationnotificationfield_SyncErrors](#BKMK_msdyn_consoleapplicationnotificationfield_SyncErrors)
 - [msdyn_consoleapplicationnotificationtemplate_SyncErrors](#BKMK_msdyn_consoleapplicationnotificationtemplate_SyncErrors)
-- [msdyn_consoleapplicationsessiontemplate_SyncErrors](#BKMK_msdyn_consoleapplicationsessiontemplate_SyncErrors)
-- [msdyn_consoleapplicationtemplate_SyncErrors](#BKMK_msdyn_consoleapplicationtemplate_SyncErrors)
-- [msdyn_consoleapplicationtemplateparameter_SyncErrors](#BKMK_msdyn_consoleapplicationtemplateparameter_SyncErrors)
-- [msdyn_consoleapplicationtype_SyncErrors](#BKMK_msdyn_consoleapplicationtype_SyncErrors)
 - [msdyn_consoleappparameterdefinition_SyncErrors](#BKMK_msdyn_consoleappparameterdefinition_SyncErrors)
 - [msdyn_consumingapplication_SyncErrors](#BKMK_msdyn_consumingapplication_SyncErrors)
 - [msdyn_contactkpiitem_SyncErrors](#BKMK_msdyn_contactkpiitem_SyncErrors)
@@ -365,9 +360,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_personasecurityrolemapping_SyncErrors](#BKMK_msdyn_personasecurityrolemapping_SyncErrors)
 - [msdyn_playbookactivity_SyncErrors](#BKMK_msdyn_playbookactivity_SyncErrors)
 - [msdyn_playbookactivityattribute_SyncErrors](#BKMK_msdyn_playbookactivityattribute_SyncErrors)
-- [msdyn_playbookcategory_SyncErrors](#BKMK_msdyn_playbookcategory_SyncErrors)
 - [msdyn_playbookinstance_SyncErrors](#BKMK_msdyn_playbookinstance_SyncErrors)
-- [msdyn_playbooktemplate_SyncErrors](#BKMK_msdyn_playbooktemplate_SyncErrors)
 - [msdyn_postalbum_SyncErrors](#BKMK_msdyn_postalbum_SyncErrors)
 - [msdyn_postconfig_SyncErrors](#BKMK_msdyn_postconfig_SyncErrors)
 - [msdyn_postruleconfig_SyncErrors](#BKMK_msdyn_postruleconfig_SyncErrors)
@@ -446,10 +439,8 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_servicecopilotplugin_SyncErrors](#BKMK_msdyn_servicecopilotplugin_SyncErrors)
 - [msdyn_servicecopilotpluginrole_SyncErrors](#BKMK_msdyn_servicecopilotpluginrole_SyncErrors)
 - [msdyn_serviceoneprovisioningrequest_SyncErrors](#BKMK_msdyn_serviceoneprovisioningrequest_SyncErrors)
-- [msdyn_sessiondata_SyncErrors](#BKMK_msdyn_sessiondata_SyncErrors)
 - [msdyn_sessionevent_SyncErrors](#BKMK_msdyn_sessionevent_SyncErrors)
 - [msdyn_sessionparticipant_SyncErrors](#BKMK_msdyn_sessionparticipant_SyncErrors)
-- [msdyn_sessionparticipantdata_SyncErrors](#BKMK_msdyn_sessionparticipantdata_SyncErrors)
 - [msdyn_sessiontemplate_SyncErrors](#BKMK_msdyn_sessiontemplate_SyncErrors)
 - [msdyn_shareasconfiguration_SyncErrors](#BKMK_msdyn_shareasconfiguration_SyncErrors)
 - [msdyn_siconfig_SyncErrors](#BKMK_msdyn_siconfig_SyncErrors)
@@ -482,7 +473,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_teamsdialeradminsettings_SyncErrors](#BKMK_msdyn_teamsdialeradminsettings_SyncErrors)
 - [msdyn_templateforproperties_SyncErrors](#BKMK_msdyn_templateforproperties_SyncErrors)
 - [msdyn_templateparameter_SyncErrors](#BKMK_msdyn_templateparameter_SyncErrors)
-- [msdyn_templatetags_SyncErrors](#BKMK_msdyn_templatetags_SyncErrors)
 - [msdyn_timespent_SyncErrors](#BKMK_msdyn_timespent_SyncErrors)
 - [msdyn_trainingresult_SyncErrors](#BKMK_msdyn_trainingresult_SyncErrors)
 - [msdyn_transcript_SyncErrors](#BKMK_msdyn_transcript_SyncErrors)
@@ -1439,19 +1429,6 @@ One-To-Many Relationship: [msdyn_analyticsadminsettings msdyn_analyticsadminsett
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_analyticsforcs_SyncErrors"></a> msdyn_analyticsforcs_SyncErrors
-
-One-To-Many Relationship: [msdyn_analyticsforcs msdyn_analyticsforcs_SyncErrors](msdyn_analyticsforcs.md#BKMK_msdyn_analyticsforcs_SyncErrors)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_analyticsforcs`|
-|ReferencedAttribute|`msdyn_analyticsforcsid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_analyticsforcs`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_appconfiguration_SyncErrors"></a> msdyn_appconfiguration_SyncErrors
 
 One-To-Many Relationship: [msdyn_appconfiguration msdyn_appconfiguration_SyncErrors](msdyn_appconfiguration.md#BKMK_msdyn_appconfiguration_SyncErrors)
@@ -2086,58 +2063,6 @@ One-To-Many Relationship: [msdyn_consoleapplicationnotificationtemplate msdyn_co
 |ReferencedAttribute|`msdyn_consoleapplicationnotificationtemplateid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationnotificationtemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationsessiontemplate_SyncErrors"></a> msdyn_consoleapplicationsessiontemplate_SyncErrors
-
-One-To-Many Relationship: [msdyn_consoleapplicationsessiontemplate msdyn_consoleapplicationsessiontemplate_SyncErrors](msdyn_consoleapplicationsessiontemplate.md#BKMK_msdyn_consoleapplicationsessiontemplate_SyncErrors)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationsessiontemplate`|
-|ReferencedAttribute|`msdyn_consoleapplicationsessiontemplateid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationsessiontemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplate_SyncErrors"></a> msdyn_consoleapplicationtemplate_SyncErrors
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplate msdyn_consoleapplicationtemplate_SyncErrors](msdyn_consoleapplicationtemplate.md#BKMK_msdyn_consoleapplicationtemplate_SyncErrors)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplate`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationtemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplateparameter_SyncErrors"></a> msdyn_consoleapplicationtemplateparameter_SyncErrors
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplateparameter msdyn_consoleapplicationtemplateparameter_SyncErrors](msdyn_consoleapplicationtemplateparameter.md#BKMK_msdyn_consoleapplicationtemplateparameter_SyncErrors)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplateparameter`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateparameterid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationtemplateparameter`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtype_SyncErrors"></a> msdyn_consoleapplicationtype_SyncErrors
-
-One-To-Many Relationship: [msdyn_consoleapplicationtype msdyn_consoleapplicationtype_SyncErrors](msdyn_consoleapplicationtype.md#BKMK_msdyn_consoleapplicationtype_SyncErrors)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtype`|
-|ReferencedAttribute|`msdyn_consoleapplicationtypeid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationtype`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -4871,19 +4796,6 @@ One-To-Many Relationship: [msdyn_playbookactivityattribute msdyn_playbookactivit
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_playbookcategory_SyncErrors"></a> msdyn_playbookcategory_SyncErrors
-
-One-To-Many Relationship: [msdyn_playbookcategory msdyn_playbookcategory_SyncErrors](msdyn_playbookcategory.md#BKMK_msdyn_playbookcategory_SyncErrors)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbookcategory`|
-|ReferencedAttribute|`msdyn_playbookcategoryid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_playbookcategory`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_playbookinstance_SyncErrors"></a> msdyn_playbookinstance_SyncErrors
 
 One-To-Many Relationship: [msdyn_playbookinstance msdyn_playbookinstance_SyncErrors](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_SyncErrors)
@@ -4894,19 +4806,6 @@ One-To-Many Relationship: [msdyn_playbookinstance msdyn_playbookinstance_SyncErr
 |ReferencedAttribute|`msdyn_playbookinstanceid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_playbookinstance`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_playbooktemplate_SyncErrors"></a> msdyn_playbooktemplate_SyncErrors
-
-One-To-Many Relationship: [msdyn_playbooktemplate msdyn_playbooktemplate_SyncErrors](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_SyncErrors)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbooktemplate`|
-|ReferencedAttribute|`msdyn_playbooktemplateid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_playbooktemplate`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -5924,19 +5823,6 @@ One-To-Many Relationship: [msdyn_serviceoneprovisioningrequest msdyn_serviceonep
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_sessiondata_SyncErrors"></a> msdyn_sessiondata_SyncErrors
-
-One-To-Many Relationship: [msdyn_sessiondata msdyn_sessiondata_SyncErrors](msdyn_sessiondata.md#BKMK_msdyn_sessiondata_SyncErrors)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_sessiondata`|
-|ReferencedAttribute|`msdyn_sessiondataid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_sessiondata`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_sessionevent_SyncErrors"></a> msdyn_sessionevent_SyncErrors
 
 One-To-Many Relationship: [msdyn_sessionevent msdyn_sessionevent_SyncErrors](msdyn_sessionevent.md#BKMK_msdyn_sessionevent_SyncErrors)
@@ -5960,19 +5846,6 @@ One-To-Many Relationship: [msdyn_sessionparticipant msdyn_sessionparticipant_Syn
 |ReferencedAttribute|`msdyn_sessionparticipantid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_sessionparticipant`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_sessionparticipantdata_SyncErrors"></a> msdyn_sessionparticipantdata_SyncErrors
-
-One-To-Many Relationship: [msdyn_sessionparticipantdata msdyn_sessionparticipantdata_SyncErrors](msdyn_sessionparticipantdata.md#BKMK_msdyn_sessionparticipantdata_SyncErrors)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_sessionparticipantdata`|
-|ReferencedAttribute|`msdyn_sessionparticipantdataid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_sessionparticipantdata`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -6389,19 +6262,6 @@ One-To-Many Relationship: [msdyn_templateparameter msdyn_templateparameter_SyncE
 |ReferencedAttribute|`msdyn_templateparameterid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_templateparameter`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_templatetags_SyncErrors"></a> msdyn_templatetags_SyncErrors
-
-One-To-Many Relationship: [msdyn_templatetags msdyn_templatetags_SyncErrors](msdyn_templatetags.md#BKMK_msdyn_templatetags_SyncErrors)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_templatetags`|
-|ReferencedAttribute|`msdyn_templatetagsid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_templatetags`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

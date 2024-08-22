@@ -100,7 +100,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_aicontactsuggestion_ProcessSession](#BKMK_msdyn_aicontactsuggestion_ProcessSession)
 - [msdyn_analytics_ProcessSession](#BKMK_msdyn_analytics_ProcessSession)
 - [msdyn_analyticsadminsettings_ProcessSession](#BKMK_msdyn_analyticsadminsettings_ProcessSession)
-- [msdyn_analyticsforcs_ProcessSession](#BKMK_msdyn_analyticsforcs_ProcessSession)
 - [msdyn_appconfiguration_ProcessSession](#BKMK_msdyn_appconfiguration_ProcessSession)
 - [msdyn_appcopilotconfiguration_ProcessSession](#BKMK_msdyn_appcopilotconfiguration_ProcessSession)
 - [msdyn_applicationextension_ProcessSession](#BKMK_msdyn_applicationextension_ProcessSession)
@@ -150,10 +149,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_collabspaceteamassociation_ProcessSession](#BKMK_msdyn_collabspaceteamassociation_ProcessSession)
 - [msdyn_consoleapplicationnotificationfield_ProcessSession](#BKMK_msdyn_consoleapplicationnotificationfield_ProcessSession)
 - [msdyn_consoleapplicationnotificationtemplate_ProcessSession](#BKMK_msdyn_consoleapplicationnotificationtemplate_ProcessSession)
-- [msdyn_consoleapplicationsessiontemplate_ProcessSession](#BKMK_msdyn_consoleapplicationsessiontemplate_ProcessSession)
-- [msdyn_consoleapplicationtemplate_ProcessSession](#BKMK_msdyn_consoleapplicationtemplate_ProcessSession)
-- [msdyn_consoleapplicationtemplateparameter_ProcessSession](#BKMK_msdyn_consoleapplicationtemplateparameter_ProcessSession)
-- [msdyn_consoleapplicationtype_ProcessSession](#BKMK_msdyn_consoleapplicationtype_ProcessSession)
 - [msdyn_consoleappparameterdefinition_ProcessSession](#BKMK_msdyn_consoleappparameterdefinition_ProcessSession)
 - [msdyn_consumingapplication_ProcessSession](#BKMK_msdyn_consumingapplication_ProcessSession)
 - [msdyn_contactkpiitem_ProcessSession](#BKMK_msdyn_contactkpiitem_ProcessSession)
@@ -364,9 +359,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_personasecurityrolemapping_ProcessSession](#BKMK_msdyn_personasecurityrolemapping_ProcessSession)
 - [msdyn_playbookactivity_ProcessSession](#BKMK_msdyn_playbookactivity_ProcessSession)
 - [msdyn_playbookactivityattribute_ProcessSession](#BKMK_msdyn_playbookactivityattribute_ProcessSession)
-- [msdyn_playbookcategory_ProcessSession](#BKMK_msdyn_playbookcategory_ProcessSession)
 - [msdyn_playbookinstance_ProcessSession](#BKMK_msdyn_playbookinstance_ProcessSession)
-- [msdyn_playbooktemplate_ProcessSession](#BKMK_msdyn_playbooktemplate_ProcessSession)
 - [msdyn_postalbum_ProcessSession](#BKMK_msdyn_postalbum_ProcessSession)
 - [msdyn_postconfig_ProcessSession](#BKMK_msdyn_postconfig_ProcessSession)
 - [msdyn_postruleconfig_ProcessSession](#BKMK_msdyn_postruleconfig_ProcessSession)
@@ -445,10 +438,8 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_servicecopilotplugin_ProcessSession](#BKMK_msdyn_servicecopilotplugin_ProcessSession)
 - [msdyn_servicecopilotpluginrole_ProcessSession](#BKMK_msdyn_servicecopilotpluginrole_ProcessSession)
 - [msdyn_serviceoneprovisioningrequest_ProcessSession](#BKMK_msdyn_serviceoneprovisioningrequest_ProcessSession)
-- [msdyn_sessiondata_ProcessSession](#BKMK_msdyn_sessiondata_ProcessSession)
 - [msdyn_sessionevent_ProcessSession](#BKMK_msdyn_sessionevent_ProcessSession)
 - [msdyn_sessionparticipant_ProcessSession](#BKMK_msdyn_sessionparticipant_ProcessSession)
-- [msdyn_sessionparticipantdata_ProcessSession](#BKMK_msdyn_sessionparticipantdata_ProcessSession)
 - [msdyn_sessiontemplate_ProcessSession](#BKMK_msdyn_sessiontemplate_ProcessSession)
 - [msdyn_shareasconfiguration_ProcessSession](#BKMK_msdyn_shareasconfiguration_ProcessSession)
 - [msdyn_siconfig_ProcessSession](#BKMK_msdyn_siconfig_ProcessSession)
@@ -481,7 +472,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_teamsdialeradminsettings_ProcessSession](#BKMK_msdyn_teamsdialeradminsettings_ProcessSession)
 - [msdyn_templateforproperties_ProcessSession](#BKMK_msdyn_templateforproperties_ProcessSession)
 - [msdyn_templateparameter_ProcessSession](#BKMK_msdyn_templateparameter_ProcessSession)
-- [msdyn_templatetags_ProcessSession](#BKMK_msdyn_templatetags_ProcessSession)
 - [msdyn_timespent_ProcessSession](#BKMK_msdyn_timespent_ProcessSession)
 - [msdyn_trainingresult_ProcessSession](#BKMK_msdyn_trainingresult_ProcessSession)
 - [msdyn_transcript_ProcessSession](#BKMK_msdyn_transcript_ProcessSession)
@@ -1301,19 +1291,6 @@ One-To-Many Relationship: [msdyn_analyticsadminsettings msdyn_analyticsadminsett
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_analyticsforcs_ProcessSession"></a> msdyn_analyticsforcs_ProcessSession
-
-One-To-Many Relationship: [msdyn_analyticsforcs msdyn_analyticsforcs_ProcessSession](msdyn_analyticsforcs.md#BKMK_msdyn_analyticsforcs_ProcessSession)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_analyticsforcs`|
-|ReferencedAttribute|`msdyn_analyticsforcsid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_analyticsforcs`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_appconfiguration_ProcessSession"></a> msdyn_appconfiguration_ProcessSession
 
 One-To-Many Relationship: [msdyn_appconfiguration msdyn_appconfiguration_ProcessSession](msdyn_appconfiguration.md#BKMK_msdyn_appconfiguration_ProcessSession)
@@ -1948,58 +1925,6 @@ One-To-Many Relationship: [msdyn_consoleapplicationnotificationtemplate msdyn_co
 |ReferencedAttribute|`msdyn_consoleapplicationnotificationtemplateid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationnotificationtemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationsessiontemplate_ProcessSession"></a> msdyn_consoleapplicationsessiontemplate_ProcessSession
-
-One-To-Many Relationship: [msdyn_consoleapplicationsessiontemplate msdyn_consoleapplicationsessiontemplate_ProcessSession](msdyn_consoleapplicationsessiontemplate.md#BKMK_msdyn_consoleapplicationsessiontemplate_ProcessSession)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationsessiontemplate`|
-|ReferencedAttribute|`msdyn_consoleapplicationsessiontemplateid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationsessiontemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplate_ProcessSession"></a> msdyn_consoleapplicationtemplate_ProcessSession
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplate msdyn_consoleapplicationtemplate_ProcessSession](msdyn_consoleapplicationtemplate.md#BKMK_msdyn_consoleapplicationtemplate_ProcessSession)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplate`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationtemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplateparameter_ProcessSession"></a> msdyn_consoleapplicationtemplateparameter_ProcessSession
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplateparameter msdyn_consoleapplicationtemplateparameter_ProcessSession](msdyn_consoleapplicationtemplateparameter.md#BKMK_msdyn_consoleapplicationtemplateparameter_ProcessSession)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplateparameter`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateparameterid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationtemplateparameter`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtype_ProcessSession"></a> msdyn_consoleapplicationtype_ProcessSession
-
-One-To-Many Relationship: [msdyn_consoleapplicationtype msdyn_consoleapplicationtype_ProcessSession](msdyn_consoleapplicationtype.md#BKMK_msdyn_consoleapplicationtype_ProcessSession)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtype`|
-|ReferencedAttribute|`msdyn_consoleapplicationtypeid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_consoleapplicationtype`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -4733,19 +4658,6 @@ One-To-Many Relationship: [msdyn_playbookactivityattribute msdyn_playbookactivit
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_playbookcategory_ProcessSession"></a> msdyn_playbookcategory_ProcessSession
-
-One-To-Many Relationship: [msdyn_playbookcategory msdyn_playbookcategory_ProcessSession](msdyn_playbookcategory.md#BKMK_msdyn_playbookcategory_ProcessSession)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbookcategory`|
-|ReferencedAttribute|`msdyn_playbookcategoryid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_playbookcategory`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_playbookinstance_ProcessSession"></a> msdyn_playbookinstance_ProcessSession
 
 One-To-Many Relationship: [msdyn_playbookinstance msdyn_playbookinstance_ProcessSession](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_ProcessSession)
@@ -4756,19 +4668,6 @@ One-To-Many Relationship: [msdyn_playbookinstance msdyn_playbookinstance_Process
 |ReferencedAttribute|`msdyn_playbookinstanceid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_playbookinstance`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_playbooktemplate_ProcessSession"></a> msdyn_playbooktemplate_ProcessSession
-
-One-To-Many Relationship: [msdyn_playbooktemplate msdyn_playbooktemplate_ProcessSession](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_ProcessSession)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbooktemplate`|
-|ReferencedAttribute|`msdyn_playbooktemplateid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_playbooktemplate`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -5786,19 +5685,6 @@ One-To-Many Relationship: [msdyn_serviceoneprovisioningrequest msdyn_serviceonep
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_sessiondata_ProcessSession"></a> msdyn_sessiondata_ProcessSession
-
-One-To-Many Relationship: [msdyn_sessiondata msdyn_sessiondata_ProcessSession](msdyn_sessiondata.md#BKMK_msdyn_sessiondata_ProcessSession)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_sessiondata`|
-|ReferencedAttribute|`msdyn_sessiondataid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_sessiondata`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_sessionevent_ProcessSession"></a> msdyn_sessionevent_ProcessSession
 
 One-To-Many Relationship: [msdyn_sessionevent msdyn_sessionevent_ProcessSession](msdyn_sessionevent.md#BKMK_msdyn_sessionevent_ProcessSession)
@@ -5822,19 +5708,6 @@ One-To-Many Relationship: [msdyn_sessionparticipant msdyn_sessionparticipant_Pro
 |ReferencedAttribute|`msdyn_sessionparticipantid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_sessionparticipant`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_sessionparticipantdata_ProcessSession"></a> msdyn_sessionparticipantdata_ProcessSession
-
-One-To-Many Relationship: [msdyn_sessionparticipantdata msdyn_sessionparticipantdata_ProcessSession](msdyn_sessionparticipantdata.md#BKMK_msdyn_sessionparticipantdata_ProcessSession)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_sessionparticipantdata`|
-|ReferencedAttribute|`msdyn_sessionparticipantdataid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_sessionparticipantdata`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -6251,19 +6124,6 @@ One-To-Many Relationship: [msdyn_templateparameter msdyn_templateparameter_Proce
 |ReferencedAttribute|`msdyn_templateparameterid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_templateparameter`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_templatetags_ProcessSession"></a> msdyn_templatetags_ProcessSession
-
-One-To-Many Relationship: [msdyn_templatetags msdyn_templatetags_ProcessSession](msdyn_templatetags.md#BKMK_msdyn_templatetags_ProcessSession)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_templatetags`|
-|ReferencedAttribute|`msdyn_templatetagsid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_templatetags`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

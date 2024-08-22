@@ -379,7 +379,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_discounttypebase_createdby](#BKMK_lk_discounttypebase_createdby)
 - [lk_discounttypebase_modifiedby](#BKMK_lk_discounttypebase_modifiedby)
 - [organization_discount_types](#BKMK_organization_discount_types)
-- [transactioncurrency_discounttype](#BKMK_transactioncurrency_discounttype)
 
 ### <a name="BKMK_lk_discounttype_createdonbehalfby"></a> lk_discounttype_createdonbehalfby
 
@@ -445,19 +444,6 @@ One-To-Many Relationship: [organization organization_discount_types](organizatio
 |ReferencingEntityNavigationPropertyName|`organizationid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_discounttype"></a> transactioncurrency_discounttype
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_discounttype](transactioncurrency.md#BKMK_transactioncurrency_discounttype)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

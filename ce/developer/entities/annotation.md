@@ -84,7 +84,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_overflowactionconfig_Annotations](#BKMK_msdyn_overflowactionconfig_Annotations)
 - [msdyn_personalsoundsetting_Annotations](#BKMK_msdyn_personalsoundsetting_Annotations)
 - [msdyn_playbookinstance_Annotations](#BKMK_msdyn_playbookinstance_Annotations)
-- [msdyn_playbooktemplate_Annotations](#BKMK_msdyn_playbooktemplate_Annotations)
 - [msdyn_postalbum_Annotations](#BKMK_msdyn_postalbum_Annotations)
 - [msdyn_salessuggestion_Annotations](#BKMK_msdyn_salessuggestion_Annotations)
 - [msdyn_soundfile_Annotations](#BKMK_msdyn_soundfile_Annotations)
@@ -611,19 +610,6 @@ One-To-Many Relationship: [msdyn_playbookinstance msdyn_playbookinstance_Annotat
 |ReferencedAttribute|`msdyn_playbookinstanceid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_playbookinstance`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
-
-### <a name="BKMK_msdyn_playbooktemplate_Annotations"></a> msdyn_playbooktemplate_Annotations
-
-One-To-Many Relationship: [msdyn_playbooktemplate msdyn_playbooktemplate_Annotations](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_Annotations)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbooktemplate`|
-|ReferencedAttribute|`msdyn_playbooktemplateid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_playbooktemplate`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

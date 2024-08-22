@@ -468,7 +468,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_equipment_modifiedonbehalfby](#BKMK_lk_equipment_modifiedonbehalfby)
 - [organization_equipment](#BKMK_organization_equipment)
 - [site_equipment](#BKMK_site_equipment)
-- [TransactionCurrency_Equipment](#BKMK_TransactionCurrency_Equipment)
 
 ### <a name="BKMK_business_unit_equipment"></a> business_unit_equipment
 
@@ -584,19 +583,6 @@ One-To-Many Relationship: [site site_equipment](site.md#BKMK_site_equipment)
 |ReferencedAttribute|`siteid`|
 |ReferencingAttribute|`siteid`|
 |ReferencingEntityNavigationPropertyName|`siteid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_Equipment"></a> TransactionCurrency_Equipment
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_Equipment](transactioncurrency.md#BKMK_TransactionCurrency_Equipment)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

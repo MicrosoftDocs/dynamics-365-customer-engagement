@@ -1737,7 +1737,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_ocsession_systemuser_modifiedonbehalfby](#BKMK_msdyn_ocsession_systemuser_modifiedonbehalfby)
 - [msdyn_ocsession_systemuser_owninguser](#BKMK_msdyn_ocsession_systemuser_owninguser)
 - [msdyn_ocsession_team_owningteam](#BKMK_msdyn_ocsession_team_owningteam)
-- [msdyn_ocsession_transactioncurrency_transactioncurrencyid](#BKMK_msdyn_ocsession_transactioncurrency_transactioncurrencyid)
 - [msdyn_playbookinstance_msdyn_ocsessions](#BKMK_msdyn_playbookinstance_msdyn_ocsessions)
 - [msdyn_postalbum_msdyn_ocsessions](#BKMK_msdyn_postalbum_msdyn_ocsessions)
 - [msdyn_queue_msdyn_ocsession_queueid](#BKMK_msdyn_queue_msdyn_ocsession_queueid)
@@ -2208,19 +2207,6 @@ One-To-Many Relationship: [team msdyn_ocsession_team_owningteam](team.md#BKMK_ms
 |ReferencingEntityNavigationPropertyName|`owningteam_msdyn_ocsession`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_ocsession_transactioncurrency_transactioncurrencyid"></a> msdyn_ocsession_transactioncurrency_transactioncurrencyid
-
-One-To-Many Relationship: [transactioncurrency msdyn_ocsession_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_msdyn_ocsession_transactioncurrency_transactioncurrencyid)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_msdyn_ocsession`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_playbookinstance_msdyn_ocsessions"></a> msdyn_playbookinstance_msdyn_ocsessions
 

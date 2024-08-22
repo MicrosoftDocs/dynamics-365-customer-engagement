@@ -556,24 +556,6 @@ Many-To-One Relationship: [syncerror msdyn_consoleappparameterdefinition_SyncErr
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
-## Many-to-Many relationships
-
-These relationships are many-to-many. Listed by **SchemaName**.
-
-### <a name="BKMK_msdyn_msdyn_consoleapplicationtype_msdyn_consol"></a> msdyn_msdyn_consoleapplicationtype_msdyn_consol
-
-See [msdyn_consoleapplicationtype msdyn_msdyn_consoleapplicationtype_msdyn_consol Many-To-Many Relationship](msdyn_consoleapplicationtype.md#BKMK_msdyn_msdyn_consoleapplicationtype_msdyn_consol)
-
-|Property|Value|
-|---|---|
-|IntersectEntityName|`msdyn_msdyn_consoleapplicationtype_msdyn_cons`|
-|IsCustomizable|True|
-|SchemaName|`msdyn_msdyn_consoleapplicationtype_msdyn_consol`|
-|IntersectAttribute|`msdyn_consoleappparameterdefinitionid`|
-|NavigationPropertyName|`msdyn_msdyn_consoleapplicationtype_msdyn_consol`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-
 
 ### See also
 

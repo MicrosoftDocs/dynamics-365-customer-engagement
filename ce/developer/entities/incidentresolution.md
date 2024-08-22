@@ -1398,7 +1398,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [incidentresolution_owner_ownerid](#BKMK_incidentresolution_owner_ownerid)
 - [incidentresolution_sla_slaid](#BKMK_incidentresolution_sla_slaid)
 - [incidentresolution_sla_slainvokedid](#BKMK_incidentresolution_sla_slainvokedid)
-- [incidentresolution_transactioncurrency_transactioncurrencyid](#BKMK_incidentresolution_transactioncurrency_transactioncurrencyid)
 - [interactionforemail_IncidentResolutions](#BKMK_interactionforemail_IncidentResolutions)
 - [knowledgearticle_IncidentResolutions](#BKMK_knowledgearticle_IncidentResolutions)
 - [knowledgebaserecord_IncidentResolutions](#BKMK_knowledgebaserecord_IncidentResolutions)
@@ -1624,19 +1623,6 @@ One-To-Many Relationship: [sla incidentresolution_sla_slainvokedid](sla.md#BKMK_
 |ReferencingEntityNavigationPropertyName|`slainvokedid_activitypointer_sla_incidentresolution`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_incidentresolution_transactioncurrency_transactioncurrencyid"></a> incidentresolution_transactioncurrency_transactioncurrencyid
-
-One-To-Many Relationship: [transactioncurrency incidentresolution_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_incidentresolution_transactioncurrency_transactioncurrencyid)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_incidentresolution`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_interactionforemail_IncidentResolutions"></a> interactionforemail_IncidentResolutions
 

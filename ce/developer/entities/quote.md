@@ -1901,7 +1901,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [sla_quote](#BKMK_sla_quote)
 - [system_user_quotes](#BKMK_system_user_quotes)
 - [team_quotes](#BKMK_team_quotes)
-- [transactioncurrency_quote](#BKMK_transactioncurrency_quote)
 
 ### <a name="BKMK_business_unit_quotes"></a> business_unit_quotes
 
@@ -2110,19 +2109,6 @@ One-To-Many Relationship: [team team_quotes](team.md#BKMK_team_quotes)
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_quote"></a> transactioncurrency_quote
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_quote](transactioncurrency.md#BKMK_transactioncurrency_quote)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

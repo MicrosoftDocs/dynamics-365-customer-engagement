@@ -1612,7 +1612,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [processstage_campaignresponses](#BKMK_processstage_campaignresponses)
 - [recurringappointmentmaster_campaignresponse](#BKMK_recurringappointmentmaster_campaignresponse)
 - [team_campaignresponse](#BKMK_team_campaignresponse)
-- [TransactionCurrency_CampaignResponse](#BKMK_TransactionCurrency_CampaignResponse)
 - [user_campaignresponse](#BKMK_user_campaignresponse)
 
 ### <a name="BKMK_account_CampaignResponses"></a> account_CampaignResponses
@@ -2264,19 +2263,6 @@ One-To-Many Relationship: [team team_campaignresponse](team.md#BKMK_team_campaig
 |ReferencingEntityNavigationPropertyName|`owningteam_campaignresponse`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_TransactionCurrency_CampaignResponse"></a> TransactionCurrency_CampaignResponse
-
-One-To-Many Relationship: [transactioncurrency TransactionCurrency_CampaignResponse](transactioncurrency.md#BKMK_TransactionCurrency_CampaignResponse)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_campaignresponse`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_user_campaignresponse"></a> user_campaignresponse
 

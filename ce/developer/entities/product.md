@@ -1095,7 +1095,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [processstage_products](#BKMK_processstage_products)
 - [product_parent_product](#BKMK_product_parent_product-many-to-one)
 - [subject_products](#BKMK_subject_products)
-- [transactioncurrency_product](#BKMK_transactioncurrency_product)
 - [unit_of_measurement_products](#BKMK_unit_of_measurement_products)
 - [unit_of_measurement_schedule_products](#BKMK_unit_of_measurement_schedule_products)
 
@@ -1215,19 +1214,6 @@ One-To-Many Relationship: [subject subject_products](subject.md#BKMK_subject_pro
 |ReferencingEntityNavigationPropertyName|`subjectid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_product"></a> transactioncurrency_product
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_product](transactioncurrency.md#BKMK_transactioncurrency_product)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_unit_of_measurement_products"></a> unit_of_measurement_products
 

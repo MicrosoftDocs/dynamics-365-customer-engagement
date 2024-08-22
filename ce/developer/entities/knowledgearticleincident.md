@@ -504,7 +504,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_knowledgearticleincident_modifiedby](#BKMK_lk_knowledgearticleincident_modifiedby)
 - [lk_knowledgearticleincident_modifiedonbehalfby](#BKMK_lk_knowledgearticleincident_modifiedonbehalfby)
 - [team_knowledgearticleincident](#BKMK_team_knowledgearticleincident)
-- [transactioncurrency_knowledgearticleincident](#BKMK_transactioncurrency_knowledgearticleincident)
 - [user_knowledgearticleincident](#BKMK_user_knowledgearticleincident)
 
 ### <a name="BKMK_incident_knowledgearticles"></a> incident_knowledgearticles
@@ -597,19 +596,6 @@ One-To-Many Relationship: [team team_knowledgearticleincident](team.md#BKMK_team
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_knowledgearticleincident"></a> transactioncurrency_knowledgearticleincident
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_knowledgearticleincident](transactioncurrency.md#BKMK_transactioncurrency_knowledgearticleincident)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_user_knowledgearticleincident"></a> user_knowledgearticleincident
 

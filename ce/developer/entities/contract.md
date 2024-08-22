@@ -1182,7 +1182,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [owner_contracts](#BKMK_owner_contracts)
 - [system_user_service_contracts](#BKMK_system_user_service_contracts)
 - [team_service_contracts](#BKMK_team_service_contracts)
-- [transactioncurrency_contract](#BKMK_transactioncurrency_contract)
 
 ### <a name="BKMK_business_unit_service_contracts"></a> business_unit_service_contracts
 
@@ -1391,19 +1390,6 @@ One-To-Many Relationship: [team team_service_contracts](team.md#BKMK_team_servic
 |ReferencingEntityNavigationPropertyName|`owningteam`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_transactioncurrency_contract"></a> transactioncurrency_contract
-
-One-To-Many Relationship: [transactioncurrency transactioncurrency_contract](transactioncurrency.md#BKMK_transactioncurrency_contract)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`transactioncurrency`|
-|ReferencedAttribute|`transactioncurrencyid`|
-|ReferencingAttribute|`transactioncurrencyid`|
-|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships
