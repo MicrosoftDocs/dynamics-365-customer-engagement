@@ -1,7 +1,7 @@
 ---
 title: Add chat messages to Dynamics 365 as notes or tasks
 description: Learn how to add chat messages to Dynamics 365 as notes or tasks
-ms.date: 08/09/2022
+ms.date: 08/21/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -28,13 +28,13 @@ While you're in a conversation about a particular record, you might discuss cert
 
 2.  In the context menu, select **More actions** &gt; **Add to Dynamics 365**.
 
-    ![Add a chat message to Dynamics 365](media/me-add-to-d365.png "Add a chat message to Dynamics 365")
+    :::image type="content" source="media/me-add-to-d365.png" alt-text="Screenshot of adding a chat message to Dynamics 365.":::
 
 3.  In the **Regarding** field, select the record to which you want to add the message as a note or task.
 
 4.  In the **Title** field, enter a title for the note or task.
 
-    ![Add a chat message as note](media/me-add-note.png "Add a chat message as note")
+    :::image type="content" source="media/me-add-note.png" alt-text="Screenshot of adding a chat message as a note.":::
 
     By default, the message is added as a note. If you want to add the message as a task, select **Add as Task** in the upper-right corner of the window. The values from the **Regarding** and **Title** fields are populated in the task accordingly.
 
@@ -49,11 +49,11 @@ While you're in a conversation about a particular record, you might discuss cert
 
 6.  Select **Done**.
 
-    ![Chat added as a note](media/me-note-added.png "Chat added as a note")
+    :::image type="content" source="media/me-note-added.png" alt-text="Screenshot of chat added as a note.":::
 
     The note or task is added to the record's timeline. A **View Chat** link is added to the note or task. Selecting the **View Chat** link opens the conversation in Teams.
 
-    ![Note added to the record](media/me-notes-timeline.png "Note added to the record")
+    :::image type="content" source="media/me-notes-timeline.png" alt-text="Screenshot of note added to the record timeline.":::
 
 
 ## Related information
