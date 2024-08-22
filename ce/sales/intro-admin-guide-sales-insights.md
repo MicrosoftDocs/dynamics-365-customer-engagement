@@ -103,7 +103,7 @@ The premium Sales Insights features provide intelligent insights about sales dat
 
 To learn about requirements related to safeguarding customers' privacy and personal data, go to [Privacy and personal data for Microsoft Dynamics 365](/dynamics365/get-started/privacy).
 
-You can perform the following tasks in the auto capture, relationship analytics, and conversation intelligence features to ensure that you are complying with privacy and personal data requirements.
+You can perform the following tasks in the auto capture, relationship analytics, and conversation intelligence features to ensure that you're complying with privacy and personal data requirements.
 
 |Task|Supported Feature|Topic|
 |--|--|--|
@@ -172,7 +172,7 @@ As an administrator, when you sign in to the application for the first time, you
 You can also update each setting later as required. The following configurations are available:
 
 -    Connect your Sales environment to gather data and display on KPIs. More information: [Connect conversation intelligence to an environment](connect-dynamics365-sales-environment.md) 
--    Define keywords and competitors that will be tracked in conversations. More information: [Configure keywords and competitors to track](configure-keywords-competitors.md)   
+-    Define keywords and competitors that are tracked in conversations. More information: [Configure keywords and competitors to track](configure-keywords-competitors.md)   
 -    Define how long you want to retain the data in the application, and remove seller-specific data. More information: [Data retention and deletion through Privacy](data-retention-deletion-policy.md)   
 -    Enable preview features. More information: [Enable preview features](enable-preview-features-sales-insights-app.md)
 
@@ -186,7 +186,7 @@ You can also update each setting later as required. The following configurations
     2. On the **Default Solution** page, expand **Entity**, and then select an entity.   
     3. On the **General** tab, under **Data Services**, verify that the **Change Tracking** option is enabled.
 
-- Ensure that you do not delete the **Sales Insights MDL Config** solution from the solutions. If this solution is deleted, the Sales Insights features give inaccurate results and might be disabled. 
+- Ensure that you don't delete the **Sales Insights MDL Config** solution from the solutions. If this solution is deleted, the Sales Insights features give inaccurate results and might be disabled. 
 
     However, if you want to delete the **Sales Insights MDL Config** solution due to storage issues, uninstall the **SalesInsightsAddOn** solution too. This ensures that the **Sales Insights MDL Config** solution won't be automatically reinstalled when future updates are pushed to your organization.
 
