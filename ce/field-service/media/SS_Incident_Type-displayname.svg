@@ -21,8 +21,8 @@
     <g data-stacking-context="true" data-tag="div" data-z-index="auto">
      <g data-stacking-context="true" data-tag="div" data-z-index="auto">
       <g data-stacking-context="true" data-tag="div" data-z-index="auto">
-       <g mask="url(#lr)" aria-hidden="false" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
-        <mask id="lr">
+       <g mask="url(#mc)" aria-hidden="false" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+        <mask id="mc">
          <rect width="1281.1" height="784.44" fill="#fff"/>
          <rect x="-1e3" width="164.48" height="48" fill="#fff"/>
         </mask>
@@ -74,8 +74,8 @@
                 <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="190.12" y="33.44" lengthAdjust="spacingAndGlyphs" textLength="76.55" xml:space="preserve">Field Service</tspan></text>
                </g>
               </g>
-              <g mask="url(#a)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-               <mask id="a">
+              <g mask="url(#mu)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+               <mask id="mu">
                 <rect width="0" height="0" fill="#fff"/>
                </mask>
               </g>
@@ -1912,11 +1912,11 @@
          <g data-stacking-context="true" data-tag="div" data-z-index="auto" tabindex="-1">
           <g data-stacking-layer="rootBackgroundAndBorders">
            <defs>
-            <filter id="lw" x="0" y="0" width="1" height="1">
+            <filter id="lx" x="0" y="0" width="1" height="1">
              <feDropShadow dx="0" dy="8" flood-color="rgba(0, 0, 0, 0.26)" stdDeviation="16"/>
             </filter>
            </defs>
-           <rect x="200" y="48" width="1081.1" height="736.44" fill="#f0f0f0" filter="url(#lw)"/>
+           <rect x="200" y="48" width="1081.1" height="736.44" fill="#f0f0f0" filter="url(#lx)"/>
           </g>
           <g mask="url(#s)" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
            <mask id="s">
@@ -1966,11 +1966,11 @@
                      <g aria-label="General" data-stacking-context="true" data-tag="section" data-z-index="auto" role="region">
                       <g data-stacking-layer="rootBackgroundAndBorders">
                        <defs>
-                        <filter id="lt" x="0" y="0" width="1" height="1">
+                        <filter id="ma" x="0" y="0" width="1" height="1">
                          <feDropShadow dx="0" dy="2" flood-color="rgba(0, 0, 0, 0.26)" stdDeviation="4"/>
                         </filter>
                        </defs>
-                       <rect x="215.99" y="267.24" width="641.25" height="210.16" rx="4" ry="4" fill="#fff" filter="url(#lt)"/>
+                       <rect x="215.99" y="267.24" width="641.25" height="210.16" rx="4" ry="4" fill="#fff" filter="url(#ma)"/>
                       </g>
                       <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
                        <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
@@ -2147,7 +2147,7 @@
                                                 <rect x="421.08" y="382.31" width="23.99" height="23.99" rx="12" ry="12" fill="#750b1c"/>
                                                </g>
                                                <g data-stacking-context="true" data-tag="span" data-z-index="auto">
-                                                <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="10px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="426.34" y="400.09" lengthAdjust="spacingAndGlyphs" textLength="13.47" xml:space="preserve">KH</tspan></text>
+                                                <text color="#ffffff" dominant-baseline="text-after-edge" fill="#ffffff" font-family="'Segoe UI', 'Segoe UI Web (West European)', '-apple-system', BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif" font-size="10px" font-stretch="100%" font-weight="600" text-rendering="auto" word-spacing="0px" style="text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid" user-select="auto"><tspan x="426.34" y="400.09" lengthAdjust="spacingAndGlyphs" xml:space="preserve">TS</tspan></text>
                                                </g>
                                               </g>
                                               <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
@@ -2175,7 +2175,7 @@
                                            <mask id="in">
                                             <rect x="453.06" y="384.31" width="121.01" height="20" fill="#fff"/>
                                            </mask>
-                                           <text color="rgb(17, 94, 163)" dominant-baseline="text-after-edge" fill="rgb(17, 94, 163)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="underline solid rgb(17, 94, 163)" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="453.06" y="403.19" lengthAdjust="spacingAndGlyphs" textLength="121.01" xml:space="preserve"># Keith Hill (Offline)</tspan></text>
+                                           <text color="#115ea3" dominant-baseline="text-after-edge" fill="#115ea3" font-family="'Segoe UI', 'Segoe UI Web (West European)', '-apple-system', BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif" font-size="14px" font-stretch="100%" font-weight="400" text-decoration="underline" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" style="text-decoration-color:#000000;text-decoration-line:underline;text-decoration-style:solid" user-select="auto"><tspan x="453.06" y="403.19" lengthAdjust="spacingAndGlyphs" xml:space="preserve"># Tyler Stein (Offline)</tspan></text>
                                           </g>
                                          </g>
                                         </g>
@@ -2294,11 +2294,11 @@
                      <g aria-label="Description" data-stacking-context="true" data-tag="section" data-z-index="auto" role="region">
                       <g data-stacking-layer="rootBackgroundAndBorders">
                        <defs>
-                        <filter id="ls" x="0" y="0" width="1" height="1">
+                        <filter id="mb" x="0" y="0" width="1" height="1">
                          <feDropShadow dx="0" dy="2" flood-color="rgba(0, 0, 0, 0.26)" stdDeviation="4"/>
                         </filter>
                        </defs>
-                       <rect x="215.99" y="493.39" width="641.25" height="198.37" rx="4" ry="4" fill="#fff" filter="url(#ls)"/>
+                       <rect x="215.99" y="493.39" width="641.25" height="198.37" rx="4" ry="4" fill="#fff" filter="url(#mb)"/>
                       </g>
                       <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
                        <g data-stacking-context="true" data-tag="section" data-z-index="auto" role="region">
@@ -2389,11 +2389,11 @@
                     <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
                      <g data-stacking-layer="rootBackgroundAndBorders">
                       <defs>
-                       <filter id="lv" x="0" y="0" width="1" height="1">
+                       <filter id="ly" x="0" y="0" width="1" height="1">
                         <feDropShadow dx="0" dy="2" flood-color="rgba(0, 0, 0, 0.26)" stdDeviation="4"/>
                        </filter>
                       </defs>
-                      <rect x="215.99" y="63.99" width="997.01" height="45.1" rx="4" ry="4" fill="#fff" filter="url(#lv)"/>
+                      <rect x="215.99" y="63.99" width="997.01" height="45.1" rx="4" ry="4" fill="#fff" filter="url(#ly)"/>
                      </g>
                      <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
                       <g aria-label="Press Enter to go back." aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
@@ -2445,8 +2445,8 @@
                           </g>
                          </g>
                         </g>
-                        <g mask="url(#d)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-                         <mask id="d">
+                        <g mask="url(#mr)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                         <mask id="mr">
                           <rect width="0" height="0" fill="#fff"/>
                          </mask>
                         </g>
@@ -2476,8 +2476,8 @@
                           </g>
                          </g>
                         </g>
-                        <g mask="url(#c)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-                         <mask id="c">
+                        <g mask="url(#ms)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                         <mask id="ms">
                           <rect width="0" height="0" fill="#fff"/>
                          </mask>
                         </g>
@@ -2706,11 +2706,11 @@
                     </g>
                     <g data-stacking-layer="rootBackgroundAndBorders">
                      <defs>
-                      <filter id="lu" x="0" y="0" width="1" height="1">
+                      <filter id="lz" x="0" y="0" width="1" height="1">
                        <feDropShadow dx="0" dy="2" flood-color="rgba(0, 0, 0, 0.26)" stdDeviation="4"/>
                       </filter>
                      </defs>
-                     <rect x="215.99" y="125.09" width="997.01" height="126.16" rx="4" ry="4" fill="#fff" filter="url(#lu)"/>
+                     <rect x="215.99" y="125.09" width="997.01" height="126.16" rx="4" ry="4" fill="#fff" filter="url(#lz)"/>
                     </g>
                     <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
                      <g data-stacking-layer="rootBackgroundAndBorders">
@@ -2739,8 +2739,8 @@
                        <g data-stacking-layer="rootBackgroundAndBorders">
                         <rect x="217.1" y="191.18" width="994.79" height="58.96" rx="4" ry="4" fill="#fff"/>
                        </g>
-                       <g mask="url(#l)" aria-label="General" aria-selected="true" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="0">
-                        <mask id="l">
+                       <g mask="url(#mj)" aria-label="General" aria-selected="true" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="0">
+                        <mask id="mj">
                          <rect x="238.09" y="205.17" width="55.95" height="44.97" fill="#fff"/>
                         </mask>
                         <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="16.002px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="238.09" y="229.62" lengthAdjust="spacingAndGlyphs" textLength="55.95" xml:space="preserve">General</tspan></text>
@@ -2755,8 +2755,8 @@
                          </mask>
                         </g>
                        </g>
-                       <g mask="url(#k)" aria-label="Details" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
-                        <mask id="k">
+                       <g mask="url(#mk)" aria-label="Details" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
+                        <mask id="mk">
                          <rect x="314.05" y="205.17" width="49.38" height="44.97" fill="#fff"/>
                         </mask>
                         <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="16.002px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="314.05" y="229.62" lengthAdjust="spacingAndGlyphs" textLength="47.69" xml:space="preserve">Details</tspan></text>
@@ -2766,8 +2766,8 @@
                          </mask>
                         </g>
                        </g>
-                       <g mask="url(#j)" aria-label="Products" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
-                        <mask id="j">
+                       <g mask="url(#ml)" aria-label="Products" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
+                        <mask id="ml">
                          <rect x="383.42" y="205.17" width="63.87" height="44.97" fill="#fff"/>
                         </mask>
                         <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="16.002px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="383.42" y="229.62" lengthAdjust="spacingAndGlyphs" textLength="61.98" xml:space="preserve">Products</tspan></text>
@@ -2777,8 +2777,8 @@
                          </mask>
                         </g>
                        </g>
-                       <g mask="url(#i)" aria-label="Services" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
-                        <mask id="i">
+                       <g mask="url(#mm)" aria-label="Services" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
+                        <mask id="mm">
                          <rect x="467.29" y="205.17" width="58.99" height="44.97" fill="#fff"/>
                         </mask>
                         <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="16.002px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="467.29" y="229.62" lengthAdjust="spacingAndGlyphs" textLength="56.53" xml:space="preserve">Services</tspan></text>
@@ -2788,8 +2788,8 @@
                          </mask>
                         </g>
                        </g>
-                       <g mask="url(#h)" aria-label="Service Tasks" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
-                        <mask id="h">
+                       <g mask="url(#mn)" aria-label="Service Tasks" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
+                        <mask id="mn">
                          <rect x="546.28" y="205.17" width="94.32" height="44.97" fill="#fff"/>
                         </mask>
                         <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="16.002px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="546.28" y="229.62" lengthAdjust="spacingAndGlyphs" textLength="90.38" xml:space="preserve">Service Tasks</tspan></text>
@@ -2799,8 +2799,8 @@
                          </mask>
                         </g>
                        </g>
-                       <g mask="url(#g)" aria-label="Characteristics" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
-                        <mask id="g">
+                       <g mask="url(#mo)" aria-label="Characteristics" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
+                        <mask id="mo">
                          <rect x="660.61" y="205.17" width="104.98" height="44.97" fill="#fff"/>
                         </mask>
                         <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="16.002px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="660.61" y="229.62" lengthAdjust="spacingAndGlyphs" textLength="101.70" xml:space="preserve">Characteristics</tspan></text>
@@ -2810,8 +2810,8 @@
                          </mask>
                         </g>
                        </g>
-                       <g mask="url(#f)" aria-label="Resolutions" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
-                        <mask id="f">
+                       <g mask="url(#mp)" aria-label="Resolutions" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
+                        <mask id="mp">
                          <rect x="785.59" y="205.17" width="83.77" height="44.97" fill="#fff"/>
                         </mask>
                         <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="16.002px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="785.59" y="229.62" lengthAdjust="spacingAndGlyphs" textLength="81.09" xml:space="preserve">Resolutions</tspan></text>
@@ -2821,8 +2821,8 @@
                          </mask>
                         </g>
                        </g>
-                       <g mask="url(#e)" aria-label="Notes" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
-                        <mask id="e">
+                       <g mask="url(#mq)" aria-label="Notes" aria-selected="false" data-stacking-context="true" data-tag="li" data-z-index="auto" role="tab" tabindex="-1">
+                        <mask id="mq">
                          <rect x="889.36" y="205.17" width="42.92" height="44.97" fill="#fff"/>
                         </mask>
                         <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="16.002px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="889.36" y="229.62" lengthAdjust="spacingAndGlyphs" textLength="41.93" xml:space="preserve">Notes</tspan></text>
@@ -3002,8 +3002,8 @@
                           <g data-stacking-context="true" data-tag="div" data-z-index="auto">
                            <g data-stacking-context="true" data-tag="div" data-z-index="auto">
                             <g data-stacking-context="true" data-tag="div" data-z-index="auto">
-                             <g mask="url(#ll)" aria-haspopup="menu" aria-label="View Prompts" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button" tabindex="0">
-                              <mask id="ll">
+                             <g mask="url(#mi)" aria-haspopup="menu" aria-label="View Prompts" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button" tabindex="0">
+                              <mask id="mi">
                                <rect width="0" height="0" fill="#fff"/>
                               </mask>
                               <g data-stacking-context="true" data-tag="span" data-z-index="auto">
@@ -3099,8 +3099,8 @@
                    </g>
                   </g>
                  </g>
-                 <g mask="url(#b)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-                  <mask id="b">
+                 <g mask="url(#mt)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+                  <mask id="mt">
                    <rect width="0" height="0" fill="#fff"/>
                   </mask>
                  </g>
@@ -3123,18 +3123,18 @@
      </g>
     </g>
    </g>
-   <g mask="url(#ln)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
-    <mask id="ln">
+   <g mask="url(#mg)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="mg">
      <rect y="15.56" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
-   <g mask="url(#lq)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
-    <mask id="lq">
+   <g mask="url(#md)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="md">
      <rect y="34.44" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
-   <g mask="url(#lp)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
-    <mask id="lp">
+   <g mask="url(#me)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="me">
      <rect y="34.44" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
@@ -3158,13 +3158,13 @@
      <rect y="-100" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
-   <g mask="url(#lo)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
-    <mask id="lo">
+   <g mask="url(#mf)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="mf">
      <rect y="53.33" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
-   <g mask="url(#lm)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
-    <mask id="lm">
+   <g mask="url(#mh)" aria-hidden="true" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="mh">
      <rect y="53.33" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
