@@ -40,6 +40,6 @@ Email signature templates must be available before adding them to a queue.
 
  ![Add a default signature template.](../media/email-sig-temp-queue.png "Add a default signature template to a queue")
 
-### See also  
+### Related information  
 
 [Create a signature for emails](/power-apps/user/email-signature)  

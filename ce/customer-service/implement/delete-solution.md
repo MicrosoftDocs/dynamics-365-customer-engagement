@@ -112,7 +112,7 @@ Do the following steps to remove the Customer Service Hub solution from your org
 
 5. Select **Save** to save the record.
 
-### See also
+### Related information
 
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Omnichannel for Customer Service on Unified Service Desk](../../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md)  

@@ -47,7 +47,7 @@ Before you begin, make sure you have the System Administrator or System Customiz
 
 4. Enter the details and select **Save**.
 
-### See also  
+### Related information  
 
 [Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 

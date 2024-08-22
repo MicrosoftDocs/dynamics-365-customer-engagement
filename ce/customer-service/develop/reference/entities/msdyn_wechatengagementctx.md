@@ -815,7 +815,7 @@ See systemuser Entity [lk_msdyn_wechatengagementctx_modifiedonbehalfby](systemus
 
 See systemuser Entity [user_msdyn_wechatengagementctx](systemuser.md) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

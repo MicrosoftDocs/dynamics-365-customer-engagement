@@ -82,7 +82,7 @@ An Apple Pay-type rich message may be associated to more than one payment profil
 | **Supported networks**: This property constrains the payment methods that the user can select to fund the payment. | - Supported networks are currently limited to American Express, Visa, Discover, and Mastercard. <br> <br> - Some locally issued cards may not work even when the **Merchant two-letter country code** is correct. The following countries/regions may be impacted: Saudi Arabia and China. | 
 
 
-### See also
+### Related information
 
 [Configure Apple Messages for Business](configure-apple-messages-for-business-channel.md)  
 [Understand and create workstreams](../work-streams-introduction.md)  

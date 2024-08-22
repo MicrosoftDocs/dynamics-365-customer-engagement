@@ -419,7 +419,7 @@ To end the conversation, see [End a conversation in Direct Line](/azure/bot-serv
 [Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)  
 [Markdown formats in custom channels that use Direct Line](../develop/markdown-formats-dev.md)   
 
-### See also
+### Related information
 
 [Configure custom messaging channel](../administer/configure-custom-channel.md)  
 [MessageBird API reference](https://developers.messagebird.com/api)  

@@ -30,7 +30,7 @@ The following entities have been deprecated. These entities will still be visibl
 - msdyn_agentscriptstep
 
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

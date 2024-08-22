@@ -1024,7 +1024,7 @@ See msdyn_occommunicationprovidersetting Table [msdyn_msdyn_occommunicationprovi
 
 See msdyn_ocgooglebusinessmessagespartneraccount Table [msdyn_msdyn_ocgbmpartneraccount_msdyn_ocbotchannelregistration_ocgbmpartneraccount](msdyn_ocgooglebusinessmessagespartneraccount.md#BKMK_msdyn_msdyn_ocgbmpartneraccount_msdyn_ocbotchannelregistration_ocgbmpartneraccount) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

@@ -190,7 +190,7 @@ Neutral sentiment is represented when a customer's sentiment was neither positiv
 
 You can filter the information presented in the reports by selecting **Duration**, **Channel**, **Queue,** and **Agent**.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel Insights dashboard](intro-dynamics-365-omnichannel-insights-dashboard.md)
 

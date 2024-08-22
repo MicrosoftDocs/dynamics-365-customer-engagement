@@ -258,7 +258,7 @@ You can review and track the health of the automatic record creation rules and r
 
 [Issue converting an email to a case](../troubleshoot-case-email-issue.md)
 
-### See also
+### Related information
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)  
 [Create rules to automatically route cases](create-rules-automatically-route-cases.md)  

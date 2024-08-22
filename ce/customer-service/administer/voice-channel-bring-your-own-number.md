@@ -60,7 +60,7 @@ The new phone number will be displayed in the **Phone numbers** list and is read
 - Ensure that you have sufficient transcoding licenses if your service provider and Azure Communication Services don't support the same codec.
 
   
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

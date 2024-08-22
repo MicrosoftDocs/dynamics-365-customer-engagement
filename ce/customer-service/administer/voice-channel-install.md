@@ -34,7 +34,7 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Voice 
 > The voice channel supports a maximum call duration of two hours, after which the call is disconnected. As a workaround, we recommend that you activate the callback feature.
 
 
-### See also
+### Related information
 
 [System requirements for using the voice channel](../implement/system-requirements-omnichannel.md)  
 [Set up inbound calling](../voice-channel-route-queues.md)  
