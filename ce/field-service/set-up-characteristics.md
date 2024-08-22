@@ -1,6 +1,6 @@
 ---
 title: Specify characteristics for resources
-description: Assign characteristics to resources and work orders to list the skills needed to complete the job.
+description: Discover how to assign characteristics to resources and work orders to list the skills needed to complete the job.
 ms.date: 08/12/2024
 ms.topic: how-to
 ms.custom: bap-template
@@ -98,6 +98,5 @@ A section for **Supporting Information** shows on the record. You can provide an
 1. Choose the **Characteristic**, an optional **Rating Value**, and the related **Resource Requirement**.
   
 1. Select **Save & Close**.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
