@@ -1,7 +1,7 @@
 ---
 title: Customize the Active Conversation form
 description: Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Omnichannel for Customer Service.
-ms.date: 08/20/2024
+ms.date: 08/22/2024
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
