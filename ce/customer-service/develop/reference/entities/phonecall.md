@@ -15,7 +15,7 @@ search.audienceType:
 Activity to track a telephone call.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Phone Call (PhoneCall) table extends the [Microsoft Dataverse Phone Call (PhoneCall) table](/power-apps/developer/data-platform/reference/entities/phonecall).
+> The Microsoft Dynamics 365 Customer Service Phone Call (PhoneCall) table extends the [Microsoft Dynamics 365 Phone Call (PhoneCall) table](/dynamics365/developer/entities//phonecall).
 
 
 

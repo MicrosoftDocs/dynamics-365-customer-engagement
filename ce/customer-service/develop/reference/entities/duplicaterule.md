@@ -15,7 +15,7 @@ search.audienceType:
 Rule used to identify potential duplicates.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Duplicate Detection Rule (DuplicateRule) table extends the [Microsoft Dataverse Duplicate Detection Rule (DuplicateRule) table](/power-apps/developer/data-platform/reference/entities/duplicaterule).
+> The Microsoft Dynamics 365 Customer Service Duplicate Detection Rule (DuplicateRule) table extends the [Microsoft Dynamics 365 Duplicate Detection Rule (DuplicateRule) table](/dynamics365/developer/entities//duplicaterule).
 
 
 

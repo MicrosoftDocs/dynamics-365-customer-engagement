@@ -15,7 +15,7 @@ search.audienceType:
 Group of undeleted system users and undeleted teams. Owners can be used to control access to specific objects.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Owner table extends the [Microsoft Dataverse Owner table](/power-apps/developer/data-platform/reference/entities/owner).
+> The Microsoft Dynamics 365 Customer Service Owner table extends the [Microsoft Dynamics 365 Owner table](/dynamics365/developer/entities//owner).
 
 
 

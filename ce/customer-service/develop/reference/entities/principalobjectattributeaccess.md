@@ -15,7 +15,7 @@ search.audienceType:
 Defines CRM security principals (users and teams) access rights to secured field for an entity instance.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Field Sharing (PrincipalObjectAttributeAccess) table extends the [Microsoft Dataverse Field Sharing (PrincipalObjectAttributeAccess) table](/power-apps/developer/data-platform/reference/entities/principalobjectattributeaccess).
+> The Microsoft Dynamics 365 Customer Service Field Sharing (PrincipalObjectAttributeAccess) table extends the [Microsoft Dynamics 365 Field Sharing (PrincipalObjectAttributeAccess) table](/dynamics365/developer/entities//principalobjectattributeaccess).
 
 
 

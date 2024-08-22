@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Package History (packagehistory) table extends the [Microsoft Dataverse Package History (packagehistory) table](/power-apps/developer/data-platform/reference/entities/packagehistory).
+> The Microsoft Dynamics 365 Customer Service Package History (packagehistory) table extends the [Microsoft Dynamics 365 Package History (packagehistory) table](/dynamics365/developer/entities//packagehistory).
 
 
 

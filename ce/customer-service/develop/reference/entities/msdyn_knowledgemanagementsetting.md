@@ -15,7 +15,7 @@ search.audienceType:
 Setup knowledge management for your organization.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Knowledge Management Setting (msdyn_knowledgemanagementsetting) table extends the [Microsoft Dataverse Knowledge Management Setting (msdyn_knowledgemanagementsetting) table](/power-apps/developer/data-platform/reference/entities/msdyn_knowledgemanagementsetting).
+> The Microsoft Dynamics 365 Customer Service Knowledge Management Setting (msdyn_knowledgemanagementsetting) table extends the [Microsoft Dynamics 365 Knowledge Management Setting (msdyn_knowledgemanagementsetting) table](/dynamics365/developer/entities//msdyn_knowledgemanagementsetting).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 The Master appointment of a recurring appointment series.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Recurring Appointment (RecurringAppointmentMaster) table extends the [Microsoft Dataverse Recurring Appointment (RecurringAppointmentMaster) table](/power-apps/developer/data-platform/reference/entities/recurringappointmentmaster).
+> The Microsoft Dynamics 365 Customer Service Recurring Appointment (RecurringAppointmentMaster) table extends the [Microsoft Dynamics 365 Recurring Appointment (RecurringAppointmentMaster) table](/dynamics365/developer/entities//recurringappointmentmaster).
 
 
 

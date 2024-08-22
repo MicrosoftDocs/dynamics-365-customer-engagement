@@ -15,7 +15,7 @@ search.audienceType:
 CopilotExampleQuestions Component
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service CopilotExampleQuestion table extends the [Microsoft Dataverse CopilotExampleQuestion table](/power-apps/developer/data-platform/reference/entities/copilotexamplequestion).
+> The Microsoft Dynamics 365 Customer Service CopilotExampleQuestion table extends the [Microsoft Dynamics 365 CopilotExampleQuestion table](/dynamics365/developer/entities//copilotexamplequestion).
 
 
 

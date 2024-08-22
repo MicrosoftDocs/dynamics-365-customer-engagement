@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service RoleEditorLayout table extends the [Microsoft Dataverse RoleEditorLayout table](/power-apps/developer/data-platform/reference/entities/roleeditorlayout).
+> The Microsoft Dynamics 365 Customer Service RoleEditorLayout table extends the [Microsoft Dynamics 365 RoleEditorLayout table](/dynamics365/developer/entities//roleeditorlayout).
 
 
 

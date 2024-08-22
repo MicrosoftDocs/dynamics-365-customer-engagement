@@ -15,7 +15,7 @@ search.audienceType:
 Currency in which a financial transaction is carried out.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Currency (TransactionCurrency) table extends the [Microsoft Dataverse Currency (TransactionCurrency) table](/power-apps/developer/data-platform/reference/entities/transactioncurrency).
+> The Microsoft Dynamics 365 Customer Service Currency (TransactionCurrency) table extends the [Microsoft Dynamics 365 Currency (TransactionCurrency) table](/dynamics365/developer/entities//transactioncurrency).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Interaction for Email (InteractionForEmail) table extends the [Microsoft Dataverse Interaction for Email (InteractionForEmail) table](/power-apps/developer/data-platform/reference/entities/interactionforemail).
+> The Microsoft Dynamics 365 Customer Service Interaction for Email (InteractionForEmail) table extends the [Microsoft Dynamics 365 Interaction for Email (InteractionForEmail) table](/dynamics365/developer/entities//interactionforemail).
 
 
 

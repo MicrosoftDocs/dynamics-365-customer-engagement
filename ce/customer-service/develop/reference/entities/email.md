@@ -15,7 +15,7 @@ search.audienceType:
 Activity that is delivered using email protocols.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Email table extends the [Microsoft Dataverse Email table](/power-apps/developer/data-platform/reference/entities/email).
+> The Microsoft Dynamics 365 Customer Service Email table extends the [Microsoft Dynamics 365 Email table](/dynamics365/developer/entities//email).
 
 
 

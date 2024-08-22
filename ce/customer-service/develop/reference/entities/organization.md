@@ -15,7 +15,7 @@ search.audienceType:
 Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Organization table extends the [Microsoft Dataverse Organization table](/power-apps/developer/data-platform/reference/entities/organization).
+> The Microsoft Dynamics 365 Customer Service Organization table extends the [Microsoft Dynamics 365 Organization table](/dynamics365/developer/entities//organization).
 
 
 

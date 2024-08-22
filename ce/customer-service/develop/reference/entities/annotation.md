@@ -15,7 +15,7 @@ search.audienceType:
 Note that is attached to one or more objects, including other notes.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Note (Annotation) table extends the [Microsoft Dataverse Note (Annotation) table](/power-apps/developer/data-platform/reference/entities/annotation).
+> The Microsoft Dynamics 365 Customer Service Note (Annotation) table extends the [Microsoft Dynamics 365 Note (Annotation) table](/dynamics365/developer/entities//annotation).
 
 
 

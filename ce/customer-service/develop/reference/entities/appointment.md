@@ -15,7 +15,7 @@ search.audienceType:
 Commitment representing a time interval with start/end times and duration.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Appointment table extends the [Microsoft Dataverse Appointment table](/power-apps/developer/data-platform/reference/entities/appointment).
+> The Microsoft Dynamics 365 Customer Service Appointment table extends the [Microsoft Dynamics 365 Appointment table](/dynamics365/developer/entities//appointment).
 
 
 

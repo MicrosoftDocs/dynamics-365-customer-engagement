@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Poll Placement (mspp_pollplacement) table extends the [Microsoft Dataverse Poll Placement (mspp_pollplacement) table](/power-apps/developer/data-platform/reference/entities/mspp_pollplacement).
+> The Microsoft Dynamics 365 Customer Service Poll Placement (mspp_pollplacement) table extends the [Microsoft Dynamics 365 Poll Placement (mspp_pollplacement) table](/dynamics365/developer/entities//mspp_pollplacement).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 Information that is generated when a dialog is run. Every time that you run a dialog, a dialog session is created.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Process Session (ProcessSession) table extends the [Microsoft Dataverse Process Session (ProcessSession) table](/power-apps/developer/data-platform/reference/entities/processsession).
+> The Microsoft Dynamics 365 Customer Service Process Session (ProcessSession) table extends the [Microsoft Dynamics 365 Process Session (ProcessSession) table](/dynamics365/developer/entities//processsession).
 
 
 

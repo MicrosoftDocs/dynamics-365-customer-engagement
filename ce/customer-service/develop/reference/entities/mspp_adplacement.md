@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Ad Placement (mspp_adplacement) table extends the [Microsoft Dataverse Ad Placement (mspp_adplacement) table](/power-apps/developer/data-platform/reference/entities/mspp_adplacement).
+> The Microsoft Dynamics 365 Customer Service Ad Placement (mspp_adplacement) table extends the [Microsoft Dynamics 365 Ad Placement (mspp_adplacement) table](/dynamics365/developer/entities//mspp_adplacement).
 
 
 

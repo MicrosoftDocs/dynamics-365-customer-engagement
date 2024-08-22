@@ -15,7 +15,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Connection Instance (ConnectionInstance) table extends the [Microsoft Dataverse Connection Instance (ConnectionInstance) table](/power-apps/developer/data-platform/reference/entities/connectioninstance).
+> The Microsoft Dynamics 365 Customer Service Connection Instance (ConnectionInstance) table extends the [Microsoft Dynamics 365 Connection Instance (ConnectionInstance) table](/dynamics365/developer/entities//connectioninstance).
 
 
 ## Messages

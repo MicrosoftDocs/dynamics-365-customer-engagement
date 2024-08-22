@@ -15,7 +15,7 @@ search.audienceType:
 Business, division, or department in the Microsoft Dynamics 365 database.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Business Unit (BusinessUnit) table extends the [Microsoft Dataverse Business Unit (BusinessUnit) table](/power-apps/developer/data-platform/reference/entities/businessunit).
+> The Microsoft Dynamics 365 Customer Service Business Unit (BusinessUnit) table extends the [Microsoft Dynamics 365 Business Unit (BusinessUnit) table](/dynamics365/developer/entities//businessunit).
 
 
 

@@ -15,7 +15,7 @@ search.audienceType:
 Represents a copilot created in Copilot Studio. https://copilotstudio.microsoft.com/
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Copilot (bot) table extends the [Microsoft Dataverse Copilot (bot) table](/power-apps/developer/data-platform/reference/entities/bot).
+> The Microsoft Dynamics 365 Customer Service Copilot (bot) table extends the [Microsoft Dynamics 365 Copilot (bot) table](/dynamics365/developer/entities//bot).
 
 
 ## Properties

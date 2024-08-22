@@ -15,7 +15,7 @@ search.audienceType:
 User's preferred settings.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service User Settings (UserSettings) table extends the [Microsoft Dataverse User Settings (UserSettings) table](/power-apps/developer/data-platform/reference/entities/usersettings).
+> The Microsoft Dynamics 365 Customer Service User Settings (UserSettings) table extends the [Microsoft Dynamics 365 User Settings (UserSettings) table](/dynamics365/developer/entities//usersettings).
 
 
 
