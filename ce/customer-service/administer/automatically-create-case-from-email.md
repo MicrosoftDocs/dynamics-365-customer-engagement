@@ -123,7 +123,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
 ## Manage automatic case creation from a queue form  
  You can create or manage an automatic case creation rule from a queue form, too. To do this, open the queue record, and then on the command bar, select **Email to Case Settings**.  
 
-### See also  
+### Related information  
 [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)    </br>
 [Create and manage queues](set-up-queues-manage-activities-cases.md)
 

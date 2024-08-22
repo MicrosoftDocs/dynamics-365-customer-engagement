@@ -34,7 +34,7 @@ With the missed notifications feature, you can choose to automatically set agent
 > [!div class=mx-imgBorder] 
 > ![Enable missed notifications.](../media/enable-missed-notifications.png "Enable missed notifications")
 
-### See also
+### Related information
 
 [Manage notification settings and templates](/dynamics365/app-profile-manager/notification-templates)  
 [View notifications](../use/oc-notifications.md)  

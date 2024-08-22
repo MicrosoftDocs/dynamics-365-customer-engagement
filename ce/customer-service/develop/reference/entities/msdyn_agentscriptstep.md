@@ -791,7 +791,7 @@ See msdyn_agentscript Entity [msdyn_msdyn_agentscript_msdyn_agentscriptstep](msd
 
 See msdyn_agentscript Entity [msdyn_msdyn_agentscript_routeaction](msdyn_agentscript.md#BKMK_msdyn_msdyn_agentscript_routeaction) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

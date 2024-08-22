@@ -114,7 +114,7 @@ Displays the case resolution history. If a case must be reopened, agents have th
   > [!div class=mx-imgBorder]
   > ![status bar.](../media/case_resolution_16.png "status bar")
 
-### See also
+### Related information
 
 [Learn the basics of the Customer Service Hub](../implement/customer-service-hub-user-guide-basics.md)
 

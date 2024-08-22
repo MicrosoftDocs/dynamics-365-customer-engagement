@@ -60,7 +60,7 @@ To configure the file size limit and file extensions, complete the following ste
 
 Now, agents and customers can share file attachments during their conversation.
 
-### See also
+### Related information
 
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 [Configure file attachments](configure-file-attachment.md)  

@@ -853,7 +853,7 @@ Relationship details provided where the msdyn_consoleapplicationsessiontemplate 
 
 See msdyn_agentscript Entity [msdyn_msdyn_agentscript_msdyn_sessiontemplate](msdyn_agentscript.md#BKMK_msdyn_msdyn_agentscript_msdyn_sessiontemplate) Many-To-Many Relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

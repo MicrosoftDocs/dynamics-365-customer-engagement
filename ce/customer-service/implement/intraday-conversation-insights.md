@@ -138,7 +138,7 @@ In a BI workspace that's custom configured, you can update the thresholds for th
 
 5. Save the changes.
 
-### See also
+### Related information
 
 [Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)  
 [Intraday insights dashboard](intraday-insights-dashboard.md)  

@@ -208,7 +208,7 @@ Go to the workstream for which you've configured the voice channel and do the fo
 
 You can configure work classification rules for the voice workstream to add detailed information to incoming work items. This information can be used to route the calls optimally. More information: [Configure work classification](configure-work-classification.md)
 
-### See also
+### Related information
 
 [Overview of voice channel](voice-channel.md)  
 [Overview of unified routing](overview-unified-routing.md)  

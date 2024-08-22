@@ -120,7 +120,7 @@ Filter information by viewing the reports and selecting from Duration, Queue, Ag
 
 Select the subject you're interested in, and information is filtered according to your selection. This helps to quickly analyze KPIs and take necessary steps to improve outcomes.
 
-### See also
+### Related information
 
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  
 [Configure Customer Service analytics and insights in Customer Service Hub](../use/customer-service-analytics-insights-csh.md)  

@@ -162,7 +162,7 @@ Vietnamese<br>
 > [!NOTE]
 > For languages supported in the product user interface (UI), see [Language availability](../implement/international-availability.md).
 
-### See also
+### Related information
 
 [Monitor, assign, and transfer conversations](../use/monitor-conversations.md)
 

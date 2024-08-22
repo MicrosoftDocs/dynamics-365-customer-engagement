@@ -331,7 +331,7 @@ Additionally, if the agent assigned to the record changes, the new agent (who mi
 1. Set the toggle to **Yes** for **Turn on Microsoft Teams chats inside Dynamics 365**.
 1. Set the toggle to **Yes** for **Sync Teams chats with records (Preview)**.
 
-### See also
+### Related information
 
 [Use Teams chat](../use/use-teams-chat.md)  
 [FAQ about Teams chat](faq-teams-chat.md)  
