@@ -12,11 +12,11 @@ search.app:
 
 # Enable self-scheduling service appointments in Dynamics 365 Field Service (preview)
 
-> [!IMPORTANT]
-> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446).
+[!INCLUDE [public-preview-banner](includes/public-preview-banner.md)]
 
 This article discusses the main scenarios for users of the self-scheduling portal.
+
+[!INCLUDE [public-preview-note](includes/public-preview-note.md)]
 
 ## Access and view the home page
 

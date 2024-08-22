@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service portal overview
 description: Learn how customers can manage their upcoming service visits with customer experience portals in Field Service.
-ms.date: 08/14/2024
+ms.date: 08/22/2024
 ms.topic: overview
 author: m-hartmann
 ms.author: mhart
@@ -11,10 +11,6 @@ search.app:
 ---
 
 # Dynamics 365 Field Service portal overview
-
-> [!IMPORTANT]
-> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446).
 
 > [!div class="mx-imgBorder"]
 > ![Self-service scheduling functionality on a tablet and mobile device.](./media/SS_Hero-screens.png)
@@ -35,8 +31,8 @@ Email notifications keep the customer up to date about the status of the booking
 
 Before inviting your customer to self-schedule service appointments, review the following articles that help you get started and set up.
 
-1. [Create and configure the Field Service portal (preview)](create-configure-customer-portal.md).
-1. [Set up notifications for the Field Service portal (preview)](customer-portal-notification-settings.md).
+1. [Create and configure the Field Service portal](create-configure-customer-portal.md).
+1. [Set up notifications for the Field Service portal](customer-portal-notification-settings.md).
 1. If you want customers to see information about their technician location and arrival time, see [Track a technician](customer-portal-technician-tracking.md).
 1. To make sure customers can use a home page, enable self-scheduling in Field Service. [Enable customers to self-schedule service appointments (preview)](customer-portal-self-scheduling.md).
 
