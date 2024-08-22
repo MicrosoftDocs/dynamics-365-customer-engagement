@@ -106,7 +106,7 @@ Select the one-click response generation button at the lower-right corner of the
 
 
 
-### See also
+### Related information
 
 [Understand Copilot language support](copilot-language-support.md)  
 [Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  

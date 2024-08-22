@@ -110,7 +110,7 @@ You can view how the sentiment prediction model was used to route a work item.
 
 All Azure Cognitive Services supported languages are supported in sentiment prediction-based routing. More information: [Language support - Translator - Azure Cognitive Services](/azure/cognitive-services/translator/language-support)
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [How to set up unified routing](set-up-routing-process.md)  

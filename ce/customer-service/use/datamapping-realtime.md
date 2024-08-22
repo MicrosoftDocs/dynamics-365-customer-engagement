@@ -454,7 +454,7 @@ DIVIDE (
 )
 ```
 
-## See Also
+## Related information
 [Customize visual display](customize-reports.md#customize-visual-display)  
 [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service)  
 [Overview of data model customization](datamodel-overview.md#overview-of-data-model-customization)  

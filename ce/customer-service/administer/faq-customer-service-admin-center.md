@@ -36,7 +36,7 @@ You can start using Customer Service admin center immediately if you don't have 
 
 The Omnichannel admin center app has been deprecated and therefore is hidden by default. However, the app will be visible in Power Apps.
 
-### See also
+### Related information
 
 [Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Overview of Customer Service](overview.md)  

@@ -110,7 +110,7 @@ You can achieve closest skill match in one of the following ways:
 > [!NOTE]
 > We recommend that you use the same rating model across skills. However, if skills that belong to different rating models are there, then the system will normalize and calculate the skill scores.
 
-### See also
+### Related information
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Overview of unified routing](overview-unified-routing.md)  

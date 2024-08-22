@@ -1570,7 +1570,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 
-### See also
+### Related information
 
 [Omnichannel for Customer Service entity reference](../entities/overview-entity-ref.md)<br />
 [Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

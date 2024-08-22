@@ -85,7 +85,7 @@ You can also configure the customer notifications when you're configuring the ch
 
 [Errors in creating a chat widget](../troubleshoot-omnichannel-customer-service.md#chat-widget)
 
-### See also
+### Related information
 
 [Configure a pre-conversation survey](configure-pre-chat-survey.md)  
 [Configure agent display name](agent-display-name.md)  

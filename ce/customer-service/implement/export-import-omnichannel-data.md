@@ -27,7 +27,7 @@ You can [copy an environment](copy-environment-with-omnichannel.md) with Omnicha
 > [!NOTE]
 > We recommend that you don't export the msdyn_analytics entity. Because the entity contains org-specific configuration data for intraday insights in Omnichannel for Customer Service, exporting it might lead to an incorrect configuration of your intraday insights data.
 
-### See also
+### Related information
 
 [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)                                                         
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)                                                                              

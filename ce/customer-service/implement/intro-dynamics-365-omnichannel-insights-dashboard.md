@@ -40,7 +40,7 @@ Verify the following prerequisites before you use the Omnichannel Chat and Senti
 
 -	A user is added in a supervisor configuration. To learn more, see [Add users to supervisor configuration](configure-historical-sentiment-dashboard-supervisor.md#add-users-to-supervisor-configuration).
 
-## See also
+## Related information
 
 [Configure Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md)
 

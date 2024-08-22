@@ -106,7 +106,7 @@ KnowledgeManagement.CommandBarActions.Instance.knowledgeArticle_onload
 
 10. Select **Save**, and then select **Publish**.
 
-### See also
+### Related information
 
 [Create knowledge articles using templates](customer-service-hub-user-guide-knowledge-article.md#create-knowledge-articles-using-templates)
 

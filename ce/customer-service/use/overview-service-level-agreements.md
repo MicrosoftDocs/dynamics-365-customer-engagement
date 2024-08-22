@@ -87,7 +87,7 @@ After you configure and apply your SLAs, you can manage the various aspects of y
 - Additionally, you can customize the SLA timer control display label according to the needs of your organization. More information: [Customize the SLA timer control display label](../administer/add-timer-control-case-form-track-time-against-sla.md#customize-the-sla-timer-control-display-label)
 
 
-### See also
+### Related information
 
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  
 

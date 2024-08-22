@@ -49,6 +49,6 @@ If pause conditions are set for the SLA Item, the SLA Item level pause con
 > - The warning and failure durations of an SLA are calculated depending on the value provided in the **Applicable When** field of the SLA KPI Instance.
 > - When you resume a paused SLA, the current SLA KPI Instance is canceled and a new SLA KPI Instance is created.
 
-## See Also
+## Related information
 
 [Configure service-level agreements](define-service-level-agreements.md#configure-service-level-agreements)

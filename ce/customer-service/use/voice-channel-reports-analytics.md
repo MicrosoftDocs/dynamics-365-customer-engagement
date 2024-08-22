@@ -70,7 +70,7 @@ Supervisors can also see entire transcripts to understand the conversation style
 
 :::image type="content" source="../media/voice-recording-transcript-viewer.png" alt-text="Voice recording transcript viewer.":::
 
-### See also
+### Related information
 
 [Introduction to the voice channel](../administer/voice-channel.md)  
 [Provision and set up the voice channel](../administer/voice-channel-install.md)  

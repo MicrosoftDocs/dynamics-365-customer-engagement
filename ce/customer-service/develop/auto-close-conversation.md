@@ -140,7 +140,7 @@ The value defined for the **Block capacity for wrap-up** field in the workstream
 
 [Update an entity using Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)  
 
-### See also
+### Related information
 
 [Automatic closure of conversations](../administer/auto-close-conversation-powerapps.md)
 
