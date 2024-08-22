@@ -24,7 +24,7 @@ An agreement is intended to be executed at a single location represented by the 
 
 ## Multiple incidents vs multiple recurrences
 
-Multiple incidents are defined as multiple agreement booking incidents within one single agreement booking setup. Multiple recurrences are defined as multiple agreement booking setups with different recuurences with one agreement booking incident.
+Multiple incidents are defined as multiple agreement booking incidents within one single agreement booking setup. Multiple recurrences are defined as multiple agreement booking setups with different recurrences with one agreement booking incident.
 
 When deciding whether to add multiple incidents or multiple recurrences, consider the following questions:
 
@@ -36,7 +36,7 @@ When deciding whether to add multiple incidents or multiple recurrences, conside
 
 ## Agreement work orders schedule automatically with Resource Scheduling Optimization
 
-Resource Scheduling Optimization automatically schedules work orders to optimize working hours and travel time, including work orders generated from agreements. If you want to use Resource Scheduling Optimization to schedule agreement work orders, there are many options such as:
+[Resource Scheduling Optimization automatically schedules work orders](rso-overview.md) to optimize working hours and travel time, including work orders generated from agreements. If you want to use Resource Scheduling Optimization to schedule agreement work orders, there are many options such as:
 
 - Have the agreement auto generate work orders and ensure the generated work order is included in the Resource Scheduling Optimization scope.
 
