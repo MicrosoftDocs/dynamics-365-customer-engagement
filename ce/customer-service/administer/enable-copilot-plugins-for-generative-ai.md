@@ -71,7 +71,11 @@ You can also author plugin actions in Copilot Studio to use certified connectors
    - **Specific user roles**: Select the roles in the list.
 1. Select **Next**.
 1. If it's a prompt plugin, define the input on the **Define inputs(optional)** screen to improve the answers that agents get from Copilot.
-1. Select **Next** and on the **Plugin data** screen, select **Store this plugin's data**. Copilot Studio saves all plugin data as part of agent conversation transcripts. Microsoft doesn't have access to this information. The data is stored in your Dataverse database as part of your agent interactions with Copilot as chat transcripts. More information: [Copilot transcripts and interaction data](../develop/download-copilot-transcript-data.md)
+1. Select **Next** and on the **Plugin data** screen, select **Store this plugin's data**. The data is stored in your Dataverse database as part of your agent interactions with Copilot as chat transcripts. Learn more at [Copilot transcripts and interaction data](../develop/download-copilot-transcript-data.md).
+
+    > [!IMPORTANT]
+    > Irrespective of whether you select the checkbox, Copilot Studio saves all the plugin data as part of agent conversation transcripts. Microsoft doesn't have access to this information.
+
 1. Select **Turn on plugin**.
 
 ### Considerations
