@@ -8,9 +8,11 @@ author: JonBaker007
 ms.author: jobaker
 ---
 
+<!-- Note: the style guide says not to use an acronym for Power Apps component framework. After first use, it's OK to say "framework". -->
+
 # Edit the booking and work order form
 
-You can configure forms for Dynamics 365 Field Service mobile app to meet your business needs. Because the mobile app is a model-driven app built with Power Apps, you can use the [Power Apps component framework](/power-apps/developer/component-framework/overview) (PCF) to configure the appearance.
+You can configure forms for Dynamics 365 Field Service mobile app to meet your business needs. Because the mobile app is a model-driven app built with Power Apps, you can use the [Power Apps component framework](/power-apps/developer/component-framework/overview) to configure the appearance.
 
 In Field Service, booking and work order forms are closely related. When a technician views a booking form, they're also viewing the related work order form.
 
@@ -28,6 +30,6 @@ Change the following forms from the *Work Order* and *Bookable Resource Booking*
 Change each form as needed and publish the changes to see them in the Field Service mobile app.
 
 > [!TIP]
-> The *Booking* form and *Work Order* form are combined using a PCF control called the [Form Component Control](/powerapps/maker/model-driven-apps/form-component-control) that allows you to combine data from different tables on a form. You can use the control to combine data from other tables to improve usability by reducing the need for users to navigate between forms.
+> The *Booking* form and *Work Order* form are combined using a framework control called the [Form Component Control](/powerapps/maker/model-driven-apps/form-component-control) that allows you to combine data from different tables on a form. You can use the control to combine data from other tables to improve usability by reducing the need for users to navigate between forms.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
