@@ -19,15 +19,15 @@ The following table shows how these table/entity reference documents are organiz
 
 :::row:::
    :::column:::
-      [Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)
+      [Dataverse](/power-apps/developer/data-platform/reference/about-entity-reference)
    :::column-end:::
    :::column:::
-      [Dynamics 365 table/entity reference](../../../developer/about-entity-reference.md)
+      &#9001; [Dynamics 365](../../../developer/about-entity-reference.md)
    :::column-end:::
       :::column:::
-      This Dynamics 365 Customer Service table/entity reference<hr />
-      [Dynamics 365 Field Service table/entity reference](../../../field-service/developer/about-entity-reference.md)<hr />
-      [Dynamics 365 Sales table/entity reference](../../../sales/developer/reference/about-entity-reference.md)<hr />
+      &#9001; This Dynamics 365 Customer Service table/entity reference<hr />
+      &#9001; [Dynamics 365 Field Service](../../../field-service/developer/about-entity-reference.md)<hr />
+      &#9001; [Dynamics 365 Sales](../../../sales/developer/reference/about-entity-reference.md)<hr />
    :::column-end:::
 :::row-end:::
 
