@@ -1,7 +1,7 @@
 ---
 title: Create or edit quotes in Dynamics 365 Sales
 description: Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it.
-ms.date: 08/01/2023
+ms.date: 08/23/2024
 ms.topic: how-to
 ms.custom: bap-template
 author: lavanyakr01
