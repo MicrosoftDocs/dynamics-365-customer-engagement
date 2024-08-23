@@ -152,7 +152,7 @@ If the supervisor accesses the report on day 2 at 10:00 AM and doesn't use the *
 
 If you access the report on day 2 at 10:00 AM and set the **Duration** to 12 hours, the report only displays the data corresponding to conversation 3.
 
-### See also
+### Related information
 
 [Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)  
 [View and understand the Agents insights report](intraday-agents-insights.md)  

@@ -40,7 +40,7 @@ To configure context variables for bots, see [Configure context variables for bo
 
 To learn about using and sending custom context in a conversation, see [Send custom context](../develop/send-context-starting-chat.md).
 
-### See also
+### Related information
 
 [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  

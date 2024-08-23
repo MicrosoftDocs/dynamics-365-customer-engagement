@@ -43,7 +43,7 @@ Microsoft Teams is a tool that can help agents more easily collaborate with coll
 
 The productivity pane supports custom productivity tools developed as custom pages or Power Apps component framework controls. You can create multiple custom productivity tools and make them available to your users with agent experience profiles.
 
-### See also
+### Related information
 
 [Macros](macros.md)  
 [Agent scripts](agent-scripts.md)  

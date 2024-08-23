@@ -205,7 +205,7 @@ We provide sample queries for common questions that customers seek answers to. T
 
 We will iteratively add more data events for diagnostics. Follow the documentation for more updates.
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [System requirements for Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md)  

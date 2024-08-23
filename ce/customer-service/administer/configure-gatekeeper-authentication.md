@@ -119,6 +119,6 @@ If you have configured the setting to exclude a particular customer call, when t
 
 [Configure digital contact center for Nuance Gatekeeper integration](configure-contact-center-nuance-gatekeeper.md)  
 
-### See also
+### Related information
 
 [Introduction to Nuance Gatekeeper integration](nuance-gatekeeper-introduction.md)  

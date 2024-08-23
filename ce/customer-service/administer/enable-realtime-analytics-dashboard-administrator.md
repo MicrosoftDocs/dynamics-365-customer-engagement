@@ -75,7 +75,7 @@ If you customized the Customer Service workspace or Contact Center workspace app
     - **Outlook shortcut**: **Pass parameters** and **Offline availability**
 1. Select **Save**, and then select **Publish**.
 
-### See also
+### Related information
 
 [Overview of Omnichannel real-time analytics reports](../use/intro-realtime-analytics-dashboard.md)  
 [View and understand the Summary report in Omnichannel real-time analytics](../use/realtime-summary-dashboard.md)  

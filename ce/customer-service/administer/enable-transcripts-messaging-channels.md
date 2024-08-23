@@ -59,7 +59,7 @@ To view transcripts in Customer Service workspace or Contact Center workspace ap
 > [!NOTE]
 > As an administrator, only you have access to the conversations that are handled by other agents.
 
-### See also
+### Related information
 
 [Configure chat](../administer/add-chat-widget.md)  
 [View communication panel](../use/oc-conversation-control.md)

@@ -58,7 +58,7 @@ Some of the rules used in the health check and their descriptions are as follows
 
 [Contact Center health checker doesn’t appear in the admin center](https://go.microsoft.com/fwlink/p/?linkid=2165393)
 
-### See also
+### Related information
 
 [Create queues in unified routing](queues-omnichannel.md)  
 [Create records automatically](automatically-create-update-records.md)  

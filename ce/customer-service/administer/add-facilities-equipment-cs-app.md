@@ -61,7 +61,7 @@ Facilities and equipment are resources you’d use to perform services for your 
 
     ![facility-cs-app.](../media/facility-equipment-cs-app.png)
   
-### See also  
+### Related information  
  [Basics of service and service scheduling](basics-service-service-scheduling.md)
 
 

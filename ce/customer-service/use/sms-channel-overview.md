@@ -46,7 +46,7 @@ In the application, you can configure the SMS channel as follows:
 [Configure SMS channel for Twilio](../administer/Configure-sms-channel-twilio.md)  
 [Configure SMS channel for TeleSign](../administer/configure-sms-channel.md)  
 
-### See also
+### Related information
 
 [Channels](channels.md)  
 [SMS FAQ](../administer/faqs.md#sms)  

@@ -73,7 +73,7 @@ Use double quotation marks around a keyword to search for an exact match. For ex
 
 - Query syntax: Search term with double quotation marks around it.
 
-### See also
+### Related information
 
 [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md)
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
