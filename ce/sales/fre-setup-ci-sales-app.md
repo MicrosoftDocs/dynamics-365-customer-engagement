@@ -98,7 +98,7 @@ Configure the settings to specify where your call recording data is stored, the 
     > [!NOTE]
     > From now on there's no need to configure the locales from the settings page. All the available locales will appear in the language selection during the call
     >
-    > :::image type="content" source="media/ci-admin-conversation-language-selection.png" alt-text="Screenshot of lenguage selection after call start.":::
+    > :::image type="content" source="media/ci-admin-conversation-language-selection.png" alt-text="Screenshot of language selection after call start.":::
 
 1. (Optional) In the **Data consent and privacy** section, select **Allow read-only access to data** to allow Microsoft to improve the quality of insights by giving read-only access to your organization's conversation intelligence data.  
 
