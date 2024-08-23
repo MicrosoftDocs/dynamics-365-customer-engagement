@@ -100,7 +100,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 ## Reassign a case
 
 > [!NOTE]
-> When unified routing is enabled, don't use the assign option on the case form. Instead, use the save and route option to assign a case or work item.
+> When [unified routing](../administer/overview-unified-routing.md) is enabled, don't use the assign option on the case form. Instead, use the save and route option to assign a case or work item.
 
 If you don’t have enough information to resolve a case, or if you think another member in your team has expertise on the subject, you can assign the case to another user or team.  
 
@@ -109,9 +109,6 @@ If you don’t have enough information to resolve a case, or if you think anothe
 2. In the **Assign to Team or User** dialog box, in the **Assign To** field, select **User or Team**, and then in the **User or team** field, select who you want to assign the case to.  
 
 3. Select **Assign**. 
-
- 
-
 
 ## Case resolution history
 
