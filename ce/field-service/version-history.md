@@ -34,12 +34,11 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.123.11
 (Includes Universal Resource Scheduling version [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839) and Resource Scheduling controls version 1.2.77.242277)
 
-- Share button no longer appears as ribbon button on the WO side pane popup.
-- Removed legacy code related to Resco.
-- Fixed an issue that prevent Time from fields from populating on work order from SLA.
-- D365 Field Service Mobile: Fixed bug that ensures control info and close icon clicks function properly within the Copilot Summary control.
-- D365 Field Service Mobile: Fixed a bug so that a Follow Up Work Order which is created in offline mode can be successfully modified and saved without error.
-- D365 Field Service Mobile: Fixed a bug which caused an intermittent OnLoad script error after changing Booking Status.
+- Share button no longer appears as ribbon button on the work order side pane.
+- Fixed an issue that prevented *Time from* fields from populating on work orders base on an SLA.
+- Field Service Mobile: Fixed bug that ensures control info and close icon clicks function properly within the Copilot Summary control.
+- Field Service Mobile: Fixed a bug so that a Follow Up Work Order which is created in offline mode can be successfully modified and saved without error.
+- Field Service Mobile: Fixed a bug which caused an intermittent OnLoad script error after changing Booking Status.
 
 
 ## 8.8.122.17
@@ -51,8 +50,8 @@ This release is a hotfix on Field Service version [8.8.122.6](/dynamics365/field
 (Includes Universal Resource Scheduling version [3.12.141.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121412---2024-wave-1-early-access-release) and Resource Scheduling controls version 1.2.80.242082).
 
 - Fixed a bug preventing time entries from being set to approved when they are a custom type.
-- Work order currencies will now correctly recalculate when converting currency. To revert this behavior, turn of the advanced setting: IsWorkOrderCalculationProperlyRecalculateValuesWhenConvertingCurrencyOptedIn.
-- Service tasks on agreement booking setups now correctly copy their name from incident service tasks. To revert this behavior, turn off the advanced setting: "IsAgreementBookingSetupServiceTaskCopyNameFromIncidentSetToOptIn".
+- Work order currencies now correctly recalculate when converting currency.
+- Service tasks on agreement booking setups now correctly copy their name from incident service tasks.
 
 
 ## 8.8.122.6
