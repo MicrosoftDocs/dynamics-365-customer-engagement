@@ -28,11 +28,21 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.128.39
 
+- Fixed a bug that was displaying an empty preview section on the scheduling parameter form.
+- Fixed a bug that was impacting custom field mapping when bookings are created through the schedule assistant.
+- Fixed a bug that was causing some input values to persist after selecting *Reset to Default* in the board settings. 
+- Fixed a bug that was causing a *No results* message in the schedule assistant list view while results are still populating.
+- Fixed a bug that was causing issues with validating *Time Promised* windows on the schedule board when the entity and browser time zones are different.
+- Fixed a bug where the number of available hours in a day for resources were not being displayed in the Gantt view of the schedule assistant.
+- Working day selections are now honored even when the date range begins on a non-working day and when switching between daily and hourly views.
+
 ## 3.12.137.22
 
 **Resource Scheduling Controls:** 1.2.76.242082
 
 **Dataverse:** 4.0.127.22
+
+- Removed toggle for a feature that is not yet active.
 
 ## 3.12.141.2 - 2024 Wave 2 Early Access
 
