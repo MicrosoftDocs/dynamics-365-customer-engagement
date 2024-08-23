@@ -24,8 +24,7 @@ The following table shows how these table/entity reference documents are organiz
       [Dynamics 365 table/entity reference](../../developer/about-entity-reference.md)
    :::column-end:::
       :::column:::
-      [Dynamics 365 Customer Service table/entity reference](../customer-service/develop/reference/about-entity-reference.md)
+      [Dynamics 365 Customer Service table/entity reference](../../customer-service/develop/reference/about-entity-reference.md)<br />
       This Dynamics 365 Field Service table/entity reference
-      
    :::column-end:::
 :::row-end:::

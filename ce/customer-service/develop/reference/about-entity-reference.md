@@ -22,12 +22,11 @@ The following table shows how these table/entity reference documents are organiz
       [Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)
    :::column-end:::
    :::column:::
-      [Dynamics 365 table/entity reference](../../developer/about-entity-reference.md)
+      [Dynamics 365 table/entity reference](../../../developer/about-entity-reference.md)
    :::column-end:::
       :::column:::
-      This Dynamics 365 Customer Service table/entity reference
-      [Dynamics 365 Field Service table/entity reference](../field-service/develop/reference/about-entity-reference.md)
-      
+      This Dynamics 365 Customer Service table/entity reference<br />
+      [Dynamics 365 Field Service table/entity reference](../../../field-service/developer/about-entity-reference.md)      
    :::column-end:::
 :::row-end:::
 
