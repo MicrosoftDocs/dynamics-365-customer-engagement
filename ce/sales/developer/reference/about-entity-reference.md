@@ -1,19 +1,31 @@
 ---
-title: About Entity Reference (Developer Guide for Dynamics 365 Sales) | MicrosoftDocs
-description: Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities(SDK) in Dynamics 365 Sales. 
-ms.date: 04/21/2024
-ms.topic: article
-applies_to: 
-  - Dynamics 365 Sales
-author: JimDaly
-ms.author: jdaly
-ms.reviewer: lavanyakr
+title: "Dynamics 365 Sales table/entity reference | Microsoft Docs"
+description: "Use this reference to understand the available operations that can be performed for specific tables, the default columns/attributes of each table/entity and the relationships between tables in Dynamics 365 Sales "
+author: phecke
+ms.topic: reference
+ms.date: 08/21/2024
+ms.author: pehecke
+ms.reviewer: jdaly
 search.audienceType: 
   - developer
-
 ---
-# Sales table/entity reference
+# Dynamics 365 Sales table/entity reference
 
-This reference documentation describes the tables, columns, and relationships added or modified by Dynamics 365 Sales. Most of the tables used by Dynamics 365 Sales are defined when the environment was enabled for Dynamics 365 applications. This common set of changes is documented in the [Microsoft Dynamics 365 Table/Entity Reference](/dynamics365/developer/reference/dataverse/about-entity-reference).
+This table/entity reference includes the tables and changes that are enabled when you [create an environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database) and select **Enable Dynamics 365 apps**. Then in **Automatically deploy these apps**, select **Sales**.
 
-These changes are modifications of the core Dataverse tables. See the [Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference) for information about these tables.
+
+The following table shows how these table/entity reference documents are organized.
+
+:::row:::
+   :::column:::
+      [Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)
+   :::column-end:::
+   :::column:::
+      [Dynamics 365 table/entity reference](../../../developer/about-entity-reference.md)
+   :::column-end:::
+      :::column:::
+      [Dynamics 365 Customer Service table/entity reference](../../../customer-service/develop/reference/about-entity-reference.md)<br />
+      [Dynamics 365 Field Service table/entity reference](../../../field-service/developer/about-entity-reference.md)<br />
+      This Dynamics 365 Sales table/entity reference
+   :::column-end:::
+:::row-end:::
