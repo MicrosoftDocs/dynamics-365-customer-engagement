@@ -1,7 +1,7 @@
 ---
 title: Define product pricing
 description: Use price lists and price list items for defining price for a product. Create multiple price lists and set default price list for a territory.
-ms.date: 08/08/2023
+ms.date: 08/23/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -34,7 +34,7 @@ Use price lists and price list items to define price for a product.
 
 ## What is a price list?
 
-Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions,  sales channels, or sales territories. 
+Price lists tell your sales agents what to charge for your products or services. You can create multiple prices lists so that you can maintain separate price structures for different regions,  sales channels, or sales territories. 
 
 Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
 
@@ -89,7 +89,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
     c.  In the **Price List item** form, on the **Pricing information** tab, fill in the following information, and select **Save & Close**:
 
-       -  **Pricing Method**. select an option that determines how the pricing will be calculated. It could be a certain amount, or a percentage of the current or standard cost. The available options are as follows: 
+       -  **Pricing Method**. select an option that determines how the pricing is calculated. It could be a certain amount, or a percentage of the current or standard cost. The available options are as follows: 
           -  **Currency Amount**. Use this to ignore a product's list price in the product catalog and to enter a different price manually for this price list.  
           
           -  **Percent of List**. Use this to calculate a product's price in the price list as a percentage of the list price of the associated product.  
@@ -108,7 +108,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
        -  **Rounding Policy**. If you selected a pricing method other than **Currency Amount**, you can set up a rounding policy. For example, if you want per unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, you select the rounding policy to round up the price, and then set the price to end in a certain amount, such as 99 cents.
 
-          -  **None**. Prices are not rounded.
+          -  **None**. Prices aren't rounded.
 
           -  **Up**. Prices are rounded up to the nearest rounding amount.
 
