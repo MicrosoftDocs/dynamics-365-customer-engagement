@@ -73,10 +73,6 @@ Booking a work order now triggers an asynchronous workflow that creates a geofen
 
 :::image type="content" source="../media/geofence-created.png" alt-text="Screenshot of Field Service showing a list of active geofences.":::
 
-
-
-
-
 Before traveling to the work order location, the technician is outside the geofence and the system creates an *exit geofence* event. When a technician arrives at the location and opens the Field Service mobile app, an *enter geofence* event is created.
 
 Entering a geofence also changes the related geofence **Geo tracked record status** from **Outside** to **Inside**.
@@ -105,6 +101,6 @@ When trigger filters are enabled, you can set time-based filters. Filtered field
 
 You can then set a value in days before or after the related date for the filter.
 
-For example, if could enable trigger filters based on start time with last/next days value of one. The system now only creates a geofence and triggers events for bookings that start between yesterday and tomorrow.
+For example, it could enable trigger filters based on start time with last/next days value of one. The system now only creates a geofence and triggers events for bookings that start between yesterday and tomorrow.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
