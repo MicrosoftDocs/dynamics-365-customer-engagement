@@ -95,9 +95,10 @@ Configure the settings to specify where your call recording data is stored, the 
 
     - In the **Automated summaries** section, leave **Enable call summary** selected to let your sellers view the notes after their calls. [Learn more about the call summary page](view-and-understand-call-summary-sales-app.md).
 
-    - In the **My languages** section, add the languages your sellers use during their calls with customers to ensure accurate transcription, keyword tracking, analysis, insights, and KPIs.
+1. (Optional, available after the call is started) Configure language yor sellers use during their calls.
 
-    :::image type="content" source="media/ci-admin-conversation-trackers.png" alt-text="Screenshot of business settings.":::
+    - After call is started, it is possible to choose the language for the call with customers to ensure accurate transcription, keyword tracking, analysis, insights, and KPIs.
+    :::image type="content" source="media/ci-admin-conversation-language-selection.png" alt-text="Screenshot of lenguage selection after call start.":::
 
 1. (Optional) In the **Data consent and privacy** section, select **Allow read-only access to data** to allow Microsoft to improve the quality of insights by giving read-only access to your organization's conversation intelligence data.  
 
