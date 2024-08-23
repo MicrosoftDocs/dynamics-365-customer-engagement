@@ -43,7 +43,7 @@ If you have **Enhanced Background Processing** (Preview) set to _Yes_ in [Field 
 
 1. In the Field Service web app, change to the **Settings** area.
 1. Go to **Geofencing** > **Geofencing Settings**.
-1. Enter a **Unit of Measure** and **Minimum Radius**. The smallest geofence that the system support has a radius of 25.59 feet.
+1. Enter a **Unit of Measure** and **Minimum Radius**. The smallest geofence that the system supports has a radius of 25.59 feet.
 
 ## Configure geofence entities
 
@@ -63,15 +63,19 @@ Configure the settings for the entities that use geofences. Custom geofences usi
 1. Enter the following information:
 
    - **Entity:** Select **Bookable Resource** to compare the location of field technicians relative to the service account of the work order.
-   - **Latitude / Longitude** Choose the latitude and longitude fields on the bookable resource entity that hold the most recent coordinates of the location.
-   - **Timestamp Field Name** Choose the location time stamp. This time stamp represents the date and time when the geofence location was updated. Geofence status will be updated only if the status is different than the current status and the time stamp is more recent than the time stamp associated with the current geofence status.
-   - **Enabled As** Select **Geo tracked** because the bookable resource has a variable location that is compared against defined geofences.
+   - **Latitude / Longitude:** Choose the latitude and longitude fields on the bookable resource entity that hold the most recent coordinates of the location.
+   - **Timestamp Field Name:** Choose the location time stamp. This time stamp represents the date and time when the geofence location was updated. Geofence status will be updated only if the status is different than the current status and the time stamp is more recent than the time stamp associated with the current geofence status.
+   - **Enabled As:** Select **Geo tracked** because the bookable resource has a variable location that is compared against defined geofences.
 
 ## Understand what happens when booking a work order
 
 Booking a work order now triggers an asynchronous workflow that creates a geofence. To view the geofences that the system created, go to **Field Service** > **Settings** > **Geofences**.
 
 :::image type="content" source="../media/geofence-created.png" alt-text="Screenshot of Field Service showing a list of active geofences.":::
+
+
+
+
 
 Before traveling to the work order location, the technician is outside the geofence and the system creates an *exit geofence* event. When a technician arrives at the location and opens the Field Service mobile app, an *enter geofence* event is created.
 
