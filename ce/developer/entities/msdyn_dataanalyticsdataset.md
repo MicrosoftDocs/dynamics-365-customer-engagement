@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Data Analytics Dataset (msdyn_dataanalyticsdataset) table/entity reference
+# Data Analytics Dataset (msdyn_dataanalyticsdataset) table/entity reference (Microsoft Dynamics 365)
 
 Data Analytics Power BI Datasets
 

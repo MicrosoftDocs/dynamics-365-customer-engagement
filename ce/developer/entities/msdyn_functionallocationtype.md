@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Functional Location Type (msdyn_FunctionalLocationType) table/entity reference
+# Functional Location Type (msdyn_FunctionalLocationType) table/entity reference (Microsoft Dynamics 365)
 
 
 

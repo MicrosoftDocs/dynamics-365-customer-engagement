@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Application Extension (msdyn_applicationextension) table/entity reference
+# Application Extension (msdyn_applicationextension) table/entity reference (Microsoft Dynamics 365)
 
 
 

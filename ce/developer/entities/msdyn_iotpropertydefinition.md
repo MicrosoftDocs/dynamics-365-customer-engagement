@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Property Definition (msdyn_iotpropertydefinition) table/entity reference
+# IoT Property Definition (msdyn_iotpropertydefinition) table/entity reference (Microsoft Dynamics 365)
 
 Defines a device property or a parameter that can be used for one or more command definitions.
 

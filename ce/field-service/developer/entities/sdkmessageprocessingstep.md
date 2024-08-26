@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sdk Message Processing Step (SdkMessageProcessingStep) table/entity reference
+# Sdk Message Processing Step (SdkMessageProcessingStep) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Stage in the execution pipeline that a plug-in is to execute.
 

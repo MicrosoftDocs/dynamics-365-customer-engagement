@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Rich message (msdyn_ocrichobject) table/entity reference
+# Rich message (msdyn_ocrichobject) table/entity reference (Microsoft Dynamics 365)
 
 Rich messages for Omnichannel integration
 

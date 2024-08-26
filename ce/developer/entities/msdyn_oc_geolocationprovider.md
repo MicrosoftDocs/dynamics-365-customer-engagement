@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Geo Location Provider (msdyn_oc_geolocationprovider) table/entity reference
+# Geo Location Provider (msdyn_oc_geolocationprovider) table/entity reference (Microsoft Dynamics 365)
 
 Geo Location Providers
 

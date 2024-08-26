@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Omnichannel voice historical analytics (preview) (Deprecated) (msdyn_dataanalyticsreport_ocvoice) table/entity reference
+# Omnichannel voice historical analytics (preview) (Deprecated) (msdyn_dataanalyticsreport_ocvoice) table/entity reference (Microsoft Dynamics 365)
 
 Omnichannel voice historical analytics (preview) (Deprecated)
 

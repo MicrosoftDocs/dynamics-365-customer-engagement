@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# SLA Item (SLAItem) table/entity reference
+# SLA Item (SLAItem) table/entity reference (Microsoft Dynamics 365)
 
 Contains information about a tracked support KPI for a specific customer.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Order Line (SalesOrderDetail) table/entity reference
+# Order Line (SalesOrderDetail) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Line item in a sales order.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entitlement table/entity reference
+# Entitlement table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Defines the amount and type of support a customer should receive.
 

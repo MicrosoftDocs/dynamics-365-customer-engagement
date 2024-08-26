@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Incident Type Suggestion Run History (msdyn_incidenttyperecommendationrunhistory) table/entity reference
+# Incident Type Suggestion Run History (msdyn_incidenttyperecommendationrunhistory) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Incident Type Suggestion Run Histories store all suggestion job run histories.
 

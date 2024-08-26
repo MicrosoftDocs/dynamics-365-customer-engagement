@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Task table/entity reference
+# Task table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Generic activity representing work needed to be done.
 

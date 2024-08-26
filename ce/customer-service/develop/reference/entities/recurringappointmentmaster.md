@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Recurring Appointment (RecurringAppointmentMaster) table/entity reference
+# Recurring Appointment (RecurringAppointmentMaster) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 The Master appointment of a recurring appointment series.
 

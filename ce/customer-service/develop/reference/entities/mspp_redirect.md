@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Redirect (mspp_redirect) table/entity reference
+# Redirect (mspp_redirect) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

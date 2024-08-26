@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Routing configuration (msdyn_routingconfiguration) table/entity reference
+# Routing configuration (msdyn_routingconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 Defines routing details for the workstream
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Assignment Configuration Step (msdyn_assignmentconfigurationstep) table/entity reference
+# Assignment Configuration Step (msdyn_assignmentconfigurationstep) table/entity reference (Microsoft Dynamics 365)
 
 
 

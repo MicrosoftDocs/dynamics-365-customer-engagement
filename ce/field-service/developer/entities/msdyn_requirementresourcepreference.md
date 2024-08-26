@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Requirement Resource Preference (msdyn_requirementresourcepreference) table/entity reference
+# Requirement Resource Preference (msdyn_requirementresourcepreference) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Requirement Resource Preference
 

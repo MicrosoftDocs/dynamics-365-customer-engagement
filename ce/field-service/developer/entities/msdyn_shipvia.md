@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Ship Via (msdyn_shipvia) table/entity reference
+# Ship Via (msdyn_shipvia) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify the different shipping methods used.
 

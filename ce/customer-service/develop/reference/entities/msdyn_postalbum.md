@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Profile Album (msdyn_PostAlbum) table/entity reference
+# Profile Album (msdyn_PostAlbum) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Contains user profile images that are stored as attachments and displayed in posts.
 

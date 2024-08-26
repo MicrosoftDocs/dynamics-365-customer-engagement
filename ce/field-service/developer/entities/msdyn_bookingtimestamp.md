@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Booking Timestamp (msdyn_bookingtimestamp) table/entity reference
+# Booking Timestamp (msdyn_bookingtimestamp) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Tracks status changes of bookings and timestamps the change of the status
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Geofencing Settings (msdyn_geofencingsettings) table/entity reference
+# Geofencing Settings (msdyn_geofencingsettings) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Configure organization-wide settings for geofencing.
 

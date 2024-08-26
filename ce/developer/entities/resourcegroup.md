@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Scheduling Group (ResourceGroup) table/entity reference
+# Scheduling Group (ResourceGroup) table/entity reference (Microsoft Dynamics 365)
 
 Resource group or team whose members can be scheduled for a service.
 

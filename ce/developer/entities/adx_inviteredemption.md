@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Invite Redemption (adx_inviteredemption) table/entity reference
+# Invite Redemption (adx_inviteredemption) table/entity reference (Microsoft Dynamics 365)
 
 Holds information about the redemption of an invite.
 

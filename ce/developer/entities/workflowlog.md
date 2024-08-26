@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Process Log (WorkflowLog) table/entity reference
+# Process Log (WorkflowLog) table/entity reference (Microsoft Dynamics 365)
 
 Log used to track process execution.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Configuration (msdynmkt_configuration) table/entity reference
+# Configuration (msdynmkt_configuration) table/entity reference (Microsoft Dynamics 365)
 
 
 

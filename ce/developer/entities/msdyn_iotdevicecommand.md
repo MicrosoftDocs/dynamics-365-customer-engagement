@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Device Command (msdyn_iotdevicecommand) table/entity reference
+# IoT Device Command (msdyn_iotdevicecommand) table/entity reference (Microsoft Dynamics 365)
 
 Represents an outgoing message to a device connected to an IoT provider.
 

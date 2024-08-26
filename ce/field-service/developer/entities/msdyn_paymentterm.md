@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Payment Term (msdyn_paymentterm) table/entity reference
+# Payment Term (msdyn_paymentterm) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify payment terms used for billing.
 

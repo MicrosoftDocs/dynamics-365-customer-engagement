@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# DigitalSellingActiveTask (msdyn_digitalsellingactivetask) table/entity reference
+# DigitalSellingActiveTask (msdyn_digitalsellingactivetask) table/entity reference (Microsoft Dynamics 365)
 
 
 

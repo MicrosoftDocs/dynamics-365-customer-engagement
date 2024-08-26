@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work List View Configuration (msdyn_worklistviewconfiguration) table/entity reference
+# Work List View Configuration (msdyn_worklistviewconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 Entity to store work list view configurations on filter, icons, sort etc
 

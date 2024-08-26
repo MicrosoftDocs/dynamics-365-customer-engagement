@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sentiment daily topic (msdyn_ocsentimentdailytopic) table/entity reference
+# Sentiment daily topic (msdyn_ocsentimentdailytopic) table/entity reference (Microsoft Dynamics 365)
 
 1. store properties regarding each topic cluster
 2. used for dashboard visualization (like topic example) and calculation for topic mapping

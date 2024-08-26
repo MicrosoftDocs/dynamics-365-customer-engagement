@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Daily kpis for Opportunity (msdyn_dailyopportunitykpiitem) table/entity reference
+# Daily kpis for Opportunity (msdyn_dailyopportunitykpiitem) table/entity reference (Microsoft Dynamics 365)
 
 
 

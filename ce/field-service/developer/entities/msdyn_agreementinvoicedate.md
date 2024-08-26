@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agreement Invoice Date (msdyn_agreementinvoicedate) table/entity reference
+# Agreement Invoice Date (msdyn_agreementinvoicedate) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify the invoice dates for the agreement.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Channel State Configuration (msdyn_occhannelstateconfiguration) table/entity reference
+# Channel State Configuration (msdyn_occhannelstateconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 Channel State Configuration
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Incident Type Resolution (msdyn_incidenttyperesolution) table/entity reference
+# Incident Type Resolution (msdyn_incidenttyperesolution) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

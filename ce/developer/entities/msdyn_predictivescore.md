@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Predictive Score (msdyn_predictivescore) table/entity reference
+# Predictive Score (msdyn_predictivescore) table/entity reference (Microsoft Dynamics 365)
 
 
 

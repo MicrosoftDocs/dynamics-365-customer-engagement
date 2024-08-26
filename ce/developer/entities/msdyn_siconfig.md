@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# siconfig (msdyn_siconfig) table/entity reference
+# siconfig (msdyn_siconfig) table/entity reference (Microsoft Dynamics 365)
 
 
 

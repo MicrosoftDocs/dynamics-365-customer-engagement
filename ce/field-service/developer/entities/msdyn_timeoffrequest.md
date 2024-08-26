@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Time Off Request (msdyn_timeoffrequest) table/entity reference
+# Time Off Request (msdyn_timeoffrequest) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify time resource time off request.
 

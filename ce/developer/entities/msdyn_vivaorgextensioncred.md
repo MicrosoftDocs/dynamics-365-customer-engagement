@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_vivaorgextensioncred table/entity reference
+# msdyn_vivaorgextensioncred table/entity reference (Microsoft Dynamics 365)
 
 Org level extension credential for Viva apps
 

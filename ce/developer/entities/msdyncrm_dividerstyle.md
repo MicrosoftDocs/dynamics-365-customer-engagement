@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Divider style (msdyncrm_dividerstyle) table/entity reference
+# Divider style (msdyncrm_dividerstyle) table/entity reference (Microsoft Dynamics 365)
 
 
 

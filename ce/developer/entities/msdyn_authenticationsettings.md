@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Authentication Settings (msdyn_authenticationsettings) table/entity reference
+# Authentication Settings (msdyn_authenticationsettings) table/entity reference (Microsoft Dynamics 365)
 
 Stores the settings for user authentication
 

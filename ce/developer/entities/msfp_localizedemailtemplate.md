@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Voice localized survey email template (msfp_localizedemailtemplate) table/entity reference
+# Customer Voice localized survey email template (msfp_localizedemailtemplate) table/entity reference (Microsoft Dynamics 365)
 
 Stores localized data for email templates.
 

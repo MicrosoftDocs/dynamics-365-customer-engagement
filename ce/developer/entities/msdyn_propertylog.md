@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Property Log (msdyn_propertylog) table/entity reference
+# Property Log (msdyn_propertylog) table/entity reference (Microsoft Dynamics 365)
 
 
 

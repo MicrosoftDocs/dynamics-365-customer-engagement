@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Data (Deprecated) (msdyn_conversationdata) table/entity reference
+# Conversation Data (Deprecated) (msdyn_conversationdata) table/entity reference (Microsoft Dynamics 365)
 
 Primary entity for a conversation
 

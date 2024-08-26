@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# wkwcolleaguesforcontact (msdyn_wkwcolleaguesforcontact) table/entity reference
+# wkwcolleaguesforcontact (msdyn_wkwcolleaguesforcontact) table/entity reference (Microsoft Dynamics 365)
 
 Entity for storing contact introducer
 

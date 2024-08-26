@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Similarity Rule (SimilarityRule) table/entity reference
+# Similarity Rule (SimilarityRule) table/entity reference (Microsoft Dynamics 365)
 
 
 

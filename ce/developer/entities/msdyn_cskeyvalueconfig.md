@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Service Key Value Configuration (msdyn_cskeyvalueconfig) table/entity reference
+# Customer Service Key Value Configuration (msdyn_cskeyvalueconfig) table/entity reference (Microsoft Dynamics 365)
 
 
 

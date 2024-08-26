@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Forecast Summary and Setting (msdyn_forecastsettingsandsummary) table/entity reference
+# Forecast Summary and Setting (msdyn_forecastsettingsandsummary) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Suggestion Assignment Rule (msdyn_suggestionassignmentrule) table/entity reference
+# Suggestion Assignment Rule (msdyn_suggestionassignmentrule) table/entity reference (Microsoft Dynamics 365)
 
 
 

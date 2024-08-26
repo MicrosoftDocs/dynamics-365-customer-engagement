@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Notification Template (Deprecated) (msdyn_consoleapplicationnotificationtemplate) table/entity reference
+# Notification Template (Deprecated) (msdyn_consoleapplicationnotificationtemplate) table/entity reference (Microsoft Dynamics 365)
 
 Template for a notification
 

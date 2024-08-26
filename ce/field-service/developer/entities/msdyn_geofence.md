@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Geofence (msdyn_geofence) table/entity reference
+# Geofence (msdyn_geofence) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 A radial boundary around a physical location that, when active, can be entered or exited by geotracked records, in turn generating events.
 

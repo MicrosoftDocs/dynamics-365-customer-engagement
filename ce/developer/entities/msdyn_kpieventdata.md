@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# KPI Event Data (msdyn_KPIEventData) table/entity reference
+# KPI Event Data (msdyn_KPIEventData) table/entity reference (Microsoft Dynamics 365)
 
 Primary entity for a kpi event
 

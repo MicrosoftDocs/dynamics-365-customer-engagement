@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Sentiment (msdyn_ocliveworkitemsentiment) table/entity reference
+# Conversation Sentiment (msdyn_ocliveworkitemsentiment) table/entity reference (Microsoft Dynamics 365)
 
 Stores the machine learning generated customer sentiment of the communication  between the user and the customer
 

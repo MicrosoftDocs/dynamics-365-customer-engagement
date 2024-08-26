@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Order (SalesOrder) table/entity reference
+# Order (SalesOrder) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Quote that has been accepted.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Knowledge Article Incident (KnowledgeArticleIncident) table/entity reference
+# Knowledge Article Incident (KnowledgeArticleIncident) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Association between an knowledge article and incident.
 

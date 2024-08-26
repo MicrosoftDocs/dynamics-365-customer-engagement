@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agent capacity update history (msdyn_agentcapacityupdatehistory) table/entity reference
+# Agent capacity update history (msdyn_agentcapacityupdatehistory) table/entity reference (Microsoft Dynamics 365)
 
 Agent capacity update history entity records any changes to agent capacity against a capacity profile
 

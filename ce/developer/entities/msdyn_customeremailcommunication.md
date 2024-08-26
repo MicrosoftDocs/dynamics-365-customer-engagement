@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer email communication (msdyn_customeremailcommunication) table/entity reference
+# Customer email communication (msdyn_customeremailcommunication) table/entity reference (Microsoft Dynamics 365)
 
 
 

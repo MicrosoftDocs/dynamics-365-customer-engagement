@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Predictive Work Hour Duration Setting (msdyn_predictworkhourdurationsetting) table/entity reference
+# Predictive Work Hour Duration Setting (msdyn_predictworkhourdurationsetting) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

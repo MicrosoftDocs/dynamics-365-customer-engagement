@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Resolution (msdyn_resolution) table/entity reference
+# Resolution (msdyn_resolution) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

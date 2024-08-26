@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entitlement Application (msdyn_entitlementapplication) table/entity reference
+# Entitlement Application (msdyn_entitlementapplication) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Entitlement Application that will drive automatic application when the work was performed for Service Account, Customer Asset, Asset Category, Incident Type and Entitlement.
 

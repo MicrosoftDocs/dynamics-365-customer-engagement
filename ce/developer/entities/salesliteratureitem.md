@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sales Attachment (SalesLiteratureItem) table/entity reference
+# Sales Attachment (SalesLiteratureItem) table/entity reference (Microsoft Dynamics 365)
 
 Item in the sales literature collection.
 

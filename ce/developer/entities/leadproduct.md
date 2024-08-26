@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# LeadProduct table/entity reference
+# LeadProduct table/entity reference (Microsoft Dynamics 365)
 
 
 

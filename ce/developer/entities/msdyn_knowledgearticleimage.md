@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Knowledge Article Image (msdyn_knowledgearticleimage) table/entity reference
+# Knowledge Article Image (msdyn_knowledgearticleimage) table/entity reference (Microsoft Dynamics 365)
 
 
 

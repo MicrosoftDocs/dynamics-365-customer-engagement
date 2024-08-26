@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Duplicate Lead Mapping (msdyn_duplicateleadmapping) table/entity reference
+# Duplicate Lead Mapping (msdyn_duplicateleadmapping) table/entity reference (Microsoft Dynamics 365)
 
 This enity is used to connect base lead to duplicate leads
 

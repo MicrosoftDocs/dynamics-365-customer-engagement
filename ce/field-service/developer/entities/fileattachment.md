@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# FileAttachment table/entity reference
+# FileAttachment table/entity reference (Microsoft Dynamics 365 Field Service)
 
 File Attachment
 

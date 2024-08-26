@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work Order Type (msdyn_workordertype) table/entity reference
+# Work Order Type (msdyn_workordertype) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Create different work order types to reflect the different types of work that your company offers. Work Order types are used to control various settings on a work order.
 

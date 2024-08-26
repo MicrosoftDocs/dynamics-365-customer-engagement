@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sound notification setting (msdyn_soundnotificationsetting) table/entity reference
+# Sound notification setting (msdyn_soundnotificationsetting) table/entity reference (Microsoft Dynamics 365)
 
 Entity to store the sound notification setting records for channels and other scenarios.
 

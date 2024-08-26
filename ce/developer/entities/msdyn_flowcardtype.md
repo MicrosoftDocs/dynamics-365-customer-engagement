@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# flowcardtype (msdyn_flowcardtype) table/entity reference
+# flowcardtype (msdyn_flowcardtype) table/entity reference (Microsoft Dynamics 365)
 
 
 

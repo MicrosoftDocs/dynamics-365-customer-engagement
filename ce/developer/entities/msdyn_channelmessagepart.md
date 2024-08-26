@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Channel Message Part (msdyn_ChannelMessagePart) table/entity reference
+# Channel Message Part (msdyn_ChannelMessagePart) table/entity reference (Microsoft Dynamics 365)
 
 
 

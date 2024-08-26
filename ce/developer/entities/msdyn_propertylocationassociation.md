@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Property Location Association (msdyn_propertylocationassociation) table/entity reference
+# Property Location Association (msdyn_propertylocationassociation) table/entity reference (Microsoft Dynamics 365)
 
 Captures the relationship between a Property and a Functional Location.
 

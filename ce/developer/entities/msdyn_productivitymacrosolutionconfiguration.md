@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Macro Solution Configuration (msdyn_productivitymacrosolutionconfiguration) table/entity reference
+# Macro Solution Configuration (msdyn_productivitymacrosolutionconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 Macro solution related configurations
 

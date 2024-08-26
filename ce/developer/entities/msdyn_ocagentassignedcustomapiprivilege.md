@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Omnichannel agent assignment custom api privilege (msdyn_ocagentassignedcustomapiprivilege) table/entity reference
+# Omnichannel agent assignment custom api privilege (msdyn_ocagentassignedcustomapiprivilege) table/entity reference (Microsoft Dynamics 365)
 
 Entity for creating privilege for agent assignment private custom apis. The privileges for this entity will be used to restrict custom api access only for FPA app user.
 

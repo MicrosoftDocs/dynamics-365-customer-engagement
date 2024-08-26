@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Settings (msdyn_iotsettings) table/entity reference
+# IoT Settings (msdyn_iotsettings) table/entity reference (Microsoft Dynamics 365)
 
 
 

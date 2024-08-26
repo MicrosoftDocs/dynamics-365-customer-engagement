@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Session Data (Deprecated) (msdyn_SessionData) table/entity reference
+# Session Data (Deprecated) (msdyn_SessionData) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Primary entity for session data
 

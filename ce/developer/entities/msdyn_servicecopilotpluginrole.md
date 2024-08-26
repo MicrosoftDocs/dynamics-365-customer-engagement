@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Service Copilot Plugin Role (msdyn_servicecopilotpluginrole) table/entity reference
+# Service Copilot Plugin Role (msdyn_servicecopilotpluginrole) table/entity reference (Microsoft Dynamics 365)
 
 
 

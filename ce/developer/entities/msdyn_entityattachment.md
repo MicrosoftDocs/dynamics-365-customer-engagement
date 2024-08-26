@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entity Attachment (msdyn_entityattachment) table/entity reference
+# Entity Attachment (msdyn_entityattachment) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Tax Code (msdyn_taxcode) table/entity reference
+# Tax Code (msdyn_taxcode) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Store tax related information. Each tax code could contain multiple child tax codes, and in that case the tax rate will be determined by the total tax of all children.
 

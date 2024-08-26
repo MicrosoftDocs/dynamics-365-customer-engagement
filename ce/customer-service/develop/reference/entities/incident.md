@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Case (Incident) table/entity reference
+# Case (Incident) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Service request case associated with a contract.
 

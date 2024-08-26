@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Deal manager settings (msdyn_dealmanagersettings) table/entity reference
+# Deal manager settings (msdyn_dealmanagersettings) table/entity reference (Microsoft Dynamics 365)
 
 Deal manager settings
 

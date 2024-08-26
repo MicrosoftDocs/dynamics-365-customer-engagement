@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Trigger (msdynmkt_eventmetadata) table/entity reference
+# Trigger (msdynmkt_eventmetadata) table/entity reference (Microsoft Dynamics 365)
 
 Metadata for Cxp Events
 

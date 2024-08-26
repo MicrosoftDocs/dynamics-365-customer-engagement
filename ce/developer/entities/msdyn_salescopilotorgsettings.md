@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Org level settings for Sales Copilot apps (msdyn_salescopilotorgsettings) table/entity reference
+# Org level settings for Sales Copilot apps (msdyn_salescopilotorgsettings) table/entity reference (Microsoft Dynamics 365)
 
 Org level settings for Sales Copilot apps
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Channel Definition (msdyn_ChannelDefinition) table/entity reference
+# Channel Definition (msdyn_ChannelDefinition) table/entity reference (Microsoft Dynamics 365)
 
 Stores details about a channel definition.
 

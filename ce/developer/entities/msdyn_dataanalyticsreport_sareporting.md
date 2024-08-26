@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sales acceleration reports (msdyn_dataanalyticsreport_sareporting) table/entity reference
+# Sales acceleration reports (msdyn_dataanalyticsreport_sareporting) table/entity reference (Microsoft Dynamics 365)
 
 Sales acceleration reports
 

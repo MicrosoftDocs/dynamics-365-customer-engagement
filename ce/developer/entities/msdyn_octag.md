@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Tag (msdyn_octag) table/entity reference
+# Tag (msdyn_octag) table/entity reference (Microsoft Dynamics 365)
 
 Tags for quick categorization
 

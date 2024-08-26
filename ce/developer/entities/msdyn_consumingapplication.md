@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Consuming Application (msdyn_ConsumingApplication) table/entity reference
+# Consuming Application (msdyn_ConsumingApplication) table/entity reference (Microsoft Dynamics 365)
 
 Consuming Application that use Unified Channel
 

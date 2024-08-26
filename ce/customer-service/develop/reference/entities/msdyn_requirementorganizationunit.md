@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Requirement Organization Unit (msdyn_requirementorganizationunit) table/entity reference
+# Requirement Organization Unit (msdyn_requirementorganizationunit) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Requirement of Organization Unit
 

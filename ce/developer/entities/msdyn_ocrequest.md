@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Omnichannel Request (msdyn_ocrequest) table/entity reference
+# Omnichannel Request (msdyn_ocrequest) table/entity reference (Microsoft Dynamics 365)
 
 Entity to store Requests across Omnichannel.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# General styles (msdyncrm_generalstyles) table/entity reference
+# General styles (msdyncrm_generalstyles) table/entity reference (Microsoft Dynamics 365)
 
 
 

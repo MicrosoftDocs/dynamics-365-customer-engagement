@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Localization (msdyn_oclocalizationdata) table/entity reference
+# Localization (msdyn_oclocalizationdata) table/entity reference (Microsoft Dynamics 365)
 
 Entity used for data localization on CRM org.
 

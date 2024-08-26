@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Time Entry (msdyn_timeentry) table/entity reference
+# Time Entry (msdyn_timeentry) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Entity used for time entry.
 

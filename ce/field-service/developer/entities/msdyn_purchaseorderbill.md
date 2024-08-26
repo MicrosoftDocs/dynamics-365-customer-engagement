@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Purchase Order Bill (msdyn_purchaseorderbill) table/entity reference
+# Purchase Order Bill (msdyn_purchaseorderbill) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify purchase order bill.
 

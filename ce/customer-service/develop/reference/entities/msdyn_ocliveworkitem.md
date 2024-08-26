@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation (msdyn_ocliveworkitem) table/entity reference
+# Conversation (msdyn_ocliveworkitem) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Tracks the interaction between the agents and customer
 

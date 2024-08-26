@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Requirement Dependency (msdyn_requirementdependency) table/entity reference
+# Requirement Dependency (msdyn_requirementdependency) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

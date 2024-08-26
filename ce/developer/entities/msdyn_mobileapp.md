@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Mobile App (msdyn_mobileapp) table/entity reference
+# Mobile App (msdyn_mobileapp) table/entity reference (Microsoft Dynamics 365)
 
 Mobile App
 

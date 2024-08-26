@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Alert to Case Process (msdyn_iottocaseprocess) table/entity reference
+# IoT Alert to Case Process (msdyn_iottocaseprocess) table/entity reference (Microsoft Dynamics 365)
 
 Base entity for process IoT to Case Process
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Quote Booking Service (msdyn_quotebookingservice) table/entity reference
+# Quote Booking Service (msdyn_quotebookingservice) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Stores details about the services associated with Quote Booking Setup
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Channel api method mapping (msdyn_occhannelapimethodmapping) table/entity reference
+# Channel api method mapping (msdyn_occhannelapimethodmapping) table/entity reference (Microsoft Dynamics 365)
 
 OC channel api method mapping entity.
 

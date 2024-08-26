@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Voice file response (msfp_fileresponse) table/entity reference
+# Customer Voice file response (msfp_fileresponse) table/entity reference (Microsoft Dynamics 365)
 
 Response to a file upload question.
 

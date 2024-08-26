@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Vibes channel instance (msdynmkt_vibeschannelinstance) table/entity reference
+# Vibes channel instance (msdynmkt_vibeschannelinstance) table/entity reference (Microsoft Dynamics 365)
 
 
 

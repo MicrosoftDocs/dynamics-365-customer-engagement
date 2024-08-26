@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Lead table/entity reference
+# Lead table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.
 

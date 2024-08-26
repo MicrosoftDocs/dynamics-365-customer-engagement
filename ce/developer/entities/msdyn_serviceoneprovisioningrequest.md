@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sales provisioning request (msdyn_serviceoneprovisioningrequest) table/entity reference
+# Sales provisioning request (msdyn_serviceoneprovisioningrequest) table/entity reference (Microsoft Dynamics 365)
 
 
 

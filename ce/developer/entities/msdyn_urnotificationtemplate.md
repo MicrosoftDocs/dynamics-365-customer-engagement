@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# UR notification template (msdyn_urnotificationtemplate) table/entity reference
+# UR notification template (msdyn_urnotificationtemplate) table/entity reference (Microsoft Dynamics 365)
 
 The entity stores all the templates used for UR notification.
 

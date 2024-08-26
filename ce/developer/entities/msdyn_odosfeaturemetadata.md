@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# ODOSFeatureMetadata (msdyn_odosfeaturemetadata) table/entity reference
+# ODOSFeatureMetadata (msdyn_odosfeaturemetadata) table/entity reference (Microsoft Dynamics 365)
 
 
 

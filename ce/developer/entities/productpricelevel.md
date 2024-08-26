@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Price List Item (ProductPriceLevel) table/entity reference
+# Price List Item (ProductPriceLevel) table/entity reference (Microsoft Dynamics 365)
 
 Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.
 

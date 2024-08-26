@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Routing diagnostic (msdyn_unifiedroutingrun) table/entity reference
+# Routing diagnostic (msdyn_unifiedroutingrun) table/entity reference (Microsoft Dynamics 365)
 
 
 

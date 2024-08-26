@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Property Option Set Item (DynamicPropertyOptionSetItem) table/entity reference
+# Property Option Set Item (DynamicPropertyOptionSetItem) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Item with a name and value in a property option set type.
 

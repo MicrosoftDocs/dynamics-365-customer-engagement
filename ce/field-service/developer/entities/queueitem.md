@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Queue Item (QueueItem) table/entity reference
+# Queue Item (QueueItem) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 A specific item in a queue, such as a case record or an activity record.
 

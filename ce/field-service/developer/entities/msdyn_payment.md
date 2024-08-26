@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Payment (msdyn_payment) table/entity reference
+# Payment (msdyn_payment) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify payment.
 

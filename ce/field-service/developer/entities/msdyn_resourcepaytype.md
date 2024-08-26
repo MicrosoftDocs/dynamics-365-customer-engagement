@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Resource Pay Type (msdyn_resourcepaytype) table/entity reference
+# Resource Pay Type (msdyn_resourcepaytype) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Pay Types of resources hourly rate to calculate the resource cost
 

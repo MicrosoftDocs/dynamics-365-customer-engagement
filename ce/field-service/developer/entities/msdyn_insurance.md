@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Insurance (msdyn_insurance) table/entity reference
+# Insurance (msdyn_insurance) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Captures the insurance info.
 

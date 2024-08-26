@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# AI Model (msdyn_AIModel) table/entity reference
+# AI Model (msdyn_AIModel) table/entity reference (Microsoft Dynamics 365)
 
 
 

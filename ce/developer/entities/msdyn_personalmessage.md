@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Personal quick reply (msdyn_personalmessage) table/entity reference
+# Personal quick reply (msdyn_personalmessage) table/entity reference (Microsoft Dynamics 365)
 
 Omnichannel agents's personal quick replies
 

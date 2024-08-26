@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Resource Restriction (Deprecated) (msdyn_workorderresourcerestriction) table/entity reference
+# Resource Restriction (Deprecated) (msdyn_workorderresourcerestriction) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 This entity is deprecated.
 

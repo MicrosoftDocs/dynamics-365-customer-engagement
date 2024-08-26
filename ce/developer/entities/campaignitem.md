@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Campaign Item (CampaignItem) table/entity reference
+# Campaign Item (CampaignItem) table/entity reference (Microsoft Dynamics 365)
 
 Work item in a campaign, a list or sales literature.
 

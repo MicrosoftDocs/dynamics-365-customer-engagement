@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# New Process (NewProcess) table/entity reference
+# New Process (NewProcess) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 New Process Business Process Flow
 

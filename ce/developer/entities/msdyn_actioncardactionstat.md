@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Action Card Usage (msdyn_actioncardactionstat) table/entity reference
+# Action Card Usage (msdyn_actioncardactionstat) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Inspection Response (msdyn_inspectionresponse) table/entity reference
+# Inspection Response (msdyn_inspectionresponse) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Entity used to save the responses of the Inspection.
 

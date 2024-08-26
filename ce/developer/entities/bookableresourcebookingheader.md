@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bookable Resource Booking Header (BookableResourceBookingHeader) table/entity reference
+# Bookable Resource Booking Header (BookableResourceBookingHeader) table/entity reference (Microsoft Dynamics 365)
 
 Reservation entity representing the summary of the associated resource bookings.
 

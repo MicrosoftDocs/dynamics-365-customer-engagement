@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Metadata Item (msdynmkt_metadataitem) table/entity reference
+# Metadata Item (msdynmkt_metadataitem) table/entity reference (Microsoft Dynamics 365)
 
 
 

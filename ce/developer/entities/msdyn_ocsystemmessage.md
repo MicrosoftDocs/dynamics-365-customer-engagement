@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Message (msdyn_ocsystemmessage) table/entity reference
+# Message (msdyn_ocsystemmessage) table/entity reference (Microsoft Dynamics 365)
 
 Stores the system messages sent to the message receiver for various events.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Resource Requirement Detail (msdyn_resourcerequirementdetail) table/entity reference
+# Resource Requirement Detail (msdyn_resourcerequirementdetail) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Resource Requirement Time Detail
 

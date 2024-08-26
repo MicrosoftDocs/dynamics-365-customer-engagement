@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Summary Interaction (msdyn_conversationsummaryinteraction) table/entity reference
+# Conversation Summary Interaction (msdyn_conversationsummaryinteraction) table/entity reference (Microsoft Dynamics 365)
 
 Conversation Summary Interaction Entity
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Smartassist configuration (msdyn_smartassistconfig) table/entity reference
+# Smartassist configuration (msdyn_smartassistconfig) table/entity reference (Microsoft Dynamics 365)
 
 Stores Smartassist configurations
 

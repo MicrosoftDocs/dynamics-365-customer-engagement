@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Connection Instance (ConnectionInstance) table/entity reference
+# Connection Instance (ConnectionInstance) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

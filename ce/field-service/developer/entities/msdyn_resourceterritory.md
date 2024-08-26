@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Resource Territory (msdyn_resourceterritory) table/entity reference
+# Resource Territory (msdyn_resourceterritory) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Allows to specify for which territory a resource could provide services for
 

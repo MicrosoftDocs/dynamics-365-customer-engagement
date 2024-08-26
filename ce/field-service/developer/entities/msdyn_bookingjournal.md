@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Booking Journal (msdyn_bookingjournal) table/entity reference
+# Booking Journal (msdyn_bookingjournal) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 System generated journal to calculate the cost of the resource bookings
 

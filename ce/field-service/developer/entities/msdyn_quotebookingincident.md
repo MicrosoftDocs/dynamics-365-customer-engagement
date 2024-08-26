@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Quote Booking Incident (msdyn_quotebookingincident) table/entity reference
+# Quote Booking Incident (msdyn_quotebookingincident) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Stores the Incidents associated with Quote and Quote Booking Setup
 

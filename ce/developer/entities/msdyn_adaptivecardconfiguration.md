@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Adaptive Card Configuration (msdyn_adaptivecardconfiguration) table/entity reference
+# Adaptive Card Configuration (msdyn_adaptivecardconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 Adaptive Card Configuration
 

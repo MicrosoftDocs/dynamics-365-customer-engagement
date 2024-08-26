@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Upgrade Step (msdyn_upgradestep) table/entity reference
+# Upgrade Step (msdyn_upgradestep) table/entity reference (Microsoft Dynamics 365)
 
 One step during an upgrade, such as a single method or stored procedure.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Payment Method (msdyn_paymentmethod) table/entity reference
+# Payment Method (msdyn_paymentmethod) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify payment method.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Contact suggestion ruleset (msdyn_contactsuggestionruleset) table/entity reference
+# Contact suggestion ruleset (msdyn_contactsuggestionruleset) table/entity reference (Microsoft Dynamics 365)
 
 
 

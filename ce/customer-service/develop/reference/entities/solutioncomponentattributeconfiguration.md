@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Solution Component Attribute Configuration (solutioncomponentattributeconfiguration) table/entity reference
+# Solution Component Attribute Configuration (solutioncomponentattributeconfiguration) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

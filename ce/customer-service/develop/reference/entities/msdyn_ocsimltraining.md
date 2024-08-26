@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Model training details (msdyn_ocsimltraining) table/entity reference
+# Model training details (msdyn_ocsimltraining) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Indicates model's training details
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Database Version (msdyn_databaseversion) table/entity reference
+# Database Version (msdyn_databaseversion) table/entity reference (Microsoft Dynamics 365)
 
 Stores the latest database version for a solution, for internal use only.
 

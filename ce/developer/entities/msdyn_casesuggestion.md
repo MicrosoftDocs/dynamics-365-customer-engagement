@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Case Suggestion (msdyn_casesuggestion) table/entity reference
+# Case Suggestion (msdyn_casesuggestion) table/entity reference (Microsoft Dynamics 365)
 
 
 

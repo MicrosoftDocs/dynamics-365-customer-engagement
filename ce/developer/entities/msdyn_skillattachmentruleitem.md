@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Skill Attachment Rule (msdyn_skillattachmentruleitem) table/entity reference
+# Skill Attachment Rule (msdyn_skillattachmentruleitem) table/entity reference (Microsoft Dynamics 365)
 
 
 

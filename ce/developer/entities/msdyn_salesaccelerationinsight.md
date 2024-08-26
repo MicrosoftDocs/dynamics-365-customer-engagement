@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sales acceleration insights (msdyn_salesaccelerationinsight) table/entity reference
+# Sales acceleration insights (msdyn_salesaccelerationinsight) table/entity reference (Microsoft Dynamics 365)
 
 Sales acceleration insights
 

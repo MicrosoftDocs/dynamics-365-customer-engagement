@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bookable Resource Characteristic (BookableResourceCharacteristic) table/entity reference
+# Bookable Resource Characteristic (BookableResourceCharacteristic) table/entity reference (Microsoft Dynamics 365)
 
 Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.
 

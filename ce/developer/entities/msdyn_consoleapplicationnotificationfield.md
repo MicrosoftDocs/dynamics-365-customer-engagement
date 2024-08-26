@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Notification Field (Deprecated) (msdyn_consoleapplicationnotificationfield) table/entity reference
+# Notification Field (Deprecated) (msdyn_consoleapplicationnotificationfield) table/entity reference (Microsoft Dynamics 365)
 
 Defines a field (key, templateValue) that needs to be populated in the notification body.
 

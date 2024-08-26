@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Forecast recurrence (msdyn_forecastrecurrence) table/entity reference
+# Forecast recurrence (msdyn_forecastrecurrence) table/entity reference (Microsoft Dynamics 365)
 
 Stores recalculation information for each recurrence of the forecast hierarchy. For internal use.
 

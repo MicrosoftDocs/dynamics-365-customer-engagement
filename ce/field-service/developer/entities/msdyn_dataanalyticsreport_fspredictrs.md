@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Resource duration (preview) (msdyn_dataanalyticsreport_fspredictrs) table/entity reference
+# Resource duration (preview) (msdyn_dataanalyticsreport_fspredictrs) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Resource duration (preview)
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Unique Number (msdyn_uniquenumber) table/entity reference
+# Unique Number (msdyn_uniquenumber) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Internal entity used to store unique number.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Case follow up and closure configuration (msdyn_casefollowupandclosureconfiguration) table/entity reference
+# Case follow up and closure configuration (msdyn_casefollowupandclosureconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Relationship Analytics Config (msdyn_activityanalysisconfig) table/entity reference
+# Relationship Analytics Config (msdyn_activityanalysisconfig) table/entity reference (Microsoft Dynamics 365)
 
 
 

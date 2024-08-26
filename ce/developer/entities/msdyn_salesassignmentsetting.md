@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sales Assignment Setting (msdyn_salesassignmentsetting) table/entity reference
+# Sales Assignment Setting (msdyn_salesassignmentsetting) table/entity reference (Microsoft Dynamics 365)
 
 
 

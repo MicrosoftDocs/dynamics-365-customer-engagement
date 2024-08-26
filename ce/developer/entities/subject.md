@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Subject table/entity reference
+# Subject table/entity reference (Microsoft Dynamics 365)
 
 Information regarding subjects available in the system.
 

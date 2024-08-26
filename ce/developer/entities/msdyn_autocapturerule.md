@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Auto Capture Rule (msdyn_autocapturerule) table/entity reference
+# Auto Capture Rule (msdyn_autocapturerule) table/entity reference (Microsoft Dynamics 365)
 
 Auto Capture Rules
 

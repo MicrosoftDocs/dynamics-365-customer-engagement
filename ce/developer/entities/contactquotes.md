@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# ContactQuotes table/entity reference
+# ContactQuotes table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work Order Substatus (msdyn_workordersubstatus) table/entity reference
+# Work Order Substatus (msdyn_workordersubstatus) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify custom work order substatuses, which can be used to specify the current work order status more precisely.
 

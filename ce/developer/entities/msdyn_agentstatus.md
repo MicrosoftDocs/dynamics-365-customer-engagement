@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agent Status (msdyn_agentstatus) table/entity reference
+# Agent Status (msdyn_agentstatus) table/entity reference (Microsoft Dynamics 365)
 
 Agent Status holds agent’s status or presence details.
 

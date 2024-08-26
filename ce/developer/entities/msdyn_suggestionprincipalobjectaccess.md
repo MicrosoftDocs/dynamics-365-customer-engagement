@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Suggestion Principal Object Access (msdyn_suggestionprincipalobjectaccess) table/entity reference
+# Suggestion Principal Object Access (msdyn_suggestionprincipalobjectaccess) table/entity reference (Microsoft Dynamics 365)
 
 
 

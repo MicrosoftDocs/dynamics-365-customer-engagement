@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Real Time Scoring Operation (msdyn_realtimescoringoperation) table/entity reference
+# Real Time Scoring Operation (msdyn_realtimescoringoperation) table/entity reference (Microsoft Dynamics 365)
 
 Stores metadata for real time scoring job.
 

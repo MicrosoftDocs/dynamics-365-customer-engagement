@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdynmkt_experimentv2 table/entity reference
+# msdynmkt_experimentv2 table/entity reference (Microsoft Dynamics 365)
 
 
 

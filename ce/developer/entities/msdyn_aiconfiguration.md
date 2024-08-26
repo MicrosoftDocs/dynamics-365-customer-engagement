@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# AI Configuration (msdyn_AIConfiguration) table/entity reference
+# AI Configuration (msdyn_AIConfiguration) table/entity reference (Microsoft Dynamics 365)
 
 
 

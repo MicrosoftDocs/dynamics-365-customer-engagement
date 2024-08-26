@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Pane tool configuration (msdyn_panetoolconfiguration) table/entity reference
+# Pane tool configuration (msdyn_panetoolconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 
 

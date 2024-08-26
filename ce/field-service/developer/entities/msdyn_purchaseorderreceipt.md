@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Purchase Order Receipt (msdyn_purchaseorderreceipt) table/entity reference
+# Purchase Order Receipt (msdyn_purchaseorderreceipt) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify purchase order receipt.
 

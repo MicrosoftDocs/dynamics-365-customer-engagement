@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work Order Service (msdyn_workorderservice) table/entity reference
+# Work Order Service (msdyn_workorderservice) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Record all services proposed and performed for work order
 

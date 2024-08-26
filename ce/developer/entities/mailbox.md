@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Mailbox table/entity reference
+# Mailbox table/entity reference (Microsoft Dynamics 365)
 
 
 

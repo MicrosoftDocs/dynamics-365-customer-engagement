@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# ContactInvoices table/entity reference
+# ContactInvoices table/entity reference (Microsoft Dynamics 365)
 
 
 

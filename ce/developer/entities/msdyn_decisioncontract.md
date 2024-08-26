@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Decision contract (msdyn_decisioncontract) table/entity reference
+# Decision contract (msdyn_decisioncontract) table/entity reference (Microsoft Dynamics 365)
 
 Stores information about contract that will be required for ruleset definition
 

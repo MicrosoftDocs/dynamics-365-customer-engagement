@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Copilot (bot) table/entity reference
+# Copilot (bot) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Represents a copilot created in Copilot Studio. https://copilotstudio.microsoft.com/
 

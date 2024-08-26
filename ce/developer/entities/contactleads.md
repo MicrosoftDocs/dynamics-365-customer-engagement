@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# ContactLeads table/entity reference
+# ContactLeads table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Device Data History (msdyn_iotdevicedatahistory) table/entity reference
+# IoT Device Data History (msdyn_iotdevicedatahistory) table/entity reference (Microsoft Dynamics 365)
 
 The name of the entity that holds the device data every time a device data pull occurs between Dynamics 365 and an IoT provider
 

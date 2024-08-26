@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sentiment daily topic trending (msdyn_ocsentimentdailytopictrending) table/entity reference
+# Sentiment daily topic trending (msdyn_ocsentimentdailytopictrending) table/entity reference (Microsoft Dynamics 365)
 
 1. Store the day to day topic mapping information
 2. Used for dashboard visualization

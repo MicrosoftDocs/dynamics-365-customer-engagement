@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Opportunity KPI Item (msdyn_opportunitykpiitem) table/entity reference
+# Opportunity KPI Item (msdyn_opportunitykpiitem) table/entity reference (Microsoft Dynamics 365)
 
 
 

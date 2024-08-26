@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Data Analytics User Customized Report (msdyn_dataanalyticscustomizedreport) table/entity reference
+# Data Analytics User Customized Report (msdyn_dataanalyticscustomizedreport) table/entity reference (Microsoft Dynamics 365)
 
 Data Analytics User Customized Report
 

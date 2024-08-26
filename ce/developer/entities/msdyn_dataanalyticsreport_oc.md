@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Omnichannel historical analytics (msdyn_dataanalyticsreport_oc) table/entity reference
+# Omnichannel historical analytics (msdyn_dataanalyticsreport_oc) table/entity reference (Microsoft Dynamics 365)
 
 Omnichannel historical analytics
 

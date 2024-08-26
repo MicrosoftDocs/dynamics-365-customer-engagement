@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Requirement Resource Category (msdyn_requirementresourcecategory) table/entity reference
+# Requirement Resource Category (msdyn_requirementresourcecategory) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Requirement Resource Category
 

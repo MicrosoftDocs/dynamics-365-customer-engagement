@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Forecast definition (msdyn_forecastdefinition) table/entity reference
+# Forecast definition (msdyn_forecastdefinition) table/entity reference (Microsoft Dynamics 365)
 
 Defines the parameters used for forecasting.
 

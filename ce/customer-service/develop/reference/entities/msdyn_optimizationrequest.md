@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Optimization Request (msdyn_OptimizationRequest) table/entity reference
+# Optimization Request (msdyn_OptimizationRequest) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

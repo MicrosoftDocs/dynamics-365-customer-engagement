@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Parameter definition (msdyn_productivityparameterdefinition) table/entity reference
+# Parameter definition (msdyn_productivityparameterdefinition) table/entity reference (Microsoft Dynamics 365)
 
 Macro parameter definitions
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Custom Publisher (msdyn_SciCustomPublisher) table/entity reference
+# Custom Publisher (msdyn_SciCustomPublisher) table/entity reference (Microsoft Dynamics 365)
 
 The publisher of the conversation highlight
 

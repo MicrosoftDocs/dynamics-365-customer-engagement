@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Aggregated Insights (msdyn_ConversationAggregatedInsights) table/entity reference
+# Conversation Aggregated Insights (msdyn_ConversationAggregatedInsights) table/entity reference (Microsoft Dynamics 365)
 
 
 

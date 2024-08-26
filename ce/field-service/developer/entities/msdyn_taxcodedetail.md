@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Tax Code Detail (msdyn_taxcodedetail) table/entity reference
+# Tax Code Detail (msdyn_taxcodedetail) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 In this entity you can link multiple tax codes together to form a group of tax codes to be charged for the customer to form the total tax.
 

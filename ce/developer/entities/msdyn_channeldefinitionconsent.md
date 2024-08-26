@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Channel Definition Consent (msdyn_channeldefinitionconsent) table/entity reference
+# Channel Definition Consent (msdyn_channeldefinitionconsent) table/entity reference (Microsoft Dynamics 365)
 
 
 

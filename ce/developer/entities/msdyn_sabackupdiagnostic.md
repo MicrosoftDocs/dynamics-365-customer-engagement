@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# sabackupdiagnostic (msdyn_sabackupdiagnostic) table/entity reference
+# sabackupdiagnostic (msdyn_sabackupdiagnostic) table/entity reference (Microsoft Dynamics 365)
 
 
 

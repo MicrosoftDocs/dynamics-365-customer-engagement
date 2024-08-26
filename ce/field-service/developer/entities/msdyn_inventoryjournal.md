@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Inventory Journal (msdyn_inventoryjournal) table/entity reference
+# Inventory Journal (msdyn_inventoryjournal) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Inventory change tracking
 

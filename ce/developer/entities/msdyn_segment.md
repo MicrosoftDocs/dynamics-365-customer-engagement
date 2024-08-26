@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Segment (msdyn_segment) table/entity reference
+# Segment (msdyn_segment) table/entity reference (Microsoft Dynamics 365)
 
 
 

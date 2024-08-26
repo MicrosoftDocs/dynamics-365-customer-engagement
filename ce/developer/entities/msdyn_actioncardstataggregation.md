@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Action Card Usage Aggregation (msdyn_actioncardstataggregation) table/entity reference
+# Action Card Usage Aggregation (msdyn_actioncardstataggregation) table/entity reference (Microsoft Dynamics 365)
 
 
 

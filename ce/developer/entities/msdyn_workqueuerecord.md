@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work Queue Record (msdyn_workqueuerecord) table/entity reference
+# Work Queue Record (msdyn_workqueuerecord) table/entity reference (Microsoft Dynamics 365)
 
 Entity created to store WorkQueue Data Model Records
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Mailbox Auto Tracking Folder (MailboxTrackingFolder) table/entity reference
+# Mailbox Auto Tracking Folder (MailboxTrackingFolder) table/entity reference (Microsoft Dynamics 365)
 
 Stores data about what folders for a mailbox are auto tracked
 

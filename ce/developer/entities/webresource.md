@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Web Resource (WebResource) table/entity reference
+# Web Resource (WebResource) table/entity reference (Microsoft Dynamics 365)
 
 Data equivalent to files used in Web development. Web resources provide client-side components that are used to provide custom user interface elements.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Suggestions Model Summary (msdyn_suggestionsmodelsummary) table/entity reference
+# Suggestions Model Summary (msdyn_suggestionsmodelsummary) table/entity reference (Microsoft Dynamics 365)
 
 Suggestions Model Summary entity
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Insights (msdyn_datainsightsandanalyticsfeature) table/entity reference
+# Insights (msdyn_datainsightsandanalyticsfeature) table/entity reference (Microsoft Dynamics 365)
 
 Analytics and insights feature entity
 

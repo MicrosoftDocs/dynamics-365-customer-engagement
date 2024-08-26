@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# User (SystemUser) table/entity reference
+# User (SystemUser) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Characteristic (msdyn_ocliveworkitemcharacteristic) table/entity reference
+# Conversation Characteristic (msdyn_ocliveworkitemcharacteristic) table/entity reference (Microsoft Dynamics 365)
 
 Characteristic associated to Omnichannel conversation
 

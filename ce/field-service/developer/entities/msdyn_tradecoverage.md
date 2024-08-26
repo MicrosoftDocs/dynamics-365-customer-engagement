@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Trade Coverage (msdyn_tradecoverage) table/entity reference
+# Trade Coverage (msdyn_tradecoverage) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Used to describe which trades are relevant for account and locations.
 

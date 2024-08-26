@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Swarm participant (msdyn_swarmparticipant) table/entity reference
+# Swarm participant (msdyn_swarmparticipant) table/entity reference (Microsoft Dynamics 365)
 
 Stores the participants information of swarm
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Scheduling Parameter (msdyn_schedulingparameter) table/entity reference
+# Scheduling Parameter (msdyn_schedulingparameter) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Scheduling Parameters
 

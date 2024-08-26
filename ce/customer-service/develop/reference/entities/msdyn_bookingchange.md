@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Booking Change (msdyn_bookingchange) table/entity reference
+# Booking Change (msdyn_bookingchange) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 An internal entity used to track changes that affect the schedule board.
 

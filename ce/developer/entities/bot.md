@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Chatbot (bot) table/entity reference
+# Chatbot (bot) table/entity reference (Microsoft Dynamics 365)
 
 Represents a Power Virtual Agents Chatbot. https://powerva.microsoft.com/
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entitlement Template Channel (EntitlementTemplateChannel) table/entity reference
+# Entitlement Template Channel (EntitlementTemplateChannel) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Contains predefined support terms for a channel to create entitlements for customers.
 

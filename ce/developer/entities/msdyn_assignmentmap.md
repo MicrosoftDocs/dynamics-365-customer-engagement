@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Assignment Map (msdyn_assignmentmap) table/entity reference
+# Assignment Map (msdyn_assignmentmap) table/entity reference (Microsoft Dynamics 365)
 
 
 

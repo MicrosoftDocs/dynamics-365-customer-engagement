@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Signal (msdyn_ConversationSignal) table/entity reference
+# Conversation Signal (msdyn_ConversationSignal) table/entity reference (Microsoft Dynamics 365)
 
 
 

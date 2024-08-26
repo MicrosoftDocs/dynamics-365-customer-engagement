@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agreement Booking Setup (msdyn_agreementbookingsetup) table/entity reference
+# Agreement Booking Setup (msdyn_agreementbookingsetup) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify the maintenance bookings for the agreement.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# KPI Event Definition (msdyn_KPIEventDefinition) table/entity reference
+# KPI Event Definition (msdyn_KPIEventDefinition) table/entity reference (Microsoft Dynamics 365)
 
 Primary entity for defining a KPI event
 

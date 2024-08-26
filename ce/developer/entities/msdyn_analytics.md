@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Power BI Configuration (msdyn_analytics) table/entity reference
+# Power BI Configuration (msdyn_analytics) table/entity reference (Microsoft Dynamics 365)
 
 Stores the Power BI configurations for supervisor experience
 

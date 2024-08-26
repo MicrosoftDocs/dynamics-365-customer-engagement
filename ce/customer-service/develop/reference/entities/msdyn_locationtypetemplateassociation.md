@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Functional Location Type Template Association (msdyn_locationtypetemplateassociation) table/entity reference
+# Functional Location Type Template Association (msdyn_locationtypetemplateassociation) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

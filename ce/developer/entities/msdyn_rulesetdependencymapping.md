@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Rulesetentitymapping (msdyn_rulesetdependencymapping) table/entity reference
+# Rulesetentitymapping (msdyn_rulesetdependencymapping) table/entity reference (Microsoft Dynamics 365)
 
 For internal use only entity used to store an implicit mapping between a ruleset and polymorphic entity
 

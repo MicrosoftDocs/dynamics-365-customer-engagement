@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Forecast (msdyn_forecast) table/entity reference
+# Forecast (msdyn_forecast) table/entity reference (Microsoft Dynamics 365)
 
 Forecast
 

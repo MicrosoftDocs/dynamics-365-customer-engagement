@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Opportunity Line (OpportunityProduct) table/entity reference
+# Opportunity Line (OpportunityProduct) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Association between an opportunity and a product.
 

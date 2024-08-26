@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Requirement Change (msdyn_requirementchange) table/entity reference
+# Requirement Change (msdyn_requirementchange) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Article (KbArticle) table/entity reference
+# Article (KbArticle) table/entity reference (Microsoft Dynamics 365)
 
 Structured content that is part of the knowledge base.
 

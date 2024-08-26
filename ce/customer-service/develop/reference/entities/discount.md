@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Discount table/entity reference
+# Discount table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Price reduction made from the list price of a product or service based on the quantity purchased.
 

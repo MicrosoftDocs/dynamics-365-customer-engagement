@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Omnichannel Configuration (msdyn_omnichannelconfiguration) table/entity reference
+# Omnichannel Configuration (msdyn_omnichannelconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 Configuration for Omnichannel
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agent Status history (msdyn_agentstatushistory) table/entity reference
+# Agent Status history (msdyn_agentstatushistory) table/entity reference (Microsoft Dynamics 365)
 
 Agent status history entity records any changes to agent’s presence or available capacity.
 

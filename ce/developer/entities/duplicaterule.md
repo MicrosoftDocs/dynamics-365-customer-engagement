@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Duplicate Detection Rule (DuplicateRule) table/entity reference
+# Duplicate Detection Rule (DuplicateRule) table/entity reference (Microsoft Dynamics 365)
 
 Rule used to identify potential duplicates.
 

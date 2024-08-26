@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_msdyn_ocrichobject_msdyn_octag table/entity reference
+# msdyn_msdyn_ocrichobject_msdyn_octag table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Warranty (msdyn_Warranty) table/entity reference
+# Warranty (msdyn_Warranty) table/entity reference (Microsoft Dynamics 365)
 
 
 

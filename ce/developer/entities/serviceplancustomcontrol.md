@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Service Plan Custom Control (ServicePlanCustomControl) table/entity reference
+# Service Plan Custom Control (ServicePlanCustomControl) table/entity reference (Microsoft Dynamics 365)
 
 Service Plan Custom Controls
 

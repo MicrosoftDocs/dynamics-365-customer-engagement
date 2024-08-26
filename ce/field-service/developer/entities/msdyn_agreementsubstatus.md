@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agreement Substatus (msdyn_agreementsubstatus) table/entity reference
+# Agreement Substatus (msdyn_agreementsubstatus) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify custom agreement substatuses, which can be used to specify the current agreement status more precisely.
 

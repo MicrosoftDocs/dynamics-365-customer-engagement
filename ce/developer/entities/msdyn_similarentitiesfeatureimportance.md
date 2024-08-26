@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Similar entities feature importance (msdyn_similarentitiesfeatureimportance) table/entity reference
+# Similar entities feature importance (msdyn_similarentitiesfeatureimportance) table/entity reference (Microsoft Dynamics 365)
 
 
 

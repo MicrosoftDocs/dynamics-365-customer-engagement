@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agreement Booking Service (msdyn_agreementbookingservice) table/entity reference
+# Agreement Booking Service (msdyn_agreementbookingservice) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify the booking service for the agreement.
 

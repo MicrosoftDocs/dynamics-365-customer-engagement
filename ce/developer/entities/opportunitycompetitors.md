@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# OpportunityCompetitors table/entity reference
+# OpportunityCompetitors table/entity reference (Microsoft Dynamics 365)
 
 
 

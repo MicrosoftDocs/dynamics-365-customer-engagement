@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Process Stage (ProcessStage) table/entity reference
+# Process Stage (ProcessStage) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Stage associated with a process.
 

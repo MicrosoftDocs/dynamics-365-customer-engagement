@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation topic Conversation mapping (msdyn_conversationtopic_conversation) table/entity reference
+# Conversation topic Conversation mapping (msdyn_conversationtopic_conversation) table/entity reference (Microsoft Dynamics 365)
 
 Conversation mapping with conversation topics
 

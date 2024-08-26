@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Plug-in Type (PluginType) table/entity reference
+# Plug-in Type (PluginType) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Type that inherits from the IPlugin interface and is contained within a plug-in assembly.
 

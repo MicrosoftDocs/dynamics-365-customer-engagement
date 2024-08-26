@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entity Routing Context (msdyn_cdsentityengagementctx) table/entity reference
+# Entity Routing Context (msdyn_cdsentityengagementctx) table/entity reference (Microsoft Dynamics 365)
 
 Entity Routing Contexts
 

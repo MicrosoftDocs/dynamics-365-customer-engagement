@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Originating Queue Mapping (msdyn_originatingqueue) table/entity reference
+# Originating Queue Mapping (msdyn_originatingqueue) table/entity reference (Microsoft Dynamics 365)
 
 This entity maps entities created by ARC to the queue that was being procesed at that time
 

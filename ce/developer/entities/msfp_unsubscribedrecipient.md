@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Voice unsubscribed recipient (msfp_unsubscribedrecipient) table/entity reference
+# Customer Voice unsubscribed recipient (msfp_unsubscribedrecipient) table/entity reference (Microsoft Dynamics 365)
 
 Email address of an unsubscribed respondent.
 

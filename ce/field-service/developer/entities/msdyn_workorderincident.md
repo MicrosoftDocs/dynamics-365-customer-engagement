@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work Order Incident (msdyn_workorderincident) table/entity reference
+# Work Order Incident (msdyn_workorderincident) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify work order incidents reported to you by the client. These are also referred to as problem codes.
 

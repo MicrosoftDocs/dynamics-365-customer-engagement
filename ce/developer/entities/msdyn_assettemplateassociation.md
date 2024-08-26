@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Asset Template Association (msdyn_assettemplateassociation) table/entity reference
+# Asset Template Association (msdyn_assettemplateassociation) table/entity reference (Microsoft Dynamics 365)
 
 
 

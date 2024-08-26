@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Wall View (msdyn_wallsavedquery) table/entity reference
+# Wall View (msdyn_wallsavedquery) table/entity reference (Microsoft Dynamics 365)
 
 Contains information regarding which views are available for users to display on their personal walls. Only an administrator can specify the views that users can choose from to display on their personal walls.
 

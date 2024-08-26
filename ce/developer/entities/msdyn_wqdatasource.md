@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# WQDataSource (msdyn_wqdatasource) table/entity reference
+# WQDataSource (msdyn_wqdatasource) table/entity reference (Microsoft Dynamics 365)
 
 
 

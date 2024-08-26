@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Quote Booking Service Task (msdyn_quotebookingservicetask) table/entity reference
+# Quote Booking Service Task (msdyn_quotebookingservicetask) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

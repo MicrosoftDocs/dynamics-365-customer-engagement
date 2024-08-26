@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entity (msdyn_entityroutingconfiguration) table/entity reference
+# Entity (msdyn_entityroutingconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 Entity Routing Configuration
 

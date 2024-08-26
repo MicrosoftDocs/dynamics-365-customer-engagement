@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# UR Notification Template Mapping (msdyn_urnotificationtemplatemapping) table/entity reference
+# UR Notification Template Mapping (msdyn_urnotificationtemplatemapping) table/entity reference (Microsoft Dynamics 365)
 
 This entity stores the mapping for notification template and workstream.
 

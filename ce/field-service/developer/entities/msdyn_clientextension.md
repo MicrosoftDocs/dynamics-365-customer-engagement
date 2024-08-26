@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Client Extension (msdyn_clientextension) table/entity reference
+# Client Extension (msdyn_clientextension) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

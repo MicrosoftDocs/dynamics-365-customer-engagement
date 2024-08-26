@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Data Map (ImportMap) table/entity reference
+# Data Map (ImportMap) table/entity reference (Microsoft Dynamics 365)
 
 Data map used in import.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Operating Hour (msdyn_operatinghour) table/entity reference
+# Operating Hour (msdyn_operatinghour) table/entity reference (Microsoft Dynamics 365)
 
 Stores all the operating hours that are configured for an organization.
 

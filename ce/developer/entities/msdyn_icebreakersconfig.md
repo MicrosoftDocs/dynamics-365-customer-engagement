@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# icebreakersconfig (msdyn_icebreakersconfig) table/entity reference
+# icebreakersconfig (msdyn_icebreakersconfig) table/entity reference (Microsoft Dynamics 365)
 
 
 

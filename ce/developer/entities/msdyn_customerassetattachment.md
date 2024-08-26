@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Asset Attachment (msdyn_customerassetattachment) table/entity reference
+# Customer Asset Attachment (msdyn_customerassetattachment) table/entity reference (Microsoft Dynamics 365)
 
 Attachments for Customer Asset
 

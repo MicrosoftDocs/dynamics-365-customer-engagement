@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Action Input Parameter (msdyn_productivityactioninputparameter) table/entity reference
+# Action Input Parameter (msdyn_productivityactioninputparameter) table/entity reference (Microsoft Dynamics 365)
 
 Attributes of action input parameters
 

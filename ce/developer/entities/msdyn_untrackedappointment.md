@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# UntrackedAppointment (msdyn_untrackedappointment) table/entity reference
+# UntrackedAppointment (msdyn_untrackedappointment) table/entity reference (Microsoft Dynamics 365)
 
 UntrackedAppointments
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Knowledge Article Template (msdyn_knowledgearticletemplate) table/entity reference
+# Knowledge Article Template (msdyn_knowledgearticletemplate) table/entity reference (Microsoft Dynamics 365)
 
 Organizational Knowledge Article Template for Internal and external creation of Knowledge Articles.
 

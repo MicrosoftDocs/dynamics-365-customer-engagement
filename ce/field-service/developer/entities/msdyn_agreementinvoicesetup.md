@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agreement Invoice Setup (msdyn_agreementinvoicesetup) table/entity reference
+# Agreement Invoice Setup (msdyn_agreementinvoicesetup) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify the invoices for this agreement.
 

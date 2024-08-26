@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Device Registration History (msdyn_iotdeviceregistrationhistory) table/entity reference
+# IoT Device Registration History (msdyn_iotdeviceregistrationhistory) table/entity reference (Microsoft Dynamics 365)
 
 Tracks registration activities on an IoT device.
 

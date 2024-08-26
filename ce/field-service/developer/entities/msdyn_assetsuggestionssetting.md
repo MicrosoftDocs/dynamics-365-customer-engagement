@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Asset Suggestions Setting (msdyn_assetsuggestionssetting) table/entity reference
+# Asset Suggestions Setting (msdyn_assetsuggestionssetting) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

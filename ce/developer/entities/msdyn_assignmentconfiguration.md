@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Assignment Configuration (msdyn_assignmentconfiguration) table/entity reference
+# Assignment Configuration (msdyn_assignmentconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 
 

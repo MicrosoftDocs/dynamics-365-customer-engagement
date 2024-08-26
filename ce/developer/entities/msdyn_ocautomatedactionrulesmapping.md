@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Automated action rules mapping (msdyn_ocautomatedactionrulesmapping) table/entity reference
+# Automated action rules mapping (msdyn_ocautomatedactionrulesmapping) table/entity reference (Microsoft Dynamics 365)
 
 The mapping of omnichannel automated action rules.
 

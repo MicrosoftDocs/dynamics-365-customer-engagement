@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# File Upload Status Tracker (msdyn_fileuploadstatustracker) table/entity reference
+# File Upload Status Tracker (msdyn_fileuploadstatustracker) table/entity reference (Microsoft Dynamics 365)
 
 File Upload Status Tracker
 

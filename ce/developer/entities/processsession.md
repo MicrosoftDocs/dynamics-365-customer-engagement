@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Process Session (ProcessSession) table/entity reference
+# Process Session (ProcessSession) table/entity reference (Microsoft Dynamics 365)
 
 Information that is generated when a dialog is run. Every time that you run a dialog, a dialog session is created.
 

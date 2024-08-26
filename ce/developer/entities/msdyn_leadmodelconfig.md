@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# LeadModelConfig (msdyn_leadmodelconfig) table/entity reference
+# LeadModelConfig (msdyn_leadmodelconfig) table/entity reference (Microsoft Dynamics 365)
 
 
 

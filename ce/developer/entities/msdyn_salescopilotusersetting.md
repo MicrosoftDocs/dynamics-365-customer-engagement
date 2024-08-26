@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sales Copilot User Setting (msdyn_salescopilotusersetting) table/entity reference
+# Sales Copilot User Setting (msdyn_salescopilotusersetting) table/entity reference (Microsoft Dynamics 365)
 
 
 

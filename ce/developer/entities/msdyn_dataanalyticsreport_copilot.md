@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Copilot Analytics (msdyn_dataanalyticsreport_copilot) table/entity reference
+# Copilot Analytics (msdyn_dataanalyticsreport_copilot) table/entity reference (Microsoft Dynamics 365)
 
 Case, Conversation, Email Copilot interaction analytics
 

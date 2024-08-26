@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Routing configuration step (msdyn_routingconfigurationstep) table/entity reference
+# Routing configuration step (msdyn_routingconfigurationstep) table/entity reference (Microsoft Dynamics 365)
 
 Links the routing configuration with ruleset
 

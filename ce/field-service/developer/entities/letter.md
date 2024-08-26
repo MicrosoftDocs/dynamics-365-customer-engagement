@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Letter table/entity reference
+# Letter table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.
 

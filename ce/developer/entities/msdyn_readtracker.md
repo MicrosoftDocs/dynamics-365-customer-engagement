@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Read Tracker (msdyn_readtracker) table/entity reference
+# Read Tracker (msdyn_readtracker) table/entity reference (Microsoft Dynamics 365)
 
 Keeps track of the records read by an user in the system
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Note (Annotation) table/entity reference
+# Note (Annotation) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Note that is attached to one or more objects, including other notes.
 

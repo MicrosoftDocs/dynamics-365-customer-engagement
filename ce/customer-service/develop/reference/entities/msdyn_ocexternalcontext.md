@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# External context (msdyn_ocexternalcontext) table/entity reference
+# External context (msdyn_ocexternalcontext) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

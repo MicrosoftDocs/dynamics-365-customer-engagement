@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Swarm participant rule (msdyn_swarmparticipantrule) table/entity reference
+# Swarm participant rule (msdyn_swarmparticipantrule) table/entity reference (Microsoft Dynamics 365)
 
 Rules to fetch participants based on their role
 

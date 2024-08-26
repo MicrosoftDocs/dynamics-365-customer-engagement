@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Requirement Status (msdyn_requirementstatus) table/entity reference
+# Requirement Status (msdyn_requirementstatus) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Requirement Status
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# wkwconfig (msdyn_wkwconfig) table/entity reference
+# wkwconfig (msdyn_wkwconfig) table/entity reference (Microsoft Dynamics 365)
 
 
 

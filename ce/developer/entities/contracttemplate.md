@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Contract Template (ContractTemplate) table/entity reference
+# Contract Template (ContractTemplate) table/entity reference (Microsoft Dynamics 365)
 
 Template for a contract containing the standard attributes of a contract.
 

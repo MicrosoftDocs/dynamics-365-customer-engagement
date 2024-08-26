@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Configuration (msdyn_Configuration) table/entity reference
+# Configuration (msdyn_Configuration) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 This entity is used to store queries and templates.
 

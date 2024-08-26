@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Attribute Influence Statistics (msdyn_attributeinfluencestatistics) table/entity reference
+# Attribute Influence Statistics (msdyn_attributeinfluencestatistics) table/entity reference (Microsoft Dynamics 365)
 
 
 

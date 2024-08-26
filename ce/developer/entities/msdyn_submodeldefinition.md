@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Submodel Definition (msdyn_submodeldefinition) table/entity reference
+# Submodel Definition (msdyn_submodeldefinition) table/entity reference (Microsoft Dynamics 365)
 
 Stores metadata about submodels
 

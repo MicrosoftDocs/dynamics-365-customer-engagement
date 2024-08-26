@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Lock Status (msdyn_lockstatus) table/entity reference
+# Lock Status (msdyn_lockstatus) table/entity reference (Microsoft Dynamics 365)
 
 
 

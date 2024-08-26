@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Suggestion request payload (msdyn_suggestionrequestpayload) table/entity reference
+# Suggestion request payload (msdyn_suggestionrequestpayload) table/entity reference (Microsoft Dynamics 365)
 
 
 

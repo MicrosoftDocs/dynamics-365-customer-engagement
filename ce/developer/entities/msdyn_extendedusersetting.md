@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Extended User Setting (msdyn_extendedusersetting) table/entity reference
+# Extended User Setting (msdyn_extendedusersetting) table/entity reference (Microsoft Dynamics 365)
 
 
 

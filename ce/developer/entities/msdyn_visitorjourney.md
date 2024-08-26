@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Self service (msdyn_visitorjourney) table/entity reference
+# Self service (msdyn_visitorjourney) table/entity reference (Microsoft Dynamics 365)
 
 Stores each customer action as a record. The actions tracked are before an interaction is initiated. Agents will see the actions for an interaction in the Self Service section of the Customer Summary page, when enabled.
 

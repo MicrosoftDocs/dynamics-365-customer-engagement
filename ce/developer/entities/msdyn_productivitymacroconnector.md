@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Macro Connector (msdyn_productivitymacroconnector) table/entity reference
+# Macro Connector (msdyn_productivitymacroconnector) table/entity reference (Microsoft Dynamics 365)
 
 Attributes for macro connectors
 

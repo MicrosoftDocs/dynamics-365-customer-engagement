@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Device (msdyn_iotdevice) table/entity reference
+# IoT Device (msdyn_iotdevice) table/entity reference (Microsoft Dynamics 365)
 
 Represents a connected device that can be registered with an IoT provider.
 

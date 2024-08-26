@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# salesroutingdiagnostic (msdyn_salesroutingdiagnostic) table/entity reference
+# salesroutingdiagnostic (msdyn_salesroutingdiagnostic) table/entity reference (Microsoft Dynamics 365)
 
 
 

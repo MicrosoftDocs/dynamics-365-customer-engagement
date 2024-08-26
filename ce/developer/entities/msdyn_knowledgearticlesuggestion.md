@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Knowledge Article Suggestion (msdyn_knowledgearticlesuggestion) table/entity reference
+# Knowledge Article Suggestion (msdyn_knowledgearticlesuggestion) table/entity reference (Microsoft Dynamics 365)
 
 
 

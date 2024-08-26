@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Participant Sentiment (msdyn_ConversationParticipantSentiment) table/entity reference
+# Conversation Participant Sentiment (msdyn_ConversationParticipantSentiment) table/entity reference (Microsoft Dynamics 365)
 
 
 

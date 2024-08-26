@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Schedule Board Setting (msdyn_scheduleboardsetting) table/entity reference
+# Schedule Board Setting (msdyn_scheduleboardsetting) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 To store settings of SB by user & tabs
 

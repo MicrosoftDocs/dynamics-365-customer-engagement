@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Competitor table/entity reference
+# Competitor table/entity reference (Microsoft Dynamics 365)
 
 Business competing for the sale represented by a lead or opportunity.
 

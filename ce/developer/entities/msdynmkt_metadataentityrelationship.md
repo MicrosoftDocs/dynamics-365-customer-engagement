@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Metadata Entity Relationship (msdynmkt_metadataentityrelationship) table/entity reference
+# Metadata Entity Relationship (msdynmkt_metadataentityrelationship) table/entity reference (Microsoft Dynamics 365)
 
 
 

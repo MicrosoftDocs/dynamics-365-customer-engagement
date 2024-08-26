@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Competitor Address (CompetitorAddress) table/entity reference
+# Competitor Address (CompetitorAddress) table/entity reference (Microsoft Dynamics 365)
 
 Additional addresses for a competitor. The first two addresses are stored in the competitor object.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Collab Space Team Association (msdyn_collabspaceteamassociation) table/entity reference
+# Collab Space Team Association (msdyn_collabspaceteamassociation) table/entity reference (Microsoft Dynamics 365)
 
 Collab Space Team Association
 

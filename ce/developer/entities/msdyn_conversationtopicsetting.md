@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Topic Setting (msdyn_conversationtopicsetting) table/entity reference
+# Conversation Topic Setting (msdyn_conversationtopicsetting) table/entity reference (Microsoft Dynamics 365)
 
 Conversation Topic Setting Entity
 

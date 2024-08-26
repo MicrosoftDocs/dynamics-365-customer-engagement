@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# ContactOrders table/entity reference
+# ContactOrders table/entity reference (Microsoft Dynamics 365)
 
 
 

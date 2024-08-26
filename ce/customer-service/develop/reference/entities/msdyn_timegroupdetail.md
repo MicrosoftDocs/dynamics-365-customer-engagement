@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Time Group Detail (msdyn_timegroupdetail) table/entity reference
+# Time Group Detail (msdyn_timegroupdetail) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Specify individual time windows under a time group.
 

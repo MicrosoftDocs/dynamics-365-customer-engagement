@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Message Block (msdyn_conversationmessageblock) table/entity reference
+# Conversation Message Block (msdyn_conversationmessageblock) table/entity reference (Microsoft Dynamics 365)
 
 A Message Block would constitute a block of messages up till an agent responds (including the messages sent by the agent). A follow up message, after an agent responds, will create another message block, this block again ends with the messages from the agent
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Quick Campaign (BulkOperation) table/entity reference
+# Quick Campaign (BulkOperation) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bookable Resource Group (BookableResourceGroup) table/entity reference
+# Bookable Resource Group (BookableResourceGroup) table/entity reference (Microsoft Dynamics 365)
 
 Associates resources with resource groups that they are a member of.
 

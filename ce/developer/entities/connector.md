@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# connector table/entity reference
+# connector table/entity reference (Microsoft Dynamics 365)
 
 Connector Entity to support Solutioning Integration
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Discount List (DiscountType) table/entity reference
+# Discount List (DiscountType) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Type of discount specified as either a percentage or an amount.
 

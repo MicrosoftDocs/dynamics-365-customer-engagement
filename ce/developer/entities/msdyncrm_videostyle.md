@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Video style (msdyncrm_videostyle) table/entity reference
+# Video style (msdyncrm_videostyle) table/entity reference (Microsoft Dynamics 365)
 
 
 

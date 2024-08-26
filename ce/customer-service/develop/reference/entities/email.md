@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Email table/entity reference
+# Email table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Activity that is delivered using email protocols.
 

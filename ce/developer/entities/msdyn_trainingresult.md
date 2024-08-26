@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Training Result (msdyn_trainingresult) table/entity reference
+# Training Result (msdyn_trainingresult) table/entity reference (Microsoft Dynamics 365)
 
 Stores Training results for the model
 

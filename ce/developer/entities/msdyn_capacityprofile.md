@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Capacity Profile (msdyn_capacityprofile) table/entity reference
+# Capacity Profile (msdyn_capacityprofile) table/entity reference (Microsoft Dynamics 365)
 
 Capacity Profiles
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# System Job (AsyncOperation) table/entity reference
+# System Job (AsyncOperation) table/entity reference (Microsoft Dynamics 365)
 
 Process whose execution can proceed independently or in the background.
 

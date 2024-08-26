@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_msdyn_prod_actioninputparameter_msdyn_par table/entity reference
+# msdyn_msdyn_prod_actioninputparameter_msdyn_par table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

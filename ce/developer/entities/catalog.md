@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Catalog table/entity reference
+# Catalog table/entity reference (Microsoft Dynamics 365)
 
 Entity for cataloging records to make it easier for your customers to find them on portals and through search.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Teams chat (chat) table/entity reference
+# Teams chat (chat) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 For internal use only. Entity which stores association data of Dynamics 365 records with Microsoft Teams chat
 

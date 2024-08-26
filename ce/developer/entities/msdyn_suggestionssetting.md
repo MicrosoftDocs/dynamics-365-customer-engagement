@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Suggestions Setting (msdyn_suggestionssetting) table/entity reference
+# Suggestions Setting (msdyn_suggestionssetting) table/entity reference (Microsoft Dynamics 365)
 
 Suggestions settings entity
 

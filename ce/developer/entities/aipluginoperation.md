@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# AIPluginOperation table/entity reference
+# AIPluginOperation table/entity reference (Microsoft Dynamics 365)
 
 AIPluginOperations component
 

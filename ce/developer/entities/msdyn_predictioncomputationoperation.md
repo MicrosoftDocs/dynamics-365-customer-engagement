@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Prediction Computation Operation (msdyn_predictioncomputationoperation) table/entity reference
+# Prediction Computation Operation (msdyn_predictioncomputationoperation) table/entity reference (Microsoft Dynamics 365)
 
 
 

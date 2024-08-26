@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Playbook Callable Context (msdyn_callablecontext) table/entity reference
+# Playbook Callable Context (msdyn_callablecontext) table/entity reference (Microsoft Dynamics 365)
 
 
 

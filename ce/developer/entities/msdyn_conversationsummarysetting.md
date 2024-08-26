@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Summary Setting (msdyn_conversationsummarysetting) table/entity reference
+# Conversation Summary Setting (msdyn_conversationsummarysetting) table/entity reference (Microsoft Dynamics 365)
 
 Conversation Summary Settings Entity
 

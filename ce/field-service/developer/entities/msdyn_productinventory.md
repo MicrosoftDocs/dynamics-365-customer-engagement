@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Product Inventory (msdyn_productinventory) table/entity reference
+# Product Inventory (msdyn_productinventory) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Inventory Record
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Field Mapping (msdyn_iotfieldmapping) table/entity reference
+# IoT Field Mapping (msdyn_iotfieldmapping) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# RTV (msdyn_rtv) table/entity reference
+# RTV (msdyn_rtv) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Records RTVs for products to be retuned to vendors
 

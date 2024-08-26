@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Notification Field (msdyn_notificationfield) table/entity reference
+# Notification Field (msdyn_notificationfield) table/entity reference (Microsoft Dynamics 365)
 
 
 

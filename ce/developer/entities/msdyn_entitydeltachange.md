@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entity Delta Change (msdyn_entitydeltachange) table/entity reference
+# Entity Delta Change (msdyn_entitydeltachange) table/entity reference (Microsoft Dynamics 365)
 
 Entity Delta Changes
 

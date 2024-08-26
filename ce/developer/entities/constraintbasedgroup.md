@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Resource Group (ConstraintBasedGroup) table/entity reference
+# Resource Group (ConstraintBasedGroup) table/entity reference (Microsoft Dynamics 365)
 
 Group or collection of people, equipment, and/or facilities that can be scheduled.
 

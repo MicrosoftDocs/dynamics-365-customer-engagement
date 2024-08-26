@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Training data import configuration (msdyn_ocsitdimportconfig) table/entity reference
+# Training data import configuration (msdyn_ocsitdimportconfig) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Indicates the training data import configuration
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Lead Address (LeadAddress) table/entity reference
+# Lead Address (LeadAddress) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Address information for a lead.
 

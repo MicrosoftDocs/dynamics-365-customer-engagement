@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Campaign Response (CampaignResponse) table/entity reference
+# Campaign Response (CampaignResponse) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Response from an existing or a potential new customer for a campaign.
 

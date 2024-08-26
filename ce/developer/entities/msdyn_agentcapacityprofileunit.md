@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agent Capacity Profile Unit (msdyn_agentcapacityprofileunit) table/entity reference
+# Agent Capacity Profile Unit (msdyn_agentcapacityprofileunit) table/entity reference (Microsoft Dynamics 365)
 
 Agent Capacity Profile Units holds agent’s available capacity for each capacity profile associated.
 

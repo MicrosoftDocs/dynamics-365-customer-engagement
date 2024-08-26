@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Available Times (availabletimes) table/entity reference
+# Available Times (availabletimes) table/entity reference (Microsoft Dynamics 365)
 
 
 

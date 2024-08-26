@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# LeadCompetitors table/entity reference
+# LeadCompetitors table/entity reference (Microsoft Dynamics 365)
 
 
 

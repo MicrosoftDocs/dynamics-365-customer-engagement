@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Business Unit (BusinessUnit) table/entity reference
+# Business Unit (BusinessUnit) table/entity reference (Microsoft Dynamics 365)
 
 Business, division, or department in the Microsoft Dynamics 365 database.
 

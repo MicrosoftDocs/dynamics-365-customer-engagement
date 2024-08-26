@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Property Instance (DynamicPropertyInstance) table/entity reference
+# Property Instance (DynamicPropertyInstance) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Instance of a property with its value.
 

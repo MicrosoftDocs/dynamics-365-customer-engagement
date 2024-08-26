@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agent Copilot Setting (msdyn_agentcopilotsetting) table/entity reference
+# Agent Copilot Setting (msdyn_agentcopilotsetting) table/entity reference (Microsoft Dynamics 365)
 
 
 

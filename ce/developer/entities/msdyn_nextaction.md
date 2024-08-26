@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Next Action (msdyn_nextaction) table/entity reference
+# Next Action (msdyn_nextaction) table/entity reference (Microsoft Dynamics 365)
 
 
 

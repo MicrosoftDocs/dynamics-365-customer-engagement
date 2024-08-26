@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Daily kpis for lead (msdyn_dailyleadkpiitem) table/entity reference
+# Daily kpis for lead (msdyn_dailyleadkpiitem) table/entity reference (Microsoft Dynamics 365)
 
 
 

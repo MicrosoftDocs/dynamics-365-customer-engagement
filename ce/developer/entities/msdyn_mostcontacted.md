@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Most Contacted (msdyn_mostcontacted) table/entity reference
+# Most Contacted (msdyn_mostcontacted) table/entity reference (Microsoft Dynamics 365)
 
 Most Contacted
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_appconfig_msdyn_channelprovider table/entity reference
+# msdyn_appconfig_msdyn_channelprovider table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

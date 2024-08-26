@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Forecast (msdyn_forecastinstance) table/entity reference
+# Forecast (msdyn_forecastinstance) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Stores sales predictions for your team or organization. For internal use.
 

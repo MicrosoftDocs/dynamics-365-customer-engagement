@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Ad Placement (mspp_adplacement) table/entity reference
+# Ad Placement (mspp_adplacement) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

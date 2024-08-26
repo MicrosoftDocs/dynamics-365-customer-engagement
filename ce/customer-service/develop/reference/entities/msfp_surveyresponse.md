@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Voice survey response (msfp_surveyresponse) table/entity reference
+# Customer Voice survey response (msfp_surveyresponse) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Response to a survey.
 

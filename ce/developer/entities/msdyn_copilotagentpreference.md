@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agent Preference For Copilot (msdyn_copilotagentpreference) table/entity reference
+# Agent Preference For Copilot (msdyn_copilotagentpreference) table/entity reference (Microsoft Dynamics 365)
 
 
 

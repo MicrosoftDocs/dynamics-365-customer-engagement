@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work order not-to-exceed (msdyn_workordernte) table/entity reference
+# Work order not-to-exceed (msdyn_workordernte) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Record of Price and Cost not-to-exceed amount details applied to work orders
 

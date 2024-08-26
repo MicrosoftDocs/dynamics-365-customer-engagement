@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Suggestion Interaction (msdyn_suggestioninteraction) table/entity reference
+# Suggestion Interaction (msdyn_suggestioninteraction) table/entity reference (Microsoft Dynamics 365)
 
 
 

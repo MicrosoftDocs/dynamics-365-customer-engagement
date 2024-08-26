@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Channel Message Attachment (msdyn_ChannelMessageAttachment) table/entity reference
+# Channel Message Attachment (msdyn_ChannelMessageAttachment) table/entity reference (Microsoft Dynamics 365)
 
 
 

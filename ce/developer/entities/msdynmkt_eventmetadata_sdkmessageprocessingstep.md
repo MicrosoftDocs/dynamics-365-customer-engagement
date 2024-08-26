@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Triggers To Sdk Message Processing Steps (msdynmkt_eventmetadata_sdkmessageprocessingstep) table/entity reference
+# Triggers To Sdk Message Processing Steps (msdynmkt_eventmetadata_sdkmessageprocessingstep) table/entity reference (Microsoft Dynamics 365)
 
 Mapping between CJO Marketing Triggers and Sdk Message Processing Steps
 

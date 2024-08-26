@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Knowledge Federated Article Incident (msdyn_federatedarticleincident) table/entity reference
+# Knowledge Federated Article Incident (msdyn_federatedarticleincident) table/entity reference (Microsoft Dynamics 365)
 
 
 

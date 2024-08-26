@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Postal Code (msdyn_postalcode) table/entity reference
+# Postal Code (msdyn_postalcode) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify postal codes and their relationship to territories.
 

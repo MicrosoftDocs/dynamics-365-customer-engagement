@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Predictive Scoring Sync Status (msdyn_predictivescoringsyncstatus) table/entity reference
+# Predictive Scoring Sync Status (msdyn_predictivescoringsyncstatus) table/entity reference (Microsoft Dynamics 365)
 
 Internal entity used to store sync status for predictive scoring core entities.
 

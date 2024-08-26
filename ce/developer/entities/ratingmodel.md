@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Rating Model (RatingModel) table/entity reference
+# Rating Model (RatingModel) table/entity reference (Microsoft Dynamics 365)
 
 Represents a model to evaluate skills or other related entities.
 

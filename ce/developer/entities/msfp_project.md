@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Voice project (msfp_project) table/entity reference
+# Customer Voice project (msfp_project) table/entity reference (Microsoft Dynamics 365)
 
 Set of surveys to collect feedback.
 

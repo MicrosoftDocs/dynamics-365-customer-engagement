@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Action Card Role Setting (msdyn_actioncardrolesetting) table/entity reference
+# Action Card Role Setting (msdyn_actioncardrolesetting) table/entity reference (Microsoft Dynamics 365)
 
 
 

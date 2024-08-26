@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Context variable (msdyn_ocliveworkstreamcontextvariable) table/entity reference
+# Context variable (msdyn_ocliveworkstreamcontextvariable) table/entity reference (Microsoft Dynamics 365)
 
 Stores the context variables for a work stream.
 

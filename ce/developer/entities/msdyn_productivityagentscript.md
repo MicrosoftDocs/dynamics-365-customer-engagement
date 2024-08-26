@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agent script (msdyn_productivityagentscript) table/entity reference
+# Agent script (msdyn_productivityagentscript) table/entity reference (Microsoft Dynamics 365)
 
 Agent script v2
 

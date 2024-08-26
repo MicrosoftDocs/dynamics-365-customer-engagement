@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Product Relationship (ProductSubstitute) table/entity reference
+# Product Relationship (ProductSubstitute) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory.
 

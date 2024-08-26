@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Resource Specification (ResourceSpec) table/entity reference
+# Resource Specification (ResourceSpec) table/entity reference (Microsoft Dynamics 365)
 
 Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.
 

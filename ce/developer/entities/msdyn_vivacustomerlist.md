@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Copilot for Sales customer list (msdyn_vivacustomerlist) table/entity reference
+# Copilot for Sales customer list (msdyn_vivacustomerlist) table/entity reference (Microsoft Dynamics 365)
 
 
 

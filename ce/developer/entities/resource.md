@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Resource table/entity reference
+# Resource table/entity reference (Microsoft Dynamics 365)
 
 User or facility/equipment that can be scheduled for a service.
 

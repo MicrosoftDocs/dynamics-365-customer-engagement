@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bot Channel Registration Secret (msdyn_ocbotchannelregistrationsecret) table/entity reference
+# Bot Channel Registration Secret (msdyn_ocbotchannelregistrationsecret) table/entity reference (Microsoft Dynamics 365)
 
 
 

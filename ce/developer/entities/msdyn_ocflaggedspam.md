@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Flagged spam (msdyn_ocflaggedspam) table/entity reference
+# Flagged spam (msdyn_ocflaggedspam) table/entity reference (Microsoft Dynamics 365)
 
 
 

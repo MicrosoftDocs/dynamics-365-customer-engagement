@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Personal sound setting (msdyn_Personalsoundsetting) table/entity reference
+# Personal sound setting (msdyn_Personalsoundsetting) table/entity reference (Microsoft Dynamics 365)
 
 Entity to store personalized sound records for the users.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Trade (msdyn_trade) table/entity reference
+# Trade (msdyn_trade) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Area of work or business a person or company is involved in.
 

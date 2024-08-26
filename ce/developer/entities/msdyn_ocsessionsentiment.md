@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Session Sentiment (msdyn_ocsessionsentiment) table/entity reference
+# Session Sentiment (msdyn_ocsessionsentiment) table/entity reference (Microsoft Dynamics 365)
 
 Stores the session level sentiment for customer interactions calculated using AI.
 

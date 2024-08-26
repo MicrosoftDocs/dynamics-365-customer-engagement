@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Relationship Analytics Metadata (msdyn_relationshipanalyticsmetadata) table/entity reference
+# Relationship Analytics Metadata (msdyn_relationshipanalyticsmetadata) table/entity reference (Microsoft Dynamics 365)
 
 
 

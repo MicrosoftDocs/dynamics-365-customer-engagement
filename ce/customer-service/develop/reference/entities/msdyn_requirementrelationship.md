@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Requirement Relationship (msdyn_requirementrelationship) table/entity reference
+# Requirement Relationship (msdyn_requirementrelationship) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Relationship of requirements in the group
 

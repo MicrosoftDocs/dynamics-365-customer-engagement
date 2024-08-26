@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Knowledge analytics (msdyn_dataanalyticsreport_ksinsights) table/entity reference
+# Knowledge analytics (msdyn_dataanalyticsreport_ksinsights) table/entity reference (Microsoft Dynamics 365)
 
 Knowledge analytics
 

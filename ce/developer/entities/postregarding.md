@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Post Regarding (PostRegarding) table/entity reference
+# Post Regarding (PostRegarding) table/entity reference (Microsoft Dynamics 365)
 
 Represents which object an activity feed post is regarding. For internal use only.
 

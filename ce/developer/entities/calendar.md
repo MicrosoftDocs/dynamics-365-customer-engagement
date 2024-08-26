@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Calendar table/entity reference
+# Calendar table/entity reference (Microsoft Dynamics 365)
 
 Calendar used by the scheduling system to define when an appointment or activity is to occur.
 

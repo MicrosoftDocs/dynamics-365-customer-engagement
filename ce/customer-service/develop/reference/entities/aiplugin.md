@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# AIPlugin table/entity reference
+# AIPlugin table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 AIPlugins component
 

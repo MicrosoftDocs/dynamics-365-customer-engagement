@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Post Configuration (msdyn_PostConfig) table/entity reference
+# Post Configuration (msdyn_PostConfig) table/entity reference (Microsoft Dynamics 365)
 
 Enable or disable entities for Activity Feeds and Yammer collaboration.
 

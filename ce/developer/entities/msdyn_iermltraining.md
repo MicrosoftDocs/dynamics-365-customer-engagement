@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Effort model training details (msdyn_iermltraining) table/entity reference
+# Effort model training details (msdyn_iermltraining) table/entity reference (Microsoft Dynamics 365)
 
 Indicates model's training details
 

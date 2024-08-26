@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# TeleSign channel instance (msdynmkt_telesignchannelinstance) table/entity reference
+# TeleSign channel instance (msdynmkt_telesignchannelinstance) table/entity reference (Microsoft Dynamics 365)
 
 
 

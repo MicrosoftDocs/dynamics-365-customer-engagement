@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Field Service System Job (msdyn_fieldservicesystemjob) table/entity reference
+# Field Service System Job (msdyn_fieldservicesystemjob) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 An internal entity used to track field service system jobs.
 

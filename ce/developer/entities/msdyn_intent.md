@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Intent (msdyn_Intent) table/entity reference
+# Intent (msdyn_Intent) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Rich message map (msdyn_ocrichobjectmap) table/entity reference
+# Rich message map (msdyn_ocrichobjectmap) table/entity reference (Microsoft Dynamics 365)
 
 Rich messages map for Omnichannel integration
 

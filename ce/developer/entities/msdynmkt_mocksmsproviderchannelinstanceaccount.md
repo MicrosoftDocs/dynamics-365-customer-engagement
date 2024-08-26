@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# MockSmsProvider channel instance account (msdynmkt_mocksmsproviderchannelinstanceaccount) table/entity reference
+# MockSmsProvider channel instance account (msdynmkt_mocksmsproviderchannelinstanceaccount) table/entity reference (Microsoft Dynamics 365)
 
 
 

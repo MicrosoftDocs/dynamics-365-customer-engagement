@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Service Contract Contact (ServiceContractContacts) table/entity reference
+# Service Contract Contact (ServiceContractContacts) table/entity reference (Microsoft Dynamics 365)
 
 Item in a Service contract.
 

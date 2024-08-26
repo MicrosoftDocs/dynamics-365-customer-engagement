@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Effort estimation model (msdyn_iermlmodel) table/entity reference
+# Effort estimation model (msdyn_iermlmodel) table/entity reference (Microsoft Dynamics 365)
 
 Indicates the OmniChannel Model for the corresponding AI model
 

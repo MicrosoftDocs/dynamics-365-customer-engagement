@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Distributed Lock (msdyn_distributedlock) table/entity reference
+# Distributed Lock (msdyn_distributedlock) table/entity reference (Microsoft Dynamics 365)
 
 Distributed Locks
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Marketing List Member (ListMember) table/entity reference
+# Marketing List Member (ListMember) table/entity reference (Microsoft Dynamics 365)
 
 Item in a marketing list.
 

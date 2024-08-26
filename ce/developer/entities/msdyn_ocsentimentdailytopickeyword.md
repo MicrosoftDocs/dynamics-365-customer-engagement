@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sentiment daily topic keyword (msdyn_ocsentimentdailytopickeyword) table/entity reference
+# Sentiment daily topic keyword (msdyn_ocsentimentdailytopickeyword) table/entity reference (Microsoft Dynamics 365)
 
 1. Store the keyword and frequency for topic clusters
 2. Used for word cloud in the dashboard

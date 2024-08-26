@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Lead To Opportunity Sales Process (LeadToOpportunitySalesProcess) table/entity reference
+# Lead To Opportunity Sales Process (LeadToOpportunitySalesProcess) table/entity reference (Microsoft Dynamics 365)
 
 Lead To Opportunity Sales Process Business Process Flow
 

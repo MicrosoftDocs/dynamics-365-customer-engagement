@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# DeletedConversation (msdyn_deletedconversation) table/entity reference
+# DeletedConversation (msdyn_deletedconversation) table/entity reference (Microsoft Dynamics 365)
 
 Holds id of deleted conversation
 

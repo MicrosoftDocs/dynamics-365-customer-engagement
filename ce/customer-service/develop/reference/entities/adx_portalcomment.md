@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Portal Comment (adx_portalcomment) table/entity reference
+# Portal Comment (adx_portalcomment) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 An activity which is used to share information between the user and the customer on the portal.
 

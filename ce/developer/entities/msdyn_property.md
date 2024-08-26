@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Property Definition (msdyn_property) table/entity reference
+# Property Definition (msdyn_property) table/entity reference (Microsoft Dynamics 365)
 
 
 

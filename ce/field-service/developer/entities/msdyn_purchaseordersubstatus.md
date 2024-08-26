@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Purchase Order SubStatus (msdyn_purchaseordersubstatus) table/entity reference
+# Purchase Order SubStatus (msdyn_purchaseordersubstatus) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify custom PO Substatuses, which can be used to specify the current PO status more precisely.
 

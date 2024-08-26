@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Session Template (msdyn_sessiontemplate) table/entity reference
+# Session Template (msdyn_sessiontemplate) table/entity reference (Microsoft Dynamics 365)
 
 
 

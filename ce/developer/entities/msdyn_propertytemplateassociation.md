@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Property Template Association (msdyn_propertytemplateassociation) table/entity reference
+# Property Template Association (msdyn_propertytemplateassociation) table/entity reference (Microsoft Dynamics 365)
 
 
 

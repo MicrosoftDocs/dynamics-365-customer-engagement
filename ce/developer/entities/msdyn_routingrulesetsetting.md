@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Routing Rule Set Setting (msdyn_routingrulesetsetting) table/entity reference
+# Routing Rule Set Setting (msdyn_routingrulesetsetting) table/entity reference (Microsoft Dynamics 365)
 
 
 

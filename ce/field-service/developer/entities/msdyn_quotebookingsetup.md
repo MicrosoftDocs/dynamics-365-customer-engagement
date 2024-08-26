@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Quote Booking Setup (msdyn_quotebookingsetup) table/entity reference
+# Quote Booking Setup (msdyn_quotebookingsetup) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify the maintenance bookings for the agreement.
 

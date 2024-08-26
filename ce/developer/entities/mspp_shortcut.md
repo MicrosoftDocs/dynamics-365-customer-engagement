@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Shortcut (mspp_shortcut) table/entity reference
+# Shortcut (mspp_shortcut) table/entity reference (Microsoft Dynamics 365)
 
 
 

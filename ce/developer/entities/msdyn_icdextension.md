@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# ICD Extension (msdyn_ICDExtension) table/entity reference
+# ICD Extension (msdyn_ICDExtension) table/entity reference (Microsoft Dynamics 365)
 
 Contains ICD related fields that will be generated and kept.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sales Copilot Insight (msdyn_salescopilotinsight) table/entity reference
+# Sales Copilot Insight (msdyn_salescopilotinsight) table/entity reference (Microsoft Dynamics 365)
 
 
 

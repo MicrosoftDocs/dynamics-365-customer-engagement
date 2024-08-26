@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Case Resolution (IncidentResolution) table/entity reference
+# Case Resolution (IncidentResolution) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Special type of activity that includes description of the resolution, billing status, and the duration of the case.
 

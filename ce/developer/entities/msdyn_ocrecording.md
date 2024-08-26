@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Recording (msdyn_ocrecording) table/entity reference
+# Recording (msdyn_ocrecording) table/entity reference (Microsoft Dynamics 365)
 
 Records the audio/video session
 

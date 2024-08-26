@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Booking Rule (msdyn_bookingrule) table/entity reference
+# Booking Rule (msdyn_bookingrule) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Specify custom rules to be validated by the system before saving a booking record.
 

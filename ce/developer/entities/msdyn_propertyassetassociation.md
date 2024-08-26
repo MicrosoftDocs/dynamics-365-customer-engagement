@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Property Asset Association (msdyn_propertyassetassociation) table/entity reference
+# Property Asset Association (msdyn_propertyassetassociation) table/entity reference (Microsoft Dynamics 365)
 
 
 

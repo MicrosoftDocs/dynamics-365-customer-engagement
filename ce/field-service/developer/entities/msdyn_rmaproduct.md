@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# RMA Product (msdyn_rmaproduct) table/entity reference
+# RMA Product (msdyn_rmaproduct) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Records products to be returned on an RMA
 

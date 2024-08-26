@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Currency (TransactionCurrency) table/entity reference
+# Currency (TransactionCurrency) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Currency in which a financial transaction is carried out.
 

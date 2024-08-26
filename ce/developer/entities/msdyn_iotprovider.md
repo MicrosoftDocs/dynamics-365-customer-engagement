@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Provider (msdyn_iotprovider) table/entity reference
+# IoT Provider (msdyn_iotprovider) table/entity reference (Microsoft Dynamics 365)
 
 The IoT Provider where a device is registered and through which all interactions with the device take place
 

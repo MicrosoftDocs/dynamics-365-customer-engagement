@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# User settings (msdyn_usersetting) table/entity reference
+# User settings (msdyn_usersetting) table/entity reference (Microsoft Dynamics 365)
 
 Parent entity for Omnichannel personalizations
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bookable Resource (BookableResource) table/entity reference
+# Bookable Resource (BookableResource) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Resource that has capacity which can be allocated to work.
 

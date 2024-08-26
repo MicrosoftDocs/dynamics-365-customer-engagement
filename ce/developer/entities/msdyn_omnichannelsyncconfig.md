@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Omnichannel Sync Config (msdyn_omnichannelsyncconfig) table/entity reference
+# Omnichannel Sync Config (msdyn_omnichannelsyncconfig) table/entity reference (Microsoft Dynamics 365)
 
 Config for entities to be synced to Omnichannel
 

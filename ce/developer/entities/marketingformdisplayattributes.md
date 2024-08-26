@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Marketing Form Display Attributes (marketingformdisplayattributes) table/entity reference
+# Marketing Form Display Attributes (marketingformdisplayattributes) table/entity reference (Microsoft Dynamics 365)
 
 Setting to allow customized form for In-app Marketing Form
 

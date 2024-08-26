@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Incident Type Requirement Group (msdyn_incidenttype_requirementgroup) table/entity reference
+# Incident Type Requirement Group (msdyn_incidenttype_requirementgroup) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# ShareAs Configuration (msdyn_shareasconfiguration) table/entity reference
+# ShareAs Configuration (msdyn_shareasconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 ShareAs Configuration
 

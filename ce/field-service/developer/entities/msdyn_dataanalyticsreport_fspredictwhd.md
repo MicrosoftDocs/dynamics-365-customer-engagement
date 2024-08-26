@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Predictive duration (preview) (msdyn_dataanalyticsreport_fspredictwhd) table/entity reference
+# Predictive duration (preview) (msdyn_dataanalyticsreport_fspredictwhd) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Predictive duration (preview)
 

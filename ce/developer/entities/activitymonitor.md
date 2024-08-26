@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Activity monitor (activitymonitor) table/entity reference
+# Activity monitor (activitymonitor) table/entity reference (Microsoft Dynamics 365)
 
 Entity that tracks ARC runtime information.
 

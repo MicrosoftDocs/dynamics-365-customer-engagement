@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Price List (PriceLevel) table/entity reference
+# Price List (PriceLevel) table/entity reference (Microsoft Dynamics 365)
 
 Entity that defines pricing levels.
 

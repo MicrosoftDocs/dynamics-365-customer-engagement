@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Product Association (ProductAssociation) table/entity reference
+# Product Association (ProductAssociation) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Instance of a product added to a bundle or kit.
 

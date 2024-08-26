@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Asset (msdyn_customerasset) table/entity reference
+# Customer Asset (msdyn_customerasset) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Specify Customer Asset.
 

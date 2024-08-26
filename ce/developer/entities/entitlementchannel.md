@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entitlement Channel (EntitlementChannel) table/entity reference
+# Entitlement Channel (EntitlementChannel) table/entity reference (Microsoft Dynamics 365)
 
 Defines the amount and type of support for a channel.
 

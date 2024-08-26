@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Microsoft Teams chat association entity (msdyn_teamschatassociation) table/entity reference
+# Microsoft Teams chat association entity (msdyn_teamschatassociation) table/entity reference (Microsoft Dynamics 365)
 
 For internal use only. Entity which stores association data of Dynamics 365 records with Microsoft Teams chat
 

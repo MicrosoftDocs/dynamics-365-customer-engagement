@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Organization table/entity reference
+# Organization table/entity reference (Microsoft Dynamics 365)
 
 Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.
 

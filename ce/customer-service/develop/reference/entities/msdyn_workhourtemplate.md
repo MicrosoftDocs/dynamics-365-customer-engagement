@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work Template (msdyn_workhourtemplate) table/entity reference
+# Work Template (msdyn_workhourtemplate) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Template where resource working hours can be saved and reused.
 

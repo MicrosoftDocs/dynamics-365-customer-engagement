@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Seller attribute value (msdyn_attributevalue) table/entity reference
+# Seller attribute value (msdyn_attributevalue) table/entity reference (Microsoft Dynamics 365)
 
 Attribute Value of sales person or sales team
 

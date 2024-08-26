@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# BgJobLedger (msdyn_BgJobLedger) table/entity reference
+# BgJobLedger (msdyn_BgJobLedger) table/entity reference (Microsoft Dynamics 365)
 
 
 

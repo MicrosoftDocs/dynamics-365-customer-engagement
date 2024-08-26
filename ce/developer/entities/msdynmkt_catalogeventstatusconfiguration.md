@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# CatalogEventStatusConfiguration (msdynmkt_catalogeventstatusconfiguration) table/entity reference
+# CatalogEventStatusConfiguration (msdynmkt_catalogeventstatusconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 Status configuration for events in a catalog.
 

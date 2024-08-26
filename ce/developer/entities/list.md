@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Marketing List (List) table/entity reference
+# Marketing List (List) table/entity reference (Microsoft Dynamics 365)
 
 Group of existing or potential customers created for a marketing campaign or other sales purposes.
 

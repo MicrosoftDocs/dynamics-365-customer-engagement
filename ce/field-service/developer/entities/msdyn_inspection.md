@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Inspection Template (msdyn_inspection) table/entity reference
+# Inspection Template (msdyn_inspection) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Entity used for creating Inspection Templates.
 

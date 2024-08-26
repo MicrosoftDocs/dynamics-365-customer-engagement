@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work stream capacity profile (msdyn_liveworkstreamcapacityprofile) table/entity reference
+# Work stream capacity profile (msdyn_liveworkstreamcapacityprofile) table/entity reference (Microsoft Dynamics 365)
 
 Work stream capacity profile
 

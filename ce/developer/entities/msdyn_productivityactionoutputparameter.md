@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Action Output Parameter (msdyn_productivityactionoutputparameter) table/entity reference
+# Action Output Parameter (msdyn_productivityactionoutputparameter) table/entity reference (Microsoft Dynamics 365)
 
 Attributes of action output parameters
 

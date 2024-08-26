@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# EntityRankingRule (msdyn_entityrankingrule) table/entity reference
+# EntityRankingRule (msdyn_entityrankingrule) table/entity reference (Microsoft Dynamics 365)
 
 
 

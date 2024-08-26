@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# RMA (msdyn_rma) table/entity reference
+# RMA (msdyn_rma) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Records RMAs for products to be retuned from customers
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Competitor Product (CompetitorProduct) table/entity reference
+# Competitor Product (CompetitorProduct) table/entity reference (Microsoft Dynamics 365)
 
 Association between a competitor and a product offered by the competitor.
 

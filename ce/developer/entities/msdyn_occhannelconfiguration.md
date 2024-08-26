@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Channel Configuration (msdyn_occhannelconfiguration) table/entity reference
+# Channel Configuration (msdyn_occhannelconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 Channel Configuration
 

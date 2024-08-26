@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Forecasting Cache (msdyn_forecastingcache) table/entity reference
+# Forecasting Cache (msdyn_forecastingcache) table/entity reference (Microsoft Dynamics 365)
 
 Forecasting Cache
 

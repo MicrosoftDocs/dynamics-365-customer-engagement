@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Copilot component (botcomponent) table/entity reference
+# Copilot component (botcomponent) table/entity reference (Microsoft Dynamics 365)
 
 Holds key authoring components of a Copilot such a topics, entities, variables, etc.
 

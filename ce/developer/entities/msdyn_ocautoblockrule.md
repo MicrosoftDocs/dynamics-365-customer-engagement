@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Auto block rule (msdyn_ocautoblockrule) table/entity reference
+# Auto block rule (msdyn_ocautoblockrule) table/entity reference (Microsoft Dynamics 365)
 
 
 

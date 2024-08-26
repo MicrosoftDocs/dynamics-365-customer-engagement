@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Requirement Characteristic (msdyn_requirementcharacteristic) table/entity reference
+# Requirement Characteristic (msdyn_requirementcharacteristic) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Requirement Characteristic
 

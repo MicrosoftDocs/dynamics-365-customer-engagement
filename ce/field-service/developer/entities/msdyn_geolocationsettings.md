@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Geolocation Settings (msdyn_geolocationsettings) table/entity reference
+# Geolocation Settings (msdyn_geolocationsettings) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Defines a list of geolocation settings.
 

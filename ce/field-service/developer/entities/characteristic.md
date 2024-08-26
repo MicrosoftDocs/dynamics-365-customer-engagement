@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Characteristic table/entity reference
+# Characteristic table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Skills and Characteristics for front line worker
 

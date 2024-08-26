@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Field Service SLA Configuration (msdyn_fieldserviceslaconfiguration) table/entity reference
+# Field Service SLA Configuration (msdyn_fieldserviceslaconfiguration) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Allows configuration of SLA Type and appropriate behavior based on creation and update of SLA KPI Instances related to Field Service entities.
 

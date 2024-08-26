@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Order Invoicing Product (msdyn_orderinvoicingproduct) table/entity reference
+# Order Invoicing Product (msdyn_orderinvoicingproduct) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

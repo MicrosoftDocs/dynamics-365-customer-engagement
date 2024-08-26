@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Effort estimate (msdyn_effortpredictionresult) table/entity reference
+# Effort estimate (msdyn_effortpredictionresult) table/entity reference (Microsoft Dynamics 365)
 
 Entity to persist effort model prediction results
 

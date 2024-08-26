@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Omnichannel channel api message privilege (msdyn_occhannelapimessageprivilege) table/entity reference
+# Omnichannel channel api message privilege (msdyn_occhannelapimessageprivilege) table/entity reference (Microsoft Dynamics 365)
 
 Entity for creating privilege for custom apis. The privileges for this entity will be used to restrict custom api access.
 

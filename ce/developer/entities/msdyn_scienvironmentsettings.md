@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# EnvironmentSettings (msdyn_scienvironmentsettings) table/entity reference
+# EnvironmentSettings (msdyn_scienvironmentsettings) table/entity reference (Microsoft Dynamics 365)
 
 SCI environment level settings
 

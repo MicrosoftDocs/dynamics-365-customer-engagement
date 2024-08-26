@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Device Command Definition (msdyn_iotdevicecommanddefinition) table/entity reference
+# IoT Device Command Definition (msdyn_iotdevicecommanddefinition) table/entity reference (Microsoft Dynamics 365)
 
 Metadata for commands that a device or a device category supports.
 

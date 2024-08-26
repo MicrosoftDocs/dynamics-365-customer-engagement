@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Opportunity Product (OpportunityProduct) table/entity reference
+# Opportunity Product (OpportunityProduct) table/entity reference (Microsoft Dynamics 365)
 
 Association between an opportunity and a product.
 

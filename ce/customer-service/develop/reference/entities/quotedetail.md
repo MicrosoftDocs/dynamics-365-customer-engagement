@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Quote Product (QuoteDetail) table/entity reference
+# Quote Product (QuoteDetail) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Product line item in a quote. The details include such information as product ID, description, quantity, and cost.
 

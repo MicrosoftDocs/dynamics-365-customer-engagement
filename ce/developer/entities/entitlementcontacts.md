@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entitlement Contact (EntitlementContacts) table/entity reference
+# Entitlement Contact (EntitlementContacts) table/entity reference (Microsoft Dynamics 365)
 
 
 

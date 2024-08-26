@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# GDPRData (msdyn_gdprdata) table/entity reference
+# GDPRData (msdyn_gdprdata) table/entity reference (Microsoft Dynamics 365)
 
 
 

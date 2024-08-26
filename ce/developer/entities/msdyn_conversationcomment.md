@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Comment (msdyn_ConversationComment) table/entity reference
+# Comment (msdyn_ConversationComment) table/entity reference (Microsoft Dynamics 365)
 
 A comment on a specific section in a transcript
 

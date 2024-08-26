@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Incident Type Product (msdyn_incidenttypeproduct) table/entity reference
+# Incident Type Product (msdyn_incidenttypeproduct) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 This entity gives the ability to pre-configure products to be added to a work order when the related incident is added to the work order
 

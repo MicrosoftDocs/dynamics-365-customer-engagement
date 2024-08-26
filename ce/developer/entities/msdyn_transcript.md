@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Transcript (msdyn_transcript) table/entity reference
+# Transcript (msdyn_transcript) table/entity reference (Microsoft Dynamics 365)
 
 Stores the transcript of the communication  between the user and the customer
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sequence Target (msdyn_sequencetarget) table/entity reference
+# Sequence Target (msdyn_sequencetarget) table/entity reference (Microsoft Dynamics 365)
 
 
 

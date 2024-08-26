@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Forecast Configuration (msdyn_forecastconfiguration) table/entity reference
+# Forecast Configuration (msdyn_forecastconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 
 

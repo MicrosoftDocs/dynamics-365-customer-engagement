@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Voice survey (msfp_survey) table/entity reference
+# Customer Voice survey (msfp_survey) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Set of questions to collect feedback.
 

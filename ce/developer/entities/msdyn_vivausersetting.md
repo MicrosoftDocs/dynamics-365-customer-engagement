@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_vivausersetting table/entity reference
+# msdyn_vivausersetting table/entity reference (Microsoft Dynamics 365)
 
 User level settings for Copilot for Sales
 

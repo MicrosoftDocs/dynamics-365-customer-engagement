@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Application Tab Template (msdyn_applicationtabtemplate) table/entity reference
+# Application Tab Template (msdyn_applicationtabtemplate) table/entity reference (Microsoft Dynamics 365)
 
 
 

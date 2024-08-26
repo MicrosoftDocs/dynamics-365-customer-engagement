@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Field Service Price List Item (msdyn_fieldservicepricelistitem) table/entity reference
+# Field Service Price List Item (msdyn_fieldservicepricelistitem) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Pricing options in addition to or above the Price List Items
 

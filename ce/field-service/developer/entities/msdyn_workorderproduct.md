@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work Order Product (msdyn_workorderproduct) table/entity reference
+# Work Order Product (msdyn_workorderproduct) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 In this entity you record all the products proposed and used for a work order
 

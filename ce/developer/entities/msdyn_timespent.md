@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Time spent in BPF (msdyn_timespent) table/entity reference
+# Time spent in BPF (msdyn_timespent) table/entity reference (Microsoft Dynamics 365)
 
 
 

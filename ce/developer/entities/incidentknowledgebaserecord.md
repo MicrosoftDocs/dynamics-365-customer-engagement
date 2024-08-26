@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Incident KnowledgeBaseRecord (IncidentKnowledgeBaseRecord) table/entity reference
+# Incident KnowledgeBaseRecord (IncidentKnowledgeBaseRecord) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_msdyn_prod_agentscript_msdyn_sessiontempl table/entity reference
+# msdyn_msdyn_prod_agentscript_msdyn_sessiontempl table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

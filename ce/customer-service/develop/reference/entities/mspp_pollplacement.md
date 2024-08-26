@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Poll Placement (mspp_pollplacement) table/entity reference
+# Poll Placement (mspp_pollplacement) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

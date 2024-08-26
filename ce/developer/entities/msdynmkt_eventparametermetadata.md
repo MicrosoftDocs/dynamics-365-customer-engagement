@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# EventParameterMetadata (msdynmkt_eventparametermetadata) table/entity reference
+# EventParameterMetadata (msdynmkt_eventparametermetadata) table/entity reference (Microsoft Dynamics 365)
 
 Metadata for Cxp Event Parameters
 

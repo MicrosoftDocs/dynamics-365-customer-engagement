@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Decision rule set (msdyn_decisionruleset) table/entity reference
+# Decision rule set (msdyn_decisionruleset) table/entity reference (Microsoft Dynamics 365)
 
 Contains list of rules to define demand and assignment behavior
 

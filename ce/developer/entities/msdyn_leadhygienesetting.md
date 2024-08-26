@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Lead Hygiene Setting (msdyn_leadhygienesetting) table/entity reference
+# Lead Hygiene Setting (msdyn_leadhygienesetting) table/entity reference (Microsoft Dynamics 365)
 
 Lead Hygiene Setting
 

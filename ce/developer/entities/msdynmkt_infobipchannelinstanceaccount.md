@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Infobip channel instance account (msdynmkt_infobipchannelinstanceaccount) table/entity reference
+# Infobip channel instance account (msdynmkt_infobipchannelinstanceaccount) table/entity reference (Microsoft Dynamics 365)
 
 
 

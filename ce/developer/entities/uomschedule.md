@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Unit Group (UoMSchedule) table/entity reference
+# Unit Group (UoMSchedule) table/entity reference (Microsoft Dynamics 365)
 
 Grouping of units.
 

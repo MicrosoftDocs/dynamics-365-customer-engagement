@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sales usage telemetry reports (msdyn_dataanalyticsreport_sutreporting) table/entity reference
+# Sales usage telemetry reports (msdyn_dataanalyticsreport_sutreporting) table/entity reference (Microsoft Dynamics 365)
 
 Sales usage telemetry reports
 

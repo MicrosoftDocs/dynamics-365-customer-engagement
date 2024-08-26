@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Forecast Insights (msdyn_forecastinsight) table/entity reference
+# Forecast Insights (msdyn_forecastinsight) table/entity reference (Microsoft Dynamics 365)
 
 Forecast Insights
 

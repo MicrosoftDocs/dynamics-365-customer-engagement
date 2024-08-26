@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agreement Invoice Product (msdyn_agreementinvoiceproduct) table/entity reference
+# Agreement Invoice Product (msdyn_agreementinvoiceproduct) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify the booking product invoice for the agreement.
 

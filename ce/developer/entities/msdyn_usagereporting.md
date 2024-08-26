@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sales usage reporting (msdyn_usagereporting) table/entity reference
+# Sales usage reporting (msdyn_usagereporting) table/entity reference (Microsoft Dynamics 365)
 
 Sales usage reporting
 

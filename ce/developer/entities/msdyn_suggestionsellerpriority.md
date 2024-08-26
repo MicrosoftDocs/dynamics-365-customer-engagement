@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Suggestion Seller Priority (msdyn_suggestionsellerpriority) table/entity reference
+# Suggestion Seller Priority (msdyn_suggestionsellerpriority) table/entity reference (Microsoft Dynamics 365)
 
 
 

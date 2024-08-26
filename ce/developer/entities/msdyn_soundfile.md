@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Audio File (msdyn_soundfile) table/entity reference
+# Audio File (msdyn_soundfile) table/entity reference (Microsoft Dynamics 365)
 
 Entity to store all audio files for Omnichannel
 

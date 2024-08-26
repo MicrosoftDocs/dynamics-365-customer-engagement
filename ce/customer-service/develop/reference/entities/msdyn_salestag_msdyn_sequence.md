@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_salestag_msdyn_sequence table/entity reference
+# msdyn_salestag_msdyn_sequence table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

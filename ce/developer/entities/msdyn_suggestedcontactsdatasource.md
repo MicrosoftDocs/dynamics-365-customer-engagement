@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Suggested Contacts Data Source (msdyn_suggestedcontactsdatasource) table/entity reference
+# Suggested Contacts Data Source (msdyn_suggestedcontactsdatasource) table/entity reference (Microsoft Dynamics 365)
 
 Suggested contacts data sources
 

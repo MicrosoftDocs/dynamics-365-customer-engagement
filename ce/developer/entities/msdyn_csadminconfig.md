@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# CSAdminConfig (msdyn_csadminconfig) table/entity reference
+# CSAdminConfig (msdyn_csadminconfig) table/entity reference (Microsoft Dynamics 365)
 
 
 

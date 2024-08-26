@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Contract Line (ContractDetail) table/entity reference
+# Contract Line (ContractDetail) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Line item in a contract that specifies the type of service a customer is entitled to.
 

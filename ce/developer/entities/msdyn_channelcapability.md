@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Channel Capability (msdyn_channelcapability) table/entity reference
+# Channel Capability (msdyn_channelcapability) table/entity reference (Microsoft Dynamics 365)
 
 The capability that a channel can enable, such as co-browse, screen sharing.
 

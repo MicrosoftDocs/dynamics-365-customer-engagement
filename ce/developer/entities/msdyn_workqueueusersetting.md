@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work list user setting (msdyn_workqueueusersetting) table/entity reference
+# Work list user setting (msdyn_workqueueusersetting) table/entity reference (Microsoft Dynamics 365)
 
 Entity created to store work list user setting
 

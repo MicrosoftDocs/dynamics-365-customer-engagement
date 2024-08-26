@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bookable Resource Category Assn (BookableResourceCategoryAssn) table/entity reference
+# Bookable Resource Category Assn (BookableResourceCategoryAssn) table/entity reference (Microsoft Dynamics 365)
 
 Association entity to model the categorization of resources.
 

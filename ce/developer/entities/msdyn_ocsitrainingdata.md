@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Training record (msdyn_ocsitrainingdata) table/entity reference
+# Training record (msdyn_ocsitrainingdata) table/entity reference (Microsoft Dynamics 365)
 
 Indicates individual training record to be used for model training
 

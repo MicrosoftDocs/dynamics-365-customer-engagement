@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Campaign table/entity reference
+# Campaign table/entity reference (Microsoft Dynamics 365)
 
 Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.
 

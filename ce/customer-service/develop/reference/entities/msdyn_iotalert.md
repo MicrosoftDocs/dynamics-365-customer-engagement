@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Alert (msdyn_iotalert) table/entity reference
+# IoT Alert (msdyn_iotalert) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

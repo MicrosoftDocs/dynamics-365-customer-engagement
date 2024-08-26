@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Provider (msdyn_provider) table/entity reference
+# Provider (msdyn_provider) table/entity reference (Microsoft Dynamics 365)
 
 A list of third-party providers that bring capabilities into the application.
 

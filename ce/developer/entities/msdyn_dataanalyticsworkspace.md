@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Data Analytics Workspace (msdyn_dataanalyticsworkspace) table/entity reference
+# Data Analytics Workspace (msdyn_dataanalyticsworkspace) table/entity reference (Microsoft Dynamics 365)
 
 Data Analytics Power BI Workspaces
 

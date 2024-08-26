@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Case topic Incident mapping (msdyn_casetopic_incident) table/entity reference
+# Case topic Incident mapping (msdyn_casetopic_incident) table/entity reference (Microsoft Dynamics 365)
 
 Cases mapping with the case topics
 

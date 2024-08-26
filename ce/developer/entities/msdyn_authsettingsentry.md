@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Auth Settings Entry (msdyn_authsettingsentry) table/entity reference
+# Auth Settings Entry (msdyn_authsettingsentry) table/entity reference (Microsoft Dynamics 365)
 
 
 

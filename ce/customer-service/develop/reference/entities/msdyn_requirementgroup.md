@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Requirement Group (msdyn_requirementgroup) table/entity reference
+# Requirement Group (msdyn_requirementgroup) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Service which has resource requirement offering periods
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Persona Security Role Mapping (msdyn_personasecurityrolemapping) table/entity reference
+# Persona Security Role Mapping (msdyn_personasecurityrolemapping) table/entity reference (Microsoft Dynamics 365)
 
 
 

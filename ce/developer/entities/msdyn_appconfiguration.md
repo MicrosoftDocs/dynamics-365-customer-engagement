@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# App profile (msdyn_appconfiguration) table/entity reference
+# App profile (msdyn_appconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 
 

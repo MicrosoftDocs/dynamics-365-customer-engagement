@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# ACS channel instance account (msdynmkt_byoacschannelinstanceaccount) table/entity reference
+# ACS channel instance account (msdynmkt_byoacschannelinstanceaccount) table/entity reference (Microsoft Dynamics 365)
 
 
 

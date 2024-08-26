@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# RTV Substatus (msdyn_rtvsubstatus) table/entity reference
+# RTV Substatus (msdyn_rtvsubstatus) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify custom RTV substatuses, which can be used to specify the current RTV status more precisely.
 

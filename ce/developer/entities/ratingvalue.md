@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Rating Value (RatingValue) table/entity reference
+# Rating Value (RatingValue) table/entity reference (Microsoft Dynamics 365)
 
 A unique value associated with a rating model that allows providing a user friendly rating value.
 

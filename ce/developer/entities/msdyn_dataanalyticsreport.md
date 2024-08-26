@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Data Analytics Report (msdyn_dataanalyticsreport) table/entity reference
+# Data Analytics Report (msdyn_dataanalyticsreport) table/entity reference (Microsoft Dynamics 365)
 
 Data Analytics Reports
 

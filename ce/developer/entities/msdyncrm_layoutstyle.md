@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Layout Style (msdyncrm_layoutstyle) table/entity reference
+# Layout Style (msdyncrm_layoutstyle) table/entity reference (Microsoft Dynamics 365)
 
 
 

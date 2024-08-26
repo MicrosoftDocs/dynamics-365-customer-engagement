@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# SalesOmnichannel Message (msdyn_salesocmessage) table/entity reference
+# SalesOmnichannel Message (msdyn_salesocmessage) table/entity reference (Microsoft Dynamics 365)
 
 
 

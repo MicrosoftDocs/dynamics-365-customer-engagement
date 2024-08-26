@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Social Profile (SocialProfile) table/entity reference
+# Social Profile (SocialProfile) table/entity reference (Microsoft Dynamics 365)
 
 This entity is used to store social profile information of its associated account and contacts on different social channels.
 

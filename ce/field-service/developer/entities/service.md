@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Service table/entity reference
+# Service table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Activity that represents work done to satisfy a customer's need.
 

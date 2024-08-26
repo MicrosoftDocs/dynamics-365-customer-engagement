@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work Order Resolution (msdyn_workorderresolution) table/entity reference
+# Work Order Resolution (msdyn_workorderresolution) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Quote Invoicing Product (msdyn_quoteinvoicingproduct) table/entity reference
+# Quote Invoicing Product (msdyn_quoteinvoicingproduct) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

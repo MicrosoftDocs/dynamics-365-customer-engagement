@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Upgrade Run (msdyn_upgraderun) table/entity reference
+# Upgrade Run (msdyn_upgraderun) table/entity reference (Microsoft Dynamics 365)
 
 Contains logging information about a run of a Package Deployer package that upgrades a solution
 

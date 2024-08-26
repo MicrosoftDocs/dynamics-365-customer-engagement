@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Suggested Activity (msdyn_suggestedactivity) table/entity reference
+# Suggested Activity (msdyn_suggestedactivity) table/entity reference (Microsoft Dynamics 365)
 
 Activity suggestions
 

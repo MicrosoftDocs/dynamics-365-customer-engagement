@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Microsoft Teams Graph resource Entity (msdyn_CollabGraphResource) table/entity reference
+# Microsoft Teams Graph resource Entity (msdyn_CollabGraphResource) table/entity reference (Microsoft Dynamics 365)
 
 Entity which stores collaboration data of Dynamics 365 with Microsoft Teams
 

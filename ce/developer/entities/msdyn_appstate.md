@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# App state (msdyn_appstate) table/entity reference
+# App state (msdyn_appstate) table/entity reference (Microsoft Dynamics 365)
 
 
 

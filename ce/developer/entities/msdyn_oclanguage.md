@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Language (msdyn_oclanguage) table/entity reference
+# Language (msdyn_oclanguage) table/entity reference (Microsoft Dynamics 365)
 
 
 

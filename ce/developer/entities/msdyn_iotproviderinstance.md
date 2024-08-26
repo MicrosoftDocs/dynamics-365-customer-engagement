@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Provider Instance (msdyn_iotproviderinstance) table/entity reference
+# IoT Provider Instance (msdyn_iotproviderinstance) table/entity reference (Microsoft Dynamics 365)
 
 An instance of an IoT Provider.
 

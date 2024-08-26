@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# List Operation (listoperation) table/entity reference
+# List Operation (listoperation) table/entity reference (Microsoft Dynamics 365)
 
 System operation used to perform lengthy and asynchronous list operations on large data sets, such as adding members to a list.
 

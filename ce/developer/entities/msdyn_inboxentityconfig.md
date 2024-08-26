@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Inbox Entity Configuration (msdyn_inboxentityconfig) table/entity reference
+# Inbox Entity Configuration (msdyn_inboxentityconfig) table/entity reference (Microsoft Dynamics 365)
 
 
 

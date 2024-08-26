@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Rollup Query (GoalRollupQuery) table/entity reference
+# Rollup Query (GoalRollupQuery) table/entity reference (Microsoft Dynamics 365)
 
 Query that is used to filter the results of the goal rollup.
 

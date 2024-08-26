@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Assignment Rule (msdyn_assignmentrule) table/entity reference
+# Assignment Rule (msdyn_assignmentrule) table/entity reference (Microsoft Dynamics 365)
 
 Defines criteria based on which Entities are routed to Users or Sales Team
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Account table/entity reference
+# Account table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Business that represents a customer or potential customer. The company that is billed in business transactions.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Post table/entity reference
+# Post table/entity reference (Microsoft Dynamics 365)
 
 An activity feed post.
 

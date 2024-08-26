@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Preferred Agent Routed Entity (msdyn_preferredagentroutedentity) table/entity reference
+# Preferred Agent Routed Entity (msdyn_preferredagentroutedentity) table/entity reference (Microsoft Dynamics 365)
 
 Preferred Agent Routed table used to store information for routed table name and customer identifying column on the table
 

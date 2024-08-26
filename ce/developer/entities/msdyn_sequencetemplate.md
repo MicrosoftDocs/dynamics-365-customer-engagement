@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sequence Template (msdyn_sequencetemplate) table/entity reference
+# Sequence Template (msdyn_sequencetemplate) table/entity reference (Microsoft Dynamics 365)
 
 
 

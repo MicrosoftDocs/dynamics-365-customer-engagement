@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Channel Integration Framework v2.0 Provider (msdyn_channelprovider) table/entity reference
+# Channel Integration Framework v2.0 Provider (msdyn_channelprovider) table/entity reference (Microsoft Dynamics 365)
 
 Entity that holds the configuration data for a third-party voice channel provider based on Channel Integration Framework v2.0
 

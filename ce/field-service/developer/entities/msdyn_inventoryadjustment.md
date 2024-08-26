@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Inventory Adjustment (msdyn_inventoryadjustment) table/entity reference
+# Inventory Adjustment (msdyn_inventoryadjustment) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Records inventory adjustments
 

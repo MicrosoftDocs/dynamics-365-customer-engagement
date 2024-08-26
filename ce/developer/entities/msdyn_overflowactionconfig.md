@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Overflow Action Config (msdyn_overflowactionconfig) table/entity reference
+# Overflow Action Config (msdyn_overflowactionconfig) table/entity reference (Microsoft Dynamics 365)
 
 Overflow action configurations.
 

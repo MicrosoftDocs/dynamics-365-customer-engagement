@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Notification Template (msdyn_notificationtemplate) table/entity reference
+# Notification Template (msdyn_notificationtemplate) table/entity reference (Microsoft Dynamics 365)
 
 
 

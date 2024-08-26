@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Follow (PostFollow) table/entity reference
+# Follow (PostFollow) table/entity reference (Microsoft Dynamics 365)
 
 Represents a user following the activity feed of an object.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Queue table/entity reference
+# Queue table/entity reference (Microsoft Dynamics 365)
 
 A list of records that require action, such as accounts, activities, and cases.
 

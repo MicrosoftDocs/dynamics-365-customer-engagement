@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bookable Resource Category (BookableResourceCategory) table/entity reference
+# Bookable Resource Category (BookableResourceCategory) table/entity reference (Microsoft Dynamics 365)
 
 Categorize resources that have capacity into categories such as roles.
 

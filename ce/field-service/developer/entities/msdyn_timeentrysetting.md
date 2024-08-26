@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Time Source (msdyn_timeentrysetting) table/entity reference
+# Time Source (msdyn_timeentrysetting) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Settings for Time Entry.
 

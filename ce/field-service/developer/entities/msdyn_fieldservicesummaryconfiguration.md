@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Field Service Summary Configuration (msdyn_FieldServiceSummaryConfiguration) table/entity reference
+# Field Service Summary Configuration (msdyn_FieldServiceSummaryConfiguration) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Configuration that defines what data related to a record Copilot may use to generate a summary.
 

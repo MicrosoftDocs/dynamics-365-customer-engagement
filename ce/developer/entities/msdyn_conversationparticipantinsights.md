@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Participant Insights (msdyn_ConversationParticipantInsights) table/entity reference
+# Conversation Participant Insights (msdyn_ConversationParticipantInsights) table/entity reference (Microsoft Dynamics 365)
 
 
 

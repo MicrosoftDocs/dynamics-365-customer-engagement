@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Teams Dialer Admin settings (msdyn_teamsdialeradminsettings) table/entity reference
+# Teams Dialer Admin settings (msdyn_teamsdialeradminsettings) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Routing diagnostic item (msdyn_unifiedroutingdiagnostic) table/entity reference
+# Routing diagnostic item (msdyn_unifiedroutingdiagnostic) table/entity reference (Microsoft Dynamics 365)
 
 The entity used to store unified routing diagnostic data.
 

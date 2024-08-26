@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Custom API Response Property (CustomAPIResponseProperty) table/entity reference
+# Custom API Response Property (CustomAPIResponseProperty) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Entity that defines a response property for a custom API
 

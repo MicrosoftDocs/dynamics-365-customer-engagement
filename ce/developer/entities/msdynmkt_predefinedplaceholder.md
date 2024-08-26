@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Predefined Placeholder (msdynmkt_predefinedplaceholder) table/entity reference
+# Predefined Placeholder (msdynmkt_predefinedplaceholder) table/entity reference (Microsoft Dynamics 365)
 
 
 

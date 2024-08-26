@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_relationshipinsightsunifiedconfig table/entity reference
+# msdyn_relationshipinsightsunifiedconfig table/entity reference (Microsoft Dynamics 365)
 
 
 

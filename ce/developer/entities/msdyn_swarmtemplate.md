@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Swarm template (msdyn_swarmtemplate) table/entity reference
+# Swarm template (msdyn_swarmtemplate) table/entity reference (Microsoft Dynamics 365)
 
 Entity which stores different templates for the swarm
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Session participant (msdyn_sessionparticipant) table/entity reference
+# Session participant (msdyn_sessionparticipant) table/entity reference (Microsoft Dynamics 365)
 
 Users in a session interacting with the customer
 

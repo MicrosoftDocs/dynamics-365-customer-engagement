@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Filter (msdyn_wallsavedqueryusersettings) table/entity reference
+# Filter (msdyn_wallsavedqueryusersettings) table/entity reference (Microsoft Dynamics 365)
 
 Contains user personalization information regarding which of the administrator’s selected views to display on a user’s personal wall.
 

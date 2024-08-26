@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Masking Rule (msdyn_maskingrule) table/entity reference
+# Masking Rule (msdyn_maskingrule) table/entity reference (Microsoft Dynamics 365)
 
 Masking Rules to apply to chat messages.
 

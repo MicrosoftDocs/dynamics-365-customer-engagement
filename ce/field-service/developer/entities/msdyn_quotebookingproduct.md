@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Quote Booking Product (msdyn_quotebookingproduct) table/entity reference
+# Quote Booking Product (msdyn_quotebookingproduct) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Provides ability to store information about the products that are associated with Quote Booking Setup
 

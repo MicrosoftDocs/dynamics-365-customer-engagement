@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Deprecated Workstream Entity Configuration (msdyn_entityconfig) table/entity reference
+# Deprecated Workstream Entity Configuration (msdyn_entityconfig) table/entity reference (Microsoft Dynamics 365)
 
 Stores entity routing configuration per workstream
 

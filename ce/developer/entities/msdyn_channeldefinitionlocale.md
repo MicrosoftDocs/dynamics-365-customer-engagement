@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Channel Definition Locale (msdyn_ChannelDefinitionLocale) table/entity reference
+# Channel Definition Locale (msdyn_ChannelDefinitionLocale) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Microsoft Teams chat suggestion (msdyn_teamschatsuggestion) table/entity reference
+# Microsoft Teams chat suggestion (msdyn_teamschatsuggestion) table/entity reference (Microsoft Dynamics 365)
 
 For internal use only
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# SI Key Value Config (msdyn_sikeyvalueconfig) table/entity reference
+# SI Key Value Config (msdyn_sikeyvalueconfig) table/entity reference (Microsoft Dynamics 365)
 
 
 

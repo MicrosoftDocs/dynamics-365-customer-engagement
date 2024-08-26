@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Custom API Request Parameter (CustomAPIRequestParameter) table/entity reference
+# Custom API Request Parameter (CustomAPIRequestParameter) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Entity that defines a request parameter for a custom API
 

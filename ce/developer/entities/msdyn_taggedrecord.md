@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Tagged Record (msdyn_taggedrecord) table/entity reference
+# Tagged Record (msdyn_taggedrecord) table/entity reference (Microsoft Dynamics 365)
 
 Tagged Record - Copilot for Sales
 

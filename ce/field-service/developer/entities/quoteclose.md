@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Quote Close (QuoteClose) table/entity reference
+# Quote Close (QuoteClose) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Activity generated when a quote is closed.
 

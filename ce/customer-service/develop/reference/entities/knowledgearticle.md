@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Knowledge Article (KnowledgeArticle) table/entity reference
+# Knowledge Article (KnowledgeArticle) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Organizational knowledge for internal and external use.
 

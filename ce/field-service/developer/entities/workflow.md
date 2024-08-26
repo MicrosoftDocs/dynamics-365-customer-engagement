@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Process (Workflow) table/entity reference
+# Process (Workflow) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Set of logical rules that define the steps necessary to automate a specific business process, task, or set of actions to be performed.
 

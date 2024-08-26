@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Live work item event (msdyn_liveworkitemevent) table/entity reference
+# Live work item event (msdyn_liveworkitemevent) table/entity reference (Microsoft Dynamics 365)
 
 This entity captures all events corresponding to a live work item.
 

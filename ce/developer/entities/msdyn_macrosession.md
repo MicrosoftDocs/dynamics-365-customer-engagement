@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Macro Run History (msdyn_macrosession) table/entity reference
+# Macro Run History (msdyn_macrosession) table/entity reference (Microsoft Dynamics 365)
 
 Stores history of macro runs
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_vivaorgsetting table/entity reference
+# msdyn_vivaorgsetting table/entity reference (Microsoft Dynamics 365)
 
 Org level settings for Copilot for Sales app
 

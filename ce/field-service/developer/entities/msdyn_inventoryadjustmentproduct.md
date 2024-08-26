@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Inventory Adjustment Product (msdyn_inventoryadjustmentproduct) table/entity reference
+# Inventory Adjustment Product (msdyn_inventoryadjustmentproduct) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Records product affected by an inventory adjustment or inventory transfer
 

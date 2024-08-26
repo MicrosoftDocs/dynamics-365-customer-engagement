@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Prediction Scheduled Operation (msdyn_predictionscheduledoperation) table/entity reference
+# Prediction Scheduled Operation (msdyn_predictionscheduledoperation) table/entity reference (Microsoft Dynamics 365)
 
 Contains meta-data about the scheduled operations.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# segmentsetting (msdyn_segmentationsetting) table/entity reference
+# segmentsetting (msdyn_segmentationsetting) table/entity reference (Microsoft Dynamics 365)
 
 
 

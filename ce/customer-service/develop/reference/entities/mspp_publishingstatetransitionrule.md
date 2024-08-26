@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Publishing State Transition Rule (mspp_publishingstatetransitionrule) table/entity reference
+# Publishing State Transition Rule (mspp_publishingstatetransitionrule) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

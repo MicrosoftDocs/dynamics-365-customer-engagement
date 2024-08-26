@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Knowledge Base Record (KnowledgeBaseRecord) table/entity reference
+# Knowledge Base Record (KnowledgeBaseRecord) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 entities.
 

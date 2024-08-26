@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Teams Contact Suggestion by AI (msdyn_aicontactsuggestion) table/entity reference
+# Teams Contact Suggestion by AI (msdyn_aicontactsuggestion) table/entity reference (Microsoft Dynamics 365)
 
 
 

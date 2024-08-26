@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Owner table/entity reference
+# Owner table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Group of undeleted system users and undeleted teams. Owners can be used to control access to specific objects.
 

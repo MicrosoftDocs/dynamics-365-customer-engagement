@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Property (DynamicProperty) table/entity reference
+# Property (DynamicProperty) table/entity reference (Microsoft Dynamics 365)
 
 Information about a product property.
 

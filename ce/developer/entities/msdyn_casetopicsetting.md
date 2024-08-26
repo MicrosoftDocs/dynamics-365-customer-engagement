@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Case Topic Setting (msdyn_casetopicsetting) table/entity reference
+# Case Topic Setting (msdyn_casetopicsetting) table/entity reference (Microsoft Dynamics 365)
 
 Case Topic Setting Entity
 

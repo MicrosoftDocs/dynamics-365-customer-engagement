@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Daily kpis for contact (msdyn_dailycontactkpiitem) table/entity reference
+# Daily kpis for contact (msdyn_dailycontactkpiitem) table/entity reference (Microsoft Dynamics 365)
 
 
 

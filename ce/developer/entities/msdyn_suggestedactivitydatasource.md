@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Suggested Activity Data Source (msdyn_suggestedactivitydatasource) table/entity reference
+# Suggested Activity Data Source (msdyn_suggestedactivitydatasource) table/entity reference (Microsoft Dynamics 365)
 
 Suggested Activity Data Sources
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# UserSettings (msdyn_sciusersettings) table/entity reference
+# UserSettings (msdyn_sciusersettings) table/entity reference (Microsoft Dynamics 365)
 
 SCI user level settings
 

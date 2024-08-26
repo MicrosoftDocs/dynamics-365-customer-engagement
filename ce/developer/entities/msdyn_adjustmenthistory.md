@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Forecast Manual Adjustment History (msdyn_adjustmenthistory) table/entity reference
+# Forecast Manual Adjustment History (msdyn_adjustmenthistory) table/entity reference (Microsoft Dynamics 365)
 
 Forecast Manual Adjustment History
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Session Templates (Deprecated) (msdyn_consoleapplicationsessiontemplate) table/entity reference
+# Session Templates (Deprecated) (msdyn_consoleapplicationsessiontemplate) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

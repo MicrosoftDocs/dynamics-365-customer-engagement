@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Channel Integration Framework v1.0 Provider (msdyn_ciprovider) table/entity reference
+# Channel Integration Framework v1.0 Provider (msdyn_ciprovider) table/entity reference (Microsoft Dynamics 365)
 
 Entity that holds the configuration data for a channel provider based on Channel Integration Framework v1.0
 

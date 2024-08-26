@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Field Service Frontline Worker Configuration (msdyn_flwconfiguration) table/entity reference
+# Field Service Frontline Worker Configuration (msdyn_flwconfiguration) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Stores configuration settings of Frontline worker consuming Field Service entities.
 

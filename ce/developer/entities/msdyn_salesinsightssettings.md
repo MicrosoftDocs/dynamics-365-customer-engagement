@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# salesinsightssettings (msdyn_salesinsightssettings) table/entity reference
+# salesinsightssettings (msdyn_salesinsightssettings) table/entity reference (Microsoft Dynamics 365)
 
 Storing settings for studio feature
 

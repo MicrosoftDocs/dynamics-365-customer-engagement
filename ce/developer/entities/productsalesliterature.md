@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# ProductSalesLiterature table/entity reference
+# ProductSalesLiterature table/entity reference (Microsoft Dynamics 365)
 
 
 

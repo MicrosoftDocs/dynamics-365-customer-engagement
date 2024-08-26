@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# AddToCalendar style (msdyncrm_addtocalendarstyle) table/entity reference
+# AddToCalendar style (msdyncrm_addtocalendarstyle) table/entity reference (Microsoft Dynamics 365)
 
 
 

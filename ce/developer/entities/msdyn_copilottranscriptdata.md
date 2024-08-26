@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Copilot Transcript Data (msdyn_copilottranscriptdata) table/entity reference
+# Copilot Transcript Data (msdyn_copilottranscriptdata) table/entity reference (Microsoft Dynamics 365)
 
 
 

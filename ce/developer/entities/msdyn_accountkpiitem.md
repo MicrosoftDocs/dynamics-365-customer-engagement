@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Account KPI Item (msdyn_accountkpiitem) table/entity reference
+# Account KPI Item (msdyn_accountkpiitem) table/entity reference (Microsoft Dynamics 365)
 
 
 

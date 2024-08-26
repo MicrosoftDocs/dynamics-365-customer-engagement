@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Incident Type (msdyn_incidenttype) table/entity reference
+# Incident Type (msdyn_incidenttype) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Incident types define the various types of incidents (issues) that a customer could report, on which work orders are based.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Goal table/entity reference
+# Goal table/entity reference (Microsoft Dynamics 365)
 
 Target objective for a user or a team for a specified time period.
 

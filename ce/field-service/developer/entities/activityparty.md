@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Activity Party (ActivityParty) table/entity reference
+# Activity Party (ActivityParty) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Person or group associated with an activity. An activity can have multiple activity parties.
 

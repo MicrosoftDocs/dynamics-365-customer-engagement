@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entity-Workstream Map (msdyn_entityWorkstreamMap) table/entity reference
+# Entity-Workstream Map (msdyn_entityWorkstreamMap) table/entity reference (Microsoft Dynamics 365)
 
 This notes the entity (queue, agent etc.) mapped to the workstreams.
 

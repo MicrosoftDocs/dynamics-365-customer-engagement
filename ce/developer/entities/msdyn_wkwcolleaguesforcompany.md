@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# wkwcolleaguesforcompany (msdyn_wkwcolleaguesforcompany) table/entity reference
+# wkwcolleaguesforcompany (msdyn_wkwcolleaguesforcompany) table/entity reference (Microsoft Dynamics 365)
 
 
 

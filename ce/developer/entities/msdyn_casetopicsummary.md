@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Case Topic Summary (msdyn_casetopicsummary) table/entity reference
+# Case Topic Summary (msdyn_casetopicsummary) table/entity reference (Microsoft Dynamics 365)
 
 Case Topic Summary Entity
 

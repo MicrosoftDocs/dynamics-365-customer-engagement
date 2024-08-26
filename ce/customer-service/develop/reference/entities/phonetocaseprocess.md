@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Phone To Case Process (PhoneToCaseProcess) table/entity reference
+# Phone To Case Process (PhoneToCaseProcess) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Phone To Case Process Business Process Flow
 

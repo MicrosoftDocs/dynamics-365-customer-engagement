@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Invoice Product (InvoiceDetail) table/entity reference
+# Invoice Product (InvoiceDetail) table/entity reference (Microsoft Dynamics 365)
 
 Line item in an invoice containing detailed billing information for a product.
 

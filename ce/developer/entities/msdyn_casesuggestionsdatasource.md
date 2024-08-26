@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Case Suggestions Data Souce (msdyn_casesuggestionsdatasource) table/entity reference
+# Case Suggestions Data Souce (msdyn_casesuggestionsdatasource) table/entity reference (Microsoft Dynamics 365)
 
 
 

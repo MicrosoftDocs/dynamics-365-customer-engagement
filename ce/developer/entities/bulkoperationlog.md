@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bulk Operation Log (BulkOperationLog) table/entity reference
+# Bulk Operation Log (BulkOperationLog) table/entity reference (Microsoft Dynamics 365)
 
 Log used to track bulk operation execution, successes, and failures.
 

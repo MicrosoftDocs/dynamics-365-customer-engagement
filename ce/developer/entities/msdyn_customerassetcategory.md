@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Asset Category (msdyn_customerassetcategory) table/entity reference
+# Customer Asset Category (msdyn_customerassetcategory) table/entity reference (Microsoft Dynamics 365)
 
 The Category of Customer Asset.
 

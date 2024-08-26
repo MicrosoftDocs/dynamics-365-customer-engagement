@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Security Role (Role) table/entity reference
+# Security Role (Role) table/entity reference (Microsoft Dynamics 365)
 
 Grouping of security privileges. Users are assigned roles that authorize their access to the Microsoft CRM system.
 

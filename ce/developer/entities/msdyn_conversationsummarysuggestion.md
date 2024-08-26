@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Summary Suggestion (msdyn_ConversationSummarySuggestion) table/entity reference
+# Conversation Summary Suggestion (msdyn_ConversationSummarySuggestion) table/entity reference (Microsoft Dynamics 365)
 
 
 

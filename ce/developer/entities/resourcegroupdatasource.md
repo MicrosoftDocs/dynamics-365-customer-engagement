@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# resource group data source (resourcegroupdatasource) table/entity reference
+# resource group data source (resourcegroupdatasource) table/entity reference (Microsoft Dynamics 365)
 
 
 

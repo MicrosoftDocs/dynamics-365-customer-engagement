@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Warehouse (msdyn_warehouse) table/entity reference
+# Warehouse (msdyn_warehouse) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Warehouses where inventory products are stored and managed
 

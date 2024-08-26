@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Custom Highlight (msdyn_SciCustomHighlight) table/entity reference
+# Custom Highlight (msdyn_SciCustomHighlight) table/entity reference (Microsoft Dynamics 365)
 
 Highlight of relevant conversation section
 

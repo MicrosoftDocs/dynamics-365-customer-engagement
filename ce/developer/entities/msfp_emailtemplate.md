@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Voice survey email template (msfp_emailtemplate) table/entity reference
+# Customer Voice survey email template (msfp_emailtemplate) table/entity reference (Microsoft Dynamics 365)
 
 Template for an email message that contains the survey invitation link.
 

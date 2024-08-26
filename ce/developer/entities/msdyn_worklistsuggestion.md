@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work List Suggestion (msdyn_worklistsuggestion) table/entity reference
+# Work List Suggestion (msdyn_worklistsuggestion) table/entity reference (Microsoft Dynamics 365)
 
 
 

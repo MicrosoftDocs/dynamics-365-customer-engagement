@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Keywords Description Suggestion Setting (msdyn_kbkeywordsdescsuggestionsetting) table/entity reference
+# Keywords Description Suggestion Setting (msdyn_kbkeywordsdescsuggestionsetting) table/entity reference (Microsoft Dynamics 365)
 
 Keywords Description Suggestion settings entity
 

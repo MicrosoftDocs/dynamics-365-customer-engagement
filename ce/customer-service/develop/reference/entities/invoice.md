@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Invoice table/entity reference
+# Invoice table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Order that has been billed.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Seller attribute (msdyn_attribute) table/entity reference
+# Seller attribute (msdyn_attribute) table/entity reference (Microsoft Dynamics 365)
 
 Sales Attribute
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_appconfiguration_sessiontemplate table/entity reference
+# msdyn_appconfiguration_sessiontemplate table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

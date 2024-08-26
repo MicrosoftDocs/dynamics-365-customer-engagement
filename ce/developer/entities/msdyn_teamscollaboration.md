@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Microsoft Teams Collaboration entity (msdyn_TeamsCollaboration) table/entity reference
+# Microsoft Teams Collaboration entity (msdyn_TeamsCollaboration) table/entity reference (Microsoft Dynamics 365)
 
 Entity which stores collaboration data of Dynamics 365 with Microsoft Teams
 

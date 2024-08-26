@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Preferred Agent Customer Identity (msdyn_preferredagentcustomeridentity) table/entity reference
+# Preferred Agent Customer Identity (msdyn_preferredagentcustomeridentity) table/entity reference (Microsoft Dynamics 365)
 
 Used for storing the table used to identify customer and the corresponding associated table
 

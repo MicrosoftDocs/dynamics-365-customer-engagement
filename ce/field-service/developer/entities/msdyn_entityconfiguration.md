@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entity Configuration (msdyn_entityconfiguration) table/entity reference
+# Entity Configuration (msdyn_entityconfiguration) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Enables records for an entity type to act as geofences or tracking points.
 

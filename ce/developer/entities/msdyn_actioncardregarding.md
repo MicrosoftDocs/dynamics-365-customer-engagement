@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Action Card Regarding (msdyn_actioncardregarding) table/entity reference
+# Action Card Regarding (msdyn_actioncardregarding) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# ChannelAccessProfileEntityAccessLevel table/entity reference
+# ChannelAccessProfileEntityAccessLevel table/entity reference (Microsoft Dynamics 365)
 
 Group of privileges used to categorize users to provide appropriate access to entities.
 

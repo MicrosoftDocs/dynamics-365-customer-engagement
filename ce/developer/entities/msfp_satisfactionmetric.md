@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Voice satisfaction metric (msfp_satisfactionmetric) table/entity reference
+# Customer Voice satisfaction metric (msfp_satisfactionmetric) table/entity reference (Microsoft Dynamics 365)
 
 Satisfaction metric defined for a project.
 

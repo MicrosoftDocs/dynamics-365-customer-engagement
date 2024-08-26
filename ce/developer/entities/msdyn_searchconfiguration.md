@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Search Configuration (msdyn_searchconfiguration) table/entity reference
+# Search Configuration (msdyn_searchconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 Configuration entity for agent search screen
 

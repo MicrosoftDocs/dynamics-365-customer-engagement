@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Text message template (msdyn_salesocsmstemplate) table/entity reference
+# Text message template (msdyn_salesocsmstemplate) table/entity reference (Microsoft Dynamics 365)
 
 
 

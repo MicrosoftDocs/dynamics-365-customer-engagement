@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_DefExtendedChannelInstanceAccount table/entity reference
+# msdyn_DefExtendedChannelInstanceAccount table/entity reference (Microsoft Dynamics 365)
 
 
 

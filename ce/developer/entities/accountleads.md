@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# AccountLeads table/entity reference
+# AccountLeads table/entity reference (Microsoft Dynamics 365)
 
 description.
 

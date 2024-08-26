@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work Order (msdyn_workorder) table/entity reference
+# Work Order (msdyn_workorder) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Work orders store all information about the job performed for an account. Stores incident details, resource, expenses, tasks, communications, billing and more
 

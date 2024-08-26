@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Copilot Interaction Data (msdyn_copilotinteractiondata) table/entity reference
+# Copilot Interaction Data (msdyn_copilotinteractiondata) table/entity reference (Microsoft Dynamics 365)
 
 
 

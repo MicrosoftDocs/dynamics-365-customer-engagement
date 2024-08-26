@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Campaign Activity (CampaignActivity) table/entity reference
+# Campaign Activity (CampaignActivity) table/entity reference (Microsoft Dynamics 365)
 
 Task performed, or to be performed, by a user for planning or running a campaign.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Booking Alert (msdyn_bookingalert) table/entity reference
+# Booking Alert (msdyn_bookingalert) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Alerts that notify schedule board users of booking issues or information.
 

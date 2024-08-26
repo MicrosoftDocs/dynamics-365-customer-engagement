@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Voice survey reminder (msfp_surveyreminder) table/entity reference
+# Customer Voice survey reminder (msfp_surveyreminder) table/entity reference (Microsoft Dynamics 365)
 
 Email reminders for surveys created in Customer Voice.
 

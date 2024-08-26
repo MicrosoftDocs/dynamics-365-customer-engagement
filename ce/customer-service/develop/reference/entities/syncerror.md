@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sync Error (SyncError) table/entity reference
+# Sync Error (SyncError) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Failure reason and other detailed information for a record that failed to sync.
 

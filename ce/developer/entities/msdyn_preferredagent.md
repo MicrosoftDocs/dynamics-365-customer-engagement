@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Preferred Agent (msdyn_preferredagent) table/entity reference
+# Preferred Agent (msdyn_preferredagent) table/entity reference (Microsoft Dynamics 365)
 
 Preferred Agent Table, table used to store the mapping between the system user and contact/account
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# dealmanageraccess (msdyn_dealmanageraccess) table/entity reference
+# dealmanageraccess (msdyn_dealmanageraccess) table/entity reference (Microsoft Dynamics 365)
 
 
 

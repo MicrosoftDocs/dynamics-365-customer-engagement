@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Forecast Prediction Status (msdyn_forecastpredictionstatus) table/entity reference
+# Forecast Prediction Status (msdyn_forecastpredictionstatus) table/entity reference (Microsoft Dynamics 365)
 
 Forecast Prediction Status
 

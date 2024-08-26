@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sentiment analysis (msdyn_sentimentanalysis) table/entity reference
+# Sentiment analysis (msdyn_sentimentanalysis) table/entity reference (Microsoft Dynamics 365)
 
 Sentiment analysis configuration
 

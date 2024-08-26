@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Territory table/entity reference
+# Territory table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Territory represents sales regions.
 

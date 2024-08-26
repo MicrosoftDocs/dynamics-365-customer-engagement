@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Template Parameter (msdyn_templateparameter) table/entity reference
+# Template Parameter (msdyn_templateparameter) table/entity reference (Microsoft Dynamics 365)
 
 
 

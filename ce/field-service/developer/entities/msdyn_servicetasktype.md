@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Service Task Type (msdyn_servicetasktype) table/entity reference
+# Service Task Type (msdyn_servicetasktype) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify the different service task and labor types that your resources perform as part of their work orders.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# App profile role mapping (msdyn_appprofilerolemapping) table/entity reference
+# App profile role mapping (msdyn_appprofilerolemapping) table/entity reference (Microsoft Dynamics 365)
 
 
 

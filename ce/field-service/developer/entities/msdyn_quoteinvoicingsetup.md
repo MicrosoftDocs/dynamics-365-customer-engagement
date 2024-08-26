@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Quote Invoicing Setup (msdyn_quoteinvoicingsetup) table/entity reference
+# Quote Invoicing Setup (msdyn_quoteinvoicingsetup) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

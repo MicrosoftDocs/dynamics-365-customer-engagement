@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Swarm skill (msdyn_swarmskill) table/entity reference
+# Swarm skill (msdyn_swarmskill) table/entity reference (Microsoft Dynamics 365)
 
 Stores the skills required for the swarm
 

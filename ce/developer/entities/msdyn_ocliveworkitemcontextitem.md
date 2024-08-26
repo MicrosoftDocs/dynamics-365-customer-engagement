@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Context item value (msdyn_ocliveworkitemcontextitem) table/entity reference
+# Context item value (msdyn_ocliveworkitemcontextitem) table/entity reference (Microsoft Dynamics 365)
 
 Stores context item values for an engagement.
 

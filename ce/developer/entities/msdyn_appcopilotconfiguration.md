@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# App Profile Copilot Configuration (msdyn_appcopilotconfiguration) table/entity reference
+# App Profile Copilot Configuration (msdyn_appcopilotconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Interaction for Email (InteractionForEmail) table/entity reference
+# Interaction for Email (InteractionForEmail) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

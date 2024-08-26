@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Omnichannel Realtime analytics (msdyn_dataanalyticsreport_oc_rt) table/entity reference
+# Omnichannel Realtime analytics (msdyn_dataanalyticsreport_oc_rt) table/entity reference (Microsoft Dynamics 365)
 
 Omnichannel Realtime analytics
 

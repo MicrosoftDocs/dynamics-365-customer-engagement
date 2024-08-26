@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# RTV Product (msdyn_rtvproduct) table/entity reference
+# RTV Product (msdyn_rtvproduct) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Records products to be returned on an RTV
 

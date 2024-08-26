@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Opportunity table/entity reference
+# Opportunity table/entity reference (Microsoft Dynamics 365)
 
 Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# KB Enrichment (msdyn_kbenrichment) table/entity reference
+# KB Enrichment (msdyn_kbenrichment) table/entity reference (Microsoft Dynamics 365)
 
 
 

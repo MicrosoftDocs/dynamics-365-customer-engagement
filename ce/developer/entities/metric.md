@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Goal Metric (Metric) table/entity reference
+# Goal Metric (Metric) table/entity reference (Microsoft Dynamics 365)
 
 Type of measurement for a goal, such as money amount or count.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Device Visualization Configuration (msdyn_iotdevicevisualizationconfiguration) table/entity reference
+# IoT Device Visualization Configuration (msdyn_iotdevicevisualizationconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 IoT Device Visualization Configuration
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# admin_settings_entity (adminsettingsentity) table/entity reference
+# admin_settings_entity (adminsettingsentity) table/entity reference (Microsoft Dynamics 365)
 
 
 

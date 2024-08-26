@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Session (msdyn_ocsession) table/entity reference
+# Session (msdyn_ocsession) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Session for interacting with a customer
 

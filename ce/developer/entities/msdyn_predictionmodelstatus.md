@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Prediction Model Status (msdyn_predictionmodelstatus) table/entity reference
+# Prediction Model Status (msdyn_predictionmodelstatus) table/entity reference (Microsoft Dynamics 365)
 
 Stores metadata about predictive models
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Service Activity (ServiceAppointment) table/entity reference
+# Service Activity (ServiceAppointment) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.
 

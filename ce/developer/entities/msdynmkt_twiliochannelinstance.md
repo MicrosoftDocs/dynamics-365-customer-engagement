@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Twilio channel instance (msdynmkt_twiliochannelinstance) table/entity reference
+# Twilio channel instance (msdynmkt_twiliochannelinstance) table/entity reference (Microsoft Dynamics 365)
 
 
 

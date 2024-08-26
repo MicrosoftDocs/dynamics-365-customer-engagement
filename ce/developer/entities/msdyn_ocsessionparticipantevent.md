@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Session Participant Event (msdyn_ocsessionparticipantevent) table/entity reference
+# Session Participant Event (msdyn_ocsessionparticipantevent) table/entity reference (Microsoft Dynamics 365)
 
 Session participant events
 

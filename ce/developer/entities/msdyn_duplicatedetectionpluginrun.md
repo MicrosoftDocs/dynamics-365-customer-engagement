@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Duplicate Detection Plugin Run (msdyn_duplicatedetectionpluginrun) table/entity reference
+# Duplicate Detection Plugin Run (msdyn_duplicatedetectionpluginrun) table/entity reference (Microsoft Dynamics 365)
 
 Duplicate Detection Plugin Run used to track successful and failure state of the Duplicate Detection Plugin
 

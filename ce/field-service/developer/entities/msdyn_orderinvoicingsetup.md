@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Order Invoicing Setup (msdyn_orderinvoicingsetup) table/entity reference
+# Order Invoicing Setup (msdyn_orderinvoicingsetup) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

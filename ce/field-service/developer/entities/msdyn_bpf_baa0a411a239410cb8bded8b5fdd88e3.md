@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agreement Business Process (msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3) table/entity reference
+# Agreement Business Process (msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Base entity for process Agreement Business Process
 

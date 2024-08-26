@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Device Property (msdyn_iotdeviceproperty) table/entity reference
+# IoT Device Property (msdyn_iotdeviceproperty) table/entity reference (Microsoft Dynamics 365)
 
 Link entity between IoT Device Category and IoT Property Definition. This is used to model properties and tags for devices.
 

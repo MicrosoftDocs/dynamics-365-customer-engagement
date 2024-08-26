@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entity table/entity reference
+# Entity table/entity reference (Microsoft Dynamics 365)
 
 
 

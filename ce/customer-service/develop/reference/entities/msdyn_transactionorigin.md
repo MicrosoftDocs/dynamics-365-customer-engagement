@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Transaction Origin (msdyn_transactionorigin) table/entity reference
+# Transaction Origin (msdyn_transactionorigin) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 System entity used to record the source of a project cost or sales actual.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# DigitalSellingCompletedTask (msdyn_digitalsellingcompletedtask) table/entity reference
+# DigitalSellingCompletedTask (msdyn_digitalsellingcompletedtask) table/entity reference (Microsoft Dynamics 365)
 
 
 

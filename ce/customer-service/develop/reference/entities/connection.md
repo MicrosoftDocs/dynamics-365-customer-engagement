@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Connection table/entity reference
+# Connection table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Relationship between two entities.
 

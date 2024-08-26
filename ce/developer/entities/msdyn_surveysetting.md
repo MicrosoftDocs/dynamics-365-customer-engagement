@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Survey setting (msdyn_surveysetting) table/entity reference
+# Survey setting (msdyn_surveysetting) table/entity reference (Microsoft Dynamics 365)
 
 
 

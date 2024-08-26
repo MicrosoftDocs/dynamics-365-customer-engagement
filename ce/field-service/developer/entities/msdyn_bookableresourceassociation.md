@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bookable Resource Association (msdyn_bookableresourceassociation) table/entity reference
+# Bookable Resource Association (msdyn_bookableresourceassociation) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

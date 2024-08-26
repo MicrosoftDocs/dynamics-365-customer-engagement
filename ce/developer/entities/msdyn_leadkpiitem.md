@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Lead KPI Item (msdyn_leadkpiitem) table/entity reference
+# Lead KPI Item (msdyn_leadkpiitem) table/entity reference (Microsoft Dynamics 365)
 
 
 

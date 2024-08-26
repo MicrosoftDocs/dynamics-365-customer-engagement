@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entitlement Template (EntitlementTemplate) table/entity reference
+# Entitlement Template (EntitlementTemplate) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Contains predefined customer support terms that can be used to created entitlements for customers.
 

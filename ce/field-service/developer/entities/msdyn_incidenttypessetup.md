@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Incident Types Setup (msdyn_incidenttypessetup) table/entity reference
+# Incident Types Setup (msdyn_incidenttypessetup) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Service entity necessary for the setup of the recurrent suggested duration calculations for all the incident types.
 

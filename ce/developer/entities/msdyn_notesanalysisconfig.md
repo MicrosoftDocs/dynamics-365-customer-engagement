@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Notes analysis Config (msdyn_notesanalysisconfig) table/entity reference
+# Notes analysis Config (msdyn_notesanalysisconfig) table/entity reference (Microsoft Dynamics 365)
 
 
 

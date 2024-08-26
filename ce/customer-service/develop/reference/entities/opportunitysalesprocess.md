@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Opportunity Sales Process (OpportunitySalesProcess) table/entity reference
+# Opportunity Sales Process (OpportunitySalesProcess) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Opportunity Sales Process Business Process Flow
 

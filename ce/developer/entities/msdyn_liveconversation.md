@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Ongoing conversation (Deprecated) (msdyn_liveconversation) table/entity reference
+# Ongoing conversation (Deprecated) (msdyn_liveconversation) table/entity reference (Microsoft Dynamics 365)
 
 Tracks the interactions between the agents and customer
 

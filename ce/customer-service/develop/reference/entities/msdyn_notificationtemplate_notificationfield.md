@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_notificationtemplate_notificationfield table/entity reference
+# msdyn_notificationtemplate_notificationfield table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

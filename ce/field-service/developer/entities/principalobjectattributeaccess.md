@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Field Sharing (PrincipalObjectAttributeAccess) table/entity reference
+# Field Sharing (PrincipalObjectAttributeAccess) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Defines CRM security principals (users and teams) access rights to secured field for an entity instance.
 

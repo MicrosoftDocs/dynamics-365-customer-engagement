@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Usage Metric (msdyn_usagemetric) table/entity reference
+# Usage Metric (msdyn_usagemetric) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bookable Resource Booking Quick Note (msdyn_bookableresourcebookingquicknote) table/entity reference
+# Bookable Resource Booking Quick Note (msdyn_bookableresourcebookingquicknote) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

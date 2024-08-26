@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Content Block (msdyncrm_contentblockstyle) table/entity reference
+# Content Block (msdyncrm_contentblockstyle) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Inspection (msdyn_inspectioninstance) table/entity reference
+# Inspection (msdyn_inspectioninstance) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

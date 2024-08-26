@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Field Service Setting (msdyn_fieldservicesetting) table/entity reference
+# Field Service Setting (msdyn_fieldservicesetting) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Settings controlling functionality related to Field Service
 

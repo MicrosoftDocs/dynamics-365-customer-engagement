@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Button style (msdyncrm_buttonstyle) table/entity reference
+# Button style (msdyncrm_buttonstyle) table/entity reference (Microsoft Dynamics 365)
 
 
 

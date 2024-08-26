@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Template Tag (Deprecated) (msdyn_templatetags) table/entity reference
+# Template Tag (Deprecated) (msdyn_templatetags) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Tags associated with templates. Templates are discovered via tags
 

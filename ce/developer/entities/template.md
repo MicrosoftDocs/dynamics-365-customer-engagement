@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Email Template (Template) table/entity reference
+# Email Template (Template) table/entity reference (Microsoft Dynamics 365)
 
 Template for an email message that contains the standard attributes of an email message.
 

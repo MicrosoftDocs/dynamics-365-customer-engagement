@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Playbook (msdyn_playbookinstance) table/entity reference
+# Playbook (msdyn_playbookinstance) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Actual instance of a playbook template once it is launched.
 

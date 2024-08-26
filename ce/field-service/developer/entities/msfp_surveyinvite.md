@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Voice survey invite (msfp_surveyinvite) table/entity reference
+# Customer Voice survey invite (msfp_surveyinvite) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Activity that tracks a survey invitation sent to a person.
 

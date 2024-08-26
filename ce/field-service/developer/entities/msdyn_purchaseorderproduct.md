@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Purchase Order Product (msdyn_purchaseorderproduct) table/entity reference
+# Purchase Order Product (msdyn_purchaseorderproduct) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Record products to be ordered on purchase order
 

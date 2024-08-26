@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Social Activity (SocialActivity) table/entity reference
+# Social Activity (SocialActivity) table/entity reference (Microsoft Dynamics 365)
 
 For internal use only.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Swarm (msdyn_swarm) table/entity reference
+# Swarm (msdyn_swarm) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Tracks the list of swarms created by agents to resolve the customer issues
 

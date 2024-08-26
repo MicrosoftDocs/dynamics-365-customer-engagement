@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Field service historical analytics (msdyn_dataanalyticsreport_fs) table/entity reference
+# Field service historical analytics (msdyn_dataanalyticsreport_fs) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Field service historical analytics
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Booking Alert Status (msdyn_bookingalertstatus) table/entity reference
+# Booking Alert Status (msdyn_bookingalertstatus) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 The status of a booking alert.
 

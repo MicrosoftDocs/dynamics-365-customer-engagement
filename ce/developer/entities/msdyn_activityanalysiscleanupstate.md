@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Activity Analysis CleanUp State (msdyn_activityanalysiscleanupstate) table/entity reference
+# Activity Analysis CleanUp State (msdyn_activityanalysiscleanupstate) table/entity reference (Microsoft Dynamics 365)
 
 
 

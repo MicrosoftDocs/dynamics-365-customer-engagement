@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Action (msdyn_conversationaction) table/entity reference
+# Conversation Action (msdyn_conversationaction) table/entity reference (Microsoft Dynamics 365)
 
 The action that can be performed in the conversation.
 

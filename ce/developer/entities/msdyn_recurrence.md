@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Forecast Recurrence (msdyn_recurrence) table/entity reference
+# Forecast Recurrence (msdyn_recurrence) table/entity reference (Microsoft Dynamics 365)
 
 Forecast Recurrence
 

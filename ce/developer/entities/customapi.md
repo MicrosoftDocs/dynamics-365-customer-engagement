@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Custom API (CustomAPI) table/entity reference
+# Custom API (CustomAPI) table/entity reference (Microsoft Dynamics 365)
 
 Entity that defines a custom API
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agreement Booking Date (msdyn_agreementbookingdate) table/entity reference
+# Agreement Booking Date (msdyn_agreementbookingdate) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify the maintenance booking dates for the agreement.
 

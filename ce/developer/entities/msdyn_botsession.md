@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bot Session (msdyn_botsession) table/entity reference
+# Bot Session (msdyn_botsession) table/entity reference (Microsoft Dynamics 365)
 
 Bot specific sessions
 

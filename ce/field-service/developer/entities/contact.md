@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Contact table/entity reference
+# Contact table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
 

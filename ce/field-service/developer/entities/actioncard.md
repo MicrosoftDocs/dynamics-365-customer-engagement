@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Action Card (ActionCard) table/entity reference
+# Action Card (ActionCard) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Action card entity to show action cards.
 

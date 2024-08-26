@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Site table/entity reference
+# Site table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Location or branch office where an organization does business. An organization can have multiple sites.
 

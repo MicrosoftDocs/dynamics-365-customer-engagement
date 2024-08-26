@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# AdminAppState (msdyn_adminappstate) table/entity reference
+# AdminAppState (msdyn_adminappstate) table/entity reference (Microsoft Dynamics 365)
 
 State for each user in Admin App
 

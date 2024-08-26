@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# RMA Receipt (msdyn_rmareceipt) table/entity reference
+# RMA Receipt (msdyn_rmareceipt) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify RMA receipt.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Priority (msdyn_priority) table/entity reference
+# Priority (msdyn_priority) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Priorities to be used on bookings. In addition, a color could be specified for each priority type and the color selected will be shown visually on the schedule board.
 

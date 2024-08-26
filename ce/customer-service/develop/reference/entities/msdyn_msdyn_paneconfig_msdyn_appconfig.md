@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_msdyn_paneconfig_msdyn_appconfig table/entity reference
+# msdyn_msdyn_paneconfig_msdyn_appconfig table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

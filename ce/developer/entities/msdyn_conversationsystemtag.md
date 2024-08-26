@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation System Tag (msdyn_ConversationSystemTag) table/entity reference
+# Conversation System Tag (msdyn_ConversationSystemTag) table/entity reference (Microsoft Dynamics 365)
 
 
 

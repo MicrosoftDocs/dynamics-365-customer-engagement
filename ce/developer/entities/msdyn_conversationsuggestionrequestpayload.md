@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# conversationsuggestionrequestpayload (msdyn_conversationsuggestionrequestpayload) table/entity reference
+# conversationsuggestionrequestpayload (msdyn_conversationsuggestionrequestpayload) table/entity reference (Microsoft Dynamics 365)
 
 Conversation Suggestion Request Payload
 

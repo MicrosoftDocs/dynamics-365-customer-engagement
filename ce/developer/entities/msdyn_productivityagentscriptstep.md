@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agent script step (msdyn_productivityagentscriptstep) table/entity reference
+# Agent script step (msdyn_productivityagentscriptstep) table/entity reference (Microsoft Dynamics 365)
 
 
 

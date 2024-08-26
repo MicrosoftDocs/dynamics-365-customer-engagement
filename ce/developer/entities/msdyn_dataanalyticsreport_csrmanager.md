@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Service historical analytics (msdyn_dataanalyticsreport_csrmanager) table/entity reference
+# Customer Service historical analytics (msdyn_dataanalyticsreport_csrmanager) table/entity reference (Microsoft Dynamics 365)
 
 Customer Service historical analytics
 

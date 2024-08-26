@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Inspection Attachment (msdyn_inspectionattachment) table/entity reference
+# Inspection Attachment (msdyn_inspectionattachment) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Entity used to save the attachment details of an Inspection Response.
 

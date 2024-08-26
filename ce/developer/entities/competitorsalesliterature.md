@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# CompetitorSalesLiterature table/entity reference
+# CompetitorSalesLiterature table/entity reference (Microsoft Dynamics 365)
 
 
 

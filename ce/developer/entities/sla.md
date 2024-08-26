@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# SLA table/entity reference
+# SLA table/entity reference (Microsoft Dynamics 365)
 
 Contains information about the tracked service-level KPIs for cases that belong to different customers.
 

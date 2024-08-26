@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Facility/Equipment (Equipment) table/entity reference
+# Facility/Equipment (Equipment) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Resource that can be scheduled.
 

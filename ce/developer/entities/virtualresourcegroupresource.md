@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Virtual Resource Group Resource (virtualresourcegroupresource) table/entity reference
+# Virtual Resource Group Resource (virtualresourcegroupresource) table/entity reference (Microsoft Dynamics 365)
 
 
 

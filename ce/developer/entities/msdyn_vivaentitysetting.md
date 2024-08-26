@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_vivaentitysetting table/entity reference
+# msdyn_vivaentitysetting table/entity reference (Microsoft Dynamics 365)
 
 Entity level settings for Copilot for Sales
 

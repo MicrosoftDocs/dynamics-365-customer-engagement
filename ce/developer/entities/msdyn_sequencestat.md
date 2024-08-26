@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sequence Stat (msdyn_sequencestat) table/entity reference
+# Sequence Stat (msdyn_sequencestat) table/entity reference (Microsoft Dynamics 365)
 
 
 

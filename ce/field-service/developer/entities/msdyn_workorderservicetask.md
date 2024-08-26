@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Work Order Service Task (msdyn_workorderservicetask) table/entity reference
+# Work Order Service Task (msdyn_workorderservicetask) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Store service tasks that are to be performed for this work order
 

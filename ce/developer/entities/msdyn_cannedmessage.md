@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Quick reply (msdyn_cannedmessage) table/entity reference
+# Quick reply (msdyn_cannedmessage) table/entity reference (Microsoft Dynamics 365)
 
 Stores the quick replies that agents can use in the conversation control while interacting with the customers
 

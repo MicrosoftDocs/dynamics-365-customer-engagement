@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Post Rule Configuration (msdyn_PostRuleConfig) table/entity reference
+# Post Rule Configuration (msdyn_PostRuleConfig) table/entity reference (Microsoft Dynamics 365)
 
 Enable or disable system post rules for an entity for Activity Feeds and Yammer.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Address (CustomerAddress) table/entity reference
+# Address (CustomerAddress) table/entity reference (Microsoft Dynamics 365)
 
 Address and shipping information. Used to store additional addresses for an account or contact.
 

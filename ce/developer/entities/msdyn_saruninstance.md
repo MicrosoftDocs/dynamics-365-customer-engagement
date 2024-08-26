@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# SARunInstance (msdyn_saruninstance) table/entity reference
+# SARunInstance (msdyn_saruninstance) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Linked Entity Attribute Validity (msdyn_linkedentityattributevalidity) table/entity reference
+# Linked Entity Attribute Validity (msdyn_linkedentityattributevalidity) table/entity reference (Microsoft Dynamics 365)
 
 
 

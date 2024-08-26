@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_msteamssetting table/entity reference
+# msdyn_msteamssetting table/entity reference (Microsoft Dynamics 365)
 
 
 

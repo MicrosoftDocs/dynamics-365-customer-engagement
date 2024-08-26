@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entitlement Entity Allocation Type Mapping (EntitlementEntityAllocationTypeMapping) table/entity reference
+# Entitlement Entity Allocation Type Mapping (EntitlementEntityAllocationTypeMapping) table/entity reference (Microsoft Dynamics 365)
 
 Mapping to define which Allocation Types are available for Entity Type to be used on Entitlement
 

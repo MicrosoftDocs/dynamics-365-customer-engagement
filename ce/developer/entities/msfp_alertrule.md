@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Customer Voice alert rule (msfp_alertrule) table/entity reference
+# Customer Voice alert rule (msfp_alertrule) table/entity reference (Microsoft Dynamics 365)
 
 
 

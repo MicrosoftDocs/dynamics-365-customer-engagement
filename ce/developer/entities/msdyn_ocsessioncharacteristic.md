@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Session Characteristic (msdyn_ocsessioncharacteristic) table/entity reference
+# Session Characteristic (msdyn_ocsessioncharacteristic) table/entity reference (Microsoft Dynamics 365)
 
 Characteristic associated to Omnichannel session
 

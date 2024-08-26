@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# System User Scheduler Setting (msdyn_systemuserschedulersetting) table/entity reference
+# System User Scheduler Setting (msdyn_systemuserschedulersetting) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Stores user-specific settings for the schedule board.
 

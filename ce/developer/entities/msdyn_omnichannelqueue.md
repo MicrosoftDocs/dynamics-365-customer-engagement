@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Omnichannel Queue (Deprecated) (msdyn_omnichannelqueue) table/entity reference
+# Omnichannel Queue (Deprecated) (msdyn_omnichannelqueue) table/entity reference (Microsoft Dynamics 365)
 
 Stores omni-channel work items of a specific issue type or a specific team
 

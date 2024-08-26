@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Master Entity Routing Configuration (msdyn_masterentityroutingconfiguration) table/entity reference
+# Master Entity Routing Configuration (msdyn_masterentityroutingconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 Defines master routing details for the entity.
 

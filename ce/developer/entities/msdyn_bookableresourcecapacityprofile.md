@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bookable Resource Capacity Profile (msdyn_bookableresourcecapacityprofile) table/entity reference
+# Bookable Resource Capacity Profile (msdyn_bookableresourcecapacityprofile) table/entity reference (Microsoft Dynamics 365)
 
 Bookable Resource Capacity Profile
 

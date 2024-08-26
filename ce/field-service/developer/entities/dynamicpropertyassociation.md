@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Property Association (DynamicPropertyAssociation) table/entity reference
+# Property Association (DynamicPropertyAssociation) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Association of a property definition with another entity in the system.
 

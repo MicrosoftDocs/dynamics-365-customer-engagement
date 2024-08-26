@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# RMA SubStatus (msdyn_rmasubstatus) table/entity reference
+# RMA SubStatus (msdyn_rmasubstatus) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Specify custom RMA substatuses, which can be used to specify the current RMA status more precisely.
 

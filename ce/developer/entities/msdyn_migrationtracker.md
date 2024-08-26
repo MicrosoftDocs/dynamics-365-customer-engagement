@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Migration tracker (msdyn_migrationtracker) table/entity reference
+# Migration tracker (msdyn_migrationtracker) table/entity reference (Microsoft Dynamics 365)
 
 Entity that tracks the migration process of legacy to modern SLA/ARC items
 

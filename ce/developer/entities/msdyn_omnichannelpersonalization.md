@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Omnichannel Personalization (msdyn_omnichannelpersonalization) table/entity reference
+# Omnichannel Personalization (msdyn_omnichannelpersonalization) table/entity reference (Microsoft Dynamics 365)
 
 Stores personalization information of Omnichannel Agent/Supervisor dashboards
 

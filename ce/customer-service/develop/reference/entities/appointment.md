@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Appointment table/entity reference
+# Appointment table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Commitment representing a time interval with start/end times and duration.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Session Participant Data (Deprecated) (msdyn_SessionParticipantData) table/entity reference
+# Session Participant Data (Deprecated) (msdyn_SessionParticipantData) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Microsoft Orgchart node entity (msdyn_orgchartnode) table/entity reference
+# Microsoft Orgchart node entity (msdyn_orgchartnode) table/entity reference (Microsoft Dynamics 365)
 
 For internal use only. Entity which stores association data of account with contacts present in the orgchart hierarchy of the account
 

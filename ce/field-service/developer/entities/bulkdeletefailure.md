@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bulk Delete Failure (BulkDeleteFailure) table/entity reference
+# Bulk Delete Failure (BulkDeleteFailure) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Record that was not deleted during a bulk deletion job.
 

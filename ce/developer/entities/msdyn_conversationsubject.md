@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Subject (msdyn_ConversationSubject) table/entity reference
+# Conversation Subject (msdyn_ConversationSubject) table/entity reference (Microsoft Dynamics 365)
 
 
 

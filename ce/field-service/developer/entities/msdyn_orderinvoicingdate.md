@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Order Invoicing Date (msdyn_orderinvoicingdate) table/entity reference
+# Order Invoicing Date (msdyn_orderinvoicingdate) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Geolocation Tracking (msdyn_geolocationtracking) table/entity reference
+# Geolocation Tracking (msdyn_geolocationtracking) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Defines entity to store geolocation tracking data.
 

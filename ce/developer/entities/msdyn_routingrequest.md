@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# RoutingRequest (msdyn_routingrequest) table/entity reference
+# RoutingRequest (msdyn_routingrequest) table/entity reference (Microsoft Dynamics 365)
 
 Routing request definition entity
 

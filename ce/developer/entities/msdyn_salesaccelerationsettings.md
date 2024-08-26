@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sales Acceleration settings (msdyn_salesaccelerationsettings) table/entity reference
+# Sales Acceleration settings (msdyn_salesaccelerationsettings) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Calendar Rule (CalendarRule) table/entity reference
+# Calendar Rule (CalendarRule) table/entity reference (Microsoft Dynamics 365)
 
 Defines free/busy times for a service and for resources or resource groups, such as working, non-working, vacation, and blocked.
 

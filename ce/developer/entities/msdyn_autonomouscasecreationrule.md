@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Autonomous case creation and update rules (msdyn_autonomouscasecreationrule) table/entity reference
+# Autonomous case creation and update rules (msdyn_autonomouscasecreationrule) table/entity reference (Microsoft Dynamics 365)
 
 Autonomous case creation and update rules
 

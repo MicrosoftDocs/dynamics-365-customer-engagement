@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# OC Payment Profile (msdyn_ocpaymentprofile) table/entity reference
+# OC Payment Profile (msdyn_ocpaymentprofile) table/entity reference (Microsoft Dynamics 365)
 
 
 

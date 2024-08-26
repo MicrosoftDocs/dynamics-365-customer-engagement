@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Presence (msdyn_presence) table/entity reference
+# Presence (msdyn_presence) table/entity reference (Microsoft Dynamics 365)
 
 Stores presence status information
 

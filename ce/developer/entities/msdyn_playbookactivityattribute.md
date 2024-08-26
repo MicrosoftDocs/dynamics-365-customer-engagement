@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Playbook activity attribute (msdyn_playbookactivityattribute) table/entity reference
+# Playbook activity attribute (msdyn_playbookactivityattribute) table/entity reference (Microsoft Dynamics 365)
 
 Stores attribute names and values of the playbook activity.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Action Locale (msdyn_conversationactionlocale) table/entity reference
+# Conversation Action Locale (msdyn_conversationactionlocale) table/entity reference (Microsoft Dynamics 365)
 
 Localization information associated with the Conversation action.
 

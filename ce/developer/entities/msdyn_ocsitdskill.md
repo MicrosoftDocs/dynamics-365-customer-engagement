@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Characteristic mapping (msdyn_ocsitdskill) table/entity reference
+# Characteristic mapping (msdyn_ocsitdskill) table/entity reference (Microsoft Dynamics 365)
 
 Indicates the mapping of skills from training data to characteristics
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Swarm role (msdyn_swarmrole) table/entity reference
+# Swarm role (msdyn_swarmrole) table/entity reference (Microsoft Dynamics 365)
 
 Stores the different participant roles and associated role type defined
 

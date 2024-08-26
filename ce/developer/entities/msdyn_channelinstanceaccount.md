@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Channel Instance Account (msdyn_ChannelInstanceAccount) table/entity reference
+# Channel Instance Account (msdyn_ChannelInstanceAccount) table/entity reference (Microsoft Dynamics 365)
 
 
 

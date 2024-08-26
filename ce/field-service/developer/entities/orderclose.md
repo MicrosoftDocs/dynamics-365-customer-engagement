@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Order Close (OrderClose) table/entity reference
+# Order Close (OrderClose) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Activity generated automatically when an order is closed.
 

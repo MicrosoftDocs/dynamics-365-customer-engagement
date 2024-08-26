@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Invitation (adx_invitation) table/entity reference
+# Invitation (adx_invitation) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Send invitations to existing contacts or email addresses and assign them to web roles upon redemption.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Productivity pane configuration (msdyn_paneconfiguration) table/entity reference
+# Productivity pane configuration (msdyn_paneconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 
 

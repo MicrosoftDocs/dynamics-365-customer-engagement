@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Rule Item (msdyn_ocruleitem) table/entity reference
+# Rule Item (msdyn_ocruleitem) table/entity reference (Microsoft Dynamics 365)
 
 Stores the condition and destination including Omnichannel queues or agents
 

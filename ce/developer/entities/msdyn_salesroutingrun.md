@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sales routing run (msdyn_salesroutingrun) table/entity reference
+# Sales routing run (msdyn_salesroutingrun) table/entity reference (Microsoft Dynamics 365)
 
 
 

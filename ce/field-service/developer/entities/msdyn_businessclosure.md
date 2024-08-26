@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Business Closure (msdyn_businessclosure) table/entity reference
+# Business Closure (msdyn_businessclosure) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 
 

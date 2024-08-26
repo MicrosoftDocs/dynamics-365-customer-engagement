@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Fulfillment Preference (msdyn_timegroup) table/entity reference
+# Fulfillment Preference (msdyn_timegroup) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Specify time groups consisting of multiple time windows to be used for scheduling, for example.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Booking Status (BookingStatus) table/entity reference
+# Booking Status (BookingStatus) table/entity reference (Microsoft Dynamics 365)
 
 Allows creation of multiple sub statuses mapped to a booking status option.
 

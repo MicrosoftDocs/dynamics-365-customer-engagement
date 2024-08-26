@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Marketing feature configuration (msdynmkt_featureconfiguration) table/entity reference
+# Marketing feature configuration (msdynmkt_featureconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 
 

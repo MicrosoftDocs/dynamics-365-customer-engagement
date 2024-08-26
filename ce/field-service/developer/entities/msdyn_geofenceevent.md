@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Geofence Event (msdyn_geofenceevent) table/entity reference
+# Geofence Event (msdyn_geofenceevent) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Created when a geotracked record enters or exits a geofence.
 

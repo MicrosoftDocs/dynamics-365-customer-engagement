@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Conversation Capacity profile (msdyn_ocliveworkitemcapacityprofile) table/entity reference
+# Conversation Capacity profile (msdyn_ocliveworkitemcapacityprofile) table/entity reference (Microsoft Dynamics 365)
 
 Conversation Capacity profile
 

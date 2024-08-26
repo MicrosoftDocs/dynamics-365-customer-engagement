@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bookable Resource Booking (BookableResourceBooking) table/entity reference
+# Bookable Resource Booking (BookableResourceBooking) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Represents the line details of a resource booking.
 

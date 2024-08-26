@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Upgrade Version (msdyn_upgradeversion) table/entity reference
+# Upgrade Version (msdyn_upgradeversion) table/entity reference (Microsoft Dynamics 365)
 
 Information about upgrading from one release to the next release
 

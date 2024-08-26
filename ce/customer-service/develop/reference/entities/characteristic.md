@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Characteristic table/entity reference
+# Characteristic table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Skills, education and certifications of resources.
 

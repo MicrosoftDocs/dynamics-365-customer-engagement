@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# JobsState (msdyn_JobsState) table/entity reference
+# JobsState (msdyn_JobsState) table/entity reference (Microsoft Dynamics 365)
 
 Entity to store jobstate
 

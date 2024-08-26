@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agent Channel State (msdyn_agentchannelstate) table/entity reference
+# Agent Channel State (msdyn_agentchannelstate) table/entity reference (Microsoft Dynamics 365)
 
 
 

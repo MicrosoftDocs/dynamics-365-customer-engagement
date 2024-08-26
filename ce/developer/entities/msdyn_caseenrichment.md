@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Case Enrichment (msdyn_caseenrichment) table/entity reference
+# Case Enrichment (msdyn_caseenrichment) table/entity reference (Microsoft Dynamics 365)
 
 
 

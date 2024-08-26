@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Playbook activity (msdyn_playbookactivity) table/entity reference
+# Playbook activity (msdyn_playbookactivity) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Stores the details of the activities to be created when a playbook is launched.
 

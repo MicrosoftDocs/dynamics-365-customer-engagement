@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Live Work Item Participant (Deprecated) (msdyn_ocliveworkitemparticipant) table/entity reference
+# Live Work Item Participant (Deprecated) (msdyn_ocliveworkitemparticipant) table/entity reference (Microsoft Dynamics 365)
 
 
 

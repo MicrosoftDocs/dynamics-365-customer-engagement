@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Metadata Store State (msdynmkt_metadatastorestate) table/entity reference
+# Metadata Store State (msdynmkt_metadatastorestate) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agreement (msdyn_agreement) table/entity reference
+# Agreement (msdyn_agreement) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Provides ability to store details about service agreements you have with your customers
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Template For Properties (msdyn_templateforproperties) table/entity reference
+# Template For Properties (msdyn_templateforproperties) table/entity reference (Microsoft Dynamics 365)
 
 
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Location Template Association (msdyn_locationtemplateassociation) table/entity reference
+# Location Template Association (msdyn_locationtemplateassociation) table/entity reference (Microsoft Dynamics 365)
 
 Captures the relationship between a Property Template, which in turns captures a set of Properties, and a Functional Location.
 

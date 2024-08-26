@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# App Parameter Definition (Deprecated) (msdyn_consoleappparameterdefinition) table/entity reference
+# App Parameter Definition (Deprecated) (msdyn_consoleappparameterdefinition) table/entity reference (Microsoft Dynamics 365)
 
 
 

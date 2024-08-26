@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# SCI Conversation (msdyn_SCIConversation) table/entity reference
+# SCI Conversation (msdyn_SCIConversation) table/entity reference (Microsoft Dynamics 365)
 
 
 

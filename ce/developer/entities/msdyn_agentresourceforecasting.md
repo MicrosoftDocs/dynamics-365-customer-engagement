@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Agent Resource Forecasting (msdyn_agentresourceforecasting) table/entity reference
+# Agent Resource Forecasting (msdyn_agentresourceforecasting) table/entity reference (Microsoft Dynamics 365)
 
 Agent Resource Forecasting
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Data Analytics Admin Settings (Deprecated) (msdyn_analyticsadminsettings) table/entity reference
+# Data Analytics Admin Settings (Deprecated) (msdyn_analyticsadminsettings) table/entity reference (Microsoft Dynamics 365)
 
 Data Analytics Admin Settings (Deprecated)
 

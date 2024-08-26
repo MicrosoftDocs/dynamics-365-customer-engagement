@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Duplicate Record (DuplicateRecord) table/entity reference
+# Duplicate Record (DuplicateRecord) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Potential duplicate record.
 

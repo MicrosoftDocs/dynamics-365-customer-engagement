@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Forecast Prediction Data (msdyn_forecastpredictiondata) table/entity reference
+# Forecast Prediction Data (msdyn_forecastpredictiondata) table/entity reference (Microsoft Dynamics 365)
 
 Forecast Prediction Data
 

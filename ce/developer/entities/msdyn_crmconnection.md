@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# CRM Connection (msdyn_crmconnection) table/entity reference
+# CRM Connection (msdyn_crmconnection) table/entity reference (Microsoft Dynamics 365)
 
 
 

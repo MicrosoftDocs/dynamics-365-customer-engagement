@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Insight (msdyn_salessuggestion) table/entity reference
+# Insight (msdyn_salessuggestion) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 
 

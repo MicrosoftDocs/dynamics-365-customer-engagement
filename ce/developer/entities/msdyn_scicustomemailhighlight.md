@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Custom Email Highlight (msdyn_SciCustomEmailHighlight) table/entity reference
+# Custom Email Highlight (msdyn_SciCustomEmailHighlight) table/entity reference (Microsoft Dynamics 365)
 
 
 

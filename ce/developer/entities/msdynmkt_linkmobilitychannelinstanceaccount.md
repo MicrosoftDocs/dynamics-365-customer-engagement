@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Link mobility channel instance account (msdynmkt_linkmobilitychannelinstanceaccount) table/entity reference
+# Link mobility channel instance account (msdynmkt_linkmobilitychannelinstanceaccount) table/entity reference (Microsoft Dynamics 365)
 
 
 

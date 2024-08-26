@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sales Literature (SalesLiterature) table/entity reference
+# Sales Literature (SalesLiterature) table/entity reference (Microsoft Dynamics 365)
 
 Storage of sales literature, which may contain one or more documents.
 

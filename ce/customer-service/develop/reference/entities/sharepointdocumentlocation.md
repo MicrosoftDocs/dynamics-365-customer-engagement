@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Document Location (SharePointDocumentLocation) table/entity reference
+# Document Location (SharePointDocumentLocation) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365.
 

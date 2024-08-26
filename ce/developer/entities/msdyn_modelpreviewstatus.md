@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# ModelPreviewStatus (msdyn_ModelPreviewStatus) table/entity reference
+# ModelPreviewStatus (msdyn_ModelPreviewStatus) table/entity reference (Microsoft Dynamics 365)
 
 
 

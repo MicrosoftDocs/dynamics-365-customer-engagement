@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Provisioning State (msdyn_ocprovisioningstate) table/entity reference
+# Provisioning State (msdyn_ocprovisioningstate) table/entity reference (Microsoft Dynamics 365)
 
 Provisioning state
 

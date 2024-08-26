@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Auto Capture Settings (msdyn_autocapturesettings) table/entity reference
+# Auto Capture Settings (msdyn_autocapturesettings) table/entity reference (Microsoft Dynamics 365)
 
 Auto Capture Settings
 

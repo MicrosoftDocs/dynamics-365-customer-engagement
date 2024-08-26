@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Contact KPI Item (msdyn_contactkpiitem) table/entity reference
+# Contact KPI Item (msdyn_contactkpiitem) table/entity reference (Microsoft Dynamics 365)
 
 
 

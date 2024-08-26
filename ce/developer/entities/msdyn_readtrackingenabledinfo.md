@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Read tracking enabled information (msdyn_readtrackingenabledinfo) table/entity reference
+# Read tracking enabled information (msdyn_readtrackingenabledinfo) table/entity reference (Microsoft Dynamics 365)
 
 
 

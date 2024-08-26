@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Bot Channel Registration (msdyn_ocbotchannelregistration) table/entity reference
+# Bot Channel Registration (msdyn_ocbotchannelregistration) table/entity reference (Microsoft Dynamics 365)
 
 Bot channel registration used for channel integration
 

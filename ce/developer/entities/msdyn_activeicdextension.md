@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Active ICD Extension (msdyn_ActiveICDExtension) table/entity reference
+# Active ICD Extension (msdyn_ActiveICDExtension) table/entity reference (Microsoft Dynamics 365)
 
 This notes the currently active description and examples for given entity (queue/agent etc.) as selected by the C1 administrator.
 

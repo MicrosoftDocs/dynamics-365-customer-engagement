@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# SABatchRunInstance (msdyn_sabatchruninstance) table/entity reference
+# SABatchRunInstance (msdyn_sabatchruninstance) table/entity reference (Microsoft Dynamics 365)
 
 
 

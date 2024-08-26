@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# SLA KPI Instance (SLAKPIInstance) table/entity reference
+# SLA KPI Instance (SLAKPIInstance) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case
 

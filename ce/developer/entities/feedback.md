@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Feedback table/entity reference
+# Feedback table/entity reference (Microsoft Dynamics 365)
 
 Feedback and rating.
 

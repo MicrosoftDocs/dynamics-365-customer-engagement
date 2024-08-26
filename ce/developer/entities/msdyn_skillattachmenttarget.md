@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Attach Skill (msdyn_skillattachmenttarget) table/entity reference
+# Attach Skill (msdyn_skillattachmenttarget) table/entity reference (Microsoft Dynamics 365)
 
 
 

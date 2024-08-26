@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Session event (msdyn_sessionevent) table/entity reference
+# Session event (msdyn_sessionevent) table/entity reference (Microsoft Dynamics 365)
 
 Stores the session events for a session
 

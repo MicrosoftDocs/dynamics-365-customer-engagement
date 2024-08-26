@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Product table/entity reference
+# Product table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Information about products and their pricing information.
 

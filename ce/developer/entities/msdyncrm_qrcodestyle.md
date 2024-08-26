@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# QR code style (msdyncrm_qrcodestyle) table/entity reference
+# QR code style (msdyncrm_qrcodestyle) table/entity reference (Microsoft Dynamics 365)
 
 
 

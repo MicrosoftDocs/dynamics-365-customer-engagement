@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Activity (ActivityPointer) table/entity reference
+# Activity (ActivityPointer) table/entity reference (Microsoft Dynamics 365)
 
 Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Custom API Ruleset Configuration (msdyn_customapirulesetconfiguration) table/entity reference
+# Custom API Ruleset Configuration (msdyn_customapirulesetconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 Configuration table for setting up custom APIs for usage inside the Unified routing system
 

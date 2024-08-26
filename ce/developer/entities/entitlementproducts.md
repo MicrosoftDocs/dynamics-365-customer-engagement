@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Entitlement Product (EntitlementProducts) table/entity reference
+# Entitlement Product (EntitlementProducts) table/entity reference (Microsoft Dynamics 365)
 
 
 

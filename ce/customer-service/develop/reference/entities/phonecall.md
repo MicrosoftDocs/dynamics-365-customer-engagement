@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Phone Call (PhoneCall) table/entity reference
+# Phone Call (PhoneCall) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Activity to track a telephone call.
 

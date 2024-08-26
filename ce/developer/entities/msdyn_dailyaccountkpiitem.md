@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Daily Kpis for account (msdyn_dailyaccountkpiitem) table/entity reference
+# Daily Kpis for account (msdyn_dailyaccountkpiitem) table/entity reference (Microsoft Dynamics 365)
 
 
 

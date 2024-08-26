@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Data Hygiene Setting Info (msdyn_datahygienesettinginfo) table/entity reference
+# Data Hygiene Setting Info (msdyn_datahygienesettinginfo) table/entity reference (Microsoft Dynamics 365)
 
 Data Hygiene Setting Info
 

@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Report Bookmark (msdyn_reportbookmark) table/entity reference
+# Report Bookmark (msdyn_reportbookmark) table/entity reference (Microsoft Dynamics 365)
 
 
 

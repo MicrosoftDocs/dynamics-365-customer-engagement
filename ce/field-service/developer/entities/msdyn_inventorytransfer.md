@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Inventory Transfer (msdyn_inventorytransfer) table/entity reference
+# Inventory Transfer (msdyn_inventorytransfer) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Records inventory adjustments
 

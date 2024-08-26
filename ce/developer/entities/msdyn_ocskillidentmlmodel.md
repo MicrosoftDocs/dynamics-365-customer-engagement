@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Skill finder model (msdyn_ocskillidentmlmodel) table/entity reference
+# Skill finder model (msdyn_ocskillidentmlmodel) table/entity reference (Microsoft Dynamics 365)
 
 Indicates the OmniChannel Model for the corresponding AI model
 

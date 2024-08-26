@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Sales Tag (msdyn_salestag) table/entity reference
+# Sales Tag (msdyn_salestag) table/entity reference (Microsoft Dynamics 365)
 
 
 

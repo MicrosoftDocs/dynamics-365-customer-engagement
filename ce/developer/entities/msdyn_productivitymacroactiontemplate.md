@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Macro Action Template (msdyn_productivitymacroactiontemplate) table/entity reference
+# Macro Action Template (msdyn_productivitymacroactiontemplate) table/entity reference (Microsoft Dynamics 365)
 
 Attributes for macro action template
 

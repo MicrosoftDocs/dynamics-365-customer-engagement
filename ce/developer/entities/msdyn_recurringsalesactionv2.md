@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Recurring Sales Action V2 (msdyn_recurringsalesactionv2) table/entity reference
+# Recurring Sales Action V2 (msdyn_recurringsalesactionv2) table/entity reference (Microsoft Dynamics 365)
 
 
 

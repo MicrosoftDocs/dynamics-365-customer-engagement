@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Scheduling Feature Flag (msdyn_schedulingfeatureflag) table/entity reference
+# Scheduling Feature Flag (msdyn_schedulingfeatureflag) table/entity reference (Microsoft Dynamics 365 Field Service)
 
 Update records in this entity to enable a new feature.
 

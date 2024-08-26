@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Fax table/entity reference
+# Fax table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.
 

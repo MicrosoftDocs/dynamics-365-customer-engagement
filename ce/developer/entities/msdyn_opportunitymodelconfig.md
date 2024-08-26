@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# OpportunityModelConfig (msdyn_opportunitymodelconfig) table/entity reference
+# OpportunityModelConfig (msdyn_opportunitymodelconfig) table/entity reference (Microsoft Dynamics 365)
 
 
 

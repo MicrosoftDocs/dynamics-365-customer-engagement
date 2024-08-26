@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# Inbox card configuration (msdyn_inboxcardconfiguration) table/entity reference
+# Inbox card configuration (msdyn_inboxcardconfiguration) table/entity reference (Microsoft Dynamics 365)
 
 
 

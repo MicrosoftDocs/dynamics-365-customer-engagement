@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ---
 
-# IoT Device Category (msdyn_iotdevicecategory) table/entity reference
+# IoT Device Category (msdyn_iotdevicecategory) table/entity reference (Microsoft Dynamics 365)
 
 Used to categorize IoT devices.
 
