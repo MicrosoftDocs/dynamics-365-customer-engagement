@@ -11,7 +11,7 @@ ms.collection: bap-ai-copilot
 
 # Get started with the refreshed mobile experience
 
-The new user experience in the Dynamics 365 Field Service mobile app helps service technicians swiftly access information they need. It offers mobile-friendly navigation, gestures, and controls to help technicians save valuable time by quickly updating the status of a booking and get driving directions work location.
+The new user experience in the Dynamics 365 Field Service mobile app helps service technicians swiftly access information they need. It offers mobile-friendly navigation, gestures, and controls to help technicians save valuable time by quickly updating the status of a booking and get driving directions to their work locations.
 
 ## Agenda view for the new mobile user experience
 
@@ -21,22 +21,22 @@ Admins can [configure the agenda view to show fields relevant to the organizatio
 
 ### Agenda view time update
 
-Updating the booking status the agenda view also updates some time values in the underlying booking record. The following are the values that are updated when the status changes. The list refers to out-of-the-box status to which all custom status are mapped.
+Updating the booking status in the agenda view also updates some time values in the underlying booking record. The following are the values that are updated when the status changes. The list refers to the out-of-the-box status to which all custom statuses are mapped.
 
 - From *Scheduled* to *Traveling*:
   - Start time is updated to current time
-  - End time is updated to current time + duration
+  - End time is updated to current time plus duration
 
 - From *Scheduled* or *Traveling* to *In progress*:
-  - End time is updated to current time + duration
-  - If arrival time is empty (the first time the technician has arrived on site) then arrival time is updated to current time
+  - End time is updated to current time plus duration
+  - If arrival time is empty (the first time the technician has arrived onsite), then arrival time is updated to current time
 
 - From *Completed* to *In progress*:
-  - End time is updated to current time + 1 min
+  - End time is updated to current time plus 1 minute
 
 - From any status to *Completed*:
   - End time is updated to current time
-  - If the a future booking is set to completed (start time is later than the current time), start time is updated to current time - 1 min
+  - If a future booking is set to completed (start time is later than the current time), start time is updated to current time minus 1 minute
 
 Updating the status in agenda view doesn't change the *estimated arrival time*.
 
@@ -46,13 +46,13 @@ To open the navigation menu, select **More** at the bottom of the screen.
 
 :::image type="content" source="../media/mobile-newux-navigation.png" alt-text="Renderings of two mobile devices showing the navigation menu in the Field Service mobile app.":::
 
-Views are optimized for the mobile app and provide frontline workers with the information they require to find the records they need. More information: [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views).
+Views are optimized for the mobile app and provide frontline workers with the information they require to find the records they need. More information: [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views)
 
-Sitemap elements that don't link to a view, such as dashboards or custom pages, render in classic Unified Client Interface.
+Sitemap elements that don't link to a view, such as dashboards or custom pages, render in classic Unified Interface.
 
-## Work on a booking from the agenda view
+## Work on a booking from agenda view
 
-Swipe a booking from left to right or select the booking's menu to access its quick actions. Open a booking to see the full form and update details in the Unified Client Interface. Quick actions let you update the booking status and give access to [Copilot features if enabled](set-up-field-service-mobile.md#turn-on-features-for-the-refreshed-experience).
+Swipe a booking from left to right or select the booking's menu to access its quick actions. Open a booking to see the full form and update details in the Unified Interface. Quick actions let you update the booking status and give access to [Copilot features if enabled](set-up-field-service-mobile.md#turn-on-features-for-the-refreshed-experience).
 
 :::image type="content" source="../media/mobile-newux-options.png" alt-text="Screenshot of a mobile device with options of a booking in the Field Service mobile app.":::
 
