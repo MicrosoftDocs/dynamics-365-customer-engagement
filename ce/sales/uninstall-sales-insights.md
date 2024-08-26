@@ -36,7 +36,7 @@ After you uninstall Sales Insights, Dynamics 365 won't keep any Sales Insights d
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Introduction](../sales/intro-admin-guide-sales-insights.md)
 

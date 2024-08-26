@@ -102,7 +102,7 @@ A product catalog is a collection of products with their pricing information. Th
   
  [Quote, order, and invoice tables](quote-order-invoice-entities.md)  
   
-### See also
+## Related information
 
  [Video: Product Taxonomy Administration in Microsoft Dynamic CRM 2015](https://youtu.be/OnjdSUjulVw)   
  [Video: Salesperson Experience with Product Taxonomy in Microsoft Dynamics CRM 2015](https://youtu.be/MptViq7tf_s)

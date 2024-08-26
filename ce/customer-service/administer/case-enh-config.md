@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli 
 ms.topic: how-to 
-ms.date: 02/09/2024
+ms.date: 08/02/2024
 ms.custom: bap-template 
 ---
 
@@ -42,6 +42,18 @@ To enable the enhanced case forms, follow these steps:
 > -  The **Enhanced case form** option is available in the form selector by default as an early access feature. Use this option to navigate from the enhanced case form to any other form. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). If you haven't opted in, ensure that the **ShowInFormSelector** is set to **True** through FormXML to see the **Enhanced case form** option.
 >     - The [enhanced case form](../use/enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form) displays customer details and recent cases on the customer details pane. When you switch to any other form from the enhanced case form, the pane isn't automatically refreshed or closed. You need to close it manually. 
 
+## Case for multisession experience
+
+If you [opt in](/power-platform/admin/opt-in-early-access-updates) to the early access features, the **Case for multisession experience** form, which is the default case form for Customer Service workspace, has the following components enabled by default: 
+
+   - **OptionSet Wrapper**
+   - **Queue Item Control**
+   - **Due open activities control**
+   - **Notes Control**
+   - **Attachment Control**: Displays the attachments that are linked to the case by default. If you want agents to upload attachments and do other actions, perform the steps in [Use attachment control](add-attachment-control.md)
+
+You can learn more about how these components are displayed on the **Case for multisession experience** form realtime in [Default main case form: Case](../use/enh-casemgmt-csw.md#create-a-case-from-the-main-case-form) section.
+
 ## View and use default components available on enhanced full case form
 
 The following components are available by default in the enhanced full case form. You can use these components to customize other forms. When you add the components to a form, the runtime experience is as follows:
@@ -63,7 +75,7 @@ Legend:
 You can add these default components to other forms and customize them. More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
 
 
-### See also
+### Related information
 
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)<br>
 [Get started with Customer Service workspace](../implement/csw-overview.md)

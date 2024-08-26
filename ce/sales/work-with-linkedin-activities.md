@@ -116,7 +116,7 @@ The following image is an example of the **Send InMail** side pane:
  
 For more information on sending InMail, go to [Send an InMail Message](https://www.linkedin.com/help/linkedin/answer/437).
 
-### See also
+## Related information
 
 [Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
 

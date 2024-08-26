@@ -20,7 +20,7 @@ A *competitor* is another company that offers competing products and services. E
   
  One or many competitors can be associated with any opportunity. By using this association, salespeople give management the ability to track their overall win/loss record versus specific competitors, and to do further analysis regarding the cause of losses and other outcomes.  
   
-### See also  
+## Related information  
  [Competitor Tables](entities/competitor.md)   
  [Sales Tables](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Opportunity Tables](opportunity-entities.md)   

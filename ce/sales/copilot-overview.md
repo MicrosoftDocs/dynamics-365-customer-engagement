@@ -56,7 +56,7 @@ Learn more:
 - [Summarize an account](copilot-get-information.md#summarize-an-account)
 - [Summarize an opportunity](copilot-get-information.md#summarize-an-opportunity)
 - [Summarize a lead](copilot-get-information.md#summarize-a-lead)
-- [Change the fields in the record summary](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
+- [Change the fields in the record summary](copilot-configure-summary-fields.md)
 
 ### Recent changes
 
@@ -67,7 +67,7 @@ Learn more:
 - [View recent changes of your records](copilot-ask-questions.md#get-recent-changes)
 - [Get a list of recently updated sales records](copilot-ask-questions.md#whats-new-with-my-sales-records)
 - [View the leads and opportunities assigned to you recently](copilot-ask-questions.md#whats-newly-assigned-to-me)
-- [Change the fields you want to view in the recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
+- [Change the fields you want to view in the recent changes list](copilot-configure-summary-fields.md)
 
 ### Information assistance
 

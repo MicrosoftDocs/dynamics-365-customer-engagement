@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 07/31/2024
+ms.date: 08/07/2024
 ms.custom: bap-template
 ms.collection:
 ---
@@ -28,7 +28,7 @@ The following channels will be deprecated and removed in Omnichannel for Custome
 - Telegram custom messaging
 - Kik custom messaging
 
-After October 8, 2025, the channels will no longer be accessible for you or your customers in your Omnichannel for Customer Service environment. Alternative channel integration options are available. Contact Microsoft Support if you need help. 
+After October 8, 2024, the channels will no longer be accessible for you or your customers in your Omnichannel for Customer Service environment. Alternative channel integration options are available. Contact Microsoft Support if you need help. 
 
 ## Google's Business Messages channel is deprecated and removed as of July 2024
 

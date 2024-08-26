@@ -32831,6 +32831,21 @@
       "source_path": "ce/customer-service/administer/sample-config-azure-bot.md",
       "redirect_url": "configure-bot-azure",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/voice-channel-usage.md",
+      "redirect_url": "/dynamics365/customer-service/use/realtime-voice-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/google-business-messages.md",
+      "redirect_url": "/dynamics365/customer-service/use/channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/configure-google-business-messages-channel.md",
+      "redirect_url": "/dynamics365/customer-service/use/channels",
+      "redirect_document_id": false
     }
   ]
 }

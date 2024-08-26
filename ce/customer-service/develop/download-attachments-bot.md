@@ -117,7 +117,7 @@ if (turnContext.Activity.ChannelData != null &&
 
 ```
 
-### See also
+### Related information
 
 [Card support by channel](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel&preserve-view=true)  
 [Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)  

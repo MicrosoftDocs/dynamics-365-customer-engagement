@@ -30,7 +30,7 @@ If your organization is concerned about the data collected by this service, you 
 data-disable-telemetry = "true"
 ```
 
-### See also
+### Related information
 
 [Customize live chat widgets using data tags](customize-chat-widget.md)  
 [Customize live chat widgets for mobile apps](render-live-chat-widget-mobile.md)  

@@ -104,7 +104,7 @@ Here's how the application assigns the agent expereince profiles:
 
 For more information about adding users to agent experience profiles, see [FAQs about adding users to agent experience profile](faq-agent-experience-profile.md)
 
-### See also
+### Related information
 
 [FAQ about adding users to agent experience profile](faq-agent-experience-profile.md)<br>
 [Create and use agent experience profiles](create-agent-experience-profile.md)<br>

@@ -56,7 +56,7 @@ For more information on adding and removing users from a security role, see [Ass
 
 Users to whom you've granted access see the Sales Hub app on their **Published Apps** page. Users for whom you've revoked access don't see the app on that page.
 
-### See also
+## Related information
 
 - [Why should you use the Sales Hub app?](intro-saleshub.md#why-should-you-use-the-sales-hub-app)
 - [Access the Sales Hub app](intro-saleshub.md#access-the-sales-hub-app)

@@ -63,7 +63,7 @@ When the agent makes an emergency call, the system can send an automated email t
 1. Save the changes.
 
 
-### See also
+### Related information
 
 [Set up outbound calling in the voice channel](voice-channel-outbound-calling.md)  
 [Set up inbound calling in the voice channel](voice-channel-inbound-calling.md)  

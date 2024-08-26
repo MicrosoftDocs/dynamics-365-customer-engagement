@@ -217,7 +217,7 @@ Your filters last only as long as you're signed in to Sales Hub. You can't save 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
 - [Select security roles to assign records to](wa-manage-sales-teams.md)

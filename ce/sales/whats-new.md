@@ -15,6 +15,12 @@ Wondering about upcoming and recently released capabilities in Dynamics 365 Sale
 
 This article summarizes early access, public preview, and general availability features that were released in the last three months. The monthly release sections contain only those features that were deployed in all regions in that month. For example, if your Dynamics 365 org is in Canada, you'll receive the feature updates a few weeks earlier than the orgs in North America but the monthly release section will list that feature only after it's deployed in North America. For more information about the release schedule, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales#latest-version-availability).  
 
+## July 2024 release
+| Feature area       | Feature                                      | Description                                                                 | Resources     | Turned on | Availability |
+|--------------------|----------------------------------------------|-----------------------------------------------------------------------------|---------------|-----------|--------------|
+| Copilot            | Account summary                              | Get a 360-degree view of your account, along with opportunities and leads in the pipeline for the account. | [Documentation](copilot-get-information.md#summarize-an-account) | By admin  | EA           |
+| Seller experiences | Customize lead qualification experience | Allow sellers to create multiple opportunities and get lead summaries upon lead qualification. | [Documentation](define-lead-qualification-experience.md) | By admin  | EA           |
+
 ## June 2024 release
 
 | Feature area | Feature | Description | Resources | Turned on | Availability |
@@ -30,29 +36,17 @@ This article summarizes early access, public preview, and general availability f
 | Copilot | Natural language chat for data-related questions| Ask Copilot questions related to sales data in natural language.  | [Documentation](use-sales-copilot.md#chat-with-copilot-in-NL) | By default | GA |
 | Copilot | Natural language chat for sales contextual questions | Ask Copilot questions related to sales-specific terminology in natural language | [Documentation](use-sales-copilot.md#chat-with-copilot-in-NL) | By default | GA |
 | Copilot | Meeting preparation notes | Use Copilot to prepare for your meetings.| [Documentation](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) | By default | GA |
-| Copilot | Proposal summary | Ask Copilot to summarize a proposal or document associated with a record. | [Documentation](copilot-get-information.md#summarize-proposals-associated-with-a-record-preview) | By admin | Public preview |
+| Copilot | Proposal summary | Ask Copilot to summarize a proposal or document associated with a record. | [Documentation](copilot-get-information.md#copilot-doc-summarization) | By admin | Public preview |
 | Copilot | Account summary | Use Copilot to summarize an account. | [Documentation](copilot-get-information.md#summarize-an-account) | By admin | Public preview |
 
-## April 2024 release
 
-| Feature area | Feature | Description | Resources | Turned on | Availability |
-|---|---|---|---|---|---|
-| Copilot | Default on | Copilot is turned on by default for organizations that have provided consent for data movement and those that don't require a consent. | [Documentation](enable-setup-copilot.md) | By default | GA |
-| Copilot | Immersive experience for Copilot | View Copilot in a full screen, immersive view, in addition to the side pane. | [Documentation](use-sales-copilot.md#open-copilot-immersive) | By Admin | Public preview |
-| Forecasting | Out-of-the-box forecasting | Explore forecasting with zero configuration using the out-of-the-box forecasting | [Documentation](view-forecasts.md#out-of-the-box-forecast) | For all users | GA |
-| Seller experience | New look with refreshed styling | Experience the new look by default as it’ll be auto-enabled. | None | For all users | GA |
-| Sequences | Assign multiple sequences to multiple sellers or team for a record | Assign multiple sellers to work on different sequences simultaneously for a record. This allows sellers or team to collaborate effectively to close deals. | [Documentation](connect-a-sequence-to-records.md#connect-multiple-sequences-to-record) | For all users  | GA |
-| Sequences | Plan and perform assigned tasks while previewing the sequence steps. | You can preview the sequence steps within the context of a specific entity record, enabling you to plan and execute tasks effectively. |  [Documentation](understand-the-up-next-widget.md#preview-a-sequence) | For all users | GA |
-| Sequences | Plan and perform assigned tasks while previewing the sequence steps. | You can preview the sequence steps within the context of a specific entity record, enabling you to plan and execute tasks effectively. |  [Documentation](understand-the-up-next-widget.md#preview-a-sequence) | For all users | GA |
-| Focused view | Focused view is available as default for lead entity | The key capabilities that users access in the grid layout are now brought into focused view, with the option to set the focused view as default for the lead entity. |  [Documentation](set-focused-view-as-default.md) | By admin | GA |
-
-## Get the latest version
+## Check the latest version
 
 New customers automatically get the latest version. If you're an existing partner or customer, check your email for notifications about updates.
 
 For the latest available version in your region, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales).
 
-## See also
+## Related information
 
 - [2024 release wave 1](/dynamics365/release-plan/2024wave1/sales/dynamics365-sales/planned-features)  
 - [2023 release wave 2](/dynamics365/release-plan/2023wave2/sales/dynamics365-sales/planned-features)

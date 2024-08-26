@@ -79,7 +79,7 @@ Add the organizations that are competing with you for the opportunity as competi
 1. In the Summary tab, scroll down to the **Competitors** section.
 1. Select **Add Existing Competitor** to add a competitor.
 
-### See also
+## Related information
 
 [Create or edit opportunities](create-edit-opportunity-sales.md)  
 [Move the opportunity through different stages](move-opportunity-stages.md)   

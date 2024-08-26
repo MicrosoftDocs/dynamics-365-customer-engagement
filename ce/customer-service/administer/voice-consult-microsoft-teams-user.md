@@ -81,7 +81,7 @@ Get the [immutable resource ID](/azure/communication-services/concepts/troublesh
      - Run `$allowlist = @('<UPDATED_ACS_RESOURCE_IDs>') Set-CsTeamsAcsFederationConfiguration -EnableAcsUsers $True -AllowedAcsResources $allowlist`
 
 
-### See also
+### Related information
 
 [Introduction to the voice channel](voice-channel.md)  
 [Agent consult with Microsoft Teams users](../use/voice-channel-transfer-consult.md)  

@@ -27,7 +27,7 @@ To sign in to Omnichannel for Customer Service, do the following:
 > If you have Omnichannel access, then you can see the Omnichannel for Customer Service app in your instance.
 
 
-### See also
+### Related information
 
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)  
 - [View communication panel](oc-conversation-control.md)  

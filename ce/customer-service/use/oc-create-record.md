@@ -104,7 +104,7 @@ In the **Active Conversation** page, when you are trying to search a record in c
     > [!div class=mx-imgBorder]
     > ![Auto-link record.](../media/customer-summary-search-section-auto-link-case.png "Auto-link record")
 
-### See also
+### Related information
 
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)  
 - [View customer information on Active Conversation form](oc-customer-summary.md)  

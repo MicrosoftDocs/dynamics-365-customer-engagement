@@ -31,7 +31,7 @@ When you configure Azure and Copilot Studio bots in Omnichannel for Customer Ser
 - The message size must be less than or equal to 28 KB in all messaging channels. The size limit includes metadata like timestamps and tags. If you're a bot author or developer and want to pass complex cards or message types across channels, ensure that your message size doesn't exceed the limit. If you're integrating a custom channel via Direct Line, then make sure that the activity payload doesn't exceed the message size limit.
 
 
-### See also
+### Related information
 
 [Integrate an Azure bot](configure-bot-azure.md)  
 [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md)  
