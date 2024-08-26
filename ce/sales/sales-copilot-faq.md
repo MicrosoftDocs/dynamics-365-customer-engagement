@@ -7,7 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 04/02/2024
+ms.date: 08/26/2024
 ---
 
 # Copilot in Dynamics 365 Sales FAQs
@@ -48,7 +48,7 @@ No. We don't use any customer data to train Azure OpenAI or any other language m
 
 ## What features does Copilot in Dynamics 365 Sales support for the available languages?
 
-Copilot in Dynamics 365 Sales supports the following features for the available languages:  
+Copilot in Dynamics 365 Sales supports the following features in the [supported languages](copilot-overview.md#region-availability-and-languages-supported):  
 
 - Account news
 - Account summary
