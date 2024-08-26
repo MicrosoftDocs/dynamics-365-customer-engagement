@@ -84,7 +84,7 @@ In the new mobile user experience, app users can tap the user icon to access the
 
 :::image type="content" source="../media/user-settings-newux.png" alt-text="Screenshot of the user settings in the new mobile experience.":::
 
-- **Timezone**: Set the timezone for the app. If the configuration of the device and the users's settings in Dynamics 365 don't match, the system updates the Dynamics 365 profile to align with the device settings.
+- **Timezone**: Set the time zone for the app. If the configuration of the device and the user's settings in Dynamics 365 don't match, the system updates the Dynamics 365 profile to align with the device settings.
 - **Language**: Set the language for the mobile app.
 - **Map**: Define the behavior of the app when getting directions to a customer site and choose the default map provider.
-- **Apps**: If a user has access to multiple Field Service Mobile app modules, they can choose which app module to load. They can also access app module settings to [turn on optimized image upload](optimize-image-size.md) or get debugging information.
+- **Apps**: If a user has access to multiple Field Service mobile app modules, they can choose which app module to load. They can also access app module settings to [turn on optimized image upload](optimize-image-size.md) or get debugging information.
