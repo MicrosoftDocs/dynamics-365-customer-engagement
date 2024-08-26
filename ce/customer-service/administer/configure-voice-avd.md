@@ -1,21 +1,16 @@
 ---
-title: How-to topic template #Required; page title displayed in search results. Don't enclose in quotation marks.
-description: How-to description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: rhanajoy #Required; your GitHub user alias, with correct capitalization.
-ms.author: rhcassid #Required; your Microsoft alias; optional team alias.
-ms.reviewer: kfend #Required; Microsoft alias of content publishing team member.
-ms.topic: how-to #Required; don't change.
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
+title: Use Azure Virtual Desktop to access voice channel
+description: Learn how to configure the Microsoft Remote Desktop client in your agents remote desktop to enable agents to connect to the voice channel using Azure Virtual Desktop.
+author: gandhamm
+ms.author: mgandham
+ms.reviewer: mgandham
+ms.topic: how-to 
+ms.collection: 
 ms.date: 08/26/2024
-ms.custom: bap-template #Required; don't change.
+ms.custom: bap-template 
 ---
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
-
-<!--This template provides the basic structure of a how-to article. See [Write a how-to topic](write-a how-to.md) in the contributor guide. To provide feedback on this template contact [bace feedback](mailto:templateswg@microsoft.com).-->
-
-<!--H1. Required. Pick an H1 that clearly conveys the task the user will complete.-->
-# Heading
+# Use Azure Virtual Desktop to access voice channel
 
 Configure the Microsoft Remote Desktop client in your agents remote desktop. This enables agents to connect to the voice channel using the Azure Virtual Desktop. 
 
