@@ -34,7 +34,7 @@ Use price lists and price list items to define price for a product.
 
 ## What is a price list?
 
-Price lists tell your sales agents what to charge for your products or services. You can create multiple prices lists so that you can maintain separate price structures for different regions,  sales channels, or sales territories. 
+Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions,  sales channels, or sales territories. 
 
 Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
 
