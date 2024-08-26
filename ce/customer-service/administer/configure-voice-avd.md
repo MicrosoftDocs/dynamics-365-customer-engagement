@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Use Azure Virtual Desktop to access voice channel
 
-Configure the Microsoft Remote Desktop client in your agents remote desktop. This enables agents to connect to the voice channel using the Azure Virtual Desktop. 
+You can configure the Microsoft Remote Desktop client in your agents' remote desktops. This enables agents to connect to the voice channel using the Azure Virtual Desktop. 
 
 ## Prerequisites
 
