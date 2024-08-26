@@ -66,9 +66,9 @@ To report a phone number as spam, select **Mark spam**.
 
 You can add notes to help your administrator review and block numbers. After you mark a number as spam, it goes into the pending review tab on the **Blocked numbers** page.
 
-## Call disconnection when you are using Azure Virtual Desktop
+## Use Azure Virtual Desktop to connect to voice channel
 
-When you are using Azure Virtual Desktop to access the voice channel, and the call disconnects. Learn more at [Agent experience when local machine disconnects from the Azure Virtual Desktop instance](../administer/configure-voice-avd.md)
+You can use the Microsoft Remote Desktop client to connect to the voice channel using Azure Virtual Desktop. You can learn more about the disconnection scenarios at [Agent experience when local machine disconnects from the Azure Virtual Desktop instance](../administer/configure-voice-avd.md)
 
 ## How to avoid call disconnection
 
