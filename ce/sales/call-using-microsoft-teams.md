@@ -57,7 +57,7 @@ You can use Microsoft Teams to call a customer directly from the dialer, a recor
 1. Select ![Phone icon.](media/phone-icon.png "Phone icon") corresponding to the phone number. The call is established.
 
 1. Select your conversation language from the language drop-down. Selecting the approrpirate language ensures accurate transcription, keyword tracking, analysis, insights, and KPIs.
-   :::image type="content" source="media/teams-dialer-make-call" alt-text="Screenshot of Teams dialer with language drop-down highlighted":::
+   :::image type="content" source="media/teams-dialer-make-call.png" alt-text="Screenshot of Teams dialer with language drop-down highlighted":::
 
 
 1. (Optional) Select the ellipses (three-dots menu) in the dialer screen to change your microphone and speaker settings.
