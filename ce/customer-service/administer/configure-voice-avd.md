@@ -33,7 +33,6 @@ Ensure agents perform the following steps to access the voice channel from the r
 
 Agents can communicate with customers on the phone to resolve issues using the voice channel through the Azure Virtual Desktop. The following table describes the scenarios in which the local machine disconnects from the Azure Virtual Desktop instance.
 
-# AVD Agent Availability
 
 | AVD Agent Availability (A1)                | New Incoming Items                                 | Existing Live Work Items                                                                                       |
 |--------------------------------------------|---------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
