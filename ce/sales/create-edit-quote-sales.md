@@ -55,7 +55,7 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
 6. To add products from your opportunity to your quote, on the command bar of the **Quote** form, select **Get Products**. Add more products or remove existing ones from the **Products** area. [Learn more about how prices are calculated for a quote](#how-prices-are-calculated-for-a-quote).
 
-7. Select **Save** in the lower-right corner of the screen.
+7. Select **Save**.
 
 8. When your quote is ready to send to your customer, on the command bar, select **Activate Quote**.
 
@@ -73,7 +73,7 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
     -  **Name** 
   
-    -  **Product Price List** and **Currency**: The price list that will be used to calculate the product prices and currency. [Learn more about how prices are calculated for a quote](#how-prices-are-calculated-for-a-quote).
+    -  **Price List** and **Currency**: The price list that will be used to calculate the product prices and currency. [Learn more about how prices are calculated for a quote](#how-prices-are-calculated-for-a-quote).
 
         > [!NOTE]
         > By default, selecting a price list is required to be able to add products a quote. However, your administrator can change your organization settings to make the Price list field optional. More information: [Allow adding products without associated price list](make-price-list-optional.md)
@@ -118,7 +118,7 @@ The price calculation for a quote depends on the product catalog, line items, pr
 
     In the active and closed states, the prices are not adjusted to the actual prices on the price list when you open or edit the quote.
   
-## Email a quote
+## Export to PDF
 
 When you've added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a PDF file](create-quote-pdf.md#export-to-pdf)
 
