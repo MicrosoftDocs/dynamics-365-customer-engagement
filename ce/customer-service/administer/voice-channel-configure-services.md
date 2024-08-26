@@ -1,4 +1,3 @@
-
 ---
 title: Set up incoming calls, call recording, and SMS services
 description: Learn how to set up incoming calls, call recording, and SMS services using the Azure Event Grid.
