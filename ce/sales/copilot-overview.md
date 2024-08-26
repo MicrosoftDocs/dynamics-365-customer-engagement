@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 07/03/2024
+ms.date: 08/26/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -104,7 +104,9 @@ Copilot can help you stay current with the latest news about your accounts. News
 
 ## Region availability and languages supported
 
-Currently, Copilot in Dynamics 365 Sales supports the following language&ndash;English, Danish, Dutch, French, German, Italian, Japanese, Portuguese (Brazil), Spanish, Chinese (Simplified), Czech, Finnish, Greek, Korean, Norwegian (Bokmål), Polish, Russian, Swedish, Thai, and Turkish. For information on the features supported by Copilot in Dynamics 365 Sales in your preferred language, see [this FAQ](sales-copilot-faq.md#what-features-does-copilot-in-dynamics-365-sales-support-for-the-available-languages).  
+Currently, Copilot in Dynamics 365 Sales supports the following languages&ndash;English, Danish, Dutch, French, German, Italian, Japanese, Portuguese (Brazil), Spanish, Chinese (Simplified), Czech, Finnish, Greek, Korean, Norwegian (Bokmål), Polish, Russian, Swedish, Thai, and Turkish.  
+
+For information on the features supported by Copilot in Dynamics 365 Sales in your preferred language, see [this FAQ](sales-copilot-faq.md#what-features-does-copilot-in-dynamics-365-sales-support-for-the-available-languages).  
 
 Copilot in Dynamics 365 Sales is supported only in specific regions. For a list of regions where Copilot in Dynamics 365 Sales isn't supported, see [this FAQ](sales-copilot-faq.md#is-copilot-in-dynamics-365-sales-available-in-all-regions).  
 
