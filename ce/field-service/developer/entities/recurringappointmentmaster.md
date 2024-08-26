@@ -1,7 +1,7 @@
 ---
 title: "Recurring Appointment (RecurringAppointmentMaster) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Recurring Appointment (RecurringAppointmentMaster) table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -89,7 +89,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_timeoffrequest_RecurringAppointmentMasters](#BKMK_msdyn_timeoffrequest_RecurringAppointmentMasters)
 - [msdyn_warehouse_RecurringAppointmentMasters](#BKMK_msdyn_warehouse_RecurringAppointmentMasters)
 - [msdyn_workorder_RecurringAppointmentMasters](#BKMK_msdyn_workorder_RecurringAppointmentMasters)
-- [msdyn_workordercharacteristic_RecurringAppointmentMasters](#BKMK_msdyn_workordercharacteristic_RecurringAppointmentMasters)
 - [msdyn_workorderincident_RecurringAppointmentMasters](#BKMK_msdyn_workorderincident_RecurringAppointmentMasters)
 - [msdyn_workorderproduct_RecurringAppointmentMasters](#BKMK_msdyn_workorderproduct_RecurringAppointmentMasters)
 - [msdyn_workorderresourcerestriction_RecurringAppointmentMasters](#BKMK_msdyn_workorderresourcerestriction_RecurringAppointmentMasters)
@@ -782,19 +781,6 @@ One-To-Many Relationship: [msdyn_workorder msdyn_workorder_RecurringAppointmentM
 |ReferencedAttribute|`msdyn_workorderid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workorder_recurringappointmentmaster`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
-
-### <a name="BKMK_msdyn_workordercharacteristic_RecurringAppointmentMasters"></a> msdyn_workordercharacteristic_RecurringAppointmentMasters
-
-One-To-Many Relationship: [msdyn_workordercharacteristic msdyn_workordercharacteristic_RecurringAppointmentMasters](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_RecurringAppointmentMasters)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workordercharacteristic`|
-|ReferencedAttribute|`msdyn_workordercharacteristicid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workordercharacteristic_recurringappointmentmaster`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

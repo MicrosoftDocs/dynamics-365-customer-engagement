@@ -1,7 +1,7 @@
 ---
 title: "Data Map (ImportMap) table/entity reference (Microsoft Dynamics 365)"
 description: "Includes schema information and supported messages for the Data Map (ImportMap) table/entity with Microsoft Dynamics 365."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -841,7 +841,7 @@ Changes from [TargetEntity (Microsoft Dataverse)](/power-apps/developer/data-pla
 |10835|**Knowledge analytics**|
 |10836|**Forecast Summary and Setting**|
 |10837|**Keywords Description Suggestion Setting**|
-|10908|**Autonomous case creation and enrichment rules**|
+|10908|**Autonomous case creation and update rules**|
 |11003|**Conversation Summary Interaction**|
 |11004|**Conversation Summary Setting**|
 |11005|**Conversation Topic**|

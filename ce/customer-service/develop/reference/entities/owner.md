@@ -1,7 +1,7 @@
 ---
 title: "Owner table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Owner table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -51,6 +51,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [owner_msdyn_scheduleboardsetting](#BKMK_owner_msdyn_scheduleboardsetting)
 - [owner_msdyn_schedulingfeatureflag](#BKMK_owner_msdyn_schedulingfeatureflag)
 - [owner_msdyn_systemuserschedulersetting](#BKMK_owner_msdyn_systemuserschedulersetting)
+- [owner_msdyn_templatetags](#BKMK_owner_msdyn_templatetags)
 - [owner_msdyn_timegroup](#BKMK_owner_msdyn_timegroup)
 - [owner_msdyn_timegroupdetail](#BKMK_owner_msdyn_timegroupdetail)
 - [owner_msdyn_transactionorigin](#BKMK_owner_msdyn_transactionorigin)
@@ -377,6 +378,18 @@ Many-To-One Relationship: [msdyn_systemuserschedulersetting owner_msdyn_systemus
 |ReferencingEntity|`msdyn_systemuserschedulersetting`|
 |ReferencingAttribute|`ownerid`|
 |ReferencedEntityNavigationPropertyName|`owner_msdyn_systemuserschedulersetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_owner_msdyn_templatetags"></a> owner_msdyn_templatetags
+
+Many-To-One Relationship: [msdyn_templatetags owner_msdyn_templatetags](msdyn_templatetags.md#BKMK_owner_msdyn_templatetags)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_templatetags`|
+|ReferencingAttribute|`ownerid`|
+|ReferencedEntityNavigationPropertyName|`owner_msdyn_templatetags`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

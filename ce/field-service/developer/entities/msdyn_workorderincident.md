@@ -1,7 +1,7 @@
 ---
 title: "Work Order Incident (msdyn_workorderincident) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Work Order Incident (msdyn_workorderincident) table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -25,6 +25,7 @@ Messages represent operations that can be performed on the table. They may also 
 | `Create`<br />Event: True |`POST` /msdyn_workorderincidents<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api) |[Create records](/power-apps/developer/data-platform/org-service/entity-operations-create#basic-create)|
 | `CreateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
 | `Delete`<br />Event: True |`DELETE` /msdyn_workorderincidents(*msdyn_workorderincidentid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[Delete records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete)|
+| `DeleteMultiple`<br />Event: True | |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `GrantAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
@@ -918,7 +919,6 @@ One-To-Many Relationship: [systemuser user_msdyn_workorderincident](systemuser.m
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msdyn_msdyn_workorderincident_msdyn_requirementcharacteristic_WorkOrderIncident](#BKMK_msdyn_msdyn_workorderincident_msdyn_requirementcharacteristic_WorkOrderIncident)
-- [msdyn_msdyn_workorderincident_msdyn_workordercharacteristic_WorkOrderIncident](#BKMK_msdyn_msdyn_workorderincident_msdyn_workordercharacteristic_WorkOrderIncident)
 - [msdyn_msdyn_workorderincident_msdyn_workorderproduct_WorkOrderIncident](#BKMK_msdyn_msdyn_workorderincident_msdyn_workorderproduct_WorkOrderIncident)
 - [msdyn_msdyn_workorderincident_msdyn_workorderresolution_WorkOrderIncident](#BKMK_msdyn_msdyn_workorderincident_msdyn_workorderresolution_WorkOrderIncident)
 - [msdyn_msdyn_workorderincident_msdyn_workorderservice_WorkOrderIncident](#BKMK_msdyn_msdyn_workorderincident_msdyn_workorderservice_WorkOrderIncident)
@@ -968,18 +968,6 @@ Many-To-One Relationship: [msdyn_requirementcharacteristic msdyn_msdyn_workorder
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_workorderincident_msdyn_requirementcharacteristic_WorkOrderIncident`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseLabel`<br />Group: `Details`<br />Label: Characteristics<br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_msdyn_msdyn_workorderincident_msdyn_workordercharacteristic_WorkOrderIncident"></a> msdyn_msdyn_workorderincident_msdyn_workordercharacteristic_WorkOrderIncident
-
-Many-To-One Relationship: [msdyn_workordercharacteristic msdyn_msdyn_workorderincident_msdyn_workordercharacteristic_WorkOrderIncident](msdyn_workordercharacteristic.md#BKMK_msdyn_msdyn_workorderincident_msdyn_workordercharacteristic_WorkOrderIncident)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_workordercharacteristic`|
-|ReferencingAttribute|`msdyn_workorderincident`|
-|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_workorderincident_msdyn_workordercharacteristic_WorkOrderIncident`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_workorderincident_msdyn_workorderproduct_WorkOrderIncident"></a> msdyn_msdyn_workorderincident_msdyn_workorderproduct_WorkOrderIncident
 

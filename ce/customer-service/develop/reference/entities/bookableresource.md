@@ -1,7 +1,7 @@
 ---
 title: "Bookable Resource (BookableResource) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Bookable Resource (BookableResource) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -303,6 +303,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 
 - [msdyn_equipment_bookableresource_FacilityEquipmentId](#BKMK_msdyn_equipment_bookableresource_FacilityEquipmentId)
 - [msdyn_msdyn_organizationalunit_bookableresource_organizationalunit](#BKMK_msdyn_msdyn_organizationalunit_bookableresource_organizationalunit)
+- [TransactionCurrency_bookableresource](#BKMK_TransactionCurrency_bookableresource)
 
 ### <a name="BKMK_msdyn_equipment_bookableresource_FacilityEquipmentId"></a> msdyn_equipment_bookableresource_FacilityEquipmentId
 
@@ -329,6 +330,19 @@ One-To-Many Relationship: [msdyn_organizationalunit msdyn_msdyn_organizationalun
 |ReferencingEntityNavigationPropertyName|`msdyn_OrganizationalUnit`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_TransactionCurrency_bookableresource"></a> TransactionCurrency_bookableresource
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_bookableresource](transactioncurrency.md#BKMK_TransactionCurrency_bookableresource)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

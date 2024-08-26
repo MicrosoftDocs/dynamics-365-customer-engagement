@@ -1,7 +1,7 @@
 ---
 title: "Data Map (ImportMap) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Data Map (ImportMap) table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -35,7 +35,6 @@ Changes from [TargetEntity (Microsoft Dataverse)](/power-apps/developer/data-pla
 |1085|**Quote Line**|
 |1089|**Order Line**|
 |9820|**Secured Masking Column**|
-|10035|**Shared Workspace Non-Relational**|
 |10058|**CascadeGrantRevokeAccessRecordsTracker**|
 |10059|**CascadeGrantRevokeAccessVersionTracker**|
 |10060|**RevokeInheritedAccessRecordsTracker**|
@@ -515,7 +514,7 @@ Changes from [TargetEntity (Microsoft Dataverse)](/power-apps/developer/data-pla
 |10642|**Swarm role**|
 |10643|**Swarm skill**|
 |10644|**Swarm template**|
-|10645|**Autonomous case creation and enrichment rules**|
+|10645|**Autonomous case creation and update rules**|
 |10646|**Entity Attachment**|
 |10647|**Time Tracker**|
 |10648|**Survey setting**|
@@ -920,6 +919,12 @@ Changes from [TargetEntity (Microsoft Dataverse)](/power-apps/developer/data-pla
 |11133|**Predictive Work Hour Duration Setting**|
 |11134|**Field Service Summary Configuration**|
 |11135|**MobileSource**|
+|11136|**FederatedKnowledgeConfiguration**|
+|11137|**FederatedKnowledgeEntityConfiguration**|
+|11138|**Form Mapping**|
+|11222|**Sales usage telemetry reports**|
+|11223|**Sales usage reporting**|
+|11224|**Copilot Analytics**|
 
 
 

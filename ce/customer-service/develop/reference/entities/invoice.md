@@ -1,7 +1,7 @@
 ---
 title: "Invoice table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Invoice table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -18,6 +18,24 @@ Order that has been billed.
 > The Microsoft Dynamics 365 Customer Service Invoice table extends the [Microsoft Dynamics 365 Invoice table](/dynamics365/developer/entities/invoice).
 
 
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_transactioncurrency_invoice"></a> transactioncurrency_invoice
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_invoice](transactioncurrency.md#BKMK_transactioncurrency_invoice)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

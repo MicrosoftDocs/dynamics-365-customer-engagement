@@ -1,7 +1,7 @@
 ---
 title: "User (SystemUser) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the User (SystemUser) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -145,6 +145,10 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [lk_msdyn_systemuserschedulersetting_createdonbehalfby](#BKMK_lk_msdyn_systemuserschedulersetting_createdonbehalfby)
 - [lk_msdyn_systemuserschedulersetting_modifiedby](#BKMK_lk_msdyn_systemuserschedulersetting_modifiedby)
 - [lk_msdyn_systemuserschedulersetting_modifiedonbehalfby](#BKMK_lk_msdyn_systemuserschedulersetting_modifiedonbehalfby)
+- [lk_msdyn_templatetags_createdby](#BKMK_lk_msdyn_templatetags_createdby)
+- [lk_msdyn_templatetags_createdonbehalfby](#BKMK_lk_msdyn_templatetags_createdonbehalfby)
+- [lk_msdyn_templatetags_modifiedby](#BKMK_lk_msdyn_templatetags_modifiedby)
+- [lk_msdyn_templatetags_modifiedonbehalfby](#BKMK_lk_msdyn_templatetags_modifiedonbehalfby)
 - [lk_msdyn_timegroup_createdby](#BKMK_lk_msdyn_timegroup_createdby)
 - [lk_msdyn_timegroup_createdonbehalfby](#BKMK_lk_msdyn_timegroup_createdonbehalfby)
 - [lk_msdyn_timegroup_modifiedby](#BKMK_lk_msdyn_timegroup_modifiedby)
@@ -193,6 +197,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [user_msdyn_scheduleboardsetting](#BKMK_user_msdyn_scheduleboardsetting)
 - [user_msdyn_schedulingfeatureflag](#BKMK_user_msdyn_schedulingfeatureflag)
 - [user_msdyn_systemuserschedulersetting](#BKMK_user_msdyn_systemuserschedulersetting)
+- [user_msdyn_templatetags](#BKMK_user_msdyn_templatetags)
 - [user_msdyn_timegroup](#BKMK_user_msdyn_timegroup)
 - [user_msdyn_timegroupdetail](#BKMK_user_msdyn_timegroupdetail)
 - [user_msdyn_transactionorigin](#BKMK_user_msdyn_transactionorigin)
@@ -1542,6 +1547,54 @@ Many-To-One Relationship: [msdyn_systemuserschedulersetting lk_msdyn_systemusers
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_templatetags_createdby"></a> lk_msdyn_templatetags_createdby
+
+Many-To-One Relationship: [msdyn_templatetags lk_msdyn_templatetags_createdby](msdyn_templatetags.md#BKMK_lk_msdyn_templatetags_createdby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_templatetags`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_templatetags_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_templatetags_createdonbehalfby"></a> lk_msdyn_templatetags_createdonbehalfby
+
+Many-To-One Relationship: [msdyn_templatetags lk_msdyn_templatetags_createdonbehalfby](msdyn_templatetags.md#BKMK_lk_msdyn_templatetags_createdonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_templatetags`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_templatetags_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_templatetags_modifiedby"></a> lk_msdyn_templatetags_modifiedby
+
+Many-To-One Relationship: [msdyn_templatetags lk_msdyn_templatetags_modifiedby](msdyn_templatetags.md#BKMK_lk_msdyn_templatetags_modifiedby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_templatetags`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_templatetags_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_templatetags_modifiedonbehalfby"></a> lk_msdyn_templatetags_modifiedonbehalfby
+
+Many-To-One Relationship: [msdyn_templatetags lk_msdyn_templatetags_modifiedonbehalfby](msdyn_templatetags.md#BKMK_lk_msdyn_templatetags_modifiedonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_templatetags`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_templatetags_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_lk_msdyn_timegroup_createdby"></a> lk_msdyn_timegroup_createdby
 
 Many-To-One Relationship: [msdyn_timegroup lk_msdyn_timegroup_createdby](msdyn_timegroup.md#BKMK_lk_msdyn_timegroup_createdby)
@@ -2115,6 +2168,18 @@ Many-To-One Relationship: [msdyn_systemuserschedulersetting user_msdyn_systemuse
 |ReferencingEntity|`msdyn_systemuserschedulersetting`|
 |ReferencingAttribute|`owninguser`|
 |ReferencedEntityNavigationPropertyName|`user_msdyn_systemuserschedulersetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_user_msdyn_templatetags"></a> user_msdyn_templatetags
+
+Many-To-One Relationship: [msdyn_templatetags user_msdyn_templatetags](msdyn_templatetags.md#BKMK_user_msdyn_templatetags)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_templatetags`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_templatetags`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

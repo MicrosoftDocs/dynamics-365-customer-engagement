@@ -1,7 +1,7 @@
 ---
 title: "Asset Category Template Association (msdyn_assetcategorytemplateassociation) table/entity reference (Microsoft Dynamics 365)"
 description: "Includes schema information and supported messages for the Asset Category Template Association (msdyn_assetcategorytemplateassociation) table/entity with Microsoft Dynamics 365."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly

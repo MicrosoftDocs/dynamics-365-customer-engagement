@@ -1,7 +1,7 @@
 ---
 title: "Team table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Team table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -51,6 +51,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [team_msdyn_scheduleboardsetting](#BKMK_team_msdyn_scheduleboardsetting)
 - [team_msdyn_schedulingfeatureflag](#BKMK_team_msdyn_schedulingfeatureflag)
 - [team_msdyn_systemuserschedulersetting](#BKMK_team_msdyn_systemuserschedulersetting)
+- [team_msdyn_templatetags](#BKMK_team_msdyn_templatetags)
 - [team_msdyn_timegroup](#BKMK_team_msdyn_timegroup)
 - [team_msdyn_timegroupdetail](#BKMK_team_msdyn_timegroupdetail)
 - [team_msdyn_transactionorigin](#BKMK_team_msdyn_transactionorigin)
@@ -377,6 +378,18 @@ Many-To-One Relationship: [msdyn_systemuserschedulersetting team_msdyn_systemuse
 |ReferencingEntity|`msdyn_systemuserschedulersetting`|
 |ReferencingAttribute|`owningteam`|
 |ReferencedEntityNavigationPropertyName|`team_msdyn_systemuserschedulersetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_team_msdyn_templatetags"></a> team_msdyn_templatetags
+
+Many-To-One Relationship: [msdyn_templatetags team_msdyn_templatetags](msdyn_templatetags.md#BKMK_team_msdyn_templatetags)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_templatetags`|
+|ReferencingAttribute|`owningteam`|
+|ReferencedEntityNavigationPropertyName|`team_msdyn_templatetags`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

@@ -1,7 +1,7 @@
 ---
 title: "Note (Annotation) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Note (Annotation) table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -71,7 +71,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_paymentdetail_Annotations](#BKMK_msdyn_paymentdetail_Annotations)
 - [msdyn_paymentmethod_Annotations](#BKMK_msdyn_paymentmethod_Annotations)
 - [msdyn_paymentterm_Annotations](#BKMK_msdyn_paymentterm_Annotations)
-- [msdyn_playbooktemplate_Annotations](#BKMK_msdyn_playbooktemplate_Annotations)
 - [msdyn_postalcode_Annotations](#BKMK_msdyn_postalcode_Annotations)
 - [msdyn_priority_Annotations](#BKMK_msdyn_priority_Annotations)
 - [msdyn_productinventory_Annotations](#BKMK_msdyn_productinventory_Annotations)
@@ -113,7 +112,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_transactionorigin_Annotations](#BKMK_msdyn_transactionorigin_Annotations)
 - [msdyn_warehouse_Annotations](#BKMK_msdyn_warehouse_Annotations)
 - [msdyn_workorder_Annotations](#BKMK_msdyn_workorder_Annotations)
-- [msdyn_workordercharacteristic_Annotations](#BKMK_msdyn_workordercharacteristic_Annotations)
 - [msdyn_workorderincident_Annotations](#BKMK_msdyn_workorderincident_Annotations)
 - [msdyn_workorderproduct_Annotations](#BKMK_msdyn_workorderproduct_Annotations)
 - [msdyn_workorderresourcerestriction_Annotations](#BKMK_msdyn_workorderresourcerestriction_Annotations)
@@ -573,19 +571,6 @@ One-To-Many Relationship: [msdyn_paymentterm msdyn_paymentterm_Annotations](msdy
 |ReferencedAttribute|`msdyn_paymenttermid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_paymentterm`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
-
-### <a name="BKMK_msdyn_playbooktemplate_Annotations"></a> msdyn_playbooktemplate_Annotations
-
-One-To-Many Relationship: [msdyn_playbooktemplate msdyn_playbooktemplate_Annotations](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_Annotations)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbooktemplate`|
-|ReferencedAttribute|`msdyn_playbooktemplateid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_playbooktemplate`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 
@@ -1119,19 +1104,6 @@ One-To-Many Relationship: [msdyn_workorder msdyn_workorder_Annotations](msdyn_wo
 |ReferencedAttribute|`msdyn_workorderid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_workorder`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
-
-### <a name="BKMK_msdyn_workordercharacteristic_Annotations"></a> msdyn_workordercharacteristic_Annotations
-
-One-To-Many Relationship: [msdyn_workordercharacteristic msdyn_workordercharacteristic_Annotations](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_Annotations)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workordercharacteristic`|
-|ReferencedAttribute|`msdyn_workordercharacteristicid`|
-|ReferencingAttribute|`objectid`|
-|ReferencingEntityNavigationPropertyName|`objectid_msdyn_workordercharacteristic`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

@@ -1,7 +1,7 @@
 ---
 title: "Duplicate Record (DuplicateRecord) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Duplicate Record (DuplicateRecord) table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -88,12 +88,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_clientextension_DuplicateMatchingRecord](#BKMK_msdyn_clientextension_DuplicateMatchingRecord)
 - [msdyn_consoleapplicationsessiontemplate_DuplicateBaseRecord](#BKMK_msdyn_consoleapplicationsessiontemplate_DuplicateBaseRecord)
 - [msdyn_consoleapplicationsessiontemplate_DuplicateMatchingRecord](#BKMK_msdyn_consoleapplicationsessiontemplate_DuplicateMatchingRecord)
-- [msdyn_consoleapplicationtemplate_DuplicateBaseRecord](#BKMK_msdyn_consoleapplicationtemplate_DuplicateBaseRecord)
-- [msdyn_consoleapplicationtemplate_DuplicateMatchingRecord](#BKMK_msdyn_consoleapplicationtemplate_DuplicateMatchingRecord)
-- [msdyn_consoleapplicationtemplateparameter_DuplicateBaseRecord](#BKMK_msdyn_consoleapplicationtemplateparameter_DuplicateBaseRecord)
-- [msdyn_consoleapplicationtemplateparameter_DuplicateMatchingRecord](#BKMK_msdyn_consoleapplicationtemplateparameter_DuplicateMatchingRecord)
-- [msdyn_consoleapplicationtype_DuplicateBaseRecord](#BKMK_msdyn_consoleapplicationtype_DuplicateBaseRecord)
-- [msdyn_consoleapplicationtype_DuplicateMatchingRecord](#BKMK_msdyn_consoleapplicationtype_DuplicateMatchingRecord)
 - [msdyn_dataanalyticsreport_fs_DuplicateBaseRecord](#BKMK_msdyn_dataanalyticsreport_fs_DuplicateBaseRecord)
 - [msdyn_dataanalyticsreport_fs_DuplicateMatchingRecord](#BKMK_msdyn_dataanalyticsreport_fs_DuplicateMatchingRecord)
 - [msdyn_dataanalyticsreport_fspredictrs_DuplicateBaseRecord](#BKMK_msdyn_dataanalyticsreport_fspredictrs_DuplicateBaseRecord)
@@ -180,10 +174,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_paymentmethod_DuplicateMatchingRecord](#BKMK_msdyn_paymentmethod_DuplicateMatchingRecord)
 - [msdyn_paymentterm_DuplicateBaseRecord](#BKMK_msdyn_paymentterm_DuplicateBaseRecord)
 - [msdyn_paymentterm_DuplicateMatchingRecord](#BKMK_msdyn_paymentterm_DuplicateMatchingRecord)
-- [msdyn_playbookcategory_DuplicateBaseRecord](#BKMK_msdyn_playbookcategory_DuplicateBaseRecord)
-- [msdyn_playbookcategory_DuplicateMatchingRecord](#BKMK_msdyn_playbookcategory_DuplicateMatchingRecord)
-- [msdyn_playbooktemplate_DuplicateBaseRecord](#BKMK_msdyn_playbooktemplate_DuplicateBaseRecord)
-- [msdyn_playbooktemplate_DuplicateMatchingRecord](#BKMK_msdyn_playbooktemplate_DuplicateMatchingRecord)
 - [msdyn_postalcode_DuplicateBaseRecord](#BKMK_msdyn_postalcode_DuplicateBaseRecord)
 - [msdyn_postalcode_DuplicateMatchingRecord](#BKMK_msdyn_postalcode_DuplicateMatchingRecord)
 - [msdyn_priority_DuplicateBaseRecord](#BKMK_msdyn_priority_DuplicateBaseRecord)
@@ -274,8 +264,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_taxcode_DuplicateMatchingRecord](#BKMK_msdyn_taxcode_DuplicateMatchingRecord)
 - [msdyn_taxcodedetail_DuplicateBaseRecord](#BKMK_msdyn_taxcodedetail_DuplicateBaseRecord)
 - [msdyn_taxcodedetail_DuplicateMatchingRecord](#BKMK_msdyn_taxcodedetail_DuplicateMatchingRecord)
-- [msdyn_templatetags_DuplicateBaseRecord](#BKMK_msdyn_templatetags_DuplicateBaseRecord)
-- [msdyn_templatetags_DuplicateMatchingRecord](#BKMK_msdyn_templatetags_DuplicateMatchingRecord)
 - [msdyn_timeentrysetting_DuplicateBaseRecord](#BKMK_msdyn_timeentrysetting_DuplicateBaseRecord)
 - [msdyn_timeentrysetting_DuplicateMatchingRecord](#BKMK_msdyn_timeentrysetting_DuplicateMatchingRecord)
 - [msdyn_timegroup_DuplicateBaseRecord](#BKMK_msdyn_timegroup_DuplicateBaseRecord)
@@ -296,10 +284,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_workhourtemplate_DuplicateMatchingRecord](#BKMK_msdyn_workhourtemplate_DuplicateMatchingRecord)
 - [msdyn_workorder_DuplicateBaseRecord](#BKMK_msdyn_workorder_DuplicateBaseRecord)
 - [msdyn_workorder_DuplicateMatchingRecord](#BKMK_msdyn_workorder_DuplicateMatchingRecord)
-- [msdyn_workordercharacteristic_DuplicateBaseRecord](#BKMK_msdyn_workordercharacteristic_DuplicateBaseRecord)
-- [msdyn_workordercharacteristic_DuplicateMatchingRecord](#BKMK_msdyn_workordercharacteristic_DuplicateMatchingRecord)
-- [msdyn_workorderdetailsgenerationqueue_DuplicateBaseRecord](#BKMK_msdyn_workorderdetailsgenerationqueue_DuplicateBaseRecord)
-- [msdyn_workorderdetailsgenerationqueue_DuplicateMatchingRecord](#BKMK_msdyn_workorderdetailsgenerationqueue_DuplicateMatchingRecord)
 - [msdyn_workorderincident_DuplicateBaseRecord](#BKMK_msdyn_workorderincident_DuplicateBaseRecord)
 - [msdyn_workorderincident_DuplicateMatchingRecord](#BKMK_msdyn_workorderincident_DuplicateMatchingRecord)
 - [msdyn_workordernte_DuplicateBaseRecord](#BKMK_msdyn_workordernte_DuplicateBaseRecord)
@@ -834,84 +818,6 @@ One-To-Many Relationship: [msdyn_consoleapplicationsessiontemplate msdyn_console
 |ReferencedAttribute|`msdyn_consoleapplicationsessiontemplateid`|
 |ReferencingAttribute|`duplicaterecordid`|
 |ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_consoleapplicationsessiontemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplate_DuplicateBaseRecord"></a> msdyn_consoleapplicationtemplate_DuplicateBaseRecord
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplate msdyn_consoleapplicationtemplate_DuplicateBaseRecord](msdyn_consoleapplicationtemplate.md#BKMK_msdyn_consoleapplicationtemplate_DuplicateBaseRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplate`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateid`|
-|ReferencingAttribute|`baserecordid`|
-|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_consoleapplicationtemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplate_DuplicateMatchingRecord"></a> msdyn_consoleapplicationtemplate_DuplicateMatchingRecord
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplate msdyn_consoleapplicationtemplate_DuplicateMatchingRecord](msdyn_consoleapplicationtemplate.md#BKMK_msdyn_consoleapplicationtemplate_DuplicateMatchingRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplate`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateid`|
-|ReferencingAttribute|`duplicaterecordid`|
-|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_consoleapplicationtemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplateparameter_DuplicateBaseRecord"></a> msdyn_consoleapplicationtemplateparameter_DuplicateBaseRecord
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplateparameter msdyn_consoleapplicationtemplateparameter_DuplicateBaseRecord](msdyn_consoleapplicationtemplateparameter.md#BKMK_msdyn_consoleapplicationtemplateparameter_DuplicateBaseRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplateparameter`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateparameterid`|
-|ReferencingAttribute|`baserecordid`|
-|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_consoleapplicationtemplateparameter`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtemplateparameter_DuplicateMatchingRecord"></a> msdyn_consoleapplicationtemplateparameter_DuplicateMatchingRecord
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplateparameter msdyn_consoleapplicationtemplateparameter_DuplicateMatchingRecord](msdyn_consoleapplicationtemplateparameter.md#BKMK_msdyn_consoleapplicationtemplateparameter_DuplicateMatchingRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplateparameter`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateparameterid`|
-|ReferencingAttribute|`duplicaterecordid`|
-|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_consoleapplicationtemplateparameter`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtype_DuplicateBaseRecord"></a> msdyn_consoleapplicationtype_DuplicateBaseRecord
-
-One-To-Many Relationship: [msdyn_consoleapplicationtype msdyn_consoleapplicationtype_DuplicateBaseRecord](msdyn_consoleapplicationtype.md#BKMK_msdyn_consoleapplicationtype_DuplicateBaseRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtype`|
-|ReferencedAttribute|`msdyn_consoleapplicationtypeid`|
-|ReferencingAttribute|`baserecordid`|
-|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_consoleapplicationtype`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_consoleapplicationtype_DuplicateMatchingRecord"></a> msdyn_consoleapplicationtype_DuplicateMatchingRecord
-
-One-To-Many Relationship: [msdyn_consoleapplicationtype msdyn_consoleapplicationtype_DuplicateMatchingRecord](msdyn_consoleapplicationtype.md#BKMK_msdyn_consoleapplicationtype_DuplicateMatchingRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtype`|
-|ReferencedAttribute|`msdyn_consoleapplicationtypeid`|
-|ReferencingAttribute|`duplicaterecordid`|
-|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_consoleapplicationtype`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -2030,58 +1936,6 @@ One-To-Many Relationship: [msdyn_paymentterm msdyn_paymentterm_DuplicateMatching
 |ReferencedAttribute|`msdyn_paymenttermid`|
 |ReferencingAttribute|`duplicaterecordid`|
 |ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_paymentterm`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_playbookcategory_DuplicateBaseRecord"></a> msdyn_playbookcategory_DuplicateBaseRecord
-
-One-To-Many Relationship: [msdyn_playbookcategory msdyn_playbookcategory_DuplicateBaseRecord](msdyn_playbookcategory.md#BKMK_msdyn_playbookcategory_DuplicateBaseRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbookcategory`|
-|ReferencedAttribute|`msdyn_playbookcategoryid`|
-|ReferencingAttribute|`baserecordid`|
-|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_playbookcategory`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_playbookcategory_DuplicateMatchingRecord"></a> msdyn_playbookcategory_DuplicateMatchingRecord
-
-One-To-Many Relationship: [msdyn_playbookcategory msdyn_playbookcategory_DuplicateMatchingRecord](msdyn_playbookcategory.md#BKMK_msdyn_playbookcategory_DuplicateMatchingRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbookcategory`|
-|ReferencedAttribute|`msdyn_playbookcategoryid`|
-|ReferencingAttribute|`duplicaterecordid`|
-|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_playbookcategory`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_playbooktemplate_DuplicateBaseRecord"></a> msdyn_playbooktemplate_DuplicateBaseRecord
-
-One-To-Many Relationship: [msdyn_playbooktemplate msdyn_playbooktemplate_DuplicateBaseRecord](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_DuplicateBaseRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbooktemplate`|
-|ReferencedAttribute|`msdyn_playbooktemplateid`|
-|ReferencingAttribute|`baserecordid`|
-|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_playbooktemplate`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_playbooktemplate_DuplicateMatchingRecord"></a> msdyn_playbooktemplate_DuplicateMatchingRecord
-
-One-To-Many Relationship: [msdyn_playbooktemplate msdyn_playbooktemplate_DuplicateMatchingRecord](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_DuplicateMatchingRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_playbooktemplate`|
-|ReferencedAttribute|`msdyn_playbooktemplateid`|
-|ReferencingAttribute|`duplicaterecordid`|
-|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_playbooktemplate`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -3255,32 +3109,6 @@ One-To-Many Relationship: [msdyn_taxcodedetail msdyn_taxcodedetail_DuplicateMatc
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_templatetags_DuplicateBaseRecord"></a> msdyn_templatetags_DuplicateBaseRecord
-
-One-To-Many Relationship: [msdyn_templatetags msdyn_templatetags_DuplicateBaseRecord](msdyn_templatetags.md#BKMK_msdyn_templatetags_DuplicateBaseRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_templatetags`|
-|ReferencedAttribute|`msdyn_templatetagsid`|
-|ReferencingAttribute|`baserecordid`|
-|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_templatetags`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_templatetags_DuplicateMatchingRecord"></a> msdyn_templatetags_DuplicateMatchingRecord
-
-One-To-Many Relationship: [msdyn_templatetags msdyn_templatetags_DuplicateMatchingRecord](msdyn_templatetags.md#BKMK_msdyn_templatetags_DuplicateMatchingRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_templatetags`|
-|ReferencedAttribute|`msdyn_templatetagsid`|
-|ReferencingAttribute|`duplicaterecordid`|
-|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_templatetags`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msdyn_timeentrysetting_DuplicateBaseRecord"></a> msdyn_timeentrysetting_DuplicateBaseRecord
 
 One-To-Many Relationship: [msdyn_timeentrysetting msdyn_timeentrysetting_DuplicateBaseRecord](msdyn_timeentrysetting.md#BKMK_msdyn_timeentrysetting_DuplicateBaseRecord)
@@ -3538,58 +3366,6 @@ One-To-Many Relationship: [msdyn_workorder msdyn_workorder_DuplicateMatchingReco
 |ReferencedAttribute|`msdyn_workorderid`|
 |ReferencingAttribute|`duplicaterecordid`|
 |ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_workorder`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_workordercharacteristic_DuplicateBaseRecord"></a> msdyn_workordercharacteristic_DuplicateBaseRecord
-
-One-To-Many Relationship: [msdyn_workordercharacteristic msdyn_workordercharacteristic_DuplicateBaseRecord](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_DuplicateBaseRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workordercharacteristic`|
-|ReferencedAttribute|`msdyn_workordercharacteristicid`|
-|ReferencingAttribute|`baserecordid`|
-|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_workordercharacteristic`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_workordercharacteristic_DuplicateMatchingRecord"></a> msdyn_workordercharacteristic_DuplicateMatchingRecord
-
-One-To-Many Relationship: [msdyn_workordercharacteristic msdyn_workordercharacteristic_DuplicateMatchingRecord](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_DuplicateMatchingRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workordercharacteristic`|
-|ReferencedAttribute|`msdyn_workordercharacteristicid`|
-|ReferencingAttribute|`duplicaterecordid`|
-|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_workordercharacteristic`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_workorderdetailsgenerationqueue_DuplicateBaseRecord"></a> msdyn_workorderdetailsgenerationqueue_DuplicateBaseRecord
-
-One-To-Many Relationship: [msdyn_workorderdetailsgenerationqueue msdyn_workorderdetailsgenerationqueue_DuplicateBaseRecord](msdyn_workorderdetailsgenerationqueue.md#BKMK_msdyn_workorderdetailsgenerationqueue_DuplicateBaseRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workorderdetailsgenerationqueue`|
-|ReferencedAttribute|`msdyn_workorderdetailsgenerationqueueid`|
-|ReferencingAttribute|`baserecordid`|
-|ReferencingEntityNavigationPropertyName|`baserecordid_msdyn_workorderdetailsgenerationqueue`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_workorderdetailsgenerationqueue_DuplicateMatchingRecord"></a> msdyn_workorderdetailsgenerationqueue_DuplicateMatchingRecord
-
-One-To-Many Relationship: [msdyn_workorderdetailsgenerationqueue msdyn_workorderdetailsgenerationqueue_DuplicateMatchingRecord](msdyn_workorderdetailsgenerationqueue.md#BKMK_msdyn_workorderdetailsgenerationqueue_DuplicateMatchingRecord)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workorderdetailsgenerationqueue`|
-|ReferencedAttribute|`msdyn_workorderdetailsgenerationqueueid`|
-|ReferencingAttribute|`duplicaterecordid`|
-|ReferencingEntityNavigationPropertyName|`duplicaterecordid_msdyn_workorderdetailsgenerationqueue`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

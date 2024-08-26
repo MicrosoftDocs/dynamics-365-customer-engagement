@@ -1,7 +1,7 @@
 ---
-title: "Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table/entity reference (Microsoft Dynamics 365)"
-description: "Includes schema information and supported messages for the Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table/entity with Microsoft Dynamics 365."
-ms.date: 08/21/2024
+title: "Autonomous case creation and update rules (msdyn_autonomouscasecreationrule) table/entity reference (Microsoft Dynamics 365)"
+description: "Includes schema information and supported messages for the Autonomous case creation and update rules (msdyn_autonomouscasecreationrule) table/entity with Microsoft Dynamics 365."
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -10,13 +10,13 @@ search.audienceType:
   - developer
 ---
 
-# Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table/entity reference
+# Autonomous case creation and update rules (msdyn_autonomouscasecreationrule) table/entity reference
 
-Autonomous case creation and enrichment rules
+Autonomous case creation and update rules
 
 ## Messages
 
-The following table lists the messages for the Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table.
+The following table lists the messages for the Autonomous case creation and update rules (msdyn_autonomouscasecreationrule) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
@@ -43,7 +43,7 @@ Messages represent operations that can be performed on the table. They may also 
 
 ## Events
 
-The following table lists the events for the Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table.
+The following table lists the events for the Autonomous case creation and update rules (msdyn_autonomouscasecreationrule) table.
 Events are messages that exist so that you can subscribe to them. Unless you added the event, you shouldn't invoke the message, only subscribe to it.
 
 |Name|Web API Operation |SDK for .NET |
@@ -56,12 +56,12 @@ Events are messages that exist so that you can subscribe to them. Unless you add
 
 ## Properties
 
-The following table lists selected properties for the Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table.
+The following table lists selected properties for the Autonomous case creation and update rules (msdyn_autonomouscasecreationrule) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **Autonomous case creation and enrichment rules** |
-| **DisplayCollectionName** | **Autonomous case creation and enrichment rules** |
+| **DisplayName** | **Autonomous case creation and update rules** |
+| **DisplayCollectionName** | **Autonomous case creation and update rules** |
 | **SchemaName** | `msdyn_autonomouscasecreationrule` |
 | **CollectionSchemaName** | `msdyn_autonomouscasecreationrules` |
 | **EntitySetName** | `msdyn_autonomouscasecreationrules`|
@@ -126,7 +126,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**Autonomous case creation and enrichment rule**|
+|DisplayName|**Autonomous case creation and update rule**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_autonomouscasecreationruleid`|
@@ -190,7 +190,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_predictorfields`|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|String|
 |Format|Text|
 |FormatName|Text|
@@ -311,7 +311,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the Autonomous case creation and enrichment rule**|
+|Description|**Status of the Autonomous case creation and update rule**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -332,7 +332,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the Autonomous case creation and enrichment rule**|
+|Description|**Reason for the status of the Autonomous case creation and update rule**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

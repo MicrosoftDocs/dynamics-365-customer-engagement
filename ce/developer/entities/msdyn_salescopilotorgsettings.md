@@ -1,7 +1,7 @@
 ---
 title: "Org level settings for Sales Copilot apps (msdyn_salescopilotorgsettings) table/entity reference (Microsoft Dynamics 365)"
 description: "Includes schema information and supported messages for the Org level settings for Sales Copilot apps (msdyn_salescopilotorgsettings) table/entity with Microsoft Dynamics 365."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly

@@ -1,7 +1,7 @@
 ---
 title: "Quick Campaign (BulkOperation) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Quick Campaign (BulkOperation) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -18,6 +18,24 @@ System operation used to perform lengthy and asynchronous operations on large da
 > The Microsoft Dynamics 365 Customer Service Quick Campaign (BulkOperation) table extends the [Microsoft Dynamics 365 Quick Campaign (BulkOperation) table](/dynamics365/developer/entities/bulkoperation).
 
 
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_bulkoperation_transactioncurrency_transactioncurrencyid"></a> bulkoperation_transactioncurrency_transactioncurrencyid
+
+One-To-Many Relationship: [transactioncurrency bulkoperation_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_bulkoperation_transactioncurrency_transactioncurrencyid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_bulkoperation`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

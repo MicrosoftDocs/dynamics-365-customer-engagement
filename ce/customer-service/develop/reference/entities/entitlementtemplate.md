@@ -1,7 +1,7 @@
 ---
 title: "Entitlement Template (EntitlementTemplate) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Entitlement Template (EntitlementTemplate) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -31,6 +31,24 @@ Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/enti
 |---|---|
 |MinValue|1E-12|
 |Precision|12|
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_TransactionCurrency_entitlementtemplate"></a> TransactionCurrency_entitlementtemplate
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_entitlementtemplate](transactioncurrency.md#BKMK_TransactionCurrency_entitlementtemplate)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

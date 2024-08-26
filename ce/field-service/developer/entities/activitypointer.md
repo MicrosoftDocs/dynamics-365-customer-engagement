@@ -1,7 +1,7 @@
 ---
 title: "Activity (ActivityPointer) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Activity (ActivityPointer) table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -89,7 +89,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_timeoffrequest_ActivityPointers](#BKMK_msdyn_timeoffrequest_ActivityPointers)
 - [msdyn_warehouse_ActivityPointers](#BKMK_msdyn_warehouse_ActivityPointers)
 - [msdyn_workorder_ActivityPointers](#BKMK_msdyn_workorder_ActivityPointers)
-- [msdyn_workordercharacteristic_ActivityPointers](#BKMK_msdyn_workordercharacteristic_ActivityPointers)
 - [msdyn_workorderincident_ActivityPointers](#BKMK_msdyn_workorderincident_ActivityPointers)
 - [msdyn_workorderproduct_ActivityPointers](#BKMK_msdyn_workorderproduct_ActivityPointers)
 - [msdyn_workorderresourcerestriction_ActivityPointers](#BKMK_msdyn_workorderresourcerestriction_ActivityPointers)
@@ -782,19 +781,6 @@ One-To-Many Relationship: [msdyn_workorder msdyn_workorder_ActivityPointers](msd
 |ReferencedAttribute|`msdyn_workorderid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workorder`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_workordercharacteristic_ActivityPointers"></a> msdyn_workordercharacteristic_ActivityPointers
-
-One-To-Many Relationship: [msdyn_workordercharacteristic msdyn_workordercharacteristic_ActivityPointers](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_ActivityPointers)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workordercharacteristic`|
-|ReferencedAttribute|`msdyn_workordercharacteristicid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workordercharacteristic`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

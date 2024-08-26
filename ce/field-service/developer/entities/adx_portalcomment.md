@@ -1,7 +1,7 @@
 ---
 title: "Portal Comment (adx_portalcomment) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Portal Comment (adx_portalcomment) table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -89,7 +89,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_timeoffrequest_adx_portalcomments](#BKMK_msdyn_timeoffrequest_adx_portalcomments)
 - [msdyn_warehouse_adx_portalcomments](#BKMK_msdyn_warehouse_adx_portalcomments)
 - [msdyn_workorder_adx_portalcomments](#BKMK_msdyn_workorder_adx_portalcomments)
-- [msdyn_workordercharacteristic_adx_portalcomments](#BKMK_msdyn_workordercharacteristic_adx_portalcomments)
 - [msdyn_workorderincident_adx_portalcomments](#BKMK_msdyn_workorderincident_adx_portalcomments)
 - [msdyn_workorderproduct_adx_portalcomments](#BKMK_msdyn_workorderproduct_adx_portalcomments)
 - [msdyn_workorderresourcerestriction_adx_portalcomments](#BKMK_msdyn_workorderresourcerestriction_adx_portalcomments)
@@ -782,19 +781,6 @@ One-To-Many Relationship: [msdyn_workorder msdyn_workorder_adx_portalcomments](m
 |ReferencedAttribute|`msdyn_workorderid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workorder_adx_portalcomment`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
-
-### <a name="BKMK_msdyn_workordercharacteristic_adx_portalcomments"></a> msdyn_workordercharacteristic_adx_portalcomments
-
-One-To-Many Relationship: [msdyn_workordercharacteristic msdyn_workordercharacteristic_adx_portalcomments](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_adx_portalcomments)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workordercharacteristic`|
-|ReferencedAttribute|`msdyn_workordercharacteristicid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workordercharacteristic_adx_portalcomment`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

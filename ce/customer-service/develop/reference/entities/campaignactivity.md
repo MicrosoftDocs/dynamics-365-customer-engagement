@@ -1,7 +1,7 @@
 ---
 title: "Campaign Activity (CampaignActivity) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Campaign Activity (CampaignActivity) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -18,6 +18,24 @@ Task performed, or to be performed, by a user for planning or running a campaign
 > The Microsoft Dynamics 365 Customer Service Campaign Activity (CampaignActivity) table extends the [Microsoft Dynamics 365 Campaign Activity (CampaignActivity) table](/dynamics365/developer/entities/campaignactivity).
 
 
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_transactioncurrency_campaignactivity"></a> transactioncurrency_campaignactivity
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_campaignactivity](transactioncurrency.md#BKMK_transactioncurrency_campaignactivity)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_campaignactivity`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

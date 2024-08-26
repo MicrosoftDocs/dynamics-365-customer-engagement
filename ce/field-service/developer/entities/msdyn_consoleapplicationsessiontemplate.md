@@ -1,7 +1,7 @@
 ---
 title: "Session Templates (Deprecated) (msdyn_consoleapplicationsessiontemplate) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Session Templates (Deprecated) (msdyn_consoleapplicationsessiontemplate) table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -25,6 +25,7 @@ Messages represent operations that can be performed on the table. They may also 
 | `Create`<br />Event: True |`POST` /msdyn_consoleapplicationsessiontemplates<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api) |[Create records](/power-apps/developer/data-platform/org-service/entity-operations-create#basic-create)|
 | `CreateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
 | `Delete`<br />Event: True |`DELETE` /msdyn_consoleapplicationsessiontemplates(*msdyn_consoleapplicationsessiontemplateid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[Delete records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete)|
+| `DeleteMultiple`<br />Event: True | |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `GrantAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
@@ -581,7 +582,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_consoleapplicationsessiontemplate_createdonbehalfby](#BKMK_lk_msdyn_consoleapplicationsessiontemplate_createdonbehalfby)
 - [lk_msdyn_consoleapplicationsessiontemplate_modifiedby](#BKMK_lk_msdyn_consoleapplicationsessiontemplate_modifiedby)
 - [lk_msdyn_consoleapplicationsessiontemplate_modifiedonbehalfby](#BKMK_lk_msdyn_consoleapplicationsessiontemplate_modifiedonbehalfby)
-- [msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab](#BKMK_msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab)
 - [owner_msdyn_consoleapplicationsessiontemplate](#BKMK_owner_msdyn_consoleapplicationsessiontemplate)
 - [team_msdyn_consoleapplicationsessiontemplate](#BKMK_team_msdyn_consoleapplicationsessiontemplate)
 - [user_msdyn_consoleapplicationsessiontemplate](#BKMK_user_msdyn_consoleapplicationsessiontemplate)
@@ -650,19 +650,6 @@ One-To-Many Relationship: [systemuser lk_msdyn_consoleapplicationsessiontemplate
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab"></a> msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab
-
-One-To-Many Relationship: [msdyn_consoleapplicationtemplate msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab](msdyn_consoleapplicationtemplate.md#BKMK_msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_consoleapplicationtemplate`|
-|ReferencedAttribute|`msdyn_consoleapplicationtemplateid`|
-|ReferencingAttribute|`msdyn_anchortab`|
-|ReferencingEntityNavigationPropertyName|`msdyn_AnchorTab`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_owner_msdyn_consoleapplicationsessiontemplate"></a> owner_msdyn_consoleapplicationsessiontemplate
 
@@ -811,40 +798,6 @@ Many-To-One Relationship: [syncerror msdyn_consoleapplicationsessiontemplate_Syn
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_consoleapplicationsessiontemplate_SyncErrors`|
 |IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-
-## Many-to-Many relationships
-
-These relationships are many-to-many. Listed by **SchemaName**.
-
-- [msdyn_msdyn_consoleapplicationsessiontemp_tag](#BKMK_msdyn_msdyn_consoleapplicationsessiontemp_tag)
-- [msdyn_msdyn_consoleapplicationsessiontemplate_m](#BKMK_msdyn_msdyn_consoleapplicationsessiontemplate_m)
-
-### <a name="BKMK_msdyn_msdyn_consoleapplicationsessiontemp_tag"></a> msdyn_msdyn_consoleapplicationsessiontemp_tag
-
-See [msdyn_templatetags msdyn_msdyn_consoleapplicationsessiontemp_tag Many-To-Many Relationship](msdyn_templatetags.md#BKMK_msdyn_msdyn_consoleapplicationsessiontemp_tag)
-
-|Property|Value|
-|---|---|
-|IntersectEntityName|`msdyn_msdyn_consoleapplicationsessiontemp_tag`|
-|IsCustomizable|True|
-|SchemaName|`msdyn_msdyn_consoleapplicationsessiontemp_tag`|
-|IntersectAttribute|`msdyn_consoleapplicationsessiontemplateid`|
-|NavigationPropertyName|`msdyn_msdyn_consoleapplicationsessiontemp_tag`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_msdyn_msdyn_consoleapplicationsessiontemplate_m"></a> msdyn_msdyn_consoleapplicationsessiontemplate_m
-
-See [msdyn_consoleapplicationtemplate msdyn_msdyn_consoleapplicationsessiontemplate_m Many-To-Many Relationship](msdyn_consoleapplicationtemplate.md#BKMK_msdyn_msdyn_consoleapplicationsessiontemplate_m)
-
-|Property|Value|
-|---|---|
-|IntersectEntityName|`msdyn_msdyn_consoleapplicationsessiontemplate`|
-|IsCustomizable|True|
-|SchemaName|`msdyn_msdyn_consoleapplicationsessiontemplate_m`|
-|IntersectAttribute|`msdyn_consoleapplicationsessiontemplateid`|
-|NavigationPropertyName|`msdyn_msdyn_consoleapplicationsessiontemplate_m`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Email table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Email table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -89,7 +89,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_timeoffrequest_Emails](#BKMK_msdyn_timeoffrequest_Emails)
 - [msdyn_warehouse_Emails](#BKMK_msdyn_warehouse_Emails)
 - [msdyn_workorder_Emails](#BKMK_msdyn_workorder_Emails)
-- [msdyn_workordercharacteristic_Emails](#BKMK_msdyn_workordercharacteristic_Emails)
 - [msdyn_workorderincident_Emails](#BKMK_msdyn_workorderincident_Emails)
 - [msdyn_workorderproduct_Emails](#BKMK_msdyn_workorderproduct_Emails)
 - [msdyn_workorderresourcerestriction_Emails](#BKMK_msdyn_workorderresourcerestriction_Emails)
@@ -782,19 +781,6 @@ One-To-Many Relationship: [msdyn_workorder msdyn_workorder_Emails](msdyn_workord
 |ReferencedAttribute|`msdyn_workorderid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workorder_email`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
-
-### <a name="BKMK_msdyn_workordercharacteristic_Emails"></a> msdyn_workordercharacteristic_Emails
-
-One-To-Many Relationship: [msdyn_workordercharacteristic msdyn_workordercharacteristic_Emails](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_Emails)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workordercharacteristic`|
-|ReferencedAttribute|`msdyn_workordercharacteristicid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workordercharacteristic_email`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

@@ -1,7 +1,7 @@
 ---
 title: "Sync Error (SyncError) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Sync Error (SyncError) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -64,6 +64,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_schedulingfeatureflag_SyncErrors](#BKMK_msdyn_schedulingfeatureflag_SyncErrors)
 - [msdyn_schedulingparameter_SyncErrors](#BKMK_msdyn_schedulingparameter_SyncErrors)
 - [msdyn_systemuserschedulersetting_SyncErrors](#BKMK_msdyn_systemuserschedulersetting_SyncErrors)
+- [msdyn_templatetags_SyncErrors](#BKMK_msdyn_templatetags_SyncErrors)
 - [msdyn_timegroup_SyncErrors](#BKMK_msdyn_timegroup_SyncErrors)
 - [msdyn_timegroupdetail_SyncErrors](#BKMK_msdyn_timegroupdetail_SyncErrors)
 - [msdyn_transactionorigin_SyncErrors](#BKMK_msdyn_transactionorigin_SyncErrors)
@@ -430,6 +431,19 @@ One-To-Many Relationship: [msdyn_systemuserschedulersetting msdyn_systemusersche
 |ReferencedAttribute|`msdyn_systemuserschedulersettingid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_systemuserschedulersetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_templatetags_SyncErrors"></a> msdyn_templatetags_SyncErrors
+
+One-To-Many Relationship: [msdyn_templatetags msdyn_templatetags_SyncErrors](msdyn_templatetags.md#BKMK_msdyn_templatetags_SyncErrors)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_templatetags`|
+|ReferencedAttribute|`msdyn_templatetagsid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_templatetags`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

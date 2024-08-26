@@ -1,7 +1,7 @@
 ---
 title: "Bulk Delete Failure (BulkDeleteFailure) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Bulk Delete Failure (BulkDeleteFailure) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -64,6 +64,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_schedulingfeatureflag_BulkDeleteFailures](#BKMK_msdyn_schedulingfeatureflag_BulkDeleteFailures)
 - [msdyn_schedulingparameter_BulkDeleteFailures](#BKMK_msdyn_schedulingparameter_BulkDeleteFailures)
 - [msdyn_systemuserschedulersetting_BulkDeleteFailures](#BKMK_msdyn_systemuserschedulersetting_BulkDeleteFailures)
+- [msdyn_templatetags_BulkDeleteFailures](#BKMK_msdyn_templatetags_BulkDeleteFailures)
 - [msdyn_timegroup_BulkDeleteFailures](#BKMK_msdyn_timegroup_BulkDeleteFailures)
 - [msdyn_timegroupdetail_BulkDeleteFailures](#BKMK_msdyn_timegroupdetail_BulkDeleteFailures)
 - [msdyn_transactionorigin_BulkDeleteFailures](#BKMK_msdyn_transactionorigin_BulkDeleteFailures)
@@ -430,6 +431,19 @@ One-To-Many Relationship: [msdyn_systemuserschedulersetting msdyn_systemusersche
 |ReferencedAttribute|`msdyn_systemuserschedulersettingid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_systemuserschedulersetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_templatetags_BulkDeleteFailures"></a> msdyn_templatetags_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_templatetags msdyn_templatetags_BulkDeleteFailures](msdyn_templatetags.md#BKMK_msdyn_templatetags_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_templatetags`|
+|ReferencedAttribute|`msdyn_templatetagsid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_templatetags`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

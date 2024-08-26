@@ -1,7 +1,7 @@
 ---
 title: "Field Sharing (PrincipalObjectAttributeAccess) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Field Sharing (PrincipalObjectAttributeAccess) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -64,6 +64,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_schedulingfeatureflag_PrincipalObjectAttributeAccesses](#BKMK_msdyn_schedulingfeatureflag_PrincipalObjectAttributeAccesses)
 - [msdyn_schedulingparameter_PrincipalObjectAttributeAccesses](#BKMK_msdyn_schedulingparameter_PrincipalObjectAttributeAccesses)
 - [msdyn_systemuserschedulersetting_PrincipalObjectAttributeAccesses](#BKMK_msdyn_systemuserschedulersetting_PrincipalObjectAttributeAccesses)
+- [msdyn_templatetags_PrincipalObjectAttributeAccesses](#BKMK_msdyn_templatetags_PrincipalObjectAttributeAccesses)
 - [msdyn_timegroup_PrincipalObjectAttributeAccesses](#BKMK_msdyn_timegroup_PrincipalObjectAttributeAccesses)
 - [msdyn_timegroupdetail_PrincipalObjectAttributeAccesses](#BKMK_msdyn_timegroupdetail_PrincipalObjectAttributeAccesses)
 - [msdyn_transactionorigin_PrincipalObjectAttributeAccesses](#BKMK_msdyn_transactionorigin_PrincipalObjectAttributeAccesses)
@@ -430,6 +431,19 @@ One-To-Many Relationship: [msdyn_systemuserschedulersetting msdyn_systemusersche
 |ReferencedAttribute|`msdyn_systemuserschedulersettingid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_systemuserschedulersetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_templatetags_PrincipalObjectAttributeAccesses"></a> msdyn_templatetags_PrincipalObjectAttributeAccesses
+
+One-To-Many Relationship: [msdyn_templatetags msdyn_templatetags_PrincipalObjectAttributeAccesses](msdyn_templatetags.md#BKMK_msdyn_templatetags_PrincipalObjectAttributeAccesses)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_templatetags`|
+|ReferencedAttribute|`msdyn_templatetagsid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_templatetags`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

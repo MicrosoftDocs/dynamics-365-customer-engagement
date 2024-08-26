@@ -1,7 +1,7 @@
 ---
 title: "Fax table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Fax table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -89,7 +89,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_timeoffrequest_Faxes](#BKMK_msdyn_timeoffrequest_Faxes)
 - [msdyn_warehouse_Faxes](#BKMK_msdyn_warehouse_Faxes)
 - [msdyn_workorder_Faxes](#BKMK_msdyn_workorder_Faxes)
-- [msdyn_workordercharacteristic_Faxes](#BKMK_msdyn_workordercharacteristic_Faxes)
 - [msdyn_workorderincident_Faxes](#BKMK_msdyn_workorderincident_Faxes)
 - [msdyn_workorderproduct_Faxes](#BKMK_msdyn_workorderproduct_Faxes)
 - [msdyn_workorderresourcerestriction_Faxes](#BKMK_msdyn_workorderresourcerestriction_Faxes)
@@ -782,19 +781,6 @@ One-To-Many Relationship: [msdyn_workorder msdyn_workorder_Faxes](msdyn_workorde
 |ReferencedAttribute|`msdyn_workorderid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workorder_fax`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
-
-### <a name="BKMK_msdyn_workordercharacteristic_Faxes"></a> msdyn_workordercharacteristic_Faxes
-
-One-To-Many Relationship: [msdyn_workordercharacteristic msdyn_workordercharacteristic_Faxes](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_Faxes)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workordercharacteristic`|
-|ReferencedAttribute|`msdyn_workordercharacteristicid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workordercharacteristic_fax`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

@@ -1,7 +1,7 @@
 ---
 title: "Facility/Equipment (Equipment) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Facility/Equipment (Equipment) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -55,6 +55,9 @@ Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/enti
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
+- [msdyn_organizationalunit_equipment](#BKMK_msdyn_organizationalunit_equipment)
+- [TransactionCurrency_Equipment](#BKMK_TransactionCurrency_Equipment)
+
 ### <a name="BKMK_msdyn_organizationalunit_equipment"></a> msdyn_organizationalunit_equipment
 
 One-To-Many Relationship: [msdyn_organizationalunit msdyn_organizationalunit_equipment](msdyn_organizationalunit.md#BKMK_msdyn_organizationalunit_equipment)
@@ -67,6 +70,19 @@ One-To-Many Relationship: [msdyn_organizationalunit msdyn_organizationalunit_equ
 |ReferencingEntityNavigationPropertyName|`msdyn_organizationalunitid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_TransactionCurrency_Equipment"></a> TransactionCurrency_Equipment
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_Equipment](transactioncurrency.md#BKMK_TransactionCurrency_Equipment)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

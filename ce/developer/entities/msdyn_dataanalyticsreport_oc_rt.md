@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Realtime analytics (msdyn_dataanalyticsreport_oc_rt) table/entity reference (Microsoft Dynamics 365)"
 description: "Includes schema information and supported messages for the Omnichannel Realtime analytics (msdyn_dataanalyticsreport_oc_rt) table/entity with Microsoft Dynamics 365."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly

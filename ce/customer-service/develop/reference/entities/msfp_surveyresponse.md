@@ -1,7 +1,7 @@
 ---
 title: "Customer Voice survey response (msfp_surveyresponse) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Customer Voice survey response (msfp_surveyresponse) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -42,6 +42,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_systemuserschedulersetting_msfp_surveyresponses](#BKMK_msdyn_systemuserschedulersetting_msfp_surveyresponses)
 - [msdyn_timegroup_msfp_surveyresponses](#BKMK_msdyn_timegroup_msfp_surveyresponses)
 - [msdyn_timegroupdetail_msfp_surveyresponses](#BKMK_msdyn_timegroupdetail_msfp_surveyresponses)
+- [msfp_surveyresponse_transactioncurrency_transactioncurrencyid](#BKMK_msfp_surveyresponse_transactioncurrency_transactioncurrencyid)
 
 ### <a name="BKMK_msdyn_bookingalertstatus_msfp_surveyresponses"></a> msdyn_bookingalertstatus_msfp_surveyresponses
 
@@ -120,6 +121,19 @@ One-To-Many Relationship: [msdyn_timegroupdetail msdyn_timegroupdetail_msfp_surv
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_timegroupdetail_msfp_surveyresponse`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msfp_surveyresponse_transactioncurrency_transactioncurrencyid"></a> msfp_surveyresponse_transactioncurrency_transactioncurrencyid
+
+One-To-Many Relationship: [transactioncurrency msfp_surveyresponse_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_msfp_surveyresponse_transactioncurrency_transactioncurrencyid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_msfp_surveyresponse`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 

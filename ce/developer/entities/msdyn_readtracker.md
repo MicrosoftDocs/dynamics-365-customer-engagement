@@ -1,7 +1,7 @@
 ---
 title: "Read Tracker (msdyn_readtracker) table/entity reference (Microsoft Dynamics 365)"
 description: "Includes schema information and supported messages for the Read Tracker (msdyn_readtracker) table/entity with Microsoft Dynamics 365."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly

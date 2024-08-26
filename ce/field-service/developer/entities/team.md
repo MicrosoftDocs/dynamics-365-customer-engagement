@@ -1,7 +1,7 @@
 ---
 title: "Team table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Team table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -37,7 +37,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [team_msdyn_agreementinvoiceproduct](#BKMK_team_msdyn_agreementinvoiceproduct)
 - [team_msdyn_agreementinvoicesetup](#BKMK_team_msdyn_agreementinvoicesetup)
 - [team_msdyn_agreementsubstatus](#BKMK_team_msdyn_agreementsubstatus)
-- [team_msdyn_analyticsforcs](#BKMK_team_msdyn_analyticsforcs)
 - [team_msdyn_bookableresourceassociation](#BKMK_team_msdyn_bookableresourceassociation)
 - [team_msdyn_bookableresourcebookingquicknote](#BKMK_team_msdyn_bookableresourcebookingquicknote)
 - [team_msdyn_bookingalertstatus](#BKMK_team_msdyn_bookingalertstatus)
@@ -50,8 +49,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [team_msdyn_clientextension](#BKMK_team_msdyn_clientextension)
 - [team_msdyn_configuration](#BKMK_team_msdyn_configuration)
 - [team_msdyn_consoleapplicationsessiontemplate](#BKMK_team_msdyn_consoleapplicationsessiontemplate)
-- [team_msdyn_consoleapplicationtemplate](#BKMK_team_msdyn_consoleapplicationtemplate)
-- [team_msdyn_consoleapplicationtemplateparameter](#BKMK_team_msdyn_consoleapplicationtemplateparameter)
 - [team_msdyn_entitlementapplication](#BKMK_team_msdyn_entitlementapplication)
 - [team_msdyn_entityconfiguration](#BKMK_team_msdyn_entityconfiguration)
 - [team_msdyn_fieldservicesetting](#BKMK_team_msdyn_fieldservicesetting)
@@ -91,8 +88,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [team_msdyn_paymentdetail](#BKMK_team_msdyn_paymentdetail)
 - [team_msdyn_paymentmethod](#BKMK_team_msdyn_paymentmethod)
 - [team_msdyn_paymentterm](#BKMK_team_msdyn_paymentterm)
-- [team_msdyn_playbookcategory](#BKMK_team_msdyn_playbookcategory)
-- [team_msdyn_playbooktemplate](#BKMK_team_msdyn_playbooktemplate)
 - [team_msdyn_postalcode](#BKMK_team_msdyn_postalcode)
 - [team_msdyn_priority](#BKMK_team_msdyn_priority)
 - [team_msdyn_problematicasset](#BKMK_team_msdyn_problematicasset)
@@ -141,7 +136,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [team_msdyn_systemuserschedulersetting](#BKMK_team_msdyn_systemuserschedulersetting)
 - [team_msdyn_taxcode](#BKMK_team_msdyn_taxcode)
 - [team_msdyn_taxcodedetail](#BKMK_team_msdyn_taxcodedetail)
-- [team_msdyn_templatetags](#BKMK_team_msdyn_templatetags)
 - [team_msdyn_timeentry](#BKMK_team_msdyn_timeentry)
 - [team_msdyn_timeentrysetting](#BKMK_team_msdyn_timeentrysetting)
 - [team_msdyn_timegroup](#BKMK_team_msdyn_timegroup)
@@ -153,7 +147,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [team_msdyn_warehouse](#BKMK_team_msdyn_warehouse)
 - [team_msdyn_workhourtemplate](#BKMK_team_msdyn_workhourtemplate)
 - [team_msdyn_workorder](#BKMK_team_msdyn_workorder)
-- [team_msdyn_workordercharacteristic](#BKMK_team_msdyn_workordercharacteristic)
 - [team_msdyn_workorderincident](#BKMK_team_msdyn_workorderincident)
 - [team_msdyn_workordernte](#BKMK_team_msdyn_workordernte)
 - [team_msdyn_workorderproduct](#BKMK_team_msdyn_workorderproduct)
@@ -320,18 +313,6 @@ Many-To-One Relationship: [msdyn_agreementsubstatus team_msdyn_agreementsubstatu
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_team_msdyn_analyticsforcs"></a> team_msdyn_analyticsforcs
-
-Many-To-One Relationship: [msdyn_analyticsforcs team_msdyn_analyticsforcs](msdyn_analyticsforcs.md#BKMK_team_msdyn_analyticsforcs)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_analyticsforcs`|
-|ReferencingAttribute|`owningteam`|
-|ReferencedEntityNavigationPropertyName|`team_msdyn_analyticsforcs`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
 ### <a name="BKMK_team_msdyn_bookableresourceassociation"></a> team_msdyn_bookableresourceassociation
 
 Many-To-One Relationship: [msdyn_bookableresourceassociation team_msdyn_bookableresourceassociation](msdyn_bookableresourceassociation.md#BKMK_team_msdyn_bookableresourceassociation)
@@ -473,30 +454,6 @@ Many-To-One Relationship: [msdyn_consoleapplicationsessiontemplate team_msdyn_co
 |ReferencingEntity|`msdyn_consoleapplicationsessiontemplate`|
 |ReferencingAttribute|`owningteam`|
 |ReferencedEntityNavigationPropertyName|`team_msdyn_consoleapplicationsessiontemplate`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_team_msdyn_consoleapplicationtemplate"></a> team_msdyn_consoleapplicationtemplate
-
-Many-To-One Relationship: [msdyn_consoleapplicationtemplate team_msdyn_consoleapplicationtemplate](msdyn_consoleapplicationtemplate.md#BKMK_team_msdyn_consoleapplicationtemplate)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_consoleapplicationtemplate`|
-|ReferencingAttribute|`owningteam`|
-|ReferencedEntityNavigationPropertyName|`team_msdyn_consoleapplicationtemplate`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_team_msdyn_consoleapplicationtemplateparameter"></a> team_msdyn_consoleapplicationtemplateparameter
-
-Many-To-One Relationship: [msdyn_consoleapplicationtemplateparameter team_msdyn_consoleapplicationtemplateparameter](msdyn_consoleapplicationtemplateparameter.md#BKMK_team_msdyn_consoleapplicationtemplateparameter)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_consoleapplicationtemplateparameter`|
-|ReferencingAttribute|`owningteam`|
-|ReferencedEntityNavigationPropertyName|`team_msdyn_consoleapplicationtemplateparameter`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -966,30 +923,6 @@ Many-To-One Relationship: [msdyn_paymentterm team_msdyn_paymentterm](msdyn_payme
 |ReferencingAttribute|`owningteam`|
 |ReferencedEntityNavigationPropertyName|`team_msdyn_paymentterm`|
 |IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_team_msdyn_playbookcategory"></a> team_msdyn_playbookcategory
-
-Many-To-One Relationship: [msdyn_playbookcategory team_msdyn_playbookcategory](msdyn_playbookcategory.md#BKMK_team_msdyn_playbookcategory)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_playbookcategory`|
-|ReferencingAttribute|`owningteam`|
-|ReferencedEntityNavigationPropertyName|`team_msdyn_playbookcategory`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_team_msdyn_playbooktemplate"></a> team_msdyn_playbooktemplate
-
-Many-To-One Relationship: [msdyn_playbooktemplate team_msdyn_playbooktemplate](msdyn_playbooktemplate.md#BKMK_team_msdyn_playbooktemplate)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_playbooktemplate`|
-|ReferencingAttribute|`owningteam`|
-|ReferencedEntityNavigationPropertyName|`team_msdyn_playbooktemplate`|
-|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_team_msdyn_postalcode"></a> team_msdyn_postalcode
@@ -1568,18 +1501,6 @@ Many-To-One Relationship: [msdyn_taxcodedetail team_msdyn_taxcodedetail](msdyn_t
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_team_msdyn_templatetags"></a> team_msdyn_templatetags
-
-Many-To-One Relationship: [msdyn_templatetags team_msdyn_templatetags](msdyn_templatetags.md#BKMK_team_msdyn_templatetags)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_templatetags`|
-|ReferencingAttribute|`owningteam`|
-|ReferencedEntityNavigationPropertyName|`team_msdyn_templatetags`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
 ### <a name="BKMK_team_msdyn_timeentry"></a> team_msdyn_timeentry
 
 Many-To-One Relationship: [msdyn_timeentry team_msdyn_timeentry](msdyn_timeentry.md#BKMK_team_msdyn_timeentry)
@@ -1709,18 +1630,6 @@ Many-To-One Relationship: [msdyn_workorder team_msdyn_workorder](msdyn_workorder
 |ReferencingEntity|`msdyn_workorder`|
 |ReferencingAttribute|`owningteam`|
 |ReferencedEntityNavigationPropertyName|`team_msdyn_workorder`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_team_msdyn_workordercharacteristic"></a> team_msdyn_workordercharacteristic
-
-Many-To-One Relationship: [msdyn_workordercharacteristic team_msdyn_workordercharacteristic](msdyn_workordercharacteristic.md#BKMK_team_msdyn_workordercharacteristic)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_workordercharacteristic`|
-|ReferencingAttribute|`owningteam`|
-|ReferencedEntityNavigationPropertyName|`team_msdyn_workordercharacteristic`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

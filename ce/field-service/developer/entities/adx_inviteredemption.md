@@ -1,7 +1,7 @@
 ---
 title: "Invite Redemption (adx_inviteredemption) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Invite Redemption (adx_inviteredemption) table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -89,7 +89,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_timeoffrequest_adx_inviteredemptions](#BKMK_msdyn_timeoffrequest_adx_inviteredemptions)
 - [msdyn_warehouse_adx_inviteredemptions](#BKMK_msdyn_warehouse_adx_inviteredemptions)
 - [msdyn_workorder_adx_inviteredemptions](#BKMK_msdyn_workorder_adx_inviteredemptions)
-- [msdyn_workordercharacteristic_adx_inviteredemptions](#BKMK_msdyn_workordercharacteristic_adx_inviteredemptions)
 - [msdyn_workorderincident_adx_inviteredemptions](#BKMK_msdyn_workorderincident_adx_inviteredemptions)
 - [msdyn_workorderproduct_adx_inviteredemptions](#BKMK_msdyn_workorderproduct_adx_inviteredemptions)
 - [msdyn_workorderresourcerestriction_adx_inviteredemptions](#BKMK_msdyn_workorderresourcerestriction_adx_inviteredemptions)
@@ -782,19 +781,6 @@ One-To-Many Relationship: [msdyn_workorder msdyn_workorder_adx_inviteredemptions
 |ReferencedAttribute|`msdyn_workorderid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workorder_adx_inviteredemption`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
-
-### <a name="BKMK_msdyn_workordercharacteristic_adx_inviteredemptions"></a> msdyn_workordercharacteristic_adx_inviteredemptions
-
-One-To-Many Relationship: [msdyn_workordercharacteristic msdyn_workordercharacteristic_adx_inviteredemptions](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_adx_inviteredemptions)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workordercharacteristic`|
-|ReferencedAttribute|`msdyn_workordercharacteristicid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workordercharacteristic_adx_inviteredemption`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

@@ -1,7 +1,7 @@
 ---
 title: "Custom API Response Property (CustomAPIResponseProperty) table/entity reference (Microsoft Dynamics 365)"
 description: "Includes schema information and supported messages for the Custom API Response Property (CustomAPIResponseProperty) table/entity with Microsoft Dynamics 365."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -18,6 +18,30 @@ Entity that defines a response property for a custom API
 > The Microsoft Dynamics 365 Custom API Response Property (CustomAPIResponseProperty) table extends the [Microsoft Dataverse Custom API Response Property (CustomAPIResponseProperty) table](/power-apps/developer/data-platform/reference/entities/customapiresponseproperty).
 
 
+
+## Customized columns/attributes
+
+Microsoft Dynamics 365 modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
+
+- [LogicalEntityName](#BKMK_LogicalEntityName)
+- [Type](#BKMK_Type)
+
+### <a name="BKMK_LogicalEntityName"></a> LogicalEntityName
+
+Changes from [LogicalEntityName (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/customapiresponseproperty#BKMK_LogicalEntityName)
+
+|Property|Value|
+|---|---|
+|IsValidForUpdate|False|
+
+
+### <a name="BKMK_Type"></a> Type
+
+Changes from [Type (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/customapiresponseproperty#BKMK_Type)
+
+|Property|Value|
+|---|---|
+|IsValidForUpdate|False|
 
 
 ## One-to-Many relationships

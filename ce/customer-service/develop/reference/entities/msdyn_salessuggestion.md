@@ -1,7 +1,7 @@
 ---
 title: "Insight (msdyn_salessuggestion) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Insight (msdyn_salessuggestion) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -18,6 +18,24 @@ search.audienceType:
 > The Microsoft Dynamics 365 Customer Service Insight (msdyn_salessuggestion) table extends the [Microsoft Dynamics 365 Insight (msdyn_salessuggestion) table](/dynamics365/developer/entities/msdyn_salessuggestion).
 
 
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_TransactionCurrency_msdyn_salessuggestion"></a> TransactionCurrency_msdyn_salessuggestion
+
+One-To-Many Relationship: [transactioncurrency TransactionCurrency_msdyn_salessuggestion](transactioncurrency.md#BKMK_TransactionCurrency_msdyn_salessuggestion)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

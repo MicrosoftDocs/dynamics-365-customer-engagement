@@ -1,7 +1,7 @@
 ---
 title: "Connection table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Connection table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -336,8 +336,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_warehouse_connections2](#BKMK_msdyn_warehouse_connections2)
 - [msdyn_workorder_connections1](#BKMK_msdyn_workorder_connections1)
 - [msdyn_workorder_connections2](#BKMK_msdyn_workorder_connections2)
-- [msdyn_workordercharacteristic_connections1](#BKMK_msdyn_workordercharacteristic_connections1)
-- [msdyn_workordercharacteristic_connections2](#BKMK_msdyn_workordercharacteristic_connections2)
 - [msdyn_workorderincident_connections1](#BKMK_msdyn_workorderincident_connections1)
 - [msdyn_workorderincident_connections2](#BKMK_msdyn_workorderincident_connections2)
 - [msdyn_workorderproduct_connections1](#BKMK_msdyn_workorderproduct_connections1)
@@ -1750,32 +1748,6 @@ One-To-Many Relationship: [msdyn_workorder msdyn_workorder_connections2](msdyn_w
 |ReferencedAttribute|`msdyn_workorderid`|
 |ReferencingAttribute|`record2id`|
 |ReferencingEntityNavigationPropertyName|`record2id_msdyn_workorder`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_workordercharacteristic_connections1"></a> msdyn_workordercharacteristic_connections1
-
-One-To-Many Relationship: [msdyn_workordercharacteristic msdyn_workordercharacteristic_connections1](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_connections1)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workordercharacteristic`|
-|ReferencedAttribute|`msdyn_workordercharacteristicid`|
-|ReferencingAttribute|`record1id`|
-|ReferencingEntityNavigationPropertyName|`record1id_msdyn_workordercharacteristic`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_workordercharacteristic_connections2"></a> msdyn_workordercharacteristic_connections2
-
-One-To-Many Relationship: [msdyn_workordercharacteristic msdyn_workordercharacteristic_connections2](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_connections2)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workordercharacteristic`|
-|ReferencedAttribute|`msdyn_workordercharacteristicid`|
-|ReferencingAttribute|`record2id`|
-|ReferencingEntityNavigationPropertyName|`record2id_msdyn_workordercharacteristic`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

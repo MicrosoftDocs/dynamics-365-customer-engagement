@@ -1,7 +1,7 @@
 ---
 title: "Duplicate Detection Rule (DuplicateRule) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Duplicate Detection Rule (DuplicateRule) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -550,7 +550,7 @@ Changes from [BaseEntityTypeCode (Microsoft Dataverse)](/power-apps/developer/da
 |10643|**Swarm role**|
 |10644|**Swarm skill**|
 |10645|**Swarm template**|
-|10646|**Autonomous case creation and enrichment rules**|
+|10646|**Autonomous case creation and update rules**|
 |10647|**Entity Attachment**|
 |10648|**Time Tracker**|
 |10649|**Survey setting**|
@@ -839,6 +839,10 @@ Changes from [BaseEntityTypeCode (Microsoft Dataverse)](/power-apps/developer/da
 |11029|**Requirement Change**|
 |11030|**Requirement Dependency**|
 |11031|**Scheduling Feature Flag**|
+|11032|**Form Mapping**|
+|11100|**Copilot Analytics**|
+|11101|**Sales usage telemetry reports**|
+|11102|**Sales usage reporting**|
 
 ### <a name="BKMK_MatchingEntityTypeCode"></a> MatchingEntityTypeCode
 
@@ -1364,7 +1368,7 @@ Changes from [MatchingEntityTypeCode (Microsoft Dataverse)](/power-apps/develope
 |10643|**Swarm role**|
 |10644|**Swarm skill**|
 |10645|**Swarm template**|
-|10646|**Autonomous case creation and enrichment rules**|
+|10646|**Autonomous case creation and update rules**|
 |10647|**Entity Attachment**|
 |10648|**Time Tracker**|
 |10649|**Survey setting**|
@@ -1653,6 +1657,10 @@ Changes from [MatchingEntityTypeCode (Microsoft Dataverse)](/power-apps/develope
 |11029|**Requirement Change**|
 |11030|**Requirement Dependency**|
 |11031|**Scheduling Feature Flag**|
+|11032|**Form Mapping**|
+|11100|**Copilot Analytics**|
+|11101|**Sales usage telemetry reports**|
+|11102|**Sales usage reporting**|
 
 
 

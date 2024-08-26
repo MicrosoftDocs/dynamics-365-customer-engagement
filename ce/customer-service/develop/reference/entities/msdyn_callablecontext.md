@@ -1,7 +1,7 @@
 ---
 title: "Playbook Callable Context (msdyn_callablecontext) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Playbook Callable Context (msdyn_callablecontext) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -547,7 +547,7 @@ Changes from [msdyn_EntityOTC (Microsoft Dynamics 365)](/dynamics365/developer/e
 |10643|**Swarm role**|
 |10644|**Swarm skill**|
 |10645|**Swarm template**|
-|10646|**Autonomous case creation and enrichment rules**|
+|10646|**Autonomous case creation and update rules**|
 |10647|**Entity Attachment**|
 |10648|**Time Tracker**|
 |10649|**Survey setting**|
@@ -836,6 +836,10 @@ Changes from [msdyn_EntityOTC (Microsoft Dynamics 365)](/dynamics365/developer/e
 |11029|**Requirement Change**|
 |11030|**Requirement Dependency**|
 |11031|**Scheduling Feature Flag**|
+|11032|**Form Mapping**|
+|11100|**Copilot Analytics**|
+|11101|**Sales usage telemetry reports**|
+|11102|**Sales usage reporting**|
 
 
 

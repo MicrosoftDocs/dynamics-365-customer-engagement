@@ -1,7 +1,7 @@
 ---
 title: "Work Order (msdyn_workorder) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Work Order (msdyn_workorder) table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -25,6 +25,7 @@ Messages represent operations that can be performed on the table. They may also 
 | `Create`<br />Event: True |`POST` /msdyn_workorders<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api) |[Create records](/power-apps/developer/data-platform/org-service/entity-operations-create#basic-create)|
 | `CreateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
 | `Delete`<br />Event: True |`DELETE` /msdyn_workorders(*msdyn_workorderid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[Delete records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete)|
+| `DeleteMultiple`<br />Event: True | |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `GrantAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
@@ -2492,7 +2493,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_msdyn_workorder_msdyn_rtvproduct_WorkOrder](#BKMK_msdyn_msdyn_workorder_msdyn_rtvproduct_WorkOrder)
 - [msdyn_msdyn_workorder_msdyn_timeentry_WorkOrder](#BKMK_msdyn_msdyn_workorder_msdyn_timeentry_WorkOrder)
 - [msdyn_msdyn_workorder_msdyn_workorder_ParentWorkOrder](#BKMK_msdyn_msdyn_workorder_msdyn_workorder_ParentWorkOrder-one-to-many)
-- [msdyn_msdyn_workorder_msdyn_workordercharacteristic_WorkOrder](#BKMK_msdyn_msdyn_workorder_msdyn_workordercharacteristic_WorkOrder)
 - [msdyn_msdyn_workorder_msdyn_workorderincident_WorkOrder](#BKMK_msdyn_msdyn_workorder_msdyn_workorderincident_WorkOrder)
 - [msdyn_msdyn_workorder_msdyn_workorderproduct_WorkOrder](#BKMK_msdyn_msdyn_workorder_msdyn_workorderproduct_WorkOrder)
 - [msdyn_msdyn_workorder_msdyn_workorderresolution_WorkOrder](#BKMK_msdyn_msdyn_workorder_msdyn_workorderresolution_WorkOrder)
@@ -2795,18 +2795,6 @@ Many-To-One Relationship: [msdyn_workorder msdyn_msdyn_workorder_msdyn_workorder
 |ReferencingEntity|`msdyn_workorder`|
 |ReferencingAttribute|`msdyn_parentworkorder`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_workorder_msdyn_workorder_ParentWorkOrder`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_msdyn_msdyn_workorder_msdyn_workordercharacteristic_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_workordercharacteristic_WorkOrder
-
-Many-To-One Relationship: [msdyn_workordercharacteristic msdyn_msdyn_workorder_msdyn_workordercharacteristic_WorkOrder](msdyn_workordercharacteristic.md#BKMK_msdyn_msdyn_workorder_msdyn_workordercharacteristic_WorkOrder)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_workordercharacteristic`|
-|ReferencingAttribute|`msdyn_workorder`|
-|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_workorder_msdyn_workordercharacteristic_WorkOrder`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

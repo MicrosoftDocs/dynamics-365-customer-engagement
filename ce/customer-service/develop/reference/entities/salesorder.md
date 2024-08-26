@@ -1,7 +1,7 @@
 ---
 title: "Order (SalesOrder) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Order (SalesOrder) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -18,6 +18,24 @@ Quote that has been accepted.
 > The Microsoft Dynamics 365 Customer Service Order (SalesOrder) table extends the [Microsoft Dynamics 365 Order (SalesOrder) table](/dynamics365/developer/entities/salesorder).
 
 
+
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_transactioncurrency_salesorder"></a> transactioncurrency_salesorder
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_salesorder](transactioncurrency.md#BKMK_transactioncurrency_salesorder)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

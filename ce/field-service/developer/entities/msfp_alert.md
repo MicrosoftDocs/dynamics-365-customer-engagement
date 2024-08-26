@@ -1,7 +1,7 @@
 ---
 title: "Customer Voice alert (msfp_alert) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Customer Voice alert (msfp_alert) table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -89,7 +89,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_timeoffrequest_msfp_alerts](#BKMK_msdyn_timeoffrequest_msfp_alerts)
 - [msdyn_warehouse_msfp_alerts](#BKMK_msdyn_warehouse_msfp_alerts)
 - [msdyn_workorder_msfp_alerts](#BKMK_msdyn_workorder_msfp_alerts)
-- [msdyn_workordercharacteristic_msfp_alerts](#BKMK_msdyn_workordercharacteristic_msfp_alerts)
 - [msdyn_workorderincident_msfp_alerts](#BKMK_msdyn_workorderincident_msfp_alerts)
 - [msdyn_workorderproduct_msfp_alerts](#BKMK_msdyn_workorderproduct_msfp_alerts)
 - [msdyn_workorderresourcerestriction_msfp_alerts](#BKMK_msdyn_workorderresourcerestriction_msfp_alerts)
@@ -783,19 +782,6 @@ One-To-Many Relationship: [msdyn_workorder msdyn_workorder_msfp_alerts](msdyn_wo
 |ReferencedAttribute|`msdyn_workorderid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workorder_msfp_alert`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
-
-### <a name="BKMK_msdyn_workordercharacteristic_msfp_alerts"></a> msdyn_workordercharacteristic_msfp_alerts
-
-One-To-Many Relationship: [msdyn_workordercharacteristic msdyn_workordercharacteristic_msfp_alerts](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_msfp_alerts)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workordercharacteristic`|
-|ReferencedAttribute|`msdyn_workordercharacteristicid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workordercharacteristic_msfp_alert`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

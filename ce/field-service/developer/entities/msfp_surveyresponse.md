@@ -1,7 +1,7 @@
 ---
 title: "Customer Voice survey response (msfp_surveyresponse) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Customer Voice survey response (msfp_surveyresponse) table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -89,7 +89,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_timeoffrequest_msfp_surveyresponses](#BKMK_msdyn_timeoffrequest_msfp_surveyresponses)
 - [msdyn_warehouse_msfp_surveyresponses](#BKMK_msdyn_warehouse_msfp_surveyresponses)
 - [msdyn_workorder_msfp_surveyresponses](#BKMK_msdyn_workorder_msfp_surveyresponses)
-- [msdyn_workordercharacteristic_msfp_surveyresponses](#BKMK_msdyn_workordercharacteristic_msfp_surveyresponses)
 - [msdyn_workorderincident_msfp_surveyresponses](#BKMK_msdyn_workorderincident_msfp_surveyresponses)
 - [msdyn_workorderproduct_msfp_surveyresponses](#BKMK_msdyn_workorderproduct_msfp_surveyresponses)
 - [msdyn_workorderresourcerestriction_msfp_surveyresponses](#BKMK_msdyn_workorderresourcerestriction_msfp_surveyresponses)
@@ -783,19 +782,6 @@ One-To-Many Relationship: [msdyn_workorder msdyn_workorder_msfp_surveyresponses]
 |ReferencedAttribute|`msdyn_workorderid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workorder_msfp_surveyresponse`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
-
-### <a name="BKMK_msdyn_workordercharacteristic_msfp_surveyresponses"></a> msdyn_workordercharacteristic_msfp_surveyresponses
-
-One-To-Many Relationship: [msdyn_workordercharacteristic msdyn_workordercharacteristic_msfp_surveyresponses](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_msfp_surveyresponses)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_workordercharacteristic`|
-|ReferencedAttribute|`msdyn_workordercharacteristicid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workordercharacteristic_msfp_surveyresponse`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams chat association entity (msdyn_teamschatassociation) table/entity reference (Microsoft Dynamics 365)"
 description: "Includes schema information and supported messages for the Microsoft Teams chat association entity (msdyn_teamschatassociation) table/entity with Microsoft Dynamics 365."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly

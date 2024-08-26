@@ -1,7 +1,7 @@
 ---
 title: "Service table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Service table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -65,6 +65,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
+- [msdyn_requirementgroup_service](#BKMK_msdyn_requirementgroup_service)
+- [plugin_type_service](#BKMK_plugin_type_service)
+
 ### <a name="BKMK_msdyn_requirementgroup_service"></a> msdyn_requirementgroup_service
 
 One-To-Many Relationship: [msdyn_requirementgroup msdyn_requirementgroup_service](msdyn_requirementgroup.md#BKMK_msdyn_requirementgroup_service)
@@ -75,6 +78,19 @@ One-To-Many Relationship: [msdyn_requirementgroup msdyn_requirementgroup_service
 |ReferencedAttribute|`msdyn_requirementgroupid`|
 |ReferencingAttribute|`msdyn_requirementgroupid`|
 |ReferencingEntityNavigationPropertyName|`msdyn_requirementgroupid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_plugin_type_service"></a> plugin_type_service
+
+One-To-Many Relationship: [plugintype plugin_type_service](plugintype.md#BKMK_plugin_type_service)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`plugintype`|
+|ReferencedAttribute|`plugintypeid`|
+|ReferencingAttribute|`strategyid`|
+|ReferencingEntityNavigationPropertyName|`strategyid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

@@ -1,178 +1,160 @@
 items:
 - name: "About Microsoft Dynamics 365 Field Service Table/Entity Reference"
   href: ../about-entity-reference.md
-- name: "[Deprecated] Dynamics Customer Service Analytics (msdyn_analyticsforcs)"
-  displayName: "msdyn_analyticsforcs entity"
-  href: msdyn_analyticsforcs.md
-- name: "[DEPRECATED] Playbook category (msdyn_playbookcategory)"
-  displayName: "msdyn_playbookcategory entity"
-  href: msdyn_playbookcategory.md
-- name: "[DEPRECATED] Playbook template (msdyn_playbooktemplate)"
-  displayName: "msdyn_playbooktemplate entity"
-  href: msdyn_playbooktemplate.md
 - name: "Account"
   displayName: "Account entity"
   href: account.md
-- name: "Action Card (ActionCard)"
+- name: "Action Card"
   displayName: "ActionCard entity"
   href: actioncard.md
-- name: "Activity (ActivityPointer)"
+- name: "Activity"
   displayName: "ActivityPointer entity"
   href: activitypointer.md
-- name: "Activity Party (ActivityParty)"
+- name: "Activity Party"
   displayName: "ActivityParty entity"
   href: activityparty.md
-- name: "Actual (msdyn_actual)"
+- name: "Actual"
   displayName: "msdyn_actual entity"
   href: msdyn_actual.md
-- name: "Ad Placement (mspp_adplacement)"
+- name: "Ad Placement"
   displayName: "mspp_adplacement entity"
   href: mspp_adplacement.md
-- name: "Agreement (msdyn_agreement)"
+- name: "Agreement"
   displayName: "msdyn_agreement entity"
   href: msdyn_agreement.md
-- name: "Agreement Booking Date (msdyn_agreementbookingdate)"
+- name: "Agreement Booking Date"
   displayName: "msdyn_agreementbookingdate entity"
   href: msdyn_agreementbookingdate.md
-- name: "Agreement Booking Incident (msdyn_agreementbookingincident)"
+- name: "Agreement Booking Incident"
   displayName: "msdyn_agreementbookingincident entity"
   href: msdyn_agreementbookingincident.md
-- name: "Agreement Booking Product (msdyn_agreementbookingproduct)"
+- name: "Agreement Booking Product"
   displayName: "msdyn_agreementbookingproduct entity"
   href: msdyn_agreementbookingproduct.md
-- name: "Agreement Booking Service (msdyn_agreementbookingservice)"
+- name: "Agreement Booking Service"
   displayName: "msdyn_agreementbookingservice entity"
   href: msdyn_agreementbookingservice.md
-- name: "Agreement Booking Service Task (msdyn_agreementbookingservicetask)"
+- name: "Agreement Booking Service Task"
   displayName: "msdyn_agreementbookingservicetask entity"
   href: msdyn_agreementbookingservicetask.md
-- name: "Agreement Booking Setup (msdyn_agreementbookingsetup)"
+- name: "Agreement Booking Setup"
   displayName: "msdyn_agreementbookingsetup entity"
   href: msdyn_agreementbookingsetup.md
-- name: "Agreement Business Process (msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3)"
+- name: "Agreement Business Process"
   displayName: "msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 entity"
   href: msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3.md
-- name: "Agreement Invoice Date (msdyn_agreementinvoicedate)"
+- name: "Agreement Invoice Date"
   displayName: "msdyn_agreementinvoicedate entity"
   href: msdyn_agreementinvoicedate.md
-- name: "Agreement Invoice Product (msdyn_agreementinvoiceproduct)"
+- name: "Agreement Invoice Product"
   displayName: "msdyn_agreementinvoiceproduct entity"
   href: msdyn_agreementinvoiceproduct.md
-- name: "Agreement Invoice Setup (msdyn_agreementinvoicesetup)"
+- name: "Agreement Invoice Setup"
   displayName: "msdyn_agreementinvoicesetup entity"
   href: msdyn_agreementinvoicesetup.md
-- name: "Agreement Substatus (msdyn_agreementsubstatus)"
+- name: "Agreement Substatus"
   displayName: "msdyn_agreementsubstatus entity"
   href: msdyn_agreementsubstatus.md
-- name: "App Parameter Definition (Deprecated) (msdyn_consoleappparameterdefinition)"
-  displayName: "msdyn_consoleappparameterdefinition entity"
-  href: msdyn_consoleappparameterdefinition.md
-- name: "Application Tab Template (Deprecated) (msdyn_consoleapplicationtemplate)"
-  displayName: "msdyn_consoleapplicationtemplate entity"
-  href: msdyn_consoleapplicationtemplate.md
-- name: "Application Type (Deprecated) (msdyn_consoleapplicationtype)"
-  displayName: "msdyn_consoleapplicationtype entity"
-  href: msdyn_consoleapplicationtype.md
 - name: "Appointment"
   displayName: "Appointment entity"
   href: appointment.md
-- name: "Asset Suggestion (msdyn_problematicasset)"
+- name: "Asset Suggestion"
   displayName: "msdyn_problematicasset entity"
   href: msdyn_problematicasset.md
-- name: "Asset Suggestions Setting (msdyn_assetsuggestionssetting)"
+- name: "Asset Suggestions Setting"
   displayName: "msdyn_assetsuggestionssetting entity"
   href: msdyn_assetsuggestionssetting.md
-- name: "Bookable Resource (BookableResource)"
+- name: "Bookable Resource"
   displayName: "BookableResource entity"
   href: bookableresource.md
-- name: "Bookable Resource Association (msdyn_bookableresourceassociation)"
+- name: "Bookable Resource Association"
   displayName: "msdyn_bookableresourceassociation entity"
   href: msdyn_bookableresourceassociation.md
-- name: "Bookable Resource Booking (BookableResourceBooking)"
+- name: "Bookable Resource Booking"
   displayName: "BookableResourceBooking entity"
   href: bookableresourcebooking.md
-- name: "Bookable Resource Booking Header (BookableResourceBookingHeader)"
+- name: "Bookable Resource Booking Header"
   displayName: "BookableResourceBookingHeader entity"
   href: bookableresourcebookingheader.md
-- name: "Bookable Resource Booking Quick Note (msdyn_bookableresourcebookingquicknote)"
+- name: "Bookable Resource Booking Quick Note"
   displayName: "msdyn_bookableresourcebookingquicknote entity"
   href: msdyn_bookableresourcebookingquicknote.md
-- name: "Bookable Resource Category (BookableResourceCategory)"
+- name: "Bookable Resource Category"
   displayName: "BookableResourceCategory entity"
   href: bookableresourcecategory.md
-- name: "Bookable Resource Category Assn (BookableResourceCategoryAssn)"
+- name: "Bookable Resource Category Assn"
   displayName: "BookableResourceCategoryAssn entity"
   href: bookableresourcecategoryassn.md
-- name: "Bookable Resource Characteristic (BookableResourceCharacteristic)"
+- name: "Bookable Resource Characteristic"
   displayName: "BookableResourceCharacteristic entity"
   href: bookableresourcecharacteristic.md
-- name: "Bookable Resource Group (BookableResourceGroup)"
+- name: "Bookable Resource Group"
   displayName: "BookableResourceGroup entity"
   href: bookableresourcegroup.md
-- name: "Booking Alert (msdyn_bookingalert)"
+- name: "Booking Alert"
   displayName: "msdyn_bookingalert entity"
   href: msdyn_bookingalert.md
-- name: "Booking Alert Status (msdyn_bookingalertstatus)"
+- name: "Booking Alert Status"
   displayName: "msdyn_bookingalertstatus entity"
   href: msdyn_bookingalertstatus.md
-- name: "Booking Change (msdyn_bookingchange)"
+- name: "Booking Change"
   displayName: "msdyn_bookingchange entity"
   href: msdyn_bookingchange.md
-- name: "Booking Journal (msdyn_bookingjournal)"
+- name: "Booking Journal"
   displayName: "msdyn_bookingjournal entity"
   href: msdyn_bookingjournal.md
-- name: "Booking Rule (msdyn_bookingrule)"
+- name: "Booking Rule"
   displayName: "msdyn_bookingrule entity"
   href: msdyn_bookingrule.md
-- name: "Booking Setup Metadata (msdyn_bookingsetupmetadata)"
+- name: "Booking Setup Metadata"
   displayName: "msdyn_bookingsetupmetadata entity"
   href: msdyn_bookingsetupmetadata.md
-- name: "Booking Status (BookingStatus)"
+- name: "Booking Status"
   displayName: "BookingStatus entity"
   href: bookingstatus.md
-- name: "Booking Timestamp (msdyn_bookingtimestamp)"
+- name: "Booking Timestamp"
   displayName: "msdyn_bookingtimestamp entity"
   href: msdyn_bookingtimestamp.md
-- name: "Bulk Delete Failure (BulkDeleteFailure)"
+- name: "Bulk Delete Failure"
   displayName: "BulkDeleteFailure entity"
   href: bulkdeletefailure.md
-- name: "Business Closure (msdyn_businessclosure)"
+- name: "Business Closure"
   displayName: "msdyn_businessclosure entity"
   href: msdyn_businessclosure.md
-- name: "Business Unit (BusinessUnit)"
+- name: "Business Unit"
   displayName: "BusinessUnit entity"
   href: businessunit.md
 - name: "Campaign"
   displayName: "Campaign entity"
   href: campaign.md
-- name: "Campaign Activity (CampaignActivity)"
+- name: "Campaign Activity"
   displayName: "CampaignActivity entity"
   href: campaignactivity.md
-- name: "Campaign Response (CampaignResponse)"
+- name: "Campaign Response"
   displayName: "CampaignResponse entity"
   href: campaignresponse.md
-- name: "Case (Incident)"
+- name: "Case"
   displayName: "Incident entity"
   href: incident.md
-- name: "Case Resolution (IncidentResolution)"
+- name: "Case Resolution"
   displayName: "IncidentResolution entity"
   href: incidentresolution.md
-- name: "Case to Work Order Business Process (msdyn_bpf_989e9b1857e24af18787d5143b67523b)"
+- name: "Case to Work Order Business Process"
   displayName: "msdyn_bpf_989e9b1857e24af18787d5143b67523b entity"
   href: msdyn_bpf_989e9b1857e24af18787d5143b67523b.md
-- name: "CFS - IoT Alert Process Flow (msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b)"
+- name: "CFS - IoT Alert Process Flow"
   displayName: "msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b entity"
   href: msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b.md
 - name: "Characteristic"
   displayName: "Characteristic entity"
   href: characteristic.md
-- name: "Client Extension (msdyn_clientextension)"
+- name: "Client Extension"
   displayName: "msdyn_clientextension entity"
   href: msdyn_clientextension.md
 - name: "Competitor"
   displayName: "Competitor entity"
   href: competitor.md
-- name: "Configuration (msdyn_Configuration)"
+- name: "Configuration"
   displayName: "msdyn_Configuration entity"
   href: msdyn_configuration.md
 - name: "Connection"
@@ -184,49 +166,55 @@ items:
 - name: "Contract"
   displayName: "Contract entity"
   href: contract.md
-- name: "Conversation (msdyn_ocliveworkitem)"
+- name: "Conversation"
   displayName: "msdyn_ocliveworkitem entity"
   href: msdyn_ocliveworkitem.md
-- name: "Copilot Transcript (msdyn_copilottranscript)"
+- name: "Copilot Transcript"
   displayName: "msdyn_copilottranscript entity"
   href: msdyn_copilottranscript.md
-- name: "Currency (TransactionCurrency)"
+- name: "Currency"
   displayName: "TransactionCurrency entity"
   href: transactioncurrency.md
-- name: "Customer Asset (msdyn_customerasset)"
+- name: "Custom API Request Parameter"
+  displayName: "CustomAPIRequestParameter entity"
+  href: customapirequestparameter.md
+- name: "Custom API Response Property"
+  displayName: "CustomAPIResponseProperty entity"
+  href: customapiresponseproperty.md
+- name: "Customer Asset"
   displayName: "msdyn_customerasset entity"
   href: msdyn_customerasset.md
-- name: "Customer Asset Category (msdyn_customerassetcategory)"
+- name: "Customer Asset Category"
   displayName: "msdyn_customerassetcategory entity"
   href: msdyn_customerassetcategory.md
-- name: "Customer Voice alert (msfp_alert)"
+- name: "Customer Voice alert"
   displayName: "msfp_alert entity"
   href: msfp_alert.md
-- name: "Customer Voice survey (msfp_survey)"
+- name: "Customer Voice survey"
   displayName: "msfp_survey entity"
   href: msfp_survey.md
-- name: "Customer Voice survey invite (msfp_surveyinvite)"
+- name: "Customer Voice survey invite"
   displayName: "msfp_surveyinvite entity"
   href: msfp_surveyinvite.md
-- name: "Customer Voice survey response (msfp_surveyresponse)"
+- name: "Customer Voice survey response"
   displayName: "msfp_surveyresponse entity"
   href: msfp_surveyresponse.md
-- name: "Data Map (ImportMap)"
+- name: "Data Map"
   displayName: "ImportMap entity"
   href: importmap.md
 - name: "Discount"
   displayName: "Discount entity"
   href: discount.md
-- name: "Discount List (DiscountType)"
+- name: "Discount List"
   displayName: "DiscountType entity"
   href: discounttype.md
-- name: "Document Location (SharePointDocumentLocation)"
+- name: "Document Location"
   displayName: "SharePointDocumentLocation entity"
   href: sharepointdocumentlocation.md
-- name: "Duplicate Detection Rule (DuplicateRule)"
+- name: "Duplicate Detection Rule"
   displayName: "DuplicateRule entity"
   href: duplicaterule.md
-- name: "Duplicate Record (DuplicateRecord)"
+- name: "Duplicate Record"
   displayName: "DuplicateRecord entity"
   href: duplicaterecord.md
 - name: "Email"
@@ -235,169 +223,169 @@ items:
 - name: "Entitlement"
   displayName: "Entitlement entity"
   href: entitlement.md
-- name: "Entitlement Application (msdyn_entitlementapplication)"
+- name: "Entitlement Application"
   displayName: "msdyn_entitlementapplication entity"
   href: msdyn_entitlementapplication.md
-- name: "Entitlement Entity Allocation Type Mapping (EntitlementEntityAllocationTypeMapping)"
+- name: "Entitlement Entity Allocation Type Mapping"
   displayName: "EntitlementEntityAllocationTypeMapping entity"
   href: entitlemententityallocationtypemapping.md
-- name: "Entitlement Template (EntitlementTemplate)"
+- name: "Entitlement Template"
   displayName: "EntitlementTemplate entity"
   href: entitlementtemplate.md
-- name: "Entity Configuration (msdyn_entityconfiguration)"
+- name: "Entity Configuration"
   displayName: "msdyn_entityconfiguration entity"
   href: msdyn_entityconfiguration.md
 - name: "Fax"
   displayName: "Fax entity"
   href: fax.md
-- name: "Field Service Frontline Worker Configuration (msdyn_flwconfiguration)"
+- name: "Field Service Frontline Worker Configuration"
   displayName: "msdyn_flwconfiguration entity"
   href: msdyn_flwconfiguration.md
-- name: "Field service historical analytics (msdyn_dataanalyticsreport_fs)"
+- name: "Field service historical analytics"
   displayName: "msdyn_dataanalyticsreport_fs entity"
   href: msdyn_dataanalyticsreport_fs.md
-- name: "Field Service Price List Item (msdyn_fieldservicepricelistitem)"
+- name: "Field Service Price List Item"
   displayName: "msdyn_fieldservicepricelistitem entity"
   href: msdyn_fieldservicepricelistitem.md
-- name: "Field Service Setting (msdyn_fieldservicesetting)"
+- name: "Field Service Setting"
   displayName: "msdyn_fieldservicesetting entity"
   href: msdyn_fieldservicesetting.md
-- name: "Field Service SLA Configuration (msdyn_fieldserviceslaconfiguration)"
+- name: "Field Service SLA Configuration"
   displayName: "msdyn_fieldserviceslaconfiguration entity"
   href: msdyn_fieldserviceslaconfiguration.md
-- name: "Field Service Summary Configuration (msdyn_FieldServiceSummaryConfiguration)"
+- name: "Field Service Summary Configuration"
   displayName: "msdyn_FieldServiceSummaryConfiguration entity"
   href: msdyn_fieldservicesummaryconfiguration.md
-- name: "Field Service System Job (msdyn_fieldservicesystemjob)"
+- name: "Field Service System Job"
   displayName: "msdyn_fieldservicesystemjob entity"
   href: msdyn_fieldservicesystemjob.md
-- name: "Field Sharing (PrincipalObjectAttributeAccess)"
+- name: "Field Sharing"
   displayName: "PrincipalObjectAttributeAccess entity"
   href: principalobjectattributeaccess.md
 - name: "FileAttachment"
   displayName: "FileAttachment entity"
   href: fileattachment.md
-- name: "Forecast (msdyn_forecastinstance)"
+- name: "Forecast"
   displayName: "msdyn_forecastinstance entity"
   href: msdyn_forecastinstance.md
-- name: "Fulfillment Preference (msdyn_timegroup)"
+- name: "Fulfillment Preference"
   displayName: "msdyn_timegroup entity"
   href: msdyn_timegroup.md
-- name: "Functional Location (msdyn_FunctionalLocation)"
+- name: "Functional Location"
   displayName: "msdyn_FunctionalLocation entity"
   href: msdyn_functionallocation.md
-- name: "Geofence (msdyn_geofence)"
+- name: "Geofence"
   displayName: "msdyn_geofence entity"
   href: msdyn_geofence.md
-- name: "Geofence Event (msdyn_geofenceevent)"
+- name: "Geofence Event"
   displayName: "msdyn_geofenceevent entity"
   href: msdyn_geofenceevent.md
-- name: "Geofencing Settings (msdyn_geofencingsettings)"
+- name: "Geofencing Settings"
   displayName: "msdyn_geofencingsettings entity"
   href: msdyn_geofencingsettings.md
-- name: "Geolocation Settings (msdyn_geolocationsettings)"
+- name: "Geolocation Settings"
   displayName: "msdyn_geolocationsettings entity"
   href: msdyn_geolocationsettings.md
-- name: "Geolocation Tracking (msdyn_geolocationtracking)"
+- name: "Geolocation Tracking"
   displayName: "msdyn_geolocationtracking entity"
   href: msdyn_geolocationtracking.md
-- name: "Incident Type (msdyn_incidenttype)"
+- name: "Incident Type"
   displayName: "msdyn_incidenttype entity"
   href: msdyn_incidenttype.md
-- name: "Incident Type Characteristic (msdyn_incidenttypecharacteristic)"
+- name: "Incident Type Characteristic"
   displayName: "msdyn_incidenttypecharacteristic entity"
   href: msdyn_incidenttypecharacteristic.md
-- name: "Incident Type Product (msdyn_incidenttypeproduct)"
+- name: "Incident Type Product"
   displayName: "msdyn_incidenttypeproduct entity"
   href: msdyn_incidenttypeproduct.md
-- name: "Incident Type Requirement Group (msdyn_incidenttype_requirementgroup)"
+- name: "Incident Type Requirement Group"
   displayName: "msdyn_incidenttype_requirementgroup entity"
   href: msdyn_incidenttype_requirementgroup.md
-- name: "Incident Type Resolution (msdyn_incidenttyperesolution)"
+- name: "Incident Type Resolution"
   displayName: "msdyn_incidenttyperesolution entity"
   href: msdyn_incidenttyperesolution.md
-- name: "Incident Type Service (msdyn_incidenttypeservice)"
+- name: "Incident Type Service"
   displayName: "msdyn_incidenttypeservice entity"
   href: msdyn_incidenttypeservice.md
-- name: "Incident Type Service Task (msdyn_incidenttypeservicetask)"
+- name: "Incident Type Service Task"
   displayName: "msdyn_incidenttypeservicetask entity"
   href: msdyn_incidenttypeservicetask.md
-- name: "Incident Type Suggestion Result (msdyn_incidenttyperecommendationresult)"
+- name: "Incident Type Suggestion Result"
   displayName: "msdyn_incidenttyperecommendationresult entity"
   href: msdyn_incidenttyperecommendationresult.md
-- name: "Incident Type Suggestion Run History (msdyn_incidenttyperecommendationrunhistory)"
+- name: "Incident Type Suggestion Run History"
   displayName: "msdyn_incidenttyperecommendationrunhistory entity"
   href: msdyn_incidenttyperecommendationrunhistory.md
-- name: "Incident Types Setup (msdyn_incidenttypessetup)"
+- name: "Incident Types Setup"
   displayName: "msdyn_incidenttypessetup entity"
   href: msdyn_incidenttypessetup.md
-- name: "Insight (msdyn_salessuggestion)"
+- name: "Insight"
   displayName: "msdyn_salessuggestion entity"
   href: msdyn_salessuggestion.md
-- name: "Insights (msdyn_datainsightsandanalyticsfeature)"
+- name: "Insights"
   displayName: "msdyn_datainsightsandanalyticsfeature entity"
   href: msdyn_datainsightsandanalyticsfeature.md
-- name: "Inspection (msdyn_inspectioninstance)"
+- name: "Inspection"
   displayName: "msdyn_inspectioninstance entity"
   href: msdyn_inspectioninstance.md
-- name: "Inspection Attachment (msdyn_inspectionattachment)"
+- name: "Inspection Attachment"
   displayName: "msdyn_inspectionattachment entity"
   href: msdyn_inspectionattachment.md
-- name: "Inspection Response (msdyn_inspectionresponse)"
+- name: "Inspection Response"
   displayName: "msdyn_inspectionresponse entity"
   href: msdyn_inspectionresponse.md
-- name: "Inspection Template (msdyn_inspection)"
+- name: "Inspection Template"
   displayName: "msdyn_inspection entity"
   href: msdyn_inspection.md
-- name: "Inspection Template Version (msdyn_inspectiondefinition)"
+- name: "Inspection Template Version"
   displayName: "msdyn_inspectiondefinition entity"
   href: msdyn_inspectiondefinition.md
-- name: "Insurance (msdyn_insurance)"
+- name: "Insurance"
   displayName: "msdyn_insurance entity"
   href: msdyn_insurance.md
-- name: "Interaction for Email (InteractionForEmail)"
+- name: "Interaction for Email"
   displayName: "InteractionForEmail entity"
   href: interactionforemail.md
-- name: "Inventory Adjustment (msdyn_inventoryadjustment)"
+- name: "Inventory Adjustment"
   displayName: "msdyn_inventoryadjustment entity"
   href: msdyn_inventoryadjustment.md
-- name: "Inventory Adjustment Product (msdyn_inventoryadjustmentproduct)"
+- name: "Inventory Adjustment Product"
   displayName: "msdyn_inventoryadjustmentproduct entity"
   href: msdyn_inventoryadjustmentproduct.md
-- name: "Inventory Journal (msdyn_inventoryjournal)"
+- name: "Inventory Journal"
   displayName: "msdyn_inventoryjournal entity"
   href: msdyn_inventoryjournal.md
-- name: "Inventory Transfer (msdyn_inventorytransfer)"
+- name: "Inventory Transfer"
   displayName: "msdyn_inventorytransfer entity"
   href: msdyn_inventorytransfer.md
-- name: "Invitation (adx_invitation)"
+- name: "Invitation"
   displayName: "adx_invitation entity"
   href: adx_invitation.md
-- name: "Invite Redemption (adx_inviteredemption)"
+- name: "Invite Redemption"
   displayName: "adx_inviteredemption entity"
   href: adx_inviteredemption.md
 - name: "Invoice"
   displayName: "Invoice entity"
   href: invoice.md
-- name: "Invoice Product (InvoiceDetail)"
+- name: "Invoice Product"
   displayName: "InvoiceDetail entity"
   href: invoicedetail.md
-- name: "IoT Alert (msdyn_iotalert)"
+- name: "IoT Alert"
   displayName: "msdyn_iotalert entity"
   href: msdyn_iotalert.md
-- name: "Knowledge Article (KnowledgeArticle)"
+- name: "Knowledge Article"
   displayName: "KnowledgeArticle entity"
   href: knowledgearticle.md
-- name: "Knowledge Base Record (KnowledgeBaseRecord)"
+- name: "Knowledge Base Record"
   displayName: "KnowledgeBaseRecord entity"
   href: knowledgebaserecord.md
 - name: "Lead"
   displayName: "Lead entity"
   href: lead.md
-- name: "Lead Address (LeadAddress)"
+- name: "Lead Address"
   displayName: "LeadAddress entity"
   href: leadaddress.md
-- name: "Lead To Opportunity Sales Process (LeadToOpportunitySalesProcess)"
+- name: "Lead To Opportunity Sales Process"
   displayName: "LeadToOpportunitySalesProcess entity"
   href: leadtoopportunitysalesprocess.md
 - name: "Letter"
@@ -406,397 +394,346 @@ items:
 - name: "Mailbox"
   displayName: "Mailbox entity"
   href: mailbox.md
-- name: "Mailbox Auto Tracking Folder (MailboxTrackingFolder)"
+- name: "Mailbox Auto Tracking Folder"
   displayName: "MailboxTrackingFolder entity"
   href: mailboxtrackingfolder.md
-- name: "Marketing List (List)"
+- name: "Marketing List"
   displayName: "List entity"
   href: list.md
-- name: "MobileSource (msdyn_MobileSource)"
+- name: "MobileSource"
   displayName: "msdyn_MobileSource entity"
   href: msdyn_mobilesource.md
-- name: "msdyn_appconfig_msdyn_channelprovider"
-  displayName: "msdyn_appconfig_msdyn_channelprovider entity"
-  href: msdyn_appconfig_msdyn_channelprovider.md
-- name: "msdyn_appconfiguration_applicationextension"
-  displayName: "msdyn_appconfiguration_applicationextension entity"
-  href: msdyn_appconfiguration_applicationextension.md
-- name: "msdyn_appconfiguration_sessiontemplate"
-  displayName: "msdyn_appconfiguration_sessiontemplate entity"
-  href: msdyn_appconfiguration_sessiontemplate.md
-- name: "msdyn_msdyn_ocrichobject_liveworkstream"
-  displayName: "msdyn_msdyn_ocrichobject_liveworkstream entity"
-  href: msdyn_msdyn_ocrichobject_liveworkstream.md
-- name: "msdyn_msdyn_ocrichobject_msdyn_octag"
-  displayName: "msdyn_msdyn_ocrichobject_msdyn_octag entity"
-  href: msdyn_msdyn_ocrichobject_msdyn_octag.md
-- name: "msdyn_msdyn_paneconfig_msdyn_appconfig"
-  displayName: "msdyn_msdyn_paneconfig_msdyn_appconfig entity"
-  href: msdyn_msdyn_paneconfig_msdyn_appconfig.md
-- name: "msdyn_msdyn_prod_actioninputparameter_msdyn_par"
-  displayName: "msdyn_msdyn_prod_actioninputparameter_msdyn_par entity"
-  href: msdyn_msdyn_prod_actioninputparameter_msdyn_par.md
-- name: "msdyn_msdyn_prod_actionoutputparameter_msdyn_pa"
-  displayName: "msdyn_msdyn_prod_actionoutputparameter_msdyn_pa entity"
-  href: msdyn_msdyn_prod_actionoutputparameter_msdyn_pa.md
-- name: "msdyn_msdyn_prod_agentscript_msdyn_sessiontempl"
-  displayName: "msdyn_msdyn_prod_agentscript_msdyn_sessiontempl entity"
-  href: msdyn_msdyn_prod_agentscript_msdyn_sessiontempl.md
-- name: "msdyn_notificationtemplate_notificationfield"
-  displayName: "msdyn_notificationtemplate_notificationfield entity"
-  href: msdyn_notificationtemplate_notificationfield.md
-- name: "msdyn_salestag_msdyn_sequence"
-  displayName: "msdyn_salestag_msdyn_sequence entity"
-  href: msdyn_salestag_msdyn_sequence.md
-- name: "msdyn_sessiontemplate_applicationtab"
-  displayName: "msdyn_sessiontemplate_applicationtab entity"
-  href: msdyn_sessiontemplate_applicationtab.md
-- name: "msdyn_smartassistconfig_msdyn_appconfig"
-  displayName: "msdyn_smartassistconfig_msdyn_appconfig entity"
-  href: msdyn_smartassistconfig_msdyn_appconfig.md
-- name: "New Process (NewProcess)"
+- name: "New Process"
   displayName: "NewProcess entity"
   href: newprocess.md
-- name: "Not-to-exceed (msdyn_nottoexceed)"
+- name: "Not-to-exceed"
   displayName: "msdyn_nottoexceed entity"
   href: msdyn_nottoexceed.md
-- name: "Note (Annotation)"
+- name: "Note"
   displayName: "Annotation entity"
   href: annotation.md
-- name: "Notification Template (Deprecated) (msdyn_consoleapplicationnotificationtemplate)"
-  displayName: "msdyn_consoleapplicationnotificationtemplate entity"
-  href: msdyn_consoleapplicationnotificationtemplate.md
 - name: "Opportunity"
   displayName: "Opportunity entity"
   href: opportunity.md
-- name: "Opportunity Close (OpportunityClose)"
+- name: "Opportunity Close"
   displayName: "OpportunityClose entity"
   href: opportunityclose.md
-- name: "Opportunity Line (OpportunityProduct)"
+- name: "Opportunity Line"
   displayName: "OpportunityProduct entity"
   href: opportunityproduct.md
-- name: "Opportunity Sales Process (OpportunitySalesProcess)"
+- name: "Opportunity Sales Process"
   displayName: "OpportunitySalesProcess entity"
   href: opportunitysalesprocess.md
-- name: "Optimization Request (msdyn_OptimizationRequest)"
+- name: "Optimization Request"
   displayName: "msdyn_OptimizationRequest entity"
   href: msdyn_optimizationrequest.md
-- name: "Order (SalesOrder)"
+- name: "Order"
   displayName: "SalesOrder entity"
   href: salesorder.md
-- name: "Order Close (OrderClose)"
+- name: "Order Close"
   displayName: "OrderClose entity"
   href: orderclose.md
-- name: "Order Invoicing Date (msdyn_orderinvoicingdate)"
+- name: "Order Invoicing Date"
   displayName: "msdyn_orderinvoicingdate entity"
   href: msdyn_orderinvoicingdate.md
-- name: "Order Invoicing Product (msdyn_orderinvoicingproduct)"
+- name: "Order Invoicing Product"
   displayName: "msdyn_orderinvoicingproduct entity"
   href: msdyn_orderinvoicingproduct.md
-- name: "Order Invoicing Setup (msdyn_orderinvoicingsetup)"
+- name: "Order Invoicing Setup"
   displayName: "msdyn_orderinvoicingsetup entity"
   href: msdyn_orderinvoicingsetup.md
-- name: "Order Invoicing Setup Date (msdyn_orderinvoicingsetupdate)"
+- name: "Order Invoicing Setup Date"
   displayName: "msdyn_orderinvoicingsetupdate entity"
   href: msdyn_orderinvoicingsetupdate.md
-- name: "Order Line (SalesOrderDetail)"
+- name: "Order Line"
   displayName: "SalesOrderDetail entity"
   href: salesorderdetail.md
 - name: "Organization"
   displayName: "Organization entity"
   href: organization.md
-- name: "Organizational Unit (msdyn_organizationalunit)"
+- name: "Organizational Unit"
   displayName: "msdyn_organizationalunit entity"
   href: msdyn_organizationalunit.md
 - name: "Owner"
   displayName: "Owner entity"
   href: owner.md
-- name: "Parameter (Deprecated) (msdyn_consoleapplicationtemplateparameter)"
-  displayName: "msdyn_consoleapplicationtemplateparameter entity"
-  href: msdyn_consoleapplicationtemplateparameter.md
-- name: "Payment (msdyn_payment)"
+- name: "Payment"
   displayName: "msdyn_payment entity"
   href: msdyn_payment.md
-- name: "Payment Detail (msdyn_paymentdetail)"
+- name: "Payment Detail"
   displayName: "msdyn_paymentdetail entity"
   href: msdyn_paymentdetail.md
-- name: "Payment Method (msdyn_paymentmethod)"
+- name: "Payment Method"
   displayName: "msdyn_paymentmethod entity"
   href: msdyn_paymentmethod.md
-- name: "Payment Term (msdyn_paymentterm)"
+- name: "Payment Term"
   displayName: "msdyn_paymentterm entity"
   href: msdyn_paymentterm.md
-- name: "Phone Call (PhoneCall)"
+- name: "Phone Call"
   displayName: "PhoneCall entity"
   href: phonecall.md
-- name: "Playbook (msdyn_playbookinstance)"
+- name: "Playbook"
   displayName: "msdyn_playbookinstance entity"
   href: msdyn_playbookinstance.md
-- name: "Playbook activity (msdyn_playbookactivity)"
+- name: "Playbook activity"
   displayName: "msdyn_playbookactivity entity"
   href: msdyn_playbookactivity.md
-- name: "Playbook Callable Context (msdyn_callablecontext)"
+- name: "Playbook Callable Context"
   displayName: "msdyn_callablecontext entity"
   href: msdyn_callablecontext.md
-- name: "Plug-in Type (PluginType)"
+- name: "Plug-in Type"
   displayName: "PluginType entity"
   href: plugintype.md
-- name: "Poll Placement (mspp_pollplacement)"
+- name: "Poll Placement"
   displayName: "mspp_pollplacement entity"
   href: mspp_pollplacement.md
-- name: "Portal Comment (adx_portalcomment)"
+- name: "Portal Comment"
   displayName: "adx_portalcomment entity"
   href: adx_portalcomment.md
-- name: "Postal Code (msdyn_postalcode)"
+- name: "Postal Code"
   displayName: "msdyn_postalcode entity"
   href: msdyn_postalcode.md
-- name: "Predictive duration (preview) (msdyn_dataanalyticsreport_fspredictwhd)"
+- name: "Predictive duration (preview)"
   displayName: "msdyn_dataanalyticsreport_fspredictwhd entity"
   href: msdyn_dataanalyticsreport_fspredictwhd.md
-- name: "Predictive Work Hour Duration Setting (msdyn_predictworkhourdurationsetting)"
+- name: "Predictive Work Hour Duration Setting"
   displayName: "msdyn_predictworkhourdurationsetting entity"
   href: msdyn_predictworkhourdurationsetting.md
-- name: "Price List (PriceLevel)"
+- name: "Price List"
   displayName: "PriceLevel entity"
   href: pricelevel.md
-- name: "Price List Item (ProductPriceLevel)"
+- name: "Price List Item"
   displayName: "ProductPriceLevel entity"
   href: productpricelevel.md
-- name: "Priority (msdyn_priority)"
+- name: "Priority"
   displayName: "msdyn_priority entity"
   href: msdyn_priority.md
-- name: "Problematic Asset Feedback (msdyn_problematicassetfeedback)"
+- name: "Problematic Asset Feedback"
   displayName: "msdyn_problematicassetfeedback entity"
   href: msdyn_problematicassetfeedback.md
-- name: "Process (Workflow)"
+- name: "Process"
   displayName: "Workflow entity"
   href: workflow.md
-- name: "Process Log (WorkflowLog)"
+- name: "Process Log"
   displayName: "WorkflowLog entity"
   href: workflowlog.md
-- name: "Process Session (ProcessSession)"
+- name: "Process Session"
   displayName: "ProcessSession entity"
   href: processsession.md
-- name: "Process Stage (ProcessStage)"
+- name: "Process Stage"
   displayName: "ProcessStage entity"
   href: processstage.md
 - name: "Product"
   displayName: "Product entity"
   href: product.md
-- name: "Product Association (ProductAssociation)"
+- name: "Product Association"
   displayName: "ProductAssociation entity"
   href: productassociation.md
-- name: "Product Inventory (msdyn_productinventory)"
+- name: "Product Inventory"
   displayName: "msdyn_productinventory entity"
   href: msdyn_productinventory.md
-- name: "Product Relationship (ProductSubstitute)"
+- name: "Product Relationship"
   displayName: "ProductSubstitute entity"
   href: productsubstitute.md
-- name: "Profile Album (msdyn_PostAlbum)"
+- name: "Profile Album"
   displayName: "msdyn_PostAlbum entity"
   href: msdyn_postalbum.md
-- name: "Property Association (DynamicPropertyAssociation)"
+- name: "Property Association"
   displayName: "DynamicPropertyAssociation entity"
   href: dynamicpropertyassociation.md
-- name: "Property Instance (DynamicPropertyInstance)"
+- name: "Property Instance"
   displayName: "DynamicPropertyInstance entity"
   href: dynamicpropertyinstance.md
-- name: "Property Option Set Item (DynamicPropertyOptionSetItem)"
+- name: "Property Option Set Item"
   displayName: "DynamicPropertyOptionSetItem entity"
   href: dynamicpropertyoptionsetitem.md
-- name: "Publishing State Transition Rule (mspp_publishingstatetransitionrule)"
+- name: "Publishing State Transition Rule"
   displayName: "mspp_publishingstatetransitionrule entity"
   href: mspp_publishingstatetransitionrule.md
-- name: "Purchase Order (msdyn_purchaseorder)"
+- name: "Purchase Order"
   displayName: "msdyn_purchaseorder entity"
   href: msdyn_purchaseorder.md
-- name: "Purchase Order Bill (msdyn_purchaseorderbill)"
+- name: "Purchase Order Bill"
   displayName: "msdyn_purchaseorderbill entity"
   href: msdyn_purchaseorderbill.md
-- name: "Purchase Order Business Process (msdyn_bpf_2c5fe86acc8b414b8322ae571000c799)"
+- name: "Purchase Order Business Process"
   displayName: "msdyn_bpf_2c5fe86acc8b414b8322ae571000c799 entity"
   href: msdyn_bpf_2c5fe86acc8b414b8322ae571000c799.md
-- name: "Purchase Order Product (msdyn_purchaseorderproduct)"
+- name: "Purchase Order Product"
   displayName: "msdyn_purchaseorderproduct entity"
   href: msdyn_purchaseorderproduct.md
-- name: "Purchase Order Receipt (msdyn_purchaseorderreceipt)"
+- name: "Purchase Order Receipt"
   displayName: "msdyn_purchaseorderreceipt entity"
   href: msdyn_purchaseorderreceipt.md
-- name: "Purchase Order Receipt Product (msdyn_purchaseorderreceiptproduct)"
+- name: "Purchase Order Receipt Product"
   displayName: "msdyn_purchaseorderreceiptproduct entity"
   href: msdyn_purchaseorderreceiptproduct.md
-- name: "Purchase Order SubStatus (msdyn_purchaseordersubstatus)"
+- name: "Purchase Order SubStatus"
   displayName: "msdyn_purchaseordersubstatus entity"
   href: msdyn_purchaseordersubstatus.md
-- name: "Queue Item (QueueItem)"
+- name: "Queue Item"
   displayName: "QueueItem entity"
   href: queueitem.md
-- name: "Quick Campaign (BulkOperation)"
+- name: "Quick Campaign"
   displayName: "BulkOperation entity"
   href: bulkoperation.md
 - name: "Quote"
   displayName: "Quote entity"
   href: quote.md
-- name: "Quote Booking Incident (msdyn_quotebookingincident)"
+- name: "Quote Booking Incident"
   displayName: "msdyn_quotebookingincident entity"
   href: msdyn_quotebookingincident.md
-- name: "Quote Booking Product (msdyn_quotebookingproduct)"
+- name: "Quote Booking Product"
   displayName: "msdyn_quotebookingproduct entity"
   href: msdyn_quotebookingproduct.md
-- name: "Quote Booking Service (msdyn_quotebookingservice)"
+- name: "Quote Booking Service"
   displayName: "msdyn_quotebookingservice entity"
   href: msdyn_quotebookingservice.md
-- name: "Quote Booking Service Task (msdyn_quotebookingservicetask)"
+- name: "Quote Booking Service Task"
   displayName: "msdyn_quotebookingservicetask entity"
   href: msdyn_quotebookingservicetask.md
-- name: "Quote Booking Setup (msdyn_quotebookingsetup)"
+- name: "Quote Booking Setup"
   displayName: "msdyn_quotebookingsetup entity"
   href: msdyn_quotebookingsetup.md
-- name: "Quote Close (QuoteClose)"
+- name: "Quote Close"
   displayName: "QuoteClose entity"
   href: quoteclose.md
-- name: "Quote Invoicing Product (msdyn_quoteinvoicingproduct)"
+- name: "Quote Invoicing Product"
   displayName: "msdyn_quoteinvoicingproduct entity"
   href: msdyn_quoteinvoicingproduct.md
-- name: "Quote Invoicing Setup (msdyn_quoteinvoicingsetup)"
+- name: "Quote Invoicing Setup"
   displayName: "msdyn_quoteinvoicingsetup entity"
   href: msdyn_quoteinvoicingsetup.md
-- name: "Quote Line (QuoteDetail)"
+- name: "Quote Line"
   displayName: "QuoteDetail entity"
   href: quotedetail.md
-- name: "Rating Model (RatingModel)"
+- name: "Rating Model"
   displayName: "RatingModel entity"
   href: ratingmodel.md
-- name: "Rating Value (RatingValue)"
+- name: "Rating Value"
   displayName: "RatingValue entity"
   href: ratingvalue.md
-- name: "Recurring Appointment (RecurringAppointmentMaster)"
+- name: "Recurring Appointment"
   displayName: "RecurringAppointmentMaster entity"
   href: recurringappointmentmaster.md
-- name: "Redirect (mspp_redirect)"
+- name: "Redirect"
   displayName: "mspp_redirect entity"
   href: mspp_redirect.md
-- name: "Requirement Change (msdyn_requirementchange)"
+- name: "Requirement Change"
   displayName: "msdyn_requirementchange entity"
   href: msdyn_requirementchange.md
-- name: "Requirement Characteristic (msdyn_requirementcharacteristic)"
+- name: "Requirement Characteristic"
   displayName: "msdyn_requirementcharacteristic entity"
   href: msdyn_requirementcharacteristic.md
-- name: "Requirement Dependency (msdyn_requirementdependency)"
+- name: "Requirement Dependency"
   displayName: "msdyn_requirementdependency entity"
   href: msdyn_requirementdependency.md
-- name: "Requirement Group (msdyn_requirementgroup)"
+- name: "Requirement Group"
   displayName: "msdyn_requirementgroup entity"
   href: msdyn_requirementgroup.md
-- name: "Requirement Organization Unit (msdyn_requirementorganizationunit)"
+- name: "Requirement Organization Unit"
   displayName: "msdyn_requirementorganizationunit entity"
   href: msdyn_requirementorganizationunit.md
-- name: "Requirement Relationship (msdyn_requirementrelationship)"
+- name: "Requirement Relationship"
   displayName: "msdyn_requirementrelationship entity"
   href: msdyn_requirementrelationship.md
-- name: "Requirement Resource Category (msdyn_requirementresourcecategory)"
+- name: "Requirement Resource Category"
   displayName: "msdyn_requirementresourcecategory entity"
   href: msdyn_requirementresourcecategory.md
-- name: "Requirement Resource Preference (msdyn_requirementresourcepreference)"
+- name: "Requirement Resource Preference"
   displayName: "msdyn_requirementresourcepreference entity"
   href: msdyn_requirementresourcepreference.md
-- name: "Requirement Status (msdyn_requirementstatus)"
+- name: "Requirement Status"
   displayName: "msdyn_requirementstatus entity"
   href: msdyn_requirementstatus.md
-- name: "Resolution (msdyn_resolution)"
+- name: "Resolution"
   displayName: "msdyn_resolution entity"
   href: msdyn_resolution.md
-- name: "Resource duration (preview) (msdyn_dataanalyticsreport_fspredictrs)"
+- name: "Resource duration (preview)"
   displayName: "msdyn_dataanalyticsreport_fspredictrs entity"
   href: msdyn_dataanalyticsreport_fspredictrs.md
-- name: "Resource Pay Type (msdyn_resourcepaytype)"
+- name: "Resource Pay Type"
   displayName: "msdyn_resourcepaytype entity"
   href: msdyn_resourcepaytype.md
-- name: "Resource Requirement (msdyn_resourcerequirement)"
+- name: "Resource Requirement"
   displayName: "msdyn_resourcerequirement entity"
   href: msdyn_resourcerequirement.md
-- name: "Resource Requirement Detail (msdyn_resourcerequirementdetail)"
+- name: "Resource Requirement Detail"
   displayName: "msdyn_resourcerequirementdetail entity"
   href: msdyn_resourcerequirementdetail.md
-- name: "Resource Restriction (Deprecated) (msdyn_workorderresourcerestriction)"
+- name: "Resource Restriction (Deprecated)"
   displayName: "msdyn_workorderresourcerestriction entity"
   href: msdyn_workorderresourcerestriction.md
-- name: "Resource Territory (msdyn_resourceterritory)"
+- name: "Resource Territory"
   displayName: "msdyn_resourceterritory entity"
   href: msdyn_resourceterritory.md
-- name: "RMA (msdyn_rma)"
+- name: "RMA"
   displayName: "msdyn_rma entity"
   href: msdyn_rma.md
-- name: "RMA Product (msdyn_rmaproduct)"
+- name: "RMA Product"
   displayName: "msdyn_rmaproduct entity"
   href: msdyn_rmaproduct.md
-- name: "RMA Receipt (msdyn_rmareceipt)"
+- name: "RMA Receipt"
   displayName: "msdyn_rmareceipt entity"
   href: msdyn_rmareceipt.md
-- name: "RMA Receipt Product (msdyn_rmareceiptproduct)"
+- name: "RMA Receipt Product"
   displayName: "msdyn_rmareceiptproduct entity"
   href: msdyn_rmareceiptproduct.md
-- name: "RMA SubStatus (msdyn_rmasubstatus)"
+- name: "RMA SubStatus"
   displayName: "msdyn_rmasubstatus entity"
   href: msdyn_rmasubstatus.md
-- name: "RTV (msdyn_rtv)"
+- name: "RTV"
   displayName: "msdyn_rtv entity"
   href: msdyn_rtv.md
-- name: "RTV Product (msdyn_rtvproduct)"
+- name: "RTV Product"
   displayName: "msdyn_rtvproduct entity"
   href: msdyn_rtvproduct.md
-- name: "RTV Substatus (msdyn_rtvsubstatus)"
+- name: "RTV Substatus"
   displayName: "msdyn_rtvsubstatus entity"
   href: msdyn_rtvsubstatus.md
-- name: "Sales Literature (SalesLiterature)"
+- name: "Sales Literature"
   displayName: "SalesLiterature entity"
   href: salesliterature.md
-- name: "Schedule Board Setting (msdyn_scheduleboardsetting)"
+- name: "Schedule Board Setting"
   displayName: "msdyn_scheduleboardsetting entity"
   href: msdyn_scheduleboardsetting.md
-- name: "Scheduling Feature Flag (msdyn_schedulingfeatureflag)"
+- name: "Scheduling Feature Flag"
   displayName: "msdyn_schedulingfeatureflag entity"
   href: msdyn_schedulingfeatureflag.md
-- name: "Scheduling Parameter (msdyn_schedulingparameter)"
+- name: "Scheduling Parameter"
   displayName: "msdyn_schedulingparameter entity"
   href: msdyn_schedulingparameter.md
-- name: "Sdk Message Processing Step (SdkMessageProcessingStep)"
+- name: "Sdk Message Processing Step"
   displayName: "SdkMessageProcessingStep entity"
   href: sdkmessageprocessingstep.md
 - name: "Service"
   displayName: "Service entity"
   href: service.md
-- name: "Service Activity (ServiceAppointment)"
+- name: "Service Activity"
   displayName: "ServiceAppointment entity"
   href: serviceappointment.md
-- name: "Service Task Type (msdyn_servicetasktype)"
+- name: "Service Task Type"
   displayName: "msdyn_servicetasktype entity"
   href: msdyn_servicetasktype.md
-- name: "Session (msdyn_ocsession)"
+- name: "Session"
   displayName: "msdyn_ocsession entity"
   href: msdyn_ocsession.md
-- name: "Session Data (Deprecated) (msdyn_SessionData)"
+- name: "Session Data (Deprecated)"
   displayName: "msdyn_SessionData entity"
   href: msdyn_sessiondata.md
-- name: "Session Participant Data (Deprecated) (msdyn_SessionParticipantData)"
+- name: "Session Participant Data (Deprecated)"
   displayName: "msdyn_SessionParticipantData entity"
   href: msdyn_sessionparticipantdata.md
-- name: "Session Templates (Deprecated) (msdyn_consoleapplicationsessiontemplate)"
+- name: "Session Templates (Deprecated)"
   displayName: "msdyn_consoleapplicationsessiontemplate entity"
   href: msdyn_consoleapplicationsessiontemplate.md
-- name: "Shared Workspace Non-Relational (sharedworkspacenr)"
-  displayName: "sharedworkspacenr entity"
-  href: sharedworkspacenr.md
-- name: "Shared Workspace Pool (sharedworkspacepool)"
-  displayName: "sharedworkspacepool entity"
-  href: sharedworkspacepool.md
-- name: "Ship Via (msdyn_shipvia)"
+- name: "Ship Via"
   displayName: "msdyn_shipvia entity"
   href: msdyn_shipvia.md
-- name: "Shortcut (mspp_shortcut)"
+- name: "Shortcut"
   displayName: "mspp_shortcut entity"
   href: mspp_shortcut.md
-- name: "Similarity Rule (SimilarityRule)"
+- name: "Similarity Rule"
   displayName: "SimilarityRule entity"
   href: similarityrule.md
 - name: "Site"
@@ -805,126 +742,117 @@ items:
 - name: "SLA"
   displayName: "SLA entity"
   href: sla.md
-- name: "SLA KPI Instance (SLAKPIInstance)"
+- name: "SLA KPI Instance"
   displayName: "SLAKPIInstance entity"
   href: slakpiinstance.md
-- name: "Social Activity (SocialActivity)"
+- name: "Social Activity"
   displayName: "SocialActivity entity"
   href: socialactivity.md
-- name: "Swarm (msdyn_swarm)"
+- name: "Swarm"
   displayName: "msdyn_swarm entity"
   href: msdyn_swarm.md
-- name: "Sync Error (SyncError)"
+- name: "Sync Error"
   displayName: "SyncError entity"
   href: syncerror.md
-- name: "System Job (AsyncOperation)"
+- name: "System Job"
   displayName: "AsyncOperation entity"
   href: asyncoperation.md
-- name: "System User Scheduler Setting (msdyn_systemuserschedulersetting)"
+- name: "System User Scheduler Setting"
   displayName: "msdyn_systemuserschedulersetting entity"
   href: msdyn_systemuserschedulersetting.md
 - name: "Task"
   displayName: "Task entity"
   href: task.md
-- name: "Tax Code (msdyn_taxcode)"
+- name: "Tax Code"
   displayName: "msdyn_taxcode entity"
   href: msdyn_taxcode.md
-- name: "Tax Code Detail (msdyn_taxcodedetail)"
+- name: "Tax Code Detail"
   displayName: "msdyn_taxcodedetail entity"
   href: msdyn_taxcodedetail.md
 - name: "Team"
   displayName: "Team entity"
   href: team.md
-- name: "Teams chat (chat)"
+- name: "Teams chat"
   displayName: "chat entity"
   href: chat.md
-- name: "Template Tag (Deprecated) (msdyn_templatetags)"
-  displayName: "msdyn_templatetags entity"
-  href: msdyn_templatetags.md
 - name: "Territory"
   displayName: "Territory entity"
   href: territory.md
-- name: "Three-Dimensional Model (msdyn_3dmodel)"
+- name: "Three-Dimensional Model"
   displayName: "msdyn_3dmodel entity"
   href: msdyn_3dmodel.md
-- name: "Time Entry (msdyn_timeentry)"
+- name: "Time Entry"
   displayName: "msdyn_timeentry entity"
   href: msdyn_timeentry.md
-- name: "Time Group Detail (msdyn_timegroupdetail)"
+- name: "Time Group Detail"
   displayName: "msdyn_timegroupdetail entity"
   href: msdyn_timegroupdetail.md
-- name: "Time Off Request (msdyn_timeoffrequest)"
+- name: "Time Off Request"
   displayName: "msdyn_timeoffrequest entity"
   href: msdyn_timeoffrequest.md
-- name: "Time Source (msdyn_timeentrysetting)"
+- name: "Time Source"
   displayName: "msdyn_timeentrysetting entity"
   href: msdyn_timeentrysetting.md
-- name: "Trade (msdyn_trade)"
+- name: "Trade"
   displayName: "msdyn_trade entity"
   href: msdyn_trade.md
-- name: "Trade Coverage (msdyn_tradecoverage)"
+- name: "Trade Coverage"
   displayName: "msdyn_tradecoverage entity"
   href: msdyn_tradecoverage.md
-- name: "Transaction Origin (msdyn_transactionorigin)"
+- name: "Transaction Origin"
   displayName: "msdyn_transactionorigin entity"
   href: msdyn_transactionorigin.md
-- name: "Triggers To Sdk Message Processing Steps (msdynmkt_eventmetadata_sdkmessageprocessingstep)"
+- name: "Triggers To Sdk Message Processing Steps"
   displayName: "msdynmkt_eventmetadata_sdkmessageprocessingstep entity"
   href: msdynmkt_eventmetadata_sdkmessageprocessingstep.md
-- name: "Unique Number (msdyn_uniquenumber)"
+- name: "Unique Number"
   displayName: "msdyn_uniquenumber entity"
   href: msdyn_uniquenumber.md
-- name: "Unit (UoM)"
+- name: "Unit"
   displayName: "UoM entity"
   href: uom.md
-- name: "Unit Group (UoMSchedule)"
+- name: "Unit Group"
   displayName: "UoMSchedule entity"
   href: uomschedule.md
-- name: "User (SystemUser)"
+- name: "User"
   displayName: "SystemUser entity"
   href: systemuser.md
-- name: "Warehouse (msdyn_warehouse)"
+- name: "Warehouse"
   displayName: "msdyn_warehouse entity"
   href: msdyn_warehouse.md
-- name: "Website (mspp_website)"
+- name: "Website"
   displayName: "mspp_website entity"
   href: mspp_website.md
-- name: "Work Order (msdyn_workorder)"
+- name: "Work Order"
   displayName: "msdyn_workorder entity"
   href: msdyn_workorder.md
-- name: "Work Order Business Process (msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39)"
+- name: "Work Order Business Process"
   displayName: "msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 entity"
   href: msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39.md
-- name: "Work Order Characteristic (Deprecated) (msdyn_workordercharacteristic)"
-  displayName: "msdyn_workordercharacteristic entity"
-  href: msdyn_workordercharacteristic.md
-- name: "Work Order Details Generation Queue (Deprecated) (msdyn_workorderdetailsgenerationqueue)"
-  displayName: "msdyn_workorderdetailsgenerationqueue entity"
-  href: msdyn_workorderdetailsgenerationqueue.md
-- name: "Work Order Incident (msdyn_workorderincident)"
+- name: "Work Order Incident"
   displayName: "msdyn_workorderincident entity"
   href: msdyn_workorderincident.md
-- name: "Work order not-to-exceed (msdyn_workordernte)"
+- name: "Work order not-to-exceed"
   displayName: "msdyn_workordernte entity"
   href: msdyn_workordernte.md
-- name: "Work Order Product (msdyn_workorderproduct)"
+- name: "Work Order Product"
   displayName: "msdyn_workorderproduct entity"
   href: msdyn_workorderproduct.md
-- name: "Work Order Resolution (msdyn_workorderresolution)"
+- name: "Work Order Resolution"
   displayName: "msdyn_workorderresolution entity"
   href: msdyn_workorderresolution.md
-- name: "Work Order Service (msdyn_workorderservice)"
+- name: "Work Order Service"
   displayName: "msdyn_workorderservice entity"
   href: msdyn_workorderservice.md
-- name: "Work Order Service Task (msdyn_workorderservicetask)"
+- name: "Work Order Service Task"
   displayName: "msdyn_workorderservicetask entity"
   href: msdyn_workorderservicetask.md
-- name: "Work Order Substatus (msdyn_workordersubstatus)"
+- name: "Work Order Substatus"
   displayName: "msdyn_workordersubstatus entity"
   href: msdyn_workordersubstatus.md
-- name: "Work Order Type (msdyn_workordertype)"
+- name: "Work Order Type"
   displayName: "msdyn_workordertype entity"
   href: msdyn_workordertype.md
-- name: "Work Template (msdyn_workhourtemplate)"
+- name: "Work Template"
   displayName: "msdyn_workhourtemplate entity"
   href: msdyn_workhourtemplate.md

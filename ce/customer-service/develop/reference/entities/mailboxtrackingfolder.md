@@ -1,7 +1,7 @@
 ---
 title: "Mailbox Auto Tracking Folder (MailboxTrackingFolder) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Mailbox Auto Tracking Folder (MailboxTrackingFolder) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -64,6 +64,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_schedulingfeatureflag_MailboxTrackingFolders](#BKMK_msdyn_schedulingfeatureflag_MailboxTrackingFolders)
 - [msdyn_schedulingparameter_MailboxTrackingFolders](#BKMK_msdyn_schedulingparameter_MailboxTrackingFolders)
 - [msdyn_systemuserschedulersetting_MailboxTrackingFolders](#BKMK_msdyn_systemuserschedulersetting_MailboxTrackingFolders)
+- [msdyn_templatetags_MailboxTrackingFolders](#BKMK_msdyn_templatetags_MailboxTrackingFolders)
 - [msdyn_timegroup_MailboxTrackingFolders](#BKMK_msdyn_timegroup_MailboxTrackingFolders)
 - [msdyn_timegroupdetail_MailboxTrackingFolders](#BKMK_msdyn_timegroupdetail_MailboxTrackingFolders)
 - [msdyn_transactionorigin_MailboxTrackingFolders](#BKMK_msdyn_transactionorigin_MailboxTrackingFolders)
@@ -430,6 +431,19 @@ One-To-Many Relationship: [msdyn_systemuserschedulersetting msdyn_systemusersche
 |ReferencedAttribute|`msdyn_systemuserschedulersettingid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_systemuserschedulersetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_templatetags_MailboxTrackingFolders"></a> msdyn_templatetags_MailboxTrackingFolders
+
+One-To-Many Relationship: [msdyn_templatetags msdyn_templatetags_MailboxTrackingFolders](msdyn_templatetags.md#BKMK_msdyn_templatetags_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_templatetags`|
+|ReferencedAttribute|`msdyn_templatetagsid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_templatetags`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

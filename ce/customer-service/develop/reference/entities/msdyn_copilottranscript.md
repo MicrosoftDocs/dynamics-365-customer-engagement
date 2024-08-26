@@ -1,7 +1,7 @@
 ---
 title: "Copilot Transcript (msdyn_copilottranscript) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Copilot Transcript (msdyn_copilottranscript) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -38,6 +38,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 
 - [msdyn_bookingalertstatus_msdyn_copilottranscripts](#BKMK_msdyn_bookingalertstatus_msdyn_copilottranscripts)
 - [msdyn_bookingrule_msdyn_copilottranscripts](#BKMK_msdyn_bookingrule_msdyn_copilottranscripts)
+- [msdyn_copilottranscript_transactioncurrency_transactioncurrencyid](#BKMK_msdyn_copilottranscript_transactioncurrency_transactioncurrencyid)
 - [msdyn_resourceterritory_msdyn_copilottranscripts](#BKMK_msdyn_resourceterritory_msdyn_copilottranscripts)
 - [msdyn_systemuserschedulersetting_msdyn_copilottranscripts](#BKMK_msdyn_systemuserschedulersetting_msdyn_copilottranscripts)
 - [msdyn_timegroup_msdyn_copilottranscripts](#BKMK_msdyn_timegroup_msdyn_copilottranscripts)
@@ -68,6 +69,19 @@ One-To-Many Relationship: [msdyn_bookingrule msdyn_bookingrule_msdyn_copilottran
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_bookingrule_msdyn_copilottranscript`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_copilottranscript_transactioncurrency_transactioncurrencyid"></a> msdyn_copilottranscript_transactioncurrency_transactioncurrencyid
+
+One-To-Many Relationship: [transactioncurrency msdyn_copilottranscript_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_msdyn_copilottranscript_transactioncurrency_transactioncurrencyid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid_msdyn_copilottranscript`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_resourceterritory_msdyn_copilottranscripts"></a> msdyn_resourceterritory_msdyn_copilottranscripts
 

@@ -1,7 +1,7 @@
 ---
 title: "Playbook Callable Context (msdyn_callablecontext) table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Playbook Callable Context (msdyn_callablecontext) table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -35,7 +35,6 @@ Changes from [msdyn_EntityOTC (Microsoft Dynamics 365)](/dynamics365/developer/e
 |1085|**Quote Line**|
 |1089|**Order Line**|
 |9820|**Secured Masking Column**|
-|10035|**Shared Workspace Non-Relational**|
 |10058|**CascadeGrantRevokeAccessRecordsTracker**|
 |10059|**CascadeGrantRevokeAccessVersionTracker**|
 |10060|**RevokeInheritedAccessRecordsTracker**|
@@ -548,7 +547,7 @@ Changes from [msdyn_EntityOTC (Microsoft Dynamics 365)](/dynamics365/developer/e
 |10642|**Swarm role**|
 |10643|**Swarm skill**|
 |10644|**Swarm template**|
-|10645|**Autonomous case creation and enrichment rules**|
+|10645|**Autonomous case creation and update rules**|
 |10646|**Entity Attachment**|
 |10647|**Time Tracker**|
 |10648|**Survey setting**|
@@ -953,23 +952,12 @@ Changes from [msdyn_EntityOTC (Microsoft Dynamics 365)](/dynamics365/developer/e
 |11133|**Predictive Work Hour Duration Setting**|
 |11134|**Field Service Summary Configuration**|
 |11135|**MobileSource**|
-
-## Many-to-Many relationships
-
-These relationships are many-to-many. Listed by **SchemaName**.
-
-### <a name="BKMK_msdyn_callablecontext_msdyn_playbooktemplate"></a> msdyn_callablecontext_msdyn_playbooktemplate
-
-See [msdyn_playbooktemplate msdyn_callablecontext_msdyn_playbooktemplate Many-To-Many Relationship](msdyn_playbooktemplate.md#BKMK_msdyn_callablecontext_msdyn_playbooktemplate)
-
-|Property|Value|
-|---|---|
-|IntersectEntityName|`msdyn_callablecontext_msdyn_playbooktemplate`|
-|IsCustomizable|False|
-|SchemaName|`msdyn_callablecontext_msdyn_playbooktemplate`|
-|IntersectAttribute|`msdyn_callablecontextid`|
-|NavigationPropertyName|`msdyn_callablecontext_msdyn_playbooktemplate`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+|11136|**FederatedKnowledgeConfiguration**|
+|11137|**FederatedKnowledgeEntityConfiguration**|
+|11138|**Form Mapping**|
+|11222|**Sales usage telemetry reports**|
+|11223|**Sales usage reporting**|
+|11224|**Copilot Analytics**|
 
 
 

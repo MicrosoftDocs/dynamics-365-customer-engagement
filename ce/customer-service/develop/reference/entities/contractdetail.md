@@ -1,7 +1,7 @@
 ---
 title: "Contract Line (ContractDetail) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Contract Line (ContractDetail) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -32,6 +32,23 @@ Changes from [ExchangeRate (Microsoft Dynamics 365)](/dynamics365/developer/enti
 |MinValue|1E-12|
 |Precision|12|
 
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+### <a name="BKMK_transactioncurrency_contractdetail"></a> transactioncurrency_contractdetail
+
+One-To-Many Relationship: [transactioncurrency transactioncurrency_contractdetail](transactioncurrency.md#BKMK_transactioncurrency_contractdetail)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`transactioncurrency`|
+|ReferencedAttribute|`transactioncurrencyid`|
+|ReferencingAttribute|`transactioncurrencyid`|
+|ReferencingEntityNavigationPropertyName|`transactioncurrencyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 

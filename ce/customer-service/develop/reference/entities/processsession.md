@@ -1,7 +1,7 @@
 ---
 title: "Process Session (ProcessSession) table/entity reference (Microsoft Dynamics 365 Customer Service)"
 description: "Includes schema information and supported messages for the Process Session (ProcessSession) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -64,6 +64,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_schedulingfeatureflag_ProcessSession](#BKMK_msdyn_schedulingfeatureflag_ProcessSession)
 - [msdyn_schedulingparameter_ProcessSession](#BKMK_msdyn_schedulingparameter_ProcessSession)
 - [msdyn_systemuserschedulersetting_ProcessSession](#BKMK_msdyn_systemuserschedulersetting_ProcessSession)
+- [msdyn_templatetags_ProcessSession](#BKMK_msdyn_templatetags_ProcessSession)
 - [msdyn_timegroup_ProcessSession](#BKMK_msdyn_timegroup_ProcessSession)
 - [msdyn_timegroupdetail_ProcessSession](#BKMK_msdyn_timegroupdetail_ProcessSession)
 - [msdyn_transactionorigin_ProcessSession](#BKMK_msdyn_transactionorigin_ProcessSession)
@@ -430,6 +431,19 @@ One-To-Many Relationship: [msdyn_systemuserschedulersetting msdyn_systemusersche
 |ReferencedAttribute|`msdyn_systemuserschedulersettingid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_systemuserschedulersetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_templatetags_ProcessSession"></a> msdyn_templatetags_ProcessSession
+
+One-To-Many Relationship: [msdyn_templatetags msdyn_templatetags_ProcessSession](msdyn_templatetags.md#BKMK_msdyn_templatetags_ProcessSession)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_templatetags`|
+|ReferencedAttribute|`msdyn_templatetagsid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_templatetags`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

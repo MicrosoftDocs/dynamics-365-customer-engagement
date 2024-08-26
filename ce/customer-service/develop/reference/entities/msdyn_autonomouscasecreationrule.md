@@ -1,7 +1,7 @@
 ---
-title: "Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table/entity reference (Microsoft Dynamics 365 Customer Service)"
-description: "Includes schema information and supported messages for the Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table/entity with Microsoft Dynamics 365 Customer Service."
-ms.date: 08/21/2024
+title: "Autonomous case creation and update rules (msdyn_autonomouscasecreationrule) table/entity reference (Microsoft Dynamics 365 Customer Service)"
+description: "Includes schema information and supported messages for the Autonomous case creation and update rules (msdyn_autonomouscasecreationrule) table/entity with Microsoft Dynamics 365 Customer Service."
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: gandhamm
@@ -10,12 +10,12 @@ search.audienceType:
   - developer
 ---
 
-# Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table/entity reference
+# Autonomous case creation and update rules (msdyn_autonomouscasecreationrule) table/entity reference
 
-Autonomous case creation and enrichment rules
+Autonomous case creation and update rules
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table extends the [Microsoft Dynamics 365 Autonomous case creation and enrichment rules (msdyn_autonomouscasecreationrule) table](/dynamics365/developer/entities/msdyn_autonomouscasecreationrule).
+> The Microsoft Dynamics 365 Customer Service Autonomous case creation and update rules (msdyn_autonomouscasecreationrule) table extends the [Microsoft Dynamics 365 Autonomous case creation and update rules (msdyn_autonomouscasecreationrule) table](/dynamics365/developer/entities/msdyn_autonomouscasecreationrule).
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Conversation (msdyn_ocliveworkitem) table/entity reference (Microsoft Dynamics 365)"
 description: "Includes schema information and supported messages for the Conversation (msdyn_ocliveworkitem) table/entity with Microsoft Dynamics 365."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: JimDaly
@@ -101,6 +101,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_activeagentid](#BKMK_msdyn_activeagentid)
 - [msdyn_activesessionparticipantid](#BKMK_msdyn_activesessionparticipantid)
 - [msdyn_averageresponsetimeinmsadjforoh](#BKMK_msdyn_averageresponsetimeinmsadjforoh)
+- [msdyn_casefieldsupdatedbyAI](#BKMK_msdyn_casefieldsupdatedbyAI)
 - [msdyn_cdsqueueid](#BKMK_msdyn_cdsqueueid)
 - [msdyn_channel](#BKMK_msdyn_channel)
 - [msdyn_channelinstanceid](#BKMK_msdyn_channelinstanceid)
@@ -580,6 +581,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MinValue|-100000000000|
 |Precision|2|
 |SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_casefieldsupdatedbyAI"></a> msdyn_casefieldsupdatedbyAI
+
+|Property|Value|
+|---|---|
+|Description|**Stores the information about fields updated by Autonomous Case Create and Update process.**|
+|DisplayName|**Case Updated Fields by AI**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_casefieldsupdatedbyAI`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|TextArea|
+|FormatName|TextArea|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|8192|
 
 ### <a name="BKMK_msdyn_cdsqueueid"></a> msdyn_cdsqueueid
 

@@ -1,7 +1,7 @@
 ---
 title: "Organization table/entity reference (Microsoft Dynamics 365 Field Service)"
 description: "Includes schema information and supported messages for the Organization table/entity with Microsoft Dynamics 365 Field Service."
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.service: powerapps
 ms.topic: reference
 author: m-hartmann
@@ -137,7 +137,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [organization_msdyn_bpf_989e9b1857e24af18787d5143b67523b](#BKMK_organization_msdyn_bpf_989e9b1857e24af18787d5143b67523b)
 - [organization_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3](#BKMK_organization_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3)
 - [organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39](#BKMK_organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39)
-- [organization_msdyn_consoleapplicationtype](#BKMK_organization_msdyn_consoleapplicationtype)
 - [organization_msdyn_dataanalyticsreport_fs](#BKMK_organization_msdyn_dataanalyticsreport_fs)
 - [organization_msdyn_dataanalyticsreport_fspredictrs](#BKMK_organization_msdyn_dataanalyticsreport_fspredictrs)
 - [organization_msdyn_dataanalyticsreport_fspredictwhd](#BKMK_organization_msdyn_dataanalyticsreport_fspredictwhd)
@@ -151,7 +150,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [organization_msdyn_productinventory](#BKMK_organization_msdyn_productinventory)
 - [organization_msdyn_schedulingparameter](#BKMK_organization_msdyn_schedulingparameter)
 - [organization_msdyn_uniquenumber](#BKMK_organization_msdyn_uniquenumber)
-- [organization_msdyn_workorderdetailsgenerationqueue](#BKMK_organization_msdyn_workorderdetailsgenerationqueue)
 
 ### <a name="BKMK_organization_msdyn_3dmodel"></a> organization_msdyn_3dmodel
 
@@ -234,18 +232,6 @@ Many-To-One Relationship: [msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 organizati
 |ReferencingEntity|`msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39`|
 |ReferencingAttribute|`organizationid`|
 |ReferencedEntityNavigationPropertyName|`organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_organization_msdyn_consoleapplicationtype"></a> organization_msdyn_consoleapplicationtype
-
-Many-To-One Relationship: [msdyn_consoleapplicationtype organization_msdyn_consoleapplicationtype](msdyn_consoleapplicationtype.md#BKMK_organization_msdyn_consoleapplicationtype)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_consoleapplicationtype`|
-|ReferencingAttribute|`organizationid`|
-|ReferencedEntityNavigationPropertyName|`organization_msdyn_consoleapplicationtype`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -402,18 +388,6 @@ Many-To-One Relationship: [msdyn_uniquenumber organization_msdyn_uniquenumber](m
 |ReferencingEntity|`msdyn_uniquenumber`|
 |ReferencingAttribute|`organizationid`|
 |ReferencedEntityNavigationPropertyName|`organization_msdyn_uniquenumber`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_organization_msdyn_workorderdetailsgenerationqueue"></a> organization_msdyn_workorderdetailsgenerationqueue
-
-Many-To-One Relationship: [msdyn_workorderdetailsgenerationqueue organization_msdyn_workorderdetailsgenerationqueue](msdyn_workorderdetailsgenerationqueue.md#BKMK_organization_msdyn_workorderdetailsgenerationqueue)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_workorderdetailsgenerationqueue`|
-|ReferencingAttribute|`organizationid`|
-|ReferencedEntityNavigationPropertyName|`organization_msdyn_workorderdetailsgenerationqueue`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
