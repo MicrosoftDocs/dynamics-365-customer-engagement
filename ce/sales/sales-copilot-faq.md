@@ -7,7 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 04/02/2024
+ms.date: 08/26/2024
 ---
 
 # Copilot in Dynamics 365 Sales FAQs
@@ -46,9 +46,24 @@ Currently, the Azure OpenAI endpoints are only available in specific regions. Fo
 
 No. We don't use any customer data to train Azure OpenAI or any other language models.
 
+## What features does Copilot in Dynamics 365 Sales support for the available languages?
+
+Copilot in Dynamics 365 Sales supports the following features in the [supported languages](copilot-overview.md#region-availability-and-languages-supported):  
+
+- Account news
+- Account summary
+- Email assist and compose
+- Email reminder
+- Lead summary
+- Meeting prep
+- Opportunity summary
+- Show my pipeline
+- What's new with my sales records
+- What's newly assigned to me 
+
 ## Is Copilot in Dynamics 365 Sales available in all regions?
 
-No, Copilot in Dynamics 365 Sales is not available in the following regions, even if Azure OpenAI endpoints are available in those regions:
+No, Copilot in Dynamics 365 Sales isn't available in the following regions, even if Azure OpenAI endpoints are available in those regions:
 
 - South Africa (ZAF)
 - Norway (NOR)
