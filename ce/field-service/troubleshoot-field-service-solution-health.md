@@ -32,7 +32,7 @@ To run an analysis job for Field Service:
 
 1. Open the Solution Health Hub app.
 
-   :::image type="content" source="media/troubleshoot-solution-health-nav.svg" alt-text="Screenshot of the Solution Health Hub in the navigation.":::
+   :::image type="content" source="media/troubleshoot-solution-health-nav.png" alt-text="Screenshot of the Solution Health Hub in the navigation.":::
 
 1. Select **Analysis Jobs** and create a new analysis job.
 1. When the dialog box opens, select **Field Service**.
@@ -62,7 +62,7 @@ This rule verifies that all work orders were correctly generated based on agreem
 
 ### Why it fails
 
-Agreement recurrences didn't process correctly and work orders didn't generate that should have.
+This rule fails because agreement recurrences didn't process correctly and work orders didn't generate that should have.
 
 ### How to fix
 
@@ -127,13 +127,57 @@ This rule detects if there are Field Service forms in the system that are missin
 This rule fails if any Field Service libraries are missing for a Field Service form.
 
 > [!Note]
-> This rule might show a false-positive failure on the ‘Price Level’ form.
+> This rule might show a false-positive failure on the 'Price Level' form.
 
 ### How to fix
 
 Add the missing libraries to the form. You might get the list of required libraries by comparing to another form of the same entity or on other org. Reach out to support for assistance.
 
-### Check For Revision mismatch on Agreement Booking Dates with Agreement Booking Setups
+## Check if forms have unhealthy customizations
+
+Severity: High
+
+### What it checks
+
+For all work order forms, this rule checks if the number of subgrid controls or lookup controls exceed the limit, which might affect performance. The limit is 4 subgrids or 20 lookups. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
+
+A [subgrid control](/powerapps/developer/model-driven-apps/clientapi/reference/grids) is a table in the form that lists records of another table. For example, the work order product subgrid control on the work order form that is included in Field Service out-of-the-box.
+
+A lookup control is a field on the form that searches the records of another table and allows you to select one or more records to populate the field.
+
+### Why it fails
+
+This rule fails if the default tab (the first tab) of any work order form has more than either **4 subgrids controls** or **20 lookup controls**. The number of controls on the default tab of the form impacts load performance.
+
+### How to fix
+
+Reduce the number of lookup fields and subgrid controls on the default tab. Either move them to other tabs on the form or hide them from the form if not needed.
+
+Check out more ways to [Improve form load time](/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1&preserve-view=true).
+
+## Check if the required level of fields is modified
+
+Severity: High
+
+### What it checks
+
+This rule checks if the required level of a system-required field on the Work Order or Agreement form is modified.
+
+### Why it fails
+
+This rule fails if the required level of a system-required field in the out-of-box Field Service Work Order or Agreement form is modified.
+
+### How to fix
+
+1. In Power Apps, select **Tables** > **All** and search for Work order or Agreement.
+1. Select the table.
+1. Under **Schema**, select **Columns**. Find and select the field listed in the analysis.
+1. In the **Edit column** pane, changed **Required** to 'Business Required' and save.
+
+> [!Note] 
+> This rule is implemented for the out-of-the-box required field on the Work Order and Agreement forms only.
+
+### Checks For Revision mismatch on Agreement Booking Dates with Agreement Booking Setups
 
 Severity: High
 
@@ -153,7 +197,7 @@ Contact support.
 
 This rule considers the top 5,000 active **Agreement Booking Date** records in the last three months based on the latest booking date.
 
-## Check For Revision Mismatch on Agreement Invoice Dates with Agreement Invoice Setups
+## Checks For Revision Mismatch on Agreement Invoice Dates with Agreement Invoice Setups
 
 Severity: High
 
@@ -173,58 +217,17 @@ Contact support.
 
 This rule considers the top 5,000 active **Agreement Invoice Date** records in the last three months based on the latest invoice date.
 
-## Check if forms have unhealthy customizations
-
-Severity: High
-
-### What it checks
-
-For all work order forms, this rule checks if the number of subgrid controls or lookup controls exceed the limit (4 subgrids or 20 lookups), which might affect performance. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
-
-A [subgrid control](/powerapps/developer/model-driven-apps/clientapi/reference/grids) is a table in the form that lists records of another table. An example of a subgrid control is the work order product subgrid control on the work order form that is included out-of-the-box with Field Service.
-
-A lookup control is a field on the form that searches the records of another table and allows you to select one or more records to populate the field.
-
-### Why it fails
-
-This rule fails if the default tab (the first tab on the form) of any work order form has more than either **4 subgrids controls** or **20 lookup controls**. The number of controls on the default tab of the form impacts load performance.
-
-### How to fix
-
-Reduce the number of lookup fields and subgrid controls on the default tab (the first tab on the form) by moving them to other tabs on the form (or hiding them from the form if not needed). 
-
-Check out more ways to [Improve form load time](/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1&preserve-view=true).
-
-## Check if the required level of fields is modified
-
-Severity: High
-
-### What it checks
-
-This rule checks if the required level of the system field on the form is modified
-
-### Why it fails
-
-If the required level of the system field (that is, Application Required field/ OOB Field) on the Work Order and Agreement form is modified.
-
-### How to fix
-
-Go to customization -> Entities -> Work Order /Agreement -> Fields -> Double-click on field for which required level need to reset -> Select field requirement -> Business Required.
-
-> [!Note] 
-> This rule is implemented for the out-of-the-box required field on the Work Order and Agreement only.
-
-## Customizations on 'Connected Field Service' app module
+## Customizations on the 'Connected Field Service' app module
 
 Severity: Low
 
 ### What it checks
 
-Checks whether there are customizations to the Connected Field Service app module that is being deprecated and shouldn’t be customized.
+This rule checks whether there are customizations to the Connected Field Service app module that is being deprecated and shouldn’t be customized.
 
 ### Why it fails
 
-If there are any customizations on the Connected Field Service app module in the organization, this check fails.
+This rule fails if there are any customizations on the Connected Field Service app module in the organization.
 
 ### How to fix
 
@@ -236,18 +239,18 @@ Severity: High
 
 ### What it checks
 
-Detects whether any option set in Field Service that isn't supposed to be customized is customized. Customizing option sets can lead to unexpected behavior.
+This rule detects whether there are [customizations to any option set](field-service-customization-best-practices.md#dont-change-out-of-box-web-resources-option-sets-security-roles-or-workflows) in Field Service that shouldn't be customized. Customizing option sets can lead to unexpected behavior.
 
 > [!Note]
-> This is currently known to show a failure on ```msdyn_billingtype``` even when it was not customized, and happens when the Project Service Automation solution is also installed. This rule was updated to address this known failure.
+> This is currently known to show a failure on `msdyn_billingtype` even when it was not customized, and happens when the Project Service Automation solution is also installed. This rule was updated to address this known failure.
 
 ### Why it fails
 
-Fails if there are any customizations on any of the default Field Service options sets. Additions to the option sets don't count as failures, only modifications to the options within the option sets.
+This rule fails if there are any customizations on any of the default Field Service options sets. Additions to the option sets don't count as failures, only modifications to the options within the option sets.
 
 ### How to fix
 
-Manually Remove customizations from the Field Service Option sets
+Manually remove customizations from the Field Service option sets.
 
 ## Customized web resources
 
@@ -255,11 +258,11 @@ Severity: High
 
 ### What it checks
 
-Detects which customized web resources aren't part of the Field Service package. Customized web resources don't update with a Field Service update and can lead to functionality issues.
+This rule detects which customized web resources aren't part of the Field Service package. Customized web resources don't update with a Field Service update and can lead to functionality issues.
 
 ### Why it fails
 
-Fails if any customized web resource that isn't part of the Field Service package exists.
+This rule fails if any customized web resource that isn't part of the Field Service package exists.
 
 ### How to fix
 
@@ -271,15 +274,15 @@ Severity: Low to medium
 
 ### What it checks
 
-Validates if the bulk delete auto number workflow runs correctly.
+This rule validates if the bulk delete auto number workflow runs correctly.
 
 ### Why it fails
 
-Fails if the delete unique number workflow has been failing.
+This rule fails if the delete unique number workflow is failing.
 
 ### How to fix
 
-This rule provides an automated resolution step that can be resolved via the **Resolve** button in the Solution Health Hub form for this rule failure.
+Select the analysis result and select **Resolve**.
 
 ## Deleted processes
 
@@ -287,11 +290,11 @@ Severity: High
 
 ### What it checks
 
-Verifies that there are no deleted processes.
+This rule checks for any deleted processes.
 
 ### Why it fails
 
-Fails if any of the out of the box processes for Field Service are deleted.
+This rule fails if any of the out-of-the-box processes for Field Service are deleted.
 
 ### How to fix
 
@@ -303,11 +306,11 @@ Severity: High
 
 ### What it checks
 
-Verifies that there are no deleted SDK message processing steps.
+This rule checks for any deleted SDK message processing steps.
 
 ### Why it fails
 
-Fails if any of the shipped Field Service SDK message processing steps were deleted from the system.
+This rule fails if any of the shipped Field Service SDK message processing steps are deleted.
 
 ### How to fix
 
@@ -319,11 +322,11 @@ Severity: High
 
 ### What it checks
 
-Checks whether there are any deleted web resources.
+This rule checks for any deleted web resources.
 
 ### Why it fails
 
-Fails if any of the shipped Field Service web resources were deleted from the system.
+This rule fails if any of the shipped Field Service web resources were deleted from the system.
 
 ### How to fix
 
@@ -335,11 +338,11 @@ Severity: High
 
 ### What it checks
 
-Checks whether there are any SDK message processing steps that are disabled. Disabled SDK message processing steps lead to incorrect behavior when using Field Service.
+This rule checks for any disabled SDK message processing steps. Disabled SDK message processing steps lead to incorrect behavior when using Field Service.
 
 ### Why it fails
 
-Fails if any of the Field Service SDK message processing steps are disabled.
+This rule fails if any of the Field Service SDK message processing steps are disabled.
 
 ### How to fix
 
@@ -351,50 +354,56 @@ Severity: High
 
 ### What it checks
 
-Checks that the Field Service booking setup metadata record exists correctly in the system. If this record is missing, scheduling functionality might not work as expected.
+This rule validates that the Field Service booking setup metadata record exists correctly in the system. If this record is missing, scheduling functionality might not work as expected.
 
 ### Why it fails
 
-Fails if the Field Service booking setup metadata record doesn't exist in the system.
+This rule fails if the Field Service booking setup metadata record doesn't exist in the system.
 
 ### How to fix
 
 Contact support.
 
+<!--- This doesn't show up on my env.
 ## Field Service Settings
 
 Severity: High
 
 ### What it checks
 
-Checks that the Field Service settings record exists correctly in the system.
+This rule validates that the Field Service settings record exists correctly in the system.
 
 ### Why it fails
 
-Fails if the Field Service settings record doesn't exist or isn't configured properly.
+This rule fails if the Field Service settings record doesn't exist or isn't configured properly.
 
 ### How to fix
 
 The system recreates this record if it doesn't exist during normal usage of Field Service. If the record isn't automatically regenerated, contact support.
-
+--->
 ## Forms missing execution context
 
 Severity: High
 
 ### What it checks
 
-Detects if there are any forms in the system that have event handlers referencing Field Service libraries without passing the execution context parameter.
+This rule detects if there are any forms in the system that have event handlers referencing Field Service libraries without passing the execution context parameter.
 
 ### Why it fails
 
-Field Service code expects the execution context parameter to be passed in the OnLoad event handler. If this value is missing, it might cause errors while using the form.
+This rule fails because Field Service code expects the execution context parameter to be passed in the OnLoad event handler. If this value is missing, it might cause errors while using the form.
 
 > [!Note]
-> The most common scenario where this rule presents a failure is when a copy of one of the out-of-the-box forms is present (Field Service versions earlier than 8.X) and then Field Service is upgraded. In such scenarios, these copied forms from earlier versions of Field Service would be missing the ```ExecutionContext parameter``` in these non-out-of-the-box forms.
+> The most common scenario where this rule presents a failure is when a copy of one of the out-of-the-box forms is present (Field Service versions earlier than 8.X) and then Field Service is upgraded. In such scenarios, these copied forms from earlier versions of Field Service would be missing the `ExecutionContext parameter` in these non-out-of-the-box forms.
 
 ### How to fix
 
-Open the form in the designer > double-click on each OnLoad event handler > enable "pass execution context as first parameter" > save and publish the form.
+1. In Power Apps, select **Tables** > **All** and search for Work order or Agreement.
+1. Select the table.
+1. Under **Data experiences**, select **Forms**.
+1. Select the **Events** tab.
+1. Select each **Event Handler** and enable **Pass execution context as first parameter**.
+1. Save and publish the form.
 
 ## Incomplete Field Service upgrade
 
@@ -402,16 +411,17 @@ Severity: Low
 
 ### What it checks
 
-Detects whether a Field Service upgrade was started but not successfully completed.
+This rule detects whether a Field Service upgrade was started but not successfully completed.
 
 ### Why it fails
 
-Fails if a Field Service upgrade was started but not successfully completed.
+This rule fails if a Field Service upgrade was started but not successfully completed.
 
 ### How to fix
 
-Restart the Field Service upgrade. Once the upgrade succeeds, this rule returns a pass. If upgrade fails again, contact support.
+Restart the Field Service upgrade. Once the upgrade succeeds, this rule returns a pass. If the upgrade fails again, contact support.
 
+<!--- This doesn't show up on my env.
 ## Latitude and Longitude values on account record
 
 Severity: Low
@@ -427,6 +437,7 @@ Latitude, longitude, or both aren't present on an account record.
 ### How to fix
 
 Check if the address on the account form is provided. If so, then geocode the account by selecting the geocode button on the command bar of the account form.
+--->
 
 ## Privilege check for Agreement Booking Setup owners
 
@@ -434,17 +445,17 @@ Severity: High
 
 ### What it checks
 
-Checks if agreement booking setup record owners have the required privileges to create work orders.
+This rule checks if agreement booking setup record owners have the required privileges to create work orders.
 
 ### Why it fails
 
-If agreement booking setup owners don’t have the following privilege.
+This rule fails if agreement booking setup owners don’t have the following privilege:
 
 `1.prvCreatemsdyn_workorder`
 
 ### How to fix
 
-Assign the above privileges to respective agreement booking setup record owners.
+Assign the privilege to each agreement booking setup record owner.
 
 ## Privilege check for Agreement Invoice Setup owners
 
@@ -452,17 +463,17 @@ Severity: High
 
 ### What it checks
 
-Checks if agreement invoice setup record owners have the required privileges to create invoices.
+This rule checks if agreement invoice setup record owners have the required privileges to create invoices.
 
 ### Why it fails
 
-If agreement invoice setup owners don’t have the following privilege.
+This rule fails if agreement invoice setup owners don’t have the following privilege:
 
 `1.prvCreateInvoice`
 
 ### How to fix
 
-Assign the above privileges to respective agreement invoice setup record owners.
+Assign the privilege to each agreement invoice setup record owner.
 
 ## Process definitions in draft status
 
@@ -470,18 +481,18 @@ Severity: High
 
 ### What it checks
 
-Checks whether there are any process definitions in draft status. If there are processes in draft status, Field Service doesn't work correctly.
+This rule checks if any process definitions are in draft status. If there are processes in draft status, Field Service doesn't work correctly.
 
 ### Why it fails
 
-Fails if there are process definitions found in the draft state
+This rule fails if any process definition is in a draft status.
 
 > [!Note]
-> Field Service modern flows can cause failures. This rule was updated to validate based on enhanced background processing setting in UR 24; in versions prior to UR 24, it may incorrectly fail on business process flow (BPF) type records.
+> Field Service modern flows can cause failures. This rule was updated to validate based on enhanced background processing setting in UR 24; in versions prior to UR 24, it might incorrectly fail on business process flow (BPF) type records.
 
 ### How to fix
 
-Reactivate the process definitions so they aren't in draft state.
+Reactivate the process definitions so they aren't in draft status.
 
 ## Process definitions owned by disabled users
 
@@ -489,19 +500,20 @@ Severity: Medium to high
 
 ### What it checks
 
-Checks whether there are any process definitions in the system that are assigned to users that are disabled. If that’s the case, upgrade fails.
+This rule checks if any process definitions are assigned to users that are disabled.
 
 ### Why it fails
 
-Fails if there are any process definitions in the system that are assigned to disabled users, which can cause upgrades to fail.
+This rule fails if any process definitions are assigned to disabled users, which can cause upgrades to fail.
 
 > [!Note]
 > Validates based on the enhanced background processing setting in UR 24.
 
 ### How to fix
 
-For workflows: Change the owner of process to an active user.
+Change the owner of the process to an active user.
 
+<!--- This doesn't show up on my env.
 ## Recurrence on Agreement Booking Setup
 
 Severity: High
@@ -518,6 +530,7 @@ If an agreement has System Status as Active and its Agreement booking setup reco
 ### How to fix
 
 Configure a valid recurrence on Agreement Booking Setup and select **Agreement** > **Agreement Booking Setup** > **Booking Recurrence**.
+--->
 
 ## Universal Resource Scheduling version compatibility check
 
@@ -525,18 +538,18 @@ Severity: Low
 
 ### What it checks
 
-Verifies that the current installed version of Field Service is compatible with the version of Universal Resource Scheduling.
+This rule verifies that the current installed version of Field Service is compatible with the version of Universal Resource Scheduling.
 
 ### Why it fails
 
-Fails if the Universal Resource Scheduling solution installed in the org isn't compatible with the installed version of Field Service. It can happen if another package that contains the Universal Resource Scheduling solution is installed that updates the version of the Universal Resource Scheduling solution.
+This rule fails if the Universal Resource Scheduling solution installed in the organization isn't compatible with the installed version of Field Service. It can happen if another package that contains the Universal Resource Scheduling solution is installed that updates the version of the Universal Resource Scheduling solution.
 
 > [!Note]
 > The status for this rule was changed to "Warning" instead of "Fail" to align with the low severity for this rule in UR 23 release.
 
 ### How to fix
 
-The warning message displayed by the rule indicates which solution needs to be upgraded in order to be compatible with Field Service.
+Upgrade the solution listed in the warning message so that it's compatible with Field Service.
 
 ## Verify autonumbering is enabled
 
@@ -544,18 +557,15 @@ Severity: Low
 
 ### What it checks
 
-Verifies if autonumbering is opted in for the org. We recommend customers use the new autonumbering functionality to ensure uniqueness in numbering of Field Service tables.
+This rule verifies if autonumbering is opted in for the organization. We recommend customers use the new autonumbering functionality to ensure uniqueness in numbering of Field Service tables.
 
 ### Why it fails
 
-Fails if autonumbering isn't opted-in for the org.
+This rule fails if autonumbering isn't opted-in for the organization.
 
 ### How to fix
 
-Opt into autonumbering in Field Service by going to **Settings** > **Field Service settings** > **# Opt-In to Auto-Numbering** (in the top command ribbon).
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the opt in option for auto-numbering.](./media/administration-settings--optin-autonumbering.png)
+Opt into autonumbering in Field Service. In the **Settings** area, select **# Auto-Numbering**.
 
 ## Verify Field Service and Project Service Automation solutions are compatible
 
@@ -563,15 +573,15 @@ Severity: Low
 
 ### What it checks
 
-Verifies that the current installed version of Field Service is compatible with the version of Project Service Automation installed.
+This rule verifies that the current installed version of Field Service is compatible with the version of Project Service Automation installed.
 
 ### Why it fails
 
-Fails if the version of Project Service Automation solution installed in the org isn't compatible with the Field Service solution installed in the org.
+This rule fails if the version of Project Service Automation solution installed in the organization isn't compatible with the Field Service solution installed in the organization.
 
 ### How to fix
 
-The warning message displayed by the rule indicates which solution needs to be upgraded in order to be compatible with Field Service.
+Upgrade the solution listed in the warning message so that it's compatible with Field Service.
 
 ## Verify mobile user security roles
 
@@ -579,18 +589,15 @@ Severity: High
 
 ### What it checks
 
-Checks whether frontline workers who have access to the Field Service mobile app are assigned the Field Service resource role and the Field Service resource field security profile.
+This rule checks if frontline workers with access to the Field Service mobile app are assigned the **Field Service - Resource** role and the Field Service resource field security profile.
 
 ### Why it fails
 
-When a frontline worker has access to the Field Service mobile app without Field Service resource role and/or the Field Service resource field security profile
-
->[!Note]
-> Business unit is shown in the message when more than one business unit is present in the organization. A user who is part of multiple business units who does not have the **Field Service Resource** role or security profile may be flagged for each business unit of which they are a member.
+This rule fails if a frontline worker has access to the Field Service mobile app without the **Field Service - Resource** role or the Field Service resource field security profile. If there's more than one business unit in the organization, the business unit for the users displays.
 
 ### How to fix
 
-Add Field Service resource security role and field security profile to the user. For more information see, [see this article on setting up frontline workers](/dynamics365/field-service/frontline-worker-set-up).
+Add the **Field Service - Resource** security role and field security profile to the user. Learn more: [Set up frontline workers](/dynamics365/field-service/frontline-worker-set-up).
 
 ## Waiting workflow instances owned by disabled users
 
@@ -598,11 +605,11 @@ Severity: High
 
 ### What it checks
 
-Detects waiting workflow instances that are assigned to disabled users. Such workflows fail to correctly generate the records that they're supposed to generate.
+This rule checks if any waiting workflow instances are assigned to users that are disabled. Such workflows fail to correctly generate the records that they're supposed to generate.
 
 ### Why it fails
 
-Fails if there are suspended workflows assigned to disabled user accounts in the suspended state with the reason _Waiting_.
+This rule fails if a suspended workflow is assigned to a disabled user account in the suspended state with the reason 'Waiting'.
 
 ### How to fix
 
