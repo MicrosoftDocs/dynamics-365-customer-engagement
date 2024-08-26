@@ -44,7 +44,7 @@ Let's take an example in which each routing stage has a single ruleset with a co
    
       :::image type="content" source="../media/bulk-delete-routing-diagnostics.png" alt-text="Screenshot of bulk delete action for routing diagnostics records.":::   
  
-   1. Search for "Routing diagnostics" for the msdyn_unifiedroutingrun entity. More information: [msdyn_unifiedroutingrun](../develop/reference/entities/msdyn_unifiedroutingrun.md)
+   1. Search for "Routing diagnostics" for the msdyn_unifiedroutingrun entity. More information: [Routing diagnostic (msdyn_unifiedroutingrun)](../../developer/entities/msdyn_unifiedroutingrun.md)
 
 ## Next steps
 
