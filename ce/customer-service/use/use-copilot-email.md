@@ -64,13 +64,11 @@ When you select one of the predefined prompts, Copilot generates a suggested rep
 
 ### Refine replies
 
-You can select the Adjust with Copilot icon to change the length and tone of the response as follows:
+You can select the Adjust with Copilot icon to change the length and tone of the response in the English language. Do the following: 
 
 **Length**: Select **Short**, **Medium**, or **Long** to condense or expand on your text. <br>
 **Tone**: Select **Friendly**, **Professional**, or **Formal** to adjust the tone of your text.
 
-> [!NOTE]
-> The adjust feature supports responses in English only.
 
 ### Use follow-up prompts
 
@@ -106,7 +104,7 @@ To return to the prompts, select **Start over** at the bottom of the Copilot pan
 [Use Copilot to solve customer issues](use-copilot-features.md)
 
 ### Related information
-
-[Enable Copilot to draft emails](../administer/copilot-email-enable.md)
-[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md) 
-[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
+[View, compose and respond to email](/power-apps/user/view-compose-email)  
+[Enable Copilot to draft emails](../administer/copilot-email-enable.md)  
+[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md)   
+[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)    
