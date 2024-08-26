@@ -1,7 +1,7 @@
 ---
 title: Create or edit quotes in Dynamics 365 Sales
 description: Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it.
-ms.date: 08/23/2024
+ms.date: 08/26/2024
 ms.topic: how-to
 ms.custom: bap-template
 author: lavanyakr01
@@ -73,7 +73,7 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
     -  **Name** 
   
-    -  **Price List** and **Currency**: The price list that will be used to calculate the product prices and currency. [Learn more about how prices are calculated for a quote](#how-prices-are-calculated-for-a-quote).
+    -  **Product Price List** and **Currency**: The price list that will be used to calculate the product prices and currency. [Learn more about how prices are calculated for a quote](#how-prices-are-calculated-for-a-quote).
 
         > [!NOTE]
         > By default, selecting a price list is required to be able to add products a quote. However, your administrator can change your organization settings to make the Price list field optional. More information: [Allow adding products without associated price list](make-price-list-optional.md)
