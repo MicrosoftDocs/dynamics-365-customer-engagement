@@ -31,7 +31,7 @@ Go to the app store on your iOS, Android, or Windows device and search for **Dyn
 - iOS app: [Dynamics 365 Field Service in the Apple App Store](https://apps.apple.com/us/app/field-service-dynamics-365/id1485579247)
 - Windows app: [Dynamics 365 Field Service in the Microsoft Store](https://apps.microsoft.com/detail/9PMX4FNSSF5P)
 
-System requirements for the Field Service mobile app are the same as for Power Apps mobile app. See [Supported platforms for running apps using the Power Apps mobile app](/power-apps/limits-and-config#supported-platforms-for-running-apps-using-the-power-apps-mobile-app).
+System requirements for the Field Service mobile app are the same as for the Power Apps mobile app. See [Supported platforms for running apps using the Power Apps mobile app](/power-apps/limits-and-config#supported-platforms-for-running-apps-using-the-power-apps-mobile-app).
 
 ## Supported mobile devices
 
