@@ -1,5 +1,5 @@
 ---
-title: "Customer agreements overview"
+title: Customer agreements overview
 description: Learn about customer agreements in Dynamics 365 Field Service
 ms.date: 08/19/2024
 ms.topic: how-to
