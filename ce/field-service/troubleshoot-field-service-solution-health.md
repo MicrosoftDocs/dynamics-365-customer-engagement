@@ -15,11 +15,11 @@ Solution Health Hub allows you to get a better picture of the state of your envi
 
 Here are a few common issues the Solution Health Hub detects:
 
-1. If critical Field Service processes are deactivated.
-2. If processes that cause an upgrade to fail are assigned to disabled users.
-3. If customized web resources lead to runtime issues.
+- If critical Field Service processes are deactivated.
+- If processes that cause an upgrade to fail are assigned to disabled users.
+- If customized web resources lead to runtime issues.
 
-In addition to running Solution Health Hub, check out [best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md) and [running Solution Checker to improve scripts, plugins, HTML, workflows, etc.](/powerapps/maker/data-platform/use-powerapps-checker)
+In addition to running Solution Health Hub, check out [best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md) and [running Solution Checker to improve scripts, plugins, HTML, and workflows](/powerapps/maker/data-platform/use-powerapps-checker)
 
 ## Prerequisites
 
@@ -110,7 +110,7 @@ Select the analysis result, review the agreement, and select **Resolve**.
 
 ### Notes and limitations
 
-- The rule validates for the agreements having end date in last 90 days.
+- The rule validates for agreements having an end date in last 90 days.
 - The rule considers the top 5,000 agreements with an active system status and end date in the past.
 - The rule validates only agreements having Agreement booking setups and Agreement booking dates.
 
@@ -131,7 +131,7 @@ This rule fails if any Field Service libraries are missing for a Field Service f
 
 ### How to fix
 
-Add the missing libraries to the form. You might get the list of required libraries by comparing to another form of the same entity or on other org. Reach out to support for assistance.
+Add the missing libraries to the form. You might get the list of required libraries by comparing to another form from the same table or on other organization. Reach out to support for assistance.
 
 ## Check if forms have unhealthy customizations
 
@@ -147,7 +147,7 @@ A lookup control is a field on the form that searches the records of another tab
 
 ### Why it fails
 
-This rule fails if the default tab (the first tab) of any work order form has more than either **4 subgrids controls** or **20 lookup controls**. The number of controls on the default tab of the form impacts load performance.
+This rule fails if the default tab (the first tab) of any work order form has more than either 4 subgrids controls or 20 lookup controls. The number of controls on the default tab of the form impacts load performance.
 
 ### How to fix
 
@@ -239,7 +239,7 @@ Severity: High
 
 ### What it checks
 
-This rule detects whether there are [customizations to any option set](field-service-customization-best-practices.md#dont-change-out-of-box-web-resources-option-sets-security-roles-or-workflows) in Field Service that shouldn't be customized. Customizing option sets can lead to unexpected behavior.
+This rule detects whether there are customizations to any option set in Field Service that shouldn't be customized. Customizing option sets can lead to unexpected behavior.
 
 ### Why it fails
 
@@ -543,11 +543,11 @@ This rule verifies if autonumbering is opted in for the organization. We recomme
 
 ### Why it fails
 
-This rule fails if autonumbering isn't opted-in for the organization.
+This rule fails if autonumbering isn't opted in for the organization.
 
 ### How to fix
 
-Opt into autonumbering in Field Service. In the **Settings** area, select **# Auto-Numbering**.
+Opt in to autonumbering in Field Service. In the **Settings** area, select **# Auto-Numbering**.
 
 ## Verify Field Service and Project Service Automation solutions are compatible
 
@@ -571,15 +571,15 @@ Severity: High
 
 ### What it checks
 
-This rule checks if frontline workers with access to the Field Service mobile app are assigned the **Field Service - Resource** role and the Field Service resource field security profile.
+This rule checks if frontline workers with access to the Field Service mobile app are assigned the **Field Service-Resource** role and the **Field Service-Resource** field security profile.
 
 ### Why it fails
 
-This rule fails if a frontline worker has access to the Field Service mobile app without the **Field Service - Resource** role or the Field Service resource field security profile. If there's more than one business unit in the organization, the business unit for the users displays.
+This rule fails if a frontline worker has access to the Field Service mobile app without the **Field Service-Resource** role or the **Field Service-Resource** field security profile. If there's more than one business unit in the organization, the business unit for the user appears.
 
 ### How to fix
 
-Add the **Field Service - Resource** security role and field security profile to the user. Learn more: [Set up frontline workers](/dynamics365/field-service/frontline-worker-set-up).
+Add the **Field Service-Resource** security role and the **Field Service-Resource** field security profile to the user. Learn more: [Set up frontline workers](/dynamics365/field-service/frontline-worker-set-up).
 
 ## Waiting workflow instances owned by disabled users
 
