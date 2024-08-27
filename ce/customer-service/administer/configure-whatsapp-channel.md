@@ -31,7 +31,6 @@ You can use the WhatsApp channel feature to engage with customers who prefer to 
 
     [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
-    [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
    - Have an Azure account with an active subscription.  Please make sure Azure subscription that's in the same tenant as your Dynamics 365 account. Learn more at [Create an account for free](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account).
    - Create or use an existing Azure Communication Services resource. Learn more at [Create and manage Communication Services resources](/azure/communication-services/quickstarts/create-communication-resource).
