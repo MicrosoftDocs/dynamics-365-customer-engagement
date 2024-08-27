@@ -52,6 +52,7 @@
     ],
     "resource": [
       {
+        "group": "ce-all",
         "files": [
           "**/*.png",
           "**/*.jpg",
