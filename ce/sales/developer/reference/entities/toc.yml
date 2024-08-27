@@ -1,36 +1,90 @@
 items:
 - name: "About Microsoft Dynamics 365 Sales Table/Entity Reference"
   href: ../about-entity-reference.md
-- name: "Chatbot content pack (botcontentpack)"
-  displayName: "botcontentpack entity"
-  href: botcontentpack.md
-- name: "Data Map (ImportMap)"
+- name: "AIPlugin"
+  displayName: "AIPlugin entity"
+  href: aiplugin.md
+- name: "Autonomous case creation and update rules"
+  displayName: "msdyn_autonomouscasecreationrule entity"
+  href: msdyn_autonomouscasecreationrule.md
+- name: "Case"
+  displayName: "Incident entity"
+  href: incident.md
+- name: "Connection"
+  displayName: "Connection entity"
+  href: connection.md
+- name: "Contract"
+  displayName: "Contract entity"
+  href: contract.md
+- name: "Contract Line"
+  displayName: "ContractDetail entity"
+  href: contractdetail.md
+- name: "Copilot"
+  displayName: "bot entity"
+  href: bot.md
+- name: "Custom API Request Parameter"
+  displayName: "CustomAPIRequestParameter entity"
+  href: customapirequestparameter.md
+- name: "Custom API Response Property"
+  displayName: "CustomAPIResponseProperty entity"
+  href: customapiresponseproperty.md
+- name: "Data Map"
   displayName: "ImportMap entity"
   href: importmap.md
-- name: "Duplicate Detection Rule (DuplicateRule)"
+- name: "Duplicate Detection Rule"
   displayName: "DuplicateRule entity"
   href: duplicaterule.md
-- name: "File Upload (msdyn_FileUpload)"
-  displayName: "msdyn_FileUpload entity"
-  href: msdyn_fileupload.md
-- name: "Playbook activity (msdyn_playbookactivity)"
+- name: "Entitlement"
+  displayName: "Entitlement entity"
+  href: entitlement.md
+- name: "Entitlement Channel"
+  displayName: "EntitlementChannel entity"
+  href: entitlementchannel.md
+- name: "Entitlement Template"
+  displayName: "EntitlementTemplate entity"
+  href: entitlementtemplate.md
+- name: "Entitlement Template Channel"
+  displayName: "EntitlementTemplateChannel entity"
+  href: entitlementtemplatechannel.md
+- name: "Facility/Equipment"
+  displayName: "Equipment entity"
+  href: equipment.md
+- name: "Knowledge Article Incident"
+  displayName: "KnowledgeArticleIncident entity"
+  href: knowledgearticleincident.md
+- name: "Organization"
+  displayName: "Organization entity"
+  href: organization.md
+- name: "Phone To Case Process"
+  displayName: "PhoneToCaseProcess entity"
+  href: phonetocaseprocess.md
+- name: "Playbook activity"
   displayName: "msdyn_playbookactivity entity"
   href: msdyn_playbookactivity.md
-- name: "Playbook Callable Context (msdyn_callablecontext)"
+- name: "Playbook Callable Context"
   displayName: "msdyn_callablecontext entity"
   href: msdyn_callablecontext.md
-- name: "Recurring Sales Action V2 (msdyn_recurringsalesactionv2)"
-  displayName: "msdyn_recurringsalesactionv2 entity"
-  href: msdyn_recurringsalesactionv2.md
-- name: "Similarity Rule (SimilarityRule)"
+- name: "Process"
+  displayName: "Workflow entity"
+  href: workflow.md
+- name: "Queue Item"
+  displayName: "QueueItem entity"
+  href: queueitem.md
+- name: "Sales routing run"
+  displayName: "msdyn_salesroutingrun entity"
+  href: msdyn_salesroutingrun.md
+- name: "Service Activity"
+  displayName: "ServiceAppointment entity"
+  href: serviceappointment.md
+- name: "Similarity Rule"
   displayName: "SimilarityRule entity"
   href: similarityrule.md
 - name: "SLA"
   displayName: "SLA entity"
   href: sla.md
+- name: "Solution Component Attribute Configuration"
+  displayName: "solutioncomponentattributeconfiguration entity"
+  href: solutioncomponentattributeconfiguration.md
 - name: "Territory"
   displayName: "Territory entity"
   href: territory.md
-- name: "Virtual Connector Data Source (msdyn_connectordatasource)"
-  displayName: "msdyn_connectordatasource entity"
-  href: msdyn_connectordatasource.md
