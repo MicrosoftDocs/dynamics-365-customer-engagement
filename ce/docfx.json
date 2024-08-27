@@ -2,6 +2,25 @@
   "build": {
     "content": [
       {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/shared/**",
+          "customerengagement/on-premises/**",
+          "unified-service-desk/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
         "group": "op-all",
         "files": [
           "customerengagement/on-premises/**/*.md",
@@ -28,28 +47,30 @@
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]
-      },
+      }
+    ],
+    "resource": [
       {
         "files": [
-          "**/*.md",
-          "**/*.yml"
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg",
+          "**/*.html",
+          "**/*.htm",
+          "**/*.txt",
+          "**/*.ico"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "**/shared/**",
-          "customerengagement/on-premises/**",
           "unified-service-desk/**",
+          "customerengagement/on-premises/**",
           "**/_themes/**",
-          "**/_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "**/_themes.pdf/**"
         ]
-      }
-    ],
-    "resource": [
+      },
       {
         "group": "op-all",
         "files": [
@@ -84,27 +105,6 @@
           "**/obj/**",
           "**/includes/**",
           "**/shared/**",
-          "**/_themes/**",
-          "**/_themes.pdf/**"
-        ]
-      },
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.gif",
-          "**/*.svg",
-          "**/*.html",
-          "**/*.htm",
-          "**/*.txt",
-          "**/*.ico"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "**/shared/**",
-          "unified-service-desk/**",
-          "customerengagement/on-premises/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]
