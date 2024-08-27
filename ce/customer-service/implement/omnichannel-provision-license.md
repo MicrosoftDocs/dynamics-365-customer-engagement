@@ -12,6 +12,7 @@ ms.collection:
 
 # Provision Omnichannel for Customer Service
 
+
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
@@ -51,6 +52,9 @@ You can provision the following channels in Omnichannel for Customer Service:
   - Read-Write access in the Client Access License Information (CAL). More information: [Create a Read-Write user account in Power Platform](/power-platform/admin/create-users#create-a-read-write-user-account)
 
 ## Set up Omnichannel for Customer Service<a name="set-up-omnichannel"> </a>
+
+> [!NOTE]
+> You can use the Power Platform admin center to provision Omnichannel for Customer Service till the new experience is available in your geographic location. Once the new experience is available, you can set up channels in the Customer Service admin center or Contact Center admin center application. In the Power Platform admin center application, you can only view existing environments and channels; you can't enable, edit, or delete channels.
 
 1. In [Power Platform admin center](https://admin.powerplatform.microsoft.com/), on the **Environments** page, select the environment in which you want to set up Omnichannel for Customer Service.
 
