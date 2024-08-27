@@ -2,6 +2,7 @@
   "build": {
     "content": [
       {
+        "group": "ce-all",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -51,6 +52,7 @@
     ],
     "resource": [
       {
+        "group": "ce-all",
         "files": [
           "**/*.png",
           "**/*.jpg",
