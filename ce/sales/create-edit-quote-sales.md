@@ -1,7 +1,7 @@
 ---
 title: Create or edit quotes in Dynamics 365 Sales
 description: Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it.
-ms.date: 08/26/2024
+ms.date: 08/27/2024
 ms.topic: how-to
 ms.custom: bap-template
 author: lavanyakr01
@@ -120,7 +120,7 @@ The price calculation for a quote depends on the product catalog, line items, pr
   
 ## Export to PDF
 
-When you've added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a PDF file](create-quote-pdf.md#export-to-pdf)
+When you've added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email as PDF](create-quote-pdf.md#export-to-pdf)
 
 ## Typical next steps
 
