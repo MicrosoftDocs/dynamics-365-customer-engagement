@@ -20,9 +20,6 @@ Customer Service provides a modern, customizable, and high-productivity app that
 
 You can check if the omnichannel capability is available in your region. Learn more in [International availability](../implement/international-availability.md).
 
-> [!NOTE]
-> If you don't see the provisioning option in the admin center, it's not yet available in your region. You can [provision the channels](omnichannel-provision-license.md) in Power Platform admin center.
-
 
 You can provision the following channels in Customer Service admin center or Contact Center admin center:
 
@@ -53,7 +50,9 @@ You can provision the following channels in Customer Service admin center or Con
 ## Set up channels<a name="set-up-omnichannel"> </a>
 
 > [!NOTE]
-> You can set up channels in the Customer Service admin center or Contact Center admin center application. In the Power Platform admin center application, you can only view existing environments and channels; you can't enable, edit, or delete channels.
+>  You can set up channels in the Customer Service admin center or Contact Center admin center application. In the Power Platform admin center application, you can only view existing environments and channels; you can't enable, edit, or delete channels.
+> - If you don't see the provisioning option in the admin center, it's not yet available in your region. You can [provision the channels](omnichannel-provision-license.md) in Power Platform admin center.
+
   
 To set up the channels, perform the following steps:
 
