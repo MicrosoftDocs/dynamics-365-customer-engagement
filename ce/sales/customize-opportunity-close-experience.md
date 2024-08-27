@@ -41,6 +41,7 @@ Customize the opportunity close form so that sellers can capture details about t
 The solution explorer page is where you can create and manage customizations.
 
 1. In the Sales Hub app, select the **Settings** icon, and then select **Advanced Settings**.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option in Sales Hub.":::
 
@@ -102,3 +103,4 @@ After you're done with the customizations, select **Publish All Customizations**
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

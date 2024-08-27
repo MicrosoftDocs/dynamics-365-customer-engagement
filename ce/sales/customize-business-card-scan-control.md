@@ -34,6 +34,7 @@ Dynamics 365 Sales comes with an out-of-the-box business card control that defin
 To customize the mappings:
 
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
     > [!div class="mx-imgBorder"]
     > ![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
@@ -77,3 +78,4 @@ To customize the mappings:
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

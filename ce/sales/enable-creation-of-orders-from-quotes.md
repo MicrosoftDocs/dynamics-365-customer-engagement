@@ -49,3 +49,4 @@ Quotes have important data about the customers and the products they're interest
 [Create an order from a quote](create-edit-order-sales.md#create-an-order-from-a-quote)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

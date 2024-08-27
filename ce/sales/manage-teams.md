@@ -27,9 +27,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 # [Sales Premium or Sales Enterprise](#tab/sales)
 
-1. From the Sales Hub app, select the **Settings** icon :::image type="content" source="media/settings-icon.png" alt-text="Settings icon":::, and then **Advanced settings**. 
-
-2. Follow the instructions in [Microsoft Dataverse teams management](/power-platform/admin/manage-teams) to create and manage teams.
+Follow the instructions in [Microsoft Dataverse teams management](/power-platform/admin/manage-teams) to create and manage teams.
 
 # [Sales Professional](#tab/salespro)
 
@@ -72,6 +70,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 When a team is assigned a role, the team members are assigned the set of privileges associated with that role.
 
 1.  Select the **Settings** icon :::image type="content" source="media/settings-icon.png" alt-text="Settings icon":::, and then select **Advanced settings**.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. Select **Settings** > **Security** > **Teams**.
 
@@ -90,3 +89,4 @@ When a team is assigned a role, the team members are assigned the set of privile
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

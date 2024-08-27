@@ -37,6 +37,7 @@ You can enable or disable this option from the **App Settings** page in Sales Hu
 **To enable or disable from the System Settings page**
 
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
     > [!div class="mx-imgBorder"]
     > ![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
@@ -61,3 +62,4 @@ You can enable or disable this option from the **App Settings** page in Sales Hu
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -75,6 +75,7 @@ The **Get Started** page makes it easy to set up what's most important. One sele
 ### Advanced settings
 
 **Advanced settings** allow you to customize the app to meet your organization's requirements. They include settings for branding and theming, teams, Excel and Word templates, the quote to invoice process, and data export.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 ### Customization
 
@@ -94,3 +95,4 @@ If the Sales app doesn't exactly fit your business requirements, use the drag-an
 - [Allow PDF generation from sales records](enable-pdf-generation-quote.md)
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]
+

@@ -63,3 +63,4 @@ When you activate a quote or invoice, a word document for the quote or invoice i
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

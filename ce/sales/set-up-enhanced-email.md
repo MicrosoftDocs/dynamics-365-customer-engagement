@@ -49,6 +49,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 If you're using a custom app or Sales Professional app, you can enable or disable the enhanced experience from **System Settings** in Power Platform.
 
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
     > [!div class="mx-imgBorder"]
     > ![Advanced settings.](media/advanced-settings-option.png "Advanced settings")
@@ -86,3 +87,4 @@ The following considerations apply to the enhanced email experience:
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

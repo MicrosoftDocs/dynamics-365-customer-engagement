@@ -88,6 +88,7 @@ Follow these steps:
 
 1. In the Sales Hub app, select the Settings icon in the top-right
    corner, and select **Advanced Settings**.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. Select **Settings** in the Business Management interface, and
    go to **Security** under **System**.
@@ -101,3 +102,4 @@ Follow these steps:
 ## Related information   
 
 [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
+

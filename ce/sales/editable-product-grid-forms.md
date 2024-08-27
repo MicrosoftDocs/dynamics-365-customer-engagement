@@ -32,6 +32,7 @@ If you’re upgrading to the latest version and you’ve made customizations to 
 To enable the editable products grid on the Opportunity, Quote, Order, or Invoice form:
 
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**. 
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
     > [!div class="mx-imgBorder"]  
     > ![Advanced Settings link in the site map.](media/advanced-settings-option.png "Advanced Settings link in the site map")
@@ -72,3 +73,4 @@ To enable the editable products grid on the Opportunity, Quote, Order, or Invoic
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

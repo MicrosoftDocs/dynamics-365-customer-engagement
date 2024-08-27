@@ -34,6 +34,7 @@ Administrators and sales managers can now migrate sequences along with their dep
 Let’s create a sequence solution with an example.
 
 1.	Sign in to the Sales Hub app and go to **Settings** > **Advanced Settings**.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. On the **Advanced settings** page, go to **Setting** > **Customization** > **Solutions**.   
 
@@ -127,6 +128,7 @@ Now, the solution is ready for import.
 ## Import the solution
 
 1.	Sign in to the Sales Hub app and go to **Settings** > **Advanced Settings**.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. On the **Advanced settings** page, go to **Setting** > **Customization** > **Solutions** and select **Import**.   
 
@@ -163,3 +165,4 @@ Now, the solution is ready for import.
 [Create and activate a sequence](create-and-activate-a-sequence.md)
 
 [Manage sequences](create-manage-sequences.md)
+

@@ -35,10 +35,11 @@ Bing Maps is enabled by default in new environments that are located outside the
 > By connecting to a mapping service, you consent to allow the system&mdash;including systems in Government Cloud environments&mdash;to share your data. "Mapping service" refers to Bing Maps or any other third-party mapping service that's designated by you or your operating system. Data that's shared with external systems outside of your Microsoft Dynamics 365 environment includes, but is not limited to, addresses and coordinates. Your use of the mapping service is also subject to the service's separate terms of use. Data imported from external systems into Microsoft Dynamics 365 are subject to the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement).
 
 1. In the Sales Hub app, select **Settings** (the gear icon in the upper-right corner of the window) > **Advanced Settings**.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
-1. Select **Administration** > **System Settings**.
+1. Select **Administration** > **System Settings** > **General**.
 
-1. In the **General** tab, under **Enable Bing Maps**, select **Yes**.
+1. Under **Enable Bing Maps**, select **Yes**.
 
 1. Save the changes.
 
@@ -54,3 +55,4 @@ To verify the changes, open a contact, lead, or account form. You should see a n
 
 > [!NOTE]
 > If your organization is using Dynamics 365 Field Service and has [enabled address suggestions](/dynamics365/field-service/field-service-maps-address-locations#enable-address-suggestions), then the address suggestions for the main contact and account forms are controlled by the Field Service settings.
+

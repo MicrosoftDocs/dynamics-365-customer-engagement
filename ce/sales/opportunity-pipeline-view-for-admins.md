@@ -33,6 +33,7 @@ Watch this short video to know how the opportunity pipeline view helps sellers b
 The **Read-only Grid view** is the default view for opportunities. You can set the **Opportunities pipeline view** as the default instead, so sellers don't have to switch to it each time they access their opportunities list.
 
 1. In the Sales Hub navigation panel, select **Settings** > **Advanced Settings**.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 1. In the **Settings** menu, select **Customizations** > **Customize the system**.
 1. From the Power Apps Default Solution page, select **Entities** > **Opportunity**.
 1. Select the **Controls** tab, and then select **Pipeline view** for web, phone, and tablet. If you don't see **Pipeline view** in the **Control** list, select **Add Control**, then select **Pipeline view**, and then select **Add**.  
@@ -162,3 +163,4 @@ The grid in the opportunity pipeline view is an instance of the Power Apps edita
 [Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)  
 [Column-level security to control access](/power-platform/admin/field-level-security)  
 [Events in forms and grids in model-driven apps](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids)
+

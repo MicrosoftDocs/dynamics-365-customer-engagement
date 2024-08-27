@@ -15,6 +15,7 @@ Add the text messaging to phone number fields in custom forms, allowing sellers 
 ## Add text message option
 
 1. Sign in to your sales app and go to **Advanced Settings** > **Settings** > **Customizations** > **Customize the System**.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. Under **Components** > **Entities**, choose an entity and then select **Forms**.
 
@@ -40,3 +41,4 @@ Add the text messaging to phone number fields in custom forms, allowing sellers 
 
 [Engage with customers through text messages](sms-intro.md)  
 [Configure SMS provider](configure-sms-provider.md)   
+

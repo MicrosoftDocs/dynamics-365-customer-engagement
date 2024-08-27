@@ -39,6 +39,7 @@ Kanban views help salespeople to manage their opportunities and activities effec
 To add the control:
 
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
     :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of Advanced Settings link in the site map.":::
 

@@ -39,6 +39,7 @@ Also, make sure that you're added to the target environment and the Sales Profes
 This is by design. The What's new functionality is only available in the legacy web client. The equivalent in Unified Interface is to insert the Timeline control (with posts enabled) on the dashboard:
 
 1. In your app, select **Settings** ![Settings.](media/settings-icon.png), and then select **Advanced Settings**.
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
     The **Business Management** page opens in a new browser tab.
 
@@ -55,3 +56,4 @@ This is by design. The What's new functionality is only available in the legacy 
 1. Update the **Timeline Control Properties** as required, and then select **OK**.
 
 1. Save the dashboard, and then publish the customization.
+

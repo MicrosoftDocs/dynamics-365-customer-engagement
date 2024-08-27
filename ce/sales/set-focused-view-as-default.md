@@ -51,6 +51,7 @@ To configure focused view as default, follow these steps:
 To configure and enable focused view as default for custom and other entities, follow these steps:
 
 1. In the app, select the **Settings** icon, and then select **Advanced Settings**.  
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 1. On the navigation bar, select **Settings** > **Customization** > **Customizations** > **Customize the System**.  
 1. In the solution explorer, under **Components**, expand Entities, and then select an entity. For example, Invoice.  
 1. On the **Controls** tab, select **Add Control**.  
@@ -81,3 +82,4 @@ Records will now automatically refresh at the specified time interval.
 
 [View and manage records in focused view](focused-view.md)  
 [Focused view FAQs](faq-focused-view.md)
+

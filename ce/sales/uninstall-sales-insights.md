@@ -23,6 +23,7 @@ You can uninstall the Sales Insights Add-ons for Dynamics 365 Sales if you don't
   
 1.	As an administrator, sign in to your sales app.
 2.	Go to **Advanced settings**, and then select **Settings** > **Customization** > **Solutions**.  
+ For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 3.	On the **Solutions** page, select each of the following solutions one at a time in the order they're specified, and then select **Delete**.  
     - SalesInsightsAddOn
     - msdynce_RelationshipAssistantAddOn
@@ -42,3 +43,4 @@ After you uninstall Sales Insights, Dynamics 365 won't keep any Sales Insights d
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

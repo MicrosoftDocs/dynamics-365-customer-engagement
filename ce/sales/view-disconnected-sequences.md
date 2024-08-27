@@ -28,8 +28,6 @@ As an administrator, you can create a saved query to view the latest sequences t
 
 2.	(Optional) Create a new view for each entity that you want to include in the sequence view. The entity must be enabled for the sales accelerator on the **Workspace** setup page. For more information, go to [Manage access and record type](manage-access-record-type-sales-accelerator.md).  
 
-3.	In the web app, go to **Settings** (![Settings.](media/gear-icon.png "Settings")) > **Advanced Settings**, and then go to **Settings** > **Customizations** > **Solutions**.   
-
 4.	Create a solution with the name **SequenceViewSolution**. For more information, go to [Create a solution](/powerapps/maker/canvas-apps/add-app-solution?context=/dynamics365/context/sales-context).  
 
 5.	Select **Entities** > **Add Existing** > **Entity**, and then find and add the entities for which you created views (as described in step 2).   
@@ -93,3 +91,4 @@ As an administrator, you can create a saved query to view the latest sequences t
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
