@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot issues with Solution Health Hub
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub.
-ms.date: 08/22/2024
+ms.date: 08/27/2024
 ms.topic: how-to
 ms.reviewer: mhart
 author: jshotts
@@ -174,7 +174,7 @@ This rule fails if the required level of a system-required field in the out-of-b
 1. Under **Schema**, select **Columns**. Find and select the field listed in the analysis.
 1. In the **Edit column** pane, changed **Required** to 'Business Required' and save.
 
-> [!Note] 
+> [!Note]
 > This rule is implemented for the out-of-the-box required field on the Work Order and Agreement forms only.
 
 ### Checks For Revision mismatch on Agreement Booking Dates with Agreement Booking Setups
@@ -240,9 +240,6 @@ Severity: High
 ### What it checks
 
 This rule detects whether there are [customizations to any option set](field-service-customization-best-practices.md#dont-change-out-of-box-web-resources-option-sets-security-roles-or-workflows) in Field Service that shouldn't be customized. Customizing option sets can lead to unexpected behavior.
-
-> [!Note]
-> This is currently known to show a failure on `msdyn_billingtype` even when it was not customized, and happens when the Project Service Automation solution is also installed. This rule was updated to address this known failure.
 
 ### Why it fails
 
@@ -310,7 +307,7 @@ This rule checks for any deleted SDK message processing steps.
 
 ### Why it fails
 
-This rule fails if any of the shipped Field Service SDK message processing steps are deleted.
+This rule fails if any of the out-of-the-box Field Service SDK message processing steps are deleted.
 
 ### How to fix
 
@@ -326,7 +323,7 @@ This rule checks for any deleted web resources.
 
 ### Why it fails
 
-This rule fails if any of the shipped Field Service web resources were deleted from the system.
+This rule fails if any of the out-of-the-box Field Service web resources were deleted from the system.
 
 ### How to fix
 
@@ -364,7 +361,6 @@ This rule fails if the Field Service booking setup metadata record doesn't exist
 
 Contact support.
 
-<!--- This doesn't show up on my env.
 ## Field Service Settings
 
 Severity: High
@@ -380,7 +376,7 @@ This rule fails if the Field Service settings record doesn't exist or isn't conf
 ### How to fix
 
 The system recreates this record if it doesn't exist during normal usage of Field Service. If the record isn't automatically regenerated, contact support.
---->
+
 ## Forms missing execution context
 
 Severity: High
@@ -421,23 +417,21 @@ This rule fails if a Field Service upgrade was started but not successfully comp
 
 Restart the Field Service upgrade. Once the upgrade succeeds, this rule returns a pass. If the upgrade fails again, contact support.
 
-<!--- This doesn't show up on my env.
 ## Latitude and Longitude values on account record
 
 Severity: Low
 
 ### What it checks
 
-Checks whether latitude and/or longitude values are there on an account record or not.
+This rule checks if any latitude or longitude values are on an account record.
 
 ### Why it fails
 
-Latitude, longitude, or both aren't present on an account record.  
+This rule fails if latitude, longitude, or both aren't present on an account record.  
 
 ### How to fix
 
 Check if the address on the account form is provided. If so, then geocode the account by selecting the geocode button on the command bar of the account form.
---->
 
 ## Privilege check for Agreement Booking Setup owners
 
@@ -487,9 +481,6 @@ This rule checks if any process definitions are in draft status. If there are pr
 
 This rule fails if any process definition is in a draft status.
 
-> [!Note]
-> Field Service modern flows can cause failures. This rule was updated to validate based on enhanced background processing setting in UR 24; in versions prior to UR 24, it might incorrectly fail on business process flow (BPF) type records.
-
 ### How to fix
 
 Reactivate the process definitions so they aren't in draft status.
@@ -506,31 +497,25 @@ This rule checks if any process definitions are assigned to users that are disab
 
 This rule fails if any process definitions are assigned to disabled users, which can cause upgrades to fail.
 
-> [!Note]
-> Validates based on the enhanced background processing setting in UR 24.
-
 ### How to fix
 
 Change the owner of the process to an active user.
 
-<!--- This doesn't show up on my env.
 ## Recurrence on Agreement Booking Setup
 
 Severity: High
 
 ### What it checks
 
-If recurrence setting is configured or not on an agreement booking setup and, if so, it checks if it's a valid recurrence setting value.
+This rule checks if the recurrence setting is configured on an agreement booking setup and if it's a valid recurrence setting value.
 
 ### Why it fails
 
-If an agreement has System Status as Active and its Agreement booking setup record has Auto Generate WO set to Yes, but recurrence setting isn't configured.
-If an agreement has System Status as Active and its Agreement booking setup record has Auto Generate WO set to Yes, but recurrence configured on it isn't valid.
+This rule fails if an agreement has **System Status** as 'Active' and its Agreement booking setup record has **Auto Generate Work Order** set to 'Yes', but the recurrence setting isn't configured or isn't configured correctly.
 
 ### How to fix
 
 Configure a valid recurrence on Agreement Booking Setup and select **Agreement** > **Agreement Booking Setup** > **Booking Recurrence**.
---->
 
 ## Universal Resource Scheduling version compatibility check
 
@@ -543,9 +528,6 @@ This rule verifies that the current installed version of Field Service is compat
 ### Why it fails
 
 This rule fails if the Universal Resource Scheduling solution installed in the organization isn't compatible with the installed version of Field Service. It can happen if another package that contains the Universal Resource Scheduling solution is installed that updates the version of the Universal Resource Scheduling solution.
-
-> [!Note]
-> The status for this rule was changed to "Warning" instead of "Fail" to align with the low severity for this rule in UR 23 release.
 
 ### How to fix
 
