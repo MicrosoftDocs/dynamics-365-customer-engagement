@@ -1,5 +1,5 @@
 ---
-title: "Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs"
+title: Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs
 description: Learn how to set up customer agreements in Dynamics 365 Field Service
 ms.date: 08/20/2024
 ms.topic: how-to
