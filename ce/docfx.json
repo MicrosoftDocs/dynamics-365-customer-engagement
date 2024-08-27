@@ -2,6 +2,7 @@
   "build": {
     "content": [
       {
+        "group": "ce-all",
         "files": [
           "**/*.md",
           "**/*.yml"
