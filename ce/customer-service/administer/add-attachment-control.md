@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
-ms.date: 10/31/2023 
+ms.date: 08/27/2024 
 ms.custom: bap-template 
 ---
 
@@ -24,7 +24,7 @@ If you've enabled the enhanced full case form or added the **Attachment Control*
     
    :::image type="content" source="../media/enh-case-attach-mini.png" alt-text="Enhanced quick case form create" lightbox="../media/enh-case-attach.png":::
 
-- After agents save a new case or if they open an existing case, the attachments grid is displayed. For more information on the actions agents can perform, see: [View an existing case using enhanced Full case form](../use/enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form).
+- After agents save a new case or if they open an existing case, the attachments grid is displayed. Learn more about the actions agents can perform at [View an existing case using enhanced Full case form](../use/enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form).
 
    :::image type="content" source="../media/case-enh-save-mini.png" alt-text="Enhanced quick case form edit" lightbox="../media/case-enh-save.png":::
 
@@ -61,3 +61,10 @@ On the required form, add the **Attachment Control** component.  More informatio
 
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)   
 [Get started with Customer Service workspace](../implement/csw-overview.md) 
+
+
+The active layer on the managed record can prevent future configuration updates brought in from source environment from being applied onto the target environment.
+
+The active layer on the managed record can block future configuration updates from the source environment from being applied to the target environment.
+
+The active layer on the managed record can prevent future configuration updates from the source environment being applied to the target environment.
