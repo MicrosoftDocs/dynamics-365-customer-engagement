@@ -94,6 +94,8 @@
         href: availability-customer-service-hub.md
       - name: Move from Customer Service Enterprise to Professional
         href: move-cs-enterprise-cs-professional.md
+      - name: Provision channels
+        href: omnichannel-provision-channels.md  
       - name: Install Omnichannel for Customer Service
         items:
         - name: Provision Omnichannel for Customer Service
@@ -108,8 +110,6 @@
           href: remove-omnichannel.md
         - name: Uninstall solutions
           href: delete-solution.md
-      - name: Provision channels
-        href: omnichannel-provision-channels.md
       - name: Upgrade Omnichannel for Customer Service
         href: upgrade-omnichannel.md
       - name: Try channels in Omnichannel for Customer Service
