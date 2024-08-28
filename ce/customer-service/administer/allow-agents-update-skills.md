@@ -34,7 +34,7 @@ To ensure that the skill control is loaded and displayed properly for the routed
 
 By enabling your agents to evaluate and update skills required for their work items, you make use of your agents' experience to identify the actual skills that are required for the work items. These skills are also used in training the skill finder model. Accurate data on skills improves the model accuracy and prediction. More information: [Retrain skill finder model](set-up-isf-model.md#retrain-the-model-iteratively)
 
-### See also
+### Related information
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Set up skills and assign agents](setup-skills-assign-agents.md)  

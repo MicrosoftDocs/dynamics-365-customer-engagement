@@ -799,6 +799,6 @@ Use the following steps to migrate intake rules and record workstreams from the 
 [Verify migration of records](migrate-config-data-verify.md)  
 
 
-### See also
+### Related information
 
 [Migrate configurations for channels using solutions](migrate-channel-config-using-solutions.md)  

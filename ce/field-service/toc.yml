@@ -139,6 +139,8 @@ items:
 
 - name: Inspections
   items:
+    - name: Inspections overview
+      href: inspections-overview.md
     - name: Create and view inspections
       href: inspections.md
     - name: Advanced inspection options
@@ -378,7 +380,9 @@ items:
 
 - name: Agreements and preventive maintenance
   items:
-    - name: Agreements
+    - name: Agreements overview
+      href: agreements-overview.md
+    - name: Set up agreements
       href: set-up-customer-agreements.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md

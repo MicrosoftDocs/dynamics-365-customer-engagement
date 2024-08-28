@@ -49,7 +49,7 @@ customEvaluation["Recalculate"] = 1;
 OrganizationResponse customEvaluationResponse = service.Execute(customEvaluation);
 
 ```
-### See also
+### Related information
 
 [Define service-level agreements](define-service-level-agreements.md)  
 [Apply SLAs](apply-slas.md#apply-slas)

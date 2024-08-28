@@ -1,7 +1,7 @@
 ---
 title: "msdyn_ForecastApi custom action (Developer Guide for Dynamics 365 Sales)| MicrosoftDocs"
 description: "Read how you can use msdyn_ForecastApi custom action to retrieve and update forecasting data"
-ms.date: 06/14/2024
+ms.date: 08/23/2024
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
@@ -396,6 +396,56 @@ content-type: application/json
 #### Return value
 
 A list of `UpdateSimpleColumnByEntityResponse` records consisting of `ForecastInstanceId`, `ForecastConfigurationColumnId`, `Message`, `StatusCode`.
+
+### GET_ParticipatingRecordsFetchxml
+
+Returns the fetch XML to retrieve the underlying records in a forecast.
+
+#### Example
+
+```http
+
+POST /api/GET_ParticipatingRecordsFetchxml HTTP/1.1
+Host: your-api-endpoint.com
+Content-Type: application/json
+
+{
+    "ForecastConfigurationId": "a01f86da-1b45-ef11-bfe2-6045bd066f80",
+    "ForecastPeriodId": "a51f86da-1b45-ef11-bfe2-6045bd066f80",
+    "HierarchyRecordId": "697adf08-df43-ef11-bfe2-6045bd07ea28",
+    "ForecastInstanceId": "69169046-520b-4040-abfa-2981a2f0aee3",
+    "ForecastConfigurationColumnId": "f06490f5-6c27-453c-b06c-0194819202a4",
+    "RecordViewId": "bf649add-6c30-ea11-a813-000d3a5475f7",
+    "IsRolledUpNodeRequested": "true"
+}
+
+```
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+|ForecastConfigurationId | GUID  | Forecast configuration ID |
+| ForecastPeriodId       | GUID  | Forecast Period ID |
+| HierarchyRecordId      | GUID  | The record ID for which the underlying record should be retrieved. Example, Kenny Smith.|
+| ForecastInstanceId     | GUID  | Forecast instance ID |
+| ForecastConfigurationColumnId | GUID  | ID of the forecast column that needs to be retrieved. Forecast columns can be best case, pipeline, won, lost, and so on. Only one column ID can be specified per request. To retrieve more columns, send a request for each column.|
+| RecordViewId           | GUID  | Record view ID of the underlying records. Learn more about getting the view ID in [savedquery EntityType](/power-apps/developer/data-platform/webapi/reference/savedquery)  |
+| IsRolledUpNodeRequested| Boolean | Specifies whether to return the values for the rolled up node (group) or individual node. If set to true, all the records under the group node is returned. If set to false, just the individual's record is returned. |
+
+#### Response
+
+```json
+{
+
+    "@odata.context": "https://orgname.dynamics.com/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.msdyn_ForecastApiResponse",
+
+    "response": "<fetch version=\"1.0\" mapping=\"logical\" distinct=\"true\"><entity name=\"opportunity\"><filter type=\"and\"><condition attribute=\"estimatedclosedate\" operator=\"between\"><value>2024-07-01T00:00:00.0000000Z</value><value>2024-09-30T23:59:59.0000000Z</value></condition><condition attribute=\"msdyn_forecastcategory\" operator=\"eq\" value=\"100000001\" /></filter><link-entity name=\"systemuser\" from=\"systemuserid\" to=\"ownerid\" link-type=\"inner\"><attribute name=\"systemuserid\" /><filter type=\"and\"><condition attribute=\"systemuserid\" operator=\"eq-or-under\" value=\"697adf08-df43-ef11-bfe2-6045bd07ea28\" /></filter></link-entity><attribute name=\"name\" /><attribute name=\"statuscode\" /><attribute name=\"statecode\" /><attribute name=\"customerid\" /><attribute name=\"ownerid\" /><attribute name=\"msdyn_forecastcategory\" /><attribute name=\"estimatedvalue\" /><attribute name=\"estimatedclosedate\" /><attribute name=\"actualvalue\" /><attribute name=\"actualclosedate\" /><attribute name=\"opportunityid\" /><order attribute=\"name\" descending=\"false\" /></entity></fetch>"
+
+}
+```
+
+#### Return value
+
+A fetchxml query that returns the underlying records in a forecast.
 
 ## Related information
 

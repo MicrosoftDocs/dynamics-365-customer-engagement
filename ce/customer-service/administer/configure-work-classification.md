@@ -145,7 +145,7 @@ After you create the rules, you can change the order in which the rules should b
 
 :::image type="content" source="../media/work-classification-rules-list.png" alt-text=" Work classification rules list":::
 
-### See also
+### Related information
 
 [Create a workstream for unified routing](create-workstreams.md)  
 [Set up record routing](set-up-record-routing.md)  

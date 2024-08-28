@@ -67,7 +67,7 @@ For example, for incoming calls, the conversation gets accepted only on one brow
 > - When you accept a voice conversation, from different tabs or windows, your capacity may be impacted. To join a voice conversation in a new browser, you must close the session in the current browser and open it on a new browser.
 
 
-### See also
+### Related information
 
 [Create a record](oc-create-record.md)  
 [Introduction to the agent interface](oc-introduction-agent-interface.md)  

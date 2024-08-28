@@ -50,7 +50,7 @@ The **Favorites and Recently Used** sections provide quick access to your record
 
 For more information on how to use the Dynamics 365 Customer Service mobile app, see [Basic navigation on Dynamics 365 for phones and tablets](../../mobile-app/user-guide-mobile-app.md).
 
-### See also  
+### Related information  
  [Customer Service Hub user's guide](user-guide-customer-service-hub.md)
 
 

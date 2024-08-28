@@ -38,7 +38,7 @@ If you no longer want to receive messages on a Facebook page that you've configu
 1. From the **Workstreams** page, delete the required channel.
 1. Go to the **Accounts and channels** page, select and delete the required channel.
 
-### See also
+### Related information
 
 [Use channels](../use/channels.md)  
 [Delete solutions](../implement/delete-solution.md)  

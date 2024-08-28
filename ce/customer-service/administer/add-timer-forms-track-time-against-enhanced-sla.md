@@ -166,7 +166,7 @@ To add a timer to track time against enhanced SLAs:
   
     You must save and publish the Main form before the quick view control changes will be visible.  
   
-### See also  
+### Related information  
  [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md)   
 
 

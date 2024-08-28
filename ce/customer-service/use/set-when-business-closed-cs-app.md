@@ -57,7 +57,7 @@ Prevent scheduling resources on holidays and other nonworking days by defining b
 
     ![business-closure-cs.](../media/business-closure-cs-app.png)
   
-### See also  
+### Related information  
  [Set work hours for a resource](set-work-hours-resource.md)   
  [Set up a holiday schedule](../administer/set-up-holiday-schedule.md)   
  [Create a customer service schedule and define the work hours](../administer/create-customer-service-schedule-define-work-hours.md)

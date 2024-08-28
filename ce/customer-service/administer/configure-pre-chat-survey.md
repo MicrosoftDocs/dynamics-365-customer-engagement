@@ -61,7 +61,7 @@ The following screenshot is a sample of the preconversation survey that will be 
 
 More information: [Automatically identify customers using preconversation responses](record-identification-rule.md)
 
-### See also
+### Related information
 
 [Add a chat widget](add-chat-widget.md)  
 [Configure agent display name](agent-display-name.md)  

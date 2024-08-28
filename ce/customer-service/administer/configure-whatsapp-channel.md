@@ -202,6 +202,13 @@ Perform the following steps:
 5. Create as many templates as required.
 
 
+<<<<<<< HEAD
+=======
+1. In Twilio, go to the **Programmable SMS** > **Programmable Messaging** > **WhatsApp sandbox**.
+2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated in Omnichannel for Customer Service, and save the changes.
+3. To test the WhatsApp channel with the Twilio sandbox, you can send a WhatsApp message to the number provided by Twilio with a unique code that is also provided by Twilio. You can also use the sandbox message template provided by Twilio to test sending messages outside of the 24-hour window.
+
+>>>>>>> 4e46373ea96667e08268201af7cb89f3baa8672d
 ### Related information
 
 [Understand and create workstreams](../work-streams-introduction.md)  

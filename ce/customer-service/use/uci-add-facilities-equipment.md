@@ -67,7 +67,7 @@ Before you begin, make sure you have the **System Administrator** security role 
    ![Calendar with working hours.](../media/uci-workhour-calendar.png "Set up the workhour calendar")
    
 
-### See also  
+### Related information  
 
 [Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 

@@ -53,7 +53,7 @@ Message templates enable the one-time creation of reusable messages that can be 
     
 1. Select **Save & Close** to see your localized message appear in the list of message templates.
 
-## See also
+## Related information
 
 [Configure outbound messaging](outbound-messaging.md) <br />
 [Configure an SMS channel for TeleSign](configure-sms-channel.md) <br />
