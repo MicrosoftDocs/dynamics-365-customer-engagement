@@ -25,8 +25,6 @@ Workflows and flows require an internet connection. When the app is running in o
 
 Business rules and recommendations apply logic without writing code or creating plug-ins. For more information, see [Create a business rule for a table](/power-apps/maker/data-platform/data-platform-create-business-rule).
 
-Business rules online and in offline-first mode.
-
 ## Custom process actions
 
 Actions open a broad set of options to compose business logic. [Use custom process actions](/power-apps/maker/data-platform/actions) to perform several operations in sequence.
