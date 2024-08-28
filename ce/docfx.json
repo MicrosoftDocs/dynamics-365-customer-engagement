@@ -4,32 +4,8 @@
       {
         "group": "ce-all",
         "files": [
-          "channel-integration-framework/**/*.md",
-          "channel-integration-framework/**/*.yml",
-          "common-scheduler/**/*.md",
-          "common-scheduler/**/*.yml",
-          "customer-service/**/*.md",
-          "customer-service/**/*.yml",
-          "field-service/**/*.md",
-          "field-service/**/*.yml",
-          "insights-insideview/**/*.md",
-          "insights-insideview/**/*.yml",
-          "linkedin/**/*.md",
-          "linkedin/**/*.yml",
-          "mobile-app/**/*.md",
-          "mobile-app/**/*.yml",
-          "outlook-addin/**/*.md",
-          "outlook-addin/**/*.yml",
-          "outlook-app/**/*.md",
-          "outlook-app/**/*.yml",
-          "sales/**/*.md",
-          "sales/**/*.yml",
-          "snippets/**/*.md",
-          "snippets/**/*.yml",
-          "teams-integration/**/*.md",
-          "teams-integration/**/*.yml",
-          "voice-of-customer/**/*.md",
-          "voice-of-customer/**/*.yml",
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -366,6 +342,9 @@
     "template": [],
     "dest": "customer-engagement",
     "groups": {
+      "ce-all": {
+        "dest": "ce-all"
+      },
       "usd-all": {
         "dest": "usd-all",
         "moniker_range": ">= dynamics-usd-4"
