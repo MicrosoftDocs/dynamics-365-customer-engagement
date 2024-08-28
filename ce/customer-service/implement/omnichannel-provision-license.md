@@ -54,7 +54,7 @@ You can provision the following channels in Omnichannel for Customer Service:
 ## Set up Omnichannel for Customer Service<a name="set-up-omnichannel"> </a>
 
 > [!NOTE]
-> You'll be able to use the [admin center experience to provision channels](omnichannel-provision-channels) after it's available in your region. Once the new experience is available, you can only view existing environments and channels in the Power Platform admin center.
+> You'll be able to use the [admin center experience to provision channels](omnichannel-provision-channels.md) after it's available in your region. Once the new experience is available, you can only view existing environments and channels in the Power Platform admin center.
 
 1. In [Power Platform admin center](https://admin.powerplatform.microsoft.com/), on the **Environments** page, select the environment in which you want to set up Omnichannel for Customer Service.
 
