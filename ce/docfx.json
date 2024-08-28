@@ -342,6 +342,9 @@
     "template": [],
     "dest": "customer-engagement",
     "groups": {
+      "ce-all": {
+        "dest": "ce-all"
+      },
       "usd-all": {
         "dest": "usd-all",
         "moniker_range": ">= dynamics-usd-4"
