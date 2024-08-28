@@ -39,11 +39,12 @@ Kanban views help salespeople to manage their opportunities and activities effec
 To add the control:
 
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
     :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of Advanced Settings link in the site map.":::
 
     The **Business Management settings** page opens in a new browser tab.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. On the navigation bar, select **Settings** and then under **Customization**, select **Customizations**.
 

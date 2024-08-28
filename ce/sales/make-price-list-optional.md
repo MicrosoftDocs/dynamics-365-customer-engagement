@@ -50,7 +50,8 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 # [Sales Professional](#tab/SP)
 
 1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+     > [!NOTE]
+     > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
     The Business Management settings page opens in a new browser tab.
 

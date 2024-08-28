@@ -34,7 +34,8 @@ Administrators and sales managers can now migrate sequences along with their dep
 Let’s create a sequence solution with an example.
 
 1.	Sign in to the Sales Hub app and go to **Settings** > **Advanced Settings**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+   > [!NOTE]
+   > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. On the **Advanced settings** page, go to **Setting** > **Customization** > **Solutions**.   
 
@@ -128,7 +129,8 @@ Now, the solution is ready for import.
 ## Import the solution
 
 1.	Sign in to the Sales Hub app and go to **Settings** > **Advanced Settings**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+    > [!NOTE]
+    > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. On the **Advanced settings** page, go to **Setting** > **Customization** > **Solutions** and select **Import**.   
 

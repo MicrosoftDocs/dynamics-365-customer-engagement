@@ -37,8 +37,6 @@ Ensure that you meet the following requirements before configuring LinkedIn acti
 
 - LinkedIn Sales Navigator is configured in your organization. More information: [Install and enable LinkedIn Sales Navigator](/dynamics365/linkedin/install-sales-navigator)
 - The latest version of the solution is installed. Go to **Advanced settings** > **Solutions**, and search for **msdyn_LinkedInSalesNavigatorAnchor**. The version number should be **3.0.1.1060** or later. 
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
-- You have the proper license to use LinkedIn Sales Navigator.
 
 ## Complete the research
 

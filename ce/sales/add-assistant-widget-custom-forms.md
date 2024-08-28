@@ -26,12 +26,13 @@ By default, the assistant widget is available only in the out-of-the-box forms&m
 >- The assistant widget can't be added by using the new experience in Power Apps.
 
 1. In Dynamics 365 Sales Hub app and go to **Advanced settings**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
     > [!div class="mx-imgBorder"]
     > ![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2.  On the navigation bar, select **Settings**, and then select **Customizations**.
 

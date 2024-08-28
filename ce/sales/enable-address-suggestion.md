@@ -35,7 +35,8 @@ Bing Maps is enabled by default in new environments that are located outside the
 > By connecting to a mapping service, you consent to allow the system&mdash;including systems in Government Cloud environments&mdash;to share your data. "Mapping service" refers to Bing Maps or any other third-party mapping service that's designated by you or your operating system. Data that's shared with external systems outside of your Microsoft Dynamics 365 environment includes, but is not limited to, addresses and coordinates. Your use of the mapping service is also subject to the service's separate terms of use. Data imported from external systems into Microsoft Dynamics 365 are subject to the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement).
 
 1. In the Sales Hub app, select **Settings** (the gear icon in the upper-right corner of the window) > **Advanced Settings**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+   > [!NOTE]
+   > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 1. Select **Administration** > **System Settings** > **General**.
 

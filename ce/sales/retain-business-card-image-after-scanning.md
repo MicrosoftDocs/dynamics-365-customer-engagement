@@ -37,12 +37,13 @@ You can enable or disable this option from the **App Settings** page in Sales Hu
 **To enable or disable from the System Settings page**
 
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
     > [!div class="mx-imgBorder"]
     > ![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens.
+    > [!NOTE]
+    > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. On the navigation bar, select **Settings**, and then under **System**, select **Administration**.
 

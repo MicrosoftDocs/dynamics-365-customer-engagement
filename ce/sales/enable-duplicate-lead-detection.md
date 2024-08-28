@@ -103,9 +103,9 @@ Verify the following processes are in active state:
 To go to the **Processes** page, follow these steps:     
 
 1. In the web app, go to **Settings** > **Advanced Settings**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+
 2. On the **Advanced Settings** page, select **Process Center** > **Processes**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+
 
 ### Provide read permissions for process
 

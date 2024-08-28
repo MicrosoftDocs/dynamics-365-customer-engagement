@@ -15,7 +15,8 @@ Add the text messaging to phone number fields in custom forms, allowing sellers 
 ## Add text message option
 
 1. Sign in to your sales app and go to **Advanced Settings** > **Settings** > **Customizations** > **Customize the System**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+   > [!NOTE]
+   > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. Under **Components** > **Entities**, choose an entity and then select **Forms**.
 

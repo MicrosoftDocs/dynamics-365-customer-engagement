@@ -80,11 +80,16 @@ While qualifying a lead, one of the following errors occurs due to duplicate lea
 If the [duplicate detection rules](/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean) feature is enabled in your organization, the application won't allow qualification of leads if duplicates of that lead exist. To mitigate the issue, try the following resolutions:
 
 - Remove the duplicates for the lead and qualify again. More information: [Merge duplicate rows](/power-apps/user/merge-duplicate-records) 
+
 - Go to the leads grid view, select the lead and qualify.
 - Unpublish the rule that is causing the error and qualify the lead again. Contact your administrator to unpublish the rules using the following steps:
     1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+
+       > [!NOTE]
+       > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+
     1. Select the rule and then select **Unpublish**.
+
 - If a rule is required only to create or update the lead, but not required for qualification, ensure that duplicate detection rules don’t run on qualified leads. Enable the **Exclude inactive matching records** option and qualify the lead. Contact your administrator to enable the option using the following steps: 
     1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
 

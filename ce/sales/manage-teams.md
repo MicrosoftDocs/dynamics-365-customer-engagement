@@ -69,8 +69,9 @@ Follow the instructions in [Microsoft Dataverse teams management](/power-platfor
 
 When a team is assigned a role, the team members are assigned the set of privileges associated with that role.
 
-1.  Select the **Settings** icon :::image type="content" source="media/settings-icon.png" alt-text="Settings icon":::, and then select **Advanced settings**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+1. In your app, select **Settings** ![Settings.](media/settings-icon.png), and then select **Advanced Settings**.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. Select **Settings** > **Security** > **Teams**.
 

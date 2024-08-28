@@ -68,7 +68,8 @@ To verify that the installation is complete, perform the steps in the following 
 ## Validate the installation
 
 1. In your app, select **Settings**, and then select **Advanced Settings**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+   > [!NOTE]
+   > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. Go to **Settings** > **Customizations** > **Solutions**.
 
@@ -80,7 +81,8 @@ To verify that the installation is complete, perform the steps in the following 
 ## Uninstall the solution
 
 1. In your app, select **Settings**, and then select **Advanced Settings**.
- For the new experience, see the navigation in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+   > [!NOTE]
+   > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. Go to **Settings** > **Customizations** > **Solutions**.
 
