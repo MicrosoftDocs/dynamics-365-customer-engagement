@@ -1,7 +1,7 @@
 ---
 title: Customize the booking view
 description: Learn how to customize the default booking view in the Field Service mobile experience.
-ms.date: 08/19/2024
+ms.date: 08/28/2024
 ms.topic: article
 author: JonBaker007
 ms.author: jobaker

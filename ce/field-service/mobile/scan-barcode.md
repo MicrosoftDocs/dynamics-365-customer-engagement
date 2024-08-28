@@ -1,7 +1,7 @@
 ---
 title: Configure barcode scanning
 description: Learn about barcode scanning and global search in the Dynamics 365 Field Service mobile app.
-ms.date: 08/19/2024
+ms.date: 08/28/2024
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007

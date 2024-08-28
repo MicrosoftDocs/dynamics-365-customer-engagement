@@ -3,7 +3,7 @@ title: Download the mobile app
 description: Learn where to download the Dynamics 365 Field Service mobile app and get started with field service operations on the go.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 08/19/2024
+ms.date: 08/28/2024
 author: JonBaker007
 ms.author: jobaker
 ms.custom:

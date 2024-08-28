@@ -3,7 +3,7 @@ title: Get started with the refreshed mobile experience
 description: Learn about the key features and limitations of the new user experience for the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 08/19/2024
+ms.date: 08/28/2024
 author: JonBaker007
 ms.author: jobaker
 ms.collection: bap-ai-copilot 

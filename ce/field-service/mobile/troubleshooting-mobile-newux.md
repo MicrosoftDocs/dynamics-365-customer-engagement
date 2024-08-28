@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service mobile app troubleshooting
 description: Learn how to troubleshoot issues in the Dynamics 365 Field Service mobile app.
-ms.date: 08/19/2024
+ms.date: 08/28/2024
 ms.topic: troubleshooting
 author: JonBaker007
 ms.author: jobaker
