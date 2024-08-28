@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/19/2023
+ms.date: 07/01/2024
 search.audienceType:
   - admin
   - customizer
@@ -20,11 +20,13 @@ ms.custom:
 
 # View and understand the Voice report in Omnichannel real-time analytics
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 
 The **Voice** report gives you insights into key metrics across the voice channel. You can filter this report by time, queue, time zone, conversation status, direction, and skills. For more information, go to [Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md).
 
-This report is available only if the voice feature is configured for your organization. For more information, go to [Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
+This report is available only if the voice feature is configured for your organization. For more information, go to [Manage real-time analytics reports ](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
 
 The **Voice** report provides a summary of voice conversations over time, by queue. Voice-specific metrics for the last 24 hours, such as conversations in the queue, average wait time, and average handle time, help you optimize the call flow. You can use these metrics to reduce the conversation hold time. You can assign the right agents based on skills and increase agent efficiency and customer satisfaction.
 
@@ -44,7 +46,7 @@ When you select a component in a chart, the data is filtered accordingly. In thi
 
 Drill down to sections of a report to find the data that interests you the most. To view voice conversation analytics, select the **Show more** link on the **Voice conversations over time** KPI. You can drill through voice conversations analytics and analyze data by queue.
 
-### See also
+### Related information
 
 [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
 [Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>

@@ -1,10 +1,13 @@
 ---
-title: "Provision Omnichannel for Customer Service and voice channel | MicrosoftDocs"
-description: "Perform the steps in this article to provision Omnichannel for Customer Service and add channels so that can you start using the product."
-ms.date: 10/04/2023
-ms.topic: article
-author: lalexms
-ms.author: laalexan
+title: Provision Omnichannel for Customer Service and voice channel
+description: Perform the steps in this article to provision Omnichannel for Customer Service and add channels so that can you start using the product.
+ms.date: 06/14/2024
+ms.topic: how-to
+author: neeranelli
+ms.author: nenellim
+ms.reviewer: nenellim
+ms.custom: bap-template
+ms.collection:
 ---
 
 # Provision Omnichannel for Customer Service
@@ -34,7 +37,7 @@ You can provision the following channels in Omnichannel for Customer Service:
 
 - Obtain an active subscription of one or more of the following:
 
-  - To provision the Omnichannel for Customer Service application, Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging
+  - To provision the Omnichannel for Customer Service application, Chat for Dynamics 365 Customer Service or Digital Messaging for Dynamics 365 Customer Service
   - To provision the voice channel, Voice Channel for Dynamics 365 Customer Service
   
     > [!NOTE]
@@ -156,7 +159,7 @@ After the Omnichannel for Customer Service application is successfully provision
 
 [Instance is not available to select on the provisioning application](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/instance-unavailable-provision-omnichannel)
 
-### See also
+### Related information
 
 [Upgrade Omnichannel for Customer Service](../implement/upgrade-omnichannel.md)  
 [Create workstreams](../administer/create-workstreams.md)  

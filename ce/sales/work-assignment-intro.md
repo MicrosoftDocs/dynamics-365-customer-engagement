@@ -51,6 +51,6 @@ Work assignment automation is built around three components: *segments*, *sequen
 
 [Configure work assignment](wa-work-assignment-manage-settings.md).
 
-### See also
+## Related information
 
 - [Get seller insights to improve seller effectiveness](seller-insights-intro.md)

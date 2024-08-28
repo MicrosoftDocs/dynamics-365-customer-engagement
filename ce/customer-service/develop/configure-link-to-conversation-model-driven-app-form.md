@@ -9,7 +9,6 @@ ms.author: nenellim
 
 # Configure Link to conversation button in model-driven app entity form
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This topic describes how you, as a system customizer, can configure the **Link to conversation** button in the model-driven app entity form for agents using Omnichannel for Customer Service app.
 
@@ -296,7 +295,7 @@ In this step you need to import the customized ribbon.
 
 To learn more, see [Import the ribbon](/powerapps/developer/model-driven-apps/export-prepare-edit-import-ribbon#import-the-ribbon).
 
-### See also
+### Related information
 
 [Export, prepare to edit, and import the ribbon](/powerapps/developer/model-driven-apps/export-prepare-edit-import-ribbon#import-the-ribbon)  
 

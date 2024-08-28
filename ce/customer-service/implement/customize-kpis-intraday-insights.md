@@ -173,7 +173,7 @@ The tables in the intraday insights dataset consists of entity attributes along 
 
 - **WorkStream**. To learn more about entity attributes for work stream, see [msdyn_liveworkstream Entity Reference](../develop/reference/entities/msdyn_liveworkstream.md).
 
-### See also
+### Related information
 
 [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md)
 

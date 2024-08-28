@@ -73,7 +73,7 @@ OData-Version: 4.0
 }
 ```
 
-### See also
+## Related information
 
 [Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions)
 

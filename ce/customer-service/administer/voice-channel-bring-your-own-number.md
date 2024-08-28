@@ -1,8 +1,7 @@
 ---
-title: "Bring your own carrier | MicrosoftDocs"
-description: "Use this article to understand how you can bring your own carrier to Dynamics 365 via Azure Direct Routing."
-ms.date: 09/28/2023
-ms.service: dynamics-365-customerservice
+title: Bring your own carrier
+description: Use this article to understand how you can bring your own carrier to Dynamics 365 via Azure Direct Routing.
+ms.date: 06/14/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -10,7 +9,7 @@ ms.author: nenellim
 
 # Bring your own carrier
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Azure Communication Services direct routing enables you to connect your existing telephony infrastructure with Azure so that you can retain your existing carrier and phone numbers, and streamline inter-office call transfers.
 
@@ -30,19 +29,9 @@ Azure Communication Services direct routing enables you to connect your existing
 
 ## Bring your own phone number via direct routing
 
-1. In Dynamics 365, go to one of the admin apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
-    2. Select **Manage** for **Phone numbers**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-    In the site map, select **Phone numbers** in **General settings**.
+1. Select **Manage** for **Phone numbers**.
 
 1. Select **Advanced** on the menu.
 
@@ -57,7 +46,7 @@ Azure Communication Services direct routing enables you to connect your existing
         > [!Note]
         > SMS is not supported with direct routing.
 
-4. Select **Add number**.
+1. Select **Add number**.
 
 The new phone number will be displayed in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-inbound-calling.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
 
@@ -70,7 +59,7 @@ The new phone number will be displayed in the **Phone numbers** list and is read
 - Ensure that you have sufficient transcoding licenses if your service provider and Azure Communication Services don't support the same codec.
 
   
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

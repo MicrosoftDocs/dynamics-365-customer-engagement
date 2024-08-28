@@ -9,6 +9,9 @@ ms.author: mgandham
 
 # Voicemail dashboard
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and agent.
 
 ## Access the Voicemail dashboard
@@ -29,7 +32,7 @@ The charts display the following metrics.
 | Voicemail by queue | The number of voicemails by queue.|
 | Voicemail by agent | The number of voicemails assigned to an agent.|
 
-### See also
+### Related information
 
 [Conversation dashboard](oc-conversation-dashboard.md)  
 [Dashboard overview](customer-service-analytics-insights-csh.md)  

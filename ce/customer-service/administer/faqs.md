@@ -13,8 +13,6 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
 ## General
 
 ### What regions are supported?
@@ -275,7 +273,7 @@ All channels integrated into Omnichannel for Customer Service have the same rout
 
 Only bots created through [Microsoft Bot Framework](https://dev.botframework.com/) can be integrated at this time.
 
-### See also
+### Related information
 
 [Overview of Dynamics 365 Customer Service](../administer/overview.md)  
 [Omnichannel for Customer Service system requirements](../implement/system-requirements-omnichannel.md)  

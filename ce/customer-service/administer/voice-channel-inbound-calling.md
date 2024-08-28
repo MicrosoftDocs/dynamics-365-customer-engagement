@@ -1,18 +1,19 @@
 ---
-title: "Set up inbound calling for the voice channel"
-description: "Learn about how to set up workstreams and queues for inbound calling in the voice channel in Omnichannel for Customer Service."
+title: Set up inbound calling for the voice channel
+description: Learn about how to set up workstreams and queues for inbound calling in the voice channel in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/07/2023
-ms.topic: article
-
+ms.date: 06/14/2024
+ms.topic: how-to
+ms.custom: bap-template 
 ---
 
 # Set up inbound calling
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Configure inbound calling to set up the voice channel in Customer Service. You can enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+Configure inbound calling to set up the voice channel in Dynamics 365. You can enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel.
 
 ## Prerequisites
 
@@ -20,8 +21,13 @@ Ensure that the following prerequisites are met:
 
 - Voice channel is provisioned. More information: [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)
 - Unified routing is enabled. More information: [Provision unified routing](provision-unified-routing.md)
+- Acquire a phone number. See: [Manage phone numbers](voice-channel-manage-phone-numbers.md).
+
 
 ## Set up a voice workstream
+
+> [!IMPORTANT]
+> If the enhanced voice experience is available for your region, you can create new workstreams that support the [voice-enabled Copilots](/microsoft-copilot-studio/voice-overview). For existing deployments, make sure that you [update your existing workstreams](migrate-voice-workstream.md) to support voice Copilots.
 
 Do the following to configure a workstream for voice:
 
@@ -41,7 +47,7 @@ Do the following to configure a workstream for voice:
 
 ## Configure a voice channel
 
-To configure the voice channel, you'll need to associate the workstream with a phone number for routing the calls. You can view the list of available phone numbers by selecting **Phone numbers** in the left pane. To get a new number, you can select **Add number** on the **Phone numbers** page. More information: [Acquire a phone number](#acquire-a-phone-number)
+To configure the voice channel, you'll need to associate the workstream with a phone number for routing the calls. You can view the list of available phone numbers by selecting **Phone numbers** in the left pane. 
 
 1. Go to the workstream that you created, and on the page that appears, select **Set up voice**.
 
@@ -49,7 +55,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
     > [!NOTE]
     >
-    > - Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](#acquire-a-phone-number) if you want to configure a new number.    
+    > - Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers) if you want to configure a new number.    
     > - The voice channel supports anonymous inbound calls on those numbers only that are configured via Azure Communication Services direct routing.
 
 3. On the **Language** page, select **Add primary language** and perform the steps to configure the primary language. More information: [Allow customers to choose a language](voice-channel-multi-language-contact-center.md)
@@ -65,11 +71,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
 7. Select **Add** for **Custom automated messages**, then select a default template message as the trigger, and then enter the custom automated message text. For information about automated messages, see [Configure automated messages](configure-automated-message.md)
 
-8. Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
-
-    :::image type="content" source="../media/voice-channel-workstream-summary.png" alt-text="Summary settings of the voice channel workstream":::
-
-9. Turn on the toggle for **Consult with Microsoft Teams user** to enable the agents to consult other agents on Microsoft Teams. More information: [Voice consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
+8. Turn on the toggle for the agents to be able to transfer calls and consult with external numbers and Microsoft Teams users.  See [Transfer calls to external numbers and Teams users](#transfer-calls-to-external-numbers-and-teams-users).
 
 10. On the **Summary** page, select **Save and close**.
 
@@ -77,9 +79,46 @@ The phone number is associated with the workstream.
 
 :::image type="content" source="../media/voice-workstream-configured.png" alt-text="Configured workstream for voice":::
 
-## Acquire a phone number
 
-Do the steps mentioned in [Manage phone numbers](voice-channel-manage-phone-numbers.md) to acquire a phone number.
+## Transfer calls to external numbers and Teams users
+
+You see the following transfer and consult options:
+
+- **Enhanced voice options**: Actions available for workstreams created in or migrated to the enhanced voice experience.
+- **Existing voice options**: Actions available for workstreams that aren't migrated to the enhanced voice channel.
+
+> [!NOTE]
+> In the embedded and standalone experiences of Dynamics 365 Contact Center, the enhanced voice options only are available.
+
+
+### [Enhanced voice](#tab/enhancedvoice)
+
+
+  1. Set the toggles for **External phone number** and **External Microsoft Teams users** in **Consult** and **Transfer**. This allows agents to consult with other agents or Teams subject matter experts during an ongoing call, and also enables them to transfer calls.
+  2. Select the **Use bridged transfers** checkbox. The following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
+     - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
+     - The caller ID on the call to the external number is the Dynamics phone number.
+     - The customer hears a transfer message followed by hold music. The original call continues.
+     - The recording and transcription will continue when the call is transferred.
+     - Customers can't send Dual Tone Multi Frequency (DTMF) inputs to external numbers. 
+     - Post conversation survey, if configured, will be triggered once the external agent or Teams user hangs up.<br>
+  3. If the **Use bridged transfers** checkbox is not selected, the following actions will occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
+     - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
+     - The caller ID on the call to the external user is the customer's phone number.
+     - The customer hears a transfer message followed by ringing. A new call begins.
+     - Customers can send DTMF inputs to external numbers. 
+     - The recording and transcription is stopped.
+     - Post conversation call survey isn't sent to the customer.
+   
+### [Existing voice](#tab/existingvoice)
+
+ Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
+
+   :::image type="content" source="../media/voice-channel-workstream-summary.png" alt-text="Summary settings of the voice channel workstream":::
+
+ Turn on the toggle for **Consult with Microsoft Teams user** to enable the agents to consult other agents on Microsoft Teams. More information: [Voice consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
+
+---
 
 ## Create queues for voice channels
 
@@ -103,11 +142,36 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
 
    > [!NOTE]
-   >
    >  - You can add only those users who are configured for unified routing.
    >  - After 20 minutes of being added to a queue, agents must refresh their dashboards to be able to receive calls.
 
    ![Configure queue for voice.](../media/queue-for-voice.png "Configure queue for voice")
+
+## Configure user input recognition
+
+The Voice channel supports DTMF recognition to allow agents to provide input to IVR and human agents using the phone keypad. This is supported through Azure Communication Services. More information: [Gathering user input with Recognize action](/azure/communication-services/how-tos/call-automation/recognize-action?pivots=programming-language-csharp) to configure DTMF recognition.
+
+The supported configurations for the voice channel are as follows:
+
+- Agents can send DTMF input to a phone number in the E.164 format only.
+- Agents must use the dialpad icon to send DTMF input.
+   :::image type="content" source="../media/transfer-dtmf.png" alt-text="Screenshot of external dialpad icon":::
+- Agents can send the following DTMF tones:
+
+   ```
+
+    private readonly static HashSet<string> ValidDTMFValues = new HashSet<string> 
+
+    { 
+
+     "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "*", "#", "A", "B", "C", "D" 
+
+    }; 
+ 
+  ```
+
+ > [!NOTE]
+ > The DTMF input isn't supported if the call is transferred to an external phone number in the existing voice experience.
 
 ### Configure call overflow for the voice queue
 
@@ -144,9 +208,9 @@ Go to the workstream for which you've configured the voice channel and do the fo
 
 You can configure work classification rules for the voice workstream to add detailed information to incoming work items. This information can be used to route the calls optimally. More information: [Configure work classification](configure-work-classification.md)
 
-### See also
+### Related information
 
-[Overview of voice channel in Omnichannel for Customer Service](voice-channel.md)  
+[Overview of voice channel](voice-channel.md)  
 [Overview of unified routing](overview-unified-routing.md)  
 [Assignment methods](assignment-methods.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  

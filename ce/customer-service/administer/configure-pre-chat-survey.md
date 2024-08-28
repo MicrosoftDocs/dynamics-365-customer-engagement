@@ -3,7 +3,7 @@ title: Configure a preconversation survey
 description: Configure a preconversation survey in Customer Service admin center to ask customers questions before they start a conversation.
 author: neeranelli
 ms.author: nenellim
-ms.date: 04/23/2024
+ms.date: 06/14/2024
 ms.topic: how-to
 ms.collection:
 ms.reviewer:
@@ -16,23 +16,12 @@ ms.custom:
 
 # Configure a preconversation survey
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-## Configure a preconversation survey
 
 For the chat channel, you can configure a survey that users can respond to when they access the widget to start a conversation.
 
-1. Go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    - In the site map, select **Workstreams** in **Customer support**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-    
-     - In the site map, select **Workstreams** in **General settings**.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Workstreams** in **Customer support**.
 
 1. Select the workstream for the chat channel in which you want to configure the preconversation survey.
 
@@ -72,7 +61,7 @@ The following screenshot is a sample of the preconversation survey that will be 
 
 More information: [Automatically identify customers using preconversation responses](record-identification-rule.md)
 
-### See also
+### Related information
 
 [Add a chat widget](add-chat-widget.md)  
 [Configure agent display name](agent-display-name.md)  

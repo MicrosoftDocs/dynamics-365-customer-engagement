@@ -56,7 +56,7 @@ The **Overview** tab displays the names of the people who participated in a conv
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Conversation intelligence can detect and tag short duration calls for the following categories:
 
@@ -178,7 +178,7 @@ On the timeline, you can see how the conversation was segmented. The topics (if 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)      
 [Track and manage activities](/dynamics365/sales-enterprise/manage-activities)  

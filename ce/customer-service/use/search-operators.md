@@ -1,6 +1,6 @@
 ---
-title: Learn how search works for knowledge management in Dynamics 365 Customer Service | Microsoft Docs
-description: Use knowledge article search mechanisms in Customer Service Hub.
+title: Learn how search works for knowledge management
+description: Use knowledge article search mechanisms.
 ms.date: 04/18/2022
 ms.topic: article
 author: Soumyasd27
@@ -15,7 +15,7 @@ ms.custom:
 
 # Understand how search works in knowledge management
 
-## Introduction
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Setting up a comprehensive knowledge base is the key to increased customer satisfaction and improved productivity. A knowledge base is created to help you with solutions to the most common customer issues so that you can assist customers quickly. This topic describes how various search methods work in a knowledge base and how you can view accurate search results based on the keywords or operators that you use to search the knowledge base.
 
@@ -73,12 +73,12 @@ Use double quotation marks around a keyword to search for an exact match. For ex
 
 - Query syntax: Search term with double quotation marks around it.
 
-### See also
+### Related information
 
 [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md)
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
-[Set up a search provider in Customer Service Hub](../administer/set-up-search-providers.md)
+[Set up a search provider](../administer/set-up-search-providers.md)
 [Add a knowledge article subgrid to a form](../administer/add-knowledge-base-search-control-forms.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

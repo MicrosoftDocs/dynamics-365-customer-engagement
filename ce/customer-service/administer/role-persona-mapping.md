@@ -1,7 +1,7 @@
 ---
 title: Manage personas and custom security roles
 description: Get information about how custom security roles can be mapped to personas in Customer Service and Omnichannel for Customer Service.
-ms.date: 02/14/2024
+ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -11,6 +11,8 @@ ms.custom: bap-template
 ---
 
 # Manage personas and custom security roles in Customer Service
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can map security roles to personas to define user permissions for unified routing. Persona mapping gives your organization the option to add custom security roles alongside existing security roles in Customer Service and Omnichannel for Customer Service. The admin, supervisor, and agent personas are user archetypes that security roles can be mapped to. By mapping custom security roles to these personas, you can fine-tune data access and security across users and business units.
 
@@ -100,27 +102,11 @@ After you enable persona mapping, the system automatically assigns default roles
 
 ### Manage personas
 
-You can customize the roles to persona mapping in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+You can customize the roles to persona mapping in the Customer Service admin center app.
 
 **To customize the role to persona mapping**
 
-1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-   
-    - In the site map, select **User management** in **Customer support**. The **User management** page appears.    
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    - In the site map, select **User attributes** under **Advanced settings**.
-    
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-    
-    - Go to the **Service Management** change area, and select **User attributes** from the **Unified routing** menu.
+1. In the site map of Customer Service admin center, select **User management** in **Customer support**. The **User management** page appears.    
 
 2. Select **Manage** for **Role persona mapping**.
 
@@ -168,7 +154,7 @@ To enable access to a form or dashboard, perform the following steps:
 
 6. Select the role that you want to provide access to, and select **OK**.
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Manage users for unified routing](users-user-profiles.md)  

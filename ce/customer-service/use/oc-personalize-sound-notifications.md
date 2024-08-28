@@ -9,7 +9,7 @@ ms.author: nenellim
 
 # Personalize sound notification settings
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can personalize sound notification settings for incoming conversation requests using the personalization menu available on the application tab panel. The sound notifications are available across all channels and can also be set for messages for ongoing conversations.
 
@@ -40,7 +40,7 @@ The personalized settings have precedence over the administrator settings. You c
 
 5. Select **Save**.
 
-### See also
+### Related information
 
 [View communication panel](oc-conversation-control.md)  
 [View notifications](oc-notifications.md) 

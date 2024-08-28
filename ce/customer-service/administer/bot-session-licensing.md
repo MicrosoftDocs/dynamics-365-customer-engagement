@@ -1,6 +1,6 @@
 ---
 title: Bot sessions and licensing
-description: Use this article to learn about bot sessions and licensing in Omnichannel for Customer Service.
+description: Use this article to learn about bot sessions and licensing in your contact center.
 ms.date: 03/21/2024
 author: neeranelli
 ms.author: nenellim
@@ -10,6 +10,8 @@ ms.collection:
 ---
 
 # Bot sessions and licensing
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -22,9 +24,7 @@ The add-in applications such as Chat, Digital Messaging, and Voice channel are l
 
 To know about the required subscriptions to use the chat and voice channels, see the [Licensing](../implement/system-requirements-omnichannel.md#licensing) section. For more information on licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
-
-
-### See also
+### Related information
 
 [Overview of bots](overview-bots.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  

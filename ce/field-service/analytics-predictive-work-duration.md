@@ -1,17 +1,21 @@
 ---
 title: Predictive work duration reports (Preview)
 description: Learn about using predictive work duration reports in Dynamics 365 Field Service.
-ms.date: 02/09/2023
+ms.date: 06/04/2024
 ms.reviewer: mhart
 ms.topic: conceptual
 ms.custom: bap-template
-author: FeifeiQiu
-ms.author: feiqiu
+author: anilmur
+ms.author: anilmur
 ---
 
 # Predictive work duration reports (Preview)
 
-Dispatchers often assign a fixed duration for a job type, despite various factors that may have an effect on the time required to complete the work. Using a fixed duration can potentially cause cascading delays or lower utilization, reducing the overall effectiveness of scheduling.
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
+Dispatchers often assign a fixed duration for a job type, despite various factors that might have an effect on the time required to complete the work. Using a fixed duration can potentially cause cascading delays or lower utilization, reducing the overall effectiveness of scheduling.
 
 With predictive work duration, dispatchers can predict the duration of a booking or requirement, based on various factors.
 
@@ -22,11 +26,11 @@ Powered by artificial intelligence models, predictive work durations learn from 
 
 ## Before you start
 
-An administrator must enable this public preview feature. In the Field Service app, change to the **Settings** area. Go to **Analytics and Insights** > **Settings** > **Predictive work duration (Preview)** and select **Manage**. Specify the **Minimum number of resources per territory** field. Territories that have fewer resources will be excluded from territory analyses and reports. This limitation can help protect technician privacy.
+An administrator must enable this public preview feature. In the Field Service app, change to the **Settings** area. Go to **Analytics and Insights** > **Settings** > **Predictive work duration (Preview)** and select **Manage**. Specify the **Minimum number of resources per territory** field. Territories that have fewer resources are excluded from territory analyses and reports. This limitation can help protect technician privacy.
 
 ## Upcoming work duration report
 
-You'll find the upcoming work duration report under **Resources** > **Analytics and Insights** > **Predictive duration (preview)**.
+To access the report, open the **Field Service** app, and go to **Analytics and Insights** > **Predictive duration (preview)**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the predictive duration report in Dynamics 365 Field Service.](./media/analytics-work-duration-upcoming-work.png)
@@ -36,7 +40,7 @@ You'll find the upcoming work duration report under **Resources** > **Analytics 
 
 **Estimated duration** is expected time job to take. The value comes from the duration (msdyn_duration) of the resource requirement. The duration of the resource requirement is derived from the total duration of all work order incident types.
 
-**Actual duration** is the time that was spent working on a requirement. This value is calculated by *end time* of a booking minus the *actual arrival time* minus the *On break* duration of the booking journal related to the booking.
+**Actual duration** is the time that was spent working on a requirement. Calculation: *end time* of a booking minus the *actual arrival time* minus the *On break* duration of the booking journal related to the booking.
 
 ### Filters and slicers
 
@@ -62,12 +66,12 @@ You'll find the upcoming work duration report under **Resources** > **Analytics 
 
 | Metric | Description |
 |--------|----------------------|
-| **Confidence** | How likely the actual duration will be close to the predicted duration. A higher score (closer to 100%) signifies a better chance of the prediction being correct, while lower score (close to 0%) means the prediction may be incorrect. |
+| **Confidence** | How likely the actual duration is close to the predicted duration. A higher score (closer to 100%) signifies a better chance of the prediction being correct, while lower score (close to 0%) means the prediction might be incorrect. |
 |**Prediction Factors** |  Insights into factors that were considered when predicting the duration and how they affect the prediction. |
 
 ## Territory duration
 
-From the upcoming work duration report, you'll see another tab, where you can find the **Territory duration** report.
+To access the report, select the **Territory duration** tab.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the territory duration report.](./media/analytics-work-duration-territory.png)
@@ -77,7 +81,7 @@ From the upcoming work duration report, you'll see another tab, where you can fi
 
 ### Filters and slicers
 
-- **Duration**: Lists pre-defined values to filter by duration.
+- **Duration**: Lists predefined values to filter by duration.
 - **Incident type**: Filter by incident types.
 - **Territory**: Filter by service territories.
 - **Customer**: Filters the territory report by customer.
@@ -139,7 +143,7 @@ The final report can be found under **Resource duration**.
 | **Confidence**  | How likely the proficiency score calculated from the samples is close to the true proficiency score. A higher score indicates the proficiency score being closer to the truth and a lower score indicates the proficiency score being farther away from the truth.   |
 | **Proficiency factors** | Summary of factors such as incident types, service accounts, day of week, and skills and rating match that contribute to the efficiency score. |
 
-[!## Next steps
+## Next steps
 
 - [Reports overview](reports.md)
 - [Optimization summary report](rso-optimization-summary-report.md)

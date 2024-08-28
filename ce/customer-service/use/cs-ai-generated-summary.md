@@ -10,8 +10,12 @@ ms.collection: bap-ai-copilot
 
 # View and share auto-summarized conversations 
 
-Share an AI-generated summary of a customer conversation to easily collaborate on a case. A summary quickly provides context and relays steps that you've already taken to solve the issue. You can summarize all conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. This feature also supports bot to agent conversations, voice conversations with transcription enabled, and Microsoft Teams conversations.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+> [!NOTE]
+> Case is applicable to Customer Service only.
+
+Share an AI-generated summary of a customer conversation to easily collaborate on a case. A summary quickly provides context and relays steps that you've already taken to solve the issue. You can summarize all conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. This feature also supports bot to agent conversations, voice conversations with transcription enabled, and Microsoft Teams conversations.
 
 ## View and share a conversation summary for conversations
 
@@ -57,7 +61,7 @@ When you open a case or a conversation, the **Teams chats** pane appears on the 
 
 1. Select **Start chat**.  
 
-## See also
+## Related information
 
 [Set up AI-generated conversation summary in Dynamics 365 Customer Service](../administer/cs-enable-AI-generated-summary.md)  
 [View and understand call summary page in the Sales Hub app](../../sales/view-and-understand-call-summary-sales-app.md)  

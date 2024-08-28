@@ -8,7 +8,6 @@ ms.author: nenellim
 ---
 # Live chat widget telemetry
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The live chat widget in Chat for Dynamics 365 collects telemetry data from end users to improve the feature’s capabilities, reliability, and performance over time by helping Microsoft understand usage patterns, plan new features, and troubleshoot and fix problem areas.
 
@@ -31,7 +30,7 @@ If your organization is concerned about the data collected by this service, you 
 data-disable-telemetry = "true"
 ```
 
-### See also
+### Related information
 
 [Customize live chat widgets using data tags](customize-chat-widget.md)  
 [Customize live chat widgets for mobile apps](render-live-chat-widget-mobile.md)  

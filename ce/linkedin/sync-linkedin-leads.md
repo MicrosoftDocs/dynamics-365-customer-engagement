@@ -39,7 +39,7 @@ ms.assetid: 13c8a439-30bc-45a4-bf4e-a25781148a4c
 4. Optionally, a sales manager can review the lead performance in a dashboard.
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze leads and lead performance](review-leads.md)
 
-### See also
+## Related information
 [Install Dynamics 365 Connector for LinkedIn Lead Gen Forms from AppSource](install-linkedin-connector.md)
 [Establish a connection between Dynamics 365 Connector for LinkedIn Lead Gen Forms and LinkedIn](connect-dynamics-365-linkedin.md)
 [Configure a matching strategy to update leads from LinkedIn Lead Gen ads](configure-matching-strategy.md)

@@ -41,7 +41,7 @@ As a Dynamics 365 administrator, you install the ZoomInfo app for administrators
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Configure export preferences](configure-export-preferences-zoominfo.md)    
 [Match fields between Dynamics 365 and ZoomInfo](match-fields-between-dynamics365-zoominfo.md)   

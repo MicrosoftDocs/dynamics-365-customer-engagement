@@ -15,8 +15,6 @@ ms.custom:
 
 # Export and import app configuration data
 
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
 After you've used Omnichannel for Customer Service in a test environment, you can export some of your app configuration data to a live production environment. Use the configuration management tool to export and import the data. More information: [Download the Configuration Migration tool from NuGet using the PowerShell script](/powerapps/developer/data-platform/download-tools-nuget)
 
 > [!IMPORTANT]
@@ -29,7 +27,7 @@ You can [copy an environment](copy-environment-with-omnichannel.md) with Omnicha
 > [!NOTE]
 > We recommend that you don't export the msdyn_analytics entity. Because the entity contains org-specific configuration data for intraday insights in Omnichannel for Customer Service, exporting it might lead to an incorrect configuration of your intraday insights data.
 
-### See also
+### Related information
 
 [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)                                                         
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)                                                                              

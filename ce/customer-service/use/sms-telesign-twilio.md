@@ -1,7 +1,7 @@
 ---
-title: "Agent experience for TeleSign and Twilio channels | MicrosoftDocs"
-description: "Learn about the agent experience when interacting with conversations that originate from the TeleSign and Twilio SMS channels in the Omnichannel for Customer Service app."
-ms.date: 04/06/2020
+title: "Agent experience for Telesign and Twilio channels | MicrosoftDocs"
+description: "Learn about the agent experience when interacting with conversations that originate from the TeleSign and Twilio SMS channels."
+ms.date: 07/11/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -9,24 +9,25 @@ ms.author: nenellim
 
 # Use SMS channels
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-## Channels overview
+> [!Important]
+> The Telesign channel will be deprecated and removed from Omnichannel for Customer Service on October 8, 2024. After this date, you won't be able to use this channel. Learn more at [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
-When you sign in to Omnichannel for Customer Service, you can see your work items in the Omnichannel Agent Dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
+When you sign in, your work items display in the agent dashboard. To learn more, go to [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 
 ## Prerequisite
 
-Make sure your administrator has configured a TeleSign or Twilio channel in Omnichannel for Customer Service.
+Make sure your administrator configured a Telesign or Twilio channel.
 
 ### Incoming chat notifications
 
-You'll receive a notification when a customer requests a conversation through TeleSign or Twilio. You can accept the chat request, after which a session starts and you'll see the communication panel in which you can exchange messages with the customer.
+You receive a notification when a customer requests a conversation through Telesign or Twilio. You can accept the chat request, after which a session starts and the communication panel opens, where you can exchange messages with the customer.
 
 > [!div class=mx-imgBorder]
 > ![Incoming chat notification.](../media/sms-notification-request.png "Incoming SMS notification")
 
-As an agent in Omnichannel for Customer Service, you can:
+In the application, you can:
 
 - [View customer information on Active Conversation form](oc-customer-summary.md).
 - [View the communication panel](oc-conversation-control.md).
@@ -49,7 +50,7 @@ As an agent in Omnichannel for Customer Service, you can:
 - [View the active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md).
 - [Search for transcripts](oc-search-transcipts.md).
 
-### See also
+### Related information
 
 [Configure SMS channel for Twilio](../administer/Configure-sms-channel-twilio.md)
 

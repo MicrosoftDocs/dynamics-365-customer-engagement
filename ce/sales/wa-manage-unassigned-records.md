@@ -1,7 +1,7 @@
 ---
 title: View and assign unassigned records
 description: Learn how to view unassigned leads, opportunities, and insights in Dynamics 365 Sales so that you can assign them to sellers manually or run assignment rules again.
-ms.date: 10/10/2023
+ms.date: 05/20/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -53,9 +53,22 @@ ms.custom:
     - **Name**, **Topic**, **Created on**: Identifies the lead or opportunity record.
     - **Segment**: Identifies the segment the record is connected to.
     - **Assignment rule**: Identifies the rule that tried to assign the record.
-    - **Assignment due in**: If a time limit is set in the assignment rule, displays the number of hours left for the record to be assigned before it's marked overdue. If no time limit is set, displays a hyphen (**&dash;**).
+    - **Assignment due in**: If a time limit is set in the assignment rule, displays the amount of hours left for the record to be assigned before it's marked overdue. If no time limit is set, displays a hyphen (**&dash;**).
     - **Status reason**: Identifies the reason the record wasn't assigned to a seller.
     - **Assignment attempt**: Identifies the last time an attempt was made to assign the record.
+
+## Understand the priority of rule for unassigned records  
+
+A record can remain unassigned due to several reasons. These reasons are categorized as failure rules and prioritized in the following order of importance. The highest priority failure is displayed in the **Monitoring** grid for unassigned records:
+
+1. **Distribution to seller failed**: This is the highest priority failure. The rule was unable to assign the record to the seller and this could be due to reasons such as seller lacks security role privileges or eligible sellers don't have capacity.  
+1. **Seller match failed**: This failure means that the system couldn't find a suitable seller to assign the record.
+1. **Entity match failed**: This failure means that the record didn't meet the conditions defined in the rule.
+1. **Record is aged**: This is the lowest priority. It means that the record was created before the specified time period in the rule.
+
+If there are multiple rules which ran for a record and failed to assign the record to a seller, the highest priority failure is considered and an appropriate reason is displayed in the **Monitoring** grid.
+
+The reasons for the failure to assign are defined as described in the [Reasons records might be left unassigned](#reasons-records-might-be-left-unassigned) section.
 
 ## Reasons records might be left unassigned
 
@@ -133,7 +146,7 @@ The record is assigned to the seller or team and the list refreshes to remove th
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
 

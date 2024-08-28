@@ -6,11 +6,17 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 11/28/2023
+ms.date: 07/05/2024
 ms.custom: bap-template
 ---
 
 # Overview of data model customization
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
+
 
 Data model customization helps you customize the out-of-the-box standard reports and add your own KPIs (key performance indicators) and custom metrics, so that you can use the data that's most relevant to your organization.
 
@@ -91,7 +97,7 @@ You can choose to specify the same workspace for both historical and real-time a
 > [!NOTE]
 > Supervisor actions like assign, transfer, monitor, and force close aren't available for model customized reports.
 
-## See also
+## Related information
 [Dataverse entities used in historical and real-time analytics](dataverse-entities.md#dataverse-entities-used-in-historical-and-real-time-analytics)  
 [Customize data models of historical and real-time analytics reports](../administer/model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)  
 [Customize visual display](customize-reports.md#customize-visual-display)

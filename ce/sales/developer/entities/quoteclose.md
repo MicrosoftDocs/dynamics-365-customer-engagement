@@ -1849,7 +1849,7 @@ See the [account_QuoteCloses](account.md#BKMK_account_QuoteCloses) one-to-many r
 
 See the [Quote_QuoteClose](quote.md#BKMK_Quote_QuoteClose) one-to-many relationship for the [quote](quote.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

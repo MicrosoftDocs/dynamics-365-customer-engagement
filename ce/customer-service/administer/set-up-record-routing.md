@@ -11,9 +11,7 @@ ms.author: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-You can configure unified routing for records in the Customer Service admin center or Omnichannel admin center (deprecated) app.
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+You can configure unified routing for records in the Customer Service admin center app.
 
 If you have Dynamics 365 Customer Service only, then the options to configure unified routing will be available only after you [enable unified routing](provision-unified-routing.md) in the service configuration settings.
 
@@ -39,24 +37,9 @@ You must complete all the steps in this section to route records using unified r
 > [!NOTE]
 > After you enable unified routing, the active basic routing rule won't route records until you configure intake rules.
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps:
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the site map of Customer Service admin center, select **Routing** in **Customer support**. The **Routing** page appears.
 
-    1. In the site map, select **Routing** in **Customer support**. The **Routing** page appears.
-
-    1. Select **Manage** for **Record routing**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
- 
-
-    - In the site map, select **Record routing** in **General settings**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    - Go to **Service Management**, and in the site map, select **Record routing** in **Unified Routing**.
+1. Select **Manage** for **Record routing**.
 
 1. On the **Record routing** page, select **Add**.
 
@@ -68,21 +51,9 @@ You must complete all the steps in this section to route records using unified r
 
 ### Create workstreams for record routing
 
-1. Go to one of the apps, and perform the following steps.
+1. In the site map, select **Workstreams** in **Customer support**.
    
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-   1. In the site map, select **Workstreams** in **Customer support**.
-   
-   1. Select **New workstream**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    - In the site map, select **Workstreams** in **General settings**, and then select **New workstream**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    - In the **Service Management** site map, select **Workstream** in **Unified Routing**, and then select **New workstream**.
+1. Select **New workstream**.
 
 1. In the **Create a workstream** dialog, enter the following details:
     - **Name**: Enter an intuitive name, such as **Contoso case workstream**.
@@ -152,7 +123,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 ![Next step.](../media/right-arrow.png "Next step") [Enable routing diagnostics](unified-routing-diagnostics.md#manage-routing-diagnostics)  
 ![Home.](../media/home-button.png "Home") [Process for setting up unified routing](set-up-routing-process.md)  
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Create and manage workstreams](create-workstreams.md)    

@@ -1,11 +1,11 @@
 ---
-title: Customize the case resolution experience | MicrosoftDocs
+title: Customize the case resolution experience
 description: Use this article to learn how to configure enhanced case management.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 04/05/2023 
+ms.date: 05/15/2024 
 ms.custom: bap-template 
 ---
 
@@ -49,7 +49,7 @@ Perform the following steps:
 
 1. Select **Publish All Customizations**.
 
-### See also
+### Related information
 
 [Work with cases](../use/customer-service-hub-user-guide-create-a-case.md)  
 [Work with queues](../use/work-with-queues.md) 

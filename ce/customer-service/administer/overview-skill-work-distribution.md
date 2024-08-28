@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Overview of skill-based routing
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!NOTE]
 > The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Omnichannel for Customer Service is shared with other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Omnichannel for Customer Service.
@@ -50,7 +50,7 @@ If your environment has scheduling solutions, then you must have version 9.0.0.0
 
 To view more videos on Omnichannel for Customer Service, see [Videos](../use/videos.md).
 
-### See also
+### Related information
 
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
 [Set up skill-based routing](set-up-skill-based-routing.md)  

@@ -8,10 +8,6 @@ ms.author: nenellim
 ---
 # Customize session forms
 
-
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 As a system customizer, you might want to customize the session forms to suit your business requirements for the agents who use Omnichannel for Customer Service and other model-driven apps. 
 
 ## Modify the position of sections in the session form
@@ -29,7 +25,7 @@ As a system customizer, you might want to customize the session forms to suit yo
 6.  Select **Save** and select **Publish**.
 
 
-### See also
+### Related information
 
 [Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize Active Conversation form](customize-customer-summary.md)  

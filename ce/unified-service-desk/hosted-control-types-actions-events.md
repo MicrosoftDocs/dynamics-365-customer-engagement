@@ -1,15 +1,14 @@
 ---
 title: "Hosted control types, actions, and events in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the various types of hosted controls, and the predefined UII actions and events available for each hosted control type."
-ms.date: 04/24/2018
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Hosted control types, actions, and events in Unified Service Desk
 

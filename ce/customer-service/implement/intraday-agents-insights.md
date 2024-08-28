@@ -137,7 +137,7 @@ This section displays the following details.
 
 You can select the **Status** field to modify the presence indicator for an agent. The agent has to be signed in for you to change the agent status.
 
-### See also
+### Related information
 
 [Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)  
 [Intraday insights dashboard](intraday-insights-dashboard.md)  

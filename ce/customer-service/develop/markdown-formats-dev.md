@@ -11,8 +11,6 @@ ms.reviewer: nenellim
 ---
 # Markdown formats in custom channels that use Direct Line
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 In Omnichannel for Customer Service, you can send and receive messages formatted with Markdown in custom messaging channels using Direct Line API 3.0. As a developer, understanding how the Markdown format is passed through the channel and knowing the details of the format will help you update the HTML styling and tags in your own user interface.
 
 In the Direct Line channel, when an agent sends (*outbound*) a message formatted with Markdown to a Direct Line bot, the bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from a customer, it must be able to correctly interpret the message that's formatted with Markdown. As a developer, you'll need to use Markdown appropriately so that the message is formatted correctly for your agents and customers.
@@ -49,7 +47,7 @@ For outbound messages, the Markdown text will be received in the [Activity](/azu
 [Configure custom messaging channel](../administer/configure-custom-channel.md)  
 
 
-### See also
+### Related information
 
 [Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)  
 [Enable formatted messages](../administer/enable-formatted-messages.md)  

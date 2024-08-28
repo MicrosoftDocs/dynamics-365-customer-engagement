@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
-description: Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing.
-ms.date: 03/21/2024
+description: Learn about the different assignment methods for queues and how you can use them in unified routing.
+ms.date: 07/08/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -18,6 +18,8 @@ searchScope:
 ---
 
 # Assignment methods in unified routing
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Use assignment methods to determine how to assign work items. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets.
 
@@ -101,7 +103,7 @@ The assignment cycle starts with one of the following triggers:
 
 - Arrival of a new work item in the queue.
 - Change to agent presence.
-- Updates to agent capacity.
+- Updates to agent capacity: If capacity is updated at runtime then change in capacity triggers assignment. If capacity is updated manually, the change doesn't trigger assignment. 
 - Addition of an agent to the queue.
 - Periodic trigger every five minutes for record type of work item.
 
@@ -217,7 +219,7 @@ You can update the OData call as follows to modify the limit.
 
 `var data = { "msdyn_number_of_declines_allowed": 3 } // update the record Xrm.WebApi.updateRecord("msdyn_omnichannelconfiguration", "d4d91600-6f21-467b-81fe-6757a2791fa1", data).then( function success(result) { console.log("Omnichannel Configuration updated"); // perform operations on record update }, function (error) { console.log(error.message); // handle error conditions } );`
 
-### See also
+### Related information
 
 [Configure assignment methods and rules](configure-assignment-rules.md)  
 [FAQ about unified routing in Customer Service, Omnichannel for Customer Service](unified-routing-faqs.md)  

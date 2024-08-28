@@ -1,14 +1,16 @@
 ---
-title: "Overview of templates | MicrosoftDocs"
-description: "Learn about templates in Customer Service that can be managed by using app profiles."
+title: Overview of templates
+description: Learn about templates and how to configure and use them in your contact center.
 author: neeranelli
 ms.author: nenellim
-ms.date: 01/31/2020
+ms.date: 07/01/2024
 ms.topic: overview
 
 ---
 
 # Overview of templates in Customer Service
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 When you (an agent) get an incoming conversation request, the system searches and opens the records like case, contact, or account. However, your organization might have different requirements and want to use different custom entities and correlate to a conversation.
 
@@ -24,7 +26,7 @@ You can use the following templates:
 - [Application tab templates](application-tab-templates.md)
 - [Notification templates](notification-templates.md)
  
-### See also
+### Related information
 
 [Associate templates with workstreams](associate-templates.md)  
 [Understand and create workstream](create-workstreams.md)  

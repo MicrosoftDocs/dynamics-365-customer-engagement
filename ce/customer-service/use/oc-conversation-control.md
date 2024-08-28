@@ -1,6 +1,6 @@
 ---
-title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
-description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
+title: View the communication panel for conversations
+description: Learn what you can do as an agent in the communication panel when you interact with the customer.
 ms.date: 04/12/2024
 ms.topic: article
 author: neeranelli
@@ -9,7 +9,7 @@ ms.author: nenellim
 
 # View the communication panel for conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, the communication panel is in hidden mode by default. You can view the communication panel only when you accept an incoming conversation to communicate with the customer.
 
@@ -102,11 +102,11 @@ The following events occur when you select the **Consult** button:
 
 - The secondary agent receives a notification for the consult request.
 
-- When the secondary agent accepts the consult request, a separate pane with an option to end opens beside the communication panel for the primary agent.
+- When the secondary agent accepts the consult request, a separate pane with an option to end opens beside the communication panel for the primary agent. 
  
    :::image type="content" source="../media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary agent.":::
 
-- The secondary agent sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary agent and customer.
+- The secondary agent sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary agent and customer. Consulting on a chat conversation doesn't affect the secondary agent's capacity.
    
 - The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
 
@@ -126,6 +126,10 @@ After you type **/c** in the communication panel messaging area, you can continu
 ## Transfer conversations
 
 In the communication panel, you can transfer the work item either to an agent or a queue. The transfer to the agent can be performed only after consult with the agent has been established. Without bringing agents in to consult, only transfer to queues are available. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
+
+> [!NOTE]
+> When you transfer a conversation to a queue that doesn't have any agents, the application automatically sets the status of the conversation to Closed.
+
 
  > [!div class=mx-imgBorder]
  > ![Use the transfer option to launch the transfer list.](../media/oceh-cc-options-ellipsis-tansfer.png "Use the transfer option to launch the transfer list")
@@ -160,6 +164,9 @@ To learn more, see [Take notes specific to conversation](oc-take-notes.md).
 
 ## Link to conversations
 
+> [!Note]
+> Link to conversation isn't applicable to the embed experience.
+
 When you have a conversation with a customer, you can use the link option that's at the bottom of the conversation control to link the conversation to the case, account, or contact record.
 
 To learn more, see [Search, link, and unlink a record to the conversation](oc-search-link-unlink-record.md).
@@ -170,7 +177,7 @@ As an agent, you can view the real-time customer satisfaction levels on the comm
 
 To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 
-### See also
+### Related information
 
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
 [Introduction to the agent interface](oc-introduction-agent-interface.md)  

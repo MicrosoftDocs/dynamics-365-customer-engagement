@@ -14,7 +14,8 @@ ms.custom:
 
 # Manage real-time analytics reports in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 > [!IMPORTANT]
 >
@@ -23,7 +24,7 @@ ms.custom:
 > [!NOTE]
 >  Any visual customizations that you might have made on the preview version will be overwritten when your organization gets upgraded to the latest generally available version. Future updates to the data model will be backward compatible and visual customizations will be retained. More information: [Future data model updates](../use/customize-reports.md#future-data-model-updates)
 
-Real-time analytics reports in Omnichannel for Customer Service give your supervisors access to real-time metrics and KPIs that reflect the situation in the contact center as they oversee agents who handle customer conversations that come through multiple channels.
+Real-time analytics reports give your supervisors access to real-time metrics and KPIs that reflect the situation in the contact center as they oversee agents who handle customer conversations that come through multiple channels.
 
 The following real-time analytics reports are available:
 
@@ -52,11 +53,11 @@ Omnichannel real-time analytics reports are on by default. You can use the Custo
 
 ## View Omnichannel real-time analytics reports
 
-To view the reports in Customer Service workspace, see [Access reports](../use/intro-realtime-analytics-dashboard.md#access-reports).
+To view the reports in Customer Service workspace or Contact Center workspace, see [Access reports](../use/intro-realtime-analytics-dashboard.md#access-reports).
 
-If you customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
+If you customized the Customer Service workspace or Contact Center workspace app, you must complete the following steps to be able to view the reports.
 
-1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
+1. On the Customer Service workspace or Contact Center workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
 1. On the **New page** dialog, select **URL**, and then select **Next**.
 1. Enter the following information, and then select **Add**
@@ -74,7 +75,7 @@ If you customized the Customer Service workspace app, you must complete the foll
     - **Outlook shortcut**: **Pass parameters** and **Offline availability**
 1. Select **Save**, and then select **Publish**.
 
-### See also
+### Related information
 
 [Overview of Omnichannel real-time analytics reports](../use/intro-realtime-analytics-dashboard.md)  
 [View and understand the Summary report in Omnichannel real-time analytics](../use/realtime-summary-dashboard.md)  

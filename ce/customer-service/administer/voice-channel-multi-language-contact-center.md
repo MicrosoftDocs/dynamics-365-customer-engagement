@@ -1,9 +1,9 @@
 ---
 title: Set up a multilingual contact center in the voice channel
-description: Learn how to set up a multilingual contact center in the voice channel for Omnichannel for Customer Service.
+description: Learn how to set up a multilingual contact center in the voice channel.
 author: gandhamm
 ms.author: mgandham
-ms.date: 04/18/2024
+ms.date: 06/14/2024
 ms.topic: how-to
 ms.reviewer: mgandham
 ms.collection:
@@ -12,7 +12,9 @@ ms.custom: bap-template
 
 # Set up a multilingual contact center
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -30,9 +32,7 @@ You can configure a phone number in a workstream that allows the customer to cho
    
 ## Add a phone number to the workstream and configure language settings
 
-1. In the Customer Service admin center or Omnichannel admin center (deprecated) app, go to the voice workstreams, and then select the workstream to configure the phone number.
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+1. In the Customer Service admin center or Contact Center admin center app, go to the voice workstreams, and then select the workstream to configure the phone number.
 
 1. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select the number to add to the workstream, and then select **Next**.
 
@@ -64,7 +64,7 @@ A few things to consider when you configure your bots for multilingual contact c
 - You can configure different geographic locales for the bot and voice workstream. For example, you can set English-UK in the voice profile and English-US in the bot.
 - The bot's accuracy depends on the similarities between locales. However, if you configure different locales, the preconfigured entities for the bot, such as zip code, might not be accurate.
 
-### See also
+### Related information
 
 [Introduction to the voice channel](voice-channel.md)  
 [Azure Cognitive Services - speech to text](https://azure.microsoft.com/services/cognitive-services/text-to-speech/#features)  

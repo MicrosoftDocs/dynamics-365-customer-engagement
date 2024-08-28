@@ -3,8 +3,8 @@ title: Support emergency calls made by agents
 description: Use this article to understand how emergency calls work and how you can set up email recipients for emergency calls in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
-ms.date: 10/05/2023
+ms.reviewer: mgandham
+ms.date: 07/01/2024
 ms.topic: how-to
 ms.custom: bap-template
 ms.collection:
@@ -12,9 +12,11 @@ ms.collection:
 
 # Support emergency calls made by agents
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-This article describes how emergency calling works in Customer Service when agents dial an emergency number during crisis situations.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+
+This article describes how emergency calling works when agents dial an emergency number during crisis situations.
 
 > [!NOTE]
 >
@@ -26,7 +28,7 @@ This article describes how emergency calling works in Customer Service when agen
 Make sure that the following prerequisites are complete so that the emergency calls work properly:
 
 - The omnichannel agent user has a capacity profile associated with a voice outbound profile. For more information, see [Configure capacity profiles](voice-channel-outbound-calling.md#configure-capacity-profiles-and-assign-users) and [Create outbound profiles](configure-outbound-inbound-profiles.md#create-outbound-profiles).
-- Browser location setting is enabled, and set to United States or Puerto Rico.
+- Browser location setting is enabled, and set to United States, Canada, or Puerto Rico.
 - For the email notification, the [mailbox for the agents](/power-platform/admin/create-forward-mailboxes-edit-mailboxes) is enabled.
 - For the emergency call to be handled, one of the following conditions must be fulfilled:
    - The number from which it originates must be a Microsoft calling plan number.
@@ -38,11 +40,11 @@ Make sure that the following prerequisites are complete so that the emergency ca
 
 ## How emergency calls work
 
-In Customer Service workspace or Omnichannel for Customer Service, agents can use the dialer to call the emergency number during a crisis.
+In Customer Service workspace or Contact Center workspace, agents can use the dialer to call the emergency number during a crisis.
 
 Here's how the emergency calls work:
 
-1. The agent calls the emergency number such as 911 in the United States or Puerto Rico.
+1. The agent calls the emergency number such as 911 in the United States, Canada, or Puerto Rico.
 1. The agent status automatically changes to "Do not disturb," irrespective of the current status.
 1. A temporary callback number is assigned to the agent for a duration of 60 minutes. 
 1. If the emergency call is dropped or gets disconnected, then the emergency responder can call back the agent via this callback number. The emergency callback gets the highest priority, bypassing all configured routing rules, capacity profiles, and presence settings.
@@ -55,13 +57,13 @@ Here's how the emergency calls work:
 
 When the agent makes an emergency call, the system can send an automated email to their supervisors or whoever needs to be informed about the call to ensure efficient emergency responder access. The system uses the **Emergency Call Notification Template** to send the email. You can use the **Editor** to modify the template.
 
-1. In the Customer Service admin center, go to **User management** under **Customer support**, and for **Users**, select **Manage**.
+1. In the Customer Service admin center or Contact Center admin center, go to **User management** under **Customer support**, and for **Users**, select **Manage**.
 1. On the page that appears, select the **Omnichannel Users** view, and then select the user that you want to update.
 1. Select the **Omnichannel** tab, and in **Emergency Call Notifications**, add the email addresses of the recipients separated by a semicolon.
 1. Save the changes.
 
 
-### See also
+### Related information
 
 [Set up outbound calling in the voice channel](voice-channel-outbound-calling.md)  
 [Set up inbound calling in the voice channel](voice-channel-inbound-calling.md)  

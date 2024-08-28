@@ -17,6 +17,9 @@ ms.custom:
 
 With the entry-level Team Member license, you can now address self-service support scenarios for your employees using the new Customer Service Team Member app module. Employees can create cases for their problems, such as laptop issues, HR queries, and administrative needs, and interact with agents through the commenting feature. They can also search the knowledge base for solutions pertaining to their problems. 
 
+> [!NOTE]
+> Customer Service Team Member App isn't supported with Dynamics 365 Customer Engagement (on-premises).
+
 ## Install Customer Service Team Member app
 
 The Customer Service Team Member app must be manually installed in your instance and the **Customer Service Team Member** role assigned to the users before they can access it.
@@ -82,7 +85,7 @@ In the Customer Service Team Member app, you can perform the following tasks:
 
 12. If you want to close a case after it has been resolved, you can select the case on the **Active Cases created by me** page and click **Close Case**. Alternatively, you can close the case on the **My Case** page.
 
-### See also
+### Related information
 
 [Dynamics 365 Team Members license](/dynamics365/get-started/team-members-license)  
 

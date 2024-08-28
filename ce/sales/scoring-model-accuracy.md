@@ -109,7 +109,7 @@ If your model isn't ready to publish or isn't performing well, try the following
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure predictive lead scoring](configure-predictive-lead-scoring.md)  
 [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)

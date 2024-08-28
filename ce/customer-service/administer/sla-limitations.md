@@ -36,7 +36,7 @@ The following limitations apply to SLAs created in Unified Interface apps:
 - You can’t manually update SLA time.
 - If you're migrating more than 1000 SLAs, they might not pass the premigration checkup that processes all legacy SLAs. You can use the **&flags=FCB.SkipPreMigrationCheckUp=true** flag in the URL to skip the premigration checkup. To access the URL, go to **Miscellaneous** **>** **ARC and SLA migration** in the Customer Service admin center site map.
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  
