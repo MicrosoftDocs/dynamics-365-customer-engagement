@@ -22,10 +22,10 @@ In 2024, Microsoft released a refreshed user experience for parts of the mobile 
 
 ## Feature list
 
-| Feature | Classic experience  | New experience |  Details |
+| Feature | Persona  | Supported |  Details |
 | --- | --- | --- |  --- |
-| [Camera capture (photo + video)](get-work-done-mobile-app.md) | TODO | TODO |  Use the device camera to capture images and video. |
-| [Barcode scanning](get-work-done-mobile-app.md) | TODO | TODO |  Scan bar code from global search or at a field level. |
+| [Camera capture (photo + video)](get-work-done-mobile-app.md) | Technician | Yes |  Use the device camera to capture images and video. |
+| [Barcode scanning](get-work-done-mobile-app.md) | Technician | Yes |  Scan bar code from global search or at a field level. |
 | [Offline data](work-offline.md) | Technician | Yes |  Offline-enabled application allows you to access your data regardless of internet connectivity. |
 | [Calendar view](customize-booking-calendar.md) | Technician | Yes |   Customize your calendar with data relevant for your organization. |
 | [Driving directions](get-work-done-mobile-app.md#travel-to-a-job-location) | Technician | Yes | Use your favorite in-app map application for turn-by-turn directions. |
@@ -36,10 +36,10 @@ In 2024, Microsoft released a refreshed user experience for parts of the mobile 
 | [Inspections](../inspections.md) | Technician | Yes | A Field Service technician can find and capture inspections associated with a work order. |
 | [Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes* | Get help from remote collaborators with integrated Dynamics 365 Remote Assist. |
 | [Push notifications](enable-push-notifications.md) | Technician | Yes |  Send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
-| [Geofencing](configure-geofencing.md) | Technician | Yes* | Automatically set booking status as a technician arrives or leaves a location. |
+| [Geofencing](configure-geofencing.md) | Technician | Yes | Automatically set booking status as a technician arrives or leaves a location. |
 | [Reporting](create-service-report.md) | Technician | Yes | Generate customer service reports with a signature, with the option to email a PDF. |
 | [Scan to find asset (Global search)](scan-barcode.md) | Technician | Yes |  Not applicable |
-| [Location sharing and auditing](track-technician-location.md) | Admin | Yes* | Enable real-time sharing of the technician's location with the back office. |
+| [Location sharing and auditing](track-technician-location.md) | Admin | Yes | Enable real-time sharing of the technician's location with the back office. |
 | [Enhanced offline sync filters](work-offline.md) | Admin | Yes |  Data available offline by default and the data available offline can be customized. For example, offline data available by location or by accounts for scheduled bookings. |
 | [Offline by default](offline-data-sync.md) | Technician | Yes |  The app is offline by default, so the technician is always ready. |
 | [Allow technician to force data sync](work-offline.md) | Technician | Yes |  The technician can manually force data sync. |
