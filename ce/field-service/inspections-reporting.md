@@ -15,9 +15,9 @@ All responses entered for an inspection are stored in Microsoft Dataverse and ca
 
 The questions and responses are saved into the following Dataverse tables:
 
-- **Customer Voice survey question or msfp_question**: Each inspection question.
-- **Customer Voice survey response or msfp_surveyresponse**: A response to an inspection.
-- **Customer Voice survey question response or msfp_questionresponse**: Each individual response to each inspection question.
+- **Customer Voice survey question** or 'msfp_question': Each inspection question.
+- **Customer Voice survey response** or 'msfp_surveyresponse': A response to an inspection.
+- **Customer Voice survey question response** or 'msfp_questionresponse'**': Each individual response to each inspection question.
 
 ## Enable analysis on inspection responses
 
@@ -35,24 +35,13 @@ Configure how often inspection response should be parsed and organized in a Data
    > [!Note]
    > When analytics frequency is set to **Immediately**, the inspection response is parsed and persisted as soon as the service task is completed; the parsed responses won't be updated even if the technician makes changes and completes the inspection again. However, if the analytics frequency is set to **Daily** or **Custom**, the responses are stored from the latest completion of the service task *before* the flow start time.
 
-## View inspection responses
+## View inspection questions and responses
 
-Questions on inspections are stored in Dataverse, and can be found in the **Customer Voice survey question** table in Power Apps. Here, you can see entries for each question on an inspection.
+Questions on inspections are stored in Dataverse, and can be found in the  table in Power Apps.
 
-> [!div class="mx-imgBorder"]
-> ![Power Apps, showing the Customer Voice survey question entity detail page.](./media/5-snapshot-after-publish-inspection.jpg)
-
-Before any inspection is completed, the **Customer Voice survey question response** table is empty.
-
-> [!div class="mx-imgBorder"]
-> ![Customer Voice survey question responses in Power Apps.](./media/6-response-snapshot-before-completion.jpg)
-
-Back on our sample inspection, we added some responses for the questions, as seen in the following screenshot, and completed the inspection. 
-
-> [!div class="mx-imgBorder"]
-> ![An inspection with questions answered.](./media/7-snapshot-after-response-1.jpg)
-
-Checking again in the **Customer Voice survey question response** table, you see the values to each submitted response from the inspection.
+1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. Select **Tables** and then **All**.
+1. Search for and select the table you want to view. For example,**Customer Voice question response**. This table is empty until an inspection is completed
 
 > [!div class="mx-imgBorder"]
 > ![Power Apps, showing the inspection responses in the Customer Voice survey question response entity.](./media/9-CDS-data-upon-completion.jpg)
