@@ -46,7 +46,7 @@ The following prerequisites must be set for the Microsoft Teams users:
 
   Dynamics 365 uses Graph API to retrieve the number in the **Office phone** field. Agents can then search for the guest user in the Teams tab of transfer or consult.
 
-## Enable agents to consult with Microsoft Teams users via VOIP (Preview)
+## Enable agents to consult with Microsoft Teams users via VOIP
 
 If you've updated to the enhanced voice experience, you can enable your agents to consult with or transfer voice calls to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation. With this feature, SMEs can participate in customer service conversations directly from Microsoft Teams without having to configure a phone number. Any Teams users in your tenant is displayed in the Teams search box can receive calls from your agents.
 
