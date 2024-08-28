@@ -1,8 +1,8 @@
 ---
 title: Advanced settings in the new experience
 description: Learn about advanced settings in the new experience. 
-author: lavanyakr
-ms.author: lavanyakr01
+author: lavanyakr01
+ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: conceptual
 ms.collection: get-started
