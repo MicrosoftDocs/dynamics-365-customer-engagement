@@ -41,7 +41,7 @@ Users with these security roles can sign in to the mobile app as a technician.
 
 The refreshed user experience in the Dynamics 365 Field Service mobile app helps service technicians swiftly access all the information they need. It offers familiar mobile navigation, gestures, and controls to manage work orders, tasks, services, and products. Technicians save valuable time with Copilot in Field Service to quickly update the status of a booking or get a summary of a work order. They can even get detailed information about tasks with [embedded Dynamics 365 Guides](/dynamics365/mixed-reality/guides/admin-connect-field-service-mobile), which provides step-by-step instructions, pictures, and videos.
 
-Configuration options for the refreshed mobile user experience are in the settings area of the Field Service mobile app module. Makers in an organization can access these settings to enable the new user experience and its features.
+Configuration options for the refreshed mobile user experience are in the settings area of the Field Service Mobile app module. Makers in an organization can access these settings to enable the new user experience and its features.
 
 If you use a custom app module and don't see the settings area, [review the troubleshooting guide to show the settings area](/dynamics365/field-service/troubleshooting-mobile-newux#settings-area-is-missing-in-the-field-service-mobile-app-module-navigation).
 
