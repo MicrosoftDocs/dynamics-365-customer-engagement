@@ -20,8 +20,12 @@ Your customer service representatives rely on data and information from a wide v
 
 ## Prerequisites
 
+Make sure the following prerequisites exist:
+
 - The System Administrator role.
-- A license for Copilot Studio is available.
+- A license for Copilot Studio is available. Learn more at:
+    - [Manage Copilot Studio messages and capacity](/microsoft-copilot-studio/requirements-messages-management)
+    - [View billed sessions](/microsoft-copilot-studio/analytics-billed-sessions)
 - Define a custom connector plugin or prompt plugin.
 - Copilot in Customer Service is enabled.
 
@@ -36,6 +40,8 @@ With prompt plugins, you can connect Copilot to Dataverse, and let your agents s
 
 1. To turn on the plugin in the admin app, see [Configure settings](#configure-settings-for-the-custom-connector-and-prompt-plugins).
 
+    > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1nA86]
+
 ## Custom connector plugin
 
 Use the custom connector to create a connector plugin for non-Microsoft solutions like order management. Copilot can then access the relevant data, such as the order details for an order ID that the agent provides.
@@ -44,7 +50,7 @@ Use the custom connector to create a connector plugin for non-Microsoft solution
 1. To configure the plugin action, see [Author a connector action](/microsoft-copilot-studio/copilot-ai-plugins?tabs=c4d365cs#author-a-connector-action).
 1. To turn on the plugin in the admin app, see the **Configure settings for the custom connector and prompt plugins** section in this article.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1niOE]
+   > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1niOE]
 
 ## Certified connector plugin
 
@@ -65,7 +71,11 @@ You can also author plugin actions in Copilot Studio to use certified connectors
    - **Specific user roles**: Select the roles in the list.
 1. Select **Next**.
 1. If it's a prompt plugin, define the input on the **Define inputs(optional)** screen to improve the answers that agents get from Copilot.
-1. Select **Next** and on the **Plugin data** screen, select **Store this plugin's data**. The data is stored in your Dataverse database as part of your agent interactions with Copilot as chat transcripts. More information: [Copilot transcripts and interaction data](../develop/download-copilot-transcript-data.md)
+1. Select **Next** and on the **Plugin data** screen, select **Store this plugin's data**. The data is stored in your Dataverse database as part of your agent interactions with Copilot as chat transcripts. Learn more at [Copilot transcripts and interaction data](../develop/download-copilot-transcript-data.md).
+
+    > [!IMPORTANT]
+    > Irrespective of whether you select the checkbox, Copilot Studio saves all the plugin data as part of agent conversation transcripts. Microsoft doesn't have access to this information.
+
 1. Select **Turn on plugin**.
 
 ### Considerations
