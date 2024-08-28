@@ -1,7 +1,7 @@
 ---
 title: Access related apps from the mobile app
 description: Learn about the related applications and how to access them from the mobile app.
-ms.date: 07/11/2024
+ms.date: 08/19/2024
 ms.topic: conceptual
 ms.subservice: field-service-mobile
 author: JonBaker007

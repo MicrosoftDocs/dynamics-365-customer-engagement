@@ -1,19 +1,15 @@
 ---
-title: Get started with the refreshed mobile experience (Preview)
+title: Get started with the refreshed mobile experience
 description: Learn about the key features and limitations of the new user experience for the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 07/11/2024
+ms.date: 08/19/2024
 author: JonBaker007
 ms.author: jobaker
 ms.collection: bap-ai-copilot 
 ---
 
-# Get started with the refreshed mobile experience (Preview)
-
-[!INCLUDE [public-preview-banner](../../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../../includes/public-preview-note.md)]
+# Get started with the refreshed mobile experience
 
 The new user experience in the Dynamics 365 Field Service mobile app helps service technicians swiftly access information they need. It offers mobile-friendly navigation, gestures, and controls to help technicians save valuable time by quickly updating the status of a booking and get driving directions work location.
 
@@ -21,7 +17,28 @@ The new user experience in the Dynamics 365 Field Service mobile app helps servi
 
 The agenda view in the new mobile experience is optimized for frontline workers. It supports quick access to key actions such as updating the booking status, getting directions, or access to Copilot.
 
-Admins can [configure the agenda view to show fields relevant to the organization's business needs](customize-booking-calendar.md#new-mobile-uxtabvnext).
+Admins can [configure the agenda view to show fields relevant to the organization's business needs](/dynamics365/field-service/mobile/customize-booking-calendar?tabs=vNext).
+
+### Agenda view time update
+
+Updating the booking status the agenda view also updates some time values in the underlying booking record. The following are the values that are updated when the status changes. The list refers to out-of-the-box status to which all custom status are mapped.
+
+- From *Scheduled* to *Traveling*:
+  - Start time is updated to current time
+  - End time is updated to current time + duration
+
+- From *Scheduled* or *Traveling* to *In progress*:
+  - End time is updated to current time + duration
+  - If arrival time is empty (the first time the technician has arrived on site) then arrival time is updated to current time
+
+- From *Completed* to *In progress*:
+  - End time is updated to current time + 1 min
+
+- From any status to *Completed*:
+  - End time is updated to current time
+  - If the a future booking is set to completed (start time is later than the current time), start time is updated to current time - 1 min
+
+Updating the status in agenda view doesn't change the *estimated arrival time*.
 
 ## Navigate the app
 
@@ -70,4 +87,4 @@ In the new mobile user experience, app users can tap the user icon to access the
 - **Timezone**: Set the timezone for the app. If the configuration of the device and the users's settings in Dynamics 365 don't match, the system updates the Dynamics 365 profile to align with the device settings.
 - **Language**: Set the language for the mobile app.
 - **Map**: Define the behavior of the app when getting directions to a customer site and choose the default map provider.
-- **Apps**: If a user has access to multiple Field Service Mobile app modules, they can choose which app module to load.
+- **Apps**: If a user has access to multiple Field Service Mobile app modules, they can choose which app module to load. They can also access app module settings to [turn on optimized image upload](optimize-image-size.md) or get debugging information.
