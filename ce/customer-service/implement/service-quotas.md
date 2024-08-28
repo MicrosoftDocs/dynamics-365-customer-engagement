@@ -59,7 +59,7 @@ Service quotas are the limits on resources, configurations, and items that are p
 
 <sup>5</sup> If eligible agents aren't available to serve the default block size of top priority conversations, then the auto assignment process can appear to be paused. In such cases, we recommend that you use features like overflow management to manage high load or review agent availability, scheduling, and skill configuration to expand the eligible agent pool. If these options aren't adequate, contact Microsoft Support with your business scenario to check whether the block size can be increased.
 
-## Load test the services in Omnichannel for Customer Service
+## Load test the services
 
 Microsoft regularly conducts scale and stress tests on the services that run Omnichannel for Customer Service. These tests are performed at multiples of the peak volume observed in customer production traffic. While the services can sustain high loads, we understand that you might want to verify your own load profile against the services. Your load profile can include customizations, integrations, local networks, or other bespoke solutions that you integrate. Make sure that you perform load tests according to the [Microsoft Cloud Penetration Testing Rules of Engagement](https://www.microsoft.com/msrc/pentest-rules-of-engagement).
 
@@ -69,5 +69,5 @@ Load tests often generate synthetic traffic that targets specific endpoints or u
 
 [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)  
 [System requirements for Customer Service workspace](customer-service-workspace-system-requirements.md)  
-[Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)  
+[Provision channels](../implement/omnichannel-provision-license.md)  
 [Provision unified routing for Customer Service](../administer/provision-unified-routing.md)
