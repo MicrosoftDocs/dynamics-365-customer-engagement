@@ -54,7 +54,7 @@ You can enable or disable this option from the **App Settings** page in Sales Hu
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Scan business cards](scan-business-cards.md)  
 [Customize the business card scanner control](customize-business-card-scan-control.md)  

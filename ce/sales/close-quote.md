@@ -51,7 +51,7 @@ When you [create an order from a quote](create-edit-order-sales.md#create-an-ord
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create or edit quotes](create-edit-quote-sales.md)
 

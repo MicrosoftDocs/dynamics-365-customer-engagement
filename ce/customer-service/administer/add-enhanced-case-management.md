@@ -49,7 +49,7 @@ Perform the following steps:
 
 1. Select **Publish All Customizations**.
 
-### See also
+### Related information
 
 [Work with cases](../use/customer-service-hub-user-guide-create-a-case.md)  
 [Work with queues](../use/work-with-queues.md) 

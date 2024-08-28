@@ -11,7 +11,7 @@ ms.topic: "article"
 author: "msftman"
 ms.assetid: 
 caps.latest.revision:
-ms.author: "deonhe"
+ms.author: jdaly
 search.audienceType: 
   - admin
 ---

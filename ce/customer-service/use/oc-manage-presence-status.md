@@ -147,7 +147,7 @@ See the [Agents report](realtime-agents-analytics.md) in Omnichannel real-time a
 
 See the drill-down views in [Agent dashboard](agent-dashboard.md) in Omnichannel historical analytics dashboard to view the information on agent's presence and custom presence statuses.
 
-### See also
+### Related information
 
 [FAQ on presence](presence-faq.md)  
 [View notifications](oc-notifications.md)  

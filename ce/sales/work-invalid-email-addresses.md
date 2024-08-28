@@ -85,6 +85,6 @@ You can also send email to an invalid address by creating a manual email activit
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable email validation](enable-email-validation.md)

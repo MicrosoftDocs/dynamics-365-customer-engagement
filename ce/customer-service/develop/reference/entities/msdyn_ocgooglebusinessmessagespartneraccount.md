@@ -750,7 +750,7 @@ Same as msdyn_ocbotchannelregistration table [msdyn_msdyn_ocgbmpartneraccount_ms
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### See also
+### Related information
 
 [About the Entity Reference](overview-entity-ref.md)  
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)  

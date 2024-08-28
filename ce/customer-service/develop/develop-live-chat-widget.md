@@ -73,7 +73,7 @@ After you install the latest version of the Omnichannel Chat SDK, customize your
 > [!NOTE]
 > The Omnichannel Chat SDK is a prerequisite for installing the Omnichannel Live Chat Widget UI Components library.
 
-### See also
+### Related information
 
 [Customize live chat widgets for mobile apps](render-live-chat-widget-mobile.md)  
 [startChat](reference/methods/startchat.md)  

@@ -40,7 +40,7 @@ In admin center, select the **Make chats persistent** checkbox when you create t
 
 Make sure that you set the **Keep same agent for entire conversation** toggle to **Yes** in the **Work distribution** settings of the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
-### See also
+### Related information
 
 [Configure a chat widget](add-chat-widget.md)  
 [Create and manage workstreams](create-workstreams.md)  

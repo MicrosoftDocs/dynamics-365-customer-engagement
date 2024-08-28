@@ -53,7 +53,7 @@ This article discusses how you can configure an SMS channel using Azure Communic
 
 [Create message templates](create-message-templates.md)  
 
-### See also
+### Related information
 
 [Channels in Omnichannel for Customer Service](../use/channels.md)  
 [Overview of SMS channels](../use/sms-channel-overview.md)  

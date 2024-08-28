@@ -120,7 +120,7 @@ For an outgoing message sent by an agent from within Dynamics 365, the message i
 When you validate the SMS settings while setting up the SMS channel, a call is made to Twilio to validate the Account SID and Auth Token.
 
 
-### See also
+### Related information
 
 [Channels in Omnichannel for Customer Service](../use/channels.md)  
 [Overview of SMS channels](../use/sms-channel-overview.md)  

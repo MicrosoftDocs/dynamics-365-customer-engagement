@@ -178,7 +178,7 @@ When a work item is labeled with multiple capacity profiles, the assignment stra
 2. An agent who has capacity in both these profiles only is selected. When the work item is assigned, capacity is consumed from both the profiles.
 3. Similarly, for normal priority cases, the capacity is consumed from both "Total-capacity profile" and "Normal-priority profile".
 
-### See also
+### Related information
 
 [Create workstreams](create-workstreams.md)  
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  

@@ -43,7 +43,7 @@ The following image shows a sample screenshot of the customer experience.
   > [!div class=mx-imgBorder]
   > ![Real-time language translation for the customer.](../media/oc-customer-translated-messages.png "Real-time language translation for the customer")
 
-### See also
+### Related information
 
 [View customer information on Active Conversation form](../use/oc-customer-summary.md)  
 [View communication panel](oc-conversation-control.md)  

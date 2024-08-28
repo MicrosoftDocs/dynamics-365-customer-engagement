@@ -1,11 +1,13 @@
 ---
 title: Overview of Service Scheduling
 description: This article provides an overview of service scheduling, detailing how to optimally schedule resources for improved service quality and efficiency.
-ms.date: 06/06/2024
+ms.date: 07/30/2024
 author: Soumyasd27
 ms.author: sdas
 ms.topic: conceptual
-ms.custom: bap-template
+ms.custom: 
+- bap-template
+- evergreen
 ---
 
 # Overview of Service Scheduling
@@ -84,7 +86,7 @@ Let's see how Contoso accomplishes the task:
 
    ![schedule-board.](../media/schedule-board-csh.png)  
 
-### See also    
+### Related information    
     
 [Understand scheduling entities](scheduling.entities.md#understand-scheduling-entities)  
 [Set up the Service Scheduling experience](scheduling-experience.md)  

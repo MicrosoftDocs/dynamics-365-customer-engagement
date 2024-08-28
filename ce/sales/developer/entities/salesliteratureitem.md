@@ -680,7 +680,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See the [sales_literature_items](salesliterature.md#BKMK_sales_literature_items) one-to-many relationship for the [salesliterature](salesliterature.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

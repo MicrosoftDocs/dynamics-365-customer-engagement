@@ -1406,7 +1406,7 @@ See the [opportunityproduct_parentref_opportunityproduct](opportunityproduct.md#
 
 See the [product_opportunities](opportunity.md#BKMK_product_opportunities) one-to-many relationship for the [opportunity](opportunity.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

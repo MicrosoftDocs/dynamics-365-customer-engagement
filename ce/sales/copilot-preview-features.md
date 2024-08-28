@@ -1,7 +1,7 @@
 ---
 title: Turn on preview features for Copilot in Dynamics 365 Sales
 description: Learn how to turn on all preview features in Sales to access preview features before their official release.
-ms.date: 05/22/2024
+ms.date: 08/05/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -35,7 +35,6 @@ The following table lists the Copilot preview features that are available in Dyn
 | Preview feature | Description |
 |-----------------------|---------|
 | Copilot for Email | [Compose and send email messages using Copilot](compose-send-email-copilot.md). |
-| Document summarization | [Summarize documents or proposals associated with a record](copilot-get-information.md#copilot-doc-summarization) to understand the key points. |
 | Full-screen, immersive view | [Open Copilot in full-screen view (preview)](use-sales-copilot.md#open-copilot-immersive) when you want more space and focus to chat with Copilot and ask questions. |
 | Account summarization | [Summarize an account in your organization](copilot-get-information.md#summarize-an-account) |
 

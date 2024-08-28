@@ -53,7 +53,7 @@ For information about creating push notifications, go to [Create push notificati
     ![Validate the inputs of a flow.](media/flow-inputs.png "Validate the inputs of a flow")
 
 
-### See also
+## Related information
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
 [Learn the basics](learn-basics-mobile-app.md)

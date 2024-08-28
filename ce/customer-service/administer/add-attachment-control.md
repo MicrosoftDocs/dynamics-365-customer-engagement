@@ -57,7 +57,7 @@ On the required form, add the **Attachment Control** component.  More informatio
 | Show attachments from email | Set this value to **Yes** or **No** to display or hide the attachments sent through email, for any entity.|  
 | Show attachments from notes | Set this value to **Yes** or **No** to display or hide the attachments that were added to notes on the timeline, for any entity.|  
 
-### See also
+### Related information
 
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)   
 [Get started with Customer Service workspace](../implement/csw-overview.md) 

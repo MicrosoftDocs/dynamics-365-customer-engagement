@@ -88,6 +88,6 @@ The following three scenarios are the examples of how to use notes analysis in y
 
 For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sellers, see [Privacy notice](./privacy-notice.md).
 
-### See also
+## Related information
 
 [Configure Notes analysis](configure-notes-analysis.md)  

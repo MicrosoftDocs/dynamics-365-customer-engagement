@@ -125,7 +125,7 @@ Effort estimate-based routing is supported only in the following languages:
 - Japanese
 - Spanish
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [How to set up unified routing](set-up-routing-process.md)  

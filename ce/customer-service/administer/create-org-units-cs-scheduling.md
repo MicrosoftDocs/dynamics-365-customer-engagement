@@ -1,16 +1,17 @@
 ---
-title: Create organizational units in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Know how to create organizational units in service scheduling in Dynamics 365 Customer Service
-ms.date: 04/04/2022
+title: Create and manage organizational units
+description: Know how to create organizational units in service scheduling in Dynamics 365 Customer Service.
+ms.date: 08/20/2024
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: Soumyasd27
+ms.author: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
+  - evergreen
 ---
 
 # Create and manage organizational units  
@@ -22,8 +23,7 @@ Create organizational units to organize and maintain a company's business by geo
 ## Create a new organizational unit
 
 Make sure that you have the required security role or equivalent permissions. 
-
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
+Learn more in [Manage security roles in service scheduling](manage-security-roles.md).
 
 You can create a new organizational unit in the Customer Service admin center or Customer Service Hub app.
 
@@ -34,7 +34,7 @@ You can create a new organizational unit in the Customer Service admin center or
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     1. In the **Organizational units** section, select **Manage**.                                                                         
         
-        The **Active Organizational Units** view is displayed. You can switch between various system views using the drop-down list.  
+        The **Active Organizational Units** view is displayed. You can switch between various system views using the dropdown list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
@@ -45,14 +45,14 @@ You can create a new organizational unit in the Customer Service admin center or
      
  2. On the command bar, select **New** to create a new organizational unit.
  3. In the **General** section, type a **Name** for the organizational unit.
- 4. In the **Scheduling** section, Provide **Latitude** and **Longitude** for the organizational unit.
- 5. Select **Save** to save the new organizational unit. The new record is saved and activated by default.
+ 4. In the **Scheduling** section, provide **Latitude** and **Longitude** for the organizational unit.
+ 5. Select **Save**. The new record is saved and activated by default.
   
   Active organizational units can be edited, assigned, shared, or viewed from the **Active Organizational Units** system view.
   
    ![create organizational unit.](../media/org_units.png)
 
-### See also
+### Related information
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
 

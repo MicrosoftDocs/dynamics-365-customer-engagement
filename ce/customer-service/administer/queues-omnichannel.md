@@ -106,7 +106,7 @@ Default queues are a finite set of system-defined queues that help you manage wo
 
 For a workstream, you can set any queue as a fallback queue, including a default queue but vice versa isn't possible. You can update the assignment method only for the default queues. However, we recommend that you always create advanced queues and define the assignment strategy instead of using the default queues. No other settings are available to edit.
 
-### See also
+### Related information
 
 [Create and manage workstreams](create-workstreams.md)  
 [Create and manage assignment methods](configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)  

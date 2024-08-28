@@ -74,7 +74,7 @@ When Omnichannel for Customer Service doesn't have the required solutions, the f
 ![Next step.](../media/right-arrow.png) [Set up the user as a bookable resource](users-user-profiles.md)  
 ![Home.](../media/home-button.png) [Process for setting up unified routing](set-up-routing-process.md)  
 
-### See also
+### Related information
 
 [Provide consent to access data](../implement/data-access-consent.md)  
 [Set up record routing](set-up-record-routing.md)  

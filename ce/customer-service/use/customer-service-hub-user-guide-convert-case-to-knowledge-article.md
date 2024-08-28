@@ -39,7 +39,7 @@ There are times when existing knowledge articles don't contain relevant informat
 
 The knowledge article is created regardless of whether you set **Open the new knowledge article** to **Yes** or **No**.  
 
-### See also
+### Related information
 
 [Learn the basics of the Customer Service Hub ](../implement/customer-service-hub-user-guide-basics.md)
 

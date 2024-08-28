@@ -42,7 +42,7 @@ You can uninstall LinkedIn Sales Navigator if you don't want to use it in your o
 6. Select **OK** in the confirmation message that appears.    
 7. Repeat steps 3 through 6 for the **LinkedIn** and **msdyn_LinkedInSalesNavigatorAnchor** solutions.
 
-### See also
+## Related information
 
 [Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)  
 [Disable LinkedIn Sales Navigator](disable-sales-navigator.md)

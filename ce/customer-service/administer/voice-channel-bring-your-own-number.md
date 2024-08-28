@@ -11,9 +11,6 @@ ms.author: nenellim
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
-
 Azure Communication Services direct routing enables you to connect your existing telephony infrastructure with Azure so that you can retain your existing carrier and phone numbers, and streamline inter-office call transfers.
 
 ## Prerequisites
@@ -62,7 +59,7 @@ The new phone number will be displayed in the **Phone numbers** list and is read
 - Ensure that you have sufficient transcoding licenses if your service provider and Azure Communication Services don't support the same codec.
 
   
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

@@ -76,7 +76,7 @@ The following table lists the components of the smart assist card for AI-suggest
 
 If no cases match, then the card displays an appropriate message, such as "No suggestions found for similar cases."
 
-### See also
+### Related information
 
 [Enable AI-suggested cases and knowledge articles](../administer/csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Smart assist suggestions using bot user](oc-smart-assist.md)  
