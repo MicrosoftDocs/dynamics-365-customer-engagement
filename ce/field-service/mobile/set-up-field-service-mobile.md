@@ -51,7 +51,7 @@ You need Field Service - Administrator permissions to enable the refreshed user 
 
 :::image type="content" source="../media/FSM-newux-settings.png" alt-text="Screenshot of the Settings page for the Field Service mobile app module.":::
 
-1. Open the Field Service mobile app module in a web browser.
+1. Open the Field Service Mobile app module in a web browser.
 
 1. Change to the **Settings** area and go to **Mobile settings** > **Features**.
 
@@ -65,7 +65,7 @@ Users don't need to download a new app. However, make sure you have at least the
 
 After enabling the new mobile experience, you can choose to enable preview features, such as copilot skills that are available in the new mobile experience.
 
-1. Open the Field Service mobile app module in a web browser.
+1. Open the Field Service Mobile app module in a web browser.
 
 1. Change to the **Settings** area and go to **Mobile settings** > **Features**.
 
