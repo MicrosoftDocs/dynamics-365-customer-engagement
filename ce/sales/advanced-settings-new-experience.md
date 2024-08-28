@@ -28,10 +28,17 @@ The following screenshot shows the advanced settings in the unified interface:
 
 :::image type="content" source="media/advanced-settings-new-exp.png" alt-text="Screenshot of the unified interface for Advanced settings.":::
 
-The following table compares the advanced settings in the unified interface with the legacy web cient:
+### Similarities and differences
 
-| Action                    | Navigation in legacy web client                                          | Navigation in unified interface                                          | More info about new experience                                                                 |
-|---------------------------|---------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| Customize a table or entity | Customization > Customize the System > Entities > Entity | Customization > Customize the system > Tables > Table   | [Create and edit tables using Power Apps](/power-apps/maker/data-platform/create-edit-entities-portal?tabs=excel) |
-| Customize forms           | Customization > Customize the System > Components > Entities > Entity > Forms | Customization > Customize the system > Tables > Table > Forms | [Create, edit, or configure forms using the model-driven form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms) |
-| Customize views           | Customization > Customize the System > Entities > Entity > Views | Customization > Customize the system > Tables > Table > Views | [Create and edit public model-driven app views](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view) |
+The advanced settings in the unified interface has similar navigation path and functionalities as the legacy web client. However, there are some key differences that you should be aware of.
+
+- Entities are referred to as Tables.
+- Customizations are done in Power Apps.
+- Navigation paths are similar in most cases, but there are some minor changes as shown in the table below.
+
+| Old navigation                                                                 | New navigation                                                                 |
+|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Customizations > Customize the system > Components > Entities                  | Customizations > Customize the system > Tables                    |
+| System > Administration > System Settings                         | System > Administration                       |
+| System > Administration > System Settings > Sales             | Moved to **App Settings** page in the Sales Hub app                                    |
+| Customizations > Customize the System > Components > Entities > Select entity > Controls tab | Customizations > Customize the system > Tables > Select table > Forms > Select form > Components |
