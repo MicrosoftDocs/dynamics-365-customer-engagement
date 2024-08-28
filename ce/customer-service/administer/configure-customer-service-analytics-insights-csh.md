@@ -63,7 +63,7 @@ Users with the system administrator or supervisor role can access the analytics 
 > - To bookmark a report, grant **Create**, **Read**, **Write**, and **Delete** privileges to the security roles as applicable, for the **Report Bookmark** custom entity.
 > - To edit analytics reports, grant the **Analytics Report Author** role. For information about assigning user roles, go to [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
 
-### See also
+### Related information
 
 [Create or edit a security role to manage user access](/power-platform/admin/create-edit-security-role#create-a-security-role.md)  
 [Introduction to Customer Service analytics and insights](../implement/customer-service-analytics.md)  

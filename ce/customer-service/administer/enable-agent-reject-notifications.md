@@ -29,7 +29,7 @@ You can enable agent presence to be updated automatically to **Do not disturb** 
 > [!div class=mx-imgBorder] 
 > ![Enable agent reject notifications.](../media/enable-agent-reject-notifications.png "Enable agent reject notifications")
 
-### See also
+### Related information
 
 [Manage notification settings and templates](/dynamics365/app-profile-manager/notification-templates)  
 [View notifications](../use/oc-notifications.md)  

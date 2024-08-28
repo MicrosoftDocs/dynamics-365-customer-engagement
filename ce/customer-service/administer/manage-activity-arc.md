@@ -49,6 +49,6 @@ In Customer Service admin center, **Customer support** > **Overview** > **Case s
    - Failed
    - Skipped
 
-## See also
+## Related information
 
 [Automatically create or update records](automatically-create-update-records.md)

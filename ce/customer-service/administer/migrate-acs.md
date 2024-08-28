@@ -29,7 +29,7 @@ As part of the migration to the omnichannel messaging platform, we released a ne
 > [!NOTE]
 > These changes won't impact your existing omnichannel experience. We'll work with you to help you navigate and test the changes to ensure a smooth transition.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../implement/introduction-omnichannel.md)  
 [Omnichannel for Customer Service system requirements](../implement/system-requirements-omnichannel.md)  

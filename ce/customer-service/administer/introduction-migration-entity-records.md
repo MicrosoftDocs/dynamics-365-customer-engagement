@@ -49,7 +49,7 @@ Consider the following scenarios before you begin migration:
 
 After successful installation, you can access scheduling in the Customer Service Hub sitemap.
 
-## See also
+## Related information
 
 [Plan your migration](plan-migration.md)
 

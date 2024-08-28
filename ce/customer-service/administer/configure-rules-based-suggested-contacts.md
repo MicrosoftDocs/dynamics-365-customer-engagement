@@ -95,7 +95,7 @@ To ensure that the user's language is localized, make sure they have Read privil
 - msdyn_contactsuggestionrule
 - msdyn_contactsuggestionruleset
 
-### See also
+### Related information
 
 [Configure Microsoft Teams chat in Customer Service](configure-teams-chat.md)   
 [Use Teams chat in Customer Service](../use/use-teams-chat.md)

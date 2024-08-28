@@ -57,7 +57,7 @@ You can now call the phone number assigned to the third-party IVR system and ach
 > Call record and transcriptions from the third-party IVR call with the customer aren't available for agents.
 
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

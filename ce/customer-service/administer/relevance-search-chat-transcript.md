@@ -57,7 +57,7 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 5. Select **Save**, and then select **Publish**.
 
-### See also
+### Related information
 
 [Search for transcripts](../use/oc-search-transcipts.md)
 

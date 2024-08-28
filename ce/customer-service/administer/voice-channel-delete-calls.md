@@ -24,6 +24,6 @@ Alternatively, you can delete the recordings from the [msdyn_ocrecording](../dev
 
 You can also delete call recordings in bulk. More information: [Bulk deletion](/power-platform/admin/delete-bulk-records)
 
-### See also
+### Related information
 
 [Configure call recording, transcription, and real-time translation](voice-channel-configure-transcripts.md)

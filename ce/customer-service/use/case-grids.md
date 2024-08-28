@@ -78,7 +78,7 @@ You can also add columns to your existing views. For example, if you want to add
 1.	Select **Last Interaction**, and then select **Close**. **Last Interaction** appears in the **Edit columns** dialog.
 1.	Select **Apply**. If you want to change the sequence of the columns, select **Move up**, and then select **Apply**.
 
-### See also
+### Related information
 
 [Enable case grids](../administer/enable-case-grids.md)
 [Enable entities for service-level agreements](../administer/enable-entities-service-level-agreements.md)  

@@ -461,7 +461,7 @@ After you import the unified routing-related configuration data successfully fro
 
 [!INCLUDE[ur-migration considerations](../../includes/cc-ur-migration-considerations.md)]
 
-### See also
+### Related information
 
 [Migrate configurations for record routing using solutions](migrate-record-routing-config-using-solutions.md)  
 [Microsoft Power Platform Build Tools for Azure DevOps](/power-platform/alm/devops-build-tools)  

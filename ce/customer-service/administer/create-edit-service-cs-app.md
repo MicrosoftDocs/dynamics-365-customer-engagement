@@ -81,7 +81,7 @@ A service requires at least one selection rule and one or more resources, resour
 ## Activate or deactivate a service  
  You can make a service available on unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, then select **More Actions** > **Activate** or **More actions** > **Deactivate**.  
   
-### See also  
+### Related information  
  [Set the capacity required for a service or resource](set-capacity-required-service-resource.md)   
  [Create or edit a selection rule](create-simple-selection-rule.md)   
  [Create or change a resource group](create-edit-resource-group.md)   

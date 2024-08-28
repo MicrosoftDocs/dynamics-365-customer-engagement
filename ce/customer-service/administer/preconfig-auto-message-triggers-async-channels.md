@@ -38,7 +38,7 @@ The following table lists the automated messages that are displayed to customers
 
 [Configure custom messaging channel](configure-custom-channel.md)  
 
-### See also
+### Related information
 
 [Overview of channels](../use/channels.md)  
 [Support for live chat and asynchronous channels](../use/channels.md)  

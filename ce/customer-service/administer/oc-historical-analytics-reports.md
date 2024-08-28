@@ -127,7 +127,7 @@ If you customized the Customer Service workspace app, you must complete the foll
     - **Outlook shortcut**: **Offline availability**.
 1. Select **Save**, and then select **Publish**.
 
-### See also
+### Related information
 
 [Dashboard Overview](../use/customer-service-analytics-insights-csh.md)  
 [Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md)  

@@ -718,7 +718,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See msdyn_livechatconfig Entity [msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
