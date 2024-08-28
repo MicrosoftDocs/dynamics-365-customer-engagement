@@ -19,7 +19,7 @@ The Dynamics 365 Field Service mobile app on iOS and Android lets technicians tu
 
 ## Turn on optimized image upload
 
-1. Open the Field Service Mobile app on your mobile app.
+1. Open the Field Service mobile app on your mobile app.
 1. Go to the environment selection menu:
 
    - In the Unified Interface app, open the navigation, select your profile image, and then select **Reconfigure**.

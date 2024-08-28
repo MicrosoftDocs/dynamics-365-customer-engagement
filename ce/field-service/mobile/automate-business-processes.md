@@ -8,6 +8,9 @@ author: JonBaker007
 ms.author: jobaker
 ---
 
+<!-- Check the sentence in line 28. It isn't complete. -->
+
+
 # Create workflows and scripts for the mobile app
 
 Administrators can use tools like Power Automate flows, classic background workflows, JavaScript, or business rules to automate business processes. Some processes work when the Dynamics 365 Field Service mobile app runs [offline first](work-offline.md) and others require internet connectivity.
@@ -22,8 +25,6 @@ Workflows and flows require an internet connection. When the app is running in o
 
 Business rules and recommendations apply logic without writing code or creating plug-ins. For more information, see [Create a business rule for a table](/power-apps/maker/data-platform/data-platform-create-business-rule).
 
-Business rules online and in offline-first mode.
-
 ## Custom process actions
 
 Actions open a broad set of options to compose business logic. [Use custom process actions](/power-apps/maker/data-platform/actions) to perform several operations in sequence.
@@ -36,7 +37,7 @@ You can add [JavaScript web resources](/power-apps/developer/model-driven-apps/s
 
 JavaScript web resources run with or without internet connection.
 
-See [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities) for potential limitations regarding your the planned code.
+See [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities) for potential limitations regarding your planned code.
 
 ## Debugging the mobile app
 

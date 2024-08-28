@@ -16,9 +16,9 @@ ms.collection: bap-ai-copilot
 
 # Work with the mobile app (Unified Interface)
 
-The Dynamics 365 Field Service mobile app helps frontline workers complete work orders efficiently and effectively. They can view jobs in a daily overview, dive into detailed instructions, and update work orders on the go. Field Service mobile app uses the Power Apps mobile app as a player for the model-driven Field Service Mobile app module. Therefore, core concepts like navigation, views, actions are explained in the here: [Use model-driven apps in the Power Apps mobile app](/power-apps/mobile/use-custom-model-driven-app-on-mobile).
+The Dynamics 365 Field Service mobile app helps frontline workers complete work orders efficiently and effectively. They can view jobs in a daily overview, dive into detailed instructions, and update work orders on the go. The Field Service mobile app uses the Power Apps mobile app as a player for the model-driven Field Service mobile app module. Therefore, core concepts like navigation, views, and actions are explained here: [Use model-driven apps in the Power Apps mobile app](/power-apps/mobile/use-custom-model-driven-app-on-mobile).
 
-This article discusses concepts that are specific to the Field Service mobile app its common scenarios.
+This article discusses concepts that are specific to the Field Service mobile app and its common scenarios.
 
 ## Sign in
 
@@ -36,12 +36,12 @@ Frontline workers can [view their daily bookings on a map](booking-maps.md).
 
 ## Travel to a job location
 
-Select a booking to see more details about the job, such as booking time, planned duration, or the related work order. Frontline workers can change the status of a booking when they're driving to the job location. The **Customer** tab shows the work order location lets users get turn-by-turn directions.
+Select a booking to see more details about the job, such as booking time, planned duration, or the related work order. Frontline workers can change the status of a booking when they're driving to the job location. The **Customer** tab shows the work order location and lets users get turn-by-turn directions.
 
 :::image type="content" source="../media/mobile-2020-work-order-navigate-directions-map.jpg" alt-text="Renderings of two mobile devices showing booking status and a mapped work location in the Field Service mobile app.":::
 
 For more complex locations, Field Service supports [functional locations that let you structure locations](../functional-locations.md). Watch this video to learn more about functional locations in the Field Service mobile app:
-
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
 
 ## Do and record your work
@@ -68,7 +68,7 @@ When the mobile device has internet connection, users can view and interact with
 
 :::image type="content" source="../media/mobile-2020-customer-asset-navigate.png" alt-text="Renderings of three mobile devices showing information about customer assets in the Field Service mobile app.":::
 
-Sometimes, it's handy to scan a barcode to find records that have a matching barcode field, especially in the context of assets. For example, when installing a new device and making sure the serial number gets captured in the system. An administrator can [set up barcode scanning](scan-barcode.md) and add it to the relevant forms.
+Sometimes, it's handy to scan a barcode to find records that have a matching barcode field, especially in the context of assets (for example, when installing a new device and making sure the serial number gets captured in the system). An administrator can [set up barcode scanning](scan-barcode.md) and add it to the relevant forms.
 
 ## Track time
 
@@ -79,12 +79,12 @@ From the main menu, go to **Time Entry** to create them.
 :::image type="content" source="../media/mobile-2020-time-entry-all.png" alt-text="Renderings of three mobile devices showing the process of entering time in the Field Service mobile app.":::
 
 Watch this video to learn more about time entry in the Field Service mobile app:
-
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mQ]
 
 ## Create follow-up work orders
 
-To schedule more work for another time, users can create follow-up work orders. This might come in handy, when they are working on a job and notice that something else needs fixing and they are missing the spare part.
+To schedule more work for another time, users can create follow-up work orders. This might come in handy when they are working on a job and notice that something else needs fixing and they are missing the spare part.
 
 To create a follow-up work order, select the **Follow up** option in the bottom app menu. The following fields are already filled in based on the current work order:
 
@@ -99,17 +99,17 @@ To create a follow-up work order, select the **Follow up** option in the bottom 
 
 After saving the work order, a dispatcher can schedule it.
 
-If users don't see the follow up option, an administrator needs to assign them [**create** permissions](../users-licenses-permissions.md)] to the work order table.
+If users don't see the follow-up option, an administrator needs to assign them [**create** permissions](../users-licenses-permissions.md)] to the work order table.
 
-:::image type="content" source="../media/mobile-2020-follow-up.png" alt-text="Rendering of a mobile device showing the Follow up option in the Field Service mobile app.":::
+:::image type="content" source="../media/mobile-2020-follow-up.png" alt-text="Rendering of a mobile device showing the Follow-up option in the Field Service mobile app.":::
 
 Watch this video to learn more about follow-up work orders in the Field Service mobile app:
-
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyHY4]
 
 ## Troubleshoot app issues
 
-Issues with the Field Service mobile app are often the result of corrupted data. You can often solve them yourself by deleting the app's cached data.
+Issues with the Field Service mobile app can be the result of corrupted data. You can often solve them by deleting the app's cached data.
 
 Select your profile icon in the upper-left corner, select **Reconfigure**, and confirm when you're prompted to do so.
 
