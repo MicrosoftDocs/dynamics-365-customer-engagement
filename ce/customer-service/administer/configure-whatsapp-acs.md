@@ -1,5 +1,5 @@
 ---
-title: Configure a WhatsApp channel through Azure Communication Services
+title: Configure a WhatsApp channel through Azure Communication Services (preview)
 description: Use this article to learn how to configure the WhatsApp channel through Twilio in Omnichannel for Customer Service.
 ms.date: 06/14/2024
 ms.topic: how-to
@@ -10,11 +10,16 @@ ms.collection:
 ms.custom: bap-template
 ---
 
-# Configure a WhatsApp channel through Azure Communication Services
+# Configure a WhatsApp channel through Azure Communication Services (preview)
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+> [!IMPORTANT]
+> This is a preview feature.
+> Preview features aren’t meant for production use and might have restricted functionality. To sign up to use this feature, fill out [this](https://forms.office.com/r/xu3K2hDic1) form.
+
 The success of social media customer service, like all other customer services, depends on the quality of customer care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves customer satisfaction and brand loyalty. To enhance customer satisfaction and improve communications, the omnichannel capability in the application enables you to send and receive WhatsApp messages using [Azure Communication Services](/azure/communication-services). You can use the WhatsApp channel feature to engage in conversations with customers for product inquiry and customer service scenarios with those who prefer to communicate using WhatsApp. 
+
 
 ## Prerequisites
 
@@ -29,7 +34,7 @@ The success of social media customer service, like all other customer services, 
 
 ## End-to-end walkthrough
 
-1. 1.	Get Azure Communication Services details to connect.
+1. Get Azure Communication Services details to connect.
 2. Create a WhatsApp channel
 3. Create routing rules
 4. Modify settings for a specific WhatsApp phone number
@@ -55,10 +60,6 @@ Copy the following information from the [Azure portal](https://ms.portal.azure.c
 1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
    
 1. Select the required **Provider**. Based on your selection, specify the following details.
-
-   ### [Azure Communication Services (preview)](#tab/azurecommunicationservices)
-
-   [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
  
     You must specify the information you've copied from in [Fetch Azure Communication Services details](#azure-communication-services-1).
     
