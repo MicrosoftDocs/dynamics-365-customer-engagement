@@ -21,13 +21,13 @@ You can reset, restore, or recover your omnichannel environments.
 
 This operation restores the environment to its original state. It can be used create a new project, free up storage space, and remove an environment containing personal data. In Power Platform admin center, follow the steps in [Reset environment](/power-platform/admin/reset-environment) to reset the environment.
 
-After you reset the environment, you must provision the channels again to use omnichannel capabilities. Learn more at [provision channels](omnichannel-provision-license.md).
+After you reset the environment, you must provision the channels again to use omnichannel capabilities. Learn more at [provision channels](omnichannel-provision-channels.md).
 
 ## Restore organization
 
 This process involves returning the environment to a previous state using a backup or restore point to recover data and ensure continuous availability of service. To restore the environment, perform the steps in [Restore environment](/power-platform/admin/backup-restore-environments) in Power Platform admin center.
 
-After you restore the environment, you must provision the channels again to use omnichannel capabilities. Learn more at [provision channels](omnichannel-provision-license.md).
+After you restore the environment, you must provision the channels again to use omnichannel capabilities. Learn more at [provision channels](omnichannel-provision-channels.md).
 
 ## Recover organization
 

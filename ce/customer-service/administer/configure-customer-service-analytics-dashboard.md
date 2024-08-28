@@ -120,9 +120,6 @@ You must share the configured application with your entire organization for supe
 
     The app is now available to install for all individuals in your organization.
 
-> [!NOTE]
-> Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. To learn more, see [Set up Omnichannel for Customer Service](../implement/omnichannel-provision-channels.md#set-up-omnichannel-for-customer-service-).  
-
 ## Step 6: Enable Power BI reporting
 
 As an administrator, you must enable Power BI reporting in the Power Platform environment for supervisors to view the dashboards.

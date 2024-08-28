@@ -133,7 +133,7 @@ The entities and their secret attributes are as follows. For more information on
 
 ### Related information
 
-[Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
+[Provision channels](omnichannel-provision-channels.md)  
 [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md)  
 [Role personas for unified routing](../administer/role-persona-mapping.md)  
 [Guide agents with scripts](../administer/agent-scripts.md)  

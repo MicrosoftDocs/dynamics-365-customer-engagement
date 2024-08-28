@@ -18,7 +18,7 @@ Apple Messages for Business supports rich messaging experiences, allowing custom
 
 ## Prerequisites
 
-Before you configure the Apple Messages for Business channel in Dynamics 365 Omnichannel for Customer Service, ensure that the following prerequisites are met:
+Before you configure the Apple Messages for Business channel in Contact Center admin center or Customer Service admin center, ensure that the following prerequisites are met:
 
 1. Register your business with Apple Business Register. Learn more at [Apple Business Register](https://register.apple.com/)
 1. Enable Messages for Business and create a Messages for Business account for your brand. Learn more at [Apple Messages for Business Accounts Introduction](https://register.apple.com/resources/messages/messaging-documentation/)
@@ -44,7 +44,7 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
 ## Configure an Apple Messages for Business channel instance
 
 
-1. In the site map of Customer Service admin center, select **Channels** in **Customer Support**.
+1. In the site map of Contact Center admin center or Customer Service admin center, select **Channels** in **Customer Support**.
 
 1. Go to **Accounts** > **Messaging accounts** > **Manage**, and then on the **Accounts and channels** page, select **Add account**.
 
