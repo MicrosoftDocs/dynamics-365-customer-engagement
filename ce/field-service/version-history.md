@@ -232,4 +232,4 @@ Fixed several issues on the Get Started page:
 -	Added option in the Power Apps portal to make work order preview grid lookups editable.
 -	Functional location hierarchy can now be visualized inline on the new work order location section.
 
-
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]
