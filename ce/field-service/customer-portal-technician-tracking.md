@@ -22,7 +22,7 @@ Provide your customers with automated service reminders and notifications that i
 ## Prerequisites
 
 - The Field Service mobile app.
-- The [Technician location sharing](mobile/mobile-powerapp-location-auditing.md) enabled in Field Service and allowed from the technician's mobile device.
+- The [Technician location sharing](mobile/track-technician-location.md) enabled in Field Service and allowed from the technician's mobile device.
 - An SMS provider with a supported Power Automate connector for mobile SMS communication.
 - An email provider with a supported Power Automate connector such as Office 365 Outlook for email communications.
 
