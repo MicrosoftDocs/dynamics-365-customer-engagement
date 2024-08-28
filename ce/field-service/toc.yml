@@ -358,7 +358,7 @@ items:
           href: mobile/create-service-report.md
         - name: Optimize image upload
           href: mobile/optimize-image-size.md
-      - name: Use the new experience (Preview)
+      - name: Use the new experience
         href: mobile/do-work-newux.md
 
     - name: Customize the mobile app
