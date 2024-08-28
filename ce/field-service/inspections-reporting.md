@@ -1,7 +1,7 @@
 ---
 title: Run reports on inspection responses
 description: Learn how to run reports for inspection responses in Dynamics 365 Field Service.
-ms.date: 08/22/2023
+ms.date: 08/28/2024
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
@@ -9,35 +9,33 @@ ms.author: jshum
 
 # Run reports on inspection responses
 
-Create reports or dashboards, for example, in Power BI to analyze and act based on the inspection responses provided by technicians. 
+Create reports or dashboards, for example, in Power BI to analyze and act based on the inspection responses provided by technicians.
 
-## Understand, view, and report inspection responses
+All responses entered for an inspection are stored in Microsoft Dataverse and can be parsed into individual question responses.
 
-All responses entered for an inspection are stored in Microsoft Dataverse. Inspection responses can be parsed into individual question responses. 
+The questions and responses are saved into the following Dataverse tables:
 
-First, you need to configure how often inspection response should be parsed and organized in Dataverse.
+- **Customer Voice survey question or msfp_question**: Each inspection question.
+- **Customer Voice survey response or msfp_surveyresponse**: A response to an inspection.
+- **Customer Voice survey question response or msfp_questionresponse**: Each individual response to each inspection question.
 
-To enable response parsing, go to **Field Service app** > **Settings** > **Field Service Settings** > **Inspection tab**.
+## Enable analysis on inspection responses
 
-Make sure **Analytics enabled** is set to **Yes**. For **Analytics frequency**, consider the following options:
+Configure how often inspection response should be parsed and organized in a Dataverse table.
 
-- **Daily**: Use this setting for inspection responses to be parsed into individual question responses once daily. Every day on the **Record generation start time**, out-of-box flows are triggered to populate individual question responses into a Dataverse table.
-- **Immediately**: Use this setting if you need question responses to be available in Dataverse as soon as an inspection is marked complete.
-- **Custom**: Define your own frequency by providing the number of days when parsing should be done. See the following screenshot for an example.
+1. In Field Service, change to the **Settings** area.
+1. Go to **Field Service Settings** and select the **Inspection** tab.
+1. Make sure **Analytics enabled** is set to **Yes**.
+1. For **Analytics frequency**, select how often to parse inspection responses:
 
-> [!Note]
-> When analytics frequency is set to **Immediately**, the inspection response is parsed and persisted as soon as the service task is completed; the parsed responses won't be updated even if the technician makes changes and completes the inspection again. However, if the analytics frequency is set to **Daily** or **Custom**, the responses are stored from the latest completion of the service task *before* the flow start time.
+   - **Daily**: Daily based on the **Record generation start time**.
+   - **Immediately**: As soon as an inspection is marked complete.
+   - **Custom**: A custom frequency upi define between one and 365 days.
 
-Now that analytics are configured, questions and responses are ready to be saved into the three tables in Dataverse:
+   > [!Note]
+   > When analytics frequency is set to **Immediately**, the inspection response is parsed and persisted as soon as the service task is completed; the parsed responses won't be updated even if the technician makes changes and completes the inspection again. However, if the analytics frequency is set to **Daily** or **Custom**, the responses are stored from the latest completion of the service task *before* the flow start time.
 
-1. **Customer Voice survey question or msfp_question**: stores each inspection question.
-2. **Customer Voice survey response or msfp_surveyresponse**: a response to an inspection.
-3. **Customer Voice survey question response or msfp_questionresponse**: each individual response to each inspection question.
-
-Now we're ready to create and publish an inspection. See the following screenshot for an example.
-
-> [!div class="mx-imgBorder"]
-> ![Sample inspection in Field Service.](./media/1-inspections-snapshot-1.jpg)
+## View inspection responses
 
 Questions on inspections are stored in Dataverse, and can be found in the **Customer Voice survey question** table in Power Apps. Here, you can see entries for each question on an inspection.
 
