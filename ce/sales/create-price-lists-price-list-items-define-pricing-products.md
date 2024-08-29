@@ -1,7 +1,7 @@
 ---
 title: Define product pricing
 description: Use price lists and price list items for defining price for a product. Create multiple price lists and set default price list for a territory.
-ms.date: 08/27/2024
+ms.date: 08/29/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -87,7 +87,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
        > [!div class="mx-imgBorder"]
        > ![Price list item form.](media/price-list-item-form.png "Price list item form")
 
-    c.  In the **Price List item** form, on the **Pricing information** tab, fill in the following information, and select **Save & Close**:
+    c.  In the **Price List Item** form, on the **Pricing information** tab, fill in the following information, and select **Save & Close**:
 
        -  **Pricing Method**: Select an option that determines how the pricing is calculated. It could be a certain amount, or a percentage of the current or standard cost. The available options are as follows: 
           -  **Currency Amount**: Use this to ignore a product's list price in the product catalog and to enter a different price manually for this price list.  
