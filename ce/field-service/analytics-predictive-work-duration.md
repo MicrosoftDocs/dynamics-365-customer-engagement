@@ -5,8 +5,8 @@ ms.date: 06/04/2024
 ms.reviewer: mhart
 ms.topic: conceptual
 ms.custom: bap-template
-author: FeifeiQiu
-ms.author: feiqiu
+author: anilmur
+ms.author: anilmur
 ---
 
 # Predictive work duration reports (Preview)
