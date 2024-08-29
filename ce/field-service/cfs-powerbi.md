@@ -59,8 +59,7 @@ Some of the charts on the dashboard have other views associated. Choose other vi
 5. Add your IP address to the SQL server firewall to allow Power BI Desktop to connect to the SQL server.  
   
 6. Copy the IP address when you see this message.  
-  
-   ![Microsoft SQL message.](../field-service/media/do-not-use3.png "Microsoft SQL message")  
+   
   
 7. Go to the Azure portal, open the SQL server, and add your IP address to the firewall.  
   
