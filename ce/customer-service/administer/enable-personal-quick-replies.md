@@ -35,7 +35,7 @@ The settings for creating personal quick replies is made available for agents.
 > - It can take up to 15 minutes for the setting to take effect.
 > - We recommend that you do not assign the System administrator role to agents or supervisors to avoid enabling access to other users personal quick replies on the **Quick replies** panel of a conversation.
 
-### See also
+### Related information
 
 [Create quick replies](create-quick-replies.md)  
 [Create personal quick replies](../use/create-personal-quick-replies.md)  

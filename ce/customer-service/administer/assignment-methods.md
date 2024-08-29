@@ -219,7 +219,7 @@ You can update the OData call as follows to modify the limit.
 
 `var data = { "msdyn_number_of_declines_allowed": 3 } // update the record Xrm.WebApi.updateRecord("msdyn_omnichannelconfiguration", "d4d91600-6f21-467b-81fe-6757a2791fa1", data).then( function success(result) { console.log("Omnichannel Configuration updated"); // perform operations on record update }, function (error) { console.log(error.message); // handle error conditions } );`
 
-### See also
+### Related information
 
 [Configure assignment methods and rules](configure-assignment-rules.md)  
 [FAQ about unified routing in Customer Service, Omnichannel for Customer Service](unified-routing-faqs.md)  

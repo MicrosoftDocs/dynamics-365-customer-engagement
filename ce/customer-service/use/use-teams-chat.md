@@ -197,7 +197,7 @@ When you paste a link to a record into a Microsoft Teams chat, meeting, or chann
 > [!NOTE]
 > If you don't have access to the app or record for which you paste a link, no app or record details will be shown in the unfurled card.
 
-### See also
+### Related information
 
 [Configure Teams chat in Customer Service](../administer/configure-teams-chat.md)<br>
 

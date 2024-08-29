@@ -248,5 +248,5 @@ Recent activities are displayed under the **Activity** section in the side panel
 You can view only appointment, email, and phone call activities that are associated with the record. To view other associated activities, go to the customer engagement app. If you want to view details of an activity, in the **Activities** section, select an activity. The activity record opens in your web browser.
 
 
-### See also
+### Related information
 [Configure Microsoft Teams Meeting integration](../administer/configure-teams-meetings.md)

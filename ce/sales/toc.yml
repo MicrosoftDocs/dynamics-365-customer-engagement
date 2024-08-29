@@ -765,6 +765,8 @@
               href: copilot-ask-questions.md
             - name: Get content recommendations and answers from SharePoint
               href: copilot-get-doc-suggestions.md
+            - name: Default attributes used in Copilot summaries
+              href: understand-copilot-summaries.md
         - name: Compose and send email messages using Copilot
           href: compose-send-email-copilot.md
         - name: View and copy email summary

@@ -295,7 +295,7 @@ In this step you need to import the customized ribbon.
 
 To learn more, see [Import the ribbon](/powerapps/developer/model-driven-apps/export-prepare-edit-import-ribbon#import-the-ribbon).
 
-### See also
+### Related information
 
 [Export, prepare to edit, and import the ribbon](/powerapps/developer/model-driven-apps/export-prepare-edit-import-ribbon#import-the-ribbon)  
 

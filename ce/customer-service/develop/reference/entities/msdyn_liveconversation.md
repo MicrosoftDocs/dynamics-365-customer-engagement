@@ -1153,7 +1153,7 @@ See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_liveconversati
 
 See msdyn_omnichannelqueue Entity [msdyn_msdyn_omnichannelqueue_msdyn_liveconversation](msdyn_omnichannelqueue.md#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_liveconversation) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

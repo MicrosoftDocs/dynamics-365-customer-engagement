@@ -79,7 +79,7 @@ You can add multiple bots to a workstream based on your business requirements.
 
 To learn about the regions and supported languages, see [Supported regions and languages](cs-region-availability-service-limits.md).
 
-### See also
+### Related information
 
 [Macros](macros.md)  
 [Agent scripts](agent-scripts.md)  

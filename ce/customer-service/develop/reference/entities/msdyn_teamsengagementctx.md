@@ -798,7 +798,7 @@ See systemuser Entity [lk_msdyn_teamsengagementctx_modifiedonbehalfby](systemuse
 
 See systemuser Entity [user_msdyn_teamsengagementctx](systemuser.md) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

@@ -118,7 +118,7 @@ When enabled, the Sales Navigator controls appear on Account, Contact, Lead, and
 1. On the **LinkedIn integration** page, toggle the following options to enable:  
     - **Sales navigator integration**: Allows you to see LinkedIn Sales Navigator controls on Account, Contact, Lead, and Opportunity forms.  
     - **Daily profile picture updates**: Allows you to see the latest profile pictures of your contacts that are updated in LinkedIn.  
-    - **Personnel and employment changes**: Allows you to see personnel and employment changes of your contacts that are updated in LinkedIn.  
+    - **Personal and employment changes**: Allows you to see personnel and employment changes of your contacts that are updated in LinkedIn.  
     - **Hide employment notification**: Allows you to hide the employment notification of your contacts that are updated in LinkedIn when sellers select **Ignore Update** on the **Verify Contact Details** pane.  
 
     :::image type="content" source="../sales/media/enable-sales-hub-enable-linkedin-integration-options.png" alt-text="Screenshot of enabling the LinkedIn Sales Navigation options.":::

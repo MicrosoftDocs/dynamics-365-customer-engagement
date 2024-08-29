@@ -150,7 +150,7 @@ Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations D
        - **Default Individual Voicemail Workstream**: Contains the settings to handle individual voicemails.
        - **Default Group Voicemail Workstream**: Contains the settings to handle group voicemails.
 
-### See also
+### Related information
 
 [Overview of voice channel](voice-channel.md)  
 [Overview of unified routing](overview-unified-routing.md)  
