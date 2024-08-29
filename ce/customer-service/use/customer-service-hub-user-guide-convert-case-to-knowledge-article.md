@@ -1,7 +1,7 @@
 ---
-title: "Convert a case to a knowledge article in Customer Service Hub | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to convert a case to a Knowledge article in Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 12/14/2022
+title: Convert a case to a knowledge article
+description: Perform the steps mentioned in the topic to convert a case to a Knowledge article.
+ms.date: 08/30/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -29,7 +29,7 @@ There are times when existing knowledge articles don't contain relevant informat
 
 2. In the list of active cases, open the one that has the information that you want to convert to a knowledge article.  
 
-3. On the command bar, select the ellipsis **(...)** and go to **Convert To** > **To Knowledge Article**.  
+3. On the command bar, select the vertical ellipsis, and go to **Convert To** > **To Knowledge Article**.  
 
     The **Convert to Knowledge Article** dialog box opens. The title, owner, and subject of the article are populated based on the title, owner, and subject of the case. The content of the article is automatically populated with the description of the case. If the case is resolved, the content field shows the case description, case resolution, and case resolution description.  
 
