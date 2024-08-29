@@ -115,7 +115,7 @@ When you initiate a consult, the following actions occur:
     By default, the consultation is private, the customer is on hold while the primary agent speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation. <br>
     To make the consultation public, select **Hold** to put the call on hold. When the secondary agent joins the conversation, remove the customer from hold to continue the consultation.<br>
 
-   - **Consult with Teams user**: Select **Teams** and use the search option to search for and select the Microsoft Teams user you'd like to consult with.  See: [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md)<br>
+   - **Consult with Teams user**: Select **Teams** and use the search option to search for and select the Microsoft Teams user you'd like to consult with. If you've migrated to the enhanced voice experience, PSTN will not appear on the Teams tab. Please enter the phone number of the Teams user directly in the external transfer tab or consult via VOIP. See: [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md)<br>
         > [!div class="mx-imgBorder"]
         > ![Screenshot of Teams consult](../media/oc-consult-teams.png)<br>
     
