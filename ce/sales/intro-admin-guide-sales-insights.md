@@ -1,7 +1,7 @@
 ---
 title: Enable and configure Sales Insights
 description: Learn how to enable and configure Sales Insights capabilities in your organization.
-ms.date: 08/27/2024
+ms.date: 08/29/2024
 ms.collection: get-started
 ms.topic: article
 author: udaykirang
@@ -142,7 +142,7 @@ The premium Sales Insights features aren't available by default. You must instal
     > [!div class="mx-imgBorder"]
     > ![Select Try Sales Insights](media/si-admin-select-try-sales-insights.png "Select Try Sales Insights")
  
-    The installation may take a few minutes to complete, and the progress is displayed in a dialog. After the installation is complete, you're ready to configure the premium Sales Insights features.
+    The installation umay take a few minutes to complete, and the progress is displayed in a dialog. After the installation is complete, you're ready to configure the premium Sales Insights features.
 
     > [!div class="mx-imgBorder"]
     > ![Premium Sales Insights settings page](media/si-admin-advanced-installation-complete.png "Premium Sales Insights settings page")
