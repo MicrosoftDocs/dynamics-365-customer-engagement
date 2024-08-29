@@ -1,11 +1,11 @@
 ---
-title: "View call recording and transcripts for voice channel | MicrosoftDocs"
+title: View call recording and transcripts for voice channel
 description: Use this article to learn how to view call recordings and transcripts.
-ms.date: 08/02/2023
-ms.service: dynamics-365-customerservice
-ms.topic: article
+ms.date: 08/29/2024
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
+ms.custom: bap-template
 ---
 
 # View call recordings and transcripts
