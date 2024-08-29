@@ -29,6 +29,11 @@ All channels have different default configured time after which conversations ca
 
 The following table describes the channel, status reason, and default configured time.
 
+> [!NOTE]
+> By default, this table is non-editable. Ensure that you have Write privileges to edit the table.
+
+To learn more, see [Security roles and privileges - Power Platform](security-roles.md)
+
  | Channel | Existing status reason | Default configured time | Description |
  |--------------------|-------|-------------|--------------------------------------|
  | Chat | Open |  20 min   | For a chat channel, a conversation in the **Open** state for more than 20 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
