@@ -24,7 +24,7 @@ As an administrator, you can enable live translation, transcription and recordin
 > - If you use Copilot Studio bots as the interactive voice response (IVR) with the voice channel, the calls are transcribed in Copilot Studio even if the transcription and recording setting isn't enabled in the voice workstream.
 
 ## Enable call recording and transcription for voice
-1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. More information: [Enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services).
+1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. For more inforamtion, refer to [Enable call recording and SMS services](voice-channel-configure-services.md).
    
 1. In the Customer Service admin center or Contact Center admin center app, select the workstream for which you want to enable recording and transcription.
 
@@ -46,7 +46,7 @@ As an administrator, you can enable live translation, transcription and recordin
 
 ## Enable real-time translation of calls
 
-To view translated voice transcripts for calls, you must enable call recording, transcription, and real-time translation. To enable real-time translation, see [Enable real-time translation for agent and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
+To view translated voice transcripts for calls, you must enable call recording, transcription, and real-time translation. To enable real-time translation, refer to [Enable real-time translation for agent and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
 
 ## View call transcripts
 
@@ -92,11 +92,11 @@ The maximum file size of a recording can be 512 MB. The data storage costs with 
 - 20-minute call transcript = 40 KB
 
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Agent experience: View call recordings and transcripts](../use/voice-channel-agent-experience.md)  
-[Enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services).
+[Enable call recording and SMS services](voice-channel-configure-services.md)
 [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
 [Delete call recordings](voice-channel-delete-calls.md)
   
