@@ -62,9 +62,3 @@ On the required form, add the **Attachment Control** component.  More informatio
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)   
 [Get started with Customer Service workspace](../implement/csw-overview.md) 
 
-
-The active layer on the managed record can prevent future configuration updates brought in from source environment from being applied onto the target environment.
-
-The active layer on the managed record can block future configuration updates from the source environment from being applied to the target environment.
-
-The active layer on the managed record can prevent future configuration updates from the source environment being applied to the target environment.
