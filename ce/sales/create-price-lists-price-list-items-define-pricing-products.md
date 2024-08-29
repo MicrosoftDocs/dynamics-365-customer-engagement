@@ -65,14 +65,14 @@ Price lists tie the unit, product, and pricing details together, so before you c
     > [!div class="mx-imgBorder"]
     > ![General tab in price list form.](media/price-list-form.png "General tab in price list form")
   
-4.	To add price per unit for a product, create and add price list Items.
+4.	To add price per unit for a product, create and add price list items.
 
     a.	In the **Price List** form, select the **Price List Items** tab, and then select **New Price List Item**.
 
     > [!div class="mx-imgBorder"]
     > ![Add New Price List Item button on the Price List Items tab.](media/price-list-form-price-list-items-tab.png "Add New Price List Item button on the Price List Items tab")
  
-    b.  In the **Price List Item** form, fill in the following information, and select **Save**:
+    b.  In the **Price List Item** form, fill in the following information:
 
        -  **Product**: Select the product for which you’re creating this price list. 
 
