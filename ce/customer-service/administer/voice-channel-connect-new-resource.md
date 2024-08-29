@@ -1,7 +1,7 @@
 ---
 title: Connect using a new Azure resource 
 description: Use this article to understand how to connect to Azure Communication Services using a new Azure resource in Customer Service admin center.
-ms.date: 08/19/2024
+ms.date: 08/29/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -41,7 +41,7 @@ Before you connect an Azure resource to Azure Communication Services, you must p
    - **Resource name**: Enter a name for the resource. The resource name can contain only letters, numbers, and hyphens.
 1. Select **Deploy** to create and deploy the resource.
 
-Your new Azure resource is connected to Azure Communication Services. You can now [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the new resource and also [enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services).
+Your new Azure resource is connected to Azure Communication Services. You can now [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the new resource and also [enable call recording and SMS services](voice-channel-configure-services).
 
 ### Related information
 
