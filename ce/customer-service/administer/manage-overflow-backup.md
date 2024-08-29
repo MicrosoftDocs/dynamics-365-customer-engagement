@@ -23,7 +23,7 @@ A queue's overflow handling options can trigger either before or after a work it
 - An incoming call or conversation exceeds the number of work items defined for the queue.
 - A work item comes in outside of business hours.
 
-[After](#handle-overflow-when-a-work-item-is-queued-preview):
+[After](#handle-overflow-when-a-work-item-is-queued):
 
 - Customers are waiting in the queue longer than the time defined for the queue.
 
@@ -139,11 +139,7 @@ When a work item is handled by an overflow action instead of being assigned to a
 
 :::image type="content" source="../media/overflow-diagnostics.png" alt-text="Screenshot of routing diagnostics for a work item that triggered an overflow action.":::
 
-## Handle overflow when a work item is queued (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+## Handle overflow when a work item is queued
 
 When a work item is in a queue and the wait is long, the system can reroute it to another queue that has agents available.
 
@@ -165,7 +161,7 @@ When a work item is in a queue and the wait is long, the system can reroute it t
 
 ### Things to keep in mind
 
-While this feature is in preview, the following actions are available:
+The following actions are available:
 
 - Messaging, record, and voice channels: **Transfer to a different queue**
 - Messaging channel: **End conversation**
