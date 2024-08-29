@@ -18,7 +18,7 @@ This article explains how to customize the work order form. However, the steps c
 > [!NOTE]
 > To learn how to customize the work order form for the mobile app, go to [Edit the booking and work order form](mobile-powerapp-booking-work-order-form.md).
 
-## Step 1. Understand the default work order form 
+## Step 1. Understand the default work order form
 
 Before you customize the work order form, make sure that you understand the default work order form that is included with Field Service. An understanding of the existing fields and recommended process flow helps you determine what changes to make to the form. For better performance, usability, and upgradability, we recommend that you use the default fields and processes.
 
@@ -31,7 +31,7 @@ Before you customize the work order form, make sure that you understand the defa
 
 The default work order form is optimized for the following standard work order process.
 
-1. A work order is created manually, from a converted case, via an Internet of Things (IoT) alert, from an agreement schedule, or via an integration. By default, newly created work orders have a system status of *Unscheduled*. 
+1. A work order is created manually, from a converted case, via an Internet of Things (IoT) alert, from an agreement schedule, or via an integration. By default, newly created work orders have a system status of *Unscheduled*.
 1. Work order details are entered. These details include the account, work order type, location, products, services, service tasks, and any other information that is important.
 1. The work order is scheduled to one or more resources ("frontline workers"). The system status is automatically changed to *Scheduled*.
 1. A frontline worker views the scheduled work order on their mobile app and travels to the customer location to perform the required work. The system status is changed to *In Progress*. The frontline worker updates information such as the time when they arrived on-site, the service tasks that they completed, and the services and products to bill.
