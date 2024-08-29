@@ -5,6 +5,7 @@ ms.date: 08/29/2024
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.custom: bap-template
 
 ---
@@ -15,7 +16,7 @@ You can add a default signature template for a queue to ensure that emails sent 
 
 ## Prerequisites
 
-Email signature templates must be available before adding them to a queue.
+Email signature templates must be available in the application before you can add them to a queue.
 
 ## Set up default email signature for queues
 

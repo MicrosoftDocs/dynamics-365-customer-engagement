@@ -1,11 +1,11 @@
 ---
-title: Use the attachment control to customize forms | MicrosoftDocs 
+title: Use the attachment control to customize forms 
 description: Learn about adding attachment control to forms
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 08/27/2024 
+ms.date: 08/29/2024 
 ms.custom: bap-template 
 ---
 
