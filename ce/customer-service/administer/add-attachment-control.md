@@ -1,6 +1,6 @@
 ---
 title: Use the attachment control to customize forms 
-description: Learn about adding attachment control to forms
+description: Learn about adding attachment control to forms.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: mgandham
