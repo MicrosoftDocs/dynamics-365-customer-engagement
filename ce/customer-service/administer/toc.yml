@@ -524,7 +524,7 @@
           href: configure-facebook-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
-        - name: Configure a WhatsApp channel through Azure Communication Services
+        - name: Configure a WhatsApp channel through Azure Communication Services(preview)
           href: configure-whatsapp-acs.md          
         - name: Configure a WhatsApp channel through Twilio
           href: configure-whatsapp-channel.md
