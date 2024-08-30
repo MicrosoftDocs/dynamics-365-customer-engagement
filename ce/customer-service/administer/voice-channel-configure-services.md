@@ -23,7 +23,7 @@ To enable call recording and SMS services, you must first configure your applica
 > - You must create a new event subscription for each event type. Don't update an existing event subscription by changing the event type.
 > - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs, go to [Get application and tenant IDs from the Azure portal](#get-event-grid-app-and-tenant-ids-from-the-azure-portal).
 
-## Create an event grid system topic
+## Create an Event Grid system topic
 
 1. Open the **Event Grid System Topics** service on the Azure portal.
 1. Create a new Event Grid System Topic, and then on the **Basics** tab, add the following information:
