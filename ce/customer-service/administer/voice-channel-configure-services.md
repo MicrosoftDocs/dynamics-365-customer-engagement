@@ -12,7 +12,7 @@ ms.collection:
 
 # Set up incoming calls, call recording, and SMS services
 
-Azure Communication Services integrates with [Azure Event Grid](/azure/event-grid/overview) to send real-time notifications for chat, telephony, SMS, video, and voice calling events. The Azure Event Grid, in turn, uses event subscriptions to route event messages to subscribers.
+Azure Communication Services integrates with [Azure Event Grid](/azure/event-grid/overview) to send real-time notifications for chat, telephony, SMS, video, and voice calling events. Azure Event Grid, in turn, uses event subscriptions to route event messages to subscribers.
 
 To enable call recording and SMS services, you must first configure your applications to listen to Azure Communication Services events by registering [Event Grid system topics](/azure/event-grid/system-topics). Then, subscribe to the specific incoming call, call recording, or SMS events by creating Event Grid subscriptions on the Azure portal.
 
