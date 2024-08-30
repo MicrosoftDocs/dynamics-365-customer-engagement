@@ -50,7 +50,7 @@ Copy the following information from the [Azure portal](https://ms.portal.azure.c
    1. Select **Keys** in **Settings**. On the **Keys** page, copy **Connection string** in **Primary key**.
    1. Select **Events**. Select the event subscription you've created as a part of setting up advanced messaging for WhatsApp in [Prerequisities](#prerequisites).
    1. Select **Additional features** in the **Event Subscription** page. 
-   1. In **AAD AUTHENTICATION**, copy the **AAD Tenant ID** and **AAD Application ID or URI** values.
+   1. In **MICROSOFT ENTRA AUTHENTICATION**, copy the **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URI** values.
    1. Select **Channels** in **Advanced Messaging**. Copy the **Channel ID** corresponding to the channel you've created as a part of setting up advanced messaging for WhatsApp in [Prerequisities](#prerequisites).
 
 ## Create a WhatsApp channel
