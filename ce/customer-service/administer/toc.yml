@@ -524,7 +524,9 @@
           href: configure-facebook-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
-        - name: Configure a WhatsApp channel
+        - name: Configure a WhatsApp channel through Azure Communication Services (preview)
+          href: /dynamics365/contact-center/administer/configure-whatsapp-acs?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml     
+        - name: Configure a WhatsApp channel through Twilio
           href: configure-whatsapp-channel.md
         - name: Configure a WeChat channel
           href: configure-wechat-channel.md
