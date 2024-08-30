@@ -18,7 +18,7 @@ This article describes SLA time calculations, given that:
 - Failure Time: 2 days (2*24 = 48 hours)
 
 > [!NOTE]
-> For accurate time calculation, you must select the value of the **Time zone** field as **User local**. If you select the value as **Timezone independent**, the time is calculated in UTC, irrespective of your zone, which leads to incorrect calculations.
+> Select the value of the **Time zone** field as **User local** to get accurate time calculations for your time zone. If you select **Timezone independent**, time gets calculated in UTC, irrespective of your time zone.
 
 ## SLA without any calendar
 
