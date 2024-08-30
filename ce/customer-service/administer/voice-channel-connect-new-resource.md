@@ -41,7 +41,7 @@ Before you connect an Azure resource to Azure Communication Services, you must p
       > [!NOTE]
       > - You might be prompted to add an Event Grid app ID for your resource. If you see this option, refer to [Get Event Grid application and tenant IDS from the Azure portal](voice-channel-connect-existing-resource.md#get-event-grid-application-and-tenant-ids-from-the-azure-portal) for information about these values.
       
-   :::image type="content" source="../media/add-event-grid-app-id.png" alt-text="Create new Azure resource" lightbox="../media/add-event-grid-app-id.png":::
+   :::image type="content" source="../media/add-event-grid-app-id.png" alt-text="Add Event Grid app ID" lightbox="../media/add-event-grid-app-id.png":::
 
       > [!NOTE]
       > The resource name should be unique within a description.
