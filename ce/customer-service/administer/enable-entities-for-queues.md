@@ -1,7 +1,7 @@
 ---
-title: Enable tables for queues | MicrosoftDocs
+title: Enable tables for queues
 description: Learn how you can enable tables for queues so that they can be routed through unified routing.
-ms.date: 07/25/2023
+ms.date: 08/30/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -19,7 +19,7 @@ Any record that you want to enable for routing needs to be enabled for queues.
 
 5. In **Table properties**, select **Properties**.
 
-6. Select **Advanced options**, and then select **Can be added to a queue** in the **Rows in this table** section .
+6. Select **Advanced options**, and then select **Can be added to a queue** in the **Rows in this table** section.
 
 7. Select **Save**.
 

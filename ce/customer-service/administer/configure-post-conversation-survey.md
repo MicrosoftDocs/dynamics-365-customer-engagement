@@ -1,7 +1,7 @@
 ---
 title: Configure post-conversation survey
 description: Learn how to configure a post-conversation survey for the channels in your contact center.
-ms.date: 08/12/2024
+ms.date: 08/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -35,7 +35,6 @@ You can enable post-conversation surveys for the following channels:
 - SMS for Twilio, SMS for TeleSign
 - Facebook
 - LINE
-- Twitter
 - WeChat
 - WhatsApp
 - Custom channel

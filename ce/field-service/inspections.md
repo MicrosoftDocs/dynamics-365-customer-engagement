@@ -49,7 +49,7 @@ Create an inspection that can be reused and added to multiple work orders. We do
    - Use the **Required** toggle to make the inspection question mandatory.
    - To add more details for an inspection question, select the **Gear** icon and fill out the details.
 
-1. To group questions together in an organized way, add pages from the **Page** drop-down. You can also use pages to make it easier to [add logic to multiple questions at one time](inspections-advanced.md).
+1. To group questions together in an organized way, add pages from the **Page** dropdown menu. You can also use pages to make it easier to [add logic to multiple questions at one time](inspections-advanced.md).
 
 1. In the **Preview** section, test the inspection from a technician's perspective.
 
@@ -65,25 +65,25 @@ Create an inspection that can be reused and added to multiple work orders. We do
 
 ### Question types
 
-Add a question to the inspection by double-clicking or dragging-and-dropping a question type from the right side.
+Add a question to the inspection by double-clicking or dragging a question type from the right side.
 
-- **Textbox:** Allows technicians to enter text from their keyboard for a free form response. There's an option in the advanced panel to make the text box bigger to allow for multiline responses. In early access opt-in release, a text box can be input with a default value and can also be made as read-only.
+- **Textbox**: Allows technicians to enter text from their keyboard in a free form response. There's an option in the advanced panel to make the text box bigger to allow for multiline responses. In early access opt-in release, a text box can be input with a default value and can also be made as read-only.
 
 - **Checkbox**, **Radiogroup**, **Dropdown**: Allows technicians to choose an answer from predefined options. The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar. The **Checkbox** question type is multi-select, whereas **Radiogroup** and **Dropdown** allow for a single answer. The difference between **Radiogroup** and **Dropdown** is cosmetic so choose based on the desired user experience.
 
-- **Entity lookup:** Allows technicians to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. For a chosen entity, the **Name** field and mandatory fields are the entity attributes that can be displayed in the lookup. When the user types, up to the first 50 records that start with the search string appear in the dropdown. The first results might not contain all matches, so continue to add to the search string until the matching result starts showing on top. Entity lookup respects security roles of signed-in user, meaning some entities and records might not be displayed.
+- **Entity lookup**: Allows technicians to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. For a chosen entity, the **Name** field and mandatory fields are the entity attributes that can be displayed in the lookup. When the user types, up to the first 50 records that start with the search string appear in the dropdown. The first results might not contain all matches, so continue to add to the search string until the matching result starts showing on top. Entity lookup respects security roles of signed-in user, meaning some entities and records might not be displayed.
 
   - Add filters to review the records displayed in the entity-lookup options. For example, an entity-lookup inspection question created for the bookable resource record type. You can filter the list of bookable resources to ones with the resource type set to *User* to remove subcontractors and machines from the list.
 
-- **Number:** Restricts input to numeric value or returns an error. Typically represents a measurement or numeric rating value.
+- **Number**: Restricts input to numeric value or returns an error. Typically represents a measurement or numeric rating value.
 
-- **Date Time:** Allows technicians to enter a date and time.
+- **Date Time**: Allows technicians to enter a date and time.
 
-- **File:** Allows technicians to upload a file, take picture, or choose multiple pictures from their camera roll.
+- **File**: Allows technicians to upload a file, take picture, or choose multiple pictures from their camera roll.
 
-- **Barcode scan:** Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type, then select **Barcode** for input type in the **Advanced** section.
+- **Barcode scan**: Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type, then select **Barcode** for input type in the **Advanced** section.
 
-- **Matrix (Dynamic):** Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an example.
+- **Matrix (Dynamic)**: Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an example.
 
   > [!div class="mx-imgBorder"]
   > ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
@@ -122,7 +122,7 @@ Alternatively, your inspection service task can be added to the work order via a
 
 ## Perform inspections on mobile
 
-Technicians can view and complete inspections on the [Dynamics 365 Field Service mobile app](mobile-power-app-overview.md), even in offline mode. Inactive inspections and their related work order service tasks aren't available in offline mode.
+You can view and complete inspections on the [Dynamics 365 Field Service mobile app](mobile/overview.md).
 
 1. Sign in and go to the assigned work order.
 
