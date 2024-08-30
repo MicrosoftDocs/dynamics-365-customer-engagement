@@ -69,25 +69,25 @@ To enable call recording and SMS services, you must first configure your applica
 
 1. Follow the steps in [Set up the Incoming Calls webhook](#set-up-the-incoming-calls-webhook), but in the filter to even type, select **Select Recording File Status Updated** in the list.
 1. For **Endpoint Type**, select **Web Hook** in the list.
-1. For **Endpoint**, select **Select an endpoint**, and then enter the recording webhook endpoint from Customer Servcie admin center or Contact Center admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** > **SMS Web Hook Endpoint**.
-1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication checkbox**, and then enter the following details. For information about these valudes, go to [Get event grid app and tenant IDs from the Azure portal](#get-event-grid-app-and-tenant-ids-from-the-azure-portal).
+1. For **Endpoint**, select **Select an endpoint**, and then enter the recording webhook endpoint from Customer Service admin center or Contact Center admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** > **SMS Web Hook Endpoint**.
+1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication checkbox**, and then enter the following details. For information about these values, go to [Get Event Grid app and tenant IDs from the Azure portal](#get-event-grid-app-and-tenant-ids-from-the-azure-portal).
     - **Microsoft Entra Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
     - **Microsoft Entra Application ID or URL**: Enter the application (client) ID of your Azure resource.
   
 1. Select **Create** to create the event subscription endpoint for recording.
 
-   It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed," then retry this step after a few minutes.
+   It can take up to 15 minutes to sync. If you get an error like, "Webhook validation handshake failed," then retry this step after a few minutes.
 
 ## Reconnect Azure Resource from existing voice stack to the enhanced voice stack
 
-Use the following video if you're migrating from the existing voice stack to the enhanced voice stack to help ensure that your event grid is properly configured for incoming calls and recording.
+Use the following video if you're migrating from the existing voice stack to the enhanced voice stack to help ensure that your Event Grid is properly configured for incoming calls and recording.
 
 > [!VIDEO https://www.youtube.com/embed/la2vgEqGshU]
 
 ## Get Event Grid app and tenant IDs from the Azure portal
 
 > [!NOTE]
-> Use this method only when you have issues with getting the IDs from the Azure Portal. To get the IDs from the Azure Portal, search for "app registrations" and find the registration for your connected Azure Communication Services resource. Copy the Application (client) ID to fill the event grid App ID box and the Directory (tenant) ID to fill the event grid Tenant ID box.
+> Use this method only when you have issues with getting the IDs from the Azure Portal. To get the IDs from the Azure Portal, search for "app registrations" and find the registration for your connected Azure Communication Services resource. Copy the Application (client) ID to fill the Event Grid App ID box and the Directory (tenant) ID to fill the Event Grid Tenant ID box.
 
 1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
 
