@@ -28,9 +28,9 @@ To enable call recording and SMS services, you must first configure your applica
 1. Open the **Event Grid System Topics** service on the Azure portal.
 1. Create a new Event Grid System Topic, and then on the **Basics** tab, add the following information:
    - **Topic Type**: Azure Communication Services
-   - **Subscription**: Select your Azure subscription.
+   - **Subscription**: Select your subscription.
    - **Resource group**: Select the resource group where your Azure Communication Services resource is located.
-   - **Resource**: Select the Azure Communication Services resource that you want to connect to the customer service application.
+   - **Resource**: Select the Azure Communication Services resource that you want to connect to Dynamics 365 Customer Service.
    - Specify the **Name** in the **System Topic Details** section.
     Learn more at [Create and deploy an Event Grid system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic).
 
@@ -41,7 +41,7 @@ To enable call recording and SMS services, you must first configure your applica
 
 1. Open the resource on the Azure portal. Select **Events**, and then select **Event Subscription**.
 
-1. On the Basics tab, enter the following details:
+1. On the **Basics** tab, enter the following details:
     - **Name**: Enter a name for the recording event subscription.
     - **Event Schema**: Select **Event Grid Schema** in the list.
     - **Topic Types**: Select **Azure Communication Services** in the list.
@@ -67,7 +67,20 @@ To enable call recording and SMS services, you must first configure your applica
 
 ## Set up Call Recording webhook
 
-1. Follow the steps in [Set up the Incoming Calls webhook](#set-up-the-incoming-calls-webhook), but in the filter to even type, select **Select Recording File Status Updated** in the list.
+1. Follow the steps in [Set up the Incoming Calls webhook](#set-up-the-incoming-calls-webhook), but in the filter to event type, select **Select Recording File Status Updated** in the list.
+1. For **Endpoint Type**, select **Web Hook** in the list.
+1. For **Endpoint**, select **Select an endpoint**, and then enter the recording webhook endpoint from Customer Service admin center or Contact Center admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** > **Recording Web Hook Endpoint**.
+1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication checkbox**, and then enter the following details. For information about these values, go to [Get Event Grid app and tenant IDs from the Azure portal](#get-event-grid-app-and-tenant-ids-from-the-azure-portal).
+    - **Microsoft Entra Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
+    - **Microsoft Entra Application ID or URL**: Enter the application (client) ID of your Azure resource.
+  
+1. Select **Create** to create the event subscription endpoint for recording.
+
+   It can take up to 15 minutes to sync. If you get an error like, "Webhook validation handshake failed," then retry this step after a few minutes.
+
+## Set up SMS Webhook
+
+1. Follow the steps in [Set up the Incoming Calls webhook](#set-up-the-incoming-calls-webhook), but in the filter to event type, select **SMS Received and SMS Delivery Report Received** in the list.
 1. For **Endpoint Type**, select **Web Hook** in the list.
 1. For **Endpoint**, select **Select an endpoint**, and then enter the recording webhook endpoint from Customer Service admin center or Contact Center admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** > **SMS Web Hook Endpoint**.
 1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication checkbox**, and then enter the following details. For information about these values, go to [Get Event Grid app and tenant IDs from the Azure portal](#get-event-grid-app-and-tenant-ids-from-the-azure-portal).
@@ -76,7 +89,7 @@ To enable call recording and SMS services, you must first configure your applica
   
 1. Select **Create** to create the event subscription endpoint for recording.
 
-   It can take up to 15 minutes to sync. If you get an error like, "Webhook validation handshake failed," then retry this step after a few minutes.
+   It can take up to 15 minutes to sync. If you get an error like, "Webhook validation handshake failed," then retry this step after a few minutes. 
 
 ## Reconnect Azure Resource from existing voice stack to the enhanced voice stack
 
