@@ -1,11 +1,12 @@
 ---
-title: "Sync with Dynamics 365 Connector for LinkedIn Lead Gen Forms"
-description: "Learn how to set up the Dynamics 365 Connector for LinkedIn Lead Gen Forms to sync leads from sponsored LinkedIn campaigns to your Dynamics 365 apps."
-ms.date: 04/02/2018
-ms.topic: article
+title: Sync with Dynamics 365 Connector for LinkedIn Lead Gen Forms
+description: Learn how to set up the Dynamics 365 Connector for LinkedIn Lead Gen Forms to sync leads from sponsored LinkedIn campaigns to your Dynamics 365 apps.
+ms.date: 08/30/2024
+ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
 ms.custom: 
+  - bap-template
   - dyn365-LinkedIn
 keywords: linkedin lead gen, lead gen form, get started
 search.audienceType: 
@@ -14,7 +15,6 @@ search.audienceType:
   - enduser
 applies_to: 
   - Dynamics 365 Sales
-ms.assetid: 13c8a439-30bc-45a4-bf4e-a25781148a4c
 ---
 
 # Sync LinkedIn leads using Dynamics 365 Connector for LinkedIn Lead Gen Forms
@@ -40,11 +40,12 @@ ms.assetid: 13c8a439-30bc-45a4-bf4e-a25781148a4c
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze leads and lead performance](review-leads.md)
 
 ## Related information
-[Install Dynamics 365 Connector for LinkedIn Lead Gen Forms from AppSource](install-linkedin-connector.md)
-[Establish a connection between Dynamics 365 Connector for LinkedIn Lead Gen Forms and LinkedIn](connect-dynamics-365-linkedin.md)
-[Configure a matching strategy to update leads from LinkedIn Lead Gen ads](configure-matching-strategy.md)
-[Analyze leads and lead performance](review-leads.md)
-[Microsoft Online Services Privacy Statement](https://go.microsoft.com/fwlink/p/?LinkId=512132)
+
+- [Install Dynamics 365 Connector for LinkedIn Lead Gen Forms from AppSource](install-linkedin-connector.md)  
+- [Establish a connection between Dynamics 365 Connector for LinkedIn Lead Gen Forms and LinkedIn](connect-dynamics-365-linkedin.md)  
+- [Configure a matching strategy to update leads from LinkedIn Lead Gen ads](configure-matching-strategy.md)  
+- [Analyze leads and lead performance](review-leads.md)  
+- [Microsoft Online Services Privacy Statement](https://go.microsoft.com/fwlink/p/?LinkId=512132)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
