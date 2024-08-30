@@ -11,18 +11,18 @@ ms.author: nenellim
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-In the voice channel, you can quickly connect to Azure Communication Services, provision phone numbers, and set up outbound and inbound calling for your business by creating and deploying a new Azure resource. More information: [Azure Communication Services](/azure/communication-services/overview)
+In the voice channel, you can quickly connect to Azure Communication Services, provision phone numbers, and set up outbound and inbound calling for your business by creating and deploying a new Azure resource. For more information, see [Azure Communication Services](/azure/communication-services/overview).
 
 ## Prerequisites
 
 Before you connect an Azure resource to Azure Communication Services, you must perform the following steps.
 
 - Check whether the **Get started** button to connect to an existing Azure resource is visible on the **Phone numbers** page. The **Get Started** button appears only in the following scenarios.
-    - The trial has ended after the free calling time has elapsed.
-    - You've manually ended the trial.
-    - You've disconnected from the Azure resource. More information: [Disconnect from Azure Communication Services resource](voice-channel-disconnect-from-acs.md)
+    - The trial ends after the free calling time elapses.
+    - You manually ended the trial.
+    - You disconnected from the Azure resource. For more information, refer to [Disconnect from Azure Communication Services resource](voice-channel-disconnect-from-acs.md)
 - Have an Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) requirements.
-- Have at least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure Communication Services resource only if you have contributor-level permissions.
+- Have at least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You can deploy your Azure Communication Services resource only if you have contributor-level permissions.
  
 ## Connect using a new Azure resource
 
