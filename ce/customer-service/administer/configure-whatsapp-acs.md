@@ -35,9 +35,9 @@ The success of social media customer service, like all other customer services, 
 ## End-to-end walkthrough
 
 1. Get Azure Communication Services details to connect.
-2. Create a WhatsApp channel
-3. Create routing rules
-4. Modify settings for a specific WhatsApp phone number
+2. Create a WhatsApp channel.
+3. Create routing rules.
+4. Modify settings for a specific WhatsApp phone number.
 
 ## Fetch Azure Communication Services details
 
@@ -76,44 +76,15 @@ Copy the following information from the [Azure portal](https://ms.portal.azure.c
      1. Perform the steps the following section to add the WhatsApp endpoint to the Azure Communication Services resource.
      1. Select the check box to confirm that the WhatsApp channel is setup correctly and then select **Done**.
       
-    **Add the WhatsApp endpoint to Azure Communication Services resource**
+### Add the WhatsApp endpoint to Azure Communication Services resource
 
-      1. In the Azure portal, go to the **Events** page.
-      1. Select the event subscription that you created as a part of the [Advanced Messaging for WhatsApp](/azure/communication-services/concepts/advanced-messaging/whatsapp/whatsapp-overview) setup in Azure Communication Services.
-      1. In the Event Subscription page > **Endpoint** select **Change** for the endpoint and add the **WhatsApp inbound URL** that you copied from the Callback information page in the WhatsApp channel setup.
+1. In the Azure portal, go to the **Events** page.
+1. Select the event subscription that you created as a part of the [Advanced Messaging for WhatsApp](/azure/communication-services/concepts/advanced-messaging/whatsapp/whatsapp-overview) setup in Azure Communication Services.
+1. In the Event Subscription page > **Endpoint** select **Change** for the endpoint and add the **WhatsApp inbound URL** that you copied from the Callback information page in the WhatsApp channel setup.
          
 ## Configure a workstream for the WhatsApp channel
 
-1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) with the **Channel** set to **WhatsApp** or select an existing one.
-
-1. Select the workstream that you've created for the WhatsApp channel and on the workstream page, select **Set up WhatsApp** to configure the following options:
-   
-    1. On the **Channel** page, select the Azure Communication Services channel or the Twilio number that you created.
-   
-    2. On the **Language** page, select the language.
-    
-    3. On the **Behaviors** page, configure the following options:
-      - [Custom automated messages](configure-automated-message.md)
-      - [WhatsApp message templates](#configure-whatsapp-message-templates)
-      - [Post-conversation survey](configure-post-conversation-survey.md)
-    4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
-      - Customers can send file attachments
-      - Agents can send file attachments
-    5. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
-
-1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
-
-1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-
-1. Optionally, [add a bot](create-workstreams.md#add-a-bot-to-a-workstream).
-
-1. Based on your business needs, in **Advanced settings**, configure the following options:
-   - [Sessions](session-templates.md)
-   - [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](manage-context-variables.md#add-context-variables))
-   - [Smart assist bots](../develop/smart-assist-bot.md)
-   - [Quick replies](create-quick-replies.md)
-   
+ To configure routing and work distribution, you can create a [workstream](create-workstreams.md) with the **Channel** set to **WhatsApp** or select an existing one.
 
 ### Configure WhatsApp message templates
 
