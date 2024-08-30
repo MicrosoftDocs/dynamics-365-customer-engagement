@@ -41,17 +41,17 @@ The success of social media customer service, like all other customer services, 
 
 ## Fetch Azure Communication Services details
 
-Copy the following information from the [Azure portal](https://ms.portal.azure.com/). You will need these details to configure the WhatsApp channel through Contact Center admin center or Customer Service admin center.
+Copy the following information from the [Azure portal](https://ms.portal.azure.com/). You need these details to configure the WhatsApp channel through Contact Center admin center or Customer Service admin center.
    
    1. Go to **Resource groups** and select the required resource group. 
    1. Select the required **Resource** from the resource group.
    1. Select **Properties** in **Settings**. 
    1. On the **Properties** page, copy the **Name**. 
    1. Select **Keys** in **Settings**. On the **Keys** page, copy **Connection string** in **Primary key**.
-   1. Select **Events**. Select the event subscription you've created as a part of setting up advanced messaging for WhatsApp in [Prerequisities](#prerequisites).
+   1. Select **Events**. Select the event subscription you created as a part of setting up advanced messaging for WhatsApp in [Prerequisities](#prerequisites).
    1. Select **Additional features** in the **Event Subscription** page. 
    1. In **MICROSOFT ENTRA AUTHENTICATION**, copy the **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URI** values.
-   1. Select **Channels** in **Advanced Messaging**. Copy the **Channel ID** corresponding to the channel you've created as a part of setting up advanced messaging for WhatsApp in [Prerequisities](#prerequisites).
+   1. Select **Channels** in **Advanced Messaging**. Copy the **Channel ID** corresponding to the channel you created as a part of setting up advanced messaging for WhatsApp in [Prerequisites](#prerequisites).
 
 ## Create a WhatsApp channel
 
@@ -61,7 +61,7 @@ Copy the following information from the [Azure portal](https://ms.portal.azure.c
    
 1. Select the required **Provider**. Based on your selection, specify the following details.
  
-    You must specify the information you've copied from in [Fetch Azure Communication Services details](#fetch-azure-communication-services-details).
+    You must specify the information you copied from [Fetch Azure Communication Services details](#fetch-azure-communication-services-details).
     
      1. In the **Channel settings** page, specify the following. 
          - **ACS resource name**: The **Name** of the resource.
@@ -71,10 +71,10 @@ Copy the following information from the [Azure portal](https://ms.portal.azure.c
          - Select the check box to confirm that the Azure Communication Services resource is connected only to one organization.
      1. In the **WhatsApp channel ID**, select **Add**, and on the page that appears, enter the following information:
          - **Name**: Specify a name.
-         - **Channel ID**: Specify the **Channel ID** for the WhatsApp channel you've created in Azure Communication Services.
+         - **Channel ID**: Specify the **Channel ID** for the WhatsApp channel you created in Azure Communication Services.
      1. On the **Callback information** page, copy the value in the **WhatsApp inbound URL** box to use in the Azure Communication Services event grid.
      1. Perform the steps the following section to add the WhatsApp endpoint to the Azure Communication Services resource.
-     1. Select the check box to confirm that the WhatsApp channel is setup correctly and then select **Done**.
+     1. Select the check box to confirm that the WhatsApp channel is set up correctly and then select **Done**.
       
 ### Add the WhatsApp endpoint to Azure Communication Services resource
 
