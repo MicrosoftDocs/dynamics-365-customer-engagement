@@ -33,8 +33,8 @@ You can connect your voice or SMS channels to Azure Communication Services using
 Before you connect an existing Azure resource to Azure Communication Services, you must retrieve the following information from the [Azure portal](https://ms.portal.azure.com/):
 
 1. Go to **Resource groups** and select the required resource group where your Azure Communication Services resource is located.
-
-    :::image type="content" source="../media/acs-resource-existing-mini.png" alt-text="image showing how to add a resource" lightbox="../media/acs-existing-resource.png"::
+ 
+   :::image type="content" source="../media/acs-resource-existing-mini.png" alt-text="image showing how to add a resource" lightbox="../media/acs-existing-resource.png"::
    
 1. Select **Properties** in **Settings**.
 1. On the **Properties** page, copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center or Contact Center admin center.
