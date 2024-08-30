@@ -61,7 +61,7 @@ Copy the following information from the [Azure portal](https://ms.portal.azure.c
    
 1. Select the required **Provider**. Based on your selection, specify the following details.
  
-    You must specify the information you've copied from in [Fetch Azure Communication Services details](#azure-communication-services-1).
+    You must specify the information you've copied from in [Fetch Azure Communication Services details](#azure-communication-services-details).
     
      1. In the **Channel settings** page, specify the following. 
          - **ACS resource name**: The **Name** of the resource.
