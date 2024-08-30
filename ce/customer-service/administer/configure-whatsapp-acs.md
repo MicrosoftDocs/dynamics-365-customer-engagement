@@ -41,7 +41,7 @@ The success of social media customer service, like all other customer services, 
 
 ## Fetch Azure Communication Services details
 
-Copy the following information from the [Azure portal](https://ms.portal.azure.com/). You will need these details to configure the WhatsApp channel through Customer Service admin center.
+Copy the following information from the [Azure portal](https://ms.portal.azure.com/). You will need these details to configure the WhatsApp channel through Contact Center admin center or Customer Service admin center.
    
    1. Go to **Resource groups** and select the required resource group. 
    1. Select the required **Resource** from the resource group.
@@ -55,7 +55,7 @@ Copy the following information from the [Azure portal](https://ms.portal.azure.c
 
 ## Create a WhatsApp channel
 
-1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Contact Center admin center or Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
 1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
    
