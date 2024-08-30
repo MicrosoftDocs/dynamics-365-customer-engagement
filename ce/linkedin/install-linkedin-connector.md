@@ -36,7 +36,7 @@ To enable the synchronization of lead data from [!include[LinkedIn](../includes/
 
 * We recommend using the latest version of [!include[Edge](../includes/pn-microsoft-edge.md)], [!include[Chrome](../includes/tn-google-chrome.md)], [!include[Firefox](../includes/tn-mozilla-firefox.md)], or [!include[Safari](../includes/tn-apple-safari.md)].
 
-## Install and set up the solution
+## Install and set up the connector
 
 1. Open the connector app in [Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=850928).
 
