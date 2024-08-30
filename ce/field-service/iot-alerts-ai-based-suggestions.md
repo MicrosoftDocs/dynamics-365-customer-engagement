@@ -1,7 +1,7 @@
 ---
 title: AI suggestions for IoT alerts
 description: Use AI to investigate and address IoT issues before they happen, by learning from previous actions taken on alerts.
-ms.date: 06/23/2023
+ms.date: 08/30/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath
@@ -9,6 +9,9 @@ author: vhorvathms
 ---
 
 # AI suggestions for IoT alerts
+
+> [!NOTE]
+> This feature will be deprecated in November 2024.
 
 AI suggestions for IoT alerts use IoT data by converting IoT alerts into cases and work orders, enabling organizations to investigate and address issues before they happen. AI suggestions can also learn from previous actions taken on IoT alerts, providing recommendations on priority and incident types. For example, if your organization regularly receives IoT alerts indicating a machine's temperature exceeding the acceptable threshold. In such cases, your organization frequently converts these alerts into work orders. The AI IoT model uses this historical data to learn from the actions. When a new temperature alert arrives that surpasses the temperature threshold, the AI recognizes it and suggests appropriate actions.
 

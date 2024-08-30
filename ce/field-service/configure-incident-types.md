@@ -1,7 +1,7 @@
 ---
 title: Create work order templates with incident types
 description: Learn how to configure incident types in Dynamics 365 Field Service.
-ms.date: 08/02/2024
+ms.date: 08/30/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -252,6 +252,9 @@ When using incidents with requirement groups:
 > If a work order should be performed by multiple resources, we recommended using requirement group templates instead of multiple incident types. Let's say you have a work order with two incident types, each requiring different skills. The system will look for a single resource to fulfill the job. The scheduler would need to perform extra steps to schedule it so two different resources arrive at the same time. If you use a requirement group template, the schedule assistant will simultaneously search for both a single resource with both skills or two resources each with one skill to arrive at the same time.
 
 ## Use AI to get incident type suggestions
+
+> [!NOTE]
+> This feature will be deprecated in November 2024.
 
 With Field Service v8.8.20.12+, incident type AI suggestions recommend ways to improve your incident types by learning from work orders. For example, you have an incident type that is configured to use a certain product. However, technicians frequently also use a different product to complete the job. With AI, the system learns and suggests updating the related product on the incident type for future work orders.
 

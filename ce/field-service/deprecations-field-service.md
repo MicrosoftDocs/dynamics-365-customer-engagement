@@ -1,7 +1,7 @@
 ---
 title: Feature deprecations
 description: Learn about features that are being deprecated for Dynamics 365 Field Service.
-ms.date: 02/09/2024
+ms.date: 08/30/2024
 ms.topic: conceptual
 ms.custom: bap-template
 ms.author: vhorvath
@@ -14,6 +14,13 @@ Features that have been deprecated in Dynamics 365 Field Service are listed in t
 
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification will span at least six months. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Dynamics 365 Field Service reports and features - August 30, 2024
+
+The following Dynamics 365 Field Service reports and features will no longer be available after November 2024.
+- Predictive work duration reports (Preview)
+- Incident type AI suggestions
+- IoT alert suggestions
 
 ## Dynamics 365 Field Service (on-premises) - June 30, 2022
 

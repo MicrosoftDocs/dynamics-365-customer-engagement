@@ -1,7 +1,7 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 02/08/2024
+ms.date: 08/30/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -127,9 +127,9 @@ You can use purchase orders (POs) to add inventory to a warehouse, or to purchas
 
 ## Intelligence settings
 
-Predictive work duration lets dispatchers predict the duration of bookings. For more information, go to [Predictive work duration and resource proficiency suggestions](analytics-predictive-work-duration.md).
+Predictive work duration lets dispatchers predict the duration of bookings. For more information, go to [Predictive work duration and resource proficiency suggestions](analytics-predictive-work-duration.md). This setting will be deprecated in November 2024.
 
-Incident type suggestions help administrators manage work order templates. For more information, go to [Use AI to get Incident Type suggestions](configure-incident-types.md#use-ai-to-get-incident-type-suggestions).
+Incident type suggestions help administrators manage work order templates. For more information, go to [Use AI to get Incident Type suggestions](configure-incident-types.md#use-ai-to-get-incident-type-suggestions). This setting will be deprecated in November 2024.
 
 |  Option  |  Description   |  
 |-------------|-----------------|  

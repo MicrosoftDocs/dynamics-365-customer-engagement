@@ -1,7 +1,7 @@
 ---
 title: "Create IoT alerts and convert IoT alerts into work orders with Connected Field Service for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to create IoT alerts and convert IoT alerts into work orders with Connected Field Service for Dynamics 365 Field Service
-ms.date: 03/25/2021
+ms.date: 08/30/2024
 
 ms.subservice: connected-field-service
 ms.topic: how-to
@@ -125,7 +125,6 @@ Create a case related the IoT alert to investigate remotely.
 
 If the potential issue can't be identified or resolved, advance to the next step in the business process flow to create a work order. 
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the quick-create work order form from the case we created from the IoT alert.](./media/cfs-iot-alert-create-work-order.png)
 
@@ -147,12 +146,6 @@ Select the group icon next to an IoT alert to see similar IoT alerts for the sam
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of related IoT alerts in Field Service.](./media/cfs-iot-alert-parent-diagram.png)
-
-You can also use AI to suggest which IoT alerts are higher priority based on historical data, like which IoT alerts were converted to work orders. For more information, see this article: [IoT alert AI suggestions](iot-alerts-ai-based-suggestions.md). 
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of prioritized IoT alerts in Field Service.](./media/cfs-iot-alert-high-priority.png)
 
 ## IoT alerts parenting
 
