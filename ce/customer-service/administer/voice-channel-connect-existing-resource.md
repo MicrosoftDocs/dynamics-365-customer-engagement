@@ -10,8 +10,7 @@ ms.reviewer: nenellim
 ms.collection:
 ---
 
-# Advanced: Connect using an existing Azure resource
-
+# Connect using an existing Azure resource
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
@@ -34,29 +33,20 @@ You can connect your voice or SMS channels to Azure Communication Services using
 Before you connect an existing Azure resource to Azure Communication Services, you must retrieve the following information from the [Azure portal](https://ms.portal.azure.com/):
 
 1. Go to **Resource groups** and select the required resource group where your Azure Communication Services resource is located.
-2. Select **Properties** in **Settings**.
-3. On the **Properties** page, copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center or Contact Center admin center.
-4. Find the Communication Service for the Resource Group, and then select **Keys in Settings**.
-5. On the **Keys**, copy the **Connection string** in **Primary key**. You use this value as the value of **Connection string** in Customer Service admin center or Contact Center admin center.
 
-> [!NOTE]
-> If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Services resource, the existing connection string in the Contact Center admin center app becomes invalid. An error message is also displayed in the connection string filed in the admin center. To resolve the error, copy the correction connection string from the Azure portal, and then paste it in the **Connnection string** field in **Channels** > **Phone numbers** > **Advanced** > **Manage Azure Communication Services** in the Contact Center admin center app. The application displays a success message if the connection is successful.
-
-
-1. Select the required **Resource** from the resource group.
-    :::image type="content" source="../media/acs-resource-existing-mini.png" alt-text="image showing how to add a resource" lightbox="../media/acs-existing-resource.png":::
-1.  Select **Properties** in **Settings**. 
-1. On the **Properties** page,  copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center or Contact Center admin center.
+    :::image type="content" source="../media/acs-resource-existing-mini.png" alt-text="image showing how to add a resource" lightbox="../media/acs-existing-resource.png"::
+   
+1. Select **Properties** in **Settings**.
+1. On the **Properties** page, copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center or Contact Center admin center.
    :::image type="content" source="../media/acs-property-records-mini.png" alt-text="image showing the resource id values " lightbox="../media/acs-property-records.png":::
-
-
-1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**. You use this value as the value of **Connection string**  in Customer Service admin center or Contact Center admin center. 
+   
+1. Find the Communication Service for the Resource Group, and then select **Keys in Settings**.
+1. On the **Keys**, copy the **Connection string** in **Primary key**. You use this value as the value of **Connection string** in Customer Service admin center or Contact Center admin center.
 
    :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
 
-
- > [!NOTE]
- > If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Service resource, the existing connection string in the Contact Center admin center app becomes invalid. An error message is also displayed in the connection string field in the admin center. To resolve the error, copy the correct connection string from the Azure portal and paste it in the **Connection string** field in **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** in Contact Center admin center. The application displays a success message if the connection is successful.
+> [!NOTE]
+> If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Services resource, the existing connection string in the Contact Center admin center app becomes invalid. An error message is also displayed in the connection string filed in the admin center. To resolve the error, copy the correction connection string from the Azure portal, and then paste it in the **Connnection string** field in **Channels** > **Phone numbers** > **Advanced** > **Manage Azure Communication Services** in the Contact Center admin center app. The application displays a success message if the connection is successful.
 
 ### Get Event Grid application and tenant IDs from the Azure portal
 
@@ -91,7 +81,9 @@ You need to specify the values of **Application (client) ID** and **Directory (t
      - Paste the values you copied in [Get application and tenant IDs](#get-event-grid-application-and-tenant-ids-from-the-azure-portal) in the following fields:
      
        - **Event grid app id**: The value of the **Application (client) ID** 
-       - **Event grid app tenant id**: The value of the **Directory (tenant) ID** 
+       - **Event grid app tenant id**: The value of the **Directory (tenant) ID**
+
+       :::image type="content" source="../media/event-grid-app-tenant-id.png" alt-text="Values copied in Get application and tenant IDs" :::  
 
      - Select the checkbox to confirm that the Azure Communication Services resource is connected to this Dynamics 365 Contact Center or Customer Service instance only.
 
@@ -104,7 +96,7 @@ After you configure the Azure Communication Services resource, the **Manage Azur
  - **SMS Web Hook Endpoint**
  -  **Incoming call Web Hook Endpoint (preview)**.
 
-You can copy the subscriber endpoint values such as **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)** to use them in the following section. For more information, refer to [Set up incoming call, call recording, and SMS services](voice-channel-configure-services.md).
+You can copy the subscriber endpoint values such as **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)** to use them in [Set up incoming call, call recording, and SMS services](voice-channel-configure-services.md).
 
 > [!NOTE]
 > **Incoming call Web Hook Endpoint (preview)** is available only if the enhanced voice experience is deployed in your region.
