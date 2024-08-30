@@ -68,7 +68,7 @@ Scheduling entities are grouped under the following logical groups.
    Learn more at [Set when your business is closed](../use/set-when-business-closed-csh.md).
 
 
-### See also    
+### Related information    
 
 [Overview of Service Scheduling](basics-service-service-scheduling.md#overview-of-service-scheduling)  
 [Enable an entity for resource scheduling](entity-schedule-enable.md#enable-an-entity-for-resource-scheduling)  

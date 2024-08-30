@@ -159,7 +159,7 @@ After the Omnichannel for Customer Service application is successfully provision
 
 [Instance is not available to select on the provisioning application](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/instance-unavailable-provision-omnichannel)
 
-### See also
+### Related information
 
 [Upgrade Omnichannel for Customer Service](../implement/upgrade-omnichannel.md)  
 [Create workstreams](../administer/create-workstreams.md)  

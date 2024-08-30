@@ -1,11 +1,12 @@
 ---
-title: "View call recording and transcripts for voice channel | MicrosoftDocs"
+title: View call recording and transcripts for voice channel
 description: Use this article to learn how to view call recordings and transcripts.
-ms.date: 08/02/2023
-ms.service: dynamics-365-customerservice
-ms.topic: article
+ms.date: 08/29/2024
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
+ms.custom: bap-template
 ---
 
 # View call recordings and transcripts
@@ -15,14 +16,13 @@ ms.author: mgandham
 If your administrator has enabled the option to view call recordings and transcripts, when conversations between agents and customers end, both supervisors and agents can view the recordings and transcripts of those conversations, play back the recordings, and view the sentiment analysis and other analytics related to the conversations.
 
 > [!NOTE]
-> Many countries and states have laws and regulations that apply to the recording of public switched telephone network (PSTN), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
+> Many countries and states have laws and regulations that apply to the recording of public switched telephone network (PSTN), voice, and video calls, and requires that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
 
 ## Introduction
 
 As an agent, you can access the recordings and transcripts for completed calls by accessing the closed conversations in one of the following ways:
 
 - If the form selector is available, on your session window, select the dropdown button for **Active Conversation** and select **Closed Conversation**.
-- 
 - Select the name of the contact, and then in the **Timeline** section, hover the mouse over the closed conversation that you want to view, and then select the **Open Record** icon.
 
 > [!NOTE]
@@ -78,7 +78,7 @@ The **Metrics** tab of the Conversation Form displays the following details:
 
 The **Sessions** tab displays details about the number of voice calls between the agent and the customer, and the duration, date, and time of the conversation.
 
-### See also
+### Related information
 
 [Agent experience of voice calls and agent dashboard](voice-channel-agent-experience.md)  
 [Call a customer](voice-channel-call-customer.md)  

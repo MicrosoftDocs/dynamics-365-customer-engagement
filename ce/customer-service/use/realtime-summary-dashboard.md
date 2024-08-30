@@ -61,7 +61,7 @@ To view more details about agent analytics by queue, select the **Show more** li
 
 These tabs will help you effectively manage agent activity in real time.
 
-### See also
+### Related information
 
 [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
 [Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>

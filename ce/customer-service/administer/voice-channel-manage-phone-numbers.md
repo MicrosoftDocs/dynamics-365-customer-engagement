@@ -150,7 +150,7 @@ If you no longer need a phone number, you can release it from your organization'
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Set up inbound calling](voice-channel-inbound-calling.md)  
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  

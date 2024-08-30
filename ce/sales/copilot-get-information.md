@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 08/19/2024
+ms.date: 08/30/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -78,6 +78,9 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 
         The information is displayed in these sections are based on the fields configured by the administrator for generating summaries. More information: [Configure fields for generating summaries and recent changes list](copilot-configure-summary-fields.md).
 
+>[!NOTE]
+>To understand the default attributes used to generate summaries in Copilot in Dynamics 365 Sales, see [opportunity summary default attributes](understand-copilot-summaries.md#opportunity-summary).
+
 ### View opportunity summary widget
 
 By default, when you open an opportunity, the opportunity summary widget is displayed in the **Opportunity** form, above the **Up next** widget. The widget displays insights of the opportunity similar to [the opportunity summary](#summarize-an-opportunity) displayed in the Copilot side pane or page.  
@@ -104,11 +107,9 @@ Keep in mind that the summary fields are configured at the organization level. M
 
 ### Enrich leads with related information
 
-Copilot can enrich your leads with information from Dynamics 365 Sales, Dynamics 365 Customer Insights, LinkedIn, and Bing, such as:
+Copilot can enrich your leads with information from Dynamics 365 Sales, LinkedIn, and Bing, such as:
 
 - Possible contacts, based on the lead name, phone number, email address, and company name
-
-- Insights about customer sentiment, behavior, and interest generated based on unified activity data in Dynamics 365 Customer Insights, if configured. [Learn more](/dynamics365/customer-insights/data/lead-profile-summary)  
 
 - The latest news about the account, curated by Bing
 

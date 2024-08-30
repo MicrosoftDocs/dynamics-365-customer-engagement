@@ -46,7 +46,7 @@ When you select a component in a chart, the data is filtered accordingly. In thi
 
 Drill down to sections of a report to find the data that interests you the most. To view voice conversation analytics, select the **Show more** link on the **Voice conversations over time** KPI. You can drill through voice conversations analytics and analyze data by queue.
 
-### See also
+### Related information
 
 [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
 [Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>

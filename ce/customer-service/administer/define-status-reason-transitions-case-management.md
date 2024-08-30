@@ -34,7 +34,7 @@ If you’re in charge of incident management for an organization, it’s importa
 
    :::image type="content" source="../media/powerapps-case-resol-add-value.png" alt-text="Screenshot displaying powerapps configuration":::
 
-### See also
+### Related information
 
 [Edit the column](/power-apps/maker/data-platform/create-edit-field-portal#edit-a-column)
 
