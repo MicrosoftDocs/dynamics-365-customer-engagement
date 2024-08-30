@@ -1,10 +1,10 @@
 ---
-title: "Add timer in forms to track time against enhanced SLAs (Dynamics 365 Customer Service) | MicrosoftDocs"
-description: "Learn the procedure to add a timer in forms to track time against enhanced SLAs in Dynamics 365 Customer Service."
-ms.date: 06/16/2022
+title: Add timer in forms to track time against enhanced SLAs (Dynamics 365 Customer Service)
+description: Learn the procedure to add a timer in forms to track time against enhanced SLAs in Dynamics 365 Customer Service.
+ms.date: 08/30/2024
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: Soumyasd27
+ms.author: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -16,9 +16,8 @@ ms.custom:
 # Add a timer in forms to track time against enhanced SLAs
 
 > [!NOTE]
-> - Enhanced SLAs have been deprecated and replaced with Unified Interface SLAs. More information: [SLAs in web client are deprecated](../implement/deprecations-customer-service.md#slas-in-web-client-are-deprecated).
-> - For more information about adding a timer control to Unified Interface SLA-enabled entities, see [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities).
->
+> - Enhanced SLAs have been deprecated and replaced with Unified Interface SLAs. Learn more in [SLAs in web client are deprecated](../implement/deprecations-customer-service.md#slas-in-web-client-are-deprecated).
+> - For more information about adding a timer control to Unified Interface SLA-enabled entities, go to [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities).
 
 A timer helps users gauge the amount of time they have to complete a key performance indicator (KPI) that is typically associated with a service level agreement (SLA). If your organization uses enhanced SLAs, you must use quick view forms to add a timer to track time against such SLAs.  
   
@@ -56,7 +55,7 @@ To add a timer to track time against enhanced SLAs:
   
 ## Enable an entity for SLA  
 
- To add a timer for an enhanced SLA to an entity form, that entity must be enabled for SLA. To learn more, see [Enable entities for service level agreements](enable-entities-service-level-agreements.md).  
+ To add a timer for an enhanced SLA to an entity form, that entity must be enabled for SLA. Learn more in [Enable entities for service level agreements](enable-entities-service-level-agreements.md).  
   
 ## Create SLA KPI fields  
   
@@ -127,7 +126,7 @@ To add a timer to track time against enhanced SLAs:
   
 ## Create an SLA
 
- Create an SLA for the entity you want to track. For example, you may want to create track the time taken by sales person to take action on a lead, like qualifying or disqualifying a lead. For this, create an SLA for the lead entity. For more information on creating an SLA, see [Define service level agreements](define-service-level-agreements.md)  
+ Create an SLA for the entity you want to track. For example, you may want to create track the time taken by sales person to take action on a lead, like qualifying or disqualifying a lead. For this, create an SLA for the lead entity. For more information on creating an SLA, go to [Define service level agreements](define-service-level-agreements.md)  
   
 ## Add the quick view form to the primary entity form to show the timer
 
@@ -149,7 +148,7 @@ To add a timer to track time against enhanced SLAs:
   
     To add the timer to the interactive experience form so users can use it in the interactive service hub, open the form of type **Main – Interactive experience**  
   
-5. Add a section to insert the quick view control. On  the **Insert** tab, in the **Section** group, click **Section**, and then click **One Column**.   Double-click the section to specify the section properties. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Section properties](../../customerengagement/on-premises/customize/section-properties-legacy.md).  
+5. Add a section to insert the quick view control. On  the **Insert** tab, in the **Section** group, click **Section**, and then click **One Column**.   Double-click the section to specify the section properties. Learn more in [Section properties](../../customerengagement/on-premises/customize/section-properties-legacy.md).  
   
    > [!NOTE]
    >  You can't add an SLA timer to the reference panel section of the Main - Interactive experience form.  
