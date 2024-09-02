@@ -78,7 +78,7 @@ Find your work order in the requirement pane. Drag it to a free time slot in the
 
 Frontline workers use the mobile experience on their phone or tablet.
 
-[Download and install the mobile app](mobile-power-app-get-started.md) and sign in as the technician to whom the work order is assigned.
+[Download and install the mobile app](mobile/set-up-field-service-mobile.md) and sign in as the technician to whom the work order is assigned.
 
 The **Booking** tab shows the work order you scheduled to the frontline worker. Update the status of the booking and related details to indicate completion of the work order.
 

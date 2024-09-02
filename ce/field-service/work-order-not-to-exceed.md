@@ -78,7 +78,8 @@ Technicians who use the Field Service mobile app can see the not-to-exceed value
 
 However, you can still save work orders when ignoring the warning.
 
-Using the [Field Service mobile app in offline mode](mobile-power-app-system-offline.md) takes the NTE values from the most recent synchronization into account.
+## Applied amount on work orders
+Using the [Field Service mobile app in offline mode](mobile/work-offline.md) takes the NTE values from the most recent synchronization into account.
 
 ## View applied amount on work orders
 

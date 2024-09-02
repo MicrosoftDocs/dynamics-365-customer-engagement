@@ -29,7 +29,7 @@ The work order update feature adheres to [responsible AI guidelines](faqs-work-o
 
 - You must [update your environment](update-field-service.md) at least to the latest 2023 wave 2 build.
 
-- You [enabled the new mobile experience](mobile-powerapp-newux-overview.md).
+- You [enabled the new mobile experience](mobile/set-up-field-service-mobile.md).
 
 ## Enable Copilot to update work order
 
