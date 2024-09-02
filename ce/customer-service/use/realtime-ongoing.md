@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/20/2024
+ms.date: 09/02/2024
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -27,7 +27,9 @@ This report provides a holistic view of the conversations in real time. It inclu
 
 :::image type="content" source="../media/realtime_ongoing conversations.png" alt-text="The image shows real-time ongoing conversations report.":::
 
-The conversation list shows current ongoing conversations from the last 24 hours. Therefore, managers have a real-time view of the interactions between agents and customers. You can also select an agent and then use the following buttons to perform different actions on conversations:
+The conversation list shows current ongoing conversations from the last 24 hours, which enables managers to have a real-time view of the interactions between agents and customers. Only digital messaging, chat, and voice channels are supported. Entity routing isn't supported.
+
+You can also select an agent and then use the following buttons to perform different actions on conversations:
 
 ## Assign conversations
 
