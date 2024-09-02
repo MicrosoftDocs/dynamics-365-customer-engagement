@@ -19,17 +19,17 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The **Ongoing conversation** report provides information about the status of conversations that are currently being handled by agents in your organization, and that aren't yet closed. The conversation status can be open, active, wrap-up, or waiting.
+The **Ongoing conversation** report shows ongoing conversations from the last 24 hours that are currently being handled by agents in your organization and that aren't yet closed. The report displays those conversations that have the open, active, wrap-up, or waiting status. Learn more in [Understand conversation states](oc-conversation-state.md).
 
-This report provides a holistic view of the conversations in real time. It includes details such as the subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. Learn more in [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
+This report provides a holistic view of the conversations in real time. It includes details about subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. Learn more in [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
+
+Digital messaging, chat, and voice channels only are supported. Record routing isn't supported.
 
 [Learn more about the metrics that are shown on the Ongoing conversation report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
 :::image type="content" source="../media/realtime_ongoing conversations.png" alt-text="The image shows real-time ongoing conversations report.":::
 
-The conversation list shows current ongoing conversations from the last 24 hours, which enables managers to have a real-time view of the interactions between agents and customers. Only digital messaging, chat, and voice channels are supported. Entity routing isn't supported.
-
-You can also select an agent and then use the following buttons to perform different actions on conversations:
+You can perform different actions, such as assign or transfer a conversation, as described in the following sections.
 
 ## Assign conversations
 
@@ -39,10 +39,8 @@ Assign an incoming or unassigned conversation filtered by either a queue or an a
 
 1. Select a conversation in an **Open** state, and then select **Assign**.
 
-1. In the **Assign conversations** dialog, select **Agent**, or **Queue**.
-
-    > If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
-    > If you select **Queue**, all other queues&mdash;except the one to which the conversation is currently assigned&mdash;are displayed.
+1. In the **Assign conversations** dialog, select **Agent**, or **Queue**. If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
+If you select **Queue**, all other queues&mdash;except the one to which the conversation is currently assigned&mdash;are displayed.
 
 1. Select **Assign**.
 
@@ -62,7 +60,7 @@ Transfer an ongoing conversation from one agent to another after reviewing the s
 
 ## Monitor conversations
 
-Listen to an ongoing conversation. When you select **Monitor**, you receive a message that states that monitoring has begun. This action is applicable only to active conversations with agent acceptance, conversations that are in a wrap-up state, and conversations that are in a waiting state. The browser that you select **Monitor** from loads that conversation. Other browsers remain as-is.
+Listen to an ongoing conversation. When you select **Monitor**, you receive a message indicating that monitoring has begun. This action is applicable to active conversations that were accepted by the agent, conversations that are in a wrap-up state, and conversations that are in a waiting state only. The browser that you select **Monitor** from loads that conversation. If you have the conversation open on multiple browsers, other browsers will remain as-is.
 
 1. From the dashboard view selector, select the **Ongoing Conversations** report. The list of conversations that your agents are currently handling appears.
 
@@ -74,7 +72,10 @@ Listen to an ongoing conversation. When you select **Monitor**, you receive a me
 
 ## Force close conversations
 
-Forcibly close a conversation by closing the work item. When you select **Force close**, a confirmation message box appears. You must select **Proceed** to close the work item. When you forcibly close a conversation, the conversation immediately ends for the customer too. We recommend that you use this action with caution.
+> [!CAUTION]
+> We recommend that you use the Force close option cautiously.
+
+Forcibly close a conversation by closing the work item. When you select **Force close**, a confirmation message appears. You must select **Proceed** to close the work item. When you forcibly close a conversation, the conversation immediately ends for the customer too. 
 
 1. From the dashboard view selector, select the **Ongoing Conversations** report.
 
