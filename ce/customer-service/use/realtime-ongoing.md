@@ -60,7 +60,8 @@ Transfer an ongoing conversation from one agent to another after reviewing the s
 
 ## Monitor conversations
 
-Listen to an ongoing conversation. When you select **Monitor**, you receive a message indicating that monitoring has begun. This action is applicable to active conversations that were accepted by the agent, conversations that are in a wrap-up state, and conversations that are in a waiting state only. The browser that you select **Monitor** from loads that conversation. If you have the conversation open on multiple browsers, other browsers will remain as-is.
+Listen to an ongoing conversation. When you select **Monitor**, you receive a message indicating that monitoring has begun. This action is applicable to active conversations that were accepted by the agent, conversations that are in a wrap-up state, and conversations that are in a waiting state only. If you have the agent app open in multiple tabs or browsers, the monitored conversation opens in the one where you select **Monitor**. Other browsers remain as-is.
+
 
 1. From the dashboard view selector, select the **Ongoing Conversations** report. The list of conversations that your agents are currently handling appears.
 
