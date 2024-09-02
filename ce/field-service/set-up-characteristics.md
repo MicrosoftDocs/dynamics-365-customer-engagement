@@ -12,7 +12,7 @@ ms.author: chenryan
 
 Characteristics are skills or attributes that resources possess. For example, they can be used to indicate a license or certification is needed for certain types of work.  
   
-Add characteristics to work orders to list skills a resource needs to complete the job. It helps finding the right resource that has the matching characteristics when scheduling the work order.
+Add details to work orders to describe the skills needed to complete the job. Use these details to match the skills of available workers to make sure the right person is chosen for the task.
   
 ## Add characteristics  
   
@@ -83,7 +83,7 @@ Before users can specify enhanced characteristics, a Field Service administrator
 
 1. Select **Save & Close**.
 
-With enhanced characteristics enabled, you can append some more information to *Bookable Resource Characteristic* records.
+With enhanced characteristics enabled, you can add more information to *Bookable Resource Characteristic* records.
 
 A section for **Supporting Information** shows on the record. You can provide an **ID**, **Issue Date**, **Expiration Date**, and a **Description** of a characteristic that relates to a specific resource.
   
@@ -98,6 +98,5 @@ A section for **Supporting Information** shows on the record. You can provide an
 1. Choose the **Characteristic**, an optional **Rating Value**, and the related **Resource Requirement**.
   
 1. Select **Save & Close**.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

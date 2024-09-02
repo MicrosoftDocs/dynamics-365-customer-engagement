@@ -1,10 +1,12 @@
 ---
 title: Personalize sound notifications in Omnichannel for Customer Service.
-description: Learn how agents can personalize sound notification settings in Omnichannel for Customer Service.
-ms.date: 05/31/2023
+description: Learn how agents can personalize sound notification settings in their agent app.
+ms.date: 08/30/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 
 # Personalize sound notification settings
@@ -31,16 +33,18 @@ The personalized settings have precedence over the administrator settings. You c
    - **Repeat until answered:** Set the toggle to **Yes** if you want the sound to be played until you respond.
    - **Sound:** Accept the default setting or search and select a different audio file. You can use the **New Audio File** option to upload and use an audio file of your choice. You also have the option to preview the audio.
    - **Volume:** Accept the default setting or use the slider to adjust the volume.
-      > ![Personalize sound notifications.](../media/oc-personalize-sound-notifications.png "Personalize sound notifications")
+     
+     > ![Personalize sound notifications.](../media/oc-personalize-sound-notifications.png "Personalize sound notifications")
    
    - **Reset to default settings:** When you customize any setting, the button is enabled for you to reset to the out-of-the-box settings.
 
 4. In the **Incoming messages for open sessions** section, customize the options for sound notifications for messages in open sessions, such as live chat or a social channel.
+   
     > ![Sound notification settings for open sessions.](../media/sound-notification-open-session.png "Sound notification settings for open sessions")
 
 5. Select **Save**.
 
-### See also
+### Related information
 
 [View communication panel](oc-conversation-control.md)  
 [View notifications](oc-notifications.md) 

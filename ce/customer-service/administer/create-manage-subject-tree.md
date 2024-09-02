@@ -71,7 +71,7 @@ You can select **Open old subject management page** to use the older experience.
 > [!NOTE]
 > We recommend that you create not more than 1,000 subjects including child subjects to avoid performance issues.
 
-### See also
+### Related information
 
 [Overview of case management](overview-cases.md)  
 [Enable search control for the subject entity](../search-control-for-subjects.md)  

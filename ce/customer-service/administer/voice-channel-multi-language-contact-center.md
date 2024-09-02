@@ -64,7 +64,7 @@ A few things to consider when you configure your bots for multilingual contact c
 - You can configure different geographic locales for the bot and voice workstream. For example, you can set English-UK in the voice profile and English-US in the bot.
 - The bot's accuracy depends on the similarities between locales. However, if you configure different locales, the preconfigured entities for the bot, such as zip code, might not be accurate.
 
-### See also
+### Related information
 
 [Introduction to the voice channel](voice-channel.md)  
 [Azure Cognitive Services - speech to text](https://azure.microsoft.com/services/cognitive-services/text-to-speech/#features)  

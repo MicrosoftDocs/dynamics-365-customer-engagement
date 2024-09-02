@@ -64,7 +64,7 @@ Microsoft.Omnichannel.getConversations(input).then(result => {
 );
 ```
  
-### See also
+### Related information
 
 [Live chat SDK reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  

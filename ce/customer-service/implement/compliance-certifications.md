@@ -15,7 +15,7 @@ ms.collection:
 
 Refer to the Microsoft Dynamics 365 [Cloud services compliance](https://aka.ms/d365-compliance-list) document and [Service Trust Portal](https://servicetrust.microsoft.com/) for information about the **Omnichannel for Customer Service** compliance certifications.
 
-### See also
+### Related information
 
 [Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)
 

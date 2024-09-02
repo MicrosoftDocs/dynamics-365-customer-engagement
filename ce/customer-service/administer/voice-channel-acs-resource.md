@@ -31,7 +31,7 @@ You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect 
 > - We recommend that you [test your network](https://azurecommdiagnostics.net) before connecting to Azure Communication Services.
 
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Connect using a new Azure resource](voice-channel-connect-new-resource.md)  

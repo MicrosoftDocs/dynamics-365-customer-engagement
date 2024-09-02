@@ -49,7 +49,7 @@ When you enable sound settings, the options to personalize settings are availabl
 
 1. Select **Save.**
 
-### See also
+### Related information
 
 [Get started with Contact Center admin center](../implement/cs-admin-center.md)  
 [Personalize notifications](../use/oc-personalize-sound-notifications.md)  

@@ -204,7 +204,7 @@ You can use the following metadata mapping JSON sample as template to build your
 
 When you're mapping information from external data providers to knowledge article entities, if the source value is of a different data type, you'll have to transform the value before you can map it to the target knowledge field. More information: [Transform and map external source data to corresponding target knowledge attribute](create-a-conversion-plugin.md)
 
-## See Also
+## Related information
 
 [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers)  
 [View and use insights for search providers](../administer/view-and-use-insights.md)

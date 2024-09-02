@@ -33,6 +33,7 @@ The conversation list shows current ongoing conversations from the last 24 hours
 
 Assign an incoming or unassigned conversation filtered by either a queue or an agent, after reviewing the skill set and capacity profile of agents.
 
+<<<<<<< HEAD
 1. In the Contact Center workspace or Customer Service workspace app, go to the dashboard view selector, and then select the **Ongoing Conversations** report.
 
 1. Select a conversation in an **Open** state, and then select **Assign**.
@@ -80,6 +81,8 @@ Forcibly close a conversation by closing the work item. When you select **Force 
 
 The participants receive a notification that a supervisor ended their conversation.
 
+=======
+>>>>>>> 6d24c7855821483d25bf7bdbfd725b6432837de8
 ### Related information
 
 [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>

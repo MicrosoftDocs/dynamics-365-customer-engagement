@@ -121,7 +121,7 @@ When you initiate a consult, the following actions occur:
     
     The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.
 
-### See also
+### Related information
 
 [Overview of the voice channel](../administer/voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md)  
