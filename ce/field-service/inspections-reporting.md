@@ -45,9 +45,9 @@ Questions on inspections are stored in Dataverse, and can be found in the table 
 
    :::image type="content" source="./media/9-CDS-data-upon-completion.jpg" alt-text="Screenshot of Power Apps, showing the inspection responses in the Customer Voice survey question response table.":::
 
-## Work with Power Automate inspection flows
+## View the status of the out-of-the-box inspection flows
 
-The logic in inspections uses Power Automate flows, which comes with the inspections capability.
+The logic in inspections uses Power Automate flows, which is part of the out-of-the-box inspection capability. The following flows are used:
 
 - **Deserialization of Inspection Definition Flow**: This flow is triggered when an inspection is published. It populates inspection questions into the 'msfp_question' table.
 - **Deserialization of Inspection Response – Recurrent Flow**: This flow is triggered when the frequency is set to **Daily** or **Custom**. It updates the parsed inspection response JSON into 'msfp_surveyresponse' and creates new records for responses and corresponding questions in the 'msfp_questionresponse' table.
@@ -57,7 +57,7 @@ To view the status of the flows, sign in to [Power Automate](https://make.powera
 
 :::image type="content" source="./media/10-Flow-for-published-questions.jpg" alt-text="Screenshot of the Inspection deserialization flow in Power Automate.":::
 
-### Use Power Automate flow to parse inspection responses (deserialization of responses)
+## Use a Power Automate flow to parse inspection responses (deserialization of responses)
 
 When a technician fills out an inspection, the answers to each inspection question are stored as JSON in the *Inspection Response* table. You can use a Power Automate flow to run a workflow on inspection responses. For more information, watch the video on [run workflows on Inspection responses](https://youtu.be/fCjQmIw9ahs).
 
@@ -66,13 +66,18 @@ When a technician fills out an inspection, the answers to each inspection questi
 
 For example, if a technician responds 'Yes' to the inspection question **Is a follow-up required?** then a new follow-up work order service task is added to the related work order.
 
-1. Create a flow.
-   - Sign in to [https://flow.microsoft.com](https://flow.microsoft.com), choose your environment, and create a new flow.
-   - Choose **Automated - from blank**.
-   - Name the flow and select **Skip**.
-1. Create a trigger.
+### Create a flow
 
-Search for "Dynamics 365" in **Connectors** and choose the trigger as **When a record is created or updated**.
+1. Sign in to [https://flow.microsoft.com](https://flow.microsoft.com) and choose your environment.
+1. Select **New flow** > **Automated cloud flow**.
+1. Name the flow and select **Skip**.
+
+<!--- Stopped here. Can't validate Trigger step. Didn't see When a record is created or updated. --->
+
+### Create a trigger
+
+1. Select **Add a trigger**.
+1. Search for "Dynamics 365" and choose the trigger as **When a record is created or updated**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of triggers in Power Automate.](./media/inspections-workflow-trigger.png)
