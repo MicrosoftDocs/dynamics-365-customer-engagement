@@ -118,9 +118,9 @@ The agent presence status is updated in the following two ways:
 
 Presence changes automatically based on capacity utilization. The following scenarios are applicable:
 
-- If available capacity is negative, presence is set to "Don't disturb".
-- If agent has both capacity units and profile, the system waits for both to be exhausted to mark the agent as "Don't disturb". This wouldn't bother if the capacity units are being used to or not. If the capacity units are configured, this check would happen.
-- If agent has multiple capacity profiles and all are nonblocking, the system waits for them to be consumed to mark the agent as "Don't disturb". If one of the profiles is blocking, then the system waits for the blocking profile to be consumed to mark the agent as "Don't disturb".
+- If available capacity is negative, presence is set to "Do not disturb".
+- If agent has both capacity units and profile, the system waits for both to be exhausted to mark the agent as "Do not disturb". This wouldn't bother if the capacity units are being used to or not. If the capacity units are configured, this check would happen.
+- If agent has multiple capacity profiles and all are nonblocking, the system waits for them to be consumed to mark the agent as "Do not disturb". If one of the profiles is blocking, then the system waits for the blocking profile to be consumed to mark the agent as "Do not disturb".
 
 ## How do manual and automatic presence updates work together
 
@@ -129,7 +129,7 @@ When agents manually set their presence to "Available" or "Busy," the status per
 However, if the agent has manually set one of the following presence statuses, the status persists until the agent signs out or changes it manually.
 - Offline
 - Away
-- Don't disturb
+- Do not disturb
 
 ## How you can use presence in routing
 
