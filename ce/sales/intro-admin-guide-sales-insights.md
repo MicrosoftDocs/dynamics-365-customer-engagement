@@ -1,7 +1,7 @@
 ---
 title: Enable and configure Sales Insights
 description: Learn how to enable and configure Sales Insights capabilities in your organization.
-ms.date: 06/29/2023
+ms.date: 08/29/2024
 ms.collection: get-started
 ms.topic: article
 author: udaykirang
@@ -70,9 +70,9 @@ Before you can configure these features, you must accept the privacy notice. To 
 
    :::image type="content" source="media/si-admin-change-area-sales-insights-settings.png" alt-text="Select Sales Insights settings"::: 
  
-4. In the **Terms of service** section, select **I agree**.
+3. In the **Terms of service** section, select **I agree**.
 
-    The standard Sales Insights features are enabled for your organization and you can configure features such as the standard assistant, auto capture (standard), and email engagement (standard).
+    The standard Sales Insights features are enabled for your organization and you can configure features such as the Sales accelerator setup, Assistant (standard), Auto capture (standard), and Email engagement (standard).
 
     :::image type="content" source="media/si-admin-free-features-enabled.svg" alt-text="Standard Sales Insights features enabled":::
 
@@ -103,7 +103,7 @@ The premium Sales Insights features provide intelligent insights about sales dat
 
 To learn about requirements related to safeguarding customers' privacy and personal data, go to [Privacy and personal data for Microsoft Dynamics 365](/dynamics365/get-started/privacy).
 
-You can perform the following tasks in the auto capture, relationship analytics, and conversation intelligence features to ensure that you are complying with privacy and personal data requirements.
+You can perform the following tasks in the auto capture, relationship analytics, and conversation intelligence features to ensure that you're complying with privacy and personal data requirements.
 
 |Task|Supported Feature|Topic|
 |--|--|--|
@@ -137,7 +137,7 @@ The premium Sales Insights features aren't available by default. You must instal
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")
  
-3. In the **Supercharge your sales with Premium** section, select the terms and conditions and then select **Get started**.
+3. In the **Supercharge your sales with Premium** section, select **I agree to  the terms and conditions**, and then select **Get started**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Try Sales Insights](media/si-admin-select-try-sales-insights.png "Select Try Sales Insights")
@@ -172,7 +172,7 @@ As an administrator, when you sign in to the application for the first time, you
 You can also update each setting later as required. The following configurations are available:
 
 -    Connect your Sales environment to gather data and display on KPIs. More information: [Connect conversation intelligence to an environment](connect-dynamics365-sales-environment.md) 
--    Define keywords and competitors that will be tracked in conversations. More information: [Configure keywords and competitors to track](configure-keywords-competitors.md)   
+-    Define keywords and competitors that are tracked in conversations. More information: [Configure keywords and competitors to track](configure-keywords-competitors.md)   
 -    Define how long you want to retain the data in the application, and remove seller-specific data. More information: [Data retention and deletion through Privacy](data-retention-deletion-policy.md)   
 -    Enable preview features. More information: [Enable preview features](enable-preview-features-sales-insights-app.md)
 
@@ -186,7 +186,7 @@ You can also update each setting later as required. The following configurations
     2. On the **Default Solution** page, expand **Entity**, and then select an entity.   
     3. On the **General** tab, under **Data Services**, verify that the **Change Tracking** option is enabled.
 
-- Ensure that you do not delete the **Sales Insights MDL Config** solution from the solutions. If this solution is deleted, the Sales Insights features give inaccurate results and might be disabled. 
+- Ensure that you don't delete the **Sales Insights MDL Config** solution from the solutions. If this solution is deleted, the Sales Insights features give inaccurate results and might be disabled. 
 
     However, if you want to delete the **Sales Insights MDL Config** solution due to storage issues, uninstall the **SalesInsightsAddOn** solution too. This ensures that the **Sales Insights MDL Config** solution won't be automatically reinstalled when future updates are pushed to your organization.
 
