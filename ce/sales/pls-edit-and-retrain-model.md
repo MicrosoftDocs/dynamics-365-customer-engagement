@@ -14,7 +14,7 @@ ms.reviewer: lavanyakr
 When the prediction accuracy of a lead scoring model doesn't meet your expectations, or a model duplicates an existing one, you can edit the attributes it uses and retrain it.
 
 > [!NOTE]
-> Models that were published before the real-time scoring feature was rolled out need to be edited and published again to allow those models to score in real-time. This feature was rolled out in December 2022, as part of Sales Insights version 9.0.22121.10001.
+> The real-time scoring feature was rolled out in December 2022, as part of Sales Insights version 9.0.22121.10001. Models that were published before this roll out, need to be edited and published again to be able to score in real-time. 
 
 ## License and role requirements
 
