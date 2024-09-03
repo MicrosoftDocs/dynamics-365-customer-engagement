@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 08/26/2024
+ms.date: 09/03/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -108,6 +108,6 @@ Currently, Copilot in Dynamics 365 Sales supports the following languages&ndash;
 
 For information on the features supported by Copilot in Dynamics 365 Sales in your preferred language, see [this FAQ](sales-copilot-faq.md#what-features-does-copilot-in-dynamics-365-sales-support-for-the-available-languages).  
 
-Copilot in Dynamics 365 Sales is supported only in specific regions. For a list of regions where Copilot in Dynamics 365 Sales isn't supported, see [this FAQ](sales-copilot-faq.md#is-copilot-in-dynamics-365-sales-available-in-all-regions).  
+Copilot in Dynamics 365 Sales is available in regions listed in the [Copilot international availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=copilotproductreport).  
 
-Effective April 1, 2024, Copilot in Dynamics 365 Sales is turned on by default for tenants in North America and other regions where an OpenAI Service endpoint is available. If your tenant is in a region where Copilot is supported but an Azure OpenAI Service endpoint isn't available, an admin needs to opt in to share some data with the Azure OpenAI Service outside of your default geography. [Learn more about regions where Azure OpenAI Service endpoints are available](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works).
+Effective April 1, 2024, Copilot in Dynamics 365 Sales is turned on by default for tenants in North America and other regions where an OpenAI Service endpoint is available. If your tenant is in a region where Copilot is supported but an Azure OpenAI Service endpoint isn't available, an admin needs to opt in to share some data with the Azure OpenAI Service outside of your default geography. Learn more about regions where Azure OpenAI Service endpoints are available and how to provide consent in [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot).

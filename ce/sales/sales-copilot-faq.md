@@ -7,7 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 08/26/2024
+ms.date: 09/03/2024
 ---
 
 # Copilot in Dynamics 365 Sales FAQs
@@ -61,18 +61,9 @@ Copilot in Dynamics 365 Sales supports the following features in the [supported 
 - What's new with my sales records
 - What's newly assigned to me 
 
-## Is Copilot in Dynamics 365 Sales available in all regions?
+## In which regions is Copilot in Dynamics 365 Sales available?
 
-No, Copilot in Dynamics 365 Sales isn't available in the following regions, even if Azure OpenAI endpoints are available in those regions:
-
-- South Africa (ZAF)
-- Norway (NOR)
-- Korea (KOR)
-- Singapore (SGP)
-- United Arab Emirates (UAE)
-- Government Community Cloud (GCC)
-- Department of Defence (DoD)
-- China
+For a list of regions where Copilot is available, see the [Copilot international availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=copilotproductreport).
 
 ## What's the difference between Microsoft Copilot for Sales and Copilot in Dynamics 365 Sales?
 
