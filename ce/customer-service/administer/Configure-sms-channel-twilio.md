@@ -24,12 +24,12 @@ Make sure that the following prerequisites are met:
  
 - A Twilio account with a phone number and subscription is available.
     > [!NOTE]
-    > > For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. More information: [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938)
+    > > For new Twilio accounts, you must disable a security setting that blocks media files. More information: [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938)
 - Permissions on the secure columns. More information: [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ### Get Twilio account details
 
-An SMS channel is enabled within the application by integrating with Twilio. This integration uses public APIs of Twilio to send and receive text messages.
+An SMS channel is enabled within the application that's integrated with Twilio. This integration uses public APIs of Twilio to send and receive text messages.
 
 1. In your Twilio account, note the ACCOUNT SID and AUTH TOKEN values. These values are required to create the SMS configuration in the Customer Service admin center app.
 

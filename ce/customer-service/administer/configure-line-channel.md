@@ -23,7 +23,7 @@ The LINE channel gives you an incredible opportunity to capitalize on the social
 
 ## Prerequisites
 
-Following are the prerequisites before configuring the LINE channel in Contact Center admin center or Customer Service admin center.
+The prerequisites to configure the LINE channel in Contact Center admin center or Customer Service admin center are as follows:
 
 1.	Create a [LINE](https://line.me/en/) handle.
 2.	Create a LINE channel in the LINE Developers console. More information: [Create a LINE channel](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
