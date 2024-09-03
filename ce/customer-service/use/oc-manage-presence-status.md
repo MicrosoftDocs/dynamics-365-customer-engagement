@@ -38,7 +38,7 @@ You can view your presence status on the navigation bar. You can select the pres
 - ![Available presence status.](../media/oceh-available-icon.png "Available presence status")  Available
 - ![Appear away presence status.](../media/oceh-appear-away-icon.png "Appear away presence status")  Appear away
 - ![Busy presence status.](../media/oceh-busy-icon.png "Busy presence status")  Busy
-- ![Do not disturb presence status.](../media/oceh-do-not-disturb-icon.png "Do not disturb presence status")  Do not disturb
+- ![Do not disturb presence status.](../media/oceh-do-not-disturb-icon.png "Do not disturb presence status")  Don't disturb
 - ![Offline presence status.](../media/oceh-offline-icon.png "Offline presence status")  Offline
 - ![Inactive presence status.](../media/oceh-appear-away-icon.png "Appear away presence status")  Inactive
  
@@ -51,7 +51,7 @@ You can view your presence status on the navigation bar. You can select the pres
 A presence status consists of two elements:
 
 - **Base presence**: The base presence status indicates an agent's status. The unified routing engine distributes work items to agents as per their base statuses. Among the out-of-the-box statuses, except inactive, all others are base statuses.
-- **Presence text**: The text that's associated with a specific base status, which is visible to agents.
+- **Presence text**: The text associated with a specific base status, which is visible to agents.
 
 ### Custom presence status
 
@@ -76,7 +76,7 @@ When the agent signs into Customer Service workspace, the system sets the agent�
 - Default presence configuration
 - Agent capacity
 
-If you have set the default presence for the agent as “Offline” or “Away”, the agent signs in with the same presence. Otherwise, the system calculates the agent’s presence based on capacity utilization and sets it automatically.
+If you set the default presence for the agent as “Offline” or “Away,” the agent signs in with the same presence. Otherwise, the system calculates the agent’s presence based on capacity utilization and sets it automatically.
 
 For custom presence status, the system considers the base status for calculating the presence.
 
@@ -89,7 +89,7 @@ The agent presence status is updated in the following two ways:
 
   - Offline
   - Appear away
-  - Do not disturb
+  - Don't disturb
   - Busy
   - Available
   
@@ -118,18 +118,18 @@ The agent presence status is updated in the following two ways:
 
 Presence changes automatically based on capacity utilization. The following scenarios are applicable:
 
-- If available capacity is negative, presence is set to "Do not disturb".
-- If agent has both capacity units and profile, the system waits for both to be exhausted to mark the agent as "Do not disturb". This wouldn't bother if the capacity units are being used or not. If the capacity units are configured, this check would happen.
-- If agent has multiple capacity profiles and all are non-blocking, the system waits for them to be consumed to mark the agent as "Do not disturb". If one of the profiles is blocking, then the system waits for the blocking profile to be consumed to mark the agent as "Do not disturb".
+- If available capacity is negative, presence is set to "Don't disturb".
+- If agent has both capacity units and profile, the system waits for both to be exhausted to mark the agent as "Don't disturb". This wouldn't bother if the capacity units are being used to or not. If the capacity units are configured, this check would happen.
+- If agent has multiple capacity profiles and all are nonblocking, the system waits for them to be consumed to mark the agent as "Don't disturb". If one of the profiles is blocking, then the system waits for the blocking profile to be consumed to mark the agent as "Don't disturb".
 
 ## How do manual and automatic presence updates work together
 
-When agents manually set their presence to "Available" or "Busy", the status persists until they accept a new conversation or close an in-progress conversation. The system recalculates the new presence based on capacity utilization. The currently assigned work items remain assigned.
+When agents manually set their presence to "Available" or "Busy," the status persists until they accept a new conversation or close an in-progress conversation. The system recalculates the new presence based on capacity utilization. The currently assigned work items remain assigned.
 
 However, if the agent has manually set one of the following presence statuses, the status persists until the agent signs out or changes it manually.
 - Offline
 - Away
-- Do not disturb
+- Don't disturb
 
 ## How you can use presence in routing
 
@@ -139,7 +139,7 @@ However, if the agent has manually set one of the following presence statuses, t
 
 ### Use presence in assignment rules
 
-The default assignment methods use the presence that you have configured in the allowed presence setting of the workstreams to route to the most suitable agent for an incoming work item. You can also define conditions on presence in the assignment rules of custom assignment methods. More information: [Assignment methods in unified routing](../administer/assignment-methods.md)
+The default assignment methods use the presence that you configured in the allowed presence setting of the workstreams to route to the most suitable agent for an incoming work item. You can also define conditions on presence in the assignment rules of custom assignment methods. More information: [Assignment methods in unified routing](../administer/assignment-methods.md)
 
 ### View analytics for presence status
 
