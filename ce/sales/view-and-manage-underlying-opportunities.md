@@ -8,6 +8,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.custom: 
   - dyn365-sales
+  - references_regions 
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro

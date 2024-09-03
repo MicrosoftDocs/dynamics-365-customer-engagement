@@ -2,10 +2,13 @@
 title: Enable relationship intelligence
 description: Enable relationship intelligence in Dynamics 365 Sales Premium to provide relationship analytics and who knows whom information to your sellers.
 ms.date: 08/19/2022
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ms.custom: 
+  - bap-template
+  - references_regions
 ---
 # Enable relationship intelligence  
 

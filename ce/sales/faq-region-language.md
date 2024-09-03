@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:03/11/2024
+  - references_regions
 ---
 
 # Region and language FAQs
