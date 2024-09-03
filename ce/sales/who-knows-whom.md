@@ -6,7 +6,10 @@ ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
+  - references_regions
+
 ---
 
 # Use who knows whom to connect with leads and contacts  
