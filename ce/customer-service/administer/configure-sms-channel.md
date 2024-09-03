@@ -112,7 +112,7 @@ You can integrate an SMS channel in Customer Service with Telesign. This integra
    - [Smart assist bots](../develop/smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-## Flow of data between Customer Service SMS channel and Telesign
+## Flow of data between the SMS channel and Telesign
 
 ### Incoming text messages
 
