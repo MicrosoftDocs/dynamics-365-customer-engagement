@@ -104,10 +104,6 @@ Copilot can help you stay current with the latest news about your accounts. News
 
 ## Region availability and languages supported
 
-Currently, Copilot in Dynamics 365 Sales supports the following languages&ndash;English, Danish, Dutch, French, German, Italian, Japanese, Portuguese (Brazil), Spanish, Chinese (Simplified), Czech, Finnish, Greek, Korean, Norwegian (Bokmål), Polish, Russian, Swedish, Thai, and Turkish.  
-
-For information on the features supported by Copilot in Dynamics 365 Sales in your preferred language, see [this FAQ](sales-copilot-faq.md#what-features-does-copilot-in-dynamics-365-sales-support-for-the-available-languages).  
-
-Copilot in Dynamics 365 Sales is available in regions listed in the [Copilot international availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=copilotproductreport).  
+Copilot in Dynamics 365 Sales is available in regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=copilotproductreport).  
 
 Effective April 1, 2024, Copilot in Dynamics 365 Sales is turned on by default for tenants in North America and other regions where an OpenAI Service endpoint is available. If your tenant is in a region where Copilot is supported but an Azure OpenAI Service endpoint isn't available, an admin needs to opt in to share some data with the Azure OpenAI Service outside of your default geography. Learn more about regions where Azure OpenAI Service endpoints are available and how to provide consent in [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot).

@@ -40,26 +40,11 @@ All data continues to be handled according to [Microsoft privacy guidelines](/co
 
 ## Where are the Azure OpenAI endpoints hosted?
 
-Currently, the Azure OpenAI endpoints are only available in specific regions. For a list of regions where Azure OpenAI endpoints are available, see [this article](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works).
+Currently, the Azure OpenAI endpoints are only available in specific regions. For a list of regions where Azure OpenAI endpoints are available, see [this article](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).
 
 ## Do you use my company data to train any of the models?
 
 No. We don't use any customer data to train Azure OpenAI or any other language models.
-
-## What features does Copilot in Dynamics 365 Sales support for the available languages?
-
-Copilot in Dynamics 365 Sales supports the following features in the [supported languages](copilot-overview.md#region-availability-and-languages-supported):  
-
-- Account news
-- Account summary
-- Email assist and compose
-- Email reminder
-- Lead summary
-- Meeting prep
-- Opportunity summary
-- Show my pipeline
-- What's new with my sales records
-- What's newly assigned to me 
 
 ## In which regions is Copilot in Dynamics 365 Sales available?
 
