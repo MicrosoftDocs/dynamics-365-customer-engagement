@@ -119,7 +119,7 @@ Perform the following steps:
 4. Select **Save**.
 5. Create as many templates as required.
 
-### Integrate a Twilio sandbox account with omnichannel application
+### Integrate omnichannel application with a Twilio sandbox account
 
 1. In Twilio, go to the **Programmable SMS** > **Programmable Messaging** > **WhatsApp sandbox**.
 2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated in the application, and save the changes.
