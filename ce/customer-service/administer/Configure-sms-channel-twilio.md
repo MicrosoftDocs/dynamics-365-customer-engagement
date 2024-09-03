@@ -103,7 +103,7 @@ Perform the following steps to configure the URL in Twilio for the SMS messages 
 
 3. In the **Messaging** section, paste the Twilio inbound URL.
 
-## Flow of data between SMS channel in omnichannel application and Twilio
+## Flow of data between omnichannel application and Twilio
 
 ### Incoming text messages
 
