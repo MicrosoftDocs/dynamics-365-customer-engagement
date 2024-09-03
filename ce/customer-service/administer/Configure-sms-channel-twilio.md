@@ -29,7 +29,7 @@ Make sure that the following prerequisites are met:
 
 ### Get Twilio account details
 
-An SMS channel is enabled within the application by integrating with Twilio. This integration uses public APIs of Twilio to send and receive text messages.
+An SMS channel is enabled within the application that's integrated with Twilio. This integration uses public APIs of Twilio to send and receive text messages.
 
 1. In your Twilio account, note the ACCOUNT SID and AUTH TOKEN values. These values are required to create the SMS configuration in the Customer Service admin center app.
 
