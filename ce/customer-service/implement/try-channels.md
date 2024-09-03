@@ -75,7 +75,7 @@ For information about the Digital Messaging license, pricing, and prerequisites,
 
 ## Provision channels in your organization
 
-Perform the tasks in [Provision channels](omnichannel-provision-channels.md) to enable Chat, SMS, social, and voice channels in your organization.
+Perform the tasks in [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels) to enable Chat, SMS, social, and voice channels in your organization.
 
 
 To configure the following channels, perform the steps provided in:
@@ -104,7 +104,7 @@ To view videos on Omnichannel for Customer Service, see [Videos](../use/videos.m
 
 ### Related information
 
-[Provision channels](omnichannel-provision-channels.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
 [Configure a chat channel](../administer/set-up-chat-widget.md)  
 [Configure an SMS channel](../administer/configure-sms-channel.md)  
 [Configure a Facebook channel](../administer/configure-facebook-channel.md)  

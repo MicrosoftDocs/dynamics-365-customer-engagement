@@ -76,4 +76,4 @@ When Omnichannel for Customer Service doesn't have the required solutions, the f
 
 [Provide consent to access data](../implement/data-access-consent.md)  
 [Set up record routing](set-up-record-routing.md)  
-[Provision channels](../implement/omnichannel-provision-channels.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  

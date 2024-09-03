@@ -61,7 +61,7 @@ The customer-facing live chat widget that you display on your portal supports th
 
 ## Provision channels
 
-To enable channels in your org, see [Provision channels](omnichannel-provision-channels.md).
+To enable channels in your org, see [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
 
 > [!NOTE]
 >

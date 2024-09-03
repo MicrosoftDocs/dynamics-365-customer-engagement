@@ -27,7 +27,7 @@ Organizations enhance business efficiencies in certain geographical areas by int
 
 Make sure that the following prerequisites are met:
 
-- WeChat is provisioned in your environment. More information: [Provision channels](../implement/omnichannel-provision-channels.md).
+- WeChat is provisioned in your environment. More information: [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
 - An active subscription to the WeChat service account or sandbox account (if using sandbox for testing) exists and is stored as a contact on your phone. You initiate WeChat conversations by contacting the subscription account. More information: [WeChat documentation](https://go.microsoft.com/fwlink/p/?linkid=2124569)
 
 - Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)

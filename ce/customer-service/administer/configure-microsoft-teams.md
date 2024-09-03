@@ -19,7 +19,7 @@ Use Microsoft Teams as an engagement channel for support of internal functions&m
 
 Make sure that the following prerequisites are met:
 
-- Microsoft Teams is installed in your environment. More information: [Provision channels](../implement/omnichannel-provision-channels.md)
+- Microsoft Teams is installed in your environment. More information: [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)
 
 - An app is created and configured in **Teams** > **Developer Portal**:
 

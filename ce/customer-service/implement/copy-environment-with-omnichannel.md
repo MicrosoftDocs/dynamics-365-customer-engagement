@@ -17,7 +17,7 @@ Omnichannel capabilities in Dynamics 365 Contact Center and Dynamics 365 Custome
 
 ## Prerequisites
 
-- [Omnichannel for Customer Service is configured in both the source and the target environment](omnichannel-provision-channels.md).
+- [Omnichannel for Customer Service is configured in both the source and the target environment](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
 - Both the source and the target environment have the same set of channels enabled.
 - [If you use unified routing, it's turned on in both the source and the target environment](../administer/provision-unified-routing.md).
 

@@ -27,7 +27,7 @@ While you can use the Configuration Migration tool to export and import entity d
 
 ### Related information
 
-[Provision channels](../implement/omnichannel-provision-channels.md)                                                                                                                                   
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)                                                                                                                                   
 [Migrate configuration data for records based on unified routing](../administer/migrate-config-data-for-records-overview.md)                                                   
 [Migrate configuration for live chat](../administer/migrate-config-data-for-live-chat.md)  
 [Migrate configuration for voice channel](../administer/migrate-config-data-for-voice-channel.md)                                                       

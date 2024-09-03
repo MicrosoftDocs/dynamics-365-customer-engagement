@@ -20,7 +20,7 @@ The SMS channel through Twilio allows your organization to connect to customers 
 
 Make sure that the following prerequisites are met:
 
-- SMS for Twilio is provisioned in the Customer Service admin center or Contact Center admin center application. More information: [Provision channels](../implement/omnichannel-provision-channels.md) 
+- SMS for Twilio is provisioned in the Customer Service admin center or Contact Center admin center application. More information: [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels) 
  
 - A Twilio account with a phone number and subscription is available.
     > [!NOTE]

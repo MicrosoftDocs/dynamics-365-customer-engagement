@@ -20,7 +20,7 @@ The success of social media customer service, like all other customer service, d
 
 ## Prerequisites
 
-- Make sure channels are provisioned in your environment. More information: [Provision channels](../implement/omnichannel-provision-channels.md).
+- Make sure channels are provisioned in your environment. More information: [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
   > For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. More information: [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938)
 
 - Obtain a Twilio account with an appropriate subscription or a Twilio sandbox account. For information on configuring a Twilio sandbox account, go to [Integrate a Twilio sandbox account](#integrate-a-twilio-sandbox-account-with-omnichannel-application).

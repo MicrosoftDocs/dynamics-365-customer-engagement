@@ -19,7 +19,7 @@ Configure inbound calling to set up the voice channel in Dynamics 365. You can e
 
 Ensure that the following prerequisites are met:
 
-- Voice channel is provisioned. More information: [Provision channels](../implement/omnichannel-provision-channels.md)
+- Voice channel is provisioned. More information: [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)
 - Unified routing is enabled. More information: [Provision unified routing](provision-unified-routing.md)
 - Acquire a phone number. See: [Manage phone numbers](voice-channel-manage-phone-numbers.md).
 

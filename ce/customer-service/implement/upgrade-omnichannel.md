@@ -18,7 +18,7 @@ See [What's new in Omnichannel for Customer Service](../omnichannel-whats-new.md
 Do the following steps to upgrade Omnichannel for Customer Service:
 
 > [!NOTE]
-> You'll be able to use the [admin center experience](omnichannel-provision-channels.md) to provision channels in your environment after it's available in your region. Once the new experience is available, you can only view existing environments and channels in the Power Platform admin center.
+> You'll be able to use the [admin center experience](/dynamics365/contact-center/implement/provision-channels#set-up-channels) to provision channels in your environment after it's available in your region. Once the new experience is available, you can only view existing environments and channels in the Power Platform admin center.
 
 1. Log in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 2. Expand **Resources**, and select **Dynamics 365 apps**.
@@ -40,7 +40,7 @@ If you are using Omnichannel for Customer Service on Unified Service Desk, see [
 ### Related information
 
 [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)  
-[Provision channels](omnichannel-provision-channels.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
