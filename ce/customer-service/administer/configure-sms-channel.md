@@ -52,7 +52,7 @@ You can integrate an SMS channel in Customer Service with Telesign. This integra
 
 2. Purchase support phone numbers through your Telesign account.
 
-3. Get the customer ID and API key from your Telesign account. You need to provide the ID and key while setting up the SMS channel in  the administrator app.
+3. Get the customer ID and API key from your Telesign account. You need to provide the ID and key while setting up the SMS channel in  the admin app.
 
 4. You receive a callback URL that must be sent to [Telesign support](mailto:support@telesign.com). This callback URL is specific to your organization and is available when you add SMS support for your organization. When you send an email to TeleSign support, include the callback URL, your customer ID, and enter the subject line as **Omnichannel for Customer Service callback URL update request**.
 
