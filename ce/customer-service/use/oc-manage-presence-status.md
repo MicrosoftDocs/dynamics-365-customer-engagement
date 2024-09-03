@@ -124,7 +124,7 @@ Presence changes automatically based on capacity utilization. The following scen
 
 ## How do manual and automatic presence updates work together
 
-When agents manually set their presence to "Available" or "Busy," the status persists until they accept a new conversation or close an in-progress conversation. The system recalculates the new presence based on capacity utilization. The currently assigned work items remain assigned.
+When agents manually set their presence to "Available" or "Busy", the status persists until they accept a new conversation or close an in-progress conversation. The system recalculates the new presence based on capacity utilization. The currently assigned work items remain assigned.
 
 However, if the agent has manually set one of the following presence statuses, the status persists until the agent signs out or changes it manually.
 - Offline
