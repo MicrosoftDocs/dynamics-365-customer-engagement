@@ -70,7 +70,7 @@ If multiple appointments are set to traveling, only one appears in the **Active 
 > ![Active appointments in the customer experience portal.](./media/homepage-homepage-with-1-booking-in-travelling-state-which-has-link-to-tmt.jpg)
 
 > [!NOTE]
-> Technicians must [share their location from the Field Service mobile app](mobile-powerapp-location-auditing.md) for location tracking and the estimated travel time. There's a small delay between their actual location and the location on the map. The delay can increase with limited network coverage of the technician's mobile device.
+> Technicians must [share their location from the Field Service mobile app](mobile/track-technician-location.md) for location tracking and the estimated travel time. There's a small delay between their actual location and the location on the map. The delay can increase with limited network coverage of the technician's mobile device.
 
 ### In Progress
 

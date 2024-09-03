@@ -30,38 +30,8 @@
       items:
       - name: Release plans
         href: whats-new-customer-service.md
-      - name: Deprecations
-        items:
-        - name: Deprecations in Customer Service
-          href: deprecations-customer-service.md
-        - name: Customer Service Analytics
-          items:
-          - name: Configure Customer Service analytics dashboards in Power BI
-            href: configure-customer-service-analytics-dashboard.md
-          - name: Use Customer Service Analytics dashboards in Power BI
-            href: customer-service-analytics.md
-        - name: Omnichannel Insights
-          items:
-          - name: Introduction to Omnichannel Insights
-            href: intro-dynamics-365-omnichannel-insights-dashboard.md
-          - name: Configure Omnichannel Insights dashboards
-            href: configure-historical-sentiment-dashboard-supervisor.md
-          - name: View and understand Omnichannel Insights dashboard
-            href: omnichannel-insights-dashboard.md
-        - name: Intraday analytics reports
-          items:
-          - name: Configure intraday insights
-            href: configure-intraday-dashboard-supervisor.md
-          - name: Introduction to intraday supervisor experience
-            href: intro-intraday-insights-dashboard.md
-          - name: Intraday Monitoring report
-            href: intraday-insights-dashboard.md
-          - name: Agents insights report
-            href: intraday-agents-insights.md
-          - name: Conversation insights report
-            href: intraday-conversation-insights.md
-          - name: Customize KPIs for intraday insights
-            href: customize-kpis-intraday-insights.md
+      - name: Deprecations in Customer Service
+        href: deprecations-customer-service.md 
     - name: System requirements
       items:
       - name: System requirements for Customer Service

@@ -1,7 +1,7 @@
 ---
-title: "Introduction to agent interface | MicrosoftDocs"
-description: "Learn about the agent interface in the Omnichannel for Customer Service app and the capabilities that it offers to agents."
-ms.date: 12/27/2019
+title: Introduction to agent interface
+description: Learn about the agent interface in the Omnichannel for Customer Service app and the capabilities that it offers to agents.
+ms.date: 08/30/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,6 +11,9 @@ ms.collection: get-started
 # Introduction to the agent interface of Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> The Omnichannel for Customer Service agent-facing app is deprecated, and we recommend that you start using [Customer Service workspace](../implement/csw-overview.md). Learn more in [Deprecations](../implement/deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-is-deprecated-and-will-be-removed-in-june-2024).
 
 The Omnichannel for Customer Service app for Dynamics enables organizations to instantly connect and engage with their customers via channels like Chat for Dynamics 365 Customer Service and SMS. The app provides context rich multitasking experience across different customer sessions.
 
