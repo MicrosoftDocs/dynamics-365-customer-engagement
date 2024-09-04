@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Field Service portal overview
-description: Learn how customers can manage their upcoming service visits with customer experience portals in Field Service.
+description: Learn how customers can manage their upcoming service visits with customer experience portals in Field Service
 ms.date: 08/22/2024
 ms.topic: overview
 author: m-hartmann

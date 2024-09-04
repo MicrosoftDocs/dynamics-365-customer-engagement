@@ -1,6 +1,6 @@
 ---
 title: Create and configure the Field Service portal
-description: Set up and configure the Field Service portal.
+description: Set up and configure the Field Service portal
 ms.date: 08/20/2024
 ms.topic: how-to
 author: anilmur
