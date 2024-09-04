@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot LinkedIn Sales Navigator integration errors with Dynamics 365
 description: Explore solutions for LinkedIn Sales Navigator integration errors with Dynamics 365, including data validation failures and display widget issues.
-ms.date: 06/28/2024
+ms.date: 09/06/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag

@@ -25,14 +25,14 @@ To use the Sales Navigator controls, an admin needs to [enable the Sales Navigat
 2. If your organization has added [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls to any of their forms, you'll find the controls embedded on the form. A system administrator or customizer can [add the controls to forms](add-sales-navigator-controls-forms.md).
 3. If you haven't signed in to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator, select the **Sign in** in the control.
 
-    ::::image type="content" source="media/sign-in-sales-navigator.png" alt-text="Screenshot of Sign in to LinkedIn Sales Navigator dialog box."::::
+    :::image type="content" source="media/sign-in-sales-navigator.png" alt-text="Screenshot of Sign in to LinkedIn Sales Navigator dialog box.":::
 
     A pop-up dialog is displayed to provide consent for the permissions that the app requires.
 
     >[!NOTE]
     >To display the consent popup dialog on your browser, allow pop-ups from your organization's URL
 
-    ::::image type="content" source="media/sign-in-sales-navigator-provide-consent.png" alt-text="Screenshot of providing consent to sign in to LinkedIn Sales Navigator."::::
+    :::image type="content" source="media/sign-in-sales-navigator-provide-consent.png" alt-text="Screenshot of providing consent to sign in to LinkedIn Sales Navigator.":::
 
 4. Select **Allow**.
 
@@ -66,7 +66,7 @@ If the control doesn't load the correct profile on the first match, you can chan
 
 If no company account is associated with a person's profile, there's no company profile suggested. You can use the search interface to find the right company and match it to the related account.
 
-::::image type="content" source="media/match-company-sales-navigator.png" alt-text="Screenshot of searching a company and matching it to an account."::::
+:::image type="content" source="media/match-company-sales-navigator.png" alt-text="Screenshot of searching a company and matching it to an account.":::
 
 1. Enter the Name and other known details of the company you're looking for.
 2. Select **Search**.
