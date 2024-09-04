@@ -2,10 +2,10 @@
 title: Review knowledge articles 
 description: Learn how to review, and reject or approve knowledge articles. 
 author: Soumyasd27
-ms.author: sdas
+ms.author: sdashttps://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/compare/ss-4300248-freshness-aug?expand=1#diff-6abb5ae6c4dd1cd7161cd96919f757e6f365c2ef4b26974801bafe116f7edaba
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 08/30/2024
+ms.date: 09/04/2024
 ms.custom: bap-template
 ---
 
