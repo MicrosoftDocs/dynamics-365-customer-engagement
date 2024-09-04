@@ -110,7 +110,7 @@ You can view the survey results on the **Analytics > Sessions** tab.
    > [!div class="mx-imgBorder"]
    > ![Dashboard](../media/pva-view-survey-results.png)
 
-### See also
+### Related information
 
 [Introduction to the voice channel](voice-channel.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  

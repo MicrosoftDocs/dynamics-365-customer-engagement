@@ -1,11 +1,11 @@
 ---
-title: Use the attachment control to customize forms | MicrosoftDocs 
-description: Learn about adding attachment control to forms
+title: Use the attachment control to customize forms 
+description: Learn about adding attachment control to forms.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 10/31/2023 
+ms.date: 08/29/2024 
 ms.custom: bap-template 
 ---
 
@@ -24,7 +24,7 @@ If you've enabled the enhanced full case form or added the **Attachment Control*
     
    :::image type="content" source="../media/enh-case-attach-mini.png" alt-text="Enhanced quick case form create" lightbox="../media/enh-case-attach.png":::
 
-- After agents save a new case or if they open an existing case, the attachments grid is displayed. For more information on the actions agents can perform, see: [View an existing case using enhanced Full case form](../use/enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form).
+- After agents save a new case or if they open an existing case, the attachments grid is displayed. Learn more about the actions agents can perform at [View an existing case using enhanced Full case form](../use/enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form).
 
    :::image type="content" source="../media/case-enh-save-mini.png" alt-text="Enhanced quick case form edit" lightbox="../media/case-enh-save.png":::
 
@@ -57,7 +57,8 @@ On the required form, add the **Attachment Control** component.  More informatio
 | Show attachments from email | Set this value to **Yes** or **No** to display or hide the attachments sent through email, for any entity.|  
 | Show attachments from notes | Set this value to **Yes** or **No** to display or hide the attachments that were added to notes on the timeline, for any entity.|  
 
-### See also
+### Related information
 
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)   
 [Get started with Customer Service workspace](../implement/csw-overview.md) 
+

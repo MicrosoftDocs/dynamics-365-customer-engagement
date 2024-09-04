@@ -149,7 +149,7 @@ The Government community cloud links that should be made accessible are as follo
 - `https://api.ams.gcc.teams.microsoft.com/*`
 - `https://browser.pipe.aria.microsoft.com/*`
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](introduction-omnichannel.md)  
 [Get started with Customer Service admin center](cs-admin-center.md)  

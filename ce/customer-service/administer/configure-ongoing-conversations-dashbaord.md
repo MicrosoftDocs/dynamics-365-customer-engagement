@@ -18,7 +18,7 @@ Once the users get access,  the **Omnichannel Ongoing Conversations** dashboard 
 
 For **Unified Service Desk**, you must add users to supervisor configuration for the dashboard to be available in the home session app tab. To learn more, see [Add users to supervisor configuration](../implement/configure-intraday-dashboard-supervisor.md#add-users-to-supervisor-configuration).
 
-### See also
+### Related information
 
 [View and understand Omnichannel Ongoing Conversations dashboard](../use/ongoing-conversations-dashboard.md).
 

@@ -60,7 +60,7 @@ Take a look at some of the key capabilities that makes the voice channel great f
 | Supervisor  | <ul><li>Consulting and transferring</li><li>Monitoring and barging</li><li>Ability to record and manage phone calls</li><li>Operations management through supervisor dashboards</li></ul> |
 | Customer   | <ul><li>Post-call survey</li><li>Queue position and wait time announcements</li><li>Music on hold and wait</li></ul> |
 
-### See also
+### Related information
 
 [Install the voice channel](voice-channel-install.md)  
 [Supported cloud locations, languages, and locale codes ](voice-channel-region-availability.md)  

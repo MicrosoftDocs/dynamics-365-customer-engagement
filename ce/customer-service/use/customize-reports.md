@@ -75,7 +75,7 @@ You can use facts and dimensions to visualize data according to your organizatio
 
 If you've customized your reports and Microsoft changes the default data model for a report, the data model updates don't overwrite your customizations. However, if the naming conventions in the Power BI embedded editing experience change, those changes are reflected in the respective list. You may need to reselect the metric with the new name. [Learn more about data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
 
-### See also
+### Related information
 
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  
 [Configure Customer Service analytics and insights](../administer/configure-customer-service-analytics-insights-csh.md)  

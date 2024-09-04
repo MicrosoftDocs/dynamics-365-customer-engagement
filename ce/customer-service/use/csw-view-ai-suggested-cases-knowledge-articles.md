@@ -103,7 +103,7 @@ Perform the following steps to view the similar cases and related articles for t
      - **Email agent:** Select to open the email compose form to send your questions to the agent who handled the similar case. The mail form opens on a new tab with the pertinent information and link to the resolved case filled in.
    - Select the link icon to link or clear the link with the similar case.
 
-### See also
+### Related information
 
 [Enable AI-suggestions for similar cases and knowledge articles](../administer/csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Knowledge base search control powered by Relevance search](search-knowledge-articles-csh.md)  

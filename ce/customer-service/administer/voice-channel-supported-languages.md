@@ -214,7 +214,7 @@ Use the information in the following table to find out more about language suppo
 
 [Provision voice channel](voice-channel-install.md)  
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  

@@ -29,6 +29,6 @@ The **Failed** column shows articles that weren't ingested. To view the failed a
 
 The **Error type** column indicates whether the failure was a crawl error before ingestion or an ingestion run error.
 
-### See also
+### Related information
 
 [Troubleshoot issues with integrated search providers](../int-search-troubleshoot.md#troubleshoot-issues-with-integrated-search-providers)

@@ -3,8 +3,8 @@ title: Create a simple selection rule (Dynamics 365 Customer Service) | Microsof
 description: See how to create a simple selection rule in Dynamics 365 Customer Service
 ms.date: 09/15/2017
 ms.topic: how-to
-author: FeifeiQiu
-ms.author: feiqiu
+author: anilmur
+ms.author: anilmur
 search.audienceType: 
   - admin
   - customizer

@@ -24,7 +24,7 @@ The add-in applications such as Chat, Digital Messaging, and Voice channel are l
 
 To know about the required subscriptions to use the chat and voice channels, see the [Licensing](../implement/system-requirements-omnichannel.md#licensing) section. For more information on licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
-### See also
+### Related information
 
 [Overview of bots](overview-bots.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  

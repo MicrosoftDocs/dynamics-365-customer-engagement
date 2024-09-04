@@ -130,7 +130,7 @@ Here's a sample context record.
 }
 ```
 
-### See also
+### Related information
 
 [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  

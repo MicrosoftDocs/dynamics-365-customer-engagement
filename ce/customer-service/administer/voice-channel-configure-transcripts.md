@@ -92,7 +92,7 @@ The maximum file size of a recording can be 512 MB. The data storage costs with 
 - 20-minute call transcript = 40 KB
 
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Agent experience: View call recordings and transcripts](../use/voice-channel-agent-experience.md)  

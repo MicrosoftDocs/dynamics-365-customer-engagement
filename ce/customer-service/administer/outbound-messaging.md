@@ -131,7 +131,7 @@ When the customer responds back to the outbound messages, the customer's message
 
 To view more videos about Omnichannel for Customer Service, go to [Videos](../use/videos.md).
 
-### See also
+### Related information
 
 [Create message templates](create-message-templates.md)<br>
 [Channels in Omnichannel for Customer Service](../use/channels.md) <br> 
