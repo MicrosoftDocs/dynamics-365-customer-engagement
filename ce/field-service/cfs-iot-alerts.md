@@ -1,7 +1,7 @@
 ---
 title: Create IoT alerts and convert IoT alerts into work orders
 description: Learn how to create IoT alerts and convert IoT alerts into work orders with Connected Field Service for Dynamics 365 Field Service.
-ms.date: 07/25/2024
+ms.date: 09/04/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
 applies_to:
@@ -164,15 +164,14 @@ When a parent alert is found, the system checks to see if the matched alert has 
 
 To make the five-minute rule longer or shorter, modify the workflow "debounce" period.
 
-1. Sign in to [Power Apps](https://make.powerapps.com/) and select **Solutions**.
-1. In **Objects**, select **Processes**.
-1. Select **IoT - Parent Iot Alerts**.
+1. Sign in to [Power Apps](https://make.powerapps.com/) and select **Solutions** and your organization's solution.
+1. Under **Objects**, select **Processes**.
+1. Search for and open **IoT - Parent Iot Alerts**.
 
    :::image type="content" source="media/iot-alert-parenting-3.png" alt-text="Power Apps showing IoT Parent Alerts with view properties highlighted.":::
 1. Select **View properties**.
-1. Change the value based on the number of seconds you want for the debounce period.
-To completely turn off the autoparent feature, disable the workflow or flow depending on whether your organization uses enhanced background processing controlled through Field Service settings. For more information, see this [article on default settings in Field Service](/dynamics365/field-service/configure-default-settings#other-settings).
+1. Change the value based on the number of seconds you want for the debounce period. Then, select **Save and Close**.
 
-![Power Apps, showing a list of processes with attention to the "IoT - Flow - Parent IoT Alerts" process.](media/iot-alert-parenting-4.png)
+To completely turn off the autoparent feature, disable the workflow or flow depending on whether your organization uses enhanced background processing controlled through Field Service settings. For more information, go to [Use Enhanced Background Processing](/dynamics365/field-service/configure-default-settings#other-settings).
 
-![Field Service, showing a list of process with attention to "IoT - Parent IoT Alerts."](media/iot-alert-parenting-5.png)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

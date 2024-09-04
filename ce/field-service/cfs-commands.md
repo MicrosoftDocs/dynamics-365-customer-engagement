@@ -1,7 +1,7 @@
 ---
 title: Send commands in Connected Field Service
 description: Send commands to IoT devices with Field Service to remotely control them.
-ms.date: 08/08/2024
+ms.date: 09/04/2024
 ms.topic: how-to
 ms.subservice: connected-field-service
 ms.custom: bap-template

@@ -1,7 +1,7 @@
 ---
 title: View and edit device summary tiles
 description: Learn how to view and edit summary tiles in Connected Field Service for Dynamics 365 Field Service.
-ms.date: 07/31/2024
+ms.date: 09/04/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath

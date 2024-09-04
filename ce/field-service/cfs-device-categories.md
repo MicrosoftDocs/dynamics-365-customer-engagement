@@ -1,7 +1,7 @@
 ---
 title: Use device categories in Connected Field Service
 description: Learn how to use device categories in Connected Field Service.
-ms.date: 07/30/2024
+ms.date: 09/04/2024
 ms.topic: how-to
 ms.subservice: connected-field-service
 applies_to:

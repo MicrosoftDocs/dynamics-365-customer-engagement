@@ -1,7 +1,7 @@
 ---
 title: Set up IoT provider actions
 description: Learn how to set up IoT provider actions to automate various aspects of Dynamics 365 Connected Field Service operations.
-ms.date: 08/08/2024
+ms.date: 09/04/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath

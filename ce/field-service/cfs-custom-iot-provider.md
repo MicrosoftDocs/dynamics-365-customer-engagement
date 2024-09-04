@@ -1,7 +1,7 @@
 ---
 title: Use custom IoT providers
 description: Integrate custom IoT solutions with Field Service through the IoT provider feature, which allows users to interact with IoT-enabled devices from any vendor.
-ms.date: 08/08/2024
+ms.date: 09/04/2024
 ms.subservice: connected-field-service
 ms.topic: conceptual
 ms.author: vhorvath
@@ -41,7 +41,7 @@ The `IoT Provider` table identifies your organization's IoT providers and the [a
 
 ### IoT Provider Instance table
 
-A 1:many relationship exists between the `IoT Provider` table and the `IoT Provider Instance` table. For example, if your organization is connected to two different Azure IoT Hubs, you have one IoT provider record for Azure IoT Hub and two IoT provider instance records, one for each of your IoT Hubs. You can view the list of IoT provider instances in Field Service **Settings** > **IoT** > **Providers**.
+A one-to-many (1:many) relationship exists between the `IoT Provider` table and the `IoT Provider Instance` table. For example, if your organization is connected to two different Azure IoT Hubs, you have one IoT provider record for Azure IoT Hub and two IoT provider instance records, one for each of your IoT Hubs. You can view the list of IoT provider instances in Field Service **Settings** > **IoT** > **Providers**.
 
 :::image type="content" source="media/cfs-iot-hub-provider-instance.png" alt-text="Screenshot of an IoT provider instance record.":::
 
@@ -50,9 +50,9 @@ A 1:many relationship exists between the `IoT Provider` table and the `IoT Provi
 
 ### IoT Device table
 
-A 1:many relationship exists between the `IoT Provider Instance` table and the `IoT Device` table, which maps each device to an IoT provider instance.
+A 1:many relationships exists between the `IoT Provider Instance` table and the `IoT Device` table, which maps each device to an IoT provider instance.
 
-- **Account** identifies the customer account in Field Service that's associated with the device.
+- **Account** identifies the customer account in Field Service that has an association with the device.
 - **Category** is the device category.
 - **Time Zone** is the time zone in which the device is located.
 - **Device Id** is used to register the device with the IoT provider.
