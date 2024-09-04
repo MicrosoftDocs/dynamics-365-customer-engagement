@@ -427,8 +427,6 @@ items:
       href: rso-optimization-summary-report.md
     - name: Admin report
       href: rso-admin-report.md
-    - name: Predictive work duration (Preview)
-      href: analytics-predictive-work-duration.md
 
 - name: Field Service Portal
   items:
@@ -480,9 +478,6 @@ items:
         items:
         - name: Set up IoT alerts
           href: cfs-iot-alerts.md
-        - name: Use AI for IoT alerts
-          href: iot-alerts-ai-based-suggestions.md
-
         - name: IoT - Parent IoT alerts workflow
           href: iot-parent-iot-alerts-workflow.md
       - name: Extend standard components or add Azure services
