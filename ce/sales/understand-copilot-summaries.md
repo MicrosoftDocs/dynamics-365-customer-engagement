@@ -12,11 +12,11 @@ ms.custom: bap-template
 
 # Default attributes used in Copilot summaries  
 
-Let's understand the default attributes used to generate summaries in Copilot in Dynamics 365 Sales.
+This article helps you understand the default attributes used to generate summaries in Copilot in Dynamics 365 Sales.
 
 ## Opportunity summary
 
-To generate the opportunity summary, Copilot in Dynamics 365 Sales uses the following attributes in each section of the summary. Let's understand the attributes in detail:
+To generate the opportunity summary, Copilot in Dynamics 365 Sales uses the following attributes in each section of the summary. Let's learn about the attributes in detail.
 
 ### Key value pairs attributes
 
@@ -62,16 +62,18 @@ Depending on the `parentcontactid` attribute in the opportunity table, Copilot g
 
 ### Product information
 
-Relationship between opportunity product and opportunity tables is established using the `opportunityid` attribute.  
+The relationship between opportunity product and opportunity tables is established using the `opportunityid` attribute.  
 Depending on the number of products associated with the opportunity, Copilot generates the product information summary as follows:
 
 - When only one product is associated with the opportunity, the summary statement is as follows:  
-    There is 1 product, `productname` (latest product in the opportunity) in this opportunity with a value of `totalamount` (total amount of the opportunity). The opportunity budget is `budgetamount` (budget amount of the opportunity) but the estimated revenue that can be potentially generated from opportunity is `estimatedvalue` (estimated value of the opportunity).
 
-    **Example**: There is 1 product **Laser printers** in this opportunity with a value of **$500.00**. The opportunity budget is **$30,000.00** but the estimated revenue that can be potentially generated from opportunity is **$10,000.00**.
+    There is 1 product, `productname` (latest product in the opportunity), in this opportunity with a value of `totalamount` (total amount of the opportunity). The opportunity budget is `budgetamount` (budget amount of the opportunity) but the estimated revenue that potentially can be generated from the opportunity is `estimatedvalue` (estimated value of the opportunity).
+
+    **Example**: There is 1 product, **Laser printers**, in this opportunity with a value of **$500.00**. The opportunity budget is **$30,000.00** but the estimated revenue that can be potentially generated from the opportunity is **$10,000.00**.
 
 - When multiple products are associated with the opportunity, the summary statement is as follows:  
-    There are `totalCount` (number of products in the opportunity) products in this opportunity with a combined value of `totalamount` (total amount of the opportunity) and the top 2 products by value are `productname` (name of the product with highest value) and `productname` (name of the product with second highest value product). The opportunity budget is `budgetamount` (budget amount of the opportunity) but the estimated revenue that can be potentially generated from opportunity is `estimatedvalue` (estimated value of the opportunity).
+
+   There are `totalCount` (number of products in the opportunity) products in this opportunity with a combined value of `totalamount` (total amount of the opportunity) and the top 2 products by value are `productname` (name of the product with highest value) and `productname` (name of the product with second highest value product). The opportunity budget is `budgetamount` (budget amount of the opportunity) but the estimated revenue that can be potentially generated from opportunity is `estimatedvalue` (estimated value of the opportunity).
 
     **Example**: There are **3** products in this opportunity with a combined value of **$3,000.00** and the top 2 products by value are **3D printers** and **Laser printers**. The opportunity budget is **$30,000.00** but the estimated revenue that can be potentially generated from opportunity is **$10,000.00**.
 
