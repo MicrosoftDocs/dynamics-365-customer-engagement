@@ -1,7 +1,7 @@
 ---
 title: "Price calculation for opportunity, quote, order, and invoice records (Dynamics 365 Sales) | MicrosoftDocs"
 description: "This article explains how prices are calculated for price-related fields in the opportunity, quote, order, and invoice records in Dynamics 365 Sales."
-ms.date: 06/15/2020
+ms.date: 09/05/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -79,7 +79,7 @@ When price list is optional, price calculation happens. If the product you're ad
 
 Volume discount is calculated only when the quantity of the opportunity product, quote product, order product, or invoice product is changed (even when the parent entities are locked).
 
-When a price list item is added as a product in opportunity, quote, order or invoice, the discount list defined in the price list item is used to calculate the volume discount.  
+When a price list item is added as a product in opportunity, quote, order, or invoice, the discount list defined in the price list item is used to calculate the volume discount.  
 
 > [!NOTE]
 > Discount is calculated even when a discount list is inactive. 
