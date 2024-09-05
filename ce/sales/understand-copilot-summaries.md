@@ -10,6 +10,9 @@ ms.date: 08/30/2024
 ms.custom: bap-template 
 ---
 
+<!-- Question from editor: In line , text in two parentheses is the same: "name of the previous stage". Should the second be "name of the new stage" (or current stage)? -->
+
+
 # Default attributes used in Copilot summaries  
 
 This article helps you understand the default attributes used to generate summaries in Copilot in Dynamics 365 Sales.
@@ -117,15 +120,11 @@ Depending on the closed opportunities associated with the account, Copilot gener
 
 Purchase history information is generated based on the closed opportunities associated with the parent account of the opportunity. Copilot gets the parent account of the opportunity and then gets the closed opportunities associated with this account.
 
-
-
-
-
 The following statement is generated based on the opportunities associated with the account:  
 
-Our last successful opportunity with `parentaccount` (name of the parent account) for `lastclosedopportunity` (name of the last closed opportunity in the parent account) was worth `actualvalue` (total value of the last closed opportunity). We have successfully closed `count` (number of closed opportunities for the account) with them so far from a total of `count` (number of all opportunities).
+Our last successful opportunity with `parentaccount` (name of the parent account) for `lastclosedopportunity` (name of the last closed opportunity in the parent account) was worth `actualvalue` (total value of the last closed opportunity). We have successfully closed `count` (number of closed opportunities for the account) opportunity with them so far from a total of `count` (number of all opportunities).
 
-**Example**: Our last successful opportunity with **Fourth Coffee (sample)** for **10 orders of Product SKU JJ202 (sample)** was worth 88. We have successfully closed **1** opportunity with them so far from a total of **2**.
+**Example**: Our last successful opportunity with **Fourth Coffee (sample)** for **10 orders of Product SKU JJ202 (sample)** was worth **88**. We have successfully closed **1** opportunity with them so far from a total of **2**.
 
 ### Opportunity stage update
 
