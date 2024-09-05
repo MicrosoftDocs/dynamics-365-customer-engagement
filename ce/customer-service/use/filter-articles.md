@@ -1,7 +1,7 @@
 ---
 title: Filter knowledge articles
 description: Learn how you can filter knowledge articles.
-ms.date: 09/04/2024
+ms.date: 09/05/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -28,7 +28,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Status | <ul> <li> Draft </li><li> Approved </li> <li> Published </li> <li> Scheduled </li> </ul> |
   | Visibility | <ul> <li> Internal </li> <li> External </li>  <li> All </li> </ul> |
   | Modified On | <ul> <li> Last 7 days </li> <li> Last 30 days </li> <li> Last 6 months </li> <li> Last year </li> <li> All </li> </ul> |
-  | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list is based on the articles that are present in those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter will show only these five languages. |
+  | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list is based on the articles that are present in those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter shows only these five languages. |
   |||
 
 ## Personalize your knowledge search article filters
@@ -43,15 +43,15 @@ Only the filters that your administrator has configured are viewable. If your ad
 
 Any personalization you make to your filter selections is also be applicable to the form-based knowledge control and standalone knowledge base search page.
 
-If you deactivate a filter, it appears as deactivated. If you reactivate the same filter later, the filter keep its previous configuration.
+If you deactivate a filter, it appears as deactivated. If you reactivate the same filter later, the filter keeps its previous configuration.
 
 1. In the agent application, go to **Service** > **Knowledge** > **Knowledge Personalization**.
 2. For each filter value you want to change, select the ellipsis in the top-right corner, and then select **Preselects**.
 3. To make a filter value available by default, toggle the preset next to the filter to the right so that **Preselected** appears next to the filter name.
-4. When you are finished making your selections, select **Done** > **Save**.
+4. When you're finished making your selections, select **Done** > **Save**.
 5. If you want to deactivate a filter, select the ellipsis in the top-right corner for the filter you want to stop using, and then select **Deactivate**.
 6. Select **Done** > **Save**.
-7. When you are ready to reactivate the filter, select the ellipsis again, and then select **Activate**.
+7. When you're ready to reactivate the filter, select the ellipsis again, and then select **Activate**.
    All the previous configurations are reinstated.
 
 ### Sort knowledge articles
