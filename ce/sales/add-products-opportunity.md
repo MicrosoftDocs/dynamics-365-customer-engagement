@@ -63,7 +63,9 @@ You can add a product that already exists in the [!INCLUDE[pn-dyn-365-sales](../
     
     5.  **Tax**: If required, enter the appropriate tax amount.  
    
-7. To save this product, and add more products, select **Save and New**.
+7. To save this product and add more products, select **Save & Create New**.
+
+8. To save this product, select **Save and Close**
 
 The **Products** grid shows all the products that are associated with the opportunity. If you added an existing product from the product catalog, you can change the quantity and discount of the product inline in the **Products** grid. If you added a write-in product, you can also change the price of the product in addition to the quantity and discount.
 
