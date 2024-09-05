@@ -1,6 +1,6 @@
 ---
 title: Create and configure the Field Service portal
-description: Set up and configure the Field Service portal.
+description: Learn how to set up and configure the Field Service portal.
 ms.date: 08/20/2024
 ms.topic: how-to
 author: anilmur
@@ -10,11 +10,11 @@ ms.reviewer: mhart
 
 # Create and configure the Field Service portal
 
-This article guides you through the setup process and provide helpful information to configure the portal template.
+This article guides you through the setup process and provides helpful information to configure the portal template.
 
 ## Create the Field Service customer experiences portal
 
-1. Sign in to the [Power Pages portal](https://make.powerpages.microsoft.com/) and choose the environment that has Dynamics 365 Field Service installed.
+1. Sign in to the [Power Pages portal](https://make.powerpages.microsoft.com/) and choose the environment with Dynamics 365 Field Service installed.
 
    You can navigate directly to the Power Pages portal for your environment. [Determine the environment ID where you have Field Service installed](/power-platform/admin/determine-org-id-name) and insert it in the following URL: `https://make.powerpages.microsoft.com/environments/<EnvironmentID>/portals/home`.
 
@@ -38,7 +38,7 @@ Admins can configure most customer portal settings directly in Field Service.
 
 1. On the **Configuration** tab, update the settings to meet your business needs.
 
-   - **Portal Name**: A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website, because the code retrieving the setting takes the first record found with the matching name.
+   - **Portal Name**: A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website because the code retrieving the setting takes the first record found with the matching name.
 
    - **Field Service Website**: The associated website. Opening the associated website record takes you to the [Portal Management app](/power-apps/maker/portals/configure/configure-portal).
 
@@ -72,9 +72,9 @@ Admins can configure most customer portal settings directly in Field Service.
 
    - **Maximum lead time for new bookings (days)**: The maximum time, in days from today, during which the customer can schedule their booking.
 
-   - **Enable Asset Selection**: If you want the customer to select a specific asset to associate with their account while they schedule their booking, set to **Yes**.
+   - **Enable Asset Selection**: If you want the customer to select a specific asset to associate with their account while they schedule their booking, set it to **Yes**.
 
-   - **Enable Additional Details**: If you want to the customer to submit extra text while scheduling the booking, set to **Yes**. The system saves the text as a note on the booking timeline.
+   - **Enable Additional Details**: If you want the customer to submit extra text while scheduling the booking, set it to **Yes**. The system saves the text as a note on the booking timeline.
 
    - **Default Radius Unit**: The radius unit to miles or kilometers.
 
@@ -93,7 +93,7 @@ As part of the self-scheduling experience, the customer can select the incident 
 
 1. On the **General** tab, set the **Enable for C2** setting to **Yes** and provide a **Display Name** for the portal.
 
-   :::image type="content" source="media/SS_Incident_Type-displayname.svg" alt-text="Customer portal settings, showing the field for the user-friendly name for incident types.":::
+   :::image type="content" source="media/SS_Incident_Type-displayname.svg" alt-text="Screenshot of the Customer Portal settings, showing the field for the user-friendly name for incident types.":::
 
 1. On the **Details** tab, set a **Default Work Order** type that is associated with a price list for the incident type.
 
