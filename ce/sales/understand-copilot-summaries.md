@@ -73,23 +73,25 @@ Depending on the number of products associated with the opportunity, Copilot gen
 
 - When multiple products are associated with the opportunity, the summary statement is as follows:  
 
-   There are `totalCount` (number of products in the opportunity) products in this opportunity with a combined value of `totalamount` (total amount of the opportunity) and the top 2 products by value are `productname` (name of the product with highest value) and `productname` (name of the product with second highest value product). The opportunity budget is `budgetamount` (budget amount of the opportunity) but the estimated revenue that can be potentially generated from opportunity is `estimatedvalue` (estimated value of the opportunity).
+   There are `totalCount` (number of products in the opportunity) products in this opportunity with a combined value of `totalamount` (total amount of the opportunity) and the top 2 products by value are `productname` (name of the product with the highest value) and `productname` (name of the product with the second highest value). The opportunity budget is `budgetamount` (budget amount of the opportunity) but the estimated revenue that potentially can be generated from the opportunity is `estimatedvalue` (estimated value of the opportunity).
 
-    **Example**: There are **3** products in this opportunity with a combined value of **$3,000.00** and the top 2 products by value are **3D printers** and **Laser printers**. The opportunity budget is **$30,000.00** but the estimated revenue that can be potentially generated from opportunity is **$10,000.00**.
+    **Example**: There are **3** products in this opportunity with a combined value of **$3,000.00** and the top 2 products by value are **3D printers** and **Laser printers**. The opportunity budget is **$30,000.00** but the estimated revenue that potentially can be generated from the opportunity is **$10,000.00**.
 
 ### Stakeholder information
 
-Stakeholders information is generated based on the contacts associated with the opportunity. Copilot gets the contact information by getting stakeholders for the opportunity. Copilot checks which stakeholders are common in the other opportunities connected to the same parent account, and these stakeholders are contacts connected to the opportunity by the entity `connection` with role `stakeholder`.
+Stakeholder information is generated based on the contacts associated with the opportunity. Copilot gets the contact information by getting stakeholders for the opportunity. Copilot checks which stakeholders are common in the other opportunities connected to the same parent account, and these stakeholders are contacts connected to the opportunity by the entity `connection` with the role `stakeholder`.
 
-Depending on the number of stakeholders associated with the opportunity, Copilot generates the stakeholders summary as follows:
+Depending on the number of stakeholders associated with the opportunity, Copilot generates the stakeholder summary:
 
 - When only one stakeholder is associated with the opportunity, the summary statement is as follows:  
-    `contact` (name of the contact) is a common stakeholder for `count` (number of opportunities) other opportunity associated with the account.
+
+  `contact` (name of the contact) is a common stakeholder for `count` (number of opportunities) other opportunity associated with the account.
 
     **Example**: **Jim Glynn (sample)** is a common stakeholder for **1** other opportunity associated with the account.
 
 - When two or more stakeholders are associated with the opportunity, the summary statement is as follows:  
-    `contact1` and `contact2` (name of the contacts) are common stakeholders for `count` (number of opportunities) associated with the account.
+
+  `contact1` and `contact2` (name of the contacts) are common stakeholders for `count` (number of opportunities) other opportunity associated with the account.
 
     **Example**: **Jim Glynn (sample)** and **Paul Cannon (sample)** are common stakeholders for **1** other opportunity associated with the account.
 
