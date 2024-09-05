@@ -1,7 +1,7 @@
 ---
 title: "Create IoT alerts and convert IoT alerts into work orders with Connected Field Service for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to create IoT alerts and convert IoT alerts into work orders with Connected Field Service for Dynamics 365 Field Service
-ms.date: 03/25/2021
+ms.date: 08/30/2024
 
 ms.subservice: connected-field-service
 ms.topic: how-to
@@ -15,9 +15,9 @@ author: vhorvathms
 
 # Create IoT alerts and convert IoT alerts into work orders
 
-Within Dynamics 365 Field Service, IoT alerts are a subset of IoT messages that may require attention. For instance, maybe a configured sensor in a refrigerator you service has alerted that humidity has risen above an acceptable threshold. To help with proactive service delivery, you can convert that incoming IoT alert directly to a work order, which can then be scheduled and assigned to a service technician. 
+Within Dynamics 365 Field Service, IoT alerts are a subset of IoT messages that might require attention. For instance, maybe a configured sensor in a refrigerator you service alerts that humidity has risen above an acceptable threshold. To help with proactive service delivery, you can convert that incoming IoT alert directly to a work order, which can then be scheduled and assigned to a service technician. 
 
-In this article, we will review:
+This article includes:
 
 - How IoT alerts are triggered 
 - How to see IoT alerts in Field Service 
@@ -57,14 +57,14 @@ To find the simulator URL, sign in to your Azure subscription, and then select t
 > [!div class="mx-imgBorder"]
 > ![Screenshot of resource groups in Azure.](./media/cfs-iot-alert-simulator1.png)
 
-You’ll see the URL in the top-right corner. Copy the URL. 
+The URL appears in the top-right corner. Copy the URL. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing where to find the URL in the resource group.](./media/cfs-iot-alert-simulator2.png)
 
 Complete the following steps:
   
-1. Paste the URL into your browser’s address bar to load the page.  
+1. Paste the URL into your browser’s address bar.  
   
 2. When the simulator page opens, select **Connection** at the top.  
   
@@ -125,18 +125,17 @@ Create a case related the IoT alert to investigate remotely.
 
 If the potential issue can't be identified or resolved, advance to the next step in the business process flow to create a work order. 
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the quick-create work order form from the case we created from the IoT alert.](./media/cfs-iot-alert-create-work-order.png)
 
-The IoT alert is referenced on the work order form and can be accessed by the technician on their mobile device. 
+The IoT alert is referenced on the work order form, which the technician can access on their mobile device. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order showing the related IoT alert in the primary incident section.](./media/cfs-iot-alert-work-order2.png)
 
 ## Organize IoT alerts
 
-It is possible for multiple IoT alerts to be created for the same IoT device for the same issue.
+It's possible for multiple IoT alerts to be created for the same IoT device for the same issue.
 
 The system recognizes similar IoT alerts and groups them together. 
 
@@ -148,35 +147,29 @@ Select the group icon next to an IoT alert to see similar IoT alerts for the sam
 > [!div class="mx-imgBorder"]
 > ![Screenshot of related IoT alerts in Field Service.](./media/cfs-iot-alert-parent-diagram.png)
 
-You can also use AI to suggest which IoT alerts are higher priority based on historical data, like which IoT alerts were converted to work orders. For more information, see this article: [IoT alert AI suggestions](iot-alerts-ai-based-suggestions.md). 
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of prioritized IoT alerts in Field Service.](./media/cfs-iot-alert-high-priority.png)
-
 ## IoT alerts parenting
 
-When an IoT alert is created in Connected Field Service, there are aggregation rules that decide if the alert should be parented under another existing alert since the alert may be for a device or asset that already has an open alert. With autoparenting, you can avoid overrunning the alert list with many alerts for the same issue.
+When an IoT alert is created in Connected Field Service, aggregation rules decide if the alert should be parented under another existing alert since the alert might be for a device or asset that already has an open alert. With autoparenting, you can avoid overrunning the alert list with many alerts for the same issue.
 
 To configure which fields should be used to decide if an alert should be parented, go to **IoT Settings** > **Alert Aggregation Rules tab**.
 
 ![IoT settings in Field Service, on the Alert Aggregation Rules tab.](media/iot-alert-parenting-1.png)
 
-If all the selected fields match, the alert will be parented if the alert time falls within five minutes of the previous alert.
+If all the selected fields match, the alert is parented if the alert time falls within five minutes of the previous alert.
 
-If you disable all the fields in the alert aggregation settings, there is still a default where it will parent the alert if the device ID matches, and the alert time falls within five minutes.
+If you disable all the fields in the alert aggregation settings, there's still a default where it will parent the alert if the device ID matches, and the alert time falls within five minutes.
 
 ![IoT settings, on the Alert Aggregation Rules tab with all fields disabled.](media/iot-alert-parenting-2.png)
 
-If there is no value in the alert time field, the system uses the **Created On** field on the IoT alert record to make sure it falls within five minutes of other matching alerts.
+If there's no value in the alert time field, the system uses the **Created On** field on the IoT alert record to make sure it falls within five minutes of other matching alerts.
 
 To edit the five-minute rule to include alerts that are created outside of that five-minute window, or if you want to make that window shorter, you can modify the flow or workflow "debounce" period.
 
 ![Flow edit screen, showing the debounce configuration.](media/iot-alert-parenting-3.png)
 
-When a parent alert is found, we first check to see if the matched alert has a parent, in which case the new alert is linked to the existing parent alert of the alert that matched. If the matching alert does not have a parent, the new alert is linked to that matching alert, which is now the parent alert.
+When a parent alert is found, the system checks to see if the matched alert has a parent. If so, the new alert is linked to the existing parent alert of the alert that matched. If the matching alert doesn't have a parent, the new alert is linked to that matching alert, which is now the parent alert.
 
-To completely turn off the autoparent feature, disable the workflow or flow (depending on whether your organization uses enhanced background processing controlled through Field Service settings. For more information, see this [article on default settings in Field Service](/dynamics365/field-service/configure-default-settings#other-settings).
+To completely turn off the autoparent feature, disable the workflow or flow depending on whether your organization uses enhanced background processing controlled through Field Service settings. For more information, go to [Default settings in Field Service](/dynamics365/field-service/configure-default-settings#other-settings).
 
 ![Power Apps, showing a list of processes with attention to the "IoT - Flow - Parent IoT Alerts" process.](media/iot-alert-parenting-4.png)
 

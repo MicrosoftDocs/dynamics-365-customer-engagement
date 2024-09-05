@@ -5,8 +5,8 @@ ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.date: 02/24/2023
 ms.topic: conceptual
-author: FeifeiQiu
-ms.author: feiqiu
+author: anilmur
+ms.author: anilmur
 ---
 
 # Enable quick book in Universal Resource Scheduling

@@ -7,13 +7,15 @@ ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.subservice: resource-scheduling-optimization
 ms.topic: conceptual 
-ms.date: 06/04/2024
+ms.date: 08/30/2024
 ms.custom: bap-template 
 ---
 
 # Optimization summary report
 
 The optimization summary report in the Resource Scheduling Optimization Add-in analyzes automatically scheduled bookings and the effect they had on the business.
+
+[!INCLUDE[fs-report-workarounds](../includes/fs-report-workarounds.md)]
 
 ## Before you start
 
