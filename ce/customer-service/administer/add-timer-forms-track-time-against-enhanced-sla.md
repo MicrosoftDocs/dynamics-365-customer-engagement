@@ -87,9 +87,9 @@ To add a timer for an enhanced SLA to an entity form, that entity must be enable
   
 1. Publish your customization.  
   
-    -   To publish customizations for just one entity, under **Components**, click **Entities**. Then, on the Actions toolbar, click **Publish**.  
+    -   To publish customizations for just one entity, under **Components**, select **Entities**. Then, on the Actions toolbar, select **Publish**.  
   
-    -   To publish all customizations you made to any entities or components, on the Actions toolbar, click **Publish All Customizations** .  
+    -   To publish all customizations you made to any entities or components, on the Actions toolbar, select **Publish All Customizations**.  
   
 ## Create quick view forms for the SLA KPI Instance entity
 
@@ -120,7 +120,7 @@ To add a timer for an enhanced SLA to an entity form, that entity must be enable
    > [!NOTE]
    >  Typically, for enhanced SLAs, the timer control is set up using the SLA KPI Instance status field values only.  
   
-1. When you are finished, click **OK**.  
+1. When you're finished, select **OK**.  
   
 1. Publish the customizations .  
   
@@ -140,7 +140,7 @@ Create an SLA for the entity you want to track. For example, you may want to tra
   
 1. [!INCLUDE[proc_settings_customization](../../includes/proc-settings-customization.md)]  
   
-1. Click **Customize the System**. In the solution explorer, in the left nav pane, expand **Entities**, expand the entity you want to add the quick view form to, and then click **Forms**.  
+1. Select **Customize the System**. In the solution explorer, in the left nav pane, expand **Entities**, expand the entity you want to add the quick view form to, and then select **Forms**.  
   
 1. To add the timer to use in the Dynamics 365 Customer Service app, open the form of type **Main**.  
   
@@ -148,12 +148,12 @@ Create an SLA for the entity you want to track. For example, you may want to tra
   
     To add the timer to the interactive experience form so users can use it in the interactive service hub, open the form of type **Main – Interactive experience**  
   
-1. Add a section to insert the quick view control. On  the **Insert** tab, in the **Section** group, click **Section**, and then click **One Column**.   Double-click the section to specify the section properties. Learn more in [Section properties](../../customerengagement/on-premises/customize/section-properties-legacy.md).  
+1. Add a section to insert the quick view control. On  the **Insert** tab, in the **Section** group, select **Section**, and then select **One Column**.   Double-click the section to specify the section properties. Learn more in [Section properties](../../customerengagement/on-premises/customize/section-properties-legacy.md).  
   
    > [!NOTE]
    >  You can't add an SLA timer to the reference panel section of the Main - Interactive experience form.  
   
-1. Select the section that you just added, and on the **Insert** tab, in the **Control** group, click **Quick View Form** .  
+1. Select the section that you just added, and on the **Insert** tab, in the **Control** group, select **Quick View Form** .  
   
 1. Specify a name and label for the quick view control. In the **Lookup Field** drop-down list, select the lookup field that you created to point to the SLA KPI Instance entity.  
   
