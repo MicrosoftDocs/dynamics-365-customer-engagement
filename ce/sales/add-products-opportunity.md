@@ -1,7 +1,7 @@
 ---
 title: "Add products to an opportunity | MicrosoftDocs"
 description: "Develop your opportunity by defining product bundles or families that makes easier for you to choose products for upsell and cross-sell."
-ms.date: 04/05/2023
+ms.date: 09/05/2024
 ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
@@ -29,7 +29,7 @@ You can add a product that already exists in the [!INCLUDE[pn-dyn-365-sales](../
 
 1. From the list of opportunities, open the opportunity to which you want to add products.
 
-2. Go to the **Product line items** tab.
+2. Go to the **Products** tab.
 
 3. Select a **Price list**. The price list determines the cost of the product. 
   
@@ -59,15 +59,15 @@ You can add a product that already exists in the [!INCLUDE[pn-dyn-365-sales](../
 
     3.  **Quantity**: Enter the quantity of the product or service that will be included.  
 
-    4.  **Manual Discount**: If you want to offer a discount to the product price, enter it here.  
+    4.  **Manual Discount Amount**: If you want to offer a discount to the product price, enter it here.  
     
     5.  **Tax**: If required, enter the appropriate tax amount.  
    
 7. To save this product, and add more products, select **Save and New**.
 
-The **Product Line Items** grid shows all the products that are associated with the opportunity. If you added an existing product from the product catalog, you can change the quantity and discount of the product inline in the **Product Line Items** grid. If you added a write-in product, you can also change the price of the product in addition to the quantity and discount.
+The **Products** grid shows all the products that are associated with the opportunity. If you added an existing product from the product catalog, you can change the quantity and discount of the product inline in the **Products** grid. If you added a write-in product, you can also change the price of the product in addition to the quantity and discount.
 
-You can take the following actions on the products added to the **Product Line Items** grid.
+You can take the following actions on the products added to the **Products** grid.
 
 |To                                    |Do This                                                       |
 |--------------------------------------|--------------------------------------------------------------|
