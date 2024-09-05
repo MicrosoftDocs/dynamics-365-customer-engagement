@@ -50,7 +50,7 @@ To generate the key value pairs in the opportunity summary, Copilot uses the fol
 
 ### Quote attributes
 
-Relationship between quote and opportunity tables is established using the `opportunityid` attribute.  
+The relationship between quote and opportunity tables is established using the `opportunityid` attribute.  
 
 Depending on the `parentcontactid` attribute in the opportunity table, Copilot generates the following quote summary:
 
@@ -60,7 +60,8 @@ Depending on the `parentcontactid` attribute in the opportunity table, Copilot g
     **Example**: So far we've shared **1** quote with **Maria Campbell (sample)** for this opportunity, with the latest one sent on **8/22/2024 6:42 AM**.
 
 - When the `parentcontactid` attribute isn't available, the summary statement is as follows:  
-    So far we've shared `totalcount` (total number of quotes) for this opportunity, with the latest one sent on `createdon` (date of the last created quote). This quote for `totalamount` (total amount of last quote) will be valid until `effectiveto` (effective date of last quote).
+
+  So far we've shared `totalcount` (total number of quotes) for this opportunity, with the latest one sent on `createdon` (date of the last created quote). This quote for `totalamount` (total amount of last quote) will be valid until `effectiveto` (effective date of last quote).
 
     **Example**: So far we've shared **1** quote for this opportunity, with the latest one sent on **8/22/2024 6:42 AM**.
 
