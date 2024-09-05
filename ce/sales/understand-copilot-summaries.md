@@ -10,7 +10,7 @@ ms.date: 08/30/2024
 ms.custom: bap-template 
 ---
 
-<!-- Question from editor: In line , text in two parentheses is the same: "name of the previous stage". Should the second be "name of the new stage" (or current stage)? -->
+<!-- Question from editor: In line 137, text in two parentheses is the same: "name of the previous stage". Should the second be "name of the new stage" (or current stage)? -->
 
 
 # Default attributes used in Copilot summaries  
