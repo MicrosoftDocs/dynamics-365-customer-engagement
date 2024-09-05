@@ -11,7 +11,7 @@ ms.date: 09/05/2024
 ms.custom: bap-template
 ---
 
-# Compose and send email messages using Copilot
+# Compose and send email messages using Copilot (preview)
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
