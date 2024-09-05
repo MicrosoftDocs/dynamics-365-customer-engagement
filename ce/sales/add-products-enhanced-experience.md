@@ -1,7 +1,7 @@
 ---
 title: Find and add multiple products to opportunity
 description: Use the enhanced experience to quickly identify and add multiple products from catalog to opportunities.
-ms.date: 04/05/2023
+ms.date: 09/05/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -57,7 +57,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 1. Open the opportunity to which you want to add products.
 
-2. Go to the **Product line items** tab.
+2. Go to the **Products** tab.
 
 3. Select a **Price list**. 
    The price list determines the cost of the product and the products you can select.
