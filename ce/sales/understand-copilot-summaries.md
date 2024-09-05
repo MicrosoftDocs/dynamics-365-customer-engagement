@@ -52,7 +52,7 @@ To generate the key value pairs in the opportunity summary, Copilot uses the fol
 
 Relationship between quote and opportunity tables is established using the `opportunityid` attribute.  
 
-Depending on the `parentcontactid` attribute in the opportunity table, Copilot generates the quote summary as follows:
+Depending on the `parentcontactid` attribute in the opportunity table, Copilot generates the following quote summary:
 
 - When the `parentcontactid` attribute is available, the summary statement is as follows:  
     So far we've shared `totalcount` (total number of quotes) with `parentcontactid` for this opportunity, with the latest one sent on `createdon` (date of the last created quote). This quote for `totalamount` (total amount of last quote) will be valid until `effectiveto` (effective date of last quote).
@@ -68,7 +68,7 @@ Depending on the `parentcontactid` attribute in the opportunity table, Copilot g
 
 The relationship between opportunity product and opportunity tables is established using the `opportunityid` attribute.  
 
-Depending on the number of products associated with the opportunity, Copilot generates the product information summary as follows:
+Depending on the number of products associated with the opportunity, Copilot generates the following product information summary:
 
 - When only one product is associated with the opportunity, the summary statement is as follows:  
 
@@ -86,7 +86,7 @@ Depending on the number of products associated with the opportunity, Copilot gen
 
 Stakeholder information is generated based on the contacts associated with the opportunity. Copilot gets the contact information by getting stakeholders for the opportunity. Copilot checks which stakeholders are common in the other opportunities connected to the same parent account, and these stakeholders are contacts connected to the opportunity by the entity `connection` with the role `stakeholder`.
 
-Depending on the number of stakeholders associated with the opportunity, Copilot generates the stakeholder summary:
+Depending on the number of stakeholders associated with the opportunity, Copilot generates the following stakeholder summary:
 
 - When only one stakeholder is associated with the opportunity, the summary statement is as follows:  
 
@@ -104,7 +104,7 @@ Depending on the number of stakeholders associated with the opportunity, Copilot
 
 Account history information is generated based on the closed opportunities associated with the account. Copilot gets the account history information by getting the parent account of the opportunity and then getting the closed opportunities associated with this account.
 
-Depending on the closed opportunities associated with the account, Copilot generates the account history summary:
+Depending on the closed opportunities associated with the account, Copilot generates the following account history summary:
 
 - When an account has closed opportunities, the summary statement is as follows:  
 
