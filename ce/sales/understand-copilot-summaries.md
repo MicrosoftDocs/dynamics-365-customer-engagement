@@ -51,6 +51,7 @@ To generate the key value pairs in the opportunity summary, Copilot uses the fol
 ### Quote attributes
 
 Relationship between quote and opportunity tables is established using the `opportunityid` attribute.  
+
 Depending on the `parentcontactid` attribute in the opportunity table, Copilot generates the quote summary as follows:
 
 - When the `parentcontactid` attribute is available, the summary statement is as follows:  
@@ -66,6 +67,7 @@ Depending on the `parentcontactid` attribute in the opportunity table, Copilot g
 ### Product information
 
 The relationship between opportunity product and opportunity tables is established using the `opportunityid` attribute.  
+
 Depending on the number of products associated with the opportunity, Copilot generates the product information summary as follows:
 
 - When only one product is associated with the opportunity, the summary statement is as follows:  
