@@ -99,21 +99,27 @@ Depending on the number of stakeholders associated with the opportunity, Copilot
 
 Account history information is generated based on the closed opportunities associated with the account. Copilot gets the account history information by getting the parent account of the opportunity and then getting the closed opportunities associated with this account.
 
-Depending on the closed opportunities associated with the account, Copilot generates the account history summary as follows:
+Depending on the closed opportunities associated with the account, Copilot generates the account history summary:
 
 - When an account has closed opportunities, the summary statement is as follows:  
-    `parentaccountid`(name of the parent account) has been a customer that has spent over `actualvalue` (sum of all closed opportunities) with us since `createdon` (first opportunity closed date with parent account). `parentaccountid`(name of the parent account) operates in the `industrycode` (account's primary industry) industry sector and provides a wide selection of products in its stores and online.
 
-    **Example**: **Fourth Coffee (sample)** has been a customer that has spent over **$22,469.39** with us **since 7/20/2024**. **Fourth Coffee (sample)** operates in the **Food and Tobacco Processing** industry sector and provides a wide selection of products in its stores and online.
+    `parentaccountid` (name of the parent account) has been a customer that has spent over `actualvalue` (sum of all closed opportunities) with us since `createdon` (first opportunity closed date with parent account). `parentaccountid` (name of the parent account) operates in the `industrycode` (account's primary industry) industry sector and provides a wide selection of products in its stores and online.
+
+    **Example**: **Fourth Coffee (sample)** has been a customer that has spent over **$22,469.39** with us since **7/20/2024**. **Fourth Coffee (sample)** operates in the **Food and Tobacco Processing** industry sector and provides a wide selection of products in its stores and online.
 
 - When an account doesn't have closed opportunities, the summary statement is as follows:  
-    `parentaccountid`(name of the parent account) has been a customer with us since `createdon` (date of account creation). `parentaccountid`(name of the parent account) operates in the `industrycode` (account's primary industry) industry sector and provides a wide selection of products in its stores and online.
+
+   `parentaccountid` (name of the parent account) has been a customer with us since `createdon` (date of account creation). `parentaccountid` (name of the parent account) operates in the `industrycode` (account's primary industry) industry sector and provides a wide selection of products in its stores and online.
 
     **Example**: **Blue Yonder Airlines (sample)** has been a customer with us since **8/9/2024 9:00 AM**. **Blue Yonder Airlines (sample)** operates in the **Consulting** industry sector and provides a wide selection of products in its stores and online.
 
 ### Purchase history information
 
 Purchase history information is generated based on the closed opportunities associated with the parent account of the opportunity. Copilot gets the parent account of the opportunity and then gets the closed opportunities associated with this account.
+
+
+
+
 
 The following statement is generated based on the opportunities associated with the account:  
 
