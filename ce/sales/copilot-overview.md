@@ -91,7 +91,7 @@ Copilot can help you compose professional-looking emails, summarize email conver
 
 Learn more:
 
-- [Compose and send email messages using Copilot (preview)](compose-send-email-copilot.md)  
+- [Compose and send email messages using Copilot](compose-send-email-copilot.md)  
 - [View and copy an email summary](view-copy-email-summary.md)  
 - [Display unanswered emails](copilot-stay-ahead.md#display-unanswered-emails)
 
