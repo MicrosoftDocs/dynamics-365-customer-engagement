@@ -1,7 +1,7 @@
 ---
 title: Automatically route cases using basic routing rulesets
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service.
-ms.date: 06/21/2024
+ms.date: 09/06/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -23,8 +23,6 @@ ms.custom:
 > We recommend that you enable and use unified routing for automatically routing records in Customer Service. More information: [Overview of unified routing](overview-unified-routing.md).
 
 Use routing rules in Customer Service to route cases to the right agents at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.
-
-Routing rules are solution-aware entities. You can export routing rules from one environment to another by using the solution import export tool. However, rules are mapped to a queue, user, or team that's not solution-aware data. Therefore, after exporting the data, you’ll need to edit mappings of each rule item to correspond to the queue, user, or team in the target environment.
 
 ## Add routing rulesets site map for custom apps
 
@@ -85,7 +83,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
     > [!div class="mx-imgBorder"]
     > ![Create routing rules general information.](../media/rr-create-rule-set.png "Create routing rules general information")
 
-1. In the **Rule Items** section, select **New Rule Item**. The **New Rule Item** dialog box appears, in which you can specify conditions that will be evaluated for routing cases to a queue, an agent, or a team.
+1. In the **Rule Items** section, select **New Rule Item**. The **New Rule Item** dialog box appears, in which you can specify conditions that are evaluated for routing cases to a queue, an agent, or a team.
 
     a. On the **General** tab, in **Rule Item Information**, enter a **Name** and **Description**.
 
@@ -142,6 +140,14 @@ Perform the following steps to manually apply the rule to any existing or manual
 >
 > - If you’re importing bulk records, and don’t want the routing rules to be applied to the cases that you’re importing, add a column **Route Case** to the spreadsheet used for importing the records, and add the value **No** for all the cases that you don’t want to route.
 > - Cases can be created and routed programmatically. If you want to override this behavior, set the value for the RouteCase attribute to "No".
+
+## Things to consider during export and import of routing rules
+
+- Routing rules are solution-aware entities. You can export routing rules from one environment to another by using the solution import export tool. However, rules are mapped to a queue, user, or team that's not solution-aware data. Therefore, after exporting the data, you’ll need to edit mappings of each rule item to correspond to the queue, user, or team in the target environment.
+
+- Before every import, deactivate the routing rule and remove the active layer on the routing rule. Activate the routing rule after the solution is successfully imported into the [target environment](/power-apps/maker/data-platform/solution-layers#view-the-solution-layers-for-a-component). 
+
+- Don't activate the workflow linked to the routing rule directly using **Advanced Find**. When you activate the routing rule, the workflow is activated.
 
 ## Recommendation to upgrade solution
 
