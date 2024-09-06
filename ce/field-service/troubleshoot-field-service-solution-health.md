@@ -599,6 +599,6 @@ Retrigger the workflow. Refer to general documentation or contact support.
 
 ## Next steps
 
-- [Dynamics 365 Field Service troubleshooting](/troubleshoot/dynamics-365/field-service/welcome-field-service)
+[Dynamics 365 Field Service troubleshooting](/troubleshoot/dynamics-365/field-service/welcome-field-service)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
