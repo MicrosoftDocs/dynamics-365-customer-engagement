@@ -62,8 +62,8 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
 4. On the **Behaviors** tab, turn on the **Customer wait time** toggle, and select the following options:
 
-   - Notify position in queue
-   - Notify average wait time
+   - Notify position in queue [Notify position in queue]([overview-unified-routing.md](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/show-queue))
+   - Notify average wait time [Notify average wait time]([overview-unified-routing.md](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/average-wait-time))
 
 5. Turn on the **Channel operating hours** toggle, and select an operating hour record. More information: [Configure operating hours for your business](create-operating-hours.md)
 
