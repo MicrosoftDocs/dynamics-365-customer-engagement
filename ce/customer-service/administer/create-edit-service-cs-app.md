@@ -45,9 +45,9 @@ Service Scheduling is available in the Customer Service Hub site map. We recomme
   
     1.  Under **General**, enter a name and description to reflect the specifics of the service and describe what the service is. Also, specify the initial status of the service activity when it's created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.  
   
-    2.  Under **Scheduling**, in **Default Duration**, select how long the service lasts. This can be changed when the service activity is created. The maximum duration of an appointment or service activity is 10 days.  
+    2.  Under **Scheduling**, in **Default Duration**, select how long the service lasts. This selection can be changed when the service activity is created. The maximum duration of an appointment or service activity is 10 days.  
   
-    3.  In **Start Activities Every**, select how often service activities can start. This allows the start times of service activities to be staggered.  
+    3.  In **Start Activities Every**, select how often service activities can start. This selection allows the start times of service activities to be staggered.  
   
     4.  In **Beginning At**, select the time when the service activities must begin.  
   
@@ -79,7 +79,7 @@ Service Scheduling is available in the Customer Service Hub site map. We recomme
     ![schedule-service-cs-app.](../media/services-cs-app.png)
   
 ## Activate or deactivate a service  
- You can make a service available on unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, then select **More Actions** > **Activate** or **More actions** > **Deactivate**.  
+ You can make a service available on unavailable for scheduling by activating or deactivating it. To take either of these actions, in the list of service records, select a service, then select **More Actions** > **Activate** or **Deactivate**.  
   
 ### Related information  
  [Set the capacity required for a service or resource](set-capacity-required-service-resource.md)   
