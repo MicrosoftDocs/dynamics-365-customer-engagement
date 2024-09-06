@@ -44,7 +44,7 @@ When the analysis job finishes running, the system opens the overview page.
 
 :::image type="content" source="media/troubleshoot-solution-health-fs-rules-analysis.svg" alt-text="Screenshot of a complete analysis job overview.":::
 
-In the analysis job, each rule shows a **Return Status** indicating whether the rule passed, failed, or has a configuration error. If a rule fails, a **Severity** provides how severe the problem is.
+In the analysis job, each rule shows a **Return Status** indicating whether the rule passed, failed, or has a configuration error. If a rule fails, a **Severity** indicates how severe the problem is.
 
 | Rule return status | Recommendation|
 | --- | --- |  
@@ -110,7 +110,7 @@ Select the analysis result, review the agreement, and select **Resolve**.
 
 ### Notes and limitations
 
-- The rule validates for agreements having an end date in last 90 days.
+- The rule validates for agreements having an end date in the last 90 days.
 - The rule considers the top 5,000 agreements with an active system status and end date in the past.
 - The rule validates only agreements having Agreement booking setups and Agreement booking dates.
 
@@ -139,11 +139,16 @@ Severity: High
 
 ### What it checks
 
-For all work order forms, this rule checks if the number of subgrid controls or lookup controls exceed the limit, which might affect performance. The limit is 4 subgrids or 20 lookups. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
+For all work order forms, this rule checks whether the number of subgrid controls or lookup controls exceed the limit, which might affect performance. The limit is 4 subgrids or 20 lookups. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
 
-A [subgrid control](/powerapps/developer/model-driven-apps/clientapi/reference/grids) is a table in the form that lists records of another table. For example, the work order product subgrid control on the work order form that is included in Field Service out-of-the-box.
+A [subgrid control](/powerapps/developer/model-driven-apps/clientapi/reference/grids) is a table in the form that lists records of another table. For example, the work order product subgrid control on the work order form that is included in Field Service out of the box.
 
 A lookup control is a field on the form that searches the records of another table and allows you to select one or more records to populate the field.
+
+
+
+
+
 
 ### Why it fails
 
