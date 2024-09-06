@@ -249,10 +249,6 @@ This rule fails if there are any customizations on any of the default Field Serv
 
 Manually remove customizations from the Field Service option sets.
 
-
-
-
-
 ## Customized web resources
 
 Severity: High
@@ -398,7 +394,7 @@ This rule fails because Field Service code expects the execution context paramet
 
 ### How to fix
 
-1. In Power Apps, select **Tables** > **All** and search for Work order or Agreement.
+1. In Power Apps, select **Tables** > **All** and search for Work Order or Agreement.
 1. Select the table.
 1. Under **Data experiences**, select **Forms**.
 1. Select the **Events** tab.
@@ -419,7 +415,7 @@ This rule fails if a Field Service upgrade was started but not successfully comp
 
 ### How to fix
 
-Restart the Field Service upgrade. Once the upgrade succeeds, this rule returns a pass. If the upgrade fails again, contact support.
+Restart the Field Service upgrade. Once the upgrade succeeds, this rule repeats a pass. If the upgrade fails again, contact support.
 
 ## Latitude and Longitude values on account record
 
