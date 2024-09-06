@@ -1,7 +1,7 @@
 ---
 title: "Add stakeholders, sales team, and competitors for the opportunity | MicrosoftDocs"
 description: "Add people that you're working with on the opportunity as stakeholders and sales team."
-ms.date: 09/05/2024
+ms.date: 09/06/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -58,7 +58,7 @@ If multiple users and teams from your organization are working on an opportunity
 1. In the Sales Hub site map, select **Opportunities**.
 
 1. Open the opportunity.
-1. In the Summary tab, scroll down to the **Sales team** section.
+1. In the **Summary** tab, scroll down to the **Sales team** section.
 1. Select **New Connection** and then add users or teams in your organization who are involved in the opportunity. 
     > [!NOTE]
     > If you don't see the **New connection** button, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. More information: [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
@@ -76,7 +76,7 @@ Add the organizations that are competing with you for the opportunity as competi
 1. In the Sales Hub site map, select **Opportunities**.
 
 1. Open the opportunity.
-1. In the Summary tab, scroll down to the **Competitors** section.
+1. In the **Summary** tab, scroll down to the **Competitors** section.
 1. Select **Add Existing Competitor** to add a competitor.
 
 ## Related information
