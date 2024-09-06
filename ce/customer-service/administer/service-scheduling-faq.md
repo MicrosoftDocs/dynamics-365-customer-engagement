@@ -1,7 +1,7 @@
 ---
 title: Service Scheduling FAQ
 description: Find answers to common questions about service scheduling, including license requirements, availability, and resource selection.
-ms.date: 08/30/2024
+ms.date: 09/06/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
