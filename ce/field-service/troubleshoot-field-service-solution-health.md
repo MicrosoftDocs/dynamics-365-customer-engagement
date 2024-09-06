@@ -145,14 +145,9 @@ A [subgrid control](/powerapps/developer/model-driven-apps/clientapi/reference/g
 
 A lookup control is a field on the form that searches the records of another table and allows you to select one or more records to populate the field.
 
-
-
-
-
-
 ### Why it fails
 
-This rule fails if the default tab (the first tab) of any work order form has more than either 4 subgrids controls or 20 lookup controls. The number of controls on the default tab of the form impacts load performance.
+This rule fails if the default tab (the first tab) of any work order form has more than either 4 subgrid controls or 20 lookup controls. The number of controls on the default tab of the form impacts load performance.
 
 ### How to fix
 
@@ -170,19 +165,19 @@ This rule checks if the required level of a system-required field on the Work Or
 
 ### Why it fails
 
-This rule fails if the required level of a system-required field in the out-of-box Field Service Work Order or Agreement form is modified.
+This rule fails if the required level of a system-required field in the out-of-the-box Field Service Work Order or Agreement form is modified.
 
 ### How to fix
 
-1. In Power Apps, select **Tables** > **All** and search for Work order or Agreement.
+1. In Power Apps, select **Tables** > **All** and search for Work Order or Agreement.
 1. Select the table.
 1. Under **Schema**, select **Columns**. Find and select the field listed in the analysis.
-1. In the **Edit column** pane, changed **Required** to 'Business Required' and save.
+1. In the **Edit column** pane, change **Required** to 'Business Required' and save.
 
 > [!Note]
 > This rule is implemented for the out-of-the-box required field on the Work Order and Agreement forms only.
 
-### Checks For Revision mismatch on Agreement Booking Dates with Agreement Booking Setups
+## Checks For Revision mismatch on Agreement Booking Dates with Agreement Booking Setups
 
 Severity: High
 
@@ -248,11 +243,15 @@ This rule detects whether there are customizations to any option set in Field Se
 
 ### Why it fails
 
-This rule fails if there are any customizations on any of the default Field Service options sets. Additions to the option sets don't count as failures, only modifications to the options within the option sets.
+This rule fails if there are any customizations on any of the default Field Service option sets. Additions to the option sets don't count as failures, only modifications to the options within the option sets.
 
 ### How to fix
 
 Manually remove customizations from the Field Service option sets.
+
+
+
+
 
 ## Customized web resources
 
