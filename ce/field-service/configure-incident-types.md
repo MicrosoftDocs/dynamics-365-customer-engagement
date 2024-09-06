@@ -1,7 +1,7 @@
 ---
 title: Create work order templates with incident types
 description: Learn how to configure incident types in Dynamics 365 Field Service.
-ms.date: 08/02/2024
+ms.date: 08/30/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -250,39 +250,5 @@ When using incidents with requirement groups:
 
 > [!TIP]
 > If a work order should be performed by multiple resources, we recommended using requirement group templates instead of multiple incident types. Let's say you have a work order with two incident types, each requiring different skills. The system will look for a single resource to fulfill the job. The scheduler would need to perform extra steps to schedule it so two different resources arrive at the same time. If you use a requirement group template, the schedule assistant will simultaneously search for both a single resource with both skills or two resources each with one skill to arrive at the same time.
-
-## Use AI to get incident type suggestions
-
-With Field Service v8.8.20.12+, incident type AI suggestions recommend ways to improve your incident types by learning from work orders. For example, you have an incident type that is configured to use a certain product. However, technicians frequently also use a different product to complete the job. With AI, the system learns and suggests updating the related product on the incident type for future work orders.
-
-:::image type="content" source="media/ai-incident-type-suggestions-list.png" alt-text="Screenshot of the intelligence tab in Field Service Setting showing a list of incident type suggestions.":::
-
-Administrators can enable the feature in the Intelligence section on the **Field Service Settings** page. For more information, go to [Intelligence settings](configure-default-settings.md#intelligence-settings).
-
-AI suggestions fall into three categories:
-
-- Work Order Product
-
-  :::image type="content" source="media/ai-incident-type-suggestions-list-product.png" alt-text="Screenshot of an incident type suggestion result showing the work order product type in the suggestion type field.":::
-
-  The system suggests adding a product to an incident type.
-
-- Work Order Service
-
-  :::image type="content" source="media/ai-incident-type-suggestions-list-service.png" alt-text="Screenshot of an incident type suggestion result showing the work order service type in the suggestion type field.":::
-
-  The system suggests adding a service to an incident type.
-
-- Incident Type
-
-  :::image type="content" source="media/ai-incident-type-suggestions-list-merge.png" alt-text="Screenshot of an incident type suggestion result showing the incident type in the suggestion type field.":::
-
-  The system suggests merging two incident types together into one incident type.
-
-For each suggestion, you have the following options:
-
-- **Apply Suggestion**: The system adds the product or service to the incident type. You have to manually apply suggestions for incident types.
-- **Dislike**: The suggestion is removed from the list. This option helps improve the AI suggestion model.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
