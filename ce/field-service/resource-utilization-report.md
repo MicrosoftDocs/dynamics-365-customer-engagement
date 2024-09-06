@@ -1,7 +1,7 @@
 ---
 title: Resource and utilization report
 description: This article explains the resource and utilization report in Field Service and the charts and visual used in that report.
-ms.date: 06/03/2024
+ms.date: 08/30/2024
 author: jshotts
 ms.author: jasonshotts
 ms.reviewer: mhart
@@ -12,6 +12,8 @@ ms.custom: bap-template
 # Resource and utilization report
 
 Resource managers can use the resource and utilization report to gather information that helps them ensure efficient use of resources. They can monitor key information like time spent on bookings, allocation of bookings across territories, or how individual resources are allocated.
+
+[!INCLUDE[fs-report-workarounds](../includes/fs-report-workarounds.md)]
 
 ## Filters and slicers
 
