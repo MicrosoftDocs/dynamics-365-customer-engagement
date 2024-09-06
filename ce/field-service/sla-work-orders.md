@@ -53,8 +53,8 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 ## Create an SLA
 
-1. [Create an SLA](/customer-service/administer/define-service-level-agreements#create-an-sla) selecting **Work Order** for the **Primary entity**.
-1. [Create an SLA item](/customer-service/administer/define-service-level-agreements#create-an-sla-item).
+1. [Create an SLA](../customer-service/administer/define-service-level-agreements.md#create-an-sla) selecting **Work Order** for the **Primary entity**.
+1. [Create an SLA item](../customer-service/administer/define-service-level-agreements.md#create-an-sla-item).
 
     :::image type="content" source="media/work-order-sla-items.png" alt-text="Screenshot of SLA Item showing a warning after 1.5 hours and failure after 3 hours.":::
 1. Select **Save & Close**. Then, select **Activate**.
@@ -86,7 +86,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 ## Schedule a work order to meet an SLA  
 
-Once a work order is associated with an SLA, the **Time From Promised** and **Time To Promised** fields appear on the work order according to the SLA, appropriate SLA Item, and business hours of the SLA. Scheduling capabilities like the schedule assistant consider these fields.
+[Create a work order](create-work-order.md) in Field Service and select the SLA. Once a work order is associated with an SLA, the **Time From Promised** and **Time To Promised** fields appear on the work order according to the SLA, appropriate SLA Item, and business hours of the SLA. Scheduling capabilities like the schedule assistant consider these fields.
 
 Pausing an SLA timer on the work order updates **Time From Promised** and **Time To Promised** fields when resumed.
 
