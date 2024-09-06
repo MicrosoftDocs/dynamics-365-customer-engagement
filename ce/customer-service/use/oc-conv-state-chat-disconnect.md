@@ -1,7 +1,7 @@
 ---
 title: Understand disconnected chats
 description: Use this article to know how the application handles customer disconnection during live chat.
-ms.date: 01/23/2023
+ms.date: 08/29/2024
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -13,7 +13,9 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
-During live chat, a customer can no longer chat with the agent if they leave the conversation or stay disconnected for more than three minutes. When a customer is disconnected for more than three minutes, the application detects the disconnection, and automatically updates the conversation state of the chat.
+During live chat, a customer can no longer chat with the agent if they leave the conversation or stay disconnected for more than a set duration. By default, this duration is three minutes. However, your administrator can set the [reconnection duration](../administer/configure-reconnect-chat.md). 
+
+ When a customer is disconnected for more than the set time limit, the application detects the disconnection, and automatically updates the conversation state of the chat.
 
 When an ongoing chat gets disconnected, the application does the following: 
 
