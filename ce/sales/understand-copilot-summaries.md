@@ -6,12 +6,9 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: conceptual
 ms.collection: 
-ms.date: 08/30/2024
+ms.date: 09/06/2024
 ms.custom: bap-template 
 ---
-
-<!-- Question from editor: In line 137, text in two parentheses is the same: "name of the previous stage". Should the second be "name of the new stage" (or current stage)? -->
-
 
 # Default attributes used in Copilot summaries  
 
@@ -134,7 +131,7 @@ Our last successful opportunity with `parentaccount` (name of the parent account
 
 Opportunity stage is updated based on the audit history of the opportunity. Copilot gets the audit history within the last two months (top 200 records) for the opportunity.
 
-`userid` (name of the user) updated the opportunity stage from `oldstepname` (name of the previous stage) to `newstepname` (name of the previous stage) on `createdon` (updated date).
+`userid` (name of the user) updated the opportunity stage from `oldstepname` (name of the previous stage) to `newstepname` (name of the new stage) on `createdon` (updated date).
 
 **Example**: **Kenny Smith** updated the opportunity stage from **3-Propose** to **2-Develop** on **8/22/2024 6:57 AM**.
 
