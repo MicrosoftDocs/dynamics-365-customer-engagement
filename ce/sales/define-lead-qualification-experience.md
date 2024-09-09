@@ -50,7 +50,8 @@ The legacy experience only lets you choose whether to automatically create accou
 
    You'll see the following options:
 
-    - **Try the new lead qualification experience**: Turn this setting on to use the new lead qualification experience. This setting lets you define the following experiences: 
+    - **Try the new lead qualification experience**: Turn on this setting to use the new lead qualification experience. This setting lets you define the following experiences: 
+        
         - [Define the record creation experience for each record type](#define-the-record-creation-experience-for-each-record-type)
         - [Customize opportunity creation experience for qualified leads](#customize-opportunity-creation-experience-for-qualified-leads)
         - [Enable lead summarization](#summarize-the-lead-after-its-qualified)
@@ -74,6 +75,10 @@ When you turn on the new [Lead qualification experience](#how-to-customize-the-l
 - Select **Automatic** if you want the system to create the record automatically. Sellers can review the records that will be created automatically.
 
 In either case, if there's a matching record in the system, the duplicate detection rules are applied to prevent the creation of duplicate records. Sellers can choose to use the existing record or create a new one. For more information about rules used to identify duplicates, see [Manage duplicate leads](manage-duplicate-leads.md).
+
+
+
+
 
  
 ### Customize opportunity creation experience for qualified leads
