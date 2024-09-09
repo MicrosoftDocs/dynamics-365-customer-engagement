@@ -20,7 +20,7 @@ This article describes how emergency calling works when agents dial an emergency
 
 > [!NOTE]
 >
-> - Emergency calling is currently supported in the United States, Puerto Rico, and Canada only where the emergency calling number is 911.
+> - Emergency calling is currently supported in the United States, United Kingdom, Denmark, Canada, and Puerto Rico only where the emergency calling number is 911.
 > - If the [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled and an agent initiates an outbound call to emergency services, the active conversation form doesn't display the **Save** and **Refresh** options. 
 
 ## Prerequisites
@@ -28,7 +28,7 @@ This article describes how emergency calling works when agents dial an emergency
 Make sure that the following prerequisites are complete so that the emergency calls work properly:
 
 - The omnichannel agent user has a capacity profile associated with a voice outbound profile. For more information, see [Configure capacity profiles](voice-channel-outbound-calling.md#configure-capacity-profiles-and-assign-users) and [Create outbound profiles](configure-outbound-inbound-profiles.md#create-outbound-profiles).
-- Browser location setting is enabled, and set to United States, Canada, or Puerto Rico.
+- Browser location setting is enabled, and set to United States, United Kingdom, Denmark, Canada, or Puerto Rico.
 - For the email notification, the [mailbox for the agents](/power-platform/admin/create-forward-mailboxes-edit-mailboxes) is enabled.
 - For the emergency call to be handled, one of the following conditions must be fulfilled:
    - The number from which it originates must be a Microsoft calling plan number.
@@ -44,7 +44,7 @@ In Customer Service workspace or Contact Center workspace, agents can use the di
 
 Here's how the emergency calls work:
 
-1. The agent calls the emergency number such as 911 in the United States, Canada, or Puerto Rico.
+1. The agent calls the emergency number such as 911 in the United States, United Kingdom, Denmark, Canada, or Puerto Rico.
 1. The agent status automatically changes to "Do not disturb," irrespective of the current status.
 1. A temporary callback number is assigned to the agent for a duration of 60 minutes. 
 1. If the emergency call is dropped or gets disconnected, then the emergency responder can call back the agent via this callback number. The emergency callback gets the highest priority, bypassing all configured routing rules, capacity profiles, and presence settings.
