@@ -133,7 +133,7 @@ The entities and their secret attributes are as follows. For more information on
 
 ### Related information
 
-[Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
 [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md)  
 [Role personas for unified routing](../administer/role-persona-mapping.md)  
 [Guide agents with scripts](../administer/agent-scripts.md)  

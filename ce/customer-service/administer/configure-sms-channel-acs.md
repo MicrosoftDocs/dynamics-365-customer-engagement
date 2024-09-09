@@ -1,7 +1,7 @@
 ---
 title: Configure an SMS channel using Azure Communication Services
 description: This article includes instructions for configuring an SMS channel using Azure Communication Services.
-ms.date: 06/14/2024
+ms.date: 08/23/2024
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -17,11 +17,11 @@ This article discusses how you can configure an SMS channel using Azure Communic
 
 ## Prerequisites
 
-- Purchase and install the voice channel for Dynamics 365 Customer Service. More information: [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md) and [Install voice channel](voice-channel-install.md)
+- Purchase and install the voice channel for Dynamics 365 Customer Service. More information: [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels) and [Install voice channel](voice-channel-install.md)
 - Connect to Azure Communication Services. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
   
   If you’ve connected your existing Azure Communication Services resource, ensure that you’ve enabled SMS services. More information: [Enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services).
-- Set up a phone number that's enabled for SMS services. Ensure that you select **Send SMS** or **Send and receive SMS** options when you choose your phone number feature in Customer Service admin center. More information: [Acquire new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers)
+- Set up a phone number that's enabled for SMS services. Ensure that you select **Send SMS** or **Send and receive SMS** options when you choose your phone number feature in Contact Center admin center or Customer Service admin center. More information: [Acquire new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers)
 
   If you're using an existing phone number that's not enabled for SMS, then you can upgrade your plan. More information: [Edit phone numbers](voice-channel-manage-phone-numbers.md#edit-phone-numbers)
 
@@ -55,7 +55,7 @@ This article discusses how you can configure an SMS channel using Azure Communic
 
 ### Related information
 
-[Channels in Omnichannel for Customer Service](../use/channels.md)  
+[Overview of channels](../use/channels.md)  
 [Overview of SMS channels](../use/sms-channel-overview.md)  
 [Understand and create workstreams](create-workstreams.md)  
 [Configure SMS channel for Twilio](Configure-sms-channel-twilio.md)  
