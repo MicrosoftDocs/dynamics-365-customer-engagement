@@ -13,7 +13,7 @@ ms.topic: article
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-As a supervisor, it's useful to be able to monitor the calls between your agents and their customers without interrupting them to help identify which calls need attention. You can monitor the conversations without being seen as a participant by the agent or customer, as well as step into conversations when additional support is needed.
+As a supervisor, it's useful to be able to monitor the calls between your agents and their customers without interrupting them to help identify which calls need attention. You can monitor the conversations without being seen as a participant by the agent or customer, and step into conversations when more support is needed.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ As a supervisor, you can privately consult with an agent by sending them message
 
 ## Join a conversation (also known as barge)
 
-If needed, you can select **Join call** to enter the conversation and speak with the agent, customer, or chat with the agent privately. When you join a conversation, the agent can see that you have joined.
+If needed, you can select **Join call** to enter the conversation and speak with the agent, customer, or chat with the agent privately. When you join a conversation, the agent is notified that you joined.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of conversation barge.](../media/voice-channel-join-call.png)
