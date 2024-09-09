@@ -4,7 +4,7 @@ description: Use this article to understand how emergency calls work and how you
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 07/01/2024
+ms.date: 09/09/2024
 ms.topic: how-to
 ms.custom: bap-template
 ms.collection:
