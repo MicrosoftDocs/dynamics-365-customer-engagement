@@ -15,9 +15,9 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
-Use the information in this article to create profiles that are used during inbound and outbound calls. These profiles help you configure settings, such as language, wait music, and transcription settings for the calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
+Use the information in this article to create profiles that are used for direct inward dialing to specific agents and outbound calling. These profiles help you configure settings, such as language, wait music, and transcription settings for these calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
 
-Inbound profiles enable direct calls to individual agents and therefore differ from workstreams that are used to define how inbound calls are routed and assigned to agents via queues. Direct inbound calling doesn't use unified routing and therefore the direct calls aren't tracked in unified routing historical analytics.
+Inbound profiles enable direct calls to individual agents (direct inward dialing) and therefore differ from workstreams that are used to define how inbound calls are routed and assigned to agents via queues. Direct inward dialing doesn't use unified routing and therefore the direct calls aren't tracked in unified routing historical analytics.
 
 ## Prerequisites
 
