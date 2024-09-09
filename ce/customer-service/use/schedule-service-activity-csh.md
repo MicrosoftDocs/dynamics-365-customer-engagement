@@ -1,7 +1,7 @@
 ---
-title: Schedule a service activity in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Know how to schedule a service activity in service scheduling in Dynamics 365 Customer Service
-ms.date: 09/13/2022
+title: Schedule a service activity in Service Scheduling for Dynamics 365 Customer Service
+description: Learn how to schedule a service activity in service scheduling in Dynamics 365 Customer Service.
+ms.date: 09/09/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -29,7 +29,7 @@ Make sure that you have the required security role or equivalent permissions.
 1. In the Customer Service Hub sitemap, go to **Scheduling**.
 2. From the list of entity records, select **Scheduling > Service Activity**.
    - The **My Service Activities** view is displayed. You can switch between various system views using the drop-down menu.
-   - Select any existing service activity to see additional options in the command bar.
+   - Select any existing service activity to learn about additional options in the command bar.
 
 3. On the command bar, select **Service Activity** to create a new service activity.  
 
