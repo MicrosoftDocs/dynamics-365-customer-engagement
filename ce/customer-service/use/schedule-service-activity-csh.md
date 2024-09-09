@@ -29,7 +29,7 @@ Make sure that you have the required security role or equivalent permissions.
 1. In the Customer Service Hub sitemap, go to **Scheduling**.
 2. From the list of entity records, select **Scheduling > Service Activity**.
    - The **My Service Activities** view is displayed. You can switch between various system views using the drop-down menu.
-   - Select any existing service activity to learn about additional options in the command bar.
+   - Select any existing service activity to learn about other options in the command bar.
 
 3. On the command bar, select **Service Activity** to create a new service activity.  
 
@@ -52,7 +52,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 7. In the **Bookings** section:
 
-   - View the bookings that you have scheduled in this section.
+   - View the bookings that you scheduled in this section.
 
 8. Select **Book** to schedule a service activity in the calendar.
 
@@ -77,7 +77,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 9. To close or cancel a service activity, select **Close Service Activity** from the command bar, and then select the status as **Closed or Canceled** in the **Close Service Activity** dialog box.
 
-10. If the service activity has been completed, select **Mark Complete** from the command bar. 
+10. If the service activity completed, select **Mark Complete** from the command bar. 
 
 ### Related information
 
