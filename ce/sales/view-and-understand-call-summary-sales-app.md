@@ -117,7 +117,7 @@ The **Notes** tab helps reduce the time it takes you to summarize the call by of
 #### Action items tab
 
 > [!NOTE]
-> Starting June 2024, the **Action items** tab will be removed and the **Notes** tab will be enhanced to include action items. You can continue to use the **Action items** tab until then.
+> Starting June 2024, the **Action items** tab is removed and the **Notes** tab is enhanced to include action items. However, unlike the **Action items** tab, the **Notes** tab doesn't have the option to create tasks, calls, or emails directly from the action items.
 
 The **Action items** tab displays a list of actions mentioned during the call&mdash;for example, "I'll send you an email" or "I'll follow up with Michelle tomorrow." When you select an action item, the call transcript is highlighted and a pointer on the playback indicates when it was mentioned. Actionable items include **Set up a call**, **create a task**, **send an email**, and **set up a meeting**.
 
