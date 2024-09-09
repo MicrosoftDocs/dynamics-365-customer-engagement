@@ -20,7 +20,7 @@ ms.custom: bap-template
 
 [Troubleshoot migration of records](migrate-config-data-troubleshoot.md)
 
-### See also
+### Related information
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
 [Overview of data migration for records](migrate-config-data-for-records-overview.md)  

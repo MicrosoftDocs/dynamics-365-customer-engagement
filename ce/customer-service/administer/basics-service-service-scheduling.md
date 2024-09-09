@@ -86,7 +86,7 @@ Let's see how Contoso accomplishes the task:
 
    ![schedule-board.](../media/schedule-board-csh.png)  
 
-### See also    
+### Related information    
     
 [Understand scheduling entities](scheduling.entities.md#understand-scheduling-entities)  
 [Set up the Service Scheduling experience](scheduling-experience.md)  

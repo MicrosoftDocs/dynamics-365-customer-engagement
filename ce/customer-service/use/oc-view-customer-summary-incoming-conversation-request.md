@@ -20,7 +20,7 @@ When you receive an incoming conversation request, you see a notification and ac
 
 When you get an incoming conversation request, you see a notification and accept the request. However, if there are no records present in the application based on the incoming conversation request, you can create a record. To learn more see, [Create a record](oc-create-record.md) and [Link a record](oc-search-link-unlink-record.md).
 
-### See also
+### Related information
 
 - [View customer information on Active Conversation form](oc-customer-summary.md)
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)

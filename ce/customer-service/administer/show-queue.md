@@ -36,7 +36,7 @@ To configure the queue position setting:
 1. Select **Save and Close**.
 
 
-### See also
+### Related information
 
 [Show customers their average wait time in a queue](average-wait-time.md) <br>
 [Add a chat widget](add-chat-widget.md) <br>

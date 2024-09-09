@@ -44,7 +44,7 @@ If you want to complete the configuration for custom agent profiles, start with 
 
 1. Save the changes. The Join a Teams call feature is now enabled for users in Customer Service workspace or Contact Center workspace.
 
-### See also
+### Related information
 
 [Configure Teams ](../use/oc-customer-summary.md) <br>
 [Use Join a Teams call](../use/join-a-teams-call.md) <br>

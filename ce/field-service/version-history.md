@@ -18,24 +18,57 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.122.6](/dynamics365/field-service/version-history#881226)  | TBD |08/16/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.121.18](/dynamics365/field-service/version-history#8812118)  | [8.8.122.6](/dynamics365/field-service/version-history#881226) |08/16/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.121.18](/dynamics365/field-service/version-history#8812118)  | [8.8.122.6](/dynamics365/field-service/version-history#881226) |08/23/2024 |
-| | *USG* | [8.8.121.18](/dynamics365/field-service/version-history#8812118)  | [8.8.122.6](/dynamics365/field-service/version-history#881226) |08/16/2024 |
-|**Station 4** |*Europe* |[8.8.120.18](/dynamics365/field-service/version-history#8812018) |  [8.8.121.18](/dynamics365/field-service/version-history#8812118)   | 08/16/2024 |
-|**Station 5** | *North America*|  [8.8.120.18](/dynamics365/field-service/version-history#8812018) |  [8.8.121.18](/dynamics365/field-service/version-history#8812118)   | 08/23/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |  [8.8.120.18](/dynamics365/field-service/version-history#8812018)  |  [8.8.121.18](/dynamics365/field-service/version-history#8812118)   | 08/21/2024 |
-| | *Dedicated Scale Groups* |   [8.8.119.15](/dynamics365/field-service/version-history#8811915)  |   [8.8.120.18](/dynamics365/field-service/version-history#8812018) | 08/16/2024 |
+|**Station 1** |  *First Release*| [8.8.124.20](/dynamics365/field-service/version-history#8812420)  | TBD |09/13/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.123.11](/dynamics365/field-service/version-history#8812311)  | [8.8.124.20](/dynamics365/field-service/version-history#8812420) |09/06/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.123.11](/dynamics365/field-service/version-history#8812311)  | [8.8.124.20](/dynamics365/field-service/version-history#8812420) |09/13/2024 |
+| | *USG* |   [8.8.123.11](/dynamics365/field-service/version-history#8812311)  | [8.8.124.20](/dynamics365/field-service/version-history#8812420) |09/06/2024 |
+|**Station 4** |*Europe* |[8.8.122.17](/dynamics365/field-service/version-history#8812217)  | [8.8.123.11](/dynamics365/field-service/version-history#8812311)|09/06/2024 |
+|**Station 5** | *North America*|  [8.8.121.25](/dynamics365/field-service/version-history#8812125) |   [8.8.122.17](/dynamics365/field-service/version-history#8812217) |09/06/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.121.25](/dynamics365/field-service/version-history#8812125) |   [8.8.122.17](/dynamics365/field-service/version-history#8812217) |09/06/2024 |
+| | *Dedicated Scale Groups* |  [8.8.121.25](/dynamics365/field-service/version-history#8812125) |   [8.8.122.17](/dynamics365/field-service/version-history#8812217) |09/13/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.124.20
+(Includes Universal Resource Scheduling version [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) and Resource Scheduling controls version 1.2.78.242404)
+
+- Drip scheduling is now deprecated, and the setting has been removed.
+- DOD region is now correctly determined by region helper.
+- Work Order form no longer shows as (new) when disable pricing setting is turned on.
+
+
+## 8.8.126.9 (2024 wave 2 early access, update 1)
+(Includes Universal Resource Scheduling version [3.12.141.6](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121416---2024-wave-2-early-access-update1) and Resource Scheduling controls version 1.2.80.242331).
+
+- When toggling status on work order products from estimated to used, then back to estimated, the quantity field will now be cleared.
+  
+## 8.8.123.11
+(Includes Universal Resource Scheduling version [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839) and Resource Scheduling controls version 1.2.77.242277)
+
+- Share button no longer appears as ribbon button on the work order side pane.
+- Fixed an issue that prevented *Time from* fields from populating on work orders base on an SLA.
+- Field Service Mobile: Fixed bug that ensures control info and close icon clicks function properly within the Copilot Summary control.
+- Field Service Mobile: Fixed a bug so that a Follow Up Work Order which is created in offline mode can be successfully modified and saved without error.
+- Field Service Mobile: Fixed a bug which caused an intermittent OnLoad script error after changing Booking Status.
+
+
+## 8.8.122.17
+(Includes Universal Resource Scheduling version [3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722) and Resource Scheduling controls version 1.2.76.242082)
+
+This release is a hotfix on Field Service version [8.8.122.6](/dynamics365/field-service/version-history#88122.6)
+
+- Fixed an infinite loop in code related to updating NTE records.
+
 ## 8.8.126.6 (2024 wave 2 early access)
 (Includes Universal Resource Scheduling version [3.12.141.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121412---2024-wave-1-early-access-release) and Resource Scheduling controls version 1.2.80.242082).
 
 - Fixed a bug preventing time entries from being set to approved when they are a custom type.
-- When toggling status on work order products from estimated to used, then back to estimated, the quantity field will now be cleared.
+- Service tasks on agreement booking setups now correctly copy their name from incident service tasks.
+- Work order currencies will now correctly recalculate when converting currency. To revert this behavior, turn of the advanced setting: IsWorkOrderCalculationProperlyRecalculateValuesWhenConvertingCurrencyOptedIn.
+- Service tasks on agreement booking setups now correctly copy their name from incident service tasks. To revert this behavior, turn off the advanced setting: IsAgreementBookingSetupServiceTaskCopyNameFromIncidentSetToOptIn.
+
 
 
 ## 8.8.122.6
@@ -216,4 +249,4 @@ Fixed several issues on the Get Started page:
 -	Added option in the Power Apps portal to make work order preview grid lookups editable.
 -	Functional location hierarchy can now be visualized inline on the new work order location section.
 
-
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]

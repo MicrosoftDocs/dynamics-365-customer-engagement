@@ -38,7 +38,7 @@ Thereafter, users with the required agent or supervisor role can see and use the
 
 You can create and manage agent experience profiles in the [Customer Service admin center app](create-agent-experience-profile.md).
 
-### See also
+### Related information
 [Create and use agent experience profiles](create-agent-experience-profile.md)    
 [System requirements](../implement/customer-service-workspace-system-requirements.md)  
 

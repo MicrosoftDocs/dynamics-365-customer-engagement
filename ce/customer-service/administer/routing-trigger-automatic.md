@@ -63,7 +63,7 @@ Now, based on the flow that is defined, whenever a record, in this example, an e
 You can also perform other actions in the flow, such as filtering out certain records that you don't want to route and performing data transformation.
 
 
-### See also
+### Related information
 
 [Overview of routing](overview-unified-routing.md)  
 [Set up routing for records](set-up-record-routing.md)  

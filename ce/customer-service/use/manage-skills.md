@@ -40,7 +40,7 @@ To remove skills, select **X** next to each skill that you want to delete.
 
 The skill updates you make for your assigned work items can then be used to retrain the machine learning-based skill finder models and help with accurate work assignments. More information: [Retrain skill finder model](../administer/set-up-isf-model.md#retrain-the-model-iteratively)
 
-### See also
+### Related information
 
 [Allow agents to update skills](../administer/allow-agents-update-skills.md)  
 [Set up record routing](../administer/set-up-record-routing.md)  

@@ -62,7 +62,7 @@ In the Customer Service Hub, you can merge cases from the dashboard streams or f
 
 4. To see the merged case, open the case it was merged into. You'll find the merged case listed in the **Merged Cases** section on the **Case Relationships** tab.
 
-### See also
+### Related information
 
 [Learn the basics of the Customer Service Hub](../implement/customer-service-hub-user-guide-basics.md)  
 [Use the Main form and its components](../../customerengagement/on-premises/customize/use-main-form-and-components.md)  

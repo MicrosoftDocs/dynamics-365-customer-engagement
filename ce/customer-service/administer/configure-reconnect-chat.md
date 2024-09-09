@@ -63,7 +63,7 @@ You can enable the reconnection options in the chat widget either while setting 
    :::image type="content" source="../media/reconnect-previous-chat.png" alt-text="Reconnect to previous chat":::
     
 
-### See also
+### Related information
 
 [Add a chat widget](add-chat-widget.md)  
 [Create a work stream](../work-streams-introduction.md)  

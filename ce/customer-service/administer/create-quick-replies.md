@@ -97,7 +97,7 @@ The following parameters determine the quick replies that the agents see:
 
 For example, when you set up a live chat widget or Facebook page, the quick replies are available in the language configured for the chat widget or Facebook page. Then, when you associate the chat widget with a queue containing agents, the agent-specific language setting, if configured, determines the language in which the quick replies are available to the agents. The agents see the quick replies mapped to the workstream associated with the channel with other quick replies.
 
-### See also
+### Related information
 
 [Add a chat widget](add-chat-widget.md)  
 [Configure a pre-conversation survey](configure-pre-chat-survey.md)  

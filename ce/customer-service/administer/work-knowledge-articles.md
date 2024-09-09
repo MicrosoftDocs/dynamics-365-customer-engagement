@@ -193,7 +193,7 @@ Use the following for help with migration:
 > - Always run a test environment before using in production.  
 > - Check the license and readme before you use the tool.   
 
-## See also
+## Related information
 
 - [Knowledge Base Entities](../../customerengagement/on-premises/developer/knowledge-management-entities.md)
 - [KnowledgeArticle Entity](../../customerengagement/on-premises/developer/entities/knowledgearticle.md)

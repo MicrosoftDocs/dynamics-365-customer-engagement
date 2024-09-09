@@ -43,7 +43,7 @@ It can take up to 15 minutes for the quick replies to be available for your use.
 
 For more information on personal quick replies, see [Send quick replies](oc-conversation-control.md#send-quick-replies).
 
-### See also
+### Related information
 
 [Send quick replies](oc-conversation-control.md#send-quick-replies) 
 [Manage applications](oc-manage-applications.md)  

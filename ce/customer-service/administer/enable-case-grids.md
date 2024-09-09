@@ -39,8 +39,7 @@ The following are some of the key features of the modernized case grids:
 
 > [!NOTE]
 > - If you [opt in](/power-platform/admin/opt-in-early-access-updates) to early access features, the following actions apply:
->    - The **Enhanced Active Cases** view is enabled by default for the **Case** entity. However, e
-dit actions aren't enabled by default on the view. To allow agents to perform inline edits and update data for columns in the view, enable the **Configure property Enable Editing** property in Power Apps.
+>    - The **Enhanced Active Cases** view is enabled by default for the **Case** entity. However, edit actions aren't enabled by default. To allow agents to perform inline edits and update data for columns in the view, turn on **Configure property Enable Editing** in Power Apps.
 >    - **Power Apps grid control** option is enabled by default for the **Case** entity and replaces the out-of-the-box legacy grids. 
 >    - If you want to revert to the legacy grids, enable the **Read-only Grid(default)** option in the **Controls** section of the **Case** entity in Power Apps.
 >    - If you are using grids that aren't available out of the box, they won't be replaced by the **Power Apps grid control**.
@@ -108,7 +107,7 @@ In the following example, you add a new **Option Set Value** for the **Priority*
    1. In the **Name** field, enter the name in the format: **Incident/Priority/{Option Set Value}PriorityIcon.{File Extension}** or **Incident/Origin/{Option Set Value}OriginIcon.{File Extension}**. For example, **Incident/Priority/100000000PriorityIcon.png**.
 1. Select **Save**.
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)
   

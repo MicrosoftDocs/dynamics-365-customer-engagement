@@ -75,7 +75,7 @@ If you, as an agent or supervisor, are in a session with a customer, and capture
 |Live work item Id |liveWorkItemId|
 |Channel Id |channelId |
 
-### See also
+### Related information
 
 [Best practices to use Omnichannel for Customer Service](../administer/best-practices.md)
 

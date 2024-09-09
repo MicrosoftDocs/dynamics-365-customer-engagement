@@ -100,7 +100,7 @@ You can enable AI suggestions for article keywords and description in the Custom
 
 1. Select **Save** and **Publish**.
 
-### See also
+### Related information
 
 [Create and manage knowledge articles](../use/customer-service-hub-user-guide-knowledge-article.md)  
 [Work with knowledge articles](work-knowledge-articles.md)  

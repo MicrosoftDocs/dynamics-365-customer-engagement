@@ -298,7 +298,7 @@ To uninstall the schedule board solution ("Resource Scheduling Controls"), perfo
 5. Once the solution is uninstalled, the new schedule board isn't available for the environment until you upgrade your Customer Service app to the latest available version.
 
 
-### See also
+### Related information
 
 [Schedule a service activity](schedule-service-activity-csh.md)
 

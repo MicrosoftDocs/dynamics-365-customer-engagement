@@ -82,7 +82,7 @@ For more information about agent search experience, go to [Search across externa
 > - Knowledge Federated Article
 > -	Knowledge Federated Article Incident
    
-### See also
+### Related information
 
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
 

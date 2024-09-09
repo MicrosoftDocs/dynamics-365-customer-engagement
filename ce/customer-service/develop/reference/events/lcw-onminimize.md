@@ -19,7 +19,7 @@ This event is triggered when the customer engaged on the chat widget minimizes t
 window.addEventListener("lcw:onMinimize", function handleWidgetMinimizeEvent(){ // Handle the live chat widget minimize event }); 
 ```
 
-### See also
+### Related information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  

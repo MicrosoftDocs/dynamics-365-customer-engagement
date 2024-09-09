@@ -28,7 +28,7 @@ For a macro recommendation card, if the run is successful, a success message is 
 
 When a conversation is escalated from a bot, the agent needs to accept the request and start the conversation with the customer. Now, from this instance, the smart assist bot interprets the conversation in real time and provides recommendations.
 
-## See also
+## Related information
 
 [Smart assist for agents (admin)](../administer/smart-assist.md)  
 [View smart assist suggestions using AI](oc-view-ai-suggested-cases-articles.md)  

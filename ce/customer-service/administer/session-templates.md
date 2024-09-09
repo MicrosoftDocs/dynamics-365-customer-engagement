@@ -92,7 +92,7 @@ You can associate application tabs that need to open when a session is started. 
 
 The session template is configured. Now, you must associate the session template with a workstream. To learn more, see [Associate templates with workstreams](associate-templates.md).
 
-### See also
+### Related information
 
 [Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Manage application tab templates](application-tab-templates.md)  

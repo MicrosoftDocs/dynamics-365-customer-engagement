@@ -33,7 +33,7 @@ When you integrate bots with Omnichannel for Customer Service, you get the follo
 - Use historical dashboards to get insights into the effectiveness of the bots through metrics such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
 - Configure post-call surveys to measure customer satisfaction.
 
-### See also
+### Related information
 
 [Bot sessions and licensing](bot-session-licensing.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  

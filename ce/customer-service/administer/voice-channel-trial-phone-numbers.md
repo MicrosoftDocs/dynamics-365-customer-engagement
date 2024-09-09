@@ -38,6 +38,6 @@ If you want to end the trial before it expires, select **End trial** on the **Ph
 
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 
-### See also
+### Related information
 
 [Import phone numbers](voice-channel-sync-from-acs.md)  

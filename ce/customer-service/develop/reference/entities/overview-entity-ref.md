@@ -192,7 +192,7 @@ More information: <xref:"Microsoft.Dynamics.CRM.queue?text=Queue entity" />
 
 See [Deprecated entities](deprecated-entities.md) for the list of entities that are deprecated and no longer supported.
 
-### See also
+### Related information
 
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)  
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]  

@@ -46,7 +46,7 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
     > [!div class=mx-imgBorder]
     > ![Consent to allow access to data.](../media/data-consent.png "Consent to allow access to data")
 
-    For information on consent, see [Consent to access data to provision Omnichannel for Customer Service](../implement/data-access-consent.md)
+    For information on consent, go to[Consent to access data to provision channels for Customer Service](../implement/data-access-consent.md)
 
 1. Select **Consent on behalf of your organization**, and select **Accept**.
 
@@ -56,9 +56,9 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 After unified routing is provisioned, **Unified routing successfully provisioned** message appears on top of the toggle key.
 
-### Provision unified routing in Customer Service with Omnichannel for Customer Service
+### Provision unified routing in Customer Service with omnichannel application
 
-When Omnichannel for Customer Service is available but not deployed, in the **Service Configuration Settings** page, the following message will appear:
+When the omnichannel capabilities are available but not deployed, in the **Service Configuration Settings** page, the following message will appear:
 
   "Some required services need to be installed before unified routing can be turned on. Please contact Microsoft Support."
 
@@ -66,16 +66,14 @@ When Omnichannel for Customer Service doesn't have the required solutions, the f
 
   "Before unified routing can be turned on, Omnichannel needs to be updated. Please contact Microsoft Support."
 
-> [!NOTE]
-> **Unified Routing** also appears in the site map if you install or upgrade Omnichannel for Customer Service.
 
 ### Next steps
 
 ![Next step.](../media/right-arrow.png) [Set up the user as a bookable resource](users-user-profiles.md)  
 ![Home.](../media/home-button.png) [Process for setting up unified routing](set-up-routing-process.md)  
 
-### See also
+### Related information
 
 [Provide consent to access data](../implement/data-access-consent.md)  
 [Set up record routing](set-up-record-routing.md)  
-[Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  

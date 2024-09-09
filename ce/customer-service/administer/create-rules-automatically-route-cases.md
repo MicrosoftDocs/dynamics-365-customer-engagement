@@ -153,7 +153,7 @@ Perform the following steps before you upgrade a solution:
 
 3. After the successful upgrade of the solution, activate the routing rulesets as required.
 
-### See also
+### Related information
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)  
 

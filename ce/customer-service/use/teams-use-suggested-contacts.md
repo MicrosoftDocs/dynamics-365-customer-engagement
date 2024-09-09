@@ -41,7 +41,7 @@ To use suggested contacts, your administrator must enable the feature. For the c
    :::image type="content" source="../media/teams-suggested-contacts.png" alt-text="Suggested contacts view in Teams.":::
    
 
-### See also
+### Related information
 
 [Configure Teams chat ](../administer/configure-teams-chat.md)<br>
 [Use Teams chat ](use-teams-chat.md)<br>

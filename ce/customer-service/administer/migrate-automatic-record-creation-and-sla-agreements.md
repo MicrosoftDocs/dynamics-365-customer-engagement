@@ -280,7 +280,7 @@ In the **Premigration checkup** state, the tool reviews only those rules that we
 
 ![Premigration check.](../media/premigration-check-rerun-migration.png "Premigration check")
 
-### See also
+### Related information
 
 [Migration tool FAQs](migrate-tool-faqs.md)  
 [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  

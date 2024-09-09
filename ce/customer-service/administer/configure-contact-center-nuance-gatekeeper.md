@@ -51,7 +51,7 @@ Create a new Omnichannel Service Principal account to configure new Event Grid s
    - `Connect-AzAccount -SubscriptionId "<SubscriptionId>”`.
    - `New-AzRoleAssignment -ApplicationId "a950df6d-e658-48fc-b494-ec69d8d9731b" -RoleDefinitionName "EventGrid EventSubscription Contributor" -Scope "<ACSResourceId>"`.
 
-### See also
+### Related information
 
 [Add an authentication setting for Nuance Gatekeeper](configure-gatekeeper-authentication.md)  
 [Introduction to Nuance Gatekeeper integration](nuance-gatekeeper-introduction.md)  

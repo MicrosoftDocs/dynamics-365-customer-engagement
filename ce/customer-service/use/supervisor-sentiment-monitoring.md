@@ -132,7 +132,7 @@ After you sign up, see step 4 of [Enable sentiment analysis](../administer/enabl
 
 This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws that relate to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This customer responsibility also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-### See also
+### Related information
 
 [Enable sentiment analysis](../administer/enable-sentiment-analysis.md)<br>
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)<br>

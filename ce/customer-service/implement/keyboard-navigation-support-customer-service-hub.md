@@ -38,7 +38,7 @@ The Customer Service Hub app is based on Unified Interface. To see the list of k
 |Select multiple continuous records in a list or queue.|	Shift + Down/Up arrow|
 |Select multiple discontinuous records in a list or queue.|	Press Ctrl, go to the desired record, and then use the spacebar to select the record|
 
-## See also
+## Related information
 [Customer Service Hub – User's guide](../use/user-guide-customer-service-hub.md)
 
 

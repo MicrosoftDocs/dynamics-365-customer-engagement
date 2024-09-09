@@ -50,7 +50,7 @@ Select **Bookmarks**, and then on the **Bookmarks** menu:
 
 To modify a saved view, adjust the report filters as needed. Then select **Bookmarks** > **Update Bookmark**.
 
-### See also
+### Related information
 
 [Customer Service dashboards](customer-service-analytics-insights-csh.md)  
 [Omnichannel for Customer Service dashboards](omnichannel-analytics-insights.md)  

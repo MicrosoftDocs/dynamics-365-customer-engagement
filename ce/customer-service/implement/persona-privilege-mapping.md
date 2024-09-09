@@ -446,7 +446,7 @@ The following table lists the privileges and recommended access levels for the a
 |	Workstream                                	|	msdyn_liveworkstream	                |	Append, Append To, Read	|	Global	|
 |	                                        	|		                                    |	Assign, Share	        |	Basic	|
 
-### See also
+### Related information
 
 [Overview of unified routing](../administer/overview-unified-routing.md)  
 [Manage users for unified routing](../administer/users-user-profiles.md)  

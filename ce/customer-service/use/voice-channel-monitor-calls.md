@@ -49,7 +49,7 @@ If needed, you can select **Join call** to enter the conversation and speak with
 
 By joining a conversation, you have access to call controls that allow you to capture details about the conversation, pause the conversation if needed, and engage with the agent and customer as needed.
 
-### See also
+### Related information
 
 [Introduction to the voice channel](../administer/voice-channel.md)  
 [Provision and set up the voice channel](../administer/voice-channel-install.md)  

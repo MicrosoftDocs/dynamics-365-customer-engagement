@@ -154,7 +154,7 @@ When you reject a work item notification, you'll see an alert at the top of your
 
 :::image type="content" source="../media/agent-reject-notification-message.png" alt-text="Agent reject notification":::
 
-### See also
+### Related information
 
 [View customer information on Active Conversation form](oc-customer-summary.md)  
 [View communication panel](oc-conversation-control.md)  

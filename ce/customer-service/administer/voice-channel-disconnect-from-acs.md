@@ -34,7 +34,7 @@ To permanently release or remove one or more phone numbers from your organizatio
    Any phone numbers associated with the resource are no longer displayed on the **Phone numbers** page.
 1. To avoid errors, delete and clean up the Event Grid subscriptions you created as a part of [enabling call recording and SMS services](voice-channel-configure-services.md).
 
-### See also
+### Related information
 
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  

@@ -46,7 +46,7 @@ Use this procedure if you've created your bot using Visual Studio Azure Bot temp
 
 [Parse activity JSON to get bot context](parse-activity-json-to-get-bot-context.md)  
 
-### See also
+### Related information
 
 [Send custom context](send-context-starting-chat.md)  
 [setContextProvider](reference/methods/setContextProvider.md)  

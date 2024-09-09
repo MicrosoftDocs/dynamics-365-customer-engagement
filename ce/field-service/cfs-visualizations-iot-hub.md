@@ -61,7 +61,7 @@ Open the **Device Readings** tab on IoT alert, work order, case, device, or asse
 
 ## View device readings on the mobile app
 
-Device readings and summary tiles work on the Dynamics 365 Field Service mobile app when connected to the internet. For more information, see [Connected Field Service on the mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings)  
+Device readings and summary tiles work on the Dynamics 365 Field Service mobile app when connected to the internet. For more information, see [Connected Field Service on the mobile app](mobile/iot-mobile.md#view-summary-tiles-and-device-readings)  
 
 ## Error codes
 

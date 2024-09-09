@@ -69,7 +69,7 @@ You can create enhanced SLAs for entities that are enabled for an SLA. A system 
 1. Select **Save and close**. SLA is enabled for the entity.
 1. Select **Save and close**, and then select **Publish All Customizations**.
   
-## See Also
+## Related information
 
  [Configure service level agreements](define-service-level-agreements.md)
 

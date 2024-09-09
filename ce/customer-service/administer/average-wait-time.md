@@ -32,7 +32,7 @@ If you're using the Customer Service admin center or Contact Center admin center
 
 3. Select **Save and Close**.
 
-### See also
+### Related information
 
 [Show customers their position in a queue](show-queue.md) <br>
 [Overview of skill-based routing](overview-skill-work-distribution.md) <br>

@@ -102,7 +102,7 @@ No: Not available
 If you enable the insights feature, it affects Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
 
-### See also
+### Related information
 
 [Service limits for analytics and insights](ana-ser-limits.md#service-limits-for-analytics-and-insights)  
 [Enable Copilot case and conversation summaries](copilot-enable-summary.md)  

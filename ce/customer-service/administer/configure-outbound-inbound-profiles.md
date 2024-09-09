@@ -114,7 +114,7 @@ Edit the profiles to update the behavior and advanced settings. You can delete p
 
 1. Select **Save and close**.
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

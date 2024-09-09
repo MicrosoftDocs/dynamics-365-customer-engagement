@@ -109,7 +109,7 @@ As a **supervisor**, you can use the knowledge search analytics dashboard to ide
 
 As an **agent**, you can use knowledge article rating to easily provide feedback about knowledge articles. Knowledge managers can capture and review this feedback to improve and maintain a relevant knowledge base. More information: [Submit ratings and feedback for knowledge articles](submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles)
 
-## See also
+## Related information
 
 [Search knowledge articles](search-knowledge-articles-csh.md)
 

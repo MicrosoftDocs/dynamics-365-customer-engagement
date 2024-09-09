@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: 
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 05/14/2024
+ms.date: 07/29/2024
 ms.custom: bap-template 
 ---
 
@@ -370,7 +370,7 @@ Perform the following steps to create a macro to clone an existing case. The exi
 
 ## Set Agent Script focus
 
-Sets the focus on an agent script that needs to run next. The agent script is set in focus in the **Agent scripts** dropdown on the app side pane. For example, if the agent needs to process a refund complaint. The agent uses different scripts to greet, initiate a complaint request, and process the refund. You can define macros that set the focus on the agent scripts that need to be run for each stage of the refund process. The action contains the following field.
+Sets the focus on an agent script that needs to run next. The agent script is set in focus in the **Agent scripts** dropdown on the app side pane. For example, if the agent needs to process a refund complaint. The agent uses different scripts to greet, initiate a complaint request, and process the refund. You can define macros that set the focus on the agent scripts that need to be run for each stage of the refund process. The agent script in focus must be associated with the session template. The action contains the following field.
 
    | Field | Description |
    |-----------------|-----------------------------|
@@ -378,7 +378,8 @@ Sets the focus on an agent script that needs to run next. The agent script is se
 
 ### Example: Update the priority of a case and set focus to another agent script
 
-Perform the following steps to create a macro that updates the priority of a case to high and then switches to another agent script. The agent script in focus must be associated with the session template.
+Perform the following steps to create a macro that updates the priority of a case to high and then switches to another agent script.
+
 1. Add the **Update an existing record** action with the following attributes:
     - **Entity record ID**: `${anchor.incidentid}`
     - **Entity logical name**: `incident`

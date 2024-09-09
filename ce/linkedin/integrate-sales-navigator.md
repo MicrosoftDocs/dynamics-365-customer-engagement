@@ -1,7 +1,7 @@
 ---
 title: Integrate LinkedIn Sales Navigator with Dynamics 365 Sales
 description: Learn how to integrate the Sales Navigator solutions with Dynamics 365 Sales to enhance your business processes with data about people and organizations.
-ms.date: 04/19/2024
+ms.date: 08/20/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -42,7 +42,13 @@ The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Accoun
 
 - **News**: Shows the latest news of this company. 
 
-- **Connections**: Shows relevant connections for this company that can establish a first contact. 
+- **Connections**: Shows relevant connections for this company that can establish a first contact.
+
+- **Account IQ**: Stay on top of your accounts with AI-generated insights. Understand your customer's strategic priorities, challenges, financials, and what their employees are talking about on LinkedIn.
+
+  :::image type="content" source="media/account-iq.png" alt-text="Screenshot of the Account IQ in Sales Navigator.":::
+
+  Learn more about the Account IQ feature in [LinkedIn Sales Navigator documentation](https://www.linkedin.com/help/sales-navigator/answer/a6270076).
 
 - **Find Key People**: Shows the recommended leads or contacts in the company who can help you connect with the customer and establish a relationship. With the LinkedIn Sales Navigator Advanced Plus license, you can uncover leads that closely match your selected target buyer's persona and access more insights about the leads. For Sales Navigator Advanced users, this control shows only lead recommendations without the ability to search based on buyer persona. For more information about integrating this control, see [Account module reference](/linkedin/sales/display-services/accounts-screenshots_full#find-people). The following image shows the enhanced insights, such as TeamLink and mutual connection details, available with the Advanced Plus license.
 

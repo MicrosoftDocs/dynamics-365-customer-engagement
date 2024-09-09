@@ -222,7 +222,7 @@ OData-MaxVersion: 4.0
 OData-Version: 4.0  
 ```
 
-### See also
+### Related information
 
 [Omnichannel for Customer Service for developers](omnichannel-developer.md)
 

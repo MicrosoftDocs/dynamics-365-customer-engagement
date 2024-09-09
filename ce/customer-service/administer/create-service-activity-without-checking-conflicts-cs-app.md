@@ -40,7 +40,7 @@ You can create a service activity by finding the next available times of resourc
 > - If at any time before you save this service activity you want to search the schedule for an available time, you can select **Schedule** in the **Actions** group to open the **Schedule Service Activity** dialog box.  
 > - To check the schedule for conflicts, in **Service Calendar**, in the **Actions** group, select **Conflicts**.  
   
-### See also  
+### Related information  
 
 [Overview of service and service scheduling](basics-service-service-scheduling.md)   
 

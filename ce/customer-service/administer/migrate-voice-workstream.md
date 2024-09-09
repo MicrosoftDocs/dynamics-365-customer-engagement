@@ -55,7 +55,7 @@ To update to the new voice experience, perform the following steps:
 The test status field can be used to keep track of testing. If any call to any phone number attached to a profile or a workstream fails after 30 minutes, the application sets the **Test status** to **Failed**. You can retry the update or select the **Revert** option to go back to the original state. Expect at least 15 to 30 minutes of down time for the changes to sync after the revert. If the revert fails, select **Retry revert**  to try the revert again.
 If rollback fails, the application displays a critical message to contact Microsoft Support.
 
-### See also
+### Related information
 
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Overview of the voice channel](voice-channel.md)  

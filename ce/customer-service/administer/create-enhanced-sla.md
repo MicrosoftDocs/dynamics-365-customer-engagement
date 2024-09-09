@@ -131,7 +131,7 @@ This sample SLA KPI tracks whether the salesperson has taken necessary action on
 > - Make sure you don't have too many SLA items in an SLA because that might negatively affect the create and update operations on the record on which the SLA is applied or reevaluated. We recommend that you have no more than 15 SLA items in an SLA for performance reasons.
 > - The SLA business logic relies on **SLA KPI Instance** record values, so to avoid any conflict, we recommend that you don't create plug-ins or processes to directly update the **SLA KPI Instance** record values.
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  

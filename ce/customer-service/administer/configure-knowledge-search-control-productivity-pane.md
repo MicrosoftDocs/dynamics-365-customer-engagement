@@ -70,7 +70,7 @@ To edit an entity record:
     :::image type="content" source="../media/edit-ent-record.png" alt-text="edit an existing entity record":::
 
 
-### See also  
+### Related information  
 
  [Add the Knowledge Base Search control to a form](add-knowledge-base-search-control-forms.md)
 

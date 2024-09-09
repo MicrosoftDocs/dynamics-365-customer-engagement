@@ -79,7 +79,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 10. If the service activity has been completed, select **Mark Complete** from the command bar. 
 
-### See also
+### Related information
 
 [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)
 
