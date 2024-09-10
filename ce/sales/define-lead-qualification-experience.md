@@ -111,7 +111,6 @@ If you aren't using the Sales Hub app, you can define the lead qualification exp
 When a lead is qualified, values of some fields from leads are automatically mapped to the corresponding fields in accounts, contacts, and opportunities. To know why you can't delete out-of-the-box field mappings and apply custom field mappings for lead qualification, see [this FAQ](faq-lead.md#lead-qualification-custom-field-mappings).
 
 **Fields mapped to opportunity**
-
 | Field name in lead | Logical name in lead | Field name in opportunity | Logical name in opportunity |
 |--------------------|----------------------|---------------------------|-----------------------------|
 | Topic              | subject              | Topic                     | name                        |
