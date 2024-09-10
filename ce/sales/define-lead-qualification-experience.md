@@ -132,7 +132,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 | State/Province     | address1_stateorprovince | Address 1: State/Province   | address1_stateorprovince    |
 | Zip/Postal Code    | address1_postalcode      | Address 1: ZIP/Postal Code  | address1_postalcode         |
 | Country/Region     | address1_country         | Address 1: Country/Region   | address1_country            |
-
+>
 **Fields mapped to contact**
 
 | Field name in lead | Logical name in lead     | Field name in contact       | Logical name in contact      |
