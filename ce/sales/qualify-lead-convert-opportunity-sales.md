@@ -22,7 +22,7 @@ searchScope:
 
 # Qualify and convert leads to opportunity
 
-After you identify the timeframe, budget, and purchase process for a lead, qualify the lead to create the corresponding account, contact, and opportunity records. If a lead isn't likely to turn into an opportunity, disqualify the lead to keep a record of the sales process.
+After you identify the time frame, budget, and purchase process for a lead, qualify the lead to create the corresponding account, contact, and opportunity records. If a lead isn't likely to turn into an opportunity, disqualify the lead to keep a record of the sales process.
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)] 
 
