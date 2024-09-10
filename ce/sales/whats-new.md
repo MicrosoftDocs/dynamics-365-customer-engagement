@@ -21,10 +21,17 @@ Check out the following links to learn more about the released and upcoming feat
 - [Features coming soon](https://releaseplans.microsoft.com/en-US/?app=Sales&group=date&status=coming-soon).
 - [Planned features](https://releaseplans.microsoft.com/en-US/?app=Sales&group=date&status=planned)
 
-
 ## Check your app version
 
 To check your app version, go to **Settings** > **About**, and then look for the **Server version** number.
+
+## Opt in to preview features
+
+Preview features are features that aren't complete, but are made available on a "preview" basis so customers can get early access and provide feedback. If you'd like to try out these features, you can enable the feature that you're interested in. Learn more about how to [opt in to preview features](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature).
+
+## Opt in to early access updates
+
+If you'd like to try out the latest features before they're released to all customers, you can opt in to early access updates. Learn more about how to [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates#how-to-get-early-access-updates).
 
 ## Related information
 
