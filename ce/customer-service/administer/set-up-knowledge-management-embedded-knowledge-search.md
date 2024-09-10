@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management
 description: Learn how to configure the settings for knowledge management in Dynamics 365 Customer Service.
-ms.date: 07/31/2024
+ms.date: 09/10/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -83,6 +83,8 @@ After you configure knowledge management on your app, you must also set up the v
       -  [Enable suggest-as-you-type](#enable-the-suggest-as-you-type-option)
       - **Set search mode as all**:  [Set up knowledge search logic](#set-up-knowledge-search-logic)
       - [Show recently accessed knowledge articles for cases](#show-recently-accessed-knowledge-articles-for-cases)
+
+      e. In the **Global search knowledge configuration** section, switch the **Enable Kb preview mode from global search option** to **Yes**, if you want your agents to view article preview from global search.
       
   1. Optionally, in the **Categories** section, select **Manage**. The **Categories System Views** page appears. You can create and manage a logical structure of categories for your records. Learn more in [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
   1. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to save the search filters relevant to their areas, set the **Allow agent to personalize** toggle to **Yes**.
