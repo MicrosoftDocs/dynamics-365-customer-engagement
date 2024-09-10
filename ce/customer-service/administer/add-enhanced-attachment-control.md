@@ -20,11 +20,12 @@ ms.custom:
 Enhanced email components enable you to streamline the email experience for agents. Use the information in this article to configure **Email Recipient control** and **Attachments control** to improve agent productivity.
 
 ## Enable enhanced experience for email attachments
+
 You can enable the enhanced email attachment control for forms to provide a consistent email attachment experience to agents. Do the following steps:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables**> **Email**> **Forms** and then select the required form.
-1.  Add **Attachments control** to **Components** in the **Attachment** subgrid properties. For more information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#add-components-for-a-column-on-the-form).
+1.  Add **Attachments control** to **Components** in the **Attachment** subgrid properties. Learn more at [add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#add-components-for-a-column-on-the-form).
 1. Save and publish the form.
 
 ## Enable drag and drop for attachments in the rich text editor
@@ -33,8 +34,7 @@ You can enable the drag and drop feature for files to be added as attachments fo
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables**> **Email**> **Forms** and then select the required form.
-1. Edit **Email body** > **Components** > **Rich Text Editor Control**.
-1. Edit **Custom Configuration URL** and add the following configuration:
+1. Select **Email body** > **Components** > **Rich Text Editor Control** and then edit **Custom Configuration URL** to add the following configuration:
      
      ```
         "base64FileUploader":true,
@@ -49,6 +49,8 @@ You can enable the drag and drop feature for files to be added as attachments fo
         }    
 
      ```
+   Learn more at [customize the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#customize-the-rich-text-editor-control).<br>
+
 1. Save and publish the form.
 
 ## Next steps
