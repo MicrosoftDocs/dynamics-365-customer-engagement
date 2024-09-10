@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:03/11/2024
+  - references_regions
 ---
 
 # Licenses and storage FAQs
@@ -56,23 +57,7 @@ No. You can't add extra storage capacity to users with Sales Professional licens
 
 ## Where is my organization's data stored?  
 
-The following table shows where your data is stored, depending on the country/region where your organization is hosted.
-
-| Region | Primary Azure datacenter location  | Secondary Azure datacenter location |
-|--------|-------------------------------------|--------------------------------------|
-| Asia Pacific (APJ) | South East Asia (Singapore) | East Asia (Hong Kong SAR) |
-| Canada (CAN) | Canada Central (Toronto) | Canada East (Quebec City) |
-| Europe, the Middle East, and Africa (EMEA) | West Europe (Netherlands) | North Europe (Ireland) |
-| France (FRA) | France Central (Paris) | -- |
-| Great Britain (GBR) | UK South (London) | UK West (Cardiff) |
-| India (IND) | Central India (Pune) | South India (Chennai) |
-| Japan (JPN) | Japan East (Tokyo, Saitama) | Japan West (Osaka) |
-| North America (NAM) | East US (Virginia) | West US 2 (Washington) |
-| Oceania (OCE) | Australia East (New South Wales) | Australia Southeast (Victoria) |
-| South America (SAM) | Brazil South | Brazil Southeast |
-| Switzerland (CHE) | Switzerland North | Switzerland West |
-
-[Learn more about Azure regional pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs).
+Your organization's data is stored in the Azure datacenter location that corresponds to the region where your Dynamics 365 org is hosted. For more information about the primary and secondary datacenter locations for each region, see[Azure regional pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs).
 
 ## Which users can push data from Dynamics 365 Sales to Dataverse?
 

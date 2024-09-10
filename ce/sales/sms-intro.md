@@ -3,10 +3,12 @@ title: Engage with customers through text messages
 description: Enable your sellers to send text messages (SMS) to customers and refer previous communications in context without leaving the application or losing view of customers' details.
 ms.date: 02/16/2024
 ms.topic: overview
-ms.custom: bap-template
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
+ms.custom: 
+  - bap-template
+  - references_regions
 ---
 
 # Engage with customers through text messages
