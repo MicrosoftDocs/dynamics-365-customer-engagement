@@ -11,10 +11,10 @@ ms.author: v-slaik
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The report issues feature in the agent apps allows you to capture a diagnostic report of the issues and share it with Microsoft.
+The report issues feature in the Contact Center workspace and the Customer Service workspace apps allows you to capture a diagnostic report of the issues and share it with Microsoft.
 
 > [!IMPORTANT]
-> The report issues feature is not supported in the agent app on Unified Service Desk.
+> The report issues feature is not supported in the the Contact Center workspace and the Customer Service workspace on Unified Service Desk.
 
 You can copy the information while communicating with a customer by using one of the following keyboard shortcuts.
 
@@ -23,7 +23,7 @@ You can copy the information while communicating with a customer by using one of
 
 ## Capture diagnostic report
 
-1. Sign in to the agent app.
+1. Sign in to the Contact Center workspace and the Customer Service workspace app.
 
 2. Use the keyboard shortcut to copy the information. Repeat the step if a message indicates that the copy action was unsuccessful.
 
@@ -35,7 +35,7 @@ You can copy the information while communicating with a customer by using one of
 
 ## Diagnostic report information
 
-The diagnostic report doesn't contain any of your personal information and contains the following information that's specific to the agent app.
+The diagnostic report doesn't contain any of your personal information and contains the following information that's specific to the Contact Center workspace and the Customer Service workspace apps.
 
 | Name | Display name in the report |
 |---------------------|-----------------------------|-----------------------------|
@@ -77,7 +77,7 @@ If you, as an agent or supervisor, are in a session with a customer, and capture
 
 ### Related information
 
-[Best practices to use the agent app](../administer/best-practices.md)
+[Best practices to use the Contact Center workspace and the Customer Service workspace apps](../administer/best-practices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -22,7 +22,7 @@ As an agent, you can use the personalization menu that's accessible through the 
 
 You can create, edit, and delete the personal quick replies you own. The quick replies that you create are available on the **Personal** tab in the **Quick replies** panel of the conversation window.
 
-1. Sign in to the agent app, and on the home page, select the plus sign ![plus sign.](../media/plus-sign.png) on the application tab.
+1. Sign in to the Contact Center workspace and the Customer Service workspace apps, and on the home page, select the plus sign ![plus sign.](../media/plus-sign.png) on the application tab.
    > ![Personalization menu.](../media/personalization-menu.png "Personalization menu")
 
 2. Select **Personalization**.
