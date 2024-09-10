@@ -19,12 +19,12 @@ For information about older versions, see [Version history archive](version-hist
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.124.20](/dynamics365/field-service/version-history#8812420)  | TBD |09/13/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.123.11](/dynamics365/field-service/version-history#8812311)  | [8.8.124.20](/dynamics365/field-service/version-history#8812420) |09/06/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.124.20](/dynamics365/field-service/version-history#8812420)  | TBD |09/20/2024 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.123.11](/dynamics365/field-service/version-history#8812311)  | [8.8.124.20](/dynamics365/field-service/version-history#8812420) |09/13/2024 |
-| | *USG* |   [8.8.123.11](/dynamics365/field-service/version-history#8812311)  | [8.8.124.20](/dynamics365/field-service/version-history#8812420) |09/06/2024 |
-|**Station 4** |*Europe* |[8.8.122.17](/dynamics365/field-service/version-history#8812217)  | [8.8.123.11](/dynamics365/field-service/version-history#8812311)|09/06/2024 |
-|**Station 5** | *North America*|  [8.8.121.25](/dynamics365/field-service/version-history#8812125) |   [8.8.122.17](/dynamics365/field-service/version-history#8812217) |09/06/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.121.25](/dynamics365/field-service/version-history#8812125) |   [8.8.122.17](/dynamics365/field-service/version-history#8812217) |09/06/2024 |
+| | *USG* |   [8.8.124.20](/dynamics365/field-service/version-history#8812420)  | TBD |09/20/2024 |
+|**Station 4** |*Europe* | [8.8.123.11](/dynamics365/field-service/version-history#8812311)  | [8.8.124.20](/dynamics365/field-service/version-history#8812420) |09/20/2024 |
+|**Station 5** | *North America*|  [8.8.122.17](/dynamics365/field-service/version-history#8812217) |   [8.8.123.11](/dynamics365/field-service/version-history#8812311)  |09/13/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |  [8.8.122.17](/dynamics365/field-service/version-history#8812217) |   [8.8.123.11](/dynamics365/field-service/version-history#8812311)  |09/13/2024 |
 | | *Dedicated Scale Groups* |  [8.8.121.25](/dynamics365/field-service/version-history#8812125) |   [8.8.122.17](/dynamics365/field-service/version-history#8812217) |09/13/2024 |
 >[!NOTE]
 >
@@ -37,6 +37,11 @@ For information about older versions, see [Version history archive](version-hist
 - Drip scheduling is now deprecated, and the setting has been removed.
 - DOD region is now correctly determined by region helper.
 - Work Order form no longer shows as (new) when disable pricing setting is turned on.
+-  New planner integration feature added! Find the feature toggle in settings.
+- D365 Field Service Mobile: Fixed a bug which caused inspection response text to overlap for some question types when exported to PDF.
+- D365 Field Service Mobile: Fixed a bug which would prevent inspections PDF from generating when JSON expression is invalid.
+- D365 Field Service Mobile: Fixed a bug which prevented some images from rendering in exported PDF.
+
 
 
 ## 8.8.126.9 (2024 wave 2 early access, update 1)
