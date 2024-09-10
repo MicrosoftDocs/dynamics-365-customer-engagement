@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 The new experience for advanced settings in Dynamics 365 Sales provides a modern, intuitive, and responsive interface that makes it easier to configure and manage your organization's settings. The new experience uses the Unified Interface and replaces the legacy web client experience. Learn more about this change in [Manage Microsoft Dataverse settings](/power-platform/admin/admin-settings).
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 ## Enable the new experience
 
 The new experience is currently in public preview and is available only for orgs that have enabled the **Advanced Settings redirection** feature in the [Power Platform admin center](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#in-the-power-platform-admin-center).

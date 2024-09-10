@@ -37,7 +37,7 @@ This setting allows you to enable and set decimal precision for all supported pr
 
 1. In the sales app, go to **Settings** &gt; **Advanced Settings** &gt; **System** &gt; **Administration** &gt; **General**.  
    > [!NOTE]
-   > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
     More information: [System Settings General tab](/power-platform/admin/system-settings-dialog-box-general-tab).
 
 1. Under the **Set the currency precision that is used for pricing throughout the system**, select a value for **Pricing Decimal Precision**.  
@@ -59,7 +59,7 @@ This option allows you to enable and set decimal precision to individual currenc
 
 1. In the sales app, go to **Settings** &gt; **Advanced Settings** &gt; **Business** &gt; **Business Management** &gt; **Currencies**.  
    > [!NOTE]
-   > The **Advanced Settings** page is moving to a new experience. If your organization has enabled the public preview of this feature, you’ll see the settings opening in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 1. Open the currency record and enter the **Currency Precision** value. The value must be between 0 and 4.  
     More information: [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies)
