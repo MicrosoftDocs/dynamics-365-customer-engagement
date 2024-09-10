@@ -34,7 +34,7 @@ You can enable the drag and drop feature for files to be added as attachments fo
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables**> **Email**> **Forms** and then select the required form.
 1. Edit **Email body** > **Components** > **Rich Text Editor Control**.
-1. Edit **Custom Configuration URL** and add the following configuration:
+1. Edit **Custom Configuration URL** to add the following configuration:
      
      ```
         "base64FileUploader":true,
@@ -49,6 +49,7 @@ You can enable the drag and drop feature for files to be added as attachments fo
         }    
 
      ```
+Learn more at [customize the rich text editor control](/powerapps-docs/maker/model-driven-apps/rich-text-editor-control#customize-the-rich-text-editor-control).<br>
 1. Save and publish the form.
 
 ## Next steps

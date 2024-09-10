@@ -1,6 +1,6 @@
 ---
-title: "Sentiment monitoring | MicrosoftDocs"
-description: "This topic provides information on how supervisors can enable sentiment monitoring to understand customer sentiment across channels and improve customer service."
+title: Sentiment monitoring
+description: Learn how supervisors can enable sentiment monitoring to understand customer sentiment across channels and improve customer service.
 ms.date: 07/08/2024
 ms.topic: article
 author: lalexms
@@ -10,7 +10,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Sentiment monitoring
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!NOTE]
 > Supervisor and agent sentiment notifications are not available in Unified Service Desk.
