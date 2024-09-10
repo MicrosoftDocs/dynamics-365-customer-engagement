@@ -197,7 +197,7 @@ To process emails from known senders only, do the following steps in Power Autom
 
 1. Save the changes.
 
-The mails from known senders only will be processed.
+The emails from known senders only will be processed.
 
 ### Create contacts for unknown senders
 
@@ -205,7 +205,7 @@ The steps in this section are applicable only when you select the option to manu
 
 The option to create the contact is based on the email recipient's permission. If the email recipient doesn't have permission to create a contact and you prefer to not give them this permission, you can configure an environment variable to use the permissions of the rule owner. More information: [Create contacts for unknown senders using rule owner context](#create-contacts-for-unknown-senders-using-rule-owner-context)
 
-To create a contact for unknown senders of mail, configure the following options in Power Automate for the associated rule item:
+To create a contact for unknown senders of email, configure the following options in Power Automate for the associated rule item:
 
 1. In the **Is this email sender a contact or an account** step, for the **If no** option, delete the **Terminate when no valid customer found** action.
 
