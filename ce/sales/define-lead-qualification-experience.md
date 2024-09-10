@@ -106,8 +106,6 @@ If you aren't using the Sales Hub app, you can define the lead qualification exp
 3. Select the **Sales** tab.
 4. Under **Qualify lead experience**, set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **Yes** to automatically create account, contact, and opportunity records when a lead is qualified. Set it to **No** to allow salespeople to choose which records to create when a lead is qualified. 
 
-
-
 ## Field mappings to other entities
 
 When a lead is qualified, values of some fields from leads are automatically mapped to the corresponding fields in accounts, contacts, and opportunities. To know why you can't delete out-of-the-box field mappings and apply custom field mappings for lead qualification, see [this FAQ](faq-lead.md#lead-qualification-custom-field-mappings).
